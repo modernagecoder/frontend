@@ -4,34 +4,28 @@ description: "A Transition Year coding course for students in Ireland: Python, a
 canonical: https://learn.modernagecoders.com/transition-year-coding-course-ireland
 source: src/pages/transition-year-coding-course-ireland.html
 ---
-> A good Transition Year coding course runs for the whole year and ends with one finished project the student can show and explain. The Transition Year Programme Statement, in all Irish schools since September 2025, lets each school design its own TY, allows externally provided learning only within the context of the school's TY programme, and says TY should not be used to start Leaving Cert courses early. So the right course is exploration, not a head start: Python first, then an app, website, data project or AI model built to the end. Modern Age Coders teaches TY students live online in groups of fifteen to twenty or one to one. The first class costs nothing, and the course is then USD 100 a month in a group or USD 150 a month one to one.
+> A Transition Year coding course for students in Ireland: Python, apps and AI across the whole TY year, fitted to your school's programme. First class free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Ireland](/coding-classes-in-ireland) / Transition Year coding, Ireland
+In short
 
-Ireland · Transition Year · A project for the whole year
+A good Transition Year coding course runs for the whole year and ends with one finished project the student can show and explain. The Transition Year Programme Statement, in all Irish schools since September 2025, lets each school design its own TY, allows externally provided learning only within the context of the school's TY programme, and says TY should not be used to start Leaving Cert courses early. So the right course is exploration, not a head start: Python first, then an app, website, data project or AI model built to the end. Modern Age Coders teaches TY students live online in groups of fifteen to twenty or one to one. The first class costs nothing, and the course is then USD 100 a month in a group or USD 150 a month one to one.
 
-# Transition Year coding course in Ireland
-
-Transition Year has a new rulebook. From September 2025 every Irish school has been working to the Transition Year Programme Statement, published in August 2024 to replace guidelines that had stood since 1994. It describes TY as a standalone year built on four Student Dimensions, lets each school design its own programme, and asks that students become more skilled with digital technologies "both as a user and a creator". That last phrase is the whole case for coding in TY. A student who spends the year building one real thing, an app, a website with its own data, or a small AI model, finishes with something to show in the portfolio, a clear sense of whether computing is for them, and the habit of sticking with a hard problem for months. This page explains what the statement asks, how outside learning has to fit a school's own programme, what the national numbers show, and how a live online course can run alongside the TY timetable from September to May.
-
-At a glance: For: Transition Year students; Runs: September to May; Builds: One finished project; Learns: Python, apps, web, data, AI; Fits: Your school's TY programme; Group: Fifteen to twenty, or one to one; Hours: Evenings, weekends or by arrangement; Start: A free first class. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three year-long projects for Transition Year
 
 Each of these can carry a student from September to a finished piece of work in May. The card opens the full syllabus.
 
-- [App Development for Teens](/courses/complete-app-development-masterclass-for-teens): A phone app designed for a real user, built across the year and released to friends and family before the TY showcase.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens): A small model trained on data the student collects, tested honestly, and explained in plain words to a room of parents.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data): An investigation of an Irish open dataset, from a question in October to charts and a written finding in the spring.
+[![App Development for Teens course thumbnail](/images/app-dev-teens.webp)  TY / 01 App Development for Teens A phone app designed for a real user, built across the year and released to friends and family before the TY showcase. Open the syllabus →](/courses/complete-app-development-masterclass-for-teens)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)  TY / 02 AI and Machine Learning for Teens A small model trained on data the student collects, tested honestly, and explained in plain words to a room of parents. Open the syllabus →](/courses/ai-ml-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)  TY / 03 Data Science for Teens An investigation of an Irish open dataset, from a question in October to charts and a written finding in the spring. Open the syllabus →](/courses/data-science-course-for-teens-python-data)
+
+The Programme Statement
 
 ## What the Transition Year Programme Statement asks of schools
 
 The statement is short and readable, and it is the document a TY coordinator will work from. The points that matter for coding are these.
 
-**The Transition Year Programme Statement (NCCA, published August 2024)**
-
 | Point | What the statement says | Where |
-|---|---|---|
+| --- | --- | --- |
 | What TY is | A one-year optional programme available to all post-primary schools, standalone within senior cycle | Page 7 |
 | In schools from | September 2025, replacing the 1994 Transition Year Guidelines for Schools | Cover; Department press release |
 | Foundations | Four Student Dimensions: Personal Growth, Being a Learner, Civic and Community Engagement, and Career Exploration | Page 11 |
@@ -52,6 +46,8 @@ The statement allows for students taking part in "externally provided learning e
 So the first step is a conversation with the school's TY coordinator. We are happy to describe the course in writing for a school, and we do not promise that any school will count it.
 
 Sources, read 16 September 2026: [Transition Year Programme Statement (NCCA, 2024)](https://curriculumonline.ie/getmedia/5849acbf-0326-487a-beec-3db6b5878470/TY-Programme-Statement-ENG-INT.pdf); [Department of Education press release, 2024](https://www.gov.ie/en/department-of-education/press-releases/minister-foley-welcomes-publication-of-12-new-and-revised-leaving-certificate-subjects-and-senior-cycle-programmes/); [Curriculum Online, Transition Year](https://www.curriculumonline.ie/senior-cycle/transition-year/).
+
+Sampling, not a head start
 
 ## Why a TY coding course should not be the Leaving Cert started early
 
@@ -77,14 +73,14 @@ By spring the student can say what they enjoyed, what they found hard and what t
 
 Plans, screenshots, test results and reflections go into the TY portfolio as the year goes on, not in a rush at the end.
 
+TY in numbers
+
 ## Transition Year in numbers, and a lesson in reading them
 
 Transition Year was first piloted in September 1974 and opened to all post-primary schools in September 1994. Today virtually every school offers it: 99%, according to the Department. The Department's Education Indicators give the recent trend.
 
-**Students doing Transition Year, Education Indicators for Ireland (June 2025), indicators B.39 and B.40**
-
 | Year | Students in TY | As % of the previous Third Year |
-|---|---|---|
+| --- | --- | --- |
 | 2019 | 48,268 | 74.0% |
 | 2020 | 47,544 | 72.9% |
 | 2021 | 48,025 | 73.8% |
@@ -109,6 +105,8 @@ The policy picture is still moving. The Department has committed to universal ac
 
 Sources: [Education Indicators for Ireland, June 2025](https://assets.gov.ie/static/documents/09fe3ad4/2025_Report_Education_Indicators_for_Ireland.pdf); [Introduction of the new Programme Statement, February 2024](https://assets.gov.ie/292927/15cfebd5-51a6-431c-b713-6bfe5bc9984b.pdf); [Inspectorate, Post-primary insights 2024](https://www.gov.ie/en/department-of-education/publications/post-primary-insights-2024/). The 21.6% and 6.3 points are our own arithmetic on the table.
 
+A week or a year
+
 ## A coding week at university, and a coding year at home
 
 Some Irish universities run excellent short programmes for TY students. They and a year-long course do different jobs.
@@ -127,14 +125,14 @@ If a school offers a place, a student should take it: a week on a campus is a wo
 
 Source: [DCU, ComputeTY Coding Camp 2026](https://www.dcu.ie/engineeringandcomputing/news/2026/apr/computety-coding-camp-dcu-inspires-future-tech-talent) and [DCU School of Computing, ComputeTY](https://www.dcu.ie/computing/computety), read 16 September 2026. We have no connection with DCU.
 
+The TY year
+
 ## A project plan from September to May
 
 Set against the 2026/27 school calendar fixed by Circular 0018/2026. Each school's TY programme has its own rhythm, so the plan bends around trips, placements and events.
 
-**A year-long TY coding project, 2026/27**
-
 | When | Stage | The student |
-|---|---|---|
+| --- | --- | --- |
 | September to the October mid-term | 1. Python, quickly | Writes and fixes short programs every week |
 | After the mid-term (schools close 26 to 30 October 2026) to Christmas | 2. A first small build | Finishes a mini website or game and shows it to the group |
 | From 6 January 2027 to the February mid-term | 3. Choosing the big project | Picks an app, a data investigation or an AI model, with a real user in mind |
@@ -144,63 +142,293 @@ Set against the 2026/27 school calendar fixed by Circular 0018/2026. Each school
 ### Why a year, not a week
 
 The things a TY student learns from a long project, planning, getting stuck, starting a part again, finishing, simply cannot happen in a week. That is also what employers and colleges mean by experience.
+
 Where each skill leads after TY is laid out stage by stage on the [coding roadmap](/coding-roadmap).
 
 ### Around placements and trips
 
 TY is full of good interruptions: two to four weeks of placements, trips, musicals and mini-companies. Lessons pause when they need to and the project plan moves with them.
+
 A work placement in a technology company is a natural partner to the project; the student will understand far more of what they see.
+
+The catalogue
 
 ## Nine live courses that suit Transition Year
 
 Grouped by the kind of project a student wants to finish. The free first class helps a student pick a course and a starting level.
 
+I
+
 ### Make something people use
 
 Apps and websites
 
-- [App Development for Teens](/courses/complete-app-development-masterclass-for-teens): A phone app, from a paper sketch to real users.
-- [Full Stack Web Development for Teens](/courses/full-stack-web-development-teens-masterclass): A site that stores and serves its own data.
-- [Git and GitHub for Teens](/courses/git-github-version-control-course-for-teens): Every change saved, so the portfolio shows the journey.
+TY / MAKE / 01
+
+#### App Development for Teens
+
+A phone app, from a paper sketch to real users.
+
+[Open the syllabus](/courses/complete-app-development-masterclass-for-teens)
+
+TY / MAKE / 02
+
+#### Full Stack Web Development for Teens
+
+A site that stores and serves its own data.
+
+[Open the syllabus](/courses/full-stack-web-development-teens-masterclass)
+
+TY / MAKE / 03
+
+#### Git and GitHub for Teens
+
+Every change saved, so the portfolio shows the journey.
+
+[Open the syllabus](/courses/git-github-version-control-course-for-teens)II
 
 ### Find something out
 
 Data and AI
 
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data): An Irish dataset, a question and an honest answer.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens): A model trained on the student's own data.
-- [AI Tools for Teens](/courses/teens-ai-tools-mastery-course): Using AI tools with judgement, for thirteen and up.
+TY / FIND / 01
+
+#### Data Science for Teens
+
+An Irish dataset, a question and an honest answer.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)
+
+TY / FIND / 02
+
+#### AI and Machine Learning for Teens
+
+A model trained on the student's own data.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+TY / FIND / 03
+
+#### AI Tools for Teens
+
+Using AI tools with judgement, for thirteen and up.
+
+[Open the syllabus](/courses/teens-ai-tools-mastery-course)III
 
 ### Go deeper into code
 
 For students who love the puzzle
 
-- [Python for Teens](/courses/python-complete-masterclass-teens): The language under almost every TY project here.
-- [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens): Algorithms for students who enjoy hard puzzles.
-- [Java for Teens](/courses/java-programming-masterclass-for-teens): A typed language, for a second way of thinking.
+TY / DEEP / 01
+
+#### Python for Teens
+
+The language under almost every TY project here.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+TY / DEEP / 02
+
+#### Problem Solving for Teens
+
+Algorithms for students who enjoy hard puzzles.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
+
+TY / DEEP / 03
+
+#### Java for Teens
+
+A typed language, for a second way of thinking.
+
+[Open the syllabus](/courses/java-programming-masterclass-for-teens)
+
+How the classes run
 
 ## Weekly lessons that fit around a busy TY
 
 Lessons are live, with a teacher in India at a set time in Irish time. India never moves its clocks, so our teachers are four and a half hours ahead while Ireland is on summer time and five and a half ahead after the clocks go back in October. TY students often have more flexible days than other years, so there is more choice of slot.
 
-- **Weekday evening** The usual choice, Irish time, after the school day.
-- **Weekend** Longer sessions when a project needs a push.
-- **By arrangement** Where a school fits the class into its own TY timetable.
+Weekday evening
 
-- **The first class is on us** The student writes real code with a teacher, talks about project ideas, and gets a suggested course and level.
-- **Fifteen to twenty per group** TY students and others of the same level, sharing progress and testing each other's projects.
-- **One to one** For a student with a very particular project, or a timetable that will not fit a group.
-- **A log for the portfolio** Each week the student notes what they built and what went wrong, which becomes the portfolio reflection.
-- **A letter for the school** On request we describe the course in writing for a TY coordinator; the school decides how it fits.
-- **A showcase at the end** The finished project is presented to the group and can be shown at the school's TY events.
+The usual choice, Irish time, after the school day.
+
+Weekend
+
+Longer sessions when a project needs a push.
+
+By arrangement
+
+Where a school fits the class into its own TY timetable.
+
+### The first class is on us
+
+The student writes real code with a teacher, talks about project ideas, and gets a suggested course and level.
+
+### Fifteen to twenty per group
+
+TY students and others of the same level, sharing progress and testing each other's projects.
+
+### One to one
+
+For a student with a very particular project, or a timetable that will not fit a group.
+
+### A log for the portfolio
+
+Each week the student notes what they built and what went wrong, which becomes the portfolio reflection.
+
+### A letter for the school
+
+On request we describe the course in writing for a TY coordinator; the school decides how it fits.
+
+### A showcase at the end
+
+The finished project is presented to the group and can be shown at the school's TY events.
+
+Student work
+
+## Finished projects by our students
+
+Four projects that our students built and published; the kind of work a TY year can end with. More are on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees for the TY course
 
 Paid monthly in US dollars at one rate for every country outside India. There is nothing to pay upfront for the year, no enrolment charge, and a student can stop at the end of any month if their TY plans change.
 
-- Free first class: USD 0. Real code and a talk about project ideas. A suggested course and level. No card taken.
-- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher for the year. Project checked every week. A certificate when the course is complete.
-- One to one: USD 150 a month. A teacher for one student. Built around an unusual project or timetable. Flexible around placements.
+Free first class
+
+USD 0
+
+no card required
+
+- Real code and a talk about project ideas
+- A suggested course and level
+- No card taken
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students at one level
+- The same teacher for the year
+- Project checked every week
+- A certificate when the course is complete
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one student
+- Built around an unusual project or timetable
+- Flexible around placements
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Reviews exactly as families and students posted them on Google. Nobody was paid or prompted to write one.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about TY
 
 ## What TY students, parents and coordinators ask
 
@@ -244,15 +472,54 @@ A weekday evening or a weekend slot chosen in the free class, or a time a school
 
 We call back at a reasonable hour in Ireland to arrange the free first class. There is no charge unless the student decides to go on.
 
+Elsewhere on this site
+
 ## Before and after Transition Year
 
-- [Best coding classes for teens in Ireland](/best-coding-classes-for-teens-ireland): The whole secondary route.
-- [Junior Cycle Coding help](/junior-cycle-coding-short-course-help): For the years before TY.
-- [Leaving Cert Computer Science grinds](/leaving-cert-computer-science-grinds-online): For students who choose the subject.
-- [After CoderDojo](/after-coderdojo-next-step-coding-ireland): For TY students who started at a club.
-- [Understand the code, do not copy-paste](/understand-the-code-dont-copy-paste-ireland): Using AI help without losing the learning.
-- [Coding classes in Ireland](/coding-classes-in-ireland): The national page.
+Pages for the years either side of TY.
 
-## Contact
+### [Best coding classes for teens in Ireland](/best-coding-classes-for-teens-ireland)
 
-Book the free first class at [https://learn.modernagecoders.com/transition-year-coding-course-ireland](https://learn.modernagecoders.com/transition-year-coding-course-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The whole secondary route.
+
+### [Junior Cycle Coding help](/junior-cycle-coding-short-course-help)
+
+For the years before TY.
+
+### [Leaving Cert Computer Science grinds](/leaving-cert-computer-science-grinds-online)
+
+For students who choose the subject.
+
+### [After CoderDojo](/after-coderdojo-next-step-coding-ireland)
+
+For TY students who started at a club.
+
+### [Understand the code, do not copy-paste](/understand-the-code-dont-copy-paste-ireland)
+
+Using AI help without losing the learning.
+
+### [Coding classes in Ireland](/coding-classes-in-ireland)
+
+The national page.
+
+Start here
+
+## Start the TY project with a free class
+
+Leave a number and we will phone at a time that suits you in Ireland. In the free class the student writes some code, talks through project ideas with a teacher, and leaves with a plan for the year.
+
+Want to see more before you decide? There is a page on [the way our teachers work](/how-we-teach), a syllabus for [each of our courses](/courses), and a gallery of [projects our students finished](/student-labs).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Transition%20Year%20in%20Ireland%20and%20would%20like%20a%20free%20first%20coding%20class.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+You can also message us on WhatsApp, which is free from an Irish mobile and often quickest. The number is an Indian one because our teachers and team are in India; we have no premises in Ireland.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/transition-year-coding-course-ireland*

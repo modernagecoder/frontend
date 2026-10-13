@@ -4,46 +4,32 @@ description: "Coding, Python, AI and data classes for learners in Longford town 
 canonical: https://learn.modernagecoders.com/best-coding-class-in-longford
 source: src/pages/best-coding-class-in-longford.html
 ---
-> Longford town has 10,822 usual residents in 4,037 households, and a home broadband line is all a lesson with us needs. Each lesson is taught live on video, by a teacher working with a few learners at one level or with one learner, around twice a week, for ages six to sixty-seven. The first lesson is free, and a month of group lessons costs USD 100 after that, or USD 150 for private teaching.
+> Coding, Python, AI and data classes for learners in Longford town aged 6 to 67, live online in small groups at one level or one to one. First lesson free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [County Longford](/coding-classes-in-county-longford) / Longford
-
-Longford town, County Longford / Live online
-
-# Coding classes in Longford town
-
-**What is the best coding class in Longford town?** Longford town has 10,822 usual residents in 4,037 households, and a home broadband line is all a lesson with us needs. Each lesson is taught live on video, by a teacher working with a few learners at one level or with one learner, around twice a week, for ages six to sixty-seven. The first lesson is free, and a month of group lessons costs USD 100 after that, or USD 150 for private teaching.
-
-Suppose you wanted to ask every household in Longford town a question, and chose an online form because it is quick and cheap. Before a single reply arrives, the census can tell you who that form will never hear from. In 2022, 430 of the town's households said they had no internet at all. Ask the online form "does your home have internet?" and every answer will be yes: one hundred percent, against a true figure nearer 88. That is the extreme case of a problem every survey has, called coverage: the method decides who can answer. This page plans a survey of Longford, counts who each method can reach, and separates that problem from a second one Longford also shows clearly, people who are reached but leave a question blank.
-
-Facts last verified 19 September 2026. Teaching is online; no Longford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Longford town
 
 ## Where Longford town learners start
 
 Each course below suits an age range; the free first lesson is where its teacher decides the exact starting point.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Block coding with quiz games, including one where the way the question is asked changes who can answer.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Python surveys and tallies, and a first look at who is missing from a set of answers.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): Survey design, coverage and non-response, using real census counts to test each idea.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (College and adult): For adults who run customer or staff surveys and need to know who the method leaves out.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlock coding with quiz games, including one where the way the question is asked changes who can answer.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsPython surveys and tallies, and a first look at who is missing from a set of answers.See the syllabus](/courses/python-ai-kids-masterclass)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensSurvey design, coverage and non-response, using real census counts to test each idea.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)College and adultData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For adults who run customer or staff surveys and need to know who the method leaves out.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## Plan a survey of Longford, and count who it can never reach
 
 The census asked every household about internet access. That one table tells the learner, in advance, how much of the town an online survey could possibly hear from.
 
-**Internet access in Longford town households, Census 2022**
-
 | Household reported | Households |
-|---|---|
+| --- | --- |
 | Broadband | 3,033 |
 | Other internet connection | 103 |
 | No internet | 430 |
@@ -62,10 +48,8 @@ Ask "does your home have internet?" through that form and every reply is yes: 10
 
 The CSO's 2025 household survey puts 95 percent of homes online. Almost all households with children are connected, against 88 percent of single adults living without children, and of the unconnected 5 percent, 59 percent say they do not need the internet.
 
-**Two different kinds of missing answer, both visible in Longford**
-
 | Kind of gap | What it means | In Longford town |
-|---|---|---|
+| --- | --- | --- |
 | Coverage | People the method cannot reach at all | 430 households with no internet, for an online form |
 | Non-response | People reached who leave a question blank | 1,361 of 6,376 skipped journey time, 21.3 percent |
 
@@ -74,6 +58,8 @@ The CSO's 2025 household survey puts 95 percent of homes online. Almost all hous
 Coverage and non-response are different problems. Non-response shows up in the data as blanks, and at 21.3 percent Longford has the highest rate for journey time among the 94 towns of 5,000 or more. Coverage leaves no trace at all: the people a method cannot reach never appear, not even as blanks. That is why the census did not rely on any single channel. Enumerators delivered questionnaires to every dwelling expected to be occupied on census night, which is the only reason the 430 offline homes are counted anywhere.
 
 The learner builds a small model of the town from the census rows: 3,033 broadband homes, 103 with another connection, 430 with none and 471 unknown. Then they write three survey methods as functions, an online form that can only select connected homes, a phone and post method that can select any home, and a door-to-door visit, and run each on the same question. The online method reports 100 percent connected every time, however large the sample. Adding a non-response step on top shows the second gap separately, so the learner can see which problem a bigger sample fixes, and which one it never can.
+
+Designing for reach
 
 ## Closing a gap that never shows in the answers
 
@@ -91,16 +77,18 @@ Post, phone and visits reach homes that forms on a website never will. Combining
 
 A survey result should say which households its method could not reach, alongside the answers it did get. Leaving that out makes a partial picture look complete.
 
-**What this page does not claim** It does not say who Longford's 430 offline households are: the town tables do not describe them. The national survey describes Ireland in 2025, not Longford in 2022, and is quoted only to show the kind of household a coverage gap tends to contain. It takes no view on broadband policy.
+What this page does not claim
+
+It does not say who Longford's 430 offline households are: the town tables do not describe them. The national survey describes Ireland in 2025, not Longford in 2022, and is quoted only to show the kind of household a coverage gap tends to contain. It takes no view on broadband policy.
+
+The town in the census
 
 ## The census count for Longford town
 
 From the Census 2022 small area tables for the town of Longford, Co Longford: usual residents and the households they form.
 
-**Longford town in the 2022 tables**
-
 | Recorded | Longford town |
-|---|---|
+| --- | --- |
 | Usual residents | 10,822 |
 | Households | 4,037 |
 | Households with no internet | 430 |
@@ -121,7 +109,11 @@ Of 2,833 journeys to school, college or childcare, 1,059 are made as a car passe
 
 Longford town's working residents gave these answers on home-working: 571 do some or all of their work at home, 2,656 never do, and 769 did not say.
 
-**The station** Irish Rail gives the station address as Convent Rd, Longford, Co. Longford, Eircode N39 E3T9, with sheltered bike parking at the station. It has no connection with us.
+The station
+
+Irish Rail gives the station address as Convent Rd, Longford, Co. Longford, Eircode N39 E3T9, with sheltered bike parking at the station. It has no connection with us.
+
+Learning here
 
 ## Lessons for Longford town learners
 
@@ -141,14 +133,37 @@ Adults bring every kind of background, none in code included, and the first less
 
 Figures from the census are printed as the Central Statistics Office has them, and the national survey figures are the CSO's too, quoted as published. The survey model was built from the published town table on 19 September 2026. Irish Rail is quoted from its own station page.
 
+Learning ladder
+
 ## From quiz games to survey design
 
 These age bands are a first guess, which the opening lesson corrects where needed.
 
-- **Ages 6 to 10: Asking questions** Block-coded quizzes that collect answers and show who took part. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Tallies and gaps** Python tallies of survey answers, and a count of who was never asked. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Survey design** Sampling, coverage and non-response, simulated on real census counts. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **Ages 18 to 67: Surveys at work** Customer and staff surveys that report who they could not reach as well as what they heard. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### Asking questions
+
+Block-coded quizzes that collect answers and show who took part.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Tallies and gaps
+
+Python tallies of survey answers, and a count of who was never asked.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Survey design
+
+Sampling, coverage and non-response, simulated on real census counts.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)Ages 18 to 67
+
+### Surveys at work
+
+Customer and staff surveys that report who they could not reach as well as what they heard.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## Ask an assistant to design a survey for Longford
 
@@ -160,30 +175,139 @@ Having done this project, a learner asks the assistant a second question: who ca
 
 Tools make collecting data easy. Knowing who the collection leaves out is a skill that has to be learned. The longer argument is in [why coding is a sound thing to learn now](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How lessons run for Longford town
 
 Details.
 
-- **A teacher on every call** The teacher is present throughout and works directly with the code the learner writes.
-- **One level per group** Each group has fifteen to twenty members, all at the same point in the course, from Longford, elsewhere in Ireland and overseas.
-- **How often** Two lessons in a typical week, around eight in a month, at times fixed with the family.
-- **Term-aware** Holidays, mid-term breaks and exam weeks are part of the course plan from the start.
-- **What a home needs** A broadband line, which 430 Longford homes reported not having, plus a laptop or desktop and a microphone with speakers or headphones. Our lessons have the same coverage limit as an online survey.
-- **Private lessons** Private lessons are set up for a learner who needs their own pace, their own level or their own hour.
+### A teacher on every call
 
-**No local classroom** Longford town learners join every lesson on video. We have no premises in Longford or anywhere in Ireland, and the lesson is the same from any connected home.
+The teacher is present throughout and works directly with the code the learner writes.
+
+### One level per group
+
+Each group has fifteen to twenty members, all at the same point in the course, from Longford, elsewhere in Ireland and overseas.
+
+### How often
+
+Two lessons in a typical week, around eight in a month, at times fixed with the family.
+
+### Term-aware
+
+Holidays, mid-term breaks and exam weeks are part of the course plan from the start.
+
+### What a home needs
+
+A broadband line, which 430 Longford homes reported not having, plus a laptop or desktop and a microphone with speakers or headphones. Our lessons have the same coverage limit as an online survey.
+
+### Private lessons
+
+Private lessons are set up for a learner who needs their own pace, their own level or their own hour.
+
+No local classroom
+
+Longford town learners join every lesson on video. We have no premises in Longford or anywhere in Ireland, and the lesson is the same from any connected home.
+
+Fees
 
 ## Fees for Longford town
 
 Every price.
 
-- First class: USD 0. A full first lesson with the level assessed, at no charge.
-- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at the same level, about eight live lessons.
-- Private tuition: USD 150 a month. A month of private lessons on the same weekly pattern.
+First class**USD 0**
+
+A full first lesson with the level assessed, at no charge.
+
+Group tuition**USD 100**
+
+A month in a group of fifteen to twenty at the same level, about eight live lessons.
+
+Private tuition**USD 150**
+
+A month of private lessons on the same weekly pattern.
 
 Every family outside India is charged the same monthly amount in US dollars. There is nothing to pay for the free first lesson, charges begin with the course, and the pricing page describes holidays, missed lessons and changing between group and private lessons.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Longford%20town.)Reviews
+
+## Six families on Google, their reviews reproduced intact
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free first lesson in Longford town
+
+Tell us who the learner is, their age and interests, and the first hour is designed for them. It might end in a game, a program that runs, or a survey plan that counts who it can reach.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Longford one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Longford%20town.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Longford town coding class questions
+
+What families in Longford town ask first.
 
 ### How many people live in Longford town?
 
@@ -225,10 +349,14 @@ The first lesson is free. After that a shared place costs USD 100 a month and br
 
 Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
+Explore Ireland
+
 ## Across the midlands
 
 The [County Longford](/coding-classes-in-county-longford) page covers the county, and the nearest large-town pages in the series are [Mullingar](/best-coding-class-in-mullingar) and [Athlone](/best-coding-class-in-athlone), all within [Leinster](/coding-and-ai-classes-in-leinster). For a plain comparison of online coding schools see [this page](/best-online-coding-classes-ireland), and the [Ireland hub](/coding-classes-in-ireland) lists the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Longford%20town.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-longford](https://learn.modernagecoders.com/best-coding-class-in-longford#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-longford*

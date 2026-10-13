@@ -4,46 +4,32 @@ description: "Live online vibe coding, AI agents and Python lessons for Sutton C
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-sutton-coldfield-birmingham
 source: src/pages/vibe-coding-and-ai-agents-classes-in-sutton-coldfield-birmingham.html
 ---
-> The ONS counted 93,375 people in the Royal Sutton Coldfield built-up area at the 2021 census, inside the city of Birmingham. Four Oaks, Mere Green, Boldmere, Walmley, Wylde Green and Maney are among its recorded suburbs. Six-year-olds, teenagers and adults up to 67 can all take vibe coding, AI agents, Python, coding and maths here by live video with a tutor in India, in private sessions or a class of fifteen to twenty at one stage. We teach how systems behave before handing over tools, so learners understand why an agent gets blocked and how to stop it happening. A free first session ends with our pick of course. The Sutton Coldfield project records 20 real map downloads covering the town, then tests how different agents fare against a service that rations data with a token bucket. Afterwards a class place is USD 100 per month and a private tutor USD 150 per month.
+> Live online vibe coding, AI agents and Python lessons for Sutton Coldfield, Four Oaks, Boldmere and Walmley learners aged 6 to 67. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [West Midlands region](/coding-and-ai-classes-in-west-midlands-region) / Sutton Coldfield
-
-Sutton Coldfield, Birmingham, England / Live online
-
-# Vibe coding and AI agents classes in Sutton Coldfield
-
-**Where can Sutton Coldfield learners find the best vibe coding and AI agents classes?** The ONS counted 93,375 people in the Royal Sutton Coldfield built-up area at the 2021 census, inside the city of Birmingham. Four Oaks, Mere Green, Boldmere, Walmley, Wylde Green and Maney are among its recorded suburbs. Six-year-olds, teenagers and adults up to 67 can all take vibe coding, AI agents, Python, coding and maths here by live video with a tutor in India, in private sessions or a class of fifteen to twenty at one stage. We teach how systems behave before handing over tools, so learners understand why an agent gets blocked and how to stop it happening. A free first session ends with our pick of course. The Sutton Coldfield project records 20 real map downloads covering the town, then tests how different agents fare against a service that rations data with a token bucket. Afterwards a class place is USD 100 per month and a private tutor USD 150 per month.
-
-Almost every online service an AI agent uses, from map data to language models, limits how fast a client may ask. A common way to do it is the token bucket. Picture a bucket that holds a fixed number of tokens and is topped up at a steady drip. Every request spends tokens; if there are not enough, the request is refused. A full bucket allows a short burst, and after that the drip sets the pace. An agent that does not understand this fires requests, gets refused, waits a guess, and tries again. An agent that does understand it never gets refused at all. This project compares them, using the sizes of real map downloads over Sutton Coldfield.
-
-Facts last verified 30 September 2026. Teaching is online; no Sutton Coldfield branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentSutton Coldfield course picks
 
 ## Sutton Coldfield courses in thinking, vibe coding and agents
 
 Pick the age band that fits. Whichever course it is, lesson one is live, costs nothing and needs no card.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think course: taking turns, sharing a limited supply and planning ahead.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games the child invents, an AI helps to code, and the child tests.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python and web projects with AI help, including the rate-limited download agent.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): Agents that call real services politely: limits, queues and retries, in Python.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think course: taking turns, sharing a limited supply and planning ahead.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games the child invents, an AI helps to code, and the child tests.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensPython and web projects with AI help, including the rate-limited download agent.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseAgents that call real services politely: limits, queues and retries, in Python.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Sutton Coldfield
 
 ## Four Oaks, Boldmere, Walmley and the Sutton wards
 
 The ONS built-up area count, and Census 2021 residents in the eight Sutton wards of Birmingham.
 
-**Royal Sutton Coldfield built-up area (ONS) and Birmingham wards beginning "Sutton", Census 2021 via Nomis**
-
 | Area | Residents (2021) |
-|---|---|
+| --- | --- |
 | Royal Sutton Coldfield built-up area | 93,375 |
 | Sutton Vesey ward | 20,113 |
 | Sutton Walmley & Minworth ward | 16,318 |
@@ -60,6 +46,8 @@ The built-up area and the wards are drawn on different boundaries, so the ward r
 
 See [coding classes in Birmingham](/coding-classes-in-birmingham) and [the West Midlands](/coding-classes-in-the-west-midlands). The reason thinking comes before tools is on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Sutton Coldfield project
+
 ## A token bucket and seven agents: fetching Sutton Coldfield without being refused
 
 Real download sizes, one invented rationing rule, and a count of every refusal.
@@ -68,10 +56,8 @@ First the learner downloads the OpenStreetMap data for a rectangle over Sutton C
 
 Then comes the experiment, which is a simulation. We invent a server rule, and it is ours, not OpenStreetMap's: a bucket holding 20 MB of allowance that refills at 1 MB per second, with any request bigger than the current allowance refused. Seven agents replay the same 20 real tiles against that rule. Because 112.0 MB must pass through a bucket that starts with 20 MB and gains 1 MB a second, no agent can possibly finish in under about 92 seconds.
 
-**Twenty real Sutton Coldfield map tiles replayed against our invented 20 MB, 1 MB per second token bucket**
-
 | Agent | Time to finish | Requests refused |
-|---|---|---|
+| --- | --- | --- |
 | Fire at once, retry every second | 93.9 s | 39 |
 | Fire at once, retry every 5 seconds | 94.9 s | 8 |
 | Fire at once, retry every 30 seconds | 144.9 s | 3 |
@@ -98,14 +84,14 @@ Build all seven agents, measure refusals and time, and design one that copes whe
 
 Tile sizes and timings come from our own downloads of OpenStreetMap data, which is published by OpenStreetMap and its contributors under the Open Database Licence. The 20 MB and 1 MB per second rule is invented for teaching and is not OpenStreetMap's policy; real services publish their own limits, and an agent should read and respect them.
 
+Polite agents
+
 ## What this teaches about vibe coding and AI agents
 
 An agent is a guest on every service it calls.
 
-**From the Sutton Coldfield bucket to real AI agents**
-
 | In the download project | When an agent calls real services |
-|---|---|
+| --- | --- |
 | Retrying every second was refused 39 times | Hammering a limit gets clients blocked |
 | A 10-second pause wasted two and a half minutes | Blind caution is slow |
 | Modelling the bucket gave zero refusals | Knowing the rule lets an agent go at full speed safely |
@@ -116,14 +102,37 @@ Language model services meter their clients in much the same way, by requests an
 
 We are independent of OpenStreetMap, the Office for National Statistics, Nomis and postcodes.io. Their open data is all we used, and the simulation, with any faults, is our own.
 
+Stages
+
 ## From counters in a jar to well-behaved agents
 
 We treat the school year as a first guess and let the trial lesson correct it.
 
-- **Years 2 to 7: How to think** Turns, limits and planning with a fixed supply. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Small games and apps, described to an AI and tested by the child. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python and the web** APIs, limits and simulation alongside GCSE and A level. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Agents in production** Rate limits, queues, retries and monitoring for Python agents. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Years 2 to 7
+
+### How to think
+
+Turns, limits and planning with a fixed supply.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Small games and apps, described to an AI and tested by the child.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python and the web
+
+APIs, limits and simulation alongside GCSE and A level.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Agents in production
+
+Rate limits, queues, retries and monitoring for Python agents.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)Agents and limits
 
 ## What is a token bucket, and how should an AI agent handle rate limits?
 
@@ -135,30 +144,139 @@ Learners who have run that race ask of any agent that calls a service: does it k
 
 Building agents that respect limits is how Sutton Coldfield teenagers learn to be trusted with real systems, and that starts with writing the code themselves. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Four Oaks to Wylde Green, by video
 
 A computer, a webcam and a home connection that can stream are the full kit list.
 
-- **Pupils at the keyboard** The learner writes the code and the prompts; the tutor watches the shared screen and asks what will happen next.
-- **Trial decides the level** Half an hour of real work shows where to start, and any exam board is noted.
-- **First session free** No fee for the trial, which ends with a course suggestion.
-- **Fifteen to twenty per class** Classmates come from across the UK and share a level.
-- **Twice a week** Term time only.
-- **Fixed slot** Clock changes are handled by the tutor, so your time does not move.
+### Pupils at the keyboard
 
-**Why not a classroom** A class of five at one level, free on the same evening, is hard to gather in one suburb. Online, the class forms wherever the learners are.
+The learner writes the code and the prompts; the tutor watches the shared screen and asks what will happen next.
+
+### Trial decides the level
+
+Half an hour of real work shows where to start, and any exam board is noted.
+
+### First session free
+
+No fee for the trial, which ends with a course suggestion.
+
+### Fifteen to twenty per class
+
+Classmates come from across the UK and share a level.
+
+### Twice a week
+
+Term time only.
+
+### Fixed slot
+
+Clock changes are handled by the tutor, so your time does not move.
+
+Why not a classroom
+
+A class of five at one level, free on the same evening, is hard to gather in one suburb. Online, the class forms wherever the learners are.
+
+Fees
 
 ## Sutton Coldfield fees
 
 Learners in Sutton Coldfield are on our international price list, used in every country except India.
 
-- First class: USD 0. One complete lesson free, then our advice.
-- Group tuition: USD 100 a month. Around eight live class lessons each month.
-- Private tuition: USD 150 a month. Around eight live private lessons each month.
+First class**USD 0**
+
+One complete lesson free, then our advice.
+
+Group tuition**USD 100**
+
+Around eight live class lessons each month.
+
+Private tuition**USD 150**
+
+Around eight live private lessons each month.
 
 We quote US dollars and do not publish pound prices. Billing starts only after the trial has fixed the course and a regular time, and the pricing page explains holidays, missed lessons and moving between class and private tuition.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Sutton%20Coldfield%3F)Reviews
+
+## What West Midlands parents and learners elsewhere say on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Sutton Coldfield lesson
+
+Send an age or year group and something the learner is keen on. We might begin with the counter-jar game, a Scratch project steered by the child and typed by an AI, some beginner Python, or a small agent that fetches data politely.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Sutton Coldfield one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Sutton%20Coldfield%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Sutton Coldfield questions
+
+Rate limits, the download project, vibe coding, agents and the practical side.
 
 ### How many people live in Sutton Coldfield?
 
@@ -200,10 +318,14 @@ Free for the trial, then USD 100 per month in a class or USD 150 per month priva
 
 No; tell us the dates and we pause.
 
+Nearby
+
 ## More Birmingham and West Midlands pages
 
 Other pages, each with a different project: [Tamworth](/best-coding-and-ai-classes-in-tamworth), [Lichfield](/best-coding-class-in-lichfield), [Walsall](/best-coding-and-ai-classes-in-walsall) and [Birmingham](/coding-classes-in-birmingham). The [UK hub](/coding-classes-in-united-kingdom) lists every area.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Sutton%20Coldfield%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-sutton-coldfield-birmingham](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-sutton-coldfield-birmingham#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-sutton-coldfield-birmingham*

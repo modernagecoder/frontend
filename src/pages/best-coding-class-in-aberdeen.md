@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths classes for Aberdeen lear
 canonical: https://learn.modernagecoders.com/best-coding-class-in-aberdeen
 source: src/pages/best-coding-class-in-aberdeen.html
 ---
-> Scotland's Census 2022 put about 224,000 usual residents in Aberdeen City, with 68.2% aged 15 to 64 against 64.6% across Scotland. The University of Aberdeen was founded in 1495, and its Marischal College gained the facade in 1906 that the University calls the second-largest granite building in the world. Modern Age Coders teaches Aberdeen learners aged six to sixty-seven live online, one to one or in groups of fifteen to twenty placed by level, with teachers based in India and lessons timed in UK hours. The first lesson is free of charge; after that a group place is USD 100 a month and private teaching USD 150 a month.
+> Live online coding, Python, AI and maths classes for Aberdeen learners aged 6 to 67, from Old Aberdeen and Cults to Bridge of Don. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Aberdeen
-
-Aberdeen, Scotland / Live online
-
-# Coding classes in Aberdeen
-
-**What are the best coding classes in Aberdeen?** Scotland's Census 2022 put about 224,000 usual residents in Aberdeen City, with 68.2% aged 15 to 64 against 64.6% across Scotland. The University of Aberdeen was founded in 1495, and its Marischal College gained the facade in 1906 that the University calls the second-largest granite building in the world. Modern Age Coders teaches Aberdeen learners aged six to sixty-seven live online, one to one or in groups of fifteen to twenty placed by level, with teachers based in India and lessons timed in UK hours. The first lesson is free of charge; after that a group place is USD 100 a month and private teaching USD 150 a month.
-
-Ordnance Survey's Open Names file lists 3,170 distinct named places inside Aberdeen City, from Union Street to Tullos Hill. Suppose a program has to answer one question very fast and very often: is this name in Aberdeen? Storing the names takes about 300 kilobytes. A Bloom filter answers the same question from 6.2 kilobytes, and it never once says no about a name that is really there. The catch is the other direction: asked about names from Glasgow, Edinburgh and Dundee, it wrongly said yes 28 times out of 8,588, a false positive rate of 0.33%. Shrink it to 1.5 kilobytes and that rate climbs to 18%. Understanding a structure whose errors only ever point one way, and choosing how much memory to trade for accuracy, is the lesson Aberdeen's place names give our teenage learners.
-
-Facts last verified 21 September 2026. Teaching is online; no Aberdeen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Aberdeen
 
 ## Four courses for the Granite City
 
 Choose by what the learner enjoys. Every course opens with a free live lesson, booked without card details.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): Logic and first programs, where a game of guessing which words are on a secret list makes the idea of a filter obvious.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Python from a first line to full projects, including the sets and dictionaries a filter is measured against.
-- [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens) (Ages 13 to 18): Hash maps, sets and bit manipulation built from scratch, the parts a Bloom filter is assembled from.
-- [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college) (University and adult): Interview-standard data structures for adults, including the memory and accuracy trade-offs behind probabilistic structures.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsLogic and first programs, where a game of guessing which words are on a secret list makes the idea of a filter obvious.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensPython from a first line to full projects, including the sets and dictionaries a filter is measured against.See the syllabus](/courses/python-complete-masterclass-teens)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)Ages 13 to 18Problem Solving for TeensHash maps, sets and bit manipulation built from scratch, the parts a Bloom filter is assembled from.See the syllabus](/courses/problem-solving-dsa-masterclass-teens)[![Data Structures & Algorithms Course course thumbnail](/images/dsa-college.webp)University and adultData Structures & Algorithms CourseInterview-standard data structures for adults, including the memory and accuracy trade-offs behind probabilistic structures.See the syllabus](/courses/data-structures-algorithms-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Aberdeen today
 
 ## A working-age city on the north-east coast
 
 Figures from National Records of Scotland's first results for the 2022 census. Counts are rounded to the nearest hundred and printed as released.
 
-**Aberdeen City council area, Scotland's Census 2022**
-
 | Measure | Aberdeen | Scotland |
-|---|---|---|
+| --- | --- | --- |
 | Usual residents, rounded | 224,000 | 5,436,600 |
 | Usual residents in 2011 | 222,793 | Not compared |
 | Households, rounded | 109,500 | Not compared |
@@ -67,6 +53,8 @@ At 1,207.1 residents per square kilometre, Aberdeen is far denser than the Scott
 
 National Records of Scotland also reports that 21.3% of Aberdeen households had dependent children in 2022. Our learners here range across every stage: a P4 pupil in Cults making a first animation, an S4 student in Bridge of Don working towards National 5 Computing Science, or someone in their twenties in Torry learning Python for work, each in a group of fifteen to twenty at their own level.
 
+Granite and learning
+
 ## A university from 1495 and a building of granite
 
 From the University of Aberdeen's own history.
@@ -85,16 +73,18 @@ The University counts five Nobel laureates among those associated with it, inclu
 
 We have no connection with the University of Aberdeen. We tell its story because this is a city that has been recording, naming and measuring things for five centuries, and the project on this page is about doing that economically: how few bits can hold the name of every road, school, hill and suburb in Aberdeen and still answer questions about them.
 
-**Where the names come from** Ordnance Survey publishes Open Names as free data under the Open Government Licence. Filtered to Aberdeen City and with postcodes left out, it lists 3,324 named features, 3,170 of them distinct: 2,916 named roads, 74 sections of road, 52 primary schools, 42 suburban areas, 34 hills and more besides.
+Where the names come from
+
+Ordnance Survey publishes Open Names as free data under the Open Government Licence. Filtered to Aberdeen City and with postcodes left out, it lists 3,324 named features, 3,170 of them distinct: 2,916 named roads, 74 sections of road, 52 primary schools, 42 suburban areas, 34 hills and more besides.
+
+Signature project
 
 ## Every place name in Aberdeen, in six kilobytes
 
 A Bloom filter stores a set as a wall of bits. It can say a name is definitely absent, or probably present, and it is never wrong in the first direction.
 
-**A Bloom filter holding Aberdeen's 3,170 named places, tested against 8,588 names from Glasgow, Edinburgh and Dundee**
-
 | Bits per name | Memory | False positives | Measured rate | Textbook rate |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | 4 | 1.5 KB | 1,562 | 18.19% | 14.69% |
 | 8 | 3.1 KB | 437 | 5.09% | 2.16% |
 | 10 | 3.9 KB | 196 | 2.28% | 0.82% |
@@ -119,14 +109,14 @@ A Bloom filter cannot lose a name. If it says no, the answer is certain, which i
 
 The measured rates sit above the textbook formula, and the reason is worth more than the formula. The standard equation assumes perfectly independent, evenly spread hash values. Real place names share endings, hundreds of them finishing in Street, Road, Place or Crescent, and our two 32-bit hashes are not the ideal the theory imagines. A learner who only quotes the formula reports 0.05% when the honest answer, measured on real names, is 0.33%.
 
+Trading memory for certainty
+
 ## Five habits for probabilistic data structures
 
 Learned on place names, used afterwards on caches, spam filters, duplicate detection, blocklists and any system too big to hold exactly.
 
-**Using a Bloom filter responsibly**
-
 | Habit | What it looks like | What it prevents |
-|---|---|---|
+| --- | --- | --- |
 | Know which error is possible | State plainly that false positives happen and false negatives cannot | Treating a probable yes as a certain one |
 | Size it for the data | Choose bits per element and hash count together, not separately | A filter that is either huge or useless |
 | Measure on real keys | Test with names from outside the set, not random strings | A rate that only holds for tidy made-up data |
@@ -149,14 +139,37 @@ Caches, deduplication and membership tests at work, sized deliberately and alway
 
 We are not connected with Ordnance Survey, National Records of Scotland or the University of Aberdeen. Open Names is published under the Open Government Licence and the census figures are public; the filters, counts and rates are our own work.
 
+Learning ladder
+
 ## From ticking boxes to a Bloom filter
 
 The age bands are a rough guide; the free lesson finds the real starting point.
 
-- **Ages 6 to 10: Ticks and guesses** Marking boxes by a rule, spotting when two words mark the same ones, and seeing why that causes a wrong yes. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Mental Maths for Kids](/courses/mental-maths-mastery-kids)
-- **Ages 11 to 13: Sets and membership** Storing words in a list and then a set, timing the difference and counting the memory used. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Bloom filters in Python** Bit operations, several hashes per key, and both kinds of error measured on real place names. [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Memory budgets at work** Probabilistic structures in databases, caches and pipelines, chosen with their guarantees understood. [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college), [MySQL Course](/courses/mysql-database-complete-masterclass-college)
+Ages 6 to 10
+
+### Ticks and guesses
+
+Marking boxes by a rule, spotting when two words mark the same ones, and seeing why that causes a wrong yes.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Mental Maths for Kids](/courses/mental-maths-mastery-kids)Ages 11 to 13
+
+### Sets and membership
+
+Storing words in a list and then a set, timing the difference and counting the memory used.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Bloom filters in Python
+
+Bit operations, several hashes per key, and both kinds of error measured on real place names.
+
+[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Memory budgets at work
+
+Probabilistic structures in databases, caches and pipelines, chosen with their guarantees understood.
+
+[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)[MySQL Course](/courses/mysql-database-complete-masterclass-college)Coding and AI
 
 ## A computer can hold every place name in Britain. Why should an Aberdeen teenager build a Bloom filter?
 
@@ -168,30 +181,139 @@ These structures also sit inside the systems that train and serve AI. Huge text 
 
 So an Aberdeen teenager should still learn to program in 2026, in a city that has been naming and measuring itself since 1495: the interesting questions are no longer whether a computer can store something, but what it costs and what it gives up. The longer argument is in [why coding is worth learning in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Old Aberdeen, Cults or Bridge of Don, from home
 
 Aberdeen weather makes a short journey feel long; a live online lesson removes it.
 
-- **North or south of the Dee** A learner in Dyce and another in Kincorth can share one lesson without either crossing the city.
-- **Primary, secondary and national levels** Primary 1 to 7, S1 to S6, then National 5, Higher and Advanced Higher: lessons use the names Aberdeen schools use, and teaching is in English.
-- **A first lesson that teaches** The free session covers a real task and ends by recommending a level, a course and a weekly time. No card details are needed.
-- **Matched by level** Groups of fifteen to twenty learners at the same stage, drawn from Aberdeen, elsewhere in Britain and overseas, so every level finds a workable hour.
-- **Two lessons each week** A fixed pair of weekly slots, roughly eight lessons a month, with holiday and exam breaks agreed with the teacher in advance.
-- **India keeps one clock** India Standard Time never shifts, so Aberdeen runs four and a half hours behind it in British Summer Time and five and a half behind in winter, which keeps after-school and evening lessons inside the teaching day.
+### North or south of the Dee
 
-**Across the north east** Families in Westhill, Inverurie or Stonehaven join exactly the same groups, because every lesson is online and groups are formed by level rather than address.
+A learner in Dyce and another in Kincorth can share one lesson without either crossing the city.
+
+### Primary, secondary and national levels
+
+Primary 1 to 7, S1 to S6, then National 5, Higher and Advanced Higher: lessons use the names Aberdeen schools use, and teaching is in English.
+
+### A first lesson that teaches
+
+The free session covers a real task and ends by recommending a level, a course and a weekly time. No card details are needed.
+
+### Matched by level
+
+Groups of fifteen to twenty learners at the same stage, drawn from Aberdeen, elsewhere in Britain and overseas, so every level finds a workable hour.
+
+### Two lessons each week
+
+A fixed pair of weekly slots, roughly eight lessons a month, with holiday and exam breaks agreed with the teacher in advance.
+
+### India keeps one clock
+
+India Standard Time never shifts, so Aberdeen runs four and a half hours behind it in British Summer Time and five and a half behind in winter, which keeps after-school and evening lessons inside the teaching day.
+
+Across the north east
+
+Families in Westhill, Inverurie or Stonehaven join exactly the same groups, because every lesson is online and groups are formed by level rather than address.
+
+Fees
 
 ## Aberdeen lesson fees
 
 A free first lesson, then one monthly price.
 
-- First class: USD 0. A complete lesson at no cost, ending with a level, a recommended course and a proposed weekly time.
-- Group tuition: USD 100 a month. About eight live lessons a month in a group of fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. About eight live lessons a month with a teacher working only with your learner.
+First class**USD 0**
+
+A complete lesson at no cost, ending with a level, a recommended course and a proposed weekly time.
+
+Group tuition**USD 100**
+
+About eight live lessons a month in a group of fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+About eight live lessons a month with a teacher working only with your learner.
 
 Every family outside India pays the same US dollar fee, so Rosemount and Mannofield pay alike, and we publish no prices in pounds. Nothing is billed until the free lesson has settled a course and a slot; the pricing page covers pauses, missed lessons and moving between group and private teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Aberdeen.)Reviews
+
+## Six Google reviews from families, printed as written
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson for an Aberdeen learner
+
+We pick the first task by level: a box-ticking guessing game for a young child, a first Python program that uses a set, or the Open Names file and a Bloom filter for a teenager ready for real data.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Aberdeen one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Aberdeen.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Aberdeen coding class questions
+
+What Aberdeen families ask us most.
 
 ### How many people live in Aberdeen?
 
@@ -233,10 +355,14 @@ The first lesson is free. After it, a group place is USD 100 a month for two liv
 
 By level, pace and aims rather than age or postcode, with fifteen to twenty learners at one stage. If no group meets at a suitable time, we offer one-to-one lessons.
 
+Explore Scotland and the UK
+
 ## Scottish pages and other cities
 
 South along the coast, the [Edinburgh page](/best-coding-class-in-edinburgh) works out why its summer nights stay pale, and [Glasgow](/best-coding-class-in-glasgow) measures its boundary with eight rulers. The [Scotland guide](/coding-and-ai-classes-in-scotland) covers the Curriculum for Excellence, with exam help on the [National 5](/national-5-computing-science-help) and [Higher Computing Science](/higher-computing-science-help) pages.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Aberdeen.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-aberdeen](https://learn.modernagecoders.com/best-coding-class-in-aberdeen#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-aberdeen*

@@ -4,46 +4,32 @@ description: "Live online coding, Python and AI classes across County Kerry, fro
 canonical: https://learn.modernagecoders.com/coding-classes-in-county-kerry
 source: src/pages/coding-classes-in-county-kerry.html
 ---
-> County Kerry holds 156,458 people, up by 8,751 since 2016, with 28,756 of them aged 15 and under. Tralee is the largest town at 26,079 and Killarney follows at 14,412, while the rest of the county lives in smaller towns and townlands from Listowel down to Kenmare and out along the peninsulas. One Kerry school was on the first national list for Leaving Certificate Computer Science. We teach ages 6 to 67 live online at a fixed weekly hour, in ability groups of fifteen to twenty or one to one, starting with a free lesson and then USD 100 a month in a group or USD 150 privately.
+> Live online coding, Python and AI classes across County Kerry, from Tralee and Killarney to Listowel, Dingle and Kenmare, ages 6 to 67. The first lesson is free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [Cork](/best-coding-class-in-cork) / County Kerry
-
-County Kerry, Munster / Live online
-
-# Coding classes in County Kerry
-
-**What are the best coding classes in County Kerry?** County Kerry holds 156,458 people, up by 8,751 since 2016, with 28,756 of them aged 15 and under. Tralee is the largest town at 26,079 and Killarney follows at 14,412, while the rest of the county lives in smaller towns and townlands from Listowel down to Kenmare and out along the peninsulas. One Kerry school was on the first national list for Leaving Certificate Computer Science. We teach ages 6 to 67 live online at a fixed weekly hour, in ability groups of fifteen to twenty or one to one, starting with a free lesson and then USD 100 a month in a group or USD 150 privately.
-
-Here is a real problem, and a Kerry one. The Central Statistics Office published how many people in this county could speak Irish. In its summary release of 30 May 2023 the figure was 62,887. In its Profile 8 release of 19 December 2023, describing the same measure from the same census in the same county, the figure was 62,877. Ten people apart, two official documents, seven months between them. Nobody has done anything wrong, and neither number is fake. So which one do you put in your project, and what do you say about the other? That question has a right answer, it takes about four sentences to write down, and almost nobody is ever taught it. It is the centre of this page.
-
-Facts last verified 16 September 2026. Teaching is online; no County Kerry branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for County Kerry
 
 ## Four courses, four different starting points
 
 The free lesson decides which one fits. It is taught by the teacher who would take the course, and we ask for no card details at any stage.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Scratch games where two parts of the screen have to agree with each other, and do not until the child fixes them.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python from the ground up, aimed at the Junior Cycle and at Transition Year projects that need real data.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): Working with published figures that contradict each other, and writing the note that explains it.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (College and adult): For adults who report numbers to other people and need a defensible way to handle conflicting sources.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsScratch games where two parts of the screen have to agree with each other, and do not until the child fixes them.See the syllabus](/courses/scratch-programming-complete-course)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython from the ground up, aimed at the Junior Cycle and at Transition Year projects that need real data.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensWorking with published figures that contradict each other, and writing the note that explains it.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)College and adultData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For adults who report numbers to other people and need a defensible way to handle conflicting sources.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)The county today
 
 ## Kerry in the 2022 census
 
 Every figure here names Kerry County Council or a Kerry town, taken from the statistics office's Kerry releases.
 
-**County Kerry, Census 2022, Central Statistics Office**
-
 | Measure | Figure |
-|---|---|
+| --- | --- |
 | Population | 156,458, up 8,751 on 2016 |
 | Women and men | 79,071 female and 77,387 male, or 98 males for every 100 females |
 | Average age | 41.5 years, up from 40.2 in 2016 |
@@ -65,6 +51,8 @@ Non-Irish citizens make up 10% of the county. The largest groups are UK at 3,783
 
 Kerry is one of a small number of counties with a Gaeltacht. Its Gaeltacht population rose to 9,036, of whom 8,791 were aged three and over, and 6,068 of those could speak Irish, with 2,733 speaking it very well. Our teaching is in English, and every programming language uses English keywords, so a pupil from a Gaeltacht school is at no disadvantage whatsoever in one of our groups.
 
+Work and study
+
 ## One listed school, one university campus, a long commute
 
 What the county offers a learner who wants to go further than the school timetable allows.
@@ -81,10 +69,8 @@ MTU Kerry North Campus in Tralee, eircode V92 HD4V, teaches computing alongside 
 
 Fexco, headquartered on the Iveragh Road in Killorglin, opened a research, development and innovation building there housing over 125 staff across 37,000 square feet.
 
-**Getting to work in Kerry, Census 2022**
-
 | Measure | Figure |
-|---|---|
+| --- | --- |
 | People travelling to work in the county | 58,541 |
 | Driving by car | 38,084 |
 | Walking | 5,303, up from 4,812 in 2016 |
@@ -92,20 +78,22 @@ Fexco, headquartered on the Iveragh Road in Killorglin, opened a research, devel
 | By bus and by train | 652 and 96 |
 | Average journey time | 24.6 minutes, up from 22.7 minutes in 2016 |
 
-**Working from home is not yet normal here** More than 67,500 people work in Kerry. Of those, over 42,900 never work from home while more than 17,100 do at least some of the time, which the statistics office puts at 25% of the workforce against 32% nationally. Kerry is a driving county with lengthening journeys, and an evening class that requires another trip in the car is a real cost to a family, not a small one.
+Working from home is not yet normal here
+
+More than 67,500 people work in Kerry. Of those, over 42,900 never work from home while more than 17,100 do at least some of the time, which the statistics office puts at 25% of the workforce against 32% nationally. Kerry is a driving county with lengthening journeys, and an evening class that requires another trip in the car is a real cost to a family, not a small one.
+
+Signature project
 
 ## When the source disagrees with itself
 
 Two official documents, one measure, ten people between them. What does a careful person publish?
 
-**The same measure, Irish speakers aged three and over in Kerry, Census 2022**
-
 | Release | Date | Figure |
-|---|---|---|
+| --- | --- | --- |
 | Kerry summary results | 30 May 2023 | 62,887 |
 | Profile 8, the Irish language and education, Kerry | 19 December 2023 | 62,877 |
-| Difference |  | Ten people, or 0.016% |
-| What both releases agree on |  | That the number rose since 2016 and is about 44% of the county aged three and over |
+| Difference |   | Ten people, or 0.016% |
+| What both releases agree on |   | That the number rose since 2016 and is about 44% of the county aged three and over |
 
 ### The wrong move
 
@@ -125,14 +113,14 @@ A ten-person gap in a county of 156,458 changes nothing about Kerry. The point i
 
 The second half of the project is a structural trap in the same statistics office's own tables. Filter the population table to Kerry County Council and you get one row for each town-size band, plus a row labelled "Ireland". That row is not the national population at all; it is Kerry's own total. The eight band rows sum to exactly 156,458, and so does the row called "Ireland". A script that sums the whole column therefore reports 312,916 people in Kerry, twice the real figure, and prints it without complaint. Learners find it themselves, then write the rule: before summing a column, check whether the totals are sitting in it.
 
+The county's own data
+
 ## Three datasets, none of them a table
 
 We looked for Kerry council data a learner could open, and what we found is itself worth teaching.
 
-**Kerry County Council on the national open data portal, read 16 September 2026**
-
 | What we checked | What we found |
-|---|---|
+| --- | --- |
 | Number of datasets published | Three |
 | Their titles | Architectural conservation areas, record of protected structures, and the county road network |
 | Licence on all three | Creative Commons Attribution 4.0 |
@@ -153,14 +141,37 @@ Half of data work is finding out what does not exist. Writing that down clearly 
 
 We are not connected with Kerry County Council, Munster Technological University, Fexco or any school named here. Population, employment and language figures are quoted from Central Statistics Office releases that name Kerry, with each release and date given where two of them differ; the dataset count and licences come from the national portal; the row-sum arithmetic is our own, run on the published table. One figure often repeated elsewhere, an eircode for the Killorglin headquarters, does not appear on the company's own contact page, so we do not print it.
 
+Learning ladder
+
 ## From two answers to one defensible note
 
 Ages are a guide only. Where a learner starts is settled in the free lesson.
 
-- **Ages 6 to 10: Two counts, one box** Counting the same things twice, getting different answers, and working out which count to trust. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 11 to 13: Where numbers come from** Reading a published table, finding the total, and noticing when the total is also a row. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Conflicting sources** Two releases, one measure, and a written note that a teacher or examiner can check. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Reporting under scrutiny** Handling revisions and restatements in work reporting without losing anyone's trust. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### Two counts, one box
+
+Counting the same things twice, getting different answers, and working out which count to trust.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 11 to 13
+
+### Where numbers come from
+
+Reading a published table, finding the total, and noticing when the total is also a row.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Conflicting sources
+
+Two releases, one measure, and a written note that a teacher or examiner can check.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Reporting under scrutiny
+
+Handling revisions and restatements in work reporting without losing anyone's trust.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## Ask an assistant for the Kerry figure and it will give you one. Which one?
 
@@ -172,30 +183,139 @@ A learner who has sat with the Kerry contradiction asks a different question aft
 
 So the skill worth building in 2026 is not producing answers faster. It is knowing which answers need a note attached, and being willing to write it. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Tralee, Killarney, Dingle, Kenmare
 
 Kerry is long, mountainous and slow to cross, which decides a great deal about evening classes.
 
-- **No second car journey** With an average commute of 24.6 minutes already, a class that needs another drive is a class that gets dropped in November.
-- **Irish school stages** We work to the Junior Cycle, Transition Year, fifth year and sixth year, and plan around exam weeks.
-- **A free first lesson** Real teaching, a level identified, a course suggested and an hour proposed. No card details are requested.
-- **Groups of fifteen to twenty** Learners at one ability level, gathered across Kerry and several countries so the right group runs at a workable hour.
-- **The same hour each week** Usually two lessons a week, around eight a month, fixed once and kept.
-- **Teachers ahead of you** Our teachers work from India, four and a half hours ahead of Irish time in summer and five and a half in winter.
+### No second car journey
 
-**For families on the peninsulas** From Waterville or Ballyferriter, the nearest town with a serious after-school computing option is an hour away in each direction, in winter, on roads that do not reward hurrying. There is no version of a weekly evening class in a room that works for those families. A live online group at the right level is not a compromise here. It is the only thing that actually functions.
+With an average commute of 24.6 minutes already, a class that needs another drive is a class that gets dropped in November.
+
+### Irish school stages
+
+We work to the Junior Cycle, Transition Year, fifth year and sixth year, and plan around exam weeks.
+
+### A free first lesson
+
+Real teaching, a level identified, a course suggested and an hour proposed. No card details are requested.
+
+### Groups of fifteen to twenty
+
+Learners at one ability level, gathered across Kerry and several countries so the right group runs at a workable hour.
+
+### The same hour each week
+
+Usually two lessons a week, around eight a month, fixed once and kept.
+
+### Teachers ahead of you
+
+Our teachers work from India, four and a half hours ahead of Irish time in summer and five and a half in winter.
+
+For families on the peninsulas
+
+From Waterville or Ballyferriter, the nearest town with a serious after-school computing option is an hour away in each direction, in winter, on roads that do not reward hurrying. There is no version of a weekly evening class in a room that works for those families. A live online group at the right level is not a compromise here. It is the only thing that actually functions.
+
+Fees
 
 ## Kerry class fees
 
 Three numbers, and nothing hidden behind them.
 
-- First class: USD 0. The first lesson, taught in full, at no charge.
-- Group tuition: USD 100 a month. A month of group classes, normally eight lessons, fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. A month of one to one classes on the same weekly pattern.
+First class**USD 0**
+
+The first lesson, taught in full, at no charge.
+
+Group tuition**USD 100**
+
+A month of group classes, normally eight lessons, fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+A month of one to one classes on the same weekly pattern.
 
 We bill monthly in US dollars, at the one rate we charge outside India, so Cahersiveen and Tralee pay the same and there is no euro price list. Nothing is charged until the free lesson has agreed a course and a weekly hour, and the pricing page sets out pauses, missed lessons and moves between group and private.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20County%20Kerry.)Reviews
+
+## Six Google reviews from our families, exactly as they were written
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us who the learner is
+
+The first task is matched to the person: a two-counts puzzle for a young child, a table with a hidden total for the middle years, or the two Kerry releases for a teenager who wants the real thing.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented County Kerry one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20County%20Kerry.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## County Kerry coding class questions
+
+What families across Kerry ask us before starting.
 
 ### How many people live in County Kerry?
 
@@ -237,10 +357,14 @@ The first lesson is free. After that a shared place costs USD 100 a month and br
 
 Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
+Explore Ireland
+
 ## Across Munster and beyond
 
 The nearest city pages are [Cork](/best-coding-class-in-cork) and [Limerick](/best-coding-class-in-limerick), and the county east of here is covered at [County Cork](/coding-classes-in-county-cork). If you are comparing providers, read [best online coding classes in Ireland](/best-online-coding-classes-ireland), and the full set sits on the [Ireland coding page](/coding-classes-in-ireland).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20County%20Kerry.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-county-kerry](https://learn.modernagecoders.com/coding-classes-in-county-kerry#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-county-kerry*

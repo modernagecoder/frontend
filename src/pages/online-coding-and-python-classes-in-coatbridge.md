@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and vibe coding lessons for Coatbri
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-coatbridge
 source: src/pages/online-coding-and-python-classes-in-coatbridge.html
 ---
-> Among North Lanarkshire's localities only Cumbernauld is bigger than Coatbridge, which National Records of Scotland estimated at 43,950 people for mid-2020. Whifflet, Kirkwood, Carnbroe, Sikeside, Gartsherrie and Blairhill are suburbs recorded in its ML5 postcode district. Our India-based tutors teach coding, Python, AI, vibe coding and maths on live video to anyone six to 67, as one-to-one lessons or with five to ten peers at the same stage. Reasoning is taught before tools, so every learner can check a program or a chatbot answer for themselves. There is no charge for the first lesson, which ends with our course recommendation. The Coatbridge project turns 159.2 km of mapped roads into a compass chart and a single score for how grid-like the town is, then runs the same test on Glasgow city centre. After that first lesson, a group place costs USD 100 a month and one-to-one tuition USD 150.
+> Live online coding, Python, AI and vibe coding lessons for Coatbridge, Whifflet, Kirkwood and Carnbroe learners aged 6 to 67, live online. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / Coatbridge
-
-Coatbridge, North Lanarkshire, Scotland / Live online
-
-# Online coding and Python classes in Coatbridge
-
-**Which are the best online coding and Python classes in Coatbridge?** Among North Lanarkshire's localities only Cumbernauld is bigger than Coatbridge, which National Records of Scotland estimated at 43,950 people for mid-2020. Whifflet, Kirkwood, Carnbroe, Sikeside, Gartsherrie and Blairhill are suburbs recorded in its ML5 postcode district. Our India-based tutors teach coding, Python, AI, vibe coding and maths on live video to anyone six to 67, as one-to-one lessons or with five to ten peers at the same stage. Reasoning is taught before tools, so every learner can check a program or a chatbot answer for themselves. There is no charge for the first lesson, which ends with our course recommendation. The Coatbridge project turns 159.2 km of mapped roads into a compass chart and a single score for how grid-like the town is, then runs the same test on Glasgow city centre. After that first lesson, a group place costs USD 100 a month and one-to-one tuition USD 150.
-
-Some places are laid out on a grid, with streets running in two directions at right angles; others grew along old routes and hills, so their streets point every way. You can see the difference on a map, but a program can put a number on it. Take every road segment, work out its compass bearing, add up the length pointing in each direction, and ask how spread out those directions are. An even spread means no dominant grid; a few sharp peaks mean a strong one. This project measures Coatbridge's streets from OpenStreetMap and, for contrast, a rectangle of Glasgow city centre.
-
-Facts last verified 29 September 2026. Teaching is online; no Coatbridge branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCoatbridge course picks
 
 ## Coatbridge courses in thinking, Python and AI
 
 Choose by age and interest; each course starts with a free live lesson, booked without a card.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think course: compass directions, patterns and describing order with a number.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games planned by the learner, built with AI help and tested thoroughly.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python from first steps to maps and charts, including the Coatbridge compass project.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Students and adults): Python for data, geometry, visualisation and AI agents.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think course: compass directions, patterns and describing order with a number.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games planned by the learner, built with AI help and tested thoroughly.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython from first steps to maps and charts, including the Coatbridge compass project.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)Students and adultsPython MasterclassPython for data, geometry, visualisation and AI agents.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Coatbridge and North Lanarkshire
 
 ## Coatbridge, Whifflet, Kirkwood and Carnbroe
 
 The NRS estimate for Coatbridge, and suburbs recorded in ML5.
 
-**Coatbridge in National Records of Scotland estimates**
-
 | Area | People |
-|---|---|
+| --- | --- |
 | Coatbridge locality, mid-2020 | 43,950 |
 
 Postcodes.io records Blairhill, Carnbroe, Cliftonville, Dunbeth, Gartsherrie, Greenend, Kirkwood, Langloan, Old Monkland, Rosehall, Shawhead, Sikeside, Townhead and Whifflet as suburban areas of North Lanarkshire in the ML5 district, and Glenboig as a village. North Lanarkshire schools follow the Curriculum for Excellence, which we mirror with Scottish primary and secondary stages and SQA exam support from National 5 upward. Give us the holiday dates and lessons will leave those weeks alone.
@@ -52,16 +38,16 @@ Postcodes.io records Blairhill, Carnbroe, Cliftonville, Dunbeth, Gartsherrie, Gr
 
 More on [coding classes in North Lanarkshire](/coding-classes-in-north-lanarkshire), [Glasgow](/best-coding-class-in-glasgow) and [National 5 Maths tuition](/national-5-maths-tuition-online). Our case for thinking first is on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Coatbridge project
+
 ## How grid-like is Coatbridge? Street orientation from OpenStreetMap
 
 Every road segment's bearing, a 36-slice compass chart and one order score.
 
 The learner downloads OpenStreetMap data for a rectangle over Coatbridge and keeps the public roads: 159.2 km in 7,195 short segments. For each segment Python works out its bearing from north with atan2, counts the road both ways (a street running north also runs south), and adds its length to one of 36 slices of ten degrees. The result is a compass chart of the town. Two numbers summarise it. Orientation entropy measures how evenly the length is spread: it is 3.584 if every slice is equal and 1.386 for a perfect grid using only four directions. The order score rescales that from 0, no preferred directions, to 1, a perfect grid.
 
-**Street orientation of Coatbridge and Glasgow city centre, our Python run on OpenStreetMap data**
-
 | Measure | Coatbridge | Glasgow centre |
-|---|---|---|
+| --- | --- | --- |
 | Road length measured | 159.2 km | 27.9 km |
 | Orientation entropy | 3.488 | 2.179 |
 | Order score (0 to 1) | 0.085 | 0.870 |
@@ -87,14 +73,14 @@ Compute orientation entropy and the order score, then test how the result depend
 
 Road geometry is from OpenStreetMap and its contributors under the Open Database Licence. The rectangles, bearings, charts and scores are our own calculations and are not an official planning measure.
 
+Measuring and AI
+
 ## What this teaches about vibe coding and AI agents
 
 Every score hides decisions somebody made.
 
-**From the Coatbridge compass project to working with AI**
-
 | In the orientation project | When AI turns data into a score |
-|---|---|
+| --- | --- |
 | Coatbridge scored 0.085, Glasgow 0.870 | A single number can capture a real difference |
 | A third of length near main axes was chance level | Compare every result with what chance gives |
 | Slice size and road choice affect the score | Every score depends on hidden settings |
@@ -105,14 +91,37 @@ Ask an AI assistant whether a place is "grid-like" and you may get a confident d
 
 The page is our own work; OpenStreetMap, National Records of Scotland and postcodes.io only supplied open data, and any mistakes in the analysis are ours.
 
+Stages
+
 ## From compass tallies to street-network analysis
 
 We take the school year as a first estimate and let the trial lesson refine it.
 
-- **P1 to P7: How to think** Directions, tallies and turning a pattern into a number. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **P5 to S2: Vibe coding for kids** Games and small apps planned by the learner and built with AI help. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **S3 to S6: Python and data** Trigonometry, charts and real map data alongside SQA Maths and Computing Science. [Python for Teens](/courses/python-complete-masterclass-teens), [High School Mathematics](/courses/complete-high-school-mathematics-mastery)
-- **Adults: Python, data and agents** Geospatial data, visualisation and AI agents in Python. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
+P1 to P7
+
+### How to think
+
+Directions, tallies and turning a pattern into a number.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)P5 to S2
+
+### Vibe coding for kids
+
+Games and small apps planned by the learner and built with AI help.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)S3 to S6
+
+### Python and data
+
+Trigonometry, charts and real map data alongside SQA Maths and Computing Science.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[High School Mathematics](/courses/complete-high-school-mathematics-mastery)Adults
+
+### Python, data and agents
+
+Geospatial data, visualisation and AI agents in Python.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)Python and maps
 
 ## How can you measure how grid-like a town's streets are with Python?
 
@@ -124,30 +133,139 @@ Learners who have built that measure ask of any AI-generated score: what exactly
 
 Questioning how a number was made lets Coatbridge teenagers use AI analysis without being taken in by it, a sound reason to learn Python in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Whifflet to Carnbroe, all online
 
 Lessons need a computer with a camera and an internet line that can hold a video call.
 
-- **Learner does the coding** Students type, prompt and run each step themselves; tutors watch through screen share and ask why each line is there.
-- **First topic from the trial** The free session reveals the level, and any SQA course is written down.
-- **Opening lesson free** No charge for lesson one, which ends with our course suggestion.
-- **Same-stage classes** Between five and ten UK learners at one level make up a class.
-- **Twice weekly** Lessons pause for school holidays.
-- **Steady time** Tutors cover the UK clock changes, so your slot stays put.
+### Learner does the coding
 
-**Why online** Five learners at one level, free on the same evening, rarely live close together. On video, they do not need to.
+Students type, prompt and run each step themselves; tutors watch through screen share and ask why each line is there.
+
+### First topic from the trial
+
+The free session reveals the level, and any SQA course is written down.
+
+### Opening lesson free
+
+No charge for lesson one, which ends with our course suggestion.
+
+### Same-stage classes
+
+Between five and ten UK learners at one level make up a class.
+
+### Twice weekly
+
+Lessons pause for school holidays.
+
+### Steady time
+
+Tutors cover the UK clock changes, so your slot stays put.
+
+Why online
+
+Five learners at one level, free on the same evening, rarely live close together. On video, they do not need to.
+
+Fees
 
 ## Coatbridge fees
 
 Coatbridge learners pay our international prices, the ones used everywhere outside India.
 
-- First class: USD 0. A complete free lesson, then a recommendation.
-- Group tuition: USD 100 a month. Around eight live lessons a month in a small group.
-- Private tuition: USD 150 a month. Around eight live one-to-one lessons a month.
+First class**USD 0**
+
+A complete free lesson, then a recommendation.
+
+Group tuition**USD 100**
+
+Around eight live lessons a month in a small group.
+
+Private tuition**USD 150**
+
+Around eight live one-to-one lessons a month.
 
 We quote in US dollars with no sterling alternative; invoices start once the trial has fixed a course and a time each week. Holidays, absences and changing format are covered on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20Python%20lesson%20for%20a%20learner%20in%20Coatbridge%3F)Reviews
+
+## Lanarkshire families and learners across Britain on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Coatbridge lesson
+
+Share the learner's age or year group and what they enjoy. The trial could be a compass-tally challenge, a Scratch game built with an AI, some first Python, or drawing a real street chart.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Coatbridge one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20Python%20lesson%20for%20a%20learner%20in%20Coatbridge%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Coatbridge questions
+
+Compass charts, the Coatbridge road study, Python, vibe coding and lesson logistics.
 
 ### What is the population of Coatbridge?
 
@@ -189,10 +307,14 @@ Trial free; after that a class seat is USD 100 per month and private tuition USD
 
 No; tell us your school holiday weeks and we skip them.
 
+Nearby
+
 ## More Lanarkshire pages
 
 Pages with their own projects: [Cumbernauld](/online-coding-and-python-classes-in-cumbernauld) (how far routes stray from a straight line), [Hamilton](/vibe-coding-and-ai-agents-classes-in-hamilton-scotland), [North Lanarkshire](/coding-classes-in-north-lanarkshire) and [Glasgow](/best-coding-class-in-glasgow). The [Scotland page](/coding-and-ai-classes-in-scotland) and the [UK hub](/coding-classes-in-united-kingdom) reach everywhere else.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20Python%20lesson%20for%20a%20learner%20in%20Coatbridge%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/online-coding-and-python-classes-in-coatbridge](https://learn.modernagecoders.com/online-coding-and-python-classes-in-coatbridge#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-coatbridge*

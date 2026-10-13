@@ -4,34 +4,28 @@ description: "Online maths tutor for Oxford learners aged 6 to 67: KS2 and SATs,
 canonical: https://learn.modernagecoders.com/maths-tuition-in-oxford
 source: src/pages/maths-tuition-in-oxford.html
 ---
-> Oxford learners aged 6 to 67 can study maths with Modern Age Coders in live online lessons. Primary children work towards the Year 6 SATs with secure tables; Years 7 to 9 cover KS3; GCSE students are taught at their tier (Foundation or Higher) and board (AQA, Edexcel or OCR), or for IGCSE; sixth formers take A level Maths and can add Further Maths topics; adults resit GCSE or refresh their statistics. A learner can be taught alone or in a class of fifteen to twenty at a matching level. Our Oxford project counts record-breaking years in the Met Office series from 1853: of 173 complete years, 7 were the wettest so far, against about 5.73 expected if every year were equally likely to set a record. The first lesson is free; continuing costs USD 100 a month in a class or USD 150 a month one to one.
+> Online maths tutor for Oxford learners aged 6 to 67: KS2 and SATs, KS3, GCSE, A level, Further Maths topics and adult maths, plus a probability project.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths tuition in Oxford
+Maths tuition in Oxford, summarised
 
-Oxford · Maths for every age from 6 to 67 · Live online teaching
+Oxford learners aged 6 to 67 can study maths with Modern Age Coders in live online lessons. Primary children work towards the Year 6 SATs with secure tables; Years 7 to 9 cover KS3; GCSE students are taught at their tier (Foundation or Higher) and board (AQA, Edexcel or OCR), or for IGCSE; sixth formers take A level Maths and can add Further Maths topics; adults resit GCSE or refresh their statistics. A learner can be taught alone or in a class of fifteen to twenty at a matching level. Our Oxford project counts record-breaking years in the Met Office series from 1853: of 173 complete years, 7 were the wettest so far, against about 5.73 expected if every year were equally likely to set a record. The first lesson is free; continuing costs USD 100 a month in a class or USD 150 a month one to one.
 
-# Maths tuition in Oxford
-
-The Met Office publishes monthly weather figures for Oxford going back to 1853. Add up each year's rainfall and you have 173 complete years. Now a question a GCSE student can answer and a professional statistician still enjoys: how many of those years should have been the wettest so far? If every year is equally likely to be the wettest, the chance that year n breaks the record is 1 in n. Add those chances up and the answer is about 5.73. Oxford had 7. This page shows how we teach maths to Oxford learners, from times tables to A level, and uses those records as our running example.
-
-At a glance: Ages: 6 to 67, across Oxford; Primary: KS2, times tables, Year 6 SATs; KS3: Years 7 to 9, probability starts; GCSE: Foundation or Higher, AQA, Edexcel, OCR; A level: Maths, with Further Maths topics; Adults: Resits, statistics, refreshers; Lessons: Live online, private or 15 to 20 per class; Project: Record years in 173 years of data. Rated 4.9 across 547 Google reviews.
+Most requested by Oxford families
 
 ## GCSE maths, A level maths and KS3
 
 Most first enquiries from Oxford are about one of these three courses. The full list of our maths courses comes later on the page.
 
-- [GCSE maths, both tiers](/courses/gcse-mathematics-mastery): Probability, statistics and every other strand of the specification, matched to the school's exam board.
-- [A level maths with statistics](/courses/a-level-maths-course-pure-mechanics-statistics): Sequences, series, logarithms and simulation, the tools behind the record-year project below.
-- [KS3 maths for Years 7 to 9](/courses/comprehensive-middle-school-mathematics-mastery): Fractions, ratio, algebra and first probability, taught so they hold up under GCSE pressure.
+[![GCSE Maths course thumbnail](/images/gcse-maths.webp)  OXF / 1 GCSE maths, both tiers Probability, statistics and every other strand of the specification, matched to the school's exam board. Open the syllabus →](/courses/gcse-mathematics-mastery)[![A-Level Maths course thumbnail](/images/a-level-maths.webp)  OXF / 2 A level maths with statistics Sequences, series, logarithms and simulation, the tools behind the record-year project below. Open the syllabus →](/courses/a-level-maths-course-pure-mechanics-statistics)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  OXF / 3 KS3 maths for Years 7 to 9 Fractions, ratio, algebra and first probability, taught so they hold up under GCSE pressure. Open the syllabus →](/courses/comprehensive-middle-school-mathematics-mastery)
+
+Primary to adult
 
 ## Maths tutor in Oxford at every stage of learning
 
 Oxford schools teach the national curriculum for England. The table shows the stages and the thing our lessons care most about at each one.
 
-**Maths stages for an Oxford learner and our main concern at each**
-
 | Stage | Ages | Our main concern |
-|---|---|---|
+| --- | --- | --- |
 | KS1 | 5 to 7 | Counting reliably, place value and the first ideas of more, less and equal. |
 | KS2 | 7 to 11 | Fluent tables by Year 4, fractions and decimals, and reasoning for the end-of-primary SATs. |
 | KS3 | 11 to 14 | Algebra, ratio, and probability as a number between 0 and 1. |
@@ -53,6 +47,8 @@ Our national pages give more detail for each stage: [KS2](/ks2-maths-tuition-onl
 
 Ages shown are those usual in England. This page gives no advice on university admissions.
 
+The Oxford project
+
 ## How many record-breaking years should 173 years of Oxford rain contain?
 
 A long, honest data set and a probability result that fits on one line.
@@ -65,10 +61,8 @@ Here is the probability idea. Suppose the years were shuffled, with no year more
 
 The expected number of records is the sum 1 + 1/2 + 1/3 + ... + 1/173, a harmonic number, which comes to 5.73. Mathematicians know it grows like the natural logarithm of n plus 0.577, and ln 173 + 0.577 is also 5.73. Oxford's 7 is a little above that, but well within what chance allows, as the shuffles below show.
 
-**Record-breaking years in the Met Office Oxford series, 1853 to 2025 (our counts from monthly data)**
-
 | Record type | How many | Years | Expected if years were shuffled |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Wettest so far (yearly rain) | 7 | 1853, 1857, 1860, 1875, 1903, 1960, 2012 | 5.73 |
 | Driest so far (yearly rain) | 4 | 1853, 1854, 1902, 1921 | 5.73 |
 | Warmest so far (yearly average of monthly maximum) | 10 | 1853, 1854, 1857, 1865, 1868, 1921, 2003, 2011, 2020, 2022 | 5.73 |
@@ -88,6 +82,8 @@ We stop at the mathematics: the 1/n rule assumes years are interchangeable, and 
 
 Data: [Met Office historic station data, Oxford](https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/oxforddata.txt), read on 1 October 2026; the file gives the station at latitude 51.761, longitude -1.262, 63 metres above sea level. Yearly totals, averages and record counts are Modern Age Coders calculations; 2026 is left out because it is incomplete and provisional.
 
+Testing the idea by simulation
+
 ## Shuffling the years 10,000 times
 
 A formula is convincing. A simulation that agrees with it is more convincing, and it is something a GCSE student can run.
@@ -100,26 +96,24 @@ The shuffles also say how unusual Oxford's 7 is. In 33.3 per cent of them there 
 
 The most common counts were 5 and 6, each turning up in about one shuffle in five. Counts as low as 1, which needs the first year to be the wettest of all, happened 54 times in 10,000.
 
-**Number of record-wet years in 10,000 random shuffles of the 173 Oxford yearly totals (our simulation)**
-
 | Records | Shuffles | Share |
-|---|---|---|
+| --- | --- | --- |
 | 1 or 2 | 385 | 3.9% |
 | 3 or 4 | 2,386 | 23.9% |
 | 5 or 6 | 3,902 | 39.0% |
 | 7 or 8 | 2,436 | 24.4% |
 | 9 or more | 891 | 8.9% |
 
-**What each stage takes from the record-year project**
-
 | Stage | Question | Skill |
-|---|---|---|
+| --- | --- | --- |
 | KS2 | Which was the wettest year in the list? | Ordering and comparing decimals |
 | KS3 | What is the chance the 10th year is a record? | Probability as a fraction, here 1/10 |
 | GCSE | Do 10,000 shuffles agree with the formula? | Relative frequency and sample size |
 | A level | Why does the sum of 1/n grow like ln n? | Series, logarithms and estimation |
 
 Simulation: 10,000 random shuffles of our 173 yearly totals, run by Modern Age Coders with a fixed seed so the result can be repeated. GCSE wording from [DfE, GCSE mathematics subject content](https://www.gov.uk/government/publications/gcse-mathematics-subject-content-and-assessment-objectives).
+
+Maths in Oxford
 
 ## The Maths Hub, public lectures and the UKMT maths challenge
 
@@ -147,6 +141,8 @@ This page deliberately says nothing about university applications or admissions 
 
 Sources: [Mathematical Institute, public lectures](https://www.maths.ox.ac.uk/events/public-lectures-events); [Mathematical Institute, outreach](https://www.maths.ox.ac.uk/outreach); [NCETM, Bucks, Berks and Oxon Maths Hub](https://www.ncetm.org.uk/hubs/bucks-berks-and-oxon-maths-hub/). All read on 1 October 2026. We have no connection with the University of Oxford, the NCETM, the Maths Hubs or the UKMT.
 
+Adult learners
+
 ## Maths tutor for adults in Oxford
 
 Many of our Oxford learners are adults: some need a GCSE pass, some need statistics for work, and some simply want to understand maths they were rushed through at school.
@@ -165,14 +161,14 @@ Some adults come because they enjoyed a public lecture and want to understand th
 
 The record-year idea is a favourite with adults, because it explains something everyone notices: records keep getting broken, yet fewer and fewer of them as time goes on. Our [adult maths page](/online-maths-classes-for-adults-in-uk) has more.
 
+The path through probability
+
 ## Four steps from likely and unlikely to the harmonic series
 
 Any learner can begin at any step; the free lesson shows us which.
 
-**From probability words to series, and how we know a learner is ready for the next step**
-
 | Typical years | Step | Ready for the next when they |
-|---|---|---|
+| --- | --- | --- |
 | Years 3 to 5 | 1. Chance words | Put impossible, unlikely, even, likely and certain in order |
 | Years 6 to 8 | 2. Probability as a fraction | Write the chance of an event as a fraction between 0 and 1 |
 | Years 9 to 11 | 3. Experiments | Compare relative frequency with theory and explain the gap |
@@ -181,75 +177,353 @@ Any learner can begin at any step; the free lesson shows us which.
 ### Late to GCSE
 
 A learner joining in Year 11 can still do well. We look first at fractions, because a weak grasp of fractions breaks almost every probability question.
+
 If more needs repairing than the time allows, we will tell you frankly at the free lesson.
 
 ### After the exam
 
 Learners who liked the simulation often move to [maths through coding](/courses/maths-through-coding), where 10,000 shuffles take a fraction of a second, or to our [statistics and probability](/courses/statistics-probability-maths-course) course.
+
 Those who enjoy proof usually try Further Maths topics next.
+
+Every maths course
 
 ## Popular maths courses for Oxford learners
 
 Ordered by how often UK families look for them, so GCSE, A level, 11 plus and IGCSE lead. A card opens its syllabus.
 
+I
+
 ### Most searched for
 
 Exam courses
 
-- [GCSE maths](/courses/gcse-mathematics-mastery): Foundation and Higher, matched to the board.
-- [A level maths](/courses/a-level-maths-course-pure-mechanics-statistics): Pure, statistics and mechanics in balance.
-- [11 plus maths](/courses/11-plus-maths-preparation-course-uk): Selective-test practice for families who need it.
-- [IGCSE maths](/courses/igcse-mathematics-mastery): International GCSE specifications.
+OXM / A1
+
+#### GCSE maths
+
+Foundation and Higher, matched to the board.
+
+[Open the syllabus](/courses/gcse-mathematics-mastery)
+
+OXM / A2
+
+#### A level maths
+
+Pure, statistics and mechanics in balance.
+
+[Open the syllabus](/courses/a-level-maths-course-pure-mechanics-statistics)
+
+OXM / A3
+
+#### 11 plus maths
+
+Selective-test practice for families who need it.
+
+[Open the syllabus](/courses/11-plus-maths-preparation-course-uk)
+
+OXM / A4
+
+#### IGCSE maths
+
+International GCSE specifications.
+
+[Open the syllabus](/courses/igcse-mathematics-mastery)II
 
 ### Primary
 
 KS1 and KS2
 
-- [Primary maths](/courses/elementary-mathematics-complete-masterclass): From Year 1 to the Year 6 SATs.
-- [Starting maths](/courses/early-math-foundations): Number and pattern for young children.
-- [Mental maths](/courses/mental-maths-mastery-kids): Sums in the head, without guessing.
-- [Abacus maths](/courses/abacus-mental-maths-course-for-kids): A visual route into mental arithmetic.
+OXM / B1
+
+#### Primary maths
+
+From Year 1 to the Year 6 SATs.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+OXM / B2
+
+#### Starting maths
+
+Number and pattern for young children.
+
+[Open the syllabus](/courses/early-math-foundations)
+
+OXM / B3
+
+#### Mental maths
+
+Sums in the head, without guessing.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+OXM / B4
+
+#### Abacus maths
+
+A visual route into mental arithmetic.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)III
 
 ### Secondary and enrichment
 
 KS3 and beyond
 
-- [KS3 maths](/courses/comprehensive-middle-school-mathematics-mastery): Algebra, ratio, geometry and probability.
-- [Statistics and probability](/courses/statistics-probability-maths-course): Data, chance and simulation.
-- [Olympiad maths](/courses/olympiad-competition-mathematics-mastery): Problem solving for UKMT and beyond.
-- [Algebra foundations](/courses/algebra-foundations-masterclass): Solid algebra from the ground up.
+OXM / C1
+
+#### KS3 maths
+
+Algebra, ratio, geometry and probability.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+OXM / C2
+
+#### Statistics and probability
+
+Data, chance and simulation.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)
+
+OXM / C3
+
+#### Olympiad maths
+
+Problem solving for UKMT and beyond.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)
+
+OXM / C4
+
+#### Algebra foundations
+
+Solid algebra from the ground up.
+
+[Open the syllabus](/courses/algebra-foundations-masterclass)IV
 
 ### Adults and higher study
 
 For grown-up learners
 
-- [University-level maths](/courses/college-mathematics-complete-masterclass): Calculus, linear algebra and proof.
-- [Maths for data](/courses/data-analytics-mathematics-masterclass): Statistics for analysts.
-- [Finance maths](/courses/complete-business-finance-mathematics-mastery): Growth, interest and risk.
-- [Vedic maths](/courses/vedic-maths-course-speed-calculation-mastery): Quick calculation patterns.
+OXM / D1
+
+#### University-level maths
+
+Calculus, linear algebra and proof.
+
+[Open the syllabus](/courses/college-mathematics-complete-masterclass)
+
+OXM / D2
+
+#### Maths for data
+
+Statistics for analysts.
+
+[Open the syllabus](/courses/data-analytics-mathematics-masterclass)
+
+OXM / D3
+
+#### Finance maths
+
+Growth, interest and risk.
+
+[Open the syllabus](/courses/complete-business-finance-mathematics-mastery)
+
+OXM / D4
+
+#### Vedic maths
+
+Quick calculation patterns.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
+
+Times of lessons
 
 ## Teaching that fits Oxford school days and working weeks
 
 The clocks in India never change, so our team is 5.5 hours ahead of Oxford from late October to late March and 4.5 hours ahead the rest of the year. Every slot we offer is stated in UK time.
 
-- **After school on weekdays** Younger learners and KS3.
-- **Weekday evenings** Exam years and adults.
-- **Saturday and Sunday mornings** Anyone.
+After school on weekdays
 
-- **A familiar face** One teacher follows the learner through the course.
-- **Short reports** A few lines after lessons on progress and next steps.
-- **Level-matched classes** Fifteen to twenty learners at a similar point, never a mixed bag.
-- **Long data sets** Weather records and census tables used alongside past papers.
-- **One to one option** For an approaching exam or a specific weakness.
-- **Reasons first** We explain why a method works before drilling it.
+Younger learners and KS3.
+
+Weekday evenings
+
+Exam years and adults.
+
+Saturday and Sunday mornings
+
+Anyone.
+
+### A familiar face
+
+One teacher follows the learner through the course.
+
+### Short reports
+
+A few lines after lessons on progress and next steps.
+
+### Level-matched classes
+
+Fifteen to twenty learners at a similar point, never a mixed bag.
+
+### Long data sets
+
+Weather records and census tables used alongside past papers.
+
+### One to one option
+
+For an approaching exam or a specific weakness.
+
+### Reasons first
+
+We explain why a method works before drilling it.
+
+Student work
+
+## Where our students went next
+
+Learners who began with questions like this one went on to build the projects shown. The [student labs](/student-labs) show many more.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Monthly fees in US dollars, the same everywhere outside India, with no registration charge and no contract.
 
-- Free first class: USD 0. A complete lesson at the right level. A candid view afterwards. No card details.
-- Group batch: USD 100 a month. Fifteen to twenty learners at one level. A steady teacher. Homework marked and talked through. Certificate at the end.
-- One to one: USD 150 a month. Private teaching. Shaped around one learner. Helpful close to an exam.
+Free first class
+
+USD 0
+
+no card required
+
+- A complete lesson at the right level
+- A candid view afterwards
+- No card details
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners at one level
+- A steady teacher
+- Homework marked and talked through
+- Certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- Private teaching
+- Shaped around one learner
+- Helpful close to an exam
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Reviews left on our Google profile, reproduced exactly as they were written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Oxford maths questions
 
 ## Questions about maths tuition in Oxford
 
@@ -293,15 +567,54 @@ There is not. We teach only over live video, which means a learner in Jericho, M
 
 No. We teach carefully and report honestly, but no tutor can promise a grade.
 
+Related
+
 ## More for Oxford learners
 
-- [A level maths tuition](/a-level-maths-tuition-online): Pure, statistics and mechanics.
-- [Further Maths tuition](/further-maths-tuition-online): For sixth formers who want more.
-- [GCSE maths tuition](/gcse-maths-tuition-online): Every tier, every board.
-- [Coding classes in Oxford](/best-coding-class-in-oxford): Our coding page for the city.
-- [Maths tuition in Cambridge](/maths-tuition-in-cambridge): Another university city, a percentages project.
-- [The UK index](/coding-classes-in-united-kingdom): Our full list of UK pages.
+National maths pages, our coding page for Oxford and nearby maths pages.
 
-## Contact
+### [A level maths tuition](/a-level-maths-tuition-online)
 
-Book the free first class at [https://learn.modernagecoders.com/maths-tuition-in-oxford](https://learn.modernagecoders.com/maths-tuition-in-oxford#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Pure, statistics and mechanics.
+
+### [Further Maths tuition](/further-maths-tuition-online)
+
+For sixth formers who want more.
+
+### [GCSE maths tuition](/gcse-maths-tuition-online)
+
+Every tier, every board.
+
+### [Coding classes in Oxford](/best-coding-class-in-oxford)
+
+Our coding page for the city.
+
+### [Maths tuition in Cambridge](/maths-tuition-in-cambridge)
+
+Another university city, a percentages project.
+
+### [The UK index](/coding-classes-in-united-kingdom)
+
+Our full list of UK pages.
+
+Start here
+
+## Book a free maths lesson in Oxford
+
+Which year is the learner in, and which topic has stalled? Tell us that and we will plan a real trial lesson, then report back candidly on what we saw.
+
+Want to browse first? Look at our [courses](/courses) or read about [how we teach](/how-we-teach).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20a%20learner%20in%20Oxford.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+Messages sent on WhatsApp are answered soonest. You will notice an Indian dialling code, since the teaching team works from India; we keep no premises in Oxford and teach entirely online.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/maths-tuition-in-oxford*

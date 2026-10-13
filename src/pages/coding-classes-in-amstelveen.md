@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes for Amstelveen learners 
 canonical: https://learn.modernagecoders.com/coding-classes-in-amstelveen
 source: src/pages/coding-classes-in-amstelveen.html
 ---
-> Coding classes in Amstelveen mostly serve families who came to the Netherlands to work in IT: the municipality has 68.3 residents of Indian origin for every thousand, the highest share of any Dutch municipality on 1 January 2024 according to Statistics Netherlands. Modern Age Coders teaches coding, Python, AI and mathematics live online, in English, to learners aged 6 to 67 here. The first class is free; after that a group of fifteen to twenty costs USD 100 a month and one-to-one tuition USD 150.
+> Live online coding, Python and AI classes for Amstelveen learners aged 6 to 67, written for the town with the highest Indian-origin share in the Netherlands.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Amstelveen
-
-Amstelveen, Noord-Holland / Live online
-
-# Coding classes in Amstelveen, where the community grows even as the arrivals fall
-
-**What are the best coding classes in Amstelveen?** Coding classes in Amstelveen mostly serve families who came to the Netherlands to work in IT: the municipality has 68.3 residents of Indian origin for every thousand, the highest share of any Dutch municipality on 1 January 2024 according to Statistics Netherlands. Modern Age Coders teaches coding, Python, AI and mathematics live online, in English, to learners aged 6 to 67 here. The first class is free; after that a group of fifteen to twenty costs USD 100 a month and one-to-one tuition USD 150.
-
-The headline in 2026 says Indian knowledge migration to the Netherlands has fallen by nearly half since 2022. The school gates on the Sportlaan and the Amsterdamseweg say the community is bigger than it has ever been. Both are right at once, and a child who can explain why has learned the most useful thing on this page.
-
-Facts last verified 7 September 2026. Teaching is online; no Amstelveen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Amstelveen
 
 ## Four starting points, chosen for the families who actually live here
 
 Two international schools, four Dutch secondary schools and a large number of parents who write software for a living: the picks below match that mix rather than a generic age chart. Placement is by what the learner can do, settled in the free class.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Sequencing, conditions and debugging before any syntax, in English, for a groep 3 to 5 child or a PYP junior.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Turtle art, games and a first small model, at the pace of the child rather than the pace of the groep.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): A complete Python course that does not depend on whether the school timetables informatica.
-- [Copilot Studio Agent Masterclass for Professionals](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals) (Professionals, private tuition only): For the parent on a highly skilled migrant contract whose next role asks for agents, not just prompts.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsSequencing, conditions and debugging before any syntax, in English, for a groep 3 to 5 child or a PYP junior.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsTurtle art, games and a first small model, at the pace of the child rather than the pace of the groep.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensA complete Python course that does not depend on whether the school timetables informatica.See the syllabus](/courses/python-complete-masterclass-teens)[![Copilot Studio Agent Masterclass for Professionals course thumbnail](/images/copilot-studio-professionals.webp)Professionals, private tuition onlyCopilot Studio Agent Masterclass for ProfessionalsFor the parent on a highly skilled migrant contract whose next role asks for agents, not just prompts.See the syllabus](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Amstelveen today
 
 ## The most Indian town in the Netherlands is a Dutch suburb with a forest in it
 
@@ -52,19 +40,21 @@ On 1 January 2026 the municipal register held 95,840 people across fourteen neig
 
 The International School of Amsterdam at Sportlaan 45 opened in 1964 and in 1997 became the first school anywhere to run all three IB programmes from pre-school to grade 12. Amity International School Amsterdam at Amsterdamseweg 204 opened in February 2018 with the PYP, MYP and Diploma Programme. Both sit inside Amstelveen, not Amsterdam.
 
-**A share and a count answer different questions** Ask which municipality has the largest Indian community and the answer is Amsterdam. Ask where a child of Indian parents is most likely to find another one in the same class and the answer is Amstelveen. Neither number is wrong. A learner who can say which question each number answers has already done the first hour of this course.
+A share and a count answer different questions
+
+Ask which municipality has the largest Indian community and the answer is Amsterdam. Ask where a child of Indian parents is most likely to find another one in the same class and the answer is Amstelveen. Neither number is wrong. A learner who can say which question each number answers has already done the first hour of this course.
+
+Schools by name
 
 ## Which school the child attends decides where we start, not the birthday
 
 Five secondary schools and two international schools serve Amstelveen, and they do not teach the same things at the same ages. The left column is what each school is known to run; the right column is the course that fits alongside it.
 
-- **ISA**: International School of Amsterdam, Sportlaan 45. The IB continuum since 1997, with the Middle Years Programme design cycle from age 11 and Computer Science available in the Diploma Programme. Our answer: Blocks, then Python, placed by the MYP year rather than the age. A student choosing DP Computer Science gets the IB course directly and uses the live sessions for the internal assessment.
-- **Amity**: Amity International School Amsterdam, Amsterdamseweg 204, open since February 2018 with the PYP, MYP and DP. Many of its families also carry Indian school expectations from home. Our answer: The same ladder as ISA, with the Class 9 to 12 Python and Java options kept visible for families who want the Indian curriculum alignment their cousins are sitting.
-- **HWC**: Hermann Wesselink College, Startbaan 3: vmbo-t, havo, atheneum and gymnasium, every one of them available bilingually, with STEM projects the school names as a focus. Our answer: Python for teens in English fits a bilingual timetable without translation. Informatica is an elective only some Dutch schools timetable, so we never assume a learner has it.
-- **KKC**: Keizer Karel College, Elegast 5, havo and vwo. The profile choice at the end of the third year is where a Dutch teenager decides whether code stays a hobby or becomes a subject. Our answer: For a year 3 student, a term of Python before the profile choice is the cheapest way to find out. For the bovenbouw, data science in Python sits well beside wiskunde A or B.
-- **Panta Rhei**: Scholengemeenschap Panta Rhei, Pandora 1: vmbo basis, kader, gemengd and theoretisch, the practical route into an MBO software or ICT programme. Our answer: App-making and web courses that produce something visible within weeks, so a vmbo learner arrives at an MBO intake with a portfolio rather than a promise.
+ISAInternational School of Amsterdam, Sportlaan 45. The IB continuum since 1997, with the Middle Years Programme design cycle from age 11 and Computer Science available in the Diploma Programme.Blocks, then Python, placed by the MYP year rather than the age. A student choosing DP Computer Science gets the IB course directly and uses the live sessions for the internal assessment.AmityAmity International School Amsterdam, Amsterdamseweg 204, open since February 2018 with the PYP, MYP and DP. Many of its families also carry Indian school expectations from home.The same ladder as ISA, with the Class 9 to 12 Python and Java options kept visible for families who want the Indian curriculum alignment their cousins are sitting.HWCHermann Wesselink College, Startbaan 3: vmbo-t, havo, atheneum and gymnasium, every one of them available bilingually, with STEM projects the school names as a focus.Python for teens in English fits a bilingual timetable without translation. Informatica is an elective only some Dutch schools timetable, so we never assume a learner has it.KKCKeizer Karel College, Elegast 5, havo and vwo. The profile choice at the end of the third year is where a Dutch teenager decides whether code stays a hobby or becomes a subject.For a year 3 student, a term of Python before the profile choice is the cheapest way to find out. For the bovenbouw, data science in Python sits well beside wiskunde A or B.Panta RheiScholengemeenschap Panta Rhei, Pandora 1: vmbo basis, kader, gemengd and theoretisch, the practical route into an MBO software or ICT programme.App-making and web courses that produce something visible within weeks, so a vmbo learner arrives at an MBO intake with a portfolio rather than a promise.
 
 Amstelveen College and the Guus Kieft School complete the secondary list. Whichever school a child attends, the free class starts from what the learner can already do on the day, and the school name only tells us which vocabulary to use.
+
+Verified local facts
 
 ## Amstelveen facts with a date and a source on each one
 
@@ -96,6 +86,8 @@ On 16 February 2022 Statistics Netherlands replaced the old migration-background
 
 Modern Age Coders has no association with the municipality of Amstelveen, with either international school or with any Dutch school named above, and claims none. They are named because a page about coding classes in a town should know which schools are in it.
 
+Signature project
+
 ## Arrivals fell by nearly half and the community grew: build the model that makes both true
 
 Two published numbers, one small program, and a table that settles an argument every Amstelveen family has heard at a dinner table this year.
@@ -112,10 +104,8 @@ A resident population is not this year's arrivals. It is every earlier year's ar
 
 With arrivals indexed to 100 in 2022 and falling to 54 by 2025, the resident stock under the newer retention rises from 300 to 373, a gain of 24 percent, and is still rising in 2026. Under the older retention it stalls at 264. The arrivals series is illustrative; the two anchors are not, and the shape of the result does not depend on the illustration.
 
-**One arrivals series, two retention curves: the flow falls while the stock grows**
-
 | Year | Arrivals (index, 2022 = 100) | Residents, 56 percent four-year retention | Residents, 33 percent four-year retention |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 2019 | 100 | 100 | 100 |
 | 2020 | 80 | 165 | 150 |
 | 2021 | 90 | 232 | 198 |
@@ -129,14 +119,14 @@ With arrivals indexed to 100 in 2022 and falling to 54 by 2025, the resident sto
 
 A flow is how many arrived this year. A stock is how many are here. The 2026 release is about the first; the 68.3 per thousand is the second. Because retention roughly doubled between the 2011 and 2019 cohorts, the stock keeps climbing for years after the flow peaks, which is why a parent at the Sportlaan gate sees a bigger community every September while the newspaper says immigration is down. The table above was computed before this paragraph was written, and every derived number in it is arithmetic on the two anchors and the stated illustrative series.
 
+Reliable pipeline
+
 ## Five habits for anyone who reads a migration headline, or any headline with a number in it
 
 The mistakes in this project are the mistakes in most dashboards. The habits that prevent them are small, and each is practised on the Amstelveen numbers before the learner meets it anywhere else.
 
-**Working with counts of people who come and go**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Name | Say whether a number is a stock or a flow | Arrivals read as residents | A sentence that means one thing |
 | Date | Attach the reference date; Dutch population stocks are 1 January figures | A 2024 stock compared with a 2025 flow | Numbers that can be lined up |
 | Define | Check the definition year before joining two series | The 2022 reclassification read as growth | A break marked, not hidden |
@@ -157,14 +147,37 @@ The same model on a customer base. Sign-ups down thirty percent, active users up
 
 The 68.3 per thousand, the 89 thousand national figure, the 56 percent and 33 percent four-year retention rates, the 26 thousand to 14 thousand fall in non-EU knowledge migrants and the 16 February 2022 reclassification are all published by Statistics Netherlands. The arrivals index in the table is illustrative and labelled as such. Nothing on this page reports an Amstelveen figure that the municipality or the statistics office has not published.
 
+Learning ladder
+
 ## From a jar of marbles to a churn model, one rung at a time
 
 One free class usually finds the rung that will move a learner furthest. Age is the starting guess, never the answer.
 
-- **Ages 6 to 10: Counting what stays** Children learn that adding and taking away happen at the same time, in blocks first. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: A loop that adds and a loop that removes** Learners write both loops and watch a total that grows while the inflow shrinks. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 14 to 18: Cohorts in code** Teenagers build the retention model and defend which curve a real dataset supports. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Stock, flow and churn at work** Adults take the model to a customer base, a payroll or a patient list. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### Counting what stays
+
+Children learn that adding and taking away happen at the same time, in blocks first.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### A loop that adds and a loop that removes
+
+Learners write both loops and watch a total that grows while the inflow shrinks.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### Cohorts in code
+
+Teenagers build the retention model and defend which curve a real dataset supports.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Stock, flow and churn at work
+
+Adults take the model to a customer base, a payroll or a patient list.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## If an AI can write the cohort model in ten seconds, why should a child in Amstelveen learn to?
 
@@ -176,30 +189,139 @@ What the class trains is the part the assistant cannot supply: knowing that a re
 
 So the honest answer for an Amstelveen parent is that the code matters less than it did and the thinking matters more, and the only way anyone has found to teach the thinking is to make the child write the code and then find what is wrong with it. The longer argument is in [is coding still worth learning in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for a town that already commutes on a tram
 
 Amstelveen families do the Sportlaan run, the Stadshart run and the Amsterdam Zuid run every week. The case for a class that arrives over a connection is that it does not add a fourth.
 
-- **No fourth journey** The tram stops at Sportlaan for one school and Oranjebaan for the Stadshart, and parents already spend enough of the week between them. A class at the kitchen table in Westwijk or Elsrijk takes nothing off the timetable but the lesson itself.
-- **In English, with the Dutch words kept** Teaching is in English. Groep, havo, TTO and profielkeuze are used as the family uses them, because a course that translates a child's school vocabulary back at them has not been listening.
-- **The first class costs nothing, and decides something** A full lesson with a real task, ending in a named course, a level and a slot. No card details are taken to arrange it and nobody is asked to decide before they have watched a lesson.
-- **Groups of fifteen to twenty, set by level** Who joins a group depends on what a learner can do and what they want next. Whether they arrived in 2019 or were born in the Ziekenhuis Amstelland is not a variable.
-- **Two lessons a week, one recurring time** Roughly eight sessions a month at a time fixed once at enrolment. Term dates in regio Noord, the Diwali week and the summer trip to India are all mentioned before the slot is set, not after.
-- **Amstelveen evenings are Indian nights** Seven in the evening in Westwijk is half past ten in Kolkata in summer and half past eleven in winter, because the Dutch clock moves and the Indian one does not. Late afternoon, early evening and weekend slots are the natural ones, confirmed on the call.
+### No fourth journey
 
-**The grandparents can watch** A recording of the free class is shared with the family, and more than one Amstelveen learner has had it reviewed by a grandparent in Pune or Hyderabad the same night. That is not a feature we designed. It is what happens when a class is taught in the language the whole family shares.
+The tram stops at Sportlaan for one school and Oranjebaan for the Stadshart, and parents already spend enough of the week between them. A class at the kitchen table in Westwijk or Elsrijk takes nothing off the timetable but the lesson itself.
+
+### In English, with the Dutch words kept
+
+Teaching is in English. Groep, havo, TTO and profielkeuze are used as the family uses them, because a course that translates a child's school vocabulary back at them has not been listening.
+
+### The first class costs nothing, and decides something
+
+A full lesson with a real task, ending in a named course, a level and a slot. No card details are taken to arrange it and nobody is asked to decide before they have watched a lesson.
+
+### Groups of fifteen to twenty, set by level
+
+Who joins a group depends on what a learner can do and what they want next. Whether they arrived in 2019 or were born in the Ziekenhuis Amstelland is not a variable.
+
+### Two lessons a week, one recurring time
+
+Roughly eight sessions a month at a time fixed once at enrolment. Term dates in regio Noord, the Diwali week and the summer trip to India are all mentioned before the slot is set, not after.
+
+### Amstelveen evenings are Indian nights
+
+Seven in the evening in Westwijk is half past ten in Kolkata in summer and half past eleven in winter, because the Dutch clock moves and the Indian one does not. Late afternoon, early evening and weekend slots are the natural ones, confirmed on the call.
+
+The grandparents can watch
+
+A recording of the free class is shared with the family, and more than one Amstelveen learner has had it reviewed by a grandparent in Pune or Hyderabad the same night. That is not a feature we designed. It is what happens when a class is taught in the language the whole family shares.
+
+Fees
 
 ## One free class, then USD 100 or USD 150 a month
 
 The fee is published here, in full, before anybody asks for a phone number.
 
-- First class: USD 0. A real lesson with a task pitched at the learner, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner and one teacher.
+First class**USD 0**
+
+A real lesson with a task pitched at the learner, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner and one teacher.
 
 The figure is in US dollars because there is a single published international rate and no separate euro list; there is no Amstelveen surcharge and no enrolment fee. The free class settles the course and the slot first, and payment is arranged afterwards over WhatsApp, not before. Pauses, plan changes and missed classes are on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Amstelveen.)Reviews
+
+## What families and learners say
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us the learner's level and which gate you stand at
+
+The first task might be a jar of marbles, a Python loop over cohorts, or a customer dashboard from work that shows the flow in large type and the stock in small.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Amstelveen one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Amstelveen.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Amstelveen coding class questions
+
+The town, the schools, the teaching and the terms, one at a time.
 
 ### Is Amstelveen really the most Indian municipality in the Netherlands?
 
@@ -241,10 +363,14 @@ Nothing for the first class. Group tuition is USD 100 a month for two live lesso
 
 A group holds fifteen to twenty learners matched on level, pace and goal rather than on age or school. Private tuition is one learner with one teacher. When no suitable group is running, the family can choose private tuition or wait for the next cohort to form.
 
+Explore the Netherlands
+
 ## The rest of the country, and the page for building AI
 
 The [Netherlands coding hub](/coding-classes-in-netherlands) carries the national picture, the digital literacy curriculum and the full course list, and [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) is the page for a learner who wants to build models rather than programs. Across the municipal line, [coding classes in Amsterdam](/coding-classes-in-amsterdam) covers the city and its eight districts, and pages for Uithoorn and the rest of Noord-Holland follow in this series.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Amstelveen.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-amstelveen](https://learn.modernagecoders.com/coding-classes-in-amstelveen#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-amstelveen*

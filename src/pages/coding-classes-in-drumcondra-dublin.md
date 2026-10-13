@@ -4,46 +4,32 @@ description: "Coding, Python, AI and maths lessons for Drumcondra learners aged 
 canonical: https://learn.modernagecoders.com/coding-classes-in-drumcondra-dublin
 source: src/pages/coding-classes-in-drumcondra-dublin.html
 ---
-> In Drumcondra, as everywhere we teach, a teacher runs each lesson live on video, for a few learners at a matching level or for one learner alone, twice in a normal week, and learners can be any age from six to sixty-seven. Nothing needs a commute. There is no charge for the first lesson; the monthly fee afterwards is USD 100 for a group place or USD 150 for one-to-one teaching.
+> Coding, Python, AI and maths lessons for Drumcondra learners aged 6 to 67, taught live online in small groups at one level or one to one. The first lesson is free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [Dublin](/best-coding-class-in-dublin) / Drumcondra
-
-Drumcondra, Dublin 9 / Live online
-
-# Coding classes in Drumcondra
-
-**What are the best coding classes in Drumcondra?** In Drumcondra, as everywhere we teach, a teacher runs each lesson live on video, for a few learners at a matching level or for one learner alone, twice in a normal week, and learners can be any age from six to sixty-seven. Nothing needs a commute. There is no charge for the first lesson; the monthly fee afterwards is USD 100 for a group place or USD 150 for one-to-one teaching.
-
-Through 2015 Dublin City Council's sound monitor at Drumcondra Library logged the noise level every five minutes, 104,596 readings in all. Add them up and divide, and the year averages 53.43 decibels. The average that noise work actually uses comes out at 55.83. The gap is not rounding. Decibels sit on a logarithmic scale, where every extra 3 decibels means double the sound energy, so a loud five minutes counts for far more than its place in a list suggests. This page teaches a learner to average on the right scale and shows what the wrong one hides.
-
-Facts last verified 20 September 2026. Teaching is online; no Drumcondra branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Drumcondra
 
 ## Four first courses for Drumcondra
 
 Choose by age for now; in the free first lesson the teacher checks the level and recommends a different course if one suits better.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Blocks and sound: a volume meter game where one loud clap outweighs a room full of whispers.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 13): Powers of ten, logarithms and averages, made visible in code before they appear in class.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 18): Python with a year of real sensor files: messy formats, two kinds of average, and a chart of the day.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (College and adult): For adults who report on measurements like noise, signal strength or earthquakes, where the scale is logarithmic.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlocks and sound: a volume meter game where one loud clap outweighs a room full of whispers.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 13Maths Through CodingPowers of ten, logarithms and averages, made visible in code before they appear in class.See the syllabus](/courses/maths-through-coding)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 18Data Science for TeensPython with a year of real sensor files: messy formats, two kinds of average, and a chart of the day.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)College and adultData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For adults who report on measurements like noise, signal strength or earthquakes, where the scale is logarithmic.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## You cannot average decibels: a year at the Drumcondra sound monitor
 
 The readings are Dublin City Council's 2015 files for its monitor at Drumcondra Library, one A-weighted level for every five minutes. The two averages below use exactly the same readings.
 
-**Drumcondra Library sound monitor, 2015: the same readings averaged two ways (decibels)**
-
 | Period | Plain average | Energy average | Gap |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Whole year | 53.43 | 55.83 | 2.40 |
 | Day, 07:00 to 19:00 | 56.66 | 57.70 | 1.04 |
 | Evening, 19:00 to 23:00 | 53.74 | 54.79 | 1.05 |
@@ -80,14 +66,14 @@ The loudest 10 percent of the year's readings hold 34.4 percent of its sound ene
 
 The readings record how loud it was at the library, not what made the sound. The page does not guess what happened on the morning of 10 September, or on any other day.
 
+Drumcondra, named
+
 ## Drumcondra from its library, its station and the stadium down the road
 
 Each line is taken from the organisation that runs the place.
 
-**Named places in and beside Drumcondra**
-
 | Place | What its own source says |
-|---|---|
+| --- | --- |
 | Drumcondra Library | Millmount Avenue, D09 PT78 |
 | Drumcondra station | Lower Drumcondra Road, D09 H0V5 |
 | Croke Park | Jones Road, D03 P6K7, capacity 82,300 |
@@ -105,7 +91,11 @@ Irish Rail gives lifts to both platforms and staffing from 07:00 to 23:00 every 
 
 Croke Park, the GAA's ground on Jones Road in Dublin 3, gives its capacity as 82,300, the crowd its two All-Ireland finals draw every September.
 
-**What this page does not claim** No population is stated for Drumcondra, because the page uses only what named bodies publish about the place. The sound readings come from one monitor at one spot in 2015 and describe that spot, not the whole district, and nothing here links any reading to the stadium or any other source.
+What this page does not claim
+
+No population is stated for Drumcondra, because the page uses only what named bodies publish about the place. The sound readings come from one monitor at one spot in 2015 and describe that spot, not the whole district, and nothing here links any reading to the stadium or any other source.
+
+Learning here
 
 ## How a Drumcondra learner spends the week
 
@@ -125,14 +115,37 @@ Adults may begin with no background at all; the first lesson picks the course.
 
 Readings are Dublin City Council's open data for 2015, and the decibel definitions and day-evening-night formula are from the council's noise action plan; every average, share and ranking here was computed by us on 20 September 2026. Library, station and stadium details are quoted from their own pages.
 
+Learning ladder
+
 ## From a loudness meter to a logarithm
 
 A band is a first guess; the opening lesson places the learner properly.
 
-- **Ages 6 to 10: Loud and quiet** Block-coded meters that react to sound and keep a running score. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Powers of ten** Python that turns decibels into energy and back again. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Real sensor files** Parsing a year of readings, fixing format problems and averaging on the right scale. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Measurements at work** Summaries of noise, signal and other logarithmic measures that stand up to checking. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### Loud and quiet
+
+Block-coded meters that react to sound and keep a running score.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Powers of ten
+
+Python that turns decibels into energy and back again.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Real sensor files
+
+Parsing a year of readings, fixing format problems and averaging on the right scale.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Measurements at work
+
+Summaries of noise, signal and other logarithmic measures that stand up to checking.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## Ask an assistant for the average noise level at Drumcondra
 
@@ -144,30 +157,139 @@ The learner who has done this project knows to ask what scale the numbers are on
 
 Knowing the scale your numbers live on is half of data work. The code only does what you ask of it. The longer argument is in [why coding still belongs in a young learner's week](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How lessons run for Drumcondra
 
 The short version.
 
-- **Always live** A real teacher is present for every minute, reading and helping with each learner's code as they write it.
-- **Same stage together** Groups of fifteen to twenty at one stage, drawn from Drumcondra, the rest of Ireland and other countries.
-- **A fixed pair of days** Lessons fall on the same two weekdays or weekend days, around eight a month.
-- **School calendar** Holiday weeks, mid-terms and exam time are part of the plan from the start.
-- **At home** A computer rather than a phone, a microphone, speakers or headphones, and broadband good enough for video.
-- **Solo lessons** One-to-one teaching for a learner who is ahead, wants extra time, or has hours no group matches.
+### Always live
 
-**Online, fully** We have no rooms in Drumcondra, in Dublin or anywhere in Ireland. Every lesson is live on video and works the same from any home.
+A real teacher is present for every minute, reading and helping with each learner's code as they write it.
+
+### Same stage together
+
+Groups of fifteen to twenty at one stage, drawn from Drumcondra, the rest of Ireland and other countries.
+
+### A fixed pair of days
+
+Lessons fall on the same two weekdays or weekend days, around eight a month.
+
+### School calendar
+
+Holiday weeks, mid-terms and exam time are part of the plan from the start.
+
+### At home
+
+A computer rather than a phone, a microphone, speakers or headphones, and broadband good enough for video.
+
+### Solo lessons
+
+One-to-one teaching for a learner who is ahead, wants extra time, or has hours no group matches.
+
+Online, fully
+
+We have no rooms in Drumcondra, in Dublin or anywhere in Ireland. Every lesson is live on video and works the same from any home.
+
+Fees
 
 ## Fees for Drumcondra
 
 Simply put.
 
-- First class: USD 0. An opening lesson at no cost, with a check of the learner's level.
-- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, close to eight live lessons.
-- Private tuition: USD 150 a month. A month of private lessons, same frequency.
+First class**USD 0**
+
+An opening lesson at no cost, with a check of the learner's level.
+
+Group tuition**USD 100**
+
+A month in a group of fifteen to twenty at one level, close to eight live lessons.
+
+Private tuition**USD 150**
+
+A month of private lessons, same frequency.
 
 The fee is set in US dollars and is the same for every family outside India, paid a month at a time. Taking the free lesson commits you to nothing and payment only begins with the course; details on holidays, missed lessons and moving between group and private teaching are on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Drumcondra.)Reviews
+
+## Six Google reviews from families, word for word
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free first lesson in Drumcondra
+
+Share the learner's age and interests and we will plan the first lesson with them in mind. They could leave with a small game, a program that works, or a first look at why loud moments dominate an average.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Drumcondra one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Drumcondra.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Drumcondra coding class questions
+
+Questions we hear from Drumcondra families.
 
 ### Do you have a centre in Drumcondra?
 
@@ -205,10 +327,14 @@ The first lesson is free. After it, a group place costs USD 100 a month for abou
 
 Between five and ten learners, grouped by level, pace and goals rather than age or area. When no group suits a workable time, the lessons are one to one.
 
+Explore Ireland
+
 ## Around Drumcondra
 
 The [Dublin](/best-coding-class-in-dublin) page takes in the whole city. South of the river, [Rathmines](/coding-classes-in-rathmines-dublin) has a project on library loans, and the [Ireland hub](/coding-classes-in-ireland) links every county, town and district page.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Drumcondra.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-drumcondra-dublin](https://learn.modernagecoders.com/coding-classes-in-drumcondra-dublin#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-drumcondra-dublin*

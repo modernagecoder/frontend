@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes in Helmond for ages 6 to
 canonical: https://learn.modernagecoders.com/coding-classes-in-helmond
 source: src/pages/coding-classes-in-helmond.html
 ---
-> Coding classes in Helmond serve 96,860 people (statistics office, 1 January 2026) in a textile town of twelve wijken east of Eindhoven, enlarged in 1968 with Stiphout and Mierlo-Hout. Helmond kept no evidence of its city rights. The encyclopaedia says they are generally assumed to date from the same period as those of its neighbour Eindhoven, in or around 1232, which is the year Eindhoven received its rights from Duke Henry I of Brabant. So the two towns share a charter year because one was copied from the other, and that agreement proves nothing. Modern Age Coders teaches live online in English across Helmond, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
+> Live online coding, Python and AI classes in Helmond for ages 6 to 67, from Brandevoort and Stiphout to Mierlo-Hout and Dierdonk. The first lesson is free.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Helmond
-
-Helmond, Noord-Brabant / Live online
-
-# Coding classes in Helmond, where the year of the city charter was borrowed from the neighbours
-
-**What are the best coding classes in Helmond?** Coding classes in Helmond serve 96,860 people (statistics office, 1 January 2026) in a textile town of twelve wijken east of Eindhoven, enlarged in 1968 with Stiphout and Mierlo-Hout. Helmond kept no evidence of its city rights. The encyclopaedia says they are generally assumed to date from the same period as those of its neighbour Eindhoven, in or around 1232, which is the year Eindhoven received its rights from Duke Henry I of Brabant. So the two towns share a charter year because one was copied from the other, and that agreement proves nothing. Modern Age Coders teaches live online in English across Helmond, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
-
-Ask when Helmond became a city and most lists will give 1232. Ask where that year comes from and the answer is Eindhoven: Helmond has kept no evidence of a grant, and the usual assumption is that its rights came in the same period as its neighbour, which received them in 1232 from the same duke who had founded Helmond in 1225. There is nothing wrong with a reasonable assumption. What goes wrong is what happens next, when the filled-in year sits in a table beside the recorded one and somebody notices that the two neighbouring towns were chartered in the same year. They were chartered in the same year because the table was filled in to say so. Programmers call it imputation, and the rule it breaks is simple: a value you filled in cannot be used as evidence for the rule you filled it in with.
-
-Facts last verified 11 September 2026. Teaching is online; no Helmond branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Helmond
 
 ## Four courses for a town between the Peel and Brainport
 
 A groep 5 child in Brandevoort who has only ever played games, a teenager in Stiphout who wants to build an app for the club rather than use somebody else, a student near the Automotive Campus whose dataset has gaps that somebody quietly filled, and an adult in Mierlo-Hout whose spreadsheet copies last month into every blank cell. Each can start with an hour that is taught properly and charged at nothing.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Typed Python where a child fills a gap in a table with a guess, marks it as a guess, and sees why the mark matters later.
-- [App Development for Teens](/courses/complete-app-development-masterclass-for-teens) (Ages 13 to 18): A full app, first screen to finished build, whose data model keeps a value and a flag saying whether anyone actually recorded it.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Python and pandas where every fillna leaves a column behind it, and no test is ever run on values the fill produced.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): Spreadsheets with the filled cells shown, for anybody whose reports agree with each other a little too neatly.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsTyped Python where a child fills a gap in a table with a guess, marks it as a guess, and sees why the mark matters later.See the syllabus](/courses/python-ai-kids-masterclass)[![App Development for Teens course thumbnail](/images/app-dev-teens.webp)Ages 13 to 18App Development for TeensA full app, first screen to finished build, whose data model keeps a value and a flag saying whether anyone actually recorded it.See the syllabus](/courses/complete-app-development-masterclass-for-teens)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CoursePython and pandas where every fillna leaves a column behind it, and no test is ever run on values the fill produced.See the syllabus](/courses/python-ai-automation-masterclass-college)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)Spreadsheets with the filled cells shown, for anybody whose reports agree with each other a little too neatly.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Helmond today
 
 ## A textile town of ninety-seven thousand, enlarged in 1968
 
@@ -52,16 +40,18 @@ In 1968 Helmond took in the municipality of Stiphout and parts of Mierlo, with t
 
 15,469 of the 43,914 households have children, 35 percent, and 15,886 hold one person. The largest age band is forty-five to sixty-five with 26,752 residents, just ahead of twenty-five to forty-five with 26,127; 14,407 residents are under fifteen and 18,281 are sixty-five or over.
 
-**A water castle, a papal bull and a charter nobody kept** The settlement existed before the year 1000 and is first mentioned in 1179, in a bull of Pope Alexander III. The town was founded in 1225 by Duke Henry I of Brabant. Its square water castle near the centre was built in the fourteenth century and served as the council chamber until 2001. Helmond has preserved no evidence of the grant of its city rights; the encyclopaedia says it is generally assumed that they came in the same period as those of neighbouring Eindhoven, in or around 1232. More recently the town gained the theatre 't Speelhuis and the cube houses designed by Piet Blom; 't Speelhuis was destroyed by fire on 29 December 2011, and some of the cube houses were damaged. The High Tech Automotive Campus was initiated in 2003, and a foundation to run it followed in 2017.
+A water castle, a papal bull and a charter nobody kept
+
+The settlement existed before the year 1000 and is first mentioned in 1179, in a bull of Pope Alexander III. The town was founded in 1225 by Duke Henry I of Brabant. Its square water castle near the centre was built in the fourteenth century and served as the council chamber until 2001. Helmond has preserved no evidence of the grant of its city rights; the encyclopaedia says it is generally assumed that they came in the same period as those of neighbouring Eindhoven, in or around 1232. More recently the town gained the theatre 't Speelhuis and the cube houses designed by Piet Blom; 't Speelhuis was destroyed by fire on 29 December 2011, and some of the cube houses were damaged. The High Tech Automotive Campus was initiated in 2003, and a foundation to run it followed in 2017.
+
+Recorded or filled in
 
 ## Two towns chartered in 1232, and only one of them on the record
 
 Every year below is quoted from the encyclopaedia entries for Helmond and Eindhoven. The last column is the only one this page adds: whether the year was written down at the time or supplied afterwards by reasoning.
 
-**Dates for Helmond and its neighbour, and where each comes from**
-
 | Event | Year given | Basis stated in the source | Recorded or filled in |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Helmond first mentioned | 1179 | a bull of Pope Alexander III | recorded |
 | Helmond founded as a town | 1225 | founded by Duke Henry I of Brabant | recorded |
 | Eindhoven receives city and market rights | 1232 | granted by Duke Henry I of Brabant | recorded |
@@ -69,6 +59,8 @@ Every year below is quoted from the encyclopaedia entries for Helmond and Eindho
 | Castle serves as council chamber | until 2001 | stated directly | recorded |
 
 Put these rows into a table with a single column for the charter year and the fourth row becomes 1232, looking exactly like the third. Now ask the table an innocent question: which neighbouring towns received their rights in the same year? It will answer Helmond and Eindhoven, and the answer will be completely worthless, because the only reason the two years match is that one was copied from the other. The filled-in value has not been observed; it has been deduced from an assumption that the neighbours were alike, and a query that finds the neighbours alike has simply read the assumption back. The encyclopaedia is careful to say generally assumed and in or around. The table, unless someone builds it to, keeps neither of those phrases.
+
+Verified local facts
 
 ## Helmond in figures, with every calculation shown
 
@@ -100,6 +92,8 @@ It gives no year for Helmond city rights, because no record of the grant survive
 
 Modern Age Coders has no connection with Helmond, its council, its schools, the Automotive Campus or any firm named on this page, and nothing here implies one. The municipal figures come from the statistics office row for Helmond at the years it gives: residents and ages for 2026, households as published, dwellings and values for 2025, income for 2024, origin for 2025. The history, the landmarks and the charter sentence come from the encyclopaedia entry for Helmond, and the 1232 grant to Eindhoven from the entry for Eindhoven.
 
+Signature project
+
 ## A filled-in value cannot vouch for the rule that filled it
 
 Filling gaps is often necessary. Forgetting which cells were filled, and then testing the filling rule on its own output, is the mistake.
@@ -116,10 +110,8 @@ The assumption was that Helmond matched Eindhoven. Any question about whether ne
 
 Filling from a neighbour makes neighbours look alike. Filling from a rule makes the data obey the rule. Filling forward in time makes things look steady. Each fill leaves a fingerprint, and the report has to show it.
 
-**The same circle, in five other places**
-
 | The gap | How it was filled | The finding it then produces | Why the finding is empty |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Missing sensor readings | copied forward from the last reading | the machine was remarkably stable | the flat stretches are the copies |
 | The branch each customer uses | set to the branch nearest their address when unknown | customers mostly use their nearest branch | the rule wrote the finding |
 | Missing values in a dataset | taken from the most similar rows | clear clusters of similar customers | the fill made rows resemble their neighbours |
@@ -130,14 +122,14 @@ Filling from a neighbour makes neighbours look alike. Filling from a rule makes 
 
 Real datasets have holes, and filling them is often the right thing to do: a model cannot train on a blank, and a chart with gaps can mislead in its own way. The standard tools make it easy. In pandas one call, fillna, replaces every missing value with a constant, an average or the previous row, and more elaborate methods borrow values from the nearest similar records. The trouble begins when the filled table is treated as if it had been measured. Every filling method pushes the data towards whatever the method assumes: neighbours become alike and time series flatten, so any later finding along the same lines is partly the method answering its own question. The defences are cheap and almost never used. Keep a column that records which values were filled and how. Run every important analysis twice, once with the filled values and once without them, and distrust any result that appears only in the first. In machine learning, never fill using information from the data you will test on, which is one of the commonest ways a model comes to look better than it is. Helmond makes the point with a single cell. Its charter year is a sensible inference from its neighbour, stated honestly by the source as an assumption, and it becomes an error only when it is copied into a column that has no way of saying so.
 
+Reliable pipeline
+
 ## Five habits for any table with gaps in it
 
 Survey answers, sensor logs, historical records, customer files and training labels all arrive with holes, and all of them tempt someone to fill the holes and forget. Practised on a town whose charter year was supplied by the town next door.
 
-**Filling gaps without fooling yourself**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Flag every fill | Add a column recording whether each value was observed or filled, and how | Guesses indistinguishable from facts | A table that knows its own gaps |
 | Keep the missingness | Store the pattern of blanks before filling anything | Losing the evidence of what was absent | Gaps you can study |
 | Exclude from its own test | Leave filled values out of any check on the rule that filled them | Circular confirmation | Tests that can fail |
@@ -158,14 +150,37 @@ A report from work where some cells were filled by a formula or by hand. Adults 
 
 The dates in this section are quoted from two encyclopaedia entries, and the only judgement the page adds is which of them rest on a record and which on an assumption. The source itself draws that line clearly for Helmond; the page keeps the line visible rather than letting the charter year settle into a column beside Eindhoven as if both had been written down in 1232.
 
+Learning ladder
+
 ## From copying a neighbour on a colour chart to a model that is never graded on its own answers
 
 The free lesson decides where a learner starts, from how they work on a real problem. Where in Helmond they live and how old they are play no part.
 
-- **Ages 6 to 10: Fill it and mark it** Children fill gaps in a chart and learn to mark which answers were guesses. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Game Development for Kids](/courses/game-development-masterclass-for-kids)
-- **Ages 11 to 13: The guess column** Learners keep a flag beside every value and count only the real ones. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Fill forward, look again** Teenagers see how filling a gap changes what the data seems to say. [App Development for Teens](/courses/complete-app-development-masterclass-for-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: With and without** Adults rerun a real result without its filled cells and see what survives. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Fill it and mark it
+
+Children fill gaps in a chart and learn to mark which answers were guesses.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Game Development for Kids](/courses/game-development-masterclass-for-kids)Ages 11 to 13
+
+### The guess column
+
+Learners keep a flag beside every value and count only the real ones.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Fill forward, look again
+
+Teenagers see how filling a gap changes what the data seems to say.
+
+[App Development for Teens](/courses/complete-app-development-masterclass-for-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### With and without
+
+Adults rerun a real result without its filled cells and see what survives.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## An AI will tell you Helmond received city rights in 1232. Why should a child here learn to ask who wrote that down?
 
@@ -177,30 +192,139 @@ A learner who has filled the gaps in a dataset with fillna, then discovered a pa
 
 The case for a child in Helmond learning to code in 2026 is therefore not the Automotive Campus down the road. It is that anyone who has written a flag column beside a filled value understands, for good, the difference between knowing something and having assumed it. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes across Helmond
 
 Helmond reaches from the castle and the Binnenstad out to Brandevoort in the west, Stiphout in the north and Mierlo-Hout, and a weekly class has to fit into family evenings in all of them.
 
-- **From Brandevoort or Dierdonk, nothing to drive** A class in Eindhoven means the car or the train twice a week, and even across Helmond itself it is a ride there and back. The online lesson starts at the kitchen table at the agreed hour, and the travel simply drops out of the week.
-- **Groep, havo and vwo, kept Dutch** The school words a Helmond child reads on every report stay in Dutch during lessons: groep, havo, vwo, profielkeuze. Nothing is lost translating the school system, because it is never translated.
-- **The first lesson is a lesson** A real task, worked through with a teacher who watches how the learner goes about it. It ends with a level, a course and a regular time, and it never asks for a card number or turns into a sales conversation.
-- **Groups built by stage** Fifteen to twenty learners at the same point in the same subject. Helmond has 14,407 residents under fifteen, and still five at one exact stage wanting one exact hour is rare, so groups are drawn from a worldwide pool and start promptly.
-- **Regio Zuid, in the diary** Two lessons a week, around eight a month, at one fixed hour. Noord-Brabant schools take regio Zuid holidays, on dates that differ from the west of the country, and lessons are planned around them from the first month.
-- **The hour, winter and summer** India is three and a half hours ahead of Helmond in summer and four and a half in winter; only the Dutch clocks move. The late afternoon, the early evening and weekend mornings all stay available through the year.
+### From Brandevoort or Dierdonk, nothing to drive
 
-**Thirty-one primary schools, seven secondary, and one way to form a class** Helmond has 31 primary establishments teaching 8,236 pupils and 7 secondary establishments teaching 5,493, on average about 785 each. A coding group needs something no single town reliably supplies: five learners at the same stage of the same subject who are free at the same hour. That is why classes are formed from a pool that spans every age from 6 to 67 and every country the teachers serve.
+A class in Eindhoven means the car or the train twice a week, and even across Helmond itself it is a ride there and back. The online lesson starts at the kitchen table at the agreed hour, and the travel simply drops out of the week.
+
+### Groep, havo and vwo, kept Dutch
+
+The school words a Helmond child reads on every report stay in Dutch during lessons: groep, havo, vwo, profielkeuze. Nothing is lost translating the school system, because it is never translated.
+
+### The first lesson is a lesson
+
+A real task, worked through with a teacher who watches how the learner goes about it. It ends with a level, a course and a regular time, and it never asks for a card number or turns into a sales conversation.
+
+### Groups built by stage
+
+Fifteen to twenty learners at the same point in the same subject. Helmond has 14,407 residents under fifteen, and still five at one exact stage wanting one exact hour is rare, so groups are drawn from a worldwide pool and start promptly.
+
+### Regio Zuid, in the diary
+
+Two lessons a week, around eight a month, at one fixed hour. Noord-Brabant schools take regio Zuid holidays, on dates that differ from the west of the country, and lessons are planned around them from the first month.
+
+### The hour, winter and summer
+
+India is three and a half hours ahead of Helmond in summer and four and a half in winter; only the Dutch clocks move. The late afternoon, the early evening and weekend mornings all stay available through the year.
+
+Thirty-one primary schools, seven secondary, and one way to form a class
+
+Helmond has 31 primary establishments teaching 8,236 pupils and 7 secondary establishments teaching 5,493, on average about 785 each. A coding group needs something no single town reliably supplies: five learners at the same stage of the same subject who are free at the same hour. That is why classes are formed from a pool that spans every age from 6 to 67 and every country the teachers serve.
+
+Fees
 
 ## What classes in Helmond cost, in dollars
 
 The full fee is here on the page, not saved for a phone call.
 
-- First class: USD 0. A complete taught lesson, ending with a level and a named course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete taught lesson, ending with a level and a named course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 Every country pays the same dollar figure and there is no euro list, so a family in Brandevoort and one in the Binnenstad see the same price. Nothing is charged until the free lesson has settled a course and a weekly hour, and payment is then arranged over WhatsApp. Pauses, format changes and missed lessons are covered on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Helmond.)Reviews
+
+## Six Google reviews, unedited
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us where the learner is now
+
+The first task might be a colour chart with its guesses marked, a table of temperatures filled forward and checked again, or a work report rerun without its filled cells.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Helmond one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Helmond.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Helmond coding class questions
+
+The town, its wijken, one borrowed date, the teaching and the terms.
 
 ### What does Helmond include?
 
@@ -242,10 +366,14 @@ The first lesson is free. After it, group tuition is USD 100 a month for two liv
 
 Fifteen to twenty, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
+Explore Brabant and beyond
+
 ## West to Eindhoven, and on across Noord-Brabant
 
 The neighbour whose 1232 charter Helmond is assumed to share has its own page, [coding classes in Eindhoven](/coding-classes-in-eindhoven), with the Brainport figures and pages for all seven of its stadsdelen. The provincial capital is on [Den Bosch](/coding-classes-in-den-bosch), where a painter is recorded as buried the day before he died, and the province as a whole is on [Noord-Brabant](/coding-classes-in-noord-brabant). For a learner who wants to go straight to machine learning, the [AI and Python Academy](/ai-and-python-academy-netherlands) is the more direct door, and every page in this series is gathered on the [Netherlands coding hub](/coding-classes-in-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Finish on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Helmond.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-helmond](https://learn.modernagecoders.com/coding-classes-in-helmond#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-helmond*

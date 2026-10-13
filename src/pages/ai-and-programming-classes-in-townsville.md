@@ -4,46 +4,32 @@ description: "Live online AI, machine learning and programming classes for Towns
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-townsville
 source: src/pages/ai-and-programming-classes-in-townsville.html
 ---
-> How models are trained, tested and stopped, using real data a learner can check, rather than only how to call an AI tool. The Townsville urban area counted 179,011 people at the 2021 Census. We teach AI and programming live online, one to one or in small groups at the same level, and the first lesson is free.
+> Live online AI, machine learning and programming classes for Townsville teenagers and adults, built on real North Queensland data. Small groups or one to one.
 
-[Home](/) / [Queensland](/coding-and-ai-classes-in-queensland) / [Australia](/coding-classes-in-australia) / Townsville
-
-Townsville, Queensland, Australia / Live online
-
-# AI and programming classes in Townsville
-
-**What should the best AI classes in Townsville teach?** How models are trained, tested and stopped, using real data a learner can check, rather than only how to call an AI tool. The Townsville urban area counted 179,011 people at the 2021 Census. We teach AI and programming live online, one to one or in small groups at the same level, and the first lesson is free.
-
-Ask a model to predict how many minutes a Townsville bus takes between two stops, given only the distance between them. The open timetable gives us 719 such stop-to-stop segments to learn from. Train a deliberately flexible model on 60 of them and something strange happens. Its error on those 60 keeps falling for as long as you let it run. Its error on 240 segments it has never seen falls too, for a while, and then rises, and keeps rising until the model is useless. The right moment to stop was epoch 400. Our Townsville learners watch this happen, write the rule that stops training at the right time, and learn why "more training" is not the same as "a better model".
-
-Facts last verified 7 October 2026. Teaching is online; no Townsville branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentAI course picks for Townsville
 
 ## Four AI courses Townsville learners start with
 
 Matched to your goal first, then to your level during the trial lesson. Payment details are never collected up front.
 
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 18): Machine learning built up from simple models, with training curves drawn and read by the learner.
-- [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) (University and adult): Training, validation, overfitting and regularisation, implemented by hand before any library is used.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): Working with real timetables and datasets, the part of AI that decides whether models can learn anything at all.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Adults exploring AI): How large models are trained and used, with the same habits of testing and checking applied to them.
+[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 18AI and Machine Learning for TeensMachine learning built up from simple models, with training curves drawn and read by the learner.See the syllabus](/courses/ai-ml-masterclass-teens)[![AI and ML Masterclass course thumbnail](/images/ai-ml-college.webp)University and adultAI and ML MasterclassTraining, validation, overfitting and regularisation, implemented by hand before any library is used.See the syllabus](/courses/ai-ml-masterclass-complete-college)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensWorking with real timetables and datasets, the part of AI that decides whether models can learn anything at all.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Adults exploring AIGenerative AI CourseHow large models are trained and used, with the same habits of testing and checking applied to them.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Townsville in the Census
 
 ## A young urban area of 179,011 people
 
 Census 2021 QuickStats for the Townsville Significant Urban Area, with the Queensland and Australian figures the bureau shows alongside.
 
-**Townsville urban area in the 2021 Census**
-
 | Measure | Townsville | Queensland share | Australian share |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | People | 179,011 | Not shown | Not shown |
 | Median age | 35 | Not shown | Not shown |
 | Families | 45,989 | Not shown | Not shown |
@@ -66,14 +52,14 @@ Technicians and trades workers number 12,628, or 14.4% of employed residents, ag
 
 About these numbers: small census cells are randomly adjusted by the ABS for privacy, so parts of a table may not match the total. We repeat the bureau's totals and shares without adding rows together.
 
+Signature project
+
 ## When does more training make a model worse?
 
 All 719 stop-to-stop segments in Translink's open Townsville timetable, and a model that predicts scheduled minutes from distance.
 
-**The data (our calculation from the Townsville timetable, 7 October 2026)**
-
 | What we counted | Result |
-|---|---|
+| --- | --- |
 | Routes, stops and trips in the file | 17 routes, 638 stops, 992 trips |
 | Distinct pairs of consecutive stops | 719 |
 | Middle straight-line distance between stops | 394 m |
@@ -81,10 +67,8 @@ All 719 stop-to-stop segments in Translink's open Townsville timetable, and a mo
 | Pairs timetabled at 0 minutes | 138, because times are whole minutes |
 | Training, validation and test pairs | 60, 240 and 419 |
 
-**A flexible model trained for longer and longer (error in squared minutes; our calculation)**
-
 | Training epochs | Error on the 60 training pairs | Error on the 240 validation pairs |
-|---|---|---|
+| --- | --- | --- |
 | 100 | 0.611 | 38.2 |
 | 400 | 0.462 | 1.43, the lowest |
 | 1,000 | 0.458 | 15.2 |
@@ -110,14 +94,14 @@ On the 419 test pairs, the weights saved at epoch 400 score an error of 1.069. T
 
 These are our numbers from the timetable valid 7 October to 6 December 2026. The model is a degree-9 polynomial, chosen because it overfits clearly; our reading is that its validation error explodes mainly on segments longer than any in the training set, where a high-degree curve swings wildly. Scheduled minutes are not measured travel times.
 
+Training models responsibly
+
 ## Five habits before you call a model trained
 
 Learned on bus segments, then applied to any model trained by repeated steps, from small regressions to neural networks.
 
-**From "the loss went down" to "the model works"**
-
 | Habit | In practice | What it prevents |
-|---|---|---|
+| --- | --- | --- |
 | Split before you start | Training, validation and test sets fixed in advance | Fooling yourself with data the model has seen |
 | Plot both curves | Training and validation error by epoch | Mistaking memorisation for learning |
 | Keep the winning weights | Save whenever validation improves | Ending up with the last weights instead of the strongest |
@@ -140,6 +124,8 @@ Question any model your employer builds or buys about its validation data and th
 
 No transport operator, government department or statistics office is involved with our classes. Census figures come from the ABS, the timetable is public, and every segment count, error value and curve here was produced by code we wrote.
 
+Around Townsville
+
 ## Seventeen routes, one steady clock
 
 Local facts with a data angle.
@@ -156,16 +142,41 @@ State schools in Townsville are back on Tuesday 6 October 2026 and break up on F
 
 Queensland has stayed on UTC+10 all year since 1992, so Townsville timetables never have to handle a clock change.
 
-**Whole minutes and zero-minute hops** Because the timetable records times to the minute, 138 consecutive stops are scheduled 0 minutes apart. A model has to cope with that rounding, and a learner has to decide whether those rows are data or noise before training anything.
+Whole minutes and zero-minute hops
+
+Because the timetable records times to the minute, 138 consecutive stops are scheduled 0 minutes apart. A model has to cope with that rounding, and a learner has to decide whether those rows are data or noise before training anything.
+
+Learning ladder
 
 ## From a first chart to models that know when to stop
 
 Treat the ages loosely; where you begin is settled in the free session.
 
-- **Ages 13 to 14: Data and charts** Reading the timetable, working out distances between stops and plotting minutes against metres. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 15 to 18: First models** Lines and curves fitted by gradient descent, with training and validation curves drawn by hand. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Statistics & Probability](/courses/statistics-probability-maths-course)
-- **University: Generalisation** Overfitting, early stopping, regularisation and model selection, tested on real datasets. [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college), [Data Science Course](/courses/data-science-complete-masterclass-college)
-- **Adults: AI in practice** Evaluating and maintaining models that make decisions at work. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 13 to 14
+
+### Data and charts
+
+Reading the timetable, working out distances between stops and plotting minutes against metres.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 15 to 18
+
+### First models
+
+Lines and curves fitted by gradient descent, with training and validation curves drawn by hand.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Statistics & Probability](/courses/statistics-probability-maths-course)University
+
+### Generalisation
+
+Overfitting, early stopping, regularisation and model selection, tested on real datasets.
+
+[AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college)[Data Science Course](/courses/data-science-complete-masterclass-college)Adults
+
+### AI in practice
+
+Evaluating and maintaining models that make decisions at work.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## Large AI models are trained by experts. Why should a Townsville teenager learn early stopping?
 
@@ -177,30 +188,139 @@ A Townsville learner who has watched that happen asks better questions of any AI
 
 AI will keep getting more capable, and a Townsville learner who understands why models fail on new data will be the one trusted to build and judge them in 2026. The longer argument is in [why coding still matters in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Bushland Beach to the city, one live class
 
 Townsville stretches along the coast and inland, and an online lesson reaches every suburb without a car or a bus.
 
-- **Every suburb included** A learner near the Strand and another out at Kelso join the same lesson at the same time from home.
-- **Queensland school years** Teachers use Queensland year levels, from Year 7 to Year 12, and all lessons run in English.
-- **Start with a real model** The first, unpaid session has you training something small while the teacher watches, and it closes with advice on stage, course and slot. There is no card to enter.
-- **Groups of fifteen to twenty** Learners at the same stage from North Queensland, the rest of Australia and abroad, so every level has a sensible slot.
-- **Two lessons a week** About eight lessons a month at a fixed time, with holidays and exam periods planned with the teacher.
-- **Same offset in every season** Neither North Queensland nor India adjusts its clocks, which fixes the distance to our teachers at four and a half hours.
+### Every suburb included
 
-**A 4pm lesson stays at 4pm** With no clock changes on either side, a Townsville lesson at 4pm begins at 11:30am in India in every month of the year.
+A learner near the Strand and another out at Kelso join the same lesson at the same time from home.
+
+### Queensland school years
+
+Teachers use Queensland year levels, from Year 7 to Year 12, and all lessons run in English.
+
+### Start with a real model
+
+The first, unpaid session has you training something small while the teacher watches, and it closes with advice on stage, course and slot. There is no card to enter.
+
+### Groups of fifteen to twenty
+
+Learners at the same stage from North Queensland, the rest of Australia and abroad, so every level has a sensible slot.
+
+### Two lessons a week
+
+About eight lessons a month at a fixed time, with holidays and exam periods planned with the teacher.
+
+### Same offset in every season
+
+Neither North Queensland nor India adjusts its clocks, which fixes the distance to our teachers at four and a half hours.
+
+A 4pm lesson stays at 4pm
+
+With no clock changes on either side, a Townsville lesson at 4pm begins at 11:30am in India in every month of the year.
+
+Fees
 
 ## What AI and programming classes cost in Townsville
 
 Three figures, nothing hidden.
 
-- First class: USD 0. One free lesson that ends with a level, a recommended course and a weekly time.
-- Group tuition: USD 100 a month. A month of tuition, normally eight lessons, with fifteen to twenty learners at your stage.
-- Private tuition: USD 150 a month. Roughly eight private lessons a month with a single teacher.
+First class**USD 0**
+
+One free lesson that ends with a level, a recommended course and a weekly time.
+
+Group tuition**USD 100**
+
+A month of tuition, normally eight lessons, with fifteen to twenty learners at your stage.
+
+Private tuition**USD 150**
+
+Roughly eight private lessons a month with a single teacher.
 
 North Queensland families pay in US dollars at the same single rate as everyone outside India, with no regional loading. Billing starts only once the trial has fixed a course and time; the pricing page explains holidays, missed lessons and changing format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20and%20programming%20class%20for%20a%20learner%20in%20Townsville.)Reviews
+
+## What our families have written on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us where you want to start with AI
+
+We pick a first task that fits: charting bus segments for a Year 8, a first model and its error curves for a Year 11, or the full early stopping experiment for an adult.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Townsville one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20and%20programming%20class%20for%20a%20learner%20in%20Townsville.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Townsville AI and programming questions
+
+What Townsville learners and families often ask first.
 
 ### How many people live in the Townsville urban area?
 
@@ -242,10 +362,14 @@ The first lesson is free. After that a group place is USD 100 a month for two li
 
 Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
+Explore Australia
+
 ## More for Townsville and Queensland learners
 
 Teenagers keen on AI can read [the Python AI course for younger learners](/python-ai-course-for-kids-australia) or [AI classes for teens in Australia](/ai-classes-for-teens-australia). Further south, see [AI and programming on the Sunshine Coast](/ai-and-programming-classes-in-sunshine-coast), and the state guide is [coding and AI classes in Queensland](/coding-and-ai-classes-in-queensland).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20and%20programming%20class%20for%20a%20learner%20in%20Townsville.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-townsville](https://learn.modernagecoders.com/ai-and-programming-classes-in-townsville#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-townsville*

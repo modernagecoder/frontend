@@ -12,7 +12,7 @@ LIVE ONLINE · HOWRAH CITY, HOWRAH
 
 Modern Age Coders runs premium, live online coding and mathematics classes for families across Howrah City, from Howrah Maidan and Salkia to Shibpur, Pilkhana and the GT Road belt. Every class is taught live by full-time engineers and maths graduates in batches of 15–20, never pre-recorded. Your child gets the same Kolkata-grade tuition that families once crossed Howrah Bridge for, now live to your home, with zero commute. Fees start at ₹1,499/month.
 
-100% live · not recordedSmall batches of 6–8Engineer & maths-graduate tutorsNo bridge, no commute6–8Students per live batch₹1,499Starting fee per month24 hrsFrom demo to first class1–12+Grades & ages we teach[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)AT A GLANCE
+100% live · not recordedBatches of 15–20Engineer & maths-graduate tutorsNo bridge, no commute15–20Students per live batch₹1,499Starting fee per month24 hrsFrom demo to first class1–12+Grades & ages we teach[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)AT A GLANCE
 
 ## The essentials, in one place
 

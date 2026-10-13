@@ -4,34 +4,28 @@ description: "Java classes for learners in Ireland: where Java sits in Irish deg
 canonical: https://learn.modernagecoders.com/java-classes-ireland
 source: src/pages/java-classes-ireland.html
 ---
-> Java is a strict, verbose, extremely well-established language, and it is worth learning for exactly those reasons: it forces you to say what you mean about types and structure. In Irish higher education it usually appears after a first language rather than as one, with Trinity a notable exception in first year and several universities introducing it in second year. We teach it live online, from the first class and object through collections, data structures and testing, to secondary students, college students and working adults. The first class is free, then USD 100 a month in a group of fifteen to twenty or USD 150 a month one to one.
+> Java classes for learners in Ireland: where Java sits in Irish degrees, and live online teaching from first objects to data structures. First class free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Ireland](/coding-classes-in-ireland) / Java classes, Ireland
+In short
 
-Ireland · Java · Teens, students and adults
+Java is a strict, verbose, extremely well-established language, and it is worth learning for exactly those reasons: it forces you to say what you mean about types and structure. In Irish higher education it usually appears after a first language rather than as one, with Trinity a notable exception in first year and several universities introducing it in second year. We teach it live online, from the first class and object through collections, data structures and testing, to secondary students, college students and working adults. The first class is free, then USD 100 a month in a group of fifteen to twenty or USD 150 a month one to one.
 
-# Java classes in Ireland
-
-There is a piece of folklore worth correcting before anyone spends a summer on it: Java is not the standard first language of Irish computing degrees. We read the module descriptors, and the picture is mixed. Trinity College Dublin does teach it in first year, in the second semester, where its Year 1 page says students write programs "in an object-oriented language (in this case Java)". Maynooth names it in its second first-year module. But the University of Galway states plainly that its students meet "C and Javascript in first year and then Java from second year onwards", Dublin City University's first programming modules are Python, and University College Dublin lists Introduction to Java as a second-level module. So Java matters in Irish computing, and it usually arrives once you can already program. This page sets out where it appears, and how we teach it to secondary students, college students and adults who need it for work.
-
-At a glance: For: Teens, students and adults; Covers: Objects, collections, data structures; Includes: Testing and tooling; Suits: Second-year modules and work; Group: Fifteen to twenty at one level; Or: One to one; Hours: Evenings and weekends, Irish time; Start: A free first class. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three Java courses
 
 One for secondary students, one for college level and adults, one for where Java leads on mobile. Each card opens its syllabus.
 
-- [Java for Teens](/courses/java-programming-masterclass-for-teens): A first strict language for secondary students, where the compiler insists on precision and the student learns to give it.
-- [Java Masterclass](/courses/complete-java-programming-masterclass-college): The full language for college students and adults: objects, collections, generics, exceptions, files and tests, built into real programs.
-- [Kotlin Masterclass](/courses/complete-kotlin-programming-masterclass-professional): The modern companion language on the same platform, widely used for Android work and increasingly on the server.
+[![Java for Teens course thumbnail](/images/java-teens.webp)  JAVA / 01 Java for Teens A first strict language for secondary students, where the compiler insists on precision and the student learns to give it. Open the syllabus →](/courses/java-programming-masterclass-for-teens)[![Java Course for College course thumbnail](/images/java-college.webp)  JAVA / 02 Java Masterclass The full language for college students and adults: objects, collections, generics, exceptions, files and tests, built into real programs. Open the syllabus →](/courses/complete-java-programming-masterclass-college)[![Kotlin and Android Course course thumbnail](/images/kotlin-college.webp)  JAVA / 03 Kotlin Masterclass The modern companion language on the same platform, widely used for Android work and increasingly on the server. Open the syllabus →](/courses/complete-kotlin-programming-masterclass-professional)
+
+Java in Irish degrees
 
 ## Where Java actually appears, module by module
 
 Read from the institutions' own catalogues and handbooks. Departments change their choices, so treat this as a snapshot and check your own descriptor.
 
-**Java in Irish computing programmes, from official module documents**
-
 | Institution | What the documents say | When |
-|---|---|---|
+| --- | --- | --- |
 | Trinity College Dublin | Introduction to Programming II teaches programs "in an object-oriented language (in this case Java)" | Year 1, Semester 2 |
 | Maynooth University | Introduction to Computer Science II lists an outcome to "write simple programmes in jva", a typo for Java in the descriptor itself | First-year pair of modules |
 | University of Galway | "The main languages covered are C and Javascript in first year and then Java from second year onwards" | From year 2 |
@@ -52,6 +46,8 @@ If you are starting a degree, learn to program first and worry about the languag
 If you are heading into second year, or into a placement that uses Java, a focused course before term is genuinely useful, and that is when most of our Irish college students take one.
 
 Sources, read 16 September 2026: [Trinity, Integrated Computer Science Year 1](https://teaching.scss.tcd.ie/integrated-computer-science/ics-year-1/); [Maynooth CS162](https://apps.maynoothuniversity.ie/courses/?TARGET=MODULE&MODE=VIEW&MODULE_CODE=CS162&YEAR=2025); [University of Galway](https://www.universityofgalway.ie/courses/undergraduate-courses/computer-science-and-information-technology.html); [DCU CA116](https://modspec.dcu.ie/registry/module_contents.php?function=2&subcode=CA116); [UCD COMP20250](https://www.ucd.ie/modules/COMP20250); [UL CS4141](https://bookofmodules.ul.ie/Default.aspx?ModuleCodeParameter=%7CCS4141%7C). We are not affiliated with any of these institutions.
+
+Java and school
 
 ## Java is not on the Irish school curriculum
 
@@ -79,14 +75,14 @@ A caveat worth stating: a revised Coding short course was signalled for Septembe
 
 Sources: [Leaving Certificate Computer Science specification](https://www.curriculumonline.ie/getmedia/cff6eb86-9ff8-4e68-abf9-e42ca637492d/LC-Computer-Science-specification-updated.pdf); [Junior Cycle Coding short course](https://www.curriculumonline.ie/getmedia/cc254b82-1114-496e-bc4a-11f5b14a557f/NCCA-JC-Short-Course-Coding.pdf), read 16 September 2026.
 
+Learning it well
+
 ## How Java should be taught, and how it usually is
 
 Java gets a reputation for being tedious, and badly taught it deserves one. Taught well it is the clearest way to learn how large programs are structured.
 
-**Two ways to teach the same language**
-
 | Topic | The tedious version | How we teach it |
-|---|---|---|
+| --- | --- | --- |
 | Classes and objects | Copy a class definition and fill in blanks | Model something real, then discover why the fields need to be private |
 | Inheritance | Animal, Dog, Cat, forever | Refactor working code where duplication actually hurts |
 | Collections | Memorise the interface names | Choose a structure for a stated reason and measure the difference |
@@ -121,14 +117,14 @@ Java tends to sit where systems are large, long-lived and cannot be rewritten on
 
 It is also common in Android work alongside Kotlin, which is why mobile developers so often end up knowing both. The practical route through that is set out on our app development page.
 
+The rungs
+
 ## Five rungs of Java
 
 Learners with another language behind them usually take half the time, because only the syntax and the ceremony are new.
 
-**The Java route**
-
 | Rung | The learner can |
-|---|---|
+| --- | --- |
 | 1. Syntax and types | Write, compile and run small programs with confidence |
 | 2. Objects | Design classes that hide their data and expose sensible behaviour |
 | 3. Collections | Use lists, maps and sets deliberately, knowing what each costs |
@@ -138,63 +134,293 @@ Learners with another language behind them usually take half the time, because o
 ### Java or Python first?
 
 For most beginners Python first, then Java. For students who already program, Java teaches structure faster than anything else.
+
 The whole order of languages and subjects is on the [coding roadmap](/coding-roadmap).
 
 ### For college students
 
 Students preparing for a second-year Java module usually take a focused course over the summer or alongside the first weeks of term.
+
 More on studying here is on [coding for college students in Ireland](/coding-for-college-students-ireland).
+
+The catalogue
 
 ## Nine live courses around Java
 
 By stage, with the languages and tools that sit closest to it. The free first class settles the level.
 
+I
+
 ### School years
 
 A first strict language
 
-- [Java for Teens](/courses/java-programming-masterclass-for-teens): Objects and types for secondary students.
-- [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens): The reasoning Java rewards.
-- [Git and GitHub for Teens](/courses/git-github-version-control-course-for-teens): Projects kept properly from the start.
+JV / SCHOOL / 01
+
+#### Java for Teens
+
+Objects and types for secondary students.
+
+[Open the syllabus](/courses/java-programming-masterclass-for-teens)
+
+JV / SCHOOL / 02
+
+#### Problem Solving for Teens
+
+The reasoning Java rewards.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
+
+JV / SCHOOL / 03
+
+#### Git and GitHub for Teens
+
+Projects kept properly from the start.
+
+[Open the syllabus](/courses/git-github-version-control-course-for-teens)II
 
 ### College and adults
 
 The language in full
 
-- [Java Masterclass](/courses/complete-java-programming-masterclass-college): Objects to generics, with tests throughout.
-- [Data Structures and Algorithms](/courses/data-structures-algorithms-masterclass-college): The second-year module, made clear.
-- [MySQL Masterclass](/courses/mysql-database-complete-masterclass-college): The database most Java systems talk to.
+JV / COLLEGE / 01
+
+#### Java Masterclass
+
+Objects to generics, with tests throughout.
+
+[Open the syllabus](/courses/complete-java-programming-masterclass-college)
+
+JV / COLLEGE / 02
+
+#### Data Structures and Algorithms
+
+The second-year module, made clear.
+
+[Open the syllabus](/courses/data-structures-algorithms-masterclass-college)
+
+JV / COLLEGE / 03
+
+#### MySQL Masterclass
+
+The database most Java systems talk to.
+
+[Open the syllabus](/courses/mysql-database-complete-masterclass-college)III
 
 ### Around Java
 
 Neighbouring languages
 
-- [Kotlin Masterclass](/courses/complete-kotlin-programming-masterclass-professional): The same platform, less ceremony.
-- [TypeScript Masterclass](/courses/complete-typescript-programming-masterclass-college): Static types, on the web side.
-- [C++ Masterclass](/courses/cpp-programming-complete-masterclass-college): For learners who want to go lower.
+JV / NEAR / 01
+
+#### Kotlin Masterclass
+
+The same platform, less ceremony.
+
+[Open the syllabus](/courses/complete-kotlin-programming-masterclass-professional)
+
+JV / NEAR / 02
+
+#### TypeScript Masterclass
+
+Static types, on the web side.
+
+[Open the syllabus](/courses/complete-typescript-programming-masterclass-college)
+
+JV / NEAR / 03
+
+#### C++ Masterclass
+
+For learners who want to go lower.
+
+[Open the syllabus](/courses/cpp-programming-complete-masterclass-college)
+
+How the classes run
 
 ## Live lessons, with code compiling in front of you
 
 Teaching is live, from India, at one fixed hour each week set in Irish time. India keeps a single clock all year and Ireland switches twice, so our teachers are four and a half hours ahead of you in summer and five and a half in winter. Students and working adults usually take evening slots.
 
-- **Weekday evening** The usual choice, Irish time.
-- **Weekend** Longer project sessions.
-- **Summer intensives** Before a second-year module starts.
+Weekday evening
 
-- **A free first class** You write and compile real Java with a teacher and get a clear view of the right starting rung.
-- **Groups of fifteen to twenty** Learners at one level, reading each other's classes and suggesting better designs.
-- **One to one** For a deadline, a placement or a particular codebase at work.
-- **Real tooling** A proper editor, a build tool and version control from early on, as used in any Java job.
-- **Tests from week two** Java makes automated tests straightforward, so students write them as a habit.
-- **Never assessed work** We do not write, edit or review anything being submitted for marks.
+The usual choice, Irish time.
+
+Weekend
+
+Longer project sessions.
+
+Summer intensives
+
+Before a second-year module starts.
+
+### A free first class
+
+You write and compile real Java with a teacher and get a clear view of the right starting rung.
+
+### Groups of fifteen to twenty
+
+Learners at one level, reading each other's classes and suggesting better designs.
+
+### One to one
+
+For a deadline, a placement or a particular codebase at work.
+
+### Real tooling
+
+A proper editor, a build tool and version control from early on, as used in any Java job.
+
+### Tests from week two
+
+Java makes automated tests straightforward, so students write them as a habit.
+
+### Never assessed work
+
+We do not write, edit or review anything being submitted for marks.
+
+Student work
+
+## Programs our students wrote
+
+Four projects our students published, across several languages. The full set lives on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Java class fees
 
 One monthly price in US dollars, the same in every country outside India and at every level. Nothing to pay to enrol, and no term or year to sign up for.
 
-- Free first class: USD 0. Real Java written and compiled. An honest view of the right rung. No card taken.
-- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher each week. Code reviewed weekly. A certificate at the end.
-- One to one: USD 150 a month. A teacher to yourself. Built around a module or a job. Good before a second-year course.
+Free first class
+
+USD 0
+
+no card required
+
+- Real Java written and compiled
+- An honest view of the right rung
+- No card taken
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners at one level
+- The same teacher each week
+- Code reviewed weekly
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher to yourself
+- Built around a module or a job
+- Good before a second-year course
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Reviews as left on Google by our students and their families, unedited and unpaid.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions
 
 ## What learners in Ireland ask about Java
 
@@ -238,15 +464,54 @@ Evenings and weekends at a weekly hour agreed in the free class. Our teachers ar
 
 We ring at a reasonable Irish hour and arrange the free class. There is no charge unless you continue.
 
+Elsewhere on this site
+
 ## Related pages
 
-- [Coding for college students in Ireland](/coding-for-college-students-ireland): Modules, terms and portfolios.
-- [App development course in Ireland](/app-development-course-ireland): The mobile route from here.
-- [Full stack software development](/full-stack-software-development-course-ireland): Where server languages live.
-- [Best coding classes for teens in Ireland](/best-coding-classes-for-teens-ireland): The school years.
-- [Leaving Cert Computer Science grinds](/leaving-cert-computer-science-grinds-online): The subject as assessed.
-- [Coding classes in Ireland](/coding-classes-in-ireland): The national page.
+Where Java sits among everything else.
 
-## Contact
+### [Coding for college students in Ireland](/coding-for-college-students-ireland)
 
-Book the free first class at [https://learn.modernagecoders.com/java-classes-ireland](https://learn.modernagecoders.com/java-classes-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Modules, terms and portfolios.
+
+### [App development course in Ireland](/app-development-course-ireland)
+
+The mobile route from here.
+
+### [Full stack software development](/full-stack-software-development-course-ireland)
+
+Where server languages live.
+
+### [Best coding classes for teens in Ireland](/best-coding-classes-for-teens-ireland)
+
+The school years.
+
+### [Leaving Cert Computer Science grinds](/leaving-cert-computer-science-grinds-online)
+
+The subject as assessed.
+
+### [Coding classes in Ireland](/coding-classes-in-ireland)
+
+The national page.
+
+Start here
+
+## Write your first Java class in a free lesson
+
+Leave a number and we will ring at a time that suits you in Ireland. In the free class you write and compile real Java with a teacher, and find out honestly where to begin.
+
+Want to look first? See [how we teach](/how-we-teach), the [course syllabuses](/courses), and [what our students built](/student-labs).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Ireland%20and%20would%20like%20a%20free%20first%20Java%20class.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is free from an Irish phone and usually quickest. The number is Indian, since our teachers work from India, and we have no Irish office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/java-classes-ireland*

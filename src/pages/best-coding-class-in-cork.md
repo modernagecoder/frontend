@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and data classes for Cork families,
 canonical: https://learn.modernagecoders.com/best-coding-class-in-cork
 source: src/pages/best-coding-class-in-cork.html
 ---
-> The best class for a Cork family is the one that fits a city of 222,526 people in its built-up area, where the council area holds 224,004, where Polish citizens at 4,423 and Indian citizens at 3,016 are the largest non-Irish groups in Cork City, and where 8,555 people had arrived in the city in the year before the 2022 census. Cork is also the home of the Central Statistics Office itself, on Skehard Road, which makes it a fitting place to learn that numbers need reading carefully. Our teachers work from India and every lesson is live, so Ballincollig, Douglas and Mayfield are all the same distance from the class: none. Learners are aged 6 to 67 and sit in groups of fifteen to twenty at one level, or alone with a teacher. Trying it costs nothing, and staying costs USD 100 a month in a group or USD 150 a month privately.
+> Live online coding, Python, AI and data classes for Cork families, from Ballincollig to Mayfield, ages 6 to 67, taught at a fixed hour. First lesson free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / Cork
-
-Cork, Munster / Live online
-
-# Coding classes in Cork
-
-**What are the best coding classes in Cork?** The best class for a Cork family is the one that fits a city of 222,526 people in its built-up area, where the council area holds 224,004, where Polish citizens at 4,423 and Indian citizens at 3,016 are the largest non-Irish groups in Cork City, and where 8,555 people had arrived in the city in the year before the 2022 census. Cork is also the home of the Central Statistics Office itself, on Skehard Road, which makes it a fitting place to learn that numbers need reading carefully. Our teachers work from India and every lesson is live, so Ballincollig, Douglas and Mayfield are all the same distance from the class: none. Learners are aged 6 to 67 and sit in groups of fifteen to twenty at one level, or alone with a teacher. Trying it costs nothing, and staying costs USD 100 a month in a group or USD 150 a month privately.
-
-Cork City Council counts the people walking past eleven points in the city centre, every hour, and publishes the lot. It is a lovely dataset: 593,280 rows going back to August 2018, no gaps, no duplicates, and every row adding up exactly. Then you ask it a simple question, how busy was December 2024 at Patrick Bridge East, and the file gives two answers. Group by the date and you get 476,121 people. Group by the month column sitting right beside it and you get 545,376, an overstatement of about 14.5%. Neither is wrong. The month column follows a retail calendar of four and five week months, so its December starts in November. Nothing in the file warns you, and the column is the obvious one to use. That gap between a column's name and a column's meaning is the thread of this page, and it is the kind of thing a learner only ever finds out by opening real data.
-
-Facts last verified 16 September 2026. Teaching is online; no Cork branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Cork
 
 ## Four courses for a city of 222,526
 
 Four learners, four starting points: a young child making a first game, a secondary student taking Python seriously, an older teenager who enjoys arguing with numbers, and an adult whose job has started asking for data. None of them pays to begin.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Blocks and first programs, where a counter on screen has to be kept honest every time something moves past it.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python for the Junior Cycle and Transition Year years, written and read line by line, using real Cork data as practice.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): The city footfall file: two ways of grouping a month, two answers, and one written sentence on which to trust.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (College and adult): For adults whose work already involves reports: checking what a column means before a dashboard or an AI summary is built on it.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlocks and first programs, where a counter on screen has to be kept honest every time something moves past it.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython for the Junior Cycle and Transition Year years, written and read line by line, using real Cork data as practice.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensThe city footfall file: two ways of grouping a month, two answers, and one written sentence on which to trust.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)College and adultData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For adults whose work already involves reports: checking what a column means before a dashboard or an AI summary is built on it.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Cork today
 
 ## Two Corks, and why the numbers differ
 
 Census 2022 measured Cork in more than one way, and the figures only make sense when you say which Cork you mean. This page keeps them apart.
 
-**Cork in Census 2022, Central Statistics Office**
-
 | Measure | Figure | What it covers |
-|---|---|---|
+| --- | --- | --- |
 | Cork city and suburbs | 222,526 | The built-up area: 109,030 male and 113,496 female |
 | Cork City Council area | 224,004 | The council area, a different shape from the built-up city |
 | Living in both | 216,229 | People inside the built-up area and the council area at once |
@@ -65,14 +51,14 @@ Ballincollig is an electoral division of Cork City with 19,069 people, while the
 
 One figure worth stating carefully: 47% of people in Cork held a third-level qualification in 2022, above the national 45%, and 5,342 people in Cork held a PhD, 14% of all PhD holders in the State. Those are figures for Cork city and county together, not for the city alone, and we label them that way because the CSO does.
 
+Computer Science in Cork schools
+
 ## Seven Cork schools in the first phase
 
 Leaving Certificate Computer Science began in a set of named schools in September 2018, with the first exam in 2020. Seven of those schools were in Cork city and county.
 
-**Cork schools in the first phase of Leaving Certificate Computer Science, from the January 2018 list**
-
 | School | Where |
-|---|---|
+| --- | --- |
 | Christ King Girls Secondary School | Half Moon Lane, South Douglas Road |
 | Gaelcholaiste Mhuire AG | An Mhainistir Thuaidh, Corcaigh |
 | Mayfield Community School | Old Youghal Road, Mayfield |
@@ -95,6 +81,8 @@ Cork City Council runs the Lifetime Lab at the Old Cork Waterworks on the Lee Ro
 
 University College Cork was established in 1845 and opened to 115 students in 1849; it now has over 26,000. Munster Technological University was established on 1 January 2021 and its Cork campus is at Bishopstown.
 
+Signature project
+
 ## Counting footsteps on Patrick Street, and the month that starts in November
 
 Cork City Council publishes hourly pedestrian counts from the city centre under a Creative Commons Attribution licence. Learners use the file to find out how a tidy dataset can still give two answers.
@@ -111,10 +99,8 @@ How busy was Patrick Bridge East in December 2024? Group by the date column and 
 
 The month, year and week columns follow a retail calendar of 28 and 35 day months. Its December 2024 runs from 25 November to 29 December, so it includes a whole extra week of Christmas shopping.
 
-**Our measurements on the published file, read 16 September 2026**
-
 | Measure | Figure |
-|---|---|
+| --- | --- |
 | Rows in the file | 593,280 |
 | Counter sites | 11, six of them since 1 August 2018 |
 | Rows whose retail month differs from their calendar month | 47,400 |
@@ -126,14 +112,14 @@ The month, year and week columns follow a retail calendar of 28 and 35 day month
 
 The network grew from six counters to eleven in August 2022. Add up every site and footfall appears to rise 7.9% between 2019 and 2023, from 32,647,302 to 35,231,992. Compare only the six counters present in both years and it falls 12.4%, to 28,594,862. Separately, 19 Caroline Street records 27 whole days where every single hour is zero, mostly in its first weeks, against a median non-zero day of 2,865 people. There are no blanks in this file, so an outage looks exactly like an empty street. A learner who answers "is the city busier than before the pandemic?" without fixing all three gets a confident, wrong answer.
 
+Reading a column honestly
+
 ## Five checks before a column is trusted
 
 Taught on a Cork file, and used afterwards on spreadsheets at work, sensor feeds and anything an AI tool is asked to summarise.
 
-**Checking that a column means what its name says**
-
 | Check | In practice | What it avoids |
-|---|---|---|
+| --- | --- | --- |
 | Rebuild the total | Confirm that the totals column really equals its parts | Trusting a summary column nobody recomputed |
 | Group two ways | Group by the date and by any month or week column, then compare | A December that quietly starts in November |
 | Count the sources | Check whether the same stations reported in every year | A rise that is only more counters |
@@ -156,6 +142,8 @@ The same discipline applied to work reports: what does this column mean, who mad
 
 We are independent of every organisation named here: Cork City Council, University College Cork, Munster Technological University, Apple, Iarnród Éireann and each of the schools listed. Where a census figure appears it is the Central Statistics Office's own for 2022; where a footfall figure appears we counted it ourselves from the Council's published file.
 
+Around the city
+
 ## Two routing keys, one river and a market from 1788
 
 Cork families know the city's geography in their bones. An online class needs none of it, which is rather the point.
@@ -172,16 +160,41 @@ Created in 1788 by the corporation that then ran the city, and given its Princes
 
 Cork's mainline station, with direct services to Dublin Heuston. Platforms 1 to 4 are level, with a ramp or lift to platforms 5A, 5B and 6.
 
-**Young towns on the city's edge** The CSO noted that three of the State's youngest towns of between 1,500 and 10,000 people sit close to Cork City: Watergrasshill, Rathcormac and Carrigtwohill. Young towns mean young families, and a live online class reaches them at the same hour it reaches Bishopstown.
+Young towns on the city's edge
+
+The CSO noted that three of the State's youngest towns of between 1,500 and 10,000 people sit close to Cork City: Watergrasshill, Rathcormac and Carrigtwohill. Young towns mean young families, and a live online class reaches them at the same hour it reaches Bishopstown.
+
+Learning ladder
 
 ## From a counter that ticks to a column that misleads
 
 Placement comes from what a learner does in the free lesson, not from a form. The bands below say what is typical, and teachers move people up or down without ceremony.
 
-- **Ages 6 to 10: Counting things** Children build programs that count and display, and see what a broken counter does to the story. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: First tables** Learners read small real tables in Python and ask what each column actually measures. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Grouping and checking** Teenagers group the same data two ways, compare the answers and say which question each one answers. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Before the report** Adults write checks that run before a dashboard, a report or an AI summary is trusted. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### Counting things
+
+Children build programs that count and display, and see what a broken counter does to the story.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### First tables
+
+Learners read small real tables in Python and ask what each column actually measures.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Grouping and checking
+
+Teenagers group the same data two ways, compare the answers and say which question each one answers.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Before the report
+
+Adults write checks that run before a dashboard, a report or an AI summary is trusted.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## An AI will total this file in seconds. Why should a teenager in Cork learn to question the total?
 
@@ -193,30 +206,139 @@ A learner who has met this once starts asking a different question of every data
 
 So the case for a Cork child learning to code in 2026 is not that a company might hire them. It is that decisions here are increasingly made from data, and somebody in the room needs to be able to ask whether the column means what its name says. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## From Ballincollig to Mayfield, the same class at the same hour
 
 Cork runs from the harbour up to the western suburbs, and the lesson arrives everywhere at the same second. Nobody drives into town for it, and nobody queues on Washington Street.
 
-- **Wherever the laptop is** Carrigaline and Blackpool sit in the same group without either learner leaving the house at half four.
-- **Your school year, your words** Teachers use the Irish stages by name, from First Year through Transition Year to sixth, so nothing has to be translated for a parent.
-- **Nothing to pay to try** The opening lesson is genuine teaching on a genuine task; a level, a course and an hour are proposed afterwards, and no payment details are requested.
-- **Groups, many countries** Each group holds fifteen to twenty learners of matching ability, drawn from Cork and elsewhere, which is what makes a sensible hour possible at every level.
-- **Planned around term** The usual rhythm is two lessons a week, about eight in a month, held at the same time, and families decide with the teacher when to pause for mid-terms or exams.
-- **A clock that does not move** India stays on one time all year while Ireland changes twice, leaving our teachers four and a half hours ahead in summer and five and a half in winter; Cork afternoons, evenings and weekend mornings all land comfortably.
+### Wherever the laptop is
 
-**A city that works from home** In Cork City almost 35,700 people worked from home at least some of the time in 2022, with almost 11,800 doing so five days a week, while almost 56,000 never did. For a household where somebody is home by five, a live lesson at a fixed hour is easy to build into the week.
+Carrigaline and Blackpool sit in the same group without either learner leaving the house at half four.
+
+### Your school year, your words
+
+Teachers use the Irish stages by name, from First Year through Transition Year to sixth, so nothing has to be translated for a parent.
+
+### Nothing to pay to try
+
+The opening lesson is genuine teaching on a genuine task; a level, a course and an hour are proposed afterwards, and no payment details are requested.
+
+### Groups, many countries
+
+Each group holds fifteen to twenty learners of matching ability, drawn from Cork and elsewhere, which is what makes a sensible hour possible at every level.
+
+### Planned around term
+
+The usual rhythm is two lessons a week, about eight in a month, held at the same time, and families decide with the teacher when to pause for mid-terms or exams.
+
+### A clock that does not move
+
+India stays on one time all year while Ireland changes twice, leaving our teachers four and a half hours ahead in summer and five and a half in winter; Cork afternoons, evenings and weekend mornings all land comfortably.
+
+A city that works from home
+
+In Cork City almost 35,700 people worked from home at least some of the time in 2022, with almost 11,800 doing so five days a week, while almost 56,000 never did. For a household where somebody is home by five, a live lesson at a fixed hour is easy to build into the week.
+
+Fees
 
 ## What classes cost in Cork
 
 Three figures, stated plainly, with nothing added later.
 
-- First class: USD 0. A full lesson on something real, after which you are told where the learner stands and what to take.
-- Group tuition: USD 100 a month. Four weeks of teaching, generally eight lessons, shared with between five and ten learners of the same ability.
-- Private tuition: USD 150 a month. The same four weeks and eight lessons, with the teacher working with one learner only.
+First class**USD 0**
+
+A full lesson on something real, after which you are told where the learner stands and what to take.
+
+Group tuition**USD 100**
+
+Four weeks of teaching, generally eight lessons, shared with between five and ten learners of the same ability.
+
+Private tuition**USD 150**
+
+The same four weeks and eight lessons, with the teacher working with one learner only.
 
 Billing is in US dollars, on the single rate that applies outside India; there is no euro price list, and Douglas pays what Farranree pays. Nothing is charged until the free lesson has settled which course and which hour. Pauses, switching format and missed lessons are all set out on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Cork.)Reviews
+
+## What Cork families read before they call: six unedited Google reviews
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Where is the learner starting from?
+
+Depending on the learner, the opening task might be a counter built in Scratch, a first script that opens a table, or the hunt for two Decembers in the city's own footfall file.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Cork one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Cork.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Cork coding class questions
+
+The city, its figures, its schools and the lessons.
 
 ### How many people live in Cork?
 
@@ -258,10 +380,14 @@ The opening lesson is free of charge. Continuing costs USD 100 each month for a 
 
 Groups run from five up to ten. What puts learners together is ability, speed and what they are aiming at, never their age or where they live. Where nothing suitable is running at an hour that works, private lessons fill the gap.
 
+Explore Ireland
+
 ## Up the country, and back to the national page
 
 The capital is covered separately at [coding classes in Dublin](/best-coding-class-in-dublin). Readers weighing up how to choose between online schools should start with [best online coding classes in Ireland](/best-online-coding-classes-ireland), while anyone drawn to models and data will want [AI and machine learning classes in Ireland](/ai-and-machine-learning-classes-in-ireland). Every Irish page hangs off the [Ireland coding page](/coding-classes-in-ireland).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Cork.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-cork](https://learn.modernagecoders.com/best-coding-class-in-cork#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-cork*

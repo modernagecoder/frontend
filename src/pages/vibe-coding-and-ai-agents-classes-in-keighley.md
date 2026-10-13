@@ -4,46 +4,32 @@ description: "Vibe coding, AI agents, Python and coding classes by live video fo
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-keighley
 source: src/pages/vibe-coding-and-ai-agents-classes-in-keighley.html
 ---
-> ONS figures put 48,750 people in the Keighley built-up area in 2021, part of a Bradford district of 546,412. Riddlesden, Ingrow, Long Lee, Thwaites Brow and Exley Head are recorded as suburban areas and Oakworth as a village. Modern Age Coders teaches vibe coding, AI agents, Python, coding and maths to Keighley learners aged six to 67. Lessons happen live on video with a tutor in India, and can be private or shared with five to ten others at one level. Our learners are taught to plan what an agent should do, and to work out in advance how it could go wrong. The Keighley project puts one small agent on every road junction in the town and asks them to choose a single leader with nobody in charge. You pay nothing for the first lesson, which finishes with a course suggestion; from then on a group seat costs USD 100 a month and private lessons USD 150 a month.
+> Vibe coding, AI agents, Python and coding classes by live video for Keighley, Riddlesden, Ingrow, Long Lee and Oakworth, ages 6 to 67. Your first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Yorkshire and the Humber](/coding-and-ai-classes-in-yorkshire-and-the-humber) / Keighley
-
-Keighley, Bradford district, West Yorkshire / Live online
-
-# Vibe coding and AI agents classes in Keighley
-
-**Where are the best vibe coding and AI agents classes for Keighley?** ONS figures put 48,750 people in the Keighley built-up area in 2021, part of a Bradford district of 546,412. Riddlesden, Ingrow, Long Lee, Thwaites Brow and Exley Head are recorded as suburban areas and Oakworth as a village. Modern Age Coders teaches vibe coding, AI agents, Python, coding and maths to Keighley learners aged six to 67. Lessons happen live on video with a tutor in India, and can be private or shared with five to ten others at one level. Our learners are taught to plan what an agent should do, and to work out in advance how it could go wrong. The Keighley project puts one small agent on every road junction in the town and asks them to choose a single leader with nobody in charge. You pay nothing for the first lesson, which finishes with a course suggestion; from then on a group seat costs USD 100 a month and private lessons USD 150 a month.
-
-Put one AI agent on a job and it simply gets on with it. Put ten on the same job and a new problem appears before any work starts: who decides? If two agents both think they are coordinating, tasks get done twice or undone. If none does, nothing happens. Computer scientists call the fix leader election, and it has to work with no referee, because a referee would just be a leader chosen some other way. Keighley's street network, taken from open map data, makes a good test bed. It takes up to 115 hops to cross, ends in 801 dead ends, and contains links whose loss cuts the network in two.
-
-Facts last verified 30 September 2026. Teaching is online; no Keighley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse routes
 
 ## Keighley courses for vibe coding, thinking and agents
 
 One suggestion for each age range. The first live lesson on any of them is free and you will not be asked for card details.
 
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Children brief an AI to build Scratch games with several characters, then sort out who does what.
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): How to think: a class passes on the highest number heard until everyone holds the same one.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python and web vibe coding for teenagers, with the Keighley election as a simulation to write.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Students and adults): From first Python to networks, simulations and agents that must cooperate.
+[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsChildren brief an AI to build Scratch games with several characters, then sort out who does what.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsHow to think: a class passes on the highest number heard until everyone holds the same one.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensPython and web vibe coding for teenagers, with the Keighley election as a simulation to write.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Masterclass course thumbnail](/images/python-college.webp)Students and adultsPython MasterclassFrom first Python to networks, simulations and agents that must cooperate.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Keighley in figures
 
 ## Keighley and the towns of Bradford district
 
 Census counts for five built-up areas in the district, with the Keighley neighbourhoods found in postcode data.
 
-**Five built-up areas in Bradford district, 2021 census, ONS**
-
 | Built-up area | Residents in 2021 |
-|---|---|
+| --- | --- |
 | Keighley | 48,750 |
 | Shipley | 29,225 |
 | Bingley | 21,330 |
@@ -56,25 +42,23 @@ The five numbers are reproduced from the ONS without any adding up, and the dist
 
 The county has its own page, [coding classes in West Yorkshire](/coding-classes-in-west-yorkshire), and so does the region, [Yorkshire and the Humber](/coding-and-ai-classes-in-yorkshire-and-the-humber). For why thinking comes before tools with us, read [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Keighley project
+
 ## Leader election: 2,234 agents, 2,594 links, no boss
 
 Each agent knows only its own number and its neighbours. The aim is for all of them to name the same leader.
 
 The learner downloads the roads in a box around Keighley with one Overpass request and keeps the largest connected network, 232.0 km long. An agent is placed wherever roads meet or stop, which gives 2,234 agents joined by 2,594 links. Every agent is handed a different random ID. The rule is short. Each agent starts out believing its own ID is the highest. In every round, any agent whose belief has just changed tells its neighbours the highest ID it knows. An agent that hears a higher one adopts it. When a round passes in silence, the election is over and the highest ID has won.
 
-**Five hundred elections on the Keighley network, each with freshly shuffled IDs (our Python simulation)**
-
 | Measure | Lowest | Median | Highest |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Rounds until silence | 60 | 76.5 | 116 |
 | Messages sent | 32,669 | 37,681 | 51,068 |
 
 Nothing in the rule mentions the map, yet the map sets the speed. News of the winner travels one link per round, so the election lasts as long as the winner's distance, counted in links, to the agent furthest from it. For this network that distance ranges from 58, its radius, to 115, its diameter, and one more silent round confirms the result. The cost is modest. A median of 37,681 messages elects a leader, where every agent contacting every other directly would take 4,988,522 and would need each one to hold the address of all the rest.
 
-**What happens if agents stop listening too soon: share of agents that have not yet heard of the true leader, averaged over the 500 elections**
-
 | Agents stop after | Share still wrong | Elections left unfinished |
-|---|---|---|
+| --- | --- | --- |
 | 30 rounds | 57.1% | 500 of 500 |
 | 50 rounds | 19.9% | 500 of 500 |
 | 60 rounds | 10.0% | 494 of 500 |
@@ -98,14 +82,14 @@ Load the real street graph, measure its diameter, find the bridges and add a maj
 
 Road data © OpenStreetMap contributors, licensed under the Open Database Licence. The agents, the rule and all counts come from our own simulation. No real device sits on any junction. The network is cut at the edge of our box, and a larger box would change the radius, the diameter and the bridges.
 
+Teams of agents
+
 ## What an election teaches about AI agents and vibe coding
 
 Several agents on one task need a rule for who coordinates, and a plan for the moment that rule breaks.
 
-**From Keighley's junctions to AI agent teams**
-
 | In the simulation | When building with agents |
-|---|---|
+| --- | --- |
 | One short rule, 37,681 messages | Simple local rules can coordinate a large group |
 | 60 to 116 rounds, set by the network | How agents are connected decides how fast they agree |
 | Stopping at 50 rounds left 19.9% wrong | A timeout is a guess unless you know the worst case |
@@ -116,14 +100,37 @@ Ask an AI assistant to vibe code "a team of agents with a coordinator" and it wi
 
 This page has no link with OpenStreetMap, the Office for National Statistics or postcodes.io apart from using the open data they release. Any mistake in the simulation is our own.
 
+Learning path
+
 ## From whispered numbers to agent teams
 
 School years here are rough markers. We decide the level from what we see in the free lesson.
 
-- **Years 2 to 6: How to think** Rules a group can follow, tried out by hand before any screen. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Games built with AI help where several characters must take turns. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Vibe coding in Python** Simulations and web projects, written with an assistant and checked by hand. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Agents and automation** Python to a working standard, then agents that share tasks safely. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
+Years 2 to 6
+
+### How to think
+
+Rules a group can follow, tried out by hand before any screen.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Games built with AI help where several characters must take turns.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Vibe coding in Python
+
+Simulations and web projects, written with an assistant and checked by hand.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Agents and automation
+
+Python to a working standard, then agents that share tasks safely.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)AI agents and coordination
 
 ## What is leader election, and how do AI agents decide which one is in charge?
 
@@ -135,30 +142,139 @@ Cutting one link out of 2,594 was enough to end an election with two leaders, on
 
 A Keighley teenager who has built that simulation asks the right thing of any agent team: what happens when one connection drops? You only learn to ask it by coding the failure yourself, which is reason enough to learn to code in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Lesson format
+
 ## Riddlesden, Ingrow and Oakworth, taught live online
 
 Learners need a computer, a camera and a connection that holds a video call.
 
-- **Active from minute one** The learner's screen is the one on show. They build, and the tutor questions each step.
-- **A trial that places** We watch how a learner tackles a problem before suggesting any course.
-- **First lesson free** It lasts as long as a normal lesson and asks for no card.
-- **Fifteen to twenty in a class** Groups are formed by stage, with classmates from across the UK.
-- **Two lessons each week** Bradford district school holidays are skipped once we have the dates.
-- **Your time stays fixed** Tutors absorb the spring and autumn clock changes.
+### Active from minute one
 
-**Why online suits this** Keighley alone could not fill a class where everybody is on the same step. Drawing from the whole UK can, and live video keeps the tutor in the conversation.
+The learner's screen is the one on show. They build, and the tutor questions each step.
+
+### A trial that places
+
+We watch how a learner tackles a problem before suggesting any course.
+
+### First lesson free
+
+It lasts as long as a normal lesson and asks for no card.
+
+### Fifteen to twenty in a class
+
+Groups are formed by stage, with classmates from across the UK.
+
+### Two lessons each week
+
+Bradford district school holidays are skipped once we have the dates.
+
+### Your time stays fixed
+
+Tutors absorb the spring and autumn clock changes.
+
+Why online suits this
+
+Keighley alone could not fill a class where everybody is on the same step. Drawing from the whole UK can, and live video keeps the tutor in the conversation.
+
+Fees
 
 ## Lesson fees for Keighley
 
 Keighley comes under the prices we set for learners in every country other than India.
 
-- First class: USD 0. A complete first lesson, free, closing with the course we would suggest.
-- Group tuition: USD 100 a month. Small-group lessons, about eight in a month.
-- Private tuition: USD 150 a month. Private lessons, about eight in a month.
+First class**USD 0**
+
+A complete first lesson, free, closing with the course we would suggest.
+
+Group tuition**USD 100**
+
+Small-group lessons, about eight in a month.
+
+Private tuition**USD 150**
+
+Private lessons, about eight in a month.
 
 Fees are stated in US dollars and there is no sterling price. You are billed only after the trial, when a course and a weekly time have been chosen. The pricing page deals with holidays, lessons you miss and switching format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Keighley.)Reviews
+
+## Reviews on Google from Yorkshire families and UK learners
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Claim a free Keighley lesson
+
+Send the learner's age or year group and a hobby, and we shape the trial to suit: a pass-the-number game, a Scratch project built with AI, some first Python, or a tiny election between agents.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Keighley one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Keighley.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Keighley questions, answered
+
+Leader election, the street network project, vibe coding, agents and the practicalities.
 
 ### How many people live in Keighley?
 
@@ -200,10 +316,14 @@ A free first lesson, then USD 100 a month for a group place or USD 150 a month f
 
 Lessons pause on the dates you give us.
 
+Elsewhere in West Yorkshire
+
 ## More West Yorkshire and Yorkshire pages
 
 There are different projects on the pages for [Bradford](/best-coding-class-in-bradford), [Halifax](/ai-and-programming-classes-in-halifax) and [Huddersfield](/best-coding-and-ai-classes-in-huddersfield), and a county overview at [West Yorkshire](/coding-classes-in-west-yorkshire). The [UK hub](/coding-classes-in-united-kingdom) covers the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Keighley.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-keighley](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-keighley#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-keighley*

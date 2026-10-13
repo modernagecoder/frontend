@@ -4,34 +4,28 @@ description: "Online maths tutor for Parramatta, Kindergarten to Year 12 and adu
 canonical: https://learn.modernagecoders.com/maths-tutor-parramatta
 source: src/pages/maths-tutor-parramatta.html
 ---
-> Modern Age Coders tutors maths online for Parramatta learners aged 6 to 67: the NSW syllabus from Kindergarten to Year 10, the Stage 6 courses for the HSC, Mathematics Standard, Advanced, Extension 1 and Extension 2, and adult maths. Lessons are on live video in Sydney time, privately or in classes of fifteen to twenty at one level. Our local example converts Parramatta Park, 85 hectares, into 850,000 square metres and compares it with the 523.45-hectare suburb. A first lesson costs nothing.
+> Online maths tutor for Parramatta, Kindergarten to Year 12 and adults: NSW syllabus maths and the HSC Standard, Advanced and Extension courses, in Sydney time.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / Maths tutor in Parramatta
+Maths tutor in Parramatta, in brief
 
-Parramatta · Kindergarten to Year 12 and adults · Maths online
+Modern Age Coders tutors maths online for Parramatta learners aged 6 to 67: the NSW syllabus from Kindergarten to Year 10, the Stage 6 courses for the HSC, Mathematics Standard, Advanced, Extension 1 and Extension 2, and adult maths. Lessons are on live video in Sydney time, privately or in classes of fifteen to twenty at one level. Our local example converts Parramatta Park, 85 hectares, into 850,000 square metres and compares it with the 523.45-hectare suburb. A first lesson costs nothing.
 
-# Maths tutor in Parramatta
-
-Parramatta Park is 85 hectares, according to the agency that looks after it. Most people nod at a number like that without picturing it. A hectare is a square 100 metres on each side, so 85 hectares is 850,000 square metres, or 0.85 of a square kilometre: about a square 922 metres wide. Put it beside the whole suburb of Parramatta, 523.45 hectares by the ABS boundary, and the park is roughly a sixth of that size. Units of area are a Year 7 topic that keeps coming back, in HSC Mathematics Standard, in science and at work. This page shows how we teach them, and every other part of maths, to Parramatta learners from Kindergarten to Extension 2.
-
-At a glance: For: Learners aged 6 to 67; Kindy to Year 6: Number and measurement; Years 7 to 10: Algebra, area and data; Stage 6: Standard, Advanced, Extension 1 and 2; Adults: Refreshers and work maths; Teaching: Live video, private or five to ten; Timetable: Sydney time, both seasons; Local maths: Parramatta Park in hectares. Rated 4.9 across 547 Google reviews.
+Popular in Parramatta
 
 ## Primary, Years 7 to 10 and HSC maths
 
 The three requests we hear most from Parramatta families. Other courses are listed further down.
 
-- [Kindergarten to Year 6](/courses/elementary-mathematics-complete-masterclass): Place value, fractions and measuring, taught for understanding rather than speed alone.
-- [Years 7 to 10](/courses/comprehensive-middle-school-mathematics-mastery): Algebra, area and volume, ratios and statistics: the ground under every Stage 6 course.
-- [HSC maths](/courses/complete-high-school-mathematics-mastery): Functions, calculus, financial maths and statistics, matched to Standard, Advanced or Extension.
+[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  PAR / 1 Kindergarten to Year 6 Place value, fractions and measuring, taught for understanding rather than speed alone. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  PAR / 2 Years 7 to 10 Algebra, area and volume, ratios and statistics: the ground under every Stage 6 course. Open the syllabus →](/courses/comprehensive-middle-school-mathematics-mastery)[![High School Mathematics course thumbnail](/images/high-school-maths.webp)  PAR / 3 HSC maths Functions, calculus, financial maths and statistics, matched to Standard, Advanced or Extension. Open the syllabus →](/courses/complete-high-school-mathematics-mastery)
+
+Stage 6 in NSW
 
 ## The NSW Stage 6 mathematics courses
 
 NESA lists the Stage 6 mathematics syllabuses on its learning area page. A Parramatta student in Years 11 and 12 takes one or more of these.
 
-**Stage 6 mathematics on the NESA learning area page (read 14 October 2026)**
-
 | Syllabus as listed | In brief | Our page |
-|---|---|---|
+| --- | --- | --- |
 | Mathematics Standard Stage 6 (2017) | Applied maths for life and work | [HSC Standard](/hsc-maths-standard-tutoring) |
 | Mathematics Advanced Stage 6 (2017) | Functions, calculus, statistics | [HSC Advanced](/hsc-maths-advanced-tutoring) |
 | Mathematics Extension 1 Stage 6 (2017) | More depth for strong Advanced students | [Extension 1](/hsc-maths-extension-1-tutoring) |
@@ -53,16 +47,16 @@ Assessment tasks set by schools stay the student's own work.
 
 Source: NSW Education Standards Authority, [Stage 6 Mathematics](https://www.educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics), read 14 October 2026.
 
+A Parramatta worked example
+
 ## How big is 85 hectares?
 
 Area units confuse people because each step is a factor of 100 or 10,000, not 10. Parramatta's own park makes the conversions concrete.
 
 Greater Sydney Parklands writes that "Parramatta Park is 85 hectares". A hectare is 100 m by 100 m, so it holds 10,000 square metres, and a square kilometre holds 100 hectares. The ABS boundary for the suburb of Parramatta encloses 5.2345 square kilometres. Students convert each figure into all three units before comparing anything.
 
-**The same areas in three units (our calculation)**
-
 | Area | Square metres | Hectares | Square kilometres |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | One hectare | 10,000 | 1 | 0.01 |
 | Parramatta Park | 850,000 | 85 | 0.85 |
 | Parramatta suburb (ABS boundary) | 5,234,500 | 523.45 | 5.2345 |
@@ -94,14 +88,14 @@ Getting the factor of 10,000 right once saves a lot of marks later.
 
 Sources: [Greater Sydney Parklands](https://www.parrapark.com.au/) home page; ABS, [ASGS 2021 suburbs and localities](https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer), read 14 October 2026. Conversions are our own.
 
+Kindergarten to Year 10
+
 ## Maths at every stage for Parramatta learners
 
 From first counting to the edge of Stage 6, each stage has its own sticking points.
 
-**Sticking points we see most, by stage**
-
 | Stage | Years | Common sticking point | How we approach it |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Early Stage 1 and Stage 1 | Kindergarten to Year 2 | Teen numbers and place value | Bundles of ten, then digits |
 | Stages 2 and 3 | Years 3 to 6 | Fractions of shapes and amounts | Fraction walls and number lines |
 | Stage 4 | Years 7 and 8 | Area units and algebra | The hectare table above |
@@ -121,14 +115,14 @@ Lessons are online, so where in Parramatta a learner lives makes no difference.
 
 Source: ABS, [2021 Census QuickStats, Parramatta (suburb)](https://abs.gov.au/census/find-census-data/quickstats/2021/SAL13167), read 14 October 2026.
 
+When lessons run
+
 ## Lessons on Sydney time through the 2027 school year
 
 We follow the NSW school terms and keep lessons on the Sydney clock, including across the daylight saving changes.
 
-**NSW public school terms, 2027 (Eastern division)**
-
 | Term | Dates |
-|---|---|
+| --- | --- |
 | Term 1 | Thursday 28 January to Friday 9 April |
 | Term 2 | Tuesday 27 April to Friday 2 July |
 | Term 3 | Monday 19 July to Friday 24 September |
@@ -148,14 +142,14 @@ Both use a shared board so the teacher sees every step.
 
 Source: NSW Department of Education, [future and past term dates](https://education.nsw.gov.au/schooling/calendars/future-and-past-nsw-term-and-vacation-dates), read 14 October 2026.
 
+Going further
+
 ## From hectares to cubic metres
 
 Once area units make sense, volume follows the same logic with one more dimension, and the factors grow again.
 
-**How the factors grow with each dimension**
-
 | Measure | Small unit to large unit | Factor |
-|---|---|---|
+| --- | --- | --- |
 | Length | Centimetres to metres | 100 |
 | Area | Square centimetres to square metres | 10,000 |
 | Area | Square metres to hectares | 10,000 |
@@ -176,14 +170,14 @@ Students learn to write the unit at every step, so a wrong factor shows up befor
 
 Adults meet the same ideas when comparing land sizes, reading plans or estimating materials. Our adult learners often start here, because the maths is immediately useful and the examples are real.
 
+Progression
+
 ## From counting to calculus in Parramatta
 
 Learners join at the step that fits; the free lesson finds it.
 
-**Steps and the test of each**
-
 | Around | Step | Passed when the learner can |
-|---|---|---|
+| --- | --- | --- |
 | Kindergarten to Year 2 | 1. Tens and ones | Show 34 as three tens and four ones |
 | Years 3 to 6 | 2. Measures | Convert metres to kilometres and explain why |
 | Years 7 to 10 | 3. Area and volume | Turn square metres into hectares without a formula sheet |
@@ -192,63 +186,293 @@ Learners join at the step that fits; the free lesson finds it.
 ### Arriving in Year 11
 
 Senior students who join late usually need a short burst of Stage 5 algebra first; we estimate the time honestly.
+
 It is the fastest route to coping with Stage 6.
 
 ### Adults in Parramatta
 
 Adults learn in their own groups or privately, often for work calculations or a bridging course.
+
 Most are surprised how quickly it comes back.
+
+Course list
 
 ## Maths courses for Parramatta
 
 By stage. International course names on the cards; NSW stages and courses in the lessons.
 
+I
+
 ### Kindergarten to Year 6
 
 Primary
 
-- [Early maths](/courses/early-math-foundations): Hands-on number, ages 4 to 7.
-- [Mental maths](/courses/mental-maths-mastery-kids): Quick, reasoned arithmetic.
-- [Speed arithmetic](/courses/vedic-maths-course-speed-calculation-mastery): Once the basics are firm.
+PAR / P1
+
+#### Early maths
+
+Hands-on number, ages 4 to 7.
+
+[Open the syllabus](/courses/early-math-foundations)
+
+PAR / P2
+
+#### Mental maths
+
+Quick, reasoned arithmetic.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+PAR / P3
+
+#### Speed arithmetic
+
+Once the basics are firm.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)II
 
 ### Years 7 to 10
 
 Stages 4 and 5
 
-- [Algebra foundations](/courses/algebra-foundations-masterclass): For a student who fell behind.
-- [Years 7 to 10](/courses/comprehensive-middle-school-mathematics-mastery): The full junior course.
-- [Competition maths](/courses/olympiad-competition-mathematics-mastery): Stretch for strong students.
+PAR / S1
+
+#### Algebra foundations
+
+For a student who fell behind.
+
+[Open the syllabus](/courses/algebra-foundations-masterclass)
+
+PAR / S2
+
+#### Years 7 to 10
+
+The full junior course.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+PAR / S3
+
+#### Competition maths
+
+Stretch for strong students.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)III
 
 ### Stage 6 and adults
 
 Senior and beyond
 
-- [HSC maths](/courses/complete-high-school-mathematics-mastery): Standard to Extension.
-- [Statistics](/courses/statistics-probability-maths-course): For Standard and Advanced statistics.
-- [Financial maths](/courses/complete-business-finance-mathematics-mastery): Interest, loans and growth.
+PAR / H1
+
+#### HSC maths
+
+Standard to Extension.
+
+[Open the syllabus](/courses/complete-high-school-mathematics-mastery)
+
+PAR / H2
+
+#### Statistics
+
+For Standard and Advanced statistics.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)
+
+PAR / H3
+
+#### Financial maths
+
+Interest, loans and growth.
+
+[Open the syllabus](/courses/complete-business-finance-mathematics-mastery)
+
+Routine
 
 ## A Parramatta week with us
 
 Two short commitments a week, booked on the Sydney clock, with nothing for families to convert.
 
-- **From 4pm** Primary and Years 7 to 10.
-- **From 6:30pm** Stage 6 students and adults.
-- **Weekend mornings** Longer lessons, by request.
+From 4pm
 
-- **Continuity** The same teacher stays with a learner from term to term.
-- **Feedback** A brief update to parents after lessons.
-- **Level, not age** Classes are grouped by what learners can do.
-- **Real measurements** Parks, maps and Census tables in lessons.
-- **Exam blocks** Extra private lessons before HSC trials.
-- **Understanding first** Learners can say why a method works.
+Primary and Years 7 to 10.
+
+From 6:30pm
+
+Stage 6 students and adults.
+
+Weekend mornings
+
+Longer lessons, by request.
+
+### Continuity
+
+The same teacher stays with a learner from term to term.
+
+### Feedback
+
+A brief update to parents after lessons.
+
+### Level, not age
+
+Classes are grouped by what learners can do.
+
+### Real measurements
+
+Parks, maps and Census tables in lessons.
+
+### Exam blocks
+
+Extra private lessons before HSC trials.
+
+### Understanding first
+
+Learners can say why a method works.
+
+Student work
+
+## Things our learners have built
+
+Work by students who started with everyday maths. See the [student labs](/student-labs) for more.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees for Parramatta maths lessons
 
 A flat monthly fee in US dollars for families outside India, with no enrolment fee and no lock-in.
 
-- Free first class: USD 0. A real lesson at the right level. A frank report afterwards. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty learners at one level. One teacher across the term. Marked practice. Leave at any month end.
-- One to one: USD 150 a month. A teacher to yourself. Built around one aim. Good before HSC trials.
+Free first class
+
+USD 0
+
+no card required
+
+- A real lesson at the right level
+- A frank report afterwards
+- No card needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners at one level
+- One teacher across the term
+- Marked practice
+- Leave at any month end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher to yourself
+- Built around one aim
+- Good before HSC trials
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Google reviews, exactly as families wrote them.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Parramatta maths questions
 
 ## Questions about a maths tutor in Parramatta
 
@@ -296,15 +520,54 @@ It depends on what they enjoy and plan to study next. Standard suits applied mat
 
 The first lesson is free. Monthly fees for classes and private lessons are in the fees panel on this page.
 
+Also on this site
+
 ## More for Parramatta families
 
-- [HSC Mathematics Standard](/hsc-maths-standard-tutoring): Applied senior maths.
-- [HSC Extension 1](/hsc-maths-extension-1-tutoring): Depth beyond Advanced.
-- [OC test maths](/oc-test-maths-practice-nsw): For Year 4.
-- [Maths tutor in Sydney](/maths-tutor-sydney): The citywide page.
-- [Maths tutoring costs](/maths-tutor-cost-australia-explained): What lessons cost.
-- [Coding in Parramatta](/best-coding-and-ai-classes-in-parramatta-sydney): Programming classes for the suburb.
+NSW maths pages and our Parramatta coding page.
 
-## Contact
+### [HSC Mathematics Standard](/hsc-maths-standard-tutoring)
 
-Book the free first class at [https://learn.modernagecoders.com/maths-tutor-parramatta](https://learn.modernagecoders.com/maths-tutor-parramatta#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Applied senior maths.
+
+### [HSC Extension 1](/hsc-maths-extension-1-tutoring)
+
+Depth beyond Advanced.
+
+### [OC test maths](/oc-test-maths-practice-nsw)
+
+For Year 4.
+
+### [Maths tutor in Sydney](/maths-tutor-sydney)
+
+The citywide page.
+
+### [Maths tutoring costs](/maths-tutor-cost-australia-explained)
+
+What lessons cost.
+
+### [Coding in Parramatta](/best-coding-and-ai-classes-in-parramatta-sydney)
+
+Programming classes for the suburb.
+
+Start here
+
+## Book a free Parramatta maths lesson
+
+Tell us the learner's year and what is going wrong, or right. We teach a full lesson and then give a straight assessment.
+
+To read first: [how we teach](/how-we-teach), or [online maths tutoring in Australia](/online-maths-tutoring-australia).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20a%20learner%20in%20Parramatta.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+You will be talking to our team in India, hence the +91 number; we have no Parramatta premises. WhatsApp tends to get the quickest reply.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/maths-tutor-parramatta*

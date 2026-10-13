@@ -4,46 +4,32 @@ description: "Live online coding and Python classes for Havant, Bedhampton, Leig
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-havant
 source: src/pages/online-coding-and-python-classes-in-havant.html
 ---
-> At the 2021 census the ONS put 46,960 usual residents in the Havant built-up area and 124,208 in Havant borough. Bedhampton, Leigh Park, Warblington, Langstone, Denvilles and West Leigh are gazetteer suburbs whose nearest postcodes fall inside that built-up area. Modern Age Coders runs live online lessons in Python, coding, vibe coding, AI and maths for Havant learners aged six to 67; the tutors are in India and teach one-to-one or in groups of fifteen to twenty learners sharing a level. Every project uses real data. A free opening lesson ends with our course suggestion. For Havant, a learner streams a year of 15-minute flow readings from the Hermitage Stream through a Python estimator that keeps just five numbers, then discovers why the order the data arrives in can wreck the answer. Continuing costs USD 100 a month for a group or USD 150 a month for private lessons.
+> Live online coding and Python classes for Havant, Bedhampton, Leigh Park and Warblington, ages 6 to 67, with vibe coding and AI projects. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South East England](/coding-and-ai-classes-in-south-east-england) / Havant
-
-Havant, Hampshire, England / Live online
-
-# Online coding and Python classes in Havant
-
-**What are the best online coding and Python classes in Havant?** At the 2021 census the ONS put 46,960 usual residents in the Havant built-up area and 124,208 in Havant borough. Bedhampton, Leigh Park, Warblington, Langstone, Denvilles and West Leigh are gazetteer suburbs whose nearest postcodes fall inside that built-up area. Modern Age Coders runs live online lessons in Python, coding, vibe coding, AI and maths for Havant learners aged six to 67; the tutors are in India and teach one-to-one or in groups of fifteen to twenty learners sharing a level. Every project uses real data. A free opening lesson ends with our course suggestion. For Havant, a learner streams a year of 15-minute flow readings from the Hermitage Stream through a Python estimator that keeps just five numbers, then discovers why the order the data arrives in can wreck the answer. Continuing costs USD 100 a month for a group or USD 150 a month for private lessons.
-
-The Environment Agency's gauge on the Hermitage Stream at Havant dates from 1979, and every fifteen minutes it adds another reading. To find the middle value of a year of readings you would normally sort all of them, but a program watching a live feed may not want to keep everything. In 1985 two computer scientists, Raj Jain and Imrich Chlamtac, published a method that tracks a median using only five running estimates. On shuffled data it is remarkably good. Fed the stream in the order the year actually happened, it gets the answer wrong by a factor of three, and working out why is the lesson.
-
-Facts last verified 1 October 2026. Teaching is online; no Havant branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentStarting points
 
 ## Python and coding courses for Havant learners
 
 One course to begin with at each age. Lesson one is free, live and needs no card.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): Thinking before coding: middles, orders and patterns found with cards and counters.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Vibe coding for children: Scratch games made with an AI and then tested properly.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 17): Python for real datasets, including the Hermitage Stream streaming project.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Students and adults): Python from the basics to data pipelines and AI agents that read live feeds.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThinking before coding: middles, orders and patterns found with cards and counters.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsVibe coding for children: Scratch games made with an AI and then tested properly.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 17Data Science for TeensPython for real datasets, including the Hermitage Stream streaming project.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Python Masterclass course thumbnail](/images/python-college.webp)Students and adultsPython MasterclassPython from the basics to data pipelines and AI agents that read live feeds.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Havant today
 
 ## Havant, Bedhampton, Leigh Park and Warblington
 
 Two census counts and the suburbs the postcode gazetteer places in the town.
 
-**Usual residents in the 2021 census (ONS)**
-
 | Area | Residents |
-|---|---|
+| --- | --- |
 | Havant built-up area | 46,960 |
 | Havant borough | 124,208 |
 
@@ -53,6 +39,8 @@ Havant borough also holds Waterlooville, Emsworth and Hayling Island, so these t
 
 Visit [Portsmouth](/best-coding-class-in-portsmouth), [Gosport](/best-coding-and-ai-classes-in-gosport), [Chichester](/best-coding-class-in-chichester) and the [Hampshire county page](/coding-classes-in-hampshire). We explain why reasoning comes before AI tools in [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Havant project
+
 ## A median in five numbers, and the order that breaks it
 
 Almost a year of Hermitage Stream flows, an exact answer, and an estimate that never stores the data.
@@ -61,10 +49,8 @@ The learner requests every 15-minute flow reading for the Havant gauge on the He
 
 First the exact answer. Sorting all 33,443 readings puts the median flow at 0.098 cubic metres a second, while the mean is 0.347. The stream spends most of its time low and occasionally surges, peaking at 12.009 at 19:45 on 1 February 2026, and only 24.3% of readings lie above the mean. Then the learner codes the P-square algorithm. It holds five marker heights and their positions, and each new reading nudges the middle marker up or down using a curve fitted through its neighbours. Memory stays at ten numbers however long the stream runs.
 
-**P-square median against the exact median, same 33,443 readings, our Python run**
-
 | Order the readings arrive in | P-square median | Exact median |
-|---|---|---|
+| --- | --- | --- |
 | Shuffled at random | 0.0976 | 0.098 |
 | A hundred more shuffles | 0.0974 to 0.0991 | 0.098 |
 | Sorted low to high | 0.137 | 0.098 |
@@ -91,14 +77,14 @@ Code P-square from the 1985 paper, feed it in four orders, and design a fix.
 
 Flow readings are from the Environment Agency Hydrology API under the Open Government Licence. The estimator follows Jain and Chlamtac, Communications of the ACM, 1985. The shuffles use seed 20260930, and every figure on this page comes from our own Python run.
 
+Python and AI together
+
 ## What a drifting median teaches about AI-written code
 
 Code can be correct and still wrong for the data it meets.
 
-**From the Hermitage Stream to AI assistance**
-
 | What the stream showed | How to use it with AI |
-|---|---|
+| --- | --- |
 | P-square was right on shuffled data | Passing a test is not the same as fitting your data |
 | Real order made it three times too high | Test in the order data will really arrive |
 | Median 0.098 against mean 0.347 | Ask which summary the question needs |
@@ -109,14 +95,37 @@ Ask an AI assistant for a memory-light running median and it may well give you P
 
 The Environment Agency, the ONS and postcodes.io are not connected with Modern Age Coders. Their open data made the project possible; the analysis is ours.
 
+Next steps
+
 ## Counting cards at seven, streaming data at seventeen
 
 The trial lesson tells us where to begin; the school year is only a hint.
 
-- **Years 2 to 6: Patterns and order** Sorting, middles and step-by-step rules, often with objects first. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: First creations** Scratch built alongside an AI, then early Python. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python on real data** Files, statistics and algorithms that work on live measurements. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Pipelines and agents** Data pipelines, algorithms, then agents that handle live feeds. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)
+Years 2 to 6
+
+### Patterns and order
+
+Sorting, middles and step-by-step rules, often with objects first.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### First creations
+
+Scratch built alongside an AI, then early Python.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python on real data
+
+Files, statistics and algorithms that work on live measurements.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Pipelines and agents
+
+Data pipelines, algorithms, then agents that handle live feeds.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)Streams and AI
 
 ## What is a streaming median, and why does it matter when AI writes the code?
 
@@ -128,30 +137,139 @@ A learner who has seen that gap asks of any estimate, whether their own or an AI
 
 For Havant teenagers, testing code against the real shape of real data is how they stay in charge of AI tools, and that habit is built by coding. The longer argument is in [is coding still worth learning in 2026](/blog/is-coding-worth-learning-2026).
 
+In practice
+
 ## How lessons run for Havant learners
 
 Lessons are live on video. A laptop or desktop with a keyboard is essential; a tablet alone will not handle Python well.
 
-- **Typing, not watching** The learner writes every line and explains it to the tutor.
-- **Trial before placement** We see the learner at work before recommending a course.
-- **Free to start** The first lesson carries no fee and no card is taken.
-- **Five to ten together** Groups share a level, with learners from around the UK.
-- **About eight a month** Two lessons a week in term, with Hampshire holidays kept clear on request.
-- **Consistent UK time** Your lesson time does not shift when the clocks change.
+### Typing, not watching
 
-**Why live and online** Explaining your own code to a person is how programming sticks. Teaching online lets us put learners with others at exactly their level.
+The learner writes every line and explains it to the tutor.
+
+### Trial before placement
+
+We see the learner at work before recommending a course.
+
+### Free to start
+
+The first lesson carries no fee and no card is taken.
+
+### Fifteen to twenty together
+
+Groups share a level, with learners from around the UK.
+
+### About eight a month
+
+Two lessons a week in term, with Hampshire holidays kept clear on request.
+
+### Consistent UK time
+
+Your lesson time does not shift when the clocks change.
+
+Why live and online
+
+Explaining your own code to a person is how programming sticks. Teaching online lets us put learners with others at exactly their level.
+
+Fees
 
 ## What Havant families pay
 
 Havant learners are charged our standard rates for students outside India.
 
-- First class: USD 0. First lesson: free, full length, ending with our course suggestion.
-- Group tuition: USD 100 a month. Group class, about eight lessons in a month.
-- Private tuition: USD 150 a month. One-to-one lessons, about eight in a month.
+First class**USD 0**
+
+First lesson: free, full length, ending with our course suggestion.
+
+Group tuition**USD 100**
+
+Group class, about eight lessons in a month.
+
+Private tuition**USD 150**
+
+One-to-one lessons, about eight in a month.
 
 Prices are in US dollars, and we do not convert them to pounds. The trial is not charged, and billing only begins once you have agreed a course and a regular time. The pricing page sets out holiday pauses, missed lessons and changing between group and private.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20can%20we%20book%20a%20free%20Python%20or%20coding%20trial%20lesson%3F%20We%20are%20in%20Havant.)Reviews
+
+## Hampshire families and UK learners, reviewing us on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Request a free Havant lesson
+
+Share the learner's age or year group and their interests. The trial might be a card-sorting puzzle, a Scratch game built with AI, a first Python script, or a first look at live river data.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Havant one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20can%20we%20book%20a%20free%20Python%20or%20coding%20trial%20lesson%3F%20We%20are%20in%20Havant.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Havant questions answered
+
+The stream project, medians, Python, vibe coding and the practical side of lessons.
 
 ### How many people live in Havant?
 
@@ -193,10 +311,14 @@ The first lesson costs nothing. Afterwards it is USD 100 a month in a group or U
 
 Yes. Send the dates and we take those weeks out.
 
+Along the coast
+
 ## More pages for Hampshire and the Solent
 
 Explore [Portsmouth](/best-coding-class-in-portsmouth), [Gosport](/best-coding-and-ai-classes-in-gosport), [Southampton](/best-coding-class-in-southampton) and [Chichester](/best-coding-class-in-chichester). The [South East page](/coding-and-ai-classes-in-south-east-england) and the [UK hub](/coding-classes-in-united-kingdom) list the others.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20can%20we%20book%20a%20free%20Python%20or%20coding%20trial%20lesson%3F%20We%20are%20in%20Havant.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/online-coding-and-python-classes-in-havant](https://learn.modernagecoders.com/online-coding-and-python-classes-in-havant#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-havant*

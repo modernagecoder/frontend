@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and vibe coding lessons for Ballyme
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-ballymena
 source: src/pages/online-coding-and-python-classes-in-ballymena.html
 ---
-> Census 2021 recorded 31,205 usual residents in the Ballymena settlement, according to NISRA, part of Mid and East Antrim with its 138,994 people. Galgorm, Ballee and Harryville, Ballykeel, Ardeevin, Fair Green and Kirkinriola are among the electoral wards listed for the BT42 and BT43 districts. Anyone aged six to 67 can study coding, Python, AI, vibe coding and maths on camera with an India-based tutor, alone or in a class of fifteen to twenty matched by level. We teach problem solving before tools, so a learner can tell a good-enough answer from an optimal one. The opening lesson costs nothing, and we close it by naming the course we would choose. The Ballymena project sets a coverage puzzle on 11,552 mapped buildings, solves it with a quick greedy rule and with an exact integer programming solver in Python, and measures the gap. Carrying on after the trial costs USD 100 a month in a class or USD 150 a month one-to-one.
+> Live online coding, Python, AI and vibe coding lessons for Ballymena, Galgorm, Harryville and Broughshane learners in County Antrim, aged 6 to 67. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Northern Ireland](/coding-and-ai-classes-in-northern-ireland) / Ballymena
-
-Ballymena, Mid and East Antrim, Northern Ireland / Live online
-
-# Online coding and Python classes in Ballymena
-
-**Which are the best online coding and Python classes in Ballymena?** Census 2021 recorded 31,205 usual residents in the Ballymena settlement, according to NISRA, part of Mid and East Antrim with its 138,994 people. Galgorm, Ballee and Harryville, Ballykeel, Ardeevin, Fair Green and Kirkinriola are among the electoral wards listed for the BT42 and BT43 districts. Anyone aged six to 67 can study coding, Python, AI, vibe coding and maths on camera with an India-based tutor, alone or in a class of fifteen to twenty matched by level. We teach problem solving before tools, so a learner can tell a good-enough answer from an optimal one. The opening lesson costs nothing, and we close it by naming the course we would choose. The Ballymena project sets a coverage puzzle on 11,552 mapped buildings, solves it with a quick greedy rule and with an exact integer programming solver in Python, and measures the gap. Carrying on after the trial costs USD 100 a month in a class or USD 150 a month one-to-one.
-
-Many real decisions are puzzles of the form "pick the fewest things that still cover everything": sites for bins or chargers, shifts that cover every hour, tests that check every feature. The fast way is a greedy rule, grabbing whatever covers the most right now. It is quick, but is it any good? Integer programming answers that. A solver searches for the true minimum, and a clever trick called the LP relaxation proves how low the answer could possibly go. This project poses one such puzzle on Ballymena as mapped on OpenStreetMap: choose the fewest street junctions so that every building lies within 400 m of one.
-
-Facts last verified 29 September 2026. Teaching is online; no Ballymena branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentBallymena course picks
 
 ## Ballymena courses in problem solving, Python and AI
 
 Four ways in, by age. Whichever you pick, the first live lesson is free and we take no card details.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think course: covering puzzles, quick guesses and proving an answer cannot be beaten.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games planned by the learner, built with an AI and properly tested.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python from first steps to optimisation, including the Ballymena coverage puzzle.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Students and adults): Python for data, optimisation, automation and AI agents.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think course: covering puzzles, quick guesses and proving an answer cannot be beaten.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games planned by the learner, built with an AI and properly tested.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython from first steps to optimisation, including the Ballymena coverage puzzle.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)Students and adultsPython MasterclassPython for data, optimisation, automation and AI agents.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Ballymena and Mid and East Antrim
 
 ## Ballymena, Galgorm, Harryville and Ballykeel
 
 Census 2021 counts from NISRA, quoted exactly and never summed.
 
-**Ballymena in Census 2021, usual residents (NISRA MS-A01)**
-
 | Area | Type of area | Usual residents |
-|---|---|---|
+| --- | --- | --- |
 | Ballymena | Settlement | 31,205 |
 | Ballymena | District electoral area | 24,295 |
 | Mid and East Antrim | Council area | 138,994 |
@@ -54,16 +40,16 @@ The settlement and the district electoral area of the same name cover different 
 
 See [coding classes in Mid and East Antrim](/coding-classes-in-mid-and-east-antrim) and the [Northern Ireland page](/coding-and-ai-classes-in-northern-ireland). Why we teach problem solving before tools is on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Ballymena project
+
 ## Greedy against exact: an integer programming puzzle on Ballymena's map
 
 Fewest junctions, every building within 400 m, three ways to answer, and a proof of how good an answer can be.
 
 The learner downloads OpenStreetMap data over Ballymena and finds 2,473 street junctions where three or more roads meet, and 11,552 buildings. For each building Python lists every junction within 400 m in a straight line; 11,534 buildings have at least one, and the 18 that do not are set aside. The puzzle is a classic called set cover: choose as few junctions as possible so that every remaining building has a chosen junction within 400 m. It is a thought experiment about coverage, the same shape as siting bins or chargers, not a plan for anything real.
 
-**Three ways to solve the Ballymena coverage puzzle, our Python run on OpenStreetMap data**
-
 | Method | Junctions needed | What it tells you |
-|---|---|---|
+| --- | --- | --- |
 | Greedy rule | 69 | A good answer in about a second |
 | LP relaxation (HiGHS) | 48.27 | No answer can use fewer than 49 |
 | Integer programming (scipy milp, 10-minute limit) | 50 | Smallest cover found; the true minimum is 49 or 50 |
@@ -86,14 +72,14 @@ Set up the integer program with scipy, solve it, and use the LP relaxation to pr
 
 Buildings and streets are from OpenStreetMap and its contributors under the Open Database Licence. The junction list, distances, puzzle and every result are our own work; straight-line distances ignore walls, rivers and roads.
 
+Answers and AI
+
 ## What this teaches about vibe coding and AI agents
 
 Speed is worth having only when you also know the size of the shortfall.
 
-**From the Ballymena coverage puzzle to working with AI**
-
 | In the optimisation project | When AI solves a problem for you |
-|---|---|
+| --- | --- |
 | Greedy gave 69 in a second | Quick heuristics are often what an AI writes |
 | The solver found 50 | A better method can cut the cost a lot |
 | The relaxation proved at least 49 | Bounds tell you how good an answer is |
@@ -104,14 +90,37 @@ Ask an AI assistant for code to "pick the fewest locations" and you will very of
 
 The data behind this page is open data from OpenStreetMap, NISRA and postcodes.io, none of whom is linked to us; the puzzle, the code and any slip are Modern Age Coders' own.
 
+Stages
+
 ## From counter puzzles to integer programs
 
 A school year gives a starting guess; the free lesson pins it down.
 
-- **P1 to P7: How to think** Covering puzzles, quick guesses and checking for better. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **P5 to Year 9: Vibe coding for kids** Games and small apps planned by the learner and built with AI help. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 10 to 14: Python and optimisation** Algorithms, solvers and bounds beside CCEA GCSE and A level. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)
-- **Adults: Python for real decisions** Optimisation, data and AI agents in Python. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
+P1 to P7
+
+### How to think
+
+Covering puzzles, quick guesses and checking for better.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)P5 to Year 9
+
+### Vibe coding for kids
+
+Games and small apps planned by the learner and built with AI help.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 10 to 14
+
+### Python and optimisation
+
+Algorithms, solvers and bounds beside CCEA GCSE and A level.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)Adults
+
+### Python for real decisions
+
+Optimisation, data and AI agents in Python.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)Python and optimisation
 
 ## What is integer programming, and how can Python tell you how good a greedy answer is?
 
@@ -123,30 +132,139 @@ Learners who have solved it ask of any AI-written heuristic: how far from optima
 
 Knowing how to check a quick answer keeps Ballymena teenagers in charge of AI-written code, a solid reason to learn Python in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Galgorm to Harryville, online
 
 Any computer with a webcam and a connection good enough for video will do.
 
-- **Learner at the keyboard** Every line and prompt is typed by the student, and the tutor, watching on screen share, keeps asking whether a cheaper answer exists.
-- **Where to begin** Worked out in the trial, and any CCEA exam goes straight into the plan.
-- **Taster at no cost** We teach a full opening session for free and recommend a course afterwards.
-- **Classes by ability** A group means fifteen to twenty learners working at one level, from all over the UK.
-- **Twice a week** Paused for school holidays.
-- **Steady time** Our tutors adjust for UK clock changes, so your slot stays the same.
+### Learner at the keyboard
 
-**Why online** Five learners at one level, free on the same evening and living near each other, are hard to find. Online, they need not be neighbours.
+Every line and prompt is typed by the student, and the tutor, watching on screen share, keeps asking whether a cheaper answer exists.
+
+### Where to begin
+
+Worked out in the trial, and any CCEA exam goes straight into the plan.
+
+### Taster at no cost
+
+We teach a full opening session for free and recommend a course afterwards.
+
+### Classes by ability
+
+A group means fifteen to twenty learners working at one level, from all over the UK.
+
+### Twice a week
+
+Paused for school holidays.
+
+### Steady time
+
+Our tutors adjust for UK clock changes, so your slot stays the same.
+
+Why online
+
+Five learners at one level, free on the same evening and living near each other, are hard to find. Online, they need not be neighbours.
+
+Fees
 
 ## Ballymena fees
 
 Ballymena learners pay our international prices, the rates for every country except India.
 
-- First class: USD 0. One whole lesson free, then our advice.
-- Group tuition: USD 100 a month. Roughly eight live group lessons each month.
-- Private tuition: USD 150 a month. Roughly eight live private lessons each month.
+First class**USD 0**
+
+One whole lesson free, then our advice.
+
+Group tuition**USD 100**
+
+Roughly eight live group lessons each month.
+
+Private tuition**USD 150**
+
+Roughly eight live private lessons each month.
 
 Ballymena families pay in US dollars, with no sterling list, from the point the trial has agreed a course and a time. Holiday breaks, missed sessions and format swaps are all laid out on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20Python%20lesson%20for%20a%20learner%20in%20Ballymena%3F)Reviews
+
+## Antrim families and learners elsewhere in the UK, reviewing us on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Ballymena lesson
+
+Share the learner's age or school year and a favourite interest. The trial might be a counter-covering puzzle, a Scratch game built with an AI, early Python, or a small optimisation on real map data.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Ballymena one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20Python%20lesson%20for%20a%20learner%20in%20Ballymena%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Ballymena questions
+
+Solvers, bounds, the Ballymena puzzle, vibe coding and lesson arrangements.
 
 ### What is the population of Ballymena?
 
@@ -188,10 +306,14 @@ We charge nothing for the taster. Regular classes are USD 100 per month grouped,
 
 They stop for school holidays; share the dates and we plan round them.
 
+Nearby
+
 ## More Northern Ireland pages
 
 Pages with projects of their own: [Mid and East Antrim](/coding-classes-in-mid-and-east-antrim) (growth rates in an old gasworks record), [Antrim and Newtownabbey](/coding-classes-in-antrim-and-newtownabbey), [Belfast](/best-coding-class-in-belfast) and [Newtownards](/ai-and-programming-classes-in-newtownards). Everywhere else is on the [Northern Ireland page](/coding-and-ai-classes-in-northern-ireland) or the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20Python%20lesson%20for%20a%20learner%20in%20Ballymena%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/online-coding-and-python-classes-in-ballymena](https://learn.modernagecoders.com/online-coding-and-python-classes-in-ballymena#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-ballymena*

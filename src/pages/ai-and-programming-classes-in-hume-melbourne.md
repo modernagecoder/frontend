@@ -4,46 +4,32 @@ description: "Live online AI and programming classes for Hume learners of every 
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-hume-melbourne
 source: src/pages/ai-and-programming-classes-in-hume-melbourne.html
 ---
-> Where the score came from. A model can look accurate because one of its inputs quietly contains the answer, which is called target leakage. Our Hume project shows it with real data: 49 government schools, a 98% score, and a model that learned nothing about schools.
+> Live online AI and programming classes for Hume learners of every age: Scratch, Python, data and machine learning, in small groups or one to one, first lesson free.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [Victoria](/coding-and-ai-classes-in-victoria) / [Melbourne](/vibe-coding-and-ai-agents-classes-in-melbourne) / Hume
-
-Hume City Council, Melbourne, Victoria / Live online
-
-# AI and programming classes in Hume
-
-**What should a Hume learner know before trusting an AI model's score?** Where the score came from. A model can look accurate because one of its inputs quietly contains the answer, which is called target leakage. Our Hume project shows it with real data: 49 government schools, a 98% score, and a model that learned nothing about schools.
-
-Hume City Council takes in both Broadmeadows and Sunbury, and the 2025 state file lists 49 government schools inside it. We asked a simple question of that list: can a program tell which schools are secondary? One version gets 48 of 49 right. It is also a model that has learned nothing, and seeing why is the lesson.
-
-Facts last verified 10 October 2026. Teaching is online; no Hume branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Hume
 
 ## AI and programming courses
 
 Each course below builds towards real models and real data, with honest testing. The free lesson tells us which one fits.
 
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Machine learning from first principles, with train and test splits done properly.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 17): Python, tables and charts on public data sets.
-- [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) (University and adult): Models, evaluation and the mistakes that inflate scores.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 9 to 12): First Python and simple AI ideas for younger learners.
+[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensMachine learning from first principles, with train and test splits done properly.See the syllabus](/courses/ai-ml-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 17Data Science for TeensPython, tables and charts on public data sets.See the syllabus](/courses/data-science-course-for-teens-python-data)[![AI and ML Masterclass course thumbnail](/images/ai-ml-college.webp)University and adultAI and ML MasterclassModels, evaluation and the mistakes that inflate scores.See the syllabus](/courses/ai-ml-masterclass-complete-college)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 9 to 12Python and AI for KidsFirst Python and simple AI ideas for younger learners.See the syllabus](/courses/python-ai-kids-masterclass)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Hume by the numbers
 
 ## A young council of family homes
 
 All values are for Hume (ABS LGA23270) as printed on the 2021 Census QuickStats page, which we read on 10 October 2026.
 
-**Hume, 2021 Census**
-
 | Measure | Hume |
-|---|---|
+| --- | --- |
 | Persons | 243,901 |
 | Median age | 33 |
 | Families | 63,644 |
@@ -51,10 +37,8 @@ All values are for Hume (ABS LGA23270) as printed on the 2021 Census QuickStats 
 | Household size, average | 3.1 |
 | Motor vehicles per dwelling, average | 2 |
 
-**Hume against Victoria**
-
 | Indicator | Hume | Victoria |
-|---|---|---|
+| --- | --- | --- |
 | Dwellings that are separate houses | 87.8% (66,487) | 73.4% |
 | Dwellings that are flats | 3.0% (2,242) | 12.1% |
 | Holding a bachelor degree or higher | 20.2% (38,291) | 29.2% |
@@ -74,14 +58,14 @@ Census night came during a Melbourne lockdown. 17.8% of employed Hume residents 
 
 QuickStats rounds percentages and applies small random adjustments to protect privacy, so we print each number as published and never add groups together to make new totals.
 
+Signature project
+
 ## The model that read the answer
 
 The task: label each of Hume's 49 government schools in the 2025 file as secondary or not secondary. Nine are secondary. We tried four rules and scored every one on Hume, then checked the name rules on the other 854 government schools in metropolitan Melbourne councils.
 
-**Four rules, scored on real schools (our calculation)**
-
 | Rule | Hume (49) | Other metro councils (854) |
-|---|---|---|
+| --- | --- | --- |
 | Always say "not secondary" | 40 right, 81.6% | 688 right, 80.6% |
 | Name contains "College" | 48 right, 98.0% | 785 right, 91.9% |
 | Name contains "Secondary College" or "High School" | 47 right, 95.9% | 817 right, 95.7% |
@@ -105,14 +89,14 @@ Would this input exist before we knew the answer? A school name is decided along
 
 The two misses for the stricter name rule are Sunbury College and Roxburgh College, both secondary schools without "Secondary" in their names. Names follow habits, and habits have exceptions. Specific-purpose schools are included in the 49 but not named here.
 
+Finding the leak yourself
+
 ## Three checks before believing a score
 
 Learners build these checks into every project, starting with spreadsheets and ending with Python.
 
-**A leakage checklist**
-
 | Check | What it catches |
-|---|---|
+| --- | --- |
 | Compare with a do-nothing baseline | A model that barely beats "always the common answer". |
 | Drop one feature at a time | A single input that carries almost the whole score. |
 | Score on a different place or time | A rule that only fits the data it was built on. |
@@ -131,6 +115,8 @@ Rebuild the four rules in Python and find the three schools that break them.
 
 Audit a model at work for any column that is filled in after the outcome is known.
 
+Schools and stations
+
 ## Around Hume
 
 Counts taken from the state school locations list and the department's station entries file.
@@ -147,16 +133,41 @@ Sunbury, Broadmeadows, Roxburgh Park, Craigieburn, Coolaroo and Upfield fall ins
 
 Term 1 at Victorian government schools starts on Thursday 28 January 2027 and ends on Thursday 25 March.
 
-**Which Hume** This page follows the ABS outline of Hume City Council, about 503.8 square kilometres. School addresses inside it include Broadmeadows, Craigieburn, Greenvale, Mickleham, Roxburgh Park and Sunbury.
+Which Hume
+
+This page follows the ABS outline of Hume City Council, about 503.8 square kilometres. School addresses inside it include Broadmeadows, Craigieburn, Greenvale, Mickleham, Roxburgh Park and Sunbury.
+
+Learning ladder
 
 ## From guessing games to real models
 
 Starting points by age; the trial lesson sets the real one.
 
-- **Ages 6 to 9: Blocks and logic** Scratch projects that sort, count and decide. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)
-- **Ages 9 to 12: Python and AI ideas** Typed code, simple data and how a program learns from examples. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 17: Data and machine learning** Real data sets, models and honest evaluation. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **University and adult: Applied AI** Machine learning and generative AI for study and work. [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
+Ages 6 to 9
+
+### Blocks and logic
+
+Scratch projects that sort, count and decide.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)Ages 9 to 12
+
+### Python and AI ideas
+
+Typed code, simple data and how a program learns from examples.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 17
+
+### Data and machine learning
+
+Real data sets, models and honest evaluation.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)University and adult
+
+### Applied AI
+
+Machine learning and generative AI for study and work.
+
+[AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)Coding and AI
 
 ## Can Hume students just ask an AI to build the model?
 
@@ -168,30 +179,139 @@ Spotting that takes a person who understands where the data came from. A learner
 
 In Hume classes, AI speeds up the code, and the learner stays in charge of the judgement. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How lessons work for Hume
 
 Everything happens on a video call, whether the learner is in Sunbury, Campbellfield or Greenvale.
 
-- **Teacher and screen** The learner shares their screen; the teacher talks through the learner's own code.
-- **In step with terms** Lessons follow the Victorian school term pattern, with breaks in the holidays.
-- **First class free** A complete trial lesson with no charge, followed by a course suggestion.
-- **Matched groups** Fifteen to twenty learners grouped by level, from different suburbs and countries.
-- **Twice a week** Two scheduled lessons weekly, so roughly eight in a month.
-- **India time** A 5pm Hume lesson is 11:30am India time while Melbourne is on daylight saving, and 12:30pm after it ends.
+### Teacher and screen
 
-**Clock changes** Melbourne daylight saving runs from Sunday 4 October 2026 until Sunday 4 April 2027. India stays on one time all year, so we confirm every booking in Melbourne time.
+The learner shares their screen; the teacher talks through the learner's own code.
+
+### In step with terms
+
+Lessons follow the Victorian school term pattern, with breaks in the holidays.
+
+### First class free
+
+A complete trial lesson with no charge, followed by a course suggestion.
+
+### Matched groups
+
+Fifteen to twenty learners grouped by level, from different suburbs and countries.
+
+### Twice a week
+
+Two scheduled lessons weekly, so roughly eight in a month.
+
+### India time
+
+A 5pm Hume lesson is 11:30am India time while Melbourne is on daylight saving, and 12:30pm after it ends.
+
+Clock changes
+
+Melbourne daylight saving runs from Sunday 4 October 2026 until Sunday 4 April 2027. India stays on one time all year, so we confirm every booking in Melbourne time.
+
+Fees
 
 ## Hume class fees
 
 One price list for every family outside India.
 
-- First class: USD 0. The first lesson costs nothing and ends with a recommendation.
-- Group tuition: USD 100 a month. Group classes: a month of lessons, about eight, in a group of fifteen to twenty.
-- Private tuition: USD 150 a month. One-to-one classes: a month of lessons, about eight, with a teacher to themselves.
+First class**USD 0**
+
+The first lesson costs nothing and ends with a recommendation.
+
+Group tuition**USD 100**
+
+Group classes: a month of lessons, about eight, in a group of fifteen to twenty.
+
+Private tuition**USD 150**
+
+One-to-one classes: a month of lessons, about eight, with a teacher to themselves.
 
 Hume families are billed in US dollars. Nothing is paid until the trial has settled the course and a weekly time; rules for holidays and missed lessons are on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20Hume.)Reviews
+
+## Reviews on Google from our families
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Hume class
+
+Share the learner's age and what they like doing. A seven-year-old might build a sorting game in Scratch; a sixteen-year-old might rebuild the school classifier.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Hume one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20Hume.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Hume AI and programming questions
+
+Questions Hume parents and adult learners put to us.
 
 ### How many people live in Hume?
 
@@ -233,10 +353,14 @@ By level and pace, with fifteen to twenty learners in each, rather than by age o
 
 The school counts come from the Victorian Government's 2025 school locations file. The classifier scores are our own calculation.
 
+Explore Melbourne and Victoria
+
 ## More pages for Hume
 
 See the [Melbourne page](/vibe-coding-and-ai-agents-classes-in-melbourne) for the wider city, the [Victoria guide](/coding-and-ai-classes-in-victoria) for the state, or [coding for kids in Melbourne](/coding-classes-for-kids-melbourne) for younger learners.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20Hume.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-hume-melbourne](https://learn.modernagecoders.com/ai-and-programming-classes-in-hume-melbourne#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-hume-melbourne*

@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths lessons for Stirling lear
 canonical: https://learn.modernagecoders.com/best-coding-class-in-stirling
 source: src/pages/best-coding-class-in-stirling.html
 ---
-> Stirling council area had about 92,600 usual residents at Scotland's 2022 census, rounded to the nearest hundred by National Records of Scotland, and 42.4 people per square kilometre. The MacTutor history of mathematics records that the mathematician James Stirling was born in 1692 at Garden, about 20 kilometres west of the town. Stirling learners aged six to sixty-seven have live video lessons with our teachers in India, one to one or in a class of fifteen to twenty at one level, arranged around the Scottish school day and working hours. The first lesson costs nothing; after that it is USD 100 a month for a class place or USD 150 a month for one-to-one teaching.
+> Live online coding, Python, AI and maths lessons for Stirling learners aged 6 to 67, from Raploch and Torbrex to Causewayhead and Cornton. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Stirling
-
-Stirling, Scotland / Live online
-
-# Coding classes in Stirling
-
-**What are the best coding classes in Stirling?** Stirling council area had about 92,600 usual residents at Scotland's 2022 census, rounded to the nearest hundred by National Records of Scotland, and 42.4 people per square kilometre. The MacTutor history of mathematics records that the mathematician James Stirling was born in 1692 at Garden, about 20 kilometres west of the town. Stirling learners aged six to sixty-seven have live video lessons with our teachers in India, one to one or in a class of fifteen to twenty at one level, arranged around the Scottish school day and working hours. The first lesson costs nothing; after that it is USD 100 a month for a class place or USD 150 a month for one-to-one teaching.
-
-A factorial multiplies every whole number up to n: 5! is 120, and 20! is already 2,432,902,008,176,640,000. The formula named after James Stirling, born near the town in 1692, estimates n! without multiplying at all. Our Stirling project asks how good that estimate is. Teenagers compute factorials exactly in Python, including 92,600!, one for every resident of Stirling council area in the 2022 census, a number with 419,696 digits, and compare each with Stirling's formula. At n = 10 the formula is 0.83% too low. At n = 92,600 it is out by less than one part in a million, and it predicts the digit count exactly.
-
-Facts last verified 23 September 2026. Teaching is online; no Stirling branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Stirling
 
 ## Four courses for the city of the formula
 
 Pick the course nearest to what the learner already enjoys. Each one begins with a free live lesson, and there is no card to give when you book.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 12): Block programming for younger children, from games to counting how many ways a set of cards can be arranged.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): Multiplication, powers and logarithms explored in short programs, the arithmetic behind enormous numbers.
-- [High School Mathematics](/courses/complete-high-school-mathematics-mastery) (Ages 13 to 18): Secondary mathematics in depth, including logarithms, series and approximations used far beyond the classroom.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (University and adult): Python for adults who work with very large or very small numbers and need to know where a computer's arithmetic runs out.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 12Scratch Coding for KidsBlock programming for younger children, from games to counting how many ways a set of cards can be arranged.See the syllabus](/courses/scratch-programming-complete-course)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingMultiplication, powers and logarithms explored in short programs, the arithmetic behind enormous numbers.See the syllabus](/courses/maths-through-coding)[![High School Mathematics course thumbnail](/images/high-school-maths.webp)Ages 13 to 18High School MathematicsSecondary mathematics in depth, including logarithms, series and approximations used far beyond the classroom.See the syllabus](/courses/complete-high-school-mathematics-mastery)[![Python Masterclass course thumbnail](/images/python-college.webp)University and adultPython MasterclassPython for adults who work with very large or very small numbers and need to know where a computer's arithmetic runs out.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Stirling today
 
 ## A city in a compact council area
 
 The first results of Scotland's 2022 census, published by National Records of Scotland for each council area and rounded to the nearest hundred, for Stirling and for Scotland.
 
-**Stirling council area and Scotland: the 2011 count and the rounded 2022 count**
-
 | Place | Counted in 2011 | Counted in 2022, to the nearest hundred | People for each square kilometre in 2022 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Stirling | 90,247 | 92,600 | 42.4 |
 | Scotland | 5,295,403 | 5,436,600 | 69.8 |
 
@@ -60,6 +46,8 @@ There were about 40,300 households with at least one usual resident in 2022, com
 In 2022, 14.6% of Stirling residents were 14 or under and 20.5% were 65 or over; for Scotland the shares were 15.3% and 20.1%.
 
 Every 2022 figure is rounded on its own by National Records of Scotland, so we print each one as published and never add them together. Our Stirling classes take in the city and the villages around it. A Raploch eight-year-old building a first game, an S5 pupil from Torbrex working through Higher Mathematics and a Causewayhead adult learning Python to automate reports could each join a class at a different level.
+
+Kirk, hospital and a mathematician
 
 ## A coronation church and a scholar from the west
 
@@ -79,16 +67,18 @@ MacTutor records that James Stirling, born at Garden in 1692, published Methodus
 
 MacTutor also records that Stirling wrote to the mathematician De Moivre about errors in a table of logarithms of factorials, and that De Moivre extended his own results using Stirling's ideas. Historic Environment Scotland lists the Old Town Jail, the Tolbooth, Argyll Lodging, the Athenaeum and Stirling railway station at Category A too. We have no connection with Historic Environment Scotland or the University of St Andrews, and the dates and descriptions here are theirs.
 
-**How the numbers were checked** Python can hold whole numbers of any size, so every factorial on this page up to 92,600! was computed exactly, digit by digit, and compared with Stirling's formula. The census figure of 92,600 is the rounded 2022 count for Stirling council area.
+How the numbers were checked
+
+Python can hold whole numbers of any size, so every factorial on this page up to 92,600! was computed exactly, digit by digit, and compared with Stirling's formula. The census figure of 92,600 is the rounded 2022 count for Stirling council area.
+
+Signature project
 
 ## How close is Stirling's formula?
 
 Stirling's formula says that n! is close to the square root of 2 pi n, multiplied by n divided by e, raised to the power n. It needs no multiplication of the numbers from 1 to n at all, only a power, a square root and a few constants.
 
-**How far Stirling's formula falls below the exact factorial, and how far it falls with the next correction added**
-
 | n | Exact n! | Formula too low by | Adding 1/(12n) leaves |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 5 | 120 | 1.65% | 0.0022% |
 | 10 | 3,628,800 | 0.83% | 0.000277% |
 | 100 | a 158-digit number | 0.0833% | 0.000000278% |
@@ -113,14 +103,14 @@ An ordinary floating-point number, the kind most calculators and spreadsheets us
 
 The corrected formula is so accurate that at n = 1,000 and above, the remaining gap is smaller than ordinary floating-point arithmetic can resolve. A learner who reports "zero error" there has found the limit of the computer, not a perfect formula. Knowing which of those two things you are looking at is the most useful lesson on this page.
 
+Approximations
+
 ## Five checks before trusting an approximation
 
 Learned on factorials in Stirling, then used for probability, statistics, physics, finance models and any calculation too large to do exactly.
 
-**Decisions behind the Stirling factorial study**
-
 | Question | For Stirling's formula | What goes wrong if you skip it |
-|---|---|---|
+| --- | --- | --- |
 | Is there an exact answer to compare? | Python computes every factorial exactly | An approximation checked only against itself |
 | How is the error measured? | As a percentage of the exact value | Huge absolute errors that are actually tiny |
 | Does the error behave as theory says? | It shrinks like 1 over 12n | An unnoticed bug hiding in a plausible number |
@@ -143,14 +133,37 @@ Judging when an approximation is good enough for work, with the error measured t
 
 We have no connection with the University of St Andrews, Historic Environment Scotland, National Records of Scotland or Stirling Council. The biography, listing records and census tables are published openly; the factorials, errors and comparisons on this page are our own calculations.
 
+Learning ladder
+
 ## From arranging cards to Stirling's formula
 
 The age bands are a guide; the free lesson shows the right place to start.
 
-- **Ages 6 to 10: Counting arrangements** Arranging and counting objects in block code, and noticing how quickly the totals grow. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Mental Maths for Kids](/courses/mental-maths-mastery-kids)
-- **Ages 11 to 13: Big numbers in Python** Loops, multiplication and very large whole numbers in Python, with a program that prints factorials. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Approximations** Logarithms, Stirling's formula and floating-point limits, with every estimate tested against an exact answer. [High School Mathematics](/courses/complete-high-school-mathematics-mastery), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Numbers at work** Handling very large and very small values in Python without silent overflow or rounding errors. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [College Maths Course](/courses/college-mathematics-complete-masterclass)
+Ages 6 to 10
+
+### Counting arrangements
+
+Arranging and counting objects in block code, and noticing how quickly the totals grow.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Mental Maths for Kids](/courses/mental-maths-mastery-kids)Ages 11 to 13
+
+### Big numbers in Python
+
+Loops, multiplication and very large whole numbers in Python, with a program that prints factorials.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Approximations
+
+Logarithms, Stirling's formula and floating-point limits, with every estimate tested against an exact answer.
+
+[High School Mathematics](/courses/complete-high-school-mathematics-mastery)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Numbers at work
+
+Handling very large and very small values in Python without silent overflow or rounding errors.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[College Maths Course](/courses/college-mathematics-complete-masterclass)Coding and AI
 
 ## AI works with enormous numbers constantly. Why should a Stirling teenager learn where arithmetic breaks?
 
@@ -162,30 +175,139 @@ The project also teaches honest error reporting. An approximation that is 0.0000
 
 So a Stirling teenager should keep learning to code in 2026, a short ride from where James Stirling was born in 1692: computers do the multiplying, but people still need to know when the answer can be trusted. The longer argument is in [why coding is worth learning in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Raploch, Cambuskenneth or Bannockburn, one class for all
 
 Stirling learners live on both sides of the River Forth and out towards Bannockburn and Bridge of Allan. Online, each of them is the same distance from the lesson.
 
-- **Both sides of the Forth** A learner in Cornton and another in Cambusbarron can take the same class without either of them making the trip into town.
-- **Scottish school stages** Classes follow the stages Scottish families know, from the P years through S1 to S6, with National 5, Higher and Advanced Higher courses named as schools name them; teaching is in English.
-- **First lesson, real work** The free session is spent coding, not listening to a pitch, and ends with the teacher suggesting a level, a course and a weekly time. No card details are taken.
-- **Classes by stage** Fifteen to twenty learners at a single level, from Stirling, elsewhere in the UK and overseas, which keeps sensible times open for every stage.
-- **Two a week** Two fixed lessons weekly, around eight a month, with holidays and exam study planned together with the teacher.
-- **Teachers in India** India keeps one clock all year, so a Stirling lesson at five in the afternoon starts at 21:30 for our teachers during British Summer Time and 22:30 once the clocks go back.
+### Both sides of the Forth
 
-**Across central Scotland** Learners in Dunblane, Callander, Falkirk or Alloa join exactly the same classes, because every lesson is online and classes are arranged by level.
+A learner in Cornton and another in Cambusbarron can take the same class without either of them making the trip into town.
+
+### Scottish school stages
+
+Classes follow the stages Scottish families know, from the P years through S1 to S6, with National 5, Higher and Advanced Higher courses named as schools name them; teaching is in English.
+
+### First lesson, real work
+
+The free session is spent coding, not listening to a pitch, and ends with the teacher suggesting a level, a course and a weekly time. No card details are taken.
+
+### Classes by stage
+
+Fifteen to twenty learners at a single level, from Stirling, elsewhere in the UK and overseas, which keeps sensible times open for every stage.
+
+### Two a week
+
+Two fixed lessons weekly, around eight a month, with holidays and exam study planned together with the teacher.
+
+### Teachers in India
+
+India keeps one clock all year, so a Stirling lesson at five in the afternoon starts at 21:30 for our teachers during British Summer Time and 22:30 once the clocks go back.
+
+Across central Scotland
+
+Learners in Dunblane, Callander, Falkirk or Alloa join exactly the same classes, because every lesson is online and classes are arranged by level.
+
+Fees
 
 ## Stirling lesson fees
 
 The opening lesson is free, and a single monthly fee follows.
 
-- First class: USD 0. A whole lesson at no charge, finishing with a recommended level, course and weekly time.
-- Group tuition: USD 100 a month. About eight live lessons a month, in a class of fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. About eight live lessons a month, with a teacher giving your learner their full attention.
+First class**USD 0**
+
+A whole lesson at no charge, finishing with a recommended level, course and weekly time.
+
+Group tuition**USD 100**
+
+About eight live lessons a month, in a class of fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+About eight live lessons a month, with a teacher giving your learner their full attention.
 
 Families in Borestone or Causewayhead pay in US dollars, as every family outside India does, and our site never shows pound prices. Payment starts only after the free lesson, once you have settled a course and a weekly time with us; pauses, missed lessons and changes between group and private teaching are explained on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Stirling.)Reviews
+
+## Six Google reviews from families, unedited
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson for a Stirling learner
+
+We match the first lesson to the learner: a card-arranging counting game for a young child, a short Python program that prints factorials for a beginner, or exact factorials and Stirling's formula for a teenager ready for real numerical mathematics.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Stirling one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Stirling.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Stirling coding class questions
+
+What Stirling families most often ask us.
 
 ### How many people live in Stirling?
 
@@ -227,10 +349,14 @@ The first lesson is free. After that, a group place costs USD 100 a month for tw
 
 By level, pace and goals rather than by age or address, with fifteen to twenty learners at the same stage. If no group fits the learner's week, we offer one-to-one lessons.
 
+Explore Scotland and the UK
+
 ## Scotland and beyond
 
 Up the road, the [Perth page](/best-coding-class-in-perth-scotland) runs Soundex over Walter Scott's The Fair Maid of Perth, and to the south-west [Glasgow](/best-coding-class-in-glasgow) has its own project. Scottish exam years are covered on the [National 5 Computing Science](/national-5-computing-science-help) and [Higher Computing Science](/higher-computing-science-help) pages. Read the [Scotland guide](/coding-and-ai-classes-in-scotland) for how our stages match the Curriculum for Excellence, and the [UK coding page](/coding-classes-in-united-kingdom) for every other city.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Stirling.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-stirling](https://learn.modernagecoders.com/best-coding-class-in-stirling#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-stirling*

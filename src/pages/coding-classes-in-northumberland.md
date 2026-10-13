@@ -4,46 +4,32 @@ description: "Live online coding, Python and maths classes across Northumberland
 canonical: https://learn.modernagecoders.com/coding-classes-in-northumberland
 source: src/pages/coding-classes-in-northumberland.html
 ---
-> Northumberland is a single council area, and at the 2021 Census it had 320,567 residents. Most live in the south-east towns of Blyth, Cramlington, Ashington and Bedlington, with Morpeth, Berwick-upon-Tweed, Hexham and Alnwick further out. Teaching happens live over video from India, and learners are grouped by the level they have reached, so age is never the deciding factor. We teach from age 6 up to 67, in groups of fifteen to twenty or one-to-one, covering coding, Python, data and maths. The Northumberland project comes from the tide tables for the Holy Island causeway. Your first lesson costs nothing; if you continue, it is USD 100 a month in a group or USD 150 a month one-to-one.
+> Live online coding, Python and maths classes across Northumberland, from Blyth, Cramlington and Ashington to Morpeth, Hexham, Alnwick and Berwick-upon-Tweed.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Northumberland
-
-Northumberland / Live online
-
-# Coding classes in Northumberland
-
-**What are the best coding classes in Northumberland?** Northumberland is a single council area, and at the 2021 Census it had 320,567 residents. Most live in the south-east towns of Blyth, Cramlington, Ashington and Bedlington, with Morpeth, Berwick-upon-Tweed, Hexham and Alnwick further out. Teaching happens live over video from India, and learners are grouped by the level they have reached, so age is never the deciding factor. We teach from age 6 up to 67, in groups of fifteen to twenty or one-to-one, covering coding, Python, data and maths. The Northumberland project comes from the tide tables for the Holy Island causeway. Your first lesson costs nothing; if you continue, it is USD 100 a month in a group or USD 150 a month one-to-one.
-
-Twice a day the North Sea covers the causeway to Holy Island, and Northumberland County Council publishes the safe crossing times a year and more ahead, with a warning to allow 30 minutes extra. Those tables are real data with every awkward feature a programmer meets in the wild: windows that run past midnight, the same window printed on two different days, and two nights a year when the clocks change in the middle of a window. This page's project reads twelve months of the council's tables into Python, checks them for gaps and overlaps, and answers a practical question: on how many days could a family fit a four-hour daytime visit?
-
-Facts last verified 26 September 2026. Teaching is online; no Northumberland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Northumberland
 
 ## Where Northumberland learners start
 
 A six-year-old in Morpeth trying blocks for the first time, a Year 7 in Hexham who likes timetables and calendars, a Year 11 in Cramlington ready for proper Python, and an adult in Alnwick who wants to automate a spreadsheet. Each of them starts with a free lesson.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 12): Block coding from a first Scratch game onwards, with timers, clocks and countdowns.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Typed Python for children, with games, puzzles and first steps with data and AI.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Python from beginner to advanced for teenagers, through games, automation, data and AI projects.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (Adults): Python for adults who want to automate the dull parts of their work, from files to dates and schedules.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 12Coding for KidsBlock coding from a first Scratch game onwards, with timers, clocks and countdowns.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsTyped Python for children, with games, puzzles and first steps with data and AI.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensPython from beginner to advanced for teenagers, through games, automation, data and AI projects.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Automation Course course thumbnail](/images/python-college.webp)AdultsPython Automation CoursePython for adults who want to automate the dull parts of their work, from files to dates and schedules.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Northumberland in figures
 
 ## 320,567 people from Blyth to Berwick
 
 The population is the 2021 Census count on Nomis. Towns are ONS built-up areas, and we checked each by adding up the census output areas it contains.
 
-**Northumberland built-up areas with at least 8,000 residents, 2021 Census**
-
 | Town | Residents | Town | Residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Blyth | 39,730 | Berwick-upon-Tweed | 13,175 |
 | Cramlington | 28,845 | Hexham | 10,945 |
 | Ashington | 28,280 | Prudhoe | 10,280 |
@@ -57,16 +43,16 @@ Northumberland is a county of contrasts: well over half of the people in the tab
 
 For the city just south of the county, see our [Newcastle upon Tyne](/best-coding-class-in-newcastle-upon-tyne) page. Across the Border, our [Scotland](/coding-and-ai-classes-in-scotland) page covers families on the other side of the Tweed.
 
+The Northumberland project
+
 ## A year of Holy Island tides, read by a program
 
 The council's safe crossing tables, twelve months of them, and the traps they hold for anyone handling time in code.
 
 Each day in the council's table has four entries, alternating safe and unsafe, like "21:50 until 04:15 (Wed)". The learner writes a parser that turns every entry into a proper start and end moment, working out the right date when a window runs past midnight. For September 2026 to August 2027 that gives 365 rows and 1,460 entries. The first check finds that 50 of them are printed twice, because a night window ends one row and begins the next. Removing those leaves 1,410 distinct windows that fit together perfectly: no gaps, no overlaps, and safe and unsafe always taking turns.
 
-**Our analysis of the council's tables, September 2026 to August 2027**
-
 | Question | Answer from our program |
-|---|---|
+| --- | --- |
 | Share of the year the road is safe | 59.9 per cent, in 705 separate windows |
 | Length of a safe window | From 5.42 to 10.42 hours; the middle value is 7.33 |
 | 25 October 2026, clocks go back | An unsafe period that looks like 4 h 50 min really lasts 5 h 50 min |
@@ -93,14 +79,14 @@ Parse the full year with time zones, remove duplicates, test that the windows jo
 
 The crossing times belong to Northumberland County Council, which says they apply only to the road, can be changed by weather, and should always be given 30 minutes extra; the walking route over the sands has its own dangers. Our counts and visit windows are a coding exercise. Anyone planning a crossing should check the council's own page on the day.
 
+Why Holy Island
+
 ## A road that the sea takes back twice a day
 
 The Northumberland link, in the council's own warnings.
 
-**What Northumberland County Council says about the safe crossing times**
-
 | Point | The council's page |
-|---|---|
+| --- | --- |
 | What the times cover | The Lindisfarne Causeway road, for driving to or from Holy Island. |
 | Margin | Always allow 30 minutes extra time, as local weather such as high wind can change the times. |
 | Walking route | The marked route over the sands and mud is not covered by the times. |
@@ -111,16 +97,41 @@ Holy Island shows that data about time is only useful when a program handles tim
 
 Modern Age Coders has no connection with Northumberland County Council. Its tables and warnings are its own; our program, our counts and any errors are ours, and nothing here replaces the council's published times.
 
-**Nearby pages** [Newcastle upon Tyne](/best-coding-class-in-newcastle-upon-tyne) is just south; [Cumbria](/coding-classes-in-cumbria) and [Carlisle](/best-coding-class-in-carlisle) lie west, and [County Durham](/coding-classes-in-county-durham) beyond Tyneside.
+Nearby pages
+
+[Newcastle upon Tyne](/best-coding-class-in-newcastle-upon-tyne) is just south; [Cumbria](/coding-classes-in-cumbria) and [Carlisle](/best-coding-class-in-carlisle) lie west, and [County Durham](/coding-classes-in-county-durham) beyond Tyneside.
+
+The path
 
 ## From countdown timers to time-zone-proof code
 
 The free lesson shows where to begin. Age gives a clue, and ability decides.
 
-- **Ages 6 to 10: Timers and clocks** Block coding with timers, countdowns and day-night games, where children first think about time in a program. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 8 to 13: Reading tables** Typed Python that reads simple tables, adds up hours and draws bar charts. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 18: Real messy data** Python with files, dates and time zones, checked with tests so the answers can be trusted. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Automate the calendar** Python for adults, from basic scripts to automating reports, rotas and schedules. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Ages 6 to 10
+
+### Timers and clocks
+
+Block coding with timers, countdowns and day-night games, where children first think about time in a program.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 8 to 13
+
+### Reading tables
+
+Typed Python that reads simple tables, adds up hours and draws bar charts.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 18
+
+### Real messy data
+
+Python with files, dates and time zones, checked with tests so the answers can be trusted.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Automate the calendar
+
+Python for adults, from basic scripts to automating reports, rotas and schedules.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)AI and time
 
 ## An AI can read a tide table. Will it notice the night the clocks change?
 
@@ -132,30 +143,139 @@ A Northumberland student who has seen the 4 h 50 min window that is really 5 h 5
 
 So a young person in Northumberland should learn to code in 2026 to catch the mistakes that only happen on rare days. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Day to day
+
 ## The Cheviots to the coast, without the drive
 
 Northumberland is big and thinly populated in the north and west, so a weekly class in one town is a long trip for many. Online lessons fix that.
 
-- **Right where you are** A farmhouse near Rothbury, a semi in Blyth, a cottage in Wooler. Everyone sees the same screen, and the learner does the typing.
-- **School words you know** We use year groups, key stages, GCSEs and A levels as Northumberland schools do, and teach in English.
-- **No cost to try** A real first lesson, then honest advice on level and course. We do not ask for card details.
-- **A class at your stage** Fifteen to twenty learners at the same point, from Northumberland and many other places.
-- **Holidays kept** Two lessons a week suits most learners, and we pause for your school's breaks.
-- **A fixed UK time** We book you in UK time and it stays the same through the clock changes; the teacher works in India time, hours ahead, and does the adjusting.
+### Right where you are
 
-**Why level comes first** In a county this spread out, five learners at one stage who are free on the same evening almost never live near each other. Level-based groups mean a learner in Wooler or Haltwhistle still joins a class that suits them.
+A farmhouse near Rothbury, a semi in Blyth, a cottage in Wooler. Everyone sees the same screen, and the learner does the typing.
+
+### School words you know
+
+We use year groups, key stages, GCSEs and A levels as Northumberland schools do, and teach in English.
+
+### No cost to try
+
+A real first lesson, then honest advice on level and course. We do not ask for card details.
+
+### A class at your stage
+
+Fifteen to twenty learners at the same point, from Northumberland and many other places.
+
+### Holidays kept
+
+Two lessons a week suits most learners, and we pause for your school's breaks.
+
+### A fixed UK time
+
+We book you in UK time and it stays the same through the clock changes; the teacher works in India time, hours ahead, and does the adjusting.
+
+Why level comes first
+
+In a county this spread out, five learners at one stage who are free on the same evening almost never live near each other. Level-based groups mean a learner in Wooler or Haltwhistle still joins a class that suits them.
+
+Fees
 
 ## Fees in Northumberland
 
 Ashington or Alnwick, the price is the same, and it is the price in every country we teach outside India.
 
-- First class: USD 0. A full lesson with real work, then a clear recommendation for level and course.
-- Group tuition: USD 100 a month. About eight lessons a month, in a group of fifteen to twenty at the same level.
-- Private tuition: USD 150 a month. About eight lessons a month, just the learner and the teacher.
+First class**USD 0**
+
+A full lesson with real work, then a clear recommendation for level and course.
+
+Group tuition**USD 100**
+
+About eight lessons a month, in a group of fifteen to twenty at the same level.
+
+Private tuition**USD 150**
+
+About eight lessons a month, just the learner and the teacher.
 
 Our prices are in US dollars, never pounds. We charge nothing until the free lesson has agreed a course and a weekly time; the pricing page explains pauses, missed lessons and changing between group and private.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Northumberland%20and%20would%20like%20to%20try%20a%20free%20lesson%2C%20please.)Reviews
+
+## Google reviews from families we have taught
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson in Northumberland
+
+Share an age or school year and a favourite hobby. A first lesson could be a Scratch countdown, a Python table, or the causeway times on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Northumberland one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Northumberland%20and%20would%20like%20to%20try%20a%20free%20lesson%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Northumberland questions
+
+The county, the Holy Island project and the everyday details.
 
 ### How many people live in Northumberland?
 
@@ -197,10 +317,14 @@ The first lesson is free. After that it is USD 100 a month for a group place or 
 
 If you want us to. Northumberland County Council and academy trusts publish their dates, and we pause around yours.
 
+Nearby
+
 ## Pages close to Northumberland
 
 Tyneside has [Newcastle upon Tyne](/best-coding-class-in-newcastle-upon-tyne); to the west are [Cumbria](/coding-classes-in-cumbria) and [Carlisle](/best-coding-class-in-carlisle), and north of the Border is [Scotland](/coding-and-ai-classes-in-scotland). The [UK hub](/coding-classes-in-united-kingdom) covers everywhere else.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Northumberland%20and%20would%20like%20to%20try%20a%20free%20lesson%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-northumberland](https://learn.modernagecoders.com/coding-classes-in-northumberland#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-northumberland*

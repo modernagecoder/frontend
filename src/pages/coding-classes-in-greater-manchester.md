@@ -4,46 +4,32 @@ description: "Live online coding, Python, web development and maths classes acro
 canonical: https://learn.modernagecoders.com/coding-classes-in-greater-manchester
 source: src/pages/coding-classes-in-greater-manchester.html
 ---
-> Greater Manchester is ten metropolitan boroughs and 2,867,762 people at the 2021 Census, from Wigan in the west to Tameside in the east. Manchester and Salford sit at the centre, with Bolton, Stockport, Rochdale, Oldham, Wigan and Bury as big towns in their own right and dozens of smaller places between. However large the county, our lessons reach a Farnworth kitchen exactly as they reach a flat in Ancoats: taught live on video by a teacher in India, with learners grouped by current skill, ages 6 to 67, fifteen to twenty in a group or one to one. The subjects are programming, Python, web development, AI and maths. The county project starts with the Baby, the first computer to run a stored program, here in 1948. We charge nothing for the first lesson; after that it is USD 100 monthly in a group or USD 150 for a private teacher.
+> Live online coding, Python, web development and maths classes across Greater Manchester, from Manchester and Salford to Bolton, Wigan, Stockport and Oldham.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Greater Manchester
-
-Metropolitan county of Greater Manchester / Live online
-
-# Coding classes in Greater Manchester
-
-**What are the best coding classes in Greater Manchester?** Greater Manchester is ten metropolitan boroughs and 2,867,762 people at the 2021 Census, from Wigan in the west to Tameside in the east. Manchester and Salford sit at the centre, with Bolton, Stockport, Rochdale, Oldham, Wigan and Bury as big towns in their own right and dozens of smaller places between. However large the county, our lessons reach a Farnworth kitchen exactly as they reach a flat in Ancoats: taught live on video by a teacher in India, with learners grouped by current skill, ages 6 to 67, fifteen to twenty in a group or one to one. The subjects are programming, Python, web development, AI and maths. The county project starts with the Baby, the first computer to run a stored program, here in 1948. We charge nothing for the first lesson; after that it is USD 100 monthly in a group or USD 150 for a private teacher.
-
-On 21 June 1948, in Manchester, a machine called the Baby ran a 17-instruction program that searched for the highest factor of a number. By August it was doing so for numbers as large as two to the power eighteen, working through 3.5 million calculations in 53 minutes to arrive at 131,072. It was a brilliant test of a new kind of memory, and it is also a perfect first puzzle for a modern learner, because the same answer can be found almost instantly by asking the question a different way. This page's project writes both versions, counts how many numbers each has to try, and then hunts for the inputs that make each version work hardest.
-
-Facts last verified 26 September 2026. Teaching is online; no Greater Manchester branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Greater Manchester
 
 ## Four first courses for Greater Manchester learners
 
 A seven-year-old in Heywood making animations, a Year 7 in Chadderton who enjoys times tables more than most, a Year 11 in Sale who wants to build real websites, and an office worker in Leigh ready for a career change into tech. Each begins with a free lesson.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Scratch animations and games, the place where children first give a computer a list of instructions.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): Maths learned by coding it, factors and primes included, with fractions, algebra and probability as Python projects.
-- [Full Stack Web Development for Teens](/courses/full-stack-web-development-teens-masterclass) (Ages 13 to 18): HTML, CSS, JavaScript, React, Node.js and MongoDB for teenagers, finishing with a deployed capstone.
-- [Full Stack Developer Course](/courses/full-stack-web-development-masterclass-college) (Adults): A full stack route for career switchers, from HTML to React, Node.js, SQL, Docker and CI/CD.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsScratch animations and games, the place where children first give a computer a list of instructions.See the syllabus](/courses/scratch-programming-complete-course)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingMaths learned by coding it, factors and primes included, with fractions, algebra and probability as Python projects.See the syllabus](/courses/maths-through-coding)[![Full Stack Web Development for Teens course thumbnail](/images/web-dev-teens.webp)Ages 13 to 18Full Stack Web Development for TeensHTML, CSS, JavaScript, React, Node.js and MongoDB for teenagers, finishing with a deployed capstone.See the syllabus](/courses/full-stack-web-development-teens-masterclass)[![Full Stack Developer Course course thumbnail](/images/full-stack-development-college.webp)AdultsFull Stack Developer CourseA full stack route for career switchers, from HTML to React, Node.js, SQL, Docker and CI/CD.See the syllabus](/courses/full-stack-web-development-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)The county in numbers
 
 ## Ten boroughs, 2,867,762 people and a city smaller than its borough
 
 Borough totals are 2021 Census figures on Nomis. Town sizes are ONS built-up areas, which we checked against our own count of census output areas in the county.
 
-**The ten Greater Manchester boroughs, usual residents at Census 2021, largest first**
-
 | Borough | Usual residents | Main towns |
-|---|---|---|
+| --- | --- | --- |
 | Manchester | 551,938 | Manchester, Wythenshawe |
 | Wigan | 329,330 | Wigan, Leigh, Golborne, Hindley, Atherton in part |
 | Bolton | 295,963 | Bolton, Farnworth, Westhoughton, Horwich |
@@ -57,10 +43,8 @@ Borough totals are 2021 Census figures on Nomis. Town sizes are ONS built-up are
 
 Here is a Greater Manchester oddity. The ONS Manchester built-up area had 470,405 residents, well below the 551,938 living in Manchester borough, even though the built-up area also reaches into Stockport and Trafford. The reason is Wythenshawe, which the ONS counts as a separate built-up area of 97,660. So the answer to "how big is Manchester?" depends on whether you mean the council, the continuous city, or the city plus Wythenshawe, and a careful program asks which before it prints a number.
 
-**The forty largest Greater Manchester towns by ONS built-up area, Census 2021**
-
 | Town | Residents | Town | Residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Manchester | 470,405 | Radcliffe | 31,115 |
 | Bolton | 184,090 | Heywood | 29,725 |
 | Stockport | 117,935 | Farnworth | 28,760 |
@@ -88,6 +72,8 @@ Thirty-three more built-up areas in the county have between five and twenty-one 
 
 There is no single Greater Manchester school calendar: each of the ten borough councils sets term dates for its own community schools, and academies can set theirs. We did not read any of them for this page, so we print none, and every family agrees lesson breaks with us around the dates their school gives. Trafford's selective schools have [their own maths page](/11-plus-maths-tuition-trafford); nothing here is school advice.
 
+The Greater Manchester project
+
 ## The Baby's first question, and a better one
 
 Reproduce the answer the Science and Industry Museum publishes, then count how much work two different questions need to reach it.
@@ -96,10 +82,8 @@ The museum tells us what the Baby's first program did: find the highest factor o
 
 Now the better question. The highest factor of a number is the number divided by its smallest factor, other than 1. So instead of counting down from the top, count up from 2. For 262,144 the very first test succeeds, because the number is even, and 262,144 divided by 2 is 131,072. Same answer, one test instead of 131,072. Nothing about the computer changed. The only thing that changed was the question.
 
-**Our run of 26 September 2026: candidates tested by each method, near two to the power eighteen**
-
 | Number | Highest factor | Counting down from the top | Counting up for the smallest factor |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 262,144, which is 2 to the power 18 | 131,072 | 131,072 tests | 1 test |
 | 262,143 | 87,381 | 174,762 tests | 2 tests |
 | 262,139, the largest prime below 2 to the power 18 | 1 | 262,138 tests | 510 tests |
@@ -122,14 +106,14 @@ Hunt for worst-case inputs for each method, add the square-root stop, and explai
 
 The 17 instructions, the 3.5 million calculations, the 53 minutes and the answer are the museum's figures. Dividing one by the other gives about 1,100 calculations a second, our arithmetic. Our test counts measure our Python programs, not the steps the Baby actually took, which the museum does not describe in detail, so we do not try to reproduce its 3.5 million.
 
+Why Manchester
+
 ## A machine built to test a memory, and the program that tested it
 
 The county link, in the words of the Science and Industry Museum.
 
-**The Baby, as the Science and Industry Museum describes it**
-
 | Fact | What the museum says |
-|---|---|
+| --- | --- |
 | What it was | The Small Scale Experimental Machine, nicknamed Baby, "the world's first stored-program computer". |
 | Why it was built | Williams and his team needed to test their idea that a cathode ray tube could be used as a memory, the Williams-Kilburn tube. |
 | Its size | 17 feet in length by 7.4 feet tall, weighing almost a ton. |
@@ -140,16 +124,41 @@ The museum makes a point worth repeating to any learner: until the Baby, changin
 
 Modern Age Coders has no connection with the Science and Industry Museum, the University of Manchester or any Greater Manchester council, and nothing on this page suggests one. The museum's facts are its own; our programs, counts and any mistakes in them are ours.
 
-**Nearby pages** [Manchester](/best-coding-class-in-manchester) and [Salford](/best-coding-class-in-salford) have city pages of their own, and the [UK hub](/coding-classes-in-united-kingdom) lists every county and city as it goes live.
+Nearby pages
+
+[Manchester](/best-coding-class-in-manchester) and [Salford](/best-coding-class-in-salford) have city pages of their own, and the [UK hub](/coding-classes-in-united-kingdom) lists every county and city as it goes live.
+
+How learners progress
 
 ## From counting on your fingers to counting a program's work
 
 Where to start is decided in the free lesson, by ability. School year is a useful hint, nothing more.
 
-- **Ages 6 to 10: Instructions in order** Scratch programs that do one thing after another, and the discovery that a computer follows the list exactly. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 10 to 13: Numbers and loops** Python loops that test numbers for factors, and the habit of counting how many times a loop runs. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 13 to 18: Building real things** Websites and apps that respond quickly because the code behind them asks sensible questions of its data. [Full Stack Web Development for Teens](/courses/full-stack-web-development-teens-masterclass), [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)
-- **Ages 18 to 67: Software as a career** Full stack development and AI for adults, with performance and worst cases treated as part of the job. [Full Stack Developer Course](/courses/full-stack-web-development-masterclass-college), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
+Ages 6 to 10
+
+### Instructions in order
+
+Scratch programs that do one thing after another, and the discovery that a computer follows the list exactly.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 10 to 13
+
+### Numbers and loops
+
+Python loops that test numbers for factors, and the habit of counting how many times a loop runs.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 13 to 18
+
+### Building real things
+
+Websites and apps that respond quickly because the code behind them asks sensible questions of its data.
+
+[Full Stack Web Development for Teens](/courses/full-stack-web-development-teens-masterclass)[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)Ages 18 to 67
+
+### Software as a career
+
+Full stack development and AI for adults, with performance and worst cases treated as part of the job.
+
+[Full Stack Developer Course](/courses/full-stack-web-development-masterclass-college)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)AI and better questions
 
 ## An AI can write the Baby's program instantly. Can it tell you to ask a different question?
 
@@ -161,30 +170,139 @@ A Greater Manchester student who has counted both searches knows to ask: is ther
 
 So a Greater Manchester teenager should still learn to code in 2026, in the county where the first stored program ran, to be the person who asks the better question. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+The practical details
+
 ## Wigan to Mossley and nobody sits in traffic
 
 Crossing Greater Manchester at rush hour is slow going. Online, the lesson simply starts where you are.
 
-- **Lessons at home** A bedroom in Hindley, a kitchen table in Romiley, a desk in Whitefield. The teacher shares a screen and the learner types.
-- **Our words match school's** Year groups, GCSE options and A levels are named as Greater Manchester schools name them, and teaching is in English.
-- **A free first lesson** A proper lesson of real work, then an honest recommendation. No card details are ever requested.
-- **Classmates at your stage** Groups of fifteen to twenty learners at the same level, gathered from many towns and countries, at a sensible hour.
-- **Breaks you set** Usually two lessons a week, paused for the holidays your own school keeps, which differ between boroughs and academies.
-- **UK time, always** India, where the teachers are, is five and a half hours ahead of UK winter time and four and a half ahead of UK summer time; lessons are booked in UK time.
+### Lessons at home
 
-**Why groups are formed by level** Even in a county of almost three million, a single town rarely has enough learners at one exact stage on one evening. Grouping by level lets a Littleborough learner and an Altrincham learner share the right class.
+A bedroom in Hindley, a kitchen table in Romiley, a desk in Whitefield. The teacher shares a screen and the learner types.
+
+### Our words match school's
+
+Year groups, GCSE options and A levels are named as Greater Manchester schools name them, and teaching is in English.
+
+### A free first lesson
+
+A proper lesson of real work, then an honest recommendation. No card details are ever requested.
+
+### Classmates at your stage
+
+Groups of fifteen to twenty learners at the same level, gathered from many towns and countries, at a sensible hour.
+
+### Breaks you set
+
+Usually two lessons a week, paused for the holidays your own school keeps, which differ between boroughs and academies.
+
+### UK time, always
+
+India, where the teachers are, is five and a half hours ahead of UK winter time and four and a half ahead of UK summer time; lessons are booked in UK time.
+
+Why groups are formed by level
+
+Even in a county of almost three million, a single town rarely has enough learners at one exact stage on one evening. Grouping by level lets a Littleborough learner and an Altrincham learner share the right class.
+
+Fees
 
 ## Fees in Greater Manchester
 
 Every borough pays the same, as does every country other than India.
 
-- First class: USD 0. A full lesson of real work, finishing with a recommended level and course.
-- Group tuition: USD 100 a month. Around eight lessons a month in a group of fifteen to twenty at one level.
-- Private tuition: USD 150 a month. Around eight lessons a month with a teacher for one learner.
+First class**USD 0**
+
+A full lesson of real work, finishing with a recommended level and course.
+
+Group tuition**USD 100**
+
+Around eight lessons a month in a group of fifteen to twenty at one level.
+
+Private tuition**USD 150**
+
+Around eight lessons a month with a teacher for one learner.
 
 Prices are set in US dollars, our rate for families outside India, and there is no pound price list. Payment starts only after the free lesson has agreed a course and weekly slot; pausing, missed lessons and switching between group and private teaching are explained on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20I%20book%20a%20free%20lesson%20for%20a%20learner%20in%20Greater%20Manchester%3F)Reviews
+
+## Google reviews from real families
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson
+
+An age or school year and one interest is enough. The first lesson might be a Scratch animation, a first Python factor finder, or the Baby's program and its faster twin.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Greater Manchester one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20I%20book%20a%20free%20lesson%20for%20a%20learner%20in%20Greater%20Manchester%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Greater Manchester questions
+
+The county, the Baby project and how lessons run.
 
 ### How many people live in Greater Manchester?
 
@@ -226,10 +344,14 @@ The first lesson is free. After it, USD 100 a month for a group place or USD 150
 
 Each of the ten borough councils sets dates for its community schools, and academies may differ. We arrange lesson breaks around the dates your own school gives you.
 
+Explore the UK
+
 ## More pages from the North West and beyond
 
 City pages for [Manchester](/best-coding-class-in-manchester) and [Salford](/best-coding-class-in-salford) each run a different project. Other county pages so far include [Cambridgeshire](/coding-classes-in-cambridgeshire) and [Leicestershire](/coding-classes-in-leicestershire), and the [UK hub](/coding-classes-in-united-kingdom) has everything else.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20I%20book%20a%20free%20lesson%20for%20a%20learner%20in%20Greater%20Manchester%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-greater-manchester](https://learn.modernagecoders.com/coding-classes-in-greater-manchester#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-greater-manchester*

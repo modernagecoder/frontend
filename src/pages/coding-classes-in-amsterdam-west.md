@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes in Amsterdam-West for ag
 canonical: https://learn.modernagecoders.com/coding-classes-in-amsterdam-west
 source: src/pages/coding-classes-in-amsterdam-west.html
 ---
-> Coding classes in Amsterdam-West reach the densest of the eight Amsterdam districts, formed in 2010 out of Oud-West, Westerpark, De Baarsjes and Bos en Lommer on 9.45 square kilometres of land. In February 2009 one of its neighbourhoods, De Kolenkit, was reported as the worst in the Netherlands. In the years after, a large part of it was demolished and replaced with new building, and one of its four buurten is now called Laan van Spartaan. The name is unchanged and much of the place is not. Modern Age Coders teaches live online in English across the whole district, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
+> Live online coding, Python and AI classes in Amsterdam-West for ages 6 to 67, from the Kinkerbuurt to Bos en Lommer. The first lesson costs nothing.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Amsterdam](/coding-classes-in-amsterdam) / Amsterdam-West
-
-West, Amsterdam / Live online
-
-# Coding classes in Amsterdam-West, where a neighbourhood still carries a label from 2009 and most of the buildings it described are gone
-
-**What are the best coding classes in Amsterdam-West?** Coding classes in Amsterdam-West reach the densest of the eight Amsterdam districts, formed in 2010 out of Oud-West, Westerpark, De Baarsjes and Bos en Lommer on 9.45 square kilometres of land. In February 2009 one of its neighbourhoods, De Kolenkit, was reported as the worst in the Netherlands. In the years after, a large part of it was demolished and replaced with new building, and one of its four buurten is now called Laan van Spartaan. The name is unchanged and much of the place is not. Modern Age Coders teaches live online in English across the whole district, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
-
-Search for De Kolenkit and you will still meet a sentence from February 2009 calling it the worst neighbourhood in the Netherlands. The same entry that records the label also records what happened next: an urban renewal plan under which a large part of the buurt was demolished and replaced by new construction. Seventeen years later the name is identical and a substantial part of the physical neighbourhood is not. A name is a promise that the thing on either side of it is the same thing, and that promise quietly broke here without anybody being told.
-
-Facts last verified 9 September 2026. Teaching is online; no Amsterdam-West branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Amsterdam-West
 
 ## Four courses for the most crowded eight square kilometres in the city
 
 A groep 5 child in Bos en Lommer who has run out of things to finish, a teenager off the Kinkerstraat who wants a page on the internet that is actually theirs, a student in the Helmersbuurt who would rather know how the model works than what it said, and an adult on the Laan van Spartaan whose employer switched on a set of tools and explained none of them: four doors, and the first hour of each is free.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Typed Python, drawings that follow instructions and a first program that notices a rule, taught in English to the groep 5 to 8 child anywhere in the district.
-- [JavaScript for Teens](/courses/javascript-course-for-teens-beginners-interactive-web) (Ages 13 to 18): The language the browser actually runs, built up until a real page responds to a real person, for the teenager who wants something they can send somebody.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (College and adult): How the models are assembled and where they come apart, for the student who would rather understand the tool than be surprised by it.
-- [AI Tools Mastery Course](/courses/ai-tools-mastery-complete-college) (Adults): The current tools used with judgement instead of trust, for anybody handed them at work with no instructions and a deadline.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsTyped Python, drawings that follow instructions and a first program that notices a rule, taught in English to the groep 5 to 8 child anywhere in the district.See the syllabus](/courses/python-ai-kids-masterclass)[![JavaScript for Teens course thumbnail](/images/javascript-teens.webp)Ages 13 to 18JavaScript for TeensThe language the browser actually runs, built up until a real page responds to a real person, for the teenager who wants something they can send somebody.See the syllabus](/courses/javascript-course-for-teens-beginners-interactive-web)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)College and adultGenerative AI CourseHow the models are assembled and where they come apart, for the student who would rather understand the tool than be surprised by it.See the syllabus](/courses/complete-generative-ai-masterclass-college)[![AI Tools Mastery Course course thumbnail](/images/ai-tools-college.webp)AdultsAI Tools Mastery CourseThe current tools used with judgement instead of trust, for anybody handed them at work with no instructions and a deadline.See the syllabus](/courses/ai-tools-mastery-complete-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)West today
 
 ## Four old districts joined in 2010, on nine and a half square kilometres
 
@@ -52,15 +40,15 @@ The district entry publishes 148,908 residents for 1 January 2022. The wijk figu
 
 Two of the district's wijken carry full published figures: De Kolenkit and the Helmersbuurt. They are a deliberate pair, both dense, both largely rented, built in different centuries and treated very differently by the outside world. No district average is computed from two wijken.
 
-**What the district entry publishes, and its dates**
-
 | Item | As published | Date | Used here? |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Residents | 148,908 | 1 January 2022 | quoted, never combined with a 2026 figure |
 | Area | 9.45 square kilometres, stated as land | undated | quoted; no density computed from a 2022 population |
 | Density | the highest of any district in the municipality | undated | quoted as the entry's claim, not tested here |
 | Formed | from Oud-West, Westerpark, De Baarsjes and Bos en Lommer | 2010 | the reason the district has no single older identity |
 | Territory added | the part of Westpoort east of the A10 | 1 January 2015 | noted; no series is drawn across it |
+
+Where the learners are
 
 ## Two neighbourhoods, both crowded, one of them rebuilt
 
@@ -82,16 +70,18 @@ The Helmersbuurt is at 22,424 people to the square kilometre and De Kolenkit at 
 
 West also holds the Spaarndammerbuurt, the Staatsliedenbuurt, the Frederik Hendrikbuurt, the Da Costabuurt, the Kinkerbuurt, the Van Lennepbuurt, Westerpark, Landlust, Erasmuspark, the Overtoomse Sluis, the Vondelbuurt and the village of Sloterdijk, among twenty-seven named buurten. They are listed because they exist and given no invented numbers.
 
-**What the class asks about any of this** Nothing. A learner is placed on what they can already do, demonstrated in the free hour, so a child on the Laan van Spartaan and a child on the WG-terrein sit in the same group when they are at the same stage and in different ones when they are not. Neither the buurt, the school nor the reputation of an address is an input to the decision, and a family that moves across the district keeps its slot.
+What the class asks about any of this
+
+Nothing. A learner is placed on what they can already do, demonstrated in the free hour, so a child on the Laan van Spartaan and a child on the WG-terrein sit in the same group when they are at the same stage and in different ones when they are not. Neither the buurt, the school nor the reputation of an address is an input to the decision, and a family that moves across the district keeps its slot.
+
+Verified local facts
 
 ## Every figure, its source, its date, and what cannot be established
 
 One district entry, one buurt entry, two wijk pages, and a list of things the published record does not settle.
 
-**The record, claim by claim**
-
 | Claim | As published | Source and date | Status on this page |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | The district | 148,908 residents; 9.45 km2 of land; formed 2010 from four stadsdelen; Westpoort east of the A10 added 1 January 2015; stadsdeelraad to 2014, bestuurscommissie since; the highest density in the municipality | stadsdeel entry, population dated 1 January 2022 | quoted; the density claim is not tested |
 | The label | reported as the slechtste wijk van Nederland, the worst neighbourhood in the Netherlands | buurt entry, attributed to NU.nl, February 2009 | quoted with its date and its source, and argued against |
 | What happened after | an urban renewal plan under which a large part of the buurt would be demolished in the following years and replaced by new construction | buurt entry, undated beyond the following years | the centre of this page |
@@ -100,6 +90,8 @@ One district entry, one buurt entry, two wijk pages, and a list of things the pu
 | Helmersbuurt now | 7,271 residents; 4,570 households; 4,470 dwellings at 646,000 euro; 65 percent rented; income 55,800 euro; density 22,424 | statistics office, same vintages | quoted in full |
 
 What the record does not establish: how many homes were demolished, how many were built, what the population of the buurt was in 2009, or what any of the 2009 indicators would be today. No source read here gives any of those. That absence is not a footnote to the argument on this page, it is the argument, and it is why the page compares nothing across 2009 and 2026. Modern Age Coders has no connection to the stadsdeel, the city or any school named here and claims none.
+
+Signature project
 
 ## The name stayed the same. Did the neighbourhood?
 
@@ -117,10 +109,8 @@ Here the same entry that carries the label also carries the plan: a large part o
 
 The tempting move is to put 2009 next to 2026 and announce an improvement or a decline. This page does not, because nothing published says how much was replaced. Unemployment of 11.5 percent from an undated assessment and an average income of 32,400 euro from 2024 are not two points on one line. They are two descriptions of two overlapping but different places.
 
-**One name, two things, and the join nobody should make**
-
 | What is being compared | The 2009 side | The 2026 side | Why the comparison fails |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | The buildings | the housing stock as it stood before renewal | 6,095 dwellings, average value 419,000 euro | a large part of the first was demolished and replaced |
 | The residents | not published anywhere read here | 11,767 residents in 6,280 households | no 2009 population to compare with |
 | The condition | unemployment 11.5 percent, early school-leaving 16 percent, undated | average income 32,400 euro, 2024 | different indicators, different years, different housing |
@@ -131,14 +121,14 @@ The tempting move is to put 2009 next to 2026 and announce an improvement or a d
 
 Names and ids are the glue of every dataset. Join on customer_id and you assume the customer is the same customer. Chart a metric over five years and you assume the metric measured the same thing in year one as in year five. Compare a school against its own record from a decade ago and you assume it is the same school. Most of the time those assumptions hold, which is exactly why nobody checks them, and the failures are quiet rather than loud. A company is acquired and its customer records are migrated with their ids intact, so its history now belongs to a different company. A product keeps its code after a redesign that changed everything about it. A metric definition is revised in one release note and the dashboard title stays the same, so a step change in the chart looks like a business event. A neighbourhood is largely demolished and rebuilt and keeps its name, so a sentence written in February 2009 is still the first thing anybody reads about it in 2026. In every one of those cases the data is correct, the join is technically valid and the conclusion is wrong. The defence is not clever code. It is a decision, made by a person, about when a thing has changed enough that its identifier should not carry its history any further: version the entity, give it a valid-from date, or mint a new id and record what it replaced. Whoever does not make that decision has made it by default, in favour of continuity, on behalf of everybody who will ever query the table.
 
+Reliable pipeline
+
 ## Five habits for identifiers that outlive what they named
 
 Customer ids through an acquisition, product codes through a redesign, metric names through a definition change, hostnames through a hardware refresh: the id survives and the thing does not. Practised on a neighbourhood that kept its name through a demolition programme.
 
-**Keeping a name honest over time**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Date every claim | Attach the date and the source to any statement about an entity | A seventeen-year-old sentence read as current | A reader who can see how old the evidence is |
 | Record replacement events | Log mergers, rebuilds, redefinitions and migrations against the id | A discontinuity invisible to every later query | A history somebody can interrogate |
 | Version the entity | Give the id a valid-from date, or mint a new one and link it | One identifier silently spanning two things | Joins that can be made deliberately rather than by accident |
@@ -159,14 +149,37 @@ A real identifier at work that survived a migration, an acquisition or a redefin
 
 The district population, area, formation, governance and the Westpoort addition come from the stadsdeel entry, with the population dated 1 January 2022. The February 2009 label, its attribution to NU.nl, the renewal and demolition plan and the figures quoted alongside the assessment come from the entry for the buurt. Every population, household, age, area, density, dwelling, value, tenure and income figure for De Kolenkit and the Helmersbuurt comes from the national statistics office page for that wijk, with 2026 populations, 2025 household and housing figures and 2024 incomes. No figure on this page is carried across the 2009 boundary and none of the arithmetic joins the two sides.
 
+Learning ladder
+
 ## From a toy with all its parts replaced to a join that refuses to cross a rebuild
 
 Which rung a learner starts on is settled in the free hour by what they can already do, and never by the buurt on the address or anything anybody once wrote about it.
 
-- **Ages 6 to 10: Is it still the same toy?** Children decide for themselves how much has to change before a name stops fitting. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Game Development for Kids](/courses/game-development-masterclass-for-kids)
-- **Ages 11 to 13: When was this written?** Learners start attaching a date and a source to every claim before they use it. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Web Development for Kids](/courses/kids-ai-web-development-course)
-- **Ages 14 to 18: Ids that carry a valid-from date** Teenagers build records that version themselves and joins that refuse to cross a replacement. [JavaScript for Teens](/courses/javascript-course-for-teens-beginners-interactive-web), [React Course for Teens](/courses/react-for-teens-complete-masterclass)
-- **Ages 18 to 67: The chart that crosses the migration** Adults find a real identifier that outlived the thing it named and work out what it has been claiming. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [AI Tools Mastery Course](/courses/ai-tools-mastery-complete-college)
+Ages 6 to 10
+
+### Is it still the same toy?
+
+Children decide for themselves how much has to change before a name stops fitting.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Game Development for Kids](/courses/game-development-masterclass-for-kids)Ages 11 to 13
+
+### When was this written?
+
+Learners start attaching a date and a source to every claim before they use it.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Web Development for Kids](/courses/kids-ai-web-development-course)Ages 14 to 18
+
+### Ids that carry a valid-from date
+
+Teenagers build records that version themselves and joins that refuse to cross a replacement.
+
+[JavaScript for Teens](/courses/javascript-course-for-teens-beginners-interactive-web)[React Course for Teens](/courses/react-for-teens-complete-masterclass)Ages 18 to 67
+
+### The chart that crosses the migration
+
+Adults find a real identifier that outlived the thing it named and work out what it has been claiming.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[AI Tools Mastery Course](/courses/ai-tools-mastery-complete-college)Coding and AI
 
 ## Ask an AI about De Kolenkit and you will get February 2009. Why should a teenager in West learn to check the date?
 
@@ -178,30 +191,139 @@ So the learner practises the two questions that catch it: when was this said, an
 
 The case for a child in Amsterdam-West learning to code in 2026 is therefore not about one neighbourhood's reputation. It is that names are how data is joined, that a name can outlive the thing it named without any warning being emitted, and that a buurt which was largely rebuilt and kept its label is the clearest example of the problem a person is likely to walk past on the way to school. The longer argument is in [the case for a child writing code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes in the most crowded part of the city
 
 West is dense, well connected and short of space. The obstacle for a family here is almost never getting somewhere; it is finding an hour and a quiet corner in a flat that has neither to spare.
 
-- **One hour, at your own table** The class runs at home in Bos en Lommer, off the Kinkerstraat or on the Laan van Spartaan at the same time each week. Nothing has to be travelled to and no room has to be hired.
-- **English throughout, Dutch school words kept** Every lesson is in English. Groep, havo, vwo and profielkeuze stay in Dutch on purpose, because those are the words printed on the paperwork a child brings home and an English substitute only adds a step.
-- **What the first hour settles** The teacher watches the learner work, so the level is shown rather than stated; a named course follows from it and an hour is fixed in the week. Payment is not discussed during it and no card is requested.
-- **Level makes the group, reputation does not** Two learners at the same stage work together whichever buurt they are in and whatever anybody has written about it. Two at different stages do not, for the same reason.
-- **Twice a week, on regio Noord dates** A repeating twice-weekly slot, normally eight lessons in a month. Noord-Holland takes its school holidays with regio Noord, and the weeks a family will be away are put into the plan before it begins.
-- **Three and a half hours, four and a half in winter** Only the Dutch clock moves, so the distance to the teacher changes with the season. After school, early evening and either weekend day work at both settings.
+### One hour, at your own table
 
-**A district where the children are concentrated in particular streets** Under-fifteens are 15 percent of De Kolenkit, which is 1,795 children, and 9.3 percent of the Helmersbuurt, which is 675. Two neighbourhoods a few minutes apart differ by a factor of nearly three in the number of school-age children in them. That is the practical reason a specialist group at one particular level rarely forms locally, whatever the school does, and the reason groups here are assembled on ability from across the world instead, at every age up to sixty-seven.
+The class runs at home in Bos en Lommer, off the Kinkerstraat or on the Laan van Spartaan at the same time each week. Nothing has to be travelled to and no room has to be hired.
+
+### English throughout, Dutch school words kept
+
+Every lesson is in English. Groep, havo, vwo and profielkeuze stay in Dutch on purpose, because those are the words printed on the paperwork a child brings home and an English substitute only adds a step.
+
+### What the first hour settles
+
+The teacher watches the learner work, so the level is shown rather than stated; a named course follows from it and an hour is fixed in the week. Payment is not discussed during it and no card is requested.
+
+### Level makes the group, reputation does not
+
+Two learners at the same stage work together whichever buurt they are in and whatever anybody has written about it. Two at different stages do not, for the same reason.
+
+### Twice a week, on regio Noord dates
+
+A repeating twice-weekly slot, normally eight lessons in a month. Noord-Holland takes its school holidays with regio Noord, and the weeks a family will be away are put into the plan before it begins.
+
+### Three and a half hours, four and a half in winter
+
+Only the Dutch clock moves, so the distance to the teacher changes with the season. After school, early evening and either weekend day work at both settings.
+
+A district where the children are concentrated in particular streets
+
+Under-fifteens are 15 percent of De Kolenkit, which is 1,795 children, and 9.3 percent of the Helmersbuurt, which is 675. Two neighbourhoods a few minutes apart differ by a factor of nearly three in the number of school-age children in them. That is the practical reason a specialist group at one particular level rarely forms locally, whatever the school does, and the reason groups here are assembled on ability from across the world instead, at every age up to sixty-seven.
+
+Fees
 
 ## The fee, in dollars, the same in every buurt
 
 On the page rather than saved for a telephone call.
 
-- First class: USD 0. A full lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A full lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 One international rate exists and it is quoted in dollars, with no euro edition, so an address in the Helmersbuurt is charged exactly what an address in De Kolenkit is. Nothing is paid until the free lesson has settled a course and an hour, and payment is then arranged over WhatsApp. Pausing, switching plan and missing a week are all set out on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Amsterdam-West.)Reviews
+
+## Six Google reviews, reproduced as the people who left them wrote them
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Send the level, not the postcode
+
+The first task might be a toy that has had every part replaced, a pair of records that refuse to join across a rebuild, or an identifier at work that survived a migration nobody logged.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Amsterdam-West one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Amsterdam-West.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Amsterdam-West coding class questions
+
+The district, its neighbourhoods, one very old sentence, the teaching and the terms.
 
 ### Is De Kolenkit really the worst neighbourhood in the Netherlands?
 
@@ -243,10 +365,14 @@ The first lesson is free. After it, group tuition is USD 100 a month for two liv
 
 Fifteen to twenty, matched on level, pace and goal rather than on age, school or neighbourhood. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
+Explore Amsterdam and beyond
+
 ## East into the canals, south past the Vondelpark, and out to the country
 
 East of here is [Amsterdam-Centrum](/coding-classes-in-amsterdam-centrum), where the district turns out to be less crowded than its own neighbourhoods, and south is [Amsterdam-Zuid](/coding-classes-in-amsterdam-zuid), where two official registers disagree by 432 on the Zuidas. Across the water lies [Amsterdam-Noord](/coding-classes-in-amsterdam-noord). The city page, [coding classes in Amsterdam](/coding-classes-in-amsterdam), carries the picture for all eight districts, and the city sits inside [Noord-Holland](/coding-classes-in-noord-holland). Everything descends from the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner who wants trained models rather than running programs should start at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Finish this on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Amsterdam-West.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-amsterdam-west](https://learn.modernagecoders.com/coding-classes-in-amsterdam-west#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-amsterdam-west*

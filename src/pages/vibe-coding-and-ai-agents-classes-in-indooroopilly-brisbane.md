@@ -4,46 +4,32 @@ description: "Live online vibe coding and AI agents classes for Indooroopilly le
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-indooroopilly-brisbane
 source: src/pages/vibe-coding-and-ai-agents-classes-in-indooroopilly-brisbane.html
 ---
-> How an agent should behave when the tools it calls have limits. In our Indooroopilly project an agent looks up 84 stops through a tool that accepts five requests at a time. Sent all at once, 79 bounce and the agent still reports back. Capped with a semaphore of five, every stop is answered in about nine seconds.
+> Live online vibe coding and AI agents classes for Indooroopilly learners: AI tools, Python and agents that call tools safely, in small groups or one to one.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [Queensland](/coding-and-ai-classes-in-queensland) / [Brisbane](/best-coding-classes-in-brisbane) / Indooroopilly
-
-Indooroopilly, City of Brisbane, Queensland / Live online
-
-# Vibe coding and AI agents classes in Indooroopilly
-
-**What does an AI agents class teach in Indooroopilly?** How an agent should behave when the tools it calls have limits. In our Indooroopilly project an agent looks up 84 stops through a tool that accepts five requests at a time. Sent all at once, 79 bounce and the agent still reports back. Capped with a semaphore of five, every stop is answered in about nine seconds.
-
-Indooroopilly is a busy junction: a railway station, a shopping-centre bus station and a long run of Moggill Road stops all sit inside the suburb outline. Translink schedules 4,365 stop visits there on Wednesday 21 October 2026 across 41 routes. An assistant asked "when is the next bus at every stop?" has to make 84 separate tool calls, and how it makes them is the lesson.
-
-Facts last verified 12 October 2026. Teaching is online; no Indooroopilly branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Indooroopilly
 
 ## Agents and AI tool courses
 
 These courses pair AI tools with code the learner reads and tests. The free lesson finds the right starting point.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Projects built with AI help, then checked line by line.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (University and adult): Scripts that call AI services and APIs without breaking their limits.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Games and stories made with Scratch and friendly AI tools.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Adults 18 and over): Working with AI coding agents on real repositories.
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensProjects built with AI help, then checked line by line.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)University and adultPython Automation CourseScripts that call AI services and APIs without breaking their limits.See the syllabus](/courses/python-ai-automation-masterclass-college)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsGames and stories made with Scratch and friendly AI tools.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Adults 18 and overCodex & Claude CodeWorking with AI coding agents on real repositories.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Indooroopilly in the 2021 Census
 
 ## Apartments, students and short commutes
 
 Values for the Indooroopilly suburb (ABS SAL31389), taken from its 2021 QuickStats page on 12 October 2026.
 
-**Indooroopilly headline counts**
-
 | Measure | Indooroopilly |
-|---|---|
+| --- | --- |
 | People | 13,622 |
 | Median age | 33 |
 | Families | 3,478 |
@@ -51,10 +37,8 @@ Values for the Indooroopilly suburb (ABS SAL31389), taken from its 2021 QuickSta
 | People per household | 2.5 |
 | Motor vehicles per dwelling | 1.6 |
 
-**Indooroopilly shares beside Queensland**
-
 | Share | Indooroopilly | Queensland |
-|---|---|---|
+| --- | --- | --- |
 | Flats or apartments | 45.4% (2,337) | 12.5% |
 | Bachelor degree or above | 54.2% (6,063) | 21.9% |
 | Professionals among workers | 42.6% (2,988) | 21.4% |
@@ -74,14 +58,14 @@ On Census day in August 2021, during the pandemic, 2,050 workers (29.2%) worked 
 
 Published percentages are rounded and small counts are slightly altered by the bureau for privacy. We quote them as printed and do not add rows together to make totals.
 
+Signature project
+
 ## Five calls at a time, 84 stops to answer
 
 The tool in this exercise is a stand-in for a real timetable API. We gave it a rule many services have: no more than five requests in flight. Each call takes between 0.2 and 0.9 seconds, drawn at random with a fixed seed, so every run repeats exactly.
 
-**How long the agent takes, by strategy (our simulation)**
-
 | Strategy | Stops answered | Time |
-|---|---|---|
+| --- | --- | --- |
 | One call after another | 84 of 84 | 44.8 s |
 | Semaphore of 2 | 84 of 84 | 22.5 s |
 | Semaphore of 3 | 84 of 84 | 15.1 s |
@@ -106,14 +90,14 @@ An agent that hides failed calls behind a confident summary is worse than a slow
 
 The stop list is real: 84 of the 87 stop records inside the suburb outline have at least one scheduled visit that Wednesday. The latencies and the five-request rule are our simulation, not measured Translink behaviour.
 
+The semaphore in Python
+
 ## Three lines that protect a rate limit
 
 Python's asyncio library includes a Semaphore. Wrapping each tool call in "async with sem:" makes extra calls wait their turn instead of being sent.
 
-**Steps learners follow**
-
 | Step | What they do |
-|---|---|
+| --- | --- |
 | 1 | Load the 84 served stop records from the feed. |
 | 2 | Write a fake tool with a five-in-flight rule and random delays. |
 | 3 | Run all calls at once and count the rejections. |
@@ -133,6 +117,8 @@ Build the simulation in Python and chart answered stops against the semaphore si
 
 Add concurrency caps and retries to an agent that calls paid AI or data APIs at work.
 
+In Indooroopilly
+
 ## Trains, buses and the 2027 school year
 
 Counts from the Translink feed for Wednesday 21 October 2026 and dates from the Queensland Department of Education.
@@ -149,16 +135,41 @@ Forty-one routes call at a stop in the suburb that day. The feed groups six stop
 
 Queensland state schools begin the 2027 year on Wednesday 27 January; Term 1 closes on Thursday 25 March.
 
-**Outline used** Stop records are matched to the ABS outline of the Indooroopilly suburb, about 6.92 square kilometres, using our own point-in-polygon test. The feed lists Indooroopilly Shopping Centre station, a bus station, separately from the railway station.
+Outline used
+
+Stop records are matched to the ABS outline of the Indooroopilly suburb, about 6.92 square kilometres, using our own point-in-polygon test. The feed lists Indooroopilly Shopping Centre station, a bus station, separately from the railway station.
+
+Learning ladder
 
 ## From turn-taking games to agents
 
 Ages are a rough guide; we place each learner after the free lesson.
 
-- **Ages 6 to 9: Taking turns** Scratch projects where sprites wait, signal and share. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)
-- **Ages 8 to 12: Building with AI** Games made with AI help while reading the code. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 13 to 17: Python and tools** Programs that call web APIs and handle their limits. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [AI Tools Course for Teens (13+)](/courses/teens-ai-tools-mastery-course)
-- **University and adult: Agents that behave** Concurrency, retries and checks for production agents. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
+Ages 6 to 9
+
+### Taking turns
+
+Scratch projects where sprites wait, signal and share.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)Ages 8 to 12
+
+### Building with AI
+
+Games made with AI help while reading the code.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 13 to 17
+
+### Python and tools
+
+Programs that call web APIs and handle their limits.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[AI Tools Course for Teens (13+)](/courses/teens-ai-tools-mastery-course)University and adult
+
+### Agents that behave
+
+Concurrency, retries and checks for production agents.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)Coding and AI
 
 ## Why learn concurrency if an agent can write it?
 
@@ -170,30 +181,139 @@ A learner who has watched that happen reads the generated code for the cap befor
 
 In Indooroopilly classes, learners steer the AI and check every call it makes. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Joining from Indooroopilly
 
 Lessons are live on video, so any home in the suburb works as the classroom.
 
-- **Shared screen** The teacher follows the learner's own code as they type and test it.
-- **Holiday breaks** Classes run in Queensland terms and stop for school holidays.
-- **No-cost first lesson** A full trial lesson, then a recommendation in writing.
-- **Matched groups** Fifteen to twenty learners at the same level, or private lessons.
-- **Two lessons weekly** Around eight live sessions a month.
-- **Teachers in India** A 4:30pm Indooroopilly class is noon in India, every week of the year.
+### Shared screen
 
-**Brisbane time** Queensland stopped daylight saving in March 1992, according to the IANA time zone database, so the gap to India stays at four and a half hours.
+The teacher follows the learner's own code as they type and test it.
+
+### Holiday breaks
+
+Classes run in Queensland terms and stop for school holidays.
+
+### No-cost first lesson
+
+A full trial lesson, then a recommendation in writing.
+
+### Matched groups
+
+Fifteen to twenty learners at the same level, or private lessons.
+
+### Two lessons weekly
+
+Around eight live sessions a month.
+
+### Teachers in India
+
+A 4:30pm Indooroopilly class is noon in India, every week of the year.
+
+Brisbane time
+
+Queensland stopped daylight saving in March 1992, according to the IANA time zone database, so the gap to India stays at four and a half hours.
+
+Fees
 
 ## Indooroopilly class fees
 
 The same fees for every learner.
 
-- First class: USD 0. The opening lesson costs nothing and finishes with a plan.
-- Group tuition: USD 100 a month. Groups: roughly eight lessons a month, fifteen to twenty learners.
-- Private tuition: USD 150 a month. One to one: roughly eight lessons a month with your own teacher.
+First class**USD 0**
+
+The opening lesson costs nothing and finishes with a plan.
+
+Group tuition**USD 100**
+
+Groups: roughly eight lessons a month, fifteen to twenty learners.
+
+Private tuition**USD 150**
+
+One to one: roughly eight lessons a month with your own teacher.
 
 Fees for Indooroopilly families are in US dollars. Payment starts once the trial has settled a course and a weekly time; the pricing page covers holidays and missed lessons.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20class%20for%20a%20learner%20in%20Indooroopilly.)Reviews
+
+## Google reviews from our learners and families
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Indooroopilly class
+
+Tell us the learner's age and what they like. A child might begin with a Scratch turn-taking game; a teenager might cap the 84-stop agent.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Indooroopilly one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20class%20for%20a%20learner%20in%20Indooroopilly.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Indooroopilly vibe coding and AI agents questions
+
+Common questions from Indooroopilly parents and adult learners.
 
 ### How many people live in Indooroopilly?
 
@@ -235,10 +355,14 @@ Fifteen to twenty learners at a similar level and pace, not sorted by age or sub
 
 The Translink timetable for Wednesday 21 October 2026 shows 41 routes calling at a stop inside the suburb.
 
+More for Brisbane learners
+
 ## Where to go next
 
 See the [Brisbane page](/best-coding-classes-in-brisbane) for the whole city, the [Queensland guide](/coding-and-ai-classes-in-queensland) for the state, and [AI classes for teens](/ai-classes-for-teens-australia) for older students.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20class%20for%20a%20learner%20in%20Indooroopilly.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-indooroopilly-brisbane](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-indooroopilly-brisbane#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-indooroopilly-brisbane*

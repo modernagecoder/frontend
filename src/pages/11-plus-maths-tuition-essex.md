@@ -4,34 +4,28 @@ description: "Live online 11 plus maths for Essex: the CSSE test for Colchester 
 canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-essex
 source: src/pages/11-plus-maths-tuition-essex.html
 ---
-> Essex has two selective tests. The CSSE test is used by Colchester Royal Grammar School, Colchester County High School for Girls and King Edward VI Grammar School in Chelmsford, along with seven Southend schools: an English paper and a sixty-minute Mathematics paper, each worth half the marks, based on Key Stage 2, with no calculators and a minimum total standardised score of 303. For 2027 entry it was sat on Saturday 19 September 2026, and the CSSE says 2028-entry dates will be published by Easter 2027. Chelmsford County High School for Girls runs its own FSCE test, sat this cycle on Thursday 3 September 2026, drawing on Key Stage 2 subjects up to Year 5, which may include maths. We teach the maths for both, live online. The first lesson costs nothing; regular tuition is USD 100 monthly in a small group or USD 150 monthly one to one.
+> Live online 11 plus maths for Essex: the CSSE test for Colchester and Chelmsford grammar schools, the separate CCHS test, and numerical conventions taught well.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / 11 plus maths in Essex
+In short
 
-Essex · CSSE 11+ and the CCHS entrance test · Live online, small groups or one to one
+Essex has two selective tests. The CSSE test is used by Colchester Royal Grammar School, Colchester County High School for Girls and King Edward VI Grammar School in Chelmsford, along with seven Southend schools: an English paper and a sixty-minute Mathematics paper, each worth half the marks, based on Key Stage 2, with no calculators and a minimum total standardised score of 303. For 2027 entry it was sat on Saturday 19 September 2026, and the CSSE says 2028-entry dates will be published by Easter 2027. Chelmsford County High School for Girls runs its own FSCE test, sat this cycle on Thursday 3 September 2026, drawing on Key Stage 2 subjects up to Year 5, which may include maths. We teach the maths for both, live online. The first lesson costs nothing; regular tuition is USD 100 monthly in a small group or USD 150 monthly one to one.
 
-# 11 plus maths tuition in Essex
-
-The headteachers of the CSSE schools once wrote down, in a short document still linked from the consortium's own website, the qualities they hope the 11+ will find. Most are what you would expect: curiosity, perseverance, "understanding of all concepts taught at primary school". Two are about maths, and one of those is unusual: "appreciation of numerical conventions". It is a phrase worth unpacking. Conventions are the agreed ways maths is written: what 3² means and why it is not 6, where the comma goes in 405,090, why area is in cm² and volume in cm³. They are small, they are in the Year 5 curriculum, and a child who is shaky on them loses marks on questions they otherwise understand. This page sets out the two Essex tests, the CSSE test for Colchester and Chelmsford's grammar schools and the separate test at Chelmsford County High School for Girls, and then teaches the conventions.
-
-At a glance: CSSE schools in Essex: CRGS, CCHSG (Colchester), KEGS (Chelmsford); CSSE maths: A sixty-minute paper, half the total; CSSE date: September of Year 6; CCHS test: FSCE, its own test; CCHS date: Early September of Year 6; Content: Key Stage 2, up to Year 5; Calculators: Not allowed in either; We teach: Year 5 maths, conventions included. Rated 4.9 across 547 Google reviews.
+Starting points in Essex
 
 ## Three courses for the Essex tests
 
 Choose by whether your child's errors are about ideas or about how maths is written down.
 
-- [Essex 11 plus maths](/courses/11-plus-maths-preparation-course-uk): Key Stage 2 to Year 5, with the notation and conventions that cost careless marks.
-- [Squares, cubes and quick facts](/courses/mental-maths-mastery-kids): Square numbers to 144 and small cubes known instantly, for a paper with no calculator.
-- [Groundwork, Years 1 to 5](/courses/elementary-mathematics-complete-masterclass): For Year 4 children whose place value and tables are not yet secure.
+[![11 Plus Maths Prep course thumbnail](/images/eleven-plus-maths.webp)  ESSEX / 1 Essex 11 plus maths Key Stage 2 to Year 5, with the notation and conventions that cost careless marks. Open the syllabus →](/courses/11-plus-maths-preparation-course-uk)[![Mental Maths for Kids course thumbnail](/images/mental-maths-kids.webp)  ESSEX / 2 Squares, cubes and quick facts Square numbers to 144 and small cubes known instantly, for a paper with no calculator. Open the syllabus →](/courses/mental-maths-mastery-kids)[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  ESSEX / 3 Groundwork, Years 1 to 5 For Year 4 children whose place value and tables are not yet secure. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)
+
+Two Essex tests
 
 ## The CSSE test, and the CCHS test
 
 Essex County Council's admissions page returned an error to our reader, so this page relies on the CSSE and on Chelmsford County High School for Girls. Both read on 26 September 2026.
 
-**The two Essex selective tests for September 2027 entry**
-
-|  | CSSE 11+ | Chelmsford County High School for Girls |
-|---|---|---|
+|   | CSSE 11+ | Chelmsford County High School for Girls |
+| --- | --- | --- |
 | Schools | CRGS, CCHSG, KEGS in Essex; seven more in Southend | CCHS only |
 | Provider | Set by the consortium | Future Stories Community Enterprise (FSCE) |
 | Maths | A sixty-minute Mathematics paper, 50% of the total | Maths may be among the subjects tested |
@@ -47,7 +41,9 @@ Chelmsford County High School for Girls describes itself as "a selective, non-de
 
 The school's arrangements say papers other than Creativity are marked and age-standardised, a qualifying standard is agreed, and then Creativity is judged by trained staff. Places after that are for each school to explain, and we leave them to their own documents.
 
-Sources: [CSSE](https://csse.org.uk/), home page, 11+ Information Guide, Selective Test 2027 Entry, and "Preparing for the 11+" (October 2016); [Chelmsford County High School for Girls, Admission to Year 7 September 2027](https://www.cchs.co.uk/admissions/admission-to-year-7-september-2027/), its admissions arrangements and FSCE guide. Essex County Council's admissions page returned HTTP 403. Modern Age Coders has no connection with the CSSE, FSCE, the council or any Essex school.
+Sources: [CSSE](https://csse.org.uk/), home page, *11+ Information Guide, Selective Test 2027 Entry*, and "Preparing for the 11+" (October 2016); [Chelmsford County High School for Girls, Admission to Year 7 September 2027](https://www.cchs.co.uk/admissions/admission-to-year-7-september-2027/), its admissions arrangements and FSCE guide. Essex County Council's admissions page returned HTTP 403. Modern Age Coders has no connection with the CSSE, FSCE, the council or any Essex school.
+
+What the heads look for
 
 ## A headteachers' list, and what it says about maths
 
@@ -67,14 +63,14 @@ We take that seriously. What we offer is not coaching to a paper but teaching of
 
 The note also contains score guidance and statistics from 2016. We do not repeat them: they are ten years old, the CSSE sets cut-offs from each year's results, and quoting old numbers as if they were targets would mislead.
 
+The lesson
+
 ## Numerical conventions in Year 5: squares, cubes and units
 
 The Year 5 curriculum asks children to "recognise and use square numbers and cube numbers, and the notation for squared (²) and cubed (³)". Around that sit other conventions worth securing.
 
-**Conventions Year 5 children meet, with questions of our own**
-
 | Convention | Our question | Answer and the point |
-|---|---|---|
+| --- | --- | --- |
 | Squared | What is 3²? Is it 6 or 9? | 9: 3 × 3, not 3 × 2 |
 | Cubed | What is 2³? | 8: 2 × 2 × 2. Writing 6 means reading ³ as × 3 |
 | Square numbers | Which of 36, 48 and 64 are square numbers? | 36 and 64: 6² and 8² |
@@ -91,6 +87,8 @@ Squares and cubes also link to the rest of Year 5. Square numbers have an odd nu
 We teach conventions a little every week rather than in one lesson. Each set of practice questions includes one or two where the notation or the unit matters, so the habit of reading symbols carefully becomes automatic.
 
 Source: [national curriculum in England, mathematics](https://www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study/national-curriculum-in-england-mathematics-programmes-of-study), Year 5 multiplication and division, and measurement (statutory requirements and guidance). The questions are written by Modern Age Coders.
+
+Our approach
 
 ## Teaching, not coaching
 
@@ -116,14 +114,14 @@ FSCE's guide says the types of questions, subjects, content and format change fr
 
 We give no advice on the choice between schools, priority areas, or places. The schools and the council publish those rules.
 
+Colchester, Chelmsford and beyond
+
 ## Four Essex schools, two tests, one online lesson
 
 The CSSE names its Essex schools, and CCHS runs its own test. We list them only to show what this page covers.
 
-**Essex selective schools covered by this page**
-
 | School | Test used |
-|---|---|
+| --- | --- |
 | Colchester Royal Grammar School | CSSE 11+ |
 | Colchester County High School for Girls | CSSE 11+ |
 | King Edward VI Grammar School, Chelmsford | CSSE 11+ |
@@ -137,14 +135,14 @@ Lessons are live on video, in groups of fifteen to twenty matched by level, so a
 
 We have no connection with the CSSE, FSCE, Essex County Council or any of these schools.
 
+Towards September 2027
+
 ## Four stages for an Essex test
 
 For a child now in Year 5, both tests should fall in September 2027; the CSSE and CCHS will publish exact dates.
 
-**Understanding first, then speed, then stamina**
-
 | When | Stage | You will notice |
-|---|---|---|
+| --- | --- | --- |
 | Autumn, Year 5 | 1. Number and notation | Squares, cubes and large numbers written and read correctly |
 | Winter, Year 5 | 2. Operations and fractions | No-calculator methods fast and accurate |
 | Spring and summer, Year 5 | 3. Measures and shape | Units always right: cm, cm², cm³ |
@@ -153,71 +151,321 @@ For a child now in Year 5, both tests should fall in September 2027; the CSSE an
 ### Starting later
 
 A late start still helps if the order holds: understanding before speed.
+
 We will say honestly at the free lesson what the time allows.
 
 ### After the tests
 
 Notation is the language of secondary maths. Many children continue with [maths through coding](/courses/maths-through-coding), where symbols must be exactly right for a program to run.
+
 Some go on to the challenges on our [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar).
+
+Our courses
 
 ## Maths and coding for Essex families
 
 Grouped by stage, each linked to its syllabus.
 
+I
+
 ### For the Essex tests
 
 Years 3 to 5
 
-- [11 plus maths for Essex](/courses/11-plus-maths-preparation-course-uk): Key Stage 2 to Year 5, conventions included.
-- [Quick-recall mental maths](/courses/mental-maths-mastery-kids): Squares, cubes and tables on demand.
-- [Foundations of primary maths](/courses/elementary-mathematics-complete-masterclass): Earlier years, made secure.
-- [Abacus calculation](/courses/abacus-mental-maths-course-for-kids): Number sense for younger children.
+EXM / A
+
+#### 11 plus maths for Essex
+
+Key Stage 2 to Year 5, conventions included.
+
+[Open the syllabus](/courses/11-plus-maths-preparation-course-uk)
+
+EXM / B
+
+#### Quick-recall mental maths
+
+Squares, cubes and tables on demand.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+EXM / C
+
+#### Foundations of primary maths
+
+Earlier years, made secure.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+EXM / D
+
+#### Abacus calculation
+
+Number sense for younger children.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)II
 
 ### Secondary
 
 Year 6 on
 
-- [Years 6 to 8 maths](/courses/comprehensive-middle-school-mathematics-mastery): Indices, algebra and geometry.
-- [GCSE mathematics](/courses/gcse-mathematics-mastery): Foundation and higher, all boards.
-- [Maths olympiad preparation](/courses/olympiad-competition-mathematics-mastery): Non-routine problems for keen minds.
+EXM / E
+
+#### Years 6 to 8 maths
+
+Indices, algebra and geometry.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+EXM / F
+
+#### GCSE mathematics
+
+Foundation and higher, all boards.
+
+[Open the syllabus](/courses/gcse-mathematics-mastery)
+
+EXM / G
+
+#### Maths olympiad preparation
+
+Non-routine problems for keen minds.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)III
 
 ### Coding
 
 Precise notation in code
 
-- [Maths through coding](/courses/maths-through-coding): Exponents and units in Python.
-- [Scratch programming](/courses/scratch-programming-complete-course): Logic for younger coders.
-- [Python with AI, for children](/courses/python-ai-kids-masterclass): The first typed language.
+EXM / H
+
+#### Maths through coding
+
+Exponents and units in Python.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+EXM / I
+
+#### Scratch programming
+
+Logic for younger coders.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)
+
+EXM / J
+
+#### Python with AI, for children
+
+The first typed language.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)IV
 
 ### Beyond
 
 Teenagers
 
-- [Vedic speed maths](/courses/vedic-maths-course-speed-calculation-mastery): Shortcuts for fluent calculators.
-- [AI and ML for teenagers](/courses/ai-ml-masterclass-teens): Mathematics behind modern tools.
+EXM / K
+
+#### Vedic speed maths
+
+Shortcuts for fluent calculators.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
+
+EXM / L
+
+#### AI and ML for teenagers
+
+Mathematics behind modern tools.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+Timing
 
 ## Scheduled around an Essex school day
 
 We teach live from India. Primary lessons sit in the early evening or on weekend mornings by UK time, and our teachers move their hours when the UK clocks change.
 
-- **Early weekday evenings** Soon after the school day.
-- **Weekend mornings** When children are freshest.
-- **School holidays** Short, extra sessions.
+Early weekday evenings
 
-- **One teacher all year** Who knows your child's habits by the second week.
-- **Honest reporting** A few frank lines after lessons.
-- **Fifteen to twenty children** Grouped by level.
-- **Original material** No CSSE or FSCE content copied.
-- **Private lessons** When one child needs focused help.
-- **Maths only** No English or creativity coaching; no admissions advice.
+Soon after the school day.
+
+Weekend mornings
+
+When children are freshest.
+
+School holidays
+
+Short, extra sessions.
+
+### One teacher all year
+
+Who knows your child's habits by the second week.
+
+### Honest reporting
+
+A few frank lines after lessons.
+
+### Fifteen to twenty children
+
+Grouped by level.
+
+### Original material
+
+No CSSE or FSCE content copied.
+
+### Private lessons
+
+When one child needs focused help.
+
+### Maths only
+
+No English or creativity coaching; no admissions advice.
+
+Student work
+
+## Where our students take their maths
+
+Four projects built by students at our school, grounded in the primary maths they once learned. More on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 One US dollar rate per month for every family outside India. Nothing to join, cancel whenever you like.
 
-- Free first class: USD 0. A taught lesson. An honest verdict. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty children at one level. A regular teacher. Work reviewed with the child. A certificate at the end.
-- One to one: USD 150 a month. A teacher for one child. Aimed at weak spots. Flexible timing.
+Free first class
+
+USD 0
+
+no card required
+
+- A taught lesson
+- An honest verdict
+- No card needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty children at one level
+- A regular teacher
+- Work reviewed with the child
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one child
+- Aimed at weak spots
+- Flexible timing
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+What parents wrote on Google, reproduced exactly.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Essex questions
 
 ## What Essex families ask us
 
@@ -261,15 +509,54 @@ No. The CSSE offers its own free familiarisation papers; we write our own questi
 
 The first lesson is free. After that it is USD 100 a month in a group or USD 150 a month one to one.
 
+Related
+
 ## More for Essex families
 
-- [11 plus maths in Southend](/11-plus-maths-tuition-southend): The seven Southend schools using the CSSE test.
-- [Coding classes in Colchester](/best-coding-class-in-colchester): Programming for Colchester children.
-- [Coding classes in Chelmsford](/best-coding-class-in-chelmsford): Programming for Chelmsford children.
-- [11 plus maths tuition](/11-plus-maths-tuition): Our general 11 plus maths page.
-- [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar): Dated maths challenges.
-- [All our UK pages](/coding-classes-in-united-kingdom): Every UK area covered.
+The Southend CSSE schools, coding in Essex towns, and our national page.
 
-## Contact
+### [11 plus maths in Southend](/11-plus-maths-tuition-southend)
 
-Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-essex](https://learn.modernagecoders.com/11-plus-maths-tuition-essex#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The seven Southend schools using the CSSE test.
+
+### [Coding classes in Colchester](/best-coding-class-in-colchester)
+
+Programming for Colchester children.
+
+### [Coding classes in Chelmsford](/best-coding-class-in-chelmsford)
+
+Programming for Chelmsford children.
+
+### [11 plus maths tuition](/11-plus-maths-tuition)
+
+Our general 11 plus maths page.
+
+### [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar)
+
+Dated maths challenges.
+
+### [All our UK pages](/coding-classes-in-united-kingdom)
+
+Every UK area covered.
+
+Start here
+
+## Book a free lesson for your child
+
+Tell us the year group and which test you are thinking about. We teach a real lesson, then give you a plain account of what we saw.
+
+Reading first? The [course pages](/courses) hold every syllabus, [how we teach](/how-we-teach) describes a lesson, and the [roadmap](/coding-roadmap) shows the route onward.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20my%20child%20for%20the%20Essex%2011%20plus.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is the quickest route. We are an Indian school with an Indian number, and we have no premises in Essex.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-essex*

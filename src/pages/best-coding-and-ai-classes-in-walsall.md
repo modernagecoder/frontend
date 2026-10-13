@@ -4,46 +4,32 @@ description: "Online coding, AI, Python and vibe coding classes for Walsall, Blo
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-walsall
 source: src/pages/best-coding-and-ai-classes-in-walsall.html
 ---
-> Walsall borough had 284,124 usual residents at the 2021 census. The ONS puts 70,775 in the Walsall built-up area itself, 51,875 in Bloxwich and 49,580 in Willenhall, with Brownhills, Aldridge and Pelsall also listed separately. Learners there, aged anywhere from 6 to 67, can take coding, AI, Python, vibe coding and maths with us live on video, taught from India in private lessons or in a group of fifteen to twenty at the same stage. Before any AI tool, we teach learners how to think, so they can question what a tool gives them. The first lesson is free and closes with a course recommendation. For Walsall the project turns an old history of Willenhall into word embeddings, the number lists AI uses for meaning. After the free lesson, a group place costs USD 100 a month and private lessons USD 150 a month.
+> Online coding, AI, Python and vibe coding classes for Walsall, Bloxwich, Willenhall and Aldridge learners aged 6 to 67, taught live online. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [West Midlands region](/coding-and-ai-classes-in-west-midlands-region) / Walsall
-
-Walsall, West Midlands, England / Live online
-
-# Coding and AI classes in Walsall
-
-**Where can Walsall learners find the best coding and AI classes?** Walsall borough had 284,124 usual residents at the 2021 census. The ONS puts 70,775 in the Walsall built-up area itself, 51,875 in Bloxwich and 49,580 in Willenhall, with Brownhills, Aldridge and Pelsall also listed separately. Learners there, aged anywhere from 6 to 67, can take coding, AI, Python, vibe coding and maths with us live on video, taught from India in private lessons or in a group of fifteen to twenty at the same stage. Before any AI tool, we teach learners how to think, so they can question what a tool gives them. The first lesson is free and closes with a course recommendation. For Walsall the project turns an old history of Willenhall into word embeddings, the number lists AI uses for meaning. After the free lesson, a group place costs USD 100 a month and private lessons USD 150 a month.
-
-Frederick Hackwood's Annals of Willenhall, free on Project Gutenberg in its 1908 edition, calls Willenhall "the town of locks and keys". It also records a patent, "James Carpenter, of Willenhall", and "the Carpenter and Young invention of 1830". Those two details turn out to matter to a computer. Modern AI does not store words as words: it turns each one into a long list of numbers, called an embedding, placed so that words used in similar ways sit close together. This project builds simple embeddings from Hackwood's book in Python, asks which words land nearest to "lock", and discovers what a model learns when all it has is one town's history.
-
-Facts last verified 28 September 2026. Teaching is online; no Walsall branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentWalsall course picks
 
 ## Courses for thinking, vibe coding and AI in Walsall
 
 Choose by age and by what the learner enjoys. A free live lesson opens every course, and booking asks for no card.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think programme: word puzzles, grouping, and saying exactly why two things belong together.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch first, then small apps described to an AI and tested by the young coder.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects, including building word embeddings from a real book.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): Embeddings, retrieval, language models and AI agents, from the ground up.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think programme: word puzzles, grouping, and saying exactly why two things belong together.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch first, then small apps described to an AI and tested by the young coder.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensPython, web and AI projects, including building word embeddings from a real book.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseEmbeddings, retrieval, language models and AI agents, from the ground up.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Walsall borough
 
 ## Walsall, Bloxwich, Willenhall and nearby towns
 
 ONS 2021 census populations for built-up areas that sit inside Walsall borough.
 
-**Built-up areas within Walsall borough, ONS 2021 published populations**
-
 | Built-up area | People (2021) |
-|---|---|
+| --- | --- |
 | Walsall | 70,775 |
 | Bloxwich | 51,875 |
 | Willenhall | 49,580 |
@@ -58,26 +44,24 @@ We print each area as the ONS released it and leave the column unadded, since th
 
 For the whole county see [coding classes in the West Midlands](/coding-classes-in-the-west-midlands), and for the region [our West Midlands region page](/coding-and-ai-classes-in-west-midlands-region). Our case for reasoning before prompting is on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Walsall project
+
 ## Word embeddings from the Annals of Willenhall
 
 Count which words appear together, turn the counts into vectors, then ask what sits nearest to "lock".
 
 The learner strips the Project Gutenberg header and footer, lowercases the text, keeps only letters and drops single letters. That leaves 59,238 words, 8,224 of them different, of which 745 appear ten or more times; those 745 form the vocabulary. For every vocabulary word the program counts which other vocabulary words appear within four places of it. Each word is now a row of co-occurrence counts, a first, crude embedding, and two words can be compared by the angle between their rows, a measure called cosine similarity that runs from 0 for nothing in common up to 1.
 
-**Nearest words by raw co-occurrence counts, our Python run on the Annals of Willenhall, 28 September 2026**
-
 | Word | Six nearest neighbours |
-|---|---|
+| --- | --- |
 | lock | year, of, was, however, at, last |
 | church | in, and, for, which, by, being |
 | walsall | town, one, in, two, and |
 
 The raw counts produce nonsense, and the reason is frequency. Words such as "the", "of" and "and" appear next to almost everything, so they dominate every row and make every word look like every other. The fix is a weighting called positive pointwise mutual information, PPMI for short, which asks whether two words appear together more often than their separate frequencies would predict, and keeps only the pairs that do. With PPMI weighting the neighbours change completely.
 
-**Nearest words after PPMI weighting, with cosine similarity for "lock", same text and run**
-
 | Word | Nearest neighbours |
-|---|---|
+| --- | --- |
 | lock | making 0.342, carpenter 0.279, young 0.262, keys 0.255, not 0.246, key 0.242 |
 | locks | industry, key, trade, are, keys, various |
 | iron | brass, founder, master, key, lock, patent |
@@ -85,10 +69,8 @@ The raw counts produce nonsense, and the reason is frequency. Words such as "the
 
 Most of that looks sensible, yet two neighbours of "lock" deserve a second look. "Carpenter" is not about woodwork: it is James Carpenter, whose name appears within four words of "lock" five times in the book. "Young" is not about age either. Because the text was lowercased, the surname in "the Carpenter and Young invention" was merged with the ordinary word "young". The model has no way to tell a name from a meaning; it only knows which words keep company. A learner who spots this has found, in miniature, why AI systems sometimes link things for reasons nobody intended.
 
-**Test: how many of the five nearest neighbours of 13 town names are also town names (65 places)**
-
 | Method | Town neighbours found | Of which "willenhall" or "wolverhampton" |
-|---|---|---|
+| --- | --- | --- |
 | Raw counts | 15 of 65 | 11 |
 | PPMI weighting | 14 of 65 | 3 |
 
@@ -110,14 +92,14 @@ Build PPMI vectors, rank neighbours by cosine and design a fair test of the resu
 
 The book is the Project Gutenberg transcription of The Annals of Willenhall by Frederick Wm. Hackwood. The word counts, the embeddings, the similarity scores and the town test are our own work.
 
+From word counts to AI
+
 ## What this teaches about vibe coding and AI agents
 
 Big systems use far better embeddings, and meet the same questions.
 
-**The Walsall embeddings beside modern AI**
-
 | Our small embeddings | Embeddings in modern AI |
-|---|---|
+| --- | --- |
 | Learned from one 1908 book | Learned from enormous amounts of text |
 | Counts of nearby words, reweighted | Learned by training a neural network |
 | Merged a surname with the word "young" | Can still link things for unintended reasons |
@@ -128,14 +110,37 @@ Embeddings sit behind a great deal of everyday AI. When an AI agent searches you
 
 Modern Age Coders is independent of Project Gutenberg and the Office for National Statistics. The book and the census counts come from them; the embeddings, and any errors in them, come from us.
 
+Stages
+
 ## From word games to embeddings
 
 School year gives us a first idea; the free lesson decides where the learner begins.
 
-- **Years 2 to 7: How to think** Grouping, word logic and explaining a pattern clearly. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Games and small apps built with AI help, each tested by the learner. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python and AI** Text, data and embeddings next to GCSE and A level study. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **Adults: Retrieval and agents** Embeddings, search, language models and agents, built in Python. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Years 2 to 7
+
+### How to think
+
+Grouping, word logic and explaining a pattern clearly.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Games and small apps built with AI help, each tested by the learner.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python and AI
+
+Text, data and embeddings next to GCSE and A level study.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)Adults
+
+### Retrieval and agents
+
+Embeddings, search, language models and agents, built in Python.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)AI and meaning
 
 ## Does an AI understand what a word means?
 
@@ -147,30 +152,139 @@ A learner who has watched "young" end up next to "lock" asks a useful question o
 
 A Walsall teenager who knows how words become numbers will use AI tools with far more judgement, and that is a strong reason to learn to code in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Brownhills to Willenhall, all online
 
 A computer and a reliable connection are all a Walsall household needs.
 
-- **Hands on the keyboard** Learners write, prompt and run their own programs, with the tutor following their screen and asking questions as they go.
-- **Started at the right level** Whether in Year 4 or Year 12, a learner starts where the trial lesson shows they should, with any exam board noted.
-- **Free to try** The first lesson costs nothing and ends with a suggested course.
-- **Matched groups** Fifteen to twenty UK learners at about the same point share a class.
-- **Two lessons weekly** No lessons in the school holidays.
-- **Times that hold** Tutors adjust when UK clocks change, so the lesson hour does not move.
+### Hands on the keyboard
 
-**Why lessons run online** Five learners at one stage, all free at the same hour, rarely live on the same side of a borough. Online they can share a lesson wherever they are.
+Learners write, prompt and run their own programs, with the tutor following their screen and asking questions as they go.
+
+### Started at the right level
+
+Whether in Year 4 or Year 12, a learner starts where the trial lesson shows they should, with any exam board noted.
+
+### Free to try
+
+The first lesson costs nothing and ends with a suggested course.
+
+### Matched groups
+
+Five to ten UK learners at about the same point share a class.
+
+### Two lessons weekly
+
+No lessons in the school holidays.
+
+### Times that hold
+
+Tutors adjust when UK clocks change, so the lesson hour does not move.
+
+Why lessons run online
+
+Five learners at one stage, all free at the same hour, rarely live on the same side of a borough. Online they can share a lesson wherever they are.
+
+Fees
 
 ## Walsall fees
 
 Walsall is charged our international rate, which applies in every country except India.
 
-- First class: USD 0. A full opening lesson free of charge, then a course suggestion.
-- Group tuition: USD 100 a month. Around eight live small-group lessons each month.
-- Private tuition: USD 150 a month. Around eight live one-to-one lessons each month.
+First class**USD 0**
+
+A full opening lesson free of charge, then a course suggestion.
+
+Group tuition**USD 100**
+
+Around eight live small-group lessons each month.
+
+Private tuition**USD 150**
+
+Around eight live one-to-one lessons each month.
 
 Our fees are set in US dollars, not pounds. You are invoiced only after the free lesson has fixed a course and a weekly slot, and the pricing page explains breaks, absences and changing format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20may%20we%20book%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Walsall%3F)Reviews
+
+## Google reviews from West Midlands families and others around the UK
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Walsall lesson
+
+Tell us the learner's age or school year and anything they are keen on. First-lesson options include word and logic puzzles, a Scratch game made with AI help, a first Python program, or a small text project.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Walsall one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20may%20we%20book%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Walsall%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Walsall questions
+
+The embeddings project, vibe coding, AI agents and practical details.
 
 ### What is the population of Walsall?
 
@@ -212,10 +326,14 @@ Lesson one is free. After it, groups are USD 100 per month and one-to-one lesson
 
 No, lessons stop for them. Just tell us the dates.
 
+Nearby
+
 ## More pages across the West Midlands
 
 Neighbouring [Wolverhampton](/best-coding-class-in-wolverhampton) and [West Bromwich](/vibe-coding-and-ai-agents-classes-in-west-bromwich) each have a page with a different project, and families aiming at grammar school places can see [11 plus maths tuition for Wolverhampton and Walsall](/11-plus-maths-tuition-wolverhampton-and-walsall). [Birmingham](/coding-classes-in-birmingham) is covered too, and our [United Kingdom hub](/coding-classes-in-united-kingdom) links to every other area.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20may%20we%20book%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Walsall%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-and-ai-classes-in-walsall](https://learn.modernagecoders.com/best-coding-and-ai-classes-in-walsall#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-walsall*

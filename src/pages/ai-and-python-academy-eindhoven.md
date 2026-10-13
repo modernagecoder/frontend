@@ -4,25 +4,21 @@ description: "Eindhoven builds AI that has to move: soccer robots, drones and ca
 canonical: https://learn.modernagecoders.com/ai-and-python-academy-eindhoven
 source: src/pages/ai-and-python-academy-eindhoven.html
 ---
-> Modern Age Coders runs a live online AI and Python track for learners in Eindhoven aged six to sixty-seven: Python typed by hand, then data, then models with a measured error, then agents. Because Eindhoven's AI is so often AI in machines, the track keeps three real-world problems in view throughout: training data that has to be made, systems that drift and must recalibrate, and the gap between a simulation and reality. Teaching is in English, in groups of fifteen to twenty or one to one. The first lesson is free; after that a group place is USD 100 a month and one-to-one tuition USD 150.
+> Eindhoven builds AI that has to move: soccer robots, drones and cars. Learn the Python, data and models behind it, live online for ages 6 to 67. First lesson free.
 
-[Home](/) / [Courses](/courses) / [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands) / Eindhoven
+In short
 
-Eindhoven · Live online · Ages 6 to 67
+Modern Age Coders runs a live online AI and Python track for learners in Eindhoven aged six to sixty-seven: Python typed by hand, then data, then models with a measured error, then agents. Because Eindhoven's AI is so often AI in machines, the track keeps three real-world problems in view throughout: training data that has to be made, systems that drift and must recalibrate, and the gap between a simulation and reality. Teaching is in English, in groups of fifteen to twenty or one to one. The first lesson is free; after that a group place is USD 100 a month and one-to-one tuition USD 150.
 
-# AI and Python classes in Eindhoven, for AI that has to move
-
-Most AI that people meet lives on a screen: a chatbot, a recommendation, a filter. Eindhoven builds the other kind. Its university's AI institute studies data and algorithms inside machines, robots, autonomous cars and medical equipment, and its student teams build autonomous drones, race cars and the soccer robots that have won eight world titles in RoboCup's Middle Size League. AI in a machine meets problems a chatbot never does. Its training images may have to be manufactured. Its sensors drift after a collision in the middle of a match. And the simulator it learned in is never quite the pitch it plays on. This page teaches the Python, data and models underneath that kind of AI, with those problems in view from the first rung, live online for learners in Eindhoven.
-
-At a glance: Learners: Eindhoven, ages 6 to 67; Focus: Python, vision, models, agents; Angle: AI that works outside the screen; Format: Live video, one teacher, no recordings; Group: 15 to 20 at one level, or one to one; Times: Dutch afternoons, evenings and weekends; Language: English; First class: Free, no card. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three courses for an Eindhoven learner heading towards AI in machines
 
 One for a child who wants to make things move on screen, one for a teenager ready to train an image model, one for the student or engineer who needs deep learning done properly. Each card opens its own syllabus and timetable.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass): Python's turtle module is the gentlest robot there is: a child types commands, a turtle moves, and a mistake shows up at once as a wrong line on the screen.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens): From Python to neural networks and image models, with a teenager testing what they trained on photos taken in different light, the same test a robot faces.
-- [AI and Machine Learning Masterclass](/courses/ai-ml-masterclass-complete-college): Deep learning, careful evaluation and deployment for students and engineers whose models will run on hardware, not only in a notebook.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  EHV / 01 Python and AI for Kids Python's turtle module is the gentlest robot there is: a child types commands, a turtle moves, and a mistake shows up at once as a wrong line on the screen. Open the syllabus →](/courses/python-ai-kids-masterclass)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)  EHV / 02 AI and Machine Learning for Teens From Python to neural networks and image models, with a teenager testing what they trained on photos taken in different light, the same test a robot faces. Open the syllabus →](/courses/ai-ml-masterclass-teens)[![AI and ML Masterclass course thumbnail](/images/ai-ml-college.webp)  EHV / 03 AI and Machine Learning Masterclass Deep learning, careful evaluation and deployment for students and engineers whose models will run on hardware, not only in a notebook. Open the syllabus →](/courses/ai-ml-masterclass-complete-college)
+
+AI in machines
 
 ## Eindhoven builds AI that has to move
 
@@ -36,10 +32,8 @@ Then there are the student teams, which TU/e lists on its own site: 21 of them a
 
 And **Tech United**, which represents TU/e in RoboCup. Its soccer robots have become world champions eight times in the **Middle Size League**. In July 2024 RoboCup came to Eindhoven itself: three hundred teams from forty countries across five leagues, including RoboCupJunior for school pupils, and Tech United won the final 6-1 against **BigHeroX**.
 
-**Where AI meets hardware at TU/e, from the university's and the team's own pages**
-
 | What | Published detail | The kind of AI it involves |
-|---|---|---|
+| --- | --- | --- |
 | EAISI | Central AI hub; 300 academic staff, 600 PhD candidates | Data and algorithms in robots, cars and medical equipment |
 | AI and Engineering Systems master | Two years, 120 EC, seven departments, 40+ research groups | AI methods combined with engineering systems |
 | Tech United | Middle Size League since 2006; 14 world finals, 8 titles | Vision, a world model, strategy and motion, in real time |
@@ -48,6 +42,8 @@ And **Tech United**, which represents TU/e in RoboCup. Its soccer robots have be
 | Team Daedalus | Solar-powered autonomous drone for long flights | Autonomy with a tight energy budget |
 
 Sources: [TU/e, EAISI](https://www.tue.nl/en/research/institutes/eindhoven-artificial-intelligence-systems-institute); [TU/e, Master Artificial Intelligence and Engineering Systems](https://www.tue.nl/en/education/graduate-school/master-artificial-intelligence-and-engineering-systems); [TU/e, Explore TU/e Student Teams](https://www.tue.nl/en/our-university/student-teams/student-teams/explore-tue-student-teams); [TU/e news, 21 July 2024](https://www.tue.nl/en/news-and-events/news-overview/21-07-2024-tech-united-becomes-robot-soccer-world-champion-in-eindhoven). Read 11 September 2026. We have no connection with TU/e, EAISI or any student team.
+
+Three problems
 
 ## What a soccer robot has to solve that a chatbot never meets
 
@@ -65,10 +61,8 @@ Ball detection depends on the lighting, and collisions, which still happen often
 
 The team is building a four-legged goalkeeper from an MIT **Mini Cheetah**, trained with hierarchical reinforcement learning in simulation, with masses, frictions and forces randomised so that the policy would transfer to the real robot. It did transfer, but a delay in fetching camera images and the remaining gap between simulation and reality meant it covered **23 percent** of the goal area with a side-step skill. The next step is retraining on the real hardware. Every model trained in a simulator meets that gap sooner or later.
 
-**The four software modules of a TURTLE, and what each teaches a learner**
-
 | Module | What it does on the robot | What a learner practises |
-|---|---|---|
+| --- | --- | --- |
 | Vision | Finds the ball, the robots and the field in camera images | Image data, detection models, testing in bad light |
 | Worldmodel | Combines what each robot sees into one picture of the match | Keeping state, merging noisy measurements |
 | Strategy | Decides what the team does next | Rules, planning and agents that choose actions |
@@ -79,6 +73,8 @@ The modules exchange information through a real-time database, and the order mat
 The team also says which mistake it fears more. In robot soccer, it writes, precision matters more than recall, because a false positive, such as seeing a background object as the ball, leads straight to a wrong decision. Choosing which error to accept is an engineering decision, and it depends on what the machine does next.
 
 Source: [Tech United Eindhoven Team Description 2025](https://msl.robocup.org/wp-content/uploads/2025/03/TDP_TechUnited_2025.pdf) (robot platform, software modules, synthetic data generation, automatic calibration, Mini Cheetah goalkeeper), read 11 September 2026. The lessons drawn for learners are ours, not the team's.
+
+At a learner's size
 
 ## The same three problems, at a size a learner can build
 
@@ -92,14 +88,14 @@ Adults in Eindhoven often meet the same problems at work under other names: a mo
 
 For the city's schools, neighbourhoods and figures, see [coding classes in Eindhoven](/coding-classes-in-eindhoven); for the towns around it, [Helmond](/coding-classes-in-helmond) and [Noord-Brabant](/coding-classes-in-noord-brabant). The [national academy page](/ai-and-python-academy-netherlands) covers the country as a whole.
 
+The five rungs
+
 ## From a turtle on the screen to a model that survives the real world
 
 The rungs come in a fixed order because each supplies what the next needs. A learner who has never cleaned data cannot judge a vision model, and one who has never measured an error cannot tell whether a simulation was good enough.
 
-**The five rungs for an Eindhoven learner, with the machine-world problem met at each**
-
 | Rung | Usually | What the learner builds |
-|---|---|---|
+| --- | --- | --- |
 | 1. Python by hand | Groep 6 to 8, or any adult beginner | Programs from an empty file, starting with a turtle that moves and turns |
 | 2. Data | Brugklas to the third year | Real measurements, cleaned and plotted, with noise and gaps noticed |
 | 3. Models | Havo 4 to vwo 6, students, engineers | Image and prediction models, tested in conditions they were not trained on |
@@ -109,65 +105,309 @@ The rungs come in a fixed order because each supplies what the next needs. A lea
 ### Why the real world arrives early
 
 Meeting noisy data and drifting conditions on rung 2 saves a great deal of disappointment on rung 3. A learner who expects the world to differ from the training set tests for it; one who does not is surprised by every deployment.
+
 The wider order we teach in, subject by subject, is on the [coding roadmap](/coding-roadmap).
 
 ### Where it fits the Eindhoven school year
 
 Rung 1 fits the last years of the basisschool, kept light around the doorstroomtoets. The profielkeuze year is the moment to try rung 2, especially for a pupil weighing the Nature and Technology profile and a technical degree.
+
 Engineers and students usually start at rung 3 and take it one to one, around project deadlines.
+
+The catalogue
 
 ## Eleven live courses for Eindhoven learners, chosen by ability
 
 Grouped by stage of life. Every card opens the full course with schedule and fee, and the free lesson decides the starting point.
 
+I
+
 ### Children, groep 3 to 8
 
 Code that makes things move, and a clear idea of what AI is
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass): Typed Python for ages nine to twelve: turtle drawings, small games and a first program that learns from examples.
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course): Games built from blocks for the youngest learners, with sprites that sense the edge of the stage and react to it.
-- [AI Literacy for Kids](/courses/ai-literacy-for-kids-course): How AI systems work, why they get things wrong, and how a child can tell a confident answer from a correct one.
+EHV / KIDS / 01
+
+#### Python and AI for Kids
+
+Typed Python for ages nine to twelve: turtle drawings, small games and a first program that learns from examples.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)
+
+EHV / KIDS / 02
+
+#### Scratch Coding for Kids
+
+Games built from blocks for the youngest learners, with sprites that sense the edge of the stage and react to it.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)
+
+EHV / KIDS / 03
+
+#### AI Literacy for Kids
+
+How AI systems work, why they get things wrong, and how a child can tell a confident answer from a correct one.
+
+[Open the syllabus](/courses/ai-literacy-for-kids-course)II
 
 ### Teenagers, havo and vwo
 
 From Python to vision models, tested against the real world
 
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens): Statistics, classical models, neural networks and image recognition, each project tested outside the conditions it was trained in.
-- [Python for Teens](/courses/python-complete-masterclass-teens): The two-year foundation in Python, for a teenager who wants to build machines that think one day and needs solid code first.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data): Measurements, noise and missing values handled properly, the unglamorous work every sensor-driven system depends on.
-- [Coding Agents: Codex and Claude Code](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens): Working with AI coding agents on real code and checking every change. Students hold their own accounts, within each tool's age limits.
+EHV / TEEN / 01
+
+#### AI and Machine Learning for Teens
+
+Statistics, classical models, neural networks and image recognition, each project tested outside the conditions it was trained in.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+EHV / TEEN / 02
+
+#### Python for Teens
+
+The two-year foundation in Python, for a teenager who wants to build machines that think one day and needs solid code first.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+EHV / TEEN / 03
+
+#### Data Science for Teens
+
+Measurements, noise and missing values handled properly, the unglamorous work every sensor-driven system depends on.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)
+
+EHV / TEEN / 04
+
+#### Coding Agents: Codex and Claude Code
+
+Working with AI coding agents on real code and checking every change. Students hold their own accounts, within each tool's age limits.
+
+[Open the syllabus](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens)III
 
 ### Students, engineers and adults
 
 Deep learning, mathematics and systems that hold up outside the lab
 
-- [AI and Machine Learning Masterclass](/courses/ai-ml-masterclass-complete-college): The complete machine learning route, from classical methods to deep networks, with evaluation and deployment treated as seriously as training.
-- [Maths for Data Science](/courses/data-analytics-mathematics-masterclass): Statistics, linear algebra and the calculus of learning, written as code, for engineers whose maths is rusty or was never applied.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college): Python from the basics to advanced use at adult pace, for engineers moving from other languages or from spreadsheets.
-- [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college): Language models, grounding and agents, with the same attention to limits and failure that physical systems demand.
+EHV / PRO / 01
+
+#### AI and Machine Learning Masterclass
+
+The complete machine learning route, from classical methods to deep networks, with evaluation and deployment treated as seriously as training.
+
+[Open the syllabus](/courses/ai-ml-masterclass-complete-college)
+
+EHV / PRO / 02
+
+#### Maths for Data Science
+
+Statistics, linear algebra and the calculus of learning, written as code, for engineers whose maths is rusty or was never applied.
+
+[Open the syllabus](/courses/data-analytics-mathematics-masterclass)
+
+EHV / PRO / 03
+
+#### Python Masterclass
+
+Python from the basics to advanced use at adult pace, for engineers moving from other languages or from spreadsheets.
+
+[Open the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
+
+EHV / PRO / 04
+
+#### Generative AI: LLMs, RAG and Agents
+
+Language models, grounding and agents, with the same attention to limits and failure that physical systems demand.
+
+[Open the syllabus](/courses/complete-generative-ai-masterclass-college)
+
+How the classes run
 
 ## Eindhoven hours, a teacher in India
 
 The Netherlands switches between CET and CEST and India does not, so the teacher is three and a half hours ahead in summer and four and a half in winter. Late afternoons and weekends are easy, weekday evenings are arranged case by case, and the regular time is agreed during the free lesson.
 
-- **Late afternoon** Eindhoven time, after school. Suits children and younger teenagers; evening in India.
-- **Evening** Eindhoven time, by arrangement. For older pupils, students and engineers after the working day.
-- **Weekend** Saturday or Sunday, Eindhoven time. The easiest slot for adults and for families with busy weeks.
+Late afternoon
 
-- **A free lesson with real work** The learner tackles an actual problem while the teacher watches. That shows the right starting rung better than any placement test.
-- **Fifteen to twenty in a group** Learners from many countries grouped by ability, so a strong Eindhoven pupil is challenged and a newcomer is not rushed.
-- **One to one for engineers** For irregular project hours, a specific technical goal, or anyone who prefers the pace set around them.
-- **Code visible as it is written** Screens are shared both ways, so the teacher catches a misunderstanding while it is still small.
-- **English, as in the lab** Lessons, documentation and error messages are in English. Dutch school terms are used as families use them.
-- **Work kept in a repository** Every lesson ends with committed code in the learner's own GitHub repository, with results and limits written beside it.
+Eindhoven time, after school. Suits children and younger teenagers; evening in India.
+
+Evening
+
+Eindhoven time, by arrangement. For older pupils, students and engineers after the working day.
+
+Weekend
+
+Saturday or Sunday, Eindhoven time. The easiest slot for adults and for families with busy weeks.
+
+### A free lesson with real work
+
+The learner tackles an actual problem while the teacher watches. That shows the right starting rung better than any placement test.
+
+### Fifteen to twenty in a group
+
+Learners from many countries grouped by ability, so a strong Eindhoven pupil is challenged and a newcomer is not rushed.
+
+### One to one for engineers
+
+For irregular project hours, a specific technical goal, or anyone who prefers the pace set around them.
+
+### Code visible as it is written
+
+Screens are shared both ways, so the teacher catches a misunderstanding while it is still small.
+
+### English, as in the lab
+
+Lessons, documentation and error messages are in English. Dutch school terms are used as families use them.
+
+### Work kept in a repository
+
+Every lesson ends with committed code in the learner's own GitHub repository, with results and limits written beside it.
+
+Student work
+
+## Student projects still running
+
+Four projects our students built and left online. Open them, push them, find where they fail; the [student labs](/student-labs) page has more.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Monthly, in US dollars, at the same two rates as every country outside India. Nothing extra for Eindhoven or the Netherlands, no sign-up fee, no annual contract. Copilot Studio courses are private tuition only and use the one-to-one rate.
 
-- Free first class: USD 0. A real lesson, not a sales call. Finds the right rung. No payment details needed.
-- Group batch: USD 100 a month. Fifteen to twenty learners at one level. One live teacher throughout. Projects reviewed every week. Certificate at completion.
-- One to one: USD 150 a month. A teacher for one learner. Pace and focus set by the goal. The format for Copilot Studio courses.
+Free first class
+
+USD 0
+
+no card required
+
+- A real lesson, not a sales call
+- Finds the right rung
+- No payment details needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners at one level
+- One live teacher throughout
+- Projects reviewed every week
+- Certificate at completion
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one learner
+- Pace and focus set by the goal
+- The format for Copilot Studio courses
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Reproduced from Google exactly as posted. We neither write nor edit nor pay for them.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions from Eindhoven
 
 ## What Eindhoven families, students and engineers ask first
 
@@ -211,15 +451,54 @@ From India, live over video. The time difference with Eindhoven is three and a h
 
 We call at a Dutch hour to set up the free lesson. Nothing is charged and no place is held until the family has seen that lesson and chosen.
 
+Elsewhere on this site
+
 ## More pages for Eindhoven and the Netherlands
 
-- [Coding classes in Eindhoven](/coding-classes-in-eindhoven): The city page for general programming, with its districts, schools and figures.
-- [Coding classes in Helmond](/coding-classes-in-helmond): The town east of Eindhoven, with a page of its own.
-- [Coding classes in Noord-Brabant](/coding-classes-in-noord-brabant): Every municipality in the province.
-- [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands): The national academy page, with the school figures and the country's AI plans.
-- [AI and Python Academy, Groningen](/ai-and-python-academy-groningen): The academy page built around a university AI degree.
-- [AI and Python Academy, Amsterdam](/ai-and-python-academy-amsterdam): The academy page built around the public algorithm register.
+This page covers the AI track and one local emphasis. These cover the rest.
 
-## Contact
+### [Coding classes in Eindhoven](/coding-classes-in-eindhoven)
 
-Book the free first class at [https://learn.modernagecoders.com/ai-and-python-academy-eindhoven](https://learn.modernagecoders.com/ai-and-python-academy-eindhoven#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The city page for general programming, with its districts, schools and figures.
+
+### [Coding classes in Helmond](/coding-classes-in-helmond)
+
+The town east of Eindhoven, with a page of its own.
+
+### [Coding classes in Noord-Brabant](/coding-classes-in-noord-brabant)
+
+Every municipality in the province.
+
+### [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands)
+
+The national academy page, with the school figures and the country's AI plans.
+
+### [AI and Python Academy, Groningen](/ai-and-python-academy-groningen)
+
+The academy page built around a university AI degree.
+
+### [AI and Python Academy, Amsterdam](/ai-and-python-academy-amsterdam)
+
+The academy page built around the public algorithm register.
+
+Start here
+
+## Book the free first lesson
+
+Leave a number and we will ring at a Dutch hour. The first session is a real lesson with a real teacher, and at its end we know the learner's starting rung, which matters more than anything else in this subject.
+
+Would rather read first? See the [course catalogue](/courses), [how we teach](/how-we-teach), and why we teach building AI at [Learn to Build AI](/learn-to-build-ai).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20class%20for%20a%20learner%20in%20Eindhoven%2C%20on%20the%20AI%20and%20Python%20track.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is free from the Netherlands and usually quickest. Our number is Indian; there is no office or address of ours in Eindhoven or elsewhere in the country.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-python-academy-eindhoven*

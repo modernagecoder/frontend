@@ -4,46 +4,32 @@ description: "Live online coding, Python, game making and maths classes across D
 canonical: https://learn.modernagecoders.com/coding-classes-in-devon
 source: src/pages/coding-classes-in-devon.html
 ---
-> Devon is ten councils, Plymouth, Torbay and eight districts, with 1,215,659 people at the 2021 Census. Plymouth is the largest place by a long way, then Exeter, the Torbay towns of Paignton and Torquay, and then Exmouth, Barnstaple and Newton Abbot, with market towns and villages across two coasts, Dartmoor and Exmoor. Our lessons reach every one of them in the same way. A teacher based in India teaches live on video; we place learners by skill rather than by age; anyone from 6 to 67 is welcome; groups have fifteen to twenty learners, or you can learn one to one. We teach programming, Python, game making, algorithms and maths. The Devon project is a simulation of a shoal of fish. You pay nothing for the first lesson; after that it is USD 100 a month in a group or USD 150 with a private teacher.
+> Live online coding, Python, game making and maths classes across Devon, from Plymouth, Exeter and Torquay to Exmouth, Barnstaple, Newton Abbot and Tiverton.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Devon
-
-County of Devon / Live online
-
-# Coding classes in Devon
-
-**What are the best coding classes in Devon?** Devon is ten councils, Plymouth, Torbay and eight districts, with 1,215,659 people at the 2021 Census. Plymouth is the largest place by a long way, then Exeter, the Torbay towns of Paignton and Torquay, and then Exmouth, Barnstaple and Newton Abbot, with market towns and villages across two coasts, Dartmoor and Exmoor. Our lessons reach every one of them in the same way. A teacher based in India teaches live on video; we place learners by skill rather than by age; anyone from 6 to 67 is welcome; groups have fifteen to twenty learners, or you can learn one to one. We teach programming, Python, game making, algorithms and maths. The Devon project is a simulation of a shoal of fish. You pay nothing for the first lesson; after that it is USD 100 a month in a group or USD 150 with a private teacher.
-
-Anyone who has watched a shoal in the tanks at the National Marine Aquarium in Plymouth has seen something that looks planned: hundreds of fish turning together as if one mind were steering. In 1986 Craig Reynolds showed that no mind is needed. His computer model gave each simulated creature, which he called a boid, just three rules about its nearest neighbours: do not crowd them, head the way they are heading, and move towards where they are. Put enough boids together and a flock or shoal appears on its own. This page's project builds that model, then does what a scientist would do next: measures the shoal, and switches each rule off to see what it was really doing.
-
-Facts last verified 26 September 2026. Teaching is online; no Devon branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Devon
 
 ## Devon learners often start here
 
 A nine-year-old in Brixham who wants to make an underwater game, a Year 7 in Tiverton who has just discovered Python, a Year 11 in Exmouth who likes hard problems, and a retired engineer in Sidmouth who always meant to learn to program. Each starts with a free lesson.
 
-- [Game Development for Kids](/courses/game-development-masterclass-for-kids) (Ages 8 to 12): Games in Scratch, then Roblox and Minecraft, including characters that move by their own rules.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): First typed Python, with lists of creatures, loops that move them and simple drawing.
-- [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens) (Ages 13 to 18): Logic, data structures, algorithms and dynamic programming, taught so the ideas stick.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Adults): Python from scratch for grown-ups, on to classes, files and exceptions, with nothing assumed.
+[![Game Development for Kids course thumbnail](/images/game-dev-kids.webp)Ages 8 to 12Game Development for KidsGames in Scratch, then Roblox and Minecraft, including characters that move by their own rules.See the syllabus](/courses/game-development-masterclass-for-kids)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsFirst typed Python, with lists of creatures, loops that move them and simple drawing.See the syllabus](/courses/python-ai-kids-masterclass)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)Ages 13 to 18Problem Solving for TeensLogic, data structures, algorithms and dynamic programming, taught so the ideas stick.See the syllabus](/courses/problem-solving-dsa-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)AdultsPython MasterclassPython from scratch for grown-ups, on to classes, files and exceptions, with nothing assumed.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Devon in numbers
 
 ## Ten councils, 1,215,659 people and two coasts
 
 Council populations come from the 2021 Census on Nomis. For towns we give the ONS built-up areas and confirmed each against census output areas added up by us.
 
-**Plymouth, Torbay and the eight Devon districts, usual residents at Census 2021, largest first**
-
 | Council | Usual residents | Main towns |
-|---|---|---|
+| --- | --- | --- |
 | Plymouth | 264,695 | Plymouth |
 | East Devon | 150,828 | Exmouth, Sidmouth, Honiton, Seaton, Axminster |
 | Torbay | 139,324 | Paignton, Torquay, Brixham |
@@ -57,10 +43,8 @@ Council populations come from the 2021 Census on Nomis. For towns we give the ON
 
 Plymouth is a city of over a quarter of a million, and its built-up area edges into South Hams. Exeter is the other city, and between them sit the three Torbay towns. Beyond those, Devon is small towns separated by moors and long coastal roads, with Ilfracombe on the north coast and Dartmouth on the south. That spread is why a weekly club in one town rarely serves the rest.
 
-**Every Devon built-up area above 5,000 residents at Census 2021, largest first**
-
 | Town | Residents | Town | Residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Plymouth | 266,955 | Ilfracombe | 9,200 |
 | Exeter | 126,175 | Okehampton | 9,110 |
 | Paignton | 67,520 | Cullompton | 8,895 |
@@ -81,6 +65,8 @@ Plymouth is a city of over a quarter of a million, and its built-up area edges i
 
 All thirty-four agree with our own output-area count to within rounding and every one lies inside the county. School calendars are set by Devon County Council, Plymouth, Torbay and individual academies; we did not read them, so we agree lesson breaks with each family. The selective schools in Plymouth and Torbay have separate maths pages for [Plymouth](/11-plus-maths-tuition-plymouth) and [Torbay](/11-plus-maths-tuition-torbay); nothing here is school advice.
 
+The Devon project
+
 ## Three rules, 150 fish, and a shoal nobody designed
 
 Reynolds' boids, built in Python, then measured with a single number that says how organised the shoal is.
@@ -89,10 +75,8 @@ Each simulated fish knows only its neighbours within a short distance. Every ste
 
 The answer is an order parameter, a single number that measures how organised the whole group is. Turn every fish's heading into an arrow of length one and average the arrows. If the fish point every which way, the arrows cancel and the average is short; if they all point the same way, it has length one. For 150 random headings the expected length is about one over the square root of 150, which is 0.082. That gives the learner a baseline, and a way to test each rule by turning it up or down.
 
-**Our run of 26 September 2026: 150 boids, 600 steps, seed 20260926**
-
 | Setting | Order (0 random, 1 all aligned) | What the shoal does |
-|---|---|---|
+| --- | --- | --- |
 | Alignment switched off | 0.081 | No better than random, even though fish cluster |
 | Alignment at a quarter strength | 0.637 | Partly organised: groups swimming several ways |
 | Alignment at half strength | 0.995 | One shoal, all heading the same way |
@@ -117,14 +101,14 @@ Sweep the alignment strength finely, plot the order against it, find the tipping
 
 The rules are Craig Reynolds'; the weights, tank, numbers of fish and steps are values we chose, and the results come from our own code with a fixed seed. Boids is a model of how coordinated movement can arise, not a description of how any particular species of fish behaves.
 
+Why Plymouth
+
 ## Britain's largest aquarium and a marine laboratory on Citadel Hill
 
 The Devon link, from the organisations' own pages, and the model's origin in its inventor's words.
 
-**Plymouth's marine science and the boids model, as each describes itself**
-
 | Source | What it says |
-|---|---|
+| --- | --- |
 | National Marine Aquarium | Located in Plymouth; the largest aquarium in the UK and home to over 4,000 animals. |
 | Marine Biological Association | Based at The Laboratory, Citadel Hill, Plymouth. |
 | Craig Reynolds | "In 1986 I made a computer model of coordinated animal motion such as bird flocks and fish schools." |
@@ -135,16 +119,41 @@ Plymouth has made marine science a local specialism, and a coding lesson built o
 
 Modern Age Coders has no connection with the National Marine Aquarium, the Marine Biological Association, Craig Reynolds or any Devon council, and nothing on this page implies one. Their facts and rules are theirs; the simulation and any mistake in it are ours.
 
-**Nearby pages** [Plymouth](/best-coding-class-in-plymouth) and [Exeter](/best-coding-class-in-exeter) have their own pages, and [Cornwall](/coding-classes-in-cornwall) is across the Tamar.
+Nearby pages
+
+[Plymouth](/best-coding-class-in-plymouth) and [Exeter](/best-coding-class-in-exeter) have their own pages, and [Cornwall](/coding-classes-in-cornwall) is across the Tamar.
+
+How learners grow
 
 ## From one moving sprite to a system that organises itself
 
 The free lesson places each learner by ability. Year group helps, but does not decide.
 
-- **Ages 6 to 10: Sprites with rules** Scratch creatures that move, turn and react, the first taste of giving a character its own behaviour. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Game Development for Kids](/courses/game-development-masterclass-for-kids)
-- **Ages 10 to 13: Many things at once** Python lists of creatures updated in a loop, and simple drawing so the result can be watched. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 18: Simulation and measurement** Agent models, vectors and averages, and the habit of measuring what a simulation does rather than just watching it. [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Models for real questions** Adults build simulations and data models in Python for work, with clear statements of what each model assumes. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Science Course](/courses/data-science-complete-masterclass-college)
+Ages 6 to 10
+
+### Sprites with rules
+
+Scratch creatures that move, turn and react, the first taste of giving a character its own behaviour.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Game Development for Kids](/courses/game-development-masterclass-for-kids)Ages 10 to 13
+
+### Many things at once
+
+Python lists of creatures updated in a loop, and simple drawing so the result can be watched.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 18
+
+### Simulation and measurement
+
+Agent models, vectors and averages, and the habit of measuring what a simulation does rather than just watching it.
+
+[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Models for real questions
+
+Adults build simulations and data models in Python for work, with clear statements of what each model assumes.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Science Course](/courses/data-science-complete-masterclass-college)AI and emergence
 
 ## An AI can write a flocking simulation. Can it tell you which rule matters?
 
@@ -156,30 +165,139 @@ A Devon student who has computed 0.081, 0.637 and 0.995 for three settings of on
 
 So a Devon teenager should learn to code in 2026 not to watch simulations, but to measure them. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How lessons run
+
 ## Ilfracombe to Dartmouth, with no bus at all
 
 Devon is wide and its roads are slow in summer. Online, every town is equally close.
 
-- **At your kitchen table** A kitchen in Braunton, a bedroom in Crediton, a desk in Kingsbridge. The teacher shares the screen and the learner writes the code.
-- **Words from your school** Year groups, GCSE options and A levels are named just as Devon schools name them, and teaching is in English.
-- **First lesson on the house** A proper lesson of real work, then an honest recommendation. You will not be asked for card details.
-- **A group at your pace** Fifteen to twenty learners who are at the same point, from many towns and countries, meeting at a sensible hour.
-- **Breaks by arrangement** Two lessons a week is normal, pausing when your own school breaks up, whichever council or trust set the dates.
-- **UK times only** Teachers work on India time, 4.5 hours ahead of UK summer time and 5.5 ahead of winter time, but you only ever see UK times.
+### At your kitchen table
 
-**Why groups are formed by level** Thirty-four towns spread across moors and coasts mean few places have enough learners at the same stage on the same evening. Level-based groups let an Okehampton learner and a Paignton learner share a class.
+A kitchen in Braunton, a bedroom in Crediton, a desk in Kingsbridge. The teacher shares the screen and the learner writes the code.
+
+### Words from your school
+
+Year groups, GCSE options and A levels are named just as Devon schools name them, and teaching is in English.
+
+### First lesson on the house
+
+A proper lesson of real work, then an honest recommendation. You will not be asked for card details.
+
+### A group at your pace
+
+Fifteen to twenty learners who are at the same point, from many towns and countries, meeting at a sensible hour.
+
+### Breaks by arrangement
+
+Two lessons a week is normal, pausing when your own school breaks up, whichever council or trust set the dates.
+
+### UK times only
+
+Teachers work on India time, 4.5 hours ahead of UK summer time and 5.5 ahead of winter time, but you only ever see UK times.
+
+Why groups are formed by level
+
+Thirty-four towns spread across moors and coasts mean few places have enough learners at the same stage on the same evening. Level-based groups let an Okehampton learner and a Paignton learner share a class.
+
+Fees
 
 ## Fees for Devon
 
 Every Devon town pays the same, as does every country outside India.
 
-- First class: USD 0. One full lesson of real work, with a recommended level and course at the end.
-- Group tuition: USD 100 a month. Roughly eight lessons a month in a group of fifteen to twenty at the same level.
-- Private tuition: USD 150 a month. Roughly eight lessons a month, one teacher with one learner.
+First class**USD 0**
+
+One full lesson of real work, with a recommended level and course at the end.
+
+Group tuition**USD 100**
+
+Roughly eight lessons a month in a group of fifteen to twenty at the same level.
+
+Private tuition**USD 150**
+
+Roughly eight lessons a month, one teacher with one learner.
 
 We bill every family outside India in US dollars; there is no price list in pounds. The first bill comes only after the free lesson has settled a course and weekly slot, and the pricing page explains pausing, missed lessons and switching between group and private teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20I%20book%20a%20free%20lesson%20for%20a%20learner%20in%20Devon%3F)Reviews
+
+## Reviews families posted on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free first lesson
+
+Tell us an age or school year and one thing the learner loves. The first lesson might be a Scratch game, a first Python loop, or the shoal simulation on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Devon one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20I%20book%20a%20free%20lesson%20for%20a%20learner%20in%20Devon%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Devon questions
+
+The county, the shoal project and how lessons work.
 
 ### How many people live in Devon?
 
@@ -221,10 +339,14 @@ Your first lesson costs nothing. After that, a place in a group is USD 100 per m
 
 Devon County Council, Plymouth, Torbay and academies each set dates. We fit lesson breaks around your own school's calendar.
 
+Beyond Devon
+
 ## More pages in the South West and beyond
 
 The [Plymouth](/best-coding-class-in-plymouth) and [Exeter](/best-coding-class-in-exeter) pages cover the two cities, [Cornwall](/coding-classes-in-cornwall) is next door, and the [UK hub](/coding-classes-in-united-kingdom) lists every county and city.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20I%20book%20a%20free%20lesson%20for%20a%20learner%20in%20Devon%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-devon](https://learn.modernagecoders.com/coding-classes-in-devon#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-devon*

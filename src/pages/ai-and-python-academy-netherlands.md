@@ -4,25 +4,21 @@ description: "The Netherlands is building a 200 million euro AI factory; under a
 canonical: https://learn.modernagecoders.com/ai-and-python-academy-netherlands
 source: src/pages/ai-and-python-academy-netherlands.html
 ---
-> Modern Age Coders teaches a live online Python and AI track to learners in the Netherlands aged six to sixty-seven, in English, in batches of fifteen to twenty or one to one. It is neither a blocks-and-robots club nor a prompting course. A student on it writes Python by hand, cleans data that came from somewhere real, trains a model and states its error in a unit that means something, builds an agent whose mistakes are visible, and publishes the result on GitHub. The first lesson costs nothing; after it, USD 100 a month buys a group place and USD 150 private tuition.
+> The Netherlands is building a 200 million euro AI factory; under a third of its havo and vwo schools offer informatica. The ladder between: Python, data, ML, agents.
 
-[Home](/) / [Courses](/courses) / AI and Python Academy, Netherlands
+In short
 
-Netherlands · Live online · Ages 6 to 67
+Modern Age Coders teaches a live online Python and AI track to learners in the Netherlands aged six to sixty-seven, in English, in batches of fifteen to twenty or one to one. It is neither a blocks-and-robots club nor a prompting course. A student on it writes Python by hand, cleans data that came from somewhere real, trains a model and states its error in a unit that means something, builds an agent whose mistakes are visible, and publishes the result on GitHub. The first lesson costs nothing; after it, USD 100 a month buys a group place and USD 150 private tuition.
 
-# The Netherlands is buying two hundred million euros of AI compute. Under a third of its schools offer informatica.
-
-On 10 October 2025 SURF announced that the Netherlands would get its own AI factory in Groningen: 70 million euros from Europe, 70 million from the ministries, 60 million from the north's Nij Begun fund, an expertise centre opening in 2026 and a supercomputer at full capacity in 2027. In the same year the curriculum institute SLO published that informatica is offered at 238 of 774 havo schools and 236 of 761 vwo schools, and taken by 8.9 percent of havo and 12.6 percent of vwo exam candidates. The machine is being built; the ladder up to it is optional. This page is the ladder: hand-written Python, then data, then models with a measured error, then agents, then a public repository.
-
-At a glance: Track: Python, data, ML, agents, GitHub; Format: Live video, never pre-recorded; Batch: 15 to 20 students, or one to one; Timing: Dutch afternoons and evenings, agreed on the call; Language: English; Ages: 6 to 67; Fees: From USD 100 a month; First class: Free, no card needed. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three courses that carry most Dutch learners onto the ladder
 
 One for a child in the last years of the basisschool, one for a teenager anywhere from havo 3 to vwo 6, one for a student or a working adult. The card opens the syllabus, the timetable and the fee for that course alone.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass): Typed code from the first weeks for a groep 6 to 8 child: turtle graphics, small games, and the first program that works out a rule from examples nobody gave it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens): The spine of the teenage track for a school that does not timetable informatica, or one that does and never reaches a trained model: Python first, then the statistics underneath, then decision trees, networks, images and text.
-- [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college): For the student or professional who wants to know what a factory full of GPUs is for: how language models are trained, grounded against documents you control, and constrained into agents that fail loudly.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  NL / 01 Python and AI for Kids Typed code from the first weeks for a groep 6 to 8 child: turtle graphics, small games, and the first program that works out a rule from examples nobody gave it. Open the syllabus →](/courses/python-ai-kids-masterclass)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)  NL / 02 AI and Machine Learning for Teens The spine of the teenage track for a school that does not timetable informatica, or one that does and never reaches a trained model: Python first, then the statistics underneath, then decision trees, networks, images and text. Open the syllabus →](/courses/ai-ml-masterclass-teens)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)  NL / 03 Generative AI: LLMs, RAG and Agents For the student or professional who wants to know what a factory full of GPUs is for: how language models are trained, grounded against documents you control, and constrained into agents that fail loudly. Open the syllabus →](/courses/complete-generative-ai-masterclass-college)
+
+The reason this page exists
 
 ## A subject that a third of schools offer and a tenth of pupils take
 
@@ -38,10 +34,8 @@ Where it is offered, uptake is a minority choice. In 2024, **4,849 havo exam can
 
 None of this is a complaint about Dutch schools; the revision now under way is precisely because the field has moved. It is a description of a gap, and a gap is where a ladder goes.
 
-**Informatica in havo and vwo, 2024, from SLO's July 2025 starting note (DUO examination data)**
-
 | Measure | Havo | Vwo | What it tells a parent |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Schools offering the subject | 238 of 774 (30.7 percent) | 236 of 761 (31.0 percent) | For two pupils in three, the choice never arises |
 | Exam candidates who sat it | 4,849 of 49,234 (8.9 percent) | 4,506 of 35,690 (12.6 percent) | Where it is offered, roughly one in ten takes it |
 | Study load | 320 hours | 440 hours | Equivalent to a modest elective, spread across the bovenbouw |
@@ -49,6 +43,8 @@ None of this is a complaint about Dutch schools; the revision now under way is p
 | Programme in force since | 2019 | 2019 | A revision began in 2025 because the field has moved |
 
 Source: [SLO, Startnotitie informatica bovenbouw voortgezet onderwijs, July 2025](https://slo-platforms.files.svdcdn.com/production/assets/updates/startnotitie_informatica_juli_2025.pdf), tables 1 and 2 (DUO 2024 examination data) and section 2.1 on the legal framework. The document is in Dutch; the figures above are quoted as published. Verified 7 September 2026.
+
+The other half of the gap
 
 ## What two hundred million euros of compute is for, and who gets to use it
 
@@ -64,10 +60,8 @@ A supercomputer does not do anything by itself. Somebody has to write the Python
 
 We are not connected to the factory, to SURF or to any consortium member, and we do not claim to be. We are the ladder a family can start on this month.
 
-**The Netherlands AI factory, as announced by SURF on 10 October 2025**
-
 | Item | Figure | Source |
-|---|---|---|
+| --- | --- | --- |
 | EuroHPC Joint Undertaking award | 70 million euros | SURF announcement |
 | Dutch ministries | 70 million euros | SURF announcement |
 | Nij Begun programme (Groningen) | 60 million euros | SURF announcement |
@@ -79,6 +73,8 @@ We are not connected to the factory, to SURF or to any consortium member, and we
 | AI factories selected across Europe | 19, plus 13 antennas | EuroHPC JU |
 
 Sources: [SURF, Netherlands gets AI factory, European funding awarded, 10 October 2025](https://www.surf.nl/en/news/netherlands-gets-ai-factory-european-funding-awarded); [Dutch AI Coalition, the Dutch AI Factory](https://aic4nl.nl/en/over-ons/nederlandse-ai-fabriek/); [EuroHPC Joint Undertaking, AI Factories](https://www.eurohpc-ju.europa.eu/ai-factories_en). The GPU count and storage capacity of the Groningen machine were not published in any source we could read and are not stated here. Verified 7 September 2026.
+
+What the published numbers show
 
 ## The stage is small, the queue is short, and four Dutch pupils a year go to the world final
 
@@ -94,6 +90,8 @@ And delivery is not the constraint. The Netherlands is among the most connected 
 
 Sources: [Nederlandse Informatica Olympiade](https://nl.wikipedia.org/wiki/Nederlandse_Informatica_Olympiade) (three rounds, four winners to the International Olympiad in Informatics, partner institutions); exam candidate totals from the SLO table above. Verified 7 September 2026.
 
+Where we point this
+
 ## Amstelveen, Eindhoven, The Hague and the rest of the country, one page each
 
 The general coding pages for the Netherlands are already written city by city, and the academy pages for the largest cities now sit beside them, beginning with [Groningen](/ai-and-python-academy-groningen).
@@ -106,14 +104,14 @@ Why online, put narrowly. Not because a screen beats a room, but because a group
 
 A family that wants general programming rather than this track should start at [coding classes in the Netherlands](/coding-classes-in-netherlands). One that wants machine learning worked on Dutch data should read [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands). For one age group at a time, the door pages are [coding classes for kids in the Netherlands](/coding-classes-for-kids-netherlands), [coding classes for teens in the Netherlands](/coding-classes-for-teens-netherlands), [coding and AI classes for adults in the Netherlands](/coding-and-ai-classes-for-adults-netherlands), [coding for college students in the Netherlands](/coding-for-college-students-netherlands) and [the AI agents course for professionals in the Netherlands](/ai-agents-course-for-professionals-netherlands). Topic pages cover [building real AI projects in the Netherlands](/build-real-ai-projects-netherlands), [machine learning for school students in the Netherlands](/machine-learning-for-school-students-netherlands), [the AI and Python academy for girls in the Netherlands](/ai-and-python-academy-for-girls-netherlands), [the AI agents course for students in the Netherlands](/ai-agents-course-for-students-netherlands), [coding alongside informatica in havo and vwo](/coding-alongside-informatica-havo-vwo-netherlands) and [vibe coding versus building AI](/vibe-coding-vs-building-ai-netherlands). Track pages include [Python classes in the Netherlands](/python-classes-netherlands), [Java classes in the Netherlands](/java-classes-netherlands), [the full stack software development course](/full-stack-software-development-course-netherlands), [the data science course](/data-science-course-netherlands), [the app development course](/app-development-course-netherlands) and [one-to-one coding classes in the Netherlands](/one-to-one-coding-classes-netherlands). The argument that holds this whole family of pages together is set out at [Learn to Build AI](/learn-to-build-ai).
 
+The five rungs
+
 ## What comes after the basisschool, in the order it has to come
 
 Five rungs, and the sequence is the point. Each one depends on the rung below it in a way that cannot be skipped, which is why a course that opens with the exciting-sounding top rung tends to produce students who can show something and cannot say why it works.
 
-**The five rungs, and the Dutch school years they usually land in**
-
 | Rung | Roughly | What the student actually does |
-|---|---|---|
+| --- | --- | --- |
 | 1. Python by hand | Groep 6 to 8, brugklas | Types real syntax instead of dragging blocks: loops, functions, files, and error messages the student reads and repairs alone |
 | 2. Data | Onderbouw, years 1 to 3 | Opens a file that came from somewhere real, repairs it, draws it, and hunts down the single row that would have wrecked the answer |
 | 3. Machine learning | Havo 3 to vwo 6 | Fits a model to data, reports how wrong it is in a unit a parent would recognise, and checks it beats a dumb guess |
@@ -123,67 +121,325 @@ Five rungs, and the sequence is the point. Each one depends on the rung below it
 ### Why nobody gets to skip a rung
 
 The mistakes that matter in a model live in the data, so a student who has never cleaned a file cannot judge a model. An agent that cannot measure its own output is a confident random number generator, so a student who has never evaluated anything cannot be trusted to build one. And work that lives only on a laptop persuades nobody: what a university or an employer responds to is a repository a stranger can open, run and check.
+
 The order in which we teach every subject on the site, with the reasons, is on the [coding roadmap](/coding-roadmap). A Dutch-specific version, written by school year with what a parent should expect to see at home at each stage, is the [Python to AI roadmap for students in the Netherlands](/python-to-ai-roadmap-for-students-netherlands).
 
 ### Where the ladder meets the Dutch timetable
 
 For a pupil at one of the 238 havo or 236 vwo schools that offer informatica, this track runs beside the subject and goes past where it stops: the school exam programme ends with a constructed artefact, and rung 3 is where a student learns to say how good the artefact is. For the two pupils in three whose school does not offer it, the track is the subject.
+
 For a groep 8 child in the doorstroomtoets year, we say the same thing the coding pages say: keep the routine light, and do not add a new subject in the weeks before the test. For a student in the profielkeuze year, a term on rung 1 before the choice is the cheapest way to find out whether the Nature and Technology profile with informatica is the right one.
+
+The catalogue
 
 ## Thirteen live courses, and a learner is placed by what they can do
 
 Three curricula written for three different lives, not one syllabus taught at three speeds. Each card leads to the full course page with its own schedule and its own fee.
 
+I
+
 ### Children, groep 3 to 8
 
 Real syntax early, and a truthful account of what these systems are
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass): Typed Python inside the first month for a groep 6 to 8 child: turtle drawings, small games, and a first program that learns a rule from examples. No blocks, no dragging.
-- [AI Literacy for Kids](/courses/ai-literacy-for-kids-course): What a chatbot actually is, why its confidence and its accuracy are separate dials, and three checks a ten-year-old can run before believing it. The habit survives every product launch.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev): The child asks a tool for a game, gets one back, and then has to find which parts are broken and mend them. Asking is the easy half; the mending is the course.
+NL / KIDS / 01
+
+#### Python and AI for Kids
+
+Typed Python inside the first month for a groep 6 to 8 child: turtle drawings, small games, and a first program that learns a rule from examples. No blocks, no dragging.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)
+
+NL / KIDS / 02
+
+#### AI Literacy for Kids
+
+What a chatbot actually is, why its confidence and its accuracy are separate dials, and three checks a ten-year-old can run before believing it. The habit survives every product launch.
+
+[Open the syllabus](/courses/ai-literacy-for-kids-course)
+
+NL / KIDS / 03
+
+#### Vibe Coding for Kids
+
+The child asks a tool for a game, gets one back, and then has to find which parts are broken and mend them. Asking is the easy half; the mending is the course.
+
+[Open the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)II
 
 ### Teenagers, havo and vwo
 
 From first syntax to an agent with its failure modes written down
 
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens): Two years from Python to a model the student trained, measured and can defend, taken beside whatever the school does or does not timetable: statistics, classical learners, neural networks, images and text, each with a working artefact at the end.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data): The part that has to come before any model: reading files, joining them, drawing them, and learning to spot the one row that would have wrecked the result, on datasets the student can go and check for themselves.
-- [Python for Teens](/courses/python-complete-masterclass-teens): A blank file to advanced Python over two years. The entry for a teenager who arrives with nothing and whose parents would rather the AI work sat on a foundation than on enthusiasm.
-- [Coding Agents: Codex and Claude Code](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens): Steering coding agents through real software and then reading every line that came back. The student holds their own subscription to the tools, within the age terms those tools set.
+NL / TEEN / 01
+
+#### AI and Machine Learning for Teens
+
+Two years from Python to a model the student trained, measured and can defend, taken beside whatever the school does or does not timetable: statistics, classical learners, neural networks, images and text, each with a working artefact at the end.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+NL / TEEN / 02
+
+#### Data Science for Teens
+
+The part that has to come before any model: reading files, joining them, drawing them, and learning to spot the one row that would have wrecked the result, on datasets the student can go and check for themselves.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)
+
+NL / TEEN / 03
+
+#### Python for Teens
+
+A blank file to advanced Python over two years. The entry for a teenager who arrives with nothing and whose parents would rather the AI work sat on a foundation than on enthusiasm.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+NL / TEEN / 04
+
+#### Coding Agents: Codex and Claude Code
+
+Steering coding agents through real software and then reading every line that came back. The student holds their own subscription to the tools, within the age terms those tools set.
+
+[Open the syllabus](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens)III
 
 ### University students and working adults
 
 Depth, generative systems, and the part that has to run in production
 
-- [AI and Machine Learning Masterclass](/courses/ai-ml-masterclass-complete-college): The complete route at adult pace: supervised and unsupervised methods, deep architectures, disciplined training, evaluation that survives a hostile question, and deployment.
-- [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college): What a language model is, how it is adapted and grounded against documents you control, and how an agent is boxed in so that when it fails, it fails where you can see it.
-- [Python and AI Automation](/courses/python-ai-automation-masterclass-college): Aimed at whatever already eats the working week: the return assembled by hand each month, the spreadsheet nobody trusts, the report that costs two days.
-- [Data Science Masterclass](/courses/data-science-complete-masterclass-college): Reverse-engineered from a job advertisement: statistics, SQL, feature engineering, modelling, and a portfolio a hiring manager can judge in ten minutes.
-- [Data Structures and Algorithms](/courses/data-structures-algorithms-masterclass-college): The wall most technical interviews put up, and the reason code that copes with a thousand rows still copes with ten million. Taught as reasoning, not as a list to memorise.
-- [AI Agents with Copilot Studio](/courses/ai-agents-with-microsoft-copilot-studio-course-for-college-students): Building and governing agents on Microsoft Copilot Studio. Private tuition only, which is why it carries the one-to-one rate rather than the group one.
+NL / PRO / 01
+
+#### AI and Machine Learning Masterclass
+
+The complete route at adult pace: supervised and unsupervised methods, deep architectures, disciplined training, evaluation that survives a hostile question, and deployment.
+
+[Open the syllabus](/courses/ai-ml-masterclass-complete-college)
+
+NL / PRO / 02
+
+#### Generative AI: LLMs, RAG and Agents
+
+What a language model is, how it is adapted and grounded against documents you control, and how an agent is boxed in so that when it fails, it fails where you can see it.
+
+[Open the syllabus](/courses/complete-generative-ai-masterclass-college)
+
+NL / PRO / 03
+
+#### Python and AI Automation
+
+Aimed at whatever already eats the working week: the return assembled by hand each month, the spreadsheet nobody trusts, the report that costs two days.
+
+[Open the syllabus](/courses/python-ai-automation-masterclass-college)
+
+NL / PRO / 04
+
+#### Data Science Masterclass
+
+Reverse-engineered from a job advertisement: statistics, SQL, feature engineering, modelling, and a portfolio a hiring manager can judge in ten minutes.
+
+[Open the syllabus](/courses/data-science-complete-masterclass-college)
+
+NL / PRO / 05
+
+#### Data Structures and Algorithms
+
+The wall most technical interviews put up, and the reason code that copes with a thousand rows still copes with ten million. Taught as reasoning, not as a list to memorise.
+
+[Open the syllabus](/courses/data-structures-algorithms-masterclass-college)
+
+NL / PRO / 06
+
+#### AI Agents with Copilot Studio
+
+Building and governing agents on Microsoft Copilot Studio. Private tuition only, which is why it carries the one-to-one rate rather than the group one.
+
+[Open the syllabus](/courses/ai-agents-with-microsoft-copilot-studio-course-for-college-students)
+
+How the classes run
 
 ## Two clocks, only one of which moves
 
 The Netherlands changes its clock twice a year and India, where the teaching operation sits, never does. So a Dutch afternoon is three and a half hours behind the teacher in summer and four and a half in winter, and the slots below are the ones that work at both ends. The recurring time is agreed on the free class, not promised on a page.
 
-- **After school** Netherlands time, mid to late afternoon. Groep 6 to 8 and the onderbouw, while concentration is still there; late evening for the teacher.
-- **Early evening** Netherlands time, after dinner. The main block for havo and vwo pupils and for university students; the teacher's late night.
-- **Weekend** Saturday and Sunday, Netherlands time, morning or afternoon. Working adults, and families whose weekday evenings are already full.
+After school
 
-- **The opening lesson** Free, and a lesson rather than a sales call. The learner is handed one problem and the teacher watches how they go at it, which fixes the starting rung better than any form could.
-- **Between five and ten to a group** Grouped by what a learner has shown they can do, drawn from twenty-five countries, so a strong student in Almere is never held to a local average and a beginner in Leiden is never lost in one.
-- **Or a teacher to yourself** For a narrow adult goal, an examination year that is already full, or the Copilot Studio courses, which are only ever taught one to one.
-- **Ninety minutes, twice a week** Both screens shared, so a misunderstanding is caught while it is forming rather than discovered in homework a week later.
-- **English, with the Dutch words kept** Groep, havo, vwo, profielkeuze and informatica are used as the school uses them. The libraries, the documentation and the error messages are in English anyway.
-- **Committed as it is written** Every lesson's work goes into the student's own GitHub repository that day. What they leave with is a history, not a folder of files.
+Netherlands time, mid to late afternoon. Groep 6 to 8 and the onderbouw, while concentration is still there; late evening for the teacher.
+
+Early evening
+
+Netherlands time, after dinner. The main block for havo and vwo pupils and for university students; the teacher's late night.
+
+Weekend
+
+Saturday and Sunday, Netherlands time, morning or afternoon. Working adults, and families whose weekday evenings are already full.
+
+### The opening lesson
+
+Free, and a lesson rather than a sales call. The learner is handed one problem and the teacher watches how they go at it, which fixes the starting rung better than any form could.
+
+### Between five and ten to a group
+
+Grouped by what a learner has shown they can do, drawn from twenty-five countries, so a strong student in Almere is never held to a local average and a beginner in Leiden is never lost in one.
+
+### Or a teacher to yourself
+
+For a narrow adult goal, an examination year that is already full, or the Copilot Studio courses, which are only ever taught one to one.
+
+### Ninety minutes, twice a week
+
+Both screens shared, so a misunderstanding is caught while it is forming rather than discovered in homework a week later.
+
+### English, with the Dutch words kept
+
+Groep, havo, vwo, profielkeuze and informatica are used as the school uses them. The libraries, the documentation and the error messages are in English anyway.
+
+### Committed as it is written
+
+Every lesson's work goes into the student's own GitHub repository that day. What they leave with is a history, not a folder of files.
+
+Student work
+
+## Work that is still online
+
+Four things students built and left running at public addresses. Open any of them and try to break it. There are more on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Two figures, no euro list
 
 Billed monthly in US dollars at the same two rates we charge everywhere outside India. There is no Dutch tariff, nothing added for the Netherlands and nothing to join. The agent courses are priced the same way; the Copilot Studio courses are private tuition by design and so carry the one-to-one figure.
 
-- Free first class: USD 0. A lesson, not a pitch. Fixes the starting rung. Watch it, then decide.
-- Group batch: USD 100 a month. Fifteen to twenty learners, one teacher throughout. Live, never a recording. Build work reviewed every week. Certificate at the end.
-- One to one: USD 150 a month. A teacher to yourself, at your pace. The only format for the Copilot Studio courses. Syllabus bent to the goal.
+Free first class
+
+USD 0
+
+no card required
+
+- A lesson, not a pitch
+- Fixes the starting rung
+- Watch it, then decide
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners, one teacher throughout
+- Live, never a recording
+- Build work reviewed every week
+- Certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher to yourself, at your pace
+- The only format for the Copilot Studio courses
+- Syllabus bent to the goal
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Reproduced from Google as written. Nobody at Modern Age Coders writes, edits or pays for them.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions from the Netherlands
 
 ## Before the first class: what Dutch parents and students ask us
 
@@ -227,15 +483,54 @@ USD 100 a month for a place in a group of fifteen to twenty, USD 150 a month for
 
 Somebody rings you at a Dutch hour to set up the free lesson, and that is all that happens. No card, no charge, no seat held anywhere, no enrolment. The course, the format and the weekly time are settled in that conversation, and money comes into it only after the family has watched a lesson and decided.
 
+Elsewhere on this site
+
 ## What else we publish about the Netherlands
 
-- [Coding classes in the Netherlands](/coding-classes-in-netherlands): The country page for general programming, with the digital literacy curriculum and the school system explained.
-- [AI and machine learning in the Netherlands](/ai-and-machine-learning-classes-in-netherlands): The country-level machine learning page, worked on published Dutch data.
-- [Coding classes in Amsterdam](/coding-classes-in-amsterdam): The capital, its eight districts, the school lottery and the two international schools.
-- [Coding classes in Eindhoven](/coding-classes-in-eindhoven): Brainport, the campus next door, and the schools an engineering family actually uses.
-- [Learn to Build AI](/learn-to-build-ai): The case for constructing these systems rather than operating them, which is what every page in this family rests on.
-- [The course atlas](/course-atlas): All of the courses, by age and by subject, each with its syllabus.
+This academy is the top layer of a stack that already exists. Some of what is underneath it will be more useful to a family than this page.
 
-## Contact
+### [Coding classes in the Netherlands](/coding-classes-in-netherlands)
 
-Book the free first class at [https://learn.modernagecoders.com/ai-and-python-academy-netherlands](https://learn.modernagecoders.com/ai-and-python-academy-netherlands#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The country page for general programming, with the digital literacy curriculum and the school system explained.
+
+### [AI and machine learning in the Netherlands](/ai-and-machine-learning-classes-in-netherlands)
+
+The country-level machine learning page, worked on published Dutch data.
+
+### [Coding classes in Amsterdam](/coding-classes-in-amsterdam)
+
+The capital, its eight districts, the school lottery and the two international schools.
+
+### [Coding classes in Eindhoven](/coding-classes-in-eindhoven)
+
+Brainport, the campus next door, and the schools an engineering family actually uses.
+
+### [Learn to Build AI](/learn-to-build-ai)
+
+The case for constructing these systems rather than operating them, which is what every page in this family rests on.
+
+### [The course atlas](/course-atlas)
+
+All of the courses, by age and by subject, each with its syllabus.
+
+Start here
+
+## Book the free first class
+
+Leave a number and someone rings you at a Dutch hour. The first session is taught, on real material, by a real teacher, and by the end of it we know which rung the learner starts on. That is the only thing worth finding out first: a term at the wrong level is the most expensive mistake in this subject, and no form can prevent it.
+
+Prefer to read before you call? Start with the [full catalogue](/courses), then [how we teach](/how-we-teach), then the case for this whole family of pages at [Learn to Build AI](/learn-to-build-ai).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20class%20for%20a%20student%20in%20the%20Netherlands%2C%20on%20the%20AI%20and%20Python%20track.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is the quickest route from the Netherlands and costs nothing. The number is an Indian one; there is no Dutch office and we hold no premises in the country.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-python-academy-netherlands*

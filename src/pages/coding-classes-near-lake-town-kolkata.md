@@ -12,7 +12,7 @@ Live Online Coding & Maths · Lake Town · North-East Kolkata
 
 Modern Age Coders runs premium live online coding and mathematics classes for families across Lake Town, Bangur Avenue, Sreebhumi and the VIP Road belt. Every class is taught live in small batches by full-time engineers and maths graduates, never pre-recorded. Children learn Python, Java, AI/ML and school maths from their own dining table, so you skip the Lake Town crossing and Patipukur underpass traffic entirely. Book a free demo class today.
 
-100% Live, never pre-recordedBatches of 15-20, up to 6 or 1-on-1Full-time engineer & maths-graduate tutorsICSE · CBSE · WBBSE · IGCSE ready[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)100% LiveNever pre-recorded6-8Max per batchAges 6-67Kids to professionals₹1,499Starting fee/monthAt a glance
+100% Live, never pre-recordedBatches of 15-20, up to 6 or 1-on-1Full-time engineer & maths-graduate tutorsICSE · CBSE · WBBSE · IGCSE ready[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)100% LiveNever pre-recorded15-20Max per batchAges 6-67Kids to professionals₹1,499Starting fee/monthAt a glance
 
 ## The essentials, in one place
 

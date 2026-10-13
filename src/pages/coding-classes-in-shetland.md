@@ -4,46 +4,32 @@ description: "Live online coding, Python and maths classes across the Shetland I
 canonical: https://learn.modernagecoders.com/coding-classes-in-shetland
 source: src/pages/coding-classes-in-shetland.html
 ---
-> The Shetland Islands council area had about 22,900 residents in roughly 10,600 households at the 2022 census, at 15.6 people per square kilometre. Lerwick is the main town, Scalloway and Brae are the only other settlements NRS lists as localities, and many islanders live in smaller places on the Mainland of Shetland and on isles such as Whalsay, Bressay, Yell and Unst. Our lessons are taught live on video from India, so an island postcode changes nothing, and a free first lesson finds each learner's stage, from P1 to S6 or adult. Anyone aged 6 to 67 can learn coding, Python and maths in a group of fifteen to twenty or one-to-one. The Shetland project starts with Lerwick's latitude. Continuing costs USD 100 a month in a group, or USD 150 a month with a teacher of your own.
+> Live online coding, Python and maths classes across the Shetland Islands, from Lerwick, Scalloway and Brae to Whalsay, Bressay, Unst, Yell and Fair Isle.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / Shetland Islands
-
-Shetland Islands / Live online
-
-# Coding classes in the Shetland Islands
-
-**What are the best coding classes in Shetland?** The Shetland Islands council area had about 22,900 residents in roughly 10,600 households at the 2022 census, at 15.6 people per square kilometre. Lerwick is the main town, Scalloway and Brae are the only other settlements NRS lists as localities, and many islanders live in smaller places on the Mainland of Shetland and on isles such as Whalsay, Bressay, Yell and Unst. Our lessons are taught live on video from India, so an island postcode changes nothing, and a free first lesson finds each learner's stage, from P1 to S6 or adult. Anyone aged 6 to 67 can learn coding, Python and maths in a group of fifteen to twenty or one-to-one. The Shetland project starts with Lerwick's latitude. Continuing costs USD 100 a month in a group, or USD 150 a month with a teacher of your own.
-
-The Met Office weather station at Lerwick has kept monthly records since 1930, and its data file gives the station's position in a single line: latitude 60.139, longitude -1.183. Sailors, pilots and many map apps would write the same place as 60 degrees, 8 minutes and 20.4 seconds north, counting in sixties the way people have done for thousands of years. Converting between the two looks like simple arithmetic, yet a first attempt at the code usually contains a bug that prints impossible times such as 59 degrees, 59 minutes and 60 seconds. This page's project writes the converter in Python, finds that bug, and discovers why a degree of longitude in Shetland is only half as long as one at the equator.
-
-Facts last verified 26 September 2026. Teaching is online; no Shetland Islands branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Shetland
 
 ## Where Shetland learners begin
 
 A P3 in Lerwick who loves maps, a P6 in Scalloway ready for real code, an S4 on Whalsay working towards National 5, and an adult in Brae who needs spreadsheets to behave. Every one of them starts with a free trial.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 12): Block coding with compass directions, clocks and treasure-map games.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): Angles, time and conversions between units, worked out in code.
-- [High School Mathematics](/courses/complete-high-school-mathematics-mastery) (Ages 14 to 18): Secondary maths in depth, from trigonometry to the geometry of the Earth.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Adults): Python for adults from zero, including clean handling of numbers and units.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 12Coding for KidsBlock coding with compass directions, clocks and treasure-map games.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingAngles, time and conversions between units, worked out in code.See the syllabus](/courses/maths-through-coding)[![High School Mathematics course thumbnail](/images/high-school-maths.webp)Ages 14 to 18High School MathematicsSecondary maths in depth, from trigonometry to the geometry of the Earth.See the syllabus](/courses/complete-high-school-mathematics-mastery)[![Python Masterclass course thumbnail](/images/python-college.webp)AdultsPython MasterclassPython for adults from zero, including clean handling of numbers and units.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Shetland in figures
 
 ## About 22,900 people at 60 degrees north
 
 The islands-wide totals are rounded first results from the 2022 census by National Records of Scotland. Settlement sizes are separate NRS estimates for mid-2020.
 
-**Shetland localities, NRS mid-2020 estimates**
-
 | Locality | Residents |
-|---|---|
+| --- | --- |
 | Lerwick | 6,760 |
 | Scalloway | 1,170 |
 | Brae | 750 |
@@ -54,16 +40,16 @@ Shetland has 15.6 residents per square kilometre, under a quarter of the Scottis
 
 See [Orkney](/coding-classes-in-orkney) and [the Western Isles](/coding-classes-in-na-h-eileanan-siar). For qualifications: [Higher Maths](/higher-maths-tuition-online) and [National 5 Computing Science](/national-5-computing-science-help).
 
+The Shetland project
+
 ## Sixty minutes, sixty seconds, one sneaky carry
 
 Base 60 for angles, and the bug hidden in the last digit.
 
 A degree splits into 60 minutes and a minute into 60 seconds, exactly like hours on a clock. To convert 60.139 degrees, keep the whole 60, multiply the leftover 0.139 by 60 to get 8.34 minutes, keep the 8, and multiply the leftover 0.34 by 60 to get 20.4 seconds. So Lerwick's station sits at 60 degrees, 8 minutes, 20.4 seconds north, and its longitude of 1.183 degrees becomes 1 degree, 10 minutes, 58.8 seconds west. The learner codes those steps in Python in a few lines and they seem to work.
 
-**Our degrees, minutes and seconds converter, 26 September 2026**
-
 | Input | Step-by-step then round | Round once, then split |
-|---|---|---|
+| --- | --- | --- |
 | 60.139 | 60 deg 8 min 20.4 s | 60 deg 8 min 20.4 s |
 | 1.183 | 1 deg 10 min 58.8 s | 1 deg 10 min 58.8 s |
 | 59.99999 | 59 deg 59 min 60.0 s | 60 deg 0 min 0.0 s |
@@ -89,14 +75,14 @@ Test the converter on a million values, compute longitude spacing with cosines, 
 
 The coordinates come from the Met Office Lerwick data file. The conversions, the bug counts and the distances come from our own program, using a spherical Earth of radius 6,371 km for the distance figures.
 
+Why Lerwick
+
 ## A weather record from 1930
 
 What the Met Office file states about its station.
 
-**Met Office historic station data, Lerwick**
-
 | File detail | What it says |
-|---|---|
+| --- | --- |
 | Grid position | 445300 east, 1139700 north |
 | Latitude and longitude | 60.139 and -1.183 |
 | Height | 82 metres above mean sea level |
@@ -107,14 +93,37 @@ Conversions between coordinate formats run inside every phone map, ship chart pl
 
 We have no link with the Met Office, the Ordnance Survey or Shetland Islands Council. Their published figures are theirs; the converter, the tests and any mistakes are ours.
 
+Learning path
+
 ## From clock sums to coordinates
 
 Stages are a starting point only; the free trial settles the level.
 
-- **P1 to P4: Clocks and compasses** Block coding with directions, time and simple map games. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **P5 to S2: Units in Python** Typed Python converting times, angles and distances. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **S3 to S6: Trigonometry and testing** Cosines, coordinates and thorough testing beside National 5, Higher and Advanced Higher courses. [High School Mathematics](/courses/complete-high-school-mathematics-mastery), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Reliable numbers** Python for adults, with careful rounding, units and data. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+P1 to P4
+
+### Clocks and compasses
+
+Block coding with directions, time and simple map games.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)P5 to S2
+
+### Units in Python
+
+Typed Python converting times, angles and distances.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)S3 to S6
+
+### Trigonometry and testing
+
+Cosines, coordinates and thorough testing beside National 5, Higher and Advanced Higher courses.
+
+[High School Mathematics](/courses/complete-high-school-mathematics-mastery)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Reliable numbers
+
+Python for adults, with careful rounding, units and data.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)AI and conversions
 
 ## An AI can convert coordinates in seconds. Will it ever print 60 seconds?
 
@@ -126,30 +135,139 @@ A Shetland learner who has tested a million values knows how to catch rare-case 
 
 Catching the bug that appears once in a thousand inputs is why a Shetland teenager should keep learning to code in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Island lessons
+
 ## From Sumburgh to Unst, lessons by video
 
 Whether on the Mainland or a smaller isle, learners join from home.
 
-- **Any isle with internet** Whalsay, Yell, Bressay or Lerwick itself: a laptop and a connection that carries video are enough.
-- **Scottish stages in class** Teachers use P and S stages and the National 5, Higher and Advanced Higher names Shetland pupils know. Lessons are in English.
-- **A free trial first** One full lesson costs nothing, and afterwards we say plainly what would suit.
-- **Classmates at your level** Groups of fifteen to twenty learners who share a stage, joining from all over.
-- **Lessons in term** Twice a week in term, with the school holidays off.
-- **UK time, held steady** When the clocks change, your lesson stays at its UK hour; our teachers on India time move instead.
+### Any isle with internet
 
-**Why island groups are wide** On a single isle there may be nobody else at your stage. Grouping by stage across a wide pool gives a learner on Foula or Fair Isle a proper class.
+Whalsay, Yell, Bressay or Lerwick itself: a laptop and a connection that carries video are enough.
+
+### Scottish stages in class
+
+Teachers use P and S stages and the National 5, Higher and Advanced Higher names Shetland pupils know. Lessons are in English.
+
+### A free trial first
+
+One full lesson costs nothing, and afterwards we say plainly what would suit.
+
+### Classmates at your level
+
+Groups of fifteen to twenty learners who share a stage, joining from all over.
+
+### Lessons in term
+
+Twice a week in term, with the school holidays off.
+
+### UK time, held steady
+
+When the clocks change, your lesson stays at its UK hour; our teachers on India time move instead.
+
+Why island groups are wide
+
+On a single isle there may be nobody else at your stage. Grouping by stage across a wide pool gives a learner on Foula or Fair Isle a proper class.
+
+Fees
 
 ## Fees in Shetland
 
 Lerwick or Unst, the fee is the same, the rate we charge in every country outside India.
 
-- First class: USD 0. A full free lesson, then an honest recommendation.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty.
-- Private tuition: USD 150 a month. About eight lessons a month, one learner and one teacher.
+First class**USD 0**
+
+A full free lesson, then an honest recommendation.
+
+Group tuition**USD 100**
+
+About eight lessons a month in a group of fifteen to twenty.
+
+Private tuition**USD 150**
+
+About eight lessons a month, one learner and one teacher.
 
 Fees are in US dollars only, with no sterling list. Once the free trial has settled a course and a weekly time, billing begins; our pricing page explains holidays, absences and moving between group and private lessons.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Shetland%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Reviews
+
+## What people say on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Shetland lesson
+
+Say which isle you are on, the learner's age or stage, and what interests them. We might start with a Scratch game, a first Python program, or the coordinate converter on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Shetland Islands one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Shetland%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Shetland questions
+
+The islands, the Lerwick project and practical matters.
 
 ### How many people live in Shetland?
 
@@ -191,10 +309,14 @@ The trial lesson is free; afterwards a group place is USD 100 a month and one-to
 
 Yes. Pass on your school's holiday weeks and we leave them free.
 
+More island pages
+
 ## Beyond Shetland
 
 [Orkney](/coding-classes-in-orkney) shares out dyke repairs with a matching algorithm and [the Western Isles](/coding-classes-in-na-h-eileanan-siar) compare sunshine with daylight. [The Highlands](/coding-classes-in-highland) page draws arches with curves. Every council is on our [Scotland](/coding-and-ai-classes-in-scotland) page, and the [UK hub](/coding-classes-in-united-kingdom) covers the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Shetland%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-shetland](https://learn.modernagecoders.com/coding-classes-in-shetland#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-shetland*

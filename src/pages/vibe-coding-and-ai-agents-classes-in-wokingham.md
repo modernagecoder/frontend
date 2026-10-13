@@ -4,46 +4,32 @@ description: "Vibe coding, AI agents, Python and coding classes for Wokingham, E
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-wokingham
 source: src/pages/vibe-coding-and-ai-agents-classes-in-wokingham.html
 ---
-> The Office for National Statistics counted 50,325 usual residents in the Wokingham built-up area at the 2021 census. Emmbrook is recorded as a suburban area of the borough, and Barkham, Sindlesham and Finchampstead as villages in its RG40 and RG41 postcode districts. Anyone from six to 67 in these places can take vibe coding, AI agents, Python, coding and maths with us; teaching is by live video call and our tutors work from India. Lessons are one-to-one, or shared with fifteen to twenty learners who have reached the same point. The habit we build is to reason a problem through yourself and only then let a machine, or an AI, do the typing. Your first lesson costs nothing and finishes with our view of which course fits. For the Wokingham project, a software agent crosses the town on a map of 3,382 junctions while some roads are shut, and it learns about each closure only by driving up to it. Carrying on costs USD 100 each month in a shared class, or USD 150 each month with a tutor to yourself.
+> Vibe coding, AI agents, Python and coding classes for Wokingham, Emmbrook, Barkham and Finchampstead, ages 6 to 67. Live online tutors, first lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South East England](/coding-and-ai-classes-in-south-east-england) / Wokingham
-
-Wokingham, Berkshire, South East England / Live online
-
-# Vibe coding and AI agents classes in Wokingham
-
-**Which are the best vibe coding and AI agents classes in Wokingham?** The Office for National Statistics counted 50,325 usual residents in the Wokingham built-up area at the 2021 census. Emmbrook is recorded as a suburban area of the borough, and Barkham, Sindlesham and Finchampstead as villages in its RG40 and RG41 postcode districts. Anyone from six to 67 in these places can take vibe coding, AI agents, Python, coding and maths with us; teaching is by live video call and our tutors work from India. Lessons are one-to-one, or shared with fifteen to twenty learners who have reached the same point. The habit we build is to reason a problem through yourself and only then let a machine, or an AI, do the typing. Your first lesson costs nothing and finishes with our view of which course fits. For the Wokingham project, a software agent crosses the town on a map of 3,382 junctions while some roads are shut, and it learns about each closure only by driving up to it. Carrying on costs USD 100 each month in a shared class, or USD 150 each month with a tutor to yourself.
-
-A route planner that knows every closure in advance has an easy job: leave the shut roads out and find the shortest way. A delivery driver, a robot or an AI agent rarely has that luxury. It sets off with a map that was true yesterday and discovers today's surprises one at a time. Computer scientists call this the Canadian traveller problem, after a driver who cannot tell which roads are snowed in until reaching them. The interesting questions are how much further such a traveller goes than someone with perfect knowledge, and how much a little extra information is worth. This project measures both on the streets of Wokingham.
-
-Facts last verified 30 September 2026. Teaching is online; no Wokingham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentWhere to begin
 
 ## Four Wokingham starting courses
 
 Pick by age. All four begin with a live trial lesson that is free and needs no payment details.
 
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Vibe coding for children: they describe a Scratch game to an AI, then test every piece it hands back.
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): Learning how to think: plans, back-up plans and what to do when the first idea is blocked.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Teenagers vibe code in Python and on the web, and build the Wokingham replanning agent as a project.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Students and adults): Python from nothing to graph search, automation and agents that cope with surprises.
+[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsVibe coding for children: they describe a Scratch game to an AI, then test every piece it hands back.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsLearning how to think: plans, back-up plans and what to do when the first idea is blocked.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensTeenagers vibe code in Python and on the web, and build the Wokingham replanning agent as a project.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Masterclass course thumbnail](/images/python-college.webp)Students and adultsPython MasterclassPython from nothing to graph search, automation and agents that cope with surprises.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)The town in figures
 
 ## Wokingham, Emmbrook, Barkham and Finchampstead
 
 Two census counts and the place names the postcode gazetteer gives for the borough.
 
-**Wokingham town and borough, Census 2021 (ONS)**
-
 | Area | Usual residents |
-|---|---|
+| --- | --- |
 | Wokingham built-up area | 50,325 |
 | Wokingham borough (unitary authority) | 177,503 |
 
@@ -53,16 +39,16 @@ These are two separate published figures. The borough count covers other settlem
 
 See [coding classes in Berkshire](/coding-classes-in-berkshire), [Bracknell](/online-coding-and-python-classes-in-bracknell) and [Reading](/best-coding-class-in-reading). Our reasons for putting thinking ahead of tools are set out in [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Wokingham project
+
 ## The Canadian traveller problem on Wokingham streets
 
 The agent has the map. Nobody has told it which roads are shut today.
 
 One request to OpenStreetMap returns 2,839 mapped roads inside a box around Wokingham, from main roads to residential streets. The learner's program joins them into a network of 3,382 junctions and 3,712 links, 271.6 km of road in all. Then the experiment begins. The program picks two junctions at least 2 km apart by road and shuts each link at random with a fixed chance. The agent starts with the full map and no knowledge of the closures. Standing at a junction, it can see whether the roads leaving that junction are open. Each time it spots a closure it replans the shortest route using everything seen so far. We compare its journey with a hindsight route, the shortest one a traveller could take who knew every closure before setting out.
 
-**Replanning agent against the hindsight route, 500 Wokingham trips at each closure rate (our Python run, OpenStreetMap data)**
-
 | Links shut | Trips as short as hindsight | Average distance, hindsight = 1 | Worst trip |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 2% | 271 of 500 | 1.083 | 2.33 |
 | 5% | 142 of 500 | 1.232 | 3.66 |
 | 10% | 55 of 500 | 1.504 | 5.85 |
@@ -87,14 +73,14 @@ Run 500 trips, compare against hindsight, then test whether seeing one junction 
 
 Road data (C) OpenStreetMap contributors, Open Database Licence, read 30 September 2026. The network, the simulated closures and every figure are our own work. Roads that cross the edge of the box are cut there, and the results would shift with a different box or different random draws.
 
+Agents and surprises
+
 ## What blocked roads teach about vibe coding and AI agents
 
 An agent's plan is a guess about a world it has not fully seen.
 
-**From the Wokingham trips to agents in general**
-
 | Seen on the street network | What it means for an AI agent |
-|---|---|
+| --- | --- |
 | 271 of 500 trips matched hindsight | An optimistic plan is often fine |
 | The worst trip was 2.33 times longer | Judge an agent by its bad days too |
 | One junction of lookahead cut the factor to 1.066 | Checking ahead is cheaper than backtracking |
@@ -105,14 +91,37 @@ An AI agent is a program that is given a goal, chooses its own steps and uses to
 
 Modern Age Coders has no connection with OpenStreetMap, the Office for National Statistics or postcodes.io. We used their open data, and the calculations and any mistakes in them are ours.
 
+Stage by stage
+
 ## From paper mazes to agents that replan
 
 A year group suggests where to start, and the trial lesson confirms it.
 
-- **Years 2 to 6: How to think** Plans and fallback plans, worked out with pencil, paper and Scratch. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** The child is the director; the AI drafts; the child tests. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Vibe coding in Python** Route finders, web apps and search, each with tests written first. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Agents and automation** Python agents that use tools, handle failure and report what they did. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
+Years 2 to 6
+
+### How to think
+
+Plans and fallback plans, worked out with pencil, paper and Scratch.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+The child is the director; the AI drafts; the child tests.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Vibe coding in Python
+
+Route finders, web apps and search, each with tests written first.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Agents and automation
+
+Python agents that use tools, handle failure and report what they did.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)Agents and planning
 
 ## What is the Canadian traveller problem, and why must AI agents replan?
 
@@ -124,30 +133,139 @@ Letting it see one junction further raised that to 305 trips, which is a measure
 
 A teenager in Wokingham who has coded this knows what to ask of any AI agent in 2026: what does it do when a step fails? The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How lessons work
+
 ## A Wokingham lesson, start to finish
 
 The classroom is a video call. Bring a laptop or desktop with a webcam, and find a room without too much noise.
 
-- **Learner at the keyboard** The learner shares their screen and types. The tutor watches, asks and nudges.
-- **A trial that is a lesson** The free session is real teaching, and it shows us which course to suggest.
-- **Nothing to pay up front** We do not take card details to book the trial.
-- **Groups by level** Between five and ten classmates, all at one stage, logging in from different parts of the country.
-- **Two lessons a week** In term time, pausing for Berkshire school holidays once you tell us the dates.
-- **UK time, all year** Our tutors shift their day when the clocks change, so yours stays the same.
+### Learner at the keyboard
 
-**Why online suits this** Screen sharing shows the tutor each line as it is typed, and drawing on the whole country makes it possible to fill a class with learners at exactly one level.
+The learner shares their screen and types. The tutor watches, asks and nudges.
+
+### A trial that is a lesson
+
+The free session is real teaching, and it shows us which course to suggest.
+
+### Nothing to pay up front
+
+We do not take card details to book the trial.
+
+### Groups by level
+
+Between five and ten classmates, all at one stage, logging in from different parts of the country.
+
+### Two lessons a week
+
+In term time, pausing for Berkshire school holidays once you tell us the dates.
+
+### UK time, all year
+
+Our tutors shift their day when the clocks change, so yours stays the same.
+
+Why online suits this
+
+Screen sharing shows the tutor each line as it is typed, and drawing on the whole country makes it possible to fill a class with learners at exactly one level.
+
+Fees
 
 ## What Wokingham lessons cost
 
 One international price list covers all learners outside India.
 
-- First class: USD 0. First lesson: a full session, free, ending with a course recommendation.
-- Group tuition: USD 100 a month. Group of fifteen to twenty learners, about eight lessons each month.
-- Private tuition: USD 150 a month. One learner with one tutor, about eight lessons each month.
+First class**USD 0**
+
+First lesson: a full session, free, ending with a course recommendation.
+
+Group tuition**USD 100**
+
+Group of fifteen to twenty learners, about eight lessons each month.
+
+Private tuition**USD 150**
+
+One learner with one tutor, about eight lessons each month.
 
 We quote in US dollars only and do not publish a sterling figure. Billing begins after the trial, once a course and a weekly time are agreed. The pricing page covers holiday pauses, missed lessons and moving between group and one-to-one.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20you%20arrange%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Wokingham.)Reviews
+
+## What Berkshire families and other UK learners say on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Wokingham trial lesson
+
+Send us the learner's age or year group and something they enjoy. The first session might be a blocked-road puzzle on paper, a Scratch game built with an AI, some early Python, or a tiny route finder.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Wokingham one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20you%20arrange%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Wokingham.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Wokingham questions, answered
+
+Shut roads, replanning, what vibe coding is, and how lessons are run.
 
 ### How many people live in Wokingham?
 
@@ -189,10 +307,14 @@ The trial lesson is free. After it, group lessons are USD 100 per month and one-
 
 They can. Give us your holiday dates and we pause.
 
+Keep reading
+
 ## More Berkshire projects
 
 Other pages in the county take different problems: [Bracknell](/online-coding-and-python-classes-in-bracknell) (what a rain gauge rounds away), [Reading](/best-coding-class-in-reading) (errors building up along a chain of copies) and [Maidenhead](/ai-and-programming-classes-in-maidenhead). The [South East England page](/coding-and-ai-classes-in-south-east-england) and the [UK hub](/coding-classes-in-united-kingdom) list the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Ask us a question on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20you%20arrange%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Wokingham.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-wokingham](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-wokingham#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-wokingham*

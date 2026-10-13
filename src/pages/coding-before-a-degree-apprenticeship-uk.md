@@ -4,34 +4,28 @@ description: "Preparing for a software degree apprenticeship in England: how the
 canonical: https://learn.modernagecoders.com/coding-before-a-degree-apprenticeship-uk
 source: src/pages/coding-before-a-degree-apprenticeship-uk.html
 ---
-> In England, a degree apprenticeship is a paid job with training worth at least 20% of working hours, leading to a qualification at level 6 or 7, the equivalent of a bachelor's or master's degree. You must be 16 or over, living in England and not in full-time education to start, though you can apply while still at school. The employer decides who is taken on. For software roles, the Skills England Digital and technology solutions professional standard is a level 6 integrated degree with a typical duration of 48 months and a software engineering option, and it publishes the skills it assesses. In 2024/25 there were 60,350 apprenticeship starts at levels 6 and 7 in England. Modern Age Coders teaches students preparing for this route to code properly, finish a project and explain it, in live online lessons. We never write applications, sit online tests or touch NEA or T Level assessments. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
+> Preparing for a software degree apprenticeship in England: how the route works, what the level 6 standard asks, and the coding to learn first. First lesson free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Before a degree apprenticeship
+In short
 
-England · Year 12, Year 13 and college · Software routes
+In England, a degree apprenticeship is a paid job with training worth at least 20% of working hours, leading to a qualification at level 6 or 7, the equivalent of a bachelor's or master's degree. You must be 16 or over, living in England and not in full-time education to start, though you can apply while still at school. The employer decides who is taken on. For software roles, the Skills England Digital and technology solutions professional standard is a level 6 integrated degree with a typical duration of 48 months and a software engineering option, and it publishes the skills it assesses. In 2024/25 there were 60,350 apprenticeship starts at levels 6 and 7 in England. Modern Age Coders teaches students preparing for this route to code properly, finish a project and explain it, in live online lessons. We never write applications, sit online tests or touch NEA or T Level assessments. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
 
-# Coding before a degree apprenticeship
-
-A degree apprenticeship is a job first and a degree alongside it. On gov.uk's own description, an apprentice is an employee "earning a wage and getting holiday pay", with time for training and study of at least 20% of their normal working hours, and degree apprenticeships sit at levels 6 and 7, the equivalent of a bachelor's or master's degree. That changes who decides. There is no admissions tutor reading a personal statement: an employer is hiring. What makes an apprenticeship unusual, compared with a university place, is that the job is described in public before you apply. Skills England publishes the Digital and technology solutions professional standard, the level 6 integrated degree with a software engineering option, down to the individual skills it assesses, including "Initiate, design, code, test and debug a software component for a digital and technology solution." This page is for students in England in Year 12 or 13, or finishing a college course, who want to reach that point already able to code, with a finished project to talk about.
-
-At a glance: The route: A paid job plus a degree; Training time: At least 20% of working hours; Degree level: Levels 6 and 7; Software standard: Level 6, typical 48 months; Start age: 16 or over, living in England; We teach: Coding, projects, Git, SQL; We never do: Applications, tests, NEA or T Level work; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three courses to start with
 
 A first language taken seriously, the problem solving behind technical questions, and a real project. Each card opens the full syllabus.
 
-- [Python for Teens](/courses/python-complete-masterclass-teens): A complete route through Python, to the point of writing, testing and debugging real programs.
-- [Problem Solving and DSA](/courses/problem-solving-dsa-masterclass-teens): Breaking problems down and choosing data structures, the thinking under any technical task.
-- [Full Stack Web Development](/courses/full-stack-web-development-teens-masterclass): A complete application, front to back, to show and explain to an employer.
+[![Python for Teens course thumbnail](/images/python-teens.webp)  DAP / 01 Python for Teens A complete route through Python, to the point of writing, testing and debugging real programs. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)  DAP / 02 Problem Solving and DSA Breaking problems down and choosing data structures, the thinking under any technical task. Open the syllabus →](/courses/problem-solving-dsa-masterclass-teens)[![Full Stack Web Development for Teens course thumbnail](/images/web-dev-teens.webp)  DAP / 03 Full Stack Web Development A complete application, front to back, to show and explain to an employer. Open the syllabus →](/courses/full-stack-web-development-teens-masterclass)
+
+How the route works
 
 ## A job first, a degree alongside
 
 The rules for England, from gov.uk's guide to becoming an apprentice. Scotland, Wales and Northern Ireland run apprenticeships through different organisations.
 
-**Apprenticeship levels in England, as gov.uk lists them**
-
 | Name | Level | Equivalent educational level |
-|---|---|---|
+| --- | --- | --- |
 | Intermediate | 2 | GCSE |
 | Advanced | 3 | A level |
 | Higher | 4, 5, 6 and 7 | Foundation degree and above |
@@ -53,14 +47,14 @@ The practical consequence is the one this page is built on. A university place i
 
 Sources, read 21 September 2026: [gov.uk, Become an apprentice](https://www.gov.uk/become-apprentice) and [Apply for an apprenticeship](https://www.gov.uk/apply-apprenticeship).
 
+The standard
+
 ## Read the standard before you apply
 
 Every apprenticeship in England is built on a published occupational standard. For software, the one to read is the Digital and technology solutions professional standard on the Skills England site.
 
-**Digital and technology solutions professional (ST0119), version 1.2**
-
 | Field | As published |
-|---|---|
+| --- | --- |
 | Level | 6, integrated degree |
 | Typical duration | 48 months |
 | Options | Software engineering, IT consultant, business analyst, cyber security, computing data analyst and network engineering professional |
@@ -68,10 +62,8 @@ Every apprenticeship in England is built on a published occupational standard. F
 | Professional recognition | British Computer Society, Registered IT Technician (RITTech) |
 | This version from | 1 September 2023 |
 
-**Three of the standard's own statements, and what you can do about each before applying**
-
 | From the standard | What you can learn now |
-|---|---|
+| --- | --- |
 | Skill: "Initiate, design, code, test and debug a software component for a digital and technology solution." | Write programs from scratch in one language, test them and fix them yourself |
 | Knowledge: "Approaches to effective team work and the range of software development tools supporting effective teamwork. For example, configuration management, version control and release management." | Keep every project in Git from day one, with a history you can explain |
 | Behaviour: "Interacts professionally with people from technical and non-technical backgrounds." | Practise describing your project to someone who does not code, in plain words |
@@ -90,14 +82,14 @@ We use the standard to choose what to teach first. We do not claim that lessons 
 
 Source, read 21 September 2026: [Skills England, Digital and technology solutions professional](https://skillsengland.education.gov.uk/apprenticeships/st0119-v1-2) (fields read from the standard's published data) and [Software developer](https://skillsengland.education.gov.uk/apprenticeships/st0116-v1-2).
 
+The numbers
+
 ## How many degree apprenticeships start, and who starts them
 
 From the Department for Education's Apprenticeships statistics for the 2024/25 academic year, full-year final data first published in November 2025. Figures cover England.
 
-**Apprenticeship starts in England, 2024/25**
-
 | Measure | Published figure |
-|---|---|
+| --- | --- |
 | All apprenticeship starts | 353,500, up 4.1% on 2023/24 |
 | Starts at levels 6 and 7 | 60,350, up from 50,110 |
 | Share of all starts at levels 6 and 7 | 17.1% |
@@ -120,16 +112,16 @@ That is worth knowing as a sixth former: you may be applying alongside people wi
 
 Source, read 21 September 2026: [DfE, Apprenticeships, academic year 2024/25](https://explore-education-statistics.service.gov.uk/find-statistics/apprenticeships/2024-25). Level 6 and level 7 figures are as published; totals are the DfE's own.
 
+Not ready yet
+
 ## If a degree apprenticeship is a step too far for now
 
 Foundation apprenticeships, introduced for young people, include a digital route. gov.uk's toolkit for them was published on 2 September 2026.
 
 The toolkit describes foundation apprenticeships as "entry-level, paid jobs with structured training designed for young people aged 16 to 21", and for 22 to 24 year olds in certain circumstances, adding: "No prior qualifications or experience are required." They are level 2, cover six sectors including digital, and have a typical duration of 8 months with a minimum of 187 hours of off-the-job learning. Anyone aged 25 or over cannot start one.
 
-**The software and data foundation apprenticeship, as the toolkit describes it**
-
 | Field | As published |
-|---|---|
+| --- | --- |
 | Purpose | "To introduce apprentices to data handling and software support roles across all sectors." |
 | What apprentices do | Collect, format, store and validate data; support software development and testing under guidance; help manage data and software functions |
 | Included occupations | Data technician, software development technician, IT solutions technician, digital support technician, cyber security technician, information communications technician |
@@ -139,14 +131,14 @@ The toolkit notes that "The apprentice and employer may benefit from recognition
 
 Source, read 21 September 2026: [gov.uk, Foundation apprenticeships toolkit](https://www.gov.uk/government/publications/resources-for-promoting-the-growth-and-skills-levy/foundation-apprenticeships-accessible-version-of-toolkit), published 2 September 2026. Funding amounts in the toolkit are left out here.
 
+Preparing
+
 ## What to have ready before you apply
 
 Our own teaching advice, based on the standard's skills rather than any employer's selection process.
 
-**Five things worth having**
-
 | Have ready | Why | Where we teach it |
-|---|---|---|
+| --- | --- | --- |
 | One language to a working level | The standard's first coding skill is to design, code, test and debug a component | Python or Java, taken past the basics |
 | A finished project | Something concrete to discuss, start to finish | A web, data or game project you choose |
 | A Git history | Version control is named in the standard's knowledge | Git and GitHub from the first lesson |
@@ -165,14 +157,14 @@ Both lead to degrees and both suit people who like to code. A degree apprentices
 
 If university is the likelier path, [coding for university students](/coding-for-university-students-uk) looks at what happens after a computing degree.
 
+Stages
+
 ## Four stages before applying
 
 Year 12 is a sensible time to start; placement follows what you can already do.
 
-**From first programs to application-ready**
-
 | Stage | What should be true |
-|---|---|
+| --- | --- |
 | 1. Working basics | You write and debug short programs in one language without help |
 | 2. Structure | You break a problem into functions and choose sensible data structures |
 | 3. A finished project | One project is complete, in Git, with a short README |
@@ -181,63 +173,293 @@ Year 12 is a sensible time to start; placement follows what you can already do.
 ### Stage three matters most
 
 A finished project turns interest into evidence.
+
 The full sequence of topics is on the [coding roadmap](/coding-roadmap).
 
 ### Around A levels
 
 Lessons fit around school work and pause easily in exam season, as billing is monthly.
+
 Nothing in a lesson overlaps with work you submit for assessment.
+
+The catalogue
 
 ## Nine courses for future apprentices
 
 Grouped by stage. The free lesson settles where to begin.
 
+I
+
 ### A first language
 
 To a working level
 
-- [Python for Teens](/courses/python-complete-masterclass-teens): Clear, readable, and used across software and data.
-- [Java for Teens](/courses/java-programming-masterclass-for-teens): Object-oriented programming, common in large organisations.
-- [Problem Solving and DSA](/courses/problem-solving-dsa-masterclass-teens): Algorithms and data structures, one step at a time.
+DAP / LANG / 01
+
+#### Python for Teens
+
+Clear, readable, and used across software and data.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+DAP / LANG / 02
+
+#### Java for Teens
+
+Object-oriented programming, common in large organisations.
+
+[Open the syllabus](/courses/java-programming-masterclass-for-teens)
+
+DAP / LANG / 03
+
+#### Problem Solving and DSA
+
+Algorithms and data structures, one step at a time.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)II
 
 ### Working tools
 
 What a team uses
 
-- [Git and GitHub for Teens](/courses/git-github-version-control-course-for-teens): Version control, named in the standard itself.
-- [MySQL for Teens](/courses/mysql-mastery-for-teens): Databases and SQL from the ground up.
-- [Backend Coding for Teens](/courses/backend-coding-masterclass-for-teens): Servers, APIs and the logic behind applications.
+DAP / TOOL / 01
+
+#### Git and GitHub for Teens
+
+Version control, named in the standard itself.
+
+[Open the syllabus](/courses/git-github-version-control-course-for-teens)
+
+DAP / TOOL / 02
+
+#### MySQL for Teens
+
+Databases and SQL from the ground up.
+
+[Open the syllabus](/courses/mysql-mastery-for-teens)
+
+DAP / TOOL / 03
+
+#### Backend Coding for Teens
+
+Servers, APIs and the logic behind applications.
+
+[Open the syllabus](/courses/backend-coding-masterclass-for-teens)III
 
 ### Projects and options
 
 Pointing at an option
 
-- [Full Stack Web Development](/courses/full-stack-web-development-teens-masterclass): For the software engineering option.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data): For the computing data analyst option.
-- [Cyber Security for Teens](/courses/cybersecurity-course-for-teens-ethical-defensive): For the cyber security option, taught defensively.
+DAP / PROJ / 01
+
+#### Full Stack Web Development
+
+For the software engineering option.
+
+[Open the syllabus](/courses/full-stack-web-development-teens-masterclass)
+
+DAP / PROJ / 02
+
+#### Data Science for Teens
+
+For the computing data analyst option.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)
+
+DAP / PROJ / 03
+
+#### Cyber Security for Teens
+
+For the cyber security option, taught defensively.
+
+[Open the syllabus](/courses/cybersecurity-course-for-teens-ethical-defensive)
+
+How lessons run
 
 ## Live lessons after school
 
 Teaching comes from India, which keeps the same clock all year. The UK is four and a half hours behind India in British Summer Time and five and a half behind in winter, so after-school and weekend slots in UK time are straightforward.
 
-- **After school** Early evening on a weekday, UK time.
-- **Saturday** A longer session for project work.
-- **Sunday** For students with Saturday jobs.
+After school
 
-- **A free first lesson** We see where you are and suggest a route towards the option you are interested in.
-- **Groups** Fifteen to twenty students at the same level.
-- **One to one** For a faster pace or a specific deadline.
-- **Projects you choose** Your project, in your own GitHub account, so it stays yours.
-- **Code read line by line** A teacher reads your program and explains what to improve.
-- **Assessed work untouched** Nothing you submit for A levels or a T Level is ever worked on in a lesson.
+Early evening on a weekday, UK time.
+
+Saturday
+
+A longer session for project work.
+
+Sunday
+
+For students with Saturday jobs.
+
+### A free first lesson
+
+We see where you are and suggest a route towards the option you are interested in.
+
+### Groups
+
+Fifteen to twenty students at the same level.
+
+### One to one
+
+For a faster pace or a specific deadline.
+
+### Projects you choose
+
+Your project, in your own GitHub account, so it stays yours.
+
+### Code read line by line
+
+A teacher reads your program and explains what to improve.
+
+### Assessed work untouched
+
+Nothing you submit for A levels or a T Level is ever worked on in a lesson.
+
+Student work
+
+## Projects built by our students
+
+Four projects finished by our students. The wider collection is in [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 One monthly fee in US dollars, the same outside India, with no enrolment fee and no commitment beyond the month, so lessons can stop for exams or a new job.
 
-- Free first class: USD 0. A look at your current level. A suggested route towards your option. No payment details needed.
-- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher each week. A project of your own. Stop at the end of any month.
-- One to one: USD 150 a month. A teacher for you alone. A pace set around school. Useful before a specific deadline.
+Free first class
+
+USD 0
+
+no card required
+
+- A look at your current level
+- A suggested route towards your option
+- No payment details needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students at one level
+- The same teacher each week
+- A project of your own
+- Stop at the end of any month
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for you alone
+- A pace set around school
+- Useful before a specific deadline
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+From Google, unedited: reviews by our students and their parents.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about degree apprenticeships
 
 ## What students and parents ask
 
@@ -281,15 +503,54 @@ The first lesson is free. After that it is USD 100 a month in a group or USD 150
 
 The rules on this page are for England. The other nations run apprenticeships through their own organisations, though the coding skills are the same.
 
+Elsewhere on this site
+
 ## Related pages
 
-- [Coding for university students](/coding-for-university-students-uk): The degree route, and what came after it for recent graduates.
-- [T Level digital coding help](/t-level-digital-coding-help): For students on the college route.
-- [A level Computer Science NEA](/a-level-computer-science-nea-help): Where we help, and where we never do.
-- [Coding classes for teens](/best-coding-classes-for-teens-uk): How we teach teenagers.
-- [Python classes online](/best-python-classes-online-uk): The usual first language.
-- [Coding classes in the UK](/coding-classes-in-united-kingdom): All our UK pages together.
+The other routes, and the assessment lines we hold.
 
-## Contact
+### [Coding for university students](/coding-for-university-students-uk)
 
-Book the free first class at [https://learn.modernagecoders.com/coding-before-a-degree-apprenticeship-uk](https://learn.modernagecoders.com/coding-before-a-degree-apprenticeship-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The degree route, and what came after it for recent graduates.
+
+### [T Level digital coding help](/t-level-digital-coding-help)
+
+For students on the college route.
+
+### [A level Computer Science NEA](/a-level-computer-science-nea-help)
+
+Where we help, and where we never do.
+
+### [Coding classes for teens](/best-coding-classes-for-teens-uk)
+
+How we teach teenagers.
+
+### [Python classes online](/best-python-classes-online-uk)
+
+The usual first language.
+
+### [Coding classes in the UK](/coding-classes-in-united-kingdom)
+
+All our UK pages together.
+
+Start here
+
+## Book a free first lesson
+
+Leave a number and we will call at a UK time that suits you or a parent. Tell us which option interests you; the lesson checks your level and ends with a plan for the months before you apply.
+
+Reading first? The [course pages](/courses) list each syllabus, [how we teach](/how-we-teach) explains the method, and [student labs](/student-labs) shows what students finish.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20preparing%20for%20a%20degree%20apprenticeship%20in%20England%20and%20would%20like%20a%20free%20first%20coding%20lesson.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp from a UK number is the quickest way to reach us. We are based in India, so the number starts +91, and we have no UK office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-before-a-degree-apprenticeship-uk*

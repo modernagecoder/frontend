@@ -12,7 +12,7 @@ LIVE ONLINE · LANSDOWNE · SARAT BOSE ROAD
 
 Modern Age Coders runs premium, live online coding and maths classes for families near Lansdowne and Sarat Bose Road, Kolkata. We teach Python, Java, AI/ML and all-boards maths in live batches of 15–20, never pre-recorded videos, led by full-time engineers and maths graduates. Your child finishes 6 PM maths with the local tutor and starts 7:30 PM Python from the same chair, no commute through Lansdowne crossing traffic.
 
-Live & teacher-led, never recordedSmall batches of 6–8ICSE · ISC · CBSE · IGCSE alignedBangla / Hindi / English on request[Book Free Demo Class](/book-demo)[Explore Courses](/courses)6–8Students per live batch₹1,499Starting fee per month2xFixed live sessions a week0Minutes of commuteLIVE ONLINE · LANSDOWNE, KOLKATA
+Live & teacher-led, never recordedBatches of 15–20ICSE · ISC · CBSE · IGCSE alignedBangla / Hindi / English on request[Book Free Demo Class](/book-demo)[Explore Courses](/courses)15–20Students per live batch₹1,499Starting fee per month2xFixed live sessions a week0Minutes of commuteLIVE ONLINE · LANSDOWNE, KOLKATA
 
 ## At a glance
 

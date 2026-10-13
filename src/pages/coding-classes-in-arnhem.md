@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes in Arnhem for ages 6 to 
 canonical: https://learn.modernagecoders.com/coding-classes-in-arnhem
 source: src/pages/coding-classes-in-arnhem.html
 ---
-> Coding classes in Arnhem serve a municipality of 171,822 people (Statistics Netherlands, 1 January 2026), the capital of Gelderland and its second city. Its most heavily documented week is September 1944, and the published figures for it will not reconcile: about 7,100 British troops landed in the first two lifts, while the recorded dead, the recorded prisoners and the recorded evacuation across the Rhine total 10,003. Nothing there is a lie. The categories overlap and the frames differ, and knowing that before you add is the whole of data work. Modern Age Coders teaches live online in English across the municipality, ages 6 to 67, first lesson free, then USD 100 a month in a group of fifteen to twenty or USD 150 one-to-one.
+> Live online coding, Python and AI classes in Arnhem for ages 6 to 67, from Elden and Schaarsbergen to the city centre. First lesson free, then one flat monthly fee.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Arnhem
-
-Arnhem, Gelderland / Live online
-
-# Coding classes in Arnhem, where three published categories add up to more men than ever landed
-
-**What are the best coding classes in Arnhem?** Coding classes in Arnhem serve a municipality of 171,822 people (Statistics Netherlands, 1 January 2026), the capital of Gelderland and its second city. Its most heavily documented week is September 1944, and the published figures for it will not reconcile: about 7,100 British troops landed in the first two lifts, while the recorded dead, the recorded prisoners and the recorded evacuation across the Rhine total 10,003. Nothing there is a lie. The categories overlap and the frames differ, and knowing that before you add is the whole of data work. Modern Age Coders teaches live online in English across the municipality, ages 6 to 67, first lesson free, then USD 100 a month in a group of fifteen to twenty or USD 150 one-to-one.
-
-Take three sourced figures about one week in this city: about 1,500 British dead, 6,340 taken prisoner, and 2,163 brought back across the Nederrijn on the night of 25 September 1944. Add them and you get 10,003 men from a force of roughly 7,100. The arithmetic is right and the sources are serious, so the fault is in the addition: a man wounded and captured appears in two of those counts, and the tallies were compiled over different periods and different formations. These were people, and getting their number right is a form of care. It is also the first lesson of every real dataset.
-
-Facts last verified 7 September 2026. Teaching is online; no Arnhem branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Arnhem
 
 ## Four courses for a city that has to be careful with its records
 
 A groep 5 child in Elden, a teenager in Schaarsbergen who wants to be the one who writes the tools, a student at one of the city's applied academies who needs algorithms rather than frameworks, and a parent in Presikhaaf whose reports never quite reconcile: four doors into one city.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 8 to 12): Logic, sets and the habit of checking an answer, in English, for the groep 5 to 8 child who likes being right for the right reason.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Python from the first line to real projects across two years, for the teenager whose school timetable has no room for informatica.
-- [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college) (College and adult): Sets, maps, complexity and interview-ready problem solving, for the student who wants to know why a structure is chosen and not only how to call it.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): Excel, Sheets and Power BI with AI, for the working parent whose monthly figures come from three systems that disagree.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 8 to 12Problem Solving and Computational Thinking for KidsLogic, sets and the habit of checking an answer, in English, for the groep 5 to 8 child who likes being right for the right reason.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensPython from the first line to real projects across two years, for the teenager whose school timetable has no room for informatica.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Structures & Algorithms Course course thumbnail](/images/dsa-college.webp)College and adultData Structures & Algorithms CourseSets, maps, complexity and interview-ready problem solving, for the student who wants to know why a structure is chosen and not only how to call it.See the syllabus](/courses/data-structures-algorithms-masterclass-college)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)Excel, Sheets and Power BI with AI, for the working parent whose monthly figures come from three systems that disagree.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Arnhem today
 
 ## The provincial capital, the second city, and half its households of one
 
@@ -52,7 +40,11 @@ The national register held 171,822 people in the municipality on 1 January 2026,
 
 Arnhem is the seat of the province of Gelderland and its eleventh-largest municipality in the country, and it is nonetheless smaller than Nijmegen, twenty minutes down the road. Being the capital and not the largest is a distinction this cluster has met before, and it is worth saying plainly rather than letting a reader assume.
 
-**A city on the Nederrijn, under the Veluwe** Arnhem received city rights on 13 July 1233 from Count Otto the Second of Gelre. It sits on the north bank of the Nederrijn with the Veluwe rising behind it: the Veluwezoom, 5,000 hectares and the first national park in the country, declared in 1930, whose Signaal Imbosch at 109.9 metres is also the highest point in Gelderland. Burgers' Zoo, founded by Johan Burgers in 1913 and moved here in 1923, covers 45 hectares and recorded 1,074,594 visitors in 2024.
+A city on the Nederrijn, under the Veluwe
+
+Arnhem received city rights on 13 July 1233 from Count Otto the Second of Gelre. It sits on the north bank of the Nederrijn with the Veluwe rising behind it: the Veluwezoom, 5,000 hectares and the first national park in the country, declared in 1930, whose Signaal Imbosch at 109.9 metres is also the highest point in Gelderland. Burgers' Zoo, founded by Johan Burgers in 1913 and moved here in 1923, covers 45 hectares and recorded 1,074,594 visitors in 2024.
+
+Where the learners are
 
 ## Twenty-four wijken, two villages and a river through the middle
 
@@ -84,6 +76,8 @@ The smallest named places in the municipality, along with parts of Terlet and De
 
 The class reaches every one of them at one hour, and the only thing that determines placement is what the learner can already do.
 
+Verified local facts
+
 ## Every figure and its source, and the arithmetic that refuses to close
 
 The national count, the municipal entry, the bridge, the park, the zoo, and the published tallies for September 1944 exactly as their sources give them.
@@ -114,6 +108,8 @@ The Veluwezoom: 5,000 hectares, given in the same entry as 50 square kilometres;
 
 Modern Age Coders has no connection to the municipality, the park, the zoo or any school named here, and claims none. The 1944 figures are quoted because they are the best-documented numbers this city has and because the people behind them deserve arithmetic that is done properly.
 
+Signature project
+
 ## Ten thousand from seven thousand: build the program that refuses to add overlapping categories
 
 Four published tallies, one week, one force, and a sum that comes out 41 percent larger than the number of people it is supposed to describe.
@@ -130,10 +126,8 @@ About 1,500 dead plus 6,340 prisoners is 7,840, already 740 more than landed. Ad
 
 The learner lists the reasons the sum overshoots, and none of them is dishonesty: a man wounded and then captured belongs to two tallies; men who died in captivity may sit in both; the prisoner count runs past 25 September while the landing count stops on 18 September; the Polish troops are tallied separately at 103 and 300; and the 30,000 figure covers a wider operation entirely. Different populations, different windows, one addition.
 
-**Four published tallies for September 1944, and what may be added to what**
-
 | Figure | As published | Population it describes | Window | Safe to add to the others? |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Landed 17 September | about 5,200 | British airborne, first lift | 17 September | yes, to the second lift |
 | Landed 18 September | about 1,900 | British airborne, second lift | 18 September | yes, to the first lift |
 | Dead | about 1,500 | British | not stated in the source | no, overlaps with prisoners |
@@ -145,14 +139,14 @@ The learner lists the reasons the sum overshoots, and none of them is dishonesty
 
 Addition assumes two things that data almost never guarantees: that no case belongs to both categories, and that both categories are drawn from the same set of people over the same period. Here neither holds. A soldier who was wounded, captured and later died can be inside three of these tallies at once, and the evacuation figure has a denominator of about 2,500 rather than 7,100. The overshoot of 2,903 is therefore information, not error: it is the record telling you that these columns were compiled for different purposes. The right response is not to pick the number you like but to say which population each figure describes and to stop adding across them. Every figure above is quoted from its source, the two landing figures are the only ones this page sums, and the table was built before this paragraph was written. These were people, and that is precisely why the arithmetic has to be honest.
 
+Reliable pipeline
+
 ## Five habits for any set of totals you are tempted to add
 
 Customers by channel, patients by diagnosis, students by programme, incidents by cause, users by device: real categories overlap constantly, and the plus sign does not warn you. Practised on the record this city knows best.
 
-**When two totals are about to be summed**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Name the population | Write down whose members each figure counts, before adding anything | Landings and prisoners treated as one set | A ceiling every total must respect |
 | Check the window | Confirm both figures cover the same period | A count to 18 September added to one running past 25 | Comparable columns |
 | Test for overlap | Ask whether one case can appear in both; if yes, do not add | A wounded prisoner counted twice | Sums that mean something |
@@ -173,14 +167,37 @@ The same discipline on a report from work in which category totals exceed the he
 
 The population, household, area, school, park, zoo and bridge figures come from the offices and entries named beside them. The two landing figures are the only ones this page adds; the 7,840, the 10,003 and the 2,903 are shown precisely as what a wrong addition produces, and are labelled as such.
 
+Learning ladder
+
 ## From two hoops on the floor to a function that refuses to add
 
 The starting rung is decided during the free hour, and the postcode plays no part in that decision.
 
-- **Ages 6 to 10: Standing in both hoops** Children discover the overlap by being in it, and subtract it once. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 11 to 13: Sets, unions and intersections** Learners write union and intersection in Python and check totals against a ceiling. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 14 to 18: Numbers that carry their definitions** Teenagers store population and window with every figure and make addition refuse mismatches. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Segments that sum past the whole** Adults audit a live report whose categories overlap and rebuild it with the intersections named. [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Standing in both hoops
+
+Children discover the overlap by being in it, and subtract it once.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 11 to 13
+
+### Sets, unions and intersections
+
+Learners write union and intersection in Python and check totals against a ceiling.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### Numbers that carry their definitions
+
+Teenagers store population and window with every figure and make addition refuse mismatches.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Segments that sum past the whole
+
+Adults audit a live report whose categories overlap and rebuild it with the intersections named.
+
+[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## An AI will add the casualty figures for you without blinking. Why should a child in Arnhem learn to stop it?
 
@@ -192,30 +209,139 @@ So the learner writes the version that keeps them. Not because the syntax is har
 
 The case for an Arnhem child learning to code in 2026 is therefore not that they will work in archives. It is that numbers arrive stripped of their definitions, that adding them anyway is the commonest mistake in professional life, and that the habit of asking whose members these are is best learned once, carefully, on a record that matters. The longer argument is in [the longer argument for teaching a child to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for a city split by a river and backed onto a national park
 
 Schaarsbergen is up on the heath, Elden is over the water, and the centre is a climb from both. None of that matters to a lesson that arrives through the connection.
 
-- **No bridge, no hill, no bus** The lesson happens at home in Elden, Schaarsbergen or Presikhaaf at one fixed hour a week, in January as readily as in June.
-- **English throughout, Dutch school words kept** The teaching language is English. Groep, havo, vwo and profielkeuze stay in Dutch because those are the words the child meets at school, and nothing is translated in either direction.
-- **What the first hour produces** A piece of work that shows the real level, the name of the course that fits it, and a weekly slot. Nobody is asked for payment details to arrange any of it.
-- **Level decides the group** Two learners at the same stage share a group whether one is in Schaarsbergen and the other south of the river; two at different stages do not, however near they live.
-- **Two lessons a week, on the middle calendar** Usually eight lessons a month at one fixed time. Arnhem lies in the northern part of Gelderland, which takes its holidays with regio Midden, and the family's weeks away are settled before the slot is.
-- **A gap of three and a half or four and a half hours** Only the Dutch clock moves, so the distance to the teacher is shorter from late March to late October and longer through the winter. Either way the overlap covers late afternoon, early evening and the whole weekend.
+### No bridge, no hill, no bus
 
-**A city that had to be rebuilt and knows what its records cost** Arnhem was fought over for nine days in September 1944 and rebuilt afterwards, and it keeps its account of that week in museums, on the bridge and in the street names. It is a good place to teach a child that a number stands for something, and that adding two of them carelessly is a way of getting people wrong.
+The lesson happens at home in Elden, Schaarsbergen or Presikhaaf at one fixed hour a week, in January as readily as in June.
+
+### English throughout, Dutch school words kept
+
+The teaching language is English. Groep, havo, vwo and profielkeuze stay in Dutch because those are the words the child meets at school, and nothing is translated in either direction.
+
+### What the first hour produces
+
+A piece of work that shows the real level, the name of the course that fits it, and a weekly slot. Nobody is asked for payment details to arrange any of it.
+
+### Level decides the group
+
+Two learners at the same stage share a group whether one is in Schaarsbergen and the other south of the river; two at different stages do not, however near they live.
+
+### Two lessons a week, on the middle calendar
+
+Usually eight lessons a month at one fixed time. Arnhem lies in the northern part of Gelderland, which takes its holidays with regio Midden, and the family's weeks away are settled before the slot is.
+
+### A gap of three and a half or four and a half hours
+
+Only the Dutch clock moves, so the distance to the teacher is shorter from late March to late October and longer through the winter. Either way the overlap covers late afternoon, early evening and the whole weekend.
+
+A city that had to be rebuilt and knows what its records cost
+
+Arnhem was fought over for nine days in September 1944 and rebuilt afterwards, and it keeps its account of that week in museums, on the bridge and in the street names. It is a good place to teach a child that a number stands for something, and that adding two of them carelessly is a way of getting people wrong.
+
+Fees
 
 ## The fee, in dollars, for every address in the municipality
 
 Put on the page so that nobody has to ask for it.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 One international rate applies and it is quoted in dollars, with no euro list beside it, so a family in Schaarsbergen sees exactly what a family in the centre sees. Payment follows the free lesson rather than preceding it, and it goes over WhatsApp once a course and a time are agreed. Pauses, plan changes and missed weeks are described on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Arnhem.)Reviews
+
+## Six families, in the words they used on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Give us the level; the side of the river is optional
+
+The first task might be two hoops on the floor and a class that will not fit in them, six figures in Python that refuse to be added, or a dashboard from work whose segments sum past the total.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Arnhem one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Arnhem.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Arnhem coding class questions
+
+The city, its record, its districts, the teaching and the terms.
 
 ### Why does a coding page use the September 1944 figures?
 
@@ -257,10 +383,14 @@ The first lesson is free. Group tuition is USD 100 a month for two live lessons 
 
 Between five and ten, matched on level, pace and goal rather than on age, school or district. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.
 
+Explore the Netherlands
+
 ## Downstream, up the province, and out to the country
 
 Twenty minutes down the Waal is [Nijmegen](/coding-classes-in-nijmegen), larger than the capital and arguing about its own age; both sit inside [Gelderland](/coding-classes-in-gelderland), a province cut between two holiday calendars. Above them all is the [Netherlands coding hub](/coding-classes-in-netherlands), and anyone aiming at a trained model rather than a written program should look at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Arnhem.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-arnhem](https://learn.modernagecoders.com/coding-classes-in-arnhem#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-arnhem*

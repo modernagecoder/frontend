@@ -24,7 +24,7 @@ Book the free first class[Ask on WhatsApp](https://wa.me/919123366161?text=Hello
 
 No card. No obligation. We call, we do not spam.
 
-10,000+students taught4.9across 547 Google reviews2020teaching since25+countries6 to 67ages taught5 to 8students per groupCourse picks
+10,000+students taught4.9across 547 Google reviews2020teaching since25+countries6 to 67ages taught15 to 20students per groupCourse picks
 
 ## Count, query, analyse and prove
 
@@ -179,7 +179,7 @@ Adults document sources, grouping and aggregation rules.
 
 [MySQL Database](/courses/mysql-database-complete-masterclass-college)[Data Analytics Mathematics](/courses/data-analytics-mathematics-masterclass)Delivery
 
-## Live online work in a group or private class
+## Live online work in a small group or private class
 
 ### Free first class
 

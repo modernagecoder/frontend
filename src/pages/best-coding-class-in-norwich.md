@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths classes for Norwich learn
 canonical: https://learn.modernagecoders.com/best-coding-class-in-norwich
 source: src/pages/best-coding-class-in-norwich.html
 ---
-> Census 2021 found 143,922 usual residents in Norwich, and 11.4% of them were aged 20 to 24, against 6.0% across England. Norwich Cathedral was founded in 1096 by Herbert de Losinga, the first Bishop of Norwich. Anyone in Norwich from six to sixty-seven can learn with us live on screen, alone with a teacher or among fifteen to twenty classmates of similar ability; the teachers are in India and the timetable runs on UK time. Your first lesson costs nothing. A group place then costs USD 100 a month, and private teaching USD 150.
+> Live online coding, Python, AI and maths classes for Norwich learners aged 6 to 67, from Eaton and Thorpe Hamlet to Mile Cross. Your first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Norwich
-
-Norwich, Norfolk / Live online
-
-# Coding classes in Norwich
-
-**What are the best coding classes in Norwich?** Census 2021 found 143,922 usual residents in Norwich, and 11.4% of them were aged 20 to 24, against 6.0% across England. Norwich Cathedral was founded in 1096 by Herbert de Losinga, the first Bishop of Norwich. Anyone in Norwich from six to sixty-seven can learn with us live on screen, alone with a teacher or among fifteen to twenty classmates of similar ability; the teachers are in India and the timetable runs on UK time. Your first lesson costs nothing. A group place then costs USD 100 a month, and private teaching USD 150.
-
-Historic England lists 34 Grade I churches, chapels and cathedral buildings inside Norwich. Are they clustered or evenly spaced? Measure each one's distance to its nearest neighbour and compare the average with what random scattering would give. Across the whole council area the churches sit far closer together than random, a ratio of 0.453, strongly clustered. Draw the frame tightly around the churches themselves and the same 34 points become more evenly spaced than random, a ratio of 1.351, and in 499 random layouts only about one in fifty spread out as much. Nothing about the churches changed. Only the frame did. Our teenagers learn to run the test, and to say which frame they chose.
-
-Facts last verified 22 September 2026. Teaching is online; no Norwich branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Norwich
 
 ## Four courses for the fine city
 
 Choose by the learner's interests. Each course opens with a free live lesson, and booking never needs a card.
 
-- [Elementary Maths for Grades 1-5](/courses/elementary-mathematics-complete-masterclass) (Ages 6 to 11): Measuring, averaging and comparing from the first years of school, with maps and distances that children can check with a ruler.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 18): Real datasets in Python, including coordinates, distances and the simulations that test whether a pattern is real.
-- [High School Mathematics](/courses/complete-high-school-mathematics-mastery) (Ages 13 to 18): Secondary maths in depth: statistics, probability and the geometry of distance that point patterns depend on.
-- [Data Science Course](/courses/data-science-complete-masterclass-college) (University and adult): Data science for adults, from reading spatial data to simulation-based tests that make no convenient assumptions.
+[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)Ages 6 to 11Elementary Maths for Grades 1-5Measuring, averaging and comparing from the first years of school, with maps and distances that children can check with a ruler.See the syllabus](/courses/elementary-mathematics-complete-masterclass)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 18Data Science for TeensReal datasets in Python, including coordinates, distances and the simulations that test whether a pattern is real.See the syllabus](/courses/data-science-course-for-teens-python-data)[![High School Mathematics course thumbnail](/images/high-school-maths.webp)Ages 13 to 18High School MathematicsSecondary maths in depth: statistics, probability and the geometry of distance that point patterns depend on.See the syllabus](/courses/complete-high-school-mathematics-mastery)[![Data Science Course course thumbnail](/images/data-science-college.webp)University and adultData Science CourseData science for adults, from reading spatial data to simulation-based tests that make no convenient assumptions.See the syllabus](/courses/data-science-complete-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Norwich today
 
 ## A young city inside a tight boundary
 
 Figures from Census 2021 for the Norwich council area, taken from Nomis and printed exactly as the Office for National Statistics released them.
 
-**Norwich, Census 2021**
-
 | Measure | Norwich | England |
-|---|---|---|
+| --- | --- | --- |
 | Usual residents | 143,922 | 56,490,048 |
 | Living in households | 137,487 | Not compared |
 | Living in communal establishments | 6,435 | Not compared |
@@ -67,6 +53,8 @@ The council boundary hugs the built-up city, so its 3,688.2 residents per square
 
 Our Norwich classes reflect that range. A Year 2 child in Eaton might be learning to measure and compare, a Year 11 student in Lakenham revising for GCSE Computer Science, and a graduate in Thorpe Hamlet learning Python for a data role, each in a small group at the same level.
 
+Stone and spire
+
 ## A Norman cathedral and a city of churches
 
 From Norwich Cathedral's own account of its story and highlights.
@@ -85,16 +73,18 @@ The Cathedral calls itself the most complete Norman cathedral in England, and ho
 
 We have no connection with Norwich Cathedral. It opens this page because the cathedral is one of 34 Grade I church buildings in the city, alongside parish churches such as St Peter Mancroft, St Michael Coslany and St Stephen. A city with that many old churches invites a simple question that turns out to need statistics to answer: were they placed in clumps, at random, or at a steady spacing?
 
-**Where the points come from** Historic England publishes the National Heritage List for England as open data under the Open Government Licence. Inside the Norwich boundary it has 1,037 list entries: 850 at Grade II, 125 at Grade II* and 62 at Grade I. Of the 62, those named as a church, chapel or cathedral number 34.
+Where the points come from
+
+Historic England publishes the National Heritage List for England as open data under the Open Government Licence. Inside the Norwich boundary it has 1,037 list entries: 850 at Grade II, 125 at Grade II* and 62 at Grade I. Of the 62, those named as a church, chapel or cathedral number 34.
+
+Signature project
 
 ## Are Norwich's churches clustered or evenly spaced?
 
 The Clark-Evans ratio divides the average nearest-neighbour distance by the distance randomness would produce. Below 1 means clustered, above 1 means evenly spaced.
 
-**Nearest-neighbour tests on Norwich's Grade I list entries, with two choices of study area**
-
 | Points | Study area | Observed | Random would give | Ratio |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | 34 churches | Whole council area, 39.00 km2 | 243 m | 535 m | 0.453, clustered |
 | 34 churches | Tight outline round the churches, 4.39 km2 | 243 m | 180 m | 1.351, evenly spaced |
 | All 62 Grade I entries | Whole council area | 152 m | 397 m | 0.383, clustered |
@@ -118,14 +108,14 @@ Over the whole council area, none of 499 random layouts had gaps as small as the
 
 The two results fit what a city of parish churches would look like. Churches were built close together in the medieval centre, which is why they cluster against the modern boundary, and each served its own parish, which is why, among themselves, they keep a steady spacing. The statistics cannot prove that story, but they can rule out the idea that the churches are simply scattered at random.
 
+Patterns in points
+
 ## Five questions before calling a pattern real
 
 Learned on churches, then used on trees, shops, stars in a telescope image, cells under a microscope and any map of dots.
 
-**Testing a point pattern honestly**
-
 | Question | For the Norwich churches | What it prevents |
-|---|---|---|
+| --- | --- | --- |
 | What is a point? | 34 Grade I entries named as churches, chapels or the cathedral | Mixing buildings with walls, gates and houses |
 | What is the frame? | Council area and tight outline, both reported | Choosing the frame that gives the answer you wanted |
 | What is random here? | Uniform scatter inside the same frame | A yardstick that does not match the map |
@@ -148,14 +138,37 @@ Spatial statistics for work with locations of any kind, reported with the frame,
 
 We have no connection with Historic England, Norwich Cathedral or Norwich City Council. Historic England and the ONS publish the list and the boundaries as open data under the Open Government Licence, and the census counts are free to use; we computed every distance, ratio and simulation shown here ourselves.
 
+Learning ladder
+
 ## From counters on a map to a spatial test
 
 The age bands are only a starting guess. The free lesson settles the real level.
 
-- **Ages 6 to 10: Near and far** Measuring gaps between points on a map, finding the nearest one each time, and averaging the results. [Elementary Maths for Grades 1-5](/courses/elementary-mathematics-complete-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Random or not?** Scattering random points in code, comparing them with a real map, and asking which looks more even. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Point pattern tests** Nearest-neighbour search, the Clark-Evans ratio and Monte Carlo envelopes on real heritage data. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [High School Mathematics](/courses/complete-high-school-mathematics-mastery)
-- **Ages 18 to 67: Spatial statistics** Clustering tests, study areas and simulation for adults who work with locations and maps. [Data Science Course](/courses/data-science-complete-masterclass-college), [Statistics & Probability](/courses/statistics-probability-maths-course)
+Ages 6 to 10
+
+### Near and far
+
+Measuring gaps between points on a map, finding the nearest one each time, and averaging the results.
+
+[Elementary Maths for Grades 1-5](/courses/elementary-mathematics-complete-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Random or not?
+
+Scattering random points in code, comparing them with a real map, and asking which looks more even.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Point pattern tests
+
+Nearest-neighbour search, the Clark-Evans ratio and Monte Carlo envelopes on real heritage data.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[High School Mathematics](/courses/complete-high-school-mathematics-mastery)Ages 18 to 67
+
+### Spatial statistics
+
+Clustering tests, study areas and simulation for adults who work with locations and maps.
+
+[Data Science Course](/courses/data-science-complete-masterclass-college)[Statistics & Probability](/courses/statistics-probability-maths-course)Coding and AI
 
 ## An AI tool will call a pattern clustered in seconds. Why should a Norwich teenager check the frame?
 
@@ -167,30 +180,139 @@ The same trap waits in machine learning. A model evaluated on one slice of data 
 
 So a Norwich teenager should still learn to program in 2026, in a city whose cathedral has stood since 1096: the computer does the measuring in a second, and the judgement about what was measured is still ours. The longer argument is in [why coding is worth learning in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Earlham, Sewell or Lakenham, from home
 
 A trip across Norwich after school can eat an evening. Live online lessons keep that time for learning.
 
-- **Both banks of the Wensum** A learner in Mile Cross and another in Thorpe Hamlet can share the same lesson without crossing the river.
-- **Stages Norwich schools use** Reception, Key Stages 1 to 4, GCSE options and A levels, called by the names Norwich schools use, and taught in English throughout.
-- **Try before paying** In the free session your learner does real work with a teacher, and at the end we suggest where to start, which course fits and a weekly slot. Card details are never requested.
-- **Grouped by level** Groups of fifteen to twenty learners at one stage, from Norwich, other parts of the UK and overseas, so every level finds a time that works.
-- **A fixed weekly pair** Two set lessons each week, about eight a month, with school holidays and exam weeks arranged with the teacher ahead of time.
-- **Evening in Norwich, night in India** Our teachers work late by Indian time so that Norwich learners can have lessons after school or after work. The gap is four and a half hours while Britain is on summer time and five and a half from late October.
+### Both banks of the Wensum
 
-**Across Norfolk** Families in Wymondham, Aylsham, Dereham or Sprowston join exactly the same classes, because every lesson is online and groups are formed by level.
+A learner in Mile Cross and another in Thorpe Hamlet can share the same lesson without crossing the river.
+
+### Stages Norwich schools use
+
+Reception, Key Stages 1 to 4, GCSE options and A levels, called by the names Norwich schools use, and taught in English throughout.
+
+### Try before paying
+
+In the free session your learner does real work with a teacher, and at the end we suggest where to start, which course fits and a weekly slot. Card details are never requested.
+
+### Grouped by level
+
+Groups of fifteen to twenty learners at one stage, from Norwich, other parts of the UK and overseas, so every level finds a time that works.
+
+### A fixed weekly pair
+
+Two set lessons each week, about eight a month, with school holidays and exam weeks arranged with the teacher ahead of time.
+
+### Evening in Norwich, night in India
+
+Our teachers work late by Indian time so that Norwich learners can have lessons after school or after work. The gap is four and a half hours while Britain is on summer time and five and a half from late October.
+
+Across Norfolk
+
+Families in Wymondham, Aylsham, Dereham or Sprowston join exactly the same classes, because every lesson is online and groups are formed by level.
+
+Fees
 
 ## Norwich lesson fees
 
 The first lesson costs nothing, then there is one monthly fee.
 
-- First class: USD 0. A complete lesson at no charge, closing with a recommended level, course and weekly time.
-- Group tuition: USD 100 a month. About eight live lessons each month in a group of fifteen to twenty learners at one stage.
-- Private tuition: USD 150 a month. About eight live lessons each month, with a teacher focused on your learner alone.
+First class**USD 0**
+
+A complete lesson at no charge, closing with a recommended level, course and weekly time.
+
+Group tuition**USD 100**
+
+About eight live lessons each month in a group of fifteen to twenty learners at one stage.
+
+Private tuition**USD 150**
+
+About eight live lessons each month, with a teacher focused on your learner alone.
 
 Tuckswood and Catton Grove are billed identically, in US dollars, as is every family outside India; there are no pound prices on our site. Billing begins after the trial lesson, once you have accepted a course and a lesson time, and the pricing page answers the usual questions about pausing, missed lessons and changing format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Norwich.)Reviews
+
+## Six Google reviews from families, left unedited
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson for a Norwich learner
+
+The first task depends on the learner: a counters-on-a-map game for a young child, a short Python program that measures distances for a beginner, or the heritage list and a Clark-Evans test for a teenager ready for real data.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Norwich one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Norwich.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Norwich coding class questions
+
+The questions Norwich families ask us most.
 
 ### How many people live in Norwich?
 
@@ -232,10 +354,14 @@ The first lesson is free. Afterwards, a group place is USD 100 a month for two l
 
 By level, pace and aims rather than age or address, with fifteen to twenty learners at one stage. If no group meets at a time that suits, we offer one-to-one lessons.
 
+Explore England and the UK
+
 ## East of England and beyond
 
 Across East Anglia, the [Cambridge page](/best-coding-class-in-cambridge) ranks its warmest months with a heap, and [Plymouth](/best-coding-class-in-plymouth) turns its listed buildings into a density map. [York](/best-coding-class-in-york) measures how surprising its street names are. The [England guide](/coding-and-ai-classes-in-england) covers the school stages, and the [UK coding page](/coding-classes-in-united-kingdom) lists every city we teach.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Norwich.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-norwich](https://learn.modernagecoders.com/best-coding-class-in-norwich#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-norwich*

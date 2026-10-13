@@ -12,7 +12,7 @@ LIVE ONLINE CODING & MATHS · SOUTH KOLKATA'S CROSSROADS
 
 Modern Age Coders runs premium, live online coding and maths classes for families across Gariahat, Ekdalia, Hindustan Park, Bondel Road and Ballygunge. Every class is taught live by full-time engineers and maths graduates in batches of 15 to 20, never pre-recorded. Children learn Python, Java, AI/ML and school-to-Olympiad maths through real projects, logging in from home instead of crossing Gariahat junction traffic after dark.
 
-100% Live, never recordedBatches of 15–20 studentsFull-time engineers & maths graduatesFree demo, no commitment3–8Students per live batch1-on-1Personalised option6–67Ages we teach~60 minSaved each class, no commute[Book Free Demo Class](/book-demo)[Explore Courses](/courses)LIVE ONLINE · GARIAHAT, KOLKATA
+100% Live, never recordedBatches of 15–20 studentsFull-time engineers & maths graduatesFree demo, no commitment15–20Students per live batch1-on-1Personalised option6–67Ages we teach~60 minSaved each class, no commute[Book Free Demo Class](/book-demo)[Explore Courses](/courses)LIVE ONLINE · GARIAHAT, KOLKATA
 
 ## At a glance
 

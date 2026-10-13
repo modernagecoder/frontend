@@ -12,7 +12,7 @@ Live Online · Kasba & Acropolis Belt, South Kolkata
 
 Modern Age Coders runs premium, 100% live online coding and maths classes for families across Kasba, Rajdanga, Anandapur and the EM Bypass corridor. Children learn in batches of 15–20, taught live by full-time software engineers and maths graduates, not pre-recorded videos. Lessons are project-based and mapped to CBSE, ICSE and IGCSE syllabi, so your child studies from the flat with zero travel through Ruby crossing traffic.
 
-100% live, never pre-recordedSmall batches of 6–8Engineer & maths-graduate tutorsFree demo before you commit6–8Students per live batch₹1,499Per month, starting fees0 minsTravel through Ruby crossing6–67Age range we teach[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)At a glance
+100% live, never pre-recordedBatches of 15–20Engineer & maths-graduate tutorsFree demo before you commit15–20Students per live batch₹1,499Per month, starting fees0 minsTravel through Ruby crossing6–67Age range we teach[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)At a glance
 
 ## The Kasba coding & maths spec sheet
 

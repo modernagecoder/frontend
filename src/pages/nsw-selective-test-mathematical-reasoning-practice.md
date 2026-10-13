@@ -4,34 +4,28 @@ description: "NSW selective test Mathematical Reasoning: 35 questions in 40 minu
 canonical: https://learn.modernagecoders.com/nsw-selective-test-mathematical-reasoning-practice
 source: src/pages/nsw-selective-test-mathematical-reasoning-practice.html
 ---
-> Mathematical Reasoning is one of four sections in the NSW Selective High School Placement Test for Year 7 entry. Students answer 35 multiple-choice questions, each with five possible answers, in 40 minutes on a department computer. No calculator is allowed in any section. The department says questions draw on the NSW curriculum up to Year 6 and that coaching is not necessary.
+> NSW selective test Mathematical Reasoning: 35 questions in 40 minutes, no calculator, what the department says about coaching, and original tape diagram practice.
 
-[Home](/) / [Coding and AI classes in New South Wales](/coding-and-ai-classes-in-new-south-wales) / Selective test: Mathematical Reasoning
+In short
 
-NSW · Selective High School Placement Test · Maths
+Mathematical Reasoning is one of four sections in the NSW Selective High School Placement Test for Year 7 entry. Students answer 35 multiple-choice questions, each with five possible answers, in 40 minutes on a department computer. No calculator is allowed in any section. The department says questions draw on the NSW curriculum up to Year 6 and that coaching is not necessary.
 
-# NSW selective test Mathematical Reasoning practice
-
-The NSW Selective High School Placement Test has four sections, and Mathematical Reasoning is the one most families ask us about. It is 35 multiple-choice questions in 40 minutes, on a department computer, with no calculator. This page gives the format exactly as the NSW Department of Education publishes it, repeats plainly what the department says about coaching, points you to its free practice tests, and then teaches one tool that makes multi-step word problems manageable: the tape diagram. It contains no advice about school choice, placement or appeals, and no promise of any score.
-
-At a glance: Test: Selective High School Placement Test; Entry year: Year 7; Section: Mathematical Reasoning; Questions: 35, multiple choice; Options: Five possible answers; Time: 40 minutes; Calculator: Not allowed; Content: NSW curriculum up to Year 6. Rated 4.9 across 547 Google reviews.
+Maths worth learning anyway
 
 ## Three courses that build reasoning, not tricks
 
 Useful for any capable upper-primary student, test or no test.
 
-- [Problem solving](/courses/problem-solving-and-computational-thinking-for-kids): Multi-step thinking, drawn and explained before calculated.
-- [Primary maths in depth](/courses/elementary-mathematics-complete-masterclass): Fractions, ratio and measurement from the upper-primary curriculum.
-- [Competition maths](/courses/olympiad-competition-mathematics-mastery): For students who enjoy harder problems for their own sake.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)  NMR / 01 Problem solving Multi-step thinking, drawn and explained before calculated. Open the syllabus →](/courses/problem-solving-and-computational-thinking-for-kids)[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  NMR / 02 Primary maths in depth Fractions, ratio and measurement from the upper-primary curriculum. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)[![Maths Olympiad & Competition Course course thumbnail](/images/olympiad-competition-maths.webp)  NMR / 03 Competition maths For students who enjoy harder problems for their own sake. Open the syllabus →](/courses/olympiad-competition-mathematics-mastery)
+
+The section, as published
 
 ## 35 questions, 40 minutes, five options each
 
 Every detail comes from the NSW Department of Education, read on 7 October 2026.
 
-**Selective High School Placement Test sections (department practice test page)**
-
 | Section | Questions | Time | Type |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Reading | 17 (3 questions have multiple parts) | 45 minutes | Multiple choice |
 | Mathematical Reasoning | 35 | 40 minutes | Multiple choice, five possible answers |
 | Thinking Skills | 40 | 40 minutes | Multiple choice, four possible answers |
@@ -47,11 +41,15 @@ The department describes the section as testing "mathematical reasoning skills" 
 
 Sources: [NSW Department of Education, Placement test](https://education.nsw.gov.au/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools/placement-test); [Selective high school practice tests](https://education.nsw.gov.au/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools/placement-test/selective-high-school-practice-tests). Checked on 7 October 2026. We are independent of the department.
 
+What the department says
+
 ## Coaching is not necessary, in the department's own words
 
 We think families deserve to read this before paying anyone, including us.
 
-**From the NSW Department of Education** "It is important to know that coaching or tutoring for the placement test is not necessary. The test will not need your child to know any new or special knowledge. So, extra paid coaching outside of school will not give your child an advantage."
+From the NSW Department of Education
+
+"It is important to know that coaching or tutoring for the placement test is not necessary. The test will not need your child to know any new or special knowledge. So, extra paid coaching outside of school will not give your child an advantage."
 
 The department goes further: it "does not recommend or endorse coaching for the placement test", and it warns that too much coaching can harm a child's wellbeing. It provides free resources, including online computer-based practice tests and PDF practice tests, in its Student Resource Hub.
 
@@ -62,6 +60,8 @@ So what is this page for? Some children genuinely love problem solving and want 
 Our classes teach mathematics: fractions, ratio and multi-step reasoning from the curriculum the test already draws on. We do not run test-coaching courses, and we will tell you honestly if we think your child does not need us.
 
 Source: [Selective high school practice tests, "Helping your child prepare for the placement test"](https://education.nsw.gov.au/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools/placement-test/selective-high-school-practice-tests). Checked on 7 October 2026.
+
+Problems we wrote
 
 ## Tape diagrams for multi-step problems
 
@@ -79,10 +79,8 @@ Write the total, or the difference, against the strips it belongs to. The questi
 
 Divide to find the value of a single unit, then build every answer from it. Check by putting the numbers back into the story.
 
-**Original practice problems with the tape diagram reasoning**
-
 | Problem | The diagram | One unit | Answer |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Three fifths of a class are girls. There are 12 more girls than boys. How many students are in the class? | Girls 3 units, boys 2 units; the difference is 1 unit | 12 | 60 students |
 | Sam has 4 times as many cards as Lee. Together they have 85. How many does Sam have? | Lee 1 unit, Sam 4 units: 5 units altogether | 17 | 68 cards |
 | Red and blue beads are in the ratio 2 to 3. There are 10 more blue beads than red. How many beads in total? | Red 2 units, blue 3 units; the difference is 1 unit | 10 | 50 beads |
@@ -95,6 +93,8 @@ Notice how the ratio and fraction problems collapse into the same move: find the
 Walk through the first problem slowly. The class is split into fifths, so draw five equal boxes: three for girls, two for boys. The girls have one box more than the boys, and the story says that difference is 12 students, so one box is 12. Five boxes make 60. To check, three fifths of 60 is 36 girls and two fifths is 24 boys, and 36 is indeed 12 more than 24. Every problem in the table can be read back into its story the same way.
 
 With five options per question, a tape diagram also helps eliminate answers. If the class must be a multiple of 5 units, any option that is not a multiple of 5 can be crossed out before any calculation.
+
+Pacing
 
 ## About 68 seconds per question
 
@@ -116,14 +116,14 @@ Guessing from the look of the numbers. Options are often built from common mista
 
 Practising under time pressure every day. Calm, accurate reasoning first; speed follows.
 
+Building multi-step reasoning
+
 ## Four stages across Years 4 to 6
 
 Most capable students move through these over two or three years of ordinary good teaching.
 
-**Reasoning with units**
-
 | Stage | What the student does | Secure when |
-|---|---|---|
+| --- | --- | --- |
 | 1. Part and whole | Draws a total split into parts | Solves "together they have 85" problems |
 | 2. Comparison | Draws two strips and marks the difference | Solves "12 more girls than boys" problems |
 | 3. Fractions of a whole | Divides a strip into fifths or tenths | Solves the tank problem without converting |
@@ -132,63 +132,293 @@ Most capable students move through these over two or three years of ordinary goo
 ### Keeping it healthy
 
 The department warns that too much coaching can harm wellbeing, and we agree. An hour a week of enjoyable maths is plenty for most children.
+
 If your child is stressed, stop practising tests and go back to puzzles they choose themselves.
 
 ### The other sections
 
 Thinking Skills is a separate 40-minute section; our [Thinking Skills page](/nsw-selective-test-thinking-skills-practice) covers it in the same honest way.
+
 For the Year 4 Opportunity Class test, see [OC test maths practice](/oc-test-maths-practice-nsw).
+
+Courses for upper primary
 
 ## Maths courses for Years 4 to 6
 
 Grouped by focus. Each card links to a full syllabus.
 
+I
+
 ### Reasoning
 
 Problem solving and logic
 
-- [Problem solving and computational thinking](/courses/problem-solving-and-computational-thinking-for-kids): Breaking problems into clear steps.
-- [Competition maths](/courses/olympiad-competition-mathematics-mastery): Harder problems for keen students.
-- [Maths through coding](/courses/maths-through-coding): Patterns and logic explored in code.
+NMR / R / 01
+
+#### Problem solving and computational thinking
+
+Breaking problems into clear steps.
+
+[Open the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)
+
+NMR / R / 02
+
+#### Competition maths
+
+Harder problems for keen students.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)
+
+NMR / R / 03
+
+#### Maths through coding
+
+Patterns and logic explored in code.
+
+[Open the syllabus](/courses/maths-through-coding)II
 
 ### Core maths
 
 Fractions, ratio and measurement
 
-- [Primary maths](/courses/elementary-mathematics-complete-masterclass): The upper-primary curriculum, taught deeply.
-- [Mental maths](/courses/mental-maths-mastery-kids): Fast, careful calculation without a device.
-- [Statistics and probability](/courses/statistics-probability-maths-course): Data and chance for upper primary.
+NMR / C / 01
+
+#### Primary maths
+
+The upper-primary curriculum, taught deeply.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+NMR / C / 02
+
+#### Mental maths
+
+Fast, careful calculation without a device.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+NMR / C / 03
+
+#### Statistics and probability
+
+Data and chance for upper primary.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)III
 
 ### Looking ahead
 
 For students ready for secondary maths
 
-- [Middle years maths](/courses/comprehensive-middle-school-mathematics-mastery): Years 7 to 9, started early.
-- [Algebra foundations](/courses/algebra-foundations-masterclass): Units in tape diagrams become letters.
-- [Abacus mental maths](/courses/abacus-mental-maths-course-for-kids): Visual calculation for younger learners.
+NMR / A / 01
+
+#### Middle years maths
+
+Years 7 to 9, started early.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+NMR / A / 02
+
+#### Algebra foundations
+
+Units in tape diagrams become letters.
+
+[Open the syllabus](/courses/algebra-foundations-masterclass)
+
+NMR / A / 03
+
+#### Abacus mental maths
+
+Visual calculation for younger learners.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)
+
+Our lessons
 
 ## Mathematics first, for children who enjoy it
 
 Teachers work from India, which is behind Sydney. During daylight saving a 4.30 pm Sydney class starts at 11 am India time, so after-school slots are simple to keep.
 
-- **After school** The usual slot for Years 4 to 6.
-- **Saturday** For families with weekday commitments.
-- **Holidays** Short blocks on fractions or ratio.
+After school
 
-- **Diagrams before numbers** Students draw the problem before they calculate anything.
-- **Explain every answer** A correct answer without a reason counts as half done.
-- **Groups of fifteen to twenty** Children at a similar level learn together.
-- **One-to-one available** For a child who wants a particular topic strengthened.
-- **No test coaching** We teach maths from the curriculum, as the department advises.
-- **No placement promises** Selection is the department's decision; we make no claims about it.
+The usual slot for Years 4 to 6.
+
+Saturday
+
+For families with weekday commitments.
+
+Holidays
+
+Short blocks on fractions or ratio.
+
+### Diagrams before numbers
+
+Students draw the problem before they calculate anything.
+
+### Explain every answer
+
+A correct answer without a reason counts as half done.
+
+### Groups of fifteen to twenty
+
+Children at a similar level learn together.
+
+### One-to-one available
+
+For a child who wants a particular topic strengthened.
+
+### No test coaching
+
+We teach maths from the curriculum, as the department advises.
+
+### No placement promises
+
+Selection is the department's decision; we make no claims about it.
+
+Student work
+
+## Student projects
+
+Made by learners who wanted to build something. More in the [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Families in New South Wales pay monthly in US dollars, the rate we charge in every country other than India. There is no up-front payment and no minimum term.
 
-- Free first class: USD 0. A real lesson with a teacher. Our honest view, including if no help is needed. No card details.
-- Group batch: USD 100 a month. Fifteen to twenty children at one level. The same teacher each week. Work explained and checked. A certificate at the end.
-- One to one: USD 150 a month. One teacher for one child. Focus on chosen topics. Times to suit your family.
+Free first class
+
+USD 0
+
+no card required
+
+- A real lesson with a teacher
+- Our honest view, including if no help is needed
+- No card details
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty children at one level
+- The same teacher each week
+- Work explained and checked
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- One teacher for one child
+- Focus on chosen topics
+- Times to suit your family
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Parent reviews from Google, copied exactly.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about Mathematical Reasoning
 
 ## What NSW families ask us
 
@@ -232,15 +462,54 @@ We make no promise about scores or placement. We teach mathematics that is worth
 
 We agree one weekly time after the free trial, usually after school. During daylight saving Sydney is five and a half hours ahead of India time.
 
+Related pages
+
 ## More for NSW families
 
-- [Selective test Thinking Skills](/nsw-selective-test-thinking-skills-practice): The 40-question reasoning section.
-- [OC test maths](/oc-test-maths-practice-nsw): The Year 4 Opportunity Class test.
-- [Coding and AI in NSW](/coding-and-ai-classes-in-new-south-wales): Our state page for New South Wales.
-- [NAPLAN Year 5 numeracy](/naplan-year-5-numeracy-practice): Upper-primary maths in NAPLAN.
-- [Maths tutoring in Australia](/online-maths-tutoring-australia): Live classes for every year.
-- [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar): Contests for students who love problems.
+Other test sections, NAPLAN and coding.
 
-## Contact
+### [Selective test Thinking Skills](/nsw-selective-test-thinking-skills-practice)
 
-Book the free first class at [https://learn.modernagecoders.com/nsw-selective-test-mathematical-reasoning-practice](https://learn.modernagecoders.com/nsw-selective-test-mathematical-reasoning-practice#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The 40-question reasoning section.
+
+### [OC test maths](/oc-test-maths-practice-nsw)
+
+The Year 4 Opportunity Class test.
+
+### [Coding and AI in NSW](/coding-and-ai-classes-in-new-south-wales)
+
+Our state page for New South Wales.
+
+### [NAPLAN Year 5 numeracy](/naplan-year-5-numeracy-practice)
+
+Upper-primary maths in NAPLAN.
+
+### [Maths tutoring in Australia](/online-maths-tutoring-australia)
+
+Live classes for every year.
+
+### [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar)
+
+Contests for students who love problems.
+
+Start here
+
+## Book a free maths class
+
+Tell us your child's year and what they enjoy or find hard. The trial is a real maths lesson, and we will say honestly whether ongoing classes make sense.
+
+Prefer to read first? Every course is on the [course atlas](/course-atlas), and [how we teach](/how-we-teach) describes a lesson in full.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20class%20for%20my%20Year%205%20or%206%20child%2C%20on%20multi-step%20problem%20solving.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is the quickest way to reach us. Our number is Indian (+91) because the school is based in India; we have no office in Australia.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/nsw-selective-test-mathematical-reasoning-practice*

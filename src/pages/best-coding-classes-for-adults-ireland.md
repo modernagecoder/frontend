@@ -492,6 +492,12 @@ Rather read first? See [how our teaching works](/how-we-teach), the [full course
 
 WhatsApp is often easiest for adults with busy days, and it is free from an Irish number. Ours is an Indian number, because our teachers work from India; there is no Irish office.
 
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/best-coding-classes-for-adults-ireland*

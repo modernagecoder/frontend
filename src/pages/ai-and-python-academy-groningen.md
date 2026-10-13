@@ -4,25 +4,21 @@ description: "Groningen's AI bachelor admits every vwo profile, then sets calcul
 canonical: https://learn.modernagecoders.com/ai-and-python-academy-groningen
 source: src/pages/ai-and-python-academy-groningen.html
 ---
-> For learners in Groningen, Modern Age Coders runs a live online track from typed Python through the mathematics of machine learning, written as code, to trained models and AI agents, in English, in groups of fifteen to twenty or one to one, for ages six to sixty-seven. It is shaped around a concrete target: the first year of the University of Groningen's English-taught AI bachelor, which admits every vwo profile and then asks for calculus, programming, statistics and logic, with 45 EC to earn in twelve months. The same ladder serves a groep 7 child starting out and an adult retraining. The first lesson is free; after it, a group place is USD 100 a month and one-to-one tuition USD 150.
+> Groningen's AI bachelor admits every vwo profile, then sets calculus, programming and logic in year one. A live online ladder for ages 6 to 67 gets there first.
 
-[Home](/) / [Courses](/courses) / [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands) / Groningen
+In short
 
-Groningen · Live online · Ages 6 to 67
+For learners in Groningen, Modern Age Coders runs a live online track from typed Python through the mathematics of machine learning, written as code, to trained models and AI agents, in English, in groups of fifteen to twenty or one to one, for ages six to sixty-seven. It is shaped around a concrete target: the first year of the University of Groningen's English-taught AI bachelor, which admits every vwo profile and then asks for calculus, programming, statistics and logic, with 45 EC to earn in twelve months. The same ladder serves a groep 7 child starting out and an adult retraining. The first lesson is free; after it, a group place is USD 100 a month and one-to-one tuition USD 150.
 
-# AI and Python classes in Groningen, ready for semester one
-
-The University of Groningen teaches a three-year bachelor in artificial intelligence, entirely in English, and its door is unusually wide: every vwo profile is admissible, and a pupil in Cultuur en Maatschappij needs only wiskunde A or wiskunde B. What waits inside is not wide at all. Among the first-year courses are Calculus for Artificial Intelligence, Imperative Programming, Statistics and Introduction to Logic, and the binding study advice asks for at least 45 EC in the first twelve months. A student who arrives already writing code by hand and already comfortable with the mathematics in code form has room to breathe. One who arrives with neither meets both at once, in a second language, against a deadline. This page is the preparation, for the vwo pupil who wants that degree, the student already in it, and everyone else in Groningen who wants the same skills without the lecture hall.
-
-At a glance: For: Groningen learners aged 6 to 67; Aim: A first year of university AI that feels familiar; Track: Python, maths in code, models, agents; Delivery: Live video with a teacher, never recorded; Groups: 15 to 20 learners, or one to one; Hours: Dutch afternoons, evenings and weekends; Taught in: English, as the degree is; First lesson: Free, with nothing to pay. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three courses that line up with a Groningen first year
 
 One for a vwo pupil two or three years from the application, one for the mathematics that the first semester assumes, one for the algorithms course that follows it. Each card opens that course alone, with its syllabus and its timetable.
 
-- [Python for Teens](/courses/python-complete-masterclass-teens): Two years from an empty file to confident Python, for a vwo 4 to 6 pupil who wants Imperative Programming to be revision rather than a shock.
-- [Maths for Data Science](/courses/data-analytics-mathematics-masterclass): Statistics, linear algebra and the calculus behind machine learning, each idea written as code and run, so a wiskunde A pupil closes the gap before the calculus course opens it.
-- [Data Structures and Algorithms](/courses/data-structures-algorithms-masterclass-college): Lists, trees, graphs and the cost of each operation, reasoned out rather than memorised, for the student facing the first-year algorithms course or already in it.
+[![Python for Teens course thumbnail](/images/python-teens.webp)  GRN / 01 Python for Teens Two years from an empty file to confident Python, for a vwo 4 to 6 pupil who wants Imperative Programming to be revision rather than a shock. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Maths for Data Science course thumbnail](/images/data-analytics-maths.webp)  GRN / 02 Maths for Data Science Statistics, linear algebra and the calculus behind machine learning, each idea written as code and run, so a wiskunde A pupil closes the gap before the calculus course opens it. Open the syllabus →](/courses/data-analytics-mathematics-masterclass)[![Data Structures & Algorithms Course course thumbnail](/images/dsa-college.webp)  GRN / 03 Data Structures and Algorithms Lists, trees, graphs and the cost of each operation, reasoned out rather than memorised, for the student facing the first-year algorithms course or already in it. Open the syllabus →](/courses/data-structures-algorithms-masterclass-college)
+
+The target
 
 ## A wide door and a steep first year
 
@@ -36,10 +32,8 @@ Then the first year. Among its courses, at 5 EC each, the programme lists **Intr
 
 Over all of it sits the **binding study advice**: at least **45 EC in the first twelve months**, three quarters of a normal year's 60, or the student may not continue. Put the two halves together and the shape is plain. A pupil can be admitted with wiskunde A and no programming at all, and then has a year to pass calculus, programming and logic in a second language. Many do. Arriving prepared makes it a different year.
 
-**The University of Groningen AI bachelor, as published on its programme and admission pages**
-
 | Item | Published detail | What it means for a pupil now |
-|---|---|---|
+| --- | --- | --- |
 | Degree and language | BSc in Kunstmatige Intelligentie, taught in English | The lectures, books and exams are in English from the first week |
 | Length | 36 months, 180 EC | Three years of 60 EC each |
 | Admission | All four vwo profiles; Cultuur en Maatschappij with wiskunde A or wiskunde B | No profile is shut out, so preparation, not the timetable, decides readiness |
@@ -50,14 +44,14 @@ Over all of it sits the **binding study advice**: at least **45 EC in the first 
 
 Sources: [University of Groningen, Bachelor Artificial Intelligence](https://www.rug.nl/bachelors/artificial-intelligence/) (degree, length, faculty, institute, research groups, specialisations, binding study advice, careers); [programme page](https://www.rug.nl/bachelors/artificial-intelligence/programme) (courses by year, minor, specialisation, bachelor project); [admission page](https://www.rug.nl/bachelors/artificial-intelligence/admission-and-application) (profiles, mathematics, English, deadline). Read 11 September 2026. The pages are partly in Dutch; course names are quoted as published. We have no connection with the university.
 
+The preparation
+
 ## What a vwo pupil can have done before the first lecture
 
 None of the first-year material is secret, and much of it can be met earlier in a gentler form. The point is not to take the degree early. It is to arrive having already done, in code, the things the degree then explains properly.
 
-**First-year topics, and the version of each a school pupil can reach first**
-
 | In the first year | What can come before it | Where it sits on our ladder |
-|---|---|---|
+| --- | --- | --- |
 | Imperative Programming | Variables, loops, functions and files, typed by hand, with error messages read and fixed alone | Rung 1, from groep 7 or the brugklas |
 | Calculus for Artificial Intelligence | Rates of change seen in code: a loop that nudges a number downhill until an error stops shrinking | Rung 3, once Python is fluent |
 | Linear algebra | Lists of numbers as vectors, a table as a matrix, and a prediction as a sum of weighted inputs | Rungs 2 and 3 |
@@ -75,6 +69,8 @@ The same preparation suits a pupil who ends up somewhere else entirely: computin
 
 The first-year course names come from the University of Groningen programme page cited above. The column on what can come first is our teaching plan, not the university's, and the university has not reviewed it.
 
+The rest of Groningen
+
 ## Not only for the degree: the same ladder for every age in the city
 
 Most learners in Groningen will never apply for an AI bachelor, and the ladder does not assume they will. It starts at groep 6 and runs to retirement.
@@ -87,14 +83,14 @@ Adults are the other large group. A Groningen professional whose work now involv
 
 The general coding page for the city, [coding classes in Groningen](/coding-classes-in-groningen), covers the schools, the neighbourhoods and the city's own figures; [the province page](/coding-classes-in-groningen-province) covers everywhere from Delfzijl to Westerkwartier. This page covers only the AI and Python track, and one target on it.
 
+The five rungs
+
 ## From a first typed program to a model with an honest error
 
 The order matters more than the speed. Each rung supplies something the next one cannot do without, which is why a student who jumps straight to building chatbots often cannot explain a single result.
 
-**The five rungs, matched to where a Groningen learner usually meets them**
-
 | Rung | Typically | What the learner does |
-|---|---|---|
+| --- | --- | --- |
 | 1. Python by hand | Groep 7 to brugklas, or any adult beginner | Writes loops, functions and small programs from a blank file, and repairs their own errors |
 | 2. Data | Onderbouw to vwo 4 | Loads a real file, cleans it, plots it, and states an average with its spread |
 | 3. Models | Vwo 4 to 6, first-year students | Writes gradient descent by hand, trains a model, reports its error and compares it with a simple guess |
@@ -104,65 +100,309 @@ The order matters more than the speed. Each rung supplies something the next one
 ### Why the maths sits on rung 3
 
 Calculus and linear algebra make sense fastest when they answer a question the learner already has. After two rungs of code and data, the question is obvious: how does a program find the best line through these points? Gradient descent answers it, and the derivative arrives as the tool that makes the answer work.
+
 The general order we teach in, subject by subject, is on the [coding roadmap](/coding-roadmap).
 
 ### Where it meets the vwo years
 
 The profielkeuze in the third year is the moment to try rung 1 if a pupil has not already: a term of Python shows quickly whether the Nature profiles and a technical degree appeal. By vwo 5 a pupil aiming at AI should be on rung 2 or 3, and the eindexamen year is best kept light.
+
 For a first-year student already in Groningen, rungs 3 and 4 run alongside the degree and can be taken one to one around a changing timetable.
+
+The catalogue
 
 ## Eleven live courses for Groningen learners, placed by ability
 
 Grouped by stage of life rather than by difficulty. Every card opens the full course with its schedule and fee, and the free first lesson decides where a learner actually starts.
 
+I
+
 ### Children, groep 5 to 8
 
 Typed code early, and an honest picture of what AI is
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass): Real Python for a child of nine to twelve: drawings made by code, small games, and a program that works out a pattern from examples it was shown.
-- [AI Literacy for Kids](/courses/ai-literacy-for-kids-course): How a chatbot produces its answers, why sounding sure and being right are different things, and simple checks a child can apply before trusting one.
+GRN / KIDS / 01
+
+#### Python and AI for Kids
+
+Real Python for a child of nine to twelve: drawings made by code, small games, and a program that works out a pattern from examples it was shown.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)
+
+GRN / KIDS / 02
+
+#### AI Literacy for Kids
+
+How a chatbot produces its answers, why sounding sure and being right are different things, and simple checks a child can apply before trusting one.
+
+[Open the syllabus](/courses/ai-literacy-for-kids-course)II
 
 ### Teenagers, havo and vwo
 
 From fluent Python to trained models, beside the school timetable
 
-- [Python for Teens](/courses/python-complete-masterclass-teens): The foundation course: two years of Python from first principles to confident, well-organised programs, and the natural start for a future AI student.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens): Statistics, classical models, neural networks, images and text, each finished with something the teenager trained and can explain to a sceptic.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data): The groundwork every model needs: reading, joining and plotting real data, and spotting the entry that would have spoiled the result.
-- [Coding Agents: Codex and Claude Code](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens): Directing AI coding agents on real projects and reviewing every change they make. Students use their own accounts, within each tool's age rules.
+GRN / TEEN / 01
+
+#### Python for Teens
+
+The foundation course: two years of Python from first principles to confident, well-organised programs, and the natural start for a future AI student.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+GRN / TEEN / 02
+
+#### AI and Machine Learning for Teens
+
+Statistics, classical models, neural networks, images and text, each finished with something the teenager trained and can explain to a sceptic.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+GRN / TEEN / 03
+
+#### Data Science for Teens
+
+The groundwork every model needs: reading, joining and plotting real data, and spotting the entry that would have spoiled the result.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)
+
+GRN / TEEN / 04
+
+#### Coding Agents: Codex and Claude Code
+
+Directing AI coding agents on real projects and reviewing every change they make. Students use their own accounts, within each tool's age rules.
+
+[Open the syllabus](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens)III
 
 ### University students and adults
 
 The mathematics, the algorithms and the systems, at an adult pace
 
-- [Maths for Data Science](/courses/data-analytics-mathematics-masterclass): Statistics, linear algebra and the calculus of learning, taught through code, for the student whose first-year maths is moving faster than they are.
-- [Data Structures and Algorithms](/courses/data-structures-algorithms-masterclass-college): How to choose the right structure and predict what an operation costs, the thinking that separates a program that works from one that scales.
-- [AI and Machine Learning Masterclass](/courses/ai-ml-masterclass-complete-college): The full machine learning route for adults: supervised and unsupervised methods, deep learning, careful evaluation and putting a model into use.
-- [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college): How large language models work, how to ground them in your own documents, and how to build agents whose mistakes are visible and contained.
-- [Python and AI Automation](/courses/python-ai-automation-masterclass-college): For the professional who wants the repetitive part of the job done by a script: files, reports, web data and AI tools, joined into something reliable.
+GRN / PRO / 01
+
+#### Maths for Data Science
+
+Statistics, linear algebra and the calculus of learning, taught through code, for the student whose first-year maths is moving faster than they are.
+
+[Open the syllabus](/courses/data-analytics-mathematics-masterclass)
+
+GRN / PRO / 02
+
+#### Data Structures and Algorithms
+
+How to choose the right structure and predict what an operation costs, the thinking that separates a program that works from one that scales.
+
+[Open the syllabus](/courses/data-structures-algorithms-masterclass-college)
+
+GRN / PRO / 03
+
+#### AI and Machine Learning Masterclass
+
+The full machine learning route for adults: supervised and unsupervised methods, deep learning, careful evaluation and putting a model into use.
+
+[Open the syllabus](/courses/ai-ml-masterclass-complete-college)
+
+GRN / PRO / 04
+
+#### Generative AI: LLMs, RAG and Agents
+
+How large language models work, how to ground them in your own documents, and how to build agents whose mistakes are visible and contained.
+
+[Open the syllabus](/courses/complete-generative-ai-masterclass-college)
+
+GRN / PRO / 05
+
+#### Python and AI Automation
+
+For the professional who wants the repetitive part of the job done by a script: files, reports, web data and AI tools, joined into something reliable.
+
+[Open the syllabus](/courses/python-ai-automation-masterclass-college)
+
+How the classes run
 
 ## A Groningen evening, and a teacher in India
 
 Groningen keeps Central European time and switches to summer time and back each year; India does not switch at all. The difference is three and a half hours in summer and four and a half in winter. Weekend and late-afternoon slots suit everyone; weekday evenings depend on the teacher, and the regular time is agreed on the free lesson rather than fixed on this page.
 
-- **Late afternoon** Groningen time, after school. The usual choice for children and onderbouw pupils; evening for the teacher.
-- **Evening** Groningen time, after dinner, arranged case by case. Suits vwo pupils and university students with a full day behind them.
-- **Weekends** Saturday or Sunday, morning or afternoon, Groningen time. The easiest slot for working adults and busy families.
+Late afternoon
 
-- **A first lesson that teaches** The learner works on a real problem while the teacher watches how they think. That settles the starting rung far better than a questionnaire.
-- **Fifteen to twenty per group** Groups are formed by ability from learners in many countries, so a quick student in Groningen is stretched and a new one is not left behind.
-- **One to one when it fits better** For a first-year student with a shifting timetable, an adult with a narrow goal, or anyone who wants the pace set around them.
-- **Long enough to build something** Lessons are live, with both screens shared, so a misunderstanding is caught while it forms rather than a week later.
-- **English throughout** The same language as the Groningen degree, the documentation and the error messages. Dutch school terms such as vwo and profielkeuze are used as they are.
-- **Everything kept** Each lesson's work goes into the learner's own GitHub repository, so by the application or the first exam there is a record, not a loose folder.
+Groningen time, after school. The usual choice for children and onderbouw pupils; evening for the teacher.
+
+Evening
+
+Groningen time, after dinner, arranged case by case. Suits vwo pupils and university students with a full day behind them.
+
+Weekends
+
+Saturday or Sunday, morning or afternoon, Groningen time. The easiest slot for working adults and busy families.
+
+### A first lesson that teaches
+
+The learner works on a real problem while the teacher watches how they think. That settles the starting rung far better than a questionnaire.
+
+### Fifteen to twenty per group
+
+Groups are formed by ability from learners in many countries, so a quick student in Groningen is stretched and a new one is not left behind.
+
+### One to one when it fits better
+
+For a first-year student with a shifting timetable, an adult with a narrow goal, or anyone who wants the pace set around them.
+
+### Long enough to build something
+
+Lessons are live, with both screens shared, so a misunderstanding is caught while it forms rather than a week later.
+
+### English throughout
+
+The same language as the Groningen degree, the documentation and the error messages. Dutch school terms such as vwo and profielkeuze are used as they are.
+
+### Everything kept
+
+Each lesson's work goes into the learner's own GitHub repository, so by the application or the first exam there is a record, not a loose folder.
+
+Student work
+
+## Student work you can open today
+
+Four projects our students built and left running online. Try them, look at how they fail, and see more on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## The fees, in full
 
 Charged monthly in US dollars, at the same two rates as everywhere outside India. There is no Groningen or Dutch surcharge, no joining fee and no annual contract. Copilot Studio courses are one to one by design and so use the one-to-one rate.
 
-- Free first class: USD 0. A real lesson on a real problem. Finds the starting rung. No card and no commitment.
-- Group batch: USD 100 a month. A group of fifteen to twenty at one level. Taught live by the same teacher. Work reviewed every week. Certificate on completion.
-- One to one: USD 150 a month. One learner, one teacher. Pace and syllabus set around the goal. Required for Copilot Studio courses.
+Free first class
+
+USD 0
+
+no card required
+
+- A real lesson on a real problem
+- Finds the starting rung
+- No card and no commitment
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- A group of fifteen to twenty at one level
+- Taught live by the same teacher
+- Work reviewed every week
+- Certificate on completion
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- One learner, one teacher
+- Pace and syllabus set around the goal
+- Required for Copilot Studio courses
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Copied from Google as posted. We do not write, edit, reward or select the wording of any of them.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions from Groningen
 
 ## What Groningen families and students ask before starting
 
@@ -206,15 +446,54 @@ USD 100 a month for a place in a group of fifteen to twenty learners, or USD 150
 
 A teacher contacts you at a Dutch hour to arrange the free lesson. Nothing is charged and no place is reserved until after that lesson, when the family decides.
 
+Elsewhere on this site
+
 ## Other pages for Groningen and the Netherlands
 
-- [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands): The national academy page, with the informatica figures and the AI factory being built in Groningen.
-- [Coding classes in Groningen](/coding-classes-in-groningen): The city page for general programming, with its neighbourhoods, schools and figures.
-- [Coding classes in the province of Groningen](/coding-classes-in-groningen-province): Every municipality in the province, from the city to the Ommelanden.
-- [AI and machine learning in the Netherlands](/ai-and-machine-learning-classes-in-netherlands): Machine learning worked through on published Dutch data.
-- [Learn to Build AI](/learn-to-build-ai): Why we teach people to build these systems, not just to use them.
-- [The course atlas](/course-atlas): Every course by age and subject, each with its syllabus.
+This page covers one track and one target. These cover the rest.
 
-## Contact
+### [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands)
 
-Book the free first class at [https://learn.modernagecoders.com/ai-and-python-academy-groningen](https://learn.modernagecoders.com/ai-and-python-academy-groningen#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The national academy page, with the informatica figures and the AI factory being built in Groningen.
+
+### [Coding classes in Groningen](/coding-classes-in-groningen)
+
+The city page for general programming, with its neighbourhoods, schools and figures.
+
+### [Coding classes in the province of Groningen](/coding-classes-in-groningen-province)
+
+Every municipality in the province, from the city to the Ommelanden.
+
+### [AI and machine learning in the Netherlands](/ai-and-machine-learning-classes-in-netherlands)
+
+Machine learning worked through on published Dutch data.
+
+### [Learn to Build AI](/learn-to-build-ai)
+
+Why we teach people to build these systems, not just to use them.
+
+### [The course atlas](/course-atlas)
+
+Every course by age and subject, each with its syllabus.
+
+Start here
+
+## Book a free first lesson
+
+Leave a number and we will call at a Dutch hour. The first session is a genuine lesson with a teacher, and by its end we know which rung suits the learner. Starting at the right level matters more than anything else in this subject.
+
+Want to read first? See the [course catalogue](/courses), [how we teach](/how-we-teach), and the reasoning behind this family of pages at [Learn to Build AI](/learn-to-build-ai).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20class%20for%20a%20learner%20in%20Groningen%2C%20on%20the%20AI%20and%20Python%20track.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is free from the Netherlands and usually fastest. Our number is Indian; we have no office, address or premises in the Netherlands.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-python-academy-groningen*

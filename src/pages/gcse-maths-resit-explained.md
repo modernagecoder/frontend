@@ -6,10 +6,6 @@ source: src/pages/gcse-maths-resit-explained.html
 ---
 > GCSE maths resits explained: who must resit after 16, the grade 3 rule, the November series and its age limit, retaking all three papers, and adult courses.
 
-# GCSE maths resits explained: the rules, the dates and a plan
-
-**The short answer.** In England, 16 to 18 year olds on a study programme without a grade 4 in maths keep studying it, and full-time students with a grade 3 must resit the GCSE. Resits run in May and June and, for students who were at least 16 on the previous 31 August, in November. All three papers are retaken each time.
-
 Courses for resits
 
 ## Not the whole GCSE again: the marks you are missing.

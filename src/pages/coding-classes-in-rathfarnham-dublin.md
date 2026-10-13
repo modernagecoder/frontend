@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths classes for Rathfarnham l
 canonical: https://learn.modernagecoders.com/coding-classes-in-rathfarnham-dublin
 source: src/pages/coding-classes-in-rathfarnham-dublin.html
 ---
-> Rathfarnham learners meet their teacher live on video for every lesson, sitting in a small class of learners at one level or learning solo, most weeks twice, and anyone from the age of six to sixty-seven can take part. Lessons happen at home. A first lesson is free; afterwards the monthly cost is USD 100 in a group and USD 150 for teaching one to one.
+> Live online coding, Python, AI and maths classes for Rathfarnham learners aged 6 to 67, in small groups at one level or one to one. The first lesson is free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [South Dublin](/coding-classes-in-south-dublin) / Rathfarnham
-
-Rathfarnham, Dublin 14 and 16 / Live online
-
-# Coding classes in Rathfarnham
-
-**What are the best coding classes in Rathfarnham?** Rathfarnham learners meet their teacher live on video for every lesson, sitting in a small class of learners at one level or learning solo, most weeks twice, and anyone from the age of six to sixty-seven can take part. Lessons happen at home. A first lesson is free; afterwards the monthly cost is USD 100 in a group and USD 150 for teaching one to one.
-
-Start at Rathfarnham Castle and set out to see ten of the heritage sites the Office of Public Works runs in Dublin, from the Pearse Museum down the road to Casino Marino on the north side. The obvious plan is to go to whichever site is closest, then the closest after that, and so on. Measured in straight lines, that route is 23.26 kilometres. A program that tries every possible order, all 362,880 of them, finds one of 21.74. The quick rule is 7 percent longer than the shortest, and with a few more sites the careful search becomes impossible. This page teaches a learner the difference between an algorithm that guesses well and one that is sure.
-
-Facts last verified 20 September 2026. Teaching is online; no Rathfarnham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Rathfarnham
 
 ## Where Rathfarnham learners get started
 
 Select the age band first; the teacher then uses the free opening lesson to confirm the course or switch it.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Blocks and paths: guiding a character round a map, first by the nearest step, then by planning ahead.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Python with lists of places, distances and a first program that tries every order of a short trip.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Algorithms in Python: greedy choices, exhaustive search, permutations and why some problems explode.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): For adults who plan deliveries, rotas or visits and need to know when a quick rule is good enough.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlocks and paths: guiding a character round a map, first by the nearest step, then by planning ahead.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsPython with lists of places, distances and a first program that tries every order of a short trip.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensAlgorithms in Python: greedy choices, exhaustive search, permutations and why some problems explode.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CourseFor adults who plan deliveries, rotas or visits and need to know when a quick rule is good enough.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## Nearest first, or every order? Plan the heritage tour both ways
 
 Ten Dublin sites run by the Office of Public Works, each at the map point its Heritage Ireland page gives. Distances are straight lines, which is also how Heritage Ireland's own rounded "approx." figures are measured: 1.7 kilometres to the Pearse Museum, where the calculation gives 1.69.
 
-**A tour of ten OPW sites starting at Rathfarnham Castle**
-
 | Method | Orders tried | Tour length |
-|---|---|---|
+| --- | --- | --- |
 | Nearest site next | 1 | 23.26 km |
 | Every order checked | 362,880 | 21.74 km |
 | Worst possible order | 362,880 | 51.54 km |
@@ -78,14 +64,14 @@ The haversine distances agree with the rounded figures Heritage Ireland prints o
 
 The tour ignores opening hours, travel time and whether ten sites fit in a day at all. Those are extra constraints a fuller version would add, each making the search harder.
 
+Rathfarnham, named
+
 ## Rathfarnham, as described by those who run its places
 
 Facts that each body publishes itself, with the eircode it gives.
 
-**Named places in Rathfarnham**
-
 | Place | What its own source says |
-|---|---|
+| --- | --- |
 | Rathfarnham Castle | Rathfarnham, D14 K3T6; four flanker towers |
 | Pearse Museum, St Enda's Park | Grange Road, D16 Y7Y5; nearly 20 hectares |
 | Ballyroan Library | Orchardstown Avenue, D14 VY33; opened 18 February 2013 |
@@ -103,7 +89,11 @@ The Pearse Museum in St Enda's Park is where Patrick Pearse lived and ran his Ir
 
 South Dublin County Council says Ballyroan Library opened on 18 February 2013 with a lecture room, an exhibition space, a digital training suite and a research room, and lists 3D printers among its facilities.
 
-**What this page does not claim** No population is printed for Rathfarnham, because the page uses only facts that named bodies publish about the place; the electoral area figure is on the South Dublin page. The tour is a teaching exercise on straight-line distances, not a travel recommendation.
+What this page does not claim
+
+No population is printed for Rathfarnham, because the page uses only facts that named bodies publish about the place; the electoral area figure is on the South Dublin page. The tour is a teaching exercise on straight-line distances, not a travel recommendation.
+
+Learning here
 
 ## A Rathfarnham learner's week
 
@@ -123,14 +113,37 @@ Adults can begin without any experience; the first lesson finds their course.
 
 Site locations and descriptions come from Heritage Ireland's own pages; the distances, tours and counts are our own calculations, run on 20 September 2026. The library and the college are quoted from their own sites.
 
+Learning ladder
+
 ## From a maze to the travelling salesman
 
 Bands here are indicative; the teacher places each learner properly in lesson one.
 
-- **Ages 6 to 10: Mazes** Block-coded characters that find a way through, one step at a time. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Every order** Python that lists all the orders of a short trip and picks the shortest. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Greedy or exhaustive** Heuristics, permutations and factorial growth on real map points. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Routes at work** Rotas, rounds and schedules, and when a good-enough answer is enough. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### Mazes
+
+Block-coded characters that find a way through, one step at a time.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Every order
+
+Python that lists all the orders of a short trip and picks the shortest.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Greedy or exhaustive
+
+Heuristics, permutations and factorial growth on real map points.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Routes at work
+
+Rotas, rounds and schedules, and when a good-enough answer is enough.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## Ask an assistant for the shortest heritage tour
 
@@ -142,30 +155,139 @@ With the exhaustive search written, the learner asks the assistant how it chose 
 
 Suggesting a route is easy. Proving it is the shortest is the skill. The longer argument is in [why learning to code rewards patience](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How lessons run for Rathfarnham
 
 Arrangements in brief.
 
-- **Real teacher, real time** The teacher leads throughout and responds to each learner's code as it is typed.
-- **Matched level** Fifteen to twenty learners at one level, from Rathfarnham, elsewhere in Ireland or overseas.
-- **Fixed pair of days** Around eight lessons a month on two set days each week.
-- **Breaks built in** Holidays, mid-terms and exam weeks are allowed for in the course plan.
-- **What to use** A laptop or desktop, a working microphone and sound, and a connection that holds video.
-- **Private route** One-to-one lessons for learners who are ahead, need more time, or keep hours no group matches.
+### Real teacher, real time
 
-**Everything online** We have no premises in Rathfarnham, in South Dublin or anywhere in Ireland. Lessons are on video and identical wherever the learner joins from.
+The teacher leads throughout and responds to each learner's code as it is typed.
+
+### Matched level
+
+Fifteen to twenty learners at one level, from Rathfarnham, elsewhere in Ireland or overseas.
+
+### Fixed pair of days
+
+Around eight lessons a month on two set days each week.
+
+### Breaks built in
+
+Holidays, mid-terms and exam weeks are allowed for in the course plan.
+
+### What to use
+
+A laptop or desktop, a working microphone and sound, and a connection that holds video.
+
+### Private route
+
+One-to-one lessons for learners who are ahead, need more time, or keep hours no group matches.
+
+Everything online
+
+We have no premises in Rathfarnham, in South Dublin or anywhere in Ireland. Lessons are on video and identical wherever the learner joins from.
+
+Fees
 
 ## Rathfarnham fees
 
 The full list.
 
-- First class: USD 0. The first lesson and a level check, free.
-- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, about eight live lessons.
-- Private tuition: USD 150 a month. A month of one-to-one lessons at the same rhythm.
+First class**USD 0**
+
+The first lesson and a level check, free.
+
+Group tuition**USD 100**
+
+A month in a group of fifteen to twenty at one level, about eight live lessons.
+
+Private tuition**USD 150**
+
+A month of one-to-one lessons at the same rhythm.
 
 Each family outside India pays the same monthly amount in US dollars. There is no obligation after the free lesson, payment begins only with the course, and the pricing page covers holidays, missed lessons and changing between group and private teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Rathfarnham.)Reviews
+
+## Six Google reviews from our families, exactly as written
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free first lesson in Rathfarnham
+
+Tell us the learner's age and what they enjoy, and the first hour will be built around that. It might end with a game, a first program, or a route that a computer has proved is the shortest.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Rathfarnham one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Rathfarnham.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Rathfarnham coding class questions
+
+What Rathfarnham families ask most.
 
 ### Is there a Modern Age Coders centre in Rathfarnham?
 
@@ -203,10 +325,14 @@ The first lesson is free. A group place is then USD 100 a month for about eight 
 
 Fifteen to twenty learners, grouped by level, pace and goals rather than age or address. If no group fits a workable hour, lessons are one to one.
 
+Explore Ireland
+
 ## Around Rathfarnham and the south side
 
 The [South Dublin](/coding-classes-in-south-dublin) page covers the council area, [Dundrum](/coding-classes-in-dundrum-dublin) and [Tallaght](/coding-classes-in-tallaght-dublin) have district pages close by, and the [problem solving through coding](/problem-solving-skills-through-coding-ireland) page goes further with algorithms. The [Ireland hub](/coding-classes-in-ireland) connects the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Rathfarnham.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-rathfarnham-dublin](https://learn.modernagecoders.com/coding-classes-in-rathfarnham-dublin#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-rathfarnham-dublin*

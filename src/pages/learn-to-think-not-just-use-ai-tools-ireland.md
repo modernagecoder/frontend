@@ -4,34 +4,28 @@ description: "Coding classes in Ireland that build thinking, not tool use: the J
 canonical: https://learn.modernagecoders.com/learn-to-think-not-just-use-ai-tools-ireland
 source: src/pages/learn-to-think-not-just-use-ai-tools-ireland.html
 ---
-> Irish curriculum documents already say what a good coding class should do. The Junior Cycle framework names eight key skills, including managing information and thinking, and requires them in every subject and short course. The redeveloped senior cycle names thinking and solving problems among seven key competencies. The Department's 2025 guidance on AI in schools asks for critical, safe and ethical use of these tools. Our lessons follow the same order: the learner predicts what code will do, runs it, explains the difference, and only then meets a tool that can write code for them. Classes are live, in groups of fifteen to twenty or one to one, for ages 6 to 67. The first is free; after that it is USD 100 a month in a group and USD 150 a month one to one.
+> Coding classes in Ireland that build thinking, not tool use: the Junior Cycle key skills, the senior cycle thinking competency, and AI used critically.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Ireland](/coding-classes-in-ireland) / Learn to think, Ireland
+In short
 
-Ireland · Thinking first · Every age
+Irish curriculum documents already say what a good coding class should do. The Junior Cycle framework names eight key skills, including managing information and thinking, and requires them in every subject and short course. The redeveloped senior cycle names thinking and solving problems among seven key competencies. The Department's 2025 guidance on AI in schools asks for critical, safe and ethical use of these tools. Our lessons follow the same order: the learner predicts what code will do, runs it, explains the difference, and only then meets a tool that can write code for them. Classes are live, in groups of fifteen to twenty or one to one, for ages 6 to 67. The first is free; after that it is USD 100 a month in a group and USD 150 a month one to one.
 
-# Learn to think, not just use AI tools
-
-It has never been easier to produce work without understanding it. Ask a chat tool for a program and you get one, whether or not you could have written it, and whether or not it is right. That is a problem worth taking seriously, and Irish education already has the language for it. The Framework for Junior Cycle names eight key skills that every subject must build, and one of them is managing information and thinking, with elements that read like a description of a good programmer: being curious, gathering and evaluating information, thinking creatively and critically, reflecting on your own learning. The redeveloped senior cycle puts thinking and solving problems first among its seven key competencies. And the Department of Education's own guidance on artificial intelligence, published in October 2025, asks schools to build the judgement to use these tools critically. This page sets out what those documents actually say, and how a coding class can teach a learner to think rather than to prompt.
-
-At a glance: For: Ages 6 to 67; Teaches: Reasoning before tools; Habit: Predict, run, explain; Tools: Introduced, then examined; Group: Fifteen to twenty at one level; Or: One to one; Hours: After school and evenings, Irish time; Start: A free first class. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three courses that build reasoning
 
 One for the youngest learners, one for teenagers and one for anyone who wants to understand what AI is doing. Each card opens its syllabus.
 
-- [Maths Through Coding](/courses/maths-through-coding): Ideas from the maths class made visible in small programs, so a child can see why a method works instead of memorising it.
-- [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens): Hard problems worked through out loud, where a wrong first idea is treated as the start of the work rather than a failure.
-- [AI Literacy for Kids](/courses/ai-literacy-for-kids-course): What these tools are, how they learn from examples, and the reasons a confident answer can still be wrong.
+[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)  THINK / 01 Maths Through Coding Ideas from the maths class made visible in small programs, so a child can see why a method works instead of memorising it. Open the syllabus →](/courses/maths-through-coding)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)  THINK / 02 Problem Solving for Teens Hard problems worked through out loud, where a wrong first idea is treated as the start of the work rather than a failure. Open the syllabus →](/courses/problem-solving-dsa-masterclass-teens)[![AI Literacy for Kids (Ages 8 to 14) course thumbnail](/images/ai-literacy-for-kids.webp)  THINK / 03 AI Literacy for Kids What these tools are, how they learn from examples, and the reasons a confident answer can still be wrong. Open the syllabus →](/courses/ai-literacy-for-kids-course)
+
+Junior Cycle key skills
 
 ## Thinking is already on the Irish curriculum
 
 The Framework for Junior Cycle sets out eight key skills for learning across the curriculum and beyond school. It says plainly where they live: "The key skills will be embedded in the learning outcomes of every junior cycle subject and short course."
 
-**Managing information and thinking, and its five elements, Framework for Junior Cycle (2015)**
-
 | Element | What it asks of a student |
-|---|---|
+| --- | --- |
 | Being curious | Wanting to know why something behaves as it does |
 | Gathering, recording, organising and evaluating information and data | Finding evidence and judging whether it is any good |
 | Thinking creatively and critically | Trying new approaches and weighing them against each other |
@@ -51,6 +45,8 @@ A program gives an answer to every idea a learner has, immediately and without m
 The element about digital technology is worth noticing too. The curriculum does not ask students to avoid tools. It asks them to use tools to access, manage and share content, which is a different thing from letting a tool do the work.
 
 Sources, read 16 September 2026: [Framework for Junior Cycle 2015](https://assets.gov.ie/static/documents/framework-for-junior-cycle-2015.pdf), section 2.3 and Figure 2; [Junior Cycle Mathematics specification](https://www.curriculumonline.ie/getmedia/6a7f1ff5-9b9e-4d71-8e1f-6d4f932191db/JC_Mathematics_Specification.pdf), Figure 1 and Table 2. In the Framework the key-skills figure is an image, so its wording was checked word for word against the same NCCA text in the Mathematics specification.
+
+Senior cycle thinking
 
 ## Thinking and solving problems, in the redeveloped senior cycle
 
@@ -78,14 +74,14 @@ Where code came from a tutorial, a classmate or an AI tool, the learner writes t
 
 Sources: [Transition Year Programme Statement (2024)](https://curriculumonline.ie/getmedia/5849acbf-0326-487a-beec-3db6b5878470/TY-Programme-Statement-ENG-INT.pdf), Figure 2; [Leaving Certificate Physics specification (2024)](https://curriculumonline.ie/getmedia/aec702a9-4818-45f1-917e-497c3a9a2466/SC-PHYSICS-Spec-EN.pdf); [Oide, Senior Cycle Key Competencies](https://oide.ie/wp-content/uploads/2023/09/SC-Key-Competencies-.pdf); [Leaving Certificate Mathematics syllabus](https://curriculumonline.ie/getmedia/f6f2e822-2b0c-461e-bcd4-dfcde6decc0c/%20SCSEC25_Maths_syllabus_examination-2015_English.pdf). The competency description and attributes are quoted from Oide, which reproduces the NCCA text; the NCCA site blocks automated access, so we cite Oide.
 
+AI in Irish schools
+
 ## What the Department of Education actually says about AI
 
 The Department of Education and Youth, with Oide Technology in Education, published Guidance on Artificial Intelligence in Schools in October 2025. It is not against these tools. It is about who stays in charge of the thinking.
 
-**Guidance on Artificial Intelligence in Schools, Version 1, October 2025**
-
 | Theme | In the guidance's words | Whose words |
-|---|---|---|
+| --- | --- | --- |
 | Teaching | "AI should enhance and not replace human led teaching and learning, with the teacher overseeing any output and acting as the final checkpoint given the potential for bias and misinformation." | Foreword by Secretary General Bernie McNally |
 | Judgement | "AI tools can be used to complement and support human output and judgement, but not to replace it" | The European Commission, quoted by the Department |
 | Verification | "Given that the accuracy of GenAI outputs cannot be guaranteed, all responses require careful verification." | The Department |
@@ -102,14 +98,14 @@ The practical habits that follow from this are set out on [understand the code, 
 
 Source: [Guidance on Artificial Intelligence in Schools](https://assets.gov.ie/static/documents/dee23cad/Guidance_on_Artificial_Intelligence_in_Schools_2025.pdf), Version 1, October 2025, read 16 September 2026. The European Commission and UNESCO lines are third-party views quoted inside the guidance, and are attributed here as such.
 
+In the lesson
+
 ## How a class teaches thinking rather than tool use
 
 This is the part no document specifies, and it is where classes differ. Ours run on a simple order that puts the learner's reasoning first.
 
-**Where a tool helps, and where it takes the thinking away (our guidance)**
-
 | Moment in the work | A tool helps | A tool takes over |
-|---|---|---|
+| --- | --- | --- |
 | Understanding the problem | Explaining an unfamiliar word | Deciding what the program should do |
 | Planning | Suggesting a library that exists | Choosing the approach and its steps |
 | Writing the first version | Reminding you of syntax | Producing code the learner cannot read |
@@ -128,14 +124,14 @@ Code the learner cannot explain line by line does not count as finished, whoever
 
 Where a tool contributed, the learner notes what it did. Honesty about sources is part of the thinking, not a punishment.
 
+The rungs
+
 ## Five rungs of thinking, from six to sixty-seven
 
 The same five rungs apply whether a learner is in Second Class or retraining at forty. Only the problems change.
 
-**How thinking is built in our lessons**
-
 | Rung | What the learner can do |
-|---|---|
+| --- | --- |
 | 1. Predict | Say what a piece of code will do before running it |
 | 2. Explain | Describe, line by line, why it did what it did |
 | 3. Diagnose | Find the cause of a failure instead of changing things at random |
@@ -145,63 +141,293 @@ The same five rungs apply whether a learner is in Second Class or retraining at 
 ### Why prediction comes first
 
 A learner who predicts has to hold a model of the machine in their head. The prediction being wrong is what makes them update it, which is the whole of learning to think about code.
+
 The order of subjects that carries these rungs is mapped on the [coding roadmap](/coding-roadmap).
 
 ### When AI tools arrive
 
 Not at rung one. Once a learner can explain and diagnose, tools speed up work they already understand, and the class examines what the tool produced.
+
 For younger children, this starts as a conversation about how a machine learns from examples, and why it can be confidently wrong.
+
+The catalogue
 
 ## Nine live courses built around reasoning
 
 By stage, from primary school to adults. The free first class places a learner on the right rung.
 
+I
+
 ### Primary school
 
 Curiosity and first reasoning
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass): Order, repetition and cause, learned by predicting.
-- [Maths Through Coding](/courses/maths-through-coding): Why a method works, made visible on screen.
-- [AI Literacy for Kids](/courses/ai-literacy-for-kids-course): How machines learn, and how they get things wrong.
+THINK / PRIMARY / 01
+
+#### Coding for Kids
+
+Order, repetition and cause, learned by predicting.
+
+[Open the syllabus](/courses/kids-coding-blocks-masterclass)
+
+THINK / PRIMARY / 02
+
+#### Maths Through Coding
+
+Why a method works, made visible on screen.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+THINK / PRIMARY / 03
+
+#### AI Literacy for Kids
+
+How machines learn, and how they get things wrong.
+
+[Open the syllabus](/courses/ai-literacy-for-kids-course)II
 
 ### Secondary school
 
 Argument and diagnosis
 
-- [Python for Teens](/courses/python-complete-masterclass-teens): Fluency, so attention can go to the problem.
-- [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens): Reasoning out loud on problems without obvious answers.
-- [AI Tools for Teens](/courses/teens-ai-tools-mastery-course): Tools examined rather than trusted, from thirteen.
+THINK / SECOND / 01
+
+#### Python for Teens
+
+Fluency, so attention can go to the problem.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+THINK / SECOND / 02
+
+#### Problem Solving for Teens
+
+Reasoning out loud on problems without obvious answers.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
+
+THINK / SECOND / 03
+
+#### AI Tools for Teens
+
+Tools examined rather than trusted, from thirteen.
+
+[Open the syllabus](/courses/teens-ai-tools-mastery-course)III
 
 ### College and adults
 
 Judgement
 
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college): The language taught for understanding, not recipes.
-- [Data Structures and Algorithms](/courses/data-structures-algorithms-masterclass-college): Why one solution costs more than another.
-- [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college): What the tools do underneath, and where they fail.
+THINK / ADULT / 01
+
+#### Python Masterclass
+
+The language taught for understanding, not recipes.
+
+[Open the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
+
+THINK / ADULT / 02
+
+#### Data Structures and Algorithms
+
+Why one solution costs more than another.
+
+[Open the syllabus](/courses/data-structures-algorithms-masterclass-college)
+
+THINK / ADULT / 03
+
+#### Generative AI: LLMs, RAG and Agents
+
+What the tools do underneath, and where they fail.
+
+[Open the syllabus](/courses/complete-generative-ai-masterclass-college)
+
+How the classes run
 
 ## Small live classes, with talking in them
 
 Thinking is taught by conversation, so lessons are live rather than recorded. Our teachers work from India, where the clock never changes, so they run four and a half hours ahead of Irish time in summer and five and a half after Ireland puts its clocks back. Learners pick a regular weekly hour in the free class.
 
-- **After school** Children and teenagers, Irish time.
-- **Evening** Older students and working adults.
-- **Weekend** Longer sessions for harder problems.
+After school
 
-- **A free first class** The learner reasons through a real problem with a teacher, who then suggests the right level and course.
-- **Groups of fifteen to twenty** Small enough that every learner is asked to explain something each week.
-- **One to one** For learners who think better without an audience, or who move very fast.
-- **Questions before answers** Teachers are trained to ask what the learner expects, and to wait, rather than typing the fix.
-- **Tools in the open** When AI tools are used, the class looks at what they produced and what was wrong with it.
-- **A record of the work** Each learner keeps their own attempts, so progress in thinking is visible over months.
+Children and teenagers, Irish time.
+
+Evening
+
+Older students and working adults.
+
+Weekend
+
+Longer sessions for harder problems.
+
+### A free first class
+
+The learner reasons through a real problem with a teacher, who then suggests the right level and course.
+
+### Groups of fifteen to twenty
+
+Small enough that every learner is asked to explain something each week.
+
+### One to one
+
+For learners who think better without an audience, or who move very fast.
+
+### Questions before answers
+
+Teachers are trained to ask what the learner expects, and to wait, rather than typing the fix.
+
+### Tools in the open
+
+When AI tools are used, the class looks at what they produced and what was wrong with it.
+
+### A record of the work
+
+Each learner keeps their own attempts, so progress in thinking is visible over months.
+
+Student work
+
+## What our learners made while learning to think
+
+Four projects built and published by our students. There are many more on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## What the classes cost
 
 One monthly price in US dollars for every country outside India, the same at every age and for every course on this page. No joining fee, and no term or year to commit to.
 
-- Free first class: USD 0. A real problem, reasoned through aloud. An honest view of the right starting rung. No card required.
-- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher each week. Work discussed, not just marked. A certificate at the end of a course.
-- One to one: USD 150 a month. A teacher for one learner. The pace set by the learner. Good for very fast or very quiet learners.
+Free first class
+
+USD 0
+
+no card required
+
+- A real problem, reasoned through aloud
+- An honest view of the right starting rung
+- No card required
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners at one level
+- The same teacher each week
+- Work discussed, not just marked
+- A certificate at the end of a course
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one learner
+- The pace set by the learner
+- Good for very fast or very quiet learners
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Google reviews from our families, reproduced as written. None were solicited with payment.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions
 
 ## What families in Ireland ask about thinking and AI tools
 
@@ -245,15 +471,54 @@ After school, in the evening or at weekends, at a weekly hour agreed in the free
 
 We ring at a sensible Irish hour and arrange the free first class. Nothing is charged unless the learner continues.
 
+Elsewhere on this site
+
 ## Related pages
 
-- [Problem solving skills through coding](/problem-solving-skills-through-coding-ireland): What the evidence and curriculum say.
-- [Understand the code, do not copy-paste](/understand-the-code-dont-copy-paste-ireland): The habits that keep the learning.
-- [Learn to train AI, not just prompt it](/learn-to-train-ai-not-just-prompt-it-ireland): Going under the tools.
-- [Best online coding classes in Ireland](/best-online-coding-classes-ireland): Six checks for choosing a class.
-- [The best coding class in the world](/best-coding-class-in-the-world): What the research says about teaching.
-- [Coding classes in Ireland](/coding-classes-in-ireland): The national page.
+The same argument from other angles.
 
-## Contact
+### [Problem solving skills through coding](/problem-solving-skills-through-coding-ireland)
 
-Book the free first class at [https://learn.modernagecoders.com/learn-to-think-not-just-use-ai-tools-ireland](https://learn.modernagecoders.com/learn-to-think-not-just-use-ai-tools-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+What the evidence and curriculum say.
+
+### [Understand the code, do not copy-paste](/understand-the-code-dont-copy-paste-ireland)
+
+The habits that keep the learning.
+
+### [Learn to train AI, not just prompt it](/learn-to-train-ai-not-just-prompt-it-ireland)
+
+Going under the tools.
+
+### [Best online coding classes in Ireland](/best-online-coding-classes-ireland)
+
+Six checks for choosing a class.
+
+### [The best coding class in the world](/best-coding-class-in-the-world)
+
+What the research says about teaching.
+
+### [Coding classes in Ireland](/coding-classes-in-ireland)
+
+The national page.
+
+Start here
+
+## See a lesson that starts with a question
+
+Leave a number and we will phone at a suitable Irish hour. In the free class the learner works through a real problem with a teacher, who asks rather than tells, and you hear honestly where they are.
+
+If you would rather read on first: [how our teachers work](/how-we-teach), the [course syllabuses](/courses), and [what our students have built](/student-labs).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20first%20class%20for%20a%20learner%20in%20Ireland%20who%20wants%20to%20learn%20to%20think%2C%20not%20just%20use%20AI%20tools.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp reaches us quickest and costs nothing from an Irish phone. Our number is Indian, since the whole team works from India, and there is no office in Ireland.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/learn-to-think-not-just-use-ai-tools-ireland*

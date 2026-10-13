@@ -6,10 +6,6 @@ source: src/pages/gcse-maths-foundation-vs-higher.html
 ---
 > Foundation or Higher in GCSE maths? Grades on each tier, the allowed grade 3, AQA, Edexcel and OCR paper formats, and a simple way to decide which tier to sit.
 
-# GCSE maths Foundation vs Higher tier: which should you sit?
-
-**The short answer.** Foundation tier awards grades 1 to 5. Higher tier awards grades 4 to 9, plus an allowed grade 3 for students just below the grade 4 boundary. Both tiers sit three 1 hour 30 minute papers, one of them without a calculator. Sit Higher when grade 6 or above is a realistic target; otherwise Foundation usually protects the grade.
-
 Courses for both tiers
 
 ## Pick the course for the tier, then start this week.
@@ -27,7 +23,7 @@ Each course is taught live by one tutor who follows your board and your tier. Op
 | Aiming for 7, 8 or 9, or A level maths next | Higher tier, with the Higher-only topics taught early | [GCSE Maths](/courses/gcse-mathematics-mastery), then [A Level Maths](/courses/a-level-maths-course-pure-mechanics-statistics) |
 | Adult or post-16 resit | The tier your current working level supports, decided from a real paper | [Adult maths classes](/online-maths-classes-for-adults-in-uk) or [GCSE Maths](/courses/gcse-mathematics-mastery) |
 
-[Book a Priority Demo](/priority-demo)[Or join the free demo list](/book-demo)Side by side
+[Book a Priority Demo](/priority-demo)[Or join the free demo list](/book-demo?subject=maths)Side by side
 
 ## Foundation and Higher compared, line by line.
 

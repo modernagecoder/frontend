@@ -4,34 +4,28 @@ description: "Live online 11 plus maths for the Gloucestershire grammar schools:
 canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-gloucestershire
 source: src/pages/11-plus-maths-tuition-gloucestershire.html
 ---
-> Gloucestershire's seven grammar schools, Pate's, Denmark Road, Ribston Hall, Sir Thomas Rich's, The Crypt, Marling and Stroud High, share one entrance test that the schools run themselves. For September 2027 entry it was a GL Assessment test on Saturday 12 September 2026: two multiple-choice papers of about an hour, one of them non-verbal reasoning and maths. For children now in Year 5, the test changes. FSCE takes over, the test moves to Saturday 3 July 2027, registration runs from 8 February to 19 March 2027, and there are three papers: the Adventure Paper (English and maths, multiple choice), the Beacon Paper (English and maths, short written answers) and the Compass Paper (any school subject). The schools say maths and English form the main part. We teach the maths, live online, in time for July. There is a free first lesson; after that we charge USD 100 per month for a group place or USD 150 per month one to one.
+> Live online 11 plus maths for the Gloucestershire grammar schools: the new FSCE test on 3 July 2027, its written-answer Beacon paper, and Year 5 decimals taught.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / 11 plus maths in Gloucestershire
+In short
 
-Gloucestershire · Grammar Schools Entrance Test maths · Live online, small groups or one to one
+Gloucestershire's seven grammar schools, Pate's, Denmark Road, Ribston Hall, Sir Thomas Rich's, The Crypt, Marling and Stroud High, share one entrance test that the schools run themselves. For September 2027 entry it was a GL Assessment test on Saturday 12 September 2026: two multiple-choice papers of about an hour, one of them non-verbal reasoning and maths. For children now in Year 5, the test changes. FSCE takes over, the test moves to Saturday 3 July 2027, registration runs from 8 February to 19 March 2027, and there are three papers: the Adventure Paper (English and maths, multiple choice), the Beacon Paper (English and maths, short written answers) and the Compass Paper (any school subject). The schools say maths and English form the main part. We teach the maths, live online, in time for July. There is a free first lesson; after that we charge USD 100 per month for a group place or USD 150 per month one to one.
 
-# 11 plus maths tuition in Gloucestershire
-
-If your child is in Year 5 this year, the Gloucestershire 11 plus has just changed under your feet. The seven grammar schools, known as the G7, have appointed a new provider, Future Stories Community Enterprise (FSCE), and moved the test "from September of Year 6 to the latter part of the summer term of Year 5". The date for this cohort is Saturday 3 July 2027. Registration runs from 8 February to 19 March 2027. The format changes too: three papers, and one of them, the Beacon Paper, asks for English and maths answered in "Short Written Answers". So a child has less time than older siblings had, must be ready before Year 5 ends, and will need to write maths answers exactly rather than pick them. This page sets out what the schools and FSCE publish, and then teaches a Year 5 topic where exact written answers matter most: decimals.
-
-At a glance: Schools: Seven Gloucestershire grammar schools (G7); Provider from 2028 entry: FSCE; Test for today's Year 5: Saturday 3 July 2027; Registration: 8 February to 19 March 2027; Papers: Adventure, Beacon, Compass; Maths answered as: Multiple choice and short written answers; Content: Key Stage 2, taught up to the end of Year 5; We teach: Year 5 maths, ready by July. Rated 4.9 across 547 Google reviews.
+Starting in Gloucestershire
 
 ## Three courses for a July test
 
 With the test in July of Year 5, the time to start is this autumn. Pick by where your child is now.
 
-- [Year 5 maths by July](/courses/11-plus-maths-preparation-course-uk): The Year 5 curriculum paced to finish before the summer term, for multiple-choice and written answers.
-- [Catching up on Years 1 to 4](/courses/elementary-mathematics-complete-masterclass): For children whose earlier maths needs securing quickly before Year 5 topics.
-- [Mental and written calculation](/courses/mental-maths-mastery-kids): FSCE tests maths "through written and mental methods of calculation (no calculators)".
+[![11 Plus Maths Prep course thumbnail](/images/eleven-plus-maths.webp)  GLOS / A Year 5 maths by July The Year 5 curriculum paced to finish before the summer term, for multiple-choice and written answers. Open the syllabus →](/courses/11-plus-maths-preparation-course-uk)[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  GLOS / B Catching up on Years 1 to 4 For children whose earlier maths needs securing quickly before Year 5 topics. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)[![Mental Maths for Kids course thumbnail](/images/mental-maths-kids.webp)  GLOS / C Mental and written calculation FSCE tests maths "through written and mental methods of calculation (no calculators)". Open the syllabus →](/courses/mental-maths-mastery-kids)
+
+What has changed
 
 ## A new provider, a new date and a new format
 
 Pate's Grammar School published the G7's announcement; FSCE and Pate's publish the details for 2028 entry. Gloucestershire County Council describes the arrangements. All read on 26 September 2026.
 
-**The Gloucestershire Grammar Schools Entrance Test, last cycle and next**
-
-|  | September 2027 entry | September 2028 entry (today's Year 5) |
-|---|---|---|
+|   | September 2027 entry | September 2028 entry (today's Year 5) |
+| --- | --- | --- |
 | Provider | GL Assessment | Future Stories Community Enterprise (FSCE) |
 | Registration | Noon 18 May to noon 26 June 2026 | Noon Monday 8 February to noon Friday 19 March 2027 |
 | Test date | Saturday 12 September 2026 (Year 6) | Saturday 3 July 2027 (Year 5) |
@@ -48,6 +42,8 @@ FSCE says its test focuses "solely on areas of the KS2 National Curriculum that 
 The county council notes that registration and administration are "all carried out by the Gloucestershire grammar schools themselves". Qualifying scores and admissions are for the schools; we do not advise on them.
 
 Sources: [Gloucestershire County Council, grammar schools](https://www.gloucestershire.gov.uk/schooladmissions/grammar-schools/); [Pate's Grammar School](https://www.patesgs.org/): Year 7 entry pages for September 2027 and 2028, the 2027 FAQ and key dates, and the G7 announcement of the new provider; FSCE's information sheet and FAQ for Gloucestershire. Modern Age Coders has no connection with the G7 schools, FSCE, GL Assessment or the council.
+
+Three papers
 
 ## Where the maths will be, and how it is answered
 
@@ -73,14 +69,14 @@ The July date changes the timing of everything. FSCE says the content is what ha
 
 Registration closes on 19 March 2027, months before the test. A family deciding in the spring still has time to prepare, but not to postpone the decision.
 
+The lesson
+
 ## Decimals to three places, written exactly
 
 Year 5 is where decimals reach thousandths. The curriculum asks children to "read, write, order and compare numbers with up to 3 decimal places" and to round and scale them.
 
-**Year 5 decimals, as short written answers (our own questions)**
-
 | Skill | Our question | Answer to write |
-|---|---|---|
+| --- | --- | --- |
 | Order | Write 0.305, 0.35, 0.3 and 0.053 in order, smallest first. | 0.053, 0.3, 0.305, 0.35 |
 | Round to 1 decimal place | Round 4.67 to one decimal place. | 4.7 |
 | Round to a whole number | Round 4.67 to the nearest whole number. | 5 |
@@ -98,6 +94,8 @@ The curriculum links decimals to fractions throughout Year 5, including thousand
 
 Source: [national curriculum in England, mathematics](https://www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study/national-curriculum-in-england-mathematics-programmes-of-study), Year 5 fractions (including decimals and percentages) and multiplication and division, statutory requirements. The questions are our own.
 
+Our approach
+
 ## Earlier, and in both answer styles
 
 FSCE says its test aims to remove any need for tutoring. We take that seriously; here is what we do and do not do.
@@ -112,14 +110,14 @@ For the 2027 cycle, Pate's FAQ suggested that, beyond familiarisation material, 
 
 FSCE is blunter than most test providers. Its Gloucestershire FAQ asks "Should my child have a tutor to prepare for the test?" and answers "No", adding that it does not want any parent to have to pay a tutor, and that "There are NO commercial 11+ books or past papers endorsed by FSCE." We think families should hear that before they hear from us. What we offer is teaching of the Year 5 maths curriculum, which many families choose for its own sake; parents who can teach it themselves do not need us for this test. Older GL-style practice books will not match the new papers either way.
 
+The seven schools
+
 ## Cheltenham, Gloucester and Stroud, taught online
 
 Gloucestershire County Council lists the seven grammar schools that share the test. We reproduce the list only to show what this page covers.
 
-**Gloucestershire's grammar schools, as the county council lists them**
-
 | Town | School | As described |
-|---|---|---|
+| --- | --- | --- |
 | Cheltenham | Pate's Grammar School | 11-18 mixed |
 | Gloucester | Denmark Road High School | 11-16 girls, mixed sixth form |
 | Gloucester | Ribston Hall High School | 11-16 girls, mixed sixth form |
@@ -138,14 +136,14 @@ We have no connection with any of the seven schools, FSCE, GL Assessment or Glou
 
 Source: Gloucestershire County Council, grammar schools, read 26 September 2026.
 
+Working back from 3 July 2027
+
 ## Four stages, finished by the summer term
 
 Registration closes on 19 March 2027 and the test is on 3 July 2027. Everything below fits inside Year 5.
 
-**Year 5 maths, secure before July**
-
 | When | Stage | Evidence |
-|---|---|---|
+| --- | --- | --- |
 | Autumn, Year 5 | 1. Number and place value | Numbers to a million and decimals to three places read and ordered correctly |
 | Winter, Year 5 | 2. Operations and fractions | Written methods reliable; fractions and decimals linked |
 | Spring, Year 5 (register by 19 March) | 3. Measures, shape, data | Remaining Year 5 topics covered by Easter |
@@ -154,71 +152,321 @@ Registration closes on 19 March 2027 and the test is on 3 July 2027. Everything 
 ### Starting late
 
 A spring start is tight for a July test. We will focus on the biggest strands first and be honest about what fits.
+
 At the free lesson we will give you our frank view.
 
 ### After the test
 
 Results come in October 2027, and Year 6 continues without an autumn test. Many children use that year for [maths through coding](/courses/maths-through-coding) or deeper maths.
+
 Some try the challenges on our [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar).
+
+Courses
 
 ## Maths and coding for Gloucestershire families
 
 By stage, each linked to its syllabus.
 
+I
+
 ### For the G7 test
 
 Years 3 to 5
 
-- [11 plus maths, Gloucestershire](/courses/11-plus-maths-preparation-course-uk): Year 5 maths in time for July.
-- [Mental maths practice](/courses/mental-maths-mastery-kids): Fast recall, no calculator.
-- [Primary foundations](/courses/elementary-mathematics-complete-masterclass): Years 1 to 5 made secure.
-- [Abacus arithmetic](/courses/abacus-mental-maths-course-for-kids): Place value you can see.
+GLM / 1
+
+#### 11 plus maths, Gloucestershire
+
+Year 5 maths in time for July.
+
+[Open the syllabus](/courses/11-plus-maths-preparation-course-uk)
+
+GLM / 2
+
+#### Mental maths practice
+
+Fast recall, no calculator.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+GLM / 3
+
+#### Primary foundations
+
+Years 1 to 5 made secure.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+GLM / 4
+
+#### Abacus arithmetic
+
+Place value you can see.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)II
 
 ### Secondary
 
 Year 6 onwards
 
-- [Lower secondary maths](/courses/comprehensive-middle-school-mathematics-mastery): Decimals, ratio and algebra.
-- [GCSE maths, any board](/courses/gcse-mathematics-mastery): Foundation and higher.
-- [Maths challenges and olympiads](/courses/olympiad-competition-mathematics-mastery): For children who want more.
+GLM / 5
+
+#### Lower secondary maths
+
+Decimals, ratio and algebra.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+GLM / 6
+
+#### GCSE maths, any board
+
+Foundation and higher.
+
+[Open the syllabus](/courses/gcse-mathematics-mastery)
+
+GLM / 7
+
+#### Maths challenges and olympiads
+
+For children who want more.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)III
 
 ### Coding
 
 Decimals in code
 
-- [Maths through coding](/courses/maths-through-coding): Floating-point numbers, explored.
-- [Scratch programming course](/courses/scratch-programming-complete-course): Blocks, logic and first games.
-- [Python and AI (ages 9 to 12)](/courses/python-ai-kids-masterclass): The first typed language.
+GLM / 8
+
+#### Maths through coding
+
+Floating-point numbers, explored.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+GLM / 9
+
+#### Scratch programming course
+
+Blocks, logic and first games.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)
+
+GLM / 10
+
+#### Python and AI (ages 9 to 12)
+
+The first typed language.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)IV
 
 ### Later
 
 Teenagers
 
-- [Vedic maths](/courses/vedic-maths-course-speed-calculation-mastery): Speed methods for fluent pupils.
-- [AI and ML, teen course](/courses/ai-ml-masterclass-teens): Maths in machine learning.
+GLM / 11
+
+#### Vedic maths
+
+Speed methods for fluent pupils.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
+
+GLM / 12
+
+#### AI and ML, teen course
+
+Maths in machine learning.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+Timetable
 
 ## After school and at weekends
 
 Lessons are taught live from India. We schedule Gloucestershire primary pupils in the early evening or on weekend mornings, fixed in UK time, and absorb the spring and autumn clock changes ourselves.
 
-- **After school, weekdays** Before the evening gets late.
-- **Weekend mornings** A fresh start.
-- **Easter holidays** Extra sessions before the summer term.
+After school, weekdays
 
-- **One teacher** The same teacher all year.
-- **Frank updates** Short, honest notes after lessons.
-- **Fifteen to twenty children** Matched by level.
-- **Our own questions** No FSCE or GL material copied.
-- **One to one** When time before July is short.
-- **Maths only** No English or Compass coaching; no admissions advice.
+Before the evening gets late.
+
+Weekend mornings
+
+A fresh start.
+
+Easter holidays
+
+Extra sessions before the summer term.
+
+### One teacher
+
+The same teacher all year.
+
+### Frank updates
+
+Short, honest notes after lessons.
+
+### Fifteen to twenty children
+
+Matched by level.
+
+### Our own questions
+
+No FSCE or GL material copied.
+
+### One to one
+
+When time before July is short.
+
+### Maths only
+
+No English or Compass coaching; no admissions advice.
+
+Student work
+
+## What our students go on to make
+
+Four projects built by students at our school, grounded in primary maths like decimals and place value. More on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Families outside India all pay the same monthly US dollar fee. There is no joining charge and no minimum term.
 
-- Free first class: USD 0. A real lesson. Honest feedback. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty children, one level. The same teacher weekly. Work checked together. A certificate at the end.
-- One to one: USD 150 a month. One child, one teacher. Paced for a July test. Focused on weak areas.
+Free first class
+
+USD 0
+
+no card required
+
+- A real lesson
+- Honest feedback
+- No card needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty children, one level
+- The same teacher weekly
+- Work checked together
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- One child, one teacher
+- Paced for a July test
+- Focused on weak areas
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Parents' reviews on Google, verbatim.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Gloucestershire questions
 
 ## What Gloucestershire families ask us
 
@@ -262,15 +510,54 @@ No. FSCE's Gloucestershire FAQ says a tutor is not needed and that it does not w
 
 Lesson one is free. After that, a small-group place is USD 100 a month and private lessons USD 150 a month.
 
+Related
+
 ## More for Gloucestershire families
 
-- [Coding classes in Gloucester](/best-coding-class-in-gloucester): Programming for Gloucester children.
-- [11 plus maths in Reading](/11-plus-maths-tuition-reading): Reading School also uses an FSCE test in July.
-- [11 plus maths tuition](/11-plus-maths-tuition): The overall picture of 11 plus maths.
-- [11 plus maths in Birmingham](/11-plus-maths-tuition-birmingham): A September GL test not far north.
-- [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar): Maths challenges through the year.
-- [All our UK pages](/coding-classes-in-united-kingdom): Every UK area.
+Coding in Gloucester, another FSCE test area, and our national page.
 
-## Contact
+### [Coding classes in Gloucester](/best-coding-class-in-gloucester)
 
-Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-gloucestershire](https://learn.modernagecoders.com/11-plus-maths-tuition-gloucestershire#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Programming for Gloucester children.
+
+### [11 plus maths in Reading](/11-plus-maths-tuition-reading)
+
+Reading School also uses an FSCE test in July.
+
+### [11 plus maths tuition](/11-plus-maths-tuition)
+
+The overall picture of 11 plus maths.
+
+### [11 plus maths in Birmingham](/11-plus-maths-tuition-birmingham)
+
+A September GL test not far north.
+
+### [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar)
+
+Maths challenges through the year.
+
+### [All our UK pages](/coding-classes-in-united-kingdom)
+
+Every UK area.
+
+Start here
+
+## Get a free lesson
+
+Tell us your child's year and how comfortable they are with decimals and fractions. We teach a real lesson, then give you an honest view of the months to July.
+
+Would you like to look around first? The [course syllabuses](/courses) are online, [how we teach](/how-we-teach) explains our approach, and the [roadmap](/coding-roadmap) shows the path ahead.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20my%20child%20for%20the%20Gloucestershire%2011%20plus.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+Message us on WhatsApp for the quickest reply. We are an Indian school with an Indian number and no UK office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-gloucestershire*

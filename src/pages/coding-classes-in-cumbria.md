@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths classes across Cumbria, f
 canonical: https://learn.modernagecoders.com/coding-classes-in-cumbria
 source: src/pages/coding-classes-in-cumbria.html
 ---
-> Cumbria had 499,849 residents at the 2021 Census, counted then in six districts and now served by two councils, Cumberland and Westmorland and Furness. Carlisle is by far the largest town, then Barrow-in-Furness, Kendal, Whitehaven and Workington, and after them small towns scattered across fells, coast and valleys. Distance is the county's defining fact, and online teaching is how we answer it: a teacher in India, live on video, working with learners placed by ability rather than age, anyone from 6 up to 67, in groups of fifteen to twenty or on their own. We teach programming, Python, AI, machine learning and maths. The Cumbria project is about the Lake poets and a machine that learns. The first lesson costs nothing; then a group place is USD 100 a month and private teaching USD 150.
+> Live online coding, Python, AI and maths classes across Cumbria, from Carlisle, Barrow-in-Furness and Kendal to Whitehaven, Workington, Penrith and Ulverston.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Cumbria
-
-County of Cumbria / Live online
-
-# Coding classes in Cumbria
-
-**What are the best coding classes in Cumbria?** Cumbria had 499,849 residents at the 2021 Census, counted then in six districts and now served by two councils, Cumberland and Westmorland and Furness. Carlisle is by far the largest town, then Barrow-in-Furness, Kendal, Whitehaven and Workington, and after them small towns scattered across fells, coast and valleys. Distance is the county's defining fact, and online teaching is how we answer it: a teacher in India, live on video, working with learners placed by ability rather than age, anyone from 6 up to 67, in groups of fifteen to twenty or on their own. We teach programming, Python, AI, machine learning and maths. The Cumbria project is about the Lake poets and a machine that learns. The first lesson costs nothing; then a group place is USD 100 a month and private teaching USD 150.
-
-Wordsworth grew up and wrote in the Lakes, and Coleridge wrote part of Christabel "in the year 1800, at Keswick, Cumberland", as his own preface puts it. Their styles are different enough that a simple machine learning model can tell their poetry apart with startling accuracy. This page's project builds that model from scratch, a naive Bayes classifier, and trains it on free editions of each poet. It scores nearly 97 per cent. Then comes the twist every learner should see once: when you ask the model which words convinced it, many of them turn out not to be poetry at all, but the editors' footnotes. The project is about building a classifier, and even more about asking what it has really learned.
-
-Facts last verified 26 September 2026. Teaching is online; no Cumbria branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Cumbria
 
 ## Where Cumbrian learners usually begin
 
 A nine-year-old in Cockermouth curious about how chatbots work, an eleven-year-old in Penrith ready for real Python, a Year 12 in Kendal interested in machine learning, and a teaching assistant in Workington who wants to understand the AI tools arriving at work. One free lesson each.
 
-- [AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course) (Ages 8 to 14): How AI actually works, how it learns from data, where it goes wrong and how to judge it, with supervised tools.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): First typed Python, with word counting and simple predictions that show a child how a model is built.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 18): Python, real machine learning models, neural networks, language processing and modern generative AI.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Adults): Python to working with large language models: prompts, retrieval, fine-tuning, agents and production skills.
+[![AI Literacy for Kids (Ages 8 to 14) course thumbnail](/images/ai-literacy-for-kids.webp)Ages 8 to 14AI Literacy for Kids (Ages 8 to 14)How AI actually works, how it learns from data, where it goes wrong and how to judge it, with supervised tools.See the syllabus](/courses/ai-literacy-for-kids-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsFirst typed Python, with word counting and simple predictions that show a child how a model is built.See the syllabus](/courses/python-ai-kids-masterclass)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 18AI and Machine Learning for TeensPython, real machine learning models, neural networks, language processing and modern generative AI.See the syllabus](/courses/ai-ml-masterclass-teens)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)AdultsGenerative AI CoursePython to working with large language models: prompts, retrieval, fine-tuning, agents and production skills.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)The county in figures
 
 ## 499,849 people across six former districts and two new councils
 
 The 2021 Census was taken in the old six-district geography, and those are the figures Nomis publishes. The town list is the ONS built-up areas, which we confirmed against our own small-area totals.
 
-**Cumbria's six former districts at the 2021 Census, usual residents, largest first**
-
 | Former district | Usual residents | Main towns | Council today |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Carlisle | 110,024 | Carlisle | Cumberland |
 | South Lakeland | 104,450 | Kendal, Ulverston | Westmorland and Furness |
 | Allerdale | 96,157 | Workington, Cockermouth, Maryport, Wigton | Cumberland |
@@ -53,10 +39,8 @@ The 2021 Census was taken in the old six-district geography, and those are the f
 
 Cumberland Council's own website describes it as moving across content from the former Allerdale, Carlisle and Copeland councils, which leaves Barrow-in-Furness, Eden and South Lakeland in the Westmorland and Furness area. Either way, the numbers tell the same story: under half a million people spread over one of England's largest counties, with only Carlisle above 60,000. For a teenager who wants to go further with programming, the nearest group at the right level may be two valleys and an hour away.
 
-**All fifteen Cumbrian built-up areas above 5,000 residents, 2021 Census**
-
 | Town | Residents | Town | Residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Carlisle | 77,730 | Cockermouth | 8,860 |
 | Barrow-in-Furness | 55,255 | Maryport | 8,525 |
 | Kendal | 28,940 | Dalton-in-Furness | 7,555 |
@@ -64,9 +48,11 @@ Cumberland Council's own website describes it as moving across content from the 
 | Workington | 21,275 | Egremont | 5,795 |
 | Penrith | 16,700 | Millom | 5,690 |
 | Ulverston | 11,220 | Wigton | 5,395 |
-| Seaton | 5,050 |  |  |
+| Seaton | 5,050 |   |   |
 
 Each of the fifteen agrees with our own output-area count within rounding, and all lie inside the county. We print no school calendar: the two councils and the academies set their own dates, and lesson breaks are agreed with each family around the dates their school sends home.
+
+The Cumbria project
 
 ## Teaching a program to tell Wordsworth from Coleridge
 
@@ -74,10 +60,8 @@ Two free Gutenberg editions, a classifier a sixteen-year-old can write from firs
 
 The learner takes the first volume of each poet's collected works from Project Gutenberg, splits the text into chunks of 300 words, and labels each chunk with its author: 342 Wordsworth, 572 Coleridge. Four-fifths train the model, the rest test it. Naive Bayes is simple: for each author, count how often every word appears, then score a new chunk by how likely its words would be under each author's counts, with one added to every count so an unseen word does not wreck the sum. The chunk goes to whichever author scores higher.
 
-**Our run of 26 September 2026 (seed 20260926)**
-
 | Test | Result |
-|---|---|
+| --- | --- |
 | Always guess the bigger author, Coleridge | 60.7 per cent correct, the baseline to beat |
 | Naive Bayes on 300-word chunks | 96.7 per cent correct on 183 unseen chunks |
 | Same, after removing 223 one-sided and editorial words | 94.5 per cent |
@@ -104,14 +88,14 @@ List the most telling words, spot the editorial leakage, clean it out and measur
 
 Our result says a word-count model can separate two collected editions. It does not settle any question of who wrote what, and the 1798 Lyrical Ballads were published anonymously, so we make no claims about individual poems. The texts are Project Gutenberg's public domain editions; the chunks, the model and the numbers are ours.
 
+Why the Lakes
+
 ## Two poets, Keswick and Grasmere, in their own editions
 
 The Cumbria link, quoted from the Gutenberg editions the project uses.
 
-**Cumbrian places in the two collected editions**
-
 | Edition | What it says |
-|---|---|
+| --- | --- |
 | Coleridge, preface to Christabel | "The second part, after my return from Germany, in the year 1800, at Keswick, Cumberland." |
 | Wordsworth, ed. William Knight | Dorothy Wordsworth's journal covers the years "when the brother and sister lived together at Grasmere". |
 | Wordsworth, ed. William Knight | The "School Exercise written at Hawkshead" dates from "the poet's fourteenth year". |
@@ -121,16 +105,41 @@ The same Gutenberg files that train the model also record where these poems were
 
 Modern Age Coders has no connection with Project Gutenberg, the National Trust, the Wordsworth Trust, Cumberland Council or Westmorland and Furness Council, and nothing on this page implies one. The texts are public domain; the analysis and any errors in it are ours.
 
-**Nearby pages** [Carlisle](/best-coding-class-in-carlisle) has a page of its own, [Cheshire](/coding-classes-in-cheshire) and [Greater Manchester](/coding-classes-in-greater-manchester) are to the south, and the [UK hub](/coding-classes-in-united-kingdom) links the rest.
+Nearby pages
+
+[Carlisle](/best-coding-class-in-carlisle) has a page of its own, [Cheshire](/coding-classes-in-cheshire) and [Greater Manchester](/coding-classes-in-greater-manchester) are to the south, and the [UK hub](/coding-classes-in-united-kingdom) links the rest.
+
+Stage by stage
 
 ## From counting words to questioning a model
 
 The free lesson finds where to start. School year hints at it; ability decides.
 
-- **Ages 6 to 10: Patterns in words** Scratch and word games where children sort, count and match, the first steps toward seeing data in text. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 10 to 13: How AI learns** Python word counts and simple predictions, alongside honest lessons on where AI tools go wrong. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)
-- **Ages 13 to 18: Models you can explain** Classifiers, baselines, evaluation and leakage, so a teenager can build a model and defend its numbers. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: AI at work, understood** Adults learn how language models are built and tested, and how to check what a tool has really learned. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Data Science Course](/courses/data-science-complete-masterclass-college)
+Ages 6 to 10
+
+### Patterns in words
+
+Scratch and word games where children sort, count and match, the first steps toward seeing data in text.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 10 to 13
+
+### How AI learns
+
+Python word counts and simple predictions, alongside honest lessons on where AI tools go wrong.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)Ages 13 to 18
+
+### Models you can explain
+
+Classifiers, baselines, evaluation and leakage, so a teenager can build a model and defend its numbers.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### AI at work, understood
+
+Adults learn how language models are built and tested, and how to check what a tool has really learned.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Data Science Course](/courses/data-science-complete-masterclass-college)AI, honestly
 
 ## A model scored 96.7 per cent. Why should a Cumbrian teenager doubt it?
 
@@ -142,30 +151,139 @@ A learner who has found "linenotes" at the top of their own model's list will ne
 
 So a Cumbrian teenager should learn to code in 2026 to be able to open up a model and see what it has really learned, a skill worth more than any single score. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+The practical side
+
 ## Millom to Carlisle with the fells in between
 
 Cumbria's distances are long and its roads slow in winter. Online lessons ignore both.
 
-- **Taught where you live** A farmhouse table near Wigton, a bedroom in Egremont, a desk in Ulverston. Teacher and learner share one screen.
-- **School words, in English** Year 9 options, GCSEs and A levels are named the way Cumbrian schools name them, and teaching is in English.
-- **The first lesson is free** A proper lesson with real work and a clear recommendation afterwards. There is nothing to pay and no card to give.
-- **A class at your stage** Fifteen to twenty learners who have reached the same point, from towns and countries far apart, meeting at a sensible hour.
-- **Your school's holidays** Two lessons a week is typical, paused whenever your own school breaks up.
-- **Always in UK time** Teachers are in India, four and a half hours ahead of UK summer time and five and a half ahead in winter; you only ever see UK time.
+### Taught where you live
 
-**Why groups are formed by level** Fifteen towns spread over mountains and coast mean no single place has enough learners at every stage. Level-based groups let a Maryport learner and a Kendal learner share one class.
+A farmhouse table near Wigton, a bedroom in Egremont, a desk in Ulverston. Teacher and learner share one screen.
+
+### School words, in English
+
+Year 9 options, GCSEs and A levels are named the way Cumbrian schools name them, and teaching is in English.
+
+### The first lesson is free
+
+A proper lesson with real work and a clear recommendation afterwards. There is nothing to pay and no card to give.
+
+### A class at your stage
+
+Fifteen to twenty learners who have reached the same point, from towns and countries far apart, meeting at a sensible hour.
+
+### Your school's holidays
+
+Two lessons a week is typical, paused whenever your own school breaks up.
+
+### Always in UK time
+
+Teachers are in India, four and a half hours ahead of UK summer time and five and a half ahead in winter; you only ever see UK time.
+
+Why groups are formed by level
+
+Fifteen towns spread over mountains and coast mean no single place has enough learners at every stage. Level-based groups let a Maryport learner and a Kendal learner share one class.
+
+Fees
 
 ## Fees in Cumbria
 
 One price for every Cumbrian town, and for every country outside India.
 
-- First class: USD 0. A full lesson of real work, finishing with a recommended level and course.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty at the same level.
-- Private tuition: USD 150 a month. About eight lessons a month with a teacher and one learner.
+First class**USD 0**
+
+A full lesson of real work, finishing with a recommended level and course.
+
+Group tuition**USD 100**
+
+About eight lessons a month in a group of fifteen to twenty at the same level.
+
+Private tuition**USD 150**
+
+About eight lessons a month with a teacher and one learner.
 
 We charge in US dollars for all families outside India and have no pound price list. The first payment is taken only after the free lesson has settled a course and weekly slot; pauses, missed lessons and changes between group and private teaching are covered on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20lesson%20for%20a%20learner%20in%20Cumbria.)Reviews
+
+## Families' words, from Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Start with a free lesson
+
+Give us an age or school year and one interest. The first lesson could be an AI literacy session, a first Python word counter, or the Lake poets classifier on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Cumbria one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20lesson%20for%20a%20learner%20in%20Cumbria.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Cumbria questions
+
+On the county, the poets project and the lessons.
 
 ### How many people live in Cumbria?
 
@@ -207,10 +325,14 @@ The first lesson is free. Then a group place is USD 100 a month and private less
 
 Cumberland, Westmorland and Furness and the academies set their own dates. We arrange lesson breaks around your school's calendar.
 
+Around the UK
+
 ## Other pages from here
 
 [Carlisle](/best-coding-class-in-carlisle) has its own page. For other counties see [Cheshire](/coding-classes-in-cheshire), [Greater Manchester](/coding-classes-in-greater-manchester) or [Cornwall](/coding-classes-in-cornwall), and the [UK hub](/coding-classes-in-united-kingdom) for everything else.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20lesson%20for%20a%20learner%20in%20Cumbria.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-cumbria](https://learn.modernagecoders.com/coding-classes-in-cumbria#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-cumbria*

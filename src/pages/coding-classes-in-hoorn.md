@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and app classes for Hoorn, Zwaag an
 canonical: https://learn.modernagecoders.com/coding-classes-in-hoorn
 source: src/pages/coding-classes-in-hoorn.html
 ---
-> Hoorn, with 76,202 residents on 1 January 2026 in the national count, is the old VOC town of West-Friesland: Count Willem V granted its town rights on 26 March 1356/1357, for 1,550 shields, and two skippers of Hoorn named Cape Horn after the ship Hoorn. That double year is not a typing error. For centuries places began the year on different days, and Holland only ordered the year to start on 1 January in 1580, so a spring date could belong to two years depending on who wrote it. Software has the same problem every day: 03/04 is 3 April in Hoorn and 4 March in the United States, and a time without its time zone is only half a time. Live online classes in English run for ages 6 to 67, the first free; a group place then costs USD 100 a month and private lessons USD 150.
+> Live online coding, Python, AI and app classes for Hoorn, Zwaag and Blokker, ages 6 to 67, from the Binnenstad to Kersenboogerd. The first lesson is free.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Hoorn
-
-Hoorn, Noord-Holland / Live online
-
-# Coding classes in Hoorn, where the town charter is dated 1356/1357
-
-**What are the best coding classes in Hoorn?** Hoorn, with 76,202 residents on 1 January 2026 in the national count, is the old VOC town of West-Friesland: Count Willem V granted its town rights on 26 March 1356/1357, for 1,550 shields, and two skippers of Hoorn named Cape Horn after the ship Hoorn. That double year is not a typing error. For centuries places began the year on different days, and Holland only ordered the year to start on 1 January in 1580, so a spring date could belong to two years depending on who wrote it. Software has the same problem every day: 03/04 is 3 April in Hoorn and 4 March in the United States, and a time without its time zone is only half a time. Live online classes in English run for ages 6 to 67, the first free; a group place then costs USD 100 a month and private lessons USD 150.
-
-A date looks like the least ambiguous thing in a document, and it is one of the most ambiguous. The encyclopaedia writes Hoorn's charter as 26 March 1356/1357 because in the Middle Ages different places started the year on different days, one of them Easter, and a March date could fall in one year by one reckoning and the next year by another. Writers who corresponded across such boundaries sometimes gave both years to be safe. Holland settled the matter for itself in 1580. Computers have never settled it. The same eight characters, 03/04/26, mean one day in the Netherlands and another in the United States; a meeting at nine means nothing without a time zone; a week number depends on which system counts the weeks. Hoorn, whose charter already needs two years to be dated honestly, is a good place to learn that a date is only as clear as the convention written beside it.
-
-Facts last verified 11 September 2026. Teaching is online; no Hoorn branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Hoorn
 
 ## Four courses for the town of the Hoofdtoren
 
 A child in Zwaag who wants to build a birthday countdown, a teenager in Kersenboogerd making a booking app, a student in the Binnenstad merging two spreadsheets that write dates differently, and an adult in Blokker whose team schedules meetings with colleagues abroad. Whichever of them it is, the first lesson is free.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Countdowns and calendars in Scratch, where a child discovers that the computer has to be told which number is the day and which the month.
-- [App Development for Teens](/courses/complete-app-development-masterclass-for-teens) (Ages 13 to 18): A booking app that stores every time in one standard form and shows each user their own local date and clock.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Python for real date handling: parsing, time zones, daylight saving, week numbers and files from other countries.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): Spreadsheets and dashboards checked for dates that were read the wrong way round before any trend is drawn.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsCountdowns and calendars in Scratch, where a child discovers that the computer has to be told which number is the day and which the month.See the syllabus](/courses/scratch-programming-complete-course)[![App Development for Teens course thumbnail](/images/app-dev-teens.webp)Ages 13 to 18App Development for TeensA booking app that stores every time in one standard form and shows each user their own local date and clock.See the syllabus](/courses/complete-app-development-masterclass-for-teens)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CoursePython for real date handling: parsing, time zones, daylight saving, week numbers and files from other countries.See the syllabus](/courses/python-ai-automation-masterclass-college)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)Spreadsheets and dashboards checked for dates that were read the wrong way round before any trend is drawn.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Hoorn today
 
 ## Three woonplaatsen, a harbour tower, and more water than land
 
 The municipality takes in three woonplaatsen, Hoorn, Zwaag and Blokker, divided by the statistics office into 15 wijken and 75 buurten, from the Binnenstad and Grote Waal to Risdam, the Kersenboogerd and the Bangert en Oosterpolder. Of its 5,346 hectares only 2,037 are land and 3,308 are water, so about three fifths of the municipality lies under the Markermeer; the published density of 3,733 residents per square kilometre is taken over the land.
 
-**Hoorn in the encyclopaedia, dates written as given**
-
 | Date as written | What it records | What the notation alone tells you |
-|---|---|---|
+| --- | --- | --- |
 | 26 March 1356/1357 | Count Willem V granted town rights, for 1,550 shields | two year numbers for one day |
 | 1532 | the Hoofdtoren, the harbour tower | one year |
 | 1606/1610 | the VOC warehouse of the Hoorn chamber of the company | two years again, and nothing to say whether they mark a span or two events |
@@ -61,14 +47,14 @@ Hoorn was the seat of one of the chambers of the Verenigde Oostindische Compagni
 
 A museum steam tram runs between Hoorn and Medemblik, one of the sights the encyclopaedia names alongside the Hoofdtoren and the Westfries Museum.
 
+A date and its convention
+
 ## The same characters, different days
 
 The first row comes from the encyclopaedia entries for Hoorn and for the Easter style of reckoning the year. The rest are the everyday forms of the same problem in software.
 
-**Dates that need their convention written beside them**
-
 | What is written | One reading | Another reading | What settles it |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 26 March 1356/1357 | the year as counted where the year began at Easter | the year as counted from 1 January | naming the year style, or giving both years |
 | 03/04/26 | 3 April 2026, day first, as in the Netherlands | 4 March 2026, month first, as in the United States | writing 2026-04-03, year first |
 | 09:00 | nine in the morning in Hoorn | nine in the morning wherever the reader is | adding the time zone or storing UTC |
@@ -76,6 +62,8 @@ The first row comes from the encyclopaedia entries for Hoorn and for the Easter 
 | The last Sunday in October | a normal day | a day with twenty-five hours in Dutch time | letting a time library handle daylight saving |
 
 According to the encyclopaedia, in the Easter style the year began at Easter, and the States of Holland ordered in 1580 that the whole province should use the style in which the year begins on 1 January. Dates from other styles are normally converted, the entry says, but sometimes the year is still quoted double, as in 20 February 1491/2, and giving several styles was useful when two people in regions with different year styles corresponded. That is exactly the situation software is in all the time: systems in different places, each with its own convention, exchanging dates that look identical. The page does not claim to know which year style the Hoorn charter itself used; the double year is enough to show that the date cannot be read without a convention.
+
+Verified local facts
 
 ## Hoorn in the national statistics
 
@@ -107,6 +95,8 @@ Children under fifteen number 11,894, young people from fifteen to twenty-five 8
 
 Modern Age Coders has no relationship with the municipality of Hoorn, the Westfries Museum, the steam tram or any school in West-Friesland, and nothing on the page implies one. The statistics are those published for Hoorn for the years stated. The charter, the Hoofdtoren, the VOC warehouse, the Statencollege, Cape Horn and the steam tram come from the encyclopaedia entry for Hoorn, and the Easter style and the change of 1580 from the entry for the Easter style. The Hoorn entry gives 76,211 residents for 1 January 2026, a different source from the statistics, and the two are kept apart.
 
+Signature project
+
 ## Store one form, show many
 
 Most date bugs come from one of three mistakes: guessing the format, dropping the time zone, or doing date arithmetic by hand. Each has a standard cure.
@@ -123,10 +113,8 @@ When reading dates from a file or a form, require the format to be stated, or re
 
 Leap years, month lengths, daylight saving and time zones are solved problems with sharp edges. Use a well-tested date library instead of adding days and hours by hand.
 
-**Date bugs and what prevents them**
-
 | The bug | How it happens | What it costs | The prevention |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Day and month swapped | a file from abroad read with the local format | appointments a month off, trends drawn from nonsense | year-first storage and a declared input format |
 | An hour lost or doubled | times stored without time zone across a clock change | double bookings and missed alarms | storing universal time with the offset |
 | Text turned into a date | a spreadsheet converting codes that look like dates | identifiers silently replaced by calendar days | importing such columns explicitly as text |
@@ -137,14 +125,14 @@ Leap years, month lengths, daylight saving and time zones are solved problems wi
 
 Language models read dates in emails, invoices, contracts and web pages written all over the world, and they turn them into calendar entries, reminders and database rows. They are very good at recognising that something is a date and much less reliable at knowing which convention it was written in. A model that reads 03/04 in a Dutch email as the fourth of March, or schedules a call for nine without asking whose nine, produces a result that looks entirely correct and is simply wrong. Spreadsheets have done a version of this for years, converting codes that happen to look like dates into calendar days without asking. The remedies are unglamorous and effective: store dates in one unambiguous form, carry the time zone with every moment, make any tool, human or AI, state the convention it assumed, and test every date handler with days that could be read two ways. The encyclopaedia's 1356/1357 is the same lesson from the fourteenth century: a date that is honest about its ambiguity is better than one that looks certain and is not.
 
+Reliable pipeline
+
 ## Five habits for dates that travel
 
 For bookings, logs, spreadsheets, imports, schedules and AI tools that read dates. Practised in the town whose charter needs two years.
 
-**Keeping dates unambiguous from input to screen**
-
 | Habit | In practice | The trap | The pay-off |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Year first | Store and exchange dates as YYYY-MM-DD | Day and month read the wrong way round | Dates that sort and compare correctly |
 | Universal time inside | Save moments in UTC with their offset; convert only to display | Lost hours at clock changes and across countries | One timeline for everyone |
 | Declared input formats | Name the format of every incoming date, or reject ambiguous ones | Silent guesses | Imports that fail loudly |
@@ -165,14 +153,37 @@ A shared calendar or report checked across a clock change and a colleague in ano
 
 This section uses the encyclopaedia's dating of the Hoorn charter and its account of the Easter style, together with standard practice in software. It makes no claim about which year style the charter itself was written in.
 
+Learning ladder
+
 ## From a birthday countdown to dates that cross time zones
 
 Where each learner starts is decided during the free lesson, watching them on a real task. Being from Zwaag or Blokker does not decide it, and neither does age alone.
 
-- **Ages 6 to 10: Which is the day?** Children learn that a computer must be told which number is the day. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Game Development for Kids](/courses/game-development-masterclass-for-kids)
-- **Ages 11 to 13: Year first** Learners store dates year first and see why they then sort properly. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Two files, two formats** Teenagers merge date files written in different conventions. [App Development for Teens](/courses/complete-app-development-masterclass-for-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Time zones** Adults build schedules that stay right across clocks and borders. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Which is the day?
+
+Children learn that a computer must be told which number is the day.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Game Development for Kids](/courses/game-development-masterclass-for-kids)Ages 11 to 13
+
+### Year first
+
+Learners store dates year first and see why they then sort properly.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Two files, two formats
+
+Teenagers merge date files written in different conventions.
+
+[App Development for Teens](/courses/complete-app-development-masterclass-for-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Time zones
+
+Adults build schedules that stay right across clocks and borders.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## An AI will turn any email into a calendar entry. Why should a teenager in Hoorn check which date it chose?
 
@@ -184,30 +195,139 @@ A learner who has merged two files written in different date formats, and watche
 
 So the case for a child in Hoorn learning to code in 2026 is not the VOC or the harbour tower. It is that someone who asks which convention a date was written in will be needed wherever AI reads the world's paperwork and turns it into schedules. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## The same class in Hoorn, Zwaag and Blokker
 
 The municipality stretches from the harbour to the villages of Zwaag and Blokker, and a class that starts at home reaches every part of it equally.
 
-- **From home in any of the three** A learner in Blokker and a learner by the harbour open the same class at the same minute, each at home, with no ride through West-Friesland in the evening.
-- **Dutch school labels as they are** Brugklas, groep, vmbo, havo, vwo and the profielkeuze keep their Dutch names, as Hoorn schools use them, and everything around them is taught in English.
-- **A first lesson that is a lesson** The free session works through a real task. Afterwards the teacher proposes a level, a course and a weekly time; no card is asked for and nothing is owed.
-- **A group at the right stage** Fifteen to twenty learners at one point in one subject. The municipality has 11,894 residents under fifteen, but a matching five, free at the same hour, is rare, so a group may include learners from other countries.
-- **Regio Noord weeks off** Two classes a week, about eight a month, in one fixed slot, pausing for the regio Noord holidays that Noord-Holland schools keep.
-- **Clocks three or four hours apart** The teachers work from India, three and a half hours ahead of Hoorn in summer and four and a half in winter, so after-school, evening and weekend-morning slots are all practical.
+### From home in any of the three
 
-**Thirty-six schools, three woonplaatsen, and one group online** Hoorn has 27 primary establishments teaching 6,845 pupils and 9 secondary establishments teaching 7,499. Five learners who match on subject, stage and hour at once are far easier to find across every age from 6 to 67 and many countries than within one municipality.
+A learner in Blokker and a learner by the harbour open the same class at the same minute, each at home, with no ride through West-Friesland in the evening.
+
+### Dutch school labels as they are
+
+Brugklas, groep, vmbo, havo, vwo and the profielkeuze keep their Dutch names, as Hoorn schools use them, and everything around them is taught in English.
+
+### A first lesson that is a lesson
+
+The free session works through a real task. Afterwards the teacher proposes a level, a course and a weekly time; no card is asked for and nothing is owed.
+
+### A group at the right stage
+
+Fifteen to twenty learners at one point in one subject. The municipality has 11,894 residents under fifteen, but a matching five, free at the same hour, is rare, so a group may include learners from other countries.
+
+### Regio Noord weeks off
+
+Two classes a week, about eight a month, in one fixed slot, pausing for the regio Noord holidays that Noord-Holland schools keep.
+
+### Clocks three or four hours apart
+
+The teachers work from India, three and a half hours ahead of Hoorn in summer and four and a half in winter, so after-school, evening and weekend-morning slots are all practical.
+
+Thirty-six schools, three woonplaatsen, and one group online
+
+Hoorn has 27 primary establishments teaching 6,845 pupils and 9 secondary establishments teaching 7,499. Five learners who match on subject, stage and hour at once are far easier to find across every age from 6 to 67 and many countries than within one municipality.
+
+Fees
 
 ## What Hoorn families pay
 
 Three prices, set out in full.
 
-- First class: USD 0. A real lesson on a real task, ending with a level and the course that fits.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners at the same level.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A real lesson on a real task, ending with a level and the course that fits.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners at the same level.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 The fee is a single dollar amount for every country, with no euro list alongside it, so a household in Zwaag pays what a household in the Binnenstad pays. Nothing is charged until the free lesson has fixed a course and a slot, and payment is arranged on WhatsApp after that. The pricing page explains pauses, a change of format and missed lessons.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Hoorn.)Reviews
+
+## Six Google reviews, word for word
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## How far has the learner come?
+
+The first task might be a birthday countdown that asks which number is the day, two date files merged into one format, or a small schedule that survives a clock change.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Hoorn one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Hoorn.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Hoorn coding class questions
+
+The town, its dates, its harbour, and the lessons.
 
 ### What does the municipality of Hoorn include?
 
@@ -249,10 +369,14 @@ The first lesson is free. After it, group tuition is USD 100 a month for two liv
 
 Fifteen to twenty, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
+Explore Noord-Holland and beyond
+
 ## Across West-Friesland, down to Amsterdam, and up to the hub
 
 The capital has its own page, with district pages beneath it, at [coding classes in Amsterdam](/coding-classes-in-amsterdam). Closer by, [Alkmaar](/coding-classes-in-alkmaar) and [Purmerend](/coding-classes-in-purmerend) have pages too, and every municipality in the province is listed on [Noord-Holland](/coding-classes-in-noord-holland). Learners who want to begin with machine learning can go straight to the [AI and Python Academy](/ai-and-python-academy-netherlands), and the whole series is on the [Netherlands coding hub](/coding-classes-in-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Hoorn.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-hoorn](https://learn.modernagecoders.com/coding-classes-in-hoorn#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-hoorn*

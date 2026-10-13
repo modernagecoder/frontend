@@ -12,7 +12,7 @@ LIVE ONLINE CODING & MATHS: SHAKESPEARE SARANI, CENTRAL KOLKATA
 
 Modern Age Coders runs premium, live online coding and mathematics classes for families near Shakespeare Sarani, the old Theatre Road, in Central Kolkata's diplomatic quarter. Children from St. Xavier's, La Martiniere, Loreto House and Modern High learn Python, Java, AI/ML and board-level maths in live batches of fifteen to twenty, taught by full-time engineers and maths graduates. Every class is project-based and interactive, never pre-recorded. Book a free demo.
 
-Live, never pre-recordedSmall batches of 6-8Taught by full-time engineersZero commute from Camac Street6-8Students per live batch4.9/5Parent rating6-67Ages we teach100%Live, project-based[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)
+Live, never pre-recordedBatches of 15-20Taught by full-time engineersZero commute from Camac Street15-20Students per live batch4.9/5Parent rating6-67Ages we teach100%Live, project-based[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)
 
 Free demo · No commitment · 10,000+ students taught online
 

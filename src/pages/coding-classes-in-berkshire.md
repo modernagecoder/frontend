@@ -4,46 +4,32 @@ description: "Live online coding, Python, data science and maths classes across 
 canonical: https://learn.modernagecoders.com/coding-classes-in-berkshire
 source: src/pages/coding-classes-in-berkshire.html
 ---
-> Berkshire has no county council. It is six unitary authorities, Wokingham, Reading, West Berkshire, Slough, Windsor and Maidenhead, and Bracknell Forest, which held 949,778 people between them at the 2021 Census. Reading is the biggest place, and the town spreads well past its own borough. Our classes reach every corner of it the same way, taught live over video by teachers in India, with each learner placed by skill rather than age, from 6 up to 67. Choose a group of fifteen to twenty, or a teacher of your own. We teach programming, Python, data science, AI and maths. Because the European weather centre is based in Reading, the Berkshire project is a forecast. The opening class costs nothing; after it, a monthly group place is USD 100, and a teacher to yourself USD 150.
+> Live online coding, Python, data science and maths classes across Berkshire, from Reading, Slough and Bracknell to Wokingham, Newbury and Windsor. Free first class.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Berkshire
-
-Royal County of Berkshire / Live online
-
-# Coding classes in Berkshire
-
-**What are the best coding classes in Berkshire?** Berkshire has no county council. It is six unitary authorities, Wokingham, Reading, West Berkshire, Slough, Windsor and Maidenhead, and Bracknell Forest, which held 949,778 people between them at the 2021 Census. Reading is the biggest place, and the town spreads well past its own borough. Our classes reach every corner of it the same way, taught live over video by teachers in India, with each learner placed by skill rather than age, from 6 up to 67. Choose a group of fifteen to twenty, or a teacher of your own. We teach programming, Python, data science, AI and maths. Because the European weather centre is based in Reading, the Berkshire project is a forecast. The opening class costs nothing; after it, a monthly group place is USD 100, and a teacher to yourself USD 150.
-
-Ask what the weather will do in Reading in ten days and a serious answer is not a number. It is a crowd. The European Centre for Medium-Range Weather Forecasts, which has its headquarters in Reading, runs its model 51 times from slightly different starting points, and the 51 answers agree closely about tomorrow and argue more and more about the week after. This page takes one of those runs, the free version published for anyone to use, and turns it into a lesson a teenager can build: count the members to get a probability, measure how the crowd spreads out as the days go by, and discover why the average of 51 forecasts is the one forecast that never sees a downpour coming.
-
-Facts last verified 26 September 2026. Teaching is online; no Berkshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Berkshire
 
 ## Four starting points for Berkshire learners
 
 An eight-year-old in Thatcham who builds dens and games, an eleven-year-old in Woodley who keeps a rain gauge in the garden, a sixteen-year-old in Maidenhead thinking about data and A levels, and an office manager in Bracknell who lives in spreadsheets. Each begins with one free class.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Scratch games and animations, the gentlest way to learn that a program is a list of steps a computer follows exactly.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): First real Python for children: variables, lists and loops, the three tools needed to count 51 forecasts.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): pandas, cleaning real datasets, matplotlib and statistics, which is this page's forecast project done at full size.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): Excel, Sheets and Power BI done properly for working adults, and using AI assistants without being misled by them.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsScratch games and animations, the gentlest way to learn that a program is a list of steps a computer follows exactly.See the syllabus](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsFirst real Python for children: variables, lists and loops, the three tools needed to count 51 forecasts.See the syllabus](/courses/python-ai-kids-masterclass)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for Teenspandas, cleaning real datasets, matplotlib and statistics, which is this page's forecast project done at full size.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)Excel, Sheets and Power BI done properly for working adults, and using AI assistants without being misled by them.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Six councils, one county
 
 ## Berkshire in census figures: 949,778 people and a Reading larger than Reading
 
 Council totals come from the 2021 Census on Nomis. The town figures are the ONS built-up areas, and the split between councils is our own count from the same census.
 
-**The six Berkshire unitary authorities, usual residents at Census 2021, largest first**
-
 | Council | Usual residents | Main places |
-|---|---|---|
+| --- | --- | --- |
 | Wokingham | 177,503 | Wokingham, Woodley, Earley, Crowthorne, Twyford |
 | Reading | 174,224 | Reading, Caversham, Tilehurst in part |
 | West Berkshire | 161,448 | Newbury, Thatcham, Hungerford, Burghfield Common |
@@ -53,10 +39,8 @@ Council totals come from the 2021 Census on Nomis. The town figures are the ONS 
 
 The six are almost the same size, which is unusual for a county and means none of them dominates. It also means the county's biggest town does not fit inside its own council. We summed the census counts for every small output area in Berkshire and grouped them by the ONS built-up area they fall in. The Reading built-up area comes to 203,789 people by that count: 141,187 in Reading borough, 37,088 in Wokingham and 25,514 in West Berkshire. Almost a third of urban Reading votes for a different council. Caversham, north of the river, is counted by the ONS as a separate built-up area of 33,040, entirely inside Reading borough.
 
-**Berkshire towns by ONS built-up area, Census 2021, largest first; Marlow straddles in from Buckinghamshire and is left out**
-
 | Town | Usual residents | Town | Usual residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Reading | 203,795 | Crowthorne | 15,190 |
 | Slough | 166,855 | Winnersh | 8,905 |
 | Bracknell | 78,675 | Twyford | 8,070 |
@@ -67,7 +51,7 @@ The six are almost the same size, which is unusual for a county and means none o
 | Windsor | 31,560 | Cookham | 5,215 |
 | Woodley | 28,025 | Hungerford | 5,185 |
 | Thatcham | 25,550 | Ascot | 23,995 |
-| Sandhurst | 20,215 |  |  |
+| Sandhurst | 20,215 |   |   |
 
 Three more details from our count. Slough's built-up area reaches about 12,700 people into Buckinghamshire, so the table's 166,855 is larger than anything inside Berkshire alone; Maidenhead and Ascot also cross the county line, by a few hundred each. Crowthorne is split almost exactly in half, 7,384 residents in Wokingham and 7,812 in Bracknell Forest. And the county is not uniformly suburban: in West Berkshire, 11.7 per cent of residents live outside any ONS built-up area at all, in the villages and farms of the downs, while in Reading borough the figure is zero.
 
@@ -75,16 +59,16 @@ Three more details from our count. Slough's built-up area reaches about 12,700 p
 
 Each of the six authorities publishes its own school calendar, and academies can set theirs independently. We could not read a 2026-27 calendar at a council's own site this week, so rather than print one second-hand we agree lesson breaks with every family directly. Slough and Reading also have selective secondary schools with their own entrance tests, covered on the [Slough](/11-plus-maths-tuition-slough) and [Reading](/11-plus-maths-tuition-reading) maths pages; nothing here is advice about schools.
 
+The Berkshire project
+
 ## Fifty-one forecasts for Reading, and what a crowd of guesses can tell you
 
 One real forecast, downloaded once and kept, so anyone repeating the project can check our numbers against the same file.
 
 ECMWF describes its medium-range ensemble as 51 forecasts: one control forecast, plus 50 others that each start from slightly altered initial conditions and use slightly altered model physics. The atmosphere is chaotic, so tiny differences at the start grow. Where the 51 agree, the forecast is confident; where they fan out, it is telling you honestly that it does not know. We took the free 0.25-degree version of that ensemble for the grid point nearest Reading, 51.5 degrees north and 1.0 west, as it was served at 06:37 UK time on 26 September 2026, and kept the fourteen complete days it covered.
 
-**Our run for Reading, 26 September 2026: how far apart the 51 members are, and how many bring rain**
-
 | Day | Middle 80% of daily highs | Width | Members with 1 mm or more of rain |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Sat 26 September | 18.8 to 20.2 C | 1.4 degrees | 0 of 51 |
 | Wed 30 September | 19.7 to 22.8 C | 3.1 degrees | 47 of 51 |
 | Sat 3 October | 16.4 to 19.5 C | 3.1 degrees | 5 of 51 |
@@ -111,14 +95,14 @@ Compare the ensemble mean with every member, find the smoothing effect in the nu
 
 We did not check this forecast against what actually happened, because on the day we downloaded it that had not happened yet. Checking forecasts against the weather that followed is a different lesson with its own traps, and a good learner should do it next. Everything above describes a single run of a single model at a single grid point, and none of it is a forecast from us.
 
+Why Reading
+
 ## A European forecasting centre with its headquarters in Berkshire
 
 The Berkshire link is institutional. These facts are from the organisation's own pages.
 
-**ECMWF, as it describes itself**
-
 | What | In ECMWF's words or figures |
-|---|---|
+| --- | --- |
 | Where it is | Headquartered in Reading, UK, with additional sites in Bologna, Italy, and Bonn, Germany. |
 | What it is | An independent intergovernmental organisation supported by 35 states, both a research institute and a 24/7 operational service. |
 | When it began | Established in 1975, now employing around 500 staff from more than 30 countries. |
@@ -129,16 +113,41 @@ The free forecast we used is not ECMWF's full-resolution product. It is the open
 
 Modern Age Coders has no connection with ECMWF, Open-Meteo or any of the six Berkshire councils, and nothing here implies one. Their figures are theirs; the counting, the charts and any mistake in them are ours.
 
-**Nearby pages** [Buckinghamshire](/coding-classes-in-buckinghamshire) is across the Thames to the north, [Surrey](/coding-classes-in-surrey) lies to the south-east, and [Oxford](/best-coding-class-in-oxford) is up the river. The [UK page](/coding-classes-in-united-kingdom) lists the rest.
+Nearby pages
+
+[Buckinghamshire](/coding-classes-in-buckinghamshire) is across the Thames to the north, [Surrey](/coding-classes-in-surrey) lies to the south-east, and [Oxford](/best-coding-class-in-oxford) is up the river. The [UK page](/coding-classes-in-united-kingdom) lists the rest.
+
+Stage by stage
 
 ## From counting to charts to decisions under uncertainty
 
 Where a learner starts is settled in the free class, by what they can already do.
 
-- **Ages 6 to 10: Steps and loops** Scratch games that repeat, count and keep score, the building blocks of every program that ever counted anything. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 10 to 13: Lists of numbers** Python lists and loops, and simple questions asked of real data: how many, how often, which is biggest. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 18: Data you can question** pandas, charts and statistics on real datasets, including the habit of asking what an average is hiding. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Numbers people act on** Dashboards and analysis for work, with honest ranges instead of single figures, and AI used as help rather than an oracle. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Statistics & Probability](/courses/statistics-probability-maths-course)
+Ages 6 to 10
+
+### Steps and loops
+
+Scratch games that repeat, count and keep score, the building blocks of every program that ever counted anything.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 10 to 13
+
+### Lists of numbers
+
+Python lists and loops, and simple questions asked of real data: how many, how often, which is biggest.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 18
+
+### Data you can question
+
+pandas, charts and statistics on real datasets, including the habit of asking what an average is hiding.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Numbers people act on
+
+Dashboards and analysis for work, with honest ranges instead of single figures, and AI used as help rather than an oracle.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Statistics & Probability](/courses/statistics-probability-maths-course)Learning to code when AI can code
 
 ## If an AI can summarise a forecast, why should a Berkshire student learn to read 51 of them?
 
@@ -150,30 +159,139 @@ A student who has counted members, drawn the fan of 51 lines and compared the me
 
 So the reason to learn to code in Berkshire in 2026 is not to beat the model at arithmetic. It is to know what to ask of any answer built from averages, including the ones a machine gives you. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+The practical side
+
 ## Hungerford to Wraysbury, all on one screen
 
 Berkshire runs along the Thames and the M4 for about as far as a Saturday journey is worth. Online, that distance does not exist.
 
-- **Wherever the learner is** A bedroom in Sandhurst, a dining table in Twyford, a study in Cookham. The teacher shares a screen, the learner types and talks.
-- **The words UK schools use** Key Stages, GCSE options and A levels are called what families here call them, and everything is taught in English.
-- **A free class to begin** A real session of work, ending with a clear view of the right level and course. No card details are needed.
-- **Classmates at your stage** A group holds fifteen to twenty people who can already do roughly the same things, drawn from many towns and countries, which is what makes an evening slot at the right level possible.
-- **Breaks agreed per family** Two lessons a week is typical. With six councils and many academies setting dates, holidays are fixed with each family, not assumed.
-- **Booked in UK time** Teaching happens from India, where the clock runs 4.5 hours ahead of British Summer Time and 5.5 ahead of Greenwich Mean Time; whatever the season, your slot is written in UK time.
+### Wherever the learner is
 
-**Why groups are formed by level here** Six mid-sized councils and a string of towns mean no single place has many learners at the same stage on the same evening. Grouping by level lets a Newbury teenager and a Slough teenager share a class that suits them both.
+A bedroom in Sandhurst, a dining table in Twyford, a study in Cookham. The teacher shares a screen, the learner types and talks.
+
+### The words UK schools use
+
+Key Stages, GCSE options and A levels are called what families here call them, and everything is taught in English.
+
+### A free class to begin
+
+A real session of work, ending with a clear view of the right level and course. No card details are needed.
+
+### Classmates at your stage
+
+A group holds fifteen to twenty people who can already do roughly the same things, drawn from many towns and countries, which is what makes an evening slot at the right level possible.
+
+### Breaks agreed per family
+
+Two lessons a week is typical. With six councils and many academies setting dates, holidays are fixed with each family, not assumed.
+
+### Booked in UK time
+
+Teaching happens from India, where the clock runs 4.5 hours ahead of British Summer Time and 5.5 ahead of Greenwich Mean Time; whatever the season, your slot is written in UK time.
+
+Why groups are formed by level here
+
+Six mid-sized councils and a string of towns mean no single place has many learners at the same stage on the same evening. Grouping by level lets a Newbury teenager and a Slough teenager share a class that suits them both.
+
+Fees
 
 ## Fees for Berkshire families
 
 The same prices apply in every Berkshire town, and in every country other than India.
 
-- First class: USD 0. A whole class of real work, ending with a recommended level and course.
-- Group tuition: USD 100 a month. Roughly eight classes a month, in a group of fifteen to twenty at the same level.
-- Private tuition: USD 150 a month. Roughly eight classes a month with a teacher working with one learner.
+First class**USD 0**
+
+A whole class of real work, ending with a recommended level and course.
+
+Group tuition**USD 100**
+
+Roughly eight classes a month, in a group of fifteen to twenty at the same level.
+
+Private tuition**USD 150**
+
+Roughly eight classes a month with a teacher working with one learner.
 
 Fees are in US dollars, our rate everywhere outside India, and there is no separate pound price list. You pay nothing until the free class has settled a course and a weekly time; the pricing page explains pauses, missed classes and moving between group and private teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20looking%20for%20a%20free%20class%20for%20a%20learner%20in%20Berkshire.)Reviews
+
+## Reviews from Google, word for word
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Ask for the free class
+
+An age or school year and one interest is enough to start. The first class might be a Scratch game, a first Python loop, or counting 51 forecasts to find a probability.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Berkshire one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20looking%20for%20a%20free%20class%20for%20a%20learner%20in%20Berkshire.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Berkshire questions
+
+About the county, the forecast project and the classes themselves.
 
 ### How many people live in Berkshire?
 
@@ -215,10 +333,14 @@ Nothing for the first class. Monthly fees after that: USD 100 in a group, USD 15
 
 That depends on which of the six councils, and on whether the school is an academy. We could not read a 2026-27 calendar at a council site this week, so we arrange breaks with each family rather than publish dates.
 
+Across the UK
+
 ## Where to go from Berkshire
 
 [Buckinghamshire](/coding-classes-in-buckinghamshire) has a cipher project and [Surrey](/coding-classes-in-surrey) a satellite clock. For the selective tests, see the [Reading](/11-plus-maths-tuition-reading) and [Slough](/11-plus-maths-tuition-slough) maths pages. Every other UK page hangs off the [UK hub](/coding-classes-in-united-kingdom), and our guide to [choosing an online class](/best-online-coding-classes-uk) sets out the questions worth putting to any provider.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20looking%20for%20a%20free%20class%20for%20a%20learner%20in%20Berkshire.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-berkshire](https://learn.modernagecoders.com/coding-classes-in-berkshire#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-berkshire*

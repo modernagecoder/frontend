@@ -4,46 +4,32 @@ description: "Coding, Python, AI and data lessons for Dungarvan learners aged 6 
 canonical: https://learn.modernagecoders.com/best-coding-class-in-dungarvan
 source: src/pages/best-coding-class-in-dungarvan.html
 ---
-> Dungarvan has 9,944 usual residents across 3,907 households, 3,112 of them with broadband, enough for a video lesson. Every lesson is taught live by a teacher, to a small group working at one level or to a single learner, typically on two set days each week, and anyone from six to sixty-seven may join. The first lesson costs nothing; afterwards a group place is USD 100 per month and one-to-one teaching USD 150 per month.
+> Coding, Python, AI and data lessons for Dungarvan learners aged 6 to 67, live online with a teacher in same-level groups or one to one. First lesson free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [Waterford](/best-coding-class-in-waterford) / Dungarvan
-
-Dungarvan, County Waterford / Live online
-
-# Coding classes in Dungarvan
-
-**What is the best coding class in Dungarvan?** Dungarvan has 9,944 usual residents across 3,907 households, 3,112 of them with broadband, enough for a video lesson. Every lesson is taught live by a teacher, to a small group working at one level or to a single learner, typically on two set days each week, and anyone from six to sixty-seven may join. The first lesson costs nothing; afterwards a group place is USD 100 per month and one-to-one teaching USD 150 per month.
-
-On the 2022 census form, anyone who could speak Irish was asked how often they spoke it, with five boxes to choose from, and a student could tick "daily, within the education system" as well as one of the other four. The statistics office publishes the answers as eleven separate categories, one for each combination that could be ticked. Read one of those categories on its own and it can pass for the whole answer: in Dungarvan the category "daily only outside the education system" holds 136 people, yet 182 ticked the daily-outside box. This page teaches the step that makes such tables usable, decoding a list of combinations back into one yes-or-no column per box, and then proving the decoding right with a single subtraction.
-
-Facts last verified 19 September 2026. Teaching is online; no Dungarvan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentWhere to start in Dungarvan
 
 ## Four first courses for Dungarvan
 
 Each age band has its own opening course, and the teacher confirms or adjusts it during the free first lesson.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Blocks and on-off switches: a sprite that reacts when two buttons are pressed together.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Python with true-and-false values, lists and counting, the tools behind the decoding on this page.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 18): Real survey tables in Python: splitting labels, one column per answer, and checks that prove the result.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (College and adult): For adults who handle form or survey exports with multi-select questions and need totals that add up.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlocks and on-off switches: a sprite that reacts when two buttons are pressed together.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsPython with true-and-false values, lists and counting, the tools behind the decoding on this page.See the syllabus](/courses/python-ai-kids-masterclass)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 18Data Science for TeensReal survey tables in Python: splitting labels, one column per answer, and checks that prove the result.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)College and adultData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For adults who handle form or survey exports with multi-select questions and need totals that add up.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## Turn eleven census categories back into the five boxes people ticked
 
 The Census 2022 small area table for Irish speakers in Dungarvan, first as published and then decoded. The middle column is the category that names one box alone; the last column counts everyone who ticked that box.
 
-**Dungarvan Irish speakers aged three and over, by box ticked**
-
 | Box on the form | Only-label count | Decoded total |
-|---|---|---|
+| --- | --- | --- |
 | Daily, within education | 1,086 | 1,150 |
 | Daily, outside education | 136 | 182 |
 | Weekly | 289 | 300 |
@@ -81,6 +67,8 @@ Dungarvan's only-label misses 25.3 percent of its daily-outside box, below the 3
 
 Of Dungarvan's 3,925 speakers, 182 ticked the daily-outside box, 4.6 percent, the fifth highest share among the 94 towns of 5,000 or more. Of the 1,150 who speak it daily in education, 46 also speak it daily outside.
 
+Where this turns up
+
 ## Multi-select answers in forms, surveys and apps
 
 The same structure appears whenever a question lets someone choose more than one option, and so does the same mistake.
@@ -97,16 +85,18 @@ A post filed under three tags is counted in three tag totals, so tag counts add 
 
 Say whether a figure means "ticked this box" or "ticked only this box", and give the number of people as well as the number of ticks. Anyone checking the figure can then rebuild it.
 
-**What this page does not claim** The census records what people said about their own Irish, not a test of it, and how often someone speaks a language is their own estimate. Every figure here is for Dungarvan town or for all towns combined; the statistics office counts the Waterford Gaeltacht separately, and its figures are not used. Nothing on this page rates anyone's Irish.
+What this page does not claim
+
+The census records what people said about their own Irish, not a test of it, and how often someone speaks a language is their own estimate. Every figure here is for Dungarvan town or for all towns combined; the statistics office counts the Waterford Gaeltacht separately, and its figures are not used. Nothing on this page rates anyone's Irish.
+
+The town in figures
 
 ## Counting Dungarvan in 2022
 
 Every figure below is a published Census 2022 small area count for the town of Dungarvan, Co Waterford, for people at their usual address.
 
-**Dungarvan census figures, 2022**
-
 | Figure | Dungarvan |
-|---|---|
+| --- | --- |
 | Usual residents | 9,944 |
 | Households | 3,907 |
 | Households with broadband | 3,112 |
@@ -129,7 +119,11 @@ The census counts 390 Dungarvan residents whose journey to work, school or colle
 
 The home-working question drew 858 answers of yes, for at least some of the time, from Dungarvan workers, 2,815 answers of never and 399 blanks. By industry, the 4,124 in work divide most heavily into professional services at 1,006, commerce and trade at 984, and manufacturing at 708.
 
-**Two named places** Heritage Ireland dates Dungarvan Castle to about 1209, built to guard the entrance to Dungarvan Harbour, gives its eircode as X35 DV58, and calls its polygonal shell keep "a rare building type in Ireland". Waterford City and County Council lists its Civic Offices at Davitt's Quay, Dungarvan, X35 Y326, open Monday to Friday from 9:30am to 4pm. Neither has any connection with us.
+Two named places
+
+Heritage Ireland dates Dungarvan Castle to about 1209, built to guard the entrance to Dungarvan Harbour, gives its eircode as X35 DV58, and calls its polygonal shell keep "a rare building type in Ireland". Waterford City and County Council lists its Civic Offices at Davitt's Quay, Dungarvan, X35 Y326, open Monday to Friday from 9:30am to 4pm. Neither has any connection with us.
+
+Learning here
 
 ## What lessons look like from Dungarvan
 
@@ -149,14 +143,37 @@ Adults are welcome from a standing start, and lesson one decides which course fi
 
 The Central Statistics Office published every census count used here; the decoding into boxes is our own arithmetic, done on 19 September 2026. Heritage Ireland and the council are quoted from their own pages.
 
+Learning ladder
+
 ## From two switches to a decoded survey
 
 Each age range is approximate, and the teacher settles the real starting rung in the first lesson.
 
-- **Ages 6 to 10: On and off** Block code where sprites react to switches, including two pressed together. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: True or false** Python booleans and counting, turning yes-or-no answers into totals. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Survey data** Splitting labels, one column per option, and tests that prove a table was decoded correctly. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Forms at work** Multi-select questions in real survey exports, reported with the right denominators. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### On and off
+
+Block code where sprites react to switches, including two pressed together.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### True or false
+
+Python booleans and counting, turning yes-or-no answers into totals.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Survey data
+
+Splitting labels, one column per option, and tests that prove a table was decoded correctly.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Forms at work
+
+Multi-select questions in real survey exports, reported with the right denominators.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## Ask an assistant how many speak Irish daily outside school
 
@@ -168,30 +185,139 @@ After writing the decoder, the learner asks the assistant three things: whether 
 
 Finding a matching row is easy for any tool. Knowing that the row is only part of the answer is the skill. The longer argument is in [why learning to code still rewards the effort](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How lessons run for Dungarvan
 
 The arrangements.
 
-- **Teacher present throughout** The teacher stays on the call for the whole lesson, looking at each learner's screen and code as they work.
-- **One level per group** Fifteen to twenty learners who are at the same point, whether they join from Dungarvan, another Irish town or abroad.
-- **Two fixed days** Roughly eight lessons a month on two days agreed at enrolment, weekdays or weekends.
-- **Built around the school year** Term breaks, holidays and exam periods are part of the plan rather than interruptions to it.
-- **Kit needed** A computer with a keyboard, sound in and out, and an internet connection strong enough for video.
-- **One-to-one option** Learners who are far ahead, want more time on each step, or need an hour no group has, can be taught alone.
+### Teacher present throughout
 
-**No classroom** Lessons reach Dungarvan over video only. We have no office or classroom in the town, the county or the country, and a lesson runs the same way from any home with a connection.
+The teacher stays on the call for the whole lesson, looking at each learner's screen and code as they work.
+
+### One level per group
+
+Fifteen to twenty learners who are at the same point, whether they join from Dungarvan, another Irish town or abroad.
+
+### Two fixed days
+
+Roughly eight lessons a month on two days agreed at enrolment, weekdays or weekends.
+
+### Built around the school year
+
+Term breaks, holidays and exam periods are part of the plan rather than interruptions to it.
+
+### Kit needed
+
+A computer with a keyboard, sound in and out, and an internet connection strong enough for video.
+
+### One-to-one option
+
+Learners who are far ahead, want more time on each step, or need an hour no group has, can be taught alone.
+
+No classroom
+
+Lessons reach Dungarvan over video only. We have no office or classroom in the town, the county or the country, and a lesson runs the same way from any home with a connection.
+
+Fees
 
 ## The cost of lessons in Dungarvan
 
 Everything, in three lines.
 
-- First class: USD 0. An opening lesson with a level check, free.
-- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at the same stage: about eight live lessons.
-- Private tuition: USD 150 a month. A month of one-to-one teaching on the same schedule.
+First class**USD 0**
+
+An opening lesson with a level check, free.
+
+Group tuition**USD 100**
+
+A month in a group of fifteen to twenty at the same stage: about eight live lessons.
+
+Private tuition**USD 150**
+
+A month of one-to-one teaching on the same schedule.
 
 Any family living outside India pays one flat fee in US dollars. The opening lesson commits nobody to anything, payment starts only when the course does, and the pricing page explains what happens over holidays, after a missed lesson, or on a move from group to private lessons.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Dungarvan.)Reviews
+
+## What six families wrote on Google, left exactly as posted
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free first lesson in Dungarvan
+
+Say how old the learner is and what they are into, and the first hour will be built from that. It may end with a small game, a first program, or a census table decoded box by box.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Dungarvan one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Dungarvan.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Questions from Dungarvan families
+
+The ones that come up most.
 
 ### What is the population of Dungarvan?
 
@@ -233,10 +359,14 @@ Nothing for the first lesson. After that, USD 100 a month for a group place, whi
 
 From five to ten, sorted by level, pace and goals rather than by age or where they live. When no suitable group meets at a time that works, lessons are one to one.
 
+Explore Ireland
+
 ## Around Dungarvan and west Waterford
 
 The [Waterford](/best-coding-class-in-waterford) page covers the city and county, [Tramore](/best-coding-class-in-tramore) is along the coast to the east, and [Clonmel](/best-coding-class-in-clonmel) lies to the north, all within [Munster](/coding-and-ai-classes-in-munster). Learners who enjoyed the decoding project may like the [data science course](/data-science-course-ireland) page, and the [Ireland hub](/coding-classes-in-ireland) is where every other page begins.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Dungarvan.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-dungarvan](https://learn.modernagecoders.com/best-coding-class-in-dungarvan#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-dungarvan*

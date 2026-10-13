@@ -4,46 +4,32 @@ description: "Online coding, AI, Python and vibe coding classes taught live for 
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-carlton
 source: src/pages/best-coding-and-ai-classes-in-carlton.html
 ---
-> The ONS counted 53,555 residents in the Carlton built-up area at the 2021 census, and 117,264 in Gedling borough. Gedling, Netherfield, Colwick and Porchester are recorded as suburban areas of the borough, and Burton Joyce as a village. Anyone from six to 67 can study coding, AI, Python, vibe coding and maths with our India-based tutors over live video, in private lessons or in a group of fifteen to twenty learners at a shared level. Thinking comes before tools in every course, so a learner can question what a model or a chatbot says. For the Carlton project a learner trains a random forest on Gedling census areas and then uses partial dependence plots to ask what the model believes about one input at a time. Lesson one is free and ends with a course suggestion. After it, a group seat costs USD 100 a month and one-to-one teaching USD 150 a month.
+> Online coding, AI, Python and vibe coding classes taught live for Carlton, Gedling, Netherfield and Colwick learners aged 6 to 67. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [East Midlands](/coding-and-ai-classes-in-east-midlands) / Carlton
-
-Carlton, Gedling, Nottinghamshire / Live online
-
-# Coding and AI classes in Carlton, Nottinghamshire
-
-**Where will a Carlton learner find the best coding and AI classes?** The ONS counted 53,555 residents in the Carlton built-up area at the 2021 census, and 117,264 in Gedling borough. Gedling, Netherfield, Colwick and Porchester are recorded as suburban areas of the borough, and Burton Joyce as a village. Anyone from six to 67 can study coding, AI, Python, vibe coding and maths with our India-based tutors over live video, in private lessons or in a group of fifteen to twenty learners at a shared level. Thinking comes before tools in every course, so a learner can question what a model or a chatbot says. For the Carlton project a learner trains a random forest on Gedling census areas and then uses partial dependence plots to ask what the model believes about one input at a time. Lesson one is free and ends with a course suggestion. After it, a group seat costs USD 100 a month and one-to-one teaching USD 150 a month.
-
-A trained model is a black box until someone interrogates it. One standard way to do that is a partial dependence plot: choose a single input, force it to a fixed value for every row of the data, average the model's predictions, then repeat for the next value. The resulting line shows how the model's answer moves as that one input changes. Gedling borough has 399 census output areas, which is enough for a Carlton learner to train a model in Python, draw these plots, and then discover the catch that careful analysts always mention: the plot describes the model, and inputs that travel together can make it misleading.
-
-Facts last verified 30 September 2026. Teaching is online; no Carlton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCarlton course picks
 
 ## Courses in thinking, vibe coding and AI for Carlton
 
 Choose by age. Whichever course fits, the first live class is free and no payment details are taken.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): How to think: change one thing at a time and watch what happens to the answer.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Ask an AI for a Scratch game, then test one setting at a time to see what each does.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Train models on real data and open them up, including the Gedling partial dependence plots.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): AI-assisted Python and web projects where the learner must explain every part.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsHow to think: change one thing at a time and watch what happens to the answer.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsAsk an AI for a Scratch game, then test one setting at a time to see what each does.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensTrain models on real data and open them up, including the Gedling partial dependence plots.See the syllabus](/courses/ai-ml-masterclass-teens)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensAI-assisted Python and web projects where the learner must explain every part.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Carlton and Gedling borough
 
 ## Carlton, Arnold, Calverton and the places between
 
 Three built-up areas linked to Gedling borough, and the smaller places that postcode data records there.
 
-**Built-up areas associated with Gedling borough, ONS 2021 census figures**
-
 | Built-up area | Residents (2021) |
-|---|---|
+| --- | --- |
 | Carlton | 53,555 |
 | Arnold | 40,010 |
 | Calverton | 7,320 |
@@ -54,16 +40,16 @@ The ONS draws built-up areas around continuous building, not around council boun
 
 See [coding classes in Nottinghamshire](/coding-classes-in-nottinghamshire) for the county and [the East Midlands page](/coding-and-ai-classes-in-east-midlands) for the region. Our approach is explained on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Carlton project
+
 ## Partial dependence plots on a model of 399 Gedling areas
 
 Train a model, then ask it one question at a time, and check its answers against the raw data.
 
 The learner fetches four Census 2021 tables from Nomis for each of Gedling's 399 output areas. Together the areas hold 51,536 households, and 9,763 of them, 18.94%, had no car or van. A random forest of 500 trees is trained to predict that share for an area from four inputs: population density, the share of one-person households, the share of detached homes and the share of purpose-built flats. Checked by five-fold cross-validation, the forest explains about 73% of the variation between areas it was not trained on (R squared 0.733), against 0.923 on the areas it had seen.
 
-**Partial dependence: average predicted no-car share across all 399 areas when one input is fixed, our Python run on Census 2021 data from Nomis**
-
 | One-person households set to | Average prediction | Detached homes set to | Average prediction |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 15% | 14.8% | 0% | 24.5% |
 | 20% | 15.8% | 10% | 23.0% |
 | 30% | 19.3% | 20% | 20.2% |
@@ -90,14 +76,14 @@ Train the forest, code partial dependence by hand, and explain why it differs fr
 
 All household counts are Office for National Statistics Census 2021 data taken from Nomis under the Open Government Licence. The forest, its scores and the partial dependence figures are our calculations and are published nowhere else. They concern areas, never individual households.
 
+Opening the box
+
 ## What this teaches about vibe coding and AI agents
 
 An explanation of a model is a claim too, and it deserves the same checking as a prediction.
 
-**From the Gedling forest to everyday AI use**
-
 | In the project | With AI tools |
-|---|---|
+| --- | --- |
 | The plot showed 8.9 points, the raw data 13.6 | An explanation can disagree with a simple chart; find out why |
 | Inputs moved together | Changing "one thing" may create a case the model never saw |
 | Detached curve went flat after 40% | Models learn shapes; ask to see them |
@@ -108,14 +94,37 @@ Vibe coding means describing a program in ordinary words and letting an AI write
 
 This page has no connection to the Office for National Statistics, Nomis or postcodes.io beyond using their open data. The model and every figure derived from it are our responsibility.
 
+Steps
+
 ## From one-change experiments to explaining models
 
 The year bands are approximate; a free lesson finds the real starting point.
 
-- **Years 2 to 7: How to think** Change one thing, keep the rest, and record what happened. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Small games made with AI help, tested by the child who asked for them. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python, data and AI** Machine learning projects that sit alongside GCSE and A level work. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Statistics & Probability](/courses/statistics-probability-maths-course)
-- **Adults: Models at work** Python, then generative AI and agents you can explain to a colleague. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
+Years 2 to 7
+
+### How to think
+
+Change one thing, keep the rest, and record what happened.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Small games made with AI help, tested by the child who asked for them.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python, data and AI
+
+Machine learning projects that sit alongside GCSE and A level work.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Statistics & Probability](/courses/statistics-probability-maths-course)Adults
+
+### Models at work
+
+Python, then generative AI and agents you can explain to a colleague.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)AI and explanation
 
 ## What is a partial dependence plot?
 
@@ -127,30 +136,139 @@ Learners who have built the plot by hand know it reports the model's view, and t
 
 Carlton teenagers who can code that check are equipped to challenge an AI's explanation, which is a strong argument for learning to program in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How lessons run
+
 ## Netherfield, Colwick and Gedling, by video
 
 Any reasonably recent computer with a camera and steady internet will do.
 
-- **The learner drives** Code is typed and run by the student while the tutor watches the screen share and probes the reasoning.
-- **Level found first** We use the trial to see where to begin and to write down the exam board if there is one.
-- **Trial without payment** Session one costs nothing and ends with the course we think fits.
-- **Matched classes** Groups are fifteen to twenty learners at a similar stage, drawn from all over the UK.
-- **Two sessions a week** Term-time rhythm, with school holidays left free on request.
-- **One fixed hour** Tutors move their own clocks when British Summer Time changes; yours stays as booked.
+### The learner drives
 
-**Why we teach online** Matching learners by level across the country gives every class a sensible pace, something a single neighbourhood rarely has the numbers for.
+Code is typed and run by the student while the tutor watches the screen share and probes the reasoning.
+
+### Level found first
+
+We use the trial to see where to begin and to write down the exam board if there is one.
+
+### Trial without payment
+
+Session one costs nothing and ends with the course we think fits.
+
+### Matched classes
+
+Groups are fifteen to twenty learners at a similar stage, drawn from all over the UK.
+
+### Two sessions a week
+
+Term-time rhythm, with school holidays left free on request.
+
+### One fixed hour
+
+Tutors move their own clocks when British Summer Time changes; yours stays as booked.
+
+Why we teach online
+
+Matching learners by level across the country gives every class a sensible pace, something a single neighbourhood rarely has the numbers for.
+
+Fees
 
 ## Carlton fees
 
 Families in Carlton pay the international rate that applies to all learners outside India.
 
-- First class: USD 0. One full live lesson, free, ending with a suggested course.
-- Group tuition: USD 100 a month. Roughly eight live small-group lessons per month.
-- Private tuition: USD 150 a month. Roughly eight live private lessons per month.
+First class**USD 0**
+
+One full live lesson, free, ending with a suggested course.
+
+Group tuition**USD 100**
+
+Roughly eight live small-group lessons per month.
+
+Private tuition**USD 150**
+
+Roughly eight live private lessons per month.
 
 Charges are made in US dollars and we publish no figure in pounds. Billing begins only when the trial has led to a chosen course and a weekly time. The pricing page explains holiday pauses, missed sessions and changing between formats.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20you%20arrange%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Carlton%2C%20Nottinghamshire%3F)Reviews
+
+## Nottinghamshire families and learners across the UK, on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Carlton lesson
+
+Send an age or school year and a hobby. The trial may be a change-one-thing experiment, a Scratch game drafted by an AI, a first Python program, or a look inside a small model.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Carlton one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20you%20arrange%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Carlton%2C%20Nottinghamshire%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Carlton questions
+
+Partial dependence, the Gedling model, coding, AI and the practical details.
 
 ### How many people live in Carlton, Nottinghamshire?
 
@@ -192,10 +310,14 @@ Nothing for the first lesson. Then USD 100 each month for a group seat, or USD 1
 
 Lessons pause for them if you give us the dates.
 
+Around Nottinghamshire
+
 ## More Nottinghamshire and East Midlands pages
 
 Different projects run on the pages for [Nottingham](/best-coding-class-in-nottingham), [Mansfield](/online-coding-and-python-classes-in-mansfield) and [Derby](/best-coding-class-in-derby). For everywhere else, start at the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[WhatsApp the team](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20you%20arrange%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Carlton%2C%20Nottinghamshire%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-and-ai-classes-in-carlton](https://learn.modernagecoders.com/best-coding-and-ai-classes-in-carlton#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-carlton*

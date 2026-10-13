@@ -4,31 +4,29 @@ description: "Help with AQA A-level Computer Science 7517: the onscreen Paper 1,
 canonical: https://learn.modernagecoders.com/aqa-a-level-computer-science-7517-help
 source: src/pages/aqa-a-level-computer-science-7517-help.html
 ---
-> AQA 7517 splits three ways: an on-screen Paper 1 of two and a half hours at 40 per cent, a written Paper 2 of the same length at 40 per cent, and a practical project worth 75 marks and 20 per cent. Paper 1 is the unusual one. AQA issues preliminary material and a skeleton program in advance, in whichever of C#, Java, Python or VB.Net a school has chosen, and candidates then write, adapt and extend programs in an electronic answer document during the exam. Preparing for it means reading and navigating a codebase somebody else wrote, which is a distinct skill from writing one from scratch and the one most students have least practice in. We teach both, plus the theory Paper 2 rewards. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
+> Help with AQA A-level Computer Science 7517: the onscreen Paper 1, the skeleton program issued in advance, Paper 2 and the project. First class free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / AQA 7517 help
+In short
 
-England · AQA 7517 · Years 12 and 13
+AQA 7517 splits three ways: an on-screen Paper 1 of two and a half hours at 40 per cent, a written Paper 2 of the same length at 40 per cent, and a practical project worth 75 marks and 20 per cent. Paper 1 is the unusual one. AQA issues preliminary material and a skeleton program in advance, in whichever of C#, Java, Python or VB.Net a school has chosen, and candidates then write, adapt and extend programs in an electronic answer document during the exam. Preparing for it means reading and navigating a codebase somebody else wrote, which is a distinct skill from writing one from scratch and the one most students have least practice in. We teach both, plus the theory Paper 2 rewards. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
 
-# AQA A-level Computer Science 7517 help
-
-Most A-level teaching prepares students to write programs from nothing. AQA's Paper 1 asks for something else entirely. The board issues "Preliminary Material, a Skeleton Program (available in each of the Programming Languages) and, where appropriate, test data, for use in the exam", and then sits the paper on screen, with candidates writing, adapting and extending programs inside an Electronic Answer Document. So a candidate spends weeks with a substantial codebase they did not write, and then modifies it under a clock. That is a fair description of professional software work, and it is almost never what a sixth form practises. This page covers the skeleton program, both papers, the project, and how to prepare for three things that reward three different habits.
-
-At a glance: Qualification: AQA A-level Computer Science 7517; Paper 1: On-screen, 2h30, 40 per cent; Paper 2: Written, 2h30, 40 per cent; Project: 75 marks, 20 per cent; Issued early: Preliminary material and a skeleton; Languages: C#, Java, Python 3 or VB.Net; We never: Touch a candidate's project; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three courses for A-level candidates
 
 Depth in a language, the algorithms Paper 2 leans on, and the data work the project usually needs. Cards open the syllabus.
 
-- [Python, Zero to Advanced](/courses/python-programming-masterclass-zero-to-advanced-college): Depth well past GCSE, including the file handling, structures and object work a skeleton program will assume.
-- [Data Structures and Algorithms](/courses/data-structures-algorithms-masterclass-college): Trees, graphs, complexity and the theory of computation content, worked on paper before any code.
-- [Data Science, Complete](/courses/data-science-complete-masterclass-college): For students whose project involves real data, and for the Big Data content in the specification.
+[![Python Masterclass course thumbnail](/images/python-college.webp)  AQA A / 01 Python, Zero to Advanced Depth well past GCSE, including the file handling, structures and object work a skeleton program will assume. Open the syllabus →](/courses/python-programming-masterclass-zero-to-advanced-college)[![Data Structures & Algorithms Course course thumbnail](/images/dsa-college.webp)  AQA A / 02 Data Structures and Algorithms Trees, graphs, complexity and the theory of computation content, worked on paper before any code. Open the syllabus →](/courses/data-structures-algorithms-masterclass-college)[![Data Science Course course thumbnail](/images/data-science-college.webp)  AQA A / 03 Data Science, Complete For students whose project involves real data, and for the Big Data content in the specification. Open the syllabus →](/courses/data-science-complete-masterclass-college)
+
+The skeleton program
 
 ## You meet the code before the exam, and you did not write it
 
 This is the defining feature of AQA's A-level and the one students most often under-prepare for.
 
-**What the specification says** For Paper 1, "We will issue Preliminary Material, a Skeleton Program (available in each of the Programming Languages) and, where appropriate, test data, for use in the exam." Candidates "answer a series of short questions and write/adapt/extend programs in an Electronic Answer Document provided by us".
+What the specification says
+
+For Paper 1, "We will issue Preliminary Material, a Skeleton Program (available in each of the Programming Languages) and, where appropriate, test data, for use in the exam." Candidates "answer a series of short questions and write/adapt/extend programs in an Electronic Answer Document provided by us".
 
 ### Why this is a different skill
 
@@ -42,10 +40,8 @@ Read the skeleton out loud, function by function, and say what each one is for b
 
 Then practise small modifications against a clock. Adding a feature to somebody else's program in twenty minutes is a skill that improves quickly and only with repetition.
 
-**Three habits the skeleton rewards**
-
 | Habit | What it looks like | Why the exam rewards it |
-|---|---|---|
+| --- | --- | --- |
 | Reading before typing | Explaining each subroutine in your own words, without changing anything | The questions assume you know where things are; hunting in the exam costs minutes you do not have |
 | Tracing by hand | Following a value through the program on paper | Short questions frequently ask what the program does with a given input |
 | Small safe changes | Extending behaviour without disturbing what already works | Adapt and extend are the specification's own words for what Paper 1 asks |
@@ -54,14 +50,14 @@ The skeleton is provided in each supported language, so a candidate works in whi
 
 Source, read 20 September 2026: [AQA AS and A-level Computer Science (7516, 7517) specification](https://www.aqa.org.uk/subjects/computer-science-and-it/as-and-a-level/computer-science-7516-7517), version 1.6, 31 July 2023, for exams June 2016 onwards. Check the current version on AQA's site; your school will confirm which applies and which language it has chosen.
 
+How it is assessed
+
 ## Forty, forty, twenty
 
 Three components, two of them exams of identical length and very different character.
 
-**AQA 7517 at a glance**
-
 | Component | Format | Weight | What it assesses |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Paper 1 | On-screen exam, 2 hours 30 minutes | 40 per cent | The ability to program, plus theory from the programming, data structures, algorithms and theory of computation sections, and the systematic approach to problem solving |
 | Paper 2 | Written exam, 2 hours 30 minutes | 40 per cent | Data representation, computer systems, organisation and architecture, consequences of computing, networking, databases, Big Data and functional programming |
 | Project | Non-exam assessment, 75 marks | 20 per cent | Using the knowledge and skills from the course "to solve or investigate a practical problem", following a systematic approach |
@@ -82,14 +78,14 @@ Two A-level topics catch GCSE-strong students out because they have no GCSE equi
 
 On the project itself, the marks and the board-specific rules are set out on [the A-level coursework page](/a-level-computer-science-nea-help), which compares AQA and OCR directly. We do not work on any candidate's project, and that line does not move.
 
+Preparing for each part
+
 ## Three components, three different plans
 
 The most common A-level mistake is revising all three the same way. They reward almost nothing in common.
 
-**What each component actually needs**
-
 | Component | The highest-value habit | The commonest mistake |
-|---|---|---|
+| --- | --- | --- |
 | Paper 1 | Working inside somebody else's codebase, weekly, at a keyboard | Practising only from a blank file, so the skeleton is unfamiliar in May |
 | Paper 2 | Writing extended answers and having them marked by a person | Revising by reading notes, which shows knowledge but never tests expression |
 | Project | Starting early and keeping a decision log from day one | Beginning in Year 13 and writing the analysis after the code |
@@ -110,14 +106,14 @@ Our line on the project is the same as everywhere on this site. We do not work o
 
 For students weighing up A level in the first place, or arriving from a different GCSE board, the three English GCSE specifications differ more than most people expect, and the [AQA GCSE page](/aqa-gcse-computer-science-8525-help) is the natural place to start.
 
+Progression
+
 ## Four rungs across Years 12 and 13
 
 Where a student stands is judged by what they can do inside an unfamiliar program, not by what they can recite.
 
-**What an A-level candidate should be able to do**
-
 | Rung | When | What should be true |
-|---|---|---|
+| --- | --- | --- |
 | 1. Fluent beyond GCSE | Early Year 12 | Comfortable with structures, files and objects in the school's chosen language |
 | 2. Reading other people's code | Across Year 12 | Able to explain an unfamiliar program and extend it without breaking it |
 | 3. The hard theory | Year 12 into Year 13 | Theory of computation, complexity, functional programming and Big Data actually taught, not deferred |
@@ -126,63 +122,293 @@ Where a student stands is judged by what they can do inside an unfamiliar progra
 ### Rung two is the differentiator
 
 It is the rung nobody sets out to climb, because school work is almost always writing your own program from nothing. The exam is not.
+
 The topic sequence past A level runs down the [coding roadmap](/coding-roadmap).
 
 ### Rung three cannot be left to spring
 
 Functional programming and Big Data have no GCSE ancestor, so a student meets them cold. Late exposure turns learnable content into a panic.
+
 Lessons ease off before the papers and restart afterwards.
+
+The catalogue
 
 ## Nine courses for sixth-form computer scientists
 
 Grouped by which part of the A-level they serve. The free lesson settles the starting point.
 
+I
+
 ### Depth in a language
 
 For the on-screen paper
 
-- [Python, zero to advanced](/courses/python-programming-masterclass-zero-to-advanced-college): Well past GCSE, into the structures and object work a skeleton program assumes.
-- [Java, complete](/courses/complete-java-programming-masterclass-college): For sixth forms that chose Java, taught with the same emphasis on reading as writing.
-- [Git and GitHub](/courses/git-github-version-control-course-for-college-students): Navigating and changing a codebase safely, which is the exact Paper 1 skill in professional form.
+UK / A1 / 01
+
+#### Python, zero to advanced
+
+Well past GCSE, into the structures and object work a skeleton program assumes.
+
+[Open the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
+
+UK / A1 / 02
+
+#### Java, complete
+
+For sixth forms that chose Java, taught with the same emphasis on reading as writing.
+
+[Open the syllabus](/courses/complete-java-programming-masterclass-college)
+
+UK / A1 / 03
+
+#### Git and GitHub
+
+Navigating and changing a codebase safely, which is the exact Paper 1 skill in professional form.
+
+[Open the syllabus](/courses/git-github-version-control-course-for-college-students)II
 
 ### The theory
 
 For the written paper
 
-- [Data structures and algorithms](/courses/data-structures-algorithms-masterclass-college): Trees, graphs and complexity, worked on paper where the exam will ask for them.
-- [Databases and SQL](/courses/mysql-database-complete-masterclass-college): The databases section done properly rather than skimmed in the final term.
-- [Competitive programming](/courses/competitive-programming-masterclass-college): Speed and correctness under constraint, for students who want to be well clear of the syllabus.
+UK / A2 / 01
+
+#### Data structures and algorithms
+
+Trees, graphs and complexity, worked on paper where the exam will ask for them.
+
+[Open the syllabus](/courses/data-structures-algorithms-masterclass-college)
+
+UK / A2 / 02
+
+#### Databases and SQL
+
+The databases section done properly rather than skimmed in the final term.
+
+[Open the syllabus](/courses/mysql-database-complete-masterclass-college)
+
+UK / A2 / 03
+
+#### Competitive programming
+
+Speed and correctness under constraint, for students who want to be well clear of the syllabus.
+
+[Open the syllabus](/courses/competitive-programming-masterclass-college)III
 
 ### Around the project
 
 Skills it assumes, never the project itself
 
-- [Data science, complete](/courses/data-science-complete-masterclass-college): For projects built on real data, and for the Big Data content in the specification.
-- [Full stack web development](/courses/full-stack-web-development-masterclass-college): Building something with a database behind it, which many projects turn out to need.
-- [Python and AI automation](/courses/python-ai-automation-masterclass-college): Working alongside tools properly, with a record of what came from where.
+UK / A3 / 01
+
+#### Data science, complete
+
+For projects built on real data, and for the Big Data content in the specification.
+
+[Open the syllabus](/courses/data-science-complete-masterclass-college)
+
+UK / A3 / 02
+
+#### Full stack web development
+
+Building something with a database behind it, which many projects turn out to need.
+
+[Open the syllabus](/courses/full-stack-web-development-masterclass-college)
+
+UK / A3 / 03
+
+#### Python and AI automation
+
+Working alongside tools properly, with a record of what came from where.
+
+[Open the syllabus](/courses/python-ai-automation-masterclass-college)
+
+How lessons work
 
 ## Somebody else's code, every week
 
 Teachers work from India, where the clock never moves, so the UK is five and a half hours behind from October and four and a half from March. Slots are agreed in UK time.
 
-- **Early evening** The usual choice for Year 12 and 13 students.
-- **Later evening** For students with sport, work or a long journey home.
-- **Weekend morning** Long enough for full timed practice and a proper review.
+Early evening
 
-- **Read before you write** Every week a student explains a program they did not write, function by function, before changing a line of it.
-- **At a keyboard** Paper 1 is on screen, so practice is on screen, in the language the school chose.
-- **Extended answers marked** Written responses handed in and marked by a person, because that is the only way expression improves.
-- **Theory taught early** Functional programming and Big Data planned into Year 12 rather than left to the final term.
-- **A clear line on the project** We never work on it, review it or advise on its content. We teach the skills it assumes.
-- **Groups by level** Fifteen to twenty students at one stage, reading each other's changes to the same program.
+The usual choice for Year 12 and 13 students.
+
+Later evening
+
+For students with sport, work or a long journey home.
+
+Weekend morning
+
+Long enough for full timed practice and a proper review.
+
+### Read before you write
+
+Every week a student explains a program they did not write, function by function, before changing a line of it.
+
+### At a keyboard
+
+Paper 1 is on screen, so practice is on screen, in the language the school chose.
+
+### Extended answers marked
+
+Written responses handed in and marked by a person, because that is the only way expression improves.
+
+### Theory taught early
+
+Functional programming and Big Data planned into Year 12 rather than left to the final term.
+
+### A clear line on the project
+
+We never work on it, review it or advise on its content. We teach the skills it assumes.
+
+### Groups by level
+
+Fifteen to twenty students at one stage, reading each other's changes to the same program.
+
+Student work
+
+## Work our older students have published
+
+Four projects built in lessons, none of them anybody's assessed coursework. More in [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## What A-level tuition costs
 
 One charge a month in US dollars, the rate for every country outside India. The free lesson comes first and billing starts only when a course and a weekly time are agreed.
 
-- Free first class: USD 0. A full lesson on real 7517 material. An honest view of which component is weakest. Nothing asked for but a number.
-- Group batch: USD 100 a month. Fifteen to twenty students at one stage. The same teacher across the year. Written answers marked weekly. Fewer lessons in the run-up to the papers.
-- One to one: USD 150 a month. Only the student and the teacher. Planned backwards from the exam timetable. Suits a candidate with a specific grade in view.
+Free first class
+
+USD 0
+
+no card required
+
+- A full lesson on real 7517 material
+- An honest view of which component is weakest
+- Nothing asked for but a number
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students at one stage
+- The same teacher across the year
+- Written answers marked weekly
+- Fewer lessons in the run-up to the papers
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- Only the student and the teacher
+- Planned backwards from the exam timetable
+- Suits a candidate with a specific grade in view
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+From Google, word for word, unpaid and unprompted.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about AQA 7517
 
 ## What A-level candidates and parents ask
 
@@ -226,15 +452,54 @@ For our own exercises, yes, in a fixed order: understand, predict, then ask, wit
 
 The opening lesson is free. After that a group place is USD 100 a month and one-to-one teaching USD 150, billed monthly with nothing in advance.
 
+Elsewhere on this site
+
 ## Where to read next
 
-- [A-level Computer Science coursework](/a-level-computer-science-nea-help): Where the project marks sit at AQA and OCR, and what the boards say about AI.
-- [AQA GCSE Computer Science 8525](/aqa-gcse-computer-science-8525-help): The same board two years earlier, where the difficulty is notational.
-- [Understand the code, do not copy-paste it](/understand-the-code-dont-copy-paste-uk): Why declared AI content cannot earn marks in assessed work.
-- [Coding and AI classes in England](/coding-and-ai-classes-in-england): What the computing curriculum requires and who has to follow it.
-- [British Informatics Olympiad](/british-informatics-olympiad-preparation): Where a strong A-level student can go beyond the specification.
-- [Coding classes in the UK](/coding-classes-in-united-kingdom): The national page, and the index of every UK page we publish.
+Each page takes a different part of this further.
 
-## Contact
+### [A-level Computer Science coursework](/a-level-computer-science-nea-help)
 
-Book the free first class at [https://learn.modernagecoders.com/aqa-a-level-computer-science-7517-help](https://learn.modernagecoders.com/aqa-a-level-computer-science-7517-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Where the project marks sit at AQA and OCR, and what the boards say about AI.
+
+### [AQA GCSE Computer Science 8525](/aqa-gcse-computer-science-8525-help)
+
+The same board two years earlier, where the difficulty is notational.
+
+### [Understand the code, do not copy-paste it](/understand-the-code-dont-copy-paste-uk)
+
+Why declared AI content cannot earn marks in assessed work.
+
+### [Coding and AI classes in England](/coding-and-ai-classes-in-england)
+
+What the computing curriculum requires and who has to follow it.
+
+### [British Informatics Olympiad](/british-informatics-olympiad-preparation)
+
+Where a strong A-level student can go beyond the specification.
+
+### [Coding classes in the UK](/coding-classes-in-united-kingdom)
+
+The national page, and the index of every UK page we publish.
+
+Start here
+
+## Book a free first lesson
+
+Send a number and we will reply at a British hour you choose. The lesson uses real A-level material, at a keyboard, and finishes by naming the weakest of the three components.
+
+Prefer reading? Each [course page](/courses) publishes its syllabus, [how we teach](/how-we-teach) covers the method and its limits, and the [coding roadmap](/coding-roadmap) sets out the sequence.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20first%20class%20for%20AQA%20A-level%20Computer%20Science%207517.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is free from a British mobile and gets the fastest reply. The number is registered in India, which we say here rather than leave you to find.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/aqa-a-level-computer-science-7517-help*

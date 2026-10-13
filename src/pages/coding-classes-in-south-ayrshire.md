@@ -4,46 +4,32 @@ description: "Live online coding, Python and maths classes across South Ayrshire
 canonical: https://learn.modernagecoders.com/coding-classes-in-south-ayrshire
 source: src/pages/coding-classes-in-south-ayrshire.html
 ---
-> Scotland's 2022 census counted about 111,600 people in South Ayrshire, in roughly 52,500 households, at 91.3 people per square kilometre. Ayr is much the largest place, with Troon and Prestwick close behind each other, then Girvan and Maybole, and villages such as Coylton, Tarbolton and Symington. We teach every class in real time over video from India; a first lesson, free, works out where each learner belongs, anywhere from P1 to S6 or adult study. Coding, Python and maths are available to ages 6 to 67, taught one-to-one or in a group of fifteen to twenty. The South Ayrshire project begins at Prestwick's old salt works. Families who carry on pay USD 100 a month for a group or USD 150 a month for one-to-one.
+> Live online coding, Python and maths classes across South Ayrshire, from Ayr, Troon and Prestwick to Girvan, Maybole, Coylton, Tarbolton and Symington.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / South Ayrshire
-
-South Ayrshire / Live online
-
-# Coding classes in South Ayrshire
-
-**What are the best coding classes in South Ayrshire?** Scotland's 2022 census counted about 111,600 people in South Ayrshire, in roughly 52,500 households, at 91.3 people per square kilometre. Ayr is much the largest place, with Troon and Prestwick close behind each other, then Girvan and Maybole, and villages such as Coylton, Tarbolton and Symington. We teach every class in real time over video from India; a first lesson, free, works out where each learner belongs, anywhere from P1 to S6 or adult study. Coding, Python and maths are available to ages 6 to 67, taught one-to-one or in a group of fifteen to twenty. The South Ayrshire project begins at Prestwick's old salt works. Families who carry on pay USD 100 a month for a group or USD 150 a month for one-to-one.
-
-Beside a golf course in Prestwick stand two plain stone buildings that Historic Environment Scotland lists at Category A. They were built around 1760 as the Maryburgh Salt Works, with salt pans below and housing above, and the listing says they appear to be the most complete remains of salt boiling to survive in Scotland. The idea was simple: heat seawater in a big iron pan until the water has gone and salt is left. The cost was fuel, lots of it. How much, and which of the many unknowns really decides the answer? This page's project builds a mass and energy budget in Python, then pushes every assumption up and down to see which one moves the result most.
-
-Facts last verified 26 September 2026. Teaching is online; no South Ayrshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for South Ayrshire
 
 ## Typical first courses in South Ayrshire
 
 A P3 in Troon who likes experiments, a P7 in Prestwick about to try typed code, an S5 in Ayr taking Higher, and an adult in Girvan learning to model costs at work. For each, the first step is a free lesson.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 11): Scratch projects with heating, cooling and simple science simulations.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): Ratios, percentages and units handled properly, by writing code.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 12 to 18): Complete Python for teenagers, including physics models and checks.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (Adults): Data analysis for adults, from spreadsheets to what-if models in Python.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 11Scratch Coding for KidsScratch projects with heating, cooling and simple science simulations.See the syllabus](/courses/scratch-programming-complete-course)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingRatios, percentages and units handled properly, by writing code.See the syllabus](/courses/maths-through-coding)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 12 to 18Python for TeensComplete Python for teenagers, including physics models and checks.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)AdultsData Analysis CourseData analysis for adults, from spreadsheets to what-if models in Python.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)South Ayrshire figures
 
 ## About 111,600 people in South Ayrshire
 
 The council-wide count is National Records of Scotland's rounded first result from the 2022 census. Figures for individual towns come from an NRS series for mid-2020.
 
-**South Ayrshire localities above 1,500 people, NRS mid-2020 estimates**
-
 | Locality | Residents | Locality | Residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Ayr | 46,260 | Dundonald | 2,570 |
 | Troon | 14,950 | Coylton | 2,160 |
 | Prestwick | 14,880 | Mossblown | 2,100 |
@@ -56,16 +42,16 @@ South Ayrshire has 91.3 residents per square kilometre, a little above the Scott
 
 Our [North Ayrshire](/coding-classes-in-north-ayrshire) page rotates the stars back to 1638. For Scottish exams, see [National 5 Computing Science](/national-5-computing-science-help) and [Higher Maths](/higher-maths-tuition-online).
 
+The South Ayrshire project
+
 ## Boiling the sea, on paper first
 
 A budget for water, heat and coal, and a test of every assumption.
 
 Every number in the model is an assumption, labelled as one. Seawater is taken to hold 35 grams of salt per kilogram, a typical figure for the open sea. To get one tonne of salt, the pan must take in about 28,571 kilograms of seawater and boil off 27,571 kilograms of water. The water first has to be warmed from 10 degrees to boiling, and then turned into steam, which needs far more energy per kilogram than the warming. The learner adds the two parts, divides by the energy in a kilogram of coal, taken as 25 megajoules, and allows for a pan that turns only a fifth of the coal's heat into useful work.
 
-**Our salt budget for one tonne of salt, assumptions ours, 26 September 2026**
-
 | Quantity | Result |
-|---|---|
+| --- | --- |
 | Seawater needed | 28,571 kg |
 | Water boiled away | 27,571 kg |
 | Heat needed | 73.0 gigajoules, 85 per cent of it for boiling rather than warming |
@@ -93,14 +79,14 @@ Add the energy terms, run the one-at-a-time sensitivity check, and draw a bar ch
 
 The buildings and their history come from the Historic Environment Scotland listing. Salinity, temperatures, coal energy, pan efficiency and every result are assumptions or outputs of our own model, not records of how the Maryburgh Salt Works operated.
 
+Why the Prestwick salt pans
+
 ## Salt boiling on the Ayrshire coast
 
 What the Category A listing records.
 
-**Salt Pan Houses at St Nicholas Golf Course, Prestwick, HES listing LB40332**
-
 | Listing detail | What it records |
-|---|---|
+| --- | --- |
 | Built | Circa 1760, for the salt boiling industry, as the Maryburgh Salt Works |
 | Form | A pair of parallel two-storey blocks, probably salt pans with housing above |
 | Rarity | Appear to be the most complete salt-boiling remains to survive in Scotland |
@@ -111,14 +97,37 @@ Energy budgets and sensitivity checks sit behind decisions about heating homes, 
 
 Neither Historic Environment Scotland nor South Ayrshire Council has any link with us. The listing facts are theirs; the salt budget and any slips in it are ours.
 
+Stages
+
 ## From evaporating dishes to energy models
 
 A rough guide; the free lesson sets the actual starting point.
 
-- **P1 to P4: Science games** Block coding with simple experiments, timers and changing states. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **P5 to S2: Units and ratios** Typed Python with units, percentages and conversions. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **S3 to S6: Models and checks** Physics and data models beside National 5, Higher and Advanced Higher courses. [Python for Teens](/courses/python-complete-masterclass-teens), [High School Mathematics](/courses/complete-high-school-mathematics-mastery)
-- **Adults: What-if analysis** Python and data analysis for adults building estimates and scenarios. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+P1 to P4
+
+### Science games
+
+Block coding with simple experiments, timers and changing states.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)P5 to S2
+
+### Units and ratios
+
+Typed Python with units, percentages and conversions.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)S3 to S6
+
+### Models and checks
+
+Physics and data models beside National 5, Higher and Advanced Higher courses.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[High School Mathematics](/courses/complete-high-school-mathematics-mastery)Adults
+
+### What-if analysis
+
+Python and data analysis for adults building estimates and scenarios.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)AI and estimates
 
 ## An AI can build an energy model in seconds. Will it tell you which guess matters?
 
@@ -130,30 +139,139 @@ A South Ayrshire learner who has run a sensitivity check knows to ask which inpu
 
 Knowing which assumption drives an answer is why a young person in South Ayrshire should still learn to code in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it runs
+
 ## From Troon to Girvan, lessons over video
 
 Coastal towns and inland villages alike join from a laptop at home.
 
-- **Hands-on from minute one** The learner writes the code; the teacher watches the shared screen and guides the next step.
-- **Stages as schools name them** A Prestwick S2 or an Ayr P5 will hear the Curriculum for Excellence names they know, through to Advanced Higher. Lessons are in English.
-- **Try it free** One whole lesson without charge, then an honest word on what fits.
-- **Fifteen to twenty per class** Classmates are grouped by stage and come from several countries.
-- **Term time, twice weekly** Lessons run twice a week in term and stop for the holidays.
-- **Clock changes covered** Your lesson holds its UK time when the clocks move; the teachers in India time adjust.
+### Hands-on from minute one
 
-**Why classes mix towns** Five learners at one stage, all free at the same hour, rarely live in one Ayrshire town. Grouping by stage across a wide pool gives someone in Maybole or Coylton a class that suits.
+The learner writes the code; the teacher watches the shared screen and guides the next step.
+
+### Stages as schools name them
+
+A Prestwick S2 or an Ayr P5 will hear the Curriculum for Excellence names they know, through to Advanced Higher. Lessons are in English.
+
+### Try it free
+
+One whole lesson without charge, then an honest word on what fits.
+
+### Fifteen to twenty per class
+
+Classmates are grouped by stage and come from several countries.
+
+### Term time, twice weekly
+
+Lessons run twice a week in term and stop for the holidays.
+
+### Clock changes covered
+
+Your lesson holds its UK time when the clocks move; the teachers in India time adjust.
+
+Why classes mix towns
+
+Five learners at one stage, all free at the same hour, rarely live in one Ayrshire town. Grouping by stage across a wide pool gives someone in Maybole or Coylton a class that suits.
+
+Fees
 
 ## Fees in South Ayrshire
 
 Ayr or Maybole, the fee is identical, and the same everywhere we teach apart from India.
 
-- First class: USD 0. A complete trial lesson, free, then a clear suggestion.
-- Group tuition: USD 100 a month. About eight lessons a month with fifteen to twenty classmates.
-- Private tuition: USD 150 a month. About eight lessons a month, just you and the teacher.
+First class**USD 0**
+
+A complete trial lesson, free, then a clear suggestion.
+
+Group tuition**USD 100**
+
+About eight lessons a month with fifteen to twenty classmates.
+
+Private tuition**USD 150**
+
+About eight lessons a month, just you and the teacher.
 
 Fees are set in US dollars, and there is no sterling list. Payment starts only after the trial has fixed a course and a weekly time; the pricing page explains holidays, missed lessons and switching between group and one-to-one.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20South%20Ayrshire%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Reviews
+
+## Comments and ratings on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free South Ayrshire lesson
+
+Let us know the learner's age or school stage and what they enjoy, and we will plan a first lesson around it, perhaps a Scratch experiment, a Python program or the salt budget on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented South Ayrshire one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20South%20Ayrshire%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## South Ayrshire questions
+
+The council area, the salt pan project and how lessons work.
 
 ### What is the population of South Ayrshire?
 
@@ -195,10 +313,14 @@ Nothing for the trial lesson. After that it is USD 100 per month in a group or U
 
 Classes pause. Tell us your school's holiday weeks and we leave them clear.
 
+Close at hand
+
 ## More Ayrshire and south-west pages
 
 [East Ayrshire](/coding-classes-in-east-ayrshire) hunts for a verse form in Burns, [North Ayrshire](/coding-classes-in-north-ayrshire) rotates star positions, and [Dumfries and Galloway](/coding-classes-in-dumfries-and-galloway) counts stars under dark skies. See all councils on our [Scotland](/coding-and-ai-classes-in-scotland) page, or the [UK hub](/coding-classes-in-united-kingdom) for everywhere else.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20South%20Ayrshire%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-south-ayrshire](https://learn.modernagecoders.com/coding-classes-in-south-ayrshire#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-south-ayrshire*

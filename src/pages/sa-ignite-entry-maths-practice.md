@@ -4,25 +4,21 @@ description: "SA Ignite assessment for Year 6: the four-part ACER test including
 canonical: https://learn.modernagecoders.com/sa-ignite-entry-maths-practice
 source: src/pages/sa-ignite-entry-maths-practice.html
 ---
-> The ACER Ignite Assessment is the test for entry to South Australia's Ignite program for gifted students, sat in Year 6 for Year 7. Glenunga International High School lists it on 20 February 2027, with ACER Portal registrations opening on 2 November 2026. It has four parts over about three hours: Reading Comprehension, Mathematical Reasoning, Abstract Reasoning and Written Expression.
+> SA Ignite assessment for Year 6: the four-part ACER test including Mathematical Reasoning, the 20 February 2027 date, and original colouring-argument puzzles.
 
-[Home](/) / [Online maths tutoring in Australia](/online-maths-tutoring-australia) / SA Ignite maths
+In short
 
-South Australia · Ignite program · Year 6 assessment
+The ACER Ignite Assessment is the test for entry to South Australia's Ignite program for gifted students, sat in Year 6 for Year 7. Glenunga International High School lists it on 20 February 2027, with ACER Portal registrations opening on 2 November 2026. It has four parts over about three hours: Reading Comprehension, Mathematical Reasoning, Abstract Reasoning and Written Expression.
 
-# SA Ignite assessment maths practice
-
-Ignite is South Australia's special interest program for gifted students, run at three government high schools. Entry for Year 7 starts with the ACER Ignite Assessment in Year 6: four parts over about three hours, one of them Mathematical Reasoning. This page gives the facts as Ignite schools publish them, including the February 2027 date, and then teaches a beautiful piece of mathematical reasoning that suits curious Year 5 and 6 students: colouring a board to prove that something can never happen. You will find no advice here about applying or choosing a school, and no promise of any result.
-
-At a glance: Program: Ignite, for gifted students; Years: Ignite program, Years 7 to 10; Assessment: ACER Ignite Assessment; Sat in: Year 6; Next date: 20 February 2027; Length: About 3 hours, four parts; Maths part: Mathematical Reasoning; Marked by: ACER. Rated 4.9 across 547 Google reviews.
+For curious minds
 
 ## Three courses for able Years 5 and 6 students
 
 Mathematics that rewards curiosity, wherever a child goes next.
 
-- [Competition maths](/courses/olympiad-competition-mathematics-mastery): Proof, invariants and unusual problems, explored with care.
-- [Problem solving and logic](/courses/problem-solving-and-computational-thinking-for-kids): Reasoning steps written out and explained.
-- [Upper-primary maths](/courses/elementary-mathematics-complete-masterclass): The curriculum taught deeply, as a base for reasoning.
+[![Maths Olympiad & Competition Course course thumbnail](/images/olympiad-competition-maths.webp)  SAI / 01 Competition maths Proof, invariants and unusual problems, explored with care. Open the syllabus →](/courses/olympiad-competition-mathematics-mastery)[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)  SAI / 02 Problem solving and logic Reasoning steps written out and explained. Open the syllabus →](/courses/problem-solving-and-computational-thinking-for-kids)[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  SAI / 03 Upper-primary maths The curriculum taught deeply, as a base for reasoning. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)
+
+The Ignite program
 
 ## A gifted program at three South Australian schools
 
@@ -38,14 +34,14 @@ Glenunga's page notes that its Ignite students follow enrichment or accelerated 
 
 Sources: [Glenunga International High School, Ignite](https://gihs.sa.edu.au/specialist-programs/ignite/); [Aberfoyle Park High School, IGNITE](https://aphs.sa.edu.au/programs/ignite/). Checked on 7 October 2026. We have no connection with these schools, the Department or ACER.
 
+The assessment
+
 ## Four parts, about three hours, marked by ACER
 
 From Glenunga International High School's Ignite page, read on 7 October 2026.
 
-**ACER Ignite Assessment for Year 7 entry in 2028**
-
 | Detail | As the school publishes it |
-|---|---|
+| --- | --- |
 | Date | 20 February 2027, for Year 6 students entering Year 7 the following year |
 | Registration | Via the ACER Portal, opening Monday 2 November 2026 |
 | Length | Four parts over approximately 3 hours, with a break |
@@ -64,6 +60,8 @@ Our classes teach mathematics in that spirit. They are not Ignite coaching, and 
 
 Source: [Glenunga International High School, Registrations for Year 7 in 2028](https://gihs.sa.edu.au/specialist-programs/ignite/). Checked on 7 October 2026.
 
+Puzzles we wrote
+
 ## Colouring arguments: proving something is impossible
 
 Colour a board like a chessboard, in alternating dark and light squares. Many moves, tiles and paths must always switch colour or always cover one of each. Counting colours can then prove that a task can never be done, without trying every possibility.
@@ -80,10 +78,8 @@ A domino always covers one dark and one light square. A step to a neighbouring s
 
 If the task needs equal numbers of each colour and the board has unequal numbers, the task is impossible.
 
-**Original puzzles solved with colouring**
-
 | Puzzle | The colouring idea | Answer |
-|---|---|---|
+| --- | --- | --- |
 | An 8 by 8 board has two opposite corners removed. Can 31 dominoes cover the remaining 62 squares? | Opposite corners share a colour, leaving 30 of one colour and 32 of the other; each domino covers one of each | No |
 | Can dominoes exactly cover a 5 by 5 board? | 25 squares is odd, and every domino covers 2 | No |
 | A 4 by 4 board loses the two corners at the ends of its top row. Does colouring rule out a domino covering? | Those corners are different colours, leaving 7 of each, so colouring cannot rule it out | No; and a covering does exist |
@@ -97,6 +93,8 @@ The grid path in the last row rewards slow reading. Shade the four corners and t
 Parity, odd and even, is the simplest relative of these ideas. The 5 by 5 board fails before any colouring at all, because 25 squares cannot be split into pairs. Encourage students to try the cheapest argument first: count, then colour, then search for a construction only if neither settles the question.
 
 The third puzzle teaches the limit of the method, and it is just as important. When the colours balance, colouring proves nothing either way. A student then has to find an actual covering, here a domino across the middle two top squares and three rows of dominoes below, to show the task is possible. Knowing when an argument works, and when it does not, is the heart of mathematical reasoning.
+
+Why proof matters
 
 ## From "I could not do it" to "it cannot be done"
 
@@ -114,14 +112,14 @@ Draw grids on paper and cut out dominoes from card. Let your child try to cover 
 
 Ask them to invent a board that colouring cannot rule out but that still cannot be covered. It is a genuinely hard and rewarding challenge.
 
+Reasoning and proof
+
 ## Four stages for young mathematicians
 
 These grow over years through puzzles, conversation and good teaching.
 
-**From trying to proving**
-
 | Stage | The student can | Secure when |
-|---|---|---|
+| --- | --- | --- |
 | 1. Trying | Attempt a task by hand | Covers a small board with dominoes |
 | 2. Counting | Use counting to rule things out | Explains why a 5 by 5 board cannot be covered |
 | 3. Invariants | Find what never changes | Uses colours to prove the 8 by 8 corners puzzle |
@@ -130,63 +128,293 @@ These grow over years through puzzles, conversation and good teaching.
 ### Enjoyment first
 
 The assessment is designed to identify potential, so pressure and drilling add little. Puzzles enjoyed for their own sake build the same thinking.
+
 If a child becomes anxious, step back from any test practice.
 
 ### Other states
 
 Western Australia's ASET is covered on [WA GATE ASET maths practice](/wa-gate-aset-maths-practice).
+
 The Queensland Academies test is on [Queensland Academies maths practice](/queensland-academies-entry-maths-practice).
+
+Courses for Years 5 and 6
 
 ## Courses for students who love a puzzle
 
 Three groups; each card leads to the full syllabus.
 
+I
+
 ### Proof and puzzles
 
 Reasoning for its own sake
 
-- [Competition maths](/courses/olympiad-competition-mathematics-mastery): Invariants, parity and proof.
-- [Problem solving and computational thinking](/courses/problem-solving-and-computational-thinking-for-kids): Step-by-step reasoning.
-- [Maths through coding](/courses/maths-through-coding): Test ideas with small programs.
+SAI / P / 01
+
+#### Competition maths
+
+Invariants, parity and proof.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)
+
+SAI / P / 02
+
+#### Problem solving and computational thinking
+
+Step-by-step reasoning.
+
+[Open the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)
+
+SAI / P / 03
+
+#### Maths through coding
+
+Test ideas with small programs.
+
+[Open the syllabus](/courses/maths-through-coding)II
 
 ### Curriculum depth
 
 Strong foundations
 
-- [Primary maths](/courses/elementary-mathematics-complete-masterclass): Every strand, taught thoroughly.
-- [Mental maths](/courses/mental-maths-mastery-kids): Number sense and fluency.
-- [Statistics and probability](/courses/statistics-probability-maths-course): Data, chance and fair reasoning.
+SAI / C / 01
+
+#### Primary maths
+
+Every strand, taught thoroughly.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+SAI / C / 02
+
+#### Mental maths
+
+Number sense and fluency.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+SAI / C / 03
+
+#### Statistics and probability
+
+Data, chance and fair reasoning.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)III
 
 ### Ahead
 
 Into secondary
 
-- [Algebra foundations](/courses/algebra-foundations-masterclass): Patterns written with letters.
-- [Middle years maths](/courses/comprehensive-middle-school-mathematics-mastery): Early secondary topics.
-- [Vedic maths](/courses/vedic-maths-course-speed-calculation-mastery): Calculation patterns, checked.
+SAI / A / 01
+
+#### Algebra foundations
+
+Patterns written with letters.
+
+[Open the syllabus](/courses/algebra-foundations-masterclass)
+
+SAI / A / 02
+
+#### Middle years maths
+
+Early secondary topics.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+SAI / A / 03
+
+#### Vedic maths
+
+Calculation patterns, checked.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
+
+Our lessons
 
 ## Live, discussion-rich classes for SA families
 
 Our teachers are in India, behind Adelaide. During daylight saving Adelaide is five hours ahead of India time, so a 4.30 pm class there begins at 11.30 am in India.
 
-- **After school** Good for Years 5 and 6.
-- **Weekend** Time for longer puzzles.
-- **Holidays** Short proof and puzzle workshops.
+After school
 
-- **Boards and dominoes** Students colour, cut and test ideas by hand.
-- **Arguments written down** Every claim of impossibility needs a reason.
-- **Fifteen to twenty per group** Groups that discuss together.
-- **One-to-one lessons** For a student who wants to go deep alone.
-- **Not Ignite coaching** We teach mathematics, not assessment drills.
-- **No offer claims** Entry decisions rest with the schools.
+Good for Years 5 and 6.
+
+Weekend
+
+Time for longer puzzles.
+
+Holidays
+
+Short proof and puzzle workshops.
+
+### Boards and dominoes
+
+Students colour, cut and test ideas by hand.
+
+### Arguments written down
+
+Every claim of impossibility needs a reason.
+
+### Fifteen to twenty per group
+
+Groups that discuss together.
+
+### One-to-one lessons
+
+For a student who wants to go deep alone.
+
+### Not Ignite coaching
+
+We teach mathematics, not assessment drills.
+
+### No offer claims
+
+Entry decisions rest with the schools.
+
+Student work
+
+## Student projects
+
+Built by our learners because they wanted to. More in the [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 South Australian families pay monthly in US dollars, the rate we use outside India. No payment in advance and no minimum term.
 
-- Free first class: USD 0. A full trial lesson. An honest view, even if no classes are needed. No card details.
-- Group batch: USD 100 a month. Fifteen to twenty students at one level. One regular teacher. Feedback on reasoning. Certificate at the end.
-- One to one: USD 150 a month. A teacher for one student. Chosen focus. Flexible times.
+Free first class
+
+USD 0
+
+no card required
+
+- A full trial lesson
+- An honest view, even if no classes are needed
+- No card details
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students at one level
+- One regular teacher
+- Feedback on reasoning
+- Certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one student
+- Chosen focus
+- Flexible times
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+What parents wrote on Google, quoted exactly.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about Ignite
 
 ## South Australian families ask
 
@@ -234,15 +462,54 @@ We promise no result. We teach reasoning and mathematics that are valuable in th
 
 We agree a weekly time after the free trial. During daylight saving Adelaide is five hours ahead of India time.
 
+Related pages
+
 ## More for South Australian families
 
-- [WA GATE ASET](/wa-gate-aset-maths-practice): Matchstick patterns and quantitative reasoning.
-- [Queensland Academies test](/queensland-academies-entry-maths-practice): Logic grids and series.
-- [Maths tutoring in Australia](/online-maths-tutoring-australia): Live classes for every year.
-- [Coding for 11 and 12 year olds](/coding-classes-for-11-and-12-year-olds-australia): Logic and invariants in code.
-- [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar): Contests for keen problem solvers.
-- [Maths challenges](/maths-challenges): Puzzles to share.
+Other states' tests, maths and coding.
 
-## Contact
+### [WA GATE ASET](/wa-gate-aset-maths-practice)
 
-Book the free first class at [https://learn.modernagecoders.com/sa-ignite-entry-maths-practice](https://learn.modernagecoders.com/sa-ignite-entry-maths-practice#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Matchstick patterns and quantitative reasoning.
+
+### [Queensland Academies test](/queensland-academies-entry-maths-practice)
+
+Logic grids and series.
+
+### [Maths tutoring in Australia](/online-maths-tutoring-australia)
+
+Live classes for every year.
+
+### [Coding for 11 and 12 year olds](/coding-classes-for-11-and-12-year-olds-australia)
+
+Logic and invariants in code.
+
+### [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar)
+
+Contests for keen problem solvers.
+
+### [Maths challenges](/maths-challenges)
+
+Puzzles to share.
+
+Start here
+
+## Book a free maths and reasoning class
+
+Tell us your child's year and what kind of problems they enjoy. The trial is a real lesson in reasoning and proof, followed by honest advice.
+
+Want to look first? The [course atlas](/course-atlas) lists every course, and [how we teach](/how-we-teach) describes a lesson.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20and%20reasoning%20class%20for%20my%20Year%205%20or%206%20child%20in%20South%20Australia.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is usually fastest. Our +91 number is Indian; we teach from India and have no South Australian office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/sa-ignite-entry-maths-practice*

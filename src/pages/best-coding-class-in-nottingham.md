@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths classes for Nottingham le
 canonical: https://learn.modernagecoders.com/best-coding-class-in-nottingham
 source: src/pages/best-coding-class-in-nottingham.html
 ---
-> Nottingham had 323,632 usual residents at the 2021 Census, and 13.5% of them were aged 20 to 24, against England's 6.0%. It is the home city of George Green, the self-taught miller whose mathematics is still used by scientists and engineers, and it holds a permanent designation as a UNESCO City of Literature. Modern Age Coders teaches Nottingham learners aged six to sixty-seven in live online lessons: one to one, or in groups of fifteen to twenty at the same level, with teachers in India and times set in UK hours. The opening lesson is free. Groups then cost USD 100 a month, and one-to-one teaching USD 150 a month.
+> Live online coding, Python, AI and maths classes for Nottingham learners aged 6 to 67, from Bulwell and Sherwood to Clifton and Wollaton. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Nottingham
-
-Nottingham, East Midlands, England / Live online
-
-# Coding classes in Nottingham
-
-**What are the best coding classes in Nottingham?** Nottingham had 323,632 usual residents at the 2021 Census, and 13.5% of them were aged 20 to 24, against England's 6.0%. It is the home city of George Green, the self-taught miller whose mathematics is still used by scientists and engineers, and it holds a permanent designation as a UNESCO City of Literature. Modern Age Coders teaches Nottingham learners aged six to sixty-seven in live online lessons: one to one, or in groups of fifteen to twenty at the same level, with teachers in India and times set in UK hours. The opening lesson is free. Groups then cost USD 100 a month, and one-to-one teaching USD 150 a month.
-
-Put a pin in a map at each of Nottingham's 50 tram stops and stretch a rubber band around all of them. The shape the band makes is called the convex hull, and finding it is one of the first problems in computational geometry. For the NET network, listed stop by stop in the Department for Transport's NaPTAN register, the band touches just 8 of the 50 stops, from Hucknall in the north to Clifton South and Toton Lane in the south, and encloses 67.94 square kilometres. Phoenix Park, one of the four places the trams run to, sits inside the band rather than on it. Take away Toton Lane and the enclosed area shrinks by 8.5%; take away Hucknall instead and it shrinks by 8.3%. Two stops out of fifty each hold up a large slice of the shape, which is why a hull on its own can mislead. Finding it, and knowing what it cannot tell you, is the lesson Nottingham's trams give our teenage learners.
-
-Facts last verified 21 September 2026. Teaching is online; no Nottingham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Nottingham
 
 ## Four courses for George Green's city
 
 Go by the learner's interests. Each course starts with a free live lesson, and booking needs no card.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 9 to 12): Python with turtle graphics, a natural way to plot a handful of stops and draw the band around them.
-- [GCSE Maths](/courses/gcse-mathematics-mastery) (GCSE years): Coordinates, vectors and area at GCSE level, the exact tools the hull calculation leans on.
-- [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens) (Ages 13 to 18): Stacks, sorting and geometry basics built from scratch, the ingredients of the sort-then-stack hull method.
-- [College Maths Course](/courses/college-mathematics-complete-masterclass) (University and adult): Linear algebra from vectors upwards, including the cross product that sits inside every turn test.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 9 to 12Python and AI for KidsPython with turtle graphics, a natural way to plot a handful of stops and draw the band around them.See the syllabus](/courses/python-ai-kids-masterclass)[![GCSE Maths course thumbnail](/images/gcse-maths.webp)GCSE yearsGCSE MathsCoordinates, vectors and area at GCSE level, the exact tools the hull calculation leans on.See the syllabus](/courses/gcse-mathematics-mastery)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)Ages 13 to 18Problem Solving for TeensStacks, sorting and geometry basics built from scratch, the ingredients of the sort-then-stack hull method.See the syllabus](/courses/problem-solving-dsa-masterclass-teens)[![College Maths Course course thumbnail](/images/college-level-maths.webp)University and adultCollege Maths CourseLinear algebra from vectors upwards, including the cross product that sits inside every turn test.See the syllabus](/courses/college-mathematics-complete-masterclass)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Nottingham today
 
 ## Nottingham's late teens and early twenties stand out
 
 From the 2021 Census tables for the Nottingham local authority area, published by the Office for National Statistics on Nomis.
 
-**Nottingham, Census 2021**
-
 | What was counted | Nottingham | England |
-|---|---|---|
+| --- | --- | --- |
 | Usual residents | 323,632 | Not compared |
 | Living in households | 301,065 | Not compared |
 | Living in communal establishments | 22,567, 7.0% | Not compared |
@@ -66,6 +52,8 @@ The 22,567 people in communal establishments, 7.0% of residents, include those i
 
 The drop after 24 is just as telling: those aged 25 to 29 were 7.5%, much closer to England's 6.6%. For our classes, that shape simply means Nottingham learners arrive at every stage, from a child in Bilborough on their first block program to a sixth former in Sherwood preparing for A level Computer Science, and each joins a group at their own level.
 
+George Green
+
 ## A miller who changed mathematics
 
 From Green's Windmill and Science Centre and from Nottingham UNESCO City of Literature.
@@ -84,16 +72,18 @@ For the bicentenary of his birth, a memorial plaque to Green was dedicated in We
 
 Five years after that essay, Green became a student at Caius College, Cambridge, at the age of forty, and later a Fellow of the college. He died in 1841 aged 47 and is buried at St Stephen's church, close to the windmill on Windmill Lane, which today works as a mill and science centre. Nottingham also holds a permanent designation as a UNESCO City of Literature. We have no connection with either organisation. Green's story matters to our learners because it shows how far a self-taught mathematician could go with a library and persistence; the Centre calls Bromley House Library his gateway to the academic world.
 
-**Fifty stops in a national register** The project uses NaPTAN, the Department for Transport's register of public transport stops, which lists 50 active stops for Nottingham Express Transit. A former stop, Station Street, is kept in the register but marked inactive, so a program that forgets to filter on status finds 51.
+Fifty stops in a national register
+
+The project uses NaPTAN, the Department for Transport's register of public transport stops, which lists 50 active stops for Nottingham Express Transit. A former stop, Station Street, is kept in the register but marked inactive, so a program that forgets to filter on status finds 51.
+
+Signature project
 
 ## A rubber band round 50 tram stops
 
 The convex hull is the smallest convex shape containing every point. We built it for the NET stops in British National Grid metres, twice, by two different methods.
 
-**The eight NET stops on the convex hull, and how much the hull shrinks if each one alone is removed**
-
 | Stop on the hull | Area lost if removed | Share of the hull |
-|---|---|---|
+| --- | --- | --- |
 | Toton Lane | 5.78 sq km | 8.5% |
 | Hucknall | 5.64 sq km | 8.3% |
 | Lace Market | 1.08 sq km | 1.6% |
@@ -121,14 +111,14 @@ The hull is an outline of stops, not a map of where trams go. By our check again
 
 The removal table carries its own warning. Each row removes one stop and keeps the rest, so the rows cannot be added together: take away Toton Lane and Hucknall together and the hull loses 11.01 square kilometres, not the 11.42 the two rows would suggest, because Inham Road becomes a new corner. Learners predict the combined effect first, then run it and explain the gap.
 
+Geometry on real maps
+
 ## Five habits for honest shapes
 
 Practised on tram stops, used afterwards on collision checks in games, outlines of clusters in data science, sensor readings and delivery areas.
 
-**Building a convex hull you can defend**
-
 | Habit | What it looks like | What it prevents |
-|---|---|---|
+| --- | --- | --- |
 | Work in metres | Use British National Grid eastings and northings, not raw latitude and longitude | Areas warped because degrees are not square |
 | Decide on straight lines | Choose whether three stops in a row keep the middle one as a corner | Hulls with duplicate or missing corners |
 | Build it twice | Compare a sorting method with gift wrapping on the same data | A clever algorithm with a bug nobody noticed |
@@ -151,14 +141,37 @@ Outlines of sites, customers or sensors, with outliers tested before any area or
 
 We are not connected with Nottingham Express Transit, the Department for Transport, the Office for National Statistics, Green's Windmill and Science Centre or Nottingham UNESCO City of Literature. NaPTAN and the boundary are published for public use; the hull, areas and counts are our own calculations.
 
+Learning ladder
+
 ## From pins and a rubber band to a hull you can prove
 
 Ages give a rough starting point; the free lesson settles the real level.
 
-- **Ages 6 to 10: Pins and a rubber band** Plotting points on squared paper, finding the outside ones by eye and checking with a real band. [Elementary Maths for Grades 1-5](/courses/elementary-mathematics-complete-masterclass), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 11 to 13: Coordinates on a grid** Points as pairs of numbers, drawn with turtle graphics, with distances and areas worked out in code. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Middle School Mathematics Mastery](/courses/comprehensive-middle-school-mathematics-mastery)
-- **Ages 14 to 18: Hull algorithms in Python** The turn test, the sort-then-stack method and gift wrapping, run on real stop data and compared. [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens), [GCSE Maths](/courses/gcse-mathematics-mastery)
-- **Ages 18 to 67: Geometry for real data** Computational geometry, vectors and complexity for analysts and engineers who work with locations. [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college), [College Maths Course](/courses/college-mathematics-complete-masterclass)
+Ages 6 to 10
+
+### Pins and a rubber band
+
+Plotting points on squared paper, finding the outside ones by eye and checking with a real band.
+
+[Elementary Maths for Grades 1-5](/courses/elementary-mathematics-complete-masterclass)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 11 to 13
+
+### Coordinates on a grid
+
+Points as pairs of numbers, drawn with turtle graphics, with distances and areas worked out in code.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Middle School Mathematics Mastery](/courses/comprehensive-middle-school-mathematics-mastery)Ages 14 to 18
+
+### Hull algorithms in Python
+
+The turn test, the sort-then-stack method and gift wrapping, run on real stop data and compared.
+
+[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)[GCSE Maths](/courses/gcse-mathematics-mastery)Ages 18 to 67
+
+### Geometry for real data
+
+Computational geometry, vectors and complexity for analysts and engineers who work with locations.
+
+[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)[College Maths Course](/courses/college-mathematics-complete-masterclass)Coding and AI
 
 ## A mapping tool draws an outline in one click. Why should a Nottingham teenager write a convex hull?
 
@@ -170,30 +183,139 @@ Convex hulls also sit inside a lot of software. Collision checks in games, the o
 
 So a Nottingham teenager should still learn to program in 2026, in the city of George Green: software can draw any shape instantly, but knowing what holds a shape up, and what it leaves out, remains a skill worth learning properly. The longer argument is in [why learning to code still pays off in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Bulwell, Clifton or Wollaton, with no tram ride needed
 
 Even with trams, crossing Nottingham takes time; a live online lesson removes the trip.
 
-- **No journey across the city** A learner in Bulwell and another in Clifton, near opposite ends of the tram network, can join the same lesson from home.
-- **Stages that match local schools** Reception, Key Stages 1 to 4, Year 9 options, GCSEs and A levels, in the terms English schools use, with lessons in English throughout.
-- **A first lesson with substance** The free lesson is genuine teaching on a real task and finishes with a clear level, a suggested course and a proposed time. No card is needed.
-- **Grouped by what they know** Fifteen to twenty learners working at one level, from Nottingham, the rest of the UK and abroad, so every level has a workable slot.
-- **The same time, twice a week** Two lessons weekly at a fixed hour, around eight a month, with pauses for holidays and exams agreed with the teacher ahead of time.
-- **Teachers on India time** India Standard Time has no summer change, so our teachers are four and a half hours ahead of Nottingham from late March to late October and five and a half in winter; after-school and evening slots land in their working day.
+### No journey across the city
 
-**Room for university students** University students can take evening or weekend slots around lectures, and pause for exam periods by agreement with the teacher, then pick up again at the same level.
+A learner in Bulwell and another in Clifton, near opposite ends of the tram network, can join the same lesson from home.
+
+### Stages that match local schools
+
+Reception, Key Stages 1 to 4, Year 9 options, GCSEs and A levels, in the terms English schools use, with lessons in English throughout.
+
+### A first lesson with substance
+
+The free lesson is genuine teaching on a real task and finishes with a clear level, a suggested course and a proposed time. No card is needed.
+
+### Grouped by what they know
+
+Fifteen to twenty learners working at one level, from Nottingham, the rest of the UK and abroad, so every level has a workable slot.
+
+### The same time, twice a week
+
+Two lessons weekly at a fixed hour, around eight a month, with pauses for holidays and exams agreed with the teacher ahead of time.
+
+### Teachers on India time
+
+India Standard Time has no summer change, so our teachers are four and a half hours ahead of Nottingham from late March to late October and five and a half in winter; after-school and evening slots land in their working day.
+
+Room for university students
+
+University students can take evening or weekend slots around lectures, and pause for exam periods by agreement with the teacher, then pick up again at the same level.
+
+Fees
 
 ## Nottingham lesson prices
 
 Short enough to read in one breath.
 
-- First class: USD 0. A free, complete lesson that ends with a level, a recommended course and a suggested weekly time.
-- Group tuition: USD 100 a month. A month of group teaching, about eight live lessons, with fifteen to twenty learners at the same level.
-- Private tuition: USD 150 a month. A month of one-to-one teaching, about eight live lessons, with the teacher's attention on one learner.
+First class**USD 0**
+
+A free, complete lesson that ends with a level, a recommended course and a suggested weekly time.
+
+Group tuition**USD 100**
+
+A month of group teaching, about eight live lessons, with fifteen to twenty learners at the same level.
+
+Private tuition**USD 150**
+
+A month of one-to-one teaching, about eight live lessons, with the teacher's attention on one learner.
 
 Every family outside India pays the same US dollar fee, so a household in Sherwood and one in Lenton pay identical amounts, and we keep no pound prices. We bill only once the free lesson has settled the course and slot; the pricing page explains pausing, missed lessons and moving between group and private teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Nottingham%2C%20please.)Reviews
+
+## Six Google reviews by families, shown unedited
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Request a free lesson for a Nottingham learner
+
+We pick the first task by level: pins and a rubber band for a young child, a Python program that plots the tram stops, or the full convex hull with a removal table for a teenager ready for real algorithms.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Nottingham one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Nottingham%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Nottingham coding class questions
+
+What Nottingham families ask us most.
 
 ### What is the population of Nottingham?
 
@@ -235,10 +357,14 @@ The first lesson is free. After that a group place is USD 100 a month for two li
 
 On ability, pace and goals, not age or postcode, with fifteen to twenty learners at one level. If no group meets at a suitable time, we offer one-to-one lessons instead.
 
+Explore the UK
+
 ## More Midlands and northern cities
 
 The [Coventry page](/best-coding-class-in-coventry) links bus stops into groups, [Leeds](/best-coding-class-in-leeds) samples a footfall record fairly, and [Manchester](/best-coding-class-in-manchester) times a rise travelling down the River Medlock. The [England guide](/coding-and-ai-classes-in-england) sets out the school stages, and the [UK coding page](/coding-classes-in-united-kingdom) lists every UK page.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Nottingham%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-nottingham](https://learn.modernagecoders.com/best-coding-class-in-nottingham#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-nottingham*

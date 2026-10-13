@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths classes for Haringey: Tot
 canonical: https://learn.modernagecoders.com/coding-classes-in-haringey-london
 source: src/pages/coding-classes-in-haringey-london.html
 ---
-> Haringey is the north London borough of Tottenham, Wood Green, Hornsey, Muswell Hill, Crouch End, Highgate and Stroud Green, with 264,238 residents at the 2021 Census and Alexandra Palace on its hill, where Historic England records the world's first high-definition television programme was transmitted in 1936. A worthwhile coding class teaches a learner how the security behind every website actually works, and this page does that with cryptography: two people agree a secret number while everyone listens, then learners time how long an eavesdropper would need to work it out. Teachers based in India teach live on video, for learners aged 6 to 67, one to one or in classes of fifteen to twenty at the same level. The opening lesson is free; afterwards it is USD 100 a month for a class place or USD 150 a month for private teaching.
+> Live online coding, Python, AI and maths classes for Haringey: Tottenham, Wood Green, Hornsey, Muswell Hill, Crouch End and Highgate. Ages 6 to 67.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Haringey
-
-London Borough of Haringey / Live online
-
-# Coding classes in Haringey
-
-**What are the best coding classes in Haringey?** Haringey is the north London borough of Tottenham, Wood Green, Hornsey, Muswell Hill, Crouch End, Highgate and Stroud Green, with 264,238 residents at the 2021 Census and Alexandra Palace on its hill, where Historic England records the world's first high-definition television programme was transmitted in 1936. A worthwhile coding class teaches a learner how the security behind every website actually works, and this page does that with cryptography: two people agree a secret number while everyone listens, then learners time how long an eavesdropper would need to work it out. Teachers based in India teach live on video, for learners aged 6 to 67, one to one or in classes of fifteen to twenty at the same level. The opening lesson is free; afterwards it is USD 100 a month for a class place or USD 150 a month for private teaching.
-
-Historic England lists Alexandra Palace partly for the BBC studios where, in 1936, the world's first high-definition television programme was transmitted, from a lattice mast that put the aerial 460 feet above sea level. Broadcasting is public by design: anyone with a set could watch. Our learners take on a puzzle that sounds impossible in that setting. Can two people agree a secret number when everything they say is broadcast to the world? The Diffie-Hellman key exchange says yes, using a little modular arithmetic that a Year 9 pupil can follow. Then learners switch sides, become the eavesdropper, and time their own attacks. Each extra bit of key doubles the brute-force work; a cleverer attack called baby-step giant-step square-roots it.
-
-Facts last verified 25 September 2026. Teaching is online; no Haringey branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Haringey
 
 ## Where Haringey learners start
 
 Picture a Year 3 child in Muswell Hill who writes secret notes in code, a Year 9 pupil in Tottenham who wonders how the padlock in the browser works, a Year 13 student in Crouch End thinking about cyber security at university, and a small business owner in Wood Green who wants to understand what keeps customer data safe. Each can start with a free lesson.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): A Scratch secret-message game with a key that shifts letters, and a first idea of why keys matter.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 9 to 12): First Python with remainders: clock arithmetic, powers that wrap around, and a tiny shared secret.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Python for Key Stages 3 to 5, including Diffie-Hellman, brute force and baby-step giant-step on this page.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): For adults who handle sensitive data and want a clear picture of how encryption keys are agreed and attacked.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsA Scratch secret-message game with a key that shifts letters, and a first idea of why keys matter.See the syllabus](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 9 to 12Python and AI for KidsFirst Python with remainders: clock arithmetic, powers that wrap around, and a tiny shared secret.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensPython for Key Stages 3 to 5, including Diffie-Hellman, brute force and baby-step giant-step on this page.See the syllabus](/courses/python-complete-masterclass-teens)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For adults who handle sensitive data and want a clear picture of how encryption keys are agreed and attacked.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Haringey in numbers
 
 ## 264,238 residents and six Grade I entries
 
 Each figure comes from the organisation named, or from our count of what it publishes.
 
-**Haringey facts and their sources**
-
 | Fact | Figure | Where it is published |
-|---|---|---|
+| --- | --- | --- |
 | Residents on Census day 2021 | 264,238 | ONS table TS001 |
 | Heritage List entries in the borough | 286, with 6 at Grade I and 21 at Grade II* | Historic England data, counted 25 September 2026 |
 | Year of the first high-definition television programme at Alexandra Palace | 1936 | Historic England list entry 1268256 |
@@ -63,20 +49,22 @@ Hornsey Town Hall, Dial House, Percy House and Byron House are among the borough
 
 Haringey Council lists libraries at Alexandra Park, Coombes Croft, Highgate, Hornsey, Marcus Garvey, Muswell Hill, Stroud Green and Harringay, and Wood Green, as well as a community and youth music library.
 
+The idea
+
 ## Agreeing a secret while everyone listens
 
 Diffie-Hellman uses clock arithmetic: numbers that wrap round when they reach a chosen prime, just as hours wrap round at twelve.
 
-**A toy exchange small enough to check by hand**
-
 | Step | Alice | Bob | Heard by everyone? |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Agree a prime and a base | prime 23, base 5 | prime 23, base 5 | Yes |
 | Pick a private number | 6 | 15 | No |
 | Send base to that power, wrapped at 23 | 8 | 19 | Yes |
 | Raise what you received to your private number | 19 to the 6th, wrapped: 2 | 8 to the 15th, wrapped: 2 | No: both now hold 2 |
 
 Both end up with the same secret, 2, yet the only numbers that crossed the open channel were 23, 5, 8 and 19. An eavesdropper who wants the secret must work backwards from 8 to Alice's private 6: find the power that turns 5 into 8, wrapping at 23. That backwards problem is called the discrete logarithm, and nobody knows a fast general way to solve it for large numbers. With a prime of 23 it takes seconds by hand; the project is about what happens as the prime grows.
+
+Signature project
 
 ## Become the eavesdropper: two attacks, timed
 
@@ -94,10 +82,8 @@ Store a table of small steps, then take big jumps and look each one up. The work
 
 Run each attack several times at each key size, record steps and seconds, and plot them on a log scale.
 
-**Average steps to crack a toy key, run on our computer on 25 September 2026**
-
 | Prime size | Brute force | Baby-step giant-step | Baby-step giant-step time |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 12 bits | 1,141 | 76 | under a millisecond |
 | 20 bits | 392,834 | 1,284 | under a millisecond |
 | 24 bits | 5,026,774 (0.57 s) | 4,928 | about 1 millisecond |
@@ -110,6 +96,8 @@ Every four extra bits multiply the brute-force work by about sixteen; the same f
 ### Why this cannot be skipped with AI
 
 An AI assistant can describe Diffie-Hellman in a paragraph and even write the code. It cannot give a learner the moment of watching their own brute-force attack slow to a crawl as the prime grows, or of beating it with a smarter algorithm and then running out of memory. That experience, how work and memory scale with input size, is the foundation of cryptography and of computer science generally.
+
+Responsible learning
 
 ## Attacking only your own keys
 
@@ -129,6 +117,8 @@ Understanding the attack is how defenders choose settings well. The project ends
 
 GCSE computer science pupils can follow the toy exchange and the idea of brute force; A-level students can implement both attacks and analyse their growth using the language of algorithm complexity. The list entry is Historic England's; the primes, keys, attacks and timings are our own, run on 25 September 2026, and different computers will give different times. Historic England, the BBC, Haringey Council, TfL and the ONS have no connection with Modern Age Coders.
 
+Getting around
+
 ## Wood Green, the Piccadilly line and home
 
 Haringey has Tube, Overground and main-line stations. Our lessons use none of them.
@@ -145,16 +135,41 @@ Learners at the western and eastern edges of the borough can share one class fro
 
 Every class is a group of fifteen to twenty at one stage, where learners get to know the teacher and each other.
 
-**Haringey in London** Haringey is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) lists all of them and the City, linking each as its page is published, including [Enfield](/coding-classes-in-enfield-london) to the north and [Hackney](/coding-classes-in-hackney-london) to the south east.
+Haringey in London
+
+Haringey is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) lists all of them and the City, linking each as its page is published, including [Enfield](/coding-classes-in-enfield-london) to the north and [Hackney](/coding-classes-in-hackney-london) to the south east.
+
+Learning ladder
 
 ## From secret notes to discrete logarithms
 
 The free lesson shows us a learner's real starting point, and we build from there rather than from their year group.
 
-- **Ages 6 to 10: Codes and keys** Children make Scratch games that scramble and unscramble messages with a key. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 10 to 13: Clock arithmetic** Python that works with remainders and powers, the building blocks of modern encryption. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 18: Keys and attacks** Diffie-Hellman, brute force and baby-step giant-step with measured scaling, ideal preparation for cyber security or A-level computer science. [Python for Teens](/courses/python-complete-masterclass-teens), [Full Stack Web Development for Teens](/courses/full-stack-web-development-teens-masterclass)
-- **Ages 18 to 67: Security literacy** Adults learn what encryption can and cannot protect, and why key size matters, without needing heavy maths. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### Codes and keys
+
+Children make Scratch games that scramble and unscramble messages with a key.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 10 to 13
+
+### Clock arithmetic
+
+Python that works with remainders and powers, the building blocks of modern encryption.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 18
+
+### Keys and attacks
+
+Diffie-Hellman, brute force and baby-step giant-step with measured scaling, ideal preparation for cyber security or A-level computer science.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Full Stack Web Development for Teens](/courses/full-stack-web-development-teens-masterclass)Ages 18 to 67
+
+### Security literacy
+
+Adults learn what encryption can and cannot protect, and why key size matters, without needing heavy maths.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## AI can write encryption code. Why should a Haringey teenager understand it?
 
@@ -166,30 +181,139 @@ Cryptography also teaches a general skill: reasoning about how cost grows with s
 
 Alexandra Palace broadcast to everyone. A Haringey learner who knows how to share a secret in that kind of world has a skill every modern organisation needs. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Muswell Hill to Tottenham, lessons live
 
 Anywhere in Haringey, a learner is in class the moment the video call connects.
 
-- **From home** A laptop or desktop with headphones and a broadband connection that can handle video is all that is required.
-- **Key Stages we use** We describe progress in English Key Stages, from the first years of primary school to sixth form, and name GCSE or A level where they apply. All lessons are in English.
-- **A free start** The first lesson is real teaching, finishing with a suggested level and course; we do not ask for any card details.
-- **Grouped by stage** Fifteen to twenty learners at one stage share each class, drawn from across the UK and abroad, so a convenient hour is usually on offer.
-- **Twice a week** Classes usually run on two evenings a week, with breaks for holidays and exams agreed in advance.
-- **UK time** Teachers work from India; every time in our messages is UK time.
+### From home
 
-**A busy borough, a small class** About 264,000 people live in Haringey, and a good class still needs five learners at the same stage free together, so our groups reach well beyond it.
+A laptop or desktop with headphones and a broadband connection that can handle video is all that is required.
+
+### Key Stages we use
+
+We describe progress in English Key Stages, from the first years of primary school to sixth form, and name GCSE or A level where they apply. All lessons are in English.
+
+### A free start
+
+The first lesson is real teaching, finishing with a suggested level and course; we do not ask for any card details.
+
+### Grouped by stage
+
+Fifteen to twenty learners at one stage share each class, drawn from across the UK and abroad, so a convenient hour is usually on offer.
+
+### Twice a week
+
+Classes usually run on two evenings a week, with breaks for holidays and exams agreed in advance.
+
+### UK time
+
+Teachers work from India; every time in our messages is UK time.
+
+A busy borough, a small class
+
+About 264,000 people live in Haringey, and a good class still needs five learners at the same stage free together, so our groups reach well beyond it.
+
+Fees
 
 ## Fees for Haringey families
 
 The first lesson is free; then one monthly fee applies in every part of the borough.
 
-- First class: USD 0. A complete first lesson with a teacher, free, ending with a recommended level, course and time.
-- Group tuition: USD 100 a month. About eight live lessons a month in a class of fifteen to twenty at one stage.
-- Private tuition: USD 150 a month. About eight live lessons a month, one to one.
+First class**USD 0**
+
+A complete first lesson with a teacher, free, ending with a recommended level, course and time.
+
+Group tuition**USD 100**
+
+About eight live lessons a month in a class of fifteen to twenty at one stage.
+
+Private tuition**USD 150**
+
+About eight live lessons a month, one to one.
 
 Haringey families pay in US dollars, like every family outside India, and no sterling prices appear on the site. No payment is taken before the free lesson, or before a course and regular time are chosen. The pricing page explains pauses, missed lessons and switching between group and private lessons.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Haringey.)Reviews
+
+## Google reviews from our families
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson
+
+Tell us the learner's age or school year and something they enjoy. Lesson one might be a Scratch secret-message game, some Python clock arithmetic, or the key exchange on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Haringey one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Haringey.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Questions from Haringey
+
+About the borough, the cryptography project and how lessons work.
 
 ### How many people live in Haringey?
 
@@ -231,10 +355,14 @@ The first lesson is free. After that, a group place costs USD 100 a month for tw
 
 By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
 
+Explore London
+
 ## Elsewhere in London
 
 Every borough and the City is on our [London page](/best-coding-class-in-london), linked as its page goes live, including [Barnet](/coding-classes-in-barnet-london) to the west and [Camden](/coding-classes-in-camden-london) to the south. Learners interested in security and computation can continue into our [AI and machine learning classes in London](/ai-and-machine-learning-classes-in-london), and the [UK coding page](/coding-classes-in-united-kingdom) compares school years in the four nations.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Haringey.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-haringey-london](https://learn.modernagecoders.com/coding-classes-in-haringey-london#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-haringey-london*

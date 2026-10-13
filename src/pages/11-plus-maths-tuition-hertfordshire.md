@@ -4,25 +4,21 @@ description: "Live online 11 plus maths for Hertfordshire's partially selective 
 canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-hertfordshire
 source: src/pages/11-plus-maths-tuition-hertfordshire.html
 ---
-> Hertfordshire County Council says some schools select a percentage of their places by academic ability. The South West Herts Schools Consortium runs an academic test for Parmiter's, Queens', Rickmansworth, St Clement Danes, Watford Grammar School for Boys and Watford Grammar School for Girls: GL papers in mathematics and verbal reasoning of roughly 45 minutes to an hour each, answered on an OMR sheet, with some questions needing two answers. For 2027 entry, registration ran from 1 April to 5 June 2026, the test was on Saturday 5 September 2026, and scores arrive on 15 October. Dame Alice Owen's School runs its own examination: a verbal reasoning Part I on 1 September 2026, then, for the top 325, English and a one-hour maths paper written by the school on 26 September 2026. We teach the maths for both, live online. Try one lesson without charge; if you continue, a small-group place is USD 100 monthly and one to one teaching USD 150 monthly.
+> Live online 11 plus maths for Hertfordshire's partially selective schools: the South West Herts maths test, Dame Alice Owen's Part II, and Year 5 mental maths.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / 11 plus maths in Hertfordshire
+In short
 
-Hertfordshire · Academic ability tests for partially selective schools · Live online, small groups or one to one
+Hertfordshire County Council says some schools select a percentage of their places by academic ability. The South West Herts Schools Consortium runs an academic test for Parmiter's, Queens', Rickmansworth, St Clement Danes, Watford Grammar School for Boys and Watford Grammar School for Girls: GL papers in mathematics and verbal reasoning of roughly 45 minutes to an hour each, answered on an OMR sheet, with some questions needing two answers. For 2027 entry, registration ran from 1 April to 5 June 2026, the test was on Saturday 5 September 2026, and scores arrive on 15 October. Dame Alice Owen's School runs its own examination: a verbal reasoning Part I on 1 September 2026, then, for the top 325, English and a one-hour maths paper written by the school on 26 September 2026. We teach the maths for both, live online. Try one lesson without charge; if you continue, a small-group place is USD 100 monthly and one to one teaching USD 150 monthly.
 
-# 11 plus maths tuition in Hertfordshire
-
-Hertfordshire does not have grammar schools in the Kent or Buckinghamshire sense. What it has, in the county council's words, are schools that "select a percentage of their places based on academic ability". Two routes matter most for maths. The South West Herts Schools Consortium, "a group of seven partially selective schools", runs one academic test for six of them: a maths paper and a verbal reasoning paper, with "English and Non-Verbal Reasoning ... not required". And Dame Alice Owen's School, which admits "Up to 65 children selected by academic ability" out of 200, runs its own two-part examination in which maths appears only in Part II. One small detail in the consortium's instructions shapes how we teach: "Some questions may require marking two answers." This page sets out what the council, the consortium and the school publish, then teaches the Year 5 mental maths that suits both routes.
-
-At a glance: Schools: Partially selective, a share of places by ability; SW Herts academic test: Maths and verbal reasoning, GL; SW Herts papers: About 45 minutes to an hour each; Not tested (SW Herts): English, non-verbal reasoning; Question detail: Some need two answers marked; Dame Alice Owen's maths: Part II, one hour, written by the school; Content: Key Stage 2; We teach: Year 5 maths, both routes. Rated 4.9 across 547 Google reviews.
+Hertfordshire starting points
 
 ## Three courses for Hertfordshire's tests
 
 One route has a GL multiple-choice maths paper; the other a paper the school writes itself. Choose by how flexible your child's maths is.
 
-- [Herts 11 plus maths](/courses/11-plus-maths-preparation-course-uk): Year 5 maths for the consortium paper and Dame Alice Owen's Part II, both formats.
-- [Known facts, used cleverly](/courses/mental-maths-mastery-kids): Mental multiplication and division that makes two-answer questions quick.
-- [Beyond routine problems](/courses/olympiad-competition-mathematics-mastery): For confident children facing a school-written paper with no published samples.
+[![11 Plus Maths Prep course thumbnail](/images/eleven-plus-maths.webp)  HERTS / 1 Herts 11 plus maths Year 5 maths for the consortium paper and Dame Alice Owen's Part II, both formats. Open the syllabus →](/courses/11-plus-maths-preparation-course-uk)[![Mental Maths for Kids course thumbnail](/images/mental-maths-kids.webp)  HERTS / 2 Known facts, used cleverly Mental multiplication and division that makes two-answer questions quick. Open the syllabus →](/courses/mental-maths-mastery-kids)[![Maths Olympiad & Competition Course course thumbnail](/images/olympiad-competition-maths.webp)  HERTS / 3 Beyond routine problems For confident children facing a school-written paper with no published samples. Open the syllabus →](/courses/olympiad-competition-mathematics-mastery)
+
+A share of places
 
 ## Partially selective, not grammar schools
 
@@ -42,14 +38,14 @@ Dame Alice Owen's School in Potters Bar sets its own Governors' Entrance Examina
 
 Sources: Hertfordshire County Council, aptitude or ability testing; [South West Herts Schools Consortium](https://www.swhertsschools.org.uk/academic-ability-test/), home page, academic ability test, FAQ, familiarisation and calendar pages; [Dame Alice Owen's School, entrance exam information](https://damealiceowens.herts.sch.uk/sixth-form/admissions/secondary-transfer/entrance-exam-information/) and determined admission arrangements 2027-28. Modern Age Coders has no connection with the council, the consortium, GL Assessment or any school.
 
+The consortium test
+
 ## Maths and verbal reasoning, and nothing else
 
 The South West Herts academic test is narrower than most 11 plus tests. That makes the maths paper a large part of it.
 
-**The South West Herts academic test for 2027 entry, and Dame Alice Owen's examination**
-
-|  | South West Herts Consortium | Dame Alice Owen's School |
-|---|---|---|
+|   | South West Herts Consortium | Dame Alice Owen's School |
+| --- | --- | --- |
 | Registration | 1 April to 5 June 2026; no late entries | 29 April to 10 June 2026 |
 | Papers | Maths; verbal reasoning (GL) | Part I verbal reasoning (GL); Part II English and maths |
 | Maths paper | Prepared for the consortium, Key Stage 2 | One hour, written by the school |
@@ -65,14 +61,14 @@ Answers go on an OMR sheet, and the instructions include a line that deserves at
 
 At Dame Alice Owen's, maths is only in Part II, a one-hour paper written by the school for the 325 highest-ranked from the verbal reasoning in Part I. No samples of that paper are published, so depth across the Key Stage 2 curriculum is the only preparation.
 
+The lesson
+
 ## Mental maths from known facts, including choose-two questions
 
 The Year 5 curriculum asks children to "multiply and divide numbers mentally, drawing upon known facts". Known facts make ordinary questions quick, and they make two-answer questions manageable.
 
-**Mental multiplication and division from known facts (our own questions)**
-
 | Question | Known fact used | Answer |
-|---|---|---|
+| --- | --- | --- |
 | 25 × 16 | 25 × 4 = 100, and 16 = 4 × 4 | 400 |
 | 36 × 5 | × 5 is half of × 10 | 180 |
 | 4,800 ÷ 40 | 48 ÷ 4 = 12, then adjust for the zeros | 120 |
@@ -88,6 +84,8 @@ The last row shows the two-answer format. Looking at four numbers and deciding w
 We practise two-answer questions deliberately, with the instruction in bold at first and then in ordinary type, so reading "choose two" becomes automatic. Marking exactly two, no more and no fewer, is part of the skill.
 
 Sources: [national curriculum in England, mathematics](https://www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study/national-curriculum-in-england-mathematics-programmes-of-study), Year 5 multiplication and division (statutory requirements); South West Herts Schools Consortium, academic ability test instructions. The questions are our own.
+
+Our approach
 
 ## Two routes, one curriculum
 
@@ -113,14 +111,14 @@ Dame Alice Owen's School describes its tests as designed to identify the most ab
 
 We give no advice on which schools to apply to, the share of places each fills by ability, or priority areas. The council and schools publish those.
 
+Watford, Rickmansworth and Potters Bar
+
 ## The schools this page covers
 
 The council and the consortium name the schools. We list them only to make the scope of this page clear.
 
-**Schools using the tests described on this page**
-
 | School | Ability route |
-|---|---|
+| --- | --- |
 | Parmiter's School | South West Herts academic test |
 | Queens' School | South West Herts academic test |
 | Rickmansworth School | South West Herts academic test |
@@ -137,14 +135,14 @@ For families just over the London border, see our pages for [Barnet](/11-plus-ma
 
 None of these schools, nor the consortium, GL Assessment or the county council, is connected with Modern Age Coders.
 
+Towards September 2027
+
 ## Four stages for early-September tests
 
 Both routes test in the first weeks of Year 6, and registration closes in June of Year 5. Here is the year before.
 
-**Known facts first, then unusual formats**
-
 | When | Stage | You will see |
-|---|---|---|
+| --- | --- | --- |
 | Autumn, Year 5 | 1. Known facts | Tables to 12 × 12 and their divisions instant |
 | Winter, Year 5 | 2. Mental strategies | Multiplies and divides mentally from facts, confidently |
 | Spring, Year 5 (register by early June) | 3. The rest of Year 5 | Fractions, measures, shape and data as secure |
@@ -153,71 +151,321 @@ Both routes test in the first weeks of Year 6, and registration closes in June o
 ### Starting late
 
 The consortium test falls in the first week of September, so the summer is the last chance. Facts first, formats second.
+
 By the end of the trial lesson you will know, frankly, how much of that summer is needed.
 
 ### After the tests
 
 Mental agility carries straight into secondary algebra. Some children continue with [maths through coding](/courses/maths-through-coding).
+
 Others try the national challenges on our [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar).
+
+Courses
 
 ## Maths and coding for Hertfordshire families
 
 Arranged by stage, each linked to a syllabus.
 
+I
+
 ### For the ability tests
 
 Years 3 to 5
 
-- [11 plus maths, Hertfordshire](/courses/11-plus-maths-preparation-course-uk): Year 5 maths for both routes.
-- [Mental maths from known facts](/courses/mental-maths-mastery-kids): Speed for two-answer questions.
-- [Challenge problems](/courses/olympiad-competition-mathematics-mastery): For a school-written paper.
-- [Primary foundations](/courses/elementary-mathematics-complete-masterclass): Years 1 to 5, secured.
+HTM / 1
+
+#### 11 plus maths, Hertfordshire
+
+Year 5 maths for both routes.
+
+[Open the syllabus](/courses/11-plus-maths-preparation-course-uk)
+
+HTM / 2
+
+#### Mental maths from known facts
+
+Speed for two-answer questions.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+HTM / 3
+
+#### Challenge problems
+
+For a school-written paper.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)
+
+HTM / 4
+
+#### Primary foundations
+
+Years 1 to 5, secured.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)II
 
 ### Secondary
 
 Year 6 onwards
 
-- [Key Stage 3 maths course](/courses/comprehensive-middle-school-mathematics-mastery): The first secondary years.
-- [GCSE maths across boards](/courses/gcse-mathematics-mastery): Foundation and higher.
-- [Abacus for younger siblings](/courses/abacus-mental-maths-course-for-kids): Number sense by hand.
+HTM / 5
+
+#### Key Stage 3 maths course
+
+The first secondary years.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+HTM / 6
+
+#### GCSE maths across boards
+
+Foundation and higher.
+
+[Open the syllabus](/courses/gcse-mathematics-mastery)
+
+HTM / 7
+
+#### Abacus for younger siblings
+
+Number sense by hand.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)III
 
 ### Coding
 
 Facts into programs
 
-- [Maths through coding](/courses/maths-through-coding): Multiples and factors, found by code.
-- [Scratch, first programs](/courses/scratch-programming-complete-course): Logic for young coders.
-- [Python and AI, age 9 upwards](/courses/python-ai-kids-masterclass): The first typed language.
+HTM / 8
+
+#### Maths through coding
+
+Multiples and factors, found by code.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+HTM / 9
+
+#### Scratch, first programs
+
+Logic for young coders.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)
+
+HTM / 10
+
+#### Python and AI, age 9 upwards
+
+The first typed language.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)IV
 
 ### Later
 
 Teenagers
 
-- [Vedic mental methods](/courses/vedic-maths-course-speed-calculation-mastery): More shortcuts, built on facts.
-- [AI for 13 to 18 year olds](/courses/ai-ml-masterclass-teens): Maths in modern tools.
+HTM / 11
+
+#### Vedic mental methods
+
+More shortcuts, built on facts.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
+
+HTM / 12
+
+#### AI for 13 to 18 year olds
+
+Maths in modern tools.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+Lesson times
 
 ## After school, or at the weekend
 
 We teach live from India and book Hertfordshire primary pupils into early-evening or weekend-morning slots on the UK clock; clock changes are handled by our teachers.
 
-- **After school** Early in the evening.
-- **Weekend morning** When children are fresh.
-- **Summer holidays** Useful before an early-September test.
+After school
 
-- **One teacher all year** Who knows your child's habits.
-- **Honest notes** A few frank lines after lessons.
-- **Classes of fifteen to twenty** Grouped by level.
-- **Our own questions** No GL or school material copied.
-- **One to one** For specific gaps.
-- **Maths only** No verbal reasoning or English coaching; no admissions advice.
+Early in the evening.
+
+Weekend morning
+
+When children are fresh.
+
+Summer holidays
+
+Useful before an early-September test.
+
+### One teacher all year
+
+Who knows your child's habits.
+
+### Honest notes
+
+A few frank lines after lessons.
+
+### Classes of fifteen to twenty
+
+Grouped by level.
+
+### Our own questions
+
+No GL or school material copied.
+
+### One to one
+
+For specific gaps.
+
+### Maths only
+
+No verbal reasoning or English coaching; no admissions advice.
+
+Student work
+
+## Known facts, later put to work
+
+Four published projects by our students, all of whom once learned their tables. More on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Families outside India pay one monthly US dollar price. No joining fee; stop any month.
 
-- Free first class: USD 0. A taught lesson. A frank view. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty children, one level. A regular teacher. Work reviewed together. Certificate at the end.
-- One to one: USD 150 a month. A teacher for one child. Aimed at gaps. Flexible timing.
+Free first class
+
+USD 0
+
+no card required
+
+- A taught lesson
+- A frank view
+- No card needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty children, one level
+- A regular teacher
+- Work reviewed together
+- Certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one child
+- Aimed at gaps
+- Flexible timing
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Straight from parents' Google reviews.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Hertfordshire questions
 
 ## What Hertfordshire families ask us
 
@@ -261,15 +509,54 @@ No. We write our own questions.
 
 Lesson one is on us. Continuing pupils pay USD 100 per month for a class place or USD 150 per month for individual teaching, month to month.
 
+Related
+
 ## More for Hertfordshire and north London
 
-- [11 plus maths in Barnet](/11-plus-maths-tuition-barnet): Three schools just over the border.
-- [11 plus maths in Enfield](/11-plus-maths-tuition-enfield): Latymer's test, changing for 2028 entry.
-- [11 plus maths in Buckinghamshire](/11-plus-maths-tuition-buckinghamshire): A fully selective county to the west.
-- [11 plus maths tuition](/11-plus-maths-tuition): The national overview.
-- [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar): Maths challenges through the year.
-- [All our UK pages](/coding-classes-in-united-kingdom): Every UK area we cover.
+Two boroughs over the border, a fully selective county next door, and the wider picture.
 
-## Contact
+### [11 plus maths in Barnet](/11-plus-maths-tuition-barnet)
 
-Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-hertfordshire](https://learn.modernagecoders.com/11-plus-maths-tuition-hertfordshire#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Three schools just over the border.
+
+### [11 plus maths in Enfield](/11-plus-maths-tuition-enfield)
+
+Latymer's test, changing for 2028 entry.
+
+### [11 plus maths in Buckinghamshire](/11-plus-maths-tuition-buckinghamshire)
+
+A fully selective county to the west.
+
+### [11 plus maths tuition](/11-plus-maths-tuition)
+
+The national overview.
+
+### [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar)
+
+Maths challenges through the year.
+
+### [All our UK pages](/coding-classes-in-united-kingdom)
+
+Every UK area we cover.
+
+Start here
+
+## Book a free Hertfordshire maths lesson
+
+Tell us your child's year and which route you are considering. We teach a real lesson and then give you an honest account of it.
+
+If you would like to look around before talking to us, the [courses](/courses) each carry a syllabus, [our method](/how-we-teach) is written up, and a [roadmap](/coding-roadmap) links primary maths to programming.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20my%20child%20for%20the%20Hertfordshire%20ability%20tests.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is the quickest way to reach us. Our team, teachers and phone number are all in India; there is no Watford or Hertfordshire office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-hertfordshire*

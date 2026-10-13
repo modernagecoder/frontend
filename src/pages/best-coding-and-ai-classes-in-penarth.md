@@ -4,46 +4,32 @@ description: "Live online coding and AI classes for Penarth, Cogan, Llandough an
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-penarth
 source: src/pages/best-coding-and-ai-classes-in-penarth.html
 ---
-> The ONS gives the Penarth built-up area 28,395 usual residents in the 2021 census; the Vale of Glamorgan as a whole had 131,939. Cogan, Lower Penarth and Cosmeston fall inside the built-up area, and its postcodes sit in the St Augustine's, Plymouth, Cornerswell, Stanwell and Llandough wards. Penarth learners between six and 67 study coding, AI, Python, vibe coding and maths with us over live video; tutors in India take them one at a time or in level-matched groups of fifteen to twenty. A free trial lesson comes first, then a course suggestion. The Penarth project takes 48 years of temperature records from the Met Office station in Bute Park, Cardiff, and asks for the longest chain of years in which each was warmer than the one before, a question whose obvious solution would take years to run. After the free lesson, joining a group costs USD 100 per month; a personal tutor costs USD 150 per month.
+> Live online coding and AI classes for Penarth, Cogan, Llandough and Stanwell, ages 6 to 67, with Python and maths. Book a free first lesson with no card needed.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Penarth
-
-Penarth, Vale of Glamorgan, Wales / Live online
-
-# Coding and AI classes in Penarth
-
-**Where can Penarth families find the best coding and AI classes?** The ONS gives the Penarth built-up area 28,395 usual residents in the 2021 census; the Vale of Glamorgan as a whole had 131,939. Cogan, Lower Penarth and Cosmeston fall inside the built-up area, and its postcodes sit in the St Augustine's, Plymouth, Cornerswell, Stanwell and Llandough wards. Penarth learners between six and 67 study coding, AI, Python, vibe coding and maths with us over live video; tutors in India take them one at a time or in level-matched groups of fifteen to twenty. A free trial lesson comes first, then a course suggestion. The Penarth project takes 48 years of temperature records from the Met Office station in Bute Park, Cardiff, and asks for the longest chain of years in which each was warmer than the one before, a question whose obvious solution would take years to run. After the free lesson, joining a group costs USD 100 per month; a personal tutor costs USD 150 per month.
-
-Some questions sound tiny and hide an enormous search. Here is one: in a list of 48 yearly temperatures, which years can you pick, keeping them in order, so that each is warmer than the last, and how long can that chain get? Checking every possible selection means looking at more than 281 trillion of them. A cleverer method needs 1,128 comparisons, and a cleverer one still, borrowed from a card game called patience, needs 141. Penarth learners write all three and time them.
-
-Facts last verified 1 October 2026. Teaching is online; no Penarth branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentGood places to start
 
 ## Coding and AI courses for Penarth learners
 
 Choose by age. Every course starts with a live lesson that is free and asks for no card.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): Card games, chains and patterns that turn into algorithms later.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): A Scratch game made by describing it to an AI, then testing and repairing it.
-- [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens) (Ages 13 to 17): Algorithms and data structures in Python, including the Bute Park chain project.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Students and adults): Python from the beginning to efficient algorithms and data work.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsCard games, chains and patterns that turn into algorithms later.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsA Scratch game made by describing it to an AI, then testing and repairing it.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)Ages 13 to 17Problem Solving for TeensAlgorithms and data structures in Python, including the Bute Park chain project.See the syllabus](/courses/problem-solving-dsa-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)Students and adultsPython MasterclassPython from the beginning to efficient algorithms and data work.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Penarth by the numbers
 
 ## Penarth, Cogan, Llandough, Stanwell and Cornerswell
 
 Headline census counts and the areas the Penarth built-up area covers.
 
-**Census 2021 (ONS)**
-
 | Area | Usual residents |
-|---|---|
+| --- | --- |
 | Penarth built-up area | 28,395 |
 | Vale of Glamorgan | 131,939 |
 
@@ -53,6 +39,8 @@ The Vale also contains Barry, Llantwit Major and many villages, and the Penarth 
 
 See [Cardiff](/best-coding-class-in-cardiff), [Barry](/ai-and-programming-classes-in-barry), [the Vale of Glamorgan](/coding-classes-in-vale-of-glamorgan) and [WJEC GCSE Computer Science help](/wjec-gcse-computer-science-help-wales). Our argument for learning to solve problems, not just call tools, is in [problem-solving skills through coding](/problem-solving-skills-through-coding-uk).
 
+The Penarth project
+
 ## The longest chain of ever-warmer years
 
 Forty-eight years of Bute Park temperatures, one question, and three algorithms that differ by trillions of steps.
@@ -61,10 +49,8 @@ The Met Office publishes monthly records for its historic station in Bute Park, 
 
 The question is the longest increasing subsequence: pick years in time order, skipping as many as you like, so that each picked year is warmer than the one picked before it. The longest run of years rising one after another without a gap is only 5, from 1986 to 1990. Allow gaps and the chain gets far longer. The learner finds a chain of 16: 1979, 1985, 1987, 1991, 1992, 1994, 1998, 2000, 2002, 2004, 2005, 2006, 2014, 2020, 2023 and 2025, each warmer than the last.
 
-**Three ways to find the longest chain in 48 years, our Python run**
-
 | Method | Work needed | Practical? |
-|---|---|---|
+| --- | --- | --- |
 | Check every possible selection of years | 2^48 selections, over 281 trillion | No: about seven years at our measured speed |
 | Dynamic programming (longest chain ending at each year) | 1,128 comparisons | Yes |
 | Patience sorting with binary search | 141 comparisons | Yes |
@@ -89,14 +75,14 @@ Write brute force, dynamic programming and patience sorting, count their steps a
 
 Temperatures are Met Office historic station data for Cardiff Bute Park, published under the Open Government Licence; 2026 values are provisional and some months are estimated. The yearly averages, the three algorithms, the timings and the 10,000 shuffles (seed 20261001) come from our own run. We make no claim about the causes of any change in the record.
 
+Algorithms and AI
+
 ## What a chain of warm years teaches about AI-written algorithms
 
 The difference between an answer in a blink and an answer in seven years is the algorithm.
 
-**From Bute Park to working with AI**
-
 | What the project showed | Why it matters when AI writes code |
-|---|---|
+| --- | --- |
 | Brute force was correct but hopeless | Working code can still be useless at full size |
 | Dynamic programming cut the work to 1,128 steps | Ask how the work grows, not just whether it runs |
 | Patience sorting needed only 141 | A known better algorithm is worth looking for |
@@ -107,14 +93,37 @@ Ask an AI to "find the longest rising run of years" and you may get the consecut
 
 We have no tie to the Met Office, the ONS or postcodes.io beyond using their published open data; every calculation here is ours.
 
+Progress
+
 ## From patience at seven to dynamic programming at seventeen
 
 The Welsh school year gives a first guess, and the trial lesson corrects it.
 
-- **Years 2 to 6: Chains and patterns** Card games, ordering and spotting rules, often before any screen time. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Creating with AI** Scratch projects built with an AI helper, then a move into Python. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Algorithms that scale** Searching, sorting and dynamic programming, with steps counted and compared. [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Efficient Python** Python for work, with the algorithm choices that keep programs fast. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)
+Years 2 to 6
+
+### Chains and patterns
+
+Card games, ordering and spotting rules, often before any screen time.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Creating with AI
+
+Scratch projects built with an AI helper, then a move into Python.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Algorithms that scale
+
+Searching, sorting and dynamic programming, with steps counted and compared.
+
+[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Efficient Python
+
+Python for work, with the algorithm choices that keep programs fast.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)Sequences and AI
 
 ## What is the longest increasing subsequence, and why does the method matter?
 
@@ -126,30 +135,139 @@ Learners who see that gap ask an AI not only for an answer but for how its metho
 
 For a teenager in Penarth, knowing why one algorithm finishes and another never will lets them judge AI-written code instead of trusting it, and that judgement is learned by writing algorithms. The longer argument is in [why algorithms are still worth learning in 2026](/blog/is-coding-worth-learning-2026).
 
+How lessons run
+
 ## Classes for a Penarth learner
 
 Each lesson is a live video call. Bring a laptop or desktop with a keyboard; Python on a tablet alone is too limited.
 
-- **Learner at the keyboard** Each line is typed and run by the learner, with the tutor asking for reasons.
-- **We place before we suggest** The trial lesson shows a learner's level before we name a course.
-- **First lesson free** There is no charge and no card for the trial.
-- **Fifteen to twenty per class** Learners at one level, joining from around the UK.
-- **Weekly rhythm** About eight lessons a month in term, with Vale of Glamorgan holidays kept free on request.
-- **Same UK hour** Clock changes do not move your lesson.
+### Learner at the keyboard
 
-**Why we teach online** Finding fifteen to twenty learners at exactly one level is far easier across the UK than in one town by the sea, and video means no travelling.
+Each line is typed and run by the learner, with the tutor asking for reasons.
+
+### We place before we suggest
+
+The trial lesson shows a learner's level before we name a course.
+
+### First lesson free
+
+There is no charge and no card for the trial.
+
+### Fifteen to twenty per class
+
+Learners at one level, joining from around the UK.
+
+### Weekly rhythm
+
+About eight lessons a month in term, with Vale of Glamorgan holidays kept free on request.
+
+### Same UK hour
+
+Clock changes do not move your lesson.
+
+Why we teach online
+
+Finding fifteen to twenty learners at exactly one level is far easier across the UK than in one town by the sea, and video means no travelling.
+
+Fees
 
 ## Fees for Penarth families
 
 Penarth learners pay the same as all learners outside India.
 
-- First class: USD 0. First lesson: free and full length, closing with a course recommendation.
-- Group tuition: USD 100 a month. Group class, around eight lessons a month.
-- Private tuition: USD 150 a month. Private lessons, around eight a month.
+First class**USD 0**
+
+First lesson: free and full length, closing with a course recommendation.
+
+Group tuition**USD 100**
+
+Group class, around eight lessons a month.
+
+Private tuition**USD 150**
+
+Private lessons, around eight a month.
 
 Fees are charged in US dollars, and we publish no figure in pounds. The trial is free, and billing starts once you have agreed a course and a regular slot. The pricing page explains holidays, missed lessons and changing between group and private.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20to%20book%20a%20free%20coding%20or%20AI%20trial%20lesson.%20We%20are%20in%20Penarth.)Reviews
+
+## Google reviews from Welsh families and UK learners
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Penarth lesson
+
+Let us know the learner's age or year group and their interests. Possible first sessions: a round of patience with numbered cards, an AI-assisted Scratch game, a few lines of Python, or the Bute Park temperature chain.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Penarth one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20to%20book%20a%20free%20coding%20or%20AI%20trial%20lesson.%20We%20are%20in%20Penarth.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Penarth questions
+
+Questions about the warm-years chain, algorithms in general, vibe coding and lesson logistics.
 
 ### How many people live in Penarth?
 
@@ -191,10 +309,14 @@ There is no fee for the trial. A shared class is USD 100 monthly afterwards, and
 
 Yes. Send us the Vale of Glamorgan term dates and the holidays stay free.
 
+Around Cardiff
+
 ## More pages for Cardiff and the Vale
 
 Visit [Cardiff](/best-coding-class-in-cardiff), [Roath](/best-coding-and-ai-classes-in-roath-cardiff), [Barry](/ai-and-programming-classes-in-barry) and [the Vale of Glamorgan](/coding-classes-in-vale-of-glamorgan). For anywhere else, try [the Wales page](/coding-and-ai-classes-in-wales) or the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[WhatsApp the team](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20to%20book%20a%20free%20coding%20or%20AI%20trial%20lesson.%20We%20are%20in%20Penarth.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-and-ai-classes-in-penarth](https://learn.modernagecoders.com/best-coding-and-ai-classes-in-penarth#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-penarth*

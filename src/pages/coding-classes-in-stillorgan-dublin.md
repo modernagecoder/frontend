@@ -4,46 +4,32 @@ description: "Coding, Python, AI and maths lessons for Stillorgan learners from 
 canonical: https://learn.modernagecoders.com/coding-classes-in-stillorgan-dublin
 source: src/pages/coding-classes-in-stillorgan-dublin.html
 ---
-> Stillorgan learners are taught live on video by a teacher, either in a small group of people working at the same level or one to one, normally two lessons a week, and anyone aged six through sixty-seven can take part. Nobody has to travel. The opening lesson is free; each month after that is USD 100 in a group or USD 150 one to one.
+> Coding, Python, AI and maths lessons for Stillorgan learners from age 6 to 67, taught live online in small same-level groups or one to one. The first lesson is free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [Dún Laoghaire-Rathdown](/coding-classes-in-dun-laoghaire-rathdown) / Stillorgan
-
-Stillorgan, County Dublin / Live online
-
-# Coding classes in Stillorgan
-
-**What are the best coding classes in Stillorgan?** Stillorgan learners are taught live on video by a teacher, either in a small group of people working at the same level or one to one, normally two lessons a week, and anyone aged six through sixty-seven can take part. Nobody has to travel. The opening lesson is free; each month after that is USD 100 in a group or USD 150 one to one.
-
-The county council publishes the boundary of the Stillorgan Local Area Plan as a list of 735 corners, and it states the area inside as 161,513 square metres. Give those corners to a standard area formula without thinking and it returns 269,680, two thirds too much. Nothing is wrong with the formula or with the file. The corners are written in degrees, and at Stillorgan a degree east covers much less ground than a degree north. This page teaches a learner to spot that, fix it in three steps of increasing care, and land within half a square metre of the council's figure.
-
-Facts last verified 20 September 2026. Teaching is online; no Stillorgan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Stillorgan
 
 ## Four first courses for Stillorgan
 
 Pick by age to begin with; the teacher confirms the level in the free first lesson and suggests a different course if it fits better.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Blocks on a grid: drawing a shape from its corners and counting the squares inside it.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Python with coordinates, turning a list of corners into a perimeter and an area.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 18): Map data in Python: reading GeoJSON, converting degrees to metres and checking results against an official figure.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (College and adult): For adults who work with locations, sites or service areas and need numbers that hold up on the ground.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlocks on a grid: drawing a shape from its corners and counting the squares inside it.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsPython with coordinates, turning a list of corners into a perimeter and an area.See the syllabus](/courses/python-ai-kids-masterclass)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 18Data Science for TeensMap data in Python: reading GeoJSON, converting degrees to metres and checking results against an official figure.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)College and adultData Analysis CourseFor adults who work with locations, sites or service areas and need numbers that hold up on the ground.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## Degrees are not metres: measuring the Stillorgan plan area from its corners
 
 The boundary comes from the council's development plan data, in two versions of the same 735 corners: one in latitude and longitude, one in metres on the Irish grid. The council's own figure for the area is 161,513 square metres.
 
-**One boundary, four ways of measuring it**
-
 | How the corners are treated | Area in square metres | Against the council figure |
-|---|---|---|
+| --- | --- | --- |
 | Degrees counted as 111,320 m in both directions | 269,680 | 67 percent too big |
 | Longitude shrunk by the cosine of the latitude, round Earth | 160,846 | 0.41 percent too small |
 | Separate north and east scales for the flattened Earth | 161,514 | within half a square metre |
@@ -79,14 +65,14 @@ The plan-area file stores a web address for the Stillorgan plan, and that addres
 
 The same file rounds the area to 16 hectares. At 10,000 square metres to the hectare, the unrounded figure is 16.15, which is the kind of detail a program should keep until the final line.
 
+Stillorgan, named
+
 ## Stillorgan in the words of its council, its water utility and its schools
 
 Each line below is taken from the body responsible for the place.
 
-**Named places in Stillorgan**
-
 | Place | What its own source says |
-|---|---|
+| --- | --- |
 | Stillorgan Library | St Laurence's Park, A94 XT02 |
 | St Raphaela's Primary School | St Raphaela's Road, A94 R7N8 |
 | Stillorgan Reservoir | A covered store for 160 million litres of treated drinking water |
@@ -104,7 +90,11 @@ The utility names two treatment plants that feed it, Vartry in County Wicklow an
 
 The council adopted the Stillorgan Local Area Plan on 10 September 2018 for six years, and on 13 November 2023 extended it for a further five. St Raphaela's Primary School lists STEM among its school initiatives.
 
-**What this page does not claim** No population is stated for Stillorgan, because the page uses only what named bodies publish about the place. The plan boundary is a planning line, not the edge of the village, and the reservoir figures are Uisce Éireann's own.
+What this page does not claim
+
+No population is stated for Stillorgan, because the page uses only what named bodies publish about the place. The plan boundary is a planning line, not the edge of the village, and the reservoir figures are Uisce Éireann's own.
+
+Learning here
 
 ## A Stillorgan learner's week
 
@@ -124,14 +114,37 @@ Adults can arrive with no experience; the first lesson decides the course.
 
 Boundary, library and signal-site data are Dún Laoghaire-Rathdown County Council's; the areas, perimeters and inside-or-outside results are our own calculations, run on 20 September 2026. Reservoir details are Uisce Éireann's and school details the school's own.
 
+Learning ladder
+
 ## From squares on a grid to shapes on the Earth
 
 Use the bands as a first guess; lesson one sets the level.
 
-- **Ages 6 to 10: Count the squares** Block-coded shapes on a grid, with areas found by counting. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Corners to area** Python that walks round a list of corners and adds up an area. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Degrees to metres** Latitude, longitude and the conversions that make map arithmetic honest. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Location data at work** Sites, catchments and boundaries measured so that the numbers match the ground. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Count the squares
+
+Block-coded shapes on a grid, with areas found by counting.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Corners to area
+
+Python that walks round a list of corners and adds up an area.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Degrees to metres
+
+Latitude, longitude and the conversions that make map arithmetic honest.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Location data at work
+
+Sites, catchments and boundaries measured so that the numbers match the ground.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## Ask an assistant to find the area of a boundary
 
@@ -143,30 +156,139 @@ The learner who has done this project knows the question to ask next: what is a 
 
 Correct code on the wrong units gives a wrong answer. A learner who checks the units catches it. The longer argument is in [why learning to code is still worth the time](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How lessons run for Stillorgan
 
 The essentials.
 
-- **In real time** No recorded video stands in for the teacher: every lesson happens live, with help on each learner's own code.
-- **Matched by stage** Fifteen to twenty learners at the same stage, whether they join from Stillorgan, another county or another country.
-- **Fixed days** Two set days a week, which comes to about eight lessons in a month.
-- **Term-aware** The plan leaves room for school holidays, mid-terms and exams.
-- **Equipment** A laptop or desktop computer, a microphone, something to listen through, and broadband that copes with a video call.
-- **One to one** Private teaching when a learner is well ahead, needs extra time, or can only manage unusual hours.
+### In real time
 
-**Nothing to travel to** There is no Modern Age Coders building in Stillorgan or anywhere in Ireland. Lessons happen on video and are identical wherever the learner sits.
+No recorded video stands in for the teacher: every lesson happens live, with help on each learner's own code.
+
+### Matched by stage
+
+Fifteen to twenty learners at the same stage, whether they join from Stillorgan, another county or another country.
+
+### Fixed days
+
+Two set days a week, which comes to about eight lessons in a month.
+
+### Term-aware
+
+The plan leaves room for school holidays, mid-terms and exams.
+
+### Equipment
+
+A laptop or desktop computer, a microphone, something to listen through, and broadband that copes with a video call.
+
+### One to one
+
+Private teaching when a learner is well ahead, needs extra time, or can only manage unusual hours.
+
+Nothing to travel to
+
+There is no Modern Age Coders building in Stillorgan or anywhere in Ireland. Lessons happen on video and are identical wherever the learner sits.
+
+Fees
 
 ## Fees for Stillorgan
 
 Briefly.
 
-- First class: USD 0. The first lesson, level check included, costs nothing.
-- Group tuition: USD 100 a month. One month in a same-level group of fifteen to twenty: roughly eight live lessons.
-- Private tuition: USD 150 a month. One month of one-to-one teaching on the same pattern.
+First class**USD 0**
+
+The first lesson, level check included, costs nothing.
+
+Group tuition**USD 100**
+
+One month in a same-level group of fifteen to twenty: roughly eight live lessons.
+
+Private tuition**USD 150**
+
+One month of one-to-one teaching on the same pattern.
 
 Outside India every family pays the same fee in US dollars, a month at a time. The opening lesson carries no obligation and billing starts only when the course does; the pricing page explains holidays, missed lessons and moving between group and private lessons.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Stillorgan.)Reviews
+
+## Google reviews from families, as they wrote them
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free first lesson in Stillorgan
+
+Tell us how old the learner is and what they like, and we will plan the first lesson around that. It may end with a small game, a working program, or a shape on a map measured from its corners.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Stillorgan one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Stillorgan.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Stillorgan coding class questions
+
+What families in Stillorgan tend to ask first.
 
 ### Is there a Modern Age Coders centre in Stillorgan?
 
@@ -204,10 +326,14 @@ The first lesson is free. After that a group place is USD 100 a month for about 
 
 Fifteen to twenty learners, matched by level, pace and goals rather than by age or postcode. If no group fits a workable time, the lessons are one to one.
 
+Explore Ireland
+
 ## Around Stillorgan
 
 To the north-east, [Blackrock](/coding-classes-in-blackrock-dublin) has a project on DART waiting times, while [Sandyford](/coding-classes-in-sandyford-dublin) and [Dundrum](/coding-classes-in-dundrum-dublin) are neighbouring districts with pages of their own. The [Dún Laoghaire-Rathdown](/coding-classes-in-dun-laoghaire-rathdown) page covers the county, and the [Ireland hub](/coding-classes-in-ireland) lists everywhere else.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Stillorgan.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-stillorgan-dublin](https://learn.modernagecoders.com/coding-classes-in-stillorgan-dublin#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-stillorgan-dublin*

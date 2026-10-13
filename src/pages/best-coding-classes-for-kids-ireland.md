@@ -4,34 +4,28 @@ description: "Best coding classes for kids in Ireland, from Junior Infants to Si
 canonical: https://learn.modernagecoders.com/best-coding-classes-for-kids-ireland
 source: src/pages/best-coding-classes-for-kids-ireland.html
 ---
-> The best coding class for an Irish primary-school child starts with play and blocks, moves to typed code around Fourth Class, and is taught by the same patient teacher each week in a small group. The Primary Curriculum Framework of 2023 makes being a digital learner a key competency for every child, and suggests at least five hours a month for Science, Technology and Engineering in the senior classes, but schools are introducing the new areas one at a time, so what a child meets in school this year varies. Modern Age Coders teaches children live online from age 6, in groups of fifteen to twenty placed by ability or one to one. A first class is free, and a place then costs USD 100 a month in a group or USD 150 a month with a teacher alone.
+> Best coding classes for kids in Ireland, from Junior Infants to Sixth Class: blocks, Scratch and first Python, with a live teacher. First class free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Ireland](/coding-classes-in-ireland) / Coding for kids, Ireland
+In short
 
-Ireland · Primary school · Ages 6 to 12
+The best coding class for an Irish primary-school child starts with play and blocks, moves to typed code around Fourth Class, and is taught by the same patient teacher each week in a small group. The Primary Curriculum Framework of 2023 makes being a digital learner a key competency for every child, and suggests at least five hours a month for Science, Technology and Engineering in the senior classes, but schools are introducing the new areas one at a time, so what a child meets in school this year varies. Modern Age Coders teaches children live online from age 6, in groups of fifteen to twenty placed by ability or one to one. A first class is free, and a place then costs USD 100 a month in a group or USD 150 a month with a teacher alone.
 
-# Best coding classes for kids in Ireland
-
-Irish primary schools are in the middle of the biggest change to their curriculum in a generation. The Primary Curriculum Framework, launched in March 2023, names "being a digital learner" as one of seven key competencies for every child from Junior Infants to Sixth Class, and schools are bringing in the new curriculum areas one at a time. So a parent asking about coding for a young child is asking at exactly the right moment, and deserves a straight answer to three questions. What does the new curriculum ask of children, and how much time might their school give it this year? What can a small weekly class add beside a class of twenty-two? And what does good coding for a six or nine year old actually look like? This page answers all three from the Department's own documents, and finishes with a first data project any child can do: counting Irish baby names, which turns out to be harder than it looks.
-
-At a glance: For: Junior Infants to Sixth Class; Starts with: Blocks and Scratch; Moves to: Typed Python, first AI; Group: Fifteen to twenty children at one level; Or: One to one; Teacher: The same one each week; Hours: After school, Irish time; Start: A free first class. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three first courses for primary-school children
 
 One for the infant and junior classes, one for the middle years, and one for the senior classes ready to type. Each card opens its syllabus.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass): Block coding for children from about six: sequences, loops and choices learned by making things move, with no typing needed.
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course): Stories and games in Scratch for the middle classes, each planned first and then explained by the child who made it.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass): For Fourth to Sixth Class: real typed Python, puzzles and a little program that learns, the step many children are ready for by ten.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)  KIDS / 01 Coding for Kids Block coding for children from about six: sequences, loops and choices learned by making things move, with no typing needed. Open the syllabus →](/courses/kids-coding-blocks-masterclass)[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)  KIDS / 02 Scratch Coding for Kids Stories and games in Scratch for the middle classes, each planned first and then explained by the child who made it. Open the syllabus →](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  KIDS / 03 Python and AI for Kids For Fourth to Sixth Class: real typed Python, puzzles and a little program that learns, the step many children are ready for by ten. Open the syllabus →](/courses/python-ai-kids-masterclass)
+
+The new curriculum
 
 ## What the new Irish primary curriculum asks of children
 
 The Primary Curriculum Framework sets the direction for every primary school. The facts below come from the Framework itself and from the Department's circulars on how schools introduce it.
 
-**The Primary Curriculum Framework and its rollout**
-
 | What | Detail | Source |
-|---|---|---|
+| --- | --- | --- |
 | Launched | 9 March 2023 | Department of Education |
 | Curriculum areas | Five: Language; Science, Technology, Engineering, and Mathematics (STEM) Education; Wellbeing; Arts Education; Social and Environmental Education | The Framework |
 | Key competencies | Seven, for Junior Infants to Sixth Class, among them Being a digital learner | The Framework |
@@ -48,14 +42,14 @@ So two children in the same year, in different schools, can meet very different 
 
 Sources, read 16 September 2026: [Department of Education, the new primary curriculum](https://www.gov.ie/en/department-of-education/policy-information/new-primary-curriculum/); [Primary Curriculum Framework (2023)](https://www.curriculumonline.ie/getmedia/84747851-0581-431b-b4d7-dc6ee850883e/2023-Primary-Framework-ENG-screen.pdf); [Circular 0067/2025](https://assets.gov.ie/static/documents/16f30644/Circular_Primary_Curriculum_Specifications_EN.pdf); [Circular 0052/2026](https://assets.gov.ie/static/documents/5ee2d114/EN_4th_Communication_re_Primary_Curriculum_May_2026..pdf); [Oide Technology in Education, coding for teachers](https://www.oidetechnologyineducation.ie/courses-practice/coding-for-teachers/).
 
+Class sizes
+
 ## A class of twenty-two, and a group of fifteen to twenty
 
 Irish primary classes have been getting smaller, and teachers do remarkable work in them. A coding class simply offers a different ratio for one kind of learning.
 
-**Primary school in numbers, Department of Education Statistical Bulletin**
-
 | Measure | Figure |
-|---|---|
+| --- | --- |
 | Pupils in primary schools, 2025/26 | 545,726 |
 | Average mainstream class size, 2025/26 | 21.9, the lowest yet |
 | Average class in junior infants | 19.7 |
@@ -70,14 +64,14 @@ A coding group of fifteen to twenty children at the same level lets a teacher se
 
 Neither replaces school. They add practice at the one thing a large class finds hardest to give: individual attention while a child is stuck.
 
+A first project
+
 ## Counting Irish baby names: a first data project for children
 
 The Central Statistics Office publishes every first name given to three or more babies each year since 1964. Children love it, and it hides three lessons about counting.
 
-**The most popular baby names in Ireland in 2025, CSO tables VSA50 and VSA60**
-
 | Rank | Boys | Babies | Girls | Babies |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | 1 | Rían | 490 | Lily | 302 |
 | 2 | Jack | 475 | Éabha | 294 |
 | 3 | Noah | 436 | Fiadh | 273 |
@@ -102,6 +96,8 @@ The point is not the names. It is the habit every good programmer needs: before 
 
 Source: [CSO, Irish Babies' Names 2025](https://www.cso.ie/en/releasesandpublications/ep/p-ibn/irishbabiesnames2025/keyfindings/) and its [background notes](https://www.cso.ie/en/releasesandpublications/ep/p-ibn/irishbabiesnames2025/backgroundnotes/); tables VSA50 and VSA60 on data.cso.ie, read 16 September 2026. The 1,071 and 23,729 are our own count of the published table.
 
+Gaelscoileanna
+
 ## For children at a Gaelscoil or a school in the Gaeltacht
 
 Many Irish families choose education through Irish. A coding class in English fits beside it easily.
@@ -118,14 +114,14 @@ The Framework notes that in Irish-medium schools the introduction of formal Engl
 
 Children who move between Irish and English at school often take to a third, stricter language happily. A programming language has far fewer words than either, and they never change meaning.
 
+The ladder
+
 ## Five rungs through the primary years
 
 The classes named are typical, not rules. The teacher moves a child on when the work shows they are ready.
 
-**Coding through Irish primary school**
-
 | Usually | Rung | The child can |
-|---|---|---|
+| --- | --- | --- |
 | Junior and Senior Infants | 1. Sequences | Put steps in order to make something move, with blocks or cards |
 | First and Second Class | 2. Loops and choices | Repeat actions and make a program react, in blocks |
 | Third and Fourth Class | 3. Scratch projects | Plan, build and explain a complete game or story |
@@ -135,63 +131,293 @@ The classes named are typical, not rules. The teacher moves a child on when the 
 ### Why blocks come first
 
 Blocks let a six year old think about order and repetition without spelling mistakes getting in the way. Once those ideas are secure, typing is only a new way of saying them.
+
 The route beyond primary is set out on the [coding roadmap](/coding-roadmap).
 
 ### Short lessons, often
 
 Young children learn best in short, regular sessions. Most take one or two classes a week, and the teacher keeps each one full of making, not listening.
+
 Children coming from a club can start further up; see [after CoderDojo](/after-coderdojo-next-step-coding-ireland).
+
+The catalogue
 
 ## Nine live courses for primary-school children
 
 Grouped by the stage most children are at. A card opens its syllabus, and the free first class shows where a child should begin.
 
+I
+
 ### Infant and junior classes
 
 Blocks and play
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass): Blocks, sequences and loops from about age six.
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course): Stories and games, planned then built.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev): Scratch with careful help from AI, ages eight and up.
+KIDS / EARLY / 01
+
+#### Coding for Kids
+
+Blocks, sequences and loops from about age six.
+
+[Open the syllabus](/courses/kids-coding-blocks-masterclass)
+
+KIDS / EARLY / 02
+
+#### Scratch Coding for Kids
+
+Stories and games, planned then built.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)
+
+KIDS / EARLY / 03
+
+#### Vibe Coding for Kids
+
+Scratch with careful help from AI, ages eight and up.
+
+[Open the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)II
 
 ### Middle classes
 
 Bigger projects and first typing
 
-- [Game Development for Kids](/courses/game-development-masterclass-for-kids): Complete games with scores and levels.
-- [Roblox Game Coding for Kids](/courses/roblox-game-coding-for-kids-lua-course): First typed code, inside a familiar world.
-- [Maths Through Coding](/courses/maths-through-coding): Primary maths made visible in small programs.
+KIDS / MID / 01
+
+#### Game Development for Kids
+
+Complete games with scores and levels.
+
+[Open the syllabus](/courses/game-development-masterclass-for-kids)
+
+KIDS / MID / 02
+
+#### Roblox Game Coding for Kids
+
+First typed code, inside a familiar world.
+
+[Open the syllabus](/courses/roblox-game-coding-for-kids-lua-course)
+
+KIDS / MID / 03
+
+#### Maths Through Coding
+
+Primary maths made visible in small programs.
+
+[Open the syllabus](/courses/maths-through-coding)III
 
 ### Senior classes
 
 Python, the web and AI
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass): Typed Python and a first learning program.
-- [Web and AI for Kids](/courses/kids-ai-web-development-course): A first website, built line by line.
-- [AI Literacy for Kids](/courses/ai-literacy-for-kids-course): How AI learns, and why it can be wrong.
+KIDS / SENIOR / 01
+
+#### Python and AI for Kids
+
+Typed Python and a first learning program.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)
+
+KIDS / SENIOR / 02
+
+#### Web and AI for Kids
+
+A first website, built line by line.
+
+[Open the syllabus](/courses/kids-ai-web-development-course)
+
+KIDS / SENIOR / 03
+
+#### AI Literacy for Kids
+
+How AI learns, and why it can be wrong.
+
+[Open the syllabus](/courses/ai-literacy-for-kids-course)
+
+How the classes run
 
 ## Short, lively lessons after school
 
 Every lesson is live, with a teacher working from India at a fixed hour set in Irish time. Because Ireland moves its clocks and India does not, the gap is five and a half hours in the Irish winter and four and a half in the summer. Most primary-school children take their class after school on a weekday or on a Saturday morning.
 
-- **After school** Between homework and dinner, Irish time.
-- **Saturday morning** For children with busy weekday afternoons.
-- **Mid-term breaks** Families choose whether to pause or keep going.
+After school
 
-- **The first class is free** The child makes something small with the teacher, who then suggests the right group or course.
-- **Groups of fifteen to twenty** Children at the same stage, so no one is left behind and no one waits.
-- **One to one** For a shy child, a very quick one, or one who needs a gentler pace.
-- **Parents in the loop** After each block of lessons, parents hear what their child has made and what comes next.
-- **Screens used well** Lessons are about making and explaining, never passive watching.
-- **Work to show** Games and projects are saved so a child can show grandparents, friends or a teacher.
+Between homework and dinner, Irish time.
+
+Saturday morning
+
+For children with busy weekday afternoons.
+
+Mid-term breaks
+
+Families choose whether to pause or keep going.
+
+### The first class is free
+
+The child makes something small with the teacher, who then suggests the right group or course.
+
+### Groups of fifteen to twenty
+
+Children at the same stage, so no one is left behind and no one waits.
+
+### One to one
+
+For a shy child, a very quick one, or one who needs a gentler pace.
+
+### Parents in the loop
+
+After each block of lessons, parents hear what their child has made and what comes next.
+
+### Screens used well
+
+Lessons are about making and explaining, never passive watching.
+
+### Work to show
+
+Games and projects are saved so a child can show grandparents, friends or a teacher.
+
+Student work
+
+## Things our young students have made
+
+Four projects by our students, most of them older learners. Many more, from every age, are on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees for children's classes
 
 A monthly fee in US dollars, identical for families in every country except India, whatever the child's age. There is no registration charge and no need to commit for the school year.
 
-- Free first class: USD 0. A first class where the child makes something. A suggested group or course. No card asked for.
-- Group batch: USD 100 a month. Fifteen to twenty children at one stage. The same teacher every week. Projects looked at weekly. A certificate when a course ends.
-- One to one: USD 150 a month. A teacher for one child. The pace set by the child. Good for shy or very quick children.
+Free first class
+
+USD 0
+
+no card required
+
+- A first class where the child makes something
+- A suggested group or course
+- No card asked for
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty children at one stage
+- The same teacher every week
+- Projects looked at weekly
+- A certificate when a course ends
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one child
+- The pace set by the child
+- Good for shy or very quick children
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Parents' and students' reviews from Google, left exactly as they wrote them. None were paid for.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions from parents
 
 ## What Irish parents ask about coding for primary-school children
 
@@ -235,15 +461,54 @@ After school on a weekday or on a Saturday morning, at an hour agreed in the fre
 
 We phone you at a sensible time in Ireland and book the free first class. You pay nothing unless your child keeps going.
 
+Elsewhere on this site
+
 ## More for young coders in Ireland
 
-- [Best coding classes for teens in Ireland](/best-coding-classes-for-teens-ireland): For the secondary-school years.
-- [After CoderDojo](/after-coderdojo-next-step-coding-ireland): For children who started at a coding club.
-- [Best online coding classes in Ireland](/best-online-coding-classes-ireland): Six checks for choosing any class.
-- [AI and Python for girls in Ireland](/ai-and-python-academy-for-girls-ireland): Keeping interest alive over the years.
-- [The best coding class in the world](/best-coding-class-in-the-world): The research behind good teaching.
-- [Coding classes in Ireland](/coding-classes-in-ireland): The national page.
+Pages for the years that follow and for choosing well.
 
-## Contact
+### [Best coding classes for teens in Ireland](/best-coding-classes-for-teens-ireland)
 
-Book the free first class at [https://learn.modernagecoders.com/best-coding-classes-for-kids-ireland](https://learn.modernagecoders.com/best-coding-classes-for-kids-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+For the secondary-school years.
+
+### [After CoderDojo](/after-coderdojo-next-step-coding-ireland)
+
+For children who started at a coding club.
+
+### [Best online coding classes in Ireland](/best-online-coding-classes-ireland)
+
+Six checks for choosing any class.
+
+### [AI and Python for girls in Ireland](/ai-and-python-academy-for-girls-ireland)
+
+Keeping interest alive over the years.
+
+### [The best coding class in the world](/best-coding-class-in-the-world)
+
+The research behind good teaching.
+
+### [Coding classes in Ireland](/coding-classes-in-ireland)
+
+The national page.
+
+Start here
+
+## Let your child make something in a free first class
+
+Leave a parent's number and we will phone at a time that suits a family in Ireland. In the first class your child makes something small with a teacher, and you hear honestly where they should start.
+
+If you would like to look around first, there is a page on [how our teachers work](/how-we-teach), a syllabus for [every course](/courses), and [projects made by our students](/student-labs).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20first%20coding%20class%20for%20my%20child%20at%20primary%20school%20in%20Ireland.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is free from an Irish mobile and often the quickest way to reach us. Our number is an Indian one, because our team is in India; we have no Irish premises.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-classes-for-kids-ireland*

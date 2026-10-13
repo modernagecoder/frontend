@@ -8,7 +8,7 @@ source: src/pages/codeyoung-alternative.html
 
 Honest alternative · facts checked September 2026
 
-# Codeyoung Alternative for 2026: Batches or One to One, Your Choice
+# Codeyoung Alternative for 2026: Small Batches or One to One, Your Choice
 
 Looking for a Codeyoung alternative? Codeyoung's own homepage sells "Live 1:1 online classes for kids", and one to one is the only format it offers. Modern Age Coders offers the choice: a live batch of 15 to 20 where children learn from each other's questions, a mini batch of up to 6, or one to one when a goal needs it, for coding, AI and maths, ages 6 to 67. The fee is a flat monthly amount shown on this page in your own currency, with no enrolment fee and a free demo first.
 

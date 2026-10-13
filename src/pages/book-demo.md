@@ -22,7 +22,19 @@ Prefer a live demo? Choose a time below · [Read exactly how we teach](/how-we-t
 
 Free class recordings of real, unedited lessons. A Google sign-in is required for the full library. Choose a recording suited to your age group, subject, and teaching language: some classes are in English, some in Hindi. Watch a class end to end, on a computer or laptop for the clearest experience.
 
-100% FreeNo Commitment30-45 Min Session10,000+ Students Trained
+100% FreeNo Commitment30-45 Min Session10,000+ Students TrainedPriority Live Demo
+
+## Want your demo today or tomorrow? Reserve a mentor.
+
+The free demo below is a waiting list, because our mentors teach live all day. The Priority Live Demo is a full class of about 45 to 60 minutes at a time you pick, with a mentor reserved only for you.
+
+[Book priority demo · ₹499](/book-demo)[Compare with the free demo](/free-demo-vs-priority-demo)
+
+One-time fee. No enrolment required. Rated 4.9 across 547 Google reviews.
+
+1. **A real class, not a sales call**The student solves a problem and builds something that works, in coding or maths.
+2. **A written skill report**After the class the mentor sends a skill report and a personal learning roadmap on WhatsApp.
+3. **Fee adjusted if you enrol**Send us your demo Order ID and we take the demo fee off your first month.
 
 ## Schedule Your Demo
 
@@ -31,6 +43,8 @@ Fill in the details and we'll arrange a personalized demo session for you.
 **4.9** across **547 Google reviews** · No payment, no card, no obligation. [Read our zero-risk promise](/guarantee)
 
 Want to judge us before booking? [Watch recordings of real classes](/how-we-teach), unedited.
+
+In a hurry? Free demos are a waiting list. The [Priority Live Demo](/priority-demo) gets you a guaranteed slot today or tomorrow. [Compare the two](/free-demo-vs-priority-demo).
 
 ## What You'll Get
 
@@ -122,7 +136,7 @@ No. Live demos are typically scheduled within 48 hours because our mentors teach
 
 Yes! Our demo class is 100% free with no hidden charges. Experience our teaching methodology, meet your instructor, and see if we're the right fit, all at zero cost to you.
 
-Demo classes typically last 30-45 minutes. This gives you enough time to experience our teaching style, understand our curriculum, and ask any questions you may have.
+Free demo classes typically last 30-45 minutes. This gives you enough time to experience our teaching style, understand our curriculum, and ask any questions you may have. The paid Priority Live Demo is a full class of about 45 to 60 minutes.
 
 We teach students of all ages, kids as young as 6, teenagers, college students, and even working professionals looking to upskill. Our curriculum is customized for each age group and skill level.
 

@@ -4,46 +4,32 @@ description: "Live online coding, Python and AI classes across County Cavan, fro
 canonical: https://learn.modernagecoders.com/coding-classes-in-county-cavan
 source: src/pages/coding-classes-in-county-cavan.html
 ---
-> Cavan is a young county by Irish standards. Its 81,704 people have an average age of 38.5, below the national 38.8, and 17,752 of them are aged 15 or under. Cavan town holds 11,741, then a run of similar-sized towns: Virginia 3,211, Bailieborough, Kingscourt and Ballyjamesduff each just under 3,000. Two Cavan schools were among the first forty to teach Leaving Certificate Computer Science. For our classes the first lesson is on us; a group place after that is USD 100 monthly and one to one USD 150, taught live each week to anyone aged six to sixty-seven.
+> Live online coding, Python and AI classes across County Cavan, from Cavan town and Virginia to Cootehill, Bailieborough, Kingscourt and Belturbet, ages 6 to 67.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [County Meath](/coding-classes-in-county-meath) / County Cavan
-
-County Cavan, Ulster / Live online
-
-# Coding classes in County Cavan
-
-**What are the best coding classes in County Cavan?** Cavan is a young county by Irish standards. Its 81,704 people have an average age of 38.5, below the national 38.8, and 17,752 of them are aged 15 or under. Cavan town holds 11,741, then a run of similar-sized towns: Virginia 3,211, Bailieborough, Kingscourt and Ballyjamesduff each just under 3,000. Two Cavan schools were among the first forty to teach Leaving Certificate Computer Science. For our classes the first lesson is on us; a group place after that is USD 100 monthly and one to one USD 150, taught live each week to anyone aged six to sixty-seven.
-
-Here is a mistake that produces no error message and hands county after county the wrong population. The statistics office publishes its county table with Cavan third, after Cork City Council and Clare, and before Cork County Council, Carlow and Dublin City. That is neither alphabetical nor anything else obvious. It is simply the order the rows were stored in. Sort a list of county names alphabetically, line it up against those values by position, and Carlow gets Cork City's figure, Cavan gets Clare's, and so on down the list. Every number is real, every name is real, and the pairings are wrong. The same table also says it was updated in June 2023, for a count taken on a night in April 2022. Neither trap is exotic. Both are everywhere.
-
-Facts last verified 16 September 2026. Teaching is online; no County Cavan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for County Cavan
 
 ## Starting points for a Cavan learner
 
 Choose by age and appetite; the first lesson confirms the choice. It is taught by the teacher who would take the course, and nobody asks for card details to book it.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Scratch projects where two lists must stay lined up, and a shuffle in one breaks everything.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python built up steadily through the Junior Cycle, into Transition Year work with real tables.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): Joining two tables by a key instead of by position, and proving the join worked.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (College and adult): For adults who copy columns between spreadsheets and need to know the rows still match.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsScratch projects where two lists must stay lined up, and a shuffle in one breaks everything.See the syllabus](/courses/scratch-programming-complete-course)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython built up steadily through the Junior Cycle, into Transition Year work with real tables.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensJoining two tables by a key instead of by position, and proving the join worked.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)College and adultData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For adults who copy columns between spreadsheets and need to know the rows still match.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## Cavan is third on the list
 
 Cavan County Council publishes no open datasets, so the project uses the national county population table and two things about it that fool careful people.
 
-**The first six counties as the table stores them, and as an alphabetical list would**
-
 | Position | Stored order | Alphabetical order |
-|---|---|---|
+| --- | --- | --- |
 | 1 | Cork City Council | Carlow County Council |
 | 2 | Clare County Council | Cavan County Council |
 | 3 | Cavan County Council | Clare County Council |
@@ -69,14 +55,14 @@ The table's own metadata gives an update date of 29 June 2023. The figures insid
 
 The written output is two short paragraphs. One explains why joining by position is unsafe and shows the one-pair check that exposes it. The other states, for every figure used in the project, the date it describes rather than the date the file changed. That second habit is worth a great deal more than it looks, because it is the difference between reporting how things were and implying how things are.
 
+The county today
+
 ## A young county of middle-sized towns
 
 Taken from the statistics office's Cavan releases for Census 2022.
 
-**Cavan on census night 2022**
-
 | What was counted | Result |
-|---|---|
+| --- | --- |
 | Residents | 81,704, up 5,528 or 7% since 2016 |
 | Female and male | 40,644 and 41,060, or 101 males per 100 females |
 | Average age | 38.5, up from 37.2 and still below the national 38.8 |
@@ -98,6 +84,8 @@ Among places of at least 500 people, Mullagh has the youngest average age at 34.
 
 Irish is spoken by 26,591 of the 78,633 people aged three and over, 35.9%, up slightly on 2016, and Cavan has no Gaeltacht area. We teach in English and programming keywords are English in every language, so nothing on that front affects a learner here. The county's religious make-up has also shifted quickly: the Catholic share fell from 82% to 74% between the two censuses and the number stating no religion rose by 77% to almost 6,900.
 
+Schools and travel
+
 ## Two first-wave schools and a thirty minute commute
 
 Cavan is one of the counties that had computer science in the Leaving Certificate from the very start.
@@ -114,10 +102,8 @@ In Cootehill itself, and the county's second school among the forty that began t
 
 The statistics office reports that Cootehill had the second highest rate in the country of primary pupils travelling to school by public transport, at 31%.
 
-**How Cavan gets to work**
-
 | Mode or measure | People or time |
-|---|---|
+| --- | --- |
 | Travelling to work | 32,111 |
 | By car | 21,127 |
 | On foot | 2,075, up from 1,834 |
@@ -125,7 +111,11 @@ The statistics office reports that Cootehill had the second highest rate in the 
 | Average journey | 30.7 minutes, up from 28.5 in 2016 |
 | Working from home at least one day a week | 7,898 people, 22% of the workforce against 32% nationally |
 
-**Where the first-wave schools leave everyone else** Two schools with the subject from the start is a real advantage for pupils at those two schools. For a teenager in Kingscourt, Belturbet or Virginia it changes very little, and with the average commute already past half an hour, a weekly evening trip into Cavan town for a class is a hard sell. Third level attainment here is 38% against 45% nationally, and the average age of finishing full time education, 19.8, is a year below the national figure, so the case for an accessible way to go further is strong.
+Where the first-wave schools leave everyone else
+
+Two schools with the subject from the start is a real advantage for pupils at those two schools. For a teenager in Kingscourt, Belturbet or Virginia it changes very little, and with the average commute already past half an hour, a weekly evening trip into Cavan town for a class is a hard sell. Third level attainment here is 38% against 45% nationally, and the average age of finishing full time education, 19.8, is a year below the national figure, so the case for an accessible way to go further is strong.
+
+Two Cavan addresses
 
 ## One county, two routing keys
 
@@ -145,14 +135,37 @@ Its publisher page on the national portal lists no datasets at all, which is why
 
 This page covers the Republic of Ireland only. Cavan borders Northern Ireland, but the statistics office's Cavan employment and commuting release says nothing about travel across the border, so we publish no figure for it and use no Northern Ireland statistic anywhere. Nor are we connected with Cavan County Council, the museum or either school. Population and travel figures are the statistics office's, and the stored order and update date described in the project were read directly from its published table.
 
+Learning ladder
+
 ## From lining up lists to joining tables
 
 The age bands are guidance; the first lesson sets the real level.
 
-- **Ages 6 to 10: Keeping lists in step** Programs where names and scores live in two lists and must never slip out of line. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 11 to 13: Checking a known answer** Testing any result against one fact you already know before believing the rest. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Joins by key** Merging real tables safely and recording the date each figure describes. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Spreadsheets that stay honest** Copying, merging and refreshing data at work without silently mismatching rows. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### Keeping lists in step
+
+Programs where names and scores live in two lists and must never slip out of line.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 11 to 13
+
+### Checking a known answer
+
+Testing any result against one fact you already know before believing the rest.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Joins by key
+
+Merging real tables safely and recording the date each figure describes.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Spreadsheets that stay honest
+
+Copying, merging and refreshing data at work without silently mismatching rows.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## Generated code joins tables the way you describe them
 
@@ -164,30 +177,139 @@ The protection is not a better prompt. It is the ten-second habit of checking on
 
 That is why the case for learning to program properly has, if anything, grown: somebody still has to know what a correct answer looks like. The longer argument is in [the case for learning to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How lessons reach Kingscourt, Belturbet and Virginia
 
 The practical shape of the teaching.
 
-- **Live with a real teacher** Every lesson is taught as it happens, with questions both ways, rather than watched as a video.
-- **Grouped by level** Fifteen to twenty learners at one ability level, gathered from Cavan and other countries, so nobody is waiting for the room to catch up.
-- **Weekly and fixed** Two lessons most weeks, about eight a month, at a slot agreed once and kept.
-- **Matched to Irish schooling** Junior Cycle through Leaving Certificate, with exam seasons and holidays planned around rather than ignored.
-- **At the kitchen table** A computer, sound that works and a connection able to carry video. The first lesson doubles as a test of all three.
-- **Private if it suits better** Where no group at the right level meets at a workable time, the same course is taught one to one.
+### Live with a real teacher
 
-**For the lake country and the border villages** Much of Cavan lives outside its towns, among lakes and small roads where a thirty minute drive is normal and a bus to an evening class is not. Gathering learners at the right level into one online group, at an hour fixed once for the whole term, reaches families that no class in a hall in Cavan town could.
+Every lesson is taught as it happens, with questions both ways, rather than watched as a video.
+
+### Grouped by level
+
+Fifteen to twenty learners at one ability level, gathered from Cavan and other countries, so nobody is waiting for the room to catch up.
+
+### Weekly and fixed
+
+Two lessons most weeks, about eight a month, at a slot agreed once and kept.
+
+### Matched to Irish schooling
+
+Junior Cycle through Leaving Certificate, with exam seasons and holidays planned around rather than ignored.
+
+### At the kitchen table
+
+A computer, sound that works and a connection able to carry video. The first lesson doubles as a test of all three.
+
+### Private if it suits better
+
+Where no group at the right level meets at a workable time, the same course is taught one to one.
+
+For the lake country and the border villages
+
+Much of Cavan lives outside its towns, among lakes and small roads where a thirty minute drive is normal and a bus to an evening class is not. Gathering learners at the right level into one online group, at an hour fixed once for the whole term, reaches families that no class in a hall in Cavan town could.
+
+Fees
 
 ## Cavan class fees
 
 Three figures, with nothing further to find.
 
-- First class: USD 0. A first lesson in full at no charge, which ends with a level and a recommendation.
-- Group tuition: USD 100 a month. Group lessons for a month, around eight of them, with fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. One to one lessons for a month on the same schedule.
+First class**USD 0**
+
+A first lesson in full at no charge, which ends with a level and a recommendation.
+
+Group tuition**USD 100**
+
+Group lessons for a month, around eight of them, with fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+One to one lessons for a month on the same schedule.
 
 Monthly billing is in US dollars at the single rate we set for families outside India, so Cootehill and Cavan town pay the same and there is no euro price to compare it with. No payment is taken before a course and a time are agreed in that first lesson, and the pricing page spells out pauses, missed lessons and changing between group and private.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20County%20Cavan.)Reviews
+
+## Six Google reviews from families we teach, copied exactly
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Arrange the first lesson
+
+Let us know the learner's age and interests. The opening hour is planned around them, from a Scratch game about keeping two lists in step to the county table that pairs every name with the wrong number.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented County Cavan one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20County%20Cavan.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## County Cavan coding class questions
+
+What Cavan families tend to ask first.
 
 ### How many people live in County Cavan?
 
@@ -229,10 +351,14 @@ The first lesson is free. After that a shared place costs USD 100 a month and br
 
 Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
+Explore Ireland
+
 ## Around Cavan
 
 South of the county sit [Meath](/coding-classes-in-county-meath) and [Westmeath](/coding-classes-in-county-westmeath), west lie [Leitrim](/coding-classes-in-county-leitrim) and [Longford](/coding-classes-in-county-longford), and each has its own page. There is a plain comparison of online coding schools [here](/best-online-coding-classes-ireland), and every Irish page is gathered on the [Ireland hub](/coding-classes-in-ireland).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20County%20Cavan.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-county-cavan](https://learn.modernagecoders.com/coding-classes-in-county-cavan#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-county-cavan*

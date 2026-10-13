@@ -4,46 +4,32 @@ description: "Live online coding classes for Adelaide kids from Reception to Yea
 canonical: https://learn.modernagecoders.com/coding-classes-for-kids-adelaide
 source: src/pages/coding-classes-for-kids-adelaide.html
 ---
-> Adelaide children from Reception to Year 8 learn most from a real teacher, a small group at the same level and projects that connect code to their own city. Greater Adelaide had 81,431 children aged 5 to 9 at the 2021 Census. We teach live online from age 6, and the first lesson is on us.
+> Live online coding classes for Adelaide kids from Reception to Year 8: Scratch, games, first Python and AI basics, taught by a real teacher in small groups or alone.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [South Australia](/coding-and-ai-classes-in-south-australia) / Adelaide
-
-Adelaide, South Australia, Australia / Live online
-
-# Coding classes for kids in Adelaide
-
-**What are the best coding classes for kids in Adelaide?** Adelaide children from Reception to Year 8 learn most from a real teacher, a small group at the same level and projects that connect code to their own city. Greater Adelaide had 81,431 children aged 5 to 9 at the 2021 Census. We teach live online from age 6, and the first lesson is on us.
-
-Look at a map of the Adelaide city centre and the five squares seem to sit in a neat pattern around Victoria Square. Is it a mirror image, with the left side copying the right? Children usually say yes. Then they put coordinates on each square, write a few lines of code to flip the map, and find that the mirror is about 95 metres out. Turn the map halfway round instead, and the squares land almost exactly on each other. That surprise, measured rather than guessed, is how our young Adelaide coders meet two kinds of symmetry.
-
-Facts last verified 7 October 2026. Teaching is online; no Adelaide branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Adelaide kids
 
 ## Starting points for an Adelaide child
 
 Matched to age and to what the child likes making. The first lesson is free and confirms the level.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 9): Blocks that move a character around a grid, which is where turning and flipping first become real.
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 7 to 11): Scratch projects where a sprite stamps shapes, flips them and spins them, so symmetry is something the child makes.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 14): Coordinates, transformations and patterns, worked out in Python rather than only on paper.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Typed Python with turtle drawings, lists of points and the first real data from Adelaide maps.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 9Coding for KidsBlocks that move a character around a grid, which is where turning and flipping first become real.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 7 to 11Scratch Coding for KidsScratch projects where a sprite stamps shapes, flips them and spins them, so symmetry is something the child makes.See the syllabus](/courses/scratch-programming-complete-course)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 14Maths Through CodingCoordinates, transformations and patterns, worked out in Python rather than only on paper.See the syllabus](/courses/maths-through-coding)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsTyped Python with turtle drawings, lists of points and the first real data from Adelaide maps.See the syllabus](/courses/python-ai-kids-masterclass)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Adelaide children in the Census
 
 ## Eighty thousand children in each primary-age band
 
 Figures from the ABS 2021 Census QuickStats for the Greater Adelaide capital city area, printed exactly as published.
 
-**Greater Adelaide children, ABS Census 2021 QuickStats**
-
 | Item | Adelaide |
-|---|---|
+| --- | --- |
 | Aged 0 to 4 | 74,749, or 5.4% |
 | Aged 5 to 9 | 81,431, or 5.9% (Australia 6.2%) |
 | Aged 10 to 14 | 81,359, or 5.9% |
@@ -65,23 +51,21 @@ South Australia calls the first school year Reception. Most of our Adelaide begi
 
 A small lesson about tables. Each age band is adjusted separately for privacy, so the bands are not guaranteed to sum to the published population. We quote the published figures and never manufacture a total of our own.
 
+Signature project
+
 ## Are Adelaide's squares a mirror image or a half turn?
 
 Four squares placed around Victoria Square on a grid of metres, then flipped and turned by code to see which transformation really fits.
 
-**Where each square sits, in metres from Victoria Square (our calculation from OpenStreetMap, 7 October 2026)**
-
 | Square | East (+) or west (-) | North (+) or south (-) | Distance from Victoria Square |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Hindmarsh Square | 522.3 | 471.9 | 703.9 m |
 | Hurtle Square | 587.1 | -403.5 | 712.4 m |
 | Whitmore Square | -516.8 | -469.1 | 698.0 m |
 | Light Square | -600.0 | 416.1 | 730.1 m |
 
-**How far each square lands from its partner after the move (our calculation)**
-
 | Move | First pair | Second pair |
-|---|---|---|
+| --- | --- | --- |
 | Mirror across a north-south line | Hindmarsh to Light: 95.7 m out | Hurtle to Whitmore: 96.1 m out |
 | Mirror across an east-west line | Hindmarsh to Hurtle: 94.2 m out | Light to Whitmore: 98.6 m out |
 | Half turn about Victoria Square | Hindmarsh to Whitmore: 6.1 m out | Hurtle to Light: 18.0 m out |
@@ -104,14 +88,14 @@ A park is not a dot. Each square covers a big block of the city, so where we pla
 
 All positions and distances are our calculations from an OpenStreetMap snapshot taken on 7 October 2026, using a flat-map approximation that is accurate to well under a metre over a kilometre or two. OpenStreetMap is mapped by volunteers, and the points we chose to stand for each square are our own choice rather than any official survey mark.
 
+How children learn it
+
 ## Folding paper, then flipping coordinates
 
 Symmetry begins with scissors and ends with a list of points in Python, at whatever speed the child is ready for.
 
-**Symmetry with code, by year level**
-
 | Year level | Hands-on task | Coding idea |
-|---|---|---|
+| --- | --- | --- |
 | Reception to Year 2 | Folds a paper map in half and checks whether the squares meet | A rule that can be tested, not just looked at |
 | Years 3 to 6 | Makes a Scratch sprite stamp a square, then flips and spins the costume | Coordinates on the stage, negative numbers and repeat blocks |
 | Years 7 and 8 | Writes Python that flips and turns the four points and prints the gaps | Lists of pairs, functions and comparing a result with a tolerance |
@@ -130,14 +114,14 @@ Before running the code, children choose a tolerance, say 25 metres, and write i
 
 This project is ours and has no connection with the City of Adelaide, OpenStreetMap or the ABS; none of them has endorsed it. Census numbers belong to the Bureau; the coordinates and distances are our calculations.
 
+Starting school in South Australia
+
 ## When Adelaide children start school, and when they can start coding
 
 South Australia has its own rules for the first school year, and they explain why our youngest Adelaide learners vary so much in age.
 
-**South Australian school start, as summarised in the ABS Schools methodology (2025)**
-
 | Rule | What it says |
-|---|---|
+| --- | --- |
 | Compulsory school | Children must attend school from the age of six |
 | Start in term 1 | Children turning five before 1 May can start school in term 1 |
 | Start in term 3 | Children turning five by 31 October can start in term 3 and undertake 6 terms of reception |
@@ -155,16 +139,41 @@ Our live classes start at age 6. A five-year-old in Reception usually waits a li
 
 South Australian term-date pages blocked our automated reading, so we have not printed them here. Families tell us their dates and lessons are planned around them.
 
-**A rule table is already half a program** Read the table above as if-then rules: if the birthday is before 1 May, start in term 1; else if it is by 31 October, start in term 3. Older children like turning it into a small program that takes a birthday and prints the start term, then testing it on tricky dates such as 30 April and 1 May.
+A rule table is already half a program
+
+Read the table above as if-then rules: if the birthday is before 1 May, start in term 1; else if it is by 31 October, start in term 3. Older children like turning it into a small program that takes a birthday and prints the start term, then testing it on tricky dates such as 30 April and 1 May.
+
+Learning ladder
 
 ## From folding paper to transforming points
 
 Bands are only a guide. The first free lesson decides the real level.
 
-- **Ages 6 to 7: Patterns and moves** Arrows, turns and repeated patterns, with lots of predicting before each run. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 8 to 10: Scratch shapes** Stamping, flipping and spinning sprites, and games that use the x and y of the stage. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Game Development for Kids](/courses/game-development-masterclass-for-kids)
-- **Ages 10 to 12: Maths that moves** Coordinates, negative numbers and transformations, explored by writing code. [Maths Through Coding](/courses/maths-through-coding), [Mental Maths for Kids](/courses/mental-maths-mastery-kids)
-- **Ages 12 to 14: First Python** Lists of points, functions and real map data from Adelaide. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)
+Ages 6 to 7
+
+### Patterns and moves
+
+Arrows, turns and repeated patterns, with lots of predicting before each run.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 8 to 10
+
+### Scratch shapes
+
+Stamping, flipping and spinning sprites, and games that use the x and y of the stage.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Game Development for Kids](/courses/game-development-masterclass-for-kids)Ages 10 to 12
+
+### Maths that moves
+
+Coordinates, negative numbers and transformations, explored by writing code.
+
+[Maths Through Coding](/courses/maths-through-coding)[Mental Maths for Kids](/courses/mental-maths-mastery-kids)Ages 12 to 14
+
+### First Python
+
+Lists of points, functions and real map data from Adelaide.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)Coding and AI
 
 ## Can an AI tool tell an Adelaide child whether the squares are symmetrical?
 
@@ -176,30 +185,139 @@ We want young Adelaide learners to treat any confident answer, from a person, a 
 
 Children should still learn to code in 2026 because code is how you check a claim instead of repeating it. An Adelaide child who has flipped and turned those four points has already done it. The longer argument is in [why coding is still worth learning](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## From the hills to the beaches, lessons arrive at home
 
 Greater Adelaide spreads along the coast and into the foothills, and an online lesson means no after-school drive at all.
 
-- **A computer and a quiet corner** A laptop or desktop with sound, plus a grown-up nearby for the first lesson, is all that is needed.
-- **Reception to Year 8 words** Teachers use South Australian year names, starting from Reception, so a young child hears familiar words.
-- **A real trial lesson** Your child makes something that works in the first session, and you leave with a suggested course and slot. No card is requested.
-- **Groups of fifteen to twenty** Children working at the same stage, or one to one if your child prefers.
-- **Usually twice a week** About eight lessons each month at the same time, which keeps momentum without crowding the week.
-- **Teachers on India time** Adelaide is four hours ahead of India time in winter and five hours ahead during daylight saving, so an after-school Adelaide lesson falls around midday for our teachers.
+### A computer and a quiet corner
 
-**Daylight saving, handled for you** South Australia moves its clocks in early October and early April; India never does. We always quote lesson times in Adelaide time, so families do not have to work out the change.
+A laptop or desktop with sound, plus a grown-up nearby for the first lesson, is all that is needed.
+
+### Reception to Year 8 words
+
+Teachers use South Australian year names, starting from Reception, so a young child hears familiar words.
+
+### A real trial lesson
+
+Your child makes something that works in the first session, and you leave with a suggested course and slot. No card is requested.
+
+### Groups of fifteen to twenty
+
+Children working at the same stage, or one to one if your child prefers.
+
+### Usually twice a week
+
+About eight lessons each month at the same time, which keeps momentum without crowding the week.
+
+### Teachers on India time
+
+Adelaide is four hours ahead of India time in winter and five hours ahead during daylight saving, so an after-school Adelaide lesson falls around midday for our teachers.
+
+Daylight saving, handled for you
+
+South Australia moves its clocks in early October and early April; India never does. We always quote lesson times in Adelaide time, so families do not have to work out the change.
+
+Fees
 
 ## What coding classes cost for Adelaide kids
 
 Three prices, stated plainly.
 
-- First class: USD 0. A first lesson that costs nothing and ends with a level, a course and a weekly time.
-- Group tuition: USD 100 a month. About eight lessons a month with fifteen to twenty children at a matching level.
-- Private tuition: USD 150 a month. About eight lessons a month with your child as the only learner.
+First class**USD 0**
+
+A first lesson that costs nothing and ends with a level, a course and a weekly time.
+
+Group tuition**USD 100**
+
+About eight lessons a month with fifteen to twenty children at a matching level.
+
+Private tuition**USD 150**
+
+About eight lessons a month with your child as the only learner.
 
 Outside India every family is charged in US dollars at the same rate, so a child in the eastern suburbs and one on the coast pay alike. The first bill comes only after the trial, once you have chosen; the pricing page explains holidays, missed lessons and changing format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20class%20for%20my%20child%20in%20Adelaide.)Reviews
+
+## Parents and students on Google, unedited
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us where your child is starting
+
+A Reception child might begin by moving a character on a grid, a Year 4 child by stamping and flipping shapes in Scratch, and a Year 8 student by turning map points in Python. A year level and one interest is plenty to start.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Adelaide one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20class%20for%20my%20child%20in%20Adelaide.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Questions from Adelaide parents
+
+What Adelaide families usually want to know first.
 
 ### What age can an Adelaide child start coding classes?
 
@@ -241,10 +359,14 @@ The first lesson is free. After that a group place is USD 100 a month for two li
 
 Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
+Explore Australia
+
 ## More for Adelaide families
 
 Teenagers and adults in Adelaide have their own page: [AI and programming classes in Adelaide](/ai-and-programming-classes-in-adelaide), and the state picture is on [coding and AI classes in South Australia](/coding-and-ai-classes-in-south-australia). Older South Australian students heading into senior school can read [SACE Digital Technologies help](/sace-digital-technologies-help) and [SACE Mathematical Methods tutoring](/sace-mathematical-methods-tutoring). For younger children, see [online coding classes for kids in Australia](/online-coding-classes-for-kids-australia) and [coding for 5 and 6 year olds](/coding-classes-for-5-and-6-year-olds-australia). Everything else is linked from the [Australia coding page](/coding-classes-in-australia).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20class%20for%20my%20child%20in%20Adelaide.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-for-kids-adelaide](https://learn.modernagecoders.com/coding-classes-for-kids-adelaide#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-for-kids-adelaide*

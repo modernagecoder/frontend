@@ -12,7 +12,7 @@ LIVE ONLINE · BHOWANIPORE & SOUTH KOLKATA
 
 Modern Age Coders runs premium, live online coding and mathematics classes for Bhowanipore families, never pre-recorded. Children and college students learn Python, Java, AI/ML and school maths in live batches of 15-20, taught by full-time engineers and maths graduates. We map straight onto the neighbourhood's mixed board landscape, IGCSE, CBSE, ICSE and WBBSE, and delete the Hazra crossing commute. Class simply comes home. Book a free demo today.
 
-Live, never recordedBatches of 6-8Full-time engineersIGCSE · CBSE · ICSE · WBBSE6-8Students Per Live Batch100%Live, Never Pre-Recorded24 hrsFrom Demo To First Class₹1,499Per Month, Starting From[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)AT A GLANCE
+Live, never recordedBatches of 15-20Full-time engineersIGCSE · CBSE · ICSE · WBBSE15-20Students Per Live Batch100%Live, Never Pre-Recorded24 hrsFrom Demo To First Class₹1,499Per Month, Starting From[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)AT A GLANCE
 
 ## The essentials, on one fact sheet
 

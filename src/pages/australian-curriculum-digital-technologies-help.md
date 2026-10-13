@@ -4,34 +4,28 @@ description: "Australian Curriculum Digital Technologies explained from ACARA's 
 canonical: https://learn.modernagecoders.com/australian-curriculum-digital-technologies-help
 source: src/pages/australian-curriculum-digital-technologies-help.html
 ---
-> Digital Technologies is the Australian Curriculum subject about computing. Version 9.0 has two strands, Knowledge and understanding and Processes and production skills, each split into sub-strands, and it is written in bands from Foundation to Year 10. Students move from following simple algorithms to writing visual programs by Year 6, then a general-purpose language in Years 7 and 8 and an object-oriented one by Year 10.
+> Australian Curriculum Digital Technologies explained from ACARA's Version 9.0 files: the two strands, every sub-strand, what each band expects, and live help.
 
-[Home](/) / [Coding classes in Australia](/coding-classes-in-australia) / Digital Technologies curriculum
+In short
 
-Australia · Digital Technologies F to 10 · Live online
+Digital Technologies is the Australian Curriculum subject about computing. Version 9.0 has two strands, Knowledge and understanding and Processes and production skills, each split into sub-strands, and it is written in bands from Foundation to Year 10. Students move from following simple algorithms to writing visual programs by Year 6, then a general-purpose language in Years 7 and 8 and an object-oriented one by Year 10.
 
-# Digital Technologies curriculum help
-
-Digital Technologies is the part of the Australian Curriculum where children learn how computers represent information, how algorithms are designed, and how programs are written and tested. It runs from the first year of school to Year 10, and by the end it expects real programming in a general-purpose language and some thinking about security and privacy. Many parents never studied anything like it. This page sets out how Version 9.0 is organised, quotes what ACARA says students should manage at the end of each band, and works one example from the Years 7 to 8 content so you can see the level involved. We are an online school teaching coding and maths; we are not part of ACARA and we do not write anyone's school assessment.
-
-At a glance: Subject: Digital Technologies; Curriculum: Australian Curriculum, Version 9.0; Range: Foundation to Year 10; Bands: Foundation, 1 to 2, 3 to 4, 5 to 6, 7 to 8, 9 to 10; Strands: Two, with sub-strands under each; Programming: Visual programs to Year 6, then text languages; Taught by: Your school, following your state or territory; We offer: Live classes that build the same skills. Rated 4.9 across 547 Google reviews.
+Matched to the curriculum
 
 ## Three courses that line up with Digital Technologies
 
 One for each stage the curriculum describes: visual programming, the first text language, and serious programming.
 
-- [Algorithms for primary students](/courses/problem-solving-and-computational-thinking-for-kids): Sequencing, branching and repetition, the ideas Years 1 to 6 build on, worked through puzzles and visual code.
-- [Python for Years 7 to 10](/courses/python-complete-masterclass-teens): The general-purpose language most schools reach first, taught with tracing and testing from week one.
-- [Security for teenagers](/courses/cybersecurity-course-for-teens-ethical-defensive): Passwords, authentication and threats, the privacy and security side of the curriculum, taught defensively.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)  ACDT / 01 Algorithms for primary students Sequencing, branching and repetition, the ideas Years 1 to 6 build on, worked through puzzles and visual code. Open the syllabus →](/courses/problem-solving-and-computational-thinking-for-kids)[![Python for Teens course thumbnail](/images/python-teens.webp)  ACDT / 02 Python for Years 7 to 10 The general-purpose language most schools reach first, taught with tracing and testing from week one. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Cybersecurity for Teens course thumbnail](/images/cybersecurity-teens.webp)  ACDT / 03 Security for teenagers Passwords, authentication and threats, the privacy and security side of the curriculum, taught defensively. Open the syllabus →](/courses/cybersecurity-course-for-teens-ethical-defensive)
+
+How the subject is organised
 
 ## Two strands, several sub-strands, six bands
 
 Every content description in Digital Technologies sits in a strand, a sub-strand and a band. Knowing where a task sits tells you what it is really asking for.
 
-**The structure of Digital Technologies, Version 9.0, as set out in ACARA's Years 7 to 10 file**
-
 | Strand | Sub-strand | What it covers in plain terms |
-|---|---|---|
+| --- | --- | --- |
 | Knowledge and understanding | Digital systems | Hardware, software and networks: what the parts are and how they move data |
 | Knowledge and understanding | Data representation | How text, images, sound and numbers become integers and binary |
 | Processes and production skills | Acquiring, managing and analysing data | Collecting data, checking it and finding patterns with spreadsheets and databases |
@@ -52,14 +46,14 @@ Your state or territory decides how the curriculum is taught. Some publish their
 
 Source: ACARA, Australian Curriculum Version 9.0, [Digital Technologies content F to 6](https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/technologies/digital-technologies/technologies-digital-technologies-curriculum-content-f-6-v9.docx) and [Digital Technologies content 7 to 10](https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/technologies/digital-technologies/technologies-digital-technologies-curriculum-content-7-10-v9.docx), Word downloads read on 7 October 2026. We have no connection with ACARA.
 
+Band by band
+
 ## What the achievement standards ask for, quoted
 
 An achievement standard says what a student should be able to do by the end of a band. These lines are taken word for word from the Version 9.0 files.
 
-**Opening of each Digital Technologies achievement standard, Version 9.0**
-
 | By the end of | ACARA's wording (opening sentences) |
-|---|---|
+| --- | --- |
 | Foundation | "students show familiarity with digital systems and use them for a purpose. They represent data using objects, pictures and symbols and identify examples of data that is owned by them." |
 | Year 2 | "students show how simple digital solutions meet a need for known users. Students represent and process data in different ways. They follow and describe basic algorithms involving a sequence of steps and branching." |
 | Year 4 | "students create simple digital solutions and use provided design criteria to check if solutions meet user needs. Students process and represent data for different purposes. They follow and describe simple algorithms involving branching and iteration and implement them as visual programs." |
@@ -79,6 +73,8 @@ Every band asks students to define problems before solving them and to judge sol
 
 Privacy and security also run the whole way through, from identifying personal data in Foundation to recorded usernames and passwords in Years 1 to 2, memorised passwords in Years 3 to 4, unique passphrases in Years 5 to 6, and authentication and threat models in secondary school.
 
+A worked example from Years 7 to 8
+
 ## Why a stolen password is not enough: AC9TDI8P13 in numbers
 
 One Years 7 to 8 content description asks students to "explain how multi-factor authentication protects an account when the password is compromised and identify phishing and other cyber security threats". Here is how we teach it, with arithmetic a Year 8 student can follow.
@@ -91,10 +87,8 @@ Suppose an attacker has the password and a site allows five guesses at the code 
 
 Students then test the idea against the phishing half of the description. ACARA's elaboration lists techniques such as "using an email address from an unofficial domain when pretending to be an online retailer". If a fake page asks for the code as well as the password, the maths stops protecting you, which is why the lesson ends with spotting the fake page rather than trusting the numbers.
 
-**How hard is it to guess the second factor? Our arithmetic, for teaching**
-
 | Second factor | Possible values | Chance with 5 guesses |
-|---|---|---|
+| --- | --- | --- |
 | None (password only, already stolen) | Not applicable | Certain |
 | 4-digit code | 10,000 | 5 in 10,000 (0.05 per cent) |
 | 6-digit code | 1,000,000 | 5 in 1,000,000 (0.0005 per cent) |
@@ -103,6 +97,8 @@ Students then test the idea against the phishing half of the description. ACARA'
 The last row is the reason the content description pairs authentication with phishing. A good lesson does not stop at "turn on two-factor". It shows why it works, then shows exactly how people defeat it, which is the habit of thinking about an attacker that the Years 9 to 10 band later formalises as a threat model.
 
 Quotations: ACARA, Digital Technologies content 7 to 10, Version 9.0, code AC9TDI8P13 and its elaborations, read on 7 October 2026. The guess limits and percentages are an illustration we wrote; real services set their own rules.
+
+Helping at home
 
 ## What families can usefully do in each band
 
@@ -130,14 +126,14 @@ If you want structured help, our classes teach the same skills in a steadier seq
 
 Quoted content descriptions: AC9TDI10P06, AC9TDI10K01 and AC9TDI10P14, ACARA Digital Technologies content 7 to 10, Version 9.0, read on 7 October 2026.
 
+From blocks to text
+
 ## Five rungs through Digital Technologies
 
 Children reach each rung at different ages. The order is what matters.
 
-**A path through the curriculum's programming content**
-
 | Around | Rung | The sign it is secure |
-|---|---|---|
+| --- | --- | --- |
 | Years 1 to 2 | 1. Steps and choices | Describes a sequence with a decision in it, out loud |
 | Years 3 to 4 | 2. Visual programs | Builds a block program with a loop and a condition |
 | Years 5 to 6 | 3. Variables | Uses a variable to keep score or count, and explains why |
@@ -147,63 +143,293 @@ Children reach each rung at different ages. The order is what matters.
 ### If the jump to text code feels steep
 
 Most of the difficulty is typing and syntax, not ideas. Students who could build a working block program already understand loops and conditions; they need time with a text editor.
+
 Short daily practice beats occasional long sessions while that adjustment happens.
 
 ### Beyond the classroom
 
 Students who enjoy the puzzles often try the Bebras Challenge and the Australian Informatics Olympiad, both listed on our [Australian competitions calendar](/australian-coding-maths-and-ai-competitions-calendar).
+
 Senior computing subjects differ by state, and we cover several of them on separate pages.
+
+The catalogue
 
 ## Nine courses for Australian students of Digital Technologies
 
 Grouped by where a student is in the curriculum. Each card opens a full syllabus.
 
+I
+
 ### Primary years
 
 Algorithms and visual code
 
-- [Scratch programming](/courses/scratch-programming-complete-course): The visual language many primary classrooms use, taken further.
-- [Coding for kids](/courses/kids-coding-blocks-masterclass): Blocks to games, apps and a first look at AI.
-- [AI literacy for kids](/courses/ai-literacy-for-kids-course): How AI works, explained without hype.
+ACDT / P / 01
+
+#### Scratch programming
+
+The visual language many primary classrooms use, taken further.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)
+
+ACDT / P / 02
+
+#### Coding for kids
+
+Blocks to games, apps and a first look at AI.
+
+[Open the syllabus](/courses/kids-coding-blocks-masterclass)
+
+ACDT / P / 03
+
+#### AI literacy for kids
+
+How AI works, explained without hype.
+
+[Open the syllabus](/courses/ai-literacy-for-kids-course)II
 
 ### Years 7 to 10
 
 Text programming and data
 
-- [Python for teens](/courses/python-complete-masterclass-teens): Variables to files, with tests written as you go.
-- [SQL and databases](/courses/mysql-mastery-for-teens): Structured data and queries, as the 9 to 10 content describes.
-- [HTML and CSS](/courses/html-css-course-for-beginners-build-real-websites): Content, structure and presentation, built into real pages.
+ACDT / S / 01
+
+#### Python for teens
+
+Variables to files, with tests written as you go.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+ACDT / S / 02
+
+#### SQL and databases
+
+Structured data and queries, as the 9 to 10 content describes.
+
+[Open the syllabus](/courses/mysql-mastery-for-teens)
+
+ACDT / S / 03
+
+#### HTML and CSS
+
+Content, structure and presentation, built into real pages.
+
+[Open the syllabus](/courses/html-css-course-for-beginners-build-real-websites)III
 
 ### Further on
 
 For keen students
 
-- [Problem solving and algorithms](/courses/problem-solving-dsa-masterclass-teens): The step from writing code to designing efficient solutions.
-- [Cyber security for teens](/courses/cybersecurity-course-for-teens-ethical-defensive): Threats, defences and ethics, taught from the defender's side.
-- [Java for teens](/courses/java-programming-masterclass-for-teens): An object-oriented language from first class to full programs.
+ACDT / X / 01
+
+#### Problem solving and algorithms
+
+The step from writing code to designing efficient solutions.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
+
+ACDT / X / 02
+
+#### Cyber security for teens
+
+Threats, defences and ethics, taught from the defender's side.
+
+[Open the syllabus](/courses/cybersecurity-course-for-teens-ethical-defensive)
+
+ACDT / X / 03
+
+#### Java for teens
+
+An object-oriented language from first class to full programs.
+
+[Open the syllabus](/courses/java-programming-masterclass-for-teens)
+
+How lessons run
 
 ## Live classes that fit around an Australian school day
 
 Our teachers work from India, behind every Australian state and territory. A 4.30 pm class in Adelaide in October, for example, starts at 11.30 am India time, so after-school slots are easy for us to staff and to keep steady all year.
 
-- **After school** The usual choice for primary and middle years.
-- **Weekend mornings** Popular with secondary students who have sport after school.
-- **School holidays** A short block on one topic, such as a first text language.
+After school
 
-- **Predict, then run** Students say what code will do before running it, every time.
-- **Testing taught early** Boundary and invalid inputs are part of every program, not an afterthought.
-- **Groups of fifteen to twenty** Placed by what students can already do, not only by year level.
-- **One-to-one if needed** For a gap that needs closing quickly, or a student ready to race ahead.
-- **Short parent notes** What was covered and one thing worth asking about at home.
-- **School work stays theirs** We teach the skill; assessed tasks are completed by the student under the school's rules.
+The usual choice for primary and middle years.
+
+Weekend mornings
+
+Popular with secondary students who have sport after school.
+
+School holidays
+
+A short block on one topic, such as a first text language.
+
+### Predict, then run
+
+Students say what code will do before running it, every time.
+
+### Testing taught early
+
+Boundary and invalid inputs are part of every program, not an afterthought.
+
+### Groups of fifteen to twenty
+
+Placed by what students can already do, not only by year level.
+
+### One-to-one if needed
+
+For a gap that needs closing quickly, or a student ready to race ahead.
+
+### Short parent notes
+
+What was covered and one thing worth asking about at home.
+
+### School work stays theirs
+
+We teach the skill; assessed tasks are completed by the student under the school's rules.
+
+Student work
+
+## Projects our students have published
+
+Built by learners for their own reasons. More are in the [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Families in Australia pay monthly in US dollars, the rate we charge in every country outside India, with no deposit and the option to stop at the end of any month.
 
-- Free first class: USD 0. A live lesson with a teacher. A clear view of where your child sits. No payment details needed.
-- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher each week. Homework reviewed and explained. A certificate at the end.
-- One to one: USD 150 a month. A teacher for your child alone. Built around one goal. Weekly time chosen with you.
+Free first class
+
+USD 0
+
+no card required
+
+- A live lesson with a teacher
+- A clear view of where your child sits
+- No payment details needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students at one level
+- The same teacher each week
+- Homework reviewed and explained
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for your child alone
+- Built around one goal
+- Weekly time chosen with you
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Families describing their experience, quoted as they wrote it on Google.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about Digital Technologies
 
 ## What Australian families ask
 
@@ -247,15 +473,54 @@ No. ACARA writes the curriculum; we are an independent online school whose lesso
 
 We agree a weekly slot after the trial class, usually after school in your state. Every Australian state and territory is ahead of India time, by between two and a half and five and a half hours depending on the state and the season.
 
+Related pages
+
 ## More for Australian students
 
-- [Coding classes in Australia](/coding-classes-in-australia): Our main page for Australian families.
-- [Coding for Year 7](/coding-for-year-7-australia): The step into a text language, in detail.
-- [Online coding for kids](/online-coding-classes-for-kids-australia): Primary-age classes, state by state.
-- [HSC Software Engineering](/hsc-software-engineering-help): Where Digital Technologies leads in NSW.
-- [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar): Bebras, the AIO and more, month by month.
-- [Understand the code](/understand-the-code-dont-copy-paste-australia): Why copied code fails, and what to do instead.
+Curriculum, competitions and coding pathways.
 
-## Contact
+### [Coding classes in Australia](/coding-classes-in-australia)
 
-Book the free first class at [https://learn.modernagecoders.com/australian-curriculum-digital-technologies-help](https://learn.modernagecoders.com/australian-curriculum-digital-technologies-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Our main page for Australian families.
+
+### [Coding for Year 7](/coding-for-year-7-australia)
+
+The step into a text language, in detail.
+
+### [Online coding for kids](/online-coding-classes-for-kids-australia)
+
+Primary-age classes, state by state.
+
+### [HSC Software Engineering](/hsc-software-engineering-help)
+
+Where Digital Technologies leads in NSW.
+
+### [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar)
+
+Bebras, the AIO and more, month by month.
+
+### [Understand the code](/understand-the-code-dont-copy-paste-australia)
+
+Why copied code fails, and what to do instead.
+
+Start here
+
+## Start with a free Digital Technologies class
+
+Tell us the year level and what the class is working on. The free lesson starts from there and ends with a straight answer about next steps.
+
+Prefer to look around first? Every course sits on the [course atlas](/course-atlas), and [how we teach](/how-we-teach) walks through a real lesson.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20class%20to%20help%20with%20Digital%20Technologies%20at%20school.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp usually gets the fastest reply. Our number begins +91 because the school runs from India; we have no Australian office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/australian-curriculum-digital-technologies-help*

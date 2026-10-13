@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths classes for Richmond upon
 canonical: https://learn.modernagecoders.com/coding-classes-in-richmond-upon-thames-london
 source: src/pages/coding-classes-in-richmond-upon-thames-london.html
 ---
-> Richmond upon Thames is the south west London borough of Richmond, Twickenham, Teddington, Kew, Barnes, Hampton, Whitton and East Sheen, home to 195,278 people at the 2021 Census and to Kew Observatory, Hampton Court Palace and Ham House. The coding classes to look for teach a learner to turn a law of nature into a working calculation, and this page does that with Kepler's third law: planetary data from NASA's Jet Propulsion Laboratory, a straight line on a log scale, and then the mass of Jupiter worked out from its moons. We teach live by video from India for ages 6 to 67, one to one or in groups of fifteen to twenty at a single level. There is no charge for the first lesson. Carrying on costs USD 100 a month in a group or USD 150 a month privately.
+> Live online coding, Python, AI and maths classes for Richmond upon Thames: Twickenham, Teddington, Kew, Barnes, Hampton and East Sheen. Ages 6 to 67.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Richmond upon Thames
-
-London Borough of Richmond upon Thames / Live online
-
-# Coding classes in Richmond upon Thames
-
-**What are the best coding classes in Richmond upon Thames?** Richmond upon Thames is the south west London borough of Richmond, Twickenham, Teddington, Kew, Barnes, Hampton, Whitton and East Sheen, home to 195,278 people at the 2021 Census and to Kew Observatory, Hampton Court Palace and Ham House. The coding classes to look for teach a learner to turn a law of nature into a working calculation, and this page does that with Kepler's third law: planetary data from NASA's Jet Propulsion Laboratory, a straight line on a log scale, and then the mass of Jupiter worked out from its moons. We teach live by video from India for ages 6 to 67, one to one or in groups of fifteen to twenty at a single level. There is no charge for the first lesson. Carrying on costs USD 100 a month in a group or USD 150 a month privately.
-
-In Old Deer Park stands Kew Observatory, listed at Grade I. Historic England's entry says it was built in 1768 and 1769 after Dr Stephen Demainbray persuaded George III to take an interest in a transit of Venus, when Venus crosses the face of the Sun. Such transits mattered because they could reveal the scale of the solar system. Our learners pick up the story with modern numbers. NASA's Jet Propulsion Laboratory publishes each planet's distance from the Sun and how fast it moves round. From those, learners find that the square of every planet's year equals the cube of its distance, to within about a tenth of one per cent: Kepler's third law. Then they turn the law round and use the orbits of Jupiter's four largest moons to weigh the planet itself.
-
-Facts last verified 25 September 2026. Teaching is online; no Richmond upon Thames branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Richmond
 
 ## Courses Richmond learners start with
 
 Think of a Year 3 child in Teddington who points out planets on clear evenings, a Year 10 pupil in Twickenham who likes physics more than they let on, a Year 13 student in Barnes applying for physics or engineering, and a retired civil servant in Kew who has always wondered how anyone could weigh a planet. Each can begin with one free lesson.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): A Scratch solar system where outer planets move more slowly, a first look at orbits as a pattern.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 9 to 12): First Python with real planets: distances, years, and a table that shows the outer planets are slow.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Python for Key Stages 3 to 5, including Kepler's law on log scales and the weighing of Jupiter.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): For adults who want to understand how a straight line on a log chart can reveal a law hidden in data.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsA Scratch solar system where outer planets move more slowly, a first look at orbits as a pattern.See the syllabus](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 9 to 12Python and AI for KidsFirst Python with real planets: distances, years, and a table that shows the outer planets are slow.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensPython for Key Stages 3 to 5, including Kepler's law on log scales and the weighing of Jupiter.See the syllabus](/courses/python-complete-masterclass-teens)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For adults who want to understand how a straight line on a log chart can reveal a law hidden in data.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Richmond by the numbers
 
 ## 195,278 residents and 39 Grade I entries
 
 Where a figure is ours, we counted it from the named body's open data; otherwise the body published it directly.
 
-**Richmond upon Thames in four figures**
-
 | What | How many | Whose figure |
-|---|---|---|
+| --- | --- | --- |
 | Residents on Census day 2021 | 195,278 | Office for National Statistics, TS001 |
 | Heritage List entries within the borough boundary | 808, including 39 at Grade I and 85 at Grade II* | Historic England data, counted 25 September 2026 |
 | Branch libraries on the council's list | 11, plus a reference library and local studies collection | Richmond Council, read 25 September 2026 |
@@ -63,14 +49,14 @@ Garrick's Villa and Garrick's Shakespeare Temple are Grade I, as are Strawberry 
 
 Richmond Council lists branch libraries at Castelnau, East Sheen, Ham, Hampton, Hampton Hill, Hampton Wick, Kew, Richmond, Teddington, Twickenham and Whitton.
 
+The data
+
 ## Eight planets, two numbers each
 
 The Jet Propulsion Laboratory's table of approximate planetary positions gives each orbit's average distance from the Sun in astronomical units (au), and how many degrees the planet travels in a century. Dividing 36,000 by that rate gives its year.
 
-**From JPL's table: distance, year, and the Kepler ratio**
-
 | Planet | Distance, au | Year, Earth years | Year squared divided by distance cubed |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Mercury | 0.387 | 0.241 | 1.0000 |
 | Venus | 0.723 | 0.615 | 1.0000 |
 | Earth and Moon | 1.000 | 1.000 | 1.0000 |
@@ -81,6 +67,8 @@ The Jet Propulsion Laboratory's table of approximate planetary positions gives e
 | Neptune | 30.070 | 164.790 | 0.9988 |
 
 The last column is the whole of Kepler's third law. For every planet, the year squared divided by the distance cubed comes out as 1 to within about a tenth of one per cent, when years and au are the units. The small shortfall for the giant planets is a question learners are invited to chase: the numbers are averages over two and a half centuries, and the big planets tug on one another.
+
+Signature project
 
 ## A straight line, a prediction, and a planet on the scales
 
@@ -98,10 +86,8 @@ Fit only Mercury to Mars, then predict Neptune, thirty times further out. The fo
 
 The same law holds for moons round a planet, with the constant set by the planet's mass. Distance cubed over period squared, in au and years, gives Jupiter's mass as a fraction of the Sun's.
 
-**Jupiter weighed four times, from JPL satellite elements, run 25 September 2026**
-
 | Moon | Distance from Jupiter, km | Orbit, days | Jupiter's mass as a fraction of the Sun's |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Io | 421,800 | 1.762732 | 1 / 1,039 |
 | Europa | 671,100 | 3.525463 | 1 / 1,032 |
 | Ganymede | 1,070,400 | 7.155588 | 1 / 1,048 |
@@ -112,6 +98,8 @@ Four moons, four nearly identical answers: Jupiter carries roughly one thousandt
 ### Why this matters more when AI can recite the answer
 
 Any chatbot will tell you Jupiter's mass. What it cannot give a learner is the experience of getting that number themselves from four moons and a law found in a table, and of noticing where the answers disagree. A person who has done that knows the difference between a fact and a measurement, and can judge an AI's confident numbers because they know how such numbers are made.
+
+Back to 1769
 
 ## What Kepler's law could not tell Kew's astronomers
 
@@ -131,6 +119,8 @@ The astronomical unit is now defined as exactly 149,597,870,700 metres, the valu
 
 With that scale, Venus at a transit is about 0.277 au from Earth in a simple circular-orbit picture, around 41.4 million kilometres. Sixth formers can go on to model the two tracks and see how tiny the angles are that eighteenth-century observers had to measure. Pupils working towards GCSE physics or maths can follow the ratios, the log plot and the Jupiter calculation. The planetary figures are JPL's; every fit, prediction and mass on this page is our own calculation, run on 25 September 2026. NASA, JPL, Historic England, Richmond Council, TfL and the ONS have no connection with Modern Age Coders.
 
+Getting around
+
 ## District line to Richmond, lessons at home
 
 Richmond has the District line, the Mildmay line and main-line trains. Learners in our classes use none of them.
@@ -147,16 +137,41 @@ A learner by the river at Barnes and another out at Hampton can join the same cl
 
 Classes keep to a steady pattern: fifteen to twenty learners at one stage, twice a week, at an agreed UK time.
 
-**Richmond and its neighbours** Richmond upon Thames is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) covers all of them and the City, adding a link to each page as it is published, including [Kingston upon Thames](/coding-classes-in-kingston-upon-thames-london) to the south.
+Richmond and its neighbours
+
+Richmond upon Thames is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) covers all of them and the City, adding a link to each page as it is published, including [Kingston upon Thames](/coding-classes-in-kingston-upon-thames-london) to the south.
+
+Learning ladder
 
 ## From a model solar system to weighing planets
 
 We find each learner's rung in the free lesson. A school year tells us roughly where to look, nothing more.
 
-- **Ages 6 to 10: Planets in motion** Children animate planets in Scratch and notice that the far ones take longer to go round. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 10 to 13: Tables and patterns** Python tables of distances and years, squares and cubes, and a first look for a rule that fits them all. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 18: Laws from data** Log plots, fitted slopes, held-back predictions and physical constants, strong material for physics, maths or computing projects. [Python for Teens](/courses/python-complete-masterclass-teens), [Full Stack Web Development for Teens](/courses/full-stack-web-development-teens-masterclass)
-- **Ages 18 to 67: Seeing structure** Adults learn how scientists find laws in data and why a log scale can turn a curve into a line. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### Planets in motion
+
+Children animate planets in Scratch and notice that the far ones take longer to go round.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 10 to 13
+
+### Tables and patterns
+
+Python tables of distances and years, squares and cubes, and a first look for a rule that fits them all.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 18
+
+### Laws from data
+
+Log plots, fitted slopes, held-back predictions and physical constants, strong material for physics, maths or computing projects.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Full Stack Web Development for Teens](/courses/full-stack-web-development-teens-masterclass)Ages 18 to 67
+
+### Seeing structure
+
+Adults learn how scientists find laws in data and why a log scale can turn a curve into a line.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## AI knows Kepler's law already. Why should a Richmond teenager rediscover it?
 
@@ -168,30 +183,139 @@ Learners also practise a scientist's honesty: noticing that Io and Europa disagr
 
 Kew Observatory was built because people wanted to measure the heavens. A Richmond learner who can do some of that measuring with code is continuing a very local project. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Teddington to Twickenham, every class live
 
 From any part of Richmond upon Thames, class begins when the video call starts.
 
-- **From your own room** Learners need a laptop or desktop, headphones, and an internet connection steady enough for an hour of video.
-- **English school stages** We use the Key Stages of English schools, from Key Stage 1 to sixth form, and name GCSE and A level where they apply. Classes are taught in English.
-- **First lesson on us** The free lesson is actual teaching, and by the end the teacher can suggest where the learner should start. We do not ask for any card details.
-- **Grouped by stage** Fifteen to twenty learners who are at the same point share a class, gathered from across the UK and abroad so that a good hour is available.
-- **Twice each week** Classes normally run on two evenings a week and stop for half terms, holidays and exam time as agreed.
-- **Times you can trust** Teachers work in India, and every time we give is already converted to UK time.
+### From your own room
 
-**Nearly 200,000 residents, one right class** Richmond upon Thames has around 195,000 residents, and a good group needs five learners at the same stage free at the same hour, so our classes reach far beyond the borough.
+Learners need a laptop or desktop, headphones, and an internet connection steady enough for an hour of video.
+
+### English school stages
+
+We use the Key Stages of English schools, from Key Stage 1 to sixth form, and name GCSE and A level where they apply. Classes are taught in English.
+
+### First lesson on us
+
+The free lesson is actual teaching, and by the end the teacher can suggest where the learner should start. We do not ask for any card details.
+
+### Grouped by stage
+
+Fifteen to twenty learners who are at the same point share a class, gathered from across the UK and abroad so that a good hour is available.
+
+### Twice each week
+
+Classes normally run on two evenings a week and stop for half terms, holidays and exam time as agreed.
+
+### Times you can trust
+
+Teachers work in India, and every time we give is already converted to UK time.
+
+Nearly 200,000 residents, one right class
+
+Richmond upon Thames has around 195,000 residents, and a good group needs five learners at the same stage free at the same hour, so our classes reach far beyond the borough.
+
+Fees
 
 ## Fees for Richmond families
 
 A free first lesson, then one monthly fee, identical in Kew, Hampton and everywhere between.
 
-- First class: USD 0. A full first lesson with a teacher, free, ending with a recommended level, course and time.
-- Group tuition: USD 100 a month. About eight live lessons a month in a group of fifteen to twenty at the same level.
-- Private tuition: USD 150 a month. About eight live lessons a month, the learner alone with the teacher.
+First class**USD 0**
+
+A full first lesson with a teacher, free, ending with a recommended level, course and time.
+
+Group tuition**USD 100**
+
+About eight live lessons a month in a group of fifteen to twenty at the same level.
+
+Private tuition**USD 150**
+
+About eight live lessons a month, the learner alone with the teacher.
 
 Families in Richmond upon Thames pay in US dollars, as all families outside India do; pound prices are not shown anywhere on the site. Payment begins only after the free lesson and after you have chosen a course and a weekly time. Pausing, missed lessons and switching between a group and one-to-one lessons are explained on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Richmond%20upon%20Thames.)Reviews
+
+## Six families, reviewing us on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book your free lesson
+
+Give us the learner's age or year and one interest. We could start with a Scratch solar system, a Python table of planets, or weighing Jupiter as on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Richmond upon Thames one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Richmond%20upon%20Thames.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Richmond families' questions
+
+On the borough, the Kepler project and how lessons work.
 
 ### How many people live in Richmond upon Thames?
 
@@ -233,10 +357,14 @@ The first lesson is free. After that, a group place costs USD 100 a month for tw
 
 By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
 
+Explore London
+
 ## From Richmond to the rest of the map
 
 The [London page](/best-coding-class-in-london) is our index of the capital, with each borough linked as its page goes live, from [Hounslow](/coding-classes-in-hounslow-london) next door to [Bromley](/coding-classes-in-bromley-london) across the south. Learners drawn to modelling and prediction can carry on with our [AI and machine learning classes in London](/ai-and-machine-learning-classes-in-london), while the [UK coding page](/coding-classes-in-united-kingdom) compares how England, Scotland, Wales and Northern Ireland organise school years.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Richmond%20upon%20Thames.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-richmond-upon-thames-london](https://learn.modernagecoders.com/coding-classes-in-richmond-upon-thames-london#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-richmond-upon-thames-london*

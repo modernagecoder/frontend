@@ -39,8 +39,10 @@ A free demo that never happens is worth less than a paid one that does.
 - **A reserved mentor.** Your slot is blocked in a mentor's calendar the moment you pay.
 - **Your choice of time.** You pick it. We work around you, including for families outside India.
 - **No cost to enrolled students.** We never cancel or shorten a paid class to fit a demo.
+- **A full class.** About 45 to 60 minutes, long enough for real work on a real problem.
+- **A written skill report.** The mentor writes up what the student knows, what they built and what to learn next, and sends it with a learning roadmap on WhatsApp.
 
-It is a one-time fee for one class. It is not a subscription and it does not commit you to a course. See the side by side in [free demo vs priority demo](/free-demo-vs-priority-demo).
+It is a one-time fee for one class. It is not a subscription and it does not commit you to a course. If you do enrol, send us your demo Order ID on WhatsApp and we adjust the demo fee against your first month, so a family that joins has paid nothing extra for the certainty. See the side by side in [free demo vs priority demo](/free-demo-vs-priority-demo).
 
 ## What stays free
 

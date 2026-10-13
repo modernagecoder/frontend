@@ -4,34 +4,28 @@ description: "Coding classes for UK teenagers, ages 13 to 18: Python, web, data 
 canonical: https://learn.modernagecoders.com/best-coding-classes-for-teens-uk
 source: src/pages/best-coding-classes-for-teens-uk.html
 ---
-> A coding class earns its place with a British teenager by teaching them to check. Ofcom's 2026 report found that 92 per cent of 13 to 17-year-olds have heard of AI, two-thirds of 16 to 17-year-olds have used it, half of child AI users use it for schoolwork, and among those who read AI summaries in search results, 46 per cent think that information is always accurate. Ofcom also tested the confidence: a quarter of the teenagers who said they were confident at spotting AI-generated content could not identify the AI-generated image they were shown. Coding is the subject where checking is cheap and the answer is not a matter of opinion. We teach teenagers live online, in groups of fifteen to twenty at one level or one to one, around GCSE, National 5, Higher, CCEA and A level years. The first lesson is free; after that it is USD 100 a month in a group or USD 150 one to one.
+> Coding classes for UK teenagers, ages 13 to 18: Python, web, data and AI taught live by a teacher who reads the code and teaches checking. The first class is free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Coding for teens, UK
+In short
 
-United Kingdom · Ages 13 to 18 · Live online
+A coding class earns its place with a British teenager by teaching them to check. Ofcom's 2026 report found that 92 per cent of 13 to 17-year-olds have heard of AI, two-thirds of 16 to 17-year-olds have used it, half of child AI users use it for schoolwork, and among those who read AI summaries in search results, 46 per cent think that information is always accurate. Ofcom also tested the confidence: a quarter of the teenagers who said they were confident at spotting AI-generated content could not identify the AI-generated image they were shown. Coding is the subject where checking is cheap and the answer is not a matter of opinion. We teach teenagers live online, in groups of fifteen to twenty at one level or one to one, around GCSE, National 5, Higher, CCEA and A level years. The first lesson is free; after that it is USD 100 a month in a group or USD 150 one to one.
 
-# Best coding classes for teens in the UK
-
-Ofcom asked British children this year whether the AI summaries they read at the top of search results are always accurate. Among those who read them, 46 per cent said yes. Twenty-one per cent disagreed. That is the situation a coding class for a British teenager walks into: not a shortage of access to AI, and not a shortage of confidence, but a shortage of checking. Programming happens to be the one subject at school where a teenager can settle an argument in four seconds by running the thing. This page sets out what Ofcom actually measured, a data project built from the small print of its own report, and how our lessons fit around GCSEs, Nationals, CCEA courses and A levels.
-
-At a glance: Ages: 13 to 18; Covers: Python, web, data, AI; Fits: GCSE, National 5, Higher, CCEA, A level; Group: Fifteen to twenty at one level; Or: One to one; Teacher: Named, and the same one; Habit: Predict, run, compare; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three courses for UK teenagers
 
 The language, the thing they can show people, and the models behind the tools they already use. Each card opens a full syllabus.
 
-- [Python for Teens](/courses/python-complete-masterclass-teens): The language most UK exam boards use, taught until a student can write it from an empty file and read code they did not write.
-- [Full Stack Web Development for Teens](/courses/full-stack-web-development-teens-masterclass): A working site with its own data, which is the project a sixth-form or apprenticeship interviewer will actually open.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens): Models trained and tested by the student, so that a confident wrong answer from a chatbot becomes recognisable.
+[![Python for Teens course thumbnail](/images/python-teens.webp)  TEENS / 01 Python for Teens The language most UK exam boards use, taught until a student can write it from an empty file and read code they did not write. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Full Stack Web Development for Teens course thumbnail](/images/web-dev-teens.webp)  TEENS / 02 Full Stack Web Development for Teens A working site with its own data, which is the project a sixth-form or apprenticeship interviewer will actually open. Open the syllabus →](/courses/full-stack-web-development-teens-masterclass)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)  TEENS / 03 AI and Machine Learning for Teens Models trained and tested by the student, so that a confident wrong answer from a chatbot becomes recognisable. Open the syllabus →](/courses/ai-ml-masterclass-teens)
+
+What Ofcom found
 
 ## British teenagers, AI, and a gap that is not about access
 
 Ofcom published its Children and Parents: Media Use and Attitudes Report on 21 May 2026. Every figure below is taken from it directly.
 
-**AI and UK children, Ofcom 2026**
-
 | What Ofcom asked | What it found | Who was asked |
-|---|---|---|
+| --- | --- | --- |
 | Heard of AI such as ChatGPT, CoPilot or Gemini | 86 per cent, rising to 92 per cent of 13 to 17s | All children aged 8 to 17 |
 | Have used AI | 56 per cent, rising to 66 per cent of 16 to 17s | All children aged 8 to 17 |
 | Use AI for schoolwork or homework | 51 per cent, up from 45 per cent last year | Children who have used AI |
@@ -52,6 +46,8 @@ None of this argues that teenagers should use AI less. It argues that they need 
 
 Source, read 20 September 2026: [Ofcom, Children and Parents: Media Use and Attitudes Report](https://www.ofcom.org.uk/media-use-and-attitudes/media-habits-children/childrens), published 21 May 2026. Figures are quoted with the base Ofcom states for each one.
 
+A data project
+
 ## Four percentages, four different denominators
 
 This is a real exercise we run with teenage students, and the dataset is the report above. It takes a lesson and it changes how a student reads every statistic afterwards.
@@ -64,10 +60,8 @@ The task we set is simple and the answer is not: state, for each figure, exactly
 
 There is a second trap in the footnotes. Ofcom reports schoolwork use rising from 34 per cent in 2023 to 45 per cent in 2024 to 51 per cent this year, and then adds that "Trends are indicative due to changes in methodology". A student who draws a trend line has drawn something the publisher explicitly warned against.
 
-**The same report, four base lines**
-
 | Figure | Base Ofcom used | What it cannot be compared with |
-|---|---|---|
+| --- | --- | --- |
 | 56 per cent have used AI | All children aged 8 to 17 | Anything based only on AI users |
 | 51 per cent use AI for schoolwork | Children who have used AI | The 56 per cent above, without recalculating |
 | 46 per cent say AI summaries are always accurate | Children who read AI summaries | Either of the two above |
@@ -77,14 +71,14 @@ Doing this properly needs Python rather than a calculator, because the honest ve
 
 The same discipline applies to code a tool writes. A student who can state what a function should return before running it can tell, in seconds, whether the thing they were handed is right, and a student who cannot is trusting a stranger with their coursework.
 
+Around the exam years
+
 ## Four school systems, one timetable that bends
 
 A teenager in Glasgow, Cardiff, Belfast and Birmingham is on four different qualification tracks. Lessons are planned around whichever one applies.
 
-**What a teenager is usually working towards, by nation**
-
 | Nation | The years that matter | Where to read more |
-|---|---|---|
+| --- | --- | --- |
 | England | GCSEs in Years 10 and 11, A levels in Years 12 and 13 | [Coding and AI classes in England](/coding-and-ai-classes-in-england) |
 | Scotland | National 5 in S4, Higher in S5, Advanced Higher in S6 | [Coding and AI classes in Scotland](/coding-and-ai-classes-in-scotland) |
 | Wales | The Made-for-Wales GCSE, sat on screen in Python | [Coding and AI classes in Wales](/coding-and-ai-classes-in-wales) |
@@ -100,14 +94,14 @@ For a student aiming higher still, the [British Informatics Olympiad](/british-i
 
 Exam years are handled by easing off rather than pushing harder. Lessons thin out in the weeks before papers and pick up once they are done, because a teenager revising for nine subjects does not need a tenth commitment in May.
 
+Progression
+
 ## Four steps through the teenage years
 
 Where a student starts is decided by what they can already build, not by the year group on the register.
 
-**What a teenager can usually show at each step**
-
 | Step | Typical starting point | Evidence it is done |
-|---|---|---|
+| --- | --- | --- |
 | 1. Typed code without fear | A student who has only ever used blocks | Short Python programs written from a blank file, with the bugs found by the student |
 | 2. Programs with structure | A student who can type but not plan | Functions, lists and files used because the problem needed them, and explained in their own words |
 | 3. Something other people use | A student who wants to show someone | A site, game or tool put online, with a note of what it does and what it does not |
@@ -116,63 +110,293 @@ Where a student starts is decided by what they can already build, not by the yea
 ### Starting late is normal
 
 Plenty of fifteen-year-olds arrive having done almost nothing typed, usually because their school taught computing lightly. They move through the first two steps in a term, faster than a younger learner would, because they read and reason better.
+
 The full topic order, well past school, is on the [coding roadmap](/coding-roadmap).
 
 ### Being ahead is also normal
 
 A student already writing Python does not repeat it. They move to problems with no obvious answer, which is where algorithms, data and models begin.
+
 That is usually the point at which a competition or an independent project becomes the right next thing.
+
+The catalogue
 
 ## Nine courses taught live to UK teenagers
 
 Grouped by where most students are when they join. The free lesson settles which one is right.
 
+I
+
 ### Starting out
 
 For a teenager new to typed code
 
-- [First Python](/courses/python-ai-kids-masterclass): The move from blocks to a keyboard, taken slowly enough that nothing is guessed at.
-- [Python in full](/courses/python-complete-masterclass-teens): The whole language, taught by predicting what each piece will do before running it.
-- [GCSE Computer Science](/courses/gcse-computer-science-course): Theory and programming aligned to the board a school has actually chosen.
+UK / T1 / 01
+
+#### First Python
+
+The move from blocks to a keyboard, taken slowly enough that nothing is guessed at.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)
+
+UK / T1 / 02
+
+#### Python in full
+
+The whole language, taught by predicting what each piece will do before running it.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+UK / T1 / 03
+
+#### GCSE Computer Science
+
+Theory and programming aligned to the board a school has actually chosen.
+
+[Open the syllabus](/courses/gcse-computer-science-course)II
 
 ### Building things
 
 For a teenager who wants something to show
 
-- [Full stack web development](/courses/full-stack-web-development-teens-masterclass): A site with a database behind it, deployed where anyone can open it.
-- [App development](/courses/complete-app-development-masterclass-for-teens): A phone app taken from sketch to store-ready, including the parts nobody enjoys.
-- [Building with AI assistance](/courses/vibe-coding-for-teens-python-web-ai-projects-course): Working alongside AI tools properly: reviewing, testing and keeping a record of what came from where.
+UK / T2 / 01
+
+#### Full stack web development
+
+A site with a database behind it, deployed where anyone can open it.
+
+[Open the syllabus](/courses/full-stack-web-development-teens-masterclass)
+
+UK / T2 / 02
+
+#### App development
+
+A phone app taken from sketch to store-ready, including the parts nobody enjoys.
+
+[Open the syllabus](/courses/complete-app-development-masterclass-for-teens)
+
+UK / T2 / 03
+
+#### Building with AI assistance
+
+Working alongside AI tools properly: reviewing, testing and keeping a record of what came from where.
+
+[Open the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)III
 
 ### Going deeper
 
 For a teenager ahead of their school course
 
-- [AI and machine learning](/courses/ai-ml-masterclass-teens): Models trained from data by the student, then broken on purpose to see what they cannot do.
-- [Data science with Python](/courses/data-science-course-for-teens-python-data): Published datasets cleaned and questioned, base lines included, exactly as in the project above.
-- [Algorithms and data structures](/courses/problem-solving-dsa-masterclass-teens): The problems that do not yield to more typing, worked on paper before any code is written.
+UK / T3 / 01
+
+#### AI and machine learning
+
+Models trained from data by the student, then broken on purpose to see what they cannot do.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+UK / T3 / 02
+
+#### Data science with Python
+
+Published datasets cleaned and questioned, base lines included, exactly as in the project above.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)
+
+UK / T3 / 03
+
+#### Algorithms and data structures
+
+The problems that do not yield to more typing, worked on paper before any code is written.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
+
+How lessons work
 
 ## A named teacher, a fixed slot, and code read every week
 
 Teachers work from India, where the clocks do not change, so the UK is five and a half hours behind in winter and four and a half in summer. Most teenagers settle on an evening or a weekend morning and keep it.
 
-- **Early evening** The common choice once homework is out of the way.
-- **Later evening** Suits sixth formers with commitments after school.
-- **Weekend morning** Longer, and better for finishing a project in one go.
+Early evening
 
-- **Predict before running** A student says what the code will do before it runs. Being wrong out loud is the fastest way to stop being wrong.
-- **A person reads the code** Every week, line by line, with the student explaining choices. This is the part a recorded course cannot do.
-- **AI used openly** Allowed once a student can predict the answer, and logged: what the tool suggested, what was kept, and why.
-- **School vocabulary** Teachers talk about Year 11, S4, CCEA or WJEC the way the student does. Lessons are in English.
-- **Groups by level** Five to ten teenagers at the same stage, reading each other's code, which is where most of the arguing happens.
-- **Work kept in public** Finished projects go to the student's own repository, which is what a sixth form, apprenticeship or university can actually look at.
+The common choice once homework is out of the way.
+
+Later evening
+
+Suits sixth formers with commitments after school.
+
+Weekend morning
+
+Longer, and better for finishing a project in one go.
+
+### Predict before running
+
+A student says what the code will do before it runs. Being wrong out loud is the fastest way to stop being wrong.
+
+### A person reads the code
+
+Every week, line by line, with the student explaining choices. This is the part a recorded course cannot do.
+
+### AI used openly
+
+Allowed once a student can predict the answer, and logged: what the tool suggested, what was kept, and why.
+
+### School vocabulary
+
+Teachers talk about Year 11, S4, CCEA or WJEC the way the student does. Lessons are in English.
+
+### Groups by level
+
+Five to ten teenagers at the same stage, reading each other's code, which is where most of the arguing happens.
+
+### Work kept in public
+
+Finished projects go to the student's own repository, which is what a sixth form, apprenticeship or university can actually look at.
+
+Student work
+
+## Projects UK teenagers have put online
+
+Four live examples from students of about this age. More are on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## What UK families pay for teenage classes
 
 One monthly figure in US dollars, the same for every country outside India. No deposit and no annual contract.
 
-- Free first class: USD 0. A full lesson with a teacher. An honest view of the starting step. No card details asked for.
-- Group batch: USD 100 a month. Five to ten teenagers at one level. The same teacher through the year. Code read and commented on weekly. A certificate at the end of a course.
-- One to one: USD 150 a month. One teacher, one teenager. Planned around exam dates. Right for deadlines and for students well ahead.
+Free first class
+
+USD 0
+
+no card required
+
+- A full lesson with a teacher
+- An honest view of the starting step
+- No card details asked for
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Five to ten teenagers at one level
+- The same teacher through the year
+- Code read and commented on weekly
+- A certificate at the end of a course
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- One teacher, one teenager
+- Planned around exam dates
+- Right for deadlines and for students well ahead
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Taken from Google exactly as written. Nobody is paid or asked to leave one.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions from UK families
 
 ## What parents of teenagers ask first
 
@@ -216,15 +440,54 @@ Groups are built by level rather than by age, so a fast fourteen-year-old and a 
 
 The first lesson is free. Continuing is USD 100 a month in a group or USD 150 a month one to one, with nothing to pay up front and no annual tie-in.
 
+Elsewhere on this site
+
 ## Related pages for UK families
 
-- [Coding classes in the UK](/coding-classes-in-united-kingdom): The four school systems, and every UK page in this series.
-- [Best online coding classes in the UK](/best-online-coding-classes-uk): Seven checks for judging any provider, at any age.
-- [Coding and AI classes in England](/coding-and-ai-classes-in-england): What the computing curriculum says and who has to follow it.
-- [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar): Everything a teenager can enter this year, with closing dates.
-- [British Informatics Olympiad](/british-informatics-olympiad-preparation): The national round for students well ahead of their course.
-- [Student labs](/student-labs): Projects our students have built and published.
+Each one goes deeper into a single part of this.
 
-## Contact
+### [Coding classes in the UK](/coding-classes-in-united-kingdom)
 
-Book the free first class at [https://learn.modernagecoders.com/best-coding-classes-for-teens-uk](https://learn.modernagecoders.com/best-coding-classes-for-teens-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The four school systems, and every UK page in this series.
+
+### [Best online coding classes in the UK](/best-online-coding-classes-uk)
+
+Seven checks for judging any provider, at any age.
+
+### [Coding and AI classes in England](/coding-and-ai-classes-in-england)
+
+What the computing curriculum says and who has to follow it.
+
+### [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar)
+
+Everything a teenager can enter this year, with closing dates.
+
+### [British Informatics Olympiad](/british-informatics-olympiad-preparation)
+
+The national round for students well ahead of their course.
+
+### [Student labs](/student-labs)
+
+Projects our students have built and published.
+
+Start here
+
+## Book a free first lesson
+
+Send a number and we will come back at a UK time that suits. The first lesson is real teaching on a real problem, and it ends with a straight answer about where the teenager should start.
+
+Rather read first? Every syllabus is on the [course pages](/courses), the method is set out in [how we teach](/how-we-teach), and the topic order is on the [coding roadmap](/coding-roadmap).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20first%20coding%20class%20for%20a%20teenager%20in%20the%20UK.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp from a UK mobile is free and usually fastest. The number is Indian, which we say plainly; there is no British office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-classes-for-teens-uk*

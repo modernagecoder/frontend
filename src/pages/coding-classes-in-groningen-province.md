@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes across the province of G
 canonical: https://learn.modernagecoders.com/coding-classes-in-groningen-province
 source: src/pages/coding-classes-in-groningen-province.html
 ---
-> Coding classes in the province of Groningen serve 601,286 people in ten municipalities (Statistics Netherlands, 1 January 2026), the fewest municipalities of any province and the largest share held by one city: four residents in ten live in the municipality of Groningen. Under the northern half of the province lies the gas field found at Slochteren in 1959 and shut on 1 October 2023, and the earthquakes it caused are reported on a scale in which the strongest, 3.6 at Huizinge in 2012, released forty-one percent more energy than the 3.5 at Westeremden six years earlier, not three percent. Modern Age Coders teaches the same live online class in English in all ten municipalities, for anyone aged 6 to 67, the first lesson costing nothing and the months after it USD 100 in a group of fifteen to twenty or USD 150 with a teacher alone.
+> Live online coding, Python and AI classes across the province of Groningen, ages 6 to 67: the city, Westerkwartier, Het Hogeland, Eemsdelta, Oldambt and all ten.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / the province of Groningen
-
-Province of Groningen / Live online
-
-# Coding classes in the province of Groningen, where 3.6 is not three percent more than 3.5
-
-**What are the best coding classes in the province of Groningen?** Coding classes in the province of Groningen serve 601,286 people in ten municipalities (Statistics Netherlands, 1 January 2026), the fewest municipalities of any province and the largest share held by one city: four residents in ten live in the municipality of Groningen. Under the northern half of the province lies the gas field found at Slochteren in 1959 and shut on 1 October 2023, and the earthquakes it caused are reported on a scale in which the strongest, 3.6 at Huizinge in 2012, released forty-one percent more energy than the 3.5 at Westeremden six years earlier, not three percent. Modern Age Coders teaches the same live online class in English in all ten municipalities, for anyone aged 6 to 67, the first lesson costing nothing and the months after it USD 100 in a group of fifteen to twenty or USD 150 with a teacher alone.
-
-A headline says a 3.6 earthquake, a neighbour says the one in 2006 was 3.5, and everyone in the room agrees they were about the same. They were not. The scale is a logarithm: a tenth of a magnitude is a quarter more ground movement and two fifths more energy, and the gap between the 3.6 at Huizinge and the 2.0 quakes the region shrugged off in the 1990s is not eighty percent but a factor of 251. The program that says so is a single line with a power of ten in it, and a child in Loppersum should own it.
-
-Facts last verified 7 September 2026. Teaching is online; no the province of Groningen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for the province of Groningen
 
 ## Four courses for a province with a university city and nine municipalities around it
 
 The province has more residents aged fifteen to twenty-five than under fifteen, which no other province on this site can say, and the four doors below are chosen with that in mind: a child in Winschoten, a teenager in Delfzijl, a student in the city, and a parent in Hoogezand.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Scratch from a blank stage to a real game in three months, in English, for the groep 3 to 6 child anywhere from Uithuizen to Stadskanaal.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 17): Python, real datasets and a first machine-learning model, for the teenager who wants to plot the quake record instead of reading about it.
-- [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) (College and adult): Deep learning and generative AI in Python, for the student at the Rijksuniversiteit or the Hanze who wants the maths behind the models, not just the API.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (Adults): Scripting, scraping and automation for the parent whose working day in Eemshaven, Veendam or the city is a stack of repeated tasks a program could do.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsScratch from a blank stage to a real game in three months, in English, for the groep 3 to 6 child anywhere from Uithuizen to Stadskanaal.See the syllabus](/courses/scratch-programming-complete-course)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 17Data Science for TeensPython, real datasets and a first machine-learning model, for the teenager who wants to plot the quake record instead of reading about it.See the syllabus](/courses/data-science-course-for-teens-python-data)[![AI and ML Masterclass course thumbnail](/images/ai-ml-college.webp)College and adultAI and ML MasterclassDeep learning and generative AI in Python, for the student at the Rijksuniversiteit or the Hanze who wants the maths behind the models, not just the API.See the syllabus](/courses/ai-ml-masterclass-complete-college)[![Python Automation Course course thumbnail](/images/python-college.webp)AdultsPython Automation CourseScripting, scraping and automation for the parent whose working day in Eemshaven, Veendam or the city is a stack of repeated tasks a program could do.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)The province of Groningen today
 
 ## Ten municipalities, one of them holding four residents in ten
 
@@ -52,7 +40,11 @@ The municipality of Groningen holds 244,427 people, 40.7 percent of the province
 
 The gas field found near Slochteren on 22 July 1959, the largest in Europe, produced for six decades and was shut on 1 October 2023 with formal abandonment in 2024. Its legacy is a quake record that continues after the last cubic metre: a 3.4 near Zeerijp on 14 November 2025, two years after the taps closed.
 
-**The names of the land** The Westerkwartier in the west towards Friesland; the Hogeland along the Wadden coast with Eemshaven at its tip; Oldambt and Westerwolde in the east against Germany; and the Veenkoloniën, the peat colonies, in the south-east around Veendam and Stadskanaal. Three uninhabited islands, Rottumeroog, Rottumerplaat and the Zuiderduintjes, belong to the province and nobody lives on them.
+The names of the land
+
+The Westerkwartier in the west towards Friesland; the Hogeland along the Wadden coast with Eemshaven at its tip; Oldambt and Westerwolde in the east against Germany; and the Veenkoloniën, the peat colonies, in the south-east around Veendam and Stadskanaal. Three uninhabited islands, Rottumeroog, Rottumerplaat and the Zuiderduintjes, belong to the province and nobody lives on them.
+
+The spread
 
 ## From the city to Pekela: all ten municipalities, by population
 
@@ -84,6 +76,8 @@ Stadskanaal 32,110; Veendam 27,825; Pekela 12,579, the smallest. The straight ca
 
 Ten, and all ten are above; a province with so few can be listed in full without a table. The city page will go close; this one stays where Pekela and Eemshaven are both in view.
 
+Verified local facts
+
 ## The offices behind every number, and the two things the sources disagree on
 
 The provincial count, the ten registers, the encyclopaedia entries on the field and the quakes, the meteorological institute, and the definition of the scale.
@@ -114,6 +108,8 @@ The English entry on the Richter scale: each whole-number step is a tenfold incr
 
 Nothing on this page implies a tie between Modern Age Coders and the province, its ten municipalities, the institute or the villages it names; there is none. They are here because a page that says it teaches the province of Groningen should know what the province has been through.
 
+Signature project
+
 ## Huizinge 3.6, Westeremden 3.5: build the program that shows how far apart they really were
 
 Five quakes from the record, one definition of the scale, and a table in which every gap that looked small turns out not to be.
@@ -130,10 +126,8 @@ Huizinge 3.6 against Westeremden 3.5: the naive reading says three percent more;
 
 The learner then turns it round: how many magnitude-3.5 quakes equal one 3.6 in energy? About 1.4. How many 2.0 quakes? About 251. And how much bigger would the next one have to be to double Huizinge? Only 0.2, which is the gap between a headline nobody notices and one everybody does.
 
-**Five Groningen quakes against Huizinge, read two ways**
-
 | Quake | Magnitude | Naive gap to 3.6 | Amplitude ratio | Energy ratio |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Huizinge, 16 August 2012 | 3.6 | none | 1 | 1 |
 | Westeremden, 2006 | 3.5 | 3 percent | 1.26 | 1.41 |
 | Zeerijp, 2018 and 14 November 2025 | 3.4 | 6 percent | 1.58 | 2.0 |
@@ -144,14 +138,14 @@ The learner then turns it round: how many magnitude-3.5 quakes equal one 3.6 in 
 
 Scales that go up by tens are built for the people who measure, not the people who read: they fold a range of a million into a number between one and seven, and the folding hides the size of every gap. A headline that reports 3.6 beside 3.5 is not lying, but it has handed the reader a number that must be raised to a power before it means anything, and almost nobody does. A learner who has written the two lines once will read every magnitude, every decibel and every pH for the rest of their life as an exponent waiting to be undone. The table was computed before this paragraph was written: the five magnitudes are quoted from the published record, the factors of ten and 31.6 from the published definition of the scale, and every ratio is that arithmetic and nothing else.
 
+Reliable pipeline
+
 ## Five habits for any number that arrives on a logarithmic scale
 
 Magnitudes, decibels, pH, stellar brightness, the f-stops on a camera, the octaves on a piano: each is a logarithm that reads like a count. Rehearsed first on the quakes the province has felt.
 
-**When a number is really an exponent**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Ask what base | Find out whether the scale is linear, base ten, or something else before comparing two values | Subtracting magnitudes as if they were counts | The right operation |
 | Undo the log | Convert to the underlying quantity, then compare | A 3 percent gap that is really 41 | Ratios that mean something |
 | Know the exponent | Amplitude scales as ten to the difference; energy as ten to one and a half times it | Quoting the amplitude factor for the energy | Two ratios, both right |
@@ -172,14 +166,37 @@ The same two lines on a scale from work: a decibel reading on a site near Eemsha
 
 The provincial totals, the ten municipal populations, the areas, the dates of the field and the five magnitudes are published by the offices and the entries named in the sentences that use them. The ratios are two lines of arithmetic on the published definition of the scale, presented as exactly that, and the page states where the sources disagree rather than choosing between them.
 
+Learning ladder
+
 ## From a staircase of bean cups to a function that undoes a logarithm
 
 The rung is found in the free lesson; whether the laptop is in the city or in Pekela is not part of the finding.
 
-- **Ages 6 to 10: Ten times, not one more** Children climb a staircase of cups and learn that each step multiplies rather than adds. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Early Math Foundations](/courses/early-math-foundations)
-- **Ages 11 to 13: Powers of ten in Python** Learners write ten to the power of a difference and compare two magnitudes properly. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 14 to 18: Amplitude, energy and a log-scaled chart** Teenagers plot the quake record twice and learn which axis tells the truth. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Logarithms at work** Adults undo decibels, pH and stellar magnitudes from their own field and present the ratios. [Maths for Data Science](/courses/data-analytics-mathematics-masterclass), [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college)
+Ages 6 to 10
+
+### Ten times, not one more
+
+Children climb a staircase of cups and learn that each step multiplies rather than adds.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Early Math Foundations](/courses/early-math-foundations)Ages 11 to 13
+
+### Powers of ten in Python
+
+Learners write ten to the power of a difference and compare two magnitudes properly.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### Amplitude, energy and a log-scaled chart
+
+Teenagers plot the quake record twice and learn which axis tells the truth.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Logarithms at work
+
+Adults undo decibels, pH and stellar magnitudes from their own field and present the ratios.
+
+[Maths for Data Science](/courses/data-analytics-mathematics-masterclass)[AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college)Coding and AI
 
 ## An AI will tell you Huizinge was magnitude 3.6. Why should a child in Delfzijl learn what the six is worth?
 
@@ -191,30 +208,139 @@ Which is the reason the learner writes it rather than asking for it. The syntax 
 
 A Groningen parent weighing coding in 2026, then, is not weighing a career in seismology. What is on the scale is that a number on a logarithmic scale is a folded number, that unfolding it is two lines, and that a child who has unfolded the province's own quake record will never again mistake a tenth of a magnitude for a tenth of anything. The longer argument is in [whether coding is worth learning in a year when AI writes most of it](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for a province where every road leads to one city
 
 The rail lines, the bus routes and the ring road all meet in Groningen, and for a family in Ter Apel or Uithuizen that is the better part of an hour each way. A class in the kitchen in Westerwolde does not go through the city at all.
 
-- **The ring road stays empty** The lesson is at home in Winschoten, Leek or Delfzijl at a fixed hour, and nobody joins the queue on the A7 for it.
-- **English, with Dutch where the school uses it** Groep, havo, vwo and profielkeuze are said as the school says them; the lesson around them is in English, which is the language the university's international families and the Eemshaven firms already work in.
-- **One hour free, then a named rung** A real task at the learner's level, then a course and a starting point, and no card is asked for to arrange it.
-- **Placed by what the learner can do** Level, pace and goal decide the group; the city or the peat colonies do not.
-- **Twice a week, on regio Noord's summer** Eight lessons a month at one recurring time. The province of Groningen breaks up with regio Noord, alongside Friesland, Drenthe, Overijssel, Flevoland and Noord-Holland, and the summer weeks are agreed before the slot.
-- **One clock moves, the other holds** India keeps a single time all year while the Dutch clock jumps in March and October, which puts a Groningen afternoon three and a half hours behind the teacher in summer and four and a half behind in winter. Slots after school, in the early evening and at the weekend fall inside both working days.
+### The ring road stays empty
 
-**A province with four in ten people in one place** The other six in ten are spread across nine municipalities, some of them an hour from the city and none of them with a coding classroom of their own. A weekly class at home is the same class the city family gets, and for Pekela or Westerwolde it is the only version that does not begin with a drive.
+The lesson is at home in Winschoten, Leek or Delfzijl at a fixed hour, and nobody joins the queue on the A7 for it.
+
+### English, with Dutch where the school uses it
+
+Groep, havo, vwo and profielkeuze are said as the school says them; the lesson around them is in English, which is the language the university's international families and the Eemshaven firms already work in.
+
+### One hour free, then a named rung
+
+A real task at the learner's level, then a course and a starting point, and no card is asked for to arrange it.
+
+### Placed by what the learner can do
+
+Level, pace and goal decide the group; the city or the peat colonies do not.
+
+### Twice a week, on regio Noord's summer
+
+Eight lessons a month at one recurring time. The province of Groningen breaks up with regio Noord, alongside Friesland, Drenthe, Overijssel, Flevoland and Noord-Holland, and the summer weeks are agreed before the slot.
+
+### One clock moves, the other holds
+
+India keeps a single time all year while the Dutch clock jumps in March and October, which puts a Groningen afternoon three and a half hours behind the teacher in summer and four and a half behind in winter. Slots after school, in the early evening and at the weekend fall inside both working days.
+
+A province with four in ten people in one place
+
+The other six in ten are spread across nine municipalities, some of them an hour from the city and none of them with a coding classroom of their own. A weekly class at home is the same class the city family gets, and for Pekela or Westerwolde it is the only version that does not begin with a drive.
+
+Fees
 
 ## Ten municipalities, one dollar tariff, a free first hour
 
 Printed in full before any number of yours is asked for.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 One rate in US dollars applies everywhere outside India, with no euro version, and Pekela pays what the city pays. The free lesson settles the course and the hour; payment follows on WhatsApp. What happens on a pause, a plan change or a missed lesson is written up on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20the%20province%20of%20Groningen.)Reviews
+
+## Six Google reviews, quoted as written
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us the level; the municipality can wait
+
+The opening task might be a staircase of bean cups, the two lines that undo a magnitude, or a decibel reading from work that a colleague once subtracted as a count.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented the province of Groningen one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20the%20province%20of%20Groningen.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Province of Groningen coding class questions
+
+The province, its ten municipalities, the scale, the teaching and the terms.
 
 ### How much bigger was the Huizinge earthquake than the one at Westeremden?
 
@@ -256,10 +382,14 @@ The first lesson is free. Group tuition is USD 100 a month for two live lessons 
 
 Between five and ten, matched on level, pace and goal rather than on age, school or municipality. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.
 
+Explore the Netherlands
+
 ## South along the A28, and up to the country
 
 The A28 runs south out of the province through Drenthe to [Overijssel](/coding-classes-in-overijssel), where the dikes have their own arithmetic, and on to [Gelderland](/coding-classes-in-gelderland). All of these hang off the [Netherlands coding hub](/coding-classes-in-netherlands); anyone whose goal is a model that learns rather than a program that runs should look at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands). The city itself has its own page: [coding classes in Groningen](/coding-classes-in-groningen).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20the%20province%20of%20Groningen.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-groningen-province](https://learn.modernagecoders.com/coding-classes-in-groningen-province#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-groningen-province*

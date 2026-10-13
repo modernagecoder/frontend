@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths lessons for Derby learner
 canonical: https://learn.modernagecoders.com/best-coding-class-in-derby
 source: src/pages/best-coding-class-in-derby.html
 ---
-> Derby counted 261,364 usual residents at the 2021 Census, and children aged 5 to 14 made up a larger share than across England, with 6.5% in each five-year band against 5.9% and 6.0% nationally. The city's Museum of Making stands on what is widely regarded as the site of the world's first factory, at the southern end of the Derwent Valley Mills World Heritage Site. Modern Age Coders teaches Derby learners from six to sixty-seven in live online lessons, one to one or in groups of fifteen to twenty at one level, with teachers based in India and times arranged in UK hours. We charge nothing for the first lesson; afterwards a group place is USD 100 and one-to-one teaching USD 150 per month.
+> Live online coding, Python, AI and maths lessons for Derby learners aged 6 to 67, from Allestree and Mickleover to Chaddesden and Alvaston. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Derby
-
-Derby, East Midlands, England / Live online
-
-# Coding classes in Derby
-
-**What are the best coding classes in Derby?** Derby counted 261,364 usual residents at the 2021 Census, and children aged 5 to 14 made up a larger share than across England, with 6.5% in each five-year band against 5.9% and 6.0% nationally. The city's Museum of Making stands on what is widely regarded as the site of the world's first factory, at the southern end of the Derwent Valley Mills World Heritage Site. Modern Age Coders teaches Derby learners from six to sixty-seven in live online lessons, one to one or in groups of fifteen to twenty at one level, with teachers based in India and times arranged in UK hours. We charge nothing for the first lesson; afterwards a group place is USD 100 and one-to-one teaching USD 150 per month.
-
-How many buses are carrying passengers around Derby at its busiest moment? The Department for Transport's Bus Open Data Service publishes the timetable of every local bus service in England, free and without a licence, so the question has an exact answer. On Tuesday 22 September 2026, 2,595 scheduled trips spend time inside the city boundary. Turn each into a start and an end, sort the 5,190 moments, then walk through them keeping a running count, adding one at each start and taking one away at each end. The highest the count reaches is 109, first at 08:14. That walk is called a sweep line, and it replaces more than 3.3 million pairwise comparisons with a single pass. There is a catch: whether the answer is 109 or 117 depends on one rule about what happens when a trip ends at the very minute another begins. Finding that rule, and stating it, is the lesson Derby's buses teach our teenage learners.
-
-Facts last verified 21 September 2026. Teaching is online; no Derby branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Derby
 
 ## Four courses for the city of making
 
 Choose from what already interests the learner. Every course begins with a free live lesson, booked without a card.
 
-- [Elementary Maths for Grades 1-5](/courses/elementary-mathematics-complete-masterclass) (Ages 6 to 11): Number, shape, time and money for primary years, including the clock and timetable skills that come before counting overlaps.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Python from a first line to full projects, with a real timetable file as an early taste of messy data.
-- [Competitive Programming for Teens](/courses/competitive-programming-for-teens-course) (Ages 13 to 18): Contest problems built on sorting, greedy methods and prefix sums, the toolkit that interval questions draw on.
-- [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college) (University and adult): Sorting, hashing, heaps and complexity at interview standard, where event-sorting problems are a staple.
+[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)Ages 6 to 11Elementary Maths for Grades 1-5Number, shape, time and money for primary years, including the clock and timetable skills that come before counting overlaps.See the syllabus](/courses/elementary-mathematics-complete-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensPython from a first line to full projects, with a real timetable file as an early taste of messy data.See the syllabus](/courses/python-complete-masterclass-teens)[![Competitive Programming for Teens course thumbnail](/images/competitive-programming-teens.webp)Ages 13 to 18Competitive Programming for TeensContest problems built on sorting, greedy methods and prefix sums, the toolkit that interval questions draw on.See the syllabus](/courses/competitive-programming-for-teens-course)[![Data Structures & Algorithms Course course thumbnail](/images/dsa-college.webp)University and adultData Structures & Algorithms CourseSorting, hashing, heaps and complexity at interview standard, where event-sorting problems are a staple.See the syllabus](/courses/data-structures-algorithms-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Derby today
 
 ## A family city, with more school-age children than the national share
 
 Census 2021 results for the Derby local authority, published by the Office for National Statistics through Nomis.
 
-**Derby, Census 2021**
-
 | Measure | Derby | England |
-|---|---|---|
+| --- | --- | --- |
 | Usual residents | 261,364 | Not compared |
 | In households | 256,961, 98.3% | Not compared |
 | In communal establishments | 4,403, 1.7% | Not compared |
@@ -66,6 +52,8 @@ In 2021, 22.6% of residents aged five and over were schoolchildren or full-time 
 
 For a coding school, that profile points to families. A Derby household might include a primary child in Littleover wanting to make a first game, a Year 8 student in Spondon weighing GCSE options and a parent in Oakwood who wants to understand what the children are learning, and each of them would join a group at their own level rather than their age.
 
+Making and the factory
+
 ## Three hundred years of making
 
 From Derby Museums and the Derwent Valley Mills World Heritage Site.
@@ -84,16 +72,18 @@ Derby Museums' Museum of Making tells the city's 300-year history of making, on 
 
 Derby Museums also says it holds the world's largest collection of works by the painter Joseph Wright of Derby. We have no connection with Derby Museums or the World Heritage Site partnership. We mention them because a factory is, among many other things, a timing problem: machines, shifts and deliveries overlapping through the day. The project on this page is a modern version of the same question, with buses in place of spinning frames.
 
-**Where the timetable comes from** The Bus Open Data Service, built by the Department for Transport, provides timetable, vehicle location and fares data for every local bus service in England. It is free open data and needs no licence, which is why a learner in Derby can download exactly the file this project uses.
+Where the timetable comes from
+
+The Bus Open Data Service, built by the Department for Transport, provides timetable, vehicle location and fares data for every local bus service in England. It is free open data and needs no licence, which is why a learner in Derby can download exactly the file this project uses.
+
+Signature project
 
 ## The busiest minute on Derby's buses
 
 A sweep line turns thousands of time intervals into a single running count. We ran one over every scheduled bus trip inside Derby on Tuesday 22 September 2026.
 
-**Scheduled bus trips under way inside Derby, Tuesday 22 September 2026, Bus Open Data Service timetable**
-
 | Time | Trips under way | Note |
-|---|---|---|
+| --- | --- | --- |
 | 06:00 | 20 | Early services |
 | 08:00 | 104 | Morning rise |
 | 08:14 | 109 | Peak, first reached |
@@ -120,14 +110,14 @@ Every one of the 5,190 times in the Derby file falls on a whole minute, and at 6
 
 Two more details keep the answer honest. Some trips run past midnight, and the timetable writes their times as 24:10 or later rather than starting a new day; 21 of the Derby intervals end that way, and a program that reads 24:10 as a mistake loses them. And a trip is scheduled passenger service, not a count of every bus on the road: empty runs between routes are not in the timetable, so 109 describes buses in service, not the whole fleet.
 
+Counting overlaps
+
 ## Five habits for anything that overlaps in time
 
 Learned on bus trips, used afterwards on room bookings, exam timetables, parking spaces, server connections and any schedule where things run side by side.
 
-**Counting overlapping intervals you can trust**
-
 | Habit | What it looks like | What it prevents |
-|---|---|---|
+| --- | --- | --- |
 | Define start and end | Say exactly which moment begins and which ends each interval | Two programs disagreeing about the same timetable |
 | State the tie rule | Decide whether an end and a start at the same instant overlap | A peak that jumps from 109 to 117 with no explanation |
 | Keep late times | Treat 24:10 as ten past midnight on the same service day | Late trips that vanish or appear to run backwards |
@@ -150,14 +140,37 @@ Capacity and scheduling questions at work, from rooms and staff rotas to connect
 
 We are not connected with the Department for Transport, the Bus Open Data Service, any bus operator, Derby Museums, the Derwent Valley Mills partnership or the Office for National Statistics. The timetable and boundary are published for public use; the intervals, counts and peaks are our own calculations.
 
+Learning ladder
+
 ## From a playground timeline to a sweep line
 
 Age is only a first guess at level; the free lesson finds the real one.
 
-- **Ages 6 to 10: Taking turns** Clocks, timelines and turn-taking games, drawing who is busy when and counting the most at once. [Elementary Maths for Grades 1-5](/courses/elementary-mathematics-complete-masterclass), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 11 to 13: Timelines in code** Times stored as numbers, lists of start and end times, and a first loop that counts what overlaps. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Sweep-line algorithms** Event sorting, tie rules and maximum overlap on real timetable data, with the pairwise method as a comparison. [Competitive Programming for Teens](/courses/competitive-programming-for-teens-course), [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)
-- **Ages 18 to 67: Scheduling at work** Capacity, rotas and bookings handled with sorted events, complexity in mind and every rule written down. [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### Taking turns
+
+Clocks, timelines and turn-taking games, drawing who is busy when and counting the most at once.
+
+[Elementary Maths for Grades 1-5](/courses/elementary-mathematics-complete-masterclass)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 11 to 13
+
+### Timelines in code
+
+Times stored as numbers, lists of start and end times, and a first loop that counts what overlaps.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Sweep-line algorithms
+
+Event sorting, tie rules and maximum overlap on real timetable data, with the pairwise method as a comparison.
+
+[Competitive Programming for Teens](/courses/competitive-programming-for-teens-course)[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)Ages 18 to 67
+
+### Scheduling at work
+
+Capacity, rotas and bookings handled with sorted events, complexity in mind and every rule written down.
+
+[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## An assistant can read a timetable in seconds. Why should a Derby teenager write a sweep line?
 
@@ -169,30 +182,139 @@ Sweep lines also run through the software that AI itself depends on: schedulers 
 
 That is why a Derby teenager should still learn to program in 2026, in the city of the first factory: machines will count anything, but deciding what counts, and saying so plainly, is still the programmer's job. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Allestree, Normanton or Chaddesden, all from home
 
 Derby is compact, but a lesson that needs no bus at all is simpler still.
 
-- **Across the city in no time** A learner in Mickleover and one in Chellaston can share a lesson without either of them catching a single bus.
-- **The school stages in use here** Reception, Key Stages 1 to 4, Year 9 options, GCSEs and A levels, named as Derby schools name them, and taught in English.
-- **A free lesson that teaches** The first session is proper teaching on a real task and ends with a suggested level, course and weekly time. There is no card to enter.
-- **Level first, age second** Fifteen to twenty learners at one stage, gathered from Derby, the wider UK and abroad, so that every level can find a sensible slot.
-- **A regular weekly pattern** Two lessons a week at a set time, around eight a month, with breaks for holidays and exams arranged with the teacher in advance.
-- **Teachers on a fixed clock** India does not change its clocks, so our teachers are four and a half hours ahead of Derby in British Summer Time and five and a half in winter, which keeps after-school and evening slots inside their day.
+### Across the city in no time
 
-**Parents learning too** Adults can learn alongside their children in separate groups at their own level, or one to one in the evening; the free lesson is the place to decide which suits a household.
+A learner in Mickleover and one in Chellaston can share a lesson without either of them catching a single bus.
+
+### The school stages in use here
+
+Reception, Key Stages 1 to 4, Year 9 options, GCSEs and A levels, named as Derby schools name them, and taught in English.
+
+### A free lesson that teaches
+
+The first session is proper teaching on a real task and ends with a suggested level, course and weekly time. There is no card to enter.
+
+### Level first, age second
+
+Fifteen to twenty learners at one stage, gathered from Derby, the wider UK and abroad, so that every level can find a sensible slot.
+
+### A regular weekly pattern
+
+Two lessons a week at a set time, around eight a month, with breaks for holidays and exams arranged with the teacher in advance.
+
+### Teachers on a fixed clock
+
+India does not change its clocks, so our teachers are four and a half hours ahead of Derby in British Summer Time and five and a half in winter, which keeps after-school and evening slots inside their day.
+
+Parents learning too
+
+Adults can learn alongside their children in separate groups at their own level, or one to one in the evening; the free lesson is the place to decide which suits a household.
+
+Fees
 
 ## Derby lesson fees
 
 A free start, then a single monthly fee.
 
-- First class: USD 0. A complete lesson with nothing to pay, finishing with a level, a course suggestion and a proposed weekly time.
-- Group tuition: USD 100 a month. About eight live lessons each month in a group of fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. About eight live lessons each month, taught to one learner with the teacher's full attention.
+First class**USD 0**
+
+A complete lesson with nothing to pay, finishing with a level, a course suggestion and a proposed weekly time.
+
+Group tuition**USD 100**
+
+About eight live lessons each month in a group of fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+About eight live lessons each month, taught to one learner with the teacher's full attention.
 
 Outside India the fee is one US dollar amount for everyone, so a family in Darley Abbey pays exactly what a family in Allestree pays, and there is no separate pound tariff. Nothing is charged until the free lesson has settled a course and a slot; the pricing page covers pausing, missed lessons and switching between group and one-to-one teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Derby%3F)Reviews
+
+## Six unaltered Google reviews from families we teach
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a first lesson in Derby at no cost
+
+We set the first task by level: a turn-taking timeline for a young child, a first Python program that counts overlaps, or the full Derby bus timetable and a sweep line for a teenager ready for real data.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Derby one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Derby%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Derby coding class questions
+
+The questions Derby families ask us most often.
 
 ### How many people live in Derby?
 
@@ -234,10 +356,14 @@ The first lesson is free. After that a group place is USD 100 a month for two li
 
 By level, pace and goals rather than age or postcode, with fifteen to twenty learners at one stage. If no group meets at a workable time, we suggest one-to-one lessons.
 
+Explore the UK
+
 ## East Midlands neighbours and beyond
 
 Just along the A52, the [Nottingham page](/best-coding-class-in-nottingham) stretches a rubber band round every tram stop. [Coventry](/best-coding-class-in-coventry) links its bus stops into groups and [Leeds](/best-coding-class-in-leeds) samples a footfall record fairly. The [England guide](/coding-and-ai-classes-in-england) sets out the school stages, and the [UK coding page](/coding-classes-in-united-kingdom) lists every UK page.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Derby%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-derby](https://learn.modernagecoders.com/best-coding-class-in-derby#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-derby*

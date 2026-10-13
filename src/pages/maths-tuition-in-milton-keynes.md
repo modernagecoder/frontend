@@ -4,34 +4,28 @@ description: "Online maths tutor for Milton Keynes, ages 6 to 67: KS2 and SATs, 
 canonical: https://learn.modernagecoders.com/maths-tuition-in-milton-keynes
 source: src/pages/maths-tuition-in-milton-keynes.html
 ---
-> Milton Keynes families and adults use Modern Age Coders as an online maths tutor, with live lessons for anyone from 6 to 67. Children prepare for the Year 6 SATs through KS2; teenagers move through KS3 into GCSE, taught for their board (AQA, Edexcel or OCR) and tier, or IGCSE; sixth formers take A level, with Further Maths topics for the keenest; and adults sit GCSE maths resits or rebuild confidence. Lessons run one to one or in groups of fifteen to twenty learners at the same level. Our Milton Keynes project tests whether the grid roads cross at right angles: the H roads average a bearing of 060 degrees and the V roads 323, which leaves 83.2 degrees between them. The opening lesson is free. After it, a group place is USD 100 a month and private tuition USD 150 a month.
+> Online maths tutor for Milton Keynes, ages 6 to 67: KS2 and SATs, KS3, GCSE, A level, Further Maths and adult maths, with a grid road geometry project.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths tuition in Milton Keynes
+Maths tuition in Milton Keynes, in brief
 
-Milton Keynes · Maths tutors for ages 6 to 67 · Live online lessons
+Milton Keynes families and adults use Modern Age Coders as an online maths tutor, with live lessons for anyone from 6 to 67. Children prepare for the Year 6 SATs through KS2; teenagers move through KS3 into GCSE, taught for their board (AQA, Edexcel or OCR) and tier, or IGCSE; sixth formers take A level, with Further Maths topics for the keenest; and adults sit GCSE maths resits or rebuild confidence. Lessons run one to one or in groups of fifteen to twenty learners at the same level. Our Milton Keynes project tests whether the grid roads cross at right angles: the H roads average a bearing of 060 degrees and the V roads 323, which leaves 83.2 degrees between them. The opening lesson is free. After it, a group place is USD 100 a month and private tuition USD 150 a month.
 
-# Maths tuition in Milton Keynes
-
-Milton Keynes is laid out on a grid, and every child who grows up here learns that the H roads run one way and the V roads the other. A grid suggests right angles. So we measured them. Using the free OpenStreetMap data, we drew a straight line from end to end of each grid road and worked out its direction. The H roads head, on average, at a bearing of 060 degrees, not 090; the V roads at 323. The angle between those two average directions is 83.2 degrees. Close to a right angle, but not one. That small gap is a whole unit of school maths, and it is how we teach: real numbers first, then the method that explains them, from Year 2 sums to A level vectors.
-
-At a glance: Learners: Aged 6 to 67, anywhere in Milton Keynes; Primary: KS2 maths, times tables, Year 6 SATs; KS3: Years 7 to 9, algebra and graphs; GCSE: Foundation and Higher, AQA, Edexcel, OCR; Post 16: A level Maths and Further Maths; Adults: GCSE resits, Functional Skills topics, refreshers; How: Live video, one to one or fifteen to twenty per group; Project: Grid road gradients and angles. Rated 4.9 across 547 Google reviews.
+Most requested in Milton Keynes
 
 ## GCSE, A level and Key Stage 3 maths first
 
 These are the three courses Milton Keynes families ask about most often. Every other course we teach is listed further down.
 
-- [GCSE maths](/courses/gcse-mathematics-mastery): Foundation or Higher tier, matched to the board the school enters, with straight-line graphs taught on the grid roads.
-- [A level maths](/courses/a-level-maths-course-pure-mechanics-statistics): Calculus, vectors and statistics, with room for Further Maths ideas once the single-maths core is secure.
-- [KS3 maths, Years 7 to 9](/courses/comprehensive-middle-school-mathematics-mastery): The algebra, coordinates and graphs that GCSE quietly assumes a learner already owns.
+[![GCSE Maths course thumbnail](/images/gcse-maths.webp)  MK / 1 GCSE maths Foundation or Higher tier, matched to the board the school enters, with straight-line graphs taught on the grid roads. Open the syllabus →](/courses/gcse-mathematics-mastery)[![A-Level Maths course thumbnail](/images/a-level-maths.webp)  MK / 2 A level maths Calculus, vectors and statistics, with room for Further Maths ideas once the single-maths core is secure. Open the syllabus →](/courses/a-level-maths-course-pure-mechanics-statistics)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  MK / 3 KS3 maths, Years 7 to 9 The algebra, coordinates and graphs that GCSE quietly assumes a learner already owns. Open the syllabus →](/courses/comprehensive-middle-school-mathematics-mastery)
+
+From Year 1 to adult
 
 ## Maths tutor in Milton Keynes: what we teach at every level
 
 Schools in Milton Keynes follow the national curriculum for England. These are the levels a learner passes through, and what an hour with us concentrates on at each one.
 
-**Maths levels for a Milton Keynes learner and our focus at each**
-
 | Level | Usual age | Focus of our lessons |
-|---|---|---|
+| --- | --- | --- |
 | KS1 | 5 to 7 | Counting, place value, number bonds to 20, halves and quarters of shapes. |
 | KS2 | 7 to 11 | Times tables for the Year 4 multiplication tables check, long multiplication, fractions, and the arithmetic and reasoning papers of the Year 6 SATs. |
 | KS3 | 11 to 14 | Algebra, coordinates and straight-line graphs, ratio, angles and the first probability. |
@@ -53,6 +47,8 @@ Our national pages go further, stage by stage: [KS2 maths](/ks2-maths-tuition-on
 
 Each key stage is shown with the ages normally linked to it in English schools. Details of the multiplication tables check are on [gov.uk](https://www.gov.uk/government/collections/multiplication-tables-check).
 
+The Milton Keynes project
+
 ## Do the H and V grid roads really cross at right angles?
 
 A grid suggests squares. We tested the idea on every grid road in the city, using nothing but coordinates and a protractor of numbers.
@@ -65,10 +61,8 @@ If the grid were perfectly square and lined up with north, every H road would po
 
 So the whole grid is turned about 30 degrees from the compass. More interesting for a mathematician: the two average directions are 83.2 degrees apart, not 90.
 
-**Chord bearing and gradient of the main grid roads, our calculation from OpenStreetMap on 1 October 2026**
-
 | Road | Chord bearing | Gradient (north per east) | What a learner notices |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | H3 Monks Way | 060.1° | 0.575 | Almost exactly the H average. |
 | H6 Childs Way | 051.3° | 0.801 | The H road furthest round towards north. |
 | H8 Standing Way | 060.2° | 0.572 | The longest H chord, at almost 11 km. |
@@ -79,6 +73,8 @@ So the whole grid is turned about 30 degrees from the compass. More interesting 
 | V10 Brickhill Street | 340.9° | −2.881 | The steepest gradient on the grid. |
 
 Data: [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), one Overpass query on 1 October 2026. Bearings and gradients are Modern Age Coders calculations from chords between the furthest-apart mapped points of each road, with longitude converted to metres at the latitude of Milton Keynes. They describe the map, not the design drawings, and they change as volunteers edit the map.
+
+Straight-line graphs, tested
 
 ## Perpendicular gradients: why two numbers multiply to minus one
 
@@ -92,10 +88,8 @@ Try the averages. The mean H gradient is 0.576 and the mean V gradient −1.342.
 
 A sharp learner then spots something odd. H6 and V6 multiply to −1.145, further from −1 than H3 and V8 at −0.912, yet H6 and V6 meet at 86.3° while H3 and V8 meet at 87.7°. The product tells you whether lines are perpendicular; it is a poor ruler for how far from perpendicular they are. The angle is the honest measure.
 
-**Pairs of grid roads, gradient product and angle between their chords (our calculation)**
-
 | Pair | Gradients | Product | Acute angle |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | H2 Millers Way and V11 Tongwell Street | 0.451 and −2.176 | −0.981 | 89.6° |
 | H3 Monks Way and V8 Marlborough Street | 0.575 and −1.586 | −0.912 | 87.7° |
 | H6 Childs Way and V6 Grafton Street | 0.801 and −1.429 | −1.145 | 86.3° |
@@ -116,6 +110,8 @@ A chord uses only two points. A second method uses all of them: average the dire
 Neither number is wrong. They answer slightly different questions, and a good mathematician states which method was used. That habit is worth more than the rule about −1.
 
 GCSE wording from [DfE, GCSE mathematics subject content](https://www.gov.uk/government/publications/gcse-mathematics-subject-content-and-assessment-objectives), read on 1 October 2026. All bearings, gradients, products and angles are Modern Age Coders calculations; the doubled-angle averaging in the second method is A level material, not GCSE.
+
+Maths around Milton Keynes
 
 ## The Maths Hub, the UKMT maths challenge and keen learners
 
@@ -143,6 +139,8 @@ A GCSE student in Shenley Church End and an adult in Stony Stratford can therefo
 
 Source: [NCETM, Enigma Maths Hub](https://www.ncetm.org.uk/hubs/enigma-maths-hub/), read on 1 October 2026. We are independent of the NCETM, every Maths Hub, the UKMT and every school in Milton Keynes and Buckinghamshire.
 
+Grown-up maths
+
 ## Maths tutor for adults in Milton Keynes
 
 A good share of the people who contact us are adults. Some need a GCSE maths resit for a course or a job; others simply want the subject to make sense at last.
@@ -161,14 +159,14 @@ Parents learn the methods their children meet now, from bar models to the grid m
 
 Adults usually enjoy the grid road project more than they expect. Most have driven the H and V roads for years, and the idea that the grid is turned 30 degrees from north surprises almost everyone. There is more on our [adult maths page](/online-maths-classes-for-adults-in-uk).
 
+The order we teach in
+
 ## Four steps from counting squares to the gradient rule
 
 A learner can start at any step. The free lesson tells us which one.
 
-**From grid coordinates to perpendicular lines, with the sign that each step is secure**
-
 | Usually | Step | Secure when the learner can |
-|---|---|---|
+| --- | --- | --- |
 | Years 3 to 5 | 1. Coordinates | Plot and read points in all four quadrants without mixing up x and y |
 | Years 6 to 8 | 2. Gradient | Find a gradient by counting up and across between two points |
 | Years 9 to 11 | 3. y = mx + c | Write the equation of a line and spot parallel and perpendicular pairs |
@@ -177,75 +175,353 @@ A learner can start at any step. The free lesson tells us which one.
 ### Joining in Year 10 or 11
 
 Plenty of learners come to us late in GCSE. We check the algebra underneath first, because a gradient question is really a fractions question in disguise.
+
 If there is more to fix than time allows before the exam, we will say so at the free lesson.
 
 ### After GCSE
 
 Those who enjoyed this kind of work often take [statistics and probability](/courses/statistics-probability-maths-course) or [maths through coding](/courses/maths-through-coding), where the grid road calculation becomes a short program.
+
 Learners who like proof often look at Further Maths next.
+
+All our maths courses
 
 ## Popular maths courses for Milton Keynes learners
 
 The courses UK families search for most come first: GCSE, A level, 11 plus and IGCSE. Each card opens the full syllabus.
 
+I
+
 ### Most popular
 
 Exam courses
 
-- [GCSE maths](/courses/gcse-mathematics-mastery): Foundation and Higher tier, AQA, Edexcel or OCR.
-- [A level maths](/courses/a-level-maths-course-pure-mechanics-statistics): Pure, statistics and mechanics.
-- [11 plus maths](/courses/11-plus-maths-preparation-course-uk): Speed and reasoning for selective-school papers.
-- [IGCSE maths](/courses/igcse-mathematics-mastery): For schools that enter the international papers.
+MKM / A1
+
+#### GCSE maths
+
+Foundation and Higher tier, AQA, Edexcel or OCR.
+
+[Open the syllabus](/courses/gcse-mathematics-mastery)
+
+MKM / A2
+
+#### A level maths
+
+Pure, statistics and mechanics.
+
+[Open the syllabus](/courses/a-level-maths-course-pure-mechanics-statistics)
+
+MKM / A3
+
+#### 11 plus maths
+
+Speed and reasoning for selective-school papers.
+
+[Open the syllabus](/courses/11-plus-maths-preparation-course-uk)
+
+MKM / A4
+
+#### IGCSE maths
+
+For schools that enter the international papers.
+
+[Open the syllabus](/courses/igcse-mathematics-mastery)II
 
 ### Primary
 
 KS1 and KS2
 
-- [Early maths](/courses/early-math-foundations): Number sense and shape for the youngest.
-- [KS1 and KS2 maths](/courses/elementary-mathematics-complete-masterclass): Every primary topic through to the SATs.
-- [Mental maths](/courses/mental-maths-mastery-kids): Quick, reliable sums in the head.
-- [Abacus maths](/courses/abacus-mental-maths-course-for-kids): Bead-frame arithmetic that moves into the head.
+MKM / B1
+
+#### Early maths
+
+Number sense and shape for the youngest.
+
+[Open the syllabus](/courses/early-math-foundations)
+
+MKM / B2
+
+#### KS1 and KS2 maths
+
+Every primary topic through to the SATs.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+MKM / B3
+
+#### Mental maths
+
+Quick, reliable sums in the head.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+MKM / B4
+
+#### Abacus maths
+
+Bead-frame arithmetic that moves into the head.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)III
 
 ### Secondary and beyond
 
 KS3 and stretch
 
-- [KS3 maths](/courses/comprehensive-middle-school-mathematics-mastery): Algebra, graphs, ratio and geometry.
-- [Algebra foundations](/courses/algebra-foundations-masterclass): Algebra rebuilt from the beginning.
-- [Statistics and probability](/courses/statistics-probability-maths-course): From averages to hypothesis tests.
-- [Competition maths](/courses/olympiad-competition-mathematics-mastery): UKMT-style problems for keen learners.
+MKM / C1
+
+#### KS3 maths
+
+Algebra, graphs, ratio and geometry.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+MKM / C2
+
+#### Algebra foundations
+
+Algebra rebuilt from the beginning.
+
+[Open the syllabus](/courses/algebra-foundations-masterclass)
+
+MKM / C3
+
+#### Statistics and probability
+
+From averages to hypothesis tests.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)
+
+MKM / C4
+
+#### Competition maths
+
+UKMT-style problems for keen learners.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)IV
 
 ### Adults and applied
 
 Maths for life and work
 
-- [University maths](/courses/college-mathematics-complete-masterclass): Calculus and linear algebra for adults and undergraduates.
-- [Business maths](/courses/complete-business-finance-mathematics-mastery): Interest, percentages and risk.
-- [Maths for data](/courses/data-analytics-mathematics-masterclass): The statistics behind data work.
-- [Vedic maths](/courses/vedic-maths-course-speed-calculation-mastery): Fast calculation shortcuts.
+MKM / D1
+
+#### University maths
+
+Calculus and linear algebra for adults and undergraduates.
+
+[Open the syllabus](/courses/college-mathematics-complete-masterclass)
+
+MKM / D2
+
+#### Business maths
+
+Interest, percentages and risk.
+
+[Open the syllabus](/courses/complete-business-finance-mathematics-mastery)
+
+MKM / D3
+
+#### Maths for data
+
+The statistics behind data work.
+
+[Open the syllabus](/courses/data-analytics-mathematics-masterclass)
+
+MKM / D4
+
+#### Vedic maths
+
+Fast calculation shortcuts.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
+
+When lessons run
 
 ## After school, evenings and Saturdays, in UK time
 
 Our teachers work from India. For most of the winter India is five and a half hours ahead of Milton Keynes, and four and a half during British Summer Time. You only ever see UK times.
 
-- **Weekdays after school** Primary and KS3 learners.
-- **Weekday evenings** GCSE, A level and adults.
-- **Saturday mornings** Any age, any level.
+Weekdays after school
 
-- **One teacher, every week** The person who saw a mistake last week checks for it this week.
-- **Notes for parents** A short message after lessons on what landed and what needs another look.
-- **Fifteen to twenty in a group** Everyone working at the same level, so one explanation suits the room.
-- **Numbers from real places** Grid road angles, timetables and census tables alongside exam questions.
-- **One to one on request** For an exam close at hand or a particular gap.
-- **Reasons, not tricks** Every method comes with the reason it works.
+Primary and KS3 learners.
+
+Weekday evenings
+
+GCSE, A level and adults.
+
+Saturday mornings
+
+Any age, any level.
+
+### One teacher, every week
+
+The person who saw a mistake last week checks for it this week.
+
+### Notes for parents
+
+A short message after lessons on what landed and what needs another look.
+
+### Fifteen to twenty in a group
+
+Everyone working at the same level, so one explanation suits the room.
+
+### Numbers from real places
+
+Grid road angles, timetables and census tables alongside exam questions.
+
+### One to one on request
+
+For an exam close at hand or a particular gap.
+
+### Reasons, not tricks
+
+Every method comes with the reason it works.
+
+Student work
+
+## Projects our students went on to build
+
+Learners who began with numbers like these went on to the projects below. The [student labs](/student-labs) hold many more.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 One monthly price in US dollars for every country outside India. No joining fee and no contract.
 
-- Free first class: USD 0. A full lesson at the right level. A straight answer about where the learner stands. No payment details needed.
-- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher each week. Homework marked and discussed. A certificate at the end.
-- One to one: USD 150 a month. One teacher, one learner. Aimed at a particular gap. Handy in the run-up to an exam.
+Free first class
+
+USD 0
+
+no card required
+
+- A full lesson at the right level
+- A straight answer about where the learner stands
+- No payment details needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners at one level
+- The same teacher each week
+- Homework marked and discussed
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- One teacher, one learner
+- Aimed at a particular gap
+- Handy in the run-up to an exam
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Reviews families and learners left on our Google profile, reproduced word for word.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Milton Keynes maths questions
 
 ## Questions Milton Keynes families ask about maths tuition
 
@@ -289,15 +565,54 @@ Yes, through our competition maths course, which works on the kind of problems t
 
 No tutor honestly can, and we do not. We teach carefully and report progress plainly.
 
+Related pages
+
 ## More maths for Milton Keynes learners
 
-- [GCSE maths tuition](/gcse-maths-tuition-online): Foundation and Higher, every board.
-- [A level maths tuition](/a-level-maths-tuition-online): Pure, statistics and mechanics.
-- [KS3 maths tuition](/ks3-maths-tuition-online): Years 7 to 9, where algebra starts in earnest.
-- [Coding classes in Milton Keynes](/best-coding-class-in-milton-keynes): Our coding page for the city.
-- [Maths tuition in Luton](/maths-tuition-in-luton): Another town in the same Maths Hub area.
-- [The UK index](/coding-classes-in-united-kingdom): Every nation, city, town and maths page we have.
+National maths pages by stage, our coding page for the city, and nearby maths pages.
 
-## Contact
+### [GCSE maths tuition](/gcse-maths-tuition-online)
 
-Book the free first class at [https://learn.modernagecoders.com/maths-tuition-in-milton-keynes](https://learn.modernagecoders.com/maths-tuition-in-milton-keynes#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Foundation and Higher, every board.
+
+### [A level maths tuition](/a-level-maths-tuition-online)
+
+Pure, statistics and mechanics.
+
+### [KS3 maths tuition](/ks3-maths-tuition-online)
+
+Years 7 to 9, where algebra starts in earnest.
+
+### [Coding classes in Milton Keynes](/best-coding-class-in-milton-keynes)
+
+Our coding page for the city.
+
+### [Maths tuition in Luton](/maths-tuition-in-luton)
+
+Another town in the same Maths Hub area.
+
+### [The UK index](/coding-classes-in-united-kingdom)
+
+Every nation, city, town and maths page we have.
+
+Start here
+
+## Book a free maths lesson in Milton Keynes
+
+Give us the school year or age and the topic that worries the learner most. The trial is a real lesson, followed by an honest view of where things stand.
+
+Want to look around before booking? See the [course list](/courses) and our note on [how we teach](/how-we-teach).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20a%20learner%20in%20Milton%20Keynes.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+For the fastest answer, message us on WhatsApp. The number has an Indian code because our team is in India; we have no Milton Keynes office, and all lessons are online.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/maths-tuition-in-milton-keynes*

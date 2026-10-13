@@ -4,46 +4,32 @@ description: "Live online coding and Python classes for Palmerston NT, ages 6 to
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-palmerston-nt-darwin
 source: src/pages/online-coding-and-python-classes-in-palmerston-nt-darwin.html
 ---
-> itertools.pairwise, which turns a list into neighbouring pairs. Learners pair each stop on a Palmerston bus trip with the next to measure how long each hop takes. Run it over the whole timetable at once and 375 pairs join the last stop of one trip to the first stop of another, 171 of them going backwards in time. Grouping by trip first fixes every one.
+> Live online coding and Python classes for Palmerston NT, ages 6 to adult, with a Python project pairing consecutive bus stops from the Darwin public bus timetable.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [Northern Territory](/coding-and-ai-classes-in-northern-territory) / [Darwin](/online-coding-and-python-classes-in-darwin) / Palmerston
-
-City of Palmerston, Greater Darwin, Northern Territory / Live online
-
-# Online coding and Python classes in Palmerston
-
-**What Python tool does the Palmerston project use?** itertools.pairwise, which turns a list into neighbouring pairs. Learners pair each stop on a Palmerston bus trip with the next to measure how long each hop takes. Run it over the whole timetable at once and 375 pairs join the last stop of one trip to the first stop of another, 171 of them going backwards in time. Grouping by trip first fixes every one.
-
-Palmerston is the satellite city south-east of Darwin, with its own council, a bus interchange and a young population. Its suburbs are served by local routes 70 to 78, 87 and 88 and by the longer routes 8 and 9 towards Darwin. The Northern Territory Government publishes the whole bus timetable, ready for a careful Python learner.
-
-Facts last verified 13 October 2026. Teaching is online; no Palmerston branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Palmerston
 
 ## Python courses for the Top End
 
 Courses that build tidy, testable Python. The free trial picks the starting level.
 
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (University and adult): The standard library, itertools included, in depth.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Lists, grouping and real timetable data.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): First typed Python in small projects.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (University and adult): Turning raw records into checked summaries.
+[![Python Masterclass course thumbnail](/images/python-college.webp)University and adultPython MasterclassThe standard library, itertools included, in depth.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensLists, grouping and real timetable data.See the syllabus](/courses/python-complete-masterclass-teens)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsFirst typed Python in small projects.See the syllabus](/courses/python-ai-kids-masterclass)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)University and adultData Analysis CourseTurning raw records into checked summaries.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Palmerston in the 2021 Census
 
 ## A young, car-based city of families
 
 Figures for the City of Palmerston council area (ABS LGA72800) from 2021 Census QuickStats, read on 13 October 2026, with the ABS 2025 estimate.
 
-**City of Palmerston counts**
-
 | Measure | Value |
-|---|---|
+| --- | --- |
 | Residents, 2021 Census | 37,247 |
 | Estimated residents, 2025 | 43,193 |
 | Median age | 31 |
@@ -51,10 +37,8 @@ Figures for the City of Palmerston council area (ABS LGA72800) from 2021 Census 
 | Private dwellings | 14,535 |
 | People per household | 2.8 |
 
-**Palmerston shares beside the Northern Territory**
-
 | Share | Palmerston | NT |
-|---|---|---|
+| --- | --- | --- |
 | Residents aged 5 to 9 | 8.8% (3,271) | 7.2% |
 | Drove a car to work | 73.1% (14,074) | 63.4% |
 | Separate houses | 75.9% (9,348) | 66.8% |
@@ -74,14 +58,14 @@ The Census count of 37,247 and the ABS 2025 estimate of 43,193 use different met
 
 The 2021 Census was held during the pandemic, so travel answers describe that week. The bureau rounds its shares and lightly perturbs small counts, so we print its figures exactly and never build totals by adding rows.
 
+Signature project
+
 ## Pairs that must stay inside one trip
 
 The bus timetable lists every stop of every trip in order. To measure each hop, learners pair each stop with the next using itertools.pairwise, added to Python in version 3.10. We use Wednesday 30 September 2026, a weekday on which the feed's weekday timetable runs, and keep the 376 trips that touch the 118 stops inside the City of Palmerston.
 
-**Two ways to pair consecutive stops (our run, Python 3.13)**
-
 | Method | Pairs | Problem pairs |
-|---|---|---|
+| --- | --- | --- |
 | pairwise over all rows sorted by trip and stop | 7,762 | 375 cross from one trip to the next |
 | Of those crossing pairs, time runs backwards | 171 | Negative hop times |
 | Group by trip, then pairwise inside each | 7,387 | None |
@@ -104,14 +88,14 @@ The same feed switches its weekday service off on 51 weekday dates between 5 Oct
 
 Timetables come from the NT Government's Darwin bus GTFS feed on data.nt.gov.au, licensed Creative Commons Attribution, downloaded on 13 October 2026. Stops are placed in the City of Palmerston by our point-in-polygon test on the ABS council outline; pairs, hop times and counts are our own calculation.
 
+Writing it in Python
+
 ## Group first, then pair
 
 The correct version is only two lines longer. The lesson is noticing that the short version is wrong.
 
-**Lesson steps**
-
 | Step | Learner task |
-|---|---|
+| --- | --- |
 | 1 | Read stop_times, keep active trips for the chosen day and sort by trip and stop sequence. |
 | 2 | Run pairwise over the whole list and count pairs whose two trips differ. |
 | 3 | Group rows into a dict of trips, then run pairwise inside each trip. |
@@ -131,6 +115,8 @@ Write both versions, prove the 375, and chart the hop times.
 
 Compute differences between consecutive events in logs or sensor data without crossing groups.
 
+Around Palmerston
+
 ## Interchange, routes and Territory time
 
 Local details from the Darwin bus timetable feed and the IANA time zone database.
@@ -147,16 +133,41 @@ Trips touching Palmerston that day run on 20 route names, from local 70s and 80s
 
 Darwin time has stayed at nine and a half hours ahead of UTC since daylight saving last ended in March 1944.
 
-**Area used** The City of Palmerston is the ABS council outline of about 52.7 square kilometres, drawn in three parts. School term dates are not given here because the NT education sources could not be read directly.
+Area used
+
+The City of Palmerston is the ABS council outline of about 52.7 square kilometres, drawn in three parts. School term dates are not given here because the NT education sources could not be read directly.
+
+Learning ladder
 
 ## From holding hands to itertools
 
 Most Palmerston learners start on one of these rungs; the trial confirms which.
 
-- **Ages 6 to 10: Order and sequence** Scratch projects where steps must happen in the right order. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 10 to 14: Moving to text** Loops, lists and first timetable puzzles typed out. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Real public files** itertools, grouping and messy government data. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **University and adult: Pipelines** Clean, repeatable data processing and automation. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### Order and sequence
+
+Scratch projects where steps must happen in the right order.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 10 to 14
+
+### Moving to text
+
+Loops, lists and first timetable puzzles typed out.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Real public files
+
+itertools, grouping and messy government data.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)University and adult
+
+### Pipelines
+
+Clean, repeatable data processing and automation.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Python and AI
 
 ## Would an AI assistant group first?
 
@@ -168,30 +179,139 @@ A Palmerston learner who has counted the 375 bad pairs knows to check group boun
 
 In our Python classes, every neat one-liner gets a sanity check. The longer argument is in [why understanding code still beats copying it](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How Palmerston lessons work
 
 Every session is a live video class, joined from home in Palmerston, Rosebery or anywhere nearby.
 
-- **Real-time teaching** Your teacher is on the call the whole time, reading code line by line.
-- **Territory terms** Lessons pause in Northern Territory school holidays.
-- **Try before paying** The first session is on us, and you receive a short written plan.
-- **Class size** Up to twenty learners of similar level, or a private teacher.
-- **Two a week** Around eight lessons a month.
-- **India time** A 4pm Palmerston lesson is noon in India, all year.
+### Real-time teaching
 
-**Darwin time** The IANA time zone database keeps Darwin at UTC+9:30 with no daylight saving since 1944, exactly four hours ahead of India.
+Your teacher is on the call the whole time, reading code line by line.
+
+### Territory terms
+
+Lessons pause in Northern Territory school holidays.
+
+### Try before paying
+
+The first session is on us, and you receive a short written plan.
+
+### Class size
+
+Up to twenty learners of similar level, or a private teacher.
+
+### Two a week
+
+Around eight lessons a month.
+
+### India time
+
+A 4pm Palmerston lesson is noon in India, all year.
+
+Darwin time
+
+The IANA time zone database keeps Darwin at UTC+9:30 with no daylight saving since 1944, exactly four hours ahead of India.
+
+Fees
 
 ## Palmerston fees
 
 Every learner pays the same fees.
 
-- First class: USD 0. The first lesson is free and includes a plan.
-- Group tuition: USD 100 a month. Group lessons: two a week through term, with fifteen to twenty classmates.
-- Private tuition: USD 150 a month. Individual lessons: the same two a week, with the teacher all to yourself.
+First class**USD 0**
+
+The first lesson is free and includes a plan.
+
+Group tuition**USD 100**
+
+Group lessons: two a week through term, with fifteen to twenty classmates.
+
+Private tuition**USD 150**
+
+Individual lessons: the same two a week, with the teacher all to yourself.
 
 Fees are set in US dollars and begin only when the trial has chosen a course and weekly time. Holiday and missed-lesson rules are on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hi%20Modern%20Age%20Coders%2C%20we%20are%20in%20Palmerston%20and%20would%20like%20to%20book%20a%20free%20Python%20or%20coding%20lesson.)Reviews
+
+## Family reviews on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Palmerston lesson
+
+Tell us the learner's age and interests. A child might play the team-line game; a teenager might pair every Palmerston stop.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Palmerston one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hi%20Modern%20Age%20Coders%2C%20we%20are%20in%20Palmerston%20and%20would%20like%20to%20book%20a%20free%20Python%20or%20coding%20lesson.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Palmerston coding and Python questions
+
+Questions from Palmerston families and adult learners.
 
 ### How many people live in Palmerston?
 
@@ -233,10 +353,14 @@ By level and pace, fifteen to twenty learners each, not by age or suburb. One-to
 
 Yes. Working adults join their own groups or take private lessons, and many bring a spreadsheet they want to automate.
 
+More for Top End learners
+
 ## Explore further
 
 For the wider Top End, read the [Darwin page](/online-coding-and-python-classes-in-darwin) and the [Northern Territory guide](/coding-and-ai-classes-in-northern-territory); children ready to leave blocks behind can start with [our Scratch-to-Python step](/after-scratch-next-step-python-australia).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hi%20Modern%20Age%20Coders%2C%20we%20are%20in%20Palmerston%20and%20would%20like%20to%20book%20a%20free%20Python%20or%20coding%20lesson.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/online-coding-and-python-classes-in-palmerston-nt-darwin](https://learn.modernagecoders.com/online-coding-and-python-classes-in-palmerston-nt-darwin#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-palmerston-nt-darwin*

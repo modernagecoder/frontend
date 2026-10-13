@@ -4,46 +4,32 @@ description: "Live online coding, Python, cyber security and maths classes acros
 canonical: https://learn.modernagecoders.com/coding-classes-in-gloucestershire
 source: src/pages/coding-classes-in-gloucestershire.html
 ---
-> Gloucestershire as a ceremonial county runs from the Forest of Dean to the Cotswolds and down to the edge of Bristol: seven councils and 935,500 people at the 2021 Census. Gloucester and Cheltenham are the two big towns, then Yate, Stroud, Bradley Stoke and Cirencester, with dozens of market towns and villages in the valleys. We teach every one of them in the same way. Every class happens live on a video call with a teacher based in India; skills, not birthdays, decide where a learner starts; anyone aged 6 to 67 can join; and a learner can be one of fifteen to twenty in a group or have a teacher all to themselves. Topics include programming, Python, cyber security, algorithms and maths. The Gloucestershire project begins in Cheltenham. Lesson one is free. Continuing costs USD 100 each month for group teaching or USD 150 each month for private teaching.
+> Live online coding, Python, cyber security and maths classes across Gloucestershire, from Gloucester and Cheltenham to Yate, Stroud, Cirencester and Tewkesbury.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Gloucestershire
-
-County of Gloucestershire / Live online
-
-# Coding classes in Gloucestershire
-
-**What are the best coding classes in Gloucestershire?** Gloucestershire as a ceremonial county runs from the Forest of Dean to the Cotswolds and down to the edge of Bristol: seven councils and 935,500 people at the 2021 Census. Gloucester and Cheltenham are the two big towns, then Yate, Stroud, Bradley Stoke and Cirencester, with dozens of market towns and villages in the valleys. We teach every one of them in the same way. Every class happens live on a video call with a teacher based in India; skills, not birthdays, decide where a learner starts; anyone aged 6 to 67 can join; and a learner can be one of fifteen to twenty in a group or have a teacher all to themselves. Topics include programming, Python, cyber security, algorithms and maths. The Gloucestershire project begins in Cheltenham. Lesson one is free. Continuing costs USD 100 each month for group teaching or USD 150 each month for private teaching.
-
-GCHQ has been in Cheltenham since the 1950s, and its headquarters, known as the Doughnut, has been home since 2003. Codes and keys depend on something that sounds simple and is not: random numbers that nobody can guess. Computers cannot flip coins, so they use formulas that produce numbers which look random. This page's project builds the oldest and simplest such formula, then plays the codebreaker. It finds that the numbers repeat, that some of their digits follow an obvious pattern, and that three outputs in a row are enough to predict every number that follows. The lesson is the same one professional codemakers learned long ago: looking random is not the same as being unpredictable.
-
-Facts last verified 26 September 2026. Teaching is online; no Gloucestershire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Gloucestershire
 
 ## Gloucestershire learners often begin here
 
 A seven-year-old in Tetbury who loves dice games, a Year 7 in Lydney writing a first Python program, a Year 10 in Cheltenham fascinated by codes, and a developer in Bradley Stoke who wants a deeper grip on algorithms. Each begins with a free lesson.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Scratch games with dice and random events, where children first meet a computer "picking" a number.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Real Python for children, with the random module used and then questioned: where do those numbers come from?
-- [Cybersecurity for Teens](/courses/cybersecurity-course-for-teens-ethical-defensive) (Ages 13 to 18): Defensive, ethical security, from paper ciphers to the HTTPS padlock, with instructor-built puzzles.
-- [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college) (Adults): Arrays to graphs to dynamic programming for adults, including cycle detection and the reasoning behind it.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsScratch games with dice and random events, where children first meet a computer "picking" a number.See the syllabus](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsReal Python for children, with the random module used and then questioned: where do those numbers come from?See the syllabus](/courses/python-ai-kids-masterclass)[![Cybersecurity for Teens course thumbnail](/images/cybersecurity-teens.webp)Ages 13 to 18Cybersecurity for TeensDefensive, ethical security, from paper ciphers to the HTTPS padlock, with instructor-built puzzles.See the syllabus](/courses/cybersecurity-course-for-teens-ethical-defensive)[![Data Structures & Algorithms Course course thumbnail](/images/dsa-college.webp)AdultsData Structures & Algorithms CourseArrays to graphs to dynamic programming for adults, including cycle detection and the reasoning behind it.See the syllabus](/courses/data-structures-algorithms-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Gloucestershire in figures
 
 ## Seven councils, 935,500 people, from the Forest to the Cotswolds
 
 Each council's 2021 Census total is from Nomis. Towns are the ONS built-up areas, and we counted census output areas ourselves to see which towns reach over the county line.
 
-**The seven councils of ceremonial Gloucestershire, usual residents at Census 2021, largest first**
-
 | Council | Usual residents | Main towns |
-|---|---|---|
+| --- | --- | --- |
 | South Gloucestershire | 290,424 | Yate, Bradley Stoke, Patchway, Thornbury, Filton, Kingswood |
 | Gloucester | 132,416 | Gloucester |
 | Stroud | 121,104 | Stroud, Stonehouse, Dursley, Cam, Nailsworth |
@@ -54,10 +40,8 @@ Each council's 2021 Census total is from Nomis. Towns are the ONS built-up areas
 
 South Gloucestershire, which has its own unitary council, holds almost a third of the county's people, most of them on the northern edge of Bristol. The Gloucestershire County Council area is a different place: two large towns, Gloucester and Cheltenham, whose built-up areas each spill into Tewkesbury district, and then valleys and wolds of small towns. A teenager in Cinderford and one in Moreton-in-Marsh live in the same county and a very long way apart.
 
-**Gloucestershire built-up areas above 5,000 residents, 2021 Census, largest first; the city of Bristol is left out**
-
 | Town | Residents | Town | Residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Kingswood and Fishponds | 160,270 | Brockworth | 12,005 |
 | Gloucester | 118,555 | Filton | 10,960 |
 | Cheltenham | 115,940 | Lydney | 9,660 |
@@ -72,9 +56,11 @@ South Gloucestershire, which has its own unitary council, holds almost a third o
 | Thornbury | 14,485 | Newent | 5,360 |
 | Tewkesbury | 14,390 | Coleford | 5,020 |
 | Churchdown | 13,480 | Moreton-in-Marsh | 5,010 |
-| Stoke Gifford | 13,470 |  |  |
+| Stoke Gifford | 13,470 |   |   |
 
 Every row agrees with our own output-area count to within rounding except the first. Kingswood and Fishponds is a built-up area of 160,270 that crosses from South Gloucestershire into the city of Bristol; about 114,700 of its residents are on the Gloucestershire side, and the table prints the ONS total for the whole place. Bristol itself, of which only a sliver reaches into South Gloucestershire, is left out. School calendars are set by the two councils and by academies; we did not read them, and the county's selective schools have [a separate maths page](/11-plus-maths-tuition-gloucestershire).
+
+The Gloucestershire project
 
 ## A random number generator, and three numbers that break it
 
@@ -82,10 +68,8 @@ The simplest pseudo-random formula, three tests of how random it really is, and 
 
 A linear congruential generator is one line of code: take the last number, multiply it by a constant a, add another constant c, and keep the remainder after dividing by 65,536. The output jumps around convincingly. The learner starts with a = 25,173 and c = 13,849, which we picked, and runs three tests. The first asks how long before the numbers repeat. For that they use Floyd's method, a tortoise that moves one step and a hare that moves two, which finds the loop without storing a single earlier number.
 
-**Our run of 26 September 2026: the same one-line generator with different constants, modulus 65,536**
-
 | Constants | Numbers before repeating | Verdict |
-|---|---|---|
+| --- | --- | --- |
 | a = 25,173, c = 13,849 | 65,536, every possible value | The longest cycle possible at this size |
 | a = 25,173, c = 13,848 (even) | 16,384 | A quarter of the values never appear |
 | a = 25,172 (even multiplier) | Falls into a loop of length 1 | Useless: it gets stuck on one number |
@@ -111,14 +95,14 @@ Recover a and c from three outputs by modular arithmetic, predict the rest, and 
 
 This is a teaching generator with constants we chose, attacked in a way described in any cryptography textbook. It is not how GCHQ or any modern system generates keys, and nothing here is a technique for attacking real systems. The GCHQ facts come from GCHQ's own pages.
 
+Why Cheltenham
+
 ## The Doughnut, and the county's place in the history of codes
 
 The Gloucestershire link, in GCHQ's own words.
 
-**GCHQ in Gloucestershire, from GCHQ's own pages**
-
 | Topic | What GCHQ says |
-|---|---|
+| --- | --- |
 | Arriving | GCHQ first came to Cheltenham in the 1950s; the site in Oakley opened in 1952. |
 | The Doughnut | Its Cheltenham headquarters, known affectionately as the Doughnut, has been home since the move there in 2003. |
 | Opening | The HQ was officially opened by HM Queen Elizabeth II in 2004. |
@@ -129,16 +113,41 @@ GCHQ's account of its own history makes the point this project teaches: the idea
 
 Modern Age Coders has no connection with GCHQ or with any Gloucestershire council, and nothing on this page suggests one. The facts are GCHQ's own; the generator, the attack and any errors are ours.
 
-**Nearby pages** [Gloucester](/best-coding-class-in-gloucester) has its own page, [Oxfordshire](/coding-classes-in-oxfordshire) and [Warwickshire](/coding-classes-in-warwickshire) lie to the east, and the [UK hub](/coding-classes-in-united-kingdom) lists the rest.
+Nearby pages
+
+[Gloucester](/best-coding-class-in-gloucester) has its own page, [Oxfordshire](/coding-classes-in-oxfordshire) and [Warwickshire](/coding-classes-in-warwickshire) lie to the east, and the [UK hub](/coding-classes-in-united-kingdom) lists the rest.
+
+Stages
 
 ## From rolling dice on screen to breaking a weak generator
 
 The free lesson places each learner. Age suggests a level; ability decides it.
 
-- **Ages 6 to 10: Chance in games** Scratch games with random events, where children see a computer pick numbers and start to wonder how. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 10 to 13: Numbers and binary** Python with remainders, binary and simple formulas, the pieces a random generator is built from. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 18: Security thinking** Ethical cyber security and algorithms, with the habit of asking how a system could be predicted or broken. [Cybersecurity for Teens](/courses/cybersecurity-course-for-teens-ethical-defensive), [Competitive Programming for Teens](/courses/competitive-programming-for-teens-course)
-- **Ages 18 to 67: Algorithms that hold up** Data structures and algorithms for adults, including cycle detection, number theory and the limits of shortcuts. [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Ages 6 to 10
+
+### Chance in games
+
+Scratch games with random events, where children see a computer pick numbers and start to wonder how.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 10 to 13
+
+### Numbers and binary
+
+Python with remainders, binary and simple formulas, the pieces a random generator is built from.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 18
+
+### Security thinking
+
+Ethical cyber security and algorithms, with the habit of asking how a system could be predicted or broken.
+
+[Cybersecurity for Teens](/courses/cybersecurity-course-for-teens-ethical-defensive)[Competitive Programming for Teens](/courses/competitive-programming-for-teens-course)Ages 18 to 67
+
+### Algorithms that hold up
+
+Data structures and algorithms for adults, including cycle detection, number theory and the limits of shortcuts.
+
+[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)AI and randomness
 
 ## Ask an AI for a random password generator. Will it use a random source that cannot be predicted?
 
@@ -150,30 +159,139 @@ A Gloucestershire student who has predicted seventeen numbers from three knows t
 
 So a Gloucestershire teenager should learn to code in 2026, in the county of the Doughnut, to be able to tell random-looking from unpredictable. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How lessons work
+
 ## Coleford to Chipping Sodbury, from your own desk
 
 Gloucestershire's valleys and wolds make travel slow. Online lessons skip it entirely.
 
-- **At home, live** A bedroom in Newent, a kitchen in Nailsworth, a desk in Thornbury. The teacher shares a screen and the learner codes.
-- **School terms we use** Year groups, GCSE options and A levels are named just as Gloucestershire schools name them, in English.
-- **The first lesson is free** A real lesson with real work and an honest recommendation. You will not be asked to pay anything.
-- **Grouped by skill** Between five and ten classmates who are at your stage, from different towns and countries, so nobody waits and nobody is lost.
-- **Term-time rhythm** Most learners take two sessions a week and stop for the same holidays their school takes.
-- **Clock times made simple** We run on Indian Standard Time at our end, yet every lesson slot we send a Gloucestershire family is written only in UK time, summer or winter.
+### At home, live
 
-**Why groups are formed by level** Twenty-nine towns spread over valleys, wolds and suburbs rarely give any one place enough learners at the same stage. Level-based groups let a Stroud learner and a Yate learner share a class.
+A bedroom in Newent, a kitchen in Nailsworth, a desk in Thornbury. The teacher shares a screen and the learner codes.
+
+### School terms we use
+
+Year groups, GCSE options and A levels are named just as Gloucestershire schools name them, in English.
+
+### The first lesson is free
+
+A real lesson with real work and an honest recommendation. You will not be asked to pay anything.
+
+### Grouped by skill
+
+Between five and ten classmates who are at your stage, from different towns and countries, so nobody waits and nobody is lost.
+
+### Term-time rhythm
+
+Most learners take two sessions a week and stop for the same holidays their school takes.
+
+### Clock times made simple
+
+We run on Indian Standard Time at our end, yet every lesson slot we send a Gloucestershire family is written only in UK time, summer or winter.
+
+Why groups are formed by level
+
+Twenty-nine towns spread over valleys, wolds and suburbs rarely give any one place enough learners at the same stage. Level-based groups let a Stroud learner and a Yate learner share a class.
+
+Fees
 
 ## Gloucestershire fees
 
 One set of fees across the county, and for every country other than India.
 
-- First class: USD 0. A complete lesson of real work, with a recommended level and course.
-- Group tuition: USD 100 a month. About eight lessons a month, fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. About eight lessons a month with a teacher and one learner.
+First class**USD 0**
+
+A complete lesson of real work, with a recommended level and course.
+
+Group tuition**USD 100**
+
+About eight lessons a month, fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+About eight lessons a month with a teacher and one learner.
 
 Families outside India are billed in US dollars, with no pound list. Payment begins only after the free lesson has agreed a course and a weekly time, and the pricing page covers pauses, missed lessons and switching between group and private.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20we%20book%20a%20free%20lesson%20for%20a%20learner%20in%20Gloucestershire%3F)Reviews
+
+## Six Google reviews from our families
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Request a free lesson
+
+An age or school year and one interest will do. The first lesson might be a Scratch dice game, a first Python program, or the generator and its three-number attack on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Gloucestershire one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20we%20book%20a%20free%20lesson%20for%20a%20learner%20in%20Gloucestershire%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Gloucestershire questions
+
+The county, the random numbers project and our lessons.
 
 ### How many people live in Gloucestershire?
 
@@ -215,10 +333,14 @@ The first lesson costs nothing. Stay on and you pay USD 100 monthly for a group 
 
 Gloucestershire County Council, South Gloucestershire and academies set their own dates. We arrange lesson breaks around your school's calendar.
 
+More UK pages
+
 ## Around Gloucestershire
 
 The [Gloucester](/best-coding-class-in-gloucester) page covers the city. Neighbouring county pages include [Oxfordshire](/coding-classes-in-oxfordshire) and [Warwickshire](/coding-classes-in-warwickshire), and the [UK hub](/coding-classes-in-united-kingdom) has the full list.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20we%20book%20a%20free%20lesson%20for%20a%20learner%20in%20Gloucestershire%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-gloucestershire](https://learn.modernagecoders.com/coding-classes-in-gloucestershire#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-gloucestershire*

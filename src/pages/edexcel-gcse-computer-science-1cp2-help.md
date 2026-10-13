@@ -4,36 +4,32 @@ description: "Help with Pearson Edexcel 1CP2: one question per topic on Paper 1,
 canonical: https://learn.modernagecoders.com/edexcel-gcse-computer-science-1cp2-help
 source: src/pages/edexcel-gcse-computer-science-1cp2-help.html
 ---
-> Edexcel 1CP2 is two externally examined papers of equal weight, 75 marks each. Paper 1 is written, an hour and a half, and covers five topics in five compulsory questions, one per topic. Paper 2 is an onscreen practical of two hours, covering a sixth topic only, in which candidates design, write, test and refine programs in their own development environment using Python 3, with coding files supplied, a printed question paper, the programming language subset as an insert, and no internet access. That structure rewards two specific things: even coverage across the five written topics, because each one is a whole question, and genuine keyboard fluency, because the practical paper is a real programming session under a clock. We teach both. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
+> Help with Pearson Edexcel 1CP2: one question per topic on Paper 1, and Paper 2 sat onscreen in Python 3 with no internet. Taught live. First class free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Edexcel 1CP2 help
+In short
 
-England · Pearson Edexcel 1CP2 · Years 10 and 11
+Edexcel 1CP2 is two externally examined papers of equal weight, 75 marks each. Paper 1 is written, an hour and a half, and covers five topics in five compulsory questions, one per topic. Paper 2 is an onscreen practical of two hours, covering a sixth topic only, in which candidates design, write, test and refine programs in their own development environment using Python 3, with coding files supplied, a printed question paper, the programming language subset as an insert, and no internet access. That structure rewards two specific things: even coverage across the five written topics, because each one is a whole question, and genuine keyboard fluency, because the practical paper is a real programming session under a clock. We teach both. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
 
-# Edexcel GCSE Computer Science 1CP2 help
-
-Two things about this qualification are unlike anything the other English boards do, and both change how a student should revise. The first is in a single line of the specification: Paper 1 "consists of five compulsory questions, each one focused on one of the topic areas". Five topics, five questions, so a weak topic is not a scattering of lost marks, it is a whole question on a paper worth seventy-five. There is nowhere to hide networks if networks never went in. The second is that Paper 2 is not a written paper at all. It is sat at a keyboard, in the student's own development environment, in Python 3, with no internet. This page covers both, and what a year of preparation should actually look like for each.
-
-At a glance: Qualification: Pearson Edexcel GCSE 1CP2; Paper 1: Written, 1h30, 75 marks, 50 per cent; Paper 2: Onscreen, 2 hours, 75 marks, 50 per cent; Paper 1 structure: Five questions, one per topic; Paper 2 structure: Six compulsory questions; Language: Python 3, in your own IDE; Internet: Not permitted; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three courses for Edexcel candidates
 
 One for the written paper, one for the keyboard, one for the algorithms both lean on. Cards open the full syllabus.
 
-- [GCSE Computer Science](/courses/gcse-computer-science-course): All five written topics covered evenly, because on this paper each one is a whole question rather than a few marks.
-- [Python for Teens](/courses/python-complete-masterclass-teens): Python 3 typed at speed in a real editor, which is precisely the medium of Paper 2.
-- [Algorithms and Data Structures](/courses/problem-solving-dsa-masterclass-teens): Decomposition and algorithm design, which Topic 1 tests on paper and Topic 6 tests at a keyboard.
+[![GCSE Computer Science course thumbnail](/images/gcse-computer-science.webp)  EDX / 01 GCSE Computer Science All five written topics covered evenly, because on this paper each one is a whole question rather than a few marks. Open the syllabus →](/courses/gcse-computer-science-course)[![Python for Teens course thumbnail](/images/python-teens.webp)  EDX / 02 Python for Teens Python 3 typed at speed in a real editor, which is precisely the medium of Paper 2. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)  EDX / 03 Algorithms and Data Structures Decomposition and algorithm design, which Topic 1 tests on paper and Topic 6 tests at a keyboard. Open the syllabus →](/courses/problem-solving-dsa-masterclass-teens)
+
+One question per topic
 
 ## Five topics, five questions, no shelter
 
 From the Pearson Edexcel specification, Issue 1, January 2020. The structure of Paper 1 is unusual and it changes what revision should look like.
 
-**The line that shapes the year** Paper 1 "consists of five compulsory questions, each one focused on one of the topic areas. The questions consist of multiple-choice, short-, medium- and extended-open-response, tabular and diagrammatic items."
+The line that shapes the year
 
-**The five topics on Paper 1**
+Paper 1 "consists of five compulsory questions, each one focused on one of the topic areas. The questions consist of multiple-choice, short-, medium- and extended-open-response, tabular and diagrammatic items."
 
 | Topic | What the specification says it covers |
-|---|---|
+| --- | --- |
 | 1. Computational thinking | "Understanding of what algorithms are, what they are used for and how they work; ability to follow, amend and write algorithms; ability to construct truth tables" |
 | 2. Data | "Understanding of binary, data representation, data storage and compression" |
 | 3. Computers | "Understanding of hardware and software components of computer systems and characteristics of programming languages" |
@@ -56,14 +52,14 @@ A practical consequence for anyone tutoring themselves: work through the five to
 
 Source, read 20 September 2026: [Pearson Edexcel Level 1/Level 2 GCSE (9-1) in Computer Science](https://qualifications.pearson.com/en/qualifications/edexcel-gcses/computer-science-2020.html) specification, Issue 1, January 2020. Check the current issue on Pearson's site, and your school will confirm which applies.
 
+The onscreen paper
+
 ## Two hours at a keyboard, in Python 3
 
 Paper 2 is a practical assessment rather than a written one, which makes Edexcel unlike the other English boards at GCSE.
 
-**How Paper 2 runs, in the specification's own terms**
-
 | Element | What the specification says |
-|---|---|
+| --- | --- |
 | Format | "Onscreen examination: 2 hours", 75 marks, 50 per cent of the qualification |
 | Content | Topic 6 only, "Problem solving with programming" |
 | The task | "This practical paper requires students to design, write, test and refine programs in order to solve problems" |
@@ -101,14 +97,14 @@ The subset booklet supplied with the paper is worth understanding in its own rig
 
 One more requirement sits behind the scenes. Centres must complete a Practical Programming Statement, signed by a member of the senior leadership team, confirming that each candidate had the opportunity to design, write, test and refine programs in Python during the course. A board does not create a signed declaration unless it considers the alternative a genuine risk, which tells a parent what to ask their school about.
 
+How to prepare
+
 ## Two different plans for two different papers
 
 The commonest mistake with 1CP2 is preparing for both papers the same way. They reward almost opposite habits.
 
-**Preparing for each paper**
-
-|  | Paper 1 | Paper 2 |
-|---|---|---|
+|   | Paper 1 | Paper 2 |
+| --- | --- | --- |
 | Main risk | A topic that never went in | Keyboard hesitancy under a clock |
 | Best weekly habit | Rotate through all five topics rather than blocking one | Write and run Python, every week, without exception |
 | What to practise | Diagrams, tables, truth tables and extended written answers | Reading errors, testing as you go, and finishing within twenty minutes |
@@ -133,14 +129,14 @@ And we do not promise grades. We teach the content, the fluency and the pacing, 
 
 For students continuing to sixth form, the change is significant: a project starts counting and the rules on acknowledgement bite. [The A-level coursework page](/a-level-computer-science-nea-help) sets out where the marks sit at AQA and OCR, and [the page on understanding the code](/understand-the-code-dont-copy-paste-uk) covers what the awarding bodies say about AI in assessed work.
 
+Progression
+
 ## Four rungs to a confident pair of papers
 
 Position is judged by what a student can type unaided and how evenly the five topics have landed.
 
-**Where a 1CP2 candidate should be**
-
 | Rung | When | What should be true |
-|---|---|---|
+| --- | --- | --- |
 | 1. Typing without friction | The first term of the course | Short Python programs written in an editor without copying an example |
 | 2. Five topics started | By the end of the first year | Every written topic has been covered at least once, none left for later |
 | 3. Programs that get tested | Second year | Testing as you go, reading errors calmly, and refining rather than restarting |
@@ -149,63 +145,293 @@ Position is judged by what a student can type unaided and how evenly the five to
 ### Rung two is where plans fail
 
 Because it is invisible. A student who is enjoying programming will happily leave networks and impact until later, and on this paper later is a whole question.
+
 The full topic order past the GCSE runs down the [coding roadmap](/coding-roadmap).
 
 ### Rung four cannot be crammed
 
 Pace comes from repetition under timing, and a candidate who first sees a two-hour practical in May will spend the first half of it adjusting.
+
 Lessons ease off in the fortnight before the papers and restart once they are done.
+
+The catalogue
 
 ## Nine courses for Edexcel candidates
 
 Grouped by which paper they serve. The free lesson decides the starting point.
 
+I
+
 ### For Paper 2
 
 Keyboard fluency in Python
 
-- [Python in full](/courses/python-complete-masterclass-teens): Written in a real editor every week, which is the only preparation an onscreen paper accepts.
-- [First Python](/courses/python-ai-kids-masterclass): For Year 9 and early Year 10 students who arrived from blocks and need the keyboard stage properly.
-- [Building with AI assistance](/courses/vibe-coding-for-teens-python-web-ai-projects-course): Using tools properly on our own projects, so the habit is reviewing rather than pasting.
+UK / ED1 / 01
+
+#### Python in full
+
+Written in a real editor every week, which is the only preparation an onscreen paper accepts.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+UK / ED1 / 02
+
+#### First Python
+
+For Year 9 and early Year 10 students who arrived from blocks and need the keyboard stage properly.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)
+
+UK / ED1 / 03
+
+#### Building with AI assistance
+
+Using tools properly on our own projects, so the habit is reviewing rather than pasting.
+
+[Open the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)II
 
 ### For Paper 1
 
 Five topics, evenly
 
-- [GCSE Computer Science](/courses/gcse-computer-science-course): All five written topics in rotation rather than in blocks, which is what this paper rewards.
-- [Algorithms and data structures](/courses/problem-solving-dsa-masterclass-teens): Following, amending and writing algorithms, which is Topic 1 almost word for word.
-- [Databases and SQL](/courses/mysql-database-complete-masterclass-college): Background for the data and systems topics, and essential for anyone continuing to A level.
+UK / ED2 / 01
+
+#### GCSE Computer Science
+
+All five written topics in rotation rather than in blocks, which is what this paper rewards.
+
+[Open the syllabus](/courses/gcse-computer-science-course)
+
+UK / ED2 / 02
+
+#### Algorithms and data structures
+
+Following, amending and writing algorithms, which is Topic 1 almost word for word.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
+
+UK / ED2 / 03
+
+#### Databases and SQL
+
+Background for the data and systems topics, and essential for anyone continuing to A level.
+
+[Open the syllabus](/courses/mysql-database-complete-masterclass-college)III
 
 ### Past the GCSE
 
 For students carrying on
 
-- [Full stack web development](/courses/full-stack-web-development-teens-masterclass): A real application with data behind it, built once the specification feels routine.
-- [Data science with Python](/courses/data-science-course-for-teens-python-data): Published datasets questioned rather than accepted, which sixth form rewards.
-- [AI and machine learning](/courses/ai-ml-masterclass-teens): Models trained and broken, where programming and mathematics start pulling together.
+UK / ED3 / 01
+
+#### Full stack web development
+
+A real application with data behind it, built once the specification feels routine.
+
+[Open the syllabus](/courses/full-stack-web-development-teens-masterclass)
+
+UK / ED3 / 02
+
+#### Data science with Python
+
+Published datasets questioned rather than accepted, which sixth form rewards.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)
+
+UK / ED3 / 03
+
+#### AI and machine learning
+
+Models trained and broken, where programming and mathematics start pulling together.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+How lessons work
 
 ## In an editor, weekly, against the clock later
 
 Our teachers work from India, where the clock does not shift, so the UK runs five and a half hours behind from October and four and a half from March. Times are agreed in UK time.
 
-- **Straight after school** The usual slot for Years 10 and 11.
-- **Later in the evening** For students whose day finishes late.
-- **Weekend morning** Long enough for a full two-hour practical and a proper review.
+Straight after school
 
-- **The student types** Every lesson, in a real development environment. Watching somebody else code builds nothing an onscreen paper can use.
-- **Predict before running** A learner says what the program will do first. That habit is what turns an unexpected error into information.
-- **Testing as you go** Run it early and often, because the paper asks for programs that are tested and refined rather than merely written.
-- **Topics in rotation** The five written topics revisited across the year rather than blocked, because each one is a whole question.
-- **Timed practice later** From the spring of Year 11, six questions in two hours, with the clock visible.
-- **Groups by level** Fifteen to twenty students at one stage, comparing two solutions to the same problem.
+The usual slot for Years 10 and 11.
+
+Later in the evening
+
+For students whose day finishes late.
+
+Weekend morning
+
+Long enough for a full two-hour practical and a proper review.
+
+### The student types
+
+Every lesson, in a real development environment. Watching somebody else code builds nothing an onscreen paper can use.
+
+### Predict before running
+
+A learner says what the program will do first. That habit is what turns an unexpected error into information.
+
+### Testing as you go
+
+Run it early and often, because the paper asks for programs that are tested and refined rather than merely written.
+
+### Topics in rotation
+
+The five written topics revisited across the year rather than blocked, because each one is a whole question.
+
+### Timed practice later
+
+From the spring of Year 11, six questions in two hours, with the clock visible.
+
+### Groups by level
+
+Fifteen to twenty students at one stage, comparing two solutions to the same problem.
+
+Student work
+
+## Python our students have written
+
+Four published projects from candidates of about this age. The [student labs](/student-labs) page has more.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## What 1CP2 tuition costs
 
 One monthly charge in US dollars, the rate for every country outside India. The free lesson comes first and billing starts only when a course and a weekly slot are fixed.
 
-- Free first class: USD 0. A full lesson using real 1CP2 material. A frank view of which paper is the weaker. Nothing needed but a number to call.
-- Group batch: USD 100 a month. Five to ten candidates at one stage. One named teacher throughout. Code read and returned every week. Timed practice added in the final spring.
-- One to one: USD 150 a month. Only the student and the teacher. Planned back from the paper dates. Suits a candidate chasing a specific grade.
+Free first class
+
+USD 0
+
+no card required
+
+- A full lesson using real 1CP2 material
+- A frank view of which paper is the weaker
+- Nothing needed but a number to call
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Five to ten candidates at one stage
+- One named teacher throughout
+- Code read and returned every week
+- Timed practice added in the final spring
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- Only the student and the teacher
+- Planned back from the paper dates
+- Suits a candidate chasing a specific grade
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Taken from Google unedited, from families who volunteered them.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about Edexcel 1CP2
 
 ## What Edexcel candidates and parents ask
 
@@ -249,15 +475,54 @@ No. We teach the content, the fluency and the pacing beforehand. What happens in
 
 The opening lesson costs nothing. After that a group place is USD 100 a month and a teacher to yourself USD 150, billed monthly with nothing in advance.
 
+Elsewhere on this site
+
 ## Where to read next
 
-- [Python classes online in the UK](/best-python-classes-online-uk): What the programming language subset contains, and why to aim above it.
-- [AQA GCSE Computer Science 8525](/aqa-gcse-computer-science-8525-help): Where questions arrive in AQA pseudo-code and answers must match the form asked.
-- [OCR GCSE Computer Science J277](/ocr-gcse-computer-science-j277-help): The Not required column, and the notation choice in Section B.
-- [Coding and AI classes in England](/coding-and-ai-classes-in-england): Why most secondary schools are not required to teach computing at all.
-- [A-level Computer Science coursework](/a-level-computer-science-nea-help): What changes once a project counts towards the grade.
-- [Coding classes in the UK](/coding-classes-in-united-kingdom): The national page, and the index of every UK page we publish.
+Each page takes a different part of this further.
 
-## Contact
+### [Python classes online in the UK](/best-python-classes-online-uk)
 
-Book the free first class at [https://learn.modernagecoders.com/edexcel-gcse-computer-science-1cp2-help](https://learn.modernagecoders.com/edexcel-gcse-computer-science-1cp2-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+What the programming language subset contains, and why to aim above it.
+
+### [AQA GCSE Computer Science 8525](/aqa-gcse-computer-science-8525-help)
+
+Where questions arrive in AQA pseudo-code and answers must match the form asked.
+
+### [OCR GCSE Computer Science J277](/ocr-gcse-computer-science-j277-help)
+
+The Not required column, and the notation choice in Section B.
+
+### [Coding and AI classes in England](/coding-and-ai-classes-in-england)
+
+Why most secondary schools are not required to teach computing at all.
+
+### [A-level Computer Science coursework](/a-level-computer-science-nea-help)
+
+What changes once a project counts towards the grade.
+
+### [Coding classes in the UK](/coding-classes-in-united-kingdom)
+
+The national page, and the index of every UK page we publish.
+
+Start here
+
+## Book a free first lesson
+
+Send a number and we will reply at a British hour that suits. The lesson uses real 1CP2 material, at a keyboard, and ends with a straight view of which paper needs the work.
+
+Prefer reading? Syllabuses sit on each [course page](/courses), the method and its limits are in [how we teach](/how-we-teach), and the topic order runs down the [coding roadmap](/coding-roadmap).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20first%20class%20for%20Edexcel%20GCSE%20Computer%20Science%201CP2.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+A WhatsApp message is free from a British mobile and gets the fastest answer. The number is an Indian one, said here rather than noticed later.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/edexcel-gcse-computer-science-1cp2-help*

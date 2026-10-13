@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths lessons for St Davids lea
 canonical: https://learn.modernagecoders.com/best-coding-class-in-st-davids
 source: src/pages/best-coding-class-in-st-davids.html
 ---
-> St Davids and Letterston, the middle-layer area that contains the city, had 7,238 usual residents at the 2021 census and only 34.9 people per square kilometre. Cadw's listing dates most of St Davids Cathedral to between 1180 and 1220. Anyone from six to sixty-seven in and around St Davids can join: a teacher in India runs each lesson over a video call, one to one or with fifteen to twenty learners at a single level, fitted around the Welsh school day and working hours. The first lesson is free; after it, a class place is USD 100 a month and a teacher to themselves USD 150 a month.
+> Live online coding, Python, AI and maths lessons for St Davids learners aged 6 to 67, from Caerfarchell and Trevinert to Whitesands. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / St Davids
-
-St Davids, Pembrokeshire / Live online
-
-# Coding classes in St Davids
-
-**What are the best coding classes in St Davids?** St Davids and Letterston, the middle-layer area that contains the city, had 7,238 usual residents at the 2021 census and only 34.9 people per square kilometre. Cadw's listing dates most of St Davids Cathedral to between 1180 and 1220. Anyone from six to sixty-seven in and around St Davids can join: a teacher in India runs each lesson over a video call, one to one or with fifteen to twenty learners at a single level, fitted around the Welsh school day and working hours. The first lesson is free; after it, a class place is USD 100 a month and a teacher to themselves USD 150 a month.
-
-Ordnance Survey's gazetteer calls the city Tyddewi and St Davids, and gives its position on the National Grid. A phone's GPS gives a latitude and longitude. Put the grid position through the wrong conversion and St Davids Cathedral lands 83.2 metres away, 44.3 metres north and 70.5 metres west of where GPS would place it. Our St Davids project builds the right conversion from Ordnance Survey's own guide: grid to latitude and longitude on the Airy ellipsoid, then a seven-number Helmert transformation to the system GPS uses. Tested against 9,536 Environment Agency gauging stations, it agrees with their published coordinates to within 2.21 metres everywhere.
-
-Facts last verified 23 September 2026. Teaching is online; no St Davids branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for St Davids
 
 ## Four courses for Pembrokeshire's cathedral city
 
 Choose whichever course is closest to what the learner enjoys now. Each starts with a free live lesson, and booking needs no card.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 12): Block programming for younger children, from treasure-map games with grid squares to simple animations.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): Coordinates, angles and trigonometry worked out in short programs, the mathematics inside every map and GPS.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Python from first lines to full projects, enough to turn Ordnance Survey's coordinate formulae into working, tested code.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (University and adult): Python for adults who work with locations, maps or GPS data and need positions that line up across systems.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 12Scratch Coding for KidsBlock programming for younger children, from treasure-map games with grid squares to simple animations.See the syllabus](/courses/scratch-programming-complete-course)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingCoordinates, angles and trigonometry worked out in short programs, the mathematics inside every map and GPS.See the syllabus](/courses/maths-through-coding)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensPython from first lines to full projects, enough to turn Ordnance Survey's coordinate formulae into working, tested code.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)University and adultPython MasterclassPython for adults who work with locations, maps or GPS data and need positions that line up across systems.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)St Davids today
 
 ## A tiny city in a thinly settled county
 
 Census 2021 results from the Office for National Statistics, taken from Nomis, for the middle-layer area the House of Commons Library calls St Davids and Letterston, with Pembrokeshire and Wales for comparison.
 
-**Census 2021 counts for the St Davids area**
-
 | Where | People living there | In full-time education (aged 5 and over) | People per square kilometre |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | St Davids and Letterston | 7,238 | 14.1% | 34.9 |
 | Pembrokeshire | 123,360 | 16.8% | 76.2 |
 | Wales | 3,107,494 | 19.9% | 149.9 |
@@ -61,6 +47,8 @@ In St Davids and Letterston, 8.6% of residents were aged 65 to 69 and 7.5% were 
 Of the area's 6,978 residents aged five and over, 987 were in full-time education, and 253 people lived in communal establishments.
 
 Each percentage comes from its own census table, because the tables are adjusted separately for privacy. Our St Davids classes take in the city and the scattered settlements of the peninsula. A Caerfarchell eight-year-old making a first game, a Year 11 student near Clegyr-Boia preparing for WJEC GCSE Computer Science and a Trevinert adult learning Python to map walking routes could each join a different class, placed by level.
+
+Cathedral and palace
 
 ## A cathedral rebuilt after a fall and an earthquake
 
@@ -80,16 +68,18 @@ The Bishop's Palace was begun around 1200 and largely built under Bishop Bek (12
 
 Cadw records that the cathedral was restored mainly by Sir George Gilbert Scott between 1862 and 1878, and that the west front is Scott's re-creation of the Norman original after a rebuilding by John Nash in 1793. Porth-y-Twr is a 14th-century bell tower with an attached fortified gate, possibly of the 15th century; Cadw records that the tower was restored in 1929 by W D Caroe. Cadw also lists the City Cross at Grade II*. We have no connection with Cadw or St Davids Cathedral, and the history here is taken from Cadw's reports.
 
-**Where the coordinates come from** Cadw's listing data gives the cathedral a National Grid position of 175156 east, 225430 north. Ordnance Survey's guide to coordinate systems supplies the ellipsoids, projection constants and Helmert parameters, and the Environment Agency publishes both grid references and latitudes and longitudes for its gauging stations.
+Where the coordinates come from
+
+Cadw's listing data gives the cathedral a National Grid position of 175156 east, 225430 north. Ordnance Survey's guide to coordinate systems supplies the ellipsoids, projection constants and Helmert parameters, and the Environment Agency publishes both grid references and latitudes and longitudes for its gauging stations.
+
+Signature project
 
 ## Why does GPS move the cathedral 83 metres?
 
 The National Grid is drawn on an ellipsoid called Airy 1830, fitted to Britain in the 19th century. GPS uses a different ellipsoid, positioned for the whole Earth. The same latitude and longitude therefore name two different spots, and converting between them is a three-step job.
 
-**Converting Ordnance Survey grid references to GPS latitude and longitude, compared with the Environment Agency's published coordinates for 9,536 gauging stations**
-
 | Method | Typical gap | Worst 5% start at | Largest gap |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Grid to latitude and longitude, no change of ellipsoid | 110.2 m | not needed | 138.2 m |
 | Grid to latitude and longitude, then a Helmert transformation | 1.01 m | 1.81 m | 2.21 m |
 
@@ -111,14 +101,14 @@ Ordnance Survey's guide says a single Helmert transformation gives errors of up 
 
 At St Davids Cathedral the conversion moves the point 44.3 metres north and 70.5 metres west, 83.2 metres in all. That is less than the smallest shift among the English gauges, a reminder that the gap between the two systems varies across Britain. For anyone following GPS directions to a door, 83 metres is the difference between arriving and not.
 
+Working with coordinates
+
 ## Five checks before trusting a position
 
 Learned on St Davids, then used for delivery apps, drone flights, field surveys, sports tracking and any program that mixes maps from different sources.
 
-**Decisions behind the St Davids coordinate project**
-
 | Question | For St Davids | What goes wrong if you skip it |
-|---|---|---|
+| --- | --- | --- |
 | Which system is each number in? | Grid on Airy 1830, GPS on its own ellipsoid | Two positions for one place, 83 metres apart |
 | Does the code match the source? | Both worked examples in the guide reproduced | A formula typed wrongly and never noticed |
 | Which way do the rotations turn? | Signs taken from the guide, then reversed as it says | An answer that doubles the error |
@@ -141,14 +131,37 @@ Combining location data from different sources without silent shifts, with every
 
 We have no connection with Ordnance Survey, the Environment Agency, Cadw, St Davids Cathedral or Pembrokeshire County Council. The guide, station list, listing data and census tables are published openly; the conversions and comparisons on this page are our own work.
 
+Learning ladder
+
 ## From grid squares to the Helmert transformation
 
 The ages are only a guide; the free lesson finds the right starting step.
 
-- **Ages 6 to 10: Grids and maps** Grid references, treasure maps and moving a sprite by coordinates in block code. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 11 to 13: Coordinates in Python** Distances, angles and simple conversions between two made-up grids, written as short programs. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Real map projections** Transverse Mercator, ellipsoids and the Helmert transformation, each step tested against Ordnance Survey's examples. [Python for Teens](/courses/python-complete-masterclass-teens), [High School Mathematics](/courses/complete-high-school-mathematics-mastery)
-- **Ages 18 to 67: Location data at work** Merging GPS tracks, map layers and addresses in Python without positions drifting apart. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Science Course](/courses/data-science-complete-masterclass-college)
+Ages 6 to 10
+
+### Grids and maps
+
+Grid references, treasure maps and moving a sprite by coordinates in block code.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 11 to 13
+
+### Coordinates in Python
+
+Distances, angles and simple conversions between two made-up grids, written as short programs.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Real map projections
+
+Transverse Mercator, ellipsoids and the Helmert transformation, each step tested against Ordnance Survey's examples.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[High School Mathematics](/courses/complete-high-school-mathematics-mastery)Ages 18 to 67
+
+### Location data at work
+
+Merging GPS tracks, map layers and addresses in Python without positions drifting apart.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Science Course](/courses/data-science-complete-masterclass-college)Coding and AI
 
 ## AI can write a coordinate converter in seconds. Why should a St Davids teenager build one?
 
@@ -160,30 +173,139 @@ The project also teaches the difference between precise and accurate. Our answer
 
 So a St Davids teenager should keep learning to code in 2026, beside a cathedral Cadw dates to 1180: machines can produce the numbers, but a person has to check they point to the right place. The longer argument is in [why coding is worth learning in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Caerfarchell, Trevinert or Whitesands, and one class
 
 St Davids sits among farms and hamlets on a thinly settled peninsula. Online, a learner at the end of a lane is as close to the lesson as one in Cross Square.
 
-- **City and peninsula** A learner in Rhodiad-y-Brenin and another in Upper Solva can share one class without anyone making the drive.
-- **Welsh schooling** Families will recognise our stages: they are matched to Welsh school years and the Curriculum for Wales, with WJEC GCSE and A level course names, though every lesson is taught in English.
-- **How the free lesson works** The learner builds something real in the first session, and the teacher then suggests a level, a course and a weekly time. We do not ask for a card.
-- **A class at every stage** Fifteen to twenty learners at one level, drawn from St Davids, the rest of the UK and abroad, so each stage has good times to choose from.
-- **Two lessons weekly** Two fixed lessons each week, about eight a month, with holidays and exam weeks planned with the teacher well ahead.
-- **Teachers on Indian time** A class that starts at five in the afternoon in Pembrokeshire is a late-evening lesson in India, at 21:30 there during British Summer Time and 22:30 in the winter months.
+### City and peninsula
 
-**Across Pembrokeshire** Learners in Haverfordwest, Fishguard, Narberth or Neyland join exactly the same classes, since every lesson is online and classes are formed by level.
+A learner in Rhodiad-y-Brenin and another in Upper Solva can share one class without anyone making the drive.
+
+### Welsh schooling
+
+Families will recognise our stages: they are matched to Welsh school years and the Curriculum for Wales, with WJEC GCSE and A level course names, though every lesson is taught in English.
+
+### How the free lesson works
+
+The learner builds something real in the first session, and the teacher then suggests a level, a course and a weekly time. We do not ask for a card.
+
+### A class at every stage
+
+Fifteen to twenty learners at one level, drawn from St Davids, the rest of the UK and abroad, so each stage has good times to choose from.
+
+### Two lessons weekly
+
+Two fixed lessons each week, about eight a month, with holidays and exam weeks planned with the teacher well ahead.
+
+### Teachers on Indian time
+
+A class that starts at five in the afternoon in Pembrokeshire is a late-evening lesson in India, at 21:30 there during British Summer Time and 22:30 in the winter months.
+
+Across Pembrokeshire
+
+Learners in Haverfordwest, Fishguard, Narberth or Neyland join exactly the same classes, since every lesson is online and classes are formed by level.
+
+Fees
 
 ## St Davids lesson fees
 
 The first lesson is free, and then one fee is paid each month.
 
-- First class: USD 0. A complete lesson without charge, ending with a suggested level, course and weekly time.
-- Group tuition: USD 100 a month. About eight live lessons a month, in a class of fifteen to twenty learners at one stage.
-- Private tuition: USD 150 a month. About eight live lessons a month, with a teacher for your learner alone.
+First class**USD 0**
+
+A complete lesson without charge, ending with a suggested level, course and weekly time.
+
+Group tuition**USD 100**
+
+About eight live lessons a month, in a class of fifteen to twenty learners at one stage.
+
+Private tuition**USD 150**
+
+About eight live lessons a month, with a teacher for your learner alone.
 
 Families in Whitchurch or Treleddyd-fawr pay in US dollars, like every family outside India, and our site shows no pound prices anywhere. Payment starts only after the free lesson, once you have settled on a course and a weekly time with us; the pricing page explains pauses, missed lessons and moving between a class and one-to-one teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20St%20Davids.)Reviews
+
+## Six family reviews from Google, unchanged
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson for a St Davids learner
+
+The first lesson depends on the learner: a grid-map treasure hunt for a young child, a short Python program that measures the distance between two map points for a beginner, or Ordnance Survey's coordinate formulae and a Helmert transformation for a teenager ready for real geodesy.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented St Davids one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20St%20Davids.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## St Davids coding class questions
+
+The questions St Davids families ask us most.
 
 ### How many people live in and around St Davids?
 
@@ -225,10 +347,14 @@ The first lesson is free. After that, a group place costs USD 100 a month for tw
 
 By level, pace and goals rather than age or location, with fifteen to twenty learners at the same stage. Where no group fits the learner's week, we offer one-to-one lessons.
 
+Explore Wales and the UK
+
 ## Wales and beyond
 
 Along the south coast, the [Swansea page](/best-coding-class-in-swansea) hunts for the month roadside air changed, and in the north [St Asaph](/best-coding-class-in-st-asaph) reads which way a valley faces from a height map. Learners working towards [WJEC GCSE Computer Science](/wjec-gcse-computer-science-help-wales) or [WJEC GCSE Digital Technology](/wjec-gcse-digital-technology-help-wales) have their own pages. To see how our stages line up with a Welsh school career, open the [Wales guide](/coding-and-ai-classes-in-wales); for any other UK city, start from the [UK coding page](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20St%20Davids.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-st-davids](https://learn.modernagecoders.com/best-coding-class-in-st-davids#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-st-davids*

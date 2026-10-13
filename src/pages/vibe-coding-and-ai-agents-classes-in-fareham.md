@@ -4,46 +4,32 @@ description: "Vibe coding, AI agents, Python and coding taught on live video for
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-fareham
 source: src/pages/vibe-coding-and-ai-agents-classes-in-fareham.html
 ---
-> At the 2021 census the ONS put 42,625 usual residents in the Fareham built-up area and 114,511 in the borough of Fareham. Funtley, Wallington, Catisfield, Hill Park and Heathfield are gazetteer suburbs whose nearest postcode lies inside the built-up area. Modern Age Coders runs live online lessons in vibe coding, AI agents, Python, coding and maths for learners from six to 67, with tutors in India teaching one-to-one or in groups of fifteen to twenty learners at a matched level. A free lesson always comes first, and our course suggestion follows it. The Fareham project gives a simple agent 30 real post boxes with afternoon collection times and asks whether it should chase the most urgent deadline or the nearest box. Regular lessons then cost USD 100 a month in a group or USD 150 a month one-to-one.
+> Vibe coding, AI agents, Python and coding taught on live video for Fareham, Funtley, Wallington, Catisfield and Hill Park, ages 6 to 67. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South East England](/coding-and-ai-classes-in-south-east-england) / Fareham
-
-Fareham, Hampshire / Live online
-
-# Vibe coding and AI agents classes in Fareham
-
-**Which vibe coding and AI agents classes are best for Fareham?** At the 2021 census the ONS put 42,625 usual residents in the Fareham built-up area and 114,511 in the borough of Fareham. Funtley, Wallington, Catisfield, Hill Park and Heathfield are gazetteer suburbs whose nearest postcode lies inside the built-up area. Modern Age Coders runs live online lessons in vibe coding, AI agents, Python, coding and maths for learners from six to 67, with tutors in India teaching one-to-one or in groups of fifteen to twenty learners at a matched level. A free lesson always comes first, and our course suggestion follows it. The Fareham project gives a simple agent 30 real post boxes with afternoon collection times and asks whether it should chase the most urgent deadline or the nearest box. Regular lessons then cost USD 100 a month in a group or USD 150 a month one-to-one.
-
-Give an AI agent a to-do list and the first question it faces is not how to do each job but which job to do next. The textbook answer is to work in order of deadline, and for a single machine with no travelling that rule is provably hard to beat. An agent that moves around a town is in a different position: every choice changes how far away all the other jobs are. Fareham's post boxes, each with a collection time, turn that difference into a count.
-
-Facts last verified 1 October 2026. Teaching is online; no Fareham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentRecommended starts
 
 ## Vibe coding and AI agents courses for Fareham learners
 
 A suggested first course for each age range, each beginning with a free live lesson and no card details.
 
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games made with an AI helper, which the child then checks and improves.
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): Ordering tasks, spotting patterns and planning steps before any code is written.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python and web projects built with AI, including the Fareham errand agent.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Students and adults): Python from first principles, the base every serious agent project stands on.
+[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games made with an AI helper, which the child then checks and improves.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsOrdering tasks, spotting patterns and planning steps before any code is written.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensPython and web projects built with AI, including the Fareham errand agent.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Masterclass course thumbnail](/images/python-college.webp)Students and adultsPython MasterclassPython from first principles, the base every serious agent project stands on.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Fareham in figures
 
 ## Fareham, Funtley, Wallington, Catisfield and Hill Park
 
 Census counts, and the suburbs we are confident belong to the town.
 
-**ONS Census 2021, usual residents**
-
 | Area | Residents |
-|---|---|
+| --- | --- |
 | Fareham built-up area | 42,625 |
 | Fareham borough | 114,511 |
 
@@ -53,6 +39,8 @@ The borough reaches well beyond the town to Locks Heath, Portchester, Stubbingto
 
 Nearby pages cover [Portsmouth](/best-coding-class-in-portsmouth), [Gosport](/best-coding-and-ai-classes-in-gosport), [Southampton](/best-coding-class-in-southampton) and the [Hampshire overview](/coding-classes-in-hampshire). Our case for reasoning before relying on AI is on [why thinking comes before the tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Fareham agent
+
 ## Most urgent first, or nearest first?
 
 Thirty post boxes, thirty collection times, and an agent on foot that can only be in one place at once.
@@ -61,10 +49,8 @@ One OpenStreetMap query returns 87 post boxes in a rectangle around Fareham, tog
 
 Earliest deadline first, EDF, always heads for the box whose collection is soonest. Liu and Layland showed in 1973 that this is an optimal rule for scheduling jobs on one processor, where switching between jobs is free. Nearest-first ignores deadlines entirely and walks to the closest unvisited box. Two more careful versions look before they leap: each one only considers boxes it can still reach before their collection, then chooses either the nearest or the most urgent of those. As a yardstick the learner also runs 20,000 randomised versions of the careful agent and keeps the highest score, which is not proven to be the true maximum.
 
-**Post boxes reached before collection, out of 30 (late arrivals in brackets), our simulation**
-
 | Setting off at | Nearest first | Earliest deadline first | Nearest still reachable | Most urgent still reachable | Top score in 20,000 tries |
-|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- |
 | 14:00 | 15 (4 late) | 2 (5 late) | 16 | 10 | 17 |
 | 15:00 | 10 (7 late) | 2 (3 late) | 12 | 10 | 13 |
 | 16:00 | 7 (7 late) | 0 (3 late) | 9 | 9 | 10 |
@@ -87,14 +73,14 @@ Run all four agents on the Fareham network, then design a fifth that beats them.
 
 Post box positions, collection time tags and roads are from OpenStreetMap contributors under the Open Database Licence, read with one Overpass query on 1 October 2026. We did not check the tags against the plates on the boxes, so some may be out of date. The walking agent, its speed and the one-minute stops are our assumptions, and every count comes from our own Python.
 
+Agents in practice
+
 ## What the post box agent teaches about AI agents
 
 Choosing the next step is most of what an agent does.
 
-**From Fareham post boxes to agent design**
-
 | What happened in the simulation | What it means for an AI agent |
-|---|---|
+| --- | --- |
 | Pure deadline order managed 2 boxes from a 15:00 start | A rule proven in one setting can fail badly in another |
 | Late jobs kept pulling the agent onwards | Agents need a way to drop tasks that can no longer succeed |
 | Checking reachability first removed every late arrival | Test whether a step can work before taking it |
@@ -105,14 +91,37 @@ AI agents that book, fetch or file things on someone's behalf make this choice c
 
 OpenStreetMap, the ONS and postcodes.io supplied open data for this page. None of them is connected with Modern Age Coders, and the simulation and its conclusions are ours.
 
+Stages
+
 ## From ordering tasks at seven to building agents as an adult
 
 The free lesson decides the entry point; the school years below are only a guide.
 
-- **Years 2 to 6: Plans and order** Sequencing, choices and routes worked out on paper and on screen. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Building with AI** Scratch built with an AI assistant, then first Python. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python projects** Web and Python projects made with AI, and simulated agents. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Python, then agents** Confident Python first, then agents and generative AI. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
+Years 2 to 6
+
+### Plans and order
+
+Sequencing, choices and routes worked out on paper and on screen.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Building with AI
+
+Scratch built with an AI assistant, then first Python.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python projects
+
+Web and Python projects made with AI, and simulated agents.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Python, then agents
+
+Confident Python first, then agents and generative AI.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)Deadlines and agents
 
 ## What is earliest deadline first, and why can it let an AI agent down?
 
@@ -124,30 +133,139 @@ A learner who has watched that happen asks of any agent which rule picks its nex
 
 Fareham teenagers who can read and test an agent's decision rule are the ones who stay in charge of AI, and that ability comes from writing code. The longer argument is in [why programming is still a skill to build in 2026](/blog/is-coding-worth-learning-2026).
 
+Practical details
+
 ## How Fareham lessons are organised
 
 Teaching happens live over video. Learners need a laptop or desktop with a keyboard, because coding on a phone or tablet is too cramped.
 
-- **The learner codes** Keyboard stays with the learner; the tutor asks questions rather than taking over.
-- **Trial sets the level** What the learner shows in the first lesson decides where they begin.
-- **Try before paying** No charge and no card for the trial lesson.
-- **Fifteen to twenty per class** Classmates at the same point, joining from all over the UK.
-- **Two a week, usually** About eight lessons a month in term time, pausing for the holidays you name.
-- **Steady lesson times** We adjust for the clock changes so your slot stays the same.
+### The learner codes
 
-**Why lessons are online** Drawing on the whole country makes it possible to form a group at exactly the right level, with nobody needing to travel.
+Keyboard stays with the learner; the tutor asks questions rather than taking over.
+
+### Trial sets the level
+
+What the learner shows in the first lesson decides where they begin.
+
+### Try before paying
+
+No charge and no card for the trial lesson.
+
+### Fifteen to twenty per class
+
+Classmates at the same point, joining from all over the UK.
+
+### Two a week, usually
+
+About eight lessons a month in term time, pausing for the holidays you name.
+
+### Steady lesson times
+
+We adjust for the clock changes so your slot stays the same.
+
+Why lessons are online
+
+Drawing on the whole country makes it possible to form a group at exactly the right level, with nobody needing to travel.
+
+Fees
 
 ## Fees for Fareham learners
 
 Fareham learners are charged our usual rate for students outside India.
 
-- First class: USD 0. First lesson: free, full length, ending with a course recommendation.
-- Group tuition: USD 100 a month. Group lessons, roughly eight a month.
-- Private tuition: USD 150 a month. Private one-to-one lessons, roughly eight a month.
+First class**USD 0**
+
+First lesson: free, full length, ending with a course recommendation.
+
+Group tuition**USD 100**
+
+Group lessons, roughly eight a month.
+
+Private tuition**USD 150**
+
+Private one-to-one lessons, roughly eight a month.
 
 Prices are set in US dollars with no sterling version. The trial costs nothing, and billing only begins once you have chosen a course and a regular slot. Holidays, missed lessons and switching format are explained on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Fareham%20and%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson.)Reviews
+
+## Google reviews from Hampshire families and learners across Britain
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Fareham lesson
+
+Let us know the learner's age or school year and what they enjoy. The first lesson could be a timed route puzzle, a Scratch game made with an AI, some first Python, or a small agent working through a list.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Fareham one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Fareham%20and%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Questions about Fareham lessons
+
+The deadline project, vibe coding, AI agents and the practical side.
 
 ### How big is Fareham?
 
@@ -189,10 +307,14 @@ The first is free. After that, USD 100 a month for a group or USD 150 a month fo
 
 Of course. Give us the dates and we will not schedule lessons in those weeks.
 
+Close by
+
 ## More Hampshire and South East pages
 
 There are also pages for [Portsmouth](/best-coding-class-in-portsmouth), [Gosport](/best-coding-and-ai-classes-in-gosport), [Havant](/online-coding-and-python-classes-in-havant) and [Eastleigh](/best-coding-and-ai-classes-in-eastleigh). Everywhere else is linked from [our Hampshire page](/coding-classes-in-hampshire), [the South East summary](/coding-and-ai-classes-in-south-east-england) and [the UK directory](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Send a WhatsApp message](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Fareham%20and%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-fareham](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-fareham#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-fareham*

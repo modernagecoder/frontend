@@ -4,56 +4,40 @@ description: "Live online AI and programming classes for Cranbourne children, te
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-cranbourne-melbourne
 source: src/pages/ai-and-programming-classes-in-cranbourne-melbourne.html
 ---
-> The ability to build machine learning models and to tell when a model's explanation cannot be trusted, even if its predictions look right. Children start with Scratch at six; teenagers and adults train models on public data. The suburb of Cranbourne had 21,281 residents in the 2021 Census.
+> Live online AI and programming classes for Cranbourne children, teens and adults, with machine learning on real public data, taught in small groups or one to one.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [Victoria](/coding-and-ai-classes-in-victoria) / [Melbourne](/vibe-coding-and-ai-agents-classes-in-melbourne) / Cranbourne
-
-Cranbourne, City of Casey, Melbourne, Victoria / Live online
-
-# AI and programming classes in Cranbourne
-
-**What can Cranbourne learners gain from AI and programming classes?** The ability to build machine learning models and to tell when a model's explanation cannot be trusted, even if its predictions look right. Children start with Scratch at six; teenagers and adults train models on public data. The suburb of Cranbourne had 21,281 residents in the 2021 Census.
-
-Give a model two inputs that say almost the same thing and it can still predict well. What it cannot do is decide how much credit each input deserves. We fitted that kind of model to every metropolitan station, including Cranbourne's, and watched the coefficients swing from one resample to the next.
-
-Facts last verified 11 October 2026. Teaching is online; no Cranbourne branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Cranbourne
 
 ## Courses that read a model, not just run it
 
 The station model needs Python, regression and a habit of testing what a model claims. These courses teach that; the free trial lesson sets the level.
 
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Machine learning built by hand, including what each coefficient really means.
-- [Data Science Course](/courses/data-science-complete-masterclass-college) (University and adult): Feature selection, regression diagnostics and resampling on real data.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 17): Python data work with charts, correlations and honest conclusions.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): First Python and AI projects, with simple models children can test.
+[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensMachine learning built by hand, including what each coefficient really means.See the syllabus](/courses/ai-ml-masterclass-teens)[![Data Science Course course thumbnail](/images/data-science-college.webp)University and adultData Science CourseFeature selection, regression diagnostics and resampling on real data.See the syllabus](/courses/data-science-complete-masterclass-college)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 17Data Science for TeensPython data work with charts, correlations and honest conclusions.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsFirst Python and AI projects, with simple models children can test.See the syllabus](/courses/python-ai-kids-masterclass)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Cranbourne in the Census
 
 ## A young suburb of family houses
 
 Headline 2021 Census QuickStats for the suburb of Cranbourne (ABS code SAL20662), which lies within the City of Casey, compared with Victoria.
 
-**Cranbourne suburb counts, 2021**
-
 | Measure | Suburb of Cranbourne |
-|---|---|
+| --- | --- |
 | Residents | 21,281 |
 | Median age | 35 |
 | Families | 5,448 |
 | Private dwellings | 8,073 |
 | People per household | 2.7 |
 
-**Cranbourne beside the Victorian figure**
-
 | Indicator | Cranbourne | Victoria-wide |
-|---|---|---|
+| --- | --- | --- |
 | Separate houses | 80.0% (5,763) | 73.4% |
 | Semi-detached, row or townhouse homes | 16.1% (1,160) | 13.9% |
 | Workers who drove to work | 64.0% (6,090) | 49.9% |
@@ -74,24 +58,22 @@ The suburb boundary covers about 16.5 square kilometres; the wider City of Casey
 
 Census cells carry small privacy adjustments from the bureau, so figures appear exactly as published and are never added together into totals of our own.
 
+Signature project
+
 ## Which of two near-twin features matters?
 
 The FY24-25 station file gives each of 222 stations an annual entry count plus several daily averages. Two of those averages, all weekdays and normal (non-holiday) weekdays, are almost the same column. We used both to predict annual entries.
 
-**One fit with both features (our calculation)**
-
 | Measure | Value |
-|---|---|
+| --- | --- |
 | Correlation between the two weekday averages | 0.99985 |
 | Variance inflation factor | 3,435.8 |
 | Coefficient on average weekday | +1,029.94 |
 | Coefficient on average normal weekday | -696.80 |
 | Slope with average weekday alone | 313.98 |
 
-**200 bootstrap resamples of the 222 stations (our calculation)**
-
 | Quantity | Range across resamples |
-|---|---|
+| --- | --- |
 | Coefficient on average weekday | 526.9 to 1,257.9 |
 | Coefficient on normal weekday | -914.5 to -210.2, always negative |
 | Sum of the two coefficients | 311.4 to 347.8 |
@@ -115,14 +97,14 @@ Cranbourne station recorded 1,054,250 entries in FY24-25, up from 817,750 in FY1
 
 All station figures are published by the Department of Transport and Planning, rounded to 50. The correlation, the fits, the variance inflation factor and the bootstrap ranges are our calculation. The negative coefficient describes the model, not passengers.
 
+AI and programming
+
 ## Spotting twin features before training
 
 Multicollinearity turns up whenever data has near-duplicate columns, which is common in real spreadsheets. These checks catch it.
 
-**Checks, with the Cranbourne example**
-
 | Check | How | Result here |
-|---|---|---|
+| --- | --- | --- |
 | Correlation matrix | df.corr() before fitting | 0.99985 between the two weekday columns |
 | Variance inflation factor | One regression per feature | 3,435.8, far above the usual worry level of 10 |
 | Bootstrap the coefficients | Refit on resampled rows | Weekday coefficient spans 526.9 to 1,257.9 |
@@ -142,6 +124,8 @@ Check work dashboards for duplicate measures before reading meaning into model w
 
 School holidays explain why the two columns differ at all: Cranbourne averaged 3,650 on normal weekdays and 2,900 on school holiday weekdays. The difference is real but small next to the gap between stations, which is why the columns move together so closely.
 
+Around Cranbourne
+
 ## End of the line: one station, seven schools
 
 Suburb-level markers from the patronage series, the state school register and the term calendar.
@@ -158,16 +142,41 @@ By our boundary check, 7 schools in the 2025 list sit inside the suburb: 6 prima
 
 The 2027 Term 1 dates for Victorian government schools are Thursday 28 January to Thursday 25 March.
 
-**Suburb figures only** The Census numbers here describe the suburb of Cranbourne only. Neighbouring suburbs such as Cranbourne North, East, West and South, and the City of Casey as a whole, have their own separate figures.
+Suburb figures only
+
+The Census numbers here describe the suburb of Cranbourne only. Neighbouring suburbs such as Cranbourne North, East, West and South, and the City of Casey as a whole, have their own separate figures.
+
+Learning ladder
 
 ## From spotting patterns to judging models
 
 Ages here are indicative only; the trial lesson shows where a learner fits.
 
-- **Ages 6 to 10: Scratch and logic** Games and puzzles that build careful step-by-step thinking. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 10 to 14: Python and simple AI** First programs and small models that learn from examples. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)
-- **Ages 14 to 18: Machine learning** Regression, classification and the checks behind trustworthy models. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **University and adult: Data science** Feature work, diagnostics and models for study or work. [Data Science Course](/courses/data-science-complete-masterclass-college), [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college)
+Ages 6 to 10
+
+### Scratch and logic
+
+Games and puzzles that build careful step-by-step thinking.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 10 to 14
+
+### Python and simple AI
+
+First programs and small models that learn from examples.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)Ages 14 to 18
+
+### Machine learning
+
+Regression, classification and the checks behind trustworthy models.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)University and adult
+
+### Data science
+
+Feature work, diagnostics and models for study or work.
+
+[Data Science Course](/courses/data-science-complete-masterclass-college)[AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college)Coding and AI
 
 ## If AI can train the model, what does a Cranbourne learner bring?
 
@@ -179,30 +188,139 @@ Learners who have bootstrapped those coefficients and watched them swing will ch
 
 In Cranbourne, the learner who questions a model's explanation is the one ready to use AI for real decisions. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live online lessons for Cranbourne families
 
 Every lesson is on screen, so no travel is needed from any part of Cranbourne.
 
-- **Shared code and plots** Teacher and learner write and run code together and talk through each chart.
-- **Term-based plans** Lessons follow Victorian school terms with holiday breaks.
-- **A genuine trial** The free first class teaches real content and ends with a clear suggestion.
-- **Fifteen to twenty per group** Groups formed by level and pace, sometimes across states.
-- **Two lessons a week** Fixed times, about eight lessons a month, with planned breaks.
-- **Teachers in India** A 6:30pm Cranbourne lesson in daylight saving starts at 1pm India time, and at 2pm there after April.
+### Shared code and plots
 
-**Melbourne and India time** Melbourne daylight saving runs from Sunday 4 October 2026 to Sunday 4 April 2027; India has no daylight saving. Lesson times are agreed in Melbourne time.
+Teacher and learner write and run code together and talk through each chart.
+
+### Term-based plans
+
+Lessons follow Victorian school terms with holiday breaks.
+
+### A genuine trial
+
+The free first class teaches real content and ends with a clear suggestion.
+
+### Fifteen to twenty per group
+
+Groups formed by level and pace, sometimes across states.
+
+### Two lessons a week
+
+Fixed times, about eight lessons a month, with planned breaks.
+
+### Teachers in India
+
+A 6:30pm Cranbourne lesson in daylight saving starts at 1pm India time, and at 2pm there after April.
+
+Melbourne and India time
+
+Melbourne daylight saving runs from Sunday 4 October 2026 to Sunday 4 April 2027; India has no daylight saving. Lesson times are agreed in Melbourne time.
+
+Fees
 
 ## Cranbourne class fees
 
 Three prices, nothing hidden.
 
-- First class: USD 0. The first lesson is free and finishes with a straight recommendation.
-- Group tuition: USD 100 a month. One month of group lessons, typically eight, with fifteen to twenty learners at a similar level.
-- Private tuition: USD 150 a month. Around eight lessons a month, one teacher and one learner.
+First class**USD 0**
+
+The first lesson is free and finishes with a straight recommendation.
+
+Group tuition**USD 100**
+
+One month of group lessons, typically eight, with fifteen to twenty learners at a similar level.
+
+Private tuition**USD 150**
+
+Around eight lessons a month, one teacher and one learner.
 
 Learners abroad pay in US dollars, and payment comes only after the trial, once a course and regular time suit the family. Holiday pauses, absences and moving to private lessons are laid out on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20Cranbourne.)Reviews
+
+## Reviews from families and learners on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a first Cranbourne lesson
+
+Mention the age of the learner and what grabs their attention. A secondary student could open by charting the two near-identical weekday columns side by side; a primary child could begin with a Scratch puzzle about clues that repeat.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Cranbourne one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20Cranbourne.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Cranbourne AI and programming questions
+
+Questions Cranbourne families and adult learners often ask.
 
 ### What is the population of Cranbourne?
 
@@ -244,10 +362,14 @@ Fifteen to twenty, matched by level, pace and goal. If no group fits the learner
 
 No. Copilot Studio is reserved for one-to-one lessons; Cranbourne group learners build agents in Python code.
 
+Explore Melbourne and Victoria
+
 ## More for Cranbourne learners
 
 Elsewhere in Melbourne, [Point Cook](/ai-and-programming-classes-in-point-cook-melbourne) and [Glen Waverley](/best-coding-and-ai-classes-in-glen-waverley-melbourne) have their own pages. Families in the south-east may also want [the Melbourne hub](/vibe-coding-and-ai-agents-classes-in-melbourne) and [the guide to Victoria](/coding-and-ai-classes-in-victoria).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20Cranbourne.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-cranbourne-melbourne](https://learn.modernagecoders.com/ai-and-programming-classes-in-cranbourne-melbourne#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-cranbourne-melbourne*

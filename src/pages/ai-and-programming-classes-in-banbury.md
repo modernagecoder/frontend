@@ -4,46 +4,32 @@ description: "AI, programming, Python and vibe coding lessons by live video for 
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-banbury
 source: src/pages/ai-and-programming-classes-in-banbury.html
 ---
-> Banbury's built-up area had 52,045 residents in the 2021 census and the Cherwell district around it 161,016, in ONS figures. Grimsbury, Neithrop, Ruscote and Calthorpe appear in postcode data as suburban areas and Bodicote as a village. Learners between six and 67 study AI, programming, Python, vibe coding and maths with us on live video; tutors work from India, teaching one learner at a time or a class of fifteen to twenty on the same level. Reasoning is taught ahead of any tool, so a student can weigh up what a model or a chatbot returns. The Banbury project turns the town's streets into a graph and uses spectral clustering, a technique from machine learning, to find the smallest set of links whose removal would split the network into two balanced halves. The first lesson is free and closes with course advice. Group lessons then cost USD 100 a month and private lessons USD 150 a month.
+> AI, programming, Python and vibe coding lessons by live video for Banbury, Grimsbury, Neithrop, Ruscote and Bodicote learners aged 6 to 67. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South East England](/coding-and-ai-classes-in-south-east-england) / Banbury
-
-Banbury, Cherwell, Oxfordshire / Live online
-
-# AI and programming classes in Banbury, Oxfordshire
-
-**Where can Banbury learners find the best AI and programming classes?** Banbury's built-up area had 52,045 residents in the 2021 census and the Cherwell district around it 161,016, in ONS figures. Grimsbury, Neithrop, Ruscote and Calthorpe appear in postcode data as suburban areas and Bodicote as a village. Learners between six and 67 study AI, programming, Python, vibe coding and maths with us on live video; tutors work from India, teaching one learner at a time or a class of fifteen to twenty on the same level. Reasoning is taught ahead of any tool, so a student can weigh up what a model or a chatbot returns. The Banbury project turns the town's streets into a graph and uses spectral clustering, a technique from machine learning, to find the smallest set of links whose removal would split the network into two balanced halves. The first lesson is free and closes with course advice. Group lessons then cost USD 100 a month and private lessons USD 150 a month.
-
-Suppose you had to divide a town's street network into two parts of similar size while breaking as few streets as possible. Trying every possible division is hopeless: a network of a few thousand junctions has more two-way splits than there are atoms in the universe. Spectral clustering sidesteps the search. It writes the network as a matrix, asks for one special list of numbers called the Fiedler vector, with one number per junction, and splits the junctions by whether their number is positive or negative. It sounds like a trick. On Banbury's streets, mapped by OpenStreetMap contributors, a learner can test whether the trick finds a good cut, and whether the cut is where they expected.
-
-Facts last verified 30 September 2026. Teaching is online; no Banbury branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentBanbury course picks
 
 ## AI, programming and thinking courses for Banbury
 
 Pick the age band that fits. Each course begins with a free live lesson, and booking it needs no card.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): How to think: split a dot-and-line puzzle into two teams while cutting the fewest lines.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Get an AI to draft a Scratch network game, then look for the bridge that holds it together.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Machine learning methods explained from the inside, including spectral clustering on Banbury's streets.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python and web work with an AI assistant, where results are checked against a simple baseline.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsHow to think: split a dot-and-line puzzle into two teams while cutting the fewest lines.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsGet an AI to draft a Scratch network game, then look for the bridge that holds it together.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensMachine learning methods explained from the inside, including spectral clustering on Banbury's streets.See the syllabus](/courses/ai-ml-masterclass-teens)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensPython and web work with an AI assistant, where results are checked against a simple baseline.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Cherwell district
 
 ## Banbury, Bicester and Kidlington
 
 Cherwell's three built-up areas of 6,000 residents or more, and the Banbury places named in postcode data.
 
-**Built-up areas of 6,000 or more residents in Cherwell, ONS 2021 census figures**
-
 | Built-up area | Residents (2021) |
-|---|---|
+| --- | --- |
 | Banbury | 52,045 |
 | Bicester | 37,755 |
 | Kidlington | 14,640 |
@@ -54,16 +40,16 @@ The ONS figures stand as published, and we have not combined them. Cherwell's to
 
 Find the county on [coding classes in Oxfordshire](/coding-classes-in-oxfordshire) and the region on [South East England](/coding-and-ai-classes-in-south-east-england). Our teaching philosophy is on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Banbury project
+
 ## Spectral clustering of Banbury's streets: 2,747 junctions, one eigenvector
 
 Build the graph, compute the Fiedler vector, cut where it changes sign, and compare with simpler cuts.
 
 One Overpass request returns the roads in a box around Banbury, from trunk roads down to residential streets, along with the railway lines, rivers and canals. The learner keeps the largest connected road network, 229.7 km of it, and simplifies it to the places where roads meet or end: 2,747 junctions joined by 3,129 links. From that comes the Laplacian matrix, a table with one row per junction that records how many links each junction has and which junctions it touches. Its eigenvector for the second-smallest eigenvalue is the Fiedler vector. Junctions that are well connected to each other receive similar values, and the values drift from negative on one side of the network to positive on the other.
 
-**Ways of splitting Banbury's street graph in two, our Python run on OpenStreetMap data**
-
 | How the split was made | Junctions on each side | Links cut |
-|---|---|---|
+| --- | --- | --- |
 | Fiedler vector, by sign | 1,515 and 1,232 | 12 |
 | Fiedler vector, at its median | 1,373 and 1,374 | 12 |
 | Straight line, east and west halves | 1,373 and 1,374 | 27 |
@@ -90,14 +76,14 @@ Form the Laplacian with NumPy, compute the Fiedler vector and test the railway g
 
 Roads, railways and waterways are © OpenStreetMap contributors, under the Open Database Licence. The graph, the eigenvector and the counts are our work. The network ends at the edge of our box and omits the motorway, and a different box would give different numbers. Nothing here describes a real plan or boundary.
 
+Structure and AI
+
 ## What this teaches about vibe coding and AI agents
 
 A method can be right for the question it was asked and still surprise the person who asked it.
 
-**From the Banbury cut to working with AI**
-
 | On the street graph | In AI practice |
-|---|---|
+| --- | --- |
 | 12 links cut, against 27 and 44 for straight lines | Compare any clever result with a plain baseline |
 | The cut ignored the railway | State your guess first, then let the data correct it |
 | Balance and cut size pulled against each other | Know what the method is optimising before judging its answer |
@@ -108,14 +94,37 @@ When a learner vibe codes this, the request to an AI assistant is a sentence: "s
 
 No endorsement by OpenStreetMap, the Office for National Statistics or postcodes.io is implied. Their open data fed the project; the analysis and any faults in it are ours.
 
+Path
+
 ## From dot puzzles to eigenvectors
 
 School years are a first guess only. We place learners by what the free lesson shows.
 
-- **Years 2 to 7: How to think** Networks on paper, fair splits and predictions checked by counting. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Small projects drafted by an AI and tested by the learner. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python, graphs and AI** Machine learning on real data, next to GCSE and A level. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [High School Mathematics](/courses/complete-high-school-mathematics-mastery)
-- **Adults: Applied AI** Python foundations leading to generative AI and agents. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
+Years 2 to 7
+
+### How to think
+
+Networks on paper, fair splits and predictions checked by counting.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Small projects drafted by an AI and tested by the learner.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python, graphs and AI
+
+Machine learning on real data, next to GCSE and A level.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[High School Mathematics](/courses/complete-high-school-mathematics-mastery)Adults
+
+### Applied AI
+
+Python foundations leading to generative AI and agents.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)AI and structure
 
 ## What is spectral clustering?
 
@@ -127,30 +136,139 @@ The cut did not follow the railway, river or canal, as most people predict, beca
 
 Banbury teenagers who have programmed that test know to ask what an AI method is optimising before they accept its output, a habit formed by coding, and a reason to learn it in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+In practice
+
 ## Grimsbury, Neithrop and Bodicote on one video call
 
 A working computer, a webcam and ordinary home broadband cover everything.
 
-- **Learner-led screen** The student shares a screen and does the coding. The tutor observes and keeps asking how they know it is right.
-- **Placement in the trial** The free lesson shows us where to start, and we log the exam board when one applies.
-- **Free first session** Nothing to pay and no card to enter; it ends with a course we suggest.
-- **Grouped by ability** Classes of fifteen to twenty bring together UK learners at one stage.
-- **Two per week** Lessons skip the school holidays you let us know about.
-- **Constant UK time** Our tutors take on the British Summer Time shift so that your lesson hour never changes.
+### Learner-led screen
 
-**Why the lessons are online** A class where everyone is at one level is only possible with a large catchment. Video gives us the entire UK.
+The student shares a screen and does the coding. The tutor observes and keeps asking how they know it is right.
+
+### Placement in the trial
+
+The free lesson shows us where to start, and we log the exam board when one applies.
+
+### Free first session
+
+Nothing to pay and no card to enter; it ends with a course we suggest.
+
+### Grouped by ability
+
+Classes of fifteen to twenty bring together UK learners at one stage.
+
+### Two per week
+
+Lessons skip the school holidays you let us know about.
+
+### Constant UK time
+
+Our tutors take on the British Summer Time shift so that your lesson hour never changes.
+
+Why the lessons are online
+
+A class where everyone is at one level is only possible with a large catchment. Video gives us the entire UK.
+
+Fees
 
 ## Banbury fees
 
 For Banbury we charge the international rates, which apply to learners anywhere outside India.
 
-- First class: USD 0. A full-length live lesson at no charge, ending with a recommended course.
-- Group tuition: USD 100 a month. In the region of eight live group lessons a month.
-- Private tuition: USD 150 a month. In the region of eight live private lessons a month.
+First class**USD 0**
+
+A full-length live lesson at no charge, ending with a recommended course.
+
+Group tuition**USD 100**
+
+In the region of eight live group lessons a month.
+
+Private tuition**USD 150**
+
+In the region of eight live private lessons a month.
 
 Prices are set and invoiced in US dollars, with no sterling figure. We send no invoice until a course and a weekly time have come out of the trial. The pricing page sets out what happens with holidays, absences and a change of format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Banbury%2C%20Oxfordshire.)Reviews
+
+## Oxfordshire families and UK learners: their Google reviews
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Banbury lesson
+
+Share an age or year group and something the learner enjoys. Trials have included a snip-the-network puzzle, a Scratch game drafted by AI, opening steps in Python, and a first look at a graph of real streets.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Banbury one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Banbury%2C%20Oxfordshire.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Banbury questions
+
+Spectral clustering, the street graph, AI, programming and practical matters.
 
 ### What is the population of Banbury?
 
@@ -192,10 +310,14 @@ There is no charge for the first. Group lessons are USD 100 per month afterwards
 
 Yes, whenever you send us the dates.
 
+Beyond Banbury
+
 ## More Oxfordshire and South East pages
 
 Pages with other projects include [Oxford](/best-coding-class-in-oxford) and the county page for [Oxfordshire](/coding-classes-in-oxfordshire). For the rest of the country, go to the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Reach us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Banbury%2C%20Oxfordshire.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-banbury](https://learn.modernagecoders.com/ai-and-programming-classes-in-banbury#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-banbury*

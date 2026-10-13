@@ -4,34 +4,28 @@ description: "Online maths tutor in Cambridge for ages 6 to 67: KS2, KS3, GCSE, 
 canonical: https://learn.modernagecoders.com/maths-tuition-in-cambridge
 source: src/pages/maths-tuition-in-cambridge.html
 ---
-> Modern Age Coders teaches maths live online to Cambridge learners aged 6 to 67. For younger children that means number sense, the tables and SATs reasoning. Secondary pupils move from KS3 into GCSE, taught for their own board (AQA, Edexcel or OCR) and tier, or into IGCSE. A level students can reach into Further Maths topics. Grown-ups arrive for GCSE retakes, for statistics, or to stop dreading numbers. A learner may have a teacher to themselves or share a class with between five and ten others at the same point. Our Cambridge project uses the census: 16.8 per cent of Cambridge workers cycled to work against 2.1 per cent in England, which is 14.7 percentage points, or about 8 times as much. The first lesson is free; then it is USD 100 a month for a class place or USD 150 a month for a private teacher.
+> Online maths tutor in Cambridge for ages 6 to 67: KS2, KS3, GCSE, A level, Further Maths topics and adult maths, with a census percentages project on cycling.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths tuition in Cambridge
+Maths tuition in Cambridge, briefly
 
-Cambridge · Maths tutors for ages 6 to 67 · Live lessons by video
+Modern Age Coders teaches maths live online to Cambridge learners aged 6 to 67. For younger children that means number sense, the tables and SATs reasoning. Secondary pupils move from KS3 into GCSE, taught for their own board (AQA, Edexcel or OCR) and tier, or into IGCSE. A level students can reach into Further Maths topics. Grown-ups arrive for GCSE retakes, for statistics, or to stop dreading numbers. A learner may have a teacher to themselves or share a class with between five and ten others at the same point. Our Cambridge project uses the census: 16.8 per cent of Cambridge workers cycled to work against 2.1 per cent in England, which is 14.7 percentage points, or about 8 times as much. The first lesson is free; then it is USD 100 a month for a class place or USD 150 a month for a private teacher.
 
-# Maths tuition in Cambridge
-
-In the 2021 census, 11,836 Cambridge residents said they usually cycled to work. That was 16.8 per cent of everyone in work, against 2.1 per cent across England. So how much more do Cambridge people cycle? You can honestly say 14.7 percentage points more, or 699 per cent more, or about 8 times as much. Leave out the people who worked from home and the share climbs to 30.8 per cent, and the multiple becomes 10. Every one of those statements is true. Knowing which one a writer chose, and why, is what percentages are really about. This page explains how we teach maths to Cambridge learners from primary school to A level and beyond, with the census as our example.
-
-At a glance: Ages: 6 to 67, in and around Cambridge; Primary: KS2 maths, tables, SATs; KS3: Years 7 to 9, percentages and algebra; GCSE: Foundation and Higher, AQA, Edexcel, OCR; Sixth form: A level and Further Maths topics; Adults: GCSE resits and statistics for work; Teaching: Live online, solo or 15 to 20 per class; Project: Census cycling percentages. Rated 4.9 across 547 Google reviews.
+Where Cambridge learners begin
 
 ## A level, GCSE and primary maths
 
 These three cover most of the enquiries we receive from Cambridge. The rest of our maths courses are listed further down.
 
-- [A level maths and stretch](/courses/a-level-maths-course-pure-mechanics-statistics): The full A level, with Further Maths topics for students who finish the core early and want harder problems.
-- [GCSE maths at either tier](/courses/gcse-mathematics-mastery): Percentages, ratio and proportion done properly, because they decide more GCSE marks than most families realise.
-- [Primary maths to the SATs](/courses/elementary-mathematics-complete-masterclass): Place value, tables and fractions for Years 1 to 6, so that percentages later have something firm to stand on.
+[![A-Level Maths course thumbnail](/images/a-level-maths.webp)  CAM / 1 A level maths and stretch The full A level, with Further Maths topics for students who finish the core early and want harder problems. Open the syllabus →](/courses/a-level-maths-course-pure-mechanics-statistics)[![GCSE Maths course thumbnail](/images/gcse-maths.webp)  CAM / 2 GCSE maths at either tier Percentages, ratio and proportion done properly, because they decide more GCSE marks than most families realise. Open the syllabus →](/courses/gcse-mathematics-mastery)[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  CAM / 3 Primary maths to the SATs Place value, tables and fractions for Years 1 to 6, so that percentages later have something firm to stand on. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)
+
+From six to sixty-seven
 
 ## Maths tutor in Cambridge, stage by stage
 
 The national curriculum for England sets what Cambridge schools teach. Below, the emphasis of our lessons at each point along it.
 
-**Maths stages for Cambridge learners and what our lessons stress**
-
 | Stage | Usual ages | What our lessons stress |
-|---|---|---|
+| --- | --- | --- |
 | KS1 | 5 to 7 | Number to 100, simple fractions, adding and subtracting with confidence. |
 | KS2 | 7 to 11 | Tables for the Year 4 multiplication tables check, fractions to percentages, the Year 6 SATs. |
 | KS3 | 11 to 14 | Percentage change, ratio, algebra and the first statistics. |
@@ -53,6 +47,8 @@ Deeper guides sit on our national pages, one per stage: [Further Maths](/further
 
 Ages follow the normal English school pattern. Admissions advice is not something we offer.
 
+The Cambridge project
+
 ## How much more do Cambridge workers cycle than England as a whole?
 
 One census table, the same few numbers, and three different but correct answers.
@@ -65,10 +61,8 @@ We ranked all 331 local authority districts in England and Wales by the share of
 
 A warning comes with the data. The census was taken during the pandemic, and the ONS says: "Take care when interpreting areas below regional level since high concentrations of furloughed respondents may have affected the data." Our numbers describe March 2021, not a normal year.
 
-**Travel to work, Census 2021, Cambridge and England (counts from TS061; percentages are our calculation)**
-
-|  | In employment | Mainly at or from home | Cycled | Cycled, % of all in work |
-|---|---|---|---|---|
+|   | In employment | Mainly at or from home | Cycled | Cycled, % of all in work |
+| --- | --- | --- | --- | --- |
 | Cambridge | 70,596 | 32,113 | 11,836 | 16.77% |
 | England | 26,405,214 | 8,321,252 | 554,215 | 2.10% |
 
@@ -86,6 +80,8 @@ A headline writer wanting drama picks 699 per cent; a cautious one picks 14.7 po
 
 Counts come from census table TS061 on [Nomis](https://www.nomisweb.co.uk/), the ONS labour market and census service, downloaded on the first of October 2026 under the Open Government Licence. Caveat quoted from the [ONS travel to work bulletin](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/traveltoworkenglandandwales/census2021). GCSE wording: [DfE, GCSE mathematics subject content](https://www.gov.uk/government/publications/gcse-mathematics-subject-content-and-assessment-objectives).
 
+Percentage of what?
+
 ## Change the denominator and the story changes
 
 Every percentage is a fraction with a bottom number. In the census that bottom number is a choice, and Cambridge shows why it matters.
@@ -98,23 +94,21 @@ On this base Cambridge cycles about 10 times as much as England, not 8. Nothing 
 
 The same trick works on cars. Driving a car or van was 19.10 per cent of all Cambridge workers but 35.04 per cent of those who travelled. In England the figures were 44.51 and 64.99. Whichever base you use, say which one it is.
 
-**Cycling to work on two different bases, Census 2021 (our calculation from TS061)**
-
 | Base | Cambridge | England | Cambridge as a multiple |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Everyone in employment | 16.77% | 2.10% | 7.99 times |
 | Those not working mainly from home | 30.76% | 3.06% | 10.04 times |
 
-**What each stage takes from the cycling project**
-
 | Stage | Question | Skill |
-|---|---|---|
+| --- | --- | --- |
 | KS2 | What fraction of Cambridge workers cycled, roughly? | Fractions and percentages of amounts |
 | KS3 | How many percentage points higher is Cambridge? | Percentage points versus per cent |
 | GCSE | By what percentage is the share higher? | Percentage change, values above 100% |
 | A level | How uncertain is a share measured in a pandemic? | Sampling, bias and judgement |
 
 For England and Wales together the ONS reports that "569,000 (2.0%) travelled by bicycle". Our England-only figures come from the same table and are not added to anything to recreate that total. The subtraction of home workers and every percentage on this page are Modern Age Coders calculations.
+
+Maths in Cambridge
 
 ## The Maths Hub, NRICH and the UKMT maths challenge
 
@@ -142,6 +136,8 @@ University entry is outside what we do here; the maths a learner needs is the sa
 
 Sources: [NCETM, Cambridge Maths Hub](https://www.ncetm.org.uk/hubs/cambridge-maths-hub/); [Millennium Mathematics Project](https://maths.org/). Both read on 1 October 2026. None of these organisations is connected with Modern Age Coders: not the NCETM or its hubs, not the University of Cambridge or its outreach projects, and not the UKMT.
 
+For adult learners
+
 ## Adult maths tuition in Cambridge
 
 Adults are a large part of our Cambridge enquiries: GCSE resits, statistics for a new job, or the wish to finally understand percentages.
@@ -160,14 +156,14 @@ Parents learn the methods schools use now, so homework help backs up the teacher
 
 The cycling project lands well with adults, because the same numbers appear in news stories, and seeing three honest versions of one fact changes how a headline reads. Our [adult maths page](/online-maths-classes-for-adults-in-uk) says more.
 
+The road to percentages
+
 ## Four steps from halves to percentage change
 
 A learner can start on any step. The free lesson tells us which.
 
-**From fractions to percentage change, and the sign a learner is ready to go on**
-
 | Typical years | Step | Ready to go on when they |
-|---|---|---|
+| --- | --- | --- |
 | Years 2 to 4 | 1. Fractions | Find a half, a quarter and a tenth of an amount |
 | Years 5 to 7 | 2. Percentages | Switch between fractions, decimals and percentages without a calculator |
 | Years 8 to 10 | 3. Multipliers | Use 1.2 for a 20 per cent rise and 0.8 for a 20 per cent fall |
@@ -176,75 +172,353 @@ A learner can start on any step. The free lesson tells us which.
 ### Starting late
 
 Learners who join in Year 11 can still make real progress. We check fractions and decimals first, since most percentage errors start there.
+
 If more needs repair than the time allows, we will be honest about it after the free lesson.
 
 ### After the exam
 
 A natural next step is to rank all 331 districts in a few lines of Python on our [maths through coding](/courses/maths-through-coding) course. Others prefer to go deeper into data with [statistics and probability](/courses/statistics-probability-maths-course).
+
 Those drawn to proof tend to move on to Further Maths topics.
+
+All maths courses
 
 ## Popular maths courses for Cambridge learners
 
 UK families most often look for GCSE, A level, 11 plus and IGCSE courses, so those come first. Open a card to read the syllabus.
 
+I
+
 ### Most in demand
 
 Exam courses
 
-- [A level maths](/courses/a-level-maths-course-pure-mechanics-statistics): All three strands, with stretch available.
-- [GCSE maths](/courses/gcse-mathematics-mastery): Both tiers, all major boards.
-- [11 plus maths](/courses/11-plus-maths-preparation-course-uk): For families sitting selective tests.
-- [IGCSE maths](/courses/igcse-mathematics-mastery): International papers, taught in full.
+CBM / A1
+
+#### A level maths
+
+All three strands, with stretch available.
+
+[Open the syllabus](/courses/a-level-maths-course-pure-mechanics-statistics)
+
+CBM / A2
+
+#### GCSE maths
+
+Both tiers, all major boards.
+
+[Open the syllabus](/courses/gcse-mathematics-mastery)
+
+CBM / A3
+
+#### 11 plus maths
+
+For families sitting selective tests.
+
+[Open the syllabus](/courses/11-plus-maths-preparation-course-uk)
+
+CBM / A4
+
+#### IGCSE maths
+
+International papers, taught in full.
+
+[Open the syllabus](/courses/igcse-mathematics-mastery)II
 
 ### Primary years
 
 KS1 and KS2
 
-- [Primary maths](/courses/elementary-mathematics-complete-masterclass): The whole of KS1 and KS2.
-- [Early maths](/courses/early-math-foundations): Counting and shape for six and seven year olds.
-- [Mental maths](/courses/mental-maths-mastery-kids): Fluent arithmetic without paper.
-- [Abacus](/courses/abacus-mental-maths-course-for-kids): A hands-on way into number.
+CBM / B1
+
+#### Primary maths
+
+The whole of KS1 and KS2.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+CBM / B2
+
+#### Early maths
+
+Counting and shape for six and seven year olds.
+
+[Open the syllabus](/courses/early-math-foundations)
+
+CBM / B3
+
+#### Mental maths
+
+Fluent arithmetic without paper.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+CBM / B4
+
+#### Abacus
+
+A hands-on way into number.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)III
 
 ### Secondary and beyond
 
 KS3 and stretch
 
-- [KS3 maths](/courses/comprehensive-middle-school-mathematics-mastery): Percentages, ratio and algebra for Years 7 to 9.
-- [Competition maths](/courses/olympiad-competition-mathematics-mastery): For UKMT and olympiad-style problems.
-- [Statistics and probability](/courses/statistics-probability-maths-course): Reading data with a critical eye.
-- [Algebra foundations](/courses/algebra-foundations-masterclass): Algebra rebuilt step by step.
+CBM / C1
+
+#### KS3 maths
+
+Percentages, ratio and algebra for Years 7 to 9.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+CBM / C2
+
+#### Competition maths
+
+For UKMT and olympiad-style problems.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)
+
+CBM / C3
+
+#### Statistics and probability
+
+Reading data with a critical eye.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)
+
+CBM / C4
+
+#### Algebra foundations
+
+Algebra rebuilt step by step.
+
+[Open the syllabus](/courses/algebra-foundations-masterclass)IV
 
 ### Adults
 
 Study and career
 
-- [University maths](/courses/college-mathematics-complete-masterclass): Calculus, linear algebra, proof.
-- [Maths for data](/courses/data-analytics-mathematics-masterclass): Statistics for analytical work.
-- [Business maths](/courses/complete-business-finance-mathematics-mastery): Percentages, interest and growth.
-- [Vedic maths](/courses/vedic-maths-course-speed-calculation-mastery): Speed methods for arithmetic.
+CBM / D1
+
+#### University maths
+
+Calculus, linear algebra, proof.
+
+[Open the syllabus](/courses/college-mathematics-complete-masterclass)
+
+CBM / D2
+
+#### Maths for data
+
+Statistics for analytical work.
+
+[Open the syllabus](/courses/data-analytics-mathematics-masterclass)
+
+CBM / D3
+
+#### Business maths
+
+Percentages, interest and growth.
+
+[Open the syllabus](/courses/complete-business-finance-mathematics-mastery)
+
+CBM / D4
+
+#### Vedic maths
+
+Speed methods for arithmetic.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
+
+Lesson schedule
 
 ## Evenings, weekends and after school, on UK time
 
 Our teachers are in India, which sits five and a half hours ahead of Cambridge in winter and four and a half once the UK clocks go forward. We give every time in UK time.
 
-- **After school** Primary pupils and Years 7 to 9.
-- **Evenings** GCSE, sixth form and adult learners.
-- **Weekend mornings** All ages and levels.
+After school
 
-- **One teacher throughout** The same teacher each week, who remembers what went wrong last time.
-- **Notes home** A short update after lessons on progress and next steps.
-- **Classes of fifteen to twenty** Learners at the same level, so the pace fits.
-- **Census and real data** Real tables alongside exam papers.
-- **Solo lessons** For an exam soon or one stubborn topic.
-- **Why, then how** Every method is explained before it is practised.
+Primary pupils and Years 7 to 9.
+
+Evenings
+
+GCSE, sixth form and adult learners.
+
+Weekend mornings
+
+All ages and levels.
+
+### One teacher throughout
+
+The same teacher each week, who remembers what went wrong last time.
+
+### Notes home
+
+A short update after lessons on progress and next steps.
+
+### Classes of fifteen to twenty
+
+Learners at the same level, so the pace fits.
+
+### Census and real data
+
+Real tables alongside exam papers.
+
+### Solo lessons
+
+For an exam soon or one stubborn topic.
+
+### Why, then how
+
+Every method is explained before it is practised.
+
+Student work
+
+## Projects by our learners
+
+Four things made by students who once started with data questions like this one. The [student labs](/student-labs) show plenty more.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Monthly, in US dollars, at one price for everywhere outside India. No registration fee and no minimum term.
 
-- Free first class: USD 0. A full lesson at the right level. An honest view of the starting point. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty learners, one level. A consistent teacher. Marked work with feedback. A certificate on completion.
-- One to one: USD 150 a month. A teacher for one learner. Planned around their needs. Useful before exams.
+Free first class
+
+USD 0
+
+no card required
+
+- A full lesson at the right level
+- An honest view of the starting point
+- No card needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners, one level
+- A consistent teacher
+- Marked work with feedback
+- A certificate on completion
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one learner
+- Planned around their needs
+- Useful before exams
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Reviews posted on our Google profile, exactly as families and learners wrote them.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Cambridge maths questions
 
 ## Cambridge families ask us about maths tuition
 
@@ -288,15 +562,54 @@ No. All lessons are live online with a teacher, which suits learners anywhere in
 
 Grades depend on the learner and the day, so we never guarantee one. What we commit to is good teaching and plain reporting.
 
+Related
+
 ## More for Cambridge learners
 
-- [Further Maths tuition](/further-maths-tuition-online): Our national page for keen sixth formers.
-- [A level maths tuition](/a-level-maths-tuition-online): Pure, statistics and mechanics.
-- [KS3 maths tuition](/ks3-maths-tuition-online): Years 7 to 9, where percentages take hold.
-- [Coding classes in Cambridge](/best-coding-class-in-cambridge): Our coding page for the city.
-- [Maths tuition in Oxford](/maths-tuition-in-oxford): Second on cycling, with a probability project.
-- [The UK index](/coding-classes-in-united-kingdom): All of our UK pages.
+Our Further Maths and A level pages, the Cambridge coding page and Oxford maths.
 
-## Contact
+### [Further Maths tuition](/further-maths-tuition-online)
 
-Book the free first class at [https://learn.modernagecoders.com/maths-tuition-in-cambridge](https://learn.modernagecoders.com/maths-tuition-in-cambridge#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Our national page for keen sixth formers.
+
+### [A level maths tuition](/a-level-maths-tuition-online)
+
+Pure, statistics and mechanics.
+
+### [KS3 maths tuition](/ks3-maths-tuition-online)
+
+Years 7 to 9, where percentages take hold.
+
+### [Coding classes in Cambridge](/best-coding-class-in-cambridge)
+
+Our coding page for the city.
+
+### [Maths tuition in Oxford](/maths-tuition-in-oxford)
+
+Second on cycling, with a probability project.
+
+### [The UK index](/coding-classes-in-united-kingdom)
+
+All of our UK pages.
+
+Start here
+
+## Book a free maths lesson in Cambridge
+
+Let us know the age or year group and the topic that is causing trouble. The trial is a real lesson, after which we give you a clear, honest view of where the learner is.
+
+Prefer to explore first? See the [full course list](/courses) and our approach to [teaching](/how-we-teach).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20a%20learner%20in%20Cambridge.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+The fastest reply comes on WhatsApp. Our number starts with India's code because the teachers are there; there is no Cambridge office and lessons are online only.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/maths-tuition-in-cambridge*

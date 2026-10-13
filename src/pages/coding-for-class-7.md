@@ -12,7 +12,7 @@ For parents of Class 7 students · Age 12
 
 Class 7 is the bridge year. Still a kid, but ready for real tools: Python functions and files, first JavaScript on HTML, first app prototype and first real AI dataset. Our 1 hour live classes make the bridge smooth.
 
-[Book a free demo class](/book-demo)See the curriculum**5,100+**Class 7 students taught**4.9 / 5**Parent rating · 580+ reviews**1 hour**Per live class, 1:1 or group**10 weeks**To deployed site + Python mini-app7Class · GradeFunctions fluentFirst JSFirst appCourses matched for this level
+[Book a free demo class](/book-demo)See the curriculum**10,000+**Students taught live since 2020**4.9 / 5**Rated across 547 Google reviews**1 hour**Per live class, 1:1 or group**10 weeks**To deployed site + Python mini-app7Class · GradeFunctions fluentFirst JSFirst appCourses matched for this level
 
 ## Class 7 courses: pick a direction.
 
@@ -157,9 +157,9 @@ One teacher, one learner, the full 1 hour. The teacher adapts pace in real time,
 
 **₹4,999**/ month · 4 sessionsOption B
 
-### Live Small-Group Online Class
+### Live Group Online Class
 
-4 to 6 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
+15 to 20 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
 
 - Small groups of 4 to 6 similar-level learners
 - 1 hour live session, 2 sessions per week

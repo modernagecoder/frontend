@@ -4,34 +4,28 @@ description: "Preparing for the Scottish Mathematical Challenge: four divisions 
 canonical: https://learn.modernagecoders.com/scottish-mathematical-challenge-practice
 source: src/pages/scottish-mathematical-challenge-practice.html
 ---
-> The Mathematical Challenge is run by the Scottish Mathematical Council and describes itself as "a problem solving competition for individual pupils in Scottish secondary schools and upper primary schools (mainly P7)", running since 1976 with the aim "to promote mathematics as a source of interest and pleasurable achievement". There are four divisions, Primary (P7), Junior (S1 and S2), Middle (S3 and S4) and Senior (S5 and S6), with three rounds a year for primary schools and two for secondary. Gold, silver and bronze certificates are announced in early summer and the top winners are invited to a prize-giving, where they receive a Mathematical Challenge mug. The rule that shapes preparation is the organiser's own: "Marks are given for explanations of answers rather than for simply getting the correct answer." We teach the mathematics and the writing that go with it, live online for ages 6 to 67. The first class is free; a group place is USD 100 a month and one-to-one teaching USD 150.
+> Preparing for the Scottish Mathematical Challenge: four divisions from P7 to S6, two or three rounds a year, and marks given for the explanation, not the answer.
 
-[Home](/) / [Courses](/courses) / [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar) / Scottish Mathematical Challenge
+In short
 
-Scotland · P7 to S6 · Running since 1976
+The Mathematical Challenge is run by the Scottish Mathematical Council and describes itself as "a problem solving competition for individual pupils in Scottish secondary schools and upper primary schools (mainly P7)", running since 1976 with the aim "to promote mathematics as a source of interest and pleasurable achievement". There are four divisions, Primary (P7), Junior (S1 and S2), Middle (S3 and S4) and Senior (S5 and S6), with three rounds a year for primary schools and two for secondary. Gold, silver and bronze certificates are announced in early summer and the top winners are invited to a prize-giving, where they receive a Mathematical Challenge mug. The rule that shapes preparation is the organiser's own: "Marks are given for explanations of answers rather than for simply getting the correct answer." We teach the mathematics and the writing that go with it, live online for ages 6 to 67. The first class is free; a group place is USD 100 a month and one-to-one teaching USD 150.
 
-# Scottish Mathematical Challenge practice
-
-One sentence on the organiser's own home page tells a pupil everything about how to prepare for this competition, and most preparation ignores it: "Marks are given for explanations of answers rather than for simply getting the correct answer." That is not a nicety. It means a pupil who writes the right number and stops has handed in the cheap half of the work, while a pupil who explains why no other number could be right has handed in the expensive half as well. Almost every other paper a Scottish pupil sits rewards the opposite habit. This page is about the switch, and about a competition that has been asking for it since 1976.
-
-At a glance: Organiser: The Scottish Mathematical Council; Running since: 1976; For: Individual pupils, P7 to S6; Divisions: Primary, Junior, Middle, Senior; Rounds a year: Three primary, two secondary; Marked on: The explanation, not the answer; Awards: Gold, silver and bronze in early summer; Entered by: A teacher, not by us. Rated 4.9 across 547 Google reviews.
+Where to start
 
 ## Three courses for a pupil who wants harder problems
 
 Choose by the stage the pupil is at in Scotland, not by the division they will enter.
 
-- [Olympiad and competition maths](/courses/olympiad-competition-mathematics-mastery): Problems that hide their method, and the habit of writing down why an answer has to be the one it is.
-- [Middle school maths mastery](/courses/comprehensive-middle-school-mathematics-mastery): For S1 to S3: the algebra and geometry the Junior and Middle divisions lean on.
-- [Primary maths, Years 1 to 5](/courses/elementary-mathematics-complete-masterclass): For a P7 pupil whose number work still needs a pencil before the interesting part starts.
+[![Maths Olympiad & Competition Course course thumbnail](/images/olympiad-competition-maths.webp)  SMC / 01 Olympiad and competition maths Problems that hide their method, and the habit of writing down why an answer has to be the one it is. Open the syllabus →](/courses/olympiad-competition-mathematics-mastery)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  SMC / 02 Middle school maths mastery For S1 to S3: the algebra and geometry the Junior and Middle divisions lean on. Open the syllabus →](/courses/comprehensive-middle-school-mathematics-mastery)[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  SMC / 03 Primary maths, Years 1 to 5 For a P7 pupil whose number work still needs a pencil before the interesting part starts. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)
+
+The competition
 
 ## Four divisions, two or three rounds, and fifty years of the same idea
 
 Quoted and summarised from the Scottish Mathematical Council's own Mathematical Challenge pages, read on 20 September 2026.
 
-**The Mathematical Challenge as its organiser describes it**
-
 | Part | What the organiser says | What it means for a pupil |
-|---|---|---|
+| --- | --- | --- |
 | Who it is for | "individual pupils in Scottish secondary schools and upper primary schools (mainly P7)" | An individual entry, not a team; a P7 pupil can start a year before secondary |
 | Since | "running since 1976 under the aegis of the Scottish Mathematical Council" | Half a century of published problems, all of them available to work through |
 | Divisions | "Primary (P7), Junior (S1 and S2), Middle (S3 and S4), and Senior (S5 and S6)" | Stages, not ages: the Scottish system all the way up |
@@ -50,6 +44,8 @@ The entry route is a teacher. Problems, solutions and the individual entry form 
 The archive is the other thing worth knowing about. Fifty years of past problems and solutions sit on the organiser's own pages, free, which makes this one of the best-stocked competitions in the UK for a pupil who simply wants harder mathematics to do.
 
 Sources: the [Scottish Mathematical Council](https://www.scottishmathematicalcouncil.org/mathematical-challenge/) and its [Mathematical Challenge home page](http://www.wpr3.co.uk/MC/index.pdf), read 20 September 2026. Modern Age Coders is not connected with the Scottish Mathematical Council.
+
+The method
 
 ## The answer is the cheap part
 
@@ -85,14 +81,14 @@ We checked the example in code before printing it: with packs of 4 and 7 the imp
 
 The problem and both answers are ours, written for this page. The Mathematical Challenge publishes its own past problems and solutions, which are the right place to meet the real thing.
 
+What to practise
+
 ## Writing mathematics is a separate skill, and it is teachable
 
 Most pupils who lose marks here are not stuck on the mathematics. They are stuck on the sentence after it.
 
-**What a marker can and cannot give credit for**
-
 | A pupil writes | Credit for the answer | Credit for the reasoning |
-|---|---|---|
+| --- | --- | --- |
 | The final number alone | Yes | None: nothing shows how it was found |
 | Working, with no words | Yes | Some: a marker may follow it, or may not |
 | Words with no working | Depends | Some, if the words actually argue |
@@ -107,14 +103,14 @@ The second habit is to write for a reader who is not in the room. Not the teache
 
 In our classes this is taught the same way for mathematics and for programming: say what you are about to do, do it, then say what it shows. The pupils who take to [informatics olympiads](/british-informatics-olympiad-preparation) later are usually the ones who learned it here first.
 
+In the Scottish system
+
 ## Where the divisions sit, and what else is open to a Scottish pupil
 
 The Challenge runs on Scottish stages, so nothing needs translating. The competitions beside it mostly do not.
 
-**The four divisions and the stage each covers**
-
 | Division | Stage | Roughly |
-|---|---|---|
+| --- | --- | --- |
 | Primary | P7 | The last year of primary school |
 | Junior | S1 and S2 | The first two years of secondary |
 | Middle | S3 and S4 | Through the National 5 years |
@@ -128,14 +124,14 @@ For a pupil who likes this sort of problem and also likes computers, the informa
 
 For a pupil who does not want a competition at all, none of this is compulsory and none of it is a measure of anything. The mathematics is worth doing because it is interesting, which is what the organiser says too.
 
+Getting ready
+
 ## Four rungs from a right answer to a finished argument
 
 Progress here is about what a pupil writes, not about which topics they have covered.
 
-**From answer to argument**
-
 | Stage | Rung | The sign it is secure |
-|---|---|---|
+| --- | --- | --- |
 | P6 to P7 | 1. Systematic search | Tries cases in an order and can say what the order was |
 | P7 to S1 | 2. Working on the page | Leaves enough behind that someone else could follow it |
 | S1 to S3 | 3. The closing sentence | Ends with a line saying what has been shown, unprompted |
@@ -144,71 +140,321 @@ Progress here is about what a pupil writes, not about which topics they have cov
 ### If a round is close
 
 Do not start new topics. Take problems the pupil has already solved and rewrite the solutions properly; that is the fastest gain available in this competition.
+
 A pupil who solved four and explained none is in a better position than one who solved two and explained both, but only if somebody shows them the difference this week.
 
 ### What this leads to
 
 The same skill is what senior olympiad mathematics is made of, and what university mathematics is made of after that.
+
 It transfers sideways too: the [A-level computing project](/a-level-computer-science-nea-help) is marked on evidence of reasoning for exactly the same reason.
+
+The full list
 
 ## Maths and computing courses for Scottish pupils
 
 Arranged by stage, with each syllabus a click away.
 
+I
+
 ### Primary into S1
 
 P6, P7 and first year
 
-- [Primary maths, Years 1 to 5](/courses/elementary-mathematics-complete-masterclass): The number work everything else stands on.
-- [Mental maths for kids](/courses/mental-maths-mastery-kids): Calculation that stops costing thinking time.
-- [Maths through coding](/courses/maths-through-coding): Python as a way of testing whether a method really works.
+SMC / P / 01
+
+#### Primary maths, Years 1 to 5
+
+The number work everything else stands on.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+SMC / P / 02
+
+#### Mental maths for kids
+
+Calculation that stops costing thinking time.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+SMC / P / 03
+
+#### Maths through coding
+
+Python as a way of testing whether a method really works.
+
+[Open the syllabus](/courses/maths-through-coding)II
 
 ### Junior and Middle
 
 S1 to S4
 
-- [Middle school maths mastery](/courses/comprehensive-middle-school-mathematics-mastery): Pre-algebra and geometry, argued rather than drilled.
-- [Olympiad and competition maths](/courses/olympiad-competition-mathematics-mastery): Problems that do not announce their method.
-- [Python and AI for kids](/courses/python-ai-kids-masterclass): A first typed language, for pupils who like to check things.
+SMC / J / 01
+
+#### Middle school maths mastery
+
+Pre-algebra and geometry, argued rather than drilled.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+SMC / J / 02
+
+#### Olympiad and competition maths
+
+Problems that do not announce their method.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)
+
+SMC / J / 03
+
+#### Python and AI for kids
+
+A first typed language, for pupils who like to check things.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)III
 
 ### Senior
 
 S5 and S6
 
-- [High school mathematics](/courses/complete-high-school-mathematics-mastery): Algebra through to calculus, at Higher pace.
-- [Statistics and probability](/courses/statistics-probability-maths-course): Where argument and evidence meet numbers.
-- [Algorithms and data structures](/courses/problem-solving-dsa-masterclass-teens): Reasoning about method, in code.
+SMC / S / 01
+
+#### High school mathematics
+
+Algebra through to calculus, at Higher pace.
+
+[Open the syllabus](/courses/complete-high-school-mathematics-mastery)
+
+SMC / S / 02
+
+#### Statistics and probability
+
+Where argument and evidence meet numbers.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)
+
+SMC / S / 03
+
+#### Algorithms and data structures
+
+Reasoning about method, in code.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)IV
 
 ### Beside the maths
 
 For pupils who also build
 
-- [Python from start to finish](/courses/python-complete-masterclass-teens): Every core idea, with prediction before running.
-- [Scratch for kids](/courses/scratch-programming-complete-course): A first language for P6 and P7.
-- [AI and machine learning for teens](/courses/ai-ml-masterclass-teens): For the senior pupil looking past school.
+SMC / X / 01
+
+#### Python from start to finish
+
+Every core idea, with prediction before running.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+SMC / X / 02
+
+#### Scratch for kids
+
+A first language for P6 and P7.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)
+
+SMC / X / 03
+
+#### AI and machine learning for teens
+
+For the senior pupil looking past school.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+How lessons run
 
 ## A weekly hour, and someone who reads what the pupil wrote
 
 Teaching is live on video from India, five and a half hours ahead of the UK in winter and four and a half in summer. Scottish pupils usually take a weekday evening, fixed in UK time.
 
-- **Weekday evening** The usual slot from S1 upwards.
-- **Early evening** Kept for P7 and S1, before concentration runs out.
-- **Weekend morning** For longer sessions on a single hard problem.
+Weekday evening
 
-- **Written work read properly** A teacher reads what the pupil actually wrote and says where the argument stops being convincing.
-- **Problems written by us** Fresh problems in the same spirit. The organiser's archive is where the real ones live.
-- **Groups of fifteen to twenty** Small enough that every solution gets read aloud, large enough to hear a better method than your own.
-- **Scottish stages used** P7, S1 to S6, National 5, Higher and Advanced Higher, called by their own names.
-- **One to one when wanted** For a pupil working well beyond their year, or one who will not speak up in a group.
-- **No result promised** No certificate, no prize-giving invitation and no mug is promised by us.
+The usual slot from S1 upwards.
+
+Early evening
+
+Kept for P7 and S1, before concentration runs out.
+
+Weekend morning
+
+For longer sessions on a single hard problem.
+
+### Written work read properly
+
+A teacher reads what the pupil actually wrote and says where the argument stops being convincing.
+
+### Problems written by us
+
+Fresh problems in the same spirit. The organiser's archive is where the real ones live.
+
+### Groups of fifteen to twenty
+
+Small enough that every solution gets read aloud, large enough to hear a better method than your own.
+
+### Scottish stages used
+
+P7, S1 to S6, National 5, Higher and Advanced Higher, called by their own names.
+
+### One to one when wanted
+
+For a pupil working well beyond their year, or one who will not speak up in a group.
+
+### No result promised
+
+No certificate, no prize-giving invitation and no mug is promised by us.
+
+Student work
+
+## What our students build
+
+Four published projects by students at our school, none of them coursework and all of them explained by their authors. More on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 One monthly rate in US dollars for every country outside India. No joining fee and no term to commit to.
 
-- Free first class: USD 0. A proper lesson with a teacher. An honest read on where the maths is. No card details taken.
-- Group batch: USD 100 a month. Fifteen to twenty pupils at one stage. The same teacher weekly. Written solutions read and discussed. A certificate at the end.
-- One to one: USD 150 a month. One pupil, one teacher. Aimed at a particular weakness. Useful for a pupil far ahead of their stage.
+Free first class
+
+USD 0
+
+no card required
+
+- A proper lesson with a teacher
+- An honest read on where the maths is
+- No card details taken
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty pupils at one stage
+- The same teacher weekly
+- Written solutions read and discussed
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- One pupil, one teacher
+- Aimed at a particular weakness
+- Useful for a pupil far ahead of their stage
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+From our Google profile, reproduced exactly as families wrote them.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Mathematical Challenge questions
 
 ## What Scottish parents and teachers ask
 
@@ -252,15 +498,54 @@ No. We write our own in the same spirit. The organiser publishes fifty years of 
 
 The first lesson is free. After it, a group place is USD 100 a month and one-to-one teaching USD 150, with nothing to pay to join and no minimum term.
 
+Related pages
+
 ## More for Scottish pupils and young mathematicians
 
-- [Coding and AI classes in Scotland](/coding-and-ai-classes-in-scotland): The Scottish stages, qualifications and school year.
-- [UK competitions calendar 2026-27](/uk-coding-maths-and-ai-competitions-calendar): Every contest we could confirm, month by month.
-- [Primary Maths Challenge](/primary-maths-challenge-practice): The English and Welsh primary competition, marked very differently.
-- [British Informatics Olympiad](/british-informatics-olympiad-preparation): Where the same instinct goes when a pupil likes programming.
-- [Coding classes in the UK](/coding-classes-in-united-kingdom): Four school systems, and every UK page.
-- [Choosing an online class](/best-online-coding-classes-uk): What to ask any provider before paying.
+The Scottish system, the competitions beside this one, and the place the whole year is laid out.
 
-## Contact
+### [Coding and AI classes in Scotland](/coding-and-ai-classes-in-scotland)
 
-Book the free first class at [https://learn.modernagecoders.com/scottish-mathematical-challenge-practice](https://learn.modernagecoders.com/scottish-mathematical-challenge-practice#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The Scottish stages, qualifications and school year.
+
+### [UK competitions calendar 2026-27](/uk-coding-maths-and-ai-competitions-calendar)
+
+Every contest we could confirm, month by month.
+
+### [Primary Maths Challenge](/primary-maths-challenge-practice)
+
+The English and Welsh primary competition, marked very differently.
+
+### [British Informatics Olympiad](/british-informatics-olympiad-preparation)
+
+Where the same instinct goes when a pupil likes programming.
+
+### [Coding classes in the UK](/coding-classes-in-united-kingdom)
+
+Four school systems, and every UK page.
+
+### [Choosing an online class](/best-online-coding-classes-uk)
+
+What to ask any provider before paying.
+
+Start here
+
+## Book a free lesson on problem solving
+
+Tell us the stage and what the pupil enjoys. The free lesson works on a real problem, and we say afterwards what the writing looked like as well as the mathematics.
+
+Rather read than ring? Every course keeps its syllabus on its [course page](/courses), the method is on [how we teach](/how-we-teach), and the [roadmap](/coding-roadmap) shows the order topics come in.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20doing%20the%20Scottish%20Mathematical%20Challenge%20and%20I%20would%20like%20a%20free%20maths%20class.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+A WhatsApp message is free from a UK mobile and usually reaches us first. Our number is Indian, which we say on every page, and there is no British office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/scottish-mathematical-challenge-practice*

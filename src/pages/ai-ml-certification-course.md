@@ -10,7 +10,7 @@ Certification • **certificate + real portfolio**
 
 # AI & ML Certification Course
 
-Earn a certificate that means something, because it's backed by real work. This project-based program covers Python, machine learning and deep learning, ending in a course-completion certificate and a portfolio that proves your skills. Honest, mentor-led, batches. Free demo.
+Earn a certificate that means something, because it's backed by real work. This project-based program covers Python, machine learning and deep learning, ending in a course-completion certificate and a portfolio that proves your skills. Honest, mentor-led, small batches. Free demo.
 
 Book a Free DemoSee the Roadmap**Cert**On completion**15–20**Students per batch**Portfolio**Backs the cert**Live**Mentor-led
 

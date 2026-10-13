@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths classes for Cambridge lea
 canonical: https://learn.modernagecoders.com/best-coding-class-in-cambridge
 source: src/pages/best-coding-class-in-cambridge.html
 ---
-> Cambridge is a small city dominated by learning. Its 2021 Census count was 145,674, of whom 19,292 lived in communal establishments such as colleges, and 33.2% of residents aged five and over were schoolchildren or full-time students, far above England's 20.4%. It is also where EDSAC, the first practical stored-program computer, ran its first program on 6 May 1949. Modern Age Coders teaches Cambridge learners from six to sixty-seven in live online lessons, either in a group of fifteen to twenty at one level or one to one, with teachers in India and a weekly time pinned to UK hours. The first lesson is free; afterwards, a group place is USD 100 and private lessons USD 150 each month.
+> Live online coding, Python, AI and maths classes for Cambridge learners aged 6 to 67, from Chesterton to Cherry Hinton, with a live teacher. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Cambridge
-
-Cambridge, Cambridgeshire, England / Live online
-
-# Coding classes in Cambridge
-
-**What are the best coding classes in Cambridge?** Cambridge is a small city dominated by learning. Its 2021 Census count was 145,674, of whom 19,292 lived in communal establishments such as colleges, and 33.2% of residents aged five and over were schoolchildren or full-time students, far above England's 20.4%. It is also where EDSAC, the first practical stored-program computer, ran its first program on 6 May 1949. Modern Age Coders teaches Cambridge learners from six to sixty-seven in live online lessons, either in a group of fifteen to twenty at one level or one to one, with teachers in India and a weekly time pinned to UK hours. The first lesson is free; afterwards, a group place is USD 100 and private lessons USD 150 each month.
-
-The Met Office has kept monthly weather for a station at NIAB in Cambridge since January 1959, and the record now runs to 812 months. Which ten months were the warmest? The obvious method is to sort all 812 by temperature and read off the top. A better one, used everywhere from search engines to game leaderboards, reads the record once and keeps only a small pile of the top ten so far, always knowing which of the ten is weakest. That pile is a heap, and it needs about a third of the comparisons a full sort does. Run it on Cambridge and the answer arrives with a twist: July 2006 is warmest at 28.3C, but second place goes to July 2026, and that value is still marked provisional. Six of the ten warmest months come from 2000 or later. How the heap works, and why a provisional number deserves an asterisk in any top ten, is the lesson Cambridge's own weather record teaches our teenage learners here.
-
-Facts last verified 21 September 2026. Teaching is online; no Cambridge branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Cambridge
 
 ## Four courses for the city of EDSAC
 
 Choose by the learner's interests. Every course starts with a free, live lesson, and no card is needed to book it.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 12): Block coding towards games, apps and AI, including a scoreboard that only keeps the top ten.
-- [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens) (Ages 13 to 18): Heaps, stacks and queues built from scratch, with the weather record as the test data.
-- [Competitive Programming for Teens](/courses/competitive-programming-for-teens-course) (Ages 13 to 18): Contest-style problems where choosing the right data structure, such as a priority queue, decides whether a solution runs in time.
-- [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college) (University and adult): Interview-standard data structures and algorithms, with priority queues and complexity worked through properly.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 12Coding for KidsBlock coding towards games, apps and AI, including a scoreboard that only keeps the top ten.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)Ages 13 to 18Problem Solving for TeensHeaps, stacks and queues built from scratch, with the weather record as the test data.See the syllabus](/courses/problem-solving-dsa-masterclass-teens)[![Competitive Programming for Teens course thumbnail](/images/competitive-programming-teens.webp)Ages 13 to 18Competitive Programming for TeensContest-style problems where choosing the right data structure, such as a priority queue, decides whether a solution runs in time.See the syllabus](/courses/competitive-programming-for-teens-course)[![Data Structures & Algorithms Course course thumbnail](/images/dsa-college.webp)University and adultData Structures & Algorithms CourseInterview-standard data structures and algorithms, with priority queues and complexity worked through properly.See the syllabus](/courses/data-structures-algorithms-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Cambridge today
 
 ## A city where a third of residents are studying
 
 Census 2021 figures for the Cambridge local authority district, from the Office for National Statistics tables on Nomis.
 
-**Cambridge district, Census 2021**
-
 | What the Census counted | Cambridge | England |
-|---|---|---|
+| --- | --- | --- |
 | Usual residents | 145,674 | Not compared |
 | In households | 126,382 | Not compared |
 | In communal establishments | 19,292 | Not compared |
@@ -65,6 +51,8 @@ Residents aged 20 to 24 made up 13.9% and those aged 25 to 29 another 11.2%, aga
 
 Totalling the five-year age bands gives 145,676, two more than the headline 145,674, because every census table is adjusted separately for privacy. We quote the headline figure and never build our own total from the parts. For families here, the point is simpler: a child in Cambridge grows up among people who study, and we teach from the first Scratch game to university-level algorithms.
 
+EDSAC and the university
+
 ## Two tons of computer, and three Nobel Prizes
 
 From the University of Cambridge and its Department of Computer Science and Technology.
@@ -83,16 +71,18 @@ According to the university, EDSAC contributed to three Nobel Prizes in the 1960
 
 The university itself is careful about the order of events: its own account notes that the Manchester Baby preceded EDSAC by 11 months, but that EDSAC was the first fully functional computer to be used practically. Today the University of Cambridge reports 24,927 students for 2025 to 2026, 13,113 staff and 31 colleges, with 22,513 people applying for around 4,890 undergraduate places in 2025. We are not connected with the university. We mention it because learning to program here means learning in a place that helped invent the subject, which is a good reason to learn it properly.
 
-**A cluster of companies** The university describes the Cambridge technology cluster as home to over 5,000 knowledge-intensive companies. Many of the ideas taught on this page, heaps and priority queues among them, sit at the heart of the software those companies write.
+A cluster of companies
+
+The university describes the Cambridge technology cluster as home to over 5,000 knowledge-intensive companies. Many of the ideas taught on this page, heaps and priority queues among them, sit at the heart of the software those companies write.
+
+Signature project
 
 ## The ten warmest months, without sorting 812
 
 A priority queue keeps the highest-ranked items seen so far and always knows which one to throw out next. We ran one over the Met Office's Cambridge NIAB record.
 
-**The ten warmest months at Cambridge NIAB by mean daily maximum, January 1959 to August 2026**
-
 | Rank | Month | Mean daily maximum |
-|---|---|---|
+| --- | --- | --- |
 | 1 | July 2006 | 28.3C |
 | 2 | July 2026 (provisional) | 27.0C |
 | 3 | July 2018 | 26.7C |
@@ -119,14 +109,14 @@ July 2026 ranks second at 27.0C and August 2026 shares sixth, but the Met Office
 
 Other flags in the file need handling too. Twenty-three values are marked as estimates with an asterisk and 24 are missing, shown as three dashes. A parser that stumbles on the asterisk or treats the dashes as zero will rank the months wrongly without any warning. Learners write the parser first, count each kind of flag, and only then let the heap loose. The same pass also finds the wettest month on record: September 2005, with 166.2 millimetres.
 
+Finding the top k
+
 ## Five habits for leaderboards and rankings
 
 Learned on a weather record, used afterwards on game scores, search results, recommendation lists and anything that needs the top few from a great many.
 
-**How to build a top-k ranking you can trust**
-
 | Habit | What it looks like | What it prevents |
-|---|---|---|
+| --- | --- | --- |
 | Keep only k | Hold a heap of size k and compare each new item with its weakest member | Storing and sorting everything to use ten items |
 | Parse the flags | Handle estimates, missing values and provisional markers before ranking | Missing months ranked as the coldest on record |
 | Decide on ties | Say what happens when several items share the cut-off value | A ranking that changes depending on input order |
@@ -149,14 +139,37 @@ Top-k queries over large data at work, with ties, flags and provisional values h
 
 We are not connected with the Met Office, the University of Cambridge or its Department of Computer Science and Technology. The station record is published for public use; the ranking and comparison counts are ours.
 
+Learning ladder
+
 ## From a high-score table to a heap you can prove
 
 The ages are a starting guide. The free lesson settles the real level.
 
-- **Ages 6 to 10: Ordering things** Sorting cards by number and building a small high-score list that keeps only the top five. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 11 to 13: Lists that stay sorted** Inserting new scores into the right place and noticing when that becomes slow. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Heaps and priority queues** Building a binary heap, streaming a real record through it and counting comparisons. [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens), [Competitive Programming for Teens](/courses/competitive-programming-for-teens-course)
-- **Ages 18 to 67: Rankings at scale** Top-k queries, complexity and the handling of ties and flags in real data systems. [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college), [Competitive Programming Course](/courses/competitive-programming-masterclass-college)
+Ages 6 to 10
+
+### Ordering things
+
+Sorting cards by number and building a small high-score list that keeps only the top five.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 11 to 13
+
+### Lists that stay sorted
+
+Inserting new scores into the right place and noticing when that becomes slow.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Heaps and priority queues
+
+Building a binary heap, streaming a real record through it and counting comparisons.
+
+[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)[Competitive Programming for Teens](/courses/competitive-programming-for-teens-course)Ages 18 to 67
+
+### Rankings at scale
+
+Top-k queries, complexity and the handling of ties and flags in real data systems.
+
+[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)[Competitive Programming Course](/courses/competitive-programming-masterclass-college)Coding and AI
 
 ## An assistant can list the warmest months in a moment. Why should a Cambridge teenager build a heap?
 
@@ -168,30 +181,139 @@ The heap itself is worth understanding for a second reason. Priority queues deci
 
 That is the case for a Cambridge teenager learning to program in 2026, in the city where EDSAC ran its first program: tools can rank anything, but knowing how a ranking is built, and what it leaves out, still has to be learned. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Chesterton, Cherry Hinton or Trumpington, straight from home
 
 Cambridge is compact, but even a short cycle across town is time a live online lesson gives back.
 
-- **No ride across town** A learner in Arbury and one in Newnham can take the same lesson from their own desks, and nobody has to cross Parker's Piece in the rain.
-- **English school stages** Reception, the Key Stages, Year 9 options, GCSEs and A levels keep the names Cambridge schools use, and all teaching is in English.
-- **A free first session** A proper lesson on a real task, followed by a clear suggestion of level, course and time, with no card requested.
-- **Grouped by level** Fifteen to twenty learners at the same stage, drawn from Cambridge, across the UK and abroad, so each level finds a workable slot.
-- **A fixed weekly rhythm** Two lessons a week at the same time, around eight a month, with pauses for holidays and exams agreed with the teacher.
-- **Taught from India** India keeps one clock all year, so our teachers run four and a half hours ahead of Cambridge in summer and five and a half in winter, which places after-school and evening slots within their day.
+### No ride across town
 
-**University students and schoolchildren alike** In a city where a third of residents aged five and over are studying, we get requests for early after-school lessons and for late-evening ones from university students in roughly equal numbers, and both fit.
+A learner in Arbury and one in Newnham can take the same lesson from their own desks, and nobody has to cross Parker's Piece in the rain.
+
+### English school stages
+
+Reception, the Key Stages, Year 9 options, GCSEs and A levels keep the names Cambridge schools use, and all teaching is in English.
+
+### A free first session
+
+A proper lesson on a real task, followed by a clear suggestion of level, course and time, with no card requested.
+
+### Grouped by level
+
+Fifteen to twenty learners at the same stage, drawn from Cambridge, across the UK and abroad, so each level finds a workable slot.
+
+### A fixed weekly rhythm
+
+Two lessons a week at the same time, around eight a month, with pauses for holidays and exams agreed with the teacher.
+
+### Taught from India
+
+India keeps one clock all year, so our teachers run four and a half hours ahead of Cambridge in summer and five and a half in winter, which places after-school and evening slots within their day.
+
+University students and schoolchildren alike
+
+In a city where a third of residents aged five and over are studying, we get requests for early after-school lessons and for late-evening ones from university students in roughly equal numbers, and both fit.
+
+Fees
 
 ## What classes cost in Cambridge
 
 The complete price list is three lines long.
 
-- First class: USD 0. A full lesson at no cost, ending with a level, a recommended course and a proposed weekly slot.
-- Group tuition: USD 100 a month. One month of teaching, usually eight lessons, in a group of fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. About eight lessons a month on the same schedule, with a teacher for one learner alone.
+First class**USD 0**
+
+A full lesson at no cost, ending with a level, a recommended course and a proposed weekly slot.
+
+Group tuition**USD 100**
+
+One month of teaching, usually eight lessons, in a group of fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+About eight lessons a month on the same schedule, with a teacher for one learner alone.
 
 Fees are charged in US dollars at the one rate that applies everywhere outside India, so Chesterton and Cherry Hinton pay exactly the same and we keep no pound price list. Charges start only when the free lesson has set a course and a slot, and our pricing page explains breaks, missed lessons and changes between group and private teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20class%20for%20a%20learner%20in%20Cambridge.)Reviews
+
+## Six Google reviews from families, unaltered
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson for a Cambridge learner
+
+We pick the opening task to match: a high-score game for a young child, a first program that sorts a list, or the Cambridge weather record and a heap for a teenager ready for real data structures.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Cambridge one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20class%20for%20a%20learner%20in%20Cambridge.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Cambridge coding class questions
+
+What Cambridge families most often ask.
 
 ### How many people live in Cambridge?
 
@@ -233,10 +355,14 @@ The first lesson costs nothing. A group place is then USD 100 a month for two li
 
 By ability, pace and aims: fifteen to twenty learners at one level, whatever their age or postcode. When no suitable group meets at a good time, we propose one-to-one lessons.
 
+Explore the UK
+
 ## Other cities and the national guide
 
 EDSAC's older sibling was the Baby, and the [Manchester page](/best-coding-class-in-manchester) tells that story beside its river project. Closer to Cambridge, [Milton Keynes](/best-coding-class-in-milton-keynes) has Colossus and a Monte Carlo map, and [London](/best-coding-class-in-london) its Datastore. The [England guide](/coding-and-ai-classes-in-england) covers the school stages, and every UK page is linked from the [UK coding page](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20class%20for%20a%20learner%20in%20Cambridge.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-cambridge](https://learn.modernagecoders.com/best-coding-class-in-cambridge#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-cambridge*

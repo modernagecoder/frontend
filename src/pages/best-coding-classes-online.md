@@ -73,7 +73,7 @@ Choose a live class with a real teacher, no more than about ten students, a full
   **Here**Every class is live. Recordings exist only so a missed class is not lost.
 2. ### A class small enough to be seen
 
-  Ask for the exact number, not "batches". Past about ten students, a teacher is presenting rather than teaching, and quiet students disappear.
+  Ask for the exact number, not "small batches". Past about ten students, a teacher is presenting rather than teaching, and quiet students disappear.
 
   **Here**15 to 20 students in a group, up to 6 in a batch, or 1-on-1.
 3. ### A full hour, not a 30-minute slot
@@ -251,7 +251,7 @@ Fees are monthly and the same for every coding and maths course. You see the fee
 
 ### Group class
 
-5 to 10 students
+15 to 20 students
 
 ₹1,499/month
 
@@ -307,7 +307,7 @@ For most children, yes. Recorded courses suit self-driven adults, but a child wh
 
 How many students are in each class?
 
-A group class has 15 to 20 students. A mini batch has up to 6. You can also choose 1-on-1 classes with a mentor to yourself. See [batches and 1-on-1 classes](/small-batches-and-1-on-1-classes) for how each one works.
+A group class has 15 to 20 students. A mini batch has up to 6. You can also choose 1-on-1 classes with a mentor to yourself. See [small batches and 1-on-1 classes](/batches-and-1-on-1-classes) for how each one works.
 
 How long is each class, and how often do classes run?
 

@@ -4,34 +4,28 @@ description: "Best online coding classes in Ireland? What to look for from Junio
 canonical: https://learn.modernagecoders.com/best-online-coding-classes-ireland
 source: src/pages/best-online-coding-classes-ireland.html
 ---
-> The best online coding class in Ireland is the one that fits where a learner is in the Irish school path and teaches them to think, not just to type. Coding appears at every stage, unevenly: a Coding short course of about 100 hours at Junior Cycle that each school chooses whether to offer, and Leaving Certificate Computer Science, a 180-hour subject offered by 194 schools in 2024 out of 722 post-primary schools that year. A good class fills the gaps without competing with school: a live teacher at an Irish hour, reading before writing, code reviewed every week, and AI tools used openly and acknowledged. Modern Age Coders teaches exactly that online, for ages 6 to 67, in groups of fifteen to twenty or one to one; the first class is free, and afterwards a group place is USD 100 a month and one-to-one lessons USD 150.
+> Best online coding classes in Ireland? What to look for from Junior Infants to the Leaving Cert, and a live teacher who reads your code. First class is free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Ireland](/coding-classes-in-ireland) / Best online coding classes in Ireland
+In short
 
-Ireland · Primary to Leaving Cert · Live online
+The best online coding class in Ireland is the one that fits where a learner is in the Irish school path and teaches them to think, not just to type. Coding appears at every stage, unevenly: a Coding short course of about 100 hours at Junior Cycle that each school chooses whether to offer, and Leaving Certificate Computer Science, a 180-hour subject offered by 194 schools in 2024 out of 722 post-primary schools that year. A good class fills the gaps without competing with school: a live teacher at an Irish hour, reading before writing, code reviewed every week, and AI tools used openly and acknowledged. Modern Age Coders teaches exactly that online, for ages 6 to 67, in groups of fifteen to twenty or one to one; the first class is free, and afterwards a group place is USD 100 a month and one-to-one lessons USD 150.
 
-# Best online coding classes in Ireland
-
-An Irish parent searching for coding classes meets a crowded field: free clubs, summer camps, exam grinds, recorded courses and live online classes, each promising the best. They are not the same thing, and the best one for a child in Second Class is not the best one for a Fifth Year choosing between Leaving Cert subjects or an adult changing career. This page does three things. It sets out where coding actually sits in Irish schooling, stage by stage, from the official descriptions. It gives six checks any online coding class in Ireland should pass, with the question to ask a provider for each. And it explains what each kind of option is genuinely good for, so you can choose the right one even if it is not ours. Our own answer to each check is at the end, limits included, and the first class is free so that you can test the answers yourself.
-
-At a glance: For: Ages 6 to 67; Fits: Primary, Junior Cycle, TY, Senior Cycle; Hours: Irish afternoons, evenings, weekends; Format: Live, with a teacher; Groups: Fifteen to twenty, or one to one; Method: Read, predict, then write; AI tools: Used openly, always acknowledged; Start: A free first class. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three courses for three points on the Irish path
 
 One for the senior classes of primary school, one for the Junior Cycle and Transition Year, and one for adults. Each card opens its full syllabus.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass): Typed Python for children in Fourth to Sixth Class, with small games and a first program that learns from examples.
-- [Python for Teens](/courses/python-complete-masterclass-teens): The whole language across the Junior Cycle and Transition Year, taught so each idea is read and predicted before it is written.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college): For adults in Ireland: Python that automates real work, with every AI-assisted step checked and understood.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  IRL / 01 Python and AI for Kids Typed Python for children in Fourth to Sixth Class, with small games and a first program that learns from examples. Open the syllabus →](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)  IRL / 02 Python for Teens The whole language across the Junior Cycle and Transition Year, taught so each idea is read and predicted before it is written. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Python Automation Course course thumbnail](/images/python-college.webp)  IRL / 03 Python Automation Course For adults in Ireland: Python that automates real work, with every AI-assisted step checked and understood. Open the syllabus →](/courses/python-ai-automation-masterclass-college)
+
+Where coding sits in Irish schools
 
 ## From Junior Infants to the Leaving Cert: where coding appears, and where it does not
 
 The descriptions below come from the Department of Education and from the NCCA's specifications on curriculumonline.ie. They are the frame any class for Irish learners should fit around.
 
-**Coding through the Irish school path**
-
 | Stage | Length | Where coding appears |
-|---|---|---|
+| --- | --- | --- |
 | Primary | An eight year cycle: junior infants, senior infants, and first to sixth classes | The NCCA's Coding in Primary Schools initiative, which the Digital Strategy for Schools names; no stand-alone coding subject |
 | Junior Cycle | Three years | The Coding short course, an optional course a school may choose, designed for approximately 100 hours of student engagement and aligned to NFQ Level 3 |
 | Transition Year | One optional year | Wherever a school builds it into its own Transition Year programme |
@@ -47,14 +41,14 @@ Primary schools are more numerous still: 3,082 mainstream primary schools in 202
 
 Sources: [Department of Education, A guide to the Irish education system](https://assets.gov.ie/static/documents/guide-to-the-irish-education-system.pdf); [NCCA, Junior Cycle Coding short course (2025 specification)](https://www.curriculumonline.ie/junior-cycle/short-courses/coding/); [NCCA, Leaving Certificate Computer Science](https://www.curriculumonline.ie/senior-cycle/senior-cycle-subjects/computer-science/structure-of-leaving-certificate-computer-science/); [Digital Strategy for Schools to 2027](https://assets.gov.ie/static/documents/digital-strategy-for-schools-to-2027.pdf); [Inspectorate, Post-primary insights (November 2025)](https://www.gov.ie/en/department-of-education/publications/post-primary-insights-2024/); [Department of Education Statistical Bulletin, December 2024](https://assets.gov.ie/316079/a7d72c4d-e84c-488f-9cb6-8d155457c7df.pdf). Read 16 September 2026. The one-in-four share is our division of the two published figures.
 
+The six checks
+
 ## Six things the best online coding class in Ireland should do
 
 Each check comes with the question to put to any provider, ours included. The research behind the first three is set out on our page about [the best coding class in the world](/best-coding-class-in-the-world).
 
-**Six checks for an online coding class in Ireland, and the question to ask**
-
 | Check | Why it matters in Ireland | Ask the provider |
-|---|---|---|
+| --- | --- | --- |
 | 1. A live teacher, not only videos | Free recorded courses are good material, but most people who start one alone do not finish. | Who teaches my child, and will it be the same person each week? |
 | 2. Reading before writing | The Coding short course asks students to formulate problems logically before they design, write and test code. | How is a new idea introduced: by writing code from a template, or by predicting what code does first? |
 | 3. Code read by a person | A school subject marks work at the end; learning happens when someone reads it along the way. | How often will a teacher read my child's code, and what feedback comes back? |
@@ -66,14 +60,14 @@ None of these checks is exotic, and a good provider answers each one in a senten
 
 The fifth check has become more important since October 2025, when the Department of Education published guidance on AI in schools. Our page on [understanding the code instead of copy-pasting](/understand-the-code-dont-copy-paste-ireland) sets out what it says and what it means for a learner.
 
+Your options
+
 ## Clubs, camps, grinds, recorded courses and live classes: what each is really for
 
 Every option below has a place. The best choice depends on what the learner needs this year, and sometimes the answer is two of them together.
 
-**Coding options for Irish families, by what they do well**
-
 | Option | What it does well | What it does not try to do |
-|---|---|---|
+| --- | --- | --- |
 | Free coding clubs | A friendly first taste, often with volunteers and other children | A structured path from one level to the next |
 | Summer camps | An intense week or two of making things in the long summer break | Weekly practice across the school year |
 | Exam grinds | Focused preparation for a subject that is examined in June | Building skills beyond what the exam asks |
@@ -92,14 +86,14 @@ A weekly class that goes deeper than a short course can, whether or not the scho
 
 If the school offers Computer Science, a class that builds programming depth beside it; if not, the same ground at an Irish hour. Grinds, if needed, for the exam itself.
 
+Our answer
+
 ## How Modern Age Coders answers the six checks, and where it does not fit
 
 Our answers first, then the plain limits.
 
-**The six checks, answered by Modern Age Coders**
-
 | Check | Our answer |
-|---|---|
+| --- | --- |
 | 1. A live teacher | Every class is live, with the same teacher each week. |
 | 2. Reading before writing | Each new idea starts with a prediction of what the code will do. |
 | 3. Code read by a person | The teacher reads and discusses each learner's code every week. |
@@ -119,14 +113,14 @@ Our teachers work from India, and there is no Irish office or classroom. Irish t
 
 Fees are charged in US dollars, as for every country outside India. There is no separate euro price list.
 
+The ladder
+
 ## Five rungs through the Irish school years
 
 The school years are typical, not rules. A learner moves up when a rung is secure, which the teacher judges from the work.
 
-**Coding rungs set against Irish school stages**
-
 | Usually | Rung | The learner can |
-|---|---|---|
+| --- | --- | --- |
 | First to Third Class | 1. Blocks | Build and explain a small game in blocks, and predict what it will do |
 | Fourth to Sixth Class | 2. Typed code | Write short Python programs and fix their own errors |
 | Junior Cycle | 3. Problems | Break a problem down, design a solution, then write and test it |
@@ -136,63 +130,293 @@ The school years are typical, not rules. A learner moves up when a rung is secur
 ### Why the rungs ignore the school year
 
 Two children in Fifth Class can be two rungs apart, and a Fifth Year who starts late climbs the first rungs quickly. Placing each learner by what they can do keeps both learning.
+
 The whole order of subjects, beyond school, is on the [coding roadmap](/coding-roadmap).
 
 ### Around the Irish calendar
 
 Most learners take two lessons a week and pause for mid-term breaks. The 2026 Leaving Certificate written exams ran from 3 June to 23 June, and many Sixth Years lighten their lessons in the weeks before.
+
 Adults follow the same rungs at the pace their working week allows.
+
+The catalogue
 
 ## Nine live courses for Irish learners, by stage
 
 Grouped by where a learner usually is in the Irish system. Each card opens its syllabus, and the free first class decides the starting point.
 
+I
+
 ### Primary school
 
 Blocks first, then typed code
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass): Block coding for the youngest, from about age 6.
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course): Games and stories in Scratch, planned before they are built.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass): The step to typed Python, usually in Fourth to Sixth Class.
+IRL / PRIM / 01
+
+#### Coding for Kids
+
+Block coding for the youngest, from about age 6.
+
+[Open the syllabus](/courses/kids-coding-blocks-masterclass)
+
+IRL / PRIM / 02
+
+#### Scratch Coding for Kids
+
+Games and stories in Scratch, planned before they are built.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)
+
+IRL / PRIM / 03
+
+#### Python and AI for Kids
+
+The step to typed Python, usually in Fourth to Sixth Class.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)II
 
 ### Junior Cycle and Transition Year
 
 The full language and a real project
 
-- [Python for Teens](/courses/python-complete-masterclass-teens): The whole of Python, read before it is written.
-- [Full Stack Web Development for Teens](/courses/full-stack-web-development-teens-masterclass): A working website with its own data, a strong Transition Year project.
-- [App Development for Teens](/courses/complete-app-development-masterclass-for-teens): A real app, often a learner's first public work.
+IRL / JCTY / 01
+
+#### Python for Teens
+
+The whole of Python, read before it is written.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+IRL / JCTY / 02
+
+#### Full Stack Web Development for Teens
+
+A working website with its own data, a strong Transition Year project.
+
+[Open the syllabus](/courses/full-stack-web-development-teens-masterclass)
+
+IRL / JCTY / 03
+
+#### App Development for Teens
+
+A real app, often a learner's first public work.
+
+[Open the syllabus](/courses/complete-app-development-masterclass-for-teens)III
 
 ### Senior Cycle and adults
 
 Algorithms, data and AI
 
-- [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens): Algorithms and data structures, reasoned out rather than memorised.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens): Models trained, tested and explained by the learner.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college): For adults and university students starting from zero.
+IRL / SENR / 01
+
+#### Problem Solving for Teens
+
+Algorithms and data structures, reasoned out rather than memorised.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
+
+IRL / SENR / 02
+
+#### AI and Machine Learning for Teens
+
+Models trained, tested and explained by the learner.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+IRL / SENR / 03
+
+#### Python Masterclass
+
+For adults and university students starting from zero.
+
+[Open the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
+
+How the classes run
 
 ## Irish hours, Irish school terms, a live teacher
 
 Teachers work from India, which never changes its clocks, so Irish time runs five and a half hours behind India time in winter and four and a half behind in summer. Irish learners usually take lessons after school, in the evening or on a Saturday morning, at a regular hour agreed in the free first class.
 
-- **After school** Late afternoon, Irish time, for primary and post-primary learners.
-- **Evening** For Senior Cycle students and adults after work or study.
-- **Saturday morning** For longer sessions and Transition Year projects.
+After school
 
-- **A free first class** A real problem with a real teacher, and an honest view of where the learner should start.
-- **Groups of fifteen to twenty** Learners at the same stage, from Ireland and other countries, reviewing one another's work.
-- **One to one when needed** For a Sixth Year with a deadline, a learner far ahead, or an adult with a fixed goal.
-- **Irish words kept** Junior Infants, Transition Year, the Junior Cycle and the Leaving Cert keep their names; lessons are in English.
-- **AI with a record** Learners note what an AI tool suggested and what they changed, the habit Irish schools now ask for.
-- **A portfolio kept** Projects go into the learner's own repository, ready for a CAO application or an interview.
+Late afternoon, Irish time, for primary and post-primary learners.
+
+Evening
+
+For Senior Cycle students and adults after work or study.
+
+Saturday morning
+
+For longer sessions and Transition Year projects.
+
+### A free first class
+
+A real problem with a real teacher, and an honest view of where the learner should start.
+
+### Groups of fifteen to twenty
+
+Learners at the same stage, from Ireland and other countries, reviewing one another's work.
+
+### One to one when needed
+
+For a Sixth Year with a deadline, a learner far ahead, or an adult with a fixed goal.
+
+### Irish words kept
+
+Junior Infants, Transition Year, the Junior Cycle and the Leaving Cert keep their names; lessons are in English.
+
+### AI with a record
+
+Learners note what an AI tool suggested and what they changed, the habit Irish schools now ask for.
+
+### A portfolio kept
+
+Projects go into the learner's own repository, ready for a CAO application or an interview.
+
+Student work
+
+## Projects our students built and published
+
+Four live projects by our students. More on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees for Irish families
 
 Monthly and in US dollars, the one rate we use for every country outside India. No enrolment fee and nothing to sign for a year.
 
-- Free first class: USD 0. A real class with a teacher. An honest placement. No card required.
-- Group batch: USD 100 a month. Fifteen to twenty learners at one stage. The same teacher each week. Code read every week. A certificate at the end.
-- One to one: USD 150 a month. A teacher for one learner. Paced to the school year. Ideal for exam years.
+Free first class
+
+USD 0
+
+no card required
+
+- A real class with a teacher
+- An honest placement
+- No card required
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners at one stage
+- The same teacher each week
+- Code read every week
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one learner
+- Paced to the school year
+- Ideal for exam years
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Taken from Google as written. We never write or pay for reviews.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions from Irish families
 
 ## What Irish parents and learners ask about online coding classes
 
@@ -236,15 +460,54 @@ At a fixed weekly hour agreed in the free first class: usually after school, in 
 
 A member of the team rings back at a suitable Irish hour and books the free first class. Nothing is charged unless the learner continues.
 
+Elsewhere on this site
+
 ## More for Irish families
 
-- [Coding classes in Ireland](/coding-classes-in-ireland): The national page, from primary to third level.
-- [The best coding class in the world](/best-coding-class-in-the-world): The research behind the first checks.
-- [Understand the code, do not copy-paste](/understand-the-code-dont-copy-paste-ireland): What Irish guidance says about AI and your own work.
-- [Leaving Cert Computer Science grinds](/leaving-cert-computer-science-grinds-online): For Senior Cycle students taking the subject.
-- [Coding classes in Dublin](/best-coding-class-in-dublin): For families in the capital.
-- [AI and machine learning classes in Ireland](/ai-and-machine-learning-classes-in-ireland): Building AI, from the first model.
+Pages for each part of the Irish picture.
 
-## Contact
+### [Coding classes in Ireland](/coding-classes-in-ireland)
 
-Book the free first class at [https://learn.modernagecoders.com/best-online-coding-classes-ireland](https://learn.modernagecoders.com/best-online-coding-classes-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The national page, from primary to third level.
+
+### [The best coding class in the world](/best-coding-class-in-the-world)
+
+The research behind the first checks.
+
+### [Understand the code, do not copy-paste](/understand-the-code-dont-copy-paste-ireland)
+
+What Irish guidance says about AI and your own work.
+
+### [Leaving Cert Computer Science grinds](/leaving-cert-computer-science-grinds-online)
+
+For Senior Cycle students taking the subject.
+
+### [Coding classes in Dublin](/best-coding-class-in-dublin)
+
+For families in the capital.
+
+### [AI and machine learning classes in Ireland](/ai-and-machine-learning-classes-in-ireland)
+
+Building AI, from the first model.
+
+Start here
+
+## Test the six checks on a free first class
+
+Leave a number and we will ring back at an Irish hour that suits you. In the first class a teacher works with the learner on a real problem, and you will see how each of the six checks is answered in practice.
+
+Would you rather read first? Every [course has its own page](/courses), [our teaching method](/how-we-teach) is set out in detail, and the [roadmap](/coding-roadmap) shows what follows what.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20looking%20for%20the%20best%20online%20coding%20class%20in%20Ireland%20and%20would%20like%20a%20free%20first%20class.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+From an Irish phone, WhatsApp is free and usually fastest. Our number is Indian and presented as one; there is no Irish office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/best-online-coding-classes-ireland*

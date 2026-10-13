@@ -4,34 +4,28 @@ description: "For Australian students: what the curriculum says about training A
 canonical: https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-australia
 source: src/pages/learn-to-train-ai-not-just-prompt-it-australia.html
 ---
-> Training AI means building a model from labelled examples and testing it on examples it has not seen, rather than prompting a model someone else built. The labels set the ceiling: two careful labellers who are each right 90% of the time agree on only about 82% of two-label examples. Students who check their own labels, hold back test data and measure honestly understand AI in a way prompting alone cannot teach.
+> For Australian students: what the curriculum says about training AI models, why labels matter more than prompts, and the agreement maths that caps any model built.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / Train AI, not just prompt it
+In short
 
-Australia · Ages 10 and up · Build the model
+Training AI means building a model from labelled examples and testing it on examples it has not seen, rather than prompting a model someone else built. The labels set the ceiling: two careful labellers who are each right 90% of the time agree on only about 82% of two-label examples. Students who check their own labels, hold back test data and measure honestly understand AI in a way prompting alone cannot teach.
 
-# Learn to train AI, not just prompt it
-
-Typing a request into a chatbot uses a model that someone else trained, on data someone else chose, tested in ways someone else decided. Training a model, even a tiny one, puts all three decisions in the student's hands. It is also where the most important lesson in machine learning becomes obvious: a model can only be as good as the labels it learns from. This page explains the difference between prompting and training, what the Australian Curriculum asks students to explore, and a short calculation every young model-builder should do before trusting their own results.
-
-At a glance: For: Ages 10 and up; Focus: Training and testing models; Starts with: Labelling your own data; Then: Python and real libraries; Curriculum: Digital Technologies, Years 7 to 10; Format: Live online video; Group: Fifteen to twenty, or one to one; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+Where to start
 
 ## Three courses where students build the model
 
 From labelling pictures to training in Python. The free first lesson picks the right level.
 
-- [How machines learn, for children](/courses/ai-literacy-for-kids-course): Ages 8 to 14. Collect and label examples, train a simple classifier, then try to fool it.
-- [Machine learning without code first](/courses/orange-data-mining-visual-machine-learning-course-for-teens): Teens. Build and test models visually, so the ideas come before the syntax.
-- [Machine learning in Python](/courses/ai-ml-masterclass-teens): Teens ready for Python. Real datasets, real libraries, honest test scores.
+[![AI Literacy for Kids (Ages 8 to 14) course thumbnail](/images/ai-literacy-for-kids.webp)  TRAU / 01 How machines learn, for children Ages 8 to 14. Collect and label examples, train a simple classifier, then try to fool it. Open the syllabus →](/courses/ai-literacy-for-kids-course)[![Orange Data Mining Course for Teens course thumbnail](/images/orange-data-mining-teens.webp)  TRAU / 02 Machine learning without code first Teens. Build and test models visually, so the ideas come before the syntax. Open the syllabus →](/courses/orange-data-mining-visual-machine-learning-course-for-teens)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)  TRAU / 03 Machine learning in Python Teens ready for Python. Real datasets, real libraries, honest test scores. Open the syllabus →](/courses/ai-ml-masterclass-teens)
+
+Prompt or train
 
 ## Two very different ways to use AI
 
 Both are useful. Only one teaches how AI actually works.
 
-**Prompting a model compared with training one**
-
 | Question | When you prompt a chatbot | When you train a model |
-|---|---|---|
+| --- | --- | --- |
 | Who chose the data? | The company that built it | You |
 | Who decided what counts as right? | Its builders and their labellers | You and your labels |
 | How was it tested? | In ways you usually cannot see | On test data you held back |
@@ -40,14 +34,14 @@ Both are useful. Only one teaches how AI actually works.
 
 Students who have trained even a small classifier read AI news differently. When a system makes a strange mistake, their first question is "what was it trained on, and who labelled it?", which is exactly the right question.
 
+The curriculum
+
 ## What the Australian Curriculum asks students to explore
 
 Training, not only prompting, is already part of the Australian Curriculum v9. The elaborations for Digital Technologies in Years 7 to 10 describe it directly.
 
-**Machine learning in the Australian Curriculum v9, Digital Technologies, as published**
-
 | Years | Code | Elaboration |
-|---|---|---|
+| --- | --- | --- |
 | 7 and 8 | AC9TDI8P02 | "comparing the output from a classification model against data tagged manually to verify its accuracy and effectiveness" |
 | 9 and 10 | AC9TDI10P02 | "exploring machine learning, a form of artificial intelligence where an algorithm is trained using a data set, for example to classify images into categories" |
 | 9 and 10 | AC9TDI10P02 | "adjusting parameters of an AI model to observe the impact of different factors on predicted outcomes" |
@@ -66,14 +60,14 @@ We teach those choices explicitly, because they matter more than any single algo
 
 Source, read 7 October 2026: ACARA, [Australian Curriculum v9, Digital Technologies content, Years 7 to 10](https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/technologies/digital-technologies/technologies-digital-technologies-curriculum-content-7-10-v9.docx). Elaborations are examples, not compulsory content.
 
+Labels first
+
 ## Inter-annotator agreement: the ceiling on your model
 
 Before training anything, ask two people to label the same examples independently and count how often they agree. Machine learning practitioners call this inter-annotator agreement, and it tells you how much your labels can be trusted.
 
-**How often two independent labellers agree on two-label data (our calculation and simulation)**
-
 | Each labeller is right | Agreement, by formula | Agreement, 500 simulated runs of 200 items |
-|---|---|---|
+| --- | --- | --- |
 | 95% of the time | 90.5% | 90.5% |
 | 90% of the time | 82.0% | 82.1% |
 | 80% of the time | 68.0% | 68.0% |
@@ -93,6 +87,8 @@ One fix is a majority vote: three labellers at 90% each produce a majority label
 The scikit-learn library, which our older students use, has a ready-made measure called Cohen's kappa, which its documentation describes as "a statistic that measures inter-annotator agreement". Younger students start with simple percentage agreement, counted by hand and then by a few lines of Python.
 
 Source, read 7 October 2026: [scikit-learn, cohen_kappa_score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.cohen_kappa_score.html). The agreement figures are our own calculation and simulation, labelled as such.
+
+Testing honestly
 
 ## Keep some data back, every time
 
@@ -124,14 +120,14 @@ Adjust one setting at a time and watch the test score, just as the curriculum's 
 
 Source, read 7 October 2026: [scikit-learn User Guide, 3.1 Cross-validation](https://scikit-learn.org/stable/modules/cross_validation.html).
 
+Try it at home
+
 ## A labelling experiment for a kitchen table
 
 Families can run the first stage of this page in half an hour with a pile of photos and two pencils. It needs no computer at all, and it makes the rest of machine learning easier to grasp.
 
-**A home labelling experiment in five steps**
-
 | Step | What to do | What it teaches |
-|---|---|---|
+| --- | --- | --- |
 | 1. Choose a question | Pick something with two answers, such as "is this photo of a dog or a cat?" or "is this leaf from a gum tree?" | A model always starts from a clearly defined question |
 | 2. Gather 30 examples | Print or collect 30 pictures, including a few awkward ones | Real data contains hard cases |
 | 3. Label separately | Two family members label every picture without talking | Labels are human judgements |
@@ -150,14 +146,14 @@ Once the labels are agreed, the same 30 pictures become a first training set. Ch
 
 The habit they carry forward is the most valuable one in the field: look hard at the data before trusting any score.
 
+Stages
+
 ## From prompting to building
 
 The progression we use, from a first labelled set to a tested model.
 
-**Four stages of training AI**
-
 | Stage | What the student does |
-|---|---|
+| --- | --- |
 | 1. Label | Collect and label a small set of examples, and measure agreement |
 | 2. Train | Train a simple classifier in a visual tool |
 | 3. Test | Hold back data, test honestly and explain the errors |
@@ -166,63 +162,293 @@ The progression we use, from a first labelled set to a tested model.
 ### For children
 
 Stages one and two use pictures, sounds and simple tools that need no adult-only accounts.
+
 The lessons are hands-on: children see their own labelling mistakes turn into model mistakes.
 
 ### For teens and adults
 
 Stages three and four use Python, real datasets and libraries such as scikit-learn.
+
 For the thinking side of AI use, read our page on [learning to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-australia).
+
+The catalogue
 
 ## Nine courses for building AI yourself
 
 Grouped by age and experience. The free first lesson places each learner.
 
+I
+
 ### Children
 
 Ages 8 to 12
 
-- [Machines that learn from examples](/courses/ai-literacy-for-kids-course): Label, train, test, repeat.
-- [Python and small models](/courses/python-ai-kids-masterclass): First code that learns.
-- [Games with an AI helper](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev): Describe, build, then understand.
+TRAU / CHD / 01
+
+#### Machines that learn from examples
+
+Label, train, test, repeat.
+
+[Open the syllabus](/courses/ai-literacy-for-kids-course)
+
+TRAU / CHD / 02
+
+#### Python and small models
+
+First code that learns.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)
+
+TRAU / CHD / 03
+
+#### Games with an AI helper
+
+Describe, build, then understand.
+
+[Open the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)II
 
 ### Teenagers
 
 Ages 13 to 18
 
-- [Visual machine learning](/courses/orange-data-mining-visual-machine-learning-course-for-teens): Models built with blocks and charts.
-- [Python machine learning](/courses/ai-ml-masterclass-teens): Real data, honest evaluation.
-- [Data science for teens](/courses/data-science-course-for-teens-python-data): Cleaning and labelling data well.
+TRAU / TEN / 01
+
+#### Visual machine learning
+
+Models built with blocks and charts.
+
+[Open the syllabus](/courses/orange-data-mining-visual-machine-learning-course-for-teens)
+
+TRAU / TEN / 02
+
+#### Python machine learning
+
+Real data, honest evaluation.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+TRAU / TEN / 03
+
+#### Data science for teens
+
+Cleaning and labelling data well.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)III
 
 ### Adults
 
 18 and over
 
-- [Machine learning and deep learning](/courses/ai-ml-masterclass-complete-college): From Python to neural networks.
-- [Data science, end to end](/courses/data-science-complete-masterclass-college): Data, models and evaluation.
-- [Machine learning without code](/courses/orange-data-mining-machine-learning-course-for-college-students): For analysts and students.
+TRAU / ADL / 01
+
+#### Machine learning and deep learning
+
+From Python to neural networks.
+
+[Open the syllabus](/courses/ai-ml-masterclass-complete-college)
+
+TRAU / ADL / 02
+
+#### Data science, end to end
+
+Data, models and evaluation.
+
+[Open the syllabus](/courses/data-science-complete-masterclass-college)
+
+TRAU / ADL / 03
+
+#### Machine learning without code
+
+For analysts and students.
+
+[Open the syllabus](/courses/orange-data-mining-machine-learning-course-for-college-students)
+
+How lessons run
 
 ## Lessons where students make the data
 
 Students collect, label, train and test in every course. Teachers ask "how do you know?" until the answer is a measurement.
 
-- **After school** Weekday afternoons in your state.
-- **Evenings** For senior students and adults.
-- **Weekends** Saturday and Sunday options.
+After school
 
-- **Their own data** Students build datasets about things they care about.
-- **Agreement checked** Labels are double-checked before any training.
-- **Tests held back** Every model is tested on data it has never seen.
-- **Errors explained** Students find out why a model got something wrong.
-- **Groups** Fifteen to twenty learners, or one to one.
-- **Age-appropriate tools** Younger students use tools that need no adult accounts.
+Weekday afternoons in your state.
+
+Evenings
+
+For senior students and adults.
+
+Weekends
+
+Saturday and Sunday options.
+
+### Their own data
+
+Students build datasets about things they care about.
+
+### Agreement checked
+
+Labels are double-checked before any training.
+
+### Tests held back
+
+Every model is tested on data it has never seen.
+
+### Errors explained
+
+Students find out why a model got something wrong.
+
+### Groups
+
+Fifteen to twenty learners, or one to one.
+
+### Age-appropriate tools
+
+Younger students use tools that need no adult accounts.
+
+Student work
+
+## Models and projects our students built
+
+Real work by learners who trained and tested their own models. See more on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 A monthly fee in US dollars applies to every country outside India, at one shared rate. There is no charge to start and no term-length commitment, so any month can be your last.
 
-- Free first class: USD 0. A trial lesson at no cost. A frank view of the right level. Card details not needed.
-- Group batch: USD 100 a month. Fifteen to twenty learners. A dedicated teacher. Similar age and level. Pay as you go, monthly.
-- One to one: USD 150 a month. Individual teaching. Flexible weekly time. Learner-led pace.
+Free first class
+
+USD 0
+
+no card required
+
+- A trial lesson at no cost
+- A frank view of the right level
+- Card details not needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners
+- A dedicated teacher
+- Similar age and level
+- Pay as you go, monthly
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- Individual teaching
+- Flexible weekly time
+- Learner-led pace
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Families' Google reviews, quoted exactly as they appear.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions from students and parents
 
 ## Common questions about training AI
 
@@ -266,15 +492,54 @@ Yes. Every lesson is live online with a teacher, in a group of fifteen to twenty
 
 The first lesson is free. Families then pay monthly with no joining fee and no term lock-in, as shown in the fees section.
 
+Elsewhere on this site
+
 ## Related pages
 
-- [Coding classes in Australia](/coding-classes-in-australia): Our main page for Australian families.
-- [Learn to think, not just use AI](/learn-to-think-not-just-use-ai-tools-australia): Checking AI answers properly.
-- [Python and AI for kids](/python-ai-course-for-kids-australia): A first AI course in Python.
-- [AI classes for teens](/ai-classes-for-teens-australia): AI for secondary students.
-- [Understand the code](/understand-the-code-dont-copy-paste-australia): Owning what you write.
-- [AI and machine learning in Australia](/ai-and-machine-learning-classes-in-australia): Our AI hub for Australian learners.
+More on thinking with AI, AI for different ages and Python.
 
-## Contact
+### [Coding classes in Australia](/coding-classes-in-australia)
 
-Book the free first class at [https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-australia](https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-australia#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Our main page for Australian families.
+
+### [Learn to think, not just use AI](/learn-to-think-not-just-use-ai-tools-australia)
+
+Checking AI answers properly.
+
+### [Python and AI for kids](/python-ai-course-for-kids-australia)
+
+A first AI course in Python.
+
+### [AI classes for teens](/ai-classes-for-teens-australia)
+
+AI for secondary students.
+
+### [Understand the code](/understand-the-code-dont-copy-paste-australia)
+
+Owning what you write.
+
+### [AI and machine learning in Australia](/ai-and-machine-learning-classes-in-australia)
+
+Our AI hub for Australian learners.
+
+Start here
+
+## Book a free first lesson
+
+Share a number and a time. The learner labels a few examples, trains a tiny model and tests it with a teacher, so you can see the difference between building AI and asking it.
+
+Reading first is fine too: [how a lesson runs](/how-we-teach), or [the full course list](/courses).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20wants%20to%20build%20AI%2C%20not%20just%20use%20chatbots.%20Could%20we%20book%20a%20free%20lesson%20about%20training%20models%3F) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp from Australia reaches our team in India fastest; replies come from a +91 number, as we have no Australian office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-australia*

@@ -59,6 +59,20 @@ Expert-led live teaching, with practical participation built into every lesson.
 
 [Watch a real class](/how-we-teach#library) [Choose a course and enroll](/courses)
 
+Priority Live Demo
+
+## See a real class today or tomorrow, not in a few weeks.
+
+Our mentors teach live all day, so the free demo is a waiting list. The Priority Live Demo is a full class of about 45 to 60 minutes, at a time you pick, with a mentor reserved only for you.
+
+[Book priority demo · ₹499](/book-demo)[Compare with the free demo](/free-demo-vs-priority-demo)
+
+One-time fee. No enrolment required. Rated 4.9 across 547 Google reviews.
+
+1. **A real class, not a sales call**The student solves a problem and builds something that works, in coding or maths.
+2. **A written skill report**After the class the mentor sends a skill report and a personal learning roadmap on WhatsApp.
+3. **Fee adjusted if you enrol**Send us your demo Order ID and we take the demo fee off your first month.
+
 ## Why Coding + Maths Together?
 
 Most platforms teach coding OR maths. Modern Age Coders teaches coding and maths together, because every algorithm needs mathematical thinking and every equation clicks better when you can code it. Students from 25+ countries across Asia, the Middle East, Europe, and North America already learn with us. No matter where you are, we bring world-class education to your screen.

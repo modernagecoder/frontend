@@ -4,46 +4,32 @@ description: "Live online coding, Python and AI classes across Connacht, from Ga
 canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-connacht
 source: src/pages/coding-and-ai-classes-in-connacht.html
 ---
-> Connacht is the west: Galway, Mayo, Sligo, Roscommon and Leitrim, home to 582,891 usually resident people at the 2022 census and to Gaeltacht areas in Galway and Mayo. It has one city, Galway, and five counties we have written about separately, all linked below. Our lessons are the same here as anywhere: taught live over video twice a week at a set hour, in groups of fifteen to twenty at one level or one to one, for anybody from six to sixty-seven. Trying the first lesson costs nothing. A group place is then USD 100 a month, and USD 150 buys one to one.
+> Live online coding, Python and AI classes across Connacht, from Galway and Mayo to Sligo, Roscommon and Leitrim, for learners aged 6 to 67. The first lesson is free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / Connacht
-
-Connacht, the western province / Live online
-
-# Coding and AI classes in Connacht
-
-**What are the best coding and AI classes in Connacht?** Connacht is the west: Galway, Mayo, Sligo, Roscommon and Leitrim, home to 582,891 usually resident people at the 2022 census and to Gaeltacht areas in Galway and Mayo. It has one city, Galway, and five counties we have written about separately, all linked below. Our lessons are the same here as anywhere: taught live over video twice a week at a set hour, in groups of fifteen to twenty at one level or one to one, for anybody from six to sixty-seven. Trying the first lesson costs nothing. A group place is then USD 100 a month, and USD 150 buys one to one.
-
-How many people in Connacht speak Irish? The census asks whether you can, and 244,788 people aged three and over said yes, about 43% of everyone that age in the province. It then asks the same people how often they actually speak it. Of those 244,788, 55,826 said never. Another 65,180 speak it every day, but only inside school or college. The number who speak Irish daily outside the education system is 16,966, under 7% of the headline. Every one of those figures is published, every one is accurate, and they describe very different realities. Which one you call the number of Irish speakers is a definition, not a fact, and choosing it silently is how two honest reports reach opposite conclusions.
-
-Facts last verified 17 September 2026. Teaching is online; no Connacht branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for the west
 
 ## Four courses to begin with
 
 Each starts with a free lesson taught by the person who would teach the course, and booking needs nothing but contact details.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Scratch projects where a character counts as a player only if it meets a rule the child has to write down.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Python and an early habit of asking what exactly a program is counting.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): One census question broken into its categories, and a written definition for every total.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): For adults whose reports depend on a word, like active customer or user, that nobody has defined.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsScratch projects where a character counts as a player only if it meets a rule the child has to write down.See the syllabus](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsPython and an early habit of asking what exactly a program is counting.See the syllabus](/courses/python-ai-kids-masterclass)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensOne census question broken into its categories, and a written definition for every total.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CourseFor adults whose reports depend on a word, like active customer or user, that nobody has defined.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## What counts as a speaker
 
 The 244,788 people in Connacht who said they can speak Irish, broken down by how often they do. From table SAP2022T3T2PROV; shares are our arithmetic.
 
-**Irish speakers aged 3 and over in Connacht, by how often they speak Irish**
-
 | How often | People | Share of the 244,788 |
-|---|---|---|
+| --- | --- | --- |
 | Daily, only within the education system | 65,180 | 26.6% |
 | Daily, only outside the education system | 12,973 | 5.3% |
 | Daily both within and outside the education system | 3,993 | 1.6% |
@@ -70,6 +56,8 @@ Most of the arguments about numbers that reach the news are really arguments abo
 
 Two notes on the arithmetic, so it can be checked. The 188,962 is 244,788 minus the 55,826 who never speak Irish. The 83,626 adds everyone who speaks it daily in any setting, which is the three daily rows in the table plus 1,480 people in combinations that include daily speaking within education, all published in the same table. The 16,966 adds the two rows for daily speaking outside education. The province is also where Irish ability is most common: about 42.8% of Connacht residents aged three and over say they can speak it, against about 37.7% across the State, by our arithmetic on table SAP2022T3T1PROV.
 
+Our Connacht pages
+
 ## One city and five counties
 
 Galway has a city council and a county council, and each has its own page; every other Connacht county has one.
@@ -88,14 +76,14 @@ The city at [coding classes in Galway](/best-coding-class-in-galway), and the co
 
 Local figures, schools, towns and a separate data project live on each of those pages. What belongs here is only what the census publishes for Connacht as one province.
 
+Connacht in figures
+
 ## The province in the 2022 census
 
 Published province totals from the census small area tables, with our percentages marked as such.
 
-**Connacht, April 2022**
-
 | Item | Figure |
-|---|---|
+| --- | --- |
 | Usually resident population | 582,891 |
 | Aged 3 and over | 571,654, of whom 244,788 say they can speak Irish |
 | Born in Ireland | 472,955, about 81% |
@@ -115,16 +103,41 @@ Of Connacht people who stated a journey time, about 38.4% get to work, school or
 
 Of the seven counties the statistics office names as containing Gaeltacht areas, Galway and Mayo are in Connacht.
 
-**What short journeys do and do not solve** A short trip to school is a real advantage, and many Connacht families have one. It does not create a computing class where none exists, and across a thinly populated province the learners who want one at a given level are often spread over several counties. An online group brings them together without anyone travelling at all.
+What short journeys do and do not solve
+
+A short trip to school is a real advantage, and many Connacht families have one. It does not create a computing class where none exists, and across a thinly populated province the learners who want one at a given level are often spread over several counties. An online group brings them together without anyone travelling at all.
+
+Learning ladder
 
 ## From counting to defining
 
 Ages here are rough; the first lesson settles the level.
 
-- **Ages 6 to 10: Rules for who counts** Games where the child writes the rule that decides what gets counted, then changes it and watches the total move. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 11 to 13: Categories that add up** Splitting a total into parts and checking the parts come back to the total. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Definitions in data** Writing the definition before the query, on real census categories, and defending the choice. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Metrics at work** Pinning down what active, engaged or retained means before anyone reports on it. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Rules for who counts
+
+Games where the child writes the rule that decides what gets counted, then changes it and watches the total move.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 11 to 13
+
+### Categories that add up
+
+Splitting a total into parts and checking the parts come back to the total.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Definitions in data
+
+Writing the definition before the query, on real census categories, and defending the choice.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Metrics at work
+
+Pinning down what active, engaged or retained means before anyone reports on it.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## Ask how many people speak Irish in Connacht and you will get one number
 
@@ -136,30 +149,139 @@ A learner who has broken the census question into its categories asks, before ac
 
 Machines will count whatever category they are pointed at. Deciding which category answers the real question is a human skill, and one well worth building now. The longer argument is in [why understanding code still matters in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Lessons across the west
 
 From Clifden to Carrick-on-Shannon, the teaching works the same way.
 
-- **A teacher, in real time** Lessons are taught live, with the learner answering, asking and trying things as they go.
-- **Matched by ability** Fifteen to twenty learners at a single level, drawn from across Connacht and other countries.
-- **Regular and fixed** Usually two lessons a week, about eight a month, at a time agreed at the start.
-- **Irish school terms** Planned around Junior Cycle, Transition Year and the Leaving Certificate, including holidays and exams.
-- **Needs at home** A laptop or desktop, working sound and a video-capable connection, tested in the free lesson.
-- **Private when needed** If no group at the right level meets at a sensible hour, lessons are one to one.
+### A teacher, in real time
 
-**For learners in the Gaeltacht** Lessons are taught in English and programming keywords are English in every language, so a pupil from a Gaeltacht school in Conamara or Erris starts on exactly the same footing as anyone else.
+Lessons are taught live, with the learner answering, asking and trying things as they go.
+
+### Matched by ability
+
+Fifteen to twenty learners at a single level, drawn from across Connacht and other countries.
+
+### Regular and fixed
+
+Usually two lessons a week, about eight a month, at a time agreed at the start.
+
+### Irish school terms
+
+Planned around Junior Cycle, Transition Year and the Leaving Certificate, including holidays and exams.
+
+### Needs at home
+
+A laptop or desktop, working sound and a video-capable connection, tested in the free lesson.
+
+### Private when needed
+
+If no group at the right level meets at a sensible hour, lessons are one to one.
+
+For learners in the Gaeltacht
+
+Lessons are taught in English and programming keywords are English in every language, so a pupil from a Gaeltacht school in Conamara or Erris starts on exactly the same footing as anyone else.
+
+Fees
 
 ## Connacht fees
 
 One price list for all five counties.
 
-- First class: USD 0. An opening lesson, taught fully and free, that ends with a level and a recommendation.
-- Group tuition: USD 100 a month. Group lessons for a month, about eight, with fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. One to one lessons for a month on the same weekly rhythm.
+First class**USD 0**
+
+An opening lesson, taught fully and free, that ends with a level and a recommendation.
+
+Group tuition**USD 100**
+
+Group lessons for a month, about eight, with fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+One to one lessons for a month on the same weekly rhythm.
 
 Monthly billing is in US dollars, the single rate for families outside India, so Leitrim and Galway pay alike and there is no euro price to set against it. Nothing is charged before the free lesson agrees a course and a time; the pricing page covers pauses, missed lessons and switching format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Connacht.)Reviews
+
+## Six reviews from our families on Google, quoted exactly
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book the free lesson
+
+Share the learner's age and what interests them. The first hour is built for them, from a Scratch game with a counting rule to a census question that splits into several honest answers.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Connacht one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Connacht.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Connacht coding class questions
+
+What families in the west ask us first.
 
 ### How many people live in Connacht?
 
@@ -201,10 +323,14 @@ The first lesson is free. After that a shared place costs USD 100 a month and br
 
 Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
+Explore Ireland
+
 ## The rest of Ireland
 
 Continue to [Ulster, for its three counties in the State](/coding-and-ai-classes-in-ulster), [Leinster](/coding-and-ai-classes-in-leinster) or [Munster](/coding-and-ai-classes-in-munster). Anyone comparing online coding schools can read [our comparison](/best-online-coding-classes-ireland), and the [Ireland page](/coding-classes-in-ireland) links to everything else.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Connacht.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-and-ai-classes-in-connacht](https://learn.modernagecoders.com/coding-and-ai-classes-in-connacht#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-connacht*

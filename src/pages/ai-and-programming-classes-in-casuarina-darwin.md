@@ -4,56 +4,40 @@ description: "Live online AI and programming classes for Casuarina and northern 
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-casuarina-darwin
 source: src/pages/ai-and-programming-classes-in-casuarina-darwin.html
 ---
-> Hidden patterns in a timetable, found without being told what to look for. Learners turn the Darwin bus timetable into a grid of 610 stops by 24 hours and factorise it with non-negative matrix factorisation. Three parts emerge: a morning rush, an afternoon rush and all-day service. The Casuarina interchange stops are about half all-day.
+> Live online AI and programming classes for Casuarina and northern Darwin, ages 6 to adult, with an unsupervised learning project on the Darwin bus timetable.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [Northern Territory](/coding-and-ai-classes-in-northern-territory) / [Darwin](/online-coding-and-python-classes-in-darwin) / Casuarina
-
-Casuarina, City of Darwin, Northern Territory / Live online
-
-# AI and programming classes in Casuarina
-
-**What does the Casuarina AI project discover?** Hidden patterns in a timetable, found without being told what to look for. Learners turn the Darwin bus timetable into a grid of 610 stops by 24 hours and factorise it with non-negative matrix factorisation. Three parts emerge: a morning rush, an afternoon rush and all-day service. The Casuarina interchange stops are about half all-day.
-
-Casuarina is the bus hub of Darwin's northern suburbs, a small suburb of about 0.4 square kilometres where 15 bus routes meet. Few people live there, but buses on routes 1 to 5, 10, 12 and the Orbital services start, end or pass through it every weekday. Its timetable is a good place to see what unsupervised learning can find.
-
-Facts last verified 13 October 2026. Teaching is online; no Casuarina branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Casuarina
 
 ## Machine learning, data and Python
 
 Courses for learners interested in what AI can find on its own. A free trial lesson points the way.
 
-- [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) (University and adult): Unsupervised learning, factorisation and evaluation.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Clustering and pattern finding on real data.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 17): Matrices and charts with Python.
-- [AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course) (Ages 8 to 12): How computers spot patterns, explained simply.
+[![AI and ML Masterclass course thumbnail](/images/ai-ml-college.webp)University and adultAI and ML MasterclassUnsupervised learning, factorisation and evaluation.See the syllabus](/courses/ai-ml-masterclass-complete-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensClustering and pattern finding on real data.See the syllabus](/courses/ai-ml-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 17Data Science for TeensMatrices and charts with Python.See the syllabus](/courses/data-science-course-for-teens-python-data)[![AI Literacy for Kids (Ages 8 to 14) course thumbnail](/images/ai-literacy-for-kids.webp)Ages 8 to 12AI Literacy for Kids (Ages 8 to 14)How computers spot patterns, explained simply.See the syllabus](/courses/ai-literacy-for-kids-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Casuarina in the Census
 
 ## A tiny residential count around a big hub
 
 From the 2021 Census QuickStats for the Casuarina suburb and locality (ABS SAL70051), read on 13 October 2026. The numbers are small, so the bureau's privacy adjustments matter more than usual.
 
-**Casuarina counts**
-
 | Measure | Value |
-|---|---|
+| --- | --- |
 | People | 406 |
 | Median age | 27 |
 | Families | 24 |
 | Private dwellings | 76 |
 | Suburb area | about 0.42 sq km |
 
-**Casuarina travel to work compared with the NT**
-
 | Share | Casuarina | NT |
-|---|---|---|
+| --- | --- | --- |
 | Bus to work | 14.4% (42) | 2.1% |
 | Walked to work | 12.4% (36) | 7.6% |
 | Drove a car to work | 46.4% (135) | 63.4% |
@@ -72,14 +56,14 @@ The median age was 27, below the NT median of 33.
 
 Remember that 2021 was a pandemic year for travel. Because the ABS nudges small counts to protect privacy, every share above sits next to its count, and none are combined.
 
+Signature project
+
 ## Three patterns nobody labelled
 
 For Wednesday 30 September 2026, a weekday the feed's weekday timetable runs, the Darwin bus GTFS lists 17,967 departures from 610 stops between 5am and 10pm. Learners turn each stop's departures into hourly shares and ask NMF to explain the 610 rows as mixtures of a few non-negative patterns.
 
-**Reconstruction error by number of patterns (our calculation, scikit-learn 1.7.2)**
-
 | Patterns | Relative error |
-|---|---|
+| --- | --- |
 | 1 | 0.763 |
 | 2 | 0.594 |
 | 3 | 0.514 |
@@ -104,14 +88,14 @@ PCA on the same matrix explains variance well, but its second component has 13 n
 
 Our timetable is the Territory's public bus data file for Darwin, published openly with an attribution licence. Deciding which stops sit inside Casuarina uses our own outline test against the bureau's suburb boundary, and the matrix, factorisations and tallies are ours as well.
 
+In code
+
 ## A matrix, NMF and some judgement
 
 scikit-learn does the factorising. The judgement is in preparing the matrix and reading the parts.
 
-**Lesson steps**
-
 | Step | Learner task |
-|---|---|
+| --- | --- |
 | 1 | Count departures by stop and hour for one weekday the feed covers. |
 | 2 | Divide each row by its total so busy and quiet stops compare fairly. |
 | 3 | Fit NMF for 1 to 5 patterns and chart the errors. |
@@ -131,6 +115,8 @@ Build the matrix, fit NMF and present the three patterns as charts.
 
 Use NMF to find usage patterns in sales, energy or web logs at work.
 
+Around Casuarina
+
 ## The hub in numbers
 
 A closer look at the stops inside the suburb, plus a note on Territory time.
@@ -147,16 +133,41 @@ The Bradshaw Terrace terminus stop has 268 departures, and eight route names in 
 
 Darwin keeps UTC+9:30 all year; the IANA database records its last daylight saving period ending in March 1944.
 
-**Outline used** We use the bureau's Casuarina boundary, about 0.42 square kilometres, which our test places within the City of Darwin. Territory school term dates are left out: we were unable to fetch them from an official source.
+Outline used
+
+We use the bureau's Casuarina boundary, about 0.42 square kilometres, which our test places within the City of Darwin. Territory school term dates are left out: we were unable to fetch them from an official source.
+
+Learning ladder
 
 ## From mixing paint to matrix factorisation
 
 Ages are only a starting guide.
 
-- **Ages 6 to 9: Patterns** Block-code games about repeating patterns. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)
-- **Ages 8 to 12: Tables of numbers** Python lists, grids and simple charts. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 17: Unsupervised learning** Clustering and factorisation on real data. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **University and adult: Applied ML** Matrix methods and evaluation for work. [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college), [Statistics & Probability](/courses/statistics-probability-maths-course)
+Ages 6 to 9
+
+### Patterns
+
+Block-code games about repeating patterns.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)Ages 8 to 12
+
+### Tables of numbers
+
+Python lists, grids and simple charts.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 17
+
+### Unsupervised learning
+
+Clustering and factorisation on real data.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)University and adult
+
+### Applied ML
+
+Matrix methods and evaluation for work.
+
+[AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college)[Statistics & Probability](/courses/statistics-probability-maths-course)Coding and AI
 
 ## Is pattern-finding AI always right?
 
@@ -168,30 +179,139 @@ A Casuarina learner who has named three patterns from their hours, and checked t
 
 Our AI classes pair every pattern a model finds with a reason to believe it. The longer argument is in [is learning to code still worth it](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Casuarina lessons, live online
 
 Classes run over video, so learners across Darwin's northern suburbs join from home.
 
-- **Live teacher** Each class is taught in real time, with code reviewed as learners type.
-- **School holidays** Classes pause during Territory school holidays.
-- **No-cost start** Your first class is free, and a short course plan follows.
-- **Groups** Fifteen to twenty learners at a level, or one-to-one.
-- **Pace** Twice-weekly classes across each school term.
-- **India time** A 5:30pm Casuarina class starts at 1:30pm in India, every day of the year.
+### Live teacher
 
-**Four hours ahead** With Darwin fixed at UTC+9:30 and India at UTC+5:30, the IANA database puts Casuarina exactly four hours ahead all year.
+Each class is taught in real time, with code reviewed as learners type.
+
+### School holidays
+
+Classes pause during Territory school holidays.
+
+### No-cost start
+
+Your first class is free, and a short course plan follows.
+
+### Groups
+
+Fifteen to twenty learners at a level, or one-to-one.
+
+### Pace
+
+Twice-weekly classes across each school term.
+
+### India time
+
+A 5:30pm Casuarina class starts at 1:30pm in India, every day of the year.
+
+Four hours ahead
+
+With Darwin fixed at UTC+9:30 and India at UTC+5:30, the IANA database puts Casuarina exactly four hours ahead all year.
+
+Fees
 
 ## Casuarina class fees
 
 All learners pay the same fees.
 
-- First class: USD 0. Class one is free, followed by a plan.
-- Group tuition: USD 100 a month. Group classes: two a week, with five to ten others.
-- Private tuition: USD 150 a month. Private classes: about eight a month with your own teacher.
+First class**USD 0**
+
+Class one is free, followed by a plan.
+
+Group tuition**USD 100**
+
+Group classes: two a week, with five to ten others.
+
+Private tuition**USD 150**
+
+Private classes: about eight a month with your own teacher.
 
 Prices are in US dollars, payable only after the trial class has agreed what and when. For holidays and absences, see our pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20near%20Casuarina%20and%20would%20like%20a%20free%20AI%20or%20programming%20lesson.)Reviews
+
+## What parents write on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Casuarina lesson
+
+Tell us the learner's age and interests. A child might mix paint colours; a teenager might factorise the bus timetable.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Casuarina one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20near%20Casuarina%20and%20would%20like%20a%20free%20AI%20or%20programming%20lesson.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Casuarina AI and programming questions
+
+Questions from Casuarina and northern Darwin families and adult learners.
 
 ### How many people live in Casuarina?
 
@@ -233,10 +353,14 @@ Fifteen to twenty learners of similar level and pace, whatever their age or wher
 
 We do. Grown-up learners have their own groups or private classes, and many analyse data from their workplace.
 
+More for Top End learners
+
 ## Read more
 
 Casuarina learners can also see the [Darwin page](/online-coding-and-python-classes-in-darwin), the [Northern Territory guide](/coding-and-ai-classes-in-northern-territory) and [AI classes for teens](/ai-classes-for-teens-australia).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20near%20Casuarina%20and%20would%20like%20a%20free%20AI%20or%20programming%20lesson.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-casuarina-darwin](https://learn.modernagecoders.com/ai-and-programming-classes-in-casuarina-darwin#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-casuarina-darwin*

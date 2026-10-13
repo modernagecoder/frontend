@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and app classes for Velsen, ages 6 
 canonical: https://learn.modernagecoders.com/coding-classes-in-velsen
 source: src/pages/coding-classes-in-velsen.html
 ---
-> Velsen, with 70,361 residents on 1 January 2026 by the national count, is IJmuiden, Velserbroek, Santpoort, Driehuis and the two Velsens, at the mouth of the North Sea Canal that was dug in the 1870s for the port of Amsterdam. Every ship bound for Amsterdam passes through the locks at IJmuiden, built in 1876, 1896, 1929 and, most recently, 2022, and the encyclopaedia records why the newest was needed: as ships grew larger, the existing lock became a bottleneck. A port is only as open as its narrowest gate. Software is the same. A program is only as fast as its slowest step, and speeding up any other step changes almost nothing, which is why good programmers measure before they optimise. Live classes run online, in English, for ages 6 to 67; the first lesson is free, then USD 100 a month in a group or USD 150 one to one.
+> Live online coding, Python, AI and app classes for Velsen, ages 6 to 67, in IJmuiden, Velserbroek, Santpoort, Driehuis and Velsen-Noord. First lesson free.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Velsen
-
-Velsen, Noord-Holland / Live online
-
-# Coding classes in Velsen, where a lock decides how big a ship can be
-
-**What are the best coding classes in Velsen?** Velsen, with 70,361 residents on 1 January 2026 by the national count, is IJmuiden, Velserbroek, Santpoort, Driehuis and the two Velsens, at the mouth of the North Sea Canal that was dug in the 1870s for the port of Amsterdam. Every ship bound for Amsterdam passes through the locks at IJmuiden, built in 1876, 1896, 1929 and, most recently, 2022, and the encyclopaedia records why the newest was needed: as ships grew larger, the existing lock became a bottleneck. A port is only as open as its narrowest gate. Software is the same. A program is only as fast as its slowest step, and speeding up any other step changes almost nothing, which is why good programmers measure before they optimise. Live classes run online, in English, for ages 6 to 67; the first lesson is free, then USD 100 a month in a group or USD 150 one to one.
-
-A port can have deep water, long quays and fast cranes, and still take no ship wider than its lock. For Amsterdam that lock is at IJmuiden, and its history is a history of the narrowest point moving: a lock in 1876, a bigger one in 1896, a bigger one again in 1929 and, opened by the King on 26 January 2022, a sea lock 500 metres long, 70 wide and 18 deep. Each time, the encyclopaedia explains, the ships had grown until the lock became the limit. Programmers call this the bottleneck. In any chain of steps, the whole can go no faster than its slowest part, and effort spent anywhere else is wasted. The trap is that people naturally improve the step they can see or the step they know best, not the one that is actually slowest. The cure is simple and constantly skipped: measure every step first, then work on the narrowest one, and measure again, because once it is widened the bottleneck moves somewhere else.
-
-Facts last verified 11 September 2026. Teaching is online; no Velsen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Velsen
 
 ## Four courses for the town at the mouth of the canal
 
 A child in Velserbroek who wants a game that runs smoothly, a teenager in IJmuiden whose app takes ages to load, a student in Santpoort training a model that seems to crawl, and an adult in Driehuis whose weekly report takes an hour to build. The first lesson is free for any of them.
 
-- [Game Development for Kids](/courses/game-development-masterclass-for-kids) (Ages 8 to 12): Games that stay smooth, where a child learns to find which part of the game is slowing everything down.
-- [App Development for Teens](/courses/complete-app-development-masterclass-for-teens) (Ages 13 to 18): Apps timed step by step, so the slow screen is fixed at its real cause rather than by guesswork.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Profiling Python code and AI pipelines, and speeding up the part that actually takes the time.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): Slow reports and dashboards traced to the one step that holds up all the rest.
+[![Game Development for Kids course thumbnail](/images/game-dev-kids.webp)Ages 8 to 12Game Development for KidsGames that stay smooth, where a child learns to find which part of the game is slowing everything down.See the syllabus](/courses/game-development-masterclass-for-kids)[![App Development for Teens course thumbnail](/images/app-dev-teens.webp)Ages 13 to 18App Development for TeensApps timed step by step, so the slow screen is fixed at its real cause rather than by guesswork.See the syllabus](/courses/complete-app-development-masterclass-for-teens)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CourseProfiling Python code and AI pipelines, and speeding up the part that actually takes the time.See the syllabus](/courses/python-ai-automation-masterclass-college)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)Slow reports and dashboards traced to the one step that holds up all the rest.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Velsen today
 
 ## Seven places, a canal, the steelworks, and the locks
 
 Velsen is made up of seven woonplaatsen, Driehuis, IJmuiden, Santpoort-Noord, Santpoort-Zuid, Velsen-Noord, Velsen-Zuid and Velserbroek, divided by the statistics office into 11 wijken and 64 buurten. It covers 4,503 hectares of land and 1,814 of water, with a published density of 1,555 residents per square kilometre over the land.
 
-**The locks at IJmuiden, in the encyclopaedia's dates**
-
 | Lock | Year | What the entry records |
-|---|---|---|
+| --- | --- | --- |
 | Zuidersluis | 1876 | the first of the IJmuiden locks |
 | Middensluis | 1896 | a second, larger lock |
 | Noordersluis | 1929 | the lock that ships outgrew |
@@ -61,20 +47,22 @@ Velsen is home to a site of the steel producer Tata Steel, according to the ency
 
 As ships grew in size, the encyclopaedia says, the existing lock became a bottleneck for shipping to the port of Amsterdam, and that is what the sea lock of 2022 was built to relieve.
 
+The narrowest point
+
 ## Where the time actually goes
 
 The table is an invented example of an ordinary web page taking half a second to load. It shows how much each possible improvement would save, and why the obvious choice is often the wrong one.
 
-**An illustration: one page load of 500 milliseconds, split into its steps**
-
 | Step | Time taken | If made twice as fast | Share of the total saved |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Running the application code | 50 ms | saves 25 ms | 5 percent |
 | Waiting for the database | 400 ms | saves 200 ms | 40 percent |
 | Sending the page over the network | 50 ms | saves 25 ms | 5 percent |
 | Whole page | 500 ms | all three doubled saves 250 ms | 50 percent |
 
 A programmer who loves tidy code might spend a week making the application twice as fast and cut the load time by 5 percent. The same week spent on the database query would cut it by 40 percent. Nothing in the finished page tells anyone which week was better spent; only measuring the steps does. The rule underneath is simple arithmetic: improving a step can save at most the time that step takes, so a step that uses a tenth of the time can never deliver more than a tenth of the gain, however brilliantly it is optimised. And once the slowest step is fixed, a different step becomes the slowest, exactly as the IJmuiden locks show: each new lock removed one limit until the ships grew into the next.
+
+Verified local facts
 
 ## Velsen in the national statistics
 
@@ -106,6 +94,8 @@ Under fifteen, 10,509; fifteen to twenty-five, 7,522; twenty-five to forty-five,
 
 Modern Age Coders has no connection with the municipality of Velsen, Tata Steel, the port, the locks or any school in the IJmond, and nothing here implies one. The statistics are those published for Velsen for the years stated. The woonplaatsen, the canal, the growth of IJmuiden and the steelworks come from the encyclopaedia entry for Velsen, and the locks from the entry for the IJmuiden locks. The Velsen entry gives its own population and area figures from a different source, and they are not combined with the statistics here.
 
+Signature project
+
 ## Measure first, then widen the narrowest gate
 
 Every speed problem has one step that matters most. The work is finding it honestly, fixing it, and then finding the next one.
@@ -122,10 +112,8 @@ Work on the step that takes the most time and ignore the rest for now. A small i
 
 After the fix, time everything again. The bottleneck has almost certainly moved, and the next piece of work is wherever it has gone, which is often somewhere nobody expected.
 
-**Bottlenecks in places that look fast**
-
 | System | Where it usually really is | What people speed up instead | What finding it takes |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | A slow web page | a database query or a large image | the code that builds the page | timing each request in the browser tools |
 | A game that stutters | one function called far too often | the graphics settings | a profiler run while it stutters |
 | Training an AI model | loading and preparing the data | the model itself | measuring how often the processor sits idle waiting |
@@ -136,14 +124,14 @@ After the fix, time everything again. The bottleneck has almost certainly moved,
 
 Modern AI work is a chain of steps: fetching data, cleaning it, feeding it to a model, waiting for the answer, processing the result. Each step can be the narrowest, and each is easy to overlook. Teams training models often discover that their expensive processors spend much of their time idle, waiting for data that cannot be loaded fast enough, so a faster model would not help at all. Applications built on AI services find that nearly all the waiting happens inside the calls to the model, so polishing the surrounding code is effort wasted, while sending several requests at once or caching repeated ones changes everything. The discipline is the one the IJmuiden locks illustrate. Find the narrowest gate by measurement rather than by instinct, widen it, and then look again, because the ships, the data and the users keep growing, and the limit keeps moving to whatever part of the system is now the smallest.
 
+Reliable pipeline
+
 ## Five habits for making anything faster
 
 For programs, websites, data pipelines, AI workflows and slow reports. Practised at the mouth of the North Sea Canal.
 
-**Speed work that pays off**
-
 | Habit | In practice | Waste it prevents | What you get |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Measure before changing | Time every step of the slow process first | Optimising the wrong part | A true picture of where time goes |
 | Largest step first | Work only on the step that takes the most time | Effort that cannot pay back | The biggest gain for the effort |
 | Re-measure after | Time everything again after each fix | Chasing a bottleneck that has moved | The next target, found honestly |
@@ -164,14 +152,37 @@ A slow weekly report timed step by step. Adults usually find one step, often an 
 
 This section uses the encyclopaedia's history of the IJmuiden locks as an image, and a clearly invented page-load example. It says nothing about how the locks or the port are managed today.
 
+Learning ladder
+
 ## From the slowest runner in a relay to profiling an AI pipeline
 
 The level is set during the free lesson by watching the learner on a real task. Age alone does not set it, and neither does whether home is IJmuiden or Santpoort.
 
-- **Ages 6 to 10: The slowest runner** Children find the one part that holds a whole game up. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Game Development for Kids](/courses/game-development-masterclass-for-kids)
-- **Ages 11 to 13: Stopwatch coding** Learners time each part of a Python program and compare. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Profiler** Teenagers profile an app, fix the slowest part and measure again. [App Development for Teens](/courses/complete-app-development-masterclass-for-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Pipeline speed** Adults find the real bottleneck in data and AI workflows. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### The slowest runner
+
+Children find the one part that holds a whole game up.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Game Development for Kids](/courses/game-development-masterclass-for-kids)Ages 11 to 13
+
+### Stopwatch coding
+
+Learners time each part of a Python program and compare.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Profiler
+
+Teenagers profile an app, fix the slowest part and measure again.
+
+[App Development for Teens](/courses/complete-app-development-masterclass-for-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Pipeline speed
+
+Adults find the real bottleneck in data and AI workflows.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## An AI can rewrite code to be faster in seconds. Why should a teenager in IJmuiden measure first?
 
@@ -183,30 +194,139 @@ A learner who has timed a program step by step, found that one step took almost 
 
 So the case for a child in Velsen learning to code in 2026 is not the steelworks or the harbour. It is that someone who measures before optimising will be needed wherever AI makes it easy to change code quickly and hard to know whether the change mattered. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## The same class in all seven places
 
 Velsen is split by the canal into north and south, with IJmuiden by the sea and Santpoort and Velserbroek inland, and a lesson from home reaches every part equally.
 
-- **No crossing the canal** A learner in Velsen-Noord and a learner in Santpoort-Zuid open the same class at the same time from home, with no tunnel or ferry on a school night.
-- **Dutch terms as written** Brugklas, groep, vmbo, havo, vwo and the profielkeuze keep their Dutch names, as an IJmond school writes them, while the teaching is in English.
-- **A free lesson that teaches** The opening session is a real lesson on a real task. At the end the teacher proposes a level, a course and a weekly time, and asks for no card.
-- **Groups at one level** Fifteen to twenty learners at the same stage. Velsen has 10,509 residents under fifteen, and five who match on subject, level and hour are unusual in one municipality, so groups can include learners from other countries.
-- **Regio Noord holidays** Two lessons a week, about eight a month, at one fixed time, with breaks for the regio Noord holidays that Noord-Holland schools keep.
-- **Teachers a few hours ahead** The teachers are in India, three and a half hours ahead of Velsen in summer and four and a half in winter, so late afternoons, evenings and weekend mornings all work.
+### No crossing the canal
 
-**Thirty-four schools, seven places, and one group online** Velsen has 23 primary establishments teaching 5,343 pupils and 11 secondary establishments teaching 3,930. Five learners matched on subject, stage and hour are much easier to gather across all ages from 6 to 67 and many countries than within one municipality.
+A learner in Velsen-Noord and a learner in Santpoort-Zuid open the same class at the same time from home, with no tunnel or ferry on a school night.
+
+### Dutch terms as written
+
+Brugklas, groep, vmbo, havo, vwo and the profielkeuze keep their Dutch names, as an IJmond school writes them, while the teaching is in English.
+
+### A free lesson that teaches
+
+The opening session is a real lesson on a real task. At the end the teacher proposes a level, a course and a weekly time, and asks for no card.
+
+### Groups at one level
+
+Fifteen to twenty learners at the same stage. Velsen has 10,509 residents under fifteen, and five who match on subject, level and hour are unusual in one municipality, so groups can include learners from other countries.
+
+### Regio Noord holidays
+
+Two lessons a week, about eight a month, at one fixed time, with breaks for the regio Noord holidays that Noord-Holland schools keep.
+
+### Teachers a few hours ahead
+
+The teachers are in India, three and a half hours ahead of Velsen in summer and four and a half in winter, so late afternoons, evenings and weekend mornings all work.
+
+Thirty-four schools, seven places, and one group online
+
+Velsen has 23 primary establishments teaching 5,343 pupils and 11 secondary establishments teaching 3,930. Five learners matched on subject, stage and hour are much easier to gather across all ages from 6 to 67 and many countries than within one municipality.
+
+Fees
 
 ## What Velsen families pay
 
 Three prices, and that is all of them.
 
-- First class: USD 0. A real lesson on a real task, ending with a level and a course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A real lesson on a real task, ending with a level and a course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 The fee is a single dollar price for every country, with no euro list, so a family in Velserbroek pays what a family in IJmuiden pays. Nothing is charged until the free lesson has fixed a course and a time, and payment is then arranged over WhatsApp. The pricing page covers pauses, format changes and missed lessons.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Velsen.)Reviews
+
+## Six Google reviews, exactly as left
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## How far along is the learner?
+
+The first task might be finding the slowest part of a game, timing each step of a small Python program, or tracing a slow report to the one step that holds it up.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Velsen one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Velsen.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Velsen coding class questions
+
+The municipality, its locks, its figures, and the lessons.
 
 ### What does the municipality of Velsen include?
 
@@ -248,10 +368,14 @@ The first lesson is free. After it, group tuition is USD 100 a month for two liv
 
 Fifteen to twenty, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
+Explore the IJmond and beyond
+
 ## Along the canal to Amsterdam, and across the province
 
 At the far end of the North Sea Canal, [coding classes in Amsterdam](/coding-classes-in-amsterdam) leads to the capital's district pages. Closer by, [Haarlem](/coding-classes-in-haarlem) and [Zaanstad](/coding-classes-in-zaanstad) have pages of their own, and every municipality in the province is listed on [Noord-Holland](/coding-classes-in-noord-holland). For machine learning from the first lesson there is the [AI and Python Academy](/ai-and-python-academy-netherlands), and the full series is on the [Netherlands coding hub](/coding-classes-in-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Chat with us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Velsen.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-velsen](https://learn.modernagecoders.com/coding-classes-in-velsen#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-velsen*

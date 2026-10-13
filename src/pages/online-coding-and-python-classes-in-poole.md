@@ -4,46 +4,32 @@ description: "Live online coding, Python and AI lessons for Poole children, teen
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-poole
 source: src/pages/online-coding-and-python-classes-in-poole.html
 ---
-> Poole is part of the Bournemouth, Christchurch and Poole council area, which had 400,198 residents in the 2021 census; the ONS counts 141,005 in the Poole built-up area. Across the council area young children and teenagers are a smaller share than in England, and people in their late sixties and early eighties a larger one. Python, coding, AI and maths lessons reach Poole live over video from our teachers in India, for learners aged 6 to 67, taught solo or in groups of fifteen to twenty at one stage. A free first lesson decides where to begin. The Poole project borrows an idea from a famous camp held just off the town. Staying on costs USD 100 a month in a group or USD 150 a month one-to-one.
+> Live online coding, Python and AI lessons for Poole children, teenagers and adults aged 6 to 67, taught one-to-one or in small groups. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South West England](/coding-and-ai-classes-in-south-west-england) / Poole
-
-Poole, Dorset, England / Live online
-
-# Online coding and Python classes in Poole
-
-**What are the best online coding and Python classes in Poole?** Poole is part of the Bournemouth, Christchurch and Poole council area, which had 400,198 residents in the 2021 census; the ONS counts 141,005 in the Poole built-up area. Across the council area young children and teenagers are a smaller share than in England, and people in their late sixties and early eighties a larger one. Python, coding, AI and maths lessons reach Poole live over video from our teachers in India, for learners aged 6 to 67, taught solo or in groups of fifteen to twenty at one stage. A free first lesson decides where to begin. The Poole project borrows an idea from a famous camp held just off the town. Staying on costs USD 100 a month in a group or USD 150 a month one-to-one.
-
-In Scouting for Boys, Robert Baden-Powell describes an experimental camp held on "Brownsea Island, near Poole", on an island lent for the purpose by Charles Van Raalte. The secret of its success, he wrote, was the patrol system: "The troop of boys was divided up into Patrols of five", each with its own leader, and patrols competed with one another. That only works if the patrols are fairly matched. So here is a question for a programmer. Given a group of scouts with different skill scores, how should they be split into patrols of five so that no patrol is much stronger than another? It sounds like common sense. A Poole learner who tries it in Python finds that the order you pick in changes everything.
-
-Facts last verified 27 September 2026. Teaching is online; no Poole branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentPoole starting courses
 
 ## First courses for Poole learners
 
 Match the course to the learner. The first live lesson of each one is free and needs no payment card.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 9): Block coding with teams, scores and fair-play games.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 9 to 12): First Python with lists and totals, plus simple AI.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Full Python for teenagers, including the patrol-splitting project.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Adults and students): Adult Python from zero, through algorithms and data.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 9Coding for KidsBlock coding with teams, scores and fair-play games.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 9 to 12Python and AI for KidsFirst Python with lists and totals, plus simple AI.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensFull Python for teenagers, including the patrol-splitting project.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)Adults and studentsPython MasterclassAdult Python from zero, through algorithms and data.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Bournemouth, Christchurch and Poole
 
 ## An older population by the harbour
 
 Six further bands from the 2021 census age table on Nomis for the council area, set against England.
 
-**Bournemouth, Christchurch and Poole compared with England, six more age bands (TS007A, 2021)**
-
 | Band | Council area residents | Council area % | England % |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Under 5 | 18,878 | 4.7% | 5.4% |
 | 10 to 14 | 21,342 | 5.3% | 6.0% |
 | 15 to 19 | 22,257 | 5.6% | 5.7% |
@@ -57,16 +43,16 @@ Young children and early teens are a noticeably smaller share than nationally, a
 
 See our [Dorset](/coding-classes-in-dorset) page for the county and [South West England](/coding-and-ai-classes-in-south-west-england) for the region.
 
+The Poole project
+
 ## Fair patrols of five
 
 An invented camp of 15 scouts, three patrols, and four ways to split them.
 
 The learner invents a camp of 15 scouts, each with a tracking-test score out of 20: 18, 17, 17, 15, 14, 13, 13, 12, 11, 10, 9, 8, 7, 6 and 4. They add up to 174, so a perfectly fair split into three patrols of five would give each patrol 58. The first attempt simply takes the scouts in list order, five at a time. It produces patrols worth 81, 59 and 34, a gap of 47 between strongest and weakest, the kind of mismatch that would spoil any competition.
 
-**Our Python splits of an invented 15-scout camp into three patrols of five, 27 September 2026**
-
 | Method | Patrol totals | Gap, strongest to weakest | Comment |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | List order, five at a time | 81, 59, 34 | 47 | Strongest scouts land together |
 | Snake draft | 59, 58, 57 | 2 | Pick order 1-2-3, then 3-2-1 |
 | Greedy, strongest scout first | 59, 57, 58 | 2 | Each scout joins the weakest patrol with room |
@@ -93,14 +79,14 @@ Search every split, count the perfect ones, and see how fast the numbers grow.
 
 The quotations come from the Project Gutenberg edition of Scouting for Boys. The scouts and their scores are invented for the lesson; the splits and counts are ours.
 
+Why Brownsea
+
 ## An experimental camp near Poole
 
 What Scouting for Boys says about the first trial.
 
-**The experimental camp in Scouting for Boys, Project Gutenberg edition**
-
 | Detail | In Baden-Powell's words or summary |
-|---|---|
+| --- | --- |
 | Where | Brownsea Island, near Poole |
 | Who lent it | The late Mr. Charles Van Raalte |
 | What it was | A preliminary trial of the scheme with a camp of boys |
@@ -112,14 +98,37 @@ Splitting things fairly is a daily job for software. Cloud systems spread work a
 
 We have no connection with Project Gutenberg, the Scout movement or the census office. The book and figures are theirs; the invented camp and any error in the splits are ours.
 
+Stages
+
 ## From card piles to hard problems
 
 School years are only indicative; the trial sets the level.
 
-- **Years 1 to 4: Teams in blocks** Block coding with scores, teams and simple fairness rules. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 5 to 8: Python lists** Sorting, totals and first algorithms in Python. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Years 9 to 13: Algorithms and AI** Search, optimisation and AI alongside GCSE and A level. [Python for Teens](/courses/python-complete-masterclass-teens), [High School Mathematics](/courses/complete-high-school-mathematics-mastery)
-- **Adults: Problem solving** Adult Python up to algorithms and data. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Years 1 to 4
+
+### Teams in blocks
+
+Block coding with scores, teams and simple fairness rules.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 5 to 8
+
+### Python lists
+
+Sorting, totals and first algorithms in Python.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Years 9 to 13
+
+### Algorithms and AI
+
+Search, optimisation and AI alongside GCSE and A level.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[High School Mathematics](/courses/complete-high-school-mathematics-mastery)Adults
+
+### Problem solving
+
+Adult Python up to algorithms and data.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)AI and fairness
 
 ## Would an AI check whether its split was fair?
 
@@ -131,30 +140,139 @@ A Poole learner who has watched the same greedy rule give a gap of 2 or 10 knows
 
 Testing whether a quick answer is really fair is exactly the sort of thinking that makes coding worth learning for Poole teenagers in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Poole and Bearwood, by live video
 
 Anywhere in the town joins the same lesson.
 
-- **Code by the learner** The student writes each program; the tutor follows over screen share and guides with questions.
-- **Placed carefully** From Year 4 to Year 12, the school year and the trial together decide the starting topic, with the exam board noted.
-- **Trial at no cost** The first lesson is free and closes with an honest recommendation.
-- **Patrols of peers** Classes gather five to ten UK learners who are at the same stage.
-- **Twice weekly** Two lessons a week in term; holidays stay free.
-- **Same time all year** UK clock changes are absorbed by our teachers.
+### Code by the learner
 
-**Why groups meet online** Five Poole learners at one level, free at the same time, rarely live on one road. Online classes give everyone matching classmates.
+The student writes each program; the tutor follows over screen share and guides with questions.
+
+### Placed carefully
+
+From Year 4 to Year 12, the school year and the trial together decide the starting topic, with the exam board noted.
+
+### Trial at no cost
+
+The first lesson is free and closes with an honest recommendation.
+
+### Patrols of peers
+
+Classes gather five to ten UK learners who are at the same stage.
+
+### Twice weekly
+
+Two lessons a week in term; holidays stay free.
+
+### Same time all year
+
+UK clock changes are absorbed by our teachers.
+
+Why groups meet online
+
+Five Poole learners at one level, free at the same time, rarely live on one road. Online classes give everyone matching classmates.
+
+Fees
 
 ## Poole fees
 
 Poole families pay the one rate we use for every country outside India.
 
-- First class: USD 0. A full lesson without charge, ending with a course suggestion.
-- Group tuition: USD 100 a month. Roughly eight live small-group lessons a month.
-- Private tuition: USD 150 a month. Roughly eight live private lessons a month.
+First class**USD 0**
+
+A full lesson without charge, ending with a course suggestion.
+
+Group tuition**USD 100**
+
+Roughly eight live small-group lessons a month.
+
+Private tuition**USD 150**
+
+Roughly eight live private lessons a month.
 
 Fees are set in US dollars, not sterling. Payment begins after the trial has settled a course and a regular weekly slot; holidays, missed sessions and changing format are explained on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20online%20coding%20or%20Python%20lesson%20for%20a%20learner%20in%20Poole.)Reviews
+
+## Google reviews from Poole and beyond
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Poole lesson
+
+Send an age or school year and one interest. The trial could be a Scratch team game, a first Python program, an AI mini-project, or the fair-patrols puzzle.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Poole one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20online%20coding%20or%20Python%20lesson%20for%20a%20learner%20in%20Poole.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Poole questions
+
+Patrols, population figures and lesson basics.
 
 ### What is the population of Poole?
 
@@ -196,10 +314,14 @@ The opening lesson is free, then USD 100 monthly for a group or USD 150 monthly 
 
 Yes, once we have your dates.
 
+Nearby
+
 ## More pages near Poole
 
 Next door, the [Bournemouth](/best-coding-and-ai-classes-in-bournemouth) page finds the first-person chapters of Jekyll and Hyde. For the county see [Dorset](/coding-classes-in-dorset), and for the region [South West England](/coding-and-ai-classes-in-south-west-england). The [UK hub](/coding-classes-in-united-kingdom) links every page.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20online%20coding%20or%20Python%20lesson%20for%20a%20learner%20in%20Poole.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/online-coding-and-python-classes-in-poole](https://learn.modernagecoders.com/online-coding-and-python-classes-in-poole#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-poole*

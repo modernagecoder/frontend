@@ -4,34 +4,28 @@ description: "VCE Specialist Maths tutoring online for Victorian students: proof
 canonical: https://learn.modernagecoders.com/vce-specialist-maths-tutoring
 source: src/pages/vce-specialist-maths-tutoring.html
 ---
-> VCE Specialist Mathematics Units 3 and 4 cover six areas of study, including logic and proof, complex numbers, vectors, advanced calculus and differential equations, and statistical inference. The study assumes concurrent or previous completion of Mathematical Methods Units 3 and 4. Coursework counts 40 per cent, Examination 1 (1 hour, no technology) 20 per cent and Examination 2 (2 hours) 40 per cent.
+> VCE Specialist Maths tutoring online for Victorian students: proof, complex numbers, vectors, calculus and inference, both exams and the SACs, taught by hand first.
 
-[Home](/) / [Coding classes in Australia](/coding-classes-in-australia) / VCE Specialist Maths
+In short
 
-Victoria · VCE Specialist Mathematics · Live online
+VCE Specialist Mathematics Units 3 and 4 cover six areas of study, including logic and proof, complex numbers, vectors, advanced calculus and differential equations, and statistical inference. The study assumes concurrent or previous completion of Mathematical Methods Units 3 and 4. Coursework counts 40 per cent, Examination 1 (1 hour, no technology) 20 per cent and Examination 2 (2 hours) 40 per cent.
 
-# VCE Specialist Maths tutoring
-
-Specialist Mathematics is the deepest of the VCE maths studies, and the study design says so in its own words: it emphasises "mathematical structure, reasoning and proof". Students meet complex numbers in polar form, vector proofs, differential equations and statistical inference, usually while taking Mathematical Methods at the same time.
-
-At a glance: Study: VCE Specialist Mathematics; Units: 3 and 4; Accredited from: 1 January 2023; Areas of study: Six; Exam 1: 20 per cent, 1 hour, no technology; Exam 2: 40 per cent, 2 hours; 2026 exams: 9 and 11 November; We never: Complete any SAC. Rated 4.9 across 547 Google reviews.
+Where to begin
 
 ## Three courses that reach Specialist depth
 
 Proof and complex numbers first, then calculus at the level the exams expect.
 
-- [Further Maths, A level](/courses/a-level-further-maths-course): Complex numbers, proof by induction, vectors and differential equations, a close cousin of the Specialist content.
-- [Calculus foundations](/courses/ap-calculus-exam-prep): Integration techniques and rates of change, the base for Specialist's advanced calculus.
-- [Competition mathematics](/courses/olympiad-competition-mathematics-mastery): Writing proofs that convince, the habit the logic and proof area of study is built around.
+[![A Level Further Maths course thumbnail](/images/a-level-further-maths.webp)  VCSM / 01 Further Maths, A level Complex numbers, proof by induction, vectors and differential equations, a close cousin of the Specialist content. Open the syllabus →](/courses/a-level-further-maths-course)[![AP Calculus AB & BC Exam Prep, Live Online, Score 5 Goal course thumbnail](/images/ap-calculus-prep.webp)  VCSM / 02 Calculus foundations Integration techniques and rates of change, the base for Specialist's advanced calculus. Open the syllabus →](/courses/ap-calculus-exam-prep)[![Maths Olympiad & Competition Course course thumbnail](/images/olympiad-competition-maths.webp)  VCSM / 03 Competition mathematics Writing proofs that convince, the habit the logic and proof area of study is built around. Open the syllabus →](/courses/olympiad-competition-mathematics-mastery)
+
+Inside the study design
 
 ## Six areas of study and what they assume
 
 Taken from the VCE Mathematics Study Design (accredited from 1 January 2023 for Units 1 to 4), which we read on 7 October 2026.
 
-**Specialist Mathematics Units 3 and 4: areas of study and examples of key knowledge**
-
 | Area of study | Examples from the key knowledge |
-|---|---|
+| --- | --- |
 | Discrete mathematics | Logic and proof: direct proof, proof by cases, proof by contradiction, proof by contrapositive and proof by mathematical induction |
 | Algebra, number and structure | Complex numbers in polar form, factorisation over the complex field, De Moivre’s theorem, and the nth roots of unity |
 | Functions, relations and graphs | Rational functions and simple quotient functions, partial fractions, and the asymptotes and stationary points of their graphs |
@@ -49,14 +43,14 @@ Technology still matters. Outcome 3 asks students to apply computational thinkin
 
 Sources: [VCAA, VCE Specialist Mathematics study design page](https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/specialist-mathematics/vce-specialist-mathematics); VCE Mathematics Study Design, Specialist Mathematics Units 3 and 4, read on 7 October 2026.
 
+How the study score is built
+
 ## Two exams in three days
 
 Specialist's weights and exam conditions are the study design's own words; the VCAA's 2026 timetable, consulted on 7 October 2026, gives the dates.
 
-**Specialist study score: four contributions**
-
 | Contribution | Percentage | Form it takes |
-|---|---|---|
+| --- | --- | --- |
 | Coursework in Unit 3 | 20 | A single application task lasting four to six hours across one or two weeks |
 | Coursework in Unit 4 | 20 | Modelling or problem-solving work done largely in class time |
 | First examination | 20 | Sixty minutes, technology-free and note-free, formulas supplied on a sheet |
@@ -71,6 +65,8 @@ Examination 2 adds technology and longer contexts, often linking areas of study 
 The revision plan that works for most students alternates: one technology-free set and one extended technology question each week, rather than leaving Examination 2 practice until late October.
 
 Specialist weights and exam rules from the VCE Mathematics Study Design; dates from the [VCAA 2026 timetable](https://www.vcaa.vic.edu.au/administration/key-dates/vce-examination-timetable) (accessed 7 October 2026).
+
+A worked lesson
 
 ## The nth roots of unity are the corners of a polygon
 
@@ -88,10 +84,8 @@ The sixth roots are 1, 0.5 ± 0.866i, −1 and −0.5 ± 0.866i, where 0.866 is 
 
 Symmetry says the roots must add to zero, because the polygon balances about its centre. Pairing says their product is −1 when n is even and 1 when n is odd.
 
-**Roots of unity as polygons: sum, product and perimeter (our calculation)**
-
 | n | Size of the sum of all roots (floating point) | Product of all roots | Perimeter of the polygon |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 3 | about 3 in 10 to the 16 | 1 | 5.19615 |
 | 4 | about 3 in 10 to the 16 | −1 | 5.65685 |
 | 6 | about 4 in 10 to the 16 | −1 | 6.00000 |
@@ -109,14 +103,14 @@ De Moivre’s theorem, also in the key knowledge, is what makes "divide the argu
 
 Roots of unity and De Moivre key knowledge from the VCE Mathematics Study Design, Specialist Mathematics Units 3 and 4. Sums, products, perimeters and the cube roots of 8i are our own, computed in Python on 7 October 2026.
 
+School-assessed Coursework
+
 ## We teach the mathematics, the SACs stay yours
 
 Coursework is 40 per cent of Specialist Mathematics, and the VCAA only accepts it as the student's own work. The points below are quoted from the study design.
 
-**What the VCAA expects of Specialist coursework**
-
 | Expectation | Detail |
-|---|---|
+| --- | --- |
 | Ownership | The teacher has to be able to vouch that anything not acknowledged was the student’s own work |
 | Setting | Mostly done in class, inside a fixed window of time |
 | Unit 3 | One application task, four to six hours long over one or two weeks |
@@ -126,14 +120,14 @@ We teach proof, complex numbers, vectors, calculus and inference with problems w
 
 Coursework rules paraphrased from the Specialist sections of the study design on 7 October 2026.
 
+Building towards Units 3 and 4
+
 ## Four rungs alongside Methods
 
 Specialist sits on top of Methods, so the ladder runs beside it rather than after it.
 
-**From Specialist Units 1 and 2 to exam readiness**
-
 | When | Rung | The sign it is secure |
-|---|---|---|
+| --- | --- | --- |
 | Units 1 and 2 | 1. Proof habits | Writes direct and contrapositive proofs of simple statements without prompting |
 | Early Unit 3 | 2. Complex numbers | Moves between Cartesian and polar form and finds roots by spacing arguments |
 | Unit 3 | 3. Vectors | Uses scalar products to prove a geometric fact and to resolve one vector along another |
@@ -142,63 +136,293 @@ Specialist sits on top of Methods, so the ladder runs beside it rather than afte
 ### If proof feels foreign
 
 Most students have only ever been asked to calculate. Writing one short proof a day, read aloud to someone else, is the fastest way to make it normal.
+
 Induction in particular improves with a fixed layout: base case, assumption, the step, the conclusion, each on its own line.
 
 ### Taking both studies
 
 Our [VCE Maths Methods](/vce-maths-methods-tutoring) page covers the study Specialist assumes.
+
 Specialist's vectors, complex numbers and differential equations are the core of first-year engineering and physics mathematics.
+
+The catalogue
 
 ## Nine courses for Specialist students
 
 Grouped by the kind of thinking they build. Each card opens a full syllabus.
 
+I
+
 ### Proof and structure
 
 Discrete mathematics and algebra
 
-- [Competition mathematics](/courses/olympiad-competition-mathematics-mastery): Arguments that convince, built one careful step at a time.
-- [Further Maths, A level](/courses/a-level-further-maths-course): Complex numbers, induction and matrices from a parallel syllabus.
-- [Competitive programming](/courses/competitive-programming-for-teens-course): Logic and invariants, practised through problems a computer checks.
+VCSM / PF / 01
+
+#### Competition mathematics
+
+Arguments that convince, built one careful step at a time.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)
+
+VCSM / PF / 02
+
+#### Further Maths, A level
+
+Complex numbers, induction and matrices from a parallel syllabus.
+
+[Open the syllabus](/courses/a-level-further-maths-course)
+
+VCSM / PF / 03
+
+#### Competitive programming
+
+Logic and invariants, practised through problems a computer checks.
+
+[Open the syllabus](/courses/competitive-programming-for-teens-course)II
 
 ### Calculus and vectors
 
 Space, motion and change
 
-- [Calculus foundations](/courses/ap-calculus-exam-prep): The integration and differentiation Specialist extends.
-- [University mathematics](/courses/college-mathematics-complete-masterclass): Vectors, differential equations and beyond.
-- [IB Mathematics](/courses/ib-mathematics-aa-ai-masterclass): Extra practice on complex numbers and calculus.
+VCSM / CV / 01
+
+#### Calculus foundations
+
+The integration and differentiation Specialist extends.
+
+[Open the syllabus](/courses/ap-calculus-exam-prep)
+
+VCSM / CV / 02
+
+#### University mathematics
+
+Vectors, differential equations and beyond.
+
+[Open the syllabus](/courses/college-mathematics-complete-masterclass)
+
+VCSM / CV / 03
+
+#### IB Mathematics
+
+Extra practice on complex numbers and calculus.
+
+[Open the syllabus](/courses/ib-mathematics-aa-ai-masterclass)III
 
 ### Inference and computation
 
 Statistics and technology
 
-- [Statistics and probability](/courses/statistics-probability-maths-course): Random variables, sample means and confidence intervals.
-- [Maths through coding](/courses/maths-through-coding): Euler’s method, simulations and roots of unity in code.
-- [High school mathematics](/courses/complete-high-school-mathematics-mastery): For gaps from Units 1 and 2 that resurface in Units 3 and 4.
+VCSM / ST / 01
+
+#### Statistics and probability
+
+Random variables, sample means and confidence intervals.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)
+
+VCSM / ST / 02
+
+#### Maths through coding
+
+Euler’s method, simulations and roots of unity in code.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+VCSM / ST / 03
+
+#### High school mathematics
+
+For gaps from Units 1 and 2 that resurface in Units 3 and 4.
+
+[Open the syllabus](/courses/complete-high-school-mathematics-mastery)
+
+How lessons run
 
 ## When Specialist lessons happen
 
 Tutors join from India. In the cooler months Victoria is 4.5 hours in front of India; with daylight saving, in force between 4 October 2026 and 4 April 2027 according to the IANA time zone records, the gap is 5.5 hours, so a 6 pm Specialist lesson in Melbourne lands at 12.30 pm India time.
 
-- **Weekday after school** Weekly progress alongside Methods.
-- **Weekend morning** Long proof and technology sessions.
-- **School holidays** Exam blocks before the November papers.
+Weekday after school
 
-- **Proof in full sentences** Every argument written so a stranger could check it.
-- **Pictures before algebra** Complex numbers and vectors drawn first, then calculated.
-- **Technology to check** Code and calculators used to test ideas, never to replace them.
-- **Groups of fifteen to twenty** Students at one level, each presenting a solution in turn.
-- **One-to-one sessions** For one area of study that needs rebuilding.
-- **Outcomes stay yours** Nobody here predicts a study score or ATAR; what you earn is your own work.
+Weekly progress alongside Methods.
+
+Weekend morning
+
+Long proof and technology sessions.
+
+School holidays
+
+Exam blocks before the November papers.
+
+### Proof in full sentences
+
+Every argument written so a stranger could check it.
+
+### Pictures before algebra
+
+Complex numbers and vectors drawn first, then calculated.
+
+### Technology to check
+
+Code and calculators used to test ideas, never to replace them.
+
+### Groups of fifteen to twenty
+
+Students at one level, each presenting a solution in turn.
+
+### One-to-one sessions
+
+For one area of study that needs rebuilding.
+
+### Outcomes stay yours
+
+Nobody here predicts a study score or ATAR; what you earn is your own work.
+
+Student work
+
+## Student projects worth a look
+
+Built for fun and learning, not for school marks. Browse the rest in our [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Specialist lessons cost one flat monthly amount in US dollars for every family outside India; you can join without a fee and leave at the end of any month.
 
-- Free first class: USD 0. A full lesson with a tutor. A clear view of what to strengthen. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty students at one level. One tutor all term. Proofs and solutions discussed. A certificate when you finish.
-- One to one: USD 150 a month. One tutor, one student. Centred on one area of study. Often booked for the last weeks before the exams.
+Free first class
+
+USD 0
+
+no card required
+
+- A full lesson with a tutor
+- A clear view of what to strengthen
+- No card needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students at one level
+- One tutor all term
+- Proofs and solutions discussed
+- A certificate when you finish
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- One tutor, one student
+- Centred on one area of study
+- Often booked for the last weeks before the exams
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+As families and students posted them on Google, word for word.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about Specialist
 
 ## Specialist questions from Victorian families
 
@@ -242,15 +466,54 @@ It varies with the student, but most need steady weekly practice on proof and te
 
 Late afternoon or early evening in Victoria suits most students, and it falls inside our tutors' working day. The weekly time is agreed after the free lesson.
 
+Related pages
+
 ## More for Victorian maths students
 
-- [VCE Maths Methods tutoring](/vce-maths-methods-tutoring): The study Specialist assumes, with its own two exams.
-- [VCE Algorithmics (HESS) help](/vce-algorithmics-hess-help): Proof by induction and contradiction, applied to algorithms.
-- [Online maths tutoring in Australia](/online-maths-tutoring-australia): Help for other year levels and states.
-- [Australian Maths Trust competitions](/australian-maths-trust-amc-aio-cat-preparation): Competition problems for students who enjoy proof.
-- [Coding and AI classes in Melbourne](/vibe-coding-and-ai-agents-classes-in-melbourne): Coding and AI for Victorian students who like logic.
-- [Coding classes in Australia](/coding-classes-in-australia): Where to start with coding anywhere in Australia.
+The study Specialist assumes, the computing studies that reward the same rigour, and the wider picture.
 
-## Contact
+### [VCE Maths Methods tutoring](/vce-maths-methods-tutoring)
 
-Book the free first class at [https://learn.modernagecoders.com/vce-specialist-maths-tutoring](https://learn.modernagecoders.com/vce-specialist-maths-tutoring#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The study Specialist assumes, with its own two exams.
+
+### [VCE Algorithmics (HESS) help](/vce-algorithmics-hess-help)
+
+Proof by induction and contradiction, applied to algorithms.
+
+### [Online maths tutoring in Australia](/online-maths-tutoring-australia)
+
+Help for other year levels and states.
+
+### [Australian Maths Trust competitions](/australian-maths-trust-amc-aio-cat-preparation)
+
+Competition problems for students who enjoy proof.
+
+### [Coding and AI classes in Melbourne](/vibe-coding-and-ai-agents-classes-in-melbourne)
+
+Coding and AI for Victorian students who like logic.
+
+### [Coding classes in Australia](/coding-classes-in-australia)
+
+Where to start with coding anywhere in Australia.
+
+Start here
+
+## Start with a free Specialist lesson
+
+Tell us the unit and the area of study that is hardest right now, whether proof, complex numbers, vectors or inference. The free lesson works on it with our own problems.
+
+If you like to read before deciding, the [course atlas](/course-atlas) holds every syllabus, [how we teach](/how-we-teach) explains a lesson, and the [Maths Methods page](/vce-maths-methods-tutoring) covers the companion study.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20class%20about%20VCE%20Specialist%20Mathematics.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp replies come quickest. The +91 code is India's, where we teach from; there is no Australian office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/vce-specialist-maths-tutoring*

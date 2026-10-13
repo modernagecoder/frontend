@@ -4,34 +4,28 @@ description: "Help with VCE Applied Computing: Data Analytics, Units 3 and 4: SQ
 canonical: https://learn.modernagecoders.com/vce-applied-computing-data-analytics-help
 source: src/pages/vce-applied-computing-data-analytics-help.html
 ---
-> VCE Applied Computing: Data Analytics is the Units 3 and 4 sequence in which students extract, cleanse, analyse and visualise data. Unit 3 builds visualisations to a teacher's design and plans a student research question; Unit 4 turns that plan into infographics or dynamic visualisations and studies data security. Marks split 20 per cent coursework, 30 per cent task and 50 per cent examination.
+> Help with VCE Applied Computing: Data Analytics, Units 3 and 4: SQL, cleansing, statistics, visualisations, the 30 per cent task and the 2-hour exam.
 
-[Home](/) / [Coding classes in Australia](/coding-classes-in-australia) / VCE Data Analytics
+In short
 
-Victoria · Applied Computing: Data Analytics · Live online
+VCE Applied Computing: Data Analytics is the Units 3 and 4 sequence in which students extract, cleanse, analyse and visualise data. Unit 3 builds visualisations to a teacher's design and plans a student research question; Unit 4 turns that plan into infographics or dynamic visualisations and studies data security. Marks split 20 per cent coursework, 30 per cent task and 50 per cent examination.
 
-# VCE Data Analytics help
-
-Data Analytics is the VCE study where computing meets evidence. Students pull data out of large repositories with SQL, clean it in a spreadsheet, test it with statistics and present what it shows, then do the whole thing again for a research question of their own. Most of the marks reward judgement about data, not cleverness with tools.
-
-At a glance: Study: VCE Applied Computing; Units: 3 (IT023) and 4 (IT024); Accredited from: 1 January 2025; Task weight: 30 per cent of the study score; Exam: 50 per cent, 2 hours; 2026 exam: Monday 9 November; We teach: SQL, statistics and visual design; We never: Touch the research project. Rated 4.9 across 547 Google reviews.
+Where to begin
 
 ## Three courses under the key knowledge
 
 Queries first, statistics second, then the visual design that turns findings into a message.
 
-- [Databases with MySQL](/courses/mysql-mastery-for-teens): SELECT, WHERE, ORDER BY and INNER JOIN on real tables: the exact SQL the Unit 3 key knowledge lists.
-- [Statistics and probability](/courses/statistics-probability-maths-course): Mean, median, standard deviation, Pearson's r and skew, understood rather than just calculated.
-- [Data science with Python](/courses/data-science-course-for-teens-python-data): Cleaning and charting data in code, a strong partner to spreadsheet work.
+[![MySQL for Teens course thumbnail](/images/mysql-teens.webp)  VCDA / 01 Databases with MySQL SELECT, WHERE, ORDER BY and INNER JOIN on real tables: the exact SQL the Unit 3 key knowledge lists. Open the syllabus →](/courses/mysql-mastery-for-teens)[![Statistics & Probability course thumbnail](/images/statistics-probability-maths.webp)  VCDA / 02 Statistics and probability Mean, median, standard deviation, Pearson's r and skew, understood rather than just calculated. Open the syllabus →](/courses/statistics-probability-maths-course)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)  VCDA / 03 Data science with Python Cleaning and charting data in code, a strong partner to spreadsheet work. Open the syllabus →](/courses/data-science-course-for-teens-python-data)
+
+Inside the study design
 
 ## Two units of data work, and the tools they require
 
 Our summary of what the VCAA's Applied Computing study design (read 7 October 2026) sets out. Data Analytics is one of two Units 3 and 4 sequences in the study; Software Development is the other.
 
-**The Data Analytics sequence at a glance**
-
 | Unit | Area of study | What students do |
-|---|---|---|
+| --- | --- | --- |
 | Unit 3 (IT023) | Data analytics | Extract authentic data from large repositories, cleanse and analyse it, and build data visualisations to teacher-provided requirements and designs |
 | Unit 3 (IT023) | Data analytics: analysis and design | Propose a research question, collect primary and secondary data, plan with a Gantt chart, and design infographics or dynamic visualisations |
 | Unit 4 (IT024) | Data analytics: development and evaluation | Develop the preferred design, evaluate it against the student's own criteria, and assess the project plan |
@@ -47,14 +41,14 @@ Artificial intelligence appears in the key knowledge as well: AI features in sof
 
 Summarised on 7 October 2026 from the [VCAA Applied Computing page](https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/applied-computing-data-analytics/applied-computing) and its study design.
 
+How the study score is built
+
 ## A 2-hour exam and a two-term project
 
 The split below is the study design's; the weeks of class time come from the VCAA's 2026 Data Analytics administrative notes, and the exam date from the 2026 timetable (all read on 7 October 2026).
 
-**Data Analytics marks, piece by piece**
-
 | Assessment | Share of study score | Focus |
-|---|---|---|
+| --- | --- | --- |
 | Coursework, Unit 3 | One tenth | Visualisations made to requirements and designs a teacher supplies |
 | Coursework, Unit 4 | One tenth | A case study on a data breach |
 | The research project (SAT) | Three tenths | The student's own research question, carried from Unit 3 into Unit 4 |
@@ -69,6 +63,8 @@ The exam draws on all of the key knowledge, so SQL syntax, statistical interpret
 Useful exam practice is short and varied: write the query that answers a stated question, say what a correlation of a given strength does and does not show, pick the visualisation type for a stated audience, and identify the threat in a short breach scenario.
 
 Assessment weights from the study design; task timing from the [VCAA Data Analytics administrative information for 2026](https://www.vcaa.vic.edu.au/sites/default/files/2026-01/2026DataAnalyticsAdmin-Information-for-School-based-Assessment.docx); the date from the [2026 timetable](https://www.vcaa.vic.edu.au/administration/key-dates/vce-examination-timetable).
+
+A worked exercise on real data
 
 ## Cleansing the 2026 VCE exam timetable
 
@@ -86,10 +82,8 @@ Every written-exam session window from Thursday 15 October to Wednesday 18 Novem
 
 One window runs from 8:00 am to 6:00 pm. It is not an exam length: the page explains that each Auslan student sits one two-hour session somewhere inside that day.
 
-**Session window lengths before and after cleansing (our calculation from the 2026 VCAA timetable)**
-
 | Measure | All 45 windows | 44 windows, Auslan day removed |
-|---|---|---|
+| --- | --- | --- |
 | Mean length | 138.78 minutes | 128.30 minutes |
 | Median length | 135 minutes | 135 minutes |
 | Standard deviation (population) | 74.58 minutes | 27.28 minutes |
@@ -106,14 +100,14 @@ This is exactly the kind of exercise we use in lessons: a real, public dataset, 
 
 Dataset: [VCAA, 2026 VCE examination timetable](https://www.vcaa.vic.edu.au/administration/key-dates/vce-examination-timetable), read on 7 October 2026. Window counts, lengths and statistics are our own calculation in Python. Cleansing wording from the VCE Applied Computing Study Design, Unit 3 key knowledge.
 
+The School-assessed Task
+
 ## The research question has to stay the student's
 
 In Data Analytics the task starts with a question the student proposes. The study design and the 2026 administrative information set out what follows from that.
 
-**The research task, in the VCAA's terms**
-
 | Stage | Requirement |
-|---|---|
+| --- | --- |
 | The question | Students independently determine and propose a research question |
 | The data | Data from both primary and secondary sources, collected with appropriate methods and legal requirements considered |
 | The plan | A Gantt chart mixing milestones the student sets with ones the teacher sets |
@@ -124,14 +118,14 @@ We therefore teach every skill the task needs, from writing an answerable questi
 
 Drawn from Unit 3 Area of Study 2 of the study design and the VCAA's 2026 Data Analytics administrative information (7 October 2026).
 
+Getting ready
+
 ## Four rungs from spreadsheets to findings
 
 Students start Unit 3 from very different places. The rungs describe the skill reached, whatever the year.
 
-**From first queries to an evaluated visualisation**
-
 | Point in the year | Step | You are ready when |
-|---|---|---|
+| --- | --- | --- |
 | Before Unit 3 | 1. Spreadsheet fluency | Sorts, filters and writes formulas without looking anything up |
 | Unit 3 data analytics | 2. Queries | Writes SELECT queries with WHERE, ORDER BY and an INNER JOIN on two tables |
 | Unit 3 design | 3. Questions | Turns a curiosity into a research question that available data can answer |
@@ -140,63 +134,293 @@ Students start Unit 3 from very different places. The rungs describe the skill r
 ### If statistics is the weak spot
 
 Many students can calculate a standard deviation and cannot say what it means. A few weeks of interpreting spread, correlation and skew on real data repairs that faster than more formulas.
+
 Pearson's r is the classic trap: it measures linear association, not cause, and a single outlier can change it, as the timetable example shows for spread.
 
 ### Alongside the study
 
 Students who also enjoy building programs often take [VCE Software Development](/vce-applied-computing-software-development-help) as well; the study design allows one or both sequences.
+
 The analytical habits here, documenting every change to data, carry straight into university statistics and data science.
+
+The catalogue
 
 ## Nine courses for Data Analytics students
 
 Grouped by the part of the study they support. Each card opens a full syllabus.
 
+I
+
 ### Data and queries
 
 The Unit 3 toolset
 
-- [Databases with MySQL](/courses/mysql-mastery-for-teens): Tables, keys and SQL queries, from first SELECT to joins.
-- [Python for teens](/courses/python-complete-masterclass-teens): Scripting for students who outgrow spreadsheet formulas.
-- [Data science with Python](/courses/data-science-course-for-teens-python-data): Cleaning, describing and charting data in code.
+VCDA / U3 / 01
+
+#### Databases with MySQL
+
+Tables, keys and SQL queries, from first SELECT to joins.
+
+[Open the syllabus](/courses/mysql-mastery-for-teens)
+
+VCDA / U3 / 02
+
+#### Python for teens
+
+Scripting for students who outgrow spreadsheet formulas.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+VCDA / U3 / 03
+
+#### Data science with Python
+
+Cleaning, describing and charting data in code.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)II
 
 ### Analysis
 
 Statistics with meaning
 
-- [Statistics and probability](/courses/statistics-probability-maths-course): Spread, correlation and skew, interpreted carefully.
-- [Mathematics for data analytics](/courses/data-analytics-mathematics-masterclass): The maths underneath summaries, trends and predictions.
-- [Visual machine learning with Orange](/courses/orange-data-mining-visual-machine-learning-course-for-teens): Predictions and recommendations without heavy code, matching the AI key knowledge.
+VCDA / AN / 01
+
+#### Statistics and probability
+
+Spread, correlation and skew, interpreted carefully.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)
+
+VCDA / AN / 02
+
+#### Mathematics for data analytics
+
+The maths underneath summaries, trends and predictions.
+
+[Open the syllabus](/courses/data-analytics-mathematics-masterclass)
+
+VCDA / AN / 03
+
+#### Visual machine learning with Orange
+
+Predictions and recommendations without heavy code, matching the AI key knowledge.
+
+[Open the syllabus](/courses/orange-data-mining-visual-machine-learning-course-for-teens)III
 
 ### Beyond the study
 
 Security and depth
 
-- [Cybersecurity for teens](/courses/cybersecurity-course-for-teens-ethical-defensive): Breaches, threats and defences, as the Unit 4 case study discusses them.
-- [AI and machine learning for teens](/courses/ai-ml-masterclass-teens): How models learn from data, and how they mislead.
-- [Data analysis, university level](/courses/data-analysis-mastery-course-college): For students heading into data-heavy degrees.
+VCDA / EX / 01
+
+#### Cybersecurity for teens
+
+Breaches, threats and defences, as the Unit 4 case study discusses them.
+
+[Open the syllabus](/courses/cybersecurity-course-for-teens-ethical-defensive)
+
+VCDA / EX / 02
+
+#### AI and machine learning for teens
+
+How models learn from data, and how they mislead.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+VCDA / EX / 03
+
+#### Data analysis, university level
+
+For students heading into data-heavy degrees.
+
+[Open the syllabus](/courses/data-analysis-mastery-course-college)
+
+How lessons run
 
 ## Analytics lessons after school
 
 Our teachers log in from India. Victoria leads India by 4.5 hours in winter; with daylight saving (4 October 2026 to 4 April 2027 in the IANA data) the lead becomes 5.5 hours, putting a 5.30 pm lesson in Ballarat or Bendigo at noon in India.
 
-- **Weekday after school** The standard choice through Units 3 and 4.
-- **Weekend morning** Longer blocks for SQL, statistics or visual design.
-- **School holidays** Exam-focused practice before November.
+Weekday after school
 
-- **Our datasets only** Public data and questions we choose; assessed work never enters the lesson.
-- **Every change logged** Cleansing taught as a documented process, not silent deletion.
-- **Interpretation drilled** What a statistic shows, what it hides, and how to say so briefly.
-- **Small senior groups** Fifteen to twenty students at one level, each defending an analysis aloud.
-- **One-to-one option** For SQL or statistics gaps that need fast repair.
-- **Straight about results** We will not promise a study score or ATAR; the analysis and the mark are the student's.
+The standard choice through Units 3 and 4.
+
+Weekend morning
+
+Longer blocks for SQL, statistics or visual design.
+
+School holidays
+
+Exam-focused practice before November.
+
+### Our datasets only
+
+Public data and questions we choose; assessed work never enters the lesson.
+
+### Every change logged
+
+Cleansing taught as a documented process, not silent deletion.
+
+### Interpretation drilled
+
+What a statistic shows, what it hides, and how to say so briefly.
+
+### Small senior groups
+
+Fifteen to twenty students at one level, each defending an analysis aloud.
+
+### One-to-one option
+
+For SQL or statistics gaps that need fast repair.
+
+### Straight about results
+
+We will not promise a study score or ATAR; the analysis and the mark are the student's.
+
+Student work
+
+## Student work, published
+
+Personal work only, never school assessment. Browse more in our [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Data Analytics lessons are priced per month in US dollars, one rate for every family outside India, with nothing up front and no contract.
 
-- Free first class: USD 0. A real lesson with a teacher. A clear read on what to work on. No card required.
-- Group batch: USD 100 a month. Fifteen to twenty students at one level. A steady teacher all term. Analyses reviewed together. A certificate at the end.
-- One to one: USD 150 a month. A teacher for one student. Concentrated on one weak skill. Good for the weeks before the exam.
+Free first class
+
+USD 0
+
+no card required
+
+- A real lesson with a teacher
+- A clear read on what to work on
+- No card required
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students at one level
+- A steady teacher all term
+- Analyses reviewed together
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one student
+- Concentrated on one weak skill
+- Good for the weeks before the exam
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Shown exactly as students and parents wrote them on Google.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about the study
 
 ## Data Analytics questions
 
@@ -240,15 +464,54 @@ No. We teach the skills with datasets and questions we choose, and never propose
 
 Late afternoon in Victoria suits most senior students and sits in the middle of our teachers' day. We agree the weekly time after the free class.
 
+Related pages
+
 ## Related reading for Victorian students
 
-- [VCE Software Development help](/vce-applied-computing-software-development-help): The other Applied Computing sequence, where students build programs.
-- [VCE Algorithmics (HESS) help](/vce-algorithmics-hess-help): The VCAA's university-level algorithms study.
-- [Coding and AI classes in Melbourne](/vibe-coding-and-ai-agents-classes-in-melbourne): Victoria's schools and the AI skills students ask about.
-- [Australian competitions calendar](/australian-coding-maths-and-ai-competitions-calendar): Data, coding and AI contests through the year.
-- [Online maths tutoring in Australia](/online-maths-tutoring-australia): The statistics that sit beneath every analysis.
-- [Coding classes in Australia](/coding-classes-in-australia): Coding for all ages, from our national page.
+The sister computing sequence, the theory study, and the Victorian school picture.
 
-## Contact
+### [VCE Software Development help](/vce-applied-computing-software-development-help)
 
-Book the free first class at [https://learn.modernagecoders.com/vce-applied-computing-data-analytics-help](https://learn.modernagecoders.com/vce-applied-computing-data-analytics-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The other Applied Computing sequence, where students build programs.
+
+### [VCE Algorithmics (HESS) help](/vce-algorithmics-hess-help)
+
+The VCAA's university-level algorithms study.
+
+### [Coding and AI classes in Melbourne](/vibe-coding-and-ai-agents-classes-in-melbourne)
+
+Victoria's schools and the AI skills students ask about.
+
+### [Australian competitions calendar](/australian-coding-maths-and-ai-competitions-calendar)
+
+Data, coding and AI contests through the year.
+
+### [Online maths tutoring in Australia](/online-maths-tutoring-australia)
+
+The statistics that sit beneath every analysis.
+
+### [Coding classes in Australia](/coding-classes-in-australia)
+
+Coding for all ages, from our national page.
+
+Start here
+
+## Start with a free class on one data skill
+
+Tell us whether SQL, statistics, cleansing or visual design is the sticking point. The free class works on it with a dataset we choose, never with assessed work.
+
+Prefer to read first? Every syllabus is on the [course atlas](/course-atlas), the teaching method on [how we teach](/how-we-teach), and the Victorian context on the [Melbourne page](/vibe-coding-and-ai-agents-classes-in-melbourne).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20class%20about%20VCE%20Applied%20Computing%3A%20Data%20Analytics.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is the quickest route. The +91 prefix is Indian because we teach from India; we claim no office in Victoria.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/vce-applied-computing-data-analytics-help*

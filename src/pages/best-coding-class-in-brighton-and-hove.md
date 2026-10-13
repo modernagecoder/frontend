@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths lessons for Brighton and 
 canonical: https://learn.modernagecoders.com/best-coding-class-in-brighton-and-hove
 source: src/pages/best-coding-class-in-brighton-and-hove.html
 ---
-> The 2021 census counted 277,103 usual residents in Brighton and Hove, and 10.1% of them were aged 20 to 24, against 6.0% across England. In 1883 the Brighton-born inventor Magnus Volk opened an electric railway on the seafront that still runs today. We teach Brighton and Hove learners from six to sixty-seven over live video, in a group of fifteen to twenty matched by level or one to one, with teachers in India and lessons set in UK hours. Nothing is charged for the first lesson; from then on a group place costs USD 100 a month and one-to-one teaching USD 150 a month.
+> Live online coding, Python, AI and maths lessons for Brighton and Hove learners aged 6 to 67, from Hove and Kemptown to Patcham. Your first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Brighton and Hove
-
-Brighton and Hove, East Sussex / Live online
-
-# Coding classes in Brighton and Hove
-
-**What are the best coding classes in Brighton and Hove?** The 2021 census counted 277,103 usual residents in Brighton and Hove, and 10.1% of them were aged 20 to 24, against 6.0% across England. In 1883 the Brighton-born inventor Magnus Volk opened an electric railway on the seafront that still runs today. We teach Brighton and Hove learners from six to sixty-seven over live video, in a group of fifteen to twenty matched by level or one to one, with teachers in India and lessons set in UK hours. Nothing is charged for the first lesson; from then on a group place costs USD 100 a month and one-to-one teaching USD 150 a month.
-
-A monitor on the roof of the pavilion in Preston Park has measured ozone every hour for years. DEFRA's objective for ozone is written as an eight-hour mean: 100 micrograms per cubic metre, not to be exceeded more than ten times a year. So which eight hours? Cut each day into three fixed blocks and the Preston Park record for 2019 to 2025 shows 65 days above 100. Slide an eight-hour window forward one hour at a time, as the standard intends, and the count rises to 94. The 29 missing days had their worst eight hours straddling a block boundary, such as 13:00 to 21:00, and the fixed blocks cut each one in two. Our teenagers build that window, with its rule for missing hours and its single rounding step, from 58,022 real readings.
-
-Facts last verified 22 September 2026. Teaching is online; no Brighton and Hove branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Brighton and Hove
 
 ## Four courses for a seaside city
 
 Pick by the learner's interests rather than their age alone. Each course starts with a free live lesson, and booking asks for no card.
 
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 8 to 12): Averages, tables and patterns learned by writing short programs, the arithmetic an eight-hour mean is made of.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 18): Reading real CSV files, cleaning gaps and plotting time series in Python, the route to the Preston Park project.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Python from the first print statement to complete programs, including the loops and running totals a sliding window needs.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (University and adult): Rolling statistics, resampling and reporting rules for adults who work with sensor, sales or web data.
+[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 8 to 12Maths Through CodingAverages, tables and patterns learned by writing short programs, the arithmetic an eight-hour mean is made of.See the syllabus](/courses/maths-through-coding)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 18Data Science for TeensReading real CSV files, cleaning gaps and plotting time series in Python, the route to the Preston Park project.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensPython from the first print statement to complete programs, including the loops and running totals a sliding window needs.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)University and adultData Analysis CourseRolling statistics, resampling and reporting rules for adults who work with sensor, sales or web data.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Brighton and Hove today
 
 ## A young city by the sea
 
 Census 2021 figures for the Brighton and Hove council area, taken from Nomis and printed as the Office for National Statistics released them.
 
-**Brighton and Hove, Census 2021**
-
 | Measure | Brighton and Hove | England |
-|---|---|---|
+| --- | --- | --- |
 | Usual residents | 277,103 | 56,490,048 |
 | Living in households | 268,598 | Not compared |
 | Living in communal establishments | 8,505 | Not compared |
@@ -67,6 +53,8 @@ At 3,345.3 usual residents per square kilometre, the city is packed between the 
 
 Those students span every stage. A Year 5 pupil in Patcham might be animating a first Scratch sprite, a Year 11 student in Hove revising for GCSE Computer Science, and a graduate in Kemptown learning Python for a data job, each placed in a group of fifteen to twenty learners working at the same level.
 
+An electric seafront
+
 ## Magnus Volk and a railway on the shingle
 
 As told by the Volk's Electric Railway Association, which calls it the world's oldest operating electric railway.
@@ -85,16 +73,18 @@ Volk's sea-going railway to Rottingdean, a car on stilts running on rails under 
 
 We have no link with the Volk's Electric Railway Association. Volk belongs on this page because he treated the seafront as a place to test ideas and then kept a record of what the weather and the sea did to them. The project below does the same with a modern instrument, reading what the air over the city has recorded, hour by hour, for seven years.
 
-**Where the readings come from** Brighton Preston Park is an urban background site in the national monitoring network, with its inlet on the roof of the Pavilion Building and London Road about 190 metres away. DEFRA's UK-AIR service publishes its hourly ozone, nitrogen dioxide and particle readings as free yearly files, timed in GMT by the hour on which each reading ends.
+Where the readings come from
+
+Brighton Preston Park is an urban background site in the national monitoring network, with its inlet on the roof of the Pavilion Building and London Road about 190 metres away. DEFRA's UK-AIR service publishes its hourly ozone, nitrogen dioxide and particle readings as free yearly files, timed in GMT by the hour on which each reading ends.
+
+Signature project
 
 ## Ozone over Preston Park, one eight-hour window at a time
 
 A sliding window keeps a running total, adds the newest hour, drops the oldest, and never adds up the same eight numbers twice.
 
-**Days at Brighton Preston Park whose highest eight-hour ozone mean was above 100 and above 120 micrograms per cubic metre, our count from the ratified hourly files**
-
 | Year | Days above 100 | Days above 120 | Highest eight-hour mean | Fixed blocks would find |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | 2019 | 14 | 7 | 131.1 on 21 April | 9 |
 | 2020 | 30 | 14 | 161.6 on 11 August | 18 |
 | 2021 | 5 | 2 | 123.7 on 1 June | 5 |
@@ -121,14 +111,14 @@ Ozone at this site tends to peak in the late afternoon and evening. The highest 
 
 Two windows show why rounding once matters. The eight hours ending at 15:00 GMT on 14 August 2022, and again at 19:00 GMT on 25 June 2024, averaged 120.453. Rounded once, that is 120, the top of the Moderate band 4 on DEFRA's air quality index. Rounded to 120.5 first and then again, it becomes 121 and jumps to band 5. DEFRA's own guidance warns about exactly this and says rounding must be done only once, as the very last step.
 
+Averages that move
+
 ## Five decisions inside any rolling average
 
 Learned on ozone, then used on step counts, website traffic, shop sales, heart rate and every dashboard that shows a trailing figure.
 
-**What a sliding window forces a programmer to decide**
-
 | Decision | The Preston Park answer | Get it wrong and |
-|---|---|---|
+| --- | --- | --- |
 | Window length | Eight hours, as the objective states | The count answers a question nobody asked |
 | Minimum coverage | At least six of the eight hours present | Two readings pass for a whole working day |
 | Which day owns a window | The day on which the window ends | A late-evening peak moves into the wrong date |
@@ -153,14 +143,37 @@ Rolling metrics in SQL and pandas at work, with the window, coverage and roundin
 
 We have no connection with DEFRA, the Volk's Electric Railway Association or Brighton and Hove City Council. The hourly readings are published free on UK-AIR and the census tables through Nomis; every window, count and comparison on this page is our own arithmetic, not an official compliance assessment.
 
+Learning ladder
+
 ## From a paper strip to a rolling average
 
 Use the age bands as a loose guide. The free lesson shows where a learner should actually begin.
 
-- **Ages 6 to 10: Strips and totals** Adding small rows of numbers, sliding a card along them, and noticing that the new total needs just one addition and one subtraction. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Mental Maths for Kids](/courses/mental-maths-mastery-kids)
-- **Ages 11 to 13: Means and gaps** Working out averages in code, deciding what to do with a missing value, and plotting a week of readings. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 14 to 18: Windows in Python** Carried sums, coverage rules and day assignment on seven years of real hourly data, checked against a slow recount. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)
-- **Ages 18 to 67: Rolling metrics at work** Window functions in SQL and rolling statistics in pandas, with their rules stated rather than left to library defaults. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [MySQL Course](/courses/mysql-database-complete-masterclass-college)
+Ages 6 to 10
+
+### Strips and totals
+
+Adding small rows of numbers, sliding a card along them, and noticing that the new total needs just one addition and one subtraction.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Mental Maths for Kids](/courses/mental-maths-mastery-kids)Ages 11 to 13
+
+### Means and gaps
+
+Working out averages in code, deciding what to do with a missing value, and plotting a week of readings.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### Windows in Python
+
+Carried sums, coverage rules and day assignment on seven years of real hourly data, checked against a slow recount.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)Ages 18 to 67
+
+### Rolling metrics at work
+
+Window functions in SQL and rolling statistics in pandas, with their rules stated rather than left to library defaults.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[MySQL Course](/courses/mysql-database-complete-masterclass-college)Coding and AI
 
 ## A library call computes a rolling mean in one line. Why should a Brighton teenager write the loop?
 
@@ -172,30 +185,139 @@ The same pattern sits under much of modern AI. Language models read text through
 
 So a Brighton teenager should still learn to program in 2026, in a city where an inventor put electric cars on the beach in 1883: the tools do the arithmetic, but somebody has to decide what the arithmetic is for. The longer argument is in [why coding is worth learning in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Hove, Hanover or Rottingdean, from home
 
 Getting across Brighton and Hove after school can take longer than the lesson itself. Live online classes skip the journey.
 
-- **Portslade to Saltdean** A learner at the western edge of Hove and another near the cliffs at Saltdean can sit in the same class without either catching a bus.
-- **Key Stages to A level** Reception and the four Key Stages, Year 9 options, then GCSE and A level: we use the stage names Brighton and Hove schools use, and every lesson is taught in English.
-- **A real first lesson** The free session works through a genuine task and finishes with a recommended level, course and weekly time. We never ask for card details to book it.
-- **Classmates at your level** Groups of fifteen to twenty learners who are working at the same stage, from Brighton and Hove, the rest of the UK and overseas, which keeps a sensible time available for each level.
-- **Two set lessons a week** Two fixed weekly lessons, about eight in a month, with school holidays and exam weeks planned with the teacher well ahead.
-- **One clock in India** India does not change its clocks, so it is four and a half hours ahead of Brighton in British Summer Time and five and a half in winter, which lets after-school and evening UK lessons fall within the teaching day.
+### Portslade to Saltdean
 
-**Along the Sussex coast** Families in Shoreham-by-Sea, Lewes, Burgess Hill or Worthing join exactly the same classes, since groups are formed by level and nobody needs to travel.
+A learner at the western edge of Hove and another near the cliffs at Saltdean can sit in the same class without either catching a bus.
+
+### Key Stages to A level
+
+Reception and the four Key Stages, Year 9 options, then GCSE and A level: we use the stage names Brighton and Hove schools use, and every lesson is taught in English.
+
+### A real first lesson
+
+The free session works through a genuine task and finishes with a recommended level, course and weekly time. We never ask for card details to book it.
+
+### Classmates at your level
+
+Groups of fifteen to twenty learners who are working at the same stage, from Brighton and Hove, the rest of the UK and overseas, which keeps a sensible time available for each level.
+
+### Two set lessons a week
+
+Two fixed weekly lessons, about eight in a month, with school holidays and exam weeks planned with the teacher well ahead.
+
+### One clock in India
+
+India does not change its clocks, so it is four and a half hours ahead of Brighton in British Summer Time and five and a half in winter, which lets after-school and evening UK lessons fall within the teaching day.
+
+Along the Sussex coast
+
+Families in Shoreham-by-Sea, Lewes, Burgess Hill or Worthing join exactly the same classes, since groups are formed by level and nobody needs to travel.
+
+Fees
 
 ## Brighton and Hove lesson fees
 
 One free lesson first, then a single monthly fee.
 
-- First class: USD 0. A full lesson free of charge, finishing with a level, a suggested course and a weekly slot to consider.
-- Group tuition: USD 100 a month. Around eight live lessons each month in a group of fifteen to twenty learners at the same stage.
-- Private tuition: USD 150 a month. Around eight live lessons each month with a teacher who works with your learner alone.
+First class**USD 0**
+
+A full lesson free of charge, finishing with a level, a suggested course and a weekly slot to consider.
+
+Group tuition**USD 100**
+
+Around eight live lessons each month in a group of fifteen to twenty learners at the same stage.
+
+Private tuition**USD 150**
+
+Around eight live lessons each month with a teacher who works with your learner alone.
 
 Families outside India all pay the same fee in US dollars, whether they live in Withdean or Whitehawk, and we do not publish prices in pounds. No charge is made until the free lesson has agreed a course and a time; the pricing page explains pausing, missed lessons and switching between group and private teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Brighton%20and%20Hove.)Reviews
+
+## Six Google reviews written by families, unedited
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson for a Brighton and Hove learner
+
+The first task depends on level: a number-strip puzzle for a young child, a short Python program that averages a list for a beginner, or the Preston Park ozone files and a sliding window for a teenager ready for real data.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Brighton and Hove one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Brighton%20and%20Hove.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Brighton and Hove coding class questions
+
+The questions Brighton and Hove families ask us most often.
 
 ### How many people live in Brighton and Hove?
 
@@ -237,10 +359,14 @@ The first lesson is free. After that, a group place is USD 100 a month for two l
 
 By level, pace and goals rather than age or address, with fifteen to twenty learners at one stage in each group. Where no group suits the learner's timetable, we offer one-to-one lessons instead.
 
+Explore England and the UK
+
 ## More of the south coast and beyond
 
 West along the coast, the [Southampton page](/best-coding-class-in-southampton) builds a hash table from the postcodes of the city where Ordnance Survey is based, and [Bristol](/best-coding-class-in-bristol) divides itself into library catchments with a Voronoi diagram. [London](/best-coding-class-in-london), an hour up the line, has a guide of its own. The [England guide](/coding-and-ai-classes-in-england) sets out the school stages, and the [UK coding page](/coding-classes-in-united-kingdom) links every city we cover.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Brighton%20and%20Hove.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-brighton-and-hove](https://learn.modernagecoders.com/best-coding-class-in-brighton-and-hove#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-brighton-and-hove*

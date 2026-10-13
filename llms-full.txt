@@ -39,7 +39,7 @@ type="text/markdown">` tag in the HTML head. The markdown URLs follow these patt
 - Resources practice: /content/resources/generated/{lang}/{chapter}/practice/index.md
 - Static pages:  /src/pages/{slug}.md
 
-> Generated: 2026-09-21 · Source of truth: https://learn.modernagecoders.com/llms.txt
+> Generated: 2026-10-13 · Source of truth: https://learn.modernagecoders.com/llms.txt
 
 Full companion to /llms.txt, brand overview, complete course catalog, embedded text of featured blog posts, and full blog index. AI agents that prefer a single document can use this as the canonical knowledge base.
 
@@ -77,7 +77,7 @@ Full companion to /llms.txt, brand overview, complete course catalog, embedded t
 
 **Q: How are classes conducted?** Live over video in groups of 15 to 20 (or 1-on-1). Recorded for revision. Student dashboard at https://dashboard.modernagecoders.com
 
-## Course Catalog (122 courses)
+## Course Catalog (127 courses)
 
 Every Modern Age Coders course, grouped by audience.
 
@@ -477,13 +477,19 @@ TypeScript course for college students and professionals: JavaScript foundations
 
 Live online vibe coding course for college students 18+: master the MERN stack, DSA, machine learning and system design, crack tech placements and internships.
 
-### Mathematics (27)
+### Mathematics (32)
 
 ### [11 Plus Maths Prep: UK Grammar & Independent School Entry](https://learn.modernagecoders.com/courses/11-plus-maths-preparation-course-uk/)
 
 *Level:* UK students ages 9-11 (Years 5-6), grammar and independent school applicants · *Duration:* 8 months (32 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
 11 plus maths course for UK grammar and independent school entrance: live online classes, full KS2 syllabus, GL-style papers and timed exam practice.
+
+### [A Level Further Maths: Core Pure and Applied Options](https://learn.modernagecoders.com/courses/a-level-further-maths-course/)
+
+*Level:* Year 12 and 13 students (or equivalent) taking Further Maths with AQA, Edexcel or OCR · *Duration:* 18 months (72 weeks), taught alongside A Level Maths · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
+
+A Level Further Maths course online: live classes in Core Pure plus mechanics, statistics or decision options for AQA, Edexcel and OCR, ending in timed papers.
 
 ### [A-Level Maths: Pure, Mechanics, Statistics (Edexcel/AQA)](https://learn.modernagecoders.com/courses/a-level-maths-course-pure-mechanics-statistics/)
 
@@ -545,6 +551,18 @@ Live online early math course for ages 4-7: counting, number bonds, shapes and m
 
 Elementary maths classes for Grades 1-5, live and online: placement by grade into three school-year levels, from counting to fractions, geometry and pre-algebra.
 
+### [Functional Skills Maths Level 1 and Level 2 Course Online](https://learn.modernagecoders.com/courses/functional-skills-maths-course/)
+
+*Level:* Adults, apprentices and post-16 learners working towards Functional Skills maths at Level 1 or Level 2 · *Duration:* 6 months (24 weeks) for a full level; shorter for learners who start part-way · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
+
+Functional Skills maths online for adults, apprentices and post-16 learners: Level 1 and Level 2 taught live, with calculator and non-calculator practice.
+
+### [GCSE Maths Resit Course Online: Post-16 and Adults](https://learn.modernagecoders.com/courses/gcse-maths-resit-course/)
+
+*Level:* Learners aged 16 and over, and adults, resitting GCSE Maths with AQA, Edexcel or OCR · *Duration:* 6 months (24 weeks) for a summer entry; a shorter plan for the November series · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
+
+GCSE maths resit course online for post-16 learners and adults: a diagnostic, targeted repair of the topics that cost marks, then full papers for the November or summer series.
+
 ### [GCSE Maths: Foundation & Higher (9-1), AQA, Edexcel, OCR](https://learn.modernagecoders.com/courses/gcse-mathematics-mastery/)
 
 *Level:* Years 9-11 GCSE students, Foundation and Higher tiers, plus resit candidates · *Duration:* 18 months (72 weeks), joinable any month · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
@@ -581,6 +599,12 @@ Live online IGCSE Maths course for Cambridge Core, Extended and Additional Mathe
 
 JEE foundation maths course for Class 8-10: NCERT-aligned depth, geometry proof skills, olympiad-style problem solving and timed MCQ practice in live batches.
 
+### [KS2 SATs Maths: Arithmetic, Reasoning and Times Tables](https://learn.modernagecoders.com/courses/ks2-sats-maths-course/)
+
+*Level:* Children in Years 4, 5 and 6 at primary schools in England, ages 8 to 11 · *Duration:* 8 months (32 weeks), timed to finish before the May tests · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
+
+KS2 SATs maths course online for Years 4 to 6: times tables for the multiplication check, the arithmetic paper and both reasoning papers, taught live.
+
 ### [Maths for Data Science: Statistics, Linear Algebra and ML](https://learn.modernagecoders.com/courses/data-analytics-mathematics-masterclass/)
 
 *Level:* School-level maths assumed; built for college students and working professionals · *Duration:* 12-14 months (48-56 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
@@ -597,7 +621,7 @@ One-year maths olympiad course: master number theory, combinatorics, algebra, ge
 
 *Level:* Ages 10-15 (grades 5-10); no coding experience required · *Duration:* 9 months (36 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
-Live course where kids ages 10-15 learn maths by coding it: fractions, algebra, geometry and probability built as Python projects. 8 classes a month, free demo.
+Live course where kids ages 10-15 learn maths by coding it: fractions, algebra, geometry and probability built as Python projects. Small live batches or 1-on-1, free demo.
 
 ### [Mental Maths for Kids: Number Sense, Not Tricks (Ages 5-10)](https://learn.modernagecoders.com/courses/mental-maths-mastery-kids/)
 
@@ -610,6 +634,12 @@ Live mental maths course for kids ages 5-10: number bonds, decomposition and est
 *Level:* Complete Beginner to Advanced Middle School Level · *Duration:* 12-14 months (52-60 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
 A 1-year middle school maths program taking students from basic arithmetic to pre-algebra, geometry and statistics with real problem-solving strategies.
+
+### [National 5 and Higher Maths Course Online (Scotland)](https://learn.modernagecoders.com/courses/national-5-and-higher-maths-course/)
+
+*Level:* S3 to S6 learners and adults in Scotland taking National 5 or Higher Mathematics · *Duration:* About 6 months per level: National 5, then Higher (12 months for both) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
+
+National 5 and Higher Maths online for Scottish learners: C847 75 and C847 76 taught live, from algebra and trigonometry to calculus, ending in timed papers.
 
 ### [Olympiad Mathematics: IOQM, INMO and AMC Preparation](https://learn.modernagecoders.com/courses/olympiad-mathematics-premium-course/)
 
@@ -1084,6 +1114,8 @@ The software development landscape is undergoing its most radical transformation
 
 But what exactly is vibe coding? Is it just a fleeting buzzword, or does it represent a fundamental paradigm shift in how digital logic is conceived and deployed? In this deeply detailed guide, the most comprehensive on the internet, we will dissect every layer of this revolution: the philosophy behind it, the exact mechanics of how it works, a head-to-head comparison of every major tool powering the movement, the alarming security risks that 45% of AI-generated code carries, the jaw-dropping industry statistics reshaping the job market, and why mastering vibe coding is no longer optional for anyone who wants to remain relevant in the next decade of digital creation.
 
+**Vibe coding, defined (updated September 2026):** vibe coding is building software by describing what you want in natural language, letting an AI write the code, running it, and describing the next change, in a loop, instead of typing the code yourself. The term comes from a February 2025 post by Andrej Karpathy. The human still decides what to build, checks that it works and owns the result; what changes is that the first draft of every line is written by a model. The rest of this guide explains where the term came from, how the loop works in practice, which tools people use, where it goes wrong, and how it is being taught to kids, teens and adults.
+
 > **📊 Vibe Coding by the Numbers (March 2026)**
 
 > **92%** of US developers use AI coding tools daily. **46%** of new code on GitHub is AI-generated. **78%** of organizations have integrated AI into core dev workflows. The AI coding assistant market is projected to reach **$8.5 billion by 2026**. Gartner forecasts **60%** of all new code will be AI-generated by end of 2026. Collins Dictionary named 'vibe coding' the **Word of the Year 2025**.
@@ -1100,15 +1132,63 @@ In that now-legendary post, Karpathy described his evolving relationship with wr
 > 
 >, Andrej Karpathy, February 2025
 
-This wasn't just a catchy phrase. It was the articulation of a profound shift that millions of developers had been feeling but couldn't name. Traditional programming forces human brains to perform an exhausting translation: converting abstract goals (*'I want a blue button that saves user data to a database'*) into highly specific, rigid machine syntax across multiple files of HTML, CSS, SQL, JavaScript, and configuration. This translation bridge is where traditional programming is slow, error-prone, and fundamentally exclusionary, gatekeeping software creation to those willing to spend years learning arcane syntax rules.
-
 *[Truncated. Read in full at the markdown URL above.]*
 
-## Full Blog Index (126 articles)
+## Full Blog Index (176 articles)
 
 Every published article. Fetch the markdown twin from the second link for full content.
 
-- 2026-08-21, [AP CSP vs AP CSA: Which Should You Take First?](https://learn.modernagecoders.com/blog/ap-csp-vs-ap-csa-which-to-take-first/), https://learn.modernagecoders.com/content/blog/generated/ap-csp-vs-ap-csa-which-to-take-first/index.md
+- 2026-09-28, [Area and Perimeter: The Difference, Explained Simply](https://learn.modernagecoders.com/blog/area-and-perimeter-difference/), https://learn.modernagecoders.com/content/blog/generated/area-and-perimeter-difference/index.md
+- 2026-09-28, [Big O Notation Explained Simply, With Real Code](https://learn.modernagecoders.com/blog/big-o-notation-explained-simply/), https://learn.modernagecoders.com/content/blog/generated/big-o-notation-explained-simply/index.md
+- 2026-09-28, [Binary Numbers Explained: Convert, Count and Add](https://learn.modernagecoders.com/blog/binary-numbers-explained/), https://learn.modernagecoders.com/content/blog/generated/binary-numbers-explained/index.md
+- 2026-09-28, [BODMAS Rule Explained: The Left to Right Step](https://learn.modernagecoders.com/blog/bodmas-rule-explained/), https://learn.modernagecoders.com/content/blog/generated/bodmas-rule-explained/index.md
+- 2026-09-28, [Coding Interview Preparation for Freshers: A Plan](https://learn.modernagecoders.com/blog/coding-interview-preparation-for-freshers/), https://learn.modernagecoders.com/content/blog/generated/coding-interview-preparation-for-freshers/index.md
+- 2026-09-28, [Conway's Game of Life in Python: Rules, Patterns and Code](https://learn.modernagecoders.com/blog/conways-game-of-life-python/), https://learn.modernagecoders.com/content/blog/generated/conways-game-of-life-python/index.md
+- 2026-09-28, [How Do Maps Find the Fastest Route? Dijkstra's Algorithm](https://learn.modernagecoders.com/blog/dijkstras-algorithm-fastest-route/), https://learn.modernagecoders.com/content/blog/generated/dijkstras-algorithm-fastest-route/index.md
+- 2026-09-28, [Do AI Detectors Work? What Students and Parents Should Know](https://learn.modernagecoders.com/blog/do-ai-detectors-work/), https://learn.modernagecoders.com/content/blog/generated/do-ai-detectors-work/index.md
+- 2026-09-28, [Estimation in Maths: Rounding, Fermi Problems and Checks](https://learn.modernagecoders.com/blog/estimation-in-maths/), https://learn.modernagecoders.com/content/blog/generated/estimation-in-maths/index.md
+- 2026-09-28, [Git vs GitHub: The Difference, With a Real Session](https://learn.modernagecoders.com/blog/git-vs-github-difference/), https://learn.modernagecoders.com/content/blog/generated/git-vs-github-difference/index.md
+- 2026-09-28, [How Are Passwords Stored? Hashing, Salting and Strength](https://learn.modernagecoders.com/blog/how-are-passwords-stored/), https://learn.modernagecoders.com/content/blog/generated/how-are-passwords-stored/index.md
+- 2026-09-28, [How Do Computers Store Images? Pixels, RGB and File Size](https://learn.modernagecoders.com/blog/how-do-computers-store-images/), https://learn.modernagecoders.com/content/blog/generated/how-do-computers-store-images/index.md
+- 2026-09-28, [How Do Search Engines Work? Build a Tiny One in Python](https://learn.modernagecoders.com/blog/how-do-search-engines-work/), https://learn.modernagecoders.com/content/blog/generated/how-do-search-engines-work/index.md
+- 2026-09-28, [How Do Spam Filters Work? Build a Simple One in Python](https://learn.modernagecoders.com/blog/how-do-spam-filters-work/), https://learn.modernagecoders.com/content/blog/generated/how-do-spam-filters-work/index.md
+- 2026-09-28, [How Does Encryption Work? From Caesar Ciphers to HTTPS](https://learn.modernagecoders.com/blog/how-does-encryption-work/), https://learn.modernagecoders.com/content/blog/generated/how-does-encryption-work/index.md
+- 2026-09-28, [How Does File Compression Work? RLE and Huffman in Python](https://learn.modernagecoders.com/blog/how-does-file-compression-work/), https://learn.modernagecoders.com/content/blog/generated/how-does-file-compression-work/index.md
+- 2026-09-28, [How Does GPS Work? Trilateration, Clocks and Relativity](https://learn.modernagecoders.com/blog/how-does-gps-work/), https://learn.modernagecoders.com/content/blog/generated/how-does-gps-work/index.md
+- 2026-09-28, [How Long Does It Take to Learn Python? (Real Hours)](https://learn.modernagecoders.com/blog/how-long-does-it-take-to-learn-python/), https://learn.modernagecoders.com/content/blog/generated/how-long-does-it-take-to-learn-python/index.md
+- 2026-09-28, [How to Calculate Percentages: Every Method Explained](https://learn.modernagecoders.com/blog/how-to-calculate-percentages/), https://learn.modernagecoders.com/content/blog/generated/how-to-calculate-percentages/index.md
+- 2026-09-28, [How to Explain Division to a Child: Share or Group](https://learn.modernagecoders.com/blog/how-to-explain-division-to-a-child/), https://learn.modernagecoders.com/content/blog/generated/how-to-explain-division-to-a-child/index.md
+- 2026-09-28, [How to Help a Child Understand Fractions](https://learn.modernagecoders.com/blog/how-to-help-a-child-understand-fractions/), https://learn.modernagecoders.com/content/blog/generated/how-to-help-a-child-understand-fractions/index.md
+- 2026-09-28, [How to Learn Times Tables Fast: The 21-Fact Method](https://learn.modernagecoders.com/blog/how-to-learn-times-tables-fast/), https://learn.modernagecoders.com/content/blog/generated/how-to-learn-times-tables-fast/index.md
+- 2026-09-28, [How to Make a Text Adventure Game in Python](https://learn.modernagecoders.com/blog/how-to-make-a-text-adventure-game-in-python/), https://learn.modernagecoders.com/content/blog/generated/how-to-make-a-text-adventure-game-in-python/index.md
+- 2026-09-28, [How to Solve Maths Word Problems (Without Keywords)](https://learn.modernagecoders.com/blog/how-to-solve-maths-word-problems/), https://learn.modernagecoders.com/content/blog/generated/how-to-solve-maths-word-problems/index.md
+- 2026-09-28, [How to Solve Quadratic Equations: 3 Methods with Examples](https://learn.modernagecoders.com/blog/how-to-solve-quadratic-equations/), https://learn.modernagecoders.com/content/blog/generated/how-to-solve-quadratic-equations/index.md
+- 2026-09-28, [How to Solve Simultaneous Equations: 3 Methods and Examples](https://learn.modernagecoders.com/blog/how-to-solve-simultaneous-equations/), https://learn.modernagecoders.com/content/blog/generated/how-to-solve-simultaneous-equations/index.md
+- 2026-09-28, [How to Start Learning Data Structures and Algorithms](https://learn.modernagecoders.com/blog/how-to-start-learning-data-structures-and-algorithms/), https://learn.modernagecoders.com/content/blog/generated/how-to-start-learning-data-structures-and-algorithms/index.md
+- 2026-09-28, [How to Use ChatGPT to Study Without Cheating](https://learn.modernagecoders.com/blog/how-to-use-chatgpt-to-study-without-cheating/), https://learn.modernagecoders.com/content/blog/generated/how-to-use-chatgpt-to-study-without-cheating/index.md
+- 2026-09-28, [How to Write a Maths Proof: A Beginner's Guide with Examples](https://learn.modernagecoders.com/blog/how-to-write-a-maths-proof/), https://learn.modernagecoders.com/content/blog/generated/how-to-write-a-maths-proof/index.md
+- 2026-09-28, [What JavaScript to Learn Before React (with Examples)](https://learn.modernagecoders.com/blog/javascript-to-learn-before-react/), https://learn.modernagecoders.com/content/blog/generated/javascript-to-learn-before-react/index.md
+- 2026-09-28, [Logic Gates for Beginners: AND, OR, NOT and a Binary Adder](https://learn.modernagecoders.com/blog/logic-gates-for-beginners/), https://learn.modernagecoders.com/content/blog/generated/logic-gates-for-beginners/index.md
+- 2026-09-28, [Long Division Step by Step: The Four-Move Method](https://learn.modernagecoders.com/blog/long-division-step-by-step/), https://learn.modernagecoders.com/content/blog/generated/long-division-step-by-step/index.md
+- 2026-09-28, [Mean, Median and Mode Explained, With Examples](https://learn.modernagecoders.com/blog/mean-median-mode-explained/), https://learn.modernagecoders.com/content/blog/generated/mean-median-mode-explained/index.md
+- 2026-09-28, [Modular Arithmetic: Clock Maths for Olympiads and Code](https://learn.modernagecoders.com/blog/modular-arithmetic-explained/), https://learn.modernagecoders.com/content/blog/generated/modular-arithmetic-explained/index.md
+- 2026-09-28, [Negative Numbers Explained: Rules and Reasons](https://learn.modernagecoders.com/blog/negative-numbers-explained/), https://learn.modernagecoders.com/content/blog/generated/negative-numbers-explained/index.md
+- 2026-09-28, [The Pigeonhole Principle: 4 Olympiad Problems Solved](https://learn.modernagecoders.com/blog/pigeonhole-principle-explained/), https://learn.modernagecoders.com/content/blog/generated/pigeonhole-principle-explained/index.md
+- 2026-09-28, [Place Value Explained: Blocks, Zero and Lakhs](https://learn.modernagecoders.com/blog/place-value-explained/), https://learn.modernagecoders.com/content/blog/generated/place-value-explained/index.md
+- 2026-09-28, [Prime Numbers Explained: Sieve, Factors and Proof](https://learn.modernagecoders.com/blog/prime-numbers-explained/), https://learn.modernagecoders.com/content/blog/generated/prime-numbers-explained/index.md
+- 2026-09-28, [Probability for Beginners: Rules, Examples and Simulations](https://learn.modernagecoders.com/blog/probability-for-beginners/), https://learn.modernagecoders.com/content/blog/generated/probability-for-beginners/index.md
+- 2026-09-28, [Pythagoras Theorem Explained, With a Visual Proof](https://learn.modernagecoders.com/blog/pythagoras-theorem-explained/), https://learn.modernagecoders.com/content/blog/generated/pythagoras-theorem-explained/index.md
+- 2026-09-28, [Python vs Java: Which Should You Learn First?](https://learn.modernagecoders.com/blog/python-vs-java-which-to-learn-first/), https://learn.modernagecoders.com/content/blog/generated/python-vs-java-which-to-learn-first/index.md
+- 2026-09-28, [Recursion Explained for Beginners, With a Call Trace](https://learn.modernagecoders.com/blog/recursion-explained-for-beginners/), https://learn.modernagecoders.com/content/blog/generated/recursion-explained-for-beginners/index.md
+- 2026-09-28, [SOH CAH TOA: Trigonometry for Beginners with Examples](https://learn.modernagecoders.com/blog/sohcahtoa-trigonometry-for-beginners/), https://learn.modernagecoders.com/content/blog/generated/sohcahtoa-trigonometry-for-beginners/index.md
+- 2026-09-28, [SQL or Python First? How to Choose for Your Goal](https://learn.modernagecoders.com/blog/sql-or-python-first/), https://learn.modernagecoders.com/content/blog/generated/sql-or-python-first/index.md
+- 2026-09-28, [Touch Typing for Kids: When to Start and How to Practise](https://learn.modernagecoders.com/blog/touch-typing-for-kids/), https://learn.modernagecoders.com/content/blog/generated/touch-typing-for-kids/index.md
+- 2026-09-28, [What Is an Algorithm? Simple Examples for Kids and Beginners](https://learn.modernagecoders.com/blog/what-is-an-algorithm/), https://learn.modernagecoders.com/content/blog/generated/what-is-an-algorithm/index.md
+- 2026-09-28, [What Is an API? Explained Simply, With a Real One](https://learn.modernagecoders.com/blog/what-is-an-api-explained-simply/), https://learn.modernagecoders.com/content/blog/generated/what-is-an-api-explained-simply/index.md
+- 2026-09-28, [Why Can I Understand Solutions but Not Solve Problems?](https://learn.modernagecoders.com/blog/why-can-i-understand-solutions-but-not-solve-problems/), https://learn.modernagecoders.com/content/blog/generated/why-can-i-understand-solutions-but-not-solve-problems/index.md
+- 2026-09-28, [Why Do AI Models Make Mistakes? 5 Reasons, Tested](https://learn.modernagecoders.com/blog/why-do-machine-learning-models-make-mistakes/), https://learn.modernagecoders.com/content/blog/generated/why-do-machine-learning-models-make-mistakes/index.md
+- 2026-09-28, [Why Is 0.1 + 0.2 Not 0.3? Floating Point in Python](https://learn.modernagecoders.com/blog/why-is-0-1-plus-0-2-not-0-3/), https://learn.modernagecoders.com/content/blog/generated/why-is-0-1-plus-0-2-not-0-3/index.md
+- 2026-08-21, [AP CSP vs AP CSA: Which Is Harder, and Which to Take First](https://learn.modernagecoders.com/blog/ap-csp-vs-ap-csa-which-to-take-first/), https://learn.modernagecoders.com/content/blog/generated/ap-csp-vs-ap-csa-which-to-take-first/index.md
 - 2026-08-21, [Cambridge 9618 Paper 4: Python, Java or Visual Basic?](https://learn.modernagecoders.com/blog/cambridge-9618-paper-4-python-java-or-visual-basic/), https://learn.modernagecoders.com/content/blog/generated/cambridge-9618-paper-4-python-java-or-visual-basic/index.md
 - 2026-08-21, [CCC Junior or Senior? How to Choose and How to Score](https://learn.modernagecoders.com/blog/canadian-computing-competition-junior-or-senior/), https://learn.modernagecoders.com/content/blog/generated/canadian-computing-competition-junior-or-senior/index.md
 - 2026-08-21, [How to Get a 5 in AP Computer Science A (2026)](https://learn.modernagecoders.com/blog/how-to-get-a-5-in-ap-computer-science-a/), https://learn.modernagecoders.com/content/blog/generated/how-to-get-a-5-in-ap-computer-science-a/index.md
@@ -1160,18 +1240,18 @@ Every published article. Fetch the markdown twin from the second link for full c
 - 2026-07-03, [Star Pattern Programs in Python: 30 Patterns With Code](https://learn.modernagecoders.com/blog/star-pattern-programs-in-python/), https://learn.modernagecoders.com/content/blog/generated/star-pattern-programs-in-python/index.md
 - 2026-07-02, [How to Find HCF and LCM in Python (5 Easy Methods)](https://learn.modernagecoders.com/blog/how-to-find-hcf-and-lcm-in-python/), https://learn.modernagecoders.com/content/blog/generated/how-to-find-hcf-and-lcm-in-python/index.md
 - 2026-07-02, [Top 20 Java Programs for ICSE Class 10 (With Code)](https://learn.modernagecoders.com/blog/top-20-java-programs-for-icse-class-10/), https://learn.modernagecoders.com/content/blog/generated/top-20-java-programs-for-icse-class-10/index.md
-- 2026-04-15, [How to Write a Leap Year Program in Python (3 Simple Methods)](https://learn.modernagecoders.com/blog/how-to-write-a-leap-year-program-in-python/), https://learn.modernagecoders.com/content/blog/generated/how-to-write-a-leap-year-program-in-python/index.md
+- 2026-04-15, [Leap Year Program in Python: Logic, Code and Output](https://learn.modernagecoders.com/blog/how-to-write-a-leap-year-program-in-python/), https://learn.modernagecoders.com/content/blog/generated/how-to-write-a-leap-year-program-in-python/index.md
 - 2026-04-14, [Modern Age Coders Certificate: Earned, Not Given](https://learn.modernagecoders.com/blog/modern-age-coders-certificate-earned-not-given/), https://learn.modernagecoders.com/content/blog/generated/modern-age-coders-certificate-earned-not-given/index.md
 - 2026-04-12, [How to Read and Write Files in Python (The Complete Guide)](https://learn.modernagecoders.com/blog/how-to-read-and-write-files-in-python/), https://learn.modernagecoders.com/content/blog/generated/how-to-read-and-write-files-in-python/index.md
 - 2026-04-07, [Best Byju's Alternative for Kids and Teens in India (2026) - Live Classes, Coding + Maths](https://learn.modernagecoders.com/blog/best-byjus-alternative/), https://learn.modernagecoders.com/content/blog/generated/best-byjus-alternative/index.md
 - 2026-04-07, [Best Online CBSE Maths Tuition for Class 6-12 in India (2026 Guide)](https://learn.modernagecoders.com/blog/cbse-maths-tuition-online/), https://learn.modernagecoders.com/content/blog/generated/cbse-maths-tuition-online/index.md
 - 2026-04-07, [Best Data Science Courses in India for Students and Professionals in 2026](https://learn.modernagecoders.com/blog/data-science-course-india/), https://learn.modernagecoders.com/content/blog/generated/data-science-course-india/index.md
-- 2026-04-07, [How to Build a Menu Driven Program in Python (Step-by-Step Guide)](https://learn.modernagecoders.com/blog/how-to-build-menu-driven-program-in-python/), https://learn.modernagecoders.com/content/blog/generated/how-to-build-menu-driven-program-in-python/index.md
+- 2026-04-07, [Menu Driven Program in Python (With a Daily Menu Script)](https://learn.modernagecoders.com/blog/how-to-build-menu-driven-program-in-python/), https://learn.modernagecoders.com/content/blog/generated/how-to-build-menu-driven-program-in-python/index.md
 - 2026-04-07, [STEM Education for Girls in India: Breaking Barriers and Building Futures](https://learn.modernagecoders.com/blog/stem-education-for-girls-india/), https://learn.modernagecoders.com/content/blog/generated/stem-education-for-girls-india/index.md
-- 2026-03-29, [30+ Python Basic Programs for Beginners to Practice in 2026](https://learn.modernagecoders.com/blog/python-basic-programs-for-beginners/), https://learn.modernagecoders.com/content/blog/generated/python-basic-programs-for-beginners/index.md
+- 2026-03-29, [35 Basic Python Programs for Beginners, With Code and Output](https://learn.modernagecoders.com/blog/python-basic-programs-for-beginners/), https://learn.modernagecoders.com/content/blog/generated/python-basic-programs-for-beginners/index.md
 - 2026-03-21, [Best WhiteHat Jr Alternative in 2026 - Why Parents Are Switching to Modern Age Coders](https://learn.modernagecoders.com/blog/whitehat-jr-alternative/), https://learn.modernagecoders.com/content/blog/generated/whitehat-jr-alternative/index.md
 - 2026-03-18, [What is Vibe Coding? The Ultimate Deep-Dive Guide to AI-Powered Development (2026)](https://learn.modernagecoders.com/blog/what-is-vibe-coding-future-of-software-development/), https://learn.modernagecoders.com/content/blog/generated/what-is-vibe-coding-future-of-software-development/index.md
-- 2026-01-24, [10 Best Free Platforms for Vibe Coding to Build Software Without Syntax](https://learn.modernagecoders.com/blog/best-free-platforms-for-vibe-coding/), https://learn.modernagecoders.com/content/blog/generated/best-free-platforms-for-vibe-coding/index.md
+- 2026-01-24, [10 Best Free Vibe Coding Platforms and Tools in 2026 (Updated September 2026)](https://learn.modernagecoders.com/blog/best-free-platforms-for-vibe-coding/), https://learn.modernagecoders.com/content/blog/generated/best-free-platforms-for-vibe-coding/index.md
 - 2026-01-23, [File Built-in Methods in Python: Complete Guide for Beginners](https://learn.modernagecoders.com/blog/file-built-in-methods-python-guide/), https://learn.modernagecoders.com/content/blog/generated/file-built-in-methods-python-guide/index.md
 - 2026-01-23, [File Types in Python: A Complete Beginner's Guide to Working with Different Files](https://learn.modernagecoders.com/blog/file-types-in-python-complete-guide/), https://learn.modernagecoders.com/content/blog/generated/file-types-in-python-complete-guide/index.md
 - 2026-01-23, [What Type of Data is Generative AI Most Suitable For? A Complete Guide](https://learn.modernagecoders.com/blog/what-type-of-data-is-generative-ai-most-suitable-for/), https://learn.modernagecoders.com/content/blog/generated/what-type-of-data-is-generative-ai-most-suitable-for/index.md
@@ -1180,20 +1260,20 @@ Every published article. Fetch the markdown twin from the second link for full c
 - 2026-01-20, [Agent Terminology in AI: A Simple Guide to Understanding AI Agents](https://learn.modernagecoders.com/blog/agentic-terminology-in-ai/), https://learn.modernagecoders.com/content/blog/generated/agentic-terminology-in-ai/index.md
 - 2026-01-20, [File Organization in Python: A Beginner's Guide to Managing Your Code Like a Pro](https://learn.modernagecoders.com/blog/file-organization-in-python/), https://learn.modernagecoders.com/content/blog/generated/file-organization-in-python/index.md
 - 2026-01-19, [What is Floor Division in Python? Complete Guide with Examples](https://learn.modernagecoders.com/blog/what-is-floor-division-in-python/), https://learn.modernagecoders.com/content/blog/generated/what-is-floor-division-in-python/index.md
-- 2026-01-19, [10 Best Java IDEs for Beginners: Complete Guide to Choosing Your First IDE](https://learn.modernagecoders.com/blog/best-java-ides-for-beginners/), https://learn.modernagecoders.com/content/blog/generated/best-java-ides-for-beginners/index.md
-- 2026-01-18, [Armstrong Number in Python, Code Examples & 5-Min Tutorial](https://learn.modernagecoders.com/blog/armstrong-number-python-complete-guide-examples-code/), https://learn.modernagecoders.com/content/blog/generated/armstrong-number-python-complete-guide-examples-code/index.md
+- 2026-01-19, [Best Java IDE for Beginners in 2026: 7 Free IDEs Compared](https://learn.modernagecoders.com/blog/best-java-ides-for-beginners/), https://learn.modernagecoders.com/content/blog/generated/best-java-ides-for-beginners/index.md
+- 2026-01-18, [Armstrong Number: Definition, Full List and Python Program](https://learn.modernagecoders.com/blog/armstrong-number-python-complete-guide-examples-code/), https://learn.modernagecoders.com/content/blog/generated/armstrong-number-python-complete-guide-examples-code/index.md
 - 2026-01-18, [Coding for 5-Year-Olds: How Young Kids Can Start Learning Programming?](https://learn.modernagecoders.com/blog/coding-for-5-year-olds-young-kids-start-learning-programming/), https://learn.modernagecoders.com/content/blog/generated/coding-for-5-year-olds-young-kids-start-learning-programming/index.md
-- 2026-01-18, [Coding for 6-Year-Olds: Best Ways to Introduce Programming at an Early Age](https://learn.modernagecoders.com/blog/coding-for-6-year-olds/), https://learn.modernagecoders.com/content/blog/generated/coding-for-6-year-olds/index.md
-- 2026-01-18, [Coding for 7-Year-Olds: What and How Kids Should Learn Programming](https://learn.modernagecoders.com/blog/coding-for-7-year-olds-what-how-kids-should-learn-programming/), https://learn.modernagecoders.com/content/blog/generated/coding-for-7-year-olds-what-how-kids-should-learn-programming/index.md
-- 2026-01-18, [Advantages of Functions in Python: Why Every Coder Should Use Them](https://learn.modernagecoders.com/blog/advantages-functions-python-why-every-coder-should-use-them/), https://learn.modernagecoders.com/content/blog/generated/advantages-functions-python-why-every-coder-should-use-them/index.md
+- 2026-01-18, [Coding for 6 Year Olds: How to Start, Best Tools, Session Length and a First Class](https://learn.modernagecoders.com/blog/coding-for-6-year-olds/), https://learn.modernagecoders.com/content/blog/generated/coding-for-6-year-olds/index.md
+- 2026-01-18, [Coding for 7 Year Olds: What to Learn, Best Platforms and the First Month](https://learn.modernagecoders.com/blog/coding-for-7-year-olds-what-how-kids-should-learn-programming/), https://learn.modernagecoders.com/content/blog/generated/coding-for-7-year-olds-what-how-kids-should-learn-programming/index.md
+- 2026-01-18, [Advantages of Functions in Python: 8 Benefits With Examples](https://learn.modernagecoders.com/blog/advantages-functions-python-why-every-coder-should-use-them/), https://learn.modernagecoders.com/content/blog/generated/advantages-functions-python-why-every-coder-should-use-them/index.md
 - 2026-01-18, [Java for Kids: Complete Kids Guide to Learning Java Programming in 2026](https://learn.modernagecoders.com/blog/java-for-kids-complete-guide-learning-programming-2026/), https://learn.modernagecoders.com/content/blog/generated/java-for-kids-complete-guide-learning-programming-2026/index.md
-- 2026-01-18, [30+ Scratch Project Ideas for Kids: Fun Coding Projects from Beginner to Advanced](https://learn.modernagecoders.com/blog/30-plus-scratch-project-ideas-kids-fun-coding-beginner-advanced/), https://learn.modernagecoders.com/content/blog/generated/30-plus-scratch-project-ideas-kids-fun-coding-beginner-advanced/index.md
+- 2026-01-18, [30+ Scratch Project Ideas for Kids: Starter Projects to Advanced Games, Step by Step](https://learn.modernagecoders.com/blog/30-plus-scratch-project-ideas-kids-fun-coding-beginner-advanced/), https://learn.modernagecoders.com/content/blog/generated/30-plus-scratch-project-ideas-kids-fun-coding-beginner-advanced/index.md
 - 2026-01-14, [What is Coding for Kids? A Parent's Complete Guide to Getting Started in 2026](https://learn.modernagecoders.com/blog/coding-for-kids-parents-complete-guide-2026/), https://learn.modernagecoders.com/content/blog/generated/coding-for-kids-parents-complete-guide-2026/index.md
-- 2025-12-14, [21 Best Coding Courses for Students 2026 (Free & Paid)](https://learn.modernagecoders.com/blog/best-free-paid-coding-courses-students/), https://learn.modernagecoders.com/content/blog/generated/best-free-paid-coding-courses-students/index.md
+- 2025-12-14, [Best Coding Courses Online for Students 2026-27: 21 Free and Paid Options Compared](https://learn.modernagecoders.com/blog/best-free-paid-coding-courses-students/), https://learn.modernagecoders.com/content/blog/generated/best-free-paid-coding-courses-students/index.md
 - 2025-12-14, [How Coding and Mathematics Work Together in Engineering & Science](https://learn.modernagecoders.com/blog/coding-mathematics-engineering-science/), https://learn.modernagecoders.com/content/blog/generated/coding-mathematics-engineering-science/index.md
 - 2025-12-14, [Custom Software vs Ready-Made Software: What Is Right for Your Business?](https://learn.modernagecoders.com/blog/custom-software-vs-ready-made-software/), https://learn.modernagecoders.com/content/blog/generated/custom-software-vs-ready-made-software/index.md
 - 2025-12-14, [Data Science, AI, and Math: Skills Every Tech Professional Must Learn](https://learn.modernagecoders.com/blog/data-science-ai-math-skills-professionals/), https://learn.modernagecoders.com/content/blog/generated/data-science-ai-math-skills-professionals/index.md
-- 2025-11-30, [Introduction: What is Blockly for Kids?](https://learn.modernagecoders.com/blog/what-is-blockly-for-kids/), https://learn.modernagecoders.com/content/blog/generated/what-is-blockly-for-kids/index.md
+- 2025-11-30, [What Is Blockly? Block Coding for Kids, Explained](https://learn.modernagecoders.com/blog/what-is-blockly-for-kids/), https://learn.modernagecoders.com/content/blog/generated/what-is-blockly-for-kids/index.md
 - 2025-10-01, [The Ultimate Guide to Teaching Kids Coding in 2025](https://learn.modernagecoders.com/blog/coding-for-kids-guide/), https://learn.modernagecoders.com/content/blog/generated/coding-for-kids-guide/index.md
 - 2025-09-28, [Learn Web Development with JavaScript - Basics, Projects & Hands-On Guide](https://learn.modernagecoders.com/blog/javascript-basics/), https://learn.modernagecoders.com/content/blog/generated/javascript-basics/index.md
 - 2025-09-25, [Learn Python for Beginners: Complete Step-by-Step Guide (2026)](https://learn.modernagecoders.com/blog/python-for-beginners/), https://learn.modernagecoders.com/content/blog/generated/python-for-beginners/index.md
@@ -1208,7 +1288,7 @@ Every published article. Fetch the markdown twin from the second link for full c
 - 2025-04-12, [Why Python is the Most Powerful Skill for Professionals Today](https://learn.modernagecoders.com/blog/why-python-most-powerful-skill-professionals-today/), https://learn.modernagecoders.com/content/blog/generated/why-python-most-powerful-skill-professionals-today/index.md
 - 2025-04-10, [How Schools and Parents Can Prepare Children for Future Tech Careers](https://learn.modernagecoders.com/blog/how-schools-parents-prepare-children-future-tech-careers/), https://learn.modernagecoders.com/content/blog/generated/how-schools-parents-prepare-children-future-tech-careers/index.md
 - 2025-04-08, [Why Early Exposure to Coding Gives Students a Competitive Advantage](https://learn.modernagecoders.com/blog/why-early-exposure-coding-gives-students-competitive-advantage/), https://learn.modernagecoders.com/content/blog/generated/why-early-exposure-coding-gives-students-competitive-advantage/index.md
-- 2025-04-05, [The Role of Mathematics in Programming and Logical Problem Solving](https://learn.modernagecoders.com/blog/role-of-mathematics-programming-logical-problem-solving/), https://learn.modernagecoders.com/content/blog/generated/role-of-mathematics-programming-logical-problem-solving/index.md
+- 2025-04-05, [Math in Programming: What You Need, Shown in Real Code](https://learn.modernagecoders.com/blog/role-of-mathematics-programming-logical-problem-solving/), https://learn.modernagecoders.com/content/blog/generated/role-of-mathematics-programming-logical-problem-solving/index.md
 - 2025-04-01, [How Coding Education is Changing the Future of India](https://learn.modernagecoders.com/blog/how-coding-education-changing-future-india/), https://learn.modernagecoders.com/content/blog/generated/how-coding-education-changing-future-india/index.md
 - 2025-03-28, [Why Every Business Needs a Website and Mobile App in 2025](https://learn.modernagecoders.com/blog/why-every-business-needs-website-mobile-app-2025/), https://learn.modernagecoders.com/content/blog/generated/why-every-business-needs-website-mobile-app-2025/index.md
 - 2025-03-25, [How Working Professionals Can Upskill with Coding Without Quitting Their Job](https://learn.modernagecoders.com/blog/working-professionals-upskill-coding-without-quitting-job/), https://learn.modernagecoders.com/content/blog/generated/working-professionals-upskill-coding-without-quitting-job/index.md
@@ -1218,10 +1298,10 @@ Every published article. Fetch the markdown twin from the second link for full c
 - 2025-03-18, [A Parent's Guide to Starting Coding Education at Home](https://learn.modernagecoders.com/blog/parents-guide-starting-coding-education-home/), https://learn.modernagecoders.com/content/blog/generated/parents-guide-starting-coding-education-home/index.md
 - 2025-03-16, [Robotics and Coding: How STEM Kits Build Logical Thinking](https://learn.modernagecoders.com/blog/robotics-coding-stem-kits-build-logical-thinking/), https://learn.modernagecoders.com/content/blog/generated/robotics-coding-stem-kits-build-logical-thinking/index.md
 - 2025-03-15, [Common Myths About Coding for School Students (And the Truth Behind Them)](https://learn.modernagecoders.com/blog/common-myths-about-coding-for-school-students/), https://learn.modernagecoders.com/content/blog/generated/common-myths-about-coding-for-school-students/index.md
-- 2025-03-14, [12 Best Coding Games for Kids (2026), Free & Fun to Play](https://learn.modernagecoders.com/blog/top-coding-games-platforms-make-learning-fun-kids/), https://learn.modernagecoders.com/content/blog/generated/top-coding-games-platforms-make-learning-fun-kids/index.md
-- 2025-03-12, [Scratch vs Python: Which is Better for Young Learners?](https://learn.modernagecoders.com/blog/scratch-vs-python-which-better-young-learners/), https://learn.modernagecoders.com/content/blog/generated/scratch-vs-python-which-better-young-learners/index.md
+- 2025-03-14, [Best Coding Games for Kids in 2026: 10 Picks by Age](https://learn.modernagecoders.com/blog/top-coding-games-platforms-make-learning-fun-kids/), https://learn.modernagecoders.com/content/blog/generated/top-coding-games-platforms-make-learning-fun-kids/index.md
+- 2025-03-12, [Scratch vs Python for Kids: The Difference and Which First](https://learn.modernagecoders.com/blog/scratch-vs-python-which-better-young-learners/), https://learn.modernagecoders.com/content/blog/generated/scratch-vs-python-which-better-young-learners/index.md
 - 2025-03-10, [How Learning Coding Improves Mathematical Thinking in Children](https://learn.modernagecoders.com/blog/how-coding-improves-mathematical-thinking-children/), https://learn.modernagecoders.com/content/blog/generated/how-coding-improves-mathematical-thinking-children/index.md
-- 2025-03-06, [Best Coding Languages for Kids Age 10-18-2026 Parent Guide](https://learn.modernagecoders.com/blog/best-coding-languages-kids-10-18-beginner-advanced/), https://learn.modernagecoders.com/content/blog/generated/best-coding-languages-kids-10-18-beginner-advanced/index.md
+- 2025-03-06, [Best Coding Languages for Kids and Teens by Age, 6 to 18: 2026-27 Parent Guide](https://learn.modernagecoders.com/blog/best-coding-languages-kids-10-18-beginner-advanced/), https://learn.modernagecoders.com/content/blog/generated/best-coding-languages-kids-10-18-beginner-advanced/index.md
 - 2025-03-05, [Why Coding is the New Literacy for Kids in 2025](https://learn.modernagecoders.com/blog/why-coding-is-new-literacy-kids-2025/), https://learn.modernagecoders.com/content/blog/generated/why-coding-is-new-literacy-kids-2025/index.md
 - 2025-03-01, [What is AI? Complete Beginner's Guide: How to Start, Which Languages, and How Deep to Go](https://learn.modernagecoders.com/blog/what-is-ai-complete-beginners-guide-how-to-start/), https://learn.modernagecoders.com/content/blog/generated/what-is-ai-complete-beginners-guide-how-to-start/index.md
 - 2025-02-25, [Top 10 Java Programs Every School Student Should Know (With Solutions)](https://learn.modernagecoders.com/blog/top-10-java-programs-for-school-students/), https://learn.modernagecoders.com/content/blog/generated/top-10-java-programs-for-school-students/index.md
@@ -1232,7 +1312,7 @@ Every published article. Fetch the markdown twin from the second link for full c
 - 2025-01-25, [10 Safe AI Tools Your Child Should Be Using for Homework in 2026](https://learn.modernagecoders.com/blog/safe-ai-tools-for-kids-homework-2025/), https://learn.modernagecoders.com/content/blog/generated/safe-ai-tools-for-kids-homework-2025/index.md
 - 2025-01-22, [Full Stack vs. AI Engineer: Which Career Path Pays More in India?](https://learn.modernagecoders.com/blog/full-stack-vs-ai-engineer-salary-india/), https://learn.modernagecoders.com/content/blog/generated/full-stack-vs-ai-engineer-salary-india/index.md
 - 2025-01-20, [The CBSE/ICSE Gap: What Schools Aren't Teaching About Tech (And How to Fill It)](https://learn.modernagecoders.com/blog/cbse-icse-gap-what-schools-not-teaching-about-tech/), https://learn.modernagecoders.com/content/blog/generated/cbse-icse-gap-what-schools-not-teaching-about-tech/index.md
-- 2025-01-18, [Minecraft vs. Roblox: Which One Actually Teaches Your Child to Code?](https://learn.modernagecoders.com/blog/minecraft-vs-roblox-which-teaches-kids-to-code/), https://learn.modernagecoders.com/content/blog/generated/minecraft-vs-roblox-which-teaches-kids-to-code/index.md
+- 2025-01-18, [Minecraft vs Roblox for Kids: Which Teaches Coding Better?](https://learn.modernagecoders.com/blog/minecraft-vs-roblox-which-teaches-kids-to-code/), https://learn.modernagecoders.com/content/blog/generated/minecraft-vs-roblox-which-teaches-kids-to-code/index.md
 - 2025-01-15, [Coding is the New English: Why 2026 is the Year to Start](https://learn.modernagecoders.com/blog/coding-is-the-new-english-why-2026-is-the-year-to-start/), https://learn.modernagecoders.com/content/blog/generated/coding-is-the-new-english-why-2026-is-the-year-to-start/index.md
 
 ## Contact & Channels

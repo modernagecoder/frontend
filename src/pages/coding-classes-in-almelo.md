@@ -4,37 +4,25 @@ description: "Live online coding, Python, AI and app classes for Almelo, ages 6 
 canonical: https://learn.modernagecoders.com/coding-classes-in-almelo
 source: src/pages/coding-classes-in-almelo.html
 ---
-> Almelo counted 75,166 residents on 1 January 2026, the national statistics record. Old documents show it had town rights by 1420 at the latest, Huis Almelo has probably stood since the twelfth century and is still owned by the Van Rechteren Limpurg family, and from the seventeenth century home weaving grew into the textile industry that made Twente. Weaving is where machines first read instructions from cards: Joseph-Marie Jacquard's loom of 1804 was controlled by cards punched with holes. A woven pattern is a grid of threads up and down, which is exactly how a computer stores a picture, and describing it by its runs is one of the oldest ways to compress data. Modern Age Coders teaches live online in English for ages 6 to 67; the first lesson is free, then USD 100 a month in a group or USD 150 one to one.
+> Live online coding, Python, AI and app classes for Almelo, ages 6 to 67, from the Binnenstad and De Riet to Aadorp and Bornerbroek. First lesson is free.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Almelo
-
-Almelo, Overijssel / Live online
-
-# Coding classes in Almelo, the weaving town, where a pattern becomes a program
-
-**What are the best coding classes in Almelo?** Almelo counted 75,166 residents on 1 January 2026, the national statistics record. Old documents show it had town rights by 1420 at the latest, Huis Almelo has probably stood since the twelfth century and is still owned by the Van Rechteren Limpurg family, and from the seventeenth century home weaving grew into the textile industry that made Twente. Weaving is where machines first read instructions from cards: Joseph-Marie Jacquard's loom of 1804 was controlled by cards punched with holes. A woven pattern is a grid of threads up and down, which is exactly how a computer stores a picture, and describing it by its runs is one of the oldest ways to compress data. Modern Age Coders teaches live online in English for ages 6 to 67; the first lesson is free, then USD 100 a month in a group or USD 150 one to one.
-
-Look closely at a woven cloth and the pattern is a grid. At every crossing a thread either passes over or under, and a row of the design can be written as a row of choices: over, over, over, under, under. Jacquard's loom, invented in 1804, read those choices from cards with holes, one card for each pass of the shuttle, so that a machine could weave a complicated pattern without a weaver deciding every thread. Almelo grew on weaving, first in homes and later in mills, and it is a good place to learn what the loom already knew. A picture on a screen is the same grid, with pixels instead of threads. A row such as over five times, under five times can be written far more briefly by counting the runs, and that trick, run-length encoding, still shrinks images and files today. It also has a limit worth learning early: some patterns get longer, not shorter, when you try to describe them this way.
-
-Facts last verified 11 September 2026. Teaching is online; no Almelo branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Almelo
 
 ## Four courses for the textile town of Twente
 
 A child in the Schelfhorst who wants to draw pixel art, a teenager in De Riet building a game with a tiled map, a student in the Binnenstad squeezing a dataset into less space, and an adult in Aadorp who wonders why some files will not compress at all. The first lesson is free for each of them.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Pixel pictures built square by square, where a child learns that every image is a grid of numbers.
-- [Game Development for Kids](/courses/game-development-masterclass-for-kids) (Ages 8 to 12): Tiled game maps stored as rows of numbers, then shortened by counting repeated tiles.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Typed Python that turns a pattern into runs and back again, and checks the copy matches the original.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Encoding and compression in Python, including measuring when a method helps and when it makes data bigger.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsPixel pictures built square by square, where a child learns that every image is a grid of numbers.See the syllabus](/courses/scratch-programming-complete-course)[![Game Development for Kids course thumbnail](/images/game-dev-kids.webp)Ages 8 to 12Game Development for KidsTiled game maps stored as rows of numbers, then shortened by counting repeated tiles.See the syllabus](/courses/game-development-masterclass-for-kids)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsTyped Python that turns a pattern into runs and back again, and checks the copy matches the original.See the syllabus](/courses/python-ai-kids-masterclass)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CourseEncoding and compression in Python, including measuring when a method helps and when it makes data bigger.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Almelo today
 
 ## Town rights by 1420, a house from the twelfth century, and the looms of Twente
 
@@ -52,21 +40,25 @@ In the seventeenth and eighteenth centuries home weaving grew steadily in Almelo
 
 The Overijssels Kanaal of 1855 and the Twentekanaal served the town's industry. Heracles Almelo has been national champion twice and has played at the highest level since 2006, except for the 2022 to 2023 season.
 
-**The Jacquard loom** The Jacquard loom was invented in 1804 by Joseph-Marie Jacquard. A card selects which of the hooks are caught and which are not, and so which threads are lifted, and originally the machines were controlled by cards with holes in them, according to the encyclopaedia entry for the loom. Almelo's own weaving began long before, in homes; the page uses the loom as the clearest picture of a pattern stored as data.
+The Jacquard loom
+
+The Jacquard loom was invented in 1804 by Joseph-Marie Jacquard. A card selects which of the hooks are caught and which are not, and so which threads are lifted, and originally the machines were controlled by cards with holes in them, according to the encyclopaedia entry for the loom. Almelo's own weaving began long before, in homes; the page uses the loom as the clearest picture of a pattern stored as data.
+
+A pattern as numbers
 
 ## Three rows of cloth, written two ways
 
 Each row below is ten threads wide. In the grid, 1 means the thread passes over and 0 means under. Run-length encoding writes each run as one pair: the value and how many times it repeats.
 
-**The same rows as a grid and as runs**
-
 | Row | As a grid of ten | As runs | Pairs needed |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | A broad stripe | 1111100000 | five 1s, then five 0s | 2 pairs for 10 cells |
 | A narrow stripe | 1110011100 | three 1s, two 0s, three 1s, two 0s | 4 pairs for 10 cells |
 | A checkerboard | 1010101010 | one 1, one 0, repeated ten times | 10 pairs for 10 cells |
 
 For the broad stripe, two pairs replace ten cells, a large saving. For the narrow stripe the saving is smaller. For the checkerboard, every run is one cell long, so run-length encoding needs ten pairs, and since each pair holds both a value and a count, the encoded row is larger than the grid it came from. This is not a flaw in one method. It is a rule of all compression: a method shrinks the patterns it was designed for and cannot shrink every possible pattern, because there are more long patterns than short descriptions to go round. That is why a photograph compresses well in one format and badly in another, why a file that is already compressed will not shrink again, and why choosing an encoding means knowing what the data looks like.
+
+Verified local facts
 
 ## Almelo in the national statistics
 
@@ -98,6 +90,8 @@ In 2025, 52,576 residents were of Dutch origin, 6,409 of European and 15,791 of 
 
 Modern Age Coders has no link with the municipality of Almelo, Huis Almelo, any textile firm, Heracles Almelo or any school in Twente, and the page implies none. The statistics are those published for Almelo for the years stated. The town rights, Huis Almelo, home weaving, the textile firms, the canals and the football club come from the encyclopaedia entry for Almelo, and the Jacquard loom from the entry for the loom. The Almelo entry gives 75,158 residents, a different source from the statistics, and the two are not combined.
 
+Signature project
+
 ## Weave a picture, then squeeze it
 
 A learner can build a whole compression experiment from a single woven pattern: store it, encode it, decode it, and measure what was saved.
@@ -114,10 +108,8 @@ Turn each row into runs, then write the program that turns runs back into a grid
 
 Count the space used before and after, for several patterns. Keep the results for the patterns that grew as well as the ones that shrank, and say which kinds of pattern the method suits.
 
-**Where run-length thinking still turns up**
-
 | Where | What repeats | How it is used | When it stops helping |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Simple images and icons | long runs of one colour | runs stored instead of every pixel | photographs full of fine detail |
 | Fax and scanned text | long stretches of white paper | runs of white and black encoded briefly | pages covered in grey tones |
 | Game maps | rows of the same tile | maps saved as tile and count | maps with a different tile at every step |
@@ -128,14 +120,14 @@ Count the space used before and after, for several patterns. Keep the results fo
 
 Every AI model is trained on data that has been stored, moved and read many times, and nearly all of it is compressed along the way: images, audio, text archives, the models themselves. The ideas underneath are the ones a learner meets with a woven row. A method works because the data has structure, long runs, repeated words, smooth colours, and it fails where the structure is missing. Modern tools also shrink models by storing their numbers with fewer digits, which is a lossy kind of compression, and the same question applies: what has been thrown away, and does it matter for the task? A learner who has watched a checkerboard double in size under an encoding meant for stripes will not be surprised when a clever method disappoints on the wrong data. Almelo's looms turned patterns into instructions long before anyone called them data, and the town is a fitting place to see that a pattern, a picture and a program are all, in the end, rows of choices.
 
+Reliable pipeline
+
 ## Five rules for storing and shrinking data
 
 For images, game maps, datasets, logs and model files. Worked through in the town that grew on weaving.
 
-**Encoding data with your eyes open**
-
 | Rule | How | Pitfall avoided | Result |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Know the pattern | Look at what repeats before choosing an encoding | A method mismatched to the data | An encoding that actually helps |
 | Round-trip test | Decode everything you encode and compare with the original | Silent corruption | Proven lossless storage |
 | Measure both ways | Record size before and after for varied samples | Assuming compression always saves | An honest picture of the gain |
@@ -156,14 +148,37 @@ A folder of work files compressed and measured by type. Adults are often surpris
 
 This section uses the encyclopaedia entries for Almelo and for the Jacquard loom as its setting, and standard computing knowledge for the rest. It says nothing about how any Almelo mill made its cloth.
 
+Learning ladder
+
 ## From a pixel picture on squared paper to measuring compression honestly
 
 The starting level is chosen in the free lesson by watching the learner at a real task. Age alone does not choose it, and neither does which wijk they live in.
 
-- **Ages 6 to 10: Pictures as grids** Children draw in squares and describe the picture by its runs. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Game Development for Kids](/courses/game-development-masterclass-for-kids)
-- **Ages 11 to 13: Encode, decode** Learners write both directions and check the copy is exact. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Stripes and checks** Teenagers find which patterns an encoding shrinks and which it grows. [App Development for Teens](/courses/complete-app-development-masterclass-for-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Lossy or not** Adults decide what a compression step may throw away, and check it. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Pictures as grids
+
+Children draw in squares and describe the picture by its runs.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Game Development for Kids](/courses/game-development-masterclass-for-kids)Ages 11 to 13
+
+### Encode, decode
+
+Learners write both directions and check the copy is exact.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Stripes and checks
+
+Teenagers find which patterns an encoding shrinks and which it grows.
+
+[App Development for Teens](/courses/complete-app-development-masterclass-for-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Lossy or not
+
+Adults decide what a compression step may throw away, and check it.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## An AI model is a very large pattern stored as numbers. Why should a teenager in Almelo learn how patterns are stored?
 
@@ -175,30 +190,139 @@ A learner who has woven a checkerboard into runs and watched it grow understands
 
 So the case for a child in Almelo learning to code in 2026 is not the town's textile past for its own sake. It is that someone who understands how patterns become numbers will be needed wherever AI systems are built from data that has to be stored, moved and shrunk. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Classes for Almelo, Aadorp and Bornerbroek
 
 The municipality reaches from the Binnenstad out to the villages of Aadorp and Bornerbroek, and a lesson taken from home is the same lesson in each of them.
 
-- **At home, wherever home is** A learner in Bornerbroek and a learner in the Hofkamp join at the same minute from their own homes. No evening drive into town and no wait at a door afterwards.
-- **School words stay in Dutch** Groep, brugklas, vmbo, havo, vwo and the profielkeuze are kept as Twente schools write them, while the explanation around them is in English.
-- **A proper first lesson** The free lesson is a real one on a real task. At the end the teacher suggests a level, a course and a weekly time, and asks for no payment details.
-- **A group at one stage** Fifteen to twenty learners who have reached the same point. Almelo has 10,821 residents under fifteen, and five who match on subject, level and hour are unusual in one town, so a group may bring in learners from other countries.
-- **Regio Noord breaks** Two lessons a week, about eight each month, at a fixed time, stopping for the regio Noord school holidays that Overijssel follows.
-- **Teachers a few hours ahead** The teachers are in India, three and a half hours ahead of Almelo in summer and four and a half in winter, so late-afternoon, evening and weekend-morning lessons all fit.
+### At home, wherever home is
 
-**Forty-one schools, three woonplaatsen, and one group online** Almelo has 29 primary establishments teaching 6,490 pupils and 12 secondary establishments teaching 5,802. Five learners matched on subject, stage and hour are far easier to find across every age from 6 to 67 and many countries than inside one municipality.
+A learner in Bornerbroek and a learner in the Hofkamp join at the same minute from their own homes. No evening drive into town and no wait at a door afterwards.
+
+### School words stay in Dutch
+
+Groep, brugklas, vmbo, havo, vwo and the profielkeuze are kept as Twente schools write them, while the explanation around them is in English.
+
+### A proper first lesson
+
+The free lesson is a real one on a real task. At the end the teacher suggests a level, a course and a weekly time, and asks for no payment details.
+
+### A group at one stage
+
+Fifteen to twenty learners who have reached the same point. Almelo has 10,821 residents under fifteen, and five who match on subject, level and hour are unusual in one town, so a group may bring in learners from other countries.
+
+### Regio Noord breaks
+
+Two lessons a week, about eight each month, at a fixed time, stopping for the regio Noord school holidays that Overijssel follows.
+
+### Teachers a few hours ahead
+
+The teachers are in India, three and a half hours ahead of Almelo in summer and four and a half in winter, so late-afternoon, evening and weekend-morning lessons all fit.
+
+Forty-one schools, three woonplaatsen, and one group online
+
+Almelo has 29 primary establishments teaching 6,490 pupils and 12 secondary establishments teaching 5,802. Five learners matched on subject, stage and hour are far easier to find across every age from 6 to 67 and many countries than inside one municipality.
+
+Fees
 
 ## What Almelo families pay
 
 All the prices, before anything is booked.
 
-- First class: USD 0. One real lesson on a real task, ending with a level and a course that suits it.
-- Group tuition: USD 100 a month. A month of lessons, usually eight, in a group of fifteen to twenty at one level.
-- Private tuition: USD 150 a month. A month of lessons, usually eight, taught to one learner alone.
+First class**USD 0**
+
+One real lesson on a real task, ending with a level and a course that suits it.
+
+Group tuition**USD 100**
+
+A month of lessons, usually eight, in a group of fifteen to twenty at one level.
+
+Private tuition**USD 150**
+
+A month of lessons, usually eight, taught to one learner alone.
 
 The fee is set in dollars and is the same for every country, with no euro list to weigh against it, so a family in Aadorp pays exactly what a family in De Riet pays. Nothing is charged until the free lesson has fixed a course and a time, and payment is then arranged through WhatsApp. The pricing page explains pauses, format changes and missed lessons.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Almelo.)Reviews
+
+## Six Google reviews, printed as written
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## What can the learner already do?
+
+The first task might be a pixel picture described by its runs, a small encoder and decoder that must give back the exact original, or a test of which patterns an encoding grows.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Almelo one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Almelo.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Almelo coding class questions
+
+The town, its weaving, its figures, and the lessons.
 
 ### What does the municipality of Almelo include?
 
@@ -240,10 +364,14 @@ The first lesson is free. After it, group tuition is USD 100 a month for two liv
 
 Fifteen to twenty, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
+Explore Twente and beyond
+
 ## Across Twente, and out to the rest of Overijssel
 
 East along the Twentekanaal, [coding classes in Hengelo](/coding-classes-in-hengelo) covers the metal town next door, and [Enschede](/coding-classes-in-enschede), the largest city of the province, has its own page. To the west lie [Deventer](/coding-classes-in-deventer) and the capital [Zwolle](/coding-classes-in-zwolle), and all 25 municipalities of the province are listed on [Overijssel](/coding-classes-in-overijssel). For machine learning from the start there is the [AI and Python Academy](/ai-and-python-academy-netherlands), and the whole series is on the [Netherlands coding hub](/coding-classes-in-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Almelo.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-almelo](https://learn.modernagecoders.com/coding-classes-in-almelo#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-almelo*

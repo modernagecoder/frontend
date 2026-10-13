@@ -4,34 +4,28 @@ description: "Help with the skills behind the HSC Software Engineering project i
 canonical: https://learn.modernagecoders.com/software-engineering-major-project-help-hsc
 source: src/pages/software-engineering-major-project-help-hsc.html
 ---
-> The Software engineering project is a Year 12 focus area of the NSW Software Engineering 11-12 Syllabus (2022). Students define and analyse a problem, research Waterfall, Agile and WAgile approaches, manage the project with tools such as Gantt charts, apply quality assurance and version control, then test, evaluate and report. The project must be the student's own work under NESA rules.
+> Help with the skills behind the HSC Software Engineering project in NSW: Agile, Waterfall, testing, version control and quality checks. We never write your project.
 
-[Home](/) / [Coding classes in Australia](/coding-classes-in-australia) / Software Engineering project
+In short
 
-New South Wales · Year 12 Software Engineering · Skills, not ghostwriting
+The Software engineering project is a Year 12 focus area of the NSW Software Engineering 11-12 Syllabus (2022). Students define and analyse a problem, research Waterfall, Agile and WAgile approaches, manage the project with tools such as Gantt charts, apply quality assurance and version control, then test, evaluate and report. The project must be the student's own work under NESA rules.
 
-# Software Engineering project help
-
-The Software Engineering project in Year 12 is where NSW students show they can run a piece of software work from a vague need to a tested, evaluated solution. It is meant to be hard in a particular way: not just writing code, but defining requirements, choosing a development approach, managing time, checking quality and responding to feedback. We teach every one of those skills. We do not do any of it for you.
-
-At a glance: Focus area: Software engineering project; Indicative hours: 30, in Year 12; Approaches studied: Waterfall, Agile, WAgile; Tools named: Gantt charts, collaboration tools; Practice required: Version control and backup; Integrity program: All My Own Work; We teach: Planning, testing, evaluation skills; We never: Write, edit, debug or review your project. Rated 4.9 across 547 Google reviews.
+Skills worth having first
 
 ## Three courses that build project skills
 
 Version control, then a full build cycle, then the problem solving that keeps a project moving.
 
-- [Version control with Git](/courses/git-github-version-control-course-for-teens): Commits, branches and history, the habit the syllabus names directly and the best evidence of steady, genuine work.
-- [A full build, end to end](/courses/full-stack-web-development-teens-masterclass): Front end, back end and database built in tested slices, on projects of our own, so the cycle is familiar before Year 12.
-- [Problem solving and testing](/courses/problem-solving-dsa-masterclass-teens): Algorithms, tracing and test design, the skills that turn a stuck project into a moving one.
+[![Git & GitHub Course for Teens course thumbnail](/images/git-github-teens.webp)  SEPR / 01 Version control with Git Commits, branches and history, the habit the syllabus names directly and the best evidence of steady, genuine work. Open the syllabus →](/courses/git-github-version-control-course-for-teens)[![Full Stack Web Development for Teens course thumbnail](/images/web-dev-teens.webp)  SEPR / 02 A full build, end to end Front end, back end and database built in tested slices, on projects of our own, so the cycle is familiar before Year 12. Open the syllabus →](/courses/full-stack-web-development-teens-masterclass)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)  SEPR / 03 Problem solving and testing Algorithms, tracing and test design, the skills that turn a stuck project into a moving one. Open the syllabus →](/courses/problem-solving-dsa-masterclass-teens)
+
+What the syllabus asks for
 
 ## Four stages inside the project focus area
 
 NESA organises the Software engineering project content into the stages below. The items are quoted from the Year 12 content on the NSW Curriculum site, checked on 7 October 2026.
 
-**Software engineering project: content by stage (selected items, NESA wording)**
-
 | Stage | Examples of what students do |
-|---|---|
+| --- | --- |
 | Identifying and defining | Define and analyse the requirements of a problem, including assessing scheduling and financial feasibility and defining boundaries |
 | Research and planning | Research and use the Waterfall and Agile approaches; research the WAgile approach; apply project management, including scheduling and tracking with Gantt charts |
 | Quality | Defining criteria on which quality will be judged; ensuring requirements are met using a continual checking process |
@@ -48,14 +42,14 @@ For the course as a whole, including the online HSC exam, see our [HSC Software 
 
 Source: [NSW Curriculum, Software Engineering 11-12, Year 12, Software engineering project](https://curriculum.nsw.edu.au/learning-areas/tas/software-engineering-11-12-2022/content/year-12/fa0beecd16). Checked on 7 October 2026.
 
+Development approaches
+
 ## Waterfall, Agile and the hybrid in between
 
 The syllabus asks students to research and use two approaches and research a third. The comparison below is our teaching summary, built on the points NESA lists for each.
 
-**Three approaches the project focus area names**
-
 | Approach | What NESA asks students to look at | Our one-line summary |
-|---|---|---|
+| --- | --- | --- |
 | Waterfall | Logical progression of steps through the life cycle; the stages of falling water; advantages and disadvantages; scale and types of developments | Finish each stage before the next begins |
 | Agile | Rate of developing a final solution; method tailoring; iteration workflow; scale and types of developments | Build in short cycles and adjust as you learn |
 | WAgile | Understanding it is a hybrid model; when and how intervention is applied during the life cycle; scale and types of developments | Plan like Waterfall, build in Agile cycles |
@@ -68,16 +62,16 @@ We teach these approaches on small projects of our own, so students experience a
 
 Version control fits every approach. Each commit is a dated, described step, and a history of steady commits is both good engineering and natural evidence that the work was built over time by the student.
 
+Quality assurance
+
 ## A traceability matrix catches the requirement nobody tested
 
 The syllabus asks for "ensuring requirements are met using a continual checking process". A requirements traceability matrix is a simple way to do exactly that: every requirement is linked to the design that meets it and the test that proves it.
 
 A worked example on an invented project of our own, a school library loan tracker. The table lists five requirements and checks each against a design element and a test.
 
-**Traceability matrix for an invented library loan tracker**
-
 | Requirement | Design element | Test case | Status |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | R1 Record a loan with a due date | Loans table and form | T1: add a loan, read it back | Passed |
 | R2 Flag loans more than 14 days overdue | Daily overdue check | T2: loan dated 15 days ago is flagged | Passed |
 | R3 Return a book and close the loan | Return button | T3: returned loan no longer listed | Passed |
@@ -92,14 +86,14 @@ The same matrix serves the evaluation stage. When the syllabus asks students to 
 
 In a student's own project, the requirements, design and tests are theirs to write. What we teach is the method, on examples like this one, so the student can build the matrix for their own work without help.
 
+Keeping it your own work
+
 ## The NESA rules around an assessed project
 
 These points come from NESA's All My Own Work page and official notice 34/26, read on 7 October 2026.
 
-**What NESA requires around authentic work**
-
 | Rule | What NESA says |
-|---|---|
+| --- | --- |
 | All My Own Work | To be eligible for entry into a Preliminary and/or HSC course, and for the award of the HSC, all students must complete AMOW or its equivalent |
 | What AMOW covers | Four topics, including what is and is not all your own work, plagiarism, acknowledging other people's work, and working honestly when getting help |
 | Notice 34/26 | Changes to the ACE Rules on take-home tasks, including rules on certifying HSC projects and on developing a school malpractice policy |
@@ -111,14 +105,14 @@ This protects the student. A project that reflects the student's own skill can b
 
 Sources: [NESA, All My Own Work](https://www.nsw.gov.au/education-and-training/nesa/hsc/all-my-own-work); [NESA official notice 34/26](https://www.nsw.gov.au/education-and-training/nesa/news/all/changes-ace-rules-take-home-tasks-artifical-intelligence). Checked on 7 October 2026.
 
+Skills in order
+
 ## Four skills to have before the project starts
 
 A project goes far more smoothly when these are already habits, built on practice projects rather than the assessed one.
 
-**Project skills, from first to last**
-
 | Order | Skill | Practised on |
-|---|---|---|
+| --- | --- | --- |
 | 1 | Writing testable requirements | Our invented briefs, one sentence per requirement |
 | 2 | Planning with a Gantt chart | A two-week practice build, updated daily |
 | 3 | Version control | Every practice project, with a commit per change |
@@ -127,63 +121,293 @@ A project goes far more smoothly when these are already habits, built on practic
 ### Common project trouble
 
 Scope is the usual problem: an idea that needs six months of work squeezed into far fewer hours. Practising scoping on a small brief teaches students to cut features before they cut quality.
+
 The second is late testing. Students who test only at the end discover problems when there is no time left to fix them.
 
 ### Beyond Year 12
 
 Every skill here is the daily work of professional software teams, and of university group projects.
+
 Students who want harder programming problems alongside the project can look at the [competitions calendar](/australian-coding-maths-and-ai-competitions-calendar), which includes the informatics olympiad.
+
+The catalogue
 
 ## Nine courses for project-ready students
 
 Grouped by the part of the project they prepare for. Each card opens a full syllabus.
 
+I
+
 ### Process skills
 
 Planning and version control
 
-- [Git and GitHub for teens](/courses/git-github-version-control-course-for-teens): Commits, branches and pull requests from the beginning.
-- [Problem solving for teens](/courses/problem-solving-dsa-masterclass-teens): Breaking problems down and tracing solutions.
-- [Competitive programming](/courses/competitive-programming-for-teens-course): Correct code under pressure, and testing edge cases.
+SEPR / P / 01
+
+#### Git and GitHub for teens
+
+Commits, branches and pull requests from the beginning.
+
+[Open the syllabus](/courses/git-github-version-control-course-for-teens)
+
+SEPR / P / 02
+
+#### Problem solving for teens
+
+Breaking problems down and tracing solutions.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
+
+SEPR / P / 03
+
+#### Competitive programming
+
+Correct code under pressure, and testing edge cases.
+
+[Open the syllabus](/courses/competitive-programming-for-teens-course)II
 
 ### Build skills
 
 Front end to back end
 
-- [Full stack web development](/courses/full-stack-web-development-teens-masterclass): A complete web application built in tested steps.
-- [Backend development](/courses/backend-coding-masterclass-for-teens): APIs, databases and error handling on the server.
-- [Python for teens](/courses/python-complete-masterclass-teens): The language many NSW projects use, from basics to classes.
+SEPR / B / 01
+
+#### Full stack web development
+
+A complete web application built in tested steps.
+
+[Open the syllabus](/courses/full-stack-web-development-teens-masterclass)
+
+SEPR / B / 02
+
+#### Backend development
+
+APIs, databases and error handling on the server.
+
+[Open the syllabus](/courses/backend-coding-masterclass-for-teens)
+
+SEPR / B / 03
+
+#### Python for teens
+
+The language many NSW projects use, from basics to classes.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)III
 
 ### Quality and security
 
 Making it trustworthy
 
-- [Cybersecurity for teens](/courses/cybersecurity-course-for-teens-ethical-defensive): Secure habits for code that handles real data.
-- [MySQL for teens](/courses/mysql-mastery-for-teens): Database design that stays correct as data grows.
-- [App development for teens](/courses/complete-app-development-masterclass-for-teens): Interfaces and state for students building apps.
+SEPR / Q / 01
+
+#### Cybersecurity for teens
+
+Secure habits for code that handles real data.
+
+[Open the syllabus](/courses/cybersecurity-course-for-teens-ethical-defensive)
+
+SEPR / Q / 02
+
+#### MySQL for teens
+
+Database design that stays correct as data grows.
+
+[Open the syllabus](/courses/mysql-mastery-for-teens)
+
+SEPR / Q / 03
+
+#### App development for teens
+
+Interfaces and state for students building apps.
+
+[Open the syllabus](/courses/complete-app-development-masterclass-for-teens)
+
+Our approach
 
 ## Lessons that build skills, never the project
 
 Our tutors teach from India, which runs four and a half hours behind Sydney in winter and five and a half hours behind during NSW daylight saving. A 5.30 pm Sydney lesson in summer starts at noon for the tutor, so after-school sessions are simple to arrange.
 
-- **Weekday after school** Weekly skill sessions through Year 11 and Year 12.
-- **Weekend workshops** A practice project built from brief to evaluation.
-- **Holiday blocks** Focused practice on one skill, such as testing.
+Weekday after school
 
-- **Our examples only** Every exercise uses invented briefs and our own code.
-- **Process made visible** Students keep a Gantt chart and commit history on every practice build.
-- **Testing as a habit** Each practice requirement gets a test before it gets code.
-- **Classes of fifteen to twenty** Students at one level, each presenting their practice work.
-- **One-to-one coaching** Private lessons on a single skill, never on assessed work.
-- **Clear boundaries** We do not write, edit, debug or review projects, and we promise no marks.
+Weekly skill sessions through Year 11 and Year 12.
+
+Weekend workshops
+
+A practice project built from brief to evaluation.
+
+Holiday blocks
+
+Focused practice on one skill, such as testing.
+
+### Our examples only
+
+Every exercise uses invented briefs and our own code.
+
+### Process made visible
+
+Students keep a Gantt chart and commit history on every practice build.
+
+### Testing as a habit
+
+Each practice requirement gets a test before it gets code.
+
+### Classes of fifteen to twenty
+
+Students at one level, each presenting their practice work.
+
+### One-to-one coaching
+
+Private lessons on a single skill, never on assessed work.
+
+### Clear boundaries
+
+We do not write, edit, debug or review projects, and we promise no marks.
+
+Student work
+
+## Projects our students have published
+
+Personal projects, never school assessment. More are in our [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 A monthly fee in US dollars, set at one level for every family outside India. Joining is free and only the current month is ever charged.
 
-- Free first class: USD 0. A real lesson on a project skill. Honest advice on what to learn next. No card details.
-- Group batch: USD 100 a month. Fifteen to twenty students per class. One tutor through the term. Practice projects reviewed. A certificate at the end.
-- One to one: USD 150 a month. Private skill coaching. Focused on one weak area. Strictly no assessed work.
+Free first class
+
+USD 0
+
+no card required
+
+- A real lesson on a project skill
+- Honest advice on what to learn next
+- No card details
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students per class
+- One tutor through the term
+- Practice projects reviewed
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- Private skill coaching
+- Focused on one weak area
+- Strictly no assessed work
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Word for word from Google, as our students and parents wrote them.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about project help
 
 ## What Software Engineering students ask
 
@@ -227,15 +451,54 @@ No. The project and its mark belong to the student. We teach the skills that mak
 
 Requirements writing, planning approaches, Gantt charts, Git, testing methods, traceability and evaluation reports, all practised on our own small projects.
 
+Related pages
+
 ## More for NSW computing students
 
-- [HSC Software Engineering](/hsc-software-engineering-help): The whole course and its online exam.
-- [HSC Enterprise Computing](/hsc-enterprise-computing-help): The data and systems course, with its own project.
-- [Choosing computing subjects](/choosing-year-11-computing-subjects-australia): Comparing the options before Year 11.
-- [Understand the code](/understand-the-code-dont-copy-paste-australia): Why copied code fails you later.
-- [Coding classes in Australia](/coding-classes-in-australia): All our Australian pages.
-- [How we teach](/how-we-teach): How a lesson runs, plainly.
+The full course, the other computing course, and subject choices.
 
-## Contact
+### [HSC Software Engineering](/hsc-software-engineering-help)
 
-Book the free first class at [https://learn.modernagecoders.com/software-engineering-major-project-help-hsc](https://learn.modernagecoders.com/software-engineering-major-project-help-hsc#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The whole course and its online exam.
+
+### [HSC Enterprise Computing](/hsc-enterprise-computing-help)
+
+The data and systems course, with its own project.
+
+### [Choosing computing subjects](/choosing-year-11-computing-subjects-australia)
+
+Comparing the options before Year 11.
+
+### [Understand the code](/understand-the-code-dont-copy-paste-australia)
+
+Why copied code fails you later.
+
+### [Coding classes in Australia](/coding-classes-in-australia)
+
+All our Australian pages.
+
+### [How we teach](/how-we-teach)
+
+How a lesson runs, plainly.
+
+Start here
+
+## Book a free project-skills lesson
+
+Say which skill feels weakest, planning, Git, testing or evaluation, and we will teach it in the free lesson on a practice project of our own.
+
+Want to read first? Course outlines are on the [course atlas](/course-atlas), our method is on [how we teach](/how-we-teach), and the wider course is covered on our [Software Engineering page](/hsc-software-engineering-help).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20class%20on%20project%20skills%20for%20HSC%20Software%20Engineering.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp gets the quickest answer. The +91 number is Indian because the school runs from India; we have no office in NSW.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/software-engineering-major-project-help-hsc*

@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes in Amersfoort for ages 6
 canonical: https://learn.modernagecoders.com/coding-classes-in-amersfoort
 source: src/pages/coding-classes-in-amersfoort.html
 ---
-> Coding classes in Amersfoort serve 163,764 people (Statistics Netherlands, 1 January 2026), the second city of the province of Utrecht and the sixteenth municipality of the country. Every surveyed point in the Netherlands is measured from the Onze-Lieve-Vrouwetoren here. It used to be zero by zero; around 1970 the origin was shifted outside the country for practical reasons, and the tower now carries the coordinates 155,000 by 463,000 exactly, without having moved a centimetre. Modern Age Coders teaches live online in English across the municipality, ages 6 to 67, first lesson free, then USD 100 a month in a group of fifteen to twenty or USD 150 one-to-one.
+> Live online coding, Python and AI classes in Amersfoort for ages 6 to 67, in Vathorst, Nieuwland, Hoogland and Hooglanderveen. First lesson free, then one flat fee.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Amersfoort
-
-Amersfoort, province of Utrecht / Live online
-
-# Coding classes in Amersfoort, where the origin of the map moved and the tower stayed still
-
-**What are the best coding classes in Amersfoort?** Coding classes in Amersfoort serve 163,764 people (Statistics Netherlands, 1 January 2026), the second city of the province of Utrecht and the sixteenth municipality of the country. Every surveyed point in the Netherlands is measured from the Onze-Lieve-Vrouwetoren here. It used to be zero by zero; around 1970 the origin was shifted outside the country for practical reasons, and the tower now carries the coordinates 155,000 by 463,000 exactly, without having moved a centimetre. Modern Age Coders teaches live online in English across the municipality, ages 6 to 67, first lesson free, then USD 100 a month in a group of fifteen to twenty or USD 150 one-to-one.
-
-A tower in the middle of this city is the reference point for the national coordinate grid. For most of the grid's life the tower was the origin, so its coordinates were zero and zero. Then the origin was moved out beyond the border so that nowhere in the Netherlands would need a negative number, and overnight the same stones acquired the coordinates 155,000 by 463,000. Nothing was rebuilt. If a program holds one point in the old numbering and another in the new, it will calmly report that two neighbours are 489 kilometres apart.
-
-Facts last verified 7 September 2026. Teaching is online; no Amersfoort branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Amersfoort
 
 ## Four courses for a city that the rest of the country measures itself against
 
 A groep 5 child in Vathorst, a teenager in Nieuwland who wants the algorithm and not just the framework, a student commuting to Utrecht, and a parent in Hoogland whose team has just been handed a mapping dataset: four doors into one city.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 8 to 12): Logic, coordinates and the habit of checking an answer, in English, for the groep 5 to 8 child who likes puzzles with a right answer.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Two years from a first line to real projects, for the teenager whose school offers no route into programming.
-- [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college) (College and adult): Complexity, structures and interview-ready problem solving, for the student who wants to know why a solution is chosen.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Adults): Python from nothing to advanced, live, for the working parent who has decided to stop waiting for somebody else to write the script.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 8 to 12Problem Solving and Computational Thinking for KidsLogic, coordinates and the habit of checking an answer, in English, for the groep 5 to 8 child who likes puzzles with a right answer.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensTwo years from a first line to real projects, for the teenager whose school offers no route into programming.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Structures & Algorithms Course course thumbnail](/images/dsa-college.webp)College and adultData Structures & Algorithms CourseComplexity, structures and interview-ready problem solving, for the student who wants to know why a solution is chosen.See the syllabus](/courses/data-structures-algorithms-masterclass-college)[![Python Masterclass course thumbnail](/images/python-college.webp)AdultsPython MasterclassPython from nothing to advanced, live, for the working parent who has decided to stop waiting for somebody else to write the script.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Amersfoort today
 
 ## The second city of its province, and the fastest grower among them
 
@@ -52,7 +40,11 @@ The national register held 163,764 people on 1 January 2026, in 73,602 household
 
 Its own entry places Amersfoort as the second city of the province of Utrecht and the sixteenth municipality of the Netherlands. It received city rights on 12 June 1259, and the medieval core still shows it: the Koppelpoort, a combined land and water gate, is one of the gates built between 1380 and 1451.
 
-**Lange Jan, and the grid that starts here** The Onze-Lieve-Vrouwetoren, known as Lange Jan, stands 98 metres tall and is the third-highest church tower in the country. It is also the central point of the coordinate system of the Rijksdriehoeksmeting, the national triangulation survey, which means that every surveyed position in the Netherlands is expressed relative to this one building in this one city.
+Lange Jan, and the grid that starts here
+
+The Onze-Lieve-Vrouwetoren, known as Lange Jan, stands 98 metres tall and is the third-highest church tower in the country. It is also the central point of the coordinate system of the Rijksdriehoeksmeting, the national triangulation survey, which means that every surveyed position in the Netherlands is expressed relative to this one building in this one city.
+
+Where the learners are
 
 ## Thirty-three wijken, two villages, and a city that doubled outwards
 
@@ -84,6 +76,8 @@ The smaller of the two villages, north-east beyond Vathorst, close enough to the
 
 All thirty-three wijken and both villages get the same class at the same hour, and none of those boundaries has ever affected placement.
 
+Verified local facts
+
 ## Every figure, its office, and the exact wording on the origin
 
 The national count, the municipal entry, the tower, the gate, and the sentence that the project below rests on.
@@ -114,6 +108,8 @@ This page does not state why the particular values 155,000 and 463,000 were chos
 
 Modern Age Coders has no connection to the municipality, the survey, the tower or any school named here and claims none. They appear because a page that teaches in Amersfoort should know what the rest of the country measures from.
 
+Signature project
+
 ## Two neighbours, 489 kilometres apart: build the program that catches a mixed coordinate system
 
 One tower, two numberings, a constant offset, and an error that looks like a plausible distance until you check the scale.
@@ -130,10 +126,8 @@ A point 700 metres west and 300 metres south of the tower is at minus 700, minus
 
 Now take the tower in old coordinates and the neighbour in new ones, and compute the distance between them. The answer is about 489 kilometres, which is roughly the length of the country. It is not an error message, it is not a negative number and it is not obviously absurd on a screen. That is exactly what makes it dangerous.
 
-**One tower, one neighbour, and what each numbering says**
-
 | Quantity | Old numbering | Current numbering | Changed by the shift? |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | The tower | 0, 0 | 155,000, 463,000 | yes, by the offset |
 | A point 700 m west and 300 m south | minus 700, minus 300 | 154,300, 462,700 | yes, by the same offset |
 | Distance between those two points | 762 metres | 762 metres | no |
@@ -143,14 +137,14 @@ Now take the tower in old coordinates and the neighbour in new ones, and compute
 
 An absolute coordinate is only meaningful once you say which origin it is measured from, and origins are chosen by committees for practical reasons, moved when the reasons change, and rarely recorded in the same file as the numbers. What survives a change of origin is every quantity built from differences: distances, areas, bearings, shapes. What does not survive is any statement about a single point on its own. The practical rule is to carry the name of the system alongside every coordinate, refuse to combine two points whose systems differ, and use a sanity check on scale, because a wrong answer here arrives as a number rather than as an error. This is not the same as a datum that drifts underneath a measurement; here nothing moved and nothing drifted. Somebody added a constant, and every absolute value in the country changed with it. The figures in the table were computed before this paragraph was written, from the two published coordinates of the tower.
 
+Reliable pipeline
+
 ## Five habits for any value that is measured from somewhere
 
 Grid references, timestamps counted from an epoch, temperatures in one scale or another, financial figures indexed to a base year, version numbers: all of them are offsets from a choice that somebody made once. Practised on the tower this city is known for.
 
-**When a number is a position rather than an amount**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Name the system | Store the reference system beside every coordinate or timestamp | Two points from different grids subtracted | Values that can be combined safely |
 | Refuse mixed operations | Make the code raise an error when systems differ, rather than converting silently | A 489-kilometre answer with no warning | Failure that is loud instead of quiet |
 | Prefer differences | Build results from subtractions, which survive a change of origin | A conclusion that breaks when the origin moves | Answers that outlive the convention |
@@ -171,14 +165,37 @@ The same audit on something at work that is measured from an epoch: timestamps i
 
 The population, household, area, school, tower and city-rights figures come from the offices and entries named beside them. The 762 metres, the 489 kilometres and the converted coordinates are this page's arithmetic on the two published positions of the tower, and the illustrative neighbouring point is a worked example rather than a real address.
 
+Learning ladder
+
 ## From squared paper to an operator that refuses to mix two grids
 
 The starting rung is decided in the free hour, and no part of the decision involves the wijk.
 
-- **Ages 6 to 10: Move the zero** Children write down where their desks are, watch the origin move, and see what stayed the same. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 11 to 13: Coordinates and differences** Learners convert between two numberings and prove that distances do not change. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 14 to 18: Types that carry their system** Teenagers build a point that knows its grid and an operator that refuses to cross grids. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Epochs and base years at work** Adults audit a file for two reference systems living side by side without a label. [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Ages 6 to 10
+
+### Move the zero
+
+Children write down where their desks are, watch the origin move, and see what stayed the same.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 11 to 13
+
+### Coordinates and differences
+
+Learners convert between two numberings and prove that distances do not change.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### Types that carry their system
+
+Teenagers build a point that knows its grid and an operator that refuses to cross grids.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Epochs and base years at work
+
+Adults audit a file for two reference systems living side by side without a label.
+
+[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)Coding and AI
 
 ## An AI will compute the distance between two coordinates without asking which grid they are on. Why should a child in Amersfoort learn to ask?
 
@@ -190,30 +207,139 @@ That is why the learner builds the type that carries its system and the operator
 
 The case for a child in Amersfoort learning to code in 2026 is therefore not about surveying. It is that a great many numbers are positions rather than amounts, that positions mean nothing without a stated reference, and that the cheapest way to learn it permanently is to move the origin of the country's own grid and watch every coordinate change while the tower stands still. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for a city that grew outwards in rings
 
 Vathorst to the old centre is a real ride for a ten-year-old on a winter evening, and Hooglanderveen is further still. The lesson removes the ride.
 
-- **Nothing to cycle to in the dark** The class runs at the kitchen table in Vathorst, Hoogland or the old centre at one fixed hour every week, in December as readily as in May.
-- **English for the teaching, Dutch for the school words** Instruction is in English. Groep, havo, vwo and profielkeuze stay Dutch, because those are the words on the child's timetable, and nothing is translated in either direction.
-- **What the first hour produces** Work pitched at the level the learner is genuinely at, the name of a course that follows from it, and a weekly slot. No payment details are needed for any of that.
-- **Level, not address, decides the group** Two learners at the same stage work together whether one is in Hooglanderveen and the other in Kattenbroek; two at different stages do not.
-- **Two lessons a week, on the middle calendar** Usually eight lessons a month at a fixed time. Amersfoort takes its school holidays with regio Midden, along with the rest of the province of Utrecht, and holiday weeks go into the plan before the slot is fixed.
-- **Three and a half hours, or four and a half** The Dutch clock shifts twice a year and the Indian one never does, so the gap to the teacher depends on the month. Slots run from the end of the school day into the evening, and both weekend days are open.
+### Nothing to cycle to in the dark
 
-**The fastest-growing city in this series, and the schools show it** Amersfoort has added 51,375 people since 1995, a rise of 46 percent, and the new districts are full of primary-age children. A class that scales by adding a group at a new hour, rather than by finding a room, is well suited to a city whose demand is growing faster than its buildings.
+The class runs at the kitchen table in Vathorst, Hoogland or the old centre at one fixed hour every week, in December as readily as in May.
+
+### English for the teaching, Dutch for the school words
+
+Instruction is in English. Groep, havo, vwo and profielkeuze stay Dutch, because those are the words on the child's timetable, and nothing is translated in either direction.
+
+### What the first hour produces
+
+Work pitched at the level the learner is genuinely at, the name of a course that follows from it, and a weekly slot. No payment details are needed for any of that.
+
+### Level, not address, decides the group
+
+Two learners at the same stage work together whether one is in Hooglanderveen and the other in Kattenbroek; two at different stages do not.
+
+### Two lessons a week, on the middle calendar
+
+Usually eight lessons a month at a fixed time. Amersfoort takes its school holidays with regio Midden, along with the rest of the province of Utrecht, and holiday weeks go into the plan before the slot is fixed.
+
+### Three and a half hours, or four and a half
+
+The Dutch clock shifts twice a year and the Indian one never does, so the gap to the teacher depends on the month. Slots run from the end of the school day into the evening, and both weekend days are open.
+
+The fastest-growing city in this series, and the schools show it
+
+Amersfoort has added 51,375 people since 1995, a rise of 46 percent, and the new districts are full of primary-age children. A class that scales by adding a group at a new hour, rather than by finding a room, is well suited to a city whose demand is growing faster than its buildings.
+
+Fees
 
 ## The fee, in dollars, in every wijk and both villages
 
 Published here rather than kept for a phone call.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 A single international rate applies, quoted in dollars and never in euros, so Hooglanderveen is charged exactly what the old centre is. Money changes hands only after the free lesson has produced a course and a timetable, and it changes hands over WhatsApp. Pausing, changing plan and missing a week are described on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Amersfoort.)Reviews
+
+## Six families, in the words they left on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us the level; the wijk number can wait
+
+The first task might be squared paper with the zero in a new place, a point class in Python that refuses to be subtracted from a different grid, or a spreadsheet at work holding two reference systems with nothing to tell them apart.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Amersfoort one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Amersfoort.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Amersfoort coding class questions
+
+The city, its tower, its districts, the teaching and the terms.
 
 ### Why is a coding page talking about the national grid?
 
@@ -255,10 +381,14 @@ The first lesson is free. Group tuition is USD 100 a month for two live lessons 
 
 Between five and ten, matched on level, pace and goal rather than on age, school or district. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.
 
+Explore the Netherlands
+
 ## South-west to the city, east to the Veluwe, and up to the country
 
 Amersfoort is the second city of the [province of Utrecht](/coding-classes-in-utrecht-province), whose page is about superlatives that need a measure attached; the first is [Utrecht](/coding-classes-in-utrecht) itself, and east across the Veluwe is [Apeldoorn](/coding-classes-in-apeldoorn). Every page in this series descends from the [Netherlands coding hub](/coding-classes-in-netherlands), and for machine learning rather than software the doors are [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) and the [AI and Python Academy](/ai-and-python-academy-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Amersfoort.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-amersfoort](https://learn.modernagecoders.com/coding-classes-in-amersfoort#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-amersfoort*

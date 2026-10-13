@@ -12,7 +12,7 @@ LILUAH · HOWRAH · LIVE ONLINE
 
 Modern Age Coders runs premium, 100% live online coding and mathematics classes for families across Liluah and the railway-workshop colony. Children learn Python, Java, AI/ML and school maths in live batches of 15 to 20, taught by full-time engineers and maths graduates, never pre-recorded videos. Liluah's multi-generational engineering DNA already values precision and logic; we channel exactly that mindset into real, working code, with zero commute over the Liluah overbridge.
 
-100% live, never pre-recordedSmall batches of 3–8ICSE Java/BlueJ + CBSE PythonFree demo · starts in 24 hours3–8Students per live batch~90 minCommute saved each class day6–67Ages we teach24 hrsFrom demo to first class[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)AT A GLANCE
+100% live, never pre-recordedBatches of 15–20ICSE Java/BlueJ + CBSE PythonFree demo · starts in 24 hours15–20Students per live batch~90 minCommute saved each class day6–67Ages we teach24 hrsFrom demo to first class[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)AT A GLANCE
 
 ## Coding & maths near Liluah: the essentials
 

@@ -4,34 +4,28 @@ description: "Online maths tutor for Adelaide, Reception to Year 12 and adults: 
 canonical: https://learn.modernagecoders.com/maths-tutor-adelaide
 source: src/pages/maths-tutor-adelaide.html
 ---
-> For Adelaide, Modern Age Coders offers live online maths tutoring from Reception through Year 12 and on to adult learners up to 67. Senior students are taught the four SACE subjects: Essential Mathematics, General Mathematics, Mathematical Methods and Specialist Mathematics. Every session is booked on the Adelaide clock, either privately or with fifteen to twenty classmates working at the same level, and a first session costs nothing.
+> Online maths tutor for Adelaide, Reception to Year 12 and adults: SACE Essential, General, Mathematical Methods and Specialist Mathematics, live in Adelaide time.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / Maths tutor in Adelaide
+Maths tutor in Adelaide, in brief
 
-Adelaide · Reception to SACE Stage 2 and adults · Online maths lessons
+For Adelaide, Modern Age Coders offers live online maths tutoring from Reception through Year 12 and on to adult learners up to 67. Senior students are taught the four SACE subjects: Essential Mathematics, General Mathematics, Mathematical Methods and Specialist Mathematics. Every session is booked on the Adelaide clock, either privately or with fifteen to twenty classmates working at the same level, and a first session costs nothing.
 
-# Maths tutor in Adelaide
-
-Adelaide's city centre has five squares, and a map shows that three of them, Light Square, Victoria Square and Hurtle Square, almost line up. Join them and you get a long, thin triangle. Ask Heron's formula, the well-known rule that finds an area from three side lengths, for its area using sides rounded to the nearest ten metres, and it answers zero. Measure more carefully and the area is 31,923 square metres. Why a respected formula fails so badly is a lovely piece of mathematics, and we work through it below. Our live online maths tutoring serves Adelaide learners from Reception to SACE Stage 2 and adults, in Adelaide time.
-
-At a glance: Ages: 6 to 67; Primary: Reception to Year 6; Secondary: Years 7 to 10; SACE: Essential, General, Methods, Specialist; Adults: Refreshers and bridging maths; How: Live video, private or five to ten; Time: Adelaide time, with daylight saving; City project: Triangles between the city squares. Rated 4.9 across 547 Google reviews.
+Where Adelaide learners often start
 
 ## Three maths courses for Adelaide
 
 Primary foundations, the geometry and algebra of the middle years, and senior calculus and statistics. Everything else is listed further down.
 
-- [Primary maths](/courses/elementary-mathematics-complete-masterclass): Reception to Year 6: number, fractions, shape and measurement, built on understanding.
-- [Maths for Years 7 to 10](/courses/comprehensive-middle-school-mathematics-mastery): Algebra, measurement and the geometry and trigonometry that triangles like ours need.
-- [Statistics and probability](/courses/statistics-probability-maths-course): For SACE students whose subject leans on data and chance, and adults who need statistics for study.
+[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  ADL / 1 Primary maths Reception to Year 6: number, fractions, shape and measurement, built on understanding. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  ADL / 2 Maths for Years 7 to 10 Algebra, measurement and the geometry and trigonometry that triangles like ours need. Open the syllabus →](/courses/comprehensive-middle-school-mathematics-mastery)[![Statistics & Probability course thumbnail](/images/statistics-probability-maths.webp)  ADL / 3 Statistics and probability For SACE students whose subject leans on data and chance, and adults who need statistics for study. Open the syllabus →](/courses/statistics-probability-maths-course)
+
+Reception to Year 12
 
 ## A maths tutor for Adelaide learners at every level
 
 South Australian schooling starts with Reception and finishes with the SACE. We teach each step, and adults who want to revisit any of them.
 
-**Levels and what lessons emphasise**
-
 | Stage | Years | Emphasis |
-|---|---|---|
+| --- | --- | --- |
 | Early years | Reception to Year 2 | Counting, adding and subtracting with understanding |
 | Primary | Years 3 to 6 | Multiplication, fractions, area and perimeter |
 | Middle school | Years 7 to 9 | Integers, algebra, angles and the first statistics |
@@ -51,14 +45,14 @@ Students who want to catch up, students who want more challenge, and adults who 
 
 The first free lesson tells us which applies.
 
+SACE mathematics
+
 ## The SACE maths subjects an Adelaide student can choose
 
 The SACE Board lists four mathematics subjects. Its description of Mathematical Methods is a good summary of what senior maths is for: Methods "develops an increasingly complex and sophisticated understanding of calculus and statistics."
 
-**SACE mathematics subjects (read on the SACE Board site, 13 October 2026)**
-
 | Subject | In general terms | Our detailed page |
-|---|---|---|
+| --- | --- | --- |
 | Essential Mathematics | Maths for everyday life, work and further training | This page |
 | General Mathematics | Applied maths: data, modelling and finance | This page |
 | Mathematical Methods | Calculus and statistics | [SACE Mathematical Methods](/sace-mathematical-methods-tutoring) |
@@ -80,16 +74,16 @@ Students in Year 10 who are unsure which subject to choose often find one diagno
 
 Source: SACE Board of South Australia, [Mathematical Methods overview](https://www.sace.sa.edu.au/web/mathematical-methods/overview), read 13 October 2026.
 
+An Adelaide worked example
+
 ## When Heron's formula says a triangle has no area
 
 Heron's formula finds the area of a triangle from its three sides alone. It is exact in theory. In practice, with rounded measurements, it can be disastrously wrong for thin triangles. Adelaide's squares show why.
 
 We took the position of each city square as the average of every mapped point carrying its name on OpenStreetMap, then joined squares into triangles. For each triangle we found the area two ways: from the coordinates (which is half base times height, done carefully) and from Heron's formula using the side lengths rounded to the nearest metre and to the nearest ten metres, as someone reading a map might.
 
-**Triangles between Adelaide's squares (our calculation from OpenStreetMap)**
-
-| Triangle | Sides in metres | Area from coordinates (m&sup2;) | Heron, sides to 1 m | Heron, sides to 10 m |
-|---|---|---|---|---|
+| Triangle | Sides in metres | Area from coordinates (m²) | Heron, sides to 1 m | Heron, sides to 10 m |
+| --- | --- | --- | --- | --- |
 | Light, Hindmarsh, Victoria | 692.1 / 682.5 / 1107.0 | 225,557 | 225,705 | 222,822 |
 | Light, Victoria, Hurtle | 733.2 / 1412.8 / 682.5 | 31,923 | 32,523 | 0 |
 | Hindmarsh, Victoria, Whitmore | 725.1 / 1416.9 / 692.1 | 10,309 | 0 | 0 |
@@ -118,10 +112,8 @@ Our square positions are averages of mapped points, not surveyed centres, so the
 
 Map data: OpenStreetMap contributors, ODbL.
 
-**Two ways to the same area, step by step for the fat triangle**
-
 | Step | Heron's formula | Coordinates |
-|---|---|---|
+| --- | --- | --- |
 | 1 | Measure the three sides | Write down the three corner positions |
 | 2 | Find s, half the perimeter | Take two edges as arrows from one corner |
 | 3 | Multiply s, s minus each side | Cross-multiply the arrows' components |
@@ -132,14 +124,14 @@ Neither method is wrong. Heron is perfect when only lengths are known and the tr
 
 Map positions come from [OpenStreetMap](https://www.openstreetmap.org/copyright) (ODbL), downloaded for this page on 13 October 2026; every centre, length and area above was worked out by us.
 
+Adelaide learners
+
 ## Greater Adelaide in the 2021 Census: who was learning
 
 These Census figures describe the learners a maths tutor in Adelaide might meet, from primary school to adult study.
 
-**Greater Adelaide, 2021 Census**
-
 | Measure | People |
-|---|---|
+| --- | --- |
 | Attending primary school | 117,510 |
 | Attending secondary school | 81,582 |
 | Attending vocational education, including TAFE | 31,492 |
@@ -164,6 +156,8 @@ Many are surprised how quickly it returns. A common first goal is the maths in a
 
 Source: ABS, [2021 Census QuickStats, Greater Adelaide](https://abs.gov.au/census/find-census-data/quickstats/2021/4GADE), read 13 October 2026, CC BY 4.0.
 
+Online in Adelaide time
+
 ## Live online maths lessons on Adelaide's clock
 
 Adelaide sits half an hour behind Sydney and uses daylight saving in summer, so it is four hours ahead of India in winter and five hours ahead in summer. We book everything in Adelaide time.
@@ -182,14 +176,14 @@ A digital whiteboard where the teacher sees each step a learner writes.
 
 The half-hour offset trips up many online services. We confirm each booking in writing in Adelaide time, and we recheck it in the weeks when daylight saving begins and ends.
 
+Progress
+
 ## Four stages of a learner's maths
 
 Start anywhere; the first lesson shows where.
 
-**From counting to calculus**
-
 | Usually | Stage | Ready for the next when |
-|---|---|---|
+| --- | --- | --- |
 | Reception to Year 2 | 1. Quantity | They see 8 as 5 and 3 without counting |
 | Years 3 to 6 | 2. Shape and space | They find an area by splitting a shape into rectangles |
 | Years 7 to 10 | 3. Generalising | They use a formula and check its answer another way |
@@ -198,63 +192,293 @@ Start anywhere; the first lesson shows where.
 ### Late starters
 
 Students who begin in Stage 1 often need a few earlier ideas firmed up first.
+
 We name those ideas and how long they should take.
 
 ### Adults
 
 Adults usually progress quickly with a clear plan.
+
 We begin with the maths needed now.
+
+Full list
 
 ## Maths courses for Adelaide learners
 
 International course names, taught to South Australian stages and SACE subjects.
 
+I
+
 ### Primary
 
 Reception to Year 6
 
-- [First maths](/courses/early-math-foundations): Early number with objects.
-- [Primary maths](/courses/elementary-mathematics-complete-masterclass): All primary strands.
-- [Problem solving](/courses/problem-solving-and-computational-thinking-for-kids): Thinking through puzzles.
+ADL / P1
+
+#### First maths
+
+Early number with objects.
+
+[Open the syllabus](/courses/early-math-foundations)
+
+ADL / P2
+
+#### Primary maths
+
+All primary strands.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+ADL / P3
+
+#### Problem solving
+
+Thinking through puzzles.
+
+[Open the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)II
 
 ### Secondary
 
 Years 7 to 10
 
-- [Middle years maths](/courses/comprehensive-middle-school-mathematics-mastery): Algebra and geometry.
-- [Algebra foundations](/courses/algebra-foundations-masterclass): Algebra rebuilt.
-- [Maths through coding](/courses/maths-through-coding): Formulas you can test.
+ADL / S1
+
+#### Middle years maths
+
+Algebra and geometry.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+ADL / S2
+
+#### Algebra foundations
+
+Algebra rebuilt.
+
+[Open the syllabus](/courses/algebra-foundations-masterclass)
+
+ADL / S3
+
+#### Maths through coding
+
+Formulas you can test.
+
+[Open the syllabus](/courses/maths-through-coding)III
 
 ### SACE and adults
 
 Stage 1, Stage 2 and beyond
 
-- [Stage 1 and 2 maths](/courses/complete-high-school-mathematics-mastery): Graphs, rates of change, data.
-- [Calculus in depth](/courses/ap-calculus-exam-prep): For Methods and Specialist.
-- [University maths](/courses/college-mathematics-complete-masterclass): Beyond school.
+ADL / H1
+
+#### Stage 1 and 2 maths
+
+Graphs, rates of change, data.
+
+[Open the syllabus](/courses/complete-high-school-mathematics-mastery)
+
+ADL / H2
+
+#### Calculus in depth
+
+For Methods and Specialist.
+
+[Open the syllabus](/courses/ap-calculus-exam-prep)
+
+ADL / H3
+
+#### University maths
+
+Beyond school.
+
+[Open the syllabus](/courses/college-mathematics-complete-masterclass)
+
+Lesson times
 
 ## Lessons arranged around an Adelaide week
 
 Bookings are made and confirmed in Adelaide time, half an hour behind the eastern states.
 
-- **After school** Primary and middle school.
-- **Evenings** SACE students and adults.
-- **Weekends** Longer lessons when needed.
+After school
 
-- **Continuity** The same teacher week after week.
-- **Updates** Short notes for parents.
-- **Fifteen to twenty** Groups matched by level.
-- **Real geometry** Maps and measurements alongside exercises.
-- **Private choice** One to one when it suits.
-- **Why it works** Every method explained before practice.
+Primary and middle school.
+
+Evenings
+
+SACE students and adults.
+
+Weekends
+
+Longer lessons when needed.
+
+### Continuity
+
+The same teacher week after week.
+
+### Updates
+
+Short notes for parents.
+
+### Fifteen to twenty
+
+Groups matched by level.
+
+### Real geometry
+
+Maps and measurements alongside exercises.
+
+### Private choice
+
+One to one when it suits.
+
+### Why it works
+
+Every method explained before practice.
+
+Student work
+
+## What learners have built with their maths
+
+Student projects that grew out of solid number and geometry. More in the [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees for maths tutoring in Adelaide
 
 Adelaide families pay a single monthly fee in US dollars, with no enrolment charge and no fixed term.
 
-- Free first class: USD 0. A full lesson at the learner's level. Honest advice on next steps. No card.
-- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher each week. Marked practice. Stop after any month.
-- One to one: USD 150 a month. Private teaching. One goal at a time. Ideal before SACE exams.
+Free first class
+
+USD 0
+
+no card required
+
+- A full lesson at the learner's level
+- Honest advice on next steps
+- No card
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners at one level
+- The same teacher each week
+- Marked practice
+- Stop after any month
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- Private teaching
+- One goal at a time
+- Ideal before SACE exams
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Reviews from our Google profile, as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Adelaide maths questions
 
 ## Adelaide maths tutoring: common questions
 
@@ -294,15 +518,54 @@ Yes, including the half-hour offset and daylight saving changes.
 
 The first lesson is free. Monthly fees are listed in the fees section of this page.
 
+More for Adelaide
+
 ## Related pages
 
-- [SACE Mathematical Methods](/sace-mathematical-methods-tutoring): Calculus and statistics.
-- [SACE Specialist Mathematics](/sace-specialist-mathematics-tutoring): The most advanced SACE maths.
-- [SA IGNITE maths](/sa-ignite-entry-maths-practice): Entry assessment practice.
-- [NAPLAN numeracy](/naplan-numeracy-practice-online): Practice by year.
-- [Years 7 to 10 maths](/australian-curriculum-maths-year-7-to-10-help): Curriculum help.
-- [Maths tutor costs](/maths-tutor-cost-australia-explained): Prices explained.
+SACE, entry tests and costs.
 
-## Contact
+### [SACE Mathematical Methods](/sace-mathematical-methods-tutoring)
 
-Book the free first class at [https://learn.modernagecoders.com/maths-tutor-adelaide](https://learn.modernagecoders.com/maths-tutor-adelaide#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Calculus and statistics.
+
+### [SACE Specialist Mathematics](/sace-specialist-mathematics-tutoring)
+
+The most advanced SACE maths.
+
+### [SA IGNITE maths](/sa-ignite-entry-maths-practice)
+
+Entry assessment practice.
+
+### [NAPLAN numeracy](/naplan-numeracy-practice-online)
+
+Practice by year.
+
+### [Years 7 to 10 maths](/australian-curriculum-maths-year-7-to-10-help)
+
+Curriculum help.
+
+### [Maths tutor costs](/maths-tutor-cost-australia-explained)
+
+Prices explained.
+
+Start here
+
+## Book a free Adelaide maths lesson
+
+Tell us when we can call. The free lesson is a real lesson, and we follow it with a plain recommendation.
+
+Curious first? There is a page on [our lessons](/how-we-teach), and another on [tutoring maths online across Australia](/online-maths-tutoring-australia).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20a%20learner%20in%20Adelaide.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+Expect a call or message from India (the number begins +91): we have no office in Adelaide or anywhere else in Australia. An Australian mobile on WhatsApp tends to get the quickest reply.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/maths-tutor-adelaide*

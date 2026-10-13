@@ -4,52 +4,38 @@ description: "Live online coding, Python and maths classes across East Lothian, 
 canonical: https://learn.modernagecoders.com/coding-classes-in-east-lothian
 source: src/pages/coding-classes-in-east-lothian.html
 ---
-> East Lothian is a single council area, home to about 112,300 people in roughly 48,800 households at the 2022 census, at 165.3 people per square kilometre. Musselburgh is the largest town, followed by Tranent, Prestonpans, Haddington and Dunbar, with North Berwick on the coast. Our teachers are in India and teach in real time on camera; a free first lesson sets the level for every learner, whether they are in Primary 1, S6 or long past school. Anyone aged 6 to 67 can study coding, Python or maths, alone with a teacher or among fifteen to twenty classmates. The East Lothian project looks out to the Bass Rock and its gannets. A first lesson is free of charge; continuing is USD 100 a month in a group or USD 150 a month one-to-one.
+> Live online coding, Python and maths classes across East Lothian, from Musselburgh, Tranent and Prestonpans to Haddington, Dunbar and North Berwick.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / East Lothian
-
-East Lothian / Live online
-
-# Coding classes in East Lothian
-
-**What are the best coding classes in East Lothian?** East Lothian is a single council area, home to about 112,300 people in roughly 48,800 households at the 2022 census, at 165.3 people per square kilometre. Musselburgh is the largest town, followed by Tranent, Prestonpans, Haddington and Dunbar, with North Berwick on the coast. Our teachers are in India and teach in real time on camera; a free first lesson sets the level for every learner, whether they are in Primary 1, S6 or long past school. Anyone aged 6 to 67 can study coding, Python or maths, alone with a teacher or among fifteen to twenty classmates. The East Lothian project looks out to the Bass Rock and its gannets. A first lesson is free of charge; continuing is USD 100 a month in a group or USD 150 a month one-to-one.
-
-The Scottish Seabird Centre in North Berwick trains live cameras on the Bass Rock, which it calls one of the world's largest Northern gannet colonies, and Historic Environment Scotland lists the lighthouse David Alan Stevenson built on the rock in 1902. Gannets eat fish, and predator and prey numbers affect each other: more fish feed more birds, more birds eat down the fish, fewer fish mean fewer birds, and the cycle repeats. Two short equations, the Lotka-Volterra model, capture that loop. This page's project runs them in Python with invented numbers, watches the cycles and the lag between them, and uses a quantity the equations should keep constant to catch a numerical method that quietly goes wrong.
-
-Facts last verified 26 September 2026. Teaching is online; no East Lothian branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for East Lothian
 
 ## Where East Lothian learners begin
 
 A P4 pupil in Dunbar who loves seabirds, an S1 in Tranent starting Python, an S5 in Haddington taking Higher Maths, and an adult in Musselburgh building models at work. All four start the same way, with a lesson that costs nothing.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 12): Block coding from a first Scratch game onwards, including simple animal population games.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): Maths learned by coding it, with growth, rates of change and graphs built in Python.
-- [High School Mathematics](/courses/complete-high-school-mathematics-mastery) (Ages 14 to 18): Secondary maths in depth, with calculus and rates of change that models like this rely on.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Adults): Python from zero for adults, up to simulations and models checked properly.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 12Coding for KidsBlock coding from a first Scratch game onwards, including simple animal population games.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingMaths learned by coding it, with growth, rates of change and graphs built in Python.See the syllabus](/courses/maths-through-coding)[![High School Mathematics course thumbnail](/images/high-school-maths.webp)Ages 14 to 18High School MathematicsSecondary maths in depth, with calculus and rates of change that models like this rely on.See the syllabus](/courses/complete-high-school-mathematics-mastery)[![Python Masterclass course thumbnail](/images/python-college.webp)AdultsPython MasterclassPython from zero for adults, up to simulations and models checked properly.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)East Lothian in figures
 
 ## About 112,300 people in East Lothian
 
 Council-wide figures below come from the first 2022 census results, which NRS rounds to the nearest hundred. Town sizes are NRS locality estimates for mid-2020.
 
-**East Lothian localities above 2,000 people, NRS mid-2020 estimates**
-
 | Locality | Residents | Locality | Residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Musselburgh | 21,100 | Cockenzie | 5,370 |
 | Tranent | 11,910 | Wallyford | 3,370 |
 | Prestonpans | 10,460 | Gullane | 2,810 |
 | Haddington | 10,360 | Longniddry | 2,340 |
 | Dunbar | 10,270 | Ormiston | 2,110 |
-| North Berwick | 7,840 |  |  |
+| North Berwick | 7,840 |   |   |
 
 East Lothian has 165.3 residents per square kilometre, well above the Scottish 69.8. Summing the age bands ourselves, we get 16.7 per cent of East Lothian residents under 15, against 15.3 per cent nationally, and 21.2 per cent aged 65 and over, against 20.1. East Linton is the next town after the table. East Lothian Council sets the school terms; we have not read its calendar and arrange breaks with each family.
 
@@ -57,16 +43,16 @@ East Lothian has 165.3 residents per square kilometre, well above the Scottish 6
 
 The capital has its own page, [Edinburgh](/best-coding-class-in-edinburgh). For Scottish exams, see [National 5 Maths](/national-5-maths-tuition-online) and [Higher Maths](/higher-maths-tuition-online).
 
+The East Lothian project
+
 ## Gannets, fish and a cycle that repeats
 
 Two equations, two ways of solving them, and a number that should never change.
 
 The model is invented, not a survey of the Bass Rock. Fish grow on their own and are eaten when they meet gannets; gannets thrive when they catch fish and decline without them. In symbols, the fish change at a rate of x minus 0.02xy and the gannets at 0.01xy minus 0.8y. Starting from 60 units of fish and 40 of gannets, the learner steps the equations forward in time with a method called RK4, in hundredths of a year, for fifty years.
 
-**Our Lotka-Volterra runs over fifty years, 26 September 2026**
-
 | Method and step | Fish range | Gannet range | Drift in the conserved quantity |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | RK4, step 0.01 year | 54.2 to 112.9 | 35.4 to 68.1 | None to two decimal places |
 | Euler, step 0.01 year | 49.6 to 120.2 | 33.0 to 72.4 | +0.47 per cent |
 | Euler, step 0.05 year | 24.9 to 175.7 | 20.4 to 104.7 | +5.98 per cent |
@@ -91,14 +77,14 @@ Add RK4, compute the conserved quantity at every step, and compare how each meth
 
 The Bass Rock facts come from the Scottish Seabird Centre and Historic Environment Scotland. The model, its parameters and every result are invented for teaching; they do not describe the real gannet colony or the fish it feeds on.
 
+Why the Bass Rock
+
 ## A gannet colony and a Stevenson lighthouse
 
 The East Lothian link, from the people who watch and list it.
 
-**The Bass Rock in its sources**
-
 | Source | What it says |
-|---|---|
+| --- | --- |
 | Scottish Seabird Centre | Its live cameras show the Bass Rock, one of the world's largest Northern gannet colonies. |
 | HES listing LB14738 | A lighthouse by David Alan Stevenson, 1902, Category C. |
 | HES listing LB14738 | Built on a fortified outcrop, on the site of the Governor's House of Bass Rock Castle. |
@@ -107,16 +93,41 @@ Models of populations that feed on each other are used for fish stocks, disease 
 
 We have no link with the Scottish Seabird Centre, Historic Environment Scotland or East Lothian Council. What the two bodies publish belongs to them; the equations, numbers and errors on this page belong to us.
 
-**Nearby pages** [Edinburgh](/best-coding-class-in-edinburgh) lies west. For coding exams, see [National 5 Computing Science](/national-5-computing-science-help) and [Higher Computing Science](/higher-computing-science-help). The [Scotland](/coding-and-ai-classes-in-scotland) page lists every council.
+Nearby pages
+
+[Edinburgh](/best-coding-class-in-edinburgh) lies west. For coding exams, see [National 5 Computing Science](/national-5-computing-science-help) and [Higher Computing Science](/higher-computing-science-help). The [Scotland](/coding-and-ai-classes-in-scotland) page lists every council.
+
+The path
 
 ## From population games to simulation
 
 The free lesson decides the first step. Stage suggests, ability decides.
 
-- **P1 to P4: Counting creatures** Block coding games where animals appear, move and multiply. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **P5 to S2: Growth in Python** Typed Python and maths with growth, rates and graphs over time. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **S3 to S6: Modelling change** Rates of change, calculus and simulation, alongside National 5, Higher and Advanced Higher Maths. [High School Mathematics](/courses/complete-high-school-mathematics-mastery), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Models you can trust** Python for adults who build simulations and forecasts and need them checked. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+P1 to P4
+
+### Counting creatures
+
+Block coding games where animals appear, move and multiply.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)P5 to S2
+
+### Growth in Python
+
+Typed Python and maths with growth, rates and graphs over time.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)S3 to S6
+
+### Modelling change
+
+Rates of change, calculus and simulation, alongside National 5, Higher and Advanced Higher Maths.
+
+[High School Mathematics](/courses/complete-high-school-mathematics-mastery)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Models you can trust
+
+Python for adults who build simulations and forecasts and need them checked.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)AI and simulations
 
 ## An AI can write a population model in seconds. Will it test whether the answer drifts?
 
@@ -128,30 +139,139 @@ An East Lothian student who has tracked the conserved quantity knows how to catc
 
 That is why coding still matters for an East Lothian teenager in 2026: it teaches you to question a simulation before trusting it. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How lessons work
+
 ## Musselburgh to Dunbar, online
 
 East Lothian has towns and villages of every size, and an evening class in Edinburgh means getting there and back. Lessons at home need no journey.
 
-- **Right at home** A flat in Musselburgh, a house in Gullane, a cottage near East Linton. The pupil codes and the teacher follows the shared screen.
-- **Scottish stages spoken here** P1 to P7, S1 to S6, National 5, Higher, Advanced Higher: the terms East Lothian pupils use are the ones we use, in English.
-- **First lesson free** Real coding from the first minute, then our view of where the learner should start. No card details are asked for.
-- **Classmates at your stage** Fifteen to twenty learners working at one level, drawn from many countries.
-- **School holiday breaks** Two lessons a week during term; we pause for the holidays.
-- **UK time, all year** We book your lesson in UK time and hold it there through the clock changes, while teachers in India time adjust their side.
+### Right at home
 
-**Why groups follow level** Five learners at one stage free on the same evening are rarely neighbours, even in Musselburgh. Grouping by level lets a pupil in Ormiston or Longniddry join the right class.
+A flat in Musselburgh, a house in Gullane, a cottage near East Linton. The pupil codes and the teacher follows the shared screen.
+
+### Scottish stages spoken here
+
+P1 to P7, S1 to S6, National 5, Higher, Advanced Higher: the terms East Lothian pupils use are the ones we use, in English.
+
+### First lesson free
+
+Real coding from the first minute, then our view of where the learner should start. No card details are asked for.
+
+### Classmates at your stage
+
+Fifteen to twenty learners working at one level, drawn from many countries.
+
+### School holiday breaks
+
+Two lessons a week during term; we pause for the holidays.
+
+### UK time, all year
+
+We book your lesson in UK time and hold it there through the clock changes, while teachers in India time adjust their side.
+
+Why groups follow level
+
+Five learners at one stage free on the same evening are rarely neighbours, even in Musselburgh. Grouping by level lets a pupil in Ormiston or Longniddry join the right class.
+
+Fees
 
 ## Fees in East Lothian
 
 A learner in Tranent pays what one in North Berwick pays, the rate we charge in every country outside India.
 
-- First class: USD 0. A full lesson of real work, then a suggested level and course.
-- Group tuition: USD 100 a month. About eight lessons a month with fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. About eight lessons a month, one-to-one.
+First class**USD 0**
+
+A full lesson of real work, then a suggested level and course.
+
+Group tuition**USD 100**
+
+About eight lessons a month with fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+About eight lessons a month, one-to-one.
 
 Fees are set in US dollars; there are no sterling prices. We bill only once the free lesson has fixed a course and a weekly time, and the pricing page covers holidays, missed lessons and changes of format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20East%20Lothian%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Reviews
+
+## Google reviews from parents and learners
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free East Lothian lesson
+
+Tell us who is learning, their P or S stage (or an adult goal), and what excites them. A first lesson could be a Scratch animal game, a Python growth graph, or the gannet model on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented East Lothian one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20East%20Lothian%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## East Lothian questions
+
+The council area, the Bass Rock project and practical details.
 
 ### How many people live in East Lothian?
 
@@ -193,10 +313,14 @@ The first lesson is free. After that it is USD 100 a month in a group or USD 150
 
 Yes. Tell us the dates your East Lothian school gives you and lessons stop for those weeks.
 
+Close by
+
 ## Pages near East Lothian
 
 Look west to [Edinburgh](/best-coding-class-in-edinburgh) or browse every council on our [Scotland](/coding-and-ai-classes-in-scotland) page. The [UK hub](/coding-classes-in-united-kingdom) covers everywhere else.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20East%20Lothian%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-east-lothian](https://learn.modernagecoders.com/coding-classes-in-east-lothian#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-east-lothian*

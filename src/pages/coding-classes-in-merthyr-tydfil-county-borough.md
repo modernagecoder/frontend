@@ -4,46 +4,32 @@ description: "Live online coding, Python and maths classes across Merthyr Tydfil
 canonical: https://learn.modernagecoders.com/coding-classes-in-merthyr-tydfil-county-borough
 source: src/pages/coding-classes-in-merthyr-tydfil-county-borough.html
 ---
-> Merthyr Tydfil county borough counted 58,836 usual residents at the 2021 census, the smallest total of any Welsh principal area in that release. Most live in the Merthyr Tydfil built-up area itself, with Treharris, Troedyrhiw and Pentrebach, Aberfan and Trelewis the other sizeable places. Every lesson is taught live over video by teachers in India; the first one is free and pins down a starting level for a Year 3 pupil, a Year 13 student or an adult. Learners from 6 to 67 study coding, Python and maths, alone with a teacher or in a class of fifteen to twenty. The Merthyr project begins at an iron bridge from around 1794. Staying on costs USD 100 each month in a group or USD 150 each month one-to-one.
+> Live online coding, Python and maths classes across Merthyr Tydfil county borough, from Merthyr town to Treharris, Troedyrhiw, Pentrebach, Aberfan and Trelewis.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Merthyr Tydfil county borough
-
-Merthyr Tydfil county borough / Live online
-
-# Coding classes in Merthyr Tydfil
-
-**What are the best coding classes in Merthyr Tydfil?** Merthyr Tydfil county borough counted 58,836 usual residents at the 2021 census, the smallest total of any Welsh principal area in that release. Most live in the Merthyr Tydfil built-up area itself, with Treharris, Troedyrhiw and Pentrebach, Aberfan and Trelewis the other sizeable places. Every lesson is taught live over video by teachers in India; the first one is free and pins down a starting level for a Year 3 pupil, a Year 13 student or an adult. Learners from 6 to 67 study coding, Python and maths, alone with a teacher or in a class of fifteen to twenty. The Merthyr project begins at an iron bridge from around 1794. Staying on costs USD 100 each month in a group or USD 150 each month one-to-one.
-
-By the site of the old Cyfarthfa Ironworks, Cadw lists Pont-y-Cafnau at Grade II* and records that it probably dates from about 1794, making it probably the earliest known iron railway bridge. It carried a tramroad of four-foot gauge on a pair of A-frame iron trusses, and some of the chairs that held the rails survive on its deck. Iron has a habit engineers must always respect: it grows when it warms and shrinks when it cools. A bridge or a rail that cannot move as it grows pushes on whatever holds it. How much does iron grow between a Welsh winter and summer, and how big is that push? This page's project works it out in Python.
-
-Facts last verified 26 September 2026. Teaching is online; no Merthyr Tydfil county borough branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Merthyr Tydfil
 
 ## Where Merthyr learners start
 
 A Year 2 pupil in Troedyrhiw who likes experiments, a Year 6 in Merthyr ready for typed code, a Year 10 in Treharris beginning WJEC GCSE Computer Science, and an adult in Trelewis learning Python. Each opens with a free lesson.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 12): Block coding with hot and cold, growing and shrinking games.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): Tiny numbers, decimals and units, made friendly by coding.
-- [High School Mathematics](/courses/complete-high-school-mathematics-mastery) (Ages 14 to 18): Secondary maths in depth, including standard form and rates of change.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Adults): Python for adults from zero, up to engineering calculations.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 12Coding for KidsBlock coding with hot and cold, growing and shrinking games.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingTiny numbers, decimals and units, made friendly by coding.See the syllabus](/courses/maths-through-coding)[![High School Mathematics course thumbnail](/images/high-school-maths.webp)Ages 14 to 18High School MathematicsSecondary maths in depth, including standard form and rates of change.See the syllabus](/courses/complete-high-school-mathematics-mastery)[![Python Masterclass course thumbnail](/images/python-college.webp)AdultsPython MasterclassPython for adults from zero, up to engineering calculations.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Merthyr Tydfil in figures
 
 ## 58,836 people in Merthyr Tydfil county borough
 
 ONS counted 58,836 usual residents in the county borough in March 2021, which we read through Nomis; the table uses ONS built-up areas from the same census.
 
-**Built-up areas in Merthyr Tydfil county borough, ONS Census 2021**
-
 | Area | People |
-|---|---|
+| --- | --- |
 | Merthyr Tydfil | 39,535 |
 | Treharris | 5,045 |
 | Troedyrhiw and Pentrebach | 3,775 |
@@ -56,16 +42,16 @@ Our output-area arithmetic matches each of these to within seven people. The cou
 
 The capital has its own [Cardiff](/best-coding-class-in-cardiff) page. For exams: [WJEC GCSE Computer Science](/wjec-gcse-computer-science-help-wales) and [GCSE Maths and Numeracy in Wales](/gcse-maths-and-numeracy-wales-help).
 
+The Merthyr project
+
 ## Millimetres from the weather
 
 A tiny coefficient, a long span, and the push when growth is blocked.
 
 The span in the model is invented at 14 metres; the record does not give one. Every material has a coefficient of thermal expansion: the fraction of its length it grows for each degree of warming. For cast iron a typical value is about 10.5 millionths per degree. Growth equals that coefficient times the length times the temperature change, and the learner codes it in one line of Python, then runs it for different seasons. Numbers this small are a good reason to learn standard form.
 
-**Our invented 14 m iron span, typical material values, 26 September 2026**
-
 | Situation | Result |
-|---|---|
+| --- | --- |
 | Cold winter night at -10 C to hot summer day at 30 C | Grows about 5.9 mm |
 | A milder swing, 0 C to 20 C | Grows about 2.9 mm |
 | Sun-baked iron at 50 C against -10 C | Grows about 8.8 mm |
@@ -93,14 +79,14 @@ Add restrained stress, compare cast iron and steel, and model a rail made of man
 
 Pont-y-Cafnau's history comes from Cadw's record. The span, temperatures and material properties are invented or typical values, so the millimetres describe the physics, not measurements of the real bridge.
 
+Why Pont-y-Cafnau
+
 ## Probably the earliest iron railway bridge
 
 From Cadw's record.
 
-**Pont-y-Cafnau, Cadw listed building record 11408, Grade II***
-
 | Record detail | What it says |
-|---|---|
+| --- | --- |
 | Date | Believed to date from about 1794 |
 | Significance | Probably the earliest known iron railway bridge |
 | Use | Carried a four-foot gauge tramroad from Cyfarthfa Ironworks |
@@ -112,14 +98,37 @@ Thermal expansion shapes the design of bridges, railways, pipelines, electronics
 
 We have no connection with Cadw or Merthyr Tydfil County Borough Council. Cadw wrote the record; the expansion model and any mistakes in it are ours.
 
+Learning path
+
 ## From balloons to materials modelling
 
 Year bands are a first guess; the trial lesson confirms the level.
 
-- **Years 1 to 4: Hot and cold** Block coding with changing sizes, temperatures and simple rules. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 5 to 8: Decimals and units** Typed Python with small numbers, units and tables. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Standard form and physics** Scientific notation and materials physics alongside WJEC GCSE and A level work. [High School Mathematics](/courses/complete-high-school-mathematics-mastery), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Engineering sums** Python for adults, from quick formulas to reusable calculators. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Years 1 to 4
+
+### Hot and cold
+
+Block coding with changing sizes, temperatures and simple rules.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 5 to 8
+
+### Decimals and units
+
+Typed Python with small numbers, units and tables.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Standard form and physics
+
+Scientific notation and materials physics alongside WJEC GCSE and A level work.
+
+[High School Mathematics](/courses/complete-high-school-mathematics-mastery)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Engineering sums
+
+Python for adults, from quick formulas to reusable calculators.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)AI and small effects
 
 ## An AI can quote an expansion coefficient in seconds. Will it tell you what the millimetres do?
 
@@ -131,30 +140,139 @@ A Merthyr learner who has calculated both the growth and the restrained stress k
 
 Asking what happens next, after the first answer, is why a Merthyr Tydfil teenager should keep learning to code in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How lessons work
+
 ## From Dowlais to Treharris, lessons at home
 
 All the communities of the county borough join by video.
 
-- **Learners build it** Pupils write each program while the teacher follows along on the shared screen.
-- **Welsh school years** An Aberfan Year 5 or a Merthyr Year 12 is placed by school year and the Curriculum for Wales, with WJEC exam names. Lessons are in English.
-- **Free first lesson** A full lesson for nothing, then clear advice.
-- **Classes by level** Fifteen to twenty learners working at the same level.
-- **Term time only** Two lessons a week in term; none in the holidays.
-- **UK time, both seasons** The lesson stays at its UK hour through summer and winter time; teachers on India time adjust.
+### Learners build it
 
-**Why groups go beyond the town** Five learners at one level, free at the same time, rarely live in one small county borough. Grouping by level gives a pupil in Trelewis or Pentrebach a class that fits.
+Pupils write each program while the teacher follows along on the shared screen.
+
+### Welsh school years
+
+An Aberfan Year 5 or a Merthyr Year 12 is placed by school year and the Curriculum for Wales, with WJEC exam names. Lessons are in English.
+
+### Free first lesson
+
+A full lesson for nothing, then clear advice.
+
+### Classes by level
+
+Fifteen to twenty learners working at the same level.
+
+### Term time only
+
+Two lessons a week in term; none in the holidays.
+
+### UK time, both seasons
+
+The lesson stays at its UK hour through summer and winter time; teachers on India time adjust.
+
+Why groups go beyond the town
+
+Five learners at one level, free at the same time, rarely live in one small county borough. Grouping by level gives a pupil in Trelewis or Pentrebach a class that fits.
+
+Fees
 
 ## Fees in Merthyr Tydfil
 
 Merthyr or Treharris, the fee is identical, and matches every country we teach outside India.
 
-- First class: USD 0. A complete lesson, free of charge, then our recommendation.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty.
-- Private tuition: USD 150 a month. About eight lessons a month, one-to-one.
+First class**USD 0**
+
+A complete lesson, free of charge, then our recommendation.
+
+Group tuition**USD 100**
+
+About eight lessons a month in a group of fifteen to twenty.
+
+Private tuition**USD 150**
+
+About eight lessons a month, one-to-one.
 
 Fees are set in US dollars, never sterling. Billing starts only when the trial has fixed a course and a weekly time; the pricing page covers holidays, absences and moving between formats.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Merthyr%20Tydfil%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Reviews
+
+## What reviewers say on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Merthyr Tydfil lesson
+
+Tell us the learner's age or year and an interest, and we will design the trial around it: a Scratch science game, some Python, or the iron bridge on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Merthyr Tydfil county borough one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Merthyr%20Tydfil%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Merthyr Tydfil questions
+
+The county borough, the bridge project and practical points.
 
 ### How many people live in Merthyr Tydfil county borough?
 
@@ -196,10 +314,14 @@ The first lesson is free, then USD 100 a month in a group or USD 150 a month one
 
 Yes. Send us your school's holiday dates and we stop for them.
 
+Nearby pages
+
 ## More South Wales pages
 
 [Caerphilly](/coding-classes-in-caerphilly-county-borough) checks unit conversions in a colliery record, [Blaenau Gwent](/coding-classes-in-blaenau-gwent) photographs a clock with a pinhole camera, and [Cardiff](/best-coding-class-in-cardiff) has a city page. More Welsh areas appear on our [Wales](/coding-and-ai-classes-in-wales) page as they go live, and the [UK hub](/coding-classes-in-united-kingdom) covers everywhere else.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Merthyr%20Tydfil%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-merthyr-tydfil-county-borough](https://learn.modernagecoders.com/coding-classes-in-merthyr-tydfil-county-borough#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-merthyr-tydfil-county-borough*

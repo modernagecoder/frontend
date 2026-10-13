@@ -4,34 +4,28 @@ description: "An AI agents course for professionals in Ireland: build, test and 
 canonical: https://learn.modernagecoders.com/ai-agents-course-for-professionals-ireland
 source: src/pages/ai-agents-course-for-professionals-ireland.html
 ---
-> An agent is a program where a language model directs its own steps and tool use towards a goal. Building one for work is mostly unglamorous: deciding what it may touch, grounding it in the right documents, writing test cases with known answers, logging every step and defining where it must stop and ask a person. We teach that live to professionals in Ireland, in small groups or one to one, on the platforms employers actually use. The first class is free; afterwards a group place is USD 100 a month and one-to-one tuition USD 150 a month, and the Copilot Studio course is taught one to one only.
+> An AI agents course for professionals in Ireland: build, test and govern agents at work, with the national adoption figures read honestly. First class free.
 
-[Home](/) / [Courses](/courses) / [AI and machine learning classes in Ireland](/ai-and-machine-learning-classes-in-ireland) / AI agents for professionals, Ireland
+In short
 
-Ireland · Working professionals · Live online
+An agent is a program where a language model directs its own steps and tool use towards a goal. Building one for work is mostly unglamorous: deciding what it may touch, grounding it in the right documents, writing test cases with known answers, logging every step and defining where it must stop and ask a person. We teach that live to professionals in Ireland, in small groups or one to one, on the platforms employers actually use. The first class is free; afterwards a group place is USD 100 a month and one-to-one tuition USD 150 a month, and the Copilot Studio course is taught one to one only.
 
-# AI agents course for professionals in Ireland
-
-Irish businesses have moved quickly. The Central Statistics Office found that 20.2% of enterprises used AI in some capacity in 2025, up from just over 15% in 2024 and about 8% in 2023, and that almost six in ten large enterprises now use it. What most of them do not have is somebody who can build an agent, measure whether it works, and say plainly where it should not be used. That gap is what this course fills. It is for professionals who already have a job to protect and improve: analysts, engineers, operations managers, people in finance, marketing and administration who want to put a well-understood agent into a real workflow rather than run another pilot. It covers what an agent is, how to ground it in your own documents, how to test it against cases with known answers, and how to hand it over with a log and an honest account of its limits.
-
-At a glance: For: Working professionals; Builds: Agents with tools and retrieval; Proves: Test sets with known answers; Delivers: Logs, limits and a handover; Format: Live, around a working week; Group: Fifteen to twenty, or one to one; Note: The Copilot Studio course is one to one only; Start: A free first class. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three routes for working professionals
 
 From the model upwards, inside Microsoft's platform, or directing coding agents. Each card opens its syllabus and format.
 
-- [AI Agents with Copilot Studio for Professionals](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals): Agents built where much of Irish business already works, grounded in your own documents and connected to real systems. One to one only.
-- [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college): The engineering underneath any platform: how models are prompted, grounded, given tools and measured.
-- [Codex and Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals): For technical staff: directing coding agents through a real codebase and reviewing every change they propose.
+[![Copilot Studio Agent Masterclass for Professionals course thumbnail](/images/copilot-studio-professionals.webp)  WORK / 01 AI Agents with Copilot Studio for Professionals Agents built where much of Irish business already works, grounded in your own documents and connected to real systems. One to one only. Open the syllabus →](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)  WORK / 02 Generative AI: LLMs, RAG and Agents The engineering underneath any platform: how models are prompted, grounded, given tools and measured. Open the syllabus →](/courses/complete-generative-ai-masterclass-college)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)  WORK / 03 Codex and Claude Code For technical staff: directing coding agents through a real codebase and reviewing every change they propose. Open the syllabus →](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)
+
+Adoption, read carefully
 
 ## What Irish businesses are actually doing with AI
 
 The CSO surveys enterprises with ten or more people. Its 2025 figures are the clearest picture available, and they need reading with some care.
 
-**Enterprise AI use in Ireland, CSO Information Society Statistics, released 6 February 2026**
-
 | Measure | 2025 |
-|---|---|
+| --- | --- |
 | All enterprises using AI | 20.2%, against just over 15% in 2024 and about 8% in 2023 |
 | Large enterprises | 57.7% |
 | Medium enterprises | 28.6% |
@@ -66,14 +60,14 @@ Among internet users who had used generative AI in 2025, half had used it for pr
 
 Sources, read 16 September 2026: [CSO, Information Society Statistics, Enterprises 2025](https://www.cso.ie/en/releasesandpublications/ep/p-isse/informationsocietystatistics-enterprises2025/artificialintelligence/); CSO tables [ICA238](https://data.cso.ie/table/ICA238), [BIIESA20](https://data.cso.ie/table/BIIESA20) and [ICA321](https://data.cso.ie/table/ICA321).
 
+Public supports
+
 ## What the State already offers, before you pay anyone
 
 Ireland funds a good deal of AI upskilling and adoption support. If your employer qualifies, start there.
 
-**Public routes for businesses and staff**
-
 | Support | What it is |
-|---|---|
+| --- | --- |
 | Enterprise Ireland AI Discovery | A first stage of seven consultant-led days that audits your data, maps current skills and produces a 12 to 18 month AI roadmap, with the great majority of the cost grant funded, for Enterprise Ireland clients |
 | The following stages | Support towards building a prototype and then operationalising it, through Enterprise Ireland's digital process innovation funding |
 | Skillnet Ireland Upskill SME Training Grant | A grant to recover salary costs for the days staff spend in AI training, across six named categories from getting started to governance and compliance |
@@ -90,14 +84,14 @@ The national strategy frames the goal well: its ambition is workplaces "where wo
 
 Sources: [Enterprise Ireland, AI for Business](https://www.enterprise-ireland.com/documents/ai-discovery-brochure-2025-pdf-en-165466.pdf) and its [AI Discovery page](https://www.enterprise-ireland.com/aidiscovery); [Skillnet Ireland, Upskill SME Training Grant](https://www.skillnetireland.ie/upskill-sme-training-grant); [National AI Strategy refresh, 2024](https://enterprise.gov.ie/en/publications/publication-files/national-ai-strategy-refresh-2024.pdf). Read 16 September 2026. Eligibility rules are theirs; check them at source.
 
+What you build
+
 ## An agent your colleagues can rely on
 
 The difference between a demo that impresses a meeting and an agent that survives a quarter is almost entirely in the parts nobody demonstrates.
 
-**What a work-ready agent needs**
-
 | Part | Why it exists |
-|---|---|
+| --- | --- |
 | A narrow job | An agent that does one task well can be tested; one that does everything cannot |
 | Grounding | Answers drawn from your documents and systems, not from the model's memory |
 | Tools with limits | Explicit permissions: what it may read, write, send or spend |
@@ -125,14 +119,14 @@ What we do not do is tell you an agent belongs in a process it does not. Part of
 
 The models underneath are covered on [learn to train AI](/learn-to-train-ai-not-just-prompt-it-ireland), and students in third level have their own page at [AI agents for students](/ai-agents-course-for-students-ireland).
 
+The rungs
+
 ## Five rungs for a professional
 
 Most working professionals reach the fifth rung in four to six months at one lesson a week.
 
-**From tool user to agent builder**
-
 | Rung | What you can do |
-|---|---|
+| --- | --- |
 | 1. Use with judgement | Work with AI tools and check their output against what you know |
 | 2. Ground it | Point a model at your own documents and see where retrieval fails |
 | 3. Give it tools | Let it call systems, with permissions written down |
@@ -142,63 +136,293 @@ Most working professionals reach the fifth rung in four to six months at one les
 ### Do you need to code?
 
 Not for the platform route, where agents are built and configured rather than programmed. For the coding agent work, yes, and the free first class will tell you honestly which suits you.
+
 The surrounding subjects are on the [coding roadmap](/coding-roadmap).
 
 ### Around a job
 
 Lessons are weekly and short enough to survive a busy quarter. Professionals often pause for a launch or a year end and pick the same slot back up.
+
 One-to-one lessons suit anyone building on data they cannot show a group.
+
+The catalogue
 
 ## Nine live courses for professionals
 
 By starting point. The free first class decides which one fits your role.
 
+I
+
 ### Using AI well
 
 Before building anything
 
-- [AI Tools Mastery](/courses/ai-tools-mastery-complete-college): Getting real work out of the tools, with checks.
-- [Data and AI Analytics for Non-Programmers](/courses/data-and-ai-analytics-for-non-programmers-course): Answers from your own data, no language needed.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college): The language most agent work eventually needs.
+PRO / USE / 01
+
+#### AI Tools Mastery
+
+Getting real work out of the tools, with checks.
+
+[Open the syllabus](/courses/ai-tools-mastery-complete-college)
+
+PRO / USE / 02
+
+#### Data and AI Analytics for Non-Programmers
+
+Answers from your own data, no language needed.
+
+[Open the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
+
+PRO / USE / 03
+
+#### Python Masterclass
+
+The language most agent work eventually needs.
+
+[Open the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)II
 
 ### Building agents
 
 Platforms and engineering
 
-- [AI Agents with Copilot Studio for Professionals](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals): Agents in Microsoft tooling; taught privately only.
-- [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college): Retrieval, tools and evaluation from first principles.
-- [Python and AI Automation](/courses/python-ai-automation-masterclass-college): Automation that runs without supervision.
+PRO / BUILD / 01
+
+#### AI Agents with Copilot Studio for Professionals
+
+Agents in Microsoft tooling; taught privately only.
+
+[Open the syllabus](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals)
+
+PRO / BUILD / 02
+
+#### Generative AI: LLMs, RAG and Agents
+
+Retrieval, tools and evaluation from first principles.
+
+[Open the syllabus](/courses/complete-generative-ai-masterclass-college)
+
+PRO / BUILD / 03
+
+#### Python and AI Automation
+
+Automation that runs without supervision.
+
+[Open the syllabus](/courses/python-ai-automation-masterclass-college)III
 
 ### Engineering practice
 
 For technical staff
 
-- [Codex and Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals): Coding agents directed and reviewed line by line.
-- [Git and GitHub for Professionals](/courses/git-github-advanced-version-control-masterclass-for-professionals): The review discipline agent work depends on.
-- [Artificial Intelligence Masterclass](/courses/artificial-intelligence-complete-masterclass-college): The wider field, for people making decisions about it.
+PRO / ENG / 01
+
+#### Codex and Claude Code
+
+Coding agents directed and reviewed line by line.
+
+[Open the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)
+
+PRO / ENG / 02
+
+#### Git and GitHub for Professionals
+
+The review discipline agent work depends on.
+
+[Open the syllabus](/courses/git-github-advanced-version-control-masterclass-for-professionals)
+
+PRO / ENG / 03
+
+#### Artificial Intelligence Masterclass
+
+The wider field, for people making decisions about it.
+
+[Open the syllabus](/courses/artificial-intelligence-complete-masterclass-college)
+
+How the classes run
 
 ## Lessons that fit a working week
 
 Teaching is live, from India, at a weekly hour set in Irish time. India keeps one clock all year while Ireland keeps two, so our teachers are four and a half hours ahead of you in summer and five and a half in winter, which makes Irish mornings and evenings both workable.
 
-- **Early morning** Before the Irish working day starts.
-- **Evening** The most popular slot with professionals.
-- **Weekend** Longer builds, for people in delivery roles.
+Early morning
 
-- **A free first class** You describe a real workflow and leave knowing whether an agent belongs in it.
-- **Groups of fifteen to twenty** Professionals at one level, from Ireland and elsewhere, comparing designs.
-- **One to one** For confidential systems and for the Copilot Studio course, which is private only.
-- **Your own accounts** Coding agent work uses your own paid tool accounts, so everything built stays yours.
-- **Test sets, always** No agent is called finished in class without cases whose answers are known.
-- **Handover built in** Documentation and logs are part of the work, not an afterthought at the end.
+Before the Irish working day starts.
+
+Evening
+
+The most popular slot with professionals.
+
+Weekend
+
+Longer builds, for people in delivery roles.
+
+### A free first class
+
+You describe a real workflow and leave knowing whether an agent belongs in it.
+
+### Groups of fifteen to twenty
+
+Professionals at one level, from Ireland and elsewhere, comparing designs.
+
+### One to one
+
+For confidential systems and for the Copilot Studio course, which is private only.
+
+### Your own accounts
+
+Coding agent work uses your own paid tool accounts, so everything built stays yours.
+
+### Test sets, always
+
+No agent is called finished in class without cases whose answers are known.
+
+### Handover built in
+
+Documentation and logs are part of the work, not an afterthought at the end.
+
+Student work
+
+## Work built by our students
+
+Four projects our students published. There are many more across every age group on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees for professionals
 
 A single monthly fee in US dollars, the same in every country outside India, with no enrolment charge and no annual contract. The Copilot Studio course is private tuition only and uses the one-to-one rate.
 
-- Free first class: USD 0. A real workflow examined with a teacher. An honest view of whether an agent suits it. No card taken.
-- Group batch: USD 100 a month. Five to ten professionals at one level. The same teacher each week. Agents and test sets reviewed weekly. A certificate at the end.
-- One to one: USD 150 a month. A teacher to yourself. Confidential systems and data. The only format for Copilot Studio.
+Free first class
+
+USD 0
+
+no card required
+
+- A real workflow examined with a teacher
+- An honest view of whether an agent suits it
+- No card taken
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Five to ten professionals at one level
+- The same teacher each week
+- Agents and test sets reviewed weekly
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher to yourself
+- Confidential systems and data
+- The only format for Copilot Studio
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+From Google, word for word: reviews left by our students and their families, never paid for.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions from professionals
 
 ## What working professionals in Ireland ask
 
@@ -242,15 +466,54 @@ Early mornings, evenings or weekends, at a weekly hour set in the free class. Ou
 
 We call you at a suitable Irish hour and arrange the free first class. Nothing is charged unless you continue.
 
+Elsewhere on this site
+
 ## Related pages
 
-- [AI agents course for students](/ai-agents-course-for-students-ireland): The same subject at third level.
-- [Learn to train AI, not just prompt it](/learn-to-train-ai-not-just-prompt-it-ireland): The models beneath the agents.
-- [Best coding classes for adults in Ireland](/best-coding-classes-for-adults-ireland): If you need the programming first.
-- [Data science course in Ireland](/data-science-course-ireland): The data an agent will rely on.
-- [Full stack software development](/full-stack-software-development-course-ireland): Where agents get deployed.
-- [AI and machine learning classes in Ireland](/ai-and-machine-learning-classes-in-ireland): The national AI page.
+For teams, students and the technology underneath.
 
-## Contact
+### [AI agents course for students](/ai-agents-course-for-students-ireland)
 
-Book the free first class at [https://learn.modernagecoders.com/ai-agents-course-for-professionals-ireland](https://learn.modernagecoders.com/ai-agents-course-for-professionals-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The same subject at third level.
+
+### [Learn to train AI, not just prompt it](/learn-to-train-ai-not-just-prompt-it-ireland)
+
+The models beneath the agents.
+
+### [Best coding classes for adults in Ireland](/best-coding-classes-for-adults-ireland)
+
+If you need the programming first.
+
+### [Data science course in Ireland](/data-science-course-ireland)
+
+The data an agent will rely on.
+
+### [Full stack software development](/full-stack-software-development-course-ireland)
+
+Where agents get deployed.
+
+### [AI and machine learning classes in Ireland](/ai-and-machine-learning-classes-in-ireland)
+
+The national AI page.
+
+Start here
+
+## Bring a real workflow to a free class
+
+Leave a number and we will ring at a time that suits your working day in Ireland. In the free class you describe a process you actually run, and leave knowing whether an agent fits it and what building one would involve.
+
+If you would rather read first: [how we teach](/how-we-teach), the [course list](/courses), and [what our students have built](/student-labs).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20work%20in%20Ireland%20and%20would%20like%20a%20free%20first%20class%20on%20building%20AI%20agents.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp suits busy days and costs nothing from an Irish number. Ours is an Indian number, as the team works from India, and there is no office in Ireland.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-agents-course-for-professionals-ireland*

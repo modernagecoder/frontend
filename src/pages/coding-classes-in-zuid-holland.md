@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes across Zuid-Holland, age
 canonical: https://learn.modernagecoders.com/coding-classes-in-zuid-holland
 source: src/pages/coding-classes-in-zuid-holland.html
 ---
-> Coding classes in Zuid-Holland serve 3,882,708 people in 50 municipalities (Statistics Netherlands, 1 January 2026), more than any other province, at about 1,430 to the square kilometre of land, denser than any other. Rotterdam and The Hague have pages of their own; the other 48 municipalities, from Zoetermeer and Leiden at 130,000 each down to Zoeterwoude at 10,355, are covered here by name. Every one of them gets the same live online class, taught in English to learners from 6 to 67 by Modern Age Coders, at the same fee: a free first lesson, USD 100 a month for a group place, USD 150 for a teacher alone.
+> Live online coding, Python and AI classes across Zuid-Holland, ages 6 to 67: Leiden, Delft, Zoetermeer, Dordrecht, Gouda, Westland and 44 more towns past Rotterdam.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Zuid-Holland
-
-Province of Zuid-Holland / Live online
-
-# Coding classes in Zuid-Holland, the densest province in the country and the largest piece of a region that has no edge
-
-**What are the best coding classes in Zuid-Holland?** Coding classes in Zuid-Holland serve 3,882,708 people in 50 municipalities (Statistics Netherlands, 1 January 2026), more than any other province, at about 1,430 to the square kilometre of land, denser than any other. Rotterdam and The Hague have pages of their own; the other 48 municipalities, from Zoetermeer and Leiden at 130,000 each down to Zoeterwoude at 10,355, are covered here by name. Every one of them gets the same live online class, taught in English to learners from 6 to 67 by Modern Age Coders, at the same fee: a free first lesson, USD 100 a month for a group place, USD 150 for a teacher alone.
-
-Ask anyone in Delft, Gouda or Dordrecht where they live and sooner or later they will say the Randstad. Ask how many people live in the Randstad and the honest answer is that its borders have never been officially specified, so the figure runs from 2.6 million to 8.6 million depending on who is counting. A child who can build the small program that shows why is ready for most of the maps they will ever be handed.
-
-Facts last verified 7 September 2026. Teaching is online; no Zuid-Holland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Zuid-Holland
 
 ## Four courses for a province of universities, greenhouses and islands
 
 A groep 4 child in Katwijk, a teenager in Zoetermeer with a database to build, a Delft student who wants a real front end, and a Westland grower's daughter who wants the app that runs the glasshouse: four doors, one province.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 6 to 10): Decomposition, patterns and the first real algorithm, in English, before any syntax gets in the way.
-- [MySQL for Teens](/courses/mysql-mastery-for-teens) (Ages 13 to 17): SQL from the first query to a real app, for the teenager who has noticed that every website is a database wearing a costume.
-- [React Course for Teens](/courses/react-for-teens-complete-masterclass) (Ages 14 to 18): JavaScript to real React apps, for the Leiden or Delft teenager who wants the thing to work on a phone by the weekend.
-- [Flutter Course](/courses/complete-flutter-app-development-masterclass-college) (College and adult): Dart to cross-platform apps, for the student at Delft or The Hague who wants one codebase that runs on both stores.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 6 to 10Problem Solving and Computational Thinking for KidsDecomposition, patterns and the first real algorithm, in English, before any syntax gets in the way.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![MySQL for Teens course thumbnail](/images/mysql-teens.webp)Ages 13 to 17MySQL for TeensSQL from the first query to a real app, for the teenager who has noticed that every website is a database wearing a costume.See the syllabus](/courses/mysql-mastery-for-teens)[![React Course for Teens course thumbnail](/images/react-teens.webp)Ages 14 to 18React Course for TeensJavaScript to real React apps, for the Leiden or Delft teenager who wants the thing to work on a phone by the weekend.See the syllabus](/courses/react-for-teens-complete-masterclass)[![Flutter Course course thumbnail](/images/flutter-college.webp)College and adultFlutter CourseDart to cross-platform apps, for the student at Delft or The Hague who wants one codebase that runs on both stores.See the syllabus](/courses/complete-flutter-app-development-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Zuid-Holland today
 
 ## The most people, the most schools, and the least room
 
@@ -52,7 +40,11 @@ Rotterdam at 673,804 and The Hague at 569,468 together hold 32.0 percent of the 
 
 The province held 3.325 million people in 1995 and 3.883 million on 1 January 2026, a rise of 17 percent over thirty-one years. Most of the growth went into the ring of towns between the two cities: Zoetermeer, Pijnacker-Nootdorp, Lansingerland, Westland.
 
-**Capital in one city, size in another** The Hague is the provincial capital as well as the seat of national government; Rotterdam is the larger city by more than a hundred thousand. Both were in the province of Holland until 1840, when it was split into a northern and a southern half, and the two halves have been arguing gently about which is the real one ever since.
+Capital in one city, size in another
+
+The Hague is the provincial capital as well as the seat of national government; Rotterdam is the larger city by more than a hundred thousand. Both were in the province of Holland until 1840, when it was split into a northern and a southern half, and the two halves have been arguing gently about which is the real one ever since.
+
+The spread
 
 ## From the bulb fields to the islands: every one of the 50 municipalities, by population
 
@@ -84,6 +76,8 @@ Hoeksche Waard 91,445 and Goeree-Overflakkee 52,798, the two southern islands, e
 
 Fifty municipalities, every one named. The city pages in this series are close-up; this page is the map, and the map is where a Zoeterwoude family finds itself.
 
+Verified local facts
+
 ## Where every Zuid-Holland number on this page came from
 
 The offices and dates behind the figures, including the three population counts for a region that has none.
@@ -114,6 +108,8 @@ Zuid-Holland takes its school holidays with regio Midden, alongside Utrecht and 
 
 None of the 50 municipalities, the province or any school inside it has any connection to Modern Age Coders, and this page claims none; they are listed because a page that says it serves a province ought to be able to name it.
 
+Signature project
+
 ## How many people live in the Randstad? Build the program that shows the question has no answer until someone draws a line
 
 Three published figures for one word, a province that is the biggest piece of all three, and a table in which the population of a place changes by six million without anyone moving house.
@@ -130,10 +126,8 @@ A function that takes a set of municipalities and sums their registered populati
 
 Between the narrowest and the widest reading the figure grows by a factor of 3.35. The density moves the other way: 1,135 per square kilometre for the urban area, 739 for the conurbation, lower still for four whole provinces with their lakes and polders. Zuid-Holland is 44.3 percent of the widest figure and none of the narrowest except its two cities.
 
-**One word, four published readings: the Randstad by definition**
-
 | Definition | Population | Area | Year | Density |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | The four cities (Amsterdam, Rotterdam, The Hague, Utrecht) | 2,563,320 | the four municipalities | 2026 | not comparable |
 | Urban area | 7,146,249 | 6,296.91 km2 | 2021 | 1,135 per km2 |
 | Conurbation | 8,403,915 | 11,372.15 km2 (8,261.98 land) | 2021 | 739 per km2 |
@@ -144,14 +138,14 @@ Between the narrowest and the widest reading the figure grows by a factor of 3.3
 
 Every count of people is a count inside a line, and where nobody has drawn the line every count is somebody's proposal. The Randstad is real in every conversation and absent from every register, which is why a sentence beginning "the Randstad has" should be followed by "according to" or should not be written. A learner who has fed the same aggregator four different member lists will ask for the boundary before believing any regional figure again: a metro area, a catchment, a market, a Greater anything. The table was computed before this paragraph was written; the four-city sum is arithmetic on the 2026 registers and the other three are quoted as published.
 
+Reliable pipeline
+
 ## Five habits for any figure that belongs to a region rather than a register
 
 Greater London, the Bay Area, the Ruhr, a sales territory, a school catchment: the same trap sits under every named area that nobody legally drew. Practised first on the region this province is the largest piece of.
 
-**When the place is a word and not a line**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Ask for the boundary | Before accepting a regional number, ask whose line it sits inside | Eight million and seven million quoted as if they measured the same thing | A figure with an owner |
 | Keep the member list | Store the region as a list of official units, never as a name | A total nobody can reproduce | A sum anyone can rerun |
 | Date the members | Municipalities merge; a list from 2010 is not a list from 2026 | A boundary that quietly moved with the mergers | Comparable years |
@@ -172,14 +166,37 @@ The same program on a sales region, a hospital catchment or a market-size estima
 
 The provincial totals, the 50 municipal populations, the areas, the 1995 figure and the three Randstad readings are published by the offices and the encyclopaedia entry named in the sentences that use them. The four-city sum and the density figures are arithmetic on those published numbers, and nothing on this page reports a Zuid-Holland measurement that no office has published.
 
+Learning ladder
+
 ## From a loop of string to an aggregator that asks for its boundary
 
 The starting rung comes out of the free lesson, not out of the postcode.
 
-- **Ages 6 to 10: Where the string goes** Children discover that a count depends on the loop, not on the houses. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 11 to 13: A sum over a list** Learners write a function that totals whatever list it is given and feed it two different lists. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 14 to 18: Four readings, one word** Teenagers build the aggregator, reproduce the published figures and propose a boundary. [Python for Teens](/courses/python-complete-masterclass-teens), [MySQL for Teens](/courses/mysql-mastery-for-teens)
-- **Ages 18 to 67: Regions at work** Adults rebuild a territory total from its member list and find the line nobody drew. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [MySQL Course](/courses/mysql-database-complete-masterclass-college)
+Ages 6 to 10
+
+### Where the string goes
+
+Children discover that a count depends on the loop, not on the houses.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 11 to 13
+
+### A sum over a list
+
+Learners write a function that totals whatever list it is given and feed it two different lists.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### Four readings, one word
+
+Teenagers build the aggregator, reproduce the published figures and propose a boundary.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[MySQL for Teens](/courses/mysql-mastery-for-teens)Ages 18 to 67
+
+### Regions at work
+
+Adults rebuild a territory total from its member list and find the line nobody drew.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[MySQL Course](/courses/mysql-database-complete-masterclass-college)Coding and AI
 
 ## The AI knows the Randstad has eight million people. Why should a child in Gouda learn to count them?
 
@@ -191,30 +208,139 @@ That habit is what the class trains, and it is why the code is still written by 
 
 So for a Zuid-Holland parent the argument for coding in 2026 is not that the child will write aggregators for a living. It is that knowing a total is only as real as its member list is a skill, that it transfers to every named region and every named market, and nobody has yet found a way to teach it that does not involve the learner building the sum and then moving the string. The longer argument is in [is coding still worth learning now that AI can write it](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for a province where the distances are short and the queues are long
 
 Nowhere in Zuid-Holland is far from a city, and everywhere in Zuid-Holland is a long way from one at half past four. A class that arrives at the kitchen table in Naaldwijk or Sliedrecht asks nothing of the A4, the A13 or the A20.
 
-- **No motorway between the child and the teacher** The lesson happens at home in Katwijk, Zoetermeer or Oud-Beijerland at a fixed hour, and the ring roads are somebody else's problem.
-- **Taught in English; the school's Dutch stays Dutch** Groep, havo, vwo, profielkeuze, MYP and Key Stage appear exactly as the family meets them at school, inside lessons otherwise held in English, the language the province's international households have in common.
-- **An hour that costs nothing and settles something** One task at the right level, then a course name and a starting rung, with no card asked for to set it up.
-- **Grouped by what they can do** Ability and goal decide the group. Island, glasshouse town or university city do not.
-- **Two lessons a week on regio Midden's calendar** Zuid-Holland takes its school holidays with regio Midden. The summer weeks are agreed before the slot is fixed, and they differ from Noord-Holland's in most years.
-- **Only one of the two clocks moves** India's stays put while the Dutch one jumps twice a year, so a Zuid-Holland afternoon trails the teacher's evening by four and a half hours in winter and three and a half in summer. Late afternoon, early evening and the weekend are the hours that fit both.
+### No motorway between the child and the teacher
 
-**The islands and the glasshouses** Goeree-Overflakkee and the Hoeksche Waard are each one municipality and each a real drive from anywhere; Westland is a town made of greenhouses that runs on a schedule the sun sets. In all three a weekly class that comes to the house is not a convenience but the only version that survives a season.
+The lesson happens at home in Katwijk, Zoetermeer or Oud-Beijerland at a fixed hour, and the ring roads are somebody else's problem.
+
+### Taught in English; the school's Dutch stays Dutch
+
+Groep, havo, vwo, profielkeuze, MYP and Key Stage appear exactly as the family meets them at school, inside lessons otherwise held in English, the language the province's international households have in common.
+
+### An hour that costs nothing and settles something
+
+One task at the right level, then a course name and a starting rung, with no card asked for to set it up.
+
+### Grouped by what they can do
+
+Ability and goal decide the group. Island, glasshouse town or university city do not.
+
+### Two lessons a week on regio Midden's calendar
+
+Zuid-Holland takes its school holidays with regio Midden. The summer weeks are agreed before the slot is fixed, and they differ from Noord-Holland's in most years.
+
+### Only one of the two clocks moves
+
+India's stays put while the Dutch one jumps twice a year, so a Zuid-Holland afternoon trails the teacher's evening by four and a half hours in winter and three and a half in summer. Late afternoon, early evening and the weekend are the hours that fit both.
+
+The islands and the glasshouses
+
+Goeree-Overflakkee and the Hoeksche Waard are each one municipality and each a real drive from anywhere; Westland is a town made of greenhouses that runs on a schedule the sun sets. In all three a weekly class that comes to the house is not a convenience but the only version that survives a season.
+
+Fees
 
 ## Two prices for fifty municipalities, and a free hour before either
 
 The full tariff, printed before anyone asks for a number.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 The international tariff is a single dollar figure with no euro version, and Wassenaar pays what Sliedrecht pays. The free lesson comes first and fixes the course and the hour; payment follows on WhatsApp. Pauses, plan changes and missed lessons: see the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Zuid-Holland.)Reviews
+
+## Reviews, reproduced as written
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Send the level, and name the town if you want to
+
+Expect an opening task of toy houses and a loop of string, a Python aggregator fed four member lists, or a regional total from work whose member list nobody has opened in years.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Zuid-Holland one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Zuid-Holland.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Zuid-Holland coding class questions
+
+The province, its towns, the Randstad, the teaching and the terms.
 
 ### How many people live in the Randstad?
 
@@ -256,10 +382,14 @@ The first lesson is free. Group tuition is USD 100 a month for two live lessons 
 
 Between five and ten, matched on level, pace and goal rather than on age, school or municipality. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.
 
+Explore the Netherlands
+
 ## Down to the two cities, across to the neighbours, up to the country
 
 Inside this province, [Rotterdam](/coding-classes-in-rotterdam) hands off to eight gebieden and [The Hague](/coding-classes-in-the-hague) to eight stadsdelen. The neighbouring province with a page is [Noord-Holland](/coding-classes-in-noord-holland), and the nearest city pages across the line are [Utrecht](/coding-classes-in-utrecht) and [Amsterdam](/coding-classes-in-amsterdam). The country page, the [Netherlands coding hub](/coding-classes-in-netherlands), is the parent of every page here; for model-building rather than programming, start at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Zuid-Holland.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-zuid-holland](https://learn.modernagecoders.com/coding-classes-in-zuid-holland#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-zuid-holland*

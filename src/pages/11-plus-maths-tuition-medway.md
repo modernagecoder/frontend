@@ -4,42 +4,34 @@ description: "Live online 11 plus maths for the Medway Test: a 50-minute maths p
 canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-medway
 source: src/pages/11-plus-maths-tuition-medway.html
 ---
-> Medway Council runs the Medway Test for the six Medway grammar schools, and says it is used only by them. GL Assessment writes it "specifically for Medway Council". There are three multiple-choice papers with breaks of at least twenty minutes: English (30 minutes), Mathematics (50 minutes, with no timed sections inside it) and Reasoning (45 minutes). The council's total counts the English and Mathematics standardised scores twice and Reasoning once, so maths is two fifths of the total. Questions are based on Key Stage 2 up to and including Year 5, and calculators and timers are not allowed. For 2027 entry, registration ran from 18 May to 12 June 2026, Medway primary pupils sat the test on 15 and 16 September 2026, and results arrive on 14 October 2026. We teach the maths, live online. Try a first lesson free; after that it is USD 100 a month in a group or USD 150 a month one to one.
+> Live online 11 plus maths for the Medway Test: a 50-minute maths paper counted twice, the rules Medway Council publishes, and Year 5 written methods taught well.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / 11 plus maths in Medway
+In short
 
-Medway · Medway Test mathematics paper · Live online, small groups or one to one
+Medway Council runs the Medway Test for the six Medway grammar schools, and says it is used only by them. GL Assessment writes it "specifically for Medway Council". There are three multiple-choice papers with breaks of at least twenty minutes: English (30 minutes), Mathematics (50 minutes, with no timed sections inside it) and Reasoning (45 minutes). The council's total counts the English and Mathematics standardised scores twice and Reasoning once, so maths is two fifths of the total. Questions are based on Key Stage 2 up to and including Year 5, and calculators and timers are not allowed. For 2027 entry, registration ran from 18 May to 12 June 2026, Medway primary pupils sat the test on 15 and 16 September 2026, and results arrive on 14 October 2026. We teach the maths, live online. Try a first lesson free; after that it is USD 100 a month in a group or USD 150 a month one to one.
 
-# 11 plus maths tuition in Medway
-
-The Medway Test treats maths more generously than almost any other 11 plus. It has a paper of its own, fifty minutes long, and Medway Council's marking formula counts it twice: English times two, maths times two, reasoning once. And unlike tests that chop maths into short timed sections, in Medway Council's own timing table, the column headed "Timed sections" reads, for maths, "No. The whole test must be completed in the 50 minutes." Then add one rule from the familiarisation booklet: no timer of any kind, watches with a calculator included. So for fifty minutes a ten-year-old manages their own pace through a full paper of Year 5 maths, without a calculator and without a watch. This page sets out what Medway Council publishes, and teaches the written methods such a paper leans on.
-
-At a glance: Test: The Medway Test, Medway's 11+; Written for: Medway Council, by GL Assessment; Papers: English, Mathematics, Reasoning; Maths paper: 50 minutes, one block; Maths weighting: Counted twice in the total; Format: Multiple choice; Not allowed: Calculator, any timer, ruler, protractor; We teach: Year 5 maths and written methods. Rated 4.9 across 547 Google reviews.
+Medway starting points
 
 ## Three courses for a 50-minute maths paper
 
 A long, double-weighted paper rewards reliable methods. Choose by where the errors come from.
 
-- [Medway Test maths course](/courses/11-plus-maths-preparation-course-uk): Year 5 content and written methods, practised in fifty-minute blocks.
-- [Mental maths for estimating](/courses/mental-maths-mastery-kids): Quick estimates that check written answers without a calculator.
-- [Solid number foundations](/courses/elementary-mathematics-complete-masterclass): For Year 4 children whose tables and place value need firming up first.
+[![11 Plus Maths Prep course thumbnail](/images/eleven-plus-maths.webp)  MEDWAY / 1 Medway Test maths course Year 5 content and written methods, practised in fifty-minute blocks. Open the syllabus →](/courses/11-plus-maths-preparation-course-uk)[![Mental Maths for Kids course thumbnail](/images/mental-maths-kids.webp)  MEDWAY / 2 Mental maths for estimating Quick estimates that check written answers without a calculator. Open the syllabus →](/courses/mental-maths-mastery-kids)[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  MEDWAY / 3 Solid number foundations For Year 4 children whose tables and place value need firming up first. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)
+
+The Medway Test
 
 ## What Medway Council publishes
 
 Medway Council runs registration and testing and publishes the papers, timings, marking and dates. Read on 26 September 2026.
 
-**The three Medway Test papers, from Medway Council**
-
 | Paper | Marked time | What it covers |
-|---|---|---|
+| --- | --- | --- |
 | English | 30 minutes | Comprehension, punctuation, grammar |
 | Mathematics | 50 minutes, one block | Mathematical elements, Key Stage 2 to Year 5 |
 | Reasoning | 45 minutes | Spatial and non-verbal (20 minutes), verbal (25 minutes) |
 
-**Medway Test dates for September 2027 entry**
-
 | Step | Date | Detail |
-|---|---|---|
+| --- | --- | --- |
 | Registration | Monday 18 May to Friday 12 June 2026 | The council suggests talking to the child's teacher first. |
 | Test, Medway primaries | Tuesday 15 and Wednesday 16 September 2026 | At the child's own school. |
 | Test, other children | Saturday 19 or Sunday 20 September 2026 | At a Medway test centre. |
@@ -54,6 +46,8 @@ The marking formula is published: "English test standardised score x 2 + Mathema
 The council says the Medway Test is used only by the six Medway grammar schools. Chatham Grammar also accepts a Kent Test assessment. Admissions after the test are for the council and the schools.
 
 Sources: [Medway Council, Medway Test (11+)](https://www.medway.gov.uk/info/200137/schools_and_learning/1049/medway_test_11), including its pages on registration, dates, results, how the test is marked and children outside Medway; the Medway Test familiarisation booklet (GL Assessment, 2026). Modern Age Coders has no connection with Medway Council, GL Assessment or any Medway school.
+
+Fifty minutes, one block
 
 ## Pacing a long maths paper without a watch
 
@@ -73,14 +67,14 @@ We also teach the simplest pacing rule there is: halfway through the time, be at
 
 The double weighting makes this matter. With maths counted twice in the total, a paper that goes well for thirty minutes and badly for twenty costs more than it would in a test where maths is a small section. Stamina is part of the maths here.
 
+The lesson
+
 ## Written methods that do not wobble
 
 With no calculator for fifty minutes, the formal written methods of Year 5 carry the paper. The curriculum asks children to "multiply numbers up to 4 digits by a one- or two-digit number using a formal written method, including long multiplication for two-digit numbers".
 
-**Year 5 written methods, with estimation checks (our own examples)**
-
 | Calculation | Estimate first | Exact answer |
-|---|---|---|
+| --- | --- | --- |
 | 347 × 26 | About 350 × 25 = 8,750 | 9,022 (6,940 + 2,082) |
 | 1,208 × 7 | About 1,200 × 7 = 8,400 | 8,456 |
 | 2,436 ÷ 6 | About 2,400 ÷ 6 = 400 | 406: note the zero in the tens |
@@ -96,6 +90,8 @@ The last row shows a mental shortcut the curriculum encourages: "multiply and di
 Subtraction across zeros, as in 4,005 - 1,687, is where exchanges go wrong. We teach it until it is boring, which is exactly the point: boring methods do not wobble at minute forty.
 
 Source: [national curriculum in England, mathematics](https://www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study/national-curriculum-in-england-mathematics-programmes-of-study), Year 5 multiplication and division, and addition and subtraction (statutory requirements). The examples are ours.
+
+Our approach
 
 ## Methods, stamina, and nothing unofficial
 
@@ -121,14 +117,14 @@ The council asks families to talk to their child's teacher before registering, t
 
 Medway and Kent run different tests on different timetables; our [Kent Test maths page](/11-plus-maths-tuition-kent) covers the county's own test.
 
+The six schools
+
 ## Chatham, Rochester, Gillingham and Rainham
 
 Medway Council's school directory names the six grammar schools that use the Medway Test. We list them only to show which test this page covers.
 
-**Medway's grammar schools, as Medway Council's directory lists them**
-
 | School | Note |
-|---|---|
+| --- | --- |
 | Chatham Grammar | Also accepts the Kent Test |
 | Fort Pitt Grammar School | Medway Test |
 | Holcombe Grammar School | Medway Test |
@@ -146,14 +142,14 @@ We have no connection with Medway Council, GL Assessment or any of these schools
 
 Source: Medway Council, secondary schools directory and Medway Test pages, read 26 September 2026.
 
+Towards September 2027
+
 ## Four stages to fifty steady minutes
 
 For today's Year 5, registration should fall in late spring 2027 and the test early in Year 6. The council publishes the dates.
 
-**From methods to stamina**
-
 | When | Stage | What secure looks like |
-|---|---|---|
+| --- | --- | --- |
 | Autumn, Year 5 | 1. Number facts and place value | Tables instant, numbers to a million read and rounded correctly |
 | Winter, Year 5 | 2. Written methods | Long multiplication and short division right first time, checked by estimate |
 | Spring, Year 5 | 3. The rest of Year 5 | Fractions, measures, shape and data as secure as number |
@@ -162,71 +158,321 @@ For today's Year 5, registration should fall in late spring 2027 and the test ea
 ### A later start
 
 If time is short, methods and stamina come first: they carry the most marks on a long paper.
+
 We will tell you honestly at the free lesson what the time allows.
 
 ### After October
 
 Reliable written methods are the backbone of secondary maths. Many pupils continue with [maths through coding](/courses/maths-through-coding).
+
 Children who love problems can try the challenges on our [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar).
+
+Our courses
 
 ## Maths and coding for Medway families
 
 By stage, each with its full syllabus.
 
+I
+
 ### For the Medway Test
 
 Years 3 to 5
 
-- [11 plus maths for Medway](/courses/11-plus-maths-preparation-course-uk): Year 5 maths for a 50-minute paper.
-- [Mental maths and estimation](/courses/mental-maths-mastery-kids): Checks without a calculator.
-- [Primary maths to Year 5](/courses/elementary-mathematics-complete-masterclass): Foundations first.
-- [Abacus arithmetic course](/courses/abacus-mental-maths-course-for-kids): Number sense by hand.
+MDM / 1
+
+#### 11 plus maths for Medway
+
+Year 5 maths for a 50-minute paper.
+
+[Open the syllabus](/courses/11-plus-maths-preparation-course-uk)
+
+MDM / 2
+
+#### Mental maths and estimation
+
+Checks without a calculator.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+MDM / 3
+
+#### Primary maths to Year 5
+
+Foundations first.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+MDM / 4
+
+#### Abacus arithmetic course
+
+Number sense by hand.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)II
 
 ### Secondary
 
 Year 6 onwards
 
-- [Early secondary maths](/courses/comprehensive-middle-school-mathematics-mastery): Algebra and more.
-- [GCSE maths, full course](/courses/gcse-mathematics-mastery): Both tiers, every board.
-- [Competition problem solving](/courses/olympiad-competition-mathematics-mastery): Stretch for strong pupils.
+MDM / 5
+
+#### Early secondary maths
+
+Algebra and more.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+MDM / 6
+
+#### GCSE maths, full course
+
+Both tiers, every board.
+
+[Open the syllabus](/courses/gcse-mathematics-mastery)
+
+MDM / 7
+
+#### Competition problem solving
+
+Stretch for strong pupils.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)III
 
 ### Coding
 
 Algorithms by hand and machine
 
-- [Maths through coding](/courses/maths-through-coding): Write long multiplication as an algorithm.
-- [Scratch for young coders](/courses/scratch-programming-complete-course): Logic and sequence.
-- [First Python, with AI](/courses/python-ai-kids-masterclass): Typed code for ready pupils.
+MDM / 8
+
+#### Maths through coding
+
+Write long multiplication as an algorithm.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+MDM / 9
+
+#### Scratch for young coders
+
+Logic and sequence.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)
+
+MDM / 10
+
+#### First Python, with AI
+
+Typed code for ready pupils.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)IV
 
 ### Later
 
 Teenagers
 
-- [Vedic methods](/courses/vedic-maths-course-speed-calculation-mastery): Speed on secure foundations.
-- [Teen machine learning](/courses/ai-ml-masterclass-teens): Where arithmetic ends up.
+MDM / 11
+
+#### Vedic methods
+
+Speed on secure foundations.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
+
+MDM / 12
+
+#### Teen machine learning
+
+Where arithmetic ends up.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+Lesson times
 
 ## After school or on weekends, UK time
 
 Lessons are taught live from India. Medway primary pupils have early-evening or weekend-morning slots, set in UK time, with the clock changes absorbed on our side.
 
-- **Weekday, after school** Early in the evening.
-- **Weekend, morning** For tired weekday learners.
-- **Holidays** Extra sessions to build stamina.
+Weekday, after school
 
-- **One teacher** The same teacher each week.
-- **Frank updates** Short, honest notes for parents.
-- **Fifteen to twenty children** Grouped by level.
-- **Nothing unofficial** Our own questions only; no copied GL or council material.
-- **One to one** For method gaps or pacing.
-- **Maths only** No English or reasoning coaching; no admissions advice.
+Early in the evening.
+
+Weekend, morning
+
+For tired weekday learners.
+
+Holidays
+
+Extra sessions to build stamina.
+
+### One teacher
+
+The same teacher each week.
+
+### Frank updates
+
+Short, honest notes for parents.
+
+### Fifteen to twenty children
+
+Grouped by level.
+
+### Nothing unofficial
+
+Our own questions only; no copied GL or council material.
+
+### One to one
+
+For method gaps or pacing.
+
+### Maths only
+
+No English or reasoning coaching; no admissions advice.
+
+Student work
+
+## Where our students take their maths
+
+Four projects built by students at our school, every one resting on reliable arithmetic. More on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 A single monthly US dollar fee for every family outside India. No sign-up charge; stop whenever you like.
 
-- Free first class: USD 0. A real lesson. An honest view. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty children at one level. A regular teacher. Methods checked in class. A certificate at the end.
-- One to one: USD 150 a month. A teacher for one child. Focused on methods and pace. Flexible timing.
+Free first class
+
+USD 0
+
+no card required
+
+- A real lesson
+- An honest view
+- No card needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty children at one level
+- A regular teacher
+- Methods checked in class
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one child
+- Focused on methods and pace
+- Flexible timing
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+From parents' Google reviews, word for word.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Medway Test questions
 
 ## What Medway families ask us
 
@@ -270,15 +516,54 @@ No. We teach maths only, and we do not advise on applications or places.
 
 The first lesson is free. Then it is USD 100 a month for a group or USD 150 a month for one to one.
 
+Related
+
 ## More for Kent and Medway families
 
-- [11 plus maths in Kent](/11-plus-maths-tuition-kent): The county's own test, sat in the first week of Year 6.
-- [11 plus maths in Bexley](/11-plus-maths-tuition-bexley): A London borough test just west of Medway.
-- [11 plus maths tuition](/11-plus-maths-tuition): The national overview.
-- [Coding for UK children](/online-coding-classes-for-kids-uk): A primary child's first steps in code.
-- [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar): Maths challenges through the year.
-- [All our UK pages](/coding-classes-in-united-kingdom): Every UK area.
+The Kent Test next door, our national page, and nearby selective areas.
 
-## Contact
+### [11 plus maths in Kent](/11-plus-maths-tuition-kent)
 
-Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-medway](https://learn.modernagecoders.com/11-plus-maths-tuition-medway#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The county's own test, sat in the first week of Year 6.
+
+### [11 plus maths in Bexley](/11-plus-maths-tuition-bexley)
+
+A London borough test just west of Medway.
+
+### [11 plus maths tuition](/11-plus-maths-tuition)
+
+The national overview.
+
+### [Coding for UK children](/online-coding-classes-for-kids-uk)
+
+A primary child's first steps in code.
+
+### [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar)
+
+Maths challenges through the year.
+
+### [All our UK pages](/coding-classes-in-united-kingdom)
+
+Every UK area.
+
+Start here
+
+## Book a free Medway maths lesson
+
+Tell us your child's year and how they manage longer stretches of maths. We teach a proper lesson and then give you an honest account.
+
+Reading first? Every [course syllabus](/courses) is online, [how we teach](/how-we-teach) explains our lessons, and the [roadmap](/coding-roadmap) shows the path onward.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20my%20child%20for%20the%20Medway%20Test.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is the quickest. We teach from India, our number is Indian, and we have no office in Kent or Medway.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-medway*

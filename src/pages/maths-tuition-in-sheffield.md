@@ -4,34 +4,28 @@ description: "Maths tuition in Sheffield for ages 6 to 67: live online maths tut
 canonical: https://learn.modernagecoders.com/maths-tuition-in-sheffield
 source: src/pages/maths-tuition-in-sheffield.html
 ---
-> Learners across Sheffield, the youngest six and the oldest 67, join our maths lessons by live video, either as one of fifteen to twenty classmates working at one level or alone with their tutor. Younger pupils get KS2 maths with tables practice ahead of the Year 4 check and reasoning practice ahead of Year 6 SATs maths. Teenagers get KS3 maths and then GCSE (AQA, Edexcel or OCR, either tier) or IGCSE, followed by A level Maths with optional Further Maths. Adults get anything from Functional Skills maths to a GCSE resit. Lessons combine exam practice with real problems. In Sheffield that means measuring bearings from the Cathedral tram stop to each end of the Supertram and solving the triangles they make. The first lesson is free; afterwards a group place costs USD 100 a month and private lessons USD 150 a month.
+> Maths tuition in Sheffield for ages 6 to 67: live online maths tutors for KS2 SATs, KS3, GCSE, A level and Further Maths, and adult maths. Book a free lesson.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths tuition in Sheffield
+What does maths tuition in Sheffield with us look like?
 
-Sheffield · Maths tutor, ages 6 to 67 · Live online, in small groups or one to one
+Learners across Sheffield, the youngest six and the oldest 67, join our maths lessons by live video, either as one of fifteen to twenty classmates working at one level or alone with their tutor. Younger pupils get KS2 maths with tables practice ahead of the Year 4 check and reasoning practice ahead of Year 6 SATs maths. Teenagers get KS3 maths and then GCSE (AQA, Edexcel or OCR, either tier) or IGCSE, followed by A level Maths with optional Further Maths. Adults get anything from Functional Skills maths to a GCSE resit. Lessons combine exam practice with real problems. In Sheffield that means measuring bearings from the Cathedral tram stop to each end of the Supertram and solving the triangles they make. The first lesson is free; afterwards a group place costs USD 100 a month and private lessons USD 150 a month.
 
-# Maths tuition in Sheffield
-
-Stand at the Cathedral tram stop with a compass and the Supertram network fans out around you. Middlewood lies on a bearing of 323.7 degrees, Meadowhall Interchange on 043.9, Halfway on 125.9. Join two of those ends to the Cathedral and you have a triangle whose third side you can find without ever measuring it: the cosine rule gives 6,430.9 metres from Middlewood to Meadowhall, and the direct distance worked out from the map agrees to a tenth of a metre. Bearings, the cosine rule, the sine rule and triangle area are all GCSE topics, and this page uses the Supertram to show how our online maths tutors teach Sheffield learners, from the Year 4 multiplication check to A level, Further Maths and adult maths.
-
-At a glance: Who: Sheffield learners aged 6 to 67; Primary: KS2 maths, the Year 4 check, Year 6 SATs; Secondary: KS3, GCSE foundation or higher; Exam boards: AQA, Edexcel, OCR; IGCSE as well; Post-16: A level Maths, Further Maths; Adults: Functional Skills maths, GCSE resits; Lessons: Live online; 15 to 20 per group or one to one; Sheffield project: Bearings and triangles on the Supertram. Rated 4.9 across 547 Google reviews.
+Where Sheffield learners usually start
 
 ## The three maths courses Sheffield families book most
 
 Most requests from Sheffield are for GCSE, A level or primary maths. The full list is further down.
 
-- [GCSE maths](/courses/gcse-mathematics-mastery): Foundation or higher tier for AQA, Edexcel or OCR, with bearings and trigonometry practised on real maps.
-- [A level maths](/courses/a-level-maths-course-pure-mechanics-statistics): Year 12 and 13 maths, where bearings grow into vectors, radians and the trigonometry of mechanics.
-- [Primary maths](/courses/elementary-mathematics-complete-masterclass): Times tables, angles and turns, fractions, and the reasoning the Year 6 SATs papers look for.
+[![GCSE Maths course thumbnail](/images/gcse-maths.webp)  SHF / 1 GCSE maths Foundation or higher tier for AQA, Edexcel or OCR, with bearings and trigonometry practised on real maps. Open the syllabus →](/courses/gcse-mathematics-mastery)[![A-Level Maths course thumbnail](/images/a-level-maths.webp)  SHF / 2 A level maths Year 12 and 13 maths, where bearings grow into vectors, radians and the trigonometry of mechanics. Open the syllabus →](/courses/a-level-maths-course-pure-mechanics-statistics)[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  SHF / 3 Primary maths Times tables, angles and turns, fractions, and the reasoning the Year 6 SATs papers look for. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)
+
+Year 1 to adult
 
 ## A maths tutor in Sheffield for KS2, KS3, GCSE and A level
 
 Sheffield schools follow the national curriculum for England, so the stages below are the ones every Sheffield learner passes through. Adults start from wherever they left off.
 
-**Maths at each stage for a Sheffield learner, and the focus of our lessons**
-
 | Stage | Years | What we concentrate on |
-|---|---|---|
+| --- | --- | --- |
 | KS1 | 1 and 2 | Counting, number bonds, simple shapes and quarter and half turns. |
 | KS2 | 3 to 6 | Times tables before the Year 4 check, angles in degrees, compass directions and the reasoning of Year 6 SATs. |
 | KS3 | 7 to 9 | Angle facts, scale drawings, first bearings and Pythagoras. |
@@ -53,6 +47,8 @@ For more on each stage see our national pages: [KS2 maths](/ks2-maths-tuition-on
 
 The Year 4 check is described on [gov.uk](https://www.gov.uk/government/collections/multiplication-tables-check) (read 1 October 2026). Key stage years are the standard ones for England.
 
+The Sheffield project
+
 ## Bearings from the Cathedral stop to every end of the Supertram
 
 A bearing is a direction given as an angle measured clockwise from north, always written with three figures. The Supertram, with lines spreading out from the city centre, is an ideal place to practise them.
@@ -65,10 +61,8 @@ A learner with a protractor and a paper map would get close to these numbers; we
 
 Every figure here is our own calculation from the open map. The distances are straight lines, not distances along the track, so they are shorter than any tram journey.
 
-**Bearings and straight-line distances from the Cathedral tram stop (our calculation from OpenStreetMap, 1 October 2026)**
-
 | End of the line | Bearing from Cathedral | Distance | Bearing back to Cathedral |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Malin Bridge | 307.8° | 3,287 m | 127.8° |
 | Middlewood | 323.7° | 4,596 m | 143.6° |
 | Herdings Park | 156.1° | 4,876 m | 336.1° |
@@ -90,14 +84,14 @@ That makes a lovely KS3 question: if the angle were exactly 180 degrees, what wo
 
 Data: [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), Supertram route relations and stops, one Overpass query on 1 October 2026. Bearings and distances are Modern Age Coders' calculations and are not published by the tram operator. GCSE wording: [DfE, GCSE mathematics subject content](https://www.gov.uk/government/publications/gcse-mathematics-subject-content-and-assessment-objectives), which includes "interpreting maps and scale drawings and use of bearings".
 
+Higher tier trigonometry
+
 ## Middlewood, Meadowhall and the cosine rule
 
 Take the Cathedral stop, Middlewood and Meadowhall Interchange as the three corners of a triangle. Two sides and the angle between them come straight from the bearings table; everything else follows.
 
-**Solving the Cathedral, Middlewood and Meadowhall Interchange triangle (our calculation)**
-
 | Step | Working | Result |
-|---|---|---|
+| --- | --- | --- |
 | Angle at Cathedral | 043.9° − 323.7° + 360° | 80.26° |
 | Third side, cosine rule | √(4,596.4² + 5,341.8² − 2 × 4,596.4 × 5,341.8 × cos 80.26°) | 6,430.9 m |
 | Direct distance from the map | Great-circle formula between the two ends | 6,430.9 m |
@@ -120,6 +114,8 @@ Add 125.05 to the 80.26 degrees already at Cathedral and you pass 180, which no 
 Different stages use the same triangle differently. KS2 children estimate the angles with a protractor on a printed map. KS3 learners draw it to scale. GCSE students use the cosine and sine rules as above, and A level students turn the bearings into vectors and find the bearing from Middlewood to Meadowhall, which is 088.7 degrees.
 
 All values are Modern Age Coders' calculations from the OpenStreetMap stop positions. The sine and cosine rules and the area formula appear in the DfE GCSE subject content, geometry and measures.
+
+Maths in South Yorkshire
 
 ## The South Yorkshire Maths Hub and maths beyond the classroom
 
@@ -147,6 +143,8 @@ We do not run an 11 plus page for Sheffield. Families preparing for a selective 
 
 Source: [NCETM, South Yorkshire Maths Hub](https://www.ncetm.org.uk/hubs/south-yorkshire-maths-hub/), read 1 October 2026. Modern Age Coders is independent of all of them, and of every school and university in the city.
 
+Adult learners
+
 ## Maths for adults in Sheffield: Functional Skills, resits and refreshers
 
 Adults are a large part of our Sheffield intake. Some need a qualification, some want to support their children, and some want to use numbers at work without a knot in the stomach.
@@ -165,14 +163,14 @@ Fractions, percentages, angles and statistics, rebuilt at an adult pace. See our
 
 Adults who once found trigonometry baffling often enjoy the Supertram triangle. They know the places, they can picture the map, and seeing the cosine rule reproduce a distance they could check for themselves makes the formula feel like a tool rather than a test.
 
+Progression
+
 ## From quarter turns to solving any triangle
 
 The four steps below build towards the trigonometry on this page. A new learner can join at any step; the free lesson shows which.
 
-**Four steps towards bearings and trigonometry for Sheffield learners**
-
 | Usually | Step | The learner can |
-|---|---|---|
+| --- | --- | --- |
 | Years 3 to 5 | 1. Turns and degrees | Describe turns in degrees and use the eight compass points |
 | Years 6 to 8 | 2. Angle facts | Find missing angles on lines, around points and in triangles |
 | Years 8 to 10 | 3. Bearings and scale | Measure and draw three-figure bearings on a scale map |
@@ -181,75 +179,353 @@ The four steps below build towards the trigonometry on this page. A new learner 
 ### Starting in Year 10 or 11
 
 Learners who join late in GCSE can still make real gains, provided algebra and angle facts are put right first.
+
 If there is not enough time to close the gap before the exam, we say so honestly after the free lesson.
 
 ### After GCSE
 
 Many continue to A level Maths, and some add Further Maths. Learners who prefer data move to our [statistics and probability course](/courses/statistics-probability-maths-course).
+
 Others recreate the bearings table in Python with [maths through coding](/courses/maths-through-coding).
+
+All courses
 
 ## Maths courses for Sheffield learners
 
 Arranged by stage, from early number to university mathematics.
 
+I
+
 ### Primary
 
 KS1 and KS2
 
-- [Primary maths](/courses/elementary-mathematics-complete-masterclass): All of KS1 and KS2, with SATs reasoning.
-- [Early number](/courses/early-math-foundations): Counting, shape and pattern for young children.
-- [Abacus maths](/courses/abacus-mental-maths-course-for-kids): Arithmetic with a bead frame, then in the head.
-- [Mental maths](/courses/mental-maths-mastery-kids): Quick, confident calculation.
+MSH / A1
+
+#### Primary maths
+
+All of KS1 and KS2, with SATs reasoning.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+MSH / A2
+
+#### Early number
+
+Counting, shape and pattern for young children.
+
+[Open the syllabus](/courses/early-math-foundations)
+
+MSH / A3
+
+#### Abacus maths
+
+Arithmetic with a bead frame, then in the head.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)
+
+MSH / A4
+
+#### Mental maths
+
+Quick, confident calculation.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)II
 
 ### Secondary
 
 KS3, GCSE, IGCSE
 
-- [KS3 maths](/courses/comprehensive-middle-school-mathematics-mastery): Lower secondary: angles, equations, ratio.
-- [GCSE maths](/courses/gcse-mathematics-mastery): Any board, either tier, resits included.
-- [IGCSE maths](/courses/igcse-mathematics-mastery): Cambridge and Edexcel international routes.
-- [11 plus maths](/courses/11-plus-maths-preparation-course-uk): Practice for selective school tests.
+MSH / B1
+
+#### KS3 maths
+
+Lower secondary: angles, equations, ratio.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+MSH / B2
+
+#### GCSE maths
+
+Any board, either tier, resits included.
+
+[Open the syllabus](/courses/gcse-mathematics-mastery)
+
+MSH / B3
+
+#### IGCSE maths
+
+Cambridge and Edexcel international routes.
+
+[Open the syllabus](/courses/igcse-mathematics-mastery)
+
+MSH / B4
+
+#### 11 plus maths
+
+Practice for selective school tests.
+
+[Open the syllabus](/courses/11-plus-maths-preparation-course-uk)III
 
 ### Advanced
 
 Sixth form and university
 
-- [A level maths](/courses/a-level-maths-course-pure-mechanics-statistics): Sixth form maths across all three strands.
-- [Competition maths](/courses/olympiad-competition-mathematics-mastery): UKMT challenges and olympiad problems.
-- [University maths](/courses/college-mathematics-complete-masterclass): Calculus, linear algebra, proof.
-- [Algebra foundations](/courses/algebra-foundations-masterclass): For anyone whose algebra needs a reset.
+MSH / C1
+
+#### A level maths
+
+Sixth form maths across all three strands.
+
+[Open the syllabus](/courses/a-level-maths-course-pure-mechanics-statistics)
+
+MSH / C2
+
+#### Competition maths
+
+UKMT challenges and olympiad problems.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)
+
+MSH / C3
+
+#### University maths
+
+Calculus, linear algebra, proof.
+
+[Open the syllabus](/courses/college-mathematics-complete-masterclass)
+
+MSH / C4
+
+#### Algebra foundations
+
+For anyone whose algebra needs a reset.
+
+[Open the syllabus](/courses/algebra-foundations-masterclass)IV
 
 ### Applied and adult
 
 Work and curiosity
 
-- [Statistics and probability](/courses/statistics-probability-maths-course): From averages to inference.
-- [Money maths for work](/courses/complete-business-finance-mathematics-mastery): Percentages, loans and forecasts in context.
-- [Maths for data](/courses/data-analytics-mathematics-masterclass): The statistics behind analysis.
-- [Maths through coding](/courses/maths-through-coding): Trigonometry and data in Python.
+MSH / D1
+
+#### Statistics and probability
+
+From averages to inference.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)
+
+MSH / D2
+
+#### Money maths for work
+
+Percentages, loans and forecasts in context.
+
+[Open the syllabus](/courses/complete-business-finance-mathematics-mastery)
+
+MSH / D3
+
+#### Maths for data
+
+The statistics behind analysis.
+
+[Open the syllabus](/courses/data-analytics-mathematics-masterclass)
+
+MSH / D4
+
+#### Maths through coding
+
+Trigonometry and data in Python.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+Lesson times
 
 ## Maths lessons around a Sheffield school week
 
 Our tutors keep Indian Standard Time, which has no summer change. That puts India four and a half hours ahead of Sheffield in summer and five and a half in winter; we quote every slot in UK time.
 
-- **Weekdays after school** Children and teenagers, straight from class.
-- **Weekday evenings** For A level students and adults.
-- **Weekend mornings** For anyone who prefers a weekend lesson.
+Weekdays after school
 
-- **One tutor, every week** The tutor who saw last week's slip checks for it again this week.
-- **Short reports** Families get a brief note on progress after lessons.
-- **Level-matched groups** Fifteen to twenty learners at one level, so the pace suits everyone.
-- **Maps and real places** Tram networks and local data alongside past papers.
-- **One to one when needed** For a specific weakness or the weeks before an exam.
-- **Explain, then practise** Learners say why a rule works before they drill it.
+Children and teenagers, straight from class.
+
+Weekday evenings
+
+For A level students and adults.
+
+Weekend mornings
+
+For anyone who prefers a weekend lesson.
+
+### One tutor, every week
+
+The tutor who saw last week's slip checks for it again this week.
+
+### Short reports
+
+Families get a brief note on progress after lessons.
+
+### Level-matched groups
+
+Fifteen to twenty learners at one level, so the pace suits everyone.
+
+### Maps and real places
+
+Tram networks and local data alongside past papers.
+
+### One to one when needed
+
+For a specific weakness or the weeks before an exam.
+
+### Explain, then practise
+
+Learners say why a rule works before they drill it.
+
+Student work
+
+## What learners built after lessons like these
+
+Students who began with problems like the Supertram triangle went on to make the projects below. More are in the [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Paid monthly in US dollars, one rate for all countries except India, with no joining fee and no contract.
 
-- Free first class: USD 0. A full lesson at the right level. An honest assessment afterwards. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same tutor each week. Homework marked with feedback. Certificate at the end.
-- One to one: USD 150 a month. One tutor for one learner. Aimed at specific gaps. Ideal before exams.
+Free first class
+
+USD 0
+
+no card required
+
+- A full lesson at the right level
+- An honest assessment afterwards
+- No card needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners at one level
+- The same tutor each week
+- Homework marked with feedback
+- Certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- One tutor for one learner
+- Aimed at specific gaps
+- Ideal before exams
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Google reviews from families and learners, exactly as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Sheffield maths questions
 
 ## What Sheffield families and adult learners ask
 
@@ -293,15 +569,54 @@ No. We describe what its public page says so that families know it exists. We ha
 
 No. Honest teaching and honest progress reports are what we offer; a grade depends on the learner and the day, and nobody can promise one.
 
+Related
+
 ## More for Sheffield learners
 
-- [GCSE maths tuition](/gcse-maths-tuition-online): Tiers, boards and how we teach them.
-- [A level maths tuition](/a-level-maths-tuition-online): Sixth form maths in depth.
-- [KS3 maths tuition](/ks3-maths-tuition-online): Years 7 to 9, where the groundwork is laid.
-- [Coding classes in Sheffield](/best-coding-class-in-sheffield): Our Sheffield page for coding and AI.
-- [Maths tuition in Leeds](/maths-tuition-in-leeds): Our Leeds maths page and its hill gradients project.
-- [UK index](/coding-classes-in-united-kingdom): Every UK page we publish.
+Stage-by-stage maths guides, coding in Sheffield, and maths pages for nearby cities.
 
-## Contact
+### [GCSE maths tuition](/gcse-maths-tuition-online)
 
-Book the free first class at [https://learn.modernagecoders.com/maths-tuition-in-sheffield](https://learn.modernagecoders.com/maths-tuition-in-sheffield#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Tiers, boards and how we teach them.
+
+### [A level maths tuition](/a-level-maths-tuition-online)
+
+Sixth form maths in depth.
+
+### [KS3 maths tuition](/ks3-maths-tuition-online)
+
+Years 7 to 9, where the groundwork is laid.
+
+### [Coding classes in Sheffield](/best-coding-class-in-sheffield)
+
+Our Sheffield page for coding and AI.
+
+### [Maths tuition in Leeds](/maths-tuition-in-leeds)
+
+Our Leeds maths page and its hill gradients project.
+
+### [UK index](/coding-classes-in-united-kingdom)
+
+Every UK page we publish.
+
+Start here
+
+## Book a free maths lesson in Sheffield
+
+Tell us the learner's age or year group, the exam board if there is one, and which topic feels hardest. The first lesson is a real lesson, and we give you a frank view of where things stand afterwards.
+
+Would you rather browse first? Visit our [course pages](/courses) or read about [the way we teach](/how-we-teach).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20a%20learner%20in%20Sheffield.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is quickest. The number carries India's country code because that is where the team works; there is no Sheffield office and every lesson happens online.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/maths-tuition-in-sheffield*

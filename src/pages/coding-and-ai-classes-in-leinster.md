@@ -4,51 +4,37 @@ description: "Live online coding, Python and AI classes across Leinster, from Du
 canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-leinster
 source: src/pages/coding-and-ai-classes-in-leinster.html
 ---
-> Leinster is the most populous of Ireland's four provinces: 2,835,980 of the State's residents lived in its twelve counties at the 2022 census, in 1,004,936 households. It holds Dublin and its three neighbouring councils, the commuter counties around them and the midlands to the west. We have a separate page for every Leinster county, linked below. Every class we run is live and weekly, placed by ability in groups of fifteen to twenty or taught one to one, for learners from six to sixty-seven; the opening lesson is free and afterwards a group place is USD 100 a month and a private one USD 150.
+> Live online coding, Python and AI classes across Leinster, from Dublin, Kildare and Meath to Louth, Wexford and the midlands, for ages 6 to 67. First lesson free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / Leinster
-
-Leinster, the eastern province / Live online
-
-# Coding and AI classes in Leinster
-
-**What are the best coding and AI classes in Leinster?** Leinster is the most populous of Ireland's four provinces: 2,835,980 of the State's residents lived in its twelve counties at the 2022 census, in 1,004,936 households. It holds Dublin and its three neighbouring councils, the commuter counties around them and the midlands to the west. We have a separate page for every Leinster county, linked below. Every class we run is live and weekly, placed by ability in groups of fifteen to twenty or taught one to one, for learners from six to sixty-seven; the opening lesson is free and afterwards a group place is USD 100 a month and a private one USD 150.
-
-Here is a sum that looks right and is not. The census counts how many working people in each province work from home at least some of the time. Connacht comes to 27.6%, Leinster 35.5%, Munster 28.9% and Ulster, meaning the three Ulster counties in this State, 21.9%. Add the four and divide by four and you get 28.5%. The national figure is 32.1%. Nothing is wrong with the census. The plain average treats each province as equal, and they are not: Leinster alone holds 57.0% of all the working people in the country, so the national figure is mostly Leinster's. Averaging averages without their weights is one of the commonest errors in anything built from grouped numbers, school results and sales regions included.
-
-Facts last verified 17 September 2026. Teaching is online; no Leinster branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks across Leinster
 
 ## Four starting points for the province
 
 Choose by age and what the learner wants to build. Each course begins with a free lesson from the teacher who would take it, and booking asks for no payment details.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Scratch projects where some groups are bigger than others, and a fair total has to account for it.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 9 to 13): Averages, weights and proportions, learned by writing the programs that calculate them.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): Real province tables, and the difference between a plain average and a weighted one.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): For adults who roll up regional or team figures and need the total to be right.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsScratch projects where some groups are bigger than others, and a fair total has to account for it.See the syllabus](/courses/scratch-programming-complete-course)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 9 to 13Maths Through CodingAverages, weights and proportions, learned by writing the programs that calculate them.See the syllabus](/courses/maths-through-coding)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensReal province tables, and the difference between a plain average and a weighted one.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CourseFor adults who roll up regional or team figures and need the total to be right.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## The national figure is mostly Leinster
 
 Census 2022 counts of working people who work from home, by province, and two ways of turning them into one number.
 
-**Working from home at least some of the time, Census 2022, table SAP2022T11T4PROV**
-
 | Province | Working people | Working from home | Share, our arithmetic |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Connacht | 255,297 | 70,500 | 27.6% |
 | Leinster | 1,308,124 | 463,956 | 35.5% |
 | Munster | 600,129 | 173,175 | 28.9% |
 | Ulster (part of) | 130,188 | 28,479 | 21.9% |
-| Plain average of the four shares |  |  | 28.5%, which is wrong |
+| Plain average of the four shares |   |   | 28.5%, which is wrong |
 | The State, from the published total | 2,293,738 | 736,110 | 32.1%, which is right |
 
 ### Why the two numbers differ
@@ -69,6 +55,8 @@ A school averages the average marks of five classes of different sizes and repor
 
 It happens again on household broadband, from table SAP2022T15T2PROV. By our arithmetic 75.7% of households in Connacht, 82.0% in Leinster, 76.3% in Munster and 76.6% in Ulster (part of) had broadband, a plain average of 77.7%, while the national share is 79.4%. Leinster holds 1,004,936 of the State's 1,836,728 households, 54.7%, and pulls the total towards its own figure. Every percentage on this page is our own arithmetic on counts the statistics office publishes, and every count is quoted as published.
 
+The counties of Leinster
+
 ## Twelve counties, a page for each
 
 Dublin has four local authorities and four pages; every other Leinster county has its own.
@@ -87,14 +75,14 @@ The city at [coding classes in Dublin](/best-coding-class-in-dublin), and its co
 
 Each county page carries that county's own census figures, schools, towns and a data project of its own, so nothing on those pages is repeated here. This page sticks to what the statistics office publishes for Leinster as a whole, which is what a province page can honestly add.
 
+Leinster in the census
+
 ## What the census publishes for the province
 
 Province totals from the Census 2022 small area population tables. Shares are our arithmetic.
 
-**Leinster against the State, Census 2022**
-
 | Measure | Leinster | The State |
-|---|---|---|
+| --- | --- | --- |
 | Usually resident population | 2,835,980 | 5,084,879 |
 | Households | 1,004,936 | 1,836,728 |
 | Households with broadband | 824,314 | 1,457,883 |
@@ -114,16 +102,41 @@ About 35% of Leinster residents aged three and over say they can speak Irish, th
 
 Of Leinster's residents, 132,195 were born in the United Kingdom, 57,504 in Poland and 39,245 in India, according to the census birthplace table for the province.
 
-**What the long commute means for a family** An hour or more each way to work, school or college is a normal day for 185,656 people in this province. Evenings in those households are short, and a class that needs a second journey across the commuter belt competes with the only free hour the family has. A class that begins at the kitchen table does not.
+What the long commute means for a family
+
+An hour or more each way to work, school or college is a normal day for 185,656 people in this province. Evenings in those households are short, and a class that needs a second journey across the commuter belt competes with the only free hour the family has. A class that begins at the kitchen table does not.
+
+Learning ladder
 
 ## From counting fairly to weighting properly
 
 Age bands are a guide; the first lesson places each learner.
 
-- **Ages 6 to 10: Big groups and small ones** Programs that total scores from teams of different sizes and notice when a total is unfair. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 11 to 13: Average of averages** Seeing, with real numbers, why averaging percentages goes wrong when groups differ in size. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 14 to 18: Weighted results in code** Rolling grouped data up to a total correctly, and proving it against a published figure. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Roll-ups at work** Combining team, branch or regional results into one number that means something. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Big groups and small ones
+
+Programs that total scores from teams of different sizes and notice when a total is unfair.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 11 to 13
+
+### Average of averages
+
+Seeing, with real numbers, why averaging percentages goes wrong when groups differ in size.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### Weighted results in code
+
+Rolling grouped data up to a total correctly, and proving it against a published figure.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Roll-ups at work
+
+Combining team, branch or regional results into one number that means something.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## Ask a tool to combine four percentages and it will average them
 
@@ -135,30 +148,139 @@ The learner who has done this project asks for the counts behind any percentage 
 
 Tools will do the arithmetic you ask for. Knowing which arithmetic the question needs is still the skill, and it is why building real understanding matters more in 2026, not less. The longer argument is in [is coding still a skill worth building in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How lessons work anywhere in the province
 
 From Dundalk to Enniscorthy to Mullingar, the arrangement is identical.
 
-- **Live every time** A teacher runs the whole lesson in real time and expects the learner to talk, try and get things wrong aloud.
-- **Grouped by level** Fifteen to twenty learners at one ability level, drawn from across Leinster and further afield so the match is a real one.
-- **Two lessons most weeks** About eight a month, at a day and time fixed at the start and then kept.
-- **The Irish school year** Junior Cycle, Transition Year and the Leaving Certificate years, with mid-terms and exams planned around.
-- **At home** A laptop or desktop, working sound and a connection that carries video; the free lesson confirms all three.
-- **Private if better** Where no suitable group meets at a workable time, the same course is taught one to one.
+### Live every time
 
-**For the commuter belt in particular** In the counties around Dublin a school day often ends with a long drive for somebody. A weekly class that needs no extra journey is the one that lasts, and the learner meets others at exactly their level rather than whoever happens to live nearby.
+A teacher runs the whole lesson in real time and expects the learner to talk, try and get things wrong aloud.
+
+### Grouped by level
+
+Fifteen to twenty learners at one ability level, drawn from across Leinster and further afield so the match is a real one.
+
+### Two lessons most weeks
+
+About eight a month, at a day and time fixed at the start and then kept.
+
+### The Irish school year
+
+Junior Cycle, Transition Year and the Leaving Certificate years, with mid-terms and exams planned around.
+
+### At home
+
+A laptop or desktop, working sound and a connection that carries video; the free lesson confirms all three.
+
+### Private if better
+
+Where no suitable group meets at a workable time, the same course is taught one to one.
+
+For the commuter belt in particular
+
+In the counties around Dublin a school day often ends with a long drive for somebody. A weekly class that needs no extra journey is the one that lasts, and the learner meets others at exactly their level rather than whoever happens to live nearby.
+
+Fees
 
 ## Fees across Leinster
 
 The same three figures in every county of the province.
 
-- First class: USD 0. A full first lesson, free, finishing with a level and a recommended course.
-- Group tuition: USD 100 a month. A month of group lessons, about eight, with fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. A month of one to one lessons at the same weekly pace.
+First class**USD 0**
+
+A full first lesson, free, finishing with a level and a recommended course.
+
+Group tuition**USD 100**
+
+A month of group lessons, about eight, with fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+A month of one to one lessons at the same weekly pace.
 
 Billing is monthly in US dollars at the single rate we charge outside India, so Wicklow and Longford pay the same and there is no separate euro list. Nothing is charged until a course and a weekly time are agreed in the free lesson, and the pricing page covers pauses, missed lessons and moving between group and private.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Leinster.)Reviews
+
+## Six reviews families left for us on Google, as written
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free first lesson
+
+Tell us the learner's age and interests. The first hour is planned around that, whether it is a Scratch game about fair totals or real province data where the obvious average is wrong.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Leinster one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Leinster.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Leinster coding class questions
+
+Questions families across the province ask first.
 
 ### How many people live in Leinster?
 
@@ -200,10 +322,14 @@ The first lesson is free. After that a shared place costs USD 100 a month and br
 
 Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
+Explore Ireland
+
 ## The other provinces
 
 Ireland's other provinces have pages too: [Munster](/coding-and-ai-classes-in-munster), [Connacht](/coding-and-ai-classes-in-connacht) and [the three Ulster counties in the State](/coding-and-ai-classes-in-ulster). A side by side comparison of online coding schools is [here](/best-online-coding-classes-ireland), and the [Ireland page](/coding-classes-in-ireland) gathers every city, county and course guide.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Leinster.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-and-ai-classes-in-leinster](https://learn.modernagecoders.com/coding-and-ai-classes-in-leinster#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-leinster*

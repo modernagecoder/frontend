@@ -4,46 +4,32 @@ description: "Live online AI and programming classes for Canberra's Inner South,
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-inner-south-canberra
 source: src/pages/ai-and-programming-classes-in-inner-south-canberra.html
 ---
-> That "unusual" depends on what you compare against. Learners flag parking sensors with low battery voltages in Griffith and Forrest. One rule for all sensors mostly flags overhead units, which simply run at different voltages. Separate rules for each sensor type flag a different set, including 22 underground sensors the single rule missed.
+> Live online AI and programming classes for Canberra's Inner South, ages 6 to adult, with an anomaly-detection project on 455 ACT smart parking sensors.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [Australian Capital Territory](/coding-and-ai-classes-in-australian-capital-territory) / [Canberra](/vibe-coding-and-ai-agents-classes-in-canberra) / Inner South Canberra
-
-Inner South (South Canberra district), ACT / Live online
-
-# AI and programming classes in Canberra's Inner South
-
-**What does the Inner South anomaly project teach?** That "unusual" depends on what you compare against. Learners flag parking sensors with low battery voltages in Griffith and Forrest. One rule for all sensors mostly flags overhead units, which simply run at different voltages. Separate rules for each sensor type flag a different set, including 22 underground sensors the single rule missed.
-
-The Inner South runs from Yarralumla and Deakin across to Kingston, Griffith and Narrabundah. Nearly half its homes are flats or apartments. Around Griffith and Forrest, the ACT Government has fitted hundreds of smart parking sensors, and their battery readings are public.
-
-Facts last verified 13 October 2026. Teaching is online; no Inner South Canberra branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for the Inner South
 
 ## AI, statistics and Python
 
 Courses that suit the anomaly project. A free trial lesson sets the level.
 
-- [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) (University and adult): Anomaly detection, thresholds and honest evaluation.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Models and rules tested on real sensor data.
-- [Statistics & Probability](/courses/statistics-probability-maths-course) (University and adult): Percentiles, spread and comparing groups.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): First Python and AI ideas for children.
+[![AI and ML Masterclass course thumbnail](/images/ai-ml-college.webp)University and adultAI and ML MasterclassAnomaly detection, thresholds and honest evaluation.See the syllabus](/courses/ai-ml-masterclass-complete-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensModels and rules tested on real sensor data.See the syllabus](/courses/ai-ml-masterclass-teens)[![Statistics & Probability course thumbnail](/images/statistics-probability-maths.webp)University and adultStatistics & ProbabilityPercentiles, spread and comparing groups.See the syllabus](/courses/statistics-probability-maths-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsFirst Python and AI ideas for children.See the syllabus](/courses/python-ai-kids-masterclass)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)The Inner South in figures
 
 ## Apartments, home offices and professionals
 
 The ABS calls this area South Canberra (SA3 80106). These are its 2021 Census QuickStats, read on 13 October 2026, with the bureau's 2025 estimate.
 
-**Inner South counts**
-
 | Measure | Value |
-|---|---|
+| --- | --- |
 | Residents, 2021 Census | 31,592 |
 | Estimated residents, 2025 | 34,483 |
 | Median age | 40 |
@@ -51,10 +37,8 @@ The ABS calls this area South Canberra (SA3 80106). These are its 2021 Census Qu
 | Private dwellings | 15,903 |
 | Bedrooms per dwelling | 2.7 |
 
-**Inner South shares beside the ACT**
-
 | Share | Inner South | ACT |
-|---|---|---|
+| --- | --- | --- |
 | Flat or apartment | 47.6% (6,309) | 19.4% |
 | Managers among workers | 23.9% (4,269) | 17.9% |
 | Worked at home | 13.8% (2,453) | 10.9% |
@@ -74,21 +58,19 @@ The 2021 count and the 2025 estimate come from different ABS methods and are sho
 
 The Census ran during the pandemic, which probably inflated working from home that week. ABS figures are rounded and small counts nudged for privacy, so rows may not sum to totals; we keep the bureau's numbers as they are.
 
+Signature project
+
 ## Weak battery, or just a different sensor?
 
 The ACT smart parking sensor list records 455 sensors, all in Griffith and Forrest, each with a type and a battery voltage. A maintenance team wants an alert for the weakest 10%. Learners compare one cut-off for every sensor with a separate cut-off for each type.
 
-**Voltage by sensor type (ACT open data, read 13 October 2026)**
-
 | Type | Sensors | Median | Range |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Underground | 265 | 2.84 V | 2.00 to 3.61 V |
 | Overhead | 190 | 3.61 V | 2.29 to 3.61 V |
 
-**Who gets flagged (our calculation)**
-
 | Rule | Cut-off | Flagged | Underground | Overhead |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | One rule for all | 2.58 V | 54 | 6 | 48 |
 | Per type: underground | 2.74 V | 28 | 28 | none |
 | Per type: overhead | 2.51 V | 22 | none | 22 |
@@ -111,14 +93,14 @@ There is no record of which sensors actually failed, so neither rule can be scor
 
 Readings come from the ACTGOV Smart Parking Sensor Assets list on data.act.gov.au, CC BY 4.0, read on 13 October 2026. Parsing the voltage text, the percentiles and every flag count are our own Python calculation.
 
+In code
+
 ## Group first, then threshold
 
 The fix is a groupby before the percentile, so each sensor is compared with its own kind.
 
-**Lesson steps**
-
 | Step | Learner task |
-|---|---|
+| --- | --- |
 | 1 | Parse "2.81V BATTERY VOLTAGE" strings into numbers and check none are missing. |
 | 2 | Plot voltages by sensor type and describe the two shapes. |
 | 3 | Flag the lowest 10% overall, then the lowest 10% within each type. |
@@ -138,6 +120,8 @@ Code both rules in Python, chart the flags and explain the overlap.
 
 Set alert thresholds per device type, store or region instead of one global number.
 
+Around the Inner South
+
 ## Exotic avenues, barbecues and 2027 dates
 
 More Inner South facts from territory open data.
@@ -154,16 +138,41 @@ The ACT barbecue list places 32 barbecues in the district, and 79 artworks are r
 
 ACT Term 4 runs from Tuesday 12 October to Friday 17 December 2027.
 
-**District used** We use the ABS South Canberra area of about 44.4 square kilometres; 12 named suburbs fall inside it by our outline test, including Acton and Parkes.
+District used
+
+We use the ABS South Canberra area of about 44.4 square kilometres; 12 named suburbs fall inside it by our outline test, including Acton and Parkes.
+
+Learning ladder
 
 ## From "who is tall" to anomaly detection
 
 Ages are only a starting guide.
 
-- **Ages 6 to 9: Comparing fairly** Block-code games about sorting into groups. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)
-- **Ages 8 to 12: First data** Python lists, averages and simple charts. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 17: Machine learning** Rules, models and how to evaluate them. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **University and adult: Applied AI** Monitoring and alerting with real data. [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college), [Statistics & Probability](/courses/statistics-probability-maths-course)
+Ages 6 to 9
+
+### Comparing fairly
+
+Block-code games about sorting into groups.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)Ages 8 to 12
+
+### First data
+
+Python lists, averages and simple charts.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 17
+
+### Machine learning
+
+Rules, models and how to evaluate them.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)University and adult
+
+### Applied AI
+
+Monitoring and alerting with real data.
+
+[AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college)[Statistics & Probability](/courses/statistics-probability-maths-course)Coding and AI
 
 ## Can an AI tool find the anomalies for us?
 
@@ -175,30 +184,139 @@ An Inner South learner who has split the data by type, and admitted there are no
 
 In our AI classes, every alarm comes with its comparison group. The longer argument is in [is learning to code still worth it](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Online lessons for the Inner South
 
 Every lesson is live over video, so learners join from home whether in Kingston or Red Hill.
 
-- **Real teacher** Lessons are taught live, with work checked as it happens.
-- **Term-time** Classes follow ACT terms and pause in school holidays.
-- **Free trial** One free lesson, then a written plan.
-- **Groups** Level groups of fifteen to twenty, or private lessons.
-- **Two weekly** Around eight lessons each month.
-- **India time** In July a 5:30pm Inner South lesson starts at 1pm in India.
+### Real teacher
 
-**Seasonal clocks** Canberra follows Sydney in the IANA time zone database, so daylight saving shifts lesson times by an hour against India each October and April.
+Lessons are taught live, with work checked as it happens.
+
+### Term-time
+
+Classes follow ACT terms and pause in school holidays.
+
+### Free trial
+
+One free lesson, then a written plan.
+
+### Groups
+
+Level groups of fifteen to twenty, or private lessons.
+
+### Two weekly
+
+Around eight lessons each month.
+
+### India time
+
+In July a 5:30pm Inner South lesson starts at 1pm in India.
+
+Seasonal clocks
+
+Canberra follows Sydney in the IANA time zone database, so daylight saving shifts lesson times by an hour against India each October and April.
+
+Fees
 
 ## Inner South fees
 
 Every learner pays the same fees.
 
-- First class: USD 0. The trial lesson is free and includes a plan.
-- Group tuition: USD 100 a month. Groups: about eight lessons a month, fifteen to twenty learners.
-- Private tuition: USD 150 a month. One-to-one: about eight lessons a month with a dedicated teacher.
+First class**USD 0**
+
+The trial lesson is free and includes a plan.
+
+Group tuition**USD 100**
+
+Groups: about eight lessons a month, fifteen to twenty learners.
+
+Private tuition**USD 150**
+
+One-to-one: about eight lessons a month with a dedicated teacher.
 
 We bill in US dollars, starting only when the trial has fixed the course and a weekly slot. Holiday and missed-lesson details live on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Canberra's%20Inner%20South%20and%20would%20like%20a%20free%20AI%20or%20coding%20lesson.)Reviews
+
+## Google reviews by families
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Inner South lesson
+
+Let us know the learner's age and interests. Younger children can play the "who is tall" game; teenagers can build the two sensor rules.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Inner South Canberra one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Canberra's%20Inner%20South%20and%20would%20like%20a%20free%20AI%20or%20coding%20lesson.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Inner South AI and programming questions
+
+Questions from Inner South families and adult learners.
 
 ### How many people live in the Inner South?
 
@@ -240,10 +358,14 @@ By level and pace, fifteen to twenty per group, not by age or suburb. One-to-one
 
 Yes. Adults learn in their own groups or privately, often applying monitoring ideas at work.
 
+More for Canberra learners
+
 ## Continue reading
 
 Families south of the lake can also see the [Canberra page](/vibe-coding-and-ai-agents-classes-in-canberra), the [ACT guide](/coding-and-ai-classes-in-australian-capital-territory) and [AI classes for teenagers](/ai-classes-for-teens-australia).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Canberra's%20Inner%20South%20and%20would%20like%20a%20free%20AI%20or%20coding%20lesson.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-inner-south-canberra](https://learn.modernagecoders.com/ai-and-programming-classes-in-inner-south-canberra#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-inner-south-canberra*

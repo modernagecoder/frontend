@@ -4,46 +4,32 @@ description: "Coding, Python, AI and data classes for Castletroy learners aged 6
 canonical: https://learn.modernagecoders.com/coding-classes-in-castletroy-limerick
 source: src/pages/coding-classes-in-castletroy-limerick.html
 ---
-> Castletroy learners join a teacher live on video for every lesson, working in a small group at a single level or on their own, usually across two days a week, with enrolment open to all ages from six to sixty-seven. There is no journey involved. The first lesson is on us; after that, a monthly group place costs USD 100 and monthly private lessons USD 150.
+> Coding, Python, AI and data classes for Castletroy learners aged 6 to 67, taught live online in small level-matched groups or one to one. The first lesson is free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [Limerick](/best-coding-class-in-limerick) / Castletroy
-
-Castletroy, Limerick / Live online
-
-# Coding classes in Castletroy
-
-**What are the best coding classes in Castletroy?** Castletroy learners join a teacher live on video for every lesson, working in a small group at a single level or on their own, usually across two days a week, with enrolment open to all ages from six to sixty-seven. There is no journey involved. The first lesson is on us; after that, a monthly group place costs USD 100 and monthly private lessons USD 150.
-
-About a kilometre from Castletroy College, the Office of Public Works runs a monitoring station at Annacotty that reports not just the river's level but six measures of the water itself, among them turbidity, conductivity, salinity, oxygen and pH. Before analysing any of them, a careful learner compares the columns with each other. In the 35 days to 19 September 2026, two of them match at every single reading: the column labelled salinity holds exactly the same number as the column labelled pH, 837 times out of 837. Two independent instruments never agree to the last decimal place every hour for five weeks. This page shows how to find a problem like that in a few lines of code, before it quietly spoils an analysis.
-
-Facts last verified 20 September 2026. Teaching is online; no Castletroy branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Castletroy
 
 ## Courses Castletroy learners start with
 
 Pick by age; in the free opening lesson the teacher either keeps the course or recommends another.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Blocks and matching: a spot-the-difference game where two pictures that should differ turn out identical.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Python with two lists compared item by item, counting where they agree and where they differ.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 18): Sensor data in Python: comparing every pair of columns and testing values against what is physically plausible.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): For adults who inherit data pipelines and need automatic checks that catch a copied or mislabelled field.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlocks and matching: a spot-the-difference game where two pictures that should differ turn out identical.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsPython with two lists compared item by item, counting where they agree and where they differ.See the syllabus](/courses/python-ai-kids-masterclass)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 18Data Science for TeensSensor data in Python: comparing every pair of columns and testing values against what is physically plausible.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CourseFor adults who inherit data pipelines and need automatic checks that catch a copied or mislabelled field.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## Compare every column with every other before trusting any of them
 
 The OPW's Annacotty station, six water-quality channels, 837 hourly readings each from 15 August to 19 September 2026, as published on waterlevel.ie. Each pair of channels was compared reading by reading.
 
-**Annacotty station: how often two channels give the same value**
-
 | Channel pair | Readings compared | Identical |
-|---|---|---|
+| --- | --- | --- |
 | Salinity and pH | 837 | 837 |
 | Turbidity and Temperature | 837 | 1 |
 | Any of the other 13 pairs | 837 each | 0 |
@@ -78,14 +64,14 @@ The OPW describes the readings on waterlevel.ie as provisional and unvalidated a
 
 The counts refer to the month file downloaded on 20 September 2026. A later file may have been corrected, which is the outcome a good report hopes for.
 
+Castletroy, named
+
 ## Castletroy, as its schools and venues describe it
 
 Facts that each organisation publishes itself, on its own site or on the council's pages, with eircodes where they are given.
 
-**Named places in Castletroy**
-
 | Place | What its own source says |
-|---|---|
+| --- | --- |
 | Castletroy College | Newtown, Castletroy, V94 6D85 |
 | Gaelscoil Chaladh an Treoigh | Founded by the community in 2001, 438 pupils |
 | University Concert Hall | Foundation Building, Sreelane, V94 PX58 |
@@ -103,7 +89,11 @@ The council's page for Gaelscoil Chaladh an Treoigh says the school was founded 
 
 The University of Limerick says University Concert Hall opened in 1993, officially opened by Taoiseach Albert Reynolds and US Ambassador Jean Kennedy Smith, and has a 1,000-seat tiered lecture theatre.
 
-**What this page does not claim** No population is printed for Castletroy, because the page uses only facts that named organisations publish about the place. The sensor project says nothing about water quality or safety at Annacotty or anywhere else; it is about checking data before using it.
+What this page does not claim
+
+No population is printed for Castletroy, because the page uses only facts that named organisations publish about the place. The sensor project says nothing about water quality or safety at Annacotty or anywhere else; it is about checking data before using it.
+
+Learning here
 
 ## Learning from Castletroy, week to week
 
@@ -123,14 +113,37 @@ Adults can start from nothing; the first lesson settles the course.
 
 Sensor readings come from the OPW through waterlevel.ie; the pairwise counts, ranges and distance are our own calculations, run on 20 September 2026. The schools, the council and the university are quoted from their own pages.
 
+Learning ladder
+
 ## From spot-the-difference to a column audit
 
 Bands give a starting guess, and lesson one confirms the right level.
 
-- **Ages 6 to 10: Same or different** Block-coded games that compare two sets of shapes and count the matches. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Matching lists** Python that lines up two lists and counts where they agree. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Pairwise checks** Every pair of columns compared, ranges tested and suspect data set aside. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Data validation at work** Automatic checks in pipelines that catch copied, swapped and mislabelled fields. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### Same or different
+
+Block-coded games that compare two sets of shapes and count the matches.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Matching lists
+
+Python that lines up two lists and counts where they agree.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Pairwise checks
+
+Every pair of columns compared, ranges tested and suspect data set aside.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Data validation at work
+
+Automatic checks in pipelines that catch copied, swapped and mislabelled fields.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## Ask an assistant to summarise the Annacotty water readings
 
@@ -142,30 +155,139 @@ After running the pairwise check, the learner asks the assistant which columns e
 
 Summarising a column is quick. Noticing that two columns are secretly the same is the skill. The longer argument is in [why learning to code still pays off for a learner](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How lessons run for Castletroy
 
 The specifics.
 
-- **Teacher-led, live** Each lesson is run live by a teacher who follows every learner's screen and code as they work.
-- **Same level, same group** Fifteen to twenty learners at one level, from Castletroy, the rest of Ireland or abroad.
-- **Weekly pair** About eight lessons a month, on the same two weekly times set at the start.
-- **School rhythm** The plan allows for holidays, mid-terms and exam weeks from day one.
-- **Your equipment** A laptop or desktop, a microphone and speakers or headphones, and a connection that handles video.
-- **Individual teaching** One-to-one lessons for a learner who is ahead, needs more time, or can only attend when no group meets.
+### Teacher-led, live
 
-**Only online** We have no premises in Castletroy, in Limerick or anywhere in Ireland. Lessons happen over video and are identical wherever the learner joins from.
+Each lesson is run live by a teacher who follows every learner's screen and code as they work.
+
+### Same level, same group
+
+Fifteen to twenty learners at one level, from Castletroy, the rest of Ireland or abroad.
+
+### Weekly pair
+
+About eight lessons a month, on the same two weekly times set at the start.
+
+### School rhythm
+
+The plan allows for holidays, mid-terms and exam weeks from day one.
+
+### Your equipment
+
+A laptop or desktop, a microphone and speakers or headphones, and a connection that handles video.
+
+### Individual teaching
+
+One-to-one lessons for a learner who is ahead, needs more time, or can only attend when no group meets.
+
+Only online
+
+We have no premises in Castletroy, in Limerick or anywhere in Ireland. Lessons happen over video and are identical wherever the learner joins from.
+
+Fees
 
 ## Castletroy fees
 
 All in one place.
 
-- First class: USD 0. A first lesson, with a level check, free of charge.
-- Group tuition: USD 100 a month. A month in a same-level group of fifteen to twenty, about eight live lessons.
-- Private tuition: USD 150 a month. A month of private lessons on the same schedule.
+First class**USD 0**
+
+A first lesson, with a level check, free of charge.
+
+Group tuition**USD 100**
+
+A month in a same-level group of fifteen to twenty, about eight live lessons.
+
+Private tuition**USD 150**
+
+A month of private lessons on the same schedule.
 
 Every family outside India pays the same monthly US dollar fee. The free lesson commits no one, charges start with the course, and the pricing page covers holidays, missed lessons and moving between group and private teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Castletroy.)Reviews
+
+## Six family reviews from Google, untouched
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free first lesson in Castletroy
+
+Let us know the learner's age and what interests them, and the first hour will be shaped around it. It might end with a game, a working first program, or two columns caught being secretly the same.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Castletroy one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Castletroy.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Castletroy coding class questions
+
+Questions Castletroy families ask.
 
 ### Is there a Modern Age Coders centre in Castletroy?
 
@@ -203,10 +325,14 @@ The first lesson is free. A group place is then USD 100 a month for about eight 
 
 Fifteen to twenty learners, grouped by level, pace and aims rather than age or address. If no group fits a workable hour, lessons are one to one.
 
+Explore Ireland
+
 ## Around Castletroy and the Shannon
 
 The [Limerick](/best-coding-class-in-limerick) page covers the city and its university, [Shannon](/best-coding-class-in-shannon) is across the estuary with an airport data project, and the [Munster](/coding-and-ai-classes-in-munster) page links the province together. For more sensor data, the Cork district of [Ballincollig](/coding-classes-in-ballincollig-cork) reads the Lee below a dam, and the [Ireland hub](/coding-classes-in-ireland) lists the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Castletroy.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-castletroy-limerick](https://learn.modernagecoders.com/coding-classes-in-castletroy-limerick#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-castletroy-limerick*

@@ -4,46 +4,32 @@ description: "Live online coding, Python and AI lessons for Dundalk learners age
 canonical: https://learn.modernagecoders.com/best-coding-class-in-dundalk
 source: src/pages/best-coding-class-in-dundalk.html
 ---
-> Dundalk holds 42,735 usual residents in the census town tables, spread across 15,923 households. Lessons are taught into the house: a teacher live on video, twice in most weeks, with either an ability group of fifteen to twenty learners or one learner on their own, anywhere between the ages of six and sixty-seven. The opening lesson is not charged for. A shared place then runs at USD 100 a month, and private teaching at USD 150.
+> Live online coding, Python and AI lessons for Dundalk learners aged 6 to 67, taught live by a teacher in small ability groups or one to one. First lesson free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [County Louth](/coding-classes-in-county-louth) / Dundalk
-
-Dundalk, County Louth / Live online
-
-# Coding classes in Dundalk
-
-**What is the best coding class in Dundalk?** Dundalk holds 42,735 usual residents in the census town tables, spread across 15,923 households. Lessons are taught into the house: a teacher live on video, twice in most weeks, with either an ability group of fifteen to twenty learners or one learner on their own, anywhere between the ages of six and sixty-seven. The opening lesson is not charged for. A shared place then runs at USD 100 a month, and private teaching at USD 150.
-
-Our own lessons need a connection that carries live video, so the census figure looks like exactly the right one to quote: 12,686 of Dundalk's 15,923 households report broadband. It answers a different question than it appears to. The census asked each household which kind of internet access it has and offered four answers, and the count that comes back is a count of reported categories. It contains no speed, no reliability, no measure of what happens at seven in the evening when several people are online at once, and no information about the rooms a signal reaches. A household with a slow line and a household with a fast one are the same row. We use the figure for what it is, and we test the actual connection in the free lesson, because a category is not a measurement.
-
-Facts last verified 18 September 2026. Teaching is online; no Dundalk branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Dundalk
 
 ## Starting courses for Dundalk learners
 
 Pick by age and interest. The course teacher takes the free lesson and sets the level from what the learner does in it.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Block coding where a program has to be tested rather than assumed to work.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Python from the beginning, with measurements taken instead of guessed at.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): Real data in Python, and the question of whether a column measures what its name suggests.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (College and adult): For adults choosing metrics at work, where the easy number is rarely the right one.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlock coding where a program has to be tested rather than assumed to work.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsPython from the beginning, with measurements taken instead of guessed at.See the syllabus](/courses/python-ai-kids-masterclass)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensReal data in Python, and the question of whether a column measures what its name suggests.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)College and adultData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For adults choosing metrics at work, where the easy number is rarely the right one.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## A category is not a measurement
 
 Internet access in Dundalk, Census 2022, with every answer the table offers. Counts are published and shares are ours.
 
-**Household internet access, Dundalk and all towns combined**
-
 | Answer as published | Dundalk households | Share | All towns combined |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Broadband | 12,686 | 79.7% | 82.2% |
 | Other | 310 | 1.9% | 1.8% |
 | No | 1,454 | 9.1% | 7.3% |
@@ -68,14 +54,14 @@ Page views standing in for interest. Time in the building standing in for work d
 
 The project is a data dictionary rather than a chart. For this one variable the learner writes down the question asked, the four permitted answers, the unit counted, the date, and then three questions the variable cannot answer, each with the kind of data that could. They finish by taking a measurement of their own, the connection test we run in the free lesson, and writing one paragraph on what the measurement tells them that the census category does not. It is the shortest project in this cluster and the one that travels furthest, because every dataset a learner meets later will have a column whose name promises more than the column contains.
 
+Dundalk in the town tables
+
 ## The town as the census records it
 
 Published for the built-up area Dundalk, Co Louth, in the Census 2022 small area tables.
 
-**Dundalk, Census 2022**
-
 | Measured | Count |
-|---|---|
+| --- | --- |
 | Usual residents | 42,735 |
 | Households | 15,923 |
 | Households reporting broadband | 12,686 |
@@ -95,16 +81,18 @@ That home-working table has the same shape as the internet one: a status reporte
 
 Of the 2,426 children under fifteen in childcare, 1,053 are four or under and 1,373 are between five and fourteen.
 
-**The station** Irish Rail gives Dundalk (Clarke) as Carrickmacross Road, Dundalk, Co. Louth, Eircode A91 TD61. It lists the station as staffed around the clock, open from 05.00 to 01:30, with toilets, an enclosed waiting room, a booking office on weekdays and Saturdays, a filtered water refill unit, a car park of 200 spaces, and among its routes the Dublin to Dundalk commuter service and the DART and Dublin commuter timetable. The same page lists no Wi-Fi at the station, which is a useful reminder that a place being well connected in one sense says nothing about another.
+The station
+
+Irish Rail gives Dundalk (Clarke) as Carrickmacross Road, Dundalk, Co. Louth, Eircode A91 TD61. It lists the station as staffed around the clock, open from 05.00 to 01:30, with toilets, an enclosed waiting room, a booking office on weekdays and Saturdays, a filtered water refill unit, a car park of 200 spaces, and among its routes the Dublin to Dundalk commuter service and the DART and Dublin commuter timetable. The same page lists no Wi-Fi at the station, which is a useful reminder that a place being well connected in one sense says nothing about another.
+
+Reading the same table honestly
 
 ## Three sentences this table supports
 
 Written out in full, with the parts that make each one true.
 
-**Claims and whether the table carries them**
-
 | Sentence | Supported |
-|---|---|
+| --- | --- |
 | 12,686 Dundalk households reported broadband in April 2022 | Yes, this is the published count |
 | 79.7% of the town's households reported broadband | Yes, our division of 12,686 by 15,923 |
 | 1,454 households reported no internet access at all | Yes, this is the published count |
@@ -124,7 +112,11 @@ They are kept as their own row rather than folded into any other. The share of h
 
 Nothing here explains why Dundalk sits below the all-towns broadband share or above it on no internet access, and nothing compares the town with an earlier census.
 
-**The arts centre** An Tain Arts Centre describes itself on its own site as an independent arts space in Dundalk, Co. Louth, with two theatres, a gallery, artist studios and a production house, at Crowe St, Townparks, Dundalk, A91 W20C, company registration 537097. We have no connection with it and reproduce none of its prices.
+The arts centre
+
+An Tain Arts Centre describes itself on its own site as an independent arts space in Dundalk, Co. Louth, with two theatres, a gallery, artist studios and a production house, at Crowe St, Townparks, Dundalk, A91 W20C, company registration 537097. We have no connection with it and reproduce none of its prices.
+
+Learning in Dundalk
 
 ## What we check before a course starts
 
@@ -144,14 +136,37 @@ Data, Python and AI for adults at any level, including the 4,792 working residen
 
 Irish Rail and An Tain Arts Centre are quoted from their own published pages and neither is connected with us, nor is Louth County Council. Every count on this page is a Central Statistics Office Census 2022 figure for this built-up area, printed as published, and the three percentages are our own division with the denominator named beside each. Where a reader might expect a claim about internet speed in the town, there is none, because we have not measured it and the census did not ask.
 
+Learning ladder
+
 ## From measuring to knowing what you measured
 
 Ages are a guide; the free lesson decides the level.
 
-- **Ages 6 to 10: Test it, do not guess** Small programs in block code that have to be run and checked rather than assumed correct. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Taking a reading** Writing code that measures something real, then asking how good the measurement is. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: What the column means** Documenting real datasets, including what each variable stands in for and what it misses. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Choosing a metric** Picking measures at work that survive being used, rather than proxies that drift. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### Test it, do not guess
+
+Small programs in block code that have to be run and checked rather than assumed correct.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Taking a reading
+
+Writing code that measures something real, then asking how good the measurement is.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### What the column means
+
+Documenting real datasets, including what each variable stands in for and what it misses.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Choosing a metric
+
+Picking measures at work that survive being used, rather than proxies that drift.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## Ask whether Dundalk has good internet
 
@@ -163,30 +178,139 @@ A learner who has written the data dictionary answers in two parts instead: here
 
 The interesting skill in 2026 is not getting a number out of a tool. It is knowing what the number was ever able to mean. The longer argument is in [why learning to code holds its value](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How lessons run for Dundalk households
 
 Six practical points.
 
-- **A live teacher** Present for the whole lesson, working from what appears on the learner's screen.
-- **Ability grouping** Fifteen to twenty learners at one level, joining from Dundalk, the rest of Ireland and other countries.
-- **Two lessons a week** About eight in a month, at an hour agreed once and then kept.
-- **Term dates** Mid-terms, holidays and exam weeks are planned into the schedule before it starts.
-- **Tested, not assumed** Machine, sound and connection are all tried in the free lesson rather than taken on trust.
-- **One to one** Where no group at the right level meets at a workable hour, the course runs privately.
+### A live teacher
 
-**If the connection is the problem** Sometimes the free lesson shows that a household connection will not hold a class. We say so plainly, suggest what would need to change, and do not take a payment in the meantime.
+Present for the whole lesson, working from what appears on the learner's screen.
+
+### Ability grouping
+
+Fifteen to twenty learners at one level, joining from Dundalk, the rest of Ireland and other countries.
+
+### Two lessons a week
+
+About eight in a month, at an hour agreed once and then kept.
+
+### Term dates
+
+Mid-terms, holidays and exam weeks are planned into the schedule before it starts.
+
+### Tested, not assumed
+
+Machine, sound and connection are all tried in the free lesson rather than taken on trust.
+
+### One to one
+
+Where no group at the right level meets at a workable hour, the course runs privately.
+
+If the connection is the problem
+
+Sometimes the free lesson shows that a household connection will not hold a class. We say so plainly, suggest what would need to change, and do not take a payment in the meantime.
+
+Fees
 
 ## Dundalk class fees
 
 Three lines, complete.
 
-- First class: USD 0. A full opening lesson, taught and assessed, with no charge and no obligation.
-- Group tuition: USD 100 a month. One month in an ability group of fifteen to twenty, about eight live lessons.
-- Private tuition: USD 150 a month. One month of private teaching on the same weekly pattern.
+First class**USD 0**
+
+A full opening lesson, taught and assessed, with no charge and no obligation.
+
+Group tuition**USD 100**
+
+One month in an ability group of fifteen to twenty, about eight live lessons.
+
+Private tuition**USD 150**
+
+One month of private teaching on the same weekly pattern.
 
 Charges are monthly and in US dollars, at the single rate for families outside India, so Dundalk sees the same figure as Drogheda and no euro list appears beside it. Nothing is billed until the opening lesson has settled a course, an hour and a working connection, and the pricing page covers breaks, missed weeks and moves between group and private teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Dundalk.)Reviews
+
+## Six families, quoted from Google exactly as they wrote it
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Dundalk lesson
+
+Send an age and an interest. The first hour is planned around it, and it doubles as the test of whether the machine and the line at home are up to the course.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Dundalk one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Dundalk.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Dundalk coding class questions
+
+What Dundalk families ask before booking.
 
 ### How many people live in Dundalk?
 
@@ -228,10 +352,14 @@ The first lesson is free. After that a shared place costs USD 100 a month and br
 
 Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
+Explore Ireland
+
 ## Around Dundalk
 
 Down the coast is [Drogheda](/best-coding-class-in-drogheda), with [County Louth](/coding-classes-in-county-louth) around both and the province of [Leinster](/coding-and-ai-classes-in-leinster) beyond. Our [comparison page](/best-online-coding-classes-ireland) puts us beside other online schools, and the [Ireland hub](/coding-classes-in-ireland) lists every page.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Dundalk.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-dundalk](https://learn.modernagecoders.com/best-coding-class-in-dundalk#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-dundalk*

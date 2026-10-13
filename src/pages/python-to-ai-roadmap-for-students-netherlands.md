@@ -4,34 +4,28 @@ description: "A Python to AI roadmap by Dutch school year, from groep 6 to vwo 6
 canonical: https://learn.modernagecoders.com/python-to-ai-roadmap-for-students-netherlands
 source: src/pages/python-to-ai-roadmap-for-students-netherlands.html
 ---
-> This is the route Modern Age Coders teaches from a child's first typed Python to real AI, set out against the Dutch school years: first programs around groep 6 to 8, the full language and first data in the onderbouw, models and a first public project in the upper years, and agents and a portfolio by the end of havo or vwo. At each stage the page says what a parent should see at home. Classes are live online in English, in groups of fifteen to twenty at one level or one to one, and pupils are placed by ability rather than school year. Trying a lesson is free; staying on costs USD 100 a month in a small group or USD 150 a month with a private teacher.
+> A Python to AI roadmap by Dutch school year, from groep 6 to vwo 6 and beyond, with what a parent should see at home at each stage. Live online, first lesson free.
 
-[Home](/) / [Courses](/courses) / [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands) / Python to AI roadmap
+In short
 
-Netherlands · Groep 6 to vwo 6 · Live online
+This is the route Modern Age Coders teaches from a child's first typed Python to real AI, set out against the Dutch school years: first programs around groep 6 to 8, the full language and first data in the onderbouw, models and a first public project in the upper years, and agents and a portfolio by the end of havo or vwo. At each stage the page says what a parent should see at home. Classes are live online in English, in groups of fifteen to twenty at one level or one to one, and pupils are placed by ability rather than school year. Trying a lesson is free; staying on costs USD 100 a month in a small group or USD 150 a month with a private teacher.
 
-# Python to AI roadmap for students in the Netherlands
-
-Parents often ask two questions: when should my child start, and how will I know it is working? This page answers both against the Dutch school system itself. The system has three main routes through secondary school, vmbo, havo and vwo, lasting four, five and six years, and each has moments that shape what comes next: a profile chosen in the upper years, a profielwerkstuk in havo and vwo, final exams in seven or more subjects. A route from first Python to real AI fits around those moments rather than competing with them. Below, stage by stage, is what a learner should be learning, and, just as useful, what a parent should see at home: the programs, projects and questions that show real progress. The route is the same for every learner in our classes, taught live online and in English, and the free first lesson shows where a child actually starts.
-
-At a glance: Starts: Around groep 6; Runs to: The end of havo or vwo, and beyond; Covers: Python, data, models, agents; Fits: Vmbo, havo, vwo, international schools; Format: Live video with a teacher; Groups: Fifteen to twenty, or one to one; Language: English; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three courses along the roadmap
 
 The first for the end of primary school, the second for the onderbouw, the third for the upper years. Each card opens its own syllabus and timetable.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass): The first stage: typed Python around groep 6 to 8, with small games and a first program that learns.
-- [Python for Teens](/courses/python-complete-masterclass-teens): The onderbouw stage: the whole language over two years, with files, functions and first data.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens): The upper-school stage: statistics, models and neural networks, each tested and written up.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  ROUTE / 01 Python and AI for Kids The first stage: typed Python around groep 6 to 8, with small games and a first program that learns. Open the syllabus →](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)  ROUTE / 02 Python for Teens The onderbouw stage: the whole language over two years, with files, functions and first data. Open the syllabus →](/courses/python-complete-masterclass-teens)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)  ROUTE / 03 AI and Machine Learning for Teens The upper-school stage: statistics, models and neural networks, each tested and written up. Open the syllabus →](/courses/ai-ml-masterclass-teens)
+
+The school system
 
 ## The Dutch secondary system, route by route
 
 The facts below are quoted from the government's own explanations of vmbo, havo and vwo on Rijksoverheid.nl. They set the frame the roadmap fits into.
 
-**Vmbo, havo and vwo at a glance, from Rijksoverheid.nl**
-
 | Route | Length | Structure | At the end |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Vmbo | 4 years | Four learning paths, from the theoretische leerweg to the basisberoepsgerichte leerweg; the basis, kader and gemengde paths share ten profiles, among them Media, vormgeving en ICT | Many pupils go on to mbo; some move on to havo |
 | Havo | 5 years | Onderbouw in years 1 to 3, bovenbouw in years 4 and 5, with a choice of 4 profiles in the bovenbouw | A compulsory profielwerkstuk and final exams in 7 subjects |
 | Vwo | 6 years | Bovenbouw in years 4, 5 and 6, with a choice of 4 profiles | A compulsory profielwerkstuk and final exams in at least 8 subjects |
@@ -46,14 +40,14 @@ Primary school, the doorstroomtoets and the screen-time guidance for younger chi
 
 Sources: [Hoe zit het vmbo in elkaar?](https://www.rijksoverheid.nl/onderwerpen/voortgezet-onderwijs/vraag-en-antwoord/hoe-zit-het-vmbo-in-elkaar); [Hoe zit de havo in elkaar?](https://rijksoverheid.nl/onderwerpen/voortgezet-onderwijs/vraag-en-antwoord/hoe-zit-de-havo-in-elkaar); [Hoe zit het vwo in elkaar?](https://www.rijksoverheid.nl/onderwerpen/voortgezet-onderwijs/vraag-en-antwoord/hoe-zit-het-vwo-in-elkaar) (all Rijksoverheid.nl). Read 15 September 2026.
 
+The roadmap
+
 ## The roadmap: what to learn at each stage, and what a parent should see at home
 
 The school years below are typical, not rules. A pupil moves on when the current stage is secure, which the teacher judges from the work, not the calendar.
 
-**From first Python to real AI, set against Dutch school years**
-
 | Stage | What the learner works on | What a parent should see at home |
-|---|---|---|
+| --- | --- | --- |
 | Groep 6 to 8 | Typed Python: drawings, small games, a first program that learns from examples | A game or drawing the child made and can explain; errors fixed without tears |
 | Brugklas and year 2 | The full language: loops, functions, files, first small datasets | Programs that solve a real problem the child chose; a first GitHub repository |
 | Year 3 (profile choice in havo and vwo) | Data: cleaning, plotting, first honest averages | Charts made from real data, with a sentence on what the data cannot say |
@@ -71,6 +65,8 @@ The one stage worth protecting is year 3, before the profile choice: a term of r
 
 The roadmap is our teaching plan, set against the school structure quoted above. The school years are typical, not requirements.
 
+Why this order
+
 ## Why the roadmap runs in this order
 
 Each stage supplies what the next depends on. The order is the same whatever age a learner starts.
@@ -83,14 +79,14 @@ For each age group the route is described in more detail on [coding classes for 
 
 The national [AI and Python Academy](/ai-and-python-academy-netherlands) sets out the five rungs this roadmap follows.
 
+The five rungs
+
 ## The rungs behind the roadmap, and the sign of readiness for each
 
 The roadmap follows five rungs. The right-hand column is how a teacher, and a parent, can tell a learner is ready to move on.
 
-**The rungs and the signs of readiness**
-
 | Rung | Ready to move on when the learner can |
-|---|---|
+| --- | --- |
 | 1. Python by hand | Write a small program from a blank file and fix their own errors |
 | 2. Data | Load, clean and plot a real dataset and say who is missing from it |
 | 3. Models | Train a model and show it beats the simplest possible guess |
@@ -100,63 +96,293 @@ The roadmap follows five rungs. The right-hand column is how a teacher, and a pa
 ### Why readiness beats age
 
 Two twelve-year-olds can be two rungs apart. Placing each by what they can do, not by school year, keeps both learning; the free lesson is where that placement happens.
+
 Beyond school, the general [coding roadmap](/coding-roadmap) continues where this one stops.
 
 ### Around toetsweken and exams
 
 Most pupils take two lessons a week and pause during test weeks. In the exam year, many keep lessons light or stop until the exams are over.
+
 Pupils at international schools follow the same rungs, placed by ability.
+
+The catalogue
 
 ## Nine live courses along the roadmap
 
 Grouped by stage. Each card opens the course page with schedule and fee; the free lesson places the learner.
 
+I
+
 ### End of primary school
 
 First code
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course): Blocks first for the youngest, before typed code.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass): Typed Python and a first learning program for ages nine to twelve.
+ROUTE / PRIM / 01
+
+#### Scratch Coding for Kids
+
+Blocks first for the youngest, before typed code.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)
+
+ROUTE / PRIM / 02
+
+#### Python and AI for Kids
+
+Typed Python and a first learning program for ages nine to twelve.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)II
 
 ### Onderbouw
 
 The full language and first data
 
-- [Python for Teens](/courses/python-complete-masterclass-teens): The full Python language over two years.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data): Real data in Python, cleaned, plotted and questioned.
-- [Git and GitHub for Teens](/courses/git-github-version-control-course-for-teens): A public repository from the first project.
+ROUTE / ONDER / 01
+
+#### Python for Teens
+
+The full Python language over two years.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+ROUTE / ONDER / 02
+
+#### Data Science for Teens
+
+Real data in Python, cleaned, plotted and questioned.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)
+
+ROUTE / ONDER / 03
+
+#### Git and GitHub for Teens
+
+A public repository from the first project.
+
+[Open the syllabus](/courses/git-github-version-control-course-for-teens)III
 
 ### Bovenbouw and beyond
 
 Models, projects and what comes next
 
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens): Models trained, tested and written up.
-- [Orange Data Mining for Teens](/courses/orange-data-mining-visual-machine-learning-course-for-teens): Machine learning through visual workflows, beside code.
-- [AI and Machine Learning Masterclass](/courses/ai-ml-masterclass-complete-college): The adult-level route, for pupils ready to go further.
-- [Data Structures and Algorithms](/courses/data-structures-algorithms-masterclass-college): The algorithms university computing courses assume.
+ROUTE / BOVEN / 01
+
+#### AI and Machine Learning for Teens
+
+Models trained, tested and written up.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+ROUTE / BOVEN / 02
+
+#### Orange Data Mining for Teens
+
+Machine learning through visual workflows, beside code.
+
+[Open the syllabus](/courses/orange-data-mining-visual-machine-learning-course-for-teens)
+
+ROUTE / BOVEN / 03
+
+#### AI and Machine Learning Masterclass
+
+The adult-level route, for pupils ready to go further.
+
+[Open the syllabus](/courses/ai-ml-masterclass-complete-college)
+
+ROUTE / BOVEN / 04
+
+#### Data Structures and Algorithms
+
+The algorithms university computing courses assume.
+
+[Open the syllabus](/courses/data-structures-algorithms-masterclass-college)
+
+How the classes run
 
 ## A route that fits the school week
 
 Our teachers are in India, which keeps the same time all year, so they are three and a half hours ahead of the Netherlands in summer and four and a half in winter. Pupils usually learn in the late afternoon or at the weekend, at a regular time agreed with the family in the free lesson.
 
-- **After school** Late afternoon, Dutch time, for pupils of every age.
-- **Early evening** By arrangement, for upper-school pupils with afternoon commitments.
-- **Weekend** Saturday or Sunday, for longer project sessions.
+After school
 
-- **A free first lesson** The teacher sees what the pupil can already do and says honestly where on the roadmap they start.
-- **Groups by level** Fifteen to twenty pupils from several countries at the same stage, whatever their school year.
-- **One to one when it helps** For a profielwerkstuk, an exam year or a pupil far ahead of their age.
-- **Parents kept informed** Families hear what their child has built and what comes next, so the right-hand column of the roadmap stays visible.
-- **In English, with Dutch school terms** Lessons are in English; groep, brugklas, havo, vwo and profielwerkstuk keep their Dutch names.
-- **A portfolio from the start** Every stage leaves work in the pupil's own GitHub repository.
+Late afternoon, Dutch time, for pupils of every age.
+
+Early evening
+
+By arrangement, for upper-school pupils with afternoon commitments.
+
+Weekend
+
+Saturday or Sunday, for longer project sessions.
+
+### A free first lesson
+
+The teacher sees what the pupil can already do and says honestly where on the roadmap they start.
+
+### Groups by level
+
+Fifteen to twenty pupils from several countries at the same stage, whatever their school year.
+
+### One to one when it helps
+
+For a profielwerkstuk, an exam year or a pupil far ahead of their age.
+
+### Parents kept informed
+
+Families hear what their child has built and what comes next, so the right-hand column of the roadmap stays visible.
+
+### In English, with Dutch school terms
+
+Lessons are in English; groep, brugklas, havo, vwo and profielwerkstuk keep their Dutch names.
+
+### A portfolio from the start
+
+Every stage leaves work in the pupil's own GitHub repository.
+
+Student work
+
+## Work our students have published
+
+Four live projects by our students. More, from every stage of the roadmap, on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Paid monthly in US dollars, at one rate for every country outside India and every stage of the roadmap, with nothing to pay on joining and no yearly tie-in.
 
-- Free first class: USD 0. A real lesson and an honest placement. A roadmap stage agreed. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty pupils at one stage. The same live teacher each week. Work reviewed every week. A certificate at the end.
-- One to one: USD 150 a month. A teacher for one pupil. Paced to the school year. Good for the profielwerkstuk.
+Free first class
+
+USD 0
+
+no card required
+
+- A real lesson and an honest placement
+- A roadmap stage agreed
+- No card needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty pupils at one stage
+- The same live teacher each week
+- Work reviewed every week
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one pupil
+- Paced to the school year
+- Good for the profielwerkstuk
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+From Google, as written. We do not write or pay for reviews.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions from parents
 
 ## What Dutch parents ask about the roadmap
 
@@ -200,15 +426,54 @@ After school or at the weekend, Dutch time. Teachers are three and a half hours 
 
 Someone from our team phones a parent back, at a time that suits a Dutch family, to book the free lesson, where the starting stage is agreed. There is no charge unless your child continues.
 
+Elsewhere on this site
+
 ## Pages for each stage of the roadmap
 
-- [Coding classes for kids](/coding-classes-for-kids-netherlands): The first stage, with primary-school timing.
-- [Coding classes for teens](/coding-classes-for-teens-netherlands): The secondary-school stages in detail.
-- [Python classes](/python-classes-netherlands): The language the roadmap is built on.
-- [Machine learning for school students](/machine-learning-for-school-students-netherlands): The models stage in depth.
-- [Coding alongside informatica](/coding-alongside-informatica-havo-vwo-netherlands): For pupils taking the school subject.
-- [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands): The national ladder behind the roadmap.
+Detail for each age group and each subject along the way.
 
-## Contact
+### [Coding classes for kids](/coding-classes-for-kids-netherlands)
 
-Book the free first class at [https://learn.modernagecoders.com/python-to-ai-roadmap-for-students-netherlands](https://learn.modernagecoders.com/python-to-ai-roadmap-for-students-netherlands#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The first stage, with primary-school timing.
+
+### [Coding classes for teens](/coding-classes-for-teens-netherlands)
+
+The secondary-school stages in detail.
+
+### [Python classes](/python-classes-netherlands)
+
+The language the roadmap is built on.
+
+### [Machine learning for school students](/machine-learning-for-school-students-netherlands)
+
+The models stage in depth.
+
+### [Coding alongside informatica](/coding-alongside-informatica-havo-vwo-netherlands)
+
+For pupils taking the school subject.
+
+### [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands)
+
+The national ladder behind the roadmap.
+
+Start here
+
+## Find your child's place on the roadmap
+
+Send a parent's number and we phone back at a convenient Dutch time. In the free lesson a teacher works with your child and tells you honestly where on the roadmap they start.
+
+Would you like to read first? See the [general coding roadmap](/coding-roadmap), [how we teach](/how-we-teach) and the [course list](/courses).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20lesson%20and%20advice%20on%20the%20Python%20to%20AI%20roadmap%20for%20my%20child%20in%20the%20Netherlands.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp from a Dutch phone is free and usually quickest. The number is Indian; we have no office or premises in the Netherlands.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/python-to-ai-roadmap-for-students-netherlands*

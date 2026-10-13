@@ -4,34 +4,28 @@ description: "Live online 11 plus maths tuition for the Kent Test. Why the maths
 canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-kent
 source: src/pages/11-plus-maths-tuition-kent.html
 ---
-> The Kent Test is two multiple-choice booklets with a separate answer sheet, one for reasoning and one for English and maths, plus a writing exercise. In the council's 2015 familiarisation booklet, the most recent edition we have been able to read, the English and Maths test "takes around 1 hour, with 25 minutes for the English section (plus 5 minutes practice) and 25 minutes for the Maths section (plus 5 minutes practice)", and the maths covers "a variety of topics taught in most schools up to the start of Year 6". For September 2027 entry the council registered children in Year 5 between 1 June and 1 July 2026, Kent primary pupils sat the test on Thursday 10 September 2026, and decisions went out after 4pm on 15 October 2026. Twenty-five minutes of Year 5 arithmetic, asked in unfamiliar ways: that is the target, and it is a teachable one. A first lesson is free; group teaching is USD 100 a month and one to one USD 150.
+> Live online 11 plus maths tuition for the Kent Test. Why the maths section is Year 5 work, what the council publishes about the paper, and how we teach it.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / 11 plus maths in Kent
+In short
 
-Kent · Kent Test maths · Live online, small groups or one to one
+The Kent Test is two multiple-choice booklets with a separate answer sheet, one for reasoning and one for English and maths, plus a writing exercise. In the council's 2015 familiarisation booklet, the most recent edition we have been able to read, the English and Maths test "takes around 1 hour, with 25 minutes for the English section (plus 5 minutes practice) and 25 minutes for the Maths section (plus 5 minutes practice)", and the maths covers "a variety of topics taught in most schools up to the start of Year 6". For September 2027 entry the council registered children in Year 5 between 1 June and 1 July 2026, Kent primary pupils sat the test on Thursday 10 September 2026, and decisions went out after 4pm on 15 October 2026. Twenty-five minutes of Year 5 arithmetic, asked in unfamiliar ways: that is the target, and it is a teachable one. A first lesson is free; group teaching is USD 100 a month and one to one USD 150.
 
-# 11 plus maths tuition in Kent
-
-There is one fact about the Kent Test that changes how a family should prepare, and almost nobody says it out loud: the paper is sat in the first full week of Year 6. A child registered in Year 5 walks into the test having had perhaps six days of Year 6 teaching. Whatever the maths section asks, it cannot be asking about a year of school that has not happened yet. So the work that pays is not racing ahead into Year 6 content. It is making Year 5 arithmetic quick and certain, then practising it on questions the child has never seen in that form before. This page sets out what Kent County Council publishes about the paper, what the maths on it can and cannot be, and how we teach it online.
-
-At a glance: Test: The Kent Test, English and Maths paper; English and maths: One hour for the two together; Format: Multiple choice, separate answer sheet; Registered in: Year 5, before the summer; Sat in: The first full week of Year 6; Content: Maths taught up to the start of Year 6; We teach: Fluency, then unfamiliar problems; We never: Predict a threshold or a place. Rated 4.9 across 547 Google reviews.
+Where a Kent child starts
 
 ## Three courses that carry the maths
 
 Choose by how secure the arithmetic is, not by how close the test date feels.
 
-- [11 plus maths preparation](/courses/11-plus-maths-preparation-course-uk): The core course: number, fractions, measures and the kind of problem that hides its method.
-- [Primary maths, Years 1 to 5](/courses/elementary-mathematics-complete-masterclass): For a child in Year 4 or early Year 5 whose foundations still wobble under time pressure.
-- [Mental maths, number sense first](/courses/mental-maths-mastery-kids): Twenty-five minutes is short. Calculation that happens in the head buys the thinking time.
+[![11 Plus Maths Prep course thumbnail](/images/eleven-plus-maths.webp)  KENT / 01 11 plus maths preparation The core course: number, fractions, measures and the kind of problem that hides its method. Open the syllabus →](/courses/11-plus-maths-preparation-course-uk)[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  KENT / 02 Primary maths, Years 1 to 5 For a child in Year 4 or early Year 5 whose foundations still wobble under time pressure. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)[![Mental Maths for Kids course thumbnail](/images/mental-maths-kids.webp)  KENT / 03 Mental maths, number sense first Twenty-five minutes is short. Calculation that happens in the head buys the thinking time. Open the syllabus →](/courses/mental-maths-mastery-kids)
+
+What the paper is
 
 ## The Kent Test, as the council describes it
 
 Kent County Council's website returns an error to automated readers, so everything below comes from council documents we could actually open, and each is named. Read on 20 September 2026.
 
-**The Kent Test for September 2027 entry, from Kent County Council's own leaflet**
-
 | Stage | When | Detail as published |
-|---|---|---|
+| --- | --- | --- |
 | Registration | 1 June to midnight 1 July 2026 | Online at the council's Kent Test pages, by a parent of a child then in Year 5. Requests for access arrangements for a disability or special educational need are discussed with the primary school and are not accepted after 1 July 2026. |
 | Test day, Kent primaries | Thursday 10 September 2026 | Children at a Kent primary school sit the test in their own school. |
 | Test day, everyone else | Saturday 12 or Sunday 13 September 2026 | Children at primary schools outside Kent, or educated at home, sit it at an allocated test centre, notified by email at the end of August. |
@@ -45,7 +39,9 @@ Medway is not Kent for this purpose. The council's leaflet says plainly that "Sc
 
 One thing this page will not do is advise on admissions. Which schools to name, how oversubscription criteria work, appeals and waiting lists are the council's business and each school's, published by them and changed by them. We teach the maths.
 
-Sources: Kent County Council's Kent Test leaflet for September 2027 entry, published as a PDF by [Barton Green Primary School](https://www.bgpschool.kent.sch.uk/); Kent County Council's Kent Test Familiarisation Booklet, 2015 edition; [Upton Junior School](https://www.uptonjunior.com/), 2026 Kent Test information for parents. The council's own site returns HTTP 403 to us and we have not quoted anything from it that we could not read elsewhere in a council document. Modern Age Coders has no connection with Kent County Council or any grammar school.
+Sources: Kent County Council's Kent Test leaflet for September 2027 entry, published as a PDF by [Barton Green Primary School](https://www.bgpschool.kent.sch.uk/); Kent County Council's *Kent Test Familiarisation Booklet*, 2015 edition; [Upton Junior School](https://www.uptonjunior.com/), 2026 Kent Test information for parents. The council's own site returns HTTP 403 to us and we have not quoted anything from it that we could not read elsewhere in a council document. Modern Age Coders has no connection with Kent County Council or any grammar school.
+
+The thing nobody says
 
 ## It is a Year 5 maths paper, sat in Year 6
 
@@ -63,10 +59,8 @@ Kent primary pupils sat the Kent Test on Thursday 10 September 2026. At Great Ch
 
 Whatever Year 6 teaches, it has not taught it yet. The council's booklet says as much: the maths covers "a variety of topics taught in most schools up to the start of Year 6".
 
-**Where the national curriculum puts the content, and what that means for the test**
-
 | Maths | Year taught | On a paper sat in week one of Year 6? |
-|---|---|---|
+| --- | --- | --- |
 | Long multiplication, four digits by two | Year 5 | Yes. Taught, practised, and fair game at speed. |
 | Short division, four digits by one | Year 5 | Yes, including what to do with the remainder. |
 | Equivalent fractions, mixed numbers, thousandths | Year 5 | Yes. The curriculum states that percentages, decimals and fractions are different ways of expressing proportions. |
@@ -84,6 +78,8 @@ It also explains why past papers alone stop working. A child who has done forty 
 The national picture says the foundations are not automatic either. In the Department for Education's provisional key stage 2 results for 2025/26, 75 per cent of pupils in England met the expected standard in maths and 63 per cent met it in reading, writing and maths together. Meeting the expected standard is a long way below answering unfamiliar questions against a clock.
 
 Sources: the [national curriculum in England, mathematics programmes of study](https://www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study/national-curriculum-in-england-mathematics-programmes-of-study) (years 5 and 6); [Department for Education, key stage 2 attainment, 2025/26 provisional](https://explore-education-statistics.service.gov.uk/find-statistics/key-stage-2-attainment); [Great Chart Primary School term dates 2026-27](https://www.great-chart.kent.sch.uk/parents/term-dates-2026-27/); Kent County Council's familiarisation booklet, 2015 edition.
+
+How it is scored
 
 ## Three standardised scores, and a bar that moves
 
@@ -104,6 +100,8 @@ You will find tutors and websites quoting a precise aggregate as though it were 
 One more thing follows from the scoring, and it is the reason the maths section deserves separate attention: the aggregate is only part of the picture, because the three scores are reported separately as well. A child who is strong in English and reasoning and shaky in maths is not carried by an average in the way a single mark out of a hundred would carry them. Maths is a third of the reported picture and it is the third that responds fastest to teaching, because arithmetic fluency is trainable in a way that reading speed at ten largely is not.
 
 Source: [Upton Junior School](https://www.uptonjunior.com/), 2026 Kent Test information for parents, restating Kent County Council. We print no threshold: the council publishes it each October.
+
+What we actually do
 
 ## Twenty-five minutes is a skill of its own
 
@@ -129,14 +127,14 @@ What we do not do is promise anything. No provider can know a threshold before i
 
 Nor do we reproduce Kent Test papers. The council publishes its own familiarisation material for that. Our practice questions are written by us, in the same spirit but not the same words, which is also why they cannot be memorised.
 
+Across the county
+
 ## Every district in Kent, and no journey
 
 Lessons are live and online, so the twelve districts are all the same distance away. Census 2021 usual residents, from the Office for National Statistics.
 
-**The twelve Kent districts, by population at Census 2021**
-
 | District | Usual residents | Towns families come from |
-|---|---|---|
+| --- | --- | --- |
 | Maidstone | 175,781 | Maidstone, Staplehurst, Marden, Headcorn |
 | Canterbury | 157,429 | Canterbury, Whitstable, Herne Bay |
 | Swale | 151,677 | Sittingbourne, Faversham, Sheerness |
@@ -160,14 +158,14 @@ We teach children in Kent alongside children in the rest of the [United Kingdom]
 
 Source: Office for National Statistics, Census 2021, usual residents by local authority district, via Nomis. District town lists are ours, not the council's.
 
+When to start
+
 ## Four rungs, and the year each one belongs to
 
 Registration closes at the start of July in Year 5. Work backwards from that, not from the test date.
 
-**From secure arithmetic to a paper that holds no surprises**
-
 | Stage | Rung | The sign it is secure |
-|---|---|---|
+| --- | --- | --- |
 | Year 4 | 1. Number sense | Knows tables to twelve without counting, and can say what half of 37 is without a pencil |
 | Early Year 5 | 2. Written methods | Long multiplication and short division come out right when the numbers are ugly |
 | Late Year 5 | 3. Unfamiliar problems | Reads a wordy question and can say what kind of maths it is before doing any |
@@ -176,71 +174,321 @@ Registration closes at the start of July in Year 5. Work backwards from that, no
 ### If you are starting late
 
 A child who begins in the spring of Year 5 can still gain a great deal, but the order does not change: fluency, then unfamiliar problems, then timing. Skipping to timed papers with shaky tables produces fast wrong answers.
+
 If the arithmetic is genuinely insecure, we will say so, and we will say what six months can reasonably do.
 
 ### After the test, either way
 
 The maths does not stop mattering in October. Children carry on with us into secondary work, and many move across into [maths through coding](/courses/maths-through-coding), where the arithmetic they drilled becomes something they can build with.
+
 For a child who turns out to enjoy the puzzles more than the exam, the Primary Maths Challenge and the UKMT ladder are on our [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar).
+
+The full list
 
 ## Maths and coding courses for Kent families
 
 Arranged by the age the course suits, with the syllabus behind every card.
 
+I
+
 ### Before the test
 
 Years 3 to 5
 
-- [11 plus maths preparation](/courses/11-plus-maths-preparation-course-uk): Year 5 content, taught for unfamiliar questions.
-- [Primary maths, Years 1 to 5](/courses/elementary-mathematics-complete-masterclass): The foundations the paper assumes are already there.
-- [Mental maths for kids](/courses/mental-maths-mastery-kids): Number sense rather than tricks, for speed under a clock.
-- [Abacus and mental maths](/courses/abacus-mental-maths-course-for-kids): From first beads to calculating without them.
+KENT / PREP / 01
+
+#### 11 plus maths preparation
+
+Year 5 content, taught for unfamiliar questions.
+
+[Open the syllabus](/courses/11-plus-maths-preparation-course-uk)
+
+KENT / PREP / 02
+
+#### Primary maths, Years 1 to 5
+
+The foundations the paper assumes are already there.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+KENT / PREP / 03
+
+#### Mental maths for kids
+
+Number sense rather than tricks, for speed under a clock.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+KENT / PREP / 04
+
+#### Abacus and mental maths
+
+From first beads to calculating without them.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)II
 
 ### After the test
 
 Year 6 and secondary
 
-- [Middle school maths mastery](/courses/comprehensive-middle-school-mathematics-mastery): Pre-algebra and geometry, the ground Year 7 assumes.
-- [GCSE maths, foundation and higher](/courses/gcse-mathematics-mastery): AQA, Edexcel and OCR, taught to the board.
-- [Olympiad and competition maths](/courses/olympiad-competition-mathematics-mastery): For the child who finishes early and wants harder.
+KENT / NEXT / 01
+
+#### Middle school maths mastery
+
+Pre-algebra and geometry, the ground Year 7 assumes.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+KENT / NEXT / 02
+
+#### GCSE maths, foundation and higher
+
+AQA, Edexcel and OCR, taught to the board.
+
+[Open the syllabus](/courses/gcse-mathematics-mastery)
+
+KENT / NEXT / 03
+
+#### Olympiad and competition maths
+
+For the child who finishes early and wants harder.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)III
 
 ### Maths through a screen
 
 Where maths and code meet
 
-- [Maths through coding](/courses/maths-through-coding): Python as a way of seeing why a method works.
-- [Scratch coding for kids](/courses/scratch-programming-complete-course): A first language, built on the same logical habits.
-- [Python and AI for kids](/courses/python-ai-kids-masterclass): Typed code, once the ideas are comfortable.
+KENT / CODE / 01
+
+#### Maths through coding
+
+Python as a way of seeing why a method works.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+KENT / CODE / 02
+
+#### Scratch coding for kids
+
+A first language, built on the same logical habits.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)
+
+KENT / CODE / 03
+
+#### Python and AI for kids
+
+Typed code, once the ideas are comfortable.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)IV
 
 ### Wider still
 
 For families thinking past the test
 
-- [Vedic maths and speed calculation](/courses/vedic-maths-course-speed-calculation-mastery): Methods that make mental arithmetic quicker.
-- [AI and machine learning for teens](/courses/ai-ml-masterclass-teens): Where the maths goes, a few years later.
+KENT / MORE / 01
+
+#### Vedic maths and speed calculation
+
+Methods that make mental arithmetic quicker.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
+
+KENT / MORE / 02
+
+#### AI and machine learning for teens
+
+Where the maths goes, a few years later.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+How lessons run
 
 ## A weekly lesson, at an hour a ten-year-old can still think in
 
 Teaching is live on video from India, which runs five and a half hours ahead of the UK in winter and four and a half in summer. For primary children we keep to early evening UK time and never later.
 
-- **Early weekday evening** Straight after school, while the day is still fresh.
-- **Weekend morning** For families who would rather keep weeknights free.
-- **Holiday weeks** Shorter, more frequent sessions when school is out.
+Early weekday evening
 
-- **One teacher, every week** The same person sees the same mistakes twice and can do something about them.
-- **Parents get the truth** A short honest note on what went well and what did not, not a score to frame.
-- **Fifteen to twenty children** Enough voices in the room for a child to hear a better method than their own, few enough that nobody hides.
-- **Our own questions** We write the practice ourselves. No Kent Test paper is reproduced here.
-- **One to one when it helps** For a specific gap, or for a child who freezes in a group.
-- **No outcome promised** We teach maths. Places, thresholds and appeals belong to the council and the schools.
+Straight after school, while the day is still fresh.
+
+Weekend morning
+
+For families who would rather keep weeknights free.
+
+Holiday weeks
+
+Shorter, more frequent sessions when school is out.
+
+### One teacher, every week
+
+The same person sees the same mistakes twice and can do something about them.
+
+### Parents get the truth
+
+A short honest note on what went well and what did not, not a score to frame.
+
+### Fifteen to twenty children
+
+Enough voices in the room for a child to hear a better method than their own, few enough that nobody hides.
+
+### Our own questions
+
+We write the practice ourselves. No Kent Test paper is reproduced here.
+
+### One to one when it helps
+
+For a specific gap, or for a child who freezes in a group.
+
+### No outcome promised
+
+We teach maths. Places, thresholds and appeals belong to the council and the schools.
+
+Student work
+
+## What our students go on to build
+
+Four published projects by students at our school, most of them older than Year 5 and all of them once ten. More on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 A monthly rate in US dollars, the same everywhere outside India. Nothing to join, nothing to cancel.
 
-- Free first class: USD 0. A full lesson, taught not sold. A frank read on where the maths is. No card details taken.
-- Group batch: USD 100 a month. Fifteen to twenty children at one level. The same teacher each week. Work marked and talked through. A certificate at the end.
-- One to one: USD 150 a month. One child, one teacher. Built around the specific gap. Useful in the months before the test.
+Free first class
+
+USD 0
+
+no card required
+
+- A full lesson, taught not sold
+- A frank read on where the maths is
+- No card details taken
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty children at one level
+- The same teacher each week
+- Work marked and talked through
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- One child, one teacher
+- Built around the specific gap
+- Useful in the months before the test
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Written by parents on our Google profile, reproduced word for word.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Kent Test maths questions
 
 ## What Kent parents ask us
 
@@ -284,15 +532,54 @@ Year 4 or early Year 5 if you have the choice, because fluency takes months and 
 
 The first lesson is free. After that a place in a group is USD 100 a month and one to one is USD 150 a month, with nothing to pay to join and no term you are locked into.
 
+Related pages
+
 ## More for families in Kent and the south east
 
-- [11 plus maths tuition](/11-plus-maths-tuition): The national page, covering GL and CEM style papers.
-- [UK competitions calendar 2026-27](/uk-coding-maths-and-ai-competitions-calendar): From the Primary Maths Challenge upwards, month by month.
-- [Coding classes in London](/best-coding-class-in-london): For families over the boundary, or moving.
-- [Coding classes for UK children](/online-coding-classes-for-kids-uk): What a primary-age child learns first, and in what order.
-- [Coding classes in the UK](/coding-classes-in-united-kingdom): Four school systems, and every UK page we publish.
-- [Choosing an online class](/best-online-coding-classes-uk): Questions worth asking any provider, ours included.
+The national version of this page, the competitions a keen mathematician grows into, and the rest of the UK.
 
-## Contact
+### [11 plus maths tuition](/11-plus-maths-tuition)
 
-Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-kent](https://learn.modernagecoders.com/11-plus-maths-tuition-kent#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The national page, covering GL and CEM style papers.
+
+### [UK competitions calendar 2026-27](/uk-coding-maths-and-ai-competitions-calendar)
+
+From the Primary Maths Challenge upwards, month by month.
+
+### [Coding classes in London](/best-coding-class-in-london)
+
+For families over the boundary, or moving.
+
+### [Coding classes for UK children](/online-coding-classes-for-kids-uk)
+
+What a primary-age child learns first, and in what order.
+
+### [Coding classes in the UK](/coding-classes-in-united-kingdom)
+
+Four school systems, and every UK page we publish.
+
+### [Choosing an online class](/best-online-coding-classes-uk)
+
+Questions worth asking any provider, ours included.
+
+Start here
+
+## Book a free maths lesson
+
+Tell us the school year and what the maths feels like at home. The free lesson is a real lesson: we teach something, and afterwards we tell you honestly what we saw.
+
+Would rather read than ring? The syllabus for each course sits on its own [course page](/courses), our approach is set out on [how we teach](/how-we-teach), and the [roadmap](/coding-roadmap) shows what follows what.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20class%20about%20Kent%20Test%20maths%20for%20my%20child.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp reaches us fastest and costs a UK mobile nothing. Our number is an Indian one, as we say on every page, and we keep no office in Britain.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-kent*

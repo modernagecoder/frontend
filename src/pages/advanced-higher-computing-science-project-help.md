@@ -4,34 +4,28 @@ description: "Advanced Higher Computing Science for 2026-27: ten set project req
 canonical: https://learn.modernagecoders.com/advanced-higher-computing-science-project-help
 source: src/pages/advanced-higher-computing-science-project-help.html
 ---
-> Advanced Higher Computing Science is assessed by a project worth 80 marks and a two-hour question paper worth 55, so the project carries roughly 60 per cent of the award. From session 2026 to 27 the project comes in four types, each with 10 mandatory functional requirements written by Qualifications Scotland. The candidate chooses the scenario, agrees it with their teacher, and must not add requirements. Marks go to analysis (10), design (20), implementation (30), testing (15) and evaluation (5); the evidence goes into a mandatory template, and it is produced in no more than 20 hours. Modern Age Coders teaches the skills the requirements rest on, the array of objects, the 2-D array, binary search and both sorts, parameterised queries, input validation and test planning, on briefs of our own, and prepares the paper. We never see, comment on or correct a candidate's project. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
+> Advanced Higher Computing Science for 2026-27: ten set project requirements, 80 of 135 marks, and the paper. We teach the skills first and never touch your project.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Advanced Higher Computing
+In short
 
-Scotland · Advanced Higher · S6
+Advanced Higher Computing Science is assessed by a project worth 80 marks and a two-hour question paper worth 55, so the project carries roughly 60 per cent of the award. From session 2026 to 27 the project comes in four types, each with 10 mandatory functional requirements written by Qualifications Scotland. The candidate chooses the scenario, agrees it with their teacher, and must not add requirements. Marks go to analysis (10), design (20), implementation (30), testing (15) and evaluation (5); the evidence goes into a mandatory template, and it is produced in no more than 20 hours. Modern Age Coders teaches the skills the requirements rest on, the array of objects, the 2-D array, binary search and both sorts, parameterised queries, input validation and test planning, on briefs of our own, and prepares the paper. We never see, comment on or correct a candidate's project. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
 
-# Advanced Higher Computing Science project help
-
-From session 2026 to 27, every Advanced Higher Computing Science candidate in Scotland is handed the same ten functional requirements for their project type and told not to add any. The scenario is still theirs, agreed with their teacher; the requirements now belong to Qualifications Scotland. That change arrived in September 2026 and it matters more than it looks. The project carries 80 of the 135 marks, and the 2025 course report found candidates still losing marks by writing more requirements than they could follow through to the end. It also means that everything the project assesses is known before the work begins. We teach those skills on a practice brief of our own, prepare the question paper, and stay out of the real project entirely.
-
-At a glance: Course: Advanced Higher Computing Science C816 77; Project: 80 marks, no more than 20 hours; Question paper: 55 marks, 2 hours; Requirements: Ten per project type, set for you; Your project: We never see or touch it; Entry: Higher or equivalent; Group: Fifteen to twenty at one stage; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three courses behind the ten requirements
 
 Objects, algorithms and SQL, which is where most of the requirements live. Each card opens a full syllabus.
 
-- [Java for Teens](/courses/java-programming-masterclass-for-teens): Classes, inheritance, polymorphism and arrays of objects: the core of the object-oriented project type and of Section 1 of the paper.
-- [Problem Solving and Algorithms](/courses/problem-solving-dsa-masterclass-teens): Binary search, insertion sort and bubble sort, and the linked lists the paper asks candidates to explain.
-- [MySQL for Teens](/courses/mysql-mastery-for-teens): Subqueries, HAVING and EXISTS, which the database project type and Section 2 both lean on.
+[![Java for Teens course thumbnail](/images/java-teens.webp)  AH / 01 Java for Teens Classes, inheritance, polymorphism and arrays of objects: the core of the object-oriented project type and of Section 1 of the paper. Open the syllabus →](/courses/java-programming-masterclass-for-teens)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)  AH / 02 Problem Solving and Algorithms Binary search, insertion sort and bubble sort, and the linked lists the paper asks candidates to explain. Open the syllabus →](/courses/problem-solving-dsa-masterclass-teens)[![MySQL for Teens course thumbnail](/images/mysql-teens.webp)  AH / 03 MySQL for Teens Subqueries, HAVING and EXISTS, which the database project type and Section 2 both lean on. Open the syllabus →](/courses/mysql-mastery-for-teens)
+
+Set for you
 
 ## The scenario is yours. The ten requirements are not.
 
 From the Project Assessment Task, version 4.0, published in September 2026 and valid from session 2026 to 27.
 
-**The four project types and what their requirements centre on**
-
 | Project type | What the ten requirements centre on |
-|---|---|
+| --- | --- |
 | Software, object-oriented, with a database | A class the candidate defines, an array of objects filled from one small table, one of the three standard algorithms applied to that array, and a query with two parameters |
 | Software, procedural, with a database | The same shape with a 2-D array in place of objects, built from modules using local variables and parameter passing |
 | Database, with software or web | Four related tables, and queries using a subquery with ANY or EXISTS, a join across at least three tables, HAVING, and two of BETWEEN, IN or NOT |
@@ -55,14 +49,14 @@ This is the third tightening in three years. The September 2024 edition of the t
 
 Source: the Advanced Higher Computing Science Project Assessment Task, version 4.0, and the course specification, version 5.0, both September 2026 editions linked from the [Qualifications Scotland Advanced Higher page](https://www.sqa.org.uk/sqa/48508.html), together with the Advanced Higher course report for 2025. The requirement lists are summarised here, not reproduced; the task itself is on that page.
 
+Where the 80 marks sit
+
 ## Five stages, one list of requirements running through them
 
 The project is marked stage by stage, and each stage is judged partly on whether it carries the same ten requirements forward.
 
-**Project marks by stage**
-
 | Stage | Marks | What the evidence covers |
-|---|---|---|
+| --- | --- | --- |
 | Analysis | 10 | An outline of the problem (1), a UML use case diagram (2), a requirements specification (5), a plan for the remaining stages (2) |
 | Design | 20 | A design for each of the ten requirements, the data structures and the integration included |
 | Implementation | 30 | Every requirement built to match its design, with 4 of the marks for a record of ongoing testing |
@@ -81,10 +75,8 @@ Evidence is produced in no more than 20 hours, open-book, partly outside class, 
 
 One of four, matched to the project type, prompting the evidence for every requirement at every stage. Headings and page numbers must stay in.
 
-**Evidence the 2025 course report often found missing**
-
 | Stage | What was absent or weak |
-|---|---|
+| --- | --- |
 | Design | A class diagram for the classes a candidate wrote from scratch; many submitted one generated automatically by a framework |
 | Design | In procedural projects, a top-level design showing data flow between modules, and a planned 2-D array or array of records with types and dimensions |
 | Implementation | The starting contents of each database table before any query ran, and the unsorted data before a sort, so results could be checked |
@@ -94,24 +86,22 @@ One of four, matched to the project type, prompting the evidence for every requi
 
 None of those is a coding failure. Each one is a candidate who could build the thing and did not show it, which is exactly what a rehearsal on a practice brief fixes, and exactly what nobody outside the school may fix on the real project. The report was written about projects under the previous rules; with the requirements now set, the evidence it describes is easier to plan for, and just as easy to forget.
 
+The other 55 marks
+
 ## The question paper, and where the 2025 candidates slipped
 
 Two hours and roughly 40 per cent of the award. Section 1 is compulsory, then database or web.
 
-**The question paper**
-
 | Section | Marks | Status |
-|---|---|---|
+| --- | --- | --- |
 | 1. Software design and development | 35 | Compulsory |
 | 2. Database design and development | 20 | Either this |
 | 3. Web design and development | 20 | Or this |
 
 Each section opens with short questions on Advanced Higher concepts in a familiar setting, then moves to longer questions in context that ask for designs, code and explanation. About half the marks are C-type and about 30 per cent A-type, the harder marks that separate the top grade from a pass. In 2025, 57.3% of candidates answered the database section and 42.7% the web section, out of 767 who received a result.
 
-**What the 2025 course report found demanding**
-
 | Topic | The slip | What to practise |
-|---|---|---|
+| --- | --- | --- |
 | Polymorphism | Treating it as another word for inheritance, and missing that an array typed as the superclass can hold objects of every subclass | Reading a class diagram beside its code and predicting which methods each reference can reach |
 | Insertion sort | Writing a bubble sort instead, sorting ascending when descending was asked, or looping the wrong number of times | Both sorts in both directions, on a 2-D array as well as a simple list |
 | Sort evidence | Unable to say how before-and-after output proves a sort worked | Printing the data before and after every sort, which the project needs anyway |
@@ -119,7 +109,7 @@ Each section opens with short questions on Advanced Higher concepts in a familia
 | End-user testing | Describing persona-based final testing by the developers instead | Keeping the five types of testing in the specification clearly apart |
 | SQL on the web route | Using INSERT where the question needed UPDATE | Reading server-side pseudocode and choosing the query it implies |
 
-The report puts the polymorphism point in a line worth learning: "inheritance is primarily concerned with structure, whereas polymorphism is concerned with behaviour". It also records candidates reaching for the National 5 comparisons &lt;= and &gt;= where the Advanced Higher operator BETWEEN was wanted, and the Higher operator LIKE where IN was.
+The report puts the polymorphism point in a line worth learning: "inheritance is primarily concerned with structure, whereas polymorphism is concerned with behaviour". It also records candidates reaching for the National 5 comparisons <= and >= where the Advanced Higher operator BETWEEN was wanted, and the Higher operator LIKE where IN was.
 
 ### Content new at this level
 
@@ -134,6 +124,8 @@ Database: surrogate keys, data dictionaries, entity-relationship diagrams with w
 Web: forms sent by get and post, PHP variables and sessions, connecting to a database server from PHP, and media queries for print and screen.
 
 Source: the course specification, version 5.0, for the paper structure and content, and the Advanced Higher Computing Science course report for 2025 for the figures and the areas candidates found demanding. At the time of writing, the 2025 report is the most recent on the Advanced Higher page. Grade boundaries move every year, so none is quoted as a target.
+
+Where we stop
 
 ## We teach before the project starts, then step away
 
@@ -151,10 +143,8 @@ If a teacher may not do those things, an outside tutor certainly should not. We 
 
 Group work is not allowed once formal work on the assessment starts, so from that point our group lessons turn to the question paper.
 
-**Before and after the formal project begins**
-
-|  | Before it starts | Once it has started |
-|---|---|---|
+|   | Before it starts | Once it has started |
+| --- | --- | --- |
 | Lessons | The skills behind all ten requirements, on our own brief | The question paper only |
 | Practice project | A full rehearsal in a scenario we set, every stage evidenced | Closed, and never adapted into the real one |
 | Your scenario | Chosen by you with your teacher, never by us | Not discussed |
@@ -167,14 +157,14 @@ On the web option, a plain word: our catalogue has no PHP course. A candidate ta
 
 For AI tools anywhere near assessed work, [the page on declaring AI](/understand-the-code-dont-copy-paste-uk) sets out what the rules say. The two levels below are covered on [the Higher page](/higher-computing-science-help) and [the National 5 page](/national-5-computing-science-help).
 
+Progression
+
 ## Four rungs through S6
 
 Rungs one to three belong before the formal project begins. Rung four runs to the exam.
 
-**What an Advanced Higher candidate should be able to do**
-
 | Rung | When | What should be true |
-|---|---|---|
+| --- | --- | --- |
 | 1. Objects and structures | Start of S6 | Classes with inheritance and polymorphism, arrays of objects, 2-D arrays and arrays of records, written without a framework |
 | 2. The three algorithms | Autumn | Binary search, insertion sort and bubble sort applied to each of those structures, in either direction, with before-and-after output |
 | 3. A rehearsal project | Before the real one | Our own brief taken through all five stages: requirements, class diagram or data dictionary, wireframes, validation, and a test per requirement |
@@ -183,63 +173,293 @@ Rungs one to three belong before the formal project begins. Rung four runs to th
 ### Rung one without a framework
 
 Plenty of students meet objects through a game engine or interface toolkit that writes half the classes for them. The project bans those tools, so every class has to come from the candidate.
+
 The order of topics runs down the [coding roadmap](/coding-roadmap).
 
 ### Rung three sets the timing
 
 The school decides when the formal project starts. The rehearsal has to finish before that date, so the first lesson plans back from it.
+
 After the start date the rehearsal is closed and never reopened.
+
+The catalogue
 
 ## Nine courses for S6 candidates
 
 Sorted by the part of the requirements or the paper they serve. Which to begin with is settled in the free lesson.
 
+I
+
 ### Objects and procedures
 
 Section 1 and both software project types
 
-- [Java for teens](/courses/java-programming-masterclass-for-teens): Inheritance, polymorphism and arrays of objects, in a language that makes every type explicit.
-- [Python, zero to advanced](/courses/python-programming-masterclass-zero-to-advanced-college): Classes in Python for schools that teach in it, with modules and parameter passing alongside.
-- [Java, core to advanced](/courses/complete-java-programming-masterclass-college): For candidates already past the teen course who want the deeper object-oriented material.
+UK / AH1 / 01
+
+#### Java for teens
+
+Inheritance, polymorphism and arrays of objects, in a language that makes every type explicit.
+
+[Open the syllabus](/courses/java-programming-masterclass-for-teens)
+
+UK / AH1 / 02
+
+#### Python, zero to advanced
+
+Classes in Python for schools that teach in it, with modules and parameter passing alongside.
+
+[Open the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
+
+UK / AH1 / 03
+
+#### Java, core to advanced
+
+For candidates already past the teen course who want the deeper object-oriented material.
+
+[Open the syllabus](/courses/complete-java-programming-masterclass-college)II
 
 ### Algorithms and data
 
 The standard algorithms and the database route
 
-- [Problem solving and algorithms](/courses/problem-solving-dsa-masterclass-teens): Binary search, the two sorts and linked lists, traced by hand before any of them is coded.
-- [Data structures, advanced](/courses/data-structures-algorithms-masterclass-college): Harder structures and algorithm analysis, for candidates heading towards a computing degree.
-- [MySQL for teens](/courses/mysql-mastery-for-teens): Subqueries, HAVING and EXISTS, the SQL the database project type is built around.
+UK / AH2 / 01
+
+#### Problem solving and algorithms
+
+Binary search, the two sorts and linked lists, traced by hand before any of them is coded.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
+
+UK / AH2 / 02
+
+#### Data structures, advanced
+
+Harder structures and algorithm analysis, for candidates heading towards a computing degree.
+
+[Open the syllabus](/courses/data-structures-algorithms-masterclass-college)
+
+UK / AH2 / 03
+
+#### MySQL for teens
+
+Subqueries, HAVING and EXISTS, the SQL the database project type is built around.
+
+[Open the syllabus](/courses/mysql-mastery-for-teens)III
 
 ### Pages and working method
 
 For the web option and for any rehearsal
 
-- [Full stack web for teens](/courses/full-stack-web-development-teens-masterclass): Forms, sessions and media queries in a modern stack. The ideas carry over; the PHP does not.
-- [HTML and CSS](/courses/html-css-course-for-beginners-build-real-websites): Form elements, tables and media queries, a quick refresher for anyone who took the software route at Higher.
-- [Git and GitHub](/courses/git-github-version-control-course-for-college-students): Small iterations with a record of each, which suits the agile approach the task permits.
+UK / AH3 / 01
+
+#### Full stack web for teens
+
+Forms, sessions and media queries in a modern stack. The ideas carry over; the PHP does not.
+
+[Open the syllabus](/courses/full-stack-web-development-teens-masterclass)
+
+UK / AH3 / 02
+
+#### HTML and CSS
+
+Form elements, tables and media queries, a quick refresher for anyone who took the software route at Higher.
+
+[Open the syllabus](/courses/html-css-course-for-beginners-build-real-websites)
+
+UK / AH3 / 03
+
+#### Git and GitHub
+
+Small iterations with a record of each, which suits the agile approach the task permits.
+
+[Open the syllabus](/courses/git-github-version-control-course-for-college-students)
+
+How lessons work
 
 ## Rehearse first, then the paper
 
 Our teachers are in India, which keeps one clock all year. Scotland sits four and a half hours behind during British Summer Time and five and a half hours behind in winter, and every slot is agreed in UK time.
 
-- **Early evening** Most S6 candidates choose this, straight after school.
-- **Late evening** Around study periods, part-time jobs or sport.
-- **Saturday or Sunday morning** Room for a full two-hour paper with marking afterwards.
+Early evening
 
-- **Objects written by hand** Every class is written by the candidate, with its diagram drawn first, because that is what the project looks for.
-- **Sorts on every structure** Binary search and both sorts applied to arrays of objects, 2-D arrays and records, each with printed before-and-after output.
-- **One test per requirement** Test plans written before the code, a planned test for each requirement, never several bundled into one.
-- **A brief of our own** The rehearsal project uses a scenario we set, closed before the candidate's formal project begins.
-- **Paper practice** Unfamiliar code and designs explained in writing, because the harder marks go to explanation.
-- **Groups** Fifteen to twenty S6 candidates on the same rung, reading each other's designs aloud.
+Most S6 candidates choose this, straight after school.
+
+Late evening
+
+Around study periods, part-time jobs or sport.
+
+Saturday or Sunday morning
+
+Room for a full two-hour paper with marking afterwards.
+
+### Objects written by hand
+
+Every class is written by the candidate, with its diagram drawn first, because that is what the project looks for.
+
+### Sorts on every structure
+
+Binary search and both sorts applied to arrays of objects, 2-D arrays and records, each with printed before-and-after output.
+
+### One test per requirement
+
+Test plans written before the code, a planned test for each requirement, never several bundled into one.
+
+### A brief of our own
+
+The rehearsal project uses a scenario we set, closed before the candidate's formal project begins.
+
+### Paper practice
+
+Unfamiliar code and designs explained in writing, because the harder marks go to explanation.
+
+### Small groups
+
+Five to ten S6 candidates on the same rung, reading each other's designs aloud.
+
+Student work
+
+## Work our older students built in lessons
+
+Four projects from ordinary classes, none of them assessed. More in [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees for Advanced Higher lessons
 
 A single monthly charge in US dollars, the rate for every family outside India. The first lesson is free, and billing begins only once a course and a weekly time are agreed.
 
-- Free first class: USD 0. A real lesson on Advanced Higher content. An honest read of which rung to start on. A phone number is all we ask for.
-- Group batch: USD 100 a month. Five to ten S6 candidates on one rung. One teacher from rehearsal to exam. Rehearsal designs and test plans checked weekly. Paper practice once the formal project starts.
-- One to one: USD 150 a month. A teacher for one candidate. The rehearsal timed to the school's start date. Useful when that start date is close.
+Free first class
+
+USD 0
+
+no card required
+
+- A real lesson on Advanced Higher content
+- An honest read of which rung to start on
+- A phone number is all we ask for
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Five to ten S6 candidates on one rung
+- One teacher from rehearsal to exam
+- Rehearsal designs and test plans checked weekly
+- Paper practice once the formal project starts
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one candidate
+- The rehearsal timed to the school's start date
+- Useful when that start date is close
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Parents' Google reviews, copied word for word.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about Advanced Higher Computing Science
 
 ## What S6 candidates and parents ask
 
@@ -283,15 +503,54 @@ Qualifications Scotland replaced SQA on 1 February 2026. The September 2026 edit
 
 The first lesson costs nothing. After it there is one monthly fee in US dollars, lower for a group place than for a teacher to yourself, with the figures in the fees section. Nothing is charged in advance.
 
+Elsewhere on this site
+
 ## Around the Advanced Higher year
 
-- [Higher Computing Science](/higher-computing-science-help): The level beneath, and the usual route in.
-- [National 5 Computing Science](/national-5-computing-science-help): Where the input validation every project now needs was first taught.
-- [Coding and AI classes in Scotland](/coding-and-ai-classes-in-scotland): The Scottish system from primary school to S6.
-- [Understand the code, do not copy-paste it](/understand-the-code-dont-copy-paste-uk): Using AI around assessed work without losing the marks.
-- [Learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk): For candidates who want the reasoning behind the tools.
-- [Coding classes in the UK](/coding-classes-in-united-kingdom): The national page, with every UK page listed.
+The levels beneath it, the rules on AI, and the wider picture.
 
-## Contact
+### [Higher Computing Science](/higher-computing-science-help)
 
-Book the free first class at [https://learn.modernagecoders.com/advanced-higher-computing-science-project-help](https://learn.modernagecoders.com/advanced-higher-computing-science-project-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The level beneath, and the usual route in.
+
+### [National 5 Computing Science](/national-5-computing-science-help)
+
+Where the input validation every project now needs was first taught.
+
+### [Coding and AI classes in Scotland](/coding-and-ai-classes-in-scotland)
+
+The Scottish system from primary school to S6.
+
+### [Understand the code, do not copy-paste it](/understand-the-code-dont-copy-paste-uk)
+
+Using AI around assessed work without losing the marks.
+
+### [Learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk)
+
+For candidates who want the reasoning behind the tools.
+
+### [Coding classes in the UK](/coding-classes-in-united-kingdom)
+
+The national page, with every UK page listed.
+
+Start here
+
+## Book a free first lesson
+
+Leave a number and we will call back at a UK time that suits you. The lesson works on real Advanced Higher material and ends with a rung to start on and a date the rehearsal should finish by.
+
+Prefer to read first? Every [course page](/courses) lists its syllabus, [how we teach](/how-we-teach) says who the method suits and who it does not, and [student labs](/student-labs) shows what students build.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20first%20lesson%20for%20Advanced%20Higher%20Computing%20Science.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is the quickest route and costs nothing from a UK phone. It reaches our office in India, so the number begins +91.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/advanced-higher-computing-science-project-help*

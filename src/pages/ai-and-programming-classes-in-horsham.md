@@ -4,46 +4,32 @@ description: "AI, programming, Python and vibe coding lessons for Horsham, Roffe
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-horsham
 source: src/pages/ai-and-programming-classes-in-horsham.html
 ---
-> Horsham is a town in West Sussex whose built-up area held 50,215 usual residents at the 2021 census, according to the Office for National Statistics; the wider Horsham district had 146,778. The gazetteer lists Roffey as a suburban area of the district and Broadbridge Heath, Warnham and Mannings Heath as villages. Learners aged six to 67 in these places can join our AI, programming, Python, vibe coding and maths lessons, which run as live video calls led by tutors in India. You can have private lessons or sit in a class of fifteen to twenty people working at your level. We teach ideas so that a learner could carry them out with pencil and paper, and the computer comes second. Start with a free lesson; we finish it by telling you which course we would choose. In the Horsham project, learners fit curves to the district's age profile and use a count of bits to decide how complicated the curve deserves to be. Lessons after the trial cost USD 100 a month in a group and USD 150 a month one-to-one.
+> AI, programming, Python and vibe coding lessons for Horsham, Roffey, Broadbridge Heath and Warnham, ages 6 to 67. Taught live online. First lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South East England](/coding-and-ai-classes-in-south-east-england) / Horsham
-
-Horsham, West Sussex, South East England / Live online
-
-# AI and programming classes in Horsham
-
-**Where can Horsham learners find the best AI and programming classes?** Horsham is a town in West Sussex whose built-up area held 50,215 usual residents at the 2021 census, according to the Office for National Statistics; the wider Horsham district had 146,778. The gazetteer lists Roffey as a suburban area of the district and Broadbridge Heath, Warnham and Mannings Heath as villages. Learners aged six to 67 in these places can join our AI, programming, Python, vibe coding and maths lessons, which run as live video calls led by tutors in India. You can have private lessons or sit in a class of fifteen to twenty people working at your level. We teach ideas so that a learner could carry them out with pencil and paper, and the computer comes second. Start with a free lesson; we finish it by telling you which course we would choose. In the Horsham project, learners fit curves to the district's age profile and use a count of bits to decide how complicated the curve deserves to be. Lessons after the trial cost USD 100 a month in a group and USD 150 a month one-to-one.
-
-Give a model more knobs and it will fit your data more closely. That is always true and it is a trap, because past some point the extra knobs are fitting accidents. The old advice is Occam's razor: prefer the simpler explanation. But how much simpler, and who decides? Minimum description length turns the advice into arithmetic. Imagine sending your data to a friend down a slow line. You may send a model plus a list of corrections. A bigger model costs more bits to send and leaves smaller corrections. Add the two costs, and the model with the shortest total message wins. Horsham learners run that contest on census data.
-
-Facts last verified 30 September 2026. Teaching is online; no Horsham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentFirst courses
 
 ## Where Horsham learners usually start
 
 Chosen by age. You try a full live lesson on any of them for free, and no card is involved.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think course: simple rules, fair comparisons and knowing when an answer is too neat.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Children build Scratch games with an AI assistant and stay in charge of what goes in.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Machine learning in Python for teenagers, including the Horsham curve-fitting contest.
-- [Statistics & Probability](/courses/statistics-probability-maths-course) (Teens and adults): Statistics and probability for anyone who wants to judge a model, a chart or an AI claim.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think course: simple rules, fair comparisons and knowing when an answer is too neat.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsChildren build Scratch games with an AI assistant and stay in charge of what goes in.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensMachine learning in Python for teenagers, including the Horsham curve-fitting contest.See the syllabus](/courses/ai-ml-masterclass-teens)[![Statistics & Probability course thumbnail](/images/statistics-probability-maths.webp)Teens and adultsStatistics & ProbabilityStatistics and probability for anyone who wants to judge a model, a chart or an AI claim.See the syllabus](/courses/statistics-probability-maths-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Town and district
 
 ## Horsham, Roffey, Broadbridge Heath and Warnham
 
 Published census figures first, then the places named in the postcode gazetteer.
 
-**Horsham town and district, Census 2021 (ONS)**
-
 | Area | Usual residents |
-|---|---|
+| --- | --- |
 | Horsham built-up area | 50,215 |
 | Horsham district | 146,778 |
 
@@ -53,6 +39,8 @@ The district is much larger than the town and includes other towns and villages,
 
 Compare [coding classes in West Sussex](/coding-classes-in-west-sussex), [Crawley](/online-coding-and-python-classes-in-crawley) and [Worthing](/best-coding-and-ai-classes-in-worthing). Why reasoning comes before tools in our lessons: [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Horsham project
+
 ## Occam's razor in bits: minimum description length
 
 A curve is only worth sending if it saves more than it costs.
@@ -61,10 +49,8 @@ The data is one column from the 2021 census: the number of people in Horsham dis
 
 Now the learner tries to do better by sending a smooth curve and then the corrections. The curve is a polynomial; its degree is how many bends it is allowed. We charge 3.32 bits for every number needed to describe the curve, which is half of log2(100), a standard price when there are 100 data points. The corrections are charged by how large they are: small corrections are cheap to send, large ones are dear. Python fits each curve by least squares and adds up the bill.
 
-**Polynomial curves fitted to the Horsham district age profile, 100 ages, our Python run on Census 2021 data**
-
 | Degree of curve | Typical miss (people) | Whole message (bits) |
-|---|---|---|
+| --- | --- | --- |
 | 0 (a flat line) | 581.4 | 1,126.4 |
 | 2 | 286.1 | 1,030.7 |
 | 6 | 148.3 | 949.2 |
@@ -93,14 +79,14 @@ Code the two-part bill in bits, find the degree with the shortest message, and t
 
 Age counts are Census 2021 table TS007 for Horsham district from the Office for National Statistics via Nomis, read 30 September 2026, Open Government Licence. The people aged 100 and over are published as one open-ended group and were left out of the fit. The pricing of bits is a common textbook scheme; other fair schemes would give somewhat different totals.
 
+Simplicity and AI
+
 ## What the shortest message teaches about AI, vibe coding and agents
 
 Learning and compressing are close relatives.
 
-**From the Horsham curves to AI practice**
-
 | What the bits showed | The habit it builds |
-|---|---|
+| --- | --- |
 | The miss fell all the way to degree 40 | Never choose a model on training error alone |
 | Degree 12 cost more bits than degree 6 | Extra parts must earn their place |
 | Degree 20 gave the shortest message | Simplicity is a trade, not a rule |
@@ -111,14 +97,37 @@ A model that predicts data well can also compress it, and the reverse holds too.
 
 We are independent of the Office for National Statistics, Nomis and postcodes.io. The figures come from their open data and the analysis, including any error in it, is our own.
 
+Learning path
+
 ## From describing pictures to judging models
 
 We estimate the right step from the school year and confirm it in the free lesson.
 
-- **Years 2 to 6: How to think** Short, exact instructions; fair tests; spotting a rule that explains too little or too much. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Build with an AI helper, then check the result against what was asked. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python and AI** Fitting, testing and model choice, in step with GCSE and A level. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Statistics and AI** Evidence, models and agents in Python, for work or for curiosity. [Statistics & Probability](/courses/statistics-probability-maths-course), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Years 2 to 6
+
+### How to think
+
+Short, exact instructions; fair tests; spotting a rule that explains too little or too much.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Build with an AI helper, then check the result against what was asked.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python and AI
+
+Fitting, testing and model choice, in step with GCSE and A level.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Statistics and AI
+
+Evidence, models and agents in Python, for work or for curiosity.
+
+[Statistics & Probability](/courses/statistics-probability-maths-course)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)Model choice
 
 ## What is minimum description length, and what is Occam's razor in machine learning?
 
@@ -130,30 +139,139 @@ The shortest message, 904.5 bits, came at degree 20, and a test on unseen ages p
 
 Horsham teenagers who can run that test themselves will be the ones checking AI models in 2026, not just using them. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Lesson format
+
 ## How teaching reaches Horsham
 
 Lessons are live and online. What you need at home is a computer with a working camera, and a place to sit and think.
 
-- **The learner does the work** They type and share their screen. The tutor asks, hints and checks understanding.
-- **A full lesson to try** We teach a complete free session and use it to find the right course.
-- **Card-free booking** The trial is arranged without any payment details.
-- **Classes built by level** Fifteen to twenty learners at the same point, brought together from around the UK.
-- **Two sessions weekly** During term, stopping for West Sussex school holidays on the dates you give us.
-- **Steady UK timetable** The clock change is absorbed at our end; your lesson time is unchanged.
+### The learner does the work
 
-**The case for online** A tutor who can see the learner's screen can see their thinking, and recruiting nationally lets every class sit at one level.
+They type and share their screen. The tutor asks, hints and checks understanding.
+
+### A full lesson to try
+
+We teach a complete free session and use it to find the right course.
+
+### Card-free booking
+
+The trial is arranged without any payment details.
+
+### Classes built by level
+
+Fifteen to twenty learners at the same point, brought together from around the UK.
+
+### Two sessions weekly
+
+During term, stopping for West Sussex school holidays on the dates you give us.
+
+### Steady UK timetable
+
+The clock change is absorbed at our end; your lesson time is unchanged.
+
+The case for online
+
+A tutor who can see the learner's screen can see their thinking, and recruiting nationally lets every class sit at one level.
+
+Fees
 
 ## Horsham fees
 
 Every learner outside India is on the same international fee.
 
-- First class: USD 0. A whole first lesson, free, with a recommended course at the end.
-- Group tuition: USD 100 a month. A class of fifteen to twenty, around eight lessons a month.
-- Private tuition: USD 150 a month. Private one-to-one tuition, around eight lessons a month.
+First class**USD 0**
+
+A whole first lesson, free, with a recommended course at the end.
+
+Group tuition**USD 100**
+
+A class of fifteen to twenty, around eight lessons a month.
+
+Private tuition**USD 150**
+
+Private one-to-one tuition, around eight lessons a month.
 
 All prices are in US dollars; we do not quote pounds. You are billed only after the trial, when the course and lesson time have been agreed. Holidays, missed sessions and changes of format are dealt with on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Horsham.)Reviews
+
+## Reviews on Google from Sussex families and UK learners
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Arrange a free Horsham lesson
+
+We need the learner's age or year and a subject they like. The trial could be a describe-the-picture game, an AI-assisted Scratch project, first steps in Python, or a small curve fitted to real numbers.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Horsham one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Horsham.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Horsham: common questions
+
+Model choice, the age-profile project, courses, vibe coding and arrangements.
 
 ### What is the population of Horsham?
 
@@ -195,10 +313,14 @@ The first is free. From then on a group place is USD 100 per month and one-to-on
 
 Tell us the dates and lessons take a break.
 
+More pages
+
 ## Other West Sussex projects
 
 See how the projects differ: [Crawley](/online-coding-and-python-classes-in-crawley) (why an average of averages misleads), [Worthing](/best-coding-and-ai-classes-in-worthing) (who speaks after whom in a play) and [Bognor Regis](/vibe-coding-and-ai-agents-classes-in-bognor-regis). The [South East England page](/coding-and-ai-classes-in-south-east-england) and the [UK hub](/coding-classes-in-united-kingdom) have the full list.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Horsham.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-horsham](https://learn.modernagecoders.com/ai-and-programming-classes-in-horsham#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-horsham*

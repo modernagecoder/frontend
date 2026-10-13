@@ -4,46 +4,32 @@ description: "AI, programming and Python classes live online for Bury St Edmunds
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-bury-st-edmunds
 source: src/pages/ai-and-programming-classes-in-bury-st-edmunds.html
 ---
-> The ONS counted 41,280 usual residents in the Bury St Edmunds built-up area in 2021, and 179,948 across the West Suffolk district. The town's council wards include Moreton Hall, Tollgate, Minden, Abbeygate, Westgate, St Olaves, Southgate and Eastgate. Our India-based tutors teach AI, programming, Python, vibe coding and maths over live video to anyone from six to 67 in the town, either alone or alongside fifteen to twenty classmates working at the same level. For Bury St Edmunds we built a project around a question at the heart of every recommendation engine: if some numbers in a table are missing, can a model guess them from the rest? Learners hide census cells, fit a low-rank model and find out when extra flexibility starts to hurt. A trial lesson is free; group lessons then cost USD 100 a month and one-to-one lessons USD 150 a month.
+> AI, programming and Python classes live online for Bury St Edmunds, Moreton Hall, Tollgate and Minden, with vibe coding and agents for ages 6 to 67. Try one free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [East of England](/coding-and-ai-classes-in-east-of-england) / Bury St Edmunds
-
-Bury St Edmunds, West Suffolk, Suffolk / Live online
-
-# AI and programming classes in Bury St Edmunds
-
-**Where can Bury St Edmunds learners find the best AI and programming classes?** The ONS counted 41,280 usual residents in the Bury St Edmunds built-up area in 2021, and 179,948 across the West Suffolk district. The town's council wards include Moreton Hall, Tollgate, Minden, Abbeygate, Westgate, St Olaves, Southgate and Eastgate. Our India-based tutors teach AI, programming, Python, vibe coding and maths over live video to anyone from six to 67 in the town, either alone or alongside fifteen to twenty classmates working at the same level. For Bury St Edmunds we built a project around a question at the heart of every recommendation engine: if some numbers in a table are missing, can a model guess them from the rest? Learners hide census cells, fit a low-rank model and find out when extra flexibility starts to hurt. A trial lesson is free; group lessons then cost USD 100 a month and one-to-one lessons USD 150 a month.
-
-A streaming service knows what you have watched but not what you would think of the thousands of films you have not. Filling in those blanks is called matrix completion, and the classic trick is to assume the whole table can be rebuilt from a few hidden patterns. Bury St Edmunds learners test that assumption on something they can check: how people in each of the town's 141 census areas travel to work. They hide a fifth of the numbers, ask the model to fill them in, and then compare its guesses with the truth.
-
-Facts last verified 30 September 2026. Teaching is online; no Bury St Edmunds branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentSuggested courses
 
 ## AI and programming courses for Bury St Edmunds
 
 Choose by age band. Every course opens with a free live lesson, booked without card details.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): How to think: guessing a missing number in a pattern and then checking the guess.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Vibe coding for children: an AI suggests code for a Scratch game and the child tests it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Machine learning for teenagers, including the Bury St Edmunds matrix completion project.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): Generative AI and agents for older learners, built on real models rather than slogans.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsHow to think: guessing a missing number in a pattern and then checking the guess.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsVibe coding for children: an AI suggests code for a Scratch game and the child tests it.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensMachine learning for teenagers, including the Bury St Edmunds matrix completion project.See the syllabus](/courses/ai-ml-masterclass-teens)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseGenerative AI and agents for older learners, built on real models rather than slogans.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Bury St Edmunds facts
 
 ## Bury St Edmunds, Moreton Hall, Tollgate and Minden
 
 Census counts and ward names, each traced to a source.
 
-**Census 2021 usual residents, Office for National Statistics**
-
 | Area | Residents |
-|---|---|
+| --- | --- |
 | Bury St Edmunds built-up area | 41,280 |
 | West Suffolk district | 179,948 |
 
@@ -53,6 +39,8 @@ The district figure is counted on a much wider boundary that also takes in Haver
 
 See the [Suffolk page](/coding-classes-in-suffolk), [Ipswich](/best-coding-and-ai-classes-in-ipswich) and [Lowestoft](/ai-and-programming-classes-in-lowestoft). For why we still teach the thinking under the tools, read [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Bury St Edmunds project
+
 ## Matrix completion: guessing the missing cells of a census table
 
 141 areas, 11 ways of getting to work, and a fifth of the numbers deliberately removed.
@@ -61,10 +49,8 @@ Census table TS061 records how employed residents usually travel to work: from h
 
 The first guess is the column average: whatever share of workers use a method across the known cells, assume the same in the hidden one. The smarter guess is a low-rank model. It gives every area a short list of hidden numbers and every travel method a matching list, and predicts each cell by multiplying the two lists together. The learner fits the lists with alternating least squares: hold the method numbers fixed and solve for each area, then hold the areas fixed and solve for each method, and repeat. Each step is an ordinary least-squares fit, a few lines of NumPy.
 
-**Average miss per hidden cell, in people, 20 random masks with 20 per cent hidden, our Python run**
-
 | Method | Hidden cells | Known cells | Beat the column average |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Column average | 3.52 | 3.46 | not applicable |
 | Rank 1, penalty 0.1 | 3.38 | 2.35 | 13 of 20 |
 | Rank 2, penalty 0.1 | 2.31 | 1.19 | 20 of 20 |
@@ -91,14 +77,14 @@ Write alternating least squares, sweep the rank and the penalty, and plot error 
 
 Census 2021 table TS061 from Nomis, published by the ONS under the Open Government Licence. The low-rank method follows Koren, Bell and Volinsky (2009) and Candès and Recht (2009). Hidden cells were chosen at random by us, and each score is an average over 20 random choices, so another run will differ slightly.
 
+The AI connection
+
 ## What filling a census table teaches about recommendation and AI
 
 The same idea sits behind suggestions for films, songs, shopping and reading.
 
-**From the Bury St Edmunds table to AI systems**
-
 | In the project | In AI more widely |
-|---|---|
+| --- | --- |
 | Two hidden numbers per area beat the average | Much real data follows a few underlying patterns, which is why models can generalise at all |
 | Rank 10 with no penalty fitted the known cells and failed the hidden ones | Doing well on training data proves little; judge a model on data it never saw |
 | The penalty rescued the big model | Regularisation is a design choice, not a detail |
@@ -109,14 +95,37 @@ Recommendation engines, the tools that suggest the next video or product, have u
 
 The census numbers come from Nomis and the ONS and the ward names from postcodes.io, none of which is linked to Modern Age Coders; what we did with them is our own work.
 
+Stages
+
 ## From number patterns to models that fill the gaps
 
 Year group gives a starting guess; the trial lesson confirms it.
 
-- **Years 2 to 6: How to think** Patterns, tables and good guesses that can be checked. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Scratch and first Python, with AI suggestions the child tests. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python and machine learning** NumPy, least squares and honest testing on hidden data. [Python for Teens](/courses/python-complete-masterclass-teens), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **Adults: Data science and AI agents** Models, evaluation and then agents that use them. [Data Science Course](/courses/data-science-complete-masterclass-college), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
+Years 2 to 6
+
+### How to think
+
+Patterns, tables and good guesses that can be checked.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Scratch and first Python, with AI suggestions the child tests.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python and machine learning
+
+NumPy, least squares and honest testing on hidden data.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)Adults
+
+### Data science and AI agents
+
+Models, evaluation and then agents that use them.
+
+[Data Science Course](/courses/data-science-complete-masterclass-college)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)AI and missing data
 
 ## What is matrix completion, and how do recommendation engines use it?
 
@@ -128,30 +137,139 @@ Learners who have run this ask of any AI prediction: was it tested on data the m
 
 A Bury St Edmunds teenager who has watched a model memorise its training data will not be fooled by a high training score, and that caution is learned by coding the model. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+In practice
+
 ## How lessons run for Bury St Edmunds learners
 
 Learners join from home using a laptop or desktop with a webcam. Reliability of the connection counts for more than speed.
 
-- **The learner drives** Our tutors question and nudge; learners write, run and debug the code themselves.
-- **Level first, course second** We recommend a course only after the free lesson has shown what the learner can already do.
-- **A real lesson, free** The trial is a full session with no charge and no card requested.
-- **Matched groups** Fifteen to twenty learners at one level, drawn from towns across the UK.
-- **Term-time rhythm** Two lessons a week; tell us your Suffolk holiday dates and we pause for them.
-- **Clock changes absorbed** The lesson keeps its UK time through March and October; the tutor adjusts instead.
+### The learner drives
 
-**Why we teach live online** A live tutor catches a misunderstanding while the learner is still typing it. And learners from all over the UK make it possible to group people by level precisely, which one town alone rarely allows.
+Our tutors question and nudge; learners write, run and debug the code themselves.
+
+### Level first, course second
+
+We recommend a course only after the free lesson has shown what the learner can already do.
+
+### A real lesson, free
+
+The trial is a full session with no charge and no card requested.
+
+### Matched groups
+
+Fifteen to twenty learners at one level, drawn from towns across the UK.
+
+### Term-time rhythm
+
+Two lessons a week; tell us your Suffolk holiday dates and we pause for them.
+
+### Clock changes absorbed
+
+The lesson keeps its UK time through March and October; the tutor adjusts instead.
+
+Why we teach live online
+
+A live tutor catches a misunderstanding while the learner is still typing it. And learners from all over the UK make it possible to group people by level precisely, which one town alone rarely allows.
+
+Fees
 
 ## Fees in Bury St Edmunds
 
 Bury St Edmunds learners are charged our usual international fees.
 
-- First class: USD 0. A complete first lesson at no cost, with a course recommendation at the end.
-- Group tuition: USD 100 a month. Group lessons, around eight a month.
-- Private tuition: USD 150 a month. Private lessons, around eight a month.
+First class**USD 0**
+
+A complete first lesson at no cost, with a course recommendation at the end.
+
+Group tuition**USD 100**
+
+Group lessons, around eight a month.
+
+Private tuition**USD 150**
+
+Private lessons, around eight a month.
 
 All fees are quoted in US dollars, never in pounds. There is no bill for the trial; charging begins after you settle on a course and a weekly time. Details on holidays, missed sessions and changing format are on our pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Bury%20St%20Edmunds%20and%20would%20like%20a%20free%20AI%20or%20programming%20lesson.)Reviews
+
+## Google reviews from Suffolk families and learners across the UK
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Try a free lesson in Bury St Edmunds
+
+Send an age or school year and one interest. The trial could be a missing-number puzzle, a Scratch game made with AI help, first steps in Python, or a small prediction checked against hidden data.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Bury St Edmunds one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Bury%20St%20Edmunds%20and%20would%20like%20a%20free%20AI%20or%20programming%20lesson.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Bury St Edmunds: frequently asked
+
+The matrix project, AI, vibe coding and how lessons are arranged.
 
 ### What is the population of Bury St Edmunds?
 
@@ -193,10 +311,14 @@ The first lesson is free, then USD 100 a month for a group or USD 150 a month fo
 
 They can. Give us the dates and we will leave those weeks empty.
 
+Around Suffolk
+
 ## Other pages in Suffolk and the East of England
 
 Explore [Ipswich](/best-coding-and-ai-classes-in-ipswich) and [Lowestoft](/ai-and-programming-classes-in-lowestoft), each with a project of its own. The [Suffolk page](/coding-classes-in-suffolk), the [East of England page](/coding-and-ai-classes-in-east-of-england) and the [UK hub](/coding-classes-in-united-kingdom) list many more.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Chat to us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Bury%20St%20Edmunds%20and%20would%20like%20a%20free%20AI%20or%20programming%20lesson.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-bury-st-edmunds](https://learn.modernagecoders.com/ai-and-programming-classes-in-bury-st-edmunds#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-bury-st-edmunds*

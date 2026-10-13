@@ -4,46 +4,32 @@ description: "Live online vibe coding, AI agents and Python lessons for Halesowe
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-halesowen
 source: src/pages/vibe-coding-and-ai-agents-classes-in-halesowen.html
 ---
-> Halesowen's built-up area counted 60,110 residents in 2021 and Stourbridge's 56,950, ONS figures for two towns largely within Dudley borough. Cradley, Hasbury, Hayley Green, Hawne and Lapal are recorded suburbs within Halesowen. Ages six to 67 are welcome for vibe coding, AI agents, Python, coding and maths, taught on video calls by India-based tutors, one-to-one or with five to ten peers at your level. We teach clear thinking first, so a learner can tell a confident agent from a correct one. We run the opening session free and close it by naming the course we think fits. The Halesowen project builds a predicting agent on 1,033 Census areas and teaches it to state its uncertainty honestly and to hand its shakiest cases to a person. From then on, a class costs USD 100 a month and one-to-one tuition USD 150 a month.
+> Live online vibe coding, AI agents and Python lessons for Halesowen, Cradley, Hasbury and Hayley Green learners aged 6 to 67, solo or in groups. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [West Midlands region](/coding-and-ai-classes-in-west-midlands-region) / Halesowen
-
-Halesowen, Dudley, West Midlands, England / Live online
-
-# Vibe coding and AI agents classes in Halesowen
-
-**Where can Halesowen learners find the best vibe coding and AI agents classes?** Halesowen's built-up area counted 60,110 residents in 2021 and Stourbridge's 56,950, ONS figures for two towns largely within Dudley borough. Cradley, Hasbury, Hayley Green, Hawne and Lapal are recorded suburbs within Halesowen. Ages six to 67 are welcome for vibe coding, AI agents, Python, coding and maths, taught on video calls by India-based tutors, one-to-one or with five to ten peers at your level. We teach clear thinking first, so a learner can tell a confident agent from a correct one. We run the opening session free and close it by naming the course we think fits. The Halesowen project builds a predicting agent on 1,033 Census areas and teaches it to state its uncertainty honestly and to hand its shakiest cases to a person. From then on, a class costs USD 100 a month and one-to-one tuition USD 150 a month.
-
-An AI agent that answers every question in the same confident tone is dangerous, because you cannot tell its good answers from its guesses. A trustworthy agent does two extra things: it gives a range around each answer that really does contain the truth as often as it claims, and it knows when to stop and ask a human. Both can be built and tested in Python. In this project the agent predicts the share of one-person households in each of Dudley borough's 1,033 Census output areas, and the learner checks whether its "90% sure" ranges live up to the promise, then lets it skip the questions it is least sure about.
-
-Facts last verified 29 September 2026. Teaching is online; no Halesowen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentHalesowen course picks
 
 ## Halesowen courses in thinking, vibe coding and agents
 
 Choose by age. Each course opens with a free live lesson, and booking takes no card.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think course: estimating with a range, and saying "I am not sure" when that is true.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games dreamed up by the learner, coded with an AI and tested hard.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python and web projects with AI help, including the honest-uncertainty agent.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): Agents, evaluation, uncertainty and handing off to people, built in Python.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think course: estimating with a range, and saying "I am not sure" when that is true.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games dreamed up by the learner, coded with an AI and tested hard.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensPython and web projects with AI help, including the honest-uncertainty agent.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseAgents, evaluation, uncertainty and handing off to people, built in Python.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Halesowen and Dudley borough
 
 ## Halesowen, Cradley, Hasbury and Hayley Green
 
 ONS counts for Halesowen and Stourbridge, and the suburbs recorded inside Halesowen.
 
-**Two ONS built-up areas in Dudley borough, 2021 census residents**
-
 | Built-up area | Residents (2021) |
-|---|---|
+| --- | --- |
 | Halesowen | 60,110 |
 | Stourbridge | 56,950 |
 
@@ -53,6 +39,8 @@ Both figures are published by the ONS and shown separately, not summed. Postcode
 
 See [coding classes in the West Midlands](/coding-classes-in-the-west-midlands) and the [West Midlands region](/coding-and-ai-classes-in-west-midlands-region) for more choices. Why we build thinking before tool use is on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Halesowen project
+
 ## An agent that admits doubt: conformal prediction intervals and abstention
 
 Predict, attach an honest range, and decline the questions you are least sure of.
@@ -61,19 +49,15 @@ Three Census 2021 tables, pulled through the Nomis API, cover every one of Dudle
 
 First the agent needs a range it can stand behind, a prediction interval. The tempting shortcut is to look at its errors on the training areas and take a range wide enough to cover 90% of them. Split conformal prediction does the same thing on the calibration set instead, areas the model never trained on, with a small correction for the size of that set.
 
-**Promised 90% ranges for each area's one-person share, tested on unseen areas, averages of 50 splits, our Python run on Census 2021 data**
-
 | How the range was set | Range either side of the prediction | Test areas actually inside it |
-|---|---|---|
+| --- | --- | --- |
 | From errors on training areas | 9.34 points | 76.0% |
 | Conformal, from the calibration set | 15.31 points | 90.6% |
 
 The shortcut promised 90% and delivered 76.0%, because a model always looks better on data it has already seen. The conformal range is wider and honest, landing at 90.6% on average (between 84.5% and 96.6% on individual splits, as expected with about 200 test areas). Next comes abstention. The forest is 300 trees, and where they disagree most the agent is least sure, so it can answer only its most confident cases and pass the rest to a person.
 
-**Average error when the agent answers only its most confident share of test areas, our simulation**
-
 | Share of areas answered | Average error (points) |
-|---|---|
+| --- | --- |
 | All of them | 6.66 |
 | Most confident 80% | 5.97 |
 | Most confident 60% | 5.26 |
@@ -98,14 +82,14 @@ Build split conformal intervals, test coverage and design an agent that knows wh
 
 Household, car and density counts are Office for National Statistics Census 2021 data from Nomis, under the Open Government Licence. The model, the ranges, the abstention rule and every figure in the tables are our own work.
 
+Agents and doubt
+
 ## What this teaches about vibe coding and AI agents
 
 Knowing the limits of its knowledge is part of an agent's job.
 
-**From the Halesowen uncertainty project to real AI agents**
-
 | In the Dudley borough experiment | When you build or use an agent |
-|---|---|
+| --- | --- |
 | Training-based ranges covered 76.0% | Confidence measured on familiar data is inflated |
 | Conformal ranges covered 90.6% | Check promises on data kept aside |
 | Tree disagreement flagged doubtful areas | Disagreement is a useful warning sign |
@@ -116,14 +100,37 @@ Language model agents rarely volunteer how sure they are, and when asked they ca
 
 This page has no link to the ONS, Nomis or postcodes.io beyond using their open data. The agent, its thresholds and any mistakes belong to Modern Age Coders.
 
+Stages
+
 ## From guessing jars to agents that ask for help
 
 We treat the school year as a first estimate and let the trial settle the level.
 
-- **Years 2 to 7: How to think** Estimates, ranges and honest "I do not know" answers. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Games and apps built with an AI and checked by the learner. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python and uncertainty** Models, ranges and tests on held-back data beside GCSE and A level. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **Adults: Trustworthy agents** Agents with ranges, stop rules and human hand-offs, in Python. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Years 2 to 7
+
+### How to think
+
+Estimates, ranges and honest "I do not know" answers.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Games and apps built with an AI and checked by the learner.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python and uncertainty
+
+Models, ranges and tests on held-back data beside GCSE and A level.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)Adults
+
+### Trustworthy agents
+
+Agents with ranges, stop rules and human hand-offs, in Python.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)Agents and uncertainty
 
 ## How can an AI agent know when to say "I am not sure"?
 
@@ -135,30 +142,139 @@ Learners who have built that agent ask of any AI tool: how does it show doubt, a
 
 Designing agents that know their limits keeps Halesowen teenagers in control of the AI they build, which is exactly why learning to code still matters in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Hasbury to Hayley Green, all online
 
 The only equipment is a computer and a connection steady enough for a video call.
 
-- **Learners at the keyboard** Students write the code, prompts and tests themselves while the tutor follows along on screen share asking why.
-- **Pitched by the trial** The free lesson reveals the current level and so the first topic; exam boards are noted.
-- **Trial with no fee** Lesson one is free and ends with our suggested course.
-- **Level-matched classes** Five to ten British learners at the same stage in every class.
-- **Two lessons weekly** Holidays off, following school terms.
-- **Your slot, all year** Our tutors shift with the UK clock changes so your lesson time holds.
+### Learners at the keyboard
 
-**Why we teach online** Five learners at one stage with the same free evening seldom live near each other. Over video, they do not need to.
+Students write the code, prompts and tests themselves while the tutor follows along on screen share asking why.
+
+### Pitched by the trial
+
+The free lesson reveals the current level and so the first topic; exam boards are noted.
+
+### Trial with no fee
+
+Lesson one is free and ends with our suggested course.
+
+### Level-matched classes
+
+Five to ten British learners at the same stage in every class.
+
+### Two lessons weekly
+
+Holidays off, following school terms.
+
+### Your slot, all year
+
+Our tutors shift with the UK clock changes so your lesson time holds.
+
+Why we teach online
+
+Five learners at one stage with the same free evening seldom live near each other. Over video, they do not need to.
+
+Fees
 
 ## Halesowen fees
 
 Halesowen learners pay the international rates we charge everywhere outside India.
 
-- First class: USD 0. One whole lesson without charge, then our advice.
-- Group tuition: USD 100 a month. Nearly eight live lessons a month in a small class.
-- Private tuition: USD 150 a month. Nearly eight live one-to-one lessons a month.
+First class**USD 0**
+
+One whole lesson without charge, then our advice.
+
+Group tuition**USD 100**
+
+Nearly eight live lessons a month in a small class.
+
+Private tuition**USD 150**
+
+Nearly eight live one-to-one lessons a month.
 
 We quote and bill in US dollars, not sterling, and no bill is raised until the trial has pinned down a course and a weekly slot. The pricing page explains holidays, missed lessons and changing between class and private tuition.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Halesowen%3F)Reviews
+
+## Google reviews: West Midlands parents and UK learners
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Halesowen lesson
+
+An age or school year and a favourite pastime help us plan. The trial could be a jar-guessing game with ranges, a Scratch game planned with an AI, first steps in Python, or an agent that says when it is unsure.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Halesowen one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Halesowen%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Halesowen questions
+
+Uncertainty, the Census agent, vibe coding, Python and the practical details.
 
 ### What is the population of Halesowen?
 
@@ -200,10 +316,14 @@ Nothing for the trial; afterwards a group place is USD 100 monthly and a persona
 
 Yes, in school holidays; send us the dates.
 
+Nearby
+
 ## More West Midlands pages
 
 Other pages with their own projects: [Dudley](/online-coding-and-python-classes-in-dudley), [West Bromwich](/vibe-coding-and-ai-agents-classes-in-west-bromwich), [Walsall](/best-coding-and-ai-classes-in-walsall) and [Solihull](/online-coding-and-python-classes-in-solihull). The [UK hub](/coding-classes-in-united-kingdom) lists every other area.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Halesowen%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-halesowen](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-halesowen#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-halesowen*

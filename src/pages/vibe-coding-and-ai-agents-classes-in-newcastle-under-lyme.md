@@ -4,46 +4,32 @@ description: "Online vibe coding, AI agents and Python classes for Newcastle-und
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-newcastle-under-lyme
 source: src/pages/vibe-coding-and-ai-agents-classes-in-newcastle-under-lyme.html
 ---
-> Newcastle-under-Lyme borough counted 123,299 usual residents at the 2021 census, and the ONS gives the town's built-up area 76,505 and Kidsgrove 15,595, with Talke and Talke Pits, Madeley and Bignall End also listed. Our tutors in India teach vibe coding, AI agents, Python, coding and maths over live video to borough residents from age 6 up to 67, either solo or with fifteen to twenty classmates working at the same level. Thinking skills come first, so learners who build with AI can also question it. The free opening lesson finishes with a course recommendation. Here the project asks a question every AI agent faces: when a request is ambiguous, should it guess or ask? Continuing afterwards costs USD 100 monthly as part of a class, or USD 150 monthly with a tutor to yourself.
+> Online vibe coding, AI agents and Python classes for Newcastle-under-Lyme, Kidsgrove, Talke and Madeley learners aged 6 to 67, taught live. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [West Midlands region](/coding-and-ai-classes-in-west-midlands-region) / Newcastle-under-Lyme
-
-Newcastle-under-Lyme, Staffordshire, England / Live online
-
-# Vibe coding and AI agents classes in Newcastle-under-Lyme
-
-**Where can Newcastle-under-Lyme learners find the best vibe coding and AI agents classes?** Newcastle-under-Lyme borough counted 123,299 usual residents at the 2021 census, and the ONS gives the town's built-up area 76,505 and Kidsgrove 15,595, with Talke and Talke Pits, Madeley and Bignall End also listed. Our tutors in India teach vibe coding, AI agents, Python, coding and maths over live video to borough residents from age 6 up to 67, either solo or with fifteen to twenty classmates working at the same level. Thinking skills come first, so learners who build with AI can also question it. The free opening lesson finishes with a course recommendation. Here the project asks a question every AI agent faces: when a request is ambiguous, should it guess or ask? Continuing afterwards costs USD 100 monthly as part of a class, or USD 150 monthly with a tutor to yourself.
-
-Type "how many people live in Newcastle?" into an AI assistant and it has to make a choice, because the name fits more than one English place. Two of them are Newcastle upon Tyne and Newcastle-under-Lyme, in north Staffordshire. A careless agent picks one and answers confidently. A careful agent asks which you mean. But an agent that asks about everything is exhausting to use. This project finds the line between the two in Python, using real 2021 census figures for both districts, and discovers that the ambiguity matters enormously for some questions and hardly at all for others.
-
-Facts last verified 28 September 2026. Teaching is online; no Newcastle-under-Lyme branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentNewcastle-under-Lyme course picks
 
 ## Courses that build thinking, vibe coding and agents
 
 Let age and enthusiasm guide the choice. A free live lesson starts every course, and we never ask for a card to book it.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): Our how-to-think programme: spotting when a question has two meanings and asking the right follow-up.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games, then small apps described to an AI, with the learner checking every result.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Vibe coding in Python and on the web, including the ask-or-answer agent from this page.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): Language models, tools and AI agents, with safe behaviour designed in from the start.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsOur how-to-think programme: spotting when a question has two meanings and asking the right follow-up.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games, then small apps described to an AI, with the learner checking every result.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensVibe coding in Python and on the web, including the ask-or-answer agent from this page.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseLanguage models, tools and AI agents, with safe behaviour designed in from the start.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)The borough
 
 ## Newcastle-under-Lyme, Kidsgrove and the villages
 
 How many people the 2021 census found in each built-up area.
 
-**Borough built-up areas with 3,000 or more people, as published by the ONS for 2021**
-
 | Built-up area | People (2021) |
-|---|---|
+| --- | --- |
 | Newcastle-under-Lyme | 76,505 |
 | Kidsgrove | 15,595 |
 | Talke and Talke Pits | 3,435 |
@@ -56,16 +42,16 @@ The rows are shown exactly as the ONS published them and are not added up, becau
 
 More options across the county are on [coding classes in Staffordshire](/coding-classes-in-staffordshire), and the wider area on [the West Midlands region page](/coding-and-ai-classes-in-west-midlands-region). Why we teach judgement before prompting is explained on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Newcastle-under-Lyme project
+
 ## Which Newcastle? Teaching an agent when to ask
 
 Answer nine census questions both ways, then decide which ones are worth a clarifying question.
 
 The learner fetches Census 2021 tables from the Nomis API for both districts at once: population, age, cars, travel to work and distance to work. Then comes the key step. For each question, the program works out the answer under both readings of "Newcastle" and compares them. If the two answers are close enough for the user's purpose, the agent can reply without asking, mentioning that both places give about the same figure. If they are far apart, a wrong guess would mislead, and the agent should ask a clarifying question first.
 
-**Nine questions about "Newcastle", Census 2021 figures for each district via Nomis, our comparison, 28 September 2026**
-
 | Question | Newcastle upon Tyne | Newcastle-under-Lyme | Ask first? |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Usual residents | 300,125 | 123,299 | Yes |
 | Share of residents aged 65 and over | 14.83% | 21.69% | Yes |
 | Share of households with no car or van | 36.61% | 19.42% | Yes |
@@ -96,14 +82,14 @@ Code the ask-or-answer rule, test absolute against relative tolerance and justif
 
 Every number in the table is a Census 2021 figure from the Office for National Statistics, read through Nomis. The percentages, the tolerance rule and the ask-or-answer decisions are our own.
 
+Agents that ask
+
 ## What this teaches about vibe coding and AI agents
 
 Good agents check in at the right moments, and only then.
 
-**The ask-or-answer rule in everyday AI use**
-
 | In the Newcastle project | In vibe coding and agents |
-|---|---|
+| --- | --- |
 | Two towns share one name | A request can mean two different programs |
 | Answers far apart: ask | Ask when a wrong guess would cost real work |
 | Answers close: reply and note it | Proceed, but state the assumption made |
@@ -114,14 +100,37 @@ Vibe coding, where a learner describes what they want and an AI writes the code,
 
 Neither the ONS nor Nomis is connected with Modern Age Coders. The census counts belong to them; the comparisons and the rule built on top, including any mistakes, belong to us.
 
+Stages
+
 ## From two-meaning puzzles to careful agents
 
 The school year is a rough guide; the free lesson decides the actual starting point.
 
-- **Years 2 to 7: How to think** Logic, puzzles and noticing when a question could mean two things. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Small games and apps made with AI, each one tested by the learner. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python and agents** Data, rules and simple agents, studied alongside GCSE and A level. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **Adults: Building agents** Tools, planning, clarifying questions and safe agent design in Python. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Years 2 to 7
+
+### How to think
+
+Logic, puzzles and noticing when a question could mean two things.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Small games and apps made with AI, each one tested by the learner.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python and agents
+
+Data, rules and simple agents, studied alongside GCSE and A level.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)Adults
+
+### Building agents
+
+Tools, planning, clarifying questions and safe agent design in Python.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)AI and ambiguity
 
 ## Should an AI guess or ask?
 
@@ -133,30 +142,139 @@ Learners who have measured where the two Newcastles differ learn to spot hidden 
 
 Judging when a machine ought to check with you is a skill Newcastle-under-Lyme teenagers can build now, and it is a big part of why coding is worth learning in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Kidsgrove to Madeley, online
 
 Every home in the borough with a computer and decent broadband can join.
 
-- **Learner-led screens** All the typing, prompting and running is done by the student, while the tutor keeps an eye on their screen and steers with questions.
-- **Placed by the trial** A Year 5 or a Year 12 starts at the point the free lesson shows, with any exam board in mind.
-- **Start free** The first lesson is on us, and we finish it with a suggested course.
-- **Level-matched classes** Five to ten UK learners at one stage learn together.
-- **Two a week** Lessons break for the school holidays.
-- **Unmoving times** Tutors adjust for British Summer Time, so your lesson keeps its hour.
+### Learner-led screens
 
-**Why the classes are online** Five north Staffordshire learners at the same level, all free on the same evening, are unlikely to be neighbours. Online, they can still be classmates.
+All the typing, prompting and running is done by the student, while the tutor keeps an eye on their screen and steers with questions.
+
+### Placed by the trial
+
+A Year 5 or a Year 12 starts at the point the free lesson shows, with any exam board in mind.
+
+### Start free
+
+The first lesson is on us, and we finish it with a suggested course.
+
+### Level-matched classes
+
+Five to ten UK learners at one stage learn together.
+
+### Two a week
+
+Lessons break for the school holidays.
+
+### Unmoving times
+
+Tutors adjust for British Summer Time, so your lesson keeps its hour.
+
+Why the classes are online
+
+Five north Staffordshire learners at the same level, all free on the same evening, are unlikely to be neighbours. Online, they can still be classmates.
+
+Fees
 
 ## Newcastle-under-Lyme fees
 
 Learners here pay our international fee, the same in every country outside India.
 
-- First class: USD 0. The whole first lesson at no charge, ending with a course suggestion.
-- Group tuition: USD 100 a month. Roughly eight live group lessons per month.
-- Private tuition: USD 150 a month. Roughly eight live private lessons per month.
+First class**USD 0**
+
+The whole first lesson at no charge, ending with a course suggestion.
+
+Group tuition**USD 100**
+
+Roughly eight live group lessons per month.
+
+Private tuition**USD 150**
+
+Roughly eight live private lessons per month.
 
 We bill in US dollars, not sterling, and only once the free lesson has settled a course and a regular weekly time. Breaks, missed lessons and switching between group and private are covered on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Newcastle-under-Lyme.)Reviews
+
+## Google reviews from Staffordshire families and across the UK
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Newcastle-under-Lyme lesson
+
+Just give us an age or school year and a hobby or two. For the trial we might solve riddles with double meanings, build a Scratch game alongside an AI, write some first Python, or sketch an agent that checks before acting.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Newcastle-under-Lyme one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Newcastle-under-Lyme.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Newcastle-under-Lyme questions
+
+Answers on the Newcastle agent project, vibe coding, agents, fees and timings.
 
 ### What is the population of Newcastle-under-Lyme?
 
@@ -198,10 +316,14 @@ Nothing for lesson one; from then on, USD 100 each month in a class or USD 150 e
 
 Yes. Tell us your dates and we will skip those weeks.
 
+Nearby
+
 ## More Staffordshire pages, and the other Newcastle
 
 Right next door, [Stoke-on-Trent](/best-coding-class-in-stoke-on-trent) has its own page, and [Stafford](/online-coding-and-python-classes-in-stafford) runs a different project. If you were looking for the city on the Tyne, [Newcastle upon Tyne](/best-coding-class-in-newcastle-upon-tyne) is the page you want. Every area we cover is reachable from [our UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Newcastle-under-Lyme.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-newcastle-under-lyme](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-newcastle-under-lyme#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-newcastle-under-lyme*

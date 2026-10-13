@@ -10,7 +10,7 @@ Zero Experience • **Learn C++ From Scratch**
 
 # C++ for Beginners: Start From Absolute Zero
 
-Never written a line of code? Perfect. You'll write your very first C++ program in class one, then learn variables, logic, loops and functions, one gentle step at a time, until pointers, OOP and the STL feel natural. Live, patient, batch mentoring built for complete beginners.
+Never written a line of code? Perfect. You'll write your very first C++ program in class one, then learn variables, logic, loops and functions, one gentle step at a time, until pointers, OOP and the STL feel natural. Live, patient, small-batch mentoring built for complete beginners.
 
 Book a Free Beginner DemoSee the Journey**0→1**No experience needed**15–20**Students per batch**Live**Patient real mentor**Class 1**Your first program
 

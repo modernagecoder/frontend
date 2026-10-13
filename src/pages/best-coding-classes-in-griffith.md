@@ -4,46 +4,32 @@ description: "Coding classes for Griffith teenagers and adults, live online: Pyt
 canonical: https://learn.modernagecoders.com/best-coding-classes-in-griffith
 source: src/pages/best-coding-classes-in-griffith.html
 ---
-> The most useful coding classes for Griffith teenagers and adults teach Python through problems where the obvious answer is wrong, then show how to fix it. The 2021 Census counted 20,569 people in the Griffith urban area, with a median age of 37. Lessons are live online with a teacher, in a small group or one to one, and the first is free.
+> Coding classes for Griffith teenagers and adults, live online: Python, sorting and the logic of real address data from the Riverina. The first lesson is free.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [New South Wales](/coding-and-ai-classes-in-new-south-wales) / Griffith
-
-Griffith, New South Wales, Australia / Live online
-
-# Coding classes in Griffith
-
-**What do the best coding classes in Griffith teach?** The most useful coding classes for Griffith teenagers and adults teach Python through problems where the obvious answer is wrong, then show how to fix it. The 2021 Census counted 20,569 people in the Griffith urban area, with a median age of 37. Lessons are live online with a teacher, in a small group or one to one, and the first is free.
-
-Ask a computer to sort the house numbers 2, 10 and 12A and, if the numbers are stored as text, it answers 10, 12A, 2. It compares text one character at a time, and the character 1 comes before 2. People expect 2, 10, 12A. We took the house numbers on every Griffith street from the state's address points and sorted them three ways. The computer's default order and the human one disagree on 261 of the city's 349 streets. A second, smaller disagreement appears once units are involved: should unit 1 at number 12 sit before house 2, or after house 12? Writing a sort that matches how people actually walk down a street is a short Python exercise that teaches more about data than most textbook examples.
-
-Facts last verified 10 October 2026. Teaching is online; no Griffith branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Griffith
 
 ## Courses where data has to make sense to people
 
 Every course reaches projects like the house number sort. Begin with the free trial, which needs no card.
 
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python basics through to sorting, string handling and custom sort keys on real data.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 17): Cleaning messy real-world data in Python before any analysis begins.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (University and adult): Python from the start to advanced topics, including regular expressions and sort keys.
-- [MySQL Course](/courses/mysql-database-complete-masterclass-college) (Adults): Databases and SQL, including why text columns sort numbers in surprising orders.
+[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython basics through to sorting, string handling and custom sort keys on real data.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 17Data Science for TeensCleaning messy real-world data in Python before any analysis begins.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Python Masterclass course thumbnail](/images/python-college.webp)University and adultPython MasterclassPython from the start to advanced topics, including regular expressions and sort keys.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)[![MySQL Course course thumbnail](/images/database-college.webp)AdultsMySQL CourseDatabases and SQL, including why text columns sort numbers in surprising orders.See the syllabus](/courses/mysql-database-complete-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Griffith at the Census
 
 ## A working Riverina city with young families
 
 The Griffith Significant Urban Area at the 2021 Census, with New South Wales and Australia alongside.
 
-**Griffith urban area: core 2021 counts**
-
 | Measure | Griffith |
-|---|---|
+| --- | --- |
 | Residents | 20,569 |
 | Median age | 37 |
 | Families | 5,279 |
@@ -51,10 +37,8 @@ The Griffith Significant Urban Area at the 2021 Census, with New South Wales and
 | Average people per household | 2.6 |
 | Area of the urban area | about 56.3 square kilometres |
 
-**Griffith compared with New South Wales and Australia**
-
 | Measure | Griffith | NSW | Australia |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Employed residents working full-time | 6,731 (63.2%) | 55.2% | 55.9% |
 | Labourers among employed residents | 2,155 (20.9%) | 8.2% | 9.0% |
 | Travelled to work driving a car | 7,552 (73.3%) | 43.1% | 52.7% |
@@ -75,22 +59,20 @@ Of the bureau localities, only Griffith itself lies almost entirely inside the u
 
 Census cells are perturbed slightly for privacy, so components need not add to totals. We print every figure as the bureau did.
 
+Signature project
+
 ## Why does the computer put house 10 before house 2?
 
 One list of house numbers, three sort orders. Learners write the second and third.
 
-**Six house numbers sorted three ways**
-
 | Method | Result | How it compares |
-|---|---|---|
+| --- | --- | --- |
 | Text order (default) | 1/12, 10, 12, 12A, 2, 3 | Character by character |
 | Natural order | 1/12, 2, 3, 10, 12, 12A | Digit runs as numbers |
 | Address order | 2, 3, 10, 12, 1/12, 12A | Street number first, unit second |
 
-**Griffith house numbers from state address points (our count)**
-
 | Measure | Count |
-|---|---|
+| --- | --- |
 | Address points inside the urban area | 10,587 |
 | Addressed to Griffith with a house number | 9,880 |
 | Streets | 349 |
@@ -120,6 +102,8 @@ Natural order fixes the 10-before-2 problem, yet it still puts 1/12 first becaus
 
 House numbers come from NSW Spatial Services address points, copyright Spatial Services, kept where the point falls inside the bureau's Griffith urban area and the address names Griffith. 217 points with no house number were left out, and a handful of unusual mixed forms are not shown in the table. We publish counts and street names only, never full addresses; the sorting and every count are our own.
 
+Sort keys in practice
+
 ## One key function, three behaviours
 
 In Python the whole difference is the key passed to sorted, which makes this a perfect first lesson in thinking about data.
@@ -140,6 +124,8 @@ Fix the order of product codes, invoices or file names in a spreadsheet export w
 
 NSW Spatial Services, the Australian Bureau of Statistics and Griffith City Council have no association with Modern Age Coders. The address points and boundaries are theirs; the sort keys and counts on this page are ours.
 
+Griffith planner
+
 ## Fitting lessons around a Riverina week
 
 Griffith keeps eastern Australian time, with summer daylight saving.
@@ -156,14 +142,37 @@ Teachers in India are five and a half hours behind Griffith in summer and four a
 
 New South Wales Term 4 of 2027 runs from Monday 11 October to Monday 20 December, and lessons can pause around holidays.
 
+Learning ladder
+
 ## From first lists to clean data
 
 The ages are a guide, and the free lesson finds the right starting step.
 
-- **Ages 13 to 14: Lists and order** Python lists, sorting and the surprise of sorting numbers stored as text. [Python for Teens](/courses/python-complete-masterclass-teens), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 15 to 18: Messy data** Regular expressions, key functions and cleaning real data files before using them. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)
-- **University: Ordering in depth** Total orders, stable sorts and how sorting algorithms rely on a consistent key. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)
-- **Adults: Data at work** Databases, spreadsheet exports and reports that list things in the order people expect. [MySQL Course](/courses/mysql-database-complete-masterclass-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 13 to 14
+
+### Lists and order
+
+Python lists, sorting and the surprise of sorting numbers stored as text.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Maths Through Coding](/courses/maths-through-coding)Ages 15 to 18
+
+### Messy data
+
+Regular expressions, key functions and cleaning real data files before using them.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)University
+
+### Ordering in depth
+
+Total orders, stable sorts and how sorting algorithms rely on a consistent key.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)Adults
+
+### Data at work
+
+Databases, spreadsheet exports and reports that list things in the order people expect.
+
+[MySQL Course](/courses/mysql-database-complete-masterclass-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## An AI assistant can write a sort in one line. Why should Griffith learners care how?
 
@@ -175,30 +184,139 @@ Our Griffith learners see all three orders on their own city's streets, write th
 
 Code takes seconds to produce in 2026; noticing that it sorts the wrong way still needs someone who knows what the data means. The longer argument is in [why coding remains worth learning in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How Griffith lessons work
 
 All lessons are live video classes, so learners in Griffith and nearby towns join from home.
 
-- **At home** A computer with a microphone and a reliable internet connection is all that is needed.
-- **NSW school years** Teachers plan with New South Wales year levels and terms in mind, teaching in English.
-- **Trial first** The free trial is a real class that finishes with a recommended course and weekly time.
-- **Matched groups** Fifteen to twenty learners at the same level share a group, from across Australia.
-- **Two lessons weekly** Groups meet twice a week on set days, roughly eight lessons a month.
-- **Our teachers** Teachers work from India, and every lesson time is written in Griffith time.
+### At home
 
-**Shift workers welcome** Adults with changing rosters can book one-to-one lessons and move them with notice.
+A computer with a microphone and a reliable internet connection is all that is needed.
+
+### NSW school years
+
+Teachers plan with New South Wales year levels and terms in mind, teaching in English.
+
+### Trial first
+
+The free trial is a real class that finishes with a recommended course and weekly time.
+
+### Matched groups
+
+Fifteen to twenty learners at the same level share a group, from across Australia.
+
+### Two lessons weekly
+
+Groups meet twice a week on set days, roughly eight lessons a month.
+
+### Our teachers
+
+Teachers work from India, and every lesson time is written in Griffith time.
+
+Shift workers welcome
+
+Adults with changing rosters can book one-to-one lessons and move them with notice.
+
+Fees
 
 ## Griffith class fees
 
 Pricing is brief and the same throughout Australia.
 
-- First class: USD 0. The first lesson is free and ends with a recommended level, course and time.
-- Group tuition: USD 100 a month. A month of group lessons, roughly eight, with fifteen to twenty learners of similar level.
-- Private tuition: USD 150 a month. Roughly eight private lessons each month with one teacher.
+First class**USD 0**
+
+The first lesson is free and ends with a recommended level, course and time.
+
+Group tuition**USD 100**
+
+A month of group lessons, roughly eight, with fifteen to twenty learners of similar level.
+
+Private tuition**USD 150**
+
+Roughly eight private lessons each month with one teacher.
 
 Fees outside India are in US dollars, and Griffith learners pay the same as learners anywhere in Australia. Payment begins only after the trial has fixed the course and time, and the pricing page explains holidays, absences and moving between group and private.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20class%20for%20a%20learner%20in%20Griffith.)Reviews
+
+## Google reviews from parents
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free coding lesson in Griffith
+
+Tell us the learner's age and interests. A beginner might write a first program that sorts a list; an older learner might write the address sort key and test it on Banna Avenue.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Griffith one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20class%20for%20a%20learner%20in%20Griffith.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Griffith coding class questions
+
+Answers to what Griffith families and adult learners ask most.
 
 ### What is natural sort order?
 
@@ -240,10 +358,14 @@ The first lesson is free. Then a group place is USD 100 a month for two live les
 
 Fifteen to twenty, grouped by level and aims rather than age or town. If no group time suits, one-to-one lessons are offered.
 
+Explore Australia
+
 ## More from the Riverina
 
 All New South Wales pages are listed in our [NSW state guide](/coding-and-ai-classes-in-new-south-wales). Elsewhere in the Riverina, see [coding classes in Wagga Wagga](/best-coding-classes-in-wagga-wagga), and over the border [AI and programming in Mildura](/ai-and-programming-classes-in-mildura). For the case against copying code you do not understand, read [understand the code, don't copy and paste it](/understand-the-code-dont-copy-paste-australia).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20class%20for%20a%20learner%20in%20Griffith.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-classes-in-griffith](https://learn.modernagecoders.com/best-coding-classes-in-griffith#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-classes-in-griffith*

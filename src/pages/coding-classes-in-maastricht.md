@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes in Maastricht for ages 6
 canonical: https://learn.modernagecoders.com/coding-classes-in-maastricht
 source: src/pages/coding-classes-in-maastricht.html
 ---
-> Coding classes in Maastricht serve 126,026 people (Statistics Netherlands, 1 January 2026), of whom only 10.1 percent are under fifteen and 20.9 percent are between fifteen and twenty-five, the shape of a place where a university sits inside a small old town. Its history entry states plainly that Maastricht never held city rights in the sense of a charter, which is awkward, because every other city page in this series quotes a year for exactly that. A field that is filled in everywhere else is not the definition of anything. Modern Age Coders teaches live online in English here and in Borgharen and Itteren, ages 6 to 67, free first lesson, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
+> Live online coding, Python and AI classes in Maastricht for ages 6 to 67, in the city and in Borgharen and Itteren. First lesson free, then one flat monthly fee.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Maastricht
-
-Maastricht, Limburg / Live online
-
-# Coding classes in Maastricht, a city that never received city rights
-
-**What are the best coding classes in Maastricht?** Coding classes in Maastricht serve 126,026 people (Statistics Netherlands, 1 January 2026), of whom only 10.1 percent are under fifteen and 20.9 percent are between fifteen and twenty-five, the shape of a place where a university sits inside a small old town. Its history entry states plainly that Maastricht never held city rights in the sense of a charter, which is awkward, because every other city page in this series quotes a year for exactly that. A field that is filled in everywhere else is not the definition of anything. Modern Age Coders teaches live online in English here and in Borgharen and Itteren, ages 6 to 67, free first lesson, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
-
-Nearly every Dutch city can name the year it was granted its rights, and this cluster has quoted a dozen of them. Maastricht cannot, because it never received a charter at all: what 1229 records is a duke's permission to build a stone wall. Nobody doubts that Maastricht is a city, so the field that every other record has filled in turns out not to be what makes a city a city. Build a classifier on it and the oldest continuously inhabited place in the country comes back false.
-
-Facts last verified 8 September 2026. Teaching is online; no Maastricht branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Maastricht
 
 ## Four courses for a small city with a large international university
 
 A groep 5 child in Wyck, a teenager in Heer who wants typed code before the profielkeuze closes, a university student whose programme assumes data skills, and an adult in Borgharen returning to work: four doors into a compact city.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Typed Python, turtle drawings and a first program that learns a rule, in English, for the groep 5 to 8 child anywhere in the municipality.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Two years from a blank file to real projects, for the teenager whose school offers no route into programming.
-- [TypeScript Course](/courses/complete-typescript-programming-masterclass-college) (College and adult): Typed JavaScript, React and Node, for the student in an international programme who wants code that fails at compile time rather than in front of a marker.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (Adults): Excel, SQL, Python and BI, for the working parent whose categories never quite fit the records they are applied to.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsTyped Python, turtle drawings and a first program that learns a rule, in English, for the groep 5 to 8 child anywhere in the municipality.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensTwo years from a blank file to real projects, for the teenager whose school offers no route into programming.See the syllabus](/courses/python-complete-masterclass-teens)[![TypeScript Course course thumbnail](/images/typescript-college.webp)College and adultTypeScript CourseTyped JavaScript, React and Node, for the student in an international programme who wants code that fails at compile time rather than in front of a marker.See the syllabus](/courses/complete-typescript-programming-masterclass-college)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)AdultsData Analysis CourseExcel, SQL, Python and BI, for the working parent whose categories never quite fit the records they are applied to.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Maastricht today
 
 ## The fewest children of any city in this series, and the most students per resident but one
 
@@ -52,7 +40,11 @@ Only 12,719 residents are under fifteen, while 26,390 are between fifteen and tw
 
 The university reports 23,324 students and 4,654 full-time-equivalent staff for 2024, with 61 percent of students coming from abroad. Its own founding year is given as 1974 in one entry and 1976 in another, and both are printed here rather than reconciled.
 
-**Two thousand years of habitation, and no charter** The city's history entry states that Maastricht never had city rights in the sense of a charter. What 1229 records is ducal permission to build a stone wall, which is not the same instrument. Archaeological evidence supports twenty centuries of continuous habitation, and the Sint-Servaasbrug, built between 1280 and 1298, is regarded as the oldest bridge in the country.
+Two thousand years of habitation, and no charter
+
+The city's history entry states that Maastricht never had city rights in the sense of a charter. What 1229 records is ducal permission to build a stone wall, which is not the same instrument. Archaeological evidence supports twenty centuries of continuous habitation, and the Sint-Servaasbrug, built between 1280 and 1298, is regarded as the oldest bridge in the country.
+
+Where the learners are
 
 ## One city, two villages, seven wijken and a river through the middle
 
@@ -84,6 +76,8 @@ The smaller of the two villages, further north between the river and the canal. 
 
 The class reaches the city and both villages at one hour and one fee, and stage rather than address decides which group a learner joins.
 
+Verified local facts
+
 ## Every figure and its source, including the sentence that undoes a category
 
 The national count, the municipal entry, the history entry, the university, the bridge and the treaty.
@@ -114,6 +108,8 @@ The Treaty of Maastricht was signed on 7 February 1992 in the Statenzaal of the 
 
 Modern Age Coders has no connection to the municipality, the university or any school named here and claims none. The two founding years for the university are both printed because two sources give two answers, and choosing between them is not this page's job.
 
+Signature project
+
 ## Build the classifier that calls Maastricht not a city, then work out what went wrong
 
 One field, a dozen records that have it, one record that does not, and a category that was never defined by the field in the first place.
@@ -130,10 +126,8 @@ Maastricht has no year, because it never received a charter. The classifier retu
 
 City rights are strongly associated with being a city, which is why the field looks definitional and why it works on almost every row. Association is not definition: a charter is one historical route into the category and not the category itself. The learner rewrites the rule so that the field becomes evidence rather than the test, and immediately has to decide what the test actually is.
 
-**What the field says, and what is true**
-
 | Place | City rights year in the record | Classifier verdict | A city? |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Most cities in this cluster | present, from 1185 onward | city | yes, correctly |
 | Maastricht | none, no charter was ever issued | not a city | yes, incorrectly rejected |
 | A large village with no charter | none | not a city | correct, but for the wrong reason |
@@ -143,14 +137,14 @@ City rights are strongly associated with being a city, which is why the field lo
 
 This is how most classification goes wrong in practice. Somebody needs to sort records into a category, the data offers a field that correlates strongly with it, and the field becomes the rule because it is there. Accuracy on the available rows is high, which is precisely what stops anybody from questioning it, and the failures land on the cases that are unusual for reasons the field cannot see. Two habits prevent it. Ask what the category actually means before choosing a feature to represent it, and write down the answer, even when it is awkward. Then hunt deliberately for a member of the category that lacks the feature, because one such case tells you more about a rule than a thousand that fit. Maastricht is that case, sitting inside a cluster of pages that had been quoting the field for weeks. The rows above use the years published on the pages of this series and the history entry named in the evidence for this one.
 
+Reliable pipeline
+
 ## Five habits for turning a category into a rule
 
 Active customer, qualified lead, senior employee, at-risk pupil, eligible household: every one of these gets operationalised as whatever column happens to exist. Practised on a city with no charter.
 
-**When a field is about to become a definition**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Define before you measure | Write the category in words before choosing a field for it | A rule chosen because the data was handy | Something to test the field against |
 | Name the correlate | Say out loud that the field stands in for the concept | A proxy quietly promoted to a definition | A rule you can argue about |
 | Hunt the counter-example | Look for a clear member of the category that lacks the feature | High accuracy hiding a broken rule | The failure mode, before production finds it |
@@ -171,14 +165,37 @@ The same audit on a rule at work: who counts as active, senior, at risk or eligi
 
 The population, household, area, school, university, bridge and treaty figures come from the offices and entries named beside them. The city-rights years used in the classifier are those published on the other pages of this series, and the statement that Maastricht never received a charter is quoted from the history entry rather than inferred from the absence of a date.
 
+Learning ladder
+
 ## From bats and penguins to a rule that keeps its evidence separate from its test
 
 The starting rung is decided in the free hour, and neither the wijk nor the village enters into it.
 
-- **Ages 6 to 10: Is a bat a bird?** Children break a rule from both sides and see why definitions need care. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 11 to 13: Rules with exceptions** Learners write a test, find a case it gets wrong, and decide what to change. [Maths Through Coding](/courses/maths-through-coding), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 14 to 18: Features against concepts** Teenagers build the classifier, score it, break it deliberately and propose alternatives. [Python for Teens](/courses/python-complete-masterclass-teens), [TypeScript Course](/courses/complete-typescript-programming-masterclass-college)
-- **Ages 18 to 67: Definitions at work** Adults trace a working rule back to the column it was built on and test it from both sides. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college)
+Ages 6 to 10
+
+### Is a bat a bird?
+
+Children break a rule from both sides and see why definitions need care.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 11 to 13
+
+### Rules with exceptions
+
+Learners write a test, find a case it gets wrong, and decide what to change.
+
+[Maths Through Coding](/courses/maths-through-coding)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 14 to 18
+
+### Features against concepts
+
+Teenagers build the classifier, score it, break it deliberately and propose alternatives.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[TypeScript Course](/courses/complete-typescript-programming-masterclass-college)Ages 18 to 67
+
+### Definitions at work
+
+Adults trace a working rule back to the column it was built on and test it from both sides.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college)Coding and AI
 
 ## An AI will give you a city-rights year for almost anywhere. Why should a child in Maastricht learn what an empty field means?
 
@@ -190,30 +207,139 @@ So the learner builds the classifier and then goes hunting for the row that brea
 
 The case for a Maastricht child learning to code in 2026 is therefore not about medieval charters. It is that categories get turned into rules by whatever column is available, that the rules are usually right and fail on the interesting cases, and that a city with two thousand years of habitation and no city rights is the best possible place to learn it. The longer argument is in [why writing code still repays a child in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for a small city with two villages and three borders nearby
 
 Maastricht is compact and Belgium is minutes away, but Itteren and Borgharen are still a drive on a dark evening and the city's own schools are spread across both banks. The lesson removes the journey entirely.
 
-- **No bridge and no border** The class runs at the kitchen table in Heer, Wyck or Borgharen at one fixed hour a week, whatever the Maas is doing.
-- **English throughout, Dutch school words kept** Teaching is in English, which the 61 percent of students from abroad already work in. Groep, havo, vwo and profielkeuze stay Dutch because those are the words on the timetable.
-- **What comes out of the first hour** Evidence of the real level, a course chosen on that evidence, and a slot in the week, arranged without payment details.
-- **Ability sets the group** A learner in Itteren and a learner in the centre work together when they are at the same stage, and separately when they are not.
-- **Twice weekly, on the southern calendar** Two lessons a week at one repeating slot, eight in most months. Maastricht takes its holidays with regio Zuid along with the rest of Limburg, and weeks away are written in before the slot is fixed.
-- **Three and a half hours, or four and a half** The Dutch clock changes twice a year and the Indian one does not, so the gap to the teacher depends on the season. Late afternoon, early evening and the whole weekend suit both ends.
+### No bridge and no border
 
-**The fewest children of any city on this site** Only 12,719 residents are under fifteen, 10.1 percent, against 26,390 aged fifteen to twenty-five. A child here is in a smaller cohort than almost anywhere in the country, and a group of five to ten drawn from across the world rather than from one street is a different proposition from whatever the local school can assemble.
+The class runs at the kitchen table in Heer, Wyck or Borgharen at one fixed hour a week, whatever the Maas is doing.
+
+### English throughout, Dutch school words kept
+
+Teaching is in English, which the 61 percent of students from abroad already work in. Groep, havo, vwo and profielkeuze stay Dutch because those are the words on the timetable.
+
+### What comes out of the first hour
+
+Evidence of the real level, a course chosen on that evidence, and a slot in the week, arranged without payment details.
+
+### Ability sets the group
+
+A learner in Itteren and a learner in the centre work together when they are at the same stage, and separately when they are not.
+
+### Twice weekly, on the southern calendar
+
+Two lessons a week at one repeating slot, eight in most months. Maastricht takes its holidays with regio Zuid along with the rest of Limburg, and weeks away are written in before the slot is fixed.
+
+### Three and a half hours, or four and a half
+
+The Dutch clock changes twice a year and the Indian one does not, so the gap to the teacher depends on the season. Late afternoon, early evening and the whole weekend suit both ends.
+
+The fewest children of any city on this site
+
+Only 12,719 residents are under fifteen, 10.1 percent, against 26,390 aged fifteen to twenty-five. A child here is in a smaller cohort than almost anywhere in the country, and a group of fifteen to twenty drawn from across the world rather than from one street is a different proposition from whatever the local school can assemble.
+
+Fees
 
 ## The fee, in dollars, in the city and both villages
 
 On the page rather than kept for a phone call.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 A single international rate applies, quoted in dollars and never in euros, so Itteren is charged exactly what the Vrijthof is. Payment follows the free lesson rather than preceding it and goes over WhatsApp once a course and a time are agreed. Pausing, changing plan and missing a week are set out on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Maastricht.)Reviews
+
+## Six families, in the words they left on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Send the level; the wijk can wait
+
+The first task might be a rule that says a bird is anything that flies, a classifier that rejects your own city, or a definition at work that began as whichever column happened to exist.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Maastricht one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Maastricht.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Maastricht coding class questions
+
+The city, its villages, its record, the teaching and the terms.
 
 ### Did Maastricht really never get city rights?
 
@@ -255,10 +381,14 @@ The first lesson is free. Group tuition is USD 100 a month for two live lessons 
 
 Between five and ten, matched on level, pace and goal rather than on age, school or wijk. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.
 
+Explore the Netherlands
+
 ## North up the Maas, out to the province, and up to the country
 
 Maastricht sits in [Limburg](/coding-classes-in-limburg), whose page is about a highest point that depends on what you count as the country; north up the Maas is [Nijmegen](/coding-classes-in-nijmegen), where the argument about the oldest city is set out in full. The parent of the whole series is the [Netherlands coding hub](/coding-classes-in-netherlands), and for machine learning rather than software there are [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) and the [AI and Python Academy](/ai-and-python-academy-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Maastricht.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-maastricht](https://learn.modernagecoders.com/coding-classes-in-maastricht#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-maastricht*

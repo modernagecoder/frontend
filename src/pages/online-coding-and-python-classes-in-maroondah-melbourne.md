@@ -4,46 +4,32 @@ description: "Live online coding and Python classes for Maroondah children, teen
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-maroondah-melbourne
 source: src/pages/online-coding-and-python-classes-in-maroondah-melbourne.html
 ---
-> To write Python that copes with real files, not just classroom examples. In our Maroondah project, reading the state's train timetable file whole used 90.1 MB of memory at its peak; reading it line by line with a generator peaked at 0.035 MB and found the same 12,164 rows.
+> Live online coding and Python classes for Maroondah children, teenagers and adults: Scratch, Python, data files and AI, taught in small groups or one to one.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [Victoria](/coding-and-ai-classes-in-victoria) / [Melbourne](/vibe-coding-and-ai-agents-classes-in-melbourne) / Maroondah
-
-Maroondah City Council, Melbourne, Victoria / Live online
-
-# Online coding and Python classes in Maroondah
-
-**What can a Maroondah student learn in an online Python class?** To write Python that copes with real files, not just classroom examples. In our Maroondah project, reading the state's train timetable file whole used 90.1 MB of memory at its peak; reading it line by line with a generator peaked at 0.035 MB and found the same 12,164 rows.
-
-The metropolitan train timetable that Victoria publishes contains a stop_times file of 688,380 rows, 56.6 MB on disk. We wanted only the rows for stations whose timetable points fall inside the ABS outline of Maroondah City Council: Ringwood, Ringwood East, Croydon, Heathmont and Heatherdale. A learner's first instinct is to read everything into a list. Python offers a lazier way, and measuring the difference is the lesson.
-
-Facts last verified 10 October 2026. Teaching is online; no Maroondah branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Maroondah
 
 ## Python courses for every stage
 
 The courses below all reach real files and real data. A free first lesson tells us where the learner should begin.
 
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python fundamentals through files, generators and clean code.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 17): Reading, filtering and charting public data sets in Python.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (University and adult): From beginner Python to iterators, generators and profiling.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (University and adult): Practical data analysis with large files for work and study.
+[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython fundamentals through files, generators and clean code.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 17Data Science for TeensReading, filtering and charting public data sets in Python.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Python Masterclass course thumbnail](/images/python-college.webp)University and adultPython MasterclassFrom beginner Python to iterators, generators and profiling.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)University and adultData Analysis CoursePractical data analysis with large files for work and study.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Maroondah, 2021 Census
 
 ## Maroondah in figures
 
 Copied on 10 October 2026 from the ABS QuickStats page for Maroondah (LGA24410), 2021 Census.
 
-**Maroondah City Council, headline counts**
-
 | Count | Value |
-|---|---|
+| --- | --- |
 | People | 115,043 |
 | Median age | 39 |
 | Families | 31,842 |
@@ -51,10 +37,8 @@ Copied on 10 October 2026 from the ABS QuickStats page for Maroondah (LGA24410),
 | People per household (average) | 2.6 |
 | Vehicles per dwelling (average) | 1.9 |
 
-**Maroondah and Victoria side by side**
-
 | Measure | Maroondah | Victoria |
-|---|---|---|
+| --- | --- | --- |
 | Separate houses (of dwellings) | 87.2% (37,499) | 73.4% |
 | Flats or apartments (of dwellings) | 4.0% (1,711) | 12.1% |
 | Bachelor degree or above | 30.1% (28,262) | 29.2% |
@@ -74,23 +58,21 @@ The Census was held while Melbourne was in lockdown. 28.7% of Maroondah workers 
 
 Published percentages are rounded and small cells are randomly adjusted by the ABS for privacy. We reproduce the numbers exactly and do not combine categories into new totals.
 
+Signature project
+
 ## Reading 688,380 rows without holding them
 
 First we found the 82 stop points (platforms, entrances and other station nodes) that fall inside the ABS outline of Maroondah. Then we scanned stop_times for rows at those points in two ways: readlines() into a list, and a plain for loop over the open file, which yields one line at a time. tracemalloc recorded the peak memory of each.
 
-**Same answer, very different memory (our measurements)**
-
 | Approach | Rows found | Peak memory | Median time, 3 runs |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Read the whole file into a list | 12,164 | 90.1 MB | 1.1 s |
 | Stream line by line | 12,164 | 0.035 MB | 0.92 s |
 | First 200,000 lines into a list (islice) | 4,971 | 25.67 MB | not timed |
 | First 200,000 lines streamed (islice) | 4,971 | 0.035 MB | not timed |
 
-**Timetable rows at Maroondah stations in the feed (our count)**
-
 | Station | Rows in stop_times |
-|---|---|
+| --- | --- |
 | Ringwood | 3,787 |
 | Heatherdale | 2,995 |
 | Heathmont | 1,802 |
@@ -115,14 +97,14 @@ Heatherdale's two platform points in the timetable feed fall 62 m and 86 m insid
 
 Rows count every scheduled stop in the feed downloaded on 10 October 2026, across all its service days, so they are not trains per day. Taking just the first 200,000 lines with islice found 4,971 of the 12,164 rows, a quick way to test code before the full run.
 
+Generators in plain words
+
 ## Lazy by design
 
 A Python file object is already an iterator. Looping over it reads one line, hands it over, and forgets it.
 
-**Tools in this exercise**
-
 | Tool | What it does here |
-|---|---|
+| --- | --- |
 | for line in f | Reads the file one line at a time. |
 | A generator expression | Filters lines without building a list. |
 | itertools.islice | Takes only the first N lines, for quick tests. |
@@ -142,6 +124,8 @@ Measure both versions with tracemalloc and explain the difference in a sentence.
 
 Convert a script that loads a big export into one that streams it.
 
+Maroondah facts
+
 ## Schools and trains in Maroondah
 
 Taken from the 2025 school locations file and the station entries file for FY24-25.
@@ -158,16 +142,41 @@ Ringwood recorded 1,514,250 entries in FY24-25, ahead of Croydon, Ringwood East 
 
 Students at Victorian government schools return on Thursday 28 January 2027, and the term ends on Thursday 25 March.
 
-**Area covered** This page uses the ABS boundary of Maroondah City Council, about 61.4 square kilometres. School addresses inside it include Ringwood, Croydon, Heathmont, Warranwood and Bayswater North.
+Area covered
+
+This page uses the ABS boundary of Maroondah City Council, about 61.4 square kilometres. School addresses inside it include Ringwood, Croydon, Heathmont, Warranwood and Bayswater North.
+
+Learning ladder
 
 ## From one page at a time to pipelines
 
 A guide only. The free lesson places each learner properly.
 
-- **Ages 6 to 9: Scratch** Loops, lists and stories built from blocks. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 9 to 12: Python starts** Typed code, loops and reading a small file. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 17: Python with data** Files, generators and public data sets. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **University and adult: Python at scale** Profiling, large files and data analysis. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 9
+
+### Scratch
+
+Loops, lists and stories built from blocks.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 9 to 12
+
+### Python starts
+
+Typed code, loops and reading a small file.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 17
+
+### Python with data
+
+Files, generators and public data sets.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)University and adult
+
+### Python at scale
+
+Profiling, large files and data analysis.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## Will AI tools make Python skills less useful for Maroondah students?
 
@@ -179,30 +188,139 @@ A learner who has measured 90.1 MB against 0.035 MB recognises the pattern in ge
 
 Maroondah learners who understand memory get far more out of AI tools. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Maroondah classes, live online
 
 Lessons run on a video call for learners in Ringwood, Croydon or anywhere in Maroondah.
 
-- **Working together** The learner shares their screen and the teacher guides changes in their own code.
-- **Victorian terms** The class calendar follows state school terms, with holiday breaks.
-- **Free first session** One whole lesson with no charge, ending with our course advice.
-- **Groups** Fifteen to twenty learners per group, matched on level rather than location.
-- **Twice weekly** Two regular lessons each week, near eight per month.
-- **Across time zones** A 3:30pm Maroondah lesson is 10am India time while Melbourne is on daylight saving, and 11am after it ends.
+### Working together
 
-**Time zones** Melbourne daylight saving is in effect from Sunday 4 October 2026 to Sunday 4 April 2027. India has no daylight saving, so we always write lesson times in Melbourne time.
+The learner shares their screen and the teacher guides changes in their own code.
+
+### Victorian terms
+
+The class calendar follows state school terms, with holiday breaks.
+
+### Free first session
+
+One whole lesson with no charge, ending with our course advice.
+
+### Groups
+
+Fifteen to twenty learners per group, matched on level rather than location.
+
+### Twice weekly
+
+Two regular lessons each week, near eight per month.
+
+### Across time zones
+
+A 3:30pm Maroondah lesson is 10am India time while Melbourne is on daylight saving, and 11am after it ends.
+
+Time zones
+
+Melbourne daylight saving is in effect from Sunday 4 October 2026 to Sunday 4 April 2027. India has no daylight saving, so we always write lesson times in Melbourne time.
+
+Fees
 
 ## Maroondah class fees
 
 Straightforward fees, the same for everyone.
 
-- First class: USD 0. Your first lesson is free and comes with honest advice.
-- Group tuition: USD 100 a month. In a group: a month of lessons, normally eight, with fifteen to twenty learners.
-- Private tuition: USD 150 a month. On their own: a month of lessons, normally eight, with a dedicated teacher.
+First class**USD 0**
+
+Your first lesson is free and comes with honest advice.
+
+Group tuition**USD 100**
+
+In a group: a month of lessons, normally eight, with fifteen to twenty learners.
+
+Private tuition**USD 150**
+
+On their own: a month of lessons, normally eight, with a dedicated teacher.
 
 Maroondah families pay in US dollars. Nothing is charged until the trial confirms a course and weekly time; the pricing page explains holidays and missed lessons.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20or%20Python%20class%20for%20a%20learner%20in%20Maroondah.)Reviews
+
+## Our Google reviews from parents and learners
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Maroondah class
+
+Send the learner's age and a couple of interests. A younger child might begin with a Scratch story; a teenager might stream the timetable file.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Maroondah one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20or%20Python%20class%20for%20a%20learner%20in%20Maroondah.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Maroondah coding and Python questions
+
+What Maroondah parents and adult learners ask us.
 
 ### How many people live in Maroondah?
 
@@ -244,10 +362,14 @@ We match fifteen to twenty learners on level and pace, not age or suburb, and of
 
 It depends on the data. Timetable platform points fall just inside Maroondah's ABS outline and the patronage file point just outside, by our calculation.
 
+Explore Melbourne and Victoria
+
 ## More for Maroondah learners
 
 Read the [Melbourne page](/vibe-coding-and-ai-agents-classes-in-melbourne) for the city, the [Victoria guide](/coding-and-ai-classes-in-victoria) for the state, and [coding for kids in Melbourne](/coding-classes-for-kids-melbourne) for the youngest learners.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20or%20Python%20class%20for%20a%20learner%20in%20Maroondah.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/online-coding-and-python-classes-in-maroondah-melbourne](https://learn.modernagecoders.com/online-coding-and-python-classes-in-maroondah-melbourne#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-maroondah-melbourne*

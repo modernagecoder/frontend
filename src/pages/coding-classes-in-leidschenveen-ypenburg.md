@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes in Leidschenveen-Ypenbur
 canonical: https://learn.modernagecoders.com/coding-classes-in-leidschenveen-ypenburg
 source: src/pages/coding-classes-in-leidschenveen-ypenburg.html
 ---
-> Coding classes in Leidschenveen-Ypenburg reach the newest stadsdeel of The Hague, assembled in 2002 from parts of four municipalities. Two of its four wijken are places people live: Ypenburg with 26,358 residents and 9,764 dwellings, Leidschenveen with 20,049 and 7,457. The other two are business parks along the A4 and the A12. Forepark holds 155 residents on 304 hectares and Hoornwijk holds 1,004, so the published densities there are 51 and 280 to the square kilometre. Those are correct and they describe the night. Modern Age Coders teaches live online in English from De Bras to the Vliegeniersbuurt, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
+> Live online coding, Python and AI classes in Leidschenveen-Ypenburg, The Hague, for ages 6 to 67, from De Bras to the Rietbuurt. The first lesson is free.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / [The Hague](/coding-classes-in-the-hague) / Leidschenveen-Ypenburg
-
-Leidschenveen-Ypenburg, Den Haag / Live online
-
-# Coding classes in Leidschenveen-Ypenburg, where one wijk has fifty-one people to the square kilometre and a motorway on either side
-
-**What are the best coding classes in Leidschenveen-Ypenburg?** Coding classes in Leidschenveen-Ypenburg reach the newest stadsdeel of The Hague, assembled in 2002 from parts of four municipalities. Two of its four wijken are places people live: Ypenburg with 26,358 residents and 9,764 dwellings, Leidschenveen with 20,049 and 7,457. The other two are business parks along the A4 and the A12. Forepark holds 155 residents on 304 hectares and Hoornwijk holds 1,004, so the published densities there are 51 and 280 to the square kilometre. Those are correct and they describe the night. Modern Age Coders teaches live online in English from De Bras to the Vliegeniersbuurt, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
-
-Fifty-one people to the square kilometre is a figure from open countryside. Forepark is a business park between two motorways inside a city of more than half a million, and the number is not an error: 155 people are registered as living there, on 304 hectares, in 47 dwellings. What the number is, is nocturnal. A register of residents records where people sleep, so everything computed from it is a statement about the small hours, and none of it carries a label saying so. At eleven on a Tuesday morning Forepark is a different place, and no figure on this page can tell you what kind.
-
-Facts last verified 10 September 2026. Teaching is online; no Leidschenveen-Ypenburg branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Leidschenveen-Ypenburg
 
 ## Four courses for the newest part of the city
 
 A groep 5 child in the Waterbuurt who has used a computer for years and never instructed one, a teenager in De Bras with a game that exists as a description and a folder of sketches, a student in Leidschenveen whose script is quick when they test it and slow when it matters, and an adult in Tedingerbroek reading a dashboard that refreshes hourly. Four ways in, and the first hour of each costs nothing.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Typed Python, where a child finds out that when you look is part of what you see, because the program says so.
-- [App Development for Teens](/courses/complete-app-development-masterclass-for-teens) (Ages 13 to 18): A real application built from an empty folder to something installable, for the teenager who has described it a hundred times.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Python that runs unattended, where the gap between a sample and a count starts producing decisions.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): Reading a figure with its clock attached, for anybody who reports numbers that somebody else acts on.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsTyped Python, where a child finds out that when you look is part of what you see, because the program says so.See the syllabus](/courses/python-ai-kids-masterclass)[![App Development for Teens course thumbnail](/images/app-dev-teens.webp)Ages 13 to 18App Development for TeensA real application built from an empty folder to something installable, for the teenager who has described it a hundred times.See the syllabus](/courses/complete-app-development-masterclass-for-teens)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CoursePython that runs unattended, where the gap between a sample and a count starts producing decisions.See the syllabus](/courses/python-ai-automation-masterclass-college)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)Reading a figure with its clock attached, for anybody who reports numbers that somebody else acts on.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Leidschenveen-Ypenburg today
 
 ## Four wijken, two of which are business parks
 
@@ -52,16 +40,18 @@ Wijk 43 Forepark holds 155 residents on 304 hectares, 295 of them land, in 47 dw
 
 Ypenburg has 9,764 dwellings at an average 516,000 euro with 5,565 owner-occupied, 57 percent. Leidschenveen has 7,457 at 510,000 with 4,922 owned, 66 percent. Forepark has 47 dwellings at an average 757,000 euro, the highest figure in this cluster, and Hoornwijk 418 at 478,000. Incomes are 38,600 and 39,500 euro for 2024 in the two residential wijken, and 53,600 and 31,600 for 2023 in the two business parks.
 
-**Why a business park still gets a full population row** The statistics office publishes the same table for every wijk regardless of what the wijk is for. Forepark therefore has an average household size, an age distribution, a home ownership share and an average income, all computed over 155 people, and Hoornwijk the same over 1,004. Every one of those figures is correctly derived from the register. What the register holds is addresses where people are registered as living, so what comes out is a description of the resident population and of nothing else. On a wijk that is mostly offices and motorway, that is a description of a very small part of what is there.
+Why a business park still gets a full population row
+
+The statistics office publishes the same table for every wijk regardless of what the wijk is for. Forepark therefore has an average household size, an age distribution, a home ownership share and an average income, all computed over 155 people, and Hoornwijk the same over 1,004. Every one of those figures is correctly derived from the register. What the register holds is addresses where people are registered as living, so what comes out is a description of the resident population and of nothing else. On a wijk that is mostly offices and motorway, that is a description of a very small part of what is there.
+
+Where the learners are
 
 ## Four densities, all correct, all measured at night
 
 The published density for each wijk, and what each one is actually a statement about. The arithmetic is the statistics office and the last column is the only thing added here.
 
-**Residents per square kilometre, and what that describes**
-
 | Wijk | Residents | Land hectares | Published density | What the figure describes |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Ypenburg | 26,358 | 450 | 5,893 | a residential wijk, day and night |
 | Leidschenveen | 20,049 | 348 | 5,845 | a residential wijk, day and night |
 | Hoornwijk | 1,004 | 354 | 280 | where 1,004 people sleep |
@@ -69,6 +59,8 @@ The published density for each wijk, and what each one is actually a statement a
 | What is not published | no figure read | the same land | no figure read | who is there on a weekday |
 
 The last row is the honest one and it is empty on purpose. Nothing read for this page counts the people in Forepark or Hoornwijk during working hours, and this page does not estimate it, because an estimate would be a guess dressed as a finding. What can be said is narrower and firmer: the figures above answer the question where are people registered as living, they answer it well, and they are routinely read as answers to the question how busy is this place, which they are not. Two of these four numbers describe a phase of a daily cycle rather than a place.
+
+Verified local facts
 
 ## All four wijken in full, the 2002 assembly, and what is left blank
 
@@ -100,6 +92,8 @@ The four wijk land areas total more than the 7.98 square kilometres the encyclop
 
 Modern Age Coders has no connection to this stadsdeel, to any of its four wijken, to The Hague or to any school counted above, and nothing here implies one. The four wijk rows come from the statistics office at that office own vintages, which is why two income figures are for 2024 and two for 2023 and are quoted that way rather than aligned. The 2002 reorganisation, the four wijken, the airfield, the Vinex status, the stadsdeel area, dwelling stock and 2023 population come from the encyclopaedia entry.
 
+Signature project
+
 ## Every number has a clock on it, whether or not one is printed
 
 A density of fifty-one, a business park, and the question that turns a count back into a sample.
@@ -116,10 +110,8 @@ If it does, you have a sample rather than a count, no matter how exact the figur
 
 Where do people sleep, answered well and completely. How busy is this place, not answered at all. Those are different questions and the register only ever offered one of them, which is not a defect in the register.
 
-**Sampling a moving quantity, in five other places**
-
 | The measurement | When it is taken | What it records | What it never sees |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | A health check every sixty seconds | on the minute | load at that instant | every burst in between |
 | A count of rows in a users table | now | accounts that exist | whether anybody used them |
 | Queue depth logged hourly | on the hour | that one moment | the spike at five past nine |
@@ -130,14 +122,14 @@ Where do people sleep, answered well and completely. How busy is this place, not
 
 The word count carries an authority that the word sample does not, and most of the numbers people call counts are samples wearing the better word. This matters because the two fail differently and only one of them announces it. A sample invites the question of when and how often; a count closes that question before it is asked, which is precisely why a figure like fifty-one people per square kilometre can sit in a table beside five thousand eight hundred and ninety-three and look like the same kind of thing. It is not the same kind of thing. One describes a place that is much the same at three in the morning and three in the afternoon, and the other describes one phase of something that swings by orders of magnitude, and the table has no column for that distinction because tables rarely do. In code this is the difference between a gauge and a counter, and the reason monitoring systems distinguish them so carefully is that the industry learned the hard way what happens when they are confused: a service is declared healthy because the check ran between the incidents, a cache is declared efficient because the hit rate was read after warm-up, a queue is declared empty because it was sampled on the hour and drained at seven minutes past. The habit is one sentence long. Before treating any figure as a property of the thing, ask what it would read if you measured it again at a different time, and if the answer is that you do not know, you are holding a sample and should say so. Saying so costs nothing and it is the difference between a number that can be checked and a number that can only be believed.
 
+Reliable pipeline
+
 ## Five habits for a figure with an invisible clock
 
 Server load, active users, stock on hand, footfall, occupancy, queue length: every one is read at a moment and reported as a property. Practised on a district where two of four wijken are business parks with rural densities.
 
-**Recovering the clock from a number that does not show one**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Recover the timestamp | Find when the figure was taken, before using it | A moment read as a permanent state | The figure with its clock attached |
 | Ask if it moves | Decide whether the quantity varies inside that window | A sample presented as a count | Sample or count, explicitly |
 | Check the sampling rate | Ask how often, and what falls between | Bursts invisible to the schedule | The size of your blind spot |
@@ -158,14 +150,37 @@ A monitored figure from work traced back to its collection schedule. Adults very
 
 All four wijken were read one page at a time from the statistics office, at that office own vintages: residents and ages January 2026, households and housing 2025, income 2024 for Ypenburg and Leidschenveen and 2023 for Forepark and Hoornwijk. The 2002 reorganisation, the transfers from Leidschendam, Nootdorp and Rijswijk, the former military airfield, the Vinex status, the stadsdeel area, its 17,188 dwellings and its 2023 population of 47,440 come from the encyclopaedia entry. No figure on this page was calculated and no daytime population was estimated.
 
+Learning ladder
+
 ## From counting a room three times to a metric collected on the hour
 
 The starting rung is settled during the free hour by what the learner can do when given something real to do. The wijk is not an input and neither is the age.
 
-- **Ages 6 to 10: How many people are in this room** Children count three times, get three answers, and have to decide what the question meant. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Game Development for Kids](/courses/game-development-masterclass-for-kids)
-- **Ages 11 to 13: Sampling against recording** Learners run both on the same changing thing and watch them come apart. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Gauges and counters** Teenagers build both, then find the events their own schedule cannot see. [App Development for Teens](/courses/complete-app-development-masterclass-for-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: The metric and its schedule** Adults trace a real figure back to when it is collected and what happens between. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### How many people are in this room
+
+Children count three times, get three answers, and have to decide what the question meant.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Game Development for Kids](/courses/game-development-masterclass-for-kids)Ages 11 to 13
+
+### Sampling against recording
+
+Learners run both on the same changing thing and watch them come apart.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Gauges and counters
+
+Teenagers build both, then find the events their own schedule cannot see.
+
+[App Development for Teens](/courses/complete-app-development-masterclass-for-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### The metric and its schedule
+
+Adults trace a real figure back to when it is collected and what happens between.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## An AI will tell you Forepark is almost empty. Why should a teenager in Leidschenveen ask empty at what hour?
 
@@ -177,30 +192,139 @@ So the learner practises putting the clock back on, and code is where that habit
 
 The case for a child in Leidschenveen-Ypenburg learning to code in 2026 is therefore not about districts. It is that a program is the one instrument that will show you its own blind spot, if you ask it to sample the same thing twice and tell you what changed in between. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes across the newest stadsdeel
 
 This is the far edge of the city, out past the A4 and the A12, built on and around a former airfield, and it is a long way from the middle of The Hague in a way that a map of the municipality tends to disguise.
 
-- **The edge of the municipality, and no commute** From De Bras or the Rietbuurt, an evening class anywhere central means the motorway or a long tram ride, twice. Removing the journey is not a convenience here; it is the difference between a weekly commitment that lasts and one that quietly stops in November.
-- **Four Dutch words kept as they are** Groep, havo, vwo, profielkeuze. The lesson is English and those stay Dutch, because a child hearing the name of their own school track should recognise it without translating first.
-- **A free hour that teaches something** A real task, watched by a teacher who is reading the approach rather than the answer, ending in three things: level, course and a weekly time. There is no charge and no card is asked for at any point.
-- **Built from level, drawn from everywhere** Fifteen to twenty learners at one stage. Even a stadsdeel of forty-six thousand does not reliably hold five people at one narrow level in the same month, so the pool is worldwide. That is what turns a waiting list into a class.
-- **Two a week, with regio Midden already in the plan** Around eight lessons a month at a fixed hour. Zuid-Holland school holidays follow the regio Midden calendar, published years ahead, so the weeks off are agreed at the start rather than discovered.
-- **Three and a half hours, then four and a half** The teacher is in India, which has held one clock for decades. Both changes each year are made on the Dutch side, and neither setting removes an hour a family here would have wanted to use.
+### The edge of the municipality, and no commute
 
-**The largest households in the city, and what that still does not settle** Ypenburg households average 2.6 people and Leidschenveen 2.7, the two largest averages of any Hague wijk in this series, with 4,620 and 3,485 residents under fifteen. Thirteen primary establishments across the two wijken teach 4,314 pupils between them. That is a great many children in a small area. It still does not produce fifteen to twenty learners at one particular stage of one particular subject in one particular month, because a stage is narrow and proximity does not widen it. So groups are assembled by level from a worldwide pool, at every age between 6 and 67.
+From De Bras or the Rietbuurt, an evening class anywhere central means the motorway or a long tram ride, twice. Removing the journey is not a convenience here; it is the difference between a weekly commitment that lasts and one that quietly stops in November.
+
+### Four Dutch words kept as they are
+
+Groep, havo, vwo, profielkeuze. The lesson is English and those stay Dutch, because a child hearing the name of their own school track should recognise it without translating first.
+
+### A free hour that teaches something
+
+A real task, watched by a teacher who is reading the approach rather than the answer, ending in three things: level, course and a weekly time. There is no charge and no card is asked for at any point.
+
+### Built from level, drawn from everywhere
+
+Fifteen to twenty learners at one stage. Even a stadsdeel of forty-six thousand does not reliably hold five people at one narrow level in the same month, so the pool is worldwide. That is what turns a waiting list into a class.
+
+### Two a week, with regio Midden already in the plan
+
+Around eight lessons a month at a fixed hour. Zuid-Holland school holidays follow the regio Midden calendar, published years ahead, so the weeks off are agreed at the start rather than discovered.
+
+### Three and a half hours, then four and a half
+
+The teacher is in India, which has held one clock for decades. Both changes each year are made on the Dutch side, and neither setting removes an hour a family here would have wanted to use.
+
+The largest households in the city, and what that still does not settle
+
+Ypenburg households average 2.6 people and Leidschenveen 2.7, the two largest averages of any Hague wijk in this series, with 4,620 and 3,485 residents under fifteen. Thirteen primary establishments across the two wijken teach 4,314 pupils between them. That is a great many children in a small area. It still does not produce fifteen to twenty learners at one particular stage of one particular subject in one particular month, because a stage is narrow and proximity does not widen it. So groups are assembled by level from a worldwide pool, at every age between 6 and 67.
+
+Fees
 
 ## The fee, in dollars, in all four wijken
 
 Printed here rather than saved for a call.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 A single international rate in dollars and no euro edition, so an address in Morgenweide is quoted exactly what one in De Velden is. Nothing is paid until the free lesson has produced a course and an hour, and payment is arranged over WhatsApp after that. Pausing, switching plan and missing a week are all set out on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Leidschenveen-Ypenburg.)Reviews
+
+## Six Google reviews, exactly as the people who left them wrote them
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Send the level, not the wijk
+
+The first task might be counting a room three times in a day and arguing about which answer was the number, a sampled series set against a recorded one, or a metric from work traced back to the schedule that collects it.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Leidschenveen-Ypenburg one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Leidschenveen-Ypenburg.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Leidschenveen-Ypenburg coding class questions
+
+The stadsdeel, its four wijken, one thing a register cannot see, the teaching and the terms.
 
 ### Which neighbourhoods make up Leidschenveen-Ypenburg?
 
@@ -242,10 +366,14 @@ The first lesson is free. After it, group tuition is USD 100 a month for two liv
 
 Fifteen to twenty, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
+Explore The Hague and beyond
+
 ## Back into the city, and out across the province
 
 North-west lie [Laak](/coding-classes-in-laak), whose page reads an age table as a building programme rather than a preference, and [Den Haag Centrum](/coding-classes-in-the-hague-centrum), which refuses to grade a household figure at all. Beyond them are [Escamp](/coding-classes-in-escamp), [Haagse Hout](/coding-classes-in-haagse-hout) and, on the coast, [Scheveningen](/coding-classes-in-scheveningen). The city page, [coding classes in The Hague](/coding-classes-in-the-hague), holds all eight stadsdelen together. South-east down the A13 is [Delft](/coding-classes-in-delft), and everything here sits inside [Zuid-Holland](/coding-classes-in-zuid-holland). A learner whose goal is a trained model rather than a running program should begin at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands), and every page here descends from the [Netherlands coding hub](/coding-classes-in-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Finish this on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Leidschenveen-Ypenburg.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-leidschenveen-ypenburg](https://learn.modernagecoders.com/coding-classes-in-leidschenveen-ypenburg#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-leidschenveen-ypenburg*

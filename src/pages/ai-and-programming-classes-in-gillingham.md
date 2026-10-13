@@ -4,46 +4,32 @@ description: "Online AI, programming and Python classes for Gillingham, Chatham,
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-gillingham
 source: src/pages/ai-and-programming-classes-in-gillingham.html
 ---
-> Gillingham is the largest built-up area in Medway: the ONS gives it 108,480 people at the 2021 census, reaching slightly past the council boundary, while Medway as a whole had 279,776. Chatham, Rochester and Hoo St Werburgh are the other main places. Under-tens make up a larger share than across England and people over 75 a smaller one. Learners from 6 to 67 anywhere in Medway can take AI, programming, Python and maths live online with our tutors in India, on their own or in a group of fifteen to twenty at the same level. The first lesson is free and ends with a course recommendation. Gillingham's project checks a sailor's description of his home town. After the trial it is USD 100 a month in a group or USD 150 a month one-to-one.
+> Online AI, programming and Python classes for Gillingham, Chatham, Rochester and Hoo learners in Medway aged 6 to 67, one-to-one or in groups. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South East England](/coding-and-ai-classes-in-south-east-england) / Gillingham
-
-Gillingham, Medway, Kent, England / Live online
-
-# AI and programming classes in Gillingham
-
-**Which are the best AI and programming classes in Gillingham?** Gillingham is the largest built-up area in Medway: the ONS gives it 108,480 people at the 2021 census, reaching slightly past the council boundary, while Medway as a whole had 279,776. Chatham, Rochester and Hoo St Werburgh are the other main places. Under-tens make up a larger share than across England and people over 75 a smaller one. Learners from 6 to 67 anywhere in Medway can take AI, programming, Python and maths live online with our tutors in India, on their own or in a group of fifteen to twenty at the same level. The first lesson is free and ends with a course recommendation. Gillingham's project checks a sailor's description of his home town. After the trial it is USD 100 a month in a group or USD 150 a month one-to-one.
-
-In October 1611, far away in Japan, the navigator William Adams wrote a letter to his "unknown friends and countrymen". He introduced himself as "a Kentish man, born in a town called Gillingham, two English miles from Rochester, one mile from Chatham where the king's ships do lie". The editor of Richard Cocks's diary quotes it, and adds that Adams taught the ruler of Japan "some points of geometry". Four centuries later a Python learner can test the geometry of that sentence. Measured today, both of Adams's distances are too short. The interesting question is why, and code can tell two very different explanations apart.
-
-Facts last verified 28 September 2026. Teaching is online; no Gillingham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentGillingham course picks
 
 ## Courses Gillingham learners often start with
 
 Let age and interests guide the choice; each course begins with a free live lesson and needs no card.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 9): Block coding with ships, maps and treasure-hunt games.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 9 to 12): First Python with distances, coordinates and small AI jobs.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Complete teen Python, including the Adams distances project.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Adults and students): Adult Python from scratch through to data and maps.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 9Coding for KidsBlock coding with ships, maps and treasure-hunt games.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 9 to 12Python and AI for KidsFirst Python with distances, coordinates and small AI jobs.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensComplete teen Python, including the Adams distances project.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)Adults and studentsPython MasterclassAdult Python from scratch through to data and maps.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Medway
 
 ## A young-leaning Medway
 
 Census results are published for Medway as a whole; six age bands from Nomis, set beside England.
 
-**Medway and England, six age bands (TS007A, 2021)**
-
 | Ages | Medway total | Medway % | England % |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 0 to 4 | 17,308 | 6.2% | 5.4% |
 | 5 to 9 | 18,336 | 6.6% | 5.9% |
 | 30 to 34 | 20,368 | 7.3% | 7.0% |
@@ -57,16 +43,16 @@ The youngest bands sit well above England and the oldest below it, with adults i
 
 For the county see [Kent](/coding-classes-in-kent), and for the region [South East England](/coding-and-ai-classes-in-south-east-england).
 
+The Gillingham project
+
 ## Two miles to Rochester, one to Chatham?
 
 Measure the three towns, compare with Adams, and work out what kind of error it is.
 
 The learner looks up the three towns in the Ordnance Survey's gazetteer of place names, which gives a single reference point for each, and measures the distances between them on the Earth's surface with the geographiclib package. Gillingham to Rochester comes out at 5,697 metres, which is 3.54 statute miles. Gillingham to Chatham is 4,085 metres, or 2.54 miles. Chatham to Rochester is 1,618 metres, 1.01 miles. Adams said 2 and 1. So both of his figures are short by a mile and a half. The obvious guess is that the "English mile" of 1611 was a different length from ours, and that guess is exactly what the program is built to test.
 
-**Adams's distances against the modern gazetteer points, our Python run, 28 September 2026**
-
 | Pair | Adams (English miles) | Measured (statute miles) | Measured minus Adams |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Gillingham to Rochester | 2 | 3.54 | 1.54 |
 | Gillingham to Chatham | 1 | 2.54 | 1.54 |
 | Chatham to Rochester | 1 (implied, if in a line) | 1.01 | 0.01 |
@@ -93,14 +79,14 @@ Test scale against offset properly and check how straight the line really is.
 
 The quotations come from the Project Gutenberg edition of the Diary of Richard Cocks, edited by Edward Maunde Thompson. Town positions are Ordnance Survey Open Names points, read through postcodes.io. All distances and comparisons are our own calculations.
 
+Why William Adams
+
 ## A Kentish pilot who taught geometry in Japan
 
 What the editor of Cocks's diary records about him.
 
-**William Adams in the introduction to the Diary of Richard Cocks (Project Gutenberg)**
-
 | Detail | From the source |
-|---|---|
+| --- | --- |
 | Birthplace | "a town called Gillingham" |
 | His distances | "two English miles from Rochester, one mile from Chatham" |
 | His role at sea | Senior pilot of a Dutch trading fleet that sailed in 1598 |
@@ -112,14 +98,37 @@ Diagnosing a systematic error, and in particular telling a scale error from an o
 
 Modern Age Coders has no link with Project Gutenberg, Ordnance Survey, postcodes.io or the census office. Their texts and data are theirs; the measurements and any error in them are ours.
 
+Stages
+
 ## From rulers to real error analysis
 
 Year groups are a starting guess; the free lesson makes the call.
 
-- **Years 1 to 4: Maps in blocks** Block coding with maps, routes and measuring. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 5 to 8: Python and distance** Coordinates, distances and comparisons in Python. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Years 9 to 13: Errors, data and AI** Error analysis, geometry and AI beside GCSE and A level. [Python for Teens](/courses/python-complete-masterclass-teens), [High School Mathematics](/courses/complete-high-school-mathematics-mastery)
-- **Adults: Data and measurement** Adult Python towards data and measurement work. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Years 1 to 4
+
+### Maps in blocks
+
+Block coding with maps, routes and measuring.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 5 to 8
+
+### Python and distance
+
+Coordinates, distances and comparisons in Python.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Years 9 to 13
+
+### Errors, data and AI
+
+Error analysis, geometry and AI beside GCSE and A level.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[High School Mathematics](/courses/complete-high-school-mathematics-mastery)Adults
+
+### Data and measurement
+
+Adult Python towards data and measurement work.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)AI and old claims
 
 ## Would an AI blame the old mile?
 
@@ -131,30 +140,139 @@ A Gillingham learner who has compared ratios and differences knows to test an ex
 
 Testing a plausible explanation before accepting it is a strong reason for Gillingham teenagers to keep learning to code in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Rochester to Rainham, all online
 
 Any home in Medway with a computer and reliable broadband is ready.
 
-- **Code by the learner** Students type every program themselves, and the tutor, watching by screen share, helps them along with questions.
-- **Placed by ability** A Year 5 or a Year 12 begins at the level the free lesson finds, with the exam board noted.
-- **Opening lesson free** A complete lesson with no charge, ending in a clear course suggestion.
-- **One level per group** Fifteen to twenty UK learners at a shared stage.
-- **Two lessons a week** None in the school holidays.
-- **A time that stays put** Our tutors handle the UK clock changes.
+### Code by the learner
 
-**Why small groups meet online** Five Medway learners at the same level, free at the same hour, rarely live on one street. Online classes let each join a well-matched group.
+Students type every program themselves, and the tutor, watching by screen share, helps them along with questions.
+
+### Placed by ability
+
+A Year 5 or a Year 12 begins at the level the free lesson finds, with the exam board noted.
+
+### Opening lesson free
+
+A complete lesson with no charge, ending in a clear course suggestion.
+
+### One level per group
+
+Five to ten UK learners at a shared stage.
+
+### Two lessons a week
+
+None in the school holidays.
+
+### A time that stays put
+
+Our tutors handle the UK clock changes.
+
+Why small groups meet online
+
+Five Medway learners at the same level, free at the same hour, rarely live on one street. Online classes let each join a well-matched group.
+
+Fees
 
 ## Gillingham fees
 
 Gillingham families pay our standard rate for every country except India.
 
-- First class: USD 0. One whole lesson for free, followed by a course suggestion.
-- Group tuition: USD 100 a month. Roughly eight live small-group lessons per month.
-- Private tuition: USD 150 a month. Roughly eight live private lessons per month.
+First class**USD 0**
+
+One whole lesson for free, followed by a course suggestion.
+
+Group tuition**USD 100**
+
+Roughly eight live small-group lessons per month.
+
+Private tuition**USD 150**
+
+Roughly eight live private lessons per month.
 
 We charge in US dollars, not sterling. Billing begins only after the trial has chosen a course and a regular weekly time; holidays, missed lessons and switching formats are all on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20love%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Gillingham.)Reviews
+
+## Kent and UK families on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Gillingham lesson
+
+Tell us how old the learner is, or their school year, plus one interest. First-lesson ideas: a Scratch ship game, a first Python program, a short AI experiment, or measuring Adams's three distances.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Gillingham one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20love%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Gillingham.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Gillingham questions
+
+The Adams project, Medway figures and practical points.
 
 ### What is the population of Gillingham?
 
@@ -196,10 +314,14 @@ The trial lesson is free. Afterwards it is USD 100 per month in a group, or USD 
 
 Yes; tell us when they are.
 
+Nearby
+
 ## More pages in Kent and the South East
 
 Elsewhere in Kent, [Maidstone](/online-coding-and-python-classes-in-maidstone) has a Hazlitt project, and [Canterbury](/best-coding-class-in-canterbury) has its own page. County options are on [Kent](/coding-classes-in-kent), the region on [South East England](/coding-and-ai-classes-in-south-east-england), and every page is linked from the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Talk to us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20love%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Gillingham.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-gillingham](https://learn.modernagecoders.com/ai-and-programming-classes-in-gillingham#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-gillingham*

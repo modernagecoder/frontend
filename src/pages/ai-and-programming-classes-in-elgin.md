@@ -4,46 +4,32 @@ description: "Live online AI, programming, Python and vibe coding lessons for El
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-elgin
 source: src/pages/ai-and-programming-classes-in-elgin.html
 ---
-> Moray's biggest locality is Elgin, where National Records of Scotland estimated 25,040 people lived in mid-2020. Bishopmill and New Elgin are suburbs recorded in the IV30 district, alongside the villages of Fogwatt and Lhanbryde and the hamlet of Longhill. From the age of six up to 67, learners take AI, programming, Python, vibe coding and maths with tutors based in India, live on camera, in one-to-one lessons or in small classes grouped by stage. We teach pattern-finding and careful reasoning first, so a learner understands what a search or an AI model is really doing. Lesson one costs nothing and ends with our pick of course. The Elgin project turns 786 months of rainfall from the Met Office's former Nairn station into a string of letters and searches it for wet and dry spells with the Knuth-Morris-Pratt algorithm. Tuition after that is USD 100 a month in a class or USD 150 a month privately.
+> Live online AI, programming, Python and vibe coding lessons for Elgin, Bishopmill, New Elgin and Fogwatt learners in Moray, aged 6 to 67. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / Elgin
-
-Elgin, Moray, Scotland / Live online
-
-# AI and programming classes in Elgin
-
-**Which are the best AI and programming classes in Elgin?** Moray's biggest locality is Elgin, where National Records of Scotland estimated 25,040 people lived in mid-2020. Bishopmill and New Elgin are suburbs recorded in the IV30 district, alongside the villages of Fogwatt and Lhanbryde and the hamlet of Longhill. From the age of six up to 67, learners take AI, programming, Python, vibe coding and maths with tutors based in India, live on camera, in one-to-one lessons or in small classes grouped by stage. We teach pattern-finding and careful reasoning first, so a learner understands what a search or an AI model is really doing. Lesson one costs nothing and ends with our pick of course. The Elgin project turns 786 months of rainfall from the Met Office's former Nairn station into a string of letters and searches it for wet and dry spells with the Knuth-Morris-Pratt algorithm. Tuition after that is USD 100 a month in a class or USD 150 a month privately.
-
-Searching for a pattern inside a long sequence sounds simple: line the pattern up at every position and compare letter by letter. It works, but every time a partial match fails, that simple method slides forward one place and starts comparing again, re-reading letters it has already seen. In 1977 Knuth, Morris and Pratt published a method that never steps backwards. Before searching, it works out, for each position in the pattern, how much of the pattern would still match after a failure, a table called the failure function. This project applies it to real data: monthly rainfall recorded by the Met Office at Nairn from 1931 to 1996, coded as low, middle or high for the time of year.
-
-Facts last verified 29 September 2026. Teaching is online; no Elgin branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentElgin course picks
 
 ## Elgin courses in patterns, Python and AI
 
 Choose a course to suit the learner's age. Every one opens with a free live lesson, booked without payment details.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think course: spotting repeats, coding weather as symbols and searching without starting over.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games planned by the learner, made with an AI and tested bit by bit.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Machine learning and sequence data in Python, including the Nairn pattern search.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Students and adults): Python for algorithms, time series, AI and agents.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think course: spotting repeats, coding weather as symbols and searching without starting over.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games planned by the learner, made with an AI and tested bit by bit.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensMachine learning and sequence data in Python, including the Nairn pattern search.See the syllabus](/courses/ai-ml-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)Students and adultsPython MasterclassPython for algorithms, time series, AI and agents.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Elgin and Moray
 
 ## Elgin, Bishopmill, New Elgin and Fogwatt
 
 The NRS figure for Elgin, and places recorded in IV30.
 
-**Elgin in National Records of Scotland estimates**
-
 | Area | People |
-|---|---|
+| --- | --- |
 | Elgin locality, mid-2020 | 25,040 |
 
 For the IV30 district, postcodes.io lists Bishopmill and New Elgin as suburban areas of Moray, Fogwatt and Lhanbryde as villages and Longhill as a hamlet. Moray schools teach the Curriculum for Excellence, and so our planning follows Scottish P and S years, with SQA Computing Science and Maths support from National 5 up. Once we know the holiday dates, those weeks are left clear.
@@ -52,16 +38,16 @@ For the IV30 district, postcodes.io lists Bishopmill and New Elgin as suburban a
 
 More on [coding classes in Moray](/coding-classes-in-moray), [Inverness](/best-coding-class-in-inverness) and [National 5 Computing Science help](/national-5-computing-science-help). Our reasons for teaching thinking before tools are on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Elgin project
+
 ## Searching 786 months of weather for patterns with Knuth-Morris-Pratt
 
 Turn rainfall into letters, look for runs of wet and dry months, and count every comparison.
 
 The Met Office publishes monthly records for its former Nairn weather station, which moved site in 1998 and closed at the end of 2014. The learner takes the longest stretch with no missing rainfall, January 1931 to June 1996, all at the original site: 786 months. Each month becomes a letter: L if its rain was in the lowest third for that calendar month, H if in the highest third, M otherwise. The result is a 786-letter string with 272 L, 263 M and 251 H. Now weather questions become text searches. How often did three high months come in a row? That is a search for HHH.
 
-**Patterns in the Nairn rainfall string, 1931 to 1996, and the comparisons each search needed, our Python run on Met Office data**
-
 | Pattern | Meaning | Times found | Naive comparisons | KMP comparisons |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | HHH | Three wet months in a row | 28 | 1,121 | 1,009 |
 | LLLL | Four dry months in a row | 13 | 1,176 | 1,044 |
 | LLLLLH | Five dry months, then a wet one | 2 | 1,190 | 1,047 |
@@ -85,14 +71,14 @@ Build the KMP failure function, count comparisons against the naive search and t
 
 Rainfall comes from the Met Office historic station data for Nairn, published under the Open Government Licence. The letter coding, the searches and all counts are our own; the station is described only from its own file header.
 
+Sequences and AI
+
 ## What this teaches about vibe coding and AI agents
 
 Much of AI is pattern-finding in long sequences; how you search matters.
 
-**From the Nairn pattern search to working with AI**
-
 | In the rainfall project | When AI works with sequences |
-|---|---|
+| --- | --- |
 | Rain became a string of L, M and H | AI turns text, sound and data into tokens |
 | KMP read each month once, in order | Single-pass methods suit live streams |
 | Savings on real data were about a tenth | Measure on your own data, not only the worst case |
@@ -103,14 +89,37 @@ Language models read text as sequences of tokens, and monitoring agents watch st
 
 None of the Met Office, National Records of Scotland or postcodes.io is linked to Modern Age Coders. We used their open data as published; the coding scheme, the searches and any mistakes are ours.
 
+Stages
+
 ## From weather squares to string algorithms
 
 Primary or secondary year is our first guess; the free session sharpens it.
 
-- **P1 to P7: How to think** Symbols, repeats and searching in order. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **P5 to S2: Vibe coding for kids** Games and apps the learner plans and an AI helps build. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **S3 to S6: Python and algorithms** Strings, searching and sequence data alongside SQA Computing Science. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)
-- **Adults: Sequences, AI and agents** Time series, pattern search and AI agents in Python. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
+P1 to P7
+
+### How to think
+
+Symbols, repeats and searching in order.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)P5 to S2
+
+### Vibe coding for kids
+
+Games and apps the learner plans and an AI helps build.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)S3 to S6
+
+### Python and algorithms
+
+Strings, searching and sequence data alongside SQA Computing Science.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)Adults
+
+### Sequences, AI and agents
+
+Time series, pattern search and AI agents in Python.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)AI and patterns
 
 ## How does a computer search for a pattern in a long sequence?
 
@@ -122,30 +131,139 @@ Learners who have run both ask of any AI search or monitoring tool: does it re-r
 
 Understanding how a search really works keeps Elgin teenagers in charge of the AI tools they use, and learning to code is how that understanding is built in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Bishopmill to Fogwatt, online
 
 Needed: a computer, a webcam and an internet connection steady enough for video.
 
-- **Hands-on learner** Everything is typed and run by the student, while the tutor follows on screen share and asks what each count means.
-- **Trial shapes the plan** The free lesson shows where to start, and we note any SQA exam due.
-- **Free opening class** Class one has no charge and ends with a course suggestion.
-- **Same-stage groups** Fifteen to twenty learners from across Britain, matched by level.
-- **Two lessons a week** Paused for school holidays.
-- **Steady lesson time** British Summer Time changes are handled by our tutors, not your diary.
+### Hands-on learner
 
-**Why online** In a region as spread out as Moray, five learners at one level on the same evening rarely live close together. Video brings them into one class.
+Everything is typed and run by the student, while the tutor follows on screen share and asks what each count means.
+
+### Trial shapes the plan
+
+The free lesson shows where to start, and we note any SQA exam due.
+
+### Free opening class
+
+Class one has no charge and ends with a course suggestion.
+
+### Same-stage groups
+
+Fifteen to twenty learners from across Britain, matched by level.
+
+### Two lessons a week
+
+Paused for school holidays.
+
+### Steady lesson time
+
+British Summer Time changes are handled by our tutors, not your diary.
+
+Why online
+
+In a region as spread out as Moray, five learners at one level on the same evening rarely live close together. Video brings them into one class.
+
+Fees
 
 ## Elgin fees
 
 Elgin learners pay the international rate we use everywhere except India.
 
-- First class: USD 0. A complete free lesson, then a recommended course.
-- Group tuition: USD 100 a month. Around eight live lessons each month in a small class.
-- Private tuition: USD 150 a month. Around eight live private lessons each month.
+First class**USD 0**
+
+A complete free lesson, then a recommended course.
+
+Group tuition**USD 100**
+
+Around eight live lessons each month in a small class.
+
+Private tuition**USD 150**
+
+Around eight live private lessons each month.
 
 We bill in US dollars and never in pounds, starting only when the trial has fixed a course and a weekly slot. Holiday weeks, missed sessions and switching between private and group are explained on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Elgin%3F)Reviews
+
+## Moray families and learners across the UK, reviewing us on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Elgin lesson
+
+Send us the learner's age or year and an interest or two. The trial could be a weather-squares pattern hunt, a Scratch game made with an AI, early Python, or searching a real sequence of data.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Elgin one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Elgin%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Elgin questions
+
+Pattern search, the Nairn project, Python, vibe coding and lesson details.
 
 ### What is the population of Elgin?
 
@@ -187,10 +305,14 @@ The first is free; afterwards USD 100 a month in a group or USD 150 a month one-
 
 No, we pause; send us the dates.
 
+Nearby
+
 ## More north of Scotland pages
 
 Pages with projects of their own: [Moray](/coding-classes-in-moray) (reading Roman numerals), [Inverness](/best-coding-class-in-inverness), [Highland](/coding-classes-in-highland) and [Aberdeen](/best-coding-class-in-aberdeen). For anywhere else, start from the [Scotland page](/coding-and-ai-classes-in-scotland) or the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Elgin%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-elgin](https://learn.modernagecoders.com/ai-and-programming-classes-in-elgin#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-elgin*

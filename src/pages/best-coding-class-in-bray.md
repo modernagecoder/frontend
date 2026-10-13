@@ -4,46 +4,32 @@ description: "Live online coding, Python and AI lessons for Bray learners aged 6
 canonical: https://learn.modernagecoders.com/best-coding-class-in-bray
 source: src/pages/best-coding-class-in-bray.html
 ---
-> Bray is the biggest town in County Wicklow, with 33,165 usual residents recorded in the census town tables and 11,835 households, 10,217 of which report broadband. Lessons with us happen at home: a live teacher, twice in most weeks, in an ability group of fifteen to twenty or one to one, for learners from six to sixty-seven years old. The first lesson costs nothing, and after it a group place is USD 100 a month while one to one is USD 150.
+> Live online coding, Python and AI lessons for Bray learners aged 6 to 67, taught live by a teacher in small ability groups or one to one. The first lesson is free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [County Wicklow](/coding-classes-in-county-wicklow) / Bray
-
-Bray, County Wicklow / Live online
-
-# Coding classes in Bray
-
-**What is the best coding class in Bray?** Bray is the biggest town in County Wicklow, with 33,165 usual residents recorded in the census town tables and 11,835 households, 10,217 of which report broadband. Lessons with us happen at home: a live teacher, twice in most weeks, in an ability group of fifteen to twenty or one to one, for learners from six to sixty-seven years old. The first lesson costs nothing, and after it a group place is USD 100 a month while one to one is USD 150.
-
-Line up Bray by single years of age and something looks like news. The census counts 2,245 residents aged ten to fourteen and only 1,704 aged four or under, a quarter fewer, and the obvious headline writes itself: fewer children in Bray. The headline is not supported. One census is one day, and those two groups are two different sets of people, not the same children photographed twice. Families arrive and leave, houses change hands, and the youngest band has had less time to be added to. Look at the row for all towns combined and it slopes the same way, 211,241 against 257,812, which is a pattern in the country rather than a story about this town. To say whether anything in Bray is rising or falling you need two censuses of the same area, and this page shows what that would take.
-
-Facts last verified 18 September 2026. Teaching is online; no Bray branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Bray
 
 ## Where a Bray learner begins
 
 Choose on age and interest; the free lesson with the course teacher fixes the level and the pace.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Block coding with counting and comparing, where a picture has to match what was actually measured.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 13): Programs that compare groups, and the difference between a group and the same group later.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): Census data in Python, including why a snapshot cannot answer a question about change.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): For adults who build reports and get asked whether a number is going up.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlock coding with counting and comparing, where a picture has to match what was actually measured.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 13Maths Through CodingPrograms that compare groups, and the difference between a group and the same group later.See the syllabus](/courses/maths-through-coding)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensCensus data in Python, including why a snapshot cannot answer a question about change.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CourseFor adults who build reports and get asked whether a number is going up.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## Age is not a time series
 
 Bray residents by five-year age band, from the single-year Census 2022 table, beside the row for all towns combined. The bands are our sums of the published single years.
 
-**Younger age bands, Bray and all towns combined, April 2022**
-
 | Age band | Bray | All towns combined |
-|---|---|---|
+| --- | --- | --- |
 | Under 5 | 1,704 | 211,241 |
 | 5 to 9 | 2,056 | 240,435 |
 | 10 to 14 | 2,245 | 257,812 |
@@ -67,14 +53,14 @@ A single snapshot sorted by any quantity that grows with time will look like a t
 
 The project has two halves. First the learner reproduces the table honestly from the published single years, writing a function that sums a band and checking the four bands against the table row by row. Then they write the plan for the real question: pull the same bands from an earlier census, confirm first whether the published area for Bray covered the same ground both times, and only then compare. We have not run that comparison here, and the page says so rather than implying a trend we have not measured.
 
+Bray in the town tables
+
 ## The town as the census found it
 
 The CSO publishes this built-up area as Bray, Counties Wicklow and Dublin, because the town reaches across the county boundary. Figures below are for the area as published.
 
-**Bray, Census 2022**
-
 | Measured | Count |
-|---|---|
+| --- | --- |
 | Usual residents | 33,165 |
 | Households | 11,835 |
 | Households with a broadband connection | 10,217 |
@@ -94,16 +80,18 @@ Among the 8,051 travelling to school, college or childcare, 3,044 go as a car pa
 
 Asked directly, 5,358 working residents do at least some work from home, 8,171 never do and 1,460 did not state, which is a different question from the main means of travel.
 
-**The station** Irish Rail gives Bray (Daly) as Florence Road, Bray, Co. Wicklow, Eircode A98 C8X4, served by the DART and Dublin commuter services, the Dublin to Dundalk commuter route and Dublin Connolly to Rosslare. It is staffed from early morning until after midnight, with a booking office on weekday daytimes, toilets, an enclosed waiting room, free Wi-Fi, a convenience store and coffee dock at the main entrance, a filtered water refill unit on the platform, and a car park of 100 spaces.
+The station
+
+Irish Rail gives Bray (Daly) as Florence Road, Bray, Co. Wicklow, Eircode A98 C8X4, served by the DART and Dublin commuter services, the Dublin to Dundalk commuter route and Dublin Connolly to Rosslare. It is staffed from early morning until after midnight, with a booking office on weekday daytimes, toilets, an enclosed waiting room, free Wi-Fi, a convenience store and coffee dock at the main entrance, a filtered water refill unit on the platform, and a car park of 100 spaces.
+
+A closer look at the same table
 
 ## Single years wobble
 
 The same Bray age table, read one year at a time rather than in bands.
 
-**Bray residents at each age from five to fourteen**
-
 | Age | Residents |
-|---|---|
+| --- | --- |
 | 5 | 355 |
 | 6 | 366 |
 | 7 | 418 |
@@ -127,7 +115,11 @@ Grouping five years at a time steadies the count, which is why the project above
 
 Nothing about learning. It is here because a learner who has seen a real table wobble stops treating every difference between two adjacent numbers as a finding.
 
-**A school in the town** Loreto Secondary School Bray gives its address as Vevay Road, Bray, Co Wicklow, on its own contact page. We have no connection with the school, and our lessons run outside school hours and alongside whatever the school is teaching.
+A school in the town
+
+Loreto Secondary School Bray gives its address as Vevay Road, Bray, Co Wicklow, on its own contact page. We have no connection with the school, and our lessons run outside school hours and alongside whatever the school is teaching.
+
+Learning in Bray
 
 ## How Bray families use us
 
@@ -147,14 +139,37 @@ Python, data and AI for adults at any starting point, including the 5,358 reside
 
 Neither Irish Rail nor Loreto Secondary School Bray has any connection with us; both are quoted from their own published pages because a page about a town should name real things in it. All counts here come from Central Statistics Office Census 2022 tables for this built-up area and are printed unchanged. The five-year bands, the percentages and the comparison with all towns combined are ours, and where this page could have implied a trend it says instead what a trend would require.
 
+Learning ladder
+
 ## From counting to comparing over time
 
 Ages are a guide; the free lesson sets the real level.
 
-- **Ages 6 to 10: Count it properly** Tallies and groups in block code, and checking that the picture matches the count. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Same thing, later** Programs that compare two measurements of one thing, and spot when they are not the same thing. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 14 to 18: Snapshots and series** Working with real published data and choosing the dataset the question actually needs. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Is it going up?** Answering that at work with the right comparison, or saying clearly that the data cannot. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Count it properly
+
+Tallies and groups in block code, and checking that the picture matches the count.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Same thing, later
+
+Programs that compare two measurements of one thing, and spot when they are not the same thing.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### Snapshots and series
+
+Working with real published data and choosing the dataset the question actually needs.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Is it going up?
+
+Answering that at work with the right comparison, or saying clearly that the data cannot.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## Ask a chatbot whether Bray has fewer children now
 
@@ -166,30 +181,139 @@ A learner who has worked through this page answers in a different order: the que
 
 Producing a plausible trend is now free. Knowing when there is no trend to produce is the part worth learning. The longer argument is in [the long case for learning to code](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## The practical side in Bray
 
 Six things worth knowing before booking.
 
-- **Always live** A teacher is present for the whole lesson, watching the work and correcting it as it happens.
-- **Levels, not ages** Fifteen to twenty learners who are at the same stage, whether they log in from Bray, elsewhere in Ireland or abroad.
-- **Twice most weeks** Around eight lessons a month, in an hour the household picks once and then keeps.
-- **Term aware** Mid-terms, holidays and exam weeks go into the plan at the start rather than being worked around later.
-- **Equipment** A desktop or laptop, sound in both directions and a connection that holds video, all tried out in the free lesson.
-- **One to one** Where no group at the right level meets at a workable hour, the same course runs privately.
+### Always live
 
-**A journey the town skips** Bray sends 3,044 young people to school as car passengers and 2,464 on foot. The coding lesson is the one that does not need a route at all.
+A teacher is present for the whole lesson, watching the work and correcting it as it happens.
+
+### Levels, not ages
+
+Fifteen to twenty learners who are at the same stage, whether they log in from Bray, elsewhere in Ireland or abroad.
+
+### Twice most weeks
+
+Around eight lessons a month, in an hour the household picks once and then keeps.
+
+### Term aware
+
+Mid-terms, holidays and exam weeks go into the plan at the start rather than being worked around later.
+
+### Equipment
+
+A desktop or laptop, sound in both directions and a connection that holds video, all tried out in the free lesson.
+
+### One to one
+
+Where no group at the right level meets at a workable hour, the same course runs privately.
+
+A journey the town skips
+
+Bray sends 3,044 young people to school as car passengers and 2,464 on foot. The coding lesson is the one that does not need a route at all.
+
+Fees
 
 ## Bray class fees
 
 Three lines cover it.
 
-- First class: USD 0. The first lesson in full, taught and assessed, with nothing to pay.
-- Group tuition: USD 100 a month. A month in an ability group of fifteen to twenty learners, about eight live lessons.
-- Private tuition: USD 150 a month. A month of one to one teaching on the same weekly pattern.
+First class**USD 0**
+
+The first lesson in full, taught and assessed, with nothing to pay.
+
+Group tuition**USD 100**
+
+A month in an ability group of fifteen to twenty learners, about eight live lessons.
+
+Private tuition**USD 150**
+
+A month of one to one teaching on the same weekly pattern.
 
 Fees are charged monthly in US dollars on the one rate that applies to families outside India, so a household in Bray sees exactly what a household in Greystones sees, with no euro list beside it. Nothing is charged before a course and an hour have been agreed in the free lesson, and the pricing page explains breaks, missed lessons and moving between group and private teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Bray.)Reviews
+
+## Google reviews from six families, printed as they were written
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson in Bray
+
+Tell us the learner's age and what they like doing. The first hour is planned from that, whether it becomes a game, a small program or a table that refuses to answer the question it was asked.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Bray one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Bray.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Bray coding class questions
+
+What Bray parents and adult learners ask first.
 
 ### How many people live in Bray?
 
@@ -231,10 +355,14 @@ The first lesson is free. After that a shared place costs USD 100 a month and br
 
 Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
+Explore Ireland
+
 ## Around Bray
 
 Next along the coast is [Greystones](/best-coding-class-in-greystones), with [County Wicklow](/coding-classes-in-county-wicklow) inland, [Dun Laoghaire-Rathdown](/coding-classes-in-dun-laoghaire-rathdown) to the north and the province of [Leinster](/coding-and-ai-classes-in-leinster) around them all. Our [comparison page](/best-online-coding-classes-ireland) sets us beside other online schools, and the [Ireland hub](/coding-classes-in-ireland) indexes every page.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Bray.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-bray](https://learn.modernagecoders.com/best-coding-class-in-bray#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-bray*

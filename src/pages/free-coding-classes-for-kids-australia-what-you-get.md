@@ -4,34 +4,28 @@ description: "Free coding for kids in Australia, compared honestly: Code Club, s
 canonical: https://learn.modernagecoders.com/free-coding-classes-for-kids-australia-what-you-get
 source: src/pages/free-coding-classes-for-kids-australia-what-you-get.html
 ---
-> Free coding for kids in Australia is real and worth using. Code Club Australia runs volunteer-led clubs for ages 8 to 13, the Australian Government's Digital Technologies Hub points families to after-school options, and global activities such as the Hour of Code cost nothing. Free options rarely include a regular teacher who reviews a child's work. Modern Age Coders offers a free first lesson so families can compare.
+> Free coding for kids in Australia, compared honestly: Code Club, self-guided projects, Hour of Code and a free first lesson, with what each one gives and leaves out.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / Free coding for kids
+In short
 
-Australia · Ages 6 to 13 · Free options compared
+Free coding for kids in Australia is real and worth using. Code Club Australia runs volunteer-led clubs for ages 8 to 13, the Australian Government's Digital Technologies Hub points families to after-school options, and global activities such as the Hour of Code cost nothing. Free options rarely include a regular teacher who reviews a child's work. Modern Age Coders offers a free first lesson so families can compare.
 
-# Free coding classes for kids in Australia
-
-Plenty of Australian children learn their first lines of code without their family spending anything, and that is a good thing. Volunteer clubs, government resources and short global activities are all there for the taking. What a parent searching for free coding classes rarely sees is a plain account of what each option contains: how often an adult is in the room, whether the projects build on one another, and what happens when a child gets stuck. This page gives that account, including where our own free first lesson fits, and it ends with a short program a child can write to help the family choose.
-
-At a glance: For: Children aged 6 to 13; Free club: Code Club Australia, ages 8 to 13; Free at home: Self-guided projects online; Free one-off: Hour of Code and Hour of AI; Our free part: A full first lesson; After that: Monthly fees, no lock-in; Format: Live online video; Group: Fifteen to twenty, or one to one. Rated 4.9 across 547 Google reviews.
+If you want more than free
 
 ## Three courses families move on to
 
 Most families start free and move to a class when a child wants more. These are the usual next steps; the free first lesson decides which one fits.
 
-- [Scratch, start to finish](/courses/scratch-programming-complete-course): Ages 6 to 12. For children who enjoyed a club or an Hour of Code and want to build complete games.
-- [A full year of young coding](/courses/kids-coding-blocks-masterclass): Ages 6 to 12. A planned year that grows from blocks into apps and some early Python.
-- [Typed Python, with AI on the side](/courses/python-ai-kids-masterclass): Ages 9 to 12. The step from blocks to typed code, taught live with feedback every week.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)  FCAU / 01 Scratch, start to finish Ages 6 to 12. For children who enjoyed a club or an Hour of Code and want to build complete games. Open the syllabus →](/courses/scratch-programming-complete-course)[![Coding for Kids course thumbnail](/images/kids-coding.webp)  FCAU / 02 A full year of young coding Ages 6 to 12. A planned year that grows from blocks into apps and some early Python. Open the syllabus →](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  FCAU / 03 Typed Python, with AI on the side Ages 9 to 12. The step from blocks to typed code, taught live with feedback every week. Open the syllabus →](/courses/python-ai-kids-masterclass)
+
+Free options
 
 ## Where free coding actually happens in Australia
 
 Four kinds of free coding are open to Australian children. They differ less in price, since all are free to the family, than in how much adult support comes with them.
 
-**Free coding options for Australian children, as their organisers describe them**
-
 | Option | Who runs it | What a child gets | How often |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | A Code Club | Volunteers, often teachers, librarians or parents, with resources from Code Club Australia | Step-by-step projects in Scratch, Python, HTML and more, with an adult in the room | Usually weekly during term, if a club runs nearby |
 | Self-guided projects | The child, at home, using free online project libraries | Instructions to follow and finished games or pages to show | Whenever the child chooses |
 | One-off global activities | Schools, libraries or families, using Hour of Code or Hour of AI activities | A single hour of guided puzzles or a small AI activity | Whenever a school, library or family runs one |
@@ -51,14 +45,14 @@ Both are designed for a single hour. They are an excellent taste of coding and a
 
 Sources, read 7 October 2026: [Digital Technologies Hub, After school activities and courses](https://www.digitaltechnologieshub.edu.au/for-families/ideas-to-get-started/after-school-activities-and-courses/) and [Hour of Code, Australia page](https://hourofcode.com/au).
 
+Code Club
+
 ## Code Club Australia, in its own numbers
 
 If a free option deserves a family's attention first, it is a club with a real adult running it. Code Club Australia is the largest network of these, and its own pages say plainly what it offers.
 
-**Code Club Australia, as described on its own website**
-
 | What | In Code Club's words or figures |
-|---|---|
+| --- | --- |
 | Who it is for | "Free coding clubs to teach digital making skills to Aussie kids aged 8-13" |
 | Who runs a club | "a nationwide network of volunteer-led coding clubs" |
 | How big it is in Australia | "over 165,000 Australian children and 1,300 clubs", with 3,200 trained teachers |
@@ -81,6 +75,8 @@ Whether your child is in the age band. Clubs are aimed at eight to thirteen, so 
 
 Source, read 7 October 2026: [Code Club Australia, home page](https://codeclubau.org/) and [For libraries](https://codeclubau.org/for-libraries/). Figures are the organisation's own and may change.
 
+What free leaves out
+
 ## What free coding usually does not include
 
 None of this is a criticism of free options. It is simply what a family gets for nothing, and what it does not.
@@ -99,25 +95,25 @@ Following instructions produces a working project. Explaining why it works, and 
 
 For many families the right answer is both: a free club or project library for fun and friendship, and a weekly class for the planned progression and the feedback. Others find free is enough for years. The point is to know which you are choosing. If you want to see what paid classes cost before deciding, our [guide to coding class costs in Australia](/coding-classes-cost-australia) sets out the arithmetic per lesson and per term.
 
-**A rule of thumb** If your child is still asking to code after a term of free projects, the interest is real, and a teacher is likely to repay the cost. If interest fades after a few weeks, that is useful to know too, and it cost nothing to find out.
+A rule of thumb
+
+If your child is still asking to code after a term of free projects, the interest is real, and a teacher is likely to repay the cost. If interest fades after a few weeks, that is useful to know too, and it cost nothing to find out.
+
+How to decide
 
 ## A weighted decision matrix your child can write
 
 Choosing between free options is a real decision with several factors, which makes it a perfect first program. A weighted decision matrix scores each option against each factor, multiplies by how much that factor matters to your family, and adds it up.
 
-**Our example scores, out of 5, for one family's view of four options**
-
 | Option | Cost to the family | A regular adult giving feedback | A planned sequence | Fits the timetable | Other children to build with |
-|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- |
 | A local Code Club | 5 | 4 | 3 | 2 | 5 |
 | Self-guided projects at home | 5 | 1 | 2 | 5 | 1 |
 | One-off Hour of Code or Hour of AI activities | 5 | 2 | 1 | 4 | 3 |
 | A weekly live class | 2 | 5 | 5 | 4 | 4 |
 
-**Two families, two sets of weights, two different winners (our arithmetic)**
-
 | Option | Family A: cost matters most (weights 5, 2, 2, 3, 2; maximum 70) | Family B: feedback matters most (weights 2, 5, 4, 3, 2; maximum 80) |
-|---|---|---|
+| --- | --- | --- |
 | A local Code Club | 55 | 58 |
 | Self-guided projects at home | 48 | 40 |
 | One-off Hour of Code or Hour of AI activities | 49 | 42 |
@@ -135,16 +131,18 @@ A child stores the scores as a list of lists, the weights as a list, and multipl
 
 Then the fun part: change one weight and watch the winner change. Children discover that a decision depends on what you value, which is a lesson far bigger than coding.
 
-**Try it together** Sit down with your child, agree five factors and their weights, score each option honestly, and let the program decide. If the answer surprises you, look at which weight caused it.
+Try it together
+
+Sit down with your child, agree five factors and their weights, score each option honestly, and let the program decide. If the answer surprises you, look at which weight caused it.
+
+Free first lesson
 
 ## What our free first lesson includes, and what it does not
 
 We offer one full lesson at no cost before any fees, because a family deserves to see how we teach before deciding. Here is exactly what that means.
 
-**The free first lesson, plainly**
-
 | It includes | It does not include |
-|---|---|
+| --- | --- |
 | A live lesson with a real teacher, at a time set for your state | An ongoing free course |
 | Your child building a small project themselves | Any requirement to sign up afterwards |
 | The teacher watching how your child thinks and works | A card number or payment details |
@@ -152,14 +150,14 @@ We offer one full lesson at no cost before any fees, because a family deserves t
 
 Sometimes the honest advice is that a child is better served, for now, by a free club and self-guided projects. We say so when it is true. Families who later want a weekly class can read [how our online classes for kids work](/online-coding-classes-for-kids-australia), including year levels and lesson times by state.
 
+Stages
+
 ## From free taste to real projects
 
 A common path we see in Australian families, though every child moves at their own speed.
 
-**Four stages from a free first taste**
-
 | Stage | What it looks like |
-|---|---|
+| --- | --- |
 | 1. Taste | An Hour of Code puzzle or a first Code Club project, free |
 | 2. Habit | A weekly club or a self-guided project every weekend, still free |
 | 3. Plan | A structured course with a teacher, once the interest has lasted a term |
@@ -168,63 +166,293 @@ A common path we see in Australian families, though every child moves at their o
 ### When to stay free
 
 When your child is enjoying a club, finishing projects and not getting stuck for long, there is no reason to change anything.
+
 Free is also the right choice while you find out whether coding is a passing interest or a lasting one.
 
 ### When a teacher helps
 
 When projects start to feel repetitive, when the child wants to make their own game rather than follow one, or when they are stuck more often than they are building.
+
 That is usually the moment a planned sequence and weekly feedback make the biggest difference.
+
+The catalogue
 
 ## Nine courses for children moving beyond free
 
 Arranged by age and interest. The free first lesson decides where your child joins.
 
+I
+
 ### First courses
 
 Ages 6 to 9
 
-- [Scratch games course](/courses/scratch-programming-complete-course): Three months, ending with a game your child designed.
-- [One year of young coding](/courses/kids-coding-blocks-masterclass): Blocks first, apps by the end.
-- [Vibe coding for beginners](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev): Describe a game, build it with AI help, then fix it yourself.
+FCAU / FST / 01
+
+#### Scratch games course
+
+Three months, ending with a game your child designed.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)
+
+FCAU / FST / 02
+
+#### One year of young coding
+
+Blocks first, apps by the end.
+
+[Open the syllabus](/courses/kids-coding-blocks-masterclass)
+
+FCAU / FST / 03
+
+#### Vibe coding for beginners
+
+Describe a game, build it with AI help, then fix it yourself.
+
+[Open the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)II
 
 ### Typed code
 
 Ages 9 to 12
 
-- [Python with small AI projects](/courses/python-ai-kids-masterclass): Turtle art, quizzes and a first classifier.
-- [Roblox games in Luau](/courses/roblox-game-coding-for-kids-lua-course): Scripts inside a world children already know.
-- [Making games, three ways](/courses/game-development-masterclass-for-kids): Scratch, Roblox and Minecraft, one after another.
+FCAU / TXT / 01
+
+#### Python with small AI projects
+
+Turtle art, quizzes and a first classifier.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)
+
+FCAU / TXT / 02
+
+#### Roblox games in Luau
+
+Scripts inside a world children already know.
+
+[Open the syllabus](/courses/roblox-game-coding-for-kids-lua-course)
+
+FCAU / TXT / 03
+
+#### Making games, three ways
+
+Scratch, Roblox and Minecraft, one after another.
+
+[Open the syllabus](/courses/game-development-masterclass-for-kids)III
 
 ### Beyond the screen
 
 Ages 8 to 14
 
-- [Number sense for young coders](/courses/mental-maths-mastery-kids): Mental maths that makes coding logic easier.
-- [Everyday digital skills](/courses/microsoft-office-kids-mastery): Documents, slides and first spreadsheets.
-- [Hackathon track for kids](/courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course): One free event, then twelve weeks of building towards it.
+FCAU / BYD / 01
+
+#### Number sense for young coders
+
+Mental maths that makes coding logic easier.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+FCAU / BYD / 02
+
+#### Everyday digital skills
+
+Documents, slides and first spreadsheets.
+
+[Open the syllabus](/courses/microsoft-office-kids-mastery)
+
+FCAU / BYD / 03
+
+#### Hackathon track for kids
+
+One free event, then twelve weeks of building towards it.
+
+[Open the syllabus](/courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course)
+
+How lessons run
 
 ## What a paid class adds to a free start
 
 The things a free option usually cannot promise are the things we build each lesson around.
 
-- **Weekday afternoons** After school, in your own time zone.
-- **Saturday** Popular with younger children.
-- **Sunday** For families with Saturday sport.
+Weekday afternoons
 
-- **The same teacher** Your child keeps one teacher, who remembers last week's project.
-- **A planned sequence** Each lesson builds on the one before, towards a clear next stage.
-- **Groups** Fifteen to twenty children close in age and ability, or one to one.
-- **Their own work** Children build every project themselves; teachers ask questions rather than take over.
-- **Stuck for minutes, not weeks** Help arrives in the lesson, which keeps momentum going.
-- **Free clubs still welcome** Many of our students keep going to a Code Club too. The two fit well together.
+After school, in your own time zone.
+
+Saturday
+
+Popular with younger children.
+
+Sunday
+
+For families with Saturday sport.
+
+### The same teacher
+
+Your child keeps one teacher, who remembers last week's project.
+
+### A planned sequence
+
+Each lesson builds on the one before, towards a clear next stage.
+
+### Groups
+
+Fifteen to twenty children close in age and ability, or one to one.
+
+### Their own work
+
+Children build every project themselves; teachers ask questions rather than take over.
+
+### Stuck for minutes, not weeks
+
+Help arrives in the lesson, which keeps momentum going.
+
+### Free clubs still welcome
+
+Many of our students keep going to a Code Club too. The two fit well together.
+
+Student work
+
+## Projects built by our students
+
+A few things our students made after their first lessons. More of them, grouped by age, sit on our [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## After the free lesson: fees
 
 Families outside India pay one monthly fee in US dollars, the same in every country. Nothing is charged to join, and nothing ties you to a whole term: leaving at the end of a month is fine.
 
-- Free first class: USD 0. One full live lesson. An honest course suggestion. No card asked, no obligation.
-- Group batch: USD 100 a month. Classes of fifteen to twenty. A familiar teacher each week. Peers close in age and level. Stop whenever a month ends.
-- One to one: USD 150 a month. Undivided attention from a teacher. Times that fit around the school week. Pace set by your child.
+Free first class
+
+USD 0
+
+no card required
+
+- One full live lesson
+- An honest course suggestion
+- No card asked, no obligation
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Classes of fifteen to twenty
+- A familiar teacher each week
+- Peers close in age and level
+- Stop whenever a month ends
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- Undivided attention from a teacher
+- Times that fit around the school week
+- Pace set by your child
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+What families wrote on Google, copied word for word and left uncorrected.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions from parents
 
 ## What Australian parents ask about free coding classes
 
@@ -268,15 +496,54 @@ Each activity is designed to take about an hour. Many children go on to try more
 
 Families pay one month at a time with no joining fee and no term lock-in. The fees block on this page shows the group and one-to-one options.
 
+Elsewhere on this site
+
 ## Related pages
 
-- [Coding classes in Australia](/coding-classes-in-australia): Our main page for Australian families.
-- [Online coding classes for kids](/online-coding-classes-for-kids-australia): Year levels, school and time zones.
-- [What coding classes cost](/coding-classes-cost-australia): Per lesson and per term, in plain arithmetic.
-- [Game development for kids](/game-development-for-kids-australia): From Scratch games to a real engine.
-- [Scratch coding classes](/scratch-coding-classes-for-kids): The usual first language.
-- [When to start coding](/best-age-to-start-coding): Readiness signs by age.
+Where to go next once you know what free does and does not cover.
 
-## Contact
+### [Coding classes in Australia](/coding-classes-in-australia)
 
-Book the free first class at [https://learn.modernagecoders.com/free-coding-classes-for-kids-australia-what-you-get](https://learn.modernagecoders.com/free-coding-classes-for-kids-australia-what-you-get#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Our main page for Australian families.
+
+### [Online coding classes for kids](/online-coding-classes-for-kids-australia)
+
+Year levels, school and time zones.
+
+### [What coding classes cost](/coding-classes-cost-australia)
+
+Per lesson and per term, in plain arithmetic.
+
+### [Game development for kids](/game-development-for-kids-australia)
+
+From Scratch games to a real engine.
+
+### [Scratch coding classes](/scratch-coding-classes-for-kids)
+
+The usual first language.
+
+### [When to start coding](/best-age-to-start-coding)
+
+Readiness signs by age.
+
+Start here
+
+## Book the free first lesson
+
+Tell us how to reach you and when, and we will call. Your child builds a small project with a teacher, and you get an honest view of whether a class, a free club or both suit them.
+
+Still weighing it up? Read [how a lesson runs](/how-we-teach) or browse [all of our courses](/courses) first.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20looking%20at%20free%20coding%20options%20for%20our%20child%20in%20Australia.%20Could%20we%20book%20the%20free%20first%20lesson%20to%20see%20how%20a%20class%20works%3F) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp from an Australian mobile reaches us quickest. Our team works from India, so replies come from a +91 number, and we have no office or shop in Australia.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/free-coding-classes-for-kids-australia-what-you-get*

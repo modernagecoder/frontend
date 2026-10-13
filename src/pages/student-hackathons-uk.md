@@ -4,34 +4,28 @@ description: "Student hackathons in the UK: who runs them, which events accept s
 canonical: https://learn.modernagecoders.com/student-hackathons-uk
 source: src/pages/student-hackathons-uk.html
 ---
-> Most student hackathons in the UK are run by university tech societies, supported by Hackathons UK, "a growing, community-led non-profit focused on supporting hackathon organisers and student tech societies in the United Kingdom", a registered charity in England, number 1195243, which reports 5,000 or more hackers reached, 1,000 or more projects judged and 60 or more events supported over five years. For school-age students, HackUK says it hosts "free hackathons and tech events for sixth form students across the United Kingdom" for "young people aged 16-18 across Britain", with events described as workshops and build sessions with mentors; its Counterspell Wolverhampton was "a weekend-long game-making hackathon" where participants "had two days to ship a playable game", and Hack4Health is listed for 19 December 2026 in Central London. Internationally, Major League Hacking describes itself as "the world's largest developer community" with "1000+ annual events" across "100 countries". We teach the building. A first class is free; a group place is USD 100 a month and one-to-one teaching USD 150.
+> Student hackathons in the UK: who runs them, which events accept sixth formers, what a weekend actually involves, and the thing that breaks most teams at 3am.
 
-[Home](/) / [Courses](/courses) / [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar) / Student hackathons
+In short
 
-United Kingdom · Mostly 16 and over · Weekend events
+Most student hackathons in the UK are run by university tech societies, supported by Hackathons UK, "a growing, community-led non-profit focused on supporting hackathon organisers and student tech societies in the United Kingdom", a registered charity in England, number 1195243, which reports 5,000 or more hackers reached, 1,000 or more projects judged and 60 or more events supported over five years. For school-age students, HackUK says it hosts "free hackathons and tech events for sixth form students across the United Kingdom" for "young people aged 16-18 across Britain", with events described as workshops and build sessions with mentors; its Counterspell Wolverhampton was "a weekend-long game-making hackathon" where participants "had two days to ship a playable game", and Hack4Health is listed for 19 December 2026 in Central London. Internationally, Major League Hacking describes itself as "the world's largest developer community" with "1000+ annual events" across "100 countries". We teach the building. A first class is free; a group place is USD 100 a month and one-to-one teaching USD 150.
 
-# Student hackathons in the UK
-
-A hackathon is the only competition on this site where nobody tells you what to build. You arrive on a Friday evening, usually with people you have not met, and by Sunday afternoon there has to be a working thing to show. Everything else, the pizza, the sleeping bags, the lanyards, is decoration around that one constraint. Which makes the useful questions narrower than parents expect: who is actually allowed in at sixteen, what a weekend really contains, and why four capable people so often arrive at Sunday with four half-finished pieces that do not fit together.
-
-At a glance: Typical length: A weekend; Sixth formers: HackUK events, ages 16 to 18; University level: Society-run events across the UK; Support charity: Hackathons UK, number 1195243; International network: Major League Hacking; Cost: Often free to attend; Deliverable: Something that works, demonstrated; Under 16: No national listing we could find. Rated 4.9 across 547 Google reviews.
+Where to start
 
 ## Three courses for a first hackathon
 
 The skill a hackathon rewards is finishing something with other people, which is narrower and harder than it sounds.
 
-- [Full stack web development](/courses/full-stack-web-development-teens-masterclass): The most useful hackathon skill set: a working interface with something real behind it, built in slices.
-- [Python from start to finish](/courses/python-complete-masterclass-teens): For students who want to build the logic rather than the screens, and to debug it at speed.
-- [Hackathon preparation for kids](/courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course): For younger students, ages 8 to 12: the same habits, at a pace that suits a child who is years away from a real event.
+[![Full Stack Web Development for Teens course thumbnail](/images/web-dev-teens.webp)  HAK / 01 Full stack web development The most useful hackathon skill set: a working interface with something real behind it, built in slices. Open the syllabus →](/courses/full-stack-web-development-teens-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)  HAK / 02 Python from start to finish For students who want to build the logic rather than the screens, and to debug it at speed. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Hackathon for Kids course thumbnail](/images/hackathon-kids.webp)  HAK / 03 Hackathon preparation for kids For younger students, ages 8 to 12: the same habits, at a pace that suits a child who is years away from a real event. Open the syllabus →](/courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course)
+
+Who runs them
 
 ## Societies, a charity, and one route in at sixteen
 
 Facts read at each organisation's own site on 20 September 2026, attributed in the row.
 
-**The organisations behind UK student hackathons**
-
 | Organisation | What it says about itself | What it means for a student |
-|---|---|---|
+| --- | --- | --- |
 | Hackathons UK | "A growing, community-led non-profit focused on supporting hackathon organisers and student tech societies in the United Kingdom" | The support layer behind many university events |
 | Its status | A registered charity in England, number 1195243, and a company limited by guarantee, number 12530692 | A real organisation, not a brand |
 | Its scale | 5,000 or more hackers reached, 1,000 or more projects judged, 60 or more events supported, over five years | A busy calendar, mostly at universities |
@@ -51,16 +45,16 @@ For a sixteen-year-old the picture is much better, and it is free. HackUK charge
 
 Sources: [Hackathons UK](https://www.hackathons.org.uk/), [HackUK](https://www.hackuk.network/) and [Major League Hacking](https://www.mlh.com/), all read 20 September 2026. Modern Age Coders is not connected with any of them.
 
+The method
+
 ## Two people, one file, three in the morning
 
 Teams do not usually fail because the idea was bad. They fail at the point where four people's work has to become one program, and here is that moment, reproduced.
 
 We made a repository with a two-line program, then had two people each add one line near the top: Ana added a variable for lives, Ben added one for the level. Both changes are correct. Both work. Then Ben merged Ana's work into his.
 
-**Our run of 20 September 2026, in a real repository**
-
 | Step | What happened |
-|---|---|
+| --- | --- |
 | Ana's branch | She adds a line for lives, and her copy runs |
 | Ben's branch | He adds a line for level, and his copy runs |
 | Ben merges Ana's work | "CONFLICT (content): Merge conflict in game.py" |
@@ -88,14 +82,14 @@ And agree before Friday night who merges. A team with one person responsible for
 
 The repository, both branches, the conflict and the resulting file are ours, produced on 20 September 2026. The error text is exactly what the tool printed.
 
+The weekend
+
 ## What forty-eight hours actually contains
 
 The advertised number and the usable number are not the same, and knowing the difference is most of a good plan.
 
-**A weekend event, honestly accounted for. The allowances are ours, not any organiser's.**
-
 | Goes on | Roughly | Note |
-|---|---|---|
+| --- | --- | --- |
 | Opening, briefing and team forming | 2 hours | Longer than anyone expects, and it matters |
 | Sleep, across two nights | 12 hours | Teams that skip this demo badly on Sunday |
 | Eating, breaks and moving about | 5 hours | Including the walk to find food at midnight |
@@ -111,14 +105,14 @@ For a first-timer the most useful advice we can give is to go without a team and
 
 And go for the weekend rather than for the prize. Almost everything a student takes away from a hackathon, including the version control they will use for the rest of their life, has nothing to do with who won.
 
+Getting ready
+
 ## Four rungs to a useful weekend
 
 Each rung is something to have done once before Friday, not something to learn during it.
 
-**From building alone to building with three strangers**
-
 | Stage | Rung | The sign it is secure |
-|---|---|---|
+| --- | --- | --- |
 | Before 14 | 1. Finishing something | Has built a small thing end to end and shown it to somebody |
 | 14 to 16 | 2. Version control | Can make a repository, branch, merge and resolve a conflict without panic |
 | 16 to 18 | 3. Building in slices | Gets something on screen in the first hours, then improves it |
@@ -127,71 +121,321 @@ Each rung is something to have done once before Friday, not something to learn d
 ### Before a first event
 
 Create a merge conflict on purpose and resolve it. Ten minutes now saves the worst hour of the weekend.
+
 Decide who merges before anyone writes any code, and divide the work by file rather than by feature.
 
 ### If under sixteen
 
 We could find no national listing of UK hackathons open to under-16s, which is why we run our own event alongside a preparation course for ages 8 to 12.
+
 The [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar) has plenty that is open at any age, including showcases with no ranking.
+
+The full list
 
 ## Courses for someone who wants to build in a weekend
 
 Grouped by what a student will actually be doing at the table.
 
+I
+
 ### Building fast
 
 The core skill
 
-- [Full stack web development](/courses/full-stack-web-development-teens-masterclass): A screen and a database, built in slices.
-- [App development](/courses/complete-app-development-masterclass-for-teens): Something on a phone that a judge can press.
-- [Python from start to finish](/courses/python-complete-masterclass-teens): The logic, and debugging it at speed.
+HAK / A / 01
+
+#### Full stack web development
+
+A screen and a database, built in slices.
+
+[Open the syllabus](/courses/full-stack-web-development-teens-masterclass)
+
+HAK / A / 02
+
+#### App development
+
+Something on a phone that a judge can press.
+
+[Open the syllabus](/courses/complete-app-development-masterclass-for-teens)
+
+HAK / A / 03
+
+#### Python from start to finish
+
+The logic, and debugging it at speed.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)II
 
 ### Working together
 
 Where weekends break
 
-- [Algorithms and data structures](/courses/problem-solving-dsa-masterclass-teens): Choosing a method that will finish tonight.
-- [Competitive programming](/courses/competitive-programming-for-teens-course): Writing correct code when the clock is unkind.
-- [Hackathon preparation for kids](/courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course): The same habits for ages 8 to 12.
+HAK / B / 01
+
+#### Algorithms and data structures
+
+Choosing a method that will finish tonight.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
+
+HAK / B / 02
+
+#### Competitive programming
+
+Writing correct code when the clock is unkind.
+
+[Open the syllabus](/courses/competitive-programming-for-teens-course)
+
+HAK / B / 03
+
+#### Hackathon preparation for kids
+
+The same habits for ages 8 to 12.
+
+[Open the syllabus](/courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course)III
 
 ### Something to show
 
 The demo is the deliverable
 
-- [AI and machine learning for teens](/courses/ai-ml-masterclass-teens): A model that does something visible.
-- [Data science with Python](/courses/data-science-course-for-teens-python-data): Real data, shown convincingly.
-- [Game development for kids](/courses/game-development-masterclass-for-kids): For a game-making weekend, at a younger age.
+HAK / C / 01
+
+#### AI and machine learning for teens
+
+A model that does something visible.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+HAK / C / 02
+
+#### Data science with Python
+
+Real data, shown convincingly.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)
+
+HAK / C / 03
+
+#### Game development for kids
+
+For a game-making weekend, at a younger age.
+
+[Open the syllabus](/courses/game-development-masterclass-for-kids)IV
 
 ### Before all that
 
 Younger students
 
-- [Python and AI for kids](/courses/python-ai-kids-masterclass): A first typed language, taught patiently.
-- [Scratch for kids](/courses/scratch-programming-complete-course): Finishing something, which is the real skill.
-- [GCSE Computer Science](/courses/gcse-computer-science-course): The qualification running alongside.
+HAK / D / 01
+
+#### Python and AI for kids
+
+A first typed language, taught patiently.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)
+
+HAK / D / 02
+
+#### Scratch for kids
+
+Finishing something, which is the real skill.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)
+
+HAK / D / 03
+
+#### GCSE Computer Science
+
+The qualification running alongside.
+
+[Open the syllabus](/courses/gcse-computer-science-course)
+
+How lessons run
 
 ## Weekly building, with the integration practised
 
 Lessons are live on video from India, five and a half hours ahead of the UK in winter and four and a half in summer, at a time agreed and kept in UK time.
 
-- **Weekday evening** The usual slot for teenagers.
-- **Weekend morning** For a long build session, start to finish.
-- **Holiday weeks** For a project run like a small hackathon.
+Weekday evening
 
-- **Version control taught** Branches, merges and conflicts practised deliberately, before anyone meets one under pressure.
-- **Something on screen first** We teach building in slices, so there is always a demonstrable thing.
-- **Fifteen to twenty learners** Enough that work has to be divided, few enough that everyone is heard.
-- **Our own hackathon** We run an event for younger students alongside a twelve-week preparation course for ages 8 to 12.
-- **One to one when useful** For a student preparing for a specific event.
-- **No affiliation** We have no relationship with Hackathons UK, HackUK or Major League Hacking.
+The usual slot for teenagers.
+
+Weekend morning
+
+For a long build session, start to finish.
+
+Holiday weeks
+
+For a project run like a small hackathon.
+
+### Version control taught
+
+Branches, merges and conflicts practised deliberately, before anyone meets one under pressure.
+
+### Something on screen first
+
+We teach building in slices, so there is always a demonstrable thing.
+
+### Fifteen to twenty learners
+
+Enough that work has to be divided, few enough that everyone is heard.
+
+### Our own hackathon
+
+We run an event for younger students alongside a twelve-week preparation course for ages 8 to 12.
+
+### One to one when useful
+
+For a student preparing for a specific event.
+
+### No affiliation
+
+We have no relationship with Hackathons UK, HackUK or Major League Hacking.
+
+Student work
+
+## What our students have built
+
+Four finished, published projects from students here, built in their own time. There are more on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 One monthly price in US dollars for families outside India, nothing to pay to register, and no term you are locked into.
 
-- Free first class: USD 0. A real lesson building something. An honest read on the level. No card details taken.
-- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher weekly. Code reviewed as it grows. A certificate at the end.
-- One to one: USD 150 a month. A teacher working with one learner. Shaped around what they are building. Useful before a first event.
+Free first class
+
+USD 0
+
+no card required
+
+- A real lesson building something
+- An honest read on the level
+- No card details taken
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners at one level
+- The same teacher weekly
+- Code reviewed as it grows
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher working with one learner
+- Shaped around what they are building
+- Useful before a first event
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Reviews left by families on Google, printed with nothing changed.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Student hackathon questions
 
 ## What students and parents ask
 
@@ -235,15 +479,54 @@ Not necessarily. Events are built to match people up and run sessions for it, an
 
 Almost everything a student takes away, including the version control they will use for the rest of their life, has nothing to do with who won.
 
+Related pages
+
 ## Other ways to build and show
 
-- [Coolest Projects UK](/coolest-projects-uk-project-ideas): Any age, no ranking, every checked entry shown.
-- [Big Bang Competition](/big-bang-competition-project-help): Project entries from teams of any size.
-- [FIRST LEGO League](/first-lego-league-uk-coding-help): Autonomous robots and an innovation project.
-- [UK competitions calendar 2026-27](/uk-coding-maths-and-ai-competitions-calendar): The season in one table, with each organiser named.
-- [Coding classes in the UK](/coding-classes-in-united-kingdom): The four school systems, and every UK page.
-- [Student labs](/student-labs): Projects our own students have finished and published.
+Showcases, project competitions and the whole competition year.
 
-## Contact
+### [Coolest Projects UK](/coolest-projects-uk-project-ideas)
 
-Book the free first class at [https://learn.modernagecoders.com/student-hackathons-uk](https://learn.modernagecoders.com/student-hackathons-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Any age, no ranking, every checked entry shown.
+
+### [Big Bang Competition](/big-bang-competition-project-help)
+
+Project entries from teams of any size.
+
+### [FIRST LEGO League](/first-lego-league-uk-coding-help)
+
+Autonomous robots and an innovation project.
+
+### [UK competitions calendar 2026-27](/uk-coding-maths-and-ai-competitions-calendar)
+
+The season in one table, with each organiser named.
+
+### [Coding classes in the UK](/coding-classes-in-united-kingdom)
+
+The four school systems, and every UK page.
+
+### [Student labs](/student-labs)
+
+Projects our own students have finished and published.
+
+Start here
+
+## Book a free coding lesson
+
+Tell us the age and what your child wants to build. The free lesson makes a start on it, and we say afterwards what a weekend would realistically hold.
+
+Rather read first? Syllabuses are on the [course pages](/courses), the method on [how we teach](/how-we-teach), and the topic order on the [roadmap](/coding-roadmap).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20wants%20to%20do%20a%20hackathon%20and%20I%20would%20like%20a%20free%20coding%20class.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is free from a UK mobile and usually the fastest way to us. Our number is an Indian one, which we always state, and there is no office in Britain.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/student-hackathons-uk*

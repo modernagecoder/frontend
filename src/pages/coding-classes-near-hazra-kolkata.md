@@ -12,7 +12,7 @@ LIVE ONLINE · SOUTH KOLKATA'S STUDENT CORRIDOR
 
 Modern Age Coders runs premium, live online coding and maths classes for students near Hazra, Kolkata, taught in real time by full-time software engineers and maths graduates, never pre-recorded. In batches of fifteen to twenty, children from the Hazra–Bhowanipore–Kalighat belt learn Python, Java, AI/ML and school maths by building real projects. It is the engineer-led batch a three-generation tuition neighbourhood has been waiting for.
 
-Live, not recordedBatches of 6-8Engineers & maths graduatesICSE · CBSE · WBBSE · IGCSE6-8Students per live batch90 minCommute saved each class day₹1,499Per month, group plan onwards100%Live, project-based teaching[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)LIVE ONLINE · HAZRA, KOLKATA
+Live, not recordedBatches of 15-20Engineers & maths graduatesICSE · CBSE · WBBSE · IGCSE15-20Students per live batch90 minCommute saved each class day₹1,499Per month, group plan onwards100%Live, project-based teaching[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)LIVE ONLINE · HAZRA, KOLKATA
 
 ## At a glance
 

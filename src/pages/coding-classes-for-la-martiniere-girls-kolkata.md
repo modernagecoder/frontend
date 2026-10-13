@@ -177,7 +177,7 @@ Industry-experienced teachers including female instructors who serve as role mod
 
 👥
 
-### Batch Sizes
+### Small Batch Sizes
 
 Only 15-20 students per batch ensures every La Martiniere girl gets personal attention, can ask questions freely, and learns at her own pace.
 

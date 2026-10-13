@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths lessons for St Albans lea
 canonical: https://learn.modernagecoders.com/best-coding-class-in-st-albans
 source: src/pages/best-coding-class-in-st-albans.html
 ---
-> The St Albans district had 148,167 usual residents at the 2021 census, and 7.5% of them were aged 10 to 14, against 6.0% across England. Rothamsted Research, in Harpenden within the district, says it is home to the oldest continuing agricultural field experiments in the world, begun by Sir John Lawes and Sir Henry Gilbert from 1843. We teach St Albans learners aged six to sixty-seven from India in live video lessons, in a group of fifteen to twenty at the same level or one to one, at times planned around UK school and work. Lesson one is free; after it, a group place is USD 100 a month and one-to-one teaching USD 150.
+> Live online coding, Python, AI and maths lessons for St Albans learners aged 6 to 67, from Harpenden and Redbourn to London Colney. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / St Albans
-
-St Albans, Hertfordshire / Live online
-
-# Coding classes in St Albans
-
-**What are the best coding classes in St Albans?** The St Albans district had 148,167 usual residents at the 2021 census, and 7.5% of them were aged 10 to 14, against 6.0% across England. Rothamsted Research, in Harpenden within the district, says it is home to the oldest continuing agricultural field experiments in the world, begun by Sir John Lawes and Sir Henry Gilbert from 1843. We teach St Albans learners aged six to sixty-seven from India in live video lessons, in a group of fifteen to twenty at the same level or one to one, at times planned around UK school and work. Lesson one is free; after it, a group place is USD 100 a month and one-to-one teaching USD 150.
-
-Rothamsted still grows wheat on Broadbalk, the field its founders laid out in 1843, and publishes yields for schools. In 2016, 2017 and 2018, the published table compares eight treatments, from no fertiliser at all to the heaviest dose of nitrogen. Some years were good, some poor. How much of the difference in yield came from the fertiliser, how much from the year, and how much is left over? Analysis of variance, the method linked with R.A. Fisher, who analysed Broadbalk's records in his 1921 paper Studies in crop variation, answers exactly that. For wheat grown every year, the treatment explains 74.0% of the variation; for wheat grown in rotation, 87.9%. And the leftover points straight at one strange year.
-
-Facts last verified 23 September 2026. Teaching is online; no St Albans branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for St Albans
 
 ## Four courses for the Rothamsted district
 
 Pick the course nearest to what the learner already likes. Every one starts with a free live lesson, booked without a card.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 12): Block programming for younger children, a first step towards fair tests where only one thing changes at a time.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Python from first lines to full projects, enough to take a table of yields apart and measure every source of difference.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 18): Statistics on real data in Python, including designing a fair experiment and testing what it shows.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (University and adult): Python for adults who run trials or compare options at work and need to separate real effects from background noise.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 12Scratch Coding for KidsBlock programming for younger children, a first step towards fair tests where only one thing changes at a time.See the syllabus](/courses/scratch-programming-complete-course)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensPython from first lines to full projects, enough to take a table of yields apart and measure every source of difference.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 18Data Science for TeensStatistics on real data in Python, including designing a fair experiment and testing what it shows.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Python Automation Course course thumbnail](/images/python-college.webp)University and adultPython Automation CoursePython for adults who run trials or compare options at work and need to separate real effects from background noise.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)St Albans today
 
 ## A district of families
 
 Census 2021 figures for the City and District of St Albans, which includes Harpenden, Redbourn and London Colney, from the Office for National Statistics on Nomis.
 
-**St Albans district, Census 2021**
-
 | Measure | St Albans | England |
-|---|---|---|
+| --- | --- | --- |
 | Usual residents | 148,167 | 56,490,048 |
 | Living in households | 146,953 | Not compared |
 | Living in communal establishments | 1,214 | Not compared |
@@ -68,6 +54,8 @@ Of the 148,167 residents, 146,953 lived in households; just 1,214 lived in commu
 
 Our St Albans groups reflect that family-heavy district. A Year 5 child in Marshalswick might be making a first game, a Year 10 student in Harpenden starting GCSE Computer Science, and a parent in Wheathampstead learning Python for work, each placed in a small group at their own level.
 
+Roman city and research station
+
 ## From Verulamium to Broadbalk
 
 From Rothamsted Research's own pages and Historic England's open data.
@@ -86,16 +74,18 @@ Historic England lists Rothamsted Manor House and the city's Clock Tower at Grad
 
 Rothamsted's archive also holds the Broadbalk yields from 1852 to 1918 that R.A. Fisher used in his 1921 paper Studies in crop variation, and it has kept weather records since the 1850s. We have no connection with Rothamsted Research, St Albans City and District Council or Historic England. Broadbalk is on this page because its long records have been used to develop and teach statistical methods, as Fisher's 1921 paper shows.
 
-**Where the yields come from** Rothamsted publishes a schools activity, Lessons from Broadbalk, with wheat yields for 2016, 2017 and 2018 under eight treatments: no fertiliser, farmyard manure, and six rising doses of nitrogen, N1 to N6, each with the same phosphorus, potassium and magnesium.
+Where the yields come from
+
+Rothamsted publishes a schools activity, Lessons from Broadbalk, with wheat yields for 2016, 2017 and 2018 under eight treatments: no fertiliser, farmyard manure, and six rising doses of nitrogen, N1 to N6, each with the same phosphorus, potassium and magnesium.
+
+Signature project
 
 ## Which matters more, the fertiliser or the year?
 
 Analysis of variance splits the total spread in a set of results into parts: how much each factor explains, and how much is left over. Comparing the parts tells you which effects are real.
 
-**Broadbalk wheat yields, 8 treatments over 2016 to 2018 (tonnes per hectare): how the total variation divides**
-
 | Source of variation | Wheat every year | Wheat in rotation |
-|---|---|---|
+| --- | --- | --- |
 | Fertiliser treatment | 74.0% | 87.9% |
 | Year (weather and conditions) | 9.6% | 8.5% |
 | Left over (residual) | 16.4% | 3.7% |
@@ -120,14 +110,14 @@ Treat each year as a block and remove its effect before testing the fertiliser, 
 
 The leftover is where the surprises hide. For wheat grown every year, the largest residuals are the heavy-nitrogen plots in 2016 and 2017: the N6 plot yielded 9.63 tonnes in 2016 and just 4.26 in 2017, while the rotation's N6 plot held up at 10.41. The model cannot explain that, which is exactly why it is worth a question. Across all treatments, wheat in rotation out-yielded wheat every year in 22 of 24 cases, by 1.98 tonnes per hectare on average, and the gain from each extra step of nitrogen shrank as the dose rose.
 
+Experiments in practice
+
 ## Five questions before trusting an experiment
 
 Learned on Broadbalk, then used in medicine trials, website tests, engineering, education research and anywhere several things change at once.
 
-**Decisions behind an analysis of variance**
-
 | Question | For the Broadbalk yields | What goes wrong if you skip it |
-|---|---|---|
+| --- | --- | --- |
 | What are the factors? | Treatment and year, eight by three | Weather credited to fertiliser, or the reverse |
 | Is there replication? | One plot per treatment per year | Interactions that cannot be tested with this data |
 | What is the block? | The year, removed before testing treatment | A real effect hidden by good and bad years |
@@ -150,14 +140,37 @@ Designing and analysing trials at work, with blocks, replication and the limits 
 
 We are not connected with Rothamsted Research, St Albans City and District Council or Historic England. The yields come from Rothamsted's published schools resource and the census and listing data are open; the sums of squares, F tests and residuals on this page are our own calculations.
 
+Learning ladder
+
 ## From a fair test to analysis of variance
 
 Treat the ages as approximate; the free lesson shows where each learner should start.
 
-- **Ages 6 to 10: Fair tests** Planning experiments where only one thing changes, and recording results in a simple table. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 11 to 13: Averages in code** Reading a table of results into Python and working out averages by row and by column. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Analysis of variance** Splitting real Broadbalk yields into treatment, year and residual, with F tests and a close look at the leftovers. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Trials at work** Comparing options fairly, with blocks and replication planned before the data arrives. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data Science Course](/courses/data-science-complete-masterclass-college)
+Ages 6 to 10
+
+### Fair tests
+
+Planning experiments where only one thing changes, and recording results in a simple table.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 11 to 13
+
+### Averages in code
+
+Reading a table of results into Python and working out averages by row and by column.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Analysis of variance
+
+Splitting real Broadbalk yields into treatment, year and residual, with F tests and a close look at the leftovers.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Trials at work
+
+Comparing options fairly, with blocks and replication planned before the data arrives.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data Science Course](/courses/data-science-complete-masterclass-college)Coding and AI
 
 ## AI companies run experiments constantly. Why should a St Albans teenager analyse wheat yields?
 
@@ -169,30 +182,139 @@ The residuals lesson matters too. The strange 2017 yields stood out only because
 
 So a St Albans teenager should keep learning to code in 2026, in the district that holds Broadbalk, a field whose records Fisher analysed in 1921: machines can run a thousand tests a day, but someone has to design them fairly and read what is left over. The longer argument is in [why coding is worth learning in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Harpenden, Fleetville or Bricket Wood, all from home
 
 The district runs from the city to Harpenden, Redbourn and the villages around London Colney. Online, each of them is the same distance from the lesson.
 
-- **City, town and village** A learner in Jersey Farm and another in Park Street can share one class, with no journey into the city centre.
-- **Levels schools use** Our levels track the English curriculum Hertfordshire pupils follow, from Reception through each Key Stage to GCSE and A level, all taught in English.
-- **A lesson from the start** The free session teaches a genuine task and closes with our advice on level, course and a weekly time. No card is asked for.
-- **Grouped by stage** Fifteen to twenty learners at one level, from St Albans, around the UK and overseas, so each stage has workable times.
-- **Twice a week** Two regular lessons weekly, about eight a month, with half terms and exams arranged with the teacher in good time.
-- **Across the time difference** A 4 pm lesson in St Albans is 8.30 pm for our teachers in India in summer and 9.30 pm in winter, as India keeps the same clock all year; they arrange their evenings for UK families.
+### City, town and village
 
-**Across Hertfordshire** Families in Hatfield, Welwyn Garden City, Hemel Hempstead or Watford join exactly the same classes, since every group is online and set by level.
+A learner in Jersey Farm and another in Park Street can share one class, with no journey into the city centre.
+
+### Levels schools use
+
+Our levels track the English curriculum Hertfordshire pupils follow, from Reception through each Key Stage to GCSE and A level, all taught in English.
+
+### A lesson from the start
+
+The free session teaches a genuine task and closes with our advice on level, course and a weekly time. No card is asked for.
+
+### Grouped by stage
+
+Fifteen to twenty learners at one level, from St Albans, around the UK and overseas, so each stage has workable times.
+
+### Twice a week
+
+Two regular lessons weekly, about eight a month, with half terms and exams arranged with the teacher in good time.
+
+### Across the time difference
+
+A 4 pm lesson in St Albans is 8.30 pm for our teachers in India in summer and 9.30 pm in winter, as India keeps the same clock all year; they arrange their evenings for UK families.
+
+Across Hertfordshire
+
+Families in Hatfield, Welwyn Garden City, Hemel Hempstead or Watford join exactly the same classes, since every group is online and set by level.
+
+Fees
 
 ## St Albans lesson fees
 
 A free first lesson, then a single monthly fee.
 
-- First class: USD 0. A full lesson at no charge, ending with a suggested level, course and weekly time.
-- Group tuition: USD 100 a month. Around eight live lessons a month in a group of fifteen to twenty learners at the same stage.
-- Private tuition: USD 150 a month. Around eight live lessons a month, with the teacher focused on your learner alone.
+First class**USD 0**
+
+A full lesson at no charge, ending with a suggested level, course and weekly time.
+
+Group tuition**USD 100**
+
+Around eight live lessons a month in a group of fifteen to twenty learners at the same stage.
+
+Private tuition**USD 150**
+
+Around eight live lessons a month, with the teacher focused on your learner alone.
 
 Families in Sandridge or How Wood pay in US dollars, just like every family outside India, and our pages show no pound prices. Billing begins only after the free lesson, once a course and a weekly slot are agreed; pauses, missed lessons and switching between group and one-to-one teaching are explained on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20St%20Albans%2C%20please.)Reviews
+
+## Google reviews from six families, left as written
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson for a St Albans learner
+
+The first task is chosen for the learner: a fair-test game for a young child, a short Python program that averages the rows and columns of a table for a beginner, or Rothamsted's wheat yields and analysis of variance for a teenager ready for real data.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented St Albans one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20St%20Albans%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## St Albans coding class questions
+
+What St Albans families ask us most often.
 
 ### How many people live in the St Albans district?
 
@@ -234,10 +356,14 @@ The first lesson is free. After that, a group place is USD 100 a month for two l
 
 By level, pace and goals rather than age or where a learner lives, with fifteen to twenty learners at one stage. If no group suits the learner's week, we offer one-to-one lessons.
 
+Explore England and the UK
+
 ## The South East and beyond
 
 Nearby, the [Cambridge page](/best-coding-class-in-cambridge) keeps a top ten from decades of weather records, and [Lancaster](/best-coding-class-in-lancaster) asks whether chance alone could explain a rise in flood peaks. [Oxford](/best-coding-class-in-oxford) asks whether today's rain remembers yesterday's. The [England guide](/coding-and-ai-classes-in-england) sets out school stages, and the [UK coding page](/coding-classes-in-united-kingdom) links every other city.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20St%20Albans%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-st-albans](https://learn.modernagecoders.com/best-coding-class-in-st-albans#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-st-albans*

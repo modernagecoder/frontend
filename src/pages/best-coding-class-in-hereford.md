@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths lessons for Hereford lear
 canonical: https://learn.modernagecoders.com/best-coding-class-in-hereford
 source: src/pages/best-coding-class-in-hereford.html
 ---
-> Herefordshire had 187,034 usual residents at the 2021 census, spread at just 85.8 people per square kilometre against 433.5 for England. Hereford Cathedral says its Mappa Mundi, made around 1300 on a single sheet of calf-skin vellum, places Jerusalem at the centre of the world. With us, a Hereford learner of any age from six to sixty-seven has live video lessons with a teacher in India, alone or in a group of fifteen to twenty at the same level, at times fitted around the UK day. The first lesson costs nothing; then a group place is USD 100 a month and one-to-one teaching USD 150.
+> Live online coding, Python, AI and maths lessons for Hereford learners aged 6 to 67, and in Leominster, Ledbury and Ross-on-Wye too. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Hereford
-
-Hereford, Herefordshire / Live online
-
-# Coding classes in Hereford
-
-**What are the best coding classes in Hereford?** Herefordshire had 187,034 usual residents at the 2021 census, spread at just 85.8 people per square kilometre against 433.5 for England. Hereford Cathedral says its Mappa Mundi, made around 1300 on a single sheet of calf-skin vellum, places Jerusalem at the centre of the world. With us, a Hereford learner of any age from six to sixty-seven has live video lessons with a teacher in India, alone or in a group of fifteen to twenty at the same level, at times fitted around the UK day. The first lesson costs nothing; then a group place is USD 100 a month and one-to-one teaching USD 150.
-
-The Met Office has recorded temperatures at Ross-on-Wye, in Herefordshire, every month since December 1930. Any single month can be two degrees warmer or colder than usual for no lasting reason. So how warm is Herefordshire really, underneath that noise? Our teenagers build a Kalman filter, the method that guides spacecraft and phones, which keeps a running estimate and nudges it by just the right amount each month. Tuned on the data itself, it trusts each new month only 6% of the way. Its answer: in December 2025 the underlying temperature stood 1.87 degrees above the station's 1961 to 1990 average, give or take 0.67, against 0.79 below it around January 1963.
-
-Facts last verified 23 September 2026. Teaching is online; no Hereford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Hereford
 
 ## Four courses for the Wye city
 
 Start from whatever the learner enjoys most. Each course begins with a free live lesson, and booking it needs no card.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 12): Block programming for younger children, a first step towards games that keep a working guess and improve it as clues arrive.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Python from first lines to full projects, enough to read ninety-five years of weather records and filter them.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 18): Real data in Python, including separating a slow, real change from month-to-month noise and saying how sure you are.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (University and adult): Python for adults who track anything noisy over time, from sensors to sales, and want an honest running estimate.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 12Scratch Coding for KidsBlock programming for younger children, a first step towards games that keep a working guess and improve it as clues arrive.See the syllabus](/courses/scratch-programming-complete-course)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensPython from first lines to full projects, enough to read ninety-five years of weather records and filter them.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 18Data Science for TeensReal data in Python, including separating a slow, real change from month-to-month noise and saying how sure you are.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Python Automation Course course thumbnail](/images/python-college.webp)University and adultPython Automation CoursePython for adults who track anything noisy over time, from sensors to sales, and want an honest running estimate.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Hereford today
 
 ## A small city in a very rural county
 
 Census 2021 figures for Herefordshire and for four of its middle-layer areas named by the House of Commons Library, from the Office for National Statistics on Nomis.
 
-**Herefordshire and four of its areas, Census 2021**
-
 | Area | Usual residents | Residents per square kilometre |
-|---|---|---|
+| --- | --- | --- |
 | Herefordshire | 187,034 | 85.8 |
 | Hereford Central | 9,767 | 3,059.5 |
 | Hereford South West | 7,862 | 4,782.5 |
@@ -65,6 +51,8 @@ People aged 20 to 24 were 4.4% of residents, and 28,366 of the 178,605 aged five
 
 Our Hereford groups draw on the whole county. In a typical week we might teach an eight-year-old from Leominster building a first game, a Hereford sixteen-year-old revising for GCSE Computer Science and a Ledbury adult learning Python for the office, every one of them in a small group pitched at their level.
 
+The Mappa Mundi
+
 ## The world as it was understood around 1300
 
 From Hereford Cathedral's Mappa Mundi pages and the Mappa Mundi website.
@@ -83,16 +71,18 @@ The cathedral's Chained Library holds about 1,500 books, from around 800 AD to t
 
 The map carries about 500 drawings, including around 420 cities and towns, and records how its makers understood the world in spiritual as well as geographical terms. We have no connection with Hereford Cathedral, Herefordshire Council or the Met Office. The Mappa Mundi belongs on this page because every map is a model, a working estimate of the world from the evidence to hand, and that is exactly what a Kalman filter keeps, one month at a time.
 
-**Where the temperatures come from** The Met Office publishes historic station data for Ross-on-Wye, at 67 metres above sea level, as monthly maximum and minimum temperatures, frost days, rainfall and sunshine from December 1930, with estimated and provisional values marked.
+Where the temperatures come from
+
+The Met Office publishes historic station data for Ross-on-Wye, at 67 metres above sea level, as monthly maximum and minimum temperatures, frost days, rainfall and sunshine from December 1930, with estimated and provisional values marked.
+
+Signature project
 
 ## How warm is it really, underneath the noise?
 
 A Kalman filter holds two things: a current estimate of a hidden quantity, and how uncertain that estimate is. Each month it predicts, compares the prediction with the new reading, and moves part of the way towards it.
 
-**Ross-on-Wye monthly mean temperature, 1,149 months: how well each method predicts the next month's departure from the 1961 to 1990 average (root mean square error, degrees Celsius)**
-
 | Prediction for next month | Typical error |
-|---|---|
+| --- | --- |
 | Long-term average (no change) | 1.549 |
 | Same as this month | 1.704 |
 | Average of the last 12 months | 1.411 |
@@ -116,14 +106,14 @@ The filter never gives a bare number. In December 2025 the underlying level was 
 
 Why not just average the last twelve months? It is simple and does nearly as well at prediction, 1.411 against 1.376, but it gives no uncertainty and reacts to every month in its window equally. The Kalman estimate is also calmer: from one month to the next it moves by a typical 0.090 degrees, against 0.162 for the twelve-month mean. The latest months of 2026 are marked provisional by the Met Office, so the most recent estimates may shift slightly when they are finalised.
 
+Estimation in practice
+
 ## Five questions before trusting a running estimate
 
 Learned on Herefordshire weather, then used in satellite navigation, phone location, robots, self-driving cars and economic tracking.
 
-**Choices behind a Kalman filter**
-
 | Question | For Ross-on-Wye | What goes wrong if you skip it |
-|---|---|---|
+| --- | --- | --- |
 | What is the hidden state? | The underlying temperature level | Filtering something nobody defined |
 | What is noise and what is change? | Sizes tuned by maximum likelihood | A filter that is jumpy or asleep |
 | How are the seasons handled? | Removed using a 1961 to 1990 baseline | Summer read as warming |
@@ -146,14 +136,37 @@ Tracking noisy measurements at work with a running estimate and an honest uncert
 
 We are not connected with the Met Office, Hereford Cathedral or Herefordshire Council. The temperatures and census tables are published openly; the anomalies, filtering and predictions on this page are our own work.
 
+Learning ladder
+
 ## From noisy clues to a Kalman filter
 
 The ages are only a guide; the free lesson decides where each learner starts.
 
-- **Ages 6 to 10: Sensible guesses** Hidden-number games with noisy clues, where a sensible guess changes a little at a time. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 11 to 13: Running averages** Calculating averages that update as new readings arrive, in Python, and seeing how they smooth a wobbly line. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Kalman filtering** Predict and update steps, the gain, uncertainty bands and tuning on real Met Office data. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Tracking at work** Running estimates for noisy data, with uncertainty reported and the method tested against simple rules. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data Science Course](/courses/data-science-complete-masterclass-college)
+Ages 6 to 10
+
+### Sensible guesses
+
+Hidden-number games with noisy clues, where a sensible guess changes a little at a time.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 11 to 13
+
+### Running averages
+
+Calculating averages that update as new readings arrive, in Python, and seeing how they smooth a wobbly line.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Kalman filtering
+
+Predict and update steps, the gain, uncertainty bands and tuning on real Met Office data.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Tracking at work
+
+Running estimates for noisy data, with uncertainty reported and the method tested against simple rules.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data Science Course](/courses/data-science-complete-masterclass-college)Coding and AI
 
 ## Phones and spacecraft use Kalman filters. Why should a Hereford teenager build one for the weather?
 
@@ -165,30 +178,139 @@ The uncertainty band is the lesson that transfers furthest. An AI tool that give
 
 So a Hereford teenager should keep learning to code in 2026, in the city that keeps a medieval map of the known world: machines can estimate almost anything, but someone has to ask how sure they are. The longer argument is in [why coding is worth learning in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Hereford, Leominster or Bromyard, without the drive
 
 Herefordshire is large and rural, with a city at its centre and market towns spread across it. Online, every one of them is the same distance from the lesson.
 
-- **City and market towns** A learner in Hereford and another near Kington can share a class, with no long journey on country roads.
-- **Matched to school years** Herefordshire pupils will recognise our levels, which follow the English curriculum from the early years right up to GCSE and A level, taught entirely in English.
-- **Teaching from lesson one** Nothing about the free session is a sales pitch: the learner tackles a proper task, then we recommend a level, a course and a regular time, all without card details.
-- **Classmates at your stage** Each class brings together fifteen to twenty learners at the same point, from Herefordshire, the rest of Britain and further afield, which keeps sensible times open at every level.
-- **Same days, every week** Learners keep two fixed lesson days a week, close to eight lessons a month, and families and teachers agree early how to handle half terms and exam weeks.
-- **Evening across two clocks** When a lesson starts at 5 pm in Hereford it is 9.30 pm for our teachers in summer and 10.30 pm in winter, as India keeps one time all year; they plan their evenings for UK learners.
+### City and market towns
 
-**Across the Marches** Families in Monmouth, Abergavenny, Ludlow or Malvern join exactly the same classes, since every group is online and formed by level.
+A learner in Hereford and another near Kington can share a class, with no long journey on country roads.
+
+### Matched to school years
+
+Herefordshire pupils will recognise our levels, which follow the English curriculum from the early years right up to GCSE and A level, taught entirely in English.
+
+### Teaching from lesson one
+
+Nothing about the free session is a sales pitch: the learner tackles a proper task, then we recommend a level, a course and a regular time, all without card details.
+
+### Classmates at your stage
+
+Each class brings together fifteen to twenty learners at the same point, from Herefordshire, the rest of Britain and further afield, which keeps sensible times open at every level.
+
+### Same days, every week
+
+Learners keep two fixed lesson days a week, close to eight lessons a month, and families and teachers agree early how to handle half terms and exam weeks.
+
+### Evening across two clocks
+
+When a lesson starts at 5 pm in Hereford it is 9.30 pm for our teachers in summer and 10.30 pm in winter, as India keeps one time all year; they plan their evenings for UK learners.
+
+Across the Marches
+
+Families in Monmouth, Abergavenny, Ludlow or Malvern join exactly the same classes, since every group is online and formed by level.
+
+Fees
 
 ## Hereford lesson fees
 
 The first lesson is free; after that there is one monthly fee.
 
-- First class: USD 0. A whole lesson at no charge, ending with our suggestion for level, course and weekly time.
-- Group tuition: USD 100 a month. About eight live lessons a month, in a group of fifteen to twenty learners at the same stage.
-- Private tuition: USD 150 a month. About eight live lessons a month, with the teacher working with your learner alone.
+First class**USD 0**
+
+A whole lesson at no charge, ending with our suggestion for level, course and weekly time.
+
+Group tuition**USD 100**
+
+About eight live lessons a month, in a group of fifteen to twenty learners at the same stage.
+
+Private tuition**USD 150**
+
+About eight live lessons a month, with the teacher working with your learner alone.
 
 Families in Ross-on-Wye or the Golden Valley pay in US dollars, like every family outside India, and there is no pound price anywhere on our site. There is no bill until after the free lesson and the choice of a course and weekly time; how pauses, missed lessons and switches between group and one-to-one teaching work is set out on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20we%20have%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Hereford%3F)Reviews
+
+## Six family reviews from Google, unaltered
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson for a Hereford learner
+
+The first task is chosen for the learner: a noisy-clues guessing game for a young child, a short Python program that keeps a running average for a beginner, or ninety-five years of Ross-on-Wye temperatures and a Kalman filter for a teenager ready for real data.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Hereford one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20we%20have%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Hereford%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Hereford coding class questions
+
+The questions Hereford families ask us most.
 
 ### How many people live in Herefordshire?
 
@@ -230,10 +352,14 @@ The first lesson is free. After that, a group place is USD 100 a month for two l
 
 By level, pace and goals rather than age or address, with fifteen to twenty learners at one stage. If no group fits the learner's week, one-to-one lessons are offered.
 
+Explore England and the UK
+
 ## The Marches and beyond
 
 Up the road, the [Worcester page](/best-coding-class-in-worcester) finds the shortest route across the city with A* search, and [Winchester](/best-coding-class-in-winchester) runs a simpler recursive filter, a cousin of this one, along its river. [Dundee](/best-coding-class-in-dundee) tests forecasts against plain baselines. For how our levels map onto English schooling, read the [England guide](/coding-and-ai-classes-in-england); every other city is reached from the [UK coding page](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20we%20have%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Hereford%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-hereford](https://learn.modernagecoders.com/best-coding-class-in-hereford#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-hereford*

@@ -12,7 +12,7 @@ THE LA MARTINIERE BELT · ELGIN ROAD · KOLKATA 700020
 
 Modern Age Coders runs premium, live online coding and mathematics classes for families near Elgin Road, Kolkata, the La Martiniere belt around Netaji Bhawan, Forum and AJC Bose Road. Batches have 15–20 students, every class is taught live by full-time engineers and maths graduates, and the work is project-based, not pre-recorded. It is built to challenge La Martiniere, Loreto House and St. Xavier's children who are already ahead of their grade.
 
-Live · never pre-recordedBatches of 6–8ICSE · CBSE · ISC · IGCSEFree demo, zero commitment[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)6–8students per live batch90 mindaily commute saved₹1,499per month, group plan100%live, full-time engineersAT A GLANCE
+Live · never pre-recordedBatches of 15–20ICSE · CBSE · ISC · IGCSEFree demo, zero commitment[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)15–20students per live batch90 mindaily commute saved₹1,499per month, group plan100%live, full-time engineersAT A GLANCE
 
 ## The programme in one screen
 

@@ -4,34 +4,28 @@ description: "Live Java classes in the UK for teens and adults: which A level bo
 canonical: https://learn.modernagecoders.com/java-classes-uk
 source: src/pages/java-classes-uk.html
 ---
-> Java is rarely a GCSE exam language in the UK: AQA's GCSE uses C#, Python 3 or VB.NET, while Edexcel, Eduqas and WJEC use Python, and only OCR accepts written answers in whichever high-level language a student is familiar with. At A level, Java becomes an option: AQA supports C#, Java, Python and VB.Net; WJEC's AS Unit 2 and the Eduqas AS on-screen component support Python, Visual Basic.NET or Java; and Cambridge International AS and A Level 9618 requires Java, Visual Basic or Python, in console mode, for Paper 4, worth 25% of the A Level. Some students therefore switch from Python to Java at 16. Modern Age Coders teaches Java live and online to UK teenagers and adults, from first programs to object-oriented design, collections and algorithms, with console-mode practice for students on those boards. We never work on NEA projects or assessed code. The first class is free; afterwards a group place is USD 100 a month and one-to-one lessons USD 150 a month.
+> Live Java classes in the UK for teens and adults: which A level boards let you sit programming in Java, the jump from GCSE Python, and OOP done properly.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Java classes
+In short
 
-UK · Teens and adults · Live online
+Java is rarely a GCSE exam language in the UK: AQA's GCSE uses C#, Python 3 or VB.NET, while Edexcel, Eduqas and WJEC use Python, and only OCR accepts written answers in whichever high-level language a student is familiar with. At A level, Java becomes an option: AQA supports C#, Java, Python and VB.Net; WJEC's AS Unit 2 and the Eduqas AS on-screen component support Python, Visual Basic.NET or Java; and Cambridge International AS and A Level 9618 requires Java, Visual Basic or Python, in console mode, for Paper 4, worth 25% of the A Level. Some students therefore switch from Python to Java at 16. Modern Age Coders teaches Java live and online to UK teenagers and adults, from first programs to object-oriented design, collections and algorithms, with console-mode practice for students on those boards. We never work on NEA projects or assessed code. The first class is free; afterwards a group place is USD 100 a month and one-to-one lessons USD 150 a month.
 
-# Java classes in the UK
-
-In UK schools, Java arrives late. No GCSE board in England or Wales runs its programming paper in Java: AQA's GCSE works in C#, Python 3 or VB.NET, and Edexcel, Eduqas and WJEC all set their programming work in Python. OCR is the partial exception, because its GCSE lets written algorithm answers use "the high-level programming language they are familiar with". At A level the picture turns round. AQA supports C#, Java, Python and VB.Net for its on-screen paper; WJEC's Unit 2 in Wales and the Eduqas AS in England both offer Java alongside Python and Visual Basic.NET; and Cambridge International's 9618 Paper 4 is sat in Java, Visual Basic or Python, all in console mode. So a student who learned Python for GCSE may meet Java at 16, sometimes as the language of an exam worth a quarter of the A level. This page is built around that crossing, and also serves adults who want Java for university or work.
-
-At a glance: GCSE boards using Java: None for the programming paper; OCR GCSE: Written answers in a familiar language; AQA A level: C#, Java, Python or VB.Net; WJEC and Eduqas AS: Python, VB.NET or Java on screen; Cambridge 9618 Paper 4: Java, VB or Python, console mode; For: Teens 13 to 18 and adults; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three ways into Java
 
 Java for teenagers, Java for adults, and the Cambridge International A Level course. Each card opens the full syllabus.
 
-- [Java for Teens](/courses/java-programming-masterclass-for-teens): From first programs to object-oriented design, JavaFX, data structures and a capstone, for ages 13 to 18.
-- [Java for Adults](/courses/complete-java-programming-masterclass-college): Core Java to Spring Boot, for university students, graduates and working professionals.
-- [Cambridge 9618 Computer Science](/courses/cambridge-a-level-computer-science-9618-course): All four papers, including the practical Paper 4 that Cambridge sits in Java, Visual Basic or Python.
+[![Java for Teens course thumbnail](/images/java-teens.webp)  JVU / 01 Java for Teens From first programs to object-oriented design, JavaFX, data structures and a capstone, for ages 13 to 18. Open the syllabus →](/courses/java-programming-masterclass-for-teens)[![Java Course for College course thumbnail](/images/java-college.webp)  JVU / 02 Java for Adults Core Java to Spring Boot, for university students, graduates and working professionals. Open the syllabus →](/courses/complete-java-programming-masterclass-college)[![Cambridge AS and A Level Computer Science 9618 Course course thumbnail](/images/a-level-computer-science.webp)  JVU / 03 Cambridge 9618 Computer Science All four papers, including the practical Paper 4 that Cambridge sits in Java, Visual Basic or Python. Open the syllabus →](/courses/cambridge-a-level-computer-science-9618-course)
+
+Java in UK exams
 
 ## Which UK exams let you answer in Java
 
 Read from each board's own specification. The languages are the ones a centre may choose for the programming paper or practical tasks; schools pick one at the start of the course.
 
-**Programming languages by qualification, as each board publishes them**
-
 | Qualification | Languages for the programming paper or tasks | Java? |
-|---|---|---|
+| --- | --- | --- |
 | AQA GCSE (8525) | C#, Python 3 or VB.NET | No |
 | Edexcel GCSE (1CP2) | Python 3, on screen | No |
 | Eduqas GCSE | Python 3, on screen | No |
@@ -57,14 +51,14 @@ Cambridge International is the strictest: for Paper 4, "Candidates will be requi
 
 Sources, read 21 September 2026 from each board's PDF: [AQA 8525](https://www.aqa.org.uk/subjects/computer-science/gcse/computer-science-8525); [AQA 7517](https://www.aqa.org.uk/subjects/computer-science/a-level/computer-science-7517); [OCR J277](https://www.ocr.org.uk/qualifications/gcse/computer-science-j277-from-2020/); [OCR H446](https://www.ocr.org.uk/qualifications/as-and-a-level/computer-science-h046-h446-from-2015/); [Eduqas AS and A level](https://www.eduqas.co.uk/qualifications/computer-science-asa-level/); [WJEC GCE Computer Science](https://www.wjec.co.uk/media/wl4kj5l1/wjec-gce-computer-science-spec-from-2015.pdf); [Cambridge International 9618, 2027 to 2029](https://www.cambridgeinternational.org/Images/721397-2027-2029-syllabus.pdf). Check your own school's choice; the board permits, the centre decides.
 
+From Python to Java
+
 ## The jump at 16: what changes when a Python student meets Java
 
 Most of the thinking carries over. What changes is how much the language makes you say out loud.
 
-**Python habits and their Java equivalents**
-
 | In Python you could | In Java you must | Why it helps in the end |
-|---|---|---|
+| --- | --- | --- |
 | Create a variable by assigning to it | Declare its type first, such as int, double or String | Type errors are caught before the program runs |
 | Write a script at the top level | Put everything inside a class, starting from main | Structure is visible from the first line |
 | Use indentation to mark blocks | Use braces and semicolons | Layout mistakes stop being logic mistakes |
@@ -86,6 +80,8 @@ We never write, debug or review NEA projects, WJEC or Eduqas practical tasks, or
 
 Our pages on [AQA A level](/aqa-a-level-computer-science-7517-help), [OCR A level](/ocr-a-level-computer-science-h446-help) and the [A level NEA](/a-level-computer-science-nea-help) set out those lines board by board.
 
+Objects, properly
+
 ## Object-oriented design is where Java earns its place
 
 Java was designed around classes and objects, which makes it a natural language for learning them, and A level specifications expect students to understand them.
@@ -102,10 +98,8 @@ Private fields with public methods, and why hiding data makes programs easier to
 
 Building one class from another, overriding methods, and treating related objects through a shared type.
 
-**How our Java for Teens course is sequenced**
-
 | Months | Focus |
-|---|---|
+| --- | --- |
 | 1 to 3 | First programs, arrays, methods, strings and files, then object-oriented programming |
 | 4 to 6 | Collections and modern Java, desktop apps with JavaFX, games and Minecraft modding |
 | 7 to 8 | Data structures built from scratch, then graphs, recursion and threads |
@@ -113,14 +107,14 @@ Building one class from another, overriding methods, and treating related object
 
 Students preparing for an A level do not need every month of that course, and the free first class decides which parts matter. The same objects-first approach runs through our [understand the code](/understand-the-code-dont-copy-paste-uk) teaching: every class a student writes, they should be able to explain.
 
+Java for adults
+
 ## Java for university, work and career change
 
 Outside school exams, Java is a mainstream language for server-side software, Android's history, and large organisations' systems.
 
-**Adult routes into Java**
-
 | You are | A sensible route |
-|---|---|
+| --- | --- |
 | A university student meeting Java in a module | Core Java alongside the module, with separate practice problems |
 | A graduate preparing for technical interviews | Java plus data structures and algorithms |
 | A professional moving into back-end development | Core Java, then Spring Boot and databases |
@@ -139,14 +133,14 @@ Modern Android development leans on Kotlin, which runs on the same platform as J
 
 For degree apprenticeships, where software roles are common, see [coding before a degree apprenticeship](/coding-before-a-degree-apprenticeship-uk).
 
+Stages
+
 ## Four stages in Java
 
 Placement follows what you can already do, in any language.
 
-**From first class to confident object-oriented Java**
-
 | Stage | What should be true |
-|---|---|
+| --- | --- |
 | 1. Syntax and types | You write, compile and run console programs with the right types, without looking everything up |
 | 2. Methods and arrays | You break programs into methods and work with arrays, strings and files |
 | 3. Objects | You design classes with encapsulation and use inheritance where it genuinely helps |
@@ -155,63 +149,293 @@ Placement follows what you can already do, in any language.
 ### Stage three is the heart of it
 
 Objects are where Java differs most from a first Python course.
+
 The wider sequence of subjects is on the [coding roadmap](/coding-roadmap).
 
 ### Exam students
 
 For A level candidates, console-mode practice runs through every stage.
+
 Nothing in a lesson overlaps with a project you will submit.
+
+The catalogue
 
 ## Nine courses around Java
 
 Java itself, the exam and interview work around it, and where it leads.
 
+I
+
 ### Java itself
 
 By age
 
-- [Java for Teens](/courses/java-programming-masterclass-for-teens): Ages 13 to 18, from first programs to a capstone.
-- [Java for Adults](/courses/complete-java-programming-masterclass-college): Core Java to Spring Boot, for 18 and over.
-- [Python for Teens](/courses/python-complete-masterclass-teens): For students who need the GCSE language first.
+JVU / CORE / 01
+
+#### Java for Teens
+
+Ages 13 to 18, from first programs to a capstone.
+
+[Open the syllabus](/courses/java-programming-masterclass-for-teens)
+
+JVU / CORE / 02
+
+#### Java for Adults
+
+Core Java to Spring Boot, for 18 and over.
+
+[Open the syllabus](/courses/complete-java-programming-masterclass-college)
+
+JVU / CORE / 03
+
+#### Python for Teens
+
+For students who need the GCSE language first.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)II
 
 ### Exams and interviews
 
 Where Java is assessed
 
-- [Cambridge 9618](/courses/cambridge-a-level-computer-science-9618-course): All four papers, including Paper 4.
-- [Problem Solving and DSA for Teens](/courses/problem-solving-dsa-masterclass-teens): Algorithms at A level depth.
-- [Data Structures and Algorithms](/courses/data-structures-algorithms-masterclass-college): Interview-ready, for adults.
+JVU / EXAM / 01
+
+#### Cambridge 9618
+
+All four papers, including Paper 4.
+
+[Open the syllabus](/courses/cambridge-a-level-computer-science-9618-course)
+
+JVU / EXAM / 02
+
+#### Problem Solving and DSA for Teens
+
+Algorithms at A level depth.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
+
+JVU / EXAM / 03
+
+#### Data Structures and Algorithms
+
+Interview-ready, for adults.
+
+[Open the syllabus](/courses/data-structures-algorithms-masterclass-college)III
 
 ### Where Java leads
 
 Beyond the language
 
-- [App Development](/courses/complete-app-development-masterclass-college): Flutter, iOS and Android, including Kotlin.
-- [MySQL Databases](/courses/mysql-database-complete-masterclass-college): The data layer behind most Java services.
-- [Git and GitHub](/courses/git-github-version-control-course-for-college-students): How Java teams share and review code.
+JVU / NEXT / 01
+
+#### App Development
+
+Flutter, iOS and Android, including Kotlin.
+
+[Open the syllabus](/courses/complete-app-development-masterclass-college)
+
+JVU / NEXT / 02
+
+#### MySQL Databases
+
+The data layer behind most Java services.
+
+[Open the syllabus](/courses/mysql-database-complete-masterclass-college)
+
+JVU / NEXT / 03
+
+#### Git and GitHub
+
+How Java teams share and review code.
+
+[Open the syllabus](/courses/git-github-version-control-course-for-college-students)
+
+How lessons run
 
 ## Live Java lessons on UK time
 
 Our teachers are based in India, which does not change its clocks, so the UK is four and a half hours behind India in British Summer Time and five and a half in winter. After-school, evening and weekend slots in UK time all work.
 
-- **After school** For sixth formers and younger students.
-- **Evening** For adults after work.
-- **Weekend** Longer sessions for project work.
+After school
 
-- **A free first class** We check what you know, in any language, and where Java fits for you.
-- **Groups** Fifteen to twenty learners at the same level and age band.
-- **One to one** For exam timetables or a faster pace.
-- **Console first** Plain console programs before any graphical framework.
-- **Code read closely** A teacher reads your Java and explains what to change and why.
-- **No assessed work** NEA and practical tasks for exam boards are never touched.
+For sixth formers and younger students.
+
+Evening
+
+For adults after work.
+
+Weekend
+
+Longer sessions for project work.
+
+### A free first class
+
+We check what you know, in any language, and where Java fits for you.
+
+### Groups
+
+Fifteen to twenty learners at the same level and age band.
+
+### One to one
+
+For exam timetables or a faster pace.
+
+### Console first
+
+Plain console programs before any graphical framework.
+
+### Code read closely
+
+A teacher reads your Java and explains what to change and why.
+
+### No assessed work
+
+NEA and practical tasks for exam boards are never touched.
+
+Student work
+
+## Projects our students have built
+
+Four projects finished by our students. Many more, across all ages and languages, are in [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees for Java classes
 
 A single monthly fee in US dollars, identical outside India, with no enrolment fee and no commitment beyond the month you are in.
 
-- Free first class: USD 0. Your current level, in any language. A route into Java that fits your goal. No payment details needed.
-- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher each week. Console practice and projects. Stop at the end of any month.
-- One to one: USD 150 a month. A teacher for you alone. Paced around your exams or work. Suits a board-specific focus.
+Free first class
+
+USD 0
+
+no card required
+
+- Your current level, in any language
+- A route into Java that fits your goal
+- No payment details needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners at one level
+- The same teacher each week
+- Console practice and projects
+- Stop at the end of any month
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for you alone
+- Paced around your exams or work
+- Suits a board-specific focus
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Straight from Google: reviews by our students and their families, unedited.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about Java
 
 ## What UK students and adults ask about Java
 
@@ -255,15 +479,54 @@ The first class is free. After that, USD 100 a month for a group place or USD 15
 
 After school, evenings or weekends in UK time, agreed in the free class. Our teachers are four and a half hours ahead of the UK in summer and five and a half in winter.
 
+Elsewhere on this site
+
 ## Related pages
 
-- [AQA A level Computer Science](/aqa-a-level-computer-science-7517-help): The skeleton program, in whichever language your school chose.
-- [OCR A level Computer Science](/ocr-a-level-computer-science-h446-help): Where nobody types code in the exam.
-- [Python classes online](/best-python-classes-online-uk): The GCSE language, taught properly.
-- [Coding for university students](/coding-for-university-students-uk): Java and more, alongside a degree.
-- [Coding before a degree apprenticeship](/coding-before-a-degree-apprenticeship-uk): The software route into work.
-- [Coding classes in the UK](/coding-classes-in-united-kingdom): Every UK page.
+The exam boards, the other big languages, and the projects around them.
 
-## Contact
+### [AQA A level Computer Science](/aqa-a-level-computer-science-7517-help)
 
-Book the free first class at [https://learn.modernagecoders.com/java-classes-uk](https://learn.modernagecoders.com/java-classes-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The skeleton program, in whichever language your school chose.
+
+### [OCR A level Computer Science](/ocr-a-level-computer-science-h446-help)
+
+Where nobody types code in the exam.
+
+### [Python classes online](/best-python-classes-online-uk)
+
+The GCSE language, taught properly.
+
+### [Coding for university students](/coding-for-university-students-uk)
+
+Java and more, alongside a degree.
+
+### [Coding before a degree apprenticeship](/coding-before-a-degree-apprenticeship-uk)
+
+The software route into work.
+
+### [Coding classes in the UK](/coding-classes-in-united-kingdom)
+
+Every UK page.
+
+Start here
+
+## Book a free first Java class
+
+Leave a number and we will call at a UK time that suits you. Tell us your board, or your goal if you are an adult; the class checks your level and ends with a route through Java.
+
+Prefer to read first? Each [course page](/courses) sets out its syllabus, [how we teach](/how-we-teach) covers the method, and [student labs](/student-labs) collects finished work.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20first%20Java%20class%20in%20the%20UK.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp from a UK number usually gets the quickest reply. The team is in India, so our number starts +91, and there is no UK office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/java-classes-uk*

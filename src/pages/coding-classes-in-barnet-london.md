@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths classes for Barnet: Finch
 canonical: https://learn.modernagecoders.com/coding-classes-in-barnet-london
 source: src/pages/coding-classes-in-barnet-london.html
 ---
-> Barnet is the north London borough of Finchley, Hendon, Edgware, Golders Green, Mill Hill and High Barnet, home to 389,344 people at the 2021 Census, with Hampstead Garden Suburb inside it and the M1 and A1 running through. A class worth joining here should teach a learner to build a simple model and test it against the real world, and this page's project does that with traffic: a few lines of code that grow jams out of nothing, compared with sensors on the M1 in Barnet. Learners aged 6 to 67 meet their teacher, who is based in India, on a live video call, either alone or in a class of fifteen to twenty at one level. Trying it costs nothing; carrying on costs USD 100 each month in a class, or USD 150 each month one to one.
+> Live online coding, Python, AI and maths classes for Barnet: Finchley, Hendon, Edgware, Golders Green, Mill Hill and High Barnet, ages 6 to 67. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Barnet
-
-London Borough of Barnet / Live online
-
-# Coding classes in Barnet
-
-**What are the best coding classes in Barnet?** Barnet is the north London borough of Finchley, Hendon, Edgware, Golders Green, Mill Hill and High Barnet, home to 389,344 people at the 2021 Census, with Hampstead Garden Suburb inside it and the M1 and A1 running through. A class worth joining here should teach a learner to build a simple model and test it against the real world, and this page's project does that with traffic: a few lines of code that grow jams out of nothing, compared with sensors on the M1 in Barnet. Learners aged 6 to 67 meet their teacher, who is based in India, on a live video call, either alone or in a class of fifteen to twenty at one level. Trying it costs nothing; carrying on costs USD 100 each month in a class, or USD 150 each month one to one.
-
-Everyone who drives the M1 into London has sat in a queue that seemed to have no cause: no crash, no roadworks, and then suddenly the road is clear again. Our learners build the simplest explanation there is. Picture a ring road divided into car-length boxes. Each second, every car speeds up if it can, slows to keep a safe gap, and now and then brakes a little for no reason at all. Four rules, a few lines of code. With perfect drivers the road carries up to 2,880 cars an hour and nobody stops until it is nearly full. Add that occasional pointless tap on the brake and the road jams at barely half that density, with cars standing still and no obstacle anywhere. Then learners open National Highways' sensor data for the M1 in Barnet and find the same rise and fall in real traffic.
-
-Facts last verified 25 September 2026. Teaching is online; no Barnet branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Barnet
 
 ## Four courses for Barnet learners
 
 Think of a Year 2 child in Mill Hill who lines up toy cars in queues, a Year 9 pupil in Finchley who asks why traffic stops for no reason, a Year 12 student in Edgware considering engineering or economics, and a commuter in Golders Green who would like to model their own journey. Each can begin with a free lesson.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): A Scratch road where each car follows a simple rule, the youngest way to see big patterns grow from small rules.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 9 to 12): First Python with lists and loops: a row of cars that move one step at a time, and a count of how many pass.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Python for Key Stages 3 to 5, with this page's traffic model and real M1 sensor data from Barnet.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): For grown-ups who work with forecasts and want to see how a simple model can explain a messy system.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsA Scratch road where each car follows a simple rule, the youngest way to see big patterns grow from small rules.See the syllabus](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 9 to 12Python and AI for KidsFirst Python with lists and loops: a row of cars that move one step at a time, and a count of how many pass.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensPython for Key Stages 3 to 5, with this page's traffic model and real M1 sensor data from Barnet.See the syllabus](/courses/python-complete-masterclass-teens)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For grown-ups who work with forecasts and want to see how a simple model can explain a messy system.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Barnet in figures
 
 ## 389,344 people, 649 listed buildings and 66 traffic sensors
 
 Every figure is published by the body named alongside it, or counted by us from its data.
 
-**Five facts about Barnet and where each is published**
-
 | Fact | Figure | Publisher |
-|---|---|---|
+| --- | --- | --- |
 | Usual residents, 2021 Census | 389,344 | ONS Census table TS001, through Nomis |
 | National Heritage List entries inside the borough | 649: 2 Grade I, 34 Grade II*, 613 Grade II | Historic England list data, counted 25 September 2026 |
 | National Highways traffic sensor sites inside the borough | 66, of which 13 active on the M1 and 5 on the A1 | WebTRIS site list, checked 25 September 2026 |
@@ -62,14 +48,14 @@ Several of Barnet's 34 Grade II* entries are houses on North Square and South Sq
 
 National Highways lists 66 traffic monitoring sites inside Barnet's boundary, most of them along the M1. Each records how many vehicles pass and how fast, every fifteen minutes.
 
+The data
+
 ## Where the traffic figures come from
 
 National Highways publishes readings from motorway sensors through a free service called WebTRIS. This is what one site in Barnet offers.
 
-**WebTRIS sites inside Barnet, by road and status**
-
 | Road | Active sites | Inactive sites |
-|---|---|---|
+| --- | --- | --- |
 | M1 | 13 | 45 |
 | A1 | 5 | 2 |
 | Other | 0 | 1 |
@@ -77,6 +63,8 @@ National Highways publishes readings from motorway sensors through a free servic
 We use site M1/2116B, on the southbound M1 and inside the borough boundary by our check, because its March 2025 record is nearly complete: 2,962 of 2,972 fifteen-minute slots carry a count and an average speed. Later months returned empty rows when we asked on 25 September 2026, so the page uses March 2025 and says so. For the learner, the data is a single download and a spreadsheet's worth of rows.
 
 We would normally list the borough's libraries here too. Barnet Council's website answered our automated reader with a bot-protection page, and we do not try to get round such checks, so this page gives no library list; the council's own site is the place to find one.
+
+Signature project
 
 ## Traffic jams from nowhere: four rules and a ring road
 
@@ -94,10 +82,8 @@ Speed up by one if below the limit. Slow down so as not to hit the car ahead. Wi
 
 Try more and more cars, and for each density measure the flow, the number of cars an hour passing any point, and how many are stopped.
 
-**Our run, 25 September 2026: one lane, flow in cars an hour**
-
 | Cars per mile | Perfect drivers: flow | Random braking p = 0.3: flow | Random braking: cars stopped |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 6.4 | 540 | 507 | 0% |
 | 17.2 | 1,440 | 1,343 | 0% |
 | 21.5 | 1,800 | 1,648 | 0.4% |
@@ -112,14 +98,14 @@ With perfect drivers the road behaves as you would hope: flow grows steadily unt
 
 An assistant will write this simulation in a moment. What it cannot do for a learner is the part that makes it science: choosing to compare perfect drivers with imperfect ones, noticing that the jam needs no obstacle, and then checking the model against real sensor data before believing it. A learner who has done all three knows that a model is a claim to be tested, not an answer, which is true of every simulation in engineering, economics and climate science.
 
+Checking against the M1
+
 ## The same shape in real traffic: site M1/2116B, March 2025
 
 Each fifteen-minute reading gives a flow and an average speed; flow divided by speed gives the density. Grouping the readings by density shows the real road's curve.
 
-**M1/2116B southbound, March 2025, whole carriageway**
-
 | Vehicles per mile | Readings | Typical flow, vehicles an hour | Typical speed |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 0 to 20 | 1,546 | 450 | 50 mph |
 | 20 to 40 | 1,103 | 1,348 | 51 mph |
 | 40 to 60 | 79 | 2,080 | 47 mph |
@@ -130,6 +116,8 @@ Each fifteen-minute reading gives a flow and an average speed; flow divided by s
 The real road climbs and then falls just as the model does: as it fills beyond about 80 to 120 vehicles a mile, flow drops back and speeds collapse to a crawl, and in March 2025 about one fifteen-minute slot in twelve averaged under 40 mph. The numbers are not the same as the model's, and should not be: the sensor counts every lane of the carriageway together, and real drivers, lorries and junctions are messier than four rules. What matches is the shape, a road that carries less once it is too full, and that is the lesson.
 
 National Highways, Barnet Council, Historic England, TfL and the ONS supplied the data here and have no tie to Modern Age Coders. The readings belong to National Highways; turning them into densities, building the model and working out each percentage was done by us on 25 September 2026, with the random seed written down so anyone can rerun it.
+
+Getting around
 
 ## From High Barnet to Golders Green, and no motorway needed
 
@@ -147,16 +135,41 @@ A learner in Mill Hill and one in Golders Green can share a group from their own
 
 The traffic model shows how a road fills up. An online class never does: learners are placed in groups of fifteen to twenty by level.
 
-**Barnet and the rest of London** Barnet is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) lists every borough and the City, and links each as its page is published, including [Brent](/coding-classes-in-brent-london) and [Harrow](/coding-classes-in-harrow-london) to the west.
+Barnet and the rest of London
+
+Barnet is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) lists every borough and the City, and links each as its page is published, including [Brent](/coding-classes-in-brent-london) and [Harrow](/coding-classes-in-harrow-london) to the west.
+
+Learning ladder
 
 ## From one simple rule to a model tested on real data
 
 Where a learner starts depends on what they show us in the free lesson, not on the year group printed on their school report.
 
-- **Ages 6 to 10: Simple rules, big patterns** Children give sprites one rule each and watch lines, crowds and queues appear on their own. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 10 to 13: Lists that move** Python where a list of cars moves step by step, and a count shows how many get through. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 18: Simulate, then test** Cellular automata, random numbers with a seed and real sensor data, the core of a strong computing or maths project. [Python for Teens](/courses/python-complete-masterclass-teens), [Full Stack Web Development for Teens](/courses/full-stack-web-development-teens-masterclass)
-- **Ages 18 to 67: Models as claims** Adults learn to treat a forecast as a claim to test, and to compare it with data before acting on it. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### Simple rules, big patterns
+
+Children give sprites one rule each and watch lines, crowds and queues appear on their own.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 10 to 13
+
+### Lists that move
+
+Python where a list of cars moves step by step, and a count shows how many get through.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 18
+
+### Simulate, then test
+
+Cellular automata, random numbers with a seed and real sensor data, the core of a strong computing or maths project.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Full Stack Web Development for Teens](/courses/full-stack-web-development-teens-masterclass)Ages 18 to 67
+
+### Models as claims
+
+Adults learn to treat a forecast as a claim to test, and to compare it with data before acting on it.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## An AI can write a traffic simulation in seconds. Why should a Barnet teenager learn to build and test one?
 
@@ -168,30 +181,139 @@ A learner who has built this model and held it up against National Highways' dat
 
 Every useful model starts as someone's simple idea and survives only if it meets the data. A Barnet child who learns to code can be the one who builds that idea and has the discipline to test it. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## From Edgware to Finchley, lessons without a commute
 
 In every part of the borough, the lesson is as near as the nearest desk.
 
-- **Learn from home** Most learners join from home with a laptop or desktop, headphones and a steady connection.
-- **English school terms** We use the stages English schools use, from Key Stage 1 to sixth form, with GCSE and A level named plainly. All teaching is in English.
-- **A real first lesson** The free first lesson is genuine work with a teacher and ends with a recommendation of level and course, with no card needed.
-- **Level-matched groups** Classmates are chosen for being at the same stage, five to ten of them, drawn from well beyond Barnet so that a sensible hour is always available.
-- **Two sessions a week** A typical class runs two evenings a week and takes time off around half terms, holidays and exam season, by arrangement.
-- **UK times always** Teachers work from India; every invitation and reminder gives the time as it is in Barnet.
+### Learn from home
 
-**A big borough, one matched group** Barnet is home to nearly 390,000 people, yet a strong coding group still needs five learners at the same level and hour, so ours reach well beyond it.
+Most learners join from home with a laptop or desktop, headphones and a steady connection.
+
+### English school terms
+
+We use the stages English schools use, from Key Stage 1 to sixth form, with GCSE and A level named plainly. All teaching is in English.
+
+### A real first lesson
+
+The free first lesson is genuine work with a teacher and ends with a recommendation of level and course, with no card needed.
+
+### Level-matched groups
+
+Classmates are chosen for being at the same stage, five to ten of them, drawn from well beyond Barnet so that a sensible hour is always available.
+
+### Two sessions a week
+
+A typical class runs two evenings a week and takes time off around half terms, holidays and exam season, by arrangement.
+
+### UK times always
+
+Teachers work from India; every invitation and reminder gives the time as it is in Barnet.
+
+A big borough, one matched group
+
+Barnet is home to nearly 390,000 people, yet a strong coding group still needs five learners at the same level and hour, so ours reach well beyond it.
+
+Fees
 
 ## Fees for Barnet families
 
 The first lesson is free, then there is one monthly fee, the same across the borough.
 
-- First class: USD 0. A full first lesson with a teacher at no charge, ending with a suggested level, course and time.
-- Group tuition: USD 100 a month. Around eight live lessons a month, in a group of fifteen to twenty at the same stage.
-- Private tuition: USD 150 a month. Around eight live lessons a month, one teacher and one learner.
+First class**USD 0**
+
+A full first lesson with a teacher at no charge, ending with a suggested level, course and time.
+
+Group tuition**USD 100**
+
+Around eight live lessons a month, in a group of fifteen to twenty at the same stage.
+
+Private tuition**USD 150**
+
+Around eight live lessons a month, one teacher and one learner.
 
 Families in Finchley, Hendon or anywhere in Barnet pay in US dollars, as do all families outside India; the site carries no pound prices. No money changes hands before the free lesson has happened and you have picked a course and a weekly time. How pauses, missed classes and a switch from group to private lessons work is written up on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Barnet.)Reviews
+
+## In their own words: six Google reviews from families
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us about your learner
+
+Tell us roughly how old they are or which year they are in, and something they like doing. We might start with a Scratch road of cars, a first Python loop, or the traffic model described above.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Barnet one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Barnet.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Barnet coding class questions
+
+About the borough, the traffic project and our lessons.
 
 ### How many people live in Barnet?
 
@@ -233,10 +355,14 @@ The first lesson is free. After that, a group place costs USD 100 a month for tw
 
 By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
 
+Explore London
+
 ## Across London, and the rest of the UK
 
 All 32 boroughs and the City are gathered on the [London page](/best-coding-class-in-london), each linked as its page appears, from [Redbridge](/coding-classes-in-redbridge-london) in the east to [Ealing](/coding-classes-in-ealing-london) in the west. Teenagers drawn to machine learning can look at our [London AI classes](/ai-and-machine-learning-classes-in-london), while families comparing England with Scotland, Wales or Northern Ireland will find each system on the [UK coding page](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Barnet.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-barnet-london](https://learn.modernagecoders.com/coding-classes-in-barnet-london#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-barnet-london*

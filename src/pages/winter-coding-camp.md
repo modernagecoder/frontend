@@ -16,7 +16,7 @@ No School Distractions3-Week Intensive5 Deployable ProjectsStudents from 25+ Cou
 
 The most immersive 8-class one-to-one online coding bootcamp, accessible from **anywhere in the world**. Master AI, Games, and App Development during your winter break.
 
-[Reserve Your Seat](/book-demo)View Curriculum**8 One-to-One Classes**Live & Interactive**5 Projects**Portfolio-Ready**Worldwide**100% Online**Max 8**Students / BatchThe Journey
+[Reserve Your Seat](/book-demo)View Curriculum**8 One-to-One Classes**Live & Interactive**5 Projects**Portfolio-Ready**Worldwide**100% Online**Max 20**Students / BatchThe Journey
 
 ## Your Winter Journey
 

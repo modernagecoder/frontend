@@ -4,56 +4,40 @@ description: "Live online vibe coding and AI agent classes for teenagers and adu
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-lake-macquarie-newcastle
 source: src/pages/vibe-coding-and-ai-agents-classes-in-lake-macquarie-newcastle.html
 ---
-> Because an AI model has no clock. Unless the date is passed in, "last month" means whatever the model assumes now is. Our live online lessons teach agent building with that in mind. The Lake Macquarie council area had 213,845 residents at the 2021 Census.
+> Live online vibe coding and AI agent classes for teenagers and adults across Lake Macquarie, plus Scratch and Python for children from six, in groups or one to one.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [New South Wales](/coding-and-ai-classes-in-new-south-wales) / [Newcastle](/online-coding-and-python-classes-in-newcastle-nsw) / Lake Macquarie
-
-Lake Macquarie City Council, Hunter, New South Wales / Live online
-
-# Vibe coding and AI agent classes in Lake Macquarie
-
-**Why would an AI agent give Lake Macquarie figures for the wrong month?** Because an AI model has no clock. Unless the date is passed in, "last month" means whatever the model assumes now is. Our live online lessons teach agent building with that in mind. The Lake Macquarie council area had 213,845 residents at the 2021 Census.
-
-We asked an agent which Lake Macquarie railway station had the most entries last month. It answered quickly and confidently, with a real figure from the Transport for NSW file. The figure was for May 2025, sixteen months out of date, because nobody had told the agent what day it was.
-
-Facts last verified 14 October 2026. Teaching is online; no Lake Macquarie branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Lake Macquarie
 
 ## Courses for agents that know what day it is
 
 The project below needs Python dates, data files and agent design. These courses build those skills; the free first lesson chooses between them.
 
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Adults 18 and over): Building and checking coding agents on real tasks.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Making things with AI help and checking what comes back.
-- [AI Tools Course for Teens (13+)](/courses/teens-ai-tools-mastery-course) (Ages 13 to 17): How AI tools work, including what they cannot know.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): datetime, files and the code agents call.
+[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Adults 18 and overCodex & Claude CodeBuilding and checking coding agents on real tasks.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensMaking things with AI help and checking what comes back.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![AI Tools Course for Teens (13+) course thumbnail](/images/ai-tools-kids.webp)Ages 13 to 17AI Tools Course for Teens (13+)How AI tools work, including what they cannot know.See the syllabus](/courses/teens-ai-tools-mastery-course)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for Teensdatetime, files and the code agents call.See the syllabus](/courses/python-complete-masterclass-teens)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Lake Macquarie in the Census
 
 ## A big council wrapped around a lake
 
 Census 2021 figures for the Lake Macquarie local government area (ABS code LGA14650), with New South Wales alongside.
 
-**Lake Macquarie council area, 2021**
-
 | Measure | Lake Macquarie |
-|---|---|
+| --- | --- |
 | Residents | 213,845 |
 | Median age | 42 |
 | Families | 60,257 |
 | Private dwellings | 88,815 |
 | People per household | 2.5 |
 
-**Lake Macquarie compared with the state**
-
 | Indicator | Lake Macquarie | New South Wales |
-|---|---|---|
+| --- | --- | --- |
 | Separate houses | 85.2% (68,750) | 65.6% |
 | Flats or apartments | 4.4% (3,589) | 21.7% |
 | Adults with a bachelor degree or higher | 19.0% (33,332) | 27.8% |
@@ -73,22 +57,20 @@ The council area takes in about 649 square kilometres around the lake.
 
 Each figure is the one QuickStats prints. The bureau nudges small cells to protect privacy, which is why we leave every number as published rather than combining them.
 
+Signature project
+
 ## Last month, according to whom?
 
 Nine railway stations sit inside the council, going by the state mapping agency's station points. Transport for NSW publishes monthly entries for each, October 2024 to August 2026 in the file we downloaded. Our scripted agent was asked: which of these stations had the most entries last month?
 
-**Three versions of the same agent (our run)**
-
 | Agent setup | Month it chose | Answer |
-|---|---|---|
+| --- | --- | --- |
 | No date given; assumes 1 June 2025 | May 2025 | Cardiff, 16,995 entries |
 | Given today's date, 14 October 2026 | September 2026 | No rows found |
 | Given the date and told to check the file | August 2026, latest published | Cardiff, 22,208 entries |
 
-**August 2026 entries at Lake Macquarie stations (Transport for NSW)**
-
 | Station | Entries |
-|---|---|
+| --- | --- |
 | Cardiff | 22,208 |
 | Morisset | 17,093 |
 | Fassifern | 10,149 |
@@ -117,14 +99,14 @@ Any agent that answers questions with words like today, recent or last week need
 
 Which stations count as Lake Macquarie is decided by our own boundary query; the monthly counts are Transport for NSW's Opal figures. The agent is a short script of ours standing in for an AI model, not a transcript from a commercial product.
 
+Agents and time
+
 ## Words an agent should never guess
 
 Relative time words and how a well-built agent resolves them.
 
-**Resolving relative dates**
-
 | Phrase | Needs | Good practice |
-|---|---|---|
+| --- | --- | --- |
 | last month | Today's date | Pass the date in; state the month used |
 | the latest figures | What the data holds | Ask the tool for its newest period |
 | this school term | A calendar source | Look it up, never assume |
@@ -144,6 +126,8 @@ Check the system prompt of any assistant at work for a date line before trusting
 
 January is the case to test first. Last month is then December of the previous year, and code that only subtracts one from the month number breaks.
 
+Around Lake Macquarie
+
 ## Rail, homes and the 2027 calendar
 
 A few council-wide markers from state open data.
@@ -160,16 +144,41 @@ The state address register holds 109,432 points touching the council area; we us
 
 NSW public school Term 3 of 2027 runs from 19 July to 24 September.
 
-**Council figures** This page covers the whole Lake Macquarie local government area. Charlestown, inside it, has a page and figures of its own that are not repeated here. By the ABS boundaries the council meets Newcastle, Cessnock and Central Coast.
+Council figures
+
+This page covers the whole Lake Macquarie local government area. Charlestown, inside it, has a page and figures of its own that are not repeated here. By the ABS boundaries the council meets Newcastle, Cessnock and Central Coast.
+
+Learning ladder
 
 ## From calendars to grounded agents
 
 Ages are a starting point; the trial lesson decides.
 
-- **Ages 6 to 10: Scratch and play** Timers, days and simple games. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)
-- **Ages 10 to 14: Python and AI basics** Dates in Python and how AI tools learn. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)
-- **Ages 14 to 18: Vibe coding** Building with AI and checking its assumptions. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [AI Tools Course for Teens (13+)](/courses/teens-ai-tools-mastery-course)
-- **Adults 18 and over: Agents** Agents grounded in today's date and real data. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)
+Ages 6 to 10
+
+### Scratch and play
+
+Timers, days and simple games.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)Ages 10 to 14
+
+### Python and AI basics
+
+Dates in Python and how AI tools learn.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)Ages 14 to 18
+
+### Vibe coding
+
+Building with AI and checking its assumptions.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[AI Tools Course for Teens (13+)](/courses/teens-ai-tools-mastery-course)Adults 18 and over
+
+### Agents
+
+Agents grounded in today's date and real data.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Vibe coding and agents
 
 ## An answer that is true and still wrong
 
@@ -181,30 +190,139 @@ Learners who build the three versions themselves start writing the date into eve
 
 For Lake Macquarie learners, a grounded agent is one that knows the date and says which data it used. The longer argument is in [why understanding code still beats copying it](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Lake Macquarie lessons online
 
 Lessons happen live on video, from Morisset to Belmont.
 
-- **Build all three** Learners rebuild the agent and watch the answer change with the date.
-- **School year** Classes run in NSW term time and break for holidays.
-- **First lesson free** A full lesson without charge and a written recommendation after it.
-- **Class size** Between five and ten classmates working at about the same stage, unless one-to-one suits better.
-- **Regular times** Two lessons each week at fixed times, about eight a month.
-- **India time** Lessons are taught from India: a 6pm Lake Macquarie class is 12:30pm India time in summer and 1:30pm in winter.
+### Build all three
 
-**NSW clocks** Lake Macquarie follows New South Wales daylight saving from the first Sunday in October to the first Sunday in April (IANA time zone database); India keeps one time all year.
+Learners rebuild the agent and watch the answer change with the date.
+
+### School year
+
+Classes run in NSW term time and break for holidays.
+
+### First lesson free
+
+A full lesson without charge and a written recommendation after it.
+
+### Class size
+
+Between five and ten classmates working at about the same stage, unless one-to-one suits better.
+
+### Regular times
+
+Two lessons each week at fixed times, about eight a month.
+
+### India time
+
+Lessons are taught from India: a 6pm Lake Macquarie class is 12:30pm India time in summer and 1:30pm in winter.
+
+NSW clocks
+
+Lake Macquarie follows New South Wales daylight saving from the first Sunday in October to the first Sunday in April (IANA time zone database); India keeps one time all year.
+
+Fees
 
 ## Lake Macquarie fees
 
 Three fixed prices, the same around the lake.
 
-- First class: USD 0. The first lesson is free, followed by written advice.
-- Group tuition: USD 100 a month. Roughly eight group lessons a month, fifteen to twenty learners in each.
-- Private tuition: USD 150 a month. Roughly eight private lessons a month.
+First class**USD 0**
+
+The first lesson is free, followed by written advice.
+
+Group tuition**USD 100**
+
+Roughly eight group lessons a month, fifteen to twenty learners in each.
+
+Private tuition**USD 150**
+
+Roughly eight private lessons a month.
 
 Lake Macquarie families pay in US dollars after the trial has decided the course and lesson times. Holiday and missed-lesson rules are on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20class%20for%20a%20learner%20in%20Lake%20Macquarie.)Reviews
+
+## Google reviews from our learners
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Lake Macquarie class
+
+Tell us roughly how old the learner is and what they like. A teenager could give the agent a sense of time; a younger learner could build a Scratch calendar game.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Lake Macquarie one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20class%20for%20a%20learner%20in%20Lake%20Macquarie.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Lake Macquarie agent questions
+
+What learners around the lake ask us.
 
 ### How many people live in the Lake Macquarie council area?
 
@@ -246,10 +364,14 @@ Fifteen to twenty learners at a similar level and pace, not sorted by age or sub
 
 No. Copilot Studio is taught in one-to-one lessons only; group learners build their agents in Python.
 
+Explore Newcastle and the Hunter
+
 ## More for Lake Macquarie learners
 
 [Charlestown](/ai-and-programming-classes-in-charlestown-newcastle) has its own page within the council area. [The Newcastle page](/online-coding-and-python-classes-in-newcastle-nsw) is the city-wide view, and [our New South Wales guide](/coding-and-ai-classes-in-new-south-wales) looks at the whole state.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20class%20for%20a%20learner%20in%20Lake%20Macquarie.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-lake-macquarie-newcastle](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-lake-macquarie-newcastle#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-lake-macquarie-newcastle*

@@ -4,55 +4,39 @@ description: "Live online vibe coding and AI agents classes for Goulburn and Mul
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-goulburn
 source: src/pages/vibe-coding-and-ai-agents-classes-in-goulburn.html
 ---
-> Lessons in which a Goulburn teenager or adult designs AI agents in Python, decides when an agent should stop and look at what it found, and tests the answers against open data with a teacher. The 2021 Census counted 24,565 people in the Goulburn urban area. Classes happen live over video, privately or in a small group at a matching level, and the opening lesson is free.
+> Live online vibe coding and AI agents classes for Goulburn and Mulwaree teens and adults, taught by a real teacher in a small group or one to one. First lesson free.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [New South Wales](/coding-and-ai-classes-in-new-south-wales) / Goulburn
-
-Goulburn, New South Wales, Australia / Live online
-
-# Vibe coding and AI agents classes in Goulburn
-
-**What are the best vibe coding and AI agents classes in Goulburn?** Lessons in which a Goulburn teenager or adult designs AI agents in Python, decides when an agent should stop and look at what it found, and tests the answers against open data with a teacher. The 2021 Census counted 24,565 people in the Goulburn urban area. Classes happen live over video, privately or in a small group at a matching level, and the opening lesson is free.
-
-Give an AI agent the state's school list and ask how many government schools are in the town of Goulburn. One design writes its whole plan first: load the rows, keep those whose town reads "Goulburn", count. It follows the plan faithfully and reports 0. Another design looks at every result before choosing the next step. Seeing zero, it lists the town labels, spots a hidden space after the word, then a row in capitals, and reaches 9, or 10 if Goulburn North counts. Our Goulburn project builds both agents and asks when planning ahead helps and when it blinds.
-
-Facts last verified 9 October 2026. Teaching is online; no Goulburn branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Goulburn
 
 ## Courses for agents that look before they answer
 
 Every course here builds the skills behind the two-agent project further down. Book the free first lesson and the teacher will name the one that suits; no card is needed.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Ask an AI for a program, then question, run and mend the code it produces, in Python and for the browser.
-- [Codex & Claude Code for Teens](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens) (Ages 13 to 18): Coding agents that edit real projects, and the habit of checking each change they make.
-- [Vibe Coding for College](/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course) (University and adult): Full applications made with AI assistance, plus the data structures and tests that keep them honest.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Adults and professionals): Directing coding agents through multi-step jobs, and catching the step where a plan stopped matching reality.
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensAsk an AI for a program, then question, run and mend the code it produces, in Python and for the browser.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Codex & Claude Code for Teens course thumbnail](/images/codex-claude-code-teens.webp)Ages 13 to 18Codex & Claude Code for TeensCoding agents that edit real projects, and the habit of checking each change they make.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens)[![Vibe Coding for College course thumbnail](/images/vibe-coding-college.webp)University and adultVibe Coding for CollegeFull applications made with AI assistance, plus the data structures and tests that keep them honest.See the syllabus](/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Adults and professionalsCodex & Claude CodeDirecting coding agents through multi-step jobs, and catching the step where a plan stopped matching reality.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Goulburn in the Census
 
 ## Eight thousand houses and very few flats
 
 The 2021 QuickStats release for the Goulburn Significant Urban Area, set out as printed, with state and national rows for scale.
 
-**Goulburn urban area, 2021 Census QuickStats**
-
 | Item | Goulburn |
-|---|---|
+| --- | --- |
 | People counted | 24,565 |
 | Families | 6,245 |
 | All private dwellings | 10,872 |
 | Average household size | 2.3 people |
 
-**Goulburn beside New South Wales and Australia**
-
 | Census item | Goulburn | NSW | Australia |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Median age | 40 | 39 | 38 |
 | Homes that are a separate house | 84.4% (8,002) | 65.6% | 72.3% |
 | Homes that are a flat or apartment | 3.8% (359) | 21.7% | 14.2% |
@@ -72,22 +56,20 @@ QuickStats lists 1,534 residents aged 5 to 9, 1,506 aged 10 to 14 and 1,294 aged
 
 A note on the numbers: the bureau adds tiny random adjustments to its counts to protect privacy, so rows in one table may not add up exactly to the figure printed as their total. We copy each total and percentage as published and never build a total by adding rows.
 
+Signature project
+
 ## Plan first, or look after every step?
 
 Two scripted agents get the same question and the same tool, a function that reads the NSW Department of Education school list for the Goulburn Mulwaree council area, 14 rows. The only difference is when each one looks at what its tool returned.
 
-**How many government schools are in the town of Goulburn? (our simulation)**
-
 | Agent design | Tool calls | Answer |
-|---|---|---|
+| --- | --- | --- |
 | plan-and-execute, plan written before any data is seen | 3 | 0 |
 | plan-and-execute with one check and replan at the end | 5 | 8 |
 | Interleaved: reason, act, observe, repeat | 6 | 9, or 10 with Goulburn North |
 
-**What the interleaved agent saw at each step**
-
 | Step | What it tried | Rows matched |
-|---|---|---|
+| --- | --- | --- |
 | 1 | Town label exactly "Goulburn" | 0 |
 | 2 | List the distinct town labels | 7 labels |
 | 3 | Remove spaces around each label | 8 |
@@ -112,14 +94,14 @@ Writing a plan first is quick, cheap and easy to audit, and for familiar, clean 
 
 Both agents are short Python scripts we wrote to make the two designs visible; neither is a commercial AI product, and the step counts describe our scripts only. The department's file is used as found, including its untidy labels, and nothing on this page rates any school.
 
+Agent design
+
 ## Habits the Goulburn agents teach about any AI helper
 
 The same pattern appears whenever an assistant runs a sequence of actions: in spreadsheets, in code changes, in searches across a shared drive.
 
-**Design choices and what the Goulburn data shows**
-
 | Choice | In this project | Rule of thumb |
-|---|---|---|
+| --- | --- | --- |
 | When should the agent look? | The fixed plan never inspected its own result | Check every result that would surprise a person |
 | What counts as suspicious? | Zero matches for a town in the council's own name | Write expected ranges down before running |
 | How far should one replan go? | Stripping spaces gave 8 and missed GOULBURN | Inspect the data again after each fix |
@@ -141,6 +123,8 @@ Supervising coding and office agents on multi-step jobs, and knowing which inter
 
 Modern Age Coders is independent of Goulburn Mulwaree Council, the NSW education department and the Australian Bureau of Statistics. They publish the school list and the census tables; the two agents and their answers belong to our teaching material.
 
+Around Goulburn
+
 ## Schools from 1858 to 1971 across Goulburn Mulwaree
 
 Founding dates from the same department file, plus the NSW school calendar.
@@ -157,16 +141,41 @@ First teachers are recorded at Marulan in 1860, Tallong Public School in 1865, W
 
 The file gives Goulburn High School a first-teacher date in 1913 and Mulwaree High School one in 1971.
 
-**The 2027 school year** Term 1 for NSW Eastern division students begins on Wednesday 3 February 2027 and ends on Friday 9 April. We plan holiday breaks and exam weeks around the NSW calendar, so lessons pause when families expect them to.
+The 2027 school year
+
+Term 1 for NSW Eastern division students begins on Wednesday 3 February 2027 and ends on Friday 9 April. We plan holiday breaks and exam weeks around the NSW calendar, so lessons pause when families expect them to.
+
+Learning ladder
 
 ## From first prompts to agents you can supervise
 
 Ages here are rough guides; the free first lesson sets the real starting point.
 
-- **Ages 13 to 14: Code you can question** Small Python programs written with an AI, read line by line and run on real files such as the school list. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 15 to 18: Agents in loops** Agents that call a tool, print what came back and decide the next move from it, built step by step. [Codex & Claude Code for Teens](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens), [AI Tools Course for Teens (13+)](/courses/teens-ai-tools-mastery-course)
-- **University: Planning and checking** Plan-then-act versus act-then-observe designs, validation, retries and cost in real agent systems. [Vibe Coding for College](/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
-- **Adults: Agents at work** Coding and workplace agents trusted with several steps, and the checkpoints that catch a plan going stale. [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals), [Copilot Studio Agent Masterclass for Professionals](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals)
+Ages 13 to 14
+
+### Code you can question
+
+Small Python programs written with an AI, read line by line and run on real files such as the school list.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 15 to 18
+
+### Agents in loops
+
+Agents that call a tool, print what came back and decide the next move from it, built step by step.
+
+[Codex & Claude Code for Teens](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens)[AI Tools Course for Teens (13+)](/courses/teens-ai-tools-mastery-course)University
+
+### Planning and checking
+
+Plan-then-act versus act-then-observe designs, validation, retries and cost in real agent systems.
+
+[Vibe Coding for College](/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)Adults
+
+### Agents at work
+
+Coding and workplace agents trusted with several steps, and the checkpoints that catch a plan going stale.
+
+[Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)[Copilot Studio Agent Masterclass for Professionals](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals)Coding and AI
 
 ## Why does a Goulburn learner need to know how agents plan?
 
@@ -178,30 +187,139 @@ We teach learners to design agents that pause at the right moments, to read the 
 
 In 2026 an agent can finish a task in seconds, and a Goulburn learner who can tell when it skipped a look is the one who gets the answer right. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Goulburn, Marulan or Tarago, one live lesson
 
 The schools in our project include Tallong, Windellama, Marulan and Tarago as well as Goulburn itself, and a video class reaches all of them equally.
 
-- **No drive needed** A learner in Marulan and another in central Goulburn can debug the same agent together without anyone leaving home.
-- **Fits the NSW year** Plans move with the learner's school stage and the four NSW terms, and senior students can connect agent projects to the computing or maths they are taking.
-- **Trial with substance** The free lesson is a real class with working code; afterwards we propose a level, a course and a weekly slot, with no card details asked.
-- **Matched groups** Groups hold fifteen to twenty learners at the same stage, drawn from across Australia and further afield, so a suitable class always exists.
-- **A steady rhythm** Classes run on the same two weekdays at the same hour, close to eight sessions a month, with exam and holiday pauses set in advance.
-- **Teachers in India** A 6pm Goulburn class in winter begins at 1:30pm in India; once NSW daylight saving starts it begins at 12:30pm there.
+### No drive needed
 
-**Clocks change, lesson times do not** NSW clocks go forward on Sunday 4 October 2026 and back on Sunday 4 April 2027, and India does not change at all. We always book in Goulburn time, so the hour on the timetable is the hour the lesson starts.
+A learner in Marulan and another in central Goulburn can debug the same agent together without anyone leaving home.
+
+### Fits the NSW year
+
+Plans move with the learner's school stage and the four NSW terms, and senior students can connect agent projects to the computing or maths they are taking.
+
+### Trial with substance
+
+The free lesson is a real class with working code; afterwards we propose a level, a course and a weekly slot, with no card details asked.
+
+### Matched groups
+
+Groups hold fifteen to twenty learners at the same stage, drawn from across Australia and further afield, so a suitable class always exists.
+
+### A steady rhythm
+
+Classes run on the same two weekdays at the same hour, close to eight sessions a month, with exam and holiday pauses set in advance.
+
+### Teachers in India
+
+A 6pm Goulburn class in winter begins at 1:30pm in India; once NSW daylight saving starts it begins at 12:30pm there.
+
+Clocks change, lesson times do not
+
+NSW clocks go forward on Sunday 4 October 2026 and back on Sunday 4 April 2027, and India does not change at all. We always book in Goulburn time, so the hour on the timetable is the hour the lesson starts.
+
+Fees
 
 ## Fees for Goulburn learners
 
 Three prices, nothing hidden.
 
-- First class: USD 0. A full lesson with no charge, ending with a suggested level, course and time.
-- Group tuition: USD 100 a month. Roughly eight lessons a month with fifteen to twenty learners at the same stage.
-- Private tuition: USD 150 a month. Roughly eight lessons a month, just the learner and a teacher.
+First class**USD 0**
+
+A full lesson with no charge, ending with a suggested level, course and time.
+
+Group tuition**USD 100**
+
+Roughly eight lessons a month with fifteen to twenty learners at the same stage.
+
+Private tuition**USD 150**
+
+Roughly eight lessons a month, just the learner and a teacher.
 
 Billing outside India is always in US dollars, so a family in Tarago pays the same figure as one in central Goulburn and there is no separate local tariff. Payment waits until the trial has agreed a course and a regular time, and the pricing page sets out pauses, missed lessons and moves between group and private.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20class%20for%20a%20learner%20in%20Goulburn.)Reviews
+
+## Families who reviewed us on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Which agent would they like to build?
+
+Tell us an age and what interests them, and we can sketch a first plan. A Year 10 student might start by printing every label in the Goulburn school list; an adult might go straight to building the interleaved agent.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Goulburn one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20class%20for%20a%20learner%20in%20Goulburn.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Goulburn vibe coding and AI agents questions
+
+Questions Goulburn learners and parents most often send before a first class.
 
 ### How many people live in Goulburn?
 
@@ -243,10 +361,14 @@ The first lesson is free. After that a group place is USD 100 a month for two li
 
 Fifteen to twenty learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.
 
+Explore Australia
+
 ## More for Goulburn Mulwaree learners
 
 You may also like the [New South Wales page](/coding-and-ai-classes-in-new-south-wales) for state-wide courses and terms, or [AI and programming classes in Taree](/ai-and-programming-classes-in-taree) for a machine learning project on the same school list. Every other place and subject sits on the [Australia hub](/coding-classes-in-australia).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20class%20for%20a%20learner%20in%20Goulburn.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-goulburn](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-goulburn#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-goulburn*

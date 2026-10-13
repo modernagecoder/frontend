@@ -12,7 +12,7 @@ Baranagar · Bonhooghly · Sinthee · Cossipore: Live Online
 
 Modern Age Coders runs premium, live online coding and mathematics classes for families across Baranagar, Bonhooghly, Sinthee and Cossipore, no recordings, no travel down B.T. Road. Children learn Python, Java, AI/ML and school-to-Olympiad maths in live batches of 15–20, taught by full-time engineers and maths graduates. Every class is project-based and one curriculum carries both coding and statistics-grade maths together. Book a free demo today.
 
-100% live, never pre-recordedSmall batches · max 6–8Coding + Maths in one programmeTaught by full-time engineers[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)6–8Max students per live batch1-on-1Personalised option availableAges 6–67Kids, teens, college, adultsFreeFirst demo class, no card neededLive Online · Baranagar, Kolkata
+100% live, never pre-recordedSmall batches · max 20Coding + Maths in one programmeTaught by full-time engineers[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)15–20Max students per live batch1-on-1Personalised option availableAges 6–67Kids, teens, college, adultsFreeFirst demo class, no card neededLive Online · Baranagar, Kolkata
 
 ## At a glance
 

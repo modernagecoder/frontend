@@ -4,34 +4,28 @@ description: "Online maths tutor for Newcastle, NSW: Kindergarten to Year 12 and
 canonical: https://learn.modernagecoders.com/maths-tutor-newcastle-nsw
 source: src/pages/maths-tutor-newcastle-nsw.html
 ---
-> Learners in Newcastle, New South Wales, can study maths live online with Modern Age Coders from age 6 to 67. That covers the NSW syllabus from Kindergarten through Year 10, every HSC mathematics course from Standard to Extension 2, and maths for adults. Sessions run in Newcastle time, privately or with fifteen to twenty learners at the same level, and the first one is free.
+> Online maths tutor for Newcastle, NSW: Kindergarten to Year 12 and adults, HSC Standard, Advanced and Extension maths, live in Newcastle time. First lesson free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / Maths tutor in Newcastle
+Maths tutor in Newcastle, in brief
 
-Newcastle, New South Wales · Kindergarten to HSC and adults · Online maths tuition
+Learners in Newcastle, New South Wales, can study maths live online with Modern Age Coders from age 6 to 67. That covers the NSW syllabus from Kindergarten through Year 10, every HSC mathematics course from Standard to Extension 2, and maths for adults. Sessions run in Newcastle time, privately or with fifteen to twenty learners at the same level, and the first one is free.
 
-# Maths tutor in Newcastle
-
-Newcastle's ocean baths are among the city's favourite places, and they make a fine maths problem. How much water does Newcastle Ocean Baths hold? A map gives the surface area: about 4,204 square metres. The depth is harder, because maps do not record it. So the honest answer is a range: if the average depth is between one and two metres, the baths hold somewhere between 4,203 and 8,407 cubic metres of seawater. Deciding which measurement deserves more care, the area or the depth, is the real lesson. Our live online maths tutoring serves Newcastle learners from Kindergarten to the HSC and adults, in Newcastle time.
-
-At a glance: Ages: 6 to 67; Primary: Kindergarten to Year 6; Secondary: Years 7 to 10; HSC: Standard, Advanced, Extension 1 and 2; Adults: Bridging units and refreshers; How: Live video, private or five to ten; Time: Newcastle time, with daylight saving; City project: How much water the baths hold. Rated 4.9 across 547 Google reviews.
+Where Newcastle learners often begin
 
 ## Three courses for Newcastle families
 
 A strong primary course, an algebra course for students who have lost confidence, and a senior course for HSC students. The rest of the range follows below.
 
-- [Primary maths](/courses/elementary-mathematics-complete-masterclass): Kindergarten to Year 6: number, measurement (including volume), shape and data.
-- [Algebra from the ground up](/courses/algebra-foundations-masterclass): For Years 7 to 10 students who need algebra rebuilt before the HSC courses.
-- [Senior maths for the HSC](/courses/complete-high-school-mathematics-mastery): For Year 11 and 12 students: graphs, rates of change and probability, paced to whichever HSC course they are enrolled in.
+[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  NCL / 1 Primary maths Kindergarten to Year 6: number, measurement (including volume), shape and data. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)[![Algebra Foundations course thumbnail](/images/algebra-foundations.webp)  NCL / 2 Algebra from the ground up For Years 7 to 10 students who need algebra rebuilt before the HSC courses. Open the syllabus →](/courses/algebra-foundations-masterclass)[![High School Mathematics course thumbnail](/images/high-school-maths.webp)  NCL / 3 Senior maths for the HSC For Year 11 and 12 students: graphs, rates of change and probability, paced to whichever HSC course they are enrolled in. Open the syllabus →](/courses/complete-high-school-mathematics-mastery)
+
+Kindergarten to Year 12
 
 ## A Newcastle maths tutor for every stage
 
 Newcastle children start school in Kindergarten and can stay until Year 12. NESA sorts those years into three bands, and our teachers plan with the same bands in mind.
 
-**Stages and lesson emphasis**
-
 | NSW stage | Years | What we stress |
-|---|---|---|
+| --- | --- | --- |
 | Primary, early | Kindergarten to Year 2 | Number, counting patterns and comparing quantities |
 | Primary, later | Years 3 to 6 | Multiplication, fractions, area and volume of simple solids |
 | Secondary, early | Years 7 and 8 | Algebra, ratio, angles and prisms |
@@ -51,14 +45,14 @@ Students who need a gap filled, students who want stretch, and adults returning 
 
 A free first lesson shows which group a learner is in.
 
+HSC mathematics
+
 ## HSC maths courses for Newcastle students
 
 NESA's curriculum site lists four senior mathematics courses, now in their 11 to 12 (2024) versions. Newcastle students choose among the same four as the rest of the state.
 
-**NSW senior mathematics courses (NESA, read 13 October 2026)**
-
 | Course | Suits students who | Further reading |
-|---|---|---|
+| --- | --- | --- |
 | Mathematics Standard | want maths for work, money and data | [HSC Maths Standard page](/hsc-maths-standard-tutoring) |
 | Mathematics Advanced | plan calculus-based study | [HSC Maths Advanced page](/hsc-maths-advanced-tutoring) |
 | Mathematics Extension 1 | are strong in Advanced and want more | [Extension 1 page](/hsc-maths-extension-1-tutoring) |
@@ -78,16 +72,16 @@ Honest feedback about course choice comes first.
 
 Source: NSW Education Standards Authority, [NSW Curriculum, Mathematics](https://curriculum.nsw.edu.au/learning-areas/mathematics), read 13 October 2026.
 
+A Newcastle worked example
+
 ## How much water is in Newcastle's ocean baths?
 
 A pool with straight sides and a flat floor is a prism: its volume is the area of its surface multiplied by its depth. The area we can measure from a map. The depth we cannot, so we treat it as an unknown and work with a range.
 
 OpenStreetMap draws the outline of each pool. Adding up the outline with the shoelace method gives the surface area. Because depth is not mapped, and the floors of ocean baths are not flat, we used three assumed average depths, 1.0, 1.5 and 2.0 metres, and calculated a volume for each. These depths are our assumption for the exercise, not measurements.
 
-**Pool areas from OpenStreetMap and volumes for assumed average depths (our calculation)**
-
-| Pool | Area (m&sup2;) | Volume at 1.0 m (m&sup3;) | At 1.5 m | At 2.0 m |
-|---|---|---|---|---|
+| Pool | Area (m²) | Volume at 1.0 m (m³) | At 1.5 m | At 2.0 m |
+| --- | --- | --- | --- | --- |
 | Newcastle Canoe Pool | 6,768.0 | 6,768 | 10,152 | 13,536 |
 | Merewether Ocean Baths | 5,001.9 | 5,002 | 7,503 | 10,004 |
 | Newcastle Ocean Baths | 4,203.5 | 4,203 | 6,305 | 8,407 |
@@ -117,10 +111,8 @@ Pool outlines are as mapped; depths are assumed; real ocean baths have sloping, 
 
 Map data: OpenStreetMap contributors, ODbL.
 
-**The same problem at different year levels**
-
 | Years | Version of the task |
-|---|---|
+| --- | --- |
 | 3 to 6 | Count squares on a grid drawing of a pool, then multiply by a depth |
 | 7 and 8 | Use length times width times depth for a rectangular model |
 | 9 and 10 | Find an irregular area, then the volume, then convert to litres |
@@ -128,14 +120,14 @@ Map data: OpenStreetMap contributors, ODbL.
 
 Data: [OpenStreetMap](https://www.openstreetmap.org/copyright) swimming pool outlines, one Overpass query on 13 October 2026. Areas and volumes are our calculation; depths are assumed.
 
+Newcastle learners
+
 ## City of Newcastle in the 2021 Census: students and qualifications
 
 One number stands out: a quarter of the people in education in the City of Newcastle were at university.
 
-**City of Newcastle local government area, 2021 Census**
-
 | Measure | People |
-|---|---|
+| --- | --- |
 | Attending primary school | 12,401 |
 | Attending secondary school | 9,516 |
 | Attending vocational education, including TAFE | 4,423 |
@@ -160,6 +152,8 @@ A teacher looks at the school's current unit before planning lessons, so that tu
 
 Source: ABS, [2021 Census QuickStats, City of Newcastle](https://abs.gov.au/census/find-census-data/quickstats/2021/LGA15900), read 13 October 2026, CC BY 4.0.
 
+Online in Newcastle time
+
 ## Lessons on Newcastle's clock, through daylight saving
 
 Newcastle shares Sydney's time: four and a half hours ahead of India in winter, five and a half in summer once daylight saving starts in October. Every booking is made in Newcastle time.
@@ -182,14 +176,14 @@ Some families worry that a screen makes maths harder to follow. Usually the oppo
 
 Students who began with us in primary school often stay through high school, which means the teacher already knows their habits when the HSC arrives. That continuity is one of the quiet advantages of steady weekly lessons.
 
+Progress
+
 ## From counting to calculus
 
 Learners start wherever they are.
 
-**Four markers of progress**
-
 | Usually | Marker | Secure when |
-|---|---|---|
+| --- | --- | --- |
 | K to Year 2 | 1. Counting | They count objects reliably and compare amounts |
 | Years 3 to 6 | 2. Space | They find area by counting squares and then by multiplying |
 | Years 7 to 10 | 3. Volume | They find the volume of a prism and convert to litres |
@@ -198,63 +192,293 @@ Learners start wherever they are.
 ### Arriving in Year 11
 
 We check junior algebra and measurement before HSC topics.
+
 Most gaps close within a term.
 
 ### University students and adults
 
 First-year maths and bridging units are common requests.
+
 We teach concepts, never assessed work.
+
+Course list
 
 ## Maths courses for Newcastle learners
 
 International course names, taught to NSW stages and the HSC course a student is in.
 
+I
+
 ### Primary
 
 Kindergarten to Year 6
 
-- [First maths](/courses/early-math-foundations): Counting with objects.
-- [Primary maths](/courses/elementary-mathematics-complete-masterclass): Number to volume.
-- [Abacus](/courses/abacus-mental-maths-course-for-kids): Mental arithmetic.
+NCL / P1
+
+#### First maths
+
+Counting with objects.
+
+[Open the syllabus](/courses/early-math-foundations)
+
+NCL / P2
+
+#### Primary maths
+
+Number to volume.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+NCL / P3
+
+#### Abacus
+
+Mental arithmetic.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)II
 
 ### Secondary
 
 Years 7 to 10
 
-- [Secondary maths](/courses/comprehensive-middle-school-mathematics-mastery): Prisms, algebra, trigonometry.
-- [Algebra foundations](/courses/algebra-foundations-masterclass): Confidence first.
-- [Competition maths](/courses/olympiad-competition-mathematics-mastery): Harder problems.
+NCL / S1
+
+#### Secondary maths
+
+Prisms, algebra, trigonometry.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+NCL / S2
+
+#### Algebra foundations
+
+Confidence first.
+
+[Open the syllabus](/courses/algebra-foundations-masterclass)
+
+NCL / S3
+
+#### Competition maths
+
+Harder problems.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)III
 
 ### HSC and beyond
 
 Years 11, 12 and adults
 
-- [HSC-level maths](/courses/complete-high-school-mathematics-mastery): Functions and calculus.
-- [Calculus](/courses/ap-calculus-exam-prep): For Advanced and Extension.
-- [University maths](/courses/college-mathematics-complete-masterclass): First-year topics.
+NCL / H1
+
+#### HSC-level maths
+
+Functions and calculus.
+
+[Open the syllabus](/courses/complete-high-school-mathematics-mastery)
+
+NCL / H2
+
+#### Calculus
+
+For Advanced and Extension.
+
+[Open the syllabus](/courses/ap-calculus-exam-prep)
+
+NCL / H3
+
+#### University maths
+
+First-year topics.
+
+[Open the syllabus](/courses/college-mathematics-complete-masterclass)
+
+Times
 
 ## Fitting lessons into a Newcastle week
 
 Lessons are fixed in Newcastle time; we adjust for daylight saving so families do not have to.
 
-- **After school** Primary and junior secondary.
-- **Weeknights** HSC students and adults.
-- **Weekends** Longer sessions.
+After school
 
-- **One teacher** Continuity week to week.
-- **Short updates** For parents after lessons.
-- **Groups by level** Fifteen to twenty learners.
-- **Local problems** Baths, beaches and maps.
-- **Private lessons** For one goal.
-- **Ideas before drills** Understanding first.
+Primary and junior secondary.
+
+Weeknights
+
+HSC students and adults.
+
+Weekends
+
+Longer sessions.
+
+### One teacher
+
+Continuity week to week.
+
+### Short updates
+
+For parents after lessons.
+
+### Groups by level
+
+Fifteen to twenty learners.
+
+### Local problems
+
+Baths, beaches and maps.
+
+### Private lessons
+
+For one goal.
+
+### Ideas before drills
+
+Understanding first.
+
+Student work
+
+## Projects from our learners
+
+Things students built once their maths was solid. More in the [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees for maths tutoring in Newcastle
 
 A single monthly charge in US dollars covers lessons for Newcastle families; you pay nothing up front, and can finish whenever a month ends.
 
-- Free first class: USD 0. A full lesson at the learner's level. A clear recommendation. No card.
-- Group batch: USD 100 a month. Fifteen to twenty learners. The same teacher. Marked practice. Stop after any month.
-- One to one: USD 150 a month. Private lessons. Built around one goal. Useful before HSC exams.
+Free first class
+
+USD 0
+
+no card required
+
+- A full lesson at the learner's level
+- A clear recommendation
+- No card
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners
+- The same teacher
+- Marked practice
+- Stop after any month
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- Private lessons
+- Built around one goal
+- Useful before HSC exams
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Google reviews from families, as posted.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Newcastle maths questions
 
 ## Questions about maths tutoring in Newcastle
 
@@ -298,15 +522,54 @@ Always. When the clocks go forward in October or back in April, we move the book
 
 Nothing for the first one. After that, the group and private monthly fees appear in the fees panel above.
 
+More for Newcastle
+
 ## Related pages
 
-- [Maths tutor in Sydney](/maths-tutor-sydney): Our page for Greater Sydney.
-- [HSC Mathematics Advanced](/hsc-maths-advanced-tutoring): The calculus course in detail.
-- [HSC Maths Standard](/hsc-maths-standard-tutoring): Applied senior maths.
-- [NAPLAN numeracy](/naplan-numeracy-practice-online): Practice by year.
-- [Maths competition practice](/australian-mathematics-competition-practice-by-year): Problems by year.
-- [Maths tutor costs](/maths-tutor-cost-australia-explained): Prices explained.
+NSW maths, tests and costs.
 
-## Contact
+### [Maths tutor in Sydney](/maths-tutor-sydney)
 
-Book the free first class at [https://learn.modernagecoders.com/maths-tutor-newcastle-nsw](https://learn.modernagecoders.com/maths-tutor-newcastle-nsw#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Our page for Greater Sydney.
+
+### [HSC Mathematics Advanced](/hsc-maths-advanced-tutoring)
+
+The calculus course in detail.
+
+### [HSC Maths Standard](/hsc-maths-standard-tutoring)
+
+Applied senior maths.
+
+### [NAPLAN numeracy](/naplan-numeracy-practice-online)
+
+Practice by year.
+
+### [Maths competition practice](/australian-mathematics-competition-practice-by-year)
+
+Problems by year.
+
+### [Maths tutor costs](/maths-tutor-cost-australia-explained)
+
+Prices explained.
+
+Start here
+
+## Book a free Newcastle maths lesson
+
+Send your number and a convenient time. The free lesson is taught at the learner's level, and we give straightforward advice afterwards.
+
+You can read [how we teach](/how-we-teach) or [about online maths tutoring](/online-maths-tutoring-australia) first.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20a%20learner%20in%20Newcastle%2C%20NSW.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+Replies come from our India team on a +91 number, and there is no Newcastle office. WhatsApp from an Australian mobile gets the fastest response.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/maths-tutor-newcastle-nsw*

@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths lessons for Bishopstown l
 canonical: https://learn.modernagecoders.com/coding-classes-in-bishopstown-cork
 source: src/pages/coding-classes-in-bishopstown-cork.html
 ---
-> Bishopstown learners are taught live on video by a teacher, in a small group at one level or on their own, usually two lessons a week, and anyone from six to sixty-seven can enrol. No travel is needed. The first lesson costs nothing; each month after that is USD 100 in a group or USD 150 for one-to-one lessons.
+> Live online coding, Python, AI and maths lessons for Bishopstown learners aged 6 to 67, in small same-level groups or one to one. Your first lesson costs nothing.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [Cork](/best-coding-class-in-cork) / Bishopstown
-
-Bishopstown, Cork / Live online
-
-# Coding classes in Bishopstown
-
-**What are the best coding classes in Bishopstown?** Bishopstown learners are taught live on video by a teacher, in a small group at one level or on their own, usually two lessons a week, and anyone from six to sixty-seven can enrol. No travel is needed. The first lesson costs nothing; each month after that is USD 100 in a group or USD 150 for one-to-one lessons.
-
-Cork City Council publishes its ten library branches as open data, with a column for each weekday's opening hours. How many hours a week is Bishopstown Library open? The file holds the answer as text, and across the branches the same kind of fact is written in 11 different formats, from "10.00 a.m. - 5.30 p.m" to "9:30am-5:30pm" to "10am - 6pm". Bishopstown's own entries add footnotes inside the times. Parse them carefully and the regular week comes to 45 hours; read the library's web page and members of its self-service scheme can use the building 98 hours a week. This page teaches a learner to turn text into numbers without losing the parts that do not fit.
-
-Facts last verified 20 September 2026. Teaching is online; no Bishopstown branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Bishopstown
 
 ## Four first courses for Bishopstown
 
 Let the age band suggest where to start; the free first lesson is when the teacher confirms the level or recommends another course.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Blocks and a timetable game: reading times from a board and adding up how long something stays open.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Python strings: finding numbers inside text and turning 5.30 p.m. into 17.5 hours.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Patterns in Python for messy real text: times, ranges, split sessions and the exceptions that do not fit.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (College and adult): For adults who clean spreadsheets full of free text and need numbers they can defend.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlocks and a timetable game: reading times from a board and adding up how long something stays open.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsPython strings: finding numbers inside text and turning 5.30 p.m. into 17.5 hours.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensPatterns in Python for messy real text: times, ranges, split sessions and the exceptions that do not fit.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)College and adultData Analysis CourseFor adults who clean spreadsheets full of free text and need numbers they can defend.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## How long is the library open? Turning written hours into numbers
 
 The data is Cork City Council's open file of its library branches, with one text field per weekday from Monday to Saturday. The program reads every field, recognises the time ranges inside it, and adds them up.
 
-**Bishopstown Library: one question, several honest answers**
-
 | Which hours | Hours a week | Source |
-|---|---|---|
+| --- | --- | --- |
 | Regular hours in the council file | 45 | Monday to Saturday, 10:00 to 17:30 |
 | Weeks from September to June | 47.5 | Later closing at 8:00 p.m. on Thursdays |
 | A first week of the month in summer | 44.5 | Opening at 10.30 on the first Wednesday |
@@ -79,14 +65,14 @@ Staffed hours tell you when to find a librarian. Self-service hours tell a regis
 
 The library page adds that the branch is closed on public holidays and bank holiday weekends, while registered self-service members can still visit. No weekly total captures that on its own.
 
+Bishopstown, named
+
 ## Bishopstown by its library and its school
 
 Each fact is taken from the organisation it describes.
 
-**Named places in Bishopstown**
-
 | Place | What its own source says |
-|---|---|
+| --- | --- |
 | Bishopstown Library | Wilton, Cork, T12 RR84 |
 | Library bus routes | 208, 214 and 219 |
 | Self-service hours | 8.00 am to 10.00 pm, Monday to Sunday |
@@ -104,7 +90,11 @@ Its web page says My Open Library access is available to registered members from
 
 Bishopstown Community School gives its address as Westgate Road, and its website carries sections on its Deaf Facility, Irish Sign Language and adult education.
 
-**What this page does not claim** No population is given for Bishopstown, because the page prints only what named bodies publish about the place. The hours are those published by Cork City Council and the library at the dates shown, and they change; check with the library before a visit.
+What this page does not claim
+
+No population is given for Bishopstown, because the page prints only what named bodies publish about the place. The hours are those published by Cork City Council and the library at the dates shown, and they change; check with the library before a visit.
+
+Learning here
 
 ## A week for a learner in Bishopstown
 
@@ -124,14 +114,37 @@ Adults can start from scratch; the first lesson finds the course.
 
 Branch hours are Cork City Council's open data and the Bishopstown Library page; the parsing, weekly totals and format counts are our own work from 20 September 2026. School details come from the school's own website.
 
+Learning ladder
+
 ## From reading a clock to parsing text
 
 The bands are a guide; lesson one decides the level.
 
-- **Ages 6 to 10: How long is it open?** Block-coded games that read a start and an end time and count the hours between. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Numbers in words** Python that finds numbers hidden in sentences and converts them. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Patterns and leftovers** Regular expressions on real council text, with exceptions kept rather than dropped. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Cleaning at work** Turning free-text fields in business files into numbers with an audit trail. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### How long is it open?
+
+Block-coded games that read a start and an end time and count the hours between.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Numbers in words
+
+Python that finds numbers hidden in sentences and converts them.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Patterns and leftovers
+
+Regular expressions on real council text, with exceptions kept rather than dropped.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Cleaning at work
+
+Turning free-text fields in business files into numbers with an audit trail.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## Ask an assistant how many hours the library opens
 
@@ -143,30 +156,139 @@ The learner who has built this project asks which hours are meant, asks the assi
 
 Text that looks like data usually hides a few exceptions. Code that keeps them is code you can trust. The longer argument is in [coding as a skill that outlasts any single AI tool](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How lessons run for Bishopstown
 
 Quickly.
 
-- **Taught in real time** Every lesson is live, with the teacher checking each learner's code and helping as they go.
-- **Level first** Groups of fifteen to twenty learners at the same level, from Bishopstown, around Ireland or abroad.
-- **Regular slots** Two fixed days each week, around eight lessons a month.
-- **Term planning** Holidays, mid-terms and exam periods are built into the course plan.
-- **At home** A laptop or desktop, a microphone, headphones or speakers, and a connection strong enough for video.
-- **Private teaching** Lessons for a single learner, for anyone moving faster than the groups, needing a slower pace, or only free outside group times.
+### Taught in real time
 
-**Nothing to visit** We have no premises in Bishopstown, in Cork or anywhere in Ireland. Lessons are live on video and identical from any home.
+Every lesson is live, with the teacher checking each learner's code and helping as they go.
+
+### Level first
+
+Groups of fifteen to twenty learners at the same level, from Bishopstown, around Ireland or abroad.
+
+### Regular slots
+
+Two fixed days each week, around eight lessons a month.
+
+### Term planning
+
+Holidays, mid-terms and exam periods are built into the course plan.
+
+### At home
+
+A laptop or desktop, a microphone, headphones or speakers, and a connection strong enough for video.
+
+### Private teaching
+
+Lessons for a single learner, for anyone moving faster than the groups, needing a slower pace, or only free outside group times.
+
+Nothing to visit
+
+We have no premises in Bishopstown, in Cork or anywhere in Ireland. Lessons are live on video and identical from any home.
+
+Fees
 
 ## Fees for Bishopstown
 
 Straight to it.
 
-- First class: USD 0. A free opening lesson with a level check.
-- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, around eight live lessons.
-- Private tuition: USD 150 a month. A month of one-to-one lessons at the same frequency.
+First class**USD 0**
+
+A free opening lesson with a level check.
+
+Group tuition**USD 100**
+
+A month in a group of fifteen to twenty at one level, around eight live lessons.
+
+Private tuition**USD 150**
+
+A month of one-to-one lessons at the same frequency.
 
 Families outside India all pay the same fee in US dollars, a month at a time. Booking the free lesson is not an agreement to continue; payment begins with the course itself, and our pricing page answers the usual questions on holiday weeks, missed sessions and moving from a group to private lessons or back.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Bishopstown.)Reviews
+
+## What families wrote on Google, unchanged
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free first lesson in Bishopstown
+
+Let us know the learner's age and interests, and the first lesson will be shaped around them. It might end with a small game, a program that runs, or a messy line of text turned into clean numbers.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Bishopstown one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Bishopstown.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Bishopstown coding class questions
+
+What Bishopstown families ask most.
 
 ### Is there a Modern Age Coders centre in Bishopstown?
 
@@ -204,10 +326,14 @@ The first lesson is free. After that a group place costs USD 100 a month for abo
 
 Fifteen to twenty, matched by level, pace and goals rather than age or address. If no group runs at a workable time, lessons are one to one.
 
+Explore Ireland
+
 ## Around Bishopstown
 
 East across the city, [Douglas](/coding-classes-in-douglas-cork) has a project on tide readings, and west along the river [Ballincollig](/coding-classes-in-ballincollig-cork) one on water levels. The [Cork](/best-coding-class-in-cork) page covers the city, and the [Ireland hub](/coding-classes-in-ireland) lists everywhere else.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Bishopstown.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-bishopstown-cork](https://learn.modernagecoders.com/coding-classes-in-bishopstown-cork#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-bishopstown-cork*

@@ -4,37 +4,25 @@ description: "Live online coding, Python, AI and app lessons for Leidschendam-Vo
 canonical: https://learn.modernagecoders.com/coding-classes-in-leidschendam-voorburg
 source: src/pages/coding-classes-in-leidschendam-voorburg.html
 ---
-> Leidschendam-Voorburg has 78,916 residents by the national count of 1 January 2026, in a municipality formed in 2002 from Leidschendam and Voorburg and cut through by the Vliet. Under Voorburg lie the remains of Forum Hadriani, to which the emperor Hadrian gave his name in 121, and on its edge stands Hofwijck, the estate of Constantijn Huygens, where his son Christiaan lived. Christiaan Huygens held the patent on the first pendulum clock in 1656. A pendulum is also the classic first physics simulation in code, and the classic warning: step it forward with the simplest method and it gains a little energy every swing, until a 20-degree swing becomes a spin. Live, online, English-language classes are open from age 6 to 67; the first costs nothing, and afterwards a group place is USD 100 a month and one-to-one tuition USD 150.
+> Live online coding, Python, AI and app lessons for Leidschendam-Voorburg, ages 6 to 67, in Voorburg, Leidschendam and Stompwijk. First lesson free.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Leidschendam-Voorburg
-
-Leidschendam-Voorburg, Zuid-Holland / Live online
-
-# Coding classes in Leidschendam-Voorburg, where Huygens lived and a simulated pendulum slowly goes wrong
-
-**What are the best coding classes in Leidschendam-Voorburg?** Leidschendam-Voorburg has 78,916 residents by the national count of 1 January 2026, in a municipality formed in 2002 from Leidschendam and Voorburg and cut through by the Vliet. Under Voorburg lie the remains of Forum Hadriani, to which the emperor Hadrian gave his name in 121, and on its edge stands Hofwijck, the estate of Constantijn Huygens, where his son Christiaan lived. Christiaan Huygens held the patent on the first pendulum clock in 1656. A pendulum is also the classic first physics simulation in code, and the classic warning: step it forward with the simplest method and it gains a little energy every swing, until a 20-degree swing becomes a spin. Live, online, English-language classes are open from age 6 to 67; the first costs nothing, and afterwards a group place is USD 100 a month and one-to-one tuition USD 150.
-
-A computer cannot solve the motion of a pendulum the way a mathematician would on paper. It steps: it takes the angle and speed now, works out how they will change in the next hundredth of a second, updates them, and repeats. Each step is very nearly right. The trouble is the word nearly. With the simplest stepping rule, the tiny error made at each step always pushes the same way, adding a sliver of energy, and the slivers accumulate. Run such a program on a 1 metre pendulum released at 20 degrees, and after half a minute it is swinging to almost 80 degrees; before a minute is out it is going over the top. A one-line change to the order of the updates keeps it at 20 degrees for as long as anyone cares to watch. Christiaan Huygens, who worked out the theory of pendulum motion and lived at Hofwijck in Voorburg, would have recognised the problem at once: small errors that point the same way are the ones that matter.
-
-Facts last verified 11 September 2026. Teaching is online; no Leidschendam-Voorburg branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Leidschendam-Voorburg
 
 ## Four courses for the town of Hofwijck and the Vliet
 
 A child in Stompwijk who wants to make a ball bounce on screen, a teenager in Voorburg writing a first physics game, a student in Leidschendam modelling something that changes over time, and an adult whose spreadsheets project a figure forward month by month. The first lesson is free for each of them.
 
-- [Game Development for Kids](/courses/game-development-masterclass-for-kids) (Ages 8 to 12): Moving objects in games, where a child sees a bouncing ball bounce a little higher each time and learns to find out why.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 11 to 14): Mathematics made concrete in code, including step-by-step models of motion and growth and the errors they carry.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Python simulations built with a check that the quantity which should stay constant actually does.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): Forecasts rolled forward period by period, tested for the small repeated error that grows into a large one.
+[![Game Development for Kids course thumbnail](/images/game-dev-kids.webp)Ages 8 to 12Game Development for KidsMoving objects in games, where a child sees a bouncing ball bounce a little higher each time and learns to find out why.See the syllabus](/courses/game-development-masterclass-for-kids)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 11 to 14Maths Through CodingMathematics made concrete in code, including step-by-step models of motion and growth and the errors they carry.See the syllabus](/courses/maths-through-coding)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CoursePython simulations built with a check that the quantity which should stay constant actually does.See the syllabus](/courses/python-ai-automation-masterclass-college)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)Forecasts rolled forward period by period, tested for the small repeated error that grows into a large one.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Leidschendam-Voorburg today
 
 ## Two towns merged in 2002, a Roman forum, and a canal down the middle
 
@@ -52,22 +40,26 @@ Hofwijck, an estate dating from 1642 in Voorburg, was designed by Constantijn Hu
 
 The Oude Kerk, also called the Sint-Martinuskerk, is a Gothic church from around 1200. Voorburg itself had 43,090 residents on 1 January 2023, according to its encyclopaedia entry, which also names the neighbourhood of Essesteijn.
 
-**Christiaan Huygens and the pendulum clock** In 1656 Christiaan Huygens held a patent on the first pendulum clock, which was built by Salomon Coster in The Hague. Astronomy, and finding position at sea, required accurate measurement of time, which led Huygens to the problem, and in his Horologium Oscillatorium of 1673 he set out the theory of the motion of a pendulum. He died in The Hague on 8 July 1695.
+Christiaan Huygens and the pendulum clock
+
+In 1656 Christiaan Huygens held a patent on the first pendulum clock, which was built by Salomon Coster in The Hague. Astronomy, and finding position at sea, required accurate measurement of time, which led Huygens to the problem, and in his Horologium Oscillatorium of 1673 he set out the theory of the motion of a pendulum. He died in The Hague on 8 July 1695.
+
+A simulation that drifts
 
 ## A 20-degree swing, stepped forward two ways
 
 The figures in this table were computed for this page, with a standard program, for an ideal 1 metre pendulum released at 20 degrees under gravity of 9.81 metres per second squared. They describe the program, not any clock or any real pendulum.
 
-**Largest swing in the seconds before each mark, by stepping rule and step size**
-
 | Stepping rule and step | After 10 seconds | After 30 seconds | After 60 seconds |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Explicit Euler, 0.01 s steps | 31.1 degrees | 78.8 degrees | spinning over the top; energy about 41 times the start |
 | Explicit Euler, 0.001 s steps | 20.9 degrees | 23.1 degrees | 26.7 degrees; energy about 1.8 times the start |
 | Semi-implicit Euler, 0.01 s steps | 20.0 degrees | 20.0 degrees | 20.0 degrees; energy within about 1 percent |
 | Semi-implicit Euler, 0.001 s steps | 20.0 degrees | 20.0 degrees | 20.0 degrees; energy within about 0.1 percent |
 
 The two rules differ by a single choice: whether the new angle is computed from the old speed or from the speed just updated. Explicit Euler, the rule most people write first, uses the old speed, and for a swinging system that makes every step add a little energy. Making the steps ten times smaller slows the drift a great deal and does not stop it; after a minute the swing has still grown from 20 to almost 27 degrees. Semi-implicit Euler uses the updated speed, and its errors wobble around the true answer instead of piling up, so the swing stays at 20 degrees however long the program runs. Neither rule is exact. The difference is that one makes errors which cancel and the other makes errors which add, and over thousands of steps that difference is everything.
+
+Verified local facts
 
 ## The municipality in the national statistics
 
@@ -99,6 +91,8 @@ In 2025, 37,719 households averaged 2.05 people; 15,804 consisted of one person 
 
 Modern Age Coders has no link of any kind with the municipality, Hofwijck, the Huygens family's heirs or any school in Leidschendam-Voorburg, and the page suggests none. The statistics are those published for the municipality in the years given, with earlier years recalculated to the present boundaries. The merger, the Tedingerbroekpolder and the Vliet come from the encyclopaedia entry for the municipality; Forum Hadriani, the Oude Kerk and Voorburg's population from the entry for Voorburg; the estate from the entry for Hofwijck; and the pendulum clock from the entry for Christiaan Huygens. The municipal entry gives 78,915 residents for 1 January 2026, which is not combined with the statistics used here.
 
+Signature project
+
 ## Watch the quantity that should never change
 
 Every simulation that steps forward in time makes a small error at each step. The question is not whether there is error but which way it points, and there is almost always a simple way to find out.
@@ -115,10 +109,8 @@ Compute that quantity at every step and plot it. In a correct simulation it wobb
 
 Smaller steps delay a drift and cost time. A better method, such as updating the speed before the position, can remove the drift altogether. Test both, and keep the one whose conserved quantity stays flat.
 
-**Small errors that point the same way**
-
 | Where it happens | The step | What drifts | How it shows |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | A game with physics | one frame of movement | energy | a ball that bounces higher each time, or a character flung off the map |
 | A robot or car simulator | one simulated tick | position and speed | a trained controller that works in simulation and fails on the real machine |
 | A running total in money | each rounded transaction | the balance | cents that appear or vanish over thousands of operations |
@@ -129,14 +121,14 @@ Smaller steps delay a drift and cost time. A better method, such as updating the
 
 Robots, self-driving systems and many game-playing AIs are trained largely inside simulators, because a simulator can run millions of trials safely and cheaply. Every one of those simulators steps its world forward in small increments, and each increment carries a small numerical error. If those errors point the same way, the simulated world slowly behaves unlike the real one: objects keep a little energy they should lose, contacts are slightly too springy, a vehicle travels a fraction further than it would. An AI that learns to exploit such quirks can perform brilliantly in simulation and badly in reality, which engineers call the gap between simulation and the real world. The first defence is exactly the one on this page. Decide what should stay constant or match reality, measure it at every step, and choose methods whose errors cancel rather than accumulate. A pendulum is the smallest possible example, and the one Huygens, who worked on its theory in the house on the Vliet, would have understood best.
 
+Reliable pipeline
+
 ## Five checks for any program that steps through time
 
 For games, physics, population and money models, forecasts and AI training environments. Built around a pendulum, in the town where the theory of pendulum motion was lived with.
 
-**Keeping step-by-step programs honest**
-
 | Check | How | The failure it catches | What you gain |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | A conserved quantity | Pick something that should not change and compute it each step | Errors accumulating silently | An alarm that rings early |
 | Two step sizes | Run with a step and with a step ten times smaller, and compare | Results that depend on the step | A measure of numerical error |
 | A better method | Try an update order or integrator suited to the system | Drift that smaller steps only delay | Stable long runs |
@@ -157,14 +149,37 @@ A spreadsheet forecast rolled forward month by month, checked by running it with
 
 This section uses the encyclopaedia's account of Christiaan Huygens and Hofwijck as the setting, and a pendulum simulation computed for this page with standard methods. It says nothing about any real clock, and nothing about how Huygens himself calculated.
 
+Learning ladder
+
 ## From a ball that bounces too high to a simulation that stays true
 
 Placement comes from watching the learner work in the free lesson on a real task. It does not come from age on its own, nor from whether home is Voorburg or Stompwijk.
 
-- **Ages 6 to 10: The creeping bounce** Children spot a game ball bouncing higher each time and fix it. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Game Development for Kids](/courses/game-development-masterclass-for-kids)
-- **Ages 11 to 13: Step by step** Learners move an object through time in small steps and count the error. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Two Euler rules** Teenagers simulate a pendulum both ways and plot the energy. [App Development for Teens](/courses/complete-app-development-masterclass-for-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Rolled-forward models** Adults test a forecast for errors that grow as it steps ahead. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### The creeping bounce
+
+Children spot a game ball bouncing higher each time and fix it.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Game Development for Kids](/courses/game-development-masterclass-for-kids)Ages 11 to 13
+
+### Step by step
+
+Learners move an object through time in small steps and count the error.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Two Euler rules
+
+Teenagers simulate a pendulum both ways and plot the energy.
+
+[App Development for Teens](/courses/complete-app-development-masterclass-for-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Rolled-forward models
+
+Adults test a forecast for errors that grow as it steps ahead.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## An AI can write a physics simulation in seconds. Why should a teenager in Voorburg check that its pendulum does not speed up?
 
@@ -176,30 +191,139 @@ A learner who has watched a simulated pendulum climb from 20 degrees to a full s
 
 So the case for a child in Leidschendam-Voorburg learning to code in 2026 is not Hofwijck or its famous residents. It is that someone who watches the quantity that should never change will be needed wherever AI builds simulated worlds and trains machines inside them. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Classes on both banks of the Vliet
 
 The municipality stretches along the Vliet from the Hague border to the polders of Stompwijk, and a learner anywhere along it joins the same class from home.
 
-- **No crossing required** A pupil on one side of the Vliet and a pupil on the other open the same lesson at the same moment. Nobody needs a lift over a bridge on a school night.
-- **School words as they are** The brugklas, vmbo, havo, vwo, groep and profielkeuze of a Zuid-Holland school keep their Dutch names; everything around them is explained in English.
-- **A free lesson, properly taught** The first session is a full lesson on a real problem. The teacher observes how the learner works and afterwards recommends a level, a course and a weekly time, taking no payment details.
-- **Five to ten at one stage** Groups are built from learners at the same point. The municipality has 12,233 residents under fifteen, but a matching five, free at the same hour, is uncommon, so groups can draw on learners in other countries.
-- **Regio Midden breaks** Classes meet twice weekly, about eight times a month, in the same slot, and pause during the regio Midden holidays that Zuid-Holland schools follow.
-- **Teachers in India** With the teaching team three and a half hours ahead of Dutch summer time and four and a half ahead in winter, afternoon, evening and weekend-morning classes all fit.
+### No crossing required
 
-**Twenty-eight schools, and a group that forms online** Leidschendam-Voorburg has 21 primary establishments teaching 5,858 pupils and 7 secondary establishments teaching 4,811. A coding group needs five learners who agree on subject, stage and hour at once, and they are far easier to gather across every age from 6 to 67 and many countries than within one municipality.
+A pupil on one side of the Vliet and a pupil on the other open the same lesson at the same moment. Nobody needs a lift over a bridge on a school night.
+
+### School words as they are
+
+The brugklas, vmbo, havo, vwo, groep and profielkeuze of a Zuid-Holland school keep their Dutch names; everything around them is explained in English.
+
+### A free lesson, properly taught
+
+The first session is a full lesson on a real problem. The teacher observes how the learner works and afterwards recommends a level, a course and a weekly time, taking no payment details.
+
+### Fifteen to twenty at one stage
+
+Groups are built from learners at the same point. The municipality has 12,233 residents under fifteen, but a matching five, free at the same hour, is uncommon, so groups can draw on learners in other countries.
+
+### Regio Midden breaks
+
+Classes meet twice weekly, about eight times a month, in the same slot, and pause during the regio Midden holidays that Zuid-Holland schools follow.
+
+### Teachers in India
+
+With the teaching team three and a half hours ahead of Dutch summer time and four and a half ahead in winter, afternoon, evening and weekend-morning classes all fit.
+
+Twenty-eight schools, and a group that forms online
+
+Leidschendam-Voorburg has 21 primary establishments teaching 5,858 pupils and 7 secondary establishments teaching 4,811. A coding group needs five learners who agree on subject, stage and hour at once, and they are far easier to gather across every age from 6 to 67 and many countries than within one municipality.
+
+Fees
 
 ## Fees for Leidschendam-Voorburg families
 
 The complete price list is these three lines.
 
-- First class: USD 0. A real lesson built round a real task, with a level and a course at the end.
-- Group tuition: USD 100 a month. Per month, normally eight classes, in a group of fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. Per month, normally eight classes, with one teacher for one learner.
+First class**USD 0**
+
+A real lesson built round a real task, with a level and a course at the end.
+
+Group tuition**USD 100**
+
+Per month, normally eight classes, in a group of fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+Per month, normally eight classes, with one teacher for one learner.
 
 The dollar price is the same in every country, with no euro table beside it, so a family in Stompwijk pays exactly what a family in Voorburg pays. Nothing is due until the free lesson has settled the course and the time, and payment is arranged over WhatsApp after that. The pricing page explains pauses, a change of format and missed classes.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Leidschendam-Voorburg.)Reviews
+
+## Six Google reviews in their authors' own words
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us where the learner is starting
+
+The first task might be a ball that bounces a little too high, an object moved through time in small steps, or a pendulum simulated two ways with its energy on a chart.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Leidschendam-Voorburg one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Leidschendam-Voorburg.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Leidschendam-Voorburg coding class questions
+
+The merger, the Romans, Hofwijck, the figures, and the lessons.
 
 ### When was Leidschendam-Voorburg formed?
 
@@ -241,10 +365,14 @@ The first lesson is free. After it, group tuition is USD 100 a month for two liv
 
 Fifteen to twenty, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
+Explore Haaglanden and beyond
+
 ## Into The Hague, along the Vliet, and out to the province
 
 The capital next door has its own page at [coding classes in The Hague](/coding-classes-in-the-hague), with district pages including [Leidschenveen-Ypenburg](/coding-classes-in-leidschenveen-ypenburg). Along the Vliet lie [Leiden](/coding-classes-in-leiden) to the north-east and [Delft](/coding-classes-in-delft) to the south, and the whole province is on [Zuid-Holland](/coding-classes-in-zuid-holland). A learner heading straight for machine learning can go to the [AI and Python Academy](/ai-and-python-academy-netherlands), and the full series is on the [Netherlands coding hub](/coding-classes-in-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Send us a WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Leidschendam-Voorburg.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-leidschendam-voorburg](https://learn.modernagecoders.com/coding-classes-in-leidschendam-voorburg#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-leidschendam-voorburg*

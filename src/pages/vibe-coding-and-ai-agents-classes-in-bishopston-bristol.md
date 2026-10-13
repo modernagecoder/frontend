@@ -4,46 +4,32 @@ description: "Live online vibe coding, AI agents, Python and coding lessons for 
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-bishopston-bristol
 source: src/pages/vibe-coding-and-ai-agents-classes-in-bishopston-bristol.html
 ---
-> Bishopston belongs to the Bristol ward of Bishopston and Ashley Down, where the 2021 census recorded 13,304 usual residents. Postcodes.io also lists Horfield, Montpelier, Henleaze and Westbury Park among Bristol's suburban areas. Classes in vibe coding, AI agents, Python, coding and maths are open to ages six to 67 and happen on live video, led by tutors working from India, for one learner at a time or for five to ten at a shared level. Each course trains judgement first and tool use second, so a learner can tell a plausible output from a correct one. The trial lesson is free and we end it by proposing a course. For the Bishopston project, learners match noisy GPS traces to 102.0 km of mapped road using the Viterbi algorithm. After the trial, a class place is USD 100 per month and private tuition USD 150 per month.
+> Live online vibe coding, AI agents, Python and coding lessons for ages 6 to 67 in Bishopston, Ashley Down, Horfield and Montpelier, Bristol. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Bristol](/best-coding-class-in-bristol) / Bishopston
-
-Bishopston, Bristol, England / Live online
-
-# Vibe coding and AI agents classes in Bishopston
-
-**Which are the best vibe coding and AI agents classes in Bishopston?** Bishopston belongs to the Bristol ward of Bishopston and Ashley Down, where the 2021 census recorded 13,304 usual residents. Postcodes.io also lists Horfield, Montpelier, Henleaze and Westbury Park among Bristol's suburban areas. Classes in vibe coding, AI agents, Python, coding and maths are open to ages six to 67 and happen on live video, led by tutors working from India, for one learner at a time or for five to ten at a shared level. Each course trains judgement first and tool use second, so a learner can tell a plausible output from a correct one. The trial lesson is free and we end it by proposing a course. For the Bishopston project, learners match noisy GPS traces to 102.0 km of mapped road using the Viterbi algorithm. After the trial, a class place is USD 100 per month and private tuition USD 150 per month.
-
-A satellite fix is usually several metres off, and between tall buildings it can be thirty. A sat-nav still shows your car neatly on a road. The step that does this is called map matching. The naive version moves each dot to whichever road is closest, which breaks at every junction and wherever two streets run side by side. The better version treats the true road as hidden and asks a different question: which sequence of roads, taken as a whole, would most plausibly have produced this string of dots? The Viterbi algorithm answers that efficiently. We test both versions on the mapped streets around Bishopston, 754 of them inside one small rectangle, and measure the difference.
-
-Facts last verified 30 September 2026. Teaching is online; no Bishopston branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentBishopston starting points
 
 ## Vibe coding, AI agents and how-to-think courses for Bishopston
 
 Match the age, then try it: all four begin with a live lesson that is free and asks for no card.
 
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Vibe coding for children: an idea in words, a Scratch game from an AI, then testing.
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): How to think: judging a whole route, not one step, before picking an answer.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python in depth, with Viterbi map matching on Bishopston roads.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): Generative AI and building AI agents in Python, with evaluation throughout.
+[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsVibe coding for children: an idea in words, a Scratch game from an AI, then testing.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsHow to think: judging a whole route, not one step, before picking an answer.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython in depth, with Viterbi map matching on Bishopston roads.See the syllabus](/courses/python-complete-masterclass-teens)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseGenerative AI and building AI agents in Python, with evaluation throughout.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)About Bishopston
 
 ## Bishopston, Ashley Down, Horfield and Montpelier
 
 One census figure for the ward and the suburb names recorded for this part of Bristol.
 
-**Bishopston and Ashley Down ward, City of Bristol, Census 2021 (Nomis)**
-
 | Measure | Figure |
-|---|---|
+| --- | --- |
 | Usual residents, 2021 | 13,304 |
 | Local authority | City of Bristol |
 
@@ -53,16 +39,16 @@ The 13,304 is for the whole ward of Bishopston and Ashley Down. No separate cens
 
 See [our Bristol page](/best-coding-class-in-bristol) and [South West England](/coding-and-ai-classes-in-south-west-england). Why we put reasoning ahead of tools is set out in [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Bishopston project
+
 ## Which road was it? Map matching with the Viterbi algorithm
 
 A road network, sixty simulated trips, blurred positions, and two ways to put them back on the map.
 
 From OpenStreetMap, through the Overpass service, the learner loads the drivable roads in a rectangle around Bishopston: 102.0 km in 754 mapped ways, cut into 4,218 short segments. Python then simulates 60 trips of between 800 and 2,500 metres along the shortest route between two random junctions and records a position every 40 metres, 2,718 positions in all. Random error is added to each one to imitate a GPS receiver. Because the trips are simulated, the true road for every position is known and both methods can be marked.
 
-**Positions placed on the correct road, median over 60 simulated Bishopston trips, our Python run on OpenStreetMap data**
-
 | GPS error | Closest road | Viterbi |
-|---|---|---|
+| --- | --- | --- |
 | 5 m | 91.8% | 93.3% |
 | 15 m | 76.0% | 83.3% |
 | 30 m | 57.4% | 65.2% |
@@ -87,14 +73,14 @@ Write the Viterbi pass, tune the two scores and measure accuracy at three error 
 
 Road data is from OpenStreetMap and its contributors under the Open Database Licence. Every trip and every GPS position was generated by our program, so no real journeys or people are involved, and the percentages describe this simulation and nothing else.
 
+Sequences and AI
+
 ## Vibe coding and AI agents: judge the whole path, not each step
 
 The Viterbi idea, that the most sensible sequence beats a chain of locally sensible choices, applies directly to AI.
 
-**Bishopston map matching and work with AI, side by side**
-
 | In the road project | In AI work |
-|---|---|
+| --- | --- |
 | Closest road failed at junctions | A step that looks right alone can be wrong in context |
 | Viterbi scored the full sequence | Review an agent's whole plan, not single actions |
 | Gain was 1.5 points at 5 m, 7.3 at 15 m | Clever methods matter most when inputs are noisy |
@@ -105,14 +91,37 @@ Speech recognisers relied on this same algorithm for decades to turn sounds into
 
 OpenStreetMap, the ONS and postcodes.io provide open data, which we acknowledge. They are independent of Modern Age Coders, and responsibility for this analysis rests with us alone.
 
+Pathway
+
 ## A pathway from route puzzles to AI agents
 
 School years are shown as a rough key. The real placement comes out of the free lesson.
 
-- **Years 2 to 7: How to think** Routes, sequences and checking a whole answer. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Ideas turned into games with an AI, then tested by the child. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python and algorithms** Graphs, probability and dynamic programming beside GCSE and A level. [Python for Teens](/courses/python-complete-masterclass-teens), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **Adults: AI agents** Generative AI and agents in Python, measured against known answers. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Years 2 to 7
+
+### How to think
+
+Routes, sequences and checking a whole answer.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Ideas turned into games with an AI, then tested by the child.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python and algorithms
+
+Graphs, probability and dynamic programming beside GCSE and A level.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)Adults
+
+### AI agents
+
+Generative AI and agents in Python, measured against known answers.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)AI and sequences
 
 ## What is map matching, and why use the Viterbi algorithm for it?
 
@@ -124,30 +133,139 @@ Having coded it, a learner looks at any AI output as one candidate sequence amon
 
 Bishopston teenagers who can program a test with known answers are able to mark an AI's work themselves, and that is a reason to write code in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+In practice
+
 ## How Bishopston learners join and what happens
 
 You will want a proper computer, not a phone, with a working camera and a steady connection.
 
-- **Learner writes, tutor probes** The screen being shared is the learner's. They code, and the tutor interrupts with "what will this print?"
-- **A level chosen in the trial** We watch how the learner works in lesson one, place them, and log the exam board where relevant.
-- **Lesson one is free** It costs nothing, and you come away with a suggested course.
-- **Fifteen to twenty in a group** Everyone in it is at the same stage, and they join from across Britain.
-- **Twice every week** School holidays are left free.
-- **One UK time, kept** Clock changes are handled at the tutor's end.
+### Learner writes, tutor probes
 
-**Why online** To fill an level-matched class we draw on the whole UK. A few streets could not supply it, and a video call removes the need.
+The screen being shared is the learner's. They code, and the tutor interrupts with "what will this print?"
+
+### A level chosen in the trial
+
+We watch how the learner works in lesson one, place them, and log the exam board where relevant.
+
+### Lesson one is free
+
+It costs nothing, and you come away with a suggested course.
+
+### Fifteen to twenty in a group
+
+Everyone in it is at the same stage, and they join from across Britain.
+
+### Twice every week
+
+School holidays are left free.
+
+### One UK time, kept
+
+Clock changes are handled at the tutor's end.
+
+Why online
+
+To fill an level-matched class we draw on the whole UK. A few streets could not supply it, and a video call removes the need.
+
+Fees
 
 ## Fees for Bishopston learners
 
 Bishopston is billed on the international schedule that covers all learners outside India.
 
-- First class: USD 0. An entire lesson free of charge, and a course proposed.
-- Group tuition: USD 100 a month. Eight or so live lessons in a class every month.
-- Private tuition: USD 150 a month. Eight or so live lessons with your own tutor every month.
+First class**USD 0**
+
+An entire lesson free of charge, and a course proposed.
+
+Group tuition**USD 100**
+
+Eight or so live lessons in a class every month.
+
+Private tuition**USD 150**
+
+Eight or so live lessons with your own tutor every month.
 
 Our prices are stated in US dollars alone, with no pound figures anywhere. You start paying after the trial, when a course and a weekly time are agreed. The pricing page deals with school breaks, absence and moving from class to private or back.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20Could%20I%20arrange%20a%20free%20vibe%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Bishopston%2C%20Bristol%3F)Reviews
+
+## How Bristol families and other UK learners rate us on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Request a free lesson for Bishopston
+
+Mention the learner's year or age and a favourite subject or hobby. Depending on that, the trial is a route puzzle on paper, a Scratch game made with AI help, some first lines of Python, or dots snapped onto a street map.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Bishopston one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20Could%20I%20arrange%20a%20free%20vibe%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Bishopston%2C%20Bristol%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Bishopston: common questions
+
+What parents and adult learners ask about map matching, the project, agents, fees and timing.
 
 ### What is the population of Bishopston?
 
@@ -189,10 +307,14 @@ USD 100 a month for a class place and USD 150 a month for private tuition, after
 
 They pause. Send your school's dates when you book.
 
+Keep exploring
+
 ## More pages for Bristol and the South West
 
 No two share a project: [Clifton](/best-coding-and-ai-classes-in-clifton-bristol) (finding a lost walker by height), [Bristol](/best-coding-class-in-bristol), [Bath](/best-coding-class-in-bath) and [South West England](/coding-and-ai-classes-in-south-west-england). Every UK page is reachable from the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Chat with us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20Could%20I%20arrange%20a%20free%20vibe%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Bishopston%2C%20Bristol%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-bishopston-bristol](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-bishopston-bristol#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-bishopston-bristol*

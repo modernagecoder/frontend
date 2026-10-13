@@ -12,11 +12,11 @@ LIVE ONLINE · HOWRAH · SANTRAGACHI JUNCTION
 
 Modern Age Coders runs premium, live online coding and mathematics classes for Santragachi and the wider Howrah junction belt. Children from KV Santragachi, Santragachi Kedarnath Institution, Howrah Vivekananda Institution and the Liluah ICSE schools learn Python, Java and AI/ML in small live batches led by full-time engineers and maths graduates. No recorded videos, no crossing Santragachi Bridge or the Kona Expressway. The class arrives straight at your GIP Colony or Andul Road home.
 
-Live, never recordedSmall batches of 6–8CBSE Python + ICSE JavaFree demo in 24 hours[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)1-on-1or small live batches90 minbridge commute saved per class100%full-time engineer & maths-graduate tutors₹1,499per month, group planAT A GLANCE
+Live, never recordedBatches of 15–20CBSE Python + ICSE JavaFree demo in 24 hours[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)1-on-1or small live batches90 minbridge commute saved per class100%full-time engineer & maths-graduate tutors₹1,499per month, group planAT A GLANCE
 
 ## The essentials, in one place
 
-Format**Live online**, one-on-one or live batch, never pre-recordedBatch sizeMax 15–20 (group), up to 6 (mini batch), or fully 1-on-1Ages**6 to 67**, kids, teens, college and working professionalsSubjectsCoding (Python, Java, AI/ML, web, DSA) + Mathematics (school to Olympiad)BoardsCBSE (Python), ICSE (Java/BlueJ), WBBSEFeesFrom ₹1,499/month group · ₹2,999/month mini batch · ₹4,999/month 1-on-1Free demoYes, no commitment, classes start within 24 hoursServingSantragachi, Jagacha, GIP Colony, Dasnagar, Andul Road, Shibpur edge & all HowrahLIVE · PREMIUM · SMALL BATCH
+Format**Live online**, one-on-one or small live batch, never pre-recordedBatch sizeMax 20 (group), up to 6 (mini batch), or fully 1-on-1Ages**6 to 67**, kids, teens, college and working professionalsSubjectsCoding (Python, Java, AI/ML, web, DSA) + Mathematics (school to Olympiad)BoardsCBSE (Python), ICSE (Java/BlueJ), WBBSEFeesFrom ₹1,499/month group · ₹2,999/month mini batch · ₹4,999/month 1-on-1Free demoYes, no commitment, classes start within 24 hoursServingSantragachi, Jagacha, GIP Colony, Dasnagar, Andul Road, Shibpur edge & all HowrahLIVE · PREMIUM · SMALL BATCH
 
 ## Genuinely live, genuinely premium
 

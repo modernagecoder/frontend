@@ -4,34 +4,28 @@ description: "Maths tuition in Coventry from age 6 to 67: a live online maths tu
 canonical: https://learn.modernagecoders.com/maths-tuition-in-coventry
 source: src/pages/maths-tuition-in-coventry.html
 ---
-> Anyone in Coventry aged 6 to 67 can learn maths with us over live video, sharing a class with five to ten others at a matching level or working alone with a tutor. Primary learners work on times tables for the Year 4 check, KS2 maths and Year 6 SATs reasoning. At secondary school that means KS3 maths followed by GCSE (AQA, Edexcel or OCR, foundation or higher) or the IGCSE route. Sixth formers study A level Maths and, where they choose, Further Maths. Adults come for Functional Skills maths, a GCSE maths resit or a refresher. Our Coventry example measures the ring road: its 3,677.6 metre loop encloses 97.49 hectares, about 90.6% of what a circle could hold with the same perimeter. The trial costs nothing; regular lessons are USD 100 per month as part of a group or USD 150 per month on your own.
+> Maths tuition in Coventry from age 6 to 67: a live online maths tutor for times tables, KS2, KS3, GCSE, A level and Further Maths, and adult maths. Free trial.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths tuition in Coventry
+How does our maths tuition in Coventry work?
 
-Coventry · Maths for learners aged 6 to 67 · Live lessons online
+Anyone in Coventry aged 6 to 67 can learn maths with us over live video, sharing a class with five to ten others at a matching level or working alone with a tutor. Primary learners work on times tables for the Year 4 check, KS2 maths and Year 6 SATs reasoning. At secondary school that means KS3 maths followed by GCSE (AQA, Edexcel or OCR, foundation or higher) or the IGCSE route. Sixth formers study A level Maths and, where they choose, Further Maths. Adults come for Functional Skills maths, a GCSE maths resit or a refresher. Our Coventry example measures the ring road: its 3,677.6 metre loop encloses 97.49 hectares, about 90.6% of what a circle could hold with the same perimeter. The trial costs nothing; regular lessons are USD 100 per month as part of a group or USD 150 per month on your own.
 
-# Maths tuition in Coventry
-
-Trace the Coventry ring road on a map and it looks roughly round. Roughly is not a number, so we measured it. One carriageway, followed all the way round in OpenStreetMap, is 3,677.6 metres long and encloses 97.49 hectares. A perfect circle with the same perimeter would hold about 10% more; a square with the same perimeter would hold about 13% less. On the scale mathematicians use to score roundness, the ring road reaches 0.906 out of 1. Perimeter, area, π and ratio all sit inside GCSE, so one road carries a whole course; below we use it to explain how we teach Coventry learners, starting with eight-year-olds learning tables and ending with sixth formers and adults.
-
-At a glance: Learners: Ages 6 to 67 across Coventry; Primary: Times tables, KS2 maths, Year 6 SATs; Secondary: KS3 maths, GCSE foundation or higher; Boards: AQA, Edexcel, OCR; IGCSE too; Sixth form: A level Maths, Further Maths; Adults: Functional Skills maths, GCSE resits; How: Live video, groups of 15 to 20 or private; Coventry project: The ring road, perimeter against area. Rated 4.9 across 547 Google reviews.
+Common starting points in Coventry
 
 ## Three maths courses most Coventry families choose
 
 GCSE, primary and A level maths account for most Coventry enquiries. Every other course is in the full list below.
 
-- [GCSE maths](/courses/gcse-mathematics-mastery): Foundation or higher on AQA, Edexcel or OCR, with geometry practised on real shapes like the ring road.
-- [Primary maths, KS1 and KS2](/courses/elementary-mathematics-complete-masterclass): Multiplication facts, fractions, area and perimeter, and the reasoning in SATs papers.
-- [A level maths](/courses/a-level-maths-course-pure-mechanics-statistics): Pure, mechanics and statistics for Years 12 and 13; Further Maths is taught alongside on request.
+[![GCSE Maths course thumbnail](/images/gcse-maths.webp)  COV / 1 GCSE maths Foundation or higher on AQA, Edexcel or OCR, with geometry practised on real shapes like the ring road. Open the syllabus →](/courses/gcse-mathematics-mastery)[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  COV / 2 Primary maths, KS1 and KS2 Multiplication facts, fractions, area and perimeter, and the reasoning in SATs papers. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)[![A-Level Maths course thumbnail](/images/a-level-maths.webp)  COV / 3 A level maths Pure, mechanics and statistics for Years 12 and 13; Further Maths is taught alongside on request. Open the syllabus →](/courses/a-level-maths-course-pure-mechanics-statistics)
+
+All ages
 
 ## An online maths tutor for Coventry learners at every stage
 
 Coventry schools follow the national curriculum for England. The table shows what each stage covers and where our lessons spend their time; adults slot in wherever they need to.
 
-**Stages of maths for a Coventry learner and our emphasis at each one**
-
 | Stage | Typical age | What our lessons stress |
-|---|---|---|
+| --- | --- | --- |
 | KS1 | 5 to 7 | Number bonds, counting patterns, shapes and simple measuring. |
 | KS2 | 7 to 11 | Times tables before the Year 4 check, perimeter and area of rectangles, fractions, and SATs reasoning in Year 6. |
 | KS3 | 11 to 14 | Algebra, angles, ratio, area of compound shapes and the circle formulas. |
@@ -53,6 +47,8 @@ Stage-by-stage detail lives on our national pages: [KS2 maths](/ks2-maths-tuitio
 
 Year 4 check details: [gov.uk collection page](https://www.gov.uk/government/collections/multiplication-tables-check), checked on 1 October 2026. Key stage ages follow the normal pattern in English schools.
 
+The Coventry project
+
 ## How close to a circle is the Coventry ring road?
 
 A circle encloses more area than any other shape with the same perimeter. That makes a neat test for any loop on a map: compare its area with the area of a circle drawn from the same length of string.
@@ -65,10 +61,8 @@ A circle with a circumference of 3,677.6 metres has radius 3,677.6 ÷ 2π, which
 
 A square with the same perimeter would have sides of 919.4 metres and an area of 845,291 square metres, about 78.5% of the circle. The ring road sits comfortably between the two: rounder than a square, less round than a circle.
 
-**The clockwise ring road loop against a circle and a square with the same perimeter (our calculation from OpenStreetMap, 1 October 2026)**
-
 | Shape | Perimeter | Area enclosed | Roundness score |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Coventry ring road, clockwise carriageway | 3,677.6 m | 974,929 m² | 0.906 |
 | Circle with the same perimeter | 3,677.6 m | 1,076,258 m² | 1.000 |
 | Square with the same perimeter | 3,677.6 m | 845,291 m² | 0.785 |
@@ -87,14 +81,14 @@ The extra 0.16 is a measure of how far the road wanders from a circle. The dista
 
 Data: [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), ways tagged A4053, one Overpass query on 1 October 2026. Lengths and areas are Modern Age Coders' calculations on a local flat projection; the other carriageway did not form a closed loop in our download and is left out. GCSE wording: [DfE, GCSE mathematics subject content](https://www.gov.uk/government/publications/gcse-mathematics-subject-content-and-assessment-objectives), which asks learners to "calculate: perimeters of 2D shapes, including circles; areas of circles".
 
+A primary method, tested
+
 ## Finding the area by counting squares
 
 Before any formula, children estimate area by laying a grid over a shape and counting squares, adding half for each square the edge cuts through. We did exactly that for the ring road with four sizes of grid.
 
-**Counting-squares estimates of the area inside the ring road loop (our calculation)**
-
 | Grid square | Fully inside | Cut by the edge | Estimate | Error |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | 200 m | 14 | 22 | 1,000,000 m² | +2.57% |
 | 100 m | 72 | 48 | 960,000 m² | −1.53% |
 | 50 m | 345 | 94 | 980,000 m² | +0.52% |
@@ -109,6 +103,8 @@ At GCSE the same idea returns as the trapezium rule and, at A level, as integrat
 Our area figure of 974,929 square metres came from the shoelace method, which adds up cross products of neighbouring coordinates. It is quick to code, and A level learners enjoy proving why it works.
 
 All grid counts and errors are Modern Age Coders' calculations, compared with the 974,929 m² shoelace area of the same 131 mapped points.
+
+Maths beyond our lessons
 
 ## The Origin Maths Hub and maths at the University of Warwick
 
@@ -136,6 +132,8 @@ Lessons are online, so a learner in Earlsdon, Tile Hill or Wyken joins from home
 
 Sources: [NCETM, Origin Maths Hub](https://www.ncetm.org.uk/hubs/origin-maths-hub/); [University of Warwick, Mathematics Institute, outreach events for schools](https://warwick.ac.uk/fac/sci/maths/general/outreach/schools-support/school-events/); postcode lookup from postcodes.io. All read 1 October 2026. We have no link with the NCETM, the hub, the University of Warwick or any Coventry school.
 
+Grown-ups
+
 ## Adult maths in Coventry: Functional Skills, GCSE resits and refreshers
 
 Adults make up a steady part of our Coventry learners. Many need a maths qualification; others want to help their children or feel sure of the numbers at work.
@@ -154,14 +152,14 @@ Fractions, percentages and area for home projects and work. See also our [adult 
 
 Adults tend to love the counting-squares table. Many have measured a room for flooring or a garden for turf, and seeing that half a square per edge is a sensible rule, with the error to prove it, turns a school memory into a tool.
 
+Building up
+
 ## From counting squares to the roundness of a ring road
 
 These four steps are the route through the geometry on this page. A newcomer's starting step is decided in the trial lesson.
 
-**A four-step route for Coventry learners, with the sign each step is secure**
-
 | Usually | Step | Secure when the learner |
-|---|---|---|
+| --- | --- | --- |
 | Years 3 and 4 | 1. Tables and squares | Knows the tables and finds an area by counting squares |
 | Years 5 and 6 | 2. Rectangles and composites | Separates perimeter from area and works out L-shapes |
 | Years 7 to 9 | 3. Circles | Uses πr² and 2πr with sensible rounding |
@@ -170,75 +168,353 @@ These four steps are the route through the geometry on this page. A newcomer's s
 ### Arriving in Year 10 or 11
 
 A learner who starts late in GCSE can still improve a great deal, as long as weak foundations are fixed first. Algebra and fractions get attention before anything else.
+
 If the time left is shorter than the gap, we will say so honestly after the free lesson.
 
 ### What comes after
 
 Most go on to A level Maths, some with Further Maths. Learners who like data choose our [statistics and probability course](/courses/statistics-probability-maths-course).
+
 Others turn the shoelace method into code through [maths through coding](/courses/maths-through-coding).
+
+Course list
 
 ## All our maths courses for Coventry
 
 Four groups, from early number to university maths. Each card links to the full syllabus.
 
+I
+
 ### Primary school
 
 KS1 and KS2
 
-- [Early maths](/courses/early-math-foundations): Number, shape and pattern for the youngest learners.
-- [KS2 maths](/courses/elementary-mathematics-complete-masterclass): Years 1 to 6 in full, SATs reasoning included.
-- [Mental arithmetic](/courses/mental-maths-mastery-kids): Working sums out quickly and correctly.
-- [11 plus maths](/courses/11-plus-maths-preparation-course-uk): Timed practice in the style of selective tests.
+MCV / A1
+
+#### Early maths
+
+Number, shape and pattern for the youngest learners.
+
+[Open the syllabus](/courses/early-math-foundations)
+
+MCV / A2
+
+#### KS2 maths
+
+Years 1 to 6 in full, SATs reasoning included.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+MCV / A3
+
+#### Mental arithmetic
+
+Working sums out quickly and correctly.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+MCV / A4
+
+#### 11 plus maths
+
+Timed practice in the style of selective tests.
+
+[Open the syllabus](/courses/11-plus-maths-preparation-course-uk)II
 
 ### Secondary school
 
 KS3 to GCSE
 
-- [KS3 maths](/courses/comprehensive-middle-school-mathematics-mastery): Algebra, geometry and number for Years 7 to 9.
-- [GCSE maths](/courses/gcse-mathematics-mastery): AQA, Edexcel or OCR, at either tier.
-- [IGCSE maths](/courses/igcse-mathematics-mastery): The international papers, start to finish.
-- [Algebra from scratch](/courses/algebra-foundations-masterclass): For learners whose algebra never settled.
+MCV / B1
+
+#### KS3 maths
+
+Algebra, geometry and number for Years 7 to 9.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+MCV / B2
+
+#### GCSE maths
+
+AQA, Edexcel or OCR, at either tier.
+
+[Open the syllabus](/courses/gcse-mathematics-mastery)
+
+MCV / B3
+
+#### IGCSE maths
+
+The international papers, start to finish.
+
+[Open the syllabus](/courses/igcse-mathematics-mastery)
+
+MCV / B4
+
+#### Algebra from scratch
+
+For learners whose algebra never settled.
+
+[Open the syllabus](/courses/algebra-foundations-masterclass)III
 
 ### Sixth form and university
 
 Advanced maths
 
-- [A level maths](/courses/a-level-maths-course-pure-mechanics-statistics): Pure, mechanics and statistics.
-- [Competition maths](/courses/olympiad-competition-mathematics-mastery): Problem solving for UKMT and olympiads.
-- [University maths](/courses/college-mathematics-complete-masterclass): Calculus and linear algebra.
-- [Statistics](/courses/statistics-probability-maths-course): Probability, distributions and inference.
+MCV / C1
+
+#### A level maths
+
+Pure, mechanics and statistics.
+
+[Open the syllabus](/courses/a-level-maths-course-pure-mechanics-statistics)
+
+MCV / C2
+
+#### Competition maths
+
+Problem solving for UKMT and olympiads.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)
+
+MCV / C3
+
+#### University maths
+
+Calculus and linear algebra.
+
+[Open the syllabus](/courses/college-mathematics-complete-masterclass)
+
+MCV / C4
+
+#### Statistics
+
+Probability, distributions and inference.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)IV
 
 ### Maths for life
 
 Adults and enthusiasts
 
-- [Money and business maths](/courses/complete-business-finance-mathematics-mastery): Interest, budgets and growth.
-- [Maths for data](/courses/data-analytics-mathematics-masterclass): The numbers behind analysis.
-- [Maths through coding](/courses/maths-through-coding): Geometry and data with Python.
-- [Abacus arithmetic](/courses/abacus-mental-maths-course-for-kids): A visual way into mental calculation.
+MCV / D1
+
+#### Money and business maths
+
+Interest, budgets and growth.
+
+[Open the syllabus](/courses/complete-business-finance-mathematics-mastery)
+
+MCV / D2
+
+#### Maths for data
+
+The numbers behind analysis.
+
+[Open the syllabus](/courses/data-analytics-mathematics-masterclass)
+
+MCV / D3
+
+#### Maths through coding
+
+Geometry and data with Python.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+MCV / D4
+
+#### Abacus arithmetic
+
+A visual way into mental calculation.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)
+
+Timetable
 
 ## Maths lessons around the Coventry school week
 
 Our teachers work on Indian Standard Time, which never changes. Coventry runs four and a half hours behind India from spring to autumn and five and a half through the winter; every booking is confirmed on UK time.
 
-- **Weekday afternoons** Straight after school for primary and secondary.
-- **Weekday evenings** Sixth formers and adults after work or college.
-- **Weekends** Morning lessons for those who prefer them.
+Weekday afternoons
 
-- **Continuity** The same teacher each week, who knows the learner's habits.
-- **Family updates** Short notes after lessons about progress and next steps.
-- **Groups of fifteen to twenty** Everyone at one level, so no one waits and no one is lost.
-- **Maps and measurements** Ring roads, plans and real data alongside exam questions.
-- **Private lessons available** One to one for a specific gap or a close deadline.
-- **Understanding over speed** Learners explain a method before practising it.
+Straight after school for primary and secondary.
+
+Weekday evenings
+
+Sixth formers and adults after work or college.
+
+Weekends
+
+Morning lessons for those who prefer them.
+
+### Continuity
+
+The same teacher each week, who knows the learner's habits.
+
+### Family updates
+
+Short notes after lessons about progress and next steps.
+
+### Groups of fifteen to twenty
+
+Everyone at one level, so no one waits and no one is lost.
+
+### Maps and measurements
+
+Ring roads, plans and real data alongside exam questions.
+
+### Private lessons available
+
+One to one for a specific gap or a close deadline.
+
+### Understanding over speed
+
+Learners explain a method before practising it.
+
+Student work
+
+## What our learners go on to make
+
+Students who started with measuring problems like the ring road have gone on to build the projects below. The [student labs](/student-labs) have many more.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Charged each month in US dollars, at the same rate for all countries outside India. No enrolment fee, no contract.
 
-- Free first class: USD 0. A genuine lesson at the right level. Straight feedback afterwards. No card details asked for.
-- Group batch: USD 100 a month. Fifteen to twenty learners of one level. A consistent teacher. Homework checked and explained. Certificate when the course ends.
-- One to one: USD 150 a month. Private lessons with one teacher. Planned around specific gaps. Good for the run-up to exams.
+Free first class
+
+USD 0
+
+no card required
+
+- A genuine lesson at the right level
+- Straight feedback afterwards
+- No card details asked for
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners of one level
+- A consistent teacher
+- Homework checked and explained
+- Certificate when the course ends
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- Private lessons with one teacher
+- Planned around specific gaps
+- Good for the run-up to exams
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+What Coventry and other families wrote on Google, unedited.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Coventry maths questions
 
 ## What Coventry parents and learners ask us
 
@@ -282,15 +558,54 @@ No. We mention their public activities so families can find them. We have no lin
 
 No. We teach carefully and report progress honestly, but nobody can guarantee an exam grade and we do not pretend to.
 
+Related pages
+
 ## More for learners in Coventry
 
-- [GCSE maths tuition](/gcse-maths-tuition-online): Our national GCSE page.
-- [Further Maths tuition](/further-maths-tuition-online): The extra A level modules.
-- [11 plus maths in Warwickshire](/11-plus-maths-tuition-warwickshire): The selective test used in Warwickshire.
-- [Coding classes in Coventry](/best-coding-class-in-coventry): Our Coventry page for coding and AI.
-- [Maths tuition in Birmingham](/maths-tuition-in-birmingham): Our Birmingham maths page and its canal project.
-- [UK index](/coding-classes-in-united-kingdom): Every UK page we publish.
+Our maths pages by stage, our coding page for the city and nearby maths pages.
 
-## Contact
+### [GCSE maths tuition](/gcse-maths-tuition-online)
 
-Book the free first class at [https://learn.modernagecoders.com/maths-tuition-in-coventry](https://learn.modernagecoders.com/maths-tuition-in-coventry#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Our national GCSE page.
+
+### [Further Maths tuition](/further-maths-tuition-online)
+
+The extra A level modules.
+
+### [11 plus maths in Warwickshire](/11-plus-maths-tuition-warwickshire)
+
+The selective test used in Warwickshire.
+
+### [Coding classes in Coventry](/best-coding-class-in-coventry)
+
+Our Coventry page for coding and AI.
+
+### [Maths tuition in Birmingham](/maths-tuition-in-birmingham)
+
+Our Birmingham maths page and its canal project.
+
+### [UK index](/coding-classes-in-united-kingdom)
+
+Every UK page we publish.
+
+Start here
+
+## Book a free maths lesson in Coventry
+
+Tell us the learner's age or school year, any exam board, and which topic feels hardest. The first lesson is a full lesson, and you get an honest view of where things stand afterwards.
+
+Browsing first? Look through our [courses](/courses) or read [how lessons work](/how-we-teach).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20a%20learner%20in%20Coventry.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is the fastest way to reach us. Our number starts with India's code because the team is in India; there is no Coventry office and all teaching is online.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/maths-tuition-in-coventry*

@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes in Scheveningen, The Hag
 canonical: https://learn.modernagecoders.com/coding-classes-in-scheveningen
 source: src/pages/coding-classes-in-scheveningen.html
 ---
-> Coding classes in Scheveningen reach the coastal district of The Hague. In 1680 the fishing village held 917 people in 200 buildings. Wijk 07 Scheveningen held 19,637 residents in January 2026 across 10,505 households, of which 5,495 hold one person. Those two figures are often set in one sentence as growth, and they are not measurements of the same thing: the first counted a village, the second counts a statistical polygon of 232 hectares containing five buurten, only one of which is the old village. Modern Age Coders teaches live online in English from Duindorp to the Geuzenkwartier, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
+> Live online coding, Python and AI classes in Scheveningen, The Hague, for ages 6 to 67, from Duindorp to the Statenkwartier. The first lesson is free.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / [The Hague](/coding-classes-in-the-hague) / Scheveningen
-
-Scheveningen, Den Haag / Live online
-
-# Coding classes in Scheveningen, a name that has meant at least four different things and kept all their numbers
-
-**What are the best coding classes in Scheveningen?** Coding classes in Scheveningen reach the coastal district of The Hague. In 1680 the fishing village held 917 people in 200 buildings. Wijk 07 Scheveningen held 19,637 residents in January 2026 across 10,505 households, of which 5,495 hold one person. Those two figures are often set in one sentence as growth, and they are not measurements of the same thing: the first counted a village, the second counts a statistical polygon of 232 hectares containing five buurten, only one of which is the old village. Modern Age Coders teaches live online in English from Duindorp to the Geuzenkwartier, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
-
-The name is older than almost anything it has been attached to. A document of 1357 records terra de Sceveninghe. In 1570 the Allerheiligenvloed destroyed half the settlement, which was rebuilt. In 1680 it was 917 people in 200 buildings with about 250 of them in fishing. From 1818, when Jacob Pronk opened a wooden bathhouse with four bathing rooms, and more so from 1884 when the Kurhaus opened, it was a resort. In the twentieth century the statistics office drew a boundary and called the enclosed area Wijk 07 Scheveningen. Each of those is a real thing with a real number attached. The word connecting them is doing far less work than it appears to.
-
-Facts last verified 10 September 2026. Teaching is online; no Scheveningen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Scheveningen
 
 ## Four courses for the coast
 
 A groep 5 child in Duindorp who has been given a tablet and never a keyboard, a teenager in the Statenkwartier with a folder of drawings of an app, a student in the Badplaats whose code broke the day somebody renamed something, and an adult in Belgisch Park watching a chart whose definition changed halfway along. Four ways in, and none of them costs anything on the first hour.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Real typed Python, where naming a thing and knowing what it holds turn out to be two separate jobs.
-- [App Development for Teens](/courses/complete-app-development-masterclass-for-teens) (Ages 13 to 18): An app taken from a folder of drawings to something that installs and runs, which is the step almost nobody takes alone.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Python that runs unattended, where a field that quietly changed meaning is the most expensive kind of error there is.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): Reading a series across a change of definition, for anybody who has to explain why a chart turned.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsReal typed Python, where naming a thing and knowing what it holds turn out to be two separate jobs.See the syllabus](/courses/python-ai-kids-masterclass)[![App Development for Teens course thumbnail](/images/app-dev-teens.webp)Ages 13 to 18App Development for TeensAn app taken from a folder of drawings to something that installs and runs, which is the step almost nobody takes alone.See the syllabus](/courses/complete-app-development-masterclass-for-teens)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CoursePython that runs unattended, where a field that quietly changed meaning is the most expensive kind of error there is.See the syllabus](/courses/python-ai-automation-masterclass-college)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)Reading a series across a change of definition, for anybody who has to explain why a chart turned.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Scheveningen today
 
 ## Four coastal wijken, read in full
 
@@ -52,16 +40,18 @@ Scheveningen has 10,505 households averaging 1.8 people, 5,495 of them a single 
 
 The over-sixty-fives are between a fifth and a quarter everywhere here: 21 percent in Scheveningen, 22 in Belgisch Park, 20 in Geuzen en Statenkwartier, 18 in Duindorp. Children under fifteen run the other way and much tighter, from 14 to 16 percent. Housing values do not follow either: 620,000 euro average in Geuzen en Statenkwartier, 541,000 in Belgisch Park, 425,000 in Scheveningen, 377,000 in Duindorp.
 
-**Why this page says four wijken and not four out of some number** The statistics office publishes wijken for the municipality, 45 of them across 115 buurten, and does not group them by stadsdeel in the listing this page was built from. So the number of wijken belonging to stadsdeel Scheveningen was not established from a published source, and rather than guess it or count from memory, this page names the four it read and claims no fraction at all. The two published stadsdeel totals are 55,717 residents for 2015 and, on the Hague city page in this series, 59,992 for 2022. Neither is a 2026 count and neither is used as one.
+Why this page says four wijken and not four out of some number
+
+The statistics office publishes wijken for the municipality, 45 of them across 115 buurten, and does not group them by stadsdeel in the listing this page was built from. So the number of wijken belonging to stadsdeel Scheveningen was not established from a published source, and rather than guess it or count from memory, this page names the four it read and claims no fraction at all. The two published stadsdeel totals are 55,717 residents for 2015 and, on the Hague city page in this series, 59,992 for 2022. Neither is a 2026 count and neither is used as one.
+
+Where the learners are
 
 ## One word, six rows, at least four different things
 
 Every row below is a real published figure and every row is about something called Scheveningen. They are not observations of one object at different times.
 
-**What the word has denoted, and what was counted**
-
 | When | What bore the name | What was counted | The figure |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1357 | terra de Sceveninghe, in a document | nothing; the name appears | no count |
 | 1570 | the settlement, after the Allerheiligenvloed | the half destroyed | no count |
 | 1680 | the fishing village | people, and buildings | 917 in 200 |
@@ -70,6 +60,8 @@ Every row below is a real published figure and every row is about something call
 | 2026 | Wijk 07 Scheveningen, the same boundary | residents inside it | 19,637 |
 
 The last two rows can be compared. They are the same office, the same definition and the same polygon, twelve years apart. None of the earlier rows can be compared with them, and the reason is not that the old records are unreliable. It is that a fishing village of 200 buildings and a wijk of 232 hectares containing Scheveningen Badplaats, Rijslag, Oud Scheveningen, the Visserijbuurt and the Vissershaven are different objects, and only one of those five buurten is the place that was counted in 1680. Nothing was measured badly. The two numbers were simply never about the same thing.
+
+Verified local facts
 
 ## Four rows in full, nothing calculated, and one number this page does not have
 
@@ -101,6 +93,8 @@ No arithmetic. Every figure above is quoted as published, none was averaged, and
 
 Nothing connects Modern Age Coders to Scheveningen, to The Hague or to any school named or counted above, and nothing here should be read as claiming otherwise. Wijk figures come one page at a time from the statistics office, at the vintages that office assigns: residents and ages January 2026, households and housing 2025, income 2024. The historical material is separately sourced and separately dated, which is the entire point of the page.
 
+Signature project
+
 ## The name held. The thing it named did not.
 
 Two numbers, three centuries apart, and the question nobody asks before subtracting one from the other.
@@ -117,10 +111,8 @@ The 917 and the 19,637 sit in the same column of the same kind of record, both a
 
 Wijk 07 held 16,570 in 2014 and 19,637 in 2026. Same office, same boundary, twelve years. That comparison is available and this page makes no more of it than that, because a comparison being valid does not make it interesting.
 
-**A name outliving its meaning, in five other places**
-
 | The stable name | What changed underneath it | What the chart shows | What it looks like |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | A column called active_users | the definition of active | a step in the series | growth, or collapse |
 | A customer ID reused after deletion | which customer it points at | one long history | a loyal customer |
 | A function kept through a refactor | what it returns | nothing; it compiles | working code |
@@ -131,14 +123,14 @@ Wijk 07 held 16,570 in 2014 and 19,637 in 2026. Same office, same boundary, twel
 
 Renaming is the one refactor everybody trusts, because the tools make it safe: change a name in one place and every reference follows, and if one does not the build breaks and tells you. That reliability is exactly what makes the opposite mistake invisible. Keep the name and change what it means, and no tool anywhere will say a word. The code compiles, the tests pass if they were written against the name rather than the behaviour, the dashboard keeps drawing, the column keeps filling, and every consumer downstream carries on believing something that stopped being true at a particular commit on a particular afternoon. This is the single most expensive class of error in long-lived systems and it is almost never taught, because it cannot be demonstrated in a short program: it needs time to pass. So the discipline has to be imported deliberately. When a definition changes, change the name too, even when the old one still fits, even when it is more work, even when everyone knows what is meant. A new name forces every user to look at it once. Keeping the old one buys a week of convenience and sells an unbounded number of future comparisons that will look valid, pass every check, and be wrong. A place can carry one name for seven hundred years and be four different things; a column can do it in eighteen months, and unlike the place, the column will let you subtract.
 
+Reliable pipeline
+
 ## Five habits for a series that crosses a redefinition
 
 Revenue, headcount, active users, response time, pass rate: every long-running measure eventually gets redefined, and the name almost never changes with it. Practised on a coast where one word has covered a village, a resort and a polygon.
 
-**Reading a number whose name is older than its definition**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Date the definition | Record when the meaning was set, not only when the value was | Two definitions read as one series | A boundary you can see |
 | Ask what bore the name | Describe the object counted, in each period, without the name | A word standing in for an identity | Whether there is anything to compare |
 | Split at every change | Break the series wherever the definition moved | A single line drawn through two things | Segments that are each honest |
@@ -159,14 +151,37 @@ A metric at work that goes back several years. Adults very often find one redefi
 
 Wijk figures are quoted from four statistics office pages, one per wijk, at the office own vintages: residents and ages January 2026, households and housing 2025, income 2024. The 1357 document, the 1570 flood, the 1680 count of 917 people in 200 buildings, the 1818 bathhouse, the 1884 Kurhaus, the 16,570 for 2014 and the 55,717 for 2015 come from the encyclopaedia entry. Those two bodies of fact are kept visibly apart here because joining them is the error the page is about.
 
+Learning ladder
+
 ## From a variable that quietly changed job to a report comparing across a redefinition
 
 Where a learner starts is settled in the free hour by what they can actually do. Neither the wijk nor the birth year has any part in it.
 
-- **Ages 6 to 10: The variable that changed job** Children rename one thing halfway through and then have to read their own program back. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Game Development for Kids](/courses/game-development-masterclass-for-kids)
-- **Ages 11 to 13: Date the definition** Learners write down what each column means and when that was decided. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: The break the code cannot infer** Teenagers try to detect a redefinition automatically and find out why it has to be declared. [App Development for Teens](/courses/complete-app-development-masterclass-for-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: The comparison already in the report** Adults take a multi-year metric apart and usually find one redefinition nobody recorded. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### The variable that changed job
+
+Children rename one thing halfway through and then have to read their own program back.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Game Development for Kids](/courses/game-development-masterclass-for-kids)Ages 11 to 13
+
+### Date the definition
+
+Learners write down what each column means and when that was decided.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### The break the code cannot infer
+
+Teenagers try to detect a redefinition automatically and find out why it has to be declared.
+
+[App Development for Teens](/courses/complete-app-development-masterclass-for-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### The comparison already in the report
+
+Adults take a multi-year metric apart and usually find one redefinition nobody recorded.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## An AI will tell you Scheveningen grew from 917 people to nearly twenty thousand. Why should a teenager in Duindorp ask which Scheveningen?
 
@@ -178,30 +193,139 @@ So the learner practises asking what bore the name, every time, before comparing
 
 The case for a child in Scheveningen learning to code in 2026 is therefore not about the coast. It is that code is where the gap between a name and a meaning is small enough to see and quick enough to hurt, which is the only way anyone ever learns it. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes along the Hague coast
 
 Scheveningen sits apart from the rest of the city, up behind the dunes, with the harbour at one end and the Statenkwartier at the other, and a good deal of the year when the weather makes an evening trip unattractive.
 
-- **The dunes stay where they are** Getting from Duindorp or the Vissershaven to anywhere inland in February, in the dark, in the wind off the sea, is the reason a weekly commitment lapses. A class that happens at home does not have that failure mode.
-- **Untranslated on purpose** Groep, havo, vwo, profielkeuze. Four Dutch words held constant inside an English lesson, because those are the words on the paperwork, and a child should not have to translate their own school year to answer a question about it.
-- **The free lesson is a lesson** A task, a teacher watching the working rather than the answer, and three things settled by the end: the level, the course that follows from it, and the hour each week. No payment, no card, no follow-up call pretending to be one.
-- **Stage, not postcode** A group is fifteen to twenty learners at one stage. Any single wijk, at any given month, has almost nobody at a specific narrow level, so groups are drawn from everywhere. It is the reason a level exists to join instead of a list to join.
-- **Two a week, regio Midden dates** Roughly eight lessons a month at one fixed hour. School holidays across Zuid-Holland follow regio Midden and are published years in advance, so the weeks off are written into the schedule when it is made.
-- **One clock moves, and it is not the teacher one** Three and a half hours ahead in Dutch summer time, four and a half outside it. India has kept a single time for decades; the whole change comes from here, and neither setting removes an hour a family would have used.
+### The dunes stay where they are
 
-**A wijk with 955 children and a wijk with 2,690** Duindorp has 955 residents under fifteen and Wijk 07 Scheveningen has 2,690, with Geuzen en Statenkwartier at 2,180 and Belgisch Park at 1,215. Those are four quite different sized populations of children living within a few kilometres of one another. None of them tells you whether fifteen to twenty learners at one specific stage of one specific subject will be available in one specific month, because a stage is narrow and a wijk is wide and the two have nothing to do with each other. Which is why the pool is worldwide and the ages run from 6 to 67.
+Getting from Duindorp or the Vissershaven to anywhere inland in February, in the dark, in the wind off the sea, is the reason a weekly commitment lapses. A class that happens at home does not have that failure mode.
+
+### Untranslated on purpose
+
+Groep, havo, vwo, profielkeuze. Four Dutch words held constant inside an English lesson, because those are the words on the paperwork, and a child should not have to translate their own school year to answer a question about it.
+
+### The free lesson is a lesson
+
+A task, a teacher watching the working rather than the answer, and three things settled by the end: the level, the course that follows from it, and the hour each week. No payment, no card, no follow-up call pretending to be one.
+
+### Stage, not postcode
+
+A group is fifteen to twenty learners at one stage. Any single wijk, at any given month, has almost nobody at a specific narrow level, so groups are drawn from everywhere. It is the reason a level exists to join instead of a list to join.
+
+### Two a week, regio Midden dates
+
+Roughly eight lessons a month at one fixed hour. School holidays across Zuid-Holland follow regio Midden and are published years in advance, so the weeks off are written into the schedule when it is made.
+
+### One clock moves, and it is not the teacher one
+
+Three and a half hours ahead in Dutch summer time, four and a half outside it. India has kept a single time for decades; the whole change comes from here, and neither setting removes an hour a family would have used.
+
+A wijk with 955 children and a wijk with 2,690
+
+Duindorp has 955 residents under fifteen and Wijk 07 Scheveningen has 2,690, with Geuzen en Statenkwartier at 2,180 and Belgisch Park at 1,215. Those are four quite different sized populations of children living within a few kilometres of one another. None of them tells you whether fifteen to twenty learners at one specific stage of one specific subject will be available in one specific month, because a stage is narrow and a wijk is wide and the two have nothing to do with each other. Which is why the pool is worldwide and the ages run from 6 to 67.
+
+Fees
 
 ## The fee, in dollars, everywhere on the coast
 
 Written down here instead of saved for a conversation.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 A single international rate in dollars, with no euro edition, so the Vissershaven and the Statenkwartier are quoted identically. Nothing is paid until the free lesson has produced a course and an hour, and payment is arranged afterwards over WhatsApp. Pausing, changing plan and missing a week are all written out on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Scheveningen.)Reviews
+
+## Six Google reviews, exactly as the people who left them wrote them
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Send the level, not the wijk
+
+The first task might be a variable caught changing job halfway down a program, a column redefined in the middle of a small dataset, or a metric at work that goes back far enough to have been redefined without anyone writing it down.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Scheveningen one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Scheveningen.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Scheveningen coding class questions
+
+The coast, its wijken, one word doing too much work, the teaching and the terms.
 
 ### Did Scheveningen really grow from 917 people to nearly twenty thousand?
 
@@ -243,10 +367,14 @@ The first lesson is free. After it, group tuition is USD 100 a month for two liv
 
 Fifteen to twenty, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
+Explore The Hague and beyond
+
 ## Inland from the dunes, and out along the coast
 
 Inland are [Den Haag Centrum](/coding-classes-in-the-hague-centrum), which will not grade a household figure at all, and [Escamp](/coding-classes-in-escamp), which counts school buildings and then explains why that was the wrong count. The city page, [coding classes in The Hague](/coding-classes-in-the-hague), carries all eight stadsdelen. Further south the coast becomes the [Westland](/coding-classes-in-westland), and north-east across the province lies [Zuid-Holland](/coding-classes-in-zuid-holland) entire. Anyone whose real goal is a trained model rather than a running program is better served by [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands), and the whole series hangs from the [Netherlands coding hub](/coding-classes-in-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Finish this on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Scheveningen.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-scheveningen](https://learn.modernagecoders.com/coding-classes-in-scheveningen#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-scheveningen*

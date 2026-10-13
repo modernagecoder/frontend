@@ -4,46 +4,32 @@ description: "Coding, Python, data and AI lessons for Gorey learners aged 6 to 6
 canonical: https://learn.modernagecoders.com/best-coding-class-in-gorey
 source: src/pages/best-coding-class-in-gorey.html
 ---
-> Gorey has 11,428 usual residents, and 3,473 of its households report broadband, the only link a lesson with us requires. Each lesson is taught live on video by a teacher working with a small group at one level or with one learner, most weeks twice, for ages from six to sixty-seven. We charge nothing for the first lesson; the monthly fee is USD 100 in a group and USD 150 one to one.
+> Coding, Python, data and AI lessons for Gorey learners aged 6 to 67, taught live online in small groups of one level or one to one. The first lesson is free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [County Wexford](/coding-classes-in-county-wexford) / Gorey
-
-Gorey, County Wexford / Live online
-
-# Coding classes in Gorey
-
-**What is the best coding class in Gorey?** Gorey has 11,428 usual residents, and 3,473 of its households report broadband, the only link a lesson with us requires. Each lesson is taught live on video by a teacher working with a small group at one level or with one learner, most weeks twice, for ages from six to sixty-seven. We charge nothing for the first lesson; the monthly fee is USD 100 in a group and USD 150 one to one.
-
-Census 2022 asked every worker in Gorey whether they work from home, and 1,057 said they do, at least some of the time. It is a tidy number, and it answers one question: how many people. It does not answer a second question that matters just as much: how much. The census asked that too, and nationally the answers are striking. Among home-workers who said how many days, the single most common answer is not one day but five. This page puts the two measures side by side, the share of people and the number of days, and shows why a report that gives only one of them can mislead in either direction.
-
-Facts last verified 19 September 2026. Teaching is online; no Gorey branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Gorey
 
 ## Good places for Gorey learners to begin
 
 Pick a course by age and what the learner enjoys. The free first lesson, with that course's teacher, pins down the level.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Block coding with games that count both how many players scored and how many points they got.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 13): Averages, weighted averages and frequency tables, built in code from real counts.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): Summaries that answer different questions, and choosing the right one for the question asked.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (College and adult): For adults whose reports count people when the decision really depends on hours, days or amounts.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlock coding with games that count both how many players scored and how many points they got.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 13Maths Through CodingAverages, weighted averages and frequency tables, built in code from real counts.See the syllabus](/courses/maths-through-coding)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensSummaries that answer different questions, and choosing the right one for the question asked.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)College and adultData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For adults whose reports count people when the decision really depends on hours, days or amounts.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## Count the people who work from home, then count the days
 
 The town tables give Gorey's yes-or-no answer. A national CSO table breaks the same question down by number of days. The learner builds both measures and compares the stories they tell.
 
-**Workers in Ireland who work from home, by days a week (CSO table F7137, Census 2022)**
-
 | Days a week at home | Workers |
-|---|---|
+| --- | --- |
 | 1 day | 112,109 |
 | 2 days | 124,238 |
 | 3 days | 119,767 |
@@ -66,10 +52,8 @@ Of the 677,777 home-workers nationally who gave a number, five days is the most 
 
 Counted in people, home-working looks like a minority habit. Counted in days, those who said how many worked 2,324,616 days a week at home between them. Prevalence and intensity are both true, and they answer different questions.
 
-**Three home-working figures for Gorey, and what each one is**
-
 | Figure | Value | What it measures |
-|---|---|---|
+| --- | --- | --- |
 | Work from home at least some of the time | 1,057 | People, from the direct question |
 | Work mainly at or from home | 354 | People, from the travel question |
 | Home-working days a week, borrowing the national average | About 3,600 | Days, an estimate resting on an assumption |
@@ -79,6 +63,8 @@ Counted in people, home-working looks like a minority habit. Counted in days, th
 A figure for how many people do something is only half a description. Whether it is homeworking, exercise, screen time or overtime, the same headcount can hide one short session a week or a full-time habit, and the decisions that follow usually depend on the amount. The reverse error is just as common: a large total built from a few heavy users can be reported as if the habit were widespread. Good reporting gives both, prevalence and intensity, and says which one a claim rests on.
 
 The learner stores the national table as a dictionary from days to workers, keeps the "days not stated" group to one side rather than guessing its days, and computes three things: the share of workers who work from home at all, the most common number of days, and the weighted average number of days. A final function borrows the national average for Gorey, taking the assumption as a named parameter, so that anyone reading the code sees exactly what the estimate depends on and can change it.
+
+Which number for which job
 
 ## Prevalence, intensity and borrowed figures
 
@@ -96,16 +82,18 @@ If the question is how many trips, desk days or lunches move out of the office, 
 
 About 3,600 days a week for Gorey assumes its home-workers split their days like the national ones. Gorey's jobs and commutes may differ, so the figure is a starting estimate, not a measurement.
 
-**What this page does not claim** It gives no measured number of home-working days for Gorey, because the town tables do not break the answer down by days. It does not say why five days is the most common answer nationally, and the two Gorey counts, from two differently worded questions, are not combined.
+What this page does not claim
+
+It gives no measured number of home-working days for Gorey, because the town tables do not break the answer down by days. It does not say why five days is the most common answer nationally, and the two Gorey counts, from two differently worded questions, are not combined.
+
+The town in the census
 
 ## Gorey in the 2022 census
 
 Small area figures for the town of Gorey, Co Wexford, from Census 2022. Every figure concerns people usually living there, or their homes.
 
-**Gorey's headline counts**
-
 | Subject | Census count |
-|---|---|
+| --- | --- |
 | Usual residents | 11,428 |
 | Households | 4,150 |
 | Households with broadband | 3,473 |
@@ -126,7 +114,11 @@ Of 3,142 journeys to school, college or childcare, 1,528 are as a car passenger 
 
 Gorey's working residents answered the direct question this way: 1,057 at least partly from home, 3,300 never, 394 no answer.
 
-**The station** Irish Rail gives the station address as Iarnród Éireann, Gorey, Co. Wexford, Eircode Y25 PY58, and notes bike parking there. It has no connection with us.
+The station
+
+Irish Rail gives the station address as Iarnród Éireann, Gorey, Co. Wexford, Eircode Y25 PY58, and notes bike parking there. It has no connection with us.
+
+Learning here
 
 ## Lessons for Gorey learners
 
@@ -146,14 +138,37 @@ Adults arrive with every sort of background, including none in code, and the cou
 
 Each census figure on this page is quoted as the Central Statistics Office published it. The national days breakdown is CSO table F7137; the shares, averages and the borrowed estimate were worked out on 19 September 2026. Irish Rail is quoted from its station page.
 
+Learning ladder
+
 ## From counting players to weighing amounts
 
 Age bands are only a starting guess; the first lesson places each learner properly.
 
-- **Ages 6 to 10: Who and how much** Block-coded games that keep two scores: how many players did something, and how much they did. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Frequency tables** Python that turns a table of counts into a most common value, an average and a chart. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 14 to 18: The right summary** Choosing between prevalence and intensity, and stating assumptions when data are borrowed. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **Ages 18 to 67: Metrics at work** Reports that count users when the decision depends on usage, and how to fix them. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### Who and how much
+
+Block-coded games that keep two scores: how many players did something, and how much they did.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Frequency tables
+
+Python that turns a table of counts into a most common value, an average and a chart.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### The right summary
+
+Choosing between prevalence and intensity, and stating assumptions when data are borrowed.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)Ages 18 to 67
+
+### Metrics at work
+
+Reports that count users when the decision depends on usage, and how to fix them.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## Ask an assistant how common home-working is in Gorey
 
@@ -165,30 +180,139 @@ A learner who has done this project asks the follow-up: counted in people or in 
 
 Assistants summarise quickly. Choosing the summary that fits the question is still the analyst's call. The longer argument is in [why learning to code is time well spent](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How lessons are run for Gorey
 
 What to expect.
 
-- **Live teaching** Every lesson is led by a teacher in real time, working from what the learner has built.
-- **Groups by level** Fifteen to twenty learners at one stage, from Wexford, the rest of Ireland and abroad.
-- **Usually twice a week** Roughly eight lessons a month, at times agreed before starting.
-- **Planned round school** Mid-terms, holidays and exam weeks are allowed for in the course plan.
-- **Equipment** Computer, not phone: a laptop or desktop with a keyboard, plus a headset or speakers and a microphone, on a connection that can hold live video.
-- **Private teaching** Some learners do better one to one: those far ahead, those who want extra time on each step, and those whose free hours fall outside every group.
+### Live teaching
 
-**Taught remotely** Gorey learners take every lesson on video. We have no premises in Gorey or anywhere in Ireland, and a lesson is the same from any home with a connection.
+Every lesson is led by a teacher in real time, working from what the learner has built.
+
+### Groups by level
+
+Fifteen to twenty learners at one stage, from Wexford, the rest of Ireland and abroad.
+
+### Usually twice a week
+
+Roughly eight lessons a month, at times agreed before starting.
+
+### Planned round school
+
+Mid-terms, holidays and exam weeks are allowed for in the course plan.
+
+### Equipment
+
+Computer, not phone: a laptop or desktop with a keyboard, plus a headset or speakers and a microphone, on a connection that can hold live video.
+
+### Private teaching
+
+Some learners do better one to one: those far ahead, those who want extra time on each step, and those whose free hours fall outside every group.
+
+Taught remotely
+
+Gorey learners take every lesson on video. We have no premises in Gorey or anywhere in Ireland, and a lesson is the same from any home with a connection.
+
+Fees
 
 ## Fees for Gorey
 
 The full price list.
 
-- First class: USD 0. A full first lesson with a level assessment, free.
-- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at the same stage, about eight live lessons.
-- Private tuition: USD 150 a month. A month of one-to-one teaching at the same weekly rhythm.
+First class**USD 0**
+
+A full first lesson with a level assessment, free.
+
+Group tuition**USD 100**
+
+A month in a group of fifteen to twenty at the same stage, about eight live lessons.
+
+Private tuition**USD 150**
+
+A month of one-to-one teaching at the same weekly rhythm.
 
 A family anywhere outside India pays the same US dollar amount each month. The first lesson is free and carries no obligation; the first charge follows when a course starts, and the pricing page lays out holidays, missed lessons and moving between group and private teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Gorey.)Reviews
+
+## Six families' words from Google, unedited
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free first lesson in Gorey
+
+Give us the learner's age and a sense of what they enjoy, and the first hour will be planned for them. It may finish with a game, a working program, or a chart of how many days people really spend at home.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Gorey one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Gorey.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Gorey coding class questions
+
+What Gorey families ask first.
 
 ### How many people live in Gorey?
 
@@ -230,10 +354,14 @@ The first lesson is free. After that a shared place costs USD 100 a month and br
 
 Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
+Explore Ireland
+
 ## North Wexford and further
 
 Gorey's county page is [County Wexford](/coding-classes-in-county-wexford), and the other Wexford towns in the series are [Wexford town](/best-coding-class-in-wexford) and [Enniscorthy](/best-coding-class-in-enniscorthy), with [Arklow](/best-coding-class-in-arklow) the next town north and [Leinster](/coding-and-ai-classes-in-leinster) above. Online coding schools are compared on [a page of their own](/best-online-coding-classes-ireland), and the [Ireland hub](/coding-classes-in-ireland) links every page.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Gorey.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-gorey](https://learn.modernagecoders.com/best-coding-class-in-gorey#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-gorey*

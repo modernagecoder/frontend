@@ -190,7 +190,7 @@ module.exports = {
             'For coding and computing in the city, see our <a class="ag-inline-link" href="/best-coding-class-in-southend-on-sea">Southend coding page</a>.'
           ],
           right: [
-            'Lessons are live on video. A child in Leigh-on-Sea, Westcliff or Shoeburyness is taught with children at the same level of Year 5 maths from across the country, in groups of five to ten.',
+            'Lessons are live on video. A child in Leigh-on-Sea, Westcliff or Shoeburyness is taught with children at the same level of Year 5 maths from across the country, in groups of fifteen to twenty.',
             'We have no connection with the CSSE, Southend-on-Sea City Council or any of these schools.'
           ] },
         { kind: 'source', html: 'Source: Southend-on-Sea City Council, secondary schools admissions booklet 2026-27.' }

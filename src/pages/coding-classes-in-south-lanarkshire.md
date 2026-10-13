@@ -4,46 +4,32 @@ description: "Live online coding, Python and maths classes across South Lanarksh
 canonical: https://learn.modernagecoders.com/coding-classes-in-south-lanarkshire
 source: src/pages/coding-classes-in-south-lanarkshire.html
 ---
-> South Lanarkshire is one of Scotland's bigger council areas, with about 327,200 residents in roughly 147,800 households at the 2022 census and 184.7 people per square kilometre. East Kilbride is its largest town, then Hamilton, with Rutherglen and Cambuslang each around 30,000 and Blantyre, Larkhall, Carluke and Lanark further down. Classes run live over video from India, and a free first lesson settles each learner's stage, P1 through S6 or adult. Anyone aged 6 to 67 can take coding, Python and maths, in a group of fifteen to twenty or with a private teacher. The South Lanarkshire project starts in the schoolrooms of New Lanark. Staying on costs USD 100 a month for a group place or USD 150 a month for one-to-one.
+> Live online coding, Python and maths classes across South Lanarkshire, from East Kilbride, Hamilton and Rutherglen to Cambuslang, Blantyre and Lanark.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / South Lanarkshire
-
-South Lanarkshire / Live online
-
-# Coding classes in South Lanarkshire
-
-**What are the best coding classes in South Lanarkshire?** South Lanarkshire is one of Scotland's bigger council areas, with about 327,200 residents in roughly 147,800 households at the 2022 census and 184.7 people per square kilometre. East Kilbride is its largest town, then Hamilton, with Rutherglen and Cambuslang each around 30,000 and Blantyre, Larkhall, Carluke and Lanark further down. Classes run live over video from India, and a free first lesson settles each learner's stage, P1 through S6 or adult. Anyone aged 6 to 67 can take coding, Python and maths, in a group of fifteen to twenty or with a private teacher. The South Lanarkshire project starts in the schoolrooms of New Lanark. Staying on costs USD 100 a month for a group place or USD 150 a month for one-to-one.
-
-At New Lanark, the cotton-spinning village begun by David Dale and developed by Robert Owen, Historic Environment Scotland lists the building of 1816 once called the New Institution for the Formation of Character at Category A. The listing says it served Owen's system of education for all ages, and was built on lines Owen set out for a school based on the ideas of Joseph Lancaster, an educational innovator known for having older pupils help to teach younger ones. That raises a question computer networks face every day: what is the quickest way to pass one message to hundreds of people, and how much of it survives being passed on? This page's project answers it in Python for an invented school of 500.
-
-Facts last verified 26 September 2026. Teaching is online; no South Lanarkshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for South Lanarkshire
 
 ## Starting courses across South Lanarkshire
 
 A P2 in Hamilton who loves games, a P7 in East Kilbride ready for typed code, an S4 in Carluke working towards National 5, and an adult in Rutherglen learning to build web tools. Each of them opens with a free lesson.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 12): Block coding with messages passed between sprites, from one to many.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 9 to 13): A first typed language, including simple simulations of groups and chains.
-- [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens) (Ages 13 to 18): Algorithms and data structures for teenagers, including trees and graphs.
-- [Full Stack Developer Course](/courses/full-stack-web-development-masterclass-college) (Adults): Web development for adults, where requests fan out across servers every day.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 12Coding for KidsBlock coding with messages passed between sprites, from one to many.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 9 to 13Python and AI for KidsA first typed language, including simple simulations of groups and chains.See the syllabus](/courses/python-ai-kids-masterclass)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)Ages 13 to 18Problem Solving for TeensAlgorithms and data structures for teenagers, including trees and graphs.See the syllabus](/courses/problem-solving-dsa-masterclass-teens)[![Full Stack Developer Course course thumbnail](/images/full-stack-development-college.webp)AdultsFull Stack Developer CourseWeb development for adults, where requests fan out across servers every day.See the syllabus](/courses/full-stack-web-development-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)South Lanarkshire by numbers
 
 ## About 327,200 people in South Lanarkshire
 
 The council figure is a rounded first result of the 2022 census from National Records of Scotland. Town figures are separate NRS estimates for mid-2020.
 
-**South Lanarkshire localities above 5,000 people, NRS mid-2020 estimates**
-
 | Locality | Residents | Locality | Residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | East Kilbride | 75,310 | Carluke | 13,810 |
 | Hamilton | 54,480 | Lanark | 8,880 |
 | Rutherglen | 30,950 | Strathaven | 8,090 |
@@ -57,16 +43,16 @@ At 184.7 residents per square kilometre, South Lanarkshire is well above the Sco
 
 The [Glasgow](/best-coding-class-in-glasgow) page covers the city. For qualifications: [Higher Computing Science](/higher-computing-science-help) and [National 5 Maths](/national-5-maths-tuition-online).
 
+The South Lanarkshire project
+
 ## One lesson, 500 pupils, many ways to pass it on
 
 Rounds, trees and the cost of every hand-off.
 
 The school is invented. One teacher knows a lesson and 500 pupils need it. Time passes in rounds, and in each round anyone who already knows the lesson may teach a small number of new people. Every time the lesson passes from one person to another, there is a small chance it gets garbled; the model says each hand-off keeps it intact 98 times in 100. The learner codes several schemes in Python and counts two things: how many rounds until everyone knows, and how many hand-offs separate the last pupil from the teacher.
 
-**Our invented school of 500, five ways to spread one lesson, 26 September 2026**
-
 | Scheme | Rounds needed | Longest chain of hand-offs | Lesson intact at the end of it |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Teacher alone, 10 pupils a round | 50 | 1 | 98.0 per cent |
 | Teacher trains monitors, each monitor teaches 10 | 6 | 2 | 96.0 per cent |
 | Everyone who knows teaches 1 new pupil a round | 9 | 8 | 85.1 per cent |
@@ -93,14 +79,14 @@ Compare all five schemes, derive the logarithmic rounds, and confirm the fidelit
 
 New Lanark and its Institute come from the Historic Environment Scotland listings. The 500 pupils, the 98 per cent figure and every result are invented for teaching, and do not describe how lessons were actually given there.
 
+Why New Lanark
+
 ## A mill village built around learning
 
 What the listings for the Institute and Mill No 1 record.
 
-**New Lanark, HES listings LB37049 (Institute) and LB37051 (Mill No 1), both Category A**
-
 | Listing detail | What it records |
-|---|---|
+| --- | --- |
 | Institute built | 1816, with an engine house added in 1881 |
 | Purpose | Part of Robert Owen's system of education providing for all ages |
 | Design | On lines Owen set out for a school based on the ideas of Joseph Lancaster |
@@ -112,14 +98,37 @@ Spreading information efficiently is one of the central problems of computing: i
 
 Historic Environment Scotland and South Lanarkshire Council have no connection with us. The listing facts are theirs; the invented school, the simulations and any errors belong to us.
 
+Learning path
+
 ## From passing notes to network trees
 
 A rough guide only; the free lesson decides where each learner begins.
 
-- **P1 to P4: Messages and sprites** Block coding with sprites that send and receive messages. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **P5 to S2: Counting and doubling** Typed Python with loops, doubling and simple simulations. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **S3 to S6: Trees and graphs** Data structures and algorithms beside National 5, Higher and Advanced Higher Computing Science. [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Systems that scale** Web development and Python for adults building connected tools. [Full Stack Developer Course](/courses/full-stack-web-development-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+P1 to P4
+
+### Messages and sprites
+
+Block coding with sprites that send and receive messages.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)P5 to S2
+
+### Counting and doubling
+
+Typed Python with loops, doubling and simple simulations.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)S3 to S6
+
+### Trees and graphs
+
+Data structures and algorithms beside National 5, Higher and Advanced Higher Computing Science.
+
+[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Systems that scale
+
+Web development and Python for adults building connected tools.
+
+[Full Stack Developer Course](/courses/full-stack-web-development-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)AI and trade-offs
 
 ## An AI can design a message network in seconds. Will it weigh speed against accuracy?
 
@@ -131,30 +140,139 @@ A South Lanarkshire learner who has tabulated rounds against fidelity knows to a
 
 Weighing speed against accuracy is exactly why a South Lanarkshire teenager should still learn to code in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Lesson logistics
+
 ## From East Kilbride to Strathaven, at home
 
 Large towns and rural villages across the council area join the same way.
 
-- **The learner drives** Pupils type and run their own code while the teacher follows on the shared screen.
-- **Familiar stage names** A Larkhall P6 or a Bothwell S3 hears the Curriculum for Excellence terms they use at school, up to Advanced Higher. Lessons are in English.
-- **Trial lesson, no charge** One complete lesson free, then candid advice about what fits.
-- **Stage-based classes** Fifteen to twenty learners working at one stage, joining from many places.
-- **Twice weekly in term** Regular lessons in term time, and none during the holidays.
-- **UK time kept steady** When the clocks change, the lesson stays at its UK hour and the teachers in India time adapt.
+### The learner drives
 
-**Why not a class per town?** Even in East Kilbride, five learners at one stage free at the same moment are hard to find. Grouping by stage across a wider pool finds a real class for a pupil in Blantyre or Uddingston.
+Pupils type and run their own code while the teacher follows on the shared screen.
+
+### Familiar stage names
+
+A Larkhall P6 or a Bothwell S3 hears the Curriculum for Excellence terms they use at school, up to Advanced Higher. Lessons are in English.
+
+### Trial lesson, no charge
+
+One complete lesson free, then candid advice about what fits.
+
+### Stage-based classes
+
+Fifteen to twenty learners working at one stage, joining from many places.
+
+### Twice weekly in term
+
+Regular lessons in term time, and none during the holidays.
+
+### UK time kept steady
+
+When the clocks change, the lesson stays at its UK hour and the teachers in India time adapt.
+
+Why not a class per town?
+
+Even in East Kilbride, five learners at one stage free at the same moment are hard to find. Grouping by stage across a wider pool finds a real class for a pupil in Blantyre or Uddingston.
+
+Fees
 
 ## Fees in South Lanarkshire
 
 Hamilton or Lanark, the fee is the same, and it is our fee for every country apart from India.
 
-- First class: USD 0. One complete trial lesson, free, then a recommendation.
-- Group tuition: USD 100 a month. About eight lessons a month with fifteen to twenty classmates at one stage.
-- Private tuition: USD 150 a month. About eight lessons a month with a teacher of your own.
+First class**USD 0**
+
+One complete trial lesson, free, then a recommendation.
+
+Group tuition**USD 100**
+
+About eight lessons a month with fifteen to twenty classmates at one stage.
+
+Private tuition**USD 150**
+
+About eight lessons a month with a teacher of your own.
 
 We charge in US dollars and keep no sterling price list. Invoices start only once a course and a weekly time are agreed after the trial; our pricing page covers holidays, missed lessons and changing format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20South%20Lanarkshire%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Reviews
+
+## Reviews and ratings on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free South Lanarkshire lesson
+
+Share the learner's age or school stage and an interest, and we will shape the first lesson around it, perhaps a Scratch messaging game, some Python, or the New Lanark school on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented South Lanarkshire one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20South%20Lanarkshire%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## South Lanarkshire questions
+
+The council area, the New Lanark project and practical points.
 
 ### How many people live in South Lanarkshire?
 
@@ -196,10 +314,14 @@ The trial lesson is free; afterwards USD 100 a month buys a group place and USD 
 
 No. Tell us when your school is off and those weeks stay free.
 
+Nearby pages
+
 ## Around South Lanarkshire
 
 [North Lanarkshire](/coding-classes-in-north-lanarkshire) tests colour codes from a Shotts factory, [East Renfrewshire](/coding-classes-in-east-renfrewshire) controls a reservoir sluice, and [Glasgow](/best-coding-class-in-glasgow) has its own city page. Our [Scotland](/coding-and-ai-classes-in-scotland) page lists every council, and the [UK hub](/coding-classes-in-united-kingdom) covers the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20South%20Lanarkshire%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-south-lanarkshire](https://learn.modernagecoders.com/coding-classes-in-south-lanarkshire#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-south-lanarkshire*

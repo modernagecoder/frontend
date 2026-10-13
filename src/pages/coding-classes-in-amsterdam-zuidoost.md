@@ -4,43 +4,33 @@ description: "Live online coding, Python and AI classes in Amsterdam-Zuidoost fo
 canonical: https://learn.modernagecoders.com/coding-classes-in-amsterdam-zuidoost
 source: src/pages/coding-classes-in-amsterdam-zuidoost.html
 ---
-> Coding classes in Amsterdam-Zuidoost reach 95,385 residents (1 January 2026) across 22.08 square kilometres, in a district that has been a stadsdeel since 1987. Amstel III and Bullewijk has an average dwelling value of 211,000 euro and an average income of 37,400 euro. Gein, a few minutes down the line, has 344,000 euro and 30,600 euro. Cheaper homes and better-off people, in that order, which happens because the word dwelling is doing two different jobs. Modern Age Coders teaches live online in English across the whole district, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
+> Live online coding, Python and AI classes in Amsterdam-Zuidoost for ages 6 to 67, from the Bijlmer out to Gein. The first lesson costs nothing at all.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Amsterdam](/coding-classes-in-amsterdam) / Amsterdam-Zuidoost
-
-Zuidoost, Amsterdam / Live online
-
-# Coding classes in Amsterdam-Zuidoost, where the neighbourhood with the cheaper homes has the better-off residents
-
-**What are the best coding classes in Amsterdam-Zuidoost?** Coding classes in Amsterdam-Zuidoost reach 95,385 residents (1 January 2026) across 22.08 square kilometres, in a district that has been a stadsdeel since 1987. Amstel III and Bullewijk has an average dwelling value of 211,000 euro and an average income of 37,400 euro. Gein, a few minutes down the line, has 344,000 euro and 30,600 euro. Cheaper homes and better-off people, in that order, which happens because the word dwelling is doing two different jobs. Modern Age Coders teaches live online in English across the whole district, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
-
-In Amstel III and Bullewijk the average home is valued at 211,000 euro and the average resident earns 37,400. In Gein the average home is 344,000 and the average resident earns 30,600. Cheaper housing, richer people. That combination is not a puzzle about the property market. It is what happens when one column called dwellings holds rented studios averaging 1.2 occupants in one row and family houses averaging 2.0 in the next, and somebody takes the average anyway.
-
-Facts last verified 9 September 2026. Teaching is online; no Amsterdam-Zuidoost branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Amsterdam-Zuidoost
 
 ## Four courses for a district of families and a district of twenty-somethings, side by side
 
 A groep 5 child in Gein who has finished every game in the house and wants to make one, a teenager in the Bijlmer with an app in mind and no idea where an app comes from, a student near the AMC who needs Python to stop being a chore, and an adult in Holendrecht handed a set of AI tools at work with no instructions attached: four doors, and the first hour of each is free.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Real typed Python, drawings that obey instructions and a first program that finds a rule, taught in English to the groep 5 to 8 child anywhere in the district.
-- [App Development for Teens](/courses/complete-app-development-masterclass-for-teens) (Ages 13 to 18): An application taken from an empty project to something that installs and runs, for the teenager who has described one to three adults and built none of it.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Python that gathers, cleans, decides and reports without supervision, for the student or worker repeating one job by hand every week.
-- [AI Tools Mastery Course](/courses/ai-tools-mastery-complete-college) (Adults): The current tools handled with judgement instead of faith, for anybody whose employer switched them on and moved straight to the deadline.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsReal typed Python, drawings that obey instructions and a first program that finds a rule, taught in English to the groep 5 to 8 child anywhere in the district.See the syllabus](/courses/python-ai-kids-masterclass)[![App Development for Teens course thumbnail](/images/app-dev-teens.webp)Ages 13 to 18App Development for TeensAn application taken from an empty project to something that installs and runs, for the teenager who has described one to three adults and built none of it.See the syllabus](/courses/complete-app-development-masterclass-for-teens)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CoursePython that gathers, cleans, decides and reports without supervision, for the student or worker repeating one job by hand every week.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI Tools Mastery Course course thumbnail](/images/ai-tools-college.webp)AdultsAI Tools Mastery CourseThe current tools handled with judgement instead of faith, for anybody whose employer switched them on and moved straight to the deadline.See the syllabus](/courses/ai-tools-mastery-complete-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Zuidoost today
 
 ## Ninety-five thousand people, and the oldest stadsdeel in the city
 
 Zuidoost was established as a stadsdeel in 1987 with a directly elected stadsdeelraad, which makes it the longest-standing of the eight. It counted 95,385 residents on 1 January 2026 across 22.08 square kilometres. Unlike several of its neighbours, its published population is current, so the figures on this page sit in the same year as the wijk figures below them.
 
-**Four areas since 2022, and a district rebuilt before that** Since 24 March 2022 the district has been divided into four areas: Bijlmer-West, coded GT21, Bijlmer-Centrum GT22, Bijlmer-Oost GT23 and Gaasperdam GT24. After 19 March 2014 Zuidoost continued to exist as a stadsdeel while the form of government attached to it changed. From the 1990s onward a large part of the Bijlmermeer was extensively renewed, which is why so much of the housing here is younger than the district. What that kind of rebuilding does to a place that keeps its name is the argument of the Amsterdam-West page in this series, and this page leaves it there. The district also holds Venserpolder, the Amsterdamse Poort, Ganzenhoef, Geerdinkhof, Kantershof, Holendrecht, Nellestein, Reigersbos and Gein, along with Station Amsterdam Bijlmer ArenA, the Johan Cruijff ArenA and the ArenAPoort shopping area.
+Four areas since 2022, and a district rebuilt before that
+
+Since 24 March 2022 the district has been divided into four areas: Bijlmer-West, coded GT21, Bijlmer-Centrum GT22, Bijlmer-Oost GT23 and Gaasperdam GT24. After 19 March 2014 Zuidoost continued to exist as a stadsdeel while the form of government attached to it changed. From the 1990s onward a large part of the Bijlmermeer was extensively renewed, which is why so much of the housing here is younger than the district. What that kind of rebuilding does to a place that keeps its name is the argument of the Amsterdam-West page in this series, and this page leaves it there. The district also holds Venserpolder, the Amsterdamse Poort, Ganzenhoef, Geerdinkhof, Kantershof, Holendrecht, Nellestein, Reigersbos and Gein, along with Station Amsterdam Bijlmer ArenA, the Johan Cruijff ArenA and the ArenAPoort shopping area.
 
 ### A district at 4,320 to the square kilometre
 
@@ -54,14 +44,14 @@ Amstel III and Bullewijk, and Gein. They hold 16,518 residents between them, and
 
 No Zuidoost average of income, dwelling value, household size or age. Two wijken cannot produce one, and the point of this page is that averaging across places this different would produce a number describing neither of them.
 
+Where the learners are
+
 ## One column name, two entirely different objects
 
 Both of these are wijken of Amsterdam-Zuidoost and both are described by the same set of published columns. Populations are 2026, households and housing are 2025, incomes are 2024.
 
-**The same fields, filled in for two very different places**
-
 | What the column is called | Amstel III and Bullewijk | Gein | Does the name mean the same thing? |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Residents | 5,440 | 11,078 | yes |
 | Households, average size | 2,805 at 1.2 people | 5,550 at 2.0 people | the unit differs: 1.2 is barely a household |
 | Single-person households | 2,225, 79 percent | 2,550, 46 percent | no, these are different living arrangements |
@@ -73,6 +63,8 @@ Both of these are wijken of Amsterdam-Zuidoost and both are described by the sam
 | People per square kilometre | 859 | 6,117 | yes, seven times apart |
 
 Amstel III and Bullewijk holds seven buurten, among them the AMC, Hoge Dijk and four numbered stretches of Amstel III itself, on 500 hectares of land. Gein holds four, named Gein 1 to Gein 4, on 183 hectares. The rest of the district, including Venserpolder, Holendrecht, Reigersbos, Nellestein, Ganzenhoef, Geerdinkhof and Kantershof, is named and given no invented figures. Placement here follows what a learner can already do, so a child from Gein 3 and a teenager from the Bijlmer meet in one group when they are working at one level.
+
+Verified local facts
 
 ## Every figure, its source, its year, and one arithmetic check
 
@@ -100,6 +92,8 @@ This page does not say what those 1,900 residents live in. The published figures
 
 Modern Age Coders has no connection to the stadsdeel, the city, the hospital or any school named here and claims none. The district density of about 4,320, the two-wijk total of 16,518 and the household arithmetic above are this page multiplying and subtracting published numbers, and are labelled as arithmetic where they appear.
 
+Signature project
+
 ## Cheaper homes, richer residents, and a column that lied by keeping its name
 
 Two wijken, one schema, and an inversion that disappears the moment you ask what a row actually represents.
@@ -116,10 +110,8 @@ In Amstel III every one of the 2,595 dwellings is rented and none is owned, aver
 
 Once the rows are different kinds of object, an average over them is a statement about the mixture rather than about value. The fix is not a better average. It is to split the column by type, report each separately, and say plainly that a district-wide figure would answer no question anybody has.
 
-**What each figure is really telling you**
-
 | Reading | What it looks like it says | What it actually says | The check that catches it |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Homes are cheaper in Amstel III | housing is more affordable there | the units counted are smaller and all rented | look at tenure: 100 percent rented, 0 owned |
 | Residents earn more in Amstel III | it is the more prosperous neighbourhood | its residents are 89 percent aged fifteen to forty-five | look at the age profile, not the average |
 | Gein has more expensive homes | it is the wealthier place | 41 percent of its homes are owner-occupied family housing | compare tenure before comparing value |
@@ -130,14 +122,14 @@ Once the rows are different kinds of object, an average over them is a statement
 
 A schema is a promise that everything in a column is comparable, and it is a promise nothing enforces. The column header says dwellings, and in one row that is a rented studio holding one person and in the next it is a house holding a family, and the header says dwellings in both. Take the average and you have produced a number that moves when the mixture moves, whether or not a single price has changed. This is the quietest way that data goes wrong, because nothing is missing, nothing is stale, nothing is mistyped and every individual value is correct. The examples multiply as soon as you look. Average order value in a business that sells a five pound accessory and a five thousand pound machine tells you about the sales mix. Average session length across a site with bots and humans on it tells you what share are bots. Average salary across full-time and part-time staff moves when hiring patterns move. Average response time across cached and uncached requests measures the cache hit rate. In every case the fix is the same and it is unglamorous: find the type, split the column by it, report the parts, and only then decide whether any combined figure is worth publishing. The tell is often an inversion, a relationship that everybody expects running the wrong way round, as it does here. An inversion almost never means the world is surprising. It means two things sharing a column name are not the same thing, and the mixture has changed between the rows.
 
+Reliable pipeline
+
 ## Five habits for a column that holds more than one kind of thing
 
 Order values, session lengths, salaries, response times, ticket resolution: every one of them is routinely averaged over rows that are not comparable. Practised on two neighbourhoods where cheaper housing sits beside higher incomes.
 
-**Averaging only where averaging is allowed**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Ask what one row is | Write a sentence describing a single row before touching the column | A schema trusted because it has a name | The type, which everything else depends on |
 | Look for a type field | Find the column that already distinguishes the kinds, or add one | Two populations blended invisibly | The ability to split later without re-collecting |
 | Split before summarising | Report the average per type, then decide about a combined figure | A number that moves with the mixture | Figures that mean what they appear to mean |
@@ -158,14 +150,37 @@ A real average from work. Adults very reliably find a mixture inside it, a chang
 
 The district population, area, formation, governance, the four areas of 2022 and the renewal of the Bijlmermeer come from the stadsdeel entry, with the population dated 1 January 2026. Every population, household, age, area, density, dwelling, value, tenure and income figure comes from the national statistics office page for the wijk named beside it, with 2026 populations, 2025 household and housing figures and 2024 incomes. The district density of about 4,320, the two-wijk total of 16,518, the 89 percent aged fifteen to forty-five and the household arithmetic showing at least 1,900 residents outside private households are this page multiplying, dividing and subtracting published numbers, and are labelled as arithmetic wherever they appear.
 
+Learning ladder
+
 ## From a shop selling sweets and bicycles to an average that refuses to cross a type
 
 The rung is settled in the free hour by what the learner can already do, and never by which part of the district the address falls in.
 
-- **Ages 6 to 10: What is the average thing in this shop?** Children compute an average that describes nothing on either shelf. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Roblox Game Coding for Kids](/courses/roblox-game-coding-for-kids-lua-course)
-- **Ages 11 to 13: Describe one row out loud** Learners say what a single record is before they do anything to the column. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Type fields and averages that refuse** Teenagers build a summary that will not run across mixed kinds without being told to. [App Development for Teens](/courses/complete-app-development-masterclass-for-teens), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **Ages 18 to 67: The mixture inside the metric** Adults take a real average from work and find the two populations hiding in it. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [AI Tools Mastery Course](/courses/ai-tools-mastery-complete-college)
+Ages 6 to 10
+
+### What is the average thing in this shop?
+
+Children compute an average that describes nothing on either shelf.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Roblox Game Coding for Kids](/courses/roblox-game-coding-for-kids-lua-course)Ages 11 to 13
+
+### Describe one row out loud
+
+Learners say what a single record is before they do anything to the column.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Type fields and averages that refuse
+
+Teenagers build a summary that will not run across mixed kinds without being told to.
+
+[App Development for Teens](/courses/complete-app-development-masterclass-for-teens)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)Ages 18 to 67
+
+### The mixture inside the metric
+
+Adults take a real average from work and find the two populations hiding in it.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[AI Tools Mastery Course](/courses/ai-tools-mastery-complete-college)Coding and AI
 
 ## An AI will explain why cheaper homes sit beside higher incomes. Why should a teenager in Zuidoost distrust the explanation?
 
@@ -177,30 +192,139 @@ So the learner practises describing one row out loud before touching the column,
 
 The case for a child in Amsterdam-Zuidoost learning to code in 2026 is therefore not about property. It is that averages are the most trusted and least examined operation in working life, that they are only valid over things of one kind, and that two neighbourhoods a few minutes apart with the price and the income running opposite ways make the rule impossible to forget. The longer argument is in [why learning to code still repays a child in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes from the Bijlmer out to Gein
 
 Zuidoost is spread across twenty-two square kilometres and served by a metro that runs north to south, which is fine until the class a family wants is not on the line at all.
 
-- **Twenty-two square kilometres, and nothing to cross** The class happens wherever the laptop already is, in Gein, in Holendrecht or in the middle of the Bijlmer, at one hour that repeats. In a district this size on one metro line, that removes the part families actually struggle with.
-- **Four Dutch words, and the rest in English** Groep. Havo. Vwo. Profielkeuze. Those stay as the school prints them, and everything built around them is English. A child should not have to work out which term the teacher means before working out the lesson.
-- **The opening hour costs nothing and settles everything** What the learner can do is established by giving them something to do. The course is then whatever that answer points at, and a weekly time is agreed on the spot. Card details are not collected at any stage of it.
-- **Grouped by what they can do, and by nothing else** Two learners working at one level belong together whether one is in Gein and the other in Venserpolder. Two at different levels do not belong together, and no shared postcode changes that.
-- **Eight lessons in most months** Two a week at a repeating hour. Because Noord-Holland sits in the regio Noord holiday block, the weeks that will be lost to it are known in advance, and they are put into the schedule rather than discovered halfway through a term.
-- **A time difference that only one side causes** The Indian clock has not moved since it was set. The Dutch one does, twice a year, which is why the teacher is three and a half hours ahead for part of the year and four and a half for the rest. Both settings leave the same usable window open.
+### Twenty-two square kilometres, and nothing to cross
 
-**Two neighbourhoods with almost no age overlap** Amstel III and Bullewijk has 235 residents under fifteen and 60 over sixty-five. Gein, in the same district, has 1,605 and 2,445. One is a place almost entirely of people between fifteen and forty-five, 89 percent of it; the other has a full age range. A district that looks average in aggregate is nothing of the kind on the ground, which is precisely why a group formed on ability from across the world beats one formed from whoever happens to live nearby, at every age up to sixty-seven.
+The class happens wherever the laptop already is, in Gein, in Holendrecht or in the middle of the Bijlmer, at one hour that repeats. In a district this size on one metro line, that removes the part families actually struggle with.
+
+### Four Dutch words, and the rest in English
+
+Groep. Havo. Vwo. Profielkeuze. Those stay as the school prints them, and everything built around them is English. A child should not have to work out which term the teacher means before working out the lesson.
+
+### The opening hour costs nothing and settles everything
+
+What the learner can do is established by giving them something to do. The course is then whatever that answer points at, and a weekly time is agreed on the spot. Card details are not collected at any stage of it.
+
+### Grouped by what they can do, and by nothing else
+
+Two learners working at one level belong together whether one is in Gein and the other in Venserpolder. Two at different levels do not belong together, and no shared postcode changes that.
+
+### Eight lessons in most months
+
+Two a week at a repeating hour. Because Noord-Holland sits in the regio Noord holiday block, the weeks that will be lost to it are known in advance, and they are put into the schedule rather than discovered halfway through a term.
+
+### A time difference that only one side causes
+
+The Indian clock has not moved since it was set. The Dutch one does, twice a year, which is why the teacher is three and a half hours ahead for part of the year and four and a half for the rest. Both settings leave the same usable window open.
+
+Two neighbourhoods with almost no age overlap
+
+Amstel III and Bullewijk has 235 residents under fifteen and 60 over sixty-five. Gein, in the same district, has 1,605 and 2,445. One is a place almost entirely of people between fifteen and forty-five, 89 percent of it; the other has a full age range. A district that looks average in aggregate is nothing of the kind on the ground, which is precisely why a group formed on ability from across the world beats one formed from whoever happens to live nearby, at every age up to sixty-seven.
+
+Fees
 
 ## The fee, in dollars, everywhere in the district
 
 On the page rather than kept back for a call.
 
-- First class: USD 0. A full lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A full lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 There is one international rate, quoted in dollars, with no euro edition, so an address in Gein is charged exactly what an address near the AMC is. Nothing is paid until the free lesson has settled a course and an hour, and payment is arranged over WhatsApp afterwards. Pausing, switching plan and missing a week are all described on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Amsterdam-Zuidoost.)Reviews
+
+## Six Google reviews, kept exactly as the people who left them wrote them
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us the level, not the neighbourhood
+
+The first task might be the average price of everything in a shop that sells sweets and bicycles, an average that refuses to run across two types, or a metric at work that moved because its mixture did.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Amsterdam-Zuidoost one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Amsterdam-Zuidoost.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Amsterdam-Zuidoost coding class questions
+
+The district, two very unlike neighbourhoods, one inverted result, the teaching and the terms.
 
 ### How can a neighbourhood have cheaper homes and better-off residents at the same time?
 
@@ -242,10 +366,14 @@ The first lesson is free. After it, group tuition is USD 100 a month for two liv
 
 Fifteen to twenty, matched on level, pace and goal rather than on age, school or neighbourhood. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
+Explore Amsterdam and beyond
+
 ## North-west into the city, and out to the province
 
 North-west of here is [Amsterdam-Oost](/coding-classes-in-amsterdam-oost), whose page sets two neighbourhoods with the same number of homes against each other, and beyond it [Amsterdam-Zuid](/coding-classes-in-amsterdam-zuid) and its two disagreeing registers. [Amsterdam-West](/coding-classes-in-amsterdam-west) carries the label that outlived its buildings. The city page, [coding classes in Amsterdam](/coding-classes-in-amsterdam), holds the picture for all eight districts, and just south of the city sits [Amstelveen](/coding-classes-in-amstelveen). Everything descends from the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner who wants trained models rather than running programs should begin at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Carry on in WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Amsterdam-Zuidoost.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-amsterdam-zuidoost](https://learn.modernagecoders.com/coding-classes-in-amsterdam-zuidoost#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-amsterdam-zuidoost*

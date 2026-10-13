@@ -4,46 +4,32 @@ description: "Live online coding, Python and AI classes across County Louth, fro
 canonical: https://learn.modernagecoders.com/coding-classes-in-county-louth
 source: src/pages/coding-classes-in-county-louth.html
 ---
-> Louth is the smallest county in Ireland by area and among the most urban by population: 139,703 people, 57% of them in towns of ten thousand or more, split between two large towns that almost match each other in size. It also carries the joint highest unemployment rate in the country at 11%, and a third-level rate of 40% against a national 45%, which is the gap a good class can help a family close. Ours are live and online, so Dundalk, Drogheda, Ardee and Carlingford all sit the same distance from the teacher. We take learners aged 6 to 67, in groups of fifteen to twenty matched by ability or one to one, at a fixed weekly hour. The first lesson costs nothing; then it is USD 100 a month in a group or USD 150 privately.
+> Live online coding, Python and AI classes across County Louth, from Dundalk and Drogheda to Ardee and Carlingford, ages 6 to 67. The first lesson is free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / County Louth
-
-County Louth, Leinster / Live online
-
-# Coding classes in County Louth
-
-**What are the best coding classes in County Louth?** Louth is the smallest county in Ireland by area and among the most urban by population: 139,703 people, 57% of them in towns of ten thousand or more, split between two large towns that almost match each other in size. It also carries the joint highest unemployment rate in the country at 11%, and a third-level rate of 40% against a national 45%, which is the gap a good class can help a family close. Ours are live and online, so Dundalk, Drogheda, Ardee and Carlingford all sit the same distance from the teacher. We take learners aged 6 to 67, in groups of fifteen to twenty matched by ability or one to one, at a fixed weekly hour. The first lesson costs nothing; then it is USD 100 a month in a group or USD 150 privately.
-
-Search Ireland's open data portal for County Louth and you will find a road schedule: every road in the county, derived from Ordnance Survey centre lines and the councils' own records, published under a Creative Commons licence. It sounds ideal. Open the record properly and the dataset has exactly one resource attached, and that resource is a link to the council's homepage. There is no file. Nothing to download, nothing to analyse, and no error message either: just a registered dataset with nothing inside it. That is a real and common experience in open data, and learning to check it in thirty seconds, before planning a project around something that is not there, is a genuine skill. So this page uses a different Louth problem instead, one that does contain data and does contain a trap: a single-line filter that quietly deletes the county's biggest town from the answer.
-
-Facts last verified 16 September 2026. Teaching is online; no County Louth branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for County Louth
 
 ## Four courses for the Wee County
 
 Pick by what a learner wants to build. Every one begins with a free lesson, taught live, and nobody is asked for card details to try it.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): First programs in blocks, where a list of places has to be complete before the game can do anything sensible with it.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python through the Junior Cycle years, with filtering and matching taught on real tables rather than on made-up rows.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): A filter that looks right, loses a town of 44,135 people, and reports no error at all.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): For adults whose work depends on data arriving: checking that a source exists and is complete before building anything on it.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsFirst programs in blocks, where a list of places has to be complete before the game can do anything sensible with it.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython through the Junior Cycle years, with filtering and matching taught on real tables rather than on made-up rows.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensA filter that looks right, loses a town of 44,135 people, and reports no error at all.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CourseFor adults whose work depends on data arriving: checking that a source exists and is complete before building anything on it.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)The county today
 
 ## Two big towns and very little countryside
 
 Louth is unusual among Irish counties: most of its people live in towns, and its two largest are within a few hundred of each other in size.
 
-**County Louth in Census 2022, Central Statistics Office**
-
 | Measure | Figure |
-|---|---|
+| --- | --- |
 | Population | 139,703, up 8% or 10,819 since 2016 |
 | Average age | 38.2 years, up from 36.4 in 2016 |
 | Aged 65 and over | 19,898, an increase of 24% |
@@ -65,6 +51,8 @@ By our own arithmetic, not a published figure: the county has 79,102 people in t
 
 The work picture is harder than in most of Leinster. Unemployment stood at 11%, which the statistics office recorded as the joint highest rate in the country, with long-term unemployment at 6%, also joint highest. Employment still grew 18% between censuses, and almost 15,800 people did some work from home, more than 4,400 of them five days a week. For families here, a class that needs no travel and no second car is not a convenience; it is often the difference between doing it and not.
 
+Computer Science in Louth schools
+
 ## Two schools, both in Dundalk
 
 The first phase of Leaving Certificate Computer Science reached County Louth in two places, and both of them are in the same town.
@@ -83,16 +71,18 @@ Not the examination subject. Programming, data handling and problem solving in a
 
 After school, the county has a technological institute of its own. Dundalk Institute of Technology describes itself as "the leading higher education institute in the North East and cross-border region of Ireland", says more than 600 international students enrol each year, and notes that it is a 25 minute walk from Dundalk's Clarke station with the motorway three minutes away. For a student who wants to stay near home, that is the local route into computing, and the programming groundwork it assumes is exactly what a weekly class builds beforehand.
 
-**A county of many first languages** Non-Irish citizens make up 11% of the county. The largest groups are Lithuanian at 1,817, Polish at 1,734, UK at 1,688 and Latvian at 1,094, and 4,296 people recorded a Black or Black Irish African background, the largest such count of the counties we have written about. Dual citizenship rose to 4,271, and the most common combination here is Irish and Nigerian, which is unusual nationally.
+A county of many first languages
+
+Non-Irish citizens make up 11% of the county. The largest groups are Lithuanian at 1,817, Polish at 1,734, UK at 1,688 and Latvian at 1,094, and 4,296 people recorded a Black or Black Irish African background, the largest such count of the counties we have written about. Dual citizenship rose to 4,271, and the most common combination here is Irish and Nigerian, which is unusual nationally.
+
+Signature project
 
 ## The filter that loses Drogheda
 
 Every Irish town in the statistics office's tables is labelled with the county it sits in. Almost every one ends with a single county name. Two words break that pattern, and a one-line filter written in good faith deletes the results.
 
-**What we measured in the published table, read 16 September 2026**
-
 | Step | Result |
-|---|---|
+| --- | --- |
 | Town labels in the table, nationally | 868 |
 | Labels ending in the words Co Louth | 20 |
 | Labels containing the word Louth at all | 21 |
@@ -118,14 +108,14 @@ Before this exercise, students check the county's own open data. The Co. Louth R
 
 We say this with no criticism of the council intended. Publishing open data is work, and registering something that later moves or breaks is ordinary. The point for a learner is simply that a title is not a file, and only opening it proves anything.
 
+Before you write the filter
+
 ## Five checks for matching and filtering
 
 Learned on a table of Irish towns, and used afterwards on customer lists, product codes, school rolls and anything else where names are the key.
 
-**Filters that look right and are not**
-
 | Check | What you do | What it catches |
-|---|---|---|
+| --- | --- | --- |
 | Count before and after | Compare how many rows matched with how many you expected | A filter that quietly drops rows |
 | Look at what you excluded | Print the rows the filter rejected, not only the ones it kept | The one row that mattered |
 | Prefer contains to ends with | Match on the value appearing anywhere, then tighten deliberately | Labels with an unexpected suffix |
@@ -146,6 +136,8 @@ The same discipline on work data, where the rows that belong to two categories a
 
 We are not connected with Louth County Council, Dundalk Institute of Technology or either school named above, and nothing here suggests otherwise. Census figures are the Central Statistics Office's for 2022. The filter measurements are ours, run against the published table, and the Drogheda split is our arithmetic rather than a published figure, which is why it is labelled that way everywhere it appears.
 
+Living in the county
+
 ## Two routing keys, one motorway and a long commute
 
 Louth sits between two cities, and its daily rhythm shows it.
@@ -162,16 +154,41 @@ Louth County Council gives its address as County Hall, Millennium Centre, Dundal
 
 Dundalk South has 38,195 people, Drogheda Urban 28,537, Ardee 27,034, Dundalk and Carlingford 26,092 and Drogheda Rural 19,845.
 
-**The Irish language here** The county recorded 44,078 Irish speakers, 35.2% of everyone aged three and over, which the statistics office noted was the second lowest rate in the country after Dublin City. Our classes are taught in English, and programming keywords are English whatever a learner's school language is, so this changes nothing about how a child gets on.
+The Irish language here
+
+The county recorded 44,078 Irish speakers, 35.2% of everyone aged three and over, which the statistics office noted was the second lowest rate in the country after Dublin City. Our classes are taught in English, and programming keywords are English whatever a learner's school language is, so this changes nothing about how a child gets on.
+
+Learning ladder
 
 ## From sorting things to filters you can trust
 
 Bands are indicative only. The free lesson decides where a learner begins.
 
-- **Ages 6 to 10: Sorting and matching** Programs that put things in categories, and what to do when something belongs in two. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Lists and lookups** Searching real tables, and checking that a search found everything it should have. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Filters and totals** Writing filters, measuring what they exclude, and reconciling a roll-up with a published total. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Sources that hold up** Verifying that a data source exists and is complete before any work is planned around it. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Sorting and matching
+
+Programs that put things in categories, and what to do when something belongs in two.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Lists and lookups
+
+Searching real tables, and checking that a search found everything it should have.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Filters and totals
+
+Writing filters, measuring what they exclude, and reconciling a roll-up with a published total.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Sources that hold up
+
+Verifying that a data source exists and is complete before any work is planned around it.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## An assistant will write this filter instantly. Why should a Dundalk teenager check what it dropped?
 
@@ -183,30 +200,139 @@ The defence is a habit rather than a technique: always ask what a filter exclude
 
 So the reason for a Louth child to learn to code in 2026 is not that they will be asked to write filters at work, though they may be. It is that they will be asked to trust numbers other people produced, and this is how you tell which ones deserve it. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Dundalk, Drogheda, Ardee and the peninsula
 
 The county is compact by Irish standards, and still splits into two towns that face different ways: one towards Belfast, one towards Dublin.
 
-- **One class, both ends** A learner in Carlingford and one in Termonfeckin sit in the same group, which no room in either town could manage on a Tuesday evening.
-- **Stages named the Irish way** First Year, the Junior Cycle, Transition Year and sixth year are used as they are used in school here, so parents never have to translate.
-- **A free lesson that teaches** Real work on a real task, with a recommendation on level, course and hour afterwards, and no card details asked for at any point.
-- **Grouped by what they can do** Fifteen to twenty learners at one level, drawn from Louth and other countries, so every level has a group at a workable hour.
-- **Around a commuting household** Two lessons a week, roughly eight a month, at a fixed time, with pauses for mid-terms, exams and holidays agreed in advance.
-- **Teachers on Indian time** Their clock does not shift, so they sit four and a half hours ahead of Ireland in summer and five and a half in winter; Louth evenings fall comfortably inside their working day.
+### One class, both ends
 
-**Why the commute matters here** With 7,418 people already travelling an hour or more each way to work, an evening class that requires another journey is a hard sell in this county. Starting at the kitchen table, on the same evening every week, is what makes it stick.
+A learner in Carlingford and one in Termonfeckin sit in the same group, which no room in either town could manage on a Tuesday evening.
+
+### Stages named the Irish way
+
+First Year, the Junior Cycle, Transition Year and sixth year are used as they are used in school here, so parents never have to translate.
+
+### A free lesson that teaches
+
+Real work on a real task, with a recommendation on level, course and hour afterwards, and no card details asked for at any point.
+
+### Grouped by what they can do
+
+Fifteen to twenty learners at one level, drawn from Louth and other countries, so every level has a group at a workable hour.
+
+### Around a commuting household
+
+Two lessons a week, roughly eight a month, at a fixed time, with pauses for mid-terms, exams and holidays agreed in advance.
+
+### Teachers on Indian time
+
+Their clock does not shift, so they sit four and a half hours ahead of Ireland in summer and five and a half in winter; Louth evenings fall comfortably inside their working day.
+
+Why the commute matters here
+
+With 7,418 people already travelling an hour or more each way to work, an evening class that requires another journey is a hard sell in this county. Starting at the kitchen table, on the same evening every week, is what makes it stick.
+
+Fees
 
 ## What classes cost in County Louth
 
 Three figures, and no additions later.
 
-- First class: USD 0. One full lesson at no cost, ending with an honest placement and a recommended course.
-- Group tuition: USD 100 a month. A month of teaching, generally eight lessons, with fifteen to twenty learners of similar ability.
-- Private tuition: USD 150 a month. The same month of about eight lessons, with a teacher working with one learner only.
+First class**USD 0**
+
+One full lesson at no cost, ending with an honest placement and a recommended course.
+
+Group tuition**USD 100**
+
+A month of teaching, generally eight lessons, with fifteen to twenty learners of similar ability.
+
+Private tuition**USD 150**
+
+The same month of about eight lessons, with a teacher working with one learner only.
 
 Fees are in US dollars on the single rate charged outside India, so Dundalk pays what Ardee pays and there is no euro list. Nothing is charged until the free lesson has settled a course and a weekly hour. Pauses, missed lessons and changes of format are set out on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20County%20Louth.)Reviews
+
+## Six Google reviews, as our families wrote them
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us about the learner
+
+The opening task fits the person: a sorting game for a younger child, a first script that reads a table, or the filter puzzle that loses Drogheda for a teenager.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented County Louth one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20County%20Louth.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## County Louth coding class questions
+
+The county, its numbers and how the classes work.
 
 ### How many people live in County Louth?
 
@@ -248,10 +374,14 @@ The first lesson is free. Continuing costs USD 100 a month for a group place, wh
 
 Fifteen to twenty, matched on ability, pace and goal rather than age or address. Where nothing suitable runs at a workable hour, we offer one-to-one lessons instead.
 
+Explore Ireland
+
 ## South to the capital, and the rest of the country
 
 The capital is covered at [Dublin](/best-coding-class-in-dublin), and down the east coast there is [County Wexford](/coding-classes-in-county-wexford). To compare online schools, read [best online coding classes in Ireland](/best-online-coding-classes-ireland); for models and data, [AI and machine learning classes in Ireland](/ai-and-machine-learning-classes-in-ireland). Everything sits on the [Ireland coding page](/coding-classes-in-ireland).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20County%20Louth.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-county-louth](https://learn.modernagecoders.com/coding-classes-in-county-louth#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-county-louth*

@@ -4,56 +4,40 @@ description: "Live online AI and programming classes for Camden learners aged 6 
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-camden-sydney
 source: src/pages/ai-and-programming-classes-in-camden-sydney.html
 ---
-> Live online lessons in small groups at one level, from Scratch at six to Python, search and machine learning for teenagers and adults. Camden is the old town centre of its council area, about 4.64 square kilometres; the 2021 Census counted 3,378 residents there, median age 43.
+> Live online AI and programming classes for Camden learners aged 6 to 67, with a project that reranks search results for schools in Camden. First lesson free.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [New South Wales](/coding-and-ai-classes-in-new-south-wales) / [Sydney](/best-coding-classes-in-sydney) / Camden
-
-Camden, south-west Sydney / Live online
-
-# AI and programming classes in Camden
-
-**What do AI and programming classes look like for Camden learners?** Live online lessons in small groups at one level, from Scratch at six to Python, search and machine learning for teenagers and adults. Camden is the old town centre of its council area, about 4.64 square kilometres; the 2021 Census counted 3,378 residents there, median age 43.
-
-Type "schools in Camden" into a search box built on the state's school list and a simple keyword match brings back 28 schools. Most are in Camden council but not in Camden itself, one is in Newtown and one is near Port Macquarie. Only four give Camden as their address suburb. This is the problem every AI search tool faces before it answers: finding plenty of candidates is easy, putting the right ones first is the real work, and that second step is called reranking.
-
-Facts last verified 10 October 2026. Teaching is online; no Camden branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Camden
 
 ## Courses that teach search, ranking and models
 
 Each course works up to programs that sort, score and check results. The first lesson is free and decides the level, with no card details asked for.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 8 to 12): Sorting, rules and checking answers, before any AI.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 12 to 17): Python with real files, sorting keys and scoring functions.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Machine learning and retrieval, measured with precision and recall.
-- [Data Science Course](/courses/data-science-complete-masterclass-college) (University and adult): Search, ranking and evaluation on public datasets.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 8 to 12Problem Solving and Computational Thinking for KidsSorting, rules and checking answers, before any AI.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 12 to 17Python for TeensPython with real files, sorting keys and scoring functions.See the syllabus](/courses/python-complete-masterclass-teens)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensMachine learning and retrieval, measured with precision and recall.See the syllabus](/courses/ai-ml-masterclass-teens)[![Data Science Course course thumbnail](/images/data-science-college.webp)University and adultData Science CourseSearch, ranking and evaluation on public datasets.See the syllabus](/courses/data-science-complete-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Camden in the Census
 
 ## The old town at the centre of the council area
 
 Census 2021 numbers for the suburb of Camden only, set next to the state and national figures.
 
-**Camden suburb, 2021 Census**
-
 | Measure | Value |
-|---|---|
+| --- | --- |
 | Residents | 3,378 |
 | Median age | 43 |
 | Families | 846 |
 | Private dwellings | 1,434 |
 | Average people per household | 2.4 |
 
-**Camden against the state and the nation**
-
 | Indicator | Camden | NSW | Australia |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Separate houses among occupied homes | 73.8% (947) | 65.6% | 72.3% |
 | Townhouses, terraces and semis | 17.2% (221) | 11.7% | 12.6% |
 | Flats or apartments | 8.4% (108) | 21.7% | 14.2% |
@@ -74,24 +58,22 @@ Technicians and trades workers made up 15.9% of employed residents, against 11.9
 
 These are figures for the suburb, not for Camden council as a whole. The bureau adjusts small counts for privacy, so we never add published parts together to build a total of our own.
 
+Signature project
+
 ## Reranking 28 answers to "schools in Camden"
 
 Stage one is a cheap retriever: keep every school whose name, suburb or council contains "camden". Stage two reranks those candidates and is judged on one number: how many of the top four have a Camden address.
 
-**Five ways to order the 28 candidates (our Python run on the NSW school list)**
-
 | Order | Rule | Camden addresses in top 4 |
-|---|---|---|
+| --- | --- | --- |
 | File order | As the rows appear in the dataset | 2 of 4 |
 | Alphabetical | By school name | 1 of 4 |
 | Distance | Nearest to the centre of the bureau's Camden boundary | 2 of 4 |
 | Field scores | Address suburb 3 points, name starts with Camden 2, council 1 | 4 of 4 |
 | Fields, then distance | Field score first, distance breaks ties | 4 of 4 |
 
-**The awkward candidates**
-
 | School | Why it matched | Distance from Camden |
-|---|---|---|
+| --- | --- | --- |
 | Camdenville Public School | Name contains "camden"; address Newtown, Inner West council | 47.5 kilometres |
 | Camden Haven High School | Name contains "camden"; address Laurieton, Port Macquarie-Hastings council | 329.6 kilometres |
 | Mount Hunter Public School | Address suburb Camden, but Wollondilly council | 5.57 kilometres |
@@ -111,18 +93,18 @@ Mount Hunter Public School gives Camden as its address suburb yet sits in Wollon
 
 ### The same two stages inside AI search
 
-Tools that let a chatbot answer from documents fetch many passages quickly, then rerank them with a slower, more careful scorer before the model reads the top few. In this project the careful scorer is a function a teenager can write: sorted(rows, key=lambda r: (-field_score(r), r['km'])).
+Tools that let a chatbot answer from documents fetch many passages quickly, then rerank them with a slower, more careful scorer before the model reads the top few. In this project the careful scorer is a function a teenager can write: `sorted(rows, key=lambda r: (-field_score(r), r['km']))`.
 
 School names, suburbs, councils and coordinates come from the NSW Department of Education's school locations file; the distances, scores and rankings are our own calculation.
+
+Measuring a ranking
 
 ## How learners score their search
 
 A ranking is only as good as the measure used to judge it, so the project ends with evaluation.
 
-**Evaluation steps**
-
 | Step | What the learner writes | Camden result |
-|---|---|---|
+| --- | --- | --- |
 | Fix the truth | A list of the right answers, decided before ranking | Four schools with a Camden address |
 | Precision at 4 | Right answers in the top four, divided by four | Field scores reach 4 of 4 |
 | Precision at 8 | The same over the top eight | Distance and alphabetical both reach 3 |
@@ -142,14 +124,14 @@ Apply the same two stages to documents at work and judge a chatbot's retrieval r
 
 The NSW Department of Education publishes the school locations file and is not connected with Modern Age Coders.
 
+Schools and the school year
+
 ## Four schools with a Camden address
 
 The state school list gives the year each school had its first teacher. Camden Public School's date, 1849, is the earliest of all 28 candidates in the search project.
 
-**State schools whose listed suburb is Camden**
-
 | School | Level | First teacher | Council |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Camden Public School | Primary | 1849 | Camden |
 | Mount Hunter Public School | Primary | 1859 | Wollondilly |
 | Camden South Public School | Primary | 1961 | Camden |
@@ -167,14 +149,37 @@ Students return on Thursday 29 April and the term ends on Friday 2 July.
 
 Our Camden groups stop for the NSW holidays too, and pick up again on the usual day once school is back.
 
+Learning ladder
+
 ## From sorting cards to reranking search
 
 The ages are approximate. The free trial lesson places each learner.
 
-- **Ages 6 to 10: Scratch and order** Games that sort, count and keep score. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)
-- **Ages 10 to 13: First Python** Lists, sorting and simple scoring rules. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 13 to 18: Search and models** Retrieval, ranking and measured machine learning. [Python for Teens](/courses/python-complete-masterclass-teens), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **University and adult: Evaluation at work** Judging search and AI tools with numbers, not impressions. [Data Science Course](/courses/data-science-complete-masterclass-college), [Statistics & Probability](/courses/statistics-probability-maths-course)
+Ages 6 to 10
+
+### Scratch and order
+
+Games that sort, count and keep score.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)Ages 10 to 13
+
+### First Python
+
+Lists, sorting and simple scoring rules.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 13 to 18
+
+### Search and models
+
+Retrieval, ranking and measured machine learning.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)University and adult
+
+### Evaluation at work
+
+Judging search and AI tools with numbers, not impressions.
+
+[Data Science Course](/courses/data-science-complete-masterclass-college)[Statistics & Probability](/courses/statistics-probability-maths-course)Coding and AI
 
 ## Why reranking matters when a chatbot answers
 
@@ -186,30 +191,139 @@ Learners who have built a reranker know to ask what was retrieved, how it was or
 
 In 2026 every Camden learner will use AI search; the ones who can build and measure a small one will know when to trust it. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live lessons for Camden learners at home
 
 Everything happens on live video, so there is no travel into or out of Camden.
 
-- **Watched as it is written** Every program is typed during the class with the teacher following the learner's screen.
-- **Speaking the NSW language** Teachers refer to Stages and Years the way Camden schools do, so progress is easy to place.
-- **A first lesson on us** The opening class costs nothing; afterwards the teacher proposes where to start and when.
-- **Matched classmates** A group holds fifteen to twenty people working at the same stage; one-to-one is there for anyone who wants it.
-- **Same slot each week** Classes run twice weekly, close to eight in a month, and any gaps are announced well in advance.
-- **Teachers in India** A 5pm Camden lesson is 11:30am India time under Sydney summer time and 12:30pm outside it.
+### Watched as it is written
 
-**Daylight saving** Sydney is on daylight saving from Sunday 4 October 2026 to Sunday 4 April 2027, and India does not change its clocks, so the difference shifts between 5 hours 30 minutes and 4 hours 30 minutes. Lesson times are always set in Sydney time.
+Every program is typed during the class with the teacher following the learner's screen.
+
+### Speaking the NSW language
+
+Teachers refer to Stages and Years the way Camden schools do, so progress is easy to place.
+
+### A first lesson on us
+
+The opening class costs nothing; afterwards the teacher proposes where to start and when.
+
+### Matched classmates
+
+A group holds fifteen to twenty people working at the same stage; one-to-one is there for anyone who wants it.
+
+### Same slot each week
+
+Classes run twice weekly, close to eight in a month, and any gaps are announced well in advance.
+
+### Teachers in India
+
+A 5pm Camden lesson is 11:30am India time under Sydney summer time and 12:30pm outside it.
+
+Daylight saving
+
+Sydney is on daylight saving from Sunday 4 October 2026 to Sunday 4 April 2027, and India does not change its clocks, so the difference shifts between 5 hours 30 minutes and 4 hours 30 minutes. Lesson times are always set in Sydney time.
+
+Fees
 
 ## Camden lesson fees
 
 One price list covers every subject, from Scratch to machine learning.
 
-- First class: USD 0. The first lesson is free and ends with a recommended course and timetable.
-- Group tuition: USD 100 a month. Two lessons a week, around eight a month, in a group of fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. One-to-one teaching on the same schedule, roughly eight lessons a month.
+First class**USD 0**
+
+The first lesson is free and ends with a recommended course and timetable.
+
+Group tuition**USD 100**
+
+Two lessons a week, around eight a month, in a group of fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+One-to-one teaching on the same schedule, roughly eight lessons a month.
 
 Fees for Camden are charged in US dollars, and no money changes hands until after the trial, when you have chosen the course and the slot. Rules on holidays, missed classes and switching between group and one-to-one sit on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Camden.)Reviews
+
+## What parents and learners say on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us who is learning and what they like
+
+An age and an interest are enough for the teacher to prepare. A six-year-old might build a Scratch game that keeps score; a teenager or adult might rank search results for Camden and measure how good the ranking is.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Camden one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Camden.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Camden AI and programming questions
+
+The questions Camden families ask most often.
 
 ### How many people live in Camden?
 
@@ -251,10 +365,14 @@ The first lesson is free. A group place is USD 100 a month for two live lessons 
 
 Fifteen to twenty learners, grouped by level and goals rather than age. If no group fits the learner's schedule, one-to-one lessons are offered instead.
 
+Nearby guides
+
 ## More for Camden learners
 
 The newer suburb to the north has its own guide at [online coding and Python classes in Oran Park](/online-coding-and-python-classes-in-oran-park-sydney), and the neighbouring council area at [vibe coding and AI agents classes in Campbelltown](/vibe-coding-and-ai-agents-classes-in-campbelltown-nsw). For the whole city see [coding classes in Sydney](/best-coding-classes-in-sydney), and for thinking skills alongside AI tools read [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-australia).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Send a WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Camden.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-camden-sydney](https://learn.modernagecoders.com/ai-and-programming-classes-in-camden-sydney#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-camden-sydney*

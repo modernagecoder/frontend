@@ -24,6 +24,8 @@ How we teach
 
 Every lesson is built so the maths makes sense, not just works.
 
+Want the facts about the Year 6 tests first? Read [KS2 SATs maths papers explained](/ks2-sats-maths-papers-explained).
+
 ### Start from what they know
 
 We anchor each new idea to one your child already understands, so KS2 maths feels like steady steps, not sudden leaps.
@@ -77,6 +79,8 @@ What we cover
 ## The whole of KS2, Years 3 to 6.
 
 Mapped to the national curriculum, with Year 6 SATs preparation built in.
+
+Child in Year 4? Read [the Year 4 multiplication tables check explained](/year-4-multiplication-tables-check-explained).
 
 ### Number & place value
 
@@ -251,7 +255,7 @@ Meet the tutor in a full live class of about 45 to 60 minutes, see how we teach,
 
 ## More maths tuition from Modern Age Coders.
 
-[UK · primaryMaths Tuition for Kids](/online-maths-tuition-for-kids-in-uk)[UK · entry11 Plus Maths Tuition](/11-plus-maths-tuition)[UK · KS3KS3 Maths Tuition](/ks3-maths-tuition-online)[UK · KS3/KS4Maths Tuition for Teens](/online-maths-tuition-for-teens-in-uk)[USA · ages 6–11Maths Tutoring for Kids (USA)](/online-maths-tutoring-for-kids-in-usa)[CourseElementary Mathematics Masterclass](/courses/elementary-mathematics-complete-masterclass)
+[UK · costsKS2 and 11 Plus Tutor Cost](/ks2-and-11-plus-maths-tutor-cost-uk)[UK · primaryMaths Tuition for Kids](/online-maths-tuition-for-kids-in-uk)[UK · entry11 Plus Maths Tuition](/11-plus-maths-tuition)[UK · KS3KS3 Maths Tuition](/ks3-maths-tuition-online)[UK · KS3/KS4Maths Tuition for Teens](/online-maths-tuition-for-teens-in-uk)[USA · ages 6–11Maths Tutoring for Kids (USA)](/online-maths-tutoring-for-kids-in-usa)[CourseElementary Mathematics Masterclass](/courses/elementary-mathematics-complete-masterclass)
 
 Real student projects
 

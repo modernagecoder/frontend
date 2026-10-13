@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths classes for Bexley: Bexle
 canonical: https://learn.modernagecoders.com/coding-classes-in-bexley-london
 source: src/pages/coding-classes-in-bexley-london.html
 ---
-> Bexley is the south east London borough of Bexleyheath, Sidcup, Erith, Welling, Crayford, Belvedere, Thamesmead and Bexley Village, with 246,472 residents at the 2021 Census, William Morris's Red House and Bazalgette's Crossness Pumping Station. A class worth choosing teaches a learner to summarise a huge public dataset fairly, and this page does that with the Environment Agency's record of more than 14,000 storm overflows: one curve and one number that show how unequally the spilling is shared. Our teachers, who work from India, meet learners from 6 to 67 over live video, either singly or in a matched class of between five and ten. The first lesson is free. Afterwards, group lessons cost USD 100 a month and private lessons USD 150 a month.
+> Live online coding, Python, AI and maths classes for Bexley: Bexleyheath, Sidcup, Erith, Welling, Crayford, Belvedere and Thamesmead. Ages 6 to 67.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Bexley
-
-London Borough of Bexley / Live online
-
-# Coding classes in Bexley
-
-**What are the best coding classes in Bexley?** Bexley is the south east London borough of Bexleyheath, Sidcup, Erith, Welling, Crayford, Belvedere, Thamesmead and Bexley Village, with 246,472 residents at the 2021 Census, William Morris's Red House and Bazalgette's Crossness Pumping Station. A class worth choosing teaches a learner to summarise a huge public dataset fairly, and this page does that with the Environment Agency's record of more than 14,000 storm overflows: one curve and one number that show how unequally the spilling is shared. Our teachers, who work from India, meet learners from 6 to 67 over live video, either singly or in a matched class of between five and ten. The first lesson is free. Afterwards, group lessons cost USD 100 a month and private lessons USD 150 a month.
-
-On 4 April 1865, according to Historic England, the Crossness Pumping Station opened on the Bexley shore of the Thames, designed by the engineer Joseph Bazalgette to deal with London's sewage. A century and a half later, the Environment Agency publishes a yearly record of storm overflows: pipes that release diluted sewage into rivers and the sea when heavy rain overwhelms the system. The 2025 return lists more than 14,000 of them in England, each with its total hours of spilling. Our learners ask a simple question of that enormous table: is the spilling spread evenly, or do a few overflows account for most of it? They draw a Lorenz curve and calculate a Gini coefficient, the same tools economists use for income inequality, and the answer is striking.
-
-Facts last verified 25 September 2026. Teaching is online; no Bexley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Bexley
 
 ## Starting points for Bexley learners
 
 Think of a Year 3 child in Welling who loves anything about rivers and wildlife, a Year 9 pupil in Sidcup who asks whether the Thames is clean enough to swim in, a Year 12 student in Erith drawn to environmental science or economics, and a volunteer in Belvedere who helps with local river clean-ups. The first lesson is free for each of them.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): A Scratch river game where rain fills the drains, and a first count of what overflows.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 9 to 12): First Python with a real spreadsheet: sort overflows by hours and find the top ten.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Python for Key Stages 3 to 5, including this page's Lorenz curve and Gini coefficient on 14,000 overflows.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): For adults who want to read big public datasets and summarise them fairly and clearly.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsA Scratch river game where rain fills the drains, and a first count of what overflows.See the syllabus](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 9 to 12Python and AI for KidsFirst Python with a real spreadsheet: sort overflows by hours and find the top ten.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensPython for Key Stages 3 to 5, including this page's Lorenz curve and Gini coefficient on 14,000 overflows.See the syllabus](/courses/python-complete-masterclass-teens)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For adults who want to read big public datasets and summarise them fairly and clearly.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Bexley in figures
 
 ## 246,472 residents and six Grade I entries
 
 Every figure below comes from the organisation named, or from our count of its published data.
 
-**Four Bexley facts and where to check them**
-
 | Fact | Detail | Check it at |
-|---|---|---|
+| --- | --- | --- |
 | Population counted in March 2021 | 246,472 | Census table TS001 (ONS) |
 | Listed places we counted within the borough line | 116 in all; 6 are Grade I and 9 Grade II* | Historic England list data, our count on 25 September 2026 |
 | Crossness Pumping Station opened | 4 April 1865 | Historic England list entry 1064241 |
@@ -63,14 +49,14 @@ The former Crossness Pumping Station, engineered by Joseph Bazalgette, completes
 
 Bexley Council's libraries page names Central, Crayford, Erith, Sidcup, Thamesmead and Welling libraries.
 
+The data
+
 ## More than 14,000 overflows, one row each
 
 The Environment Agency's 2025 storm overflow annual return gives, for every monitored overflow of every water and sewerage company in England, the total time it spilled and a count of spills.
 
-**What the 2025 return shows, as we read it on 25 September 2026**
-
 | Measure | Figure |
-|---|---|
+| --- | --- |
 | Overflow rows with a usable total spill time | 14,238 |
 | Of those, spilling for zero hours in 2025 | 2,231, or 15.7% |
 | Overflows spilling for more than 2,000 hours | 73 |
@@ -78,6 +64,8 @@ The Environment Agency's 2025 storm overflow annual return gives, for every moni
 | Overflows whose monitor worked less than 90% of the year | 1,020 |
 
 The sewage works at Crossness appears in the return with 84.8 hours of spilling and 13 counted spills in 2025. Its outlets are in the tidal Thames, and their grid references plot just outside Bexley's land boundary, in the river. We describe the whole dataset rather than any one company, and we do not add the rows into a national total of hours: the Environment Agency publishes its own summaries, and a sum of ours would be a different figure.
+
+Signature project
 
 ## A Lorenz curve for storm overflows
 
@@ -95,10 +83,8 @@ Plot the share of overflows against the share of hours. Perfect equality is a st
 
 The Gini coefficient is the gap between the curve and the diagonal, from 0 for perfect equality to 1 for one overflow doing everything.
 
-**Share of all 2025 spill hours, run 25 September 2026**
-
 | Busiest overflows | How many | Share of spill hours |
-|---|---|---|
+| --- | --- | --- |
 | Top 1% | 142 | 16.6% |
 | Top 5% | 712 | 46.4% |
 | Top 10% | 1,424 | 64.6% |
@@ -110,6 +96,8 @@ One overflow in ten accounts for nearly two thirds of all the hours; one in five
 ### Why a chatbot summary is not the same
 
 Ask an AI tool to summarise storm overflows and it may quote a national total or a headline average. An average hides exactly what this data shows: most overflows spill little and a small minority spill a great deal. A learner who has drawn the Lorenz curve knows to ask how a total is shared, not just how big it is, which matters for rivers, incomes, website traffic and almost everything else measured in large numbers.
+
+Reading data fairly
 
 ## Three things to check before drawing conclusions
 
@@ -129,6 +117,8 @@ The return records how long an overflow spilled, not how much or how diluted. Co
 
 Pupils studying GCSE maths or geography can follow the cumulative percentages and the curve; sixth formers can compute the Gini coefficient themselves and compare it across years. Credit for the overflow records goes to the Environment Agency, which releases them under the Open Government Licence; responsibility for the sorting, the shares, both Gini values and the correlation is ours, calculated on 25 September 2026. Modern Age Coders has no tie to the Environment Agency, any water company, Bexley Council, Historic England, TfL or the ONS, and none of them has seen this page.
 
+Getting around
+
 ## From Bexleyheath station to a desk at home
 
 Bexley is served by main-line trains rather than the Tube. Our lessons need neither.
@@ -145,16 +135,41 @@ A learner by the river in the north and one in Sidcup in the south can share one
 
 A class is kept small and matched, fifteen to twenty learners at one stage, so no one learner takes up most of the lesson.
 
-**Bexley in London** Bexley is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) lists every borough and the City, linking each page as it is published, including [Bromley](/coding-classes-in-bromley-london) to the south west.
+Bexley in London
+
+Bexley is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) lists every borough and the City, linking each page as it is published, including [Bromley](/coding-classes-in-bromley-london) to the south west.
+
+Learning ladder
 
 ## From sorting a list to measuring inequality
 
 The free lesson reveals where a learner really is. Their school year just helps us guess where to begin.
 
-- **Ages 6 to 10: Biggest to smallest** Children sort scores and quantities in Scratch and see how much the top few hold. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 10 to 13: Running totals** Python that sorts a real spreadsheet and builds cumulative percentages, the heart of a Lorenz curve. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 18: Concentration** Lorenz curves, Gini coefficients and data-quality checks on public records, strong ground for geography, economics or computing projects. [Python for Teens](/courses/python-complete-masterclass-teens), [Full Stack Web Development for Teens](/courses/full-stack-web-development-teens-masterclass)
-- **Ages 18 to 67: Summaries that tell the truth** Adults learn why averages mislead in skewed data and how to show where the weight really lies. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### Biggest to smallest
+
+Children sort scores and quantities in Scratch and see how much the top few hold.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 10 to 13
+
+### Running totals
+
+Python that sorts a real spreadsheet and builds cumulative percentages, the heart of a Lorenz curve.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 18
+
+### Concentration
+
+Lorenz curves, Gini coefficients and data-quality checks on public records, strong ground for geography, economics or computing projects.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Full Stack Web Development for Teens](/courses/full-stack-web-development-teens-masterclass)Ages 18 to 67
+
+### Summaries that tell the truth
+
+Adults learn why averages mislead in skewed data and how to show where the weight really lies.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## AI can summarise any spreadsheet. Why should a Bexley teenager learn to do it properly?
 
@@ -166,30 +181,139 @@ The habits carry over to every field: check how a total is shared, flag records 
 
 Bexley has lived with London's sewage engineering since 1865. A learner here who can read the modern records honestly is carrying on a very Bexley kind of work. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Welling to Crayford, lessons live and online
 
 From any street in Bexley, a lesson is just a video call away.
 
-- **Learn at home** Bexley learners log in from their own homes; all that matters is a working computer, sound, and broadband good enough for video.
-- **Stages in England** Reports to parents use the same language as a Bexley school: Key Stage 1, 2, 3, 4, then sixth form, with GCSE or A level named when relevant. Teaching is always in English.
-- **Free lesson first** Proper teaching, not a sales pitch, which ends with a suggested level and course. No payment information is requested.
-- **Classes by level** Classmates are matched on stage, not postcode, which is how we can usually offer a sensible hour for a group of fifteen to twenty.
-- **Twice a week** Two evening sessions make up a normal week, with the class stopping for school holidays and exam fortnights when the teacher and families agree.
-- **Local time** Our teachers are in India; every lesson time we give is already in UK time.
+### Learn at home
 
-**A quarter of a million residents, one good class** Bexley has about 246,000 residents, and a good class still needs five learners at the same level and the same free hour, which is why ours reach far beyond the borough.
+Bexley learners log in from their own homes; all that matters is a working computer, sound, and broadband good enough for video.
+
+### Stages in England
+
+Reports to parents use the same language as a Bexley school: Key Stage 1, 2, 3, 4, then sixth form, with GCSE or A level named when relevant. Teaching is always in English.
+
+### Free lesson first
+
+Proper teaching, not a sales pitch, which ends with a suggested level and course. No payment information is requested.
+
+### Classes by level
+
+Classmates are matched on stage, not postcode, which is how we can usually offer a sensible hour for a group of fifteen to twenty.
+
+### Twice a week
+
+Two evening sessions make up a normal week, with the class stopping for school holidays and exam fortnights when the teacher and families agree.
+
+### Local time
+
+Our teachers are in India; every lesson time we give is already in UK time.
+
+A quarter of a million residents, one good class
+
+Bexley has about 246,000 residents, and a good class still needs five learners at the same level and the same free hour, which is why ours reach far beyond the borough.
+
+Fees
 
 ## Fees for Bexley families
 
 One free lesson, then a single monthly fee that is the same in Erith as in Sidcup.
 
-- First class: USD 0. A full lesson with a teacher, free of charge, ending with our recommended level, course and time.
-- Group tuition: USD 100 a month. About eight live lessons a month in a class of fifteen to twenty at the same stage.
-- Private tuition: USD 150 a month. About eight live lessons a month, one to one.
+First class**USD 0**
+
+A full lesson with a teacher, free of charge, ending with our recommended level, course and time.
+
+Group tuition**USD 100**
+
+About eight live lessons a month in a class of fifteen to twenty at the same stage.
+
+Private tuition**USD 150**
+
+About eight live lessons a month, one to one.
 
 Bexley families pay in US dollars, as every family outside India does, and there are no pound prices on the site. You pay nothing until the free lesson is done and you have agreed a course and regular slot. The pricing page explains pausing, missed lessons and changing between class and private teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Bexley.)Reviews
+
+## Reviews families left for us on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Ask for your free lesson
+
+Year group or age, plus one interest, is enough for us to prepare. We might begin with a Scratch rain-and-drains game, a Python sort of a real spreadsheet, or the overflow curve on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Bexley one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Bexley.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Bexley families ask
+
+About the borough, the overflow project and how our lessons run.
 
 ### How many people live in Bexley?
 
@@ -231,10 +355,14 @@ The first lesson is free. After that, a group place costs USD 100 a month for tw
 
 By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
 
+Explore London
+
 ## The rest of London, and the UK
 
 The [London page](/best-coding-class-in-london) collects every borough and the City and links each once it is live, such as [Newham](/coding-classes-in-newham-london) across the Thames and [Wandsworth](/coding-classes-in-wandsworth-london) upriver. Big tables like this one are where [machine learning for London learners](/ai-and-machine-learning-classes-in-london) begins, and a family weighing up a move to Scotland or Wales can compare school years on the [UK coding page](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Bexley.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-bexley-london](https://learn.modernagecoders.com/coding-classes-in-bexley-london#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-bexley-london*

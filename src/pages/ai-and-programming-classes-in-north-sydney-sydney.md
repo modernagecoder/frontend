@@ -4,56 +4,40 @@ description: "Live online AI and programming classes for learners aged 6 to 67 i
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-north-sydney-sydney
 source: src/pages/ai-and-programming-classes-in-north-sydney-sydney.html
 ---
-> Small live online classes that teach programming first and AI on top of it: Scratch and Python for children, then data, models and honest testing for teenagers and adults. North Sydney Council covers about 10.5 square kilometres, where the 2021 Census counted 68,950 people and a median age of 38.
+> Live online AI and programming classes for learners aged 6 to 67 in the North Sydney council area, from Scratch to Python models. First lesson free.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [New South Wales](/coding-and-ai-classes-in-new-south-wales) / [Sydney](/best-coding-classes-in-sydney) / North Sydney
-
-North Sydney council area, Sydney, New South Wales / Live online
-
-# AI and programming classes in North Sydney
-
-**Who runs the best AI and programming classes for North Sydney learners?** Small live online classes that teach programming first and AI on top of it: Scratch and Python for children, then data, models and honest testing for teenagers and adults. North Sydney Council covers about 10.5 square kilometres, where the 2021 Census counted 68,950 people and a median age of 38.
-
-Every forecasting model should face a fair test: does it beat a plain guess? We gave a simple autoregressive model 23 months of Opal entries at North Sydney station and asked it to predict each of the last eleven months using only the months before. It missed by 15,114 entries a month on average. Repeating last month missed by 18,496, and the running average by 16,310. At Victoria Cross the same model gained nothing, and working out why is the real lesson.
-
-Facts last verified 10 October 2026. Teaching is online; no North Sydney branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for North Sydney
 
 ## Programming first, then AI that can be tested
 
 Each course below meets the forecasting project at its own level. The free trial lesson places the learner, and no card details are taken.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Python and friendly AI ideas, such as guessing the next number in a pattern and checking the guess.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Machine learning from first principles: data, a model, a baseline and an honest score.
-- [Statistics & Probability](/courses/statistics-probability-maths-course) (Ages 14 to adult): Averages, spread and correlation, the maths underneath every forecast on this page.
-- [Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college) (University and adult): From classical models to modern AI systems, always measured against something simpler.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsPython and friendly AI ideas, such as guessing the next number in a pattern and checking the guess.See the syllabus](/courses/python-ai-kids-masterclass)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensMachine learning from first principles: data, a model, a baseline and an honest score.See the syllabus](/courses/ai-ml-masterclass-teens)[![Statistics & Probability course thumbnail](/images/statistics-probability-maths.webp)Ages 14 to adultStatistics & ProbabilityAverages, spread and correlation, the maths underneath every forecast on this page.See the syllabus](/courses/statistics-probability-maths-course)[![Artificial Intelligence Course course thumbnail](/images/ai-college.webp)University and adultArtificial Intelligence CourseFrom classical models to modern AI systems, always measured against something simpler.See the syllabus](/courses/artificial-intelligence-complete-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)The council area in the Census
 
 ## A compact council area where most homes are apartments
 
 Figures from the statistics bureau's 2021 QuickStats for the North Sydney local government area, beside New South Wales and Australia.
 
-**North Sydney council area, 2021 Census**
-
 | Measure | Value |
-|---|---|
+| --- | --- |
 | People counted | 68,950 |
 | Families | 18,403 |
 | All private dwellings | 38,990 |
 | People per household, average | 2 |
 | Land inside the council boundary | About 10.5 square kilometres |
 
-**How North Sydney compares**
-
 | Indicator | North Sydney | NSW | Australia |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Occupied homes that are flats or apartments | 75.7% (24,535) | 21.7% | 14.2% |
 | Residents with a bachelor degree or higher | 59.5% (35,807) | 27.8% | 26.3% |
 | Employed residents working as professionals | 45.3% (18,641) | 25.8% | 24.0% |
@@ -74,14 +58,14 @@ Professionals were 45.3% of employed residents and managers another 22.8%, so ma
 
 The bureau perturbs small cells to protect privacy, so the parts of a Census table seldom add to its total. Every number here is printed as published; none has been made by adding rows together.
 
+Signature project
+
 ## Does an AR(1) model beat a plain guess at North Sydney station?
 
 Transport for NSW publishes monthly Opal entries for every station. Six stations sit inside the North Sydney boundary on our check, and we used two of them to test a classic forecasting model.
 
-**Entries in August 2026 at the six stations inside the council area (Transport for NSW)**
-
 | Station | Line type in the file | Entries |
-|---|---|---|
+| --- | --- | --- |
 | Victoria Cross | Metro | 474,104 |
 | Crows Nest | Metro | 321,487 |
 | North Sydney | Train | 252,640 |
@@ -101,10 +85,8 @@ Next month will equal the average of every month seen so far. Steady, but blind 
 
 Next month equals the average plus a fraction, phi, of how far this month sits from it. Fitted on North Sydney's full series, phi is 0.284.
 
-**Average miss per forecast, October 2025 to August 2026 (our calculation, 11 forecasts each)**
-
 | Method | North Sydney station | Victoria Cross station |
-|---|---|---|
+| --- | --- | --- |
 | Same as last month | 18,496 | 50,444 |
 | Average of all earlier months | 16,310 | 47,410 |
 | AR(1), refitted each month | 15,114 | 47,546 |
@@ -115,14 +97,14 @@ North Sydney station swings around a fairly steady level, from a high of 288,569
 
 Each forecast was made with a refit on earlier months only, so no month was used to predict itself. Entries count Opal taps at the gates, not individual people, and we make no claim about why any month rose or fell. All errors and parameters are our own arithmetic on the published file.
 
+Taking it further
+
 ## From one forecast to a habit of fair testing
 
 Once the rolling test exists, learners can try better models against the same three numbers.
 
-**Next experiments on the North Sydney series**
-
 | Idea | What to code | What it teaches |
-|---|---|---|
+| --- | --- | --- |
 | Add a trend term | Regress on the month number as well as last month | Why Victoria Cross needs a different model |
 | Compare with last year | Use the same month a year earlier as the guess | Seasonal baselines once there are 24 months |
 | Report a range, not a point | Add plus or minus two typical errors | Honest uncertainty around a forecast |
@@ -142,6 +124,8 @@ Apply the same baseline-first test to a forecast at work before anyone trusts a 
 
 The open data comes from Transport for NSW, the statistics bureau and the education department, none of which is connected with us; the forecasts, errors and comparisons are ours.
 
+Schools and calendar
+
 ## Seven public schools from 1874 to 2016
 
 More facts from the education department's school location file.
@@ -158,16 +142,41 @@ North Sydney Public School records a first teacher in 1874 and Neutral Bay Publi
 
 Eastern division students start Term 1 on Wednesday 3 February 2027, after summer holidays from Friday 18 December 2026 to Wednesday 27 January 2027.
 
-**A small address puzzle** In the same file North Sydney Public School has Waverton as its suburb, a reminder for any data project that a name in one column does not always match a place in another.
+A small address puzzle
+
+In the same file North Sydney Public School has Waverton as its suburb, a reminder for any data project that a name in one column does not always match a place in another.
+
+Learning ladder
 
 ## From guessing the next block to forecasting the next month
 
 Ages are only a guide; the free trial lesson sets the starting rung.
 
-- **Ages 6 to 11: Patterns and logic** Scratch projects that repeat, predict and check, the earliest form of a model. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 11 to 14: First Python** Variables, loops and lists, then small programs that guess and score themselves. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 14 to 18: Data and models** Averages, baselines, train and test splits, and the first machine learning models. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **University and adult: AI with evidence** Forecasting, evaluation and modern AI systems, each judged against a simpler rival. [Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college), [Data Science Course](/courses/data-science-complete-masterclass-college)
+Ages 6 to 11
+
+### Patterns and logic
+
+Scratch projects that repeat, predict and check, the earliest form of a model.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 11 to 14
+
+### First Python
+
+Variables, loops and lists, then small programs that guess and score themselves.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 14 to 18
+
+### Data and models
+
+Averages, baselines, train and test splits, and the first machine learning models.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)University and adult
+
+### AI with evidence
+
+Forecasting, evaluation and modern AI systems, each judged against a simpler rival.
+
+[Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college)[Data Science Course](/courses/data-science-complete-masterclass-college)Coding and AI
 
 ## If AI can write the model, what is left for a North Sydney learner to do?
 
@@ -179,30 +188,139 @@ That is why our lessons put programming before AI. A learner who can write the r
 
 In 2026 anyone can produce a model; North Sydney learners who can prove whether it works are the ones whose work gets trusted. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live lessons from home, anywhere in the council area
 
 From Waverton to Cammeray, every learner joins the same live video class.
 
-- **A screen and a teacher** Lessons happen on video with a live teacher who watches the learner type, so mistakes are caught as they happen.
-- **NSW stages and terms** Teachers know the NSW stages and syllabus names, and the timetable pauses for state school holidays.
-- **Trial before any fee** The first lesson is a full, free class, after which the teacher recommends a course, level and fixed time.
-- **Grouped by level** Groups of fifteen to twenty learners at the same stage, or one-to-one lessons where a group does not fit.
-- **Two lessons a week** A regular pair of weekly lessons, about eight a month, with planned breaks agreed ahead of time.
-- **Teachers in India** A 5pm North Sydney lesson in summer is 11:30am India time; once Sydney returns to standard time it is 12:30pm there.
+### A screen and a teacher
 
-**Clocks in Sydney and India** Daylight saving in Sydney runs from Sunday 4 October 2026 to Sunday 4 April 2027. India has no daylight saving, so the gap to our teachers is 5 hours 30 minutes in summer and 4 hours 30 minutes otherwise; all times we give are Sydney times.
+Lessons happen on video with a live teacher who watches the learner type, so mistakes are caught as they happen.
+
+### NSW stages and terms
+
+Teachers know the NSW stages and syllabus names, and the timetable pauses for state school holidays.
+
+### Trial before any fee
+
+The first lesson is a full, free class, after which the teacher recommends a course, level and fixed time.
+
+### Grouped by level
+
+Groups of fifteen to twenty learners at the same stage, or one-to-one lessons where a group does not fit.
+
+### Two lessons a week
+
+A regular pair of weekly lessons, about eight a month, with planned breaks agreed ahead of time.
+
+### Teachers in India
+
+A 5pm North Sydney lesson in summer is 11:30am India time; once Sydney returns to standard time it is 12:30pm there.
+
+Clocks in Sydney and India
+
+Daylight saving in Sydney runs from Sunday 4 October 2026 to Sunday 4 April 2027. India has no daylight saving, so the gap to our teachers is 5 hours 30 minutes in summer and 4 hours 30 minutes otherwise; all times we give are Sydney times.
+
+Fees
 
 ## What lessons cost in North Sydney
 
 The same three prices for every course and every learner.
 
-- First class: USD 0. A full first lesson at no charge, ending with a recommended course and time.
-- Group tuition: USD 100 a month. Two lessons a week for a month, roughly eight, in a group of fifteen to twenty at one level.
-- Private tuition: USD 150 a month. The same twice-weekly pattern with one teacher and one learner.
+First class**USD 0**
+
+A full first lesson at no charge, ending with a recommended course and time.
+
+Group tuition**USD 100**
+
+Two lessons a week for a month, roughly eight, in a group of fifteen to twenty at one level.
+
+Private tuition**USD 150**
+
+The same twice-weekly pattern with one teacher and one learner.
 
 Fees outside India are billed in US dollars, so a learner in Waverton pays the same as one in Neutral Bay. Payment comes only after the trial has fixed the course and time, and the pricing page covers breaks, missed lessons and switching formats.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20North%20Sydney.)Reviews
+
+## What families say on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us the age and what they enjoy
+
+That is enough to plan a first lesson. A primary-age child might build a Scratch game that guesses a number; a teenager or adult might write the naive forecaster for North Sydney station in Python.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented North Sydney one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20North%20Sydney.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Questions from North Sydney learners
+
+The questions we hear most from the council area.
 
 ### How many people live in the North Sydney council area?
 
@@ -244,10 +362,14 @@ The first lesson is free. Group lessons are USD 100 a month for two live classes
 
 Between five and ten learners, matched on level and goals rather than age. When no group suits the learner's times, we offer one-to-one lessons.
 
+Keep exploring
+
 ## Related guides for North Sydney
 
 Start with the citywide [coding classes in Sydney](/best-coding-classes-in-sydney) guide. Teenagers curious about AI should read [AI classes for teens in Australia](/ai-classes-for-teens-australia), and anyone worried about leaning on chatbots will find [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-australia) useful. The state overview is [coding and AI classes in New South Wales](/coding-and-ai-classes-in-new-south-wales).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Chat on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20North%20Sydney.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-north-sydney-sydney](https://learn.modernagecoders.com/ai-and-programming-classes-in-north-sydney-sydney#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-north-sydney-sydney*

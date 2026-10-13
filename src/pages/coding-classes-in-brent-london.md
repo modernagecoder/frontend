@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths classes for Brent, from W
 canonical: https://learn.modernagecoders.com/coding-classes-in-brent-london
 source: src/pages/coding-classes-in-brent-london.html
 ---
-> Brent is the north-west London borough of Wembley, Kingsbury, Harlesden, Willesden and Kilburn, where the 2021 Census counted 339,816 residents, Brent Council keeps six public libraries open, and Wembley Park is served by both the Jubilee and the Metropolitan line. A class worth your family's time here should leave a learner able to test a result instead of trusting it, which is the thread of this page: a program that draws Brent's contour lines from a grid of heights, and then measures how far its lines stray from the ones Ordnance Survey publishes. We teach live on video from India, one to one or in groups of fifteen to twenty at the same level, for anyone from 6 to 67. You pay nothing for the first lesson; staying on costs USD 100 each month for a group place, or USD 150 each month for teaching on your own.
+> Live online coding, Python, AI and maths classes for Brent, from Wembley and Kingsbury to Harlesden, Willesden and Kilburn, ages 6 to 67. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Brent
-
-London Borough of Brent / Live online
-
-# Coding classes in Brent
-
-**What are the best coding classes in Brent?** Brent is the north-west London borough of Wembley, Kingsbury, Harlesden, Willesden and Kilburn, where the 2021 Census counted 339,816 residents, Brent Council keeps six public libraries open, and Wembley Park is served by both the Jubilee and the Metropolitan line. A class worth your family's time here should leave a learner able to test a result instead of trusting it, which is the thread of this page: a program that draws Brent's contour lines from a grid of heights, and then measures how far its lines stray from the ones Ordnance Survey publishes. We teach live on video from India, one to one or in groups of fifteen to twenty at the same level, for anyone from 6 to 67. You pay nothing for the first lesson; staying on costs USD 100 each month for a group place, or USD 150 each month for teaching on your own.
-
-A map shows Barn Hill as a set of rings, but nobody walked those rings. Ordnance Survey publishes Brent's ground as a grid of heights, one number every 50 metres, and a contour line is what you get when a program guesses where the ground crosses 30 m, 40 m or 80 m between those numbers. We wrote that program, the one called marching squares, traced Brent's contours ourselves and laid them over the lines OS draws. On the steep slopes around Kingsbury and Barn Hill our lines sit a few metres from theirs. Down on the low, flat ground near the River Brent they wander by tens of metres, and in places by more than 80. Same method, same data, very different confidence. That difference, and knowing where to expect it, is what this page teaches.
-
-Facts last verified 25 September 2026. Teaching is online; no Brent branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Brent
 
 ## Four courses for Brent learners
 
 Picture a Year 2 child in Harlesden who fills notebooks with maze drawings, a Year 8 pupil in Kingsbury who likes maps more than maths homework, a Year 12 student in Willesden choosing a computing project, and a parent in Kilburn who wants a spreadsheet to answer questions without errors. Every one of them starts with a free lesson.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Scratch games on a grid of squares, where a sprite colours in every square above a chosen number: marching squares before it has a name.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): School maths written as Python: coordinates, proportion and the straight-line interpolation that puts a contour between two heights.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Full Python for Key Stages 3 and 4 and beyond, with this page's project on real Ordnance Survey data from Brent.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): For grown-ups who inherit numbers at work and want to know how much a smooth-looking chart or map can really be trusted.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsScratch games on a grid of squares, where a sprite colours in every square above a chosen number: marching squares before it has a name.See the syllabus](/courses/scratch-programming-complete-course)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingSchool maths written as Python: coordinates, proportion and the straight-line interpolation that puts a contour between two heights.See the syllabus](/courses/maths-through-coding)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensFull Python for Key Stages 3 and 4 and beyond, with this page's project on real Ordnance Survey data from Brent.See the syllabus](/courses/python-complete-masterclass-teens)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For grown-ups who inherit numbers at work and want to know how much a smooth-looking chart or map can really be trusted.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Brent in figures
 
 ## 339,816 residents, six libraries and 94 listed buildings
 
 Each figure is taken from the body that publishes it, named in the last column.
 
-**Brent, figure by figure**
-
 | What was counted | Count | Who publishes it |
-|---|---|---|
+| --- | --- | --- |
 | Usual residents, Census 2021 | 339,816 | Office for National Statistics, table TS001 on Nomis |
 | Public libraries | 6 | Brent Council |
 | Entries on the National Heritage List inside the borough boundary | 94: 1 Grade I, 8 Grade II*, 85 Grade II | Historic England list data, counted 25 September 2026 |
@@ -62,14 +48,14 @@ Among the borough's eight Grade II* entries on Historic England's National Herit
 
 The 94 listed entries are the Historic England list points that fall inside the Office for National Statistics boundary of Brent: a count anyone can repeat, and the same point-in-polygon test the project below uses.
 
+Brent's libraries
+
 ## Six libraries from Wembley Park to Kilburn
 
 Addresses as Brent Council lists them. A library computer is a fine place to write a first program, and a quiet corner of one works for an online lesson on a noisy evening.
 
-**Brent Council's six libraries**
-
 | Library | Address |
-|---|---|
+| --- | --- |
 | Ealing Road Library | Coronet Parade, Ealing Road, Wembley, HA0 4BA |
 | Harlesden Library | Craven Park Road, Harlesden, NW10 8SE |
 | Kilburn Library | 42 Salusbury Road, Kilburn, NW6 6NN |
@@ -78,6 +64,8 @@ Addresses as Brent Council lists them. A library computer is a fine place to wri
 | The Library at Willesden Green | 95 High Road, Willesden Green, NW10 2SF |
 
 Brent's library service also runs the Willesden Gallery, Brent Museum and Brent Archives. For an online lesson a learner needs a laptop or desktop, sound and a reliable connection; for the project on this page, nothing else, because every file it uses is free to download.
+
+Signature project
 
 ## Drawing Brent's contours, then measuring how wrong they could be
 
@@ -95,10 +83,8 @@ For a level such as 40 m, the program looks at every block of four neighbouring 
 
 Ordnance Survey also publishes its own 10 m contour lines for the same release. For every piece of line we drew, we measured the distance to the nearest OS line at the same height.
 
-**Our run, 25 September 2026: our 10 m contours against OS Terrain 50 contours, inside Brent**
-
 | Level | Our line | OS line | Typical gap (median) | Wide gap (90th percentile) |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | 80 m | 2.81 km | 2.74 km | 4.6 m | 12.0 m |
 | 70 m | 8.44 km | 8.13 km | 5.8 m | 17.1 m |
 | 60 m | 23.07 km | 23.09 km | 7.2 m | 27.7 m |
@@ -112,14 +98,14 @@ Read the table from the top. On the hills, where height changes quickly from one
 
 Ask an assistant for contour lines from a height grid and you will get a working marching squares function, or a single call to a plotting library, in seconds. Both will draw smooth, confident rings. Neither will tell you that the ring at 30 m across the flat ground near the River Brent could honestly sit 80 m to one side. A learner who has measured the gap for their own borough knows to ask how steep the ground is before trusting a line, and that question applies to every smooth curve a computer draws between measured points.
 
+Spot heights
+
 ## The highest points in Brent, named from Ordnance Survey data
 
 Spot heights are the individual heights OS prints on the map. The name beside each is the nearest feature in OS Open Names.
 
-**Five highest OS spot heights inside Brent, with the grid's value at the same point**
-
 | Spot height | Beside | Grid value there |
-|---|---|---|
+| --- | --- | --- |
 | 90 m | Summit Avenue and Buck Lane, Kingsbury | 89.1 m |
 | 89 m | Sudbury Court Road, Sudbury | 87.1 m |
 | 85 m | Barn Hill | 84.5 m |
@@ -129,6 +115,8 @@ Spot heights are the individual heights OS prints on the map. The name beside ea
 The grid reads slightly lower than the spot heights at the very tops, which is what you would expect: a 50 m square averages the ground around a summit, and a summit is its single highest point. Learners find this themselves by comparing the two, a useful early lesson in what a gridded number does and does not mean.
 
 Modern Age Coders has no connection with Brent Council, Historic England, Ordnance Survey, Transport for London or the Office for National Statistics, and nothing here suggests one. The library addresses are Brent Council's; the contour comparison, the counts and the table of spot heights are our own work with published open data, run on 25 September 2026.
+
+Across the borough
 
 ## From Kingsbury's heights to the Brent valley, the same lesson
 
@@ -146,16 +134,41 @@ A learner near Kingsbury Library and another near Kilburn Library can share one 
 
 Brent's boundary is a line in a file like any other. The same test that counted 94 listed buildings inside it can tell a learner which side of it their own street is on.
 
-**Brent and the rest of London** Brent is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) lists them all and links each borough as its page goes live, including neighbouring [Harrow](/coding-classes-in-harrow-london).
+Brent and the rest of London
+
+Brent is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) lists them all and links each borough as its page goes live, including neighbouring [Harrow](/coding-classes-in-harrow-london).
+
+Learning ladder
 
 ## From colouring squares to measuring a map's uncertainty
 
 A learner's first lesson places them by what they can already do, which can be well ahead of, or behind, their school year.
 
-- **Ages 6 to 10: Squares above and below** Children colour a grid by a rule and watch shapes appear, the picture version of a contour. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 10 to 13: A number between two numbers** Python programs that estimate a value part-way between two known ones, and check the estimate against a third. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 18: Algorithms on real maps** Marching squares, point-in-polygon tests and error measurement on open data, the kind of work that fills a strong GCSE or A level project. [Python for Teens](/courses/python-complete-masterclass-teens), [Full Stack Web Development for Teens](/courses/full-stack-web-development-teens-masterclass)
-- **Ages 18 to 67: How far to trust a smooth line** Adults learn to ask where a chart or map is solid and where it is interpolation, before a decision rests on it. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### Squares above and below
+
+Children colour a grid by a rule and watch shapes appear, the picture version of a contour.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 10 to 13
+
+### A number between two numbers
+
+Python programs that estimate a value part-way between two known ones, and check the estimate against a third.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 18
+
+### Algorithms on real maps
+
+Marching squares, point-in-polygon tests and error measurement on open data, the kind of work that fills a strong GCSE or A level project.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Full Stack Web Development for Teens](/courses/full-stack-web-development-teens-masterclass)Ages 18 to 67
+
+### How far to trust a smooth line
+
+Adults learn to ask where a chart or map is solid and where it is interpolation, before a decision rests on it.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## A computer can draw Brent's contour lines in a second. Why should a Brent teenager learn how?
 
@@ -167,30 +180,139 @@ A learner who has written marching squares and measured its error on their own b
 
 So the case for a Brent child learning to code in 2026 is not that computers cannot draw maps without them. It is that someone has to know which of the confident-looking lines are guesses, and say so. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## From Kingsbury to Kilburn, taught on your screen
 
 The whole borough is exactly as close to an online lesson as your nearest desk.
 
-- **At home or at the library** Most learners join from home; on a busy evening a quiet library table with a headset works too.
-- **English school stages** Key Stage 1 to Key Stage 5, Year 9 options, GCSEs and A levels are used as English schools use them, and all teaching is in English.
-- **A real lesson first** The free first lesson is proper work with a teacher and ends with a clear recommendation of level and course. No card details are asked for.
-- **Groups by level** Fifteen to twenty learners at the same stage, from Brent and from further away, so a group can meet at a workable hour.
-- **Fitted around term dates** Most groups meet twice a week, and families agree breaks for half terms, holidays and exam revision with the teacher.
-- **UK times on every booking** Teachers in India start their evenings while Brent is still at school or work, so the calendar does the converting: whatever the season, the time you book and see is UK time.
+### At home or at the library
 
-**Many schools, one well-matched group** Brent has six libraries and a great many schools, yet a good coding group needs five learners at one level, on one subject, at one hour, which is why ours draw on Brent and far beyond.
+Most learners join from home; on a busy evening a quiet library table with a headset works too.
+
+### English school stages
+
+Key Stage 1 to Key Stage 5, Year 9 options, GCSEs and A levels are used as English schools use them, and all teaching is in English.
+
+### A real lesson first
+
+The free first lesson is proper work with a teacher and ends with a clear recommendation of level and course. No card details are asked for.
+
+### Groups by level
+
+Fifteen to twenty learners at the same stage, from Brent and from further away, so a group can meet at a workable hour.
+
+### Fitted around term dates
+
+Most groups meet twice a week, and families agree breaks for half terms, holidays and exam revision with the teacher.
+
+### UK times on every booking
+
+Teachers in India start their evenings while Brent is still at school or work, so the calendar does the converting: whatever the season, the time you book and see is UK time.
+
+Many schools, one well-matched group
+
+Brent has six libraries and a great many schools, yet a good coding group needs five learners at one level, on one subject, at one hour, which is why ours draw on Brent and far beyond.
+
+Fees
 
 ## Fees for Brent families
 
 One set of fees for the whole borough: the first lesson free, then a monthly fee.
 
-- First class: USD 0. A full working lesson at no cost, ending with a recommended level, course and weekly time.
-- Group tuition: USD 100 a month. Around eight live lessons a month in a class of fifteen to twenty learners at the same stage.
-- Private tuition: USD 150 a month. Around eight live lessons a month with one teacher and your learner alone.
+First class**USD 0**
+
+A full working lesson at no cost, ending with a recommended level, course and weekly time.
+
+Group tuition**USD 100**
+
+Around eight live lessons a month in a class of fifteen to twenty learners at the same stage.
+
+Private tuition**USD 150**
+
+Around eight live lessons a month with one teacher and your learner alone.
 
 Whether you are in Wembley or Willesden, you are billed in US dollars, as every family outside India is, and the site shows no pound prices. Nothing is payable until the free lesson is over and a course and regular slot are agreed; our pricing page covers pausing, missed lessons and moving between group and private teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Brent.)Reviews
+
+## What six families wrote on Google, unedited
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us about your learner
+
+Age or school year, and what they enjoy, is all we need. Their first task might be a Scratch grid game, a first Python program, or the Brent contour project on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Brent one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Brent.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Brent coding class questions
+
+About the borough, the contour project and how lessons work.
 
 ### How many people live in Brent?
 
@@ -232,10 +354,14 @@ The first lesson is free. After that, a group place costs USD 100 a month for tw
 
 Fifteen to twenty learners, matched by level, pace and aims rather than by age or neighbourhood. If no group at the right level meets at a workable time, one-to-one lessons are the alternative.
 
+Explore London
+
 ## Beyond Brent: other boroughs and other nations
 
 Harrow sits just north-west, and the [London page](/best-coding-class-in-london) gathers all 32 boroughs plus the City, adding a link as each borough page is published. Families interested in machine learning can read about [AI classes across London](/ai-and-machine-learning-classes-in-london), while England, Scotland, Wales and Northern Ireland each get their own school stages on our [UK coding page](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Brent.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-brent-london](https://learn.modernagecoders.com/coding-classes-in-brent-london#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-brent-london*

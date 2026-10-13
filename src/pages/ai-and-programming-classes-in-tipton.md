@@ -4,46 +4,32 @@ description: "Live online AI and programming classes for Tipton, Ocker Hill, Pri
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-tipton
 source: src/pages/ai-and-programming-classes-in-tipton.html
 ---
-> In the 2021 census the ONS counted 47,200 usual residents in the Tipton built-up area and 341,832 in the borough of Sandwell around it. Ocker Hill, Princes End, Tipton Green, Dudley Port, Horseley Heath, Toll End and Burnt Tree are gazetteer suburbs that sit inside the Tipton built-up area. Modern Age Coders teaches programming, AI, Python, vibe coding and maths live online to learners there from six to 67. The tutors work from India, one-to-one or with groups of fifteen to twenty learners at one level. Lessons are built on algorithms the learner runs on real data. A free first lesson comes before any course suggestion. The Tipton project asks a route planner for the second, third and ninth shortest walks between Tipton and Dudley Port stations, and finds out how different those alternatives really are. Group classes then cost USD 100 a month and private ones USD 150 a month.
+> Live online AI and programming classes for Tipton, Ocker Hill, Princes End and Dudley Port, ages 6 to 67, with Python, vibe coding and agents. Try one free lesson.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [West Midlands region](/coding-and-ai-classes-in-west-midlands-region) / Tipton
-
-Tipton, Sandwell, West Midlands / Live online
-
-# AI and programming classes in Tipton
-
-**Which are the best AI and programming classes for Tipton?** In the 2021 census the ONS counted 47,200 usual residents in the Tipton built-up area and 341,832 in the borough of Sandwell around it. Ocker Hill, Princes End, Tipton Green, Dudley Port, Horseley Heath, Toll End and Burnt Tree are gazetteer suburbs that sit inside the Tipton built-up area. Modern Age Coders teaches programming, AI, Python, vibe coding and maths live online to learners there from six to 67. The tutors work from India, one-to-one or with groups of fifteen to twenty learners at one level. Lessons are built on algorithms the learner runs on real data. A free first lesson comes before any course suggestion. The Tipton project asks a route planner for the second, third and ninth shortest walks between Tipton and Dudley Port stations, and finds out how different those alternatives really are. Group classes then cost USD 100 a month and private ones USD 150 a month.
-
-Ask a map app for alternatives and it shows two or three routes that look clearly different. Ask a textbook algorithm for the second shortest route and you often get the first one again with a tiny detour, five metres longer, round the other side of a bollard. The algorithm is not wrong. Second shortest and genuinely different are separate questions, and a good program has to know which one it is answering. Tipton, with its network of streets, footpaths and canal towpaths, turns that distinction into something a learner can count.
-
-Facts last verified 30 September 2026. Teaching is online; no Tipton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse suggestions
 
 ## Programming and AI courses for Tipton learners
 
 A first suggestion for each age group. Every course begins with a free live lesson and no card details.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): How to think before coding: routes, choices and step-by-step plans a computer could follow.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Vibe coding for children: build Scratch games with an AI and test every part.
-- [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens) (Ages 13 to 17): Graphs, shortest paths and search in Python, including the Tipton route project.
-- [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college) (Students and adults): Algorithms in depth, from Dijkstra to Yen, then agents that plan with them.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsHow to think before coding: routes, choices and step-by-step plans a computer could follow.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsVibe coding for children: build Scratch games with an AI and test every part.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)Ages 13 to 17Problem Solving for TeensGraphs, shortest paths and search in Python, including the Tipton route project.See the syllabus](/courses/problem-solving-dsa-masterclass-teens)[![Data Structures & Algorithms Course course thumbnail](/images/dsa-college.webp)Students and adultsData Structures & Algorithms CourseAlgorithms in depth, from Dijkstra to Yen, then agents that plan with them.See the syllabus](/courses/data-structures-algorithms-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Local picture
 
 ## Tipton, Ocker Hill, Princes End and Dudley Port
 
 Census figures for the town and its borough, and the suburb names the gazetteer places inside it.
 
-**Census 2021, usual residents (ONS)**
-
 | Area | Residents |
-|---|---|
+| --- | --- |
 | Tipton built-up area | 47,200 |
 | Sandwell borough | 341,832 |
 
@@ -53,6 +39,8 @@ The borough total also counts West Bromwich, Smethwick, Oldbury, Rowley Regis an
 
 Look at [West Bromwich](/vibe-coding-and-ai-agents-classes-in-west-bromwich), [Smethwick](/best-coding-and-ai-classes-in-smethwick), [Dudley](/online-coding-and-python-classes-in-dudley) and the [West Midlands county page](/coding-classes-in-the-west-midlands). Our view on thinking skills before AI tools is on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Tipton project
+
 ## The second shortest route, and the first different one
 
 Two railway stations, 482 km of walkable paths, and two hundred routes in order of length.
@@ -61,10 +49,8 @@ The learner downloads every walkable way in a box around Tipton from OpenStreetM
 
 Dijkstra's algorithm finds the shortest walk: 1,497 m, with 1,112 m of it on towpath and Station Drive the only named street. Then the learner runs Yen's algorithm, published by Jin Y. Yen in 1971, which lists loopless routes in order of length: take the shortest, then for each point along it, block the next step and search again from there. Python's networkx library has it built in as shortest_simple_paths. The learner asks for 200 routes and, for each one, measures how much of its length it shares with the first.
 
-**Walking routes from Tipton station to Dudley Port station, our networkx run**
-
 | Route | Length | Longer than route 1 | Shared with route 1 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1 | 1,497 m | n/a | 100% |
 | 2 | 1,502 m | 0.34% | 98.8% |
 | 3 | 1,562 m | 4.38% | 30.3% |
@@ -91,14 +77,14 @@ Run Yen's algorithm on the Tipton network, then write an overlap filter and try 
 
 Paths, towpath tags and station positions are from OpenStreetMap contributors under the Open Database Licence, fetched with one Overpass query. Yen's method is from his 1971 paper in Management Science. The network building, the route counts and the overlap figures are ours.
 
+Programming with AI
+
 ## What counting route overlap teaches about AI answers
 
 A list of alternatives is only useful if the alternatives differ.
 
-**From Tipton walks to working with an AI**
-
 | What the routes showed | What to do with AI output |
-|---|---|
+| --- | --- |
 | Route 2 was route 1 plus a 19 m swap | Check whether several answers are really one answer |
 | Route 3 differed on paper and still followed the canal | Decide what "different" means before measuring it |
 | Only four routes were within 5% | Ask how much worse the alternatives are |
@@ -109,14 +95,37 @@ Language models produce alternatives in much the same way: ask for five options 
 
 Modern Age Coders is not connected with OpenStreetMap, the Office for National Statistics or postcodes.io. Their open data made the project possible; the analysis is our own.
 
+Progression
+
 ## From map puzzles at seven to graph algorithms at seventeen
 
 A learner's starting point comes from the trial lesson, with school year as a rough guide.
 
-- **Years 2 to 6: Thinking in steps** Routes, patterns and instructions, often on paper first. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: First programs** Scratch built with AI help, then first lines of Python. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Algorithms in Python** Graphs, searching and shortest paths, tested on real maps. [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Algorithms, then agents** Deeper algorithms, then agents that plan with code you understand. [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Years 2 to 6
+
+### Thinking in steps
+
+Routes, patterns and instructions, often on paper first.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### First programs
+
+Scratch built with AI help, then first lines of Python.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Algorithms in Python
+
+Graphs, searching and shortest paths, tested on real maps.
+
+[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Algorithms, then agents
+
+Deeper algorithms, then agents that plan with code you understand.
+
+[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)Routes and AI
 
 ## What is Yen's algorithm, and why does it matter when AI suggests alternatives?
 
@@ -128,30 +137,139 @@ A learner who has measured overlap knows to ask of any list of options, from an 
 
 For Tipton teenagers, being able to put a number on "different" is part of directing AI rather than following it, and that ability grows from writing code. The longer argument is in [is learning to code still worth it in 2026](/blog/is-coding-worth-learning-2026).
 
+Lesson format
+
 ## How Tipton lessons are run
 
 All teaching happens live over video. The learner needs a computer with a keyboard; a phone or tablet is not enough for programming.
 
-- **Learner at the keyboard** The learner writes and runs the code; the tutor questions each decision.
-- **Level first** The free lesson shows us what the learner knows before any course is named.
-- **Nothing to pay upfront** The first lesson needs no payment and no card.
-- **Fifteen to twenty per group** Groups are formed by stage, with classmates joining from around the UK.
-- **Roughly eight a month** Two lessons a week during term, with Sandwell holidays skipped on request.
-- **Same slot all year** Tutors absorb the clock changes so your UK lesson time does not move.
+### Learner at the keyboard
 
-**Why online** A class of learners at exactly the same stage is easier to form from the whole country than from one town. Live video makes that possible without travel.
+The learner writes and runs the code; the tutor questions each decision.
+
+### Level first
+
+The free lesson shows us what the learner knows before any course is named.
+
+### Nothing to pay upfront
+
+The first lesson needs no payment and no card.
+
+### Fifteen to twenty per group
+
+Groups are formed by stage, with classmates joining from around the UK.
+
+### Roughly eight a month
+
+Two lessons a week during term, with Sandwell holidays skipped on request.
+
+### Same slot all year
+
+Tutors absorb the clock changes so your UK lesson time does not move.
+
+Why online
+
+A class of learners at exactly the same stage is easier to form from the whole country than from one town. Live video makes that possible without travel.
+
+Fees
 
 ## Fees for Tipton learners
 
 Tipton learners pay our standard rates for students outside India.
 
-- First class: USD 0. First lesson: free, full length, ending with a suggested course.
-- Group tuition: USD 100 a month. Group class, about eight lessons each month.
-- Private tuition: USD 150 a month. Private one-to-one lessons, about eight each month.
+First class**USD 0**
+
+First lesson: free, full length, ending with a suggested course.
+
+Group tuition**USD 100**
+
+Group class, about eight lessons each month.
+
+Private tuition**USD 150**
+
+Private one-to-one lessons, about eight each month.
 
 Fees are set in US dollars and we do not quote them in pounds. The trial carries no charge, and billing begins only when you have agreed a course and a regular slot. The pricing page explains holiday breaks, missed lessons and changing between group and private.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20arrange%20a%20free%20AI%20or%20programming%20trial%20lesson%3F%20We%20are%20in%20Tipton.)Reviews
+
+## Sandwell families and learners around Britain, reviewing us on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Arrange a free Tipton lesson
+
+Share the learner's age or year and what interests them. A trial might be a paper route puzzle, a Scratch game made with AI, first steps in Python, or a shortest path on a real map.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Tipton one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20arrange%20a%20free%20AI%20or%20programming%20trial%20lesson%3F%20We%20are%20in%20Tipton.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Tipton questions answered
+
+Routes, Yen's algorithm, programming, vibe coding and practical details.
 
 ### What is the population of Tipton?
 
@@ -193,10 +311,14 @@ The first lesson is free, then USD 100 a month for group lessons or USD 150 a mo
 
 Yes. Tell us the weeks and we leave them out.
 
+Nearby
+
 ## More West Midlands pages
 
 Visit [West Bromwich](/vibe-coding-and-ai-agents-classes-in-west-bromwich), [Smethwick](/best-coding-and-ai-classes-in-smethwick), [Dudley](/online-coding-and-python-classes-in-dudley) and [Wolverhampton](/best-coding-class-in-wolverhampton). The [West Midlands page](/coding-classes-in-the-west-midlands) and the [UK hub](/coding-classes-in-united-kingdom) link to the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20arrange%20a%20free%20AI%20or%20programming%20trial%20lesson%3F%20We%20are%20in%20Tipton.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-tipton](https://learn.modernagecoders.com/ai-and-programming-classes-in-tipton#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-tipton*

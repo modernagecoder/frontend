@@ -12,7 +12,7 @@ Live Online Coding & Maths: Near Kalighat, Kolkata
 
 Modern Age Coders runs premium live online coding and maths classes for families near Kalighat, Hazra and Lake Market, small live batches taught by full-time engineers and maths graduates, never pre-recorded videos. Children learn Python, Java, AI/ML and school maths as a serious, structured subject, building real project files for their book bags. ICSE, CBSE, IGCSE and WBBSE-aware. Book a free graded demo class today.
 
-Live, not recordedSmall batches (max 20)Taught by engineersICSE / CBSE / IGCSE / WBBSE[Book Free Demo Class](/book-demo)[Explore Courses](/courses)6–8Max per live batch1-on-1Personal attention option₹1,499Starting fee per month100%Live, project-basedLive Online · Kalighat, Kolkata
+Live, not recordedBatches (max 20)Taught by engineersICSE / CBSE / IGCSE / WBBSE[Book Free Demo Class](/book-demo)[Explore Courses](/courses)15–20Max per live batch1-on-1Personal attention option₹1,499Starting fee per month100%Live, project-basedLive Online · Kalighat, Kolkata
 
 ## At a glance
 

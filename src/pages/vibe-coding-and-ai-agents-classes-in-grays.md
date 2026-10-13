@@ -4,46 +4,32 @@ description: "Live online vibe coding, AI agents, Python and coding classes for 
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-grays
 source: src/pages/vibe-coding-and-ai-agents-classes-in-grays.html
 ---
-> The ONS recorded 44,345 people in the Grays built-up area in 2021, within a Thurrock borough of 176,001. Little Thurrock is listed as a suburban area of the town in postcode data, with Chadwell St Mary and Orsett as villages close by. Anyone in Grays from six to 67 can study with Modern Age Coders, whether the goal is vibe coding, agents, Python, general programming or maths. Every lesson is live on video with a tutor in India, taken privately or in a group of fifteen to twenty learners who share a level. Our learners design agents that expect things to go wrong, and they learn to decide in advance which answers to trust. The Grays project gives seven agents the same question, the height of the ground at 100 points across town, and then turns some of them into liars. The opening lesson costs nothing and ends with the course we recommend. Continuing costs USD 100 per month for a shared class or USD 150 per month for solo teaching.
+> Live online vibe coding, AI agents, Python and coding classes for Grays, Little Thurrock, Chadwell St Mary and Orsett, for ages 6 to 67. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [East of England](/coding-and-ai-classes-in-east-of-england) / Grays
-
-Grays, Thurrock, Essex / Live online
-
-# Vibe coding and AI agents classes in Grays
-
-**Where are the best vibe coding and AI agents classes for Grays learners?** The ONS recorded 44,345 people in the Grays built-up area in 2021, within a Thurrock borough of 176,001. Little Thurrock is listed as a suburban area of the town in postcode data, with Chadwell St Mary and Orsett as villages close by. Anyone in Grays from six to 67 can study with Modern Age Coders, whether the goal is vibe coding, agents, Python, general programming or maths. Every lesson is live on video with a tutor in India, taken privately or in a group of fifteen to twenty learners who share a level. Our learners design agents that expect things to go wrong, and they learn to decide in advance which answers to trust. The Grays project gives seven agents the same question, the height of the ground at 100 points across town, and then turns some of them into liars. The opening lesson costs nothing and ends with the course we recommend. Continuing costs USD 100 per month for a shared class or USD 150 per month for solo teaching.
-
-When several AI agents work on the same job, somebody has to combine what they report. If every agent is honest and roughly right, averaging their answers works well. But agents fail in stranger ways than crashing. One may be fed poisoned data, another may hallucinate with total confidence, and a third may simply repeat what a fourth said. Computer scientists call an agent that can send any wrong or contradictory message Byzantine, after a 1982 puzzle about generals who cannot trust each other's messengers. Grays makes a good test ground, because seven public elevation models will each tell you how high the town stands, and they do not quite agree.
-
-Facts last verified 30 September 2026. Teaching is online; no Grays branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse routes
 
 ## Grays courses in vibe coding, clear thinking and agents
 
 Pick by age. Each route opens with a live lesson that is free and asks for no card.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): How to think: a class votes on a secret number while two pupils are told to fib, and works out how to catch them.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Children steer an AI to build Scratch games with several sprites that must share information fairly.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python and web projects built with AI help, including the Grays liar experiment as a simulation.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): Large language models, retrieval and agents, with checks for agents that give confident wrong answers.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsHow to think: a class votes on a secret number while two pupils are told to fib, and works out how to catch them.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsChildren steer an AI to build Scratch games with several sprites that must share information fairly.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensPython and web projects built with AI help, including the Grays liar experiment as a simulation.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseLarge language models, retrieval and agents, with checks for agents that give confident wrong answers.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)The borough
 
 ## Grays and the other built-up areas of Thurrock
 
 Five of the borough's built-up areas, with the populations the ONS published for 2021.
 
-**Five built-up areas that lie inside Thurrock, with ONS census 2021 populations**
-
 | Built-up area | Residents (2021 census) |
-|---|---|
+| --- | --- |
 | Grays | 44,345 |
 | Stanford-le-Hope | 29,525 |
 | Chafford Hundred and West Thurrock | 23,585 |
@@ -56,16 +42,16 @@ Each row is the ONS's own rounded figure for one built-up area, and the rows are
 
 For the wider county see [coding classes in Essex](/coding-classes-in-essex), and for the region see [East of England](/coding-and-ai-classes-in-east-of-england). The thinking behind our lessons is on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk), and the teenage route on [vibe coding for teens](/vibe-coding-for-teens).
 
+The Grays project
+
 ## Seven agents, 100 points, and a few liars
 
 Ask seven independent sources the same question, see how honest sources disagree, then find out how many dishonest ones the group can survive.
 
 The learner lays a grid of 10 by 10 points, 250 m apart, over Grays and asks seven public elevation models, served by OpenTopoData, for the height of the ground at every point. Each model plays the part of an agent. Even with nobody lying, the answers differ: the gap between the highest and lowest report at a point averages 8.4 m and ranges from 2.0 m to 23.0 m. At the worst point, the seven agents said 17, 22, 28.6, 29, 29, 29 and 40 m. Two of the agents, the 30 m SRTM model and the Mapzen tiles, gave identical heights at all 100 points, which is what you would see if both drew on the same source here. Seven voices, then, but only six independent ones.
 
-**Average distance of each agent from the median of all seven, over 100 points in Grays (our Python run)**
-
 | Agent (elevation model) | Average distance from the median |
-|---|---|
+| --- | --- |
 | EU-DEM, 25 m | 0.46 m |
 | SRTM, 90 m | 0.50 m |
 | SRTM, 30 m | 0.63 m |
@@ -94,14 +80,14 @@ Code Oral Messages for three and four agents, run thousands of trials, and expla
 
 Heights come from the EU-DEM (produced using Copernicus data and information funded by the European Union), SRTM, ASTER GDEM, Mapzen terrain tiles, ETOPO1 and GEBCO 2020 datasets, all read through the public OpenTopoData API. The coarse global models were never meant for street-level work, so their larger gaps are expected. None of the models is ground truth, so we measure disagreement, not error. The grid, the liars, the 50 m lie and the tie rule are our choices, and other choices give other numbers.
 
+Agents you can trust
+
 ## Why this matters for AI agents and vibe coding
 
 A multi-agent system is only as reliable as the rule that combines what the agents say.
 
-**From Grays heights to multi-agent AI**
-
 | In the Grays run | In AI agent design |
-|---|---|
+| --- | --- |
 | Honest agents still differed by up to 23.0 m | Expect disagreement even when nothing is wrong |
 | Two agents echoed each other exactly | Count independent sources, not agents |
 | One liar moved the mean by 139.8 m | Averaging is fragile against one bad agent |
@@ -112,14 +98,37 @@ Modern AI setups often run several agents or several samples from one model and 
 
 We used open data from the Copernicus programme, the providers behind the other elevation models, OpenTopoData, the Office for National Statistics and postcodes.io. None of them endorses this page, and the simulations are ours.
 
+Pathway
+
 ## From fibbing games to fault-tolerant agents
 
 We place learners by age or school year first, then adjust after the free lesson.
 
-- **Years 2 to 7: How to think** Clues, evidence and spotting the witness who does not fit. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Games made with an AI partner, then tested by breaking them. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python, simulation and AI** Voting rules, simulations and models, beside GCSE and A level work. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Agents built to be doubted** Sound Python, then language models, retrieval and agents. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
+Years 2 to 7
+
+### How to think
+
+Clues, evidence and spotting the witness who does not fit.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Games made with an AI partner, then tested by breaking them.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python, simulation and AI
+
+Voting rules, simulations and models, beside GCSE and A level work.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Agents built to be doubted
+
+Sound Python, then language models, retrieval and agents.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)Agents and trust
 
 ## What is Byzantine fault tolerance?
 
@@ -131,30 +140,139 @@ When the agents had to agree among themselves, three agents with one traitor wen
 
 A Grays teenager who has written that simulation will design agent systems that assume some agents fail, which is exactly what the field needs. You gain that from building and breaking the code yourself, which is why learning to code still pays in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Lessons
+
 ## Little Thurrock, Chadwell St Mary and Orsett on a live call
 
 A laptop or desktop with a webcam and a home internet connection is all the kit.
 
-- **Code, not slides** Learners type on a shared screen while the tutor keeps asking what the code will do next.
-- **A trial to find the level** The free lesson shows us where to start, and we write down any exam board.
-- **Nothing to pay at first** Lesson one is free, no card is taken, and a course suggestion follows.
-- **Matched classmates** Groups of fifteen to twenty learners at one level, drawn from across the UK.
-- **Two lessons weekly** Holiday weeks you give us are kept free.
-- **Clock changes handled** Our tutors move with British Summer Time so your lesson time does not.
+### Code, not slides
 
-**Why online** A class where everyone shares a level needs learners from far and wide. A single borough cannot provide them, but the whole UK can.
+Learners type on a shared screen while the tutor keeps asking what the code will do next.
+
+### A trial to find the level
+
+The free lesson shows us where to start, and we write down any exam board.
+
+### Nothing to pay at first
+
+Lesson one is free, no card is taken, and a course suggestion follows.
+
+### Matched classmates
+
+Groups of fifteen to twenty learners at one level, drawn from across the UK.
+
+### Two lessons weekly
+
+Holiday weeks you give us are kept free.
+
+### Clock changes handled
+
+Our tutors move with British Summer Time so your lesson time does not.
+
+Why online
+
+A class where everyone shares a level needs learners from far and wide. A single borough cannot provide them, but the whole UK can.
+
+Fees
 
 ## Fees for Grays
 
 Grays pays our international rates, the same for every country except India.
 
-- First class: USD 0. A full free lesson, ending with the course we would suggest.
-- Group tuition: USD 100 a month. Roughly eight live group lessons each month.
-- Private tuition: USD 150 a month. Roughly eight live one-to-one lessons each month.
+First class**USD 0**
+
+A full free lesson, ending with the course we would suggest.
+
+Group tuition**USD 100**
+
+Roughly eight live group lessons each month.
+
+Private tuition**USD 150**
+
+Roughly eight live one-to-one lessons each month.
 
 We bill in US dollars and quote no sterling amount. Billing starts only after the trial has fixed a course and a regular slot; the pricing page explains breaks, missed sessions and switching between group and private.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Grays.)Reviews
+
+## Google reviews from Essex families and learners around the UK
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson for Grays
+
+Tell us an age or school year and one thing the learner enjoys. The trial could be a liar-spotting game, a Scratch project built with AI, first steps in Python, or a small agent that checks its own answers.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Grays one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Grays.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Grays questions
+
+Agents, the liar project, vibe coding and the practical details.
 
 ### How many people live in Grays?
 
@@ -196,10 +314,14 @@ Nothing for lesson one. Then it is USD 100 monthly for a class seat, or USD 150 
 
 They can. Give us the dates and those weeks stay empty.
 
+Beyond Grays
+
 ## More pages for Essex and the East of England
 
 Other projects are on the [Basildon](/best-coding-and-ai-classes-in-basildon), [Brentwood](/online-coding-and-python-classes-in-brentwood) and [Southend-on-Sea](/best-coding-class-in-southend-on-sea) pages, and the county page is [Essex](/coding-classes-in-essex). Everything else is linked from the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Chat with us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Grays.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-grays](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-grays#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-grays*

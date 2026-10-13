@@ -6,10 +6,6 @@ source: src/pages/aqa-vs-edexcel-vs-ocr-gcse-maths.html
 ---
 > AQA 8300, Edexcel 1MA1 and OCR J560 GCSE maths compared: papers, marks, which paper is non-calculator, grade boundaries, November resits and who picks the board.
 
-# AQA vs Edexcel vs OCR GCSE maths: what actually differs?
-
-**The short answer.** Less than most people think. All three boards teach the same Department for Education content, grade 9 to 1 on two tiers, and set three 1 hour 30 minute papers, one without a calculator. AQA and Edexcel papers carry 80 marks each and OCR papers 100. The school chooses the board, so prepare for the papers you will actually sit.
-
 Courses for every board
 
 ## One GCSE course, taught to the board your school uses.

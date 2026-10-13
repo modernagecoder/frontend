@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes across Zeeland, ages 6 t
 canonical: https://learn.modernagecoders.com/coding-classes-in-zeeland
 source: src/pages/coding-classes-in-zeeland.html
 ---
-> Coding classes in Zeeland serve 394,538 people in 13 municipalities (Statistics Netherlands, 1 January 2026), spread over what were islands until the Delta Works joined them, with a quarter of residents over sixty-five and 39 percent of the province under water. Terneuzen is the largest municipality, at 55,955, and only the fourth town; Middelburg is the largest town, at 43,165 in 2023, and only the second municipality. The same name labels two different things, and the ranking flips between them. Modern Age Coders runs one live online class in English across all 13, for anyone from 6 to 67; the first lesson is free, and after it a group of fifteen to twenty is USD 100 a month and a private teacher USD 150.
+> Live online coding, Python and AI classes across Zeeland, ages 6 to 67: Middelburg, Vlissingen, Goes, Terneuzen, Zeeuws-Vlaanderen and all 13 municipalities.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Zeeland
-
-Province of Zeeland / Live online
-
-# Coding classes in Zeeland, where the largest place has two different names depending on what you count
-
-**What are the best coding classes in Zeeland?** Coding classes in Zeeland serve 394,538 people in 13 municipalities (Statistics Netherlands, 1 January 2026), spread over what were islands until the Delta Works joined them, with a quarter of residents over sixty-five and 39 percent of the province under water. Terneuzen is the largest municipality, at 55,955, and only the fourth town; Middelburg is the largest town, at 43,165 in 2023, and only the second municipality. The same name labels two different things, and the ranking flips between them. Modern Age Coders runs one live online class in English across all 13, for anyone from 6 to 67; the first lesson is free, and after it a group of fifteen to twenty is USD 100 a month and a private teacher USD 150.
-
-Ask what the largest place in Zeeland is and a child gets two right answers that contradict each other. By municipality it is Terneuzen; by town it is Middelburg, and Terneuzen the town is fourth. Nothing is wrong with either table. They count different things under the same names, and a program that joins them, or ranks one with the other's numbers, will be confidently wrong. A child who has built the ranking twice and watched it flip has learned to ask, of any table, what one row actually is.
-
-Facts last verified 7 September 2026. Teaching is online; no Zeeland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Zeeland
 
 ## Four courses for thirteen municipalities that used to be islands
 
 A groep 5 child in Goes who lives in Minecraft, a teenager in Vlissingen who wants to know how the bad actors get in and how to keep them out, a HZ student in Middelburg who wants an app on both phones, and a parent in Terneuzen whose port job runs on spreadsheets nobody explained: four doors into a province with a lot of bridges.
 
-- [Minecraft Coding for Kids](/courses/minecraft-coding-for-kids-course) (Ages 8 to 12): From blocks to real code inside the game a groep 5 to 8 child already plays, in English, anywhere from Zierikzee to Hulst.
-- [Cybersecurity for Teens](/courses/cybersecurity-course-for-teens-ethical-defensive) (Ages 13 to 18): Online safety and white-hat defence, for the teenager in Vlissingen or Goes who wants the technical side of the news, legally.
-- [Flutter Course](/courses/complete-flutter-app-development-masterclass-college) (College and adult): Dart and Flutter to a real cross-platform app, for the HZ student or the adult who wants one codebase on both phones.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): Excel, Sheets and Power BI with AI for the parent in Terneuzen or Middelburg whose reports would be right if the tables agreed on what a row is.
+[![Minecraft Coding for Kids course thumbnail](/images/minecraft-coding-kids.webp)Ages 8 to 12Minecraft Coding for KidsFrom blocks to real code inside the game a groep 5 to 8 child already plays, in English, anywhere from Zierikzee to Hulst.See the syllabus](/courses/minecraft-coding-for-kids-course)[![Cybersecurity for Teens course thumbnail](/images/cybersecurity-teens.webp)Ages 13 to 18Cybersecurity for TeensOnline safety and white-hat defence, for the teenager in Vlissingen or Goes who wants the technical side of the news, legally.See the syllabus](/courses/cybersecurity-course-for-teens-ethical-defensive)[![Flutter Course course thumbnail](/images/flutter-college.webp)College and adultFlutter CourseDart and Flutter to a real cross-platform app, for the HZ student or the adult who wants one codebase on both phones.See the syllabus](/courses/complete-flutter-app-development-masterclass-college)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)Excel, Sheets and Power BI with AI for the parent in Terneuzen or Middelburg whose reports would be right if the tables agreed on what a row is.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Zeeland today
 
 ## Thirteen municipalities, a quarter over sixty-five, and more water than most provinces have land
 
@@ -52,7 +40,11 @@ Terneuzen is the largest municipality, 55,955 people and 14.2 percent of the pro
 
 Walcheren, Noord-Beveland, Zuid-Beveland, Schouwen-Duiveland, Tholen and Sint Philipsland were islands or near enough until the dams and bridges of the Delta Works joined them; Zeeuws-Vlaanderen never was one and is reached from the rest of the province only by the Westerscheldetunnel or through Belgium.
 
-**The night of 31 January 1953** In the night of Saturday 31 January to Sunday 1 February 1953 a north-westerly storm met a spring tide and the dikes broke in about 150 places. The flood killed 1,836 people in the Netherlands, 864 of them in Zeeland, put more than 150,000 hectares under water and drove 72,000 people from their homes. The Deltaplan and the Delta Works, the Oosterscheldekering among them, are the country's answer, and every dam in the province is a date.
+The night of 31 January 1953
+
+In the night of Saturday 31 January to Sunday 1 February 1953 a north-westerly storm met a spring tide and the dikes broke in about 150 places. The flood killed 1,836 people in the Netherlands, 864 of them in Zeeland, put more than 150,000 hectares under water and drove 72,000 people from their homes. The Deltaplan and the Delta Works, the Oosterscheldekering among them, are the country's answer, and every dam in the province is a date.
+
+The spread
 
 ## From Terneuzen to Noord-Beveland: all 13 municipalities, by population
 
@@ -84,6 +76,8 @@ Noord-Beveland 8,067, the smallest, a former island of six villages between the 
 
 Thirteen, all present. Middelburg, Vlissingen, Goes and Terneuzen will each get a page of their own; this one holds the whole delta, from the tunnel to the Brouwersdam, in one view.
 
+Verified local facts
+
 ## Every figure and its source, including two counts for one town and two for one municipality
 
 The national count, the 13 registers, the province's entry, the entries for two towns and one municipality, the tunnel and the flood.
@@ -114,6 +108,8 @@ The entry on the 1953 flood: the night of 31 January to 1 February; 1,836 dead i
 
 Modern Age Coders has no link to the province, its 13 municipalities, the tunnel company or any school named here, and claims none. They are on the page because a page that says Zeeland ought to know which Zeeland it means.
 
+Signature project
+
 ## What is the largest place in Zeeland? Build the ranking twice and find out why the answer changes
 
 Four names, two kinds of row, two rankings that disagree, and a lesson about what a row is that every dataset a child will ever meet depends on.
@@ -130,10 +126,8 @@ Then the town counts, from the entries that give them: Middelburg 43,165, Vlissi
 
 The learner asks why, and finds it in the areas: the municipality of Terneuzen is 317.76 square kilometres and thirteen separate places, of which the town is one. A row in the first table is an administrative area; a row in the second is a settlement. Same names, different things, and any program that mixes them will rank a district against a village and call it a city.
 
-**Four names, two units, two rankings**
-
 | Name | As a municipality, 1 January 2026 | Rank | As a town, 2023 or undated | Rank |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Terneuzen | 55,955 | 1 | 26,080 | 4 |
 | Middelburg | 50,439 | 2 | 43,165 | 1 |
 | Vlissingen | 45,878 | 3 | about 34,000 | 2 |
@@ -143,14 +137,14 @@ The learner asks why, and finds it in the areas: the municipality of Terneuzen i
 
 A count is a count of something, and the something is chosen before the counting starts: a municipality, a town, a postcode, a household, a person. Two tables can carry the same names and the same column heading and still be counting different things, and the difference does not show up as an error. It shows up as Terneuzen being both the biggest and the fourth. A learner who has built both rankings will ask of every table what one row is before they trust a single sort on it, and will refuse to join a table of districts to a table of villages on the strength of a shared name. The rankings were built before this paragraph was written; every count is quoted from the entry that gives it, with its date where the entry gives one, and the ranks are what sorting returns.
 
+Reliable pipeline
+
 ## Five habits for any two tables that share their names
 
 School and school board, shop and chain, account and customer, ward and town: every dataset has levels, and the levels share names. Rehearsed first on the province where the largest place depends on the level.
 
-**When one name labels two kinds of row**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Say what a row is | Write the unit into the table's name: municipalities, not places | Terneuzen the district ranked against Middelburg the town | Rankings that compare like with like |
 | Keep the levels apart | One table per unit; never mix settlement rows into an administrative table | A 55,955 beside a 43,165 that measure different things | Columns that mean one thing |
 | Date every count | A 2023 town figure and a 2026 municipal figure are not the same year | Middelburg 43,165 read as current | Comparisons at one date |
@@ -171,14 +165,37 @@ The same discipline on a pair of tables from work that share names across levels
 
 The provincial totals, the 13 municipal counts, the areas, the town figures, the tunnel and the flood are all quoted from the sources named beside them. The ranks are what a sort returns on those figures, shown as exactly that, and every place where two sources give two numbers for one thing is shown as two numbers.
 
+Learning ladder
+
 ## From blocks and towers to a join that respects the level
 
 The first free hour decides the rung, and which former island the family lives on is not one of the things it looks at.
 
-- **Ages 6 to 10: Biggest block, biggest tower** Children sort the same blocks two ways and discover that biggest needs a second word. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Minecraft Coding for Kids](/courses/minecraft-coding-for-kids-course)
-- **Ages 11 to 13: Two sorts, two answers** Learners sort two small tables and explain why the first place changes. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 14 to 18: Levels, keys and the join that breaks** Teenagers join across levels on purpose, watch Terneuzen double, and fix it with a hierarchy column. [Cybersecurity for Teens](/courses/cybersecurity-course-for-teens-ethical-defensive), [MySQL for Teens](/courses/mysql-mastery-for-teens)
-- **Ages 18 to 67: Levels at work** Adults find the report that ranks one level with the other's numbers and rebuild it. [Flutter Course](/courses/complete-flutter-app-development-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Biggest block, biggest tower
+
+Children sort the same blocks two ways and discover that biggest needs a second word.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Minecraft Coding for Kids](/courses/minecraft-coding-for-kids-course)Ages 11 to 13
+
+### Two sorts, two answers
+
+Learners sort two small tables and explain why the first place changes.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### Levels, keys and the join that breaks
+
+Teenagers join across levels on purpose, watch Terneuzen double, and fix it with a hierarchy column.
+
+[Cybersecurity for Teens](/courses/cybersecurity-course-for-teens-ethical-defensive)[MySQL for Teens](/courses/mysql-mastery-for-teens)Ages 18 to 67
+
+### Levels at work
+
+Adults find the report that ranks one level with the other's numbers and rebuild it.
+
+[Flutter Course](/courses/complete-flutter-app-development-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## An AI will name the largest city in Zeeland without asking what you mean by city. Why should a child in Goes learn to ask?
 
@@ -190,30 +207,139 @@ That is the reflex the class installs, and the reason the learner still builds t
 
 For a Zeeland parent, then, coding in 2026 is not about a career in statistics. It is about whether the child should carry the habit of naming the unit before trusting the number, and whether the quickest way to build that habit is to rank their own province two ways and see the answer flip. This class was built on the belief that it is. The longer argument is in [why coding is still worth learning when AI does most of the typing](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for a province where the next town is across the water
 
 Zeeuws-Vlaanderen reaches the capital through a tunnel with a toll for half its vehicles, Tholen looks to Brabant, and Schouwen-Duiveland is a bridge and a dam from anywhere. A class that comes through the cable does not cross any of it.
 
-- **No tunnel, no bridge, no dam** The lesson happens at home in Hulst, Zierikzee or Yerseke at the same hour every week, and the Westerschelde stays where it is.
-- **English, with the school's words untouched** The teaching is in English. Groep, havo, vwo and profielkeuze are said as the school says them and left in Dutch, and Zeeuws stays in the playground.
-- **What the free hour produces** A task at the learner's real level, a course chosen from how it went and a rung to start on, and no card is asked for to arrange it.
-- **Grouped by level, not by island** Level and aim put a learner in a group; Walcheren, Tholen and Zeeuws-Vlaanderen sit in the same one.
-- **Twice a week, on regio Zuid's calendar** Two fixed lessons a week, usually eight in a month. Zeeland's summer break follows regio Zuid, with Brabant and Limburg, and the family's weeks away are settled before the slot.
-- **The time difference** Zeeland is three and a half hours behind the teacher while Dutch summer time runs and four and a half hours behind in winter, because India keeps one clock. Late afternoon, early evening and the weekend suit both sides.
+### No tunnel, no bridge, no dam
 
-**One in four residents is over sixty-five, and the class runs to sixty-seven** Zeeland is, with Drenthe, the oldest province on this site by share of retired people, and the adult end of the age range this class serves is not a footnote. The adult pipeline on this page is written for a sixty-year-old in Veere as much as for a nine-year-old in Goes, and the first free hour is the same for both.
+The lesson happens at home in Hulst, Zierikzee or Yerseke at the same hour every week, and the Westerschelde stays where it is.
+
+### English, with the school's words untouched
+
+The teaching is in English. Groep, havo, vwo and profielkeuze are said as the school says them and left in Dutch, and Zeeuws stays in the playground.
+
+### What the free hour produces
+
+A task at the learner's real level, a course chosen from how it went and a rung to start on, and no card is asked for to arrange it.
+
+### Grouped by level, not by island
+
+Level and aim put a learner in a group; Walcheren, Tholen and Zeeuws-Vlaanderen sit in the same one.
+
+### Twice a week, on regio Zuid's calendar
+
+Two fixed lessons a week, usually eight in a month. Zeeland's summer break follows regio Zuid, with Brabant and Limburg, and the family's weeks away are settled before the slot.
+
+### The time difference
+
+Zeeland is three and a half hours behind the teacher while Dutch summer time runs and four and a half hours behind in winter, because India keeps one clock. Late afternoon, early evening and the weekend suit both sides.
+
+One in four residents is over sixty-five, and the class runs to sixty-seven
+
+Zeeland is, with Drenthe, the oldest province on this site by share of retired people, and the adult end of the age range this class serves is not a footnote. The adult pipeline on this page is written for a sixty-year-old in Veere as much as for a nine-year-old in Goes, and the first free hour is the same for both.
+
+Fees
 
 ## Thirteen municipalities, one price in dollars, and a free hour before it
 
 Set out here before anyone asks for a name.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 Everyone outside India sees the same figure in US dollars and never a euro one, so Noord-Beveland is charged what Middelburg is. The free lesson decides the course and the hour first, and payment comes afterwards over WhatsApp; the pricing page explains pausing, changing plan and missed lessons.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Zeeland.)Reviews
+
+## Six Google reviews, in the reviewers' own words
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us the level; the island is optional
+
+The first task might be a box of blocks sorted two ways, two tables in Python that share their names, or a report from work that ranks regions with branch numbers.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Zeeland one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Zeeland.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Zeeland coding class questions
+
+The province, its towns, the ranking, the teaching and the terms.
 
 ### What is the largest place in Zeeland?
 
@@ -255,10 +381,14 @@ The first lesson is free. Group tuition is USD 100 a month for two live lessons 
 
 Between five and ten, matched on level, pace and goal rather than on age, school or municipality. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.
 
+Explore the Netherlands
+
 ## East into Brabant, north across the delta, and up to the country
 
 East along the A58 is [Noord-Brabant](/coding-classes-in-noord-brabant), with the border that has holes in it; north across the Haringvliet is [Zuid-Holland](/coding-classes-in-zuid-holland) and its region with no boundary. Both, and this page, descend from the [Netherlands coding hub](/coding-classes-in-netherlands); a learner after models rather than programs should go to [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands). [Middelburg](/coding-classes-in-middelburg) has its own page; Vlissingen, Goes and Terneuzen follow.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Zeeland.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-zeeland](https://learn.modernagecoders.com/coding-classes-in-zeeland#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-zeeland*

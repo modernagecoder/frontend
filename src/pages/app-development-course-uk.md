@@ -4,34 +4,28 @@ description: "A live app development course in the UK for teens and adults: Reac
 canonical: https://learn.modernagecoders.com/app-development-course-uk
 source: src/pages/app-development-course-uk.html
 ---
-> App developers in the UK work under two sets of guidance. DSIT's voluntary code of practice for app store operators and app developers, updated in October 2023, sets eight principles, including that developers use industry-standard encryption, request only the permissions an app functionally needs, keep the primary function working when optional permissions are refused, offer a way to delete personal data, run a vulnerability disclosure process and ship security updates. The ICO's Children's code sets 15 standards for online services likely to be accessed by children, even if they are not the target audience, including high-privacy default settings, data minimisation, geolocation off by default and no nudge techniques; it applies to non-UK companies processing UK children's data too. Modern Age Coders teaches app development live and online to UK teenagers, in React Native, and adults, in Flutter, Swift and Kotlin, with those rules built into every project. The first class is free; afterwards a group place is USD 100 a month and one-to-one lessons USD 150 a month.
+> A live app development course in the UK for teens and adults: React Native, Flutter, Swift and Kotlin, built to the app code of practice and the Children's code.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / App development
+In short
 
-UK · Teens and adults · iOS and Android
+App developers in the UK work under two sets of guidance. DSIT's voluntary code of practice for app store operators and app developers, updated in October 2023, sets eight principles, including that developers use industry-standard encryption, request only the permissions an app functionally needs, keep the primary function working when optional permissions are refused, offer a way to delete personal data, run a vulnerability disclosure process and ship security updates. The ICO's Children's code sets 15 standards for online services likely to be accessed by children, even if they are not the target audience, including high-privacy default settings, data minimisation, geolocation off by default and no nudge techniques; it applies to non-UK companies processing UK children's data too. Modern Age Coders teaches app development live and online to UK teenagers, in React Native, and adults, in Flutter, Swift and Kotlin, with those rules built into every project. The first class is free; afterwards a group place is USD 100 a month and one-to-one lessons USD 150 a month.
 
-# App development course in the UK
-
-Most app courses start with a button and end with a store listing. In the UK, two sets of rules sit between those points. The Department for Science, Innovation and Technology's code of practice for app store operators and app developers asks developers, among other things, not to "request permissions and privileges which are not functionally required by the app", to let people delete the personal data an app gathers, and to keep fixing security problems after launch. And if children are likely to use an app, the Information Commissioner's Office says its Children's code needs to be considered, whether or not children were ever the intended audience: "Settings must be 'high privacy' by default", geolocation off unless there is a compelling reason, no nudging children into giving away more data. The code covers what the law calls information society services, which the ICO says includes most for-profit online services, so a young developer planning to publish needs to know it exists. This course teaches UK teenagers and adults to build real apps in React Native, Flutter, Swift or Kotlin with both rulebooks designed in from the first screen, because retrofitting privacy is harder than building it.
-
-At a glance: Teens: React Native, ages 13 to 18; Adults: Flutter, Swift and Kotlin; App code: DSIT, eight principles; Children's code: ICO, 15 standards; Designed in: Minimal permissions, data deletion; Default: High privacy, location off; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three ways into app development
 
 React Native for teenagers, a cross-platform course for adults, and native iOS. Each card opens the full syllabus.
 
-- [App Development for Teens](/courses/complete-app-development-masterclass-for-teens): Real apps with React Native, for ages 13 to 18, from first screen to a finished project.
-- [App Development for Adults](/courses/complete-app-development-masterclass-college): Flutter, iOS and Android, for university students, graduates and professionals.
-- [Swift and iOS](/courses/complete-swift-programming-masterclass-college): SwiftUI apps from zero, for adults who want to build natively for Apple devices.
+[![App Development for Teens course thumbnail](/images/app-dev-teens.webp)  ADU / 01 App Development for Teens Real apps with React Native, for ages 13 to 18, from first screen to a finished project. Open the syllabus →](/courses/complete-app-development-masterclass-for-teens)[![App Development Course course thumbnail](/images/app-dev-college.webp)  ADU / 02 App Development for Adults Flutter, iOS and Android, for university students, graduates and professionals. Open the syllabus →](/courses/complete-app-development-masterclass-college)[![Swift and iOS Course course thumbnail](/images/swift-college.webp)  ADU / 03 Swift and iOS SwiftUI apps from zero, for adults who want to build natively for Apple devices. Open the syllabus →](/courses/complete-swift-programming-masterclass-college)
+
+The app code
 
 ## What the UK's app code of practice asks of developers
 
 DSIT published the code in December 2022 and updated it on 24 October 2023. It describes itself plainly: "This voluntary Code of Practice sets out practical steps for App Store Operators and App Developers to protect users."
 
-**Developer duties in the code, by provision**
-
 | Provision | What it asks | In a student's app |
-|---|---|---|
+| --- | --- | --- |
 | 2.1 | Industry-standard encryption for data in transit and data stored locally | HTTPS only; no secrets saved in plain text |
 | 2.2 | "Developers shall ensure that the primary function of an app operates if a user chooses to disable its optional functionality and permissions." | A weather app still works when location is refused; the user types a town instead |
 | 2.3 | "Developers should not request permissions and privileges which are not functionally required by the app." | No contacts or microphone permission for a to-do list |
@@ -55,16 +49,16 @@ Four of those are aimed mainly at developers, and they are the four a course can
 
 Source, read 21 September 2026: [DSIT, Code of practice for app store operators and app developers (updated)](https://www.gov.uk/government/publications/code-of-practice-for-app-store-operators-and-app-developers/code-of-practice-for-app-store-operators-and-app-developers-new-updated-version), 24 October 2023.
 
+The Children's code
+
 ## If children might use your app, the Children's code applies
 
 The ICO's Children's code, also called the Age appropriate design code, sets 15 standards. Its scope is the part developers most often miss.
 
 In the ICO's own words: "If children are likely to access your service, even if they are not your target audience or user, then you need to consider the Children's code." It applies to "UK-based companies and non-UK companies who process the personal data of UK children", and children here means anyone under 18. It covers information society services, which the ICO says means most for-profit online services, and it does not apply to schools processing pupils' information for education.
 
-**Seven of the 15 standards, as the ICO summarises them, and what each means in code**
-
 | Standard | The ICO's summary | In the app |
-|---|---|---|
+| --- | --- | --- |
 | Default settings | "Settings must be 'high privacy' by default" | Profiles private and sharing off until a child chooses otherwise |
 | Data minimisation | "Collect and retain only the minimum amount of personal data you need" | No date of birth, contacts or photos unless a feature needs them |
 | Geolocation | "Switch geolocation options off by default" | Location off at install, with an obvious sign when it is on |
@@ -87,14 +81,14 @@ So one well-designed set of defaults answers both.
 
 Sources, read 21 September 2026: [ICO, Children's code standards](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/code-standards/); [Introduction to the Children's code](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/introduction-to-the-childrens-code/); [ICO, the Data Use and Access Act 2025 for organisations](https://ico.org.uk/about-the-ico/what-we-do/legislation-we-cover/data-use-and-access-act-2025/the-data-use-and-access-act-2025-what-does-it-mean-for-organisations/). This page is not legal advice.
 
+Designed in
+
 ## What students build, with the rules already inside
 
 Every project on the course carries the same small checklist. It costs a few extra lessons and saves rewriting an app later.
 
-**Project features and the rule each one meets**
-
 | Feature every project gets | The rule behind it |
-|---|---|
+| --- | --- |
 | Permissions requested at the moment they are needed, with a reason shown | App code 2.3 |
 | The main feature still works when a permission is refused | App code 2.2 |
 | Location off by default, with a visible indicator when used | Children's code, geolocation |
@@ -117,14 +111,14 @@ A map of places for a town or campus, where the app works without location and a
 
 None of this makes an app legally compliant on its own, and the course does not claim to. It builds the habits the codes describe, so that a student who publishes an app later starts from the right defaults. How apps talk to servers safely connects directly to our [cyber security course for teens](/cyber-security-course-for-teens-uk).
 
+Which route
+
 ## React Native, Flutter, Swift or Kotlin
 
 The right framework depends on age, devices and what the learner already knows. The free first class settles it.
 
-**Our app routes**
-
 | Route | Who it suits | Builds for |
-|---|---|---|
+| --- | --- | --- |
 | React Native (teens course) | Ages 13 to 18, especially with some JavaScript | iOS and Android from one codebase |
 | Flutter | Adults who want one codebase and a clean UI toolkit | iOS, Android and more, in Dart |
 | Swift and SwiftUI | Adults building for iPhone, iPad and Mac | Apple platforms natively |
@@ -142,14 +136,14 @@ Students can run apps on their own phones and emulators without publishing anyth
 
 We never publish apps on a student's behalf or hold their store accounts.
 
+Stages
+
 ## Four stages to a finished app
 
 Placement follows what you can already do.
 
-**From first screen to a maintained app**
-
 | Stage | What should be true |
-|---|---|
+| --- | --- |
 | 1. Screens | You build screens with layout, navigation and input |
 | 2. Data | You store data locally and fetch it from an API safely |
 | 3. Permissions and privacy | Your app asks only what it needs, works when refused, and deletes data on request |
@@ -158,63 +152,293 @@ Placement follows what you can already do.
 ### Stage three is the UK part
 
 It is where the app code and the Children's code turn into code.
+
 The wider sequence of subjects is on the [coding roadmap](/coding-roadmap).
 
 ### Stage four never ends
 
 Apps need updates after launch; the code of practice expects security fixes.
+
 Students learn to treat a release as a beginning.
+
+The catalogue
 
 ## Nine courses for app builders
 
 The app courses themselves, the foundations under them, and the back end they talk to.
 
+I
+
 ### Apps
 
 By framework
 
-- [App Development for Teens](/courses/complete-app-development-masterclass-for-teens): React Native, ages 13 to 18.
-- [App Development for Adults](/courses/complete-app-development-masterclass-college): Flutter, iOS and Android.
-- [Flutter](/courses/complete-flutter-app-development-masterclass-college): Dart to real cross-platform apps.
+ADU / APP / 01
+
+#### App Development for Teens
+
+React Native, ages 13 to 18.
+
+[Open the syllabus](/courses/complete-app-development-masterclass-for-teens)
+
+ADU / APP / 02
+
+#### App Development for Adults
+
+Flutter, iOS and Android.
+
+[Open the syllabus](/courses/complete-app-development-masterclass-college)
+
+ADU / APP / 03
+
+#### Flutter
+
+Dart to real cross-platform apps.
+
+[Open the syllabus](/courses/complete-flutter-app-development-masterclass-college)II
 
 ### Foundations
 
 Before or alongside
 
-- [JavaScript for Teens](/courses/javascript-course-for-teens-beginners-interactive-web): The language under React Native.
-- [Swift and iOS](/courses/complete-swift-programming-masterclass-college): SwiftUI apps from zero.
-- [Java for Teens](/courses/java-programming-masterclass-for-teens): Object-oriented foundations for Android work.
+ADU / FND / 01
+
+#### JavaScript for Teens
+
+The language under React Native.
+
+[Open the syllabus](/courses/javascript-course-for-teens-beginners-interactive-web)
+
+ADU / FND / 02
+
+#### Swift and iOS
+
+SwiftUI apps from zero.
+
+[Open the syllabus](/courses/complete-swift-programming-masterclass-college)
+
+ADU / FND / 03
+
+#### Java for Teens
+
+Object-oriented foundations for Android work.
+
+[Open the syllabus](/courses/java-programming-masterclass-for-teens)III
 
 ### Behind the app
 
 Servers and data
 
-- [Backend Coding for Teens](/courses/backend-coding-masterclass-for-teens): APIs and databases for teen developers.
-- [MERN Stack](/courses/mern-stack-development-masterclass-college): Full stack JavaScript for adults.
-- [Cybersecurity for Teens](/courses/cybersecurity-course-for-teens-ethical-defensive): Why the security rules exist.
+ADU / BCK / 01
+
+#### Backend Coding for Teens
+
+APIs and databases for teen developers.
+
+[Open the syllabus](/courses/backend-coding-masterclass-for-teens)
+
+ADU / BCK / 02
+
+#### MERN Stack
+
+Full stack JavaScript for adults.
+
+[Open the syllabus](/courses/mern-stack-development-masterclass-college)
+
+ADU / BCK / 03
+
+#### Cybersecurity for Teens
+
+Why the security rules exist.
+
+[Open the syllabus](/courses/cybersecurity-course-for-teens-ethical-defensive)
+
+How lessons run
 
 ## Live lessons, real phones
 
 Teaching comes from India, which keeps one clock all year; the UK is four and a half hours behind India in British Summer Time and five and a half in winter. After-school, evening and weekend slots in UK time are all possible.
 
-- **After school** For teenagers on weekdays.
-- **Evening** For adults after work or lectures.
-- **Weekend** Longer sessions for building features.
+After school
 
-- **A free first class** We check your starting point and choose a framework with you.
-- **Groups** Fifteen to twenty learners of similar age and level.
-- **One to one** For a specific app idea or a faster pace.
-- **Your own device** Apps run on your phone or an emulator from the early weeks.
-- **Privacy checklist** Every project passes the same short checklist before it counts as done.
-- **Your accounts, your apps** Code lives in your own repository; store accounts stay yours.
+For teenagers on weekdays.
+
+Evening
+
+For adults after work or lectures.
+
+Weekend
+
+Longer sessions for building features.
+
+### A free first class
+
+We check your starting point and choose a framework with you.
+
+### Groups
+
+Fifteen to twenty learners of similar age and level.
+
+### One to one
+
+For a specific app idea or a faster pace.
+
+### Your own device
+
+Apps run on your phone or an emulator from the early weeks.
+
+### Privacy checklist
+
+Every project passes the same short checklist before it counts as done.
+
+### Your accounts, your apps
+
+Code lives in your own repository; store accounts stay yours.
+
+Student work
+
+## Projects built by our students
+
+Four projects our students finished. More, from every age group, are in [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees for app development
 
 One monthly fee in US dollars, the same for every country outside India, with no enrolment fee and nothing to commit to beyond the current month. Store developer accounts, if you choose to publish, are separate and paid to the store.
 
-- Free first class: USD 0. A look at your starting point. A framework chosen with you. No payment details needed.
-- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher each week. A privacy checklist on every project. Stop at the end of any month.
-- One to one: USD 150 a month. A teacher for you alone. Built around your own app idea. Paced to suit you.
+Free first class
+
+USD 0
+
+no card required
+
+- A look at your starting point
+- A framework chosen with you
+- No payment details needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners at one level
+- The same teacher each week
+- A privacy checklist on every project
+- Stop at the end of any month
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for you alone
+- Built around your own app idea
+- Paced to suit you
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Google reviews from our students and their families, in their own words.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about app development
 
 ## What UK learners ask about building apps
 
@@ -258,15 +482,54 @@ The first class is free. After that it is USD 100 a month in a group or USD 150 
 
 After school, evenings or weekends in UK time, agreed in the free class. Teachers are four and a half hours ahead of the UK in summer and five and a half in winter.
 
+Elsewhere on this site
+
 ## Related pages
 
-- [Full stack software development](/full-stack-software-development-course-uk): The back end your app talks to.
-- [Cyber security for teens](/cyber-security-course-for-teens-uk): Why the security rules exist.
-- [Java classes in the UK](/java-classes-uk): Object-oriented foundations.
-- [Coding classes for teens](/best-coding-classes-for-teens-uk): How we teach teenagers.
-- [Coding classes for adults](/best-coding-classes-for-adults-uk): Starting as an adult.
-- [Coding classes in the UK](/coding-classes-in-united-kingdom): All our UK pages.
+The servers behind apps, security, and the languages underneath.
 
-## Contact
+### [Full stack software development](/full-stack-software-development-course-uk)
 
-Book the free first class at [https://learn.modernagecoders.com/app-development-course-uk](https://learn.modernagecoders.com/app-development-course-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The back end your app talks to.
+
+### [Cyber security for teens](/cyber-security-course-for-teens-uk)
+
+Why the security rules exist.
+
+### [Java classes in the UK](/java-classes-uk)
+
+Object-oriented foundations.
+
+### [Coding classes for teens](/best-coding-classes-for-teens-uk)
+
+How we teach teenagers.
+
+### [Coding classes for adults](/best-coding-classes-for-adults-uk)
+
+Starting as an adult.
+
+### [Coding classes in the UK](/coding-classes-in-united-kingdom)
+
+All our UK pages.
+
+Start here
+
+## Bring an app idea to a free class
+
+Leave a number and we will call at a UK time that suits you. Bring an idea, however rough; the class checks your level, chooses a framework and sketches the first screens.
+
+Reading first? Browse the [course list](/courses), see [how we teach](/how-we-teach), or look at [what students have built](/student-labs).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20first%20app%20development%20class%20in%20the%20UK.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+A WhatsApp message from a UK phone is the quickest way to reach us. We work from India, so the number starts +91; there is no UK office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/app-development-course-uk*

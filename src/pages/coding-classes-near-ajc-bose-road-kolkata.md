@@ -12,13 +12,13 @@ LIVE ONLINE CODING & MATHS: NEAR AJC BOSE ROAD, KOLKATA
 
 Modern Age Coders runs premium, 100% live online coding and mathematics classes for families near AJC Bose Road, Kolkata. We teach Python, Java, AI and machine learning, school maths and full ICSE/CBSE board Computer Science in batches of fifteen to twenty students, led by full-time engineers and maths graduates. Nothing is pre-recorded. Your child learns from home, skips the Exide and Park Street traffic, and builds real projects from day one.
 
-100% Live, never recordedSmall batches of 3–8Engineer & maths-graduate teachersFree demo, no commitment[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)10,000+Students taught3–8Students per live batch4.9/5Average parent rating90 minsCommute saved / class dayLIVE ONLINE · AJC BOSE ROAD, KOLKATA
+100% Live, never recordedBatches of 15–20Engineer & maths-graduate teachersFree demo, no commitment[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)10,000+Students taught15–20Students per live batch4.9/5Average parent rating90 minsCommute saved / class dayLIVE ONLINE · AJC BOSE ROAD, KOLKATA
 
 ## At a glance
 
 Here is everything about Modern Age Coders' classes near AJC Bose Road at a glance.
 
-Format**100% live online**, taught in real time; nothing pre-recordedBatch sizeSmall batches of 15–20; mini batches of up to 6; or 1-on-1Ages**6 to 67**, kids, teens, college students and working adultsSubjectsCoding (Python, Java, AI/ML, Scratch, web, DSA) and MathematicsBoardsICSE/ISC (Java/BlueJ), CBSE (Python/Informatics Practices), IGCSE, WBBSEFeesFrom ₹1,499/month (group), ₹2,999/month (mini batch), ₹4,999/month (1-on-1)Free demoYes, one free live demo class, no commitmentServingAJC Bose Road, Park Street, Camac Street, Theatre Road, Loudon Street, Rawdon Street, Elgin Road, Bhowanipore, Park Circus and all of KolkataWHY IT WORKS
+Format**100% live online**, taught in real time; nothing pre-recordedBatch sizeBatches of 15–20; mini batches of up to 6; or 1-on-1Ages**6 to 67**, kids, teens, college students and working adultsSubjectsCoding (Python, Java, AI/ML, Scratch, web, DSA) and MathematicsBoardsICSE/ISC (Java/BlueJ), CBSE (Python/Informatics Practices), IGCSE, WBBSEFeesFrom ₹1,499/month (group), ₹2,999/month (mini batch), ₹4,999/month (1-on-1)Free demoYes, one free live demo class, no commitmentServingAJC Bose Road, Park Street, Camac Street, Theatre Road, Loudon Street, Rawdon Street, Elgin Road, Bhowanipore, Park Circus and all of KolkataWHY IT WORKS
 
 ## Genuinely live, premium quality
 

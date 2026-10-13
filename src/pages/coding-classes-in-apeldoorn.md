@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes in Apeldoorn for ages 6 
 canonical: https://learn.modernagecoders.com/coding-classes-in-apeldoorn
 source: src/pages/coding-classes-in-apeldoorn.html
 ---
-> Coding classes in Apeldoorn serve a municipality of 169,212 people (Statistics Netherlands, 1 January 2026) spread across twelve settlements on the Veluwe, from the town itself at 141,255 down to Radio Kootwijk at about 100. Add the twelve published settlement figures and you get 167,200, which is 2,012 short of the municipal total, and the reason is that the settlement figures are dated 2023 and the municipal figure is dated 2026. Modern Age Coders teaches live online in English to all twelve, for ages 6 to 67; the first lesson is free, and after it a group of fifteen to twenty is USD 100 a month and one-to-one is USD 150.
+> Live online coding, Python and AI classes in Apeldoorn for ages 6 to 67, from Ugchelen and Beekbergen to Uddel and Loenen. First lesson free, then one flat fee.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Apeldoorn
-
-Apeldoorn, Gelderland / Live online
-
-# Coding classes in Apeldoorn, where the twelve villages fall 2,012 short of the town they belong to
-
-**What are the best coding classes in Apeldoorn?** Coding classes in Apeldoorn serve a municipality of 169,212 people (Statistics Netherlands, 1 January 2026) spread across twelve settlements on the Veluwe, from the town itself at 141,255 down to Radio Kootwijk at about 100. Add the twelve published settlement figures and you get 167,200, which is 2,012 short of the municipal total, and the reason is that the settlement figures are dated 2023 and the municipal figure is dated 2026. Modern Age Coders teaches live online in English to all twelve, for ages 6 to 67; the first lesson is free, and after it a group of fifteen to twenty is USD 100 a month and one-to-one is USD 150.
-
-The twelve settlements of this municipality are published with 2023 populations. The municipality is published with a 2026 one. Add the twelve and you are 2,012 people short, and the tempting move is to call that three years of growth and move on. It is a tempting move because it almost works: the municipality has been adding about 624 people a year since 1995, so three years would be roughly 1,872. Almost is the problem. A child who has met a residual that fits a story without proving it has learned something most adults never do.
-
-Facts last verified 7 September 2026. Teaching is online; no Apeldoorn branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Apeldoorn
 
 ## Four courses for a town of 141,255 and eleven villages around it
 
 A groep 5 child in Beekbergen with a village school and no club, a teenager in Ugchelen who wants Python before the profielkeuze rather than after, an adult in the town retraining out of an office job, and a parent in Loenen who has been handed a dashboard: four doors into one very wide municipality.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Typed Python, turtle drawings and a first program that learns a rule, in English, for the groep 5 to 8 child in Uddel or Klarenbeek as much as in the town.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Two years from the first line to real projects, for the teenager whose school offers informatica in the prospectus and not on the timetable.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (College and adult): Python from nothing to advanced, live, for the adult who has decided that this is the year they stop asking somebody else to run the numbers.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (Adults): Excel, SQL, Python and BI for the working parent whose monthly figures come from tables with different dates on them.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsTyped Python, turtle drawings and a first program that learns a rule, in English, for the groep 5 to 8 child in Uddel or Klarenbeek as much as in the town.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensTwo years from the first line to real projects, for the teenager whose school offers informatica in the prospectus and not on the timetable.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)College and adultPython MasterclassPython from nothing to advanced, live, for the adult who has decided that this is the year they stop asking somebody else to run the numbers.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)AdultsData Analysis CourseExcel, SQL, Python and BI for the working parent whose monthly figures come from tables with different dates on them.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Apeldoorn today
 
 ## A town on the Veluwe, eleven villages, and 340 square kilometres between them
 
@@ -52,7 +40,11 @@ The national register held 169,212 people in the municipality on 1 January 2026,
 
 Apeldoorn is the ninth largest municipality in the country by area and the twelfth by population, and the largest in Gelderland by area. The Veluwe fills most of it: heath, forest and the Torenberg at 107.1 metres.
 
-**A palace, a hamlet of a hundred, and everything between** Het Loo was built in 1689 for stadhouder Willem the Third, became a museum in 1984, closed for renovation from 2018 and reopened to visitors in 2022. At the other end of the municipality, Radio Kootwijk had about 100 residents in 2023 and Hoog Soeren about 235. The same weekly class is available to a child in either.
+A palace, a hamlet of a hundred, and everything between
+
+Het Loo was built in 1689 for stadhouder Willem the Third, became a museum in 1984, closed for renovation from 2018 and reopened to visitors in 2022. At the other end of the municipality, Radio Kootwijk had about 100 residents in 2023 and Hoog Soeren about 235. The same weekly class is available to a child in either.
+
+Where the learners are
 
 ## Twelve settlements, published with 2023 populations
 
@@ -84,6 +76,8 @@ The smallest three. Radio Kootwijk is a hamlet round a former transmitter buildi
 
 Twelve settlements, one class, one hour. Where a learner lives has never determined which group they join; what they can already do always has.
 
+Verified local facts
+
 ## Every figure, its office and its date, with the dates kept visible
 
 The national count for 2026, the municipal entry for the settlements in 2023, the palace, and the two totals that differ.
@@ -114,6 +108,8 @@ Built in 1689 for stadhouder Willem the Third; a museum since 1984 after a resto
 
 Modern Age Coders has no connection to the municipality, the palace or any school named on this page and claims none. They appear because a page that says it teaches Apeldoorn should be able to show which Apeldoorn, and on which date.
 
+Signature project
+
 ## A shortfall of 2,012: build the program that will not accept a story because it nearly fits
 
 Twelve parts from one year, one whole from another, and a gap with at least two causes that the published record cannot tell apart.
@@ -130,10 +126,8 @@ The settlements are dated 2023 and the municipality 1 January 2026. Nothing here
 
 The gap could be three years of growth. It could be residents who live outside every listed settlement, on the heath and in hamlets too small to list. It could be both, in any proportion. At about 624 a year the growth story predicts roughly 1,872, which is close to 2,012 and therefore seductive, and the sources do not contain what would settle it.
 
-**One municipality, two reference dates, and what the residual could be**
-
 | Quantity | Value | Reference date | What it can support |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Sum of twelve settlements | 167,200 | 2023 | a description of the settlements in 2023 |
 | Municipality | 169,212 | 1 January 2026 | a description of the municipality in 2026 |
 | Residual | 2,012 | neither | a question, not a quantity |
@@ -144,14 +138,14 @@ The gap could be three years of growth. It could be residents who live outside e
 
 The dangerous number here is 1,872. It is close enough to 2,012 to feel like confirmation, and it is not evidence of anything, because a second explanation predicts a gap of unknown size in the same direction and the two are indistinguishable from these sources. What the learner takes away is a habit with two halves. First, before adding or comparing anything, find the reference date of every input and put it beside the value, because dates hide in filenames and footnotes rather than in columns. Second, when a residual appears, enumerate the possible causes before testing any of them, and do not let the first one that roughly fits close the question. The twelve settlement figures, the municipal total and the 1995 figure are quoted from their sources; the 167,200, the 2,012 and the 1,872 are arithmetic on them and are labelled as derived every time they appear.
 
+Reliable pipeline
+
 ## Five habits for data that arrives from more than one year
 
 A price list from March against sales from December, a headcount from last quarter against a budget from this one, a reference table nobody has refreshed: mismatched vintages are the most common silent error in office data. Practised on twelve villages and a town.
 
-**When two figures come from different moments**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Date every input | Store the reference date beside the value, not in the filename | A 2023 sum compared with a 2026 total | Inputs that can be checked |
 | Compare like dates | Refuse the comparison, or restate one side, before computing a difference | A residual mistaken for a finding | Differences that mean something |
 | Enumerate the causes | Write down every explanation for a gap before testing one | The first plausible story adopted as fact | A question you can actually answer |
@@ -172,14 +166,37 @@ The same discipline on two tables from work that are joined every month. Adults 
 
 The population, household, area, school and settlement figures come from the offices and entries named beside them, each with the date its source gives. The sum of 167,200, the residual of 2,012 and the three-year projection of about 1,872 are this page's arithmetic and are presented as arithmetic, not as findings about anybody.
 
+Learning ladder
+
 ## From two photographs of a shelf to a comparison that refuses mismatched dates
 
 The rung is settled during the free hour, and which of the twelve settlements the learner lives in has no bearing on it.
 
-- **Ages 6 to 10: What changed, and why** Children compare two pictures of the same shelf and find three reasons for one difference. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 11 to 13: Every number gets a date** Learners store values with their reference dates and see what breaks when the dates differ. [Maths Through Coding](/courses/maths-through-coding), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 14 to 18: Residuals and rival explanations** Teenagers compute the shortfall, list its causes and write the check that refuses to close the question. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Stale joins at work** Adults audit a monthly join for a reference table that has not been refreshed and a variance nobody re-examines. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### What changed, and why
+
+Children compare two pictures of the same shelf and find three reasons for one difference.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 11 to 13
+
+### Every number gets a date
+
+Learners store values with their reference dates and see what breaks when the dates differ.
+
+[Maths Through Coding](/courses/maths-through-coding)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 14 to 18
+
+### Residuals and rival explanations
+
+Teenagers compute the shortfall, list its causes and write the check that refuses to close the question.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Stale joins at work
+
+Adults audit a monthly join for a reference table that has not been refreshed and a variance nobody re-examines.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## An AI will add the twelve villages for you and hand back 167,200. Why should a child in Apeldoorn learn to ask what year that is?
 
@@ -191,30 +208,139 @@ So the learner writes the version that keeps the dates attached and refuses to c
 
 The case for a child in Apeldoorn learning to code in 2026 is therefore not about villages or palaces. It is that data arrives from different moments and pretends not to, that the gaps this creates invite convenient stories, and that writing the check which refuses the comparison is the cheapest insurance available against being confidently wrong. The longer argument is in [the fuller case for teaching a child to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes across 340 square kilometres of heath and forest
 
 From Uddel or Radio Kootwijk the town is a serious drive, and on a January evening it is the deciding factor in whether a child does anything at all after school. The lesson removes the drive entirely.
 
-- **The Veluwe stays where it is** Class happens at the kitchen table in Hoenderloo, Klarenbeek or the centre of the town at one fixed hour every week, whatever the forest roads are doing.
-- **English throughout, Dutch school words kept** Teaching is in English. Groep, havo, vwo and profielkeuze are said the way the child's school says them, and nothing is translated in either direction.
-- **What the first hour produces** A piece of work that shows the real level, the name of the course that fits, and a weekly slot, all arranged without any payment details.
-- **Placed by ability, not by village** A learner in Beekbergen and a learner in the town share a group when they are at the same stage, and do not when they are not.
-- **Two lessons a week, on the middle calendar** Usually eight lessons a month at a fixed time. Apeldoorn is in the northern part of Gelderland, which takes its holidays with regio Midden, and the family's weeks away go into the plan before the slot is set.
-- **Three and a half hours, or four and a half** The Dutch clock changes twice a year and the Indian one does not, so the gap to the teacher depends on the season. The overlap covers the late afternoon, the early evening and both weekend days.
+### The Veluwe stays where it is
 
-**A hamlet of a hundred gets the same teacher as the town** Radio Kootwijk had about 100 residents in 2023 and no plausible catchment for any after-school club. This is exactly the case an online class exists to serve, and the fee, the group size and the hour are identical to those a family in the centre of Apeldoorn is offered.
+Class happens at the kitchen table in Hoenderloo, Klarenbeek or the centre of the town at one fixed hour every week, whatever the forest roads are doing.
+
+### English throughout, Dutch school words kept
+
+Teaching is in English. Groep, havo, vwo and profielkeuze are said the way the child's school says them, and nothing is translated in either direction.
+
+### What the first hour produces
+
+A piece of work that shows the real level, the name of the course that fits, and a weekly slot, all arranged without any payment details.
+
+### Placed by ability, not by village
+
+A learner in Beekbergen and a learner in the town share a group when they are at the same stage, and do not when they are not.
+
+### Two lessons a week, on the middle calendar
+
+Usually eight lessons a month at a fixed time. Apeldoorn is in the northern part of Gelderland, which takes its holidays with regio Midden, and the family's weeks away go into the plan before the slot is set.
+
+### Three and a half hours, or four and a half
+
+The Dutch clock changes twice a year and the Indian one does not, so the gap to the teacher depends on the season. The overlap covers the late afternoon, the early evening and both weekend days.
+
+A hamlet of a hundred gets the same teacher as the town
+
+Radio Kootwijk had about 100 residents in 2023 and no plausible catchment for any after-school club. This is exactly the case an online class exists to serve, and the fee, the group size and the hour are identical to those a family in the centre of Apeldoorn is offered.
+
+Fees
 
 ## The fee, in dollars, for all twelve settlements
 
 On the page, so that nobody has to ask.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 A single international rate applies and it is quoted in dollars, with no euro list, so a family in Uddel is charged what a family in the town is charged. Nothing is paid until the free lesson has produced a course and a time, and payment then goes over WhatsApp. Pausing, changing plan and missing a week are all covered on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Apeldoorn.)Reviews
+
+## Six families, in the words they left on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Give us the level; the village can come later
+
+The first task might be two photographs of a bookshelf, twelve village figures in Python that refuse to be compared with a total from another year, or a monthly variance at work that has had the same explanation for a decade.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Apeldoorn one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Apeldoorn.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Apeldoorn coding class questions
+
+The municipality, its villages, its dates, the teaching and the terms.
 
 ### Why do the twelve villages not add up to the municipality?
 
@@ -256,10 +382,14 @@ The first lesson is free. Group tuition is USD 100 a month for two live lessons 
 
 Between five and ten, matched on level, pace and goal rather than on age, school or settlement. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.
 
+Explore the Netherlands
+
 ## South off the Veluwe, and out to the country
 
 South across the Veluwe are [Arnhem](/coding-classes-in-arnhem), the provincial capital, and [Nijmegen](/coding-classes-in-nijmegen), the largest city; all three sit inside [Gelderland](/coding-classes-in-gelderland), which is split between two school-holiday calendars. The [Netherlands coding hub](/coding-classes-in-netherlands) stands above the whole series, and a learner aiming at a trained model rather than a written program should start at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Apeldoorn.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-apeldoorn](https://learn.modernagecoders.com/coding-classes-in-apeldoorn#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-apeldoorn*

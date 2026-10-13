@@ -4,46 +4,32 @@ description: "Online vibe coding, AI agents and Python classes for Tynemouth, Wh
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-tynemouth
 source: src/pages/vibe-coding-and-ai-agents-classes-in-tynemouth.html
 ---
-> The 2021 census put 60,605 people in Tynemouth's built-up area, and the ONS lists Whitley Bay and Wallsend separately within North Tyneside, a borough of 208,967; Cullercoats, Monkseaton and Percy Main are among the recorded suburbs. From six to 67, learners in the borough can take vibe coding, AI agents, Python, coding and maths with an India-based tutor over live video, solo or among fifteen to twenty classmates at their level. We build thinking skills first, so learners can judge what an agent concludes rather than just accept it. Lesson one costs nothing and closes with our course suggestion. The Tynemouth project tests a popular idea about AI agents: that asking several of them, and taking the common answer, is safer than asking one. From then on it is USD 100 per month in a small class or USD 150 per month with a tutor of your own.
+> Online vibe coding, AI agents and Python classes for Tynemouth, Whitley Bay, Cullercoats and Monkseaton learners aged 6 to 67, taught live. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [North East England](/coding-and-ai-classes-in-north-east-england) / Tynemouth
-
-Tynemouth, North Tyneside, Tyne and Wear, England / Live online
-
-# Vibe coding and AI agents classes in Tynemouth
-
-**Where can Tynemouth learners find the best vibe coding and AI agents classes?** The 2021 census put 60,605 people in Tynemouth's built-up area, and the ONS lists Whitley Bay and Wallsend separately within North Tyneside, a borough of 208,967; Cullercoats, Monkseaton and Percy Main are among the recorded suburbs. From six to 67, learners in the borough can take vibe coding, AI agents, Python, coding and maths with an India-based tutor over live video, solo or among fifteen to twenty classmates at their level. We build thinking skills first, so learners can judge what an agent concludes rather than just accept it. Lesson one costs nothing and closes with our course suggestion. The Tynemouth project tests a popular idea about AI agents: that asking several of them, and taking the common answer, is safer than asking one. From then on it is USD 100 per month in a small class or USD 150 per month with a tutor of your own.
-
-A popular trick with AI systems is to ask the same question several times, or ask several agents, and go with the answer most of them give. It is called self-consistency, and it is a version of an old idea, the wisdom of crowds: many rough guesses, combined, can beat any single one. This project tests exactly when that works, using a question with a known answer. The 2021 census says 27.82% of North Tyneside's 96,231 households have no car or van. Each simulated agent estimates that figure from just ten output areas, and the learner compares crowds of agents that work independently with crowds that mostly look at the same evidence.
-
-Facts last verified 29 September 2026. Teaching is online; no Tynemouth branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentTynemouth course picks
 
 ## Tynemouth courses for thinking, vibe coding and agents
 
 Four starting points arranged by age; every one begins with a free live lesson and needs no card to book.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think programme: estimating, comparing guesses and asking where each guess came from.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games, then small apps made by describing them to an AI and testing them.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python and web projects with AI help, including the crowd-of-agents experiment.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): Agents, ensembles, evaluation and how to combine several answers sensibly.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think programme: estimating, comparing guesses and asking where each guess came from.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games, then small apps made by describing them to an AI and testing them.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensPython and web projects with AI help, including the crowd-of-agents experiment.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseAgents, ensembles, evaluation and how to combine several answers sensibly.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Tynemouth and North Tyneside
 
 ## Tynemouth, Whitley Bay and Wallsend
 
 Three North Tyneside built-up areas in the ONS 2021 census, and suburbs recorded around Tynemouth.
 
-**Three North Tyneside built-up areas, ONS 2021 census counts**
-
 | Built-up area | People (2021) |
-|---|---|
+| --- | --- |
 | Tynemouth | 60,605 |
 | Wallsend | 45,355 |
 | Whitley Bay | 36,880 |
@@ -54,16 +40,16 @@ The ONS publishes each of these separately, so they appear here without a total;
 
 Wider choices are on [coding classes in Tyne and Wear](/coding-classes-in-tyne-and-wear) and [North East England](/coding-and-ai-classes-in-north-east-england). Why we teach reasoning ahead of prompting is explained on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Tynemouth project
+
 ## Is a crowd of AI agents wiser than one? Only if they think independently
 
 Give each agent ten output areas, combine their answers, and compare independent crowds with crowds that share evidence.
 
 Census 2021 table TS045 arrives from the Nomis API covering every one of North Tyneside's 729 output areas. Adding them up gives the true answer to the question every agent will be asked: 26,773 of 96,231 households, 27.82%, have no car or van. Each simulated agent answers from a sample of just ten output areas, so any one agent can easily be several points out. A crowd answers with the median of its agents' estimates, a middle value that ignores wild outliers. Every setting is repeated 4,000 times to measure the typical error.
 
-**Typical error of a crowd's answer in percentage points (90th-percentile error in brackets), our Python run on North Tyneside census data, 29 September 2026**
-
 | Agents in the crowd | Each with its own 10 areas | All sharing 8 of their 10 areas |
-|---|---|---|
+| --- | --- | --- |
 | 1 | 4.08 (8.37) | 4.07 (8.21) |
 | 3 | 2.69 (5.56) | 3.79 (7.73) |
 | 5 | 2.17 (4.54) | 3.82 (7.84) |
@@ -90,14 +76,14 @@ Build independent and shared-evidence crowds, measure their errors and explain t
 
 The car counts are Census 2021 figures from the Office for National Statistics, read through Nomis. The agents are simple simulations of our own; no language model was used, and every error figure comes from our code.
 
+Crowds of agents
+
 ## What this teaches about vibe coding and AI agents
 
 Many voices only count as many if they did not copy each other.
 
-**From the Tynemouth crowd to real AI practice**
-
 | In the simulation | With AI assistants and agents |
-|---|---|
+| --- | --- |
 | 15 independent agents: 1.31-point error | Diverse sources really do help |
 | 15 agents sharing evidence: 3.67 | Many copies of one view add little |
 | The median ignored wild guesses | Combine answers in a way outliers cannot hijack |
@@ -108,14 +94,37 @@ Multi-agent AI systems, where several agents draft, check and vote, are increasi
 
 We are independent of the ONS, Nomis and postcodes.io and drew only on their open data; the simulated agents, with any mistakes, are our work.
 
+Stages
+
 ## From guessing jars to agent ensembles
 
 We take the school year as a hint and let the trial lesson decide the level.
 
-- **Years 2 to 7: How to think** Estimating, comparing guesses and spotting shared mistakes. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Games and small apps built with AI help and tested by the learner. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python and simulation** Sampling, randomness and combining estimates beside GCSE and A level. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **Adults: Multi-agent AI** Agents, voting, evaluation and diverse sources in Python. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Years 2 to 7
+
+### How to think
+
+Estimating, comparing guesses and spotting shared mistakes.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Games and small apps built with AI help and tested by the learner.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python and simulation
+
+Sampling, randomness and combining estimates beside GCSE and A level.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)Adults
+
+### Multi-agent AI
+
+Agents, voting, evaluation and diverse sources in Python.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)AI and consensus
 
 ## Does asking an AI several times give a better answer?
 
@@ -127,30 +136,139 @@ Learners who have run both crowds look past agreement and ask what each answer w
 
 A Tynemouth teenager who knows when many voices really help will build and use AI agents far more wisely, a great reason to learn to code in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Cullercoats to Monkseaton, online
 
 All you need is a computer and a broadband line fit for video calls.
 
-- **The learner codes** Students handle the keyboard throughout; tutors watch the screen share and keep probing with questions.
-- **Level from the trial** What the learner shows in the free session sets the starting point; exam boards are noted.
-- **Free first session** We charge nothing for session one and end it by recommending a course.
-- **Stage-based groups** Every class is five to ten British learners working at one stage.
-- **Two sessions weekly** Lessons pause during school holidays.
-- **Stable times** Our tutors move with the UK clocks, so the lesson hour holds.
+### The learner codes
 
-**Why classes are online** Five learners at one stage who are free on the same evening rarely live near one another. Online, they can share a class wherever they are.
+Students handle the keyboard throughout; tutors watch the screen share and keep probing with questions.
+
+### Level from the trial
+
+What the learner shows in the free session sets the starting point; exam boards are noted.
+
+### Free first session
+
+We charge nothing for session one and end it by recommending a course.
+
+### Stage-based groups
+
+Every class is five to ten British learners working at one stage.
+
+### Two sessions weekly
+
+Lessons pause during school holidays.
+
+### Stable times
+
+Our tutors move with the UK clocks, so the lesson hour holds.
+
+Why classes are online
+
+Five learners at one stage who are free on the same evening rarely live near one another. Online, they can share a class wherever they are.
+
+Fees
 
 ## Tynemouth fees
 
 Tynemouth learners pay our international rate, which covers every country but India.
 
-- First class: USD 0. A full lesson free at the start, ending with our course advice.
-- Group tuition: USD 100 a month. Around eight live group lessons per month.
-- Private tuition: USD 150 a month. Around eight live one-to-one lessons per month.
+First class**USD 0**
+
+A full lesson free at the start, ending with our course advice.
+
+Group tuition**USD 100**
+
+Around eight live group lessons per month.
+
+Private tuition**USD 150**
+
+Around eight live one-to-one lessons per month.
 
 We price in US dollars, never sterling. Nothing is billed before the trial agrees a course and a regular slot, and our pricing page handles holidays away, missed lessons and format swaps.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Tynemouth.)Reviews
+
+## North East families and learners across Britain, on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Tynemouth lesson
+
+Tell us the learner's age or year group and something they enjoy. A trial might be a jar-guessing challenge, a Scratch game co-built with an AI, first steps in Python, or a small crowd of estimating agents.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Tynemouth one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Tynemouth.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Tynemouth questions
+
+Crowds of agents, self-consistency, vibe coding and practical details.
 
 ### How many people live in Tynemouth?
 
@@ -192,10 +310,14 @@ Free for the first lesson; then USD 100 monthly within a group, or USD 150 month
 
 Yes. Send the dates.
 
+Nearby
+
 ## More Tyne and Wear and North East pages
 
 [Newcastle upon Tyne](/best-coding-class-in-newcastle-upon-tyne) has its own page and project, as do [Hartlepool](/online-coding-and-python-classes-in-hartlepool) and [Darlington](/vibe-coding-and-ai-agents-classes-in-darlington) elsewhere in the region. Every area is listed on the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Tynemouth.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-tynemouth](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-tynemouth#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-tynemouth*

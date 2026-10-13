@@ -12,7 +12,7 @@ LIVE ONLINE · SOUTH KOLKATA · TOLLYGUNGE
 
 Modern Age Coders runs premium live online coding and mathematics classes for children and teens across Tollygunge, Charu Market, Bansdroni, Naktala and Lake Gardens. Every class is taught live by full-time software engineers and maths graduates in batches of fifteen to twenty students, never pre-recorded. Fees start at ₹1,499/month, and your first demo class is free. Tollywood's creative city now learns to build with code.
 
-Max 20 per live batchFull-time engineers & maths graduatesFrom ₹1,499/monthFree first demo class[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)100%Live, never recorded6-8Students per batch₹1,499Starting fee /month90 minSaved per class dayAT A GLANCE
+Max 20 per live batchFull-time engineers & maths graduatesFrom ₹1,499/monthFree first demo class[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)100%Live, never recorded15-20Students per batch₹1,499Starting fee /month90 minSaved per class dayAT A GLANCE
 
 ## Coding & maths near Tollygunge, in one screen
 

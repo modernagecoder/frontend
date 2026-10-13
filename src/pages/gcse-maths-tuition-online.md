@@ -34,11 +34,15 @@ GCSE Maths sits on the shared June 2027 timetable. No change to the maths specif
 
 Results days for 2027 are not published in the JCQ key-dates document, so none is stated here.
 
+Wondering how your board's papers compare? Read [AQA vs Edexcel vs OCR GCSE maths](/aqa-vs-edexcel-vs-ocr-gcse-maths).
+
 How we teach
 
 ## Understanding, then exam technique: in that order.
 
 A grade plan built from your child's actual papers, not a generic revision list.
+
+New to the 9 to 1 scale or to grade boundaries? Read [GCSE maths grades 1 to 9 explained](/gcse-maths-grades-explained).
 
 ### Diagnose where marks leak
 
@@ -54,7 +58,7 @@ We coach how to break down the multi-topic "show that" and worded questions that
 
 ### Drill past papers & method marks
 
-We rehearse with your board's papers, training the working and timing that bank every available mark.
+We rehearse with your board's papers, training the working and timing that bank every available mark. Our guide to [calculator and non-calculator papers](/gcse-maths-calculator-vs-non-calculator-papers) shows what each one needs.
 
 See it for yourself
 
@@ -275,7 +279,7 @@ Bring a recent paper or mock. We'll show you exactly where the marks are leaking
 
 ## More maths tuition from Modern Age Coders.
 
-[UK · examA-Level Maths Tuition](/a-level-maths-tuition-online)[UK · KS3/KS4Maths Tuition for Teens](/online-maths-tuition-for-teens-in-uk)[UK · KS3KS3 Maths Tuition](/ks3-maths-tuition-online)[UK · adultsGCSE Resit for Adults](/online-maths-classes-for-adults-in-uk)[USA · examSAT Math Prep](/sat-math-tutoring-online)[CourseGCSE & High School Mathematics](/courses/gcse-mathematics-mastery)[CourseGCSE Maths Resit (Post-16 & Adults)](/courses/gcse-maths-resit-course)
+[UK · examA-Level Maths Tuition](/a-level-maths-tuition-online)[UK · KS3/KS4Maths Tuition for Teens](/online-maths-tuition-for-teens-in-uk)[UK · KS3KS3 Maths Tuition](/ks3-maths-tuition-online)[UK · adultsGCSE Resit for Adults](/online-maths-classes-for-adults-in-uk)[USA · examSAT Math Prep](/sat-math-tutoring-online)[CourseGCSE Maths: Foundation & Higher](/courses/gcse-mathematics-mastery)[CourseHigh School Mathematics](/courses/complete-high-school-mathematics-mastery)[CourseGCSE Maths Resit (Post-16 & Adults)](/courses/gcse-maths-resit-course)
 
 Real student projects
 

@@ -4,46 +4,32 @@ description: "Online coding, AI, Python and vibe coding lessons for Horsforth, C
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-horsforth-leeds
 source: src/pages/best-coding-and-ai-classes-in-horsforth-leeds.html
 ---
-> The 2021 census put 24,310 usual residents in Leeds's Horsforth ward. Postcodes.io records Cragg Hill and Horsforth Woodside in the LS18 district, with Newlay, Tinshill and Cookridge among the neighbouring places. Children from six and adults up to 67 can learn coding, AI, Python, vibe coding and maths with a tutor in India on live video, privately or in a class of fifteen to twenty at one level. We start with how to measure things fairly, so learners can question a score before trusting it. Lesson one costs nothing and finishes with the course we would choose. The Horsforth project maps 16 playgrounds and 37,296 residents on 256.0 km of paths, then compares a simple count with a fairer measure of access, and finds that one choice matters more than either method. Beyond the trial, fees are USD 100 a month in a group or USD 150 a month for one-to-one lessons.
+> Online coding, AI, Python and vibe coding lessons for Horsforth, Cragg Hill, Newlay and Cookridge learners aged 6 to 67, with live tutors. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Leeds](/best-coding-class-in-leeds) / Horsforth
-
-Horsforth, Leeds, West Yorkshire / Live online
-
-# Coding and AI classes in Horsforth
-
-**Where can Horsforth learners find the best coding and AI classes?** The 2021 census put 24,310 usual residents in Leeds's Horsforth ward. Postcodes.io records Cragg Hill and Horsforth Woodside in the LS18 district, with Newlay, Tinshill and Cookridge among the neighbouring places. Children from six and adults up to 67 can learn coding, AI, Python, vibe coding and maths with a tutor in India on live video, privately or in a class of fifteen to twenty at one level. We start with how to measure things fairly, so learners can question a score before trusting it. Lesson one costs nothing and finishes with the course we would choose. The Horsforth project maps 16 playgrounds and 37,296 residents on 256.0 km of paths, then compares a simple count with a fairer measure of access, and finds that one choice matters more than either method. Beyond the trial, fees are USD 100 a month in a group or USD 150 a month for one-to-one lessons.
-
-How good is your access to a playground? The quick answer counts how many are within walking distance. A fairer answer notices that a playground shared by 6,000 people is not the same as one shared by 600. The two-step floating catchment method, used by planners and health researchers, does exactly that: first it works out how many people each facility serves, then it adds up each neighbourhood's share of the facilities it can reach. This project builds both measures in Python for a rectangle around Horsforth, using OpenStreetMap paths and playgrounds and census counts for 122 small areas, and then asks the awkward question: what if the walking limit had been different?
-
-Facts last verified 30 September 2026. Teaching is online; no Horsforth branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentHorsforth course picks
 
 ## Horsforth courses in measurement, Python and AI
 
 Four starting points by age. Whichever you pick, lesson one is live and free, and we do not ask for a card.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think course: fair shares, averages and asking what a number really measures.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games planned by the learner, built with an AI and tested properly.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python from first steps to maps and data, including the Horsforth access study.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Students and adults): Python for geospatial data, analysis and AI agents.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think course: fair shares, averages and asking what a number really measures.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games planned by the learner, built with an AI and tested properly.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython from first steps to maps and data, including the Horsforth access study.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)Students and adultsPython MasterclassPython for geospatial data, analysis and AI agents.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Horsforth and north-west Leeds
 
 ## Horsforth, Cragg Hill, Newlay and Cookridge
 
 The census count for Horsforth ward, and places recorded around it.
 
-**Horsforth in the 2021 census (usual residents, via Nomis)**
-
 | Area | Residents (2021) |
-|---|---|
+| --- | --- |
 | Horsforth ward, Leeds | 24,310 |
 
 The ONS does not publish a separate built-up area for Horsforth, so the ward is the figure we use. Postcodes.io lists Horsforth, Cragg Hill and Horsforth Woodside in LS18, Newlay in LS13, and Tinshill, Cookridge and West Park in LS16. Leeds schools teach England's national curriculum, with GCSE and A level exams; share your holiday dates and lessons will leave those weeks out.
@@ -52,16 +38,16 @@ The ONS does not publish a separate built-up area for Horsforth, so the ward is 
 
 See the [Leeds page](/best-coding-class-in-leeds), [coding classes in West Yorkshire](/coding-classes-in-west-yorkshire) and [Yorkshire and the Humber](/coding-and-ai-classes-in-yorkshire-and-the-humber). Why we teach reasoning before tools is on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Horsforth project
+
 ## Measuring fair access to playgrounds: simple counts against the two-step floating catchment
 
 Sixteen playgrounds, 122 census areas, two ways to score access, and three walking limits.
 
 The learner downloads OpenStreetMap paths and playgrounds for a rectangle around Horsforth through the Overpass service, 256.0 km of walkable ways and 16 playgrounds, plus the population-weighted centres of the 122 census output areas inside it, home to 37,296 people. Every walk is measured along real paths. The simple measure counts playgrounds within the walking limit of each area. The two-step floating catchment measure first divides each playground among everyone who can reach it, then gives each area the total of its shares.
 
-**Playground access around Horsforth at three walking limits, our Python run on OpenStreetMap and Census 2021 data**
-
 | Walking limit | Residents with no playground in reach | Agreement of the two measures | Typical residents sharing one playground |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 400 m | 30,583 (82.0%) | 0.661 | 622 |
 | 800 m | 16,220 (43.5%) | 0.862 | 3,230 |
 | 1,200 m | 4,865 (13.0%) | 0.855 | 6,692 |
@@ -84,14 +70,14 @@ Build the two-step floating catchment, vary the limit and write up which result 
 
 Paths and playgrounds are from OpenStreetMap and its contributors under the Open Database Licence; population and area centres are Office for National Statistics Census 2021 data under the Open Government Licence. The rectangle, the limits and every score are our own work; playgrounds not yet mapped are not counted.
 
+Scores and AI
+
 ## What this teaches about vibe coding and AI agents
 
 Somebody chose the cut-off behind every neat access map.
 
-**From the Horsforth playground study to working with AI**
-
 | In the access project | When AI produces a score or ranking |
-|---|---|
+| --- | --- |
 | No-access share ran from 82.0% to 13.0% | One setting can swing the headline |
 | Count and 2SFCA agreed at 0.862 | Check whether the complex method changes anything |
 | One playground reached no area centre | Edge cases hide in the data |
@@ -102,14 +88,37 @@ Ask an AI assistant which neighbourhoods are "under-served" and it will often ch
 
 Our sources (OpenStreetMap, the ONS and postcodes.io) simply publish open data; none of them reviewed this study, and its mistakes, if any, are Modern Age Coders'.
 
+Stages
+
 ## From sharing sweets to access models
 
 A school year is our first clue; the trial settles the level.
 
-- **Years 2 to 7: How to think** Fair shares, counting and saying what a number measures. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Games and small apps planned by the learner and built with AI help. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python and data** Maps, networks and robust conclusions alongside GCSE and A level. [Python for Teens](/courses/python-complete-masterclass-teens), [Statistics & Probability](/courses/statistics-probability-maths-course)
-- **Adults: Geospatial Python and agents** Access analysis, data pipelines and AI agents in Python. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
+Years 2 to 7
+
+### How to think
+
+Fair shares, counting and saying what a number measures.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Games and small apps planned by the learner and built with AI help.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python and data
+
+Maps, networks and robust conclusions alongside GCSE and A level.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Statistics & Probability](/courses/statistics-probability-maths-course)Adults
+
+### Geospatial Python and agents
+
+Access analysis, data pipelines and AI agents in Python.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)Data and fairness
 
 ## What is the two-step floating catchment method for measuring access?
 
@@ -121,30 +130,139 @@ Students who ran this study ask two things of every ranking an AI hands them: wh
 
 A Horsforth teenager who reruns a score with a different threshold will not be steered by one confident chart, and that habit grows fastest by writing code. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Online lessons for north-west Leeds
 
 Kit list: a computer with a camera and broadband steady enough for video.
 
-- **Hands on, always** Every line is typed and run by the learner, while the tutor, following on screen share, keeps asking what each result shows.
-- **Level from the trial** The free lesson shows where to begin, and any exam board is noted.
-- **Free opening lesson** Lesson one costs nothing and closes with a course suggestion.
-- **Classes by stage** Five to ten UK learners at the same level in each group.
-- **Twice weekly** Paused over school holidays.
-- **Fixed time** Our tutors follow UK clock changes, so your slot stays put.
+### Hands on, always
 
-**Why online** Five learners at one level, free on the same evening and close to each other, are rare. Video makes the distance irrelevant.
+Every line is typed and run by the learner, while the tutor, following on screen share, keeps asking what each result shows.
+
+### Level from the trial
+
+The free lesson shows where to begin, and any exam board is noted.
+
+### Free opening lesson
+
+Lesson one costs nothing and closes with a course suggestion.
+
+### Classes by stage
+
+Five to ten UK learners at the same level in each group.
+
+### Twice weekly
+
+Paused over school holidays.
+
+### Fixed time
+
+Our tutors follow UK clock changes, so your slot stays put.
+
+Why online
+
+Five learners at one level, free on the same evening and close to each other, are rare. Video makes the distance irrelevant.
+
+Fees
 
 ## Horsforth fees
 
 In Horsforth, as everywhere outside India, our international rates apply.
 
-- First class: USD 0. A full free lesson, then a recommendation.
-- Group tuition: USD 100 a month. Around eight live small-group lessons each month.
-- Private tuition: USD 150 a month. Around eight live one-to-one lessons each month.
+First class**USD 0**
+
+A full free lesson, then a recommendation.
+
+Group tuition**USD 100**
+
+Around eight live small-group lessons each month.
+
+Private tuition**USD 150**
+
+Around eight live one-to-one lessons each month.
 
 We bill in US dollars and never in sterling, beginning once the trial has settled a course and a slot; the pricing page explains school breaks, absences and changing format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Horsforth%3F)Reviews
+
+## Leeds families and learners across the UK, on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Horsforth lesson
+
+Tell us the learner's age or school year and something they enjoy. We might start with a fair-shares puzzle, an AI-assisted Scratch game, some first Python, or plotting real playgrounds.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Horsforth one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Horsforth%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Horsforth questions
+
+Access measures, the playground project, Python, vibe coding and practical details.
 
 ### What is the population of Horsforth?
 
@@ -186,10 +304,14 @@ Trial free; after that USD 100 monthly for a class place or USD 150 monthly one-
 
 Yes, for school holidays; send us the dates.
 
+Nearby
+
 ## More Leeds and Yorkshire pages
 
 Pages with their own projects: [Leeds](/best-coding-class-in-leeds), [Bradford](/best-coding-class-in-bradford), [Harrogate](/ai-and-programming-classes-in-harrogate) and [West Yorkshire](/coding-classes-in-west-yorkshire). The [UK hub](/coding-classes-in-united-kingdom) lists everywhere else.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Horsforth%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-and-ai-classes-in-horsforth-leeds](https://learn.modernagecoders.com/best-coding-and-ai-classes-in-horsforth-leeds#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-horsforth-leeds*

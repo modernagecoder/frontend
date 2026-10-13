@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths classes for Liverpool lea
 canonical: https://learn.modernagecoders.com/best-coding-class-in-liverpool
 source: src/pages/best-coding-class-in-liverpool.html
 ---
-> Liverpool had 486,088 usual residents at the 2021 Census, and 10.1% of them were aged 20 to 24 against 6.0% in England. The Mersey has the second-highest tidal range in the UK, according to the National Tidal and Sea Level Facility, and tide prediction at the University of Liverpool Tidal Institute began in 1924. Modern Age Coders teaches Liverpool learners aged six to sixty-seven live online, one to one or in groups of fifteen to twenty at a single level, with teachers in India and lessons timed in UK hours. We charge nothing for the first lesson. From then on a group place costs USD 100 a month and one-to-one teaching USD 150 a month.
+> Live online coding, Python, AI and maths classes for Liverpool learners aged 6 to 67, from Wavertree and Woolton to Walton and Speke. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Liverpool
-
-Liverpool, Merseyside, England / Live online
-
-# Coding classes in Liverpool
-
-**What are the best coding classes in Liverpool?** Liverpool had 486,088 usual residents at the 2021 Census, and 10.1% of them were aged 20 to 24 against 6.0% in England. The Mersey has the second-highest tidal range in the UK, according to the National Tidal and Sea Level Facility, and tide prediction at the University of Liverpool Tidal Institute began in 1924. Modern Age Coders teaches Liverpool learners aged six to sixty-seven live online, one to one or in groups of fifteen to twenty at a single level, with teachers in India and lessons timed in UK hours. We charge nothing for the first lesson. From then on a group place costs USD 100 a month and one-to-one teaching USD 150 a month.
-
-Twice a day the Mersey rises and falls by several metres, and the rhythm is set by the moon. You can hear it in the numbers. The Environment Agency publishes a reading from its Liverpool tide gauge every 15 minutes, and a month of them, 2,828 readings from 23 August to 21 September 2026, is enough to ask a precise question: for every possible period, how strongly does the water swing at that rhythm? The answer, called a periodogram, has one towering peak at 12.42 hours, the moon's tide, and a second at about 12 hours, the sun's. Where the two waves fall into step the tides are big; where they fall out of step they are small. That beat repeats every 14.77 days, and it is the whole story of spring and neap tides. It is also how tide tables are made, and that is the lesson Liverpool's river teaches our teenage learners.
-
-Facts last verified 21 September 2026. Teaching is online; no Liverpool branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Liverpool
 
 ## Four courses for a city on the tide
 
 Choose by what the learner enjoys. Every course starts with a free live lesson, and no card is asked for.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 12): Block coding from animations to games, where a boat that bobs up and down on a timer makes a natural first wave.
-- [High School Mathematics](/courses/complete-high-school-mathematics-mastery) (Secondary years): Algebra to calculus with trigonometry at the centre, the mathematics of every wave the project measures.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): Pandas and real datasets for teenagers who know basic Python, a good home for a month of tide readings.
-- [College Maths Course](/courses/college-mathematics-complete-masterclass) (University and adult): Calculus and linear algebra for adults, the foundations that Fourier analysis is built on.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 12Coding for KidsBlock coding from animations to games, where a boat that bobs up and down on a timer makes a natural first wave.See the syllabus](/courses/kids-coding-blocks-masterclass)[![High School Mathematics course thumbnail](/images/high-school-maths.webp)Secondary yearsHigh School MathematicsAlgebra to calculus with trigonometry at the centre, the mathematics of every wave the project measures.See the syllabus](/courses/complete-high-school-mathematics-mastery)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensPandas and real datasets for teenagers who know basic Python, a good home for a month of tide readings.See the syllabus](/courses/data-science-course-for-teens-python-data)[![College Maths Course course thumbnail](/images/college-level-maths.webp)University and adultCollege Maths CourseCalculus and linear algebra for adults, the foundations that Fourier analysis is built on.See the syllabus](/courses/college-mathematics-complete-masterclass)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Liverpool today
 
 ## A city where study runs through every age
 
 From the 2021 Census tables for the Liverpool local authority, published by the Office for National Statistics on Nomis.
 
-**Liverpool, Census 2021**
-
 | Census 2021 measure | Liverpool | England |
-|---|---|---|
+| --- | --- | --- |
 | Usual residents | 486,088 | Not compared |
 | In households | 463,875, 95.4% | Not compared |
 | In communal establishments | 22,213, 4.6% | Not compared |
@@ -66,6 +52,8 @@ The 22,213 people in communal establishments, 4.6% of residents, include those l
 
 Those figures describe a city where learning runs through every age. A Liverpool learner might be a seven-year-old in Aigburth making a first game, a Year 10 student in West Derby who has chosen GCSE Computer Science, or someone in their twenties in Kensington picking up Python for work, and each joins five to ten others at the same level.
 
+Tides and the Tidal Institute
+
 ## A machine that added 42 waves together
 
 From the National Tidal and Sea Level Facility, part of the National Oceanography Centre, and the University of Liverpool.
@@ -84,16 +72,18 @@ The machine could combine up to 42 tidal constituents on pulley wheels, each lab
 
 The same source explains the method: a long run of observed heights, ideally a year of hourly readings, is analysed into its astronomical parts, each with an amplitude and a phase, and those parts are then added up to predict the tide at any time, past or future. The University of Liverpool describes itself as transforming lives since 1881, and the town received its first Royal Charter in 1207. We have no connection with the University or the National Oceanography Centre. We tell the story because the Doodson-Légé machine was, in effect, a computer built to run exactly the calculation on this page.
 
-**The river itself** The Mersey begins in Stockport, where the Tame and the Goyt meet, and flows 70 miles to the Irish Sea. The National Tidal and Sea Level Facility gives its tidal range as 4 metres at neaps to 10 metres at springs, the second highest in the UK, and puts the river's own flow at about 1% of the tidal flow.
+The river itself
+
+The Mersey begins in Stockport, where the Tame and the Goyt meet, and flows 70 miles to the Irish Sea. The National Tidal and Sea Level Facility gives its tidal range as 4 metres at neaps to 10 metres at springs, the second highest in the UK, and puts the river's own flow at about 1% of the tidal flow.
+
+Signature project
 
 ## Hearing the moon in a month of Mersey water
 
 A periodogram asks, for every possible rhythm, how strongly the data swings at that period. We ran one on 29.6 days of 15-minute readings from the Environment Agency's Liverpool tide gauge.
 
-**The strongest rhythms at the Liverpool gauge, 23 August to 21 September 2026**
-
 | Period found | Swing either side of the mean | What it is |
-|---|---|---|
+| --- | --- | --- |
 | 12.42 hours | 2.86 m | The principal lunar tide |
 | 12.05 hours | 1.52 m | The solar tide, truly 12.00 hours, blurred by a short record |
 | 6.21 hours | 0.20 m | A shallow-water overtide at half the lunar period |
@@ -116,14 +106,14 @@ A 12.42-hour wave and a 12-hour wave slide in and out of step every 14.77 days. 
 
 Two cautions complete the lesson. A month is barely enough: the program places the solar tide at 12.05 hours instead of exactly 12, because with 29.6 days of data two rhythms must differ by about two steps of the natural frequency resolution to be separated, and these two differ by almost exactly that. And the gauge reports heights on its own local scale, so the page quotes ranges and swings, which do not depend on where zero sits, rather than heights above sea level. Calendar-day ranges can also split a tide across midnight, which is partly why the smallest here falls below the 4-metre neap range quoted for the Mersey.
 
+Finding rhythms in data
+
 ## Five checks before trusting a peak
 
 Learned on tides, used afterwards on music and sound, daily electricity demand, website traffic, planetary orbits and anything else that repeats.
 
-**Reading a periodogram honestly**
-
 | Check | What it looks like | What it prevents |
-|---|---|---|
+| --- | --- | --- |
 | Use real timestamps | Compute with the actual time of each reading so gaps cannot shift the rhythm | A pattern bent out of shape by missing readings |
 | Know the resolution | Work out how close two periods can be and still be separated, given the record length | Claiming two tides from a record too short to split them |
 | Check against physics | Compare peaks with known periods such as 12.42 and 12.00 hours | Mistaking noise for a new cycle |
@@ -146,14 +136,37 @@ Seasonality and cycles in business or engineering data, with resolution limits a
 
 We are not connected with the Environment Agency, the National Oceanography Centre, its National Tidal and Sea Level Facility or the University of Liverpool. The gauge readings are published for public use; the periodogram, ranges and high-water count are our own calculations.
 
+Learning ladder
+
 ## From a bobbing boat to a periodogram
 
 Ages give a first guess; the free lesson settles the real level.
 
-- **Ages 6 to 10: Waves and patterns** Repeating patterns, timing a rhythm with a stopwatch and animating something that rises and falls. [Elementary Maths for Grades 1-5](/courses/elementary-mathematics-complete-masterclass), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 11 to 13: Rhythms in code** Loops that repeat on a timer, graphs of repeating data and a first look at how long a cycle lasts. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Sines and periodograms** Trigonometry turned into code, a real month of tide readings analysed and the beat between two waves explained. [High School Mathematics](/courses/complete-high-school-mathematics-mastery), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Signals at work** Frequency analysis for engineers and analysts, with resolution, sampling and harmonics handled properly. [College Maths Course](/courses/college-mathematics-complete-masterclass), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Ages 6 to 10
+
+### Waves and patterns
+
+Repeating patterns, timing a rhythm with a stopwatch and animating something that rises and falls.
+
+[Elementary Maths for Grades 1-5](/courses/elementary-mathematics-complete-masterclass)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 11 to 13
+
+### Rhythms in code
+
+Loops that repeat on a timer, graphs of repeating data and a first look at how long a cycle lasts.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Sines and periodograms
+
+Trigonometry turned into code, a real month of tide readings analysed and the beat between two waves explained.
+
+[High School Mathematics](/courses/complete-high-school-mathematics-mastery)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Signals at work
+
+Frequency analysis for engineers and analysts, with resolution, sampling and harmonics handled properly.
+
+[College Maths Course](/courses/college-mathematics-complete-masterclass)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)Coding and AI
 
 ## An assistant can quote tomorrow's high tide. Why should a Liverpool teenager build a periodogram?
 
@@ -165,30 +178,139 @@ The same mathematics runs through modern computing. Audio compression, speech re
 
 That is why a Liverpool teenager should still learn to program in 2026, beside the second-highest tidal range in the UK: machines now predict almost everything, and knowing how a prediction is built is what lets you judge it. The longer argument is in [whether coding is still worth learning in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Wavertree, Woolton or Walton, straight from home
 
 From Speke to Croxteth, a live online lesson needs no journey at all.
 
-- **North end or south end** A learner in Walton and another in Garston can share the same lesson without either crossing the city.
-- **Stages from Reception to A level** Reception, Key Stages 1 to 4, Year 9 options, GCSEs and A levels, as Liverpool schools name them, with teaching in English throughout.
-- **A first lesson worth having** The free lesson teaches something real and ends with a suggested level, course and weekly time. No card is needed to book.
-- **Level before age** Fifteen to twenty learners at one stage, from Liverpool, elsewhere in the UK and abroad, so every level can meet at a workable hour.
-- **Twice weekly, same time** Two lessons each week at fixed times, around eight a month, with breaks for holidays and exams agreed with the teacher ahead of time.
-- **Teaching from India** Our teachers use India Standard Time, which has no daylight saving: four and a half hours ahead of Liverpool in summer and five and a half in winter, so after-school and evening lessons fall in their working day.
+### North end or south end
 
-**Across the river too** Families across the Mersey in Birkenhead or Wallasey join exactly the same groups, because every lesson is online and groups are formed by level rather than postcode.
+A learner in Walton and another in Garston can share the same lesson without either crossing the city.
+
+### Stages from Reception to A level
+
+Reception, Key Stages 1 to 4, Year 9 options, GCSEs and A levels, as Liverpool schools name them, with teaching in English throughout.
+
+### A first lesson worth having
+
+The free lesson teaches something real and ends with a suggested level, course and weekly time. No card is needed to book.
+
+### Level before age
+
+Fifteen to twenty learners at one stage, from Liverpool, elsewhere in the UK and abroad, so every level can meet at a workable hour.
+
+### Twice weekly, same time
+
+Two lessons each week at fixed times, around eight a month, with breaks for holidays and exams agreed with the teacher ahead of time.
+
+### Teaching from India
+
+Our teachers use India Standard Time, which has no daylight saving: four and a half hours ahead of Liverpool in summer and five and a half in winter, so after-school and evening lessons fall in their working day.
+
+Across the river too
+
+Families across the Mersey in Birkenhead or Wallasey join exactly the same groups, because every lesson is online and groups are formed by level rather than postcode.
+
+Fees
 
 ## Liverpool lesson fees
 
 One free lesson, then a single monthly price.
 
-- First class: USD 0. A full lesson with nothing to pay, finishing with a level, a recommended course and a weekly time.
-- Group tuition: USD 100 a month. Around eight live lessons a month, in a group of fifteen to twenty learners working at one level.
-- Private tuition: USD 150 a month. Around eight live lessons a month, taught to your learner alone.
+First class**USD 0**
+
+A full lesson with nothing to pay, finishing with a level, a recommended course and a weekly time.
+
+Group tuition**USD 100**
+
+Around eight live lessons a month, in a group of fifteen to twenty learners working at one level.
+
+Private tuition**USD 150**
+
+Around eight live lessons a month, taught to your learner alone.
 
 Everyone outside India pays one US dollar fee, so a family in Allerton pays the same as a family in Mossley Hill, and we keep no pound price list. Nothing is billed until the free lesson has agreed a course and a slot; the pricing page covers pauses, missed lessons and switching between group and private teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Liverpool.)Reviews
+
+## Six families on Google, in their own words
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson for a Liverpool learner
+
+We pick the opening task by level: an animated bobbing boat for a young child, a first Python program that graphs a repeating pattern, or a month of Mersey tide readings and a periodogram for a teenager ready for real data.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Liverpool one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Liverpool.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Liverpool coding class questions
+
+The questions Liverpool families ask most often.
 
 ### How many people live in Liverpool?
 
@@ -230,10 +352,14 @@ The first lesson is free. After that a group place is USD 100 a month for two li
 
 By level, pace and aims rather than age or postcode, with fifteen to twenty learners at one stage. If no group fits the learner's times, we offer one-to-one lessons.
 
+Explore the UK
+
 ## The North West and beyond
 
 Along the M62, the [Manchester page](/best-coding-class-in-manchester) times a rise travelling down the River Medlock, and further east [Leeds](/best-coding-class-in-leeds) samples a footfall record fairly. Over the Pennines, [Sheffield](/best-coding-class-in-sheffield) fits straight lines to 140 years of temperatures. The [England guide](/coding-and-ai-classes-in-england) sets out the school stages, and the [UK coding page](/coding-classes-in-united-kingdom) lists every UK page.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Liverpool.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-liverpool](https://learn.modernagecoders.com/best-coding-class-in-liverpool#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-liverpool*

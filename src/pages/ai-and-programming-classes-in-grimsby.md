@@ -4,46 +4,32 @@ description: "Online AI, programming, Python and vibe coding classes for learner
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-grimsby
 source: src/pages/ai-and-programming-classes-in-grimsby.html
 ---
-> North East Lincolnshire had 156,966 residents at the 2021 census. The ONS puts the Grimsby built-up area at 85,925 and Cleethorpes at 29,670, with Humberston and New Waltham, Immingham and Waltham next. Older working-age and retired people make up more of the population than across England, and people in their early twenties less. Children, teenagers and adults up to 67, in Grimsby, Cleethorpes or Immingham, can learn AI, programming, Python, vibe coding and maths through live video lessons with our tutors in India, taught individually or in groups of fifteen to twenty at a common level. Reasoning comes first in every course, so AI stays a tool rather than a crutch. Your first lesson costs nothing; then it is USD 100 per month for a group or USD 150 per month for private teaching.
+> Online AI, programming, Python and vibe coding classes for learners aged 6 to 67 in Grimsby, Cleethorpes, Immingham and Humberston, live. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Yorkshire and the Humber](/coding-and-ai-classes-in-yorkshire-and-the-humber) / Grimsby
-
-Grimsby, North East Lincolnshire, England / Live online
-
-# AI and programming classes in Grimsby
-
-**Which are the best AI and programming classes in Grimsby?** North East Lincolnshire had 156,966 residents at the 2021 census. The ONS puts the Grimsby built-up area at 85,925 and Cleethorpes at 29,670, with Humberston and New Waltham, Immingham and Waltham next. Older working-age and retired people make up more of the population than across England, and people in their early twenties less. Children, teenagers and adults up to 67, in Grimsby, Cleethorpes or Immingham, can learn AI, programming, Python, vibe coding and maths through live video lessons with our tutors in India, taught individually or in groups of fifteen to twenty at a common level. Reasoning comes first in every course, so AI stays a tool rather than a crutch. Your first lesson costs nothing; then it is USD 100 per month for a group or USD 150 per month for private teaching.
-
-Modern AI systems are hungry for data, and when real data are scarce or private, developers often turn to synthetic data: made-up records generated to look like the real thing. The 2021 census offers a perfect test. For North East Lincolnshire, Nomis publishes how people travel to work and, separately, how far they travel. A Python learner can generate 68,850 synthetic workers, one for every real one, by drawing a travel method from the first table and a distance from the second. The overall shares match the census closely. Then the learner looks at individual records, and finds people walking more than 60 kilometres to work, and others who work from home while commuting across town.
-
-Facts last verified 28 September 2026. Teaching is online; no Grimsby branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentGrimsby course picks
 
 ## Thinking, vibe coding and AI courses for Grimsby
 
 Follow the learner's age and curiosity; each course starts with a no-cost live lesson, booked without card details.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): Our how-to-think programme: sense-checking, logic and step-by-step plans.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games, then little apps built by chatting with AI and tried out carefully.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python and AI projects for teenagers, the synthetic data project among them.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): How language models are trained, grounded and turned into AI agents.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsOur how-to-think programme: sense-checking, logic and step-by-step plans.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games, then little apps built by chatting with AI and tried out carefully.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensPython and AI projects for teenagers, the synthetic data project among them.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseHow language models are trained, grounded and turned into AI agents.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)North East Lincolnshire
 
 ## A borough weighted towards later life
 
 Census age figures are published for North East Lincolnshire as a whole; six bands from Nomis next to England.
 
-**North East Lincolnshire against England: six age bands, Census 2021 TS007A**
-
 | Band | Residents | Borough % | England % |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 20 to 24 | 7,968 | 5.1% | 6.0% |
 | 40 to 44 | 8,416 | 5.4% | 6.3% |
 | 55 to 59 | 11,803 | 7.5% | 6.7% |
@@ -57,16 +43,16 @@ The early twenties and early forties fall almost a point short of England, while
 
 Our thinking-first approach is explained on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk). For the county see [Lincolnshire](/coding-classes-in-lincolnshire).
 
+The Grimsby project
+
 ## Synthetic workers from two census tables
 
 Generate data that match every published total, then read the individual records.
 
 The learner downloads two tables for the borough. One splits 68,850 working residents by method of travel: 41,180 drivers, 6,360 on foot, 3,423 by bicycle, 9,605 mainly at home, and so on. The other splits 68,849 by distance travelled. The totals differ by one person, because the census adds small privacy noise to each table separately. Using Python's random module with a fixed seed so the run can be repeated, the program creates 68,850 synthetic workers, choosing each one's method and distance by the shares in the two tables. Count them up again and the proportions match the census almost perfectly. By the usual summary checks, this looks like excellent training data.
 
-**Implausible records among 68,850 synthetic North East Lincolnshire workers, our Python run, 28 September 2026**
-
 | Check | Methods drawn independently | With a home-working rule |
-|---|---|---|
+| --- | --- | --- |
 | Home working in one field but not the other | 16,446 (23.9%) | 0 |
 | On foot, 60km and over | 124 | 132 |
 | By bicycle, 60km and over | 76 | Not re-counted |
@@ -93,14 +79,14 @@ Compare independent sampling with rule-based fixes and explain why joint data ar
 
 Counts come from the Census 2021 tables TS061 and TS058 on Nomis. Every synthetic worker, check and count in the table above is our own work.
 
+Vibe coding and AI agents
+
 ## Data quality behind vibe coding and AI agents
 
 What goes into an AI system decides what comes out.
 
-**How North East Lincolnshire's workers travelled, Census 2021 TS061**
-
 | Method | People |
-|---|---|
+| --- | --- |
 | Driving a car or van | 41,180 |
 | Mainly at or from home | 9,605 |
 | On foot | 6,360 |
@@ -112,14 +98,37 @@ A vibe-coded data generator like this takes minutes to write with an AI assistan
 
 The Office for National Statistics and Nomis are independent of Modern Age Coders. The published counts belong to them; the synthetic records we generated, and any fault in them, belong to us.
 
+Stages
+
 ## From picking cards to training data
 
 The year group gives a rough start, and the free lesson pins it down.
 
-- **Years 2 to 7: How to think** Sense-checking, logic and clear plans. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Years 4 to 8: Vibe coding for kids** Games and small apps made with AI, then tested. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Maths Through Coding](/courses/maths-through-coding)
-- **Years 9 to 13: Python, data and AI** Randomness, data quality and AI beside GCSE and A level. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Adults: AI systems and agents** Training data, language models and agents in Python. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Data Science Course](/courses/data-science-complete-masterclass-college)
+Years 2 to 7
+
+### How to think
+
+Sense-checking, logic and clear plans.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Years 4 to 8
+
+### Vibe coding for kids
+
+Games and small apps made with AI, then tested.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Maths Through Coding](/courses/maths-through-coding)Years 9 to 13
+
+### Python, data and AI
+
+Randomness, data quality and AI beside GCSE and A level.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Adults
+
+### AI systems and agents
+
+Training data, language models and agents in Python.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Data Science Course](/courses/data-science-complete-masterclass-college)AI and training data
 
 ## Would you train an AI on these workers?
 
@@ -131,30 +140,139 @@ A Grimsby learner who has generated data and then read it row by row checks trai
 
 Understanding the data behind AI is becoming as important as writing code, and it is a strong reason for Grimsby teenagers to keep learning to program in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Cleethorpes to Immingham, taught online
 
 One computer and a solid internet connection are enough for any home in the borough.
 
-- **Hands on, always** The learner does the typing, prompting and testing; the tutor watches through screen share and replies with questions.
-- **Pitched by the trial** The free lesson, rather than the year group alone, decides the first topic for a Year 5 or Year 12 learner.
-- **No cost to begin** The trial is a full lesson and ends with a plain recommendation.
-- **Fifteen to twenty per group** UK learners grouped by stage, not age alone.
-- **Twice weekly** Holidays are left free.
-- **Stable lesson time** We absorb the UK clock changes on our side.
+### Hands on, always
 
-**Why groups meet online** Five learners in North East Lincolnshire at the same stage and free at one hour rarely live near one another. Online classes give each the right company.
+The learner does the typing, prompting and testing; the tutor watches through screen share and replies with questions.
+
+### Pitched by the trial
+
+The free lesson, rather than the year group alone, decides the first topic for a Year 5 or Year 12 learner.
+
+### No cost to begin
+
+The trial is a full lesson and ends with a plain recommendation.
+
+### Fifteen to twenty per group
+
+UK learners grouped by stage, not age alone.
+
+### Twice weekly
+
+Holidays are left free.
+
+### Stable lesson time
+
+We absorb the UK clock changes on our side.
+
+Why groups meet online
+
+Five learners in North East Lincolnshire at the same stage and free at one hour rarely live near one another. Online classes give each the right company.
+
+Fees
 
 ## Grimsby fees
 
 Grimsby families pay our international price, the same in every country except India.
 
-- First class: USD 0. A complete trial lesson, free, followed by a course recommendation.
-- Group tuition: USD 100 a month. Close to eight live lessons a month in a small group.
-- Private tuition: USD 150 a month. Close to eight live one-to-one lessons a month.
+First class**USD 0**
+
+A complete trial lesson, free, followed by a course recommendation.
+
+Group tuition**USD 100**
+
+Close to eight live lessons a month in a small group.
+
+Private tuition**USD 150**
+
+Close to eight live one-to-one lessons a month.
 
 Prices are set in US dollars, not pounds. We send no bill until the free lesson has fixed a course and a regular weekly slot, and the pricing page deals with holidays, missed sessions and moving between group and private.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Grimsby.)Reviews
+
+## Lincolnshire families, and families across the UK, on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Grimsby lesson
+
+Just tell us the learner's age or school year and what they are into. The trial might be a sense-check puzzle, a Scratch game built with AI, first steps in Python, or making some synthetic data of their own.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Grimsby one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Grimsby.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Grimsby questions
+
+Synthetic data, vibe coding, AI agents and the practical side.
 
 ### What is the population of Grimsby?
 
@@ -196,10 +314,14 @@ The trial is free. Group lessons are USD 100 a month after that, and private les
 
 No; send us the dates and we pause.
 
+Nearby
+
 ## Across the Humber and Lincolnshire
 
 Other pages close by include [Hull](/best-coding-class-in-hull) and [Lincoln](/best-coding-class-in-lincoln). The county has its [Lincolnshire](/coding-classes-in-lincolnshire) page, the region is on [Yorkshire and the Humber](/coding-and-ai-classes-in-yorkshire-and-the-humber), and the [UK hub](/coding-classes-in-united-kingdom) lists everything.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Chat with us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Grimsby.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-grimsby](https://learn.modernagecoders.com/ai-and-programming-classes-in-grimsby#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-grimsby*

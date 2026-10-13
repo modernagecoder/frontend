@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths classes across Hampshire,
 canonical: https://learn.modernagecoders.com/coding-classes-in-hampshire
 source: src/pages/coding-classes-in-hampshire.html
 ---
-> Hampshire is thirteen councils, Portsmouth, Southampton and eleven districts, and 1,857,822 people at the 2021 Census, not counting the Isle of Wight. Southampton and Portsmouth are the two cities; then come Basingstoke, Gosport, Farnborough, Winchester, Andover and Eastleigh, with the New Forest, the South Downs and dozens of towns in between. Our classes cover the whole county identically: live video lessons with teachers in India, learners placed by skill rather than by age, a welcome for anyone from 6 to 67, and a choice between groups of fifteen to twenty and one-to-one teaching. We teach programming, Python, AI, data and maths. The Hampshire project comes from the New Forest. You pay nothing for lesson one; after that, USD 100 a month in a group or USD 150 a month privately.
+> Live online coding, Python, AI and maths classes across Hampshire, from Southampton, Portsmouth and Basingstoke to Winchester, Andover, Farnborough and Fleet.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Hampshire
-
-County of Hampshire / Live online
-
-# Coding classes in Hampshire
-
-**What are the best coding classes in Hampshire?** Hampshire is thirteen councils, Portsmouth, Southampton and eleven districts, and 1,857,822 people at the 2021 Census, not counting the Isle of Wight. Southampton and Portsmouth are the two cities; then come Basingstoke, Gosport, Farnborough, Winchester, Andover and Eastleigh, with the New Forest, the South Downs and dozens of towns in between. Our classes cover the whole county identically: live video lessons with teachers in India, learners placed by skill rather than by age, a welcome for anyone from 6 to 67, and a choice between groups of fifteen to twenty and one-to-one teaching. We teach programming, Python, AI, data and maths. The Hampshire project comes from the New Forest. You pay nothing for lesson one; after that, USD 100 a month in a group or USD 150 a month privately.
-
-The New Forest National Park Authority says the Forest's landscape is shaped by ponies, cattle and pigs that roam freely, and the Verderers have regulated that commoning since the New Forest Act of 1877. Animals that roam freely pose a problem every ecologist knows: how do you count a population you can never see all at once? One classic answer is almost magical. Mark some animals one day, look again another day, and count how many of the second group carry a mark. From that single number you can estimate the whole population. This page's project builds the method in Python, tests it on a model herd thousands of times, and then shows how one broken assumption can throw the answer out by three-quarters.
-
-Facts last verified 26 September 2026. Teaching is online; no Hampshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Hampshire
 
 ## How Hampshire learners get started
 
 A seven-year-old in Ringwood who spots ponies on every drive, an eleven-year-old in Romsey learning Python, a Year 12 in Fleet curious about machine learning, and an analyst in Basingstoke who wants the maths behind data science. Each starts with a free lesson.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 12): Block coding from a first Scratch game onwards, with kid-safe AI and a first taste of Python.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Real Python for children, including random choices and simple experiments run many times over.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 18): Python, machine learning, neural networks and modern AI, with estimation and error treated seriously.
-- [Maths for Data Science](/courses/data-analytics-mathematics-masterclass) (Adults): Statistics, probability, linear algebra, regression and Bayesian methods, the maths under data science.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 12Coding for KidsBlock coding from a first Scratch game onwards, with kid-safe AI and a first taste of Python.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsReal Python for children, including random choices and simple experiments run many times over.See the syllabus](/courses/python-ai-kids-masterclass)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 18AI and Machine Learning for TeensPython, machine learning, neural networks and modern AI, with estimation and error treated seriously.See the syllabus](/courses/ai-ml-masterclass-teens)[![Maths for Data Science course thumbnail](/images/data-analytics-maths.webp)AdultsMaths for Data ScienceStatistics, probability, linear algebra, regression and Bayesian methods, the maths under data science.See the syllabus](/courses/data-analytics-mathematics-masterclass)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Hampshire by the numbers
 
 ## Thirteen councils, 1,857,822 people and two cities on the Solent
 
 Council totals are 2021 Census counts on Nomis. The towns are ONS built-up areas above 8,000 people, checked against our own addition of census output areas.
 
-**Portsmouth, Southampton and the eleven Hampshire districts, usual residents at Census 2021, largest first**
-
 | Council | Usual residents | Main towns |
-|---|---|---|
+| --- | --- | --- |
 | Southampton | 248,922 | Southampton |
 | Portsmouth | 208,003 | Portsmouth, Southsea |
 | Basingstoke and Deane | 185,154 | Basingstoke, Tadley |
@@ -60,10 +46,8 @@ Council totals are 2021 Census counts on Nomis. The towns are ONS built-up areas
 
 The two cities hold under a quarter of the county between them. Portsmouth's built-up area, 223,305 people, reaches over the city boundary into Fareham and Havant; Southampton's runs into Eastleigh. North of them the county is spread across market towns and commuter towns, from Andover and Basingstoke to Farnborough, Fleet and Alton, many of them a long way from the cities' universities and clubs.
 
-**Hampshire built-up areas with more than 8,000 residents at the 2021 Census**
-
 | Town | Residents | Town | Residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Southampton | 249,620 | Lee-on-the-Solent | 24,315 |
 | Portsmouth | 223,305 | Hedge End | 23,190 |
 | Basingstoke | 117,210 | Romsey | 19,920 |
@@ -84,20 +68,20 @@ The two cities hold under a quarter of the county between them. Portsmouth's bui
 
 Bursledon, with 8,070, completes the list. Every row agrees with our count to within rounding except Emsworth, which has about 1,600 of its 11,505 residents over the border in West Sussex; the table prints the ONS total. Hampshire County Council, Portsmouth, Southampton and academies set school calendars separately, and we did not read them; lesson breaks are agreed with each family.
 
+The Hampshire project
+
 ## Counting a herd that never stands still
 
 A model herd in Python, two thousand simulated surveys, and the one assumption that the whole method rests on.
 
 We do not know how many animals graze the Forest, and we have not read a published count, so the learner builds a model herd of 3,000, a number we chose. On day one, 300 animals are found and marked. On day two, 300 animals are seen again, some marked and some not. If the herd is well mixed, the share of marked animals among those seen on day two should match the share of the whole herd that was marked. So if 30 of the 300 seen carry marks, a tenth of the herd was marked, and 300 marked animals means about 3,000 in all. That is the Lincoln-Petersen estimate: marked times seen, divided by recaptures.
 
-**Our run of 26 September 2026: 2,000 simulated surveys of a model herd of 3,000**
-
 | Method or situation | Typical estimate | Spread | Within 10 per cent of 3,000 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Lincoln-Petersen, fair mixing | Mean 3,089, median 3,000 | 542 | 46.2 per cent of surveys |
 | Chapman's correction, fair mixing | Mean 3,003 | 507 | 44.9 per cent of surveys |
-| Marked animals half as likely to be seen | Median 5,328 |  | Badly too high |
-| Marked animals twice as likely to be seen | Median 1,708 |  | Badly too low |
+| Marked animals half as likely to be seen | Median 5,328 |   | Badly too high |
+| Marked animals twice as likely to be seen | Median 1,708 |   | Badly too low |
 
 Three lessons sit in that table. First, luck matters: recaptures ranged from 13 to 48 across the surveys, so any single estimate can be well off, and fewer than half land within 10 per cent. Second, the obvious formula is slightly biased high, averaging 3,089, because a survey that happens to recapture few marked animals divides by a small number; a small correction due to Chapman, adding one in the right places, brings the average to 3,003.
 
@@ -119,14 +103,14 @@ Add Chapman's correction, measure the bias of each method, and model marked anim
 
 The herd size, the numbers marked and seen, and the behaviour changes are values we chose to teach the method. The Verderers and the National Park Authority do not describe how animals are counted on the pages we read, and nothing here describes their methods or their numbers.
 
+Why the New Forest
+
 ## A National Park grazed by animals that roam freely
 
 The Hampshire link, in the words of the organisations that look after the Forest.
 
-**The New Forest, from the Verderers and the National Park Authority**
-
 | Source | What it says |
-|---|---|
+| --- | --- |
 | Verderers of the New Forest | The Court of Verderers is a corporate body set up under the New Forest Act of 1877. |
 | Verderers of the New Forest | It is the last remnant of an old form of Forest government, and regulates commoning on the Forest. |
 | New Forest National Park Authority | The Forest was made a National Park in 2005 and covers 220 square miles. |
@@ -136,16 +120,41 @@ Estimating a population you cannot count directly is one of the most useful idea
 
 Modern Age Coders has no connection with the Verderers of the New Forest, the New Forest National Park Authority or any Hampshire council, and nothing on this page implies one. Their facts are theirs; the model herd and its numbers are ours.
 
-**Nearby pages** [Southampton](/best-coding-class-in-southampton), [Portsmouth](/best-coding-class-in-portsmouth) and [Winchester](/best-coding-class-in-winchester) have pages of their own, and [Dorset](/coding-classes-in-dorset) is to the west.
+Nearby pages
+
+[Southampton](/best-coding-class-in-southampton), [Portsmouth](/best-coding-class-in-portsmouth) and [Winchester](/best-coding-class-in-winchester) have pages of their own, and [Dorset](/coding-classes-in-dorset) is to the west.
+
+Stages of learning
 
 ## From counting beans to trusting an estimate
 
 The free lesson sets the starting level, by ability. Year group is only a hint.
 
-- **Ages 6 to 10: Counting and guessing** Block-coding games that count, estimate and check, the beginning of thinking about how many. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 10 to 13: Experiments in code** Python that repeats a random experiment many times and summarises what happened. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 18: Estimation and models** Machine learning and statistics that treat every estimate as uncertain and every model as a set of assumptions. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: The maths behind data** Probability, regression and Bayesian methods for adults who need to know how far to trust a number. [Maths for Data Science](/courses/data-analytics-mathematics-masterclass), [Statistics & Probability](/courses/statistics-probability-maths-course)
+Ages 6 to 10
+
+### Counting and guessing
+
+Block-coding games that count, estimate and check, the beginning of thinking about how many.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 10 to 13
+
+### Experiments in code
+
+Python that repeats a random experiment many times and summarises what happened.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 18
+
+### Estimation and models
+
+Machine learning and statistics that treat every estimate as uncertain and every model as a set of assumptions.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### The maths behind data
+
+Probability, regression and Bayesian methods for adults who need to know how far to trust a number.
+
+[Maths for Data Science](/courses/data-analytics-mathematics-masterclass)[Statistics & Probability](/courses/statistics-probability-maths-course)AI and estimates
 
 ## An AI can apply a population formula. Will it question the assumption underneath?
 
@@ -157,30 +166,139 @@ A Hampshire student who has watched a single behavioural change push the estimat
 
 So a Hampshire teenager should learn to code in 2026 to be able to test the assumption, not just run the formula. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Getting started
+
 ## Tadley to Lymington without the M3
 
 Hampshire is large and its roads are busy at school pick-up time. Online lessons remove every mile.
 
-- **From home** A bedroom in Alton, a kitchen in Hedge End, a desk in Yateley. The teacher shares a screen and the learner writes the code.
-- **English and school terms** Year groups, GCSE options and A levels are named as Hampshire schools name them, and every lesson is in English.
-- **Free first lesson** A proper lesson of real work, then an honest suggestion of level and course. There are no card details to give.
-- **Classmates at your stage** Groups of fifteen to twenty learners who have reached the same point, gathered widely, so the lesson suits each of them.
-- **Breaks with your school** Two lessons a week for most learners, stopping when their own school stops.
-- **All times in UK time** Our teachers keep India time, four and a half hours ahead in UK summer and five and a half in UK winter; every booking is written in UK time.
+### From home
 
-**Why groups are formed by level** Thirty-five towns and two cities spread across a large county mean few places have enough learners at one stage on one evening. Level-based groups let a Petersfield learner and a Gosport learner share a class.
+A bedroom in Alton, a kitchen in Hedge End, a desk in Yateley. The teacher shares a screen and the learner writes the code.
+
+### English and school terms
+
+Year groups, GCSE options and A levels are named as Hampshire schools name them, and every lesson is in English.
+
+### Free first lesson
+
+A proper lesson of real work, then an honest suggestion of level and course. There are no card details to give.
+
+### Classmates at your stage
+
+Groups of fifteen to twenty learners who have reached the same point, gathered widely, so the lesson suits each of them.
+
+### Breaks with your school
+
+Two lessons a week for most learners, stopping when their own school stops.
+
+### All times in UK time
+
+Our teachers keep India time, four and a half hours ahead in UK summer and five and a half in UK winter; every booking is written in UK time.
+
+Why groups are formed by level
+
+Thirty-five towns and two cities spread across a large county mean few places have enough learners at one stage on one evening. Level-based groups let a Petersfield learner and a Gosport learner share a class.
+
+Fees
 
 ## Hampshire fees
 
 The same prices across the whole county, and in every country apart from India.
 
-- First class: USD 0. A full lesson of genuine work, ending with a recommended level and course.
-- Group tuition: USD 100 a month. Roughly eight lessons a month, in a group of fifteen to twenty at one level.
-- Private tuition: USD 150 a month. Roughly eight lessons a month with one teacher and one learner.
+First class**USD 0**
+
+A full lesson of genuine work, ending with a recommended level and course.
+
+Group tuition**USD 100**
+
+Roughly eight lessons a month, in a group of fifteen to twenty at one level.
+
+Private tuition**USD 150**
+
+Roughly eight lessons a month with one teacher and one learner.
 
 All fees are in US dollars for families outside India, with no pound list. You are charged only after the free lesson has settled a course and a weekly slot; the pricing page explains pausing, missed lessons and changing between group and private teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20lesson%20for%20a%20learner%20in%20Hampshire.)Reviews
+
+## Reviews our families left on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson
+
+We need only an age or school year and something the learner enjoys. The first lesson might be a block-coding counting game, a first Python experiment, or the herd survey on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Hampshire one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20lesson%20for%20a%20learner%20in%20Hampshire.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Hampshire questions
+
+On the county, the New Forest project and how lessons work.
 
 ### How many people live in Hampshire?
 
@@ -222,10 +340,14 @@ No charge for the first lesson. Continuing is USD 100 a month for a group or USD
 
 Hampshire County Council, Portsmouth, Southampton and academies set their own dates. We fit lesson breaks around your school's calendar.
 
+More UK pages
+
 ## Beyond Hampshire
 
 City pages for [Southampton](/best-coding-class-in-southampton), [Portsmouth](/best-coding-class-in-portsmouth) and [Winchester](/best-coding-class-in-winchester) each have their own project; [Dorset](/coding-classes-in-dorset) and [Berkshire](/coding-classes-in-berkshire) are neighbouring counties. The [UK hub](/coding-classes-in-united-kingdom) links the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20lesson%20for%20a%20learner%20in%20Hampshire.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-hampshire](https://learn.modernagecoders.com/coding-classes-in-hampshire#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-hampshire*

@@ -12,7 +12,7 @@ Jodhpur Park · South Kolkata · 700068
 
 Modern Age Coders runs premium, 100% live online coding and mathematics classes for families near Jodhpur Park, Kolkata. We teach Python, Java, AI and machine learning, web development and school maths in batches of 15–20, led by full-time software engineers and maths graduates, never pre-recorded video. Children near Rabindra Sarobar learn real, project-based skills from home, skipping the Gariahat coaching commute entirely. Book a free live demo today.
 
-100% Live · Never RecordedSmall Batches (max 20)ICSE · CBSE · WBBSETaught by Working Engineers[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)75–90 minSaved per class day vs Gariahat travel6–8Max students per live batch₹1,499Starting fee per month24 hrsFrom demo to your first classLive Online · Jodhpur Park, Kolkata
+100% Live · Never RecordedBatches (max 20)ICSE · CBSE · WBBSETaught by Working Engineers[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)75–90 minSaved per class day vs Gariahat travel15–20Max students per live batch₹1,499Starting fee per month24 hrsFrom demo to your first classLive Online · Jodhpur Park, Kolkata
 
 ## At a glance
 

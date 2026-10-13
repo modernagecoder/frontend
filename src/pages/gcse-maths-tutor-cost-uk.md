@@ -14,7 +14,7 @@ UK cost guide · GCSE maths · updated October 2026
 
 Below: the published rate for each way of buying GCSE maths help, the six things that move the price, the fees families tend to miss, and our planning guide to how many hours a GCSE year actually needs. Every market figure names its source.
 
-[Book a free first lesson](/book-demo)[Book a Priority Demo](/priority-demo)[See the GCSE maths course](/courses/gcse-mathematics-mastery)4.9/5across 547 Google reviews$12.50per live lesson in a group$18.75per live lesson, one-to-one0enrolment fees or contractsWhat the money buys
+[Book a free first lesson](/book-demo?subject=maths)[Book a Priority Demo](/priority-demo)[See the GCSE maths course](/courses/gcse-mathematics-mastery)4.9/5across 547 Google reviews$12.50per live lesson in a group$18.75per live lesson, one-to-one0enrolment fees or contractsWhat the money buys
 
 ## The courses behind the price
 
@@ -135,7 +135,7 @@ Groups hold 15 to 20 learners at a similar level and board.
 
 One student, one tutor, a shared whiteboard and their own papers.
 
-[Years 10 and 11GCSE Maths course](/courses/gcse-mathematics-mastery)[IGCSE schoolsIGCSE Maths course](/courses/igcse-mathematics-mastery)[Years 7 to 9KS3 Maths Tuition](/ks3-maths-tuition-online)[AdultsGCSE Maths Resit for Adults](/online-maths-classes-for-adults-in-uk)Where we sit
+[CompareGroup vs One-to-One Tuition](/group-vs-one-to-one-maths-tuition)[Years 10 and 11GCSE Maths course](/courses/gcse-mathematics-mastery)[IGCSE schoolsIGCSE Maths course](/courses/igcse-mathematics-mastery)[Years 7 to 9KS3 Maths Tuition](/ks3-maths-tuition-online)[AdultsGCSE Maths Resit for Adults](/online-maths-classes-for-adults-in-uk)Where we sit
 
 ## What you get for the price
 
@@ -150,9 +150,9 @@ $150 / month
 - Taught to your board and tier, with past papers
 - No enrolment fee, stop at any month end
 
-[Book a free first lesson](/book-demo)
+[Book a free first lesson](/book-demo?subject=maths)
 
-### Group GCSE maths
+### Small-group GCSE maths
 
 $100 / month
 
@@ -221,7 +221,7 @@ Yes. Adults resitting GCSE maths are taught on the same live format, at a time t
 
 Can we try a lesson before paying for a month?
 
-Yes. The [first lesson is free](/book-demo) and needs no card. If you would rather have a class today or tomorrow, [book a Priority Demo](/priority-demo): a full class of about 45 to 60 minutes, followed by a written skill report and a learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
+Yes. The [first lesson is free](/book-demo?subject=maths) and needs no card. If you would rather have a class today or tomorrow, [book a Priority Demo](/priority-demo): a full class of about 45 to 60 minutes, followed by a written skill report and a learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Why do you show prices in US dollars?
 
@@ -231,7 +231,7 @@ We are an online school teaching families in more than 25 countries and we bill 
 
 Bring a recent paper or mock. In the free first lesson the tutor shows where the marks are leaking and what a term of work would fix. No card needed.
 
-[Book a free first lesson](/book-demo)[Book a Priority Demo](/priority-demo)Keep reading
+[Book a free first lesson](/book-demo?subject=maths)[Book a Priority Demo](/priority-demo)Keep reading
 
 ## More on maths tuition and what it costs
 

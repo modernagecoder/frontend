@@ -4,46 +4,32 @@ description: "Live online AI and programming classes for Bathurst teens and adul
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-bathurst
 source: src/pages/ai-and-programming-classes-in-bathurst.html
 ---
-> One that teaches you to build models and to question them, using real Australian data and a live teacher who checks your reasoning. Bathurst's urban area counted 37,396 residents in 2021. Classes run online, privately or with a handful of learners at your level, and the first one is free.
+> Live online AI and programming classes for Bathurst teens and adults: Python, models, forecasting and honest data. Small groups or one to one, first class free.
 
-[Home](/) / [New South Wales](/coding-and-ai-classes-in-new-south-wales) / [Australia](/coding-classes-in-australia) / Bathurst
-
-Bathurst, Central West New South Wales / Live online
-
-# AI and programming classes in Bathurst
-
-**What makes the best AI and programming class for a Bathurst learner?** One that teaches you to build models and to question them, using real Australian data and a live teacher who checks your reasoning. Bathurst's urban area counted 37,396 residents in 2021. Classes run online, privately or with a handful of learners at your level, and the first one is free.
-
-The ABS publishes an estimated resident population for the Bathurst council area every year: 35,504 in 2001, then a rise in every single year to 45,359 in 2025. Ask a program, or a chatbot, when that population will double and you get a confident year. Our Bathurst learners compute it three ways, with the exact formula, the rule of 70 and the rule of 72, and then repeat the calculation over different windows. Using 2001 to 2010 the doubling time is 58.7 years; using 2016 to 2025 it is 87.7. Same city, same official series, a thirty-year spread that depends entirely on a choice the answer never mentions.
-
-Facts last verified 9 October 2026. Teaching is online; no Bathurst branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentAI and programming picks for Bathurst
 
 ## Courses that suit Bathurst teens and adults
 
 Four starting points for the work on this page. The free trial lesson decides which, and no card is ever requested.
 
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Models from data, how they predict, and how to test whether a prediction deserves trust.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python fundamentals with real government data series from the first month.
-- [Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college) (University and adult): Machine learning, evaluation and the limits of extrapolation, built in Python.
-- [Statistics & Probability](/courses/statistics-probability-maths-course) (Any age with algebra): Growth rates, logarithms and the maths behind doubling rules.
+[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensModels from data, how they predict, and how to test whether a prediction deserves trust.See the syllabus](/courses/ai-ml-masterclass-teens)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython fundamentals with real government data series from the first month.See the syllabus](/courses/python-complete-masterclass-teens)[![Artificial Intelligence Course course thumbnail](/images/ai-college.webp)University and adultArtificial Intelligence CourseMachine learning, evaluation and the limits of extrapolation, built in Python.See the syllabus](/courses/artificial-intelligence-complete-masterclass-college)[![Statistics & Probability course thumbnail](/images/statistics-probability-maths.webp)Any age with algebraStatistics & ProbabilityGrowth rates, logarithms and the maths behind doubling rules.See the syllabus](/courses/statistics-probability-maths-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Bathurst in the Census
 
 ## A Central West city of 37,396
 
 2021 Census QuickStats for the Bathurst urban area, compared with New South Wales and Australia where the bureau reports both.
 
-**The Bathurst urban area at the 2021 Census**
-
 | Item | Bathurst | New South Wales | Australia |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Residents | 37,396 | Not reported | Not reported |
 | Median age | 37 | Not reported | Not reported |
 | Families | 9,564 | Not reported | Not reported |
@@ -66,14 +52,14 @@ The Census counted 3,365 professionals and 2,438 technicians and trades workers 
 
 Small census cells are lightly adjusted by the ABS to protect privacy, so table pieces may not add exactly to published totals. Every value here is the published one, and no total on this page is our own sum.
 
+Signature project
+
 ## When will Bathurst's population double, and why do three honest methods disagree?
 
 The ABS estimated resident population for the Bathurst council area, 2001 to 2025, read through the ABS Data API.
 
-**Doubling time by data window (our calculation from ABS estimates)**
-
 | Years used | Average yearly growth | Exact doubling time | Rule of 70 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 2001 to 2025 | 1.026% | 67.9 years | 68.2 years |
 | 2001 to 2010 | 1.188% | 58.7 years | 58.9 years |
 | 2010 to 2020 | 0.960% | 72.5 years | 72.9 years |
@@ -98,14 +84,14 @@ The three formulas agree to within two years. The choice of years does not: grow
 
 Two geographies are in play and the page keeps them apart. The census table describes the Bathurst urban area, 37,396 people in 2021; the growth series is the ABS estimate for the whole Bathurst council area, which includes villages beyond the city and stood at 43,674 in 2021. Neither number is derived from the other.
 
+Rules of thumb in code
+
 ## When a shortcut is good enough, and when it breaks
 
 Learners code the exact doubling formula and the shortcuts, then find where the shortcuts fail.
 
-**Rule of 70 against the exact doubling time (our calculation)**
-
 | Growth rate | Exact | Rule of 70 | Error |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1% | 69.66 years | 70.0 years | +0.49% |
 | 5% | 14.21 years | 14.0 years | -1.45% |
 | 10% | 7.27 years | 7.0 years | -3.75% |
@@ -127,6 +113,8 @@ Check any growth claim in a report by asking which years it used and recomputing
 
 Modern Age Coders has no connection with the ABS. The population estimates and census counts are the bureau's; the growth rates, doubling times and errors are our own calculations.
 
+Around Bathurst
+
 ## The 2027 school year and summer time
 
 Local timing that shapes when Bathurst learners fit in lessons.
@@ -143,16 +131,41 @@ The final term of 2027 runs from Tuesday 12 October to Monday 20 December.
 
 Bathurst follows Sydney time, which the IANA database moves forward in early October and back in early April.
 
-**An afternoon slot in India** A 5pm Bathurst lesson falls at 12:30pm India time in winter and 11:30am in summer, comfortably within our teachers' working day.
+An afternoon slot in India
+
+A 5pm Bathurst lesson falls at 12:30pm India time in winter and 11:30am in summer, comfortably within our teachers' working day.
+
+Learning ladder
 
 ## From a first formula in Python to models you can defend
 
 The ages are approximate; the free lesson places each learner properly.
 
-- **Ages 13 to 14: Rates and loops** Growing a number year by year in a loop, then spotting when it doubles. [Python for Teens](/courses/python-complete-masterclass-teens), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 15 to 18: Logs and models** Logarithms, fitted growth rates and the doubling-window table on real ABS data. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Statistics & Probability](/courses/statistics-probability-maths-course)
-- **University: Forecasting honestly** Fitting, validating and stating the assumptions behind any projection. [Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college), [Data Science Course](/courses/data-science-complete-masterclass-college)
-- **Adults: Checking claims** Recomputing growth and doubling figures from source before passing them on. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 13 to 14
+
+### Rates and loops
+
+Growing a number year by year in a loop, then spotting when it doubles.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Maths Through Coding](/courses/maths-through-coding)Ages 15 to 18
+
+### Logs and models
+
+Logarithms, fitted growth rates and the doubling-window table on real ABS data.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Statistics & Probability](/courses/statistics-probability-maths-course)University
+
+### Forecasting honestly
+
+Fitting, validating and stating the assumptions behind any projection.
+
+[Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college)[Data Science Course](/courses/data-science-complete-masterclass-college)Adults
+
+### Checking claims
+
+Recomputing growth and doubling figures from source before passing them on.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## Why does an AI give one confident doubling year when the data supports a thirty-year range?
 
@@ -164,30 +177,139 @@ Our Bathurst learners build the window table themselves, then use an assistant t
 
 A Bathurst teenager who has watched a doubling date slide by three decades with the data window will read every AI forecast more carefully in 2026, and that habit starts with writing the code. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Kelso to Eglinton, one live classroom
 
 The city and its surrounding villages are all an equal distance from an online lesson.
 
-- **Across the council area** A learner in Kelso and another in Eglinton can join the same lesson without travelling at all.
-- **NSW stages and years** Teachers work with NSW year levels and the HSC, and every lesson is taught in English.
-- **Trial first** You build something real with a teacher, then hear a suggested level, course and time, with no payment details requested.
-- **Groups** Fifteen to twenty learners at one level, drawn from Bathurst, the rest of Australia and abroad.
-- **Two a week, mostly** Around eight lessons a month, with exam periods and holidays agreed in advance.
-- **University schedules** Evening and weekend slots suit students and working adults as well as school learners.
+### Across the council area
 
-**Lesson times stated for Bathurst** Bookings are confirmed in Bathurst time, so the October and April clock changes never move a lesson for the learner.
+A learner in Kelso and another in Eglinton can join the same lesson without travelling at all.
+
+### NSW stages and years
+
+Teachers work with NSW year levels and the HSC, and every lesson is taught in English.
+
+### Trial first
+
+You build something real with a teacher, then hear a suggested level, course and time, with no payment details requested.
+
+### Groups
+
+Fifteen to twenty learners at one level, drawn from Bathurst, the rest of Australia and abroad.
+
+### Two a week, mostly
+
+Around eight lessons a month, with exam periods and holidays agreed in advance.
+
+### University schedules
+
+Evening and weekend slots suit students and working adults as well as school learners.
+
+Lesson times stated for Bathurst
+
+Bookings are confirmed in Bathurst time, so the October and April clock changes never move a lesson for the learner.
+
+Fees
 
 ## What AI and programming classes cost in Bathurst
 
 Three numbers, nothing hidden.
 
-- First class: USD 0. A free trial lesson that ends with a suggested level, course and time.
-- Group tuition: USD 100 a month. A month of group lessons, usually eight, with fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. Roughly eight private lessons each month with the same teacher.
+First class**USD 0**
+
+A free trial lesson that ends with a suggested level, course and time.
+
+Group tuition**USD 100**
+
+A month of group lessons, usually eight, with fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+Roughly eight private lessons each month with the same teacher.
 
 Bathurst learners are charged in US dollars at the single national rate, with no surcharge for the Central West. Payment begins only once the trial has set a course and a weekly time; holiday breaks, absences and switching between group and private are explained on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20and%20programming%20class%20for%20a%20learner%20in%20Bathurst.)Reviews
+
+## Unedited Google reviews from our learners and families
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us what the learner wants to build
+
+The first lesson is planned around the answer: a growth loop in Python for a Year 9 beginner, the doubling-window table for a Year 11 student, or a forecasting check for an adult.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Bathurst one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20and%20programming%20class%20for%20a%20learner%20in%20Bathurst.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Bathurst AI and programming questions
+
+Questions Bathurst learners and parents raise most often.
 
 ### How many people live in Bathurst?
 
@@ -229,10 +351,14 @@ The first lesson is free. After that a group place is USD 100 a month for two li
 
 Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
+Explore New South Wales
+
 ## More for Bathurst and NSW learners
 
 For AI more broadly there is [AI courses for kids in Australia](/ai-courses-for-kids-australia) and [learning to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-australia). Senior students may want [HSC Maths Standard tutoring](/hsc-maths-standard-tutoring), and the overview for the state is [coding and AI classes in New South Wales](/coding-and-ai-classes-in-new-south-wales).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20and%20programming%20class%20for%20a%20learner%20in%20Bathurst.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-bathurst](https://learn.modernagecoders.com/ai-and-programming-classes-in-bathurst#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-bathurst*

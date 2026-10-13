@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes across Limburg, ages 6 t
 canonical: https://learn.modernagecoders.com/coding-classes-in-limburg
 source: src/pages/coding-classes-in-limburg.html
 ---
-> Coding classes in Limburg cover 1,138,374 people in 31 municipalities (Statistics Netherlands, 1 January 2026), a province that has grown by 8,324 people in thirty-one years and shares more border with Belgium and Germany than with the rest of the country. Its Vaalserberg, 322.4 metres above NAP, is the highest point of the European Netherlands, and stopped being the highest point of the Netherlands on 10 October 2010 without moving. Wherever in the province the laptop is, Modern Age Coders teaches the same live online class in English for learners from 6 to 67, the first lesson without charge, then USD 100 a month for a group of fifteen to twenty or USD 150 for private tuition.
+> Live online coding, Python and AI classes across Limburg, ages 6 to 67: Maastricht, Venlo, Sittard-Geleen, Heerlen, Roermond, Weert and all 31 municipalities.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Limburg
-
-Province of Limburg / Live online
-
-# Coding classes in Limburg, home of the highest point in the Netherlands, unless you count all of the Netherlands
-
-**What are the best coding classes in Limburg?** Coding classes in Limburg cover 1,138,374 people in 31 municipalities (Statistics Netherlands, 1 January 2026), a province that has grown by 8,324 people in thirty-one years and shares more border with Belgium and Germany than with the rest of the country. Its Vaalserberg, 322.4 metres above NAP, is the highest point of the European Netherlands, and stopped being the highest point of the Netherlands on 10 October 2010 without moving. Wherever in the province the laptop is, Modern Age Coders teaches the same live online class in English for learners from 6 to 67, the first lesson without charge, then USD 100 a month for a group of fifteen to twenty or USD 150 for private tuition.
-
-Every Limburg schoolchild is told that the highest point in the Netherlands is in Vaals. It was, until the morning the country grew to include an island in the Caribbean with a mountain nearly three times as tall. Nothing about the hill changed; the definition of the country did. A child who can build the program that answers "highest point of what?" has learned to ask the question that most tables never state.
-
-Facts last verified 7 September 2026. Teaching is online; no Limburg branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Limburg
 
 ## Four courses for a province that is a long road between two countries
 
 A groep 5 child in Weert, a teenager in Sittard who wants the phone in her pocket to run her own app, a Maastricht student, and a working parent in Venlo who wants the spreadsheet to explain itself: four doors along one road.
 
-- [Microsoft Office for Kids](/courses/microsoft-office-kids-mastery) (Ages 8 to 12): Word, PowerPoint and Excel done properly, in English, for the groep 5 to 8 child who is about to be asked for a werkstuk with a chart in it.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): From a blank file to advanced Python across two years, for the teenager whose school in Heerlen or Roermond does not timetable informatica.
-- [Kotlin and Android Course](/courses/complete-kotlin-programming-masterclass-professional) (College and adult): Kotlin and Android to a published-ready app, for the student or professional who wants something on a real phone by the end.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): Excel, Sheets and Power BI with AI for the parent whose job in Venlo logistics or Geleen chemicals is a dashboard nobody built for them.
+[![Microsoft Office for Kids course thumbnail](/images/microsoft-office-kids.webp)Ages 8 to 12Microsoft Office for KidsWord, PowerPoint and Excel done properly, in English, for the groep 5 to 8 child who is about to be asked for a werkstuk with a chart in it.See the syllabus](/courses/microsoft-office-kids-mastery)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensFrom a blank file to advanced Python across two years, for the teenager whose school in Heerlen or Roermond does not timetable informatica.See the syllabus](/courses/python-complete-masterclass-teens)[![Kotlin and Android Course course thumbnail](/images/kotlin-college.webp)College and adultKotlin and Android CourseKotlin and Android to a published-ready app, for the student or professional who wants something on a real phone by the end.See the syllabus](/courses/complete-kotlin-programming-masterclass-professional)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)Excel, Sheets and Power BI with AI for the parent whose job in Venlo logistics or Geleen chemicals is a dashboard nobody built for them.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Limburg today
 
 ## A million people who have been a million people since 1995
 
@@ -52,7 +40,11 @@ Maastricht at 126,026 is the capital and the largest; Venlo at 104,195, Sittard-
 
 Limburg touches Belgium along its whole western flank and Germany along its whole eastern one; at its narrowest the province is a few kilometres wide. Aachen is nearer to Vaals than Maastricht is, and Düsseldorf is nearer to Venlo than Eindhoven.
 
-**Three Limburgs** The province divides itself into Zuid-Limburg, the hills and the old mines around Maastricht, Heerlen and Sittard; Midden-Limburg, the Maas valley around Roermond and Weert; and Noord-Limburg, the logistics and horticulture country around Venlo. They share a dialect family and a flag and not much of a commute.
+Three Limburgs
+
+The province divides itself into Zuid-Limburg, the hills and the old mines around Maastricht, Heerlen and Sittard; Midden-Limburg, the Maas valley around Roermond and Weert; and Noord-Limburg, the logistics and horticulture country around Venlo. They share a dialect family and a flag and not much of a commute.
+
+The spread
 
 ## From Mook to Vaals: all 31 municipalities, by population
 
@@ -84,6 +76,8 @@ It is not growing, and this page does not pretend otherwise: 8,324 more people i
 
 All 31 are above. Maastricht, Venlo, Sittard-Geleen, Heerlen and Roermond already have city pages that go close; this one stays at the scale where Mook and Vaals are both in view.
 
+Verified local facts
+
 ## Every figure on this page, with its office and its date
 
 Including the two heights the project is built on, and the discrepancy between two sources on one of them.
@@ -114,6 +108,8 @@ Limburg takes its school holidays with regio Zuid, alongside Noord-Brabant, Zeel
 
 Neither the province, nor its 31 municipalities, nor any school in them has any connection to Modern Age Coders, and this page implies none. They are listed because a page claiming to serve Limburg should be able to say where Limburg ends.
 
+Signature project
+
 ## What is the highest point in the Netherlands? Build the program that shows the answer depends on what the Netherlands is
 
 Two hills, three definitions of one country, and a date on which the answer changed while every hill stayed where it was.
@@ -130,10 +126,8 @@ The European Netherlands: the twelve provinces, highest point the Vaalserberg at
 
 Fed the country as it was on 9 October 2010, the function returns Vaals. Fed the country as it was the next morning, it returns Saba. No survey was taken and no hill moved. The scope changed, and a fact that every Limburg child had learned became true only with a qualifier attached.
 
-**The highest point, by what is taken to be the Netherlands**
-
 | Scope | Members | Highest point | Height | True since |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | The European Netherlands | the twelve provinces | Vaalserberg, Vaals, Limburg | 322.4 m above NAP | always |
 | The country of the Netherlands | twelve provinces plus Bonaire, Sint Eustatius and Saba | Mount Scenery, Saba | 870 m (887 m in other sources) | 10 October 2010 |
 | The Kingdom of the Netherlands | the country plus Aruba, Curacao and Sint Maarten | Mount Scenery, Saba | 870 m (887 m in other sources) | before and after |
@@ -143,14 +137,14 @@ Fed the country as it was on 9 October 2010, the function returns Vaals. Fed the
 
 Highest, largest, oldest, first: each of these is computed over a set, and the set is usually left unstated because everyone assumes they share it. The Vaalserberg shows how quietly that assumption can break: the hill is the same, the sentence is the same, and the truth of the sentence turned on a constitutional act in another hemisphere. A learner who has written the function with the scope as an explicit argument will ask "of what, exactly?" of every national statistic they meet, and will find that the answer is often missing. The table was computed before this paragraph was written; both heights are quoted as published, with the discrepancy on one of them stated rather than resolved.
 
+Reliable pipeline
+
 ## Five habits for any figure computed over a set nobody named
 
 National totals, company-wide maxima, "the best in the region": each is a function of a set, and the set is the part that gets left out. Rehearsed first on the province's own hill.
 
-**When the answer depends on the membership**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Name the set | Make the scope an explicit argument, never a default | A highest point with no "of what" | A function that can be called honestly |
 | Date the set | Membership changes; record when the set was as it was | A 2009 fact quoted in 2026 | A fact with a valid-from date |
 | List the members | Enumerate them; "the Netherlands" is twelve provinces or fifteen units | Saba forgotten, or counted twice | A set you can check |
@@ -171,14 +165,37 @@ The same program on "our largest office", "the company record" or "the regional 
 
 The provincial totals, the 31 municipal populations, the areas, the two heights and the date of the reform are published by the offices and the encyclopaedia entries named in the sentences that use them. The table is a re-arrangement of published facts by scope and derives nothing.
 
+Learning ladder
+
 ## From a rope on a table to a function with its scope as an argument
 
 The rung is found in the free lesson; which of the three Limburgs the laptop is in has no bearing.
 
-- **Ages 6 to 10: Inside the rope** Children find the tallest of whatever is inside a boundary, then watch the boundary move. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Microsoft Office for Kids](/courses/microsoft-office-kids-mastery)
-- **Ages 11 to 13: A maximum over a list** Learners write a function that takes a list and returns its largest member, and feed it two lists. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 14 to 18: Scope as an argument** Teenagers make the set explicit, date it, and find other facts that changed with it. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Sets at work** Adults recover the membership behind a company-wide superlative and re-run it. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Kotlin and Android Course](/courses/complete-kotlin-programming-masterclass-professional)
+Ages 6 to 10
+
+### Inside the rope
+
+Children find the tallest of whatever is inside a boundary, then watch the boundary move.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Microsoft Office for Kids](/courses/microsoft-office-kids-mastery)Ages 11 to 13
+
+### A maximum over a list
+
+Learners write a function that takes a list and returns its largest member, and feed it two lists.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### Scope as an argument
+
+Teenagers make the set explicit, date it, and find other facts that changed with it.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Sets at work
+
+Adults recover the membership behind a company-wide superlative and re-run it.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Kotlin and Android Course](/courses/complete-kotlin-programming-masterclass-professional)Coding and AI
 
 ## An AI will say the highest point in the Netherlands is the Vaalserberg. Why should a child in Heerlen learn enough to argue?
 
@@ -190,30 +207,139 @@ That is what the class trains, and it is why the function is still written by th
 
 So for a Limburg parent the argument for coding in 2026 is not that the child will measure hills. It is that knowing every fact about a set depends on the set, that sets change by decree, and that the only way to learn it for good is to write the function and move the rope. The longer argument is in [is coding still worth learning in 2026, when AI writes it](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for a province that is ninety kilometres long and sometimes five wide
 
 Venlo to Maastricht is an hour on the A2 and a whole province; Vaals to Mook is longer. A class at the kitchen table in Weert or Gulpen does not need anyone to cover that distance.
 
-- **No A2, no A73** The lesson happens at home in Venray, Roermond or Kerkrade at a fixed hour, and the length of the province never enters into it.
-- **English, and the school's Dutch as it is** Groep, havo, vwo and profielkeuze are said the way the school says them; the lesson around them is in English, the language shared by the university families in Maastricht and the logistics families in Venlo.
-- **One free lesson, one decision** A task at the learner's level, then a named course and a starting rung, with no card taken to arrange it.
-- **Ability decides the group** What a learner can do and wants next; not whether they are north, middle or south.
-- **Two lessons a week on regio Zuid's calendar** Eight a month at one recurring time. Limburg breaks up with regio Zuid, alongside Brabant and Zeeland, and the summer weeks are agreed before the slot is fixed.
-- **Four and a half hours in winter, three and a half in summer** India keeps one clock and the Netherlands keeps two, so a Limburg afternoon sits that far behind the teacher's evening. Late afternoon, early evening and weekends suit both ends.
+### No A2, no A73
 
-**Two other countries are nearer than most of this one** From Vaals, Aachen is closer than Maastricht; from Venlo, the German border is closer than Eindhoven. A weekly class at home is the same class a family in Amsterdam gets, and it is the only version that does not involve a decision about which country to drive into.
+The lesson happens at home in Venray, Roermond or Kerkrade at a fixed hour, and the length of the province never enters into it.
+
+### English, and the school's Dutch as it is
+
+Groep, havo, vwo and profielkeuze are said the way the school says them; the lesson around them is in English, the language shared by the university families in Maastricht and the logistics families in Venlo.
+
+### One free lesson, one decision
+
+A task at the learner's level, then a named course and a starting rung, with no card taken to arrange it.
+
+### Ability decides the group
+
+What a learner can do and wants next; not whether they are north, middle or south.
+
+### Two lessons a week on regio Zuid's calendar
+
+Eight a month at one recurring time. Limburg breaks up with regio Zuid, alongside Brabant and Zeeland, and the summer weeks are agreed before the slot is fixed.
+
+### Four and a half hours in winter, three and a half in summer
+
+India keeps one clock and the Netherlands keeps two, so a Limburg afternoon sits that far behind the teacher's evening. Late afternoon, early evening and weekends suit both ends.
+
+Two other countries are nearer than most of this one
+
+From Vaals, Aachen is closer than Maastricht; from Venlo, the German border is closer than Eindhoven. A weekly class at home is the same class a family in Amsterdam gets, and it is the only version that does not involve a decision about which country to drive into.
+
+Fees
 
 ## Thirty-one municipalities, one dollar tariff, a free hour first
 
 Stated in full before a number is asked for.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 The international rate is one figure in US dollars with no euro edition, and Vaals pays what Venlo pays. The free lesson fixes the course and the hour first; payment follows on WhatsApp. Pauses, plan changes and missed lessons are on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Limburg.)Reviews
+
+## Six reviews from Google, word for word
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Send the level, and the town if you like
+
+The opening task might be toy hills and a rope, a Python function with the country as its argument, or a company record from work whose set of contenders nobody has checked in years.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Limburg one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Limburg.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Limburg coding class questions
+
+The province, its towns, the hill, the teaching and the terms.
 
 ### Is the Vaalserberg the highest point in the Netherlands or not?
 
@@ -255,10 +381,14 @@ The first lesson is free. Group tuition is USD 100 a month for two live lessons 
 
 Between five and ten, matched on level, pace and goal rather than on age, school or municipality. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.
 
+Explore the Netherlands
+
 ## North along the Maas, and up to the country
 
 The Maas leads north out of the province to [Gelderland](/coding-classes-in-gelderland), and the A2 west to [Eindhoven](/coding-classes-in-eindhoven), the nearest city page. Every page in this series descends from the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner who wants to build models rather than programs should open [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands). Maastricht, [Venlo](/coding-classes-in-venlo), [Sittard-Geleen](/coding-classes-in-sittard-geleen), [Heerlen](/coding-classes-in-heerlen) and [Roermond](/coding-classes-in-roermond) are built.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Limburg.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-limburg](https://learn.modernagecoders.com/coding-classes-in-limburg#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-limburg*

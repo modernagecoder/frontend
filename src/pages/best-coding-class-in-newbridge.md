@@ -4,53 +4,39 @@ description: "Live online coding, Python and AI lessons for Newbridge learners a
 canonical: https://learn.modernagecoders.com/best-coding-class-in-newbridge
 source: src/pages/best-coding-class-in-newbridge.html
 ---
-> Newbridge counts 24,253 usual residents in the census town tables and 8,308 households, 7,184 of them reporting broadband. Two evenings in a normal week, a teacher appears on video at the hour the household picked, and the learner works through the course either with a handful of others at the same stage or with nobody else present. Ages six to sixty-seven. The opening lesson is free. USD 100 a month buys a shared place after that, USD 150 a private one.
+> Live online coding, Python and AI lessons for Newbridge learners aged 6 to 67, taught live by a teacher in small ability groups or one to one. First lesson free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [County Kildare](/coding-classes-in-county-kildare) / Newbridge
-
-Newbridge, County Kildare / Live online
-
-# Coding classes in Newbridge
-
-**What is the best coding class in Newbridge?** Newbridge counts 24,253 usual residents in the census town tables and 8,308 households, 7,184 of them reporting broadband. Two evenings in a normal week, a teacher appears on video at the hour the household picked, and the learner works through the course either with a handful of others at the same stage or with nobody else present. Ages six to sixty-seven. The opening lesson is free. USD 100 a month buys a shared place after that, USD 150 a private one.
-
-Newbridge is a large town: 594 of its 11,031 working residents give a train as their main means of travel, and every figure on this page describes hundreds or thousands of people. The same column of the same table, read across all 867 towns in it, looks very different at the other end. In 260 of those towns, either the bicycle cell or the train cell holds exactly one person. The smallest town in the column has 33 working residents in total. One is not a statistic, it is somebody, and the moment a reader joins that table to anything else, or splits it by one more variable, the arithmetic stops being anonymous. That is the project on this page, and it is the part of data work most likely to matter in a learner's first job.
-
-Facts last verified 18 September 2026. Teaching is online; no Newbridge branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Newbridge
 
 ## Where Newbridge learners start
 
 Age and interest give a starting point; the free hour with the course teacher confirms it.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Block coding where a project decides what it is fair to show about other people.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Python from the start, including what a program should and should not store.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): Real data, small groups, and the habit of aggregating before publishing anything.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (College and adult): For adults handling customer or staff data where a small group is a named person.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlock coding where a project decides what it is fair to show about other people.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsPython from the start, including what a program should and should not store.See the syllabus](/courses/python-ai-kids-masterclass)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensReal data, small groups, and the habit of aggregating before publishing anything.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)College and adultData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For adults handling customer or staff data where a small group is a named person.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## A count of one is a person
 
 The Newbridge column beside the smallest entries in the same table. Counts are published; the tallies across all 867 towns were computed by us on 18 September 2026.
 
-**The two ends of one census column**
-
 | Area as labelled | Working residents | Cycling | Train, DART or Luas |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Newbridge, Co Kildare | 11,031 | 201 | 594 |
 | Dumha Thuama, Co Mayo | 33 | 0 | 1 |
 | Ballindrait, Co Donegal | 37 | 0 | 0 |
 | Malin, Co Donegal | 39 | 0 | 0 |
 | Dromineer, Co Tipperary | 43 | 0 | 0 |
-| Towns in the column with fewer than 200 working residents | 360 of 867 |  |  |
-| Towns whose cycling or train cell is exactly one person | 260 of 867 |  |  |
+| Towns in the column with fewer than 200 working residents | 360 of 867 |   |   |
+| Towns whose cycling or train cell is exactly one person | 260 of 867 |   |   |
 
 ### What a cell of one means
 
@@ -70,14 +56,14 @@ A class project that charts survey answers from one school year. A club dashboar
 
 The project is a guard rather than an analysis. The learner writes a function that takes a table and a minimum group size, returns the rows it would publish and the rows it would suppress, and prints a one-line reason for every suppression. Run across this census column at a threshold of five, it flags hundreds of rows in the smallest towns and none in Newbridge. The learner then applies the same function to a dataset of their own, which is where the lesson stops being about Mayo and Donegal and starts being about the people in their own file.
 
+Newbridge in the town tables
+
 ## The town itself
 
 Published for the built-up area Newbridge, Co Kildare, in the Census 2022 small area tables.
 
-**Newbridge, Census 2022**
-
 | Measured | Count |
-|---|---|
+| --- | --- |
 | Usual residents | 24,253 |
 | Households | 8,308 |
 | Households reporting broadband | 7,184 |
@@ -97,16 +83,18 @@ Of 6,603 journeys to school, college or childcare, 2,786 are as a car passenger,
 
 A separate table records 3,082 working residents doing at least some work at home, 6,916 who never do and 1,033 who did not state.
 
-**The station** Irish Rail gives Newbridge station as Station Road, Newbridge, Co. Kildare, Eircode W12 CP28, with the station and booking office open from 06:00 to midnight Monday to Saturday and from 09:00 to 23:00 on Sunday, a ticket machine, passenger shelters, and toilets listed as closed until further notice.
+The station
+
+Irish Rail gives Newbridge station as Station Road, Newbridge, Co. Kildare, Eircode W12 CP28, with the station and booking office open from 06:00 to midnight Monday to Saturday and from 09:00 to 23:00 on Sunday, a ticket machine, passenger shelters, and toilets listed as closed until further notice.
+
+Choosing a threshold
 
 ## What a minimum group size costs and buys
 
 The same column, counted at four candidate thresholds. Every figure here is our tally across the 868 town labels.
 
-**How many towns fall below a threshold on working residents**
-
 | Minimum group size | Towns below it | What is lost |
-|---|---|---|
+| --- | --- | --- |
 | 33 | None, this is the smallest town in the column | Nothing, and nothing is protected either |
 | 50 | A handful at the very bottom | Almost nothing, and the thinnest cells are still published |
 | 200 | 360 of 867 towns | Detail for two fifths of the places in the column |
@@ -124,7 +112,11 @@ At 11,031 working residents, no cell on this page comes close to identifying any
 
 The published table gives single-variable counts and nothing on this page claims to know how it was prepared. The duty being described is the reader's, from the moment they combine it with anything else.
 
-**A school in the town** Newbridge College gives its address as Newbridge, Co. Kildare, eircode W12C241, and describes itself as a co-educational voluntary secondary school established by the Dominican order in 1852, under the trusteeship of the Provincial of the Irish Province of Dominicans. We have no connection with it.
+A school in the town
+
+Newbridge College gives its address as Newbridge, Co. Kildare, eircode W12C241, and describes itself as a co-educational voluntary secondary school established by the Dominican order in 1852, under the trusteeship of the Provincial of the Irish Province of Dominicans. We have no connection with it.
+
+Learning in Newbridge
 
 ## How the lessons work
 
@@ -144,14 +136,37 @@ The adult courses cover Python, data and AI, and 3,082 working residents in this
 
 Irish Rail and Newbridge College are quoted from their own published pages, and we have no connection with either, nor with Kildare County Council. Riverbank Arts Centre refused automated requests on 18 September 2026, so nothing is quoted from it rather than taken from somewhere else. Census counts are Central Statistics Office figures printed as published, and the tallies across 868 town labels were computed by us from the same table on that date.
 
+Learning ladder
+
 ## From using data to handling it responsibly
 
 Ages are a guide; the free hour sets the level.
 
-- **Ages 6 to 10: Whose information is it** Projects that use made-up or public data rather than details about classmates. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Counting groups** Grouping and summarising in Python, and noticing when a group gets too small to show. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Publishing safely** Aggregation thresholds, suppression and what a join can accidentally reveal. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Data you are trusted with** Reporting on customers, staff or pupils without turning a summary into a profile. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### Whose information is it
+
+Projects that use made-up or public data rather than details about classmates.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Counting groups
+
+Grouping and summarising in Python, and noticing when a group gets too small to show.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Publishing safely
+
+Aggregation thresholds, suppression and what a join can accidentally reveal.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Data you are trusted with
+
+Reporting on customers, staff or pupils without turning a summary into a profile.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## Assistants will happily break a small group down further
 
@@ -163,30 +178,139 @@ A learner who has written the suppression guard adds the group size to the promp
 
 Tools will keep making analysis easier. Deciding what should not be published stays with the person, and it is worth learning early. The longer argument is in [why coding is a skill worth building](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Practical points for Newbridge families
 
 Six lines.
 
-- **Live teaching** A teacher present for the whole hour, working from what the learner is doing.
-- **Grouped by stage** Fifteen to twenty learners at one level, from Newbridge, the rest of Ireland and beyond.
-- **Two lessons weekly** About eight a month, at an hour agreed once at the start.
-- **Term dates** Mid-terms, holidays and exam weeks are planned in before lessons begin.
-- **What is needed** Something with a proper keyboard, a microphone the teacher can hear, and a connection that holds video.
-- **Private teaching** Some learners end up alone with a teacher, either because their stage is unusual or because the only suitable group meets at an impossible hour.
+### Live teaching
 
-**What we keep about a learner** A name, a contact, an age band and a level. We do not need more than that to teach somebody, and a page about small cells would look odd holding anything else.
+A teacher present for the whole hour, working from what the learner is doing.
+
+### Grouped by stage
+
+Fifteen to twenty learners at one level, from Newbridge, the rest of Ireland and beyond.
+
+### Two lessons weekly
+
+About eight a month, at an hour agreed once at the start.
+
+### Term dates
+
+Mid-terms, holidays and exam weeks are planned in before lessons begin.
+
+### What is needed
+
+Something with a proper keyboard, a microphone the teacher can hear, and a connection that holds video.
+
+### Private teaching
+
+Some learners end up alone with a teacher, either because their stage is unusual or because the only suitable group meets at an impossible hour.
+
+What we keep about a learner
+
+A name, a contact, an age band and a level. We do not need more than that to teach somebody, and a page about small cells would look odd holding anything else.
+
+Fees
 
 ## Newbridge class fees
 
 Three lines, all of it.
 
-- First class: USD 0. A full opening lesson, taught and assessed, at no charge.
-- Group tuition: USD 100 a month. A month in an ability group of fifteen to twenty, about eight live lessons.
-- Private tuition: USD 150 a month. A month of private teaching on the same weekly pattern.
+First class**USD 0**
+
+A full opening lesson, taught and assessed, at no charge.
+
+Group tuition**USD 100**
+
+A month in an ability group of fifteen to twenty, about eight live lessons.
+
+Private tuition**USD 150**
+
+A month of private teaching on the same weekly pattern.
 
 Fees are monthly, in US dollars, at the single rate for families outside India, so Newbridge sees the same figure as Naas or Celbridge with no euro list beside it. The first invoice waits on two decisions, which course and which hour, and both are made during the lesson that costs nothing. Term breaks, an absence and a switch from a group to private tuition are each written up on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Newbridge.)Reviews
+
+## Six of our families, printed from Google as they wrote it
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Newbridge lesson
+
+Give us the age and what holds their attention. We plan the opening hour from those two things, and it might end in a working game, a short program or a table nobody should publish as it stands.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Newbridge one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Newbridge.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Newbridge coding class questions
+
+What Newbridge families ask us first.
 
 ### How many people live in Newbridge?
 
@@ -228,10 +352,14 @@ The first lesson is free. After that a shared place costs USD 100 a month and br
 
 Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
+Explore Ireland
+
 ## Around Newbridge
 
 Other Kildare pages cover [Naas](/best-coding-class-in-naas), [Celbridge](/best-coding-class-in-celbridge) and [Maynooth](/best-coding-class-in-maynooth), inside [County Kildare](/coding-classes-in-county-kildare) and the province of [Leinster](/coding-and-ai-classes-in-leinster). Online schools are compared on our [comparison page](/best-online-coding-classes-ireland), and the [Ireland hub](/coding-classes-in-ireland) lists every page.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Newbridge.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-newbridge](https://learn.modernagecoders.com/best-coding-class-in-newbridge#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-newbridge*

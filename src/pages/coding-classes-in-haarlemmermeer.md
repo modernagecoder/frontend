@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes in Haarlemmermeer for ag
 canonical: https://learn.modernagecoders.com/coding-classes-in-haarlemmermeer
 source: src/pages/coding-classes-in-haarlemmermeer.html
 ---
-> Coding classes in Haarlemmermeer serve 166,978 people (Statistics Netherlands, 1 January 2026) living on the floor of a lake that was pumped dry on 1 July 1852. The municipality is named after the lake; its largest town is Hoofddorp, at 79,650 in 2023; and Schiphol sits inside its boundary at 3.35 metres below the national datum. About 800 million cubic metres of water were pumped out, and dividing that by the area does not give the lake's depth, because rain and seepage kept arriving while the pumps ran. Every village on the polder is taught by Modern Age Coders, live and online and in English, at any age between 6 and 67. There is no charge for the opening lesson; the months after it are USD 100 in a group of fifteen to twenty or USD 150 with the teacher alone.
+> Live online coding, Python and AI classes in Haarlemmermeer for ages 6 to 67, in Hoofddorp, Nieuw-Vennep, Badhoevedorp and Rijsenhout. First lesson free.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Haarlemmermeer
-
-Haarlemmermeer, Noord-Holland / Live online
-
-# Coding classes in Haarlemmermeer, where 800 million cubic metres will not tell you how deep the lake was
-
-**What are the best coding classes in Haarlemmermeer?** Coding classes in Haarlemmermeer serve 166,978 people (Statistics Netherlands, 1 January 2026) living on the floor of a lake that was pumped dry on 1 July 1852. The municipality is named after the lake; its largest town is Hoofddorp, at 79,650 in 2023; and Schiphol sits inside its boundary at 3.35 metres below the national datum. About 800 million cubic metres of water were pumped out, and dividing that by the area does not give the lake's depth, because rain and seepage kept arriving while the pumps ran. Every village on the polder is taught by Modern Age Coders, live and online and in English, at any age between 6 and 67. There is no charge for the opening lesson; the months after it are USD 100 in a group of fifteen to twenty or USD 150 with the teacher alone.
-
-Here is a question a child can attack with a calculator: how deep was the Haarlemmermeer? About 800 million cubic metres came out of it, and the municipality has 197.48 square kilometres of land, so the division gives 4.05 metres and the temptation is to stop there. The pumps ran for three years against rainfall and seepage, so a good part of that 800 million was water that arrived after the work began. The division answers a different question from the one asked, and knowing which question your arithmetic actually answered is the whole job.
-
-Facts last verified 7 September 2026. Teaching is online; no Haarlemmermeer branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Haarlemmermeer
 
 ## Four courses for a municipality with 25 villages and an airport
 
 A groep 5 child in Rijsenhout, a teenager in Nieuw-Vennep with an idea for an app, an adult in Hoofddorp whose employer runs on logistics software, and a parent in Badhoevedorp who has been asked to automate a weekly report: four doors on one polder.
 
-- [App Making for Kids](/courses/block-coding-app-development-masterclass) (Ages 8 to 12): Real apps built with blocks, in English, for the groep 5 to 8 child in Vijfhuizen or Zwanenburg who wants something that runs on the family phone.
-- [App Development for Teens](/courses/complete-app-development-masterclass-for-teens) (Ages 13 to 18): From an idea to an app on a real device, for the teenager whose school offers no route into building software.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Scripting, scraping and automation in Python, for the adult whose working week around the airport is a stack of repeated tasks.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): Excel, Sheets and Power BI with AI, for the parent whose reports are assembled by hand every Monday morning.
+[![App Making for Kids course thumbnail](/images/app-dev-kids.webp)Ages 8 to 12App Making for KidsReal apps built with blocks, in English, for the groep 5 to 8 child in Vijfhuizen or Zwanenburg who wants something that runs on the family phone.See the syllabus](/courses/block-coding-app-development-masterclass)[![App Development for Teens course thumbnail](/images/app-dev-teens.webp)Ages 13 to 18App Development for TeensFrom an idea to an app on a real device, for the teenager whose school offers no route into building software.See the syllabus](/courses/complete-app-development-masterclass-for-teens)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CourseScripting, scraping and automation in Python, for the adult whose working week around the airport is a stack of repeated tasks.See the syllabus](/courses/python-ai-automation-masterclass-college)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)Excel, Sheets and Power BI with AI, for the parent whose reports are assembled by hand every Monday morning.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Haarlemmermeer today
 
 ## A lake bed with 166,978 people on it, and the fastest growth in this series
 
@@ -52,7 +40,11 @@ The national register held 166,978 people on 1 January 2026, in 70,473 household
 
 The municipality carries the name of the lake. The lake was pumped dry on 1 July 1852 after a ring dike whose construction began in May 1840 and took eight years. Around 800 million cubic metres of water were moved by three steam pumping stations, the Leeghwater, the Lynden and the Cruquius.
 
-**The municipality and its largest town have different names** The municipality is Haarlemmermeer; its main town is Hoofddorp, which had 79,650 residents in 2023 and was named in 1868 after being founded in 1853, the year after the drainage. Anyone searching for the town by the municipality's name, or the reverse, is looking for the wrong thing, and this page uses both names deliberately throughout.
+The municipality and its largest town have different names
+
+The municipality is Haarlemmermeer; its main town is Hoofddorp, which had 79,650 residents in 2023 and was named in 1868 after being founded in 1853, the year after the drainage. Anyone searching for the town by the municipality's name, or the reverse, is looking for the wrong thing, and this page uses both names deliberately throughout.
+
+Where the learners are
 
 ## Hoofddorp, Nieuw-Vennep and the villages of the polder
 
@@ -84,6 +76,8 @@ Zwanenburg, Lisserbroek, Cruquius, Abbenes, Buitenkaag, Beinsdorp, Burgerveen, W
 
 Every one of them gets the same class at the same hour, and no village boundary has ever decided which group a learner joins.
 
+Verified local facts
+
 ## Every figure, its office, and the two things this page refuses to state
 
 The national count, the municipal entry, the drainage record, the airport, and the depth that no source gives.
@@ -114,6 +108,8 @@ No depth for the polder or the former lake below the datum was found in any sour
 
 Modern Age Coders has no connection to the municipality, the airport or any school named here and claims none. They are on the page because a page that says it teaches Haarlemmermeer should be able to say what Haarlemmermeer is standing on.
 
+Signature project
+
 ## How deep was the lake? Build the division, then find the assumption that breaks it
 
 Two published quantities, one obvious division, and an answer to a question nobody asked.
@@ -130,10 +126,8 @@ That division is only the lake's depth if every cubic metre pumped was standing 
 
 Every extra cubic metre of rain or seepage raises the total pumped without deepening the original lake, so the naive figure is an upper bound rather than an estimate. And the denominator is wrong in the other direction: the modern municipality is not the same shape as the historic lake, so 4.05 metres is a number produced by two mismatched inputs and answers neither question cleanly.
 
-**One division, and what each part of it actually is**
-
 | Element | Published value | What it really measures | Effect on the answer |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Water pumped | about 800 million cubic metres | a volume moved over several years | includes rain and seepage, so it is too large |
 | Area | 197.48 square kilometres of land | the modern municipality, not the historic lake | the wrong footprint, in an unknown direction |
 | The division | 4.05 metres | an upper bound on average depth at best | not a depth, and not stated as one |
@@ -143,14 +137,14 @@ Every extra cubic metre of rain or seepage raises the total pumped without deepe
 
 A volume divided by an area has the units of a length, and units are the weakest possible evidence that a calculation means anything. What makes the result a depth is a physical assumption, that nothing entered or left the system between the measurement of the volume and the moment being described, and here that assumption is plainly false: it rained for three years while the pumps ran. The habit worth carrying away is to write the assumption down beside the formula, in words, before running it, and then to ask which direction each violation pushes the answer. A learner who does that will produce fewer confident numbers and far more useful ones. The 4.05 metres was computed before this paragraph was written, from two published figures, and is presented as a demonstration of a flawed division rather than as a fact about the lake.
 
+Reliable pipeline
+
 ## Five habits for any figure you get by dividing one thing by another
 
 Cost per customer, litres per hectare, incidents per thousand hours, storage per user: every one is a quotient resting on an assumption about what stays constant. Practised on the water under the learner's own street.
 
-**When a quotient is about to become a conclusion**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Check the units, then ignore them | Matching units is necessary and nowhere near sufficient | Metres accepted as a depth | A reason to keep asking |
 | Write the assumption in words | State what must be true for the quotient to mean what you want | A hidden closed-system claim | A sentence a colleague can dispute |
 | Ask over what period | Distinguish a stock at a moment from a flow over time | A three-year total read as a standing volume | Two quantities kept apart |
@@ -171,14 +165,37 @@ The same treatment on a per-unit figure from work. Cost per customer computed fr
 
 The population, household, area, school, village, drainage and airport figures come from the offices and entries named beside them. The 4.05 metres, the 134,895 and the 32,083 are this page's arithmetic on those published figures and are labelled as arithmetic wherever they appear.
 
+Learning ladder
+
 ## From a tray of water to a quotient with its assumption written above it
 
 The starting rung comes out of the free hour, and which of the villages the learner lives in is not an input.
 
-- **Ages 6 to 10: The tray and the dripping bottle** Children measure a depth twice and find that the inflow changed the answer. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [App Making for Kids](/courses/block-coding-app-development-masterclass)
-- **Ages 11 to 13: Volume, area and a length** Learners divide in Python and write down what has to be true for the result to mean anything. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 14 to 18: Stocks, flows and bounds** Teenagers separate a volume held from a volume moved and report a bound rather than a value. [App Development for Teens](/courses/complete-app-development-masterclass-for-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Per-unit figures at work** Adults rebuild a cost-per-something so that numerator and denominator cover the same period and population. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### The tray and the dripping bottle
+
+Children measure a depth twice and find that the inflow changed the answer.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[App Making for Kids](/courses/block-coding-app-development-masterclass)Ages 11 to 13
+
+### Volume, area and a length
+
+Learners divide in Python and write down what has to be true for the result to mean anything.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### Stocks, flows and bounds
+
+Teenagers separate a volume held from a volume moved and report a bound rather than a value.
+
+[App Development for Teens](/courses/complete-app-development-masterclass-for-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Per-unit figures at work
+
+Adults rebuild a cost-per-something so that numerator and denominator cover the same period and population.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## An AI will divide 800 million by the area and hand you a depth. Why should a child in Hoofddorp learn to refuse it?
 
@@ -190,30 +207,139 @@ So the learner writes the assumption above the formula and then tests it. That i
 
 The case for a Haarlemmermeer child learning to code in 2026 is therefore not about polders. It is that a quotient is a claim about the world dressed as a fact about numbers, that the claim is usually unstated, and that writing it down before running the division is a habit best acquired on something local, physical and genuinely unresolved. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for twenty-five villages on one flat polder
 
 Rijsenhout to Zwanenburg crosses the whole municipality on straight roads with the wind across them, and Vijfhuizen looks to Haarlem while Badhoevedorp looks to Amsterdam. The lesson reaches all of it without anybody moving.
 
-- **No polder roads in the dark** Class happens at the kitchen table in Abbenes, Lisserbroek or Hoofddorp at a fixed weekly hour, whatever the wind is doing across the fields.
-- **The lesson is English; the school words are not** Instruction happens in English. Terms a Dutch school uses stay Dutch on purpose, so a teacher will say groep, havo, vwo or profielkeuze rather than reach for an equivalent, and no translating is done in either direction.
-- **What the first hour produces** Work that shows the real level, the name of a course that follows from it, and a slot in the week, all arranged without payment details.
-- **Grouped by stage, not by village** Two learners at the same point work together whether one is in Cruquius and the other in Nieuw-Vennep; two at different points do not.
-- **A fixed slot twice weekly, around the northern holidays** The rhythm is two lessons every week, which is eight in most months. School holidays here follow regio Noord, as they do across Noord-Holland, and any weeks a family will be away are written into the schedule before a time is confirmed.
-- **Winter puts an extra hour between the two countries** Because India never adjusts its clocks and the Netherlands does, the teacher sits four and a half hours ahead of the polder from late October and three and a half from late March. Usable slots begin once the school day ends and run into the evening, and Saturday and Sunday are open all day.
+### No polder roads in the dark
 
-**A municipality where the aircraft never stop and the schools are spread thin** Eleven secondary establishments serve 25 villages, so most teenagers here already travel to school. Adding an evening journey on top of that is what stops many families from starting anything, and it is precisely the cost a live online class removes.
+Class happens at the kitchen table in Abbenes, Lisserbroek or Hoofddorp at a fixed weekly hour, whatever the wind is doing across the fields.
+
+### The lesson is English; the school words are not
+
+Instruction happens in English. Terms a Dutch school uses stay Dutch on purpose, so a teacher will say groep, havo, vwo or profielkeuze rather than reach for an equivalent, and no translating is done in either direction.
+
+### What the first hour produces
+
+Work that shows the real level, the name of a course that follows from it, and a slot in the week, all arranged without payment details.
+
+### Grouped by stage, not by village
+
+Two learners at the same point work together whether one is in Cruquius and the other in Nieuw-Vennep; two at different points do not.
+
+### A fixed slot twice weekly, around the northern holidays
+
+The rhythm is two lessons every week, which is eight in most months. School holidays here follow regio Noord, as they do across Noord-Holland, and any weeks a family will be away are written into the schedule before a time is confirmed.
+
+### Winter puts an extra hour between the two countries
+
+Because India never adjusts its clocks and the Netherlands does, the teacher sits four and a half hours ahead of the polder from late October and three and a half from late March. Usable slots begin once the school day ends and run into the evening, and Saturday and Sunday are open all day.
+
+A municipality where the aircraft never stop and the schools are spread thin
+
+Eleven secondary establishments serve 25 villages, so most teenagers here already travel to school. Adding an evening journey on top of that is what stops many families from starting anything, and it is precisely the cost a live online class removes.
+
+Fees
 
 ## The fee, in dollars, in every village on the polder
 
 Printed here rather than saved for a phone call.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 Outside India there is one price and it is in dollars; no euro list exists, so Buitenkaag and Hoofddorp are quoted identically. Nothing is collected before the free lesson has settled a course and a time, and when it is collected it goes through WhatsApp. The pricing page covers what happens if a family pauses, switches plan or misses a week.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Haarlemmermeer.)Reviews
+
+## Six families, in the words they left on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Send the level; the village name is optional
+
+The first task might be a tray of water and a dripping bottle, a division in Python with its assumption written above it, or a cost-per-customer figure from work whose numerator and denominator cover different periods.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Haarlemmermeer one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Haarlemmermeer.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Haarlemmermeer coding class questions
+
+The municipality, its villages, its lake, the teaching and the terms.
 
 ### Is this page about Haarlemmermeer or Hoofddorp?
 
@@ -255,10 +381,14 @@ The first lesson is free. Group tuition is USD 100 a month for two live lessons 
 
 Between five and ten, matched on level, pace and goal rather than on age, school or village. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.
 
+Explore the Netherlands
+
 ## North to the capital, east to the city, and up to the country
 
 North across the ring dike is [Haarlem](/coding-classes-in-haarlem), the provincial capital, and east is [Amsterdam](/coding-classes-in-amsterdam); both sit inside [Noord-Holland](/coding-classes-in-noord-holland). Every page in this series grows out of the [Netherlands coding hub](/coding-classes-in-netherlands). For anyone whose interest is machine learning rather than software, the entry points are [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) and the [AI and Python Academy](/ai-and-python-academy-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Haarlemmermeer.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-haarlemmermeer](https://learn.modernagecoders.com/coding-classes-in-haarlemmermeer#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-haarlemmermeer*

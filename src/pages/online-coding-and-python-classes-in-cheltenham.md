@@ -4,46 +4,32 @@ description: "Live online coding, Python and AI lessons for Cheltenham children,
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-cheltenham
 source: src/pages/online-coding-and-python-classes-in-cheltenham.html
 ---
-> Cheltenham borough held 118,833 people when the 2021 census was taken; the ONS built-up area of Cheltenham, reaching slightly past the boundary, holds 115,940. People in their twenties and those over 80 are above the England share, and young children a little below it. Cheltenham learners from 6 to 67 can study coding, Python, AI and maths with our tutors in India over live video, alone or in classes of fifteen to twenty at one level. A free opening lesson points to the right course. The Cheltenham project reads a century-old biography of a headteacher remembered across the town. Afterwards, lessons cost USD 100 monthly as part of a small class, or USD 150 monthly one-to-one.
+> Live online coding, Python and AI lessons for Cheltenham children, teenagers and adults aged 6 to 67, one-to-one or in small groups. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South West England](/coding-and-ai-classes-in-south-west-england) / Cheltenham
-
-Cheltenham, Gloucestershire, England / Live online
-
-# Online coding and Python classes in Cheltenham
-
-**What are the best online coding and Python classes in Cheltenham?** Cheltenham borough held 118,833 people when the 2021 census was taken; the ONS built-up area of Cheltenham, reaching slightly past the boundary, holds 115,940. People in their twenties and those over 80 are above the England share, and young children a little below it. Cheltenham learners from 6 to 67 can study coding, Python, AI and maths with our tutors in India over live video, alone or in classes of fifteen to twenty at one level. A free opening lesson points to the right course. The Cheltenham project reads a century-old biography of a headteacher remembered across the town. Afterwards, lessons cost USD 100 monthly as part of a small class, or USD 150 monthly one-to-one.
-
-Elizabeth Helen Shillito records that a new college for girls opened in Cheltenham on 13 February 1854, in Cambray House, and that in 1858 it advertised for a Principal. The woman appointed, Dorothea Beale, led it until 1906, and a fuller biography by Elizabeth Raikes, Dorothea Beale of Cheltenham, runs to 146,461 words. Which pairs of words define that book? Count every pair of neighbouring words and the winner is "of the", which says nothing. Switch to a clever score called pointwise mutual information and the winners are pairs seen exactly once, some of them publisher's notes. The right answer needs a third step. A Cheltenham learner can build all three in Python and see why language tools need both statistics and judgement.
-
-Facts last verified 27 September 2026. Teaching is online; no Cheltenham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCheltenham starting points
 
 ## Courses Cheltenham learners pick first
 
 Choose by age and interest. The first live lesson in each is free, and booking asks for no card.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 9): Block coding with words, stories and matching games.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 9 to 12): Beginner Python with text, plus small AI projects.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Full Python for teenagers, including the word-pair project.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Adults and students): Adult Python from scratch, through text analysis and data.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 9Coding for KidsBlock coding with words, stories and matching games.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 9 to 12Python and AI for KidsBeginner Python with text, plus small AI projects.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensFull Python for teenagers, including the word-pair project.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)Adults and studentsPython MasterclassAdult Python from scratch, through text analysis and data.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Cheltenham borough
 
 ## Young adults and a long-lived town
 
 Nomis figures for six age bands, the borough beside the whole of England.
 
-**Selected ages in Cheltenham compared with England (TS007A, 2021)**
-
 | Age | Cheltenham residents | Cheltenham % | England % |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 5 to 9 | 6,378 | 5.4% | 5.9% |
 | 20 to 24 | 7,895 | 6.6% | 6.0% |
 | 25 to 29 | 8,134 | 6.8% | 6.6% |
@@ -57,16 +43,16 @@ The oldest residents stand well above the national share, as do people in their 
 
 Our [Gloucestershire](/coding-classes-in-gloucestershire) page covers the county; [South West England](/coding-and-ai-classes-in-south-west-england) gathers the region.
 
+The Cheltenham project
+
 ## Finding the word pairs that matter
 
 Raw counts, pointwise mutual information, and a minimum number of sightings.
 
 The learner downloads Raikes's biography from Project Gutenberg, removes the lines that hold web addresses, lower-cases every word and lists each pair of neighbouring words. The book produces 71,376 different pairs, and 76.2 per cent of them appear only once. The first scoring rule is simply to count. The top four are "of the" at 1,340, "in the" at 700, "to the" at 530 and "miss beale" at 514. Only the last tells you anything about the book; the others would top the list for almost any English text.
 
-**Our Python collocation scores for Dorothea Beale of Cheltenham, 27 September 2026**
-
 | Scoring rule | Top pairs | Score | Verdict |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Raw count | of the; in the; to the | 1,340; 700; 530 | Grammar, not meaning |
 | Pointwise mutual information, any pair | 273 pairs tied | 17.2 bits, each seen once | Rare accidents and editors' notes |
 | Mutual information, seen 5+ times | Joshua Fitch; Brantwood, Coniston | 14.1; 14.0 | Mostly names |
@@ -93,14 +79,14 @@ Compute pointwise mutual information, add a minimum count, and fix the tokeniser
 
 The text and facts come from Project Gutenberg editions of the biographies by Elizabeth Raikes and Elizabeth Helen Shillito. The word counts and scores are ours.
 
+Why Dorothea Beale
+
 ## A college that opened in Cambray House
 
 What the two biographies record about the early years.
 
-**The college's early years, from Shillito and Raikes (Project Gutenberg)**
-
 | Detail | What the books say |
-|---|---|
+| --- | --- |
 | Opened | 13 February 1854, in Cambray House (Shillito) |
 | End of the first year | 150 pupils (Shillito) or 120 (Raikes) |
 | End of 1857 | 89 pupils, in both books |
@@ -112,14 +98,37 @@ Collocations power much of the software that handles language. Search engines us
 
 Modern Age Coders has no link with Project Gutenberg, the college or the census office. The books and figures are theirs; the scoring, and any error in it, is ours.
 
+Stages
+
 ## From fish and chips to language models
 
 School years are only a guide; the trial settles the level.
 
-- **Years 1 to 4: Word games** Block coding with words, pairs and stories. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 5 to 8: Python and text** Strings, counting and dictionaries in Python. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Years 9 to 13: Language and AI** Text statistics and AI alongside GCSE and A level. [Python for Teens](/courses/python-complete-masterclass-teens), [High School Mathematics](/courses/complete-high-school-mathematics-mastery)
-- **Adults: Working with text** Adult Python for text and data projects. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Years 1 to 4
+
+### Word games
+
+Block coding with words, pairs and stories.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 5 to 8
+
+### Python and text
+
+Strings, counting and dictionaries in Python.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Years 9 to 13
+
+### Language and AI
+
+Text statistics and AI alongside GCSE and A level.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[High School Mathematics](/courses/complete-high-school-mathematics-mastery)Adults
+
+### Working with text
+
+Adult Python for text and data projects.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)AI and language
 
 ## How does an AI know which words go together?
 
@@ -131,30 +140,139 @@ A Cheltenham learner who has scored word pairs three ways can see why a model so
 
 Seeing the statistics behind the words is a strong reason for Cheltenham teenagers to keep learning to code in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How lessons work
+
 ## Across Cheltenham, by live video
 
 Every neighbourhood in the borough joins the same way.
 
-- **Student-led code** The learner types each program; the tutor follows the shared screen and prompts with questions.
-- **Placed with care** From Year 4 to Year 13, the starting topic comes from the school year and the trial, with the right exam board.
-- **A free first lesson** No charge for the trial, which ends with a named course and the reason for it.
-- **Classes at one stage** Fifteen to twenty learners from around the UK, all at the same level.
-- **Two lessons weekly** In term time; school holidays kept clear.
-- **Fixed lesson time** Our tutors adjust when UK clocks change.
+### Student-led code
 
-**Why groups meet online** Five Cheltenham learners at one stage, all free at the same hour, rarely live close together. Online classes solve that.
+The learner types each program; the tutor follows the shared screen and prompts with questions.
+
+### Placed with care
+
+From Year 4 to Year 13, the starting topic comes from the school year and the trial, with the right exam board.
+
+### A free first lesson
+
+No charge for the trial, which ends with a named course and the reason for it.
+
+### Classes at one stage
+
+Fifteen to twenty learners from around the UK, all at the same level.
+
+### Two lessons weekly
+
+In term time; school holidays kept clear.
+
+### Fixed lesson time
+
+Our tutors adjust when UK clocks change.
+
+Why groups meet online
+
+Five Cheltenham learners at one stage, all free at the same hour, rarely live close together. Online classes solve that.
+
+Fees
 
 ## Cheltenham fees
 
 Gloucestershire learners are billed at our standard international rate, identical everywhere except India.
 
-- First class: USD 0. A full lesson free of charge, with a course recommendation at the end.
-- Group tuition: USD 100 a month. About eight live small-group lessons per month.
-- Private tuition: USD 150 a month. About eight live one-to-one lessons per month.
+First class**USD 0**
+
+A full lesson free of charge, with a course recommendation at the end.
+
+Group tuition**USD 100**
+
+About eight live small-group lessons per month.
+
+Private tuition**USD 150**
+
+About eight live one-to-one lessons per month.
 
 Fees are in US dollars, never sterling. Billing waits for the free lesson to fix a course and a weekday time. Holiday breaks, sick days and moving between group and solo tuition are all covered under pricing.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20online%20coding%20or%20Python%20lesson%20for%20a%20learner%20in%20Cheltenham.)Reviews
+
+## Reviews from families on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Cheltenham lesson
+
+Give us an age or school year and one interest. A trial might be a Scratch word game, a first Python script, a small AI build, or scoring word pairs in an old book.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Cheltenham one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20online%20coding%20or%20Python%20lesson%20for%20a%20learner%20in%20Cheltenham.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Cheltenham questions
+
+Word pairs, local figures and lesson arrangements.
 
 ### What is the population of Cheltenham?
 
@@ -196,10 +314,14 @@ The opening lesson is free; after that a group place is USD 100 per month and pr
 
 Lessons pause for them; just send the calendar.
 
+Nearby
+
 ## More pages near Cheltenham
 
 For the county see our [Gloucestershire](/coding-classes-in-gloucestershire) page; [Ipswich](/best-coding-and-ai-classes-in-ipswich) builds a concordance of Pickwick, and [South West England](/coding-and-ai-classes-in-south-west-england) covers the region. The [UK hub](/coding-classes-in-united-kingdom) links every page.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20online%20coding%20or%20Python%20lesson%20for%20a%20learner%20in%20Cheltenham.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/online-coding-and-python-classes-in-cheltenham](https://learn.modernagecoders.com/online-coding-and-python-classes-in-cheltenham#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-cheltenham*

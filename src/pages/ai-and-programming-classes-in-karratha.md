@@ -4,37 +4,25 @@ description: "Live online AI and programming classes for Karratha teenagers and 
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-karratha
 source: src/pages/ai-and-programming-classes-in-karratha.html
 ---
-> Live lessons where a Karratha teenager or adult writes programs that calculate something checkable outside the window, and then tests what AI tools say against that result. The 2021 Census put the urban area at 17,013 residents. Lessons happen over video in a small group or one to one, and the opening lesson is free.
+> Live online AI and programming classes for Karratha teenagers and adults, with a project that calculates the two days a year the noon sun is directly overhead.
 
-[Home](/) / [Western Australia](/coding-and-ai-classes-in-western-australia) / [Australia](/coding-classes-in-australia) / Karratha
-
-Karratha, Pilbara, Western Australia / Live online
-
-# AI and programming classes in Karratha
-
-**What are the best AI and programming classes in Karratha?** Live lessons where a Karratha teenager or adult writes programs that calculate something checkable outside the window, and then tests what AI tools say against that result. The 2021 Census put the urban area at 17,013 residents. Lessons happen over video in a small group or one to one, and the opening lesson is free.
-
-Karratha lies north of the Tropic of Capricorn, which means that twice a year the noon sun climbs to the very top of the sky and shadows almost vanish beneath people's feet. Which two days? Take the latitude of the town from Main Roads WA's open road data, about 20.74 degrees south, and write a program that tracks the sun's declination through the year. It answers 17 January and 25 November. Use a popular one-line shortcut instead and November moves three days earlier. Feed degrees to a function expecting radians and the sun ends up on the wrong side of the sky. Karratha learners discover how much care hides inside a calculation that looks like a single line.
-
-Facts last verified 10 October 2026. Teaching is online; no Karratha branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Karratha
 
 ## Where Karratha learners usually start
 
 All four lead towards the sun project on this page. A free first lesson picks the right one, and card details are never requested.
 
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python basics, the math module and loops that step through every day of a year.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 11 to 16): Angles, trigonometry and graphs built with code instead of memorised.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Machine learning foundations, plus the habit of testing a model against known answers.
-- [Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college) (University and adult): AI from search and models to evaluation, with checks against physical ground truth.
+[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython basics, the math module and loops that step through every day of a year.See the syllabus](/courses/python-complete-masterclass-teens)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 11 to 16Maths Through CodingAngles, trigonometry and graphs built with code instead of memorised.See the syllabus](/courses/maths-through-coding)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensMachine learning foundations, plus the habit of testing a model against known answers.See the syllabus](/courses/ai-ml-masterclass-teens)[![Artificial Intelligence Course course thumbnail](/images/ai-college.webp)University and adultArtificial Intelligence CourseAI from search and models to evaluation, with checks against physical ground truth.See the syllabus](/courses/artificial-intelligence-complete-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Karratha in the Census
 
 ## A young Pilbara city of 17,013
 
@@ -42,10 +30,8 @@ Census figures for the Karratha urban area from 2021, set against Western Austra
 
 There were 17,013 people on Census night, with a median age of just 32. They formed 3,839 families in 7,610 private dwellings, at 2.8 people per household on average.
 
-**Karratha against WA and Australia (2021 Census shares)**
-
 | Share | Karratha | WA | Australia |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Technicians and trades workers (2,203 people) | 24.8% | 15.3% | 12.9% |
 | Professionals (1,348 people) | 15.2% | 22.0% | 24.0% |
 | Bachelor degree or above (2,111 people) | 16.9% | 23.8% | 26.3% |
@@ -65,14 +51,14 @@ The ABS estimate for the City of Karratha council area on 30 June 2025 is 25,429
 
 To protect privacy the ABS nudges Census cells by small random amounts, which means the pieces of a table seldom total exactly. We quote each value as published and never add rows together to make a total of our own.
 
+Signature project
+
 ## On which days is the noon sun straight over Karratha?
 
 Town latitude from Main Roads WA open data, the sun's position from published astronomical equations, and Python to bring them together.
 
-**What the calculation gives for latitude 20.74 degrees south (our code, 10 October 2026)**
-
 | Question | Careful method | Common shortcut or slip |
-|---|---|---|
+| --- | --- | --- |
 | First overhead day of 2026 | 17 January | 17 January (the one-line formula agrees) |
 | Second overhead day of 2026 | 25 November | 22 November (one-line formula) |
 | Sine of the tilt, 23.44 | 0.3978 (degrees) | -0.9926 (read as radians) |
@@ -97,14 +83,14 @@ Between those two dates the noon sun is actually south of overhead, so shadows a
 
 The equations are the NOAA solar calculator's, which follow Jean Meeus, with an obliquity of 23.4381 degrees for 2026; the shortcut is Cooper's 1969 sine formula. All results are our own calculations. In 2027 the same dates return, with the crossings at 18:37 on 17 January and 18:36 on 25 November.
 
+Checking a calculation
+
 ## Making a short formula trustworthy
 
 Learned on the sun over Karratha, then applied to physics simulations, navigation and any code built on angles.
 
-**Checks run on the Karratha sun program**
-
 | Check | How | Result |
-|---|---|---|
+| --- | --- | --- |
 | Known values | Declination at the solstices should be near plus and minus 23.44 degrees | The program reaches 23.44 both ways |
 | Units | Print sin(23.44) with and without converting to radians | A sign flip shows the slip at once |
 | Shortcut against full method | Run both for every day of 2026 and compare | Average gap 0.40 degree, worst 1.10 |
@@ -126,6 +112,8 @@ Any spreadsheet or script that handles angles, bearings or solar data benefits f
 
 Modern Age Coders is not linked to Main Roads Western Australia, the ABS, NOAA or the WA Government. Their data and equations remain theirs; the code and results on this page are our own.
 
+Around Karratha
+
 ## Western Australian time all year
 
 Local details that shape when a Karratha learner can join a live lesson.
@@ -142,16 +130,41 @@ India time is two and a half hours behind Karratha throughout the year, so after
 
 Sydney and Melbourne sit two hours ahead in winter and three hours ahead during their daylight saving.
 
-**Western Australian term dates** The WA Department of Education lists Term 4 of 2026 from Monday 12 October to Thursday 17 December, and Term 1 of 2027 from Monday 1 February to Friday 9 April. Lessons pause around these dates on request.
+Western Australian term dates
+
+The WA Department of Education lists Term 4 of 2026 from Monday 12 October to Thursday 17 December, and Term 1 of 2027 from Monday 1 February to Friday 9 April. Lessons pause around these dates on request.
+
+Learning ladder
 
 ## From angles on paper to models that answer to reality
 
 The bands are rough; the free lesson finds the actual start.
 
-- **Ages 11 to 14: Angles in code** Drawing shapes and shadows, converting degrees and seeing trigonometry move. [Maths Through Coding](/courses/maths-through-coding), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 15 to 18: Formulas and searches** Putting equations into functions, looping over a year and finding where a value is crossed. [Python for Teens](/courses/python-complete-masterclass-teens), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **University: Numerical methods and AI** Precision, root-finding and testing learned models against physical ground truth. [Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
-- **Adults: Calculations at work** Scripts and AI tools for technical work, checked before anyone acts on them. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college)
+Ages 11 to 14
+
+### Angles in code
+
+Drawing shapes and shadows, converting degrees and seeing trigonometry move.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 15 to 18
+
+### Formulas and searches
+
+Putting equations into functions, looping over a year and finding where a value is crossed.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)University
+
+### Numerical methods and AI
+
+Precision, root-finding and testing learned models against physical ground truth.
+
+[Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)Adults
+
+### Calculations at work
+
+Scripts and AI tools for technical work, checked before anyone acts on them.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college)Coding and AI
 
 ## Would an AI assistant put the sun in the right place?
 
@@ -163,30 +176,139 @@ Our Karratha learners use AI to draft the program, then check it against what th
 
 A Karratha learner who has caught a three-day error with a solstice check will spot the same quiet mistakes in any AI output, whatever arrives after 2026. The longer argument is in [how AI changes what young programmers should learn](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Pilbara distance, no disadvantage
 
 A live online class reaches Karratha as easily as it reaches Perth.
 
-- **Set in WA time** Lessons are scheduled on Western Australian time, which never shifts, so the slot is the same all year.
-- **Matched to WA year levels** Teachers follow the WA curriculum years, including ATAR students, and teach in English.
-- **A real first lesson** The free session is spent programming with a teacher; you then get a suggested course and time, and nobody asks for payment details.
-- **Groups of fifteen to twenty** Learners at one stage, gathered from several states and countries so a sensible hour exists.
-- **Two classes weekly** Roughly eight a month, with school holidays and exams planned around in advance.
-- **Swing shifts allowed for** Adults on rotating rosters can move between group times or choose one-to-one lessons.
+### Set in WA time
 
-**Times written for Karratha** Every lesson time is given in Western Australian time, so families never convert from the East Coast.
+Lessons are scheduled on Western Australian time, which never shifts, so the slot is the same all year.
+
+### Matched to WA year levels
+
+Teachers follow the WA curriculum years, including ATAR students, and teach in English.
+
+### A real first lesson
+
+The free session is spent programming with a teacher; you then get a suggested course and time, and nobody asks for payment details.
+
+### Groups of fifteen to twenty
+
+Learners at one stage, gathered from several states and countries so a sensible hour exists.
+
+### Two classes weekly
+
+Roughly eight a month, with school holidays and exams planned around in advance.
+
+### Swing shifts allowed for
+
+Adults on rotating rosters can move between group times or choose one-to-one lessons.
+
+Times written for Karratha
+
+Every lesson time is given in Western Australian time, so families never convert from the East Coast.
+
+Fees
 
 ## Fees for AI and programming classes in Karratha
 
 Three options, plainly.
 
-- First class: USD 0. A free lesson that ends with a level, a course and a time we suggest.
-- Group tuition: USD 100 a month. About eight group lessons a month with fifteen to twenty learners at your stage.
-- Private tuition: USD 150 a month. About eight one-to-one lessons a month with a dedicated teacher.
+First class**USD 0**
+
+A free lesson that ends with a level, a course and a time we suggest.
+
+Group tuition**USD 100**
+
+About eight group lessons a month with fifteen to twenty learners at your stage.
+
+Private tuition**USD 150**
+
+About eight one-to-one lessons a month with a dedicated teacher.
 
 Remote postcodes pay nothing extra: Karratha is charged the same US dollar fee as every other Australian town. No payment is taken until the trial has settled a course and slot; the pricing page covers breaks, missed lessons and changes of format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20and%20programming%20class%20for%20a%20learner%20in%20Karratha.)Reviews
+
+## Learner and parent reviews from Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Give us a few details and we will set up the free lesson
+
+We plan the opening exercise in advance: drawing an angle with code for a Year 7 beginner, the overhead-sun search for a Year 11 student, or a unit-checked solar model for an adult.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Karratha one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20and%20programming%20class%20for%20a%20learner%20in%20Karratha.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Karratha AI and programming questions
+
+Things Karratha families and adult learners ask before starting.
 
 ### How many people live in Karratha?
 
@@ -228,10 +350,14 @@ The first lesson is free. After that a group place costs USD 100 a month for two
 
 Between five and ten learners, matched on level, pace and goals rather than on age or postcode. When no group fits a workable time, one-to-one lessons are offered instead.
 
+More in Western Australia
+
 ## Other pages for northern and western WA
 
 Further down the coast there is [a Geraldton coding page](/best-coding-classes-in-geraldton), and inland [coding classes in Kalgoorlie](/best-coding-classes-in-kalgoorlie). Learners heading to the capital can read [online coding and Python in Perth](/online-coding-and-python-classes-in-perth-western-australia), and the state overview is [coding and AI classes in Western Australia](/coding-and-ai-classes-in-western-australia).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20and%20programming%20class%20for%20a%20learner%20in%20Karratha.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-karratha](https://learn.modernagecoders.com/ai-and-programming-classes-in-karratha#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-karratha*

@@ -24,7 +24,7 @@ Book the free first classRead the rule
 
 No card. No obligation. We call, we do not spam.
 
-10,000+students taught4.9across 547 Google reviews2020teaching since25+countries6 to 67ages taught5 to 8students per groupCourses for Texas
+10,000+students taught4.9across 547 Google reviews2020teaching since25+countries6 to 67ages taught15 to 20students per groupCourses for Texas
 
 ## The courses that qualify, and the one beside them
 
@@ -248,7 +248,7 @@ Fees
 
 Monthly, in US dollars, with no enrolment fee and no annual contract.
 
-Group$100per month, 8 classes
+Small group$100per month, 8 classes
 
 Fifteen to twenty students, one consistent teacher. The default, and where most Texas families stay.
 

@@ -4,46 +4,32 @@ description: "Live online coding, Python and AI lessons for Portlaoise learners 
 canonical: https://learn.modernagecoders.com/best-coding-class-in-portlaoise
 source: src/pages/best-coding-class-in-portlaoise.html
 ---
-> Portlaoise is home to 23,299 usual residents in the census town tables, living in 7,785 households, of which 6,646 report broadband. That makes it the 18th largest of the 867 towns in the table. The teaching we offer happens at home, on video, in real time: two lessons in most weeks, in a small group matched by level or with one learner alone, for anybody from six to sixty-seven. The first lesson is free, and after it the monthly fee is USD 100 in a group or USD 150 one to one.
+> Live online coding, Python and AI lessons for Portlaoise learners aged 6 to 67, taught live by a teacher in small ability groups or one to one. First lesson free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [County Laois](/coding-classes-in-county-laois) / Portlaoise
-
-Portlaoise, County Laois / Live online
-
-# Coding classes in Portlaoise
-
-**What is the best coding class in Portlaoise?** Portlaoise is home to 23,299 usual residents in the census town tables, living in 7,785 households, of which 6,646 report broadband. That makes it the 18th largest of the 867 towns in the table. The teaching we offer happens at home, on video, in real time: two lessons in most weeks, in a small group matched by level or with one learner alone, for anybody from six to sixty-seven. The first lesson is free, and after it the monthly fee is USD 100 in a group or USD 150 one to one.
-
-Draw every census town on one bar chart, 1,000 pixels wide, with Dublin city and suburbs and its 1,243,278 residents at the far end. Portlaoise, the 18th largest town in Ireland with 23,299 residents, gets a bar 19 pixels long. The median town, Glenealy in Wicklow with 622 people, gets half a pixel. Seven hundred and eighty-seven of the 867 towns end up inside the first five pixels, which is to say invisible. Nothing is wrong with the data. The problem is the axis. Redraw the same chart on a logarithmic scale, where each step multiplies instead of adds, and Portlaoise moves to pixel 582, the median town to pixel 201, and the whole country becomes readable. Choosing that scale, and saying that you chose it, is the lesson on this page.
-
-Facts last verified 19 September 2026. Teaching is online; no Portlaoise branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Portlaoise
 
 ## Courses Portlaoise learners start on
 
 The age and the interest narrow the choice; the first lesson, taught by the teacher of that course, decides it.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Block coding with charts and counters, where a big number and a small one have to share one screen.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 13): Powers of ten and multiplying steps, built in code, which is exactly what a logarithmic axis is.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): Plotting real census data in Python, including when a linear axis is the wrong choice.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (College and adult): For adults whose dashboards show one giant bar and a row of slivers nobody can read.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlock coding with charts and counters, where a big number and a small one have to share one screen.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 13Maths Through CodingPowers of ten and multiplying steps, built in code, which is exactly what a logarithmic axis is.See the syllabus](/courses/maths-through-coding)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensPlotting real census data in Python, including when a linear axis is the wrong choice.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)College and adultData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For adults whose dashboards show one giant bar and a row of slivers nobody can read.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## One chart, two axes
 
 Five towns from the same census column, placed on a chart 1,000 pixels wide, first with a linear axis and then with a logarithmic one. Populations are published usual residents; the pixel positions are our arithmetic.
 
-**Where five towns land on two axes of the same width**
-
 | Town as labelled | Usual residents | Linear axis, pixel | Logarithmic axis, pixel |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Dromineer, Co Tipperary, the smallest | 92 | 0.1 | 0 |
 | Glenealy, Co Wicklow, the median town | 622 | 0.5 | 201 |
 | Portlaoise, Co Laois | 23,299 | 18.7 | 582 |
@@ -68,14 +54,14 @@ Town sizes, company revenues, file sizes, website visits, follower counts, house
 
 The project uses the whole census column rather than five towns. The learner loads all 867 town populations, plots them on a linear axis and counts how many bars are narrower than one pixel, then replots on a logarithmic axis and writes two sentences on what changed. They then compute the mean and the median: the mean town has 4,132 residents and the median 622, so the average is 6.6 times the typical town, which is the same skew seen from a different angle. The final step is the caption, stating the scale and why it was chosen, because a chart without that sentence is only half finished.
 
+The shape of the whole column
+
 ## Where Ireland's town residents actually live
 
 All 867 towns grouped by powers of ten, which is how a logarithmic axis divides them. Counts of towns and residents are our tallies of the published figures, and they sum exactly to the 3,582,870 residents of all towns combined.
 
-**Towns and residents by size band, Census 2022**
-
 | Town size | Towns | Residents | Share of all town residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Under 1,000 | 562 | 241,490 | 6.7% |
 | 1,000 to 9,999 | 252 | 715,371 | 20.0% |
 | 10,000 to 99,999 | 50 | 1,062,457 | 29.7% |
@@ -93,16 +79,18 @@ In the band of 50 towns between 10,000 and 99,999, and near the top of it: 18th 
 
 Equal bands of 10,000 would put 814 towns in the first one and leave most of the others empty. Bands that multiply by ten keep every group populated, which is the same reasoning as the logarithmic axis.
 
-**The arts centre** Dunamaise Arts Centre gives its address as Church Street, Portlaoise, Co. Laois, R32 W93P, with its gallery and box office open Tuesday to Saturday from 10am to 5pm and an hour before events, operated by The Laois Arts Theatre CLG. We have no connection with it and quote none of its prices.
+The arts centre
+
+Dunamaise Arts Centre gives its address as Church Street, Portlaoise, Co. Laois, R32 W93P, with its gallery and box office open Tuesday to Saturday from 10am to 5pm and an hour before events, operated by The Laois Arts Theatre CLG. We have no connection with it and quote none of its prices.
+
+Portlaoise in the town tables
 
 ## The eighteenth largest town, counted
 
 Published for the built-up area Portlaoise, Co Laois, in the Census 2022 small area tables.
 
-**Portlaoise, Census 2022**
-
 | Measured | Count |
-|---|---|
+| --- | --- |
 | Usual residents | 23,299 |
 | Households | 7,785 |
 | Households reporting broadband | 6,646 |
@@ -122,7 +110,11 @@ Of 6,542 journeys to school, college or childcare, 3,230 are as a car passenger,
 
 Asked directly about working from home, 2,106 working residents do so at least some of the time, 6,418 never do and 1,446 did not say.
 
-**The station and the hospital** Irish Rail gives Portlaoise station as Station Road, Portlaoise, Co. Laois, Eircode R32 P590, staffed from 05:00 to 23:30 Monday to Saturday with free Wi-Fi. The HSE lists the Midland Regional Hospital Portlaoise at Dublin Road, Portlaoise, R32 RW61. We have no connection with either.
+The station and the hospital
+
+Irish Rail gives Portlaoise station as Station Road, Portlaoise, Co. Laois, Eircode R32 P590, staffed from 05:00 to 23:30 Monday to Saturday with free Wi-Fi. The HSE lists the Midland Regional Hospital Portlaoise at Dublin Road, Portlaoise, R32 RW61. We have no connection with either.
+
+Learning in Portlaoise
 
 ## What the lessons are like
 
@@ -142,14 +134,37 @@ Adults starting from nothing are common, and 2,106 working residents here alread
 
 The station, the arts centre and the hospital are named from their own published pages, and none of them, nor Laois County Council, has any relationship with us. The counts are Central Statistics Office Census 2022 figures, printed as published. The pixel positions, size bands, mean, median and shares are our own arithmetic on the full town column, computed on 19 September 2026, and the page says which axis every position belongs to.
 
+Learning ladder
+
 ## From drawing a chart to choosing its scale
 
 Ages are only a guide; the first lesson sets the real level.
 
-- **Ages 6 to 10: Big and small together** Block projects that draw bars and counters, and notice when one number swamps the rest. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Multiplying steps** Powers of ten and logarithms met through code, long before they arrive in a maths exam. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 14 to 18: Charts that tell the truth** Plotting skewed real data, choosing axes, and labelling a scale so nobody misreads it. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Dashboards for real data** Building reports where the giant and the long tail are both visible and both honest. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### Big and small together
+
+Block projects that draw bars and counters, and notice when one number swamps the rest.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Multiplying steps
+
+Powers of ten and logarithms met through code, long before they arrive in a maths exam.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### Charts that tell the truth
+
+Plotting skewed real data, choosing axes, and labelling a scale so nobody misreads it.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Dashboards for real data
+
+Building reports where the giant and the long tail are both visible and both honest.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## Ask an assistant to chart every Irish town
 
@@ -161,30 +176,139 @@ A learner who has done this project checks the range before plotting, asks for a
 
 Making a chart has never been easier. Making one that shows the thing you meant to show is still a skill, and a very learnable one. The longer argument is in [the reasons coding remains worth learning](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How the lessons work in practice
 
 Six short answers.
 
-- **In real time** The teacher watches the learner's screen and responds to it; nothing is pre-recorded.
-- **Small, matched groups** Between five and ten learners who are at the same point, wherever they happen to live.
-- **A steady rhythm** Twice in most weeks, roughly eight lessons a month, at the hour the family chose.
-- **School year in view** Holidays, mid-terms and exam weeks are allowed for when the timetable is set.
-- **The kit** A machine with a real keyboard, since a phone will not do, plus speakers or a headset and broadband that can hold a video call.
-- **Alone with a teacher** One to one is there for learners whose level or whose hours no group matches.
+### In real time
 
-**A town in the middle of the list** Portlaoise sits between the few very large places and the hundreds of small ones. Online lessons treat every point on that list the same way, which is the one thing the chart on this page cannot say about anything else.
+The teacher watches the learner's screen and responds to it; nothing is pre-recorded.
+
+### Small, matched groups
+
+Between five and ten learners who are at the same point, wherever they happen to live.
+
+### A steady rhythm
+
+Twice in most weeks, roughly eight lessons a month, at the hour the family chose.
+
+### School year in view
+
+Holidays, mid-terms and exam weeks are allowed for when the timetable is set.
+
+### The kit
+
+A machine with a real keyboard, since a phone will not do, plus speakers or a headset and broadband that can hold a video call.
+
+### Alone with a teacher
+
+One to one is there for learners whose level or whose hours no group matches.
+
+A town in the middle of the list
+
+Portlaoise sits between the few very large places and the hundreds of small ones. Online lessons treat every point on that list the same way, which is the one thing the chart on this page cannot say about anything else.
+
+Fees
 
 ## Portlaoise class fees
 
 What it costs, in three lines.
 
-- First class: USD 0. The first lesson, taught in full and assessed, for nothing.
-- Group tuition: USD 100 a month. A month in a matched group of fifteen to twenty, about eight live lessons.
-- Private tuition: USD 150 a month. A month of one to one lessons at the same weekly frequency.
+First class**USD 0**
+
+The first lesson, taught in full and assessed, for nothing.
+
+Group tuition**USD 100**
+
+A month in a matched group of fifteen to twenty, about eight live lessons.
+
+Private tuition**USD 150**
+
+A month of one to one lessons at the same weekly frequency.
 
 Portlaoise pays what every family outside India pays: one monthly rate in US dollars, with no euro version shown alongside. Money is only asked for once a course and a weekly time actually exist, and the pricing page covers holidays, a lesson that has to be missed, and switching between a group and private teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20arrange%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Portlaoise.)Reviews
+
+## What six families wrote about us on Google, word for word
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Portlaoise lesson
+
+Tell us how old the learner is and what they enjoy. The first hour is planned from that and could end with a finished game, a first Python script, or a chart redrawn until it shows what it was meant to show.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Portlaoise one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20arrange%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Portlaoise.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Portlaoise coding class questions
+
+Answers to what Portlaoise families ask most often.
 
 ### How many people live in Portlaoise?
 
@@ -226,10 +350,14 @@ The first lesson is free. After that a shared place costs USD 100 a month and br
 
 Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
+Explore Ireland
+
 ## Around Portlaoise
 
 Its county is covered on the [County Laois](/coding-classes-in-county-laois) page, and its nearest neighbours on the list of large towns include [Newbridge](/best-coding-class-in-newbridge) and [Athlone](/best-coding-class-in-athlone), all within [Leinster](/coding-and-ai-classes-in-leinster). A side-by-side look at online schools is on [our comparison page](/best-online-coding-classes-ireland), and every page in this series is gathered on the [Ireland hub](/coding-classes-in-ireland).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20arrange%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Portlaoise.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-portlaoise](https://learn.modernagecoders.com/best-coding-class-in-portlaoise#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-portlaoise*

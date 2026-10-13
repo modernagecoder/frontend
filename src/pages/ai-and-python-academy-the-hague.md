@@ -4,25 +4,21 @@ description: "The Hague is where the Netherlands learned what a biased risk mode
 canonical: https://learn.modernagecoders.com/ai-and-python-academy-the-hague
 source: src/pages/ai-and-python-academy-the-hague.html
 ---
-> Modern Age Coders teaches learners in The Hague, aged six to sixty-seven, a live online AI and Python track: typed Python, real data, models whose errors are measured, and agents whose decisions can be traced. Every model on the track is checked group by group, because an overall error rate can look acceptable while one group carries most of the false alarms. The reason is local and documented: the risk model in the childcare-benefits case, which the data protection authority found had used nationality unlawfully. Teaching happens in English, either in a group of fifteen to twenty at one level or with a teacher of your own. There is no charge for the first lesson; afterwards the group rate is USD 100 a month and private tuition USD 150.
+> The Hague is where the Netherlands learned what a biased risk model costs. Learn to build AI and test for fairness, live online for ages 6 to 67. First lesson free.
 
-[Home](/) / [Courses](/courses) / [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands) / The Hague
+In short
 
-The Hague · Live online · Ages 6 to 67
+Modern Age Coders teaches learners in The Hague, aged six to sixty-seven, a live online AI and Python track: typed Python, real data, models whose errors are measured, and agents whose decisions can be traced. Every model on the track is checked group by group, because an overall error rate can look acceptable while one group carries most of the false alarms. The reason is local and documented: the risk model in the childcare-benefits case, which the data protection authority found had used nationality unlawfully. Teaching happens in English, either in a group of fifteen to twenty at one level or with a teacher of your own. There is no charge for the first lesson; afterwards the group rate is USD 100 a month and private tuition USD 150.
 
-# AI and Python classes in The Hague, with fairness tested
-
-On 17 December 2020, in The Hague, a parliamentary committee handed over a report called Ongekend onrecht, unprecedented injustice, about how the childcare allowance had been run. Four weeks later the whole cabinet offered its resignation. The failures it describes run through laws, courts and a whole administration, far beyond any single program. But one strand is squarely a programmer's concern. The tax authority's benefits department had used applicants' nationality in a risk classification model, and the data protection authority judged that unlawful and discriminatory. Every student who builds a model that sorts people should know this case, and should know the simple check that brings such a problem into view: counting the model's mistakes separately for each group. This page teaches AI and Python from a child's first program upward, with that check built into every model, live online for learners in The Hague.
-
-At a glance: For: Learners in The Hague, 6 to 67; Track: Python, data, models, agents; Built in: Error rates checked group by group; Format: Live video with a teacher; Groups: 15 to 20, or one to one; Hours: Dutch afternoons, evenings, weekends; Taught in: English; To begin: A free lesson, no card. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three courses for learners in The Hague
 
 One for a child learning what AI is and is not, one for a teenager ready to work with real data, one for the adult whose work involves data about people. Each opens its own syllabus and timetable.
 
-- [AI Literacy for Kids](/courses/ai-literacy-for-kids-course): What an AI system does with the examples it learns from, and why a program can be unfair without anyone intending it: explained with games and examples a ten-year-old can check.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data): Python for real datasets, with the habit of splitting every result by group before trusting it, the check at the centre of this page.
-- [Data and AI Analytics for Non-Programmers](/courses/data-and-ai-analytics-for-non-programmers-course): For the professional in a ministry, agency or organisation whose spreadsheets and AI tools make decisions about people: how to break results down and ask who is affected.
+[![AI Literacy for Kids (Ages 8 to 14) course thumbnail](/images/ai-literacy-for-kids.webp)  DHG / 01 AI Literacy for Kids What an AI system does with the examples it learns from, and why a program can be unfair without anyone intending it: explained with games and examples a ten-year-old can check. Open the syllabus →](/courses/ai-literacy-for-kids-course)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)  DHG / 02 Data Science for Teens Python for real datasets, with the habit of splitting every result by group before trusting it, the check at the centre of this page. Open the syllabus →](/courses/data-science-course-for-teens-python-data)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)  DHG / 03 Data and AI Analytics for Non-Programmers For the professional in a ministry, agency or organisation whose spreadsheets and AI tools make decisions about people: how to break results down and ask who is affected. Open the syllabus →](/courses/data-and-ai-analytics-for-non-programmers-course)
+
+The case
 
 ## The risk model the whole country now studies
 
@@ -36,16 +32,16 @@ On **17 December 2020** the parliamentary committee on the childcare allowance, 
 
 On **15 January 2021** the prime minister told the King that he had offered the resignation of the whole cabinet. If the whole system has failed, he said, responsibility can only be carried together, and he spoke of thousands of parents to whom great injustice had been done.
 
-**Four dates, from the documents themselves**
-
 | Date | Document | What it records |
-|---|---|---|
+| --- | --- | --- |
 | 17 July 2020 | Letter of the State Secretary for Finance (Kamerstuk 31066, nr. 683) | Three processings of nationality judged unlawful, two discriminatory; nationality out of the risk model since October 2018 |
 | June 2019 | Same letter | Toeslagen decided to stop queries based on nationality |
 | 17 December 2020 | Tweede Kamer announcement of the final report | Ongekend onrecht handed over; principles of the rule of law violated |
 | 15 January 2021 | Statement of the prime minister | Resignation of the whole cabinet offered to the King |
 
 Sources: [Kamerstuk 31066, nr. 683, letter of 17 July 2020](https://zoek.officielebekendmakingen.nl/kst-31066-683.html); [Tweede Kamer, Eindverslag onderzoek kinderopvangtoeslag overhandigd](https://www.tweedekamer.nl/nieuws/kamernieuws/eindverslag-onderzoek-kinderopvangtoeslag-overhandigd); [Rijksoverheid, statement of the prime minister, 15 January 2021](https://www.rijksoverheid.nl/documenten/videos/2021/01/15/verklaring-minister-president-rutte-na-afloop-van-ministerraad-15-januari-2021). All read 15 September 2026; the documents are in Dutch and are translated here as closely as possible. We have no connection with any of the bodies named.
+
+The test
 
 ## The check that brings it into view: mistakes counted group by group
 
@@ -63,10 +59,8 @@ A model that flags applications for checking makes two kinds of mistake: it flag
 
 A flag is the start of a process, and the harm depends on what follows it: a friendly question, or a demand to repay. The committee's phrase, that a mistake was quickly seen as fraud, describes what happens when that next step is built without room for error. Designing it is part of building the model.
 
-**An invented example: 1,000 applications, a model that flags 70 of them, and the false alarms split by group**
-
 | Group | Applications | Of which correct | Correct but flagged | False-alarm rate |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Group A | 800 | 780 | 25 | 3.2 percent |
 | Group B | 200 | 195 | 26 | 13.3 percent |
 | Everyone | 1,000 | 975 | 51 | 5.2 percent |
@@ -81,6 +75,8 @@ What the check cannot do is decide what is acceptable, or whether a model should
 
 The worked example is invented and represents no real model or dataset. The lessons drawn are ours, not those of any body named in the section above.
 
+At every age
+
 ## Fairness as a habit, from the first program to the working model
 
 The group-by-group check sounds advanced, but its simplest form fits a child's first program, and its full form fits a professional's daily work in a city of ministries and international organisations.
@@ -93,14 +89,14 @@ Adults in The Hague often work where data about people is processed every day, i
 
 For the city's schools and districts, see [coding classes in The Hague](/coding-classes-in-the-hague) and [Den Haag Centrum](/coding-classes-in-the-hague-centrum); for the province, [Zuid-Holland](/coding-classes-in-zuid-holland). The [national academy page](/ai-and-python-academy-netherlands) covers the country.
 
+The five rungs
+
 ## From a fair quiz to a model checked group by group
 
 The rungs are climbed in order. Data comes before models because unfairness usually starts in the data, and measurement comes before agents because an agent that acts on people must first be shown to treat them evenly.
 
-**The five rungs for a learner in The Hague, with the fairness question asked at each**
-
 | Rung | Usually | The fairness question learned |
-|---|---|---|
+| --- | --- | --- |
 | 1. Python by hand | Groep 6 to 8, or any adult beginner | Does my program treat every input by the same rule? |
 | 2. Data | Brugklas to the third year | Who is in this data, who is missing, and what does each column reveal? |
 | 3. Models | Havo 4 to vwo 6, students, adults | How often is the model wrong for each group, not just overall? |
@@ -110,65 +106,309 @@ The rungs are climbed in order. Data comes before models because unfairness usua
 ### Why the data rung matters most here
 
 Most unfair models are built from data that was already uneven: some groups checked more often in the past, some recorded differently, some barely present. A learner who has studied a dataset before modelling it sees those patterns before the model copies them.
+
 Our general order of teaching, subject by subject, is on the [coding roadmap](/coding-roadmap).
 
 ### How the rungs meet a Hague school career
 
 Groep 6 to 8 is the natural moment for rung 1, with a pause in the weeks of the doorstroomtoets, and the year a pupil chooses a profile is a sensible time to sample rung 2. Pupils at the city's international schools join the same rungs at the same ages.
+
 Adults usually start at rung 2, with their own work data in mind, often one to one.
+
+The catalogue
 
 ## Eleven live courses for The Hague, placed by what a learner can do
 
 Arranged by stage of life, from primary school to working adult. Every course has its own page with timetable and fee, and where a learner begins is settled in the free lesson, not by this list.
 
+I
+
 ### Children, groep 3 to 8
 
 First programs, and first questions about fairness
 
-- [AI Literacy for Kids](/courses/ai-literacy-for-kids-course): Where an AI system gets its ideas, how it can end up unfair with nobody meaning it, and the questions a child should put to any answer that sounds certain.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass): Real Python for nine- to twelve-year-olds, from turtle pictures and simple games to a program that learns a rule and is then tried on cases it has never seen.
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course): Block-based games for the youngest learners, including quizzes that must mark every player the same way.
+DHG / KIDS / 01
+
+#### AI Literacy for Kids
+
+Where an AI system gets its ideas, how it can end up unfair with nobody meaning it, and the questions a child should put to any answer that sounds certain.
+
+[Open the syllabus](/courses/ai-literacy-for-kids-course)
+
+DHG / KIDS / 02
+
+#### Python and AI for Kids
+
+Real Python for nine- to twelve-year-olds, from turtle pictures and simple games to a program that learns a rule and is then tried on cases it has never seen.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)
+
+DHG / KIDS / 03
+
+#### Scratch Coding for Kids
+
+Block-based games for the youngest learners, including quizzes that must mark every player the same way.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)II
 
 ### Teenagers, havo, vwo and international schools
 
 Real data, real models, and results split by group
 
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data): Reading, cleaning and plotting real data, and breaking every result down by group before drawing a conclusion.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens): Statistics, classical models and neural networks, each model tested for how its errors fall across groups.
-- [Python for Teens](/courses/python-complete-masterclass-teens): The two-year Python foundation, for the teenager who wants to understand the code behind the headlines.
-- [AI Tools for Teens](/courses/teens-ai-tools-mastery-course): Using AI tools for study and projects, with attention to privacy, bias and when not to trust the output.
+DHG / TEEN / 01
+
+#### Data Science for Teens
+
+Reading, cleaning and plotting real data, and breaking every result down by group before drawing a conclusion.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)
+
+DHG / TEEN / 02
+
+#### AI and Machine Learning for Teens
+
+Statistics, classical models and neural networks, each model tested for how its errors fall across groups.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+DHG / TEEN / 03
+
+#### Python for Teens
+
+The two-year Python foundation, for the teenager who wants to understand the code behind the headlines.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+DHG / TEEN / 04
+
+#### AI Tools for Teens
+
+Using AI tools for study and projects, with attention to privacy, bias and when not to trust the output.
+
+[Open the syllabus](/courses/teens-ai-tools-mastery-course)III
 
 ### Students and working adults
 
 Data, models and AI tools that affect real people
 
-- [Data and AI Analytics for Non-Programmers](/courses/data-and-ai-analytics-for-non-programmers-course): For professionals without a programming background: spreadsheet models, dashboards and AI assistants, each result split by the groups of people it touches.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college): Excel, SQL, Python and business intelligence, for analysts whose reports shape decisions about people and budgets.
-- [AI and Machine Learning Masterclass](/courses/ai-ml-masterclass-complete-college): The full machine learning route for adults, with evaluation by group treated as part of every model, not an extra.
-- [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college): The workings of large language models, and how to build assistants on them that know their limits, including the decisions about people that must stay with a person.
+DHG / PRO / 01
+
+#### Data and AI Analytics for Non-Programmers
+
+For professionals without a programming background: spreadsheet models, dashboards and AI assistants, each result split by the groups of people it touches.
+
+[Open the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
+
+DHG / PRO / 02
+
+#### Data Analysis Course
+
+Excel, SQL, Python and business intelligence, for analysts whose reports shape decisions about people and budgets.
+
+[Open the syllabus](/courses/data-analysis-mastery-course-college)
+
+DHG / PRO / 03
+
+#### AI and Machine Learning Masterclass
+
+The full machine learning route for adults, with evaluation by group treated as part of every model, not an extra.
+
+[Open the syllabus](/courses/ai-ml-masterclass-complete-college)
+
+DHG / PRO / 04
+
+#### Generative AI: LLMs, RAG and Agents
+
+The workings of large language models, and how to build assistants on them that know their limits, including the decisions about people that must stay with a person.
+
+[Open the syllabus](/courses/complete-generative-ai-masterclass-college)
+
+How the classes run
 
 ## Two clocks and a weekly slot
 
 Dutch clocks change twice a year and Indian clocks never do. In winter the teacher's day runs four and a half hours ahead of The Hague, in summer three and a half. That makes late afternoons and weekends the easy slots, weekday evenings a matter of arrangement, and the fixed weekly time something agreed at the free lesson, never promised here.
 
-- **Straight after school** Late afternoon in The Hague, early evening or later for the teacher. The usual choice for primary pupils and the brugklas.
-- **After dinner** Arranged teacher by teacher. It suits upper-school pupils, students and anyone coming home from a ministry or an office.
-- **Saturday or Sunday** Mornings or afternoons in The Hague. The slot most working adults and busy households end up choosing.
+Straight after school
 
-- **The opening session** A real task, a teacher watching how the learner approaches it, and at the end a clear view of where to start. No questionnaire does that as well.
-- **Groups of fifteen to twenty** Classmates come from several countries and share one level, so nobody in The Hague is held back by a local average or left behind by it.
-- **Private lessons** For diplomats, civil servants and others whose diaries move, for a narrowly defined goal, and for the Copilot Studio courses, which are never taught in groups.
-- **Code seen as it is typed** Teacher and learner share screens, so a misunderstanding is corrected in the minute it appears.
-- **English, with Dutch kept for school** Teaching is in English; groep, brugklas, havo and vwo stay in Dutch because that is how parents in the city speak of them.
-- **A record of every model** Code is committed to the learner's own GitHub repository after each lesson, and each model sits next to its group-by-group results.
+Late afternoon in The Hague, early evening or later for the teacher. The usual choice for primary pupils and the brugklas.
+
+After dinner
+
+Arranged teacher by teacher. It suits upper-school pupils, students and anyone coming home from a ministry or an office.
+
+Saturday or Sunday
+
+Mornings or afternoons in The Hague. The slot most working adults and busy households end up choosing.
+
+### The opening session
+
+A real task, a teacher watching how the learner approaches it, and at the end a clear view of where to start. No questionnaire does that as well.
+
+### Groups of fifteen to twenty
+
+Classmates come from several countries and share one level, so nobody in The Hague is held back by a local average or left behind by it.
+
+### Private lessons
+
+For diplomats, civil servants and others whose diaries move, for a narrowly defined goal, and for the Copilot Studio courses, which are never taught in groups.
+
+### Code seen as it is typed
+
+Teacher and learner share screens, so a misunderstanding is corrected in the minute it appears.
+
+### English, with Dutch kept for school
+
+Teaching is in English; groep, brugklas, havo and vwo stay in Dutch because that is how parents in the city speak of them.
+
+### A record of every model
+
+Code is committed to the learner's own GitHub repository after each lesson, and each model sits next to its group-by-group results.
+
+Student work
+
+## Projects our students left online
+
+Four things students built and published at public addresses. Try them, test them, find their limits; the [student labs](/student-labs) page has more.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees, in two figures
 
 Monthly, in US dollars, at the rates charged in every country outside India. The Hague pays what every other city pays, with no enrolment fee and no contract for the year. The Copilot Studio courses are taught privately and so carry the private rate.
 
-- Free first class: USD 0. A real lesson on a real problem. Places the learner on the right rung. No card or bank details.
-- Group batch: USD 100 a month. Fifteen to twenty learners at one level. One live teacher throughout. Work reviewed each week. Certificate at the end.
-- One to one: USD 150 a month. One learner, one teacher. Pace and focus fitted to the goal. The only format for Copilot Studio.
+Free first class
+
+USD 0
+
+no card required
+
+- A real lesson on a real problem
+- Places the learner on the right rung
+- No card or bank details
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners at one level
+- One live teacher throughout
+- Work reviewed each week
+- Certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- One learner, one teacher
+- Pace and focus fitted to the goal
+- The only format for Copilot Studio
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Shown as their authors posted them on Google. We do not write, edit or pay for any review.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions from The Hague
 
 ## What families and professionals in The Hague ask first
 
@@ -212,15 +452,54 @@ They teach live from India, which is ahead of The Hague by three and a half hour
 
 We call you back at a Dutch hour to fix the free lesson. No payment is taken and no seat is reserved before the family has watched that lesson and made up its mind.
 
+Elsewhere on this site
+
 ## Where else to read, for The Hague and beyond
 
-- [Coding classes in The Hague](/coding-classes-in-the-hague): General coding for the city, stadsdeel by stadsdeel, with the local schools.
-- [Coding classes in Zuid-Holland](/coding-classes-in-zuid-holland): The province around the city, municipality by municipality.
-- [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands): The academy for the whole country: informatica in Dutch schools and the national AI build-out.
-- [AI and Python Academy, Amsterdam](/ai-and-python-academy-amsterdam): Seventy-three city algorithms, read entry by entry.
-- [AI and Python Academy, Eindhoven](/ai-and-python-academy-eindhoven): Soccer robots, drones and the gap between simulation and reality.
-- [AI and Python Academy, Groningen](/ai-and-python-academy-groningen): What the first year of a university AI degree asks of a pupil.
+The AI track is one part of what we publish for the city. The rest is here.
 
-## Contact
+### [Coding classes in The Hague](/coding-classes-in-the-hague)
 
-Book the free first class at [https://learn.modernagecoders.com/ai-and-python-academy-the-hague](https://learn.modernagecoders.com/ai-and-python-academy-the-hague#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+General coding for the city, stadsdeel by stadsdeel, with the local schools.
+
+### [Coding classes in Zuid-Holland](/coding-classes-in-zuid-holland)
+
+The province around the city, municipality by municipality.
+
+### [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands)
+
+The academy for the whole country: informatica in Dutch schools and the national AI build-out.
+
+### [AI and Python Academy, Amsterdam](/ai-and-python-academy-amsterdam)
+
+Seventy-three city algorithms, read entry by entry.
+
+### [AI and Python Academy, Eindhoven](/ai-and-python-academy-eindhoven)
+
+Soccer robots, drones and the gap between simulation and reality.
+
+### [AI and Python Academy, Groningen](/ai-and-python-academy-groningen)
+
+What the first year of a university AI degree asks of a pupil.
+
+Start here
+
+## Arrange a free lesson
+
+Give us a phone number and someone from our team calls back at a Dutch hour. That first session is taught properly, and it ends with the one decision that matters most here: the rung the learner starts on.
+
+Would you rather read first? Start with the [course list](/courses), then [how we teach](/how-we-teach), then the reasoning behind these pages at [Learn to Build AI](/learn-to-build-ai).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20class%20for%20a%20learner%20in%20The%20Hague%2C%20on%20the%20AI%20and%20Python%20track.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+A WhatsApp message costs nothing from a Dutch phone and gets the fastest reply. The number is an Indian one, and we hold no office, address or premises in The Hague or elsewhere in the Netherlands.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-python-academy-the-hague*

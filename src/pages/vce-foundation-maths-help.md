@@ -4,34 +4,28 @@ description: "VCE Foundation Maths help online for Victorian students: the four 
 canonical: https://learn.modernagecoders.com/vce-foundation-maths-help
 source: src/pages/vce-foundation-maths-help.html
 ---
-> VCE Foundation Mathematics Units 3 and 4 apply mathematics to real contexts across four areas of study: algebra, number and structure; data analysis, probability and statistics; discrete mathematics; and space and measurement. Three mathematical investigations make up 60 per cent of the study score (40 in Unit 3, 20 in Unit 4), and a 2-hour examination with a scientific calculator makes up 40 per cent.
+> VCE Foundation Maths help online for Victorian students: the four practical areas, three investigations worth 60 per cent, the 2-hour exam, and real-world rounding.
 
-[Home](/) / [Coding classes in Australia](/coding-classes-in-australia) / VCE Foundation Maths
+In short
 
-Victoria · VCE Foundation Mathematics · Live online
+VCE Foundation Mathematics Units 3 and 4 apply mathematics to real contexts across four areas of study: algebra, number and structure; data analysis, probability and statistics; discrete mathematics; and space and measurement. Three mathematical investigations make up 60 per cent of the study score (40 in Unit 3, 20 in Unit 4), and a 2-hour examination with a scientific calculator makes up 40 per cent.
 
-# VCE Foundation Maths help
-
-Foundation Mathematics is the VCE maths study built around everyday, workplace and community problems. Most of the study score comes from three investigations rather than the exam, so students who can plan, calculate, explain and present a piece of practical maths do well here, whatever their past results in maths.
-
-At a glance: Study: VCE Foundation Mathematics; Units: 3 and 4; Accredited from: 1 January 2023; Investigations: Three, worth 60 per cent; Exam: 40 per cent, 2 hours; Calculator: Scientific; 2026 exam: Tuesday 17 November; We never: Do any investigation. Rated 4.9 across 547 Google reviews.
+Where to begin
 
 ## Three courses for practical maths
 
 Confident number work first, then data and measurement in real contexts.
 
-- [Algebra foundations](/courses/algebra-foundations-masterclass): Formulas, rates and relationships rebuilt step by step, for students whose confidence took a knock earlier.
-- [Middle school mathematics](/courses/comprehensive-middle-school-mathematics-mastery): Percentages, ratios, measurement and data, the everyday maths Foundation builds on.
-- [Statistics and probability](/courses/statistics-probability-maths-course): Collecting, presenting and questioning data from community and media contexts.
+[![Algebra Foundations course thumbnail](/images/algebra-foundations.webp)  VCFM / 01 Algebra foundations Formulas, rates and relationships rebuilt step by step, for students whose confidence took a knock earlier. Open the syllabus →](/courses/algebra-foundations-masterclass)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  VCFM / 02 Middle school mathematics Percentages, ratios, measurement and data, the everyday maths Foundation builds on. Open the syllabus →](/courses/comprehensive-middle-school-mathematics-mastery)[![Statistics & Probability course thumbnail](/images/statistics-probability-maths.webp)  VCFM / 03 Statistics and probability Collecting, presenting and questioning data from community and media contexts. Open the syllabus →](/courses/statistics-probability-maths-course)
+
+Inside the study design
 
 ## Four practical areas of study
 
 Taken from the VCE Mathematics Study Design on 7 October 2026. All four areas are completed across Units 3 and 4, with content equivalent to two areas in each unit, developed through contexts from students' other studies.
 
-**VCE Foundation Mathematics Units 3 and 4: areas of study**
-
 | Area of study | What it covers, in the study design's terms |
-|---|---|
+| --- | --- |
 | Algebra, number and structure | Estimation, different forms of numbers and calculations, and algorithmic and computational thinking |
 | Data analysis, probability and statistics | Collecting, presenting and analysing gathered and provided data from community, work, recreation and media contexts |
 | Discrete mathematics | Numbers, relationships and formulae applied to analysing and critiquing practical situations |
@@ -47,14 +41,14 @@ The study design even suggests investigation contexts, including pandemic data, 
 
 Read on 7 October 2026: the [VCAA Foundation Mathematics page](https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/foundation-mathematics/vce-foundation-mathematics) and the Mathematics study design it links.
 
+How the study score is built
+
 ## Sixty per cent in three investigations
 
 Foundation's weights, task lengths and exam rules come straight from the study design, and its exam date from the VCAA timetable we checked on 7 October 2026.
 
-**How Foundation Mathematics is assessed**
-
 | What | Share | Detail |
-|---|---|---|
+| --- | --- | --- |
 | Unit 3 coursework | 40 per cent | Mathematical Investigations 1 and 2 |
 | Unit 4 coursework | 20 per cent | Mathematical Investigation 3 |
 | Every investigation | Within those shares | Four to six hours across one or two weeks, drawing on at least two areas of study; each area features in one investigation or more |
@@ -69,6 +63,8 @@ The 2026 examination is on Tuesday 17 November, in the session the VCAA timetabl
 The exam assumes a scientific calculator, not a CAS, and allows one bound reference text that may be annotated. Building the reference as the year goes, with a worked example for each kind of problem, is one of the most useful habits a Foundation student can form.
 
 Assessment from the Foundation sections of the study design; the session from the [2026 VCE examination timetable](https://www.vcaa.vic.edu.au/administration/key-dates/vce-examination-timetable), accessed 7 October 2026.
+
+A worked lesson
 
 ## Round up, round down, or give a range?
 
@@ -86,10 +82,8 @@ The hall has 130 chairs set in full rows of 8. 130 divided by 8 is 16.25, and a 
 
 A room measures 12.4 m by 7.8 m to the nearest 0.1 m. Each length could be 0.05 m either way, so the true area lies between 95.71 and 97.73 square metres.
 
-**The same division, three different answers (our worked examples)**
-
 | Question | Calculation | Rule | Answer | Check |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | How many buses? | 130 / 45 = 2.89 | Ceiling | 3 buses | 3 x 45 = 135 seats, 5 spare |
 | How many packs of 12 name tags? | 130 / 12 = 10.83 | Ceiling | 11 packs | 11 x 12 = 132 tags, 2 spare |
 | How many full rows of 8 chairs? | 130 / 8 = 16.25 | Floor | 16 rows | 16 x 8 = 128, 2 chairs left |
@@ -105,14 +99,14 @@ In the exam, written-response questions often hinge on this choice. A correct ca
 
 Estimation key knowledge from the VCE Mathematics Study Design, Foundation Mathematics Units 3 and 4. All scenarios and values are our own, checked in Python on 7 October 2026.
 
+The investigations
+
 ## Your investigations stay yours
 
 Investigations are 60 per cent of Foundation Mathematics, and the VCAA accepts them only as the student's own work. The points below come from the study design.
 
-**Coursework, as the VCAA frames it**
-
 | Aspect | Requirement |
-|---|---|
+| --- | --- |
 | Authorship | Teachers sign off that work not acknowledged was produced by the student |
 | Timing | Mostly in class, inside a limited window |
 | Length | Four to six hours over one or two weeks per investigation, covering two or more areas of study |
@@ -122,14 +116,14 @@ We teach the mathematics, the use of spreadsheets and the habit of explaining fi
 
 Study design sections on authentication and Foundation coursework, read 7 October 2026.
 
+Building confidence
+
 ## Four rungs through Foundation
 
 Many Foundation students arrive having lost confidence in maths. The rungs rebuild it in order.
 
-**From shaky number work to a confident investigator**
-
 | Stage | Rung | The sign it is secure |
-|---|---|---|
+| --- | --- | --- |
 | Starting out | 1. Number sense | Estimates before calculating and spots an answer that cannot be right |
 | Unit 3 early | 2. Rates and measurement | Converts units and works with rates without mixing them up |
 | Unit 3 investigations | 3. Explaining | Writes what each result means for the real situation |
@@ -138,63 +132,293 @@ Many Foundation students arrive having lost confidence in maths. The rungs rebui
 ### If maths has always felt hard
 
 Foundation is designed for real contexts, which often suits students who struggled with abstract maths. Starting from a situation they care about makes the numbers mean something.
+
 Small, regular wins matter more than long sessions. One practical problem done well each lesson rebuilds confidence quickly.
 
 ### After Foundation
 
 The habits here carry straight into apprenticeships, TAFE and work, where estimation and checking are daily tasks.
+
 Students who discover they enjoy data can look at our [VCE General Maths](/vce-general-maths-tutoring) page for the next step in statistics.
+
+The catalogue
 
 ## Nine courses for Foundation students
 
 Grouped by the areas of study they support. Each card opens a full syllabus.
 
+I
+
 ### Number and algebra
 
 Confidence first
 
-- [Algebra foundations](/courses/algebra-foundations-masterclass): Formulas and relationships, one clear step at a time.
-- [Speed calculation](/courses/vedic-maths-course-speed-calculation-mastery): Mental methods that make estimation quick and reliable.
-- [Middle school mathematics](/courses/comprehensive-middle-school-mathematics-mastery): Percentages, ratios and measurement, revisited properly.
+VCFM / NA / 01
+
+#### Algebra foundations
+
+Formulas and relationships, one clear step at a time.
+
+[Open the syllabus](/courses/algebra-foundations-masterclass)
+
+VCFM / NA / 02
+
+#### Speed calculation
+
+Mental methods that make estimation quick and reliable.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
+
+VCFM / NA / 03
+
+#### Middle school mathematics
+
+Percentages, ratios and measurement, revisited properly.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)II
 
 ### Data and measurement
 
 Practical contexts
 
-- [Statistics and probability](/courses/statistics-probability-maths-course): Collecting and questioning real data.
-- [High school mathematics](/courses/complete-high-school-mathematics-mastery): Senior-years practical maths across every area.
-- [Data and AI for non-programmers](/courses/data-and-ai-analytics-for-non-programmers-course): Spreadsheet-style analysis without heavy code.
+VCFM / DM / 01
+
+#### Statistics and probability
+
+Collecting and questioning real data.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)
+
+VCFM / DM / 02
+
+#### High school mathematics
+
+Senior-years practical maths across every area.
+
+[Open the syllabus](/courses/complete-high-school-mathematics-mastery)
+
+VCFM / DM / 03
+
+#### Data and AI for non-programmers
+
+Spreadsheet-style analysis without heavy code.
+
+[Open the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)III
 
 ### Technology
 
 Outcome 3 in practice
 
-- [Maths through coding](/courses/maths-through-coding): Simple programs that make formulas and rounding visible.
-- [Python for teens](/courses/python-complete-masterclass-teens): For students who want to automate their calculations.
-- [Mental maths mastery](/courses/mental-maths-mastery-kids): Quick number facts, rebuilt for students who never quite had them.
+VCFM / TE / 01
+
+#### Maths through coding
+
+Simple programs that make formulas and rounding visible.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+VCFM / TE / 02
+
+#### Python for teens
+
+For students who want to automate their calculations.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+VCFM / TE / 03
+
+#### Mental maths mastery
+
+Quick number facts, rebuilt for students who never quite had them.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+How lessons run
 
 ## Foundation lessons after school
 
 Your tutor is in India. Victorian time runs 4.5 hours ahead of India in winter and 5.5 hours ahead in summer, when daylight saving applies from 4 October 2026 to 4 April 2027 (IANA time zone data), so a 4 pm lesson in Victoria begins at 10.30 am for the tutor.
 
-- **Weekday after school** Steady weekly progress through both units.
-- **Weekend morning** Longer practice on investigation skills.
-- **School holidays** Exam revision before mid-November.
+Weekday after school
 
-- **Context first** Every topic starts from a real situation, then the maths.
-- **Explain every answer** A sentence about what the number means, every time.
-- **Spreadsheets and code** Technology used to check and explore, as Outcome 3 asks.
-- **Groups kept small** Fifteen to twenty students at one level, encouraged to ask anything.
-- **One-to-one sessions** For students who want a quieter pace.
-- **No outcome guarantees** We do not predict study scores or ATARs; progress is earned by the student.
+Steady weekly progress through both units.
+
+Weekend morning
+
+Longer practice on investigation skills.
+
+School holidays
+
+Exam revision before mid-November.
+
+### Context first
+
+Every topic starts from a real situation, then the maths.
+
+### Explain every answer
+
+A sentence about what the number means, every time.
+
+### Spreadsheets and code
+
+Technology used to check and explore, as Outcome 3 asks.
+
+### Groups kept small
+
+Fifteen to twenty students at one level, encouraged to ask anything.
+
+### One-to-one sessions
+
+For students who want a quieter pace.
+
+### No outcome guarantees
+
+We do not predict study scores or ATARs; progress is earned by the student.
+
+Student work
+
+## Things our students have built
+
+Made in their own time, not for school assessment; there are plenty more in the [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Foundation lessons are charged monthly in US dollars, at the same rate for any family outside India, with nothing to pay to begin and no lock-in.
 
-- Free first class: USD 0. A full lesson with a tutor. A kind, honest view of the gaps. No card details.
-- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same tutor each week. Practice talked through together. A certificate at the end.
-- One to one: USD 150 a month. One tutor, one student. At the student's own pace. Often chosen to rebuild confidence.
+Free first class
+
+USD 0
+
+no card required
+
+- A full lesson with a tutor
+- A kind, honest view of the gaps
+- No card details
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students at one level
+- The same tutor each week
+- Practice talked through together
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- One tutor, one student
+- At the student's own pace
+- Often chosen to rebuild confidence
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Just as families and students posted them on Google.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about Foundation
 
 ## Foundation questions we often hear
 
@@ -238,15 +462,54 @@ Often, yes. A patient tutor, a small group or one-to-one setting, and problems f
 
 Late afternoon in Victoria suits most students and sits within our tutors' working day. The weekly time is agreed after the free lesson.
 
+Related pages
+
 ## Where to go next
 
-- [VCE General Maths tutoring](/vce-general-maths-tutoring): The next step for students who enjoy data and models.
-- [VCE Maths Methods tutoring](/vce-maths-methods-tutoring): Functions and calculus, for comparison.
-- [Online maths tutoring in Australia](/online-maths-tutoring-australia): Maths support for every age, from primary up.
-- [Coding and AI classes in Melbourne](/vibe-coding-and-ai-agents-classes-in-melbourne): Coding and AI for Victorian students who prefer hands-on learning.
-- [Coding classes cost in Australia](/coding-classes-cost-australia): What lessons cost per term, in plain numbers.
-- [Coding classes in Australia](/coding-classes-in-australia): Our main page for coding across Australia.
+The other VCE maths studies and our wider maths help.
 
-## Contact
+### [VCE General Maths tutoring](/vce-general-maths-tutoring)
 
-Book the free first class at [https://learn.modernagecoders.com/vce-foundation-maths-help](https://learn.modernagecoders.com/vce-foundation-maths-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The next step for students who enjoy data and models.
+
+### [VCE Maths Methods tutoring](/vce-maths-methods-tutoring)
+
+Functions and calculus, for comparison.
+
+### [Online maths tutoring in Australia](/online-maths-tutoring-australia)
+
+Maths support for every age, from primary up.
+
+### [Coding and AI classes in Melbourne](/vibe-coding-and-ai-agents-classes-in-melbourne)
+
+Coding and AI for Victorian students who prefer hands-on learning.
+
+### [Coding classes cost in Australia](/coding-classes-cost-australia)
+
+What lessons cost per term, in plain numbers.
+
+### [Coding classes in Australia](/coding-classes-in-australia)
+
+Our main page for coding across Australia.
+
+Start here
+
+## Start with a free Foundation lesson
+
+Tell us which area of study feels hardest, or simply that maths has never clicked. The free lesson starts from a practical problem and goes at your pace.
+
+Prefer to look around first? The [course atlas](/course-atlas) lists every syllabus, [how we teach](/how-we-teach) walks through a lesson, and our [Australian maths tutoring page](/online-maths-tutoring-australia) covers other year levels.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20class%20about%20VCE%20Foundation%20Mathematics.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp reaches us fastest. +91 is India's dialling code, where our tutors are; we do not have a Victorian office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/vce-foundation-maths-help*

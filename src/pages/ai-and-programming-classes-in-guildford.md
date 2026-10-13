@@ -4,46 +4,32 @@ description: "Online AI, programming, Python and coding classes for learners in 
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-guildford
 source: src/pages/ai-and-programming-classes-in-guildford.html
 ---
-> The Borough of Guildford had 143,650 residents at the 2021 census, with Guildford itself a built-up area of 77,880. It is a place full of students: people aged 20 to 24 made up 9.2 per cent of residents against 6.0 per cent in England, and 15 to 19 year olds 7.5 against 5.7. It is also the town where Lewis Carroll spent his Christmases. For learners of every age from 6 to 67 we teach AI, programming, Python and maths live online from India, one-to-one or in classes of fifteen to twenty at matching levels. The first lesson is free and fixes the course. The Guildford project hands one of Carroll's logic puzzles to a computer. Carrying on costs USD 100 a month for a group or USD 150 a month privately.
+> Online AI, programming, Python and coding classes for learners in Guildford, East Horsley, Send and Shalford, aged 6 to 67, taught live. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South East England](/coding-and-ai-classes-in-south-east-england) / Guildford
-
-Guildford, Surrey, England / Live online
-
-# AI and programming classes in Guildford
-
-**What are the best AI and programming classes in Guildford?** The Borough of Guildford had 143,650 residents at the 2021 census, with Guildford itself a built-up area of 77,880. It is a place full of students: people aged 20 to 24 made up 9.2 per cent of residents against 6.0 per cent in England, and 15 to 19 year olds 7.5 against 5.7. It is also the town where Lewis Carroll spent his Christmases. For learners of every age from 6 to 67 we teach AI, programming, Python and maths live online from India, one-to-one or in classes of fifteen to twenty at matching levels. The first lesson is free and fixes the course. The Guildford project hands one of Carroll's logic puzzles to a computer. Carrying on costs USD 100 a month for a group or USD 150 a month privately.
-
-Surrey History Centre records that Lewis Carroll settled his sisters in a house called The Chestnuts on Castle Hill, Guildford, in September 1868 and always spent Christmas there; it suggests Guildford is, after Oxford, the place most associated with his adult life. Carroll was a mathematician, and his book Symbolic Logic is full of puzzles in which a list of odd statements hides one surprising conclusion. In one, ten premises about cats, kangaroos and animals that gaze at the moon lead, after a long chain, to "I always avoid a kangaroo". People solve these slowly, rearranging sentences. A computer can do it in milliseconds, if it is taught one rule of logic that even clever humans forget. This page's project builds that solver in Python.
-
-Facts last verified 27 September 2026. Teaching is online; no Guildford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Guildford
 
 ## Popular starting courses in Guildford
 
 Pick whatever matches the learner's curiosity. The first live lesson of every course is free, with no card details asked.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 9): Block coding with puzzles, riddles and if-then rules.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 9 to 12): Python and AI basics, from simple rules to programs that reason.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): In-depth Python for teenagers, including graphs, search and the logic solver.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Adults and students): Programming from scratch for adults and university students, up to algorithms.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 9Coding for KidsBlock coding with puzzles, riddles and if-then rules.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 9 to 12Python and AI for KidsPython and AI basics, from simple rules to programs that reason.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensIn-depth Python for teenagers, including graphs, search and the logic solver.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)Adults and studentsPython MasterclassProgramming from scratch for adults and university students, up to algorithms.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Guildford today
 
 ## A town of students and families
 
 Borough figures from table TS007A of the 2021 census, reached through Nomis, quoted band by band.
 
-**Borough of Guildford and England, selected ages, 2021 census TS007A**
-
 | Ages | Guildford borough | Borough share | England share |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 5 to 9 | 7,810 | 5.4% | 5.9% |
 | 15 to 19 | 10,766 | 7.5% | 5.7% |
 | 20 to 24 | 13,147 | 9.2% | 6.0% |
@@ -57,16 +43,16 @@ Late teens and early twenties stand far above the national share, while young ch
 
 Our [Surrey](/coding-classes-in-surrey) page covers the county, and the [South East](/coding-and-ai-classes-in-south-east-england) page indexes the region.
 
+The Guildford project
+
 ## Teaching a computer Carroll's logic
 
 Each premise is an arrow; the answer is a path.
 
 The learner writes each of Carroll's ten premises as an if-then arrow: cat leads to kills mice, kills mice leads to carnivore, and so on, with "kangaroo leads to not suitable as a pet". The arrows form a graph, and a conclusion is simply a path through it. Python's breadth-first search looks for a path from "kangaroo" to "avoided by me". At first it finds nothing, because most of Carroll's arrows point the wrong way for this question.
 
-**Our solver on Symbolic Logic problem 60, 27 September 2026**
-
 | What the program is allowed to use | Arrows in the graph | Kangaroo to avoided? | Verdict |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | The ten premises only | 10 | No path | Stuck, though the answer exists |
 | Premises plus their contrapositives | 20 | Found in 10 steps | Matches Carroll's printed answer |
 | Premises plus their converses | More | Also "proves" every pet is a cat | Invalid: a false conclusion |
@@ -91,14 +77,14 @@ Add contrapositives, compare with converses, and test the solver on more of Carr
 
 The Guildford history comes from Surrey History Centre, and the puzzles and answers from Carroll's Symbolic Logic on Project Gutenberg. The solver, the graph and its results are ours.
 
+Why Lewis Carroll
+
 ## Christmas at The Chestnuts
 
 What Surrey History Centre says about Carroll and Guildford.
 
-**Lewis Carroll and Guildford, from Surrey History Centre's Exploring Surrey's Past**
-
 | Detail | What it says |
-|---|---|
+| --- | --- |
 | The house | Carroll installed his sisters at The Chestnuts on Castle Hill in September 1868 |
 | Christmas | He always spent Christmas there with them |
 | Church | He occasionally preached in St Mary's church |
@@ -110,14 +96,37 @@ Logic of this kind sits underneath real software: database query engines chain f
 
 Modern Age Coders is independent of Surrey History Centre, Project Gutenberg and the ONS. Their material is theirs; the solver, and any error in it, is ours.
 
+Learning path
+
 ## From riddle cards to automated reasoning
 
 The year bands are a guide; the free lesson settles the level.
 
-- **Years 1 to 4: If-then games** Block coding with rules, conditions and puzzles. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 5 to 8: Rules in Python** Typed Python with conditions, dictionaries and simple searches. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Years 9 to 13: Logic and AI** Graphs, logic and AI basics, alongside GCSE and A level. [Python for Teens](/courses/python-complete-masterclass-teens), [High School Mathematics](/courses/complete-high-school-mathematics-mastery)
-- **Adults: Programming depth** Adult Python up to algorithms and data structures. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Years 1 to 4
+
+### If-then games
+
+Block coding with rules, conditions and puzzles.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 5 to 8
+
+### Rules in Python
+
+Typed Python with conditions, dictionaries and simple searches.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Years 9 to 13
+
+### Logic and AI
+
+Graphs, logic and AI basics, alongside GCSE and A level.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[High School Mathematics](/courses/complete-high-school-mathematics-mastery)Adults
+
+### Programming depth
+
+Adult Python up to algorithms and data structures.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)AI and logic
 
 ## An AI can sound logical. Does it know a converse from a contrapositive?
 
@@ -129,30 +138,139 @@ A Guildford learner who has built a solver that refuses converses knows to check
 
 Checking every step of a confident argument is a strong reason for a Guildford teenager to keep learning programming in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How lessons run
+
 ## From Send to Shalford, live online
 
 Anywhere in the borough joins by video.
 
-- **The learner codes** Students write their own programs, with the teacher following on screen and asking guiding questions.
-- **Matched to the year** A Year 6 or a Year 13 begins at the stage their school year and trial lesson point to, with exam board names used.
-- **A free trial** The first full lesson costs nothing and ends with honest advice.
-- **Classes by stage** Fifteen to twenty learners at the same level, from across the UK.
-- **Term pattern** Two lessons each week during term, with holidays kept free.
-- **Fixed local time** Clock changes never move your lesson; our teachers shift instead.
+### The learner codes
 
-**Why the groups meet online** Five Guildford learners at one level and one free hour are rarely neighbours. Online groups give each learner the right classmates.
+Students write their own programs, with the teacher following on screen and asking guiding questions.
+
+### Matched to the year
+
+A Year 6 or a Year 13 begins at the stage their school year and trial lesson point to, with exam board names used.
+
+### A free trial
+
+The first full lesson costs nothing and ends with honest advice.
+
+### Classes by stage
+
+Fifteen to twenty learners at the same level, from across the UK.
+
+### Term pattern
+
+Two lessons each week during term, with holidays kept free.
+
+### Fixed local time
+
+Clock changes never move your lesson; our teachers shift instead.
+
+Why the groups meet online
+
+Five Guildford learners at one level and one free hour are rarely neighbours. Online groups give each learner the right classmates.
+
+Fees
 
 ## Fees in Guildford
 
 Guildford learners pay the same fee we charge across every country outside India.
 
-- First class: USD 0. A whole lesson free, with a clear recommendation.
-- Group tuition: USD 100 a month. About eight live lessons a month in a small class.
-- Private tuition: USD 150 a month. About eight live lessons a month with one tutor.
+First class**USD 0**
+
+A whole lesson free, with a clear recommendation.
+
+Group tuition**USD 100**
+
+About eight live lessons a month in a small class.
+
+Private tuition**USD 150**
+
+About eight live lessons a month with one tutor.
 
 Everything is priced in US dollars, never sterling. Billing starts once the trial has agreed a course and a weekly time; the pricing page covers breaks, absences and switching formats.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20Guildford.)Reviews
+
+## Google reviews from families
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Guildford lesson
+
+Tell us the learner's age or year and one interest. A trial could be a Scratch riddle game, a first Python program, an AI project, or Carroll's kangaroo puzzle.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Guildford one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20Guildford.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Guildford questions
+
+The town, the logic project and practical details.
 
 ### How many people live in Guildford?
 
@@ -194,10 +312,14 @@ The first is free; then USD 100 a month in a group or USD 150 a month one-to-one
 
 No. Send your holiday dates and we pause.
 
+Nearby pages
+
 ## More pages near Guildford
 
 Our [Surrey](/coding-classes-in-surrey) page covers the county, [High Wycombe](/best-coding-and-ai-classes-in-high-wycombe) counts chair records with missing places, and the [South East](/coding-and-ai-classes-in-south-east-england) page indexes the region. The [UK hub](/coding-classes-in-united-kingdom) lists every page.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20Guildford.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-guildford](https://learn.modernagecoders.com/ai-and-programming-classes-in-guildford#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-guildford*

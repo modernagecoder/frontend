@@ -4,46 +4,32 @@ description: "Live online coding, Python and maths classes across Renfrewshire, 
 canonical: https://learn.modernagecoders.com/coding-classes-in-renfrewshire
 source: src/pages/coding-classes-in-renfrewshire.html
 ---
-> Renfrewshire had about 183,800 residents in roughly 86,700 households at the 2022 census, living at 702.9 people per square kilometre. Paisley is by far its largest town, followed by Renfrew, Johnstone and Erskine, with Linwood, Bishopton, Houston and Bridge of Weir among the rest. Teaching happens live on video from India, and a free first lesson shows which stage fits each learner, P1 to S6 or adult. Anyone aged 6 to 67 can learn coding, Python and maths, one-to-one or with fifteen to twenty classmates. The Renfrewshire project starts at a rare bridge in Renfrew. Once the free lesson is over, a group costs USD 100 a month and one-to-one teaching USD 150 a month.
+> Live online coding, Python and maths classes across Renfrewshire, from Paisley, Renfrew and Johnstone to Erskine, Linwood, Bishopton and Bridge of Weir.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / Renfrewshire
-
-Renfrewshire / Live online
-
-# Coding classes in Renfrewshire
-
-**What are the best coding classes in Renfrewshire?** Renfrewshire had about 183,800 residents in roughly 86,700 households at the 2022 census, living at 702.9 people per square kilometre. Paisley is by far its largest town, followed by Renfrew, Johnstone and Erskine, with Linwood, Bishopton, Houston and Bridge of Weir among the rest. Teaching happens live on video from India, and a free first lesson shows which stage fits each learner, P1 to S6 or adult. Anyone aged 6 to 67 can learn coding, Python and maths, one-to-one or with fifteen to twenty classmates. The Renfrewshire project starts at a rare bridge in Renfrew. Once the free lesson is over, a group costs USD 100 a month and one-to-one teaching USD 150 a month.
-
-Over the White Cart Water in Renfrew stands a bridge that opens by rolling. Historic Environment Scotland lists it at Category A: a Scherzer rolling lift bridge built in 1923 by Sir William Arrol and Company, first opened on 24 March 1923, and one of only two rolling lift bridges left in Scotland. Most opening bridges swing up about a fixed hinge. A rolling lift instead rocks backwards on a curved segment, like a rocking chair, so the whole leaf moves back as it tilts up. Where does the tip of a rolling leaf actually go, and how different is its path from a simple hinge? This page's project answers with parametric equations in Python, and meets a units bug that turns a few metres into hundreds.
-
-Facts last verified 26 September 2026. Teaching is online; no Renfrewshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Renfrewshire
 
 ## Good places to start in Renfrewshire
 
 A seven-year-old in Paisley who loves machines, a P6 in Johnstone keen on games, an S5 in Erskine taking Higher Maths, and an adult in Renfrew moving into engineering software. Each begins with a free lesson.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 11): Scratch projects with moving parts, turning sprites and simple machines.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): Coordinates, angles and motion, understood by animating them in code.
-- [High School Mathematics](/courses/complete-high-school-mathematics-mastery) (Ages 14 to 18): Secondary maths in depth, including trigonometry, radians and parametric curves.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Adults): Python from zero for adults, up to calculations, plots and simulations.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 11Scratch Coding for KidsScratch projects with moving parts, turning sprites and simple machines.See the syllabus](/courses/scratch-programming-complete-course)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingCoordinates, angles and motion, understood by animating them in code.See the syllabus](/courses/maths-through-coding)[![High School Mathematics course thumbnail](/images/high-school-maths.webp)Ages 14 to 18High School MathematicsSecondary maths in depth, including trigonometry, radians and parametric curves.See the syllabus](/courses/complete-high-school-mathematics-mastery)[![Python Masterclass course thumbnail](/images/python-college.webp)AdultsPython MasterclassPython from zero for adults, up to calculations, plots and simulations.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Renfrewshire in figures
 
 ## About 183,800 people in Renfrewshire
 
 The council total is a rounded first result of the 2022 census from National Records of Scotland. Town sizes are NRS estimates for mid-2020; part of the Glasgow locality also lies in Renfrewshire and is left out here.
 
-**Renfrewshire localities above 3,000 people, NRS mid-2020 estimates**
-
 | Locality | Residents | Locality | Residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Paisley | 77,270 | Bishopton | 7,920 |
 | Renfrew | 24,270 | Houston | 6,360 |
 | Johnstone | 15,930 | Elderslie | 5,480 |
@@ -56,16 +42,16 @@ With 702.9 residents per square kilometre, Renfrewshire is ten times as densely 
 
 The [Glasgow](/best-coding-class-in-glasgow) page covers the city. For exams, see [Higher Maths](/higher-maths-tuition-online) and [National 5 Computing Science](/national-5-computing-science-help).
 
+The Renfrewshire project
+
 ## A leaf that rolls as it rises
 
 Rotation, translation and one rule: no slipping.
 
 The sizes are invented. The leaf is a straight span 20 metres long, lying flat across the channel when closed. For a fixed hinge, the tip simply swings around the pivot: at an angle a it sits at 20 cos a across and 20 sin a up. For a rolling lift, the land end carries a curved segment of radius 4 metres that rolls back along a flat track without slipping. No slipping has a precise meaning: when the segment has turned through an angle a, measured in radians, its centre has moved back by exactly 4 times a metres. The learner writes the tip's position as that backwards shift plus a rotation, two equations in the angle, which is what mathematicians call a parametric curve.
 
-**Our tip positions, rolling lift versus fixed hinge, invented 20 m leaf, 26 September 2026**
-
 | Opening angle | Rolling lift tip (across, up) | Hinge tip (across, up) | Rolling centre moved back |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 15 degrees | 19.31 m, 5.31 m | 19.32 m, 5.18 m | 1.05 m |
 | 45 degrees | 13.83 m, 15.31 m | 14.14 m, 14.14 m | 3.14 m |
 | 60 degrees | 9.28 m, 19.32 m | 10.00 m, 17.32 m | 4.19 m |
@@ -92,14 +78,14 @@ Derive the rolling equations, check the no-slip condition numerically, compute p
 
 The listing gives the bridge type, builder and dates. The leaf length, segment radius and every position in the table are invented for teaching and do not describe the Renfrew bridge's real dimensions or movement.
 
+Why the Renfrew bridge
+
 ## One of two rolling lift bridges left in Scotland
 
 What Historic Environment Scotland records.
 
-**Rolling Lift Bridge over White Cart Water, Renfrew, HES listing LB40425**
-
 | Listing detail | What it records |
-|---|---|
+| --- | --- |
 | Type | Single-span Scherzer rolling lift bridge, truss span with the roadway on the lower chord |
 | Builder | Sir William Arrol and Company |
 | Opened | 24 March 1923 |
@@ -111,14 +97,37 @@ Parametric curves describe robot arms, animation paths in films and games, gear 
 
 We have no connection with Historic Environment Scotland or Renfrewshire Council. The listing facts are theirs; the model bridge, its numbers and any mistakes are ours.
 
+Learning path
+
 ## From rolling coins to parametric curves
 
 The stages are a guide only; the free lesson decides.
 
-- **P1 to P4: Moving things** Block coding with wheels, turns and simple animations. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **P5 to S2: Angles and motion** Typed Python with coordinates, angles and plotting. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **S3 to S6: Trigonometry in code** Radians, parametric equations and simulations beside National 5, Higher and Advanced Higher Maths. [High School Mathematics](/courses/complete-high-school-mathematics-mastery), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Engineering Python** Python for adults, from calculations and plots to simple simulations. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+P1 to P4
+
+### Moving things
+
+Block coding with wheels, turns and simple animations.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)P5 to S2
+
+### Angles and motion
+
+Typed Python with coordinates, angles and plotting.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)S3 to S6
+
+### Trigonometry in code
+
+Radians, parametric equations and simulations beside National 5, Higher and Advanced Higher Maths.
+
+[High School Mathematics](/courses/complete-high-school-mathematics-mastery)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Engineering Python
+
+Python for adults, from calculations and plots to simple simulations.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)AI and units
 
 ## An AI can animate a bridge in seconds. Will it notice the bridge has moved 280 metres?
 
@@ -130,30 +139,139 @@ A Renfrewshire learner who checks whether an answer is physically possible catch
 
 A teenager in Renfrewshire should still learn to code in 2026 so that an impossible answer looks impossible to them. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Lesson details
+
 ## From Paisley to Bridge of Weir, online
 
 Busy towns and villages across Renfrewshire join lessons the same way.
 
-- **Writing real code** Learners type and run every line; the teacher watches the shared screen and steps in when needed.
-- **Scottish stages throughout** P and S stages, National 5, Higher and Advanced Higher are our terms too. Teaching is in English.
-- **Free first lesson** A full lesson at no cost, then a clear recommendation.
-- **Groups matched by stage** Fifteen to twenty learners at one stage per group, often from several countries.
-- **Term-time lessons** Two a week during term, none in the school holidays.
-- **Your UK time stays fixed** We keep your slot at the same UK time through the clock changes; teachers in India time adjust.
+### Writing real code
 
-**Why groups cross town lines** Five learners at one stage, free at the same hour, rarely live in one Renfrewshire town. Grouping by stage gives a pupil in Linwood or Kilbarchan a class that fits.
+Learners type and run every line; the teacher watches the shared screen and steps in when needed.
+
+### Scottish stages throughout
+
+P and S stages, National 5, Higher and Advanced Higher are our terms too. Teaching is in English.
+
+### Free first lesson
+
+A full lesson at no cost, then a clear recommendation.
+
+### Groups matched by stage
+
+Fifteen to twenty learners at one stage per group, often from several countries.
+
+### Term-time lessons
+
+Two a week during term, none in the school holidays.
+
+### Your UK time stays fixed
+
+We keep your slot at the same UK time through the clock changes; teachers in India time adjust.
+
+Why groups cross town lines
+
+Five learners at one stage, free at the same hour, rarely live in one Renfrewshire town. Grouping by stage gives a pupil in Linwood or Kilbarchan a class that fits.
+
+Fees
 
 ## Fees in Renfrewshire
 
 Paisley or Houston, the fee does not change, and it is the same in every country we teach outside India.
 
-- First class: USD 0. A complete lesson at no charge, followed by advice.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty.
-- Private tuition: USD 150 a month. About eight lessons a month, one-to-one.
+First class**USD 0**
+
+A complete lesson at no charge, followed by advice.
+
+Group tuition**USD 100**
+
+About eight lessons a month in a group of fifteen to twenty.
+
+Private tuition**USD 150**
+
+About eight lessons a month, one-to-one.
 
 We price in US dollars only, with no sterling list. Billing starts once the free lesson has fixed a course and weekly time; the pricing page covers holidays, missed lessons and changing formats.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Renfrewshire%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Reviews
+
+## Google reviews of Modern Age Coders
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Renfrewshire lesson
+
+Tell us the learner's age or school stage and a favourite subject. The first lesson might be a Scratch machine, a Python plot, or the rolling bridge on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Renfrewshire one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Renfrewshire%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Renfrewshire questions
+
+The council area, the Renfrew bridge project and practical details.
 
 ### How many people live in Renfrewshire?
 
@@ -195,10 +313,14 @@ The first lesson is free, then USD 100 a month in a group or USD 150 a month one
 
 Yes. Send us your school's holiday dates and we fit around them.
 
+Nearby pages
+
 ## Around Renfrewshire
 
 The [East Renfrewshire](/coding-classes-in-east-renfrewshire) page controls a reservoir sluice, [Inverclyde](/coding-classes-in-inverclyde) floods a dry dock, and [Glasgow](/best-coding-class-in-glasgow) has its own city page. All councils are on the [Scotland](/coding-and-ai-classes-in-scotland) page, and the [UK hub](/coding-classes-in-united-kingdom) covers the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Renfrewshire%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-renfrewshire](https://learn.modernagecoders.com/coding-classes-in-renfrewshire#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-renfrewshire*

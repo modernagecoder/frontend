@@ -4,46 +4,32 @@ description: "Live online coding, Python and AI classes across County Kilkenny, 
 canonical: https://learn.modernagecoders.com/coding-classes-in-county-kilkenny
 source: src/pages/coding-classes-in-county-kilkenny.html
 ---
-> Kilkenny is a county of 104,160 people, 21,094 of them aged 15 and under, with one large town and a great many small ones: the city holds 27,184 while Castlecomer holds 1,496. Nobody in this county sat the first cohort of Leaving Certificate Computer Science, because no Kilkenny school was on that first list. Our classes run live, in ability groups of fifteen to twenty or one to one, for anyone from six years old to sixty-seven. The opening lesson costs nothing; after that a group place is USD 100 a month and a private one is USD 150.
+> Live online coding, Python and AI classes across County Kilkenny, from Kilkenny city and Castlecomer to Thomastown and Callan, ages 6 to 67. First lesson free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [Waterford](/best-coding-class-in-waterford) / County Kilkenny
-
-County Kilkenny, Leinster / Live online
-
-# Coding classes in County Kilkenny
-
-**What are the best coding classes in County Kilkenny?** Kilkenny is a county of 104,160 people, 21,094 of them aged 15 and under, with one large town and a great many small ones: the city holds 27,184 while Castlecomer holds 1,496. Nobody in this county sat the first cohort of Leaving Certificate Computer Science, because no Kilkenny school was on that first list. Our classes run live, in ability groups of fifteen to twenty or one to one, for anyone from six years old to sixty-seven. The opening lesson costs nothing; after that a group place is USD 100 a month and a private one is USD 150.
-
-Open Kilkenny County Council's road traffic file and two columns are full of blanks. The temptation is to fill them in, average them out, or drop the rows. Look closer and the blanks are the most informative thing in the file. Every local road has one column filled and the other empty. Every motorway has the opposite. The gaps are not accidental and they are not random: they record which counting method was used on which class of road. Fill them in and you have invented traffic that nobody measured. This is one of the deepest ideas in working with data, it is visible here in a small public spreadsheet from a small Irish county, and a fifteen year old can see it in an afternoon.
-
-Facts last verified 16 September 2026. Teaching is online; no County Kilkenny branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for County Kilkenny
 
 ## Four courses, by age and appetite
 
 Each begins with a free lesson from the teacher who would take the course. Nothing is charged and no card details are collected before a family decides.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Scratch projects where some of the information is missing on purpose, and the program has to cope rather than pretend.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Python plus a grounded first look at what a generated answer is actually made of.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): Real spreadsheets with real gaps, and the difference between a blank and a zero.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (College and adult): For adults who inherit other people's files and have to decide what the empty cells mean.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsScratch projects where some of the information is missing on purpose, and the program has to cope rather than pretend.See the syllabus](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsPython plus a grounded first look at what a generated answer is actually made of.See the syllabus](/courses/python-ai-kids-masterclass)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensReal spreadsheets with real gaps, and the difference between a blank and a zero.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)College and adultData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For adults who inherit other people's files and have to decide what the empty cells mean.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## The blanks are the data
 
 Two council files, four traps, and one idea that changes how somebody reads every spreadsheet afterwards.
 
-**What the gaps in the 2016 traffic counts actually track**
-
 | Road class | Daily traffic column | Annual daily traffic column |
-|---|---|---|
+| --- | --- | --- |
 | Local primary, 11 sites | Reported | Blank in every one |
 | Local secondary, 4 sites | Reported | Blank in every one |
 | Motorway, 6 sites | Blank in every one | Reported |
@@ -68,14 +54,14 @@ The same council publishes quarterly purchase order files, and they contain two 
 
 A third finding from the same file is worth a sentence for its own sake: ten of the sixty rows share an order number with another row, and none of those is an error. The same order number is legitimately reused across several invoices and periods. Removing duplicates by order number, the most natural cleaning step in the world, throws away ten genuine transactions. Every one of these traps rewards reading the file before writing code against it, which is the entire lesson.
 
+The county today
+
 ## One city and a scatter of small places
 
 Figures below are quoted from national statistics releases naming Kilkenny.
 
-**County Kilkenny at the 2022 census**
-
 | What was counted | How many |
-|---|---|
+| --- | --- |
 | People in the county | 104,160, an increase of 4,928 since 2016 |
 | Female and male | 52,277 and 51,883, or 99 males for every 100 females |
 | Average age | 39.7 years, up from 37.9 |
@@ -98,6 +84,8 @@ Among places of at least 500 people, Paulstown has the youngest average age at 3
 
 One more boundary is worth stating plainly, because it catches people out. Part of Waterford city's built-up area lies inside County Kilkenny, on the far side of the river, and the statistics office lists that settlement separately as belonging to two counties at once. Those residents are counted in Kilkenny's council figures and in Waterford's city figures, and neither is a mistake. This page uses only the standalone Kilkenny figures, and the Waterford city numbers stay on the Waterford page where they belong.
 
+Schools, work and travel
+
 ## A county with no school on the first list
 
 The honest version of Kilkenny's computer science story, plus where the county works and how it gets there.
@@ -114,10 +102,8 @@ It says nothing about Kilkenny schools today, and nothing about any pupil here. 
 
 If a teenager here wants to go further than their timetable allows, something outside the school has to provide it. That is the gap we exist to fill, and it is a plain statement rather than a criticism of anybody.
 
-**Working and commuting in Kilkenny, Census 2022**
-
 | Measured | Count |
-|---|---|
+| --- | --- |
 | At work in the county | Almost 46,200 people |
 | Largest sector | Human health and social work, with more than 6,300 |
 | Travelling to work | 40,560 |
@@ -125,7 +111,11 @@ If a teenager here wants to go further than their timetable allows, something ou
 | Walking and cycling | 3,537 and 565, with Kilkenny among the ten towns with the highest share of commuters cycling at 3.6% |
 | Average journey | 27 minutes, up from 25.6 minutes in 2016 |
 
-**Home working, and what it makes possible** More than 29,100 people in this county never work from home, while just over 12,900 do at least some of the time, which the statistics office puts at 28% of the workforce against 32% nationally. Nearly 3,100 are at home all five days. Those households already run on video calls at fixed times, which is exactly the shape of a weekly class.
+Home working, and what it makes possible
+
+More than 29,100 people in this county never work from home, while just over 12,900 do at least some of the time, which the statistics office puts at 28% of the workforce against 32% nationally. Nearly 3,100 are at home all five days. Those households already run on video calls at fixed times, which is exactly the shape of a weekly class.
+
+Addresses, quoted exactly
 
 ## Where the county keeps its records
 
@@ -145,14 +135,37 @@ The Office of Public Works gives Kilkenny Castle at The Parade, Kilkenny City, e
 
 We are not connected with Kilkenny County Council, Glanbia, Tirlan, the Office of Public Works or any school mentioned here. Population, education and travel figures are quoted from Central Statistics Office releases naming Kilkenny; the dataset counts, licences and every measurement described in the project are ours, taken from files the council publishes under a Creative Commons Attribution licence; and the absence of a Kilkenny school on the 2018 list comes from reading that list in full rather than from a summary of it.
 
+Learning ladder
+
 ## From an empty box to a stated assumption
 
 Ages guide the grouping. The free lesson decides it.
 
-- **Ages 6 to 10: Something is missing** Programs that behave properly when a piece of information simply is not there. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 11 to 13: Blank is not zero** The difference between nothing recorded and a recorded nothing, in a real spreadsheet. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Patterns in the gaps** Cross-tabulating what is missing against everything else, and reporting what that shows. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Assumptions on the record** Writing down what you assumed about missing values, so a reviewer can disagree with it. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### Something is missing
+
+Programs that behave properly when a piece of information simply is not there.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 11 to 13
+
+### Blank is not zero
+
+The difference between nothing recorded and a recorded nothing, in a real spreadsheet.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Patterns in the gaps
+
+Cross-tabulating what is missing against everything else, and reporting what that shows.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Assumptions on the record
+
+Writing down what you assumed about missing values, so a reviewer can disagree with it.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## Every tool will offer to fill in the blanks for you
 
@@ -164,30 +177,139 @@ Nothing in the suggestion is dishonest. The tool cannot see that the missingness
 
 That question, asked before any code is written, is the habit we teach. It is also the one thing in this whole subject that gets more valuable as the tools get better. The longer argument is in [whether coding is still worth learning in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## The practical details for a Kilkenny family
 
 Six things worth knowing before the first lesson.
 
-- **A person, not a playlist** Lessons are taught live by a teacher who expects the learner to talk, ask and get things wrong out loud.
-- **Scheduling across time zones** Our teaching team works from India, several hours ahead of Ireland, which is why afternoon and evening slots here are straightforward to fill.
-- **Grouped by what they can do** Fifteen to twenty learners at one level, gathered from Kilkenny and other countries, so a genuine peer group exists rather than a room of mixed abilities.
-- **Equipment** A laptop or desktop, sound that works, a steady connection. Tools are installed together in the first lessons.
-- **Term-time aware** Junior Cycle, Transition Year and the senior cycle are planned around, including mid-terms and exam weeks.
-- **Weekly, not occasional** Two lessons in most weeks, roughly eight a month, in a slot fixed at the start and then kept.
+### A person, not a playlist
 
-**Why the format fits this county** Kilkenny is one city surrounded by villages. Thomastown, Graiguenamanagh, Callan, Ballyragget and Castlecomer are each a real drive from the city, and 27,846 people here are already doing a daily drive of around 27 minutes to work. A weekly class that needs no car is the version that survives a wet February.
+Lessons are taught live by a teacher who expects the learner to talk, ask and get things wrong out loud.
+
+### Scheduling across time zones
+
+Our teaching team works from India, several hours ahead of Ireland, which is why afternoon and evening slots here are straightforward to fill.
+
+### Grouped by what they can do
+
+Fifteen to twenty learners at one level, gathered from Kilkenny and other countries, so a genuine peer group exists rather than a room of mixed abilities.
+
+### Equipment
+
+A laptop or desktop, sound that works, a steady connection. Tools are installed together in the first lessons.
+
+### Term-time aware
+
+Junior Cycle, Transition Year and the senior cycle are planned around, including mid-terms and exam weeks.
+
+### Weekly, not occasional
+
+Two lessons in most weeks, roughly eight a month, in a slot fixed at the start and then kept.
+
+Why the format fits this county
+
+Kilkenny is one city surrounded by villages. Thomastown, Graiguenamanagh, Callan, Ballyragget and Castlecomer are each a real drive from the city, and 27,846 people here are already doing a daily drive of around 27 minutes to work. A weekly class that needs no car is the version that survives a wet February.
+
+Fees
 
 ## What Kilkenny families pay
 
 Three lines, and the conditions in plain view.
 
-- First class: USD 0. The opening lesson is free and complete, ending with a level and a recommended course.
-- Group tuition: USD 100 a month. A month of group classes, around eight lessons, with fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. A month of one to one lessons on the same weekly rhythm.
+First class**USD 0**
+
+The opening lesson is free and complete, ending with a level and a recommended course.
+
+Group tuition**USD 100**
+
+A month of group classes, around eight lessons, with fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+A month of one to one lessons on the same weekly rhythm.
 
 Billing is monthly and in US dollars, the one rate we use outside India, so a family in Graiguenamanagh pays exactly what a family in the city pays. Nothing is taken until a course and a weekly hour have been agreed in the free lesson, and the pricing page explains pauses, missed lessons and switching format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20County%20Kilkenny.)Reviews
+
+## Six reviews our families left on Google, unedited
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book the free lesson
+
+Give us the learner's age and what they are interested in. We shape the first hour around it, from a Scratch project with missing information to a real spreadsheet full of meaningful blanks.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented County Kilkenny one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20County%20Kilkenny.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## County Kilkenny coding class questions
+
+The things Kilkenny families ask first.
 
 ### How many people live in County Kilkenny?
 
@@ -229,10 +351,14 @@ The first lesson is free. After that a shared place costs USD 100 a month and br
 
 Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
+Explore Ireland
+
 ## The south east, and the rest
 
 Kilkenny sits between [Waterford](/best-coding-class-in-waterford), [County Carlow](/coding-classes-in-county-carlow), [County Wexford](/coding-classes-in-county-wexford) and [County Tipperary](/coding-classes-in-county-tipperary), all of which have their own pages. For a straight comparison of online schools read [best online coding classes in Ireland](/best-online-coding-classes-ireland), and the full index is on the [Ireland coding page](/coding-classes-in-ireland).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20County%20Kilkenny.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-county-kilkenny](https://learn.modernagecoders.com/coding-classes-in-county-kilkenny#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-county-kilkenny*

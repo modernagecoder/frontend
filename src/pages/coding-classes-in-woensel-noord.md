@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes in Woensel-Noord, Eindho
 canonical: https://learn.modernagecoders.com/coding-classes-in-woensel-noord
 source: src/pages/coding-classes-in-woensel-noord.html
 ---
-> Coding classes in Woensel-Noord reach the largest stadsdeel of Eindhoven, four statistics office wijken, Ontginning, Achtse Molen, Aanschot and Dommelbeemd, all four read, with 66,195 residents in January 2026. In Ontginning, 9.6 percent of households live at or around the social minimum, 14 percent below 110 percent of it and 18 percent below 120 percent. Those rungs nest, so the bands are 9.6, 4.4 and 4.0 points, and adding them counts the poorest households three times. Beside Oud-Woensel, the answer to which is poorer depends on the rung: Oud-Woensel has more households under the low-income line, 5.6 percent against 4.1, and the two are level on every rung of the social-minimum ladder. Modern Age Coders teaches live online in English from Vlokhoven to Blixembosch, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
+> Live online coding, Python and AI classes in Woensel-Noord, Eindhoven for ages 6 to 67, across Ontginning, Achtse Molen, Aanschot and Dommelbeemd. First lesson free.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Eindhoven](/coding-classes-in-eindhoven) / Woensel-Noord
-
-Woensel-Noord, Eindhoven / Live online
-
-# Coding classes in Woensel-Noord, where a poverty figure is a curve and not a number
-
-**What are the best coding classes in Woensel-Noord, Eindhoven?** Coding classes in Woensel-Noord reach the largest stadsdeel of Eindhoven, four statistics office wijken, Ontginning, Achtse Molen, Aanschot and Dommelbeemd, all four read, with 66,195 residents in January 2026. In Ontginning, 9.6 percent of households live at or around the social minimum, 14 percent below 110 percent of it and 18 percent below 120 percent. Those rungs nest, so the bands are 9.6, 4.4 and 4.0 points, and adding them counts the poorest households three times. Beside Oud-Woensel, the answer to which is poorer depends on the rung: Oud-Woensel has more households under the low-income line, 5.6 percent against 4.1, and the two are level on every rung of the social-minimum ladder. Modern Age Coders teaches live online in English from Vlokhoven to Blixembosch, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
-
-Every wijk row published for Eindhoven carries a small ladder of poverty figures: the share of households under the low-income line, the share at or around the social minimum, and the shares below 110 and 120 percent of it. They look like four separate facts. Three of them are one fact read at three heights, since every household below 110 percent is also below 120, which means the figures can be subtracted to find the bands between the rungs and must never be added. And when two places are compared, the comparison belongs to the whole ladder rather than to one rung, because two neighbourhoods can sit far apart on the bottom rung and level on the next. Woensel-Noord shows both, and the same habit decides whether a server is reported fast because of its median or slow because of its slowest one percent.
-
-Facts last verified 11 September 2026. Teaching is online; no Woensel-Noord branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Woensel-Noord
 
 ## Four courses for the north of Eindhoven
 
 A groep 5 child in Aanschot, where 3,470 residents are under fifteen, a teenager in Achtse Molen who wants to build a proper app rather than another school slide deck, a student in Dommelbeemd whose program reports an average and hides a slow tail, and an adult near the shopping centre in Ontginning who is handed a report with four percentages and asked for one number. Each starts with a full lesson and a bill of nothing.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Typed Python where a child draws a staircase of running totals and finds each step by taking one total from the next.
-- [App Development for Teens](/courses/complete-app-development-masterclass-for-teens) (Ages 13 to 18): A real app built end to end, including the stats screen that shows the slowest users as well as the average one.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Python where cumsum and diff are used on purpose, and every comparison is made at several percentiles rather than one.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): Reading a table of thresholds by asking which figures contain which, and at which line two places really differ.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsTyped Python where a child draws a staircase of running totals and finds each step by taking one total from the next.See the syllabus](/courses/python-ai-kids-masterclass)[![App Development for Teens course thumbnail](/images/app-dev-teens.webp)Ages 13 to 18App Development for TeensA real app built end to end, including the stats screen that shows the slowest users as well as the average one.See the syllabus](/courses/complete-app-development-masterclass-for-teens)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CoursePython where cumsum and diff are used on purpose, and every comparison is made at several percentiles rather than one.See the syllabus](/courses/python-ai-automation-masterclass-college)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)Reading a table of thresholds by asking which figures contain which, and at which line two places really differ.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Woensel-Noord today
 
 ## Four wijken, and the most people of any Eindhoven stadsdeel
 
@@ -52,16 +40,18 @@ Achtse Molen has 15,695 residents, 77 percent of its dwellings owner-occupied an
 
 13,674 residents on 515 hectares, six buurten: Esp, Bokt, Heesterakker, Vaartbroek, Eckart and Luytelaer. Roughly half the 6,108 dwellings are owner-occupied, 3,115, and 2,235 residents are under fifteen. The valley of the Dommel runs along the east of Woensel.
 
-**A castle of 1695 and a church of 1920** The encyclopaedia entry for Woensel supplies the landmarks of the north. Kasteel Eckart was built in 1695 for Jonkheer Carel van Vlierden, and Eckart is now a buurt of Dommelbeemd. The Eckartsebos, also called the Lage Heide, is described as a rich and varied area, and the Dommeldal lies to the east of Woensel. The Onze Lieve Vrouw van Lourdeskerk in the hamlet of Vlokhoven dates from 1920 and was designed by Wolter te Riele. The same entry lists Kerkdorp Acht as a buurt of Achtse Molen and Blixembosch-Oost and Blixembosch-West as buurten of Aanschot, and notes that the Catharina Ziekenhuis stands in Woensel. The page repeats these lines as written.
+A castle of 1695 and a church of 1920
+
+The encyclopaedia entry for Woensel supplies the landmarks of the north. Kasteel Eckart was built in 1695 for Jonkheer Carel van Vlierden, and Eckart is now a buurt of Dommelbeemd. The Eckartsebos, also called the Lage Heide, is described as a rich and varied area, and the Dommeldal lies to the east of Woensel. The Onze Lieve Vrouw van Lourdeskerk in the hamlet of Vlokhoven dates from 1920 and was designed by Wolter te Riele. The same entry lists Kerkdorp Acht as a buurt of Achtse Molen and Blixembosch-Oost and Blixembosch-West as buurten of Aanschot, and notes that the Catharina Ziekenhuis stands in Woensel. The page repeats these lines as written.
+
+Four rungs, one curve
 
 ## The same four wijken in the same order on every rung
 
 The poverty figures below are household shares for 2023, published for each wijk. Student households and households with an incomplete year of income are excluded from them. The mean income is a different measure, per resident rather than per household and for 2024 rather than 2023, so it is set beside the ladder and never mixed into it.
 
-**Households by poverty line, 2023, with mean income per resident, 2024**
-
 | Wijk | Under the low-income line | Social-minimum ladder: up to 100, 110 and 120 percent | Mean income per resident |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Ontginning | 4.1 percent | 9.6, then 14, then 18 percent | 30,700 euro |
 | Dommelbeemd | 3.9 percent | 8.4, then 12, then 16 percent | 31,400 euro |
 | Aanschot | 2.8 percent | 5.1, then 7.8, then 9.9 percent | 36,400 euro |
@@ -69,6 +59,8 @@ The poverty figures below are household shares for 2023, published for each wijk
 | Oud-Woensel, just south, for comparison | 5.6 percent | 9.5, then 14, then 17 percent | 34,000 euro |
 
 Inside Woensel-Noord the four curves never touch. Ontginning is highest on every rung and on the low-income line, then Dommelbeemd, then Aanschot, then Achtse Molen, and the mean income runs in the same order the other way up. When one curve lies above another everywhere, a ranking is safe, because no choice of line can change it. The comparison with Oud-Woensel is different. On the low-income line Oud-Woensel is clearly higher, 5.6 percent against 4.1. On the social-minimum rung the two are level, 9.5 against 9.6; below 110 percent they are level at 14; below 120 percent they are 17 and 18, which on figures published as whole numbers is also level. The gap between them depends entirely on which line is drawn, and by the mean income Ontginning is the lower of the two.
+
+Verified local facts
 
 ## All four wijken of Woensel-Noord, with every subtraction made
 
@@ -100,6 +92,8 @@ It does not say which wijk of the two, Ontginning or Oud-Woensel, is the poorer;
 
 Modern Age Coders has no connection with Woensel-Noord, Eindhoven, the castle, the church or any school, hospital or shop named here, and nothing on the page suggests one. The four wijk rows and the Oud-Woensel ladder come from the statistics office pages for each wijk: residents and ages for 2026, sex, households and dwellings for 2025, income for 2024, the poverty lines for 2023, social assistance for 2025. The definitions of the low-income line and the social minimum are those of the statistics office, and the landmarks and the 1920 date are copied from the encyclopaedia entry for Woensel.
 
+Signature project
+
 ## Read the ladder as a curve, not four numbers
 
 Thresholds that nest make a cumulative curve. Difference it to find the bands, never add it up, and compare two places along the whole of it.
@@ -116,10 +110,8 @@ For Ontginning the rungs 9.6, 14 and 18 become bands of 9.6, 4.4 and 4.0. Adding
 
 If one curve is above another at every rung, the ranking is safe whichever line is chosen, as it is among the four Woensel-Noord wijken. If the curves meet, as Ontginning and Oud-Woensel do above the bottom rung, the ranking belongs to the line, and the line has to be named.
 
-**The same curve, in five other places**
-
 | What is measured | The nested thresholds | The band between two of them | The comparison that depends on the line |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Server response times | under 100 ms, under 500 ms, under 2 s | requests between 100 and 500 ms | one server wins at the median and loses at the 99th percentile |
 | Exam grades | at least a pass, a merit, a distinction | passes that are not merits | one school has more passes, another more distinctions |
 | A running total of sign-ups | by day 1, day 7, day 30 | sign-ups in week one after day one | a daily figure read off a cumulative chart |
@@ -130,14 +122,14 @@ If one curve is above another at every rung, the ranking is safe whichever line 
 
 A ladder of thresholds is a cumulative distribution, sampled at a few points. Programmers meet the same object as a cumulative sum, and the tools come in a matched pair: cumsum builds the ladder from bands, diff recovers the bands from the ladder, and confusing the two produces figures like 41.6 percent that describe nobody, or daily sign-ups read straight off a running total. The comparison lesson is the one engineers learn from response times. Two services can have the same median and very different 99th percentiles, or one can win at the median and lose in the tail, because a percentile is a single rung and the curves cross between rungs. Reporting several percentiles, or plotting the whole cumulative curve, is how teams avoid choosing the line that flatters them. The same care applies to the two measures on this page that are not rungs at all. The mean income per resident is a different quantity, per person and a year later, so it can rank the wijken without contradicting the ladder; and the low-income line is a fixed yardstick of its own, which is why it can put Oud-Woensel clearly above Ontginning while the social-minimum rungs put them level. Nothing here is a contradiction. It is what a distribution looks like when somebody insists on a single number for it.
 
+Reliable pipeline
+
 ## Five habits for any table of thresholds
 
 Poverty lines, latency percentiles, grade boundaries, age bands that say under and over, and confidence cut-offs all describe one distribution at a few heights. Practised on four wijken whose curves never cross and one neighbour whose curve meets theirs.
 
-**Keeping cumulative figures honest**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Check what nests | Work out which thresholds contain which before using any of them | Adding figures that overlap | A ladder and a list, told apart |
 | Difference, then compare | Turn rungs into bands with a subtraction | Triple counting the bottom | Bands that add up properly |
 | Compare at every rung | Rank two things only if one is ahead at every line | A ranking that depends on an unnamed line | Rankings that survive any threshold |
@@ -158,14 +150,37 @@ A report from work with thresholds in it, such as targets met within one, three 
 
 This section works from four published poverty ladders and one comparison ladder, each a set of household shares for 2023 with student and part-year households left out. The rungs are differenced and never added, the low-income line is treated as a separate yardstick, and the mean income is kept to its own column because it counts people rather than households and belongs to 2024. Every band quoted above is a single subtraction of two published rungs.
 
+Learning ladder
+
 ## From a sticker staircase to percentiles that tell the truth about a service
 
 Each learner is placed in the free lesson from how they work on a real task. The wijk they come from and their age are not part of the decision.
 
-- **Ages 6 to 10: One step, not the staircase** Children read a single day from a running total by looking at one step. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Game Development for Kids](/courses/game-development-masterclass-for-kids)
-- **Ages 11 to 13: Running totals** Learners build a total and take it apart again, one subtraction at a time. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Median and tail** Teenagers compare two services at several percentiles and watch them trade places. [App Development for Teens](/courses/complete-app-development-masterclass-for-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Thresholds at work** Adults untangle nested targets in a real report and restate them as bands. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### One step, not the staircase
+
+Children read a single day from a running total by looking at one step.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Game Development for Kids](/courses/game-development-masterclass-for-kids)Ages 11 to 13
+
+### Running totals
+
+Learners build a total and take it apart again, one subtraction at a time.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Median and tail
+
+Teenagers compare two services at several percentiles and watch them trade places.
+
+[App Development for Teens](/courses/complete-app-development-masterclass-for-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Thresholds at work
+
+Adults untangle nested targets in a real report and restate them as bands.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## An AI will name the poorer of two wijken in one word. Why should a teenager in Blixembosch ask which line?
 
@@ -177,30 +192,139 @@ The learner who has compared two services at the median and at the 99th percenti
 
 The case for a child in Woensel-Noord learning to code in 2026 is therefore not that code gives single answers. It is that writing cumsum and diff by hand, and plotting a whole curve, teaches a person to be suspicious of anybody, human or machine, who reports one point of it as the whole story. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for Ontginning, Achtse Molen, Aanschot and Dommelbeemd
 
 Woensel-Noord reaches from the ring road to the northern edge of the city at Acht and Blixembosch, which puts many families a long way from anywhere central, and the evenings here are as crowded as anywhere.
 
-- **From Acht, the centre is far** A family in Kerkdorp Acht or Blixembosch faces a real journey to any classroom in the middle of Eindhoven, and twice a week that journey quietly ends good intentions. The lesson opens on a laptop at home at the agreed hour instead.
-- **Groep and vwo, kept in Dutch** The words a child sees on every school report, groep, havo, vwo and profielkeuze, stay in Dutch during lessons. Translating them would only put distance between the class and the school the learner actually goes to.
-- **A lesson first, no pitch** The free hour is taught in full: a real problem, a teacher watching how the learner approaches it, and at the end a level, a course and a weekly time. There is no payment form and no sales call booked afterwards.
-- **Grouped by stage, from everywhere** Fifteen to twenty learners at the same point in the same subject. Woensel-Noord has 10,220 residents under fifteen, and still five at one exact stage wanting one exact hour is a rare thing, so groups are formed from a worldwide pool.
-- **Holidays by regio Zuid** Two lessons a week, around eight a month, at one hour that does not move. Brabant schools follow regio Zuid holidays, which fall on different dates from the west of the country, and lessons are planned around them.
-- **Summer and winter hours** India is three and a half hours ahead in summer and four and a half in winter; only the Dutch clock changes. The late afternoon, early evening and weekend mornings are all available throughout the year.
+### From Acht, the centre is far
 
-**Twenty-four primary schools, and a group that still comes from everywhere** Woensel-Noord has twenty-four primary establishments teaching 6,488 pupils, nine of them in Aanschot alone, and four secondary establishments teaching 4,109. That is more primary schooling than any other Eindhoven stadsdeel, and it still does not form a coding class. A group needs five learners at the same stage of the same subject free at the same hour, and a pool that size is only found by drawing from every age between 6 and 67 in every country the teachers serve.
+A family in Kerkdorp Acht or Blixembosch faces a real journey to any classroom in the middle of Eindhoven, and twice a week that journey quietly ends good intentions. The lesson opens on a laptop at home at the agreed hour instead.
+
+### Groep and vwo, kept in Dutch
+
+The words a child sees on every school report, groep, havo, vwo and profielkeuze, stay in Dutch during lessons. Translating them would only put distance between the class and the school the learner actually goes to.
+
+### A lesson first, no pitch
+
+The free hour is taught in full: a real problem, a teacher watching how the learner approaches it, and at the end a level, a course and a weekly time. There is no payment form and no sales call booked afterwards.
+
+### Grouped by stage, from everywhere
+
+Fifteen to twenty learners at the same point in the same subject. Woensel-Noord has 10,220 residents under fifteen, and still five at one exact stage wanting one exact hour is a rare thing, so groups are formed from a worldwide pool.
+
+### Holidays by regio Zuid
+
+Two lessons a week, around eight a month, at one hour that does not move. Brabant schools follow regio Zuid holidays, which fall on different dates from the west of the country, and lessons are planned around them.
+
+### Summer and winter hours
+
+India is three and a half hours ahead in summer and four and a half in winter; only the Dutch clock changes. The late afternoon, early evening and weekend mornings are all available throughout the year.
+
+Twenty-four primary schools, and a group that still comes from everywhere
+
+Woensel-Noord has twenty-four primary establishments teaching 6,488 pupils, nine of them in Aanschot alone, and four secondary establishments teaching 4,109. That is more primary schooling than any other Eindhoven stadsdeel, and it still does not form a coding class. A group needs five learners at the same stage of the same subject free at the same hour, and a pool that size is only found by drawing from every age between 6 and 67 in every country the teachers serve.
+
+Fees
 
 ## Fees for Woensel-Noord, in dollars
 
 All of it written down here, with nothing to discover later.
 
-- First class: USD 0. A full lesson on a real task, ending in a level and a named course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A full lesson on a real task, ending in a level and a named course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 A single dollar price for every country, with no separate euro price, so a household in Vlokhoven and one in Blixembosch pay the same. Nothing is charged until the free lesson has settled a course and a weekly time, and payment is then arranged over WhatsApp. What happens with a pause, a change of format or a missed lesson is explained on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Woensel-Noord%2C%20Eindhoven.)Reviews
+
+## Six Google reviews, printed exactly as their writers left them
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us the learner stage
+
+The first task might be a sticker staircase read one step at a time, two services compared at the median and in the tail, or a report of nested targets rebuilt as bands.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Woensel-Noord one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Woensel-Noord%2C%20Eindhoven.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Woensel-Noord coding class questions
+
+The stadsdeel, its four wijken, a poverty ladder read as a curve, the lessons and the terms.
 
 ### What does Woensel-Noord include?
 
@@ -242,10 +366,14 @@ The first lesson is free. After it, group tuition is USD 100 a month for two liv
 
 Fifteen to twenty, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
+Explore Eindhoven and beyond
+
 ## South to Woensel-Zuid, north up the A2, and across Brabant
 
 The city-wide figures, Brainport and the international schools are on [coding classes in Eindhoven](/coding-classes-in-eindhoven). South of Ontginning is the other half of old Woensel, on [Woensel-Zuid](/coding-classes-in-woensel-zuid), where two encyclopaedia boxes turn out to sit under the wrong headings. Tongelre is the last Eindhoven stadsdeel still to be written. North along the A2 lies [Den Bosch](/coding-classes-in-den-bosch), and the province around all of it is [Noord-Brabant](/coding-classes-in-noord-brabant). For a learner who wants machine learning first, the [AI and Python Academy](/ai-and-python-academy-netherlands) is the quicker way in, and the [Netherlands coding hub](/coding-classes-in-netherlands) connects the whole series.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Keep going on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Woensel-Noord%2C%20Eindhoven.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-woensel-noord](https://learn.modernagecoders.com/coding-classes-in-woensel-noord#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-woensel-noord*

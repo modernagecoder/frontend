@@ -4,37 +4,25 @@ description: "Live online AI and programming classes for Mandurah teenagers and 
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-mandurah
 source: src/pages/ai-and-programming-classes-in-mandurah.html
 ---
-> Live lessons in which a Mandurah teenager or adult builds a prediction from real Western Australian data and then measures honestly how far off it can be. The City of Mandurah held 90,306 people at the 2021 Census. Classes are online, in a small group at the same level or one to one, and the first costs nothing.
+> Live online AI and programming classes for Mandurah teenagers and adults, with a project that tests whether one error band fits every distance on local roads.
 
-[Home](/) / [Western Australia](/coding-and-ai-classes-in-western-australia) / [Australia](/coding-classes-in-australia) / Mandurah
-
-Mandurah, Peel region, Western Australia / Live online
-
-# AI and programming classes in Mandurah
-
-**What are the best AI and programming classes in Mandurah?** Live lessons in which a Mandurah teenager or adult builds a prediction from real Western Australian data and then measures honestly how far off it can be. The City of Mandurah held 90,306 people at the 2021 Census. Classes are online, in a small group at the same level or one to one, and the first costs nothing.
-
-Main Roads WA marks its roads with reference points every hundred metres or so, each one tagged with its distance along the road and its exact position. Around Mandurah that open dataset holds 5,887 points. Pair them up along each road and a simple question appears: if you know how far a trip runs along the road, how well can you predict the straight-line distance? A line through the data answers on average. But the errors are tiny for short hops and large for longer ones, so a single error band of plus or minus 507 metres is far too wide for a 300 metre trip and too narrow for a 3 kilometre one. Our Mandurah learners find out why a model's uncertainty must grow with what it is predicting.
-
-Facts last verified 10 October 2026. Teaching is online; no Mandurah branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Mandurah
 
 ## Routes in for a Mandurah learner
 
 Each course reaches the road-distance project below. The free lesson recommends one, with no card details asked for.
 
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Machine learning basics, from fitting a line to measuring how wrong it is.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): Python with real tables, charts of errors and fair comparisons between models.
-- [Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college) (University and adult): AI and machine learning in full, including uncertainty and evaluation.
-- [Data Science Course](/courses/data-science-complete-masterclass-college) (University and adult): Regression, residual analysis, weighting and intervals that hold up.
+[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensMachine learning basics, from fitting a line to measuring how wrong it is.See the syllabus](/courses/ai-ml-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensPython with real tables, charts of errors and fair comparisons between models.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Artificial Intelligence Course course thumbnail](/images/ai-college.webp)University and adultArtificial Intelligence CourseAI and machine learning in full, including uncertainty and evaluation.See the syllabus](/courses/artificial-intelligence-complete-masterclass-college)[![Data Science Course course thumbnail](/images/data-science-college.webp)University and adultData Science CourseRegression, residual analysis, weighting and intervals that hold up.See the syllabus](/courses/data-science-complete-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Mandurah in the Census
 
 ## A coastal city of 90,306 south of Perth
 
@@ -42,10 +30,8 @@ The 2021 Census for the City of Mandurah council area, set beside Western Austra
 
 Mandurah counted 90,306 residents with a median age of 45, living as 25,111 families in 44,094 private dwellings at 2.4 people per household.
 
-**Mandurah beside WA and Australia (2021 Census shares)**
-
 | Measure | Mandurah | WA | Australia |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Technicians and trades workers (6,739 people) | 18.6% | 15.3% | 12.9% |
 | Professionals (5,215 people) | 14.4% | 22.0% | 24.0% |
 | Bachelor degree or higher (9,103 people) | 12.2% | 23.8% | 26.3% |
@@ -65,14 +51,14 @@ The count included 4,962 people aged 15 to 19 and 4,506 aged 20 to 24.
 
 The ABS estimate for the City of Mandurah at 30 June 2025 is 106,827. Census values include small random adjustments for privacy, so a table's rows can differ from its total; we print what the bureau printed and never add rows to make a total.
 
+Signature project
+
 ## Does one error band fit every distance on Mandurah's roads?
 
 Pairs of Main Roads WA reference points on the same road, comparing distance along the road with distance as the crow flies, for trips up to 4 kilometres.
 
-**How the errors grow with distance, 1,623 pairs (our analysis, 10 October 2026)**
-
 | Distance along the road | Pairs | Typical error | Fixed band covers | Scaled band covers |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Up to 0.5 km | 520 | 28 m | 100.0% | 99.4% |
 | 0.5 to 1 km | 503 | 107 m | 99.6% | 97.2% |
 | 1 to 2 km | 408 | 276 m | 92.2% | 91.2% |
@@ -96,14 +82,14 @@ Overall coverage of 95.4% looks like a well calibrated model. It is really two m
 
 Pairs come from 102 roads whose points run continuously, led by Lakelands Lake Clifton Road, Pinjarra Road and Melville Mandurah Highway. Beyond 4 kilometres nearly all pairs come from a few long main roads, so the analysis stops there. Every fit and percentage is our own calculation from the Main Roads WA open data.
 
+Honest uncertainty
+
 ## Checking whether a model's errors behave
 
 Practised on Mandurah's road points, then used on house price models, delivery time estimates or any AI prediction with a confidence figure.
 
-**Checks on the Mandurah road model**
-
 | Check | Method | What it showed |
-|---|---|---|
+| --- | --- | --- |
 | Plot residuals against the input | Scatter of error against road distance | A funnel that widens to the right |
 | Split coverage by group | Band coverage for each distance range | 100.0% for short trips, 78.6% for long |
 | Let the band grow | Width proportional to distance | Closer to 95% in three of four ranges, far narrower for short trips |
@@ -125,6 +111,8 @@ Any forecast with a plus or minus attached deserves the same check by size and b
 
 Modern Age Coders is not affiliated with Main Roads Western Australia, the ABS or the City of Mandurah. The road data and statistics are theirs, used under their open licences; the analysis is ours.
 
+Around Mandurah
+
 ## Perth time and the WA school year
 
 Details that shape when a Mandurah learner can take a live lesson.
@@ -141,16 +129,41 @@ India time is two and a half hours behind Mandurah all year, which makes early e
 
 Sydney is two hours ahead of Mandurah in winter and three during eastern daylight saving.
 
-**WA public school terms in 2027** The department lists Term 1 from Monday 1 February to Friday 9 April, Term 2 from Monday 26 April to Friday 2 July, Term 3 from Monday 19 July to Friday 24 September and Term 4 from Monday 11 October to Thursday 16 December.
+WA public school terms in 2027
+
+The department lists Term 1 from Monday 1 February to Friday 9 April, Term 2 from Monday 26 April to Friday 2 July, Term 3 from Monday 19 July to Friday 24 September and Term 4 from Monday 11 October to Thursday 16 December.
+
+Learning ladder
 
 ## From a first scatter plot to calibrated models
 
 Age bands are a starting guide; the free lesson decides.
 
-- **Ages 12 to 14: Plotting data** Reading a table, drawing points and describing a pattern in words. [Python for Teens](/courses/python-complete-masterclass-teens), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 15 to 18: Lines and errors** Fitting lines, measuring residuals and seeing where a model fails. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **University: Uncertainty** Weighted fits, prediction intervals and calibration checks. [Data Science Course](/courses/data-science-complete-masterclass-college), [Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college)
-- **Adults: Models at work** Building and auditing predictions that colleagues will rely on. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 12 to 14
+
+### Plotting data
+
+Reading a table, drawing points and describing a pattern in words.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Maths Through Coding](/courses/maths-through-coding)Ages 15 to 18
+
+### Lines and errors
+
+Fitting lines, measuring residuals and seeing where a model fails.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)University
+
+### Uncertainty
+
+Weighted fits, prediction intervals and calibration checks.
+
+[Data Science Course](/courses/data-science-complete-masterclass-college)[Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college)Adults
+
+### Models at work
+
+Building and auditing predictions that colleagues will rely on.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## Would an AI assistant report the right uncertainty?
 
@@ -162,30 +175,139 @@ Our Mandurah learners let AI write the regression, then split the errors by dist
 
 A Mandurah learner who has seen a 95% band cover only 78.6% of the cases that matter will question any confidence figure an AI produces, in 2026 and long after. The longer argument is in [how to learn AI properly rather than just using it](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Peel region learners, live from home
 
 An online lesson reaches Mandurah without the trip up the freeway.
 
-- **Kept in WA time** Every slot is set in Western Australian time, which never changes during the year.
-- **WA year levels** Teachers work to WA year levels, ATAR students included, and teach entirely in English.
-- **Learn first, decide later** The trial is a genuine programming lesson. Afterwards we suggest a course and time, and payment details are never taken.
-- **Fifteen to twenty learners** Each group shares one level, with learners from different places so every stage has a sensible hour.
-- **Twice weekly sessions** About eight a month, with holiday and exam breaks agreed early.
-- **Adults and retirees too** Daytime and evening groups suit adults at any stage of working life, as do one-to-one lessons.
+### Kept in WA time
 
-**Times in Mandurah time** All lesson times are written in Western Australian time, so nobody converts from the East Coast.
+Every slot is set in Western Australian time, which never changes during the year.
+
+### WA year levels
+
+Teachers work to WA year levels, ATAR students included, and teach entirely in English.
+
+### Learn first, decide later
+
+The trial is a genuine programming lesson. Afterwards we suggest a course and time, and payment details are never taken.
+
+### Fifteen to twenty learners
+
+Each group shares one level, with learners from different places so every stage has a sensible hour.
+
+### Twice weekly sessions
+
+About eight a month, with holiday and exam breaks agreed early.
+
+### Adults and retirees too
+
+Daytime and evening groups suit adults at any stage of working life, as do one-to-one lessons.
+
+Times in Mandurah time
+
+All lesson times are written in Western Australian time, so nobody converts from the East Coast.
+
+Fees
 
 ## Cost of AI and programming classes in Mandurah
 
 Here is everything you pay for.
 
-- First class: USD 0. One free lesson, with a recommended level, course and time at the end.
-- Group tuition: USD 100 a month. Close to eight group lessons each month, with fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. Close to eight private lessons each month with the same teacher.
+First class**USD 0**
+
+One free lesson, with a recommended level, course and time at the end.
+
+Group tuition**USD 100**
+
+Close to eight group lessons each month, with fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+Close to eight private lessons each month with the same teacher.
 
 Mandurah pays the national US dollar rate, with nothing added or removed for location. No payment is due until the trial fixes a course and slot, and the pricing page sets out holidays, missed lessons and changes of format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20and%20programming%20class%20for%20a%20learner%20in%20Mandurah.)Reviews
+
+## Google reviews from our students and families
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## A few details and we will prepare the first lesson
+
+We choose the opening task ahead of time: a scatter plot for a Year 8 beginner, the residual funnel for a Year 11 student, or the full calibration test for an adult.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Mandurah one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20and%20programming%20class%20for%20a%20learner%20in%20Mandurah.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Questions about AI and programming in Mandurah
+
+What Mandurah families and adult learners ask before they begin.
 
 ### How many people live in Mandurah?
 
@@ -227,10 +349,14 @@ The first lesson is free. After that a group place costs USD 100 a month for two
 
 Between five and ten learners, matched on level, pace and goals rather than on age or postcode. When no group fits a workable time, one-to-one lessons are offered instead.
 
+More in Western Australia
+
 ## Nearby pages for Mandurah learners
 
 Up the coast is [online coding and Python in Perth](/online-coding-and-python-classes-in-perth-western-australia), with [coding classes for kids in Perth](/coding-classes-for-kids-perth) for younger learners. Further south there is [a Bunbury page on vibe coding and AI agents](/vibe-coding-and-ai-agents-classes-in-bunbury), and the whole state is covered at [coding and AI classes in Western Australia](/coding-and-ai-classes-in-western-australia).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20and%20programming%20class%20for%20a%20learner%20in%20Mandurah.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-mandurah](https://learn.modernagecoders.com/ai-and-programming-classes-in-mandurah#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-mandurah*

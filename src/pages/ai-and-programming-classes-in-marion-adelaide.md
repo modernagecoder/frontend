@@ -4,56 +4,40 @@ description: "Live online AI and programming classes for Marion children, teens 
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-marion-adelaide
 source: src/pages/ai-and-programming-classes-in-marion-adelaide.html
 ---
-> By splitting the task into a chain of small steps, each with an output they can check, instead of asking for everything at once. Children start with Scratch at six; teenagers and adults combine Python with AI tools. Marion had 4,101 residents at the 2021 Census.
+> Live online AI and programming classes for Marion children, teens and adults, with real Adelaide timetable data and step-by-step AI work, in groups or one to one.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [South Australia](/coding-and-ai-classes-in-south-australia) / [Adelaide](/ai-and-programming-classes-in-adelaide) / Marion
-
-Marion, City of Marion, South Australia / Live online
-
-# AI and programming classes in Marion
-
-**How can Marion learners get reliable results from AI on multi-step tasks?** By splitting the task into a chain of small steps, each with an output they can check, instead of asking for everything at once. Children start with Scratch at six; teenagers and adults combine Python with AI tools. Marion had 4,101 residents at the 2021 Census.
-
-What share of the scheduled stop visits in Marion are by train? Asked in one go, our scripted model answered 5.6%. Asked as four linked steps, each producing something we could check, it answered 7.3%. The one-step answer had quietly counted every day in a six-month timetable.
-
-Facts last verified 13 October 2026. Teaching is online; no Marion branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Marion
 
 ## Courses for building with AI step by step
 
 This project combines Python, data and the craft of breaking work into prompts. These courses teach each part; the trial lesson finds the level.
 
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (University and adult): Prompt design, chaining and evaluation for real tasks.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): AI and machine learning with checks at every stage.
-- [AI Tools Course for Teens (13+)](/courses/teens-ai-tools-mastery-course) (Ages 13 to 17): Using AI tools in clear, verifiable steps.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): First Python and AI projects, one small step at a time.
+[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)University and adultGenerative AI CoursePrompt design, chaining and evaluation for real tasks.See the syllabus](/courses/complete-generative-ai-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensAI and machine learning with checks at every stage.See the syllabus](/courses/ai-ml-masterclass-teens)[![AI Tools Course for Teens (13+) course thumbnail](/images/ai-tools-kids.webp)Ages 13 to 17AI Tools Course for Teens (13+)Using AI tools in clear, verifiable steps.See the syllabus](/courses/teens-ai-tools-mastery-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsFirst Python and AI projects, one small step at a time.See the syllabus](/courses/python-ai-kids-masterclass)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Marion in the Census
 
 ## Townhouses and a railway station
 
 Census 2021 QuickStats for the suburb of Marion (ABS code SAL40830), compared with South Australia.
 
-**Marion in figures, 2021**
-
 | Measure | Marion |
-|---|---|
+| --- | --- |
 | Residents | 4,101 |
 | Median age | 43 |
 | Families | 1,052 |
 | Private dwellings | 1,790 |
 | People per household | 2.3 |
 
-**Marion against the state**
-
 | Indicator | Marion | South Australia |
-|---|---|---|
+| --- | --- | --- |
 | Workers who took the train to work | 3.5% (63) | 0.6% |
 | Semi-detached, row or townhouse homes | 30.7% (504) | 14.6% |
 | Adults with a bachelor degree or higher | 27.8% (996) | 22.7% |
@@ -73,23 +57,21 @@ The ABS boundary of Marion covers about 2 square kilometres in Adelaide's south-
 
 The ABS adds slight random noise to small Census cells, so these numbers stay exactly as published and are not combined.
 
+Signature project
+
 ## One big prompt, or four small ones?
 
 The question was put to a scripted model that could query the Adelaide Metro timetable. First as one request; then as a chain of four, where each step's output became the next step's input and could be checked on the way.
 
-**The chained version, step by step (our calculation)**
-
 | Step | Output | Check |
-|---|---|---|
+| --- | --- | --- |
 | 1. Find stop records inside Marion | 23 records | Map them against the ABS boundary |
 | 2. Keep visits on Wednesday 21 October 2026 | 1,593 visits | Date filter applied: yes |
 | 3. Split by mode | Bus 1,444, train 117, school bus 31, regional 1 | Parts match step 2 |
 | 4. Train share | 7.3% | 117 of 1,593 |
 
-**The one-step version (our calculation)**
-
 | What it did | Result |
-|---|---|
+| --- | --- |
 | Counted every timetable row at Marion stop records | 4,751 rows |
 | Of which train | 266 rows |
 | Reported share | 5.6% |
@@ -112,14 +94,14 @@ Prompt chaining breaks a task into stages small enough to verify. Each stage has
 
 The timetable is Adelaide Metro open data, feed version 1708. Marion membership is our point-in-boundary check, and every count is ours. The model in this project is a script we wrote to show the two approaches; it is not a transcript of any commercial AI system.
 
+AI workflows
+
 ## Designing a chain
 
 Good chains share a few features, whether the steps are prompts, Python functions or both.
 
-**What makes a chain trustworthy**
-
 | Feature | Why | Marion example |
-|---|---|---|
+| --- | --- | --- |
 | One job per step | Each output is easy to judge | Stops, then day, then mode |
 | Explicit assumptions | Hidden choices surface | The date is stated in step 2 |
 | A check after each step | Errors stop early | Mode counts sum to 1,593 |
@@ -139,6 +121,8 @@ Redesign a long work prompt as three or four steps with a check between each.
 
 Chaining is not always worth it. For a simple lookup one prompt is fine. The more steps a task hides, filters, joins, grouping, arithmetic, the more chaining pays for its extra requests.
 
+Around Marion
+
 ## Sturt Road, Marion Road and the railway
 
 What the timetable for Wednesday 21 October 2026 shows inside the suburb.
@@ -155,16 +139,41 @@ Marion Railway Station had 117 scheduled train visits that Wednesday, by our cou
 
 In all, 30 routes served the suburb's 23 stop records that day.
 
-**Marion the suburb** This page describes the suburb of Marion, not the City of Marion as a whole. Oaklands Park, Mitchell Park, Sturt, Seacombe Gardens, Park Holme, Ascot Park and Bedford Park border it and keep separate figures.
+Marion the suburb
+
+This page describes the suburb of Marion, not the City of Marion as a whole. Oaklands Park, Mitchell Park, Sturt, Seacombe Gardens, Park Holme, Ascot Park and Bedford Park border it and keep separate figures.
+
+Learning ladder
 
 ## From recipes to AI pipelines
 
 Ages are only a guide; a trial lesson places each learner.
 
-- **Ages 6 to 10: Scratch and logic** Step-by-step programs and puzzles. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 10 to 14: Python and AI ideas** First code and simple uses of AI. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)
-- **Ages 14 to 18: AI in practice** Machine learning and AI tools used in checked stages. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [AI Tools Course for Teens (13+)](/courses/teens-ai-tools-mastery-course)
-- **University and adult: Generative AI** Prompt pipelines and evaluation for work. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college)
+Ages 6 to 10
+
+### Scratch and logic
+
+Step-by-step programs and puzzles.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 10 to 14
+
+### Python and AI ideas
+
+First code and simple uses of AI.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)Ages 14 to 18
+
+### AI in practice
+
+Machine learning and AI tools used in checked stages.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[AI Tools Course for Teens (13+)](/courses/teens-ai-tools-mastery-course)University and adult
+
+### Generative AI
+
+Prompt pipelines and evaluation for work.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college)Coding and AI
 
 ## If AI can answer in one go, why break it up?
 
@@ -176,30 +185,139 @@ Learners who have built the chain themselves know to ask for intermediate output
 
 In Marion, the learner who chains and checks gets 7.3%, and can show why. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Marion lessons online
 
 Classes are live on video, so learners join from home.
 
-- **Every step visible** Each prompt and each intermediate result is reviewed together.
-- **SA term rhythm** Lessons follow South Australian school terms and holidays.
-- **Free trial lesson** A full first class with no charge, then advice in writing.
-- **Level-matched classes** Fifteen to twenty learners at a similar stage, or one to one.
-- **Twice each week** Two set lessons weekly, roughly eight a month.
-- **India time** Teachers are in India, so a 4pm Marion lesson is 11am India time in summer and noon after early April.
+### Every step visible
 
-**Clocks across the year** Adelaide's daylight saving period runs from the first Sunday in October to the first Sunday in April (IANA time zone database), while India keeps one time, so the gap moves between five and four hours.
+Each prompt and each intermediate result is reviewed together.
+
+### SA term rhythm
+
+Lessons follow South Australian school terms and holidays.
+
+### Free trial lesson
+
+A full first class with no charge, then advice in writing.
+
+### Level-matched classes
+
+Fifteen to twenty learners at a similar stage, or one to one.
+
+### Twice each week
+
+Two set lessons weekly, roughly eight a month.
+
+### India time
+
+Teachers are in India, so a 4pm Marion lesson is 11am India time in summer and noon after early April.
+
+Clocks across the year
+
+Adelaide's daylight saving period runs from the first Sunday in October to the first Sunday in April (IANA time zone database), while India keeps one time, so the gap moves between five and four hours.
+
+Fees
 
 ## Marion class fees
 
 One set of three prices.
 
-- First class: USD 0. The first lesson is free and ends with a recommended course.
-- Group tuition: USD 100 a month. Group lessons: about eight a month with fifteen to twenty learners.
-- Private tuition: USD 150 a month. Private lessons: about eight a month with one teacher.
+First class**USD 0**
+
+The first lesson is free and ends with a recommended course.
+
+Group tuition**USD 100**
+
+Group lessons: about eight a month with fifteen to twenty learners.
+
+Private tuition**USD 150**
+
+Private lessons: about eight a month with one teacher.
 
 Marion families pay in US dollars, after the trial and once course and time are fixed. The pricing page covers holidays and missed lessons.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20Marion.)Reviews
+
+## What our learners write on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Marion class
+
+Tell us the learner's age and goals. An older learner might build the four-step chain; a younger one might follow a Scratch recipe game.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Marion one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20Marion.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Marion AI and programming questions
+
+Questions Marion families and adult learners ask.
 
 ### How many people live in Marion, SA?
 
@@ -241,10 +359,14 @@ Fifteen to twenty learners at a similar level and pace, not sorted by age or sub
 
 No. Copilot Studio is taught one to one only; group learners build agents in Python.
 
+Explore Adelaide and South Australia
+
 ## More for Marion learners
 
 See [our Adelaide page](/ai-and-programming-classes-in-adelaide) for the city and [Adelaide kids' coding](/coding-classes-for-kids-adelaide) for children. On Eyre Peninsula, [Port Lincoln](/best-coding-classes-in-port-lincoln) has its own page, and [the South Australia guide](/coding-and-ai-classes-in-south-australia) links the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20Marion.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-marion-adelaide](https://learn.modernagecoders.com/ai-and-programming-classes-in-marion-adelaide#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-marion-adelaide*

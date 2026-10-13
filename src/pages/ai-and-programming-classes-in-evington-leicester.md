@@ -4,46 +4,32 @@ description: "Live online AI, programming, Python and vibe coding lessons for Ev
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-evington-leicester
 source: src/pages/ai-and-programming-classes-in-evington-leicester.html
 ---
-> The 2021 census put 17,268 usual residents in Evington, one of the City of Leicester's wards, and 23,917 in North Evington, which is a different ward. Postcodes.io records Evington, Crown Hills, Humberstone and Thurnby Lodge in the LE5 district, and Stoneygate in LE2. Tutors in India teach AI, programming, Python, vibe coding and maths over live video to Evington learners of any age from six to 67, singly or five to ten to a class sorted by level. Thinking comes before tooling in every course, which lets a learner question what a model has actually found. There is no fee for the opening lesson, and it closes with our course suggestion. The Evington project gives an isolation forest the outlines of 1,592 mapped buildings and no labels at all, and examines what it decides is unusual. Staying on is USD 100 monthly for a seat in a class, or USD 150 monthly with a tutor to yourself.
+> Live online AI, programming, Python and vibe coding lessons for Evington, Crown Hills and Stoneygate learners in Leicester, aged 6 to 67. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Leicestershire](/coding-classes-in-leicestershire) / Evington
-
-Evington, Leicester, England / Live online
-
-# AI and programming classes in Evington
-
-**Which are the best AI and programming classes in Evington?** The 2021 census put 17,268 usual residents in Evington, one of the City of Leicester's wards, and 23,917 in North Evington, which is a different ward. Postcodes.io records Evington, Crown Hills, Humberstone and Thurnby Lodge in the LE5 district, and Stoneygate in LE2. Tutors in India teach AI, programming, Python, vibe coding and maths over live video to Evington learners of any age from six to 67, singly or five to ten to a class sorted by level. Thinking comes before tooling in every course, which lets a learner question what a model has actually found. There is no fee for the opening lesson, and it closes with our course suggestion. The Evington project gives an isolation forest the outlines of 1,592 mapped buildings and no labels at all, and examines what it decides is unusual. Staying on is USD 100 monthly for a seat in a class, or USD 150 monthly with a tutor to yourself.
-
-Most machine learning needs examples of the right answer. Anomaly detection often has none: nobody has marked which bank payments are fraud or which sensor readings are faults. The isolation forest, introduced in 2008, turns the problem round. It chops the data with random cuts and counts how many cuts it takes to fence each point off on its own. Ordinary points, packed in with many neighbours, take a long time to isolate. Odd ones fall out after a few cuts. This project tries it on something you can inspect by eye: the outlines of buildings mapped on OpenStreetMap around Evington, where most are houses and a few are very much not.
-
-Facts last verified 30 September 2026. Teaching is online; no Evington branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentEvington course picks
 
 ## Four routes in for Evington: thinking, vibe coding, machine learning, agents
 
 One course per age range. A free live lesson opens each, booked with no card details.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think course: spotting the odd one out and saying exactly why it is odd.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games imagined by the learner, coded with AI help and tested.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Machine learning in Python, including the isolation forest on Evington buildings.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): How modern AI is built and checked, plus AI agents in Python.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think course: spotting the odd one out and saying exactly why it is odd.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games imagined by the learner, coded with AI help and tested.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensMachine learning in Python, including the isolation forest on Evington buildings.See the syllabus](/courses/ai-ml-masterclass-teens)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseHow modern AI is built and checked, plus AI agents in Python.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Evington and east Leicester
 
 ## Evington, Crown Hills, North Evington and Stoneygate
 
 Census counts for two Leicester wards, and places recorded around them.
 
-**Two wards of the City of Leicester, 2021 census usual residents (via Nomis)**
-
 | Ward | Residents (2021) |
-|---|---|
+| --- | --- |
 | Evington | 17,268 |
 | North Evington | 23,917 |
 
@@ -53,16 +39,16 @@ These are two wards, each with a count of its own, and the page does not total t
 
 The county page is [coding classes in Leicestershire](/coding-classes-in-leicestershire) and the regional one [the East Midlands](/coding-and-ai-classes-in-east-midlands). For why reasoning leads in our lessons, read [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Evington project
+
 ## Finding unusual buildings with an isolation forest
 
 No labels, six measurements per building, 200 random trees, and a list to inspect.
 
 Through the Overpass service the learner downloads every building outline in a rectangle around Evington: 1,592 of them. Six numbers are computed per outline in Python: floor area, corner count, a roundness score, the share of its snuggest bounding rectangle it covers, its length over its width, and a count of outlines joined to it. Mappers have given a type to only 256 of the buildings, and the model is never shown those tags. An isolation forest of 200 random trees then scores every outline by how easily it is isolated.
 
-**What the isolation forest flagged around Evington, our Python run on OpenStreetMap data**
-
 | Check | Result |
-|---|---|
+| --- | --- |
 | Typical footprint, all buildings | 130.8 sq m |
 | Typical footprint, most anomalous 5% (79 buildings) | 999 sq m |
 | Typed buildings in that 5% that are not homes | 15 of 28 (54%) |
@@ -90,14 +76,14 @@ Fit the isolation forest, check flags against map tags and test stability across
 
 Building outlines and tags are from OpenStreetMap and its contributors under the Open Database Licence. The measurements, the model and the scores are our own; being flagged says nothing about a building other than that its mapped outline is unusual.
 
+Anomalies and AI
+
 ## Alarms, vibe coding and AI agents: reading a flag properly
 
 A flag reports rarity in a dataset. Whether anything is amiss is a separate question.
 
-**Five things the Evington outlines showed, and the question each one puts to an AI alert**
-
 | Seen in the outlines | Question for the alert |
-|---|---|
+| --- | --- |
 | Nothing was labelled in advance | Unusual against which crowd? |
 | Non-homes were 54% of the flagged, typed outlines | Is there an outside fact to compare with? |
 | Apartment blocks scored as odd | Is odd the same as faulty here? |
@@ -108,14 +94,37 @@ Fraud alerts, spam filters and monitoring tools all lean on anomaly detection, a
 
 Credit for open data goes to OpenStreetMap, the ONS and postcodes.io. They have no connection with Modern Age Coders, and any slip in the analysis is our own.
 
+Stages
+
 ## Odd-one-out games up to anomaly detection
 
 Treat the year bands as approximate. Placement rests on what we watch the learner do.
 
-- **Years 2 to 7: How to think** Odd ones out, reasons and careful questions. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Games and apps the learner plans and an AI helps build. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python and machine learning** Features, models and honest checking alongside GCSE and A level. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Machine learning and agents** Detection, evaluation and AI agents in Python. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Years 2 to 7
+
+### How to think
+
+Odd ones out, reasons and careful questions.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Games and apps the learner plans and an AI helps build.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python and machine learning
+
+Features, models and honest checking alongside GCSE and A level.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Machine learning and agents
+
+Detection, evaluation and AI agents in Python.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)AI and anomalies
 
 ## What is an isolation forest, and how does it find anomalies without labels?
 
@@ -127,30 +136,139 @@ Learners who have built one ask of any AI alert: unusual compared with what, and
 
 An Evington teenager who has coded a detector in 2026 knows to test an alert before obeying it. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## The shape of an Evington lesson
 
 Kit list: one computer, its webcam, and home internet good enough for a video call.
 
-- **Hands on the keyboard** Every line is typed and run by the learner. The tutor sees the screen and keeps asking why the output came out that way.
-- **Level set by evidence** The trial tells us the starting point, and we jot down the exam board if there is one.
-- **A trial at no cost** You pay nothing, and leave with a course named.
-- **Classes kept small** Between five and ten people, level-matched, logging in from different parts of Britain.
-- **Two lessons each week** With a rest over school breaks.
-- **Your slot stays put** When British clocks change, the tutor adjusts and you do not.
+### Hands on the keyboard
 
-**Why online** One Leicester ward will seldom supply five learners at one stage with one evening spare. A national pool will.
+Every line is typed and run by the learner. The tutor sees the screen and keeps asking why the output came out that way.
+
+### Level set by evidence
+
+The trial tells us the starting point, and we jot down the exam board if there is one.
+
+### A trial at no cost
+
+You pay nothing, and leave with a course named.
+
+### Classes kept small
+
+Between five and ten people, level-matched, logging in from different parts of Britain.
+
+### Two lessons each week
+
+With a rest over school breaks.
+
+### Your slot stays put
+
+When British clocks change, the tutor adjusts and you do not.
+
+Why online
+
+One Leicester ward will seldom supply five learners at one stage with one evening spare. A national pool will.
+
+Fees
 
 ## Evington fees
 
 The rate card for Evington is our international one, the same for every country but India.
 
-- First class: USD 0. A whole lesson, unpaid, plus our advice on a course.
-- Group tuition: USD 100 a month. Around eight live classes in a month.
-- Private tuition: USD 150 a month. Around eight live lessons alone with a tutor in a month.
+First class**USD 0**
+
+A whole lesson, unpaid, plus our advice on a course.
+
+Group tuition**USD 100**
+
+Around eight live classes in a month.
+
+Private tuition**USD 150**
+
+Around eight live lessons alone with a tutor in a month.
 
 We bill in US dollars and keep no sterling price list. You are invoiced once the trial has produced a course and a weekly slot you are happy with. For breaks, missed lessons and swapping between class and private, see the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Evington%2C%20Leicester%3F)Reviews
+
+## From our Google reviews: Leicester parents and learners elsewhere in Britain
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Claim the free lesson for Evington
+
+Two facts are enough: how old the learner is and what they are keen on. We then choose between an odd-one-out game, an AI-assisted Scratch build, a starter Python program and measuring real building outlines.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Evington one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Evington%2C%20Leicester%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Asked by Evington families
+
+Ten short answers, from what an anomaly is to what happens at half term.
 
 ### What is the population of Evington?
 
@@ -192,10 +310,14 @@ Nothing for the trial lesson. After it, USD 100 per month for a class place or U
 
 Lessons rest whenever school does, as long as we have your dates.
 
+Nearby
+
 ## More Leicester and Leicestershire pages
 
 Four pages, four separate projects: [Oadby](/vibe-coding-and-ai-agents-classes-in-oadby-leicester) (agents bidding for jobs), [Wigston](/online-coding-and-python-classes-in-wigston-leicester) (simplifying a boundary), [Leicestershire](/coding-classes-in-leicestershire) and [Loughborough](/best-coding-and-ai-classes-in-loughborough). All remaining UK pages are indexed at the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[WhatsApp the team](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Evington%2C%20Leicester%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-evington-leicester](https://learn.modernagecoders.com/ai-and-programming-classes-in-evington-leicester#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-evington-leicester*

@@ -4,46 +4,32 @@ description: "Live online coding, Python and AI classes for learners in Scotland
 canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-scotland
 source: src/pages/coding-and-ai-classes-in-scotland.html
 ---
-> Scotland runs its own school system, so a class for a Scottish learner has to speak its language: primary 1 to 7, S1 to S6, a broad general education that Education Scotland says continues to the end of S3, and then National 5, Higher and Advanced Higher, now awarded by Qualifications Scotland. The scale is national: 695,923 pupils in 2,435 publicly funded schools in 2025, in a country of 5,436,600 people on Census Day 2022, served by 32 councils. Modern Age Coders teaches live online from India, so a learner in Lerwick and one in Largs join a class at the same level at the same moment, anyone from 6 to 67, in groups of fifteen to twenty or one to one. There is no charge for the opening lesson; afterwards a group place is USD 100 a month and private lessons USD 150.
+> Live online coding, Python and AI classes for learners in Scotland, from P1 to S6, National 5, Higher and beyond, ages 6 to 67. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Scotland
-
-Scotland, United Kingdom / Live online
-
-# Coding and AI classes in Scotland
-
-**What are the best coding classes in Scotland?** Scotland runs its own school system, so a class for a Scottish learner has to speak its language: primary 1 to 7, S1 to S6, a broad general education that Education Scotland says continues to the end of S3, and then National 5, Higher and Advanced Higher, now awarded by Qualifications Scotland. The scale is national: 695,923 pupils in 2,435 publicly funded schools in 2025, in a country of 5,436,600 people on Census Day 2022, served by 32 councils. Modern Age Coders teaches live online from India, so a learner in Lerwick and one in Largs join a class at the same level at the same moment, anyone from 6 to 67, in groups of fifteen to twenty or one to one. There is no charge for the opening lesson; afterwards a group place is USD 100 a month and private lessons USD 150.
-
-Almost every Scottish website with a form has a box asking for your council, and people fill it in the way they speak. Western Isles, not Comhairle nan Eilean Siar. Glasgow, not Glasgow City Council. Borders, Lanarkshire, Edinburgh City. A programmer who wants to be kind accepts near misses, and the standard tool for that is edit distance: count the fewest single-letter changes that turn one string into another, and pick the council with the smallest count. We ran it against the 32 names on mygov.scot. It fixed Fyfe, Anguss and Highlands in one letter each. It also sent Shetland to the Highland Council, Orkney to Moray, and Lanarkshire to Renfrewshire, each time with total confidence, and it could not decide whether Glasgow meant Glasgow City or Angus. Kindness without judgement produces confident mistakes, and learning to tell the two apart is the thread of this page.
-
-Facts last verified 20 September 2026. Teaching is online; no Scotland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Scotland
 
 ## Four courses from P1 to the senior phase and beyond
 
 A P3 child in Inverness who wants to make a game, an S2 pupil in Dundee ready for proper code, an S5 student in Stirling thinking about Higher Computing Science, and an adult in Paisley who spends too long tidying spreadsheets. Each starts with a free lesson.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (P1 to P5): Scratch games built from a plan, including a menu that understands what a player meant even when they mistype it.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (P6 to S2): The step from blocks to typed Python during the later years of the broad general education.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (S3 to S6): Python in depth for the senior phase, where learners write a council-name matcher and learn when it should refuse to guess.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): For grown-ups who clean lists at work: matching names that are spelled a dozen ways without inventing matches.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)P1 to P5Scratch Coding for KidsScratch games built from a plan, including a menu that understands what a player meant even when they mistype it.See the syllabus](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)P6 to S2Python and AI for KidsThe step from blocks to typed Python during the later years of the broad general education.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)S3 to S6Python for TeensPython in depth for the senior phase, where learners write a council-name matcher and learn when it should refuse to guess.See the syllabus](/courses/python-complete-masterclass-teens)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For grown-ups who clean lists at work: matching names that are spelled a dozen ways without inventing matches.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Scotland in figures
 
 ## 5,436,600 people, 695,923 pupils and 32 councils
 
 Each figure comes from the body that publishes it. They measure different things at different dates, and the table keeps them apart.
 
-**Scotland from its own sources**
-
 | Measure | Figure | Published by |
-|---|---|---|
+| --- | --- | --- |
 | Population on Census Day, 20 March 2022 (rounded estimate) | 5,436,600 | National Records of Scotland, Scotland's Census |
 | Growth since the 2011 census | 141,200, or 2.7 percent | National Records of Scotland, Scotland's Census |
 | Pupils in publicly funded schools, 2025 | 695,923 | Scottish Government, Pupil and teacher characteristics 2025 |
@@ -65,6 +51,8 @@ Every Scottish council runs its own schools, admissions and holidays. mygov.scot
 
 The date a Scottish child starts school, split at 1 March rather than 1 September, is set out with England and Northern Ireland on the [UK coding page](/coding-classes-in-united-kingdom), which is where its project lives.
 
+Signature project
+
 ## Thirty-two councils and a name box
 
 Learners write a matcher that takes whatever a person types and finds the council they meant, using edit distance, then test it on the ways Scots actually refer to their councils.
@@ -81,10 +69,8 @@ Edit distance, often called Levenshtein distance, counts the fewest insertions, 
 
 The closest name is not always right. Learners add an alias list, a threshold that grows with the length of the input, and a rule that two equally close councils mean asking the person, not picking one.
 
-**Our run against the 32 names on mygov.scot, 20 September 2026 (d = edit distance)**
-
 | Typed | Closest council | d | Verdict |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Fyfe | Fife Council | 1 | Right: a one-letter typo |
 | Anguss | Angus Council | 1 | Right |
 | Highlands | Highland Council | 1 | Right |
@@ -102,14 +88,14 @@ The closest name is not always right. Learners add an alias list, a threshold th
 
 Ask an assistant for a fuzzy matcher and it will write a correct edit-distance function and pick the lowest score, which is exactly what produced Shetland to Highland. The function is not faulty; it measures letters, and letters are not meaning. Only someone who knows that people say Western Isles for Comhairle nan Eilean Siar, and Borders for the Scottish Borders, can write the alias list that fixes it, and only someone who has watched a tie get broken arbitrarily knows to make the program ask. That judgement is the part of the job that does not move to the machine.
 
+Matching names safely
+
 ## Five rules for matching what people type
 
 For forms, spreadsheets, mailing lists and any data where the same place or person is spelled more than one way.
 
-**Fuzzy matching without inventing matches**
-
 | Rule | In practice | What it prevents |
-|---|---|---|
+| --- | --- | --- |
 | Normalise both sides first | Case, punctuation, ampersands and filler words such as council or city | Real names failing on formatting alone |
 | Keep an alias list | Common names, old names and names in other languages, taken from the organisations themselves | Western Isles never finding Comhairle nan Eilean Siar |
 | Scale the threshold | Allow a distance of one or two for long names, less for short ones | Shetland matching Highland at a distance of four |
@@ -120,6 +106,8 @@ The scale is the reason this matters. With 695,923 pupils in Scottish schools an
 
 Modern Age Coders has no connection with the Scottish Government, Education Scotland, Qualifications Scotland, National Records of Scotland, mygov.scot or any Scottish council, and nothing here suggests one. The council names are quoted as mygov.scot lists them; the matching results are our own run on 20 September 2026.
 
+Scotland, place by place
+
 ## Thirty-two councils and eight cities
 
 Each council area and city will have a page of its own as this series grows, written for its own schools, libraries and places. Linked names are live now.
@@ -128,14 +116,37 @@ Each council area and city will have a page of its own as this series grows, wri
 
 **Cities with city status:** [Aberdeen](/best-coding-class-in-aberdeen), [Dundee](/best-coding-class-in-dundee), [Dunfermline](/best-coding-class-in-dunfermline), [Edinburgh](/best-coding-class-in-edinburgh), [Glasgow](/best-coding-class-in-glasgow), [Inverness](/best-coding-class-in-inverness), [Perth](/best-coding-class-in-perth-scotland), [Stirling](/best-coding-class-in-stirling). The UK government's list of cities, published on 29 August 2022, names these eight in Scotland.
 
+Learning ladder
+
 ## From a menu that forgives typos to a matcher that knows when to ask
 
 Where a learner starts is set in the free lesson, from what they can do, whatever their stage at school.
 
-- **P1 to P5: Forgiving menus** Children build games with menus and questions that cope with small mistakes, and notice when a guess goes wrong. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **P6 to S2: Strings and loops** Python strings, loops and comparisons: the pieces an edit-distance table is built from. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **S3 to S6: Algorithms with judgement** Dynamic programming, thresholds and alias lists, alongside National 5 and Higher Computing Science work. [Python for Teens](/courses/python-complete-masterclass-teens), [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)
-- **Adults: Cleaner data at work** Adults match and merge the lists they inherit, without letting a clever tool make up matches. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+P1 to P5
+
+### Forgiving menus
+
+Children build games with menus and questions that cope with small mistakes, and notice when a guess goes wrong.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)P6 to S2
+
+### Strings and loops
+
+Python strings, loops and comparisons: the pieces an edit-distance table is built from.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)S3 to S6
+
+### Algorithms with judgement
+
+Dynamic programming, thresholds and alias lists, alongside National 5 and Higher Computing Science work.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)Adults
+
+### Cleaner data at work
+
+Adults match and merge the lists they inherit, without letting a clever tool make up matches.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## An AI can write a fuzzy matcher in seconds. Why should a Scottish pupil learn when to distrust it?
 
@@ -147,30 +158,139 @@ A learner who has built and broken this matcher carries the lesson into every jo
 
 So the case for a Scottish child learning to code in 2026 is not that computers are hard to use. It is that they are easy to use badly, and a country of 32 councils and two languages on its road signs needs people who can tell a close match from a correct one. The longer argument is in [the case for learning to program in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## From the Borders to Shetland, the same lesson at the same time
 
 An online class reaches the islands as easily as the Central Belt.
 
-- **Island or city** A learner on Orkney and a learner in Glasgow share one group, and neither needs a ferry, a train or a lift.
-- **Scottish stages kept** P1 to P7, S1 to S6, Nationals and Highers keep their Scottish names; teaching is in English.
-- **Start with a free lesson** A proper task with a teacher, then a recommended level, course and regular time. No card details are taken.
-- **Groups that fit** Fifteen to twenty learners at the same level, from across Scotland and beyond, so that each stage has a group at a sensible hour.
-- **Council holidays** Each Scottish council publishes its own term dates, and the exam diet has its own timetable; families and teachers agree breaks around both.
-- **Two clocks** India is five and a half hours ahead of Scotland in winter and four and a half in summer, and every lesson is booked in UK time.
+### Island or city
 
-**2,435 schools, one online group** A group needs five learners who match on level, subject and hour, which is easier across a whole country than in any single town, especially in the islands and the rural council areas.
+A learner on Orkney and a learner in Glasgow share one group, and neither needs a ferry, a train or a lift.
+
+### Scottish stages kept
+
+P1 to P7, S1 to S6, Nationals and Highers keep their Scottish names; teaching is in English.
+
+### Start with a free lesson
+
+A proper task with a teacher, then a recommended level, course and regular time. No card details are taken.
+
+### Groups that fit
+
+Fifteen to twenty learners at the same level, from across Scotland and beyond, so that each stage has a group at a sensible hour.
+
+### Council holidays
+
+Each Scottish council publishes its own term dates, and the exam diet has its own timetable; families and teachers agree breaks around both.
+
+### Two clocks
+
+India is five and a half hours ahead of Scotland in winter and four and a half in summer, and every lesson is booked in UK time.
+
+2,435 schools, one online group
+
+A group needs five learners who match on level, subject and hour, which is easier across a whole country than in any single town, especially in the islands and the rural council areas.
+
+Fees
 
 ## What classes cost in Scotland
 
 One price list for the whole country, from the Central Belt to the islands.
 
-- First class: USD 0. A full lesson on a real task, ending with a recommended level and course.
-- Group tuition: USD 100 a month. Around eight lessons a month in a group of fifteen to twenty at one level.
-- Private tuition: USD 150 a month. Around eight lessons a month with a teacher for one learner.
+First class**USD 0**
+
+A full lesson on a real task, ending with a recommended level and course.
+
+Group tuition**USD 100**
+
+Around eight lessons a month in a group of fifteen to twenty at one level.
+
+Private tuition**USD 150**
+
+Around eight lessons a month with a teacher for one learner.
 
 Fees are in US dollars, the rate for every family outside India, with no pound price list and no difference between councils. Nothing is paid until the free lesson has agreed a course and a regular time; the pricing page covers pauses, missed lessons and changing format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Scotland.)Reviews
+
+## Six Google reviews, unedited
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Which stage is the learner at?
+
+P-stage, S-stage or age, and what they like, is all we need. The first task might be a Scratch game, a first Python string comparison, or the council matcher on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Scotland one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Scotland.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Coding classes in Scotland: common questions
+
+The school system, the councils, the project and the lessons.
 
 ### How many pupils and schools are there in Scotland?
 
@@ -212,10 +332,14 @@ Nothing for the first lesson. After that, a group place costs USD 100 a month fo
 
 Between five and ten, matched by level, pace and goal rather than by age or postcode. If no group at the right level runs at a workable hour, one-to-one lessons are the alternative.
 
+Explore
+
 ## The rest of the UK
 
 The four school systems of the UK, and the date each one starts children at school, are on the [UK coding page](/coding-classes-in-united-kingdom). For what any class should offer, read [choosing an online coding class in the UK](/best-online-coding-classes-uk), and for AI built from the ground up, [AI and machine learning classes in the UK](/ai-and-machine-learning-classes-in-uk).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Scotland.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-and-ai-classes-in-scotland](https://learn.modernagecoders.com/coding-and-ai-classes-in-scotland#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-scotland*

@@ -4,46 +4,32 @@ description: "Live online vibe coding, AI agents, Python and maths classes for K
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-kings-heath-birmingham
 source: src/pages/vibe-coding-and-ai-agents-classes-in-kings-heath-birmingham.html
 ---
-> Brandwood and King's Heath is a Birmingham ward that counted 18,786 usual residents in the 2021 census. King's Heath, Brandwood End and Yardley Wood are listed as suburban areas in the B14 postcode district. Modern Age Coders teaches vibe coding, AI agents, Python and maths over live video from India, to anyone aged six to 67, in private lessons or in a class of fifteen to twenty who are at the same stage. Learners are taught why a technique works before they lean on an AI to write it. You try a full lesson free, and we propose a course afterwards. In the Kings Heath project a program reads 20,708 map tags one at a time with room to remember only a few, and still has to name the commonest. From then on the fee is USD 100 monthly for a class place, USD 150 monthly for private tuition.
+> Live online vibe coding, AI agents, Python and maths classes for Kings Heath, Brandwood End and Yardley Wood in Birmingham, ages 6 to 67. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [West Midlands region](/coding-and-ai-classes-in-west-midlands-region) / Kings Heath
-
-Kings Heath, Birmingham, England / Live online
-
-# Vibe coding and AI agents classes in Kings Heath, Birmingham
-
-**Which are the best vibe coding and AI agents classes for Kings Heath learners?** Brandwood and King's Heath is a Birmingham ward that counted 18,786 usual residents in the 2021 census. King's Heath, Brandwood End and Yardley Wood are listed as suburban areas in the B14 postcode district. Modern Age Coders teaches vibe coding, AI agents, Python and maths over live video from India, to anyone aged six to 67, in private lessons or in a class of fifteen to twenty who are at the same stage. Learners are taught why a technique works before they lean on an AI to write it. You try a full lesson free, and we propose a course afterwards. In the Kings Heath project a program reads 20,708 map tags one at a time with room to remember only a few, and still has to name the commonest. From then on the fee is USD 100 monthly for a class place, USD 150 monthly for private tuition.
-
-An AI agent that watches a stream, such as log lines, messages or sensor readings, cannot keep everything it sees. Its memory is limited and the stream does not stop. Yet people ask it simple questions: what comes up most? Counting everything in a dictionary answers that exactly, as long as the dictionary fits. When it does not, there are two classic tricks. One keeps a small fixed set of counters and gives up a bounded amount of accuracy. The other squeezes all the counts into a small grid using hash functions. This project runs both on a real stream built from the open map of Kings Heath, and checks each against the exact answer.
-
-Facts last verified 30 September 2026. Teaching is online; no Kings Heath branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentKings Heath course picks
 
 ## Vibe coding, agents and thinking courses for Kings Heath
 
 One suggestion per age group. The opening live lesson of any of them is free, with no payment details taken.
 
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Children describe a Scratch game to an AI, then test and mend it themselves.
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): How to think: tallying, estimating and knowing how wrong a shortcut can be.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python and web projects made with AI help, including the Kings Heath counters.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): How generative AI and agents work in Python, with memory limits and evaluation.
+[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsChildren describe a Scratch game to an AI, then test and mend it themselves.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsHow to think: tallying, estimating and knowing how wrong a shortcut can be.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensPython and web projects made with AI help, including the Kings Heath counters.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseHow generative AI and agents work in Python, with memory limits and evaluation.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Kings Heath
 
 ## Kings Heath, Brandwood End and Yardley Wood
 
 One census figure for the ward, and the B14 place names on record.
 
-**Brandwood and King's Heath ward, Birmingham, Census 2021 via Nomis**
-
 | Area | Usual residents, 2021 |
-|---|---|
+| --- | --- |
 | Brandwood and King's Heath ward | 18,786 |
 
 The project uses the ONS boundary of that ward. Postcodes.io records King's Heath, Brandwood End and Yardley Wood as suburban areas of Birmingham in B14, and Billesley in B13. Schools here work to the national curriculum for England, and we plan lessons around whatever term dates a family gives us.
@@ -51,6 +37,8 @@ The project uses the ONS boundary of that ward. Postcodes.io records King's Heat
 ### Birmingham, Moseley and the thinking behind the lessons
 
 Read about [coding classes in Birmingham](/coding-classes-in-birmingham) or the [Moseley page](/best-coding-and-ai-classes-in-moseley-birmingham). Our view on AI tools is set out on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
+
+The Kings Heath project
 
 ## Heavy hitters: finding the commonest tags with almost no memory
 
@@ -60,10 +48,8 @@ The learner downloads OpenStreetMap data and keeps the 7,377 mapped elements tha
 
 The Misra-Gries algorithm reads the stream once with a fixed number of counters. A tag that already has a counter adds one. A new tag takes a free counter if there is one. If there is none, every counter drops by one and the new tag is forgotten. At the end, the surviving tags are the candidates for "heavy hitters", and each count is too low by at most the stream length divided by the number of counters.
 
-**Misra-Gries on 20,708 Kings Heath map tags, our Python run on OpenStreetMap data**
-
 | Counters | True top ten found | Largest undercount | Guaranteed limit |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 10 | 2 of 10 | 1,929 | 2,071 |
 | 20 | 7 of 10 | 907 | 1,035 |
 | 50 | 10 of 10 | 289 | 414 |
@@ -90,14 +76,14 @@ Add a Count-Min sketch, measure both errors and give an agent a memory budget.
 
 Tags come from OpenStreetMap and its contributors under the Open Database Licence, and the ward outline from the ONS Open Geography Portal. The stream, the algorithms and the measurements are ours. Tag counts describe what volunteers have mapped, not a survey of Kings Heath.
 
+Agents and memory
+
 ## What the counters teach about AI agents and vibe coding
 
 An agent's memory is a budget, and every budget comes with an error you should be able to state.
 
-**The Kings Heath stream beside the agent a learner will later build**
-
 | In the tag stream | In an agent |
-|---|---|
+| --- | --- |
 | Ten counters kept 2 of the top ten | Too little memory quietly loses things |
 | Fifty counters kept all ten | A modest, well-chosen budget is often enough |
 | Misra-Gries only undercounts | Know which way your summary is wrong |
@@ -108,14 +94,37 @@ Vibe coding is building software by telling an AI what you want in plain languag
 
 We have no link with OpenStreetMap, the ONS, Nomis or postcodes.io. We used their open data, and every count on this page came from our own program.
 
+Pathway
+
 ## From tally boxes to agents with a memory budget
 
 The year groups are a rough guide; the trial lesson places each learner properly.
 
-- **Years 2 to 7: Thinking first** Tallies, estimates and asking how far off a shortcut might be. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for children** Games and small tools built with an AI and tested by the child. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python, data and agents** Dictionaries, hashing and streams next to GCSE and A level work. [Python for Teens](/courses/python-complete-masterclass-teens), [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)
-- **Adults: Agents in practice** State, memory limits, evaluation and streaming data. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Years 2 to 7
+
+### Thinking first
+
+Tallies, estimates and asking how far off a shortcut might be.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for children
+
+Games and small tools built with an AI and tested by the child.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python, data and agents
+
+Dictionaries, hashing and streams next to GCSE and A level work.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)Adults
+
+### Agents in practice
+
+State, memory limits, evaluation and streaming data.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)AI agents
 
 ## What is a heavy hitters algorithm, and why would an AI agent need one?
 
@@ -127,30 +136,139 @@ A learner who has built that asks any AI-written summary the same two things: wh
 
 Teenagers in Kings Heath who can answer those questions are directing the AI, not following it, and that comes from writing the counters by hand first. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Lessons
+
 ## How Kings Heath lessons are taught
 
 Any laptop or desktop with a webcam and a connection good enough for video will do.
 
-- **The learner does the building** Code and prompts come from the student. The tutor, watching the shared screen, asks what would break it.
-- **Starting point found early** In the free lesson we gauge the level and note any exam specification.
-- **No charge to try** The trial is a full lesson and closes with a course recommendation.
-- **Same-stage classes** Between five and ten learners from across the UK, grouped by level.
-- **Two sessions a week** School holidays are kept clear.
-- **A slot that stays put** Our tutors absorb the UK clock changes.
+### The learner does the building
 
-**Why it is online** Matching learners by stage needs a wide pool, and a video class draws on the whole country instead of one postcode.
+Code and prompts come from the student. The tutor, watching the shared screen, asks what would break it.
+
+### Starting point found early
+
+In the free lesson we gauge the level and note any exam specification.
+
+### No charge to try
+
+The trial is a full lesson and closes with a course recommendation.
+
+### Same-stage classes
+
+Between five and ten learners from across the UK, grouped by level.
+
+### Two sessions a week
+
+School holidays are kept clear.
+
+### A slot that stays put
+
+Our tutors absorb the UK clock changes.
+
+Why it is online
+
+Matching learners by stage needs a wide pool, and a video class draws on the whole country instead of one postcode.
+
+Fees
 
 ## Fees for Kings Heath
 
 Kings Heath sits on our international fee scale, the one used for every learner outside India.
 
-- First class: USD 0. One complete lesson at no cost, with a course proposed at the end.
-- Group tuition: USD 100 a month. Roughly eight live class lessons each month.
-- Private tuition: USD 150 a month. Roughly eight live one-to-one lessons each month.
+First class**USD 0**
+
+One complete lesson at no cost, with a course proposed at the end.
+
+Group tuition**USD 100**
+
+Roughly eight live class lessons each month.
+
+Private tuition**USD 150**
+
+Roughly eight live one-to-one lessons each month.
 
 All fees are quoted in US dollars, with no sterling figure published. Payment starts once the trial has fixed a course and a regular time; see the pricing page for how holidays, absences and a change from class to private tuition are handled.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Kings%20Heath%20and%20would%20like%20a%20free%20trial%20lesson%20in%20vibe%20coding%20or%20AI%20agents.)Reviews
+
+## Google reviews from Birmingham and the rest of the UK
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Kings Heath lesson
+
+Give us an age or school year and something the learner enjoys. The trial might be a tally game with too few boxes, a Scratch project steered through an AI, a first Python loop, or counting real map tags.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Kings Heath one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Kings%20Heath%20and%20would%20like%20a%20free%20trial%20lesson%20in%20vibe%20coding%20or%20AI%20agents.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Kings Heath questions
+
+Counters, sketches, agents, vibe coding and the practical side.
 
 ### What is the population of Kings Heath, Birmingham?
 
@@ -192,10 +310,14 @@ Nothing for the first lesson. A class place is USD 100 a month and private tuiti
 
 Tell us the dates and lessons pause.
 
+Birmingham
+
 ## Other Birmingham districts
 
 Each district page has a project of its own: [Moseley](/best-coding-and-ai-classes-in-moseley-birmingham) (how many clusters?), [Sutton Coldfield](/vibe-coding-and-ai-agents-classes-in-sutton-coldfield-birmingham) (a polite agent), [Harborne](/ai-and-programming-classes-in-harborne-birmingham), and the city-wide [Birmingham page](/coding-classes-in-birmingham). Everything else is reached from the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Ask on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Kings%20Heath%20and%20would%20like%20a%20free%20trial%20lesson%20in%20vibe%20coding%20or%20AI%20agents.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-kings-heath-birmingham](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-kings-heath-birmingham#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-kings-heath-birmingham*

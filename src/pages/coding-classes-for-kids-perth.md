@@ -4,46 +4,32 @@ description: "Live online coding classes for Perth kids from Pre-primary to Year
 canonical: https://learn.modernagecoders.com/coding-classes-for-kids-perth
 source: src/pages/coding-classes-for-kids-perth.html
 ---
-> Perth children from Pre-primary to Year 8 progress fastest with a live teacher, a small group at their own level and projects built on real Western Australian data. Greater Perth counted 136,414 children aged 5 to 9 in 2021. Our online classes take children from age 6, and the opening lesson is free.
+> Live online coding classes for Perth kids from Pre-primary to Year 8: Scratch, games, first Python and AI basics, with a real teacher in small groups or one to one.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [Western Australia](/coding-and-ai-classes-in-western-australia) / Perth
-
-Perth, Western Australia, Australia / Live online
-
-# Coding classes for kids in Perth
-
-**What are the best coding classes for kids in Perth?** Perth children from Pre-primary to Year 8 progress fastest with a live teacher, a small group at their own level and projects built on real Western Australian data. Greater Perth counted 136,414 children aged 5 to 9 in 2021. Our online classes take children from age 6, and the opening lesson is free.
-
-Ride the Fremantle line out to the coast and you pass seventeen stations. Ride it home and you pass the same seventeen, backwards. A program should be able to prove that: take the outbound list, reverse it, and check it against the list for the trip home. Our young Perth coders did exactly that with the station lists stored in OpenStreetMap. Sixteen stations matched perfectly. One did not, and the reason turned out to be one stray letter that nobody had noticed.
-
-Facts last verified 7 October 2026. Teaching is online; no Perth branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Perth kids
 
 ## Good places for a Perth child to begin
 
 Chosen by age and interest, then fine-tuned in the free first lesson.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 9): Block coding for beginners, from ordering instructions correctly to undoing them in reverse.
-- [Game Development for Kids](/courses/game-development-masterclass-for-kids) (Ages 8 to 12): Games in Scratch, Roblox and Minecraft, including a train game where the return journey runs the stations backwards.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): First Python lists: adding, reversing, slicing and comparing them on real Perth data.
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): Puzzles about order, steps and checking, the thinking that sits underneath every program.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 9Coding for KidsBlock coding for beginners, from ordering instructions correctly to undoing them in reverse.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Game Development for Kids course thumbnail](/images/game-dev-kids.webp)Ages 8 to 12Game Development for KidsGames in Scratch, Roblox and Minecraft, including a train game where the return journey runs the stations backwards.See the syllabus](/courses/game-development-masterclass-for-kids)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsFirst Python lists: adding, reversing, slicing and comparing them on real Perth data.See the syllabus](/courses/python-ai-kids-masterclass)[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsPuzzles about order, steps and checking, the thinking that sits underneath every program.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Perth children in the Census
 
 ## More young children than the national average
 
 Greater Perth figures from the 2021 Census QuickStats published by the ABS, quoted without any adding up of our own.
 
-**Children across Greater Perth, 2021 Census (ABS)**
-
 | What was counted | Perth number |
-|---|---|
+| --- | --- |
 | Children aged 0 to 4 | 129,598 (6.1%) |
 | Children aged 5 to 9 | 136,414 (6.4%; Australia 6.2%) |
 | Children aged 10 to 14 | 135,222 (6.4%) |
@@ -65,14 +51,14 @@ Perth families with children had 1.8 on average. Siblings regularly study with u
 
 One rule we show children from the start: census age bands are each adjusted separately to protect privacy, so they are not promised to sum to the published total. We report the published numbers and never construct a total from the pieces.
 
+Signature project
+
 ## Is the trip home just the trip out, reversed?
 
 The Fremantle line as two lists in OpenStreetMap, one for each direction, compared position by position after flipping one of them.
 
-**What we found on 7 October 2026 (our comparison of OpenStreetMap route data)**
-
 | Check | Result |
-|---|---|
+| --- | --- |
 | Stations listed from Perth to Fremantle | 17 |
 | Stations listed from Fremantle to Perth | 17 |
 | Positions that match after reversing the outbound list | 16 of 17 |
@@ -99,14 +85,14 @@ To a person, Cottesloe and Cottlesloe look like the same word. To a program they
 
 These comparisons are ours, made on an OpenStreetMap snapshot taken on 7 October 2026. OpenStreetMap is edited by volunteers, so the spelling slips we found may already have been corrected by the time you read this. We report only what the two route lists said that day and make no claim about timetables or which trains stop where.
 
+How children learn it
+
 ## Backwards and forwards at every age
 
 Reversing an order is one of the first ideas a young child can act out and one of the handiest a programmer uses.
 
-**Reversing and comparing, by year level**
-
 | Year level | What children try | What it builds |
-|---|---|---|
+| --- | --- | --- |
 | Pre-primary to Year 2 | Line up toy carriages for the trip out, then rebuild the line for the trip home | Order, sequence and undoing steps |
 | Years 3 to 6 | Read a Scratch list from the end with a counter that goes down instead of up | Lists, indexes and loops that count backwards |
 | Years 7 and 8 | Reverse and compare the two Fremantle lists in Python, printing every mismatch | Slicing, comparing strings and testing real data |
@@ -125,14 +111,14 @@ The program prints the mismatch rather than quietly changing a spelling. Decidin
 
 We have no connection with Transperth, the Public Transport Authority, OpenStreetMap or the Australian Bureau of Statistics, and none of them endorses this project. Census figures are the Bureau's; the list comparison is our own.
 
+The Western Australian school year
+
 ## Four terms on Perth time, with no clock changes
 
 Lessons fit around the Western Australian school year, and Perth's steady clock makes planning simple.
 
-**Western Australian public school terms in 2027, Department of Education (dates as published in the Government Gazette)**
-
 | Term | From | To |
-|---|---|---|
+| --- | --- | --- |
 | Term 1 | Monday 1 February | Friday 9 April |
 | Term 2 | Monday 26 April | Friday 2 July |
 | Term 3 | Monday 19 July | Friday 24 September |
@@ -150,16 +136,41 @@ Between terms, families decide whether lessons pause or continue. A single weekl
 
 Perth does not use daylight saving, so it stays two and a half hours ahead of India time all year. A 4pm Perth lesson is 1:30pm for our teachers.
 
-**A term calendar is a list too** Write the four start dates in a list, reverse it, and you have the year counted down from December. Ask the program which term contains a given date and children quickly meet the question of whether the last day of a term is included.
+A term calendar is a list too
+
+Write the four start dates in a list, reverse it, and you have the year counted down from December. Ask the program which term contains a given date and children quickly meet the question of whether the last day of a term is included.
+
+Learning ladder
 
 ## From lining up carriages to reversing lists in Python
 
 Bands are a starting point. The free lesson finds the real one.
 
-- **Ages 6 to 7: Order matters** Sequencing blocks, spotting the step that is in the wrong place and undoing moves in reverse. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 8 to 10: Scratch with lists** Games that store items in lists and read them forwards, backwards and in random order. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Game Development for Kids](/courses/game-development-masterclass-for-kids)
-- **Ages 10 to 12: Worlds to build** Roblox and Minecraft projects with scores, inventories and simple rules. [Roblox Game Coding for Kids](/courses/roblox-game-coding-for-kids-lua-course), [Minecraft Coding for Kids](/courses/minecraft-coding-for-kids-course)
-- **Ages 12 to 14: Python on real data** Lists, strings and comparisons applied to Perth maps and timetables, with maths alongside. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
+Ages 6 to 7
+
+### Order matters
+
+Sequencing blocks, spotting the step that is in the wrong place and undoing moves in reverse.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 8 to 10
+
+### Scratch with lists
+
+Games that store items in lists and read them forwards, backwards and in random order.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Game Development for Kids](/courses/game-development-masterclass-for-kids)Ages 10 to 12
+
+### Worlds to build
+
+Roblox and Minecraft projects with scores, inventories and simple rules.
+
+[Roblox Game Coding for Kids](/courses/roblox-game-coding-for-kids-lua-course)[Minecraft Coding for Kids](/courses/minecraft-coding-for-kids-course)Ages 12 to 14
+
+### Python on real data
+
+Lists, strings and comparisons applied to Perth maps and timetables, with maths alongside.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Coding and AI
 
 ## Would an AI tool have spotted Cottlesloe for a Perth child?
 
@@ -171,30 +182,139 @@ We want young Perth learners to know when to want a strict check and when a frie
 
 That is why coding is still worth learning in 2026: it gives a child a way to check, not just a way to ask. A Perth child who found Cottlesloe by reversing a list already knows the difference. The longer argument is in [the case for learning to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Joondalup to Rockingham, one live classroom
 
 Greater Perth stretches a long way up and down the coast, and online lessons mean no one spends the afternoon in traffic.
 
-- **What you need** A laptop or desktop with working sound. A parent nearby for the first lesson helps young children settle in.
-- **Western Australian terms** Teachers use the year names Perth children use, from Pre-primary onwards, so nothing sounds unfamiliar.
-- **A proper trial** One complete lesson to see how your child learns, followed by a course and time recommendation, with no card required.
-- **Groups** Fifteen to twenty children at the same stage, or one to one when that suits better.
-- **Regular rhythm** About eight lessons a month, normally two a week in the same slot.
-- **Teachers on India time** Perth is two and a half hours ahead of India time all year round, so after-school Perth lessons fall in the early afternoon of our teachers' working day.
+### What you need
 
-**One clock, all year** Because Western Australia keeps the same time all year, the gap to India never changes and a lesson booked for 4:30pm Perth time stays at 4:30pm Perth time from January to December.
+A laptop or desktop with working sound. A parent nearby for the first lesson helps young children settle in.
+
+### Western Australian terms
+
+Teachers use the year names Perth children use, from Pre-primary onwards, so nothing sounds unfamiliar.
+
+### A proper trial
+
+One complete lesson to see how your child learns, followed by a course and time recommendation, with no card required.
+
+### Groups
+
+Fifteen to twenty children at the same stage, or one to one when that suits better.
+
+### Regular rhythm
+
+About eight lessons a month, normally two a week in the same slot.
+
+### Teachers on India time
+
+Perth is two and a half hours ahead of India time all year round, so after-school Perth lessons fall in the early afternoon of our teachers' working day.
+
+One clock, all year
+
+Because Western Australia keeps the same time all year, the gap to India never changes and a lesson booked for 4:30pm Perth time stays at 4:30pm Perth time from January to December.
+
+Fees
 
 ## What coding classes cost for Perth kids
 
 Three prices and no fine print.
 
-- First class: USD 0. A full first lesson, free, finishing with a level, a course and a regular time.
-- Group tuition: USD 100 a month. Roughly eight lessons a month shared with fifteen to twenty children at the same level.
-- Private tuition: USD 150 a month. Roughly eight lessons a month with your child working one to one with the teacher.
+First class**USD 0**
+
+A full first lesson, free, finishing with a level, a course and a regular time.
+
+Group tuition**USD 100**
+
+Roughly eight lessons a month shared with fifteen to twenty children at the same level.
+
+Private tuition**USD 150**
+
+Roughly eight lessons a month with your child working one to one with the teacher.
 
 Outside India we charge everyone in US dollars at one rate, so it does not matter whether you are in the northern suburbs or down the coast towards Rockingham. The first invoice only follows the trial, once you are happy with the course and slot; the pricing page covers holidays, missed lessons and switching formats.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20class%20for%20my%20child%20in%20Perth.)Reviews
+
+## Unedited Google reviews from families and learners
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us about your Perth coder
+
+A Pre-primary child might start by putting blocks in order, a Year 4 child by reversing a Scratch list, and a Year 7 student by comparing station lists in Python. Mention the year level and something they love.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Perth one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20class%20for%20my%20child%20in%20Perth.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Questions from Perth parents
+
+What Perth families most often ask before the first lesson.
 
 ### What age can my Perth child start coding?
 
@@ -236,10 +356,14 @@ The first lesson is free. After that a group place is USD 100 a month for two li
 
 Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
+Explore Australia
+
 ## More for Perth families
 
 Teenagers and adults in Perth have a separate page: [online coding and Python classes in Perth](/online-coding-and-python-classes-in-perth-western-australia). The state picture is on [coding and AI classes in Western Australia](/coding-and-ai-classes-in-western-australia), and families looking at the WA gifted tests can read [GATE and ASET maths practice](/wa-gate-aset-maths-practice). For younger children see [online coding classes for kids in Australia](/online-coding-classes-for-kids-australia), and for everything else the [Australia coding page](/coding-classes-in-australia).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20class%20for%20my%20child%20in%20Perth.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-for-kids-perth](https://learn.modernagecoders.com/coding-classes-for-kids-perth#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-for-kids-perth*

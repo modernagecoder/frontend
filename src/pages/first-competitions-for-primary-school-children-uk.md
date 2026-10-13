@@ -4,34 +4,28 @@ description: "Seven UK competitions a primary-age child can enter, with ages, da
 canonical: https://learn.modernagecoders.com/first-competitions-for-primary-school-children-uk
 source: src/pages/first-competitions-for-primary-school-children-uk.html
 ---
-> Seven competitions are open to primary-age children in the UK. The Primary Maths Challenge is for pupils aged 9 to 11 and runs from 9 to 20 November 2026, 25 questions in 45 minutes. The UK Bebras Challenge is "open to all young people aged 6 to 19", is "entirely free to enter", takes 45 minutes and runs in the same fortnight; more than 526,000 UK students took it last year. The Primary Kangaroo is "a 20 question multiple choice paper aimed at students aged 9-11" on 18 March 2027. The Scottish Mathematical Challenge has a Primary division for P7 with three rounds a year. Astro Pi Mission Zero runs a child's Python program on the International Space Station in about an hour, free, by 22 March 2027. Coolest Projects shows every checked entry in a gallery, at any age. FIRST LEGO League Explore is "suitable for children age 6 to 10". Five of the seven are entered by a school; two are not. We teach the maths and the coding: the first class is free, a group place is USD 100 a month and one-to-one teaching USD 150.
+> Seven UK competitions a primary-age child can enter, with ages, dates and cost, and the two that a family can enter without going through a school.
 
-[Home](/) / [Courses](/courses) / [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar) / First competitions, primary
+In short
 
-United Kingdom · Ages 6 to 11 · Seven competitions compared
+Seven competitions are open to primary-age children in the UK. The Primary Maths Challenge is for pupils aged 9 to 11 and runs from 9 to 20 November 2026, 25 questions in 45 minutes. The UK Bebras Challenge is "open to all young people aged 6 to 19", is "entirely free to enter", takes 45 minutes and runs in the same fortnight; more than 526,000 UK students took it last year. The Primary Kangaroo is "a 20 question multiple choice paper aimed at students aged 9-11" on 18 March 2027. The Scottish Mathematical Challenge has a Primary division for P7 with three rounds a year. Astro Pi Mission Zero runs a child's Python program on the International Space Station in about an hour, free, by 22 March 2027. Coolest Projects shows every checked entry in a gallery, at any age. FIRST LEGO League Explore is "suitable for children age 6 to 10". Five of the seven are entered by a school; two are not. We teach the maths and the coding: the first class is free, a group place is USD 100 a month and one-to-one teaching USD 150.
 
-# First competitions for primary school children
-
-A parent who notices that their eight-year-old likes numbers, or will not get off the computer, eventually asks what there is to enter. The answer in Britain is more than most people think and harder to reach than it should be: there are at least seven things a primary-age child can take part in, several are free, one of them had more than half a million entrants last year, and almost all of them are entered by a school rather than by a family. This page compares them honestly, including who actually has to sign the child up, and names the two that a parent can enter on their own.
-
-At a glance: Youngest entry: Age 6, at Bebras and FIRST LEGO League Explore; Largest: UK Bebras, 526,000 students; Free: Bebras, Astro Pi and others; November window: Two competitions share it; Entered by a school: Five of the seven; Entered by a parent: Two of the seven; Ranked: Some; one has no ranking at all; Our part: Teaching, never entering. Rated 4.9 across 547 Google reviews.
+Where to start
 
 ## Three courses for a primary-age child
 
 None of these is a competition course. All three build what the competitions happen to reward.
 
-- [Mental maths for kids](/courses/mental-maths-mastery-kids): Number sense rather than tricks, which is what makes a timed paper feel calm instead of rushed.
-- [Scratch for kids](/courses/scratch-programming-complete-course): A first language and, more importantly, a first finished thing that somebody else can use.
-- [Primary maths, Years 1 to 5](/courses/elementary-mathematics-complete-masterclass): The whole primary ladder, taught until the arithmetic stops costing thinking time.
+[![Mental Maths for Kids course thumbnail](/images/mental-maths-kids.webp)  FCP / 01 Mental maths for kids Number sense rather than tricks, which is what makes a timed paper feel calm instead of rushed. Open the syllabus →](/courses/mental-maths-mastery-kids)[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)  FCP / 02 Scratch for kids A first language and, more importantly, a first finished thing that somebody else can use. Open the syllabus →](/courses/scratch-programming-complete-course)[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  FCP / 03 Primary maths, Years 1 to 5 The whole primary ladder, taught until the arithmetic stops costing thinking time. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)
+
+The seven
 
 ## What a primary-age child can actually enter
 
 Each row was read at the organiser's own site on 20 September 2026 while we were writing the page behind it.
 
-**Competitions open to primary-age children in the UK**
-
 | Competition | Ages | When and how long | Cost |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | UK Bebras Challenge | "All young people aged 6 to 19" | 9 to 20 November 2026, 45 minutes online | "Entirely free to enter" |
 | Primary Maths Challenge | Aged 9 to 11, in primary school | 9 to 20 November 2026, 25 questions in 45 minutes | Schools buy packs of ten papers |
 | Primary Kangaroo | "Students aged 9-11" | 18 March 2027, 20 multiple-choice questions | A follow-on round, entered through a school |
@@ -50,14 +44,14 @@ Every page linked from this one carries the organiser's own words, the date we r
 
 Sources: the organisers of each competition, read on 20 September 2026 and cited in full on the individual pages linked throughout. Modern Age Coders is not connected with any of them.
 
+The finding
+
 ## Five need a school. Two do not.
 
 This is the question parents actually ask, and almost nobody answers it in one place.
 
-**Who signs the child up, from each organiser's own rules**
-
 | Competition | Who registers the child | Can a parent do it alone? |
-|---|---|---|
+| --- | --- | --- |
 | Primary Maths Challenge | A school orders packs of ten papers and runs the paper | No |
 | UK Bebras Challenge | "A teacher must sign up as the main school coordinator" | No |
 | Primary Kangaroo | Through a school, as a follow-on to a challenge | No |
@@ -88,14 +82,14 @@ And a teacher who says yes to one competition usually says yes to the next, so t
 
 Each entry route in the table is taken from the organiser's own pages, read on 20 September 2026 and quoted in full on the page for that competition.
 
+Choosing
+
 ## Which one first, by what the child is like
 
 There is no ladder here and no right order. There is a child who enjoys one kind of thing.
 
-**Matching a child to a first competition**
-
 | If a child | Start with | Because |
-|---|---|---|
+| --- | --- | --- |
 | Likes number puzzles and is quick | Primary Maths Challenge | Twenty-five graded questions, and the last five have no options to choose from |
 | Is thoughtful rather than fast | UK Bebras Challenge | Forty-five minutes, no arithmetic, and it rewards noticing a rule |
 | Wants to make things | Coolest Projects | Every checked entry is shown, and there is no ranking to fall out of |
@@ -112,14 +106,14 @@ What a parent can usefully do at home is smaller than a competition and more val
 
 The full year for every age, with each organiser named and each date checked, is on the [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar).
 
+Getting ready
+
 ## Four rungs through primary school
 
 Nothing here is preparation for a competition. It is what makes a competition enjoyable if one turns up.
 
-**From counting to unfamiliar problems**
-
 | Stage | Rung | The sign it is secure |
-|---|---|---|
+| --- | --- | --- |
 | Years 1 to 2 | 1. Number sense | Sees that six and four make ten without counting |
 | Years 3 to 4 | 2. Recall | Tables and halves arrive rather than being worked out |
 | Year 5 | 3. Unfamiliar shapes | Reads a wordy question and can say what kind of maths it is |
@@ -128,71 +122,321 @@ Nothing here is preparation for a competition. It is what makes a competition en
 ### If a competition is next month
 
 Do nothing special. These papers are designed to be sat without preparation, and a child told it matters does worse.
+
 If you want to do something, do one past question together, slowly, with no clock.
 
 ### If a child loves it
 
 Secondary school opens the olympiad ladder, which is set out on [the junior olympiad](/junior-mathematical-olympiad-preparation).
+
 A child who enjoys the puzzles usually enjoys writing them as programs, which is what [maths through coding](/courses/maths-through-coding) exists for.
+
+The full list
 
 ## Courses for primary-age children
 
 Grouped by what a child is ready for, with the syllabus behind every card.
 
+I
+
 ### Number
 
 Ages 5 to 11
 
-- [Early maths foundations](/courses/early-math-foundations): Playful and concrete, for ages four to seven.
-- [Primary maths, Years 1 to 5](/courses/elementary-mathematics-complete-masterclass): Every primary topic, taught to automatic.
-- [Mental maths for kids](/courses/mental-maths-mastery-kids): Number sense rather than tricks.
+FCP / A / 01
+
+#### Early maths foundations
+
+Playful and concrete, for ages four to seven.
+
+[Open the syllabus](/courses/early-math-foundations)
+
+FCP / A / 02
+
+#### Primary maths, Years 1 to 5
+
+Every primary topic, taught to automatic.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+FCP / A / 03
+
+#### Mental maths for kids
+
+Number sense rather than tricks.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)II
 
 ### Puzzles
 
 For a child who likes hard things
 
-- [Olympiad and competition maths](/courses/olympiad-competition-mathematics-mastery): Questions that hide what they are about.
-- [Abacus and mental maths](/courses/abacus-mental-maths-course-for-kids): From first beads to calculating with none.
-- [Vedic maths](/courses/vedic-maths-course-speed-calculation-mastery): Sixteen rules for calculating faster in the head.
+FCP / B / 01
+
+#### Olympiad and competition maths
+
+Questions that hide what they are about.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)
+
+FCP / B / 02
+
+#### Abacus and mental maths
+
+From first beads to calculating with none.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)
+
+FCP / B / 03
+
+#### Vedic maths
+
+Sixteen rules for calculating faster in the head.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)III
 
 ### Making things
 
 Ages 6 to 11
 
-- [Scratch for kids](/courses/scratch-programming-complete-course): A first language and a first finished thing.
-- [Coding for kids, blocks to AI](/courses/kids-coding-blocks-masterclass): Games, apps and a first look at AI.
-- [Minecraft coding for kids](/courses/minecraft-coding-for-kids-course): Real code in a world a child knows.
+FCP / C / 01
+
+#### Scratch for kids
+
+A first language and a first finished thing.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)
+
+FCP / C / 02
+
+#### Coding for kids, blocks to AI
+
+Games, apps and a first look at AI.
+
+[Open the syllabus](/courses/kids-coding-blocks-masterclass)
+
+FCP / C / 03
+
+#### Minecraft coding for kids
+
+Real code in a world a child knows.
+
+[Open the syllabus](/courses/minecraft-coding-for-kids-course)IV
 
 ### Into secondary
 
 Year 6 and beyond
 
-- [Python and AI for kids](/courses/python-ai-kids-masterclass): The first typed language, taught patiently.
-- [Maths through coding](/courses/maths-through-coding): Programs that show why a method works.
-- [Middle school maths mastery](/courses/comprehensive-middle-school-mathematics-mastery): Where a Year 6 goes when primary stops stretching them.
+FCP / D / 01
+
+#### Python and AI for kids
+
+The first typed language, taught patiently.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)
+
+FCP / D / 02
+
+#### Maths through coding
+
+Programs that show why a method works.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+FCP / D / 03
+
+#### Middle school maths mastery
+
+Where a Year 6 goes when primary stops stretching them.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+How lessons run
 
 ## Short, weekly, and early enough that a child is still awake
 
 Teaching is live on video from India, five and a half hours ahead of the UK in winter and four and a half in summer. Primary children take an early evening slot, agreed in UK time.
 
-- **Early weekday evening** While a child is still fresh enough to think.
-- **Saturday or Sunday morning** For households where weekday evenings are gone.
-- **School holidays** Little and often, rather than one long session.
+Early weekday evening
 
-- **Reasoning out loud** A child says why before saying what, which is the habit every one of these competitions rewards.
-- **Our own puzzles** Written by us. We do not reproduce any competition's questions in a lesson.
-- **Fifteen to twenty children** Enough to hear a better method than your own, few enough that nobody stays silent.
-- **Parents told plainly** A short honest note after each block, not a score to put on the fridge.
-- **One to one when it helps** For a child far ahead of their year, or one who freezes in a group.
-- **We enter nobody** Every competition here is entered by a school or a parent. We teach, and that is all.
+While a child is still fresh enough to think.
+
+Saturday or Sunday morning
+
+For households where weekday evenings are gone.
+
+School holidays
+
+Little and often, rather than one long session.
+
+### Reasoning out loud
+
+A child says why before saying what, which is the habit every one of these competitions rewards.
+
+### Our own puzzles
+
+Written by us. We do not reproduce any competition's questions in a lesson.
+
+### Fifteen to twenty children
+
+Enough to hear a better method than your own, few enough that nobody stays silent.
+
+### Parents told plainly
+
+A short honest note after each block, not a score to put on the fridge.
+
+### One to one when it helps
+
+For a child far ahead of their year, or one who freezes in a group.
+
+### We enter nobody
+
+Every competition here is entered by a school or a parent. We teach, and that is all.
+
+Student work
+
+## What our students build
+
+Four published projects by students at our school, most of them older than this and all of them once eight. The [student labs](/student-labs) page has more.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 A monthly rate in US dollars, the same in every country outside India, with nothing to join and no fixed term.
 
-- Free first class: USD 0. A real lesson, taught not sold. An honest read on where the maths is. No card details.
-- Group batch: USD 100 a month. Fifteen to twenty children at one level. The same teacher every week. Work marked and talked through. A certificate at the end.
-- One to one: USD 150 a month. One child with one teacher. Built around a particular gap. Useful when a group hour will not fit.
+Free first class
+
+USD 0
+
+no card required
+
+- A real lesson, taught not sold
+- An honest read on where the maths is
+- No card details
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty children at one level
+- The same teacher every week
+- Work marked and talked through
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- One child with one teacher
+- Built around a particular gap
+- Useful when a group hour will not fit
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+What parents have written about us on Google, word for word.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Primary competition questions
 
 ## What parents of primary children ask
 
@@ -236,15 +480,54 @@ Ask in September, in writing, naming the competition. Most primary teachers have
 
 The first is free. A group place is then USD 100 a month and one-to-one teaching USD 150, with nothing to pay to join.
 
+The pages behind this one
+
 ## Each competition in full
 
-- [Primary Maths Challenge](/primary-maths-challenge-practice): Twenty-five questions, and the five with no options.
-- [UK Bebras Challenge](/bebras-computational-thinking-challenge-practice-uk): Free, 45 minutes, no programming at all.
-- [Astro Pi Mission Zero](/astro-pi-mission-zero-and-space-lab-help): An hour of Python that runs in space.
-- [Coolest Projects UK](/coolest-projects-uk-project-ideas): Seven categories and no ranking.
-- [FIRST LEGO League](/first-lego-league-uk-coding-help): Explore from age six, delivered by the IET.
-- [Scottish Mathematical Challenge](/scottish-mathematical-challenge-practice): Marks for the explanation, from P7 upwards.
+Every row of the table above has its own page, with the organiser's words and the date we read them.
 
-## Contact
+### [Primary Maths Challenge](/primary-maths-challenge-practice)
 
-Book the free first class at [https://learn.modernagecoders.com/first-competitions-for-primary-school-children-uk](https://learn.modernagecoders.com/first-competitions-for-primary-school-children-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Twenty-five questions, and the five with no options.
+
+### [UK Bebras Challenge](/bebras-computational-thinking-challenge-practice-uk)
+
+Free, 45 minutes, no programming at all.
+
+### [Astro Pi Mission Zero](/astro-pi-mission-zero-and-space-lab-help)
+
+An hour of Python that runs in space.
+
+### [Coolest Projects UK](/coolest-projects-uk-project-ideas)
+
+Seven categories and no ranking.
+
+### [FIRST LEGO League](/first-lego-league-uk-coding-help)
+
+Explore from age six, delivered by the IET.
+
+### [Scottish Mathematical Challenge](/scottish-mathematical-challenge-practice)
+
+Marks for the explanation, from P7 upwards.
+
+Start here
+
+## Book a free lesson
+
+Tell us your child's school year and what they enjoy. The free lesson teaches something real, and afterwards we say plainly what we saw.
+
+Rather read first? Each course keeps its syllabus on its own [course page](/courses), our approach is on [how we teach](/how-we-teach), and the [roadmap](/coding-roadmap) shows what follows what.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20primary-age%20child%20is%20interested%20in%20maths%20or%20coding%20and%20I%20would%20like%20a%20free%20class.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is free from a UK mobile and reaches us soonest. Our number belongs to India, which we say on every page, and no British office exists.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/first-competitions-for-primary-school-children-uk*

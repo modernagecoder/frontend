@@ -4,46 +4,32 @@ description: "Live online vibe coding, AI agents, Python and coding classes for 
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-washington
 source: src/pages/vibe-coding-and-ai-agents-classes-in-washington.html
 ---
-> Washington in Tyne and Wear is an ONS built-up area with 51,320 usual residents at the 2021 census, part of the city of Sunderland, which had 274,172. The gazetteer lists Concord, Oxclose, Biddick, Fatfield, Barmston, Usworth, Sulgrave and Rickleton among its suburban areas. Modern Age Coders runs lessons there in vibe coding, AI agents, Python, general coding and maths for anyone from six to 67. Lessons are live video sessions with tutors in India, either individual or in classes of fifteen to twenty pitched at one level. We teach learners to give an agent a stopping rule and to measure what that rule costs. The Washington project has an agent hunt for a meeting point among 179 census area centres, and compares checking every one with stopping at the first that is good enough. The first lesson is free; from there a group class costs USD 100 monthly and individual tuition USD 150 monthly.
+> Live online vibe coding, AI agents, Python and coding classes for Washington, Tyne and Wear: Concord, Oxclose, Biddick and Fatfield. Ages 6 to 67, first lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [North East England](/coding-and-ai-classes-in-north-east-england) / Washington
-
-Washington, Sunderland, Tyne and Wear / Live online
-
-# Vibe coding and AI agents classes in Washington, Tyne and Wear
-
-**What are the best vibe coding and AI agents classes in Washington, Tyne and Wear?** Washington in Tyne and Wear is an ONS built-up area with 51,320 usual residents at the 2021 census, part of the city of Sunderland, which had 274,172. The gazetteer lists Concord, Oxclose, Biddick, Fatfield, Barmston, Usworth, Sulgrave and Rickleton among its suburban areas. Modern Age Coders runs lessons there in vibe coding, AI agents, Python, general coding and maths for anyone from six to 67. Lessons are live video sessions with tutors in India, either individual or in classes of fifteen to twenty pitched at one level. We teach learners to give an agent a stopping rule and to measure what that rule costs. The Washington project has an agent hunt for a meeting point among 179 census area centres, and compares checking every one with stopping at the first that is good enough. The first lesson is free; from there a group class costs USD 100 monthly and individual tuition USD 150 monthly.
-
-Herbert Simon, who later won a Nobel prize in economics, argued in the 1950s that real decision makers do not hunt for the perfect option. They set a bar, look until something clears it, and stop. He invented a word for it, satisficing, from satisfy and suffice. An AI agent faces the same choice on every task, because each extra look costs time, tokens or money. Set the bar too low and the answer is poor. Set it too high and the agent never stops. This project puts numbers on both mistakes using a real town.
-
-Facts last verified 30 September 2026. Teaching is online; no Washington branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentStarting courses
 
 ## Vibe coding and agent courses for Washington learners
 
 Here is one course for each age group. All begin with a free live lesson, and no card is taken.
 
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Children build Scratch games by directing an AI, then decide whether the result is good enough to keep.
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): How to think: setting a goal, searching sensibly and knowing when to stop.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Vibe coding in Python for teenagers, with the Washington meeting-point agent as a project.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Students and adults): Python from first steps to agents with budgets, targets and tests.
+[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsChildren build Scratch games by directing an AI, then decide whether the result is good enough to keep.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsHow to think: setting a goal, searching sensibly and knowing when to stop.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensVibe coding in Python for teenagers, with the Washington meeting-point agent as a project.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Masterclass course thumbnail](/images/python-college.webp)Students and adultsPython MasterclassPython from first steps to agents with budgets, targets and tests.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Local detail
 
 ## Washington, Concord, Oxclose, Biddick and Fatfield
 
 Census populations and the suburb names recorded for the NE37 and NE38 postcode districts.
 
-**Usual residents at the 2021 census (ONS)**
-
 | Area | Usual residents |
-|---|---|
+| --- | --- |
 | Washington built-up area | 51,320 |
 | City of Sunderland | 274,172 |
 
@@ -53,6 +39,8 @@ Washington is counted by the ONS as its own built-up area within the Sunderland 
 
 Also see the [Tyne and Wear page](/coding-classes-in-tyne-and-wear), [Sunderland](/best-coding-class-in-sunderland) and [Gateshead](/ai-and-programming-classes-in-gateshead). Our approach is explained on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Washington project
+
 ## Satisficing: an agent that stops at good enough
 
 A made-up task on real data: choose a meeting point for the whole town.
@@ -61,10 +49,8 @@ The ONS splits the Washington built-up area into 179 census output areas, each w
 
 A thorough agent scores all 179 centres and takes the lowest. A satisficing agent is given a target instead. It scores centres one at a time in a random order and stops the moment one meets the target. The learner runs it 10,000 times for each target and records two things: how many centres were scored before stopping, and how far the chosen centre was from the true lowest.
 
-**Satisficing agent on 179 Washington centres, 10,000 random orders per row, our Python run**
-
 | Target score | Centres that meet it | Scored before stopping (mean) | Worse than the lowest by (mean) |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1,600 m or less | 8 | 19.9 | 13 m |
 | 1,700 m or less | 25 | 6.9 | 74 m |
 | 1,800 m or less | 44 | 4.0 | 129 m |
@@ -91,14 +77,14 @@ Score the 179 real centres, run 10,000 orders per target, and add the fallback f
 
 Household counts are Census 2021 figures from Nomis and the centres are ONS population-weighted centroids, both Crown copyright under the Open Government Licence. Satisficing is Herbert Simon's idea (1956). The task, the targets and the results are our own.
 
+Agents that know when to stop
+
 ## What satisficing teaches about vibe coding and AI agents
 
 Every agent needs a rule for when it is finished, and somebody has to write it.
 
-**From the Washington meeting point to AI agents**
-
 | In the Washington run | For an AI agent |
-|---|---|
+| --- | --- |
 | A 1,700 m target saved about 96% of the work | A sensible bar is often worth a small loss in quality |
 | Tightening to 1,600 m tripled the work | The last few per cent are the expensive ones |
 | A 1,500 m target could never be met | Always set a limit on steps, and a fallback |
@@ -109,14 +95,37 @@ In vibe coding you tell an AI what you want built and guide it as it writes. Ask
 
 This page has no association with the Office for National Statistics, Nomis or postcodes.io. Their data is open and we have used it as published; the scenario is ours.
 
+Four stages
+
 ## Card games first, agents with stopping rules later
 
 We match the stage to the learner in the free lesson; the year group gets us close.
 
-- **Years 2 to 6: How to think** Goals, searching and stopping, played out as games. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Scratch games built with AI help and judged by the child. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Vibe coding in Python** Search, simulation and web projects, each with a test. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Agents with limits** Python agents with targets, budgets and honest fallbacks. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
+Years 2 to 6
+
+### How to think
+
+Goals, searching and stopping, played out as games.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Scratch games built with AI help and judged by the child.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Vibe coding in Python
+
+Search, simulation and web projects, each with a test.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Agents with limits
+
+Python agents with targets, budgets and honest fallbacks.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)AI agents and stopping
 
 ## What is satisficing, and how does an AI agent know when to stop?
 
@@ -128,30 +137,139 @@ Learners who have run those numbers ask three things of any agent: what counts a
 
 Washington teenagers who can write a stopping rule and test it are the ones who can put an AI agent to real use, which is a good reason to learn to code. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Lessons explained
+
 ## Live online lessons for Washington
 
 Learners need a computer, a webcam and a connection that holds a video call. No software has to be set up in advance of the trial.
 
-- **Active from minute one** The learner writes and runs code while sharing their screen; the tutor guides with questions.
-- **We assess in the trial** A course is suggested only after the free lesson has shown what the learner can do.
-- **Nothing to pay upfront** The first lesson is free and we do not ask for a card.
-- **Fifteen to twenty in a group** Groups share a level, and their members live all over the UK.
-- **Two sessions a week** In term time; Sunderland school holidays are left out on request.
-- **Lesson time never drifts** Clock changes in the UK are handled at the tutor's end.
+### Active from minute one
 
-**Why online, why live** Online lets us put each learner with others at exactly their stage. Live means a tutor can stop, ask and explain in the moment, which a recording cannot.
+The learner writes and runs code while sharing their screen; the tutor guides with questions.
+
+### We assess in the trial
+
+A course is suggested only after the free lesson has shown what the learner can do.
+
+### Nothing to pay upfront
+
+The first lesson is free and we do not ask for a card.
+
+### Fifteen to twenty in a group
+
+Groups share a level, and their members live all over the UK.
+
+### Two sessions a week
+
+In term time; Sunderland school holidays are left out on request.
+
+### Lesson time never drifts
+
+Clock changes in the UK are handled at the tutor's end.
+
+Why online, why live
+
+Online lets us put each learner with others at exactly their stage. Live means a tutor can stop, ask and explain in the moment, which a recording cannot.
+
+Fees
 
 ## Washington lesson prices
 
 UK learners, including those in Washington, pay the rates we charge everywhere outside India.
 
-- First class: USD 0. A free first lesson of normal length that ends with our course advice.
-- Group tuition: USD 100 a month. A group place, with about eight lessons a month.
-- Private tuition: USD 150 a month. One-to-one teaching, with about eight lessons a month.
+First class**USD 0**
+
+A free first lesson of normal length that ends with our course advice.
+
+Group tuition**USD 100**
+
+A group place, with about eight lessons a month.
+
+Private tuition**USD 150**
+
+One-to-one teaching, with about eight lessons a month.
 
 Our prices are in US dollars and we publish no sterling amount. Nothing is due for the trial, and charging starts once a course and a weekly slot are agreed. The pricing page sets out what happens with holidays, missed lessons and changes of format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Washington%2C%20Tyne%20and%20Wear%2C%20and%20would%20like%20a%20free%20trial%20lesson%20in%20vibe%20coding%20or%20AI%20agents.)Reviews
+
+## North East families and UK learners in their own words on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Washington lesson
+
+Share an age or school year and one thing the learner enjoys. We might run the trial as a stop-or-continue card game, a Scratch game made with AI, first Python, or a small search agent.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Washington one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Washington%2C%20Tyne%20and%20Wear%2C%20and%20would%20like%20a%20free%20trial%20lesson%20in%20vibe%20coding%20or%20AI%20agents.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Washington questions answered
+
+Satisficing, the meeting-point project, vibe coding, agents and the practical side.
 
 ### What is the population of Washington, Tyne and Wear?
 
@@ -193,10 +311,14 @@ Your first lesson costs nothing. A group place is USD 100 per month afterwards, 
 
 Yes. Give us the dates and we will skip them.
 
+More in the North East
+
 ## Tyne and Wear pages with other projects
 
 Visit [Sunderland](/best-coding-class-in-sunderland) (finding points fast with a tree of boxes), [South Shields](/best-coding-and-ai-classes-in-south-shields) and [Newcastle upon Tyne](/best-coding-class-in-newcastle-upon-tyne). The [Tyne and Wear page](/coding-classes-in-tyne-and-wear) and the [UK hub](/coding-classes-in-united-kingdom) list everything else.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Reach us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Washington%2C%20Tyne%20and%20Wear%2C%20and%20would%20like%20a%20free%20trial%20lesson%20in%20vibe%20coding%20or%20AI%20agents.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-washington](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-washington#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-washington*

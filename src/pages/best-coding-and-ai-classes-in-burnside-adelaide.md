@@ -4,56 +4,40 @@ description: "Live online coding and AI classes for Burnside children, teenagers
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-burnside-adelaide
 source: src/pages/best-coding-and-ai-classes-in-burnside-adelaide.html
 ---
-> At live online lessons, private or in a small group, that take children from Scratch at six to Python and AI as teenagers and adults, with projects built on real Adelaide data and careful checks. Burnside counted 3,060 residents at the 2021 Census.
+> Live online coding and AI classes for Burnside children, teenagers and adults, from Scratch to Python and AI projects on real Adelaide data, in groups or one to one.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [South Australia](/coding-and-ai-classes-in-south-australia) / [Adelaide](/ai-and-programming-classes-in-adelaide) / Burnside
-
-Burnside, City of Burnside, South Australia / Live online
-
-# Coding and AI classes in Burnside
-
-**Where should Burnside learners look for the best coding and AI classes?** At live online lessons, private or in a small group, that take children from Scratch at six to Python and AI as teenagers and adults, with projects built on real Adelaide data and careful checks. Burnside counted 3,060 residents at the 2021 Census.
-
-On each of the three Sundays we checked, half of Burnside's bus stop records saw no buses at all. A data script written to guard against that, using Python's assert, catches it at once. Run the same script with the -O optimisation flag and the guard disappears: the script announces that every stop is served.
-
-Facts last verified 13 October 2026. Teaching is online; no Burnside branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Burnside
 
 ## Courses that make data checks dependable
 
 The Sunday-service project is about validation, error handling and knowing how Python runs. These courses teach it; the trial lesson finds the starting point.
 
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Exceptions, assertions and validating real data properly.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (University and adult): Robust Python for scripts that others will run.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (University and adult): Checking data before analysis, with checks that cannot be switched off.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): First Python projects with simple built-in checks.
+[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensExceptions, assertions and validating real data properly.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)University and adultPython MasterclassRobust Python for scripts that others will run.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)University and adultData Analysis CourseChecking data before analysis, with checks that cannot be switched off.See the syllabus](/courses/data-analysis-mastery-course-college)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsFirst Python projects with simple built-in checks.See the syllabus](/courses/python-ai-kids-masterclass)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Burnside in the Census
 
 ## A foothills suburb of families
 
 Census 2021 QuickStats for the suburb of Burnside (ABS code SAL40192), with South Australia for comparison.
 
-**Burnside residents, 2021**
-
 | Measure | Burnside |
-|---|---|
+| --- | --- |
 | Residents | 3,060 |
 | Median age | 43 |
 | Families | 872 |
 | Private dwellings | 1,257 |
 | People per household | 2.7 |
 
-**Burnside set against South Australia**
-
 | Indicator | Burnside | South Australia |
-|---|---|---|
+| --- | --- | --- |
 | Adults with a bachelor degree or higher | 49.6% (1,222) | 22.7% |
 | Semi-detached, row or townhouse homes | 25.6% (294) | 14.6% |
 | Employed residents working from home | 17.2% (255) | 9.6% |
@@ -73,21 +57,19 @@ The ABS suburb boundary covers about 1.7 square kilometres in Adelaide's eastern
 
 The Census bureau alters small counts very slightly to keep people anonymous, so we reproduce every figure unchanged and calculate no totals from them.
 
+Signature project
+
 ## A check that a flag can switch off
 
 The script collects Sunday 25 October 2026 visits for each of the 18 stop records inside Burnside, asserts that none is missing, then reports an average. We ran it twice: once normally, once with python -O.
 
-**The same script, two ways to run it (our run, Python 3.13.6)**
-
 | Command | Last line printed |
-|---|---|
+| --- | --- |
 | python brns_assert.py | AssertionError: 9 stops have no Sunday service |
 | python -O brns_assert.py | every stop served on Sunday; average 7.6 visits per stop |
 
-**What the timetable actually shows (our count)**
-
 | Day | Stop records with service | Routes |
-|---|---|---|
+| --- | --- | --- |
 | Wednesday 21 October 2026 | 18 of 18 | 7 |
 | Sunday 25 October 2026 | 9 of 18 | 2: 141 and 142 |
 
@@ -109,14 +91,14 @@ assert is for conditions that should be impossible if the code is right, as a de
 
 The timetable is Adelaide Metro open data, feed version 1708. Burnside membership is our point-in-boundary check, and both printed lines come from our own runs of the same file.
 
+Validating data
+
 ## Checks that always run
 
 The fix is a few characters longer than the assert, and it cannot be optimised away.
 
-**assert compared with an explicit check**
-
 | Aspect | assert missing == [] | if missing: raise ValueError(...) |
-|---|---|---|
+| --- | --- | --- |
 | Runs under python -O | No, removed | Yes |
 | Intended for | Internal sanity checks | Validating inputs and data |
 | Exception type | AssertionError | Any type you choose |
@@ -136,6 +118,8 @@ Audit production scripts for data checks written as assert; each is a guard that
 
 Few people run Python with -O on purpose, but some deployment tools and environment settings such as PYTHONOPTIMIZE switch it on. Validation that depends on it being off is fragile.
 
+Around Burnside
+
 ## Greenhill, Glynburn and Hallett roads
 
 Details from the timetable that belong to Burnside itself.
@@ -152,16 +136,41 @@ Stop 20 on Hallett Road (east side) had the most Wednesday visits, 37.
 
 Every Burnside stop record is served by buses only.
 
-**Burnside suburb only** Figures here cover the suburb of Burnside, not the whole City of Burnside. Stonyfell, Beaumont, Hazelwood Park, Leabrook, Erindale, Waterfall Gully and Greenhill border it and are counted separately.
+Burnside suburb only
+
+Figures here cover the suburb of Burnside, not the whole City of Burnside. Stonyfell, Beaumont, Hazelwood Park, Leabrook, Erindale, Waterfall Gully and Greenhill border it and are counted separately.
+
+Learning ladder
 
 ## From roll calls to robust validation
 
 Ages are approximate; a trial lesson shows where each learner fits.
 
-- **Ages 6 to 10: Scratch and logic** Games with simple checks and conditions. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 10 to 14: Python basics** Conditions, loops and first error messages. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Python with data** Exceptions and validation on real datasets. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **University and adult: Robust Python** Code that behaves the same wherever it runs. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### Scratch and logic
+
+Games with simple checks and conditions.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 10 to 14
+
+### Python basics
+
+Conditions, loops and first error messages.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Python with data
+
+Exceptions and validation on real datasets.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)University and adult
+
+### Robust Python
+
+Code that behaves the same wherever it runs.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## AI likes assert. Do you know when it vanishes?
 
@@ -173,30 +182,139 @@ Learners who have seen the -O run print a false sentence know to turn data check
 
 In Burnside, the learner who knows how Python runs writes checks that stay switched on. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Burnside lessons, live online
 
 Every class happens over video from home.
 
-- **Run it both ways** Learners try their code in different settings while the teacher watches the results.
-- **State school calendar** Lessons follow South Australian terms and pause for holidays.
-- **No-cost opening class** One full lesson free, with a written suggestion after.
-- **Fifteen to twenty learners** Grouped by level, or one-to-one teaching.
-- **Twice weekly** Two fixed lessons a week, roughly eight a month.
-- **India time** Our teachers work from India: a 5:30pm Burnside lesson is 12:30pm India time in summer, 1:30pm in winter.
+### Run it both ways
 
-**Two time changes a year** Adelaide starts daylight saving on the first Sunday in October and ends it on the first Sunday in April (IANA time zone database); India keeps one time, so lesson times there move by an hour.
+Learners try their code in different settings while the teacher watches the results.
+
+### State school calendar
+
+Lessons follow South Australian terms and pause for holidays.
+
+### No-cost opening class
+
+One full lesson free, with a written suggestion after.
+
+### Fifteen to twenty learners
+
+Grouped by level, or one-to-one teaching.
+
+### Twice weekly
+
+Two fixed lessons a week, roughly eight a month.
+
+### India time
+
+Our teachers work from India: a 5:30pm Burnside lesson is 12:30pm India time in summer, 1:30pm in winter.
+
+Two time changes a year
+
+Adelaide starts daylight saving on the first Sunday in October and ends it on the first Sunday in April (IANA time zone database); India keeps one time, so lesson times there move by an hour.
+
+Fees
 
 ## Burnside class fees
 
 Three prices, the same for all.
 
-- First class: USD 0. Lesson one is free, with written feedback.
-- Group tuition: USD 100 a month. Roughly eight group lessons a month with fifteen to twenty learners.
-- Private tuition: USD 150 a month. Roughly eight private lessons a month.
+First class**USD 0**
+
+Lesson one is free, with written feedback.
+
+Group tuition**USD 100**
+
+Roughly eight group lessons a month with fifteen to twenty learners.
+
+Private tuition**USD 150**
+
+Roughly eight private lessons a month.
 
 Burnside families pay in US dollars, never before the trial, and only once course and time are agreed. Holidays and absences are explained on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20or%20AI%20class%20for%20a%20learner%20in%20Burnside.)Reviews
+
+## Our reviews on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Burnside lesson
+
+Give us the learner's age and interests. An older student might run the Sunday check both ways; a younger one might build a Scratch roll call.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Burnside one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20or%20AI%20class%20for%20a%20learner%20in%20Burnside.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Burnside coding and AI questions
+
+Questions Burnside families and adults often ask.
 
 ### How many people live in Burnside, SA?
 
@@ -238,10 +356,14 @@ Fifteen to twenty learners at a similar level and pace, not sorted by age or sub
 
 No. Copilot Studio is private-lesson only; group learners code agents in Python.
 
+Explore Adelaide and South Australia
+
 ## More for Burnside learners
 
 Visit [the Adelaide page](/ai-and-programming-classes-in-adelaide) or [coding for Adelaide kids](/coding-classes-for-kids-adelaide). Across the gulf, [Port Lincoln](/best-coding-classes-in-port-lincoln) has a page of its own, and [our South Australia guide](/coding-and-ai-classes-in-south-australia) covers everything else.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20or%20AI%20class%20for%20a%20learner%20in%20Burnside.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-and-ai-classes-in-burnside-adelaide](https://learn.modernagecoders.com/best-coding-and-ai-classes-in-burnside-adelaide#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-burnside-adelaide*

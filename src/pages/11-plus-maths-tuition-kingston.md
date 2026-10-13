@@ -4,34 +4,28 @@ description: "Live online 11 plus maths for the Tiffin School and Tiffin Girls' 
 canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-kingston
 source: src/pages/11-plus-maths-tuition-kingston.html
 ---
-> Tiffin School and The Tiffin Girls' School are Kingston's selective schools, and each runs its own two-stage test. Stage One is an English paper and a maths paper, each under an hour, answered on a computer-marked OMR sheet; in maths, some questions are multiple choice and others need a numerical answer written into digit columns. Children with the highest Stage One scores are invited to Stage Two, where answers are handwritten. Both schools say the tests assume the National Curriculum up to Year 5, with some unfamiliar formats. For September 2027 entry, Stage One falls on 1 and 2 October 2026, and Stage Two on 7 November (girls) and 12 November (boys). Maths counts for half of Tiffin School's combined score and 40% at Tiffin Girls'. We teach the maths, live online, for both kinds of answer. There is a free first lesson; afterwards a group place is USD 100 a month and one to one teaching USD 150 a month.
+> Live online 11 plus maths for the Tiffin School and Tiffin Girls' School tests in Kingston: two stages, numerical answers written into columns, Year 5 maths.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / 11 plus maths in Kingston
+In short
 
-Kingston upon Thames · Tiffin entrance test maths · Live online, small groups or one to one
+Tiffin School and The Tiffin Girls' School are Kingston's selective schools, and each runs its own two-stage test. Stage One is an English paper and a maths paper, each under an hour, answered on a computer-marked OMR sheet; in maths, some questions are multiple choice and others need a numerical answer written into digit columns. Children with the highest Stage One scores are invited to Stage Two, where answers are handwritten. Both schools say the tests assume the National Curriculum up to Year 5, with some unfamiliar formats. For September 2027 entry, Stage One falls on 1 and 2 October 2026, and Stage Two on 7 November (girls) and 12 November (boys). Maths counts for half of Tiffin School's combined score and 40% at Tiffin Girls'. We teach the maths, live online, for both kinds of answer. There is a free first lesson; afterwards a group place is USD 100 a month and one to one teaching USD 150 a month.
 
-# 11 plus maths tuition in Kingston
-
-Kingston's two selective schools, Tiffin School for boys and The Tiffin Girls' School, each run their own two-stage entrance test, and both put a detail about maths answers into their published FAQs that changes how a child should practise. At Stage One, some maths questions are multiple choice but others ask for a number, which the child writes digit by digit into columns on an answer sheet. The Tiffin Girls' School explains that the columns "represent single digits, `tens', and `hundreds'", and that a time is given "as a digital clock". With no options to pick from, a slipped digit is simply wrong. Yet the grid carries a useful clue: the number of columns tells a child how many digits the answer should have. At Stage Two the options disappear altogether, and the girls' school says no marks are given for working. This page covers what both schools publish, and how we teach for it.
-
-At a glance: Schools: Tiffin School; The Tiffin Girls' School; Stages: Two, at each school; Stage One: English and maths, OMR sheet; Maths answers: Multiple choice or numerical; Numerical answers: Digits written into columns; Stage Two: Handwritten answers; Content: National Curriculum to Year 5; We teach: Accurate answers with no options. Rated 4.9 across 547 Google reviews.
+Where to begin for Tiffin
 
 ## Three courses for answers without options
 
 Choose by accuracy, not speed: a column answer with one wrong digit scores nothing.
 
-- [Tiffin-ready 11 plus maths](/courses/11-plus-maths-preparation-course-uk): Year 5 content practised with multiple-choice, digit-column and handwritten answers.
-- [Reliable mental arithmetic](/courses/mental-maths-mastery-kids): Checking an answer in the head before committing each digit to a column.
-- [Place value and number basics](/courses/elementary-mathematics-complete-masterclass): For children in Year 4 who still mix up tens and hundreds under pressure.
+[![11 Plus Maths Prep course thumbnail](/images/eleven-plus-maths.webp)  KINGSTON / A Tiffin-ready 11 plus maths Year 5 content practised with multiple-choice, digit-column and handwritten answers. Open the syllabus →](/courses/11-plus-maths-preparation-course-uk)[![Mental Maths for Kids course thumbnail](/images/mental-maths-kids.webp)  KINGSTON / B Reliable mental arithmetic Checking an answer in the head before committing each digit to a column. Open the syllabus →](/courses/mental-maths-mastery-kids)[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  KINGSTON / C Place value and number basics For children in Year 4 who still mix up tens and hundreds under pressure. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)
+
+The two tests
 
 ## What Tiffin School and Tiffin Girls' publish
 
 Kingston's council admissions service returned an error to our reader, so everything here comes from the two schools' own pages and 2027 FAQs, read on 26 September 2026.
 
-**Key dates for September 2027 entry, as each school publishes them**
-
 | Step | Tiffin School (boys) | The Tiffin Girls' School |
-|---|---|---|
+| --- | --- | --- |
 | Registration | Opened 5 June 2026, in the summer term of Year 5 | Closed 12.00 noon, Tuesday 1 September 2026 |
 | Stage One | Friday 2 October 2026, morning or afternoon | Thursday 1 and Friday 2 October 2026 |
 | Stage Two invitations | 16 October 2026 | On or around 14 October 2026 |
@@ -47,14 +41,14 @@ We note one thing and leave it there: the published registration deadline for Ti
 
 Sources: [Tiffin School, Year 7 admissions](https://www.tiffinschool.co.uk/admissions/year-7-admissions/) and its FAQs for entry in September 2027; [The Tiffin Girls' School, Year 7 admissions](https://www.tiffingirls.org/admissions/year-7/) and its FAQs for September 2027. The council's admissions pages returned HTTP 403 and were not used. Modern Age Coders has no connection with either school, Quest or the council.
 
+The lesson
+
 ## Writing a number into columns, one digit at a time
 
 The Tiffin Girls' School FAQ shows how numerical answers are marked: one column per digit, with examples of 7, 87 and 521, and a time written like a digital clock.
 
-**Column answers of the kind the schools describe, with Year 5 questions of our own**
-
 | Our question | Columns on the sheet | Answer to write |
-|---|---|---|
+| --- | --- | --- |
 | What is 1,000 - 637? | Three: hundreds, tens, ones | 3 6 3 |
 | How many minutes are there in 3 hours 20 minutes? | Three | 2 0 0 |
 | What is the largest whole number that rounds to 700 to the nearest 100? | Three | 7 4 9 |
@@ -70,6 +64,8 @@ Times are the second trap. The school's own example gives 5 minutes past 7 as 07
 All the examples the school publishes are whole numbers or clock times. We therefore teach children to expect numerical questions whose answers are whole numbers, and to treat a decimal or a remainder in their working as a sign to reread the question.
 
 Sources: The Tiffin Girls' School FAQs for September 2027 (the OMR column description and its examples); Tiffin School FAQs (maths answers "may be numerical"). The questions in the table are written by Modern Age Coders.
+
+The second stage
 
 ## Stage Two: handwritten, and marked on the answer alone
 
@@ -87,14 +83,14 @@ We still teach children to write working, because working is how they get the an
 
 We also teach children to copy carefully from working to answer box, which sounds trivial and is not. Under time pressure, 368 in the margin becomes 386 on the sheet more often than anyone expects.
 
-**How the two schools say the maths is weighted in the combined score**
-
 | School | Share of combined score from maths | How the maths share is built |
-|---|---|---|
+| --- | --- | --- |
 | Tiffin School | 50% | Stage One and Stage Two maths in the ratio 2:3 |
 | The Tiffin Girls' School | 40% | Stage Two and Stage One maths in the ratio 3:1 |
 
 Both schools weight the written second stage more heavily than the first. We give those published ratios so families can see why Stage Two maths deserves as much preparation time as Stage One, not to suggest any score. Both schools also standardise raw marks for age.
+
+Changing papers
 
 ## Papers that change every year
 
@@ -120,6 +116,8 @@ The girls' school also asks that children bring no ruler and use a standard HB p
 
 English is half or more of both combined scores, and we do not teach it for the test. Families should know that before booking with us.
 
+Kingston and beyond
+
 ## Two schools, two tests, one lesson at home
 
 The tests are sat in person, Tiffin School's Stage One at the school itself. The preparation needs no travel at all.
@@ -132,14 +130,14 @@ Groups are formed by level. A child preparing for Tiffin can share a lesson with
 
 We have no link with either school, with Quest or with the council, and we give no advice on registration choices, priority areas or places.
 
+The months ahead
+
 ## Four stages to an October test
 
 Kingston's Stage One falls in early October of Year 6, a little later than many areas. For a child in Year 5 now, that is roughly a year away.
 
-**Building to multiple-choice, column and written answers**
-
 | When | Stage | Ready when |
-|---|---|---|
+| --- | --- | --- |
 | Year 4 | 1. Place value | Reads, writes and rounds numbers confidently, and knows which digit is worth what |
 | Autumn and spring, Year 5 | 2. Year 5 content | Covers the full Year 5 curriculum with accurate written methods |
 | Summer, Year 5 | 3. Column answers | Writes numbers and digital times into columns, and uses the column count as a check |
@@ -148,71 +146,321 @@ Kingston's Stage One falls in early October of Year 6, a little later than many 
 ### Starting late
 
 Registration is in the summer of Year 5, and Stage One in October of Year 6, so a late start still leaves months. Spend them on accuracy first.
+
 We will tell you frankly at the free lesson how much can be done in the time.
 
 ### After November
 
 Accurate, checked answers are the habit of good secondary mathematicians. Many children carry on with [maths through coding](/courses/maths-through-coding), where a program either gives the right output or it does not.
+
 Some try the challenges on our [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar).
+
+All our courses
 
 ## Maths and coding for Kingston families
 
 Organised by stage; every card opens the syllabus.
 
+I
+
 ### For the Tiffin tests
 
 Years 3 to 5
 
-- [11 plus maths preparation](/courses/11-plus-maths-preparation-course-uk): Year 5 maths for every answer format.
-- [Mental maths for kids](/courses/mental-maths-mastery-kids): Quick checks before an answer is committed.
-- [Primary maths, Years 1 to 5](/courses/elementary-mathematics-complete-masterclass): Place value and number sense from the start.
-- [Abacus and mental maths](/courses/abacus-mental-maths-course-for-kids): Columns of beads before columns on a sheet.
+KGM / 01
+
+#### 11 plus maths preparation
+
+Year 5 maths for every answer format.
+
+[Open the syllabus](/courses/11-plus-maths-preparation-course-uk)
+
+KGM / 02
+
+#### Mental maths for kids
+
+Quick checks before an answer is committed.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+KGM / 03
+
+#### Primary maths, Years 1 to 5
+
+Place value and number sense from the start.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+KGM / 04
+
+#### Abacus and mental maths
+
+Columns of beads before columns on a sheet.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)II
 
 ### Secondary
 
 Year 6 onwards
 
-- [Middle school maths mastery](/courses/comprehensive-middle-school-mathematics-mastery): Key Stage 3 number, algebra and geometry.
-- [GCSE maths, foundation and higher](/courses/gcse-mathematics-mastery): Accurate answers and clear working to GCSE.
-- [Olympiad and competition maths](/courses/olympiad-competition-mathematics-mastery): Answer-only problems, the competition way.
+KGM / 05
+
+#### Middle school maths mastery
+
+Key Stage 3 number, algebra and geometry.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+KGM / 06
+
+#### GCSE maths, foundation and higher
+
+Accurate answers and clear working to GCSE.
+
+[Open the syllabus](/courses/gcse-mathematics-mastery)
+
+KGM / 07
+
+#### Olympiad and competition maths
+
+Answer-only problems, the competition way.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)III
 
 ### Coding
 
 Precision practised
 
-- [Maths through coding](/courses/maths-through-coding): Programs that are either right or wrong.
-- [Scratch coding for kids](/courses/scratch-programming-complete-course): Exact instructions, tested straight away.
-- [Python and AI for kids](/courses/python-ai-kids-masterclass): Typed code for children ready for more.
+KGM / 08
+
+#### Maths through coding
+
+Programs that are either right or wrong.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+KGM / 09
+
+#### Scratch coding for kids
+
+Exact instructions, tested straight away.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)
+
+KGM / 10
+
+#### Python and AI for kids
+
+Typed code for children ready for more.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)IV
 
 ### Further ahead
 
 Teenage years
 
-- [Vedic maths and speed calculation](/courses/vedic-maths-course-speed-calculation-mastery): Faster methods on firm foundations.
-- [AI and machine learning for teens](/courses/ai-ml-masterclass-teens): Numbers in, predictions out.
+KGM / 11
+
+#### Vedic maths and speed calculation
+
+Faster methods on firm foundations.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
+
+KGM / 12
+
+#### AI and machine learning for teens
+
+Numbers in, predictions out.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+Timetable
 
 ## Lessons fitted around a Kingston school day
 
 Teaching comes live from India. We keep primary lessons to early evening and weekend morning slots in UK time, and our side absorbs the clock change each spring and autumn.
 
-- **Weekday evenings, early** Soon after the school day ends.
-- **Weekend mornings** When children are fresh.
-- **Holiday weeks** Short extra sessions in the breaks.
+Weekday evenings, early
 
-- **A constant teacher** The same person every week tracks each child's habits.
-- **Plain reporting** A few honest lines after lessons, including what went badly.
-- **Groups of fifteen to twenty** Same level, so every explanation is pitched right.
-- **Our questions only** Nothing copied from either school's illustrative material.
-- **One to one on request** For accuracy problems that need close attention.
-- **Maths, not English** No English coaching and no advice on admissions.
+Soon after the school day ends.
+
+Weekend mornings
+
+When children are fresh.
+
+Holiday weeks
+
+Short extra sessions in the breaks.
+
+### A constant teacher
+
+The same person every week tracks each child's habits.
+
+### Plain reporting
+
+A few honest lines after lessons, including what went badly.
+
+### Groups of fifteen to twenty
+
+Same level, so every explanation is pitched right.
+
+### Our questions only
+
+Nothing copied from either school's illustrative material.
+
+### One to one on request
+
+For accuracy problems that need close attention.
+
+### Maths, not English
+
+No English coaching and no advice on admissions.
+
+Student work
+
+## What our students go on to make
+
+Four projects published by students at our school, built on the same careful arithmetic. See the rest on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Monthly, in US dollars, the same for all families outside India. No sign-up fee and no fixed term.
 
-- Free first class: USD 0. A taught lesson, not a sales call. Our frank view afterwards. No card details.
-- Group batch: USD 100 a month. Fifteen to twenty children, matched by level. A regular teacher. Answers checked in class. Certificate on completion.
-- One to one: USD 150 a month. One child, one teacher. Close work on accuracy. Helpful between Stage One and Stage Two.
+Free first class
+
+USD 0
+
+no card required
+
+- A taught lesson, not a sales call
+- Our frank view afterwards
+- No card details
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty children, matched by level
+- A regular teacher
+- Answers checked in class
+- Certificate on completion
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- One child, one teacher
+- Close work on accuracy
+- Helpful between Stage One and Stage Two
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+What parents have written on our Google profile, verbatim.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Tiffin questions
 
 ## What Kingston families ask us
 
@@ -256,15 +504,54 @@ The Tiffin Girls' School asks that children do not bring a ruler, as rulers are 
 
 The first lesson is free. After that it is USD 100 a month in a group or USD 150 a month one to one, with no joining fee.
 
+Nearby pages
+
 ## More for families in south-west London and Surrey
 
-- [Coding classes in Kingston](/coding-classes-in-kingston-upon-thames-london): Our coding page for the borough.
-- [11 plus maths tuition](/11-plus-maths-tuition): Our national page on 11 plus maths.
-- [11 plus maths in Sutton](/11-plus-maths-tuition-sutton): Another two-stage process, next door.
-- [Coding classes in Surrey](/coding-classes-in-surrey): For families across the county boundary.
-- [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar): Maths challenges through the year.
-- [All our UK pages](/coding-classes-in-united-kingdom): Every area we cover in the UK.
+Coding in Kingston, the national 11 plus page, and neighbouring selective areas.
 
-## Contact
+### [Coding classes in Kingston](/coding-classes-in-kingston-upon-thames-london)
 
-Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-kingston](https://learn.modernagecoders.com/11-plus-maths-tuition-kingston#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Our coding page for the borough.
+
+### [11 plus maths tuition](/11-plus-maths-tuition)
+
+Our national page on 11 plus maths.
+
+### [11 plus maths in Sutton](/11-plus-maths-tuition-sutton)
+
+Another two-stage process, next door.
+
+### [Coding classes in Surrey](/coding-classes-in-surrey)
+
+For families across the county boundary.
+
+### [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar)
+
+Maths challenges through the year.
+
+### [All our UK pages](/coding-classes-in-united-kingdom)
+
+Every area we cover in the UK.
+
+Start here
+
+## Book a first lesson, free
+
+Tell us the school year, and whether careless slips or hard problems are the bigger worry. We teach a real lesson, then give you an honest verdict.
+
+Would rather look around? Every [course syllabus](/courses) is online, [how we teach](/how-we-teach) explains our lessons, and the [roadmap](/coding-roadmap) shows the route onward.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20my%20child%20for%20the%20Tiffin%20entrance%20tests.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+Message us on WhatsApp for the fastest answer. We are in India, with an Indian number and no UK office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-kingston*

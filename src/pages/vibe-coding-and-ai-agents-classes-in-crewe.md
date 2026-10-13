@@ -4,46 +4,32 @@ description: "Online vibe coding, AI agents, Python and coding classes for Crewe
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-crewe
 source: src/pages/vibe-coding-and-ai-agents-classes-in-crewe.html
 ---
-> The ONS counted 74,120 people in the Crewe built-up area at the 2021 census, in a Cheshire East of 398,772 that also includes Nantwich, Alsager, Sandbach and Haslington. From six-year-olds to adults of 67, anyone here can join India-based tutors on a video call for vibe coding, AI agents, Python, coding and maths, taught privately or in classes of fifteen to twenty grouped by level. Reasoning is taught ahead of any tool, which means an agent's behaviour makes sense to the person running it. We waive the fee for lesson one and close it with a recommendation. The Crewe project sets an AI agent loose on the town centre's real street map and asks what learning by trial and error really costs. To keep going, budget USD 100 monthly for a class place or USD 150 monthly for private tuition.
+> Online vibe coding, AI agents, Python and coding classes for Crewe, Nantwich, Sandbach and Alsager learners aged 6 to 67, taught live online. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [North West England](/coding-and-ai-classes-in-north-west-england) / Crewe
-
-Crewe, Cheshire East, England / Live online
-
-# Vibe coding and AI agents classes in Crewe
-
-**Where can Crewe learners find the best vibe coding and AI agents classes?** The ONS counted 74,120 people in the Crewe built-up area at the 2021 census, in a Cheshire East of 398,772 that also includes Nantwich, Alsager, Sandbach and Haslington. From six-year-olds to adults of 67, anyone here can join India-based tutors on a video call for vibe coding, AI agents, Python, coding and maths, taught privately or in classes of fifteen to twenty grouped by level. Reasoning is taught ahead of any tool, which means an agent's behaviour makes sense to the person running it. We waive the fee for lesson one and close it with a recommendation. The Crewe project sets an AI agent loose on the town centre's real street map and asks what learning by trial and error really costs. To keep going, budget USD 100 monthly for a class place or USD 150 monthly for private tuition.
-
-Some AI agents are not told how to do a job; they are rewarded for doing it well and left to work out the rest. This approach, reinforcement learning, is used to train game-playing programs, and a simple version called Q-learning fits in a page of Python. This project gives a Q-learning agent the real street map of central Crewe from OpenStreetMap and one goal: walk from the Crewe Heritage Centre to Crewe Library by the shortest route. The agent is never shown the answer. It wanders, remembers what each move cost, and slowly improves. Then the learner compares it with a planner that simply reads the map.
-
-Facts last verified 29 September 2026. Teaching is online; no Crewe branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCrewe course picks
 
 ## Crewe choices for thinking, vibe coding and agents
 
 Age and interests point the way. A free live lesson starts every course, with no card needed to book.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): Our how-to-think programme: mazes, routes, rules and learning from a wrong turn.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games, then small apps created by describing them to AI and checking the result.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python and web projects built with AI, including the street-map agent from this page.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): Agents that plan, act, use tools and learn, from the first line of Python.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsOur how-to-think programme: mazes, routes, rules and learning from a wrong turn.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games, then small apps created by describing them to AI and checking the result.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensPython and web projects built with AI, including the street-map agent from this page.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseAgents that plan, act, use tools and learn, from the first line of Python.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Crewe and Cheshire East
 
 ## Crewe and other Cheshire East towns
 
 ONS 2021 census populations for Crewe and some of the district's other built-up areas.
 
-**Five Cheshire East settlements and their 2021 census counts (ONS)**
-
 | Built-up area | People (2021) |
-|---|---|
+| --- | --- |
 | Crewe | 74,120 |
 | Nantwich | 18,740 |
 | Alsager | 15,505 |
@@ -56,6 +42,8 @@ The ONS publishes each built-up area as its own figure, and we show them that wa
 
 More choices are on [coding classes in Cheshire](/coding-classes-in-cheshire) and [the North West England page](/coding-and-ai-classes-in-north-west-england). Why every course puts judgement before prompting is explained on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Crewe project
+
 ## An AI agent learns to cross Crewe town centre
 
 Turn OpenStreetMap into a graph, let a Q-learning agent explore it, and count what that exploration costs.
@@ -64,10 +52,8 @@ The learner downloads a small rectangle of central Crewe from the OpenStreetMap 
 
 The Q-learning agent gets no map in advance. At each junction it can take any link, and every step costs it the metres walked. It keeps a table of how good each move from each junction has turned out to be, and updates it after every step. Most of the time it picks the move that looks cheapest so far; one time in five it tries a random move, to explore. Each attempt, called an episode, ends when it reaches the library. The experiment is repeated with 20 different random seeds.
 
-**Learning the route by trial and error against planning with a map, our Python run on OpenStreetMap data, 29 September 2026**
-
 | Method | Result |
-|---|---|
+| --- | --- |
 | Dijkstra planning with the full map | 498.4 m route, 82 junctions examined |
 | Q-learning: attempts until its route is the shortest | Median 54 (range 46 to 62) |
 | Q-learning: distance walked in training to get there | Median 516.3 km (range 477.8 to 573.1) |
@@ -93,14 +79,14 @@ Code Q-learning, change the exploration rate and measure the cost of learning.
 
 Map data is from OpenStreetMap and its contributors, available under the Open Database Licence. The graph, the routes, the agent and every distance in the tables are our own calculations.
 
+Learning agents
+
 ## What this teaches about vibe coding and AI agents
 
 Trial and error teaches agents, at a price.
 
-**From the Crewe agent to AI agents in general**
-
 | In the street-map project | In real AI agents |
-|---|---|
+| --- | --- |
 | Reward: minus the metres walked | Agents chase whatever they are rewarded for |
 | One move in five was random | Exploring means sometimes doing the wrong thing |
 | 516.3 km walked to learn 498.4 m | Learning by trial can be hugely expensive |
@@ -111,14 +97,37 @@ Vibe coding, where a learner explains what they want and an AI writes the progra
 
 Modern Age Coders has no link with OpenStreetMap, the Office for National Statistics or any Crewe venue named here. The map and counts are theirs; the agent and any errors in it are ours.
 
+Stages
+
 ## From mazes to learning agents
 
 A school year gives us a starting guess, and the free lesson confirms the level.
 
-- **Years 2 to 7: How to think** Mazes, routes and rules, with reasons for each step. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Games and small apps built with AI help and tested by the learner. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python and agents** Graphs, search and simple learning agents alongside GCSE and A level. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **Adults: Building AI agents** Planning, tools, learning and safe agent design in Python. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Years 2 to 7
+
+### How to think
+
+Mazes, routes and rules, with reasons for each step.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Games and small apps built with AI help and tested by the learner.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python and agents
+
+Graphs, search and simple learning agents alongside GCSE and A level.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)Adults
+
+### Building AI agents
+
+Planning, tools, learning and safe agent design in Python.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)AI and experience
 
 ## Can an AI agent learn without being told the answer?
 
@@ -130,30 +139,139 @@ Learners who have watched that happen ask two questions of any learning system: 
 
 Training an agent and adding up its practice bill teaches Crewe teenagers to see through AI hype, and that alone justifies learning to code in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Nantwich to Sandbach, all online
 
 Any home in Cheshire East with a computer and steady internet can join.
 
-- **The student builds** Learners type, prompt and test the code themselves while the tutor watches their screen and asks the next question.
-- **The trial decides the start** A Year 4 or a Year 13 begins where the free lesson places them, with exam boards recorded.
-- **Free opening lesson** Lesson one costs nothing and ends with a recommended course.
-- **Classes at one level** Every group mixes fifteen to twenty learners from around the UK who are equally far along.
-- **Twice a week** Paused during the school holidays.
-- **Constant lesson times** Tutors adapt to UK clock changes, so the slot never moves.
+### The student builds
 
-**Why the lessons are online** Five learners at the same stage and free at the same hour rarely live close together, even in one district. Online, they can still share a class.
+Learners type, prompt and test the code themselves while the tutor watches their screen and asks the next question.
+
+### The trial decides the start
+
+A Year 4 or a Year 13 begins where the free lesson places them, with exam boards recorded.
+
+### Free opening lesson
+
+Lesson one costs nothing and ends with a recommended course.
+
+### Classes at one level
+
+Every group mixes fifteen to twenty learners from around the UK who are equally far along.
+
+### Twice a week
+
+Paused during the school holidays.
+
+### Constant lesson times
+
+Tutors adapt to UK clock changes, so the slot never moves.
+
+Why the lessons are online
+
+Five learners at the same stage and free at the same hour rarely live close together, even in one district. Online, they can still share a class.
+
+Fees
 
 ## Crewe fees
 
 Outside India, including in Crewe, a single international price list applies.
 
-- First class: USD 0. A whole lesson free to start, with a suggested course at the end.
-- Group tuition: USD 100 a month. About eight live group lessons each month.
-- Private tuition: USD 150 a month. About eight live one-to-one lessons each month.
+First class**USD 0**
+
+A whole lesson free to start, with a suggested course at the end.
+
+Group tuition**USD 100**
+
+About eight live group lessons each month.
+
+Private tuition**USD 150**
+
+About eight live one-to-one lessons each month.
 
 We quote in US dollars and not sterling. Nothing is billed until after the trial, when the course and weekly slot are agreed, and holidays away, missed sessions and format swaps are all covered on our pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Crewe.)Reviews
+
+## Cheshire parents and learners, and others nationwide, on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Crewe lesson
+
+All we need is an age or a school year and a favourite subject or pastime. The trial can be a maze challenge, a Scratch game put together with an AI, a first taste of Python, or an agent that improves by collecting points.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Crewe one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Crewe.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Crewe questions
+
+The street-map agent, vibe coding, AI agents and the everyday details.
 
 ### What is the population of Crewe?
 
@@ -195,10 +313,14 @@ Yes, send us the dates and we will pause.
 
 Yes. Adults learn in groups with other adults or privately.
 
+Nearby
+
 ## More Cheshire and North West pages
 
 Elsewhere in the county, [Chester](/best-coding-class-in-chester) has its own page and project, and [Newcastle-under-Lyme](/vibe-coding-and-ai-agents-classes-in-newcastle-under-lyme) in Staffordshire runs another agent project. [Manchester](/best-coding-class-in-manchester) is covered as well, and the [UK hub](/coding-classes-in-united-kingdom) lists everywhere else.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Crewe.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-crewe](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-crewe#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-crewe*

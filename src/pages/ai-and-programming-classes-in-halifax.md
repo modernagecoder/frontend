@@ -4,46 +4,32 @@ description: "Online AI, programming, Python and vibe coding classes for Halifax
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-halifax
 source: src/pages/ai-and-programming-classes-in-halifax.html
 ---
-> At the 2021 census the ONS counted 88,115 people in the Halifax built-up area and 206,631 across Calderdale, which also takes in Brighouse, Elland, Todmorden and Hebden Bridge. Anyone from 6 to 67 living there can study AI, programming, Python, vibe coding and maths with us live over video, taught by tutors in India either privately or alongside fifteen to twenty learners at their level. Thinking comes before tools: learners who ask AI to write code are taught to judge what comes back. A free trial lesson ends with a course we suggest for the learner. The Halifax project trains a tiny classifier on census ages and then checks, honestly, whether it learned anything. Fees after the trial are USD 100 per month in a class or USD 150 per month one-to-one.
+> Online AI, programming, Python and vibe coding classes for Halifax, Brighouse, Elland and Todmorden learners aged 6 to 67, private or in groups. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Yorkshire and the Humber](/coding-and-ai-classes-in-yorkshire-and-the-humber) / Halifax
-
-Halifax, Calderdale, West Yorkshire, England / Live online
-
-# AI and programming classes in Halifax
-
-**Which are the best AI and programming classes in Halifax?** At the 2021 census the ONS counted 88,115 people in the Halifax built-up area and 206,631 across Calderdale, which also takes in Brighouse, Elland, Todmorden and Hebden Bridge. Anyone from 6 to 67 living there can study AI, programming, Python, vibe coding and maths with us live over video, taught by tutors in India either privately or alongside fifteen to twenty learners at their level. Thinking comes before tools: learners who ask AI to write code are taught to judge what comes back. A free trial lesson ends with a course we suggest for the learner. The Halifax project trains a tiny classifier on census ages and then checks, honestly, whether it learned anything. Fees after the trial are USD 100 per month in a class or USD 150 per month one-to-one.
-
-Suppose a computer is shown nothing about Calderdale except how its 206,631 residents split into age bands: how many are under five, how many are in their twenties, how many are over 85. Could it work out which English region Halifax belongs to? It sounds like a fair puzzle, and a simple machine learning method called a nearest-centroid classifier will always give an answer. The more useful question is whether that answer means anything. This project builds the classifier in Python on real census data for all 296 districts of England, and then spends most of its time on the part that beginners, and plenty of AI tools, skip: testing it properly.
-
-Facts last verified 28 September 2026. Teaching is online; no Halifax branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentHalifax course picks
 
 ## Thinking, vibe coding and AI courses for Halifax
 
 Match the course to the learner's age and curiosity; each begins with a free live lesson and needs no card to book.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think programme: sorting, grouping, patterns and explaining a rule in words.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch projects first, then little apps made by describing them to an AI and testing the result.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Machine learning in Python, from a first classifier to fair testing, including this census project.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): Language models, retrieval and AI agents, with evaluation treated as part of the build.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think programme: sorting, grouping, patterns and explaining a rule in words.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch projects first, then little apps made by describing them to an AI and testing the result.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensMachine learning in Python, from a first classifier to fair testing, including this census project.See the syllabus](/courses/ai-ml-masterclass-teens)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseLanguage models, retrieval and AI agents, with evaluation treated as part of the build.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Halifax and Calderdale
 
 ## Halifax and the other Calderdale towns
 
 Published 2021 census populations from the ONS for built-up areas in Calderdale.
 
-**Calderdale built-up areas of 5,000 people or more, ONS 2021 published populations**
-
 | Built-up area | People (2021) |
-|---|---|
+| --- | --- |
 | Halifax | 88,115 |
 | Brighouse | 33,160 |
 | Elland | 15,785 |
@@ -57,16 +43,16 @@ These figures are listed one by one, as the ONS released them. Their sum is not 
 
 Pages covering the whole of [West Yorkshire](/coding-classes-in-west-yorkshire) and [Yorkshire and the Humber](/coding-and-ai-classes-in-yorkshire-and-the-humber) list more options. The reasoning behind putting judgement before prompting is on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Halifax project
+
 ## Can a classifier place Calderdale from its ages?
 
 Build a nearest-centroid model on 296 districts, then test it the honest way.
 
 The data comes from the Nomis API as Census 2021 table TS007A, for every English local authority district as it stood in April 2023, fetched in nine requests, one per region. Each district becomes a list of 18 numbers: the share of its residents in each five-year age band. As a first check, the learner confirms that the 18 bands add up exactly to the published total for all 296 districts, which they do. For each of the nine regions the program then works out a centroid, the average age profile of its member districts. To classify a district, it measures the straight-line distance from that district's profile to each centroid and picks the closest one.
 
-**How often the classifier names the right region, 296 English districts, our Python run, 28 September 2026**
-
 | Method | Correct | Accuracy |
-|---|---|---|
+| --- | --- | --- |
 | Always guess South East, the most common region | 64 of 296 | 21.6% |
 | Nearest centroid, each district included in its own centroid | 98 of 296 | 33.1% |
 | Nearest centroid, leave-one-out | 86 of 296 | 29.1% |
@@ -74,10 +60,8 @@ The data comes from the Nomis API as Census 2021 table TS007A, for every English
 
 The first score, 33.1%, flatters the model, because each district helped build the very centroid it is then compared against. Leave-one-out testing fixes that: every district is removed in turn, the centroids are rebuilt without it, and only then is it classified. Accuracy drops to 29.1%. That beats the lazy baseline of always answering South East, 21.6%, but not by much. Weighting each district by its population sounds more correct and does worse, 26.0%. In a weighted average the largest districts carry most of the weight, and finding out why that hurts here makes a good follow-up task.
 
-**Leave-one-out results by true region (the diagonal of the confusion matrix)**
-
 | True region | Named correctly |
-|---|---|
+| --- | --- |
 | London | 27 of 33 |
 | South West | 16 of 27 |
 | South East | 16 of 64 |
@@ -90,10 +74,8 @@ The first score, 33.1%, flatters the model, because each district helped build t
 
 A confusion matrix records, for each true region, which region the model named. Its diagonal shows that the overall score hides very uneven results. London districts are recognised 27 times out of 33; the West Midlands is recognised once in 30. Only two Yorkshire districts, Hull and Sheffield, are placed in Yorkshire. Calderdale is not one of them: its profile sits nearest the South East centroid, with the Yorkshire centroid only seventh of nine. Leeds is sent to London, and Bradford, Kirklees and Wakefield to the North West. These are mistakes by the model, not descriptions of the places.
 
-**Calderdale's distance to each leave-one-out centroid, multiplied by 1,000 (smaller is closer)**
-
 | Region centroid | Distance |
-|---|---|
+| --- | --- |
 | South East | 12.73 |
 | North West | 13.32 |
 | East | 13.63 |
@@ -122,14 +104,14 @@ Code leave-one-out testing, compare against a baseline and read the confusion ma
 
 The age counts are Census 2021 figures from the Office for National Statistics, read through Nomis. The classifier, the distances, the accuracy figures and the tables built from them are our own calculations.
 
+Testing what AI builds
+
 ## What this teaches about vibe coding and AI agents
 
 A model that always answers still has to earn trust.
 
-**Lessons from the Halifax classifier**
-
 | In the census project | When AI writes or runs the code |
-|---|---|
+| --- | --- |
 | 33.1% on data it had already seen | Ask what the reported score was tested on |
 | 29.1% against a 21.6% baseline | Ask what a trivial answer would score |
 | 27 of 33 for London, 1 of 30 for the West Midlands | Look at results per group, not only the total |
@@ -140,14 +122,37 @@ Ask a chatbot for a classifier and it will usually produce working code and a si
 
 Modern Age Coders has no link with the Office for National Statistics or Nomis. The published counts are theirs; the model built on them, and any errors in it, are ours.
 
+Stages
+
 ## From sorting cards to testing models
 
 We treat the school year as a starting guess and let the free lesson set the level.
 
-- **Years 2 to 7: How to think** Grouping, patterns and explaining why an answer is right. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Games and small apps made with AI help, each one tested by the learner. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python and machine learning** Data, classifiers and fair testing alongside GCSE and A level work. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **Adults: Models and agents** Build, evaluate and automate with Python, language models and agents. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Years 2 to 7
+
+### How to think
+
+Grouping, patterns and explaining why an answer is right.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Games and small apps made with AI help, each one tested by the learner.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python and machine learning
+
+Data, classifiers and fair testing alongside GCSE and A level work.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)Adults
+
+### Models and agents
+
+Build, evaluate and automate with Python, language models and agents.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)AI and evidence
 
 ## How do you know a model has learned something?
 
@@ -159,30 +164,139 @@ Learners who have watched a score fall from 33.1% to 29.1% just by testing fairl
 
 A Halifax teenager who can tell a tested model from a lucky one will get far more out of AI, which is exactly why learning to code still matters in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Hebden Bridge to Brighouse, online
 
 Any Calderdale home with a computer and steady internet can take part.
 
-- **Learners do the typing** Each program is written, prompted and run by the student; the tutor sees their screen and poses the next question.
-- **Level over year group** The trial shows where to begin, whether the learner is in Year 3 or Year 13, and we note any exam board.
-- **Nothing to pay at first** The opening lesson is free and closes with our suggestion for what to take.
-- **Classes by stage** Groups hold fifteen to twenty UK learners who are at a similar point.
-- **Twice weekly** Lessons pause during school holidays.
-- **Steady lesson times** Our tutors follow the UK clock changes, so your slot stays put in spring and autumn.
+### Learners do the typing
 
-**Why we teach online** Across a borough of several separate towns, five learners at the same stage who share a free evening are unlikely to live close together. Online, they can share a class anyway.
+Each program is written, prompted and run by the student; the tutor sees their screen and poses the next question.
+
+### Level over year group
+
+The trial shows where to begin, whether the learner is in Year 3 or Year 13, and we note any exam board.
+
+### Nothing to pay at first
+
+The opening lesson is free and closes with our suggestion for what to take.
+
+### Classes by stage
+
+Groups hold fifteen to twenty UK learners who are at a similar point.
+
+### Twice weekly
+
+Lessons pause during school holidays.
+
+### Steady lesson times
+
+Our tutors follow the UK clock changes, so your slot stays put in spring and autumn.
+
+Why we teach online
+
+Across a borough of several separate towns, five learners at the same stage who share a free evening are unlikely to live close together. Online, they can share a class anyway.
+
+Fees
 
 ## Halifax fees
 
 Halifax learners pay the international fee that applies everywhere except India.
 
-- First class: USD 0. A complete first lesson at no cost, followed by our course suggestion.
-- Group tuition: USD 100 a month. Roughly eight live lessons a month in a small group.
-- Private tuition: USD 150 a month. Roughly eight live private lessons a month.
+First class**USD 0**
+
+A complete first lesson at no cost, followed by our course suggestion.
+
+Group tuition**USD 100**
+
+Roughly eight live lessons a month in a small group.
+
+Private tuition**USD 150**
+
+Roughly eight live private lessons a month.
 
 We charge in US dollars rather than pounds, and send no invoice until the free lesson has settled a course and a weekly time. Pricing covers breaks, missed lessons and switching format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20Halifax%20learner.)Reviews
+
+## Google reviews from families in West Yorkshire and across the UK
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Halifax lesson
+
+Let us know the learner's age or year at school and what interests them. Possible first lessons: a sorting and grouping puzzle, a Scratch game built with AI help, a first Python program, or a small data challenge.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Halifax one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20Halifax%20learner.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Halifax questions
+
+The census classifier, vibe coding, agents and the practical side.
 
 ### What is the population of Halifax?
 
@@ -224,10 +338,14 @@ The first lesson is free. After that a group place is USD 100 a month and privat
 
 Yes. Send us the dates and we will plan around them.
 
+Nearby
+
 ## More West Yorkshire pages
 
 Calderdale families preparing for the grammar school tests can use [11 plus maths tuition in Calderdale](/11-plus-maths-tuition-calderdale). Over the borough line, [Huddersfield](/best-coding-and-ai-classes-in-huddersfield), [Dewsbury](/ai-and-programming-classes-in-dewsbury), [Bradford](/best-coding-class-in-bradford) and [Leeds](/best-coding-class-in-leeds) each run a project of their own. Every UK town and county we cover is listed from [our United Kingdom page](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20Halifax%20learner.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-halifax](https://learn.modernagecoders.com/ai-and-programming-classes-in-halifax#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-halifax*

@@ -4,46 +4,32 @@ description: "Online AI, programming, Python and vibe coding classes for Harroga
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-harrogate
 source: src/pages/ai-and-programming-classes-in-harrogate.html
 ---
-> The ONS counted 75,515 people in the Harrogate built-up area at the 2021 census and 15,785 in Knaresborough, with Starbeck, Bilton, Jennyfield and Harlow Hill among the suburbs recorded around the town. From six-year-olds to adults of 67, anyone in the district can learn AI, programming, Python, vibe coding and maths on a live video link, taught by our India-based team one-to-one or in a group of five to ten sharing a level. We teach how to think before any tool, so learners stay in charge of the AI they use. The free first lesson ends with a course recommendation. Harrogate's project tackles a question people ask phones and AI assistants every day, "is it open now?", by parsing the real opening hours recorded for the town centre. Staying on after that is USD 100 per month in a shared class, or USD 150 per month with a tutor to yourself.
+> Online AI, programming, Python and vibe coding classes for Harrogate, Knaresborough, Starbeck and Bilton learners aged 6 to 67, live online. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Yorkshire and the Humber](/coding-and-ai-classes-in-yorkshire-and-the-humber) / Harrogate
-
-Harrogate, North Yorkshire, England / Live online
-
-# AI and programming classes in Harrogate
-
-**Which are the best AI and programming classes in Harrogate?** The ONS counted 75,515 people in the Harrogate built-up area at the 2021 census and 15,785 in Knaresborough, with Starbeck, Bilton, Jennyfield and Harlow Hill among the suburbs recorded around the town. From six-year-olds to adults of 67, anyone in the district can learn AI, programming, Python, vibe coding and maths on a live video link, taught by our India-based team one-to-one or in a group of five to ten sharing a level. We teach how to think before any tool, so learners stay in charge of the AI they use. The free first lesson ends with a course recommendation. Harrogate's project tackles a question people ask phones and AI assistants every day, "is it open now?", by parsing the real opening hours recorded for the town centre. Staying on after that is USD 100 per month in a shared class, or USD 150 per month with a tutor to yourself.
-
-Ask a phone or an AI assistant whether a café is open and, behind the scenes, a program has to read a line like "Mo-Fr 08:00-17:00; Sa,Su 09:00-17:00" and work out the answer. OpenStreetMap stores opening hours for places in central Harrogate in exactly this format, and the format has an official specification. This project uses regular expressions in Python, the standard tool for matching text patterns, to teach a program to read those lines. The first attempt looks fine on tidy examples and fails on four out of five real ones, which is precisely the lesson: real data is always messier than the examples, and software, whether written by a person or an AI, has to be tested on the real thing.
-
-Facts last verified 29 September 2026. Teaching is online; no Harrogate branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentHarrogate course picks
 
 ## Harrogate courses for thinking, vibe coding and AI
 
 Four age-matched starting points, each opening with a no-cost live lesson that needs no card to reserve.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): Our how-to-think programme: spotting patterns in text, rules and the exceptions to them.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games, then little apps made by describing them to AI and testing each feature.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python and web projects with AI help, including the "is it open now?" parser.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Students and adults): Python in depth: text processing, regular expressions, data and AI agents.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsOur how-to-think programme: spotting patterns in text, rules and the exceptions to them.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games, then little apps made by describing them to AI and testing each feature.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensPython and web projects with AI help, including the "is it open now?" parser.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Masterclass course thumbnail](/images/python-college.webp)Students and adultsPython MasterclassPython in depth: text processing, regular expressions, data and AI agents.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Harrogate and Knaresborough
 
 ## Harrogate, Knaresborough and the surrounding villages
 
 Published ONS census counts and the neighbourhoods recorded around the town.
 
-**Harrogate and two other North Yorkshire built-up areas, ONS 2021 census counts**
-
 | Built-up area | People (2021) |
-|---|---|
+| --- | --- |
 | Harrogate | 75,515 |
 | Knaresborough | 15,785 |
 | Pannal | 2,530 |
@@ -54,6 +40,8 @@ We show these ONS figures as published and do not add them together. Starbeck, B
 
 More options are on [coding classes in North Yorkshire](/coding-classes-in-north-yorkshire) and [Yorkshire and the Humber](/coding-and-ai-classes-in-yorkshire-and-the-humber). Why every course starts with reasoning rather than prompting is on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Harrogate project
+
 ## Is it open now? Parsing real opening hours with regular expressions
 
 Write a pattern, test it on the town centre's real data, then read the specification and find what you missed.
@@ -62,10 +50,8 @@ From an OpenStreetMap API download covering the middle of Harrogate, the learner
 
 The second version splits the text at semicolons into separate rules, understands day lists like "Sa,Su" and ranges like "Mo-Fr", allows more than one time range in a day, and treats "off" as closed. It also follows a rule from the official specification on the OpenStreetMap Wiki: when two rules cover the same day, the later one wins, or in the specification's words, "the earlier rule is overridden". This parser reads 54 of the 60 places.
 
-**How much of central Harrogate's opening-hours data each approach can read, 60 places from OpenStreetMap, our Python run, 29 September 2026**
-
 | Approach | Places read |
-|---|---|
+| --- | --- |
 | One simple regular expression | 12 of 60 |
 | Rule-by-rule parser for the common cases | 54 of 60 |
 | Left over: public holidays marked PH | 2 |
@@ -93,14 +79,14 @@ Build the rule parser, test "open now" across the week and extend it from the sp
 
 Opening hours are from OpenStreetMap and its contributors under the Open Database Licence, and the format is defined on the OpenStreetMap Wiki. The parser, the counts and the open-now checks are our own work; we do not name individual businesses.
 
+Messy data and AI
+
 ## What this teaches about vibe coding and AI agents
 
 Passing on tidy examples proves little; passing on real data proves more.
 
-**From Harrogate's opening hours to AI-written software**
-
 | In the opening-hours project | When AI writes or runs code |
-|---|---|
+| --- | --- |
 | One regex read 12 of 60 | A neat-looking answer can fail on most real inputs |
 | The parser still missed 6 | Keep a list of cases the code cannot handle |
 | The specification settled it | Check the official source, not just examples |
@@ -111,14 +97,37 @@ Ask an AI assistant for a regular expression that reads opening hours and it wil
 
 OpenStreetMap, the ONS and the businesses in the data are all independent of Modern Age Coders; we only used openly published records, and the parser, flaws included, is our responsibility.
 
+Stages
+
 ## From reading signs to writing parsers
 
 We start from the school year, then the free lesson places the learner properly.
 
-- **Years 2 to 7: How to think** Patterns, rules and the exceptions that break them. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Games and small apps built with AI help and checked by the learner. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python and text** Strings, regular expressions and testing alongside GCSE and A level. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **Adults: Python and agents** Text processing, data and AI agents, built properly in Python. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
+Years 2 to 7
+
+### How to think
+
+Patterns, rules and the exceptions that break them.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Games and small apps built with AI help and checked by the learner.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python and text
+
+Strings, regular expressions and testing alongside GCSE and A level.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)Adults
+
+### Python and agents
+
+Text processing, data and AI agents, built properly in Python.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)AI and real data
 
 ## What is a regular expression, and can AI write one for you?
 
@@ -130,30 +139,139 @@ Learners who have tested patterns on real data, and then checked the specificati
 
 A Harrogate teenager who can test code against messy real data will use AI tools with real confidence, and that is a strong reason to learn to code in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Starbeck to Harlow Hill, online
 
 Any home with a computer and broadband good enough for video can join.
 
-- **The learner codes** Students write, prompt and run their programs themselves, while the tutor follows on screen share and asks questions.
-- **Placed by ability** The free lesson shows where to begin, whatever the school year, and any exam board is noted.
-- **First lesson free** No fee for lesson one, which closes with our suggestion of a course.
-- **Same-stage groups** A class brings together between five and ten learners from around Britain who have reached the same point.
-- **Twice weekly** Lessons stop for the school holidays.
-- **Set times** Our tutors follow the UK clock changes, so your lesson hour does not move.
+### The learner codes
 
-**Why we teach online** Five learners at the same stage and free at the same hour are unlikely to live near each other. Online, that does not matter.
+Students write, prompt and run their programs themselves, while the tutor follows on screen share and asks questions.
+
+### Placed by ability
+
+The free lesson shows where to begin, whatever the school year, and any exam board is noted.
+
+### First lesson free
+
+No fee for lesson one, which closes with our suggestion of a course.
+
+### Same-stage groups
+
+A class brings together between five and ten learners from around Britain who have reached the same point.
+
+### Twice weekly
+
+Lessons stop for the school holidays.
+
+### Set times
+
+Our tutors follow the UK clock changes, so your lesson hour does not move.
+
+Why we teach online
+
+Five learners at the same stage and free at the same hour are unlikely to live near each other. Online, that does not matter.
+
+Fees
 
 ## Harrogate fees
 
 Harrogate learners pay our international rate, which applies in every country except India.
 
-- First class: USD 0. A complete first lesson free of charge, with a course suggestion at the end.
-- Group tuition: USD 100 a month. Roughly eight live small-group lessons a month.
-- Private tuition: USD 150 a month. Roughly eight live one-to-one lessons a month.
+First class**USD 0**
+
+A complete first lesson free of charge, with a course suggestion at the end.
+
+Group tuition**USD 100**
+
+Roughly eight live small-group lessons a month.
+
+Private tuition**USD 150**
+
+Roughly eight live one-to-one lessons a month.
 
 Fees are charged in US dollars rather than pounds. Invoicing begins after the free lesson, once a course and a regular time are agreed; see the pricing page for holidays, missed sessions and changes of format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Harrogate%3F)Reviews
+
+## Google reviews from Yorkshire households and further afield
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Harrogate lesson
+
+Share a year group or age and what the learner is into. Possible trial activities: a pattern-hunting puzzle, an AI-assisted Scratch game, a first go at Python, or a mini parser for real text.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Harrogate one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Harrogate%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Harrogate questions
+
+The opening-hours project, regular expressions, vibe coding and practical points.
 
 ### What is the population of Harrogate?
 
@@ -195,10 +313,14 @@ Lesson one: nothing. Afterwards: USD 100 monthly in a class of peers, or USD 150
 
 No, they pause. Send us the dates.
 
+Nearby
+
 ## More North Yorkshire and Yorkshire pages
 
 [Ripon](/best-coding-class-in-ripon) and [York](/best-coding-class-in-york) have pages and projects of their own, and so do [Leeds](/best-coding-class-in-leeds) and [Halifax](/ai-and-programming-classes-in-halifax). The [UK hub](/coding-classes-in-united-kingdom) lists every area we cover.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Harrogate%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-harrogate](https://learn.modernagecoders.com/ai-and-programming-classes-in-harrogate#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-harrogate*

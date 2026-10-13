@@ -4,46 +4,32 @@ description: "Online coding, AI, Python and vibe coding lessons for Enniskillen,
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-enniskillen
 source: src/pages/best-coding-and-ai-classes-in-enniskillen.html
 ---
-> By NISRA's approximate settlement count, about 14,086 people lived in Enniskillen at the 2021 census; the surrounding district electoral area held 18,451. For BT74, postcodes.io lists wards including Portora, Castlecoole, Rossorry and Erne. Coding, AI, Python, vibe coding and maths are taught on camera by our India-based tutors to learners from six to 67, alone or in a group of fifteen to twenty at one level. We put reasoning before tools, so a learner can tell a curve that looks right from one that is right. The free trial lesson ends with our recommended course. The Enniskillen project takes the mapped shoreline of Rossole Lough, throws away most of its points, and rebuilds it three ways to see which smooth curve comes closest to the real edge. Beyond the trial you pay USD 100 monthly for group tuition or USD 150 monthly for a personal tutor.
+> Online coding, AI, Python and vibe coding lessons for Enniskillen, Portora, Castlecoole and Rossorry learners aged 6 to 67, with CCEA exam help. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Northern Ireland](/coding-and-ai-classes-in-northern-ireland) / Enniskillen
-
-Enniskillen, Fermanagh and Omagh, Northern Ireland / Live online
-
-# Coding and AI classes in Enniskillen
-
-**Where can Enniskillen learners find the best coding and AI classes?** By NISRA's approximate settlement count, about 14,086 people lived in Enniskillen at the 2021 census; the surrounding district electoral area held 18,451. For BT74, postcodes.io lists wards including Portora, Castlecoole, Rossorry and Erne. Coding, AI, Python, vibe coding and maths are taught on camera by our India-based tutors to learners from six to 67, alone or in a group of fifteen to twenty at one level. We put reasoning before tools, so a learner can tell a curve that looks right from one that is right. The free trial lesson ends with our recommended course. The Enniskillen project takes the mapped shoreline of Rossole Lough, throws away most of its points, and rebuilds it three ways to see which smooth curve comes closest to the real edge. Beyond the trial you pay USD 100 monthly for group tuition or USD 150 monthly for a personal tutor.
-
-Maps, games, fonts and animation all need smooth curves drawn through a few stored points. There are two broad families of methods. Approximating curves, such as Chaikin's corner-cutting method, repeatedly shave off the corners of a shape until it looks smooth, but they do not pass through the original points. Interpolating curves, such as Catmull-Rom splines, are built to pass exactly through every point and bend smoothly between them. Which is closer to reality depends on the data. This project tests both on a real outline: Rossole Lough, a lake mapped on OpenStreetMap inside a rectangle around Enniskillen.
-
-Facts last verified 29 September 2026. Teaching is online; no Enniskillen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentEnniskillen course picks
 
 ## Enniskillen courses in reasoning, Python and AI
 
 Four courses arranged by age. The first live lesson on any of them is free, and booking takes no card.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think course: joining dots, spotting when a neat drawing hides a mistake, and measuring the error.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games planned by the learner, built with an AI and checked piece by piece.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python from first steps to geometry and graphics, including the Rossole Lough curve project.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): How AI fills gaps in data, why plausible is not proven, and AI agents in Python.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think course: joining dots, spotting when a neat drawing hides a mistake, and measuring the error.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games planned by the learner, built with an AI and checked piece by piece.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython from first steps to geometry and graphics, including the Rossole Lough curve project.See the syllabus](/courses/python-complete-masterclass-teens)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseHow AI fills gaps in data, why plausible is not proven, and AI agents in Python.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Enniskillen and Fermanagh
 
 ## Enniskillen, Portora, Castlecoole and Rossorry
 
 NISRA census figures and the wards postcodes.io lists for BT74.
 
-**Census 2021 head counts for Enniskillen areas, NISRA table MS-A01; NISRA calls its settlement numbers approximate**
-
 | Geography | People |
-|---|---|
+| --- | --- |
 | Town (NISRA settlement) | 14,086 |
 | Enniskillen DEA | 18,451 |
 | Castlecoole ward | 3,203 |
@@ -57,16 +43,16 @@ Settlement, electoral area and wards cover different ground, so their figures ar
 
 See [coding classes in Fermanagh and Omagh](/coding-classes-in-fermanagh-and-omagh), the [Northern Ireland page](/coding-and-ai-classes-in-northern-ireland) and [CCEA GCSE maths help](/ccea-gcse-maths-help). Why thinking comes before tools is on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Enniskillen project
+
 ## Rebuilding Rossole Lough: Chaikin corner cutting against Catmull-Rom splines
 
 Throw away most of a real shoreline, redraw it three ways, and measure how far each drawing strays.
 
 OpenStreetMap maps Rossole Lough as a closed outline of 103 points, 1,826 m round and about 158,430 square metres in area. The learner keeps only one point in 2, then 1 in 4, 1 in 8 and 1 in 16, and rebuilds the shoreline from what is left: with straight lines, with four rounds of Chaikin corner cutting, and with a Catmull-Rom spline through the kept points. For every one of the original 103 points, Python measures how far it lies from the rebuilt curve.
 
-**Rossole Lough rebuilt from fewer points, average distance from the true outline in metres, our Python run on OpenStreetMap data**
-
 | Points kept | Straight lines | Chaikin corner cutting | Catmull-Rom spline |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1 in 2 (51 points) | 1.87 | 2.83 | 1.55 |
 | 1 in 4 (26 points) | 4.24 | 5.37 | 4.10 |
 | 1 in 8 (13 points) | 8.07 | 10.79 | 6.90 |
@@ -90,14 +76,14 @@ Code Chaikin and Catmull-Rom curves, measure the error and explain why they diff
 
 Lake outlines are from OpenStreetMap and its contributors under the Open Database Licence. The thinning, curves, distances, areas and lengths are our own calculations.
 
+Filling gaps and AI
+
 ## What this teaches about vibe coding and AI agents
 
 Filling the gaps smoothly is not the same as filling them correctly.
 
-**From the Rossole Lough curves to working with AI**
-
 | In the shoreline project | When AI fills in missing detail |
-|---|---|
+| --- | --- |
 | Chaikin looked smoothest and was least accurate | Polish is not evidence of accuracy |
 | Its shape shrank to 78.4% of the area | Methods can drift in one direction |
 | The spline kept to the known points | Stay anchored to what is actually known |
@@ -108,14 +94,37 @@ AI systems constantly fill gaps: upscaling images, completing sentences, estimat
 
 This page draws on open data from OpenStreetMap, NISRA and postcodes.io, none of which is connected with Modern Age Coders; the curve work and any faults in it are ours.
 
+Stages
+
 ## From joining dots to spline code
 
 We use the school year as a first guess and let the trial settle the level.
 
-- **P1 to P7: How to think** Joining dots, estimating and checking a drawing against the real shape. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **P5 to Year 9: Vibe coding for kids** Games and small apps planned by the learner and built with AI help. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 10 to 14: Python and geometry** Coordinates, curves and measured error alongside CCEA GCSE and A level. [Python for Teens](/courses/python-complete-masterclass-teens), [High School Mathematics](/courses/complete-high-school-mathematics-mastery)
-- **Adults: Graphics, AI and agents** Curves, data and AI agents built in Python. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+P1 to P7
+
+### How to think
+
+Joining dots, estimating and checking a drawing against the real shape.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)P5 to Year 9
+
+### Vibe coding for kids
+
+Games and small apps planned by the learner and built with AI help.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 10 to 14
+
+### Python and geometry
+
+Coordinates, curves and measured error alongside CCEA GCSE and A level.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[High School Mathematics](/courses/complete-high-school-mathematics-mastery)Adults
+
+### Graphics, AI and agents
+
+Curves, data and AI agents built in Python.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)Curves and code
 
 ## What is a spline, and how do computers draw smooth curves through points?
 
@@ -127,30 +136,139 @@ Learners who have measured that ask of any polished AI output: is it anchored to
 
 Checking polish against evidence keeps Enniskillen teenagers in charge of the AI they use, and learning to code is where that habit starts in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Portora to Castlecoole, online
 
 A computer, a camera and a connection able to hold a video call are all you need.
 
-- **Hands on the code** The learner writes and runs every step; the tutor watches through screen share and asks how far the output is from the truth.
-- **Set by the trial** The free lesson shows the starting point, with any CCEA exam recorded.
-- **Free opening lesson** No charge for lesson one, which ends with a course suggestion.
-- **Level-matched classes** Fifteen to twenty learners from across the UK, grouped by stage.
-- **Two per week** Paused for school holidays.
-- **Steady time** Tutors adjust for UK clock changes so your slot stays put.
+### Hands on the code
 
-**Why online** Five learners at one level who are free on the same evening rarely live close together. Video removes the distance.
+The learner writes and runs every step; the tutor watches through screen share and asks how far the output is from the truth.
+
+### Set by the trial
+
+The free lesson shows the starting point, with any CCEA exam recorded.
+
+### Free opening lesson
+
+No charge for lesson one, which ends with a course suggestion.
+
+### Level-matched classes
+
+Fifteen to twenty learners from across the UK, grouped by stage.
+
+### Two per week
+
+Paused for school holidays.
+
+### Steady time
+
+Tutors adjust for UK clock changes so your slot stays put.
+
+Why online
+
+Five learners at one level who are free on the same evening rarely live close together. Video removes the distance.
+
+Fees
 
 ## Enniskillen fees
 
 For Enniskillen, as for every country other than India, our international price list applies.
 
-- First class: USD 0. One free lesson, then our recommendation.
-- Group tuition: USD 100 a month. Roughly eight live group lessons each month.
-- Private tuition: USD 150 a month. Roughly eight live one-to-one lessons each month.
+First class**USD 0**
+
+One free lesson, then our recommendation.
+
+Group tuition**USD 100**
+
+Roughly eight live group lessons each month.
+
+Private tuition**USD 150**
+
+Roughly eight live one-to-one lessons each month.
 
 No sterling prices: we charge in US dollars once the trial has agreed a course and a slot, and the pricing page covers holiday weeks, missed sessions and format swaps.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Enniskillen%3F)Reviews
+
+## Google reviews: Fermanagh parents and learners elsewhere in Britain
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Enniskillen lesson
+
+An age or year group plus a hobby lets us shape the trial, which could be a dot-joining shape puzzle, a Scratch game built with an AI, first steps in Python, or redrawing a real map outline.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Enniskillen one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Enniskillen%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Enniskillen questions
+
+Splines, corner cutting, the Rossole Lough outline, vibe coding and how lessons run.
 
 ### What is the population of Enniskillen?
 
@@ -192,10 +310,14 @@ The trial is free; then USD 100 a month in a group or USD 150 a month privately.
 
 Yes, for school holidays; send the dates.
 
+Nearby
+
 ## More Northern Ireland pages
 
 Pages with their own projects: [Fermanagh and Omagh](/coding-classes-in-fermanagh-and-omagh) (dating a canal bridge by evidence), [Armagh](/best-coding-class-in-armagh), [Derry](/best-coding-class-in-derry-londonderry) and [Belfast](/best-coding-class-in-belfast). Further afield, start from [Northern Ireland](/coding-and-ai-classes-in-northern-ireland) or the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Enniskillen%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-and-ai-classes-in-enniskillen](https://learn.modernagecoders.com/best-coding-and-ai-classes-in-enniskillen#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-enniskillen*

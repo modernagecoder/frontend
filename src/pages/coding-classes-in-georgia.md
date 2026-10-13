@@ -24,7 +24,7 @@ Book the free first classHow rigor credits work
 
 No card. No obligation. We call, we do not spam.
 
-10,000+students taught4.9across 547 Google reviews2020teaching since25+countries6 to 67ages taught5 to 8students per groupCourses for Georgia
+10,000+students taught4.9across 547 Google reviews2020teaching since25+countries6 to 67ages taught15 to 20students per groupCourses for Georgia
 
 ## Built around the four rigor credits
 

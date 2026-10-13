@@ -12,11 +12,11 @@ Live Online · Central Kolkata's Premier Address
 
 Modern Age Coders runs premium, live online coding and mathematics classes for families near Loudon Street, Kolkata (700017). We teach Python, Java, AI/ML and school maths in live batches of 15–20, led by full-time software engineers and maths graduates, never pre-recorded videos. Children at St. Xavier's, La Martiniere and Loreto House learn from home by 4:30 PM, with zero commute through Park Street and Camac Street traffic.
 
-Live online, never pre-recordedSmall batches (max 20)Python, Java, C++, AI/ML & DSAEngineers & maths graduatesFlexible evening slots6–8Students per live batch1-on-1Or fully personalised₹1,499Group classes / month6–67Ages we teach[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)Live Online · Loudon Street, Kolkata
+Live online, never pre-recordedBatches (max 20)Python, Java, C++, AI/ML & DSAEngineers & maths graduatesFlexible evening slots15–20Students per live batch1-on-1Or fully personalised₹1,499Group classes / month6–67Ages we teach[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)Live Online · Loudon Street, Kolkata
 
 ## At a glance
 
-Format**Live online classes**, real teacher, real time, never pre-recordedBatch sizeSmall batches of 15–20; mini batch of up to 6; or 1-on-1Ages6 to 67, kids, teens, college students and working adultsSubjectsCoding (Python, Java, C++, AI/ML, web, DSA) and Mathematics (Grades 1–12 + college)BoardsICSE, ISC, CBSE, IGCSE and state board; Bengali/Hindi-medium learners welcomeFeesFrom **₹1,499/month** (group, max 20), ₹2,999/month (mini batch up to 6), ₹4,999/month (1-on-1)Free demoYes, one free live demo class, no payment, no commitmentServingLoudon Street, Camac Street, Russell Street, Theatre Road, Park Street, Rawdon Street, Wood Street, AJC Bose Road, Elgin Road (700017, 700016, 700020, 700019, 700071)Why It Works
+Format**Live online classes**, real teacher, real time, never pre-recordedBatch sizeBatches of 15–20; mini batch of up to 6; or 1-on-1Ages6 to 67, kids, teens, college students and working adultsSubjectsCoding (Python, Java, C++, AI/ML, web, DSA) and Mathematics (Grades 1–12 + college)BoardsICSE, ISC, CBSE, IGCSE and state board; Bengali/Hindi-medium learners welcomeFeesFrom **₹1,499/month** (group, max 20), ₹2,999/month (mini batch up to 6), ₹4,999/month (1-on-1)Free demoYes, one free live demo class, no payment, no commitmentServingLoudon Street, Camac Street, Russell Street, Theatre Road, Park Street, Rawdon Street, Wood Street, AJC Bose Road, Elgin Road (700017, 700016, 700020, 700019, 700071)Why It Works
 
 ## Premium live online, judged by families who know quality
 

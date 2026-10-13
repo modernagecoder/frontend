@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and data classes for Blanchardstown
 canonical: https://learn.modernagecoders.com/coding-classes-in-blanchardstown-dublin
 source: src/pages/coding-classes-in-blanchardstown-dublin.html
 ---
-> Blanchardstown learners take every lesson live with a teacher over video, in a small group matched by level or on their own, generally twice a week and at any age from six to sixty-seven. Nobody travels anywhere in Dublin 15 to attend. A first lesson is given free, and from then on the monthly fee is USD 100 for a place in a group or USD 150 for lessons one to one.
+> Live online coding, Python, AI and data classes for Blanchardstown and Dublin 15, ages 6 to 67, in same-level groups or one to one. First lesson free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [Fingal](/coding-classes-in-fingal) / Blanchardstown
-
-Blanchardstown, Dublin 15 / Live online
-
-# Coding classes in Blanchardstown
-
-**What are the best coding classes in Blanchardstown?** Blanchardstown learners take every lesson live with a teacher over video, in a small group matched by level or on their own, generally twice a week and at any age from six to sixty-seven. Nobody travels anywhere in Dublin 15 to attend. A first lesson is given free, and from then on the monthly fee is USD 100 for a place in a group or USD 150 for lessons one to one.
-
-Beside the M50 and N3 interchange, the Environmental Protection Agency runs a monitoring site that records nitrogen dioxide every hour and publishes the readings online. Take its 2025 readings and a simple question, whether the air stayed within the limit, turns out to have several answers. The same numbers sit inside today's rules and outside two of the rules due in 2030, and the yearly average most people reach for first is one the rules would not accept, because a whole season of readings is missing. This page shows a learner how to write a limit as the rule it really is, and how to check whether the data can answer the question at all.
-
-Facts last verified 19 September 2026. Teaching is online; no Blanchardstown branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Dublin 15
 
 ## Four starting points in Blanchardstown
 
 The course follows the learner's age and interests, and the teacher checks the level in the free opening lesson.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Blocks and rules: a game that only lets a character pass when three conditions all hold.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Python with lists of readings, averages and simple if-rules that count how often a line is crossed.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 18): Hourly sensor data in Python: grouping by day and year, coverage checks and rules as functions.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): For adults who report against targets or thresholds and need the window and the data coverage stated.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlocks and rules: a game that only lets a character pass when three conditions all hold.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsPython with lists of readings, averages and simple if-rules that count how often a line is crossed.See the syllabus](/courses/python-ai-kids-masterclass)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 18Data Science for TeensHourly sensor data in Python: grouping by day and year, coverage checks and rules as functions.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CourseFor adults who report against targets or thresholds and need the window and the data coverage stated.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## One year of hourly readings, five rules and three different answers
 
 Nitrogen dioxide at the EPA's Blanchardstown site: the provisional readings for 2025 published on airquality.ie, in micrograms per cubic metre. Each rule is written out with its threshold, its time window and the number of times it may be passed.
 
-**Blanchardstown nitrogen dioxide in 2025, rule by rule**
-
 | Rule | Threshold and window | In the 2025 readings |
-|---|---|---|
+| --- | --- | --- |
 | Current hourly limit | Over 200 in an hour, 18 times allowed | 0 hours |
 | Current annual limit | Year average over 40 | 24.6, from the hours available |
 | 2030 hourly limit | Over 200 in an hour, 3 times allowed | 0 hours |
@@ -80,14 +66,14 @@ The limits the EPA lists now are 200 for an hour, passed no more than 18 times a
 
 The same directive says an assessment goes ahead whatever the coverage if the data allow a conclusive answer, and that short-term exceedances found in a partial year may still count. Missing data can hide a problem; it cannot prove there is none.
 
+Dublin 15, named
+
 ## Blanchardstown in the words of its own institutions
 
 Facts that the places themselves publish, each checked on its own site, with an eircode printed only where the owner gives one.
 
-**Named places in and around Blanchardstown**
-
 | Place | What its own site says |
-|---|---|
+| --- | --- |
 | TU Dublin Blanchardstown | Ten buildings, over 22,000 square metres, Blanchardstown Road North |
 | National Aquatic Centre | Ten-lane 50-metre pool, 2,500 seats, D15 EPN4 |
 | EPA monitoring site | Near the M50 and N3 interchange, nitrogen oxides and particles |
@@ -106,7 +92,11 @@ The Sport Ireland National Aquatic Centre on Snugborough Road describes a ten-la
 
 Fingal County Council calls Blanchardstown "the most populous and urban area of the county" and its shopping centre "one of the largest retail areas in Ireland". Those are the council's words, not a measured figure.
 
-**Pages we could not read** Connolly Hospital's HSE pages, the council's Blanchardstown library page and Draíocht's contact page all returned "not found" when checked on 19 September 2026, so this page prints no address or details for them rather than borrowing one from somewhere less reliable.
+Pages we could not read
+
+Connolly Hospital's HSE pages, the council's Blanchardstown library page and Draíocht's contact page all returned "not found" when checked on 19 September 2026, so this page prints no address or details for them rather than borrowing one from somewhere less reliable.
+
+Learning here
 
 ## Lessons for learners across Dublin 15
 
@@ -126,14 +116,37 @@ Adults can begin with no experience at all; the first lesson settles where they 
 
 The readings and the limits are quoted from the EPA and the directive as published; the counts, averages and coverage figures are our own arithmetic on the provisional readings, done on 19 September 2026. The campus, the aquatic centre, the station, the arts centre and the council are quoted from their own websites.
 
+Learning ladder
+
 ## From a rule in blocks to a rule with a window
 
 Ages here are a rough guide only; the first lesson finds the right rung for each learner.
 
-- **Ages 6 to 10: If and only if** Block-coded games where something happens only when every condition holds. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Counting crossings** Python that counts how many values in a list pass a line, then averages them. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Windows and coverage** Grouping sensor data by hour, day and year, and refusing to report an average the data cannot support. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Reporting against targets** Thresholds, windows and allowed counts written into code, with coverage stated beside every figure. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### If and only if
+
+Block-coded games where something happens only when every condition holds.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Counting crossings
+
+Python that counts how many values in a list pass a line, then averages them.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Windows and coverage
+
+Grouping sensor data by hour, day and year, and refusing to report an average the data cannot support.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Reporting against targets
+
+Thresholds, windows and allowed counts written into code, with coverage stated beside every figure.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## Ask an assistant whether Blanchardstown's air was within the limit
 
@@ -145,30 +158,139 @@ Once the rule functions are written, the learner asks the assistant which limit 
 
 Averaging a column takes one line. Knowing which rule the question is really about is the skill. The longer argument is in [why learning to code still repays the hours](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How lessons run for Blanchardstown
 
 The details.
 
-- **A teacher, live** Each lesson is taught in real time by a teacher who follows every learner's work on screen.
-- **Same-stage classmates** Groups of fifteen to twenty learners at one level, who may be in Dublin 15, elsewhere in Ireland or overseas.
-- **Twice in a week** Around eight lessons a month, on two regular days fixed at the start.
-- **Term-time aware** Mid-terms, holidays and exam weeks are allowed for in the plan from day one.
-- **At home** A laptop or desktop with a keyboard, a headset or speakers and microphone, and a connection that carries video.
-- **On your own** One-to-one lessons for a learner who is well ahead, needs a slower pace, or has hours no group shares.
+### A teacher, live
 
-**Online, never on site** We have no centre in Blanchardstown, in Fingal or elsewhere in Ireland. Every lesson happens over video, so a learner in Clonsilla or Mulhuddart has exactly the same class as one anywhere else.
+Each lesson is taught in real time by a teacher who follows every learner's work on screen.
+
+### Same-stage classmates
+
+Groups of fifteen to twenty learners at one level, who may be in Dublin 15, elsewhere in Ireland or overseas.
+
+### Twice in a week
+
+Around eight lessons a month, on two regular days fixed at the start.
+
+### Term-time aware
+
+Mid-terms, holidays and exam weeks are allowed for in the plan from day one.
+
+### At home
+
+A laptop or desktop with a keyboard, a headset or speakers and microphone, and a connection that carries video.
+
+### On your own
+
+One-to-one lessons for a learner who is well ahead, needs a slower pace, or has hours no group shares.
+
+Online, never on site
+
+We have no centre in Blanchardstown, in Fingal or elsewhere in Ireland. Every lesson happens over video, so a learner in Clonsilla or Mulhuddart has exactly the same class as one anywhere else.
+
+Fees
 
 ## Fees for Blanchardstown families
 
 In full.
 
-- First class: USD 0. A free first lesson, with the learner's level checked.
-- Group tuition: USD 100 a month. A monthly group place, fifteen to twenty learners at one stage, around eight live lessons.
-- Private tuition: USD 150 a month. Monthly one-to-one lessons on the same pattern.
+First class**USD 0**
+
+A free first lesson, with the learner's level checked.
+
+Group tuition**USD 100**
+
+A monthly group place, fifteen to twenty learners at one stage, around eight live lessons.
+
+Private tuition**USD 150**
+
+Monthly one-to-one lessons on the same pattern.
 
 Families living outside India pay the same US dollar fee each month, wherever they are. The first lesson places no obligation on anyone, charges begin when the course begins, and the pricing page covers holidays, missed lessons and changes between group and private teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Blanchardstown.)Reviews
+
+## Six families on Google, in their own words
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free first lesson in Blanchardstown
+
+Tell us the learner's age and what interests them, and the teacher will build the first hour around that. It might finish with a game, a first program, or a rule written in code and tested on real readings.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Blanchardstown one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Blanchardstown.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Blanchardstown coding class questions
+
+What families in Dublin 15 ask most often.
 
 ### Is there a Modern Age Coders centre in Blanchardstown?
 
@@ -206,10 +328,14 @@ The first lesson is free. After that a group place is USD 100 a month for about 
 
 Fifteen to twenty learners, grouped by level, pace and aim rather than by age or area. If no group fits at a workable time, lessons are one to one.
 
+Explore Ireland
+
 ## Around Dublin 15 and Fingal
 
 The [Fingal](/coding-classes-in-fingal) page covers the council area around Blanchardstown, the [Dublin](/best-coding-class-in-dublin) page maps the city, and the north of Fingal has its own town pages for [Swords](/best-coding-class-in-swords) and [Malahide](/best-coding-class-in-malahide). The [data science course](/data-science-course-ireland) page goes further with real data, and the [Ireland hub](/coding-classes-in-ireland) lists the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Blanchardstown.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-blanchardstown-dublin](https://learn.modernagecoders.com/coding-classes-in-blanchardstown-dublin#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-blanchardstown-dublin*

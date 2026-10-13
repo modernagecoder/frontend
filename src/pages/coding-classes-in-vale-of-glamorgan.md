@@ -4,46 +4,32 @@ description: "Live online coding, Python and maths classes across the Vale of Gl
 canonical: https://learn.modernagecoders.com/coding-classes-in-vale-of-glamorgan
 source: src/pages/coding-classes-in-vale-of-glamorgan.html
 ---
-> At the 2021 census the Vale of Glamorgan had 131,939 residents. Barry, with a built-up area of 56,605, is by far the largest town; Dinas Powis, Rhoose, Llantwit Major and Cowbridge follow, along with Eglwys-Brewis, Boverton and St Athan. Every lesson we give is live, on video, from our teachers in India. Learners aged 6 to 67 study coding, Python and maths, as a private pupil or in a group of fifteen to twenty placed by level. It starts with a free lesson that picks the right course. The Vale project counts pigeons in a medieval dovecote. Afterwards the fee is USD 100 a month in a group or USD 150 a month one-to-one.
+> Live online coding, Python and maths classes across the Vale of Glamorgan: Barry, Dinas Powis, Rhoose, Llantwit Major, Cowbridge, Boverton and St Athan.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Vale of Glamorgan
-
-Vale of Glamorgan / Live online
-
-# Coding classes in the Vale of Glamorgan
-
-**What are the best coding classes in the Vale of Glamorgan?** At the 2021 census the Vale of Glamorgan had 131,939 residents. Barry, with a built-up area of 56,605, is by far the largest town; Dinas Powis, Rhoose, Llantwit Major and Cowbridge follow, along with Eglwys-Brewis, Boverton and St Athan. Every lesson we give is live, on video, from our teachers in India. Learners aged 6 to 67 study coding, Python and maths, as a private pupil or in a group of fifteen to twenty placed by level. It starts with a free lesson that picks the right course. The Vale project counts pigeons in a medieval dovecote. Afterwards the fee is USD 100 a month in a group or USD 150 a month one-to-one.
-
-Beside Cadoxton Court in Barry stands a round stone dovecote, probably from the 13th century, which Cadw lists at Grade I as the largest and most intact medieval dovecote in Glamorgan. Inside, the walls were lined with nesting holes about 15 centimetres square and 45 deep. The record gives two numbers: originally 700 nesting holes, and capacity for 1,400 pigeons. Those two numbers hold three good problems. What is certain to happen if too many birds move in? What is likely to happen if birds choose holes at random? And could 700 holes really fit on those walls? Each question needs a different kind of maths, and this page's project answers all three in Python.
-
-Facts last verified 26 September 2026. Teaching is online; no Vale of Glamorgan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for the Vale of Glamorgan
 
 ## First courses across the Vale
 
 A Year 3 pupil in Rhoose who counts birds, a Year 8 in Barry writing loops, a Year 12 in Cowbridge on WJEC A level maths, and an adult in Llantwit Major learning Python for work. Each starts with a free lesson.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 12): Scratch games with birds, boxes and counting.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): Counting, chance and geometry checked with code.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Serious Python for teenagers, from loops to simulations.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Adults): Python for adults from nothing to working programs.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 12Scratch Coding for KidsScratch games with birds, boxes and counting.See the syllabus](/courses/scratch-programming-complete-course)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingCounting, chance and geometry checked with code.See the syllabus](/courses/maths-through-coding)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensSerious Python for teenagers, from loops to simulations.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)AdultsPython MasterclassPython for adults from nothing to working programs.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)The Vale in figures
 
 ## 131,939 people in the Vale
 
 The total is ONS's count of usual residents at the 2021 census, read on Nomis. The towns are ONS built-up areas that lie wholly inside the county.
 
-**Vale of Glamorgan built-up areas above 1,500 residents, ONS 2021**
-
 | Town | Residents | Town | Residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Barry | 56,605 | Cowbridge | 3,645 |
 | Dinas Powis | 7,890 | Eglwys-Brewis | 3,300 |
 | Rhoose | 6,780 | Boverton | 2,740 |
@@ -55,16 +41,16 @@ Penarth and parts of the Cardiff and Bridgend built-up areas also reach into the
 
 Our [Cardiff](/best-coding-class-in-cardiff) page covers the capital. For WJEC exams, see [GCSE Maths and Numeracy in Wales](/gcse-maths-and-numeracy-wales-help) and [WJEC GCSE Computer Science](/wjec-gcse-computer-science-help-wales).
 
+The Vale of Glamorgan project
+
 ## 1,400 pigeons, 700 holes
 
 One certainty, one probability and one size check.
 
 Start with certainty. If 701 birds share 700 holes, at least one hole must hold two, whatever the birds do. Mathematicians call this the pigeonhole principle. The learner codes the general rule: with n birds and 700 holes, some hole holds at least n divided by 700, rounded up. So 1,400 birds could fit exactly two to a hole, but a 1,401st forces a hole to take three. No simulation is needed; the answer is guaranteed.
 
-**Our dovecote sums, 700 holes, birds choosing at random, 26 September 2026**
-
 | Birds | Guaranteed | Expected empty holes | Fullest hole in our simulation |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 350 | Nothing shared | 424 (61%) | Not simulated |
 | 700 | Nothing shared | 257 (37%) | About 5, at worst 8 |
 | 1,400 | A hole with at least 2 | 95 (14%) | About 8, at worst 11 |
@@ -90,14 +76,14 @@ Derive the 1 divided by e result, compare it with the simulation, and test the w
 
 Hole count, capacity and dimensions come from Cadw. The birds' random choices and the row layout are our assumptions, so the table explains the mathematics, not how Cadoxton's pigeons actually lived.
 
+Why Cadoxton Court
+
 ## Glamorgan's largest medieval dovecote
 
 What Cadw's record says.
 
-**Dovecote at Cadoxton Court, Barry, Cadw listed building record 13176, Grade I**
-
 | Record detail | What it says |
-|---|---|
+| --- | --- |
 | Age | Probably 13th century, restored |
 | Shape | Domed and circular, about 8 m high, inside diameter about 5 m |
 | Walls | Buttressed, 1.1 m thick, 4.6 m high to where the dome begins |
@@ -109,14 +95,37 @@ The same three questions run through computing. Hash tables, file storage and ne
 
 Modern Age Coders is independent of Cadw. The record belongs to Cadw; the pigeon sums, and any error in them, belong to us.
 
+Growing through school
+
 ## From egg boxes to e
 
 Year bands are only a sketch; the trial lesson settles each starting point.
 
-- **Years 1 to 4: Sorting and counting** Blocks that sort, count and share items into boxes. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Years 5 to 8: Chance in code** Python with random numbers, counting and simple geometry. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Probability** Probability, powers and proof alongside WJEC GCSE and A level. [Python for Teens](/courses/python-complete-masterclass-teens), [High School Mathematics](/courses/complete-high-school-mathematics-mastery)
-- **Adults: Python basics and beyond** Adult Python from first steps to confident scripts. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Years 1 to 4
+
+### Sorting and counting
+
+Blocks that sort, count and share items into boxes.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Years 5 to 8
+
+### Chance in code
+
+Python with random numbers, counting and simple geometry.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Probability
+
+Probability, powers and proof alongside WJEC GCSE and A level.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[High School Mathematics](/courses/complete-high-school-mathematics-mastery)Adults
+
+### Python basics and beyond
+
+Adult Python from first steps to confident scripts.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)AI and certainty
 
 ## An AI can simulate the dovecote. Will it tell you which answers are guaranteed?
 
@@ -128,30 +137,139 @@ A Vale of Glamorgan learner who has set the pigeonhole principle beside a simula
 
 Telling a proof from a probability is a clear reason for a Vale of Glamorgan teenager to keep coding in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How lessons go
+
 ## From Cowbridge to Barry, live on screen
 
 Town or village, a home connection is enough.
 
-- **Learners do the typing** Students build each program themselves; the tutor keeps an eye on their screen and offers a question when they get stuck.
-- **Welsh school years** A Boverton Year 5 or a Dinas Powis Year 11 is placed by Welsh year and progression step, and exams go by WJEC names. Teaching is in English.
-- **Free start** The trial lesson is complete and free, and ends with a clear suggestion.
-- **Classes by stage** Fifteen to twenty learners at one level, from across the UK.
-- **Term timetable** Twice weekly during term; holidays kept clear.
-- **Clock changes covered** When Britain changes its clocks, your lesson keeps its usual hour and our teachers in India move instead.
+### Learners do the typing
 
-**Why groups go online** A small town rarely has five learners at one level free at one time. Online, a St Athan or Eglwys-Brewis learner joins peers at exactly the same stage.
+Students build each program themselves; the tutor keeps an eye on their screen and offers a question when they get stuck.
+
+### Welsh school years
+
+A Boverton Year 5 or a Dinas Powis Year 11 is placed by Welsh year and progression step, and exams go by WJEC names. Teaching is in English.
+
+### Free start
+
+The trial lesson is complete and free, and ends with a clear suggestion.
+
+### Classes by stage
+
+Fifteen to twenty learners at one level, from across the UK.
+
+### Term timetable
+
+Twice weekly during term; holidays kept clear.
+
+### Clock changes covered
+
+When Britain changes its clocks, your lesson keeps its usual hour and our teachers in India move instead.
+
+Why groups go online
+
+A small town rarely has five learners at one level free at one time. Online, a St Athan or Eglwys-Brewis learner joins peers at exactly the same stage.
+
+Fees
 
 ## Fees in the Vale of Glamorgan
 
 Barry or Cowbridge, the fee is identical, and it matches every other country we teach outside India.
 
-- First class: USD 0. A full trial lesson, free, and clear advice after it.
-- Group tuition: USD 100 a month. Roughly eight lessons a month in a class of fifteen to twenty.
-- Private tuition: USD 150 a month. Roughly eight lessons a month with a personal tutor.
+First class**USD 0**
+
+A full trial lesson, free, and clear advice after it.
+
+Group tuition**USD 100**
+
+Roughly eight lessons a month in a class of fifteen to twenty.
+
+Private tuition**USD 150**
+
+Roughly eight lessons a month with a personal tutor.
 
 We price in US dollars alone and never in sterling. Nothing is charged until the trial settles a course and a weekly slot, and the pricing page covers holidays, missed lessons and moving between formats.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20the%20Vale%20of%20Glamorgan%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Reviews
+
+## Families' Google ratings
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Vale of Glamorgan lesson
+
+Tell us the learner's age or school year and something they enjoy. The trial might be a Scratch counting game, a first Python loop, or the Cadoxton dovecote sums.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Vale of Glamorgan one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20the%20Vale%20of%20Glamorgan%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Vale of Glamorgan questions
+
+The county, the dovecote project and practical points.
 
 ### How many people live in the Vale of Glamorgan?
 
@@ -193,10 +311,14 @@ The first lesson is free; then USD 100 a month in a group or USD 150 a month one
 
 No. Send your holiday weeks and we skip them.
 
+Close to the Vale
+
 ## More pages for South Wales
 
 [Cardiff](/best-coding-class-in-cardiff) has a city page, [Bridgend](/coding-classes-in-bridgend) lifts loads with water and gravity, and [Rhondda Cynon Taf](/coding-classes-in-rhondda-cynon-taf) scales a stone arch. Every Welsh area is linked from the [Wales](/coding-and-ai-classes-in-wales) page, and the [UK hub](/coding-classes-in-united-kingdom) covers the rest of the country.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Reach us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20the%20Vale%20of%20Glamorgan%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-vale-of-glamorgan](https://learn.modernagecoders.com/coding-classes-in-vale-of-glamorgan#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-vale-of-glamorgan*

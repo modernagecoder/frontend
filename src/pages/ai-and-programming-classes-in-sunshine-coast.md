@@ -4,46 +4,32 @@ description: "Live online AI, machine learning and programming classes for Sunsh
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-sunshine-coast
 source: src/pages/ai-and-programming-classes-in-sunshine-coast.html
 ---
-> One where you build models yourself, on real data, and learn to check whether their answers and their confidence can be trusted. The Sunshine Coast urban area counted 382,903 people at the 2021 Census. We teach programming and AI live online, privately or in small groups matched by level, and the first lesson is free.
+> Live online AI, machine learning and programming classes for Sunshine Coast teenagers and adults, built on real local data, in small groups or one to one.
 
-[Home](/) / [Queensland](/coding-and-ai-classes-in-queensland) / [Australia](/coding-classes-in-australia) / Sunshine Coast
-
-Sunshine Coast, Queensland, Australia / Live online
-
-# AI and programming classes on the Sunshine Coast
-
-**What makes the best AI class for a Sunshine Coast teenager or adult?** One where you build models yourself, on real data, and learn to check whether their answers and their confidence can be trusted. The Sunshine Coast urban area counted 382,903 people at the 2021 Census. We teach programming and AI live online, privately or in small groups matched by level, and the first lesson is free.
-
-Most people judge a prediction model by one number: how often it is right. Our Sunshine Coast project shows why that is not enough. We took the 975 bus stops between Caloundra and Noosa that have a weekday service in the open Translink timetable, and asked a simple model a yes or no question about each one: will this stop get at least 16 buses this Sunday? Three versions of the model are right 96.9% of the time, every one of them. Yet when one says "27% likely", not a single stop in that group qualifies. Learners find out which version to believe by drawing a reliability diagram, the check that tells you whether a model's confidence matches reality.
-
-Facts last verified 7 October 2026. Teaching is online; no Sunshine Coast branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentAI course picks for the Sunshine Coast
 
 ## Four starting points in AI and programming
 
 Choose by the kind of AI work you want to do; the free lesson finds your level. No card details are asked for.
 
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 18): Machine learning from first principles in Python, including how to test a model honestly before trusting it.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): Cleaning, plotting and questioning real datasets, the groundwork every AI project depends on.
-- [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) (University and adult): Regression, classification, evaluation and calibration, implemented by hand and then with libraries.
-- [Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college) (Adults changing careers): A broad AI course covering models, data and responsible use, taught through projects on public data.
+[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 18AI and Machine Learning for TeensMachine learning from first principles in Python, including how to test a model honestly before trusting it.See the syllabus](/courses/ai-ml-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensCleaning, plotting and questioning real datasets, the groundwork every AI project depends on.See the syllabus](/courses/data-science-course-for-teens-python-data)[![AI and ML Masterclass course thumbnail](/images/ai-ml-college.webp)University and adultAI and ML MasterclassRegression, classification, evaluation and calibration, implemented by hand and then with libraries.See the syllabus](/courses/ai-ml-masterclass-complete-college)[![Artificial Intelligence Course course thumbnail](/images/ai-college.webp)Adults changing careersArtificial Intelligence CourseA broad AI course covering models, data and responsible use, taught through projects on public data.See the syllabus](/courses/artificial-intelligence-complete-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)The Sunshine Coast in the Census
 
 ## A coastal urban area of 382,903 people
 
 Census 2021 QuickStats for the Sunshine Coast Significant Urban Area, next to Queensland and Australia as QuickStats shows them.
 
-**Sunshine Coast, 2021 Census QuickStats**
-
 | Measure | Sunshine Coast | Queensland | Australia |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | People | 382,903 | Not compared | Not compared |
 | Median age | 44 | Not compared | Not compared |
 | Families | 106,804 | Not compared | Not compared |
@@ -66,32 +52,28 @@ Separate houses make up 73.2% of occupied dwellings and flats or apartments 12.6
 
 About these figures: the ABS slightly perturbs small census cells for privacy, so rows may not add to the published total. We give the published totals and shares unchanged and never add rows up into new figures.
 
+Signature project
+
 ## When a model says 70%, is it right 70% of the time?
 
 The 975 Sunshine Coast stops with service on Wednesday 14 October 2026, a logistic regression model, and the question: at least 16 trips on Sunday 18 October?
 
-**The data, from the Translink open timetable (our calculation)**
-
 | What we counted | Result |
-|---|---|
+| --- | --- |
 | Boarding stops in our Caloundra to Noosa rectangle | 985 |
 | Stops with at least one Wednesday trip | 975 |
 | Middle (median) number of Wednesday trips per stop | 24 |
 | Stops with at least 16 trips on Sunday 18 October | 481, or 49.3% |
 | Training stops and test stops | 682 and 293 |
 
-**Three models with identical accuracy on the 293 test stops (our calculation)**
-
 | Model | Accuracy | Calibration error | Brier score |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | As fitted | 96.9% | 0.059 | 0.0384 |
 | Same model, confidence sharpened (scores times 3) | 96.9% | 0.050 | 0.0352 |
 | Same model, confidence softened (scores times 0.35) | 96.9% | 0.210 | 0.0782 |
 
-**Reliability table for the fitted model: what it said against what happened**
-
 | Predicted probability band | Test stops | Average prediction | Share that really got 16 Sunday trips |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 0.0 to 0.2 | 140 | 0.041 | 0.0 |
 | 0.4 to 0.6 | 25 | 0.544 | 0.96 |
 | 0.6 to 0.8 | 7 | 0.709 | 0.857 |
@@ -115,14 +97,14 @@ All three models put the same stops on the same side of 50%, so their accuracy i
 
 These are our numbers, from the Translink file for 7 October to 6 December 2026, and our rectangle is a deliberate simplification of the Sunshine Coast. The label and the features both come from the timetable, so the task is easy and accuracy is high; the lesson is about confidence, not about predicting buses.
 
+Evaluating models properly
+
 ## Five checks before you trust a model's probabilities
 
 Learned on bus stops, used afterwards on any classifier that outputs a percentage.
 
-**Evaluation beyond accuracy**
-
 | Check | How | What it reveals |
-|---|---|---|
+| --- | --- | --- |
 | Hold data back | Test only on stops the model never saw | Scores inflated by memorisation |
 | Look at the base rate | 49.3% of stops qualify | Whether a high accuracy is impressive or trivial |
 | Draw the reliability diagram | Bands of prediction against observed share | Over and under confidence |
@@ -145,6 +127,8 @@ Ask the right questions of any vendor model or dashboard that turns predictions 
 
 We have no relationship with Translink, the state transport department, the ABS or the Queensland education department. The census figures are published by the ABS; the stop counts, model scores and reliability tables are all our own calculations from the public timetable.
 
+Around the coast
+
 ## Buses, school terms and a steady clock
 
 Local facts a programmer picks up along the way.
@@ -161,16 +145,41 @@ The Queensland Department of Education lists Term 4 of 2026 as Tuesday 6 October
 
 Queensland has kept UTC+10 all year since 1992, according to the IANA time zone database, so coast clocks never jump.
 
-**Why a steady clock helps** Timetable data for the coast never has to handle a daylight saving jump, which removes a whole class of bugs. Learners still store times carefully, because a program that also reads New South Wales data will meet the jump the moment it crosses the border.
+Why a steady clock helps
+
+Timetable data for the coast never has to handle a daylight saving jump, which removes a whole class of bugs. Learners still store times carefully, because a program that also reads New South Wales data will meet the jump the moment it crosses the border.
+
+Learning ladder
 
 ## From first Python to models you can defend
 
 Ages are only guides; the free lesson decides where each learner begins.
 
-- **Ages 13 to 14: Data and counting** Reading a timetable file, counting trips per stop and making the first charts. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 15 to 18: First models** Logistic regression by hand, train and test splits, and the reliability diagram. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Statistics & Probability](/courses/statistics-probability-maths-course)
-- **University: Serious evaluation** Calibration, proper scoring rules, cross-validation and honest reporting of uncertainty. [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college), [Data Science Course](/courses/data-science-complete-masterclass-college)
-- **Adults: AI at work** Building, evaluating and explaining models for decisions your team actually makes. [Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 13 to 14
+
+### Data and counting
+
+Reading a timetable file, counting trips per stop and making the first charts.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 15 to 18
+
+### First models
+
+Logistic regression by hand, train and test splits, and the reliability diagram.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Statistics & Probability](/courses/statistics-probability-maths-course)University
+
+### Serious evaluation
+
+Calibration, proper scoring rules, cross-validation and honest reporting of uncertainty.
+
+[AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college)[Data Science Course](/courses/data-science-complete-masterclass-college)Adults
+
+### AI at work
+
+Building, evaluating and explaining models for decisions your team actually makes.
+
+[Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## Chatbots state probabilities too. How would a Sunshine Coast learner know whether to believe them?
 
@@ -182,30 +191,139 @@ So Sunshine Coast learners build the habit of checking: collect a set of answers
 
 AI tools will keep sounding sure of themselves, and a Sunshine Coast learner who can measure whether that confidence is earned has a skill that matters in 2026. The longer argument is in [why coding still matters in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Caloundra to Noosa, one live classroom
 
 The coast stretches a long way north to south, and an online class removes every kilometre of it.
 
-- **Coast or hinterland** A learner in Maroochydore and another in the hinterland join the same lesson at the same moment from home.
-- **Queensland school terms** Lessons follow Queensland year levels, Year 7 to Year 12, and are always taught in English.
-- **Real work from minute one** The trial is an actual programming or AI task with a teacher, finishing with a suggested level, course and time. No payment details are taken.
-- **Fifteen to twenty per group** Learners at the same stage from the coast, the rest of Australia and further away, so every level finds a workable slot.
-- **Twice a week** Around eight lessons a month in a fixed slot, with holidays and exam periods agreed ahead with the teacher.
-- **A constant gap to India** Queensland and India both keep one clock time all year, so the coast is always 4 hours 30 minutes ahead of our teachers.
+### Coast or hinterland
 
-**Lesson times stay put** With no daylight saving on either side, a Sunshine Coast lesson set for 4:30pm stays at 4:30pm all year, and starts at noon in India.
+A learner in Maroochydore and another in the hinterland join the same lesson at the same moment from home.
+
+### Queensland school terms
+
+Lessons follow Queensland year levels, Year 7 to Year 12, and are always taught in English.
+
+### Real work from minute one
+
+The trial is an actual programming or AI task with a teacher, finishing with a suggested level, course and time. No payment details are taken.
+
+### Fifteen to twenty per group
+
+Learners at the same stage from the coast, the rest of Australia and further away, so every level finds a workable slot.
+
+### Twice a week
+
+Around eight lessons a month in a fixed slot, with holidays and exam periods agreed ahead with the teacher.
+
+### A constant gap to India
+
+Queensland and India both keep one clock time all year, so the coast is always 4 hours 30 minutes ahead of our teachers.
+
+Lesson times stay put
+
+With no daylight saving on either side, a Sunshine Coast lesson set for 4:30pm stays at 4:30pm all year, and starts at noon in India.
+
+Fees
 
 ## What AI and programming classes cost on the Sunshine Coast
 
 Three figures only.
 
-- First class: USD 0. A full first lesson without charge, ending with a level, a course and a time.
-- Group tuition: USD 100 a month. A month of teaching, usually eight lessons, alongside fifteen to twenty learners at your stage.
-- Private tuition: USD 150 a month. About eight lessons a month with a teacher all to yourself.
+First class**USD 0**
+
+A full first lesson without charge, ending with a level, a course and a time.
+
+Group tuition**USD 100**
+
+A month of teaching, usually eight lessons, alongside fifteen to twenty learners at your stage.
+
+Private tuition**USD 150**
+
+About eight lessons a month with a teacher all to yourself.
 
 Families outside India pay in US dollars at one rate, so a learner in Caloundra and one in Noosa pay exactly the same. Charges begin only after the trial, when the course and time are agreed; holidays, missed lessons and changes of format are explained on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20and%20programming%20class%20for%20a%20learner%20on%20the%20Sunshine%20Coast.)Reviews
+
+## Families reviewing us on Google, in their own words
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us what you want AI to do
+
+We choose the first task to fit: a first Python chart for a Year 8, a model to evaluate for a Year 11, or the full timetable and a reliability diagram for an adult.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Sunshine Coast one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20and%20programming%20class%20for%20a%20learner%20on%20the%20Sunshine%20Coast.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Sunshine Coast AI and programming questions
+
+Questions Sunshine Coast learners and parents often ask first.
 
 ### How many people live in the Sunshine Coast urban area?
 
@@ -247,10 +365,14 @@ The first lesson is free. After that a group place is USD 100 a month for two li
 
 Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
+Explore Australia
+
 ## More for Sunshine Coast and Queensland learners
 
 Teenagers interested in AI can continue with [AI classes for teens in Australia](/ai-classes-for-teens-australia), and anyone who wants to build models rather than only prompt them should read [learn to train AI, not just prompt it](/learn-to-train-ai-not-just-prompt-it-australia). The state picture is on [coding and AI classes in Queensland](/coding-and-ai-classes-in-queensland), and every Australian page is listed on the [Australia coding page](/coding-classes-in-australia).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20and%20programming%20class%20for%20a%20learner%20on%20the%20Sunshine%20Coast.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-sunshine-coast](https://learn.modernagecoders.com/ai-and-programming-classes-in-sunshine-coast#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-sunshine-coast*

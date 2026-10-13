@@ -4,46 +4,32 @@ description: "Live online coding, Python and maths classes across Inverclyde, fr
 canonical: https://learn.modernagecoders.com/coding-classes-in-inverclyde
 source: src/pages/coding-classes-in-inverclyde.html
 ---
-> Inverclyde is a compact council area on the Firth of Clyde with about 78,400 residents in roughly 37,400 households, according to the 2022 census. Greenock is by far the largest town, and Port Glasgow and Gourock are the other large towns, with Kilmacolm, Inverkip and Wemyss Bay smaller. Every class is taught live by video from India; a free first lesson finds the right starting stage, anything from P1 to S6 or adult. Learners aged 6 to 67 take coding, Python and maths in a group of fifteen to twenty or individually. The Inverclyde project starts at an old Greenock dry dock. After the free lesson, a group costs USD 100 a month and one-to-one USD 150 a month.
+> Live online coding, Python and maths classes across Inverclyde, from Greenock, Port Glasgow and Gourock to Kilmacolm, Inverkip and Wemyss Bay. Free first lesson.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / Inverclyde
-
-Inverclyde / Live online
-
-# Coding classes in Inverclyde
-
-**What are the best coding classes in Inverclyde?** Inverclyde is a compact council area on the Firth of Clyde with about 78,400 residents in roughly 37,400 households, according to the 2022 census. Greenock is by far the largest town, and Port Glasgow and Gourock are the other large towns, with Kilmacolm, Inverkip and Wemyss Bay smaller. Every class is taught live by video from India; a free first lesson finds the right starting stage, anything from P1 to S6 or adult. Learners aged 6 to 67 take coding, Python and maths in a group of fifteen to twenty or individually. The Inverclyde project starts at an old Greenock dry dock. After the free lesson, a group costs USD 100 a month and one-to-one USD 150 a month.
-
-In Cartsdyke, Greenock, Historic Environment Scotland lists Scott's Dry Dock at Category A and says it is believed to be the oldest surviving dry, or graving, dock in Scotland. Roughly 110 metres long and 20 metres wide, it was built for Steele's shipyard and already appears on a town plan of 1825. A dry dock works by letting the river in and pumping it out: gates open, water floods the basin, a ship floats in, and the water is removed so workers can reach the hull. How long does the flooding take? The obvious calculation is wrong by a factor of two, and the last metre of water behaves in a way that surprises almost everyone. This page's project finds out in Python.
-
-Facts last verified 26 September 2026. Teaching is online; no Inverclyde branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Inverclyde
 
 ## First courses that suit Inverclyde learners
 
 A seven-year-old in Gourock, a P7 in Port Glasgow, an S5 in Greenock working towards Higher, and an adult in Kilmacolm who wants to automate spreadsheets. Here is where each typically begins, after a free lesson.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 11): Scratch from the start, with games where water rises, tanks fill and timers count.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 9 to 13): A first typed language, with small simulations that change step by step.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 12 to 18): Complete Python for teenagers, including physics simulations and debugging them.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Adults): Python for adults from the first line, through to data, automation and models.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 11Scratch Coding for KidsScratch from the start, with games where water rises, tanks fill and timers count.See the syllabus](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 9 to 13Python and AI for KidsA first typed language, with small simulations that change step by step.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 12 to 18Python for TeensComplete Python for teenagers, including physics simulations and debugging them.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)AdultsPython MasterclassPython for adults from the first line, through to data, automation and models.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Inverclyde facts
 
 ## About 78,400 people on the Firth of Clyde
 
 Council-level figures are the 2022 census first results from National Records of Scotland, rounded to hundreds. Town sizes are NRS locality estimates for mid-2020.
 
-**Inverclyde localities, NRS mid-2020 estimates**
-
 | Locality | Residents |
-|---|---|
+| --- | --- |
 | Greenock | 41,280 |
 | Port Glasgow | 14,200 |
 | Gourock | 10,210 |
@@ -57,16 +43,16 @@ Inverclyde packs 488.7 residents into each square kilometre, seven times Scotlan
 
 The [Glasgow](/best-coding-class-in-glasgow) page covers the city. For qualifications, see [Higher Computing Science](/higher-computing-science-help) and [National 5 Maths](/national-5-maths-tuition-online).
 
+The Inverclyde project
+
 ## Flooding a dock, one second at a time
 
 A basin, a sluice, and a law of physics from the 1600s.
 
 The model uses the listing's rough size, 110 by 20 metres, as a plain rectangle; everything else is invented. The river stands 6 metres above the dock floor and, for simplicity, stays there. Water enters through a sluice with an opening of 1 square metre. Torricelli's law says water rushes through an opening at a speed that depends on the square root of the height difference: a big drop means fast flow, a small drop slow flow. As the dock fills, the difference shrinks, so the flow slows down. The learner computes the volume, 13,200 cubic metres by our arithmetic, and then works out how long filling really takes.
 
-**Our flooded dock, invented sluice and river level, 26 September 2026**
-
 | Question | Answer from the model |
-|---|---|
+| --- | --- |
 | Flow at the start | 6.51 cubic metres a second |
 | Naive estimate: volume divided by starting flow | 33.8 minutes |
 | True time to fill completely | 67.6 minutes, exactly twice the naive estimate |
@@ -94,14 +80,14 @@ Derive the fill time with calculus, reproduce the overshoot and the crash, and c
 
 Only the dock's rough size and history come from the listing. The river level, sluice size, flow coefficient and every time in the table are invented, and say nothing about how Scott's dock was actually flooded.
 
+Why Scott's Dry Dock
+
 ## Possibly Scotland's oldest graving dock
 
 What Historic Environment Scotland records, in its own careful words.
 
-**Scott's Dry Dock with Outer Basin, HES listing LB50131**
-
 | Listing detail | What it records |
-|---|---|
+| --- | --- |
 | Size and shape | Roughly 110 m long and 20 m wide, with a semi-octagonal south end and stepped sides |
 | Also known as | The Submarine Dock |
 | Age | Early 19th century; believed to be the oldest surviving dry dock in Scotland |
@@ -113,14 +99,37 @@ The listing is careful: the dock is believed to be the oldest, and a date in the
 
 Historic Environment Scotland, the owners of the dock and Inverclyde Council are not linked to us in any way. The listing facts are theirs; the model, its numbers and any errors are ours.
 
+Stages
+
 ## From a Scratch tank to a working model
 
 These stages are a rough guide; the free lesson decides.
 
-- **P1 to P4: Things that fill** Block coding games with levels that rise, timers and simple rules. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **P5 to S2: Step-by-step Python** Loops that change a value over time, with graphs to show it. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **S3 to S6: Rates and models** Simulation and calculus ideas alongside National 5, Higher and Advanced Higher courses. [Python for Teens](/courses/python-complete-masterclass-teens), [High School Mathematics](/courses/complete-high-school-mathematics-mastery)
-- **Adults: Models for work** Python for adults building estimates, forecasts and checks. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+P1 to P4
+
+### Things that fill
+
+Block coding games with levels that rise, timers and simple rules.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)P5 to S2
+
+### Step-by-step Python
+
+Loops that change a value over time, with graphs to show it.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)S3 to S6
+
+### Rates and models
+
+Simulation and calculus ideas alongside National 5, Higher and Advanced Higher courses.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[High School Mathematics](/courses/complete-high-school-mathematics-mastery)Adults
+
+### Models for work
+
+Python for adults building estimates, forecasts and checks.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)AI and simulations
 
 ## An AI can fix a crash in seconds. Will it fix the cause?
 
@@ -132,30 +141,139 @@ An Inverclyde learner who knows why the level overshot will reduce the step or c
 
 That is why an Inverclyde teenager should still learn to code in 2026: to recognise when a quick fix has only hidden the real mistake. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Lesson logistics
+
 ## From Greenock to Kilmacolm, lessons at home
 
 Online classes remove the journey to an evening club.
 
-- **Learner at the keyboard** The learner writes the code; the teacher watches the shared screen and helps at the right moment.
-- **Our words match school** We use P3, S4, National 5, Higher and Advanced Higher, like Inverclyde schools, and teach in English.
-- **First lesson free** A real lesson, at no cost, and then plain advice on which course comes next.
-- **Groups by stage** Fifteen to twenty learners at the same stage in each class, often from several countries.
-- **Term-time rhythm** Two lessons a week in term, with the school holidays off.
-- **Booked in UK time** Once set, your lesson keeps its UK time through the clock changes; teachers in India time adapt.
+### Learner at the keyboard
 
-**Why stage beats location** Even in Greenock, finding five learners at one stage free at the same hour is unlikely. Grouping by stage across a wider pool means a pupil from Inverkip or Wemyss Bay gets a proper class.
+The learner writes the code; the teacher watches the shared screen and helps at the right moment.
+
+### Our words match school
+
+We use P3, S4, National 5, Higher and Advanced Higher, like Inverclyde schools, and teach in English.
+
+### First lesson free
+
+A real lesson, at no cost, and then plain advice on which course comes next.
+
+### Groups by stage
+
+Fifteen to twenty learners at the same stage in each class, often from several countries.
+
+### Term-time rhythm
+
+Two lessons a week in term, with the school holidays off.
+
+### Booked in UK time
+
+Once set, your lesson keeps its UK time through the clock changes; teachers in India time adapt.
+
+Why stage beats location
+
+Even in Greenock, finding five learners at one stage free at the same hour is unlikely. Grouping by stage across a wider pool means a pupil from Inverkip or Wemyss Bay gets a proper class.
+
+Fees
 
 ## Inverclyde fees
 
 Gourock or Port Glasgow, the fee is the same, and so it is in every country outside India where we teach.
 
-- First class: USD 0. A full lesson at no charge, with a recommendation at the end.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty.
-- Private tuition: USD 150 a month. About eight lessons a month, one teacher and one learner.
+First class**USD 0**
+
+A full lesson at no charge, with a recommendation at the end.
+
+Group tuition**USD 100**
+
+About eight lessons a month in a group of fifteen to twenty.
+
+Private tuition**USD 150**
+
+About eight lessons a month, one teacher and one learner.
 
 All fees are in US dollars; there is no sterling price. Payment starts only after the free lesson, when a course and weekly time have been agreed, and the pricing page explains holidays, missed lessons and changing between group and individual lessons.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Inverclyde%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Reviews
+
+## Families on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Inverclyde lesson
+
+Tell us how old the learner is, or their school stage, and something they like. A first lesson could be a Scratch game, some Python, or the dry dock on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Inverclyde one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Inverclyde%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Inverclyde questions
+
+Figures, the dry dock project, and how classes work.
 
 ### What is the population of Inverclyde?
 
@@ -197,10 +315,14 @@ Nothing for the first lesson, then USD 100 a month in a group or USD 150 a month
 
 They do. Give us your school's holiday dates and we fit around them.
 
+Around the Clyde
+
 ## Pages near Inverclyde
 
 See [Glasgow](/best-coding-class-in-glasgow), [East Renfrewshire](/coding-classes-in-east-renfrewshire) with its sluice project, and [Argyll and Bute](/coding-classes-in-argyll-and-bute). Every council is listed on the [Scotland](/coding-and-ai-classes-in-scotland) page, and the [UK hub](/coding-classes-in-united-kingdom) covers the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Talk to us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Inverclyde%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-inverclyde](https://learn.modernagecoders.com/coding-classes-in-inverclyde#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-inverclyde*

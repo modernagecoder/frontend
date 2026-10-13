@@ -4,34 +4,28 @@ description: "Help with AQA GCSE Computer Science 8525: both papers, the three p
 canonical: https://learn.modernagecoders.com/aqa-gcse-computer-science-8525-help
 source: src/pages/aqa-gcse-computer-science-8525-help.html
 ---
-> AQA 8525 is a linear GCSE: two written papers, both sat at the end of the course, each 90 marks and each worth half. Paper 1 runs two hours and covers computational thinking and programming; paper 2 runs an hour and three quarters and covers everything else, including SQL. Three things trip students up. Questions present algorithms in AQA pseudo-code, not in the language the class was taught. Program code must be written in C#, Python 3 or VB.NET. And each question states the form the answer must take, whether pseudo-code, program code or a flowchart, so answering in the wrong notation costs the marks outright. We teach the content and the exam habits together, in groups of fifteen to twenty or one to one. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
+> Help with AQA GCSE Computer Science 8525: both papers, the three permitted languages, AQA pseudo-code, and answering in the form the question asks. First class free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / AQA 8525 help
+In short
 
-England · AQA 8525 · Years 10 and 11
+AQA 8525 is a linear GCSE: two written papers, both sat at the end of the course, each 90 marks and each worth half. Paper 1 runs two hours and covers computational thinking and programming; paper 2 runs an hour and three quarters and covers everything else, including SQL. Three things trip students up. Questions present algorithms in AQA pseudo-code, not in the language the class was taught. Program code must be written in C#, Python 3 or VB.NET. And each question states the form the answer must take, whether pseudo-code, program code or a flowchart, so answering in the wrong notation costs the marks outright. We teach the content and the exam habits together, in groups of fifteen to twenty or one to one. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
 
-# AQA GCSE Computer Science 8525 help
-
-There is a detail in the AQA specification that decides a surprising number of marks, and almost no student can state it. Exam questions "will always present algorithms using the current version of the AQA pseudo-code", program code must be written in C#, Python 3 or VB.NET, and the specification adds that questions "will explicitly state in what form the response needs to be provided. This will be, for example, pseudo-code, program code or a flowchart, and students must respond as instructed". Three notations live in the same paper. A candidate who writes beautiful Python into a question that asked for a flowchart has lost those marks before an examiner has read a line of the logic. This page covers both papers, all three notations, and the practical experience AQA says a student should have before they sit paper 1.
-
-At a glance: Qualification: AQA GCSE Computer Science 8525; Structure: Linear, both papers at the end; Paper 1: 2 hours, 90 marks, 50 per cent; Paper 2: 1 hour 45, 90 marks, 50 per cent; Languages: C#, Python 3 or VB.NET; Questions in: AQA pseudo-code; Group: Fifteen to twenty at one level; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three courses for AQA candidates
 
 The specification content and the programming fluency it assumes. Each card opens a full syllabus.
 
-- [GCSE Computer Science](/courses/gcse-computer-science-course): The whole specification taught in order, with paper 1 and paper 2 content kept distinct so revision knows which is which.
-- [Python for Teens](/courses/python-complete-masterclass-teens): One of the three languages AQA supports, taught to the point where writing code by hand is not frightening.
-- [Algorithms and Data Structures](/courses/problem-solving-dsa-masterclass-teens): Searching, sorting and the tracing questions that paper 1 leans on, worked on paper first.
+[![GCSE Computer Science course thumbnail](/images/gcse-computer-science.webp)  AQA / 01 GCSE Computer Science The whole specification taught in order, with paper 1 and paper 2 content kept distinct so revision knows which is which. Open the syllabus →](/courses/gcse-computer-science-course)[![Python for Teens course thumbnail](/images/python-teens.webp)  AQA / 02 Python for Teens One of the three languages AQA supports, taught to the point where writing code by hand is not frightening. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)  AQA / 03 Algorithms and Data Structures Searching, sorting and the tracing questions that paper 1 leans on, worked on paper first. Open the syllabus →](/courses/problem-solving-dsa-masterclass-teens)
+
+Both papers
 
 ## Two papers, ninety marks each, nothing in between
 
 Everything here is from AQA's own specification for 8525, version 1.2 dated 29 November 2022, for teaching from September 2020 and exams from 2022.
 
-**AQA 8525 at a glance, in the specification's own terms**
-
-|  | Paper 1: Computational thinking and programming skills | Paper 2: Computing concepts |
-|---|---|---|
+|   | Paper 1: Computational thinking and programming skills | Paper 2: Computing concepts |
+| --- | --- | --- |
 | Length | Written exam, 2 hours | Written exam, 1 hour 45 minutes |
 | Marks | 90 | 90 |
 | Weighting | 50 per cent of the GCSE | 50 per cent of the GCSE |
@@ -55,20 +49,22 @@ A note on scope. Paper 1 draws on the algorithms and programming sections, and p
 
 Source, read 20 September 2026: [AQA GCSE Computer Science (8525) specification](https://www.aqa.org.uk/subjects/computer-science-and-it/gcse/computer-science-8525), version 1.2, 29 November 2022. Always check the current version on AQA's own site, and your school will know which one applies.
 
+Three notations
+
 ## Read the instruction before you write a line
 
 This is the part that costs marks for reasons that have nothing to do with ability.
 
-**What each notation is for**
-
 | Notation | Where it appears | What a student needs |
-|---|---|---|
+| --- | --- | --- |
 | AQA pseudo-code | In the questions. "Exams will always present algorithms using the current version of the AQA pseudo-code" | To read it fluently. It is nobody's real language and every candidate meets it |
 | Program code | In answers, where the question asks for it, in C#, Python 3 or VB.NET | Fluency in one of the three, by hand, without an editor to correct them |
 | Flowcharts | In answers, where the question asks for one | The conventions, practised, because an approximate flowchart is not a flowchart |
 | Any suitable format | Where pseudo-code is an accepted response, AQA does not require its own version | Enough discipline that a home-made notation still reads unambiguously |
 
-**The sentence to memorise** AQA states that "Exam questions will explicitly state in what form the response needs to be provided. This will be, for example, pseudo-code, program code or a flowchart, and students must respond as instructed."
+The sentence to memorise
+
+AQA states that "Exam questions will explicitly state in what form the response needs to be provided. This will be, for example, pseudo-code, program code or a flowchart, and students must respond as instructed."
 
 ### Choosing a language
 
@@ -84,14 +80,14 @@ So a gap in the language taught is not a gap the exam will forgive. It has to be
 
 There is also a presentation standard that reads like advice and functions like a mark scheme. When writing programs in an exam, candidates "need to ensure they use meaningful identifier names, use suitable data types and that all logic flow is clearly identifiable to examiners". Single-letter variables and unindented code are not neutral choices in a paper marked by a human.
 
+Practical experience
+
 ## The five things AQA expects a student to have done
 
 The specification lists what a student should have "sufficient practical experience" of before sitting paper 1. It is a short list and it is a good revision checklist.
 
-**What the specification asks for, and how to get it**
-
 | AQA expects experience of | What that looks like in practice |
-|---|---|
+| --- | --- |
 | Structuring programs into modular parts "with clear documented interfaces" | Writing subroutines that do one thing, with parameters and returns a reader can predict |
 | Including "authentication and data validation systems/routines" | Login checks and input validation built at least once, not just described |
 | Writing, debugging and testing programs, so as to "articulate how programs work and argue using logical reasoning for the correctness of programs" | Explaining out loud why a program is correct, which is the skill the longer questions actually test |
@@ -114,14 +110,14 @@ We do not touch any assessed work, and 8525 has none, which makes this page simp
 
 If you do not yet know which board your school uses, that question is worth asking before anything else. The [Python page](/best-python-classes-online-uk) explains how differently the three English boards treat the language, and one of them examines it on a computer.
 
+Progression
+
 ## Four stages across Years 10 and 11
 
 A linear qualification rewards a plan that revisits rather than one that marches forward and never looks back.
 
-**Where a candidate should be, and when**
-
 | Stage | Usually | What should be secure |
-|---|---|---|
+| --- | --- | --- |
 | 1. Fluent in one language | Early Year 10 | Writing short programs by hand, with sensible identifiers and correct indentation |
 | 2. Reading AQA pseudo-code | Mid Year 10 | Tracing an unfamiliar algorithm printed in pseudo-code without rewriting it first |
 | 3. Paper 2 content | Across both years | Data representation, networks, security, SQL, and the written-argument questions |
@@ -130,63 +126,293 @@ A linear qualification rewards a plan that revisits rather than one that marches
 ### Stage two is usually missing
 
 Most students can write code and freeze at pseudo-code, because school teaching happens in an editor and the exam does not. It takes about four lessons to fix and it pays across both papers.
+
 The wider topic sequence is on the [coding roadmap](/coding-roadmap).
 
 ### Year 11 is for behaviour, not content
 
 By the spring the content argument is mostly settled and the marks are in habits: reading the instruction, showing logic clearly, and not abandoning a question that opens awkwardly.
+
 Lessons thin out in the weeks immediately before the papers and pick up afterwards.
+
+The catalogue
 
 ## Nine courses for GCSE Computer Science students
 
 Grouped by what a candidate needs most. The free lesson decides which is the right starting point.
 
+I
+
 ### The specification
 
 Content, in order
 
-- [GCSE Computer Science](/courses/gcse-computer-science-course): The full specification taught to the board a school actually uses.
-- [Python in full](/courses/python-complete-masterclass-teens): One of AQA's three supported languages, to the point of writing it by hand.
-- [Databases and SQL](/courses/mysql-database-complete-masterclass-college): The paper 2 section students most often meet for the first time in the exam.
+UK / AQ1 / 01
+
+#### GCSE Computer Science
+
+The full specification taught to the board a school actually uses.
+
+[Open the syllabus](/courses/gcse-computer-science-course)
+
+UK / AQ1 / 02
+
+#### Python in full
+
+One of AQA's three supported languages, to the point of writing it by hand.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+UK / AQ1 / 03
+
+#### Databases and SQL
+
+The paper 2 section students most often meet for the first time in the exam.
+
+[Open the syllabus](/courses/mysql-database-complete-masterclass-college)II
 
 ### Paper 1 skills
 
 Algorithms and code under a clock
 
-- [Algorithms and data structures](/courses/problem-solving-dsa-masterclass-teens): Searching, sorting and tracing, worked on paper where the exam will ask for them.
-- [First Python](/courses/python-ai-kids-masterclass): For Year 9 and Year 10 students who arrived from blocks and need the keyboard stage properly.
-- [Computational thinking](/courses/problem-solving-and-computational-thinking-for-kids): Decomposition and precise description, for students who find the wording harder than the code.
+UK / AQ2 / 01
+
+#### Algorithms and data structures
+
+Searching, sorting and tracing, worked on paper where the exam will ask for them.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
+
+UK / AQ2 / 02
+
+#### First Python
+
+For Year 9 and Year 10 students who arrived from blocks and need the keyboard stage properly.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)
+
+UK / AQ2 / 03
+
+#### Computational thinking
+
+Decomposition and precise description, for students who find the wording harder than the code.
+
+[Open the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)III
 
 ### Beyond the GCSE
 
 For students carrying on
 
-- [Full stack web development](/courses/full-stack-web-development-teens-masterclass): Something real to build once the specification stops being new.
-- [AI and machine learning](/courses/ai-ml-masterclass-teens): Where the maths and the programming start to pull in the same direction.
-- [Data science with Python](/courses/data-science-course-for-teens-python-data): Real datasets and honest measurement, which A level rewards heavily.
+UK / AQ3 / 01
+
+#### Full stack web development
+
+Something real to build once the specification stops being new.
+
+[Open the syllabus](/courses/full-stack-web-development-teens-masterclass)
+
+UK / AQ3 / 02
+
+#### AI and machine learning
+
+Where the maths and the programming start to pull in the same direction.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+UK / AQ3 / 03
+
+#### Data science with Python
+
+Real datasets and honest measurement, which A level rewards heavily.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)
+
+How lessons work
 
 ## Written by hand, weekly, with reasons
 
 Teachers work from India on a clock that never shifts, which puts the UK five and a half hours behind from October and four and a half from March. Slots are agreed in UK time.
 
-- **After school** Where most Year 10 and 11 students settle.
-- **Early evening** For students with a long journey or other commitments.
-- **Weekend morning** Useful for longer exam-style practice in one sitting.
+After school
 
-- **Code on paper** Regular handwritten code, because that is the medium of both papers and an editor hides every weakness.
-- **Pseudo-code drills** Reading AQA pseudo-code until it is unremarkable. Most students can code and cannot yet read this.
-- **Read the instruction** Every practice question begins by naming the form the answer must take. It becomes automatic in weeks.
-- **Test tables early** Normal, boundary and erroneous, built before the code rather than after the marks are lost.
-- **Argue for correctness** A student says why the program is right before running it, which is what the longer questions reward.
-- **Groups by level** Fifteen to twenty students at one stage, which is where comparing two answers becomes possible.
+Where most Year 10 and 11 students settle.
+
+Early evening
+
+For students with a long journey or other commitments.
+
+Weekend morning
+
+Useful for longer exam-style practice in one sitting.
+
+### Code on paper
+
+Regular handwritten code, because that is the medium of both papers and an editor hides every weakness.
+
+### Pseudo-code drills
+
+Reading AQA pseudo-code until it is unremarkable. Most students can code and cannot yet read this.
+
+### Read the instruction
+
+Every practice question begins by naming the form the answer must take. It becomes automatic in weeks.
+
+### Test tables early
+
+Normal, boundary and erroneous, built before the code rather than after the marks are lost.
+
+### Argue for correctness
+
+A student says why the program is right before running it, which is what the longer questions reward.
+
+### Groups by level
+
+Fifteen to twenty students at one stage, which is where comparing two answers becomes possible.
+
+Student work
+
+## Work our students have built
+
+Four published projects. More sit on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## What GCSE tuition costs
 
 A single monthly figure in US dollars, the rate outside India. The free lesson comes first and nothing is charged until a course and a slot are settled.
 
-- Free first class: USD 0. A real lesson on real exam material. A straight view of where the gaps are. Only a phone number needed.
-- Group batch: USD 100 a month. Fifteen to twenty students at one stage. The same teacher across the course. Written work marked every week. Eased off in the weeks before papers.
-- One to one: USD 150 a month. One student and one teacher. Planned backwards from the exam dates. Useful when a grade target is specific.
+Free first class
+
+USD 0
+
+no card required
+
+- A real lesson on real exam material
+- A straight view of where the gaps are
+- Only a phone number needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students at one stage
+- The same teacher across the course
+- Written work marked every week
+- Eased off in the weeks before papers
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- One student and one teacher
+- Planned backwards from the exam dates
+- Useful when a grade target is specific
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+From Google, word for word, unpaid and unprompted.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about AQA 8525
 
 ## What AQA candidates and parents ask
 
@@ -230,15 +456,54 @@ We teach Python. The concepts transfer between all three, but the syntax practic
 
 The first lesson is free. Continuing is USD 100 a month in a group or USD 150 a month one to one, with nothing taken in advance.
 
+Elsewhere on this site
+
 ## Other pages for GCSE students
 
-- [Coding and AI classes in England](/coding-and-ai-classes-in-england): What the computing curriculum says and who has to follow it.
-- [Python classes online in the UK](/best-python-classes-online-uk): How the three English boards treat the language differently.
-- [Understand the code, do not copy-paste it](/understand-the-code-dont-copy-paste-uk): What the awarding bodies say about AI in assessed work.
-- [A-level Computer Science coursework](/a-level-computer-science-nea-help): What changes at sixth form, when a project starts counting.
-- [Coding classes in the UK](/coding-classes-in-united-kingdom): The national page, and the index of every UK page we publish.
-- [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar): Where a strong GCSE student can go next.
+Each one covers a different part of the picture.
 
-## Contact
+### [Coding and AI classes in England](/coding-and-ai-classes-in-england)
 
-Book the free first class at [https://learn.modernagecoders.com/aqa-gcse-computer-science-8525-help](https://learn.modernagecoders.com/aqa-gcse-computer-science-8525-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+What the computing curriculum says and who has to follow it.
+
+### [Python classes online in the UK](/best-python-classes-online-uk)
+
+How the three English boards treat the language differently.
+
+### [Understand the code, do not copy-paste it](/understand-the-code-dont-copy-paste-uk)
+
+What the awarding bodies say about AI in assessed work.
+
+### [A-level Computer Science coursework](/a-level-computer-science-nea-help)
+
+What changes at sixth form, when a project starts counting.
+
+### [Coding classes in the UK](/coding-classes-in-united-kingdom)
+
+The national page, and the index of every UK page we publish.
+
+### [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar)
+
+Where a strong GCSE student can go next.
+
+Start here
+
+## Book a free first lesson
+
+Leave a number and we will reply at a British hour you choose. The lesson uses real 8525 material and ends with a frank view of where the gaps are.
+
+Rather read? Each [course page](/courses) lists its syllabus, [how we teach](/how-we-teach) sets out the method, and the [coding roadmap](/coding-roadmap) shows the sequence.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20first%20class%20for%20AQA%20GCSE%20Computer%20Science%208525.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is quickest and free from a British mobile. The number is registered in India, which we state rather than leave you to notice.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/aqa-gcse-computer-science-8525-help*

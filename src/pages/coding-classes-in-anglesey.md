@@ -4,50 +4,36 @@ description: "Live online coding, Python and maths classes across Anglesey (Ynys
 canonical: https://learn.modernagecoders.com/coding-classes-in-anglesey
 source: src/pages/coding-classes-in-anglesey.html
 ---
-> The Isle of Anglesey, Ynys Môn, had 68,878 usual residents at the 2021 census. Holyhead is by far its largest built-up area, followed by Llangefni, Amlwch, Menai Bridge and Llanfair Pwllgwyngyll, with Benllech, Valley and Beaumaris among the smaller places. All our teaching is live on video from India, and a free first lesson places each learner, whether in Year 2, Year 11 preparing for WJEC GCSEs, or long after school. People aged 6 to 67 learn coding, Python and maths with a teacher of their own or in a group of fifteen to twenty. The Anglesey project starts at Beaumaris Castle. After the free lesson, it is USD 100 a month for a group or USD 150 a month one-to-one.
+> Live online coding, Python and maths classes across Anglesey (Ynys Môn), from Holyhead and Llangefni to Amlwch, Menai Bridge, Beaumaris and Benllech.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Isle of Anglesey
-
-Anglesey, Ynys Môn / Live online
-
-# Coding classes in Anglesey
-
-**What are the best coding classes in Anglesey?** The Isle of Anglesey, Ynys Môn, had 68,878 usual residents at the 2021 census. Holyhead is by far its largest built-up area, followed by Llangefni, Amlwch, Menai Bridge and Llanfair Pwllgwyngyll, with Benllech, Valley and Beaumaris among the smaller places. All our teaching is live on video from India, and a free first lesson places each learner, whether in Year 2, Year 11 preparing for WJEC GCSEs, or long after school. People aged 6 to 67 learn coding, Python and maths with a teacher of their own or in a group of fifteen to twenty. The Anglesey project starts at Beaumaris Castle. After the free lesson, it is USD 100 a month for a group or USD 150 a month one-to-one.
-
-Cadw's record for Beaumaris Castle, listed at Grade I, says it was begun in 1295 as the last of the castles Edward I built in North Wales, and that it was designed on the concentric principle: moat, outer wall, outer ward and inner wall, one inside another. The inner ward is square; the outer wall is nearly square, with shallow facets that make an octagon. It looks like a textbook of symmetry, yet the record also notes the main entrance on the south side and a northern gate placed in the eastern facet, and says the castle was never finished. How symmetrical is it, exactly, and how could a program decide? This page's project answers with the maths of symmetry groups, in Python.
-
-Facts last verified 26 September 2026. Teaching is online; no Isle of Anglesey branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Anglesey
 
 ## How Anglesey learners usually begin
 
 A Year 3 pupil in Holyhead who loves drawing castles, a Year 7 in Llangefni ready for typed code, a Year 11 in Amlwch preparing for WJEC GCSE Computer Science, and an adult in Menai Bridge learning Python. Each starts with a free lesson.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 12): Block coding with turning, flipping and repeating patterns.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): Rotations, reflections and coordinates, understood by coding them.
-- [High School Mathematics](/courses/complete-high-school-mathematics-mastery) (Ages 14 to 18): Secondary maths in depth, from transformations to matrices and proof.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Adults): Python for adults from the start, up to geometry and data projects.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 12Coding for KidsBlock coding with turning, flipping and repeating patterns.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingRotations, reflections and coordinates, understood by coding them.See the syllabus](/courses/maths-through-coding)[![High School Mathematics course thumbnail](/images/high-school-maths.webp)Ages 14 to 18High School MathematicsSecondary maths in depth, from transformations to matrices and proof.See the syllabus](/courses/complete-high-school-mathematics-mastery)[![Python Masterclass course thumbnail](/images/python-college.webp)AdultsPython MasterclassPython for adults from the start, up to geometry and data projects.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Anglesey in figures
 
 ## 68,878 people on Ynys Môn
 
 The island total is the 2021 census count of usual residents, from ONS through Nomis. Town sizes are ONS built-up area figures from the same census.
 
-**Anglesey built-up areas above 2,000 people, ONS Census 2021**
-
 | Built-up area | Residents | Built-up area | Residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Holyhead | 11,755 | Llanfair Pwllgwyngyll | 2,905 |
 | Llangefni | 5,260 | Benllech | 2,075 |
 | Amlwch | 3,150 | Valley | 2,005 |
-| Menai Bridge | 3,045 |  |  |
+| Menai Bridge | 3,045 |   |   |
 
 We checked each built-up area figure against our own sum of census output areas, and the two agree to within a handful of people. Beaumaris, the castle town, falls below the table. Schools on Anglesey follow the Curriculum for Wales, which describes learning in progression steps rather than key stages, and older pupils sit WJEC GCSE and A level courses. Isle of Anglesey County Council sets term dates; we have not read them, so each family tells us its own.
 
@@ -55,16 +41,16 @@ We checked each built-up area figure against our own sum of census output areas,
 
 The city of [Bangor](/best-coding-class-in-bangor-wales) has its own page. For qualifications, see [WJEC GCSE Computer Science](/wjec-gcse-computer-science-help-wales) and [GCSE Maths and Numeracy in Wales](/gcse-maths-and-numeracy-wales-help).
 
+The Anglesey project
+
 ## Eight ways to move a square
 
 Rotations, reflections, and a plan that loses its symmetry one feature at a time.
 
 The plan is a simplified model inspired by the record, not a survey. The learner places points for four towers on an inner square and eight turrets on an outer square around it. A square can be moved onto itself in exactly eight ways: turn it by 0, 90, 180 or 270 degrees, or flip it across one of four lines, the north-south line, the east-west line and the two diagonals. For each of the eight moves, the program transforms every point and checks whether the moved plan lands exactly on the original. The moves that pass are the plan's symmetries.
 
-**Our simplified concentric plan, symmetries found, 26 September 2026**
-
 | Plan | Symmetries that survive | How many |
-|---|---|---|
+| --- | --- | --- |
 | Two square rings of towers | All four turns and all four flips | 8 |
 | Add a gate in the middle of the north and south sides | No turn, the half turn, and the flips across the north-south and east-west lines | 4 |
 | Move the north gate into the eastern part of its side | Only doing nothing | 1 |
@@ -89,14 +75,14 @@ Build the composition table, prove the four-move set is closed, and find the pai
 
 The castle facts come from Cadw's listed building record. The coordinates in the model are invented and simplified; they do not claim to measure Beaumaris or to say exactly where its gates or towers stand.
 
+Why Beaumaris Castle
+
 ## A concentric castle that was never finished
 
 What Cadw's listed building record says.
 
-**Beaumaris Castle, Cadw listed building record 5574, Grade I**
-
 | Record detail | What it says |
-|---|---|
+| --- | --- |
 | Begun | 1295, the last of the castles built by Edward I in the North Wales defensive ring |
 | Master mason | Probably James of St George |
 | Design | Concentric: moat, outer curtain wall, outer ward and inner curtain wall |
@@ -108,14 +94,37 @@ Symmetry is a working tool in computing: image recognition checks for mirrored s
 
 We have no link with Cadw or Isle of Anglesey County Council. The record's facts are theirs; the model plan, the code and any errors are ours.
 
+Learning path
+
 ## From paper folding to group theory
 
 Year groups are only a guide; the free lesson finds the right level.
 
-- **Years 1 to 4: Turns and flips** Block coding with rotated stamps, mirrors and patterns. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 5 to 8: Coordinates in Python** Typed Python moving points on a grid with simple rules. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Transformations and proof** Transformations, matrices and bigger programs alongside WJEC GCSE and A level work. [High School Mathematics](/courses/complete-high-school-mathematics-mastery), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Python with purpose** Python for adults, from geometry to data and automation. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Years 1 to 4
+
+### Turns and flips
+
+Block coding with rotated stamps, mirrors and patterns.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 5 to 8
+
+### Coordinates in Python
+
+Typed Python moving points on a grid with simple rules.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Transformations and proof
+
+Transformations, matrices and bigger programs alongside WJEC GCSE and A level work.
+
+[High School Mathematics](/courses/complete-high-school-mathematics-mastery)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Python with purpose
+
+Python for adults, from geometry to data and automation.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)AI and symmetry
 
 ## An AI can call a building symmetrical in seconds. Will it check every move?
 
@@ -127,30 +136,139 @@ An Anglesey learner who has tested all eight moves knows to turn a vague claim i
 
 Turning a confident claim into a test is why a young person on Anglesey should still learn to code in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How lessons work
+
 ## From Holyhead to Beaumaris, lessons at home
 
 Towns and villages across the island join by video in the same way.
 
-- **Your own screen** The learner types and runs the code while the teacher follows the shared screen.
-- **Set to the Welsh system** We place learners by Welsh school year and the Curriculum for Wales, and use WJEC names for GCSE and A level. Teaching is in English.
-- **Free first lesson** A complete lesson at no cost, then honest advice.
-- **Groups by level** Fifteen to twenty learners working at one level, joining from many places.
-- **Term time rhythm** Two lessons a week in term, with the school holidays off.
-- **A fixed UK time** Your lesson stays at the same UK time through the clock changes; our teachers in India time adjust.
+### Your own screen
 
-**Why groups reach beyond the island** On an island of 68,878 people, five learners at one level free at the same hour are rare. Grouping by level across a wider pool gives a pupil in Amlwch or Benllech a class that fits.
+The learner types and runs the code while the teacher follows the shared screen.
+
+### Set to the Welsh system
+
+We place learners by Welsh school year and the Curriculum for Wales, and use WJEC names for GCSE and A level. Teaching is in English.
+
+### Free first lesson
+
+A complete lesson at no cost, then honest advice.
+
+### Groups by level
+
+Fifteen to twenty learners working at one level, joining from many places.
+
+### Term time rhythm
+
+Two lessons a week in term, with the school holidays off.
+
+### A fixed UK time
+
+Your lesson stays at the same UK time through the clock changes; our teachers in India time adjust.
+
+Why groups reach beyond the island
+
+On an island of 68,878 people, five learners at one level free at the same hour are rare. Grouping by level across a wider pool gives a pupil in Amlwch or Benllech a class that fits.
+
+Fees
 
 ## Fees on Anglesey
 
 Holyhead or Menai Bridge, the fee is the same, matching every country we teach outside India.
 
-- First class: USD 0. A full free lesson, then a clear recommendation.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty.
-- Private tuition: USD 150 a month. About eight lessons a month with a teacher of your own.
+First class**USD 0**
+
+A full free lesson, then a clear recommendation.
+
+Group tuition**USD 100**
+
+About eight lessons a month in a group of fifteen to twenty.
+
+Private tuition**USD 150**
+
+About eight lessons a month with a teacher of your own.
 
 Fees are in US dollars and we publish no sterling prices. Billing starts only after the free lesson has fixed a course and weekly time; the pricing page covers holidays, missed lessons and changing formats.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20on%20Anglesey%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Reviews
+
+## Google reviews from our learners
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Anglesey lesson
+
+Tell us the learner's age or school year and what they enjoy, and we will plan the free lesson around it: a Scratch pattern, some Python, or the castle symmetry on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Isle of Anglesey one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20on%20Anglesey%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Anglesey questions
+
+The island, the Beaumaris project and practical details.
 
 ### How many people live on Anglesey?
 
@@ -192,10 +310,14 @@ The first lesson is free, then USD 100 a month for a group or USD 150 a month on
 
 Yes. Send us your school's holiday dates and we stop for them.
 
+Nearby pages
+
 ## More North Wales pages
 
 [Bangor](/best-coding-class-in-bangor-wales) tests a sunshine record for a hidden jump, and [St Asaph](/best-coding-class-in-st-asaph) and [Wrexham](/best-coding-class-in-wrexham) have pages of their own. The [Wales](/coding-and-ai-classes-in-wales) page gathers every Welsh page, and the [UK hub](/coding-classes-in-united-kingdom) covers the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20on%20Anglesey%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-anglesey](https://learn.modernagecoders.com/coding-classes-in-anglesey#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-anglesey*

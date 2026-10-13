@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes in Groningen for ages 6 
 canonical: https://learn.modernagecoders.com/coding-classes-in-groningen
 source: src/pages/coding-classes-in-groningen.html
 ---
-> Coding classes in Groningen serve a municipality of 244,427 people (Statistics Netherlands, 1 January 2026), the sixth largest in the country and the youngest by age structure: one resident in five is between fifteen and twenty-five, against about one in sixteen nationally. Its 145,521 households average 1.7 people, and 61 percent of them contain exactly one person, so the average describes neither the majority nor the minority. Modern Age Coders teaches live online in English, from the Binnenstad to Haren and Ten Boer, for learners from 6 to 67; the first lesson is free and after it a group of fifteen to twenty costs USD 100 a month and one-to-one USD 150.
+> Live online coding, Python and AI classes in Groningen for ages 6 to 67, from the Binnenstad to Haren and Ten Boer. First lesson free, then one flat monthly fee.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Groningen
-
-Groningen, province of Groningen / Live online
-
-# Coding classes in Groningen, where the average household has 1.7 people and no household does
-
-**What are the best coding classes in Groningen?** Coding classes in Groningen serve a municipality of 244,427 people (Statistics Netherlands, 1 January 2026), the sixth largest in the country and the youngest by age structure: one resident in five is between fifteen and twenty-five, against about one in sixteen nationally. Its 145,521 households average 1.7 people, and 61 percent of them contain exactly one person, so the average describes neither the majority nor the minority. Modern Age Coders teaches live online in English, from the Binnenstad to Haren and Ten Boer, for learners from 6 to 67; the first lesson is free and after it a group of fifteen to twenty costs USD 100 a month and one-to-one USD 150.
-
-Divide 244,427 residents by 145,521 households and Groningen has 1.7 people per household. Then read the next line: 61 percent of those households hold exactly one person. Those 88,768 people account for 88,768 of the residents, which leaves 155,659 people in the other 56,753 households, or 2.74 each. The city has households of one and households of nearly three, and 1.7 is the number no front door in it has ever answered to. A child who can compute that gap has learned what an average is for and what it is not.
-
-Facts last verified 7 September 2026. Teaching is online; no Groningen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Groningen
 
 ## Four courses for a city where a fifth of the population is a student
 
 A groep 4 child in Helpman, a teenager at a school in Paddepoel who wants the data and not the slogan, a Rijksuniversiteit or Hanzehogeschool student who needs Python to be a tool rather than a module, and a parent in Haren going back to work: four doors in one city.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Scratch from a blank stage to a finished game in three months, in English, for the groep 3 to 6 child in Beijum, Vinkhuizen or Ten Boer.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 17): Python, real datasets and a first model, for the teenager who wants to test a claim about their own city rather than repeat it.
-- [Data Science Course](/courses/data-science-complete-masterclass-college) (College and adult): Python, machine learning and deep learning end to end, for the student whose degree assumes statistics and never teaches the code.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (Adults): Scripting, scraping and automation for the working parent whose week is a stack of repeated tasks a short program could finish.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsScratch from a blank stage to a finished game in three months, in English, for the groep 3 to 6 child in Beijum, Vinkhuizen or Ten Boer.See the syllabus](/courses/scratch-programming-complete-course)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 17Data Science for TeensPython, real datasets and a first model, for the teenager who wants to test a claim about their own city rather than repeat it.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data Science Course course thumbnail](/images/data-science-college.webp)College and adultData Science CoursePython, machine learning and deep learning end to end, for the student whose degree assumes statistics and never teaches the code.See the syllabus](/courses/data-science-complete-masterclass-college)[![Python Automation Course course thumbnail](/images/python-college.webp)AdultsPython Automation CourseScripting, scraping and automation for the working parent whose week is a stack of repeated tasks a short program could finish.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Groningen today
 
 ## The sixth largest municipality, the youngest population, and 61 percent living alone
 
@@ -52,7 +40,11 @@ The Rijksuniversiteit Groningen, founded in 1614 and the second oldest in the co
 
 80 primary establishments teach 15,901 pupils and 30 secondary establishments teach 16,469. In almost every Dutch town primary outnumbers secondary by half again, because primary covers eight year groups and secondary four to six. Groningen is the other way round, because its secondary schools draw from the whole north and its primary schools do not.
 
-**One municipality, twenty-one places** Since 1 January 2019 the municipality has included the former municipalities of Haren and Ten Boer: 21 population centres in all, the city itself at 206,010 in 2023, then Haren at 18,450, Ten Boer at 4,630 and Glimmen at 1,370. A page that says Groningen therefore has to say which Groningen, and this one means the municipality unless it says otherwise.
+One municipality, twenty-one places
+
+Since 1 January 2019 the municipality has included the former municipalities of Haren and Ten Boer: 21 population centres in all, the city itself at 206,010 in 2023, then Haren at 18,450, Ten Boer at 4,630 and Glimmen at 1,370. A page that says Groningen therefore has to say which Groningen, and this one means the municipality unless it says otherwise.
+
+Where the learners are
 
 ## From the Binnenstad to the villages: the shape of a city that empties and fills
 
@@ -84,6 +76,8 @@ Haren with 18,450, Ten Boer with 4,630, Glimmen with 1,370 and the smaller place
 
 Modern Age Coders teaches into all of them at the same hour, and the placement question is what the learner can already do, never which wijk the postcode falls in.
 
+Verified local facts
+
 ## Every figure and its office, including three student counts and two ways of dividing the city
 
 The national count, the municipal entry, the two institutions, and the places where the sources disagree.
@@ -114,6 +108,8 @@ The Rijksuniversiteit Groningen: founded 1614, second oldest in the country afte
 
 Neither institution, nor the municipality, nor any school named on this page has any connection to Modern Age Coders, and none is implied. They are here because a page that claims to teach Groningen should be able to say what Groningen is made of.
 
+Signature project
+
 ## 1.7 people per household: build the program that finds the two cities inside one average
 
 Two published numbers, one percentage, and a mean that turns out to describe neither of the groups it was computed from.
@@ -130,10 +126,8 @@ Sixty-one percent of 145,521 is about 88,768 households, each holding exactly on
 
 The mean is 1.68. The mode is 1, held by 61 percent. The median household, the 72,761st of 145,521 when sorted by size, also holds 1 person, because the single-person households alone run past the halfway mark. Three measures of the middle, two of which say one person and none of which says 1.7.
 
-**One city, one average, and the two groups it is made of**
-
 | Group | Households | Residents | People per household |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Households of exactly one person, 61 percent | about 88,768 | about 88,768 | 1.00 |
 | All other households | about 56,753 | about 155,659 | about 2.74 |
 | The municipality as published | 145,521 | 244,427 | 1.68, printed as 1.7 |
@@ -143,14 +137,14 @@ The mean is 1.68. The mode is 1, held by 61 percent. The median household, the 7
 
 The average household size is exactly the right number for some purposes: multiply it by the number of households and the residents come back. It is the wrong number for almost every purpose a person actually has, because household size is a count of people, and no household contains seven tenths of anybody. When a majority of cases sit at one value, as 61 percent of Groningen's households sit at one person, the mean is pulled off the mode and lands in a gap where nothing lives. A learner who has split this one on its own published percentage will ask, of every average they are ever handed, what the distribution underneath looks like and whether the mean is a value any case could take. The split above assumes every resident lives in a private household, which the sources do not state; the assumption is written into the program and printed with the answer.
 
+Reliable pipeline
+
 ## Five habits for any average that arrives without its distribution
 
 Average class size, average salary, average response time, average basket, average household: each is a single number standing in for a shape. Practised first on the city the learner lives in.
 
-**When one number is standing in for a distribution**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Ask what is being counted | Check whether the quantity is discrete; a mean of a count need not be attainable | 1.7 people read as a household you could visit | A mean you know how to use |
 | Find the mode | Look for a value a large share of cases share | A 61 percent majority hidden behind a decimal | The typical case, as opposed to the balance point |
 | Split and recompute | Break the population on the biggest known group and average each part | One number covering two populations | Two numbers that each describe something |
@@ -171,14 +165,37 @@ The same split on an average from work: handling time, order value, tenure, clas
 
 The resident count, the household count, the average of 1.7, the 61 percent share, the age bands, the school counts and the student figures are published by the offices and entries named beside them. The 88,768, the 155,659 and the 2.74 are arithmetic on those published figures and are labelled as derived wherever they appear.
 
+Learning ladder
+
 ## From ten cups of beans to a split that finds two populations in one mean
 
 The rung is decided in the free first hour, and the wijk on the address is not one of the inputs.
 
-- **Ages 6 to 10: The cup with 1.8 beans** Children compute an average and then go looking for the case that matches it. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 11 to 13: Mean, median and mode** Learners compute all three on a small dataset and find where they part company. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 14 to 18: Splitting a published average** Teenagers reproduce the city figure, split it on the 61 percent and chart the spike. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Distributions at work** Adults take an average their team relies on and recover the shape behind it. [Data Science Course](/courses/data-science-complete-masterclass-college), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### The cup with 1.8 beans
+
+Children compute an average and then go looking for the case that matches it.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 11 to 13
+
+### Mean, median and mode
+
+Learners compute all three on a small dataset and find where they part company.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### Splitting a published average
+
+Teenagers reproduce the city figure, split it on the 61 percent and chart the spike.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Distributions at work
+
+Adults take an average their team relies on and recover the shape behind it.
+
+[Data Science Course](/courses/data-science-complete-masterclass-college)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## An AI will tell a Groningen parent the average household here has 1.7 people. Why should their child learn to take that apart?
 
@@ -190,30 +207,139 @@ That is the habit the class installs, and it is why the learner still writes the
 
 For a Groningen parent, then, the case for coding in 2026 is not that the child will become a statistician. It is that an average is a summary with a shape underneath it, that finding the shape is a dozen lines of code, and that the quickest way to learn it for good is to take apart a number published about the street the child lives on. The longer argument is in [whether coding is still worth learning now that AI writes most of it](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for a city that is compact, and a municipality that is not
 
 The city is famously cyclable end to end, but the municipality now runs from Ten Boer to Glimmen, and a winter evening in a village is not a bike ride. A class that arrives through the connection treats both the same.
 
-- **No evening trip anywhere** The lesson happens at the kitchen table in Beijum, Helpman or Haren at a fixed weekly hour, in the dark and the rain as easily as in June.
-- **English, with the school's Dutch left alone** Teaching is in English, which the 8,250 international students at the university and their families already work in. Groep, havo, vwo and profielkeuze are said exactly as the school says them.
-- **What the free hour settles** One real task at the learner's level, a course chosen from how it goes, and a starting rung, arranged without a card.
-- **Grouped by level, not by postcode** A learner from the Korrewegwijk and one from Glimmen sit in the same group if they are at the same point, and in different ones if they are not.
-- **Twice a week, on regio Noord's calendar** Two fixed lessons a week, usually eight in a month. Groningen breaks up with regio Noord, and the family's weeks away are agreed before the slot is confirmed.
-- **Three and a half hours, then four and a half** The Dutch clock moves in March and October and the Indian one does not, so a Groningen afternoon runs that far behind the teacher's evening. After school, before dinner and at weekends work at both ends.
+### No evening trip anywhere
 
-**A city that empties in July and fills in September** With a fifth of the population aged fifteen to twenty-five, Groningen's rhythm is academic, and a family fitting lessons around a student household, a school year and a shift pattern needs a fixed hour rather than a room to get to. The hour is chosen once, in the free lesson, and it stays.
+The lesson happens at the kitchen table in Beijum, Helpman or Haren at a fixed weekly hour, in the dark and the rain as easily as in June.
+
+### English, with the school's Dutch left alone
+
+Teaching is in English, which the 8,250 international students at the university and their families already work in. Groep, havo, vwo and profielkeuze are said exactly as the school says them.
+
+### What the free hour settles
+
+One real task at the learner's level, a course chosen from how it goes, and a starting rung, arranged without a card.
+
+### Grouped by level, not by postcode
+
+A learner from the Korrewegwijk and one from Glimmen sit in the same group if they are at the same point, and in different ones if they are not.
+
+### Twice a week, on regio Noord's calendar
+
+Two fixed lessons a week, usually eight in a month. Groningen breaks up with regio Noord, and the family's weeks away are agreed before the slot is confirmed.
+
+### Three and a half hours, then four and a half
+
+The Dutch clock moves in March and October and the Indian one does not, so a Groningen afternoon runs that far behind the teacher's evening. After school, before dinner and at weekends work at both ends.
+
+A city that empties in July and fills in September
+
+With a fifth of the population aged fifteen to twenty-five, Groningen's rhythm is academic, and a family fitting lessons around a student household, a school year and a shift pattern needs a fixed hour rather than a room to get to. The hour is chosen once, in the free lesson, and it stays.
+
+Fees
 
 ## One tariff in dollars for the whole municipality, and a free hour first
 
 Printed here before anything of yours is asked for.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 Everyone outside India sees one figure in US dollars and never a euro one, so Ten Boer is charged what the Binnenstad is. Nothing is paid until the free lesson has fixed the course and the hour, and then it is paid over WhatsApp. Pausing, switching plan and missing a lesson are explained on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Groningen.)Reviews
+
+## Six Google reviews, in the reviewers' own words
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us the level; the wijk is optional
+
+The opening task might be ten cups of beans, the household split in Python, or an average from work that has never been shown with its distribution.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Groningen one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Groningen.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Groningen coding class questions
+
+The city, its households, its students, the teaching and the terms.
 
 ### Why does this page say no household in Groningen has 1.7 people?
 
@@ -255,10 +381,14 @@ The first lesson is free. Group tuition is USD 100 a month for two live lessons 
 
 Between five and ten, matched on level, pace and goal rather than on age, school or neighbourhood. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.
 
+Explore the Netherlands
+
 ## Out to the province, and up to the country
 
 The city sits inside the [province of Groningen](/coding-classes-in-groningen-province), whose page takes apart the earthquake scale; south along the A28 is [Drenthe](/coding-classes-in-drenthe) and west across the Lauwersmeer is [Friesland](/coding-classes-in-friesland). All of them hang off the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner who wants a model that learns rather than a program that runs should open [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands), whose city page, [AI and Python Academy, Groningen](/ai-and-python-academy-groningen), prepares pupils for the AI bachelor taught here.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Groningen.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-groningen](https://learn.modernagecoders.com/coding-classes-in-groningen#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-groningen*

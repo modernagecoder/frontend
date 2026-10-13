@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths classes for Surrey famili
 canonical: https://learn.modernagecoders.com/coding-classes-in-surrey
 source: src/pages/coding-classes-in-surrey.html
 ---
-> Surrey is eleven boroughs and districts holding 1,203,113 people at the 2021 Census, and no single town anybody means when they say Surrey: Guildford and Woking are the largest at about 77,880 and 75,660, and after them it is Camberley, Epsom, Redhill, Egham and a long tail of towns after that. A class that works here cannot depend on a building, because Farnham to Caterham is an hour by road at the wrong time of day. Ours are taught live over video from India, placed by what a learner can already do rather than by school year, for ages 6 to 67, in groups of fifteen to twenty or one to one. This page also carries a project with a Guildford accent: the county has built small satellites since 1985, and the clock those satellites broadcast once ran out of digits. The first lesson is free; after that a group place is USD 100 a month and one-to-one teaching USD 150.
+> Live online coding, Python, AI and maths classes for Surrey families, from Staines and Woking to Farnham, Caterham and Camberley. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Surrey
-
-County of Surrey / Live online
-
-# Coding classes in Surrey
-
-**What are the best coding classes in Surrey?** Surrey is eleven boroughs and districts holding 1,203,113 people at the 2021 Census, and no single town anybody means when they say Surrey: Guildford and Woking are the largest at about 77,880 and 75,660, and after them it is Camberley, Epsom, Redhill, Egham and a long tail of towns after that. A class that works here cannot depend on a building, because Farnham to Caterham is an hour by road at the wrong time of day. Ours are taught live over video from India, placed by what a learner can already do rather than by school year, for ages 6 to 67, in groups of fifteen to twenty or one to one. This page also carries a project with a Guildford accent: the county has built small satellites since 1985, and the clock those satellites broadcast once ran out of digits. The first lesson is free; after that a group place is USD 100 a month and one-to-one teaching USD 150.
-
-A field that counts weeks in ten bits can count to 1,023, and then it counts to zero. That is not a hypothetical: it is how the civil GPS signal has always carried the week number, and it is why receivers all over the world woke up in 1999 and again in 2019 believing it was nineteen years earlier. Guildford has a particular stake in this. Surrey Satellite Technology, spun out of the University of Surrey in 1985, has built around seventy satellites for twenty-two countries from the Surrey Research Park, and the Surrey Space Centre up the hill has worked on small spacecraft since 1979. So this page's project is a Surrey one: compute the rollover dates from first principles, check them against what the US government publishes, and then go looking for the same fault in the clock on your own laptop.
-
-Facts last verified 20 September 2026. Teaching is online; no Surrey branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Surrey
 
 ## Four courses for Surrey learners
 
 A Year 4 child in Horley who wants to make a game, a Year 9 student in Woking choosing GCSE options, a sixth former in Guildford who likes space and numbers, and an adult in Esher who inherited a spreadsheet nobody understands. All four start with the same free lesson.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Scratch counters and timers, where a child meets the idea that a number can go round in a circle.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): First typed Python, including dates and clocks, which are where beginners meet their first honest bug.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python for Key Stage 3 and 4, with the rollover project on this page written properly and tested.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): For grown-ups whose reports rest on dates and ranges, and who would rather find the edge case than meet it.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsScratch counters and timers, where a child meets the idea that a number can go round in a circle.See the syllabus](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsFirst typed Python, including dates and clocks, which are where beginners meet their first honest bug.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython for Key Stage 3 and 4, with the rollover project on this page written properly and tested.See the syllabus](/courses/python-complete-masterclass-teens)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For grown-ups whose reports rest on dates and ranges, and who would rather find the edge case than meet it.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Surrey today
 
 ## Eleven boroughs, 1,203,113 people, and no capital town
 
 Every figure below is from the body that publishes it, named in the row. This is the shape of the county a class here has to fit.
 
-**The eleven Surrey boroughs and districts, usual residents at Census 2021**
-
 | Borough or district | Usual residents | Larger towns in it |
-|---|---|---|
+| --- | --- | --- |
 | Reigate and Banstead | 150,846 | Redhill, Reigate, Horley, Banstead |
 | Guildford | 143,647 | Guildford, Ash and Ash Vale |
 | Elmbridge | 138,755 | Walton-on-Thames, Cobham, Weybridge, Esher, Hersham |
@@ -58,10 +44,8 @@ Every figure below is from the body that publishes it, named in the row. This is
 
 Add the eleven and you get 1,203,113 people, more than Birmingham, spread across a county with no obvious centre. That matters for a practical reason. A weekly class in a hall in Dorking is a real option for Dorking and a two-bus expedition for Staines, and the club that opens in Guildford closes again when the four families from Camberley stop coming in January. Distance is why so much of Surrey's teaching for children ends up being either school-based or online.
 
-**Surrey towns by built-up area population, Census 2021, in descending order; there are more the table does not reach**
-
 | Town | Usual residents | Town | Usual residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Guildford | 77,880 | Weybridge | 15,915 |
 | Woking | 75,660 | Frimley | 15,100 |
 | Camberley | 36,785 | Ashtead | 14,830 |
@@ -89,16 +73,16 @@ From September 2026 Surrey County Council's community and voluntary controlled s
 
 One more number from the council, because it shapes the next decade of Surrey classrooms: births are falling in all eleven districts and boroughs. Elmbridge peaked at 1,890 births in 2010 and reached a new low of 1,273 in 2025, a fall of a third; Woking is down 30 per cent from its 2012 peak, Epsom and Ewell 29 per cent, Guildford 27 per cent. Smaller cohorts mean fewer children of the same age in the same town wanting the same lesson at the same hour, which is precisely the problem an online group solves and a local club does not.
 
+The Surrey project
+
 ## The clock that ran out of digits
 
 Guildford builds satellites. This project takes one thing those satellites broadcast and asks a question a ten-year-old can hold and a professional can get wrong.
 
 GPS satellites do not broadcast a date. They broadcast a week number counted from a Sunday in January 1980, and in the legacy civil message that number is carried in ten bits. Ten bits hold 0 to 1,023. On the 1,024th week the field has nowhere to go, so it reads zero again, and a receiver that takes the number at face value decides it is 1980. The learner's job is to work out exactly when that happens, three times over, and then check their answer against the organisation that runs the system.
 
-**Our run of 20 September 2026: computed from the GPS epoch, then checked against GPS.gov**
-
 | What we computed | Our answer | What GPS.gov publishes |
-|---|---|---|
+| --- | --- | --- |
 | First wrap, week 1024 | 21 August 1999, 23:59:42 UTC | A rollover in August 1999 |
 | Second wrap, week 2048 | 6 April 2019, 23:59:42 UTC | "23:59:42 UTC on April 6, 2019" |
 | Third wrap, week 3072 | 20 November 2038, 23:59:42 UTC | "next rollover on November 20, 2038" |
@@ -125,29 +109,54 @@ Ask an assistant when the GPS week rolls over and it will tell you, correctly, A
 
 Modern Age Coders has no connection with Surrey Satellite Technology, Airbus, the University of Surrey, Surrey County Council or the United States government, and nothing here implies one. The addresses and founding dates are theirs; the arithmetic, and any error in it, is ours.
 
+Why Guildford, of all places
+
 ## A university spin-out that ended up building satellites
 
 The Surrey angle is not decoration. Two organisations a mile apart made small spacecraft an ordinary industry.
 
-**Surrey's space cluster, from each organisation's own pages**
-
 | Organisation | Where | What it says about itself |
-|---|---|---|
+| --- | --- | --- |
 | Surrey Satellite Technology Ltd | Tycho House, 20 Stephenson Road, Surrey Research Park, Guildford GU2 7YE | Formed in 1985 as a spin-out to commercialise University of Surrey research that began in the late 1970s with satellites built from commercial off-the-shelf parts; about 70 satellites for 22 countries in the three decades after; majority shareholding bought by Airbus in 2009 and now a wholly owned subsidiary. |
 | Surrey Space Centre | BA building, University of Surrey, Guildford GU2 7XH | Small satellite work from 1979 onwards, pushing what low-cost small satellites can be used for. |
 
 The reason this belongs on a page about children learning to code is the off-the-shelf part. The Surrey story started with researchers deciding that parts built for ordinary electronics could fly, which is the same bet a child makes with a free copy of Python and a second-hand laptop. It does not mean everything is easy. It means the barrier is understanding rather than equipment, and understanding is what a lesson can supply.
 
-**Surrey and the rest of the country** Surrey is one county of many. The [UK page](/coding-classes-in-united-kingdom) covers the four school systems and links every UK page as it goes live, and [London](/best-coding-class-in-london) is the next county over for families on the Spelthorne and Elmbridge edge.
+Surrey and the rest of the country
+
+Surrey is one county of many. The [UK page](/coding-classes-in-united-kingdom) covers the four school systems and links every UK page as it goes live, and [London](/best-coding-class-in-london) is the next county over for families on the Spelthorne and Elmbridge edge.
+
+Learning ladder
 
 ## From a counter that goes round to a system with no surprises left in it
 
 The free lesson places a learner by what they can do now. School year is a hint, not an answer.
 
-- **Ages 6 to 10: Numbers that wrap** Scratch timers, scores and clocks, where a counter that reaches its limit is something a child can see happen on screen. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 10 to 13: Dates and ranges** Python that works with real dates, and the first honest conversation about what a variable can and cannot hold. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 18: Edges on purpose** Types, limits, overflow and tests written for the boundary rather than the middle, which is the habit exams and employers both reward. [Python for Teens](/courses/python-complete-masterclass-teens), [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)
-- **Ages 18 to 67: Systems that outlive you** Adults work on the data they already own: ranges, migrations and the quiet assumptions in a spreadsheet nobody has questioned since 2014. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### Numbers that wrap
+
+Scratch timers, scores and clocks, where a counter that reaches its limit is something a child can see happen on screen.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 10 to 13
+
+### Dates and ranges
+
+Python that works with real dates, and the first honest conversation about what a variable can and cannot hold.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 18
+
+### Edges on purpose
+
+Types, limits, overflow and tests written for the boundary rather than the middle, which is the habit exams and employers both reward.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)Ages 18 to 67
+
+### Systems that outlive you
+
+Adults work on the data they already own: ranges, migrations and the quiet assumptions in a spreadsheet nobody has questioned since 2014.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## An assistant can write a date converter in ten seconds. Why should a Surrey teenager learn to do it slowly?
 
@@ -159,30 +168,139 @@ A learner who has built the counter themselves, watched 1,023 turn into 0, and t
 
 So the case for a Surrey child learning to code in 2026 is not that the machine cannot write the code. It is that somebody has to know what to ask it, and to recognise a confident wrong answer when it arrives. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Staines to Haslemere, and no journey at either end
 
 The county is wide and the traffic is famous. An online lesson makes both irrelevant.
 
-- **Taught where the learner sits** A bedroom in Camberley, a kitchen table in Oxted, a library desk in Woking. The lesson goes to the learner rather than the other way about.
-- **English school language** Key Stage 2 and 3, Year 9 options, GCSE and A level are used as the names they are, and teaching is in English throughout.
-- **A free lesson before any money** A genuine piece of work with a teacher, ending in a plain recommendation about level and course. No card is asked for.
-- **Groups matched by level** Fifteen to twenty learners at the same stage, drawn from Surrey and beyond, which is the only way a group of the right level exists at the right hour.
-- **Fitted to the Surrey calendar** Two lessons a week is usual, and breaks are agreed with each family, including that two-week October half term that Surrey alone among its neighbours now takes.
-- **One clock, stated clearly** Teachers work from India, five and a half hours ahead of the UK in winter and four and a half in summer. Every lesson is agreed and shown in UK time.
+### Taught where the learner sits
 
-**A county of towns, one group** Surrey has no single centre and dozens of towns above five thousand people, so a group formed by postcode would never fill. Ours are formed by level, which is why a child in Lingfield and a child in Frimley can be in the same class.
+A bedroom in Camberley, a kitchen table in Oxted, a library desk in Woking. The lesson goes to the learner rather than the other way about.
+
+### English school language
+
+Key Stage 2 and 3, Year 9 options, GCSE and A level are used as the names they are, and teaching is in English throughout.
+
+### A free lesson before any money
+
+A genuine piece of work with a teacher, ending in a plain recommendation about level and course. No card is asked for.
+
+### Groups matched by level
+
+Fifteen to twenty learners at the same stage, drawn from Surrey and beyond, which is the only way a group of the right level exists at the right hour.
+
+### Fitted to the Surrey calendar
+
+Two lessons a week is usual, and breaks are agreed with each family, including that two-week October half term that Surrey alone among its neighbours now takes.
+
+### One clock, stated clearly
+
+Teachers work from India, five and a half hours ahead of the UK in winter and four and a half in summer. Every lesson is agreed and shown in UK time.
+
+A county of towns, one group
+
+Surrey has no single centre and dozens of towns above five thousand people, so a group formed by postcode would never fill. Ours are formed by level, which is why a child in Lingfield and a child in Frimley can be in the same class.
+
+Fees
 
 ## What classes cost in Surrey
 
 One price list for the whole county, and for every country outside India.
 
-- First class: USD 0. A complete lesson on real work, ending with a suggested level and course.
-- Group tuition: USD 100 a month. Around eight lessons a month, fifteen to twenty learners at a single level.
-- Private tuition: USD 150 a month. Around eight lessons a month with a teacher working with one learner.
+First class**USD 0**
+
+A complete lesson on real work, ending with a suggested level and course.
+
+Group tuition**USD 100**
+
+Around eight lessons a month, fifteen to twenty learners at a single level.
+
+Private tuition**USD 150**
+
+Around eight lessons a month with a teacher working with one learner.
 
 Prices are set in US dollars, the rate everywhere outside India, and we do not keep a pound list. Nothing is paid until the free lesson has settled a course and a weekly slot; pauses, missed lessons and moving between group and private teaching are all explained on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Surrey.)Reviews
+
+## Six Google reviews, printed as they were written
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us who is learning
+
+An age or school year and a sentence about what they like is plenty. A first lesson might be a Scratch timer, a first Python program, or the counter on this page turning over in front of them.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Surrey one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Surrey.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Surrey coding class questions
+
+About the county, the project, and how lessons actually work.
 
 ### How many people live in Surrey?
 
@@ -224,10 +342,14 @@ The first lesson is free. A place in a group is then USD 100 a month and one-to-
 
 We teach alongside it. Computing at Key Stages 2 and 3, GCSE and A level Computer Science, and maths from primary upwards, all taught to what the learner is actually sitting rather than to a generic syllabus.
 
+Explore the UK
+
 ## The rest of the country
 
 The [UK page](/coding-classes-in-united-kingdom) covers the four school systems and links every UK page as it goes live. [London](/best-coding-class-in-london) is over the northern boundary, [Kent](/11-plus-maths-tuition-kent) is the next county east and has its own selective test, and [choosing an online class](/best-online-coding-classes-uk) sets out what to ask any provider.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Surrey.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-surrey](https://learn.modernagecoders.com/coding-classes-in-surrey#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-surrey*

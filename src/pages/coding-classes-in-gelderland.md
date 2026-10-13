@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes across Gelderland, ages 
 canonical: https://learn.modernagecoders.com/coding-classes-in-gelderland
 source: src/pages/coding-classes-in-gelderland.html
 ---
-> Coding classes in Gelderland serve 2,173,348 people in 51 municipalities across the largest province in the country by land, 4,960 square kilometres (Statistics Netherlands, 1 January 2026), where Nijmegen, Arnhem and Apeldoorn are within 20,000 of one another at the top and Rozendaal has 1,837 people at the bottom. The province is split between two school-holiday regions along a line between Apeldoorn and Arnhem, so a family in Ede and a family in Nijmegen do not have the same summer. Modern Age Coders teaches all 51 municipalities the same live online class, in English, for ages 6 to 67, with the first lesson free and then USD 100 a month for a group of fifteen to twenty or USD 150 for one-to-one tuition.
+> Live online coding, Python and AI classes across Gelderland, ages 6 to 67: Nijmegen, Arnhem, Apeldoorn, Ede, the Veluwe, the Achterhoek and the Betuwe, 51 towns.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Gelderland
-
-Province of Gelderland / Live online
-
-# Coding classes in Gelderland, the province that goes on summer holiday in two different fortnights
-
-**What are the best coding classes in Gelderland?** Coding classes in Gelderland serve 2,173,348 people in 51 municipalities across the largest province in the country by land, 4,960 square kilometres (Statistics Netherlands, 1 January 2026), where Nijmegen, Arnhem and Apeldoorn are within 20,000 of one another at the top and Rozendaal has 1,837 people at the bottom. The province is split between two school-holiday regions along a line between Apeldoorn and Arnhem, so a family in Ede and a family in Nijmegen do not have the same summer. Modern Age Coders teaches all 51 municipalities the same live online class, in English, for ages 6 to 67, with the first lesson free and then USD 100 a month for a group of fifteen to twenty or USD 150 for one-to-one tuition.
-
-Ask what week Gelderland breaks up for the summer and there is no answer, because the province does not break up: its northern half does on one date and its southern half on another, and in Montferland and Neder-Betuwe the line runs through the municipality itself. A child who can show why the average of those two dates is a week nobody has learned something that applies to every figure ever reported for a group.
-
-Facts last verified 7 September 2026. Teaching is online; no Gelderland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Gelderland
 
 ## Four courses for a province of river towns, a forest and a border
 
 A groep 6 child in Apeldoorn, a teenager in Nijmegen who wants to ship a game, a Wageningen student with a dataset about crops, and a parent in the Achterhoek who wants the tools to carry the paperwork: four doors, chosen for how differently Gelderland families live.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Sequencing, conditions and the first bug the child fixes alone, in English, for a groep 3 to 5 child anywhere from Harderwijk to Winterswijk.
-- [Game Development for Teens](/courses/complete-game-development-masterclass-for-teens) (Ages 13 to 18): Unity, C# and a game that ships, for the Nijmegen or Arnhem teenager who has stopped being satisfied with playing them.
-- [Orange Data Mining Course for College Students](/courses/orange-data-mining-machine-learning-course-for-college-students) (College): Visual machine learning on real datasets, for the Wageningen or Radboud student who has data on plants, patients or soil and no model yet.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (Adults): Python for the monthly return, the spreadsheet nobody trusts and the report that eats a Friday, for the working parent in Doetinchem or Tiel.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsSequencing, conditions and the first bug the child fixes alone, in English, for a groep 3 to 5 child anywhere from Harderwijk to Winterswijk.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Game Development for Teens course thumbnail](/images/game-dev-teens.webp)Ages 13 to 18Game Development for TeensUnity, C# and a game that ships, for the Nijmegen or Arnhem teenager who has stopped being satisfied with playing them.See the syllabus](/courses/complete-game-development-masterclass-for-teens)[![Orange Data Mining Course for College Students course thumbnail](/images/orange-data-mining-college.webp)CollegeOrange Data Mining Course for College StudentsVisual machine learning on real datasets, for the Wageningen or Radboud student who has data on plants, patients or soil and no model yet.See the syllabus](/courses/orange-data-mining-machine-learning-course-for-college-students)[![Python Automation Course course thumbnail](/images/python-college.webp)AdultsPython Automation CoursePython for the monthly return, the spreadsheet nobody trusts and the report that eats a Friday, for the working parent in Doetinchem or Tiel.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Gelderland today
 
 ## Two million people on the most land, and three cities within twenty thousand of each other
 
@@ -52,7 +40,11 @@ Nijmegen at 189,871, Arnhem at 171,822 and Apeldoorn at 169,212 hold the top thr
 
 The Veluwe, the wooded plateau in the middle; the Achterhoek, the farmland to the east against the German border; the Betuwe and the Bommelerwaard, the river country between the Waal and the Maas; and the Rijk van Nijmegen and the Arnhem ring in the south. Each has its own accent, and they were not all in the same holiday region.
 
-**A capital that is second** Arnhem is the provincial capital; Nijmegen is larger by 18,049 people and older by most of two millennia. Neither dominates: Apeldoorn is within 2,610 of Arnhem, and a family in Ede or Barneveld is as likely to look toward Utrecht as toward either.
+A capital that is second
+
+Arnhem is the provincial capital; Nijmegen is larger by 18,049 people and older by most of two millennia. Neither dominates: Apeldoorn is within 2,610 of Arnhem, and a family in Ede or Barneveld is as likely to look toward Utrecht as toward either.
+
+The spread
 
 ## From the Veluwe to the Achterhoek: all 51 municipalities, by population
 
@@ -84,6 +76,8 @@ West Betuwe 53,445; Tiel 42,524; Zaltbommel 30,687; Culemborg 30,413; Buren 28,0
 
 Fifty-one, all of them above. The city pages in this series look closely at one place; this one keeps the whole province in view, which is the only way to see the line running through it.
 
+Verified local facts
+
 ## What the figures on this page rest on, office by office
 
 Including the holiday-region split that the project is built from, sourced twice.
@@ -114,6 +108,8 @@ Arnhem is the provincial capital; Nijmegen is the largest city. By the encyclopa
 
 The province, its 51 municipalities, the schools in them and the offices that publish the holiday tables have no connection to Modern Age Coders, and this page implies none. They are listed because a page that says it serves Gelderland should be able to say which Gelderland it means.
 
+Signature project
+
 ## When does Gelderland break up for summer? Build the program that shows the province-level answer is a week nobody has
 
 One province, two holiday regions, two municipalities cut in half, and a provincial average that describes no family in the province.
@@ -130,10 +126,8 @@ Asked for Gelderland's summer holiday, a table that works at province level has 
 
 At municipality level the answer exists for 49 of 51 rows. For Montferland and Neder-Betuwe it does not: a family in Didam and a family in 's-Heerenberg are in the same municipality and different regions. The attribute lives at the level of the former municipality, which no longer exists, and any table keyed on the current one is wrong for part of it.
 
-**The holiday region of Gelderland, at three levels of aggregation**
-
 | Level | Value | True for |
-|---|---|---|
+| --- | --- | --- |
 | Province | a midpoint between two dates a week apart | no family in Gelderland |
 | Municipality | Midden or Zuid | 49 of 51 municipalities |
 | Former municipality (Didam, Dodewaard) | Zuid, inside a Midden municipality | the two split municipalities |
@@ -143,14 +137,14 @@ At municipality level the answer exists for 49 of 51 rows. For Montferland and N
 
 Average income, average commute, average holiday: a figure computed for a group is a description of the group and not of anyone in it, and when the group is made of two halves that differ, the average sits in a gap where nobody lives. That is the ecological trap, and Gelderland is its cleanest Dutch example, because the attribute that varies is one every family can name. A learner who has computed the provincial holiday and failed to find a school that keeps it will ask, of every group figure they meet, which member it is true for. The table was computed before this paragraph was written; the region assignments are from the published table, with its dated names noted, and the split is sourced to the Rijksoverheid.
 
+Reliable pipeline
+
 ## Five habits for any figure reported for a group
 
 Regional averages, class averages, national rates, company-wide figures: every one of them can be true of the group and false of every member. Rehearsed first on the province's own calendar.
 
-**When the number belongs to the group and not to anyone in it**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Find the level | Ask at which level the attribute is actually decided | A provincial holiday that no school keeps | The right unit |
 | Check the members | Test whether any member actually has the group value | An average in a gap where nobody lives | A figure that describes someone |
 | Keep the split | When a group is two halves, report two values, not one | Midden and Zuid averaged into a week that does not exist | Honest heterogeneity |
@@ -171,14 +165,37 @@ The same program on a company-wide average, a regional rate or a national statis
 
 The provincial totals, the 51 municipal populations, the areas and the holiday-region division are published by the offices and the tables named in the sentences that use them. The provincial midpoint is arithmetic on the published split and is presented as the thing it is, a value nobody has; nothing on this page reports a Gelderland figure that no office has published.
 
+Learning ladder
+
 ## From two toy classrooms to a group figure with its members checked
 
 The free lesson finds the rung; which side of the Apeldoorn-to-Arnhem line the laptop is on does not.
 
-- **Ages 6 to 10: Two answers, no middle** Children find that a question about a group can have two answers and that the average is not one of them. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: A value that needs a level** Learners tag rows in Python and discover an attribute that changes inside a municipality. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 14 to 18: The ecological trap in code** Teenagers compute a group figure, prove no member has it, and descend to the level where it exists. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Group figures at work** Adults take apart a company-wide or regional average and find which member, if any, it describes. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Statistics & Probability](/courses/statistics-probability-maths-course)
+Ages 6 to 10
+
+### Two answers, no middle
+
+Children find that a question about a group can have two answers and that the average is not one of them.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### A value that needs a level
+
+Learners tag rows in Python and discover an attribute that changes inside a municipality.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### The ecological trap in code
+
+Teenagers compute a group figure, prove no member has it, and descend to the level where it exists.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Group figures at work
+
+Adults take apart a company-wide or regional average and find which member, if any, it describes.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Statistics & Probability](/courses/statistics-probability-maths-course)Coding and AI
 
 ## Ask an AI when Gelderland breaks up for summer and it will give a date. Why should a child in Ede learn to check it?
 
@@ -190,30 +207,139 @@ That is why the learner still writes the program: not for the loop, which the to
 
 For a Gelderland parent, then, the argument for coding in 2026 is not that the child will build calendars. It is that knowing a group figure can be true of the group and false of every member is a skill, that it transfers to every average the child will ever be shown, and that it is learned in one way: by building the figure and then looking for someone it describes. The longer argument is in [is coding still worth learning now that AI writes it](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for a province where the nearest city can be in another region
 
 From Winterswijk the nearest large city is over the German border. From Nunspeet the bus to Harderwijk takes a morning. From Didam the school across the road may break up a week before yours. A class that comes to the house does not care about any of that.
 
-- **One class on both sides of the line** A child in Apeldoorn and a child in Nijmegen are in the same group at the same hour, and their summer holidays being a week apart is handled once, when the slot is set.
-- **English, with the Dutch words as the school says them** Groep, havo, vwo, profielkeuze and the rest are used unchanged; the lesson around them is in English, which is what the province's international families in Wageningen, Arnhem and Nijmegen share.
-- **A free hour that produces a plan** One task pitched at the learner, then a course name and a starting rung, and no card is asked for to arrange it.
-- **Grouped on what they can do** Level and goal decide the group. The Veluwe, the Achterhoek or the Betuwe does not.
-- **Two lessons a week, two holiday calendars** Eight lessons a month at one recurring time. Because half the province is regio Midden and half regio Zuid, the summer weeks are agreed per family before the slot is fixed, not assumed from the province.
-- **The clock difference, once** The Netherlands moves its clock twice a year and India never does, so a Gelderland afternoon runs four and a half hours behind the teacher in winter and three and a half in summer. Late afternoon, early evening and weekend hours suit both ends.
+### One class on both sides of the line
 
-**The border is closer than the capital** For much of the Achterhoek and the Rijk van Nijmegen, Germany is nearer than Arnhem. A weekly class at home in Aalten or Groesbeek is the same class a family gets in the capital, and the drive to it is zero in both.
+A child in Apeldoorn and a child in Nijmegen are in the same group at the same hour, and their summer holidays being a week apart is handled once, when the slot is set.
+
+### English, with the Dutch words as the school says them
+
+Groep, havo, vwo, profielkeuze and the rest are used unchanged; the lesson around them is in English, which is what the province's international families in Wageningen, Arnhem and Nijmegen share.
+
+### A free hour that produces a plan
+
+One task pitched at the learner, then a course name and a starting rung, and no card is asked for to arrange it.
+
+### Grouped on what they can do
+
+Level and goal decide the group. The Veluwe, the Achterhoek or the Betuwe does not.
+
+### Two lessons a week, two holiday calendars
+
+Eight lessons a month at one recurring time. Because half the province is regio Midden and half regio Zuid, the summer weeks are agreed per family before the slot is fixed, not assumed from the province.
+
+### The clock difference, once
+
+The Netherlands moves its clock twice a year and India never does, so a Gelderland afternoon runs four and a half hours behind the teacher in winter and three and a half in summer. Late afternoon, early evening and weekend hours suit both ends.
+
+The border is closer than the capital
+
+For much of the Achterhoek and the Rijk van Nijmegen, Germany is nearer than Arnhem. A weekly class at home in Aalten or Groesbeek is the same class a family gets in the capital, and the drive to it is zero in both.
+
+Fees
 
 ## Fifty-one municipalities, two prices, and a free lesson first
 
 The tariff in full, ahead of any request for a number.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 One dollar rate everywhere outside India, no euro version, Rozendaal charged exactly as Nijmegen. The course and the hour are settled in the free lesson; payment comes afterwards, over WhatsApp. Pauses, plan changes and missed lessons are on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Gelderland.)Reviews
+
+## Six Google reviews, unedited
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us the level, and which side of the line you are on if you like
+
+Expect an opening task of two toy classrooms, a Python table with a region column, or a company-wide average from work that has never been asked which team it describes.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Gelderland one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Gelderland.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Gelderland coding class questions
+
+The province, its towns, the holiday line, the teaching and the terms.
 
 ### When does Gelderland break up for the summer holidays?
 
@@ -255,10 +381,14 @@ The first lesson is free. Group tuition is USD 100 a month for two live lessons 
 
 Between five and ten, matched on level, pace and goal rather than on age, school or municipality. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.
 
+Explore the Netherlands
+
 ## The neighbours with pages, and the country above them
 
 West of the line is the [province of Utrecht](/coding-classes-in-utrecht-province) and its city, [Utrecht](/coding-classes-in-utrecht); north across the Veluwemeer is [Almere](/coding-classes-in-almere); south of the Maas is [Eindhoven](/coding-classes-in-eindhoven). They all descend from the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner who wants to train models rather than write programs should begin at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands). Nijmegen, Arnhem, Apeldoorn and Ede follow in this series.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Gelderland.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-gelderland](https://learn.modernagecoders.com/coding-classes-in-gelderland#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-gelderland*

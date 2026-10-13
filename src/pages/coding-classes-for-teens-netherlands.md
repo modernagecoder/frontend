@@ -4,42 +4,36 @@ description: "Live online coding for Dutch teenagers aged 12 to 18: Python, AI, 
 canonical: https://learn.modernagecoders.com/coding-classes-for-teens-netherlands
 source: src/pages/coding-classes-for-teens-netherlands.html
 ---
-> Modern Age Coders teaches coding live online to teenagers across the Netherlands, aged twelve to eighteen: Python first, then data and machine learning, app and web development, Java, and AI coding tools used with care. Teenagers are placed by what they can already do, not by school year, in groups of fifteen to twenty or one to one, and every lesson is taught in English by a real teacher. Classes run after school, in the evening or at the weekend, at home on a laptop rather than on a phone in class. The first lesson is free; after it a group place is USD 100 a month and one-to-one lessons USD 150.
+> Live online coding for Dutch teenagers aged 12 to 18: Python, AI, apps, Java and the web, in English beside havo, vwo or international school. First lesson free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the Netherlands](/coding-classes-in-netherlands) / For teens
+In short
 
-Netherlands · Ages 12 to 18 · Live online
+Modern Age Coders teaches coding live online to teenagers across the Netherlands, aged twelve to eighteen: Python first, then data and machine learning, app and web development, Java, and AI coding tools used with care. Teenagers are placed by what they can already do, not by school year, in groups of fifteen to twenty or one to one, and every lesson is taught in English by a real teacher. Classes run after school, in the evening or at the weekend, at home on a laptop rather than on a phone in class. The first lesson is free; after it a group place is USD 100 a month and one-to-one lessons USD 150.
 
-# Coding classes for teenagers in the Netherlands
-
-In 2024 more than a third of Dutch 12-to-18-year-olds had used an AI program to make text, images or video, the national statistics office found. Very few of them had built anything with code. That gap is what these classes are for. A teenager who can write Python, train a small model, build an app or read what an AI coding tool has produced is in a different position from one who can only ask a chatbot for help. The Netherlands also draws some firm lines around teenagers and screens: parental consent below sixteen for many online services, no phones in secondary classrooms since January 2024, and age limits set by the tools themselves. A good course fits inside those lines. This page sets out what a Dutch teenager can learn with us, from the brugklas to the eindexamen year, live online and in English, alongside havo, vwo or an international school.
-
-At a glance: Ages: 12 to 18; Subjects: Python, AI, apps, web, Java, AI coding tools; Alongside: Havo, vwo, vmbo or an international school; Format: Live video, a teacher every lesson; Groups: 15 to 20 at one level, or one to one; Times: After school, evenings, weekends; Language: English; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three courses most Dutch teenagers start with
 
 One foundation, one for the teenager who wants AI itself, one for the teenager who wants to ship an app. Each opens its own page with syllabus, timetable and fee.
 
-- [Python for Teens](/courses/python-complete-masterclass-teens): The foundation: two years from an empty file to confident, well-structured Python, the base every other teen course here builds on.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens): For the teenager who uses AI tools and wants to know how they work: statistics, models, neural networks, images and text, each trained and tested by hand.
-- [App Development for Teens](/courses/complete-app-development-masterclass-for-teens): Real apps with React Native, from the first screen to something a friend can install and use, for the teenager who wants to make something people touch.
+[![Python for Teens course thumbnail](/images/python-teens.webp)  TEEN / 01 Python for Teens The foundation: two years from an empty file to confident, well-structured Python, the base every other teen course here builds on. Open the syllabus →](/courses/python-complete-masterclass-teens)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)  TEEN / 02 AI and Machine Learning for Teens For the teenager who uses AI tools and wants to know how they work: statistics, models, neural networks, images and text, each trained and tested by hand. Open the syllabus →](/courses/ai-ml-masterclass-teens)[![App Development for Teens course thumbnail](/images/app-dev-teens.webp)  TEEN / 03 App Development for Teens Real apps with React Native, from the first screen to something a friend can install and use, for the teenager who wants to make something people touch. Open the syllabus →](/courses/complete-app-development-masterclass-for-teens)
+
+Teens and AI
 
 ## A third of Dutch teenagers already make things with AI
 
 The figures below come from the national statistics office, CBS, published on 3 September 2024. They measure who used an AI program to make text, video or images in 2024, and they show teenagers among the heaviest users in the country.
 
-**Share of each age group that made text, video or images with an AI program in 2024 (CBS)**
-
 | Age group | Share | What it suggests |
-|---|---|---|
+| --- | --- | --- |
 | 12 to 18 | 34.0 percent | More than one teenager in three already uses AI to produce work |
 | 18 to 25 | 48.7 percent | The heaviest users of all, a few years older |
 | 25 to 35 | 41.5 percent | Still well above average |
 | 35 to 45 | 27.6 percent | A little above the national figure |
 | 45 to 55 | 21.0 percent | Many parents of teenagers |
-| 55 to 65 | 12.1 percent |  |
-| 65 to 75 | 5.2 percent |  |
-| 75 and over | 1.3 percent |  |
+| 55 to 65 | 12.1 percent |   |
+| 65 to 75 | 5.2 percent |   |
+| 75 and over | 1.3 percent |   |
 | Everyone aged 12 and over | 23 percent | The national figure |
 
 Two things stand out. Teenagers use these tools far more than most of the adults around them: a 12-to-18-year-old was more than one and a half times as likely as someone aged 45 to 55 to have made something with AI, 34.0 percent against 21.0. And the peak comes just after school, at 48.7 percent among 18-to-25-year-olds, which is roughly where many of today's teenagers will be in five years.
@@ -51,6 +45,8 @@ That second set of skills is what school timetables rarely provide. Informatica 
 Our classes start from the other end. A teenager writes the code, then trains the model, then builds the app, and only then asks what an AI tool can add. Used that way, the tools speed a teenager up instead of standing in for what they have not learned.
 
 Source: [CBS, Bijna kwart Nederlanders gebruikt kunstmatige intelligentie zoals ChatGPT, 3 September 2024](https://www.cbs.nl/nl-nl/nieuws/2024/36/bijna-kwart-nederlanders-gebruikt-kunstmatige-intelligentie-zoals-chatgpt). Read 15 September 2026; the figures are quoted as published. The comparisons in the text are our own arithmetic.
+
+Three lines
 
 ## Three lines drawn around a Dutch teenager and a screen
 
@@ -78,6 +74,8 @@ None of these lines is an obstacle to building. They are a reminder that a teena
 
 Sources: [GDPR Article 8(1), full text](https://gdpr-info.eu/art-8-gdpr/); [Uitvoeringswet AVG, artikel 5](https://wetten.overheid.nl/BWBR0040940/2021-07-01#Hoofdstuk2_Paragraaf2.1_Artikel5); [Rijksoverheid, mobile phones not allowed in the classroom](https://www.rijksoverheid.nl/onderwerpen/voortgezet-onderwijs/mobiele-apparaten-in-de-klas); [OCW research news, 12 July 2024](https://www.rijksoverheid.nl/ministeries/ministerie-van-onderwijs-cultuur-en-wetenschap/nieuws/2024/07/12/ocw-onderzoek-leerlingen-socialer-en-geconcentreerder-door-mobieltjesafspraak). Read 15 September 2026. This is general information, not legal advice.
 
+What teens build
+
 ## What a teenager actually builds, from the brugklas to the exam year
 
 Teenagers arrive with very different starting points and very different goals. The courses below are grouped by what a teenager wants to make, and the free lesson decides where each one starts.
@@ -90,14 +88,14 @@ Java suits the teenager heading for computer science, or a pupil at an American-
 
 The city academy pages, for example [Eindhoven](/ai-and-python-academy-eindhoven) and [Utrecht](/ai-and-python-academy-utrecht), show how the same track looks through a local lens.
 
+The five rungs
+
 ## The teenage route, one rung at a time
 
 The order is fixed because each rung needs the last. A teenager who jumps straight to AI tools can produce something that looks impressive and cannot say why it works; one who climbs in order can.
 
-**The five rungs for a Dutch teenager, with the school years they usually fall in**
-
 | Rung | Usually | What the teenager does |
-|---|---|---|
+| --- | --- | --- |
 | 1. Python by hand | Brugklas and the second year | Writes programs from a blank file and fixes their own errors |
 | 2. Data | Second to fourth year | Works with real datasets: cleaning, plotting, finding the odd one out |
 | 3. Models or apps | Havo 4 to vwo 6 | Trains a model and measures it, or builds an app someone can install |
@@ -107,66 +105,317 @@ The order is fixed because each rung needs the last. A teenager who jumps straig
 ### Why teenagers climb faster than they expect
 
 A teenager who writes code twice a week for a year is usually well ahead of where they thought they would be. The first rung takes patience; after it, each new subject arrives on a foundation instead of from nothing.
+
 The complete order of subjects is laid out on the [coding roadmap](/coding-roadmap).
 
 ### Around the Dutch school calendar
 
 The profielkeuze in the third year is a good moment to test rung 2, because it shows quickly whether data and technology appeal. In the eindexamen year, most families keep lessons light or pause them around the exams, and pick up again after.
+
 Pupils at international schools following IB, IGCSE or an American curriculum join the same rungs, by ability rather than grade. Younger brothers and sisters start on [coding classes for kids in the Netherlands](/coding-classes-for-kids-netherlands).
+
+The catalogue
 
 ## Twelve live courses for teenagers, grouped by what they build
 
 Every card leads to the full course with its own schedule and fee. The free first lesson, not the list, decides where a teenager begins.
 
+I
+
 ### Python, data and AI
 
 The foundation, and the route into machine learning
 
-- [Python for Teens](/courses/python-complete-masterclass-teens): Two years of Python from the first line to object-oriented programs, the course most teenagers start with.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens): Statistics, classical models, neural networks, image and text work, each project trained, tested and explained.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data): Real datasets handled in Python: reading, cleaning, joining, plotting and a first predictive model.
-- [Orange Data Mining for Teens](/courses/orange-data-mining-visual-machine-learning-course-for-teens): Machine learning through visual workflows, a gentle way in for a teenager not yet comfortable with code.
+TEEN / PY / 01
+
+#### Python for Teens
+
+Two years of Python from the first line to object-oriented programs, the course most teenagers start with.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+TEEN / PY / 02
+
+#### AI and Machine Learning for Teens
+
+Statistics, classical models, neural networks, image and text work, each project trained, tested and explained.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+TEEN / PY / 03
+
+#### Data Science for Teens
+
+Real datasets handled in Python: reading, cleaning, joining, plotting and a first predictive model.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)
+
+TEEN / PY / 04
+
+#### Orange Data Mining for Teens
+
+Machine learning through visual workflows, a gentle way in for a teenager not yet comfortable with code.
+
+[Open the syllabus](/courses/orange-data-mining-visual-machine-learning-course-for-teens)II
 
 ### Apps and the web
 
 Things other people can open and use
 
-- [App Development for Teens](/courses/complete-app-development-masterclass-for-teens): React Native apps for phones, from the first screen to a finished app a friend can install.
-- [Full Stack Web Development for Teens](/courses/full-stack-web-development-teens-masterclass): Front end and back end together with React and Node.js, ending in a working site with its own data.
-- [React for Teens](/courses/react-for-teens-complete-masterclass): JavaScript and React from scratch, building interactive pages that respond to the user.
-- [JavaScript for Teens](/courses/javascript-course-for-teens-beginners-interactive-web): The language of the browser, taught through interactive sites and small games.
+TEEN / APP / 01
+
+#### App Development for Teens
+
+React Native apps for phones, from the first screen to a finished app a friend can install.
+
+[Open the syllabus](/courses/complete-app-development-masterclass-for-teens)
+
+TEEN / APP / 02
+
+#### Full Stack Web Development for Teens
+
+Front end and back end together with React and Node.js, ending in a working site with its own data.
+
+[Open the syllabus](/courses/full-stack-web-development-teens-masterclass)
+
+TEEN / APP / 03
+
+#### React for Teens
+
+JavaScript and React from scratch, building interactive pages that respond to the user.
+
+[Open the syllabus](/courses/react-for-teens-complete-masterclass)
+
+TEEN / APP / 04
+
+#### JavaScript for Teens
+
+The language of the browser, taught through interactive sites and small games.
+
+[Open the syllabus](/courses/javascript-course-for-teens-beginners-interactive-web)III
 
 ### Java, tools and safe practice
 
 For future computer scientists and careful tool users
 
-- [Java for Teens](/courses/java-programming-masterclass-for-teens): Java from the beginning, including the object-oriented thinking that AP Computer Science A and university courses expect.
-- [Coding Agents: Codex and Claude Code](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens): Working with AI coding agents on real code and reading every change they make, within each tool's own age rules.
-- [Git and GitHub for Teens](/courses/git-github-version-control-course-for-teens): Version control from zero, so every project has a history and a portfolio grows lesson by lesson.
-- [Cyber Security for Teens](/courses/cybersecurity-course-for-teens-ethical-defensive): Ethical, defensive security: passwords, keys, encryption and how attacks are stopped, practised only on systems the learner owns.
+TEEN / JAVA / 01
+
+#### Java for Teens
+
+Java from the beginning, including the object-oriented thinking that AP Computer Science A and university courses expect.
+
+[Open the syllabus](/courses/java-programming-masterclass-for-teens)
+
+TEEN / TOOL / 01
+
+#### Coding Agents: Codex and Claude Code
+
+Working with AI coding agents on real code and reading every change they make, within each tool's own age rules.
+
+[Open the syllabus](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens)
+
+TEEN / TOOL / 02
+
+#### Git and GitHub for Teens
+
+Version control from zero, so every project has a history and a portfolio grows lesson by lesson.
+
+[Open the syllabus](/courses/git-github-version-control-course-for-teens)
+
+TEEN / TOOL / 03
+
+#### Cyber Security for Teens
+
+Ethical, defensive security: passwords, keys, encryption and how attacks are stopped, practised only on systems the learner owns.
+
+[Open the syllabus](/courses/cybersecurity-course-for-teens-ethical-defensive)
+
+How the classes run
 
 ## After school, at home, on a laptop
 
 Teachers work from India, where the clocks never change, while the Netherlands switches to summer time and back. The difference is three and a half hours from late March to late October and four and a half in winter. For teenagers that puts lessons naturally in the late afternoon, early evening or at the weekend; the regular time is fixed with the family at the free lesson.
 
-- **After school** Late afternoon in the Netherlands, once the school day is done. The most common slot for younger teenagers.
-- **Early evening** After dinner, arranged with the teacher. Suits older teenagers with afternoon sport or jobs.
-- **Weekend** Saturday or Sunday. Useful in busy school periods and for teenagers who prefer a longer weekly session.
+After school
 
-- **A free first lesson** The teenager works on a real problem while the teacher watches how they think. That places them far better than a test or a school report.
-- **Fifteen to twenty in a group** Teenagers from several countries at the same level, which means a keen twelve-year-old and a beginner of sixteen can both be in the right class.
-- **One to one when needed** For exam years, very specific goals, irregular timetables, or a teenager who simply works better alone with a teacher.
-- **Parents in the loop** We talk to the family before anything is booked, which also keeps us within the Dutch rule on consent for under-sixteens.
-- **In English** Lessons are in English, the language of programming. Dutch school words such as brugklas, havo and vwo are used as families use them.
-- **A portfolio from the start** Every lesson's code goes into the teenager's own GitHub repository, which becomes a record a university or employer can see.
+Late afternoon in the Netherlands, once the school day is done. The most common slot for younger teenagers.
+
+Early evening
+
+After dinner, arranged with the teacher. Suits older teenagers with afternoon sport or jobs.
+
+Weekend
+
+Saturday or Sunday. Useful in busy school periods and for teenagers who prefer a longer weekly session.
+
+### A free first lesson
+
+The teenager works on a real problem while the teacher watches how they think. That places them far better than a test or a school report.
+
+### Fifteen to twenty in a group
+
+Teenagers from several countries at the same level, which means a keen twelve-year-old and a beginner of sixteen can both be in the right class.
+
+### One to one when needed
+
+For exam years, very specific goals, irregular timetables, or a teenager who simply works better alone with a teacher.
+
+### Parents in the loop
+
+We talk to the family before anything is booked, which also keeps us within the Dutch rule on consent for under-sixteens.
+
+### In English
+
+Lessons are in English, the language of programming. Dutch school words such as brugklas, havo and vwo are used as families use them.
+
+### A portfolio from the start
+
+Every lesson's code goes into the teenager's own GitHub repository, which becomes a record a university or employer can see.
+
+Student work
+
+## What our students have built
+
+Four projects our students published online, open to anyone. More are on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## What it costs for a teenager
 
 Monthly, in US dollars, at the same rates for every country outside India. There is no separate Dutch price, no enrolment fee and no contract for the year. The Copilot Studio courses are one to one only and use that rate.
 
-- Free first class: USD 0. A real lesson, not a sales call. Places the teenager at the right level. No card or bank details asked.
-- Group batch: USD 100 a month. Five to ten teenagers at one level. The same live teacher each week. Code reviewed every week. A certificate at the end.
-- One to one: USD 150 a month. A teacher for one teenager. Pace set by the goal. The only format for Copilot Studio.
+Free first class
+
+USD 0
+
+no card required
+
+- A real lesson, not a sales call
+- Places the teenager at the right level
+- No card or bank details asked
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Five to ten teenagers at one level
+- The same live teacher each week
+- Code reviewed every week
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one teenager
+- Pace set by the goal
+- The only format for Copilot Studio
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Reproduced from Google as their authors wrote them. We do not write, edit or pay for reviews.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions from Dutch families
 
 ## What parents of teenagers in the Netherlands ask us
 
@@ -210,15 +459,54 @@ After school, in the early evening or at the weekend, Dutch time. Teachers are t
 
 We call a parent at a Dutch hour to arrange the free lesson. Nothing is charged and nothing is booked until the family has seen that lesson and decided.
 
+Elsewhere on this site
+
 ## More for Dutch teenagers and their parents
 
-- [AI classes for teenagers](/ai-classes-for-teenagers): The global page on learning AI as a teenager, from Python to models.
-- [Java classes for teens](/java-classes-for-teens): Java for teenagers, including preparation for AP Computer Science A.
-- [AI agents for teens](/ai-agents-for-teens): How teenagers can learn to use and build AI agents responsibly.
-- [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands): The national academy page, with the informatica figures for Dutch schools.
-- [Coding classes in the Netherlands](/coding-classes-in-netherlands): The country page, with every city and province page listed.
-- [AI and machine learning in the Netherlands](/ai-and-machine-learning-classes-in-netherlands): Machine learning worked on published Dutch data.
+Pages that go deeper into one subject or one place.
 
-## Contact
+### [AI classes for teenagers](/ai-classes-for-teenagers)
 
-Book the free first class at [https://learn.modernagecoders.com/coding-classes-for-teens-netherlands](https://learn.modernagecoders.com/coding-classes-for-teens-netherlands#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The global page on learning AI as a teenager, from Python to models.
+
+### [Java classes for teens](/java-classes-for-teens)
+
+Java for teenagers, including preparation for AP Computer Science A.
+
+### [AI agents for teens](/ai-agents-for-teens)
+
+How teenagers can learn to use and build AI agents responsibly.
+
+### [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands)
+
+The national academy page, with the informatica figures for Dutch schools.
+
+### [Coding classes in the Netherlands](/coding-classes-in-netherlands)
+
+The country page, with every city and province page listed.
+
+### [AI and machine learning in the Netherlands](/ai-and-machine-learning-classes-in-netherlands)
+
+Machine learning worked on published Dutch data.
+
+Start here
+
+## Book a free lesson for your teenager
+
+Leave a parent's number and we will call at a Dutch hour. The first lesson is taught by a real teacher on real material, and by the end of it we know where your teenager should start.
+
+Want to read more first? See the [full course list](/courses), [how we teach](/how-we-teach), and the [coding roadmap](/coding-roadmap).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20teenager%20in%20the%20Netherlands.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is free from a Dutch phone and usually quickest. Our number is Indian; we have no office or premises in the Netherlands.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-for-teens-netherlands*

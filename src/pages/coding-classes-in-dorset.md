@@ -4,55 +4,39 @@ description: "Live online coding, Python, maths and A level classes across Dorse
 canonical: https://learn.modernagecoders.com/coding-classes-in-dorset
 source: src/pages/coding-classes-in-dorset.html
 ---
-> Dorset is two councils with 779,775 residents at the 2021 Census: Bournemouth, Christchurch and Poole, which holds just over half the county's people, and Dorset Council, which covers the rest. Bournemouth and Poole are the big places, then Weymouth, Christchurch and Dorchester, with market towns inland and along the Jurassic Coast. Classes work the same for all of them. Teachers based in India teach live over video, learners are grouped by ability instead of age, the age range runs from 6 to 67, and you can choose a group of fifteen to twenty or one-to-one teaching, across programming, Python, maths and statistics. The Dorset project comes from the coast's rocks. Try the first lesson free. Staying on costs USD 100 a month for group lessons or USD 150 a month for a private teacher.
+> Live online coding, Python, maths and A level classes across Dorset, from Bournemouth, Poole and Weymouth to Christchurch, Dorchester, Bridport and Sherborne.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Dorset
-
-County of Dorset / Live online
-
-# Coding classes in Dorset
-
-**What are the best coding classes in Dorset?** Dorset is two councils with 779,775 residents at the 2021 Census: Bournemouth, Christchurch and Poole, which holds just over half the county's people, and Dorset Council, which covers the rest. Bournemouth and Poole are the big places, then Weymouth, Christchurch and Dorchester, with market towns inland and along the Jurassic Coast. Classes work the same for all of them. Teachers based in India teach live over video, learners are grouped by ability instead of age, the age range runs from 6 to 67, and you can choose a group of fifteen to twenty or one-to-one teaching, across programming, Python, maths and statistics. The Dorset project comes from the coast's rocks. Try the first lesson free. Staying on costs USD 100 a month for group lessons or USD 150 a month for a private teacher.
-
-The Jurassic Coast was inscribed as a UNESCO World Heritage Site in 2001 for its rocks, fossils and landforms, and it remains England's only natural World Heritage Site. Rocks like these are dated by radioactive clocks, and a question every curious child asks is why scientists cannot just use carbon dating. This page's project answers it with a few lines of Python and the official half-lives published by the International Atomic Energy Agency. The answer has three parts: carbon runs out, the computer then rounds what is left to exactly zero, and even the right clock is only useful if its half-life suits the age you are trying to measure.
-
-Facts last verified 26 September 2026. Teaching is online; no Dorset branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Dorset
 
 ## Popular first courses in Dorset
 
 A six-year-old in Swanage who loves halving and doubling games, a Year 7 in Sherborne starting Python, a sixth former in Poole studying exponentials in A level Maths, and an adult in Bridport who wants to understand statistics properly. One free lesson each.
 
-- [Mental Maths for Kids](/courses/mental-maths-mastery-kids) (Ages 5 to 10): Number bonds, decomposition and estimation, including repeated halving that is the heart of a half-life.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Typed Python for children, with loops that halve a number over and over and print the result each time.
-- [A-Level Maths](/courses/a-level-maths-course-pure-mechanics-statistics) (Ages 16 to 18): A level Maths for Edexcel, AQA and OCR, where exponentials and logarithms are part of the Pure course.
-- [Statistics & Probability](/courses/statistics-probability-maths-course) (Adults): Descriptive statistics, distributions, hypothesis testing and regression on real data, for adults.
+[![Mental Maths for Kids course thumbnail](/images/mental-maths-kids.webp)Ages 5 to 10Mental Maths for KidsNumber bonds, decomposition and estimation, including repeated halving that is the heart of a half-life.See the syllabus](/courses/mental-maths-mastery-kids)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsTyped Python for children, with loops that halve a number over and over and print the result each time.See the syllabus](/courses/python-ai-kids-masterclass)[![A-Level Maths course thumbnail](/images/a-level-maths.webp)Ages 16 to 18A-Level MathsA level Maths for Edexcel, AQA and OCR, where exponentials and logarithms are part of the Pure course.See the syllabus](/courses/a-level-maths-course-pure-mechanics-statistics)[![Statistics & Probability course thumbnail](/images/statistics-probability-maths.webp)AdultsStatistics & ProbabilityDescriptive statistics, distributions, hypothesis testing and regression on real data, for adults.See the syllabus](/courses/statistics-probability-maths-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)The county in figures
 
 ## Two councils, 779,775 people and a coast of small towns
 
 Population per council is the 2021 Census on Nomis. Towns are the ONS built-up areas, and we re-checked each with our own sums of census output areas inside Dorset.
 
-**Dorset's two councils, usual residents at Census 2021**
-
 | Council | Usual residents | Main towns |
-|---|---|---|
+| --- | --- | --- |
 | Bournemouth, Christchurch and Poole | 400,196 | Bournemouth, Poole, Christchurch, Merley |
 | Dorset Council | 379,579 | Weymouth, Dorchester, Wimborne Minster, Verwood, Ferndown, Bridport |
 
 The county is lopsided. BCP holds just over half of Dorset's people in a continuous stretch of coast around Poole Harbour, while Dorset Council covers everything else: the market towns of the north and west, the Isle of Purbeck, Weymouth and the whole of the county's rural interior. A learner in Bournemouth and a learner in Shaftesbury live in the same county and very different places.
 
-**All twenty-two Dorset built-up areas with more than 5,000 people, 2021 Census**
-
 | Town | Residents | Town | Residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Bournemouth | 196,455 | Sherborne | 10,360 |
 | Poole | 141,005 | Corfe Mullen | 10,035 |
 | Weymouth | 55,535 | Shaftesbury | 9,160 |
@@ -67,16 +51,16 @@ The county is lopsided. BCP holds just over half of Dorset's people in a continu
 
 Every row agrees with our own output-area count to within rounding, and every town is inside Dorset; Upton sits across the BCP and Dorset Council line. The two councils and individual academies set school calendars, which we did not read for this page, so lesson breaks are agreed with each family. BCP's selective schools have [a separate maths page](/11-plus-maths-tuition-bournemouth-christchurch-and-poole); nothing here is school advice.
 
+The Dorset project
+
 ## Why carbon dating cannot date an ancient rock, in Python
 
 Five official half-lives, one formula, and two surprises about computers and measurement.
 
 A radioactive clock works by halving. After one half-life, half the original atoms are left; after two, a quarter; after n half-lives, one half raised to the power n. The International Atomic Energy Agency's LiveChart database publishes the half-lives: carbon-14 5,700 years, potassium-40 1.248 billion years, uranium-235 704 million years, uranium-238 4.468 billion years. The learner writes one function and asks what fraction of each would remain in a rock 150 million years old, an age we chose for teaching.
 
-**Our run of 26 September 2026: what is left after 150 million years, using IAEA half-lives**
-
 | Clock | Half-life (IAEA) | Half-lives in 150 million years | Fraction left |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Carbon-14 | 5,700 years | 26,316 | About 10 to the minus 7,922, printed by Python as 0.0 |
 | Uranium-235 | 704 million years | 0.21 | 0.863 |
 | Potassium-40 | 1.248 billion years | 0.12 | 0.920 |
@@ -103,14 +87,14 @@ Invert the formula to get an age from a measured fraction, add a 1 per cent erro
 
 The half-lives are the IAEA's. The 150-million-year age and the 1 per cent error are our teaching choices, not measurements of any Dorset rock. Real dating uses parent and daughter ratios, several isotope systems and careful laboratory corrections, which this simple model leaves out.
 
+Why the Jurassic Coast
+
 ## England's only natural World Heritage Site
 
 The Dorset link, and the data source, in their own words.
 
-**The coast and the clocks, from the sources we used**
-
 | Source | What it says |
-|---|---|
+| --- | --- |
 | Jurassic Coast website | Inscribed as a UNESCO World Heritage Site in 2001 for the Outstanding Universal Value of its rocks, fossils and landforms. |
 | Jurassic Coast website | "It remains England's only natural World Heritage Site." |
 | IAEA LiveChart | Carbon-14 half-life 5,700 years, with an uncertainty of 30 years. |
@@ -121,16 +105,41 @@ A coastline famous for fossils is the natural place to meet the mathematics of d
 
 Modern Age Coders has no connection with the Jurassic Coast World Heritage Site, UNESCO, the IAEA or either Dorset council, and nothing on this page implies one. The facts and half-lives are theirs; the calculations and any mistake in them are ours.
 
-**Nearby pages** [Devon](/coding-classes-in-devon) shares the Jurassic Coast to the west, and the [UK hub](/coding-classes-in-united-kingdom) lists every county and city page.
+Nearby pages
+
+[Devon](/coding-classes-in-devon) shares the Jurassic Coast to the west, and the [UK hub](/coding-classes-in-united-kingdom) lists every county and city page.
+
+Steps up
 
 ## From halving sweets to handling tiny numbers safely
 
 The free lesson decides where to begin, by ability. Year group is only a guide.
 
-- **Ages 6 to 10: Halving and doubling** Mental maths and Scratch games built on halving and doubling, the root of every growth and decay idea. [Mental Maths for Kids](/courses/mental-maths-mastery-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 10 to 13: Loops that shrink** Python loops that repeat an operation and print each step, so a learner can watch a quantity decay. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 18: Logs and precision** Exponentials, logarithms and floating-point limits, in A level Maths and in code that must not round to zero. [A-Level Maths](/courses/a-level-maths-course-pure-mechanics-statistics), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Numbers with uncertainty** Statistics for adults, including how errors in a measurement carry through into the answer. [Statistics & Probability](/courses/statistics-probability-maths-course), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### Halving and doubling
+
+Mental maths and Scratch games built on halving and doubling, the root of every growth and decay idea.
+
+[Mental Maths for Kids](/courses/mental-maths-mastery-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 10 to 13
+
+### Loops that shrink
+
+Python loops that repeat an operation and print each step, so a learner can watch a quantity decay.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 18
+
+### Logs and precision
+
+Exponentials, logarithms and floating-point limits, in A level Maths and in code that must not round to zero.
+
+[A-Level Maths](/courses/a-level-maths-course-pure-mechanics-statistics)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Numbers with uncertainty
+
+Statistics for adults, including how errors in a measurement carry through into the answer.
+
+[Statistics & Probability](/courses/statistics-probability-maths-course)[Data Analysis Course](/courses/data-analysis-mastery-course-college)AI and small numbers
 
 ## An AI can compute radioactive decay instantly. Would it notice the answer rounded to zero?
 
@@ -142,30 +151,139 @@ A Dorset student who has watched carbon-14 hit exactly zero, and fixed it with l
 
 So a Dorset teenager should learn to code in 2026 to know when a computer's exact-looking answer is really just the edge of what it can represent. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Lyme Bay to Poole Harbour, all online
 
 Dorset stretches a long way along its coast and inland. Online lessons make every town equally close.
 
-- **In your own home** A bedroom in Blandford Forum, a kitchen in Wareham, a desk in Verwood. The teacher shares a screen and the learner types.
-- **Familiar school language** Teachers use the terms Dorset pupils hear every day, from Year 8 to GCSE options and sixth form, and teach in English.
-- **Free first lesson** A proper lesson with real work and a straightforward recommendation. No card details are ever asked for.
-- **Classmates who match** A class of fifteen to twenty people who have all reached roughly the same point, pulled together from across the country so nobody is bored or lost.
-- **Breaks when school breaks** Two lessons a week is normal, paused for your own school's holidays, whichever council or trust set them.
-- **UK time on the timetable** Our teachers are in India, four and a half hours ahead in UK summer and five and a half in UK winter; the timetable is written in UK time.
+### In your own home
 
-**Why groups are formed by level** A county split between a busy conurbation and a long rural coast rarely has enough learners at one stage in one town. Level-based groups let a Christchurch learner and a Gillingham learner share a class.
+A bedroom in Blandford Forum, a kitchen in Wareham, a desk in Verwood. The teacher shares a screen and the learner types.
+
+### Familiar school language
+
+Teachers use the terms Dorset pupils hear every day, from Year 8 to GCSE options and sixth form, and teach in English.
+
+### Free first lesson
+
+A proper lesson with real work and a straightforward recommendation. No card details are ever asked for.
+
+### Classmates who match
+
+A class of fifteen to twenty people who have all reached roughly the same point, pulled together from across the country so nobody is bored or lost.
+
+### Breaks when school breaks
+
+Two lessons a week is normal, paused for your own school's holidays, whichever council or trust set them.
+
+### UK time on the timetable
+
+Our teachers are in India, four and a half hours ahead in UK summer and five and a half in UK winter; the timetable is written in UK time.
+
+Why groups are formed by level
+
+A county split between a busy conurbation and a long rural coast rarely has enough learners at one stage in one town. Level-based groups let a Christchurch learner and a Gillingham learner share a class.
+
+Fees
 
 ## Fees in Dorset
 
 The same prices in Bournemouth, Bridport and every town between, and in every country outside India.
 
-- First class: USD 0. A full lesson of genuine work, ending in a recommended level and course.
-- Group tuition: USD 100 a month. About eight lessons each month, in a group of fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. About eight lessons each month with one teacher and one learner.
+First class**USD 0**
+
+A full lesson of genuine work, ending in a recommended level and course.
+
+Group tuition**USD 100**
+
+About eight lessons each month, in a group of fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+About eight lessons each month with one teacher and one learner.
 
 Fees are set in US dollars for all families outside India, and no pound list exists. You pay only after the free lesson, once a course and a weekly time are agreed; the pricing page explains pausing, missed lessons and swapping between group and private.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20lesson%20for%20a%20learner%20in%20Dorset%2C%20please.)Reviews
+
+## What Google reviewers wrote
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Ask for your free lesson
+
+An age or school year and one interest is plenty. The first lesson might be a halving game, a first Python loop, or the half-life project on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Dorset one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20lesson%20for%20a%20learner%20in%20Dorset%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Dorset questions
+
+About the county, the half-life project and our lessons.
 
 ### How many people live in Dorset?
 
@@ -207,10 +325,14 @@ Nothing for the first lesson. Continuing costs USD 100 a month in a group or USD
 
 Dorset Council, BCP and academies set their own dates. We arrange lesson breaks around the dates your school gives you.
 
+The rest of the UK
+
 ## Pages beyond Dorset
 
 [Devon](/coding-classes-in-devon) shares the Jurassic Coast, and other county pages include [Cornwall](/coding-classes-in-cornwall) and [Berkshire](/coding-classes-in-berkshire). The [UK hub](/coding-classes-in-united-kingdom) has the full list.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20lesson%20for%20a%20learner%20in%20Dorset%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-dorset](https://learn.modernagecoders.com/coding-classes-in-dorset#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-dorset*

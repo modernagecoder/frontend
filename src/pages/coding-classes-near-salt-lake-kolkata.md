@@ -12,7 +12,7 @@ LIVE ONLINE · CODING & MATHS · SALT LAKE, KOLKATA
 
 Modern Age Coders runs premium, 100% live online coding and mathematics classes for families across Salt Lake, Bidhannagar and the Sector V IT belt. Small live batches are taught in real time by full-time software engineers and maths graduates, never pre-recorded videos. We cover ICSE Java/BlueJ, CBSE Python, AI/ML and school maths, project-based throughout. Book a free live demo class with no payment and no commitment.
 
-100% live, never recordedMax 15-20 per batchEngineers & maths graduatesICSE Java · CBSE Python · AI/MLFrom ₹1,499/mo[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)6-8Max students per live batch~90 minKarunamoyee + Sector V commute saved each class1-on-1Personalised option available0Payment to book your demoAT A GLANCE
+100% live, never recordedMax 20 per batchEngineers & maths graduatesICSE Java · CBSE Python · AI/MLFrom ₹1,499/mo[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)15-20Max students per live batch~90 minKarunamoyee + Sector V commute saved each class1-on-1Personalised option available0Payment to book your demoAT A GLANCE
 
 ## The essentials, on one screen
 

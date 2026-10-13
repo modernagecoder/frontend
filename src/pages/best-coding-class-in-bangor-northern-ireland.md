@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths lessons for Bangor learne
 canonical: https://learn.modernagecoders.com/best-coding-class-in-bangor-northern-ireland
 source: src/pages/best-coding-class-in-bangor-northern-ireland.html
 ---
-> The Bangor settlement had 64,596 usual residents at the 2021 census, according to the Northern Ireland Statistics and Research Agency, within the council area of Ards and North Down. The Historic Environment Division lists the Tower House on Quay Street with a construction date of 1600 to 1649. Bangor learners aged six to sixty-seven are taught live over video by teachers based in India, singly or in classes of fifteen to twenty at one level, with lesson times arranged around the Northern Ireland school day and working hours. The first lesson is free, and after that a class place is USD 100 a month and one-to-one teaching USD 150 a month.
+> Live online coding, Python, AI and maths lessons for Bangor learners aged 6 to 67, from Ballyholme and Groomsport to Carnalea and Crawfordsburn. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Bangor
-
-Bangor, County Down / Live online
-
-# Coding classes in Bangor, Northern Ireland
-
-**What are the best coding classes in Bangor, Northern Ireland?** The Bangor settlement had 64,596 usual residents at the 2021 census, according to the Northern Ireland Statistics and Research Agency, within the council area of Ards and North Down. The Historic Environment Division lists the Tower House on Quay Street with a construction date of 1600 to 1649. Bangor learners aged six to sixty-seven are taught live over video by teachers based in India, singly or in classes of fifteen to twenty at one level, with lesson times arranged around the Northern Ireland school day and working hours. The first lesson is free, and after that a class place is USD 100 a month and one-to-one teaching USD 150 a month.
-
-On an ordinary Wednesday, Translink's timetable has 51 trains leaving Bangor for Belfast, an average of one every 19.82 minutes. So an average wait of about ten minutes? No. Some trains leave three minutes apart in the rush hour, while in the evening the gaps stretch to half an hour or more, and a passenger who turns up at a random moment is far more likely to land in a long gap than a short one. Our Bangor project rebuilds the timetable from Translink's open data and measures the real average wait: 13.64 minutes, not 9.91. Teenagers prove it with a formula, then again by simulating 200,000 passengers.
-
-Facts last verified 23 September 2026. Teaching is online; no Bangor branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Bangor
 
 ## Four courses for the city at the end of the line
 
 Choose the course that fits what the learner already likes. All four start with a free live lesson, and booking asks for no card.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 12): Block programming for younger children, from games to a train that leaves a station on a timetable.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): Averages, fractions of time and simple probability written as short programs, the maths behind every timetable.
-- [Statistics & Probability](/courses/statistics-probability-maths-course) (Ages 14 to 18): Statistics and probability built up step by step, including why a random moment is more likely to fall in a long gap.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (University and adult): Python for adults who read schedules, logs and service data, and need averages that match what people actually experience.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 12Scratch Coding for KidsBlock programming for younger children, from games to a train that leaves a station on a timetable.See the syllabus](/courses/scratch-programming-complete-course)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingAverages, fractions of time and simple probability written as short programs, the maths behind every timetable.See the syllabus](/courses/maths-through-coding)[![Statistics & Probability course thumbnail](/images/statistics-probability-maths.webp)Ages 14 to 18Statistics & ProbabilityStatistics and probability built up step by step, including why a random moment is more likely to fall in a long gap.See the syllabus](/courses/statistics-probability-maths-course)[![Python Automation Course course thumbnail](/images/python-college.webp)University and adultPython Automation CoursePython for adults who read schedules, logs and service data, and need averages that match what people actually experience.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Bangor today
 
 ## A city in North Down
 
 Census 2021 figures from the Northern Ireland Statistics and Research Agency (NISRA), for the Bangor settlement, the three district electoral areas named after the city, the council area and Northern Ireland.
 
-**Bangor in the 2021 census, usual residents (NISRA)**
-
 | Area | Type of area | Usual residents |
-|---|---|---|
+| --- | --- | --- |
 | Bangor | Settlement | 64,596 |
 | Bangor Central | District electoral area | 26,637 |
 | Bangor East and Donaghadee | District electoral area | 22,850 |
@@ -65,6 +51,8 @@ People aged 90 or over were 1.0% of Bangor residents in 2021, compared with 0.7%
 
 Each figure is quoted exactly as NISRA publishes it, table by table, without adding areas or age groups together. Our Bangor classes draw on the city and the places along the coast and the line. A Ballyholme seven-year-old making a first game, a Year 12 student from Carnalea preparing for CCEA GCSE Digital Technology and a Groomsport adult learning Python for work could each join a different class, grouped by level.
 
+Listed Bangor
+
 ## A tower house, a town hall and a railway line
 
 From the Listed Buildings Northern Ireland dataset of the Department for Communities' Historic Environment Division, published on OpenDataNI.
@@ -83,16 +71,18 @@ Along the line to Belfast, the station at Helen's Bay and the railway viaduct in
 
 The same dataset lists the Royal Ulster Yacht Club on Clifton Road at Grade B+, built between 1880 and 1899, and many buildings on the Clandeboye estate. The line those Grade A railway structures serve is the one whose timetable this project studies. We have no connection with the Department for Communities, Translink or Ards and North Down Borough Council, and the records here are theirs.
 
-**Where the timetable comes from** Translink publishes the complete NI Railways timetable on OpenDataNI in the TransXChange format, under the Open Government Licence. The version used here was updated on 4 September 2026. We rebuilt every journey from its pattern of stops and running times, then kept the trains leaving Bangor for Belfast.
+Where the timetable comes from
+
+Translink publishes the complete NI Railways timetable on OpenDataNI in the TransXChange format, under the Open Government Licence. The version used here was updated on 4 September 2026. We rebuilt every journey from its pattern of stops and running times, then kept the trains leaving Bangor for Belfast.
+
+Signature project
 
 ## Why is the wait longer than half the gap?
 
 If trains ran exactly every 20 minutes, a passenger arriving at a random moment would wait 10 minutes on average. When gaps vary, the long gaps take up more of the day, so more random arrivals fall into them. The average wait becomes the sum of the squared gaps divided by twice their total.
 
-**Trains from Bangor towards Belfast in the NI Railways timetable, for dates in autumn 2026**
-
 | Day | Trains | Average gap | Half the average gap | Real average wait |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Wednesday 30 September | 51 | 19.82 minutes | 9.91 minutes | 13.64 minutes |
 | Saturday 3 October | 31 | 32.00 minutes | 16.00 minutes | 16.88 minutes |
 | Sunday 4 October | 14 | 60.00 minutes | 30.00 minutes | 30.00 minutes |
@@ -115,14 +105,14 @@ Half of the Wednesday's gaps are 20 minutes or longer, but those long gaps cover
 
 Of course, most commuters check the timetable and do not arrive at random, so the 13.64 minutes describes someone who turns up without looking. It also shows what the timetable could offer: 51 trains spread evenly over the same hours would give an average wait of 9.91 minutes. Pairing trains in the rush hour suits passengers who plan their journey; someone who turns up at a random moment gains less from it.
 
+Averages that mislead
+
 ## Five checks before quoting an average wait
 
 Learned on the Bangor line, then used for bus stops, lift queues, website response times, class sizes and any average where people meet the long cases more often than the short ones.
 
-**Decisions behind the Bangor timetable study**
-
 | Question | For the Bangor trains | What goes wrong if you skip it |
-|---|---|---|
+| --- | --- | --- |
 | Average of what? | Waits felt by passengers, not gaps between trains | A service that seems twice as frequent as it feels |
 | Which day is it? | A Wednesday, a Saturday and a Sunday | A weekday figure quoted for the weekend |
 | Does the formula hold? | Checked with 200,000 simulated arrivals | A formula applied without being tested |
@@ -145,14 +135,37 @@ Spotting averages at work that describe the system rather than the people using 
 
 We have no connection with Translink, the Northern Ireland Statistics and Research Agency or the Department for Communities. The timetable, census tables and listed buildings data are published openly; the journey rebuilding, waiting-time calculations and simulation on this page are our own work.
 
+Learning ladder
+
 ## From a paper clock to the inspection paradox
 
 The ages are a rough guide; the free lesson finds the right starting level.
 
-- **Ages 6 to 10: Times and gaps** Reading times, counting gaps and making a simple timetable game in block code. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 11 to 13: Averages in Python** Lists of times, differences and averages in Python, with a program that finds the longest gap. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Paradoxes and simulation** Reading a real data file, the inspection paradox and Monte Carlo checks against exact formulas. [Statistics & Probability](/courses/statistics-probability-maths-course), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Service data at work** Measuring waits, delays and queues as customers experience them, with honest averages. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### Times and gaps
+
+Reading times, counting gaps and making a simple timetable game in block code.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 11 to 13
+
+### Averages in Python
+
+Lists of times, differences and averages in Python, with a program that finds the longest gap.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Paradoxes and simulation
+
+Reading a real data file, the inspection paradox and Monte Carlo checks against exact formulas.
+
+[Statistics & Probability](/courses/statistics-probability-maths-course)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Service data at work
+
+Measuring waits, delays and queues as customers experience them, with honest averages.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## AI can average any table. Why should a Bangor teenager ask what the average means?
 
@@ -164,30 +177,139 @@ The project also practises working with a real, messy data format. Rebuilding jo
 
 So a Bangor teenager should keep learning to code in 2026, at the end of a line whose Grade A station at Helen's Bay dates from the 1860s or 1870s: AI can compute an average instantly, but people still decide which average matters. The longer argument is in [why coding is worth learning in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Ballyholme, Groomsport or Helen's Bay, in one class
 
 Bangor learners live along the coast and the railway, from Groomsport to Helen's Bay. Online, no one needs to catch a train for the lesson.
 
-- **Coast and line** A learner in Seahill and another in Crawfordsburn can share a class without waiting on any platform.
-- **Northern Ireland school years** Our stages follow Northern Ireland schooling from P1 to Year 14, through the transfer test years to CCEA GCSE and A level, with every lesson taught in English.
-- **A working first lesson** The free session is real coding, not a presentation, and ends with the teacher recommending a level, a course and a weekly slot. No card is needed.
-- **Classes by level** Fifteen to twenty learners at the same stage, drawn from Bangor, the rest of the UK and abroad, so every level has workable times.
-- **Two lessons weekly** Two fixed lessons each week, about eight a month, with holidays and exam study arranged with the teacher in advance.
-- **India time** India does not change its clocks, so a Bangor lesson at 5 pm starts at 21:30 for our teachers in summer and 22:30 in winter.
+### Coast and line
 
-**Across County Down** Learners in Newtownards, Holywood, Donaghadee or Comber join exactly the same classes, since every lesson is online and classes are set by level.
+A learner in Seahill and another in Crawfordsburn can share a class without waiting on any platform.
+
+### Northern Ireland school years
+
+Our stages follow Northern Ireland schooling from P1 to Year 14, through the transfer test years to CCEA GCSE and A level, with every lesson taught in English.
+
+### A working first lesson
+
+The free session is real coding, not a presentation, and ends with the teacher recommending a level, a course and a weekly slot. No card is needed.
+
+### Classes by level
+
+Fifteen to twenty learners at the same stage, drawn from Bangor, the rest of the UK and abroad, so every level has workable times.
+
+### Two lessons weekly
+
+Two fixed lessons each week, about eight a month, with holidays and exam study arranged with the teacher in advance.
+
+### India time
+
+India does not change its clocks, so a Bangor lesson at 5 pm starts at 21:30 for our teachers in summer and 22:30 in winter.
+
+Across County Down
+
+Learners in Newtownards, Holywood, Donaghadee or Comber join exactly the same classes, since every lesson is online and classes are set by level.
+
+Fees
 
 ## Bangor lesson fees
 
 The first lesson is free, then there is one monthly fee.
 
-- First class: USD 0. A full lesson with no charge, ending with a suggested level, course and weekly slot.
-- Group tuition: USD 100 a month. Around eight live lessons a month, in a class of fifteen to twenty learners at one stage.
-- Private tuition: USD 150 a month. Around eight live lessons a month, with a teacher for your learner alone.
+First class**USD 0**
+
+A full lesson with no charge, ending with a suggested level, course and weekly slot.
+
+Group tuition**USD 100**
+
+Around eight live lessons a month, in a class of fifteen to twenty learners at one stage.
+
+Private tuition**USD 150**
+
+Around eight live lessons a month, with a teacher for your learner alone.
 
 Families in Clandeboye or Bangor West pay in US dollars, like all families outside India, and our site shows no pound prices. Nothing is charged until after the free lesson and the agreement of a course and weekly slot; the pricing page explains pauses, missed lessons and switching between group and one-to-one teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Bangor%2C%20Northern%20Ireland.)Reviews
+
+## Six Google reviews from families, as written
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson for a Bangor learner
+
+The first lesson fits the learner: a timetable game for a young child, a short Python program that finds the gaps in a list of times for a beginner, or the real NI Railways timetable and the inspection paradox for a teenager ready for probability.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Bangor one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Bangor%2C%20Northern%20Ireland.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Bangor coding class questions
+
+What Bangor families ask us most.
 
 ### How many people live in Bangor?
 
@@ -229,10 +351,14 @@ The first lesson is free. After that, a group place costs USD 100 a month for tw
 
 By level, pace and goals rather than age or where they live, with fifteen to twenty learners at the same stage. If no group suits the learner's week, we offer one-to-one lessons.
 
+Explore Northern Ireland and the UK
+
 ## Northern Ireland and beyond
 
 Down the line, the [Belfast page](/best-coding-class-in-belfast) runs PageRank over the city's Metro and Glider stops, and [Armagh](/best-coding-class-in-armagh) counts how far a star catalogue is out of order. Students working towards CCEA qualifications will find help for [GCSE Digital Technology programming](/ccea-gcse-digital-technology-programming-help) and [A level Software Systems Development](/ccea-a-level-software-systems-development-help). How our levels line up with Northern Ireland schooling is set out in the [Northern Ireland guide](/coding-and-ai-classes-in-northern-ireland), and the [UK coding page](/coding-classes-in-united-kingdom) links every other city.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Bangor%2C%20Northern%20Ireland.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-bangor-northern-ireland](https://learn.modernagecoders.com/best-coding-class-in-bangor-northern-ireland#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-bangor-northern-ireland*

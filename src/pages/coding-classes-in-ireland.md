@@ -725,45 +725,185 @@ SETU (South East Technological University) feeder area. De La Salle Waterford, N
 
 Smaller, rural student base, but the online format means location doesn't matter. We have students in Letterkenny, Tralee, Killarney, Castlebar, Westport getting the same quality as Dublin 4.
 
-**Schools:** Various rural community & voluntary secondary schools
-
-<!-- ireland-pages:start -->
-
-Ireland, page by page
+**Schools:** Various rural community & voluntary secondary schoolsIreland, page by page
 
 ## Coding classes near you, and guides to choosing well.
 
 Pages for Irish places and for the questions Irish families ask most, each written for its own readers, with its facts checked at the source.
 
-- [Best coding class in the world](/best-coding-class-in-the-world): Eight tests any coding class should pass, from research on how people learn to program.
-- [Best online coding classes in Ireland](/best-online-coding-classes-ireland): Where coding sits in Irish schools, six checks for any provider, and what clubs, camps, grinds and live classes are each for.
-- [Understand the code, don't copy-paste](/understand-the-code-dont-copy-paste-ireland): What Irish school and exam guidance says about AI, and how to learn code you can explain line by line.
-- [Leaving Cert Computer Science grinds online](/leaving-cert-computer-science-grinds-online): The subject's strands, exam and coursework, the changes coming in 2027, and live grinds for Fifth and Sixth Years.
-- [After CoderDojo: the next step in coding](/after-coderdojo-next-step-coding-ireland): For children who have outgrown a free coding club: the step from Scratch to Python and AI, with a teacher and a clear path.
-- [AI and Python academy for girls in Ireland](/ai-and-python-academy-for-girls-ireland): Who studies and works in computing in Ireland, why interest fades, and a mixed class that keeps a learner going.
-- [Junior Cycle Coding short course help](/junior-cycle-coding-short-course-help): The Coding short course and its Classroom-Based Assessment, explained, with the help a learner can have and the line we never cross.
-- [Best coding classes for kids in Ireland](/best-coding-classes-for-kids-ireland): Coding for primary-school children, from Junior Infants to Sixth Class: blocks, Scratch and first Python, set against the new primary curriculum.
-- [Best coding classes for teens in Ireland](/best-coding-classes-for-teens-ireland): Coding for secondary-school students, First Year to the Leaving Cert: Python, the web, apps and AI, with a data project on Irish school enrolments.
-- [Transition Year coding course in Ireland](/transition-year-coding-course-ireland): A coding project that lasts the whole of Transition Year, fitted to the new Programme Statement and to your school's own TY plan.
-- [AI agents course for students in Ireland](/ai-agents-course-for-students-ireland): For students in Ireland who want to build AI agents as their own work, inside Irish academic integrity guidance.
-- [Online coding summer course in Ireland](/online-coding-summer-course-ireland): A live online coding course across the Irish summer holidays, for primary and secondary students, from June to the week school reopens.
-- [Learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-ireland): For families who want a class that builds thinking rather than tool use, set against the key skills and competencies Irish schools already teach.
-- [Problem solving skills through coding in Ireland](/problem-solving-skills-through-coding-ireland): What PISA and the Irish maths curriculum say about problem solving, and how coding classes build it step by step.
-- [Best coding classes for adults in Ireland](/best-coding-classes-for-adults-ireland): Coding for adults in Ireland, whether you are changing career, returning to work or simply curious, with the public routes explained honestly.
-- [Coding for college students in Ireland](/coding-for-college-students-ireland): For students in Irish higher education: what first-year programming actually asks, and how to build the portfolio employers look at.
-- [Full stack software development course in Ireland](/full-stack-software-development-course-ireland): Front end, back end and database together, with an honest reading of what Irish labour market data does and does not say.
-- [Best Python classes online in Ireland](/best-python-classes-online-ireland): Python taught on Ireland's own public data, from a child's first program to the CSO statistical tables professionals actually use.
-- [Build real AI projects in Ireland](/build-real-ai-projects-ireland): Building AI projects on real Irish data, including how to tell an honest result from a leaked one.
-- [Data science course in Ireland](/data-science-course-ireland): Data science taught on Ireland's open data portal, including how to read a licence and how to spot a column that mixes units.
-- [Learn to train AI, not just prompt it](/learn-to-train-ai-not-just-prompt-it-ireland): The difference between prompting a model and training one, worked through on an Irish dataset with a baseline you have to beat.
-- [AI agents course for professionals in Ireland](/ai-agents-course-for-professionals-ireland): For professionals in Ireland building AI agents at work, with the national adoption figures read carefully.
-- [Java classes in Ireland](/java-classes-ireland): Where Java actually sits in Irish computing education, and how to learn it properly at school, in college or at work.
-- [App development course in Ireland](/app-development-course-ireland): Building and shipping real mobile apps, with two Irish public apps read as worked examples.
-- [Coding classes in Dublin](/best-coding-class-in-dublin): The city and county, from Swords to Tallaght, with a project on Dublin Bikes data.
-- [Coding classes in Cork](/best-coding-class-in-cork): The southern capital, from Ballincollig to Mayfield, with a project on the city's own footfall counters.
-- [Coding classes in Limerick](/best-coding-class-in-limerick): The Shannon city, with a project on the bridge counter whose late-night hours quietly disappear.
-- [Coding classes in Galway](/best-coding-class-in-galway): The walking city, with a project on a seventeen-row file that can still be got wrong four ways.
-- [Coding classes in Waterford](/best-coding-class-in-waterford): Ireland's oldest city, with a project about a dataset nobody licensed and what to do about that.
+WORLDWIDE
+
+### [Best coding class in the world](/best-coding-class-in-the-world)
+
+Eight tests any coding class should pass, from research on how people learn to program.
+
+CHOOSING A CLASS
+
+### [Best online coding classes in Ireland](/best-online-coding-classes-ireland)
+
+Where coding sits in Irish schools, six checks for any provider, and what clubs, camps, grinds and live classes are each for.
+
+AI AND YOUR OWN WORK
+
+### [Understand the code, don't copy-paste](/understand-the-code-dont-copy-paste-ireland)
+
+What Irish school and exam guidance says about AI, and how to learn code you can explain line by line.
+
+LEAVING CERT
+
+### [Leaving Cert Computer Science grinds online](/leaving-cert-computer-science-grinds-online)
+
+The subject's strands, exam and coursework, the changes coming in 2027, and live grinds for Fifth and Sixth Years.
+
+AFTER A CODING CLUB
+
+### [After CoderDojo: the next step in coding](/after-coderdojo-next-step-coding-ireland)
+
+For children who have outgrown a free coding club: the step from Scratch to Python and AI, with a teacher and a clear path.
+
+GIRLS IN CODING
+
+### [AI and Python academy for girls in Ireland](/ai-and-python-academy-for-girls-ireland)
+
+Who studies and works in computing in Ireland, why interest fades, and a mixed class that keeps a learner going.
+
+JUNIOR CYCLE
+
+### [Junior Cycle Coding short course help](/junior-cycle-coding-short-course-help)
+
+The Coding short course and its Classroom-Based Assessment, explained, with the help a learner can have and the line we never cross.
+
+KIDS
+
+### [Best coding classes for kids in Ireland](/best-coding-classes-for-kids-ireland)
+
+Coding for primary-school children, from Junior Infants to Sixth Class: blocks, Scratch and first Python, set against the new primary curriculum.
+
+TEENS
+
+### [Best coding classes for teens in Ireland](/best-coding-classes-for-teens-ireland)
+
+Coding for secondary-school students, First Year to the Leaving Cert: Python, the web, apps and AI, with a data project on Irish school enrolments.
+
+TRANSITION YEAR
+
+### [Transition Year coding course in Ireland](/transition-year-coding-course-ireland)
+
+A coding project that lasts the whole of Transition Year, fitted to the new Programme Statement and to your school's own TY plan.
+
+AI AGENTS, STUDENTS
+
+### [AI agents course for students in Ireland](/ai-agents-course-for-students-ireland)
+
+For students in Ireland who want to build AI agents as their own work, inside Irish academic integrity guidance.
+
+SUMMER
+
+### [Online coding summer course in Ireland](/online-coding-summer-course-ireland)
+
+A live online coding course across the Irish summer holidays, for primary and secondary students, from June to the week school reopens.
+
+THINKING
+
+### [Learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-ireland)
+
+For families who want a class that builds thinking rather than tool use, set against the key skills and competencies Irish schools already teach.
+
+PROBLEM SOLVING
+
+### [Problem solving skills through coding in Ireland](/problem-solving-skills-through-coding-ireland)
+
+What PISA and the Irish maths curriculum say about problem solving, and how coding classes build it step by step.
+
+ADULTS
+
+### [Best coding classes for adults in Ireland](/best-coding-classes-for-adults-ireland)
+
+Coding for adults in Ireland, whether you are changing career, returning to work or simply curious, with the public routes explained honestly.
+
+COLLEGE
+
+### [Coding for college students in Ireland](/coding-for-college-students-ireland)
+
+For students in Irish higher education: what first-year programming actually asks, and how to build the portfolio employers look at.
+
+FULL STACK
+
+### [Full stack software development course in Ireland](/full-stack-software-development-course-ireland)
+
+Front end, back end and database together, with an honest reading of what Irish labour market data does and does not say.
+
+PYTHON
+
+### [Best Python classes online in Ireland](/best-python-classes-online-ireland)
+
+Python taught on Ireland's own public data, from a child's first program to the CSO statistical tables professionals actually use.
+
+AI PROJECTS
+
+### [Build real AI projects in Ireland](/build-real-ai-projects-ireland)
+
+Building AI projects on real Irish data, including how to tell an honest result from a leaked one.
+
+DATA SCIENCE
+
+### [Data science course in Ireland](/data-science-course-ireland)
+
+Data science taught on Ireland's open data portal, including how to read a licence and how to spot a column that mixes units.
+
+TRAIN AI
+
+### [Learn to train AI, not just prompt it](/learn-to-train-ai-not-just-prompt-it-ireland)
+
+The difference between prompting a model and training one, worked through on an Irish dataset with a baseline you have to beat.
+
+AI AGENTS, WORK
+
+### [AI agents course for professionals in Ireland](/ai-agents-course-for-professionals-ireland)
+
+For professionals in Ireland building AI agents at work, with the national adoption figures read carefully.
+
+JAVA
+
+### [Java classes in Ireland](/java-classes-ireland)
+
+Where Java actually sits in Irish computing education, and how to learn it properly at school, in college or at work.
+
+APP DEVELOPMENT
+
+### [App development course in Ireland](/app-development-course-ireland)
+
+Building and shipping real mobile apps, with two Irish public apps read as worked examples.
+
+DUBLIN
+
+### [Coding classes in Dublin](/best-coding-class-in-dublin)
+
+The city and county, from Swords to Tallaght, with a project on Dublin Bikes data.
+
+CORK
+
+### [Coding classes in Cork](/best-coding-class-in-cork)
+
+The southern capital, from Ballincollig to Mayfield, with a project on the city's own footfall counters.
+
+LIMERICK
+
+### [Coding classes in Limerick](/best-coding-class-in-limerick)
+
+The Shannon city, with a project on the bridge counter whose late-night hours quietly disappear.
+
+GALWAY
+
+### [Coding classes in Galway](/best-coding-class-in-galway)
+
+The walking city, with a project on a seventeen-row file that can still be got wrong four ways.
+
+WATERFORD
+
+### [Coding classes in Waterford](/best-coding-class-in-waterford)
+
+Ireland's oldest city, with a project about a dataset nobody licensed and what to do about that.
 
 **Counties and council areas:** [Dún Laoghaire-Rathdown](/coding-classes-in-dun-laoghaire-rathdown) · [County Wexford](/coding-classes-in-county-wexford) · [County Louth](/coding-classes-in-county-louth) · [County Carlow](/coding-classes-in-county-carlow) · [County Laois](/coding-classes-in-county-laois) · [County Kildare](/coding-classes-in-county-kildare) · [County Meath](/coding-classes-in-county-meath) · [County Wicklow](/coding-classes-in-county-wicklow) · [Fingal](/coding-classes-in-fingal) · [South Dublin](/coding-classes-in-south-dublin) · [County Westmeath](/coding-classes-in-county-westmeath) · [County Cork](/coding-classes-in-county-cork) · [County Galway](/coding-classes-in-county-galway) · [County Kerry](/coding-classes-in-county-kerry) · [County Clare](/coding-classes-in-county-clare) · [County Tipperary](/coding-classes-in-county-tipperary) · [County Kilkenny](/coding-classes-in-county-kilkenny) · [County Offaly](/coding-classes-in-county-offaly) · [County Longford](/coding-classes-in-county-longford) · [County Mayo](/coding-classes-in-county-mayo) · [County Donegal](/coding-classes-in-county-donegal) · [County Sligo](/coding-classes-in-county-sligo) · [County Leitrim](/coding-classes-in-county-leitrim) · [County Roscommon](/coding-classes-in-county-roscommon) · [County Cavan](/coding-classes-in-county-cavan) · [County Monaghan](/coding-classes-in-county-monaghan)
 
@@ -772,8 +912,6 @@ Pages for Irish places and for the questions Irish families ask most, each writt
 **City areas:** [Blanchardstown](/coding-classes-in-blanchardstown-dublin) · [Castleknock](/coding-classes-in-castleknock-dublin) · [Lucan](/coding-classes-in-lucan-dublin) · [Sandyford](/coding-classes-in-sandyford-dublin) · [Dundrum](/coding-classes-in-dundrum-dublin) · [Ballincollig](/coding-classes-in-ballincollig-cork) · [Douglas](/coding-classes-in-douglas-cork) · [Castletroy](/coding-classes-in-castletroy-limerick) · [Tallaght](/coding-classes-in-tallaght-dublin) · [Clondalkin](/coding-classes-in-clondalkin-dublin) · [Rathfarnham](/coding-classes-in-rathfarnham-dublin) · [Dún Laoghaire](/coding-classes-in-dun-laoghaire-dublin) · [Blackrock](/coding-classes-in-blackrock-dublin) · [Stillorgan](/coding-classes-in-stillorgan-dublin) · [Rathmines](/coding-classes-in-rathmines-dublin) · [Drumcondra](/coding-classes-in-drumcondra-dublin) · [Glasnevin](/coding-classes-in-glasnevin-dublin) · [Clontarf](/coding-classes-in-clontarf-dublin) · [Howth](/coding-classes-in-howth-dublin) · [Finglas](/coding-classes-in-finglas-dublin) · [Ballymun](/coding-classes-in-ballymun-dublin) · [Crumlin](/coding-classes-in-crumlin-dublin) · [Terenure](/coding-classes-in-terenure-dublin) · [Bishopstown](/coding-classes-in-bishopstown-cork) · [Glanmire](/coding-classes-in-glanmire-cork) · [Knocknacarra](/coding-classes-in-knocknacarra-galway)
 
 **Towns:** [Swords](/best-coding-class-in-swords) · [Maynooth](/best-coding-class-in-maynooth) · [Leixlip](/best-coding-class-in-leixlip) · [Celbridge](/best-coding-class-in-celbridge) · [Malahide](/best-coding-class-in-malahide) · [Naas](/best-coding-class-in-naas) · [Athlone](/best-coding-class-in-athlone) · [Greystones](/best-coding-class-in-greystones) · [Bray](/best-coding-class-in-bray) · [Ashbourne](/best-coding-class-in-ashbourne) · [Ratoath](/best-coding-class-in-ratoath) · [Carrigaline](/best-coding-class-in-carrigaline) · [Drogheda](/best-coding-class-in-drogheda) · [Dundalk](/best-coding-class-in-dundalk) · [Navan](/best-coding-class-in-navan) · [Ennis](/best-coding-class-in-ennis) · [Carlow](/best-coding-class-in-carlow) · [Kilkenny](/best-coding-class-in-kilkenny) · [Tralee](/best-coding-class-in-tralee) · [Newbridge](/best-coding-class-in-newbridge) · [Balbriggan](/best-coding-class-in-balbriggan) · [Portlaoise](/best-coding-class-in-portlaoise) · [Mullingar](/best-coding-class-in-mullingar) · [Letterkenny](/best-coding-class-in-letterkenny) · [Wexford](/best-coding-class-in-wexford) · [Sligo](/best-coding-class-in-sligo) · [Clonmel](/best-coding-class-in-clonmel) · [Laytown-Bettystown](/best-coding-class-in-laytown-bettystown) · [Tullamore](/best-coding-class-in-tullamore) · [Killarney](/best-coding-class-in-killarney) · [Cobh](/best-coding-class-in-cobh) · [Midleton](/best-coding-class-in-midleton) · [Mallow](/best-coding-class-in-mallow) · [Arklow](/best-coding-class-in-arklow) · [Castlebar](/best-coding-class-in-castlebar) · [Wicklow](/best-coding-class-in-wicklow) · [Enniscorthy](/best-coding-class-in-enniscorthy) · [Cavan](/best-coding-class-in-cavan) · [Gorey](/best-coding-class-in-gorey) · [Tramore](/best-coding-class-in-tramore) · [Athy](/best-coding-class-in-athy) · [Longford](/best-coding-class-in-longford) · [Rush](/best-coding-class-in-rush) · [Portmarnock](/best-coding-class-in-portmarnock) · [Skerries](/best-coding-class-in-skerries) · [Ballina](/best-coding-class-in-ballina) · [Kildare](/best-coding-class-in-kildare) · [Shannon](/best-coding-class-in-shannon) · [Dungarvan](/best-coding-class-in-dungarvan)
-
-<!-- ireland-pages:end -->
 
 Real shipped student projects
 

@@ -4,34 +4,28 @@ description: "Online maths tuition in Edinburgh for ages 6 to 67: primary maths,
 canonical: https://learn.modernagecoders.com/maths-tuition-in-edinburgh
 source: src/pages/maths-tuition-in-edinburgh.html
 ---
-> Edinburgh learners aged 6 to 67 study maths with us live online, at whatever stage they are: early and upper primary, the S1 to S3 years, the three SQA senior courses (National 5, Higher, Advanced Higher), or adult study. Learners share a class of fifteen to twenty at the same level, unless they prefer a private teacher. Our Edinburgh example is a height profile up Arthur's Seat from the Palace of Holyroodhouse: the average gradient along the straight line is 0.149, but the steepest twenty-metre step is 0.574, and the chord gradient to the summit changes as the chord shrinks, which is how Higher Mathematics introduces rate of change. The trial is free of charge. Continuing lessons cost USD 100 monthly in a group or USD 150 monthly on a one to one basis.
+> Online maths tuition in Edinburgh for ages 6 to 67: primary maths, National 5, Higher and Advanced Higher, and adult maths, with a gradient project on Arthur's Seat.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths tuition in Edinburgh
+In short
 
-Edinburgh · Maths for ages 6 to 67 · Live lessons online, small groups or individual
+Edinburgh learners aged 6 to 67 study maths with us live online, at whatever stage they are: early and upper primary, the S1 to S3 years, the three SQA senior courses (National 5, Higher, Advanced Higher), or adult study. Learners share a class of fifteen to twenty at the same level, unless they prefer a private teacher. Our Edinburgh example is a height profile up Arthur's Seat from the Palace of Holyroodhouse: the average gradient along the straight line is 0.149, but the steepest twenty-metre step is 0.574, and the chord gradient to the summit changes as the chord shrinks, which is how Higher Mathematics introduces rate of change. The trial is free of charge. Continuing lessons cost USD 100 monthly in a group or USD 150 monthly on a one to one basis.
 
-# Maths tuition in Edinburgh
-
-How steep is Arthur's Seat? Draw a straight line on the map from the Palace of Holyroodhouse to the summit and it runs 1,143.8 metres. Along it, a public elevation model gains 170.5 metres, an average gradient of 0.149, or about 8.5 degrees. That sounds gentle, and anyone who has climbed it knows it is not. Near the top, one twenty-metre stretch climbs at 0.574, almost 30 degrees. The difference between an average gradient and a local one is the idea behind differentiation, which Scottish learners meet properly at Higher. This page explains how we teach maths to Edinburgh learners of every age and uses that one hill to connect the stages.
-
-At a glance: Who: Edinburgh learners from 6 to 67; Primary: P1 to P7 number, measure and shape; BGE: S1 to S3, including straight-line gradient; Senior phase: National 5, Higher, Advanced Higher; Adults: Refreshers and a route back to SQA courses; Format: Live video, 15 to 20 per group or one to one; Teachers: In India, timetabled in UK time; Local project: A height profile up Arthur's Seat. Rated 4.9 across 547 Google reviews.
+Where most Edinburgh learners join
 
 ## Three usual first courses
 
 Choose by stage. Everything else, from first counting to degree-level maths, follows below.
 
-- [Primary maths](/courses/elementary-mathematics-complete-masterclass): From P1 counting to P7 fractions, with measure and scale taught through maps and real distances.
-- [National 5 level maths](/courses/gcse-mathematics-mastery): Most GCSE topics reappear in National 5, so this course works as a topic match, taught against the National 5 course specification.
-- [Higher and Advanced Higher level maths](/courses/a-level-maths-course-pure-mechanics-statistics): Calculus and algebra from the English A level course, re-sequenced to follow the SQA senior courses.
+[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  EDI / 1 Primary maths From P1 counting to P7 fractions, with measure and scale taught through maps and real distances. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)[![GCSE Maths course thumbnail](/images/gcse-maths.webp)  EDI / 2 National 5 level maths Most GCSE topics reappear in National 5, so this course works as a topic match, taught against the National 5 course specification. Open the syllabus →](/courses/gcse-mathematics-mastery)[![A-Level Maths course thumbnail](/images/a-level-maths.webp)  EDI / 3 Higher and Advanced Higher level maths Calculus and algebra from the English A level course, re-sequenced to follow the SQA senior courses. Open the syllabus →](/courses/a-level-maths-course-pure-mechanics-statistics)
+
+The Scottish route
 
 ## From P1 to Advanced Higher: maths for Edinburgh learners
 
 Edinburgh schools follow the Curriculum for Excellence and SQA qualifications, not GCSEs and A levels, which belong to the English system. Adults can re-enter at whichever level suits them.
 
-**How maths progresses in Scotland, with our emphasis at each stage**
-
 | Stage | Typical ages | Our emphasis |
-|---|---|---|
+| --- | --- | --- |
 | Early primary | 5 to 8 | Counting, place value, number facts, shape and simple measure. |
 | Later primary | 8 to 12 | Multiplication, fractions, decimals, scale on maps and explaining a strategy. |
 | S1 to S3 | 11 to 15 | Algebra, Pythagoras, the gradient of a straight line and early statistics. |
@@ -54,6 +48,8 @@ Each course has its own page with us: [National 5 maths](/national-5-maths-tuiti
 
 Sources: SQA course specifications for [National 5](https://www.sqa.org.uk/sqa/files_ccc/n5-course-spec-mathematics.pdf), [Higher](https://www.sqa.org.uk/sqa/files_ccc/h-course-spec-mathematics.pdf) and [Advanced Higher](https://www.sqa.org.uk/files_ccc/AHCourseSpecMathematics.pdf) Mathematics, read on 1 October 2026. Ages are typical rather than fixed.
 
+The Edinburgh project
+
 ## How steep is Arthur's Seat? A height profile, point by point
 
 We drew one straight line from the palace to the summit and read the ground height every 19.72 metres from a public elevation model. It is not a walking route; it is a clean set of numbers.
@@ -66,10 +62,8 @@ The line does not simply climb. It rises a little, dips to 39.4 metres about 177
 
 Add up only the uphill steps and you climb 195.4 metres to finish 170.5 metres higher than you started. A walker feels the 195.4, and a map that quotes only the net gain hides it. Simple subtraction and addition, done carefully, already tells a story.
 
-**Heights along the straight line from the palace to the summit, every five steps, from EU-DEM (our extraction)**
-
 | Distance along, m | Height, m |
-|---|---|
+| --- | --- |
 | 0 | 43.0 |
 | 197 | 39.5 |
 | 394 | 82.1 |
@@ -81,6 +75,8 @@ Add up only the uphill steps and you climb 195.4 metres to finish 170.5 metres h
 | 1,144 | 213.6 |
 
 Heights: EU-DEM v1.1 (produced using Copernicus data and information funded by the European Union) via [OpenTopoData eudem25m](https://www.opentopodata.org/datasets/eudem/), read on 1 October 2026. End points: [OpenStreetMap contributors](https://www.openstreetmap.org/copyright). Distances, gradients and sums are Modern Age Coders' calculations. This is not a route guide; paths on the hill do not follow a straight line.
+
+Higher Maths on a hillside
 
 ## Average gradient, local gradient and the idea of a derivative
 
@@ -98,10 +94,8 @@ Take a chord that ends at the summit and starts further and further back. Over t
 
 The values settle as the chord shrinks, around 0.29 for the very top. On a smooth curve that limit would be the derivative. On real data the steps cannot shrink below the model's spacing, so the limit is only approached, never reached, which is a lovely thing to discuss with an Advanced Higher learner.
 
-**Gradient of a chord ending at the summit, as the chord gets shorter (our calculation)**
-
 | Chord covers the last | Length, m | Gradient |
-|---|---|---|
+| --- | --- | --- |
 | 40 steps | 789 | 0.179 |
 | 20 steps | 394 | 0.373 |
 | 10 steps | 197 | 0.403 |
@@ -112,6 +106,8 @@ The values settle as the chord shrinks, around 0.29 for the very top. On a smoot
 Integration closes the loop. Using the trapezium rule on all 59 heights, the area under the profile divided by its length gives a mean height along the line of 86.1 metres. Higher asks for "the area between a curve and the x-axis"; here the curve is real ground, and the learner has to decide what the area actually means before calculating it.
 
 All gradients, angles and areas are our calculations from the EU-DEM profile above. SQA wording from the [Higher Mathematics course specification](https://www.sqa.org.uk/sqa/files_ccc/h-course-spec-mathematics.pdf).
+
+Beyond our lessons
 
 ## Maths Week Scotland, the university and other ways to go further
 
@@ -139,6 +135,8 @@ A learner who enjoys problem solving can try competition work through our [olymp
 
 Sources: [Education Scotland, Maths Week Scotland](https://education.gov.scot/resource-themes/maths-week-scotland/); [University of Edinburgh, School of Mathematics, outreach](https://maths.ed.ac.uk/outreach). Both read on 1 October 2026. Neither organisation has any tie to Modern Age Coders.
 
+Grown-up learners
+
 ## Adult maths lessons in Edinburgh
 
 A good share of the people who contact us are adults, and they come for very different reasons.
@@ -157,14 +155,14 @@ Rates, charts, percentages and spreadsheets. Our [adult maths page](/online-math
 
 Adults who have walked up the hill enjoy the profile project, because the numbers confirm what their legs told them: the climb is gentle for a long way and then very steep. Seeing a gradient of 0.574 next to an average of 0.149 makes the idea of a rate of change feel obvious rather than abstract.
 
+Step by step
+
 ## From reading a map scale to differentiation, in four steps
 
 Each step depends on the last. A learner joins wherever they are ready, and the trial lesson tells us where that is.
 
-**A path from measuring to calculus, with a sign that each step is secure**
-
 | Usually | Step | Secure when the learner |
-|---|---|---|
+| --- | --- | --- |
 | P5 to P7 | 1. Scale and measure | Turns a map distance into a real one using the scale |
 | S1 to S3 | 2. Straight-line gradient | Finds rise over run from two points and from a graph |
 | S4 | 3. Gradient and angle | Moves between a gradient and an angle using tangent |
@@ -173,75 +171,353 @@ Each step depends on the last. A learner joins wherever they are ready, and the 
 ### Starting in S4 or S5
 
 Not too late at all. We make algebra and straight-line work secure first, then build calculus on top.
+
 If there is more to do than time allows, we will be honest about it after the trial.
 
 ### After Higher
 
 S6 learners usually take Advanced Higher. Others branch into [statistics and probability](/courses/statistics-probability-maths-course) or [maths through coding](/courses/maths-through-coding), where a short program draws the hill profile itself.
+
 Others discover a taste for problem solving and move to competition maths.
+
+Course list
 
 ## Maths courses for Edinburgh learners
 
 Arranged by stage. Where a course was written for English exams, we match it topic by topic to the SQA course an Edinburgh learner is taking.
 
+I
+
 ### Primary
 
 P1 to P7
 
-- [First maths](/courses/early-math-foundations): Counting, shapes and patterns for the youngest.
-- [Primary maths](/courses/elementary-mathematics-complete-masterclass): All of primary maths, with the reasons.
-- [Mental arithmetic](/courses/mental-maths-mastery-kids): Calculating confidently in the head.
-- [Abacus](/courses/abacus-mental-maths-course-for-kids): A frame of beads that becomes a mental picture.
+MTE / A1
+
+#### First maths
+
+Counting, shapes and patterns for the youngest.
+
+[Open the syllabus](/courses/early-math-foundations)
+
+MTE / A2
+
+#### Primary maths
+
+All of primary maths, with the reasons.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+MTE / A3
+
+#### Mental arithmetic
+
+Calculating confidently in the head.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+MTE / A4
+
+#### Abacus
+
+A frame of beads that becomes a mental picture.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)II
 
 ### S1 to S4
 
 BGE and National 5
 
-- [S1 to S3 maths](/courses/comprehensive-middle-school-mathematics-mastery): Algebra, Pythagoras and graphs before the senior phase.
-- [Algebra foundations](/courses/algebra-foundations-masterclass): Solid algebra before National 5.
-- [National 5 level maths](/courses/gcse-mathematics-mastery): GCSE content used as a National 5 match.
-- [IGCSE maths](/courses/igcse-mathematics-mastery): Cambridge 0580 and Edexcel International.
+MTE / B1
+
+#### S1 to S3 maths
+
+Algebra, Pythagoras and graphs before the senior phase.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+MTE / B2
+
+#### Algebra foundations
+
+Solid algebra before National 5.
+
+[Open the syllabus](/courses/algebra-foundations-masterclass)
+
+MTE / B3
+
+#### National 5 level maths
+
+GCSE content used as a National 5 match.
+
+[Open the syllabus](/courses/gcse-mathematics-mastery)
+
+MTE / B4
+
+#### IGCSE maths
+
+Cambridge 0580 and Edexcel International.
+
+[Open the syllabus](/courses/igcse-mathematics-mastery)III
 
 ### S5, S6 and university
 
 Higher and further
 
-- [Higher level maths](/courses/a-level-maths-course-pure-mechanics-statistics): Calculus and algebra matched to Higher.
-- [Statistics](/courses/statistics-probability-maths-course): Probability, distributions and inference.
-- [University maths](/courses/college-mathematics-complete-masterclass): First-year calculus and linear algebra.
-- [Competition maths](/courses/olympiad-competition-mathematics-mastery): Unusual problems for keen learners.
+MTE / C1
+
+#### Higher level maths
+
+Calculus and algebra matched to Higher.
+
+[Open the syllabus](/courses/a-level-maths-course-pure-mechanics-statistics)
+
+MTE / C2
+
+#### Statistics
+
+Probability, distributions and inference.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)
+
+MTE / C3
+
+#### University maths
+
+First-year calculus and linear algebra.
+
+[Open the syllabus](/courses/college-mathematics-complete-masterclass)
+
+MTE / C4
+
+#### Competition maths
+
+Unusual problems for keen learners.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)IV
 
 ### Applied and adult
 
 Work and interest
 
-- [Finance maths](/courses/complete-business-finance-mathematics-mastery): Interest, loans and investments.
-- [Maths for data](/courses/data-analytics-mathematics-masterclass): The numbers behind analysis.
-- [Maths through coding](/courses/maths-through-coding): Programs that draw and measure.
-- [Vedic maths](/courses/vedic-maths-course-speed-calculation-mastery): Speedy arithmetic for confident learners.
+MTE / D1
+
+#### Finance maths
+
+Interest, loans and investments.
+
+[Open the syllabus](/courses/complete-business-finance-mathematics-mastery)
+
+MTE / D2
+
+#### Maths for data
+
+The numbers behind analysis.
+
+[Open the syllabus](/courses/data-analytics-mathematics-masterclass)
+
+MTE / D3
+
+#### Maths through coding
+
+Programs that draw and measure.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+MTE / D4
+
+#### Vedic maths
+
+Speedy arithmetic for confident learners.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
+
+Scheduling
 
 ## Lessons around school, work and weekends
 
 Our teachers are in India, which does not change its clocks. Edinburgh therefore sits 5.5 hours behind in winter and 4.5 hours behind in summer. Every slot is agreed in UK time.
 
-- **Weekday afternoons** For primary and secondary pupils.
-- **Weekday evenings** For S5, S6 and adults.
-- **Weekend mornings** For anyone who likes a fresh start.
+Weekday afternoons
 
-- **A familiar teacher** The same person teaches the group from week to week.
-- **Quick reports** A short message home on progress after lessons.
-- **Level-matched groups** Fifteen to twenty learners working at the same level.
-- **Genuine data** Height profiles, maps and records sit beside exam questions.
-- **Private lessons** For a single tough topic or the final weeks before exams.
-- **Understanding first** Every method is explained before it is practised.
+For primary and secondary pupils.
+
+Weekday evenings
+
+For S5, S6 and adults.
+
+Weekend mornings
+
+For anyone who likes a fresh start.
+
+### A familiar teacher
+
+The same person teaches the group from week to week.
+
+### Quick reports
+
+A short message home on progress after lessons.
+
+### Level-matched groups
+
+Fifteen to twenty learners working at the same level.
+
+### Genuine data
+
+Height profiles, maps and records sit beside exam questions.
+
+### Private lessons
+
+For a single tough topic or the final weeks before exams.
+
+### Understanding first
+
+Every method is explained before it is practised.
+
+Student work
+
+## Projects our students made next
+
+Learners who started with gradients and graphs built the four projects below. There are many more in the [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Billed monthly in US dollars at a single rate for all countries outside India. No joining fee and no lengthy commitment.
 
-- Free first class: USD 0. A real lesson pitched correctly. A frank account afterwards. No card details.
-- Group batch: USD 100 a month. Fifteen to twenty learners, one level. The same teacher throughout. Written work marked and explained. Certificate at the end.
-- One to one: USD 150 a month. Personal teaching. Focused on the exact difficulty. Helpful just before exams.
+Free first class
+
+USD 0
+
+no card required
+
+- A real lesson pitched correctly
+- A frank account afterwards
+- No card details
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners, one level
+- The same teacher throughout
+- Written work marked and explained
+- Certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- Personal teaching
+- Focused on the exact difficulty
+- Helpful just before exams
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Straight from Google: reviews by our families and learners, left exactly as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Edinburgh maths questions
 
 ## What Edinburgh families and adult learners want to know
 
@@ -285,15 +561,54 @@ No promise of a grade is ever honest. What we offer is structured teaching, mark
 
 No. We mention their public activities so families are aware of them, but we have no link with either, nor with any school.
 
+Related
+
 ## More for Edinburgh learners
 
-- [Higher maths tuition](/higher-maths-tuition-online): Calculus, functions, circles and vectors.
-- [National 5 maths tuition](/national-5-maths-tuition-online): The SCQF level 5 course, topic by topic.
-- [Advanced Higher maths](/advanced-higher-maths-tuition-online): The last stage of school maths in Scotland.
-- [Coding classes in Edinburgh](/best-coding-class-in-edinburgh): Python and AI for Edinburgh learners.
-- [Maths tuition in Glasgow](/maths-tuition-in-glasgow): Circle geometry on the Subway.
-- [Coding and AI in Scotland](/coding-and-ai-classes-in-scotland): The nation page, from the Highlands to the Borders.
+Pages on each SQA maths course, Scotland as a whole, and coding in Edinburgh.
 
-## Contact
+### [Higher maths tuition](/higher-maths-tuition-online)
 
-Book the free first class at [https://learn.modernagecoders.com/maths-tuition-in-edinburgh](https://learn.modernagecoders.com/maths-tuition-in-edinburgh#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Calculus, functions, circles and vectors.
+
+### [National 5 maths tuition](/national-5-maths-tuition-online)
+
+The SCQF level 5 course, topic by topic.
+
+### [Advanced Higher maths](/advanced-higher-maths-tuition-online)
+
+The last stage of school maths in Scotland.
+
+### [Coding classes in Edinburgh](/best-coding-class-in-edinburgh)
+
+Python and AI for Edinburgh learners.
+
+### [Maths tuition in Glasgow](/maths-tuition-in-glasgow)
+
+Circle geometry on the Subway.
+
+### [Coding and AI in Scotland](/coding-and-ai-classes-in-scotland)
+
+The nation page, from the Highlands to the Borders.
+
+Start here
+
+## Book a free maths lesson
+
+Give us the stage, from P3 to adult, and the topic that refuses to stick. We run a proper trial lesson and then share an honest verdict.
+
+Prefer to explore first? Look through the [courses](/courses) or read [how we teach](/how-we-teach).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20a%20learner%20in%20Edinburgh.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+Replies come quickest on WhatsApp. The +91 number reflects where our teachers live; there is no office in Edinburgh and every class is held online.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/maths-tuition-in-edinburgh*

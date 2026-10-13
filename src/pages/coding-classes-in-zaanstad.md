@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes in Zaanstad for ages 6 t
 canonical: https://learn.modernagecoders.com/coding-classes-in-zaanstad
 source: src/pages/coding-classes-in-zaanstad.html
 ---
-> Coding classes in Zaanstad serve 165,201 people (Statistics Netherlands, 1 January 2026) across seven towns that were seven separate municipalities until 1974: Zaandam, Assendelft, Krommenie, Wormerveer, Zaandijk, Koog aan de Zaan and Westzaan. Any chart of Zaanstad before 1974 is a chart of something that did not exist, and the honest reconstruction is a sum of seven predecessors rather than a measurement of one place. Modern Age Coders teaches live online in English to all of them, ages 6 to 67, with a free first lesson and then USD 100 a month in a group of fifteen to twenty or USD 150 with a teacher alone.
+> Live online coding, Python and AI classes in Zaanstad for ages 6 to 67, in Zaandam, Krommenie, Wormerveer, Assendelft and Zaandijk. First lesson free.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Zaanstad
-
-Zaanstad, Noord-Holland / Live online
-
-# Coding classes in Zaanstad, a city with 165,201 residents and a name that is younger than most of them
-
-**What are the best coding classes in Zaanstad?** Coding classes in Zaanstad serve 165,201 people (Statistics Netherlands, 1 January 2026) across seven towns that were seven separate municipalities until 1974: Zaandam, Assendelft, Krommenie, Wormerveer, Zaandijk, Koog aan de Zaan and Westzaan. Any chart of Zaanstad before 1974 is a chart of something that did not exist, and the honest reconstruction is a sum of seven predecessors rather than a measurement of one place. Modern Age Coders teaches live online in English to all of them, ages 6 to 67, with a free first lesson and then USD 100 a month in a group of fifteen to twenty or USD 150 with a teacher alone.
-
-Ask a spreadsheet for Zaanstad's population in 1970 and it will either return nothing or return a number somebody constructed. Zaanstad did not exist in 1970. Seven municipalities merged in 1974 and the new name took their combined territory, so a line on a chart that runs back past 1974 is describing land, not a council, and certainly not an institution with a continuous history. Knowing which of those three a series is about, and refusing to draw a line across the join without saying so, is a skill nobody teaches and everybody needs.
-
-Facts last verified 7 September 2026. Teaching is online; no Zaanstad branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Zaanstad
 
 ## Four courses for seven towns along one river
 
 A groep 5 child in Krommenie, a teenager in Wormerveer who wants the database to make sense before the framework does, a student in Zaandam commuting to Amsterdam, and a parent in Assendelft whose reporting spans a company reorganisation: four doors along the Zaan.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Scratch from an empty stage to a real game in three months, in English, for the groep 3 to 6 child in Westzaan or Koog aan de Zaan.
-- [MySQL for Teens](/courses/mysql-mastery-for-teens) (Ages 13 to 17): SQL from a first query to real applications, for the teenager who wants to understand where the data actually lives.
-- [MySQL Course](/courses/mysql-database-complete-masterclass-college) (College and adult): Database design, keys and administration done properly, for the student or working adult who has inherited somebody else's schema.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (Adults): Excel, SQL, Python and BI, for the parent whose year-on-year comparisons cross a reorganisation nobody adjusted for.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsScratch from an empty stage to a real game in three months, in English, for the groep 3 to 6 child in Westzaan or Koog aan de Zaan.See the syllabus](/courses/scratch-programming-complete-course)[![MySQL for Teens course thumbnail](/images/mysql-teens.webp)Ages 13 to 17MySQL for TeensSQL from a first query to real applications, for the teenager who wants to understand where the data actually lives.See the syllabus](/courses/mysql-mastery-for-teens)[![MySQL Course course thumbnail](/images/database-college.webp)College and adultMySQL CourseDatabase design, keys and administration done properly, for the student or working adult who has inherited somebody else's schema.See the syllabus](/courses/mysql-database-complete-masterclass-college)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)AdultsData Analysis CourseExcel, SQL, Python and BI, for the parent whose year-on-year comparisons cross a reorganisation nobody adjusted for.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Zaanstad today
 
 ## Seven towns, one municipality since 1974, and Europe's oldest industry
 
@@ -52,7 +40,11 @@ The national register held 165,201 people on 1 January 2026, in 73,883 household
 
 The Zaanstreek is described in one entry as the oldest industrial area in Europe and in another as one of the oldest, and this page prints both descriptions rather than choosing. What followed the mills were the food companies: Verkade, Honig, Duyvis, Bruynzeel and the firm that became Ahold.
 
-**Seven councils became one on the first of January** In 1974 Assendelft, Krommenie, Wormerveer, Westzaan, Zaandijk, Koog aan de Zaan and Zaandam were merged into the new municipality of Zaanstad. Zaandam, which had held city rights since 1811, is now simply the largest of the seven towns, at 80,705 in 2023. Wormer and Oostzaan stayed outside and are separate municipalities to this day.
+Seven councils became one on the first of January
+
+In 1974 Assendelft, Krommenie, Wormerveer, Westzaan, Zaandijk, Koog aan de Zaan and Zaandam were merged into the new municipality of Zaanstad. Zaandam, which had held city rights since 1811, is now simply the largest of the seven towns, at 80,705 in 2023. Wormer and Oostzaan stayed outside and are separate municipalities to this day.
+
+Where the learners are
 
 ## The seven towns, with the populations their own entry publishes
 
@@ -84,6 +76,8 @@ The smallest of the seven and the smallest settlement in the municipality. A vil
 
 The class reaches all of them at one hour and on one fee, and which of the seven a learner lives in has never affected placement.
 
+Verified local facts
+
 ## Every figure and its source, including two counts of the same mills
 
 The national count, the municipal entry, the regional entry, and the places where the two do not say the same thing.
@@ -114,6 +108,8 @@ Founded in 1963; houses and mills were moved there from their original sites; tw
 
 Modern Age Coders has no connection to the municipality, the Zaanse Schans, any company named here or any school, and claims none. They appear because a page that says it teaches Zaanstad should know when Zaanstad began.
 
+Signature project
+
 ## A chart that starts before its subject: build the series that admits where the entity begins
 
 One municipality, one founding year, seven predecessors, and three different things a line on a chart could be describing.
@@ -130,10 +126,8 @@ The learner reconstructs pre-1974 Zaanstad by summing its seven predecessors, an
 
 The rule the learner writes into the plot is simple and unusual: draw the line, and put a visible break at 1974 with a note saying what changed. A series that hides its discontinuity will be read as growth, and the growth in 1974 was administrative, not human.
 
-**One name, three subjects, and what each can honestly be said about**
-
 | What the label refers to | Exists since | Can a pre-1974 value be measured? | Can one be reconstructed? |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | The municipality of Zaanstad | 1974 | no, the entity did not exist | not meaningfully; a council has no back history |
 | The territory now inside its boundary | long before | not directly, it was seven jurisdictions | yes, by summing the seven, with boundary caveats |
 | The people living on that ground | long before | yes, but recorded under seven other names | yes, and this is usually what is wanted |
@@ -143,14 +137,14 @@ The rule the learner writes into the plot is simple and unusual: draw the line, 
 
 When two or three or seven things become one, the database gains an identifier that has no past, and every analyst who wants a long series is tempted to give it one. Sometimes that is legitimate, when the subject is really the territory or the population and the label is only a convenience. Sometimes it is not, when the subject is the institution itself, and then a pre-merger value is a fiction with a decimal point. The discipline is to say in one sentence, before drawing anything, which of the three the series is about, and then to mark the join on the chart so the reader can see the seam. A learner who has done this once with a municipality will do it with a company after an acquisition and a school after an amalgamation, and will be the one who asks whether the jump in the series was people or paperwork. The table was built from the founding dates and the merger list published in the sources named above.
 
+Reliable pipeline
+
 ## Five habits for any series that crosses a reorganisation
 
 Companies acquire each other, schools amalgamate, regions are redrawn, departments are split and re-merged, and every one of those events puts a seam in a data series that nobody labels. Practised on the seven councils that became this one.
 
-**When the thing being measured changed shape**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | State the subject | Say whether the series is about an entity, a territory or a population | Three different questions answered as one | A series with a defined meaning |
 | Find the founding date | Look up when the identifier came into existence before plotting | A 1970 value for a 1974 entity | A start point you can defend |
 | List the predecessors | Name every unit folded in, and every unit that stayed out | Wormer and Oostzaan quietly included | A reconstruction that can be checked |
@@ -171,14 +165,37 @@ The same treatment on a series at work that crosses a restructure: a region merg
 
 The population, household, area, school, town and mill figures come from the offices and entries named beside them, with their own dates. The sum of 159,620 is this page adding the eight published town figures, which carry a different date from the municipal total, and the page says so rather than treating the difference as a finding.
 
+Learning ladder
+
 ## From seven jars of marbles to a plot that refuses to draw before a founding date
 
 The starting rung comes out of the free hour, and which of the seven towns the learner lives in is not part of it.
 
-- **Ages 6 to 10: The jar that did not exist** Children pool seven jars into one and work out what can and cannot be said about last week. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Things with start dates** Learners give every record a valid-from date and see which questions stop being answerable. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 14 to 18: Reconstructions, labelled as such** Teenagers build a back series from predecessors and mark the seam on the chart. [MySQL for Teens](/courses/mysql-mastery-for-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Series across a restructure** Adults find a working chart whose biggest jump is a reorganisation and rebuild it honestly. [MySQL Course](/courses/mysql-database-complete-masterclass-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### The jar that did not exist
+
+Children pool seven jars into one and work out what can and cannot be said about last week.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Things with start dates
+
+Learners give every record a valid-from date and see which questions stop being answerable.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### Reconstructions, labelled as such
+
+Teenagers build a back series from predecessors and mark the seam on the chart.
+
+[MySQL for Teens](/courses/mysql-mastery-for-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Series across a restructure
+
+Adults find a working chart whose biggest jump is a reorganisation and rebuild it honestly.
+
+[MySQL Course](/courses/mysql-database-complete-masterclass-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## An AI will plot Zaanstad back to 1900 if you ask it. Why should a child here learn to stop at 1974?
 
@@ -190,30 +207,139 @@ So the learner writes the version that carries a founding date on every entity a
 
 The case for a Zaanstad child learning to code in 2026 is therefore not about local government. It is that mergers, renames and restructures put invisible seams into almost every long series in working life, that a chart drawn across a seam without a mark on it will be believed, and that learning to put the mark there is best done on the seven councils that became the town outside the window. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for seven towns strung along one river
 
 Assendelft to Krommenie is a proper journey, Wormerveer faces a municipality it is not part of, and the river separates the two banks more than the map suggests. None of that touches a lesson delivered over the connection.
 
-- **Nobody crosses the Zaan for it** The lesson happens at the kitchen table in Westzaan, Zaandijk or Assendelft at one fixed hour a week, in the dark months as easily as in June.
-- **The lesson is English; the school words are not** Instruction happens in English. Terms a Dutch school uses stay Dutch on purpose, so a teacher says groep, havo, vwo or profielkeuze rather than reaching for an equivalent.
-- **What comes out of the first hour** A piece of work that shows the real level, the name of a course that follows from it, and a slot in the week, arranged without any payment details.
-- **Stage decides the group** Two learners at the same point work together whether one is in Wormerveer and the other in Zaandam, and two at different points do not, however close their front doors are.
-- **A fixed slot twice weekly, around the northern holidays** Two lessons every week, which is eight in most months. School holidays here follow regio Noord, as across Noord-Holland, and weeks away are written into the schedule before a time is confirmed.
-- **Winter puts an extra hour between the two countries** India never adjusts its clocks and the Netherlands does, so the teacher sits four and a half hours ahead from late October and three and a half from late March. Slots run from the end of the school day into the evening, with both weekend days open.
+### Nobody crosses the Zaan for it
 
-**A municipality that is used to being several things at once** Fifty years after the merger, people here still say Krommenie or Wormerveer before they say Zaanstad, and the schools carry the older names. A class that arrives at the house rather than in a building sidesteps the question of whose town it belongs to, which in this municipality is not a small advantage.
+The lesson happens at the kitchen table in Westzaan, Zaandijk or Assendelft at one fixed hour a week, in the dark months as easily as in June.
+
+### The lesson is English; the school words are not
+
+Instruction happens in English. Terms a Dutch school uses stay Dutch on purpose, so a teacher says groep, havo, vwo or profielkeuze rather than reaching for an equivalent.
+
+### What comes out of the first hour
+
+A piece of work that shows the real level, the name of a course that follows from it, and a slot in the week, arranged without any payment details.
+
+### Stage decides the group
+
+Two learners at the same point work together whether one is in Wormerveer and the other in Zaandam, and two at different points do not, however close their front doors are.
+
+### A fixed slot twice weekly, around the northern holidays
+
+Two lessons every week, which is eight in most months. School holidays here follow regio Noord, as across Noord-Holland, and weeks away are written into the schedule before a time is confirmed.
+
+### Winter puts an extra hour between the two countries
+
+India never adjusts its clocks and the Netherlands does, so the teacher sits four and a half hours ahead from late October and three and a half from late March. Slots run from the end of the school day into the evening, with both weekend days open.
+
+A municipality that is used to being several things at once
+
+Fifty years after the merger, people here still say Krommenie or Wormerveer before they say Zaanstad, and the schools carry the older names. A class that arrives at the house rather than in a building sidesteps the question of whose town it belongs to, which in this municipality is not a small advantage.
+
+Fees
 
 ## One dollar tariff for all seven towns
 
 On the page, so that nobody has to ask for it.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 Outside India there is a single price and it is quoted in dollars; no euro list exists, so Westknollendam and Zaandam are quoted identically. Nothing is collected until the free lesson has settled a course and a time, and then it goes through WhatsApp. Pausing, switching plan and missing a week are all covered on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Zaanstad.)Reviews
+
+## What six families wrote on Google, unedited
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Start with the level; the town can follow
+
+The first task might be seven jars of marbles poured into one, a plotting function that refuses to draw before a founding date, or a revenue chart from work whose sharpest jump turns out to be an acquisition.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Zaanstad one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Zaanstad.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Zaanstad coding class questions
+
+The municipality, its seven towns, its history, the teaching and the terms.
 
 ### Why does this page say Zaanstad has no history before 1974?
 
@@ -255,10 +381,14 @@ The first lesson is free. Group tuition is USD 100 a month for two live lessons 
 
 Between five and ten, matched on level, pace and goal rather than on age, school or town. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.
 
+Explore the Netherlands
+
 ## South to the capital, west to the sea, and up to the country
 
 Twenty minutes south is [Amsterdam](/coding-classes-in-amsterdam); west across the province are [Haarlem](/coding-classes-in-haarlem) and the drained lake of [Haarlemmermeer](/coding-classes-in-haarlemmermeer), and all of them sit inside [Noord-Holland](/coding-classes-in-noord-holland). Every page in the series grows out of the [Netherlands coding hub](/coding-classes-in-netherlands), and for machine learning rather than software the doors are [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) and the [AI and Python Academy](/ai-and-python-academy-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Zaanstad.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-zaanstad](https://learn.modernagecoders.com/coding-classes-in-zaanstad#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-zaanstad*

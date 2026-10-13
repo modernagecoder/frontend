@@ -4,34 +4,28 @@ description: "Competitive programming coaching for Australians of any age: algor
 canonical: https://learn.modernagecoders.com/competitive-programming-australia
 source: src/pages/competitive-programming-australia.html
 ---
-> Competitive programming is solving algorithm problems with code against a time limit, judged automatically on correctness and speed. Success depends on algorithms and data structures, but also on careful testing and efficient input and output. Modern Age Coders coaches competitive programming live online for Australian teens, university students and adults, in small groups or one to one, and the first class is free.
+> Competitive programming coaching for Australians of any age: algorithms, online judges, time limits and fast input and output. Live online classes, first class free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / Competitive programming
+In short
 
-Australia · Teens, uni students and adults · Algorithms against the clock
+Competitive programming is solving algorithm problems with code against a time limit, judged automatically on correctness and speed. Success depends on algorithms and data structures, but also on careful testing and efficient input and output. Modern Age Coders coaches competitive programming live online for Australian teens, university students and adults, in small groups or one to one, and the first class is free.
 
-# Competitive programming
-
-Competitive programming is solving well-defined problems with code, fast and correctly, while a computer judges the answer. It rewards clear thinking about algorithms, but marks are often won or lost on smaller things: an off-by-one boundary, a slow way of reading input, an untested edge case. Our coaching covers both the big ideas and the small ones, live online, for Australian school students, university students and adults who simply enjoy puzzles. This page explains how contests work, measures one of those small things with real timings, and shows where it leads, including the school olympiad route.
-
-At a glance: For: Teens, uni students and adults; Languages: Python or C++, also Java; Core: Algorithms and data structures; Judge: Automatic, timed, unforgiving; Practice: Past problems and mock contests; Habits: Testing and timing every solution; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three courses for contest programmers
 
 Chosen by age and experience. Each card opens the syllabus.
 
-- [Competitive Programming for Teens](/courses/competitive-programming-for-teens-course): Ages 13 to 18 who can already write basic programs and want contest-level problem solving.
-- [Competitive Programming Course](/courses/competitive-programming-masterclass-college): For 18 and over, from first contests to university team competitions.
-- [Problem Solving and DSA for Teens](/courses/problem-solving-dsa-masterclass-teens): The algorithms and data structures underneath every contest, from scratch.
+[![Competitive Programming for Teens course thumbnail](/images/competitive-programming-teens.webp)  CPAU / 01 Competitive Programming for Teens Ages 13 to 18 who can already write basic programs and want contest-level problem solving. Open the syllabus →](/courses/competitive-programming-for-teens-course)[![Competitive Programming Course course thumbnail](/images/placement-prep-college.webp)  CPAU / 02 Competitive Programming Course For 18 and over, from first contests to university team competitions. Open the syllabus →](/courses/competitive-programming-masterclass-college)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)  CPAU / 03 Problem Solving and DSA for Teens The algorithms and data structures underneath every contest, from scratch. Open the syllabus →](/courses/problem-solving-dsa-masterclass-teens)
+
+What it is
 
 ## A problem, a time limit and a judge
 
 Every contest follows the same shape, whichever organisation runs it.
 
-**Parts of a competitive programming problem**
-
 | Part | What it says | Common mistake |
-|---|---|---|
+| --- | --- | --- |
 | Statement | The task in plain words, often a short story | Solving the story instead of the task |
 | Input format | Exactly what the program will read | Reading it in a way that is too slow |
 | Constraints | How large the input can be | Ignoring them and choosing a slow algorithm |
@@ -50,16 +44,16 @@ Precise reading, algorithmic thinking, and the discipline of testing before subm
 
 Those habits carry into any programming work, even for people who never enter a contest.
 
+A worked example
+
 ## Same language, same answer, over three times faster
 
 Problems often begin with a long list of numbers. How a program reads them can matter as much as the algorithm.
 
 We generated files of 1,000, 100,000 and 1,000,000 random integers with a fixed seed and wrote programs that add them up. Each was run three times and the fastest whole-program time kept, start-up included, on an ordinary Windows laptop. Every version printed the same sum.
 
-**Time to read and add n integers (our timings, 14 October 2026)**
-
 | Program | n = 1,000 | n = 100,000 | n = 1,000,000 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Python, input() once per line | 0.080 s | 0.144 s | 0.735 s |
 | Python, sys.stdin.buffer read all at once | 0.075 s | 0.089 s | 0.208 s |
 | C++, cin with default settings | 0.055 s | not run | 1.434 s |
@@ -91,14 +85,14 @@ Our timings depend on the machine and compiler, so students repeat them on their
 
 Sources, read 14 October 2026: [cppreference, std::ios_base::sync_with_stdio](https://en.cppreference.com/w/cpp/io/ios_base/sync_with_stdio); [Australian Maths Trust, Australian Informatics Olympiad](https://www.amt.edu.au/australian-informatics-olympiad). Programs, inputs and timings are our own.
 
+How to practise
+
 ## A weekly routine that works
 
 Progress in competitive programming comes from steady practice with honest review, not from cramming.
 
-**A typical week for a coached learner**
-
 | Session | Activity | Purpose |
-|---|---|---|
+| --- | --- | --- |
 | Lesson 1 | A new topic, such as prefix sums or graph search, with worked problems | Add one idea to the toolkit |
 | Lesson 2 | A timed set of three problems, then a review of every attempt | Practise under pressure, learn from mistakes |
 | Own time | Two or three problems on an online judge at the right level | Keep the habit going |
@@ -116,14 +110,14 @@ Python is quickest to write and fine for most problems at school level. C++ give
 
 Many learners start in Python and add C++ later; our [C++ classes](/c-plus-plus-classes-online-australia) cover the language itself.
 
+Routes
+
 ## Where competitive programming leads in Australia
 
 Different ages follow different routes. This page covers the skill; dedicated pages cover the school olympiad.
 
-**Routes by stage**
-
 | Stage | Route | Where to read more |
-|---|---|---|
+| --- | --- | --- |
 | School, up to Year 12 | The Australian Informatics Olympiad and the training that follows it | AIO preparation and the AIO to IOI pathway pages |
 | University | Team contests such as the ICPC, and university programming clubs | This page and our adult course |
 | Adults | Online judges and rated contests, for skill and enjoyment | This page |
@@ -131,14 +125,14 @@ Different ages follow different routes. This page covers the skill; dedicated pa
 
 School students should read [Australian Informatics Olympiad preparation](/australian-informatics-olympiad-preparation) and [the AIO to IOI pathway](/aio-to-ioi-pathway-australia) for dates, divisions and the selection route. This page does not repeat them.
 
+Common mistakes
+
 ## Why correct ideas still fail the judge
 
 Many failed submissions have the right algorithm and a small slip around it. Reviews focus on these as much as on the big idea.
 
-**Frequent reasons a good idea is marked wrong**
-
 | Slip | What happens | The habit that prevents it |
-|---|---|---|
+| --- | --- | --- |
 | Output format | An extra space or missing line fails an exact checker | Copy the sample output format exactly |
 | Boundary values | The smallest or largest allowed input breaks the code | Test n = 1 and the maximum before submitting |
 | Leftover debug prints | Extra text in the output is marked wrong | Print debugging to the error stream, not the output |
@@ -157,14 +151,14 @@ Sometimes the algorithm itself is too slow or wrong, and no amount of tidying wi
 
 The review asks which kind each failure was.
 
+Mindset
+
 ## Getting better at problems you cannot yet solve
 
 Competitive programming means being stuck often. Learning how to be stuck productively is part of the coaching.
 
-**What to do when stuck on a problem**
-
 | Minutes stuck | Next step |
-|---|---|
+| --- | --- |
 | 10 | Reread the statement and work a small example by hand |
 | 20 | Write the slowest correct solution you can think of |
 | 40 | Look for a pattern in the brute force outputs |
@@ -182,14 +176,14 @@ After a fair attempt, reading someone else's solution is how most competitors le
 
 The rule is to close it and write your own version without looking.
 
+Progress
+
 ## Four levels of contest skill
 
 Each level is a set of skills, not a fixed timetable; the reviews show when a learner is ready for the next.
 
-**From first solve to contest-ready**
-
 | Level | What you can do |
-|---|---|
+| --- | --- |
 | 1. Solver | Read a problem precisely and solve easy ones with loops and arrays |
 | 2. Analyst | Estimate whether an approach fits the constraints before coding it |
 | 3. Toolkit | Use sorting, prefix sums, binary search, graphs and simple dynamic programming |
@@ -198,63 +192,293 @@ Each level is a set of skills, not a fixed timetable; the reviews show when a le
 ### Is it only for maths prodigies?
 
 No. It rewards persistence and careful reading more than talent. Most of the skill is learnable patterns plus practice.
+
 School maths is enough to begin.
 
 ### Can adults start now?
 
 Yes. Many adults take it up for enjoyment or to sharpen their programming. The adult course starts from the basics.
+
 There is no age limit on online judges.
+
+The catalogue
 
 ## Courses for competitive programmers
 
 Grouped by stage. The free class decides where a learner starts.
 
+I
+
 ### Foundations
 
 Before contests
 
-- [Problem Solving and DSA for Teens](/courses/problem-solving-dsa-masterclass-teens): Logic and algorithms, 13 to 18.
-- [Python for Teens](/courses/python-complete-masterclass-teens): The fastest language to start in.
-- [Data Structures and Algorithms](/courses/data-structures-algorithms-masterclass-college): For 18 and over.
+CPAU / FND / 01
+
+#### Problem Solving and DSA for Teens
+
+Logic and algorithms, 13 to 18.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
+
+CPAU / FND / 02
+
+#### Python for Teens
+
+The fastest language to start in.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+CPAU / FND / 03
+
+#### Data Structures and Algorithms
+
+For 18 and over.
+
+[Open the syllabus](/courses/data-structures-algorithms-masterclass-college)II
 
 ### Contest training
 
 Timed problem solving
 
-- [Competitive Programming for Teens](/courses/competitive-programming-for-teens-course): Contest problems, 13 to 18.
-- [Competitive Programming Course](/courses/competitive-programming-masterclass-college): Online judges to team contests, 18+.
-- [Maths Olympiad and Competition Course](/courses/olympiad-competition-mathematics-mastery): The maths behind harder problems.
+CPAU / CON / 01
+
+#### Competitive Programming for Teens
+
+Contest problems, 13 to 18.
+
+[Open the syllabus](/courses/competitive-programming-for-teens-course)
+
+CPAU / CON / 02
+
+#### Competitive Programming Course
+
+Online judges to team contests, 18+.
+
+[Open the syllabus](/courses/competitive-programming-masterclass-college)
+
+CPAU / CON / 03
+
+#### Maths Olympiad and Competition Course
+
+The maths behind harder problems.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)III
 
 ### Faster languages
 
 When time is tight
 
-- [C++ for Teens](/courses/cpp-programming-masterclass-for-teens): STL and speed, 13 to 18.
-- [C++ Masterclass](/courses/cpp-programming-complete-masterclass-college): Modern C++ for adults.
-- [Java for Teens](/courses/java-programming-masterclass-for-teens): Another allowed contest language.
+CPAU / LNG / 01
+
+#### C++ for Teens
+
+STL and speed, 13 to 18.
+
+[Open the syllabus](/courses/cpp-programming-masterclass-for-teens)
+
+CPAU / LNG / 02
+
+#### C++ Masterclass
+
+Modern C++ for adults.
+
+[Open the syllabus](/courses/cpp-programming-complete-masterclass-college)
+
+CPAU / LNG / 03
+
+#### Java for Teens
+
+Another allowed contest language.
+
+[Open the syllabus](/courses/java-programming-masterclass-for-teens)
+
+How lessons run
 
 ## Coaching in Australian time
 
 Coaches are based in India, where the working day overlaps Australian afternoons and evenings. Times are set in your own state's time and follow daylight saving.
 
-- **After school** Weekday lessons for school students.
-- **Evening** For university students and adults, by arrangement.
-- **Weekend** Mock contests and long reviews.
+After school
 
-- **Free first class** One problem solved together and a check of the learner's current level.
-- **Groups** Fifteen to twenty learners at the same level, comparing solutions.
-- **One to one** For a particular contest, language or gap.
-- **Every attempt reviewed** Wrong answers are studied, not skipped.
-- **Timed on real sizes** Solutions are tested on inputs as big as the constraints allow.
-- **Learner's own code** Coaches guide; learners write every solution.
+Weekday lessons for school students.
+
+Evening
+
+For university students and adults, by arrangement.
+
+Weekend
+
+Mock contests and long reviews.
+
+### Free first class
+
+One problem solved together and a check of the learner's current level.
+
+### Groups
+
+Fifteen to twenty learners at the same level, comparing solutions.
+
+### One to one
+
+For a particular contest, language or gap.
+
+### Every attempt reviewed
+
+Wrong answers are studied, not skipped.
+
+### Timed on real sizes
+
+Solutions are tested on inputs as big as the constraints allow.
+
+### Learner's own code
+
+Coaches guide; learners write every solution.
+
+Student work
+
+## Built by our learners
+
+Work our students built and published. The [student labs](/student-labs) list more.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees for competitive programming coaching
 
 Learners outside India pay one monthly fee in US dollars. There is nothing to pay at sign-up and no contract.
 
-- Free first class: USD 0. One problem solved together. An honest view of the learner's level. No card details.
-- Group batch: USD 100 a month. Fifteen to twenty learners at one level. Timed sets and group review. A regular coach. Stop after any month.
-- One to one: USD 150 a month. Coaching around one learner's goals. Any of Python, C++ or Java. Times around school, uni or work.
+Free first class
+
+USD 0
+
+no card required
+
+- One problem solved together
+- An honest view of the learner's level
+- No card details
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners at one level
+- Timed sets and group review
+- A regular coach
+- Stop after any month
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- Coaching around one learner's goals
+- Any of Python, C++ or Java
+- Times around school, uni or work
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Published reviews from our Google profile, quoted exactly.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Learners ask
 
 ## Questions about competitive programming in Australia
 
@@ -298,15 +522,54 @@ We make no job, salary or grade promises. It builds algorithmic thinking and tes
 
 The first session is free and no card is needed. Monthly prices for group and individual coaching are shown in the fees panel.
 
+Also on this site
+
 ## Related pages
 
-- [AIO preparation](/australian-informatics-olympiad-preparation): For the school olympiad.
-- [AIO to IOI pathway](/aio-to-ioi-pathway-australia): The selection route.
-- [C++ classes online](/c-plus-plus-classes-online-australia): The language in depth.
-- [Software development course](/software-development-course-australia): Testing, Git and debugging.
-- [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar): Contest dates through the year.
-- [Coding classes in Australia](/coding-classes-in-australia): The starting point for every Australian topic.
+Pages beside this one.
 
-## Contact
+### [AIO preparation](/australian-informatics-olympiad-preparation)
 
-Book the free first class at [https://learn.modernagecoders.com/competitive-programming-australia](https://learn.modernagecoders.com/competitive-programming-australia#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+For the school olympiad.
+
+### [AIO to IOI pathway](/aio-to-ioi-pathway-australia)
+
+The selection route.
+
+### [C++ classes online](/c-plus-plus-classes-online-australia)
+
+The language in depth.
+
+### [Software development course](/software-development-course-australia)
+
+Testing, Git and debugging.
+
+### [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar)
+
+Contest dates through the year.
+
+### [Coding classes in Australia](/coding-classes-in-australia)
+
+The starting point for every Australian topic.
+
+Start here
+
+## Book a free coaching session
+
+Leave your details and we will call at a good time. The first class solves a problem together and ends with a clear recommendation.
+
+Read [how we teach](/how-we-teach) or see the [full course list](/courses).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Australia%20and%20interested%20in%20competitive%20programming%20coaching.%20Could%20we%20book%20a%20free%20first%20class%3F) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp from an Australian phone is the fastest route to a coach. The +91 number is our India office; nothing is based in Australia.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/competitive-programming-australia*

@@ -4,46 +4,32 @@ description: "Live online Python, pandas and data classes for Mackay teenagers a
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-mackay
 source: src/pages/online-coding-and-python-classes-in-mackay.html
 ---
-> Live Python lessons for Mackay teenagers and adults, with a teacher who works through genuine Queensland data beside you, from the first line to confident pandas. Mackay's urban area had 84,333 residents at the 2021 Census, and almost one employed person in five worked in a trade or technical job. Classes are online, privately or with a small group at your level, and the first lesson is free.
+> Live online Python, pandas and data classes for Mackay teenagers and adults, built on real Queensland open data, one to one or in small groups. First lesson free.
 
-[Home](/) / [Queensland](/coding-and-ai-classes-in-queensland) / [Australia](/coding-classes-in-australia) / Mackay
-
-Mackay, Queensland, Australia / Live online
-
-# Online coding and Python classes in Mackay
-
-**What are the best online coding and Python classes in Mackay?** Live Python lessons for Mackay teenagers and adults, with a teacher who works through genuine Queensland data beside you, from the first line to confident pandas. Mackay's urban area had 84,333 residents at the 2021 Census, and almost one employed person in five worked in a trade or technical job. Classes are online, privately or with a small group at your level, and the first lesson is free.
-
-Joining two tables is the most common thing anyone does with data, and the easiest to get silently wrong. Translink publishes Mackay's bus timetable as a set of linked tables: stops, routes, trips and the 4,687 rows that say when each bus reaches each stop. Join those rows to the stops table by stop number and you still have 4,687 rows. Join them by stop name instead, which looks just as reasonable, and you get 5,572, because 34 names belong to two stops each. Join them to the route shapes and the table explodes to 1,725,944 rows. No error appears in any of these. Our Mackay learners find out why, and how to make pandas refuse.
-
-Facts last verified 7 October 2026. Teaching is online; no Mackay branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Mackay
 
 ## Python and data courses for Mackay learners
 
 All four connect to the timetable-join project. Your free lesson works out which suits, and no card is needed.
 
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python for teenagers, from the first variable to loading and combining real data tables.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (University and adult): A complete Python course for adults, covering files, functions, testing and working with data.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (Adults): pandas and SQL for analysing public and workplace data, with every join checked before it is trusted.
-- [MySQL Course](/courses/mysql-database-complete-masterclass-college) (University and adult): Relational databases, keys and joins from first principles, the theory behind every merge.
+[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython for teenagers, from the first variable to loading and combining real data tables.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)University and adultPython MasterclassA complete Python course for adults, covering files, functions, testing and working with data.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)AdultsData Analysis Coursepandas and SQL for analysing public and workplace data, with every join checked before it is trusted.See the syllabus](/courses/data-analysis-mastery-course-college)[![MySQL Course course thumbnail](/images/database-college.webp)University and adultMySQL CourseRelational databases, keys and joins from first principles, the theory behind every merge.See the syllabus](/courses/mysql-database-complete-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Mackay in the 2021 Census
 
 ## A trades city between the cane fields and the reef
 
 Selected QuickStats for the Mackay Significant Urban Area, with Queensland and Australian comparisons.
 
-**QuickStats 2021, Mackay urban area, compared with Queensland and Australia**
-
 | Measure | Mackay | Queensland | Australia |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Residents | 84,333 | no comparison | no comparison |
 | Median age | 37 | no comparison | no comparison |
 | Families | 22,006 | no comparison | no comparison |
@@ -65,24 +51,22 @@ The Census counted 36,057 private dwellings, with 2.5 people in the average hous
 
 One caution we apply to every census table: the bureau makes tiny random changes to small counts to protect privacy, so categories will not always sum to the published total. We copy the bureau's numbers as printed and never add pieces together to create new totals.
 
+Signature project
+
 ## Why did my table grow when I joined it?
 
 The Mackay bus timetable in pandas, joined three ways. Only one of them keeps the row count it should.
 
-**Tables in Translink's Mackay feed, downloaded 7 October 2026 (our count)**
-
 | Table | Rows |
-|---|---|
+| --- | --- |
 | Stops | 277 |
 | Routes (300 to 310) | 11 |
 | Trips: 204 weekday and 76 Saturday | 280 |
 | Stop times, one per bus per stop | 4,687 |
 | Shape points tracing the 30 route shapes | 10,220 |
 
-**What each join does to the 4,687 stop-time rows (our calculation, pandas 3.0)**
-
 | Join | Relationship | Rows afterwards |
-|---|---|---|
+| --- | --- | --- |
 | Stop times to trips, on trip_id | Many to one | 4,687 |
 | Then to routes and to stops, on stop_id | Many to one | 4,687 |
 | Stop times to stops, on stop name | Many to many, because names repeat | 5,572 |
@@ -106,14 +90,14 @@ Thirty-four stop names belong to two stops, Hoey St at Nott Street among them. T
 
 All row counts are ours, from Translink's Mackay feed downloaded on 7 October 2026 and joined with pandas 3.0. We make no claim about how buses actually run on any given day; a GTFS feed is a published schedule, not a record of service.
 
+Joins in practice
+
 ## Join habits that would have caught every bad merge
 
 Five checks that take seconds to write and save hours of chasing wrong totals later.
 
-**Join hygiene, tested on the Mackay timetable**
-
 | Habit | In the Mackay project | What it catches |
-|---|---|---|
+| --- | --- | --- |
 | Assert the row count | Expect 4,687 after a many-to-one join | Silent row multiplication |
 | Test the key is unique | 243 names against 277 stop IDs | Columns that only look like keys |
 | Use validate in merge | validate='many_to_one' on every lookup join | Bad joins at the moment they happen |
@@ -136,6 +120,8 @@ Combine workplace spreadsheets safely and stop reports from double-counting beca
 
 Modern Age Coders is independent of Translink, the Queensland Government, Mackay Regional Council and the statistics bureau, and claims no partnership with them. Census figures are the bureau's; every row count here came from our own pandas code.
 
+Mackay's school year
+
 ## A ten-week Term 4 and a long summer break
 
 The Queensland calendar Mackay families plan around, and why it matters for timetabled data.
@@ -152,16 +138,41 @@ The department lists 46 days of school holidays from Saturday 12 December 2026 u
 
 Queensland does not use daylight saving, so Mackay lesson times stay put all year.
 
-**Calendars inside data** The Mackay feed has one calendar for weekdays and another for Saturdays, each with its own start and end date. Joining trips to calendars is another join with a cardinality to check, and getting it wrong quietly puts Saturday buses on a Tuesday.
+Calendars inside data
+
+The Mackay feed has one calendar for weekdays and another for Saturdays, each with its own start and end date. Joining trips to calendars is another join with a cardinality to check, and getting it wrong quietly puts Saturday buses on a Tuesday.
+
+Learning ladder
 
 ## From one table to many, joined correctly
 
 Treat the ages as a rough guide; the free lesson sets the starting point.
 
-- **Ages 13 to 14: Lists and dictionaries** Python that looks things up by key, the idea underneath every join, using stop numbers and names. [Python for Teens](/courses/python-complete-masterclass-teens), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 15 to 18: Tables in pandas** Loading, filtering and merging the Mackay timetable, with row counts checked at every step. [Python for Teens](/courses/python-complete-masterclass-teens), [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)
-- **University: Relational thinking** Keys, cardinality and normal forms in pandas and SQL on complete public datasets. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [MySQL Course](/courses/mysql-database-complete-masterclass-college)
-- **Adults: Reliable reporting** Python and SQL that combine work data without double counting, plus tests that prove it. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 13 to 14
+
+### Lists and dictionaries
+
+Python that looks things up by key, the idea underneath every join, using stop numbers and names.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Maths Through Coding](/courses/maths-through-coding)Ages 15 to 18
+
+### Tables in pandas
+
+Loading, filtering and merging the Mackay timetable, with row counts checked at every step.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)University
+
+### Relational thinking
+
+Keys, cardinality and normal forms in pandas and SQL on complete public datasets.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[MySQL Course](/courses/mysql-database-complete-masterclass-college)Adults
+
+### Reliable reporting
+
+Python and SQL that combine work data without double counting, plus tests that prove it.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## An AI assistant writes pandas merges instantly. Why should a Mackay learner check them?
 
@@ -173,30 +184,139 @@ Learners who have watched a join multiply rows develop reflexes that catch it in
 
 In 2026 code is quick to generate; a Mackay learner who checks every join is the one whose numbers survive a second look. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Andergrove, Mount Pleasant or Walkerston, the same live lesson
 
 Mackay spreads from the beaches to the cane country inland, and a video lesson reaches all of it without anyone getting on a bus.
 
-- **Coast and valley** A learner in Bucasia and another in Marian can work together in one class, each from their own home.
-- **Queensland school terms** Lessons are planned around Queensland year levels and terms, and senior students can relate projects to the subjects they study. Teaching is in English.
-- **A trial that counts** The free session is a real lesson that ends with a recommended level, course and regular time. You are never asked for card details.
-- **Same-level classmates** Fifteen to twenty learners at one stage, from Mackay and elsewhere, so regional students learn alongside peers at their level.
-- **Regular schedule** Two lessons a week, about eight a month, at a fixed time, with school holidays and exam weeks agreed in advance.
-- **Teachers in India** Mackay never changes its clocks, so a 5pm lesson always begins at 12:30pm where our teachers are.
+### Coast and valley
 
-**A fixed gap all year** Neither Queensland nor India uses daylight saving, so the gap between a Mackay learner and our teachers is four and a half hours in every month. Lesson times are always confirmed in Mackay time.
+A learner in Bucasia and another in Marian can work together in one class, each from their own home.
+
+### Queensland school terms
+
+Lessons are planned around Queensland year levels and terms, and senior students can relate projects to the subjects they study. Teaching is in English.
+
+### A trial that counts
+
+The free session is a real lesson that ends with a recommended level, course and regular time. You are never asked for card details.
+
+### Same-level classmates
+
+Fifteen to twenty learners at one stage, from Mackay and elsewhere, so regional students learn alongside peers at their level.
+
+### Regular schedule
+
+Two lessons a week, about eight a month, at a fixed time, with school holidays and exam weeks agreed in advance.
+
+### Teachers in India
+
+Mackay never changes its clocks, so a 5pm lesson always begins at 12:30pm where our teachers are.
+
+A fixed gap all year
+
+Neither Queensland nor India uses daylight saving, so the gap between a Mackay learner and our teachers is four and a half hours in every month. Lesson times are always confirmed in Mackay time.
+
+Fees
 
 ## What classes cost in Mackay
 
 Three prices, plainly stated.
 
-- First class: USD 0. A full first lesson that costs nothing and ends with a level, a course and a time.
-- Group tuition: USD 100 a month. A month of classes, typically eight, alongside fifteen to twenty learners at your stage.
-- Private tuition: USD 150 a month. About eight classes a month on the same pattern, one teacher with one learner.
+First class**USD 0**
+
+A full first lesson that costs nothing and ends with a level, a course and a time.
+
+Group tuition**USD 100**
+
+A month of classes, typically eight, alongside fifteen to twenty learners at your stage.
+
+Private tuition**USD 150**
+
+About eight classes a month on the same pattern, one teacher with one learner.
 
 Fees are in US dollars wherever you live, India apart, so families in Slade Point and Beaconsfield get the same invoice and there is no regional rate. We invoice only after the trial agrees a course and a time; the pricing page covers holidays, absences and moving between group and private lessons.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20Python%20class%20for%20a%20learner%20in%20Mackay.)Reviews
+
+## What our families wrote on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Python lesson
+
+All we need is an age and an interest. A Year 9 student might start by looking stop numbers up in a dictionary; an adult might go straight to joining the full Mackay timetable.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Mackay one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20Python%20class%20for%20a%20learner%20in%20Mackay.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Mackay Python class questions
+
+What Mackay learners and parents ask before starting.
 
 ### How many people live in Mackay?
 
@@ -238,10 +358,14 @@ The first lesson is free. After that a group place is USD 100 a month for two li
 
 Fifteen to twenty learners, matched on level, pace and goals rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
+Explore Australia
+
 ## More for Mackay and Queensland learners
 
 The [Queensland coding page](/coding-and-ai-classes-in-queensland) covers the whole state, and Toowoomba learners have their own [Toowoomba page](/best-coding-classes-in-toowoomba). Anyone moving from blocks to typed code should read [after Scratch, the next step is Python](/after-scratch-next-step-python-australia). Every Australian page is listed on the [Australia coding page](/coding-classes-in-australia).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20Python%20class%20for%20a%20learner%20in%20Mackay.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/online-coding-and-python-classes-in-mackay](https://learn.modernagecoders.com/online-coding-and-python-classes-in-mackay#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-mackay*

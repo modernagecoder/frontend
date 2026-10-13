@@ -4,34 +4,28 @@ description: "Live online 11 plus maths for Wolverhampton Girls' High and the tw
 canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-wolverhampton-and-walsall
 source: src/pages/11-plus-maths-tuition-wolverhampton-and-walsall.html
 ---
-> West Midlands Grammar Schools says any child wanting a place at a selective grammar school in Birmingham, Shropshire, Walsall, Wolverhampton or Warwickshire must sit its entrance test. Locally that means Wolverhampton Girls' High School, Queen Mary's Grammar School and Queen Mary's High School. The papers, written by GL Assessment, alternate short timed blocks of English, verbal reasoning, non-verbal reasoning and maths, all multiple choice, with maths counting for a quarter. Scores are age-standardised around a median of 200, and the Queen Mary's schools say the Minimum Qualifying Score is confirmed by governors after the results. Last cycle, for 2027 entry, families registered between Tuesday 5 May and 4pm on Friday 26 June 2026, and children sat the test on Saturday 12 September. We teach the maths, live online. Nothing is charged for a trial session; after that the monthly fee is USD 100 for a shared class and USD 150 for a teacher to themselves.
+> Live online 11 plus maths for Wolverhampton Girls' High and the two Queen Mary's schools in Walsall: the shared test, its scoring, and Year 5 equivalents taught.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / 11 plus maths in Wolverhampton and Walsall
+In short
 
-Wolverhampton and Walsall · West Midlands Grammar Schools test maths · Live online, small groups or one to one
+West Midlands Grammar Schools says any child wanting a place at a selective grammar school in Birmingham, Shropshire, Walsall, Wolverhampton or Warwickshire must sit its entrance test. Locally that means Wolverhampton Girls' High School, Queen Mary's Grammar School and Queen Mary's High School. The papers, written by GL Assessment, alternate short timed blocks of English, verbal reasoning, non-verbal reasoning and maths, all multiple choice, with maths counting for a quarter. Scores are age-standardised around a median of 200, and the Queen Mary's schools say the Minimum Qualifying Score is confirmed by governors after the results. Last cycle, for 2027 entry, families registered between Tuesday 5 May and 4pm on Friday 26 June 2026, and children sat the test on Saturday 12 September. We teach the maths, live online. Nothing is charged for a trial session; after that the monthly fee is USD 100 for a shared class and USD 150 for a teacher to themselves.
 
-# 11 plus maths tuition in Wolverhampton and Walsall
-
-Wolverhampton Girls' High School and the two Queen Mary's schools in Walsall do not set their own 11 plus. They belong to the Shropshire, Wolverhampton and Walsall consortium within the West Midlands Grammar Schools partnership, and every child sits the same GL Assessment test as children applying to Birmingham or Warwickshire. Two local details are worth knowing. Queen Mary's Grammar School describes the maths as "Numerical Reasoning", where the partnership calls the same sections "Mathematics", which can send families looking for the wrong kind of practice. And both Queen Mary's schools say the Minimum Qualifying Score is set by governors after the results are in: for 2027 entry it is "subject to analysis and Governors' confirmation in November 2026". There is no number to aim at beforehand, only the maths. This page sets out what the partnership and the schools publish, then teaches a set of Year 5 facts that make many short questions instant: fraction, decimal and percentage equivalents.
-
-At a glance: Schools: Wolverhampton Girls' High; Queen Mary's Grammar; Queen Mary's High; Test: West Midlands Grammar Schools, by GL; Papers: Two, about 50 to 60 minutes each; Maths: Timed sections, 25% weighting; Called: "Mathematics" or "Numerical Reasoning"; Score scale: Standardised around a median of 200; Qualifying score: Set by governors after the results; We teach: Year 5 maths for timed sections. Rated 4.9 across 547 Google reviews.
+Starting points
 
 ## Three courses for the timed maths sections
 
 Maths comes in short timed sections inside mixed papers. Choose by how quickly your child reaches for a known fact.
 
-- [West Midlands 11 plus maths](/courses/11-plus-maths-preparation-course-uk): Year 5 content for timed multiple-choice sections, equivalents included.
-- [Facts at your fingertips](/courses/mental-maths-mastery-kids): Fractions, decimals and percentages that come without working.
-- [Primary groundwork](/courses/elementary-mathematics-complete-masterclass): For children who need Year 3 and 4 maths settled first.
+[![11 Plus Maths Prep course thumbnail](/images/eleven-plus-maths.webp)  BLACK COUNTRY / 1 West Midlands 11 plus maths Year 5 content for timed multiple-choice sections, equivalents included. Open the syllabus →](/courses/11-plus-maths-preparation-course-uk)[![Mental Maths for Kids course thumbnail](/images/mental-maths-kids.webp)  BLACK COUNTRY / 2 Facts at your fingertips Fractions, decimals and percentages that come without working. Open the syllabus →](/courses/mental-maths-mastery-kids)[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  BLACK COUNTRY / 3 Primary groundwork For children who need Year 3 and 4 maths settled first. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)
+
+A regional test
 
 ## What the partnership and the Queen Mary's schools publish
 
 Wolverhampton's council pages do not cover the 11 plus, Walsall's school directory blocked our reader, and Wolverhampton Girls' High School's admissions page would not render for us. So this page relies on West Midlands Grammar Schools and the two Queen Mary's schools, read on 26 September 2026.
 
-**The entrance test for September 2027 entry, from Queen Mary's High School and Queen Mary's Grammar School**
-
 | Step | Date | As published |
-|---|---|---|
+| --- | --- | --- |
 | Registration opens | Tuesday 5 May 2026 | Through the West Midlands Grammar Schools registration. |
 | Reasonable adjustments | 4pm, Friday 12 June 2026 | Deadline for requests. |
 | Registration closes | 4pm, Friday 26 June 2026 | No registrations after this time. |
@@ -48,6 +42,8 @@ Queen Mary's High School says children are allocated the test centre closest to 
 Both Queen Mary's schools say places depend first on reaching the Minimum Qualifying Score and then on each school's admission rules. We keep out of those rules entirely.
 
 Sources: [West Midlands Grammar Schools, the entrance test](https://westmidlandsgrammarschools.co.uk/the-entrance-test) and partnership schools; [Queen Mary's Grammar School, September 2027 entry](https://www.qmgs.walsall.sch.uk/September-2027-Entry/); [Queen Mary's High School, Year 7 September 2027 entry](https://www.qmhs.org.uk/Year-7-September-2027-entry/). Modern Age Coders has no connection with the partnership, GL Assessment, either council or any school.
+
+Two names, one section
 
 ## "Mathematics" and "Numerical Reasoning" are the same thing here
 
@@ -67,14 +63,14 @@ So the preparation is the primary maths curriculum, and in particular the facts 
 
 On scoring, the Queen Mary's schools explain that results across the partnership use "an age-weighted standardisation around a median score of 200": half of children score above 200 and half below, after allowing for age. The Minimum Qualifying Score for 2027 entry is set by governors in November 2026, after the results. We never guess it, and we would be wary of anyone who did.
 
+The lesson
+
 ## Fractions, decimals and percentages that match at a glance
 
 The Year 5 curriculum asks children to know "percentage and decimal equivalents of 1/2, 1/4, 1/5, 2/5, 4/5 and those fractions with a denominator of a multiple of 10 or 25". In a timed section, knowing them is much faster than working them out.
 
-**Year 5 equivalents, and questions they make instant (our own)**
-
 | Fact | Our question | Answer |
-|---|---|---|
+| --- | --- | --- |
 | 1/4 = 0.25 = 25% | What is 25% of 64? | 16: a quarter of 64 |
 | 1/5 = 0.2 = 20% | Which is larger, 0.2 or 1/4? | 1/4, which is 0.25 |
 | 2/5 = 0.4 = 40% | What is 40% of 35? | 14: two fifths of 35 |
@@ -91,6 +87,8 @@ Ordering mixed forms, as in the fifth row, is where the facts pay off most. Turn
 Percentages of amounts follow straight from the facts: 40% of 35 is two fifths of 35, which is 14. We teach the fact first, then the calculation, so the calculation is short.
 
 Source: [national curriculum in England, mathematics](https://www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study/national-curriculum-in-england-mathematics-programmes-of-study), Year 5 fractions (including decimals and percentages), statutory requirements. The questions are written by Modern Age Coders.
+
+Our approach
 
 ## Preparing for timed maths sections
 
@@ -116,14 +114,14 @@ English and reasoning make up three quarters of the weighting, and we teach neit
 
 We do not advise on which school to name, catchments or places. The schools publish their own admission arrangements.
 
+Wolverhampton and Walsall
+
 ## Three local grammar schools, one test, lessons at home
 
 Five schools make up the Shropshire, Wolverhampton and Walsall consortium on the partnership's list. The three below sit in the two boroughs this page is about.
 
-**Consortium schools in Wolverhampton and Walsall, as West Midlands Grammar Schools lists them**
-
 | School | Town |
-|---|---|
+| --- | --- |
 | Wolverhampton Girls' High School | Wolverhampton |
 | Queen Mary's Grammar School | Walsall |
 | Queen Mary's High School | Walsall |
@@ -138,14 +136,14 @@ We have no connection with any of these schools, the partnership, GL Assessment 
 
 Source: West Midlands Grammar Schools, partnership schools, read 26 September 2026. The town column is ours.
 
+Towards September 2027
+
 ## Four stages for today's Year 5
 
 For children now in Year 5, registration should open in May 2027 and the test fall early in Year 6. The partnership and schools publish exact dates.
 
-**Facts first, then timed sections**
-
 | When | Stage | You will see |
-|---|---|---|
+| --- | --- | --- |
 | Autumn, Year 5 | 1. Tables and bonds | Multiplication facts and number bonds instant |
 | Winter, Year 5 | 2. Equivalents | Halves, quarters, fifths, tenths and twenty-fifths converted without working |
 | Spring, Year 5 (register by late June) | 3. The rest of Year 5 | Measures, shape and data as secure as number |
@@ -154,71 +152,321 @@ For children now in Year 5, registration should open in May 2027 and the test fa
 ### A later start
 
 Facts are the fastest thing to improve. If time is short, we start there.
+
 At the trial lesson we will say honestly what the time allows.
 
 ### After October
 
 Fraction, decimal and percentage fluency carries through secondary maths. Some pupils continue with [maths through coding](/courses/maths-through-coding).
+
 Children who enjoyed the puzzles can look ahead to the UKMT Junior Maths Challenge, listed on our [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar).
+
+Courses
 
 ## Maths and coding for Black Country families
 
 Arranged by stage, with the syllabus behind each card.
 
+I
+
 ### For the 11 plus
 
 Years 3 to 5
 
-- [11 plus maths, West Midlands](/courses/11-plus-maths-preparation-course-uk): Year 5 maths for timed sections.
-- [Instant-recall maths](/courses/mental-maths-mastery-kids): Equivalents and tables on demand.
-- [Primary maths grounding](/courses/elementary-mathematics-complete-masterclass): The years before Year 5.
-- [Abacus number sense](/courses/abacus-mental-maths-course-for-kids): For younger siblings.
+WWM / 1
+
+#### 11 plus maths, West Midlands
+
+Year 5 maths for timed sections.
+
+[Open the syllabus](/courses/11-plus-maths-preparation-course-uk)
+
+WWM / 2
+
+#### Instant-recall maths
+
+Equivalents and tables on demand.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+WWM / 3
+
+#### Primary maths grounding
+
+The years before Year 5.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+WWM / 4
+
+#### Abacus number sense
+
+For younger siblings.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)II
 
 ### Secondary
 
 Year 6 onwards
 
-- [Early secondary mathematics](/courses/comprehensive-middle-school-mathematics-mastery): Percentages, ratio and algebra.
-- [GCSE maths, every board](/courses/gcse-mathematics-mastery): Foundation and higher.
-- [Competition mathematics](/courses/olympiad-competition-mathematics-mastery): For strong, curious pupils.
+WWM / 5
+
+#### Early secondary mathematics
+
+Percentages, ratio and algebra.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+WWM / 6
+
+#### GCSE maths, every board
+
+Foundation and higher.
+
+[Open the syllabus](/courses/gcse-mathematics-mastery)
+
+WWM / 7
+
+#### Competition mathematics
+
+For strong, curious pupils.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)III
 
 ### Coding
 
 Numbers in code
 
-- [Maths through coding](/courses/maths-through-coding): Convert fractions to percentages in Python.
-- [Scratch for children](/courses/scratch-programming-complete-course): Logic in blocks.
-- [Junior Python with AI](/courses/python-ai-kids-masterclass): The first typed language.
+WWM / 8
+
+#### Maths through coding
+
+Convert fractions to percentages in Python.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+WWM / 9
+
+#### Scratch for children
+
+Logic in blocks.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)
+
+WWM / 10
+
+#### Junior Python with AI
+
+The first typed language.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)IV
 
 ### Later
 
 Teenagers
 
-- [Vedic maths methods](/courses/vedic-maths-course-speed-calculation-mastery): Speed on firm foundations.
-- [AI and ML for teens](/courses/ai-ml-masterclass-teens): Maths in modern software.
+WWM / 11
+
+#### Vedic maths methods
+
+Speed on firm foundations.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
+
+WWM / 12
+
+#### AI and ML for teens
+
+Maths in modern software.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+Lesson times
 
 ## Timed around a Black Country school day
 
 Teaching is live from India. Primary pupils in Wolverhampton and Walsall have early-evening or weekend-morning lessons by the UK clock, and our teachers move their hours when the UK changes its clocks.
 
-- **After school** A settled early-evening hour.
-- **Weekend mornings** Fresh, for tired weekday learners.
-- **School holidays** Short extra sessions.
+After school
 
-- **One teacher all year** Who notices the same slip twice.
-- **Frank updates** A few honest lines after lessons.
-- **Fifteen to twenty per class** Matched by level.
-- **Our own questions** No GL material reproduced.
-- **One to one** For a stubborn topic.
-- **Our subject** Maths lessons, nothing wider: English, reasoning and admissions belong elsewhere.
+A settled early-evening hour.
+
+Weekend mornings
+
+Fresh, for tired weekday learners.
+
+School holidays
+
+Short extra sessions.
+
+### One teacher all year
+
+Who notices the same slip twice.
+
+### Frank updates
+
+A few honest lines after lessons.
+
+### Fifteen to twenty per class
+
+Matched by level.
+
+### Our own questions
+
+No GL material reproduced.
+
+### One to one
+
+For a stubborn topic.
+
+### Our subject
+
+Maths lessons, nothing wider: English, reasoning and admissions belong elsewhere.
+
+Student work
+
+## Where these facts end up
+
+Four projects our students built and published, each on foundations like the fractions and percentages of Year 5. More on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Every family outside India pays one monthly US dollar price. No joining fee; stop whenever you like.
 
-- Free first class: USD 0. A proper lesson. An honest verdict. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty children at one level. A regular teacher. Work reviewed together. Certificate at the end.
-- One to one: USD 150 a month. A teacher for one child. Aimed at gaps. Flexible timing.
+Free first class
+
+USD 0
+
+no card required
+
+- A proper lesson
+- An honest verdict
+- No card needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty children at one level
+- A regular teacher
+- Work reviewed together
+- Certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one child
+- Aimed at gaps
+- Flexible timing
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Parents' reviews, straight from Google.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Wolverhampton and Walsall questions
 
 ## What local families ask us
 
@@ -262,15 +510,54 @@ No. We write our own questions.
 
 The first lesson is free. After that, USD 100 a month in a small group or USD 150 a month one to one.
 
+Related
+
 ## More for West Midlands families
 
-- [11 plus maths in Birmingham](/11-plus-maths-tuition-birmingham): The shared test's equipment rules and angle questions.
-- [11 plus maths in Warwickshire](/11-plus-maths-tuition-warwickshire): Why "harder than Key Stage 2" means depth.
-- [Coding classes in Birmingham](/coding-classes-in-birmingham): Programming for West Midlands children.
-- [11 plus maths tuition](/11-plus-maths-tuition): The national overview.
-- [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar): Maths challenges, by date.
-- [All our UK pages](/coding-classes-in-united-kingdom): Nations, cities, boroughs and counties, all in one index.
+The same test seen from Birmingham and Warwickshire, our national page and coding.
 
-## Contact
+### [11 plus maths in Birmingham](/11-plus-maths-tuition-birmingham)
 
-Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-wolverhampton-and-walsall](https://learn.modernagecoders.com/11-plus-maths-tuition-wolverhampton-and-walsall#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The shared test's equipment rules and angle questions.
+
+### [11 plus maths in Warwickshire](/11-plus-maths-tuition-warwickshire)
+
+Why "harder than Key Stage 2" means depth.
+
+### [Coding classes in Birmingham](/coding-classes-in-birmingham)
+
+Programming for West Midlands children.
+
+### [11 plus maths tuition](/11-plus-maths-tuition)
+
+The national overview.
+
+### [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar)
+
+Maths challenges, by date.
+
+### [All our UK pages](/coding-classes-in-united-kingdom)
+
+Nations, cities, boroughs and counties, all in one index.
+
+Start here
+
+## Start with a free Black Country lesson
+
+A school year, the school you are aiming for, and a sentence about maths at home is plenty. The trial is taught properly, and you get a plain report on it.
+
+Some parents like to read everything first: the [course catalogue](/courses) lists what each class covers, [how we teach](/how-we-teach) walks through a lesson hour, and our [roadmap](/coding-roadmap) joins the years together.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20my%20child%20for%20the%20Wolverhampton%20and%20Walsall%2011%20plus.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is quickest. We teach from India, with an Indian number and no office in the West Midlands.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-wolverhampton-and-walsall*

@@ -4,46 +4,32 @@ description: "Live online vibe coding and AI agents classes for Port Talbot, Abe
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-port-talbot
 source: src/pages/vibe-coding-and-ai-agents-classes-in-port-talbot.html
 ---
-> Port Talbot's built-up area numbered 31,555 usual residents in Census 2021; the wider county borough of Neath Port Talbot numbered 142,289. Aberavon, Sandfields, Taibach, Margam and Velindre all sit within that built-up area. Learners from Port Talbot, from six-year-olds to people of 67, study vibe coding, AI agents, Python, coding and maths with us over live video, taught by tutors in India either privately or in an level-matched class of fifteen to twenty. The first lesson is a free trial that ends with a course recommendation. The Port Talbot project tackles a puzzle every team of AI agents runs into: when three agents each write their own log and their clocks disagree, how do you work out what happened first? Fees after the trial are USD 100 a month for a group place and USD 150 a month for private lessons.
+> Live online vibe coding and AI agents classes for Port Talbot, Aberavon, Sandfields and Margam, ages 6 to 67, with Python and maths. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Port Talbot
-
-Port Talbot, Neath Port Talbot, Wales / Live online
-
-# Vibe coding and AI agents classes in Port Talbot
-
-**Where are the best vibe coding and AI agents classes for Port Talbot?** Port Talbot's built-up area numbered 31,555 usual residents in Census 2021; the wider county borough of Neath Port Talbot numbered 142,289. Aberavon, Sandfields, Taibach, Margam and Velindre all sit within that built-up area. Learners from Port Talbot, from six-year-olds to people of 67, study vibe coding, AI agents, Python, coding and maths with us over live video, taught by tutors in India either privately or in an level-matched class of fifteen to twenty. The first lesson is a free trial that ends with a course recommendation. The Port Talbot project tackles a puzzle every team of AI agents runs into: when three agents each write their own log and their clocks disagree, how do you work out what happened first? Fees after the trial are USD 100 a month for a group place and USD 150 a month for private lessons.
-
-Put three AI agents on one job, perhaps one gathering facts, one drafting and one checking, and give each its own log. Something goes wrong, and you merge the logs to see the order of events. If you sort by the times the agents wrote down, you will sometimes see a reply recorded before the question that caused it. Nobody lied; their clocks simply disagree by a fraction of a second. In 1978 Leslie Lamport showed how to order events without trusting clocks at all, and the idea is about forty lines of Python.
-
-Facts last verified 1 October 2026. Teaching is online; no Port Talbot branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses to start with
 
 ## Vibe coding and AI agents courses for Port Talbot learners
 
 Pick by age. Each one begins with a live lesson that is free, with no card asked for.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): Logic, order and timing puzzles: who did what first, and how can you tell?
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Describe a Scratch game to an AI, then test it and put right what it gets wrong.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python built with AI help, including the three-agent clock project.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Students and adults): Python from zero to data work and multi-agent systems you can debug.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsLogic, order and timing puzzles: who did what first, and how can you tell?See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsDescribe a Scratch game to an AI, then test it and put right what it gets wrong.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensPython built with AI help, including the three-agent clock project.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Masterclass course thumbnail](/images/python-college.webp)Students and adultsPython MasterclassPython from zero to data work and multi-agent systems you can debug.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Port Talbot by numbers
 
 ## Port Talbot, Aberavon, Sandfields, Taibach and Margam
 
 The census headline counts and the neighbourhoods inside the built-up area.
 
-**Census 2021 (ONS)**
-
 | Area | Usual residents |
-|---|---|
+| --- | --- |
 | Port Talbot built-up area | 31,555 |
 | Neath Port Talbot county borough | 142,289 |
 
@@ -53,6 +39,8 @@ Neath Port Talbot also contains Neath, Baglan, Cwmavon and the upper valleys, so
 
 See [Swansea](/best-coding-class-in-swansea), [Neath Port Talbot](/coding-classes-in-neath-port-talbot), [Bridgend](/coding-classes-in-bridgend) and [WJEC GCSE Computer Science help](/wjec-gcse-computer-science-help-wales). Why we start with thinking rather than tools is argued in [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Port Talbot project
+
 ## Three agents, three clocks and one merged log
 
 A simulation of agents sending each other messages, and three ways of putting their logs in order.
@@ -61,10 +49,8 @@ The agents here are simulated, and the numbers that drive them are our own choic
 
 The first check is the most basic rule of cause and effect: a message cannot be received before it was sent. The learner merges the three logs, sorts them by wall-clock time, and counts how often a receive appears earlier than its send. With perfect clocks the answer is zero. It does not stay zero for long.
 
-**Messages whose receipt is stamped before their sending, our Python run**
-
 | Clocks wrong by up to | Sorted by wall clock | Sorted by Lamport clock |
-|---|---|---|
+| --- | --- | --- |
 | 0 seconds | 0 of 1,537 | 0 |
 | 0.05 seconds | 84 (5.5%) | 0 |
 | 0.2 seconds | 305 (19.8%) | 0 |
@@ -91,14 +77,14 @@ Add Lamport and vector clocks, count concurrent pairs, and explain what each clo
 
 The clock rules follow Lamport (1978); vector clocks are explained in Schwarz and Mattern (1994). The agents, their timings and every count above come from our own simulation; nothing on this page describes a real computer system in Port Talbot.
 
+Teams of agents
+
 ## What clocks that disagree teach about building multi-agent AI
 
 The moment more than one agent works on a task, "what happened first?" becomes a real question.
 
-**From the simulation to real agent teams**
-
 | Result from the three agents | Lesson for anyone wiring agents together |
-|---|---|
+| --- | --- |
 | Small clock errors put replies before questions | Do not debug a multi-agent run by timestamps alone |
 | A counter on each message fixed cause and effect | Pass ordering information along with the work |
 | Lamport numbers invented orders for 52,786 pairs | A neat sorted log can still be misleading |
@@ -109,14 +95,37 @@ Multi-agent frameworks are popular, and vibe coding makes it easy to spin up sev
 
 The ONS and postcodes.io are not connected with Modern Age Coders; their data gives the place figures. The simulation is ours.
 
+Growth path
+
 ## From note-passing puzzles at seven to multi-agent logs at seventeen
 
 We begin from the Welsh school year, and the trial lesson fine-tunes it.
 
-- **Years 2 to 6: Order and logic** Puzzles about sequence and cause, often played before any typing. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: AI as a helper** Scratch games built with an AI, then a first Python program. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Simulating agents** Agents, messages and logs in Python, checked against what should happen. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Agents that can be debugged** Python for work and multi-agent designs whose behaviour can be traced. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)
+Years 2 to 6
+
+### Order and logic
+
+Puzzles about sequence and cause, often played before any typing.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### AI as a helper
+
+Scratch games built with an AI, then a first Python program.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Simulating agents
+
+Agents, messages and logs in Python, checked against what should happen.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Agents that can be debugged
+
+Python for work and multi-agent designs whose behaviour can be traced.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)Clocks and agents
 
 ## What is a vector clock, and why does it matter for teams of AI agents?
 
@@ -128,30 +137,139 @@ Learners who reach those numbers stop treating a merged log as the truth and sta
 
 For a Port Talbot teenager, being able to untangle what a team of agents actually did is what keeps them in charge of it, and that skill grows from writing the code. The longer argument is in [why coding is still worth learning for teenagers in 2026](/blog/is-coding-worth-learning-2026).
 
+Class set-up
+
 ## Lessons for a Port Talbot learner
 
 Classes take place live on video. Learners need a computer with a keyboard; a tablet alone will not run Python properly.
 
-- **Learner does the typing** Every program is written and run by the learner, with the tutor asking why.
-- **Trial shows the level** We see where a learner is before recommending a course.
-- **Trial costs nothing** The first session is free and needs no card.
-- **Classes of fifteen to twenty** Learners at the same stage, joining from across the UK.
-- **Around eight a month** Two lessons a week in term, with Neath Port Talbot holidays skipped on request.
-- **Stable UK hour** The lesson time stays fixed when the clocks change.
+### Learner does the typing
 
-**Why lessons are online** A class of fifteen to twenty learners at one precise level forms far more easily across the UK than in one town, and video spares everyone a journey.
+Every program is written and run by the learner, with the tutor asking why.
+
+### Trial shows the level
+
+We see where a learner is before recommending a course.
+
+### Trial costs nothing
+
+The first session is free and needs no card.
+
+### Classes of fifteen to twenty
+
+Learners at the same stage, joining from across the UK.
+
+### Around eight a month
+
+Two lessons a week in term, with Neath Port Talbot holidays skipped on request.
+
+### Stable UK hour
+
+The lesson time stays fixed when the clocks change.
+
+Why lessons are online
+
+A class of fifteen to twenty learners at one precise level forms far more easily across the UK than in one town, and video spares everyone a journey.
+
+Fees
 
 ## Fees for Port Talbot families
 
 Port Talbot learners pay the same as every learner outside India.
 
-- First class: USD 0. First lesson: free, full length, with a course suggestion afterwards.
-- Group tuition: USD 100 a month. Group class, about eight lessons a month.
-- Private tuition: USD 150 a month. Private lessons, about eight a month.
+First class**USD 0**
+
+First lesson: free, full length, with a course suggestion afterwards.
+
+Group tuition**USD 100**
+
+Group class, about eight lessons a month.
+
+Private tuition**USD 150**
+
+Private lessons, about eight a month.
 
 All fees are charged in US dollars; we quote no sterling price. The trial is free, and billing begins once you have chosen a course and a weekly time. The pricing page covers holidays, missed lessons and changing between group and private classes.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20to%20book%20a%20free%20vibe%20coding%20or%20AI%20agents%20trial%20lesson.%20We%20are%20in%20Port%20Talbot.)Reviews
+
+## Google reviews from Welsh families and learners across Britain
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Port Talbot lesson
+
+Let us know roughly how old the learner is, or their school year, and an interest or two. A trial could be a note-passing logic puzzle, an AI-made Scratch game, some first Python, or a two-agent clock experiment.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Port Talbot one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20to%20book%20a%20free%20vibe%20coding%20or%20AI%20agents%20trial%20lesson.%20We%20are%20in%20Port%20Talbot.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Port Talbot questions
+
+The clock project, multi-agent systems, vibe coding and how lessons are organised.
 
 ### How many people live in Port Talbot?
 
@@ -193,10 +311,14 @@ Nothing for the trial. Afterwards it is USD 100 per month to join a group, or US
 
 Yes. Tell us the Neath Port Talbot term dates and the holiday weeks stay free.
 
+Along the coast
+
 ## More pages along the South Wales coast
 
 Read about [Swansea](/best-coding-class-in-swansea), [Neath Port Talbot](/coding-classes-in-neath-port-talbot) and [Bridgend](/coding-classes-in-bridgend), or our [WJEC Digital Technology help](/wjec-gcse-digital-technology-help-wales). For other towns, go to the [Wales overview](/coding-and-ai-classes-in-wales) or the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Send a WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20to%20book%20a%20free%20vibe%20coding%20or%20AI%20agents%20trial%20lesson.%20We%20are%20in%20Port%20Talbot.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-port-talbot](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-port-talbot#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-port-talbot*

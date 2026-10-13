@@ -12,7 +12,7 @@ Python at age 13 · Class 8
 
 Thirteen is the turning point. Old enough for deep OOP, Flask APIs, sklearn on real Kaggle datasets. Our 1 hour live classes build a GitHub portfolio that reads real, the kind a Class 12 student will thank you for.
 
-[Book a free demo class](/book-demo)See the curriculum**3,200+**13-year-olds in Python classes**4.9 / 5**Parent rating · 390+ reviews**1 hour**Live class, 1:1 or group**4 projects**GitHub portfolio in 6 monthsPy13Python · Age 13OOP deepFlask APIKaggle datasetCourses matched for this level
+[Book a free demo class](/book-demo)See the curriculum**10,000+**Students taught live since 2020**4.9 / 5**Rated across 547 Google reviews**1 hour**Live class, 1:1 or group**4 projects**GitHub portfolio in 6 monthsPy13Python · Age 13OOP deepFlask APIKaggle datasetCourses matched for this level
 
 ## Python tracks for a 13 year old ready for real tools.
 
@@ -156,9 +156,9 @@ One teacher, one learner, the full 1 hour. The teacher adapts pace in real time,
 
 **₹4,999**/ month · 4 sessionsOption B
 
-### Live Small-Group Online Class
+### Live Group Online Class
 
-4 to 6 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
+15 to 20 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
 
 - Small groups of 4 to 6 similar-level learners
 - 1 hour live session, 2 sessions per week

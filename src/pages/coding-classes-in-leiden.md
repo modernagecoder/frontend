@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes in Leiden for ages 6 to 
 canonical: https://learn.modernagecoders.com/coding-classes-in-leiden
 source: src/pages/coding-classes-in-leiden.html
 ---
-> Coding classes in Leiden serve 130,328 people (Statistics Netherlands, 1 January 2026) packed onto 21.85 square kilometres of land, which its own entry calls by far the smallest area of any Dutch city above a hundred thousand. In 1807 a boat carrying 37,000 Hollandse ponden of gunpowder exploded here, and the same source gives that charge as 17,760 kilograms, which works out at 0.48 kilograms to the pond rather than the 0.4536 of a modern pound. Throughout the city, Modern Age Coders teaches on a live connection and in English, taking learners at any age between 6 and 67. The first hour is given free. Afterwards it is USD 100 a month in a group of fifteen to twenty, and USD 150 with a teacher to yourself.
+> Live online coding, Python and AI classes in Leiden for ages 6 to 67, across all 10 wijken of the university city. First lesson free, then one flat monthly fee.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Leiden
-
-Leiden, Zuid-Holland / Live online
-
-# Coding classes in Leiden, where a pound in 1807 was not the pound you would convert it with
-
-**What are the best coding classes in Leiden?** Coding classes in Leiden serve 130,328 people (Statistics Netherlands, 1 January 2026) packed onto 21.85 square kilometres of land, which its own entry calls by far the smallest area of any Dutch city above a hundred thousand. In 1807 a boat carrying 37,000 Hollandse ponden of gunpowder exploded here, and the same source gives that charge as 17,760 kilograms, which works out at 0.48 kilograms to the pond rather than the 0.4536 of a modern pound. Throughout the city, Modern Age Coders teaches on a live connection and in English, taking learners at any age between 6 and 67. The first hour is given free. Afterwards it is USD 100 a month in a group of fifteen to twenty, and USD 150 with a teacher to yourself.
-
-A record from 1807 says the boat carried 37,000 pounds of gunpowder. Convert that with the pound on your phone and you get 16,783 kilograms. The source itself says 17,760, because the Hollandse pond of the day was 0.48 kilograms rather than 0.4536. Almost a tonne of explosive goes missing in a conversion that looks completely routine, and nothing in the word pound warns you. A child who has met one unit that changed size behind its own name will check the others before trusting a number that crossed a century.
-
-Facts last verified 7 September 2026. Teaching is online; no Leiden branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Leiden
 
 ## Four courses for a city with forty thousand students in it
 
 A groep 5 child in the Merenwijk, a teenager in Leiden-Zuidwest who wants the maths behind the model, a university student whose degree assumes programming it never taught, and a parent in the Stevenshof handling data from three decades: four doors into a very small city.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Typed Python, turtle drawings and a first program that learns a rule, in English, for the groep 5 to 8 child anywhere in the city.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 17): Python and real datasets to a first trained model, for the teenager who wants to handle evidence rather than opinions.
-- [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) (College and adult): Deep learning and generative AI in Python, for the student who needs the mathematics under the library call.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (Adults): Excel, SQL, Python and BI, for the working parent whose sources span decades and disagree about their own units.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsTyped Python, turtle drawings and a first program that learns a rule, in English, for the groep 5 to 8 child anywhere in the city.See the syllabus](/courses/python-ai-kids-masterclass)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 17Data Science for TeensPython and real datasets to a first trained model, for the teenager who wants to handle evidence rather than opinions.See the syllabus](/courses/data-science-course-for-teens-python-data)[![AI and ML Masterclass course thumbnail](/images/ai-ml-college.webp)College and adultAI and ML MasterclassDeep learning and generative AI in Python, for the student who needs the mathematics under the library call.See the syllabus](/courses/ai-ml-masterclass-complete-college)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)AdultsData Analysis CourseExcel, SQL, Python and BI, for the working parent whose sources span decades and disagree about their own units.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Leiden today
 
 ## The densest city in this series, and the one with the most students
 
@@ -52,7 +40,11 @@ The municipality counts 40,949 students at institutions here for 2025, alongside
 
 25 primary establishments teach 8,070 pupils and 16 secondary establishments teach 5,510, both for 2025. For a city of this size those are small numbers, which is what an age structure with only 11 percent under fifteen produces.
 
-**A city that cannot spread out** Its own entry says that of all Dutch cities above a hundred thousand residents, Leiden has by far the smallest area, and it holds more than 1,250 national monuments inside it. The Burcht, a motte castle, stands where two arms of the Rhine meet, and city rights date from 1266.
+A city that cannot spread out
+
+Its own entry says that of all Dutch cities above a hundred thousand residents, Leiden has by far the smallest area, and it holds more than 1,250 national monuments inside it. The Burcht, a motte castle, stands where two arms of the Rhine meet, and city rights date from 1266.
+
+Where the learners are
 
 ## Ten wijken on twenty-two square kilometres
 
@@ -84,6 +76,8 @@ North-west of the station, the research and teaching quarter that pulls in much 
 
 One hour, one fee and one class serve all ten wijken. What a learner can already do settles the grouping; where they live never enters into it.
 
+Verified local facts
+
 ## Every figure, its source, and the conversion the sources did for us
 
 The national count, the municipal entry, the university, and the 1807 record the project below is built on.
@@ -114,6 +108,8 @@ A motte castle at the confluence of two arms of the Rhine, in the middle of the 
 
 Modern Age Coders has no connection to the municipality, the university or any school named here and claims none. The 1807 casualty figures are quoted because they are part of the record this page reads, and they are quoted exactly rather than rounded.
 
+Signature project
+
 ## Thirty-seven thousand pounds of what? Build the converter that asks which pound
 
 One historical load, three plausible conversion factors, and a spread of nearly two tonnes between the answers.
@@ -130,10 +126,8 @@ The same source gives the load as 17,760 kilograms. Dividing by 37,000 returns 0
 
 After metrication a Dutch pond was defined as half a kilogram exactly, and a reader who assumed that would get 18,500 kilograms, overstating by 740. Three defensible factors, three answers, and a spread of 1,717 kilograms on a figure that was never in doubt to begin with.
 
-**One load of 37,000 ponden, converted three ways**
-
 | Assumed factor | Where it comes from | Result | Difference from the source |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 0.4536 kg | the modern avoirdupois pound | 16,783 kg | 977 kg too little |
 | 0.48 kg | recovered from the source's own two figures | 17,760 kg | the published value |
 | 0.5 kg | the metric pond, defined after metrication | 18,500 kg | 740 kg too much |
@@ -143,14 +137,14 @@ After metrication a Dutch pond was defined as half a kilogram exactly, and a rea
 
 Units are words, and words drift. The pound, the mile, the gallon, the ton, the acre and the horsepower have all meant different quantities in different places and centuries, and a historical document uses the local value of its own day without ever saying so. The danger is not that conversion is hard but that it is easy: the modern factor is in every phone and library, it produces a clean number, and nothing anywhere raises an objection. Three defences work and all are cheap. Store the unit with the value and never the value alone. When a source gives both the original and a conversion, divide to recover the factor it used, and keep that factor beside the record. And when in doubt, quote the original quantity in its original unit rather than a converted number that looks more precise than the evidence. The three results above are arithmetic on figures published in the sources named, and this page uses no factor for the Hollandse pond other than the one its source implies.
 
+Reliable pipeline
+
 ## Five habits for numbers that arrive with a unit attached
 
 Currencies before redenomination, calories against kilojoules, tons long and short and metric, gallons on either side of an ocean, miles nautical and statute: the label survives while the quantity moves. Practised on a load that blew up in this city in 1807.
 
-**When the unit is a word rather than a definition**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Bind unit to value | Never store a number without the unit in the same field or record | A quantity converted with the wrong factor | Data that can be checked later |
 | Date the unit | Record when and where the measurement was made | A 1807 pound converted at a 2026 rate | The information needed to pick a factor |
 | Recover the factor | Where a source gives original and converted, divide and keep the ratio | A silent disagreement between sources | The source's own assumption, in the open |
@@ -171,14 +165,37 @@ The same audit on a spreadsheet at work that mixes units: currencies before and 
 
 The population, household, area, school, university and 1807 figures come from the offices and entries named beside them. The 0.48 kilograms to the pond is recovered by dividing two figures the source publishes together, and the 16,783 and 18,500 kilogram results are this page applying two other stated factors to the same published load.
 
+Learning ladder
+
 ## From two rulers and one table to a converter that refuses without a date
 
 The starting rung is decided in the free hour, and the wijk on the address plays no part.
 
-- **Ages 6 to 10: Which ruler?** Children measure one table twice and find the number is useless on its own. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 11 to 13: Numbers that carry units** Learners store a value with its unit and see what breaks when the unit is dropped. [Maths Through Coding](/courses/maths-through-coding), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 14 to 18: Factors, dates and doubt** Teenagers recover a factor from a source and report a range when it is uncertain. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Mixed units at work** Adults audit a live file for a column whose unit exists only in somebody's memory. [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### Which ruler?
+
+Children measure one table twice and find the number is useless on its own.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 11 to 13
+
+### Numbers that carry units
+
+Learners store a value with its unit and see what breaks when the unit is dropped.
+
+[Maths Through Coding](/courses/maths-through-coding)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 14 to 18
+
+### Factors, dates and doubt
+
+Teenagers recover a factor from a source and report a range when it is uncertain.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Mixed units at work
+
+Adults audit a live file for a column whose unit exists only in somebody's memory.
+
+[AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## An AI will convert 37,000 pounds to kilograms instantly. Why should a child in Leiden learn to ask which pound?
 
@@ -190,30 +207,139 @@ Which is why the learner builds the quantity type that carries a unit and a date
 
 The case for a Leiden child learning to code in 2026 is therefore not about history. It is that a unit is a word with a definition attached somewhere else, that the definition moves while the word stays, and that the cheapest way to learn it permanently is on a number from this city that will not convert cleanly. The longer argument is in [why writing code still repays a child in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for the most crowded city in this series
 
 Leiden fits 130,328 people onto twenty-two square kilometres, so nothing is far. What is scarce here is space and time rather than distance, and a class that needs no room and no journey suits that.
 
-- **No room to book, no journey to make** The lesson happens at the kitchen table in the Stevenshof, the Merenwijk or the old centre at one fixed hour a week.
-- **English carries the teaching; the school words stay Dutch** Instruction is in English. Groep, havo, vwo and profielkeuze are used as the school uses them, and nothing is translated in either direction.
-- **Three things come out of the first hour** A demonstration of what the learner can genuinely do, a course selected on the strength of it, and a slot in the week. None of that requires a card.
-- **Ability decides the group** Two learners at the same stage work together whichever wijk they live in, and two at different stages do not.
-- **Twice weekly, on the middle calendar** Two lessons a week at one repeating slot, eight in most months. Leiden takes its school holidays with regio Midden along with the rest of Zuid-Holland, and weeks away go into the plan first.
-- **Two clocks, one of which moves** Because only the Netherlands adjusts for summer time, the teacher sits three and a half hours in front for part of the year and four and a half for the rest. Late afternoons and early evenings overlap comfortably, and Saturday and Sunday are open throughout.
+### No room to book, no journey to make
 
-**A city of students where the children are outnumbered** Only 14,836 residents are under fifteen, 11 percent, while 23,428 are between fifteen and twenty-five. A child growing up here is in a minority, and the group of fifteen to twenty that this class forms is drawn from the whole country rather than from one street, which for some families is exactly the point.
+The lesson happens at the kitchen table in the Stevenshof, the Merenwijk or the old centre at one fixed hour a week.
+
+### English carries the teaching; the school words stay Dutch
+
+Instruction is in English. Groep, havo, vwo and profielkeuze are used as the school uses them, and nothing is translated in either direction.
+
+### Three things come out of the first hour
+
+A demonstration of what the learner can genuinely do, a course selected on the strength of it, and a slot in the week. None of that requires a card.
+
+### Ability decides the group
+
+Two learners at the same stage work together whichever wijk they live in, and two at different stages do not.
+
+### Twice weekly, on the middle calendar
+
+Two lessons a week at one repeating slot, eight in most months. Leiden takes its school holidays with regio Midden along with the rest of Zuid-Holland, and weeks away go into the plan first.
+
+### Two clocks, one of which moves
+
+Because only the Netherlands adjusts for summer time, the teacher sits three and a half hours in front for part of the year and four and a half for the rest. Late afternoons and early evenings overlap comfortably, and Saturday and Sunday are open throughout.
+
+A city of students where the children are outnumbered
+
+Only 14,836 residents are under fifteen, 11 percent, while 23,428 are between fifteen and twenty-five. A child growing up here is in a minority, and the group of fifteen to twenty that this class forms is drawn from the whole country rather than from one street, which for some families is exactly the point.
+
+Fees
 
 ## The fee, in dollars, in all ten wijken
 
 Published here rather than saved for a phone call.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 One international rate applies, quoted in dollars and never in euros, so every address in the city sees the same figure. Payment follows the free lesson rather than preceding it and goes over WhatsApp once a course and a time are agreed. Pausing, changing plan and missing a week are described on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Leiden.)Reviews
+
+## Six families, in the words they left on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Send the level; the wijk is optional
+
+The first task might be two rulers and one table, a quantity type in Python that will not convert without a date, or a column at work whose unit lives only in the memory of whoever built it.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Leiden one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Leiden.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Leiden coding class questions
+
+The city, its university, its records, the teaching and the terms.
 
 ### Why does this page make a point about pounds?
 
@@ -255,10 +381,14 @@ The first lesson is free. Group tuition is USD 100 a month for two live lessons 
 
 Between five and ten, matched on level, pace and goal rather than on age, school or wijk. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.
 
+Explore the Netherlands
+
 ## South to the ministries, out to the province, and up to the country
 
 South along the line are [The Hague](/coding-classes-in-the-hague) and [Zoetermeer](/coding-classes-in-zoetermeer), and Leiden sits in [Zuid-Holland](/coding-classes-in-zuid-holland), whose page is about a region nobody drew a boundary for. The parent of the whole series is the [Netherlands coding hub](/coding-classes-in-netherlands). Anyone whose real target is a trained model, not a working program, has two other places to begin: [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) and the [AI and Python Academy](/ai-and-python-academy-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Leiden.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-leiden](https://learn.modernagecoders.com/coding-classes-in-leiden#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-leiden*

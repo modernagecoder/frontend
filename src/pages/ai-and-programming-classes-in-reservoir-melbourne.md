@@ -4,56 +4,40 @@ description: "Live online AI and programming classes for Reservoir children, tee
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-reservoir-melbourne
 source: src/pages/ai-and-programming-classes-in-reservoir-melbourne.html
 ---
-> Python and the maths inside machine learning, taught live online, with every model checked before it is trusted. Reservoir is a big suburb by population: the 2021 Census counted 51,096 residents and 23,146 private dwellings, about 2.4 people to a household.
+> Live online AI and programming classes for Reservoir children, teenagers and adults: Scratch, Python, calculus for machine learning and AI, in groups or one to one.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [Victoria](/coding-and-ai-classes-in-victoria) / [Melbourne](/vibe-coding-and-ai-agents-classes-in-melbourne) / Reservoir
-
-Reservoir, City of Darebin, Melbourne, Victoria / Live online
-
-# AI and programming classes in Reservoir
-
-**What do AI and programming classes cover for Reservoir learners?** Python and the maths inside machine learning, taught live online, with every model checked before it is trusted. Reservoir is a big suburb by population: the 2021 Census counted 51,096 residents and 23,146 private dwellings, about 2.4 people to a household.
-
-Every machine learning model learns by following a gradient, a set of numbers saying which way to nudge each setting. Write that gradient by hand and a single copied line can send training the wrong way without any error message. Gradient checking compares the formula with a slow but trustworthy estimate, and it takes seconds.
-
-Facts last verified 11 October 2026. Teaching is online; no Reservoir branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Reservoir
 
 ## Courses that open up the model
 
 Each course goes beneath the library call to the gradients and loss functions that the checking project tests. The free first class sets the level.
 
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Models built from scratch in Python before any library does it for you.
-- [High School Mathematics](/courses/complete-high-school-mathematics-mastery) (Ages 14 to 18): Algebra through to calculus, the maths that gradients are made of.
-- [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) (University and adult): Machine learning and deep learning with the derivations shown.
-- [Maths for Data Science](/courses/data-analytics-mathematics-masterclass) (Ages 16 and up): Calculus, linear algebra and statistics as used in machine learning.
+[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensModels built from scratch in Python before any library does it for you.See the syllabus](/courses/ai-ml-masterclass-teens)[![High School Mathematics course thumbnail](/images/high-school-maths.webp)Ages 14 to 18High School MathematicsAlgebra through to calculus, the maths that gradients are made of.See the syllabus](/courses/complete-high-school-mathematics-mastery)[![AI and ML Masterclass course thumbnail](/images/ai-ml-college.webp)University and adultAI and ML MasterclassMachine learning and deep learning with the derivations shown.See the syllabus](/courses/ai-ml-masterclass-complete-college)[![Maths for Data Science course thumbnail](/images/data-analytics-maths.webp)Ages 16 and upMaths for Data ScienceCalculus, linear algebra and statistics as used in machine learning.See the syllabus](/courses/data-analytics-mathematics-masterclass)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Reservoir in the Census
 
 ## A large suburb of houses and townhouses
 
 Figures for the Reservoir suburb (ABS code SAL22161, listed as Reservoir (Vic.)) from the 2021 Census QuickStats, alongside Victoria. The City of Darebin is covered separately.
 
-**Reservoir suburb, 2021 Census headline counts**
-
 | Headline | Reservoir |
-|---|---|
+| --- | --- |
 | Residents | 51,096 |
 | Median age | 38 |
 | Families | 13,259 |
 | Private dwellings | 23,146 |
 | Average people per household | 2.4 |
 
-**Reservoir compared with Victoria**
-
 | Measure | Reservoir | Victoria |
-|---|---|---|
+| --- | --- | --- |
 | Separate houses | 63.2% (12,804) | 73.4% |
 | Semi-detached, row or terrace houses and townhouses | 32.5% (6,582) | 13.9% |
 | Workers who drove to work | 45.7% (11,155) | 49.9% |
@@ -74,22 +58,20 @@ The 2021 Census was held in an August lockdown, when 27.7% of employed residents
 
 For confidentiality the bureau adds small random changes to each count, so table parts can differ from totals. We report numbers exactly as published and do not add them up.
 
+Signature project
+
 ## One copied line, caught by a check
 
 We fitted the simplest model there is: predict each station's FY24-25 entries from its FY23-24 entries with a straight line, for the 221 stations that appear in both files. Then we wrote the gradient by hand twice, once correctly and once with a classic copy-paste slip: the bias gradient copied from the weight line, still multiplied by last year's entries.
 
-**Gradient check: hand-written gradient against a numerical estimate (our calculation)**
-
 | Version | Weight gradient error | Bias gradient error | Verdict |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Correct, at two test points | About 1 in 10 billion or less | About 1 in 4 billion or less | Pass |
 | Buggy, first test point | About 1 in 60 billion | 0.73 | Fail |
 | Buggy, second test point | About 1 in 20 billion | 0.80 | Fail |
 
-**What happens if you train anyway (20,000 steps, our calculation)**
-
 | Model | Typical error per station | Reservoir prediction |
-|---|---|---|
+| --- | --- | --- |
 | Correct gradient | 102,645 entries | 873,741 |
 | Buggy gradient | 774,902 entries | 1,572,056 |
 | No model: same as last year | 105,234 entries | 852,650 |
@@ -112,14 +94,14 @@ The correct model beat "same as last year" by a small margin, 102,645 against 10
 
 Station figures arrive pre-rounded to multiples of 50 by the transport department. McKinnon station is spelled differently in the two years' files, which is why 221 stations, not 222, matched. The model, the bug, the checks and every error figure are our own work.
 
+The method
+
 ## Nudge each setting both ways
 
 To estimate a gradient numerically, add a tiny amount to one setting, measure the loss, subtract the same amount, measure again, and divide the difference by twice the step. Compare that with the formula, setting by setting.
 
-**Reading a gradient check**
-
 | Relative error | Usual meaning | Next step |
-|---|---|---|
+| --- | --- | --- |
 | Below about 1 in a million | The formula is right | Train with confidence |
 | Around 1 in a thousand | Suspicious; often a scaling slip | Check each term and the step size |
 | Around 0.1 or above | The formula is wrong | Fix it before training |
@@ -138,6 +120,8 @@ Code the station model, plant the bug, and write the check that finds it.
 
 Add gradient checks to the tests for a custom loss function at work.
 
+Around Reservoir
+
 ## Three stations and thirteen schools
 
 Station entries from the patronage file and school counts from the 2025 school locations file.
@@ -154,16 +138,41 @@ Regent rose from 369,000 to 382,700 entries between FY23-24 and FY24-25, while R
 
 The file lists 13 open schools in Reservoir, eight of them government, including Reservoir Views Primary School, Reservoir High School and William Ruthven Secondary College.
 
-**Term 3, 2027** Victorian government schools run Term 3 from Monday 12 July to Friday 17 September 2027, a natural point to start or change a course.
+Term 3, 2027
+
+Victorian government schools run Term 3 from Monday 12 July to Friday 17 September 2027, a natural point to start or change a course.
+
+Learning ladder
 
 ## From slopes in Scratch to checked gradients
 
 Ages are only a guide; the free first class places each learner.
 
-- **Ages 6 to 10: Scratch** Games with motion, speed and simple slopes. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)
-- **Ages 10 to 14: Python and graphs** Straight lines, plotting and a first model fitted by hand. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 17: Machine learning** Loss, gradients and training loops written from scratch. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [High School Mathematics](/courses/complete-high-school-mathematics-mastery)
-- **University and adult: Deep learning** Neural networks, custom losses and the checks that keep them honest. [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college), [Maths for Data Science](/courses/data-analytics-mathematics-masterclass)
+Ages 6 to 10
+
+### Scratch
+
+Games with motion, speed and simple slopes.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)Ages 10 to 14
+
+### Python and graphs
+
+Straight lines, plotting and a first model fitted by hand.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 17
+
+### Machine learning
+
+Loss, gradients and training loops written from scratch.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[High School Mathematics](/courses/complete-high-school-mathematics-mastery)University and adult
+
+### Deep learning
+
+Neural networks, custom losses and the checks that keep them honest.
+
+[AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college)[Maths for Data Science](/courses/data-analytics-mathematics-masterclass)AI and programming
 
 ## If AI tools compute gradients for you, why should a Reservoir learner check one?
 
@@ -175,30 +184,139 @@ A learner who has seen a relative error of 0.73 next to one of a ten-billionth k
 
 Our Reservoir classes teach the maths inside AI so that learners can test it, not just run it. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Reservoir lessons, live online
 
 Every lesson is a live video class taken from home.
 
-- **Learner drives** The learner types, runs and fixes the code with the screen shared, and the teacher guides from there.
-- **School-term rhythm** Courses run in Victorian terms and break in the holidays.
-- **Free first class** The trial is a real lesson, after which the teacher proposes a course and a weekly time.
-- **Level-matched** Groups run with fifteen to twenty learners who are working at about the same point.
-- **Two per week** Two set lessons a week, around eight a month, with holiday gaps agreed ahead.
-- **Teachers in India** Our teachers are in India, so a 4:30pm Reservoir class during daylight saving is 11am India time, and noon in the Melbourne winter.
+### Learner drives
 
-**Melbourne clocks** Daylight saving in Melbourne began on Sunday 4 October 2026 and ends on Sunday 4 April 2027. India keeps one time all year, so lesson times are always confirmed in Melbourne time.
+The learner types, runs and fixes the code with the screen shared, and the teacher guides from there.
+
+### School-term rhythm
+
+Courses run in Victorian terms and break in the holidays.
+
+### Free first class
+
+The trial is a real lesson, after which the teacher proposes a course and a weekly time.
+
+### Level-matched
+
+Groups run with fifteen to twenty learners who are working at about the same point.
+
+### Two per week
+
+Two set lessons a week, around eight a month, with holiday gaps agreed ahead.
+
+### Teachers in India
+
+Our teachers are in India, so a 4:30pm Reservoir class during daylight saving is 11am India time, and noon in the Melbourne winter.
+
+Melbourne clocks
+
+Daylight saving in Melbourne began on Sunday 4 October 2026 and ends on Sunday 4 April 2027. India keeps one time all year, so lesson times are always confirmed in Melbourne time.
+
+Fees
 
 ## Reservoir class fees
 
 A free trial and two monthly rates.
 
-- First class: USD 0. Your first lesson is free and finishes with a plain recommendation.
-- Group tuition: USD 100 a month. A month in a group of fifteen to twenty learners at one level, generally eight lessons.
-- Private tuition: USD 150 a month. Close to eight private lessons a month with one teacher.
+First class**USD 0**
+
+Your first lesson is free and finishes with a plain recommendation.
+
+Group tuition**USD 100**
+
+A month in a group of fifteen to twenty learners at one level, generally eight lessons.
+
+Private tuition**USD 150**
+
+Close to eight private lessons a month with one teacher.
 
 Families outside India are billed in US dollars, so Reservoir pays what every other overseas family pays. We take no payment until the trial has fixed course and time; the pricing page explains holidays, missed lessons and changes of format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20Reservoir.)Reviews
+
+## What Google reviewers write about our classes
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Reservoir class
+
+Mention how old the learner is and something they enjoy. Seven-year-olds often open with a Scratch racing game; senior secondary students sometimes open by hunting a planted gradient bug.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Reservoir one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20Reservoir.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Reservoir AI and programming questions
+
+Questions we get from Reservoir households and adult learners.
 
 ### How many people live in Reservoir?
 
@@ -240,10 +358,14 @@ Fifteen to twenty learners grouped on level, pace and goals, with one-to-one les
 
 Yes. Adults have their own groups or one-to-one lessons, often to understand the models their workplace has started to use.
 
+Explore Melbourne and Victoria
+
 ## More for Reservoir learners
 
 Across the city, the [Melbourne page](/vibe-coding-and-ai-agents-classes-in-melbourne) brings our classes together, and the [Victoria guide](/coding-and-ai-classes-in-victoria) does the same for the state. A primary-age beginner may suit our [kids coding page for Melbourne](/coding-classes-for-kids-melbourne) better.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20Reservoir.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-reservoir-melbourne](https://learn.modernagecoders.com/ai-and-programming-classes-in-reservoir-melbourne#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-reservoir-melbourne*

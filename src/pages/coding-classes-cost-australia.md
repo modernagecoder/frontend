@@ -153,7 +153,7 @@ $150 / month
 
 [Book a free first class](/book-demo)
 
-### Group coding
+### Small-group coding
 
 $100 / month
 

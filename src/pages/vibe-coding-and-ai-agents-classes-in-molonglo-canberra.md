@@ -4,46 +4,32 @@ description: "Live online vibe coding and AI agent classes for Molonglo Valley, 
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-molonglo-canberra
 source: src/pages/vibe-coding-and-ai-agents-classes-in-molonglo-canberra.html
 ---
-> That an agent should push work to the tool built for it. Asked how many public trees each Molonglo suburb has, an agent can download every record and count, or ask the ACT data service to count. We measured both: 22 calls and 17.7 megabytes against one call and 192 bytes, with identical answers.
+> Live online vibe coding and AI agent classes for Molonglo Valley, ages 6 to adult, with an agent project measuring smart and wasteful ways to query ACT open data.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [Australian Capital Territory](/coding-and-ai-classes-in-australian-capital-territory) / [Canberra](/vibe-coding-and-ai-agents-classes-in-canberra) / Molonglo
-
-Molonglo Valley district, west Canberra, ACT / Live online
-
-# Vibe coding and AI agents classes in Molonglo
-
-**What does the Molonglo agent project teach?** That an agent should push work to the tool built for it. Asked how many public trees each Molonglo suburb has, an agent can download every record and count, or ask the ACT data service to count. We measured both: 22 calls and 17.7 megabytes against one call and 192 bytes, with identical answers.
-
-Molonglo Valley is a young district of five suburbs west of the city, from Wright and Coombs to Denman Prospect and Whitlam. Its population is rising fast and its public records grow with every new street. That makes it a good place to teach an AI agent to ask data services clever questions instead of bulk-downloading.
-
-Facts last verified 13 October 2026. Teaching is online; no Molonglo branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Molonglo
 
 ## Agents, APIs and Python
 
 Courses that build the skills behind the query project. The trial lesson sets the starting point.
 
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (University and adult): Agents that call APIs and check what comes back.
-- [Codex & Claude Code for Teens](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens) (Ages 13 to 17): Coding agents for teenagers, with every tool call reviewed.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Requests, JSON and simple counting in Python.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 6 to 12): First steps building with AI help, in blocks.
+[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)University and adultGenerative AI CourseAgents that call APIs and check what comes back.See the syllabus](/courses/complete-generative-ai-masterclass-college)[![Codex & Claude Code for Teens course thumbnail](/images/codex-claude-code-teens.webp)Ages 13 to 17Codex & Claude Code for TeensCoding agents for teenagers, with every tool call reviewed.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensRequests, JSON and simple counting in Python.See the syllabus](/courses/python-complete-masterclass-teens)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 6 to 12Vibe Coding for KidsFirst steps building with AI help, in blocks.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Molonglo in the Census
 
 ## A new district, growing quickly
 
 Figures for the Molonglo statistical area (ABS SA3 80110) from the 2021 Census QuickStats, read on 13 October 2026, with the latest two ABS estimates.
 
-**Molonglo counts**
-
 | Measure | Value |
-|---|---|
+| --- | --- |
 | Residents, 2021 Census | 11,435 |
 | Estimated residents, 2024 | 16,180 |
 | Estimated residents, 2025 | 18,064 |
@@ -51,10 +37,8 @@ Figures for the Molonglo statistical area (ABS SA3 80110) from the 2021 Census Q
 | Private dwellings | 4,601 |
 | Bedrooms per dwelling | 3.0 |
 
-**Molonglo shares compared with the ACT**
-
 | Share | Molonglo | ACT |
-|---|---|---|
+| --- | --- | --- |
 | Flat or apartment | 35.2% (1,471) | 19.4% |
 | Bachelor degree or higher | 55.5% (4,866) | 42.9% |
 | Residents aged 5 to 9 | 8.9% (1,023) | 6.4% |
@@ -74,14 +58,14 @@ Couples with children were 51.2% of families, and almost one resident in eleven 
 
 Because the district has grown so fast, the 2021 Census already describes a smaller place. It was also held during the pandemic. ABS shares are rounded and small counts adjusted, so we copy the published figures and compare only like with like.
 
+Signature project
+
 ## Let the data service do the counting
 
 An agent is asked: how many public tree records does each Molonglo suburb have, and how many are native? It has one tool, the ACT open data API for the tree asset list. A naive agent downloads matching records page by page and counts them itself. A better agent sends a single query that groups and counts on the server. We ran both on 13 October 2026.
 
-**Three ways to answer the same question (our measurement)**
-
 | Approach | Calls | Data moved | Time | Answer |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Download every record, 1,000 per page | 22 | 17,689,823 bytes | 107.6 s | 21,041 records |
 | One call, no paging | 1 | 838,642 bytes | not timed | 1,000 records, wrong |
 | Group and count on the server | 1 | 192 bytes | 1.4 s | 21,041 records |
@@ -104,14 +88,14 @@ The middle row is the dangerous one. The API returns 1,000 records by default, a
 
 Records come from the ACTGOV Tree Assets dataset on data.act.gov.au, licensed CC BY 4.0, queried through its public API. Calls, bytes and times are our own measurements on one connection and will differ elsewhere; the counts themselves come from the data.
 
+Teaching the agent
+
 ## Describe the tool so the agent uses it well
 
 The fix is mostly in the tool description: tell the agent that the API can filter, group and count, and show one example query.
 
-**Lesson steps**
-
 | Step | Learner task |
-|---|---|
+| --- | --- |
 | 1 | Write a tool that fetches tree records for a list of suburbs, page by page. |
 | 2 | Measure calls, bytes and seconds for the Molonglo question. |
 | 3 | Add a second tool that sends a grouped count query, and measure again. |
@@ -131,6 +115,8 @@ Build both tools in Python and log every call the agent makes.
 
 Push filtering and aggregation into databases and APIs before data reach an agent at work.
 
+Around Molonglo
+
 ## Sculptures, shelters and Monday bins
 
 Local details from ACT Government open data.
@@ -147,16 +133,41 @@ The ACT shelter list places 85 shelters in the district, more than in Woden, Wes
 
 All five Molonglo suburbs in the ACT NOWaste list collect garbage on a Monday.
 
-**District used** Molonglo is the ABS statistical area of about 27.2 square kilometres; our test assigns five named suburbs to it. In 2027, ACT Term 3 runs from Tuesday 20 July to Friday 24 September.
+District used
+
+Molonglo is the ABS statistical area of about 27.2 square kilometres; our test assigns five named suburbs to it. In 2027, ACT Term 3 runs from Tuesday 20 July to Friday 24 September.
+
+Learning ladder
 
 ## From library questions to API queries
 
 Ages give a starting point; the trial decides.
 
-- **Ages 6 to 10: Ask, then build** Scratch and AI-assisted games built step by step. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)
-- **Ages 10 to 14: Python and data** Lists, counts and first web requests. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)
-- **Ages 14 to 18: Agents** Tools, APIs and agents that justify their calls. [Codex & Claude Code for Teens](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens), [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)
-- **Adults 18 and over: Agents at work** Efficient, auditable agents for real systems. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)
+Ages 6 to 10
+
+### Ask, then build
+
+Scratch and AI-assisted games built step by step.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)Ages 10 to 14
+
+### Python and data
+
+Lists, counts and first web requests.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)Ages 14 to 18
+
+### Agents
+
+Tools, APIs and agents that justify their calls.
+
+[Codex & Claude Code for Teens](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens)[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)Adults 18 and over
+
+### Agents at work
+
+Efficient, auditable agents for real systems.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Vibe coding and agents
 
 ## Will agents learn this on their own?
 
@@ -168,30 +179,139 @@ Molonglo learners measure the cost of each plan and design tools that make the e
 
 Our agent classes measure what agents do, not just what they say. The longer argument is in [why programming still repays the effort](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How Molonglo lessons run
 
 All lessons are live online, so families join from home anywhere in the valley.
 
-- **Live teaching** A teacher leads and checks each learner's work in real time.
-- **ACT calendar** Lessons pause in ACT school holidays.
-- **Free trial** Start with one free lesson and a plan.
-- **Group or solo** Level groups of fifteen to twenty, or private lessons.
-- **Rhythm** Two lessons a week, about eight a month.
-- **India time** From April to October a 6pm Molonglo lesson is 1:30pm in India.
+### Live teaching
 
-**Time zone** Molonglo keeps Canberra time, which the IANA database links to Sydney: daylight saving from the first Sunday in October to the first Sunday in April.
+A teacher leads and checks each learner's work in real time.
+
+### ACT calendar
+
+Lessons pause in ACT school holidays.
+
+### Free trial
+
+Start with one free lesson and a plan.
+
+### Group or solo
+
+Level groups of fifteen to twenty, or private lessons.
+
+### Rhythm
+
+Two lessons a week, about eight a month.
+
+### India time
+
+From April to October a 6pm Molonglo lesson is 1:30pm in India.
+
+Time zone
+
+Molonglo keeps Canberra time, which the IANA database links to Sydney: daylight saving from the first Sunday in October to the first Sunday in April.
+
+Fees
 
 ## Molonglo fees
 
 The same fees apply to every learner.
 
-- First class: USD 0. The opening lesson is free and ends with a plan.
-- Group tuition: USD 100 a month. Group classes: around eight a month, fifteen to twenty learners.
-- Private tuition: USD 150 a month. One-to-one: around eight a month with a single teacher.
+First class**USD 0**
+
+The opening lesson is free and ends with a plan.
+
+Group tuition**USD 100**
+
+Group classes: around eight a month, fifteen to twenty learners.
+
+Private tuition**USD 150**
+
+One-to-one: around eight a month with a single teacher.
 
 Fees are charged in US dollars once the trial has fixed a course and weekly time. The pricing page sets out holiday and missed-lesson rules.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hi%20Modern%20Age%20Coders%2C%20could%20we%20try%20a%20free%20AI%20agents%20or%20vibe%20coding%20lesson%20for%20a%20Molonglo%20learner%3F)Reviews
+
+## Reviews from families
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Molonglo lesson
+
+Tell us the learner's age and interests. A child might play the librarian game; a teenager might build the two tree-count tools.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Molonglo one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hi%20Modern%20Age%20Coders%2C%20could%20we%20try%20a%20free%20AI%20agents%20or%20vibe%20coding%20lesson%20for%20a%20Molonglo%20learner%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Molonglo agents and vibe coding questions
+
+Questions from Molonglo families and adult learners.
 
 ### How many people live in Molonglo?
 
@@ -233,10 +353,14 @@ By level and pace, fifteen to twenty learners each, not by age or suburb. One-to
 
 Yes. Adults learn in adult groups or one to one, often wiring agents to their own systems.
 
+More for Canberra learners
+
 ## Further reading
 
 Molonglo families can explore the [Canberra agents page](/vibe-coding-and-ai-agents-classes-in-canberra), the [ACT guide](/coding-and-ai-classes-in-australian-capital-territory) and [thinking, not just using AI tools](/learn-to-think-not-just-use-ai-tools-australia).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hi%20Modern%20Age%20Coders%2C%20could%20we%20try%20a%20free%20AI%20agents%20or%20vibe%20coding%20lesson%20for%20a%20Molonglo%20learner%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-molonglo-canberra](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-molonglo-canberra#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-molonglo-canberra*

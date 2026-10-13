@@ -4,46 +4,32 @@ description: "Live online vibe coding, AI agents and Python lessons for Twickenh
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-twickenham-london
 source: src/pages/vibe-coding-and-ai-agents-classes-in-twickenham-london.html
 ---
-> Four wards of Richmond upon Thames carry the Twickenham name. At the 2021 census, Twickenham Riverside had 10,992 residents, South Twickenham 10,629, West Twickenham 11,308, and St Margarets and North Twickenham 11,945. St Margarets and Whitton are recorded as suburban areas of the borough in TW1 and TW2. Twickenham learners from six to 67 are taught vibe coding, AI agents, Python, coding and maths on a live video call by a tutor in India, one-to-one or in a class of fifteen to twenty at their own level. We teach how to weigh evidence before how to use tools, so a learner notices when an agent is too sure of itself. A Twickenham trial lesson costs nothing and ends with a course we recommend. In the Twickenham project an agent estimates how many of 18,171 households have no car by asking a few at a time, and we test what happens when it starts out believing the wrong thing. After the trial, a class place is USD 100 a month and one-to-one lessons are USD 150 a month.
+> Live online vibe coding, AI agents and Python lessons for Twickenham, St Margarets, Whitton and Teddington learners aged 6 to 67. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Twickenham
-
-Twickenham, Richmond upon Thames, London / Live online
-
-# Vibe coding and AI agents classes in Twickenham
-
-**Where can Twickenham learners find the best vibe coding and AI agents classes?** Four wards of Richmond upon Thames carry the Twickenham name. At the 2021 census, Twickenham Riverside had 10,992 residents, South Twickenham 10,629, West Twickenham 11,308, and St Margarets and North Twickenham 11,945. St Margarets and Whitton are recorded as suburban areas of the borough in TW1 and TW2. Twickenham learners from six to 67 are taught vibe coding, AI agents, Python, coding and maths on a live video call by a tutor in India, one-to-one or in a class of fifteen to twenty at their own level. We teach how to weigh evidence before how to use tools, so a learner notices when an agent is too sure of itself. A Twickenham trial lesson costs nothing and ends with a course we recommend. In the Twickenham project an agent estimates how many of 18,171 households have no car by asking a few at a time, and we test what happens when it starts out believing the wrong thing. After the trial, a class place is USD 100 a month and one-to-one lessons are USD 150 a month.
-
-A sensible agent does not wait for all the evidence, and it does not ignore what it already knows. It starts with a belief, called a prior, and shifts that belief a little with each new observation. The rule for doing this properly is Bayesian updating, and for a yes-or-no question it is simple enough to code in a few lines: keep a count of yeses and noes, add your starting belief as if it were some earlier answers, and read off a range that probably contains the truth, the credible interval. This project builds that agent and sets it a question with a known answer from the Census: what share of households across four Twickenham wards have no car.
-
-Facts last verified 30 September 2026. Teaching is online; no Twickenham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentTwickenham course picks
 
 ## Twickenham courses in evidence, vibe coding and agents
 
 Pick the age band that fits the Twickenham learner. On all four courses the first live lesson is free and no card is requested.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think course: changing your mind by the right amount when a new clue turns up.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games the learner dreams up, an AI helps write and the learner then tests.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python and web projects made with AI help, including the belief-updating agent.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): Agents that reason under uncertainty, gather evidence and know when to stop.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think course: changing your mind by the right amount when a new clue turns up.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games the learner dreams up, an AI helps write and the learner then tests.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensPython and web projects made with AI help, including the belief-updating agent.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseAgents that reason under uncertainty, gather evidence and know when to stop.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Twickenham and Richmond upon Thames
 
 ## Twickenham Riverside, South and West Twickenham, and St Margarets
 
 Census 2021 counts for the four Twickenham wards, and places recorded in TW1, TW2 and TW11.
 
-**The four Twickenham wards of Richmond upon Thames at the 2021 census (ONS, via Nomis; 2022 wards)**
-
 | Ward | Residents (2021) |
-|---|---|
+| --- | --- |
 | Twickenham Riverside | 10,992 |
 | South Twickenham | 10,629 |
 | West Twickenham | 11,308 |
@@ -55,26 +41,24 @@ The ONS publishes these four counts separately and we leave them that way; there
 
 See [coding classes in Richmond upon Thames](/coding-classes-in-richmond-upon-thames-london) and the [London page](/best-coding-class-in-london) for more. Why we start with reasoning is on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Twickenham project
+
 ## Bayesian updating: an agent that changes its mind one household at a time
 
 A belief, a stream of answers, a rule for combining them, and a test of what a bad starting belief costs.
 
 Census 2021 table TS045 gives the number of households with no car or van in every output area. Across the 138 areas of the four Twickenham wards there are 18,171 households, and 4,571 of them, 25.16%, have none. The agent does not know that. It asks households at random, ten at a time, and after each batch updates a Beta distribution, the standard way to hold a belief about a percentage. It stops as soon as its 95% credible interval is narrower than a target. Python runs each version of the agent 2,000 times.
 
-**An agent with no starting opinion (flat prior), 2,000 simulated runs, our Python run on Census 2021 data**
-
 | Stops when its range is narrower than | Households asked (median) | Truth inside its range | Typical miss |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 20 percentage points | 80 | 92.6% | 4.32 points |
 | 10 percentage points | 290 | 94.3% | 2.02 points |
 | 6 percentage points | 810 | 94.9% | 1.22 points |
 
 With no opinion to start from, the agent is honest: its "95% sure" ranges contain the true 25.16% about 95% of the time, and halving the width of the range costs roughly four times as many households. The interesting part is what a prior does. A prior is coded as imaginary earlier answers, so "I think about 25%, but I am not sure" becomes 10 car-free households out of 40.
 
-**The same agent, target range 10 points, with different starting beliefs**
-
 | Starting belief | Households asked (median) | Truth inside its range | Typical miss |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | None (flat) | 290 | 94.3% | 2.02 points |
 | About 25%, held loosely | 250 | 95.6% | 1.90 points |
 | About 60%, held loosely | 280 | 60.3% | 4.28 points |
@@ -98,14 +82,14 @@ Add priors and credible intervals, then measure how often each version of the ag
 
 The household counts are Office for National Statistics Census 2021 data from Nomis, under the Open Government Licence. No real household was asked anything: every answer is simulated at the published rate, and the agent, priors and results are our own work.
 
+Agents and belief
+
 ## What this teaches about vibe coding and AI agents
 
 What an agent is told at the start can outweigh what it sees afterwards.
 
-**From the Twickenham updating agent to real AI agents**
-
 | In the household project | When an AI agent works for you |
-|---|---|
+| --- | --- |
 | A flat prior was right 94.3% of the time | Honest uncertainty can be measured |
 | A good loose prior saved 40 households | Useful background speeds an agent up |
 | A loose wrong prior cut that to 60.3% | A false assumption biases the result |
@@ -116,14 +100,37 @@ A prompt works like a prior. Tell an AI agent firmly that something is true and 
 
 Neither the Office for National Statistics, Nomis nor postcodes.io has any link with Modern Age Coders. Their open data is the only thing we took; the agent and its faults are ours.
 
+Stages
+
 ## From counters in a bag to agents that weigh evidence
 
 For a Twickenham learner the school year is where we begin guessing; the trial is where we find out.
 
-- **Years 2 to 7: How to think** Clues, guesses and changing your mind by a sensible amount. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Small games and apps built with an AI and checked by the learner. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python and probability** Simulation, belief and evidence next to GCSE and A level maths. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [Statistics & Probability](/courses/statistics-probability-maths-course)
-- **Adults: Agents under uncertainty** Agents that gather evidence, update and report honestly, in Python. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Years 2 to 7
+
+### How to think
+
+Clues, guesses and changing your mind by a sensible amount.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Small games and apps built with an AI and checked by the learner.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python and probability
+
+Simulation, belief and evidence next to GCSE and A level maths.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[Statistics & Probability](/courses/statistics-probability-maths-course)Adults
+
+### Agents under uncertainty
+
+Agents that gather evidence, update and report honestly, in Python.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)Agents and evidence
 
 ## What is Bayesian updating, and how should an AI agent use it?
 
@@ -135,30 +142,139 @@ A learner who has built both agents asks of any AI answer: what was it told to a
 
 Twickenham teenagers who understand priors write better instructions for AI and trust its conclusions by the right amount, a skill that comes from coding the agent themselves. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## St Margarets to Whitton, live online
 
 Twickenham lessons need one computer with a webcam and an internet line that carries video.
 
-- **The learner builds it** All the typing and prompting is the student's. The tutor, on a shared screen, asks how sure they are and why.
-- **Trial lesson decides the level** We see what the learner can do, choose a first topic and note any exam board.
-- **Twickenham trial is free** One full lesson without charge, ending in a course recommendation.
-- **Classes by level, not postcode** Fifteen to twenty learners at one stage, from across the UK.
-- **Two lessons each week** Paused whenever schools are on holiday.
-- **Your hour is fixed** Clock changes in Britain are the tutor's job to track.
+### The learner builds it
 
-**Why Twickenham lessons are online** Five learners at one level, free on the same evening, within reach of one room: that rarely happens. A video class removes the last condition.
+All the typing and prompting is the student's. The tutor, on a shared screen, asks how sure they are and why.
+
+### Trial lesson decides the level
+
+We see what the learner can do, choose a first topic and note any exam board.
+
+### Twickenham trial is free
+
+One full lesson without charge, ending in a course recommendation.
+
+### Classes by level, not postcode
+
+Fifteen to twenty learners at one stage, from across the UK.
+
+### Two lessons each week
+
+Paused whenever schools are on holiday.
+
+### Your hour is fixed
+
+Clock changes in Britain are the tutor's job to track.
+
+Why Twickenham lessons are online
+
+Five learners at one level, free on the same evening, within reach of one room: that rarely happens. A video class removes the last condition.
+
+Fees
 
 ## Twickenham fees
 
 Twickenham families are on the international rate that we charge in every country but India.
 
-- First class: USD 0. A free full-length lesson and a recommendation.
-- Group tuition: USD 100 a month. Close to eight live class lessons a month.
-- Private tuition: USD 150 a month. Close to eight live private lessons a month.
+First class**USD 0**
+
+A free full-length lesson and a recommendation.
+
+Group tuition**USD 100**
+
+Close to eight live class lessons a month.
+
+Private tuition**USD 150**
+
+Close to eight live private lessons a month.
 
 We quote Twickenham fees in US dollars only, with no sterling figure, and send the first invoice once the trial has fixed a course and an evening. See the pricing page for holidays, absences and moving between a class and private lessons.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Twickenham%3F)Reviews
+
+## Reviews on Google from Richmond upon Thames families and UK learners
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Twickenham lesson
+
+Give us an age or school year and a hobby, and we plan the Twickenham trial around it: a counters-in-a-bag game, a Scratch game built with an AI, some first Python, or a small agent that updates its guess.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Twickenham one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Twickenham%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Twickenham questions
+
+Priors, evidence, the household agent, vibe coding and how lessons in Twickenham are organised.
 
 ### How many people live in the Twickenham wards?
 
@@ -200,10 +316,14 @@ A free trial, then USD 100 a month for a place in a class or USD 150 a month for
 
 No. Tell us the dates and those weeks are skipped.
 
+Read on
+
 ## More Richmond and London pages
 
 Different projects on each: [Richmond upon Thames](/coding-classes-in-richmond-upon-thames-london) (weighing planets by their orbits), [Hounslow](/coding-classes-in-hounslow-london), [Kingston upon Thames](/coding-classes-in-kingston-upon-thames-london) and [Finchley](/best-coding-and-ai-classes-in-finchley-london) (when a good score hides false alarms). The rest of the capital is on [our London page](/best-coding-class-in-london), the rest of the country on the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Twickenham%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-twickenham-london](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-twickenham-london#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-twickenham-london*

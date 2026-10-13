@@ -4,34 +4,28 @@ description: "ICAS Maths practice for Years 2 to 12 in Australia: papers Intro t
 canonical: https://learn.modernagecoders.com/icas-maths-practice-online
 source: src/pages/icas-maths-practice-online.html
 ---
-> ICAS Mathematics is a maths assessment run by ICAS Assessments for Australian students from Year 2 to Year 12. Year 2 sits the Intro paper of 30 questions in 35 minutes; Years 3 to 12 sit Papers A to J, each with 40 questions, in 45 minutes for Papers A to C and 1 hour from Paper D. In 2026 the Mathematics sitting window was 24 to 28 August.
+> ICAS Maths practice for Years 2 to 12 in Australia: papers Intro to J, question counts and timing from ICAS Assessments, and a worked recurring decimals lesson.
 
-[Home](/) / [Online maths tutoring in Australia](/online-maths-tutoring-australia) / ICAS Maths practice
+In short
 
-Australia · ICAS Mathematics · Years 2 to 12
+ICAS Mathematics is a maths assessment run by ICAS Assessments for Australian students from Year 2 to Year 12. Year 2 sits the Intro paper of 30 questions in 35 minutes; Years 3 to 12 sit Papers A to J, each with 40 questions, in 45 minutes for Papers A to C and 1 hour from Paper D. In 2026 the Mathematics sitting window was 24 to 28 August.
 
-# ICAS Maths practice
-
-ICAS Mathematics is a school-based maths assessment that many Australian students sit each August, from Year 2 right through to Year 12. Each year level has its own paper, labelled from Intro to J, and the questions climb in difficulty through the paper so that strong students are stretched rather than simply finishing early. This page sets out which paper each year sits, how many questions and how long, the learning areas the papers cover, and how students enter, all from ICAS Assessments' own pages. It then works through one topic the senior papers name, turning recurring decimals into fractions, because it is the kind of question that rewards understanding over speed.
-
-At a glance: Run by: ICAS Assessments, powered by Janison; Years in Australia: Year 2 to Year 12; Papers: Intro (Year 2), then A (Year 3) to J (Year 12); Questions: 30 on Intro, 40 on Papers A to J; Time: 35 minutes to 1 hour, by paper; 2026 window: 24 to 28 August; Entry routes: School, testing centre or authorised partner; We offer: Live maths classes, not ICAS entry. Rated 4.9 across 547 Google reviews.
+For ICAS Mathematics
 
 ## Three courses that match the ICAS papers
 
 One for the primary papers, one for the middle years, one for the senior papers.
 
-- [Primary maths, Papers Intro to D](/courses/elementary-mathematics-complete-masterclass): Number, patterns, measurement and data with reasoning, the ground the primary papers cover.
-- [Middle years, Papers E to H](/courses/comprehensive-middle-school-mathematics-mastery): Ratios, algebra, angle properties and statistics, the content the Years 7 to 10 papers describe.
-- [Senior maths, Papers I and J](/courses/complete-high-school-mathematics-mastery): Indices, functions, trigonometry and probability for Years 11 and 12.
+[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  ICMT / 01 Primary maths, Papers Intro to D Number, patterns, measurement and data with reasoning, the ground the primary papers cover. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  ICMT / 02 Middle years, Papers E to H Ratios, algebra, angle properties and statistics, the content the Years 7 to 10 papers describe. Open the syllabus →](/courses/comprehensive-middle-school-mathematics-mastery)[![High School Mathematics course thumbnail](/images/high-school-maths.webp)  ICMT / 03 Senior maths, Papers I and J Indices, functions, trigonometry and probability for Years 11 and 12. Open the syllabus →](/courses/complete-high-school-mathematics-mastery)
+
+Which paper, how long
 
 ## ICAS Mathematics papers by Australian year level
 
 ICAS Assessments publishes the paper for each year and the length of each one. These figures are theirs, read on 7 October 2026.
 
-**ICAS Mathematics papers for Australian students, questions and time**
-
 | Paper | Australian year | Questions | Time |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Intro | Year 2 | 30 | 35 minutes |
 | A | Year 3 | 40 | 45 minutes |
 | B | Year 4 | 40 | 45 minutes |
@@ -54,6 +48,8 @@ The school, testing centre or partner running the assessment sets up how and whe
 
 Source: ICAS Assessments, [ICAS year levels and exam papers](https://www.icasassessments.com/icas-year-levels-and-exam-papers/), read on 7 October 2026. We are not connected with ICAS Assessments or Janison.
 
+What is tested
+
 ## Five learning areas, rising paper by paper
 
 ICAS Assessments lists the learning areas and gives examples for each paper. The examples below are quoted from its Mathematics page.
@@ -70,10 +66,8 @@ ICAS says its Mathematics assessments are "designed to provide an objective rank
 
 Questions test "logical reasoning, problem solving and critical thinking", in ICAS's words, rather than recall alone.
 
-**Examples ICAS Assessments gives for selected papers, quoted**
-
 | Paper | Year | Students may be asked to |
-|---|---|---|
+| --- | --- | --- |
 | A | Year 3 | "order and compare halves, quarters and eighths, multiply and divide by single digits using different techniques" |
 | D | Year 6 | "complete number sentences involving all four equations, solve problems involving parallel and perpendicular lines, or interpret and compare column graphs, dot plots and tables" |
 | E and F | Years 7 and 8 | "solve percentage and ratio problems, interpret authentic graphs to solve linear equations, solve problems using angle sum of triangles and quadrilaterals, or calculate mean, median, mode and range" |
@@ -82,14 +76,14 @@ Questions test "logical reasoning, problem solving and critical thinking", in IC
 
 Quotations: ICAS Assessments, [ICAS Mathematics](https://www.icasassessments.com/products-icas/subjects/mathematics/), read on 7 October 2026. The Australian Curriculum content behind these topics is set by ACARA and taught by schools.
 
+Taking part
+
 ## How students enter ICAS Mathematics
 
 ICAS Assessments describes three routes into the assessment. We are not one of them; we teach maths.
 
-**Entry routes and 2026 dates, from ICAS Assessments**
-
 | Route or date | What ICAS Assessments says |
-|---|---|
+| --- | --- |
 | Through school | Schools register and choose the year levels and subjects; parents are invited to enter; students sit the test at school |
 | Testing centre | If a school does not offer ICAS, students can sit at an ICAS testing centre hosted at Cliftons locations across Australia |
 | Authorised partner | An approved provider that coordinates the competition locally |
@@ -107,14 +101,14 @@ Dates for 2027 were not published when we checked. The August pattern in 2026 is
 
 Sources: ICAS Assessments [2026 dates](https://www.icasassessments.com/event-calendar/) and [how to register your child](https://www.icasassessments.com/how-to-register-your-child-for-icas-competition/), read on 7 October 2026.
 
+A worked topic from Papers G and H
+
 ## Turning recurring decimals into fractions
 
 ICAS Assessments names "convert terminating and recurring decimals to fractions" among the skills for Papers G and H. The Australian Curriculum introduces the idea in Year 8 (AC9M8N03, "recognise terminating and recurring decimals"). Here is the method, with three examples we checked exactly.
 
-**Three recurring decimals converted to fractions (our examples, checked with exact fractions in Python)**
-
 | Decimal | Method | Fraction |
-|---|---|---|
+| --- | --- | --- |
 | 0.272727... (27 repeating) | Let x be the decimal. 100x is 27.2727..., so 100x minus x is 27, and 99x is 27 | 27 over 99, which simplifies to 3/11 |
 | 0.1666... (6 repeating) | 10x is 1.666... and 100x is 16.666..., so 100x minus 10x is 15, and 90x is 15 | 15 over 90, which is 1/6 |
 | 2.3454545... (45 repeating) | 1000x is 2345.4545... and 10x is 23.4545..., so 990x is 2322 | 2322 over 990, which simplifies to 129 over 55 |
@@ -129,14 +123,14 @@ Knowing why the method works makes ICAS questions on this topic quick, and it ca
 
 Quotations: ICAS Assessments [Mathematics page](https://www.icasassessments.com/products-icas/subjects/mathematics/) and ACARA [Mathematics content 7 to 10](https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/mathematics/mathematics-curriculum-content-7-10-v9.docx), read on 7 October 2026. Examples are ours, checked with exact fractions in Python.
 
+Preparing well
+
 ## Four habits for ICAS Mathematics
 
 Good preparation builds mathematics, not test tricks. These habits help on any paper.
 
-**Preparation habits for ICAS Mathematics**
-
 | Habit | Why it helps | The sign it is secure |
-|---|---|---|
+| --- | --- | --- |
 | Secure the early questions | Questions rise in difficulty through the paper | The first third of a practice paper is done calmly and correctly |
 | Read the whole question | Reasoning questions hide the key detail | Underlines what is asked before calculating |
 | Estimate before choosing | Many wrong options are far from the right size | Rules out impossible options with a quick estimate |
@@ -145,63 +139,293 @@ Good preparation builds mathematics, not test tricks. These habits help on any p
 ### If your child finds ICAS stressful
 
 ICAS is designed to stretch strong students, so finding later questions hard is normal, not a warning sign.
+
 Treat it as a challenge and a source of feedback, not a judgement.
 
 ### Other assessments
 
 Our [AMC by year page](/australian-mathematics-competition-practice-by-year) covers the Australian Maths Trust's competition.
+
 For coding, see [ICAS Digital Technologies practice](/icas-digital-technologies-practice).
+
+The catalogue
 
 ## Nine maths courses for ICAS students
 
 Grouped by paper range. Every card opens a full syllabus.
 
+I
+
 ### Papers Intro to D
 
 Years 2 to 6
 
-- [Mental maths](/courses/mental-maths-mastery-kids): Number sense for quick, checked answers.
-- [Primary maths](/courses/elementary-mathematics-complete-masterclass): All strands, with reasoning.
-- [Problem solving for kids](/courses/problem-solving-and-computational-thinking-for-kids): Patterns and logical thinking.
+ICMT / P / 01
+
+#### Mental maths
+
+Number sense for quick, checked answers.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+ICMT / P / 02
+
+#### Primary maths
+
+All strands, with reasoning.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+ICMT / P / 03
+
+#### Problem solving for kids
+
+Patterns and logical thinking.
+
+[Open the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)II
 
 ### Papers E to H
 
 Years 7 to 10
 
-- [Middle years maths](/courses/comprehensive-middle-school-mathematics-mastery): Ratios, angles and early algebra.
-- [Algebra foundations](/courses/algebra-foundations-masterclass): Linear equations and factorising.
-- [Statistics and probability](/courses/statistics-probability-maths-course): Data displays and chance.
+ICMT / M / 01
+
+#### Middle years maths
+
+Ratios, angles and early algebra.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+ICMT / M / 02
+
+#### Algebra foundations
+
+Linear equations and factorising.
+
+[Open the syllabus](/courses/algebra-foundations-masterclass)
+
+ICMT / M / 03
+
+#### Statistics and probability
+
+Data displays and chance.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)III
 
 ### Papers I and J
 
 Years 11 and 12
 
-- [Senior maths](/courses/complete-high-school-mathematics-mastery): Indices, functions and trigonometry.
-- [Financial maths](/courses/complete-business-finance-mathematics-mastery): Simple and compound interest in depth.
-- [Competition maths](/courses/olympiad-competition-mathematics-mastery): For students who want the hardest questions.
+ICMT / S / 01
+
+#### Senior maths
+
+Indices, functions and trigonometry.
+
+[Open the syllabus](/courses/complete-high-school-mathematics-mastery)
+
+ICMT / S / 02
+
+#### Financial maths
+
+Simple and compound interest in depth.
+
+[Open the syllabus](/courses/complete-business-finance-mathematics-mastery)
+
+ICMT / S / 03
+
+#### Competition maths
+
+For students who want the hardest questions.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)
+
+How lessons run
 
 ## Live maths classes for ICAS students across Australia
 
 Our teachers work from India, behind every Australian time zone. A 4 pm lesson in Canberra during daylight saving begins at 10.30 am India time, so after-school classes are easy for us to schedule.
 
-- **Terms 2 and 3** Steady preparation before the August window.
-- **Weekly classes** One topic area at a time.
-- **Holiday blocks** Focused work on a weak learning area.
+Terms 2 and 3
 
-- **Reasoning first** Students explain why an answer must be right.
-- **Estimation habit** Answers are checked against a rough size.
-- **Groups of fifteen to twenty** Grouped by paper level.
-- **One-to-one option** For a specific gap or a stretch goal.
-- **Short parent notes** What was covered and one thing to practise.
-- **No result promises** We teach maths; the result is the student's.
+Steady preparation before the August window.
+
+Weekly classes
+
+One topic area at a time.
+
+Holiday blocks
+
+Focused work on a weak learning area.
+
+### Reasoning first
+
+Students explain why an answer must be right.
+
+### Estimation habit
+
+Answers are checked against a rough size.
+
+### Groups of fifteen to twenty
+
+Grouped by paper level.
+
+### One-to-one option
+
+For a specific gap or a stretch goal.
+
+### Short parent notes
+
+What was covered and one thing to practise.
+
+### No result promises
+
+We teach maths; the result is the student's.
+
+Student work
+
+## Projects from our students
+
+Made by learners for their own reasons, not for a test. See the rest in the [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Australian families pay monthly in US dollars, the rate we use in every country outside India. No deposit, and you can stop at any month end. ICAS entry is separate and arranged through schools or ICAS Assessments.
 
-- Free first class: USD 0. A real lesson with a teacher. An honest view of your child's level. No card details.
-- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher every week. Work marked and explained. A certificate at the end.
-- One to one: USD 150 a month. A teacher for one student. Focused on chosen learning areas. A weekly time that suits you.
+Free first class
+
+USD 0
+
+no card required
+
+- A real lesson with a teacher
+- An honest view of your child's level
+- No card details
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students at one level
+- The same teacher every week
+- Work marked and explained
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one student
+- Focused on chosen learning areas
+- A weekly time that suits you
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Families' reviews, quoted exactly from Google.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about ICAS Mathematics
 
 ## What Australian families ask
 
@@ -245,15 +469,54 @@ We do not promise any result or award. We teach the mathematics the papers draw 
 
 No. We are an independent online school, quoting ICAS Assessments because it runs the assessment.
 
+Related pages
+
 ## More maths for Australian students
 
-- [Maths tutoring in Australia](/online-maths-tutoring-australia): Our main maths page for Australia.
-- [ICAS Digital Technologies](/icas-digital-technologies-practice): The coding and computing paper.
-- [AMC practice by year](/australian-mathematics-competition-practice-by-year): The Australian Maths Trust's competition.
-- [Maths Years 7 to 10](/australian-curriculum-maths-year-7-to-10-help): The curriculum behind the middle papers.
-- [NAPLAN numeracy](/naplan-numeracy-practice-online): The national numeracy test.
-- [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar): Every contest through the year.
+Other assessments and our main maths pages.
 
-## Contact
+### [Maths tutoring in Australia](/online-maths-tutoring-australia)
 
-Book the free first class at [https://learn.modernagecoders.com/icas-maths-practice-online](https://learn.modernagecoders.com/icas-maths-practice-online#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Our main maths page for Australia.
+
+### [ICAS Digital Technologies](/icas-digital-technologies-practice)
+
+The coding and computing paper.
+
+### [AMC practice by year](/australian-mathematics-competition-practice-by-year)
+
+The Australian Maths Trust's competition.
+
+### [Maths Years 7 to 10](/australian-curriculum-maths-year-7-to-10-help)
+
+The curriculum behind the middle papers.
+
+### [NAPLAN numeracy](/naplan-numeracy-practice-online)
+
+The national numeracy test.
+
+### [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar)
+
+Every contest through the year.
+
+Start here
+
+## Book a free maths class for ICAS
+
+Tell us the year level and which learning areas feel weakest. The free class works on those, with reasoning and estimation, and ends with honest advice.
+
+Would you rather browse? The [course atlas](/course-atlas) has every course, and [how we teach](/how-we-teach) describes a lesson.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20class%20to%20prepare%20for%20ICAS%20Mathematics.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is normally the quickest. The number begins with India's +91 code; the school operates from India with no Australian office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/icas-maths-practice-online*

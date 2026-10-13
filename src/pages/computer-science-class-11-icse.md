@@ -12,7 +12,7 @@ For ISC Class 11 CS students · CISCE
 
 ISC Class 11 CS is Java-centric with heavy theory, boolean algebra, propositional logic, number systems. Our 1 hour live classes follow the CISCE syllabus exactly and drill the specific Java style ISC examiners reward.
 
-[Book a free demo class](/book-demo)See the curriculum**1,400+**ISC Class 11 CS students**93%**Score 85+ on the CS paper**1 hour**Live class, 1:1 or group**CISCE**Exact ISC syllabus alignmentCS11ISC · CISCEStrict JavaBoolean heavyPaper-pattern drillsCourses matched for this level
+[Book a free demo class](/book-demo)See the curriculum**10,000+**Students taught live since 2020**15 to 20**Students in a group batch**1 hour**Live class, 1:1 or group**CISCE**Exact ISC syllabus alignmentCS11ISC · CISCEStrict JavaBoolean heavyPaper-pattern drillsCourses matched for this level
 
 ## ISC Class 11 CS: tracks that fit.
 
@@ -155,9 +155,9 @@ One teacher, one learner, the full 1 hour. The teacher adapts pace in real time,
 
 **₹4,999**/ month · 4 sessionsOption B
 
-### Live Small-Group Online Class
+### Live Group Online Class
 
-4 to 6 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
+15 to 20 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
 
 - Small groups of 4 to 6 similar-level learners
 - 1 hour live session, 2 sessions per week
@@ -210,7 +210,7 @@ Fill the form. Our counsellor calls you within 3 hours, understands your child's
 
 ### Related pages
 
-[Next CS Class 12 ICSE](/computer-science-class-12-icse)[Compare CS Class 11 CBSE](/computer-science-class-11-cbse)[Board Coding for ICSE](/coding-for-icse-students)[Prev ICSE CA Class 10](/computer-applications-icse-class-10)[Grade Coding for Class 11](/coding-for-class-11)[Age Coding for 16 Year Olds](/coding-for-16-year-olds)[Course Java for Teens](/java-programming-for-kids-teens)[Course AI & ML for Teens](/ai-ml-course-for-teens)
+[Class 10 ICSE Class 10 Java classes](/icse-class-10-java-classes-online)[Class 10 CA board exam preparation](/icse-class-10-computer-applications-board-exam-preparation)[Next CS Class 12 ICSE](/computer-science-class-12-icse)[Compare CS Class 11 CBSE](/computer-science-class-11-cbse)[Board Coding for ICSE](/coding-for-icse-students)[Prev ICSE CA Class 10](/computer-applications-icse-class-10)[Grade Coding for Class 11](/coding-for-class-11)[Age Coding for 16 Year Olds](/coding-for-16-year-olds)[Course Java for Teens](/java-programming-for-kids-teens)[Course AI & ML for Teens](/ai-ml-course-for-teens)
 
 ### Coding classes near your city
 

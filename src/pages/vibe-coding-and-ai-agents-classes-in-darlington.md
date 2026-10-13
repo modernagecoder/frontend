@@ -4,46 +4,32 @@ description: "Live online vibe coding, AI agents, Python and coding classes for 
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-darlington
 source: src/pages/vibe-coding-and-ai-agents-classes-in-darlington.html
 ---
-> Darlington borough had 107,799 usual residents at the 2021 census, and the ONS gives 93,015 for the Darlington built-up area, with Middleton St George, Hurworth-on-Tees and Heighington among the smaller places. People aged 55 to 69 are more common than across England, and people in their twenties less so. Whether a learner is six or sixty-seven, from Hurworth or from the town centre, they can study vibe coding, AI agents, Python, coding and maths over live video with our India-based tutors, privately or with fifteen to twenty classmates at the same stage. Vibe coding means asking an AI to write code from a plain description; an AI agent goes further and uses tools by itself. We teach both with thinking first. Nothing is charged for the trial; carrying on means USD 100 monthly in a shared class or USD 150 monthly with a personal tutor.
+> Live online vibe coding, AI agents, Python and coding classes for Darlington, Middleton St George and Hurworth learners aged 6 to 67. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [North East England](/coding-and-ai-classes-in-north-east-england) / Darlington
-
-Darlington, County Durham, England / Live online
-
-# Vibe coding and AI agents classes in Darlington
-
-**Where can Darlington learners find the best vibe coding and AI agents classes?** Darlington borough had 107,799 usual residents at the 2021 census, and the ONS gives 93,015 for the Darlington built-up area, with Middleton St George, Hurworth-on-Tees and Heighington among the smaller places. People aged 55 to 69 are more common than across England, and people in their twenties less so. Whether a learner is six or sixty-seven, from Hurworth or from the town centre, they can study vibe coding, AI agents, Python, coding and maths over live video with our India-based tutors, privately or with fifteen to twenty classmates at the same stage. Vibe coding means asking an AI to write code from a plain description; an AI agent goes further and uses tools by itself. We teach both with thinking first. Nothing is charged for the trial; carrying on means USD 100 monthly in a shared class or USD 150 monthly with a personal tutor.
-
-"Tuesday, the 27th of September, 1825, was a great day for Darlington," wrote Samuel Smiles of the opening of the railway there. Today the town offers a very modern puzzle. Ask how many people live in Darlington borough and the official census tables give three slightly different answers: 107,799 in one table, 107,801 in another, and 107,815 if you add up the smallest census areas. None of them is a mistake. Our Darlington project builds an AI agent that answers questions from these tables, and teaches it the skill every trustworthy agent needs: checking its own work, knowing how much disagreement is acceptable, and explaining it instead of guessing or looping forever.
-
-Facts last verified 28 September 2026. Teaching is online; no Darlington branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentDarlington course picks
 
 ## Vibe coding, AI agents and how-to-think courses
 
 Start from how old the learner is and what grabs them. A free live session comes before anything else, and booking it takes no payment card.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think programme: checking answers, logic and careful steps.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games first, then small apps built by talking to AI and testing them.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects for teenagers, including the self-checking agent.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): Language models, retrieval and AI agents, built and evaluated in Python.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think programme: checking answers, logic and careful steps.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games first, then small apps built by talking to AI and testing them.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensPython, web and AI projects for teenagers, including the self-checking agent.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseLanguage models, retrieval and AI agents, built and evaluated in Python.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Darlington borough
 
 ## Fewer twenty-somethings, more people near retirement
 
 Six census age bands for Darlington from Nomis, set beside England.
 
-**Darlington and England, six age bands (TS007A, 2021)**
-
 | Age band | Darlington residents | Darlington share | England share |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 20 to 24 | 5,426 | 5.0% | 6.0% |
 | 25 to 29 | 6,379 | 5.9% | 6.6% |
 | 55 to 59 | 7,855 | 7.3% | 6.7% |
@@ -57,16 +43,16 @@ The early twenties are a full point below England while the early sixties are 0.
 
 Our [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk) page explains why every learner builds reasoning skills before relying on AI. The county page is [County Durham](/coding-classes-in-county-durham).
 
+The Darlington project
+
 ## An AI agent that checks its own answers
 
 Give the agent several census tools, let them disagree, and design how it should respond.
 
 The learner vibe codes a small agent with three tools. One returns the borough total from the census population table. One returns the eighteen age bands from the age table. One adds up the population of Darlington's 372 output areas, the smallest census building blocks. The first version answers "How many people live in Darlington?" by calling whichever tool it thinks of first. Asked twice with slightly different wording, it can give 107,799 one time and 107,801 the next. Neither answer is wrong, but an agent that changes its answer without saying why is hard to trust.
 
-**Darlington borough population from three official routes, Census 2021, our Python run, 28 September 2026**
-
 | Tool | Source | Total |
-|---|---|---|
+| --- | --- | --- |
 | Population table | TS001 usual residents | 107,799 |
 | Age table | TS007A, sum of 18 bands | 107,801 |
 | Smallest areas added up | 372 output areas | 107,815 |
@@ -92,14 +78,14 @@ Assemble the census agent, then tune its tolerance and check limit on other boro
 
 Population figures come from Census 2021 tables on Nomis and ONS output area data; the quoted explanation is from the ONS methodology on protecting personal data in Census 2021 results. The agent and its rules are our own work.
 
+Vibe coding and AI agents
+
 ## What makes an AI agent trustworthy
 
 Rules the Darlington agent needed, and why every agent needs them.
 
-**Rules the learner adds to the Darlington agent**
-
 | Problem | Rule the agent follows |
-|---|---|
+| --- | --- |
 | Tools disagree slightly | Accept gaps under a stated tolerance |
 | Checking never finishes | Stop after a fixed number of checks |
 | Several correct-looking totals | Give the official headline figure, note the others |
@@ -110,14 +96,37 @@ Vibe coding makes it quick to build an agent like this, and just as quick to bui
 
 Modern Age Coders has no connection with the Office for National Statistics or Nomis. Their figures and words are theirs; the agent and any error in it are ours.
 
+Stages
+
 ## From checking sums to trustworthy agents
 
 A school year is a starting point; the free lesson finds the right level.
 
-- **Years 2 to 7: How to think** Checking answers, logic and careful steps. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Years 4 to 8: Vibe coding for kids** Games and apps made with AI help, then tested. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python, data and AI** Data handling and AI projects beside GCSE and A level. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Adults: Building AI agents** Agents with tools, checks and citations, in Python. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Years 2 to 7
+
+### How to think
+
+Checking answers, logic and careful steps.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Years 4 to 8
+
+### Vibe coding for kids
+
+Games and apps made with AI help, then tested.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python, data and AI
+
+Data handling and AI projects beside GCSE and A level.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Adults
+
+### Building AI agents
+
+Agents with tools, checks and citations, in Python.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Python Automation Course](/courses/python-ai-automation-masterclass-college)AI agents and trust
 
 ## Would your AI agent loop forever?
 
@@ -129,30 +138,139 @@ A learner who has fixed that with a tolerance, a stopping rule and a cited expla
 
 Darlington teenagers who can build an AI agent that checks itself sensibly will be trusted with real tools, which is why learning to code still matters in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Middleton St George to Heighington, online
 
 All a Darlington home needs is a computer and a dependable internet connection.
 
-- **Their prompts, their code** The learner writes everything, and the tutor, seeing the same screen, steps in with a question rather than a fix.
-- **Right level from the start** Whether Year 4 or Year 13, the free lesson decides where to begin, with the exam board in mind.
-- **Try before paying** The opening lesson is free and closes with advice on which course fits.
-- **Same-level groups** Fifteen to twenty UK learners at a similar stage.
-- **Two a week** Nothing scheduled in school holidays.
-- **Steady UK time** Tutors move with the clock changes so your slot holds.
+### Their prompts, their code
 
-**Why online groups** Five Darlington learners at the same level, free at the same hour, seldom live side by side. Online, each joins a class that suits them.
+The learner writes everything, and the tutor, seeing the same screen, steps in with a question rather than a fix.
+
+### Right level from the start
+
+Whether Year 4 or Year 13, the free lesson decides where to begin, with the exam board in mind.
+
+### Try before paying
+
+The opening lesson is free and closes with advice on which course fits.
+
+### Same-level groups
+
+Five to ten UK learners at a similar stage.
+
+### Two a week
+
+Nothing scheduled in school holidays.
+
+### Steady UK time
+
+Tutors move with the clock changes so your slot holds.
+
+Why online groups
+
+Five Darlington learners at the same level, free at the same hour, seldom live side by side. Online, each joins a class that suits them.
+
+Fees
 
 ## Darlington fees
 
 Our fee for Darlington is the international one, identical in every country apart from India.
 
-- First class: USD 0. A whole trial lesson at no charge, then a suggested course.
-- Group tuition: USD 100 a month. Roughly eight live small-group lessons a month.
-- Private tuition: USD 150 a month. Roughly eight live one-to-one lessons a month; Copilot Studio agents are one-to-one only.
+First class**USD 0**
+
+A whole trial lesson at no charge, then a suggested course.
+
+Group tuition**USD 100**
+
+Roughly eight live small-group lessons a month.
+
+Private tuition**USD 150**
+
+Roughly eight live one-to-one lessons a month; Copilot Studio agents are one-to-one only.
 
 Fees are in US dollars, not sterling. Nothing is billed until the trial has chosen a course and a weekly slot, and the pricing page covers holidays, absences and switching format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20we%20book%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20Darlington%20learner%3F)Reviews
+
+## Reviews on Google from North East families and beyond
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Darlington lesson
+
+A line about the learner's age or school year and what they like is plenty. The trial could be a spot-the-error puzzle, an AI-assisted Scratch game, some first Python, or a mini agent that double-checks itself.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Darlington one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20we%20book%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20Darlington%20learner%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Darlington questions
+
+AI agents, vibe coding, the census project and practical details.
 
 ### What is the population of Darlington?
 
@@ -194,10 +312,14 @@ The first lesson is free; then USD 100 a month in a group or USD 150 a month one
 
 Yes; send us the dates.
 
+Nearby
+
 ## Neighbouring pages
 
 The cathedral city of [Durham](/best-coding-class-in-durham) and Teesside's [Middlesbrough](/ai-and-programming-classes-in-middlesbrough) each have a page. For the whole county there is [County Durham](/coding-classes-in-county-durham), for the region [North East England](/coding-and-ai-classes-in-north-east-england), and our [UK hub](/coding-classes-in-united-kingdom) connects them all.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[WhatsApp our team](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20we%20book%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20Darlington%20learner%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-darlington](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-darlington#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-darlington*

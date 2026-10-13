@@ -4,25 +4,21 @@ description: "Amsterdam publishes 73 of its algorithms in a public register, wit
 canonical: https://learn.modernagecoders.com/ai-and-python-academy-amsterdam
 source: src/pages/ai-and-python-academy-amsterdam.html
 ---
-> Modern Age Coders teaches Amsterdam learners aged six to sixty-seven a live online AI and Python track: Python typed by hand, then real data, then models whose error is measured, then agents whose mistakes show. Every project finishes with a short public write-up in the shape the City of Amsterdam uses for its own 73 entries in the national Algoritmeregister: purpose, data, human involvement, risks and how to object. Classes are in English, in groups of fifteen to twenty or one to one. The first lesson is free; after it, a group place costs USD 100 a month and one-to-one tuition USD 150.
+> Amsterdam publishes 73 of its algorithms in a public register, with their data, risks and human checks. Learn to build AI that way, live online for ages 6 to 67.
 
-[Home](/) / [Courses](/courses) / [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands) / Amsterdam
+In short
 
-Amsterdam · Live online · Ages 6 to 67
+Modern Age Coders teaches Amsterdam learners aged six to sixty-seven a live online AI and Python track: Python typed by hand, then real data, then models whose error is measured, then agents whose mistakes show. Every project finishes with a short public write-up in the shape the City of Amsterdam uses for its own 73 entries in the national Algoritmeregister: purpose, data, human involvement, risks and how to object. Classes are in English, in groups of fifteen to twenty or one to one. The first lesson is free; after it, a group place costs USD 100 a month and one-to-one tuition USD 150.
 
-# AI and Python classes in Amsterdam, built to be explained
-
-The City of Amsterdam uses algorithms to check parked cars, count crowds, spot households slipping into debt and help its own staff write. It also writes each of them down in public. In the Dutch government's Algoritmeregister, Gemeente Amsterdam has 73 entries, and each one states what the system is for, what data it uses, where a person steps in and what can go wrong. That is an unusual thing for a city to publish, and it is exactly the habit most AI courses never teach. A model that works is half a project. The other half is a plain account of what it does, how well, who checks it and how someone it gets wrong can put that right. This page teaches both halves, from a child's first program to an adult's working agent, live online for Amsterdam learners.
-
-At a glance: Who: Amsterdam learners from 6 to 67; What: Python, data, models, agents; Habit: Every project ends with a public write-up; How: Live video with one teacher; Group size: 15 to 20, or one to one; When: Dutch afternoons, evenings, weekends; Language: English, with Dutch school words kept; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three courses for three ages in Amsterdam
 
 One for a child meeting AI for the first time, one for a teenager ready to train real models, one for the adult who uses or builds language-model tools at work. Each card opens the course itself, with syllabus and timetable.
 
-- [AI Literacy for Kids](/courses/ai-literacy-for-kids-course): What a chatbot is, why it can be confidently wrong, and the questions a child should ask before believing one: the same risks the city names for its own staff assistant, in words a ten-year-old uses.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens): Python first, then statistics, then models the teenager trains and tests, each one finished with a written account of its data, its error and who it could treat unfairly.
-- [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college): How language models work, how to ground them in documents you control, and how to build an assistant whose risks are written down before anyone relies on it.
+[![AI Literacy for Kids (Ages 8 to 14) course thumbnail](/images/ai-literacy-for-kids.webp)  AMS / 01 AI Literacy for Kids What a chatbot is, why it can be confidently wrong, and the questions a child should ask before believing one: the same risks the city names for its own staff assistant, in words a ten-year-old uses. Open the syllabus →](/courses/ai-literacy-for-kids-course)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)  AMS / 02 AI and Machine Learning for Teens Python first, then statistics, then models the teenager trains and tests, each one finished with a written account of its data, its error and who it could treat unfairly. Open the syllabus →](/courses/ai-ml-masterclass-teens)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)  AMS / 03 Generative AI: LLMs, RAG and Agents How language models work, how to ground them in documents you control, and how to build an assistant whose risks are written down before anyone relies on it. Open the syllabus →](/courses/complete-generative-ai-masterclass-college)
+
+The register
 
 ## Seventy-three algorithms, written down in public
 
@@ -36,16 +32,16 @@ The register focuses on **impactvolle algoritmes**, those with real effects on p
 
 For a student, the value is the format. Every entry answers the same questions under the same headings, general information, responsible use and how it works, and each question is one a student project should answer too. Most coursework never asks them.
 
-**Four Gemeente Amsterdam entries in the Algoritmeregister, as read on 11 September 2026**
-
 | Entry | What it does | Category and status | Where a person steps in |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Fiscaal handhaven: Parkeercontrole | Scan cars read number plates and check parking rights in the Nationaal Parkeerregister | Impactvol, in use | Controllers review the images for special situations before a fine |
 | Public Eye | Counts pedestrians in camera images to manage crowding at Arena Boulevard, the Marineterrein and the Dam | Impactvol, out of use | Staff check whether the algorithm rightly recognises people as people |
 | Vroegsignalering gemeente Amsterdam | Links creditors' payment-arrears notifications to poverty-support data so help arrives early | Impactvol, in use | The matching is automated, but a person has to start it |
 | ChatAmsterdam | A generative AI assistant for writing, summarising, structuring and translating | Overige, in use | The user decides whether an answer is used, changed or ignored |
 
 Sources: [Algoritmeregister, over het register](https://algoritmes.overheid.nl/nl/footer/over) (responsibility, supervisor, December 2022, voluntary publication); [register home page](https://algoritmes.overheid.nl/nl) (1,553 descriptions); [Gemeente Amsterdam in the register](https://algoritmes.overheid.nl/nl/organisatie/gemeente-amsterdam) (73 entries, categories, statuses). Read 11 September 2026. The register is in Dutch; entry names are quoted as published. We have no connection with the City of Amsterdam or the register.
+
+Four entries, read closely
 
 ## What a parking scanner, a crowd counter, a debt alert and a chatbot teach a programmer
 
@@ -73,14 +69,14 @@ The entries also show that a write-up is never finished. Every entry carries a l
 
 Sources: Algoritmeregister entries [Fiscaal handhaven: Parkeercontrole](https://algoritmes.overheid.nl/nl/algoritme/78451490), [Public Eye](https://algoritmes.overheid.nl/nl/algoritme/38748497), [Vroegsignalering gemeente Amsterdam](https://algoritmes.overheid.nl/nl/algoritme/66453169) and [ChatAmsterdam](https://algoritmes.overheid.nl/nl/algoritme/23189993), each read on 11 September 2026. The lessons drawn from them are ours, not the city's.
 
+Your own entry
+
 ## Every project on our ladder ends with an entry like these
 
 The register's questions work at every level, from a child's guessing game to an adult's document assistant. Learners answer them in the README of their own repository.
 
-**The register's questions, asked of a student project**
-
 | Question the register asks | What the student writes | Where it starts on the ladder |
-|---|---|---|
+| --- | --- | --- |
 | What is it for? | One sentence on the problem, and who has it | Rung 1, with a first program |
 | What data does it use? | Where the data came from, what was removed and why | Rung 2, the data rung |
 | How does it work? | The method in plain words, and how well it performs, with the error in a real unit | Rung 3, models |
@@ -96,14 +92,14 @@ For adults the register is not an exercise. Many people in Amsterdam work for or
 
 The general coding page, [coding classes in Amsterdam](/coding-classes-in-amsterdam), covers the city's districts and schools, and [Amstelveen](/coding-classes-in-amstelveen) has its own page. The [national academy page](/ai-and-python-academy-netherlands) covers the country's picture. This page covers the AI track, and the habit that finishes every project on it.
 
+The five rungs
+
 ## From a first program to an agent with its own write-up
 
 Each rung depends on the one below it. A learner who skips the data rung cannot say what their model learned from, and one who skips the models rung cannot say how often their agent is wrong.
 
-**The five rungs for an Amsterdam learner, and what the write-up adds at each**
-
 | Rung | Usually | The learner builds, then writes |
-|---|---|---|
+| --- | --- | --- |
 | 1. Python by hand | Groep 6 to 8, or any adult beginner | Small programs from an empty file; a first sentence on what each is for |
 | 2. Data | Brugklas to the third year | Loads, cleans and plots a real dataset; records where it came from and what was dropped |
 | 3. Models | Havo 4 to vwo 6, students, adults | Trains and tests a model; states its error and who it serves worst |
@@ -113,65 +109,309 @@ Each rung depends on the one below it. A learner who skips the data rung cannot 
 ### Why the write-up runs through every rung
 
 Writing about a program is a different skill from writing the program, and it improves the program. A learner asked where a person should step in finds the cases where the code should stop and ask. One asked what data was dropped finds the rows that would have skewed the result.
+
 The subject-by-subject order we teach in is on the [coding roadmap](/coding-roadmap).
 
 ### Where it fits in the Amsterdam school year
 
 Rung 1 suits the last years of the basisschool, kept light around the doorstroomtoets. The profielkeuze year is a good moment to test rung 2. International-school pupils following IB or IGCSE timetables fit the same rungs at the same ages.
+
 Adults usually start at rung 1 or 2 and move at their own pace, often one to one around working hours.
+
+The catalogue
 
 ## Eleven live courses for Amsterdam learners, placed by what they can do
 
 Three stages of life, three curricula. Every card leads to the full course with its own schedule and fee, and the free first lesson places the learner.
 
+I
+
 ### Children, groep 3 to 8
 
 Real code early, and a clear idea of what AI can and cannot do
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass): Typed Python for children of nine to twelve: pictures drawn in code, simple games and a small program that learns from examples and can be caught out.
-- [AI Literacy for Kids](/courses/ai-literacy-for-kids-course): How AI tools produce answers, when not to trust them, and what personal information never goes into a chat box.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev): A child asks an AI tool for a game, then finds and fixes what it got wrong. The fixing teaches more than the asking.
+AMS / KIDS / 01
+
+#### Python and AI for Kids
+
+Typed Python for children of nine to twelve: pictures drawn in code, simple games and a small program that learns from examples and can be caught out.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)
+
+AMS / KIDS / 02
+
+#### AI Literacy for Kids
+
+How AI tools produce answers, when not to trust them, and what personal information never goes into a chat box.
+
+[Open the syllabus](/courses/ai-literacy-for-kids-course)
+
+AMS / KIDS / 03
+
+#### Vibe Coding for Kids
+
+A child asks an AI tool for a game, then finds and fixes what it got wrong. The fixing teaches more than the asking.
+
+[Open the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)II
 
 ### Teenagers, havo, vwo and international schools
 
 From Python to trained models, each with an honest account of itself
 
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens): The main teenage track: Python, statistics, classical models, neural networks, images and text, each project documented and defended.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data): Where every model begins: reading, cleaning, joining and plotting real data, and recording what was removed and why.
-- [Python for Teens](/courses/python-complete-masterclass-teens): Two years from a blank file to well-built programs, the right start for a teenager who has not yet written real code.
-- [AI Tools for Teens](/courses/teens-ai-tools-mastery-course): Using AI tools well for projects and study, including what to check, what to keep private and when a tool is the wrong choice.
+AMS / TEEN / 01
+
+#### AI and Machine Learning for Teens
+
+The main teenage track: Python, statistics, classical models, neural networks, images and text, each project documented and defended.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+AMS / TEEN / 02
+
+#### Data Science for Teens
+
+Where every model begins: reading, cleaning, joining and plotting real data, and recording what was removed and why.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)
+
+AMS / TEEN / 03
+
+#### Python for Teens
+
+Two years from a blank file to well-built programs, the right start for a teenager who has not yet written real code.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+AMS / TEEN / 04
+
+#### AI Tools for Teens
+
+Using AI tools well for projects and study, including what to check, what to keep private and when a tool is the wrong choice.
+
+[Open the syllabus](/courses/teens-ai-tools-mastery-course)III
 
 ### Students and working adults
 
 Language models, machine learning and tools that hold up at work
 
-- [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college): How large language models are built and grounded, and how to wrap them in agents with limits, logs and a written account of their risks.
-- [AI and Machine Learning Masterclass](/courses/ai-ml-masterclass-complete-college): The complete machine learning route at adult pace, from classical methods to deep learning, with evaluation that stands up to questions.
-- [Data and AI Analytics for Non-Programmers](/courses/data-and-ai-analytics-for-non-programmers-course): Spreadsheets, dashboards and AI assistants for people who do not code, with clear rules on what data may go where.
-- [Python and AI Automation](/courses/python-ai-automation-masterclass-college): Scripts that take over the repetitive part of a job, with every automated step logged and every decision point marked.
+AMS / PRO / 01
+
+#### Generative AI: LLMs, RAG and Agents
+
+How large language models are built and grounded, and how to wrap them in agents with limits, logs and a written account of their risks.
+
+[Open the syllabus](/courses/complete-generative-ai-masterclass-college)
+
+AMS / PRO / 02
+
+#### AI and Machine Learning Masterclass
+
+The complete machine learning route at adult pace, from classical methods to deep learning, with evaluation that stands up to questions.
+
+[Open the syllabus](/courses/ai-ml-masterclass-complete-college)
+
+AMS / PRO / 03
+
+#### Data and AI Analytics for Non-Programmers
+
+Spreadsheets, dashboards and AI assistants for people who do not code, with clear rules on what data may go where.
+
+[Open the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
+
+AMS / PRO / 04
+
+#### Python and AI Automation
+
+Scripts that take over the repetitive part of a job, with every automated step logged and every decision point marked.
+
+[Open the syllabus](/courses/python-ai-automation-masterclass-college)
+
+How the classes run
 
 ## An Amsterdam timetable, taught from India
 
 Amsterdam moves between CET and CEST each year and India stays on one time, so the teacher is four and a half hours ahead in winter and three and a half in summer. Late afternoons and weekends work easily, weekday evenings are arranged case by case, and the regular slot is agreed on the free lesson rather than promised here.
 
-- **After school** Amsterdam time, late afternoon. Best for children and younger teenagers; evening for the teacher.
-- **Evening** Amsterdam time, after dinner, by arrangement. For older teenagers, students and adults after work.
-- **Weekend** Saturday or Sunday, Amsterdam time. The simplest choice for working adults and families with full weekdays.
+After school
 
-- **The free first lesson** A proper lesson on a real problem. Watching how the learner works tells the teacher where to start, more reliably than any form.
-- **Groups of fifteen to twenty** Grouped by ability across many countries, so an advanced Amsterdam learner is stretched and a beginner has company at their level.
-- **One to one if preferred** For irregular working hours, a narrow goal, an exam year, or the Copilot Studio courses, which are only taught individually.
-- **Both screens shared** The teacher sees the learner's code as it is written, so misunderstandings are fixed while they are small.
-- **English, with Dutch terms** Lessons are in English. Groep, havo, vwo and profielkeuze keep their Dutch names, as Amsterdam families use them.
-- **A repository from day one** Each lesson's work goes into the learner's own GitHub repository, with its write-up beside it.
+Amsterdam time, late afternoon. Best for children and younger teenagers; evening for the teacher.
+
+Evening
+
+Amsterdam time, after dinner, by arrangement. For older teenagers, students and adults after work.
+
+Weekend
+
+Saturday or Sunday, Amsterdam time. The simplest choice for working adults and families with full weekdays.
+
+### The free first lesson
+
+A proper lesson on a real problem. Watching how the learner works tells the teacher where to start, more reliably than any form.
+
+### Groups of fifteen to twenty
+
+Grouped by ability across many countries, so an advanced Amsterdam learner is stretched and a beginner has company at their level.
+
+### One to one if preferred
+
+For irregular working hours, a narrow goal, an exam year, or the Copilot Studio courses, which are only taught individually.
+
+### Both screens shared
+
+The teacher sees the learner's code as it is written, so misunderstandings are fixed while they are small.
+
+### English, with Dutch terms
+
+Lessons are in English. Groep, havo, vwo and profielkeuze keep their Dutch names, as Amsterdam families use them.
+
+### A repository from day one
+
+Each lesson's work goes into the learner's own GitHub repository, with its write-up beside it.
+
+Student work
+
+## Projects students left running
+
+Four things our students built and published at addresses anyone can visit. Try them and see how they behave; more are on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## What it costs
 
 Monthly, in US dollars, at the same two rates as every country outside India. No Amsterdam surcharge, no registration fee, no yearly contract. Copilot Studio courses are one to one only and use that rate.
 
-- Free first class: USD 0. A taught lesson, not a pitch. Sets the starting rung. No payment details asked.
-- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same live teacher throughout. Weekly review of built work. Certificate at the end.
-- One to one: USD 150 a month. A teacher for one learner. Pace and content fitted to the goal. The only format for Copilot Studio.
+Free first class
+
+USD 0
+
+no card required
+
+- A taught lesson, not a pitch
+- Sets the starting rung
+- No payment details asked
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners at one level
+- The same live teacher throughout
+- Weekly review of built work
+- Certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one learner
+- Pace and content fitted to the goal
+- The only format for Copilot Studio
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Shown exactly as posted on Google. We do not write, edit or pay for reviews.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions from Amsterdam
 
 ## What Amsterdam families and adults ask before the first lesson
 
@@ -215,15 +455,54 @@ In India, teaching live over video. The gap with Amsterdam is three and a half h
 
 We call at a Dutch hour to arrange the free lesson. Nothing is charged and no place is booked until the family has seen that lesson and decided.
 
+Elsewhere on this site
+
 ## More pages for Amsterdam and the Netherlands
 
-- [Coding classes in Amsterdam](/coding-classes-in-amsterdam): The city page for general programming, with its districts and schools.
-- [Coding classes in Amstelveen](/coding-classes-in-amstelveen): The municipality on Amsterdam's southern edge, with a page of its own.
-- [Coding classes in Noord-Holland](/coding-classes-in-noord-holland): Every municipality in the province around the capital.
-- [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands): The national academy page, with the school figures and the country's AI investment.
-- [AI and Python Academy, Groningen](/ai-and-python-academy-groningen): The academy page built around a university AI degree.
-- [Learn to Build AI](/learn-to-build-ai): Why we teach building AI systems rather than only using them.
+This page covers one track and one habit. These cover the rest.
 
-## Contact
+### [Coding classes in Amsterdam](/coding-classes-in-amsterdam)
 
-Book the free first class at [https://learn.modernagecoders.com/ai-and-python-academy-amsterdam](https://learn.modernagecoders.com/ai-and-python-academy-amsterdam#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The city page for general programming, with its districts and schools.
+
+### [Coding classes in Amstelveen](/coding-classes-in-amstelveen)
+
+The municipality on Amsterdam's southern edge, with a page of its own.
+
+### [Coding classes in Noord-Holland](/coding-classes-in-noord-holland)
+
+Every municipality in the province around the capital.
+
+### [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands)
+
+The national academy page, with the school figures and the country's AI investment.
+
+### [AI and Python Academy, Groningen](/ai-and-python-academy-groningen)
+
+The academy page built around a university AI degree.
+
+### [Learn to Build AI](/learn-to-build-ai)
+
+Why we teach building AI systems rather than only using them.
+
+Start here
+
+## Book the free first lesson
+
+Leave a phone number and we will call at a Dutch hour. The first session is taught by a real teacher on real material, and at the end of it we know which rung the learner starts on. Starting at the right level matters more than anything else.
+
+Prefer to read first? Try the [full course list](/courses), [how we teach](/how-we-teach), and the thinking behind this family of pages at [Learn to Build AI](/learn-to-build-ai).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20class%20for%20a%20learner%20in%20Amsterdam%2C%20on%20the%20AI%20and%20Python%20track.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is free from the Netherlands and usually quickest. The number is Indian; we have no office, address or premises in Amsterdam or anywhere in the country.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-python-academy-amsterdam*

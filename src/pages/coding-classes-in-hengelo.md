@@ -4,37 +4,25 @@ description: "Live coding, Python, AI and app lessons online for Hengelo, ages 6
 canonical: https://learn.modernagecoders.com/coding-classes-in-hengelo
 source: src/pages/coding-classes-in-hengelo.html
 ---
-> Hengelo, 84,045 residents on 1 January 2026 by the national statistics count, grew into the metaalstad of Twente after C.T. Stork set up a machine-parts factory here in 1868, and Hazemeyer, Heemaf, the salt industry and Hollandse Signaalapparaten followed. The last of those began in 1922 as Hazemeyer's factory of signal apparatus and today makes advanced radar. Radar is a good teacher for programmers, because the echo from rain that an aircraft-tracking set must remove is the very echo a weather radar exists to measure. Noise is defined by the question, and a data-cleaning step written for one question can erase what another question needed. Lessons here are live, online and in English for anyone from 6 to 67; the first one is free, and after it a group place costs USD 100 a month, or USD 150 one to one.
+> Live coding, Python, AI and app lessons online for Hengelo, ages 6 to 67, from the Binnenstad and Hasseler Es to Woolde and Groot Driene. First lesson free.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Hengelo
-
-Hengelo, Overijssel / Live online
-
-# Coding classes in Hengelo, the metaalstad, where what counts as noise depends on the question
-
-**What are the best coding classes in Hengelo?** Hengelo, 84,045 residents on 1 January 2026 by the national statistics count, grew into the metaalstad of Twente after C.T. Stork set up a machine-parts factory here in 1868, and Hazemeyer, Heemaf, the salt industry and Hollandse Signaalapparaten followed. The last of those began in 1922 as Hazemeyer's factory of signal apparatus and today makes advanced radar. Radar is a good teacher for programmers, because the echo from rain that an aircraft-tracking set must remove is the very echo a weather radar exists to measure. Noise is defined by the question, and a data-cleaning step written for one question can erase what another question needed. Lessons here are live, online and in English for anyone from 6 to 67; the first one is free, and after it a group place costs USD 100 a month, or USD 150 one to one.
-
-Every measuring instrument collects more than its makers want. A radar sends out a pulse and hears back from everything it touches: aircraft, ships, hills, waves and falling rain. For a set that tracks aircraft, the rain is clutter, and a great deal of engineering goes into suppressing it. For a weather radar, the rain is the whole point, and the aircraft are the nuisance. Neither is wrong. The echo is the same; only the question has changed. Data work runs into this constantly. A cleaning script that removes outliers, silences background sound or drops duplicate rows was written with one question in mind, and it quietly throws away what someone else, asking a different question later, will need. Hengelo, where Hazemeyer's signal-apparatus factory opened in 1922, is a fitting place to learn to ask what the noise is noise for.
-
-Facts last verified 11 September 2026. Teaching is online; no Hengelo branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Hengelo
 
 ## Four courses for the town of Stork and Signaal
 
 A child in Woolde who wants to make sounds and games, a teenager in the Hasseler Es cleaning a messy dataset for a school project, a student in the Binnenstad building a first anomaly detector, and an adult in Groot Driene whose reports all start from someone else's filtered export. The opening lesson costs any of them nothing.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Projects with sound, where a child records a room, decides which noises to keep and which to cut, and hears why that depends on the game.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 18): Real datasets cleaned in Python with every removed row kept and inspected, never simply deleted.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Filters, anomaly detection and pipelines written with a stated purpose, so the next user knows what was removed and why.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): Exports and dashboards questioned for what their filters took out before any number is trusted.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsProjects with sound, where a child records a room, decides which noises to keep and which to cut, and hears why that depends on the game.See the syllabus](/courses/scratch-programming-complete-course)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 18Data Science for TeensReal datasets cleaned in Python with every removed row kept and inspected, never simply deleted.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CourseFilters, anomaly detection and pipelines written with a stated purpose, so the next user knows what was removed and why.See the syllabus](/courses/python-ai-automation-masterclass-college)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)Exports and dashboards questioned for what their filters took out before any number is trusted.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Hengelo today
 
 ## From Stork in 1868 to a centre rebuilt after October 1944
 
@@ -52,16 +40,18 @@ As a junction of railway lines towards Germany, Hengelo was bombed during the wa
 
 Under the western part of the station platform runs the Europatunnel. On the Twentekanaal, the Hengelo lock forms part of the De Waarbeek lock complex.
 
-**Hollandse Signaalapparaten, from 1922** Hollandse Signaal Apparaten was founded in 1922 as NV Hazemeyers fabriek van signaalapparaten, a factory of signal apparatus. It was taken over from Philips in 1990, and the company, now part of the Thales group, makes advanced radar and infrared equipment and fire-control systems, among them the Active Phased Array Radar and SMART-L, according to the encyclopaedia entry for Thales Nederland.
+Hollandse Signaalapparaten, from 1922
+
+Hollandse Signaal Apparaten was founded in 1922 as NV Hazemeyers fabriek van signaalapparaten, a factory of signal apparatus. It was taken over from Philips in 1990, and the company, now part of the Thales group, makes advanced radar and infrared equipment and fire-control systems, among them the Active Phased Array Radar and SMART-L, according to the encyclopaedia entry for Thales Nederland.
+
+Signal and clutter
 
 ## The same echo, two opposite jobs
 
 The table describes how radar works in general. It makes no claim about any particular product made in Hengelo; the encyclopaedia says only that the firm makes advanced radar.
 
-**One set of echoes, read for two different questions**
-
 | Echo received | For a radar tracking aircraft | For a weather radar | What decides |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Rain and hail | clutter, to be suppressed | the signal, to be measured | the question |
 | An aircraft | the signal | a nuisance in the picture | the question |
 | Waves on the sea | clutter for air tracking | of little interest | the question |
@@ -69,14 +59,14 @@ The table describes how radar works in general. It makes no claim about any part
 
 The lesson is simple and easy to forget. Nothing in the echo itself says whether it is signal or noise; the label is added by whoever decides what the instrument is for. Data carries the same property. A spike in a sales series is an error to one analyst and the only interesting thing to another; background chatter in an audio file ruins a transcript and is exactly what a model detecting breaking glass must hear; duplicated orders are clutter for revenue and evidence for a study of how often customers re-order. Every filter that removes something is therefore a decision about a question, and it should be written down as one, because the next person to use the data may be asking something else.
 
+Verified local facts
+
 ## What the national figures say about Hengelo
 
 Figures from the national statistics service as republished for the municipality, each with its year; then the encyclopaedia history; then the handful of sums made here.
 
-**Residents by age on 1 January 2026**
-
 | Age group | Residents |
-|---|---|
+| --- | --- |
 | Under 15 | 11,422 |
 | 15 to 25 | 10,150 |
 | 25 to 45 | 21,831 |
@@ -110,6 +100,8 @@ In 2025, 71,699 residents were born in the Netherlands and 11,956 abroad; by ori
 
 No part of this page is connected with Stork, Thales, the municipality of Hengelo or any school in Twente, and Modern Age Coders does not suggest otherwise. Population, homes, income and schools are the national statistics as published for Hengelo in the years shown. Stork, the other factories, the textile industry, the bombing of October 1944, the town hall, the Europatunnel and the De Waarbeek lock come from the encyclopaedia entry for Hengelo; the history of Hollandse Signaalapparaten comes from the entry for Thales Nederland. That entry gives 84,038 residents for 1 January 2026, a different source from the figure used here, and the two are not combined.
 
+Signature project
+
 ## Name the question before you clean the data
 
 Most data pipelines begin with cleaning, and most cleaning removes things. The removal is only correct relative to a question, and the question is rarely written down.
@@ -126,10 +118,8 @@ Send every removed row, sample or sound to a separate store instead of deleting 
 
 Name each cleaning step after the question it serves, for example removed for revenue reporting. The next user then knows the step belongs to someone else's question and can undo it.
 
-**Signal for one question, clutter for another**
-
 | In the data | Removed as noise when asking | Essential when asking | What goes wrong if the filter is reused |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Extreme values in transactions | what does a normal customer spend? | where is fraud happening? | the fraud model is trained without any fraud |
 | Background sound in audio | what did the speaker say? | did glass break in the room? | the event detector never hears the event |
 | Repeat orders from one customer | how much revenue came in? | how often do customers come back? | loyalty looks lower than it is |
@@ -140,14 +130,14 @@ Name each cleaning step after the question it serves, for example removed for re
 
 A dataset that has been through a cleaning pipeline looks tidier and more trustworthy than the raw version, and it is usually handed on without its history. The next person sees rows and columns, not the rows that are missing or the reasons they went. In machine learning this matters twice over. Filters written to make a model train smoothly often remove exactly the rare, awkward cases a model will meet in real use, and the model then performs well on clean tests and badly in the world. Anomaly detection is the sharpest example: a system meant to find unusual events is sometimes trained on data from which unusual events were removed as noise. The defence is not to stop cleaning. It is to treat every filter as an answer to a named question, to keep what it removed, and to rebuild the cleaning when the question changes. Radar engineers have always understood this, because the same echo from the same cloud is clutter on one screen and the forecast on another.
 
+Reliable pipeline
+
 ## Five rules for filters that someone else will reuse
 
 For cleaning scripts, audio processing, outlier rules, deduplication and labelling. Learned in the town that built signal apparatus for a century.
 
-**Cleaning with the question in view**
-
 | Rule | In practice | The trap it avoids | The result |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Purpose first | Write the question at the top of every cleaning script | Filters that nobody can judge | Cleaning that can be argued about |
 | Quarantine, do not delete | Move removed records to a separate table with the reason | Evidence destroyed for good | A removed set you can study |
 | Count every step | Log how many records each filter took out | A filter silently removing a third of the data | Visible cleaning |
@@ -168,14 +158,37 @@ An export from a work system traced back to the filters applied before it arrive
 
 This section rests on the encyclopaedia's account of Hollandse Signaalapparaten and on general knowledge of how radar and data cleaning work. It describes no specific system made in Hengelo and makes no claim about how any company there processes its data.
 
+Learning ladder
+
 ## From choosing which sounds to ignore to cleaning data for the right question
 
 Nobody is placed by age or postcode alone. The free lesson shows the teacher how the learner tackles a real task, and the level follows from that.
 
-- **Ages 6 to 10: Which sounds count** Children decide which noises a game should react to, and then the rules change. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Game Development for Kids](/courses/game-development-masterclass-for-kids)
-- **Ages 11 to 13: Keep what you cut** Learners clean a small table and look at every row they removed. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Two questions, two cleanings** Teenagers clean one dataset twice and compare the answers. [App Development for Teens](/courses/complete-app-development-masterclass-for-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Whose filter?** Adults trace a work export back through the filters it passed. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Which sounds count
+
+Children decide which noises a game should react to, and then the rules change.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Game Development for Kids](/courses/game-development-masterclass-for-kids)Ages 11 to 13
+
+### Keep what you cut
+
+Learners clean a small table and look at every row they removed.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Two questions, two cleanings
+
+Teenagers clean one dataset twice and compare the answers.
+
+[App Development for Teens](/courses/complete-app-development-masterclass-for-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Whose filter?
+
+Adults trace a work export back through the filters it passed.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## An AI will clean a dataset in seconds. Why should a teenager in Hengelo ask what the cleaning was for?
 
@@ -187,30 +200,139 @@ A learner who has cleaned one dataset twice for two different questions, and see
 
 So the reason for a child in Hengelo to learn to code in 2026 is not the town's engineering past. It is that someone who asks what the noise is noise for will be needed wherever AI tidies data before anybody has said what the data should answer. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Lessons for every wijk of Hengelo
 
 From the Binnenstad to the Buitengebied, a Hengelo learner joins from home and the lesson is identical wherever the laptop happens to be.
 
-- **Home is the classroom** Someone in Slangenbeek and someone in Noord open the same session at the same minute. There is no trip across town and nobody waiting outside a building afterwards.
-- **Havo stays havo** The Dutch labels for school, from groep and brugklas through vmbo, havo and vwo to the profielkeuze, are used untranslated, while explanations are given in English.
-- **Free, and a real lesson** The first session is taught properly on a genuine task rather than demonstrated. It closes with a recommended level, a course and a proposed weekly slot; no payment details are requested.
-- **Matched classmates** Groups hold fifteen to twenty learners at one stage. Hengelo has 11,422 residents under fifteen, and finding five of them at an identical point, free at an identical hour, is unusual, so classmates can come from other countries.
-- **Holidays of regio Noord** Sessions run twice a week, roughly eight times a month, at one fixed slot, and stop for the regio Noord school holidays that Overijssel follows.
-- **Teachers on Indian time** The teaching team works in India, three and a half hours later than Dutch summer time and four and a half later in winter, which puts late afternoons, evenings and weekend mornings within easy reach.
+### Home is the classroom
 
-**Thirty-four schools in one town, and a group drawn wider** Hengelo has 26 primary establishments with 6,369 pupils and 8 secondary establishments with 5,612. A good coding group depends on a match of subject, stage and hour among five or more learners, and across every age from 6 to 67 and many countries that match is found far more readily than inside one town.
+Someone in Slangenbeek and someone in Noord open the same session at the same minute. There is no trip across town and nobody waiting outside a building afterwards.
+
+### Havo stays havo
+
+The Dutch labels for school, from groep and brugklas through vmbo, havo and vwo to the profielkeuze, are used untranslated, while explanations are given in English.
+
+### Free, and a real lesson
+
+The first session is taught properly on a genuine task rather than demonstrated. It closes with a recommended level, a course and a proposed weekly slot; no payment details are requested.
+
+### Matched classmates
+
+Groups hold fifteen to twenty learners at one stage. Hengelo has 11,422 residents under fifteen, and finding five of them at an identical point, free at an identical hour, is unusual, so classmates can come from other countries.
+
+### Holidays of regio Noord
+
+Sessions run twice a week, roughly eight times a month, at one fixed slot, and stop for the regio Noord school holidays that Overijssel follows.
+
+### Teachers on Indian time
+
+The teaching team works in India, three and a half hours later than Dutch summer time and four and a half later in winter, which puts late afternoons, evenings and weekend mornings within easy reach.
+
+Thirty-four schools in one town, and a group drawn wider
+
+Hengelo has 26 primary establishments with 6,369 pupils and 8 secondary establishments with 5,612. A good coding group depends on a match of subject, stage and hour among five or more learners, and across every age from 6 to 67 and many countries that match is found far more readily than inside one town.
+
+Fees
 
 ## Hengelo fees at a glance
 
 What a family pays, in full, before booking anything.
 
-- First class: USD 0. One genuine lesson on a genuine task, finishing with a level and the course that fits.
-- Group tuition: USD 100 a month. A month of classes, normally eight, in a group of fifteen to twenty at the same level.
-- Private tuition: USD 150 a month. A month of classes, normally eight, with a teacher to oneself.
+First class**USD 0**
+
+One genuine lesson on a genuine task, finishing with a level and the course that fits.
+
+Group tuition**USD 100**
+
+A month of classes, normally eight, in a group of fifteen to twenty at the same level.
+
+Private tuition**USD 150**
+
+A month of classes, normally eight, with a teacher to oneself.
 
 There is one dollar price for every country and no euro tariff alongside it, so a family in Wilderinkshoek pays the same as one in the Binnenstad. Nothing is charged before the free lesson has fixed the course and the slot, and payment is then set up over WhatsApp. For pauses, a switch of format or missed sessions, see the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Hengelo.)Reviews
+
+## Six Google reviews, reproduced as their authors left them
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## How far has the learner got?
+
+The first task might be deciding which sounds a game should hear, cleaning a small table while keeping what was removed, or preparing one dataset for two different questions.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Hengelo one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Hengelo.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Hengelo coding class questions
+
+The metaalstad, its factories, its figures, and how lessons run.
 
 ### Which parts of Hengelo are there?
 
@@ -252,10 +374,14 @@ The first lesson is free. After it, group tuition is USD 100 a month for two liv
 
 Fifteen to twenty, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
+Explore Twente and beyond
+
 ## Next door to Enschede, and across Overijssel
 
 The largest city in the province and Hengelo's neighbour in Twente has a page at [coding classes in Enschede](/coding-classes-in-enschede). Further west are [Deventer](/coding-classes-in-deventer) and the provincial capital [Zwolle](/coding-classes-in-zwolle), and all 25 municipalities of the province appear on [Overijssel](/coding-classes-in-overijssel). Anyone who wants to go straight into machine learning can start at the [AI and Python Academy](/ai-and-python-academy-netherlands), and the full series is listed on the [Netherlands coding hub](/coding-classes-in-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Hengelo.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-hengelo](https://learn.modernagecoders.com/coding-classes-in-hengelo#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-hengelo*

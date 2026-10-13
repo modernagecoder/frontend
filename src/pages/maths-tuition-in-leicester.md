@@ -4,34 +4,28 @@ description: "Maths tuition in Leicester for ages 6 to 67: a live online maths t
 canonical: https://learn.modernagecoders.com/maths-tuition-in-leicester
 source: src/pages/maths-tuition-in-leicester.html
 ---
-> We teach maths live online to Leicester learners from age 6 to 67, in groups of fifteen to twenty at the same level or one to one. That covers primary work (times tables for the Year 4 check and Year 6 SATs maths), KS3 maths, GCSE maths on whichever board a school uses, whether AQA, Edexcel or OCR, at either tier, the IGCSE papers, A level Maths with Further Maths, and adult courses from Functional Skills maths to GCSE maths resits. Lessons use real data as well as past papers. Our Leicester example takes Census 2021 commuting distances and shows why a histogram with unequal class widths needs frequency density, not frequency. The first lesson costs nothing; afterwards it is USD 100 a month for a group place or USD 150 a month for one-to-one lessons.
+> Maths tuition in Leicester for ages 6 to 67: a live online maths tutor for KS2 SATs, KS3, GCSE, A level and Further Maths, and adult maths. First lesson free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths tuition in Leicester
+What is maths tuition in Leicester like with us?
 
-Leicester · Maths tutor for ages 6 to 67 · Live online lessons
+We teach maths live online to Leicester learners from age 6 to 67, in groups of fifteen to twenty at the same level or one to one. That covers primary work (times tables for the Year 4 check and Year 6 SATs maths), KS3 maths, GCSE maths on whichever board a school uses, whether AQA, Edexcel or OCR, at either tier, the IGCSE papers, A level Maths with Further Maths, and adult courses from Functional Skills maths to GCSE maths resits. Lessons use real data as well as past papers. Our Leicester example takes Census 2021 commuting distances and shows why a histogram with unequal class widths needs frequency density, not frequency. The first lesson costs nothing; afterwards it is USD 100 a month for a group place or USD 150 a month for one-to-one lessons.
 
-# Maths tuition in Leicester
-
-Draw a bar chart of how far Leicester residents travel to work and one bar towers over the rest: 36,598 people travel between 2 and 5 km. It looks like the most common distance. It is not. That class is three kilometres wide, while the class below it is only two, and once you divide by the width the under 2 km group turns out to be the most crowded part of the chart. Spotting that is exactly what GCSE higher tier asks of a histogram, and it is the kind of reasoning our online maths tutors build with Leicester learners, from times tables in Year 4 to Further Maths and adult refreshers.
-
-At a glance: Who for: Learners aged 6 to 67 in Leicester; Primary: KS2 maths, times tables, Year 6 SATs maths; Secondary: KS3 and GCSE, foundation or higher; Exam boards: AQA, Edexcel, OCR and IGCSE; Post-16: A level Maths and Further Maths; Adults: Functional Skills, resits and refreshers; Lessons: Live online, fifteen to twenty per group or one to one; Leicester project: Census commuting distances as a histogram. Rated 4.9 across 547 Google reviews.
+Where Leicester learners start
 
 ## Three popular maths courses in Leicester
 
 Most enquiries from Leicester are about GCSE, primary maths or A level. The full list follows further down.
 
-- [GCSE maths](/courses/gcse-mathematics-mastery): Foundation or higher tier on the learner's own board, with histograms and grouped data practised on real numbers.
-- [KS2 primary maths](/courses/elementary-mathematics-complete-masterclass): Tables for the Year 4 check, then fractions, decimals and the explaining that Year 6 SATs maths rewards.
-- [A level maths](/courses/a-level-maths-course-pure-mechanics-statistics): Pure maths, mechanics and statistics for Year 12 and 13, with Further Maths open to anyone who wants to go further.
+[![GCSE Maths course thumbnail](/images/gcse-maths.webp)  LEI / 1 GCSE maths Foundation or higher tier on the learner's own board, with histograms and grouped data practised on real numbers. Open the syllabus →](/courses/gcse-mathematics-mastery)[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  LEI / 2 KS2 primary maths Tables for the Year 4 check, then fractions, decimals and the explaining that Year 6 SATs maths rewards. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)[![A-Level Maths course thumbnail](/images/a-level-maths.webp)  LEI / 3 A level maths Pure maths, mechanics and statistics for Year 12 and 13, with Further Maths open to anyone who wants to go further. Open the syllabus →](/courses/a-level-maths-course-pure-mechanics-statistics)
+
+From Year 1 to adult
 
 ## A maths tutor in Leicester for KS2 SATs, KS3, GCSE and A level
 
 Leicester follows the national curriculum for England, so a Leicester learner meets the same stages, checks and exams as every other English learner. Adults rejoin at whatever level they need.
 
-**Maths at each stage for a Leicester learner, and what we teach hardest**
-
 | Stage | Years | Our main focus |
-|---|---|---|
+| --- | --- | --- |
 | KS1 | 1 to 2 | Number bonds, counting in steps, place value to 100, simple measures. |
 | KS2 | 3 to 6 | Times tables for the Year 4 check, written methods, fractions, decimals and percentages, and SATs reasoning. |
 | KS3 | 7 to 9 | Algebra, ratio, angles, probability and the first histograms and averages. |
@@ -53,14 +47,14 @@ For more detail, see our pages on [KS2 maths tuition](/ks2-maths-tuition-online)
 
 Source: [gov.uk, multiplication tables check](https://www.gov.uk/government/collections/multiplication-tables-check), read 1 October 2026. The year groups for each key stage are the standard ones in England.
 
+The Leicester project
+
 ## How far does Leicester travel to work?
 
 Census 2021 asked every working adult how far they travel to their place of work. For Leicester the answers come in eight distance classes of different widths, which is exactly the situation a histogram is designed for.
 
-**Leicester residents aged 16 and over in work, by distance travelled to work, Census 2021 (Nomis table TS058)**
-
 | Distance | People | Class width | Frequency density |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Less than 2 km | 29,065 | 2 km | 14,532.5 |
 | 2 km to less than 5 km | 36,598 | 3 km | 12,199.3 |
 | 5 km to less than 10 km | 18,539 | 5 km | 3,707.8 |
@@ -80,14 +74,14 @@ This is why GCSE higher tier insists on frequency density whenever classes are u
 
 Data: [Nomis, Census 2021 table TS058, distance travelled to work](https://www.nomisweb.co.uk/sources/census_2021_bulk), Leicester local authority, read 1 October 2026. Census data: Office for National Statistics, Open Government Licence. Frequency densities and every estimate below are Modern Age Coders' calculations.
 
+Higher tier skills, worked
+
 ## Estimating the median and the mean from a histogram
 
 The DfE content for GCSE maths asks for "histograms with equal and unequal class intervals and cumulative frequency graphs, and know their appropriate use". The Leicester data shows why the last four words matter.
 
-**Estimates from the eight Leicester distance classes, 107,079 people in all (our calculation)**
-
 | Estimate | Value | How it is found |
-|---|---|---|
+| --- | --- | --- |
 | Median distance | 4.0 km | The 53,539.5th person sits in the 2 to 5 km class; interpolating gives 4.006 km. |
 | Lower quartile | 1.84 km | A quarter of commuters travel less than this. |
 | Upper quartile | 8.95 km | A quarter travel further than this. |
@@ -111,6 +105,8 @@ Students who see that a choice they made changed the answer by almost 0.8 km rar
 At primary level this data becomes a reading and comparing exercise. At KS3 learners turn it into percentages and pie charts. At GCSE they draw the histogram and estimate the median, and at A level they discuss which distribution might fit and how the home workers should be treated.
 
 GCSE wording: [DfE, GCSE mathematics subject content](https://www.gov.uk/government/publications/gcse-mathematics-subject-content-and-assessment-objectives). Figures in the table are our calculations from the census counts above.
+
+Maths support around Leicester
 
 ## The East Midlands South Maths Hub and where Leicester fits
 
@@ -138,6 +134,8 @@ Our [Leicester coding page](/coding-classes-in-leicester) covers programming and
 
 Source: [NCETM, East Midlands South Maths Hub](https://www.ncetm.org.uk/hubs/east-midlands-south-maths-hub/), read 1 October 2026. We have no connection with the NCETM, the hub, Beauchamp College or any Leicester school.
 
+Adults welcome
+
 ## Maths for adults in Leicester: Functional Skills and GCSE resits
 
 A good share of our Leicester learners are adults. Some need a maths qualification for a course or a job; others simply want to stop feeling anxious about numbers.
@@ -156,14 +154,14 @@ Fractions, algebra and data for parents, carers and professionals. Our [adult ma
 
 The commuting histogram suits adult learners particularly well. Almost everyone has a commute of their own, and placing yourself in the right bar is a quick way to see what frequency density means in practice.
 
+Steps
+
 ## From counting in steps to reading a histogram properly
 
 This is the order in which we build the ideas on this page. The free lesson tells us where a new learner should start.
 
-**Four steps for Leicester learners, with the sign that each is secure**
-
 | Usually | Step | Secure when the learner can |
-|---|---|---|
+| --- | --- | --- |
 | Years 3 to 4 | 1. Tables and place value | Recall 12 × 12 facts and rebuild any that slip |
 | Years 5 to 7 | 2. Fractions and percentages | Convert between them and compare sizes with a reason |
 | Years 8 to 10 | 3. Charts and averages | Choose a sensible diagram and average, and defend the choice |
@@ -172,75 +170,353 @@ This is the order in which we build the ideas on this page. The free lesson tell
 ### Starting close to an exam
 
 A learner who joins a few months before GCSE can still gain a great deal. We put the topics that carry the most marks and the weakest foundations first.
+
 If the time is too short to close the whole gap, we say so at the free lesson rather than later.
 
 ### Carrying on
 
 After GCSE many learners take A level Maths, some with Further Maths. Others enjoy our [statistics and probability course](/courses/statistics-probability-maths-course).
+
 Learners who like computers can rebuild the histogram in Python through [maths through coding](/courses/maths-through-coding).
+
+Courses
 
 ## Every maths course we teach in Leicester
 
 Grouped by stage, from first numbers to university maths.
 
+I
+
 ### Primary
 
 Ages 6 to 11
 
-- [KS1 and KS2 maths](/courses/elementary-mathematics-complete-masterclass): All of primary maths, including SATs reasoning.
-- [Mental maths](/courses/mental-maths-mastery-kids): Fast, reliable arithmetic in the head.
-- [Abacus maths](/courses/abacus-mental-maths-course-for-kids): Bead-frame arithmetic for younger children.
-- [11 plus maths](/courses/11-plus-maths-preparation-course-uk): GL-style practice for selective school tests.
+MLC / A1
+
+#### KS1 and KS2 maths
+
+All of primary maths, including SATs reasoning.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+MLC / A2
+
+#### Mental maths
+
+Fast, reliable arithmetic in the head.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+MLC / A3
+
+#### Abacus maths
+
+Bead-frame arithmetic for younger children.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)
+
+MLC / A4
+
+#### 11 plus maths
+
+GL-style practice for selective school tests.
+
+[Open the syllabus](/courses/11-plus-maths-preparation-course-uk)II
 
 ### Secondary
 
 KS3, GCSE and IGCSE
 
-- [KS3 maths](/courses/comprehensive-middle-school-mathematics-mastery): The three years that decide how GCSE goes.
-- [GCSE maths](/courses/gcse-mathematics-mastery): Every board and tier, resits included.
-- [IGCSE maths](/courses/igcse-mathematics-mastery): International papers, Cambridge or Edexcel.
-- [Algebra foundations](/courses/algebra-foundations-masterclass): Algebra rebuilt from the start.
+MLC / B1
+
+#### KS3 maths
+
+The three years that decide how GCSE goes.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+MLC / B2
+
+#### GCSE maths
+
+Every board and tier, resits included.
+
+[Open the syllabus](/courses/gcse-mathematics-mastery)
+
+MLC / B3
+
+#### IGCSE maths
+
+International papers, Cambridge or Edexcel.
+
+[Open the syllabus](/courses/igcse-mathematics-mastery)
+
+MLC / B4
+
+#### Algebra foundations
+
+Algebra rebuilt from the start.
+
+[Open the syllabus](/courses/algebra-foundations-masterclass)III
 
 ### Post-16
 
 A level and further
 
-- [A level maths](/courses/a-level-maths-course-pure-mechanics-statistics): Pure, statistics and mechanics.
-- [Statistics and probability](/courses/statistics-probability-maths-course): Distributions, sampling and testing.
-- [Competition maths](/courses/olympiad-competition-mathematics-mastery): For UKMT challenges and olympiad problems.
-- [University maths](/courses/college-mathematics-complete-masterclass): Calculus, matrices and proof.
+MLC / C1
+
+#### A level maths
+
+Pure, statistics and mechanics.
+
+[Open the syllabus](/courses/a-level-maths-course-pure-mechanics-statistics)
+
+MLC / C2
+
+#### Statistics and probability
+
+Distributions, sampling and testing.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)
+
+MLC / C3
+
+#### Competition maths
+
+For UKMT challenges and olympiad problems.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)
+
+MLC / C4
+
+#### University maths
+
+Calculus, matrices and proof.
+
+[Open the syllabus](/courses/college-mathematics-complete-masterclass)IV
 
 ### Applied
 
 Work and interest
 
-- [Business maths](/courses/complete-business-finance-mathematics-mastery): Interest, margins and forecasts.
-- [Data maths](/courses/data-analytics-mathematics-masterclass): Statistics for analysts and reports.
-- [Maths through coding](/courses/maths-through-coding): Exploring data and number in Python.
-- [Vedic maths](/courses/vedic-maths-course-speed-calculation-mastery): Speed techniques for confident calculators.
+MLC / D1
+
+#### Business maths
+
+Interest, margins and forecasts.
+
+[Open the syllabus](/courses/complete-business-finance-mathematics-mastery)
+
+MLC / D2
+
+#### Data maths
+
+Statistics for analysts and reports.
+
+[Open the syllabus](/courses/data-analytics-mathematics-masterclass)
+
+MLC / D3
+
+#### Maths through coding
+
+Exploring data and number in Python.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+MLC / D4
+
+#### Vedic maths
+
+Speed techniques for confident calculators.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
+
+When lessons run
 
 ## Lesson times that suit a Leicester school day
 
 Teachers are in India, which keeps the same clock all year. In winter India is five and a half hours ahead of Leicester, in summer four and a half, and every slot we offer is written in UK time.
 
-- **After school on weekdays** For KS2, KS3 and GCSE learners.
-- **Later weekday evenings** For A level students and adults.
-- **Weekend mornings** For learners who prefer a fresh start.
+After school on weekdays
 
-- **A regular teacher** The same teacher each week, who remembers last week's mistakes.
-- **Updates for families** A short honest note on what went well and what needs work.
-- **Classes by level** Fifteen to twenty learners at one level, so explanations fit everyone.
-- **Census and survey data** Tables such as the commuting one sit next to the past papers.
-- **One to one on request** For a learner who needs a tighter focus or a different pace.
-- **Reasons first** We expect learners to explain a method before drilling it.
+For KS2, KS3 and GCSE learners.
+
+Later weekday evenings
+
+For A level students and adults.
+
+Weekend mornings
+
+For learners who prefer a fresh start.
+
+### A regular teacher
+
+The same teacher each week, who remembers last week's mistakes.
+
+### Updates for families
+
+A short honest note on what went well and what needs work.
+
+### Classes by level
+
+Fifteen to twenty learners at one level, so explanations fit everyone.
+
+### Census and survey data
+
+Tables such as the commuting one sit next to the past papers.
+
+### One to one on request
+
+For a learner who needs a tighter focus or a different pace.
+
+### Reasons first
+
+We expect learners to explain a method before drilling it.
+
+Student work
+
+## Projects built by learners who started like this
+
+Students who began with data questions like the commuting histogram went on to make the projects below. The [student labs](/student-labs) show more.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Paid monthly in US dollars, one price for every country except India, with no sign-up charge and no minimum period.
 
-- Free first class: USD 0. A proper lesson pitched at the right level. Frank feedback afterwards. No card required.
-- Group batch: USD 100 a month. Fifteen to twenty learners at the same level. One teacher all term. Work marked and explained. Certificate at the end.
-- One to one: USD 150 a month. Individual lessons with one teacher. Built around the learner's gaps. Well suited to exam seasons.
+Free first class
+
+USD 0
+
+no card required
+
+- A proper lesson pitched at the right level
+- Frank feedback afterwards
+- No card required
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners at the same level
+- One teacher all term
+- Work marked and explained
+- Certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- Individual lessons with one teacher
+- Built around the learner's gaps
+- Well suited to exam seasons
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Taken word for word from Google reviews left by families and learners.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Leicester maths questions
 
 ## Questions Leicester families ask about maths tuition
 
@@ -284,15 +560,54 @@ No. We describe what its public page says so families know it exists. We have no
 
 No. We teach carefully and report honestly on progress, but no tutor can guarantee a grade and we never claim to.
 
+Also see
+
 ## More for Leicester learners
 
-- [GCSE maths tuition](/gcse-maths-tuition-online): Every board and tier, explained.
-- [KS2 maths tuition](/ks2-maths-tuition-online): Primary maths from Year 3 to SATs.
-- [Functional Skills maths](/functional-skills-maths-tuition-online): Practical maths for adults and apprentices.
-- [Coding classes in Leicester](/coding-classes-in-leicester): Programming and AI for Leicester learners.
-- [Maths tuition in Coventry](/maths-tuition-in-coventry): Our Coventry maths page, with a ring road project.
-- [UK index](/coding-classes-in-united-kingdom): All our UK nation, city, town and maths pages.
+National maths pages by stage, our Leicester coding page and nearby maths pages.
 
-## Contact
+### [GCSE maths tuition](/gcse-maths-tuition-online)
 
-Book the free first class at [https://learn.modernagecoders.com/maths-tuition-in-leicester](https://learn.modernagecoders.com/maths-tuition-in-leicester#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Every board and tier, explained.
+
+### [KS2 maths tuition](/ks2-maths-tuition-online)
+
+Primary maths from Year 3 to SATs.
+
+### [Functional Skills maths](/functional-skills-maths-tuition-online)
+
+Practical maths for adults and apprentices.
+
+### [Coding classes in Leicester](/coding-classes-in-leicester)
+
+Programming and AI for Leicester learners.
+
+### [Maths tuition in Coventry](/maths-tuition-in-coventry)
+
+Our Coventry maths page, with a ring road project.
+
+### [UK index](/coding-classes-in-united-kingdom)
+
+All our UK nation, city, town and maths pages.
+
+Start here
+
+## Book a free maths lesson in Leicester
+
+Let us know the learner's age or year group, any exam and board, and the topic that causes most trouble. The free lesson is a real lesson, followed by a straight answer about where the learner is.
+
+Prefer to browse? See the [full course list](/courses) or our page on [teaching approach](/how-we-teach).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20a%20learner%20in%20Leicester.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp gets the fastest reply. The number begins with India's code because the team is based there; we have no Leicester office and all lessons are online.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/maths-tuition-in-leicester*

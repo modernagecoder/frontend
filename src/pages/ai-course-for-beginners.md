@@ -10,7 +10,7 @@ AI for Beginners • **zero to your first model**
 
 # AI Course for Beginners
 
-Start artificial intelligence from absolute zero. No prior coding or heavy maths needed, just plain-English explanations and hands-on practice that take you all the way to building your first working AI model. Live, mentor-led, batch classes.
+Start artificial intelligence from absolute zero. No prior coding or heavy maths needed, just plain-English explanations and hands-on practice that take you all the way to building your first working AI model. Live, mentor-led, small-batch classes.
 
 Book a Free AI DemoSee the Roadmap**0→1**Zero to first model**15–20**Students per batch**Plain**English, no jargon**Live**Mentor-led classes
 

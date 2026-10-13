@@ -12,7 +12,7 @@ For parents of Class 5 students · Age 10
 
 Class 5 is the bridge year, from playful blocks into real Python. Our 1 hour live classes take what school introduces and go deeper: finished games, first webpages, a first AI project. All live, 1:1 or small group.
 
-[Book a free demo class](/book-demo)See the curriculum**4,100+**Class 5 students with us**4.9 / 5**Parent rating · 510+ reviews**1 hour**Live class, 1:1 or small group**10 weeks**From Scratch to first Python project5Class · GradeScratch fluentFirst PythonFirst AI tasterCourses matched for this level
+[Book a free demo class](/book-demo)See the curriculum**10,000+**Students taught live since 2020**4.9 / 5**Rated across 547 Google reviews**1 hour**Live class, 1:1 or small group**10 weeks**From Scratch to first Python project5Class · GradeScratch fluentFirst PythonFirst AI tasterCourses matched for this level
 
 ## Class 5 courses: our top picks.
 
@@ -157,9 +157,9 @@ One teacher, one learner, the full 1 hour. The teacher adapts pace in real time,
 
 **₹4,999**/ month · 4 sessionsOption B
 
-### Live Small-Group Online Class
+### Live Group Online Class
 
-4 to 6 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
+15 to 20 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
 
 - Small groups of 4 to 6 similar-level learners
 - 1 hour live session, 2 sessions per week
@@ -204,7 +204,7 @@ SShradha SarafParent of MivaanCommon questions from parents
 
 Short, plain answers. If your question isn't here, tap the callback button at the top and a human will get back to you the same day.
 
-Is Class 5 the right age to start Python?Yes, arguably the ideal age. The cognitive and typing fluency both line up. We start small and build up. Most Class 5 students are writing 15-line programs within 10 weeks.Does this cover Class 5 school computer syllabus?Yes. Every major Class 5 book introduces Python or Scratch. We cover it weekly plus real projects the school cannot fit in.What about Class 5 ICSE?ICSE Class 5 computer books vary by school but typically cover Scratch and early HTML. We match that and more. Our ICSE-specific students also preview the Class 6 syllabus.Will this help with Computer Olympiads?Yes. We have an optional Olympiad track starting Class 5 that covers CCO and NCO patterns. Separate from the main curriculum.1-on-1 or small group for Class 5?Both work. Group is great for social learners. 1-on-1 is better for students with specific goals or faster pace.How much homework?15 to 20 minutes a week. Usually "finish your project" rather than new exercises. Never pressure.Is there a Class 5 school project we can help with?Yes. Schools often ask for a Class 5 computer project. We help pick a topic, build it properly, and prepare the viva.Free demo?Yes, full 1 hour live class. No card. Refund on unused portion within 2 weeks if it doesn't fit.Book a free 1 hour demo class
+Is Class 5 the right age to start Python?Yes, arguably the ideal age. The cognitive and typing fluency both line up. We start small and build up. Most Class 5 students are writing 15-line programs within 10 weeks.Does this cover Class 5 school computer syllabus?Yes. Every major Class 5 book introduces Python or Scratch. We cover it weekly plus real projects the school cannot fit in.What about Class 5 ICSE?ICSE Class 5 computer books vary by school but typically cover Scratch and early HTML. We match that and more. Our ICSE-specific students also preview the Class 6 syllabus.Will this help with Computer Olympiads?Yes. We have an optional Olympiad track starting Class 5 that covers CCO and NCO patterns. Separate from the main curriculum.1-on-1 or small group for Class 5?Both work. Small group is great for social learners. 1-on-1 is better for students with specific goals or faster pace.How much homework?15 to 20 minutes a week. Usually "finish your project" rather than new exercises. Never pressure.Is there a Class 5 school project we can help with?Yes. Schools often ask for a Class 5 computer project. We help pick a topic, build it properly, and prepare the viva.Free demo?Yes, full 1 hour live class. No card. Refund on unused portion within 2 weeks if it doesn't fit.Book a free 1 hour demo class
 
 ### Try one session. Decide after.
 

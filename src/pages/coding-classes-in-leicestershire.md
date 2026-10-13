@@ -4,46 +4,32 @@ description: "Live online coding, Python, algorithms and maths classes across Le
 canonical: https://learn.modernagecoders.com/coding-classes-in-leicestershire
 source: src/pages/coding-classes-in-leicestershire.html
 ---
-> Leicestershire is Leicester City plus seven districts, 1,080,940 people at the 2021 Census, and its shape is unusual: one very large built-up area around Leicester holding more than a third of everyone, then Loughborough, Hinckley and a spread of market towns and villages. Wherever a learner lives, our teaching is the same. Lessons are live on video, the teachers work from India, and each learner is placed by skill instead of age, from 6 all the way to 67, in groups of fifteen to twenty or on their own with a teacher. Programming, Python, algorithms, AI and maths are all taught. The county project starts in Loughborough, with bells. Lesson one is on us; after that it is USD 100 a month in a group or USD 150 for private teaching.
+> Live online coding, Python, algorithms and maths classes across Leicestershire, from Leicester and Loughborough to Hinckley, Melton Mowbray and Coalville.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Leicestershire
-
-County of Leicestershire / Live online
-
-# Coding classes in Leicestershire
-
-**What are the best coding classes in Leicestershire?** Leicestershire is Leicester City plus seven districts, 1,080,940 people at the 2021 Census, and its shape is unusual: one very large built-up area around Leicester holding more than a third of everyone, then Loughborough, Hinckley and a spread of market towns and villages. Wherever a learner lives, our teaching is the same. Lessons are live on video, the teachers work from India, and each learner is placed by skill instead of age, from 6 all the way to 67, in groups of fifteen to twenty or on their own with a teacher. Programming, Python, algorithms, AI and maths are all taught. The county project starts in Loughborough, with bells. Lesson one is on us; after that it is USD 100 a month in a group or USD 150 for private teaching.
-
-Six church bells can ring in 720 different orders. Bell ringers in England have spent centuries working out how to ring every one of them exactly once, moving each bell at most one place at a time, and finishing back where they started. It is a puzzle a computer scientist would recognise at once: a search through every arrangement of a set, under a strict rule about which arrangement may follow which. Loughborough has cast bells since 1839 and calls its foundry Britain's last. So Leicestershire's project writes the ringers' rules as code, checks them, and then asks the computer a question it can answer completely: is it possible to ring all 720 using only the simplest kind of call? The answer is no, and the program can prove it in under a second.
-
-Facts last verified 26 September 2026. Teaching is online; no Leicestershire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Leicestershire
 
 ## The four courses Leicestershire learners start with most
 
 A seven-year-old in Oadby who makes up rules for games, an eleven-year-old in Market Harborough who enjoys number patterns, a Year 11 in Loughborough who likes hard puzzles, and a graduate in Hinckley preparing for technical interviews. Each starts with one free lesson.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Scratch projects with rules, repeats and turns, the building blocks of every later search program.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): Fractions, algebra, geometry and probability learned by coding them in Python, including counting arrangements.
-- [Competitive Programming for Teens](/courses/competitive-programming-for-teens-course) (Ages 13 to 18): Algorithms and contest technique in Python or C++, including a unit on recursion and backtracking.
-- [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college) (Adults): Arrays to graphs to dynamic programming, greedy methods and backtracking, then interview practice.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsScratch projects with rules, repeats and turns, the building blocks of every later search program.See the syllabus](/courses/scratch-programming-complete-course)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingFractions, algebra, geometry and probability learned by coding them in Python, including counting arrangements.See the syllabus](/courses/maths-through-coding)[![Competitive Programming for Teens course thumbnail](/images/competitive-programming-teens.webp)Ages 13 to 18Competitive Programming for TeensAlgorithms and contest technique in Python or C++, including a unit on recursion and backtracking.See the syllabus](/courses/competitive-programming-for-teens-course)[![Data Structures & Algorithms Course course thumbnail](/images/dsa-college.webp)AdultsData Structures & Algorithms CourseArrays to graphs to dynamic programming, greedy methods and backtracking, then interview practice.See the syllabus](/courses/data-structures-algorithms-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Leicestershire in figures
 
 ## Eight councils, 1,080,940 people and a city bigger than its boundary
 
 Head counts per council are from the 2021 Census on Nomis. For towns we use ONS built-up areas and our own re-count of the census output areas inside the county.
 
-**Leicester City and the seven Leicestershire districts, usual residents at Census 2021, largest first**
-
 | Council | Usual residents | Main towns |
-|---|---|---|
+| --- | --- | --- |
 | Leicester | 368,571 | Leicester |
 | Charnwood | 183,971 | Loughborough, Shepshed, Birstall, Syston, Mountsorrel |
 | Hinckley and Bosworth | 113,642 | Hinckley, Earl Shilton, Barwell, Groby |
@@ -55,10 +41,8 @@ Head counts per council are from the 2021 Census on Nomis. For towns we use ONS 
 
 The Leicester built-up area had 406,580 residents, about 38,000 more than the whole of Leicester City. The difference is the suburbs that grew past the city line into Blaby, Charnwood and Harborough; Wigston's built-up area likewise touches the city. So a family in Birstall or Glen Parva may think of themselves as living in Leicester and pay council tax somewhere else. Beyond that ring, the county is a network of market towns: Loughborough, Hinckley, Melton Mowbray, Market Harborough, Coalville, Ashby-de-la-Zouch and Lutterworth, each a proper drive from the others.
 
-**Leicestershire towns by ONS built-up area, Census 2021, largest first; Swadlincote and Woodville straddle in from Derbyshire and are left out**
-
 | Town | Usual residents | Town | Usual residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Leicester | 406,580 | Lutterworth | 10,520 |
 | Loughborough | 64,860 | Whitwick | 10,455 |
 | Hinckley | 50,725 | Broughton Astley | 9,650 |
@@ -82,16 +66,16 @@ All thirty-two rows match our own output-area count to within rounding, so none 
 
 Leicestershire County Council's term-dates page would not load for us on 26 September 2026; it returned an access refusal, and we neither retried nor copied dates from elsewhere. Leicester City sets its own calendar, and academies can set theirs. Lesson breaks are agreed with each family around the dates their own school gives them.
 
+The Leicestershire project
+
 ## Ringing all 720 orders of six bells, and proving one way cannot work
 
 The ringers' rules as code, a checker that catches any mistake, and a search that settles a question completely.
 
 Number six bells 1 to 6, highest to lowest. Ringing them in order, 123456, is called rounds. Every row that follows is a new order, and the rule is strict: between one row and the next, each bell may move at most one place. That means a new row is made by swapping some neighbouring pairs and leaving other bells where they are. The goal, an extent, is to ring all 720 orders of six bells exactly once and come back to rounds. The first things a learner codes are the swap and the checker: a function that reads a list of rows and says whether any repeats and whether any bell ever jumped two places.
 
-**Our run of 26 September 2026: what each rule reaches from rounds on six bells**
-
 | What we rang | Rows before rounds returns | All different? | Share of the 720 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Plain hunt: swap every pair, then all but the ends, alternately | 12 | Yes | Under 2 per cent |
 | Plain Bob Minor plain course: plain hunt with a small change at each lead end | 60 | Yes | One twelfth |
 | Plain Bob Minor with the usual "bob" call allowed at lead ends | No true 720 exists | Search exhausted | Proved impossible |
@@ -117,14 +101,14 @@ Write the depth-first search, reproduce the no-bobs-only result, and measure how
 
 Our result covers compositions built from whole leads of Plain Bob Minor with calls only at lead ends, which is how the method is normally called. Ringers use many other methods and conventions that this project leaves out. The rows, counts and times are from our own run of our own code, and nothing here comes from any bell-ringing organisation.
 
+Why Loughborough
+
 ## A bellfoundry in a Leicestershire town since 1839
 
 The county link, in the foundry's own words.
 
-**John Taylor and Co, from its own website**
-
 | What | What the foundry says |
-|---|---|
+| --- | --- |
 | Where | The Bellfoundry, Freehold Street, Loughborough LE11 1AR. |
 | How long | "Taylor's has been producing high quality bells in Loughborough since 1839." |
 | Its own description | "Britain's Last Bellfoundry". |
@@ -134,16 +118,41 @@ Bell ringing is one of the oldest places in English life where people did seriou
 
 Modern Age Coders has no connection with John Taylor and Co, Leicestershire County Council or Leicester City Council, and nothing here implies one. The foundry's facts are its own; the code, the search and any error in them are ours.
 
-**Nearby pages** The [Leicester](/coding-classes-in-leicester) page covers the city itself, [Hertfordshire](/coding-classes-in-hertfordshire) and [Essex](/coding-classes-in-essex) are other county pages in this series, and the [UK hub](/coding-classes-in-united-kingdom) lists the rest.
+Nearby pages
+
+The [Leicester](/coding-classes-in-leicester) page covers the city itself, [Hertfordshire](/coding-classes-in-hertfordshire) and [Essex](/coding-classes-in-essex) are other county pages in this series, and the [UK hub](/coding-classes-in-united-kingdom) lists the rest.
+
+Stages of learning
 
 ## From rules in a game to a search that proves something
 
 The free lesson finds the right stage. School year is a guide; what the learner can do is the decider.
 
-- **Ages 6 to 10: Rules and repeats** Scratch games built from rules, loops and turns, where children learn a computer follows instructions exactly. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 10 to 13: Counting arrangements** Python lists and loops, and the maths of how many ways things can be ordered, checked by listing them. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 13 to 18: Search and proof** Recursion, backtracking and graphs, with the discipline of verifying every answer a search returns. [Competitive Programming for Teens](/courses/competitive-programming-for-teens-course), [Maths Olympiad & Competition Course](/courses/olympiad-competition-mathematics-mastery)
-- **Ages 18 to 67: Algorithms at depth** Data structures and algorithms for adults, from arrays to dynamic programming, and the interviews that test them. [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Ages 6 to 10
+
+### Rules and repeats
+
+Scratch games built from rules, loops and turns, where children learn a computer follows instructions exactly.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 10 to 13
+
+### Counting arrangements
+
+Python lists and loops, and the maths of how many ways things can be ordered, checked by listing them.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 13 to 18
+
+### Search and proof
+
+Recursion, backtracking and graphs, with the discipline of verifying every answer a search returns.
+
+[Competitive Programming for Teens](/courses/competitive-programming-for-teens-course)[Maths Olympiad & Competition Course](/courses/olympiad-competition-mathematics-mastery)Ages 18 to 67
+
+### Algorithms at depth
+
+Data structures and algorithms for adults, from arrays to dynamic programming, and the interviews that test them.
+
+[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)AI and the value of proof
 
 ## An AI can write a search in seconds. Can it tell you that finding nothing proves something?
 
@@ -155,30 +164,139 @@ A Leicestershire student who has written the search and the checker separately k
 
 So the reason to learn to code in Leicestershire in 2026 is not speed at typing programs. It is knowing when a program's silence is an answer. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Practicalities
+
 ## Castle Donington to Lutterworth, all from home
 
 The county's market towns are far apart and its buses are few in the evening. Lessons online remove the journey.
 
-- **On your own laptop** A bedroom in Syston, a kitchen in Ibstock, a spare room in Melton Mowbray. The teacher shares a screen and the learner types.
-- **Taught in English, UK terms** Year groups, Key Stage 3, GCSE choices and sixth form are discussed in the words local families use, and every lesson is in English.
-- **The first lesson is free** A real lesson with real work, followed by an honest recommendation. There is no card to enter.
-- **Grouped by what you know** Fifteen to twenty learners at one stage, from many towns and countries, so the level fits and the time works.
-- **Holidays you choose** Two lessons a week is usual, paused for your own school's holidays, since city, county and academies can all differ.
-- **One clock for everyone** We confirm each slot as a UK time. Our teachers keep India time, which sits 5.5 hours ahead of the UK from late October to late March and 4.5 hours ahead for the rest of the year.
+### On your own laptop
 
-**Why level-based groups work here** One large city and thirty market towns and villages mean few places have enough learners at the same stage on the same night. Grouping by level puts a Measham learner and a Leicester learner in the same class.
+A bedroom in Syston, a kitchen in Ibstock, a spare room in Melton Mowbray. The teacher shares a screen and the learner types.
+
+### Taught in English, UK terms
+
+Year groups, Key Stage 3, GCSE choices and sixth form are discussed in the words local families use, and every lesson is in English.
+
+### The first lesson is free
+
+A real lesson with real work, followed by an honest recommendation. There is no card to enter.
+
+### Grouped by what you know
+
+Fifteen to twenty learners at one stage, from many towns and countries, so the level fits and the time works.
+
+### Holidays you choose
+
+Two lessons a week is usual, paused for your own school's holidays, since city, county and academies can all differ.
+
+### One clock for everyone
+
+We confirm each slot as a UK time. Our teachers keep India time, which sits 5.5 hours ahead of the UK from late October to late March and 4.5 hours ahead for the rest of the year.
+
+Why level-based groups work here
+
+One large city and thirty market towns and villages mean few places have enough learners at the same stage on the same night. Grouping by level puts a Measham learner and a Leicester learner in the same class.
+
+Fees
 
 ## Leicestershire fees
 
 The same fees in every Leicestershire town and every country outside India.
 
-- First class: USD 0. One full lesson of genuine work, ending in a recommended level and course.
-- Group tuition: USD 100 a month. About eight lessons per month in a group of fifteen to twenty at one level.
-- Private tuition: USD 150 a month. About eight lessons per month, teacher and learner one to one.
+First class**USD 0**
+
+One full lesson of genuine work, ending in a recommended level and course.
+
+Group tuition**USD 100**
+
+About eight lessons per month in a group of fifteen to twenty at one level.
+
+Private tuition**USD 150**
+
+About eight lessons per month, teacher and learner one to one.
 
 Our prices are in US dollars for families everywhere except India, and we do not publish them in pounds. You are asked to pay only once the free lesson has agreed a course and a regular weekly time; pauses, missed lessons and moving between group and private places are all set out on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20we%20book%20a%20free%20lesson%20for%20a%20learner%20in%20Leicestershire%3F)Reviews
+
+## Families' Google reviews, unedited
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson
+
+An age or school year and one interest is all we need. The first lesson could be a Scratch game with rules, a first Python loop, or the bell-ringing checker on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Leicestershire one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20we%20book%20a%20free%20lesson%20for%20a%20learner%20in%20Leicestershire%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Leicestershire questions
+
+The county, the bells project and the way lessons run.
 
 ### How many people live in Leicestershire?
 
@@ -220,10 +338,14 @@ The first is free. Group places are USD 100 a month and private lessons USD 150 
 
 Leicester City, the county council and academies can each set dates. We could not load the county council's page when we checked, so we fit lesson breaks around the dates your own school gives you.
 
+Keep exploring
+
 ## More UK pages
 
 For the city itself, see [Leicester](/coding-classes-in-leicester). Other county pages so far include [Kent](/coding-classes-in-kent), [Essex](/coding-classes-in-essex) and [Berkshire](/coding-classes-in-berkshire), and the [UK hub](/coding-classes-in-united-kingdom) gathers every region and city.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20we%20book%20a%20free%20lesson%20for%20a%20learner%20in%20Leicestershire%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-leicestershire](https://learn.modernagecoders.com/coding-classes-in-leicestershire#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-leicestershire*

@@ -12,7 +12,7 @@ KADAMTALA · HOWRAH · LIVE ONLINE
 
 Modern Age Coders runs premium, live online coding and mathematics classes for families in Kadamtala, Howrah, taught in real time by full-time engineers and maths graduates, never pre-recorded. Children join batches of 15 to 20 from home, covering ICSE Java/BlueJ, CBSE Python, AI/ML and school maths. Fees start at ₹1,499/month, with a free demo class. No commute through the Howrah Station bazaar lanes, just log in and learn.
 
-Live, not recordedBatches of 6–8Engineers as teachersFrom ₹1,499/month[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)6–8Students per live batch₹1,499Starting fee per month100%Live & project-based75–90 minDaily commute savedAT A GLANCE
+Live, not recordedBatches of 15–20Engineers as teachersFrom ₹1,499/month[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)15–20Students per live batch₹1,499Starting fee per month100%Live & project-based75–90 minDaily commute savedAT A GLANCE
 
 ## Coding & maths near Kadamtala: the facts
 

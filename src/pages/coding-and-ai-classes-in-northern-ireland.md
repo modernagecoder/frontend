@@ -4,37 +4,25 @@ description: "Live online coding, Python, AI and maths classes for families acro
 canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-northern-ireland
 source: src/pages/coding-and-ai-classes-in-northern-ireland.html
 ---
-> Start with a fact most families here are never told. CCEA offers its Digital Technology GCSE as two separate qualifications with almost the same name: Digital Technology (Multimedia) and Digital Technology (Programming). Every student takes the same one-hour Unit 1 worth 30 per cent, then goes down one route or the other, and the specification is blunt about it: "Students cannot combine units from each route." Pick the multimedia route and no programming is assessed. Pick the programming route and the coursework must be written in Python, Java or C#, with the school choosing which. So the useful question in Belfast or Omagh is not whether a child is doing Digital Technology, but which Digital Technology. We teach live online from India, ages 6 to 67, in groups of fifteen to twenty or one to one. The first lesson is free; a group place is then USD 100 a month and one-to-one teaching USD 150.
+> Live online coding, Python, AI and maths classes for families across Northern Ireland, built around CCEA Digital Technology and its two separate routes.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Northern Ireland
-
-Northern Ireland, United Kingdom / Live online
-
-# Coding and AI classes in Northern Ireland
-
-**What are the best coding classes in Northern Ireland?** Start with a fact most families here are never told. CCEA offers its Digital Technology GCSE as two separate qualifications with almost the same name: Digital Technology (Multimedia) and Digital Technology (Programming). Every student takes the same one-hour Unit 1 worth 30 per cent, then goes down one route or the other, and the specification is blunt about it: "Students cannot combine units from each route." Pick the multimedia route and no programming is assessed. Pick the programming route and the coursework must be written in Python, Java or C#, with the school choosing which. So the useful question in Belfast or Omagh is not whether a child is doing Digital Technology, but which Digital Technology. We teach live online from India, ages 6 to 67, in groups of fifteen to twenty or one to one. The first lesson is free; a group place is then USD 100 a month and one-to-one teaching USD 150.
-
-Northern Ireland runs the most quietly consequential subject choice in British computing. Two GCSEs, one subject name, a shared compulsory core and then a fork that cannot be walked back, because units from the two routes may not be combined in an entry. A pupil who chooses in Year 10 without knowing which fork they are on can reach Year 12 having built websites and edited video without writing a line of code, and nothing about the certificate will look unusual. This page explains the fork, the languages CCEA permits, the 36 hours of controlled assessment behind the practical unit, and how a family can prepare for either road.
-
-Facts last verified 20 September 2026. Teaching is online; no Northern Ireland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Northern Ireland
 
 ## Four courses for learners in Northern Ireland
 
 A P5 pupil in Newry who wants to make a game, a Year 10 in Ballymena weighing up the two routes, a Year 12 heading for Software Systems Development, and a parent in Derry who wants to follow what is going on. Every one of them starts with a free lesson.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): A first language where a child builds something that runs, long before any route has to be chosen.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Typed Python in Key Stage 3, which is what makes the programming route a real option rather than a gamble.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): One of the three languages CCEA permits in the Unit 5 solution, and the one most schools here teach.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): For parents and career changers who want the concepts without committing to becoming a developer.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsA first language where a child builds something that runs, long before any route has to be chosen.See the syllabus](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsTyped Python in Key Stage 3, which is what makes the programming route a real option rather than a gamble.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensOne of the three languages CCEA permits in the Unit 5 solution, and the one most schools here teach.See the syllabus](/courses/python-complete-masterclass-teens)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For parents and career changers who want the concepts without committing to becoming a developer.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)The fork
 
 ## One subject name, two GCSEs, and no mixing units
 
@@ -44,10 +32,8 @@ Every figure and phrase below is quoted from CCEA's own specification for Digita
 
 "Students cannot combine units from each route; they can only be entered for Units 1, 2 and 3 or Units 1, 4 and 5." A family that discovers this in Year 12 has discovered it too late.
 
-**How the two routes are built, from the CCEA specification at a glance**
-
 | Unit | Route A: Multimedia | Route B: Programming | Assessment and weighting |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Unit 1 | Digital Technology (compulsory core) | Digital Technology (compulsory core) | External written examination, 1 hour, 30 per cent |
 | Second unit | Unit 2: Digital Authoring Concepts | Unit 4: Digital Development Concepts | External written examination, 1 hour 30 mins, 40 per cent |
 | Third unit | Unit 3: Digital Authoring Practice | Unit 5: Digital Development Practice | Controlled assessment, 30 per cent |
@@ -67,7 +53,11 @@ Both certificates read Digital Technology first. The route sits in brackets afte
 
 There is a second rule worth knowing before a school plans its timetable. CCEA sets a terminal requirement: "Students must take at least 40 percent of the assessment (based on unit weightings) at the end of the course as terminal assessment." Because the specification is unitised, a school has real freedom about when the rest is sat, and two schools four miles apart can sequence the same GCSE very differently.
 
-**A grade scale of its own** One more thing that surprises families who move here. CCEA awards its GCSEs "on a grade scale from A* to G, with A* being the highest", and lists nine grades: A*, A, B, C*, C, D, E, F and G. That C* has no counterpart in the English 9 to 1 scale, and a pupil in Northern Ireland may hold certificates on both systems if their school enters some subjects with an English board.
+A grade scale of its own
+
+One more thing that surprises families who move here. CCEA awards its GCSEs "on a grade scale from A* to G, with A* being the highest", and lists nine grades: A*, A, B, C*, C, D, E, F and G. That C* has no counterpart in the English 9 to 1 scale, and a pupil in Northern Ireland may hold certificates on both systems if their school enters some subjects with an English board.
+
+The language
 
 ## Python, Java or C#, and the school decides which
 
@@ -77,9 +67,7 @@ CCEA does not mandate a language. It offers a list of three, and that is a more 
 
 Unit 5, Digital Development Practice: "Students must use one of the following languages in their completed solution: Python, Java or C#."
 
-- **Python**: The common choice in Northern Irish schools, and the one a pupil is most likely to meet again at A level or in a first job. Our answer: Our teens' Python course runs from typed basics to file handling and testing, which is the whole of the Unit 5 skill list.
-- **Java**: Verbose, strongly typed and unforgiving about structure, which some departments prefer precisely because it makes design visible. Our answer: A learner arriving from Java transfers cleanly: the constructs CCEA lists are the same, and we teach the ideas rather than the syntax.
-- **C#**: Usually chosen where a department has a Visual Studio setup and wants a graphical interface built alongside the logic. Our answer: The same answer. We do not teach C# as a course, and we say so rather than imply we cover everything.
+PythonThe common choice in Northern Irish schools, and the one a pupil is most likely to meet again at A level or in a first job.Our teens' Python course runs from typed basics to file handling and testing, which is the whole of the Unit 5 skill list.JavaVerbose, strongly typed and unforgiving about structure, which some departments prefer precisely because it makes design visible.A learner arriving from Java transfers cleanly: the constructs CCEA lists are the same, and we teach the ideas rather than the syntax.C#Usually chosen where a department has a Visual Studio setup and wants a graphical interface built alongside the logic.The same answer. We do not teach C# as a course, and we say so rather than imply we cover everything.
 
 Compare that with Wales, where the rules name a single language and every candidate sits the same on-screen Python paper. Northern Ireland puts the choice with the school, which means a parent cannot look up the answer nationally. They have to ask the department, and the answer determines what practice at home is worth doing. It is a two-minute question at a parents' evening that changes a whole year of preparation.
 
@@ -97,14 +85,14 @@ That learning Python guarantees anything if a school teaches C#. It does not. It
 
 The same reasoning runs through the [UK page](/coding-classes-in-united-kingdom), which sets out how the four school systems differ and where a single birthday puts a child in each of them.
 
+Controlled assessment
+
 ## Thirty-six hours, sixty marks, and a new scenario every June
 
 The practical unit is coursework, but tightly bounded coursework, and the boundaries are published.
 
-**The controlled assessment rules, in CCEA's words**
-
 | Rule | What the specification says |
-|---|---|
+| --- | --- |
 | Who sets the task | The level of control is "high. This means that we set the task." |
 | How often it changes | "We will publish a new scenario-based task for Unit 3 and Unit 5 in June each year." |
 | Size of the task | "The controlled assessment task is worth 60 marks and will take a maximum of 36 hours to complete." |
@@ -133,16 +121,18 @@ Presented in tabular format, with appropriate test data, expected output, and ru
 
 Refer to the user requirements, to performance during testing, and to the refinements testing showed were needed. Naming a weakness scores better than hiding one.
 
-**Where the marks live overall** Across the whole qualification CCEA sets the assessment objectives at AO1 30 per cent for knowledge and understanding, AO2 46 per cent for applying that knowledge to investigate problems and propose solutions, and AO3 24 per cent for designing, developing and evaluating solutions, with a stated tolerance of plus or minus 3 per cent. Nearly half the qualification is application. Recall alone does not carry a candidate here.
+Where the marks live overall
+
+Across the whole qualification CCEA sets the assessment objectives at AO1 30 per cent for knowledge and understanding, AO2 46 per cent for applying that knowledge to investigate problems and propose solutions, and AO3 24 per cent for designing, developing and evaluating solutions, with a stated tolerance of plus or minus 3 per cent. Nearly half the qualification is application. Recall alone does not carry a candidate here.
+
+Across Northern Ireland
 
 ## Eleven districts, 1,903,175 people, one timetable
 
 NISRA published these district figures rounded for display. They are reproduced as published, and not added together.
 
-**Usually resident population by local government district, Census 2021, as NISRA displays it**
-
 | Local government district | All usual residents 2021 | Share of Northern Ireland |
-|---|---|---|
+| --- | --- | --- |
 | Belfast | 345,400 | 18.1 per cent |
 | Armagh City, Banbridge and Craigavon | 218,700 | 11.5 per cent |
 | Newry, Mourne and Down | 182,100 | 9.6 per cent |
@@ -173,16 +163,41 @@ Our lessons are in English. Irish-medium schooling is part of the system here an
 
 Beyond Digital Technology, CCEA's specification points forward: it says the GCSE "provides a sound basis for further study in both GCE Digital Technology and GCE Software Systems Development". A pupil who takes the programming route and enjoys it has two post-16 doors, and both of them expect someone who can already build something that works.
 
-**Sources** Qualification facts: CCEA GCSE Specification in Digital Technology, subject codes 2650 and 2610, for first teaching from September 2017, marked updated 17 September 2019, read directly from CCEA's published PDF. Corroboration that schools are teaching this specification in the 2026 to 2027 cycle: Wallace High School's GCSE prospectus for September 2026 to 2027, which sets out the same units and weightings and links to the same CCEA microsite. Population: NISRA, Census 2021 main statistics for Northern Ireland, phase 1 statistical bulletin. All read 20 September 2026. CCEA's HTML subject pages return an automated-access error, so the specification PDF itself was used.
+Sources
+
+Qualification facts: CCEA GCSE Specification in Digital Technology, subject codes 2650 and 2610, for first teaching from September 2017, marked updated 17 September 2019, read directly from CCEA's published PDF. Corroboration that schools are teaching this specification in the 2026 to 2027 cycle: Wallace High School's GCSE prospectus for September 2026 to 2027, which sets out the same units and weightings and links to the same CCEA microsite. Population: NISRA, Census 2021 main statistics for Northern Ireland, phase 1 statistical bulletin. All read 20 September 2026. CCEA's HTML subject pages return an automated-access error, so the specification PDF itself was used.
+
+Learning ladder
 
 ## From a first program to a coded solution that passes its own tests
 
 Placement is by what a learner can already build without help, which is also how CCEA measures Unit 5.
 
-- **Ages 6 to 10: Something that runs** Block-based programs a child can demonstrate and explain, well before any option form appears. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 10 to 13: Typed code in Key Stage 3** The move to Python during Key Stage 3, so that the programming route is a choice rather than a risk. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 16: Design, build, test, evaluate** The four things Unit 5 rewards, practised on projects that are ours and never on a CCEA task. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 16 to 67: After the GCSE** A level study, data and AI, and adult retraining for people who started late and kept going. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Something that runs
+
+Block-based programs a child can demonstrate and explain, well before any option form appears.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 10 to 13
+
+### Typed code in Key Stage 3
+
+The move to Python during Key Stage 3, so that the programming route is a choice rather than a risk.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 16
+
+### Design, build, test, evaluate
+
+The four things Unit 5 rewards, practised on projects that are ours and never on a CCEA task.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 16 to 67
+
+### After the GCSE
+
+A level study, data and AI, and adult retraining for people who started late and kept going.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## If an assistant can write the coursework, why should a teenager in Northern Ireland learn to code?
 
@@ -194,30 +209,139 @@ There is a better use for the tools, and it is the one we teach. Ask an assistan
 
 So the honest case is not that AI will not write code. It is that Northern Ireland measures the student, in a supervised room and on paper, and a student who cannot work unaided has nowhere to stand. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## From Coleraine to Crossmaglen, taught at a kitchen table
 
 Eleven districts, most of them rural, and one lesson that reaches all of them equally.
 
-- **No journey involved** A pupil in Fermanagh gets the teaching a pupil in south Belfast gets, without an hour in a car in each direction.
-- **CCEA vocabulary used** Units, routes, controlled assessment and the terminal rule, named the way the specification names them.
-- **A free lesson first** Real teaching, ending with a frank view of level and a recommended course. Nothing is taken until after it.
-- **Groups by level** Fifteen to twenty learners at one stage, drawn from across the UK and beyond so a group exists at a usable hour.
-- **Taught in English** We do not teach through Irish or Ulster-Scots. A bilingual learner is welcome; a lesson in another language is not something we offer.
-- **Agreed in UK time** Teachers work from India, four and a half hours ahead in summer and five and a half in winter, and every slot is fixed in UK time.
+### No journey involved
 
-**Ask the department one question** Which language does your school use for the Unit 5 solution: Python, Java or C#? The answer costs two minutes at a parents' evening and decides what practice at home is worth doing for the next two years. Nothing else a parent can ask about this subject has a better return.
+A pupil in Fermanagh gets the teaching a pupil in south Belfast gets, without an hour in a car in each direction.
+
+### CCEA vocabulary used
+
+Units, routes, controlled assessment and the terminal rule, named the way the specification names them.
+
+### A free lesson first
+
+Real teaching, ending with a frank view of level and a recommended course. Nothing is taken until after it.
+
+### Groups by level
+
+Fifteen to twenty learners at one stage, drawn from across the UK and beyond so a group exists at a usable hour.
+
+### Taught in English
+
+We do not teach through Irish or Ulster-Scots. A bilingual learner is welcome; a lesson in another language is not something we offer.
+
+### Agreed in UK time
+
+Teachers work from India, four and a half hours ahead in summer and five and a half in winter, and every slot is fixed in UK time.
+
+Ask the department one question
+
+Which language does your school use for the Unit 5 solution: Python, Java or C#? The answer costs two minutes at a parents' evening and decides what practice at home is worth doing for the next two years. Nothing else a parent can ask about this subject has a better return.
+
+Fees
 
 ## What classes cost in Northern Ireland
 
 Three prices, the same in every district.
 
-- First class: USD 0. Forty minutes of teaching on something real, closing with a straight answer about where the learner stands.
-- Group tuition: USD 100 a month. Two lessons most weeks, alongside five to ten others working at the same stage.
-- Private tuition: USD 150 a month. Two lessons most weeks, with one screen for the teacher to watch and no one else waiting.
+First class**USD 0**
+
+Forty minutes of teaching on something real, closing with a straight answer about where the learner stands.
+
+Group tuition**USD 100**
+
+Two lessons most weeks, alongside five to ten others working at the same stage.
+
+Private tuition**USD 150**
+
+Two lessons most weeks, with one screen for the teacher to watch and no one else waiting.
 
 Billing is in US dollars, which is how we price outside India, and we publish no pound equivalent. Payment starts only once a course and a weekly slot are agreed after the free lesson. Holidays, a lesson missed through illness and switching between a group and one-to-one teaching are all covered on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Northern%20Ireland.)Reviews
+
+## What six families wrote, left exactly as they wrote it
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us about the learner
+
+Year group and interests are enough to go on. The free lesson might build a small game, write a first typed program, or take apart a test plan the way Unit 5 asks for one.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Northern Ireland one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Northern%20Ireland.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Coding classes in Northern Ireland: questions
+
+About CCEA Digital Technology, the two routes and how lessons work.
 
 ### Is there one Digital Technology GCSE or two?
 
@@ -259,10 +383,14 @@ The specification says it "provides a sound basis for further study in both GCE 
 
 No. Our lessons are in English. We say so plainly rather than let an Irish-medium family find out after they have booked.
 
+Explore the UK
+
 ## The other nations
 
 Four school systems sit side by side on the [UK page](/coding-classes-in-united-kingdom), which also carries a link to every page in this series. [Wales](/coding-and-ai-classes-in-wales) assesses the same subject in almost the opposite way. Anything a pupil here could enter between now and next summer is listed on the [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Northern%20Ireland.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-and-ai-classes-in-northern-ireland](https://learn.modernagecoders.com/coding-and-ai-classes-in-northern-ireland#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-northern-ireland*

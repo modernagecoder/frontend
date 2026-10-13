@@ -1,10 +1,10 @@
 ---
 title: "Modern Age Coders vs Juni Learning: 2026 Comparison"
-description: "Juni Learning 1-on-1 coding starts around $275 a month for 4 sessions. Modern Age Coders is $100 a month for 8 live 1-on-1 classes. A fair, sourced comparison, updated July 2026."
+description: "Juni Learning 1-on-1 coding starts around $275 a month for 4 sessions. Modern Age Coders is $150 a month for 8 live 1-on-1 classes. A fair, sourced comparison, updated July 2026."
 canonical: https://learn.modernagecoders.com/modern-age-coders-vs-juni-learning
 source: src/pages/modern-age-coders-vs-juni-learning.html
 ---
-> Juni Learning 1-on-1 coding starts around $275 a month for 4 sessions. Modern Age Coders is $100 a month for 8 live 1-on-1 classes. A fair, sourced comparison, updated July 2026.
+> Juni Learning 1-on-1 coding starts around $275 a month for 4 sessions. Modern Age Coders is $150 a month for 8 live 1-on-1 classes. A fair, sourced comparison, updated July 2026.
 
 Honest comparison · prices verified July 2026
 

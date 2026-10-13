@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths lessons for Exeter learne
 canonical: https://learn.modernagecoders.com/best-coding-class-in-exeter
 source: src/pages/best-coding-class-in-exeter.html
 ---
-> Census 2021 counted 130,709 usual residents in Exeter, and 28.7% of those aged five and over were in school or full-time study, against 20.4% in England. The Met Office, founded in 1854 by Robert FitzRoy, moved its headquarters from Bracknell to Exeter in 2003. We teach Exeter learners from six to sixty-seven by live video, either privately or in classes of fifteen to twenty grouped by ability, and our India-based teachers keep to UK hours. The opening lesson carries no charge, and after that a group place costs USD 100 a month and one-to-one lessons USD 150 a month.
+> Live online coding, Python, AI and maths lessons for Exeter learners aged 6 to 67, from Heavitree and St Thomas to Pennsylvania. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Exeter
-
-Exeter, Devon / Live online
-
-# Coding classes in Exeter
-
-**What are the best coding classes in Exeter?** Census 2021 counted 130,709 usual residents in Exeter, and 28.7% of those aged five and over were in school or full-time study, against 20.4% in England. The Met Office, founded in 1854 by Robert FitzRoy, moved its headquarters from Bracknell to Exeter in 2003. We teach Exeter learners from six to sixty-seven by live video, either privately or in classes of fifteen to twenty grouped by ability, and our India-based teachers keep to UK hours. The opening lesson carries no charge, and after that a group place costs USD 100 a month and one-to-one lessons USD 150 a month.
-
-Every stream in the Exe catchment flows somewhere, so the river network is a set of arrows. To add up how much river drains past Exeter Quay, a program must visit the streams in the right order, sources first and the outlet last. That order is a topological sort, and on Ordnance Survey's river data it works perfectly: 775 junctions, no loops, 712.7 kilometres of channel. The number is still wrong. One link of the River Culm ends 417.5 metres short of the next, joined to nothing, so almost everything above that point never reaches Exeter in the data. Bridge that one gap and the total jumps to 911.8 kilometres. Our teenagers learn that a correct algorithm on an incomplete graph gives a confident wrong answer.
-
-Facts last verified 22 September 2026. Teaching is online; no Exeter branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Exeter
 
 ## Four courses for the city on the Exe
 
 Pick the course that matches what the learner already likes doing. There is a free live lesson at the start of every one, and nobody asks for a card.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): Puzzles about doing things in the right order, like getting dressed or building a model, the everyday form of a topological sort.
-- [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens) (Ages 13 to 18): Graphs, queues and ordering algorithms built from scratch, the tools this page uses on the River Exe.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Python from a first program to full projects, including reading a real map file and walking its connections.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (University and adult): Python for adults beginning or returning, from scripts to handling dependencies and data in real projects.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsPuzzles about doing things in the right order, like getting dressed or building a model, the everyday form of a topological sort.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)Ages 13 to 18Problem Solving for TeensGraphs, queues and ordering algorithms built from scratch, the tools this page uses on the River Exe.See the syllabus](/courses/problem-solving-dsa-masterclass-teens)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensPython from a first program to full projects, including reading a real map file and walking its connections.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)University and adultPython MasterclassPython for adults beginning or returning, from scripts to handling dependencies and data in real projects.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Exeter today
 
 ## A university city on the edge of Dartmoor
 
 Census 2021 figures for the Exeter council area, drawn from Nomis and printed as the Office for National Statistics published them.
 
-**Exeter, Census 2021**
-
 | Measure | Exeter | England |
-|---|---|---|
+| --- | --- | --- |
 | Usual residents | 130,709 | 56,490,048 |
 | Living in households | 120,940 | Not compared |
 | Living in communal establishments | 9,769 | Not compared |
@@ -67,6 +53,8 @@ Student halls and other communal establishments housed 9,769 people in 2021, a l
 
 Our Exeter learners come from every stage. A Year 4 pupil in Heavitree might be making a first game, a Year 12 student in St Thomas starting A level Computer Science, and a graduate in Pennsylvania learning Python for a new job, each in a group of fifteen to twenty learners at the same level.
 
+Forecasting from Exeter
+
 ## The Met Office, from FitzRoy to Exeter
 
 From the Met Office's own history of itself.
@@ -85,16 +73,18 @@ The Met Office moved its headquarters from Bracknell to Exeter in 2003, and esta
 
 We have no connection with the Met Office. It belongs on this page because flood forecasting starts with the question the project below asks: which streams feed which rivers, in what order, and how much of the landscape drains past a given point. Answering that for real needs connected, correct data, and the project shows what happens when one piece is missing.
 
-**Where the rivers come from** Ordnance Survey publishes Open Rivers as free open data: every watercourse in Great Britain as a network of links running in the direction of flow, joined at named and unnamed junctions. Around the Exe it holds thousands of links, from moorland streams to the tidal estuary.
+Where the rivers come from
+
+Ordnance Survey publishes Open Rivers as free open data: every watercourse in Great Britain as a network of links running in the direction of flow, joined at named and unnamed junctions. Around the Exe it holds thousands of links, from moorland streams to the tidal estuary.
+
+Signature project
 
 ## Putting the River Exe in order, and finding the missing link
 
 A topological sort lists the junctions so that every stream comes before the junction it flows into. Adding up river length in that order is then a single pass.
 
-**The river network draining past Exeter Quay in OS Open Rivers, before and after bridging one 417.5-metre gap in the River Culm**
-
 | Measure | As published | With the gap bridged |
-|---|---|---|
+| --- | --- | --- |
 | Links draining to Exeter Quay | 774 | 1,086 |
 | Sources, with nothing flowing in | 307 | 431 |
 | Total channel length | 712.7 km | 911.8 km |
@@ -120,14 +110,14 @@ In the published data, one River Culm link ends at a point with nothing downstre
 
 With the gap bridged, the River Exe itself contributes 90.0 kilometres of named channel, the Culm 56.7, the Barle 36.8 and the Yeo 22.0, while 366.4 kilometres of smaller streams carry no name at all. The Creedy and its tributaries add 186.9 kilometres above their meeting with the Exe. The longest chain of links from any source to Exeter Quay is 93 links long.
 
+Order and dependency
+
 ## Five checks for any dependency graph
 
 Learned on a river, then used on course prerequisites, build systems, spreadsheet formulas, project plans and the pipelines that train AI models.
 
-**Ordering things that depend on each other**
-
 | Check | On the Exe network | What it catches |
-|---|---|---|
+| --- | --- | --- |
 | Is there a cycle? | All 775 junctions ordered, so none | Tasks that wait on each other for ever |
 | Where are the sources? | 307 as published, 431 after the repair | Starting points that are really broken ends |
 | Where are the sinks? | 112 end points in the wider box, most where rivers meet the sea | Paths that stop without reaching anywhere |
@@ -150,14 +140,37 @@ Dependency graphs at work, from build pipelines to project plans, with completen
 
 We are not connected with Ordnance Survey, the Met Office or Exeter City Council. Ordnance Survey releases Open Rivers under the Open Government Licence, and the census tables are free to download; every ordering, total and repair described above is our own working, and none of it is a hydrological survey.
 
+Learning ladder
+
 ## From getting dressed in order to a topological sort
 
 The age bands give only a rough idea; the free lesson finds the real starting point.
 
-- **Ages 6 to 10: First things first** Putting everyday steps in an order that works and spotting which steps must wait for others. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 11 to 13: Arrows and maps** Drawing which stream flows into which, storing it in code, and following the arrows to the sea. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Sorting a graph** Kahn's algorithm, cycle detection and accumulation on a real river network, plus checks for missing links. [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens), [Competitive Programming for Teens](/courses/competitive-programming-for-teens-course)
-- **Ages 18 to 67: Dependencies at work** Ordering tasks, builds and data pipelines, and checking that the graph describes the real system. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)
+Ages 6 to 10
+
+### First things first
+
+Putting everyday steps in an order that works and spotting which steps must wait for others.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 11 to 13
+
+### Arrows and maps
+
+Drawing which stream flows into which, storing it in code, and following the arrows to the sea.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Sorting a graph
+
+Kahn's algorithm, cycle detection and accumulation on a real river network, plus checks for missing links.
+
+[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)[Competitive Programming for Teens](/courses/competitive-programming-for-teens-course)Ages 18 to 67
+
+### Dependencies at work
+
+Ordering tasks, builds and data pipelines, and checking that the graph describes the real system.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)Coding and AI
 
 ## An AI can write Kahn's algorithm in seconds. Why should an Exeter teenager learn it?
 
@@ -169,30 +182,139 @@ Modern AI is built from dependency graphs too. Training pipelines, data preparat
 
 So an Exeter teenager should still learn to program in 2026, in the city that forecasts Britain's weather: the order of operations can be automated, but noticing what the data left out is still a human skill. The longer argument is in [why coding is worth learning in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Heavitree, St Thomas or Topsham, from home
 
 Exeter is compact, but a school-night trip across it still takes time. Live online lessons remove the journey.
 
-- **Either side of the Exe** A learner in Alphington and another in Pinhoe can sit in the same lesson without either crossing the river.
-- **England's school stages** Reception, Key Stages 1 to 4, GCSEs and A levels, named as Exeter schools name them, with every lesson taught in English.
-- **A real first lesson** The free session covers a proper task and ends with a recommended level, course and weekly time. There is no card to enter.
-- **Fifteen to twenty per group** Learners at the same stage from Exeter, the rest of the UK and overseas, so every level can find a workable time.
-- **Twice weekly** Two fixed lessons each week, about eight a month, with holidays and exam periods planned with the teacher well in advance.
-- **Two clocks, one plan** With no clock change in India, our teachers are four and a half hours ahead of Exeter in British Summer Time and five and a half in winter, so UK after-school and evening lessons fit their working day.
+### Either side of the Exe
 
-**Across Devon** Families in Exmouth, Crediton, Tiverton or Cullompton join exactly the same classes, because lessons are online and groups are formed by level.
+A learner in Alphington and another in Pinhoe can sit in the same lesson without either crossing the river.
+
+### England's school stages
+
+Reception, Key Stages 1 to 4, GCSEs and A levels, named as Exeter schools name them, with every lesson taught in English.
+
+### A real first lesson
+
+The free session covers a proper task and ends with a recommended level, course and weekly time. There is no card to enter.
+
+### Fifteen to twenty per group
+
+Learners at the same stage from Exeter, the rest of the UK and overseas, so every level can find a workable time.
+
+### Twice weekly
+
+Two fixed lessons each week, about eight a month, with holidays and exam periods planned with the teacher well in advance.
+
+### Two clocks, one plan
+
+With no clock change in India, our teachers are four and a half hours ahead of Exeter in British Summer Time and five and a half in winter, so UK after-school and evening lessons fit their working day.
+
+Across Devon
+
+Families in Exmouth, Crediton, Tiverton or Cullompton join exactly the same classes, because lessons are online and groups are formed by level.
+
+Fees
 
 ## Exeter lesson fees
 
 The first lesson is free, then a single monthly fee.
 
-- First class: USD 0. A complete lesson at no cost, closing with a suggested level, course and weekly time.
-- Group tuition: USD 100 a month. About eight live lessons each month in a class of fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. About eight live lessons each month, with the teacher working with your learner alone.
+First class**USD 0**
+
+A complete lesson at no cost, closing with a suggested level, course and weekly time.
+
+Group tuition**USD 100**
+
+About eight live lessons each month in a class of fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+About eight live lessons each month, with the teacher working with your learner alone.
 
 Newtown and Whipton pay exactly what a family in any other country outside India pays, one fee set in US dollars, and you will not see a price in pounds here. The first bill follows the free lesson, never precedes it, and only once a course and a weekly time are fixed. Pauses, a missed lesson or a move from group to private teaching are all explained on our pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Exeter.)Reviews
+
+## What six families wrote on Google, unchanged
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson for an Exeter learner
+
+The first task is set by level: a right-order puzzle for a young child, a short Python program that follows arrows on a small map for a beginner, or Open Rivers and a topological sort for a teenager ready for real data.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Exeter one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Exeter.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Exeter coding class questions
+
+The questions Exeter families ask us most.
 
 ### How many people live in Exeter?
 
@@ -234,10 +356,14 @@ The first lesson is free. After it, a group place is USD 100 a month for two liv
 
 By level, pace and aims rather than age or address, with fifteen to twenty learners at one stage. When no group suits the learner's week, we offer one-to-one lessons.
 
+Explore England and the UK
+
 ## The South West and beyond
 
 Down the coast, the [Plymouth page](/best-coding-class-in-plymouth) turns its listed buildings into a density map, and up the M5 [Bristol](/best-coding-class-in-bristol) divides itself into library catchments. [Hull](/best-coding-class-in-hull) runs a flood fill from the Humber. For key stages, GCSE choices and A levels, read the [England guide](/coding-and-ai-classes-in-england); for the full list of towns and cities, start from the [UK coding page](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Exeter.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-exeter](https://learn.modernagecoders.com/best-coding-class-in-exeter#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-exeter*

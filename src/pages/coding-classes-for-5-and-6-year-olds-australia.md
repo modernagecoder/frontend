@@ -4,34 +4,28 @@ description: "Coding classes for 5 and 6 year olds in Australia: what the Founda
 canonical: https://learn.modernagecoders.com/coding-classes-for-5-and-6-year-olds-australia
 source: src/pages/coding-classes-for-5-and-6-year-olds-australia.html
 ---
-> Coding classes for 5 and 6 year olds teach the ideas underneath programming: putting instructions in order, making simple choices and repeating steps. At five, those ideas are easiest to learn through games without a screen. From six, most children can begin a block language such as Scratch in short, guided online lessons. The Australian Curriculum expects the same: by the end of Year 2 students "follow and describe basic algorithms involving a sequence of steps and branching".
+> Coding classes for 5 and 6 year olds in Australia: what the Foundation year curriculum expects, games that teach sequencing at home, and live classes from age 6.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / Coding for 5 and 6 year olds
+In short
 
-Australia · Ages 5 and 6 · Live online from 6
+Coding classes for 5 and 6 year olds teach the ideas underneath programming: putting instructions in order, making simple choices and repeating steps. At five, those ideas are easiest to learn through games without a screen. From six, most children can begin a block language such as Scratch in short, guided online lessons. The Australian Curriculum expects the same: by the end of Year 2 students "follow and describe basic algorithms involving a sequence of steps and branching".
 
-# Coding classes for 5 and 6 year olds
-
-Five and six year olds can absolutely start thinking like programmers, but what that looks like is very different from what most parents picture. At this age, coding is not about typing or screens. It is about putting steps in order, noticing when the order matters, and spotting when the same step happens again and again. Australian schools start exactly there: the Foundation year of the Australian Curriculum talks about representing ideas with symbols and pictures, and Years 1 and 2 talk about following and describing sequences of steps. This page explains what is realistic at five and at six, gives you a simple arrow-card game that teaches a real programming idea at the kitchen table, and sets out how our live online lessons begin once a child turns six.
-
-At a glance: For: Children aged 5 and 6; School years: Foundation year and Year 1; Live classes: From age 6; At age 5: Unplugged games at home; First tool: Scratch, with blocks; Reading needed: Simple words only; Group: Fifteen to twenty, or one to one; Start: A free first class at 6. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## First courses for the youngest coders
 
 Live coding lessons begin at six. The third card is a maths course that suits curious five year olds.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course): From age 6. Snap-together blocks, moving characters and first small games, at a gentle pace.
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass): From age 6. A longer path that starts with Scratch and grows into apps and simple games over the year.
-- [Early Math Foundations](/courses/early-math-foundations): Ages 4 to 7. Playful number sense and patterns, the maths that early coding leans on.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)  KFIV / 01 Scratch Coding for Kids From age 6. Snap-together blocks, moving characters and first small games, at a gentle pace. Open the syllabus →](/courses/scratch-programming-complete-course)[![Coding for Kids course thumbnail](/images/kids-coding.webp)  KFIV / 02 Coding for Kids From age 6. A longer path that starts with Scratch and grows into apps and simple games over the year. Open the syllabus →](/courses/kids-coding-blocks-masterclass)[![Early Math Foundations course thumbnail](/images/early-math-k2.webp)  KFIV / 03 Early Math Foundations Ages 4 to 7. Playful number sense and patterns, the maths that early coding leans on. Open the syllabus →](/courses/early-math-foundations)
+
+Five or six?
 
 ## What is realistic at five, and what changes at six
 
 The difference between a five and a six year old is large for coding, mostly because of reading, attention and fine motor control. Neither age is too young for the ideas.
 
-**Coding at five and at six: a practical guide (our teaching experience)**
-
-|  | At five | At six |
-|---|---|---|
+|   | At five | At six |
+| --- | --- | --- |
 | Reading | Recognises some words; relies on pictures | Reads short labels such as "move" and "say" |
 | Attention | Short bursts with lots of movement | Can follow a short guided lesson with a teacher |
 | Mouse and keyboard | Dragging is still tricky for many | Can drag blocks and click accurately enough |
@@ -52,14 +46,14 @@ All of that is programming in disguise. The arrow-card game further down turns i
 
 The name of the first school year varies around Australia (Kindergarten, Prep, Reception, Pre-primary or Transition, depending on where you live), but the curriculum calls it the Foundation year everywhere. Most five and six year olds are in the Foundation year or Year 1. Our page on [online coding classes for Australian kids](/online-coding-classes-for-kids-australia) lists each state's name and starting age, and our guide to [the right age to start coding](/best-age-to-start-coding) looks at readiness more generally.
 
+The Australian Curriculum
+
 ## What the Foundation year and Years 1 and 2 expect
 
 Digital Technologies starts in the Foundation year of the Australian Curriculum v9. The early expectations are modest and very sensible, and they describe thinking more than screens.
 
-**Early Digital Technologies expectations, Australian Curriculum v9 (quoted)**
-
 | When | What ACARA expects |
-|---|---|
+| --- | --- |
 | By the end of Foundation | "students show familiarity with digital systems and use them for a purpose. They represent data using objects, pictures and symbols" |
 | Foundation, digital systems (AC9TDIFK01) | "recognise and explore digital systems (hardware and software) for a purpose", for example a "programmable toy" |
 | Foundation, privacy (AC9TDIFP01) | "identify some data that is personal and owned by them" |
@@ -78,6 +72,8 @@ For Years 1 and 2, ACARA suggests children work out when the order of steps matt
 Spotting which steps can swap and which cannot is a real programming skill. Professional programmers spend whole careers on the grown-up version of it.
 
 Checked on 7 October 2026 against ACARA's Word download of the [Digital Technologies content for Foundation to Year 6](https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/technologies/digital-technologies/technologies-digital-technologies-curriculum-content-f-6-v9.docx).
+
+Try this at home
 
 ## The arrow-card game: a first program with no screen
 
@@ -109,14 +105,14 @@ For six year olds, add a "repeat" card: a card that says "do the next card three
 
 Watch for the moment a child says "that one's wrong" and points at a single card. That is debugging, and it is the most important habit in programming. Praise the fix more than the first attempt.
 
+From six
+
 ## What a first live lesson looks like for a six year old
 
 Our first lessons for six year olds are built around one small success at a time, with a teacher guiding every step and a parent welcome to sit alongside.
 
-**A typical first month for a six year old (Scratch)**
-
 | Week | The child makes | The idea underneath |
-|---|---|---|
+| --- | --- | --- |
 | 1 | A cat that walks across the screen when the green flag is clicked | A program runs in order, from the top |
 | 2 | The cat says hello, then waits, then says goodbye | Steps happen one after another; waiting is a step too |
 | 3 | The cat dances by repeating a few moves | Repeating saves blocks: the first loop |
@@ -136,6 +132,8 @@ Each lesson ends with something on screen that moves, so the child leaves proud 
 
 Scratch is free and runs in a web browser, so there is nothing to buy. A laptop or desktop with a mouse is easier than a tablet for little hands. Once a child is comfortable, our guide to [coding at seven and eight](/coding-classes-for-7-and-8-year-olds-australia) shows what comes next.
 
+Screen time
+
 ## Coding and screen time for young children
 
 Parents of five and six year olds often worry about adding more screen time. It is a fair concern, and it is one reason the unplugged games matter so much at this age.
@@ -152,14 +150,14 @@ The Foundation curriculum asks children to "identify some data that is personal 
 
 If a class uses a username, it is chosen with a parent and contains no surname or school name.
 
+Stages
+
 ## Four early stages, from cards to Scratch
 
 Five year olds usually spend months on the first two stages at home; six year olds in live lessons reach the third within a term.
 
-**Early coding stages for ages 5 and 6**
-
 | Stage | What your child can do |
-|---|---|
+| --- | --- |
 | 1. Orders steps | Puts picture cards for a familiar routine in the right order and explains why |
 | 2. Programs a toy | Lays out arrow cards that move a toy to a target, then fixes a wrong card |
 | 3. First Scratch | Snaps together blocks so a character moves and speaks when the green flag is clicked |
@@ -168,63 +166,293 @@ Five year olds usually spend months on the first two stages at home; six year ol
 ### Does my child need to read?
 
 For the arrow-card game, no. For Scratch lessons at six, only a little: blocks have short labels such as "move" and "say", and the teacher reads anything longer aloud.
+
 Coding often gives reluctant readers a reason to decode words, because the words make something happen.
 
 ### Fitting into the school week
 
 Six year olds are often tired after school, so many families choose a weekend lesson. Billing is monthly, so it is easy to stop over the holidays.
+
 We agree the day and time in the free first class.
+
+The catalogue
 
 ## Courses for young children
 
 Live coding courses start at six; the maths courses suit children from four.
 
+I
+
 ### First coding
 
 From age 6
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course): Snap-together blocks, characters and first games.
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass): A full year from first blocks to small apps.
-- [Microsoft Office for Kids](/courses/microsoft-office-kids-mastery): Computer confidence for children from seven.
+KFIV / CODE / 01
+
+#### Scratch Coding for Kids
+
+Snap-together blocks, characters and first games.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)
+
+KFIV / CODE / 02
+
+#### Coding for Kids
+
+A full year from first blocks to small apps.
+
+[Open the syllabus](/courses/kids-coding-blocks-masterclass)
+
+KFIV / CODE / 03
+
+#### Microsoft Office for Kids
+
+Computer confidence for children from seven.
+
+[Open the syllabus](/courses/microsoft-office-kids-mastery)II
 
 ### Early maths
 
 From age 4
 
-- [Early Math Foundations](/courses/early-math-foundations): Number sense, shapes and patterns through play.
-- [Mental Maths for Kids](/courses/mental-maths-mastery-kids): Quick, confident calculation for primary children.
-- [Abacus Mental Maths](/courses/abacus-mental-maths-course-for-kids): Calculation with an abacus, then in the head.
+KFIV / MATH / 01
+
+#### Early Math Foundations
+
+Number sense, shapes and patterns through play.
+
+[Open the syllabus](/courses/early-math-foundations)
+
+KFIV / MATH / 02
+
+#### Mental Maths for Kids
+
+Quick, confident calculation for primary children.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+KFIV / MATH / 03
+
+#### Abacus Mental Maths
+
+Calculation with an abacus, then in the head.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)III
 
 ### Next steps
 
 Ages 7 and up
 
-- [Problem Solving for Kids](/courses/problem-solving-and-computational-thinking-for-kids): Patterns, logic and algorithms from age seven.
-- [Minecraft Coding for Kids](/courses/minecraft-coding-for-kids-course): Coding inside a world children already love, from seven.
-- [Game Development for Kids](/courses/game-development-masterclass-for-kids): Real games in Scratch and beyond, from eight.
+KFIV / NEXT / 01
+
+#### Problem Solving for Kids
+
+Patterns, logic and algorithms from age seven.
+
+[Open the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)
+
+KFIV / NEXT / 02
+
+#### Minecraft Coding for Kids
+
+Coding inside a world children already love, from seven.
+
+[Open the syllabus](/courses/minecraft-coding-for-kids-course)
+
+KFIV / NEXT / 03
+
+#### Game Development for Kids
+
+Real games in Scratch and beyond, from eight.
+
+[Open the syllabus](/courses/game-development-masterclass-for-kids)
+
+How lessons run
 
 ## Gentle live lessons, at Australian times
 
 Our teachers are in India, and India time is behind every Australian state, so weekend mornings and after-school times in Australia are easy for us to cover.
 
-- **Saturday or Sunday morning** Often when six year olds are freshest, before they tire.
-- **Weekday, after school** Works for children who are fresh after school.
-- **One to one** For a shy child or a family with an unusual timetable.
+Saturday or Sunday morning
 
-- **A free first class** The teacher checks whether your six year old is ready, and tells you honestly if waiting would be better.
-- **Groups** Fifteen to twenty children of a similar age and level, with plenty of turns.
-- **One to one** Every minute is your child's, at exactly their pace.
-- **Their own clicks** The child moves every block. The teacher guides with questions and demonstrations.
-- **Parents in the room** For this age we encourage it, and you will see exactly what your child learns.
-- **Nothing to install** Scratch runs in a browser; you just need a computer with a mouse.
+Often when six year olds are freshest, before they tire.
+
+Weekday, after school
+
+Works for children who are fresh after school.
+
+One to one
+
+For a shy child or a family with an unusual timetable.
+
+### A free first class
+
+The teacher checks whether your six year old is ready, and tells you honestly if waiting would be better.
+
+### Groups
+
+Fifteen to twenty children of a similar age and level, with plenty of turns.
+
+### One to one
+
+Every minute is your child's, at exactly their pace.
+
+### Their own clicks
+
+The child moves every block. The teacher guides with questions and demonstrations.
+
+### Parents in the room
+
+For this age we encourage it, and you will see exactly what your child learns.
+
+### Nothing to install
+
+Scratch runs in a browser; you just need a computer with a mouse.
+
+Student work
+
+## Projects built by our students
+
+Older students made these; every one of them started with a first program as small as a moving cat. More are in our [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees for early coding
 
 Families in Australia pay a single monthly fee in US dollars. There is no joining fee, and lessons can stop after any month.
 
-- Free first class: USD 0. A short, playful first lesson. An honest view on readiness. No card or bank details.
-- Group batch: USD 100 a month. Five to ten young children. A familiar teacher each week. Plenty of turns for everyone. Stop after any month.
-- One to one: USD 150 a month. A lesson shaped around one child. Pace set by attention span. Ideal for a shy first coder.
+Free first class
+
+USD 0
+
+no card required
+
+- A short, playful first lesson
+- An honest view on readiness
+- No card or bank details
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Five to ten young children
+- A familiar teacher each week
+- Plenty of turns for everyone
+- Stop after any month
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A lesson shaped around one child
+- Pace set by attention span
+- Ideal for a shy first coder
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+These are the families' own words, unedited, from our Google listing.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions from parents
 
 ## What parents of 5 and 6 year olds ask
 
@@ -268,15 +496,54 @@ Shorter and livelier than for older children, with frequent changes of activity.
 
 The first lesson is free and asks for no card. Group places and one-to-one lessons each have a monthly fee, listed under Fees above, with no sign-up charge.
 
+Elsewhere on this site
+
 ## Related pages
 
-- [Coding classes in Australia](/coding-classes-in-australia): Where every page for Australian families is listed.
-- [Coding for 7 and 8 year olds](/coding-classes-for-7-and-8-year-olds-australia): The next stage, with first loops and stories.
-- [Online coding for Australian kids](/online-coding-classes-for-kids-australia): Year levels and lesson times by state.
-- [Kids coding languages](/kids-coding-languages-australia): Why blocks come before typing.
-- [The right age to start coding](/best-age-to-start-coding): Readiness at six, nine and twelve.
-- [Scratch coding classes](/scratch-coding-classes-for-kids): The block language in detail.
+More for families of young children in Australia.
 
-## Contact
+### [Coding classes in Australia](/coding-classes-in-australia)
 
-Book the free first class at [https://learn.modernagecoders.com/coding-classes-for-5-and-6-year-olds-australia](https://learn.modernagecoders.com/coding-classes-for-5-and-6-year-olds-australia#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Where every page for Australian families is listed.
+
+### [Coding for 7 and 8 year olds](/coding-classes-for-7-and-8-year-olds-australia)
+
+The next stage, with first loops and stories.
+
+### [Online coding for Australian kids](/online-coding-classes-for-kids-australia)
+
+Year levels and lesson times by state.
+
+### [Kids coding languages](/kids-coding-languages-australia)
+
+Why blocks come before typing.
+
+### [The right age to start coding](/best-age-to-start-coding)
+
+Readiness at six, nine and twelve.
+
+### [Scratch coding classes](/scratch-coding-classes-for-kids)
+
+The block language in detail.
+
+Start here
+
+## Book a free first class
+
+Leave your details and we will call at a time that suits you. If your child is six, the free class is a short, playful first lesson. If they are five, we are happy to talk through the games on this page and suggest when to start.
+
+Before booking, you might like [how we teach](/how-we-teach), which follows one lesson from start to finish, or the [courses](/courses) for older children.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Australia%20and%20our%20child%20is%205%20or%206.%20Could%20you%20tell%20us%20whether%20they%20are%20ready%20for%20a%20first%20coding%20class%3F) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+The quickest way to reach us from Australia is usually WhatsApp. The number starts with +91 because the team works in India; we have no office in Australia.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-for-5-and-6-year-olds-australia*

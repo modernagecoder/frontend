@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes in Tongelre, Eindhoven f
 canonical: https://learn.modernagecoders.com/coding-classes-in-tongelre
 source: src/pages/coding-classes-in-tongelre.html
 ---
-> Coding classes in Tongelre reach a stadsdeel of three statistics office wijken, Oud-Tongelre, De Laak and Doornakkers, all three read, with 23,660 residents in January 2026. On 't Hofke stands one of the oldest houses in Eindhoven. Its beams date from 1583, it was enlarged in 1600, its present appearance is eighteenth-century and its outside was restored in 2007/2008. The encyclopaedia gives no date for the house itself. So how old is it: 443 years, 426, about two or three centuries, or 18? Each is true of a different event, and none is true of the house. Modern Age Coders teaches live online in English from Urkhoven to the Villapark, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
+> Live online coding, Python and AI classes in Tongelre, Eindhoven for ages 6 to 67, in Oud-Tongelre, De Laak and Doornakkers. The first lesson is free.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Eindhoven](/coding-classes-in-eindhoven) / Tongelre
-
-Tongelre, Eindhoven / Live online
-
-# Coding classes in Tongelre, where one farmhouse has five dates and no age
-
-**What are the best coding classes in Tongelre, Eindhoven?** Coding classes in Tongelre reach a stadsdeel of three statistics office wijken, Oud-Tongelre, De Laak and Doornakkers, all three read, with 23,660 residents in January 2026. On 't Hofke stands one of the oldest houses in Eindhoven. Its beams date from 1583, it was enlarged in 1600, its present appearance is eighteenth-century and its outside was restored in 2007/2008. The encyclopaedia gives no date for the house itself. So how old is it: 443 years, 426, about two or three centuries, or 18? Each is true of a different event, and none is true of the house. Modern Age Coders teaches live online in English from Urkhoven to the Villapark, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
-
-Ask how old a thing is and the question sounds complete. It is not. The farmhouse at 't Hofke 13 in the old heart of Tongelre has a timber frame from 1583, grew in 1600, took on its present face in the eighteenth century and had its outside restored early this century, and every one of those is a correct answer to how old it is, because each dates a different event. The same thing happens to every record a program touches: a file has one date for when it was created and another for when it was changed, a database row copied into a new system gets a fresh creation date, a line of code carries its own date inside a repository that is older than it. A date without its event is half a fact, and the half that is missing is the one that decides whether the number means anything.
-
-Facts last verified 11 September 2026. Teaching is online; no Tongelre branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Tongelre
 
 ## Four courses for the east of Eindhoven
 
 A groep 6 child in Doornakkers who keeps asking how old things are, a teenager in Oud-Tongelre planning an app that will need to know when each record was made and when it was changed, a student in De Laak whose data pipeline stamps everything with the day it ran, and an adult near 't Hofke who has inherited a spreadsheet full of dates with no labels. The first lesson for any of them is taught in full and costs nothing.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Typed Python where a child builds a timeline of one object, a date for every event, and learns to say which event a date belongs to.
-- [App Development for Teens](/courses/complete-app-development-masterclass-for-teens) (Ages 13 to 18): A complete app, first screen to working build, whose records store when they were created and when they were last changed as two separate fields.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Python pipelines that keep the reference date of the data apart from the date the job happened to run.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): Reading any dated figure by asking what happened on that date, for anybody whose reports say as of without saying as of what.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsTyped Python where a child builds a timeline of one object, a date for every event, and learns to say which event a date belongs to.See the syllabus](/courses/python-ai-kids-masterclass)[![App Development for Teens course thumbnail](/images/app-dev-teens.webp)Ages 13 to 18App Development for TeensA complete app, first screen to working build, whose records store when they were created and when they were last changed as two separate fields.See the syllabus](/courses/complete-app-development-masterclass-for-teens)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CoursePython pipelines that keep the reference date of the data apart from the date the job happened to run.See the syllabus](/courses/python-ai-automation-masterclass-college)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)Reading any dated figure by asking what happened on that date, for anybody whose reports say as of without saying as of what.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Tongelre today
 
 ## A village until 1920, and three wijken now
 
@@ -52,16 +40,18 @@ Tongelre was an independent municipality in Noord-Brabant until 1920, when it wa
 
 8,783 residents on 168 hectares, in Doornakkers-West, Doornakkers-Oost and the Tongelresche Akkers. 1,490 residents are under fifteen and 1,305 of the 4,385 households have children. The single primary establishment teaches 420 pupils.
 
-**Around 't Hofke: a church, a town hall and a cigar factory** The encyclopaedia entry puts the heart of the old village at 't Hofke, around which all the important buildings, such as the church and the town hall, are grouped. The Sint-Martinuskerk, a neo-gothic cruciform basilica with three aisles, was consecrated in 1891 to a design by E. Corbey. The old town hall on 't Hofke dates from 1911 and is now a community centre. The Apollohuis at Tongelresestraat 81 is the former cigar factory of the firm Boelaars and Sons, built in 1919. The Collse Watermolen is listed among the landmarks, and the DAF Museum has occupied a building of several earlier uses since 1993. The page repeats these lines and goes no further.
+Around 't Hofke: a church, a town hall and a cigar factory
+
+The encyclopaedia entry puts the heart of the old village at 't Hofke, around which all the important buildings, such as the church and the town hall, are grouped. The Sint-Martinuskerk, a neo-gothic cruciform basilica with three aisles, was consecrated in 1891 to a design by E. Corbey. The old town hall on 't Hofke dates from 1911 and is now a community centre. The Apollohuis at Tongelresestraat 81 is the former cigar factory of the firm Boelaars and Sons, built in 1919. The Collse Watermolen is listed among the landmarks, and the DAF Museum has occupied a building of several earlier uses since 1993. The page repeats these lines and goes no further.
+
+One house, five dates
 
 ## How old is the farmhouse at 't Hofke 13?
 
 The encyclopaedia calls it one of the oldest houses in the municipality of Eindhoven and gives the dates below. Each row is an event with its year, and the age is simply 2026 minus that year. The last row is the one that matters.
 
-**The farmhouse at 't Hofke 13, dated by event**
-
 | Event | Year | Age of that event in 2026 | What the date belongs to |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | The timber frame | 1583 | 443 years | the beams |
 | Enlarged, from a three-aisled hallenhuis, a hall house | 1600 | 426 years | the enlargement |
 | Present appearance | the eighteenth century | between 227 and 326 years | the face you see |
@@ -69,6 +59,8 @@ The encyclopaedia calls it one of the oldest houses in the municipality of Eindh
 | The house as a whole | not given | no answer | nothing: the question has no event |
 
 Every figure in the third column is correct, and they run from eighteen years to four hundred and forty-three. The farmhouse is not uncertain about its age; it simply has no single age, because a building is not one event but a series of them, and the source is careful to date the beams, the enlargement and the appearance rather than the house. Saying it was built in 1583 would quietly promote the date of the oldest part to the date of the whole, which is the kind of claim that survives in brochures precisely because nobody asks which event it records. The same care applies across the square: the church was consecrated in 1891, which dates a ceremony, and the town hall dates from 1911, which left an independent Tongelre at most nine years of using it before the merger of 1920.
+
+Verified local facts
 
 ## The three wijken of Tongelre, with a year on every figure
 
@@ -100,6 +92,8 @@ It does not say when the farmhouse was built, since the source does not; it does
 
 Modern Age Coders has no link with Tongelre, with Eindhoven, with the DAF Museum or with any school, church or landmark named here, and nothing on this page implies one. The three wijk rows are taken from their own statistics office pages with the year of each figure preserved as published. The farmhouse, the church, the town hall, the cigar factory and the 1920 date are copied from the encyclopaedia entry for Tongelre, which dates the parts and events of 't Hofke 13 and gives no date for the house as a whole.
 
+Signature project
+
 ## Every date belongs to an event, so store the event with it
 
 A timestamp answers when did what happen. Leave out the what and the number can be attached to the wrong thing without anybody noticing.
@@ -116,10 +110,8 @@ A record that can be created, changed, copied and restored needs a field for eac
 
 The oldest beam does not date the house, the newest field does not date the row, and the first commit does not date every line of a program. When the question is about the whole, say that it has no single date, as the source does.
 
-**The same question, in five other places**
-
 | The object | Its different dates | The date that usually gets shown | What goes wrong |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | A file on a computer | created, last modified, last opened | last modified | a plain copy gets a new creation date and looks brand new |
 | A database row moved to a new system | first recorded, imported, last updated | the import date | a ten-year-old customer appears to have joined last week |
 | A program in version control | first commit, and a separate date for every line | the date of the latest release | code written years ago is treated as freshly reviewed |
@@ -130,14 +122,14 @@ The oldest beam does not date the house, the newest field does not date the row,
 
 Almost every application framework adds two timestamps to every record, one for when it was created and one for when it was last changed, because a single date cannot answer both questions and the difference between them is often the most useful thing in the table. The discipline goes further than those two fields. A migration that copies rows into a new database tends to set their creation time to the day of the migration, unless somebody carries the original across on purpose, and afterwards nothing distinguishes a customer of ten years from one of ten days. Version control solves the same problem at a finer grain: a repository has a first commit, but every line in it carries the date of the change that last touched it, and asking how old the code is only makes sense line by line. Data pipelines add a third kind, the date the job ran, which is often mistaken for the date the data describes. The statistics rows on this page show the pattern in miniature, with residents counted at the start of 2026, homes in 2025 and income in 2024 inside a single row. The remedy everywhere is the same as for the farmhouse: name the event beside the date, keep a separate date for each event that matters, and when someone asks for the date of the whole, be willing to say that there is not one.
 
+Reliable pipeline
+
 ## Five habits for dates that mean what they say
 
 File times, record timestamps, commit dates, release dates, reference dates and as-of labels all attach a number to an event, and all go wrong when the event is dropped. Practised on a farmhouse whose source dates every part except the whole.
 
-**Keeping every date attached to its event**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Name the event | Store what happened next to every date | A number attached to the wrong occurrence | Dates a reader can interpret |
 | One field per event | Keep created, changed and copied as separate fields | A later event overwriting an earlier one | History that survives edits |
 | Carry originals across | When migrating, bring the original timestamps with the data | Old records reborn on import day | A migration that keeps its past |
@@ -158,14 +150,37 @@ A report from work with an as-of date on it. Adults find out which event that da
 
 The farmhouse is dated here only by the events the encyclopaedia names, and the house is left undated because the source leaves it undated. The three wijk rows keep the year of every figure exactly as the statistics office gives it, which is the practical form of the same habit. Every age in the table on this page is a single subtraction from 2026, and the eighteenth century is kept as a range rather than rounded into a year that nobody recorded.
 
+Learning ladder
+
 ## From a toy with three birthdays to records that keep every date they need
 
 The starting point is decided in the free lesson by how the learner handles a real piece of work. The wijk they live in and their age make no difference to it.
 
-- **Ages 6 to 10: Which birthday?** Children give one object several dates and say what happened on each. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Game Development for Kids](/courses/game-development-masterclass-for-kids)
-- **Ages 11 to 13: A timeline in code** Learners store events with their dates and sort them into a history. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Created and updated** Teenagers build records that keep two timestamps and a copy that keeps both. [App Development for Teens](/courses/complete-app-development-masterclass-for-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: As of what?** Adults trace the event behind every as-of date in a real report. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Which birthday?
+
+Children give one object several dates and say what happened on each.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Game Development for Kids](/courses/game-development-masterclass-for-kids)Ages 11 to 13
+
+### A timeline in code
+
+Learners store events with their dates and sort them into a history.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Created and updated
+
+Teenagers build records that keep two timestamps and a copy that keeps both.
+
+[App Development for Teens](/courses/complete-app-development-masterclass-for-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### As of what?
+
+Adults trace the event behind every as-of date in a real report.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## Ask an AI when the farmhouse on 't Hofke was built and it will give a year. Why should a teenager in Doornakkers ask which part?
 
@@ -177,30 +192,139 @@ The learner who has written a copy function that reset every creation date, and 
 
 The case for a child in Tongelre learning to code in 2026 is therefore not about the future at all. It is that anyone who has built a record with a created and an updated field learns to ask which event a date belongs to, and that question works on farmhouses, reports and machine answers alike. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for Oud-Tongelre, De Laak and Doornakkers
 
 Tongelre runs from the Villapark and Lakerlopen out past 't Hofke to Urkhoven and Koudenhoven, and wherever a family lives in it, the hard part of a weekly class is the evening rather than the route.
 
-- **From Urkhoven, no journey at all** From Urkhoven or Koudenhoven, any classroom in the city means a ride in and a ride home twice a week. Online, the learner opens a laptop at the agreed time and the journey is simply not part of the plan.
-- **Dutch words for Dutch school** Groep, havo, vwo and profielkeuze stay in Dutch in every lesson, because they are the terms on every Tongelre school letter. The teacher meets the school vocabulary where it is rather than translating it away.
-- **A lesson that is a lesson** The free hour is spent on a real task while the teacher watches how the learner works. It ends with a level, a course and a weekly time, and at no point does it ask for payment details or lead to a sales call.
-- **Groups by stage, drawn widely** Fifteen to twenty learners who are at the same point in the same subject. Tongelre has 3,400 residents under fifteen, and five of them at one exact stage wanting one exact hour is rare, so groups are drawn from a worldwide pool.
-- **Regio Zuid school holidays** Two lessons a week, about eight a month, at a fixed hour. Noord-Brabant follows regio Zuid holidays, on dates that differ from the western provinces, and the teaching calendar keeps to them from the first month.
-- **The clock that moves is Dutch** India sits three and a half hours ahead in summer and four and a half in winter, and only the Dutch clock ever changes. After school, the early evening and weekend mornings remain available the whole year.
+### From Urkhoven, no journey at all
 
-**Four primary schools, one secondary, and a group from much further away** Tongelre has four primary establishments teaching 2,043 pupils and a single secondary establishment in Oud-Tongelre teaching 1,200. That is a modest amount of schooling for three wijken, and it makes no difference to how a coding group forms: five learners at the same stage of the same subject free at the same hour are found only in a pool that spans every age from 6 to 67 and every country the teachers serve.
+From Urkhoven or Koudenhoven, any classroom in the city means a ride in and a ride home twice a week. Online, the learner opens a laptop at the agreed time and the journey is simply not part of the plan.
+
+### Dutch words for Dutch school
+
+Groep, havo, vwo and profielkeuze stay in Dutch in every lesson, because they are the terms on every Tongelre school letter. The teacher meets the school vocabulary where it is rather than translating it away.
+
+### A lesson that is a lesson
+
+The free hour is spent on a real task while the teacher watches how the learner works. It ends with a level, a course and a weekly time, and at no point does it ask for payment details or lead to a sales call.
+
+### Groups by stage, drawn widely
+
+Fifteen to twenty learners who are at the same point in the same subject. Tongelre has 3,400 residents under fifteen, and five of them at one exact stage wanting one exact hour is rare, so groups are drawn from a worldwide pool.
+
+### Regio Zuid school holidays
+
+Two lessons a week, about eight a month, at a fixed hour. Noord-Brabant follows regio Zuid holidays, on dates that differ from the western provinces, and the teaching calendar keeps to them from the first month.
+
+### The clock that moves is Dutch
+
+India sits three and a half hours ahead in summer and four and a half in winter, and only the Dutch clock ever changes. After school, the early evening and weekend mornings remain available the whole year.
+
+Four primary schools, one secondary, and a group from much further away
+
+Tongelre has four primary establishments teaching 2,043 pupils and a single secondary establishment in Oud-Tongelre teaching 1,200. That is a modest amount of schooling for three wijken, and it makes no difference to how a coding group forms: five learners at the same stage of the same subject free at the same hour are found only in a pool that spans every age from 6 to 67 and every country the teachers serve.
+
+Fees
 
 ## The Tongelre fee, printed in dollars
 
 Set out fully here, so the number is known before anyone talks to us.
 
-- First class: USD 0. A whole taught lesson that ends with a level and a named course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A whole taught lesson that ends with a level and a named course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 One dollar rate for every country and no euro list, so a house in the Villapark and a flat in Doornakkers are quoted the same. Nothing is paid until the free lesson has decided a course and a weekly hour, and payment is then arranged over WhatsApp. Pausing, changing format and missing a lesson are all covered on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Tongelre%2C%20Eindhoven.)Reviews
+
+## Six Google reviews, left exactly as they were written
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us the stage the learner is at now
+
+The first task might be a toy with three birthdays, a notes app that keeps its created and updated times through a copy, or a report whose as-of date is traced to the event behind it.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Tongelre one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Tongelre%2C%20Eindhoven.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Tongelre coding class questions
+
+The stadsdeel, its three wijken, one farmhouse with many dates, the lessons and the terms.
 
 ### What does Tongelre include?
 
@@ -242,10 +366,14 @@ The first lesson is free. After it, group tuition is USD 100 a month for two liv
 
 Fifteen to twenty, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
+Explore Eindhoven and beyond
+
 ## West to the old town, south to Stratum, and on across Brabant
 
 Brainport, the international schools and the figures for the whole city are on [coding classes in Eindhoven](/coding-classes-in-eindhoven), which now links all seven stadsdeel pages. West of Tongelre is the old town, on [Eindhoven Centrum](/coding-classes-in-eindhoven-centrum), and just south is [Stratum](/coding-classes-in-stratum), where three correct densities average to a wrong one. The province around the city is [Noord-Brabant](/coding-classes-in-noord-brabant), with its other towns to follow in this series. A learner who wants machine learning above all can go straight to the [AI and Python Academy](/ai-and-python-academy-netherlands), and the [Netherlands coding hub](/coding-classes-in-netherlands) holds every page together.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Take it to WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Tongelre%2C%20Eindhoven.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-tongelre](https://learn.modernagecoders.com/coding-classes-in-tongelre#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-tongelre*

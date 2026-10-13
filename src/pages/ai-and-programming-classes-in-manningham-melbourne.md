@@ -4,56 +4,40 @@ description: "Live online AI and programming classes for City of Manningham chil
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-manningham-melbourne
 source: src/pages/ai-and-programming-classes-in-manningham-melbourne.html
 ---
-> Live online lessons that take learners from first programs to machine learning models they can question and test. The City of Manningham is spread out and car-reliant: the 2021 Census counted 124,700 residents, an average of 2.0 vehicles per home and no metropolitan train station inside its boundary.
+> Live online AI and programming classes for City of Manningham children, teenagers and adults: Scratch, Python and machine learning, in groups or one to one.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [Victoria](/coding-and-ai-classes-in-victoria) / [Melbourne](/vibe-coding-and-ai-agents-classes-in-melbourne) / City of Manningham
-
-City of Manningham, Melbourne, Victoria / Live online
-
-# AI and programming classes in the City of Manningham
-
-**What do AI and programming classes offer City of Manningham learners?** Live online lessons that take learners from first programs to machine learning models they can question and test. The City of Manningham is spread out and car-reliant: the 2021 Census counted 124,700 residents, an average of 2.0 vehicles per home and no metropolitan train station inside its boundary.
-
-Plot the City of Manningham's 30 open schools on a map and half of them have another school within 0.837 km. A few are much further from their neighbours. Which ones count as outliers depends on how you define unusual, and machine learning offers a definition that takes the neighbourhood into account.
-
-Facts last verified 10 October 2026. Teaching is online; no City of Manningham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for the City of Manningham
 
 ## Courses that teach models and their limits
 
 These courses all compare a clever model with a plain rule, the comparison at the heart of the outlier project. The free first class decides where to start.
 
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Machine learning in Python, including unsupervised models like outlier detection.
-- [Orange Data Mining Course for Teens](/courses/orange-data-mining-visual-machine-learning-course-for-teens) (Ages 13 to 17): Visual machine learning with no code, a gentle start to clustering and outliers.
-- [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) (University and adult): Models, evaluation and the judgement to pick a simple rule when it is enough.
-- [Data Science Course](/courses/data-science-complete-masterclass-college) (University and adult): Data preparation, maps and statistics behind any model.
+[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensMachine learning in Python, including unsupervised models like outlier detection.See the syllabus](/courses/ai-ml-masterclass-teens)[![Orange Data Mining Course for Teens course thumbnail](/images/orange-data-mining-teens.webp)Ages 13 to 17Orange Data Mining Course for TeensVisual machine learning with no code, a gentle start to clustering and outliers.See the syllabus](/courses/orange-data-mining-visual-machine-learning-course-for-teens)[![AI and ML Masterclass course thumbnail](/images/ai-ml-college.webp)University and adultAI and ML MasterclassModels, evaluation and the judgement to pick a simple rule when it is enough.See the syllabus](/courses/ai-ml-masterclass-complete-college)[![Data Science Course course thumbnail](/images/data-science-college.webp)University and adultData Science CourseData preparation, maps and statistics behind any model.See the syllabus](/courses/data-science-complete-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)The City of Manningham in the Census
 
 ## Cars, buses and no railway
 
 Figures for the City of Manningham local government area (ABS code LGA24210) from the 2021 Census QuickStats, beside the Victorian share. Doncaster, inside the council area, has its own page.
 
-**City of Manningham, 2021 Census headline counts**
-
 | Headline | City of Manningham |
-|---|---|
+| --- | --- |
 | Residents | 124,700 |
 | Median age | 43 |
 | Families | 35,767 |
 | Private dwellings | 49,886 |
 | Average people per household | 2.7 |
 
-**City of Manningham set against Victoria**
-
 | Measure | City of Manningham | Victoria |
-|---|---|---|
+| --- | --- | --- |
 | Workers who took the bus | 2.3% (1,345) | 0.6% |
 | Workers who walked only | 1.0% (593) | 2.3% |
 | Adults with a bachelor degree or higher | 38.2% (39,909) | 29.2% |
@@ -74,14 +58,14 @@ The Census was taken in the August 2021 lockdown, when 18,957 employed residents
 
 QuickStats applies small random adjustments for privacy, so parts may not sum to totals. Each figure is given as published, and no total is built from parts.
 
+Signature project
+
 ## Which schools are outliers, and by whose rule?
 
 We took the 30 open schools inside the council boundary from the 2025 school locations file and worked out each one's straight-line distance to its nearest neighbouring school. Then we compared a plain rule, "more than 1.5 km from the nearest school", with a machine learning model called Local Outlier Factor.
 
-**Two ways to find outliers among 30 schools (our calculation)**
-
 | Method | Schools flagged | Top of the list |
-|---|---|---|
+| --- | --- | --- |
 | Nearest school more than 1.5 km away | 5 | Wonga Park Primary School, 5.45 km |
 | Local Outlier Factor, 3 neighbours, score above 1.5 | 1 | Wonga Park Primary School, 2.21 |
 | Local Outlier Factor, 5 neighbours, score above 1.5 | 1 | Wonga Park Primary School, 2.06 |
@@ -105,14 +89,14 @@ Both methods agree on the one school that is clearly unusual. Beyond that, the m
 
 The distances, scores and flags are ours, calculated from the published school coordinates with scikit-learn. Distance between schools says nothing about school quality, and we draw no conclusion from it beyond the geometry.
 
+The model behind it
+
 ## Outliers measured against the neighbourhood
 
 Local Outlier Factor asks whether a point is much lonelier than the points around it, rather than lonely in absolute terms.
 
-**Fixed distance rule against Local Outlier Factor**
-
 | Question | Distance rule | Local Outlier Factor |
-|---|---|---|
+| --- | --- | --- |
 | What counts as unusual | Further than a set distance | Much sparser than its neighbours |
 | Setting to choose | The distance, 1.5 km here | The number of neighbours, k |
 | Easy to explain | Yes | Takes a diagram |
@@ -132,6 +116,8 @@ Compute nearest-neighbour distances in Python, then fit Local Outlier Factor and
 
 Try both methods on unusual transactions or sensor readings at work before trusting either.
 
+Around the City of Manningham
+
 ## Thirty schools and the 2027 year
 
 More from the state school file.
@@ -148,16 +134,41 @@ Of the 30, 21 are government schools, 8 Catholic and 1 independent.
 
 Warrandyte High School sits 2.06 km from its nearest school; each of the six schools addressed in Doncaster East has a neighbour within 0.93 km.
 
-**Term 1, 2027** Victorian government school students start on Thursday 28 January 2027, and Term 1 finishes on Thursday 25 March.
+Term 1, 2027
+
+Victorian government school students start on Thursday 28 January 2027, and Term 1 finishes on Thursday 25 March.
+
+Learning ladder
 
 ## From scattered counters to outlier models
 
 Use the ages as a rough guide; the free first class confirms the level.
 
-- **Ages 6 to 10: Scratch and patterns** Games that spot the odd one out, built from blocks. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)
-- **Ages 10 to 14: Python and maps** Coordinates, distances and first plots in Python. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Machine learning** Unsupervised models, compared honestly with simple rules. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Orange Data Mining Course for Teens](/courses/orange-data-mining-visual-machine-learning-course-for-teens)
-- **University and adult: Applied machine learning** Anomaly detection and evaluation for real datasets. [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college), [Data Science Course](/courses/data-science-complete-masterclass-college)
+Ages 6 to 10
+
+### Scratch and patterns
+
+Games that spot the odd one out, built from blocks.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)Ages 10 to 14
+
+### Python and maps
+
+Coordinates, distances and first plots in Python.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Machine learning
+
+Unsupervised models, compared honestly with simple rules.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Orange Data Mining Course for Teens](/courses/orange-data-mining-visual-machine-learning-course-for-teens)University and adult
+
+### Applied machine learning
+
+Anomaly detection and evaluation for real datasets.
+
+[AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college)[Data Science Course](/courses/data-science-complete-masterclass-college)Coding and AI
 
 ## If an AI can run the outlier model, why should a City of Manningham learner understand it?
 
@@ -169,30 +180,139 @@ A learner who has run the model at three settings and set it beside a one-line d
 
 The City of Manningham learner who checks a model against a plain rule is the one who knows when to trust it. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How City of Manningham lessons run
 
 Lessons are live online, which saves a long drive in a council area without a railway.
 
-- **From home** The learner opens a link, shares a screen and builds with the teacher in real time.
-- **Victorian school year** Courses run in the Victorian terms and pause during state school holidays.
-- **Trial lesson** The free first lesson is a full class, and then we suggest a course and a weekly time.
-- **Small groups** Between five and ten learners share a group, matched by level.
-- **Regular schedule** Two lessons a week, about eight in a month, with breaks arranged in advance.
-- **Teachers in India** Teachers are based in India, so a 4:30pm Manningham lesson in summer is 11am India time, and noon after the clocks go back.
+### From home
 
-**Time zones** Melbourne's daylight saving runs from Sunday 4 October 2026 to Sunday 4 April 2027. India has no clock change, so lesson times are always confirmed in Melbourne time.
+The learner opens a link, shares a screen and builds with the teacher in real time.
+
+### Victorian school year
+
+Courses run in the Victorian terms and pause during state school holidays.
+
+### Trial lesson
+
+The free first lesson is a full class, and then we suggest a course and a weekly time.
+
+### Small groups
+
+Between five and ten learners share a group, matched by level.
+
+### Regular schedule
+
+Two lessons a week, about eight in a month, with breaks arranged in advance.
+
+### Teachers in India
+
+Teachers are based in India, so a 4:30pm Manningham lesson in summer is 11am India time, and noon after the clocks go back.
+
+Time zones
+
+Melbourne's daylight saving runs from Sunday 4 October 2026 to Sunday 4 April 2027. India has no clock change, so lesson times are always confirmed in Melbourne time.
+
+Fees
 
 ## City of Manningham class fees
 
 Three prices, given plainly.
 
-- First class: USD 0. The first lesson is free and closes with a direct recommendation.
-- Group tuition: USD 100 a month. A month of group lessons, normally eight, with fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. Close to eight private lessons each month.
+First class**USD 0**
+
+The first lesson is free and closes with a direct recommendation.
+
+Group tuition**USD 100**
+
+A month of group lessons, normally eight, with fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+Close to eight private lessons each month.
 
 Families outside India are charged in US dollars, so Manningham pays the same as any other family abroad. Charges begin only after the trial has decided the course and time; holidays, absences and format changes are on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20the%20City%20of%20Manningham.)Reviews
+
+## Families on Google about our lessons
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free City of Manningham class
+
+Give us the learner's age and an interest. A seven-year-old might begin with an odd-one-out game in Scratch; a Year 12 student might begin by fitting the outlier model to the school map.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented City of Manningham one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20the%20City%20of%20Manningham.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## City of Manningham AI and programming questions
+
+What City of Manningham parents and adult learners usually ask.
 
 ### How many people live in the City of Manningham?
 
@@ -234,10 +354,14 @@ Fifteen to twenty, grouped by level, pace and goals, with private lessons when n
 
 Yes. Adults join adult groups or learn privately, often to apply models to data they already handle at work.
 
+Explore Melbourne and Victoria
+
 ## More for City of Manningham learners
 
 In the council area, [Doncaster](/online-coding-and-python-classes-in-doncaster-melbourne) has a page with a bus timetable project. For younger children see [kids coding in Melbourne](/coding-classes-for-kids-melbourne), and for the whole state the [Victoria guide](/coding-and-ai-classes-in-victoria).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20the%20City%20of%20Manningham.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-manningham-melbourne](https://learn.modernagecoders.com/ai-and-programming-classes-in-manningham-melbourne#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-manningham-melbourne*

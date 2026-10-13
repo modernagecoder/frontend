@@ -4,56 +4,40 @@ description: "Live online vibe coding and AI agent classes for Applecross teenag
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-applecross-perth
 source: src/pages/vibe-coding-and-ai-agents-classes-in-applecross-perth.html
 ---
-> By asking questions an agent can check against data, and by rewarding answers that correct the question rather than please the asker. Our live online classes teach vibe coding and agents with that discipline. Applecross had 7,228 residents at the 2021 Census.
+> Live online vibe coding and AI agent classes for Applecross teenagers and adults, with Scratch and Python for younger learners, taught in small groups or one to one.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [Western Australia](/coding-and-ai-classes-in-western-australia) / [Perth](/online-coding-and-python-classes-in-perth-western-australia) / Applecross
-
-Applecross, City of Melville, Western Australia / Live online
-
-# Vibe coding and AI agent classes in Applecross
-
-**How can Applecross learners stop an AI agent agreeing with a wrong assumption?** By asking questions an agent can check against data, and by rewarding answers that correct the question rather than please the asker. Our live online classes teach vibe coding and agents with that discipline. Applecross had 7,228 residents at the 2021 Census.
-
-Ask "which train station is in Applecross?" and you have already assumed there is one. An agent eager to help may name a station that does not exist. The state stops file settles it: none of the 34 stop records inside Applecross is a rail stop.
-
-Facts last verified 13 October 2026. Teaching is online; no Applecross branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Applecross
 
 ## Courses that teach agents to check before agreeing
 
 This project needs prompting skill, a little Python and a habit of testing claims against data. These courses build it; a free first lesson chooses the right one.
 
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (University and adult): How language models answer, where they go wrong and how to ground them.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Building with AI, then testing what it says against real data.
-- [AI Tools Course for Teens (13+)](/courses/teens-ai-tools-mastery-course) (Ages 13 to 17): Getting reliable answers from AI tools and noticing when they guess.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Adults 18 and over): Coding agents for real work, with checks on every claim they make.
+[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)University and adultGenerative AI CourseHow language models answer, where they go wrong and how to ground them.See the syllabus](/courses/complete-generative-ai-masterclass-college)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensBuilding with AI, then testing what it says against real data.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![AI Tools Course for Teens (13+) course thumbnail](/images/ai-tools-kids.webp)Ages 13 to 17AI Tools Course for Teens (13+)Getting reliable answers from AI tools and noticing when they guess.See the syllabus](/courses/teens-ai-tools-mastery-course)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Adults 18 and overCodex & Claude CodeCoding agents for real work, with checks on every claim they make.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Applecross in the Census
 
 ## A riverside suburb that rides the bus
 
 A selection of 2021 Census QuickStats for the suburb of Applecross (ABS code SAL50022), next to the Western Australian figure.
 
-**Applecross basics, 2021**
-
 | Measure | Applecross |
-|---|---|
+| --- | --- |
 | Residents | 7,228 |
 | Median age | 44 |
 | Families | 2,063 |
 | Private dwellings | 3,304 |
 | People per household | 2.5 |
 
-**Applecross set against the state**
-
 | Indicator | Applecross | Western Australia |
-|---|---|---|
+| --- | --- | --- |
 | Workers who took a bus to work | 6.3% (226) | 2.9% |
 | Semi-detached, row or townhouse homes | 21.5% (599) | 13.0% |
 | Flats or apartments | 16.6% (462) | 6.5% |
@@ -73,14 +57,14 @@ Applecross covers about 3.2 square kilometres on the south bank of the Swan Rive
 
 Census figures are reproduced unchanged. The bureau's privacy adjustments mean small cells should not be added up, and we do not add them.
 
+Signature project
+
 ## The station that is not there
 
 We put one question to two scripted agents: "Which train station is in Applecross, and how many platforms does it have?" Both could read the state stops file. One was told to be helpful; the other was told to check every assumption in a question first.
 
-**What the stops file says (our calculation)**
-
 | Check | Result |
-|---|---|
+| --- | --- |
 | Stop records inside Applecross | 34 |
 | Of those, rail stop records | 0 |
 | Nearest rail records | Canning Bridge Stn platforms 1 and 2 |
@@ -88,10 +72,8 @@ We put one question to two scripted agents: "Which train station is in Applecros
 | Distance from the closest Applecross stop record | 540 m and 542 m |
 | Next nearest rail record | Bull Creek Stn, about 3.4 km |
 
-**The two scripted answers**
-
 | Agent | Answer |
-|---|---|
+| --- | --- |
 | Eager to please | Names an "Applecross Station" with two platforms |
 | Checks the premise | No station lies inside Applecross; the nearest platforms belong to Canning Bridge station, about 540 m away |
 
@@ -113,14 +95,14 @@ The useful answer here begins with "There is no station in Applecross". When bui
 
 Stop records are Public Transport Authority of Western Australia open data. Membership of Applecross, the distances (straight-line between stop points) and the label counts are our calculation. Both agents are scripts we wrote to show the two behaviours; they are not transcripts from any commercial AI model.
 
+Prompting and checking
+
 ## Testing an agent with false premises
 
 A handful of trick questions reveals more about an agent than a hundred easy ones.
 
-**A premise-testing routine**
-
 | Step | How | Applecross example |
-|---|---|---|
+| --- | --- | --- |
 | Write a false-premise question | Assume something the data contradicts | Which station is in Applecross? |
 | Give the agent the data | A tool or file it can query | The state stops file |
 | Score the answer | Did it correct the premise? | Yes: no rail records |
@@ -140,6 +122,8 @@ Before relying on an agent at work, check how it responds when a request contain
 
 Instructions such as "if the question rests on a false assumption, say so first" help, but they are not a guarantee. The evidence step, where the agent shows the count that supports its answer, is what makes the correction trustworthy.
 
+Around Applecross
+
 ## Canning Highway, Matheson Road and Kintail Road
 
 Local details from the state stops file and the WA school calendar.
@@ -156,16 +140,41 @@ Canning Highway and Matheson Road carry 11 stop records each, and Kintail Road 1
 
 WA public school Term 2 of 2027 begins on Monday 26 April and ends on Friday 2 July.
 
-**Applecross in the City of Melville** Figures here cover the suburb of Applecross only. By the ABS boundaries it touches Ardross, Alfred Cove and Mount Pleasant on land, and those suburbs keep their own figures.
+Applecross in the City of Melville
+
+Figures here cover the suburb of Applecross only. By the ABS boundaries it touches Ardross, Alfred Cove and Mount Pleasant on land, and those suburbs keep their own figures.
+
+Learning ladder
 
 ## From trick questions to grounded agents
 
 The ages below are only a starting guide; the trial lesson decides.
 
-- **Ages 6 to 10: Scratch and logic** Games, puzzles and spotting tricks. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)
-- **Ages 10 to 14: Python and AI literacy** First code and a clear-eyed view of AI. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)
-- **Ages 14 to 18: Vibe coding** Building with AI and testing its claims. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [AI Tools Course for Teens (13+)](/courses/teens-ai-tools-mastery-course)
-- **Adults 18 and over: Agents at work** Grounded, checkable agents for real tasks. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)
+Ages 6 to 10
+
+### Scratch and logic
+
+Games, puzzles and spotting tricks.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)Ages 10 to 14
+
+### Python and AI literacy
+
+First code and a clear-eyed view of AI.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)Ages 14 to 18
+
+### Vibe coding
+
+Building with AI and testing its claims.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[AI Tools Course for Teens (13+)](/courses/teens-ai-tools-mastery-course)Adults 18 and over
+
+### Agents at work
+
+Grounded, checkable agents for real tasks.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Vibe coding and agents
 
 ## If the agent always agrees, who corrects the question?
 
@@ -177,30 +186,139 @@ Learners who have watched one agent invent a station and another correct the pre
 
 In Applecross, the learner who checks the premise gets the truth, not a polite invention. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Applecross classes over video
 
 Lessons are taught live online, so learners never need to travel.
 
-- **Prompts on screen** Every question to an AI tool and every answer is read together and challenged.
-- **Aligned with school** Classes follow the WA school year and stop in the holidays.
-- **Free opening class** A full first lesson, then honest advice on the next step.
-- **Fifteen to twenty per class** Learners grouped by level, or taught on their own.
-- **Two each week** Regular slots that add up to about eight lessons monthly.
-- **India time** Teachers are based in India; a 3:30pm Applecross lesson is 1pm India time.
+### Prompts on screen
 
-**Unchanging lesson times** Western Australia's last daylight saving trial ended in March 2009 (IANA time zone database), and India never changes its clocks, so the timetable holds all year.
+Every question to an AI tool and every answer is read together and challenged.
+
+### Aligned with school
+
+Classes follow the WA school year and stop in the holidays.
+
+### Free opening class
+
+A full first lesson, then honest advice on the next step.
+
+### Fifteen to twenty per class
+
+Learners grouped by level, or taught on their own.
+
+### Two each week
+
+Regular slots that add up to about eight lessons monthly.
+
+### India time
+
+Teachers are based in India; a 3:30pm Applecross lesson is 1pm India time.
+
+Unchanging lesson times
+
+Western Australia's last daylight saving trial ended in March 2009 (IANA time zone database), and India never changes its clocks, so the timetable holds all year.
+
+Fees
 
 ## Applecross lesson fees
 
 Three clear prices.
 
-- First class: USD 0. The first lesson is free and ends with a recommendation in writing.
-- Group tuition: USD 100 a month. About eight live group lessons each month with fifteen to twenty learners.
-- Private tuition: USD 150 a month. About eight live private lessons each month with one teacher.
+First class**USD 0**
+
+The first lesson is free and ends with a recommendation in writing.
+
+Group tuition**USD 100**
+
+About eight live group lessons each month with fifteen to twenty learners.
+
+Private tuition**USD 150**
+
+About eight live private lessons each month with one teacher.
 
 Applecross learners pay in US dollars once the trial has fixed a course and time, never before. The pricing page explains holidays, absences and switching formats.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20class%20for%20a%20learner%20in%20Applecross.)Reviews
+
+## What our learners and parents write on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Applecross class
+
+Tell us the learner's age and interests. An older student might test agents with false-premise questions; a younger one might build a Scratch quiz with trick questions.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Applecross one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20class%20for%20a%20learner%20in%20Applecross.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Applecross vibe coding and agent questions
+
+Questions Applecross parents, students and professionals ask.
 
 ### How many people live in Applecross?
 
@@ -242,10 +360,14 @@ Fifteen to twenty learners at a similar level and pace, not sorted by age or sub
 
 No. Copilot Studio lessons are one to one only; groups develop agents in Python.
 
+Explore Perth and Western Australia
+
 ## More for Applecross learners
 
 Try [the Perth page](/online-coding-and-python-classes-in-perth-western-australia) for the city overall and [coding for Perth kids](/coding-classes-for-kids-perth) for children. In the far south, [Albany](/vibe-coding-and-ai-agents-classes-in-albany-wa) has its own agents page, and [the Western Australia guide](/coding-and-ai-classes-in-western-australia) covers the state.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20class%20for%20a%20learner%20in%20Applecross.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-applecross-perth](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-applecross-perth#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-applecross-perth*

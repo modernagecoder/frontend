@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths lessons for Glasnevin lea
 canonical: https://learn.modernagecoders.com/coding-classes-in-glasnevin-dublin
 source: src/pages/coding-classes-in-glasnevin-dublin.html
 ---
-> Glasnevin learners have a real teacher leading every lesson live over video, with a small group at their own level or one to one, two sessions in most weeks, and any age from six to sixty-seven is welcome. You never leave home for it. Lesson one is free; after that you pay USD 100 a month for a group place or USD 150 a month for private teaching.
+> Live online coding, Python, AI and maths lessons for Glasnevin learners aged 6 to 67, in small groups at one level or one to one. The first lesson is free of charge.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [Dublin](/best-coding-class-in-dublin) / Glasnevin
-
-Glasnevin, Dublin 9 / Live online
-
-# Coding classes in Glasnevin
-
-**What are the best coding classes in Glasnevin?** Glasnevin learners have a real teacher leading every lesson live over video, with a small group at their own level or one to one, two sessions in most weeks, and any age from six to sixty-seven is welcome. You never leave home for it. Lesson one is free; after that you pay USD 100 a month for a group place or USD 150 a month for private teaching.
-
-Met Éireann has measured temperature at its Glasnevin station since 1961, and 58 of the years since are complete. If nothing were changing, every year would be as likely as any other to be the warmest so far, and 58 years would set about 4.65 records for the warmest year by chance alone. Glasnevin's yearly average has set 10, three of them in the last 20 complete years, where chance would give less than half of one. This page teaches a learner where 4.65 comes from, how to test it by shuffling the years, and why the same test on the single hottest day tells a quieter story.
-
-Facts last verified 20 September 2026. Teaching is online; no Glasnevin branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Glasnevin
 
 ## Four first courses for Glasnevin
 
 Age is the first filter; the teacher then checks the level during the free lesson and points to a different course if it would suit better.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Blocks and a dice game: how often a new high score turns up when every roll is luck.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 13): Fractions that add up, 1 + 1/2 + 1/3 and onwards, computed and then tested in code.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 18): Python with a 65-year weather file: merging duplicate rows, counting records and shuffling to test them.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (College and adult): For adults who report records and firsts at work and want to know when one is really news.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlocks and a dice game: how often a new high score turns up when every roll is luck.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 13Maths Through CodingFractions that add up, 1 + 1/2 + 1/3 and onwards, computed and then tested in code.See the syllabus](/courses/maths-through-coding)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 18Data Science for TeensPython with a 65-year weather file: merging duplicate rows, counting records and shuffling to test them.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)College and adultData Analysis CourseFor adults who report records and firsts at work and want to know when one is really news.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## How many records should chance set? Sixty-five years at the Glasnevin station
 
 The data is Met Éireann's daily file for its Dublin (Glasnevin) station. A year counts here only if it has at least 350 days with both a maximum and a minimum temperature, which leaves 58 complete years between 1961 and 2025.
 
-**Records at Glasnevin in 58 complete years, 1961 to 2025**
-
 | What is measured each year | Records set | Expected with no trend | Latest record |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Average temperature for the year | 10 | 4.65 | 2023, 11.80 degrees |
 | Hottest day | 6 | 4.65 | 1990, 31.0 degrees |
 | Warmest night | 4 | 4.65 | 2006, 19.8 degrees |
@@ -79,14 +65,14 @@ Record lows turn up less often than chance would give. The coldest night set a r
 
 The records say recent years at Glasnevin have been warm; they do not say why, and one station is not the whole country. The shuffle test also treats years as independent, which neighbouring years are not quite.
 
+Glasnevin, named
+
 ## Glasnevin through its weather station, gardens, cemetery and university
 
 Every entry below comes from the body responsible for it.
 
-**Named places in Glasnevin**
-
 | Place | What its own source says |
-|---|---|
+| --- | --- |
 | Met Éireann weather station | Dublin (Glasnevin), 18 metres above sea level |
 | National Botanic Gardens | Glasnevin, Dublin 9, D09 VY63 |
 | Glasnevin Cemetery | Finglas Road, D11 XA32 |
@@ -104,7 +90,11 @@ Dublin Cemeteries Trust says Glasnevin Cemetery was established in 1832, covers 
 
 DCU gives D09 V209 as the default eircode for its Glasnevin Campus, used for post to the mailroom at the John and Aileen O'Reilly Library on Collins Avenue Extension.
 
-**What this page does not claim** No population is given for Glasnevin, because the page prints only what named bodies publish about the place. The temperature records describe one station. The Botanic Gardens' own website blocked automated reading, so its facts are taken from the OPW's Heritage Ireland page instead.
+What this page does not claim
+
+No population is given for Glasnevin, because the page prints only what named bodies publish about the place. The temperature records describe one station. The Botanic Gardens' own website blocked automated reading, so its facts are taken from the OPW's Heritage Ireland page instead.
+
+Learning here
 
 ## Two lessons in a Glasnevin learner's week
 
@@ -124,14 +114,37 @@ Adults are welcome with no experience; the first lesson chooses the course.
 
 Temperatures are Met Éireann's daily records for station 1823; the complete-year counts, record tallies, expected values and shuffle results were calculated by us on 20 September 2026. Garden, cemetery and university details come from the OPW, Dublin Cemeteries Trust and DCU.
 
+Learning ladder
+
 ## From a lucky high score to a tested claim
 
 Bands are approximate; the first lesson sets the actual level.
 
-- **Ages 6 to 10: New high score** Block-coded games that keep the top score so far and count how often it changes. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Adding fractions** Python that sums 1 + 1/2 + 1/3 and compares it with a simulated game. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Shuffle tests** Real weather files, merged rows, record counts and permutation tests. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Is it news?** Deciding whether a record, a first or an all-time high deserves attention. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### New high score
+
+Block-coded games that keep the top score so far and count how often it changes.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Adding fractions
+
+Python that sums 1 + 1/2 + 1/3 and compares it with a simulated game.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Shuffle tests
+
+Real weather files, merged rows, record counts and permutation tests.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Is it news?
+
+Deciding whether a record, a first or an all-time high deserves attention.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## Ask an assistant whether Glasnevin is getting warmer
 
@@ -143,30 +156,139 @@ The learner who has built this project checks the keys first, merges the duplica
 
 A record is only news next to the number chance would produce. Code lets you work that number out. The longer argument is in [why a young learner should start coding now](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How lessons run for Glasnevin
 
 What to expect.
 
-- **Teacher present** Lessons are taught in real time, with the teacher reviewing each learner's code and helping as it is written.
-- **Matched groups** Fifteen to twenty learners at one level, whether from Glasnevin, elsewhere in Ireland or another country.
-- **Regular slots** Two agreed days every week, adding up to about eight lessons a month.
-- **Holidays covered** The school holidays, mid-term breaks and exam weeks are planned around.
-- **Set-up** A laptop or desktop, a working microphone, headphones or speakers, and broadband able to carry video.
-- **Private lessons** One-to-one teaching for learners who are ahead, want more time or keep hours no group runs.
+### Teacher present
 
-**Taught online** Modern Age Coders has no building in Glasnevin or anywhere else in Ireland. Lessons take place live on video and are the same from any home.
+Lessons are taught in real time, with the teacher reviewing each learner's code and helping as it is written.
+
+### Matched groups
+
+Fifteen to twenty learners at one level, whether from Glasnevin, elsewhere in Ireland or another country.
+
+### Regular slots
+
+Two agreed days every week, adding up to about eight lessons a month.
+
+### Holidays covered
+
+The school holidays, mid-term breaks and exam weeks are planned around.
+
+### Set-up
+
+A laptop or desktop, a working microphone, headphones or speakers, and broadband able to carry video.
+
+### Private lessons
+
+One-to-one teaching for learners who are ahead, want more time or keep hours no group runs.
+
+Taught online
+
+Modern Age Coders has no building in Glasnevin or anywhere else in Ireland. Lessons take place live on video and are the same from any home.
+
+Fees
 
 ## Fees for Glasnevin
 
 Straightforward.
 
-- First class: USD 0. An opening lesson free of charge, including a level check.
-- Group tuition: USD 100 a month. A month in a same-level group of fifteen to twenty, roughly eight live lessons.
-- Private tuition: USD 150 a month. A month of one-to-one lessons at the same pace.
+First class**USD 0**
+
+An opening lesson free of charge, including a level check.
+
+Group tuition**USD 100**
+
+A month in a same-level group of fifteen to twenty, roughly eight live lessons.
+
+Private tuition**USD 150**
+
+A month of one-to-one lessons at the same pace.
 
 Families outside India all pay the same fee in US dollars, one month at a time. The free lesson carries no obligation, charges begin only with the course, and the pricing page explains holidays, missed lessons and changing between group and private teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Glasnevin.)Reviews
+
+## Six families on Google, in their own words
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free first lesson in Glasnevin
+
+Let us know the learner's age and what they are into, and the first lesson will be designed around it. They might finish with a small game, a working program, or a count of how often luck alone sets a record.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Glasnevin one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Glasnevin.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Glasnevin coding class questions
+
+Common questions from Glasnevin families.
 
 ### Is there a Modern Age Coders centre in Glasnevin?
 
@@ -204,10 +326,14 @@ The first lesson is free. After that a group place costs USD 100 a month for abo
 
 Fifteen to twenty learners, matched by level, pace and goals rather than by age or where they live. If no group runs at a workable time, lessons are one to one.
 
+Explore Ireland
+
 ## Around Glasnevin
 
 Next door, [Drumcondra](/coding-classes-in-drumcondra-dublin) has a project on a year of noise readings. The [Dublin](/best-coding-class-in-dublin) page covers the city, and the [Ireland hub](/coding-classes-in-ireland) collects every county, town and district.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Glasnevin.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-glasnevin-dublin](https://learn.modernagecoders.com/coding-classes-in-glasnevin-dublin#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-glasnevin-dublin*

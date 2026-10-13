@@ -12,7 +12,7 @@ Live Online Coding & Maths · Nager Bazar · Greater Dum Dum, North Kolkata
 
 Modern Age Coders runs premium live online coding and mathematics classes for families across Nager Bazar, Dum Dum Park, Bangur Avenue and the Patipukur–Jessore Road belt. Every class is taught live in small batches by full-time engineers and maths graduates, never pre-recorded. Children learn Python, Java, AI/ML and school maths from home, so you skip the Nager Bazar crossing and Jessore Road traffic entirely. Book a free demo class today.
 
-100% Live, never pre-recordedBatches of 15-20, up to 6 or 1-on-1Full-time engineer & maths-graduate tutorsICSE · CBSE · WBBSE · IGCSE ready100% LiveNever pre-recorded6-8Max per batchAges 6-67Kids to professionals₹1,499Starting fee/month[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)At a glance
+100% Live, never pre-recordedBatches of 15-20, up to 6 or 1-on-1Full-time engineer & maths-graduate tutorsICSE · CBSE · WBBSE · IGCSE ready100% LiveNever pre-recorded15-20Max per batchAges 6-67Kids to professionals₹1,499Starting fee/month[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)At a glance
 
 ## The essentials, in one place
 

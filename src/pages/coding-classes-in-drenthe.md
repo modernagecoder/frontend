@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes across Drenthe, ages 6 t
 canonical: https://learn.modernagecoders.com/coding-classes-in-drenthe
 source: src/pages/coding-classes-in-drenthe.html
 ---
-> Coding classes in Drenthe serve 508,109 people in twelve municipalities (Statistics Netherlands, 1 January 2026), on the emptiest land in the country at 192 to the square kilometre, with a quarter of the population over sixty-five. Fifty-two of the 54 hunebedden still visible in the Netherlands stand here, built between 3350 and 3050 BC, which makes them somewhere between 5,075 and 5,375 years old and not the single number every sign gives them. Modern Age Coders runs one live online class in English across all twelve, for learners from 6 to 67. The first lesson costs nothing; after it, a group of fifteen to twenty is USD 100 a month and one-to-one is USD 150.
+> Live online coding, Python and AI classes across Drenthe, ages 6 to 67: Emmen, Assen, Hoogeveen, Meppel, Coevorden, Tynaarlo and all 12 municipalities.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Drenthe
-
-Province of Drenthe / Live online
-
-# Coding classes in Drenthe, where five thousand years old is a range three centuries wide
-
-**What are the best coding classes in Drenthe?** Coding classes in Drenthe serve 508,109 people in twelve municipalities (Statistics Netherlands, 1 January 2026), on the emptiest land in the country at 192 to the square kilometre, with a quarter of the population over sixty-five. Fifty-two of the 54 hunebedden still visible in the Netherlands stand here, built between 3350 and 3050 BC, which makes them somewhere between 5,075 and 5,375 years old and not the single number every sign gives them. Modern Age Coders runs one live online class in English across all twelve, for learners from 6 to 67. The first lesson costs nothing; after it, a group of fifteen to twenty is USD 100 a month and one-to-one is USD 150.
-
-A sign at Borger says the stones are five thousand years old. The archaeology says they were raised between 3350 and 3050 BC, and a child who does the subtraction gets 5,376 for the older date, which is wrong by one, because the calendar goes from 1 BC to AD 1 with nothing in between. The child who writes the program that gets 5,375 and keeps the other end of the range at 5,075 has learned two things every date column in the world needs: that a range stays a range, and that there is no year zero.
-
-Facts last verified 7 September 2026. Teaching is online; no Drenthe branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Drenthe
 
 ## Four courses for a province of villages and two towns
 
 A groep 4 child in Beilen who plays Roblox and wants to make it instead, a teenager in Assen with an app idea and no way to build it, a student in Emmen who wants Python properly, and a parent in Meppel whose office has just discovered AI tools: four doors into a wide, quiet province.
 
-- [Roblox Game Coding for Kids](/courses/roblox-game-coding-for-kids-lua-course) (Ages 8 to 12): Real Lua inside Roblox Studio, in English, for the groep 5 to 8 child anywhere from Roden to Coevorden who wants a game other people can join.
-- [App Development for Teens](/courses/complete-app-development-masterclass-for-teens) (Ages 13 to 18): From idea to an app on a real phone, for the teenager in Assen or Hoogeveen whose school offers no route to it.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (College and adult): Python from nothing to advanced, live, for the NHL Stenden Emmen student or the adult who has decided this is the year.
-- [AI Tools Mastery Course](/courses/ai-tools-mastery-complete-college) (Adults): ChatGPT, Claude and automation used with judgement, for the parent in Meppel or Emmen whose employer has switched the tools on and left the rest to them.
+[![Roblox Game Coding for Kids course thumbnail](/images/roblox-coding-kids.webp)Ages 8 to 12Roblox Game Coding for KidsReal Lua inside Roblox Studio, in English, for the groep 5 to 8 child anywhere from Roden to Coevorden who wants a game other people can join.See the syllabus](/courses/roblox-game-coding-for-kids-lua-course)[![App Development for Teens course thumbnail](/images/app-dev-teens.webp)Ages 13 to 18App Development for TeensFrom idea to an app on a real phone, for the teenager in Assen or Hoogeveen whose school offers no route to it.See the syllabus](/courses/complete-app-development-masterclass-for-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)College and adultPython MasterclassPython from nothing to advanced, live, for the NHL Stenden Emmen student or the adult who has decided this is the year.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)[![AI Tools Mastery Course course thumbnail](/images/ai-tools-college.webp)AdultsAI Tools Mastery CourseChatGPT, Claude and automation used with judgement, for the parent in Meppel or Emmen whose employer has switched the tools on and left the rest to them.See the syllabus](/courses/ai-tools-mastery-complete-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Drenthe today
 
 ## Twelve municipalities, the emptiest land in the country, and the oldest monuments
 
@@ -52,7 +40,11 @@ Emmen holds 109,881 people, 21.6 percent of the province, and is the largest mun
 
 Of the 54 hunebedden still visible in the Netherlands, 52 stand in Drenthe, most of them along the Hondsrug, the long straight ridge that runs from Emmen towards Groningen. They were raised by the Funnel Beaker people between 3350 and 3050 BC, from an estimated 80 to 100 built. The largest, D27, is at Borger.
 
-**A province since 1815** Drenthe was a landschap, a territory without a vote in the States General, until the constitution of 1815 made it a full province. Twelve municipalities since 1998; the Hondsrug in the east; peat colonies in the south-east; sand, heath and forest through the middle; and the Drentsche Aa, one of the few rivers in the country that was never straightened.
+A province since 1815
+
+Drenthe was a landschap, a territory without a vote in the States General, until the constitution of 1815 made it a full province. Twelve municipalities since 1998; the Hondsrug in the east; peat colonies in the south-east; sand, heath and forest through the middle; and the Drentsche Aa, one of the few rivers in the country that was never straightened.
+
+The spread
 
 ## From Emmen to Westerveld: all twelve municipalities, by population
 
@@ -84,6 +76,8 @@ Midden-Drenthe 34,402, which is Beilen and the villages around it; De Wolden 24,
 
 Twelve, and every one is above. Emmen and Assen already have pages of their own and Hoogeveen will follow; this one keeps the whole province, radio telescopes and stone tombs included, in one view.
 
+Verified local facts
+
 ## The offices behind every number, and the one figure that is honestly a range
 
 The national count, the twelve registers, the province's own entry, and the entry on the hunebedden the project is built on.
@@ -114,6 +108,8 @@ Drenthe takes its school holidays with regio Noord, alongside Groningen, Friesla
 
 Modern Age Coders has no connection to the province, its twelve municipalities, the hunebed centre or any school named here, and none is suggested. They are on the page because a page that claims Drenthe should know how old Drenthe's oldest things are, and how precisely.
 
+Signature project
+
 ## How old is a hunebed? Build the program that keeps the range and finds the missing year
 
 One published date range, one calendar with a gap in it, and a table in which the number on the sign turns out to be two numbers and both of them are off by one when done the obvious way.
@@ -130,10 +126,8 @@ The obvious subtraction, 2026 minus minus 3350, gives 5,376. The learner then co
 
 The learner asks Python's date type for 1 January 3350 BC and it raises an error: the year is out of range, because the library counts from AD 1. The lesson is not that the library is wrong but that a date column can hold things the date type cannot, and that the programmer has to know which before the first row is loaded.
 
-**What the sign says, what the subtraction says, and what the calendar says**
-
 | Claim | Naive arithmetic | Correct value | Why they differ |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Age of a hunebed raised in 3350 BC, in 2026 | 2026 plus 3350 is 5,376 | 5,375 years | no year zero between 1 BC and AD 1 |
 | Age of a hunebed raised in 3050 BC, in 2026 | 2026 plus 3050 is 5,076 | 5,075 years | the same missing year |
 | "Five thousand years old" | one number | 5,075 to 5,375 years, a range 300 wide | the sign rounded a range to a point |
@@ -144,14 +138,14 @@ The learner asks Python's date type for 1 January 3350 BC and it raises an error
 
 Two quiet errors sit under almost every historical figure a child will read. The first is rounding a range to a point: the sources say 3350 to 3050 and the sign says five thousand, and three centuries of uncertainty vanish into a round number. The second is the year that does not exist: the historical calendar was drawn up without a zero, so every span that crosses from BC to AD is one year shorter than the subtraction gives, and every library that stores years as integers has to decide whether to know that. A learner who has carried the range through and found the missing year will read every "5,000 years old", every "founded in", and every date column with the right suspicion. The table was worked through before this paragraph was written; the dates and the counts are quoted from the entry, and every other figure in it is that arithmetic and nothing else.
 
+Reliable pipeline
+
 ## Five habits for any figure that arrives with a date in it
 
 Ages of buildings, durations of reigns, years since founding, the gap between two events in different eras: each is a subtraction that looks trivial and is not. Rehearsed first on the oldest things in the province.
 
-**When the input is a date, or two of them**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Store the range | Two columns for a dated range, never their midpoint | "Built around 3200 BC", a date no source gives | An answer as precise as the evidence and no more |
 | Sign the year | Keep BC years as negatives and say so in the column name | A 3350 mistaken for AD 3350 | Arithmetic that can run at all |
 | Mind the gap | Subtract one from every span that crosses from BC to AD | 5,376 for 5,375 | The right number of years |
@@ -172,14 +166,37 @@ The same discipline on a date column from work: founding years, contract spans, 
 
 The provincial totals, the twelve municipal counts, the areas, the dates and the tomb counts come from the offices and entries cited beside them. The corrected ages are the calendar rule applied to the published dates, shown as exactly that, and the page keeps the 80 to 100 as a range because that is how it was published.
 
+Learning ladder
+
 ## From a number line on the floor to a date function that knows the calendar has a hole
 
 Placement happens in the first free hour, and the twelve municipalities are not a variable in it.
 
-- **Ages 6 to 10: One step, not two** Children walk a number line from 1 BC to AD 1 and discover the year that is not there. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Roblox Game Coding for Kids](/courses/roblox-game-coding-for-kids-lua-course)
-- **Ages 11 to 13: Ranges that stay ranges** Learners store both ends of a dated range and carry them through to an age. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 14 to 18: Signed years and a refusing library** Teenagers write the crossing rule, hit the library's floor, and report a range 300 years wide honestly. [App Development for Teens](/courses/complete-app-development-masterclass-for-teens), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Date columns at work** Adults audit a "years since" figure they rely on and find the row that crosses a line. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [AI Tools Mastery Course](/courses/ai-tools-mastery-complete-college)
+Ages 6 to 10
+
+### One step, not two
+
+Children walk a number line from 1 BC to AD 1 and discover the year that is not there.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Roblox Game Coding for Kids](/courses/roblox-game-coding-for-kids-lua-course)Ages 11 to 13
+
+### Ranges that stay ranges
+
+Learners store both ends of a dated range and carry them through to an age.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### Signed years and a refusing library
+
+Teenagers write the crossing rule, hit the library's floor, and report a range 300 years wide honestly.
+
+[App Development for Teens](/courses/complete-app-development-masterclass-for-teens)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Date columns at work
+
+Adults audit a "years since" figure they rely on and find the row that crosses a line.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[AI Tools Mastery Course](/courses/ai-tools-mastery-complete-college)Coding and AI
 
 ## An AI will say the hunebedden are five thousand years old. Why should a child in Borger learn to say 5,075 to 5,375?
 
@@ -191,30 +208,139 @@ That habit is the whole product. The tool will write the date function on reques
 
 For a Drenthe parent, then, the case for coding in 2026 has nothing to do with archaeology. It rests on two habits, keeping a range as a range and counting years the way the calendar does, and on the fact that the surest way to acquire them is to run the arithmetic on the oldest things in the province and see it fail. The class exists to make that happen. The longer argument is in [whether coding is worth a child's time now that AI writes so much of it](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for a province where the nearest town is usually a drive
 
 Assen and Emmen are an hour apart, Meppel looks to Zwolle and Roden looks to Groningen, and most of the twelve municipalities are villages with a school and a supermarket. A class that comes in through the router does not need a town at all.
 
-- **The N34 and the A28 stay empty** The lesson is at home in Dwingeloo, Gieten or Zuidlaren at a fixed weekly hour, and nobody drives to Assen for it.
-- **English, with school Dutch as the school says it** Teaching is in English; groep, havo, vwo and profielkeuze are left in Dutch because that is how the child hears them at school, and nothing is translated in either direction.
-- **The first hour and what comes out of it** One task pitched at the learner's level, a course chosen from how it went, and a first rung, and nobody is asked for a card to set it up.
-- **Placed by ability** Groups are formed from level and aim, never from address; Emmen, the Hondsrug and the heath sit together.
-- **Twice a week, on regio Noord's year** Two fixed lessons a week, normally eight in a month. Drenthe's summer holiday follows regio Noord, and the family's weeks away are written into the plan before the slot is confirmed.
-- **Half past three, or half past four, behind** Drenthe runs three and a half hours behind the teacher from late March to late October and four and a half hours behind for the rest of the year, because only one of the two countries changes its clocks. Late afternoons, early evenings and weekends are open at both ends.
+### The N34 and the A28 stay empty
 
-**One resident in four is over sixty-five, and the class goes to sixty-seven** Drenthe has more retired people, as a share, than any province on this site, and the upper end of the age range this class serves is not decorative. The adult pipeline on this page is built for a sixty-year-old in Westerveld as much as for a ten-year-old in Emmen, and the free first hour is the same for both.
+The lesson is at home in Dwingeloo, Gieten or Zuidlaren at a fixed weekly hour, and nobody drives to Assen for it.
+
+### English, with school Dutch as the school says it
+
+Teaching is in English; groep, havo, vwo and profielkeuze are left in Dutch because that is how the child hears them at school, and nothing is translated in either direction.
+
+### The first hour and what comes out of it
+
+One task pitched at the learner's level, a course chosen from how it went, and a first rung, and nobody is asked for a card to set it up.
+
+### Placed by ability
+
+Groups are formed from level and aim, never from address; Emmen, the Hondsrug and the heath sit together.
+
+### Twice a week, on regio Noord's year
+
+Two fixed lessons a week, normally eight in a month. Drenthe's summer holiday follows regio Noord, and the family's weeks away are written into the plan before the slot is confirmed.
+
+### Half past three, or half past four, behind
+
+Drenthe runs three and a half hours behind the teacher from late March to late October and four and a half hours behind for the rest of the year, because only one of the two countries changes its clocks. Late afternoons, early evenings and weekends are open at both ends.
+
+One resident in four is over sixty-five, and the class goes to sixty-seven
+
+Drenthe has more retired people, as a share, than any province on this site, and the upper end of the age range this class serves is not decorative. The adult pipeline on this page is built for a sixty-year-old in Westerveld as much as for a ten-year-old in Emmen, and the free first hour is the same for both.
+
+Fees
 
 ## Twelve municipalities, one figure in dollars, and the first hour free
 
 Set out here before anything about you is asked.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 There is one price outside India and it is in dollars; there is no euro price, and Westerveld is charged exactly what Emmen is. Nothing is paid until the free lesson has fixed the course and the hour, and then it is paid over WhatsApp. Pausing, switching plan and missing a lesson are all explained on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Drenthe.)Reviews
+
+## Six Google reviews, reproduced as written
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Give us the level; the village is optional
+
+The first task might be a number line on the floor, a date function in Python that has to cross from BC to AD, or a "years since" column from work that has never been checked for the row that crosses a line.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Drenthe one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Drenthe.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Drenthe coding class questions
+
+The province, its towns, the stones, the teaching and the terms.
 
 ### How old are the hunebedden, really?
 
@@ -256,10 +382,14 @@ The first lesson is free. Group tuition is USD 100 a month for two live lessons 
 
 Between five and ten, matched on level, pace and goal rather than on age, school or municipality. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.
 
+Explore the Netherlands
+
 ## North to the city, south to the river, and up to the country
 
 North along the Hondsrug is the [province of Groningen](/coding-classes-in-groningen-province), with the earthquake scale nobody reads correctly; south past Meppel is [Overijssel](/coding-classes-in-overijssel) and its dike arithmetic; west across the Stellingwerven is [Friesland](/coding-classes-in-friesland), the province with two names. The three, and this page, are children of the [Netherlands coding hub](/coding-classes-in-netherlands); a learner after models rather than programs should head for [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands). [Emmen](/coding-classes-in-emmen) and [Assen](/coding-classes-in-assen) are now built; Hoogeveen follows.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Drenthe.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-drenthe](https://learn.modernagecoders.com/coding-classes-in-drenthe#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-drenthe*

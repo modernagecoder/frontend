@@ -4,34 +4,28 @@ description: "Australian Mathematics Competition practice by year: AMC divisions
 canonical: https://learn.modernagecoders.com/australian-mathematics-competition-practice-by-year
 source: src/pages/australian-mathematics-competition-practice-by-year.html
 ---
-> The Australian Mathematics Competition is run by the Australian Maths Trust for Years 3 to 12 in five divisions, with an Early Primary paper for Years 1 and 2 joining from 2027. In 2026 it ran from Tuesday 4 to Thursday 6 August. Each paper has 30 questions, 25 multiple-choice, 5 integer, worth up to 135 marks, with 60 minutes for primary and 75 for secondary divisions.
+> Australian Mathematics Competition practice by year: AMC divisions from Years 3 to 12, the 2026 format and scoring from the AMT, and a plan that uses the marks well.
 
-[Home](/) / [Australian competitions calendar](/australian-coding-maths-and-ai-competitions-calendar) / AMC practice by year
+In short
 
-Australia · Australian Mathematics Competition · Years 1 to 12
+The Australian Mathematics Competition is run by the Australian Maths Trust for Years 3 to 12 in five divisions, with an Early Primary paper for Years 1 and 2 joining from 2027. In 2026 it ran from Tuesday 4 to Thursday 6 August. Each paper has 30 questions, 25 multiple-choice, 5 integer, worth up to 135 marks, with 60 minutes for primary and 75 for secondary divisions.
 
-# AMC practice by year
-
-The Australian Mathematics Competition is the maths contest most Australian students meet first. The Australian Maths Trust says it was first run in 1978 and calls it the country's longest running and largest competition for school students. Every division sits a paper of thirty questions, but a Year 3 paper and a Year 12 paper ask for very different preparation. This page sets out the divisions, timing and scoring from the Trust's own page, explains what the scoring rules mean for how a student should spend the time, and gives practice priorities year by year. We are an independent online school; the AMC is the Trust's, and so are its papers.
-
-At a glance: Run by: Australian Maths Trust; 2026 dates: Tuesday 4 to Thursday 6 August; Divisions: Years 3 and 4 up to Years 11 and 12; New for 2027: Early Primary, Years 1 and 2; Questions: 30: 25 multiple choice, 5 integer; Time: 60 min primary, 75 min secondary; Total: 135 marks, no penalty for wrong answers; Delivery: Online or printed paper. Rated 4.9 across 547 Google reviews.
+For AMC preparation
 
 ## Three courses for AMC students
 
 Number sense for primary divisions, problem solving for the middle years, and full competition maths for seniors.
 
-- [Number sense for primary](/courses/mental-maths-mastery-kids): Place value, estimation and quick reasoning, the base of every Middle and Upper Primary paper.
-- [Competition maths](/courses/olympiad-competition-mathematics-mastery): Counting, geometry, number theory and logic, taught as problem solving for Junior to Senior divisions.
-- [Algebra for the middle years](/courses/algebra-foundations-masterclass): The pre-algebra and algebra the AMC topic list names, so harder questions stop looking strange.
+[![Mental Maths for Kids course thumbnail](/images/mental-maths-kids.webp)  AMCY / 01 Number sense for primary Place value, estimation and quick reasoning, the base of every Middle and Upper Primary paper. Open the syllabus →](/courses/mental-maths-mastery-kids)[![Maths Olympiad & Competition Course course thumbnail](/images/olympiad-competition-maths.webp)  AMCY / 02 Competition maths Counting, geometry, number theory and logic, taught as problem solving for Junior to Senior divisions. Open the syllabus →](/courses/olympiad-competition-mathematics-mastery)[![Algebra Foundations course thumbnail](/images/algebra-foundations.webp)  AMCY / 03 Algebra for the middle years The pre-algebra and algebra the AMC topic list names, so harder questions stop looking strange. Open the syllabus →](/courses/algebra-foundations-masterclass)
+
+Who sits what
 
 ## AMC divisions and the 2026 paper, from the Trust
 
 Every fact in this section is taken from the Australian Maths Trust's AMC page, read on 7 October 2026.
 
-**AMC divisions and timing, as published by the AMT**
-
 | Division | Australian years | Time allowed |
-|---|---|---|
+| --- | --- | --- |
 | Early Primary (pilot in 2026, standard from 2027) | Years 1 and 2 | 50 minutes, 25 questions |
 | Middle Primary | Years 3 and 4 | 60 minutes |
 | Upper Primary | Years 5 and 6 | 60 minutes |
@@ -49,14 +43,14 @@ The Trust publishes free sample sets for each division, "6 problems and worked s
 
 Source: Australian Maths Trust, [Australian Mathematics Competition](https://amt.edu.au/amc), read on 7 October 2026. We have no connection with the AMT.
 
+Marks and awards
+
 ## How the AMC is scored
 
 Later questions are worth more, the last five have number answers, and a wrong answer costs nothing.
 
-**AMC scoring, from the AMT page (marks per question and per block)**
-
 | Questions | Marks each | Block total |
-|---|---|---|
+| --- | --- | --- |
 | 1 to 10 | 3 | 30 |
 | 11 to 20 | 4 | 40 |
 | 21 to 25 | 5 | 25 |
@@ -72,6 +66,8 @@ Because awards compare a student with others in the same year and region, cut-of
 What the scoring does reward is a sensible plan for the time, which is the lesson below.
 
 Scoring, awards and cut-off wording quoted from the AMT's [AMC page](https://amt.edu.au/amc), read on 7 October 2026.
+
+A lesson on the scoring
 
 ## Expected marks: why no penalty changes how to spend the time
 
@@ -89,10 +85,8 @@ On a multiple-choice question, a blank earns nothing and so does a wrong answer.
 
 Across questions 21 to 25, narrowing each to two choices adds 12.5 marks on average to a student who could not finish them, which is not a trick but a direct consequence of the Trust's rule. Getting rid of wrong choices is a real mathematical skill, often the quickest way into a hard question.
 
-**Expected marks from a choice between two remaining options (our arithmetic; one correct answer per question assumed)**
-
 | Question block | Marks each | Expected marks per question | Expected over the block |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 11 to 20 | 4 | 2 | 20 |
 | 21 to 25 | 5 | 2.5 | 12.5 |
 | 26 to 30 (integer) | 6 to 10 | Close to zero: no choices to narrow | Only from working it out |
@@ -101,14 +95,14 @@ The habit we teach is simple. Work the early questions carefully, leave none bla
 
 Arithmetic is ours, based on the scoring and the no-penalty rule published on the AMT's [AMC page](https://amt.edu.au/amc). The number of choices per multiple-choice question is not stated on that page, so the table assumes only that two remain after elimination.
 
+Year by year
+
 ## What each division should practise
 
 These priorities are our teaching advice, built on the Trust's topic list and our experience with each age group.
 
-**Practice priorities by division (our advice)**
-
 | Division | Years | Practise first | Common trap |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Early Primary | 1 and 2 | Counting, patterns, simple shapes | Reading the question too quickly |
 | Middle Primary | 3 and 4 | Place value, simple fractions, systematic counting | Missing a case when listing possibilities |
 | Upper Primary | 5 and 6 | Fractions and ratios, area and perimeter, working backwards | Mixing up units in measurement questions |
@@ -124,14 +118,14 @@ Our classes group students by division and teach the mathematics behind the AMC 
 
 If a child is anxious about the competition, it helps to remember that every student receives an award certificate at some level, and that the AMC is meant as a challenge, not a test of worth.
 
+Building towards the AMC
+
 ## Four stages of competition readiness
 
 Stages describe how a student handles unfamiliar problems, whatever their year.
 
-**Competition readiness, stage by stage**
-
 | Stage | Focus | The sign it is secure |
-|---|---|---|
+| --- | --- | --- |
 | 1. Calm reading | Understanding what is asked | Restates a question in their own words before starting |
 | 2. Systematic work | Lists, tables and cases | Counts possibilities without missing or repeating any |
 | 3. Elimination | Ruling out impossible choices | Narrows a hard question to two options quickly |
@@ -140,63 +134,293 @@ Stages describe how a student handles unfamiliar problems, whatever their year.
 ### If competition maths feels unfamiliar
 
 AMC questions often look unlike classwork. That is normal; it is a different kind of thinking that improves quickly with regular practice.
+
 Twenty minutes twice a week does more than a long session the night before.
 
 ### More from the Trust
 
 Our [AMT competitions page](/australian-maths-trust-amc-aio-cat-preparation) compares the AMC with the AIO and CAT.
+
 The [Maths Challenge page](/maths-challenge-for-young-australians-practice) covers the Trust's team problem-solving module.
+
+The catalogue
 
 ## Nine courses for AMC students
 
 Grouped by division. Each card opens the full outline.
 
+I
+
 ### Primary divisions
 
 Years 1 to 6
 
-- [Mental maths](/courses/mental-maths-mastery-kids): Number sense for quick reasoning.
-- [Primary maths](/courses/elementary-mathematics-complete-masterclass): All strands, with reasoning out loud.
-- [Problem solving for kids](/courses/problem-solving-and-computational-thinking-for-kids): Patterns and systematic counting.
+AMCY / P / 01
+
+#### Mental maths
+
+Number sense for quick reasoning.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+AMCY / P / 02
+
+#### Primary maths
+
+All strands, with reasoning out loud.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+AMCY / P / 03
+
+#### Problem solving for kids
+
+Patterns and systematic counting.
+
+[Open the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)II
 
 ### Junior and Intermediate
 
 Years 7 to 10
 
-- [Middle years maths](/courses/comprehensive-middle-school-mathematics-mastery): The content the middle divisions draw on.
-- [Algebra foundations](/courses/algebra-foundations-masterclass): Pre-algebra to equations.
-- [Statistics and probability](/courses/statistics-probability-maths-course): Chance and counting with care.
+AMCY / M / 01
+
+#### Middle years maths
+
+The content the middle divisions draw on.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+AMCY / M / 02
+
+#### Algebra foundations
+
+Pre-algebra to equations.
+
+[Open the syllabus](/courses/algebra-foundations-masterclass)
+
+AMCY / M / 03
+
+#### Statistics and probability
+
+Chance and counting with care.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)III
 
 ### Senior and stretch
 
 Years 11 and 12 and keen younger students
 
-- [Competition maths](/courses/olympiad-competition-mathematics-mastery): Full problem-solving training.
-- [Senior maths](/courses/complete-high-school-mathematics-mastery): The algebra and geometry seniors need.
-- [Maths through coding](/courses/maths-through-coding): Exploring counting problems in Python.
+AMCY / S / 01
+
+#### Competition maths
+
+Full problem-solving training.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)
+
+AMCY / S / 02
+
+#### Senior maths
+
+The algebra and geometry seniors need.
+
+[Open the syllabus](/courses/complete-high-school-mathematics-mastery)
+
+AMCY / S / 03
+
+#### Maths through coding
+
+Exploring counting problems in Python.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+How lessons run
 
 ## Live competition maths classes for Australian students
 
 Our teachers work from India, which sits behind every Australian time zone. A 4 pm lesson in Darwin begins at 12 noon India time all year, as the Northern Territory has no daylight saving.
 
-- **Terms 2 and 3** Weekly preparation leading up to August.
-- **Weekend practice papers** Timed sample sets with review.
-- **School holidays** Short blocks on one topic, such as counting.
+Terms 2 and 3
 
-- **Read, then plan** Students decide how to approach a question before calculating.
-- **Eliminate first** Impossible answers are ruled out with reasons.
-- **Groups by division** Fifteen to twenty students sitting the same paper.
-- **One-to-one option** For students aiming at the hardest questions.
-- **Short parent notes** One strategy learned and one problem to try at home.
-- **No award promises** We teach maths; the result belongs to the student.
+Weekly preparation leading up to August.
+
+Weekend practice papers
+
+Timed sample sets with review.
+
+School holidays
+
+Short blocks on one topic, such as counting.
+
+### Read, then plan
+
+Students decide how to approach a question before calculating.
+
+### Eliminate first
+
+Impossible answers are ruled out with reasons.
+
+### Groups by division
+
+Fifteen to twenty students sitting the same paper.
+
+### One-to-one option
+
+For students aiming at the hardest questions.
+
+### Short parent notes
+
+One strategy learned and one problem to try at home.
+
+### No award promises
+
+We teach maths; the result belongs to the student.
+
+Student work
+
+## Projects our students made
+
+Built by learners for their own reasons, not for a competition. The full list is in the [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Australian families are billed monthly in US dollars, our standard rate outside India, with no deposit and the option to stop at any month end. AMC entry is arranged and paid through schools.
 
-- Free first class: USD 0. A real lesson with a teacher. An honest view of competition readiness. No card details.
-- Group batch: USD 100 a month. Fifteen to twenty students in one division. The same teacher every week. Problems reviewed and discussed. A certificate at the end.
-- One to one: USD 150 a month. A teacher for one student. Focused on chosen topics. A weekly time that suits you.
+Free first class
+
+USD 0
+
+no card required
+
+- A real lesson with a teacher
+- An honest view of competition readiness
+- No card details
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students in one division
+- The same teacher every week
+- Problems reviewed and discussed
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one student
+- Focused on chosen topics
+- A weekly time that suits you
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Parents' reviews, quoted exactly from Google.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about the AMC
 
 ## What Australian families ask
 
@@ -240,15 +464,54 @@ Entry is normally arranged through schools. Check with your school's maths coord
 
 No. We are an independent online school, quoting the Trust because it runs the competition.
 
+Related pages
+
 ## More competition maths in Australia
 
-- [AMC, AIO and CAT preparation](/australian-maths-trust-amc-aio-cat-preparation): Three Trust competitions compared.
-- [Maths Challenge practice](/maths-challenge-for-young-australians-practice): The Trust's team problem-solving module.
-- [APSMO Maths Olympiad](/apsmo-maths-olympiad-practice): Another primary and middle-years contest.
-- [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar): Every contest through the year.
-- [Maths olympiad tutoring](/math-olympiad-amc-tutoring): For students who want harder problems.
-- [Maths tutoring in Australia](/online-maths-tutoring-australia): Our main maths page for Australia.
+The Trust's other contests and our wider maths pages.
 
-## Contact
+### [AMC, AIO and CAT preparation](/australian-maths-trust-amc-aio-cat-preparation)
 
-Book the free first class at [https://learn.modernagecoders.com/australian-mathematics-competition-practice-by-year](https://learn.modernagecoders.com/australian-mathematics-competition-practice-by-year#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Three Trust competitions compared.
+
+### [Maths Challenge practice](/maths-challenge-for-young-australians-practice)
+
+The Trust's team problem-solving module.
+
+### [APSMO Maths Olympiad](/apsmo-maths-olympiad-practice)
+
+Another primary and middle-years contest.
+
+### [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar)
+
+Every contest through the year.
+
+### [Maths olympiad tutoring](/math-olympiad-amc-tutoring)
+
+For students who want harder problems.
+
+### [Maths tutoring in Australia](/online-maths-tutoring-australia)
+
+Our main maths page for Australia.
+
+Start here
+
+## Book a free AMC preparation class
+
+Tell us the year level and whether the AMC is coming up. The free class works through competition-style problems at the right division and ends with honest advice.
+
+Prefer to browse first? The [course atlas](/course-atlas) lists every course, and [how we teach](/how-we-teach) explains a lesson.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20class%20to%20prepare%20for%20the%20Australian%20Mathematics%20Competition.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+A WhatsApp message is usually quickest. Our number starts +91 as the school runs from India, with no office in Australia.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/australian-mathematics-competition-practice-by-year*

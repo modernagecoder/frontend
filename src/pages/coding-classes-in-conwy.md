@@ -4,46 +4,32 @@ description: "Live online coding, Python and maths classes across Conwy county b
 canonical: https://learn.modernagecoders.com/coding-classes-in-conwy
 source: src/pages/coding-classes-in-conwy.html
 ---
-> Conwy county borough had 114,741 usual residents at the 2021 census. Colwyn Bay is its largest built-up area, then Conwy and Llandudno, with Kinmel Bay, Abergele, Penrhyn Bay and Llanfairfechan among the rest, and towns such as Llanrwst and Betws-y-Coed. Lessons run live over video with our teachers in India, and a free first session finds each learner's level, from a Year 1 pupil to a Year 13 student or an adult. Coding, Python and maths are open to anyone between 6 and 67, in classes of fifteen to twenty or one-to-one. The Conwy project starts at Robert Stephenson's tubular railway bridge. Families who continue pay USD 100 monthly for group lessons or USD 150 monthly for a personal tutor.
+> Live online coding, Python and maths classes across Conwy county borough, from Colwyn Bay, Conwy and Llandudno to Abergele, Kinmel Bay and Llanrwst.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Conwy county borough
-
-Conwy county borough / Live online
-
-# Coding classes in Conwy county borough
-
-**What are the best coding classes in Conwy?** Conwy county borough had 114,741 usual residents at the 2021 census. Colwyn Bay is its largest built-up area, then Conwy and Llandudno, with Kinmel Bay, Abergele, Penrhyn Bay and Llanfairfechan among the rest, and towns such as Llanrwst and Betws-y-Coed. Lessons run live over video with our teachers in India, and a free first session finds each learner's level, from a Year 1 pupil to a Year 13 student or an adult. Coding, Python and maths are open to anyone between 6 and 67, in classes of fifteen to twenty or one-to-one. The Conwy project starts at Robert Stephenson's tubular railway bridge. Families who continue pay USD 100 monthly for group lessons or USD 150 monthly for a personal tutor.
-
-In Conwy, Cadw lists the Tubular Railway Bridge at Grade I. Built from 1846 to 1849 by Robert Stephenson with William Fairbairn and E. Hodgkinson, it carries the railway inside wrought-iron tubes, and the record says it pioneered box-girder construction, like the Britannia Bridge across the Menai Strait. It was first meant to be a suspension bridge, and in 1899 intermediate piers were added. Two questions follow for anyone who likes numbers. Why would engineers wrap a railway in a hollow box rather than lay it on solid bars? And why would one extra support in the middle matter so much? This page's project answers both in Python with invented sizes.
-
-Facts last verified 26 September 2026. Teaching is online; no Conwy county borough branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Conwy
 
 ## First courses across Conwy county borough
 
 A Year 3 pupil in Llandudno who builds bridges from card, a Year 7 in Colwyn Bay ready for Python, a Year 12 in Abergele taking A level maths, and an adult in Conwy retraining as an engineer. A free lesson starts each of them off.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 12): Block coding with building, stacking and testing games.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): Powers, areas and scaling, discovered by coding them.
-- [High School Mathematics](/courses/complete-high-school-mathematics-mastery) (Ages 14 to 18): Secondary maths in depth, from powers and polynomials to calculus.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Adults): Python for adults from zero, up to engineering calculations and plots.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 12Coding for KidsBlock coding with building, stacking and testing games.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingPowers, areas and scaling, discovered by coding them.See the syllabus](/courses/maths-through-coding)[![High School Mathematics course thumbnail](/images/high-school-maths.webp)Ages 14 to 18High School MathematicsSecondary maths in depth, from powers and polynomials to calculus.See the syllabus](/courses/complete-high-school-mathematics-mastery)[![Python Masterclass course thumbnail](/images/python-college.webp)AdultsPython MasterclassPython for adults from zero, up to engineering calculations and plots.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Conwy county borough in figures
 
 ## 114,741 people in Conwy county borough
 
 Census 2021 counted 114,741 usual residents in the county borough, according to ONS data read through Nomis. The towns listed are ONS built-up areas from the same census.
 
-**Built-up areas in Conwy county borough over 2,500 people, ONS 2021**
-
 | Place | Usual residents | Place | Usual residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Colwyn Bay | 29,275 | Abergele | 8,535 |
 | Conwy | 15,715 | Penrhyn Bay | 4,200 |
 | Llandudno | 14,710 | Llanfairfechan | 3,545 |
@@ -55,16 +41,16 @@ Our own sums of census output areas match each published figure to within about 
 
 The city of [Bangor](/best-coding-class-in-bangor-wales) has its own page. For exams, see [GCSE Maths and Numeracy in Wales](/gcse-maths-and-numeracy-wales-help) and [WJEC GCSE Computer Science](/wjec-gcse-computer-science-help-wales).
 
+The Conwy project
+
 ## Same iron, three shapes
 
 Why depth beats bulk, and why span matters to the fourth power.
 
 All the sizes in the model are invented. The learner takes a fixed amount of iron, a cross-section of about 0.48 square metres, and arranges it three ways: as a solid square bar, as a wide flat plate, and as a hollow box 4.5 metres wide and 7.5 metres deep with walls 20 millimetres thick. How much a beam resists bending depends on a quantity called the second moment of area, which grows with the cube of the depth, because metal far from the middle does most of the work. The program computes it for each shape.
 
-**Our invented sections with the same amount of iron, 26 September 2026**
-
 | Shape | Second moment of area | Stiffness compared with the box |
-|---|---|---|
+| --- | --- | --- |
 | Hollow box, 4.5 m by 7.5 m, 20 mm walls | 3.902 m4 | Reference |
 | Solid square bar, 0.69 m across | 0.0191 m4 | 205 times less stiff |
 | Flat plate, 4.5 m wide | 0.000451 m4 | About 8,700 times less stiff |
@@ -89,14 +75,14 @@ Use the sag formula, confirm the fourth-power law, and model the middle support 
 
 The history and construction type come from Cadw's record. Every dimension, load and material value in our model is invented or typical, and none of the numbers describe the real Conwy bridge.
 
+Why the tubular bridge
+
 ## A Grade I work of Victorian engineering
 
 What Cadw's record says.
 
-**Tubular Railway Bridge, Conwy, Cadw listed building record 3236, Grade I**
-
 | Record detail | What it says |
-|---|---|
+| --- | --- |
 | Built | 1846 to 1849 on the Chester to Holyhead railway |
 | Engineers | Robert Stephenson with William Fairbairn and E. Hodgkinson; architect Francis Thompson |
 | Innovation | Pioneered wrought-iron box-girder construction, like the Britannia Bridge |
@@ -108,14 +94,37 @@ Box sections are everywhere once you look: aircraft wings, car chassis rails, bi
 
 We have no connection with Cadw or Conwy County Borough Council. The record's content is Cadw's; the model, its numbers and any mistakes are ours.
 
+Learning path
+
 ## From paper bridges to beam theory
 
 Read the year bands loosely; where each learner starts is decided in the trial lesson.
 
-- **Years 1 to 4: Build and test** Block coding with building games and simple experiments. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 5 to 8: Shapes and powers** Typed Python with areas, powers and comparisons. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Engineering maths** Polynomials, calculus and modelling alongside WJEC GCSE and A level courses. [High School Mathematics](/courses/complete-high-school-mathematics-mastery), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Calculations that matter** Python for adults, from quick sums to engineering scripts. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Years 1 to 4
+
+### Build and test
+
+Block coding with building games and simple experiments.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 5 to 8
+
+### Shapes and powers
+
+Typed Python with areas, powers and comparisons.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Engineering maths
+
+Polynomials, calculus and modelling alongside WJEC GCSE and A level courses.
+
+[High School Mathematics](/courses/complete-high-school-mathematics-mastery)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Calculations that matter
+
+Python for adults, from quick sums to engineering scripts.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)AI and scaling
 
 ## An AI can size a beam in seconds. Will it respect the fourth power?
 
@@ -127,30 +136,139 @@ A Conwy learner who has checked the fourth-power law in code knows to test how a
 
 Checking how a quantity really scales before trusting it: that is a reason for Conwy teenagers to keep coding in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How lessons run
+
 ## From Llandudno to Llanrwst, lessons at home
 
 Every town and village in the county borough joins by video.
 
-- **Writing, not watching** The learner builds each program; the teacher reads along on the shared screen and asks the question that moves things on.
-- **Welsh years, WJEC courses** A Penmaenmawr Year 6 or a Colwyn Bay Year 11 is placed by year and the Curriculum for Wales, with WJEC names for exams. We teach in English.
-- **A free first session** One whole lesson for nothing, then honest advice.
-- **Level first, then the group** Each class gathers fifteen to twenty learners with matching skills, whatever town or country they log in from.
-- **Term-time lessons** Twice a week in term, with the holidays free.
-- **Clock changes, sorted** Whatever the British clocks do in March and October, your lesson stays at its UK hour.
+### Writing, not watching
 
-**Why groups reach across towns** Five learners at one level, free at the same time, rarely live in one Welsh town. Grouping by level gives a pupil in Kinmel Bay or Llanfairfechan a class that fits.
+The learner builds each program; the teacher reads along on the shared screen and asks the question that moves things on.
+
+### Welsh years, WJEC courses
+
+A Penmaenmawr Year 6 or a Colwyn Bay Year 11 is placed by year and the Curriculum for Wales, with WJEC names for exams. We teach in English.
+
+### A free first session
+
+One whole lesson for nothing, then honest advice.
+
+### Level first, then the group
+
+Each class gathers fifteen to twenty learners with matching skills, whatever town or country they log in from.
+
+### Term-time lessons
+
+Twice a week in term, with the holidays free.
+
+### Clock changes, sorted
+
+Whatever the British clocks do in March and October, your lesson stays at its UK hour.
+
+Why groups reach across towns
+
+Five learners at one level, free at the same time, rarely live in one Welsh town. Grouping by level gives a pupil in Kinmel Bay or Llanfairfechan a class that fits.
+
+Fees
 
 ## Fees in Conwy county borough
 
 Colwyn Bay or Betws-y-Coed, the fee is identical, the same as everywhere we teach outside India.
 
-- First class: USD 0. A complete free lesson, then our recommendation.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty.
-- Private tuition: USD 150 a month. About eight lessons a month, one-to-one.
+First class**USD 0**
+
+A complete free lesson, then our recommendation.
+
+Group tuition**USD 100**
+
+About eight lessons a month in a group of fifteen to twenty.
+
+Private tuition**USD 150**
+
+About eight lessons a month, one-to-one.
 
 Fees are charged in US dollars; there is no sterling list. Nothing is charged until the trial has fixed a course and weekly slot; for holidays, absences and moving between formats, see the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Conwy%20county%20borough%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Reviews
+
+## Stars and comments from Google reviewers
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Conwy lesson
+
+Just tell us the age or school year and one thing the learner loves. A first lesson could be a Scratch bridge game, a Python program, or the tubular bridge on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Conwy county borough one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Conwy%20county%20borough%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Conwy questions
+
+The county borough, the bridge project and practical points.
 
 ### How many people live in Conwy county borough?
 
@@ -192,10 +310,14 @@ A free trial comes first; group lessons then cost USD 100 per month and private 
 
 We do. Lessons stop whenever your Conwy school is on holiday, as long as you tell us the dates.
 
+Nearby pages
+
 ## More North Wales pages
 
 [Anglesey](/coding-classes-in-anglesey) tests Beaumaris Castle for symmetry, [Bangor](/best-coding-class-in-bangor-wales) and [St Asaph](/best-coding-class-in-st-asaph) have pages of their own. The full Welsh list lives on the [Wales](/coding-and-ai-classes-in-wales) page, with the rest of Britain on the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Conwy%20county%20borough%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-conwy](https://learn.modernagecoders.com/coding-classes-in-conwy#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-conwy*

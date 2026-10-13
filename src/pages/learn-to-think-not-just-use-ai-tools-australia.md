@@ -4,34 +4,28 @@ description: "For Australian students using AI: what the curriculum says about p
 canonical: https://learn.modernagecoders.com/learn-to-think-not-just-use-ai-tools-australia
 source: src/pages/learn-to-think-not-just-use-ai-tools-australia.html
 ---
-> Learning to think with AI means understanding how a tool produces its answer, checking that answer, and being able to solve the problem without it. The Australian Curriculum already includes writing prompts and refining output "to improve its correctness". Because no one can check every answer, students also need to know how many to spot-check: if 4 of 40 AI answers are wrong, checking 17 at random gives at least a 90% chance of catching one.
+> For Australian students using AI: what the curriculum says about prompting, how many AI answers to check before trusting a batch, and how to think alongside AI.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / Think, not just use AI
+In short
 
-Australia · Years 5 to 12 and adults · AI with judgement
+Learning to think with AI means understanding how a tool produces its answer, checking that answer, and being able to solve the problem without it. The Australian Curriculum already includes writing prompts and refining output "to improve its correctness". Because no one can check every answer, students also need to know how many to spot-check: if 4 of 40 AI answers are wrong, checking 17 at random gives at least a 90% chance of catching one.
 
-# Learn to think, not just use AI tools
-
-An AI chatbot will write a paragraph, a program or a maths solution in seconds, and most of the time the result looks convincing. The skill that matters now is not getting an answer; it is knowing whether the answer is right, and knowing what you would have done without it. Australian schools are already teaching students to write prompts. This page sets out what the curriculum actually asks for, what the AI companies themselves say about age, and a piece of mathematics that answers a question every student should ask: if I cannot check every answer, how many do I need to check before I trust the rest?
-
-At a glance: For: Students from about Year 5, and adults; Focus: Understanding and checking AI; Builds: Programs that test AI answers; Curriculum: Digital Technologies, Years 7 to 10; Age rules: Followed for every AI tool; Format: Live online video; Group: Fifteen to twenty, or one to one; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+Where to start
 
 ## Three courses that put understanding first
 
 Matched to age and to the AI tools each age may use. The free first lesson confirms the right one.
 
-- [How AI works, for children](/courses/ai-literacy-for-kids-course): Ages 8 to 14. What AI learns from, where it goes wrong, and how to check it, without needing an adult-only chatbot.
-- [AI tools with judgement, for teens](/courses/teens-ai-tools-mastery-course): Ages 13 and up. Prompting, checking and citing, using tools whose terms allow teenagers.
-- [Building the models yourself](/courses/ai-ml-masterclass-teens): Teens ready for Python. Train small models and see exactly where their answers come from.
+[![AI Literacy for Kids (Ages 8 to 14) course thumbnail](/images/ai-literacy-for-kids.webp)  LTAU / 01 How AI works, for children Ages 8 to 14. What AI learns from, where it goes wrong, and how to check it, without needing an adult-only chatbot. Open the syllabus →](/courses/ai-literacy-for-kids-course)[![AI Tools Course for Teens (13+) course thumbnail](/images/ai-tools-kids.webp)  LTAU / 02 AI tools with judgement, for teens Ages 13 and up. Prompting, checking and citing, using tools whose terms allow teenagers. Open the syllabus →](/courses/teens-ai-tools-mastery-course)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)  LTAU / 03 Building the models yourself Teens ready for Python. Train small models and see exactly where their answers come from. Open the syllabus →](/courses/ai-ml-masterclass-teens)
+
+The curriculum
 
 ## What Australian classrooms already ask of students
 
 Prompting is not a fringe skill in Australia. The Australian Curriculum v9 names it in Digital Technologies for Years 7 and 8, alongside the expectation that students improve the correctness of what a model produces.
 
-**AI in the Australian Curriculum v9, Digital Technologies 7 to 10, as published**
-
 | Where | Code | The curriculum's words |
-|---|---|---|
+| --- | --- | --- |
 | Years 7 and 8, elaboration | AC9TDI8P11 | "using effective prompts with generative AI models to create output that is better suited to the problem being solved" |
 | Years 7 and 8, elaboration | AC9TDI8P11 | "using a progressive series of prompts with generative models to refine output to improve its correctness" |
 | Years 9 and 10, elaboration | AC9TDI10P11 | "locating relevant content by using Boolean operators or artificial intelligence search features of search engines" |
@@ -51,14 +45,14 @@ A student who tests their own code habitually is already halfway to checking an 
 
 Source, read 7 October 2026: ACARA, [Australian Curriculum v9, Digital Technologies content, Years 7 to 10](https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/technologies/digital-technologies/technologies-digital-technologies-curriculum-content-7-10-v9.docx) (Word file). Elaborations are examples of how a content description may be taught, not compulsory content.
 
+Age rules
+
 ## Which AI tools a student is allowed to use
 
 Thinking well about AI starts with using the right tool for your age. The companies and the education system each set their own lines, and they are not all the same.
 
-**Age lines we read at source**
-
 | Who says it | What they say |
-|---|---|
+| --- | --- |
 | Anthropic, consumer terms for Claude | "You must be at least 18 years old or the minimum age required to consent to use the Services in your location, whichever is higher." |
 | Digital Technologies Hub, AI implementation module for teachers | Strategies "for integrating GenAI with students (age 13+)" |
 | Our courses | Children under 13 learn how AI works through activities that need no adult-only accounts |
@@ -77,14 +71,14 @@ If your school uses them, our lessons will feel familiar; if it does not, they a
 
 Sources, read 7 October 2026: [Anthropic consumer terms](https://www.anthropic.com/legal/consumer-terms) and [Digital Technologies Hub, Explore AI in education](https://www.digitaltechnologieshub.edu.au/ai/professional-learning/explore-ai-in-education/). Terms change; always check the current terms of any tool before a child signs up.
 
+Spot-checking
+
 ## How many AI answers do you need to check?
 
 Suppose an AI has produced 40 answers for you: worked solutions, translations, or lines of code. Checking all 40 defeats the purpose of using it. Checking two feels too few. Factories face the same question with batches of parts, and the answer has a name: acceptance sampling.
 
-**Chance of catching at least one wrong answer, checking n of 40 at random (our calculation)**
-
 | Wrong answers in the batch | Check 3 | Check 5 | Check 10 | Check 20 |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | 1 of 40 | 7.5% | 12.5% | 25.0% | 50.0% |
 | 2 of 40 | 14.6% | 23.7% | 44.2% | 75.6% |
 | 4 of 40 | 27.7% | 42.7% | 70.0% | 94.7% |
@@ -100,9 +94,13 @@ To reach a 90% chance of catching at least one mistake in that batch, you need t
 
 The chance of missing every wrong answer is the number of ways to choose your checks from the correct answers, divided by the number of ways to choose them from all 40. One minus that is the chance of catching at least one.
 
-In Python it is a single line using math.comb: 1 - comb(40 - k, n) / comb(40, n). Students in Years 9 and 10 can derive it; younger students can simulate it by drawing cards.
+In Python it is a single line using `math.comb`: `1 - comb(40 - k, n) / comb(40, n)`. Students in Years 9 and 10 can derive it; younger students can simulate it by drawing cards.
 
-**The thinking lesson** A few spot-checks catch a tool that is often wrong, but they rarely catch one that is occasionally wrong. The rarer the mistakes, the more you have to understand the subject yourself, because sampling alone will not save you.
+The thinking lesson
+
+A few spot-checks catch a tool that is often wrong, but they rarely catch one that is occasionally wrong. The rarer the mistakes, the more you have to understand the subject yourself, because sampling alone will not save you.
+
+Thinking habits
 
 ## Five habits that keep the thinking yours
 
@@ -134,14 +132,14 @@ Whatever you submit or ship is yours. Schools and employers judge the work, not 
 
 For assessed school work, each state's rules decide what AI use is allowed, and the work must be the student's own. We teach the understanding and the checking; we never write a student's assessed work. For a deeper look at reading and owning code, see our page on [understanding the code rather than copying it](/understand-the-code-dont-copy-paste-australia).
 
+Stages
+
 ## From AI user to AI thinker
 
 A progression we see in students who learn to work with AI well.
 
-**Four stages of thinking with AI**
-
 | Stage | What the student can do |
-|---|---|
+| --- | --- |
 | 1. Use | Get a useful answer from a tool appropriate for their age |
 | 2. Doubt | Notice when an answer looks wrong, and say why |
 | 3. Check | Test answers systematically, including by random sampling |
@@ -150,63 +148,293 @@ A progression we see in students who learn to work with AI well.
 ### For younger students
 
 The first two stages come through activities and games, without adult-only accounts.
+
 Children learn that a computer can be confidently wrong, which is the most useful lesson of all.
 
 ### For teenagers and adults
 
 Stages three and four involve real code: test harnesses, sampling programs and small models whose every decision can be inspected.
+
 By then the AI is a tool the student directs, not an oracle they obey.
+
+The catalogue
 
 ## Nine courses about understanding AI, not just using it
 
 Grouped by age. The free first lesson places each student.
 
+I
+
 ### Children
 
 Ages 8 to 12
 
-- [What AI is and is not](/courses/ai-literacy-for-kids-course): Activities that show how machines learn.
-- [Python projects with AI inside](/courses/python-ai-kids-masterclass): Small, checkable AI programs.
-- [Thinking before computing](/courses/problem-solving-and-computational-thinking-for-kids): Logic that makes checking possible.
+LTAU / CHD / 01
+
+#### What AI is and is not
+
+Activities that show how machines learn.
+
+[Open the syllabus](/courses/ai-literacy-for-kids-course)
+
+LTAU / CHD / 02
+
+#### Python projects with AI inside
+
+Small, checkable AI programs.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)
+
+LTAU / CHD / 03
+
+#### Thinking before computing
+
+Logic that makes checking possible.
+
+[Open the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)II
 
 ### Teenagers
 
 Ages 13 to 18
 
-- [Prompting, checking, citing](/courses/teens-ai-tools-mastery-course): AI tools used with judgement.
-- [Models you train yourself](/courses/ai-ml-masterclass-teens): From data to a working model.
-- [Data before conclusions](/courses/data-science-course-for-teens-python-data): Python for real datasets.
+LTAU / TEN / 01
+
+#### Prompting, checking, citing
+
+AI tools used with judgement.
+
+[Open the syllabus](/courses/teens-ai-tools-mastery-course)
+
+LTAU / TEN / 02
+
+#### Models you train yourself
+
+From data to a working model.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+LTAU / TEN / 03
+
+#### Data before conclusions
+
+Python for real datasets.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)III
 
 ### Adults
 
 18 and over
 
-- [AI tools for work](/courses/ai-tools-mastery-complete-college): Productive, checked, accountable.
-- [How LLM systems are built](/courses/complete-generative-ai-masterclass-college): Retrieval, agents and evaluation.
-- [Automation you can audit](/courses/python-ai-automation-masterclass-college): Scripts with applied AI.
+LTAU / ADL / 01
+
+#### AI tools for work
+
+Productive, checked, accountable.
+
+[Open the syllabus](/courses/ai-tools-mastery-complete-college)
+
+LTAU / ADL / 02
+
+#### How LLM systems are built
+
+Retrieval, agents and evaluation.
+
+[Open the syllabus](/courses/complete-generative-ai-masterclass-college)
+
+LTAU / ADL / 03
+
+#### Automation you can audit
+
+Scripts with applied AI.
+
+[Open the syllabus](/courses/python-ai-automation-masterclass-college)
+
+How lessons run
 
 ## Lessons where the student explains every answer
 
 Whether or not an AI tool is involved, the student does the thinking, out loud, with a teacher listening.
 
-- **After school** Weekday afternoons in your state.
-- **Evenings** For senior students and adults.
-- **Weekends** Saturday and Sunday options.
+After school
 
-- **Predict, then run** Students say what they expect before any code or tool runs.
-- **Explain it back** An answer counts only once the student can explain it.
-- **Age-appropriate tools** We follow each tool's terms on minimum age.
-- **Groups** Fifteen to twenty students, or one to one.
-- **Their own work** Teachers question and guide; they do not do the work.
-- **Real checks** Students write tests and samplers, not just opinions.
+Weekday afternoons in your state.
+
+Evenings
+
+For senior students and adults.
+
+Weekends
+
+Saturday and Sunday options.
+
+### Predict, then run
+
+Students say what they expect before any code or tool runs.
+
+### Explain it back
+
+An answer counts only once the student can explain it.
+
+### Age-appropriate tools
+
+We follow each tool's terms on minimum age.
+
+### Groups
+
+Fifteen to twenty students, or one to one.
+
+### Their own work
+
+Teachers question and guide; they do not do the work.
+
+### Real checks
+
+Students write tests and samplers, not just opinions.
+
+Student work
+
+## Student projects that think for themselves
+
+Work our students built and can explain line by line. Many more are collected on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Outside India we charge a single monthly fee in US dollars, identical across countries. Joining costs nothing extra and no term contract applies, so you may stop at the close of any month.
 
-- Free first class: USD 0. A first lesson that costs nothing. A clear recommendation from the teacher. No card details asked.
-- Group batch: USD 100 a month. Fifteen to twenty students. One teacher all the way through. Grouped by age and level. Monthly, no lock-in.
-- One to one: USD 150 a month. A teacher for one student. Scheduled around school. Paced to the learner.
+Free first class
+
+USD 0
+
+no card required
+
+- A first lesson that costs nothing
+- A clear recommendation from the teacher
+- No card details asked
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students
+- One teacher all the way through
+- Grouped by age and level
+- Monthly, no lock-in
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one student
+- Scheduled around school
+- Paced to the learner
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Parents and students in their own words, as they posted them on Google.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions from parents and students
 
 ## Common questions about thinking with AI
 
@@ -250,15 +478,54 @@ Yes. Every lesson is live over video with a teacher, in small groups or one to o
 
 The first lesson is free. After that, fees are monthly with no joining fee and no term commitment, as shown in the fees section on this page.
 
+Elsewhere on this site
+
 ## Related pages
 
-- [Coding classes in Australia](/coding-classes-in-australia): Our main page for Australian families.
-- [Understand the code, do not copy-paste](/understand-the-code-dont-copy-paste-australia): Owning what you submit.
-- [Learn to train AI](/learn-to-train-ai-not-just-prompt-it-australia): Building models rather than prompting them.
-- [AI courses for kids](/ai-courses-for-kids-australia): AI for primary-age children.
-- [AI classes for teens](/ai-classes-for-teens-australia): AI for secondary students.
-- [HSC Software Engineering](/hsc-software-engineering-help): For NSW senior students.
+More on reading code, AI for children and building AI rather than prompting it.
 
-## Contact
+### [Coding classes in Australia](/coding-classes-in-australia)
 
-Book the free first class at [https://learn.modernagecoders.com/learn-to-think-not-just-use-ai-tools-australia](https://learn.modernagecoders.com/learn-to-think-not-just-use-ai-tools-australia#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Our main page for Australian families.
+
+### [Understand the code, do not copy-paste](/understand-the-code-dont-copy-paste-australia)
+
+Owning what you submit.
+
+### [Learn to train AI](/learn-to-train-ai-not-just-prompt-it-australia)
+
+Building models rather than prompting them.
+
+### [AI courses for kids](/ai-courses-for-kids-australia)
+
+AI for primary-age children.
+
+### [AI classes for teens](/ai-classes-for-teens-australia)
+
+AI for secondary students.
+
+### [HSC Software Engineering](/hsc-software-engineering-help)
+
+For NSW senior students.
+
+Start here
+
+## Book a free first lesson
+
+Give us a number and a convenient time. The student tackles a short problem with a teacher, AI included where age allows, and you see how the thinking is kept with the student.
+
+Prefer to read first? Here is [how a lesson runs](/how-we-teach), and here are [all our courses](/courses).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20uses%20AI%20tools%20for%20school%20and%20I%20want%20them%20to%20understand%20and%20check%20what%20they%20get.%20Could%20we%20book%20a%20free%20lesson%3F) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is the quickest way to reach us from Australia. Our team is in India and replies from a +91 number; we have no Australian premises.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/learn-to-think-not-just-use-ai-tools-australia*

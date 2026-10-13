@@ -4,46 +4,32 @@ description: "Online AI, programming, Python and coding classes for Gateshead, B
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-gateshead
 source: src/pages/ai-and-programming-classes-in-gateshead.html
 ---
-> The 2021 census found 196,151 residents in Gateshead borough; the ONS built-up area of Gateshead held 115,280, Blaydon 14,240 and Birtley 13,835. Adults in their late fifties and early sixties are above the England share, while teenagers and young adults are below it. From Ryton to Birtley, anyone between 6 and 67 can join our India-based tutors for live AI, programming, Python and maths, solo or in a same-level class of fifteen to twenty. A free first lesson points to the right course. The Gateshead project starts from a Victorian telescope set up in the town. Staying on means USD 100 per month in a shared class or USD 150 per month on your own.
+> Online AI, programming, Python and coding classes for Gateshead, Blaydon, Birtley and Ryton learners aged 6 to 67, live one-to-one or in groups. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [North East England](/coding-and-ai-classes-in-north-east-england) / Gateshead
-
-Gateshead, Tyne and Wear, England / Live online
-
-# AI and programming classes in Gateshead
-
-**Which are the best AI and programming classes in Gateshead?** The 2021 census found 196,151 residents in Gateshead borough; the ONS built-up area of Gateshead held 115,280, Blaydon 14,240 and Birtley 13,835. Adults in their late fifties and early sixties are above the England share, while teenagers and young adults are below it. From Ryton to Birtley, anyone between 6 and 67 can join our India-based tutors for live AI, programming, Python and maths, solo or in a same-level class of fifteen to twenty. A free first lesson points to the right course. The Gateshead project starts from a Victorian telescope set up in the town. Staying on means USD 100 per month in a shared class or USD 150 per month on your own.
-
-Edward W. Byrn's 1900 survey of nineteenth-century invention lists the great telescopes of the age, and one of them was in Gateshead: "Mr. R. S. Newall's telescope, set up at Gateshead by Cookes, of York, in 1870; object glass, 25 inches, tube, 30 feet". Beside it he lists giants at Parsonstown, Paris, Ealing and Washington, each with its width and its length. A table of five telescopes looks like dry reading, until a learner computes one extra number for each, the focal ratio. Suddenly the five split into two clear families, for a reason every astronomer knows. Getting there takes some care: the units change mid-sentence, and Byrn does not measure every telescope the same way.
-
-Facts last verified 27 September 2026. Teaching is online; no Gateshead branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentGateshead course picks
 
 ## First courses for Gateshead learners
 
 Choose by age and interest. Each course starts with a free live lesson, booked with no card.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 9): Block coding with stars, planets and space games.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 9 to 12): First Python with measurements, plus small AI projects.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Full Python for teenagers, including the telescope project.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Adults and students): Adult Python from scratch, up to data and science tools.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 9Coding for KidsBlock coding with stars, planets and space games.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 9 to 12Python and AI for KidsFirst Python with measurements, plus small AI projects.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensFull Python for teenagers, including the telescope project.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)Adults and studentsPython MasterclassAdult Python from scratch, up to data and science tools.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Gateshead borough
 
 ## An older-leaning Tyneside borough
 
 Nomis counts from the 2021 census for six age groups, Gateshead next to the national picture.
 
-**Gateshead against England, selected ages (TS007A, 2021)**
-
 | Ages | Gateshead residents | Gateshead % | England % |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 5 to 9 | 11,070 | 5.6% | 5.9% |
 | 15 to 19 | 10,074 | 5.1% | 5.7% |
 | 20 to 24 | 10,411 | 5.3% | 6.0% |
@@ -57,16 +43,16 @@ Residents in their late fifties and early sixties stand out against England, and
 
 See the [Tyne and Wear](/coding-classes-in-tyne-and-wear) page for the county and [North East England](/coding-and-ai-classes-in-north-east-england) for the region.
 
+The Gateshead project
+
 ## Focal ratios for five great telescopes
 
 Parse the list, convert the units, compute one ratio, and look for groups.
 
 The learner copies Byrn's five telescopes into a Python list: where each stood, the year, whether its main optic was a mirror or an object glass (a large lens), its width and its length. Widths come in inches, except the Earl of Rosse's, which Byrn gives as 6 feet. Lengths come in feet, some with fractions like 17¾. The focal ratio is the length divided by the width. The first attempt divides 30 feet by 25 inches for the Newall telescope and gets 1.2, a number that means nothing, because the units never matched.
 
-**Our Python focal ratios from Byrn's list of great telescopes, 27 September 2026**
-
 | Telescope (Byrn) | Main optic | Width and length | Focal ratio |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | R. S. Newall, Gateshead, 1870 | Object glass | 25 in, tube 30 ft | 14.4 (from tube) |
 | US Observatory, Washington, 1873 | Object glass | 26 in, tube 33 ft | 15.2 (from tube) |
 | Earl of Rosse, Parsonstown, 1842-45 | Mirror | 6 ft, focal length 54 ft | 9.0 |
@@ -93,14 +79,14 @@ Track which figures are tube lengths, sort, and plot the two families.
 
 The telescope details come from Edward W. Byrn's The Progress of Invention in the Nineteenth Century on Project Gutenberg. The conversions and ratios are ours.
 
+Why the Newall telescope
+
 ## A 25-inch lens set up in Gateshead
 
 What Byrn records about the Gateshead instrument and its peers.
 
-**The Newall telescope in Byrn's list (Project Gutenberg)**
-
 | Detail | Byrn's wording or our summary |
-|---|---|
+| --- | --- |
 | Owner | Mr. R. S. Newall |
 | Where and when | Set up at Gateshead in 1870 |
 | Maker | Cookes, of York |
@@ -112,14 +98,37 @@ Derived features like this drive much of data science. A spreadsheet of houses b
 
 Modern Age Coders is not connected with Project Gutenberg or the census office. The book and figures are theirs; the calculations, and any mistake in them, are ours.
 
+Stages
+
 ## From cardboard tubes to data science
 
 Treat the years loosely; the trial places everyone.
 
-- **Years 1 to 4: Space in blocks** Block coding with planets, rockets and measuring games. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 5 to 8: Python and units** Units, ratios and lists in Python. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Years 9 to 13: Science and AI** Derived features, data and AI beside GCSE and A level. [Python for Teens](/courses/python-complete-masterclass-teens), [High School Mathematics](/courses/complete-high-school-mathematics-mastery)
-- **Adults: Data work** Adult Python for data and analysis. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Years 1 to 4
+
+### Space in blocks
+
+Block coding with planets, rockets and measuring games.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 5 to 8
+
+### Python and units
+
+Units, ratios and lists in Python.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Years 9 to 13
+
+### Science and AI
+
+Derived features, data and AI beside GCSE and A level.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[High School Mathematics](/courses/complete-high-school-mathematics-mastery)Adults
+
+### Data work
+
+Adult Python for data and analysis.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)AI and features
 
 ## Would an AI spot the units mismatch?
 
@@ -131,30 +140,139 @@ A Gateshead learner who has converted Byrn's figures by hand knows to check unit
 
 Checking the units behind a formula is a sound reason for Gateshead teenagers to keep learning to code in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Blaydon to Birtley, live online
 
 A laptop and a connection are all any home in the borough needs.
 
-- **Their code, their keys** Tutors never type for the learner; they watch the shared screen and help with well-timed questions.
-- **A sensible first rung** Where a Year 3 or a Year 13 begins depends on what the trial shows as much as on the year, and the exam board is kept in mind.
-- **Opening lesson free** The trial costs nothing and ends with a clear recommendation.
-- **Same-stage classmates** Groups of fifteen to twenty UK learners at one level.
-- **Twice a week in term** School holidays stay free.
-- **Steady lesson hour** UK clock changes are absorbed by our tutors.
+### Their code, their keys
 
-**Why the groups are online** Five Gateshead learners at one stage, free at the same hour, rarely live on one street. Online classes give each the right group.
+Tutors never type for the learner; they watch the shared screen and help with well-timed questions.
+
+### A sensible first rung
+
+Where a Year 3 or a Year 13 begins depends on what the trial shows as much as on the year, and the exam board is kept in mind.
+
+### Opening lesson free
+
+The trial costs nothing and ends with a clear recommendation.
+
+### Same-stage classmates
+
+Groups of fifteen to twenty UK learners at one level.
+
+### Twice a week in term
+
+School holidays stay free.
+
+### Steady lesson hour
+
+UK clock changes are absorbed by our tutors.
+
+Why the groups are online
+
+Five Gateshead learners at one stage, free at the same hour, rarely live on one street. Online classes give each the right group.
+
+Fees
 
 ## Gateshead fees
 
 Gateshead families pay the single rate we charge in every country outside India.
 
-- First class: USD 0. A full lesson at no cost, with a course suggestion afterwards.
-- Group tuition: USD 100 a month. Around eight live small-group lessons per month.
-- Private tuition: USD 150 a month. Around eight live one-to-one lessons per month.
+First class**USD 0**
+
+A full lesson at no cost, with a course suggestion afterwards.
+
+Group tuition**USD 100**
+
+Around eight live small-group lessons per month.
+
+Private tuition**USD 150**
+
+Around eight live one-to-one lessons per month.
 
 Fees are set in US dollars, not sterling. Billing starts only once the trial has agreed a course and a weekly slot; the pricing page covers holidays, absences and moving between formats.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20Gateshead%20learner.)Reviews
+
+## Tyneside and UK families on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Gateshead lesson
+
+Tell us how old the learner is, or the year group, and one hobby. Trial ideas: a Scratch planet game, a first Python script, a short AI task, or computing Byrn's focal ratios.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Gateshead one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20Gateshead%20learner.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Gateshead questions
+
+Telescopes, local figures and lesson basics.
 
 ### What is the population of Gateshead?
 
@@ -196,10 +314,14 @@ You pay nothing for the trial. A place in a class then costs USD 100 each month,
 
 Yes; send us your dates.
 
+Nearby
+
 ## More pages near Gateshead
 
 The wider county sits on our [Tyne and Wear](/coding-classes-in-tyne-and-wear) page; [Middlesbrough](/ai-and-programming-classes-in-middlesbrough) finds Captain Cook's Marton; the region is gathered under [North East England](/coding-and-ai-classes-in-north-east-england). The [UK hub](/coding-classes-in-united-kingdom) links every page.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20Gateshead%20learner.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-gateshead](https://learn.modernagecoders.com/ai-and-programming-classes-in-gateshead#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-gateshead*

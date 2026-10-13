@@ -4,46 +4,32 @@ description: "Vibe coding, AI agents, Python and coding lessons, live online for
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-weymouth
 source: src/pages/vibe-coding-and-ai-agents-classes-in-weymouth.html
 ---
-> Weymouth's built-up area held 55,535 people at the 2021 census on the ONS count. Wyke Regis, Radipole, Westham, Melcombe Regis, Upwey, Broadwey, Littlemoor and Sutton Poyntz are all recorded as suburbs in the DT3 and DT4 districts. We teach vibe coding, AI agents, Python, coding and maths to people there aged six through 67. Each lesson is a live call with a tutor based in India, taken solo or alongside five to ten others at a similar stage. Our teaching aim is a learner who can judge an AI's work, not only request it. The first lesson is on us, and it closes with a course suggestion. For the Weymouth project, a simple planning agent draws a loop through 192 census areas, and the learner interrupts it at different moments to see how good the answer is each time. Afterwards the monthly fee is USD 100 in a group, or USD 150 for lessons on your own.
+> Vibe coding, AI agents, Python and coding lessons, live online for Weymouth, Wyke Regis, Radipole and Upwey learners aged 6 to 67. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South West England](/coding-and-ai-classes-in-south-west-england) / Weymouth
-
-Weymouth, Dorset, South West England / Live online
-
-# Vibe coding and AI agents classes in Weymouth
-
-**Where can Weymouth learners find the best vibe coding and AI agents classes?** Weymouth's built-up area held 55,535 people at the 2021 census on the ONS count. Wyke Regis, Radipole, Westham, Melcombe Regis, Upwey, Broadwey, Littlemoor and Sutton Poyntz are all recorded as suburbs in the DT3 and DT4 districts. We teach vibe coding, AI agents, Python, coding and maths to people there aged six through 67. Each lesson is a live call with a tutor based in India, taken solo or alongside five to ten others at a similar stage. Our teaching aim is a learner who can judge an AI's work, not only request it. The first lesson is on us, and it closes with a course suggestion. For the Weymouth project, a simple planning agent draws a loop through 192 census areas, and the learner interrupts it at different moments to see how good the answer is each time. Afterwards the monthly fee is USD 100 in a group, or USD 150 for lessons on your own.
-
-Ask an AI agent to plan something and you face a choice nobody mentions: how long to let it think. Some programs give nothing useful until they finish. Others are built so that a usable answer exists at every moment and simply gets better the longer they run. Computer scientists call the second kind an anytime algorithm. It suits agents well, because an agent usually works under a budget of time, money or patience. The catch is that improvement is never steady. It is fast at first, then slow, then it stops. This project draws that curve for a route around Weymouth and asks where a sensible agent should call a halt.
-
-Facts last verified 30 September 2026. Teaching is online; no Weymouth branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Weymouth
 
 ## Pick a Weymouth starting point by age
 
 All four begin the same way: a live lesson with a tutor, free of charge, and no card to enter.
 
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Vibe coding in Scratch: say what the game should do, try the AI's version, improve it step by step.
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): Learning how to think: good-enough answers, better answers, and knowing when to stop.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python and web projects built with AI assistance, including the Weymouth route experiment.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): Generative AI and agents in Python, with attention to cost, time limits and checking results.
+[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsVibe coding in Scratch: say what the game should do, try the AI's version, improve it step by step.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsLearning how to think: good-enough answers, better answers, and knowing when to stop.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensPython and web projects built with AI assistance, including the Weymouth route experiment.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseGenerative AI and agents in Python, with attention to cost, time limits and checking results.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)The town
 
 ## Weymouth, Wyke Regis, Radipole and Upwey
 
 Two census counts and the suburb names in the postcode gazetteer.
 
-**Weymouth and Dorset in the 2021 census (ONS)**
-
 | Area | Usual residents |
-|---|---|
+| --- | --- |
 | Weymouth built-up area | 55,535 |
 | Dorset council area | 379,579 |
 
@@ -53,16 +39,16 @@ The first row is the ONS built-up area and the second is the whole Dorset unitar
 
 Related pages: [coding classes in Dorset](/coding-classes-in-dorset), [Poole](/online-coding-and-python-classes-in-poole) and [Bournemouth](/best-coding-and-ai-classes-in-bournemouth). For the thinking behind our approach, read [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Weymouth project
+
 ## An anytime algorithm: stop the agent and see what it has
 
 A loop through 192 areas that is always complete and keeps getting shorter, until it cannot.
 
 The ONS divides the Weymouth built-up area into 192 census output areas and publishes a centre point for each; our sum of the household counts for those areas is 25,576. The learner's agent must draw one closed loop that visits all 192 centres, measured in straight lines. It starts with the areas in the order of their codes, a route nobody planned, which is 135.5 km long. Then it repeats one small step: choose two positions in the loop at random, reverse the stretch between them, and keep the change only if the loop got shorter. Because every step leaves a complete loop, the agent can be stopped at any time and still hand over a valid route.
 
-**Loop length when the agent is stopped after a given number of tries, median of five runs, our Python experiment**
-
 | Tries allowed | Loop length | Saved since the row above |
-|---|---|---|
+| --- | --- | --- |
 | 0 | 135.5 km | start |
 | 1,000 | 118.6 km | 16.9 km |
 | 10,000 | 75.2 km | 43.4 km |
@@ -91,14 +77,14 @@ Add a stopping rule and restarts, then compare the cost and quality of each budg
 
 Area centres are ONS population-weighted centroids and household counts are Census 2021 figures from Nomis, both under the Open Government Licence. The loop, the tries and every length are our own calculation. The table shows the median of five runs with different random seeds.
 
+Agents on a budget
+
 ## What an anytime algorithm teaches about AI agents
 
 Every agent is given some limit. The skill is spending it where it still buys something.
 
-**From the Weymouth loop to agent design**
-
 | Seen in the experiment | Carried into vibe coding and agents |
-|---|---|
+| --- | --- |
 | A valid loop existed at every moment | Design agents that can be interrupted safely |
 | Most of the gain came early | A short run often gets most of the value |
 | Nothing improved after try 162,402 | Detect a plateau and stop paying |
@@ -109,14 +95,37 @@ Vibe coding means steering an AI with plain-English requests while it writes the
 
 Modern Age Coders has no affiliation with the Office for National Statistics, Nomis or postcodes.io. Open data from each was used as published; the experiment and its conclusions are ours alone.
 
+Stage by stage
+
 ## From string puzzles to budgeted AI agents
 
 We use school year as a rough guide and the trial lesson as the real test.
 
-- **Years 2 to 6: How to think** Improve an answer bit by bit and decide when it is good enough. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Scratch projects made with an AI partner and tested by the child. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Vibe coding with Python** Web and Python builds, with experiments that measure the code. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: AI agents** Agents that plan, check themselves and stop on a rule. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Years 2 to 6
+
+### How to think
+
+Improve an answer bit by bit and decide when it is good enough.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Scratch projects made with an AI partner and tested by the child.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Vibe coding with Python
+
+Web and Python builds, with experiments that measure the code.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### AI agents
+
+Agents that plan, check themselves and stop on a rule.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)AI agents and time
 
 ## What is an anytime algorithm, and how long should an AI agent run?
 
@@ -128,30 +137,139 @@ Having drawn that curve, a learner asks of any agent how its answer changed over
 
 Weymouth teenagers who can set a budget for an agent and defend it are doing engineering, not just prompting, and that starts with code they wrote and measured. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+In practice
+
 ## How lessons work from Weymouth
 
 Everything happens on a video call, so the only equipment is a computer, a camera and a reliable connection.
 
-- **They build, we guide** The keyboard belongs to the learner. A tutor watches the shared screen, asks why, and steps in only when needed.
-- **A trial sets the level** One free session shows us what the learner already knows and which course should come next.
-- **Free to begin** There is no fee and no card for that session.
-- **Groups of fifteen to twenty** Learners from across the UK, grouped by what they can do and not by where they live.
-- **Twice a week** In school terms only; tell us the Dorset holiday dates and we skip them.
-- **Fixed UK hour** Your lesson stays at the same local time through both clock changes.
+### They build, we guide
 
-**Why a video call** One town cannot always fill a class at each level on each evening. Teaching online means a Weymouth learner joins the right group without waiting for one to form locally.
+The keyboard belongs to the learner. A tutor watches the shared screen, asks why, and steps in only when needed.
+
+### A trial sets the level
+
+One free session shows us what the learner already knows and which course should come next.
+
+### Free to begin
+
+There is no fee and no card for that session.
+
+### Groups of fifteen to twenty
+
+Learners from across the UK, grouped by what they can do and not by where they live.
+
+### Twice a week
+
+In school terms only; tell us the Dorset holiday dates and we skip them.
+
+### Fixed UK hour
+
+Your lesson stays at the same local time through both clock changes.
+
+Why a video call
+
+One town cannot always fill a class at each level on each evening. Teaching online means a Weymouth learner joins the right group without waiting for one to form locally.
+
+Fees
 
 ## Fees for Weymouth
 
 The fees below are our standard ones for learners outside India.
 
-- First class: USD 0. The whole first lesson is free and ends with a recommendation.
-- Group tuition: USD 100 a month. A place in a small class, about eight lessons monthly.
-- Private tuition: USD 150 a month. One learner with one tutor, about eight lessons monthly.
+First class**USD 0**
+
+The whole first lesson is free and ends with a recommendation.
+
+Group tuition**USD 100**
+
+A place in a small class, about eight lessons monthly.
+
+Private tuition**USD 150**
+
+One learner with one tutor, about eight lessons monthly.
 
 We charge in US dollars and publish no pound price. Payment starts after the trial, when the course and the time of the week are settled. Holiday pauses, missed lessons and swapping format are covered on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20you%20arrange%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%3F%20We%20live%20in%20Weymouth.)Reviews
+
+## Google reviews from Dorset households and learners around the UK
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Arrange a free Weymouth lesson
+
+We need an age or year group and a hint of what the learner likes. From that we choose a trial: a string-loop puzzle, a vibe-coded Scratch game, some first Python, or a small agent that improves a route.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Weymouth one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20you%20arrange%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%3F%20We%20live%20in%20Weymouth.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Questions from Weymouth
+
+Anytime algorithms, the route project, vibe coding, agents and the practical details.
 
 ### What is the population of Weymouth?
 
@@ -193,10 +311,14 @@ After a free first lesson, USD 100 a month for a group or USD 150 a month for pr
 
 No. We stop for school holidays when you send the dates.
 
+Elsewhere in Dorset
+
 ## More Dorset pages, each with its own experiment
 
 Different towns, different projects: [Poole](/online-coding-and-python-classes-in-poole) (sharing out teams fairly), [Bournemouth](/best-coding-and-ai-classes-in-bournemouth) and the county page for [Dorset](/coding-classes-in-dorset). Everything else is listed on the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Chat with us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20you%20arrange%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%3F%20We%20live%20in%20Weymouth.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-weymouth](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-weymouth#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-weymouth*

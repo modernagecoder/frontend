@@ -4,46 +4,32 @@ description: "Coding, Python, AI and data lessons for Enniscorthy learners aged 
 canonical: https://learn.modernagecoders.com/best-coding-class-in-enniscorthy
 source: src/pages/best-coding-class-in-enniscorthy.html
 ---
-> Enniscorthy has 12,147 usual residents in 4,656 households, and 3,508 of those households report broadband, which is all our lessons travel on. Each is run live on video by a teacher, either with a handful of learners who share a level or with a single learner, usually twice a week, for anyone aged six to sixty-seven. The opening lesson is free. After it, groups are charged at USD 100 a month and one-to-one teaching at USD 150.
+> Coding, Python, AI and data lessons for Enniscorthy learners aged 6 to 67, taught live online in small groups at one level or one to one. First lesson free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [County Wexford](/coding-classes-in-county-wexford) / Enniscorthy
-
-Enniscorthy, County Wexford / Live online
-
-# Coding classes in Enniscorthy
-
-**What is the best coding class in Enniscorthy?** Enniscorthy has 12,147 usual residents in 4,656 households, and 3,508 of those households report broadband, which is all our lessons travel on. Each is run live on video by a teacher, either with a handful of learners who share a level or with a single learner, usually twice a week, for anyone aged six to sixty-seven. The opening lesson is free. After it, groups are charged at USD 100 a month and one-to-one teaching at USD 150.
-
-For the 6,909 people in Enniscorthy aged five and over, the census records two things about the trip to work, school or college: what time they leave home, and how long the journey takes. The two answers are published in separate tables, and no table for the town puts them side by side. So how many people leave after seven and arrive within three quarters of an hour? Nobody outside the CSO can say exactly. What anybody can do is prove limits. From the two tables alone, at least 3,117 people fall in both groups and at most 4,791. For a different question the same method proves nothing at all: the answer could be anywhere from 0 to 729. This page builds the calculator and shows when two separate facts are worth combining.
-
-Facts last verified 19 September 2026. Teaching is online; no Enniscorthy branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Enniscorthy
 
 ## Courses Enniscorthy learners start with
 
 Choose by age and interest; the first lesson, taught by that course's teacher, settles the level.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Block coding with sorting games, including puzzles where two clues together narrow down an answer.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 13): Sets, overlaps and Venn diagrams worked out by a program, then checked with real counts.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): Combining published tables correctly, and knowing when a question needs data that was never published.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (College and adult): For adults who put separate reports together at work and need to know what the combination can support.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlock coding with sorting games, including puzzles where two clues together narrow down an answer.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 13Maths Through CodingSets, overlaps and Venn diagrams worked out by a program, then checked with real counts.See the syllabus](/courses/maths-through-coding)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensCombining published tables correctly, and knowing when a question needs data that was never published.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)College and adultData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For adults who put separate reports together at work and need to know what the combination can support.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## Two tables about the same trips, and what they prove together
 
 Both tables count the same 6,909 residents aged five and over. Each table adds up on its own. What neither says is how the rows of one line up with the rows of the other.
 
-**The two published tables for Enniscorthy, side by side**
-
 | Left home | People | Journey took | People |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Before 06:30 | 683 | Under 15 minutes | 2,644 |
 | 06:30 to 07:00 | 536 | 15 to under 30 minutes | 1,693 |
 | 07:01 to 07:30 | 535 | 30 to under 45 minutes | 898 |
@@ -51,7 +37,7 @@ Both tables count the same 6,909 residents aged five and over. Each table adds u
 | 08:01 to 08:30 | 1,472 | 1 hour to under 1.5 hours | 284 |
 | 08:31 to 09:00 | 1,241 | 1.5 hours and over | 269 |
 | 09:01 to 09:30 | 115 | Not stated | 945 |
-| After 09:30 | 463 |  |  |
+| After 09:30 | 463 |   |   |
 | Not stated | 899 | Total | 6,909 |
 
 ### The rule
@@ -66,10 +52,8 @@ If A people are in one group and B in another, out of a total of n, the overlap 
 
 1,219 left before seven and 729 had a journey of 45 minutes or more. The tables are consistent with none of the early starters making a long trip, and with every long trip starting early. The honest answer is anywhere from 0 to 729.
 
-**What the two tables prove about four overlaps**
-
 | People who... | At least | At most |
-|---|---|---|
+| --- | --- | --- |
 | Left after 07:00 and took under 45 minutes | 3,117 | 4,791 |
 | Left after 08:00 and took under 30 minutes | 719 | 3,291 |
 | Left before 07:00 and took 45 minutes or more | 0 | 729 |
@@ -80,6 +64,8 @@ If A people are in one group and B in another, out of a total of n, the overlap 
 When two facts about the same people are published separately, the exact overlap is lost, but it is not unknowable in every sense. There is always a smallest and a largest overlap the two facts allow, and sometimes the smallest is large enough to say something real. The mistake runs both ways: inventing an exact overlap by assuming the two things are unrelated, or giving up entirely when the limits would have settled the question. Work out the limits first; they tell you whether the published tables can answer the question or whether it needs data that was never released.
 
 The learner writes a function that takes the two tables, a list of rows from each, and the total, and returns the lowest and highest possible overlap. Then they write a second function that actually builds a table of 6,909 imaginary trips matching both published tables, arranged first to make the overlap as small as possible and then as large as possible. Seeing both extremes built for real, from the same two published columns, is what makes the rule believable. The exercise that follows asks the learner to find the question about Enniscorthy trips where the limits are tightest, and to explain why.
+
+Two columns, one population
 
 ## Why combining tables needs care
 
@@ -97,16 +83,18 @@ The rule only works because both tables count the same 6,909 residents aged five
 
 If the limits are too wide to answer the question, the answer needs a table that shows both at once, for this place or a larger one. Knowing that is itself a result.
 
-**What this page does not claim** It gives no exact number of people in any of the four overlaps, because the tables used cannot supply one, and it offers no reason why the CSO publishes these two questions as separate town tables.
+What this page does not claim
+
+It gives no exact number of people in any of the four overlaps, because the tables used cannot supply one, and it offers no reason why the CSO publishes these two questions as separate town tables.
+
+The town in the census
 
 ## Enniscorthy's census counts
 
 Figures for the town of Enniscorthy, Co Wexford, taken from the small area tables of Census 2022. The people counted are usual residents, and the homes are theirs.
 
-**Selected counts for Enniscorthy**
-
 | What was counted | Result |
-|---|---|
+| --- | --- |
 | Usual residents | 12,147 |
 | Households | 4,656 |
 | Households with broadband | 3,508 |
@@ -127,7 +115,11 @@ Of 2,848 journeys to school, college or childcare, 1,309 are made as a car passe
 
 On the direct question, 698 working residents said they work from home at least part of the time, 3,326 said never, and 625 gave no answer.
 
-**The station** Irish Rail gives the station address as Iarnród Éireann, Enniscorthy, Co. Wexford, Eircode Y21 N289, and has no connection with us. The websites of Enniscorthy Castle and the National 1798 Rebellion Centre refused automated requests on 19 September 2026, so nothing is quoted from either.
+The station
+
+Irish Rail gives the station address as Iarnród Éireann, Enniscorthy, Co. Wexford, Eircode Y21 N289, and has no connection with us. The websites of Enniscorthy Castle and the National 1798 Rebellion Centre refused automated requests on 19 September 2026, so nothing is quoted from either.
+
+Learning here
 
 ## Lessons for Enniscorthy learners
 
@@ -147,14 +139,37 @@ Adults of any background join, with or without experience in code, and the first
 
 Where a census figure appears, it is the Central Statistics Office's published number. The overlaps and their limits were worked out from the two journey tables on 19 September 2026. Irish Rail is quoted from its own station page.
 
+Learning ladder
+
 ## From two clues to proved limits
 
 Ages are a guide; the first lesson finds the actual level.
 
-- **Ages 6 to 10: Two clues** Block-coded puzzles where two separate hints together pin down the answer, or fail to. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Overlaps** Programs that count what is in one group, the other, and both, and draw the Venn diagram. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 14 to 18: Combining tables** Joining, cross-tabulating and bounding real tables, and saying what a combination cannot show. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **Ages 18 to 67: Reports that meet** Putting separate reports together at work without inventing the parts neither report contains. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### Two clues
+
+Block-coded puzzles where two separate hints together pin down the answer, or fail to.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Overlaps
+
+Programs that count what is in one group, the other, and both, and draw the Venn diagram.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### Combining tables
+
+Joining, cross-tabulating and bounding real tables, and saying what a combination cannot show.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)Ages 18 to 67
+
+### Reports that meet
+
+Putting separate reports together at work without inventing the parts neither report contains.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## Ask an assistant how many people leave early and travel far
 
@@ -166,30 +181,139 @@ A learner who has built the calculator asks for the limits first and the estimat
 
 An assistant fills gaps fluently. Knowing which gaps the data cannot fill is the skill worth keeping. The longer argument is in [why learning to code is still a good use of time](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How Enniscorthy lessons run
 
 The essentials.
 
-- **Teacher present** Each lesson is taught live, and the teacher works from what the learner is building that day.
-- **Same-level groups** Fifteen to twenty learners at the same stage, from Wexford, the rest of Ireland and other countries.
-- **Two most weeks** About eight lessons a month, on days and times fixed at the start.
-- **Term planning** Holidays, mid-term breaks and exams are built into the course plan.
-- **Equipment** Any laptop or desktop that runs a browser well, a headset or a microphone with speakers, and broadband that carries video without dropping.
-- **One to one** Private lessons are for learners who move faster or slower than a group would, or who can only make an hour no group uses.
+### Teacher present
 
-**No premises in the town** Every Enniscorthy lesson is taught on video. We have no classroom in Enniscorthy or elsewhere in Ireland, and the lesson is the same from any room with a connection.
+Each lesson is taught live, and the teacher works from what the learner is building that day.
+
+### Same-level groups
+
+Fifteen to twenty learners at the same stage, from Wexford, the rest of Ireland and other countries.
+
+### Two most weeks
+
+About eight lessons a month, on days and times fixed at the start.
+
+### Term planning
+
+Holidays, mid-term breaks and exams are built into the course plan.
+
+### Equipment
+
+Any laptop or desktop that runs a browser well, a headset or a microphone with speakers, and broadband that carries video without dropping.
+
+### One to one
+
+Private lessons are for learners who move faster or slower than a group would, or who can only make an hour no group uses.
+
+No premises in the town
+
+Every Enniscorthy lesson is taught on video. We have no classroom in Enniscorthy or elsewhere in Ireland, and the lesson is the same from any room with a connection.
+
+Fees
 
 ## Fees for Enniscorthy
 
 Everything we charge.
 
-- First class: USD 0. A full first lesson with the level assessed, at no cost.
-- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, around eight live lessons.
-- Private tuition: USD 150 a month. A month of one-to-one teaching at the same weekly frequency.
+First class**USD 0**
+
+A full first lesson with the level assessed, at no cost.
+
+Group tuition**USD 100**
+
+A month in a group of fifteen to twenty at one level, around eight live lessons.
+
+Private tuition**USD 150**
+
+A month of one-to-one teaching at the same weekly frequency.
 
 Families outside India all pay one monthly price in US dollars. The first lesson is free and nobody is charged until a course starts; holidays, missed lessons and swapping between group and private teaching are covered on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Enniscorthy.)Reviews
+
+## Six of our families' Google reviews, in full
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free first lesson in Enniscorthy
+
+Send the learner's age and a line about their interests, and the first hour is shaped to suit. Some first lessons finish with a small game, some with a working program, and some with a Venn diagram built from two clues.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Enniscorthy one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Enniscorthy.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Enniscorthy coding class questions
+
+What Enniscorthy families ask before booking.
 
 ### How many people live in Enniscorthy?
 
@@ -231,10 +355,14 @@ The first lesson is free. After that a shared place costs USD 100 a month and br
 
 Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
+Explore Ireland
+
 ## Nearby in the series
 
 Enniscorthy sits under the [County Wexford](/coding-classes-in-county-wexford) page, alongside [Wexford town](/best-coding-class-in-wexford), with [Arklow](/best-coding-class-in-arklow) just over the county boundary in Wicklow and [Leinster](/coding-and-ai-classes-in-leinster) above them all. Online coding schools are laid side by side on [a comparison page](/best-online-coding-classes-ireland), and the [Ireland hub](/coding-classes-in-ireland) leads to everything else.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Enniscorthy.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-enniscorthy](https://learn.modernagecoders.com/best-coding-class-in-enniscorthy#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-enniscorthy*

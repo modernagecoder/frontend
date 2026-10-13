@@ -4,46 +4,32 @@ description: "Online coding, AI and Python classes for Hemel Hempstead, Berkhams
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-hemel-hempstead
 source: src/pages/best-coding-and-ai-classes-in-hemel-hempstead.html
 ---
-> In 2021 the census recorded 155,081 people across Dacorum, the borough around Hemel Hempstead, and 95,985 in the Hemel Hempstead built-up area. Young children and parents in their late thirties and early forties are above the England share, while people aged 20 to 24 are well below it. Coding, AI, Python and maths are taught live over video by our tutors in India, to anyone from 6 to 67, alone or alongside four to nine others working at the same stage. A free first lesson tells us the right course. The Hemel Hempstead project measures 26 paper sizes from 1855 in Python. Those who continue pay USD 100 monthly for a shared class or USD 150 monthly for a private one.
+> Online coding, AI and Python classes for Hemel Hempstead, Berkhamsted, Tring and Dacorum learners aged 6 to 67, taught live. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [East of England](/coding-and-ai-classes-in-east-of-england) / Hemel Hempstead
-
-Hemel Hempstead, Hertfordshire, England / Live online
-
-# Coding and AI classes in Hemel Hempstead
-
-**Where can Hemel Hempstead families find the best coding and AI classes?** In 2021 the census recorded 155,081 people across Dacorum, the borough around Hemel Hempstead, and 95,985 in the Hemel Hempstead built-up area. Young children and parents in their late thirties and early forties are above the England share, while people aged 20 to 24 are well below it. Coding, AI, Python and maths are taught live over video by our tutors in India, to anyone from 6 to 67, alone or alongside four to nine others working at the same stage. A free first lesson tells us the right course. The Hemel Hempstead project measures 26 paper sizes from 1855 in Python. Those who continue pay USD 100 monthly for a shared class or USD 150 monthly for a private one.
-
-In his 1890 book The Art of Paper-Making, Alexander Watt records that after a first working model in 1803, "in 1804 a second machine was made and put up at Two-Waters, Herts, which was completely successful". Two Waters is today a suburban area of Dacorum with a Hemel Hempstead postcode, and machines like that one made paper in long continuous rolls that then had to be cut into sheets. The sheets had wonderful names: Pot, Foolscap, Demy, Royal, Elephant, Atlas. Richard Herring listed 26 of them in inches in 1855. Today most home and school printers take one size, A4. Why that shape? A Hemel Hempstead learner can find out in Python by folding each old sheet in half, again and again, and watching what happens to its proportions.
-
-Facts last verified 27 September 2026. Teaching is online; no Hemel Hempstead branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentHemel Hempstead picks
 
 ## Where Hemel Hempstead learners start
 
 Match the course to age and curiosity; all of them open with a free live session and need no payment card.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 9): Block coding with shapes, sizes and folding puzzles.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 9 to 12): Beginner Python and small AI projects.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Full Python for teenagers, including the paper-size project.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Adults and students): Python for adults from the first line, through data and algorithms.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 9Coding for KidsBlock coding with shapes, sizes and folding puzzles.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 9 to 12Python and AI for KidsBeginner Python and small AI projects.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensFull Python for teenagers, including the paper-size project.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)Adults and studentsPython MasterclassPython for adults from the first line, through data and algorithms.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Dacorum today
 
 ## Families in Hemel and the market towns
 
 Dacorum in census table TS007A (2021), via Nomis, six bands next to England.
 
-**Selected age bands for Dacorum beside England (TS007A, 2021 census)**
-
 | Age band | Dacorum residents | Dacorum share | England share |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Under 5 | 9,581 | 6.2% | 5.4% |
 | 5 to 9 | 9,929 | 6.4% | 5.9% |
 | 20 to 24 | 7,104 | 4.6% | 6.0% |
@@ -57,16 +43,16 @@ Young children and their parents are above the national share, and people in the
 
 See the [Hertfordshire](/coding-classes-in-hertfordshire) page for the county and the [East of England](/coding-and-ai-classes-in-east-of-england) page for the region.
 
+The Hemel Hempstead project
+
 ## Folding 26 sheets of 1855 paper
 
 Only one shape survives halving unchanged.
 
 The learner types Herring's 26 fine paper sizes into Python, converting fractions like 13½ into decimals, and works out each aspect ratio, the long side divided by the short. Then comes the folding function: halve the long side and swap if needed. For Foolscap, 17 by 13½ inches, the ratio starts at 1.259; fold it and it jumps to 1.588; fold again and it returns to 1.259. The sheet keeps flipping between two different shapes, so a folded Foolscap page never looks like a small Foolscap.
 
-**Our Python aspect ratios for Herring's 1855 paper sizes, 27 September 2026**
-
 | Sheet | Size in inches | Ratio | After one fold |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Super Royal | 27 by 19 | 1.421 | 1.407 |
 | Imperial | 30 by 22 | 1.364 | 1.467 |
 | Demy | 20 by 15½ | 1.290 | 1.550 |
@@ -94,14 +80,14 @@ Prove the root 2 result, build the A series, and check the named double sizes.
 
 The Two Waters quotation is from Alexander Watt's The Art of Paper-Making, and the sizes from Richard Herring's Paper & paper making, both on Project Gutenberg. The ratios, folds and checks are ours.
 
+Why Two Waters
+
 ## Continuous paper and the Fourdrinier machine
 
 What the two Victorian books say.
 
-**From Watt (1890) and Herring (1855), Project Gutenberg editions**
-
 | Detail | What the book says |
-|---|---|
+| --- | --- |
 | The machine | Named after the Fourdriniers, who improved an earlier French design |
 | The engineer | Built with the help of Bryan Donkin, according to Watt |
 | First working model | 1803, erected at Frogmore, Hertfordshire |
@@ -113,14 +99,37 @@ Aspect ratios matter far beyond paper. Screens, photographs, video frames and pr
 
 Modern Age Coders has no connection with Project Gutenberg or the ONS. Their books and figures belong to them; this program and whatever it gets wrong belong to us.
 
+Learning stages
+
 ## From folding paper to image processing
 
 Years are a guide; the trial lesson decides the level.
 
-- **Years 1 to 4: Shapes in blocks** Block coding with shapes, scaling and simple games. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 5 to 8: Python and ratios** Functions, fractions and ratios in Python. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Years 9 to 13: Proof and AI** Algebra in code, data and AI alongside GCSE and A level. [Python for Teens](/courses/python-complete-masterclass-teens), [High School Mathematics](/courses/complete-high-school-mathematics-mastery)
-- **Adults: Useful programming** Adult Python with data and graphics. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Years 1 to 4
+
+### Shapes in blocks
+
+Block coding with shapes, scaling and simple games.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 5 to 8
+
+### Python and ratios
+
+Functions, fractions and ratios in Python.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Years 9 to 13
+
+### Proof and AI
+
+Algebra in code, data and AI alongside GCSE and A level.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[High School Mathematics](/courses/complete-high-school-mathematics-mastery)Adults
+
+### Useful programming
+
+Adult Python with data and graphics.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)AI and images
 
 ## Does an AI keep the shape when it resizes?
 
@@ -132,30 +141,139 @@ A Hemel Hempstead learner who has folded Foolscap in Python knows to check that 
 
 Making sure a picture keeps its proportions through the code is the kind of care that makes programming worth learning in Hemel Hempstead in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Lesson set-up
+
 ## Hemel, Berkhamsted and Tring, all online
 
 Anywhere in Dacorum joins by live video.
 
-- **The student codes** Every program is typed by the learner; the tutor follows on the shared screen and guides with questions.
-- **Starting at the right rung** From Year 4 up to Year 12, placement follows the school year and what the trial reveals, with the correct exam board in mind.
-- **A trial on the house** You pay nothing for the first lesson, and you leave it with a plain answer about what fits.
-- **Peers at your stage** Each class gathers five to ten UK learners who have reached the same point.
-- **Term-time rhythm** Two lessons weekly in term; none in the holidays.
-- **Steady lesson time** Our teachers adjust for UK clock changes, so your slot does not move.
+### The student codes
 
-**Why the groups are online** Five Hemel learners at one level and one free hour rarely live near each other. Online groups give everyone the right class.
+Every program is typed by the learner; the tutor follows on the shared screen and guides with questions.
+
+### Starting at the right rung
+
+From Year 4 up to Year 12, placement follows the school year and what the trial reveals, with the correct exam board in mind.
+
+### A trial on the house
+
+You pay nothing for the first lesson, and you leave it with a plain answer about what fits.
+
+### Peers at your stage
+
+Each class gathers five to ten UK learners who have reached the same point.
+
+### Term-time rhythm
+
+Two lessons weekly in term; none in the holidays.
+
+### Steady lesson time
+
+Our teachers adjust for UK clock changes, so your slot does not move.
+
+Why the groups are online
+
+Five Hemel learners at one level and one free hour rarely live near each other. Online groups give everyone the right class.
+
+Fees
 
 ## Fees in Hemel Hempstead
 
 One fee structure covers Hemel Hempstead and every other country we teach outside India.
 
-- First class: USD 0. A complete lesson free, with a clear course suggestion.
-- Group tuition: USD 100 a month. Roughly eight live small-class lessons each month.
-- Private tuition: USD 150 a month. Roughly eight live one-to-one lessons each month.
+First class**USD 0**
+
+A complete lesson free, with a clear course suggestion.
+
+Group tuition**USD 100**
+
+Roughly eight live small-class lessons each month.
+
+Private tuition**USD 150**
+
+Roughly eight live one-to-one lessons each month.
 
 Fees are charged in US dollars, never sterling. Invoicing begins only after the free session has matched the learner to a course and a regular weekday slot. Breaks, absences and any move from group to private are set out on our pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Hemel%20Hempstead.)Reviews
+
+## Reviews left on Google by our learners
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Hemel Hempstead lesson
+
+Give us an age or school year and one interest. A trial might be a Scratch shape game, a first Python program, an AI project, or the paper-folding puzzle.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Hemel Hempstead one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Hemel%20Hempstead.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Hemel Hempstead questions
+
+The town, the paper project and how lessons work.
 
 ### What is the population of Hemel Hempstead?
 
@@ -197,10 +315,14 @@ The trial is free of charge. Afterwards it is USD 100 monthly in a small class o
 
 Yes. Send us the dates.
 
+Nearby
+
 ## Pages near Hemel Hempstead
 
 The [Hertfordshire](/coding-classes-in-hertfordshire) page covers the county, [Stevenage](/ai-and-programming-classes-in-stevenage) answers census questions with prefix sums, and the [East of England](/coding-and-ai-classes-in-east-of-england) page lists the region. The [UK hub](/coding-classes-in-united-kingdom) has every page.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Hemel%20Hempstead.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-and-ai-classes-in-hemel-hempstead](https://learn.modernagecoders.com/best-coding-and-ai-classes-in-hemel-hempstead#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-hemel-hempstead*

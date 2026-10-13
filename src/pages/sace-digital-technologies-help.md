@@ -4,34 +4,28 @@ description: "SACE Stage 2 Digital Technologies help for South Australian studen
 canonical: https://learn.modernagecoders.com/sace-digital-technologies-help
 source: src/pages/sace-digital-technologies-help.html
 ---
-> SACE Stage 2 Digital Technologies is a 20-credit subject (code 2DGT20) with four focus areas: computational thinking, design and programming, data analytics, and iterative project development. Project Skills counts 50 per cent and the Collaborative Project 20 per cent, both school assessed. The Individual Digital Solution, worth 30 per cent, is assessed externally.
+> SACE Stage 2 Digital Technologies help for South Australian students: four focus areas, project skills, the collaborative project and the individual solution.
 
-[Home](/) / [Coding classes in Australia](/coding-classes-in-australia) / SACE Digital Technologies
+In short
 
-South Australia · SACE Stage 2 · Live online
+SACE Stage 2 Digital Technologies is a 20-credit subject (code 2DGT20) with four focus areas: computational thinking, design and programming, data analytics, and iterative project development. Project Skills counts 50 per cent and the Collaborative Project 20 per cent, both school assessed. The Individual Digital Solution, worth 30 per cent, is assessed externally.
 
-# SACE Digital Technologies help
-
-Stage 2 Digital Technologies asks a South Australian student to do what working developers do: pick a real problem, talk to a client, build something in stages and explain it on camera. Most of the marks sit with the school, and most of the stress comes from projects that grow faster than the time left to finish them.
-
-At a glance: Subject: Digital Technologies; Stage: 2, worth 20 credits; Code: 2DGT20; School assessment: 70 per cent; External assessment: 30 per cent; Focus areas: Four, all studied; Renewal: Develop phase in 2026; We never: Build assessed work. Rated 4.9 across 547 Google reviews.
+Where to begin
 
 ## Three courses under a Stage 2 project
 
 Programming fluency first, then data, then the habits that keep a project on schedule.
 
-- [Python for teens](/courses/python-complete-masterclass-teens): A general-purpose language written well, with selection, repetition and sequencing used deliberately rather than by accident.
-- [Data science for teens](/courses/data-science-course-for-teens-python-data): Reading, cleaning and modelling data sets, the work at least one project skills task must contain.
-- [Git and version control](/courses/git-github-version-control-course-for-teens): A history of every change, which turns a walkthrough video into a story the student can actually prove.
+[![Python for Teens course thumbnail](/images/python-teens.webp)  SADT / 01 Python for teens A general-purpose language written well, with selection, repetition and sequencing used deliberately rather than by accident. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)  SADT / 02 Data science for teens Reading, cleaning and modelling data sets, the work at least one project skills task must contain. Open the syllabus →](/courses/data-science-course-for-teens-python-data)[![Git & GitHub Course for Teens course thumbnail](/images/git-github-teens.webp)  SADT / 03 Git and version control A history of every change, which turns a walkthrough video into a story the student can actually prove. Open the syllabus →](/courses/git-github-version-control-course-for-teens)
+
+Inside the subject outline
 
 ## Four focus areas that are taught together
 
 Everything here comes from the SACE Board Stage 2 Digital Technologies Subject Outline, read on 7 October 2026. The outline says students study all four focus areas, and that the areas are not intended to be taught independently.
 
-**Stage 2 Digital Technologies focus areas, as the outline describes them**
-
 | Focus area | What the outline emphasises | Where it shows up |
-|---|---|---|
+| --- | --- | --- |
 | 1. Computational thinking | Decomposition, pattern recognition, abstraction and algorithm design, with algorithms written in pseudocode or drawn as a structure chart or flow chart | Every task, and the algorithm design required in the individual solution |
 | 2. Design and programming | Program design, pseudocode, simple constructs, array processing and modularisation in a general-purpose language, with comments that explain the code | Programming skills tasks and both digital solutions |
 | 3. Data analytics | Collecting, extracting, interpreting and modelling data sets to identify trends and make predictions | At least one project skills task |
@@ -47,14 +41,14 @@ The subject is also part of the SACE Board's subject renewal program. Its renewa
 
 Sources: [SACE Board, Digital Technologies overview](https://www.sace.sa.edu.au/web/digital-technologies/overview) (credits, codes and weightings); Stage 2 Digital Technologies Subject Outline (docx) linked from that page; [subject renewal page](https://www.sace.sa.edu.au/web/digital-technologies/subject-renewal). Read on 7 October 2026.
 
+How the result is built
+
 ## Three assessment types, five or six pieces of evidence
 
 The outline asks for five to six assessments in total, including the external one. Each limit below is copied from the outline, because these limits shape how a project has to be planned.
 
-**Stage 2 Digital Technologies assessment, from the subject outline**
-
 | Assessment type | Weight | What the student submits | Limits |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | AT1 Project Skills (school) | 50 per cent | Three or four tasks applying computational thinking, data analysis, design and programming, and iterative development | Together a maximum of 20 minutes in multimodal form |
 | AT2 Collaborative Project (school) | 20 per cent | An individual Project Solution Walkthrough and an individual Technical Walkthrough about a group solution built for a client | Up to 5 minutes and up to 3 minutes; recordings no more than 1GB |
 | AT3 Individual Digital Solution (external) | 30 per cent | A solution or prototype with source code, design comments, algorithm design and a user interface or instructions, plus a designer's statement | Solution no more than 1 GB and 15 minutes; statement up to 3 minutes oral or 500 words written |
@@ -68,6 +62,8 @@ The assessment design criteria have three groups. Computational thinking runs fr
 Performance standards describe five levels of achievement, A to E. The outline also expects a broad definition of collaboration: face to face or online, with students, teachers, relatives or community members.
 
 Weights, limits and criteria: Stage 2 Digital Technologies Subject Outline, sections on evidence of learning, assessment design criteria and the three assessment types, read on 7 October 2026. External assessment summary: [SACE Board, Digital Technologies external assessment](https://www.sace.sa.edu.au/web/digital-technologies/external-assessment).
+
+A worked lesson
 
 ## Scoping a client project with MoSCoW
 
@@ -85,10 +81,8 @@ Ten requirements arrive in the first meeting. Every one sounds reasonable, and t
 
 Sorting by MoSCoW keeps 34 hours of work, leaves a 2 hour buffer for testing, and tells the client plainly what waits for a later version.
 
-**An invented canteen pre-order project, sorted with MoSCoW (estimates in hours)**
-
 | Priority | Requirement | Estimate | Kept in version 1? |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Must | Show today's menu | 4 | Yes |
 | Must | Order form with input validation | 6 | Yes |
 | Must | Order list for canteen staff | 5 | Yes |
@@ -100,10 +94,8 @@ Sorting by MoSCoW keeps 34 hours of work, leaves a 2 hour buffer for testing, an
 | Could | Order history for each student | 7 | No, deferred |
 | Won't (this time) | Online payment | Not estimated | No, out of scope |
 
-**The same project as four iterations (our plan, 36 hours in total)**
-
 | Iteration | Contents | Hours | What the client sees afterwards |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1 | Menu display and order form | 10 | A working form that rejects a blank name or a quantity of zero |
 | 2 | Staff order list and saving to file | 10 | Orders that survive closing the program |
 | 3 | Search, allergen filter, daily totals | 12 | The features that make it useful at 12.30 pm |
@@ -119,14 +111,14 @@ In lessons we practise the sorting on invented briefs, then ask the student to d
 
 MoSCoW is a general prioritisation technique; the outline itself asks for iterative development, client consultation and evaluation. The project, requirements, estimates and plan are invented for teaching and checked by our own arithmetic on 7 October 2026.
 
+The external 30 per cent
+
 ## What the individual digital solution has to contain
 
 The outline lists what the solution or prototype should include, and the integrity rule that applies to everything a student submits. Both are quoted or closely paraphrased from the outline below.
 
-**AT3 Individual Digital Solution, from the subject outline**
-
 | Element | What the outline asks for |
-|---|---|
+| --- | --- |
 | Code | Original source code and/or adapted code displaying selection, repetition, and sequencing, accompanied by design comments |
 | Design | Algorithm design |
 | Use | A graphical user interface and/or instructions for use |
@@ -138,14 +130,14 @@ The SACE Board states that, to ensure academic integrity, assessment must be bas
 
 Source: Stage 2 Digital Technologies Subject Outline, Assessment Type 3; integrity wording from the [SACE Board school assessment page](https://www.sace.sa.edu.au/web/digital-technologies/school-assessment), read on 7 October 2026.
 
+Getting ready for Stage 2
+
 ## Four rungs from Year 10 to a finished solution
 
 Most students start the subject able to code a little. The gap is usually design and finishing, not syntax.
 
-**From first programs to a Stage 2 digital solution**
-
 | When | Rung | The sign it is secure |
-|---|---|---|
+| --- | --- | --- |
 | Year 10 | 1. Constructs | Writes loops and conditions that work first time on small problems |
 | Stage 1 | 2. Structure | Splits a program into functions and explains what each one is for |
 | Early Stage 2 | 3. Data | Loads a data set, cleans it and states one trend it shows |
@@ -154,63 +146,293 @@ Most students start the subject able to code a little. The gap is usually design
 ### If programming is the worry
 
 Short daily practice beats long weekend sessions. A small problem solved and explained every day builds the fluency that a programming skills task assumes.
+
 Reading other people's code aloud, line by line, is the fastest way to learn what clean code looks like.
 
 ### If finishing is the worry
 
 Plan in iterations and protect the Musts. Our [understand the code, don't copy-paste](/understand-the-code-dont-copy-paste-australia) page explains why every line in a solution must be one the student can explain.
+
 Students in other states can compare with [HSC Software Engineering](/hsc-software-engineering-help) in New South Wales.
+
+The catalogue
 
 ## Nine courses for Stage 2 students
 
 Grouped by focus area. Every card opens a full syllabus.
 
+I
+
 ### Programming
 
 Design and programming
 
-- [Python for teens](/courses/python-complete-masterclass-teens): A general-purpose language, from constructs to modules.
-- [Java for teens](/courses/java-programming-masterclass-for-teens): Object-oriented design for students who want to explore it.
-- [Competitive programming](/courses/competitive-programming-for-teens-course): Algorithm design under time pressure.
+SADT / PR / 01
+
+#### Python for teens
+
+A general-purpose language, from constructs to modules.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+SADT / PR / 02
+
+#### Java for teens
+
+Object-oriented design for students who want to explore it.
+
+[Open the syllabus](/courses/java-programming-masterclass-for-teens)
+
+SADT / PR / 03
+
+#### Competitive programming
+
+Algorithm design under time pressure.
+
+[Open the syllabus](/courses/competitive-programming-for-teens-course)II
 
 ### Data
 
 Data analytics
 
-- [Data science for teens](/courses/data-science-course-for-teens-python-data): Trends and predictions from real data sets.
-- [Statistics and probability](/courses/statistics-probability-maths-course): The statistics behind honest conclusions.
-- [AI and machine learning](/courses/ai-ml-masterclass-teens): Models trained on data, for students heading that way.
+SADT / DA / 01
+
+#### Data science for teens
+
+Trends and predictions from real data sets.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)
+
+SADT / DA / 02
+
+#### Statistics and probability
+
+The statistics behind honest conclusions.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)
+
+SADT / DA / 03
+
+#### AI and machine learning
+
+Models trained on data, for students heading that way.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)III
 
 ### Building
 
 Iterative project development
 
-- [Git and version control](/courses/git-github-version-control-course-for-teens): Every change recorded and explainable.
-- [App development](/courses/complete-app-development-masterclass-for-teens): User interfaces that a client can try.
-- [Full stack web](/courses/full-stack-web-development-teens-masterclass): Web solutions with a front end and stored data.
+SADT / BU / 01
+
+#### Git and version control
+
+Every change recorded and explainable.
+
+[Open the syllabus](/courses/git-github-version-control-course-for-teens)
+
+SADT / BU / 02
+
+#### App development
+
+User interfaces that a client can try.
+
+[Open the syllabus](/courses/complete-app-development-masterclass-for-teens)
+
+SADT / BU / 03
+
+#### Full stack web
+
+Web solutions with a front end and stored data.
+
+[Open the syllabus](/courses/full-stack-web-development-teens-masterclass)
+
+How lessons run
 
 ## Stage 2 lessons on Adelaide time
 
 Lessons are live and come from our tutors in India. Adelaide runs four hours ahead of India time in winter and five hours ahead once daylight saving starts on 4 October 2026, until 4 April 2027, according to the IANA time zone database. A 5 pm lesson in Adelaide in summer is noon India time, within our working day.
 
-- **Weekday after school** Weekly programming and design practice.
-- **Weekend morning** Longer sessions on data and algorithms.
-- **School holidays** Short intensive blocks on one skill.
+Weekday after school
 
-- **Invented briefs** Every project we work on in class is made up, never the assessed one.
-- **Explain aloud** Students talk through code the way a walkthrough requires.
-- **Design before code** Pseudocode or a structure chart before the editor opens.
-- **Groups** Fifteen to twenty students at one level, reviewing each other's practice code.
-- **One-to-one sessions** For one skill, such as data cleaning, that needs focused repair.
-- **No grade forecasts** We never predict a SACE grade; the work and the result belong to the student.
+Weekly programming and design practice.
+
+Weekend morning
+
+Longer sessions on data and algorithms.
+
+School holidays
+
+Short intensive blocks on one skill.
+
+### Invented briefs
+
+Every project we work on in class is made up, never the assessed one.
+
+### Explain aloud
+
+Students talk through code the way a walkthrough requires.
+
+### Design before code
+
+Pseudocode or a structure chart before the editor opens.
+
+### Groups
+
+Fifteen to twenty students at one level, reviewing each other's practice code.
+
+### One-to-one sessions
+
+For one skill, such as data cleaning, that needs focused repair.
+
+### No grade forecasts
+
+We never predict a SACE grade; the work and the result belong to the student.
+
+Student work
+
+## What our students build in their own time
+
+Projects students made outside school, never assessed work. More in our [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Lessons are billed monthly in US dollars, one rate for every family outside India, with no joining fee and nothing owed beyond the month in progress.
 
-- Free first class: USD 0. A full coding lesson with a tutor. A clear view of the next skill to build. No card details asked.
-- Group batch: USD 100 a month. Fifteen to twenty students at one level. One tutor every week. Practice code reviewed in class. A certificate when the course ends.
-- One to one: USD 150 a month. A tutor for one student. Focused on one skill at a time. Useful before a programming skills task.
+Free first class
+
+USD 0
+
+no card required
+
+- A full coding lesson with a tutor
+- A clear view of the next skill to build
+- No card details asked
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students at one level
+- One tutor every week
+- Practice code reviewed in class
+- A certificate when the course ends
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A tutor for one student
+- Focused on one skill at a time
+- Useful before a programming skills task
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Reviews copied exactly as families and students wrote them on Google.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about Stage 2
 
 ## Digital Technologies questions we are asked
 
@@ -254,15 +476,54 @@ It helps a great deal. Students who can already write loops, conditions and func
 
 Late afternoon in Adelaide suits most students and falls within our tutors' day. The weekly time is agreed after the free lesson.
 
+Related pages
+
 ## More for South Australian students
 
-- [SACE Mathematical Methods tutoring](/sace-mathematical-methods-tutoring): Calculus and statistics for Stage 2.
-- [SACE Specialist Mathematics tutoring](/sace-specialist-mathematics-tutoring): Vectors, complex numbers and proof.
-- [Choosing Year 11 computing subjects](/choosing-year-11-computing-subjects-australia): How senior computing differs between states.
-- [HSC Software Engineering help](/hsc-software-engineering-help): The New South Wales computing course for comparison.
-- [Australian competitions calendar](/australian-coding-maths-and-ai-competitions-calendar): Coding competitions through the school year.
-- [Coding classes in Australia](/coding-classes-in-australia): Our national hub, from first blocks to AI.
+The SACE maths subjects that pair with computing, and the wider picture across Australia.
 
-## Contact
+### [SACE Mathematical Methods tutoring](/sace-mathematical-methods-tutoring)
 
-Book the free first class at [https://learn.modernagecoders.com/sace-digital-technologies-help](https://learn.modernagecoders.com/sace-digital-technologies-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Calculus and statistics for Stage 2.
+
+### [SACE Specialist Mathematics tutoring](/sace-specialist-mathematics-tutoring)
+
+Vectors, complex numbers and proof.
+
+### [Choosing Year 11 computing subjects](/choosing-year-11-computing-subjects-australia)
+
+How senior computing differs between states.
+
+### [HSC Software Engineering help](/hsc-software-engineering-help)
+
+The New South Wales computing course for comparison.
+
+### [Australian competitions calendar](/australian-coding-maths-and-ai-competitions-calendar)
+
+Coding competitions through the school year.
+
+### [Coding classes in Australia](/coding-classes-in-australia)
+
+Our national hub, from first blocks to AI.
+
+Start here
+
+## Start with a free Digital Technologies lesson
+
+Tell us your stage, the language your school uses, and whether programming, data or finishing is the hard part. The free lesson works on that skill with a problem we invent.
+
+Before booking, browse every syllabus in the [course atlas](/course-atlas), read about the lesson method on [how we teach](/how-we-teach), or see our other [Australian pages](/coding-classes-in-australia).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20class%20about%20SACE%20Stage%202%20Digital%20Technologies.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+We reply to WhatsApp messages first. The number begins +91 because our school is in India; we have no office in South Australia or anywhere else in Australia.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/sace-digital-technologies-help*

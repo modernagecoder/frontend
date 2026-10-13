@@ -4,34 +4,28 @@ description: "RoboCup Junior Australia explained: OnStage, Rescue Line, Rescue M
 canonical: https://learn.modernagecoders.com/robocup-junior-australia-coding-help
 source: src/pages/robocup-junior-australia-coding-help.html
 ---
-> RoboCup Junior Australia runs robotics challenges for school students in three areas: OnStage, Rescue (Line and Maze) and Soccer, each with an entry-level division, plus a LEGO SPIKE Prime Challenge. Teams are generally 2 to 4 students, robots must work autonomously, and events run at regional, state and national level. Programming, not building, is where most teams gain or lose points.
+> RoboCup Junior Australia explained: OnStage, Rescue Line, Rescue Maze, Soccer and the SPIKE Prime Challenge, the divisions, and the programming each one needs.
 
-[Home](/) / [Coding classes in Australia](/coding-classes-in-australia) / RoboCup Junior Australia
+In short
 
-Australia · Primary and secondary · Checked at RoboCup Junior Australia
+RoboCup Junior Australia runs robotics challenges for school students in three areas: OnStage, Rescue (Line and Maze) and Soccer, each with an entry-level division, plus a LEGO SPIKE Prime Challenge. Teams are generally 2 to 4 students, robots must work autonomously, and events run at regional, state and national level. Programming, not building, is where most teams gain or lose points.
 
-# RoboCup Junior Australia coding help
-
-RoboCup Junior Australia asks students to design, build and program robots that dance, rescue or play soccer without anyone touching a controller. The building is visible and exciting; the programming is where most teams quietly win or lose. A robot that follows a line in the practice room and wanders off on competition day usually has a code problem, not a hardware one. This page explains the challenges and divisions as RoboCup Junior Australia publishes them, then works through one programming skill every OnStage team needs. We are independent of RoboCup Junior Australia and help with the coding, never with building a team's robot for it.
-
-At a glance: Organiser: RoboCup Junior Australia; Challenge areas: OnStage, Rescue (Line and Maze), Soccer; Also run: LEGO SPIKE Prime Challenge; Team size: Generally 2 to 4 students; Event levels: Regional, state and national; 2026 SPIKE Prime theme: Survivors of the Future: Robots on a New World; We provide: Programming lessons for team members; We are not: An organiser, judge or robot builder. Rated 4.9 across 547 Google reviews.
+Where to start
 
 ## Three courses for robotics team members
 
 Most RoboCup robots are programmed in blocks first and text later; these follow that path.
 
-- [Scratch for kids](/courses/scratch-programming-complete-course): Loops, conditions and events in blocks, the same ideas a SPIKE word-block program uses.
-- [Python and AI for kids](/courses/python-ai-kids-masterclass): A first text language for primary students ready to move beyond blocks.
-- [Python for teens](/courses/python-complete-masterclass-teens): For secondary students heading into the open divisions, where custom code is common.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)  RCJ / 01 Scratch for kids Loops, conditions and events in blocks, the same ideas a SPIKE word-block program uses. Open the syllabus →](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  RCJ / 02 Python and AI for kids A first text language for primary students ready to move beyond blocks. Open the syllabus →](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)  RCJ / 03 Python for teens For secondary students heading into the open divisions, where custom code is common. Open the syllabus →](/courses/python-complete-masterclass-teens)
+
+The challenges
 
 ## Four challenge areas and a SPIKE Prime Challenge
 
 RoboCup Junior Australia describes itself as a project-oriented educational initiative that supports local, regional and international robotic events for young students. Each challenge asks for something different from a team's code.
 
-**RoboCup Junior Australia challenges, as described by the organiser**
-
 | Challenge | What the robot does | What the programming must handle |
-|---|---|---|
+| --- | --- | --- |
 | OnStage | Performs a dance or theatrical piece to music on a 2 by 2 metre stage | Timing against the music, staying inside the boundary, repeatable moves |
 | Rescue Line | Follows a winding line over tiles to a rescue area, then deals with "the victim" | Line following, gaps and obstacles, finding and moving an object |
 | Rescue Maze | Explores a maze representing a damaged building and locates victims | Navigation, mapping, coping with holes, steps and ramps |
@@ -48,14 +42,14 @@ For the 2026 National Championships, the organiser announced a demonstration com
 
 Sources: [RoboCup Junior Australia home](https://www.robocupjunior.org.au/); [Beginners Guide](https://www.robocupjunior.org.au/resources/beginners/); [SPIKE Prime Challenge](https://www.robocupjunior.org.au/spike-challenge/); [2026 Rescue Simulation demo](https://www.robocupjunior.org.au/2026-rescue-simulation/). Read 7 October 2026. Entry fees are set by the organiser and are not shown.
 
+Divisions
+
 ## From entry level to open, challenge by challenge
 
 Divisions let beginners compete fairly while experienced teams push further. The names and limits below are the organiser's.
 
-**Divisions listed on each RoboCup Junior Australia challenge page**
-
 | Challenge | Entry level | Next steps | Top level |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | OnStage | Novice: every member has 2 years or less of OnStage experience | None listed | Open: any team may enter |
 | Rescue Line | Riley Rover: primary and secondary students | Primary, then Secondary (adds tiles such as the "gridlock") | Open: for teams seeking a greater challenge, including international qualification |
 | Rescue Maze | Mighty Maisy Maze | Intermediate Maze, added from 2025 | Open Maze |
@@ -73,6 +67,8 @@ Moving up a division is mostly a programming jump. A Secondary Rescue Line robot
 
 The organiser notes that in Rescue Maze the challenge changes every round, and that a less complex but more reliable robot may beat a theoretically stronger one. Reliability is a coding habit: testing every branch, not just the one that worked last time.
 
+Worked lesson
+
 ## Timing an OnStage routine to the beat
 
 OnStage robots perform to music, and judges notice immediately when a robot drifts behind the song. The fix is arithmetic, not luck. This example is ours.
@@ -89,10 +85,8 @@ A routine must run longer than 1 minute and less than 2. At 96 beats per minute,
 
 Music groups beats in bars of four and phrases of eight bars. At 96 beats per minute an eight-bar phrase is 32 beats, which is exactly 20 seconds. Four phrases make the 80-second routine.
 
-**How a small timing error grows when moves are simply chained (our illustration)**
-
 | Beats danced | Planned time | Each move actually takes 640 ms, not 625 | Behind the music |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 8 | 5.0 s | 5.12 s | 0.12 s |
 | 32 | 20.0 s | 20.48 s | 0.48 s |
 | 64 | 40.0 s | 40.96 s | 0.96 s |
@@ -112,6 +106,8 @@ Resynchronising against a clock instead of adding up delays is how games keep an
 
 The same thinking helps Rescue and Soccer teams: a robot that checks its sensors at a steady rate behaves the same way every run, while one with uneven delays is hard to debug.
 
+How we help
+
 ## Programming help, while the robot stays the team's own
 
 RoboCup is a team project. Our part is to make each member a stronger programmer, so the team's own robot does what the team designed it to do.
@@ -124,24 +120,22 @@ We never write a team's competition program or design its robot. The SPIKE Prime
 
 We do not promise a placing or a trophy. We teach the programming and debugging habits that make a robot reliable, and the team does the rest.
 
-**A term of programming support for a RoboCup team member**
-
 | Weeks | Focus | Sign of progress |
-|---|---|---|
+| --- | --- | --- |
 | 1 and 2 | Loops, conditions and events in blocks | Predicts what a short program will do before running it |
 | 3 and 4 | Sensors and thresholds | Chooses a light threshold from measured readings, not a guess |
 | 5 and 6 | Timing and synchronisation | Keeps a routine on the beat for its full length |
 | 7 and 8 | States for multi-step tasks | Writes a clear sequence such as find, grab, carry, release |
 | 9 and 10 | Testing and debugging | Keeps a test log and fixes one problem at a time |
 
+Growing as a robot programmer
+
 ## Four rungs from first robot to open division
 
 Year level matters less than how a student programs.
 
-**From moving a motor to a reliable autonomous robot**
-
 | Around | Rung | The sign it is secure |
-|---|---|---|
+| --- | --- | --- |
 | Upper primary | 1. Moves on purpose | Makes the robot drive a set distance and turn a set angle |
 | Upper primary to Year 8 | 2. Reacts to the world | Uses a sensor reading to change what the robot does |
 | Years 7 to 10 | 3. Plans in steps | Breaks a task into states and handles each one cleanly |
@@ -150,63 +144,293 @@ Year level matters less than how a student programs.
 ### When a run goes wrong
 
 Write down what the robot did and what it should have done before changing any code. Most fixes come from that one sentence.
+
 Change one thing at a time. A team that changes three things at once never learns which one mattered.
 
 ### Related reading
 
 The [Australian competitions calendar](/australian-coding-maths-and-ai-competitions-calendar) lists other coding and maths contests across the year.
+
 Teams also often enter [FIRST LEGO League in Australia](/first-lego-league-australia-coding-help), which uses SPIKE kits too.
+
+The catalogue
 
 ## Nine courses for robotics students
 
 From first blocks to code an open division needs. Each card opens the full syllabus.
 
+I
+
 ### Blocks
 
 Primary team members
 
-- [Scratch for kids](/courses/scratch-programming-complete-course): Events, loops and conditions.
-- [Coding for kids](/courses/kids-coding-blocks-masterclass): Blocks to games and simple apps.
-- [Computational thinking](/courses/problem-solving-and-computational-thinking-for-kids): Breaking a task into steps.
+RCJ / BL / 01
+
+#### Scratch for kids
+
+Events, loops and conditions.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)
+
+RCJ / BL / 02
+
+#### Coding for kids
+
+Blocks to games and simple apps.
+
+[Open the syllabus](/courses/kids-coding-blocks-masterclass)
+
+RCJ / BL / 03
+
+#### Computational thinking
+
+Breaking a task into steps.
+
+[Open the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)II
 
 ### Text code
 
 Moving to Python
 
-- [Python and AI for kids](/courses/python-ai-kids-masterclass): A gentle first text language.
-- [Python for teens](/courses/python-complete-masterclass-teens): Functions, files and structure.
-- [Maths through coding](/courses/maths-through-coding): Angles, distances and timing in code.
+RCJ / TX / 01
+
+#### Python and AI for kids
+
+A gentle first text language.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)
+
+RCJ / TX / 02
+
+#### Python for teens
+
+Functions, files and structure.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+RCJ / TX / 03
+
+#### Maths through coding
+
+Angles, distances and timing in code.
+
+[Open the syllabus](/courses/maths-through-coding)III
 
 ### Advanced
 
 Open divisions and beyond
 
-- [Problem solving for teens](/courses/problem-solving-dsa-masterclass-teens): Searching, states and efficient logic.
-- [Data science for teens](/courses/data-science-course-for-teens-python-data): Reading sensor logs like data.
-- [Competitive programming](/courses/competitive-programming-for-teens-course): Fast, correct code under pressure.
+RCJ / AD / 01
+
+#### Problem solving for teens
+
+Searching, states and efficient logic.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
+
+RCJ / AD / 02
+
+#### Data science for teens
+
+Reading sensor logs like data.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)
+
+RCJ / AD / 03
+
+#### Competitive programming
+
+Fast, correct code under pressure.
+
+[Open the syllabus](/courses/competitive-programming-for-teens-course)
+
+How lessons run
 
 ## Online programming lessons around team practice
 
 Lessons are taught live from India. Australian clocks run ahead of India's: Brisbane is four and a half hours ahead of India time all year, and Adelaide is four hours ahead in winter and five in summer. A lesson after an Australian school day falls in the Indian afternoon, so it slots easily around a team's practice nights.
 
-- **A weekday afternoon** Programming ideas, practised on small exercises.
-- **A weekend session** Reviewing the student's own robot code together.
-- **Before an event** Testing and debugging habits, run by run.
+A weekday afternoon
 
-- **Ideas first** Students learn why a program works, so they can fix it on the day.
-- **Their robot, their code** We explain and question; the team writes and builds.
-- **Blocks to Python** A clear path from SPIKE blocks to text code.
-- **Groups of fifteen to twenty** Students at a similar level comparing approaches.
-- **One-to-one option** For a team's lead programmer who wants to go further.
-- **No placing promised** We teach programming; judges and referees decide results.
+Programming ideas, practised on small exercises.
+
+A weekend session
+
+Reviewing the student's own robot code together.
+
+Before an event
+
+Testing and debugging habits, run by run.
+
+### Ideas first
+
+Students learn why a program works, so they can fix it on the day.
+
+### Their robot, their code
+
+We explain and question; the team writes and builds.
+
+### Blocks to Python
+
+A clear path from SPIKE blocks to text code.
+
+### Groups of fifteen to twenty
+
+Students at a similar level comparing approaches.
+
+### One-to-one option
+
+For a team's lead programmer who wants to go further.
+
+### No placing promised
+
+We teach programming; judges and referees decide results.
+
+Student work
+
+## Projects our students have built
+
+Built because students wanted to, apart from any competition. Browse them in the [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Programming lessons are charged monthly in US dollars, our international rate, without a joining fee or a lock-in. Any RoboCup entry fee or kit purchase is separate and paid to the organiser or supplier, not to us.
 
-- Free first class: USD 0. A first lesson with a teacher, free. A look at the student's current code if they have some. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty students at a similar level. The same teacher through the term. Programming ideas tested on shared exercises. A certificate on completion.
-- One to one: USD 150 a month. A teacher for one student. Time spent on that student's own robot code. Weekly times that fit team practice.
+Free first class
+
+USD 0
+
+no card required
+
+- A first lesson with a teacher, free
+- A look at the student's current code if they have some
+- No card needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students at a similar level
+- The same teacher through the term
+- Programming ideas tested on shared exercises
+- A certificate on completion
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one student
+- Time spent on that student's own robot code
+- Weekly times that fit team practice
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Reviews from our Google listing, left exactly as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about RoboCup Junior
 
 ## What students and parents ask
 
@@ -250,15 +474,54 @@ Not for lessons. Many programming ideas can be learned in Scratch or Python befo
 
 Yes, in the programming sense. The 2026 demonstration competition uses a virtual robot in the Webots-Erebus simulator, so navigation and mapping code matter more than hardware.
 
+Related pages
+
 ## More for Australian students
 
-- [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar): Coding and maths contests by month.
-- [FIRST LEGO League](/first-lego-league-australia-coding-help): Another robotics program using SPIKE.
-- [Game development for kids](/game-development-for-kids-australia): Programming that moves things on screen.
-- [After Scratch, Python](/after-scratch-next-step-python-australia): The step from blocks to text.
-- [Coding classes in Australia](/coding-classes-in-australia): Every state and every age.
-- [Coding classes for kids](/online-coding-classes-for-kids-australia): What an online class looks like.
+Other competitions and coding pathways.
 
-## Contact
+### [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar)
 
-Book the free first class at [https://learn.modernagecoders.com/robocup-junior-australia-coding-help](https://learn.modernagecoders.com/robocup-junior-australia-coding-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Coding and maths contests by month.
+
+### [FIRST LEGO League](/first-lego-league-australia-coding-help)
+
+Another robotics program using SPIKE.
+
+### [Game development for kids](/game-development-for-kids-australia)
+
+Programming that moves things on screen.
+
+### [After Scratch, Python](/after-scratch-next-step-python-australia)
+
+The step from blocks to text.
+
+### [Coding classes in Australia](/coding-classes-in-australia)
+
+Every state and every age.
+
+### [Coding classes for kids](/online-coding-classes-for-kids-australia)
+
+What an online class looks like.
+
+Start here
+
+## Start with a free programming class
+
+Tell us the year level, the challenge and how the team programs now. The free class works on one real programming idea from that challenge and ends with a practical next step.
+
+Want to look around first? All course outlines are on the [course atlas](/course-atlas), and [how we teach](/how-we-teach) walks through a lesson.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20class%20about%20programming%20for%20a%20RoboCup%20Junior%20team%20in%20Australia.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is normally the quickest way to reach us. The number is Indian, because that is where we are based; there is no Australian office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/robocup-junior-australia-coding-help*

@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes in Uithoorn and De Kwake
 canonical: https://learn.modernagecoders.com/coding-classes-in-uithoorn
 source: src/pages/coding-classes-in-uithoorn.html
 ---
-> Coding classes in Uithoorn serve 32,204 people (Statistics Netherlands, 1 January 2026) on 19.42 square kilometres of the Amstel valley at 1,772 residents to the square kilometre, in 14,077 households of which 4,805 hold one person. Where the municipal entry should show a graph of the population over time it shows a sentence explaining that the graph software cannot be displayed, and a reader who stops there concludes the history is missing. It is not: the same history says 24,581 residents in 1995 against 32,204 today. Modern Age Coders teaches live online in English in Uithoorn and De Kwakel, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
+> Live online coding, Python and AI classes in Uithoorn and De Kwakel for ages 6 to 67, taught in English by teachers in India. The first lesson is free.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Uithoorn
-
-Uithoorn, Noord-Holland / Live online
-
-# Coding classes in Uithoorn, where the population graph will not draw and that is a fact about the software, not about the town
-
-**What are the best coding classes in Uithoorn?** Coding classes in Uithoorn serve 32,204 people (Statistics Netherlands, 1 January 2026) on 19.42 square kilometres of the Amstel valley at 1,772 residents to the square kilometre, in 14,077 households of which 4,805 hold one person. Where the municipal entry should show a graph of the population over time it shows a sentence explaining that the graph software cannot be displayed, and a reader who stops there concludes the history is missing. It is not: the same history says 24,581 residents in 1995 against 32,204 today. Modern Age Coders teaches live online in English in Uithoorn and De Kwakel, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
-
-Open the municipal entry for Uithoorn, scroll to where the population history should be, and you find no graph. In its place sits a sentence saying that because of a security problem with the graph software it is not currently possible to display this chart. Nothing about Uithoorn is missing. The town has a population history, the numbers are recorded, and one of them says 24,581 people lived here in 1995. What failed was the drawing. From where a reader sits, though, a broken picture and a fact that was never collected look exactly the same, and that is one of the most expensive confusions in working with data.
-
-Facts last verified 8 September 2026. Teaching is online; no Uithoorn branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Uithoorn
 
 ## Four courses for a small town with an unusually wide world in it
 
 A groep 5 child near the Amstel who is bored of dragging blocks, a teenager in De Kwakel who wants a page on the internet that is genuinely theirs, a student who has realised every job advertisement mentions models, and a parent whose work database is full of blanks nobody can account for: four doors, and the first hour of each costs nothing.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Typed Python, drawings that follow instructions and a first program that spots a rule, taught in English to the groep 5 to 8 child in either woonplaats.
-- [Frontend Development for Teens](/courses/frontend-development-masterclass-for-teens) (Ages 13 to 18): HTML, CSS and JavaScript until a real site works on a real phone, for the teenager who wants something they can show rather than describe.
-- [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) (College and adult): How a model is trained, tested and broken, for the student who would rather understand the machinery than repeat what it says.
-- [MySQL Course](/courses/mysql-database-complete-masterclass-college) (Adults): Keys, joins and the meaning of NULL, for anyone whose reports contain blanks that three people explain three different ways.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsTyped Python, drawings that follow instructions and a first program that spots a rule, taught in English to the groep 5 to 8 child in either woonplaats.See the syllabus](/courses/python-ai-kids-masterclass)[![Frontend Development for Teens course thumbnail](/images/frontend-teens.webp)Ages 13 to 18Frontend Development for TeensHTML, CSS and JavaScript until a real site works on a real phone, for the teenager who wants something they can show rather than describe.See the syllabus](/courses/frontend-development-masterclass-for-teens)[![AI and ML Masterclass course thumbnail](/images/ai-ml-college.webp)College and adultAI and ML MasterclassHow a model is trained, tested and broken, for the student who would rather understand the machinery than repeat what it says.See the syllabus](/courses/ai-ml-masterclass-complete-college)[![MySQL Course course thumbnail](/images/database-college.webp)AdultsMySQL CourseKeys, joins and the meaning of NULL, for anyone whose reports contain blanks that three people explain three different ways.See the syllabus](/courses/mysql-database-complete-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Uithoorn today
 
 ## Thirty-two thousand people between Amstelveen and the water
 
@@ -52,7 +40,11 @@ The national register held 32,204 residents on 1 January 2026, in 14,077 househo
 
 The register divides the municipality into 2 woonplaatsen, 11 wijken and 11 buurten, one buurt to each wijk. A buurt-level statistic here therefore carries no more detail than a wijk-level one, so this page treats the two levels as the same level and makes no fine-grained claim from either.
 
-**The Amstel, a tram that arrived in 2024, and a very old boundary** Uithoorn sits on the Amstel, bordered by Aalsmeer, Amstelveen, Kaag en Braassem, Nieuwkoop and De Ronde Venen. Its entry records that on 1 October 1819 Uithoorn again became part of the province of Noord-Holland and that on 10 February 1820 Thamen was again annexed, the word again appearing in both sentences. On 21 July 2024 the tram from Amstelveen Westwijk was extended to Uithoorn Centrum. The mayor is Pieter Heiliegers of the VVD.
+The Amstel, a tram that arrived in 2024, and a very old boundary
+
+Uithoorn sits on the Amstel, bordered by Aalsmeer, Amstelveen, Kaag en Braassem, Nieuwkoop and De Ronde Venen. Its entry records that on 1 October 1819 Uithoorn again became part of the province of Noord-Holland and that on 10 February 1820 Thamen was again annexed, the word again appearing in both sentences. On 21 July 2024 the tram from Amstelveen Westwijk was extended to Uithoorn Centrum. The mayor is Pieter Heiliegers of the VVD.
+
+Where the learners are
 
 ## Two woonplaatsen, one river, and a very international thirty thousand
 
@@ -84,6 +76,8 @@ Nine primary and three secondary establishments is a complete school system for 
 
 Both woonplaatsen get the same class at the same hour for the same fee. A learner is placed on what they can already do, so a child in De Kwakel and a child by the river sit together when they are at the same stage and apart when they are not.
 
+Verified local facts
+
 ## Every figure, its source, and four different kinds of nothing
 
 The national count, the municipal entry, the graph that will not draw, and the things this page refuses to fill in.
@@ -114,6 +108,8 @@ No population is given for the town of Uithoorn or for De Kwakel, because the en
 
 Modern Age Coders has no connection to the municipality, the schools or any organisation named here and claims none. Every absence on this page is left as an absence.
 
+Signature project
+
 ## The graph is empty. Is the town, the record, or the screen?
 
 One missing picture, one perfectly intact history, and three other kinds of nothing on the same two pages.
@@ -130,10 +126,8 @@ The page does not go blank. It prints a sentence about MediaWiki, and a sentence
 
 This one takes about a minute. The national statistics page for the municipality gives 24,581 residents in 1995 and 32,204 in 2026, a gain of 7,623 or 31 percent. The history the broken chart would have shown was never unavailable. It was unavailable in that one place, on that one day, in that one rendering.
 
-**Four kinds of nothing on two pages about one small town**
-
 | What you see | What it might mean | The move that fits | What guessing costs you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | A chart replaced by a note about graph software | the record exists and the drawing failed | find the series elsewhere, which here takes one page | you report that a town has no population history |
 | No population beside De Kwakel | the source never published at that level | say so plainly, or find a source that does | you invent a split between two places |
 | No students-at-institutions figure | not collected, not applicable, or too small to publish | ask which before any total is taken | a real absence gets averaged in as a zero |
@@ -143,14 +137,14 @@ This one takes about a minute. The national statistics page for the municipality
 
 Every number that reaches a person has travelled through at least three layers, and each of them can produce an emptiness that looks identical from the far end. The world may genuinely have nothing to report. The record may never have collected it, or may have collected it and lost it, or may hold it while refusing to publish because the count is too small. And the view, the last and least examined layer, may simply have failed to draw what it was given. A dashboard tile that will not load, a chart library that throws, a join that silently drops rows, an export capped at a thousand records, a permission that hides a column: all of these produce a screen with nothing on it, and the person looking at that screen reaches a conclusion about the world. The habit worth building is to ask which layer before believing anything, and it costs one question. Here the answer was the third layer, the fix was to open a different page, and the town had a full history the entire time. The version of this mistake that reaches real work is the one where nobody asks, the empty tile becomes a slide, the slide becomes a decision, and the number was sitting in the database throughout.
 
+Reliable pipeline
+
 ## Five habits for telling an empty thing from an empty screen
 
 A dashboard that will not load, an export that stops at a thousand rows, a column somebody lost permission to read: every one of them looks like a fact about the business. Practised on a town whose history was never actually missing.
 
-**Working out what a blank is before acting on it**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Locate the layer | Ask whether the gap is in the world, the record or the view | A rendering bug reported as a finding | A question with an answer instead of a shrug |
 | Read the error as text | Treat any message where a number should be as a signal, not as content | An error string stored and later averaged | A blank you can trace back to a cause |
 | Try a second route | Fetch the same fact from another source before concluding it is gone | A conclusion drawn from one broken page | Confirmation, or a genuinely missing value |
@@ -171,14 +165,37 @@ A real report at work with a gap in it. Adults nearly always find that nobody kn
 
 Population, household, age, area, school and enrolment figures come from the national statistics office; the population, area, mayor, neighbouring municipalities, the 1819 and 1820 sentences, the tram extension and the missing graph come from the encyclopaedia entry for the municipality; the Indian-origin rates come from a Statistics Netherlands release dated to 1 January 2024. The rise of 7,623 people and the figure of 31 percent are this page subtracting and dividing two published counts, and are labelled as arithmetic where they appear.
 
+Learning ladder
+
 ## From a jar nobody can open to a report that codes its own gaps
 
 The rung a learner starts on is fixed in the free hour by what they can already do, and never by which of the two woonplaatsen the address is in.
 
-- **Ages 6 to 10: Is it empty or can you just not see?** Children find out how many ways there are of not knowing something. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Four kinds of blank** Learners give each kind of missing thing its own code and stop treating them alike. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 14 to 18: Summaries that refuse to guess** Teenagers write code that will not average across absences and says how many it skipped. [Frontend Development for Teens](/courses/frontend-development-masterclass-for-teens), [MySQL for Teens](/courses/mysql-mastery-for-teens)
-- **Ages 18 to 67: NULL means what, exactly?** Adults take the blanks in a real database and work out which layer each one came from. [MySQL Course](/courses/mysql-database-complete-masterclass-college), [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college)
+Ages 6 to 10
+
+### Is it empty or can you just not see?
+
+Children find out how many ways there are of not knowing something.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Four kinds of blank
+
+Learners give each kind of missing thing its own code and stop treating them alike.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 14 to 18
+
+### Summaries that refuse to guess
+
+Teenagers write code that will not average across absences and says how many it skipped.
+
+[Frontend Development for Teens](/courses/frontend-development-masterclass-for-teens)[MySQL for Teens](/courses/mysql-mastery-for-teens)Ages 18 to 67
+
+### NULL means what, exactly?
+
+Adults take the blanks in a real database and work out which layer each one came from.
+
+[MySQL Course](/courses/mysql-database-complete-masterclass-college)[AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college)Coding and AI
 
 ## An AI reading that page will report no population history for Uithoorn. Why should a child here learn to check?
 
@@ -190,30 +207,139 @@ So the learner practises the check that costs a minute: when something is absent
 
 The case for a child in Uithoorn learning to code in 2026 is therefore not about wiki software at all. It is that most of the wrong conclusions adults reach from data come from an emptiness they never questioned, that three different layers can each produce that emptiness, and that a small town with a full population history and a broken chart is the neatest demonstration of the difference anywhere in this series. The longer argument is in [whether writing code is still worth a child's time in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for a town of nineteen square kilometres
 
 Nothing in Uithoorn is far from anything. What is far is a group at the right level for a specific child, and no amount of local geography fixes that.
 
-- **The class arrives at the table** One repeating hour a week at home, whether that home is in De Kwakel or three streets from the Amstel, with no journey attached to it at either end.
-- **English throughout, Dutch school words kept** All teaching is in English, which suits a town with this many international families. Groep, havo, vwo and profielkeuze stay Dutch, because a child recognises those from their own timetable.
-- **What the free hour delivers** A level the learner has demonstrated, a named course that follows from it, and a weekly time. Nobody is asked for payment details during it.
-- **Grouped by stage, from anywhere** Groups are fifteen to twenty learners at the same level, drawn from across the world rather than from one town of 32,204, which is the only way a specific level fills up at all.
-- **Twice weekly, regio Noord holidays** Two lessons a week in a fixed slot, normally eight in a month. Noord-Holland takes its school holidays with regio Noord, and weeks away are written into the plan before it begins.
-- **The teacher is in India** Three and a half hours ahead in Dutch summer time and four and a half in winter, since only the Dutch clock moves. For families here with their own connection to India, that offset is already familiar.
+### The class arrives at the table
 
-**The second highest Indian-origin share of any municipality in the country** Statistics Netherlands recorded 49.6 residents of Indian origin per thousand in Uithoorn on 1 January 2024, second only to neighbouring Amstelveen at 68.3. Classes here are taught in English by teachers in India, on Indian time, to a syllabus that runs from age 6 to age 67, and for a good number of families in this town none of that needs explaining. The rate is quoted as published and is deliberately not turned into a number of people, since it belongs to a different year from the population figures on this page.
+One repeating hour a week at home, whether that home is in De Kwakel or three streets from the Amstel, with no journey attached to it at either end.
+
+### English throughout, Dutch school words kept
+
+All teaching is in English, which suits a town with this many international families. Groep, havo, vwo and profielkeuze stay Dutch, because a child recognises those from their own timetable.
+
+### What the free hour delivers
+
+A level the learner has demonstrated, a named course that follows from it, and a weekly time. Nobody is asked for payment details during it.
+
+### Grouped by stage, from anywhere
+
+Groups are fifteen to twenty learners at the same level, drawn from across the world rather than from one town of 32,204, which is the only way a specific level fills up at all.
+
+### Twice weekly, regio Noord holidays
+
+Two lessons a week in a fixed slot, normally eight in a month. Noord-Holland takes its school holidays with regio Noord, and weeks away are written into the plan before it begins.
+
+### The teacher is in India
+
+Three and a half hours ahead in Dutch summer time and four and a half in winter, since only the Dutch clock moves. For families here with their own connection to India, that offset is already familiar.
+
+The second highest Indian-origin share of any municipality in the country
+
+Statistics Netherlands recorded 49.6 residents of Indian origin per thousand in Uithoorn on 1 January 2024, second only to neighbouring Amstelveen at 68.3. Classes here are taught in English by teachers in India, on Indian time, to a syllabus that runs from age 6 to age 67, and for a good number of families in this town none of that needs explaining. The rate is quoted as published and is deliberately not turned into a number of people, since it belongs to a different year from the population figures on this page.
+
+Fees
 
 ## The fee, in dollars, the same in both woonplaatsen
 
 Put in writing here rather than held back for a call.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 One international rate exists and it is quoted in dollars, with no euro edition, so De Kwakel and Uithoorn see the identical figure. Nothing is charged until the free lesson has fixed a course and an hour, and payment is then arranged over WhatsApp. Pausing, changing plan and missing a week are all described on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Uithoorn.)Reviews
+
+## Six Google reviews, printed exactly as the people who left them wrote them
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us the level, not the woonplaats
+
+The first task might be a jar with a lid nobody can open, a dataset with four kinds of blank in it, or a report at work with a gap that three colleagues explain three different ways.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Uithoorn one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Uithoorn.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Uithoorn coding class questions
+
+The town, its two woonplaatsen, its missing graph, the teaching and the terms.
 
 ### Why does this page make so much of a chart that will not load?
 
@@ -255,10 +381,14 @@ The first lesson is free. After that, group tuition is USD 100 a month for two l
 
 Fifteen to twenty, matched on level, pace and goal rather than on age, school or address. One-to-one means one learner with one teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
+Explore the Netherlands
+
 ## North up the tram line, out to the province, and up to the country
 
 Twenty minutes north on the same tram is [Amstelveen](/coding-classes-in-amstelveen), the municipality with the highest Indian-origin share in the country, and beyond it [Amsterdam](/coding-classes-in-amsterdam). West across the polder lies [Haarlemmermeer](/coding-classes-in-haarlemmermeer) with the airport in it, and all of them sit inside [Noord-Holland](/coding-classes-in-noord-holland). The whole series descends from the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner who wants trained models rather than running programs should begin at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Carry on in WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Uithoorn.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-uithoorn](https://learn.modernagecoders.com/coding-classes-in-uithoorn#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-uithoorn*

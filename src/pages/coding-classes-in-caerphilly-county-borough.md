@@ -4,46 +4,32 @@ description: "Live online coding, Python and maths classes across Caerphilly cou
 canonical: https://learn.modernagecoders.com/coding-classes-in-caerphilly-county-borough
 source: src/pages/coding-classes-in-caerphilly-county-borough.html
 ---
-> Caerphilly county borough had 175,952 usual residents at the 2021 census, spread across many towns. Caerphilly itself is the largest built-up area, then Risca, Blackwood and Ystrad Mynach, with Pontllanfraith, Bargod, Newbridge and Bedwas next and many smaller places, from Oakdale to Rhymney. Our teachers work from India and every lesson is live on video; the first one is free and settles the right level for a Year 4 pupil, a Year 13 student or an adult alike. Coding, Python and maths are taught to learners from six to 67, alone with a teacher or among fifteen to twenty classmates. The Caerphilly project comes from a colliery engine house at New Tredegar. Continuing costs a monthly USD 100 in a class, or USD 150 with a tutor to yourself.
+> Live online coding, Python and maths classes across Caerphilly county borough, from Caerphilly, Risca and Blackwood to Ystrad Mynach, Bargod and Rhymney.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Caerphilly county borough
-
-Caerphilly county borough / Live online
-
-# Coding classes in Caerphilly county borough
-
-**What are the best coding classes in Caerphilly?** Caerphilly county borough had 175,952 usual residents at the 2021 census, spread across many towns. Caerphilly itself is the largest built-up area, then Risca, Blackwood and Ystrad Mynach, with Pontllanfraith, Bargod, Newbridge and Bedwas next and many smaller places, from Oakdale to Rhymney. Our teachers work from India and every lesson is live on video; the first one is free and settles the right level for a Year 4 pupil, a Year 13 student or an adult alike. Coding, Python and maths are taught to learners from six to 67, alone with a teacher or among fifteen to twenty classmates. The Caerphilly project comes from a colliery engine house at New Tredegar. Continuing costs a monthly USD 100 in a class, or USD 150 with a tutor to yourself.
-
-At New Tredegar, Cadw lists the Elliot Colliery winding engine house at Grade II*, with its engine by Thornewill and Warham, installed in 1891. The record quotes a description full of numbers, each in old units with a modern conversion in brackets: cylinders of 42 inches, a stroke of 6 feet, a drum of 24 feet, and a daily lift of about 6,000 tons of water. Numbers written twice in two systems are a gift to a programmer, because each pair can be checked. Do the conversions agree? This page's project writes a short Python program that reads the record's text, finds every pair, converts the old figure itself and flags any that disagree. One pair stands out, and the tons raise a question of definitions.
-
-Facts last verified 26 September 2026. Teaching is online; no Caerphilly county borough branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Caerphilly
 
 ## Starting points for Caerphilly learners
 
 Think of a seven-year-old in Risca who counts everything, a Blackwood Year 6 eager to type code, an Ystrad Mynach teenager beginning WJEC GCSE Computer Science, and a Caerphilly adult who checks spreadsheets for a living. Each of them would open with a free lesson.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 12): Block coding with measuring, converting and checking games.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): Units, ratios and percentages practised by writing code.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 12 to 18): Complete Python for teenagers, including text processing and tests.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (Adults): Data analysis for adults who need to check figures they did not produce.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 12Coding for KidsBlock coding with measuring, converting and checking games.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingUnits, ratios and percentages practised by writing code.See the syllabus](/courses/maths-through-coding)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 12 to 18Python for TeensComplete Python for teenagers, including text processing and tests.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)AdultsData Analysis CourseData analysis for adults who need to check figures they did not produce.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)The county borough in figures
 
 ## 175,952 people in Caerphilly county borough
 
 ONS counted 175,952 usual residents at the 2021 census, a figure we read through Nomis. Figures for individual towns are the matching ONS built-up areas.
 
-**Largest built-up areas in Caerphilly county borough (ONS, Census 2021)**
-
 | Town | Residents | Town | Residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Caerphilly | 33,105 | Bargod | 8,035 |
 | Risca | 15,195 | Newbridge | 7,585 |
 | Blackwood | 12,620 | Bedwas | 6,460 |
@@ -56,16 +42,16 @@ Beyond the table come Abercarn, Rhymney, Aberbargoed, Llanbradach and New Tredeg
 
 The capital has its own page at [Cardiff](/best-coding-class-in-cardiff). For exam help, see [WJEC GCSE Computer Science](/wjec-gcse-computer-science-help-wales) and [WJEC GCSE Digital Technology](/wjec-gcse-digital-technology-help-wales).
 
+The Caerphilly project
+
 ## A program that checks the brackets
 
 Find every pair of figures, convert, compare, flag.
 
 The learner saves the text of Cadw's record and writes a regular expression, a compact search pattern, that picks out every place where a number with an imperial unit is followed by a metric figure in brackets: inches with metres, feet with metres, tons with tonnes. For each pair, the program converts the imperial figure itself, one inch being 0.0254 metres and one foot 0.3048, and compares the result with the bracketed number. Anything more than 3 per cent apart is flagged for a human to look at. The program finds six pairs.
 
-**Our checker on the Elliot Colliery record, 26 September 2026**
-
 | Pair in the record | Our conversion | Difference | Verdict |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 42" (1.4m) | 1.067 m | +31.2 per cent | Flagged |
 | 6' (1.82m) | 1.829 m | -0.5 per cent | Agrees |
 | 24' (7.3m) | 7.315 m | -0.2 per cent | Agrees |
@@ -93,14 +79,14 @@ Use regular expressions to extract pairs from real text, set a tolerance, add te
 
 The figures are quoted as they appear in Cadw's record, which itself quotes an earlier description. Our program only reports that one pair is inconsistent; we do not claim which number is the mistake, or say anything about the engine beyond the record.
 
+Why the Elliot Colliery
+
 ## A winding engine from 1891
 
 What Cadw's record describes.
 
-**Elliot Colliery Winding Engine House and Engine, Cadw listed building record 25495, Grade II***
-
 | Record detail | What it says |
-|---|---|
+| --- | --- |
 | Pits | East and West Elliot pits, developed during the 1880s |
 | Engine | By Thornewill and Warham of Burton on Trent, installed 1891 |
 | Water | Used to lift about 6,000 tons of water a day soon after coal production began |
@@ -112,14 +98,37 @@ Automatic consistency checks run through modern software everywhere: spreadsheet
 
 We have no connection with Cadw or Caerphilly County Borough Council. The record's text belongs to Cadw; the checker, its conversions and any errors belong to us.
 
+Learning path
+
 ## From rulers to regular expressions
 
 Year bands are a starting guess; the trial lesson confirms it.
 
-- **Years 1 to 4: Measuring games** Block coding with lengths, weights and simple comparisons. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 5 to 8: Units in code** Typed Python converting units and checking answers. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Text and tests** String processing, patterns and testing alongside WJEC GCSE and A level courses. [Python for Teens](/courses/python-complete-masterclass-teens), [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)
-- **Adults: Checking data** Python and data analysis for adults who validate figures at work. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Years 1 to 4
+
+### Measuring games
+
+Block coding with lengths, weights and simple comparisons.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 5 to 8
+
+### Units in code
+
+Typed Python converting units and checking answers.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Text and tests
+
+String processing, patterns and testing alongside WJEC GCSE and A level courses.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)Adults
+
+### Checking data
+
+Python and data analysis for adults who validate figures at work.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)AI and conversions
 
 ## An AI can convert units in seconds. Will it notice a pair that does not match?
 
@@ -131,30 +140,139 @@ A Caerphilly learner who has written a checker knows to make the computer verify
 
 Teenagers in Caerphilly should still learn to code in 2026 so they can make the machine check numbers instead of just repeating them. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How lessons work
+
 ## From Rhymney to Risca, lessons at home
 
 Towns throughout the county borough join by video in the same way.
 
-- **Learners write the code** Each program is typed by the pupil while the teacher watches the shared screen and nudges when needed.
-- **Matched to Welsh schooling** Whether it is Year 5 in Oakdale or Year 12 in Bargod, we look at the year and the Curriculum for Wales, and exam work follows the WJEC specifications. Lessons are in English.
-- **Free trial lesson** A full lesson without charge, then an honest recommendation.
-- **Classes at one level** Fifteen to twenty learners at the same level, from many places.
-- **Term-time timetable** Two lessons a week in term, with holidays off.
-- **Stays at UK time** Clock changes do not move your lesson; our teachers on India time adjust instead.
+### Learners write the code
 
-**Why groups span several towns** Five learners at one level, all free at the same hour, rarely live in one town. Grouping by level gives a pupil in Bedwas or Abercarn a class that fits.
+Each program is typed by the pupil while the teacher watches the shared screen and nudges when needed.
+
+### Matched to Welsh schooling
+
+Whether it is Year 5 in Oakdale or Year 12 in Bargod, we look at the year and the Curriculum for Wales, and exam work follows the WJEC specifications. Lessons are in English.
+
+### Free trial lesson
+
+A full lesson without charge, then an honest recommendation.
+
+### Classes at one level
+
+Fifteen to twenty learners at the same level, from many places.
+
+### Term-time timetable
+
+Two lessons a week in term, with holidays off.
+
+### Stays at UK time
+
+Clock changes do not move your lesson; our teachers on India time adjust instead.
+
+Why groups span several towns
+
+Five learners at one level, all free at the same hour, rarely live in one town. Grouping by level gives a pupil in Bedwas or Abercarn a class that fits.
+
+Fees
 
 ## Fees in Caerphilly county borough
 
 Blackwood or Caerphilly, the fee is the same, as it is in every country we teach outside India.
 
-- First class: USD 0. A complete trial lesson, free, followed by advice.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty.
-- Private tuition: USD 150 a month. About eight lessons a month, one-to-one.
+First class**USD 0**
+
+A complete trial lesson, free, followed by advice.
+
+Group tuition**USD 100**
+
+About eight lessons a month in a group of fifteen to twenty.
+
+Private tuition**USD 150**
+
+About eight lessons a month, one-to-one.
 
 All fees are in US dollars, with no sterling price list. We start billing only after the trial has fixed a course and a weekly time; the pricing page explains holidays, absences and switching formats.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Caerphilly%20county%20borough%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Reviews
+
+## Google reviews from families and learners
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Caerphilly lesson
+
+Send the learner's age or school year and an interest, and we will plan the trial around it: a Scratch game, a Python program, or the unit checker on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Caerphilly county borough one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Caerphilly%20county%20borough%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Caerphilly questions
+
+The county borough, the colliery project and practical points.
 
 ### How many people live in Caerphilly county borough?
 
@@ -196,10 +314,14 @@ Lesson one costs nothing. From then on it is USD 100 per month for a group place
 
 Yes. Send us your school's holiday weeks and we leave them free.
 
+Nearby pages
+
 ## More South Wales pages
 
 [Bridgend](/coding-classes-in-bridgend) models a water-balance lift, [Blaenau Gwent](/coding-classes-in-blaenau-gwent) photographs a town clock with a pinhole camera, and [Cardiff](/best-coding-class-in-cardiff) has a city page. Our [Wales](/coding-and-ai-classes-in-wales) page links each Welsh area as it is published, and the [UK hub](/coding-classes-in-united-kingdom) covers the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Caerphilly%20county%20borough%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-caerphilly-county-borough](https://learn.modernagecoders.com/coding-classes-in-caerphilly-county-borough#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-caerphilly-county-borough*

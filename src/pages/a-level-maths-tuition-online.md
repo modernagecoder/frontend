@@ -251,7 +251,7 @@ Bring your specification and the topic that's giving you trouble. We'll show you
 
 ## More maths tuition from Modern Age Coders.
 
-[UK · examFurther Maths Tuition](/further-maths-tuition-online)[UK · 16–19College & Sixth Form Maths](/online-maths-tuition-for-college-students-in-uk)[UK · examGCSE Maths Tuition](/gcse-maths-tuition-online)[UK · competitionUKMT Maths Challenge](/ukmt-maths-challenge-tutoring)[USA · APAP Calculus AB & BC](/ap-calculus-tutoring-online)[CourseCollege Mathematics Masterclass](/courses/college-mathematics-complete-masterclass)
+[UK · costsA Level Maths Tutor Cost UK](/a-level-maths-tutor-cost-uk)[UK · examFurther Maths Tuition](/further-maths-tuition-online)[UK · 16–19College & Sixth Form Maths](/online-maths-tuition-for-college-students-in-uk)[UK · examGCSE Maths Tuition](/gcse-maths-tuition-online)[UK · competitionUKMT Maths Challenge](/ukmt-maths-challenge-tutoring)[USA · APAP Calculus AB & BC](/ap-calculus-tutoring-online)[CourseCollege Mathematics Masterclass](/courses/college-mathematics-complete-masterclass)
 
 Real student projects
 

@@ -4,46 +4,32 @@ description: "Live online coding, Python and maths classes across Somerset, from
 canonical: https://learn.modernagecoders.com/coding-classes-in-somerset
 source: src/pages/coding-classes-in-somerset.html
 ---
-> Somerset as a county is three councils: Somerset Council, which the 2021 Census still counted as four districts, plus Bath and North East Somerset and North Somerset. Their six published counts add up, by our sum, to 981,683 people. Bath and Weston-super-Mare are the largest towns, followed by Taunton, Yeovil and Bridgwater. We teach live over video from India, and learners are placed in classes by ability instead of by age. Anyone from 6 to 67 can learn coding, Python, statistics or maths with us, in a group of fifteen to twenty or one-to-one. The Somerset project tests the idea of ley lines with real monument data. Your first lesson is free; afterwards a group place costs USD 100 a month and private lessons USD 150 a month.
+> Live online coding, Python and maths classes across Somerset, from Bath, Weston-super-Mare and Taunton to Yeovil, Bridgwater, Frome, Portishead and Wells.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Somerset
-
-Somerset / Live online
-
-# Coding classes in Somerset
-
-**What are the best coding classes in Somerset?** Somerset as a county is three councils: Somerset Council, which the 2021 Census still counted as four districts, plus Bath and North East Somerset and North Somerset. Their six published counts add up, by our sum, to 981,683 people. Bath and Weston-super-Mare are the largest towns, followed by Taunton, Yeovil and Bridgwater. We teach live over video from India, and learners are placed in classes by ability instead of by age. Anyone from 6 to 67 can learn coding, Python, statistics or maths with us, in a group of fifteen to twenty or one-to-one. The Somerset project tests the idea of ley lines with real monument data. Your first lesson is free; afterwards a group place costs USD 100 a month and private lessons USD 150 a month.
-
-Glastonbury Tor, with the ruined St Michael's Church on top, is a scheduled monument, and around it lie hundreds more: barrows, hillforts, caves and the Glastonbury lake village. People have long noticed that some ancient places seem to fall on straight lines, sometimes called ley lines. But on any map with enough dots, some will line up by pure chance. This page's project asks the question properly. It takes the 233 scheduled monuments in the Mendip district, counts every set of three that sits on a near-straight line, and compares the total with the same count for random dots scattered over the same ground. The answer is more interesting than yes or no.
-
-Facts last verified 26 September 2026. Teaching is online; no Somerset branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Somerset
 
 ## Where Somerset learners start
 
 A seven-year-old in Frome who loves dot-to-dot puzzles, a Year 8 in Yeovil who asks "but is that just luck?", a Year 12 in Taunton studying statistics, and an adult in Portishead who works with reports and figures. Each starts with a free lesson.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): Logic puzzles and computational thinking, with patterns, probability problems and Venn diagrams.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): Maths learned by coding it, including coordinates, lines and experiments run thousands of times.
-- [Statistics & Probability](/courses/statistics-probability-maths-course) (Ages 14 to 18): Statistics and probability built up step by step, including how to tell a real pattern from chance.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): Data and AI tools for adults who do not code yet, with an eye for when a pattern is only luck.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsLogic puzzles and computational thinking, with patterns, probability problems and Venn diagrams.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingMaths learned by coding it, including coordinates, lines and experiments run thousands of times.See the syllabus](/courses/maths-through-coding)[![Statistics & Probability course thumbnail](/images/statistics-probability-maths.webp)Ages 14 to 18Statistics & ProbabilityStatistics and probability built up step by step, including how to tell a real pattern from chance.See the syllabus](/courses/statistics-probability-maths-course)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)Data and AI tools for adults who do not code yet, with an eye for when a pattern is only luck.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Somerset in figures
 
 ## 981,683 people from the Severn to Exmoor
 
 Council counts are 2021 Census figures on Nomis; the county total is our sum. Towns are ONS built-up areas, each compared with our own addition of census output areas.
 
-**Somerset's twelve largest built-up areas, 2021 Census**
-
 | Town | Residents | Town | Residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Bath | 94,080 | Portishead | 26,355 |
 | Weston-super-Mare | 84,605 | Clevedon | 21,085 |
 | Taunton | 61,665 | Keynsham | 19,255 |
@@ -57,6 +43,8 @@ North Somerset is the largest of the six census areas at 216,726, and Mendip the
 
 Our [Bath](/best-coding-class-in-bath) page compares two Jane Austen novels, and [Wells](/best-coding-class-in-wells) predicts full moons. This page covers the rest of the county, from Portishead to Chard.
 
+The Somerset project
+
 ## Ley lines, or the arithmetic of dots?
 
 Real monuments, random monuments, and a fairer kind of random that changes the answer.
@@ -65,10 +53,8 @@ The learner downloads the Historic England list of scheduled monuments and keeps
 
 To answer it, the program scatters 233 random dots over Mendip using rejection sampling. It picks a random spot in the rectangle around the district, keeps it if it falls inside the boundary and throws it away if not. About 60.6 per cent of spots are kept, so each dot takes about 1.65 tries. Twenty scatterings of random dots give between 5,746 and 6,910 alignments, averaging about 6,326.
 
-**Near-straight triples within 25 metres, our runs of 26 September 2026**
-
 | Set of 233 points | Straight triples | What it tells you |
-|---|---|---|
+| --- | --- | --- |
 | Real Mendip monuments | 14,569 | The number to explain |
 | Random dots, spread evenly | About 6,326 | Monuments beat plain chance by more than two to one |
 | Each monument moved up to 3 km | About 11,217 | Keeping the clumps explains much of the gap |
@@ -94,14 +80,14 @@ Run the full comparison with the real monuments, build the clustered random mode
 
 The monuments and their names come from Historic England's National Heritage List, and the Mendip boundary from the ONS. The alignment rule, the random models and every count in the table are ours, and a different width or rule would give different numbers. Nothing here says anything about what the monuments meant to the people who built them.
 
+Why Mendip
+
 ## A Tor, a lake village and a gorge full of caves
 
 The Somerset link, in the list entries themselves.
 
-**Some of the 233 scheduled monuments in the Mendip data**
-
 | List entry | Name on the National Heritage List |
-|---|---|
+| --- | --- |
 | 1019390 | St Michael's Church, monastic remains, and other settlement remains on Glastonbury Tor |
 | 1006156 | Glastonbury lake village |
 | 1011925 | Gough's Cave, Cheddar Gorge |
@@ -111,16 +97,41 @@ Mendip is a good place for this test because it holds so many recorded monuments
 
 Modern Age Coders is independent of Historic England, Somerset Council and the other councils named here. The list entries are Historic England's; our counts and any errors are ours.
 
-**Nearby pages** [Bath](/best-coding-class-in-bath) and [Wells](/best-coding-class-in-wells) have their own pages; [Bristol](/best-coding-class-in-bristol) is just north, with [Dorset](/coding-classes-in-dorset) and [Devon](/coding-classes-in-devon) to the south and west.
+Nearby pages
+
+[Bath](/best-coding-class-in-bath) and [Wells](/best-coding-class-in-wells) have their own pages; [Bristol](/best-coding-class-in-bristol) is just north, with [Dorset](/coding-classes-in-dorset) and [Devon](/coding-classes-in-devon) to the south and west.
+
+The path
 
 ## From dot-to-dot to telling signal from chance
 
 The free lesson places each learner. Age offers a guess; ability makes the decision.
 
-- **Ages 6 to 10: Dots and shapes** Block coding with coordinates, shapes and random dots that appear on the screen. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 8 to 13: Chance experiments** Python and puzzles that run a random experiment many times and count the results. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 18: Real data, fair tests** Statistics and data science in Python, with random models to compare real patterns against. [Statistics & Probability](/courses/statistics-probability-maths-course), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Judging claims** Data, statistics and AI tools for adults who need to know when a pattern is real. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### Dots and shapes
+
+Block coding with coordinates, shapes and random dots that appear on the screen.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 8 to 13
+
+### Chance experiments
+
+Python and puzzles that run a random experiment many times and count the results.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 18
+
+### Real data, fair tests
+
+Statistics and data science in Python, with random models to compare real patterns against.
+
+[Statistics & Probability](/courses/statistics-probability-maths-course)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Judging claims
+
+Data, statistics and AI tools for adults who need to know when a pattern is real.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Data Analysis Course](/courses/data-analysis-mastery-course-college)AI and patterns
 
 ## An AI finds patterns everywhere. Which ones would random data show too?
 
@@ -132,30 +143,139 @@ A Somerset student who has built the comparison knows to ask of any AI finding w
 
 So a young person in Somerset should learn to code in 2026 to ask "compared with what?" before believing a pattern. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## From the Levels to the Quantocks, without the drive
 
 Somerset is long and rural, and a weekly class in one of its towns is out of easy reach for many families. Online lessons fix that.
 
-- **Learning at home** A farmhouse on the Levels, a terrace in Bridgwater, a flat in Weston. The screen is shared and the learner writes the code.
-- **Words from school** Year groups, key stages, GCSEs and A levels mean the same here as in Somerset schools, and all teaching is in English.
-- **A first lesson on us** A real lesson, then a straight recommendation of level and course. We never ask for card details at this stage.
-- **The right group** Fifteen to twenty learners at the same stage, drawn from Somerset, the UK and further afield.
-- **Pauses for holidays** Two lessons a week suits most learners, with breaks for your school's holidays.
-- **Times kept in UK time** We book you in UK time, unchanged by the clock changes; your teacher works on India time, several hours ahead, and handles the difference.
+### Learning at home
 
-**Why level matters most** Across a county of market towns and villages, five learners at one stage free on the same evening are rarely neighbours. Level-based groups let a learner in Minehead or Shepton Mallet join a class that fits.
+A farmhouse on the Levels, a terrace in Bridgwater, a flat in Weston. The screen is shared and the learner writes the code.
+
+### Words from school
+
+Year groups, key stages, GCSEs and A levels mean the same here as in Somerset schools, and all teaching is in English.
+
+### A first lesson on us
+
+A real lesson, then a straight recommendation of level and course. We never ask for card details at this stage.
+
+### The right group
+
+Fifteen to twenty learners at the same stage, drawn from Somerset, the UK and further afield.
+
+### Pauses for holidays
+
+Two lessons a week suits most learners, with breaks for your school's holidays.
+
+### Times kept in UK time
+
+We book you in UK time, unchanged by the clock changes; your teacher works on India time, several hours ahead, and handles the difference.
+
+Why level matters most
+
+Across a county of market towns and villages, five learners at one stage free on the same evening are rarely neighbours. Level-based groups let a learner in Minehead or Shepton Mallet join a class that fits.
+
+Fees
 
 ## Fees in Somerset
 
 Chard or Clevedon, you pay the same, and so do families in every country we teach except India.
 
-- First class: USD 0. A whole lesson of real work, ending with advice on level and course.
-- Group tuition: USD 100 a month. Roughly eight lessons a month in a group of fifteen to twenty at one level.
-- Private tuition: USD 150 a month. Roughly eight lessons a month, one teacher and one learner.
+First class**USD 0**
+
+A whole lesson of real work, ending with advice on level and course.
+
+Group tuition**USD 100**
+
+Roughly eight lessons a month in a group of fifteen to twenty at one level.
+
+Private tuition**USD 150**
+
+Roughly eight lessons a month, one teacher and one learner.
 
 Everything is priced in US dollars, with no sterling prices. Nothing is billed until the free lesson has set a course and a weekly time; the pricing page covers pauses, missed lessons and moving between group and private.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Somerset%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Reviews
+
+## What families write about us on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson in Somerset
+
+Share an age or school year and a favourite pastime. A first lesson might be a dot game in Scratch, a Python coin-toss experiment, or the monument lines on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Somerset one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Somerset%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Somerset questions
+
+The county, the monument project and practical details.
 
 ### How many people live in Somerset?
 
@@ -197,10 +317,14 @@ The first lesson is free. Then it is USD 100 a month for a group or USD 150 a mo
 
 We can. Somerset Council, Bath and North East Somerset, North Somerset and academy trusts publish dates, and we pause around your school's.
 
+Close by
+
 ## Pages near Somerset
 
 Within the county see [Bath](/best-coding-class-in-bath) and [Wells](/best-coding-class-in-wells); beyond it are [Bristol](/best-coding-class-in-bristol), [Dorset](/coding-classes-in-dorset) and [Devon](/coding-classes-in-devon). The [UK hub](/coding-classes-in-united-kingdom) lists everything else.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Somerset%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-somerset](https://learn.modernagecoders.com/coding-classes-in-somerset#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-somerset*

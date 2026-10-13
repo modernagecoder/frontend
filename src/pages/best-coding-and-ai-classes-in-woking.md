@@ -4,46 +4,32 @@ description: "Live online coding, AI and Python classes for Woking children, tee
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-woking
 source: src/pages/best-coding-and-ai-classes-in-woking.html
 ---
-> Woking borough counted 103,944 residents in the 2021 census, and the Woking built-up area 75,660. It leans towards families: children aged 5 to 14 and adults aged 35 to 49 each form a larger share than across England. Our teachers work from India and run live online lessons in coding, AI, Python and maths for anyone aged 6 to 67, either alone with a tutor or in a class of fifteen to twenty at one stage. A free first lesson settles the right course. The Woking project fact-checks a famous novel set on Horsell Common. If the learner continues, a group place is USD 100 per month and private tuition USD 150 per month.
+> Live online coding, AI and Python classes for Woking children, teenagers and adults aged 6 to 67, one-to-one or in small groups. Your first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South East England](/coding-and-ai-classes-in-south-east-england) / Woking
-
-Woking, Surrey, England / Live online
-
-# Coding and AI classes in Woking
-
-**Where can Woking learners find the best coding and AI classes?** Woking borough counted 103,944 residents in the 2021 census, and the Woking built-up area 75,660. It leans towards families: children aged 5 to 14 and adults aged 35 to 49 each form a larger share than across England. Our teachers work from India and run live online lessons in coding, AI, Python and maths for anyone aged 6 to 67, either alone with a tutor or in a class of fifteen to twenty at one stage. A free first lesson settles the right course. The Woking project fact-checks a famous novel set on Horsell Common. If the learner continues, a group place is USD 100 per month and private tuition USD 150 per month.
-
-The War of the Worlds by H. G. Wells begins with Martians landing on Horsell Common, "between Horsell, Ottershaw, and Woking", and its narrator walks home to Maybury. Before any of that, Wells gives the reader some numbers. Mars, he writes, orbits at a mean distance of 140,000,000 miles, gets "barely half" the sunlight Earth does, and is "scarcely one seventh of the volume of the earth". A novelist in the 1890s had no calculator and no space probes. Were his figures right? A Woking learner can check them with a few lines of Python and data from NASA's Jet Propulsion Laboratory, and along the way meet the two scaling laws that trip up almost everyone.
-
-Facts last verified 27 September 2026. Teaching is online; no Woking branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentWoking course picks
 
 ## Courses Woking learners often start with
 
 These suit most beginners. Each one opens with a free live lesson, and nobody asks for payment details.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 9): Drag-and-drop coding with planets, rockets and simple games.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 9 to 12): A first typed language, with small AI experiments along the way.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Full Python for teenagers, including the Mars scaling project.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Adults and students): Python from zero for grown-ups, through to real data work.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 9Coding for KidsDrag-and-drop coding with planets, rockets and simple games.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 9 to 12Python and AI for KidsA first typed language, with small AI experiments along the way.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensFull Python for teenagers, including the Mars scaling project.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)Adults and studentsPython MasterclassPython from zero for grown-ups, through to real data work.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Woking in figures
 
 ## A borough of young families
 
 Selected age bands for Woking borough from census table TS007A (2021), read from Nomis and set beside England.
 
-**Woking borough and England, selected ages, Census 2021 TS007A**
-
 | Age band | Woking residents | Woking share | England share |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 5 to 9 | 6,745 | 6.5% | 5.9% |
 | 10 to 14 | 6,787 | 6.5% | 6.0% |
 | 20 to 24 | 4,890 | 4.7% | 6.0% |
@@ -57,16 +43,16 @@ School-age children and parents in their late thirties and forties are over-repr
 
 See the [Surrey](/coding-classes-in-surrey) county page, or the [South East](/coding-and-ai-classes-in-south-east-england) page for the wider region.
 
+The Woking project
+
 ## Checking Wells with NASA numbers
 
 Two claims from chapter one, one square law and one cube law.
 
 The learner starts with JPL's orbital elements: Mars has a semi-major axis of 1.52371034 astronomical units, Earth's orbit about 1.00000261. Sunlight spreads over the surface of an ever larger sphere, so its strength falls with the inverse square of distance. Python gives (1.00000261 / 1.52371034) squared, which is 0.4307. Mars receives about 43 per cent of Earth's sunlight, so "barely half" holds up well. Converting the distance with the IAU value of the astronomical unit gives 141.6 million miles, close to Wells's round 140 million.
 
-**Our Python results from JPL data, 27 September 2026**
-
 | Question | Correct law | Result | The tempting slip |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Sunlight on Mars vs Earth, mean distance | Inverse square | 0.43 (about 43%) | Plain ratio gives 0.66, "two thirds" |
 | Sunlight at Mars's nearest vs farthest | Inverse square | 1.45 times stronger | Plain ratio gives only 1.21 |
 | Volume of Mars vs Earth | Cube of the radius | 0.1506, about 1/6.6 | Squaring gives 0.28, over a quarter |
@@ -91,14 +77,14 @@ Use the full orbit, plot sunlight across a Martian year and compare with Earth's
 
 The quotations come from The War of the Worlds on Project Gutenberg, and the orbital and radius figures from NASA's Jet Propulsion Laboratory. The calculations and conclusions are ours.
 
+Why Horsell Common
+
 ## A novel with a Woking street map
 
 Places named in the text of The War of the Worlds.
 
-**Woking places in the novel, from the Project Gutenberg text**
-
 | Place | How the novel uses it |
-|---|---|
+| --- | --- |
 | Horsell Common | Where the first cylinder lands; a whole chapter is named after it |
 | The sand-pits | The crater and the crowd that gathers around it |
 | Maybury | The narrator's home |
@@ -110,14 +96,37 @@ Scaling laws like these run through modern engineering and computing. Solar pane
 
 Modern Age Coders is independent of NASA, the Jet Propulsion Laboratory, Project Gutenberg and the ONS. The data and text belong to them; the code, and any mistake in it, is ours.
 
+Path through the years
+
 ## From torchlight on squared paper to planetary models
 
 The year groups are rough; the trial lesson decides.
 
-- **Years 1 to 4: Games and space** Block coding with loops, sprites and a rocket or two. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 5 to 8: First Python** Variables, functions and small science calculations. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Years 9 to 13: Models and AI** Python modelling and AI alongside GCSE and A level maths. [Python for Teens](/courses/python-complete-masterclass-teens), [High School Mathematics](/courses/complete-high-school-mathematics-mastery)
-- **Adults: Real data work** Programming and data analysis for adults. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Years 1 to 4
+
+### Games and space
+
+Block coding with loops, sprites and a rocket or two.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 5 to 8
+
+### First Python
+
+Variables, functions and small science calculations.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Years 9 to 13
+
+### Models and AI
+
+Python modelling and AI alongside GCSE and A level maths.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[High School Mathematics](/courses/complete-high-school-mathematics-mastery)Adults
+
+### Real data work
+
+Programming and data analysis for adults.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)AI and arithmetic
 
 ## Will an AI notice when a ratio should be squared?
 
@@ -129,30 +138,139 @@ A Woking learner who has written the scale function knows to ask which power app
 
 Knowing which law to apply is a solid reason for Woking teenagers to keep learning to code in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Lesson format
+
 ## From Horsell to Old Woking, all by video
 
 Where in the borough you live makes no difference.
 
-- **Hands on the keyboard** The learner types every line; the tutor watches the shared screen and nudges with questions.
-- **Right stage, right year** A Year 4 and a Year 12 start where their school year and trial suggest, with the exam board named.
-- **Free opening lesson** Nothing to pay for the trial, and a straight answer about what fits.
-- **Level-matched groups** Classes of fifteen to twenty people at the same point, drawn from across the UK.
-- **Twice a week** Two sessions weekly during term time, none in the holidays.
-- **Your clock, fixed** When the UK clocks change, our teachers move and your slot stays put.
+### Hands on the keyboard
 
-**Why groups are online** Finding five Woking learners at one level, all free at the same hour, is rare. Online, each learner gets a class at their own stage.
+The learner types every line; the tutor watches the shared screen and nudges with questions.
+
+### Right stage, right year
+
+A Year 4 and a Year 12 start where their school year and trial suggest, with the exam board named.
+
+### Free opening lesson
+
+Nothing to pay for the trial, and a straight answer about what fits.
+
+### Level-matched groups
+
+Classes of fifteen to twenty people at the same point, drawn from across the UK.
+
+### Twice a week
+
+Two sessions weekly during term time, none in the holidays.
+
+### Your clock, fixed
+
+When the UK clocks change, our teachers move and your slot stays put.
+
+Why groups are online
+
+Finding five Woking learners at one level, all free at the same hour, is rare. Online, each learner gets a class at their own stage.
+
+Fees
 
 ## What Woking families pay
 
 Woking pays the same rates as every other country outside India.
 
-- First class: USD 0. A full free lesson, ending with a clear course suggestion.
-- Group tuition: USD 100 a month. Roughly eight live small-class lessons each month.
-- Private tuition: USD 150 a month. Roughly eight live one-to-one lessons each month.
+First class**USD 0**
+
+A full free lesson, ending with a clear course suggestion.
+
+Group tuition**USD 100**
+
+Roughly eight live small-class lessons each month.
+
+Private tuition**USD 150**
+
+Roughly eight live one-to-one lessons each month.
 
 Fees are set in US dollars rather than sterling. We only start billing after the trial has agreed a course and a weekly slot, and the pricing page explains holidays, missed sessions and moving between formats.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20Woking%20learner.)Reviews
+
+## What families say on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson from Woking
+
+Share the learner's age or school year and something they enjoy. The trial could be a Scratch space game, a first Python program, an AI experiment, or the Mars sunlight check.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Woking one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20Woking%20learner.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Questions from Woking
+
+About Woking, the Mars project and how lessons work.
 
 ### What is the population of Woking?
 
@@ -194,10 +312,14 @@ The first lesson is free. After that, USD 100 per month for a group or USD 150 p
 
 Yes. Tell us your term dates and we pause.
 
+More nearby
+
 ## Other pages around Woking
 
 The [Surrey](/coding-classes-in-surrey) page covers the county, [Guildford](/ai-and-programming-classes-in-guildford) solves a Lewis Carroll logic puzzle by computer, and the [South East](/coding-and-ai-classes-in-south-east-england) page lists the region. Every UK page is on the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Chat with us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20Woking%20learner.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-and-ai-classes-in-woking](https://learn.modernagecoders.com/best-coding-and-ai-classes-in-woking#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-woking*

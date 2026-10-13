@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and vibe coding lessons for Larne, 
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-larne
 source: src/pages/online-coding-and-python-classes-in-larne.html
 ---
-> Census 2021 figures from NISRA give the Larne settlement roughly 18,853 usual residents and the Larne Lough district electoral area 18,324. Craigyhill, Gardenmore, Curran and Inver and Kilwaughter are among the wards postcodes.io lists for the BT40 district. Our tutors in India teach coding, Python, AI, vibe coding and maths on live video to learners from six to 67, one-to-one or with five to ten others at a matching level. We put reasoning ahead of tools, so learners can judge whether a clever shortcut is trustworthy. The opening lesson is free and closes with our course advice. The Larne project counts how many different people and edits built the town's OpenStreetMap data, 65,602 map elements in all, first exactly and then with a HyperLogLog sketch that fits in less than a kilobyte. Monthly fees after the trial: USD 100 for a group place, USD 150 for private lessons.
+> Live online coding, Python, AI and vibe coding lessons for Larne, Craigyhill, Gardenmore and Islandmagee learners aged 6 to 67, with CCEA support. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Northern Ireland](/coding-and-ai-classes-in-northern-ireland) / Larne
-
-Larne, Mid and East Antrim, Northern Ireland / Live online
-
-# Online coding and Python classes in Larne
-
-**Which are the best online coding and Python classes in Larne?** Census 2021 figures from NISRA give the Larne settlement roughly 18,853 usual residents and the Larne Lough district electoral area 18,324. Craigyhill, Gardenmore, Curran and Inver and Kilwaughter are among the wards postcodes.io lists for the BT40 district. Our tutors in India teach coding, Python, AI, vibe coding and maths on live video to learners from six to 67, one-to-one or with five to ten others at a matching level. We put reasoning ahead of tools, so learners can judge whether a clever shortcut is trustworthy. The opening lesson is free and closes with our course advice. The Larne project counts how many different people and edits built the town's OpenStreetMap data, 65,602 map elements in all, first exactly and then with a HyperLogLog sketch that fits in less than a kilobyte. Monthly fees after the trial: USD 100 for a group place, USD 150 for private lessons.
-
-Counting how many different things you have seen sounds trivial: keep a list and check each new item against it. At the scale of website visitors, search queries or map edits, that list becomes enormous. HyperLogLog, a neat trick from computer science, estimates the number of distinct items using a tiny, fixed amount of memory. It hashes each item to a random-looking number, keeps only the longest run of leading zeros seen in each of a set of buckets, and turns those records into an estimate. This project tests it on a real stream: every element of the OpenStreetMap data covering Larne, and who last edited it.
-
-Facts last verified 29 September 2026. Teaching is online; no Larne branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentLarne course picks
 
 ## Larne courses in thinking, Python and AI
 
 Four starting points arranged by age, each opening with a live lesson we do not charge for.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think course: estimating big numbers from small clues, and checking the estimate.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games planned by the learner, made with AI help and tested by hand.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python from first steps to hashing and data streams, including the Larne counting project.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Students and adults): Python for data engineering, efficient algorithms and AI agents.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think course: estimating big numbers from small clues, and checking the estimate.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games planned by the learner, made with AI help and tested by hand.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython from first steps to hashing and data streams, including the Larne counting project.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)Students and adultsPython MasterclassPython for data engineering, efficient algorithms and AI agents.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Larne and Mid and East Antrim
 
 ## Larne, Craigyhill, Gardenmore and Curran and Inver
 
 NISRA census figures for Larne, and wards listed for the BT40 postcode district.
 
-**Larne in NISRA Census 2021 MS-A01 (settlement figures are NISRA approximations)**
-
 | Area | Usual residents (2021) |
-|---|---|
+| --- | --- |
 | Larne settlement | 18,853 |
 | Larne Lough district electoral area | 18,324 |
 | Craigyhill ward | 3,920 |
@@ -57,16 +43,16 @@ These areas overlap and are drawn differently, so each figure is shown as NISRA 
 
 See [coding classes in Mid and East Antrim](/coding-classes-in-mid-and-east-antrim), [Belfast](/best-coding-class-in-belfast) and [CCEA GCSE Digital Technology programming help](/ccea-gcse-digital-technology-programming-help). Why thinking comes before tools is on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Larne project
+
 ## Counting without remembering: HyperLogLog on the map data behind Larne
 
 An exact count from a big set, then estimates from a few hundred bytes, repeated 200 times.
 
 The learner downloads OpenStreetMap data for a rectangle over Larne in twelve tiles: 65,602 map elements, from single points to whole roads and boundaries. Each element records who last edited it and in which batch of edits, called a changeset. Counted exactly with a Python set, the stream holds 216 different contributors and 1,128 different changesets. Keeping every element ID in a set took about 5.5 MB of memory. HyperLogLog replaces the set with a fixed row of small counters, called registers, and the learner tries four sizes, each with 200 different hash functions to see how much the answer varies.
 
-**Estimating the 1,128 distinct changesets with HyperLogLog, 200 hash seeds per size, our Python run on OpenStreetMap data**
-
 | Registers (memory) | Typical error | Error in the worst tenth | Theory predicts about |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 16 (about 12 bytes) | 17.1% | 43.5% | 26% |
 | 64 (about 48 bytes) | 9.3% | 20.9% | 13% |
 | 256 (about 192 bytes) | 3.9% | 9.8% | 6.5% |
@@ -90,14 +76,14 @@ Code HyperLogLog, vary the registers and measure the error over many hash seeds.
 
 Map elements, contributor IDs and changeset IDs are from OpenStreetMap and its contributors under the Open Database Licence; no contributor is named here. The counting code, memory figures and error rates are our own work.
 
+Estimates and AI
+
 ## What this teaches about vibe coding and AI agents
 
 Near enough is useful only if you know how near.
 
-**From the Larne counting project to working with AI**
-
 | In the HyperLogLog project | When AI gives you an estimate |
-|---|---|
+| --- | --- |
 | 768 bytes gave about 2% error | Small, fast methods can be good enough |
 | 16 registers could be 43% out | Cheap estimates can be badly wrong |
 | 200 seeds showed the spread | Judge a method by its range, not one run |
@@ -108,14 +94,37 @@ Many figures an AI assistant hands you are estimates, from word counts to usage 
 
 The data is open and comes from OpenStreetMap, NISRA and postcodes.io, none of which is connected with us; the counting work and any faults are ours.
 
+Stages
+
 ## From coin-flip guesses to streaming algorithms
 
 A school year gives us a first estimate of level; the trial confirms it.
 
-- **P1 to P7: How to think** Estimating, sampling and checking a guess. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **P5 to Year 9: Vibe coding for kids** Games and apps planned by the learner and built with AI help. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 10 to 14: Python and data** Hashing, sets and efficient code alongside CCEA GCSE and A level. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)
-- **Adults: Data engineering and agents** Large data, streaming methods and AI agents in Python. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
+P1 to P7
+
+### How to think
+
+Estimating, sampling and checking a guess.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)P5 to Year 9
+
+### Vibe coding for kids
+
+Games and apps planned by the learner and built with AI help.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 10 to 14
+
+### Python and data
+
+Hashing, sets and efficient code alongside CCEA GCSE and A level.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)Adults
+
+### Data engineering and agents
+
+Large data, streaming methods and AI agents in Python.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)Python and data
 
 ## What is HyperLogLog, and how does it count unique items?
 
@@ -127,30 +136,139 @@ Learners who have built one ask of any big-data figure an AI quotes: is this exa
 
 Knowing when an estimate is safe lets Larne teenagers use data and AI with judgement, and learning Python is where that judgement grows in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Taught online across Larne
 
 All you need is a computer with a camera and an internet connection that copes with video.
 
-- **The student runs it** Learners type, prompt and run each step, and the tutor watches over screen share, asking how they would check it.
-- **Pitched at the trial** The free session shows where to begin, and any CCEA exam is noted.
-- **Nothing to pay first** Lesson one is free and finishes with a course suggestion.
-- **Matched groups** Fifteen to twenty learners from across the UK, placed by level.
-- **Two a week** Paused for school holidays.
-- **Fixed hour** Our tutors adjust to UK clock changes so your slot never moves.
+### The student runs it
 
-**Why online** Five learners at one level, all free on one evening, rarely live within reach of each other. Video makes that irrelevant.
+Learners type, prompt and run each step, and the tutor watches over screen share, asking how they would check it.
+
+### Pitched at the trial
+
+The free session shows where to begin, and any CCEA exam is noted.
+
+### Nothing to pay first
+
+Lesson one is free and finishes with a course suggestion.
+
+### Matched groups
+
+Fifteen to twenty learners from across the UK, placed by level.
+
+### Two a week
+
+Paused for school holidays.
+
+### Fixed hour
+
+Our tutors adjust to UK clock changes so your slot never moves.
+
+Why online
+
+Five learners at one level, all free on one evening, rarely live within reach of each other. Video makes that irrelevant.
+
+Fees
 
 ## Larne fees
 
 Learners in Larne pay our international prices, which apply in every country except India.
 
-- First class: USD 0. A full lesson free, then a recommendation.
-- Group tuition: USD 100 a month. About eight live group lessons each month.
-- Private tuition: USD 150 a month. About eight live one-to-one lessons each month.
+First class**USD 0**
+
+A full lesson free, then a recommendation.
+
+Group tuition**USD 100**
+
+About eight live group lessons each month.
+
+Private tuition**USD 150**
+
+About eight live one-to-one lessons each month.
 
 Larne invoices come in US dollars, never sterling, starting the week after a trial fixes both course and slot; see the pricing page for breaks, absences and format swaps.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20Python%20lesson%20for%20a%20learner%20in%20Larne%3F)Reviews
+
+## Reviews on Google from Antrim coast families and UK learners
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Larne lesson
+
+We only need an age or school year and a hobby. A trial could be guessing big numbers from coin flips, building a Scratch game with AI help, starting Python, or tallying real map data.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Larne one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20Python%20lesson%20for%20a%20learner%20in%20Larne%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Larne questions
+
+Unique counts, HyperLogLog, the Larne map stream, vibe coding and lesson logistics.
 
 ### What is the population of Larne?
 
@@ -192,10 +310,14 @@ A free first class, and after that USD 100 each month for a shared group or USD 
 
 Lessons take a break; tell us the dates and we plan around them.
 
+Nearby
+
 ## More County Antrim and Northern Ireland pages
 
 Pages with their own projects: [Mid and East Antrim](/coding-classes-in-mid-and-east-antrim), [Belfast](/best-coding-class-in-belfast), [Antrim and Newtownabbey](/coding-classes-in-antrim-and-newtownabbey) and [Bangor](/best-coding-class-in-bangor-northern-ireland). The [Northern Ireland page](/coding-and-ai-classes-in-northern-ireland) and the [UK hub](/coding-classes-in-united-kingdom) reach everywhere else.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20Python%20lesson%20for%20a%20learner%20in%20Larne%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/online-coding-and-python-classes-in-larne](https://learn.modernagecoders.com/online-coding-and-python-classes-in-larne#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-larne*

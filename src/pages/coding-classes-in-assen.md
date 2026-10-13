@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and app classes for Assen, ages 6 t
 canonical: https://learn.modernagecoders.com/coding-classes-in-assen
 source: src/pages/coding-classes-in-assen.html
 ---
-> Assen, capital of Drenthe since 1814, had 70,769 residents on 1 January 2026 according to the national statistics. It grew from the convent of Maria in Campis, moved here from Coevorden in 1259, became a municipality in 1807 and a town in 1809, and since 1925 it has hosted a motorcycle race every year on the TT circuit. A race decides who arrives first. Programs have races too, and they are bugs: when two parts of a system update the same thing at the same moment, the result depends on which gets there first, and an update can vanish without any error. Every booking system, shared document and team of AI agents has to be built so that this cannot happen. Classes are live, online and in English for ages 6 to 67; the first is free, then USD 100 a month in a group or USD 150 one to one.
+> Live online coding, Python, AI and app classes for Assen, ages 6 to 67, from the Centrum and Pittelo to Kloosterveen and Marsdijk. The first lesson is free.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Assen
-
-Assen, Drenthe / Live online
-
-# Coding classes in Assen, the TT town, and the races that happen inside code
-
-**What are the best coding classes in Assen?** Assen, capital of Drenthe since 1814, had 70,769 residents on 1 January 2026 according to the national statistics. It grew from the convent of Maria in Campis, moved here from Coevorden in 1259, became a municipality in 1807 and a town in 1809, and since 1925 it has hosted a motorcycle race every year on the TT circuit. A race decides who arrives first. Programs have races too, and they are bugs: when two parts of a system update the same thing at the same moment, the result depends on which gets there first, and an update can vanish without any error. Every booking system, shared document and team of AI agents has to be built so that this cannot happen. Classes are live, online and in English for ages 6 to 67; the first is free, then USD 100 a month in a group or USD 150 one to one.
-
-Two people open the same shared shopping list on two phones. Each sees that there are ten items, each adds one, and each saves. The list should now hold twelve items; it holds eleven, because the second save overwrote the first without either person noticing. Programmers call this a race condition, and it is one of the most stubborn kinds of bug there is, because it only appears when two things happen at almost exactly the same moment, which may be rare on a quiet Tuesday and constant on the busiest day of the year. Assen, where a motorcycle race has been run every year since 1925, is a fitting place to learn it. The cure is not to hope that things never collide, but to design so that a collision cannot lose anything: operations that happen as one indivisible step, locks and transactions, and rules in the database that make the impossible result impossible to store.
-
-Facts last verified 11 September 2026. Teaching is online; no Assen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Assen
 
 ## Four courses for the capital of Drenthe
 
 A child in Pittelo who wants to make a two-player game, a teenager in Kloosterveen building a booking app for a sports club, a student in the Centrum whose program sometimes gives a different answer for no visible reason, and an adult in Marsdijk whose team edits the same spreadsheet at once. For each of them, the first lesson is free.
 
-- [Game Development for Kids](/courses/game-development-masterclass-for-kids) (Ages 8 to 12): Two-player games where both players can grab the same prize at once, and the child makes sure only one of them actually gets it.
-- [App Development for Teens](/courses/complete-app-development-masterclass-for-teens) (Ages 13 to 18): A booking app that cannot sell the same seat twice, however many people press the button at the same moment.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Python with threads, tasks and databases, where lost updates are reproduced on purpose and then prevented properly.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): Shared files, forms and automations checked for the edits that disappear when two people save together.
+[![Game Development for Kids course thumbnail](/images/game-dev-kids.webp)Ages 8 to 12Game Development for KidsTwo-player games where both players can grab the same prize at once, and the child makes sure only one of them actually gets it.See the syllabus](/courses/game-development-masterclass-for-kids)[![App Development for Teens course thumbnail](/images/app-dev-teens.webp)Ages 13 to 18App Development for TeensA booking app that cannot sell the same seat twice, however many people press the button at the same moment.See the syllabus](/courses/complete-app-development-masterclass-for-teens)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CoursePython with threads, tasks and databases, where lost updates are reproduced on purpose and then prevented properly.See the syllabus](/courses/python-ai-automation-masterclass-college)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)Shared files, forms and automations checked for the edits that disappear when two people save together.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Assen today
 
 ## A convent of 1259, a capital of 1814, and a race every year since 1925
 
 The municipality has seven woonplaatsen and is divided by the statistics office into ten wijken and 109 buurten: the Centrum, Lariks, Noorderpark, Pittelo, Assen-Oost, Assen-West, Peelo, Marsdijk, Kloosterveen and the Buitengebied. On 8,188 hectares of land and 157 of water it has a published density of 860 residents per square kilometre.
 
-**Assen in the encyclopaedia, by date**
-
 | Year | What happened |
-|---|---|
+| --- | --- |
 | 1259 | the convent of Maria in Campis, or Marienkamp, was moved from Coevorden to a sand ridge where the centre of Assen now lies |
 | 1807 | Assen became an independent municipality |
 | 1809 | it became a town, on the orders of Louis Napoleon |
@@ -62,21 +48,23 @@ Assen is the capital of a province whose largest municipality is Emmen. The capi
 
 Beyond the old centre lie wijken such as Pittelo, Marsdijk, Lariks and Kloosterveen, among the residential districts the encyclopaedia names.
 
+A lost update
+
 ## Two updates, one counter, and a result that is wrong
 
 The table follows two parts of a program, A and B, each adding one to a counter that starts at ten. Both steps are correct on their own. The order in which they run is what goes wrong.
 
-**A race condition, step by step**
-
 | Step | Part A does | Part B does | Counter afterwards |
-|---|---|---|---|
-| 1 | reads the counter: 10 |  | 10 |
-| 2 |  | reads the counter: 10 | 10 |
-| 3 | adds one and writes 11 |  | 11 |
-| 4 |  | adds one and writes 11 | 11, where 12 was expected |
+| --- | --- | --- | --- |
+| 1 | reads the counter: 10 |   | 10 |
+| 2 |   | reads the counter: 10 | 10 |
+| 3 | adds one and writes 11 |   | 11 |
+| 4 |   | adds one and writes 11 | 11, where 12 was expected |
 | Fixed | reads, adds and writes as one indivisible step | waits until A has finished, then does the same | 12 |
 
 Neither part made a mistake; each read, added and wrote exactly as written. The fault lies between them. B read the counter before A had written its result, so B's write replaced A's instead of adding to it, and one update was lost without any error message. Run the same program a thousand times and it may be right nine hundred and ninety-nine times, because the two parts usually happen to run apart; that is precisely what makes the bug so hard to catch. The fixes all do the same thing in different ways: they make read, add and write happen as one step that nothing else can interrupt, whether through an atomic operation, a lock, a database transaction, or a rule in the database itself.
+
+Verified local facts
 
 ## Assen in the national statistics
 
@@ -108,6 +96,8 @@ In 2025, 56,126 residents were of Dutch origin, 3,800 of European and 10,466 of 
 
 Modern Age Coders has no tie to the municipality of Assen, the TT circuit, the Drents Museum or any school in Drenthe, and the page claims none. The statistics are those published for Assen for the years stated. The convent, the dates of 1807, 1809 and 1814, the race on the TT circuit, the Drents Museum and the wijken come from the encyclopaedia entry for Assen, which gives 70,765 residents for 1 January 2026, a different source that is not combined with the statistics.
 
+Signature project
+
 ## Make the collision impossible, not unlikely
 
 A race condition cannot be fixed by making it rarer. The only reliable fixes change the design so that two updates can never silently overwrite each other.
@@ -124,10 +114,8 @@ Protect the read-add-write with a lock, use an atomic operation, or let the data
 
 Add rules the storage itself enforces: a seat that can be booked only once, a balance that cannot go below zero. Then even a bug elsewhere cannot store the impossible result.
 
-**Races in everyday systems, and what stops them**
-
 | Where | Two things at once | What goes wrong | What stops it |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | A booking system | two people choose the last seat | the seat is sold twice | a rule that each seat has at most one booking |
 | A shared document | two people save at the same moment | one person's changes disappear | merging changes rather than overwriting the file |
 | A bank balance | two payments arrive together | both are allowed when only one should be | a transaction that checks and updates in one step |
@@ -138,14 +126,14 @@ Add rules the storage itself enforces: a seat that can be booked only once, a ba
 
 For a long time race conditions were a specialist concern, met mainly by people writing servers and databases. AI is changing that. Assistants now run several tools at once, teams of agents divide a task and work on it in parallel, and automations fire whenever something changes. Each of these is a set of things happening at the same time, touching shared files, spreadsheets, calendars and records. Two agents that both read a document, both improve it and both save will produce exactly the lost update in the table above, and nothing in either agent's output will show that the other's work was thrown away. The protections are the classic ones, applied to new actors: give each agent its own piece of work where possible, lock or version what must be shared, and let the storage refuse results that should be impossible. A town that has staged a race every year since 1925 knows that the start line is where things collide. So do good programs.
 
+Reliable pipeline
+
 ## Five rules for anything that happens at once
 
 For bookings, payments, shared files, counters, background jobs and parallel AI agents. Worked through in the town of the TT.
 
-**Designing so that collisions lose nothing**
-
 | Rule | Applied | Failure it prevents | What you get |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | One step, not three | Use atomic operations or transactions for read, change and write | Lost updates | Totals that are always right |
 | Rules in the storage | Enforce uniqueness and limits in the database | Double bookings and impossible balances | Data that cannot be wrong |
 | Merge, do not overwrite | Save changes, not whole files, and detect conflicts | Vanishing edits | Everyone's work kept |
@@ -166,14 +154,37 @@ A shared spreadsheet or form tested with two people saving at once. Adults are o
 
 This section uses the encyclopaedia's account of the annual race at Assen only as an image, together with standard practice in concurrent programming. It describes no real ticketing or timing system at the TT circuit.
 
+Learning ladder
+
 ## From a coin both players grab to agents that cannot overwrite each other
 
 The starting point is set in the free lesson, from the way the learner handles a real task. Age alone does not set it, and neither does the wijk.
 
-- **Ages 6 to 10: The last coin** Children make sure only one player can grab a prize. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Game Development for Kids](/courses/game-development-masterclass-for-kids)
-- **Ages 11 to 13: Step by step** Learners trace two updates by hand and find the lost one. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Threads and locks** Teenagers reproduce a race in Python and fix it. [App Development for Teens](/courses/complete-app-development-masterclass-for-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Safe in parallel** Adults design bookings, files and agents that collide safely. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### The last coin
+
+Children make sure only one player can grab a prize.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Game Development for Kids](/courses/game-development-masterclass-for-kids)Ages 11 to 13
+
+### Step by step
+
+Learners trace two updates by hand and find the lost one.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Threads and locks
+
+Teenagers reproduce a race in Python and fix it.
+
+[App Development for Teens](/courses/complete-app-development-masterclass-for-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Safe in parallel
+
+Adults design bookings, files and agents that collide safely.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## AI agents now work side by side on the same files. Why should a teenager in Assen learn what happens when they collide?
 
@@ -185,30 +196,139 @@ A learner who has written two threads, watched their shared counter come out wro
 
 So the case for a child in Assen learning to code in 2026 is not the circuit or the capital. It is that someone who knows what happens when two things arrive at once will be needed wherever AI systems run side by side on shared work. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Classes for every wijk of the capital
 
 From the Brink and the Centrum out to Kloosterveen and the villages of the Buitengebied, a learner in Assen joins the same class from home.
 
-- **No trip to the centre** A learner in Peelo and a learner in Assen-West start at the same moment, each from home, with no ride across town on a dark evening.
-- **School words stay Dutch** The groep, brugklas, vmbo, havo, vwo and profielkeuze of a Drenthe school keep their Dutch names; the lesson around them is in English.
-- **A free, real lesson** The opening session is taught on an actual task. At the end the teacher suggests a level, a course and a weekly time, and asks for nothing.
-- **Classmates at your level** Groups hold fifteen to twenty learners who have reached the same point. Assen has 10,233 residents under fifteen, and five who match on subject, level and hour are hard to find in one town, so a group may include learners from other countries.
-- **Regio Noord holidays** Two lessons a week, about eight a month, at one fixed hour, pausing for the regio Noord school holidays that Drenthe keeps.
-- **Time zones on your side** The teachers are in India, three and a half hours ahead of Assen in summer and four and a half in winter, so late afternoons, evenings and weekend mornings are all possible.
+### No trip to the centre
 
-**Forty-three schools, seven woonplaatsen, and one online group** Assen has 33 primary establishments teaching 6,171 pupils and 10 secondary establishments teaching 5,454. Five learners who match on subject, stage and hour at once are far easier to find across every age from 6 to 67 and many countries than inside one municipality.
+A learner in Peelo and a learner in Assen-West start at the same moment, each from home, with no ride across town on a dark evening.
+
+### School words stay Dutch
+
+The groep, brugklas, vmbo, havo, vwo and profielkeuze of a Drenthe school keep their Dutch names; the lesson around them is in English.
+
+### A free, real lesson
+
+The opening session is taught on an actual task. At the end the teacher suggests a level, a course and a weekly time, and asks for nothing.
+
+### Classmates at your level
+
+Groups hold fifteen to twenty learners who have reached the same point. Assen has 10,233 residents under fifteen, and five who match on subject, level and hour are hard to find in one town, so a group may include learners from other countries.
+
+### Regio Noord holidays
+
+Two lessons a week, about eight a month, at one fixed hour, pausing for the regio Noord school holidays that Drenthe keeps.
+
+### Time zones on your side
+
+The teachers are in India, three and a half hours ahead of Assen in summer and four and a half in winter, so late afternoons, evenings and weekend mornings are all possible.
+
+Forty-three schools, seven woonplaatsen, and one online group
+
+Assen has 33 primary establishments teaching 6,171 pupils and 10 secondary establishments teaching 5,454. Five learners who match on subject, stage and hour at once are far easier to find across every age from 6 to 67 and many countries than inside one municipality.
+
+Fees
 
 ## What classes cost in Assen
 
 The complete price list, stated here.
 
-- First class: USD 0. One real lesson on a real task, ending with a level and a course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner, one teacher.
+First class**USD 0**
+
+One real lesson on a real task, ending with a level and a course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner, one teacher.
 
 The fee is one dollar price for every country, with no euro list alongside, so a family in Marsdijk pays exactly what a family in Lariks pays. Nothing is charged until the free lesson has fixed a course and an hour, and then payment is arranged on WhatsApp. The pricing page explains pauses, format changes and missed lessons.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Assen.)Reviews
+
+## Six Google reviews, quoted as written
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us where the learner stands
+
+The first task might be a game where only one player may take the last coin, two updates traced by hand to find the lost one, or two threads fixed with a lock.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Assen one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Assen.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Assen coding class questions
+
+The capital, its history, its figures, and the lessons.
 
 ### Which wijken does Assen have?
 
@@ -250,10 +370,14 @@ The first lesson is free. After it, group tuition is USD 100 a month for two liv
 
 Fifteen to twenty, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
+Explore Drenthe and beyond
+
 ## Across Drenthe, up to Groningen, and back to the hub
 
 The largest municipality in the province has its own page at [coding classes in Emmen](/coding-classes-in-emmen), and all twelve municipalities are gathered on [Drenthe](/coding-classes-in-drenthe). To the north lies [Groningen](/coding-classes-in-groningen), and to the south-west [Zwolle](/coding-classes-in-zwolle), both with pages of their own. For machine learning from the first lesson there is the [AI and Python Academy](/ai-and-python-academy-netherlands), and the whole series is on the [Netherlands coding hub](/coding-classes-in-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Talk to us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Assen.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-assen](https://learn.modernagecoders.com/coding-classes-in-assen#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-assen*

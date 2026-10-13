@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and app classes in Meierijstad for 
 canonical: https://learn.modernagecoders.com/coding-classes-in-meierijstad
 source: src/pages/coding-classes-in-meierijstad.html
 ---
-> Coding classes in Meierijstad serve 85,236 people (statistics office, 1 January 2026) in a municipality formed on 1 January 2017 from Schijndel, Sint-Oedenrode and Veghel. Its name was chosen in a vote open to every resident aged twelve and over, and the councils had said in advance that they would accept the winner. Meierijstad received 2,172 of the 5,216 votes, 42 percent; Land van Rode received 31 percent and Koevering 27. The name won fairly under the rules, and still 58 percent of the voters had chosen something else. The option with the most votes is not always the option most voters wanted, and every AI classifier that returns its top label faces the same gap. Modern Age Coders teaches live online in English, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
+> Live online coding, Python, AI and app classes in Meierijstad for ages 6 to 67, in Veghel, Schijndel, Sint-Oedenrode or Erp. The first lesson is free.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Meierijstad
-
-Meierijstad, Noord-Brabant / Live online
-
-# Coding classes in Meierijstad, a name chosen by 42 percent of the people who voted
-
-**What are the best coding classes in Meierijstad?** Coding classes in Meierijstad serve 85,236 people (statistics office, 1 January 2026) in a municipality formed on 1 January 2017 from Schijndel, Sint-Oedenrode and Veghel. Its name was chosen in a vote open to every resident aged twelve and over, and the councils had said in advance that they would accept the winner. Meierijstad received 2,172 of the 5,216 votes, 42 percent; Land van Rode received 31 percent and Koevering 27. The name won fairly under the rules, and still 58 percent of the voters had chosen something else. The option with the most votes is not always the option most voters wanted, and every AI classifier that returns its top label faces the same gap. Modern Age Coders teaches live online in English, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
-
-When three names are on a ballot, the winner needs only more votes than each of the others, not more than half. In Meierijstad the winning name took 42 percent, which was a clear first place and a minority at the same time. That is not a flaw in the vote. The rules were published, the councils agreed beforehand to accept the result, and the name has served the municipality ever since. It is simply a fact about counting that most people never notice: a plurality, the largest share, can be well short of a majority. And because each voter marked only one name, the count cannot say how the 3,044 people who chose another name felt about the winner, whether it was their second choice or their last. Machine learning systems make the same kind of decision millions of times a day, and the same two questions apply to every one of them.
-
-Facts last verified 11 September 2026. Teaching is online; no Meierijstad branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Meierijstad
 
 ## Four courses for four towns under one name
 
 A child in Erp who wants to build a quiz with a scoreboard, a teenager in Schijndel who has trained a first image classifier, a student in Veghel comparing three versions of a web page, and an adult in Sint-Oedenrode whose team votes on everything with a show of hands. Each of them starts with one full lesson that costs nothing.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Typed Python where a child runs a class vote with three options, counts it two ways and sees when the winner changes.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 18): A first classifier in Python that reports how sure it is, not only which label came top.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Models and tests read with the full spread of results, including margins and a rule for when to abstain.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): Polls, surveys and A/B tests reported with shares and margins, never with a winner alone.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsTyped Python where a child runs a class vote with three options, counts it two ways and sees when the winner changes.See the syllabus](/courses/python-ai-kids-masterclass)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 18Data Science for TeensA first classifier in Python that reports how sure it is, not only which label came top.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CourseModels and tests read with the full spread of results, including margins and a rule for when to abstain.See the syllabus](/courses/python-ai-automation-masterclass-college)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)Polls, surveys and A/B tests reported with shares and margins, never with a winner alone.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Meierijstad today
 
 ## Three municipalities, four towns and a castle for a council chamber
 
 Meierijstad was established on 1 January 2017 by the merger of three East Brabant municipalities in the Meierij region, given in the encyclopaedia with their populations at the time: Schijndel with 23,624 residents, Sint-Oedenrode with 17,907 and Veghel with 38,304. The statistics office counted 85,236 residents on 1 January 2026, on 18,400 hectares of land within 18,552, a published density of 460, in four woonplaatsen, four wijken and 93 buurten. The office has recalculated the years before 2017 to the present boundaries, and on those boundaries the count was 73,816 in 1995.
 
-**The four woonplaatsen, as the encyclopaedia gives them for 2023**
-
 | Woonplaats | Residents in 2023 | Before 2017 |
-|---|---|---|
+| --- | --- | --- |
 | Veghel | 33,895 | part of the municipality of Veghel |
 | Schijndel | 24,030 | the municipality of Schijndel |
 | Sint-Oedenrode | 18,530 | part of the municipality of Sint-Oedenrode |
@@ -61,20 +47,22 @@ The territory is crossed by the A50 motorway and by the Zuid-Willemsvaart canal,
 
 The name itself is less than ten years old. A local advisory committee under René Bastiaanse was brought in to guide the choice, and the result was put to a vote of residents.
 
+The name vote
+
 ## First place, and a minority of the votes
 
 The vote was open to every resident aged twelve and over, and the councils had said beforehand that they would accept the winner as the final name. The figures below are the encyclopaedia's.
 
-**The vote on the name of the new municipality**
-
 | Name | Votes | Share of votes cast | Voters who chose another name |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Meierijstad | 2,172 | 42 percent | 3,044, or 58 percent |
 | Land van Rode | 1,621 | 31 percent | 3,595, or 69 percent |
 | Koevering | 1,423 | 27 percent | 3,793, or 73 percent |
-| All votes | 5,216 | 100 percent |  |
+| All votes | 5,216 | 100 percent |   |
 
 Under the rules of the vote, Meierijstad won, and nobody disputes that. What the table also shows is that a first place with three options can sit well below half. The count answers one question precisely, which name was marked most often, and leaves a second question open: how the voters for the other two names felt about the winner. If most of them would have ranked Meierijstad second, it was a broadly acceptable choice; if most would have ranked it last, a different way of counting could have produced a different name. The ballot asked for one name only, so the data needed to tell those situations apart was never collected. That is not a criticism of the vote, which did what it set out to do. It is a lesson about what a count of first choices can and cannot say.
+
+Verified local facts
 
 ## Meierijstad in figures, and the sums on this page
 
@@ -106,6 +94,8 @@ Income of 34,400 euro per resident and 41,000 per income recipient in 2024, with
 
 Modern Age Coders has no connection with the municipality of Meierijstad, its councils, the naming committee or any school in the area, and nothing here implies one. The municipal figures are the statistics office row for Meierijstad at the years stated, with the years before 2017 as the office has recalculated them. The merger, the former municipalities and their populations, the name vote and its figures, the committee, the woonplaatsen, Kasteel Dommelrode, the A50 and the Zuid-Willemsvaart come from the encyclopaedia entry for Meierijstad. The page does not estimate how many residents were eligible to vote, and it takes no view on the name.
 
+Signature project
+
 ## Report the margin, not just the winner
 
 A winner is the answer to which option came first. Two further numbers say whether that answer can be trusted: how far ahead it was, and what share of the whole it had.
@@ -122,10 +112,8 @@ Say what fraction the winner had and how far it led the runner-up. Forty-two per
 
 Set a rule in advance for results that are too close or too thin: a runoff, a second opinion, or, in software, a model that says it is not sure and hands over to a person.
 
-**A plurality winner in places people rarely call a vote**
-
 | Where | The winner | What the winner alone hides | What to report as well |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | An image classifier | the label with the highest probability | that the top label may have only 40 percent | the probability, and an abstain threshold |
 | A random forest | the class most trees voted for | how evenly the trees were split | the vote share across trees |
 | An A/B/C test of a web page | the variant with the most sign-ups | that the lead may be inside the noise | the margin and its uncertainty |
@@ -136,14 +124,14 @@ Set a rule in advance for results that are too close or too thin: a runoff, a se
 
 Most classifiers end with a step that turns a spread of probabilities into a single label by taking the largest one. That step always produces an answer, whether the model is 99 percent sure or 34 percent sure among three classes, and many applications show users only the answer. A random forest, one of the most widely used methods in machine learning, decides by the most common vote among its trees; it is often described as majority voting, but with more than two classes it is a plurality, exactly like the Meierijstad ballot. The remedies are the same as in any careful count. Keep the full distribution. Report the share and the margin beside the winner. And decide in advance what happens when the winner is weak: for a model, that usually means abstaining and passing the case to a person. Meierijstad chose its name by a fair vote with published rules, and the result stands. What it offers a learner is the reminder that a winner and a majority are different things, and that a system which only ever reports its winner has thrown away the evidence of how close the decision was.
 
+Reliable pipeline
+
 ## Five habits for any system that picks a winner
 
 For classifiers, votes, polls, experiments and recommendations. Practised in the municipality whose own name came first with 42 percent.
 
-**From a winner to a result that can be judged**
-
 | Habit | What to do | What it prevents | What it gives |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Keep the distribution | Store every option's count or probability | Results that cannot be re-examined | The full picture on demand |
 | Share and margin | Report the winner's share and its lead over second place | A thin plurality presented as a mandate | A result readers can weigh |
 | Calibrate | Check that a stated 80 percent is right about 80 percent of the time | Confidence numbers that mean nothing | Probabilities you can act on |
@@ -164,14 +152,37 @@ A poll or A/B test from work, re-reported with shares, margins and an honest not
 
 This section rests on the encyclopaedia's figures for the 2017 name vote and on standard practice in machine learning and survey reporting. It does not question the result of the vote, and it makes no estimate of how voters would have ranked the three names.
 
+Learning ladder
+
 ## From a class vote on three themes to a model that knows when to abstain
 
 Where each learner starts is decided during the free lesson, by watching them on a real task. Their town and their age do not decide it on their own.
 
-- **Ages 6 to 10: Three choices** Children see that a winner of three options can have fewer than half the votes. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Game Development for Kids](/courses/game-development-masterclass-for-kids)
-- **Ages 11 to 13: Shares and margins** Learners turn vote counts into shares and a lead in Python. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: How sure is it?** Teenagers print a classifier's probabilities and add an abstain rule. [App Development for Teens](/courses/complete-app-development-masterclass-for-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Beyond the winner** Adults re-report a poll or test with its margin and uncertainty. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Three choices
+
+Children see that a winner of three options can have fewer than half the votes.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Game Development for Kids](/courses/game-development-masterclass-for-kids)Ages 11 to 13
+
+### Shares and margins
+
+Learners turn vote counts into shares and a lead in Python.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### How sure is it?
+
+Teenagers print a classifier's probabilities and add an abstain rule.
+
+[App Development for Teens](/courses/complete-app-development-masterclass-for-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Beyond the winner
+
+Adults re-report a poll or test with its margin and uncertainty.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## An AI classifier always names a winner. Why should a teenager in Veghel ask how big the win was?
 
@@ -183,30 +194,139 @@ A learner who has counted a three-way class vote, seen a winner with less than h
 
 The case for a child in Meierijstad learning to code in 2026 is therefore not the new municipality or its motorway. It is that someone who asks for the margin as well as the winner will be needed wherever AI turns close decisions into confident answers. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Veghel, Schijndel, Sint-Oedenrode and Erp, one live class
 
 Four towns share a municipality of more than 18,000 hectares, and a lesson that starts at home is the same lesson in each of them.
 
-- **Four towns, no journeys** A learner in Erp joins at the same moment as one in Schijndel, each from their own home. Nobody drives between the towns on a weekday evening for a class.
-- **The school system, in Dutch** Groep, brugklas, vmbo, havo, vwo and the profielkeuze keep their Dutch names in lessons, as a Brabant school uses them, while the teaching is in English.
-- **The first hour, taught properly** The free lesson is a real one on a real task. Afterwards the teacher suggests a level, a named course and a weekly time, and no card details are asked for.
-- **Groups beyond the Meierij** Fifteen to twenty learners at the same stage. Meierijstad has 12,552 residents under fifteen across four towns, and five who match on subject, level and hour are unlikely in any one of them, so groups may include learners from several countries.
-- **Regio Zuid holidays** Two lessons a week, about eight a month, at the same time each week, pausing for the regio Zuid holidays that Brabant schools follow.
-- **Hours that fit** India is three and a half hours ahead in summer and four and a half in winter, so after-school, early-evening and weekend-morning slots all stay available through the year.
+### Four towns, no journeys
 
-**Thirty-six schools, four towns, and one group** Meierijstad has 30 primary establishments teaching 6,930 pupils and 6 secondary establishments teaching 4,212. A coding group needs five learners who match on subject, stage and hour at once, and they are found far more easily across all ages from 6 to 67 and many countries than within one municipality, however many towns it has.
+A learner in Erp joins at the same moment as one in Schijndel, each from their own home. Nobody drives between the towns on a weekday evening for a class.
+
+### The school system, in Dutch
+
+Groep, brugklas, vmbo, havo, vwo and the profielkeuze keep their Dutch names in lessons, as a Brabant school uses them, while the teaching is in English.
+
+### The first hour, taught properly
+
+The free lesson is a real one on a real task. Afterwards the teacher suggests a level, a named course and a weekly time, and no card details are asked for.
+
+### Groups beyond the Meierij
+
+Fifteen to twenty learners at the same stage. Meierijstad has 12,552 residents under fifteen across four towns, and five who match on subject, level and hour are unlikely in any one of them, so groups may include learners from several countries.
+
+### Regio Zuid holidays
+
+Two lessons a week, about eight a month, at the same time each week, pausing for the regio Zuid holidays that Brabant schools follow.
+
+### Hours that fit
+
+India is three and a half hours ahead in summer and four and a half in winter, so after-school, early-evening and weekend-morning slots all stay available through the year.
+
+Thirty-six schools, four towns, and one group
+
+Meierijstad has 30 primary establishments teaching 6,930 pupils and 6 secondary establishments teaching 4,212. A coding group needs five learners who match on subject, stage and hour at once, and they are found far more easily across all ages from 6 to 67 and many countries than within one municipality, however many towns it has.
+
+Fees
 
 ## Meierijstad fees, set out in full
 
 These three prices are the whole of it.
 
-- First class: USD 0. A proper lesson on a proper task, finishing with a level and a named course.
-- Group tuition: USD 100 a month. Per month, usually eight lessons, fifteen to twenty learners matched by ability.
-- Private tuition: USD 150 a month. Per month, usually eight lessons, one teacher and one learner.
+First class**USD 0**
+
+A proper lesson on a proper task, finishing with a level and a named course.
+
+Group tuition**USD 100**
+
+Per month, usually eight lessons, fifteen to twenty learners matched by ability.
+
+Private tuition**USD 150**
+
+Per month, usually eight lessons, one teacher and one learner.
 
 The fee is a single dollar price for every country, with no euro version beside it, so a family in Erp pays what a family in Veghel pays. Nothing is charged until the free lesson has settled a course and a time, and payment is then arranged through WhatsApp. The pricing page explains breaks, a change of format and missed lessons.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Meierijstad.)Reviews
+
+## Six Google reviews, word for word as written
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us where the learner is up to
+
+The first task might be a three-way class vote counted two ways, a small classifier that prints how sure it is, or an A/B test re-reported with its margin.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Meierijstad one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Meierijstad.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Meierijstad coding class questions
+
+The municipality, its name, its towns and the lessons.
 
 ### What does Meierijstad include?
 
@@ -248,10 +368,14 @@ The first lesson is free. After it, group tuition is USD 100 a month for two liv
 
 Fifteen to twenty, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
+Explore Noord-Brabant and beyond
+
 ## To the provincial capital, the Brabant cities, and the hub
 
 The provincial capital is close by and has its own page at [coding classes in Den Bosch](/coding-classes-in-den-bosch). [Eindhoven](/coding-classes-in-eindhoven) lies to the south with seven district pages beneath it, and [Oss](/coding-classes-in-oss) and [Helmond](/coding-classes-in-helmond) have pages too; every Brabant page is gathered on [Noord-Brabant](/coding-classes-in-noord-brabant). For a learner who wants to start with machine learning there is the [AI and Python Academy](/ai-and-python-academy-netherlands), and the full series is on the [Netherlands coding hub](/coding-classes-in-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Ask us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Meierijstad.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-meierijstad](https://learn.modernagecoders.com/coding-classes-in-meierijstad#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-meierijstad*

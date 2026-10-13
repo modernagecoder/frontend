@@ -507,6 +507,12 @@ Reading first? Each [course page](/courses) sets out its syllabus, [how we teach
 
 A WhatsApp message is the quickest route and free from a UK phone. We are based in India, so the number begins +91.
 
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/learn-to-code-over-50-uk*

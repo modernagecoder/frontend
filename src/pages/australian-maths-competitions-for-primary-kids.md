@@ -4,34 +4,28 @@ description: "Maths competitions for Australian primary students by year level: 
 canonical: https://learn.modernagecoders.com/australian-maths-competitions-for-primary-kids
 source: src/pages/australian-maths-competitions-for-primary-kids.html
 ---
-> Australian primary students can sit the Australian Mathematics Competition from Year 3 (60 minutes for primary), Kangourou sans Frontières, ICAS Mathematics from Year 2, the APSMO Maths Olympiad in Years 5 and 6, and the AJMO up to Year 8. The Maths Challenge program runs over 3 to 4 weeks. Years 1 and 2 can try the free AMC Early Primary pilot from 12 to 23 October 2026.
+> Maths competitions for Australian primary students by year level: the AMC, Maths Challenge, Kangourou sans Frontières, APSMO Maths Olympiad, ICAS and the AJMO.
 
-[Home](/) / [Coding classes in Australia](/coding-classes-in-australia) / Primary maths competitions
+In short
 
-Australia · Years 1 to 6 · Checked at each organiser
+Australian primary students can sit the Australian Mathematics Competition from Year 3 (60 minutes for primary), Kangourou sans Frontières, ICAS Mathematics from Year 2, the APSMO Maths Olympiad in Years 5 and 6, and the AJMO up to Year 8. The Maths Challenge program runs over 3 to 4 weeks. Years 1 and 2 can try the free AMC Early Primary pilot from 12 to 23 October 2026.
 
-# Maths competitions for primary kids
-
-Maths competitions can give primary children something school maths rarely does: problems with no obvious method, where the fun is in working out how to start. Australia has a strong set of them, from the Australian Mathematics Competition, first run in 1978, to the APSMO Maths Olympiad for Years 5 and 6 and a brand-new paper for Years 1 and 2. This page lists them by year level, with every detail checked at the organiser, and works through one problem-solving strategy that helps on almost every paper. We are independent of every organiser named, and we never reproduce their questions.
-
-At a glance: Covers: Maths competitions and programs; Year levels: Years 1 to 6; Longest running: AMC, first run in 1978; New for Years 1 and 2: Free AMC Early Primary pilot, 12 to 23 October 2026; Team problem solving: Maths Challenge, groups of three in primary; Years 5 and 6 olympiad: APSMO, four contests a year; We provide: Maths problem-solving classes; We are not: An organiser of any competition. Rated 4.9 across 547 Google reviews.
+Where to start
 
 ## Three courses for young problem solvers
 
 Number sense and problem solving first; competitions reward both.
 
-- [Mental maths for kids](/courses/mental-maths-mastery-kids): Number sense rather than tricks, for ages 5 to 10: the base every primary paper builds on.
-- [Competition maths](/courses/olympiad-competition-mathematics-mastery): Problem-solving strategies for the AMC and APSMO style of question, and beyond.
-- [Primary maths](/courses/elementary-mathematics-complete-masterclass): Live classes that place each child by level, so competition work rests on secure basics.
+[![Mental Maths for Kids course thumbnail](/images/mental-maths-kids.webp)  MPK / 01 Mental maths for kids Number sense rather than tricks, for ages 5 to 10: the base every primary paper builds on. Open the syllabus →](/courses/mental-maths-mastery-kids)[![Maths Olympiad & Competition Course course thumbnail](/images/olympiad-competition-maths.webp)  MPK / 02 Competition maths Problem-solving strategies for the AMC and APSMO style of question, and beyond. Open the syllabus →](/courses/olympiad-competition-mathematics-mastery)[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  MPK / 03 Primary maths Live classes that place each child by level, so competition work rests on secure basics. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)
+
+The competitions
 
 ## Maths competitions open to primary students, by year level
 
 Year levels and 2026 dates are as each organiser publishes them. Most competitions are entered through schools.
 
-**Maths competitions and programs for Australian primary students, 2026**
-
 | Competition | Organiser | Primary years | 2026 timing |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | AMC Early Primary (free pilot) | Australian Maths Trust | Years 1 and 2 | 12 to 23 October, online |
 | ICAS Mathematics | ICAS Assessments | Years 2 to 6 (and to Year 12) | 24 to 28 August sitting window |
 | Kangourou sans Frontières (KSF) | Australian Maths Trust | Years 3 to 6 (and secondary) | 24 to 26 March |
@@ -45,14 +39,14 @@ Coding and computational thinking contests for the same age group are gathered i
 
 Sources: [AMT AMC](https://amt.edu.au/amc); [AMT Maths Challenge](https://amt.edu.au/challenge); [AMT AJMO](https://amt.edu.au/ajmo); [AMT 2026 key dates](https://amt.edu.au/wp-content/uploads/2025/2026-Competitions-and-Programs-Key-Dates-Calendar.pdf); [APSMO Maths Olympiad Years 5-6](https://apsmo.edu.au/competitions-programs/maths-olympiad-years-5-6/); [ICAS 2026 dates](https://www.icasassessments.com/event-calendar/). Read 7 October 2026.
 
+Formats
+
 ## What each one actually involves
 
 Competitions differ more in format than in difficulty. Knowing the format helps a child prepare calmly.
 
-**Formats for primary students, from the organisers**
-
 | Competition | Primary format | Worth knowing |
-|---|---|---|
+| --- | --- | --- |
 | AMC | 60 minutes; Middle Primary (Years 3 and 4) and Upper Primary (Years 5 and 6) divisions | Topics may include arithmetic, fractions and ratios, pre-algebra, geometry, measurement, statistics and probability, and problem solving |
 | AMC Early Primary pilot | 25 questions (20 multiple choice, 5 integer answer), 50 minutes, online only | Free in 2026; the AMT says it will join the standard AMC from 2027 |
 | Maths Challenge | About 1 hour of class time and 2 to 3 hours of study a week | Primary students work in groups of three; problems vary each year, based on the national curriculum |
@@ -67,6 +61,8 @@ Maths Enrichment is a different kind of program: an extension course for capable
 APSMO describes its Maths Olympiad as an inter-school competition for high-achieving and high-potential Years 5 and 6 students, completed individually under exam conditions, with solutions reviewed as a group afterwards.
 
 The AJMO is new: the AMT pitches it at students up to Year 8 who enjoy challenging problems but are not yet ready for the Australian Intermediate Mathematics Olympiad.
+
+Strategy lesson
 
 ## Solve a simpler problem first
 
@@ -84,15 +80,13 @@ Start with a 1 by 1 grid: 1 square. A 2 by 2 grid has 4 small squares and 1 big 
 
 The counts are 1, then 1 plus 4, then 1 plus 4 plus 9. Each grid adds the next square number. So a 6 by 6 grid has 1 plus 4 plus 9 plus 16 plus 25 plus 36.
 
-**Squares of any size in an n by n grid, counted by size**
-
 | Grid | 1 by 1 | 2 by 2 | 3 by 3 | 4 by 4 | 5 by 5 | 6 by 6 | Total |
-|---|---|---|---|---|---|---|---|
-| 1 by 1 | 1 |  |  |  |  |  | 1 |
-| 2 by 2 | 4 | 1 |  |  |  |  | 5 |
-| 3 by 3 | 9 | 4 | 1 |  |  |  | 14 |
-| 4 by 4 | 16 | 9 | 4 | 1 |  |  | 30 |
-| 5 by 5 | 25 | 16 | 9 | 4 | 1 |  | 55 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 by 1 | 1 |   |   |   |   |   | 1 |
+| 2 by 2 | 4 | 1 |   |   |   |   | 5 |
+| 3 by 3 | 9 | 4 | 1 |   |   |   | 14 |
+| 4 by 4 | 16 | 9 | 4 | 1 |   |   | 30 |
+| 5 by 5 | 25 | 16 | 9 | 4 | 1 |   | 55 |
 | 6 by 6 | 36 | 25 | 16 | 9 | 4 | 1 | 91 |
 
 The answer for the 6 by 6 grid is 91. The table also shows why the pattern works, which matters as much as the number: in a 6 by 6 grid, a 2 by 2 square can start in any of 5 positions across and 5 down, giving 25; a 3 by 3 square in 4 positions each way, giving 16; and so on, until the single 6 by 6 square. Children who can explain that reason have done more than spot a pattern, they have shown why it must continue. This is exactly the habit the harder competition questions reward, and it carries all the way to olympiad level.
@@ -109,14 +103,14 @@ Problems about handshakes, paths through a grid, or numbers in a growing pattern
 
 It also builds patience. A child who knows that small cases lead somewhere is far less likely to give up on a question that looks impossible at first.
 
+Choosing
+
 ## Picking a first competition, and preparing for it
 
 For most children, the right first competition is a short one that feels like a game. Here is a gentle starting guide.
 
-**A starting guide for primary maths competitions**
-
 | Year level | A gentle first step | When ready for more |
-|---|---|---|
+| --- | --- | --- |
 | Years 1 and 2 | AMC Early Primary (free pilot), puzzles at home | ICAS Mathematics in Year 2 |
 | Years 3 and 4 | Maths Challenge with friends, KSF | The AMC Middle Primary division |
 | Year 5 | The AMC Upper Primary division | APSMO Maths Olympiad, Maths Enrichment |
@@ -130,14 +124,14 @@ We are independent of the Australian Maths Trust, APSMO and ICAS, and do not ent
 
 We do not promise a score, a certificate level or a medal. For a primary child, a competition is a chance to enjoy hard thinking, and the result is simply one day's snapshot.
 
+Growing as a problem solver
+
 ## Four rungs through primary maths competitions
 
 Children grow at different speeds; the order is usually this one.
 
-**From confident counting to explained solutions**
-
 | Around | Rung | The sign it is secure |
-|---|---|---|
+| --- | --- | --- |
 | Years 1 and 2 | 1. Confident with number | Counts, adds and compares quickly and accurately |
 | Years 3 and 4 | 2. Has strategies | Chooses to draw, list or act out a problem without being told |
 | Years 4 and 5 | 3. Organises work | Records small cases in a table and spots the pattern |
@@ -146,63 +140,293 @@ Children grow at different speeds; the order is usually this one.
 ### After a competition
 
 Look at one question your child found hardest and solve it together slowly. That single conversation teaches more than another practice paper.
+
 Praise the strategy, not the score. Strategies are what carry forward.
 
 ### Coding contests too
 
 For coding and computational thinking contests, see [coding competitions for primary kids](/australian-coding-competitions-for-primary-kids).
+
 Older students can read our [Australian Mathematical Olympiad guide](/australian-mathematical-olympiad-preparation).
+
+The catalogue
 
 ## Nine courses for primary mathematicians
 
 From number sense to competition strategy. Each card opens its syllabus.
 
+I
+
 ### Number sense
 
 Years 1 to 4
 
-- [Mental maths for kids](/courses/mental-maths-mastery-kids): Number sense, not tricks.
-- [Early maths foundations](/courses/early-math-foundations): Secure first steps in number.
-- [Abacus mental maths](/courses/abacus-mental-maths-course-for-kids): Visual calculation for young learners.
+MPK / NS / 01
+
+#### Mental maths for kids
+
+Number sense, not tricks.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+MPK / NS / 02
+
+#### Early maths foundations
+
+Secure first steps in number.
+
+[Open the syllabus](/courses/early-math-foundations)
+
+MPK / NS / 03
+
+#### Abacus mental maths
+
+Visual calculation for young learners.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)II
 
 ### Problem solving
 
 Years 3 to 6
 
-- [Competition maths](/courses/olympiad-competition-mathematics-mastery): Strategies for contest problems.
-- [Primary maths](/courses/elementary-mathematics-complete-masterclass): Classes placed by level.
-- [Computational thinking](/courses/problem-solving-and-computational-thinking-for-kids): Logic and patterns.
+MPK / PS / 01
+
+#### Competition maths
+
+Strategies for contest problems.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)
+
+MPK / PS / 02
+
+#### Primary maths
+
+Classes placed by level.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+MPK / PS / 03
+
+#### Computational thinking
+
+Logic and patterns.
+
+[Open the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)III
 
 ### Stretch
 
 Upper primary and beyond
 
-- [Middle years maths](/courses/comprehensive-middle-school-mathematics-mastery): Ready for the AJMO and beyond.
-- [Maths through coding](/courses/maths-through-coding): Patterns explored with code.
-- [Vedic maths](/courses/vedic-maths-course-speed-calculation-mastery): Fast mental methods, explained.
+MPK / ST / 01
+
+#### Middle years maths
+
+Ready for the AJMO and beyond.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+MPK / ST / 02
+
+#### Maths through coding
+
+Patterns explored with code.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+MPK / ST / 03
+
+#### Vedic maths
+
+Fast mental methods, explained.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
+
+How lessons run
 
 ## Friendly online maths classes after school
 
 Our maths teachers teach live from India. Australian clocks run ahead: Darwin by four hours all year, Melbourne by four and a half in winter and five and a half in summer. So an Australian after-school maths class takes place in the Indian afternoon, at a comfortable hour for young children.
 
-- **After school** Number sense and a strategy of the week.
-- **Saturday morning** A longer set of puzzles, solved together.
-- **Before a competition** Calm practice with our own problems.
+After school
 
-- **Strategies taught** Draw it, list it, shrink it, check it.
-- **Thinking out loud** Children explain how they solved each problem.
-- **Original problems** Never copied from competition papers.
-- **Classes of fifteen to twenty** Children at a similar level, learning from each other.
-- **One-to-one option** For a child who needs a different pace or more stretch.
-- **No medal promised** Organisers set and mark; we build the thinking.
+Number sense and a strategy of the week.
+
+Saturday morning
+
+A longer set of puzzles, solved together.
+
+Before a competition
+
+Calm practice with our own problems.
+
+### Strategies taught
+
+Draw it, list it, shrink it, check it.
+
+### Thinking out loud
+
+Children explain how they solved each problem.
+
+### Original problems
+
+Never copied from competition papers.
+
+### Classes of fifteen to twenty
+
+Children at a similar level, learning from each other.
+
+### One-to-one option
+
+For a child who needs a different pace or more stretch.
+
+### No medal promised
+
+Organisers set and mark; we build the thinking.
+
+Student work
+
+## Work our students have shared
+
+Made for the love of it, apart from any competition. See the [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Maths classes are charged per month in US dollars, our international rate, with no enrolment fee and no fixed term. Competition entries are arranged with the organisers, usually through schools, and are separate from our fees.
 
-- Free first class: USD 0. A free first maths class. A short check of number sense and strategies. No payment details.
-- Group batch: USD 100 a month. Fifteen to twenty children at one level. The same teacher each week. Problems solved and discussed together. A certificate on completion.
-- One to one: USD 150 a month. A teacher for one child. Work pitched exactly at the child's level. Times arranged around family life.
+Free first class
+
+USD 0
+
+no card required
+
+- A free first maths class
+- A short check of number sense and strategies
+- No payment details
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty children at one level
+- The same teacher each week
+- Problems solved and discussed together
+- A certificate on completion
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one child
+- Work pitched exactly at the child's level
+- Times arranged around family life
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Family reviews from Google, unchanged.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about primary maths competitions
 
 ## What parents and teachers ask
 
@@ -246,19 +470,70 @@ No. Organisers set and mark their own competitions. We build number sense and pr
 
 Your child tries a few problems with a teacher, including one that uses a strategy like solving a simpler case first, and you get honest advice on a suitable first competition.
 
+Related pages
+
 ## More for primary families
 
-- [Coding competitions for primary kids](/australian-coding-competitions-for-primary-kids): Bebras, the CAT and more.
-- [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar): Every contest by month.
-- [AMC practice by year](/australian-mathematics-competition-practice-by-year): Divisions and question style.
-- [Maths Challenge practice](/maths-challenge-for-young-australians-practice): Problems marked with a rubric.
-- [APSMO practice](/apsmo-maths-olympiad-practice): Five questions, thirty minutes.
-- [ICAS Maths practice](/icas-maths-practice-online): Papers and entry routes.
-- [NAPLAN numeracy](/naplan-numeracy-practice-online): How the tailored test works.
-- [AMT competitions](/australian-maths-trust-amc-aio-cat-preparation): The AMC, CAT and AIO in depth.
-- [Maths tutoring online](/online-maths-tutoring-australia): Weekly maths for Australian students.
-- [Maths olympiad tutoring](/math-olympiad-amc-tutoring): For children ready for more.
+Coding contests, maths support and the national picture.
 
-## Contact
+### [Coding competitions for primary kids](/australian-coding-competitions-for-primary-kids)
 
-Book the free first class at [https://learn.modernagecoders.com/australian-maths-competitions-for-primary-kids](https://learn.modernagecoders.com/australian-maths-competitions-for-primary-kids#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Bebras, the CAT and more.
+
+### [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar)
+
+Every contest by month.
+
+### [AMC practice by year](/australian-mathematics-competition-practice-by-year)
+
+Divisions and question style.
+
+### [Maths Challenge practice](/maths-challenge-for-young-australians-practice)
+
+Problems marked with a rubric.
+
+### [APSMO practice](/apsmo-maths-olympiad-practice)
+
+Five questions, thirty minutes.
+
+### [ICAS Maths practice](/icas-maths-practice-online)
+
+Papers and entry routes.
+
+### [NAPLAN numeracy](/naplan-numeracy-practice-online)
+
+How the tailored test works.
+
+### [AMT competitions](/australian-maths-trust-amc-aio-cat-preparation)
+
+The AMC, CAT and AIO in depth.
+
+### [Maths tutoring online](/online-maths-tutoring-australia)
+
+Weekly maths for Australian students.
+
+### [Maths olympiad tutoring](/math-olympiad-amc-tutoring)
+
+For children ready for more.
+
+Start here
+
+## Book a free maths class
+
+Tell us your child's year level and how they feel about maths puzzles. The free class tries a few competition-style problems together and ends with a suggestion for a first competition.
+
+Would you like to see the courses first? Every syllabus is on the [course atlas](/course-atlas), and [how we teach](/how-we-teach) explains our classes.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20class%20about%20competitions%20for%20my%20primary%20school%20child%20in%20Australia.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is generally the quickest way to hear back. Our number is Indian because our teachers work from India; we have no Australian office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/australian-maths-competitions-for-primary-kids*

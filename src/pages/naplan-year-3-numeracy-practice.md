@@ -4,34 +4,28 @@ description: "NAPLAN Year 3 numeracy practice: the 45-minute test, what each pro
 canonical: https://learn.modernagecoders.com/naplan-year-3-numeracy-practice
 source: src/pages/naplan-year-3-numeracy-practice.html
 ---
-> In Year 3, NAPLAN numeracy is a 45-minute test taken after the conventions of language test, inside the national window (10 to 22 March in 2027). ACARA describes a Year 3 student at the Strong level as able to compare one-, two- and three-digit numbers, solve simple addition, subtraction, multiplication and division problems, and read clocks to the nearest minute.
+> NAPLAN Year 3 numeracy practice: the 45-minute test, what each proficiency level looks like in Year 3, and original jump-strategy questions with answers.
 
-[Home](/) / [NAPLAN numeracy practice](/naplan-numeracy-practice-online) / Year 3 numeracy
+In short
 
-Australia · NAPLAN Year 3 numeracy · Live online
+In Year 3, NAPLAN numeracy is a 45-minute test taken after the conventions of language test, inside the national window (10 to 22 March in 2027). ACARA describes a Year 3 student at the Strong level as able to compare one-, two- and three-digit numbers, solve simple addition, subtraction, multiplication and division problems, and read clocks to the nearest minute.
 
-# NAPLAN Year 3 numeracy practice
-
-Year 3 is the first time most Australian children sit NAPLAN, and for many it is also their first timed test of any kind. The numeracy part lasts 45 minutes and draws on the counting, place value and early multiplication they have been learning since Foundation. This page sets out what ACARA says a Year 3 student typically shows at each proficiency level, then teaches one strategy that makes mental addition and subtraction calm and checkable: jumping along an open number line. We do not teach the reading, writing or conventions of language tests, and we promise no level.
-
-At a glance: Year level: Year 3; Numeracy time: 45 minutes; 2027 window: 10 to 22 March; Sits after: Conventions of language; Results: Four proficiency levels; Our focus: Place value and mental strategies; Not covered: Reading, writing, conventions; Promise: None about results. Rated 4.9 across 547 Google reviews.
+Good first steps
 
 ## Three courses that suit Year 3
 
 Each starts from what an eight-year-old already knows and grows it carefully.
 
-- [Mental maths for primary](/courses/mental-maths-mastery-kids): Counting on, bridging tens and number-line thinking, practised aloud.
-- [Primary maths across the strands](/courses/elementary-mathematics-complete-masterclass): Number, measurement, shape and data at a pace that suits the child.
-- [Abacus mental maths](/courses/abacus-mental-maths-course-for-kids): A hands-on picture of place value for children who like to see quantities.
+[![Mental Maths for Kids course thumbnail](/images/mental-maths-kids.webp)  NY3 / 01 Mental maths for primary Counting on, bridging tens and number-line thinking, practised aloud. Open the syllabus →](/courses/mental-maths-mastery-kids)[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  NY3 / 02 Primary maths across the strands Number, measurement, shape and data at a pace that suits the child. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)[![Abacus & Mental Maths for Kids course thumbnail](/images/abacus-mental-maths-kids.webp)  NY3 / 03 Abacus mental maths A hands-on picture of place value for children who like to see quantities. Open the syllabus →](/courses/abacus-mental-maths-course-for-kids)
+
+The Year 3 numeracy test
 
 ## Forty-five minutes, on screen, after the language test
 
 Every detail below is ACARA's own, from the NAPLAN site, checked on 7 October 2026.
 
-**Year 3 numeracy at a glance**
-
 | Detail | What ACARA states |
-|---|---|
+| --- | --- |
 | Duration | 45 minutes |
 | Order in the window | Completed after the conventions of language test |
 | Content strands | Number, algebra, measurement, space, statistics and probability |
@@ -49,14 +43,14 @@ That is why this page teaches a strategy rather than a stack of test papers. A c
 
 Sources: [NAPLAN test window](https://www.nap.edu.au/naplan/key-dates/naplan-test-window); [NAPLAN, What's in the tests](https://www.nap.edu.au/naplan/whats-in-the-tests). Checked on 7 October 2026. ACARA has no connection with Modern Age Coders.
 
+Year 3 proficiency levels
+
 ## What each level looks like in a Year 3 child
 
 ACARA publishes a description for every level, year and domain. These lines are quoted from the Year 3 numeracy descriptions; the selection is ours.
 
-**Selected Year 3 numeracy descriptions, quoted from ACARA**
-
 | Level | The student can (selected lines) |
-|---|---|
+| --- | --- |
 | Needs additional support | connect quantities, number names and numerals to 20; continue a pattern with objects, shapes or numbers, including skip counting by 2 and 5 |
 | Developing | quantify and compare collections to 100; read time on a digital and analog clock to the hour and half-hour |
 | Strong | quantify and compare one-, two- and three-digit numbers; read time on clocks to the nearest minute; solve problems using a calendar |
@@ -71,6 +65,8 @@ Time appears at every level, from ordering familiar events to reading a clock to
 None of these levels is a label for a child. They describe what a student showed during one test, on one day, and teachers use them alongside everything else they know.
 
 Source: [NAPLAN proficiency level descriptions, Numeracy Year 3](https://www.nap.edu.au/naplan/results-and-reports/proficiency-level-descriptions). Checked on 7 October 2026.
+
+Practice we wrote
 
 ## The jump strategy on an open number line
 
@@ -88,10 +84,8 @@ For 46 + 7, jump 4 to reach 50, then 3 more to 53. Splitting the 7 into 4 and 3 
 
 For 63 minus 47, start at 47 and jump to 63: 3 to reach 50, 10 to reach 60, 3 to reach 63. The gap is 16.
 
-**Original Year 3 practice, with the jumps a child might draw**
-
 | Question | Jumps on the line | Answer |
-|---|---|---|
+| --- | --- | --- |
 | A library has 38 picture books and buys 25 more. How many now? | 38, jump 20 to 58, jump 5 to 63 | 63 |
 | Mia has 46 stickers and is given 7. How many does she have? | 46, jump 4 to 50, jump 3 to 53 | 53 |
 | A bus holds 63 people. 47 are on board. How many more can get on? | 47, jump 3 to 50, jump 10 to 60, jump 3 to 63: 3 + 10 + 3 | 16 |
@@ -102,6 +96,8 @@ For 63 minus 47, start at 47 and jump to 63: 3 to reach 50, 10 to reach 60, 3 to
 The fourth and fifth questions are the interesting ones. Neither looks like a take-away sum, yet both are solved by counting the gap between two numbers. That move, from "what is 29 plus 16" to "what gets me from 29 to 45", is the relationship ACARA describes at the top level, and a number line makes it visible.
 
 The last question shows a second habit: jump past the target with a friendly number, then step back. Subtracting 20 and adding 1 is quicker and safer than subtracting 19 digit by digit.
+
+Five minutes at home
 
 ## Number-line games that need only paper
 
@@ -123,14 +119,14 @@ Do they check with a second route when unsure? That is the habit that protects a
 
 If they freeze, shrink the numbers. Confidence with 8 + 5 comes before 38 + 25.
 
+From counting to calculating
+
 ## Four steps a Year 3 child climbs
 
 Where a child begins depends on how they work with numbers, not the year on their report.
 
-**Mental addition and subtraction, step by step**
-
 | Step | What it looks like | Secure when the child can |
-|---|---|---|
+| --- | --- | --- |
 | 1. Counting on | Starts at the larger number and counts up | Add 9 to 36 without starting from 1 |
 | 2. Friendly tens | Jumps to the next ten first | Explain why 46 + 7 passes through 50 |
 | 3. Tens and ones | Jumps in tens, then ones | Solve 38 + 25 in two spoken jumps |
@@ -139,63 +135,293 @@ Where a child begins depends on how they work with numbers, not the year on thei
 ### If tests make your child anxious
 
 Year 3 nerves usually come from not knowing what the screen will do. One visit to the demonstration site helps more than any amount of extra practice.
+
 Keep the week before NAPLAN ordinary: the usual sleep, the usual breakfast, the usual reading.
 
 ### Looking ahead
 
 Year 5 builds on these strategies with larger numbers and fractions; our [Year 5 numeracy page](/naplan-year-5-numeracy-practice) picks up from here.
+
 For the national picture across all four year levels, see [NAPLAN numeracy practice](/naplan-numeracy-practice-online).
+
+Maths courses for younger learners
 
 ## Courses that suit Years 2 to 4
 
 Grouped by what a child is ready for. Each card opens the full syllabus.
 
+I
+
 ### Number sense
 
 Counting, place value and mental strategies
 
-- [Mental maths for kids](/courses/mental-maths-mastery-kids): Strategies explained, then practised in short bursts.
-- [Abacus mental maths](/courses/abacus-mental-maths-course-for-kids): Beads that make tens and ones concrete.
-- [Vedic maths](/courses/vedic-maths-course-speed-calculation-mastery): Patterns for quick calculation, always checked.
+NY3 / N / 01
+
+#### Mental maths for kids
+
+Strategies explained, then practised in short bursts.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+NY3 / N / 02
+
+#### Abacus mental maths
+
+Beads that make tens and ones concrete.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)
+
+NY3 / N / 03
+
+#### Vedic maths
+
+Patterns for quick calculation, always checked.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)II
 
 ### All the strands
 
 Measurement, shape and data too
 
-- [Primary maths](/courses/elementary-mathematics-complete-masterclass): Every strand of the primary curriculum, taught with talk.
-- [Problem solving and computational thinking](/courses/problem-solving-and-computational-thinking-for-kids): Puzzles, patterns and logical steps.
-- [Statistics and probability](/courses/statistics-probability-maths-course): Tallies, graphs and chance, for when a child is ready.
+NY3 / S / 01
+
+#### Primary maths
+
+Every strand of the primary curriculum, taught with talk.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+NY3 / S / 02
+
+#### Problem solving and computational thinking
+
+Puzzles, patterns and logical steps.
+
+[Open the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)
+
+NY3 / S / 03
+
+#### Statistics and probability
+
+Tallies, graphs and chance, for when a child is ready.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)III
 
 ### For keen young problem solvers
 
 When the basics feel easy
 
-- [Competition maths](/courses/olympiad-competition-mathematics-mastery): Harder puzzles at a gentle pace.
-- [Middle years maths](/courses/comprehensive-middle-school-mathematics-mastery): For the rare Year 3 child already working well ahead.
-- [Algebra foundations](/courses/algebra-foundations-masterclass): Missing numbers grow into equations, much later.
+NY3 / X / 01
+
+#### Competition maths
+
+Harder puzzles at a gentle pace.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)
+
+NY3 / X / 02
+
+#### Middle years maths
+
+For the rare Year 3 child already working well ahead.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+NY3 / X / 03
+
+#### Algebra foundations
+
+Missing numbers grow into equations, much later.
+
+[Open the syllabus](/courses/algebra-foundations-masterclass)
+
+Inside a lesson
 
 ## Small groups, short tasks, lots of talking
 
 Our teachers work from India, which is behind every Australian state. A 4 pm class in Perth starts at 1.30 pm India time, so after-school slots for young children are easy to keep week after week.
 
-- **Straight after school** Suits eight-year-olds, before tiredness sets in.
-- **Saturday morning** A relaxed option for busy weekdays.
-- **Holiday blocks** A few short sessions on one skill.
+Straight after school
 
-- **Thirty minutes of focus** Young learners get short, varied tasks rather than one long drill.
-- **Say it, then write it** Children explain each jump aloud before drawing it.
-- **Groups of fifteen to twenty** Children at the same stage learn together.
-- **One-to-one if needed** For a child who needs a particular gap closed gently.
-- **A note for parents** What we practised, and one game to play at home.
-- **Honest about NAPLAN** We teach mathematics; the test result belongs to the child.
+Suits eight-year-olds, before tiredness sets in.
+
+Saturday morning
+
+A relaxed option for busy weekdays.
+
+Holiday blocks
+
+A few short sessions on one skill.
+
+### Thirty minutes of focus
+
+Young learners get short, varied tasks rather than one long drill.
+
+### Say it, then write it
+
+Children explain each jump aloud before drawing it.
+
+### Groups of fifteen to twenty
+
+Children at the same stage learn together.
+
+### One-to-one if needed
+
+For a child who needs a particular gap closed gently.
+
+### A note for parents
+
+What we practised, and one game to play at home.
+
+### Honest about NAPLAN
+
+We teach mathematics; the test result belongs to the child.
+
+Student work
+
+## Things our students have made
+
+Projects from learners who enjoy building, collected in the [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Families in Australia pay monthly in US dollars, the rate we use everywhere outside India. There is no deposit, and you can stop at the end of any month.
 
-- Free first class: USD 0. A real lesson with a teacher. A clear picture of where your child is. No payment details needed.
-- Group batch: USD 100 a month. Fifteen to twenty children at one stage. The same teacher each week. Short tasks with feedback. A certificate at the end.
-- One to one: USD 150 a month. A teacher for one child. Gentle work on specific gaps. Times that fit your week.
+Free first class
+
+USD 0
+
+no card required
+
+- A real lesson with a teacher
+- A clear picture of where your child is
+- No payment details needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty children at one stage
+- The same teacher each week
+- Short tasks with feedback
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one child
+- Gentle work on specific gaps
+- Times that fit your week
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Reviews from parents, copied word for word from Google.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about Year 3 NAPLAN numeracy
 
 ## What parents of Year 3 children ask
 
@@ -239,15 +465,54 @@ We do not promise any level or result. We teach number sense and mental strategi
 
 We agree one weekly time after the free trial, usually just after school. In Perth, 4 pm is 1.30 pm India time all year, as Western Australia has no daylight saving.
 
+Related pages
+
 ## More for primary families
 
-- [NAPLAN numeracy, all years](/naplan-numeracy-practice-online): Dates, tailored testing and the bigger picture.
-- [NAPLAN Year 5 numeracy](/naplan-year-5-numeracy-practice): The next step: larger numbers and fractions.
-- [Online maths tutoring in Australia](/online-maths-tutoring-australia): Live classes from Foundation to Year 12.
-- [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar): Maths contests that welcome younger students.
-- [Coding for 7 and 8 year olds](/coding-classes-for-7-and-8-year-olds-australia): Loops, patterns and first programs.
-- [Maths challenges](/maths-challenges): Puzzles to share at home.
+The other NAPLAN years, maths support and competitions.
 
-## Contact
+### [NAPLAN numeracy, all years](/naplan-numeracy-practice-online)
 
-Book the free first class at [https://learn.modernagecoders.com/naplan-year-3-numeracy-practice](https://learn.modernagecoders.com/naplan-year-3-numeracy-practice#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Dates, tailored testing and the bigger picture.
+
+### [NAPLAN Year 5 numeracy](/naplan-year-5-numeracy-practice)
+
+The next step: larger numbers and fractions.
+
+### [Online maths tutoring in Australia](/online-maths-tutoring-australia)
+
+Live classes from Foundation to Year 12.
+
+### [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar)
+
+Maths contests that welcome younger students.
+
+### [Coding for 7 and 8 year olds](/coding-classes-for-7-and-8-year-olds-australia)
+
+Loops, patterns and first programs.
+
+### [Maths challenges](/maths-challenges)
+
+Puzzles to share at home.
+
+Start here
+
+## Book a free maths class for Year 3
+
+Tell us your child's year and what feels tricky. The trial lesson works on number sense, gently, and finishes with honest advice.
+
+Prefer to look around first? The [course atlas](/course-atlas) lists every maths course, and [how we teach](/how-we-teach) walks through a real lesson.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20class%20for%20my%20Year%203%20child%2C%20focusing%20on%20number%20sense.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is usually the fastest way to reach us. Our number starts +91 because we teach from India; we have no office in Australia.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/naplan-year-3-numeracy-practice*

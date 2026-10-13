@@ -4,37 +4,25 @@ description: "Live online coding and Python classes for Logan teenagers and adul
 canonical: https://learn.modernagecoders.com/best-coding-classes-in-logan
 source: src/pages/best-coding-classes-in-logan.html
 ---
-> Classes where a Logan teenager or adult writes code against real public data about their own city, and learns to say exactly what a number means and when it stops meaning it. The City of Logan counted 345,098 people at the 2021 Census. Every lesson happens live over video, either privately or with a few classmates working at the same stage, and nobody pays for the first.
+> Live online coding and Python classes for Logan teenagers and adults, with a project that measures how rugged the city's hills are and why the answer shifts.
 
-[Home](/) / [Queensland](/coding-and-ai-classes-in-queensland) / [Australia](/coding-classes-in-australia) / Logan
-
-Logan, south east Queensland / Live online
-
-# Coding classes in Logan
-
-**What are the best coding classes in Logan?** Classes where a Logan teenager or adult writes code against real public data about their own city, and learns to say exactly what a number means and when it stops meaning it. The City of Logan counted 345,098 people at the 2021 Census. Every lesson happens live over video, either privately or with a few classmates working at the same stage, and nobody pays for the first.
-
-Go from the low ground of Slacks Creek up into Daisy Hill and the land rises more than a hundred metres. Is that rugged? Geographers have a formula for it, the terrain ruggedness index, which compares each patch of ground with the eight patches around it. Run it on NASA's 30 metre elevation grid for a block of Logan and the average answer is about 5 metres, and the published scale for the index calls every single one of 29,651 cells level. Thin the grid out so its points sit about 800 metres apart and the average climbs to almost 39 metres. Same hills, same formula, very different numbers. Our Logan learners find out why a measurement can depend on the ruler as much as on the land.
-
-Facts last verified 10 October 2026. Teaching is online; no Logan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Logan
 
 ## Good first courses for Logan learners
 
 Each heads towards the ruggedness project below. The free lesson decides the fit, and we ask for no card details.
 
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python basics through to grids of numbers, nested loops and simple maps.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): NumPy, summaries and the habit of asking what a statistic depends on.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 11 to 16): Squares, square roots and averages, worked out in code on real numbers.
-- [Data Science Course](/courses/data-science-complete-masterclass-college) (University and adult): Spatial data, resampling, scale effects and reporting methods with results.
+[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython basics through to grids of numbers, nested loops and simple maps.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensNumPy, summaries and the habit of asking what a statistic depends on.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 11 to 16Maths Through CodingSquares, square roots and averages, worked out in code on real numbers.See the syllabus](/courses/maths-through-coding)[![Data Science Course course thumbnail](/images/data-science-college.webp)University and adultData Science CourseSpatial data, resampling, scale effects and reporting methods with results.See the syllabus](/courses/data-science-complete-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Logan in the Census
 
 ## A city of 345,098 between Brisbane and the Gold Coast
 
@@ -42,10 +30,8 @@ Figures for the City of Logan council area from the 2021 Census, with Queensland
 
 At the Census Logan had 345,098 residents and a median age of 34. They lived as 90,481 families in 125,926 private dwellings, averaging 2.9 people per household.
 
-**Logan compared (2021 Census shares)**
-
 | Group | Logan | Queensland | Australia |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Separate houses (95,721 dwellings) | 85.0% | 74.8% | 72.3% |
 | Technicians and trades workers (23,874 people) | 15.7% | 13.7% | 12.9% |
 | Professionals (21,402 people) | 14.1% | 21.4% | 24.0% |
@@ -65,14 +51,14 @@ A further 22,856 residents were aged 20 to 24.
 
 The ABS estimate for Logan at 30 June 2025 is 403,515. The bureau adds small random changes to Census cells for privacy, so rows and totals may not reconcile; we quote figures exactly as published and never total rows ourselves.
 
+Signature project
+
 ## Is Logan rugged or level, and who decides?
 
 A 5.9 by 5.0 kilometre block of SRTM elevation inside the City of Logan, centred on Slacks Creek and rising into Daisy Hill, run through the terrain ruggedness index in Python.
 
-**Ruggedness of the same ground at four grid sizes (our calculation, 10 October 2026)**
-
 | Grid spacing | Cells measured | Average ruggedness | Called level on the published scale |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | About 30 m | 29,651 | 4.99 m | All of them |
 | About 90 m | 3,185 | 12.37 m | All of them |
 | About 270 m | 315 | 25.29 m | 313 of 315 |
@@ -96,14 +82,14 @@ The 1999 paper that introduced the index sorted scores into seven classes, from 
 
 All four corners of the block and the midpoints of its edges lie inside the City of Logan on the ABS boundary layer. Eight cells record heights at or below zero, a reminder that radar measurements carry noise. A gentler variant of the index, the mean absolute difference, ranks cells almost identically (correlation 0.992) but gives numbers about 3.4 times smaller. All scores are our own calculations.
 
+Measuring with care
+
 ## What to report alongside any terrain number
 
 Learned on Logan's hills, then applied to image analysis, flood mapping, sensor grids and any measurement on a raster.
 
-**Choices that changed the Logan ruggedness scores**
-
 | Choice | Options tested | Effect |
-|---|---|---|
+| --- | --- | --- |
 | Grid spacing | 30, 90, 270 and 800 m | Average rises from 4.99 m to 38.56 m |
 | Formula | Root of summed squares against mean absolute difference | Same ranking, about 3.4 times different scale |
 | Class labels | Published breaks for 1 km cells | Everything at 30 m is called level |
@@ -125,6 +111,8 @@ Whenever a dashboard reports a grid-based metric, ask what resolution it was com
 
 Modern Age Coders has no association with NASA, OpenTopoData, the ABS or Logan City Council. The elevation data and statistics are theirs; the ruggedness analysis is our own.
 
+Around Logan
+
 ## Queensland clocks and the 2027 school year
 
 What shapes when a Logan learner can join a live lesson.
@@ -141,16 +129,41 @@ Logan sits four and a half hours ahead of India time throughout the year.
 
 From October to April the New South Wales side of the border runs an hour ahead of Logan.
 
-**First half of 2027 in Queensland schools** The education department lists Term 1 of 2027 as nine weeks, Wednesday 27 January to Thursday 25 March, and Term 2 as eleven weeks, Monday 12 April to Friday 25 June.
+First half of 2027 in Queensland schools
+
+The education department lists Term 1 of 2027 as nine weeks, Wednesday 27 January to Thursday 25 March, and Term 2 as eleven weeks, Monday 12 April to Friday 25 June.
+
+Learning ladder
 
 ## From a first grid to spatial analysis
 
 Ages here are rough markers; where a learner actually begins is settled in the free lesson.
 
-- **Ages 11 to 14: Numbers in a grid** Lists of lists, neighbours and simple maps drawn with code. [Maths Through Coding](/courses/maths-through-coding), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 15 to 18: Formulas on real data** Applying a published index to an elevation grid and checking it by hand. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **University: Scale and resampling** Raster analysis, resolution effects and reproducible methods. [Data Science Course](/courses/data-science-complete-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
-- **Adults: Grids at work** Automating spatial summaries and documenting how they were made. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 11 to 14
+
+### Numbers in a grid
+
+Lists of lists, neighbours and simple maps drawn with code.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 15 to 18
+
+### Formulas on real data
+
+Applying a published index to an elevation grid and checking it by hand.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)University
+
+### Scale and resampling
+
+Raster analysis, resolution effects and reproducible methods.
+
+[Data Science Course](/courses/data-science-complete-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)Adults
+
+### Grids at work
+
+Automating spatial summaries and documenting how they were made.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## Would an AI assistant mention the cell size?
 
@@ -162,30 +175,139 @@ Our Logan learners have AI write the index quickly, then test it on a hand-worke
 
 A Logan learner who has watched the same hills change from level to rugged as the grid changed will ask what any AI-produced number depends on, long after 2026. The longer argument is in [the skills that make a good programmer](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Logan homes, live online lessons
 
 A class online reaches every corner of a large city equally.
 
-- **Queensland time throughout** Lesson times are set in Logan time and never move for daylight saving.
-- **Queensland curriculum years** Teachers plan around Queensland year levels, QCE seniors included, and teach in English.
-- **Code in the first hour** The free lesson is real programming with a teacher. You then receive a recommended course and time, and payment details are never requested.
-- **Fifteen to twenty per class** Learners grouped by level, drawn from several places so each stage has a workable hour.
-- **Two lessons weekly** Roughly eight a month, with holiday and exam breaks planned with the teacher.
-- **Families with several learners** Siblings at different levels join separate groups at times that suit the household.
+### Queensland time throughout
 
-**Logan time on every booking** Every time we send is in Queensland time, so nothing needs converting.
+Lesson times are set in Logan time and never move for daylight saving.
+
+### Queensland curriculum years
+
+Teachers plan around Queensland year levels, QCE seniors included, and teach in English.
+
+### Code in the first hour
+
+The free lesson is real programming with a teacher. You then receive a recommended course and time, and payment details are never requested.
+
+### Fifteen to twenty per class
+
+Learners grouped by level, drawn from several places so each stage has a workable hour.
+
+### Two lessons weekly
+
+Roughly eight a month, with holiday and exam breaks planned with the teacher.
+
+### Families with several learners
+
+Siblings at different levels join separate groups at times that suit the household.
+
+Logan time on every booking
+
+Every time we send is in Queensland time, so nothing needs converting.
+
+Fees
 
 ## Coding class fees in Logan
 
 All of it in three lines.
 
-- First class: USD 0. A free lesson, then a recommended level, course and time.
-- Group tuition: USD 100 a month. Near enough eight group lessons a month, fifteen to twenty learners per class.
-- Private tuition: USD 150 a month. Near enough eight one-to-one lessons a month with one teacher.
+First class**USD 0**
+
+A free lesson, then a recommended level, course and time.
+
+Group tuition**USD 100**
+
+Near enough eight group lessons a month, fifteen to twenty learners per class.
+
+Private tuition**USD 150**
+
+Near enough eight one-to-one lessons a month with one teacher.
 
 Logan pays the national US dollar rate, the same as every other Australian city. There is no charge until the trial agrees a course and time; the pricing page explains holidays, missed lessons and changes of format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20class%20for%20a%20learner%20in%20Logan.)Reviews
+
+## Reviews on Google from learners and parents
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us a little and we will plan the first lesson
+
+The trial task is set beforehand: a grid of numbers for a Year 7 beginner, the 3 by 3 ruggedness calculation for a Year 11 student, or the full scale comparison for an adult.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Logan one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20class%20for%20a%20learner%20in%20Logan.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Logan coding class questions
+
+What Logan families and adult learners want to know first.
 
 ### How many people live in Logan?
 
@@ -227,10 +349,14 @@ The first lesson is free. After that a group place costs USD 100 a month for two
 
 Between five and ten learners, matched on level, pace and goals rather than on age or postcode. When no group fits a workable time, one-to-one lessons are offered instead.
 
+More in Queensland
+
 ## Pages for Logan's neighbours
 
 To the north is [the Brisbane coding page](/best-coding-classes-in-brisbane), and to the south [coding classes on the Gold Coast](/best-coding-classes-in-gold-coast). For primary-aged children see [coding classes for kids on the Gold Coast](/coding-classes-for-kids-gold-coast), and for the whole state read [coding and AI classes in Queensland](/coding-and-ai-classes-in-queensland).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20class%20for%20a%20learner%20in%20Logan.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-classes-in-logan](https://learn.modernagecoders.com/best-coding-classes-in-logan#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-classes-in-logan*

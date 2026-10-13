@@ -4,49 +4,35 @@ description: "Live online coding, Python, AI and data classes for Tallaght and D
 canonical: https://learn.modernagecoders.com/coding-classes-in-tallaght-dublin
 source: src/pages/coding-classes-in-tallaght-dublin.html
 ---
-> Tallaght classes are taught by a real teacher in real time over video, either to a small cluster of learners who share a level or to a single learner, normally twice a week, and learners from six to sixty-seven are all accepted. Nobody needs to leave home. The introductory lesson is free, and the monthly fee afterwards is USD 100 for group teaching or USD 150 for one-to-one teaching.
+> Live online coding, Python, AI and data classes for Tallaght and Dublin 24, ages 6 to 67, in small groups at one level or one to one. The first lesson is free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [South Dublin](/coding-classes-in-south-dublin) / Tallaght
-
-Tallaght, Dublin 24 / Live online
-
-# Coding classes in Tallaght
-
-**What are the best coding classes in Tallaght?** Tallaght classes are taught by a real teacher in real time over video, either to a small cluster of learners who share a level or to a single learner, normally twice a week, and learners from six to sixty-seven are all accepted. Nobody needs to leave home. The introductory lesson is free, and the monthly fee afterwards is USD 100 for group teaching or USD 150 for one-to-one teaching.
-
-On the Old Bawn Road, South Dublin County Council runs an air monitoring station that reports nitrogen dioxide to the Environmental Protection Agency every hour. Average its 2025 readings day by day and weekdays come out higher than weekends, 12.20 against 10.05 micrograms per cubic metre. That sounds settled, until you look at single weeks: in 14 of the 44 complete weeks of the year the weekend was the higher of the two. So is the weekday difference real, and how big might it be? This page teaches a learner to answer that with resampling, a technique that measures how much a result would wobble if the year had turned out slightly differently.
-
-Facts last verified 20 September 2026. Teaching is online; no Tallaght branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Tallaght
 
 ## Starting points for Tallaght learners
 
 One course per age band, and the free first lesson, taken with its teacher, confirms the choice or changes it.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Blocks and chance: rolling dice many times and watching the average settle down.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Python with random numbers and averages, and a first sense of how much results jump about.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 18): Real air readings in Python: daily averages, group comparisons and bootstrap intervals.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (College and adult): For adults who compare groups at work and need to say how confident the difference is.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlocks and chance: rolling dice many times and watching the average settle down.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsPython with random numbers and averages, and a first sense of how much results jump about.See the syllabus](/courses/python-ai-kids-masterclass)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 18Data Science for TeensReal air readings in Python: daily averages, group comparisons and bootstrap intervals.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)College and adultData Analysis CourseFor adults who compare groups at work and need to say how confident the difference is.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## Weekdays look worse than weekends, but how sure is that?
 
 Daily average nitrogen dioxide at the EPA's Tallaght station in 2025, in micrograms per cubic metre, using only days with at least 18 hourly readings. The readings are provisional, as published on airquality.ie.
 
-**Tallaght nitrogen dioxide in 2025, weekdays against weekends**
-
 | Measure | Weekdays | Weekends |
-|---|---|---|
+| --- | --- | --- |
 | Days counted | 243 | 96 |
 | Average of daily means | 12.20 | 10.05 |
-| Difference, with 95% interval | 2.15 (0.39 to 3.92) |  |
+| Difference, with 95% interval | 2.15 (0.39 to 3.92) |   |
 
 ### Day by day
 
@@ -78,14 +64,14 @@ This page does not compare Tallaght with any legal limit and makes no statement 
 
 The EPA publishes these as provisional data that may change after validation. Any learner repeating the project later should expect small differences in the numbers, and the same conclusion.
 
+Tallaght, named
+
 ## Tallaght, in the words of its own institutions
 
 Facts that each body publishes itself, with an eircode where it gives one.
 
-**Named places in Tallaght**
-
 | Place | What its own source says |
-|---|---|
+| --- | --- |
 | South Dublin County Council | County Hall, Tallaght, D24 A3XC |
 | Rua Red, South Dublin Arts Centre | Plás Pharthalán, Tallaght, D24 KV8N |
 | Old Bawn Community School | Dún An Óir, Old Bawn, D24 HP38 |
@@ -104,7 +90,11 @@ Rua Red describes itself as the South Dublin Arts Centre, with a gallery open Mo
 
 TII's list of Luas stops flags Tallaght for both park and ride and cycle and ride. Old Bawn Community School sits in the Old Bawn area the air station is named for.
 
-**What this page does not claim** No population is printed for Tallaght, because the page uses only facts that named bodies publish about the place itself; the electoral area figures belong to the South Dublin page. The air project says nothing about health or legal limits.
+What this page does not claim
+
+No population is printed for Tallaght, because the page uses only facts that named bodies publish about the place itself; the electoral area figures belong to the South Dublin page. The air project says nothing about health or legal limits.
+
+Learning here
 
 ## How Tallaght learners spend a week
 
@@ -124,14 +114,37 @@ Adults can begin as beginners; lesson one finds the right course.
 
 Hourly readings come from the EPA's airquality.ie; the daily averages, intervals and weekly comparisons are our own calculations, run on 20 September 2026. The council, the arts centre, the school and TII are quoted from their own pages and data.
 
+Learning ladder
+
 ## From rolling dice to a bootstrap interval
 
 Think of the bands as a first estimate; the first lesson shows the true starting level.
 
-- **Ages 6 to 10: Many rolls** Block-coded dice that roll hundreds of times and show the average settling. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Random samples** Python that draws random samples and compares their averages. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Bootstrap** Resampling real data to put an interval around a difference. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Confident comparisons** Group differences at work reported with an interval, not just a number. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### Many rolls
+
+Block-coded dice that roll hundreds of times and show the average settling.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Random samples
+
+Python that draws random samples and compares their averages.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Bootstrap
+
+Resampling real data to put an interval around a difference.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Confident comparisons
+
+Group differences at work reported with an interval, not just a number.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## Ask an assistant whether Tallaght's weekdays are more polluted
 
@@ -143,30 +156,139 @@ Having run the bootstrap, the learner asks the assistant how many days lie behin
 
 Comparing two averages takes a line of code. Knowing how far to trust the gap is the skill. The longer argument is in [what makes coding worth learning now](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How lessons run for Tallaght
 
 The working arrangements.
 
-- **With a teacher, live** The teacher stays on the call throughout, watching each learner's code and helping as it is written.
-- **Grouped by stage** Fifteen to twenty learners at the same stage, from Dublin 24, elsewhere in Ireland and abroad.
-- **A regular pair** About eight lessons a month, held at two weekly times fixed when the course starts.
-- **Holidays planned** Mid-term breaks, holidays and exam weeks are built into the plan in advance.
-- **Home kit** Any laptop or desktop that runs a browser, a headset or speakers with a mic, and broadband steady enough for a video call.
-- **One-to-one** Private lessons for a learner who is ahead of every group, needs a gentler pace, or has unusual free hours.
+### With a teacher, live
 
-**No premises** We have no centre in Tallaght, in South Dublin or anywhere in Ireland. All lessons are on video and are the same wherever the learner logs in.
+The teacher stays on the call throughout, watching each learner's code and helping as it is written.
+
+### Grouped by stage
+
+Fifteen to twenty learners at the same stage, from Dublin 24, elsewhere in Ireland and abroad.
+
+### A regular pair
+
+About eight lessons a month, held at two weekly times fixed when the course starts.
+
+### Holidays planned
+
+Mid-term breaks, holidays and exam weeks are built into the plan in advance.
+
+### Home kit
+
+Any laptop or desktop that runs a browser, a headset or speakers with a mic, and broadband steady enough for a video call.
+
+### One-to-one
+
+Private lessons for a learner who is ahead of every group, needs a gentler pace, or has unusual free hours.
+
+No premises
+
+We have no centre in Tallaght, in South Dublin or anywhere in Ireland. All lessons are on video and are the same wherever the learner logs in.
+
+Fees
 
 ## Fees in Tallaght
 
 Nothing left out.
 
-- First class: USD 0. An opening lesson and level check, at no charge.
-- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one stage, roughly eight live lessons.
-- Private tuition: USD 150 a month. A month of one-to-one lessons on the same timetable.
+First class**USD 0**
+
+An opening lesson and level check, at no charge.
+
+Group tuition**USD 100**
+
+A month in a group of fifteen to twenty at one stage, roughly eight live lessons.
+
+Private tuition**USD 150**
+
+A month of one-to-one lessons on the same timetable.
 
 Families living outside India all pay one monthly fee in US dollars. The free lesson carries no commitment, the first charge comes with the start of the course, and holidays, missed lessons and changes between group and private teaching are set out on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Tallaght.)Reviews
+
+## What six families posted on Google, unedited
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free first lesson in Tallaght
+
+Tell us how old the learner is and what grabs their interest, and the first hour will be designed for them. It could end with a game, a program that runs, or a difference with an honest interval around it.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Tallaght one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Tallaght.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Tallaght coding class questions
+
+What Tallaght families tend to ask.
 
 ### Is there a Modern Age Coders centre in Tallaght?
 
@@ -204,10 +326,14 @@ The first lesson is free. Then a group place is USD 100 a month for around eight
 
 Fifteen to twenty, grouped by level, pace and aim rather than age or address. When no group fits at a workable hour, lessons are one to one.
 
+Explore Ireland
+
 ## Around Tallaght and South Dublin
 
 The [South Dublin](/coding-classes-in-south-dublin) page covers the council area and its electoral figures, [Lucan](/coding-classes-in-lucan-dublin) is the county's other district page, and [Blanchardstown](/coding-classes-in-blanchardstown-dublin) has an air-monitoring project that tests legal limits instead. The [Dublin](/best-coding-class-in-dublin) page and the [Ireland hub](/coding-classes-in-ireland) lead everywhere else.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Tallaght.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-tallaght-dublin](https://learn.modernagecoders.com/coding-classes-in-tallaght-dublin#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-tallaght-dublin*

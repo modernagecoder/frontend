@@ -4,46 +4,32 @@ description: "Live online vibe coding, AI agents and Python lessons for Mornings
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-morningside-edinburgh
 source: src/pages/vibe-coding-and-ai-agents-classes-in-morningside-edinburgh.html
 ---
-> We found no official population for an area matching Morningside exactly, so none is quoted here; the City of Edinburgh, which contains it, counted about 512,700 residents in Scotland's 2022 census. Bruntsfield, Churchhill, Greenbank, Comiston, Marchmont and Blackford are recorded suburbs in the EH9 and EH10 postcode districts. Lessons reach Morningside by live video from our teachers in India: agent building, vibe coding, Python and maths, for a six-year-old or a 67-year-old, taken alone with a tutor or among fifteen to twenty classmates of matching level. We explain the reasoning before the tools, so learners know what rule an agent is following when it makes a choice. A first session is free and finishes with our view on a suitable course. In the Morningside project an agent has to pick a meeting point before it knows which of 14 neighbourhoods its visitor will walk from, and three sensible rules give two different answers. Continuing costs USD 100 monthly in a class, or USD 150 monthly for a tutor of your own.
+> Live online vibe coding, AI agents and Python lessons for Morningside, Bruntsfield, Greenbank and Comiston learners in Edinburgh, aged 6 to 67. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Edinburgh](/best-coding-class-in-edinburgh) / Morningside
-
-Morningside, Edinburgh, Scotland / Live online
-
-# Vibe coding and AI agents classes in Morningside, Edinburgh
-
-**Where can Morningside learners find the best vibe coding and AI agents classes?** We found no official population for an area matching Morningside exactly, so none is quoted here; the City of Edinburgh, which contains it, counted about 512,700 residents in Scotland's 2022 census. Bruntsfield, Churchhill, Greenbank, Comiston, Marchmont and Blackford are recorded suburbs in the EH9 and EH10 postcode districts. Lessons reach Morningside by live video from our teachers in India: agent building, vibe coding, Python and maths, for a six-year-old or a 67-year-old, taken alone with a tutor or among fifteen to twenty classmates of matching level. We explain the reasoning before the tools, so learners know what rule an agent is following when it makes a choice. A first session is free and finishes with our view on a suitable course. In the Morningside project an agent has to pick a meeting point before it knows which of 14 neighbourhoods its visitor will walk from, and three sensible rules give two different answers. Continuing costs USD 100 monthly in a class, or USD 150 monthly for a tutor of your own.
-
-Agents act before all the facts are in. A scheduling agent books a room without knowing who will turn up; a delivery agent picks a depot before the orders arrive. There are well-known rules for deciding under that kind of uncertainty. You can average over the possibilities and pick the lowest expected cost. You can assume the worst will happen and pick the option whose worst case is least bad, a rule called maximin. Or you can minimise regret: how much worse you did than you could have, had you known. These rules can disagree, and an agent will quietly use whichever one its designer assumed. This project tests them on real walking distances across Morningside and its neighbours.
-
-Facts last verified 30 September 2026. Teaching is online; no Morningside branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentMorningside course picks
 
 ## Morningside courses in thinking, vibe coding and agents
 
 Four courses by age. The opening lesson on each is live and free, and we ask for no card.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think course: choosing when you cannot be sure, and saying which rule you used.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games thought up by the learner, built with an AI and tested fully.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python and web projects with AI help, including the deciding agent on a Morningside map.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): Agents that plan, decide under uncertainty and explain their choices, in Python.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think course: choosing when you cannot be sure, and saying which rule you used.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games thought up by the learner, built with an AI and tested fully.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensPython and web projects with AI help, including the deciding agent on a Morningside map.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseAgents that plan, decide under uncertainty and explain their choices, in Python.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Morningside in the EH9 and EH10 postcodes
 
 ## Morningside, Bruntsfield, Greenbank and Comiston
 
 Recorded suburbs in EH9 and EH10, and why no population appears.
 
-**Suburban areas recorded by postcodes.io in two Edinburgh postcode districts**
-
 | Postcode district | Recorded suburban areas |
-|---|---|
+| --- | --- |
 | EH10 | Morningside, Churchhill, Greenbank, Comiston |
 | EH9 | Bruntsfield, Marchmont, Blackford |
 
@@ -53,16 +39,16 @@ We looked for a National Records of Scotland figure covering exactly Morningside
 
 The city page is [Edinburgh](/best-coding-class-in-edinburgh); see also [Scotland](/coding-and-ai-classes-in-scotland) and [Advanced Higher Maths tuition](/advanced-higher-maths-tuition-online). Why we teach reasoning first is on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Morningside project
+
 ## Expected value, maximin or minimax regret? An agent picks a meeting point
 
 Real walking distances, one unknown, and three rules that do not all agree.
 
 The learner builds a walking network from OpenStreetMap, 130.0 km of streets and paths, and finds the points the map uses to label 14 neighbourhoods in the area, from Firrhill and Greenbank to Merchiston and Greenhill. Dijkstra's algorithm gives the walking distance between every pair. The agent's job: choose one of five venues, the places the map tags as suburbs, for a learner who will walk from one of the 14 neighbourhoods. The agent does not know which. For each venue the program works out the average walk if all 14 starts are equally likely, the longest possible walk, and the largest regret, meaning the most extra distance compared with the venue that would have suited that walker.
 
-**Five possible meeting points for a walker from an unknown one of 14 neighbourhoods, metres, our Python run on OpenStreetMap data**
-
 | Venue | Average walk | Longest walk | Largest regret |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Comiston | 1,387 | 1,990 | 1,967 |
 | Morningside | 1,414 | 2,830 | 1,839 |
 | Merchiston | 1,551 | 3,250 | 2,692 |
@@ -87,14 +73,14 @@ Code expected value, maximin and minimax regret and explain why they split.
 
 Paths and place labels are from OpenStreetMap and its contributors under the Open Database Licence. A label point is where the map prints a name, not the edge of a neighbourhood. The distances, rules and picks are our own teaching exercise, not advice about where to meet.
 
+Agents that decide
+
 ## Why every deciding agent carries a rule
 
 An agent cannot avoid a decision rule; it can only hide one.
 
-**From the Morningside meeting point to real AI agents**
-
 | In the meeting-point project | When an agent chooses for you |
-|---|---|
+| --- | --- |
 | Average and worst-case rules chose Comiston | Some goals happen to agree |
 | Minimax regret chose Morningside | A different goal gives a different action |
 | Optimism tied every venue at 0 m | Some rules cannot tell options apart |
@@ -105,14 +91,37 @@ Ask an AI agent to "pick the most convenient place" and it will choose something
 
 OpenStreetMap, National Records of Scotland and postcodes.io published the open data used here and have no tie to us; the agent and any error in it belong to Modern Age Coders.
 
+Stages
+
 ## From fair guesses to deciding agents
 
 The P or S year gives a first hint; the trial shows the real starting point.
 
-- **P1 to P7: How to think** Choices, worst cases and explaining a decision. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **P5 to S2: Vibe coding for kids** Games and apps planned by the learner and built with AI help. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **S3 to S6: Python and decisions** Tables of outcomes, averages and risk, beside SQA Maths and Computing Science. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [Statistics & Probability](/courses/statistics-probability-maths-course)
-- **Adults: Agents that choose** Decision rules, planning and tool use in Python agents. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+P1 to P7
+
+### How to think
+
+Choices, worst cases and explaining a decision.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)P5 to S2
+
+### Vibe coding for kids
+
+Games and apps planned by the learner and built with AI help.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)S3 to S6
+
+### Python and decisions
+
+Tables of outcomes, averages and risk, beside SQA Maths and Computing Science.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[Statistics & Probability](/courses/statistics-probability-maths-course)Adults
+
+### Agents that choose
+
+Decision rules, planning and tool use in Python agents.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)Agents and uncertainty
 
 ## How should an AI agent decide when it does not know what will happen?
 
@@ -124,30 +133,139 @@ Learners who have coded the three rules ask of any agent: which rule did it use,
 
 A Morningside teenager who can name the rule behind a choice will not mistake an agent's confidence for wisdom, and writing such agents is how that judgement is earned. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Bruntsfield to Comiston, by video
 
 Equipment is simple: a computer, a webcam and a connection that holds a video call.
 
-- **The learner decides and types** Code, prompts and design choices are the student's; the tutor watches the shared screen and asks which rule they chose and why.
-- **Trial finds the level** The free session shows what to teach first; any SQA course is noted.
-- **A free opening lesson** Lesson one costs nothing, and its last minutes go on which course fits.
-- **Classmates at your stage** Groups have fifteen to twenty learners at one level, from around the UK.
-- **Two a week** In term time only.
-- **Time that holds** Our tutors absorb the UK clock changes, so your slot is constant.
+### The learner decides and types
 
-**Why online** Five learners at one stage, free on one evening, rarely share a neighbourhood. On video that stops mattering.
+Code, prompts and design choices are the student's; the tutor watches the shared screen and asks which rule they chose and why.
+
+### Trial finds the level
+
+The free session shows what to teach first; any SQA course is noted.
+
+### A free opening lesson
+
+Lesson one costs nothing, and its last minutes go on which course fits.
+
+### Classmates at your stage
+
+Groups have fifteen to twenty learners at one level, from around the UK.
+
+### Two a week
+
+In term time only.
+
+### Time that holds
+
+Our tutors absorb the UK clock changes, so your slot is constant.
+
+Why online
+
+Five learners at one stage, free on one evening, rarely share a neighbourhood. On video that stops mattering.
+
+Fees
 
 ## Morningside fees
 
 Learners in Morningside pay our international rates, the ones for every country except India.
 
-- First class: USD 0. A complete free lesson, then advice on a course.
-- Group tuition: USD 100 a month. About eight live group lessons each month.
-- Private tuition: USD 150 a month. About eight live one-to-one lessons each month.
+First class**USD 0**
+
+A complete free lesson, then advice on a course.
+
+Group tuition**USD 100**
+
+About eight live group lessons each month.
+
+Private tuition**USD 150**
+
+About eight live one-to-one lessons each month.
 
 Billing is in US dollars with no sterling price, and starts when the trial has agreed a course and a regular time. The pricing page sets out holidays, absences and switching between class and private lessons.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Morningside%3F)Reviews
+
+## Edinburgh families and learners around Britain, on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Morningside lesson
+
+Send an age or school stage and something the learner likes. The trial might be a where-shall-we-meet puzzle, a Scratch game made with an AI, a first Python script, or a small agent that has to choose.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Morningside one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Morningside%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Morningside questions
+
+Decision rules, the meeting-point agent, vibe coding and how lessons run.
 
 ### What is the population of Morningside?
 
@@ -189,10 +307,14 @@ Nothing for the trial lesson. A place in a class then costs USD 100 each month, 
 
 Yes, during school holidays, once you send the dates.
 
+Nearby
+
 ## More Edinburgh and Lothian pages
 
 Each page runs a different experiment: [Edinburgh](/best-coding-class-in-edinburgh) (why summer nights never get dark), [Musselburgh](/online-coding-and-python-classes-in-musselburgh), [Livingston](/best-coding-and-ai-classes-in-livingston) and [Midlothian](/coding-classes-in-midlothian). The [UK hub](/coding-classes-in-united-kingdom) links everywhere else.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Morningside%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-morningside-edinburgh](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-morningside-edinburgh#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-morningside-edinburgh*

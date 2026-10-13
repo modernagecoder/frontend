@@ -12,7 +12,7 @@ For parents of Class 3 students · Age 8
 
 Class 3 students can follow a two or three-step plan, type short words on a keyboard, and love showing finished work to parents. Our 1 hour live classes use that sweet spot: Scratch games, block coding, a tiny taste of Python, an AI taster.
 
-[Book a free demo class](/book-demo)See the curriculum**3,400+**Class 3 students taught**4.9 / 5**Parent rating · 380+ reviews**1 hour**Live class, 1:1 or small group**6 weeks**To their first finished Scratch game3Class · GradeScratch gamesBlock codingFirst Python tasteCourses matched for this level
+[Book a free demo class](/book-demo)See the curriculum**10,000+**Students taught live since 2020**4.9 / 5**Rated across 547 Google reviews**1 hour**Live class, 1:1 or small group**6 weeks**To their first finished Scratch game3Class · GradeScratch gamesBlock codingFirst Python tasteCourses matched for this level
 
 ## Courses that fit Class 3 energy and Class 3 brains.
 
@@ -160,9 +160,9 @@ One teacher, one learner, the full 1 hour. The teacher adapts pace in real time,
 
 **₹4,999**/ month · 4 sessionsOption B
 
-### Live Small-Group Online Class
+### Live Group Online Class
 
-4 to 6 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
+15 to 20 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
 
 - Small groups of 4 to 6 similar-level learners
 - 1 hour live session, 2 sessions per week

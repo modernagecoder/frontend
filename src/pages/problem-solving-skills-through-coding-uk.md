@@ -4,31 +4,29 @@ description: "Does coding teach general problem-solving? Ofsted's research revie
 canonical: https://learn.modernagecoders.com/problem-solving-skills-through-coding-uk
 source: src/pages/problem-solving-skills-through-coding-uk.html
 ---
-> Coding is worth learning on its own terms, and it does not need a transfer claim propping it up. Ofsted's research review on computing cites the argument that we should avoid exaggerated claims about problem-solving skills transferring to other domains, and says the subject is a worthwhile pursuit in itself. What the same review does say is that problem-solving skill "derives primarily from the accumulation of a large store of domain-specific knowledge stored in long-term memory". In other words, a learner gets better at solving computing problems by knowing more computing, sequenced properly, not by being trained in a generic skill. That is how we teach: worked examples that fade, labelled steps, and a prediction before every program runs. Groups of fifteen to twenty at one level, or one to one. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
+> Does coding teach general problem-solving? Ofsted's research review says be cautious. What it does build, how it is taught, and why we say so. First class free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Problem solving through coding
+In short
 
-United Kingdom · What the research says · All ages
+Coding is worth learning on its own terms, and it does not need a transfer claim propping it up. Ofsted's research review on computing cites the argument that we should avoid exaggerated claims about problem-solving skills transferring to other domains, and says the subject is a worthwhile pursuit in itself. What the same review does say is that problem-solving skill "derives primarily from the accumulation of a large store of domain-specific knowledge stored in long-term memory". In other words, a learner gets better at solving computing problems by knowing more computing, sequenced properly, not by being trained in a generic skill. That is how we teach: worked examples that fade, labelled steps, and a prediction before every program runs. Groups of fifteen to twenty at one level, or one to one. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
 
-# Problem-solving skills through coding
-
-Almost every coding school in Britain sells the same promise: learn to code and your child will become a better problem solver in general, at maths, at school, at life. Ofsted's own review of the research on computing education says to be careful with exactly that claim. It cites work arguing that we should "avoid exaggerated claims that it develops problem-solving skills that are transferrable to other domains", and then makes a point worth putting on a poster: the subject "does not need to be justified with tenuous claims about broader benefits". We are not going to make the claim either. What follows is what coding genuinely does build, what the research says actually makes someone better at it, and how that shapes a lesson.
-
-At a glance: The claim: Transfer to other subjects; The research: Be cautious about it; What works: Domain-specific knowledge; How: Worked examples, then faded; Test: Predict the output first; Group: Fifteen to twenty at one level; Or: One to one; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three courses built on sequenced knowledge
 
 Each one has a defined order of content rather than a promise about general benefits. Cards open the full syllabus.
 
-- [Problem Solving and Computational Thinking](/courses/problem-solving-and-computational-thinking-for-kids): Decomposition, patterns and describing rules aloud, taught as content with a sequence rather than as a mindset.
-- [Algorithms and Data Structures](/courses/problem-solving-dsa-masterclass-teens): The clearest example of domain knowledge doing the work: you solve these by knowing the structures, not by thinking harder.
-- [Python for Teens](/courses/python-complete-masterclass-teens): The language in which most of that knowledge gets built, taught by predicting output before running anything.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)  SOLVE / 01 Problem Solving and Computational Thinking Decomposition, patterns and describing rules aloud, taught as content with a sequence rather than as a mindset. Open the syllabus →](/courses/problem-solving-and-computational-thinking-for-kids)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)  SOLVE / 02 Algorithms and Data Structures The clearest example of domain knowledge doing the work: you solve these by knowing the structures, not by thinking harder. Open the syllabus →](/courses/problem-solving-dsa-masterclass-teens)[![Python for Teens course thumbnail](/images/python-teens.webp)  SOLVE / 03 Python for Teens The language in which most of that knowledge gets built, taught by predicting output before running anything. Open the syllabus →](/courses/python-complete-masterclass-teens)
+
+The claim we refuse
 
 ## What Ofsted's review actually says about transfer
 
 From Ofsted's research review series on computing, published 16 May 2022 and applying to England. It reviews the research literature rather than setting policy, which is what makes it useful here.
 
-**The passage in full** Discussing the role of computational thinking, the review notes that "Tedre and Denning point out that we should be cautious about the scope of CT and avoid exaggerated claims that it develops problem-solving skills that are transferrable to other domains. Learning computing as a subject and the knowledge related to CT is a worthwhile pursuit in itself, and does not need to be justified with tenuous claims about broader benefits."
+The passage in full
+
+Discussing the role of computational thinking, the review notes that "Tedre and Denning point out that we should be cautious about the scope of CT and avoid exaggerated claims that it develops problem-solving skills that are transferrable to other domains. Learning computing as a subject and the knowledge related to CT is a worthwhile pursuit in itself, and does not need to be justified with tenuous claims about broader benefits."
 
 ### Why this matters to a parent
 
@@ -46,14 +44,14 @@ There is a second reason the review is worth reading if you are choosing a class
 
 Source, read 20 September 2026: [Ofsted, Research review series: computing](https://www.gov.uk/government/publications/research-review-series-computing/research-review-series-computing), published 16 May 2022, applies to England. Quotations are the review's summaries of the literature it cites, and the named researchers are its citations, not ours.
 
+What it does build
+
 ## Six areas, and the thing underneath all of them
 
 The review sets out what problem-solving in computing consists of, and then makes a point about how anyone actually gets better at it.
 
-**Concepts and practices the review lists**
-
 | Area | What a learner is actually doing |
-|---|---|
+| --- | --- |
 | Logic and logical thinking | Working out what must follow, and what a condition really tests |
 | Algorithms and algorithmic thinking | Describing a method precisely enough that something else can carry it out |
 | Patterns and pattern recognition | Noticing that this problem is the last one wearing different clothes |
@@ -61,7 +59,9 @@ The review sets out what problem-solving in computing consists of, and then make
 | Evaluation | Judging whether a solution is any good, not just whether it runs |
 | Automation | Handing the repetitive part to a machine, correctly |
 
-**And then the important sentence** The review says the list "does not describe how pupils become better at problem-solving in these areas. These areas do not develop through a 'learned skill'", and cites Tricot and Sweller: teaching generic skills does not work, and "learned skill, especially problem-solving skill, derives primarily from the accumulation of a large store of domain-specific knowledge stored in long-term memory".
+And then the important sentence
+
+The review says the list "does not describe how pupils become better at problem-solving in these areas. These areas do not develop through a 'learned skill'", and cites Tricot and Sweller: teaching generic skills does not work, and "learned skill, especially problem-solving skill, derives primarily from the accumulation of a large store of domain-specific knowledge stored in long-term memory".
 
 ### What that rules out
 
@@ -89,14 +89,14 @@ The statutory curriculum in England already asks for this, expecting pupils to "
 
 So every lesson we run asks for the prediction before the run. When the prediction is wrong, the gap is the lesson, and it is a gap in a specific piece of knowledge rather than in a general capacity.
 
+How it is taught
+
 ## Worked examples that fade, and labelled steps
 
 The review is unusually concrete about instruction for novices. These are the techniques it describes, and they are what a lesson here is built from.
 
-**What the review says about teaching novices**
-
 | Technique | What the research found | What we do with it |
-|---|---|---|
+| --- | --- | --- |
 | Worked examples | Novices benefit substantially; the benefit shrinks as expertise grows | Heavy use early, then withdrawn deliberately rather than by accident |
 | Faded worked examples | Steps removed over time as pupils develop expertise, sequenced through the curriculum | Each week a little more of the example is missing, and the learner fills it |
 | Labelled subgoals | Help novices tackle parts of a larger problem and see past surface features; novices completed more steps, more quickly | Problems handed over already broken into named parts, until learners break them up themselves |
@@ -119,14 +119,14 @@ What that looks like in practice is on the [Python classes page](/best-python-cl
 
 None of this is exotic. It is ordinary, sequenced teaching by somebody who knows the subject, which is unglamorous next to a promise that coding will improve a child at everything. It has the advantage of being what the evidence supports.
 
+Progression
+
 ## Knowledge in an order, not a mindset
 
 Each step names what a learner knows at the end of it. That is the test the research implies, so it is the test we publish.
 
-**What a learner knows at each stage**
-
 | Stage | Knowledge gained | How you can tell |
-|---|---|---|
+| --- | --- | --- |
 | 1. Sequence and repetition | That order matters and that repetition can be described rather than repeated | Predicts the output of a short program before it runs, correctly, most of the time |
 | 2. Decisions and data | Conditions, lists and how a value changes as a program executes | Traces a program by hand and says what each variable holds at each step |
 | 3. Structure | Functions, dictionaries, files, and when each is the right choice | Chooses a structure before writing the loop, and can say why |
@@ -135,63 +135,293 @@ Each step names what a learner knows at the end of it. That is the test the rese
 ### Nothing here is a general skill
 
 Every row names content. That is deliberate: the research says skill comes from accumulated domain knowledge, so a ladder made of adjectives would be a ladder made of nothing.
+
 A learner who owns a stage does not repeat it. Placement is by evidence in their code, settled in the free lesson.
 
 ### Where it goes next
 
 Stage four is where competitions start being genuinely enjoyable rather than bruising; the [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar) lists what is open.
+
 For students well past it, the [British Informatics Olympiad](/british-informatics-olympiad-preparation) is the national round that rewards exactly this kind of accumulated knowledge.
+
+The catalogue
 
 ## Nine courses with a published order of content
 
 Grouped by stage. Every syllabus lists what is taught and in what order, which is the point.
 
+I
+
 ### Building the model
 
 Knowing what a program will do
 
-- [Scratch, in sequence](/courses/scratch-programming-complete-course): Blocks used to build the model of execution, then left behind on purpose.
-- [First Python](/courses/python-ai-kids-masterclass): Typed code with short programs, so that a prediction is possible before every run.
-- [Computational thinking](/courses/problem-solving-and-computational-thinking-for-kids): Decomposition and pattern-finding taught as content, with worked examples that fade.
+UK / PS1 / 01
+
+#### Scratch, in sequence
+
+Blocks used to build the model of execution, then left behind on purpose.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)
+
+UK / PS1 / 02
+
+#### First Python
+
+Typed code with short programs, so that a prediction is possible before every run.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)
+
+UK / PS1 / 03
+
+#### Computational thinking
+
+Decomposition and pattern-finding taught as content, with worked examples that fade.
+
+[Open the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)II
 
 ### Accumulating knowledge
 
 The store the research is about
 
-- [Python in full](/courses/python-complete-masterclass-teens): Every core construct, revisited until it sits in long-term memory rather than in notes.
-- [GCSE Computer Science](/courses/gcse-computer-science-course): Theory and programming to the board a school uses, sequenced across two years.
-- [Data science with Python](/courses/data-science-course-for-teens-python-data): Real datasets, where evaluation stops being abstract and becomes a judgement you defend.
+UK / PS2 / 01
+
+#### Python in full
+
+Every core construct, revisited until it sits in long-term memory rather than in notes.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+UK / PS2 / 02
+
+#### GCSE Computer Science
+
+Theory and programming to the board a school uses, sequenced across two years.
+
+[Open the syllabus](/courses/gcse-computer-science-course)
+
+UK / PS2 / 03
+
+#### Data science with Python
+
+Real datasets, where evaluation stops being abstract and becomes a judgement you defend.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)III
 
 ### Using it on hard problems
 
 Where the store pays off
 
-- [Algorithms and data structures](/courses/problem-solving-dsa-masterclass-teens): The standard solutions to recurring problems, worked on paper before any code.
-- [Competitive programming](/courses/competitive-programming-masterclass-college): Speed under constraint, which is only possible once the knowledge is automatic.
-- [AI and machine learning](/courses/ai-ml-masterclass-teens): Models trained and broken, with evaluation as the main event rather than an afterthought.
+UK / PS3 / 01
+
+#### Algorithms and data structures
+
+The standard solutions to recurring problems, worked on paper before any code.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
+
+UK / PS3 / 02
+
+#### Competitive programming
+
+Speed under constraint, which is only possible once the knowledge is automatic.
+
+[Open the syllabus](/courses/competitive-programming-masterclass-college)
+
+UK / PS3 / 03
+
+#### AI and machine learning
+
+Models trained and broken, with evaluation as the main event rather than an afterthought.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+How lessons work
 
 ## A prediction, a run, and a reason
 
 Teachers work from India, where the clock never shifts, leaving the UK five and a half hours behind from October and four and a half from March. Pick a slot in UK time and it stays yours.
 
-- **After school** Where most school-age learners settle.
-- **Evening** Sixth formers, and adults once the day is done.
-- **Weekend morning** Longer sessions for work that should be finished in one sitting.
+After school
 
-- **Predict, then run** Nothing executes until the learner has said what it will do. The answer is a direct reading of what they actually understand.
-- **Examples that fade** Worked examples early, with steps removed week by week, which is what the research says to do as expertise grows.
-- **Named subgoals** Problems arrive broken into labelled parts, until the learner starts breaking them up unprompted.
-- **One new idea at a time** Computing content is heavy on short-term memory, so lessons add one thing and revisit three.
-- **Groups by level** Five to ten at one stage, which is the only way the fading actually fits the learner in front of you.
-- **No mindset language** We talk about what a learner knows and can build. Nobody in a lesson is described as having become a better thinker.
+Where most school-age learners settle.
+
+Evening
+
+Sixth formers, and adults once the day is done.
+
+Weekend morning
+
+Longer sessions for work that should be finished in one sitting.
+
+### Predict, then run
+
+Nothing executes until the learner has said what it will do. The answer is a direct reading of what they actually understand.
+
+### Examples that fade
+
+Worked examples early, with steps removed week by week, which is what the research says to do as expertise grows.
+
+### Named subgoals
+
+Problems arrive broken into labelled parts, until the learner starts breaking them up unprompted.
+
+### One new idea at a time
+
+Computing content is heavy on short-term memory, so lessons add one thing and revisit three.
+
+### Groups by level
+
+Five to ten at one stage, which is the only way the fading actually fits the learner in front of you.
+
+### No mindset language
+
+We talk about what a learner knows and can build. Nobody in a lesson is described as having become a better thinker.
+
+Student work
+
+## Problems our learners have solved
+
+Four published projects. The [student labs](/student-labs) page has more.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## What it costs
 
 A single monthly figure, priced in US dollars outside India. The free lesson comes first and nothing is charged until a course and a slot are agreed.
 
-- Free first class: USD 0. A proper lesson, not a sales call. A straight answer about the right stage. Only a phone number needed.
-- Group batch: USD 100 a month. Fifteen to twenty learners at one stage. One teacher for the whole course. Written feedback on the learner's code each week. A certificate at the end of a syllabus.
-- One to one: USD 150 a month. A teacher working with one learner. Useful when a learner is far from the middle of a group. Arranged around exam dates if there are any.
+Free first class
+
+USD 0
+
+no card required
+
+- A proper lesson, not a sales call
+- A straight answer about the right stage
+- Only a phone number needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners at one stage
+- One teacher for the whole course
+- Written feedback on the learner's code each week
+- A certificate at the end of a syllabus
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher working with one learner
+- Useful when a learner is far from the middle of a group
+- Arranged around exam dates if there are any
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Lifted from Google word for word, by families who were never asked.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about coding and problem solving
 
 ## What parents ask about this
 
@@ -235,15 +465,54 @@ We teach to whichever qualification a learner is working towards, across the Eng
 
 The opening lesson is free. After that a group place is USD 100 a month and a teacher to yourself is USD 150, charged monthly with nothing taken up front.
 
+Elsewhere on this site
+
 ## Read further
 
-- [Coding classes in the UK](/coding-classes-in-united-kingdom): The national page, and the index of every UK page we publish.
-- [Understand the code, do not copy-paste it](/understand-the-code-dont-copy-paste-uk): What the awarding bodies say about AI, and why declared work earns nothing.
-- [Python classes online in the UK](/best-python-classes-online-uk): The examined subset, and the work that sits above it.
-- [Coding and AI classes in England](/coding-and-ai-classes-in-england): What the computing curriculum requires and who has to follow it.
-- [How we teach](/how-we-teach): The method set out in full, including where it does not suit a learner.
-- [The coding roadmap](/coding-roadmap): The sequence of topics, published in order.
+Each page takes one strand of this somewhere specific.
 
-## Contact
+### [Coding classes in the UK](/coding-classes-in-united-kingdom)
 
-Book the free first class at [https://learn.modernagecoders.com/problem-solving-skills-through-coding-uk](https://learn.modernagecoders.com/problem-solving-skills-through-coding-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The national page, and the index of every UK page we publish.
+
+### [Understand the code, do not copy-paste it](/understand-the-code-dont-copy-paste-uk)
+
+What the awarding bodies say about AI, and why declared work earns nothing.
+
+### [Python classes online in the UK](/best-python-classes-online-uk)
+
+The examined subset, and the work that sits above it.
+
+### [Coding and AI classes in England](/coding-and-ai-classes-in-england)
+
+What the computing curriculum requires and who has to follow it.
+
+### [How we teach](/how-we-teach)
+
+The method set out in full, including where it does not suit a learner.
+
+### [The coding roadmap](/coding-roadmap)
+
+The sequence of topics, published in order.
+
+Start here
+
+## Try one lesson, free
+
+Send a number and we will reply at a British hour that suits you. The lesson is real teaching, and it ends by naming the stage the learner is actually on.
+
+Prefer to read? Every [course page](/courses) publishes its syllabus in order, [how we teach](/how-we-teach) explains the method and its limits, and the [coding roadmap](/coding-roadmap) lays out the whole sequence.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20first%20coding%20class%20in%20the%20UK.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is the fastest route and costs nothing from a British mobile. The number belongs to our office in India, which we would rather state than have you work out.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/problem-solving-skills-through-coding-uk*

@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths classes for Ealing famili
 canonical: https://learn.modernagecoders.com/coding-classes-in-ealing-london
 source: src/pages/coding-classes-in-ealing-london.html
 ---
-> Ealing is the west London borough of Ealing Broadway, Acton, Southall, Greenford, Hanwell, Northolt and Perivale, and the 2021 Census counted 367,115 residents. The council lists thirteen libraries, and Ealing Broadway alone is served by the Central, District and Elizabeth lines and Great Western Railway. A class that suits a learner here should teach them to work out how a published number was made, and the project on this page does that with the River Brent at Greenford. Our teachers teach live on video from India, in groups of fifteen to twenty at one level or one to one, for ages 6 to 67. The first lesson costs nothing; after that a group place is USD 100 a month and one-to-one teaching USD 150.
+> Live online coding, Python, AI and maths classes for Ealing families in Acton, Southall, Greenford, Hanwell, Northolt and Perivale, ages 6 to 67. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Ealing
-
-London Borough of Ealing / Live online
-
-# Coding classes in Ealing
-
-**What are the best coding classes in Ealing?** Ealing is the west London borough of Ealing Broadway, Acton, Southall, Greenford, Hanwell, Northolt and Perivale, and the 2021 Census counted 367,115 residents. The council lists thirteen libraries, and Ealing Broadway alone is served by the Central, District and Elizabeth lines and Great Western Railway. A class that suits a learner here should teach them to work out how a published number was made, and the project on this page does that with the River Brent at Greenford. Our teachers teach live on video from India, in groups of fifteen to twenty at one level or one to one, for ages 6 to 67. The first lesson costs nothing; after that a group place is USD 100 a month and one-to-one teaching USD 150.
-
-Every fifteen minutes the Environment Agency publishes how much water is flowing down the River Brent at Greenford, in cubic metres a second. Nobody is out there measuring it. What the gauge records is the height of the water; the flow is worked out from that height with a formula called a rating, fixed by occasional field measurements. The formula itself is not printed alongside the data. But ten years of heights and flows, side by side, are enough to find it. Our learners try one smooth power curve first and land within two per cent most of the time, which sounds like success until they look at the floods, where the same curve overstates the river by about a third. Split the formula into two pieces at a water level of 0.32 m and the error falls below a tenth of a per cent almost everywhere. The published number was two formulas all along.
-
-Facts last verified 25 September 2026. Teaching is online; no Ealing branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Ealing
 
 ## Four courses for Ealing learners
 
 Picture a Year 2 child in Hanwell who asks how bridges stay up, a Year 8 pupil in Southall who spots patterns in number puzzles, a Year 12 student in Acton planning an engineering degree, and a parent in Perivale who wants to understand the models behind the charts at work. All four start with a free lesson.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Scratch games with a secret rule for the player to discover by testing inputs, the youngest version of finding a hidden formula.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): Powers, logarithms and graphs written as Python, including the straight line that a power curve becomes on a log scale.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Python for Key Stages 3 to 5, with this page's rating-curve project on real Environment Agency data from Greenford.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): For grown-ups who work with calculated figures and want to know how the calculation behaves at the extremes.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsScratch games with a secret rule for the player to discover by testing inputs, the youngest version of finding a hidden formula.See the syllabus](/courses/scratch-programming-complete-course)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingPowers, logarithms and graphs written as Python, including the straight line that a power curve becomes on a log scale.See the syllabus](/courses/maths-through-coding)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensPython for Key Stages 3 to 5, with this page's rating-curve project on real Environment Agency data from Greenford.See the syllabus](/courses/python-complete-masterclass-teens)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For grown-ups who work with calculated figures and want to know how the calculation behaves at the extremes.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Ealing at a glance
 
 ## 367,115 people, thirteen libraries and 307 listed buildings
 
 Each value comes from the organisation named in the last column.
 
-**Ealing, source by source**
-
 | What | Value | Source |
-|---|---|---|
+| --- | --- | --- |
 | Usual residents in 2021 | 367,115 | Census table TS001, Office for National Statistics, via Nomis |
 | Libraries on the council's list | 13 | Ealing Council |
 | National Heritage List entries in the borough | 307: 6 Grade I, 18 Grade II*, 283 Grade II | Historic England list data, counted 25 September 2026 |
@@ -62,23 +48,25 @@ Pitzhanger Manor House and the entrance archway and gates at the north-east end 
 
 The main front block and the canteen block of the Hoover factory at Perivale are both Grade II*, a reminder that listed buildings are not only churches and houses.
 
+Ealing libraries
+
 ## Thirteen libraries, from Acton to Northolt
 
 The libraries as Ealing Council names them on its find-your-library page. Several are community libraries run with local partners.
 
-**Ealing Council's libraries**
-
 | Library | Library |
-|---|---|
+| --- | --- |
 | Acton Town Hall Library | Northolt Leisure Centre Library |
 | Ealing Central Library | Northolt Library |
 | Greenford Library | Perivale Community Library |
 | Hanwell Community Library | Pitshanger Library |
 | Jubilee Gardens Library | Southall Library and Dominion Centre |
 | Northfields Community Library | St Bernard's Hospital Library |
-| West Ealing Community Library |  |
+| West Ealing Community Library |   |
 
 A library computer is a good place to write a first program, and a quiet one can host an online lesson with headphones. For the River Brent project a learner needs Python and two free downloads from the Environment Agency, one of water levels and one of flows.
+
+Signature project
 
 ## The River Brent at Greenford: one formula, or two?
 
@@ -96,10 +84,8 @@ Rivers are rated with a curve of the form Q = a(h - h0)^b. Taking logarithms tur
 
 The single curve misses by 1.6% on a typical reading, but the misses are not random: they grow with the water level. That pattern says the formula has a second piece.
 
-**Our run, 25 September 2026: how well each version reproduces the published flow at Greenford**
-
 | Water level | Readings | One curve: typical error | Two pieces: typical error |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Below 0.32 m | 293,979 | about 1 to 3% | 0.08% |
 | 0.32 to 0.6 m | 39,533 | about 0 to 3% | 0.03% |
 | 0.6 to 1.0 m | 5,991 | 6 to 13% too high | 0.06% |
@@ -112,14 +98,14 @@ The two pieces are Q = 32.68(h + 0.003)^2.564 below a level of 0.32 m and Q = 24
 
 Give an assistant these readings and ask for the relationship, and a single tidy power curve with a two per cent average error is a very reasonable answer. It is also wrong where it matters most: in a flood it overstates the river by around a third. A learner who has plotted the misses against the water level, seen them grow, and found the break at 0.32 m has learned to judge a model by where it fails, not by its average, which is the question every flood planner, engineer and data scientist has to ask.
 
+How a river is rated
+
 ## Levels are measured, flows are calculated
 
 Why this project is possible at all, and what our learners write down about its limits.
 
-**Measured, calculated and assumed**
-
 | Quantity | How the published number arises |
-|---|---|
+| --- | --- |
 | Water level at the gauge | Measured by the instrument, every 15 minutes |
 | Flow in cubic metres a second | Calculated from the level with the station's rating |
 | The rating itself | Built from occasional field measurements of flow; not published with the readings |
@@ -129,6 +115,8 @@ Why this project is possible at all, and what our learners write down about its 
 That last row is the honest limit. Reproducing a published calculation to a tenth of a per cent shows that we have found the Agency's formula, not that the formula is right about the river in a flood. Only a measurement in the water can do that.
 
 Modern Age Coders has no connection with Ealing Council, the Environment Agency, Historic England, Transport for London or the Office for National Statistics, and nothing on this page implies one. The library names are Ealing Council's and the readings the Environment Agency's; the pairing, the fits and every percentage are our own work, run on 25 September 2026.
+
+Getting about
 
 ## Four railways at Ealing Broadway, and a lesson that needs none
 
@@ -146,16 +134,41 @@ A learner near Northolt Library and one near Acton Town Hall Library can work in
 
 The Greenford gauge sits on the River Brent, the same river whose valley floor appears in our contour project for the borough of Brent.
 
-**Ealing and the rest of London** Ealing is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) lists them all and links each as its page is published, among them [Brent](/coding-classes-in-brent-london), where the River Brent's valley appears in the contour project.
+Ealing and the rest of London
+
+Ealing is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) lists them all and links each as its page is published, among them [Brent](/coding-classes-in-brent-london), where the River Brent's valley appears in the contour project.
+
+Learning ladder
 
 ## From guessing a rule to recovering a formula
 
 The first lesson places a learner by what they can already do, whatever their school year says.
 
-- **Ages 6 to 10: Guess the rule** Children feed numbers into a Scratch machine, watch what comes out and work out the secret rule. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 10 to 13: Patterns in tables** Python that reads a table, plots it and tests whether a straight line or a curve fits better. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 18: Models and their misses** Power laws, logarithms, residual plots and breakpoints on real open data, the heart of a strong A level or EPQ project. [Python for Teens](/courses/python-complete-masterclass-teens), [Full Stack Web Development for Teens](/courses/full-stack-web-development-teens-masterclass)
-- **Ages 18 to 67: Judge a model at its edges** Adults learn to check where a calculation behaves differently, before a decision rests on its extremes. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### Guess the rule
+
+Children feed numbers into a Scratch machine, watch what comes out and work out the secret rule.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 10 to 13
+
+### Patterns in tables
+
+Python that reads a table, plots it and tests whether a straight line or a curve fits better.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 18
+
+### Models and their misses
+
+Power laws, logarithms, residual plots and breakpoints on real open data, the heart of a strong A level or EPQ project.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Full Stack Web Development for Teens](/courses/full-stack-web-development-teens-masterclass)Ages 18 to 67
+
+### Judge a model at its edges
+
+Adults learn to check where a calculation behaves differently, before a decision rests on its extremes.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## An AI can fit a curve to river data in seconds. Why should an Ealing teenager learn to find where it breaks?
 
@@ -167,30 +180,139 @@ A learner who has found the break at 0.32 m carries three questions into every m
 
 Machines fit curves faster every year. The reason for an Ealing child to learn to code is to become the person who plots the errors before believing the fit, and catches the flood the average hid. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## From Southall to Acton, lessons at your own desk
 
 No part of the borough is nearer an online lesson than any other.
 
-- **Home or library** Most learners join from home; a library table and a headset work when home is busy.
-- **English stages and exams** Key Stages, Year 9 options, GCSEs, A levels, T Levels and the EPQ are named as English schools name them. Every lesson is in English.
-- **Start with a free lesson** The first lesson is real work with a teacher and ends with a suggested level and course. No payment details are asked for.
-- **Groups by level** Fifteen to twenty learners at the same stage, from Ealing and much further afield, so there is a group at a workable hour.
-- **Twice a week, term aware** Most groups meet twice weekly and pause for half terms, holidays and exam weeks by agreement.
-- **Your clock, your times** The teacher is in India, but every invitation and reminder we send shows the time as it reads in Ealing.
+### Home or library
 
-**Thirteen libraries, one matched group** Ealing has thirteen libraries and many schools, but a good coding group needs five learners at one level and one hour, so ours draw on Ealing and far beyond.
+Most learners join from home; a library table and a headset work when home is busy.
+
+### English stages and exams
+
+Key Stages, Year 9 options, GCSEs, A levels, T Levels and the EPQ are named as English schools name them. Every lesson is in English.
+
+### Start with a free lesson
+
+The first lesson is real work with a teacher and ends with a suggested level and course. No payment details are asked for.
+
+### Groups by level
+
+Fifteen to twenty learners at the same stage, from Ealing and much further afield, so there is a group at a workable hour.
+
+### Twice a week, term aware
+
+Most groups meet twice weekly and pause for half terms, holidays and exam weeks by agreement.
+
+### Your clock, your times
+
+The teacher is in India, but every invitation and reminder we send shows the time as it reads in Ealing.
+
+Thirteen libraries, one matched group
+
+Ealing has thirteen libraries and many schools, but a good coding group needs five learners at one level and one hour, so ours draw on Ealing and far beyond.
+
+Fees
 
 ## Fees for Ealing families
 
 One free lesson, then a single monthly fee, the same across the borough.
 
-- First class: USD 0. A full lesson with a teacher at no charge, finishing with a suggested level, course and weekly slot.
-- Group tuition: USD 100 a month. Roughly eight live lessons each month with fifteen to twenty learners at one stage.
-- Private tuition: USD 150 a month. Roughly eight live lessons each month with a teacher for one learner.
+First class**USD 0**
+
+A full lesson with a teacher at no charge, finishing with a suggested level, course and weekly slot.
+
+Group tuition**USD 100**
+
+Roughly eight live lessons each month with fifteen to twenty learners at one stage.
+
+Private tuition**USD 150**
+
+Roughly eight live lessons each month with a teacher for one learner.
 
 Ealing families are billed in US dollars, as is everyone outside India, and our site shows no pound prices. You pay nothing until the free lesson is behind you and a course and regular time are agreed; the pricing page covers pauses, missed lessons and switching between group and one-to-one.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Ealing.)Reviews
+
+## Six Google reviews, just as their writers left them
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us about your learner
+
+Age or school year, and what they enjoy, is plenty. The first task might be a Scratch rule-guessing game, a first Python program, or the River Brent formula from this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Ealing one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Ealing.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Ealing coding class questions
+
+About the borough, the River Brent project and our lessons.
 
 ### How many people live in Ealing?
 
@@ -232,10 +354,14 @@ The first lesson is free. After that, a group place costs USD 100 a month for tw
 
 Fifteen to twenty learners, grouped by level, pace and goals rather than age or neighbourhood. If no group fits the learner's week, one-to-one lessons are the alternative.
 
+Explore London
+
 ## More boroughs, and the rest of the UK
 
 Next door, [Hillingdon](/coding-classes-in-hillingdon-london), [Hounslow](/coding-classes-in-hounslow-london) and [Brent](/coding-classes-in-brent-london) have their own pages, and the [London page](/best-coding-class-in-london) gathers every borough and the City as each page goes live. For machine learning in the capital there is [AI and machine learning classes in London](/ai-and-machine-learning-classes-in-london); for school stages across the four nations, the [UK coding page](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Ealing.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-ealing-london](https://learn.modernagecoders.com/coding-classes-in-ealing-london#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-ealing-london*

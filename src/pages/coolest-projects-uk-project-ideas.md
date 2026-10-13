@@ -4,34 +4,28 @@ description: "Coolest Projects UK explained: seven categories including a new AI
 canonical: https://learn.modernagecoders.com/coolest-projects-uk-project-ideas
 source: src/pages/coolest-projects-uk-project-ideas.html
 ---
-> Coolest Projects is run by the Raspberry Pi Foundation, a UK registered charity, number 1129409, and is open to young people of all ages: those under 13 are registered by an adult and those 13 and over may register themselves. There are seven categories: Scratch, Games, Web, Mobile apps, Hardware, Advanced programming and Artificial Intelligence, which the organiser marks as new for 2026. The organiser says "we check every entry, and then we'll let you know when your project is in our online gallery or has a place at an in-person event", after which participants join an event or the online celebration and share the project; VIP judges pick out favourites. Coolest Projects UK 2026 took place in Bradford in May with more than 200 young people. We teach the building, live online for ages 6 to 67. A first class is free; a group place is USD 100 a month and one-to-one teaching USD 150.
+> Coolest Projects UK explained: seven categories including a new AI one, open to all ages, every checked entry shown, and how to build for a stranger.
 
-[Home](/) / [Courses](/courses) / [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar) / Coolest Projects UK
+In short
 
-United Kingdom · All ages · Seven categories
+Coolest Projects is run by the Raspberry Pi Foundation, a UK registered charity, number 1129409, and is open to young people of all ages: those under 13 are registered by an adult and those 13 and over may register themselves. There are seven categories: Scratch, Games, Web, Mobile apps, Hardware, Advanced programming and Artificial Intelligence, which the organiser marks as new for 2026. The organiser says "we check every entry, and then we'll let you know when your project is in our online gallery or has a place at an in-person event", after which participants join an event or the online celebration and share the project; VIP judges pick out favourites. Coolest Projects UK 2026 took place in Bradford in May with more than 200 young people. We teach the building, live online for ages 6 to 67. A first class is free; a group place is USD 100 a month and one-to-one teaching USD 150.
 
-# Coolest Projects UK project ideas
-
-Coolest Projects is the least competitive thing on our competitions calendar, and that is its point. The Raspberry Pi Foundation checks every entry and then puts it in the online gallery or gives it a place at an event; there is no ranking, no elimination and no minimum standard of ambition. A seven-year-old's Scratch animation and a sixteen-year-old's hardware build stand in the same room. Which moves the interesting question away from whether a project is good enough and onto something harder: whether it still works when somebody who did not build it sits down in front of it.
-
-At a glance: Organiser: The Raspberry Pi Foundation; Charity number: 1129409; Ages: All, with adults registering under 13s; Categories: Seven; New for 2026: Artificial Intelligence; Every checked entry: Goes in the gallery or to an event; UK event 2026: Bradford, in May; Ranking: None. Rated 4.9 across 547 Google reviews.
+Where to start
 
 ## Three courses for a project builder
 
 Pick by what the child wants to make, not by their age.
 
-- [Coding for kids, blocks to AI](/courses/kids-coding-blocks-masterclass): For the Scratch and Games categories: a first project taken all the way to something that works without you.
-- [App development](/courses/complete-app-development-masterclass-for-teens): For the Mobile apps category: screens, taps and saving what the user did.
-- [AI and machine learning for teens](/courses/ai-ml-masterclass-teens): For the AI category, new in 2026: a model trained on real data, and an honest account of how well it works.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)  CPR / 01 Coding for kids, blocks to AI For the Scratch and Games categories: a first project taken all the way to something that works without you. Open the syllabus →](/courses/kids-coding-blocks-masterclass)[![App Development for Teens course thumbnail](/images/app-dev-teens.webp)  CPR / 02 App development For the Mobile apps category: screens, taps and saving what the user did. Open the syllabus →](/courses/complete-app-development-masterclass-for-teens)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)  CPR / 03 AI and machine learning for teens For the AI category, new in 2026: a model trained on real data, and an honest account of how well it works. Open the syllabus →](/courses/ai-ml-masterclass-teens)
+
+The showcase
 
 ## Seven categories, no ranking, everybody shown
 
 Facts read at the organiser's own pages on 20 September 2026.
 
-**Coolest Projects as the Raspberry Pi Foundation describes it**
-
 | Part | What the organiser says | What it means for a family |
-|---|---|---|
+| --- | --- | --- |
 | Who runs it | The Raspberry Pi Foundation, a UK registered charity, number 1129409 | The same charity behind Bebras and Astro Pi |
 | Who can enter | Young people of all ages; under 13s are registered by an adult, 13 and over may register themselves | No lower age limit at all |
 | Categories | Scratch, Games, Web, Mobile apps, Hardware, Advanced programming and Artificial Intelligence | Seven, so almost anything a child builds has a home |
@@ -51,16 +45,16 @@ Dates move. The organiser had not published 2027 event dates on the pages we rea
 
 Sources: [Coolest Projects](https://online.coolestprojects.org/), read 20 September 2026, and the Raspberry Pi Foundation's blog post of 21 July 2026 on the Bradford event. Modern Age Coders is not connected with the Raspberry Pi Foundation.
 
+The method
+
 ## It has to run on somebody else's machine
 
 The commonest way a good project fails at a showcase table has nothing to do with the idea. Here it is, in five lines and one step.
 
 We wrote a tiny program: open a file called scores.txt, read the numbers in it, print the highest. Five lines, correct, and it does exactly what it should. Then we did the only thing a judge or a visitor ever does, which is run it from somewhere other than the folder it was written in.
 
-**Our run of 20 September 2026: the same program, two places**
-
 | Where it was run from | What happened |
-|---|---|
+| --- | --- |
 | The folder the program lives in | highest score: 40 |
 | One folder along | FileNotFoundError: No such file or directory: 'scores.txt' |
 
@@ -86,14 +80,14 @@ It is also exactly what happens at an event in Bradford in May, in front of a st
 
 The program, both runs and the error message are ours, produced on 20 September 2026. Nothing here is taken from any Coolest Projects entry.
 
+What to build
+
 ## One idea per category, and why each one finishes
 
 The ideas below are ours, written to be small enough to complete and interesting enough to explain at a table.
 
-**Seven categories, seven projects that fit in a term**
-
 | Category | An idea that finishes | Why it works at a showcase |
-|---|---|---|
+| --- | --- | --- |
 | Scratch | A quiz about the child's own town that refuses silly answers and says why | Visitors can play it in thirty seconds and it never breaks |
 | Games | A one-screen game with a scoreboard that survives being closed and reopened | Saving state is the hard part and the part worth explaining |
 | Web | A page that shows one real public dataset, with a sentence saying where the data came from | Small, honest, and a good answer to "how do you know?" |
@@ -110,14 +104,14 @@ For the write-up, three sentences do more than three paragraphs: what it does, w
 
 And whatever gets built, test it away from the machine it was made on. That is the single piece of advice on this page that comes from watching projects fail rather than from a rule.
 
+Getting ready
+
 ## Four rungs to a project that survives a stranger
 
 The rungs are about finishing and handing over, not about difficulty.
 
-**From an idea to something somebody else can use**
-
 | Stage | Rung | The sign it is secure |
-|---|---|---|
+| --- | --- | --- |
 | Any age | 1. It works for you | Runs start to finish on the machine it was built on |
 | Any age | 2. It works elsewhere | Runs from a different folder, on a different computer |
 | Any age | 3. It survives a user | A sibling can use it without being told anything |
@@ -126,71 +120,321 @@ The rungs are about finishing and handing over, not about difficulty.
 ### If the deadline is close
 
 Cut a feature rather than miss the date. Every checked entry is shown, and an unfinished project is not an entry.
+
 Spend the last hour testing it somewhere else rather than adding to it.
 
 ### After the showcase
 
 The same project usually makes a good starting point for the next year, one category up.
+
 Other things a young builder can enter are on the [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar).
+
+The full list
 
 ## Courses by what a child wants to make
 
 Grouped to match the categories, with each syllabus a click away.
 
+I
+
 ### Scratch and games
 
 Ages 6 to 11
 
-- [Scratch for kids](/courses/scratch-programming-complete-course): A first language and a first finished project.
-- [Game development for kids](/courses/game-development-masterclass-for-kids): Scratch, Roblox and Minecraft, properly.
-- [Coding for kids, blocks to AI](/courses/kids-coding-blocks-masterclass): Building things that move, before anything is typed.
+CPR / A / 01
+
+#### Scratch for kids
+
+A first language and a first finished project.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)
+
+CPR / A / 02
+
+#### Game development for kids
+
+Scratch, Roblox and Minecraft, properly.
+
+[Open the syllabus](/courses/game-development-masterclass-for-kids)
+
+CPR / A / 03
+
+#### Coding for kids, blocks to AI
+
+Building things that move, before anything is typed.
+
+[Open the syllabus](/courses/kids-coding-blocks-masterclass)II
 
 ### Apps and web
 
 Ages 10 to 16
 
-- [App development](/courses/complete-app-development-masterclass-for-teens): Screens, taps and what the app remembers.
-- [Full stack web development](/courses/full-stack-web-development-teens-masterclass): A site with its own data behind it.
-- [App making with blocks](/courses/block-coding-app-development-masterclass): Real apps without a semicolon in sight.
+CPR / B / 01
+
+#### App development
+
+Screens, taps and what the app remembers.
+
+[Open the syllabus](/courses/complete-app-development-masterclass-for-teens)
+
+CPR / B / 02
+
+#### Full stack web development
+
+A site with its own data behind it.
+
+[Open the syllabus](/courses/full-stack-web-development-teens-masterclass)
+
+CPR / B / 03
+
+#### App making with blocks
+
+Real apps without a semicolon in sight.
+
+[Open the syllabus](/courses/block-coding-app-development-masterclass)III
 
 ### Advanced and AI
 
 Ages 12 to 18
 
-- [Python from start to finish](/courses/python-complete-masterclass-teens): The language most advanced projects use.
-- [AI and machine learning for teens](/courses/ai-ml-masterclass-teens): A trained model, and where it goes wrong.
-- [Data science with Python](/courses/data-science-course-for-teens-python-data): Real data, honestly presented.
+CPR / C / 01
+
+#### Python from start to finish
+
+The language most advanced projects use.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+CPR / C / 02
+
+#### AI and machine learning for teens
+
+A trained model, and where it goes wrong.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+CPR / C / 03
+
+#### Data science with Python
+
+Real data, honestly presented.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)IV
 
 ### Younger and wider
 
 Starting out
 
-- [Python and AI for kids](/courses/python-ai-kids-masterclass): A first typed language, taught patiently.
-- [Minecraft coding for kids](/courses/minecraft-coding-for-kids-course): Real code, in a world a child already knows.
-- [Maths through coding](/courses/maths-through-coding): Programs that show why a method works.
+CPR / D / 01
+
+#### Python and AI for kids
+
+A first typed language, taught patiently.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)
+
+CPR / D / 02
+
+#### Minecraft coding for kids
+
+Real code, in a world a child already knows.
+
+[Open the syllabus](/courses/minecraft-coding-for-kids-course)
+
+CPR / D / 03
+
+#### Maths through coding
+
+Programs that show why a method works.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+How lessons run
 
 ## Project lessons, weekly, with a deadline in mind
 
 Teaching is live on video from India, five and a half hours ahead of the UK in winter and four and a half in summer, at a time agreed and kept in UK time.
 
-- **Early weekday evening** For primary-age builders.
-- **Later weekday evening** For teenagers working on something larger.
-- **Weekend morning** For a long stretch on one project.
+Early weekday evening
 
-- **Finishing taught explicitly** We help a child cut a project down to something that can actually be completed, which is most of the work.
-- **Handover tested** Every project is run somewhere other than where it was built before we call it done.
-- **Fifteen to twenty learners** Enough that ideas cross the room, few enough that every project gets looked at.
-- **The child builds it** We teach and review. The project belongs to the young person and is theirs to submit.
-- **One to one when useful** For an ambitious build, or a child who would rather work alone.
-- **No role in the showcase** We do not register entries or have any relationship with the organiser.
+For primary-age builders.
+
+Later weekday evening
+
+For teenagers working on something larger.
+
+Weekend morning
+
+For a long stretch on one project.
+
+### Finishing taught explicitly
+
+We help a child cut a project down to something that can actually be completed, which is most of the work.
+
+### Handover tested
+
+Every project is run somewhere other than where it was built before we call it done.
+
+### Fifteen to twenty learners
+
+Enough that ideas cross the room, few enough that every project gets looked at.
+
+### The child builds it
+
+We teach and review. The project belongs to the young person and is theirs to submit.
+
+### One to one when useful
+
+For an ambitious build, or a child who would rather work alone.
+
+### No role in the showcase
+
+We do not register entries or have any relationship with the organiser.
+
+Student work
+
+## What our students have built
+
+Four finished projects from students here, published and running. The [student labs](/student-labs) page has more of them.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 A monthly fee in US dollars, identical in every country but India, with no registration charge and no tie-in.
 
-- Free first class: USD 0. A proper lesson with a teacher. A frank view of what a project needs. No payment details requested.
-- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher weekly. Projects reviewed as they grow. A certificate at the end.
-- One to one: USD 150 a month. A teacher working with one builder. Shaped around the project. Useful in the weeks before a deadline.
+Free first class
+
+USD 0
+
+no card required
+
+- A proper lesson with a teacher
+- A frank view of what a project needs
+- No payment details requested
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners at one level
+- The same teacher weekly
+- Projects reviewed as they grow
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher working with one builder
+- Shaped around the project
+- Useful in the weeks before a deadline
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Google reviews from families, quoted exactly as they were left.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Coolest Projects questions
 
 ## What parents and young builders ask
 
@@ -234,15 +478,54 @@ If the child wants to, yes: the category is new for 2026 and less crowded than S
 
 No. We teach and review, the young person builds and submits, and we have no relationship with the organiser.
 
+Related pages
+
 ## More for young builders
 
-- [Astro Pi Mission Zero](/astro-pi-mission-zero-and-space-lab-help): Run a Python program on the space station.
-- [UK Bebras Challenge](/bebras-computational-thinking-challenge-practice-uk): November, free, and no programming at all.
-- [UK competitions calendar 2026-27](/uk-coding-maths-and-ai-competitions-calendar): Every competition we could confirm, laid out by month.
-- [Student labs](/student-labs): Projects our own students have finished and published.
-- [Coding classes in the UK](/coding-classes-in-united-kingdom): The four school systems, and every UK page.
-- [Coding classes for UK children](/online-coding-classes-for-kids-uk): What a primary-age child learns first, and in what order.
+Other things from the same charity, and the whole competition year.
 
-## Contact
+### [Astro Pi Mission Zero](/astro-pi-mission-zero-and-space-lab-help)
 
-Book the free first class at [https://learn.modernagecoders.com/coolest-projects-uk-project-ideas](https://learn.modernagecoders.com/coolest-projects-uk-project-ideas#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Run a Python program on the space station.
+
+### [UK Bebras Challenge](/bebras-computational-thinking-challenge-practice-uk)
+
+November, free, and no programming at all.
+
+### [UK competitions calendar 2026-27](/uk-coding-maths-and-ai-competitions-calendar)
+
+Every competition we could confirm, laid out by month.
+
+### [Student labs](/student-labs)
+
+Projects our own students have finished and published.
+
+### [Coding classes in the UK](/coding-classes-in-united-kingdom)
+
+The four school systems, and every UK page.
+
+### [Coding classes for UK children](/online-coding-classes-for-kids-uk)
+
+What a primary-age child learns first, and in what order.
+
+Start here
+
+## Book a free project lesson
+
+Tell us your child's age and what they want to make. The free lesson starts building it, and we say afterwards how big a term of work would need to be.
+
+Rather read first? Syllabuses are on the [course pages](/courses), the method on [how we teach](/how-we-teach), and the topic order on the [roadmap](/coding-roadmap).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20wants%20to%20build%20something%20for%20Coolest%20Projects%20and%20I%20would%20like%20a%20free%20class.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp usually gets an answer fastest and is free from a UK mobile. Our number is registered in India, which we state openly, and there is no UK office behind it.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/coolest-projects-uk-project-ideas*

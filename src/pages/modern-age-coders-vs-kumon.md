@@ -30,7 +30,7 @@ Side by side
 
 ## Modern Age Coders vs Kumon, fairly
 
-Kumon figures are typical published US prices as of July 2026 from tutors.com, ruvimo.com and brighterly.com. Kumon centers are franchises, so rates vary by location.
+Kumon figures are typical published US prices as of July 2026 from tutors.com, ruvimo.com and brighterly.com. Kumon centers are franchises, so rates vary by location. For UK centre fees, see our [maths tutor vs tuition centre guide](/maths-tutor-vs-tuition-centre-uk).
 
 Scroll the table sideways to see every column →
 

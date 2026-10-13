@@ -4,46 +4,32 @@ description: "Live online coding, Python and maths classes across Clackmannanshi
 canonical: https://learn.modernagecoders.com/coding-classes-in-clackmannanshire
 source: src/pages/coding-classes-in-clackmannanshire.html
 ---
-> Clackmannanshire is one compact council area: Scotland's Census 2022 counted about 51,800 people in some 24,100 households, packed at 325.4 people per square kilometre. Alloa is the main town, with Tullibody and Sauchie close by and the Hillfoots villages of Menstrie, Alva, Tillicoultry and Dollar along the foot of the Ochils. Lessons are taught live over video from India, and every learner joins the class that fits their ability, from Primary 1 to S6 and adults. Ages 6 to 67 learn coding, Python and maths with us in groups of fifteen to twenty or one-to-one. The Clackmannanshire project comes from a beam engine house at Fishcross. Try one lesson free; after that, groups cost USD 100 a month and one-to-one lessons USD 150.
+> Live online coding, Python and maths classes across Clackmannanshire, from Alloa, Tullibody and Sauchie to Alva, Tillicoultry, Clackmannan, Menstrie and Dollar.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / Clackmannanshire
-
-Clackmannanshire / Live online
-
-# Coding classes in Clackmannanshire
-
-**What are the best coding classes in Clackmannanshire?** Clackmannanshire is one compact council area: Scotland's Census 2022 counted about 51,800 people in some 24,100 households, packed at 325.4 people per square kilometre. Alloa is the main town, with Tullibody and Sauchie close by and the Hillfoots villages of Menstrie, Alva, Tillicoultry and Dollar along the foot of the Ochils. Lessons are taught live over video from India, and every learner joins the class that fits their ability, from Primary 1 to S6 and adults. Ages 6 to 67 learn coding, Python and maths with us in groups of fifteen to twenty or one-to-one. The Clackmannanshire project comes from a beam engine house at Fishcross. Try one lesson free; after that, groups cost USD 100 a month and one-to-one lessons USD 150.
-
-At Fishcross, a red sandstone engine house still holds the cast iron beam that once pumped water out of the Devon Colliery. Historic Environment Scotland's listing says it was built in 1864 by Neilson and Company of Glasgow, with the beam itself inscribed "No.189", and that it is one of only two surviving historic beam engine houses in Scotland. A beam engine is, at heart, an enormous see-saw, and a see-saw raises a question physics and programming share: where does it balance? This page's project works out the balance point of a loaded model beam in Python, checks the answer two ways, and then meets the most useful surprise in the whole exercise: an answer that falls off the end of the beam.
-
-Facts last verified 26 September 2026. Teaching is online; no Clackmannanshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Clackmannanshire
 
 ## Where Clackmannanshire learners begin
 
 A P4 pupil in Tullibody who loves see-saws and balance puzzles, an S1 in Alloa starting Python, an S4 in Alva preparing for National 5 Maths, and an adult in Dollar who wants to model things at work. Each begins with a free lesson.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 12): Block coding from a first Scratch game onwards, including balance puzzles and moving objects.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): Maths learned by coding it, with moments, averages and models checked in Python.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Python from beginner to advanced for teenagers, through games, automation, data and AI projects.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Adults): Python from zero for adults, up to models and calculations that are checked properly.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 12Coding for KidsBlock coding from a first Scratch game onwards, including balance puzzles and moving objects.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingMaths learned by coding it, with moments, averages and models checked in Python.See the syllabus](/courses/maths-through-coding)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensPython from beginner to advanced for teenagers, through games, automation, data and AI projects.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)AdultsPython MasterclassPython from zero for adults, up to models and calculations that are checked properly.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Clackmannanshire in figures
 
 ## About 51,800 people between the Forth and the Ochils
 
 The 2022 census figures are first results rounded to hundreds by the National Records of Scotland. The town list uses NRS locality estimates for mid-2020.
 
-**Clackmannanshire localities above 1,000 people, NRS mid-2020 estimates**
-
 | Locality | Residents |
-|---|---|
+| --- | --- |
 | Alloa | 14,440 |
 | Tullibody | 8,490 |
 | Sauchie | 6,310 |
@@ -60,6 +46,8 @@ With 325.4 residents per square kilometre, Clackmannanshire is far more densely 
 
 The city of [Stirling](/best-coding-class-in-stirling) has its own page. For exams, our [National 5 Maths](/national-5-maths-tuition-online) and [Higher Maths](/higher-maths-tuition-online) pages describe support.
 
+The Clackmannanshire project
+
 ## Balancing a beam, and a balance that cannot happen
 
 Moments, a centre of mass found two ways, and an answer that lies beyond the end of the beam.
@@ -68,10 +56,8 @@ The model is invented, not the Fishcross engine. A 10 metre beam pivots at its m
 
 Now the loads: 12 tonnes hanging half a metre from one end, where the pump rods would be, and 3 tonnes half a metre from the other. Each load turns the beam with a moment, its mass times its distance from the pivot, and the moments do not cancel: the pump end is heavier by 32.2 tonne-metres. Where should a 4 tonne counterweight go to balance it? The formula answers instantly: 13.04 metres from the pump end. But the beam is only 10 metres long.
 
-**Balancing our model beam, calculations of 26 September 2026**
-
 | Counterweight | Where it must sit | Possible? |
-|---|---|---|
+| --- | --- | --- |
 | 4 tonnes | 13.04 m from the pump end | No: beyond the end of the beam |
 | 7.15 tonnes | 9.5 m, the last useful point | Just |
 | 8 tonnes | 9.02 m | Yes |
@@ -95,14 +81,14 @@ Compute a centre of mass by slicing and by calculus, then write a bisection sear
 
 The facts about the engine house are from its Historic Environment Scotland listing. The beam, its loads and every number on this page are invented for teaching and do not describe how the Devon Colliery engine was built or worked.
 
+Why Fishcross
+
 ## A pumping beam from 1864, still in place
 
 The Clackmannanshire link, in the words of its Category A listing.
 
-**Historic Environment Scotland listing LB52529, former Devon Colliery, Fishcross**
-
 | Point | The listing says |
-|---|---|
+| --- | --- |
 | Built | In 1864 by Neilson and Company of Glasgow. |
 | The beam | The cast iron pumping beam survives in place, inscribed "No.189 / Neilson & Co. / Glasgow / 1864". |
 | Working life | Pumps fully operational by 1879; replaced in 1932, but used occasionally until the 1950s. |
@@ -113,16 +99,41 @@ Centres of mass matter wherever things must balance or not tip: cranes, bridges,
 
 We have no connection with Historic Environment Scotland or Clackmannanshire Council. The listing's facts are theirs; the model and any mistakes are ours.
 
-**Nearby pages** [Stirling](/best-coding-class-in-stirling) is west, [Dunfermline](/best-coding-class-in-dunfermline) east across the county line, and [Perth](/best-coding-class-in-perth-scotland) over the Ochils. The [Scotland](/coding-and-ai-classes-in-scotland) page lists every council.
+Nearby pages
+
+[Stirling](/best-coding-class-in-stirling) is west, [Dunfermline](/best-coding-class-in-dunfermline) east across the county line, and [Perth](/best-coding-class-in-perth-scotland) over the Ochils. The [Scotland](/coding-and-ai-classes-in-scotland) page lists every council.
+
+The path
 
 ## From balance puzzles to checked models
 
 The free lesson shows where to begin. The school stage is only a hint.
 
-- **P1 to P4: Tipping and balancing** Block coding games where objects tip, slide and balance. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **P5 to S2: Sums that model things** Typed Python and maths with moments, averages and simple physics. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **S3 to S6: Modelling properly** Full Python with numerical methods, alongside National 5, Higher and Advanced Higher Maths. [Python for Teens](/courses/python-complete-masterclass-teens), [High School Mathematics](/courses/complete-high-school-mathematics-mastery)
-- **Adults: Calculations you can trust** Python for adults who build models and spreadsheets and need them to be right. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+P1 to P4
+
+### Tipping and balancing
+
+Block coding games where objects tip, slide and balance.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)P5 to S2
+
+### Sums that model things
+
+Typed Python and maths with moments, averages and simple physics.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)S3 to S6
+
+### Modelling properly
+
+Full Python with numerical methods, alongside National 5, Higher and Advanced Higher Maths.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[High School Mathematics](/courses/complete-high-school-mathematics-mastery)Adults
+
+### Calculations you can trust
+
+Python for adults who build models and spreadsheets and need them to be right.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)AI and impossible answers
 
 ## An AI will give you a number. Will it check the number can exist?
 
@@ -134,30 +145,139 @@ A Clackmannanshire student who has met this knows to ask the physical question a
 
 So a young person in Clackmannanshire should learn to code in 2026 to check that an answer can actually happen before trusting it. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+The practical side
+
 ## Alloa to Dollar, no bus needed
 
 Even in a compact council area, evening classes at the right level can mean a journey. Online lessons remove it.
 
-- **From home in the Hillfoots** A house in Menstrie, a flat in Alloa, a cottage near Dollar. The pupil writes the code while the teacher watches the same screen.
-- **Scottish school terms** Teachers know P1 to P7, S1 to S6 and the National 5, Higher and Advanced Higher courses by those names, and lessons are in English.
-- **First lesson free** A genuine lesson, then an honest suggestion of level and course, with no card details requested.
-- **Grouped by stage** Fifteen to twenty learners at the same point, wherever in the world they join from.
-- **Holiday breaks** Two lessons a week in term, pausing for Clackmannanshire school holidays.
-- **A fixed UK slot** Your lesson keeps the same UK time when the clocks change; the teacher, several hours ahead on India time, adapts.
+### From home in the Hillfoots
 
-**Why groups follow level** Even with 51,800 people close together, five learners at one stage free on the same evening are hard to find. Level-based groups let a pupil in Coalsnaughton or Sauchie join a class that suits them.
+A house in Menstrie, a flat in Alloa, a cottage near Dollar. The pupil writes the code while the teacher watches the same screen.
+
+### Scottish school terms
+
+Teachers know P1 to P7, S1 to S6 and the National 5, Higher and Advanced Higher courses by those names, and lessons are in English.
+
+### First lesson free
+
+A genuine lesson, then an honest suggestion of level and course, with no card details requested.
+
+### Grouped by stage
+
+Fifteen to twenty learners at the same point, wherever in the world they join from.
+
+### Holiday breaks
+
+Two lessons a week in term, pausing for Clackmannanshire school holidays.
+
+### A fixed UK slot
+
+Your lesson keeps the same UK time when the clocks change; the teacher, several hours ahead on India time, adapts.
+
+Why groups follow level
+
+Even with 51,800 people close together, five learners at one stage free on the same evening are hard to find. Level-based groups let a pupil in Coalsnaughton or Sauchie join a class that suits them.
+
+Fees
 
 ## Fees in Clackmannanshire
 
 Tillicoultry or Tullibody, the fee is the same, as it is in every country we teach except India.
 
-- First class: USD 0. A full lesson of real work, followed by advice on level and course.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty at one level.
-- Private tuition: USD 150 a month. About eight lessons a month, taught one-to-one.
+First class**USD 0**
+
+A full lesson of real work, followed by advice on level and course.
+
+Group tuition**USD 100**
+
+About eight lessons a month in a group of fifteen to twenty at one level.
+
+Private tuition**USD 150**
+
+About eight lessons a month, taught one-to-one.
 
 Fees are charged in US dollars only. Billing starts once the free lesson has agreed a course and weekly time; holidays, missed lessons and format changes are all covered on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Clackmannanshire%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Reviews
+
+## Families rate us on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Clackmannanshire lesson
+
+Tell us the pupil's stage or an adult's goal and what they like. A first lesson might be a Scratch balance game, a Python moment calculator, or the beam on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Clackmannanshire one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Clackmannanshire%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Clackmannanshire questions
+
+The council area, the beam project and the details.
 
 ### How many people live in Clackmannanshire?
 
@@ -199,10 +319,14 @@ The first lesson is free. Groups are USD 100 a month and one-to-one lessons USD 
 
 Yes. Clackmannanshire Council publishes term dates; share yours and we plan breaks around them.
 
+Close by
+
 ## Pages near Clackmannanshire
 
 See [Stirling](/best-coding-class-in-stirling), [Dunfermline](/best-coding-class-in-dunfermline) and [Perth](/best-coding-class-in-perth-scotland), or our [Scotland](/coding-and-ai-classes-in-scotland) page for all 32 councils. The [UK hub](/coding-classes-in-united-kingdom) covers the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Clackmannanshire%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-clackmannanshire](https://learn.modernagecoders.com/coding-classes-in-clackmannanshire#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-clackmannanshire*

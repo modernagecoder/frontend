@@ -4,46 +4,32 @@ description: "Live online coding, Python and AI lessons for Carlow learners aged
 canonical: https://learn.modernagecoders.com/best-coding-class-in-carlow
 source: src/pages/best-coding-class-in-carlow.html
 ---
-> Carlow town holds 27,013 usual residents in the census town tables, in 10,053 households, 8,015 of which report broadband. Our lessons come to those addresses over video: a teacher present in real time, twice in most weeks, with fifteen to twenty learners at one level or with a single learner, for ages six to sixty-seven. The opening lesson is free of charge, after which a shared place is USD 100 a month and private teaching is USD 150.
+> Live online coding, Python and AI lessons for Carlow learners aged 6 to 67, taught live by a teacher in small ability groups or one to one. First lesson free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [County Carlow](/coding-classes-in-county-carlow) / Carlow
-
-Carlow town, Carlow and Laois / Live online
-
-# Coding classes in Carlow
-
-**What is the best coding class in Carlow?** Carlow town holds 27,013 usual residents in the census town tables, in 10,053 households, 8,015 of which report broadband. Our lessons come to those addresses over video: a teacher present in real time, twice in most weeks, with fifteen to twenty learners at one level or with a single learner, for ages six to sixty-seven. The opening lesson is free of charge, after which a shared place is USD 100 a month and private teaching is USD 150.
-
-Here is a sentence about this town: around eighty per cent of Carlow has broadband. Nobody can check it. Which Carlow, the built-up area or the county? Which year? Households or people? Which source? Here is the same claim written so that anybody can: in CSO table SAP2022T15T2TOWN22, under the label Carlow, Counties Carlow and Laois, read on 18 September 2026, the broadband row holds 8,015 and the total row 10,053, and 8,015 divided by 10,053 is 79.7% of households. The second version takes four times as long to write and can be re-derived by a stranger in five minutes. Every figure on this page is written the second way, and the project below is about making that a habit rather than a chore.
-
-Facts last verified 18 September 2026. Teaching is online; no Carlow branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Carlow
 
 ## Where Carlow learners begin
 
 Choose on age and interest. The course teacher takes the opening lesson and decides the level from it.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Scratch projects the learner can explain step by step, which is where showing your work starts.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Python with code that is saved, named and re-run rather than typed once and lost.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): Working from public data sources with a record of exactly what was downloaded and when.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): For adults automating reports that somebody else will have to reproduce next quarter.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsScratch projects the learner can explain step by step, which is where showing your work starts.See the syllabus](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsPython with code that is saved, named and re-run rather than typed once and lost.See the syllabus](/courses/python-ai-kids-masterclass)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensWorking from public data sources with a record of exactly what was downloaded and when.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CourseFor adults automating reports that somebody else will have to reproduce next quarter.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## Write the recipe, not the number
 
 The five parts a figure needs before anybody else can check it, filled in for the Carlow broadband share.
 
-**A reproducible figure, part by part**
-
 | Part of the recipe | For this figure |
-|---|---|
+| --- | --- |
 | Source dataset | CSO Census 2022 table SAP2022T15T2TOWN22, household internet access |
 | Exact selector | The area label Carlow, Counties Carlow & Laois, which is not the same as Carlow the county |
 | Rows used | Broadband 8,015 and Total 10,053, with no other row touched |
@@ -68,14 +54,14 @@ Every organisation has a handful of figures that circulate for years, in slide d
 
 The learner's project produces two outputs for each figure they compute: the figure, and a short recipe block naming the source, the selector, the rows, the date and the arithmetic. A second person, given only the recipe, has to arrive at the same number without asking a question. That is the test, and it is the same test that makes code readable, makes an experiment repeatable, and makes a claim about a town something other than a rumour with a decimal point.
 
+Carlow town in the census
+
 ## The town, with every figure sourced
 
 All of these come from Census 2022 tables published for the built-up area labelled Carlow, Counties Carlow and Laois, read on 18 September 2026.
 
-**Carlow town, Census 2022, with the table each figure comes from**
-
 | Measured | Count | Table |
-|---|---|---|
+| --- | --- | --- |
 | Usual residents | 27,013 | T2T1 |
 | Households | 10,053 | T15T2 |
 | Households reporting broadband | 8,015 | T15T2 |
@@ -95,16 +81,18 @@ From the same table: of 7,429 journeys to school, college or childcare, 3,626 ar
 
 From T11T4, a different question: 2,342 working residents do at least some work at home, 7,359 never do and 1,689 did not state.
 
-**The station** Irish Rail gives Carlow station as Railway Road, Carlow, Co. Carlow, Eircode R93 C2C4, with the station and its booking office staffed from 05:45 to 22:00 on weekdays including bank holidays, shorter hours at weekends, toilets and an enclosed waiting room. Read from the station page on 18 September 2026.
+The station
+
+Irish Rail gives Carlow station as Railway Road, Carlow, Co. Carlow, Eircode R93 C2C4, with the station and its booking office staffed from 05:45 to 22:00 on weekdays including bank holidays, shorter hours at weekends, toilets and an enclosed waiting room. Read from the station page on 18 September 2026.
+
+The rest of the recipes
 
 ## Where each derived figure on this page came from
 
 Anything on this page that is not a published count is listed here with the division that produced it. There are four.
 
-**Our arithmetic, itemised**
-
 | Figure | Rows used | Result |
-|---|---|---|
+| --- | --- | --- |
 | Share of households reporting broadband | 8,015 of 10,053, table T15T2 | 79.7% |
 | Share of working residents who drive | 6,033 of 11,390, table T11T1 | 53.0% |
 | Share of education journeys made as a car passenger | 3,626 of 7,429, table T11T1 | 48.8% |
@@ -122,7 +110,11 @@ Each share is taken over the table's own total, including rows recorded as not s
 
 All four use the built-up area labelled Carlow, Counties Carlow & Laois. None of them is a figure for County Carlow, which our county page handles with its own sources.
 
-**The arts centre** VISUAL, the centre for contemporary art and the George Bernard Shaw Theatre, gives its address as Old Dublin Road, Carlow, R93 A3K1, with galleries open Tuesday to Saturday from 11am to 5.30pm and Sunday from 2pm to 5pm, closed Mondays, and states free admission to gallery exhibitions. We have no connection with it.
+The arts centre
+
+VISUAL, the centre for contemporary art and the George Bernard Shaw Theatre, gives its address as Old Dublin Road, Carlow, R93 A3K1, with galleries open Tuesday to Saturday from 11am to 5.30pm and Sunday from 2pm to 5pm, closed Mondays, and states free admission to gallery exhibitions. We have no connection with it.
+
+Learning in Carlow
 
 ## How the teaching works
 
@@ -142,14 +134,37 @@ Data, Python and AI for adults, including the 2,342 working residents already do
 
 Irish Rail and VISUAL are named from their own published pages, read on 18 September 2026, and neither is connected with us, nor is Carlow County Council. The census counts here are Central Statistics Office figures for the built-up area, printed unchanged, and the four derived figures are listed with their rows in the table above. If any figure on this page cannot be re-derived from what is written beside it, that is a fault worth telling us about, because the whole point of the page is that it can.
 
+Learning ladder
+
 ## From getting an answer to showing your work
 
 Ages are a guide; the opening lesson decides the level.
 
-- **Ages 6 to 10: Explain what it does** Block projects the learner can talk through, step by step, to somebody who did not watch. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 11 to 13: Keep the code** Saving, naming and re-running work in Python instead of starting from scratch each week. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Cite the source** Working from public datasets and recording what was taken, from where and when. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Reproducible reporting** Building analysis a colleague can rerun months later and get the same answer. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Explain what it does
+
+Block projects the learner can talk through, step by step, to somebody who did not watch.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 11 to 13
+
+### Keep the code
+
+Saving, naming and re-running work in Python instead of starting from scratch each week.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Cite the source
+
+Working from public datasets and recording what was taken, from where and when.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Reproducible reporting
+
+Building analysis a colleague can rerun months later and get the same answer.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## Ask a model for a statistic about Carlow
 
@@ -161,30 +176,139 @@ A learner trained on this project asks for the recipe with the number, and if it
 
 The scarce skill is not producing numbers. It is producing numbers that somebody else can check without asking you. The longer argument is in [why coding is still worth the time](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Practicalities for Carlow households
 
 Six lines.
 
-- **Live teaching** A teacher on the call for the whole lesson, responding to what the learner is building.
-- **Grouped by stage** Fifteen to twenty learners at one level, joining from Carlow, elsewhere in Ireland and abroad.
-- **Twice most weeks** About eight lessons a month, at an hour agreed at the start and kept.
-- **Term aware** Mid-terms, holidays and exam weeks are planned in rather than worked around later.
-- **What is needed** A computer with a keyboard, sound that works, and a connection that carries video.
-- **Private teaching** Where nothing at the right level meets at a workable hour, the course runs one to one.
+### Live teaching
 
-**Everything written down** The course, the level, the hour and the fee are all settled in writing after the opening lesson, for the same reason the figures on this page carry their sources: nobody should have to rely on memory.
+A teacher on the call for the whole lesson, responding to what the learner is building.
+
+### Grouped by stage
+
+Fifteen to twenty learners at one level, joining from Carlow, elsewhere in Ireland and abroad.
+
+### Twice most weeks
+
+About eight lessons a month, at an hour agreed at the start and kept.
+
+### Term aware
+
+Mid-terms, holidays and exam weeks are planned in rather than worked around later.
+
+### What is needed
+
+A computer with a keyboard, sound that works, and a connection that carries video.
+
+### Private teaching
+
+Where nothing at the right level meets at a workable hour, the course runs one to one.
+
+Everything written down
+
+The course, the level, the hour and the fee are all settled in writing after the opening lesson, for the same reason the figures on this page carry their sources: nobody should have to rely on memory.
+
+Fees
 
 ## Carlow class fees
 
 Three lines, and nothing hidden behind them.
 
-- First class: USD 0. A full opening lesson, taught and assessed, at no charge.
-- Group tuition: USD 100 a month. A month in an ability group of fifteen to twenty learners, about eight live lessons.
-- Private tuition: USD 150 a month. A month of private teaching on the same weekly pattern.
+First class**USD 0**
+
+A full opening lesson, taught and assessed, at no charge.
+
+Group tuition**USD 100**
+
+A month in an ability group of fifteen to twenty learners, about eight live lessons.
+
+Private tuition**USD 150**
+
+A month of private teaching on the same weekly pattern.
 
 Billing is monthly and in US dollars on the single rate for families outside India, so a Carlow household sees exactly what a household in Kilkenny or Waterford sees, with no euro list anywhere. The first charge comes after the opening lesson has settled a course and an hour, and the pricing page covers breaks, missed weeks and switching between group and private teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Carlow.)Reviews
+
+## Six of our families, quoted from Google as written
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Carlow lesson
+
+Tell us an age and an interest and the first hour is built from that, whether it becomes a game, a small program or a figure traced back to the table it came from.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Carlow one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Carlow.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Carlow coding class questions
+
+What Carlow families ask us first.
 
 ### How many people live in Carlow town?
 
@@ -226,10 +350,14 @@ The first lesson is free. After that a shared place costs USD 100 a month and br
 
 Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
+Explore Ireland
+
 ## Around Carlow
 
 The county page is [County Carlow](/coding-classes-in-county-carlow), with [County Kilkenny](/coding-classes-in-county-kilkenny) and [County Laois](/coding-classes-in-county-laois) alongside it inside [Leinster](/coding-and-ai-classes-in-leinster). Online schools are set side by side on our [comparison page](/best-online-coding-classes-ireland), and every page in this cluster is indexed on the [Ireland hub](/coding-classes-in-ireland).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Carlow.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-carlow](https://learn.modernagecoders.com/best-coding-class-in-carlow#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-carlow*

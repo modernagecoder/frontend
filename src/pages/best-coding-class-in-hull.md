@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths lessons for Hull learners
 canonical: https://learn.modernagecoders.com/best-coding-class-in-hull
 source: src/pages/best-coding-class-in-hull.html
 ---
-> Census 2021 counted 267,014 usual residents in Kingston upon Hull, where children aged five to nine made up 6.5% of the population against 5.9% in England. Hull has run its own telephone network since its first exchange opened in 1904, which is why its phone boxes are cream. We teach Hull learners aged six to sixty-seven in live online lessons, in an level-matched group of fifteen to twenty or one to one, with teachers based in India and times set in UK hours. There is no charge for the first lesson; after it, a group place is USD 100 a month and one-to-one teaching USD 150 a month.
+> Live online coding, Python, AI and maths lessons for Hull learners aged 6 to 67, from the Avenues and Sutton-on-Hull to Bransholme. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Hull
-
-Kingston upon Hull, East Yorkshire / Live online
-
-# Coding classes in Hull
-
-**What are the best coding classes in Hull?** Census 2021 counted 267,014 usual residents in Kingston upon Hull, where children aged five to nine made up 6.5% of the population against 5.9% in England. Hull has run its own telephone network since its first exchange opened in 1904, which is why its phone boxes are cream. We teach Hull learners aged six to sixty-seven in live online lessons, in an level-matched group of fifteen to twenty or one to one, with teachers based in India and times set in UK hours. There is no charge for the first lesson; after it, a group place is USD 100 a month and one-to-one teaching USD 150 a month.
-
-At 07:00 GMT on 13 September 2026 the Environment Agency gauge at the Hull Barrier read 4.235 metres above Ordnance Datum, the highest tide in four weeks of readings. Ordnance Survey's 50-metre height grid puts 86.9% of Hull's land at or below that level. Does that mean the tide could cover most of Hull? No, because the grid knows heights and nothing else. A flood fill starting in the Humber can move into any low cell next to one already reached, and it reports almost all of that land as connected. The embankments, dock walls and tidal barrier that actually hold the water back are narrower than one cell, so the model never sees them. Our teenagers write the fill, then learn to say exactly what it proves and what it cannot.
-
-Facts last verified 22 September 2026. Teaching is online; no Hull branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Hull
 
 ## Four courses for the city on the Humber
 
 Start from what the learner enjoys. Every course begins with a free live lesson, and no card is taken to book it.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Block coding with mazes and paint-bucket puzzles, where filling a shape one square at a time is the first algorithm a child writes.
-- [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens) (Ages 13 to 18): Queues, grids and graph searches built from scratch, the exact tools a flood fill is made from.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Python from the first line to full programs, including reading a grid of numbers from a file and walking across it.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (University and adult): Python for adults starting out or starting again, from scripts to working with real data files and maps.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlock coding with mazes and paint-bucket puzzles, where filling a shape one square at a time is the first algorithm a child writes.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)Ages 13 to 18Problem Solving for TeensQueues, grids and graph searches built from scratch, the exact tools a flood fill is made from.See the syllabus](/courses/problem-solving-dsa-masterclass-teens)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensPython from the first line to full programs, including reading a grid of numbers from a file and walking across it.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)University and adultPython MasterclassPython for adults starting out or starting again, from scripts to working with real data files and maps.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Hull today
 
 ## A young city on the north bank of the Humber
 
 Census 2021 figures for Kingston upon Hull, taken from Nomis and printed as the Office for National Statistics published them.
 
-**Kingston upon Hull, Census 2021**
-
 | Measure | Hull | England |
-|---|---|---|
+| --- | --- | --- |
 | Usual residents | 267,014 | 56,490,048 |
 | Living in households | 262,426 | Not compared |
 | Living in communal establishments | 4,588 | Not compared |
@@ -67,6 +53,8 @@ At 3,730.1 residents per square kilometre, Hull is a compact city, with its boun
 
 That mix shows up in our classes. A Year 3 child in Bransholme might be solving a first maze with code blocks, a Year 10 student in the Avenues preparing for GCSE Computer Science, and an adult near Hessle Road learning Python for a new job, each in a group of fifteen to twenty learners at a matching level.
 
+A network of its own
+
 ## Hull's own telephone company, since 1904
 
 From the history published by KCOM, the company that grew out of the council's telephone department.
@@ -85,16 +73,18 @@ By 1913 Hull's was the only council-owned telephone department still operating. 
 
 We have no connection with KCOM. The story belongs on this page because it is about a network, and so is the project below. A telephone system is useful only if every subscriber can reach every other through a chain of links. A flood fill asks the same question of a map: starting from one place, which cells can be reached by steps between neighbours, and which are cut off?
 
-**Where the heights come from** Ordnance Survey publishes Terrain 50 as free open data: a height in metres above Ordnance Datum for every 50-metre square of Great Britain. Inside Hull's coastline boundary that is 28,633 squares, about 71.6 square kilometres, with a median height of 2.3 metres.
+Where the heights come from
+
+Ordnance Survey publishes Terrain 50 as free open data: a height in metres above Ordnance Datum for every 50-metre square of Great Britain. Inside Hull's coastline boundary that is 28,633 squares, about 71.6 square kilometres, with a median height of 2.3 metres.
+
+Signature project
 
 ## A flood fill from the Humber, and what it cannot see
 
 A flood fill puts the estuary squares in a queue, then repeatedly takes one out and adds any neighbour that is low enough and not yet visited.
 
-**Hull land in the Terrain 50 grid at or below each level, and how much a four-neighbour fill from the Humber reaches, before any defences are considered**
-
 | Level above Ordnance Datum | Land at or below | Reached from the Humber | With diagonal steps too |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 2.0 m | 24.06 km2 (33.6%) | 8.46 km2 | 12.56 km2 |
 | 3.0 m | 55.86 km2 (78.0%) | 55.59 km2 | 55.73 km2 |
 | 4.235 m, the 13 September tide | 62.23 km2 (86.9%) | 61.70 km2 | 61.78 km2 |
@@ -119,14 +109,14 @@ At 2 metres, letting the fill also step diagonally raises the land reached from 
 
 At 4.235 metres, the fill from the estuary visits 139,527 squares across the surrounding map. Written as a recursive function that calls itself for each neighbour, it would need a call stack that deep, and Python stops at a depth of about a thousand by default. The queue does the same job with no recursion at all, which is why real flood fills, from paint programs to maze solvers, are written this way.
 
+Models and walls
+
 ## Five things a height model cannot tell you
 
 Learned on the Humber, then applied to every simulation a learner will build: games, robots, network maps and machine learning models.
 
-**Reading a flood fill honestly**
-
 | What the grid lacks | In Hull | So the honest statement is |
-|---|---|---|
+| --- | --- | --- |
 | Walls thinner than a square | Embankments and dock walls are metres wide, the grid 50 m | Low and connected, not flooded |
 | Moving structures | The barrier at the mouth of the River Hull, where the gauge stands | The model assumes nothing is shut |
 | Time | A tide stays high for an hour or two, not for ever | Where water could reach, not where it would |
@@ -149,14 +139,37 @@ Grid searches and connectivity in geographic and network data at work, with the 
 
 We are not connected with the Environment Agency, Ordnance Survey, KCOM or Hull City Council. Terrain 50, the gauge readings and the census tables are open data; the fills, areas and comparisons are our own arithmetic and are not a flood risk assessment. The Environment Agency's flood maps are the place to check risk for a real address.
 
+Learning ladder
+
 ## From colouring squares to a flood fill
 
 The age bands are only a guide. The free lesson shows where the learner is ready to start.
 
-- **Ages 6 to 10: Fill the shape** Colouring a squared picture outward from one square, stopping at walls, and seeing that corners are tricky. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 11 to 13: Grids in code** Storing a map as rows of numbers, finding a square's neighbours in code, and solving simple mazes. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Breadth-first fills** A queue-based fill over real height data, connectivity rules and the reason recursion fails at scale. [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens), [Competitive Programming for Teens](/courses/competitive-programming-for-teens-course)
-- **Ages 18 to 67: Graphs at work** Grid and graph searches in mapping, logistics and network data, with assumptions stated alongside results. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)
+Ages 6 to 10
+
+### Fill the shape
+
+Colouring a squared picture outward from one square, stopping at walls, and seeing that corners are tricky.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 11 to 13
+
+### Grids in code
+
+Storing a map as rows of numbers, finding a square's neighbours in code, and solving simple mazes.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Breadth-first fills
+
+A queue-based fill over real height data, connectivity rules and the reason recursion fails at scale.
+
+[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)[Competitive Programming for Teens](/courses/competitive-programming-for-teens-course)Ages 18 to 67
+
+### Graphs at work
+
+Grid and graph searches in mapping, logistics and network data, with assumptions stated alongside results.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)Coding and AI
 
 ## An AI can write a flood fill in seconds. Why should a Hull teenager write one?
 
@@ -168,30 +181,139 @@ That habit carries straight into AI work. Every model is trained and tested on a
 
 So a Hull teenager should still learn to program in 2026, in a city that built its own telephone network when almost nobody else would: machines produce answers quickly, and somebody still has to know which of them are true. The longer argument is in [why coding is worth learning in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Newland, Marfleet or Orchard Park, from home
 
 Crossing Hull after school on a wet afternoon is slow. A live online lesson means nobody has to.
 
-- **East and west of the river** A learner off Holderness Road and another near Anlaby Road can share a lesson without either crossing the River Hull.
-- **English school stages** Reception, Key Stages 1 to 4, GCSEs and A levels, called what Hull schools call them, with all teaching in English.
-- **A proper first lesson** The free session covers a real task, then recommends a level, a course and a weekly time. We take no card details to book it.
-- **Classmates who match** Groups of fifteen to twenty learners at one level, from Hull, elsewhere in the UK and overseas, so every stage can find a workable hour.
-- **Twice a week, every week** Two fixed weekly lessons, about eight a month, with school holidays and exams arranged with the teacher in good time.
-- **India's clock stands still** India never changes its clocks, so it runs four and a half hours ahead of Hull in British Summer Time and five and a half in winter, keeping UK after-school and evening lessons inside the teaching day.
+### East and west of the river
 
-**Across East Yorkshire** Families in Cottingham, Hessle, Beverley or Hedon join exactly the same classes, since lessons are online and groups are formed by level rather than address.
+A learner off Holderness Road and another near Anlaby Road can share a lesson without either crossing the River Hull.
+
+### English school stages
+
+Reception, Key Stages 1 to 4, GCSEs and A levels, called what Hull schools call them, with all teaching in English.
+
+### A proper first lesson
+
+The free session covers a real task, then recommends a level, a course and a weekly time. We take no card details to book it.
+
+### Classmates who match
+
+Groups of fifteen to twenty learners at one level, from Hull, elsewhere in the UK and overseas, so every stage can find a workable hour.
+
+### Twice a week, every week
+
+Two fixed weekly lessons, about eight a month, with school holidays and exams arranged with the teacher in good time.
+
+### India's clock stands still
+
+India never changes its clocks, so it runs four and a half hours ahead of Hull in British Summer Time and five and a half in winter, keeping UK after-school and evening lessons inside the teaching day.
+
+Across East Yorkshire
+
+Families in Cottingham, Hessle, Beverley or Hedon join exactly the same classes, since lessons are online and groups are formed by level rather than address.
+
+Fees
 
 ## Hull lesson fees
 
 A free lesson to begin, then one monthly fee.
 
-- First class: USD 0. A complete lesson without charge, ending with a recommended level, course and weekly time.
-- Group tuition: USD 100 a month. About eight live lessons a month in a group of fifteen to twenty learners working at one level.
-- Private tuition: USD 150 a month. About eight live lessons a month, with the teacher working with your learner only.
+First class**USD 0**
+
+A complete lesson without charge, ending with a recommended level, course and weekly time.
+
+Group tuition**USD 100**
+
+About eight live lessons a month in a group of fifteen to twenty learners working at one level.
+
+Private tuition**USD 150**
+
+About eight live lessons a month, with the teacher working with your learner only.
 
 All families outside India pay the same US dollar fee, whether in Kingswood or the Old Town, and we show no prices in pounds. Nothing is charged until the free lesson has agreed a course and a slot; the pricing page covers pausing, missed lessons and switching between group and private teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Hull.)Reviews
+
+## Six Google reviews from families, word for word
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson for a Hull learner
+
+We choose the first task by level: a fill-the-shape puzzle for a young child, a first Python program on a small grid for a beginner, or the Terrain 50 file and a flood fill for a teenager ready for real data.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Hull one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Hull.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Hull coding class questions
+
+The questions Hull families most often ask us.
 
 ### How many people live in Hull?
 
@@ -233,10 +355,14 @@ The first lesson is free. After it, a group place is USD 100 a month for two liv
 
 By level, pace and aims rather than age or postcode, with fifteen to twenty learners at one stage in each group. If no group meets at a suitable time, we offer one-to-one lessons.
 
+Explore England and the UK
+
 ## Yorkshire neighbours and other cities
 
 Along the M62, the [Leeds page](/best-coding-class-in-leeds) samples a year of city-centre footfall fairly, and [Sheffield](/best-coding-class-in-sheffield) shows how a least-squares trend shifts with its starting year. [Bradford](/best-coding-class-in-bradford) sends a random walk across its streets. The [England guide](/coding-and-ai-classes-in-england) explains the school stages, and the [UK coding page](/coding-classes-in-united-kingdom) lists every city we cover.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Hull.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-hull](https://learn.modernagecoders.com/best-coding-class-in-hull#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-hull*

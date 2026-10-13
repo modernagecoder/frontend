@@ -4,34 +4,28 @@ description: "Online maths tuition in Liverpool for ages 6 to 67: KS2, KS3, GCSE
 canonical: https://learn.modernagecoders.com/maths-tuition-in-liverpool
 source: src/pages/maths-tuition-in-liverpool.html
 ---
-> Liverpool learners aged 6 to 67 can take live online maths with us, at every level: KS2 maths and the Year 6 papers, KS3, GCSE at Foundation or Higher tier on AQA, Edexcel or OCR, A level Maths with Further Maths, and adult maths from refreshers to GCSE resits. Classes run with fifteen to twenty learners matched by level, or privately for one learner. Our Liverpool example is the tide: from 2,766 Environment Agency readings in September 2026, the average time from one high water to the next was 12 hours 25.6 minutes, and a single cosine curve tracked a spring tide to within 0.948 metres but missed a neap tide by up to 6.44 metres. Lesson one is on us. From then on, a group seat runs to USD 100 monthly and individual tuition to USD 150 monthly.
+> Online maths tuition in Liverpool for ages 6 to 67: KS2, KS3, GCSE, A level, Further Maths and adult maths, with a trigonometry project on Mersey tide data.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths tuition in Liverpool
+In short
 
-Liverpool · Maths at any age from 6 to 67 · Taught live online, in groups or one to one
+Liverpool learners aged 6 to 67 can take live online maths with us, at every level: KS2 maths and the Year 6 papers, KS3, GCSE at Foundation or Higher tier on AQA, Edexcel or OCR, A level Maths with Further Maths, and adult maths from refreshers to GCSE resits. Classes run with fifteen to twenty learners matched by level, or privately for one learner. Our Liverpool example is the tide: from 2,766 Environment Agency readings in September 2026, the average time from one high water to the next was 12 hours 25.6 minutes, and a single cosine curve tracked a spring tide to within 0.948 metres but missed a neap tide by up to 6.44 metres. Lesson one is on us. From then on, a group seat runs to USD 100 monthly and individual tuition to USD 150 monthly.
 
-# Maths tuition in Liverpool
-
-The water at Liverpool rises and falls twice a day, and in September 2026 the Environment Agency's gauge recorded it every fifteen minutes. Across 54 gaps between one high water and the next, the average was 12 hours 25.6 minutes. That number, and the shape of the rise between, is A level trigonometry wearing a coat: a cosine curve with an amplitude, a period and a midline. We fitted one. On a big spring tide it stayed within a metre of the truth all cycle. A week later, on a small neap tide, the same curve was wrong by more than six metres. This page explains how we teach maths to Liverpool learners from primary school to adulthood, and uses the tide to show what a model can and cannot do.
-
-At a glance: Who: Liverpool learners from 6 to 67; Primary: KS2 maths, times tables, Year 6 papers; Secondary: KS3 and GCSE, Foundation or Higher; Sixth form: A level Maths and Further Maths; Adults: Refreshers, resits, everyday maths; Format: Live video, groups of 15 to 20 or private; Teachers: Teaching from India on UK time; Local project: Mersey tide readings and a cosine model. Rated 4.9 across 547 Google reviews.
+A good first course for most Liverpool learners
 
 ## Three places to begin
 
 Choose by stage. The longer list, from early number to university maths, is below.
 
-- [KS2 maths](/courses/elementary-mathematics-complete-masterclass): Place value, fractions and times, including the clock arithmetic a tide table needs, taught until it is automatic.
-- [GCSE maths](/courses/gcse-mathematics-mastery): Whichever of the three English boards the school uses, at either tier, with trig graphs tied to real measurements.
-- [A level Maths](/courses/a-level-maths-course-pure-mechanics-statistics): Trigonometric functions, calculus and statistics, finally applied to something that repeats, like the tide.
+[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  LPL / 1 KS2 maths Place value, fractions and times, including the clock arithmetic a tide table needs, taught until it is automatic. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)[![GCSE Maths course thumbnail](/images/gcse-maths.webp)  LPL / 2 GCSE maths Whichever of the three English boards the school uses, at either tier, with trig graphs tied to real measurements. Open the syllabus →](/courses/gcse-mathematics-mastery)[![A-Level Maths course thumbnail](/images/a-level-maths.webp)  LPL / 3 A level Maths Trigonometric functions, calculus and statistics, finally applied to something that repeats, like the tide. Open the syllabus →](/courses/a-level-maths-course-pure-mechanics-statistics)
+
+Every age
 
 ## Maths for every Liverpool learner, from KS2 to adult study
 
 Liverpool schools follow the national curriculum for England. Here is how the stages run, and what our lessons emphasise at each one.
 
-**A Liverpool learner's path through maths, and our emphasis at each stage**
-
 | Stage | Usual ages | Our emphasis |
-|---|---|---|
+| --- | --- | --- |
 | Key Stage 1 | 5 to 7 | Counting, number bonds to 20, money and o'clock and half past times. |
 | Key Stage 2 | 7 to 11 | Times tables, the four written methods, fractions, and working out durations across midnight. |
 | Key Stage 3 | 11 to 14 | Algebra, ratio, graphs of real situations, and the first trigonometry with right-angled triangles. |
@@ -53,6 +47,8 @@ Our national pages explain each stage further: [KS2](/ks2-maths-tuition-online),
 
 Source: [DfE, GCE AS and A level subject content for mathematics](https://www.gov.uk/government/publications/gce-as-and-a-level-mathematics), item E3, read on 1 October 2026. The ages are typical for each stage.
 
+The Liverpool project
+
 ## A month of the Mersey tide, fifteen minutes at a time
 
 The Environment Agency publishes live readings from a tide gauge it labels Liverpool. We took every reading for September 2026 and asked how regular the tide really is.
@@ -65,10 +61,8 @@ The time from one high water to the next averaged 745.6 minutes, which is 12 hou
 
 That 12 hours 25 minutes is why the tide is roughly fifty minutes later each day: two tides take about 24 hours 50 minutes. A primary learner can check it with nothing more than addition, and the data agree.
 
-**Tide figures from the Liverpool gauge, 2 to 30 September 2026, our calculation**
-
 | Measure | Value | Stage that uses it |
-|---|---|---|
+| --- | --- | --- |
 | Readings used | 2,766 | Any: counting and checking a data set |
 | High waters found | 55 | KS3: defining a maximum carefully |
 | Average high-to-high gap | 12 h 25.6 min | KS2: time arithmetic |
@@ -80,6 +74,8 @@ That 12 hours 25 minutes is why the tide is roughly fifty minutes later each day
 The last two rows are a surprise for most students. A perfect wave would rise and fall in equal times. At this gauge, in this month, the water came up in about 5 hours 38 minutes on average and took about 6 hours 48 minutes to go down. The model we try next cannot see that difference, which is one reason it goes wrong.
 
 Data: [Environment Agency real-time flood-monitoring API, station E70124 (Liverpool)](https://environment.data.gov.uk/flood-monitoring/id/stations/E70124), 15-minute tidal level readings, retrieved 1 October 2026, Open Government Licence. These are recent readings, not a checked archive. All derived figures are Modern Age Coders' calculations, and this page is not a tide table: never use it for safety on or near the water.
+
+From the rule of twelfths to A level trigonometry
 
 ## Can one cosine curve predict the tide?
 
@@ -97,10 +93,8 @@ An A level model of height h after t hours is h = d + a cos(2πt ÷ T). For the 
 
 Over the next 48 readings the curve was off by 0.348 metres on average and never by more than 0.948 metres. For three numbers and one function, that is good. Then we kept the same amplitude and started it at the neap high water of 20 September. It missed by up to 6.44 metres, because a neap tide has a far smaller range.
 
-**Share of each rising tide in each sixth of its duration, in twelfths of the range**
-
 | Sixth | Rule of twelfths | Pure cosine | Liverpool, Sept 2026 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1st | 1 | 0.80 | 0.77 |
 | 2nd | 2 | 2.20 | 2.32 |
 | 3rd | 3 | 3.00 | 3.27 |
@@ -113,6 +107,8 @@ The DfE content asks A level students to "Understand that a mathematical model c
 Timing works in a similar way. Predicting each high water as the previous one plus 12 hours 25 minutes, 41 of the 54 predictions landed within fifteen minutes of the measured time. The average miss was 12.8 minutes and the worst was 50 minutes, which shows that even the timing drifts more than a single number suggests.
 
 Wording: [DfE, GCE AS and A level subject content for mathematics](https://www.gov.uk/government/publications/gce-as-and-a-level-mathematics), item OT3.4. The rule of twelfths is a traditional approximation, not an official standard. All fitted values and errors are our calculations from the gauge readings.
+
+Beyond our lessons
 
 ## The Maths Hub, the university outreach team and maths challenges
 
@@ -140,6 +136,8 @@ Wirral families preparing for the eleven plus will find our [Wirral 11 plus math
 
 Sources: [NCETM, North West Three Maths Hub](https://www.ncetm.org.uk/hubs/north-west-three-maths-hub/); [University of Liverpool, Maths Outreach team](https://www.liverpool.ac.uk/mathematical-sciences/outreach-team/); [UK Mathematics Trust](https://ukmt.org.uk/). All read on 1 October 2026. Modern Age Coders has no connection with any of these organisations or with any Liverpool school.
 
+For adults
+
 ## Adult maths in Liverpool, at your own pace
 
 Many adults who contact us were told at school that they were not maths people. Most of them were simply taught too fast.
@@ -158,14 +156,14 @@ Budgets, rates, rotas and charts. See our [adult maths page](/online-maths-class
 
 Adults tend to enjoy the tide project because it is so concrete. Anyone who has walked along the waterfront has seen the river at very different heights, and working out why the times shift by nearly an hour a day turns a vague memory into a calculation they can do themselves.
 
+The sequence
+
 ## From telling the time to modelling a wave, in four steps
 
 Each step rests on the one below it. Learners join where they fit, and the trial lesson shows us where that is.
 
-**Four steps from clock arithmetic to trigonometric models, with a sign that each is secure**
-
 | Usually | Step | Secure when the learner can |
-|---|---|---|
+| --- | --- | --- |
 | Years 3 to 6 | 1. Time and number | Add hours and minutes across midnight without a calculator |
 | Years 6 to 8 | 2. Fractions of a whole | Split a quantity into twelfths and check that the parts add up |
 | Years 9 to 11 | 3. Graphs and trigonometry | Sketch a cosine graph and read its period and amplitude |
@@ -174,75 +172,353 @@ Each step rests on the one below it. Learners join where they fit, and the trial
 ### Late starters
 
 Joining in Year 11 or Year 6 still pays off, as long as we repair number skills first. Weak arithmetic quietly costs marks on every paper.
+
 If the gap is bigger than the time left, we tell you so at the free lesson.
 
 ### After the exams
 
 Some learners move on to [statistics and probability](/courses/statistics-probability-maths-course), others to [maths through coding](/courses/maths-through-coding), where a short program fits the tide curve automatically.
+
 A few discover they love hard problems and turn to competition maths.
+
+The full list
 
 ## Maths courses for Liverpool learners
 
 Grouped by stage. Open a card to read the complete syllabus.
 
+I
+
 ### Primary
 
 Ages 6 to 11
 
-- [Number for beginners](/courses/early-math-foundations): Counting, sorting and shapes for young children.
-- [KS2 maths](/courses/elementary-mathematics-complete-masterclass): All of primary maths, with understanding.
-- [Mental maths](/courses/mental-maths-mastery-kids): Confident calculation without paper.
-- [Abacus](/courses/abacus-mental-maths-course-for-kids): From bead frame to mental image.
+MTL / A1
+
+#### Number for beginners
+
+Counting, sorting and shapes for young children.
+
+[Open the syllabus](/courses/early-math-foundations)
+
+MTL / A2
+
+#### KS2 maths
+
+All of primary maths, with understanding.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+MTL / A3
+
+#### Mental maths
+
+Confident calculation without paper.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+MTL / A4
+
+#### Abacus
+
+From bead frame to mental image.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)II
 
 ### Secondary
 
 KS3 and GCSE
 
-- [KS3 maths](/courses/comprehensive-middle-school-mathematics-mastery): Algebra, ratio and geometry from Year 7.
-- [Algebra from scratch](/courses/algebra-foundations-masterclass): Firm ground for learners who lost the thread.
-- [GCSE maths](/courses/gcse-mathematics-mastery): Either tier, AQA, Edexcel or OCR, resits welcome.
-- [IGCSE maths](/courses/igcse-mathematics-mastery): For international GCSE entries.
+MTL / B1
+
+#### KS3 maths
+
+Algebra, ratio and geometry from Year 7.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+MTL / B2
+
+#### Algebra from scratch
+
+Firm ground for learners who lost the thread.
+
+[Open the syllabus](/courses/algebra-foundations-masterclass)
+
+MTL / B3
+
+#### GCSE maths
+
+Either tier, AQA, Edexcel or OCR, resits welcome.
+
+[Open the syllabus](/courses/gcse-mathematics-mastery)
+
+MTL / B4
+
+#### IGCSE maths
+
+For international GCSE entries.
+
+[Open the syllabus](/courses/igcse-mathematics-mastery)III
 
 ### Sixth form and university
 
 From 16
 
-- [A level Maths](/courses/a-level-maths-course-pure-mechanics-statistics): Calculus, vectors, forces and data.
-- [Statistics](/courses/statistics-probability-maths-course): Data, distributions and inference.
-- [University maths](/courses/college-mathematics-complete-masterclass): Support alongside first-year degree modules.
-- [Problem solving](/courses/olympiad-competition-mathematics-mastery): Competition-style questions with no set method.
+MTL / C1
+
+#### A level Maths
+
+Calculus, vectors, forces and data.
+
+[Open the syllabus](/courses/a-level-maths-course-pure-mechanics-statistics)
+
+MTL / C2
+
+#### Statistics
+
+Data, distributions and inference.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)
+
+MTL / C3
+
+#### University maths
+
+Support alongside first-year degree modules.
+
+[Open the syllabus](/courses/college-mathematics-complete-masterclass)
+
+MTL / C4
+
+#### Problem solving
+
+Competition-style questions with no set method.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)IV
 
 ### Applied and adult
 
 Maths at work
 
-- [Finance maths](/courses/complete-business-finance-mathematics-mastery): Interest, loans and investment.
-- [Data maths](/courses/data-analytics-mathematics-masterclass): The mathematics behind analysis.
-- [Maths through coding](/courses/maths-through-coding): Letting a program do the repetitive arithmetic.
-- [Vedic maths](/courses/vedic-maths-course-speed-calculation-mastery): Fast methods for confident calculators.
+MTL / D1
+
+#### Finance maths
+
+Interest, loans and investment.
+
+[Open the syllabus](/courses/complete-business-finance-mathematics-mastery)
+
+MTL / D2
+
+#### Data maths
+
+The mathematics behind analysis.
+
+[Open the syllabus](/courses/data-analytics-mathematics-masterclass)
+
+MTL / D3
+
+#### Maths through coding
+
+Letting a program do the repetitive arithmetic.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+MTL / D4
+
+#### Vedic maths
+
+Fast methods for confident calculators.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
+
+Fitting lessons in
 
 ## Lesson times that suit a Liverpool day
 
 Teaching happens from India, which has no daylight saving. So the gap to Liverpool is 5 h 30 min from late October to late March, and 4 h 30 min the rest of the year. All slots are agreed and shown in UK time.
 
-- **Weekdays from mid-afternoon** After school for younger learners.
-- **Weekday evenings** Sixth formers and working adults.
-- **Weekend mornings** For a calmer start to the week's maths.
+Weekdays from mid-afternoon
 
-- **Continuity** The same teacher takes a group each week and knows every learner's slips.
-- **Brief reports** A short note home after lessons on progress and next steps.
-- **Level, not age** Fifteen to twenty learners in a group, all at one level.
-- **Measured data** Tide readings, maps and census tables next to exam practice.
-- **One to one** For a stubborn topic, a near exam, or by choice.
-- **Say why** Learners explain a method in words before drilling it.
+After school for younger learners.
+
+Weekday evenings
+
+Sixth formers and working adults.
+
+Weekend mornings
+
+For a calmer start to the week's maths.
+
+### Continuity
+
+The same teacher takes a group each week and knows every learner's slips.
+
+### Brief reports
+
+A short note home after lessons on progress and next steps.
+
+### Level, not age
+
+Fifteen to twenty learners in a group, all at one level.
+
+### Measured data
+
+Tide readings, maps and census tables next to exam practice.
+
+### One to one
+
+For a stubborn topic, a near exam, or by choice.
+
+### Say why
+
+Learners explain a method in words before drilling it.
+
+Student work
+
+## Where our students take their maths
+
+Learners who began with graphs and numbers built the four projects below. More live in the [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Monthly, in US dollars, at one rate for every country outside India. No joining fee, no minimum term.
 
-- Free first class: USD 0. A real lesson at the learner's level. A candid account afterwards. No card required.
-- Group batch: USD 100 a month. Fifteen to twenty learners at one level. A familiar teacher. Work marked and talked through. A certificate when finished.
-- One to one: USD 150 a month. Individual teaching. Aimed at the specific gap. Ideal close to exams.
+Free first class
+
+USD 0
+
+no card required
+
+- A real lesson at the learner's level
+- A candid account afterwards
+- No card required
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners at one level
+- A familiar teacher
+- Work marked and talked through
+- A certificate when finished
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- Individual teaching
+- Aimed at the specific gap
+- Ideal close to exams
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Quoted exactly as families and learners wrote them in Google reviews.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Liverpool maths questions
 
 ## What Liverpool families and adult learners ask
 
@@ -286,15 +562,54 @@ No. No tutor can honestly guarantee a result. We teach thoroughly and give you a
 
 No. Their activities appear here only because families ask about them. Modern Age Coders is a separate, independent tutoring service.
 
+Related
+
 ## Further reading for Liverpool learners
 
-- [A level maths tuition](/a-level-maths-tuition-online): Pure, statistics and mechanics in depth.
-- [KS3 maths tuition](/ks3-maths-tuition-online): Years 7 to 9 and the move to GCSE.
-- [11 plus maths in Wirral](/11-plus-maths-tuition-wirral): For families preparing for the Wirral test.
-- [Coding classes in Liverpool](/best-coding-class-in-liverpool): Our coding page for the city.
-- [Maths tuition in Nottingham](/maths-tuition-in-nottingham): A weather data project on correlation.
-- [All UK pages](/coding-classes-in-united-kingdom): Our index of UK places and maths pages.
+Stage pages, a nearby 11 plus page and our coding page for Liverpool.
 
-## Contact
+### [A level maths tuition](/a-level-maths-tuition-online)
 
-Book the free first class at [https://learn.modernagecoders.com/maths-tuition-in-liverpool](https://learn.modernagecoders.com/maths-tuition-in-liverpool#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Pure, statistics and mechanics in depth.
+
+### [KS3 maths tuition](/ks3-maths-tuition-online)
+
+Years 7 to 9 and the move to GCSE.
+
+### [11 plus maths in Wirral](/11-plus-maths-tuition-wirral)
+
+For families preparing for the Wirral test.
+
+### [Coding classes in Liverpool](/best-coding-class-in-liverpool)
+
+Our coding page for the city.
+
+### [Maths tuition in Nottingham](/maths-tuition-in-nottingham)
+
+A weather data project on correlation.
+
+### [All UK pages](/coding-classes-in-united-kingdom)
+
+Our index of UK places and maths pages.
+
+Start here
+
+## Book a free maths lesson
+
+Send us a school year, or an age, plus whichever topic is causing grief. We teach a full trial lesson and then give you our frank view.
+
+Prefer to explore first? Browse the [courses](/courses) or read [how we teach](/how-we-teach).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20a%20learner%20in%20Liverpool.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+For a fast reply, use WhatsApp. The +91 prefix is because our teachers are in India. Nobody works from a Liverpool office; teaching is entirely online.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/maths-tuition-in-liverpool*

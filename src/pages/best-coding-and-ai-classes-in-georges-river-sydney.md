@@ -4,56 +4,40 @@ description: "Live online coding, Python and AI classes for Hurstville and the w
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-georges-river-sydney
 source: src/pages/best-coding-and-ai-classes-in-georges-river-sydney.html
 ---
-> Through live online classes, with a teacher coding next to every learner: Scratch for younger children, then Python, data work and AI for teenagers and adults. The 2021 Census counted 152,274 people in the Georges River council area, whose railway stations include Hurstville, Mortdale, Penshurst and Oatley, and more than a third of its occupied homes were flats or apartments.
+> Live online coding, Python and AI classes for Hurstville and the wider Georges River council area: ages 6 to 67, small groups or one to one, first lesson free.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [New South Wales](/coding-and-ai-classes-in-new-south-wales) / [Sydney](/best-coding-classes-in-sydney) / Georges River
-
-Georges River council area, Sydney, New South Wales / Live online
-
-# Coding and AI classes in Georges River
-
-**Where do Georges River learners find the best coding and AI classes?** Through live online classes, with a teacher coding next to every learner: Scratch for younger children, then Python, data work and AI for teenagers and adults. The 2021 Census counted 152,274 people in the Georges River council area, whose railway stations include Hurstville, Mortdale, Penshurst and Oatley, and more than a third of its occupied homes were flats or apartments.
-
-Hurstville is busy; everyone in the area knows that. The question a programmer asks is how busy compared with what. Transport for NSW publishes Opal entries for every station each month, and in August 2026 the ten stations inside the Georges River council area logged entries ranging from 45,930 at Oatley to 499,555 at Hurstville. One number, the Herfindahl-Hirschman index, sums up how lopsided that spread is, and this page builds it from scratch in Python.
-
-Facts last verified 10 October 2026. Teaching is online; no Georges River branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Georges River
 
 ## Where a Georges River learner might start
 
 Each course below leads somewhere near the station project on this page. A free first lesson sorts out which one fits, with no card details asked for.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 11): Animations and games in blocks, including a simple counter that tallies how often each sprite is clicked.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 12 to 17): Python from the first print statement to reading files, building lists and working out shares and totals.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 17): Real public tables, summary statistics and charts, with the habit of asking what each number really measures.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (University and adult): Spreadsheets, SQL and Python for work, including market-share style measures like the one on this page.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 11Scratch Coding for KidsAnimations and games in blocks, including a simple counter that tallies how often each sprite is clicked.See the syllabus](/courses/scratch-programming-complete-course)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 12 to 17Python for TeensPython from the first print statement to reading files, building lists and working out shares and totals.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 17Data Science for TeensReal public tables, summary statistics and charts, with the habit of asking what each number really measures.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)University and adultData Analysis CourseSpreadsheets, SQL and Python for work, including market-share style measures like the one on this page.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Georges River in the Census
 
 ## A council area of 38 square kilometres south of the city
 
 The statistics bureau's 2021 QuickStats for the Georges River local government area, set beside New South Wales and Australia.
 
-**Headline counts for the Georges River council area, 2021**
-
 | Measure | Value |
-|---|---|
+| --- | --- |
 | Residents | 152,274 |
 | Families | 41,152 |
 | Private dwellings | 58,386 |
 | Average people per household | 2.8 |
 | Land area (ABS boundary) | About 38.3 square kilometres |
 
-**Georges River compared with the state and the country**
-
 | Indicator | Georges River | NSW | Australia |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Homes that are separate houses | 51.6% (27,051 homes) | 65.6% | 72.3% |
 | Homes that are flats or apartments | 36.2% (18,946 homes) | 21.7% | 14.2% |
 | Median age, years | 38 | 39 | 38 |
@@ -73,14 +57,14 @@ Professionals were the largest occupation group among employed residents, 19,712
 
 The bureau adds small random adjustments to protect privacy, so its tables rarely add up exactly to the printed totals. Every Census figure here is quoted as released, and we have not built any total by adding published rows together.
 
+Signature project
+
 ## How lopsided are train entries across Georges River?
 
 Transport for NSW releases monthly Opal entries for each station. We placed every station point inside the Georges River boundary using the statistics bureau's council map, kept the ten that fall inside, and measured how concentrated their August 2026 entries are.
 
-**Entries in August 2026 and each station's share of the ten (shares are our arithmetic)**
-
 | Station | Entries | Share of the ten |
-|---|---|---|
+| --- | --- | --- |
 | Hurstville | 499,555 | 39.57% |
 | Kogarah | 258,775 | 20.50% |
 | Mortdale | 81,934 | 6.49% |
@@ -92,10 +76,8 @@ Transport for NSW releases monthly Opal entries for each station. We placed ever
 | Beverly Hills | 49,353 | 3.91% |
 | Oatley | 45,930 | 3.64% |
 
-**Concentration measures for the same month (our calculation)**
-
 | Measure | Value | What it means |
-|---|---|---|
+| --- | --- | --- |
 | Herfindahl-Hirschman index | 2,193 | Sum of squared percentage shares; 1,000 would mean ten equal stations |
 | Equivalent number of equal stations | 4.56 | 10,000 divided by the index |
 | Largest single share | 39.57% | Hurstville alone |
@@ -120,14 +102,14 @@ Saying Hurstville handles 40% of the entries hides what happens to the other 60%
 
 Entries count Opal taps at the gates, not individual people, and one person can tap in many times in a month. Narwee station sits just outside the council boundary on the bureau's map, so it is not one of the ten. The ten-station sum is our own arithmetic for working out shares, not a published Georges River total, and Transport for NSW has no part in the calculation.
 
+Taking it further
+
 ## What else the same few lines of code can measure
 
 Once a learner can compute shares and the index, small changes open up new questions.
 
-**Next experiments on the Georges River station file**
-
 | Question | Change to the code | Idea it teaches |
-|---|---|---|
+| --- | --- | --- |
 | Is the spread the same for exits? | Filter on Exit instead of Entry | Checking that a result is not an artefact of one column |
 | Does concentration change by month? | Loop over the 23 months | Turning one calculation into a time series |
 | What if Kogarah doubled? | Edit one value and recompute | Sensitivity of a summary measure |
@@ -149,6 +131,8 @@ Apply concentration measures to sales, customers or website traffic, and present
 
 The figures come from open files published by Transport for NSW, the education department and the statistics bureau. None of those agencies is connected with us, and every share and index value above is our own calculation.
 
+Around Georges River
+
 ## Schools from 1870, and a calendar to plan around
 
 A little more from the same public files.
@@ -165,16 +149,41 @@ Kogarah Public School records its first teacher in 1870, Peakhurst Public School
 
 In the Eastern division, students are at school for Term 1 from Wednesday 3 February to Friday 9 April 2027, after staff development days that begin on Thursday 28 January.
 
-**A warm-up exercise in the same files** Station names in the Transport for NSW file carry a double space before the word Station. Writing one small function that collapses repeated spaces, then checking that all ten names now match the map, is a tidy first task before any maths begins.
+A warm-up exercise in the same files
+
+Station names in the Transport for NSW file carry a double space before the word Station. Writing one small function that collapses repeated spaces, then checking that all ten names now match the map, is a tidy first task before any maths begins.
+
+Learning ladder
 
 ## From counting clicks in Scratch to market measures in Python
 
 Ages are a guide; the free first lesson decides where each learner begins.
 
-- **Ages 6 to 11: Counting in blocks** Scratch projects that keep score, compare totals and turn counts into simple bar charts. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 12 to 15: First Python** Variables, loops and lists, then reading a small file and working out percentages. [Python for Teens](/courses/python-complete-masterclass-teens), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 15 to 18: Data and models** Real datasets, summary measures, charts and first machine learning models. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **University and adult: Analysis for work** SQL, Python and clear reporting of shares, trends and uncertainty. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Data Science Course](/courses/data-science-complete-masterclass-college)
+Ages 6 to 11
+
+### Counting in blocks
+
+Scratch projects that keep score, compare totals and turn counts into simple bar charts.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 12 to 15
+
+### First Python
+
+Variables, loops and lists, then reading a small file and working out percentages.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Maths Through Coding](/courses/maths-through-coding)Ages 15 to 18
+
+### Data and models
+
+Real datasets, summary measures, charts and first machine learning models.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)University and adult
+
+### Analysis for work
+
+SQL, Python and clear reporting of shares, trends and uncertainty.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Data Science Course](/courses/data-science-complete-masterclass-college)Coding and AI
 
 ## An AI can name the busiest station. Why should a Georges River learner compute the index?
 
@@ -186,30 +195,139 @@ A learner who has squared and summed ten station shares checks what an AI tool d
 
 Summaries are cheap in 2026; the learner who knows how one is built is the one who can tell a fair summary from a misleading one. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## From Oatley to Kingsgrove, the same live class
 
 The council area runs from the Georges River in the south to Kingsgrove in the north, and an online lesson reaches every street in it equally.
 
-- **Nothing to travel to** Learners join from home, so a class works the same for a family near Oatley station as for one near Riverwood.
-- **Matched to NSW school years** Teachers know the NSW stages and syllabus names, and lessons pause for the state school holidays.
-- **Try before paying** The opening session runs exactly like any other lesson, and it closes with the teacher recommending a course, a level and a weekly slot. No payment is taken that day.
-- **Groups set by level** Fifteen to twenty learners who are at the same stage, whatever their age, or one to one if that suits better.
-- **A steady weekly rhythm** Usually two lessons a week at a fixed time, about eight a month, with breaks planned around school holidays.
-- **Teachers in India** A 5pm Hurstville lesson in summer starts at 11:30am India time; once Sydney leaves daylight saving it starts at 12:30pm there.
+### Nothing to travel to
 
-**Sydney time and India time** Sydney starts daylight saving on Sunday 4 October 2026 and ends it on Sunday 4 April 2027. India does not change its clocks, so the gap to our teachers moves by an hour twice a year, and we always quote lesson times in Sydney time.
+Learners join from home, so a class works the same for a family near Oatley station as for one near Riverwood.
+
+### Matched to NSW school years
+
+Teachers know the NSW stages and syllabus names, and lessons pause for the state school holidays.
+
+### Try before paying
+
+The opening session runs exactly like any other lesson, and it closes with the teacher recommending a course, a level and a weekly slot. No payment is taken that day.
+
+### Groups set by level
+
+Fifteen to twenty learners who are at the same stage, whatever their age, or one to one if that suits better.
+
+### A steady weekly rhythm
+
+Usually two lessons a week at a fixed time, about eight a month, with breaks planned around school holidays.
+
+### Teachers in India
+
+A 5pm Hurstville lesson in summer starts at 11:30am India time; once Sydney leaves daylight saving it starts at 12:30pm there.
+
+Sydney time and India time
+
+Sydney starts daylight saving on Sunday 4 October 2026 and ends it on Sunday 4 April 2027. India does not change its clocks, so the gap to our teachers moves by an hour twice a year, and we always quote lesson times in Sydney time.
+
+Fees
 
 ## What lessons cost for Georges River learners
 
 Three plain figures, nothing hidden.
 
-- First class: USD 0. One full lesson free, ending with a suggested course, level and time.
-- Group tuition: USD 100 a month. A month of lessons, usually eight, shared with fifteen to twenty learners at the same level.
-- Private tuition: USD 150 a month. Around eight lessons a month on the same pattern, one teacher with one learner.
+First class**USD 0**
+
+One full lesson free, ending with a suggested course, level and time.
+
+Group tuition**USD 100**
+
+A month of lessons, usually eight, shared with fifteen to twenty learners at the same level.
+
+Private tuition**USD 150**
+
+Around eight lessons a month on the same pattern, one teacher with one learner.
 
 Outside India, invoices are issued in US dollars, which keeps one price for every household between Kingsgrove and Oatley. Payment starts only after the trial has settled a course and a time; breaks, missed lessons and switching format are covered on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20the%20Georges%20River%20area.)Reviews
+
+## What families say on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Start with a name, an age and a hobby
+
+With those three things a teacher can shape the opening lesson around the learner. Younger children often begin by building a tally game in Scratch, while older students and adults sometimes ask to work on the station data straight away.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Georges River one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20the%20Georges%20River%20area.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Georges River coding and AI class questions
+
+What families and adult learners in the area usually ask first.
 
 ### How many people live in the Georges River council area?
 
@@ -251,10 +369,14 @@ The first lesson is free. After that a group place is USD 100 a month for two li
 
 Fifteen to twenty, grouped by level, pace and goal rather than age or suburb. If no group fits the time a learner needs, one-to-one lessons are offered instead.
 
+Explore Sydney and NSW
+
 ## More for Georges River learners
 
 Sydney as a whole has its own guide, [coding classes in Sydney](/best-coding-classes-in-sydney), and parents of primary-age children can read [coding classes for kids in Sydney](/coding-classes-for-kids-sydney). Year 11 and 12 students taking computing may want [HSC Software Engineering help](/hsc-software-engineering-help), while [coding and AI classes in New South Wales](/coding-and-ai-classes-in-new-south-wales) looks at the state beyond Sydney.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20the%20Georges%20River%20area.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-and-ai-classes-in-georges-river-sydney](https://learn.modernagecoders.com/best-coding-and-ai-classes-in-georges-river-sydney#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-georges-river-sydney*

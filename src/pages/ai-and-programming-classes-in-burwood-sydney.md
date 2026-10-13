@@ -4,55 +4,39 @@ description: "Live online AI, machine learning and programming classes for Burwo
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-burwood-sydney
 source: src/pages/ai-and-programming-classes-in-burwood-sydney.html
 ---
-> To live online classes where a teacher takes Burwood teenagers and adults from Python into machine learning, building each model by hand before using a library. The 2021 Census counted 40,217 people in the Burwood Council area, with a median age of 34 and 12.5% aged 20 to 24. Lessons are one to one or in a small group at one level, and the first lesson is free.
+> Live online AI, machine learning and programming classes for Burwood teenagers and adults, one to one or in small groups with real teachers. First lesson is free.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [New South Wales](/coding-and-ai-classes-in-new-south-wales) / [Sydney](/best-coding-classes-in-sydney) / Burwood
-
-Burwood Council area, Sydney, New South Wales / Live online
-
-# AI and programming classes in Burwood
-
-**Where should Burwood learners look for the best AI and programming classes?** To live online classes where a teacher takes Burwood teenagers and adults from Python into machine learning, building each model by hand before using a library. The 2021 Census counted 40,217 people in the Burwood Council area, with a median age of 34 and 12.5% aged 20 to 24. Lessons are one to one or in a small group at one level, and the first lesson is free.
-
-An autoencoder is a neural network asked to copy its input through a narrow middle layer. If it can rebuild the input from only a few numbers, those numbers have captured what matters. We gave one the monthly entry pattern of every NSW train station with a full record, 270 of them over 23 months, and a middle layer of just two numbers. Trained by gradient descent from random weights, its error fell from 0.011495 to 0.006155, exactly the figure principal component analysis gives directly. Burwood's pattern came back with an error of 0.0300, closer than most, because its year looks a lot like the network's average year.
-
-Facts last verified 10 October 2026. Teaching is online; no Burwood branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Burwood
 
 ## Courses where models are built, not just called
 
 Each course builds the skills the autoencoder project uses. A free trial lesson sets the level, with no payment details taken.
 
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 18): Machine learning from scratch in Python: regression, classification and small neural networks.
-- [Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college) (University and adult): AI from foundations to deep learning, with the maths explained as it is used.
-- [Data Science Course](/courses/data-science-complete-masterclass-college) (University and adult): Data handling, dimensionality reduction and modelling on real public datasets.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): The Python needed before any of the AI work, taught properly from the start.
+[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 18AI and Machine Learning for TeensMachine learning from scratch in Python: regression, classification and small neural networks.See the syllabus](/courses/ai-ml-masterclass-teens)[![Artificial Intelligence Course course thumbnail](/images/ai-college.webp)University and adultArtificial Intelligence CourseAI from foundations to deep learning, with the maths explained as it is used.See the syllabus](/courses/artificial-intelligence-complete-masterclass-college)[![Data Science Course course thumbnail](/images/data-science-college.webp)University and adultData Science CourseData handling, dimensionality reduction and modelling on real public datasets.See the syllabus](/courses/data-science-complete-masterclass-college)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensThe Python needed before any of the AI work, taught properly from the start.See the syllabus](/courses/python-complete-masterclass-teens)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Burwood in the Census
 
 ## A small council area with a large share of young adults
 
 From the 2021 Census QuickStats for the Burwood local government area, compared with New South Wales and Australia.
 
-**Burwood Council area at the 2021 Census**
-
 | Item | Burwood |
-|---|---|
+| --- | --- |
 | Population | 40,217 |
 | Private dwellings | 16,160 |
 | Median age | 34 |
 | Mean household size | 2.7 |
 
-**Burwood beside the state and the country**
-
 | Share | Burwood | NSW | Australia |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | People aged 20 to 24 | 12.5% (5,006) | 6.1% | 6.2% |
 | Flats or apartments, occupied homes | 49.1% (6,944) | 21.7% | 14.2% |
 | Bachelor degree or higher, aged 15 and over | 37.8% (13,395) | 27.8% | 26.3% |
@@ -72,23 +56,21 @@ Homes held 2.7 people on average, slightly above the NSW figure of 2.6.
 
 To keep individuals unidentifiable, the bureau perturbs each cell slightly, which means component figures need not add up to the published total. We report published numbers only and calculate no totals of our own.
 
+Signature project
+
 ## Two numbers per station, and how much of Burwood survives
 
 Each station's 23 monthly entry counts are divided by its own average, so a busy station and a quiet one can be compared by shape alone. The network's average shape is then removed, leaving only what makes each station different.
 
-**Reconstruction error by size of the bottleneck, 270 train stations (our calculation)**
-
 | Numbers kept per station | Burwood error | Median error | Burwood rank, 1 = least typical |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 0 (average shape only) | 0.0355 | 0.0587 | 257 of 270 |
 | 1 | 0.0309 | 0.0504 | 227 of 270 |
 | 2 | 0.0300 | 0.0425 | 192 of 270 |
 | 3 | 0.0277 | 0.0400 | 191 of 270 |
 
-**Training a two-number linear autoencoder by gradient descent (our calculation)**
-
 | Training step | Mean squared error |
-|---|---|
+| --- | --- |
 | Random start | 0.011495 |
 | After 1,000 epochs | 0.006284 |
 | After 30,000 epochs | 0.006155 |
@@ -112,14 +94,14 @@ Bankstown is among the three hardest stations to rebuild at every bottleneck siz
 
 The profiles, components, errors, ranks and training run are our own calculations from the Transport for NSW file, with 26 train stations left out because at least one month was missing or published only as "Less than 50". The weights start from a fixed random seed so that learners can reproduce every number.
 
+Burwood Station
+
 ## A quieter January, a busier 2026
 
 Read directly from the published monthly entries for Burwood Station.
 
-**Burwood Station entries, October 2024 to August 2026**
-
 | Month or measure | Entries |
-|---|---|
+| --- | --- |
 | Lowest month, January 2025 | 418,631 |
 | Highest month, March 2026 | 563,430 |
 | August 2026 | 553,354 |
@@ -141,6 +123,8 @@ Use reconstruction error to flag unusual records in work data, and learn when a 
 
 Transport for NSW, the NSW Department of Education, Burwood Council and the statistics bureau publish this open data and are not associated with Modern Age Coders. The modelling belongs to us.
 
+Around Burwood
+
 ## A first teacher in 1858
 
 From the NSW schools file, the station counts and the 2027 school calendar.
@@ -157,16 +141,41 @@ Croydon Public School follows in 1884 and Croydon Park Public School in 1886, wi
 
 Croydon Station counted 58,449 entries in August 2026, about a tenth of Burwood Station's 553,354.
 
-**School year 2027** NSW Eastern division Term 3 runs from Tuesday 20 July to Friday 24 September 2027, and Term 4 from Tuesday 12 October to Monday 20 December. Group lessons follow those breaks.
+School year 2027
+
+NSW Eastern division Term 3 runs from Tuesday 20 July to Friday 24 September 2027, and Term 4 from Tuesday 12 October to Monday 20 December. Group lessons follow those breaks.
+
+Learning ladder
 
 ## From a first loop to a trained network
 
 The age bands are only a guide; the trial lesson decides.
 
-- **Ages 6 to 12: Thinking like a programmer** Scratch and puzzles that build sequencing, patterns and debugging. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 13 to 15: Python foundations** Python done properly, then the maths that machine learning leans on. [Python for Teens](/courses/python-complete-masterclass-teens), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 15 to 18: Machine learning** Models built from first principles and tested honestly. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **University and adult: Deep learning and data** Neural networks, dimensionality reduction and full data projects. [Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college), [Data Science Course](/courses/data-science-complete-masterclass-college)
+Ages 6 to 12
+
+### Thinking like a programmer
+
+Scratch and puzzles that build sequencing, patterns and debugging.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 13 to 15
+
+### Python foundations
+
+Python done properly, then the maths that machine learning leans on.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Maths Through Coding](/courses/maths-through-coding)Ages 15 to 18
+
+### Machine learning
+
+Models built from first principles and tested honestly.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)University and adult
+
+### Deep learning and data
+
+Neural networks, dimensionality reduction and full data projects.
+
+[Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college)[Data Science Course](/courses/data-science-complete-masterclass-college)Coding and AI
 
 ## With AI libraries a click away, why train a Burwood learner to build one by hand?
 
@@ -178,30 +187,139 @@ Learners who have watched Burwood's error fall from 0.0355 to 0.0300 also learn 
 
 In 2026 anyone can import a neural network, and the Burwood learner who knows when it is secretly a straight line is the one who designs one that is not. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live lessons for Burwood, Croydon and Enfield homes
 
 Schools in the council area have addresses in Burwood, Croydon, Croydon Park and Enfield; an online class serves each equally.
 
-- **Code together** Learner and teacher work in the same notebook, so every line of a model is written and explained live.
-- **Fits the NSW year** Topics match the NSW stages, and lessons break when the state school holidays begin.
-- **A free lesson first** The trial is a full lesson, finishing with a recommended course, level and time and no charge.
-- **Groups** Fifteen to twenty learners at one level per group, or one to one if preferred.
-- **Steady schedule** Two set lessons each week, around eight per month.
-- **Teachers in India** A 7pm Burwood lesson in daylight saving time begins at 1:30pm India time; in winter, at 2:30pm there.
+### Code together
 
-**Sydney time, always** Daylight saving in Sydney begins on Sunday 4 October 2026 and ends on Sunday 4 April 2027, while India stays on one time all year. Lesson times are given in Sydney time.
+Learner and teacher work in the same notebook, so every line of a model is written and explained live.
+
+### Fits the NSW year
+
+Topics match the NSW stages, and lessons break when the state school holidays begin.
+
+### A free lesson first
+
+The trial is a full lesson, finishing with a recommended course, level and time and no charge.
+
+### Groups
+
+Fifteen to twenty learners at one level per group, or one to one if preferred.
+
+### Steady schedule
+
+Two set lessons each week, around eight per month.
+
+### Teachers in India
+
+A 7pm Burwood lesson in daylight saving time begins at 1:30pm India time; in winter, at 2:30pm there.
+
+Sydney time, always
+
+Daylight saving in Sydney begins on Sunday 4 October 2026 and ends on Sunday 4 April 2027, while India stays on one time all year. Lesson times are given in Sydney time.
+
+Fees
 
 ## What Burwood learners pay
 
 A free start and two monthly options.
 
-- First class: USD 0. The opening lesson is free and ends with a plan.
-- Group tuition: USD 100 a month. Group format: around eight lessons a month among fifteen to twenty learners.
-- Private tuition: USD 150 a month. One-to-one format: around eight lessons a month with your own teacher.
+First class**USD 0**
+
+The opening lesson is free and ends with a plan.
+
+Group tuition**USD 100**
+
+Group format: around eight lessons a month among fifteen to twenty learners.
+
+Private tuition**USD 150**
+
+One-to-one format: around eight lessons a month with your own teacher.
 
 Learners outside India pay in US dollars, so Burwood fees match everywhere else and there is no area-specific list. You pay only after the trial, once the course and time are decided; holidays, missed lessons and changes of format are set out on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Burwood.)Reviews
+
+## Google reviews from our families
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Burwood lesson
+
+Share the learner's age and interests. A Year 11 student could begin by normalising station profiles; an adult could start by training the autoencoder.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Burwood one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Burwood.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Burwood AI and programming questions
+
+What Burwood families and adult learners ask most often.
 
 ### How many people live in the Burwood Council area?
 
@@ -243,10 +361,14 @@ The first lesson is free. After that a group place is USD 100 a month for two li
 
 By level, pace and goals, in groups of fifteen to twenty, regardless of age or location. One-to-one lessons are available when no group time works.
 
+Explore Sydney and NSW
+
 ## More for Burwood learners
 
 Neighbouring [Strathfield](/online-coding-and-python-classes-in-strathfield-sydney) has a page on percentile ranks, and [Ku-ring-gai](/ai-and-programming-classes-in-ku-ring-gai-sydney) one on lasso regression. For the wider picture, see the [Sydney coding classes page](/best-coding-classes-in-sydney) or [classes across New South Wales](/coding-and-ai-classes-in-new-south-wales).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Burwood.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-burwood-sydney](https://learn.modernagecoders.com/ai-and-programming-classes-in-burwood-sydney#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-burwood-sydney*

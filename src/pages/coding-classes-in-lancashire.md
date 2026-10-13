@@ -4,46 +4,32 @@ description: "Live online coding, Python and maths classes across Lancashire, fr
 canonical: https://learn.modernagecoders.com/coding-classes-in-lancashire
 source: src/pages/coding-classes-in-lancashire.html
 ---
-> Lancashire is fourteen councils: the twelve districts of Lancashire County Council plus Blackpool and Blackburn with Darwen. At the 2021 Census they held 1,531,128 people between them, by our own addition of the fourteen published counts. Blackpool and Blackburn are the two largest towns, then Preston, Burnley and Lancaster. Our teachers work live over video from India, and we put each learner in a class by what they can already do, not by the year on their birth certificate. Anyone aged 6 to 67 is welcome, in groups of fifteen to twenty or one-to-one, for coding, Python, game making, AI and maths. The Lancashire project comes from the Blackpool Illuminations. The first lesson costs nothing; after that a group place is USD 100 a month and private teaching USD 150 a month.
+> Live online coding, Python and maths classes across Lancashire, from Blackpool, Blackburn and Preston to Burnley, Lancaster, Chorley, Leyland and Accrington.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Lancashire
-
-Lancashire / Live online
-
-# Coding classes in Lancashire
-
-**What are the best coding classes in Lancashire?** Lancashire is fourteen councils: the twelve districts of Lancashire County Council plus Blackpool and Blackburn with Darwen. At the 2021 Census they held 1,531,128 people between them, by our own addition of the fourteen published counts. Blackpool and Blackburn are the two largest towns, then Preston, Burnley and Lancaster. Our teachers work live over video from India, and we put each learner in a class by what they can already do, not by the year on their birth certificate. Anyone aged 6 to 67 is welcome, in groups of fifteen to twenty or one-to-one, for coding, Python, game making, AI and maths. The Lancashire project comes from the Blackpool Illuminations. The first lesson costs nothing; after that a group place is USD 100 a month and private teaching USD 150 a month.
-
-Visit Blackpool says the Illuminations began in 1879 with "just eight arc lamps" on the Promenade, and that today the display uses "one million lamps of various types and styles". Every picture in a tableau is built from lamps, and a lamp that can only be on or off cannot show a gentle sunset directly. Something has to decide which lamps to light. This page's project hands that decision to Python, tries three ways of making it, and measures the results two ways. The method that is most accurate lamp by lamp turns out to be the one that looks worst from the Promenade, which is a lesson about measuring the right thing that reaches far beyond lights.
-
-Facts last verified 26 September 2026. Teaching is online; no Lancashire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Lancashire
 
 ## Where Lancashire learners usually start
 
 A nine-year-old in Chorley who draws pixel characters, a Year 8 in Burnley who likes puzzles with numbers, a Year 12 in Lancaster curious about how computers see pictures, and a parent in Blackpool retraining at the kitchen table. Each begins with a free lesson.
 
-- [Game Development for Kids](/courses/game-development-masterclass-for-kids) (Ages 8 to 12): Scratch games first, then Roblox and Minecraft worlds, with a unit on pixel art in Piskel and colour for games.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): Maths learned by programming it, so averages, fractions and grids become Python projects.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 18): Python to real machine learning, including computer vision that starts from how a computer turns pixels into features.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Adults): Python from a first line to advanced projects, for adults learning around work and family.
+[![Game Development for Kids course thumbnail](/images/game-dev-kids.webp)Ages 8 to 12Game Development for KidsScratch games first, then Roblox and Minecraft worlds, with a unit on pixel art in Piskel and colour for games.See the syllabus](/courses/game-development-masterclass-for-kids)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingMaths learned by programming it, so averages, fractions and grids become Python projects.See the syllabus](/courses/maths-through-coding)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 18AI and Machine Learning for TeensPython to real machine learning, including computer vision that starts from how a computer turns pixels into features.See the syllabus](/courses/ai-ml-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)AdultsPython MasterclassPython from a first line to advanced projects, for adults learning around work and family.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Lancashire in figures
 
 ## 1,531,128 people across fourteen councils
 
 Council counts are from the 2021 Census on Nomis; the county total is our sum of them. Towns are ONS built-up areas, each compared with our own addition of census output areas.
 
-**The twelve largest built-up areas wholly inside Lancashire, 2021 Census**
-
 | Town | Residents | Town | Residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Blackpool | 149,070 | Lytham St Anne's | 42,695 |
 | Blackburn | 124,955 | Bamber Bridge | 40,360 |
 | Preston | 94,490 | Chorley | 39,535 |
@@ -57,16 +43,16 @@ The ONS draws its town lines tightly, so Fulwood is counted apart from Preston, 
 
 Two Lancashire cities already have their own pages: [Preston](/best-coding-class-in-preston) and [Lancaster](/best-coding-class-in-lancaster). This page covers everyone else, from the Fylde coast to Pendle and Rossendale.
 
+The Lancashire project
+
 ## Drawing a sunset with lamps that are only on or off
 
 A model tableau of 4,608 lamps, three ways to choose which ones to light, and two ways to score them.
 
 The learner builds a grid of 48 rows by 96 lamps, 4,608 in all, and paints on it a smooth picture of our own that runs from dim on the left to bright on the right. Averaged over the whole grid the picture is 36.65 per cent bright, so a faithful version should light about 1,689 lamps. Three methods then decide which lamps go on. The simplest rounds each lamp to the nearer of on or off. The second compares each lamp with a fixed repeating four-by-four pattern, the Bayer ordered method. The third, Floyd-Steinberg error diffusion, rounds a lamp and then hands its rounding error to the four neighbours still to be decided, in shares of 7, 5, 3 and 1 sixteenths.
 
-**Our model tableau, two brightness levels (off or on): results computed 26 September 2026**
-
 | Method | Lamps lit (target about 1,689) | Average error per lamp | Error seen from a distance |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Round each lamp | 1,008 | 0.308 | 0.293 |
 | Bayer ordered pattern | 1,548 | 0.400 | 0.056 |
 | Floyd-Steinberg | 1,679 | 0.405 | 0.028 |
@@ -91,14 +77,14 @@ Add the Bayer matrix, write the blur, score all three methods both ways, and exp
 
 The dates and numbers about the Illuminations come from Visit Blackpool. The grid, the picture and every result in the table are our own teaching model. We do not know how the Illuminations team designs its tableaux and make no claim that it uses any of these methods.
 
+Why Blackpool
+
 ## From eight arc lamps to a million, along the Promenade
 
 The Lancashire link, in Visit Blackpool's own facts.
 
-**The Blackpool Illuminations, as Visit Blackpool describes them**
-
 | When or what | Visit Blackpool says |
-|---|---|
+| --- | --- |
 | 1879 | Visitors first came to see the lights, when just eight arc lamps lit the Promenade. |
 | May 1912 | The first displays close to today's were staged for the first royal visit, by Princess Louise. |
 | By 1932 | Animated tableaux had been added, on the cliffs between North Shore and Bispham. |
@@ -110,16 +96,41 @@ Visit Blackpool also describes Lightworks, the Illuminations depot, where twenty
 
 Modern Age Coders has no link with the Blackpool Illuminations, Visit Blackpool, Blackpool Council or Lancashire County Council. The facts quoted belong to their sources; the model tableau, its numbers and any mistakes are ours.
 
-**Nearby pages** [Cumbria](/coding-classes-in-cumbria) lies to the north and [Greater Manchester](/coding-classes-in-greater-manchester) to the south, with [Liverpool](/best-coding-class-in-liverpool) across the Merseyside border.
+Nearby pages
+
+[Cumbria](/coding-classes-in-cumbria) lies to the north and [Greater Manchester](/coding-classes-in-greater-manchester) to the south, with [Liverpool](/best-coding-class-in-liverpool) across the Merseyside border.
+
+The path
 
 ## From pixel art to computers that see
 
 The free lesson settles where a learner starts. Age suggests a stage; what they can do decides it.
 
-- **Ages 6 to 10: Pictures and games** Block coding with sprites, colours and simple games, where a grid of squares first becomes a picture. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 8 to 13: Worlds and numbers** Game making in Scratch, Roblox and Minecraft, alongside Python that handles grids, averages and counts. [Game Development for Kids](/courses/game-development-masterclass-for-kids), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 18: Images as data** Python that treats a picture as numbers, then machine learning and computer vision built on that idea. [Python for Teens](/courses/python-complete-masterclass-teens), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **Ages 18 to 67: Skills for work** Python from the start and on to automation and data, for adults building a new skill in the evenings. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### Pictures and games
+
+Block coding with sprites, colours and simple games, where a grid of squares first becomes a picture.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 8 to 13
+
+### Worlds and numbers
+
+Game making in Scratch, Roblox and Minecraft, alongside Python that handles grids, averages and counts.
+
+[Game Development for Kids](/courses/game-development-masterclass-for-kids)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 18
+
+### Images as data
+
+Python that treats a picture as numbers, then machine learning and computer vision built on that idea.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)Ages 18 to 67
+
+### Skills for work
+
+Python from the start and on to automation and data, for adults building a new skill in the evenings.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)AI and measuring the right thing
 
 ## Ask an AI for the most accurate version. Accurate by which measure?
 
@@ -131,30 +142,139 @@ Machine learning runs on the same choice. Every model is trained to reduce some 
 
 So a young person in Lancashire should learn to code in 2026 to be the one who chooses what an AI is asked to get right. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How lessons run
+
 ## Morecambe Bay to the Pennine towns, from one laptop
 
 A county this wide has long evening journeys between towns. Online lessons skip them all.
 
-- **From any Lancashire home** A back bedroom in Accrington, a dining table in Ormskirk, a study in Clitheroe. The teacher shares a screen and the learner writes the code.
-- **The English school words** Key stages, year groups, GCSEs and A levels are used exactly as Lancashire schools use them, and every lesson is in English.
-- **First lesson on us** A real lesson with real work, followed by a straight answer about level and course. We never ask for card details at this point.
-- **Peers at your stage** Groups of fifteen to twenty who are at the same point, drawn from Lancashire, the rest of the UK and further away.
-- **Your breaks, your calendar** Most learners take two lessons a week, and we pause for whatever holidays your school sets.
-- **Times set in UK time** Lesson times are fixed in UK time all year, and the teacher in India time, several hours ahead, adjusts when the UK clocks change.
+### From any Lancashire home
 
-**Why levels matter more than towns** Even a large town rarely has five learners at exactly the same stage who are free on the same evening. Grouping by level lets a learner in Bacup or Fleetwood join a class that fits.
+A back bedroom in Accrington, a dining table in Ormskirk, a study in Clitheroe. The teacher shares a screen and the learner writes the code.
+
+### The English school words
+
+Key stages, year groups, GCSEs and A levels are used exactly as Lancashire schools use them, and every lesson is in English.
+
+### First lesson on us
+
+A real lesson with real work, followed by a straight answer about level and course. We never ask for card details at this point.
+
+### Peers at your stage
+
+Groups of fifteen to twenty who are at the same point, drawn from Lancashire, the rest of the UK and further away.
+
+### Your breaks, your calendar
+
+Most learners take two lessons a week, and we pause for whatever holidays your school sets.
+
+### Times set in UK time
+
+Lesson times are fixed in UK time all year, and the teacher in India time, several hours ahead, adjusts when the UK clocks change.
+
+Why levels matter more than towns
+
+Even a large town rarely has five learners at exactly the same stage who are free on the same evening. Grouping by level lets a learner in Bacup or Fleetwood join a class that fits.
+
+Fees
 
 ## Fees in Lancashire
 
 Skelmersdale or Colne, the price does not change, and it is the same outside India wherever you live.
 
-- First class: USD 0. One complete lesson with real work, then our honest view of the right level and course.
-- Group tuition: USD 100 a month. Roughly eight lessons each month, in a group of fifteen to twenty at one level.
-- Private tuition: USD 150 a month. Roughly eight lessons each month, with a teacher to themselves.
+First class**USD 0**
+
+One complete lesson with real work, then our honest view of the right level and course.
+
+Group tuition**USD 100**
+
+Roughly eight lessons each month, in a group of fifteen to twenty at one level.
+
+Private tuition**USD 150**
+
+Roughly eight lessons each month, with a teacher to themselves.
 
 We quote and bill in US dollars and do not publish prices in pounds. Billing only starts once the free lesson has settled a course and a weekly slot; the pricing page covers pauses, missed lessons and moving between group and private classes.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Lancashire%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Reviews
+
+## Google reviews from families we teach
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Lancashire lesson
+
+Tell us an age or school year and what the learner enjoys. A first lesson might be a Scratch game, a Python grid, or the lamp picture on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Lancashire one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Lancashire%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Lancashire questions
+
+The county, the Blackpool project and the practical side.
 
 ### How many people live in Lancashire?
 
@@ -196,10 +316,14 @@ Nothing for the first lesson. After that, a group place is USD 100 a month and o
 
 Lancashire County Council, Blackpool, Blackburn with Darwen and academy trusts each set dates. Tell us yours and we plan breaks around them.
 
+Nearby
+
 ## Other North West pages
 
 Start with [Preston](/best-coding-class-in-preston) or [Lancaster](/best-coding-class-in-lancaster) inside the county, then [Greater Manchester](/coding-classes-in-greater-manchester) and [Cumbria](/coding-classes-in-cumbria) next door. The [UK hub](/coding-classes-in-united-kingdom) lists the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Lancashire%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-lancashire](https://learn.modernagecoders.com/coding-classes-in-lancashire#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-lancashire*

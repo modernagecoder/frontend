@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes across the province of U
 canonical: https://learn.modernagecoders.com/coding-classes-in-utrecht-province
 source: src/pages/coding-classes-in-utrecht-province.html
 ---
-> Coding classes in the province of Utrecht serve 1,415,104 people in 26 municipalities (Statistics Netherlands, 1 January 2026), of whom 378,121 live in the city that shares the province's name and has a page of its own. The province is the smallest of the twelve by total area, the second smallest by land, the fifth by population and the third by density, and which of those a person quotes tells you what they wanted to say. From Renswoude to the city itself the offer is one class, live online, in English, for learners from 6 to 67, with the first lesson free and a monthly fee of USD 100 for a group of fifteen to twenty or USD 150 for private tuition.
+> Live online coding, Python and AI classes across the province of Utrecht, ages 6 to 67: Amersfoort, Veenendaal, Nieuwegein, Zeist, Houten, Woerden and 20 more towns.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / the province of Utrecht
-
-Province of Utrecht / Live online
-
-# Coding classes in the province of Utrecht, the smallest province in the country on one measure and the fifth largest on another
-
-**What are the best coding classes in the province of Utrecht?** Coding classes in the province of Utrecht serve 1,415,104 people in 26 municipalities (Statistics Netherlands, 1 January 2026), of whom 378,121 live in the city that shares the province's name and has a page of its own. The province is the smallest of the twelve by total area, the second smallest by land, the fifth by population and the third by density, and which of those a person quotes tells you what they wanted to say. From Renswoude to the city itself the offer is one class, live online, in English, for learners from 6 to 67, with the first lesson free and a monthly fee of USD 100 for a group of fifteen to twenty or USD 150 for private tuition.
-
-"Utrecht is the smallest province" is a sentence everyone in Amersfoort or Veenendaal has heard, and it is true, on exactly one of the four measures a province is normally ranked by. On the other three it is second, fifth and third. A child who can build the small program that produces all four rankings from the same twelve rows has learned what a superlative is worth, which is nothing until its measure is named.
-
-Facts last verified 7 September 2026. Teaching is online; no the province of Utrecht branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for the province of Utrecht
 
 ## Four courses for a province of commuter towns and one old city
 
 A child in Houten, a teenager in Amersfoort, a student at the Hogeschool in Utrecht and a working parent in Nieuwegein: four doors, chosen so that a province built around one city has something for the twenty-five municipalities that are not it.
 
-- [Game Development for Kids](/courses/game-development-masterclass-for-kids) (Ages 8 to 12): Scratch, Roblox and Minecraft games, in English, for the groep 5 to 8 child in Zeist or Leusden who already builds worlds for fun.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Two years from a blank file to advanced Python, whether or not the school in Amersfoort or Veenendaal timetables informatica.
-- [Full Stack Developer Course](/courses/full-stack-web-development-masterclass-college) (College and adult): React, Node and deployment for the HU or UU student who wants something running at a public address before graduation.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (Adults): Excel, SQL, Python and Power BI for the commuter on the A12 or the A27 whose job is a spreadsheet nobody else understands.
+[![Game Development for Kids course thumbnail](/images/game-dev-kids.webp)Ages 8 to 12Game Development for KidsScratch, Roblox and Minecraft games, in English, for the groep 5 to 8 child in Zeist or Leusden who already builds worlds for fun.See the syllabus](/courses/game-development-masterclass-for-kids)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensTwo years from a blank file to advanced Python, whether or not the school in Amersfoort or Veenendaal timetables informatica.See the syllabus](/courses/python-complete-masterclass-teens)[![Full Stack Developer Course course thumbnail](/images/full-stack-development-college.webp)College and adultFull Stack Developer CourseReact, Node and deployment for the HU or UU student who wants something running at a public address before graduation.See the syllabus](/courses/full-stack-web-development-masterclass-college)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)AdultsData Analysis CourseExcel, SQL, Python and Power BI for the commuter on the A12 or the A27 whose job is a spreadsheet nobody else understands.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)The province today
 
 ## One city, twenty-five towns, and a province that has grown by a third in thirty years
 
@@ -52,7 +40,11 @@ Utrecht city holds 378,121 people, 26.7 percent of the province, and has its own
 
 At 949 residents per square kilometre of land the province is the third densest in the country, behind only Zuid-Holland and Noord-Holland, and ahead of Noord-Brabant by a factor of almost two. It does not feel that way in the Lopikerwaard, which is the point of the project below.
 
-**A capital that is also the province** Utrecht is the only Dutch province whose capital carries the province's exact name, which is why this page has "province" in its address. A search for Utrecht schools, Utrecht population or Utrecht coding classes returns two different places, and the city page and this one are careful to say which they mean.
+A capital that is also the province
+
+Utrecht is the only Dutch province whose capital carries the province's exact name, which is why this page has "province" in its address. A search for Utrecht schools, Utrecht population or Utrecht coding classes returns two different places, and the city page and this one are careful to say which they mean.
+
+The spread
 
 ## From the Vecht to the Lek: all 26 municipalities, by population
 
@@ -84,6 +76,8 @@ Woerden 54,199; Lopik 14,802; Montfoort 13,795; Oudewater 10,513. The Groene Har
 
 All 26 are above. The city page zooms in; this one stays at the scale where Montfoort is visible.
 
+Verified local facts
+
 ## The offices and dates behind every figure on this page
 
 Including the twelve-row table the project is built from.
@@ -114,6 +108,8 @@ The province of Utrecht takes its school holidays with regio Midden, alongside Z
 
 The province, its 26 municipalities and their schools are named here because a page claiming to serve them should be able to list them; none has any connection with Modern Age Coders and none is implied.
 
+Signature project
+
 ## Smallest, second smallest, fifth, third: build the program that ranks one province four ways from the same twelve rows
 
 Twelve provinces, four columns, and a superlative that is true in one column and false in the other three.
@@ -130,10 +126,8 @@ The learner sorts the same table four times. By total area Utrecht comes last: 1
 
 "Utrecht is the smallest province" survives only with "by total area" attached. "Utrecht is a small province" is false by population, where it is in the top half, and by density, where it is nearly at the top. Every province has a column in which it looks impressive and one in which it does not, and the learner finds both for all twelve.
 
-**The province of Utrecht in the table of twelve, end of 2025: one row, four rankings**
-
 | Measure | Utrecht's figure | Rank among the twelve | Who is at the extreme |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Total area, including water | 1,560.05 km2 | 12th of 12, the smallest | Friesland largest at 5,748.77 |
 | Land area | 1,485.46 km2 | 11th of 12 | Flevoland smallest at 1,411.63; Gelderland largest at 4,963.71 |
 | Population | 1,415,322 | 5th of 12 | Zuid-Holland largest at 3,882,709; Zeeland smallest at 394,514 |
@@ -143,14 +137,14 @@ The learner sorts the same table four times. By total area Utrecht comes last: 1
 
 Smallest, largest, densest, fastest-growing: each is a rank, each rank belongs to a column, and the same row can be first in one column and last in another. The sentence "Utrecht is the smallest province" is not wrong; it is incomplete in a way that lets the reader supply the wrong column. A learner who has sorted the twelve rows four ways will ask "by what?" of every superlative they meet, from "the biggest market" to "the best school", and will usually find that the answer changes the sentence. The table was computed before this paragraph was written; every figure is from the published table of provinces and the ranks are a sort.
 
+Reliable pipeline
+
 ## Five habits for any sentence with a superlative in it
 
 Biggest customer, top school, leading market, smallest team: every one of them is a rank on a column somebody chose. Rehearsed on the province's own row before anything from work.
 
-**When a claim is a rank in disguise**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Name the column | Attach "by what" to every superlative before repeating it | Smallest by area read as small by people | A claim that can be checked |
 | Rank every column | Sort the same table by each measure and keep all the orders | One flattering order presented as the order | The whole picture |
 | Find the contradiction | Look for the row that is first in one column and last in another | A superlative that hides its opposite | The most interesting fact in the table |
@@ -171,14 +165,37 @@ The same program on a customer list, a branch league or a product range from wor
 
 The provincial totals, the 26 municipal populations, the areas and the twelve-province table are published by the offices and the encyclopaedia entry named in the sentences that use them. The four rankings are sorts of the published table and nothing on this page derives a Utrecht figure that no office has published.
 
+Learning ladder
+
 ## From twelve cards to a ranking function that names its column
 
 Where a learner starts is found in the free lesson; where they live has no bearing.
 
-- **Ages 6 to 10: Smallest by what** Children line up twelve cards two ways and find the one that moves the most. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Game Development for Kids](/courses/game-development-masterclass-for-kids)
-- **Ages 11 to 13: Four sorts of one table** Learners sort a list by four columns in Python and compare the orders. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 14 to 18: Best column, worst column** Teenagers write the function that finds where any row ranks best and worst, and defend a sentence. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Superlatives at work** Adults rebuild a league from their own field with every column ranked, not only the flattering one. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Full Stack Developer Course](/courses/full-stack-web-development-masterclass-college)
+Ages 6 to 10
+
+### Smallest by what
+
+Children line up twelve cards two ways and find the one that moves the most.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Game Development for Kids](/courses/game-development-masterclass-for-kids)Ages 11 to 13
+
+### Four sorts of one table
+
+Learners sort a list by four columns in Python and compare the orders.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### Best column, worst column
+
+Teenagers write the function that finds where any row ranks best and worst, and defend a sentence.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Superlatives at work
+
+Adults rebuild a league from their own field with every column ranked, not only the flattering one.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Full Stack Developer Course](/courses/full-stack-web-development-masterclass-college)Coding and AI
 
 ## An AI will tell a child in Amersfoort that Utrecht is the smallest province. Why teach the child to check?
 
@@ -190,30 +207,139 @@ That is what the class trains, and it is why the sorting is still done by the le
 
 So for a parent in the province of Utrecht the case for coding in 2026 is not that the child will sort tables for a living. It is that knowing a superlative is a rank in a column, and that the column is a choice, is a skill that transfers to every claim the child will ever be sold, and it is taught in only one known way: the learner builds the table and sorts it four times. The longer argument is in [is coding still worth learning in 2026, now that AI writes it](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for a province where every road leads to one station
 
 The province is built like a wheel: the city at the hub, the towns on the spokes, and Utrecht Centraal at the centre of the country's railway. A child in Woerden or Wijk bij Duurstede does not need the wheel for a class that comes to the house.
 
-- **Not one more journey through the hub** The lesson happens at home in Houten, Soest or Vianen at a fixed hour. The A12, the A27 and the train through Utrecht Centraal are for other things.
-- **Lessons in English, school words in Dutch** Groep, havo, vwo and profielkeuze keep their Dutch form; everything around them is said in English, the language the province's international families use with each other.
-- **The free hour, and what comes out of it** One task at the learner's level, then a course name and a start rung, arranged without a card.
-- **Grouped by ability, not by postcode** What a learner can already do decides the group; Eemland or Lopikerwaard does not.
-- **Two lessons a week on regio Midden's calendar** The province takes its school holidays with regio Midden, so the summer weeks fall in the same fortnight as Zuid-Holland's and a different one from Noord-Holland's in most years. They are agreed before the slot is fixed.
-- **Half past four here is nine in India, or eight** Indian Standard Time does not shift and Dutch time does, so an afternoon in Zeist runs four and a half hours behind the teacher's evening in winter and three and a half in summer; late afternoons, early evenings and weekends are the hours that fit both.
+### Not one more journey through the hub
 
-**The province the whole country passes through** Because every railway line crosses the province, families here are used to being on the way to somewhere. A class fixed to a weekly time in the household's own calendar is the one appointment that does not involve a platform.
+The lesson happens at home in Houten, Soest or Vianen at a fixed hour. The A12, the A27 and the train through Utrecht Centraal are for other things.
+
+### Lessons in English, school words in Dutch
+
+Groep, havo, vwo and profielkeuze keep their Dutch form; everything around them is said in English, the language the province's international families use with each other.
+
+### The free hour, and what comes out of it
+
+One task at the learner's level, then a course name and a start rung, arranged without a card.
+
+### Grouped by ability, not by postcode
+
+What a learner can already do decides the group; Eemland or Lopikerwaard does not.
+
+### Two lessons a week on regio Midden's calendar
+
+The province takes its school holidays with regio Midden, so the summer weeks fall in the same fortnight as Zuid-Holland's and a different one from Noord-Holland's in most years. They are agreed before the slot is fixed.
+
+### Half past four here is nine in India, or eight
+
+Indian Standard Time does not shift and Dutch time does, so an afternoon in Zeist runs four and a half hours behind the teacher's evening in winter and three and a half in summer; late afternoons, early evenings and weekends are the hours that fit both.
+
+The province the whole country passes through
+
+Because every railway line crosses the province, families here are used to being on the way to somewhere. A class fixed to a weekly time in the household's own calendar is the one appointment that does not involve a platform.
+
+Fees
 
 ## What the twenty-six municipalities pay: nothing, then USD 100 or USD 150
 
 The whole tariff, printed before anyone is asked for a phone number.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 Dollars, one rate worldwide outside India, no euro edition, Zeist and Renswoude charged alike. Course and hour first, in the free lesson; money afterwards, over WhatsApp. The pricing page covers pauses, changes and missed lessons.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20the%20province%20of%20Utrecht.)Reviews
+
+## Six reviews, as Google shows them
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Give us the level; the town is optional
+
+The opening exercise could be twelve province cards, a Python table sorted four ways, or a league from work in which "biggest" has never been given its column.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented the province of Utrecht one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20the%20province%20of%20Utrecht.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Province of Utrecht coding class questions
+
+The province, its towns, the rankings, the teaching and the terms.
 
 ### Is Utrecht really the smallest province in the Netherlands?
 
@@ -255,10 +381,14 @@ The first lesson is free. Group tuition is USD 100 a month for two live lessons 
 
 Between five and ten, matched on level, pace and goal rather than on age, school or municipality. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.
 
+Explore the Netherlands
+
 ## Into the city, across to the neighbours, up to the country
 
 The city at the centre of this province has its own page: [coding classes in Utrecht](/coding-classes-in-utrecht). The neighbouring provinces with pages are [Noord-Holland](/coding-classes-in-noord-holland) and [Zuid-Holland](/coding-classes-in-zuid-holland), and the nearest city pages across the line are [Amsterdam](/coding-classes-in-amsterdam) and [Almere](/coding-classes-in-almere). Their common parent is the [Netherlands coding hub](/coding-classes-in-netherlands); a learner set on building models rather than programs should open [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20the%20province%20of%20Utrecht.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-utrecht-province](https://learn.modernagecoders.com/coding-classes-in-utrecht-province#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-utrecht-province*

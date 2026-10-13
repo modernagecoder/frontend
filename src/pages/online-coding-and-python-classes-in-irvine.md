@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and vibe coding lessons for Irvine,
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-irvine
 source: src/pages/online-coding-and-python-classes-in-irvine.html
 ---
-> North Ayrshire's largest locality by a wide margin is Irvine, with 34,130 people in the National Records of Scotland estimate for mid-2020. Girdle Toll, Bourtreehill, Fullarton and Dreghorn are among the suburbs on record in the KA11 and KA12 districts, with Perceton and Springside listed as villages. Coding, Python, AI, vibe coding and maths lessons come live from India-based tutors, for anyone six to 67, either solo or in a class of fifteen to twenty at a common stage. Reasoning comes first, so learners can see when a quick answer hides a wrong assumption. The first lesson costs nothing and ends with the course we would suggest. The Irvine project builds a 350.6 km walking network and draws the true 5, 10, 15 and 20 minute walks from the town centre, then compares them with the circles a simple calculation would draw. Staying on is USD 100 per month for group classes, or USD 150 per month for private teaching.
+> Live online coding, Python, AI and vibe coding lessons for Irvine, Girdle Toll, Bourtreehill and Dreghorn learners aged 6 to 67, taught live. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / Irvine
-
-Irvine, North Ayrshire, Scotland / Live online
-
-# Online coding and Python classes in Irvine
-
-**Which are the best online coding and Python classes in Irvine?** North Ayrshire's largest locality by a wide margin is Irvine, with 34,130 people in the National Records of Scotland estimate for mid-2020. Girdle Toll, Bourtreehill, Fullarton and Dreghorn are among the suburbs on record in the KA11 and KA12 districts, with Perceton and Springside listed as villages. Coding, Python, AI, vibe coding and maths lessons come live from India-based tutors, for anyone six to 67, either solo or in a class of fifteen to twenty at a common stage. Reasoning comes first, so learners can see when a quick answer hides a wrong assumption. The first lesson costs nothing and ends with the course we would suggest. The Irvine project builds a 350.6 km walking network and draws the true 5, 10, 15 and 20 minute walks from the town centre, then compares them with the circles a simple calculation would draw. Staying on is USD 100 per month for group classes, or USD 150 per month for private teaching.
-
-Ask how much of a town lies within a ten-minute walk and the quick answer is a circle: ten minutes at walking pace, about 800 metres, drawn around the starting point. Real walks follow streets and paths, cross rivers only at bridges and go round railways, so the true reachable area, called an isochrone, is smaller and oddly shaped. Planners use isochrones to judge access to shops, schools and stations, and apps draw them for travel times. This project builds one from scratch in Python, starting from the point OpenStreetMap uses to label Irvine and counting how many of the town's 10,769 mapped buildings each walk really reaches.
-
-Facts last verified 29 September 2026. Teaching is online; no Irvine branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentIrvine course picks
 
 ## Irvine courses in thinking, Python and AI
 
 Pick by age and interest. Every course begins with a live lesson that is free and asks for no card.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think course: routes, maps and the difference between near and reachable.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games planned by the learner, built with AI help and tested carefully.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python from first programs to maps and graphs, including the Irvine walking study.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Students and adults): Python for data, networks, mapping and AI agents.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think course: routes, maps and the difference between near and reachable.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games planned by the learner, built with AI help and tested carefully.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython from first programs to maps and graphs, including the Irvine walking study.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)Students and adultsPython MasterclassPython for data, networks, mapping and AI agents.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Irvine and North Ayrshire
 
 ## Irvine, Girdle Toll, Bourtreehill and Fullarton
 
 The NRS estimate for Irvine, and places recorded in KA11 and KA12.
 
-**Irvine in National Records of Scotland estimates**
-
 | Area | People |
-|---|---|
+| --- | --- |
 | Irvine locality, mid-2020 | 34,130 |
 
 Bourtreehill, Dreghorn, Fullarton and Girdle Toll are suburban areas of North Ayrshire on postcodes.io, in the KA11 and KA12 districts, with Perceton and Springside recorded as villages. North Ayrshire schools follow the Curriculum for Excellence; we plan by P and S year and give SQA Computing Science and Maths support through to Advanced Higher. Let us know the holiday weeks and lessons will steer clear of them.
@@ -52,16 +38,16 @@ Bourtreehill, Dreghorn, Fullarton and Girdle Toll are suburban areas of North Ay
 
 See [coding classes in North Ayrshire](/coding-classes-in-north-ayrshire), [Kilmarnock](/vibe-coding-and-ai-agents-classes-in-kilmarnock) and [National 5 Maths tuition](/national-5-maths-tuition-online). Why we build reasoning before tool use is on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Irvine project
+
 ## Isochrones in Python: how far can you really walk from the centre of Irvine?
 
 A walking network, one starting point, four time limits and a circle for comparison.
 
 The learner downloads OpenStreetMap data over Irvine and keeps every way a pedestrian may use: 350.6 km of streets, paths and tracks, leaving out motorways and trunk roads. The start is the point OpenStreetMap uses to label the town, snapped to the nearest path. Dijkstra's algorithm finds the walking distance to every junction, and each of the 10,769 mapped buildings is given the distance of its nearest junction. At an assumed walking pace of 80 m a minute, 4.8 km/h, the program counts the buildings reachable within each time, and the buildings inside a straight-line circle of the same radius.
 
-**Buildings reachable on foot from the centre of Irvine, against a straight-line circle, our Python run on OpenStreetMap data**
-
 | Walking time | Circle radius | Reachable on foot | Inside the circle | Share of the circle reached |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | 5 minutes | 400 m | 20 | 152 | 13.2% |
 | 10 minutes | 800 m | 292 | 746 | 39.1% |
 | 15 minutes | 1,200 m | 1,065 | 1,991 | 53.5% |
@@ -87,14 +73,14 @@ Build isochrones with Dijkstra, count buildings reached and test how the walking
 
 Paths, streets and buildings are from OpenStreetMap and its contributors under the Open Database Licence. The start point, walking speed, network and counts are our own choices and calculations, not official accessibility statistics.
 
+Reach and AI
+
 ## What this teaches about vibe coding and AI agents
 
 Drawing a ring on a map is guessing; routing along the paths is measuring.
 
-**From the Irvine isochrones to working with AI**
-
 | In the walking project | When AI estimates distance or access |
-|---|---|
+| --- | --- |
 | 10 minutes reached 39.1% of the circle | Straight-line estimates can mislead badly |
 | 5 minutes reached 20 of 152 | Errors are largest at short range |
 | Barriers shaped the reachable area | Real constraints must be in the model |
@@ -105,14 +91,37 @@ Ask an AI assistant which homes are "within a ten-minute walk" of somewhere and 
 
 OpenStreetMap, National Records of Scotland and postcodes.io publish the open data we used; they have no involvement with Modern Age Coders, and the isochrones and any errors are ours.
 
+Stages
+
 ## From colouring maps to shortest-path code
 
 A P or S year gives us a starting guess; the trial lesson checks it.
 
-- **P1 to P7: How to think** Maps, routes and near versus reachable. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **P5 to S2: Vibe coding for kids** Games and small apps planned by the learner and built with AI help. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **S3 to S6: Python and networks** Graphs, Dijkstra and real map data beside SQA Computing Science. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)
-- **Adults: Python, maps and agents** Geospatial analysis and AI agents in Python. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
+P1 to P7
+
+### How to think
+
+Maps, routes and near versus reachable.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)P5 to S2
+
+### Vibe coding for kids
+
+Games and small apps planned by the learner and built with AI help.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)S3 to S6
+
+### Python and networks
+
+Graphs, Dijkstra and real map data beside SQA Computing Science.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)Adults
+
+### Python, maps and agents
+
+Geospatial analysis and AI agents in Python.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)Python and maps
 
 ## What is an isochrone, and how do you make one in Python?
 
@@ -124,30 +133,139 @@ Learners who have built that tool ask of any map an AI draws: is this distance a
 
 An Irvine teenager who can route along real paths will spot a lazy circle in an AI answer straight away, and Python is how they get there. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Girdle Toll to Fullarton, all online
 
 A computer, a camera and a connection able to carry video are all the equipment needed.
 
-- **Hands on the keys** The learner writes and runs everything while the tutor watches through screen share and asks what the result shows.
-- **Where to begin** The trial shows us, and if an SQA exam is coming we plan towards it.
-- **Nothing up front** We teach a full first session for free and then point to the right course.
-- **Grouped by ability** Each class has fifteen to twenty learners at one level, from across the country.
-- **Twice weekly in term** We stop when the schools do.
-- **Constant time** Tutors adjust for UK clock changes so your slot does not shift.
+### Hands on the keys
 
-**Why online** Five learners at one level, free on the same evening, rarely live near each other. Video removes the distance.
+The learner writes and runs everything while the tutor watches through screen share and asks what the result shows.
+
+### Where to begin
+
+The trial shows us, and if an SQA exam is coming we plan towards it.
+
+### Nothing up front
+
+We teach a full first session for free and then point to the right course.
+
+### Grouped by ability
+
+Each class has fifteen to twenty learners at one level, from across the country.
+
+### Twice weekly in term
+
+We stop when the schools do.
+
+### Constant time
+
+Tutors adjust for UK clock changes so your slot does not shift.
+
+Why online
+
+Five learners at one level, free on the same evening, rarely live near each other. Video removes the distance.
+
+Fees
 
 ## Irvine fees
 
 Irvine learners pay our international prices, used for every country apart from India.
 
-- First class: USD 0. A full lesson free of charge, then our recommendation.
-- Group tuition: USD 100 a month. About eight live group lessons each month.
-- Private tuition: USD 150 a month. About eight live one-to-one lessons each month.
+First class**USD 0**
+
+A full lesson free of charge, then our recommendation.
+
+Group tuition**USD 100**
+
+About eight live group lessons each month.
+
+Private tuition**USD 150**
+
+About eight live one-to-one lessons each month.
 
 Everything is priced in US dollars, not sterling. Once the trial has fixed a course and a regular time, billing begins; holidays, absences and format changes are covered on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20Python%20lesson%20for%20a%20learner%20in%20Irvine%3F)Reviews
+
+## Google reviews by Ayrshire families and UK learners
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Irvine lesson
+
+Give us an age or school year plus an interest, and the trial will be built round it: perhaps a walk-colouring map puzzle, an AI-assisted Scratch game, a first script in Python, or a real shortest path.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Irvine one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20Python%20lesson%20for%20a%20learner%20in%20Irvine%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Irvine questions
+
+Isochrones, the walking project, Python, vibe coding and practical details.
 
 ### What is the population of Irvine?
 
@@ -189,10 +307,14 @@ Trial free. Monthly after that: USD 100 in a group, USD 150 on your own.
 
 Yes, for school holidays; send us the dates.
 
+Nearby
+
 ## Other Ayrshire pages
 
 Different experiments on each: [North Ayrshire](/coding-classes-in-north-ayrshire), [Kilmarnock](/vibe-coding-and-ai-agents-classes-in-kilmarnock) (agents sharing work), [Ayr](/best-coding-and-ai-classes-in-ayr) and [South Ayrshire](/coding-classes-in-south-ayrshire). For the rest, use the [Scotland page](/coding-and-ai-classes-in-scotland) or the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20Python%20lesson%20for%20a%20learner%20in%20Irvine%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/online-coding-and-python-classes-in-irvine](https://learn.modernagecoders.com/online-coding-and-python-classes-in-irvine#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-irvine*

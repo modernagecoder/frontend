@@ -4,34 +4,28 @@ description: "NAPLAN Year 9 numeracy practice: the 65-minute test, the algebra i
 canonical: https://learn.modernagecoders.com/naplan-year-9-numeracy-practice
 source: src/pages/naplan-year-9-numeracy-practice.html
 ---
-> Year 9 NAPLAN numeracy is a 65-minute test with a short non-calculator section at the start and an online calculator for the rest. In 2027 it falls within the 10 to 22 March window. ACARA's Year 9 Strong description includes solving linear equations algebraically and evaluating an expression by substituting values for variables; Exceeding adds solving a linear equation algebraically and graphically.
+> NAPLAN Year 9 numeracy practice: the 65-minute test, the algebra in the Strong and Exceeding descriptions, and equation questions with checks written out in full.
 
-[Home](/) / [NAPLAN numeracy practice](/naplan-numeracy-practice-online) / Year 9 numeracy
+In short
 
-Australia · NAPLAN Year 9 numeracy · Live online
+Year 9 NAPLAN numeracy is a 65-minute test with a short non-calculator section at the start and an online calculator for the rest. In 2027 it falls within the 10 to 22 March window. ACARA's Year 9 Strong description includes solving linear equations algebraically and evaluating an expression by substituting values for variables; Exceeding adds solving a linear equation algebraically and graphically.
 
-# NAPLAN Year 9 numeracy practice
-
-Year 9 is the last time students sit NAPLAN, and the numeracy descriptions show why it matters beyond the test: at the Strong and Exceeding levels they read like a checklist for senior maths, with linear equations, index notation, rates, ratios and probability. The test runs 65 minutes and opens with a short section without a calculator. This page sets out what ACARA describes at the top two levels, then teaches the single habit that most protects a Year 9 algebra answer: substituting the solution back into the original equation. We teach numeracy only, and we promise no level.
-
-At a glance: Year level: Year 9; Numeracy time: 65 minutes; Structure: Short non-calculator section first; 2027 window: 10 to 22 March; Higher levels: Algebra, indices, rates and ratios; Our focus: Equations, checked every time; Not covered: Literacy tests; Promise: None about results. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three courses that match Year 9
 
 Each targets the algebra and reasoning the upper Year 9 levels describe.
 
-- [Algebra foundations](/courses/algebra-foundations-masterclass): Equations, expressions and substitution, built carefully from the start.
-- [Years 7 to 9 maths](/courses/comprehensive-middle-school-mathematics-mastery): Indices, rates, ratios, geometry and data in one course.
-- [High school maths](/courses/complete-high-school-mathematics-mastery): For students looking ahead to Year 10 and senior subjects.
+[![Algebra Foundations course thumbnail](/images/algebra-foundations.webp)  NY9 / 01 Algebra foundations Equations, expressions and substitution, built carefully from the start. Open the syllabus →](/courses/algebra-foundations-masterclass)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  NY9 / 02 Years 7 to 9 maths Indices, rates, ratios, geometry and data in one course. Open the syllabus →](/courses/comprehensive-middle-school-mathematics-mastery)[![High School Mathematics course thumbnail](/images/high-school-maths.webp)  NY9 / 03 High school maths For students looking ahead to Year 10 and senior subjects. Open the syllabus →](/courses/complete-high-school-mathematics-mastery)
+
+The Year 9 numeracy test
 
 ## The final NAPLAN numeracy test
 
 Details are ACARA's, from the NAPLAN website, as read on 7 October 2026.
 
-**Year 9 numeracy summary**
-
 | Point | ACARA's detail |
-|---|---|
+| --- | --- |
 | Running time | 65 minutes |
 | Sequence | Follows the conventions of language test |
 | Two sections | A short one without a calculator, then an online calculator for what remains |
@@ -49,14 +43,14 @@ Because it is the last NAPLAN, Year 9 results are often read alongside subject c
 
 Sources: [NAPLAN test window](https://www.nap.edu.au/naplan/key-dates/naplan-test-window); [What's in the tests](https://www.nap.edu.au/naplan/whats-in-the-tests). Checked on 7 October 2026. Modern Age Coders has no link to ACARA.
 
+Year 9 proficiency levels
+
 ## How much algebra the top two levels expect
 
 Every line below is quoted from ACARA's Year 9 numeracy descriptions. We grouped them by idea.
 
-**Year 9 Strong and Exceeding, selected lines (ACARA wording)**
-
 | Idea | Strong: the student can | Exceeding: the student can |
-|---|---|---|
+| --- | --- | --- |
 | Equations | solve linear equations algebraically | solve a linear equation algebraically and graphically |
 | Substitution | evaluate an expression using substitution of values for variables | evaluate a pronumeral using substitution into a formula |
 | Expressions | factorise expressions using numerical factors | expand and simplify an algebraic expression |
@@ -74,6 +68,8 @@ None of these lines is a promise or a target. They describe what students showed
 
 Source: [NAPLAN proficiency level descriptions, Numeracy Year 9](https://www.nap.edu.au/naplan/results-and-reports/proficiency-level-descriptions). Checked on 7 October 2026.
 
+Practice we wrote
+
 ## Back-substitution: check every solution
 
 Solve the equation, then put your answer back into the original equation, not into a later line of working. If both sides agree, the answer is right. If they do not, you know before the test does.
@@ -90,10 +86,8 @@ Work out the left side and the right side separately with your value, then compa
 
 Substitute into brackets first. For 5(x minus 2) with x = 9, the bracket is 7 and the side is 35.
 
-**Original Year 9 practice: solution, then the back-substitution check**
-
 | Question | Solution | Back-substitution check | Verdict |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Solve 3x + 7 = 31 | x = 8 | Left: 3 times 8, plus 7, is 31. Right: 31 | Correct |
 | Solve 5(x minus 2) = 35 | x = 9 | Left: 5 times 7 is 35. Right: 35 | Correct |
 | Solve 4x minus 9 = 2x + 15 | x = 12 | Left: 48 minus 9 is 39. Right: 24 + 15 is 39 | Correct |
@@ -106,6 +100,8 @@ Substitute into brackets first. For 5(x minus 2) with x = 9, the bracket is 7 an
 The fifth row is the reason the habit exists. The student who wrote x = 11 probably added 5 instead of subtracting it. Substituting 11 back gives 27, not 17, and the error is caught in a few seconds, before it decides which testlet comes next.
 
 The last two rows show that the same idea works beyond equations. A linear rule is checked by substituting the given points; a percentage change is checked by applying the multiplier to the starting value. In each case the student proves the answer rather than hoping.
+
+After Year 9
 
 ## From NAPLAN to senior maths
 
@@ -127,14 +123,14 @@ If algebra feels shaky in Year 9, fix it before Year 10. The gaps widen quickly 
 
 Look at senior subject choices with your school; we teach the maths but do not advise on subject selection.
 
+Algebra, step by step
+
 ## Four rungs through Years 8 to 10
 
 Students move at their own speed; the year levels are only rough markers.
 
-**Equation skills, rung by rung**
-
 | Rung | Description | Ready for the next rung when |
-|---|---|---|
+| --- | --- | --- |
 | 1. Substitution | Evaluates expressions for given values | Finds 3x + 7 when x = 8 without hesitation |
 | 2. One-sided equations | Solves equations with the unknown on one side | Solves 5(x minus 2) = 35 and checks it |
 | 3. Unknowns on both sides | Collects terms to one side first | Solves 4x minus 9 = 2x + 15 and checks both sides |
@@ -143,63 +139,293 @@ Students move at their own speed; the year levels are only rough markers.
 ### When algebra causes stress
 
 Algebra anxiety often comes from never being sure an answer is right. Back-substitution removes that uncertainty, which changes how a test feels.
+
 Short daily practice of a few equations, each checked, beats a long session the night before.
 
 ### Other year levels
 
 Proportion and the double number line from Year 7 are covered on [NAPLAN Year 7 numeracy](/naplan-year-7-numeracy-practice).
+
 The national overview, with dates and testlets, is on [NAPLAN numeracy practice](/naplan-numeracy-practice-online).
+
+Courses for Years 8 to 10
 
 ## Maths courses for the later middle years
 
 Grouped by focus. Open any card for its full syllabus.
 
+I
+
 ### Algebra
 
 Equations, expressions, graphs
 
-- [Algebra foundations](/courses/algebra-foundations-masterclass): Solving and checking equations properly.
-- [Middle years maths](/courses/comprehensive-middle-school-mathematics-mastery): The full Years 7 to 9 course.
-- [High school maths](/courses/complete-high-school-mathematics-mastery): Year 10 and the road to senior subjects.
+NY9 / A / 01
+
+#### Algebra foundations
+
+Solving and checking equations properly.
+
+[Open the syllabus](/courses/algebra-foundations-masterclass)
+
+NY9 / A / 02
+
+#### Middle years maths
+
+The full Years 7 to 9 course.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+NY9 / A / 03
+
+#### High school maths
+
+Year 10 and the road to senior subjects.
+
+[Open the syllabus](/courses/complete-high-school-mathematics-mastery)II
 
 ### Data and chance
 
 Statistics and probability
 
-- [Statistics and probability](/courses/statistics-probability-maths-course): Two-way tables, Venn diagrams and distributions.
-- [Mental maths](/courses/mental-maths-mastery-kids): Sharp arithmetic for the non-calculator section.
-- [Problem solving](/courses/problem-solving-and-computational-thinking-for-kids): Multi-step reasoning, broken into checks.
+NY9 / D / 01
+
+#### Statistics and probability
+
+Two-way tables, Venn diagrams and distributions.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)
+
+NY9 / D / 02
+
+#### Mental maths
+
+Sharp arithmetic for the non-calculator section.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+NY9 / D / 03
+
+#### Problem solving
+
+Multi-step reasoning, broken into checks.
+
+[Open the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)III
 
 ### Stretch
 
 For confident students
 
-- [Competition maths](/courses/olympiad-competition-mathematics-mastery): Harder problems for the keen.
-- [Vedic maths](/courses/vedic-maths-course-speed-calculation-mastery): Fast calculation with a check built in.
-- [Maths through coding](/courses/maths-through-coding): Equations and graphs explored in Python.
+NY9 / X / 01
+
+#### Competition maths
+
+Harder problems for the keen.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)
+
+NY9 / X / 02
+
+#### Vedic maths
+
+Fast calculation with a check built in.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
+
+NY9 / X / 03
+
+#### Maths through coding
+
+Equations and graphs explored in Python.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+How our classes run
 
 ## Evening classes that suit Year 9 schedules
 
 Our teachers live in India, which is behind every Australian state. In Melbourne during daylight saving, a 6 pm class begins at 12.30 pm India time, so evening slots after sport are straightforward.
 
-- **Weekday evening** The usual choice for Year 9 students.
-- **Weekend** For students with busy weekday activities.
-- **Holiday intensive** A few sessions to secure algebra before Year 10.
+Weekday evening
 
-- **Check before moving on** Every solution is substituted back before the next question.
-- **Algebra and graphs together** Students see each equation as a line as well as a calculation.
-- **Groups of fifteen to twenty** Matched by current skill, not just year level.
-- **Private tutoring** For targeted work on particular algebra gaps.
-- **Progress notes** Brief updates for parents after each unit.
-- **No level guaranteed** We teach the mathematics; the result belongs to the student.
+The usual choice for Year 9 students.
+
+Weekend
+
+For students with busy weekday activities.
+
+Holiday intensive
+
+A few sessions to secure algebra before Year 10.
+
+### Check before moving on
+
+Every solution is substituted back before the next question.
+
+### Algebra and graphs together
+
+Students see each equation as a line as well as a calculation.
+
+### Groups of fifteen to twenty
+
+Matched by current skill, not just year level.
+
+### Private tutoring
+
+For targeted work on particular algebra gaps.
+
+### Progress notes
+
+Brief updates for parents after each unit.
+
+### No level guaranteed
+
+We teach the mathematics; the result belongs to the student.
+
+Student work
+
+## Projects by our students
+
+Built by learners for the fun of it. Browse the rest in the [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Families in Australia are billed each month in US dollars, our standard rate for every country except India. There is nothing to pay up front, and you can stop after any month.
 
-- Free first class: USD 0. A real lesson with a teacher. A frank view of current skills. No card details.
-- Group batch: USD 100 a month. Fifteen to twenty students at one level. One regular teacher. Feedback on all work. Certificate on completion.
-- One to one: USD 150 a month. A teacher for one student. Focus on specific algebra gaps. Times to suit you.
+Free first class
+
+USD 0
+
+no card required
+
+- A real lesson with a teacher
+- A frank view of current skills
+- No card details
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students at one level
+- One regular teacher
+- Feedback on all work
+- Certificate on completion
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one student
+- Focus on specific algebra gaps
+- Times to suit you
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Parent reviews from Google, unedited.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about Year 9 NAPLAN numeracy
 
 ## Year 9 questions we hear
 
@@ -243,15 +469,54 @@ No. We never promise levels or scores; we teach the algebra and reasoning the te
 
 We agree a weekly time after the free class. During daylight saving Melbourne is five and a half hours ahead of India time, so 6 pm there is 12.30 pm in India.
 
+Related pages
+
 ## More for Year 9 and beyond
 
-- [NAPLAN numeracy across the years](/naplan-numeracy-practice-online): Dates, testlets and how results are reported.
-- [NAPLAN Year 7 numeracy](/naplan-year-7-numeracy-practice): Proportion and the first calculator split.
-- [Maths tutoring in Australia](/online-maths-tutoring-australia): Live lessons through to Year 12.
-- [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar): Maths and coding contests by month.
-- [HSC Software Engineering](/hsc-software-engineering-help): For students drawn to computing.
-- [Maths challenges](/maths-challenges): Problems beyond the syllabus.
+Other NAPLAN years, coding and senior study support.
 
-## Contact
+### [NAPLAN numeracy across the years](/naplan-numeracy-practice-online)
 
-Book the free first class at [https://learn.modernagecoders.com/naplan-year-9-numeracy-practice](https://learn.modernagecoders.com/naplan-year-9-numeracy-practice#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Dates, testlets and how results are reported.
+
+### [NAPLAN Year 7 numeracy](/naplan-year-7-numeracy-practice)
+
+Proportion and the first calculator split.
+
+### [Maths tutoring in Australia](/online-maths-tutoring-australia)
+
+Live lessons through to Year 12.
+
+### [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar)
+
+Maths and coding contests by month.
+
+### [HSC Software Engineering](/hsc-software-engineering-help)
+
+For students drawn to computing.
+
+### [Maths challenges](/maths-challenges)
+
+Problems beyond the syllabus.
+
+Start here
+
+## Book a free Year 9 maths class
+
+Tell us which topic feels unsteady, whether equations, indices or probability. The trial lesson starts there and ends with honest advice about next steps.
+
+Would you rather browse? All maths courses are on the [course atlas](/course-atlas), and [how we teach](/how-we-teach) shows a lesson from start to finish.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20class%20for%20my%20Year%209%20child%2C%20on%20algebra%20and%20equations.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+Messages on WhatsApp are usually answered fastest. Our +91 number is Indian because the school runs from India; there is no Australian office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/naplan-year-9-numeracy-practice*

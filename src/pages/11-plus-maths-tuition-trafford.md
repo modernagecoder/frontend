@@ -4,34 +4,28 @@ description: "Live online 11 plus maths for the Trafford Consortium test in Altr
 canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-trafford
 source: src/pages/11-plus-maths-tuition-trafford.html
 ---
-> Trafford Council says five of the borough's seven grammar schools belong to the Trafford Consortium and share one entrance examination; Loreto Grammar School and St Ambrose College use a different test. The consortium examination is written for it by GL Assessment: two tests of about an hour, each mixing verbal, non-verbal and mathematics questions, answered by multiple choice. The consortium says the maths covers content taught up to the start of Year 6, typically "aspects of number, measurement, geometry and statistics". For September 2027 entry it was sat on Monday 14 September 2026, and Sale Grammar School gives the qualifying score as 334 and above. We teach those four maths areas live online, with statistics given its fair share. A trial lesson is free, and after it the monthly fee is USD 100 in a small group or USD 150 for one to one.
+> Live online 11 plus maths for the Trafford Consortium test in Altrincham, Sale, Stretford and Urmston: its four maths areas, and statistics taught properly.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / 11 plus maths in Trafford
+In short
 
-Trafford · Consortium entrance examination maths · Live online, small groups or one to one
+Trafford Council says five of the borough's seven grammar schools belong to the Trafford Consortium and share one entrance examination; Loreto Grammar School and St Ambrose College use a different test. The consortium examination is written for it by GL Assessment: two tests of about an hour, each mixing verbal, non-verbal and mathematics questions, answered by multiple choice. The consortium says the maths covers content taught up to the start of Year 6, typically "aspects of number, measurement, geometry and statistics". For September 2027 entry it was sat on Monday 14 September 2026, and Sale Grammar School gives the qualifying score as 334 and above. We teach those four maths areas live online, with statistics given its fair share. A trial lesson is free, and after it the monthly fee is USD 100 in a small group or USD 150 for one to one.
 
-# 11 plus maths tuition in Trafford
-
-The five schools of the Trafford Consortium describe their maths questions in one tidy sentence: they "typically include aspects of number, measurement, geometry and statistics". Read that list slowly. Most 11 plus preparation spends its hours on the first item, some on the second and third, and almost none on the fourth. Yet statistics in Year 5 is a short, well-defined topic, reading tables and line graphs and answering comparison, sum and difference questions from them, and it can be taught to fluency in a few weeks. This page sets out what the consortium and Trafford Council publish about the examination, then works through a real line graph, 2025 temperatures over Trafford, the way we would in a lesson.
-
-At a glance: Examination: Trafford Consortium entrance examination; Schools using it: Five of Trafford's seven grammar schools; Written by: GL Assessment, a paper made for the consortium; Papers: Two, about one hour each; Each paper covers: Verbal, non-verbal and maths questions; Maths areas named: Number, measurement, geometry, statistics; Format: Multiple choice, computer-scored sheet; Our focus: All four areas, at Year 5 depth. Rated 4.9 across 547 Google reviews.
+Starting points in Trafford
 
 ## Three courses for the consortium maths
 
 Match the course to the gaps you see at home, not to the date on the letter.
 
-- [The 11 plus maths course](/courses/11-plus-maths-preparation-course-uk): All four named areas, number, measurement, geometry and statistics, taught to Year 5 depth.
-- [Primary maths from the ground up](/courses/elementary-mathematics-complete-masterclass): For a child whose place value or fractions need firming before any exam work.
-- [Quick mental arithmetic](/courses/mental-maths-mastery-kids): Faster recall frees time for the reading that data and word problems demand.
+[![11 Plus Maths Prep course thumbnail](/images/eleven-plus-maths.webp)  TRAFF / I The 11 plus maths course All four named areas, number, measurement, geometry and statistics, taught to Year 5 depth. Open the syllabus →](/courses/11-plus-maths-preparation-course-uk)[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  TRAFF / II Primary maths from the ground up For a child whose place value or fractions need firming before any exam work. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)[![Mental Maths for Kids course thumbnail](/images/mental-maths-kids.webp)  TRAFF / III Quick mental arithmetic Faster recall frees time for the reading that data and word problems demand. Open the syllabus →](/courses/mental-maths-mastery-kids)
+
+The examination
 
 ## What the consortium and the council publish
 
 Trafford Council describes the arrangement; the consortium schools publish the detail. Sale Grammar School's pages and 2027 information booklet were our main source, read on 26 September 2026.
 
-**The Trafford Consortium examination for September 2027 entry, as Sale Grammar School publishes it**
-
 | Stage | When | What is published |
-|---|---|---|
+| --- | --- | --- |
 | Applications open | 12 noon, Thursday 23 April 2026 | Online, through a consortium school's own website. |
 | Applications close | 12 noon, Friday 19 June 2026 | Late applications are not tested for the main round. |
 | Examination | Monday 14 September 2026 | Two tests of about an hour, with a short break between them. |
@@ -47,14 +41,14 @@ On scoring, the consortium publishes less than some areas do. Scores are standar
 
 Sources: [Trafford Council, entrance test for grammar schools](https://www.trafford.gov.uk/schools-and-learning/starting-school-and-admissions/starting-secondary-school/entrance-test-grammar-schools); [Sale Grammar School, September 2027 entry](https://www.salegrammar.co.uk/6731/september-2027-entry), with its Information Booklet for 2027 admissions and the GL familiarisation guide it hosts. Modern Age Coders has no connection with any consortium school, GL Assessment or Trafford Council.
 
+The four named areas
+
 ## Number, measurement, geometry and statistics
 
 A published list of content areas is rare in 11 plus material. Here is what each one means in the Year 5 curriculum, which is where "up to the start of Year 6" points.
 
-**The consortium's four areas, mapped to the Year 5 national curriculum**
-
 | Area | Year 5 content it covers | How much preparation usually gets |
-|---|---|---|
+| --- | --- | --- |
 | Number | Place value to a million, rounding, primes and factors, long multiplication, fractions, decimals and percentages | Most of it, often too much |
 | Measurement | Converting metric units, perimeter and area of rectangles, volume, money and time problems | A fair share |
 | Geometry | Angles at a point and on a line, properties of rectangles, reflection and translation | Some, mostly shapes |
@@ -70,14 +64,14 @@ That is why we teach each area twice: once as plain skill, until it is quick, an
 
 Sources: Sale Grammar School, Information Booklet for 2027 admissions (the consortium's description of the mathematics questions); [national curriculum in England, mathematics](https://www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study/national-curriculum-in-england-mathematics-programmes-of-study), Year 5 programme of study.
 
+A lesson from real data
+
 ## A year of Trafford temperatures, read as a line graph
 
 Year 5 statistics asks children to "solve comparison, sum and difference problems using information presented in a line graph". Here is the kind of data we use, and the questions we ask about it.
 
-**Average daily maximum temperature by month, 2025, for the ERA5 grid square over Trafford (degrees Celsius)**
-
 | Month | Average high | Month | Average high |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | January | 5.9 | July | 20.8 |
 | February | 7.9 | August | 21.0 |
 | March | 12.4 | September | 17.2 |
@@ -107,6 +101,8 @@ The same data also gives us sum questions, such as the total of the three summer
 
 Data: ERA5 reanalysis (Copernicus Climate Change Service, ECMWF) via the [Open-Meteo historical weather API](https://open-meteo.com/en/docs/historical-weather-api), daily 2 m maximum temperature, 1 January to 31 December 2025, grid point 53.5 N, 2.25 W; monthly averages calculated by Modern Age Coders on 26 September 2026. Curriculum: national curriculum in England, mathematics, Year 5 statistics.
 
+Practice without papers
+
 ## A bespoke paper, and why that is good news
 
 Families sometimes hear "bespoke" and worry that nothing can prepare a child for it. The opposite is true for maths.
@@ -121,14 +117,14 @@ We write our own practice questions and do not reproduce familiarisation or test
 
 Sale Grammar School's booklet also notes there are no manual re-marks, because the answer sheets are machine-scored and not held by the school. Clean shading and one mark per question matter. We practise on answer grids from early on so the physical part of the task is automatic by the summer.
 
+Across Trafford
+
 ## Five consortium schools, two others, one online classroom
 
 Trafford Council names the schools. We list them only to make clear which examination this page describes.
 
-**Trafford's grammar schools, as Trafford Council groups them**
-
 | School | Test used |
-|---|---|
+| --- | --- |
 | Altrincham Grammar School for Boys | Trafford Consortium examination |
 | Altrincham Grammar School for Girls | Trafford Consortium examination |
 | Sale Grammar School | Trafford Consortium examination |
@@ -147,14 +143,14 @@ Modern Age Coders has no connection with any of these schools or with the counci
 
 Source: Trafford Council, entrance test for grammar schools, read 26 September 2026.
 
+How the year runs
+
 ## Four stages before a September test
 
 For a child in Year 5 now, the next consortium examination should fall in September of Year 6, on dates the schools will publish. Build all four areas, in this order.
 
-**From quick number to reading data under a clock**
-
 | Term | Stage | Evidence it is in place |
-|---|---|---|
+| --- | --- | --- |
 | Autumn, Year 5 | 1. Number that is quick | Tables, place value and fraction facts answered without counting |
 | Spring, Year 5 | 2. Measurement and geometry | Converts units and finds missing angles and lengths without fuss |
 | Early summer, Year 5 | 3. Tables and line graphs | Answers comparison, sum and difference questions from a new graph, correctly |
@@ -163,71 +159,321 @@ For a child in Year 5 now, the next consortium examination should fall in Septem
 ### Short on time?
 
 Begin with number, then go straight to statistics: it is the quickest area to lift, because the content is small and the errors are predictable.
+
 We will tell you honestly at the trial lesson what a few months can change.
 
 ### Once scores arrive
 
 The data habits carry into secondary school science and maths. Some pupils move on to [maths through coding](/courses/maths-through-coding) and draw their own graphs in Python.
+
 Others try the maths challenges listed on our [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar).
+
+Course list
 
 ## Maths and coding for Trafford families
 
 Arranged by stage; each card links to its syllabus.
 
+I
+
 ### Towards the examination
 
 Years 3 to 5
 
-- [11 plus maths preparation](/courses/11-plus-maths-preparation-course-uk): Number, measurement, geometry and statistics.
-- [Primary maths, Years 1 to 5](/courses/elementary-mathematics-complete-masterclass): Groundwork before speed, for younger children.
-- [Mental maths for kids](/courses/mental-maths-mastery-kids): Recall and strategy, practised little and often.
-- [Abacus and mental maths](/courses/abacus-mental-maths-course-for-kids): A hands-on route to confident calculation.
+TFM / 01
+
+#### 11 plus maths preparation
+
+Number, measurement, geometry and statistics.
+
+[Open the syllabus](/courses/11-plus-maths-preparation-course-uk)
+
+TFM / 02
+
+#### Primary maths, Years 1 to 5
+
+Groundwork before speed, for younger children.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+TFM / 03
+
+#### Mental maths for kids
+
+Recall and strategy, practised little and often.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+TFM / 04
+
+#### Abacus and mental maths
+
+A hands-on route to confident calculation.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)II
 
 ### Into Year 7
 
 Secondary maths
 
-- [Middle school maths mastery](/courses/comprehensive-middle-school-mathematics-mastery): Data handling, algebra and geometry for Key Stage 3.
-- [GCSE maths, foundation and higher](/courses/gcse-mathematics-mastery): Statistics included, as every board requires.
-- [Olympiad and competition maths](/courses/olympiad-competition-mathematics-mastery): For children who want problems without a recipe.
+TFM / 05
+
+#### Middle school maths mastery
+
+Data handling, algebra and geometry for Key Stage 3.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+TFM / 06
+
+#### GCSE maths, foundation and higher
+
+Statistics included, as every board requires.
+
+[Open the syllabus](/courses/gcse-mathematics-mastery)
+
+TFM / 07
+
+#### Olympiad and competition maths
+
+For children who want problems without a recipe.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)III
 
 ### Data and code
 
 Maths on a computer
 
-- [Maths through coding](/courses/maths-through-coding): Plot real data and ask questions of it in Python.
-- [Scratch coding for kids](/courses/scratch-programming-complete-course): First programs, careful logic, instant feedback.
-- [Python and AI for kids](/courses/python-ai-kids-masterclass): Lists of numbers become charts and simple models.
+TFM / 08
+
+#### Maths through coding
+
+Plot real data and ask questions of it in Python.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+TFM / 09
+
+#### Scratch coding for kids
+
+First programs, careful logic, instant feedback.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)
+
+TFM / 10
+
+#### Python and AI for kids
+
+Lists of numbers become charts and simple models.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)IV
 
 ### Looking ahead
 
 Teenage options
 
-- [Vedic maths and speed calculation](/courses/vedic-maths-course-speed-calculation-mastery): Speed methods once the basics are firm.
-- [AI and machine learning for teens](/courses/ai-ml-masterclass-teens): Where reading data becomes learning from it.
+TFM / 11
+
+#### Vedic maths and speed calculation
+
+Speed methods once the basics are firm.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
+
+TFM / 12
+
+#### AI and machine learning for teens
+
+Where reading data becomes learning from it.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+When we teach
 
 ## Timed for a Trafford evening
 
 Lessons are taught live from India. The UK clock moves in spring and autumn and India's does not, so we set every primary lesson by UK time: after school on weekdays, or on a weekend morning.
 
-- **Weekday late afternoon** Soon after school, while attention is good.
-- **Saturday morning** For families with packed weeknights.
-- **Holiday weeks** Shorter sessions, more often, when school is closed.
+Weekday late afternoon
 
-- **A teacher who stays** The same person each week knows which slips your child makes.
-- **Straight feedback** A brief, candid note after lessons: progress and problems both.
-- **Matched groups** Fifteen to twenty children at one level, so nobody coasts or drowns.
-- **Original practice** Our own questions and real data sets, never copied test material.
-- **Individual option** One to one lessons for a particular gap or a quieter child.
-- **Maths is our lane** No reasoning coaching and no views on school choice or allocation.
+Soon after school, while attention is good.
+
+Saturday morning
+
+For families with packed weeknights.
+
+Holiday weeks
+
+Shorter sessions, more often, when school is closed.
+
+### A teacher who stays
+
+The same person each week knows which slips your child makes.
+
+### Straight feedback
+
+A brief, candid note after lessons: progress and problems both.
+
+### Matched groups
+
+Fifteen to twenty children at one level, so nobody coasts or drowns.
+
+### Original practice
+
+Our own questions and real data sets, never copied test material.
+
+### Individual option
+
+One to one lessons for a particular gap or a quieter child.
+
+### Maths is our lane
+
+No reasoning coaching and no views on school choice or allocation.
+
+Student work
+
+## Where Year 5 maths leads
+
+Four projects published by our students, all built on arithmetic and data they once met in primary school. More on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Charged monthly in US dollars, as for all families outside India. Cancel whenever you like; there is nothing to sign up to.
 
-- Free first class: USD 0. A proper lesson, not a pitch. A candid view of where things stand. No payment details taken.
-- Group batch: USD 100 a month. Fifteen to twenty pupils at the same level. A regular teacher. Homework checked together. A certificate when the course ends.
-- One to one: USD 150 a month. Just your child and a teacher. Built around what needs fixing. Helpful in the run-up to September.
+Free first class
+
+USD 0
+
+no card required
+
+- A proper lesson, not a pitch
+- A candid view of where things stand
+- No payment details taken
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty pupils at the same level
+- A regular teacher
+- Homework checked together
+- A certificate when the course ends
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- Just your child and a teacher
+- Built around what needs fixing
+- Helpful in the run-up to September
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Parents writing on our Google profile, quoted exactly.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Trafford questions
 
 ## Questions Trafford families ask
 
@@ -271,15 +517,54 @@ No. The consortium paper is bespoke and not released, and we do not copy familia
 
 The trial lesson is free. Group lessons are then USD 100 a month and one to one lessons USD 150 a month, and you can stop at any time.
 
+See also
+
 ## Other pages for Greater Manchester families
 
-- [Coding classes in Manchester](/best-coding-class-in-manchester): Our page for children and teenagers across the city.
-- [11 plus maths tuition](/11-plus-maths-tuition): The national overview of 11 plus maths.
-- [11 plus maths in Birmingham](/11-plus-maths-tuition-birmingham): Another GL test, with its own rules about equipment.
-- [11 plus maths in Buckinghamshire](/11-plus-maths-tuition-buckinghamshire): A county where the maths weighting is published.
-- [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar): Maths challenges for keen children, by month.
-- [All our UK pages](/coding-classes-in-united-kingdom): Every nation, city and area.
+Coding in Manchester, the national 11 plus page, and two other selective areas.
 
-## Contact
+### [Coding classes in Manchester](/best-coding-class-in-manchester)
 
-Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-trafford](https://learn.modernagecoders.com/11-plus-maths-tuition-trafford#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Our page for children and teenagers across the city.
+
+### [11 plus maths tuition](/11-plus-maths-tuition)
+
+The national overview of 11 plus maths.
+
+### [11 plus maths in Birmingham](/11-plus-maths-tuition-birmingham)
+
+Another GL test, with its own rules about equipment.
+
+### [11 plus maths in Buckinghamshire](/11-plus-maths-tuition-buckinghamshire)
+
+A county where the maths weighting is published.
+
+### [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar)
+
+Maths challenges for keen children, by month.
+
+### [All our UK pages](/coding-classes-in-united-kingdom)
+
+Every nation, city and area.
+
+Start here
+
+## Ask for a trial maths lesson
+
+A school year and a sentence about your child's maths is enough to start. The trial is a genuine lesson, and afterwards we give you our honest reading of it.
+
+Want more detail first? The [courses page](/courses) has every syllabus, [how we teach](/how-we-teach) explains our lessons, and the [roadmap](/coding-roadmap) maps the route from primary maths to programming.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20my%20child%20for%20the%20Trafford%2011%20plus.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+The fastest reply comes on WhatsApp. We are based in India, our number is Indian, and we have no UK premises.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-trafford*

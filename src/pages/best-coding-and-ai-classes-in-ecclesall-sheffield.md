@@ -4,46 +4,32 @@ description: "Online coding, AI, Python and vibe coding lessons for Ecclesall, G
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-ecclesall-sheffield
 source: src/pages/best-coding-and-ai-classes-in-ecclesall-sheffield.html
 ---
-> Ecclesall is a Sheffield ward of 20,559 usual residents, the ONS count from the 2021 census as published on Nomis. Greystones, Bents Green, Banner Cross, Parkhead and Whirlow are recorded as suburban areas of Sheffield in the S11 district. Our tutors, who work from India, teach coding, AI, Python, vibe coding and maths by video to learners as young as six and as old as 67, either alone or in a set of five to ten of similar ability. We teach how to reason about a problem before reaching for a tool, so learners can check what an AI says. The trial lesson is free, and at the end we recommend a course. The Ecclesall project places a single meeting point for everyone in the ward, first as a plain average and then with Weiszfeld's algorithm, and discovers how little one of them gains and how differently they react to change. Carrying on is priced at USD 100 per month for a class place or USD 150 per month for private tuition.
+> Online coding, AI, Python and vibe coding lessons for Ecclesall, Greystones, Bents Green and Banner Cross learners in Sheffield, aged 6 to 67. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Sheffield](/best-coding-class-in-sheffield) / Ecclesall
-
-Ecclesall, Sheffield, South Yorkshire, England / Live online
-
-# Coding and AI classes in Ecclesall, Sheffield
-
-**Where can Ecclesall learners find the best coding and AI classes?** Ecclesall is a Sheffield ward of 20,559 usual residents, the ONS count from the 2021 census as published on Nomis. Greystones, Bents Green, Banner Cross, Parkhead and Whirlow are recorded as suburban areas of Sheffield in the S11 district. Our tutors, who work from India, teach coding, AI, Python, vibe coding and maths by video to learners as young as six and as old as 67, either alone or in a set of five to ten of similar ability. We teach how to reason about a problem before reaching for a tool, so learners can check what an AI says. The trial lesson is free, and at the end we recommend a course. The Ecclesall project places a single meeting point for everyone in the ward, first as a plain average and then with Weiszfeld's algorithm, and discovers how little one of them gains and how differently they react to change. Carrying on is priced at USD 100 per month for a class place or USD 150 per month for private tuition.
-
-Suppose everyone in a ward had to walk to one meeting point, and you wanted the total distance walked to be as small as possible. The obvious guess is the average position, the centroid. The true answer is a different point, the geometric median, and there is no formula for it: you find it by iteration, most famously with a method published by Endre Weiszfeld in 1937. This project uses Census counts for the 63 small areas that make up Ecclesall ward to find both points, and then asks two questions any data scientist should ask of an "optimal" answer: how much better is it really, and how easily is it pushed around?
-
-Facts last verified 30 September 2026. Teaching is online; no Ecclesall branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentEcclesall course picks
 
 ## Ecclesall courses in reasoning, Python and AI
 
 Four starting points, sorted by age. The first lesson of every course is live and free, and we take no card to book it.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think course: fair meeting points, averages and what "fairest" should mean.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games planned by the learner, built with an AI and tested properly.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python from first steps to optimisation, including the Ecclesall meeting point.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): How AI models are optimised, why flat optima matter, and AI agents in Python.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think course: fair meeting points, averages and what "fairest" should mean.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games planned by the learner, built with an AI and tested properly.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython from first steps to optimisation, including the Ecclesall meeting point.See the syllabus](/courses/python-complete-masterclass-teens)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseHow AI models are optimised, why flat optima matter, and AI agents in Python.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Ecclesall and Sheffield
 
 ## Ecclesall, Greystones, Banner Cross and Whirlow
 
 The Census count for Ecclesall ward, and suburbs recorded in Sheffield's S11 district.
 
-**Ecclesall ward in the 2021 census, ONS figures via Nomis**
-
 | Area | Usual residents (2021) |
-|---|---|
+| --- | --- |
 | Ecclesall ward, Sheffield | 20,559 |
 
 Postcodes.io lists Ecclesall, Greystones, Bents Green, Banner Cross, Parkhead and Whirlow as suburban areas of Sheffield in S11, with Millhouses in S7 and Ringinglow as a hamlet; we do not claim any of them sits exactly inside the ward boundary. Teaching lines up with England's national curriculum, including GCSE and A level computer science and maths. Tell us the term dates and lessons will leave the holidays free.
@@ -52,16 +38,16 @@ Postcodes.io lists Ecclesall, Greystones, Bents Green, Banner Cross, Parkhead an
 
 See [coding classes in Sheffield](/best-coding-class-in-sheffield) and [South Yorkshire](/coding-classes-in-south-yorkshire). Why reasoning comes before tools is set out on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Ecclesall project
+
 ## The fairest meeting point: centroid against geometric median, with Weiszfeld's algorithm
 
 Sixty-three weighted points, two definitions of "middle", and a test of how each one moves.
 
 The learner downloads the ward's resident count from Nomis, uses the ONS lookup to find its 63 output areas, and takes each area's population-weighted centre point and resident count. The centroid is just the weighted average of those points. The geometric median is the point with the smallest total distance to everyone; Weiszfeld's algorithm finds it by starting at the centroid and repeatedly re-averaging with each area weighted by residents divided by its current distance, so nearby areas count more each round.
 
-**Meeting points for Ecclesall ward residents, straight-line distances, our Python run on Census 2021 data**
-
 | Measure | Result |
-|---|---|
+| --- | --- |
 | Iterations for Weiszfeld to settle | 45 |
 | Distance between centroid and geometric median | 61.1 m |
 | Average distance to the centroid | 889.8 m |
@@ -87,14 +73,14 @@ Code Weiszfeld's algorithm, compare it with the centroid and test both against a
 
 Resident counts are Office for National Statistics Census 2021 data from Nomis; output area centres and the ward lookup come from the ONS Open Geography Portal, all under the Open Government Licence. The points, distances and the hypothetical 3,000 people are our own; distances are straight lines, not walking routes.
 
+Optimising and AI
+
 ## What this teaches about vibe coding and AI agents
 
 Ask of any optimum: by what margin, and how steady?
 
-**From the Ecclesall meeting point to working with AI**
-
 | In the ward project | When an AI optimises something |
-|---|---|
+| --- | --- |
 | 45 iterations found the median | Many answers come from repeated improvement |
 | The median saved only 0.1% | An optimal answer may barely beat a simple one |
 | The objective was flat near its minimum | Many different answers can be almost equally good |
@@ -105,14 +91,37 @@ Training an AI model is also an iterative search for a minimum, and the same two
 
 The ONS, Nomis and postcodes.io publish the open data this page uses and have no connection with Modern Age Coders; the calculations and any errors in them are ours.
 
+Stages
+
 ## From picnic spots to iterative algorithms
 
 School year is a starting guess; the free lesson confirms the level.
 
-- **Years 2 to 7: How to think** Fair choices, averages and deciding what counts as fairest. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Games and small apps built with an AI and checked by the learner. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python and optimisation** Weighted averages, iteration and robustness alongside GCSE and A level. [Python for Teens](/courses/python-complete-masterclass-teens), [High School Mathematics](/courses/complete-high-school-mathematics-mastery)
-- **Adults: AI and agents** How models are trained and checked, then AI agents in Python. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Years 2 to 7
+
+### How to think
+
+Fair choices, averages and deciding what counts as fairest.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Games and small apps built with an AI and checked by the learner.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python and optimisation
+
+Weighted averages, iteration and robustness alongside GCSE and A level.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[High School Mathematics](/courses/complete-high-school-mathematics-mastery)Adults
+
+### AI and agents
+
+How models are trained and checked, then AI agents in Python.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)Maths and AI
 
 ## What is the geometric median, and how is it different from the average?
 
@@ -124,30 +133,139 @@ Learners who have run that test ask of any optimised AI answer: how much does it
 
 An Ecclesall teenager who asks what an optimum gains, and what could knock it over, reads AI output with a sharper eye, and coding is how that eye is trained. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Lessons for S11, delivered by video
 
 Requirements are short: something with a keyboard and a webcam, plus home broadband.
 
-- **Predict, then run** Before pressing run, the learner says what should happen. Our tutor, following the shared screen, holds them to it.
-- **Starting point** The trial tells us what to teach first, and we note the exam board if GCSE or A level is ahead.
-- **Trial at no cost** We teach the opening lesson for free and name a suitable course at the end.
-- **Sets of fifteen to twenty** Classmates come from all over Britain and are matched on level, not age alone.
-- **Rhythm** A pair of lessons each week in term time.
-- **Your time stays put** When the clocks change, our tutors adjust so you do not have to.
+### Predict, then run
 
-**Why online** Five learners at the same stage, free the same evening and living on the same streets, are rare. Video removes the need.
+Before pressing run, the learner says what should happen. Our tutor, following the shared screen, holds them to it.
+
+### Starting point
+
+The trial tells us what to teach first, and we note the exam board if GCSE or A level is ahead.
+
+### Trial at no cost
+
+We teach the opening lesson for free and name a suitable course at the end.
+
+### Sets of fifteen to twenty
+
+Classmates come from all over Britain and are matched on level, not age alone.
+
+### Rhythm
+
+A pair of lessons each week in term time.
+
+### Your time stays put
+
+When the clocks change, our tutors adjust so you do not have to.
+
+Why online
+
+Five learners at the same stage, free the same evening and living on the same streets, are rare. Video removes the need.
+
+Fees
 
 ## Ecclesall fees
 
 Outside India we have one price list, and it is the one Ecclesall families pay.
 
-- First class: USD 0. A free first lesson, then our recommendation.
-- Group tuition: USD 100 a month. About eight live group lessons each month.
-- Private tuition: USD 150 a month. About eight live one-to-one lessons each month.
+First class**USD 0**
+
+A free first lesson, then our recommendation.
+
+Group tuition**USD 100**
+
+About eight live group lessons each month.
+
+Private tuition**USD 150**
+
+About eight live one-to-one lessons each month.
 
 All fees are quoted in US dollars rather than pounds; the first invoice follows the trial once a course and a slot are fixed, and holidays, absences and format changes are handled on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Ecclesall%2C%20Sheffield%3F)Reviews
+
+## From S11 and beyond: what families say about us on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Ecclesall lesson
+
+Two facts get us started: how old the learner is (or which year they are in) and what they enjoy. From there the trial might become a picnic-spot puzzle, an AI-assisted Scratch build, a gentle Python opener, or averaging real points on a map.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Ecclesall one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Ecclesall%2C%20Sheffield%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Ecclesall questions
+
+Meeting points, the ward project, Python, vibe coding and practical details.
 
 ### What is the population of Ecclesall ward?
 
@@ -189,10 +307,14 @@ Lesson one is free; ongoing classes cost USD 100 monthly, private lessons USD 15
 
 During Sheffield school holidays we stop; a quick message with the dates is enough.
 
+Nearby
+
 ## More Sheffield and South Yorkshire pages
 
 A different experiment sits on each of these: [Sheffield](/best-coding-class-in-sheffield) (fitting a trend line), [Rotherham](/best-coding-and-ai-classes-in-rotherham), [Barnsley](/ai-and-programming-classes-in-barnsley) and [Chesterfield](/ai-and-programming-classes-in-chesterfield). The [UK hub](/coding-classes-in-united-kingdom) lists everywhere else.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Ecclesall%2C%20Sheffield%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-and-ai-classes-in-ecclesall-sheffield](https://learn.modernagecoders.com/best-coding-and-ai-classes-in-ecclesall-sheffield#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-ecclesall-sheffield*

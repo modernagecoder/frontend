@@ -4,46 +4,32 @@ description: "AI, programming, Python and vibe coding classes taught live online
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-andover
 source: src/pages/ai-and-programming-classes-in-andover.html
 ---
-> In the ONS figures for the 2021 census the Andover built-up area has 48,480 residents and Test Valley borough 130,492. Charlton, Picket Piece, Anna Valley, Upper Clatford, Abbotts Ann and Weyhill are recorded around it as villages. We teach AI, programming, Python, vibe coding and maths on live video to learners from six years old to 67. Tutors are based in India. A lesson is either private or shared by fifteen to twenty learners at one level. We start from reasoning, so that a student can test a model's output instead of taking it on trust. The Andover project counts postcodes in 224 map squares and asks a model to predict the count from the length of road in each square, which a straight line does badly in an instructive way. There is no charge for lesson one, which closes with a course recommendation. After that a group place costs USD 100 a month and a private tutor USD 150 a month.
+> AI, programming, Python and vibe coding classes taught live online for Andover, Charlton, Picket Piece, Anna Valley and Weyhill, ages 6 to 67. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South East England](/coding-and-ai-classes-in-south-east-england) / Andover
-
-Andover, Test Valley, Hampshire / Live online
-
-# AI and programming classes in Andover, Hampshire
-
-**Where will an Andover learner find the best AI and programming classes?** In the ONS figures for the 2021 census the Andover built-up area has 48,480 residents and Test Valley borough 130,492. Charlton, Picket Piece, Anna Valley, Upper Clatford, Abbotts Ann and Weyhill are recorded around it as villages. We teach AI, programming, Python, vibe coding and maths on live video to learners from six years old to 67. Tutors are based in India. A lesson is either private or shared by fifteen to twenty learners at one level. We start from reasoning, so that a student can test a model's output instead of taking it on trust. The Andover project counts postcodes in 224 map squares and asks a model to predict the count from the length of road in each square, which a straight line does badly in an instructive way. There is no charge for lesson one, which closes with a course recommendation. After that a group place costs USD 100 a month and a private tutor USD 150 a month.
-
-Draw a straight line through some data and sooner or later it predicts something that cannot happen. Ask it how many postcodes lie in a field with no road and it may answer minus one. Nobody has ever found minus one postcodes. Counts start at zero and go up in whole steps, and a model built for counts should know that. Poisson regression is the standard one. It is taught on university statistics courses, but the idea is within reach of a teenager who can plot a graph, and a grid laid over Andover and its villages supplies the ideal data: some squares packed with addresses, many with none at all.
-
-Facts last verified 30 September 2026. Teaching is online; no Andover branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentAndover starting points
 
 ## AI, programming and thinking courses for Andover
 
 Find the learner's age below. Each course starts with one free live lesson and no card is needed to reserve it.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): How to think: guess how many houses are on a street, then say why the guess can never be below nought.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Have an AI build a Scratch counting game and catch the moment the score goes negative.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): How models learn from data, including Poisson regression on Andover's map squares.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python and web work with an AI assistant, scored on examples it was not shown.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsHow to think: guess how many houses are on a street, then say why the guess can never be below nought.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsHave an AI build a Scratch counting game and catch the moment the score goes negative.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensHow models learn from data, including Poisson regression on Andover's map squares.See the syllabus](/courses/ai-ml-masterclass-teens)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensPython and web work with an AI assistant, scored on examples it was not shown.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Test Valley
 
 ## Andover, Romsey and North Baddesley
 
 The borough's built-up areas of 6,000 or more that lie wholly inside it, and the villages around Andover in postcode data.
 
-**Built-up areas wholly in Test Valley with at least 6,000 residents, ONS, 2021 census**
-
 | Built-up area | Residents, 2021 |
-|---|---|
+| --- | --- |
 | Andover | 48,480 |
 | Romsey | 19,920 |
 | North Baddesley | 7,000 |
@@ -54,16 +40,16 @@ All three figures are the ONS's own and we have not summed them. The borough fig
 
 The county is covered on [coding classes in Hampshire](/coding-classes-in-hampshire) and the region on [South East England](/coding-and-ai-classes-in-south-east-england). Our view that thinking has to come before tools is set out on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Andover project
+
 ## Poisson regression on 224 map squares
 
 Count the postcodes in each square, measure its roads, fit three models and test them on squares held back.
 
 The learner lays a grid of 500 m National Grid squares over Andover and the villages round it, 16 across and 14 up, 224 in all. Two open datasets fill it in. Code-Point Open from Ordnance Survey gives the position of 1,366 postcodes inside the grid, 959 of them in district SP10 and 407 in SP11. One Overpass request to OpenStreetMap gives the roads, 303.0 km of them inside the grid. The counts are lopsided, as counts usually are: 88 squares contain no postcode at all, and the fullest contains 76.
 
-**Three models predicting postcodes per square from road length (our Python fits; misses are mean absolute errors in postcodes)**
-
 | Model | Prediction for a square with no road | Squares predicted below zero | Average miss, all squares | Average miss, unseen squares |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Straight line | -1.36 | 55 | 3.35 | 3.48 |
 | Poisson regression on road km | 1.37 | 0 | 3.94 | 4.49 |
 | Poisson regression on log of road km | 0.03 | 0 | 2.99 | 3.16 |
@@ -88,14 +74,14 @@ Code Poisson regression from its update rule in NumPy, try both inputs, and run 
 
 Postcode positions contain OS data © Crown copyright and database right 2026 and Royal Mail data © Royal Mail copyright and database right 2026. Roads are © OpenStreetMap contributors under the Open Database Licence. The grid, the fits and the scores are ours. A postcode is not a household, and a square of another size or place would give other numbers. The models describe this one grid and predict nothing about future building.
 
+Outputs with limits
+
 ## What counting postcodes teaches about AI and vibe coding
 
 A model should be built so that impossible answers cannot come out, and then still be tested.
 
-**From Andover's squares to AI in general**
-
 | In the project | In AI practice |
-|---|---|
+| --- | --- |
 | 55 squares predicted below zero | Check outputs against what is physically possible |
 | A log link made negatives impossible | Shape the model so bad answers cannot occur |
 | The first Poisson model did worse than the line | The right family with the wrong input still fails |
@@ -106,14 +92,37 @@ The same device sits inside large language models. A language model works out a 
 
 Neither Ordnance Survey, Royal Mail, OpenStreetMap, the Office for National Statistics nor postcodes.io has reviewed or backed this page. Their open data made the project possible and the conclusions are ours.
 
+Steps
+
 ## From tally charts to model fitting
 
 We use school years as a rough guide and the free lesson as the real test of level.
 
-- **Years 2 to 7: How to think** Counting, estimating and noticing when an answer makes no sense. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Simple projects an AI drafts and the learner corrects. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python, models and AI** Fitting and testing models on real data, beside GCSE and A level. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [High School Mathematics](/courses/complete-high-school-mathematics-mastery)
-- **Adults: Applied machine learning** Python basics first, then generative AI and agents. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
+Years 2 to 7
+
+### How to think
+
+Counting, estimating and noticing when an answer makes no sense.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Simple projects an AI drafts and the learner corrects.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python, models and AI
+
+Fitting and testing models on real data, beside GCSE and A level.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[High School Mathematics](/courses/complete-high-school-mathematics-mastery)Adults
+
+### Applied machine learning
+
+Python basics first, then generative AI and agents.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)AI and counting
 
 ## What is Poisson regression?
 
@@ -125,30 +134,139 @@ A careless Poisson model fed raw road length did worse than the line, at 4.49, w
 
 Andover teenagers who have run that comparison look at any AI prediction and check two things: could this output even exist, and was it tested on fresh data? Both habits come from building models in code, and they are good reasons to learn programming in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Day to day
+
 ## Charlton, Picket Piece and Anna Valley in one online class
 
 The only equipment is a computer with a webcam and a connection good enough for video.
 
-- **Student at the controls** The tutor sees the learner's screen and asks questions. The learner writes every line and runs it.
-- **Placed by what we see** In the free lesson we find out what a learner can already do, and which exam board applies.
-- **A free first class** It runs the full time, needs no card, and ends with the course we would choose.
-- **Level-matched classes** Groups of fifteen to twenty, all at one stage, drawn from the whole UK.
-- **Two a week** We skip any holiday weeks you tell us about.
-- **Same hour all year** British Summer Time is our tutors' problem; your lesson time does not move.
+### Student at the controls
 
-**Why not in person?** A class at one level needs enough learners at that level. A town and its villages cannot always provide them, and the whole country can.
+The tutor sees the learner's screen and asks questions. The learner writes every line and runs it.
+
+### Placed by what we see
+
+In the free lesson we find out what a learner can already do, and which exam board applies.
+
+### A free first class
+
+It runs the full time, needs no card, and ends with the course we would choose.
+
+### Level-matched classes
+
+Groups of fifteen to twenty, all at one stage, drawn from the whole UK.
+
+### Two a week
+
+We skip any holiday weeks you tell us about.
+
+### Same hour all year
+
+British Summer Time is our tutors' problem; your lesson time does not move.
+
+Why not in person?
+
+A class at one level needs enough learners at that level. A town and its villages cannot always provide them, and the whole country can.
+
+Fees
 
 ## Andover lesson prices
 
 Andover families pay the international rates we charge everywhere except India.
 
-- First class: USD 0. A full live lesson free of charge, ending with a course recommendation.
-- Group tuition: USD 100 a month. Eight or so live lessons a month in a small group.
-- Private tuition: USD 150 a month. Eight or so live lessons a month, private.
+First class**USD 0**
+
+A full live lesson free of charge, ending with a course recommendation.
+
+Group tuition**USD 100**
+
+Eight or so live lessons a month in a small group.
+
+Private tuition**USD 150**
+
+Eight or so live lessons a month, private.
 
 Every price is in US dollars and none is given in sterling. Invoicing starts only after the trial, when the course and weekly time are fixed. Holidays, absences and format changes are dealt with on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Andover.)Reviews
+
+## Hampshire families and UK learners, in their Google reviews
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Reserve a free Andover lesson
+
+All we need is an age or year and one interest. A trial can be a counting puzzle on a grid, a Scratch game drafted by AI, the first lines of Python, or a first model fitted to real data.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Andover one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Andover.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Andover: common questions
+
+Poisson regression, the grid project, AI, programming and arrangements.
 
 ### What is the population of Andover?
 
@@ -190,10 +308,14 @@ The first is free. Group lessons are USD 100 a month after that and private less
 
 Yes, for any dates you send.
 
+More of Hampshire
+
 ## Other Hampshire and South East pages
 
 Pages with different projects include [Basingstoke](/ai-and-programming-classes-in-basingstoke) and [Winchester](/best-coding-class-in-winchester), and the county page is [Hampshire](/coding-classes-in-hampshire). For anywhere else, start at the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Talk to us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Andover.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-andover](https://learn.modernagecoders.com/ai-and-programming-classes-in-andover#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-andover*

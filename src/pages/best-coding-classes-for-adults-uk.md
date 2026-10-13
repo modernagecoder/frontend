@@ -487,6 +487,12 @@ Prefer to read first? Syllabuses are on the [course pages](/courses), the method
 
 A WhatsApp message from a British mobile is free to send and gets the fastest reply. The number belongs to our office in India, which we would rather state here than leave you to notice.
 
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/best-coding-classes-for-adults-uk*

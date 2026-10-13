@@ -4,46 +4,32 @@ description: "Live online coding, Python and AI classes in Amsterdam Nieuw-West 
 canonical: https://learn.modernagecoders.com/coding-classes-in-amsterdam-nieuw-west
 source: src/pages/coding-classes-in-amsterdam-nieuw-west.html
 ---
-> Coding classes in Amsterdam Nieuw-West reach the Westelijke Tuinsteden, built in the 1950s and 1960s to a plan drawn in 1935, around a lake that was dug to get the sand that raised the ground under the houses. Slotermeer-Noordoost and Osdorp-Midden are published at exactly the same tenure split, 73 percent rented and 27 percent owned, while their densities differ by more than half. The matching figure was specified by a building programme and the differing one was not. Modern Age Coders teaches live online in English from Geuzenveld to the Sloterplas, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
+> Live online coding, Python and AI classes in Amsterdam Nieuw-West for ages 6 to 67, from Slotermeer to Osdorp. The first lesson costs nothing at all.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Amsterdam](/coding-classes-in-amsterdam) / Amsterdam Nieuw-West
-
-Nieuw-West, Amsterdam / Live online
-
-# Coding classes in Amsterdam Nieuw-West, where two neighbourhoods have identical tenure and nobody in either of them chose it
-
-**What are the best coding classes in Amsterdam Nieuw-West?** Coding classes in Amsterdam Nieuw-West reach the Westelijke Tuinsteden, built in the 1950s and 1960s to a plan drawn in 1935, around a lake that was dug to get the sand that raised the ground under the houses. Slotermeer-Noordoost and Osdorp-Midden are published at exactly the same tenure split, 73 percent rented and 27 percent owned, while their densities differ by more than half. The matching figure was specified by a building programme and the differing one was not. Modern Age Coders teaches live online in English from Geuzenveld to the Sloterplas, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
-
-Slotermeer-Noordoost has 4,192 homes, of which 3,060 are rented. Osdorp-Midden has 6,713, of which 4,900 are rented. Work both out and you get 72.99 percent in one and 72.99 percent in the other. Two separate neighbourhoods, sixty percent apart in size, agreeing to a hundredth of a percentage point. Numbers do not do that by accident. That figure was not discovered about the people who live there; it was decided by whoever commissioned the buildings, and the useful habit is knowing which kind of number you are looking at before you try to explain it.
-
-Facts last verified 9 September 2026. Teaching is online; no Amsterdam Nieuw-West branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Amsterdam Nieuw-West
 
 ## Four courses for the part of Amsterdam with the most children in it
 
 A groep 5 child in Geuzenveld who has run out of levels to finish, a teenager in Osdorp who wants to know what a model actually does rather than what it says, a student in Slotervaart who needs Python to become second nature, and an adult near the Sloterplas who was handed a set of AI tools at work and left to it: four doors, and the first hour of each costs nothing.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Real typed Python, drawings that follow orders and a first program that spots a rule, taught in English to the groep 5 to 8 child anywhere in the district.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 18): Building, training and breaking a model, for the teenager who has used a dozen of them and been shown the inside of none.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (College and adult): Python from an empty file to work that runs unattended, for the student who has met it in one module and wants it properly.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): Reading a table honestly, including telling a measurement from a setting, for anyone who reports numbers to somebody who will act on them.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsReal typed Python, drawings that follow orders and a first program that spots a rule, taught in English to the groep 5 to 8 child anywhere in the district.See the syllabus](/courses/python-ai-kids-masterclass)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 18AI and Machine Learning for TeensBuilding, training and breaking a model, for the teenager who has used a dozen of them and been shown the inside of none.See the syllabus](/courses/ai-ml-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)College and adultPython MasterclassPython from an empty file to work that runs unattended, for the student who has met it in one module and wants it properly.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)Reading a table honestly, including telling a measurement from a setting, for anyone who reports numbers to somebody who will act on them.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Nieuw-West today
 
 ## A district drawn in 1935 and built twenty years later
 
 Very little about this district happened by accumulation. The western expansion of Amsterdam was drawn on paper first, built two decades later, and then reorganised twice, and the sequence of those decisions explains more of what the statistics show than anything the residents have done since.
 
-**A district settled in five decisions**
-
 | When | What was decided | What it fixed |
-|---|---|---|
+| --- | --- | --- |
 | 1935 | the Algemeen Uitbreidingsplan laid the basis for the western expansion | how open the building would be and how much green would sit between it |
 | The 1950s and 1960s | the Westelijke Tuinsteden were built to that plan, in the open building style | the dwelling sizes, and with them the households that could fit in them |
 | During the building | the Sloterplas was dug for sand extraction, to raise the ground of the garden cities around it | the largest piece of water in the district, which is a by-product of the houses |
@@ -62,14 +48,14 @@ The district was set up as a deelgemeente in 2010. When the deelgemeenten were a
 
 Two wijken, Slotermeer-Noordoost and Osdorp-Midden, holding 25,233 residents between them. The rest of the district, including Geuzenveld, Slotervaart, Overtoomse Veld, Osdorp-Oost, De Aker, Sloten and Nieuw Sloten, is named without figures, because none were read for it.
 
+Where the learners are
+
 ## Two garden-city neighbourhoods, and which of their numbers agree
 
 Both were built as part of the same programme and both are still overwhelmingly rented. Populations are 2026 figures; households, area, density, housing and tenure are 2025; incomes are 2024.
 
-**Slotermeer-Noordoost and Osdorp-Midden, side by side**
-
-|  | Slotermeer-Noordoost | Osdorp-Midden | How close are they? |
-|---|---|---|---|
+|   | Slotermeer-Noordoost | Osdorp-Midden | How close are they? |
+| --- | --- | --- | --- |
 | Residents | 9,499 | 15,734 | Osdorp-Midden is 66 percent larger |
 | Households, average size | 4,510 at 2.1 people | 7,415 at 2.1 people | identical average |
 | Dwellings | 4,192 | 6,713 | 60 percent more in Osdorp-Midden |
@@ -81,6 +67,8 @@ Both were built as part of the same programme and both are still overwhelmingly 
 | Under fifteen | 1,760, 19 percent | 2,780, 18 percent | the highest child shares on any Amsterdam page here |
 
 Slotermeer-Noordoost holds the Coronelbuurt, Arondeusbuurt, Meerwaldtbuurt and Dobbebuurt; Osdorp-Midden holds Reimerswaal, the Botteskerkbuurt and the two Zuidwestkwadrant buurten. The district also contains Geuzenveld, Slotervaart, Overtoomse Veld, Osdorp-Oost, De Aker, Sloten and Nieuw Sloten among others, and no figures are invented for them. Placement follows demonstrated ability. A child from the Dobbebuurt and a child from Reimerswaal end up in one group when they are working at one level, and the form never asks which of the two it is.
+
+Verified local facts
 
 ## Every figure, its source, its year, and the claim not made
 
@@ -108,6 +96,8 @@ It does not assert why the two tenure shares match. No source read explains it, 
 
 Modern Age Coders has no connection to the stadsdeel, the city or any school named here and claims none. The tenure shares of 72.99 percent, the two-wijk total of 25,233 residents and the percentage comparisons between the wijken are this page dividing and subtracting published numbers, and are labelled as arithmetic wherever they appear.
 
+Signature project
+
 ## Two neighbourhoods, one tenure split, and nobody who chose it
 
 A figure that matches to a hundredth of a percentage point, a figure that differs by more than half, and a rule for telling which sort of number you are holding.
@@ -124,10 +114,8 @@ These are the Westelijke Tuinsteden, built in the 1950s and 1960s to a plan laid
 
 Then look at what does not match. Osdorp-Midden is 56 percent denser than Slotermeer-Noordoost on seven percent more land, because more was built on it. That is also a decision, made later and separately, which is why it varies while the tenure mix does not. Almost nothing distinctive in these two columns is a fact about residents.
 
-**Which figures were set, and which fell out of the site**
-
 | Figure | Slotermeer-Noordoost | Osdorp-Midden | Measured, or chosen? |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Share of homes rented | 72.99 percent | 72.99 percent | chosen: a housing programme sets its own tenure mix |
 | Average household size | 2.1 | 2.1 | largely chosen: dwelling size decides who can fit |
 | Dwellings built | 4,192 | 6,713 | chosen, but decided separately for each site |
@@ -139,14 +127,14 @@ Then look at what does not match. Osdorp-Midden is 56 percent denser than Sloter
 
 Data arrives looking uniform. Every column is a number, every number invites an explanation, and nothing in the file marks which values were observed in the world and which were entered into a form by somebody with the authority to decide them. That distinction changes everything about what a figure can tell you. A measured value carries information about the thing it measured. A set value carries information about whoever set it, and about nothing else. The tell is usually improbable agreement or improbable roundness. Two neighbourhoods matching to a hundredth of a percentage point. A distribution that stops dead at 100, or 30, or 5,000. A metric that plateaus at exactly the same level every month. A cohort where everybody has the same start date. In each case the pattern that looks like a finding is the shape of a rule, a quota, a rate limit, a budget cap, a default value or a maximum on a form. The failure this produces is expensive because it is so satisfying: somebody explains why usage plateaued last quarter, and the explanation is fluent and plausible and about customer behaviour, and the real answer is that a limit was set at that number in a configuration file three years ago. So the question goes first, before any explanation is attempted. Was this measured, or was it chosen? If it was chosen, the interesting question is not why the value is what it is but who decided, when, and what would happen if they decided differently.
 
+Reliable pipeline
+
 ## Five habits for telling a measurement from a setting
 
 Rate limits, quotas, budget caps, form maximums, default values, target thresholds: every one of them produces a pattern in the data that looks exactly like a behaviour. Practised on two neighbourhoods that agree to a hundredth of a percentage point.
 
-**Sorting the observed from the configured**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Mark every column | Label each field as measured, derived or configured before analysing | A setting explained as a behaviour | A dataset that says what it is |
 | Distrust close agreement | Treat two independent things matching too well as a signal, not a coincidence | A shared cause upstream going unnoticed | A specific question about what links them |
 | Distrust round edges | Look at where a distribution stops, not only where it clusters | A limit read as a natural ceiling | The rule that made the shape |
@@ -167,14 +155,37 @@ A real metric from work that has flattened out. Adults very often find a cap, a 
 
 The district population, area, formation, governance, the Westpoort addition, the 1935 plan, the open building style, the list of garden cities and the origin of the Sloterplas all come from the stadsdeel entry, with the population dated 1 January 2021. Every population, household, age, area, density, dwelling, value, tenure and income figure comes from the national statistics office page for the wijk named beside it, with 2026 populations, 2025 household and housing figures and 2024 incomes. The tenure shares of 72.99 percent, the comparisons of 66, 60, 56, 8 and 9 percent and the two-wijk total of 25,233 are this page dividing published numbers, and are labelled as arithmetic where they appear.
 
+Learning ladder
+
 ## From a game nobody can score eleven in to a dataset that labels its own settings
 
 The starting rung is decided in the free hour by what the learner can already do, and never by which of the garden cities the address is in.
 
-- **Ages 6 to 10: Why does everyone stop at ten?** Children find the rule of the game hiding inside their own chart. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Minecraft Coding for Kids](/courses/minecraft-coding-for-kids-course)
-- **Ages 11 to 13: Measured, or entered by somebody?** Learners sort the columns of a small dataset into things found and things set. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 14 to 18: Agreement that is too good** Teenagers hunt for values that match more closely than chance permits and say what that implies. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [App Development for Teens](/courses/complete-app-development-masterclass-for-teens)
-- **Ages 18 to 67: The plateau with a cap under it** Adults take a flattened metric from work and go looking for the setting that flattened it. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Why does everyone stop at ten?
+
+Children find the rule of the game hiding inside their own chart.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Minecraft Coding for Kids](/courses/minecraft-coding-for-kids-course)Ages 11 to 13
+
+### Measured, or entered by somebody?
+
+Learners sort the columns of a small dataset into things found and things set.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 14 to 18
+
+### Agreement that is too good
+
+Teenagers hunt for values that match more closely than chance permits and say what that implies.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[App Development for Teens](/courses/complete-app-development-masterclass-for-teens)Ages 18 to 67
+
+### The plateau with a cap under it
+
+Adults take a flattened metric from work and go looking for the setting that flattened it.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## An AI will explain why these two neighbourhoods rent at the same rate. Why should a teenager here refuse the explanation?
 
@@ -186,30 +197,139 @@ So the learner practises the question that comes first: was this measured or was
 
 The case for a child in Nieuw-West learning to code in 2026 is therefore not about housing policy. It is that a great deal of what looks like evidence in adult working life is the shape of somebody's earlier decision, that improbable agreement and round edges are how you spot it, and that a district built to a 1935 drawing around a lake dug for its own sand makes the lesson impossible to miss. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes across the garden cities
 
 Nieuw-West is spread out by design, with green between the blocks and real distances between one part and the next, and it has more children in it than anywhere else in this city that this series has measured.
 
-- **Nothing to cross the district for** The lesson runs at the kitchen table in Geuzenveld, Osdorp or Slotervaart at one fixed hour each week, which matters more here than in the older districts because the distances are genuine.
-- **One language for the lesson, another for the paperwork** The teaching happens in English. Four Dutch words survive it, groep and havo and vwo and profielkeuze, kept because a child already knows them from their own timetable and an English version would only need translating back.
-- **Three things exist by the end of the first hour** A level, established by watching the learner work rather than by asking. A course chosen because that level points at it. And an hour in the week that will not move. Money is not mentioned while any of that is happening.
-- **Ability decides, the tuinstad does not** Two learners at the same stage work together whichever garden city they live in, and two at different stages work apart, which is the whole reason the groups are worth joining.
-- **Two lessons every week, around the regio Noord calendar** The same slot twice a week, which usually comes to eight lessons in a month. School holidays here follow regio Noord, and any week a family already knows it will be away is written into the schedule at the start rather than negotiated later.
-- **The teacher sits in India, and the gap changes twice a year** Three and a half hours ahead through the summer and four and a half through the winter, all of that movement coming from the Dutch side. Anything from the end of the school day to mid-evening lands inside both working days, and so does any hour of the weekend.
+### Nothing to cross the district for
 
-**The largest concentration of school-age children on any Amsterdam page in this series** Under-fifteens are 19 percent of Slotermeer-Noordoost and 18 percent of Osdorp-Midden, which is 1,760 and 2,780 children, against 4.38 percent in the least childlike wijk of the centre. Average household size is 2.1 in both. This is where the city's families are, and it is also where a specialist class at one particular level is least likely to exist locally, because a full population of children is not the same thing as a full group of eleven-year-olds ready for the same lesson. Groups here are assembled on ability from across the world, at every age up to sixty-seven.
+The lesson runs at the kitchen table in Geuzenveld, Osdorp or Slotervaart at one fixed hour each week, which matters more here than in the older districts because the distances are genuine.
+
+### One language for the lesson, another for the paperwork
+
+The teaching happens in English. Four Dutch words survive it, groep and havo and vwo and profielkeuze, kept because a child already knows them from their own timetable and an English version would only need translating back.
+
+### Three things exist by the end of the first hour
+
+A level, established by watching the learner work rather than by asking. A course chosen because that level points at it. And an hour in the week that will not move. Money is not mentioned while any of that is happening.
+
+### Ability decides, the tuinstad does not
+
+Two learners at the same stage work together whichever garden city they live in, and two at different stages work apart, which is the whole reason the groups are worth joining.
+
+### Two lessons every week, around the regio Noord calendar
+
+The same slot twice a week, which usually comes to eight lessons in a month. School holidays here follow regio Noord, and any week a family already knows it will be away is written into the schedule at the start rather than negotiated later.
+
+### The teacher sits in India, and the gap changes twice a year
+
+Three and a half hours ahead through the summer and four and a half through the winter, all of that movement coming from the Dutch side. Anything from the end of the school day to mid-evening lands inside both working days, and so does any hour of the weekend.
+
+The largest concentration of school-age children on any Amsterdam page in this series
+
+Under-fifteens are 19 percent of Slotermeer-Noordoost and 18 percent of Osdorp-Midden, which is 1,760 and 2,780 children, against 4.38 percent in the least childlike wijk of the centre. Average household size is 2.1 in both. This is where the city's families are, and it is also where a specialist class at one particular level is least likely to exist locally, because a full population of children is not the same thing as a full group of eleven-year-olds ready for the same lesson. Groups here are assembled on ability from across the world, at every age up to sixty-seven.
+
+Fees
 
 ## The fee, in dollars, the same in every tuinstad
 
 Written on the page rather than kept for a call.
 
-- First class: USD 0. A whole lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A whole lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 One international rate applies and it is quoted in dollars, with no euro edition, so an address in Geuzenveld is charged exactly what an address in Slotervaart is. Nothing is paid until the free lesson has settled a course and an hour, and payment is then arranged over WhatsApp. Pausing, switching plan and missing a week are all set out on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Amsterdam%20Nieuw-West.)Reviews
+
+## Six Google reviews, printed as the people who left them wrote them
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Send us the level, not the tuinstad
+
+The first task might be a game nobody can score eleven in, a dataset whose columns are tagged measured or configured, or a metric at work that flattened out the month somebody set a cap.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Amsterdam Nieuw-West one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Amsterdam%20Nieuw-West.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Amsterdam Nieuw-West coding class questions
+
+The district, its garden cities, one very exact coincidence, the teaching and the terms.
 
 ### Why do two neighbourhoods here have exactly the same share of rented homes?
 
@@ -251,10 +371,14 @@ The first lesson is free. After it, group tuition is USD 100 a month for two liv
 
 Fifteen to twenty, matched on level, pace and goal rather than on age, school or neighbourhood. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
+Explore Amsterdam and beyond
+
 ## East to the old city, and out to the province
 
 East of the ring is [Amsterdam-West](/coding-classes-in-amsterdam-west), whose page follows a label that outlived the buildings it described, and beyond it [Amsterdam-Centrum](/coding-classes-in-amsterdam-centrum), less crowded on paper than every neighbourhood inside it. South is [Amsterdam-Zuid](/coding-classes-in-amsterdam-zuid) and its two disagreeing registers. The city page, [coding classes in Amsterdam](/coding-classes-in-amsterdam), carries the picture for all eight districts, and the city sits inside [Noord-Holland](/coding-classes-in-noord-holland). Everything descends from the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner who wants trained models rather than running programs should begin at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Settle this on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Amsterdam%20Nieuw-West.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-amsterdam-nieuw-west](https://learn.modernagecoders.com/coding-classes-in-amsterdam-nieuw-west#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-amsterdam-nieuw-west*

@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths classes for Barking and D
 canonical: https://learn.modernagecoders.com/coding-classes-in-barking-and-dagenham-london
 source: src/pages/coding-classes-in-barking-and-dagenham-london.html
 ---
-> Barking and Dagenham is the east London borough of Barking, Dagenham, Becontree, Chadwell Heath, Rush Green, Marks Gate and Barking Riverside, with 218,869 residents at the 2021 Census, a larger share of them under 18 than in any other London borough. Classes worth joining teach a learner that the way you summarise data can change the answer, and this page shows it with the Census itself: by median age the borough is only sixth youngest in London, but by share of children it comes first. We teach live over video from India, for learners aged 6 to 67, either alone with a teacher or in a class of fifteen to twenty at one level. There is no fee for the first lesson; after that it is USD 100 a month for a class place or USD 150 a month one to one.
+> Live online coding, Python, AI and maths classes for Barking and Dagenham: Barking, Dagenham, Becontree, Chadwell Heath and Barking Riverside. Ages 6 to 67.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Barking and Dagenham
-
-London Borough of Barking and Dagenham / Live online
-
-# Coding classes in Barking and Dagenham
-
-**What are the best coding classes in Barking and Dagenham?** Barking and Dagenham is the east London borough of Barking, Dagenham, Becontree, Chadwell Heath, Rush Green, Marks Gate and Barking Riverside, with 218,869 residents at the 2021 Census, a larger share of them under 18 than in any other London borough. Classes worth joining teach a learner that the way you summarise data can change the answer, and this page shows it with the Census itself: by median age the borough is only sixth youngest in London, but by share of children it comes first. We teach live over video from India, for learners aged 6 to 67, either alone with a teacher or in a class of fifteen to twenty at one level. There is no fee for the first lesson; after that it is USD 100 a month for a class place or USD 150 a month one to one.
-
-At the 2021 Census, 29.0% of Barking and Dagenham's residents were under 18, more than in any of London's 32 boroughs or the City. So is it London's youngest borough? It depends how you ask. Rank the 33 areas by median age, the age of the person exactly in the middle, and Barking and Dagenham comes sixth, behind Tower Hamlets, Newham, Hackney, Islington and Lambeth. Our learners download the Census age tables for every London area and work out both measures themselves, including the median from grouped five-year age bands, a classic technique that turns out to be surprisingly accurate. On the way they meet a small puzzle: the borough's single-year age table adds up to 218,863, six fewer than the published total.
-
-Facts last verified 25 September 2026. Teaching is online; no Barking and Dagenham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Barking and Dagenham
 
 ## Courses to start with in Barking and Dagenham
 
 Think of a Year 2 child in Becontree who lines up the family by height, a Year 7 pupil in Barking who loves league tables of anything, a Year 12 student in Dagenham choosing between maths and geography, and a youth worker in Chadwell Heath who wants to use local figures well. One free lesson is open to each of them.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): A Scratch line-up game where sprites stand in order of age, and the middle one is the median.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 9 to 12): First Python with Census numbers: how many children, how many adults, and which London area has the most.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Python for Key Stages 3 to 5, including grouped medians and rankings from the Census, as on this page.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): For adults who use local statistics at work and want to choose and explain their measures carefully.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsA Scratch line-up game where sprites stand in order of age, and the middle one is the median.See the syllabus](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 9 to 12Python and AI for KidsFirst Python with Census numbers: how many children, how many adults, and which London area has the most.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensPython for Key Stages 3 to 5, including grouped medians and rankings from the Census, as on this page.See the syllabus](/courses/python-complete-masterclass-teens)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For adults who use local statistics at work and want to choose and explain their measures carefully.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)The borough in numbers
 
 ## 218,869 residents and three Grade I entries
 
 Where the number is our own count, we say whose data it came from; the rest are published as they stand.
 
-**Barking and Dagenham, with sources**
-
 | What we looked at | What we found | Source |
-|---|---|---|
+| --- | --- | --- |
 | Usual residents on Census day 2021 | 218,869 | ONS table TS001 |
 | Residents under 18 | 29.0%, highest of London's 33 areas | Our calculation from ONS table TS007 |
 | Heritage List entries within the borough | 45: 3 Grade I, 4 Grade II*, 38 Grade II | Historic England data, counted 25 September 2026 |
@@ -61,14 +47,14 @@ The Parish Church of St Margaret in Barking is the borough's third Grade I entry
 
 The Fire Bell Gate at Barking Abbey, Valence House and the Church of St Peter and St Paul are among the Grade II* entries.
 
+The data
+
 ## Two Census tables, 33 London areas
 
 The Office for National Statistics publishes the 2021 Census age counts in several forms. We use two for every London area: ages in single years from 0 to 100 and over, and ages in five-year bands.
 
-**Barking and Dagenham in each table**
-
 | Table | What it counts | Rows add up to |
-|---|---|---|
+| --- | --- | --- |
 | TS001 | All usual residents, one number | 218,869 (the published total) |
 | TS007A | Five-year age bands, 0 to 4 up to 85 and over | 218,869 |
 | TS007 | Single years of age, 0 up to 100 and over | 218,863 |
@@ -76,6 +62,8 @@ The Office for National Statistics publishes the 2021 Census age counts in sever
 The single-year table comes to six fewer people than the published total. Each Census table is released separately and the parts of one need not add exactly to another's total, so we always quote the published figure, 218,869, and never our own sum. Learners are asked to spot this for themselves before anything else, because a program that silently adds rows would report the wrong population.
 
 The two most common single ages in the borough are 36, with 3,869 residents, and 9, with 3,778: a shape that suggests many families with young children, which learners can see immediately in a population chart. We could not include a library list: the council's libraries page gave our automated reader an access error, which we did not try to get around.
+
+Signature project
 
 ## Median from grouped data, and a ranking that flips
 
@@ -93,10 +81,8 @@ With five-year bands you know which band holds the middle person but not their e
 
 Sort London by median age, by share under 18 and by share aged 65 and over, and see where Barking and Dagenham lands each time.
 
-**Barking and Dagenham among 33 London areas, run 25 September 2026**
-
 | Measure | Barking and Dagenham | Place in London | Top of the list |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Median age, single years | 33.4 | 6th youngest | Tower Hamlets, 30.7 |
 | Median age, from five-year bands | 33.3 | 6th youngest | Tower Hamlets, 30.8 |
 | Share under 18 | 29.0% | 1st | Barking and Dagenham |
@@ -107,6 +93,8 @@ Two results surprise most learners. First, the grouped-data median is remarkably
 ### Why not just ask an AI which borough is youngest?
 
 An assistant will pick one reading of "youngest" and answer confidently, possibly without telling you which. Learners who have computed the median, the share of children and the share of older people themselves know that the question has several honest answers, and they know to check whether a total has been added up from parts or taken from the published figure. Those two habits protect against a surprising number of wrong headlines.
+
+Good statistical manners
 
 ## Choosing and naming your measure
 
@@ -126,6 +114,8 @@ Grouped data needs an assumption about spread inside each band. Check it against
 
 Grouped data and estimated medians turn up in school statistics well before A level; older students can extend the project to quartiles, population pyramids and weighted averages across boroughs. The age counts are the ONS's, released as Census 2021 tables; the medians, shares and rankings are our own calculations of 25 September 2026. Neither the ONS, Barking and Dagenham Council, Historic England nor TfL has any link with Modern Age Coders.
 
+Getting around
+
 ## Barking station, four lines, and a laptop
 
 Barking is a busy interchange. A lesson with us needs no interchange at all.
@@ -142,16 +132,41 @@ A learner at Barking Riverside and another at Marks Gate can share a class witho
 
 Each group has fifteen to twenty learners at the same stage, so every learner is working at a pace that suits them.
 
-**Barking and Dagenham in London** Barking and Dagenham is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) covers them all and the City, linking each page as it goes up, including [Havering](/coding-classes-in-havering-london) to the east and [Newham](/coding-classes-in-newham-london) to the west.
+Barking and Dagenham in London
+
+Barking and Dagenham is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) covers them all and the City, linking each page as it goes up, including [Havering](/coding-classes-in-havering-london) to the east and [Newham](/coding-classes-in-newham-london) to the west.
+
+Learning ladder
 
 ## From lining up by age to ranking London
 
 The free lesson decides the starting rung by what the learner can do on the day, not by the year group on paper.
 
-- **Ages 6 to 10: Order and middles** Children sort sprites by size in Scratch and find the one in the middle. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 10 to 13: Counting people** Python that reads Census counts, adds up age groups and calculates percentages. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 18: Grouped statistics** Interpolated medians, shares and rankings across 33 areas, ideal practice for GCSE and A-level statistics and a strong project. [Python for Teens](/courses/python-complete-masterclass-teens), [Full Stack Web Development for Teens](/courses/full-stack-web-development-teens-masterclass)
-- **Ages 18 to 67: Honest local figures** Adults learn to choose, compute and explain population measures for reports and funding bids. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### Order and middles
+
+Children sort sprites by size in Scratch and find the one in the middle.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 10 to 13
+
+### Counting people
+
+Python that reads Census counts, adds up age groups and calculates percentages.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 18
+
+### Grouped statistics
+
+Interpolated medians, shares and rankings across 33 areas, ideal practice for GCSE and A-level statistics and a strong project.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Full Stack Web Development for Teens](/courses/full-stack-web-development-teens-masterclass)Ages 18 to 67
+
+### Honest local figures
+
+Adults learn to choose, compute and explain population measures for reports and funding bids.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## An AI can answer "which borough is youngest?" instantly. Why learn to work it out?
 
@@ -163,30 +178,139 @@ The habits reach far beyond ages: in health, education and business, rankings fl
 
 Barking and Dagenham has more children, proportionally, than anywhere else in London. Helping them learn to work with data like this is exactly the kind of teaching this borough deserves. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Barking to Chadwell Heath, lessons live
 
 In any part of the borough, a class starts as soon as the call connects.
 
-- **Your own space** A laptop or desktop, a pair of headphones and a broadband connection that handles video are enough.
-- **England's Key Stages** We talk about progress in the Key Stages used by English schools, from the first years of primary up to sixth form, and name GCSE or A level where they apply. Lessons are in English.
-- **Free to try** Lesson one costs nothing and teaches properly; by its end the teacher can recommend a level and course. We never ask for card details at that point.
-- **Fifteen to twenty per class** Classes bring together learners at the same stage from across the UK and overseas, so we can usually offer a convenient time.
-- **Two evenings** Most classes meet two evenings a week and take agreed breaks for half terms, holidays and exams.
-- **Times in UK time** Teachers are based in India, and every time we send already matches the clock in Barking.
+### Your own space
 
-**A young borough, a well-matched class** Nearly 219,000 people live in Barking and Dagenham, and a good class still needs five learners at one level free at one time, which is why ours reach far beyond it.
+A laptop or desktop, a pair of headphones and a broadband connection that handles video are enough.
+
+### England's Key Stages
+
+We talk about progress in the Key Stages used by English schools, from the first years of primary up to sixth form, and name GCSE or A level where they apply. Lessons are in English.
+
+### Free to try
+
+Lesson one costs nothing and teaches properly; by its end the teacher can recommend a level and course. We never ask for card details at that point.
+
+### Fifteen to twenty per class
+
+Classes bring together learners at the same stage from across the UK and overseas, so we can usually offer a convenient time.
+
+### Two evenings
+
+Most classes meet two evenings a week and take agreed breaks for half terms, holidays and exams.
+
+### Times in UK time
+
+Teachers are based in India, and every time we send already matches the clock in Barking.
+
+A young borough, a well-matched class
+
+Nearly 219,000 people live in Barking and Dagenham, and a good class still needs five learners at one level free at one time, which is why ours reach far beyond it.
+
+Fees
 
 ## Fees for Barking and Dagenham families
 
 A free first lesson, then one monthly fee across the whole borough.
 
-- First class: USD 0. A complete lesson with a teacher, free, ending with a recommended level, course and time.
-- Group tuition: USD 100 a month. Roughly eight live lessons a month in a class of fifteen to twenty at one stage.
-- Private tuition: USD 150 a month. Roughly eight live lessons a month with one teacher for one learner.
+First class**USD 0**
+
+A complete lesson with a teacher, free, ending with a recommended level, course and time.
+
+Group tuition**USD 100**
+
+Roughly eight live lessons a month in a class of fifteen to twenty at one stage.
+
+Private tuition**USD 150**
+
+Roughly eight live lessons a month with one teacher for one learner.
 
 Families here pay in US dollars, as everyone outside India does, and the site lists no pound prices. We take nothing until the free lesson has happened and you have chosen a course and a weekly slot. How pauses, missed lessons and swaps between group and private teaching work is set out on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Barking%20and%20Dagenham.)Reviews
+
+## Families' Google reviews, unchanged
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book the free lesson
+
+Share the learner's age or year group and something they enjoy. We might start with a Scratch line-up game, a Python look at Census numbers, or the median project on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Barking and Dagenham one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Barking%20and%20Dagenham.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Questions from Barking and Dagenham
+
+About the borough, the Census project and how lessons run.
 
 ### How many people live in Barking and Dagenham?
 
@@ -228,10 +352,14 @@ The first lesson is free. After that, a group place costs USD 100 a month for tw
 
 By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
 
+Explore London
+
 ## Across the capital and the country
 
 The [London page](/best-coding-class-in-london) lists every borough and the City with a link to each page once published, including [Redbridge](/coding-classes-in-redbridge-london) to the north and [Bexley](/coding-classes-in-bexley-london) across the river. Learners who enjoy working with real statistics can continue into our [London AI and machine learning classes](/ai-and-machine-learning-classes-in-london), and the [UK coding page](/coding-classes-in-united-kingdom) compares school stages in England with Scotland, Wales and Northern Ireland.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Barking%20and%20Dagenham.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-barking-and-dagenham-london](https://learn.modernagecoders.com/coding-classes-in-barking-and-dagenham-london#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-barking-and-dagenham-london*

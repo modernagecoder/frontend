@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths lessons for Knocknacarra 
 canonical: https://learn.modernagecoders.com/coding-classes-in-knocknacarra-galway
 source: src/pages/coding-classes-in-knocknacarra-galway.html
 ---
-> A Knocknacarra learner meets a real teacher in every lesson, live on a video call, either with a handful of others at the same stage or alone, generally on two days a week, and anyone from six to sixty-seven can join. It all happens at home. Lesson one is free, and each month from then on is USD 100 for a shared group or USD 150 for private lessons.
+> Live online coding, Python, AI and maths lessons for Knocknacarra learners aged 6 to 67, in small same-level groups or one to one. The first lesson is free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [Galway](/best-coding-class-in-galway) / Knocknacarra
-
-Knocknacarra, Galway / Live online
-
-# Coding classes in Knocknacarra
-
-**What are the best coding classes in Knocknacarra?** A Knocknacarra learner meets a real teacher in every lesson, live on a video call, either with a handful of others at the same stage or alone, generally on two days a week, and anyone from six to sixty-seven can join. It all happens at home. Lesson one is free, and each month from then on is USD 100 for a shared group or USD 150 for private lessons.
-
-At Galway Port, 5.5 kilometres from Knocknacarra's community centre, the Marine Institute runs two tide gauges about thirty metres apart, each logging the sea level every five minutes. Do they agree? Their readings correlate at 0.99995, which sounds like perfect agreement. It is not. One gauge reads 17.4 millimetres lower than the other on average, the gap nearly triples at low water, and two impossible readings, each claiming the sea stood 32.753 metres below datum, would on their own make the gauges seem to disagree by a third of a metre. This page teaches a learner how to measure agreement properly, and why correlation cannot.
-
-Facts last verified 20 September 2026. Teaching is online; no Knocknacarra branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Knocknacarra
 
 ## Four first courses for Knocknacarra
 
 Choose by age to begin; the teacher uses the free first lesson to check the level and moves the learner if another course fits better.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Blocks and two rulers: measuring the same things twice and spotting which ruler reads long.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 13): Differences, averages and spread in code, and why two lists can rise and fall together yet still disagree.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 18): Real sensor data in Python: pairing readings, cleaning impossible values, and agreement plots.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (College and adult): For adults who compare instruments, methods or suppliers and need more than a correlation.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlocks and two rulers: measuring the same things twice and spotting which ruler reads long.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 13Maths Through CodingDifferences, averages and spread in code, and why two lists can rise and fall together yet still disagree.See the syllabus](/courses/maths-through-coding)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 18Data Science for TeensReal sensor data in Python: pairing readings, cleaning impossible values, and agreement plots.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)College and adultData Analysis CourseFor adults who compare instruments, methods or suppliers and need more than a correlation.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## Two gauges, one sea: agreement is not correlation
 
 Both gauges sit in Galway Port and report the sea level every five minutes to the Marine Institute; the comparison covers 1 January to 31 August 2026, with both series on the Ordnance Datum Malin scale. The program pairs readings taken at the same moment and compares them.
 
-**Galway Port and Galway Port 2, January to August 2026**
-
 | Measure | Result |
-|---|---|
+| --- | --- |
 | Readings paired at the same moment | 69,476, or 99.3 percent |
 | Correlation between the two gauges | 0.99995 |
 | Average difference (first minus second) | minus 17.4 millimetres |
@@ -81,14 +67,14 @@ Every reading in both files carries quality flag 0, which the network defines as
 
 Comparing two gauges shows how far apart they are, not which one is correct. That would need a third reference, and the page does not say either gauge is in error.
 
+Knocknacarra, named
+
 ## Knocknacarra from its community centre, playgrounds and schools
 
 Each fact below comes from the organisation that publishes it.
 
-**Named places in Knocknacarra**
-
 | Place | What its own source says |
-|---|---|
+| --- | --- |
 | Knocknacarra Community Centre | Cappagh Road, Knocknacarra |
 | McGrath's Field Playground | Shangort Road, Knocknacarra |
 | Cappagh Park Playground | Cappagh Road, beside the community centre |
@@ -106,7 +92,11 @@ Gaelscoil Mhic Amhlaigh says it spent 1993 to 1999 in temporary accommodation in
 
 Knocknacarra Educate Together National School describes itself as a primary school in Galway City, and its website lists a STEM committee, Green Schools and an active schools programme.
 
-**What this page does not claim** No population is given for Knocknacarra, because the page prints only what named bodies publish about the place. The tide readings come from the port, 5.5 kilometres away, and the page makes no claim about flooding or water levels on the Knocknacarra shore.
+What this page does not claim
+
+No population is given for Knocknacarra, because the page prints only what named bodies publish about the place. The tide readings come from the port, 5.5 kilometres away, and the page makes no claim about flooding or water levels on the Knocknacarra shore.
+
+Learning here
 
 ## How a Knocknacarra learner's week goes
 
@@ -126,14 +116,37 @@ No background is assumed for grown-up learners; the opening lesson points them t
 
 Sea levels are the Marine Institute's published readings; the pairing, cleaning, correlation, differences and limits of agreement were calculated by us on 20 September 2026. Community centre and playground details come from Galway City Council's open data, and school details from the schools' own websites.
 
+Learning ladder
+
 ## From two rulers to an agreement plot
 
 Treat each band as a first guess; lesson one sets the real level.
 
-- **Ages 6 to 10: Measure twice** Block-coded games that measure the same objects two ways and compare. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Differences** Python that pairs two lists and studies the differences, not just the values. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Agreement analysis** Real sensor pairs, impossible-value checks and limits of agreement. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Comparing methods** Deciding whether two instruments, labs or systems can be used interchangeably. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Measure twice
+
+Block-coded games that measure the same objects two ways and compare.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Differences
+
+Python that pairs two lists and studies the differences, not just the values.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Agreement analysis
+
+Real sensor pairs, impossible-value checks and limits of agreement.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Comparing methods
+
+Deciding whether two instruments, labs or systems can be used interchangeably.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## Ask an assistant whether the two gauges agree
 
@@ -145,30 +158,139 @@ Someone who has done this project asks instead for the paired differences, their
 
 Moving together is not the same as agreeing. The difference is one subtraction away. The longer argument is in [the case for young people learning to program](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How lessons run for Knocknacarra
 
 The details that matter.
 
-- **With a teacher, live** The teacher runs every lesson in real time and works through each learner's code with them.
-- **Matched by ability** Each group has fifteen to twenty members at a similar stage, whether they log in from Knocknacarra, another county or another country.
-- **Fixed days** Lessons on the same two days each week, roughly eight in a month.
-- **Term-friendly** The plan allows for school holidays, mid-terms and exam weeks.
-- **What to have** A laptop or desktop computer, a microphone, headphones or speakers, and broadband that handles video.
-- **Private teaching** One-to-one lessons for learners who are ahead, need more time, or keep unusual hours.
+### With a teacher, live
 
-**Online, not local** Modern Age Coders has no premises in Knocknacarra, in Galway or anywhere in Ireland. Every lesson is live on video and runs the same from any home.
+The teacher runs every lesson in real time and works through each learner's code with them.
+
+### Matched by ability
+
+Each group has fifteen to twenty members at a similar stage, whether they log in from Knocknacarra, another county or another country.
+
+### Fixed days
+
+Lessons on the same two days each week, roughly eight in a month.
+
+### Term-friendly
+
+The plan allows for school holidays, mid-terms and exam weeks.
+
+### What to have
+
+A laptop or desktop computer, a microphone, headphones or speakers, and broadband that handles video.
+
+### Private teaching
+
+One-to-one lessons for learners who are ahead, need more time, or keep unusual hours.
+
+Online, not local
+
+Modern Age Coders has no premises in Knocknacarra, in Galway or anywhere in Ireland. Every lesson is live on video and runs the same from any home.
+
+Fees
 
 ## Fees for Knocknacarra
 
 Briefly.
 
-- First class: USD 0. A free first lesson with a level check.
-- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at the same level, about eight live lessons.
-- Private tuition: USD 150 a month. A month of one-to-one lessons at the same frequency.
+First class**USD 0**
+
+A free first lesson with a level check.
+
+Group tuition**USD 100**
+
+A month in a group of fifteen to twenty at the same level, about eight live lessons.
+
+Private tuition**USD 150**
+
+A month of one-to-one lessons at the same frequency.
 
 The fee is one amount in US dollars for every family outside India, paid a month at a time. No payment is due for the trial, the first charge comes with the start of the course, and the pricing page spells out what happens around holidays, absences and a move from group to private lessons or back.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Knocknacarra.)Reviews
+
+## Parents' Google reviews, word for word and unedited
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free first lesson in Knocknacarra
+
+Send a line about the learner's age and what they like, and we will prepare an opening lesson to match. It may finish with a small game, a working program, or two sets of measurements compared the proper way.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Knocknacarra one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Knocknacarra.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Knocknacarra coding class questions
+
+What Knocknacarra families usually ask.
 
 ### Is there a Modern Age Coders centre in Knocknacarra?
 
@@ -206,10 +328,14 @@ The first lesson is free. Then a group place costs USD 100 a month for about eig
 
 Fifteen to twenty, matched by level, pace and goals rather than age or address. If no group runs at a workable time, lessons are one to one.
 
+Explore Ireland
+
 ## Around Knocknacarra
 
 The [Galway](/best-coding-class-in-galway) page covers the city, and the [County Galway](/coding-classes-in-county-galway) page the wider county. For every other county, town and district, start from the [Ireland hub](/coding-classes-in-ireland).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Knocknacarra.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-knocknacarra-galway](https://learn.modernagecoders.com/coding-classes-in-knocknacarra-galway#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-knocknacarra-galway*

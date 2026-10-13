@@ -12,7 +12,7 @@ LIVE ONLINE · SREEBHUMI · LAKE TOWN · VIP ROAD
 
 Modern Age Coders runs live online coding and mathematics classes for families near Sreebhumi, Lake Town and the VIP Road corridor. Children learn in batches of 15–20, taught in real time by full-time software engineers and maths graduates, never pre-recorded video. Lessons are project-based, mapped to ICSE Java/BlueJ and CBSE Python syllabi, and run entirely from home, so no one crawls through the Sreebhumi junction. Book a free demo first.
 
-100% live, never recordedSmall batches (15–20)Engineers & maths graduatesFree demo, no payment upfront6–8Students per live batch1:1Personal attention option₹1,499Starting fee per month0 minCommute through VIP Road traffic[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)AT A GLANCE
+100% live, never recordedBatches (15–20)Engineers & maths graduatesFree demo, no payment upfront15–20Students per live batch1:1Personal attention option₹1,499Starting fee per month0 minCommute through VIP Road traffic[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)AT A GLANCE
 
 ## The essentials, in one place
 

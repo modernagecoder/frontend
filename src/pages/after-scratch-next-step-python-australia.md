@@ -4,34 +4,28 @@ description: "What comes after Scratch? When Australian kids are ready for Pytho
 canonical: https://learn.modernagecoders.com/after-scratch-next-step-python-australia
 source: src/pages/after-scratch-next-step-python-australia.html
 ---
-> The usual next step after Scratch is Python, a text language that keeps every idea a child already knows (loops, variables, decisions, input) but asks them to type it. Most children are ready somewhere between nine and twelve, once their Scratch projects feel cramped and they can type short words comfortably. The smoothest way across is to rebuild a game they already made in Scratch, line by line, in Python.
+> What comes after Scratch? When Australian kids are ready for Python, a block-by-block translation of a real Scratch game, and the four traps that catch beginners.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / After Scratch: Python
+In short
 
-Australia · Ages 9 to 14 · Live online
+The usual next step after Scratch is Python, a text language that keeps every idea a child already knows (loops, variables, decisions, input) but asks them to type it. Most children are ready somewhere between nine and twelve, once their Scratch projects feel cramped and they can type short words comfortably. The smoothest way across is to rebuild a game they already made in Scratch, line by line, in Python.
 
-# After Scratch: moving to Python
-
-Sooner or later most keen Scratch coders hit a wall. Their projects have grown so large that scrolling around the blocks is a chore, they want something Scratch cannot easily do, or an older cousin has shown them "real code" and they want in. That moment is the right time to move to Python, and it is far gentler than parents fear. Almost every idea a child has used in Scratch has a direct Python equivalent; what changes is that they now type it. This page explains how to tell when a child is ready, translates one complete Scratch game into Python block by block, and lists the four traps that catch almost every new Python programmer so you can spot them coming.
-
-At a glance: For: Scratch coders, about 9 to 14; Moving to: Python; Usual timing: After a year or so of Scratch; First project: A game they already built; Biggest change: Typing instead of snapping; Format: Live online lessons; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Courses for the move from Scratch to Python
 
 Choose by age. Each one starts by connecting Python to what the child already knows from Scratch.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass): Ages 9 to 12 in the course's own words. Games, turtle drawings and small AI projects, starting from Scratch ideas.
-- [Python for Teens](/courses/python-complete-masterclass-teens): Ages 13 to 18. A full year from first programs to confident, well-structured Python.
-- [Maths Through Coding](/courses/maths-through-coding): Ages 10 to 15. Python used as a tool for school maths, for children who enjoy numbers.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  ASPY / 01 Python and AI for Kids Ages 9 to 12 in the course's own words. Games, turtle drawings and small AI projects, starting from Scratch ideas. Open the syllabus →](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)  ASPY / 02 Python for Teens Ages 13 to 18. A full year from first programs to confident, well-structured Python. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)  ASPY / 03 Maths Through Coding Ages 10 to 15. Python used as a tool for school maths, for children who enjoy numbers. Open the syllabus →](/courses/maths-through-coding)
+
+Readiness
 
 ## Five signs a child is ready to leave Scratch
 
 Age matters less than these signs. A nine year old who shows four of them is often more ready than a twelve year old who shows one.
 
-**Signs of readiness for Python (our teaching experience)**
-
 | Sign | What you might notice |
-|---|---|
+| --- | --- |
 | Big projects | Their Scratch projects have many sprites and long scripts that are hard to scroll through |
 | Variables used freely | They invent variables of their own for scores, speeds and timers |
 | Frustration with blocks | They complain that something would be easier "if I could just type it" |
@@ -52,31 +46,31 @@ The free first class is a good test: the teacher tries a few lines of Python and
 
 The Australian Curriculum makes the same move. Years 5 and 6 build "visual programs" with variables and input (AC9TDI6P05); from Years 7 and 8, students write programs "in a general-purpose programming language" (AC9TDI8P09). Doing it a little earlier at home just means school feels familiar. Families still deciding between languages can compare them on our page about [kids coding languages](/kids-coding-languages-australia).
 
+A worked example
+
 ## One Scratch game, translated block by block
 
 Our favourite bridge project is a guess-the-number game. The computer picks a secret number from 1 to 100, the player guesses, and the computer answers "Higher!" or "Lower!" until the guess is right. Most children have built something like it in Scratch.
 
-**The translation table: Scratch block to Python line (block names from the Scratch Foundation's own block definitions)**
-
 | Scratch block | Python | What changes |
-|---|---|---|
+| --- | --- | --- |
 | when green flag clicked | the program starts at the top of the file | No start block: Python runs from the first line |
 | set secret to (pick random 1 to 100) | secret = random.randint(1, 100) | Needs import random at the top |
 | set guess to 0 | guess = 0 | Exactly the same idea, typed |
 | repeat until (guess = secret) | while guess != secret: | The condition flips: until equal becomes while not equal |
 | ask (Guess a number) and wait | input("Guess a number: ") | The question is typed in quotation marks |
 | set guess to (answer) | guess = int(input(...)) | int() turns the typed text into a number |
-| if (guess &lt; secret) then say Higher! | if guess &lt; secret: print("Higher!") | A colon and indentation replace the C-shaped block |
-| if (guess &gt; secret) then say Lower! | elif guess &gt; secret: print("Lower!") | elif means "otherwise, if" |
+| if (guess < secret) then say Higher! | if guess < secret: print("Higher!") | A colon and indentation replace the C-shaped block |
+| if (guess > secret) then say Lower! | elif guess > secret: print("Lower!") | elif means "otherwise, if" |
 | say You got it! | print("You got it!") | Output goes to the screen as text |
 
-Put together, the Python version is ten lines long, and we ran it to check it behaves exactly like the Scratch game. Python's documentation describes random.randint(a, b) as returning "a random integer N such that a &lt;= N &lt;= b", so 1 and 100 are both possible, just like Scratch's pick random 1 to 100.
+Put together, the Python version is ten lines long, and we ran it to check it behaves exactly like the Scratch game. Python's documentation describes `random.randint(a, b)` as returning "a random integer N such that a <= N <= b", so 1 and 100 are both possible, just like Scratch's *pick random 1 to 100*.
 
 ### The flip that catches everyone
 
-Scratch says repeat until the guess equals the secret. Python's loop says while the guess does not equal the secret. They mean the same thing, but the condition is turned inside out.
+Scratch says *repeat until* the guess equals the secret. Python's loop says *while* the guess does not equal the secret. They mean the same thing, but the condition is turned inside out.
 
-Children who copy the Scratch condition straight across write while guess == secret, and the loop never runs. Spotting why is one of the most valuable ten minutes in the whole course.
+Children who copy the Scratch condition straight across write `while guess == secret`, and the loop never runs. Spotting why is one of the most valuable ten minutes in the whole course.
 
 ### A bonus question for keen players
 
@@ -86,14 +80,14 @@ We checked this by running the halving strategy for all 100 secret numbers in Py
 
 Sources, read 7 October 2026: block labels from the Scratch Foundation's [scratch-blocks](https://github.com/scratchfoundation/scratch-blocks) repository (msg/json/en.json); [Python documentation for the random module](https://docs.python.org/3/library/random.html). The ten-line game and the halving check are our own code.
 
+Four traps
+
 ## The four traps that catch new Python programmers
 
 Every Scratch coder who moves to Python meets these. None of them is a sign of a weak student; they are features of typed code that blocks protected them from.
 
-**Beginner traps when moving from Scratch to Python**
-
 | Trap | What happens | How we teach past it |
-|---|---|---|
+| --- | --- | --- |
 | Indentation | Code inside a loop or if is not indented, so Python complains or runs it at the wrong time | Children colour the indented lines on paper first, matching each to the C-shaped block it replaces |
 | = and == | They write if guess = secret, and Python reports an error | One equals sign stores a value; two compare. We say "becomes" and "is equal to" aloud |
 | Text is not a number | input() gives text, so comparing it with a number fails | We print the type of the value so they see "str" and know to use int() |
@@ -111,14 +105,14 @@ When something breaks, change one thing and run again. Changing five things at o
 
 Before pressing run, say what should happen. The gap between the prediction and the result is where the learning is.
 
+Scratch and Python
+
 ## Python vs Scratch for kids: what each does well
 
 The comparison parents ask about most. They are not rivals; they are stages. But each has real strengths.
 
-**Scratch and Python side by side**
-
-|  | Scratch | Python |
-|---|---|---|
+|   | Scratch | Python |
+| --- | --- | --- |
 | How you code | Drag and snap blocks | Type text |
 | Typing errors | Impossible | Common at first, then rare |
 | Graphics and sound | Built in from the first minute | Needs a library such as turtle or Pygame |
@@ -138,14 +132,14 @@ Freedom. Python can read files, talk to websites, crunch numbers and run AI mode
 
 Respect. Many children find it deeply motivating to write the same language used by professional programmers. Our [longer Scratch and Python comparison](/blog/scratch-vs-python-which-better-young-learners) covers the decision for younger learners.
 
+Stages
+
 ## Four stages from Scratch coder to Python coder
 
 With a weekly lesson, most children who arrive confident in Scratch reach the third stage within two terms.
 
-**Crossing from Scratch to Python**
-
 | Stage | What your child can do |
-|---|---|
+| --- | --- |
 | 1. Translate | Rebuild a small Scratch game in Python with help, using a translation table |
 | 2. Write | Write a new Python program from a blank file, fixing their own error messages |
 | 3. Organise | Split a program into functions and reuse them, which Scratch made awkward |
@@ -154,63 +148,293 @@ With a weekly lesson, most children who arrive confident in Scratch reach the th
 ### Should they keep using Scratch?
 
 For fun, absolutely. Many children keep a Scratch project going alongside Python for months, and switching between them strengthens both.
+
 In lessons we focus on Python once the move starts, so the new habits stick.
 
 ### School terms and holidays
 
 Lessons run through the four school terms if you wish and can pause in holidays. Billing is monthly.
+
 The day and time are agreed in the free first class, in your own state's time.
+
+The catalogue
 
 ## Courses after Scratch
 
 Grouped by where a child wants their Python to take them.
 
+I
+
 ### First Python
 
 The core step
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass): From Scratch ideas to Python games and AI.
-- [Python for Teens](/courses/python-complete-masterclass-teens): Beginner to advanced across a full year.
-- [Problem Solving for Kids](/courses/problem-solving-and-computational-thinking-for-kids): Logic and algorithms to sharpen thinking first.
+ASPY / FIRST / 01
+
+#### Python and AI for Kids
+
+From Scratch ideas to Python games and AI.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)
+
+ASPY / FIRST / 02
+
+#### Python for Teens
+
+Beginner to advanced across a full year.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+ASPY / FIRST / 03
+
+#### Problem Solving for Kids
+
+Logic and algorithms to sharpen thinking first.
+
+[Open the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)II
 
 ### Python for making
 
 Games and web
 
-- [Game Development for Kids](/courses/game-development-masterclass-for-kids): Bigger games across Scratch, Roblox and beyond.
-- [Roblox Game Coding](/courses/roblox-game-coding-for-kids-lua-course): Another text language, inside Roblox Studio.
-- [Web Development for Kids](/courses/kids-ai-web-development-course): Web pages, the other common next step.
+ASPY / MAKE / 01
+
+#### Game Development for Kids
+
+Bigger games across Scratch, Roblox and beyond.
+
+[Open the syllabus](/courses/game-development-masterclass-for-kids)
+
+ASPY / MAKE / 02
+
+#### Roblox Game Coding
+
+Another text language, inside Roblox Studio.
+
+[Open the syllabus](/courses/roblox-game-coding-for-kids-lua-course)
+
+ASPY / MAKE / 03
+
+#### Web Development for Kids
+
+Web pages, the other common next step.
+
+[Open the syllabus](/courses/kids-ai-web-development-course)III
 
 ### Python for thinking
 
 Maths and data
 
-- [Maths Through Coding](/courses/maths-through-coding): School maths explored with Python.
-- [AI Literacy for Kids](/courses/ai-literacy-for-kids-course): How machine learning works, ages 8 to 14.
-- [Competitive Programming](/courses/competitive-programming-for-teens-course): Algorithm puzzles for confident teens.
+ASPY / THINK / 01
+
+#### Maths Through Coding
+
+School maths explored with Python.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+ASPY / THINK / 02
+
+#### AI Literacy for Kids
+
+How machine learning works, ages 8 to 14.
+
+[Open the syllabus](/courses/ai-literacy-for-kids-course)
+
+ASPY / THINK / 03
+
+#### Competitive Programming
+
+Algorithm puzzles for confident teens.
+
+[Open the syllabus](/courses/competitive-programming-for-teens-course)
+
+How lessons run
 
 ## Live lessons for new Python coders in Australia
 
 We teach from India, a few hours behind every Australian state, so after-school and weekend lessons in Australia fall comfortably in our working day.
 
-- **Weekday, after school** The usual choice for primary-age coders.
-- **Weekday, early evening** Popular with high school students.
-- **Weekend** Longer sessions for translating bigger projects.
+Weekday, after school
 
-- **A free first class** Your child translates a few Scratch blocks into Python with a teacher, which shows quickly whether they are ready.
-- **Groups** Fifteen to twenty children making the same move from blocks to text.
-- **One to one** For a child who wants to bring a big Scratch project across.
-- **Their keyboard** The child types every line; teachers point, question and explain.
-- **Parents can see** Lessons are live, so you can watch the first Python steps.
-- **Bring a project** Children can bring their own Scratch game to translate.
+The usual choice for primary-age coders.
+
+Weekday, early evening
+
+Popular with high school students.
+
+Weekend
+
+Longer sessions for translating bigger projects.
+
+### A free first class
+
+Your child translates a few Scratch blocks into Python with a teacher, which shows quickly whether they are ready.
+
+### Groups
+
+Fifteen to twenty children making the same move from blocks to text.
+
+### One to one
+
+For a child who wants to bring a big Scratch project across.
+
+### Their keyboard
+
+The child types every line; teachers point, question and explain.
+
+### Parents can see
+
+Lessons are live, so you can watch the first Python steps.
+
+### Bring a project
+
+Children can bring their own Scratch game to translate.
+
+Student work
+
+## Projects built by our students
+
+Finished projects by students who once started in Scratch. Browse more in our [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees for Python lessons
 
 Australian families pay a monthly fee in US dollars. There is nothing to pay to join and no fixed term.
 
-- Free first class: USD 0. A few Scratch blocks turned into Python. An honest view on readiness. No card or bank details.
-- Group batch: USD 100 a month. Fifteen to twenty children per class. One teacher across the months. Classmates making the same move. Stop after any month.
-- One to one: USD 150 a month. Focused on your child's own projects. Pace set by them. Good for translating a big game.
+Free first class
+
+USD 0
+
+no card required
+
+- A few Scratch blocks turned into Python
+- An honest view on readiness
+- No card or bank details
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty children per class
+- One teacher across the months
+- Classmates making the same move
+- Stop after any month
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- Focused on your child's own projects
+- Pace set by them
+- Good for translating a big game
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Taken verbatim from reviews on our Google profile.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions from parents
 
 ## What parents ask about the step after Scratch
 
@@ -254,15 +478,54 @@ It does not require one language, but expects a general-purpose language from Ye
 
 The opening lesson is free and needs no card. After that there is a monthly fee for a group place or for private lessons, both shown under Fees, with no joining charge.
 
+Elsewhere on this site
+
 ## Related pages
 
-- [Coding classes in Australia](/coding-classes-in-australia): Our hub page for Australian families.
-- [Kids coding languages](/kids-coding-languages-australia): Python, JavaScript and Luau compared.
-- [Coding for Year 7](/coding-for-year-7-australia): When school starts using a typed language.
-- [Coding for 9 and 10 year olds](/coding-classes-for-9-and-10-year-olds-australia): The age when many children make the move.
-- [Game development for kids](/game-development-for-kids-australia): Python games and what follows.
-- [Python for 10 year olds](/python-for-10-year-olds): A first Python course at ten.
+More for Australian families making the move to text coding.
 
-## Contact
+### [Coding classes in Australia](/coding-classes-in-australia)
 
-Book the free first class at [https://learn.modernagecoders.com/after-scratch-next-step-python-australia](https://learn.modernagecoders.com/after-scratch-next-step-python-australia#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Our hub page for Australian families.
+
+### [Kids coding languages](/kids-coding-languages-australia)
+
+Python, JavaScript and Luau compared.
+
+### [Coding for Year 7](/coding-for-year-7-australia)
+
+When school starts using a typed language.
+
+### [Coding for 9 and 10 year olds](/coding-classes-for-9-and-10-year-olds-australia)
+
+The age when many children make the move.
+
+### [Game development for kids](/game-development-for-kids-australia)
+
+Python games and what follows.
+
+### [Python for 10 year olds](/python-for-10-year-olds)
+
+A first Python course at ten.
+
+Start here
+
+## Book a free first class
+
+Send your details and we will ring at a time that suits. In the free class your child turns a few of their own Scratch blocks into Python with a teacher, and you hear honestly whether now is the moment to move.
+
+Reading before you book? [How we teach](/how-we-teach) shows a lesson in detail, and the [courses](/courses) page maps out what follows Python.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20our%20child%20in%20Australia%20knows%20Scratch%20and%20wants%20to%20learn%20Python.%20Could%20we%20book%20a%20free%20first%20class%3F) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is the quickest way to reach us from most Australian phones. The +91 prefix reflects our India-based team; we have no Australian office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/after-scratch-next-step-python-australia*

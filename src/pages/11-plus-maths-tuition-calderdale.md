@@ -4,34 +4,28 @@ description: "Live online 11 plus maths for the Halifax Grammar Schools test: ma
 canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-calderdale
 source: src/pages/11-plus-maths-tuition-calderdale.html
 ---
-> The Halifax Grammar Schools, North Halifax Grammar School and The Crossley Heath School, run one joint admissions test in September of Year 6. The provider is FSCE, and Crossley Heath's policy lists Paper 1 and Paper 2, each a test in mathematics and English, and Paper 3 in creative writing. The schools say the test has both multiple-choice and written-response questions, that the maths and English are computer-marked and age-standardised, and that only children with an eligible score have their creative writing assessed. Nothing beyond Year 5 is tested, and there is no non-verbal reasoning. For September 2027 entry, registration ran from 20 March to 26 June 2026 and the test was on Saturday 19 September 2026, with results by 16 October. We teach the maths, live online. We charge nothing for the first lesson; regular tuition is USD 100 per month in a group or USD 150 per month individually.
+> Live online 11 plus maths for the Halifax Grammar Schools test: maths and English marked first, no content beyond Year 5, and large-number calculation taught well.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / 11 plus maths in Calderdale
+In short
 
-Calderdale · Halifax Grammar Schools admissions test · Live online, small groups or one to one
+The Halifax Grammar Schools, North Halifax Grammar School and The Crossley Heath School, run one joint admissions test in September of Year 6. The provider is FSCE, and Crossley Heath's policy lists Paper 1 and Paper 2, each a test in mathematics and English, and Paper 3 in creative writing. The schools say the test has both multiple-choice and written-response questions, that the maths and English are computer-marked and age-standardised, and that only children with an eligible score have their creative writing assessed. Nothing beyond Year 5 is tested, and there is no non-verbal reasoning. For September 2027 entry, registration ran from 20 March to 26 June 2026 and the test was on Saturday 19 September 2026, with results by 16 October. We teach the maths, live online. We charge nothing for the first lesson; regular tuition is USD 100 per month in a group or USD 150 per month individually.
 
-# 11 plus maths tuition in Calderdale
-
-Calderdale's two grammar schools, North Halifax Grammar School and The Crossley Heath School, share one admissions test, and the order in which it is marked says a great deal about the maths. Crossley Heath's policy lists three papers: two that each mix "Mathematics and English", and a third in creative writing. The first two are marked by computer and standardised, a qualifying standard is agreed, and only then are the creative writing papers of children who met it read. Maths, in other words, is part of the gate. The same policy is unusually clear about content: children "are not tested beyond the Year 5 curriculum or on non-verbal reasoning, as these subjects are not taught in school." This page sets out what the schools and the test provider, FSCE, publish, then teaches a Year 5 skill that runs through almost every question: calculating with large numbers, mentally and on paper.
-
-At a glance: Schools: North Halifax Grammar School; Crossley Heath; Provider: Future Stories Community Enterprise (FSCE); Papers: Two maths-and-English papers, one creative writing; Answers: Multiple choice and written responses; Marking order: Maths and English first, writing after; Non-verbal reasoning: Not tested; Content: Nothing beyond Year 5; We teach: Year 5 maths for the gate. Rated 4.9 across 547 Google reviews.
+Calderdale starting points
 
 ## Three courses for the Halifax test
 
 Maths is part of the gate that decides whether the writing is read. Choose by where the maths is least secure.
 
-- [Halifax 11 plus maths](/courses/11-plus-maths-preparation-course-uk): Year 5 maths for mixed papers with multiple-choice and written answers.
-- [Mental calculation with big numbers](/courses/mental-maths-mastery-kids): FSCE tests maths through written and mental methods, with no calculators.
-- [Primary maths, secured](/courses/elementary-mathematics-complete-masterclass): For children whose place value needs work before Year 5 topics.
+[![11 Plus Maths Prep course thumbnail](/images/eleven-plus-maths.webp)  HALIFAX / 1 Halifax 11 plus maths Year 5 maths for mixed papers with multiple-choice and written answers. Open the syllabus →](/courses/11-plus-maths-preparation-course-uk)[![Mental Maths for Kids course thumbnail](/images/mental-maths-kids.webp)  HALIFAX / 2 Mental calculation with big numbers FSCE tests maths through written and mental methods, with no calculators. Open the syllabus →](/courses/mental-maths-mastery-kids)[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  HALIFAX / 3 Primary maths, secured For children whose place value needs work before Year 5 topics. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)
+
+The Halifax test
 
 ## What the two schools and FSCE publish
 
 Calderdale Council's admissions pages blocked our reader, so this page relies on the schools' own pages, Crossley Heath's admissions policy and FSCE's documents. Read on 26 September 2026.
 
-**The Halifax Grammar Schools admissions test for September 2027 entry**
-
 | Step | Date | As published |
-|---|---|---|
+| --- | --- | --- |
 | Registration opens | Friday 20 March 2026 | Online, through either school's website. |
 | Registration closes | Friday 26 June 2026 | Crossley Heath gives 11pm that day. |
 | Test information | By Monday 7 September 2026 | Venue and timetable sent to parents. |
@@ -48,6 +42,8 @@ FSCE's FAQ says the maths and English are marked using optical mark recognition,
 Crossley Heath's FAQ says "There is no pass mark": a qualifying standard is agreed each year and candidates are ranked. Ranking rules and priorities are the schools' to publish and explain.
 
 Sources: [North Halifax Grammar School](https://www.nhgs.co.uk/), school admissions, admissions test format and 2027 timeline; [The Crossley Heath School, admissions](https://www.crossleyheath.org.uk/school-information/admissions), its admissions policy for entry in 2027 and FAQ; FSCE's FAQ and parents' familiarisation guide. Calderdale Council's pages were not readable to us. Modern Age Coders has no connection with either school, FSCE or the council.
+
+Maths first
 
 ## The papers that decide whether the writing is read
 
@@ -67,14 +63,14 @@ Because maths and English are mixed within each paper, a child also has to switc
 
 The policy's content statement is also worth quoting in full: "Children are not tested beyond the Year 5 curriculum or on non-verbal reasoning, as these subjects are not taught in school. This means that all children who take the test in the autumn term of Year 6 will have learnt the content covered in the exam." That is a promise about fairness, and a clear instruction about what to prepare: the Year 5 curriculum, and nothing beyond it.
 
+The lesson
+
 ## Adding and subtracting large numbers, in the head and on paper
 
 The Year 5 curriculum asks children to "add and subtract whole numbers with more than 4 digits, including using formal written methods" and to "add and subtract numbers mentally with increasingly large numbers". FSCE tests maths without calculators, so both matter.
 
-**Mental and written strategies for large numbers (our own examples)**
-
 | Calculation | Strategy | Answer |
-|---|---|---|
+| --- | --- | --- |
 | 46,300 + 8,900 | Add 9,000, then take away 100 | 55,200 |
 | 70,000 - 26,450 | Count up: 26,450 to 30,000 is 3,550; then 40,000 more | 43,550 |
 | 128,475 - 99,999 | Take away 100,000, then add 1 back | 28,476 |
@@ -90,6 +86,8 @@ The last row does need a written method: columnar subtraction, which Year 5 form
 On multiple-choice questions the estimate often finds the answer on its own. On written-response questions it catches the slip before it becomes a lost mark.
 
 Source: [national curriculum in England, mathematics](https://www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study/national-curriculum-in-england-mathematics-programmes-of-study), Year 5 addition and subtraction (statutory requirements). The examples are our own.
+
+Our approach
 
 ## Teaching the curriculum the test is built on
 
@@ -115,14 +113,14 @@ We do not teach English or creative writing. Both matter here, especially since 
 
 We give no advice on applications, ranking or places. The schools' admissions policies set those out.
 
+Halifax and the Calder valley
+
 ## Two grammar schools, one test, taught from home
 
 The two schools run the test jointly. We list them only to show which test this page covers.
 
-**Who shares the Halifax admissions test**
-
 | Grammar school | Part in the joint process |
-|---|---|
+| --- | --- |
 | North Halifax Grammar School | Registration and main testing |
 | The Crossley Heath School | Registration, main testing and the supplementary sitting |
 
@@ -134,14 +132,14 @@ Crossley Heath says it has no defined catchment area. How that affects places is
 
 Neither school, FSCE nor Calderdale Council has any link with Modern Age Coders, and we keep out of applications and places.
 
+Towards September 2027
+
 ## Four stages before the Halifax test
 
 Registration usually opens at the end of March in Year 5 and closes in late June, the schools say; the test follows in September of Year 6.
 
-**From place value to mixed papers**
-
 | When | Stage | You will see |
-|---|---|---|
+| --- | --- | --- |
 | Autumn, Year 5 | 1. Place value to a million | Large numbers read, compared and rounded correctly |
 | Winter, Year 5 | 2. Calculation | Mental strategies chosen well; columnar methods right first time |
 | Spring, Year 5 (register by late June) | 3. The rest of Year 5 | Fractions, measures, shape and data secure |
@@ -150,71 +148,321 @@ Registration usually opens at the end of March in Year 5 and closes in late June
 ### Starting later
 
 Calculation runs through so many questions that it earns the first weeks when time is short.
+
 The trial lesson ends with a straight answer on what the remaining months can realistically achieve.
 
 ### After October
 
 Fluent calculation underpins everything in secondary maths. Some pupils continue with [maths through coding](/courses/maths-through-coding).
+
 Others try the national maths challenges on our [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar).
+
+Courses
 
 ## Maths and coding for Calderdale families
 
 Grouped by stage, each opening its syllabus.
 
+I
+
 ### For the Halifax test
 
 Years 3 to 5
 
-- [11 plus maths, Halifax](/courses/11-plus-maths-preparation-course-uk): Year 5 maths for mixed papers.
-- [Big-number mental maths](/courses/mental-maths-mastery-kids): Strategies that save the written method for when it is needed.
-- [Primary maths core](/courses/elementary-mathematics-complete-masterclass): Place value first.
-- [Abacus calculation](/courses/abacus-mental-maths-course-for-kids): For younger children.
+CDM / 01
+
+#### 11 plus maths, Halifax
+
+Year 5 maths for mixed papers.
+
+[Open the syllabus](/courses/11-plus-maths-preparation-course-uk)
+
+CDM / 02
+
+#### Big-number mental maths
+
+Strategies that save the written method for when it is needed.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+CDM / 03
+
+#### Primary maths core
+
+Place value first.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+CDM / 04
+
+#### Abacus calculation
+
+For younger children.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)II
 
 ### Secondary
 
 Year 6 onwards
 
-- [Secondary maths, early years](/courses/comprehensive-middle-school-mathematics-mastery): Number, algebra and geometry.
-- [GCSE maths, all tiers](/courses/gcse-mathematics-mastery): For every exam board.
-- [Maths olympiad course](/courses/olympiad-competition-mathematics-mastery): For children who want harder problems.
+CDM / 05
+
+#### Secondary maths, early years
+
+Number, algebra and geometry.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+CDM / 06
+
+#### GCSE maths, all tiers
+
+For every exam board.
+
+[Open the syllabus](/courses/gcse-mathematics-mastery)
+
+CDM / 07
+
+#### Maths olympiad course
+
+For children who want harder problems.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)III
 
 ### Coding
 
 Numbers at scale
 
-- [Maths through coding](/courses/maths-through-coding): Big-number arithmetic in Python.
-- [Scratch for primary coders](/courses/scratch-programming-complete-course): Logic in blocks.
-- [Python and AI, primary](/courses/python-ai-kids-masterclass): The first typed language.
+CDM / 08
+
+#### Maths through coding
+
+Big-number arithmetic in Python.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+CDM / 09
+
+#### Scratch for primary coders
+
+Logic in blocks.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)
+
+CDM / 10
+
+#### Python and AI, primary
+
+The first typed language.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)IV
 
 ### Later
 
 Teenagers
 
-- [Vedic maths for teens](/courses/vedic-maths-course-speed-calculation-mastery): Speed on secure foundations.
-- [AI and ML for secondary pupils](/courses/ai-ml-masterclass-teens): Maths in software.
+CDM / 11
+
+#### Vedic maths for teens
+
+Speed on secure foundations.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
+
+CDM / 12
+
+#### AI and ML for secondary pupils
+
+Maths in software.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+Lesson times
 
 ## After school and at weekends, UK time
 
 Lessons come live from India. Calderdale primary pupils have early-evening or weekend-morning slots, fixed by the UK clock; any clock-change adjustment happens on our side.
 
-- **Early evening** Soon after school finishes.
-- **Weekend mornings** A fresh hour.
-- **Holidays** Short extra sessions.
+Early evening
 
-- **Continuity** The same teacher all year.
-- **Candour** Short notes that say what needs work.
-- **Small classes** Five to ten, grouped by level.
-- **Original questions** No FSCE material reproduced.
-- **Private option** One to one for a particular gap.
-- **Maths alone** No English or writing coaching; no admissions advice.
+Soon after school finishes.
+
+Weekend mornings
+
+A fresh hour.
+
+Holidays
+
+Short extra sessions.
+
+### Continuity
+
+The same teacher all year.
+
+### Candour
+
+Short notes that say what needs work.
+
+### Small classes
+
+Five to ten, grouped by level.
+
+### Original questions
+
+No FSCE material reproduced.
+
+### Private option
+
+One to one for a particular gap.
+
+### Maths alone
+
+No English or writing coaching; no admissions advice.
+
+Student work
+
+## Where fluent calculation leads
+
+Years after their own Year 5, our students publish software of their own; four samples follow, with more on our [student labs](/student-labs) showcase.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 One monthly US dollar fee for families outside India. No joining fee; you may stop at any time.
 
-- Free first class: USD 0. A taught lesson. A frank verdict. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty pupils at one level. A regular teacher. Work checked together. Certificate at the end.
-- One to one: USD 150 a month. One child, one teacher. Aimed at weak spots. Flexible timing.
+Free first class
+
+USD 0
+
+no card required
+
+- A taught lesson
+- A frank verdict
+- No card needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty pupils at one level
+- A regular teacher
+- Work checked together
+- Certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- One child, one teacher
+- Aimed at weak spots
+- Flexible timing
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Families' Google reviews, word for word.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Halifax test questions
 
 ## What Calderdale families ask us
 
@@ -258,15 +506,54 @@ North Halifax Grammar School and The Crossley Heath School, jointly.
 
 A trial lesson is on us. Families who stay pay monthly: USD 100 for a class of fifteen to twenty, USD 150 for lessons with a teacher to themselves.
 
+Related
+
 ## More for West Yorkshire families
 
-- [Coding classes in Leeds](/best-coding-class-in-leeds): Programming for West Yorkshire children.
-- [11 plus maths in Gloucestershire](/11-plus-maths-tuition-gloucestershire): Another area moving to the FSCE test.
-- [11 plus maths in Trafford](/11-plus-maths-tuition-trafford): Over the Pennines, a GL consortium test.
-- [11 plus maths tuition](/11-plus-maths-tuition): The national overview.
-- [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar): Maths challenges through the year.
-- [All our UK pages](/coding-classes-in-united-kingdom): Every UK area we write about.
+Coding in Leeds, another FSCE area, and our national page.
 
-## Contact
+### [Coding classes in Leeds](/best-coding-class-in-leeds)
 
-Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-calderdale](https://learn.modernagecoders.com/11-plus-maths-tuition-calderdale#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Programming for West Yorkshire children.
+
+### [11 plus maths in Gloucestershire](/11-plus-maths-tuition-gloucestershire)
+
+Another area moving to the FSCE test.
+
+### [11 plus maths in Trafford](/11-plus-maths-tuition-trafford)
+
+Over the Pennines, a GL consortium test.
+
+### [11 plus maths tuition](/11-plus-maths-tuition)
+
+The national overview.
+
+### [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar)
+
+Maths challenges through the year.
+
+### [All our UK pages](/coding-classes-in-united-kingdom)
+
+Every UK area we write about.
+
+Start here
+
+## Ask for a free Halifax maths lesson
+
+Tell us the school year and how calculation is going. We teach a proper lesson and then say plainly what we saw.
+
+Browsing first? See each [course syllabus](/courses), read [how we teach](/how-we-teach), or follow the [roadmap](/coding-roadmap).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20my%20child%20for%20the%20Halifax%20Grammar%20Schools%20test.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+Messages on WhatsApp get answered soonest. Everything runs from India, the phone number included; there is no West Yorkshire office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-calderdale*

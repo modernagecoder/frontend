@@ -12,7 +12,7 @@ LIVE ONLINE CODING & MATHS · RAMRAJATALA, HOWRAH
 
 Modern Age Coders runs premium live online coding and mathematics classes for Ramrajatala families, taught in real time by full-time engineers and maths graduates, never pre-recorded. From the lanes around the century-old Ram temple and Ramrajatala station to the new flats off Andul Road, a child joins small project-based batches from home. From ₹1,499/month, with the same instructors a Salt Lake executive's child gets, the same premium coding education families pay for in central Kolkata, now reaching Ramrajatala. Book a free demo.
 
-Live, never recordedBatches of 6–8From ₹1,499/monthZero commute, zero traffic90 minTravel saved per class day6–8Students per live batch₹1,499Starting fee per month100%Live, taught by engineers[Book Free Demo Class](/book-demo)[Explore Courses](/courses)At a glance
+Live, never recordedBatches of 15–20From ₹1,499/monthZero commute, zero traffic90 minTravel saved per class day15–20Students per live batch₹1,499Starting fee per month100%Live, taught by engineers[Book Free Demo Class](/book-demo)[Explore Courses](/courses)At a glance
 
 ## The Ramrajatala programme, in one screen
 

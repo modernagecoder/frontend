@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and vibe coding lessons for Edgbast
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-edgbaston-birmingham
 source: src/pages/online-coding-and-python-classes-in-edgbaston-birmingham.html
 ---
-> Edgbaston ward counted 18,730 usual residents at the 2021 census and North Edgbaston ward 22,565, both within Birmingham. Postcodes.io places Edgbaston and Lee Bank in the B15 district. Our tutors, who teach from India over live video, take learners aged six to 67 through coding, Python, AI, vibe coding and maths, one at a time or in classes of fifteen to twenty at a shared stage. Algorithmic thinking is taught first, so a learner can judge whether a clever shortcut is safe to use. There is no charge for lesson one, and it closes with a course suggestion. The Edgbaston project takes 4,842 named places from the map of south-west Birmingham and finds the near-duplicate names among 11.7 million possible pairs, first the slow way and then with MinHash. Monthly fees after the trial: USD 100 in a class, USD 150 for private lessons.
+> Live online coding, Python, AI and vibe coding lessons for Edgbaston, North Edgbaston, Lee Bank and Harborne learners aged 6 to 67. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [West Midlands region](/coding-and-ai-classes-in-west-midlands-region) / Edgbaston
-
-Edgbaston, Birmingham, England / Live online
-
-# Online coding and Python classes in Edgbaston, Birmingham
-
-**Which are the best online coding and Python classes in Edgbaston?** Edgbaston ward counted 18,730 usual residents at the 2021 census and North Edgbaston ward 22,565, both within Birmingham. Postcodes.io places Edgbaston and Lee Bank in the B15 district. Our tutors, who teach from India over live video, take learners aged six to 67 through coding, Python, AI, vibe coding and maths, one at a time or in classes of fifteen to twenty at a shared stage. Algorithmic thinking is taught first, so a learner can judge whether a clever shortcut is safe to use. There is no charge for lesson one, and it closes with a course suggestion. The Edgbaston project takes 4,842 named places from the map of south-west Birmingham and finds the near-duplicate names among 11.7 million possible pairs, first the slow way and then with MinHash. Monthly fees after the trial: USD 100 in a class, USD 150 for private lessons.
-
-Duplicate records are everywhere: the same shop entered twice with slightly different spelling, the same customer under two email addresses, the same article copied with a word changed. Finding exact copies is easy. Finding near copies seems to need every record compared with every other, and the number of pairs grows with the square of the list. With ten thousand records that is fifty million comparisons; with ten million it is hopeless. MinHash, together with a trick called locality-sensitive hashing, gets round this by giving similar items a good chance of landing in the same bucket. Search engines and plagiarism checkers have used it for years. This project tries it on real place names around Edgbaston.
-
-Facts last verified 30 September 2026. Teaching is online; no Edgbaston branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentEdgbaston course picks
 
 ## Edgbaston courses in algorithms, Python and AI
 
 Start from the learner's age. The opening lesson of any course is live and free, and we take no payment details for it.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think course: sorting into buckets, spotting near-matches and avoiding wasted work.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games imagined by the learner, coded with an AI and tested properly.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python from the first program to sets, hashing and the Edgbaston duplicate finder.
-- [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college) (Students and adults): Hashing, sketches and algorithms that scale, in depth.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think course: sorting into buckets, spotting near-matches and avoiding wasted work.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games imagined by the learner, coded with an AI and tested properly.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython from the first program to sets, hashing and the Edgbaston duplicate finder.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Structures & Algorithms Course course thumbnail](/images/dsa-college.webp)Students and adultsData Structures & Algorithms CourseHashing, sketches and algorithms that scale, in depth.See the syllabus](/courses/data-structures-algorithms-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Edgbaston
 
 ## Edgbaston, North Edgbaston and Lee Bank
 
 Census 2021 residents in two Birmingham wards, and places recorded in B15.
 
-**Usual residents by Birmingham ward, Census 2021 via Nomis**
-
 | Ward | Residents (2021) |
-|---|---|
+| --- | --- |
 | Edgbaston | 18,730 |
 | North Edgbaston | 22,565 |
 
@@ -53,6 +39,8 @@ The two wards are counted separately by the ONS, and we leave them as two figure
 
 For the city as a whole see [coding classes in Birmingham](/coding-classes-in-birmingham), and for the county [the West Midlands](/coding-classes-in-the-west-midlands). Our reasons for teaching thinking before tools are on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Edgbaston project
+
 ## Finding near-duplicate names with MinHash and locality-sensitive hashing
 
 One list of real names, 11.7 million pairs, and a way to look at about a thousandth of them.
@@ -61,10 +49,8 @@ The learner downloads OpenStreetMap data for a rectangle of south-west Birmingha
 
 MinHash replaces each set of shingles with a short signature, here 128 numbers, built so that the chance two signatures agree in any one position equals the Jaccard similarity. Locality-sensitive hashing then chops each signature into bands, and only names that match exactly on at least one whole band become candidate pairs. More rows per band means stricter matching and fewer candidates.
 
-**Locality-sensitive hashing on 4,842 place names, 128 MinHash values, our Python run on OpenStreetMap data**
-
 | Bands and rows | Candidate pairs checked | True similar pairs found |
-|---|---|---|
+| --- | --- | --- |
 | Every pair (no hashing) | 11,720,061 | 1,901 of 1,901 |
 | 64 bands of 2 | 310,693 | 1,901 (100%) |
 | 32 bands of 4 | 11,152 | 1,901 (100%) |
@@ -88,14 +74,14 @@ Build MinHash signatures and banded buckets, then tune bands and rows against th
 
 Place names and tags are from OpenStreetMap and its contributors under the Open Database Licence. The shingling, hashing and counts are our own work; no business is named here and no pair is claimed to be a mapping error.
 
+Similarity and AI
+
 ## What this teaches about vibe coding and AI agents
 
 Approximate methods are how big problems get solved at all; the skill is knowing what they miss.
 
-**From the Edgbaston duplicate finder to working with AI**
-
 | In the MinHash project | When AI works with large data |
-|---|---|
+| --- | --- |
 | Every pair meant 11.7 million comparisons | Brute force stops scaling quickly |
 | 32 bands of 4 checked about 0.1% of pairs | A good index prunes nearly all the work |
 | 16 bands of 8 missed 14% of true pairs | Faster settings trade away recall |
@@ -106,14 +92,37 @@ The same family of ideas sits underneath AI search: when a chatbot looks up rele
 
 This page has no link to OpenStreetMap, the ONS, Nomis or postcodes.io beyond using their open data; the code and any errors in it are ours.
 
+Stages
+
 ## From matching chunks to scalable algorithms
 
 A year group tells us roughly where to start; the free lesson tells us exactly.
 
-- **Years 2 to 7: How to think** Sorting, matching and doing less work for the same answer. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Games and apps the learner plans and an AI helps to write. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python and algorithms** Sets, hashing and efficiency alongside GCSE and A level computer science. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)
-- **Adults: Data engineering and AI** Scalable data work, search and AI agents in Python. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
+Years 2 to 7
+
+### How to think
+
+Sorting, matching and doing less work for the same answer.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Games and apps the learner plans and an AI helps to write.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python and algorithms
+
+Sets, hashing and efficiency alongside GCSE and A level computer science.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)Adults
+
+### Data engineering and AI
+
+Scalable data work, search and AI agents in Python.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)Python and similarity
 
 ## What is MinHash, and how does locality-sensitive hashing find similar items quickly?
 
@@ -125,30 +134,139 @@ Learners who have built both ask of any fast AI search: what did it skip, and ho
 
 Understanding the shortcut, and its price, lets Edgbaston teenagers use large-scale AI tools with their eyes open, which is what learning Python is for. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Edgbaston lessons, taught by video
 
 Any reasonably modern computer with a camera will do, given internet that can carry a call.
 
-- **Learner writes, tutor asks** Code and prompts come from the student; the tutor watches the screen share and asks what each step is for.
-- **Level found in the trial** The free lesson shows what to teach first, and exam boards are recorded.
-- **Trial at no cost** The first lesson is free and ends with the course we recommend.
-- **Matched classes** Fifteen to twenty learners at one level, from around the UK.
-- **Two a week** Not in school holidays.
-- **Your slot stays put** UK clock changes are absorbed at our end.
+### Learner writes, tutor asks
 
-**Why online** Matching five learners by level and by free evening is far easier across the country than across one postcode.
+Code and prompts come from the student; the tutor watches the screen share and asks what each step is for.
+
+### Level found in the trial
+
+The free lesson shows what to teach first, and exam boards are recorded.
+
+### Trial at no cost
+
+The first lesson is free and ends with the course we recommend.
+
+### Matched classes
+
+Fifteen to twenty learners at one level, from around the UK.
+
+### Two a week
+
+Not in school holidays.
+
+### Your slot stays put
+
+UK clock changes are absorbed at our end.
+
+Why online
+
+Matching five learners by level and by free evening is far easier across the country than across one postcode.
+
+Fees
 
 ## Edgbaston fees
 
 Edgbaston learners pay the international prices we use outside India.
 
-- First class: USD 0. A whole lesson free, then a recommendation.
-- Group tuition: USD 100 a month. About eight live lessons a month in a class.
-- Private tuition: USD 150 a month. About eight live lessons a month one-to-one.
+First class**USD 0**
+
+A whole lesson free, then a recommendation.
+
+Group tuition**USD 100**
+
+About eight live lessons a month in a class.
+
+Private tuition**USD 150**
+
+About eight live lessons a month one-to-one.
 
 Prices are stated in US dollars and we publish none in pounds. No invoice is raised until the trial has agreed a course and a weekly hour; the pricing page covers holidays, absences and switching format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20Python%20lesson%20for%20a%20learner%20in%20Edgbaston%3F)Reviews
+
+## Birmingham families and learners around the UK on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Edgbaston lesson
+
+Give us an age or school year and what the learner enjoys. A trial could be a paper matching game, a Scratch project built with AI help, a gentle start in Python, or comparing real names with sets.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Edgbaston one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20Python%20lesson%20for%20a%20learner%20in%20Edgbaston%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Edgbaston questions
+
+MinHash, the duplicate project, Python, vibe coding and practical points.
 
 ### How many people live in Edgbaston?
 
@@ -190,10 +308,14 @@ The trial is free. Then USD 100 a month for a class or USD 150 a month for priva
 
 Yes, once you send us the dates.
 
+Nearby
+
 ## More Birmingham pages
 
 Neighbouring pages with their own projects: [Harborne](/ai-and-programming-classes-in-harborne-birmingham) (a mixture model of building sizes), [Moseley](/best-coding-and-ai-classes-in-moseley-birmingham), [Kings Heath](/vibe-coding-and-ai-agents-classes-in-kings-heath-birmingham) and [Birmingham](/coding-classes-in-birmingham). The [UK hub](/coding-classes-in-united-kingdom) covers the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20Python%20lesson%20for%20a%20learner%20in%20Edgbaston%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/online-coding-and-python-classes-in-edgbaston-birmingham](https://learn.modernagecoders.com/online-coding-and-python-classes-in-edgbaston-birmingham#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-edgbaston-birmingham*

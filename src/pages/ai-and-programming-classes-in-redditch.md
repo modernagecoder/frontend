@@ -4,46 +4,32 @@ description: "Online AI, programming, Python and vibe coding classes for Redditc
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-redditch
 source: src/pages/ai-and-programming-classes-in-redditch.html
 ---
-> At the 2021 census 87,036 people usually lived in Redditch borough, and the ONS gives the Redditch built-up area 81,635; the borough takes in neighbourhoods such as Matchborough, Winyates, Batchley, Headless Cross and Webheath. Children, teens and adults aged 6 to 67 in Redditch join our India-based teachers by video call for AI, programming, Python, vibe coding and maths, either as a solo learner or with fifteen to twenty classmates of matching level. Thinking skills come before any tool, so learners can follow and question what an AI decides. The free first lesson ends with a course recommendation. The Redditch project takes on a question that runs through AI today, whether a model can explain its answer, using a decision tree built on the borough's census data. Beyond the trial, budget USD 100 every month for a class place or USD 150 every month for individual tuition.
+> Online AI, programming, Python and vibe coding classes for Redditch, Matchborough, Winyates and Headless Cross learners aged 6 to 67. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [West Midlands region](/coding-and-ai-classes-in-west-midlands-region) / Redditch
-
-Redditch, Worcestershire, England / Live online
-
-# AI and programming classes in Redditch
-
-**Which are the best AI and programming classes in Redditch?** At the 2021 census 87,036 people usually lived in Redditch borough, and the ONS gives the Redditch built-up area 81,635; the borough takes in neighbourhoods such as Matchborough, Winyates, Batchley, Headless Cross and Webheath. Children, teens and adults aged 6 to 67 in Redditch join our India-based teachers by video call for AI, programming, Python, vibe coding and maths, either as a solo learner or with fifteen to twenty classmates of matching level. Thinking skills come before any tool, so learners can follow and question what an AI decides. The free first lesson ends with a course recommendation. The Redditch project takes on a question that runs through AI today, whether a model can explain its answer, using a decision tree built on the borough's census data. Beyond the trial, budget USD 100 every month for a class place or USD 150 every month for individual tuition.
-
-When an AI makes a decision about you, can it say why? For many modern systems the honest answer is "not easily", which is why explainable AI is so widely discussed. The oldest explainable model is the decision tree: a chain of yes-or-no questions a person can read from top to bottom. This project grows decision trees in Python on all 273 census output areas in Redditch, asking which areas are mostly detached houses, and tests a common assumption along the way: that a model simple enough to read must be less accurate than a complicated one.
-
-Facts last verified 29 September 2026. Teaching is online; no Redditch branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentRedditch course picks
 
 ## Redditch course choices for thinking, vibe coding and AI
 
 Four starting points, sorted by age. Every course starts with a free live lesson, and we never ask for a card to book it.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think programme: yes-or-no questions, sorting rules and explaining a decision.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games, then little apps built by describing them to AI and checking what it made.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Machine learning in Python, from decision trees to fair testing, including this project.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): How modern AI reaches its answers, plus retrieval, agents and explainability.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think programme: yes-or-no questions, sorting rules and explaining a decision.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games, then little apps built by describing them to AI and checking what it made.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensMachine learning in Python, from decision trees to fair testing, including this project.See the syllabus](/courses/ai-ml-masterclass-teens)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseHow modern AI reaches its answers, plus retrieval, agents and explainability.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Redditch borough
 
 ## Redditch and its neighbourhoods
 
 Census counts for the borough and its built-up area, and the districts recorded inside it.
 
-**Redditch in the 2021 census, published figures and our output-area totals**
-
 | What was counted | Figure |
-|---|---|
+| --- | --- |
 | Borough usual residents (ONS) | 87,036 |
 | Redditch built-up area (ONS) | 81,635 |
 | Census output areas in the borough | 273 |
@@ -55,6 +41,8 @@ The borough and the built-up area use different boundaries, so their totals diff
 
 Wider choices sit on [coding classes in Worcestershire](/coding-classes-in-worcestershire) and [the West Midlands region page](/coding-and-ai-classes-in-west-midlands-region). Our reasons for judgement before prompting are on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Redditch project
+
 ## A decision tree you can read, on 273 output areas
 
 Grow trees of different sizes, test them on areas they have not seen, and see whether the readable one loses.
@@ -63,10 +51,8 @@ Three Census 2021 tables come down from the Nomis API, covering each of Redditch
 
 A decision tree learns by asking the single yes-or-no question that most cleanly splits the two kinds of area, then repeating inside each branch. Its depth is the number of questions allowed in a row. The learner tests trees from one question up to no limit at all, using 5-fold cross-validation repeated 20 times: each tree is trained on four fifths of the areas and judged on the fifth it never saw.
 
-**Decision trees of different depths, tested on unseen output areas, 20 repeats of 5-fold cross-validation, our Python run, 29 September 2026**
-
 | Tree | End points | Accuracy on training areas | Accuracy on unseen areas |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Always "not mostly detached" | 1 | 77.3% | 77.3% |
 | One question | 2 | 88.8% | 86.7% |
 | Two questions deep | 4 | 91.0% | 86.6% |
@@ -94,14 +80,14 @@ Grow trees with scikit-learn, cross-validate them and report recall and precisio
 
 The counts for every output area are Census 2021 figures from the Office for National Statistics, read through Nomis. The labels, the trees, the cross-validation and every percentage are our own work.
 
+Explainable AI
+
 ## What this teaches about vibe coding and AI agents
 
 The reason behind a result deserves as much attention as the result.
 
-**Carrying the tree lesson over to chatbots and agents**
-
 | Redditch decision trees | Chatbots, assistants and agents |
-|---|---|
+| --- | --- |
 | A single question gives the reason | Big language models seldom show checkable reasoning |
 | The biggest tree memorised its training data | More complex does not always mean better |
 | 77.3% came from always saying "no" | Compare every score with a lazy guess |
@@ -112,14 +98,37 @@ In our vibe coding lessons a learner describes a program and an AI writes it, an
 
 Modern Age Coders works independently of the Office for National Statistics, Nomis and postcodes.io. Their records supply the figures and place names; the trees, and any errors in them, are ours.
 
+Stages
+
 ## From twenty questions to explainable models
 
 The school year is our first guess, and the free lesson settles the real starting point.
 
-- **Years 2 to 7: How to think** Yes-or-no questions, sorting and giving reasons. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Games and small apps built with AI help and checked by the learner. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python and machine learning** Data, decision trees and honest testing beside GCSE and A level. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **Adults: Explainable AI and agents** Models, evaluation, language models and agents in Python. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Years 2 to 7
+
+### How to think
+
+Yes-or-no questions, sorting and giving reasons.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Games and small apps built with AI help and checked by the learner.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python and machine learning
+
+Data, decision trees and honest testing beside GCSE and A level.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)Adults
+
+### Explainable AI and agents
+
+Models, evaluation, language models and agents in Python.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)AI and explanations
 
 ## What is explainable AI, and why does it matter?
 
@@ -131,30 +140,139 @@ Learners who have built a readable model and watched it beat a complicated one e
 
 Building models that can justify themselves gives Redditch teenagers a sharper eye for every AI tool, reason enough to learn coding in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Webheath to Winyates, online
 
 Laptop or desktop, plus broadband that copes with video: that is the whole kit list.
 
-- **Learner in charge** The student writes, prompts and runs each program, while the tutor follows on screen share and asks the next question.
-- **Trial first** School year is only a hint; the opening session decides topic one, and we write down any exam board.
-- **Nothing to pay upfront** We charge nothing for session one and finish it by naming a course to try.
-- **Classes by stage** Each group has between five and ten UK students sharing a level.
-- **Twice weekly** Lessons stop during school holidays.
-- **Times that hold** Tutors adjust for the UK clock changes, so your lesson hour stays put.
+### Learner in charge
 
-**Why the classes are online** Five learners at the same stage who are all free on one evening rarely share a neighbourhood. Online, they can share a lesson instead.
+The student writes, prompts and runs each program, while the tutor follows on screen share and asks the next question.
+
+### Trial first
+
+School year is only a hint; the opening session decides topic one, and we write down any exam board.
+
+### Nothing to pay upfront
+
+We charge nothing for session one and finish it by naming a course to try.
+
+### Classes by stage
+
+Each group has between five and ten UK students sharing a level.
+
+### Twice weekly
+
+Lessons stop during school holidays.
+
+### Times that hold
+
+Tutors adjust for the UK clock changes, so your lesson hour stays put.
+
+Why the classes are online
+
+Five learners at the same stage who are all free on one evening rarely share a neighbourhood. Online, they can share a lesson instead.
+
+Fees
 
 ## Redditch fees
 
 Redditch learners are charged our international rate, which applies everywhere except India.
 
-- First class: USD 0. A complete first lesson free, ending with our course suggestion.
-- Group tuition: USD 100 a month. About eight live small-group lessons a month.
-- Private tuition: USD 150 a month. About eight live one-to-one lessons a month.
+First class**USD 0**
+
+A complete first lesson free, ending with our course suggestion.
+
+Group tuition**USD 100**
+
+About eight live small-group lessons a month.
+
+Private tuition**USD 150**
+
+About eight live one-to-one lessons a month.
 
 We price in US dollars; there is no sterling fee. Invoices start after the trial, when a course and a day and time are settled, and our pricing page explains what happens with holidays away, missed lessons or a change of format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20a%20Redditch%20learner%20book%20a%20free%20AI%20or%20programming%20lesson%3F)Reviews
+
+## What Worcestershire parents and other UK families wrote on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Redditch lesson
+
+An age or year group plus one interest is plenty to start. Trial lessons range from yes-or-no sorting challenges and an AI-assisted Scratch game to first steps in Python or a hand-drawn decision tree.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Redditch one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20a%20Redditch%20learner%20book%20a%20free%20AI%20or%20programming%20lesson%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Redditch questions
+
+The decision tree project, explainable AI, vibe coding and practical points.
 
 ### What is the population of Redditch?
 
@@ -196,10 +314,14 @@ Your opening lesson is free. Ongoing lessons are USD 100 per month in a group or
 
 No, they pause. Just let us know the dates.
 
+Nearby
+
 ## More Worcestershire and West Midlands pages
 
 [Worcester](/best-coding-class-in-worcester) has its own page and project, as do [Walsall](/best-coding-and-ai-classes-in-walsall) and [Tamworth](/best-coding-and-ai-classes-in-tamworth), and [Birmingham](/coding-classes-in-birmingham) is covered too. The [UK hub](/coding-classes-in-united-kingdom) links to every other area.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20a%20Redditch%20learner%20book%20a%20free%20AI%20or%20programming%20lesson%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-redditch](https://learn.modernagecoders.com/ai-and-programming-classes-in-redditch#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-redditch*

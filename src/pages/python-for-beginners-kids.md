@@ -12,7 +12,7 @@ For kids new to Python · Ages 6 to 14
 
 No prior coding needed. Our 1 hour live Python classes begin with print and silly outputs, build into turtle drawings and tiny games, and end with the child saying "look what I made". Live teacher watching every line.
 
-[Book a free demo class](/book-demo)See the curriculum**5,200+**Beginner kids taught Python**4.9 / 5**Parent rating · 620+ reviews**1 hour**Per live class, 1:1 or small group**4 weeks**From zero to first working projectPyFor beginnersAbsolute zeroSilly firstReal PythonCourses matched for this level
+[Book a free demo class](/book-demo)See the curriculum**10,000+**Students taught live since 2020**4.9 / 5**Rated across 547 Google reviews**1 hour**Per live class, 1:1 or small group**4 weeks**From zero to first working projectPyFor beginnersAbsolute zeroSilly firstReal PythonCourses matched for this level
 
 ## Beginner-friendly Python courses by age.
 
@@ -155,9 +155,9 @@ One teacher, one learner, the full 1 hour. The teacher adapts pace in real time,
 
 **₹4,999**/ month · 4 sessionsOption B
 
-### Live Small-Group Online Class
+### Live Group Online Class
 
-4 to 6 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
+15 to 20 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
 
 - Small groups of 4 to 6 similar-level learners
 - 1 hour live session, 2 sessions per week

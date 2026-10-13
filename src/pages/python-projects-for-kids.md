@@ -12,7 +12,7 @@ Python projects for kids · Ages 8 to 15
 
 Most kids drop Python because videos are passive and the projects are too big. Our 1 hour live project classes flip it. Your child builds 20+ small, finishable Python projects with a real teacher watching the screen.
 
-[Book a free demo class](/book-demo)See the curriculum**20+**Curated finishable Python projects**4.9 / 5**Parent rating · 510+ reviews**1 hour**Live class per project stage**100%**Projects finished, none abandonedPyProject shelfGamesTurtle artAI tastersCourses matched for this level
+[Book a free demo class](/book-demo)See the curriculum**10,000+**Students taught live since 2020**4.9 / 5**Rated across 547 Google reviews**1 hour**Live class per project stage**15 to 20**Students in a group batchPyProject shelfGamesTurtle artAI tastersCourses matched for this level
 
 ## Project-first Python courses for kids.
 
@@ -188,9 +188,9 @@ One teacher, one learner, the full 1 hour. The teacher adapts pace in real time,
 
 **₹4,999**/ month · 4 sessionsOption B
 
-### Live Small-Group Online Class
+### Live Group Online Class
 
-4 to 6 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
+15 to 20 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
 
 - Small groups of 4 to 6 similar-level learners
 - 1 hour live session, 2 sessions per week

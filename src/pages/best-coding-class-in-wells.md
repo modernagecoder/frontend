@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths lessons for learners aged
 canonical: https://learn.modernagecoders.com/best-coding-class-in-wells
 source: src/pages/best-coding-class-in-wells.html
 ---
-> The middle-layer area the House of Commons Library calls Wells Town had 8,317 usual residents at the 2021 census, packed at 2,146.2 people per square kilometre among thinly settled Mendip villages. Wells Cathedral dates the works of its clock, with jousting knights and a Quarter Jack, to about 1390. Learners in Wells aged six to sixty-seven meet our teachers in India on live video, one to one or in a group of fifteen to twenty at the same level, at times that fit around the English school and working week. We charge nothing for the opening lesson; after that it is USD 100 a month in a group or USD 150 a month one to one.
+> Live online coding, Python, AI and maths lessons for learners aged 6 to 67 in Wells, Somerset, from Wookey Hole and Coxley to Dulcote. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Wells
-
-Wells, Somerset / Live online
-
-# Coding classes in Wells, Somerset
-
-**What are the best coding classes in Wells, Somerset?** The middle-layer area the House of Commons Library calls Wells Town had 8,317 usual residents at the 2021 census, packed at 2,146.2 people per square kilometre among thinly settled Mendip villages. Wells Cathedral dates the works of its clock, with jousting knights and a Quarter Jack, to about 1390. Learners in Wells aged six to sixty-seven meet our teachers in India on live video, one to one or in a group of fifteen to twenty at the same level, at times that fit around the English school and working week. We charge nothing for the opening lesson; after that it is USD 100 a month in a group or USD 150 a month one to one.
-
-In Wells Cathedral a clock made about 1390 still marks every quarter hour, the Quarter Jack banging out the quarters with his heels while jousting knights rush round above. Our Wells project builds a clock of a different kind, one that predicts full moons. Teenagers learn to count time the way astronomers do, as a single running tally of days called the Julian day number, then add NASA's average month of 29.53059 days again and again. Set against the full moons the US Naval Observatory lists for 2016 to 2030, the simple model lands on the right date almost three times in four. Its worst miss is 13.9 hours, and working out why it misses is the real lesson.
-
-Facts last verified 23 September 2026. Teaching is online; no Wells branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Wells
 
 ## Four courses for the city of springs
 
 Start with the course nearest to what the learner likes doing now. Every one begins with a free live lesson, and booking it asks for no card.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 12): Block programming for younger children: loops, counters and timers, the parts that every clock and calendar is built from.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): Remainders, averages and patterns written as short programs, the arithmetic behind counting days across months and leap years.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Python from first lines to full projects, enough to turn a published list of full moons into a working prediction and test it fairly.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (University and adult): Python for adults whose work runs on dates and schedules, and who need date arithmetic that does not slip a day at midnight.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 12Scratch Coding for KidsBlock programming for younger children: loops, counters and timers, the parts that every clock and calendar is built from.See the syllabus](/courses/scratch-programming-complete-course)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingRemainders, averages and patterns written as short programs, the arithmetic behind counting days across months and leap years.See the syllabus](/courses/maths-through-coding)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensPython from first lines to full projects, enough to turn a published list of full moons into a working prediction and test it fairly.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)University and adultPython MasterclassPython for adults whose work runs on dates and schedules, and who need date arithmetic that does not slip a day at midnight.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Wells today
 
 ## A compact city ringed by Mendip villages
 
 Census 2021 figures from the Office for National Statistics on Nomis, for Wells Town and the two neighbouring middle-layer areas as the House of Commons Library names them, with the Mendip census district and England for comparison.
 
-**Wells and its surroundings, Census 2021**
-
 | Area | Usual residents | Students among those aged 5 and over | Residents per square kilometre |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Wells Town | 8,317 | 13.8% | 2,146.2 |
 | Oakhill, Horrington and Chewton Mendip | 7,747 | 15.5% | 83.6 |
 | Draycott, Westbury and Wookey | 8,473 | 18.5% | 76.9 |
@@ -64,6 +50,8 @@ Wells Town holds 2,146.2 residents to the square kilometre, while the areas arou
 
 The age table gives Wells Town 8,324 residents where the headline table gives 8,317, because the census adds small random changes to protect privacy; each percentage here is worked from its own table's total. Our Wells classes mix the city with the villages close by. A Dulcote nine-year-old building a first game, a Year 10 student in Wells working towards GCSE Computer Science and a Coxley grandparent learning Python to sort family photographs by date could each join a different group, matched by level rather than by postcode.
 
+The cathedral and the springs
+
 ## A city named after its water, famous for its clock
 
 Dates and descriptions below are from Wells Cathedral's own history pages, Historical Highlights and the Wells Cathedral Timeline.
@@ -82,16 +70,18 @@ The clock works were made. The cathedral says the clock is considered the second
 
 The cathedral traces the city's name to the wells themselves, from the Anglo-Saxon wella: springs that still rise in the garden of the Bishop's Palace and that it calls the reason for the original settlement. Inside, the scissor arches built from 1338 to 1348 by the master mason William Joy were a repair for a tower that had begun to crack. When the clock strikes each quarter, jousting knights rush round above it and the Quarter Jack strikes the quarter hours with his heels, and an outside clock opposite Vicars' Hall is connected with the inside mechanism. The cathedral calls Vicars' Close, built over 650 years ago for the Vicars Choral, the oldest continuously occupied medieval street in Europe, and records that Bishop Ralph decreed forty-two houses should be built, one for each member of the Vicars Choral. We have no connection with Wells Cathedral, and its descriptions are quoted as its own.
 
-**Listed at Grade I** Historic England's National Heritage List for England holds the Cathedral Church of St Andrew (list entry 1382901), the Bishop's Palace and Bishop's House (1382873) and two entries for houses in Vicars' Close (1383197 and 1383199), all at Grade I with a list date of 12 November 1953.
+Listed at Grade I
+
+Historic England's National Heritage List for England holds the Cathedral Church of St Andrew (list entry 1382901), the Bishop's Palace and Bishop's House (1382873) and two entries for houses in Vicars' Close (1383197 and 1383199), all at Grade I with a list date of 12 November 1953.
+
+Signature project
 
 ## Can an average month predict the full moon?
 
 A clock works because every tick is the same length. The Moon's month is not, so a model that steps forward by the average month will drift from the real full moons and then drift back. The question is by how much, and how to measure that honestly.
 
-**Predicting full moons with NASA's mean month of 29.53059 days, checked against the US Naval Observatory's full-moon times in Universal Time (UT)**
-
 | How the model is started | Full moons scored | Predicted on the right UT date | Within 12 hours | Largest miss |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | From the first full moon of 2000 only | 383 (2000 to 2030) | 71.0% | 83.3% | 17.8 hours late, 15 April 2014 |
 | Start time fitted to the 2000 to 2015 moons, then scored on unseen years | 185 (2016 to 2030) | 74.1% | 91.9% | 13.9 hours early, 9 October 2022 |
 
@@ -113,14 +103,14 @@ In the Naval Observatory list, the time from one full moon to the next ranges fr
 
 The same arithmetic uncovers a 19-year rhythm. Two hundred and thirty-five average months come to 6,939.689 days, and nineteen years of the Gregorian calendar average 6,939.6075, about two hours apart. Pairing each full moon in the list with the one 235 months later gives 148 pairs: 85 fall on the same UT calendar date nineteen years on and the other 63 are one day away. The full moon of 7 September 2006 came at 18:42 UT, and the one of 7 September 2025 at 18:09 UT. Seven of the nineteen years from 2001 to 2019 held thirteen full moons (2001, 2004, 2007, 2009, 2012, 2015 and 2018), and the four of those years whose nineteen-years-later partner falls inside the list, 2020, 2023, 2026 and 2028, held thirteen too.
 
+Dates and times
+
 ## Five checks before trusting a date calculation
 
 Learned on the full moons, then used for timetables, billing periods, delivery windows, sensor logs and any program that has to add or subtract dates.
 
-**Decisions behind the moon model**
-
 | Question | For the Wells moon model | What goes wrong if you skip it |
-|---|---|---|
+| --- | --- | --- |
 | Which time scale are the times in? | Universal Time, as the Naval Observatory states | A summer full moon late in the evening lands on the wrong day in Wells |
 | How are the days counted? | Julian day numbers, checked against the Naval Observatory's converter | Month lengths and leap years break simple subtraction |
 | Where does the average come from? | NASA's published 29.53059 days | A month length that only suits the years it was fitted to |
@@ -143,14 +133,37 @@ Date and time arithmetic that survives time zones, leap years and the clocks cha
 
 We have no connection with the US Naval Observatory, NASA, Wells Cathedral, Historic England or Somerset Council. The full-moon list, the month length and the census tables are published openly; the Julian day conversions, predictions and pairings on this page are our own analysis.
 
+Learning ladder
+
 ## From counting days to forecasting the Moon
 
 Read the ages as rough bands; in the free lesson we see where a learner actually starts.
 
-- **Ages 6 to 10: Counting time** Days, weeks and months in block code, with a timer or a calendar that the learner builds and tests. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 11 to 13: Patterns in dates** Remainders, leap-year rules and averages in Python, with short programs that count days between dates. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Models that predict** Julian day numbers, a mean-month model and honest testing on data the model has not seen. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Dates at work** Reliable date, time zone and schedule logic in Python, checked against a trusted source before anyone relies on it. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Science Course](/courses/data-science-complete-masterclass-college)
+Ages 6 to 10
+
+### Counting time
+
+Days, weeks and months in block code, with a timer or a calendar that the learner builds and tests.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 11 to 13
+
+### Patterns in dates
+
+Remainders, leap-year rules and averages in Python, with short programs that count days between dates.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Models that predict
+
+Julian day numbers, a mean-month model and honest testing on data the model has not seen.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Dates at work
+
+Reliable date, time zone and schedule logic in Python, checked against a trusted source before anyone relies on it.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Science Course](/courses/data-science-complete-masterclass-college)Coding and AI
 
 ## An AI assistant will write date code in seconds. Why should a teenager in Wells learn to count days?
 
@@ -162,30 +175,139 @@ The habits here are the ones that matter most when working beside AI: know which
 
 So yes, a Wells teenager should keep learning to code in 2026, in a city whose cathedral clock works date from about 1390: machines can produce the code, but someone still has to check that it keeps good time. The longer argument is in [why coding is worth learning in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Wookey Hole, Dulcote or the Horringtons, and one lesson for all
 
 Wells is small, and many of its learners live in the villages around it. Online, a village a few miles out is exactly as close to the lesson as a street beside the cathedral.
 
-- **City and villages alike** A learner in Haybridge and another in East Horrington can share a class without anyone waiting for a lift or a bus.
-- **English school years** We place learners by English school years and key stages and use GCSE and A level course names, with every lesson taught in English.
-- **A free lesson with a plan** The opening session works on a real task and finishes with our advice on level, course and a weekly time. No card is ever requested.
-- **Groups set by level** Classes of fifteen to twenty learners at one stage, from Wells, elsewhere in the UK and abroad, so there are sensible times for every level.
-- **A steady weekly rhythm** Two set lessons each week, roughly eight a month, with half terms and exams agreed with the teacher ahead of time.
-- **Teachers who shift their day** A 5 pm lesson in Wells is 9.30 pm for our teachers in India during British Summer Time and 10.30 pm in winter, because India does not change its clocks; they plan their evenings around families here.
+### City and villages alike
 
-**Across Mendip and Somerset** Learners in Glastonbury, Street, Shepton Mallet or Frome join exactly the same groups, since every lesson is online and classes are formed by level.
+A learner in Haybridge and another in East Horrington can share a class without anyone waiting for a lift or a bus.
+
+### English school years
+
+We place learners by English school years and key stages and use GCSE and A level course names, with every lesson taught in English.
+
+### A free lesson with a plan
+
+The opening session works on a real task and finishes with our advice on level, course and a weekly time. No card is ever requested.
+
+### Groups set by level
+
+Classes of fifteen to twenty learners at one stage, from Wells, elsewhere in the UK and abroad, so there are sensible times for every level.
+
+### A steady weekly rhythm
+
+Two set lessons each week, roughly eight a month, with half terms and exams agreed with the teacher ahead of time.
+
+### Teachers who shift their day
+
+A 5 pm lesson in Wells is 9.30 pm for our teachers in India during British Summer Time and 10.30 pm in winter, because India does not change its clocks; they plan their evenings around families here.
+
+Across Mendip and Somerset
+
+Learners in Glastonbury, Street, Shepton Mallet or Frome join exactly the same groups, since every lesson is online and classes are formed by level.
+
+Fees
 
 ## Wells lesson fees
 
 A free first lesson, and after that one fee each month.
 
-- First class: USD 0. A complete lesson at no cost, finishing with our advice on level, course and a weekly time.
-- Group tuition: USD 100 a month. Roughly eight live lessons each month, in a class of fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. Roughly eight live lessons each month, with a teacher working with your learner alone.
+First class**USD 0**
+
+A complete lesson at no cost, finishing with our advice on level, course and a weekly time.
+
+Group tuition**USD 100**
+
+Roughly eight live lessons each month, in a class of fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+Roughly eight live lessons each month, with a teacher working with your learner alone.
 
 Families in Croscombe or Westbury-sub-Mendip pay in US dollars, as every family outside India does, and our site shows no pound prices. Billing begins only once the free lesson is over and you have chosen a course and a weekly time with us; the pricing page covers pausing, missed lessons and switching between a class and one-to-one teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Wells%2C%20Somerset.)Reviews
+
+## Six Google reviews from families, word for word
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson for a Wells learner
+
+The first lesson fits the learner: a days-between-birthdays counting game for a young child, a short Python program that finds the next leap year for a beginner, or real full-moon times and a Julian day converter for a teenager ready to test a model.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Wells one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Wells%2C%20Somerset.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Questions from Wells families
+
+The questions families in and around Wells ask us most.
 
 ### How many people live in Wells?
 
@@ -227,10 +349,14 @@ The first lesson is free. After that, a group place costs USD 100 a month for tw
 
 By level, pace and goals rather than by age or address, with fifteen to twenty learners at the same stage. When no group fits the learner's week, we offer one-to-one lessons.
 
+Explore England and the UK
+
 ## Somerset and further afield
 
 Over the hills, the [Bath page](/best-coding-class-in-bath) asks whether Jane Austen's two Bath novels sound alike to a computer, and [Bristol](/best-coding-class-in-bristol) divides its city between the libraries nearest each street. For another look at the sky, [Armagh](/best-coding-class-in-armagh) sorts a catalogue of star clusters and nebulae. Our [England guide](/coding-and-ai-classes-in-england) sets out how our levels fit English schooling, and the [UK coding page](/coding-classes-in-united-kingdom) reaches every other city.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Wells%2C%20Somerset.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-wells](https://learn.modernagecoders.com/best-coding-class-in-wells#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-wells*

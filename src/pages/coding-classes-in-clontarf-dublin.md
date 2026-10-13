@@ -4,46 +4,32 @@ description: "Coding, Python, AI and maths classes for Clontarf learners aged 6 
 canonical: https://learn.modernagecoders.com/coding-classes-in-clontarf-dublin
 source: src/pages/coding-classes-in-clontarf-dublin.html
 ---
-> For Clontarf, each lesson is a live video class with a teacher, taken in a small group of learners at one level or one to one, twice in most weeks, and open to anyone aged six up to sixty-seven. It all happens from home. The opening lesson costs nothing; from the second month on it is USD 100 monthly in a group or USD 150 monthly one to one.
+> Coding, Python, AI and maths classes for Clontarf learners aged 6 to 67, taught live online in small same-level groups or one to one. The first lesson is free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [Dublin](/best-coding-class-in-dublin) / Clontarf
-
-Clontarf, Dublin 3 / Live online
-
-# Coding classes in Clontarf
-
-**What are the best coding classes in Clontarf?** For Clontarf, each lesson is a live video class with a teacher, taken in a small group of learners at one level or one to one, twice in most weeks, and open to anyone aged six up to sixty-seven. It all happens from home. The opening lesson costs nothing; from the second month on it is USD 100 monthly in a group or USD 150 monthly one to one.
-
-The Marine Institute predicts the tide at Dublin Port years ahead, and its tide gauge there records what the sea actually does every five minutes. Over the first eight months of 2026 the prediction explained 97.9 percent of how the water rose and fell. That sounds like the end of the story, and it is the start. Subtract the prediction from the reading and what is left over, the residual, reached 1.01 metres before dawn on 27 January. This page teaches a learner to build that residual, test whether it is the model's fault or something outside it, and read what it shows.
-
-Facts last verified 20 September 2026. Teaching is online; no Clontarf branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Clontarf
 
 ## Four first courses for Clontarf
 
 Pick the age band first; the teacher uses the free lesson to check the level and will suggest another course if it fits better.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Blocks and guesses: predict the next number in a pattern, then count how far off each guess was.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Python with two lists, a prediction and a measurement, and the differences between them.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 18): Real tide data in Python: lining up time stamps, residuals, variance explained and autocorrelation.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (College and adult): For adults who judge forecasts at work and want to know what a good-looking fit is hiding.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlocks and guesses: predict the next number in a pattern, then count how far off each guess was.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsPython with two lists, a prediction and a measurement, and the differences between them.See the syllabus](/courses/python-ai-kids-masterclass)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 18Data Science for TeensReal tide data in Python: lining up time stamps, residuals, variance explained and autocorrelation.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)College and adultData Analysis CourseFor adults who judge forecasts at work and want to know what a good-looking fit is hiding.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## What the tide table missed: observed minus predicted at Dublin Port
 
 Both series come from the Marine Institute: the tide gauge readings for Dublin Port and its tide prediction for the same station, each in metres above Ordnance Datum Malin, from 1 January to 31 August 2026.
 
-**Dublin Port, 1 January to 31 August 2026**
-
 | What was compared | Result |
-|---|---|
+| --- | --- |
 | Five-minute readings with a matching prediction | 68,800, or 98.3 percent of the period |
 | Share of the rise and fall the prediction explains | 97.9 percent |
 | Average of reading minus prediction | plus 0.07 metres |
@@ -80,14 +66,14 @@ Readings and predictions each come in two versions, measured above Lowest Astron
 
 The Dublin Port gauge sits at 53.3457 north, 6.2217 west, about 4 kilometres from the coordinates the council gives for St Anne's Park. The page reports the gauge, not the Clontarf shoreline itself.
 
+Clontarf, named
+
 ## Clontarf from its island, its park and its station
 
 Each fact is taken from the body that looks after the place.
 
-**Named places in and off Clontarf**
-
 | Place | What its own source says |
-|---|---|
+| --- | --- |
 | North Bull Island | About 5 km long and 1 km wide, nearly 15 square kilometres |
 | St Anne's Park | Clontarf East, Raheny, D05 EA31 |
 | Clontarf Road station | Clontarf Road, Dublin 3, D03 K6E8 |
@@ -105,7 +91,11 @@ The island became the country's first official bird sanctuary in the 1930s and a
 
 Irish Rail lists Clontarf Road as unstaffed, with lifts and a footbridge to both platforms and 20 bike spaces, none of them sheltered.
 
-**What this page does not claim** No population is given for Clontarf, since the page uses only what named bodies publish about the place. The tide figures come from one gauge at Dublin Port, and the page makes no claim about flooding or flood risk anywhere on the Clontarf shore.
+What this page does not claim
+
+No population is given for Clontarf, since the page uses only what named bodies publish about the place. The tide figures come from one gauge at Dublin Port, and the page makes no claim about flooding or flood risk anywhere on the Clontarf shore.
+
+Learning here
 
 ## A week of lessons for a Clontarf learner
 
@@ -125,14 +115,37 @@ Adults can start with no experience; the first lesson decides where.
 
 Readings and predictions are the Marine Institute's; the pairing, residuals, variance explained, persistence and timing tests were computed by us on 20 September 2026. Island, park and station details are taken from Dublin City Council and Irish Rail.
 
+Learning ladder
+
 ## From a guessing game to a model check
 
 The bands are only a starting point; lesson one confirms the level.
 
-- **Ages 6 to 10: How far off?** Block-coded guessing games that keep the gap between each guess and the answer. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Two lists** Python that lines up predictions and measurements and subtracts them. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Residuals** Variance explained, autocorrelation and timing tests on real tide data. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Judging a forecast** Reading what a model leaves over before trusting its headline accuracy. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### How far off?
+
+Block-coded guessing games that keep the gap between each guess and the answer.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Two lists
+
+Python that lines up predictions and measurements and subtracts them.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Residuals
+
+Variance explained, autocorrelation and timing tests on real tide data.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Judging a forecast
+
+Reading what a model leaves over before trusting its headline accuracy.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## Ask an assistant how good the tide prediction is
 
@@ -144,30 +157,139 @@ The learner who has built this project asks for the residual, plots it, and asks
 
 A model's score tells you how often it is right. Its residual tells you when, and how badly, it is wrong. The longer argument is in [why learning to code still pays off in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How lessons run for Clontarf
 
 The details.
 
-- **Taught as it happens** The teacher leads every lesson live and follows each learner's code as they type it.
-- **Level-matched** Fifteen to twenty learners sharing a level, whether they are in Clontarf, elsewhere in Ireland or abroad.
-- **Steady routine** Two set days a week, which works out at about eight lessons a month.
-- **School year in mind** The plan allows for holidays, mid-term breaks and exam season.
-- **Needed at home** A desktop or laptop, a microphone, a way to hear, and an internet connection that holds up on video.
-- **Just one learner** Private lessons for a learner who is ahead, wants more time, or needs hours no group offers.
+### Taught as it happens
 
-**No premises** There is no Modern Age Coders site in Clontarf or anywhere in Ireland. Every lesson is live on video and runs the same wherever the learner joins.
+The teacher leads every lesson live and follows each learner's code as they type it.
+
+### Level-matched
+
+Fifteen to twenty learners sharing a level, whether they are in Clontarf, elsewhere in Ireland or abroad.
+
+### Steady routine
+
+Two set days a week, which works out at about eight lessons a month.
+
+### School year in mind
+
+The plan allows for holidays, mid-term breaks and exam season.
+
+### Needed at home
+
+A desktop or laptop, a microphone, a way to hear, and an internet connection that holds up on video.
+
+### Just one learner
+
+Private lessons for a learner who is ahead, wants more time, or needs hours no group offers.
+
+No premises
+
+There is no Modern Age Coders site in Clontarf or anywhere in Ireland. Every lesson is live on video and runs the same wherever the learner joins.
+
+Fees
 
 ## Fees for Clontarf
 
 Clearly stated.
 
-- First class: USD 0. A no-cost first lesson that includes a level check.
-- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at the same level, about eight live lessons.
-- Private tuition: USD 150 a month. A month of one-to-one lessons in the same pattern.
+First class**USD 0**
+
+A no-cost first lesson that includes a level check.
+
+Group tuition**USD 100**
+
+A month in a group of fifteen to twenty at the same level, about eight live lessons.
+
+Private tuition**USD 150**
+
+A month of one-to-one lessons in the same pattern.
 
 Outside India one US dollar fee applies to every family, month by month. The free lesson involves no commitment, charging starts when the course does, and the pricing page covers holidays, missed lessons and moving between group and private lessons.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Clontarf.)Reviews
+
+## Google reviews from families, left exactly as written
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free first lesson in Clontarf
+
+Tell us the learner's age and interests and we will shape the first lesson to fit. It might end with a small game, a program that runs, or a chart of how far a prediction missed.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Clontarf one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Clontarf.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Clontarf coding class questions
+
+What Clontarf families ask us most.
 
 ### Is there a Modern Age Coders centre in Clontarf?
 
@@ -205,10 +327,14 @@ The first lesson is free. Then a group place is USD 100 a month for about eight 
 
 Fifteen to twenty learners, put together by level, pace and goals rather than age or neighbourhood. Where no group suits a workable time, lessons are one to one.
 
+Explore Ireland
+
 ## Along the north shore
 
 Inland, [Drumcondra](/coding-classes-in-drumcondra-dublin) has a project on noise readings and [Glasnevin](/coding-classes-in-glasnevin-dublin) one on temperature records. The [Dublin](/best-coding-class-in-dublin) page covers the city, and the [Ireland hub](/coding-classes-in-ireland) gathers every other page.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Clontarf.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-clontarf-dublin](https://learn.modernagecoders.com/coding-classes-in-clontarf-dublin#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-clontarf-dublin*

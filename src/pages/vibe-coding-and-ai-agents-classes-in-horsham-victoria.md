@@ -4,37 +4,25 @@ description: "Live online vibe coding and AI agent classes for Horsham teenagers
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-horsham-victoria
 source: src/pages/vibe-coding-and-ai-agents-classes-in-horsham-victoria.html
 ---
-> Yes. In our classes a Horsham teenager or adult hands real tasks to an AI agent, then reads its code line by line and tests the result against things they can reason about, such as units and orders of magnitude. The Horsham urban area counted 16,985 residents at the 2021 Census. Lessons are live and online, privately or in a small group, and the opening one costs nothing.
+> Live online vibe coding and AI agent classes for Horsham teenagers and adults, with a project that checks an agent's units on the town's published water main data.
 
-[Home](/) / [Victoria](/coding-and-ai-classes-in-victoria) / [Australia](/coding-classes-in-australia) / Horsham
-
-Horsham, Victoria / Live online
-
-# Vibe coding and AI agents classes in Horsham
-
-**Can AI agent classes in Horsham teach a learner to check an agent's answer?** Yes. In our classes a Horsham teenager or adult hands real tasks to an AI agent, then reads its code line by line and tests the result against things they can reason about, such as units and orders of magnitude. The Horsham urban area counted 16,985 residents at the 2021 Census. Lessons are live and online, privately or in a small group, and the opening one costs nothing.
-
-Horsham Rural City Council publishes the GWM Water main layer for its area as open data: 3,899 pipe pieces, each with a diameter written as a plain number such as 100 or 450. Ask an AI agent how much water those pipes hold when full and it will happily compute circles and lengths. If it reads the 100 as metres instead of millimetres, it reports about 6.8 billion cubic metres for the mains near the town centre, a figure roughly a million times too large. Read correctly, the same pipes hold about 6,801 cubic metres. Our Horsham learners practise spotting that kind of answer before anyone repeats it.
-
-Facts last verified 10 October 2026. Teaching is online; no Horsham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Horsham
 
 ## Directing AI agents, at the right level
 
 Four routes for Horsham learners. The trial session settles which fits, and card details are never asked for.
 
-- [Codex & Claude Code for Teens](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens) (Ages 13 to 17): Giving coding agents real tasks with tools whose terms allow the learner's age, then reviewing what comes back.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Small web and Python projects built with AI help, with testing and sanity checks from the first week.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): Reading open data layers, keeping track of units and charting what the numbers really say.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Adults and professionals): Agents for everyday work, paired with review, tests and the question of what was assumed.
+[![Codex & Claude Code for Teens course thumbnail](/images/codex-claude-code-teens.webp)Ages 13 to 17Codex & Claude Code for TeensGiving coding agents real tasks with tools whose terms allow the learner's age, then reviewing what comes back.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensSmall web and Python projects built with AI help, with testing and sanity checks from the first week.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensReading open data layers, keeping track of units and charting what the numbers really say.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Adults and professionalsCodex & Claude CodeAgents for everyday work, paired with review, tests and the question of what was assumed.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Horsham in the Census
 
 ## The Wimmera's regional centre, counted in 2021
 
@@ -42,10 +30,8 @@ The bureau's QuickStats for the Horsham urban area, with Victorian and national 
 
 Census night recorded 16,985 people in the Horsham urban area. Their median age was 40, and they formed 4,515 families spread over 7,978 private dwellings, at 2.3 people to the average household.
 
-**How Horsham compares (2021 Census shares)**
-
 | Share of the relevant group | Horsham | Victoria | Australia |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Free-standing houses (6,220 dwellings) | 89.5% | 73.4% | 72.3% |
 | Workers in professional roles (1,502 people) | 18.8% | 25.0% | 24.0% |
 | Workers in technical and trade roles (1,158 people) | 14.5% | 12.6% | Not compared |
@@ -65,14 +51,14 @@ There were 955 residents aged 15 to 19 and 977 aged 20 to 24 when the Census was
 
 The bureau adds small random changes to Census cells to protect privacy, which means parts of a table may not sum to its published total. We print each figure exactly as released and never construct a total by adding rows together.
 
+Signature project
+
 ## How much water fits in Horsham's mains, and how does an agent miss by a million?
 
 The GWM Water main layer from Horsham Rural City Council's open data, read in Python and handed to an AI agent.
 
-**Mains within 5 km of central Horsham, full-pipe volume (our calculation, 10 October 2026)**
-
 | How the diameter field was read | Volume reported | Compared with the correct answer |
-|---|---|---|
+| --- | --- | --- |
 | As millimetres, converted to metres | 6,801 cubic metres (6.80 megalitres) | Correct |
 | As centimetres by mistake | 680,104 cubic metres | 100 times too large |
 | As metres by mistake | About 6.8 billion cubic metres | About a million times too large |
@@ -95,14 +81,14 @@ Spatial layers often store a measurement as a bare number and leave its unit to 
 
 The 5 km circle and the full-pipe volume are our own choices for teaching; real mains are never all full and empty at once, and nothing here describes how GWM Water operates its network. Lengths are approximate, measured on a flat projection of the published coordinates.
 
+Units in code
+
 ## Four habits that keep units honest
 
 Practised on Horsham's pipes, then useful in physics homework, engineering data and any agent that touches measurements.
 
-**Habits for unit-safe code**
-
 | Habit | On the Horsham layer | What it prevents |
-|---|---|---|
+| --- | --- | --- |
 | Name the unit in the variable | diameter_mm, length_m | Mixing values silently in one formula |
 | Convert once at the edge | Divide by 1,000 when the data is loaded | Conversions scattered and forgotten |
 | Estimate before computing | A few thousand cubic metres expected | Accepting an answer a million times off |
@@ -124,6 +110,8 @@ Asset registers, spreadsheets and reports where a missing unit can turn a sensib
 
 Modern Age Coders has no link with Horsham Rural City Council, GWM Water or the ABS. The layer and the Census figures belong to them; the lengths, volumes and errors on this page are our own analysis.
 
+Around Horsham
+
 ## Terms and clocks for Wimmera learners
 
 Dates and times that decide when Horsham learners can fit in a live lesson.
@@ -140,16 +128,41 @@ Term 1 starts on Wednesday 27 January 2027, with government school students retu
 
 Victoria runs on UTC plus 10 and moves to plus 11 for daylight saving between the first Sunday in October and the first Sunday in April.
 
-**The gap to India** India time is four and a half hours behind Horsham in winter and five and a half hours behind in summer, so lesson times are always confirmed in Horsham time.
+The gap to India
+
+India time is four and a half hours behind Horsham in winter and five and a half hours behind in summer, so lesson times are always confirmed in Horsham time.
+
+Learning ladder
 
 ## From a first prompt to agents you can trust with data
 
 Age bands are rough guides; the trial lesson shows where to start.
 
-- **Ages 13 to 14: Ask and read** Getting short programs from an AI and tracing them by hand before they run. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 15 to 18: Agents and data** Directing coding agents on open data tasks and checking their units and totals. [Codex & Claude Code for Teens](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **University: Agents in projects** Larger builds with agents, code review, automated tests and documented assumptions. [Vibe Coding for College](/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course), [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)
-- **Adults: Agents at work** Automating reports and data checks in a way a colleague could audit. [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 13 to 14
+
+### Ask and read
+
+Getting short programs from an AI and tracing them by hand before they run.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 15 to 18
+
+### Agents and data
+
+Directing coding agents on open data tasks and checking their units and totals.
+
+[Codex & Claude Code for Teens](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)University
+
+### Agents in projects
+
+Larger builds with agents, code review, automated tests and documented assumptions.
+
+[Vibe Coding for College](/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course)[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)Adults
+
+### Agents at work
+
+Automating reports and data checks in a way a colleague could audit.
+
+[Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## If an agent writes the code, why does a Horsham learner still need to?
 
@@ -161,30 +174,139 @@ Our Horsham learners let agents write that code, then insist on an estimate firs
 
 A Horsham learner who has caught an agent treating millimetres as metres has the judgement that matters most for working alongside AI in 2026: knowing when a confident answer cannot possibly be right. The longer argument is in [why reading code beats trusting it in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Across the Wimmera, from one laptop
 
 A live online class reaches Horsham and the farms and towns around it equally.
 
-- **Classes come to you** Learners join from home anywhere around Horsham, in the same live lesson a Melbourne student would attend.
-- **Victorian year levels** Teaching follows Victorian year levels, with VCE students supported in Years 11 and 12, all in English.
-- **Start with a free session** Spend the opening lesson building something with an agent and a teacher, then receive a suggested course and time; no card is needed.
-- **Classmates at your stage** Groups hold fifteen to twenty learners at one level, drawn from across Australia and abroad so every stage has a workable hour.
-- **A steady rhythm** Two sessions each week, about eight a month, with school holidays and exam periods planned ahead.
-- **Daylight saving absorbed** When Victoria changes its clocks, the lesson keeps its Horsham time and our side adjusts.
+### Classes come to you
 
-**Times written for Horsham** Every booking is confirmed in Victorian time, so families never need to work out India time themselves.
+Learners join from home anywhere around Horsham, in the same live lesson a Melbourne student would attend.
+
+### Victorian year levels
+
+Teaching follows Victorian year levels, with VCE students supported in Years 11 and 12, all in English.
+
+### Start with a free session
+
+Spend the opening lesson building something with an agent and a teacher, then receive a suggested course and time; no card is needed.
+
+### Classmates at your stage
+
+Groups hold fifteen to twenty learners at one level, drawn from across Australia and abroad so every stage has a workable hour.
+
+### A steady rhythm
+
+Two sessions each week, about eight a month, with school holidays and exam periods planned ahead.
+
+### Daylight saving absorbed
+
+When Victoria changes its clocks, the lesson keeps its Horsham time and our side adjusts.
+
+Times written for Horsham
+
+Every booking is confirmed in Victorian time, so families never need to work out India time themselves.
+
+Fees
 
 ## What vibe coding and AI agents classes cost in Horsham
 
 The price list fits in three lines.
 
-- First class: USD 0. A free first session that finishes with a recommended stage, course and slot.
-- Group tuition: USD 100 a month. A month of group lessons, normally eight, with fifteen to twenty learners at your level.
-- Private tuition: USD 150 a month. About eight private lessons a month with one teacher.
+First class**USD 0**
+
+A free first session that finishes with a recommended stage, course and slot.
+
+Group tuition**USD 100**
+
+A month of group lessons, normally eight, with fifteen to twenty learners at your level.
+
+Private tuition**USD 150**
+
+About eight private lessons a month with one teacher.
 
 Horsham learners are charged the same US dollar rate as every other Australian family, with no country loading. Payment only begins once the trial has settled a course and a time; holidays, missed sessions and format changes are explained on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20and%20AI%20agents%20class%20for%20a%20learner%20in%20Horsham%2C%20Victoria.)Reviews
+
+## Google reviewers on their lessons with us
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us about the learner and we will shape the trial
+
+We prepare the first task ahead of time: tracing a short AI-written program for a Year 8 beginner, checking an agent's units on a handful of pipes for a Year 11 student, or the full Horsham water main exercise for an adult.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Horsham one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20and%20AI%20agents%20class%20for%20a%20learner%20in%20Horsham%2C%20Victoria.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Horsham vibe coding and AI agents questions
+
+What Horsham learners and parents usually want to know first.
 
 ### How many people live in Horsham?
 
@@ -226,10 +348,14 @@ The first lesson is free. Afterwards a group place costs USD 100 a month for two
 
 From five to ten, matched by level, pace and goals rather than by age or town. If no group suits a workable time, one-to-one lessons are offered.
 
+Explore Victoria
+
 ## More for Horsham and Victorian learners
 
 Elsewhere in regional Victoria there are [online coding and Python classes in Ballarat](/online-coding-and-python-classes-in-ballarat) and [AI and programming classes in Mildura](/ai-and-programming-classes-in-mildura). In the capital, see [vibe coding and AI agents classes in Melbourne](/vibe-coding-and-ai-agents-classes-in-melbourne), and for the whole state read [coding and AI classes in Victoria](/coding-and-ai-classes-in-victoria).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20and%20AI%20agents%20class%20for%20a%20learner%20in%20Horsham%2C%20Victoria.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-horsham-victoria](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-horsham-victoria#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-horsham-victoria*

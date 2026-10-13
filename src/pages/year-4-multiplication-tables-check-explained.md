@@ -6,10 +6,6 @@ source: src/pages/year-4-multiplication-tables-check-explained.html
 ---
 > The Year 4 multiplication tables check explained for parents: 25 questions, 6 seconds each, the June 2027 dates, which tables come up most and how to practise.
 
-# The Year 4 multiplication tables check: what it is and how to prepare
-
-**The short answer.** The multiplication tables check is an on-screen check taken by Year 4 pupils in England every June. It has 25 questions from the 2 to 12 times tables, with 6 seconds to answer each, and takes about 5 minutes. There is no pass mark: the school gets a score out of 25 and shares it with you.
-
 Courses for Years 3 to 6
 
 ## Times tables that stay fluent, inside a proper maths course.

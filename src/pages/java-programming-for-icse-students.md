@@ -82,7 +82,7 @@ Explore More
 
 Part of our full Java cluster, explore any or book a free demo.
 
-[Best Java Classes in IndiaThe full Java course hub](/best-java-classes-in-india)[Java for TeensLogic, OOP & projects](/java-classes-for-teens)[Java OOP ConceptsMaster object thinking](/java-oops-concepts-course)[Java ProjectsBuild real programs](/java-projects-for-students)[Java for BeginnersStart from zero](/java-for-beginners)[Online Java ClassesHow live online works](/online-java-classes)[Python & AIFor teens too](/python-and-ai-classes-for-kids-teens)[Summer Coding CampFast project sprints](/summer-coding-camp)
+[Best Java Classes in IndiaThe full Java course hub](/best-java-classes-in-india)[Java for TeensLogic, OOP & projects](/java-classes-for-teens)[Java OOP ConceptsMaster object thinking](/java-oops-concepts-course)[Java ProjectsBuild real programs](/java-projects-for-students)[ICSE Class 10 Java classesTue 5:30 and Wed 8 PM](/icse-class-10-java-classes-online)[Computer Applications syllabusEight units, 2027 exam](/icse-class-10-computer-applications-syllabus-explained)[Java programs practiceSection B by family](/icse-class-10-java-programs-practice)[BlueJ coachingErrors, lab file, practical](/icse-class-10-bluej-java-coaching)[CA board exam preparationSection A, time plan, mocks](/icse-class-10-computer-applications-board-exam-preparation)[Java for BeginnersStart from zero](/java-for-beginners)[Online Java ClassesHow live online works](/online-java-classes)[Python & AIFor teens too](/python-and-ai-classes-for-kids-teens)[Summer Coding CampFast project sprints](/summer-coding-camp)
 
 Why It Matters
 
@@ -185,7 +185,7 @@ How much do ICSE/ISC Java classes cost?+
 
 Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of up to 6 students is ₹2,999 per month, and 1-on-1 classes are ₹4,999 per month. A free demo class is available first.
 
-Are the classes live and in batches?+
+Are the classes live and in small batches?+
 
 Yes. Every class is live with a real mentor, in batches of 15–20 students (or up to 6 in a Mini Batch), so each student gets attention and their code is reviewed. Sessions are recorded for revision before exams.
 

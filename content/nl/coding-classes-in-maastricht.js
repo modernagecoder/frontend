@@ -176,7 +176,7 @@ module.exports = {
       { h3: 'Twice weekly, on the southern calendar', p: 'Two lessons a week at one repeating slot, eight in most months. Maastricht takes its holidays with regio Zuid along with the rest of Limburg, and weeks away are written in before the slot is fixed.' },
       { h3: 'Three and a half hours, or four and a half', p: 'The Dutch clock changes twice a year and the Indian one does not, so the gap to the teacher depends on the season. Late afternoon, early evening and the whole weekend suit both ends.' }
     ],
-    spec: { title: 'The fewest children of any city on this site', p: 'Only 12,719 residents are under fifteen, 10.1 percent, against 26,390 aged fifteen to twenty-five. A child here is in a smaller cohort than almost anywhere in the country, and a group of five to ten drawn from across the world rather than from one street is a different proposition from whatever the local school can assemble.' }
+    spec: { title: 'The fewest children of any city on this site', p: 'Only 12,719 residents are under fifteen, 10.1 percent, against 26,390 aged fifteen to twenty-five. A child here is in a smaller cohort than almost anywhere in the country, and a group of fifteen to twenty drawn from across the world rather than from one street is a different proposition from whatever the local school can assemble.' }
   },
 
   fees: {

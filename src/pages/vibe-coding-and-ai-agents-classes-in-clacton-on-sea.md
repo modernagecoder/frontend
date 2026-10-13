@@ -4,46 +4,32 @@ description: "Live online vibe coding, AI agents, Python and coding classes for 
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-clacton-on-sea
 source: src/pages/vibe-coding-and-ai-agents-classes-in-clacton-on-sea.html
 ---
-> The Clacton-on-Sea built-up area held 53,200 residents at the 2021 census and Tendring district 148,291, both ONS figures. Holland-on-Sea, Great Clacton and Bocking's Elm are recorded as suburban areas, Jaywick as a village and Frinton-on-Sea as a town. From age six to 67, learners study vibe coding, AI agents, Python, coding and maths in live video lessons with our tutors in India, either individually or among fifteen to twenty classmates at the same level. We teach how to think before which tool to use, so learners can judge what an AI produces. The Clacton project builds a simple navigating agent that feels a pull towards its goal and a push away from buildings, sets it loose on a grid of the town, and counts how often it arrives. The first lesson is free and finishes with a suggested course. From then on it is USD 100 a month for a group place, USD 150 a month for one-to-one.
+> Live online vibe coding, AI agents, Python and coding classes for ages 6 to 67 in Clacton-on-Sea, Jaywick, Holland-on-Sea and Great Clacton. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [East of England](/coding-and-ai-classes-in-east-of-england) / Clacton-on-Sea
-
-Clacton-on-Sea, Tendring, Essex / Live online
-
-# Vibe coding and AI agents classes in Clacton-on-Sea
-
-**What are the best vibe coding and AI agents classes for Clacton-on-Sea?** The Clacton-on-Sea built-up area held 53,200 residents at the 2021 census and Tendring district 148,291, both ONS figures. Holland-on-Sea, Great Clacton and Bocking's Elm are recorded as suburban areas, Jaywick as a village and Frinton-on-Sea as a town. From age six to 67, learners study vibe coding, AI agents, Python, coding and maths in live video lessons with our tutors in India, either individually or among fifteen to twenty classmates at the same level. We teach how to think before which tool to use, so learners can judge what an AI produces. The Clacton project builds a simple navigating agent that feels a pull towards its goal and a push away from buildings, sets it loose on a grid of the town, and counts how often it arrives. The first lesson is free and finishes with a suggested course. From then on it is USD 100 a month for a group place, USD 150 a month for one-to-one.
-
-Some agents plan; others only react. A potential field agent is the purest reactor. Treat the goal as the bottom of a valley, treat every obstacle as a small hill, and let the agent roll downhill one step at a time. It needs no map in its head and almost no computation, which made the idea popular in early robotics. It also has a famous weakness: a dip in the landscape that is not the goal, a local minimum, where every direction looks uphill and the agent simply stops. Using the building outlines that OpenStreetMap volunteers have drawn for Clacton-on-Sea, a learner can build this agent in Python and measure how serious the weakness is.
-
-Facts last verified 30 September 2026. Teaching is online; no Clacton-on-Sea branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentClacton-on-Sea picks
 
 ## Vibe coding, agent and thinking courses for Clacton-on-Sea
 
 Four courses, ordered by age. The first live session of any of them is free, with no card needed to book.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): Our how-to-think course: follow a simple rule, find where it gets stuck, and invent a fix.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Build a Scratch chase game with AI help and discover the corners where the chaser jams.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python and web projects with an AI assistant, including the Clacton navigating agent.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): Generative AI and agents that plan, use tools and know when they are stuck.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsOur how-to-think course: follow a simple rule, find where it gets stuck, and invent a fix.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsBuild a Scratch chase game with AI help and discover the corners where the chaser jams.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensPython and web projects with an AI assistant, including the Clacton navigating agent.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseGenerative AI and agents that plan, use tools and know when they are stuck.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Tendring district
 
 ## Clacton-on-Sea, Harwich and the Tendring towns
 
 The district's built-up areas of 6,000 residents or more, and the places listed around Clacton.
 
-**Built-up areas of 6,000 or more residents within Tendring, ONS 2021 census figures**
-
 | Built-up area | Residents (2021) |
-|---|---|
+| --- | --- |
 | Clacton-on-Sea | 53,200 |
 | Harwich | 20,215 |
 | Brightlingsea | 8,680 |
@@ -56,16 +42,16 @@ Every row is the ONS's own number and none has been added to another; the distri
 
 The county is covered on [coding classes in Essex](/coding-classes-in-essex) and the region on [East of England](/coding-and-ai-classes-in-east-of-england). Our case for reasoning before tools is made on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Clacton-on-Sea project
+
 ## A potential field agent on a grid of 6,454 Clacton buildings
 
 Pull towards the goal, push away from walls, step downhill, and see how far that gets.
 
 A single Overpass request fetches the outline of every building OpenStreetMap holds in a box over central Clacton-on-Sea: 6,454 of them. The learner draws the outlines onto a grid of 4-metre cells, 550 across and 497 down, and finds that 20.9% of the cells are covered by a building. In this toy world everything else counts as open ground, so the agent may cross roads, gardens and even water. Each cell gets a height: its straight-line distance to the goal, plus a steep extra hill within 12 metres of any building. The agent looks at its eight neighbouring cells, steps to the lowest, and repeats. If no neighbour is lower than where it stands, it has reached either the goal or a local minimum, and it stops.
 
-**300 random trips across the Clacton grid, potential field agent, our Python run on OpenStreetMap data**
-
 | Straight-line distance | Trips | Reached the goal | Share |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 50 m to 250 m | 10 | 4 | 40.0% |
 | 250 m to 500 m | 33 | 11 | 33.3% |
 | 500 m to 1 km | 97 | 28 | 28.9% |
@@ -74,10 +60,8 @@ A single Overpass request fetches the outline of every building OpenStreetMap ho
 
 The agent arrived on 60 of 300 trips. The rest ended in a local minimum, typically a building face or a courtyard-like pocket that lies directly between the agent and its goal: the pull says forward, the wall says no, and stepping sideways looks like climbing. Stuck agents had covered a median of only 143 metres, on trips whose median straight-line length was 1,135 metres. Longer trips failed more often simply because they pass more buildings. When the agent did get through, its path was about as short as the shortest possible route on the grid, so the method is efficient when it works.
 
-**Changing the repulsion, same 300 trips, our calculation**
-
 | Agent setting | Goals reached of 300 | Share |
-|---|---|---|
+| --- | --- | --- |
 | Attraction only, no repulsion | 68 | 22.7% |
 | Repulsion within 12 m of buildings | 60 | 20.0% |
 | Repulsion within 24 m of buildings | 58 | 19.3% |
@@ -100,14 +84,14 @@ Build the Clacton grid, run 300 trips, vary the repulsion and compare with a sho
 
 Building outlines are © OpenStreetMap contributors and are used under the Open Database Licence. The grid, the agent and all counts are our own. The grid ignores fences, water and private land, so the results say something about the algorithm and nothing about walking around Clacton.
 
+Agents that get stuck
+
 ## What this teaches about vibe coding and AI agents
 
 An agent that only ever takes the step that looks good right now will sometimes stop short, and it will not know why.
 
-**From the Clacton grid to software agents**
-
 | The navigating agent | An AI agent on a task |
-|---|---|
+| --- | --- |
 | Stepped downhill and halted at a wall | Repeats the same failing action or gives up early |
 | Could not tell a trap from the goal | Needs an explicit test for "am I actually done?" |
 | Tuning moved success by a few points | Prompt tweaks rarely fix a structural flaw |
@@ -118,14 +102,37 @@ Vibe coding is building by description: you say what you want, an AI writes it, 
 
 OpenStreetMap, the Office for National Statistics and postcodes.io have no relationship with us. We relied on their open data and take responsibility for the simulation and its mistakes.
 
+Progression
+
 ## From marble trays to planning agents
 
 Year bands are indicative. The free lesson is where we find the right step.
 
-- **Years 2 to 7: How to think** Rules, where they break, and how to tell you are stuck. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Games built with an AI, then tested until they misbehave. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Vibe coding in Python** Agents, grids and search, in step with GCSE and A level. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: AI agents** Python, then agents that plan, call tools and recover. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
+Years 2 to 7
+
+### How to think
+
+Rules, where they break, and how to tell you are stuck.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Games built with an AI, then tested until they misbehave.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Vibe coding in Python
+
+Agents, grids and search, in step with GCSE and A level.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### AI agents
+
+Python, then agents that plan, call tools and recover.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)AI agents
 
 ## What is a potential field in robot and agent navigation?
 
@@ -137,30 +144,139 @@ Learners who have watched it stall know to ask of any agent: how does it detect 
 
 Clacton teenagers who can code both the reactor and the planner understand agents from the inside, and that understanding comes from learning to program in 2026, not from prompting alone. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How we teach
+
 ## Online from Jaywick to Holland-on-Sea
 
 Bring a computer and an internet line that can carry a video call; nothing else is required.
 
-- **Built by the learner** Students prompt, type and test on their own machine as the tutor watches the shared screen and questions each decision.
-- **Trial sets the level** What we see in the free lesson fixes the starting topic, and any exam board is noted.
-- **Opening lesson free** It costs nothing, needs no card and ends with a course we recommend.
-- **Five to ten, one level** Group classes bring together learners at the same stage from around the UK.
-- **Two classes a week** With gaps for school holidays when you send the dates.
-- **Time that stays put** The tutor absorbs the British Summer Time change, and your slot does not shift.
+### Built by the learner
 
-**Why video lessons** Classes grouped by level need learners from a wide area. Meeting online makes the area the whole country.
+Students prompt, type and test on their own machine as the tutor watches the shared screen and questions each decision.
+
+### Trial sets the level
+
+What we see in the free lesson fixes the starting topic, and any exam board is noted.
+
+### Opening lesson free
+
+It costs nothing, needs no card and ends with a course we recommend.
+
+### Fifteen to twenty, one level
+
+Group classes bring together learners at the same stage from around the UK.
+
+### Two classes a week
+
+With gaps for school holidays when you send the dates.
+
+### Time that stays put
+
+The tutor absorbs the British Summer Time change, and your slot does not shift.
+
+Why video lessons
+
+Classes grouped by level need learners from a wide area. Meeting online makes the area the whole country.
+
+Fees
 
 ## Clacton-on-Sea fees
 
 Clacton-on-Sea families pay the international rate, which is the one for all learners not in India.
 
-- First class: USD 0. A complete lesson, live and free, ending with a recommended course.
-- Group tuition: USD 100 a month. Eight or so live lessons a month in a small class.
-- Private tuition: USD 150 a month. Eight or so live lessons a month, one learner and one tutor.
+First class**USD 0**
+
+A complete lesson, live and free, ending with a recommended course.
+
+Group tuition**USD 100**
+
+Eight or so live lessons a month in a small class.
+
+Private tuition**USD 150**
+
+Eight or so live lessons a month, one learner and one tutor.
 
 All billing is in US dollars; we do not publish a pound equivalent. No invoice is sent before the trial has settled both the course and a weekly time. How holidays, missed classes and format changes work is on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20I%20book%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Clacton-on-Sea%3F)Reviews
+
+## Essex families and other UK learners reviewing us on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Clacton-on-Sea lesson
+
+We only need an age or school year and an interest to plan the trial. It may be a marble-and-obstacles puzzle, a Scratch game made with AI help, first Python, or a tiny agent crossing a grid.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Clacton-on-Sea one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20I%20book%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Clacton-on-Sea%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Clacton-on-Sea questions
+
+Potential fields, the navigating agent, vibe coding, Python and lesson arrangements.
 
 ### What is the population of Clacton-on-Sea?
 
@@ -202,10 +318,14 @@ You pay nothing for the first lesson. Afterwards it is USD 100 a month for group
 
 They pause when you ask; just send the dates.
 
+Across Essex
+
 ## More Essex and East of England pages
 
 Each with a different project: [Colchester](/best-coding-class-in-colchester), [Chelmsford](/best-coding-class-in-chelmsford) and [Southend-on-Sea](/best-coding-class-in-southend-on-sea). All other areas are listed on the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message the team on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20I%20book%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Clacton-on-Sea%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-clacton-on-sea](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-clacton-on-sea#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-clacton-on-sea*

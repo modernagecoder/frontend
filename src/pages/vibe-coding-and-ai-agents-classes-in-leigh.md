@@ -4,46 +4,32 @@ description: "Vibe coding, AI agents, Python and coding lessons live online for 
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-leigh
 source: src/pages/vibe-coding-and-ai-agents-classes-in-leigh.html
 ---
-> The Leigh built-up area held 45,495 residents at the 2021 census, on ONS figures, inside a Wigan borough counted at 329,330. Pennington, Westleigh, Bedford, Lilford, Plank Lane and Firs Lane are listed by postcodes.io as suburban areas whose nearest postcode sits in that built-up area. Modern Age Coders teaches vibe coding, AI agents, Python, coding and maths to learners from six to 67, live on video with tutors who work from India. Learners choose private lessons or a class of fifteen to twenty at the same stage. What we care about most is judgement: a learner should be able to say what an agent is meant to achieve and then prove whether it did. The Leigh project gives an imaginary robot boat the job of sweeping all 66 hectares of Pennington Flash, and compares a planned route with a boat that simply wanders. Lesson one costs nothing and ends with our course advice; after it, a group place is USD 100 a month and one-to-one teaching USD 150 a month.
+> Vibe coding, AI agents, Python and coding lessons live online for Leigh, Pennington, Westleigh, Bedford, Lilford and Plank Lane, ages 6 to 67. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [North West England](/coding-and-ai-classes-in-north-west-england) / Leigh
-
-Leigh, Wigan borough, Greater Manchester / Live online
-
-# Vibe coding and AI agents classes in Leigh
-
-**Where can Leigh learners find the best vibe coding and AI agents classes?** The Leigh built-up area held 45,495 residents at the 2021 census, on ONS figures, inside a Wigan borough counted at 329,330. Pennington, Westleigh, Bedford, Lilford, Plank Lane and Firs Lane are listed by postcodes.io as suburban areas whose nearest postcode sits in that built-up area. Modern Age Coders teaches vibe coding, AI agents, Python, coding and maths to learners from six to 67, live on video with tutors who work from India. Learners choose private lessons or a class of fifteen to twenty at the same stage. What we care about most is judgement: a learner should be able to say what an agent is meant to achieve and then prove whether it did. The Leigh project gives an imaginary robot boat the job of sweeping all 66 hectares of Pennington Flash, and compares a planned route with a boat that simply wanders. Lesson one costs nothing and ends with our course advice; after it, a group place is USD 100 a month and one-to-one teaching USD 150 a month.
-
-Some jobs are not about getting from A to B. A robot mower has to pass over every patch of lawn. A search drone has to photograph every field. A boat sampling a lake has to cross every part of the water. Doing that well has a name, coverage path planning, and it hides two surprises. The first is that the distance hardly changes whichever way you lay out the route; what changes is the number of awkward turns. The second is that an agent which wanders at random finds most of the area quickly and then spends an enormous effort on the last few patches. Pennington Flash, a lake of 66.2 hectares mapped in OpenStreetMap, shows both.
-
-Facts last verified 30 September 2026. Teaching is online; no Leigh branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentWhere to begin
 
 ## Vibe coding, thinking and agent courses for Leigh
 
 Pick the band that fits the learner. The first lesson on each course is live, free, and booked without a card.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): How to think: colour in every square of a grid with the fewest pencil lifts, then explain why.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Ask an AI for a Scratch robot that paints a whole stage, then count the patches it forgot.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python and web projects written with an assistant, including the lake sweep as a simulation.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Students and adults): From first scripts to geometry, simulation and agents that plan before they move.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsHow to think: colour in every square of a grid with the fewest pencil lifts, then explain why.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsAsk an AI for a Scratch robot that paints a whole stage, then count the patches it forgot.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensPython and web projects written with an assistant, including the lake sweep as a simulation.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Masterclass course thumbnail](/images/python-college.webp)Students and adultsPython MasterclassFrom first scripts to geometry, simulation and agents that plan before they move.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Leigh on the map
 
 ## Leigh, its neighbourhoods and Pennington Flash
 
 Places around Leigh as postcodes.io records them, with the built-up area of each one's nearest postcode.
 
-**Places near Leigh in postcodes.io, and the ONS built-up area of the nearest postcode to each point**
-
 | Place | Recorded as | Outward code | Nearest postcode lies in |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Pennington | Suburban area | WN7 | Leigh (Wigan) |
 | Westleigh | Suburban area | WN7 | Leigh (Wigan) |
 | Bedford | Suburban area | WN7 | Leigh (Wigan) |
@@ -59,6 +45,8 @@ The last two rows show why a postcode is a poor guide to a town: both carry a WN
 
 For the county see [coding classes in Greater Manchester](/coding-classes-in-greater-manchester), and for the region [North West England](/coding-and-ai-classes-in-north-west-england). The reason thinking comes before tools in every lesson is explained in [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Leigh project
+
 ## Sweeping Pennington Flash: 66.2 hectares, one robot boat
 
 Give an agent a lake and a job that is only finished when every part of it has been visited.
@@ -67,20 +55,16 @@ The learner takes the outline of Pennington Flash from OpenStreetMap, where it i
 
 The planned boat uses the pattern farmers use in a field, called a boustrophedon: straight parallel lanes 20 m apart, turning at the shore and coming back along the next lane. The only decision is the direction of the lanes. We tried 36 directions, every 5 degrees round a half circle, and measured each one in Python.
 
-**Straight-lane sweeps of Pennington Flash with a 20 m swath (our Python geometry on the OpenStreetMap outline)**
-
 | Lane direction | Lanes | Separate straight runs | Total lane length | Water covered |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Bearing 120 degrees (fewest runs) | 47 | 55 | 33.1 km | 98.8% |
 | Bearing 35 degrees (most runs) | 82 | 105 | 33.1 km | 99.4% |
-| All 36 directions tried | 44 to 84 | 55 to 105 | 33.0 to 33.2 km |  |
+| All 36 directions tried | 44 to 84 | 55 to 105 | 33.0 to 33.2 km |   |
 
 The surprise is the fourth column. Whichever way the lanes run, their total length stays close to 33.1 km, because it is simply the area divided by the swath width. What the direction really changes is the number of straight runs, and each run ends in a turn, a slow-down and a small overlap. Lanes laid along the long side of the lake need 55 runs; lanes across it need 105, nearly twice as many turns for the same water. Where the shore bends inward, a single lane is broken into two or three runs, which is why runs outnumber lanes. The small gaps left along the shore, about one percent of the water, are the price of keeping to straight lines.
 
-**The wandering boat: distance travelled before a share of the lake had been seen, 20 runs (our simulation)**
-
 | Share of water seen | Median distance | Quickest run | Slowest run |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 50% | 21.5 km | 19.7 km | 28.8 km |
 | 90% | 74.2 km | 68.4 km | 88.0 km |
 | 95% | 95.3 km | 88.6 km | 117.3 km |
@@ -104,14 +88,14 @@ Load the real outline, test all 36 lane directions, and simulate the random boat
 
 Lake outline © OpenStreetMap contributors, available under the Open Database Licence. The boat, its 20 m swath, the lanes and every distance above come from our own code. A real vessel would need to allow for wind, depth, wildlife and the rules of whoever manages the water, none of which we modelled. A different swath or a newer outline would change the figures.
 
+Plans for agents
+
 ## What sweeping a lake teaches about AI agents and vibe coding
 
 Agents that must be thorough need a plan they can check, and a way to prove when they have finished.
 
-**From Pennington Flash to agents in general**
-
 | On the lake | For an AI agent |
-|---|---|
+| --- | --- |
 | 33.1 km of lanes whatever the direction | Some costs are fixed; find the ones you can change |
 | 55 runs against 105 | Count the awkward steps, not only the distance |
 | Half the lake in 21.5 km of wandering | Early progress can hide a slow finish |
@@ -122,14 +106,37 @@ The same shape of problem turns up whenever an AI agent is asked to be thorough:
 
 OpenStreetMap, the Office for National Statistics and postcodes.io have not checked or endorsed this page. We use data they publish openly, and the analysis is ours alone.
 
+How learners progress
+
 ## From colouring grids to planning agents
 
 Year groups are only a starting guide; the free lesson shows us where a learner really is.
 
-- **Years 2 to 6: How to think** Patterns, grids and doing a job without missing a piece. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Robot and painting games an AI starts and the child finishes. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python and simulation** Geometry and simulations coded with an assistant and measured by hand. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Building agents** Working Python first, then agents that plan and report what they skipped. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
+Years 2 to 6
+
+### How to think
+
+Patterns, grids and doing a job without missing a piece.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Robot and painting games an AI starts and the child finishes.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python and simulation
+
+Geometry and simulations coded with an assistant and measured by hand.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Building agents
+
+Working Python first, then agents that plan and report what they skipped.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)Agents that cover ground
 
 ## What is coverage path planning, and how does an AI agent know it has searched everywhere?
 
@@ -141,30 +148,139 @@ A boat choosing random headings saw half the lake almost as quickly, then needed
 
 Leigh teenagers who have raced a plan against a wanderer ask any agent a sharp question: how do you know you have finished? Being able to ask it, and test the answer, comes from writing the code, and that is still the case for learning to code in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How lessons run
+
 ## Pennington, Westleigh and Bedford on the same live call
 
 A computer with a webcam and a steady connection for video is all the kit needed.
 
-- **Learner drives** The student shares their screen and types; the tutor asks why at each step.
-- **Placed by evidence** The trial shows us what a learner can already do before we suggest a course.
-- **Trial at no cost** A full-length first lesson, no payment details asked for.
-- **Classes by stage** Fifteen to twenty learners at one level, gathered from all over the UK.
-- **Twice weekly** Holiday weeks are left out once you tell us the dates.
-- **A steady slot** When the clocks change in spring and autumn, our tutors adjust and your time does not.
+### Learner drives
 
-**Why teach it online** A class where everyone is at the same stage needs more learners than one town can offer at once. Across the UK there are enough.
+The student shares their screen and types; the tutor asks why at each step.
+
+### Placed by evidence
+
+The trial shows us what a learner can already do before we suggest a course.
+
+### Trial at no cost
+
+A full-length first lesson, no payment details asked for.
+
+### Classes by stage
+
+Fifteen to twenty learners at one level, gathered from all over the UK.
+
+### Twice weekly
+
+Holiday weeks are left out once you tell us the dates.
+
+### A steady slot
+
+When the clocks change in spring and autumn, our tutors adjust and your time does not.
+
+Why teach it online
+
+A class where everyone is at the same stage needs more learners than one town can offer at once. Across the UK there are enough.
+
+Fees
 
 ## Prices for Leigh learners
 
 Leigh is charged the rates we use for every country outside India.
 
-- First class: USD 0. The first live lesson in full, at no cost, with a course suggestion to finish.
-- Group tuition: USD 100 a month. Roughly eight small-group lessons a month.
-- Private tuition: USD 150 a month. Roughly eight one-to-one lessons a month.
+First class**USD 0**
+
+The first live lesson in full, at no cost, with a course suggestion to finish.
+
+Group tuition**USD 100**
+
+Roughly eight small-group lessons a month.
+
+Private tuition**USD 150**
+
+Roughly eight one-to-one lessons a month.
 
 All prices are quoted in US dollars; none is given in pounds. Nothing is billed until after the trial, once a course and a weekly slot are agreed. Holidays, missed lessons and moving between group and private are covered on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Leigh.)Reviews
+
+## What North West families and UK learners say on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson from Leigh
+
+Tell us the learner's age or school year and one interest. The trial might be a grid-colouring puzzle, a Scratch robot an AI helped build, a first Python program, or a first go at planning a sweep.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Leigh one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Leigh.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Questions from Leigh
+
+Coverage planning, the lake project, vibe coding, agents and how lessons are arranged.
 
 ### How many people live in Leigh?
 
@@ -206,10 +322,14 @@ The first lesson is free. Afterwards a group place is USD 100 a month and privat
 
 Only if you want them. Send the dates and we pause.
 
+Nearby pages
+
 ## More of Greater Manchester
 
 Other towns have their own projects: [Wigan](/online-coding-and-python-classes-in-wigan), [Bolton](/online-coding-and-python-classes-in-bolton) and [Oldham](/ai-and-programming-classes-in-oldham), with the county on [Greater Manchester](/coding-classes-in-greater-manchester). Anywhere else in the country starts from the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Leigh.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-leigh](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-leigh#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-leigh*

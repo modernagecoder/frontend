@@ -4,46 +4,32 @@ description: "Coding, Python, AI and data classes for Dún Laoghaire learners ag
 canonical: https://learn.modernagecoders.com/coding-classes-in-dun-laoghaire-dublin
 source: src/pages/coding-classes-in-dun-laoghaire-dublin.html
 ---
-> Every Dún Laoghaire lesson is taught live over video by a teacher, to a few learners at an equal level or to a single learner, with two lessons in an ordinary week, and people aged anywhere from six to sixty-seven can sign up. No travel is involved. The first lesson carries no fee; later months cost USD 100 in a group and USD 150 one to one.
+> Coding, Python, AI and data classes for Dún Laoghaire learners aged 6 to 67, taught live online in same-level groups or one to one. Your first lesson is free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [Dún Laoghaire-Rathdown](/coding-classes-in-dun-laoghaire-rathdown) / Dún Laoghaire
-
-Dún Laoghaire, County Dublin / Live online
-
-# Coding classes in Dún Laoghaire
-
-**What are the best coding classes in Dún Laoghaire?** Every Dún Laoghaire lesson is taught live over video by a teacher, to a few learners at an equal level or to a single learner, with two lessons in an ordinary week, and people aged anywhere from six to sixty-seven can sign up. No travel is involved. The first lesson carries no fee; later months cost USD 100 in a group and USD 150 one to one.
-
-Dún Laoghaire-Rathdown County Council counts cyclists every hour at three points in Dún Laoghaire, at Seapoint Beach, People's Park and York Road, and records which way each one is going. Add the two directions together and Seapoint looks steady: about a thousand cyclists on an average weekday and about a thousand on a weekend day. Split them again and a pattern appears. On weekday mornings two thirds of Seapoint's cyclists head north; in the evening nearly two thirds head south. At People's Park the morning flow runs the other way. This page teaches a learner to take a total apart and read the direction, and the hour, that the total throws away.
-
-Facts last verified 20 September 2026. Teaching is online; no Dún Laoghaire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Dún Laoghaire
 
 ## Four first courses for Dún Laoghaire
 
 Match the learner to an age band; the free opening lesson lets the teacher confirm it or move up or down a course.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Blocks and counting: a gate that counts people going in and going out, and a total that forgets which was which.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Python with hourly counts in two columns, adding them up and then comparing them hour by hour.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 18): Real counter data in Python: grouping by hour and day type, shares by direction, and daily profiles.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (College and adult): For adults whose dashboards show totals, and who need the breakdown that explains them.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlocks and counting: a gate that counts people going in and going out, and a total that forgets which was which.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsPython with hourly counts in two columns, adding them up and then comparing them hour by hour.See the syllabus](/courses/python-ai-kids-masterclass)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 18Data Science for TeensReal counter data in Python: grouping by hour and day type, shares by direction, and daily profiles.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)College and adultData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For adults whose dashboards show totals, and who need the breakdown that explains them.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## Same totals, opposite mornings: take the count apart by direction
 
 Hourly cyclist counts for 2025 at the council's three Dún Laoghaire counters, which record North and South separately. The shares below are the northbound part of all cyclists counted in each window, averaged over the year.
 
-**Northbound share of cyclists, weekdays in 2025**
-
 | Counter | 07:00 to 09:00 | 16:00 to 19:00 | Per weekday |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Seapoint Beach | 67.0% | 36.0% | 1,008 |
 | People's Park | 28.8% | 63.8% | 772 |
 | York Road | 40.1% | 63.1% | 786 |
@@ -78,14 +64,14 @@ People's Park has counts for 8,039 hours of the year and Seapoint for 8,015, but
 
 Across 2025 the Seapoint counter recorded 160,804 cyclists going north and 175,033 going south; People's Park recorded 139,449 and 134,690. Yearly totals like these hide the daily rhythm entirely.
 
+Dún Laoghaire, named
+
 ## Dún Laoghaire, in the words of its park, museum and council data
 
 Facts that each body publishes itself, with the eircode where it gives one.
 
-**Named places in Dún Laoghaire**
-
 | Place | What its own source says |
-|---|---|
+| --- | --- |
 | People's Park | Two hectares, a Sunday market from 11am to 4pm |
 | National Maritime Museum of Ireland | Haigh Terrace, A96 C8X7 |
 | Seapoint Beach counter | Cyclists and pedestrians, both ways, since 1 September 2020 |
@@ -103,7 +89,11 @@ The National Maritime Museum of Ireland gives its address as Haigh Terrace, Dún
 
 The council's counter file gives each device's coordinates and start date. The three in Dún Laoghaire record both cyclists and pedestrians in both directions, and all began within a day of each other at the end of summer 2020.
 
-**What this page does not claim** No population is printed for Dún Laoghaire, because the page uses only facts that named bodies publish about the place. The project describes counted cyclists at three points; it says nothing about why people travel, and the county's bathing water and libraries belong to the Dún Laoghaire-Rathdown page.
+What this page does not claim
+
+No population is printed for Dún Laoghaire, because the page uses only facts that named bodies publish about the place. The project describes counted cyclists at three points; it says nothing about why people travel, and the county's bathing water and libraries belong to the Dún Laoghaire-Rathdown page.
+
+Learning here
 
 ## The week for a Dún Laoghaire learner
 
@@ -123,14 +113,37 @@ Adults may begin from nothing at all; the first lesson settles which course suit
 
 Counts and counter details are Dún Laoghaire-Rathdown County Council's open data; the shares, averages and profiles are our own calculations, run on 20 September 2026. The park and the museum are quoted from their own pages.
 
+Learning ladder
+
 ## From a tally at a gate to a daily profile
 
 Treat the bands as a starting point; the teacher settles the level in lesson one.
 
-- **Ages 6 to 10: In and out** Block-coded counters that tally both ways and then add them up. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Two columns** Python that compares two columns of hourly counts instead of only summing them. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Profiles and shares** Grouping by hour and day type, direction shares and charts of a typical day. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Behind the dashboard** Breaking workplace totals into the parts that explain them. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### In and out
+
+Block-coded counters that tally both ways and then add them up.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Two columns
+
+Python that compares two columns of hourly counts instead of only summing them.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Profiles and shares
+
+Grouping by hour and day type, direction shares and charts of a typical day.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Behind the dashboard
+
+Breaking workplace totals into the parts that explain them.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## Ask an assistant how busy the Seapoint cycle path is
 
@@ -142,30 +155,139 @@ After building the direction profiles, the learner asks the assistant what the n
 
 Adding two columns is easy. Knowing what the sum throws away is the skill. The longer argument is in [why learning to code still opens doors](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How lessons run for Dún Laoghaire
 
 In short.
 
-- **Live every time** A teacher runs each lesson in real time and works directly with each learner's code.
-- **Peers at one level** Fifteen to twenty learners at the same level, from Dún Laoghaire, the rest of Ireland or overseas.
-- **Two days, set** Roughly eight lessons a month, on the same two days each week.
-- **School breaks** Holidays, mid-term breaks and exam weeks are planned into the course.
-- **Bring your own device** A laptop or desktop, headphones or speakers and a microphone, and a connection fit for video.
-- **Individually** One-to-one lessons for learners ahead of the groups, needing more time, or keeping unusual hours.
+### Live every time
 
-**No classroom to visit** We have no premises in Dún Laoghaire, in the county or anywhere in Ireland. All lessons are on video and are the same wherever the learner joins from.
+A teacher runs each lesson in real time and works directly with each learner's code.
+
+### Peers at one level
+
+Fifteen to twenty learners at the same level, from Dún Laoghaire, the rest of Ireland or overseas.
+
+### Two days, set
+
+Roughly eight lessons a month, on the same two days each week.
+
+### School breaks
+
+Holidays, mid-term breaks and exam weeks are planned into the course.
+
+### Bring your own device
+
+A laptop or desktop, headphones or speakers and a microphone, and a connection fit for video.
+
+### Individually
+
+One-to-one lessons for learners ahead of the groups, needing more time, or keeping unusual hours.
+
+No classroom to visit
+
+We have no premises in Dún Laoghaire, in the county or anywhere in Ireland. All lessons are on video and are the same wherever the learner joins from.
+
+Fees
 
 ## Fees for Dún Laoghaire
 
 As simple as it gets.
 
-- First class: USD 0. A free first lesson including a level check.
-- Group tuition: USD 100 a month. A month in a same-level group of fifteen to twenty, around eight live lessons.
-- Private tuition: USD 150 a month. A month of one-to-one lessons on the same schedule.
+First class**USD 0**
+
+A free first lesson including a level check.
+
+Group tuition**USD 100**
+
+A month in a same-level group of fifteen to twenty, around eight live lessons.
+
+Private tuition**USD 150**
+
+A month of one-to-one lessons on the same schedule.
 
 The fee in US dollars is the same for every family outside India, month by month. Nothing is owed for the free lesson, billing starts when the course starts, and the pricing page explains holidays, missed lessons and a change between group and private teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20D%C3%BAn%20Laoghaire.)Reviews
+
+## Six families' words on Google, unchanged
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free first lesson in Dún Laoghaire
+
+Tell us the learner's age and interests, and the first hour will be shaped around them. It could end with a game, a first working program, or a daily chart with the morning and evening pulling opposite ways.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Dún Laoghaire one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20D%C3%BAn%20Laoghaire.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Dún Laoghaire coding class questions
+
+Questions Dún Laoghaire families ask us.
 
 ### Is there a Modern Age Coders centre in Dún Laoghaire?
 
@@ -203,10 +325,14 @@ The first lesson is free. After that a group place is USD 100 a month for about 
 
 Fifteen to twenty learners, grouped by level, pace and goals rather than by age or address. When no group fits a workable time, lessons are one to one.
 
+Explore Ireland
+
 ## Around Dún Laoghaire and the bay
 
 The [Dún Laoghaire-Rathdown](/coding-classes-in-dun-laoghaire-rathdown) page covers the county, including its bathing water project, while [Sandyford](/coding-classes-in-sandyford-dublin) and [Dundrum](/coding-classes-in-dundrum-dublin) have district pages inland. Further down the coast is [Bray](/best-coding-class-in-bray), and the [Ireland hub](/coding-classes-in-ireland) lists the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20D%C3%BAn%20Laoghaire.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-dun-laoghaire-dublin](https://learn.modernagecoders.com/coding-classes-in-dun-laoghaire-dublin#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-dun-laoghaire-dublin*

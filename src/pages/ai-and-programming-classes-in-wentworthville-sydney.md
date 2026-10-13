@@ -4,56 +4,40 @@ description: "Live online AI and programming classes for Wentworthville learners
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-wentworthville-sydney
 source: src/pages/ai-and-programming-classes-in-wentworthville-sydney.html
 ---
-> How to build models and, just as important, how to test them honestly. We teach live online in small groups, from Scratch at six to Python and machine learning for teenagers and adults. Wentworthville covers about 3.12 square kilometres; the 2021 Census counted 15,098 residents, median age 33.
+> Live online AI and programming classes for Wentworthville learners aged 6 to 67, with a project that tests models of station data honestly. First lesson free.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [New South Wales](/coding-and-ai-classes-in-new-south-wales) / [Sydney](/best-coding-classes-in-sydney) / Wentworthville
-
-Wentworthville, western Sydney / Live online
-
-# AI and programming classes in Wentworthville
-
-**What should AI and programming classes teach Wentworthville learners?** How to build models and, just as important, how to test them honestly. We teach live online in small groups, from Scratch at six to Python and machine learning for teenagers and adults. Wentworthville covers about 3.12 square kilometres; the 2021 Census counted 15,098 residents, median age 33.
-
-Fit a model to Wentworthville station's monthly entries and the score can look superb: 0.934 on the standard measure, R squared, meaning 93.4% of the up-and-down is explained. Hide the last six months, refit on the rest and score those six, and the same kind of model gets 0.699 or minus 0.984, depending only on which average you compare it with. Both numbers are correct. Learning why is the most useful hour a future AI builder can spend.
-
-Facts last verified 10 October 2026. Teaching is online; no Wentworthville branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Wentworthville
 
 ## Courses that build and test models
 
 Each course reaches models that are checked on data they have not seen. The first lesson is free and decides the level; no card is asked for.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 8 to 12): Guessing rules from examples, then testing them on new ones.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Regression, classification and honest train and test splits.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 12 to 17): The Python, lists and files needed before fitting any model.
-- [Statistics & Probability](/courses/statistics-probability-maths-course) (University and adult): Means, variation and the maths behind R squared.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 8 to 12Problem Solving and Computational Thinking for KidsGuessing rules from examples, then testing them on new ones.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensRegression, classification and honest train and test splits.See the syllabus](/courses/ai-ml-masterclass-teens)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 12 to 17Python for TeensThe Python, lists and files needed before fitting any model.See the syllabus](/courses/python-complete-masterclass-teens)[![Statistics & Probability course thumbnail](/images/statistics-probability-maths.webp)University and adultStatistics & ProbabilityMeans, variation and the maths behind R squared.See the syllabus](/courses/statistics-probability-maths-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Wentworthville in the Census
 
 ## Apartments, young children and many graduates
 
 The 2021 Census picture of the Wentworthville suburb and locality, set beside New South Wales and Australia.
 
-**Wentworthville, 2021 Census**
-
 | Measure | Value |
-|---|---|
+| --- | --- |
 | Residents | 15,098 |
 | Median age | 33 |
 | Families | 3,926 |
 | Private dwellings | 5,721 |
 | Average people per household | 2.9 |
 
-**Wentworthville set against NSW and Australia**
-
 | Indicator | Wentworthville | NSW | Australia |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Flats or apartments among occupied homes | 40.0% (1,958) | 21.7% | 14.2% |
 | Townhouses, terraces and semis | 22.3% (1,089) | 11.7% | 12.6% |
 | Bachelor degree or higher (aged 15 and over) | 47.7% (5,801) | 27.8% | 26.3% |
@@ -74,14 +58,14 @@ Nearly half of residents aged 15 and over held a bachelor degree or higher, 47.7
 
 All figures are for the suburb and locality. The bureau randomly adjusts small cells, so published parts are never added together on this page.
 
+Signature project
+
 ## Four models and three R squared scores
 
 The data is 23 months of entries at Wentworthville station, from 68,953 in January 2025 to 97,307 in March 2026. Each model is fitted by least squares on October 2024 to February 2026 and then asked to predict March to August 2026.
 
-**R squared and error for each model (our NumPy run)**
-
 | Model | Fitted on all 23 months | Held out, against the test mean | Held out, against the training mean | Average miss on held-out months |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Overall average | 0.000 | -5.598 | 0.000 | 7,331 |
 | Straight-line trend | 0.094 | -7.218 | -0.246 | 8,334 |
 | Month of the year | 0.875 | -2.411 | 0.483 | 5,103 |
@@ -101,18 +85,18 @@ A negative R squared means the model did worse than the chosen average. The stra
 
 ### Which number would a library print?
 
-scikit-learn's r2_score(y_test, y_pred) uses the mean of y_test as its baseline, so it reports the -0.984 figure. That baseline knows the test period's average in advance, which a forecaster never does.
+scikit-learn's `r2_score(y_test, y_pred)` uses the mean of y_test as its baseline, so it reports the -0.984 figure. That baseline knows the test period's average in advance, which a forecaster never does.
 
 Entry counts are Transport for NSW monthly Opal figures; the models, scores and errors are our own calculation. We give no reason for any month being high or low.
+
+Reporting a model
 
 ## What a fair report on the model includes
 
 Learners finish by writing the report a careful reader would want, using Wentworthville and its neighbours for scale.
 
-**Average monthly entries, October 2024 to August 2026 (our calculation)**
-
 | Station | Average a month | Rank among 270 train stations with all 23 months |
-|---|---|---|
+| --- | --- | --- |
 | Westmead | 151,164 | 35th |
 | Wentworthville | 87,159 | 58th of 270 |
 | Pendle Hill | 70,999 | 68th |
@@ -131,14 +115,14 @@ Ask any vendor or analyst which data their accuracy was measured on, and against
 
 Transport for NSW releases the station figures under a Creative Commons licence and is unconnected with Modern Age Coders.
 
+Schools and the school year
+
 ## Four state schools across two councils
 
 The NSW school locations file lists four government schools with a Wentworthville address, two in Cumberland council and two in City of Parramatta.
 
-**State schools whose listed suburb is Wentworthville**
-
 | School | Level | First teacher | Council |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Wentworthville Public School | Primary | 1891 | Cumberland |
 | Darcy Road Public School | Primary | 1955 | Parramatta |
 | Pendle Hill Public School | Primary | 1955 | Cumberland |
@@ -156,14 +140,37 @@ Monday 12 April to Friday 23 April, after Term 1 ends on Friday 9 April.
 
 Wentworthville classes also stop for these breaks and resume in their usual weekly slot.
 
+Learning ladder
+
 ## From guessing games to tested models
 
 The ages are guidelines; the free first lesson finds the right level.
 
-- **Ages 6 to 10: Scratch and patterns** Games that spot patterns, guess the next move and keep score. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)
-- **Ages 10 to 13: First Python** Lists, averages and checking a guess against the answer. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 13 to 18: Models and testing** Regression, train and test splits and scores with named baselines. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **University and adult: Honest evaluation** Validation, error measures and reports decision makers can trust. [Data Science Course](/courses/data-science-complete-masterclass-college), [Statistics & Probability](/courses/statistics-probability-maths-course)
+Ages 6 to 10
+
+### Scratch and patterns
+
+Games that spot patterns, guess the next move and keep score.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)Ages 10 to 13
+
+### First Python
+
+Lists, averages and checking a guess against the answer.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 13 to 18
+
+### Models and testing
+
+Regression, train and test splits and scores with named baselines.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Python for Teens](/courses/python-complete-masterclass-teens)University and adult
+
+### Honest evaluation
+
+Validation, error measures and reports decision makers can trust.
+
+[Data Science Course](/courses/data-science-complete-masterclass-college)[Statistics & Probability](/courses/statistics-probability-maths-course)Coding and AI
 
 ## High scores on seen data are easy to come by
 
@@ -175,30 +182,139 @@ Learners who have produced all three scores themselves ask two questions of any 
 
 In 2026 anyone can fit a model with one prompt; Wentworthville learners who can test one honestly will be the ones others rely on. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live lessons for Wentworthville learners at home
 
 Classes take place on live video, joined from home in Wentworthville.
 
-- **Real-time teaching** Code and models are built during the class, with the teacher watching each step.
-- **Fits NSW schooling** Teachers use NSW stages and years and plan around the state calendar.
-- **Trial lesson free** One full lesson without charge, ending in a suggested course and time.
-- **Fifteen to twenty learners** Groups share a level; individual teaching is available instead.
-- **Regular sessions** Two a week at fixed times, close to eight a month, with breaks shared early.
-- **Teachers in India** A 5:30pm Wentworthville lesson is noon India time in Sydney summer time and 1pm the rest of the year.
+### Real-time teaching
 
-**Daylight saving and India** Sydney moves to daylight saving from Sunday 4 October 2026 until Sunday 4 April 2027. India does not, so Sydney is 5 hours 30 minutes ahead during that time and 4 hours 30 minutes ahead otherwise. Lessons are always timetabled in Sydney time.
+Code and models are built during the class, with the teacher watching each step.
+
+### Fits NSW schooling
+
+Teachers use NSW stages and years and plan around the state calendar.
+
+### Trial lesson free
+
+One full lesson without charge, ending in a suggested course and time.
+
+### Fifteen to twenty learners
+
+Groups share a level; individual teaching is available instead.
+
+### Regular sessions
+
+Two a week at fixed times, close to eight a month, with breaks shared early.
+
+### Teachers in India
+
+A 5:30pm Wentworthville lesson is noon India time in Sydney summer time and 1pm the rest of the year.
+
+Daylight saving and India
+
+Sydney moves to daylight saving from Sunday 4 October 2026 until Sunday 4 April 2027. India does not, so Sydney is 5 hours 30 minutes ahead during that time and 4 hours 30 minutes ahead otherwise. Lessons are always timetabled in Sydney time.
+
+Fees
 
 ## Wentworthville lesson fees
 
 A single flat price list for all courses.
 
-- First class: USD 0. The opening lesson is free, and the teacher then suggests a course and a time.
-- Group tuition: USD 100 a month. Two group lessons a week, about eight a month, in a class of fifteen to twenty at one level.
-- Private tuition: USD 150 a month. Private lessons twice a week, again about eight a month.
+First class**USD 0**
+
+The opening lesson is free, and the teacher then suggests a course and a time.
+
+Group tuition**USD 100**
+
+Two group lessons a week, about eight a month, in a class of fifteen to twenty at one level.
+
+Private tuition**USD 150**
+
+Private lessons twice a week, again about eight a month.
 
 Wentworthville families pay in US dollars, and payment begins only after the trial has agreed a course and slot. See the pricing page for holidays, missed lessons and switching formats.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Wentworthville.)Reviews
+
+## Family reviews on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Arrange a free first lesson
+
+An age and an interest are all we need. A six-year-old might make a Scratch guessing game; a teenager or adult might fit the station models and score them fairly.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Wentworthville one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Wentworthville.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Wentworthville AI and programming questions
+
+What Wentworthville families tend to ask.
 
 ### How many people live in Wentworthville?
 
@@ -240,10 +356,14 @@ The first lesson is free. A group place is USD 100 a month for two live lessons 
 
 Fifteen to twenty learners, grouped by level and goals rather than age. If no group fits the learner's schedule, one-to-one lessons are offered instead.
 
+Nearby guides
+
 ## More for Wentworthville learners
 
 Parramatta, two stops east, has its own guide at [coding and AI classes in Parramatta](/best-coding-and-ai-classes-in-parramatta-sydney), and Blacktown, further west on the same line, at [vibe coding and AI agents classes in Blacktown](/vibe-coding-and-ai-agents-classes-in-blacktown-sydney). Elsewhere in Cumberland council see [vibe coding and AI agents classes in Auburn](/vibe-coding-and-ai-agents-classes-in-auburn-sydney), and for the whole city [coding classes in Sydney](/best-coding-classes-in-sydney).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Send a WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Wentworthville.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-wentworthville-sydney](https://learn.modernagecoders.com/ai-and-programming-classes-in-wentworthville-sydney#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-wentworthville-sydney*

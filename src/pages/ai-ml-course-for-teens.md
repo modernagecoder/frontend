@@ -12,7 +12,7 @@ India's #1 Rated AI & ML Course for Teens
 
 Live online AI & Machine Learning classes for ages 13-18. Groups of 15 to 20, or one-to-one. Expert instructors. Real neural networks, real projects, real results, not textbook theory.
 
-Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I want to know more about the AI ML course for teens)Ages 13-185 to 10 Students Per GroupRated 4.9/5 by ParentsLive Online ClassesFree Demo ClassReal AI Projects Built
+Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I want to know more about the AI ML course for teens)Ages 13-1815 to 20 Students Per GroupRated 4.9/5 by ParentsLive Online ClassesFree Demo ClassReal AI Projects Built
 
 Why This Course Works
 
@@ -196,7 +196,7 @@ What Makes Us Different
 
 There are thousands of AI courses out there. Here's why parents and students consistently choose us, and why 98% of our students complete the full course.
 
-### Groups Capped at 10
+### Groups Capped at 20
 
 Recorded courses have no teacher watching, and big coaching halls hold 30 or more. Our groups hold 15 to 20, so every student gets asked questions, gets their code reviewed and gets unstuck in every class.
 

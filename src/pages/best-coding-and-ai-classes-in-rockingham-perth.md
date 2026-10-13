@@ -4,46 +4,32 @@ description: "Live online coding and AI classes for the City of Rockingham, ages
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-rockingham-perth
 source: src/pages/best-coding-and-ai-classes-in-rockingham-perth.html
 ---
-> They teach learners to ask how many rows an answer should have. In our Rockingham project, a database query looks for the longest school-zone stretch on each of 140 roads and returns 143 rows. Three roads have exact ties, one of them a divided road where both sides measure the same. Spotting why is a database skill and a thinking skill.
+> Live online coding and AI classes for the City of Rockingham, ages 6 to adult, with a SQL project on 408 Main Roads school-zone segments and the ties they hide.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [Western Australia](/coding-and-ai-classes-in-western-australia) / [Perth](/online-coding-and-python-classes-in-perth-western-australia) / Rockingham
-
-City of Rockingham, south coast of Perth, Western Australia / Live online
-
-# Coding and AI classes in Rockingham
-
-**What sets the best coding and AI classes apart for Rockingham learners?** They teach learners to ask how many rows an answer should have. In our Rockingham project, a database query looks for the longest school-zone stretch on each of 140 roads and returns 143 rows. Three roads have exact ties, one of them a divided road where both sides measure the same. Spotting why is a database skill and a thinking skill.
-
-The City of Rockingham runs from the Kwinana Freeway in the east to the coast at Safety Bay and Warnbro. Main Roads Western Australia maps every school zone on its local roads, 408 short segments in all. Each one marks where drivers slow to 40 km/h near a school, which makes the table familiar to every parent who does a school run.
-
-Facts last verified 12 October 2026. Teaching is online; no Rockingham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Rockingham
 
 ## SQL, algorithms and AI
 
 Courses matched to the project below. A free lesson places each learner.
 
-- [MySQL for Teens](/courses/mysql-mastery-for-teens) (Ages 13 to 17): Queries, grouping and subqueries on real tables.
-- [MySQL Course](/courses/mysql-database-complete-masterclass-college) (University and adult): Database design and SQL that survives awkward data.
-- [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college) (University and adult): The algorithms underneath grouping, sorting and searching.
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 8 to 12): Logic and comparison puzzles for younger learners.
+[![MySQL for Teens course thumbnail](/images/mysql-teens.webp)Ages 13 to 17MySQL for TeensQueries, grouping and subqueries on real tables.See the syllabus](/courses/mysql-mastery-for-teens)[![MySQL Course course thumbnail](/images/database-college.webp)University and adultMySQL CourseDatabase design and SQL that survives awkward data.See the syllabus](/courses/mysql-database-complete-masterclass-college)[![Data Structures & Algorithms Course course thumbnail](/images/dsa-college.webp)University and adultData Structures & Algorithms CourseThe algorithms underneath grouping, sorting and searching.See the syllabus](/courses/data-structures-algorithms-masterclass-college)[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 8 to 12Problem Solving and Computational Thinking for KidsLogic and comparison puzzles for younger learners.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)The City of Rockingham today
 
 ## A fast-growing coastal council
 
 Figures for the Rockingham council area (ABS LGA57490) from 2021 Census QuickStats, read on 12 October 2026, plus the ABS estimate for 2025.
 
-**City of Rockingham counts**
-
 | Measure | Value |
-|---|---|
+| --- | --- |
 | Residents, 2021 Census | 135,678 |
 | Estimated residents, 2025 | 159,934 |
 | Median age | 36 |
@@ -51,10 +37,8 @@ Figures for the Rockingham council area (ABS LGA57490) from 2021 Census QuickSta
 | Private dwellings | 54,871 |
 | Motor vehicles per dwelling | 1.9 |
 
-**Rockingham shares compared with Western Australia**
-
 | Share | Rockingham | WA |
-|---|---|---|
+| --- | --- | --- |
 | Technicians and trades workers | 19.4% (12,233) | 15.3% |
 | Separate houses | 90.4% (43,771) | 79.7% |
 | Residents aged 10 to 14 | 7.6% (10,333) | 6.4% |
@@ -74,14 +58,14 @@ Our map test places 38 government schools inside the council outline, 25 of them
 
 Census night fell in the pandemic, so some travel answers reflect that week. The ABS rounds percentages and slightly perturbs small counts, so table parts can differ from totals by a little. We print each figure as published.
 
+Signature project
+
 ## The longest school-zone stretch on every road
 
 Main Roads lists each school-zone segment with its road, a start and end distance along that road in kilometres, and which carriageway it covers. The question is: for each road, which segment is longest? In SQL, the classic answer is a correlated subquery, an inner query that runs once for every outer row.
 
-**What different queries return on the 408 Rockingham segments (our SQLite run)**
-
 | Query | Rows | Why |
-|---|---|---|
+| --- | --- | --- |
 | GROUP BY road with MAX(length) | 140 | One row per road name; ties are invisible |
 | Correlated subquery, matched on road name | 143 | Every segment equal to its road's maximum is kept |
 | Correlated subquery, matched on road ID | 145 | Two road names each cover two separate roads |
@@ -98,10 +82,8 @@ Read Street appears under two different road IDs. Grouping by name merges two se
 
 67 of the 140 road names have a single school-zone segment, so for them the longest stretch is simply the only one.
 
-**Three of the longest single segments (Main Roads data; lengths are end minus start, our calculation)**
-
 | Road | Length | Zone type |
-|---|---|---|
+| --- | --- | --- |
 | Georgetown Dr | 0.801 km | Time-based 40 km/h school zone |
 | Swallowtail Pde | 0.69 km | Time-based 40 km/h school zone |
 | Warnbro Sound Av | 0.56 km, both carriageways | Time-based 40 km/h school zone |
@@ -112,14 +94,14 @@ The same 408 rows split into 376 time-based school zones and 32 children-crossin
 
 Segments are from Main Roads' Legal Speed Zones layer for the City of Rockingham, queried on 12 October 2026. Lengths are differences between published start and end distances, and every query result is our own calculation in SQLite.
 
+Writing it in SQL
+
 ## An inner query that knows its outer row
 
 The inner query asks for the longest length on the same road as the outer row. Because it refers to the outer row, it is correlated, and the database runs it for each candidate.
 
-**Steps in the lesson**
-
 | Step | Learner task |
-|---|---|
+| --- | --- |
 | 1 | Load the segments into SQLite with road name, road ID, start, end, carriageway and zone type. |
 | 2 | Write the GROUP BY version and the correlated version, and compare their row counts. |
 | 3 | List every road where the counts differ and explain each tie. |
@@ -139,6 +121,8 @@ Write all three queries, explain the 140, 143 and 145, and draw the divided road
 
 Apply greatest-per-group queries to sales, rosters or sensor logs where ties really happen.
 
+Around Rockingham
+
 ## Counted roads and 2027 dates
 
 Details from Main Roads and the WA Department of Education.
@@ -155,16 +139,41 @@ The path counter beside Kwinana Freeway south of Paganoni Road averages 58 rider
 
 WA public schools begin Term 1 on Monday 1 February 2027 and finish it on Friday 9 April.
 
-**Outline used** The council area is the ABS outline of about 257.5 square kilometres, drawn as six separate parts. Count sites and school zones are those Main Roads assigns to the City of Rockingham.
+Outline used
+
+The council area is the ABS outline of about 257.5 square kilometres, drawn as six separate parts. Count sites and school zones are those Main Roads assigns to the City of Rockingham.
+
+Learning ladder
 
 ## From block piles to subqueries
 
 Use the ages as a guide; the free trial decides.
 
-- **Ages 6 to 9: Compare and sort** Block code about largest, smallest and equal. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 9 to 12: Python basics** Lists, loops and maximum-finding in code. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 17: Databases** SQL queries and data checks on real tables. [MySQL for Teens](/courses/mysql-mastery-for-teens), [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)
-- **University and adult: Data at work** Database design and algorithms for jobs. [MySQL Course](/courses/mysql-database-complete-masterclass-college), [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)
+Ages 6 to 9
+
+### Compare and sort
+
+Block code about largest, smallest and equal.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 9 to 12
+
+### Python basics
+
+Lists, loops and maximum-finding in code.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 17
+
+### Databases
+
+SQL queries and data checks on real tables.
+
+[MySQL for Teens](/courses/mysql-mastery-for-teens)[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)University and adult
+
+### Data at work
+
+Database design and algorithms for jobs.
+
+[MySQL Course](/courses/mysql-database-complete-masterclass-college)[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)Coding and AI
 
 ## If AI writes SQL, why learn it?
 
@@ -176,30 +185,139 @@ A Rockingham learner who has predicted 143 knows to ask what happened to the tie
 
 Our classes use AI to draft queries and people to judge them. The longer argument is in [why writing code yourself still matters in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Online classes across Rockingham
 
 Lessons are live on video, so families from Safety Bay to Port Kennedy join from home.
 
-- **Live lessons** A teacher runs each class and checks work as it happens.
-- **Follows WA terms** Classes pause for the state school holidays.
-- **Free first class** One free lesson, then a written course plan.
-- **Groups of fifteen to twenty** Matched by level, or one-to-one if preferred.
-- **Weekly pattern** Two lessons a week, roughly eight a month.
-- **Indian timing** A 6pm Rockingham lesson is 3:30pm in India.
+### Live lessons
 
-**One clock all year** The IANA time zone database shows Western Australia's last daylight saving ending in March 2009, so Rockingham lesson times stay fixed against India.
+A teacher runs each class and checks work as it happens.
+
+### Follows WA terms
+
+Classes pause for the state school holidays.
+
+### Free first class
+
+One free lesson, then a written course plan.
+
+### Groups of fifteen to twenty
+
+Matched by level, or one-to-one if preferred.
+
+### Weekly pattern
+
+Two lessons a week, roughly eight a month.
+
+### Indian timing
+
+A 6pm Rockingham lesson is 3:30pm in India.
+
+One clock all year
+
+The IANA time zone database shows Western Australia's last daylight saving ending in March 2009, so Rockingham lesson times stay fixed against India.
+
+Fees
 
 ## Fees for Rockingham
 
 Every family pays the same fees.
 
-- First class: USD 0. The first class is free, with a plan to follow.
-- Group tuition: USD 100 a month. Group classes: around eight lessons a month, fifteen to twenty learners.
-- Private tuition: USD 150 a month. One-to-one: around eight lessons a month with one teacher.
+First class**USD 0**
+
+The first class is free, with a plan to follow.
+
+Group tuition**USD 100**
+
+Group classes: around eight lessons a month, fifteen to twenty learners.
+
+Private tuition**USD 150**
+
+One-to-one: around eight lessons a month with one teacher.
 
 Fees are charged in US dollars, starting only after the free class has set the course and a weekly time. See the pricing page for holiday and missed-lesson details.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20or%20AI%20class%20for%20a%20learner%20in%20Rockingham.)Reviews
+
+## Reviews from Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Rockingham lesson
+
+Tell us the learner's age and interests. A young child might sort block piles; a teenager might write the school-zone subquery.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Rockingham one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20or%20AI%20class%20for%20a%20learner%20in%20Rockingham.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Rockingham coding and AI questions
+
+Questions from Rockingham families and adult learners.
 
 ### How many people live in the City of Rockingham?
 
@@ -241,10 +359,14 @@ By level and pace in groups of fifteen to twenty, not by age or suburb. One-to-o
 
 Yes. Adults learn in adult groups or one to one, often with databases from their work.
 
+More for Perth learners
+
 ## Keep going
 
 Try the [Perth page](/online-coding-and-python-classes-in-perth-western-australia) for the city, the [Western Australia guide](/coding-and-ai-classes-in-western-australia) for the state, or [coding for Perth children](/coding-classes-for-kids-perth) for primary-age learners.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20or%20AI%20class%20for%20a%20learner%20in%20Rockingham.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-and-ai-classes-in-rockingham-perth](https://learn.modernagecoders.com/best-coding-and-ai-classes-in-rockingham-perth#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-rockingham-perth*

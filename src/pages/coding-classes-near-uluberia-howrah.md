@@ -12,7 +12,7 @@ LIVE ONLINE · ULUBERIA, HOWRAH · SOUTHERN GATEWAY OF THE DISTRICT
 
 Modern Age Coders runs premium live online coding and mathematics classes for children and adults in Uluberia, Howrah, taught in real time by full-time engineers and maths graduates, never pre-recorded. Because every batch is 100% live online, distance stops mattering: an Uluberia child joins the exact same small batch as a Salt Lake or Ballygunge student, with no NH-16 traffic, no Uluberia bus stand crush, and no commute lost.
 
-100% live, never recordedSmall batches of 6-8Engineers & maths graduatesFree demo, no card needed[Book a Free Live Demo](/book-demo)[Explore All Courses](/courses)1:6-8Live batch ratio90 minSaved per class day, no commute₹1,499Starting fee per month100%Live online, project-basedLIVE ONLINE · ULUBERIA, HOWRAH
+100% live, never recordedBatches of 15-20Engineers & maths graduatesFree demo, no card needed[Book a Free Live Demo](/book-demo)[Explore All Courses](/courses)1:6-8Live batch ratio90 minSaved per class day, no commute₹1,499Starting fee per month100%Live online, project-basedLIVE ONLINE · ULUBERIA, HOWRAH
 
 ## At a glance
 

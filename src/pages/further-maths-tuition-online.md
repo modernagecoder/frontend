@@ -78,6 +78,8 @@ What we cover
 
 Taught to your board and your exact combination of options.
 
+Still deciding whether to take it? Read [is A level Further Maths worth it](/is-a-level-further-maths-worth-it).
+
 ### Complex numbers
 
 Argand diagrams, modulus-argument form, De Moivre's theorem, roots of unity and loci, taught from the geometry up.
@@ -251,7 +253,7 @@ Tell us your board, your options and the topic that's lost you. We'll show you h
 
 ## More maths tuition from Modern Age Coders.
 
-[UK · examA-Level Maths Tuition](/a-level-maths-tuition-online)[UK · 16–19College & Sixth Form Maths](/online-maths-tuition-for-college-students-in-uk)[UK · competitionUKMT Maths Challenge](/ukmt-maths-challenge-tutoring)[USA · competitionMath Olympiad & AMC](/math-olympiad-amc-tutoring)[USA · APAP Calculus AB & BC](/ap-calculus-tutoring-online)[CourseCollege Mathematics Masterclass](/courses/college-mathematics-complete-masterclass)
+[UK · costsFurther Maths Tutor Cost UK](/further-maths-tutor-cost-uk)[UK · examA-Level Maths Tuition](/a-level-maths-tuition-online)[UK · 16–19College & Sixth Form Maths](/online-maths-tuition-for-college-students-in-uk)[UK · competitionUKMT Maths Challenge](/ukmt-maths-challenge-tutoring)[USA · competitionMath Olympiad & AMC](/math-olympiad-amc-tutoring)[USA · APAP Calculus AB & BC](/ap-calculus-tutoring-online)[CourseCollege Mathematics Masterclass](/courses/college-mathematics-complete-masterclass)
 
 Real student projects
 

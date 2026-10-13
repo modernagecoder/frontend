@@ -4,34 +4,28 @@ description: "A data science course for learners in Ireland, taught on Ireland's
 canonical: https://learn.modernagecoders.com/data-science-course-ireland
 source: src/pages/data-science-course-ireland.html
 ---
-> A data science course should spend its time where the work is: finding data, checking whether you may use it, understanding what each column means, cleaning it, and only then analysing. We teach that on Ireland's open data portal, which lists over twenty-two thousand datasets, most of them under a Creative Commons Attribution licence. Students learn Python and pandas, SQL, charts that do not mislead, and the statistics needed to say how sure they are. Classes are live, in groups of fifteen to twenty at one level or one to one. The first class is free, then USD 100 a month in a group or USD 150 a month with a teacher to yourself.
+> A data science course for learners in Ireland, taught on Ireland's own open data: cleaning, licences, analysis and honest charts. Live online, first class free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Ireland](/coding-classes-in-ireland) / Data science, Ireland
+In short
 
-Ireland · Data science · Live online
+A data science course should spend its time where the work is: finding data, checking whether you may use it, understanding what each column means, cleaning it, and only then analysing. We teach that on Ireland's open data portal, which lists over twenty-two thousand datasets, most of them under a Creative Commons Attribution licence. Students learn Python and pandas, SQL, charts that do not mislead, and the statistics needed to say how sure they are. Classes are live, in groups of fifteen to twenty at one level or one to one. The first class is free, then USD 100 a month in a group or USD 150 a month with a teacher to yourself.
 
-# Data science course in Ireland
-
-Data science is taught almost everywhere as modelling, and practised almost everywhere as cleaning. The gap between those two is where beginners lose months. This course closes it by working on Ireland's own public data from the first week: the national portal lists more than twenty-two thousand datasets from government bodies, councils, agencies and the Central Statistics Office, and almost all of it is free to use if you follow the licence. Working with it teaches the things a tidy training dataset never can, starting with two questions every professional asks before writing a line of analysis. Am I allowed to publish anything derived from this? And does this column mean what its name suggests? This page shows both questions being answered on real Irish data, and explains how we teach the craft, live and in small groups, to teenagers, students and adults.
-
-At a glance: For: Teens, students and adults; Tools: Python, pandas, SQL, charts; Starts with: Cleaning, not modelling; Includes: Licences and attribution; Group: Fifteen to twenty at one level; Or: One to one; Hours: Evenings and weekends, Irish time; Start: A free first class. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three ways into data science
 
 One full course, one for people who do not yet code, one for secondary students. Each card opens its syllabus.
 
-- [Data Science Masterclass](/courses/data-science-complete-masterclass-college): The complete path for students and adults: Python and pandas, cleaning, statistics, visualisation and a first machine learning model.
-- [Data and AI Analytics for Non-Programmers](/courses/data-and-ai-analytics-for-non-programmers-course): For people whose work is already full of spreadsheets and who need answers before they need a programming language.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data): Secondary students working with real public data, learning to question a figure before they chart it.
+[![Data Science Course course thumbnail](/images/data-science-college.webp)  DATA / 01 Data Science Masterclass The complete path for students and adults: Python and pandas, cleaning, statistics, visualisation and a first machine learning model. Open the syllabus →](/courses/data-science-complete-masterclass-college)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)  DATA / 02 Data and AI Analytics for Non-Programmers For people whose work is already full of spreadsheets and who need answers before they need a programming language. Open the syllabus →](/courses/data-and-ai-analytics-for-non-programmers-course)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)  DATA / 03 Data Science for Teens Secondary students working with real public data, learning to question a figure before they chart it. Open the syllabus →](/courses/data-science-course-for-teens-python-data)
+
+Ireland's open data
 
 ## What Ireland actually publishes, and how to count it
 
 The national portal is the obvious starting point, and it contains a small lesson in careful counting before you have downloaded anything at all.
 
-**Ireland's open data portal, data.gov.ie**
-
 | Measure | Figure | Where it comes from |
-|---|---|---|
+| --- | --- | --- |
 | Datasets | 22,720 | Stated on the portal homepage |
 | Datasets, counted through the portal's own API | 22,720 | The CKAN package search endpoint, which agrees exactly |
 | Publishers | 143 | Stated on the portal homepage |
@@ -51,6 +45,8 @@ The government strategy that governs all this was published in 2023 and says the
 Quoting the strategy as current would understate the portal by about a third. Every document has a date, and the date is part of the fact.
 
 Sources, read 16 September 2026: [data.gov.ie](https://data.gov.ie/) and its CKAN API; [Open Data Strategy 2023 to 2027](https://data.gov.ie/docs/Open.Data.Strategy_FINAL_ENG.pdf). The strategy also states an aim of "Creating easy access to high quality government data, promoting trust and stimulating innovation."
+
+Reading a licence
 
 ## May you actually use it? The question most courses skip
 
@@ -82,14 +78,14 @@ Name the publisher, the dataset and the licence wherever a derived figure is pub
 
 Sources: [data.gov.ie open data licence](https://data.gov.ie/pages/opendatalicence); [PSRA, re-use of public sector information](https://www.psr.ie/re-use-of-public-sector-information/), read 16 September 2026. Nothing here is legal advice; the licence on the dataset you download is the one that binds you.
 
+One column, seven units
+
 ## The average of this column is 104.8, and it means nothing
 
 Table CPM01 holds Ireland's Consumer Price Index: 62,608 rows of monthly figures from November 1975 to December 2025. It has one column called value, and that column is not measuring one thing.
 
-**What sits in the single value column of CSO table CPM01**
-
 | Kind of row | What it is |
-|---|---|
+| --- | --- |
 | Index, base December 2023 equals 100 | An index number, one of six different bases in the same column |
 | Index, bases from November 1996 to December 2016 | Five further historical bases, all index numbers, none comparable with another |
 | Percentage change over one month | A percentage, in the same column as the indices |
@@ -105,14 +101,14 @@ Students do this with the real file, get the absurd number themselves, then rebu
 
 Source: [CSO table CPM01, Consumer Price Index](https://data.cso.ie/table/CPM01), read 16 September 2026; the table was last updated on 15 January 2026. The arithmetic above is ours, and is the exercise students repeat. Nothing here is commentary on inflation.
 
+The rungs
+
 ## Five rungs of data work
 
 Notice how late modelling arrives. That ordering is deliberate, and it matches how the job is actually done.
 
-**The data science route**
-
 | Rung | What the learner can do |
-|---|---|
+| --- | --- |
 | 1. Find and check | Locate a dataset, read its licence, notes and units |
 | 2. Clean | Load messy files, fix types, handle blanks and document each decision |
 | 3. Join and aggregate | Combine sources and group without double counting |
@@ -122,63 +118,293 @@ Notice how late modelling arrives. That ordering is deliberate, and it matches h
 ### Why cleaning comes first
 
 Most working data scientists spend the bulk of their time on rungs one to three. A course that skips them produces people who can only work on data somebody else prepared.
+
 How this connects to programming and AI is on the [coding roadmap](/coding-roadmap).
 
 ### Tools we teach
 
 Python with pandas as the main tool, SQL for anything in a database, and plain charts. Spreadsheet users are welcome and often move fastest.
+
 For learners who prefer a visual tool first, the Orange courses cover the same ideas without code.
+
+The catalogue
 
 ## Nine live courses for data work
 
 By starting point. The free first class decides which course fits.
 
+I
+
 ### Getting started
 
 No code required to begin
 
-- [Data and AI Analytics for Non-Programmers](/courses/data-and-ai-analytics-for-non-programmers-course): Answers from data, without a language first.
-- [Orange Data Mining for Teens](/courses/orange-data-mining-visual-machine-learning-course-for-teens): Visual analysis, real concepts.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data): Public data, questioned properly.
+DS / START / 01
+
+#### Data and AI Analytics for Non-Programmers
+
+Answers from data, without a language first.
+
+[Open the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
+
+DS / START / 02
+
+#### Orange Data Mining for Teens
+
+Visual analysis, real concepts.
+
+[Open the syllabus](/courses/orange-data-mining-visual-machine-learning-course-for-teens)
+
+DS / START / 03
+
+#### Data Science for Teens
+
+Public data, questioned properly.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)II
 
 ### The craft
 
 Python, SQL and statistics
 
-- [Data Science Masterclass](/courses/data-science-complete-masterclass-college): Cleaning, analysis and a first model.
-- [Data Analysis Mastery](/courses/data-analysis-mastery-course-college): Turning messy files into clear answers.
-- [MySQL Masterclass](/courses/mysql-database-complete-masterclass-college): SQL for data that lives in a database.
+DS / CRAFT / 01
+
+#### Data Science Masterclass
+
+Cleaning, analysis and a first model.
+
+[Open the syllabus](/courses/data-science-complete-masterclass-college)
+
+DS / CRAFT / 02
+
+#### Data Analysis Mastery
+
+Turning messy files into clear answers.
+
+[Open the syllabus](/courses/data-analysis-mastery-course-college)
+
+DS / CRAFT / 03
+
+#### MySQL Masterclass
+
+SQL for data that lives in a database.
+
+[Open the syllabus](/courses/mysql-database-complete-masterclass-college)III
 
 ### Going further
 
 Models and automation
 
-- [AI and Machine Learning Masterclass](/courses/ai-ml-masterclass-complete-college): Models trained and evaluated honestly.
-- [Orange Data Mining for College](/courses/orange-data-mining-machine-learning-course-for-college-students): Machine learning you can see working.
-- [Python and AI Automation](/courses/python-ai-automation-masterclass-college): Running the analysis without you.
+DS / MORE / 01
+
+#### AI and Machine Learning Masterclass
+
+Models trained and evaluated honestly.
+
+[Open the syllabus](/courses/ai-ml-masterclass-complete-college)
+
+DS / MORE / 02
+
+#### Orange Data Mining for College
+
+Machine learning you can see working.
+
+[Open the syllabus](/courses/orange-data-mining-machine-learning-course-for-college-students)
+
+DS / MORE / 03
+
+#### Python and AI Automation
+
+Running the analysis without you.
+
+[Open the syllabus](/courses/python-ai-automation-masterclass-college)
+
+How the classes run
 
 ## Live classes with real files open
 
 Lessons are live, with teachers working from India at a weekly hour set in Irish time. India keeps one clock all year while Ireland changes twice, so our teachers are four and a half hours ahead of you during Irish summer time and five and a half hours ahead through the winter. Most adults choose an evening slot.
 
-- **Evening** Working adults and college students, Irish time.
-- **Weekend** Longer analysis sessions.
-- **After school** Secondary students on the teen courses.
+Evening
 
-- **A free first class** You open a genuine dataset with a teacher and see what the first ten minutes of real work look like.
-- **Fifteen to twenty per group** Learners at one level, comparing how each of them cleaned the same file.
-- **One to one** For work projects, theses, or data you cannot share with a group.
-- **Public data throughout** Everything is done on datasets anyone can download, so every result can be checked.
-- **Licences taken seriously** Students learn to record source, licence and download date as a matter of habit.
-- **Charts that tell the truth** Axes, baselines and scales are taught as ethics, not decoration.
+Working adults and college students, Irish time.
+
+Weekend
+
+Longer analysis sessions.
+
+After school
+
+Secondary students on the teen courses.
+
+### A free first class
+
+You open a genuine dataset with a teacher and see what the first ten minutes of real work look like.
+
+### Fifteen to twenty per group
+
+Learners at one level, comparing how each of them cleaned the same file.
+
+### One to one
+
+For work projects, theses, or data you cannot share with a group.
+
+### Public data throughout
+
+Everything is done on datasets anyone can download, so every result can be checked.
+
+### Licences taken seriously
+
+Students learn to record source, licence and download date as a matter of habit.
+
+### Charts that tell the truth
+
+Axes, baselines and scales are taught as ethics, not decoration.
+
+Student work
+
+## Analyses our students published
+
+Four student projects, live online. More of them, across every subject we teach, are on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 One price a month in US dollars, the same in every country outside India, covering any course on this page. No enrolment charge, and no commitment past the month you are in.
 
-- Free first class: USD 0. A real dataset opened with a teacher. An honest view of where to start. No card required.
-- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher throughout. Work reviewed each week. A certificate at the end.
-- One to one: USD 150 a month. A teacher to yourself. Your own data and questions. Right for work projects.
+Free first class
+
+USD 0
+
+no card required
+
+- A real dataset opened with a teacher
+- An honest view of where to start
+- No card required
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners at one level
+- The same teacher throughout
+- Work reviewed each week
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher to yourself
+- Your own data and questions
+- Right for work projects
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Reviews left on Google by our students and their families, published here word for word.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions
 
 ## What learners in Ireland ask about data science
 
@@ -222,15 +448,54 @@ Evenings, weekends or after school, at a weekly hour agreed in the free class. O
 
 We call you at a sensible Irish hour and set up the free class. Nothing is charged unless you decide to continue.
 
+Elsewhere on this site
+
 ## Related pages
 
-- [Best Python classes online in Ireland](/best-python-classes-online-ireland): The language this runs on.
-- [Build real AI projects in Ireland](/build-real-ai-projects-ireland): When the analysis becomes a model.
-- [Learn to train AI, not just prompt it](/learn-to-train-ai-not-just-prompt-it-ireland): Training, properly evaluated.
-- [Best coding classes for adults in Ireland](/best-coding-classes-for-adults-ireland): Starting from scratch.
-- [Full stack software development](/full-stack-software-development-course-ireland): Where the data is stored.
-- [Coding classes in Ireland](/coding-classes-in-ireland): The national page.
+Before and after data science.
 
-## Contact
+### [Best Python classes online in Ireland](/best-python-classes-online-ireland)
 
-Book the free first class at [https://learn.modernagecoders.com/data-science-course-ireland](https://learn.modernagecoders.com/data-science-course-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The language this runs on.
+
+### [Build real AI projects in Ireland](/build-real-ai-projects-ireland)
+
+When the analysis becomes a model.
+
+### [Learn to train AI, not just prompt it](/learn-to-train-ai-not-just-prompt-it-ireland)
+
+Training, properly evaluated.
+
+### [Best coding classes for adults in Ireland](/best-coding-classes-for-adults-ireland)
+
+Starting from scratch.
+
+### [Full stack software development](/full-stack-software-development-course-ireland)
+
+Where the data is stored.
+
+### [Coding classes in Ireland](/coding-classes-in-ireland)
+
+The national page.
+
+Start here
+
+## Open a real dataset in a free class
+
+Leave a number and we will ring at a time that suits you in Ireland. In the free class you open a genuine Irish dataset with a teacher, find its first problem, and see how a professional handles it.
+
+Want to read first? There is [how we teach](/how-we-teach), the [full course list](/courses), and [work our students published](/student-labs).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Ireland%20and%20would%20like%20a%20free%20first%20data%20science%20class.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp costs nothing from an Irish number and tends to get the fastest reply. It is an Indian number, since our team is in India, and we have no premises in Ireland.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/data-science-course-ireland*

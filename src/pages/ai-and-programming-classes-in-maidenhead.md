@@ -4,46 +4,32 @@ description: "Online AI, programming, Python and coding classes for Maidenhead, 
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-maidenhead
 source: src/pages/ai-and-programming-classes-in-maidenhead.html
 ---
-> Maidenhead is the largest built-up area in the Royal Borough of Windsor and Maidenhead, at 67,375 people in the 2021 census, ahead of Windsor at 31,560. The borough has more secondary-age children than England as a whole (10 to 14 year olds at 6.8 per cent against 6.0) and more parents in their forties. Our India-based teachers cover AI, programming, Python and maths in live video lessons for learners from 6 up to 67, either solo or in level-matched classes of fifteen to twenty. A free first lesson settles the starting point. The Maidenhead project stands under Brunel's railway bridge. If the learner carries on, a place in a class is USD 100 monthly, while a personal tutor is USD 150 monthly.
+> Online AI, programming, Python and coding classes for Maidenhead, Windsor and Cookham learners aged 6 to 67, taught live by a real teacher. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South East England](/coding-and-ai-classes-in-south-east-england) / Maidenhead
-
-Maidenhead, Berkshire, England / Live online
-
-# AI and programming classes in Maidenhead
-
-**What are the best AI and programming classes in Maidenhead?** Maidenhead is the largest built-up area in the Royal Borough of Windsor and Maidenhead, at 67,375 people in the 2021 census, ahead of Windsor at 31,560. The borough has more secondary-age children than England as a whole (10 to 14 year olds at 6.8 per cent against 6.0) and more parents in their forties. Our India-based teachers cover AI, programming, Python and maths in live video lessons for learners from 6 up to 67, either solo or in level-matched classes of fifteen to twenty. A free first lesson settles the starting point. The Maidenhead project stands under Brunel's railway bridge. If the learner carries on, a place in a class is USD 100 monthly, while a personal tutor is USD 150 monthly.
-
-Network Rail's history of the Maidenhead Bridge explains a hard brief. The Thames Navigation Commissioners would allow only one pier in the river, so Brunel had to cross with two very wide, very flat brick arches: each spans 128 feet, about 39 metres, but rises only 24 feet, about 7.3 metres. Network Rail says they were the flattest yet widest brick arches in the world when the bridge opened on 1 July 1839, and the railway's directors distrusted the design so much that they wanted the timber supports left in. Flat arches really are harder work, because they push outwards on their banks much more strongly than tall ones. How much more? This page's project calculates it in Python.
-
-Facts last verified 27 September 2026. Teaching is online; no Maidenhead branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Maidenhead
 
 ## Starting courses Maidenhead families choose
 
 Match the course to the learner's interests; the first live session of each is free, with no card required.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 9): Block coding with bridges, trains and building challenges.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 9 to 12): Python programming and beginner AI projects built step by step.
-- [High School Mathematics](/courses/complete-high-school-mathematics-mastery) (Ages 14 to 18): Rigorous secondary maths, from proportion to mechanics-style problems.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Adults): Programming in Python for adults, from zero to confident scripts.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 9Coding for KidsBlock coding with bridges, trains and building challenges.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 9 to 12Python and AI for KidsPython programming and beginner AI projects built step by step.See the syllabus](/courses/python-ai-kids-masterclass)[![High School Mathematics course thumbnail](/images/high-school-maths.webp)Ages 14 to 18High School MathematicsRigorous secondary maths, from proportion to mechanics-style problems.See the syllabus](/courses/complete-high-school-mathematics-mastery)[![Python Masterclass course thumbnail](/images/python-college.webp)AdultsPython MasterclassProgramming in Python for adults, from zero to confident scripts.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Maidenhead today
 
 ## A borough of teenagers and working parents
 
 These are borough-level counts from table TS007A of the 2021 census, via Nomis. We show selected bands only and do not total them.
 
-**Royal Borough of Windsor and Maidenhead against England, selected ages, 2021 census TS007A**
-
 | Ages | Borough residents | Borough share | England share |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 10 to 14 | 10,486 | 6.8% | 6.0% |
 | 20 to 24 | 6,767 | 4.4% | 6.0% |
 | 25 to 29 | 7,981 | 5.2% | 6.6% |
@@ -57,16 +43,16 @@ The borough counted 153,498 residents in this table. Its built-up areas include 
 
 Our [Berkshire](/coding-classes-in-berkshire) page covers the county, and the [South East](/coding-and-ai-classes-in-south-east-england) page indexes the region.
 
+The Maidenhead project
+
 ## Flatter arch, bigger push
 
 Horizontal thrust is inversely proportional to the rise.
 
 An arch carries weight by pushing sideways as well as down. For a simple arch shaped like a parabola and loaded evenly along its length, engineering textbooks give this sideways push, the horizontal thrust, as the load per metre times the span squared, divided by eight times the rise. The learner codes that formula with an invented load of 100 kilonewtons on every metre of the 39 metre span, then tries different rises. Because the rise sits underneath the fraction, halving the rise doubles the thrust: that is inverse proportion.
 
-**Our arch thrust sums for a 39 metre span with an invented load, 27 September 2026**
-
 | Arch in our model | Rise | Sideways thrust | Thrust compared with the downward load |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | A tall arch | 19.5 m | 975 kN | 0.50 times |
 | A medium arch | 12 m | 1,584 kN | 0.81 times |
 | Maidenhead's rise | 7.3 m | 2,604 kN | 1.34 times |
@@ -92,14 +78,14 @@ Plot thrust against rise, show the inverse proportion, and write tests for the s
 
 Dates, dimensions and the gradient come from Network Rail's history page. The load and every force in the table are our own illustration, not calculations for the real bridge.
 
+Why the bridge
+
 ## Brunel's bridge over the Thames
 
 What Network Rail's history page says.
 
-**The Maidenhead Bridge, from Network Rail's history page**
-
 | Detail | What the page says |
-|---|---|
+| --- | --- |
 | Opened | 1 July 1839 |
 | Arches | Two shallow brick spans, each 128 ft (39 m) wide with a rise of only 24 ft (7.3 m) |
 | The brief | Only one pier allowed in the river, keeping the channel and towpaths clear |
@@ -111,14 +97,37 @@ Inverse proportion runs through engineering and computing: the more workers shar
 
 Modern Age Coders is independent of Network Rail, the Science Museum Group and the ONS. Their information is theirs; the arch model and any errors are ours.
 
+Learning path
+
 ## From card bridges to engineering code
 
 Bands are approximate; the free lesson places each learner.
 
-- **Years 1 to 4: Build and test** Block coding with building and testing challenges. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 5 to 8: Programming basics** Python with ratios, proportion and formulas. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Years 9 to 13: Maths, AI and physics** Proportion, mechanics-style problems and AI projects alongside GCSE and A level. [High School Mathematics](/courses/complete-high-school-mathematics-mastery), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Programming and AI** Adult Python and practical AI, from basics upwards. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Years 1 to 4
+
+### Build and test
+
+Block coding with building and testing challenges.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 5 to 8
+
+### Programming basics
+
+Python with ratios, proportion and formulas.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Years 9 to 13
+
+### Maths, AI and physics
+
+Proportion, mechanics-style problems and AI projects alongside GCSE and A level.
+
+[High School Mathematics](/courses/complete-high-school-mathematics-mastery)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Programming and AI
+
+Adult Python and practical AI, from basics upwards.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)AI and formulas
 
 ## An AI can quote an engineering formula. Will it notice the half-span trap?
 
@@ -130,30 +139,139 @@ A Maidenhead learner who has tested how thrust must change when the span doubles
 
 Checking a formula against how it must behave is a strong reason for a Maidenhead teenager to keep learning programming in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How lessons run
+
 ## From Cookham to Datchet, live online
 
 Every town and village in the borough joins by video.
 
-- **Code written by the learner** Nobody types for the student; the teacher reads their screen and steers with questions.
-- **By year and level** A Year 5 or a Year 12 starts where their year group and the trial lesson point, with exam board names used.
-- **A free trial** The first lesson costs nothing and ends with a clear recommendation.
-- **Matched groups** Classes of fifteen to twenty learners at one stage, gathered from across the UK.
-- **In term time** Two lessons a week during term; holidays kept free.
-- **Local time kept** Clock changes do not move your lesson; our teachers adjust.
+### Code written by the learner
 
-**Why the groups are online** Five learners in the borough at one level and one free hour are rarely neighbours. Online, each learner gets the right group.
+Nobody types for the student; the teacher reads their screen and steers with questions.
+
+### By year and level
+
+A Year 5 or a Year 12 starts where their year group and the trial lesson point, with exam board names used.
+
+### A free trial
+
+The first lesson costs nothing and ends with a clear recommendation.
+
+### Matched groups
+
+Classes of fifteen to twenty learners at one stage, gathered from across the UK.
+
+### In term time
+
+Two lessons a week during term; holidays kept free.
+
+### Local time kept
+
+Clock changes do not move your lesson; our teachers adjust.
+
+Why the groups are online
+
+Five learners in the borough at one level and one free hour are rarely neighbours. Online, each learner gets the right group.
+
+Fees
 
 ## Fees in Maidenhead
 
 One flat fee for Maidenhead families, the same one we use in every country outside India.
 
-- First class: USD 0. A full lesson free, followed by honest advice.
-- Group tuition: USD 100 a month. Roughly eight live lessons a month with fifteen to twenty classmates.
-- Private tuition: USD 150 a month. Roughly eight live lessons a month with your own tutor.
+First class**USD 0**
+
+A full lesson free, followed by honest advice.
+
+Group tuition**USD 100**
+
+Roughly eight live lessons a month with fifteen to twenty classmates.
+
+Private tuition**USD 150**
+
+Roughly eight live lessons a month with your own tutor.
 
 All prices are in US dollars, never sterling. No payment is taken before the free lesson has agreed a course and a time each week. The pricing page sets out what happens with holidays, absences and a switch between group and private.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20Maidenhead.)Reviews
+
+## What families say about us on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Maidenhead lesson
+
+Tell us the learner's age or year group and one interest. Sample trials: a Scratch bridge builder, a first Python script, an AI mini-project, or the Brunel arch calculation.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Maidenhead one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20Maidenhead.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Maidenhead questions
+
+The town, the bridge project and how classes work.
 
 ### How many people live in Maidenhead?
 
@@ -195,10 +313,14 @@ Zero for the opening session. After that: USD 100 per month for group classes, U
 
 No. Send your holiday dates and we pause.
 
+Nearby pages
+
 ## More pages near Maidenhead
 
 [Slough](/best-coding-class-in-slough) measures Herschel's giant mirror, [Reading](/best-coding-class-in-reading) follows a copied tapestry, and the [Berkshire](/coding-classes-in-berkshire) page covers the county. The [UK hub](/coding-classes-in-united-kingdom) lists every page.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20Maidenhead.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-maidenhead](https://learn.modernagecoders.com/ai-and-programming-classes-in-maidenhead#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-maidenhead*

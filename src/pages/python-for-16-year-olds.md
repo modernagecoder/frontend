@@ -12,7 +12,7 @@ Python at age 16 · Class 11 CS stream
 
 Class 11 is where Python stops being optional for CS stream. Our 1 hour live classes align with Class 11 CS / IP, build a serious Django + ML portfolio, and start DSA at a level that matters for Class 12 and college entry.
 
-[Book a free demo class](/book-demo)See the curriculum**2,100+**16-year-olds in Python classes**4.9 / 5**Parent rating · 260+ reviews**1 hour**Live class, 1:1 or group**5 projects**Portfolio-grade by year endPy16Python · Age 16Pandas + SQLDjango + MLDSA StriverCourses matched for this level
+[Book a free demo class](/book-demo)See the curriculum**10,000+**Students taught live since 2020**4.9 / 5**Rated across 547 Google reviews**1 hour**Live class, 1:1 or group**5 projects**Portfolio-grade by year endPy16Python · Age 16Pandas + SQLDjango + MLDSA StriverCourses matched for this level
 
 ## Python tracks for a Class 11 CS student.
 
@@ -155,9 +155,9 @@ One teacher, one learner, the full 1 hour. The teacher adapts pace in real time,
 
 **₹4,999**/ month · 4 sessionsOption B
 
-### Live Small-Group Online Class
+### Live Group Online Class
 
-4 to 6 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
+15 to 20 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
 
 - Small groups of 4 to 6 similar-level learners
 - 1 hour live session, 2 sessions per week

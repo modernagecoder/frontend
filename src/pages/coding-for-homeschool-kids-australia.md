@@ -4,34 +4,28 @@ description: "Coding for homeschool kids in Australia: live online lessons that 
 canonical: https://learn.modernagecoders.com/coding-for-homeschool-kids-australia
 source: src/pages/coding-for-homeschool-kids-australia.html
 ---
-> Coding for homeschool kids means adding live, specialist-taught programming lessons to a home education program. In Australia, home education is regulated separately by each state and territory, so families plan their program to meet their own authority's requirements. Our role is the teaching: live online lessons in Scratch, Python, web development and AI, scheduled in the school day if you wish, with a short written exit ticket after every lesson that families can keep with their own records.
+> Coding for homeschool kids in Australia: live online lessons that fit a home education program, planning with the Australian Curriculum, and simple learning records.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / Coding for homeschool kids
+In short
 
-Australia · Home education · Live online
+Coding for homeschool kids means adding live, specialist-taught programming lessons to a home education program. In Australia, home education is regulated separately by each state and territory, so families plan their program to meet their own authority's requirements. Our role is the teaching: live online lessons in Scratch, Python, web development and AI, scheduled in the school day if you wish, with a short written exit ticket after every lesson that families can keep with their own records.
 
-# Coding for homeschool kids
-
-Home-schooling families tend to be the most thoughtful about what their children learn and why. Coding fits naturally into a home education program: it is creative, it is cross-curricular (maths, writing, design and logic all turn up), and it can be taught live online by a specialist while you handle the subjects you most enjoy teaching. It also has one big practical advantage for home educators: lessons can happen during the school day, when most children are in class and teachers' timetables are open. This page explains how families typically fit coding in, what two state governments say about home education (quoted, not interpreted), how to use the Australian Curriculum as a planning tool, and a simple record-keeping habit called the exit ticket that our students use after every lesson.
-
-At a glance: For: Home-schooled children, 6 to 18; Lesson times: School-day slots available; Records: An exit ticket after each lesson; Planning aid: Australian Curriculum v9; Subjects: Coding, AI, web, apps, maths; Format: Live online lessons; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three ways to add coding to a home program
 
 Choose by age. Each course runs for months, so it can anchor a whole year's technology learning.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass): Ages 6 to 12. A year-long path from Scratch to games, apps and a first look at Python.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass): Ages 9 to 12. Real Python with games, drawings and small AI projects.
-- [Python for Teens](/courses/python-complete-masterclass-teens): Ages 13 to 18. A full year of Python, from first lines to well-structured programs.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)  HSCH / 01 Coding for Kids Ages 6 to 12. A year-long path from Scratch to games, apps and a first look at Python. Open the syllabus →](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  HSCH / 02 Python and AI for Kids Ages 9 to 12. Real Python with games, drawings and small AI projects. Open the syllabus →](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)  HSCH / 03 Python for Teens Ages 13 to 18. A full year of Python, from first lines to well-structured programs. Open the syllabus →](/courses/python-complete-masterclass-teens)
+
+Fitting it in
 
 ## How home-schooling families use live coding lessons
 
 Families use coding lessons in different ways depending on their approach to home education. These are the patterns we see most often.
 
-**Common ways home-educating families include coding**
-
 | Approach | How coding fits | What the family handles |
-|---|---|---|
+| --- | --- | --- |
 | Structured, curriculum-led | A weekly lesson treated as the technology subject | Linking it to their written program and records |
 | Project-based | Coding as the tool for projects in other subjects | Choosing themes: a history timeline website, a science quiz game |
 | Interest-led | Lessons follow what the child is excited to build | Noticing the maths and literacy inside the projects |
@@ -50,6 +44,8 @@ Home educators often tell us coding is the subject they feel least able to teach
 Parents are always welcome to sit in, and many find they learn alongside their child.
 
 Families outside Australia, or wanting a broader overview of planning a home coding program, may also find our general [homeschool coding curriculum](/homeschool-coding-curriculum) page useful.
+
+State rules
 
 ## What state governments say about home education
 
@@ -71,14 +67,14 @@ It also describes partial enrolment, which is "when students combine home educat
 
 Sources, read 7 October 2026: NSW Government, [Home schooling](https://www.nsw.gov.au/education-and-training/home-schooling) and [Applying to register for home schooling](https://www.nsw.gov.au/education-and-training/home-schooling/applying-to-register); Victorian Government, [Home schooling](https://www.vic.gov.au/home-schooling). Nothing on this page is legal or registration advice.
 
+Planning
+
 ## Using the Australian Curriculum as a planning tool
 
 Whatever your approach, the Australian Curriculum v9 Digital Technologies content is a handy map of what children typically learn at each stage. It is free to download and written in plain language.
 
-**Digital Technologies by band, as a planning map (summarised from ACARA)**
-
 | Band | Programming focus | A coding project that covers it |
-|---|---|---|
+| --- | --- | --- |
 | Foundation to Year 2 | Following and describing sequences of steps | Programming a toy or a character to reach a goal |
 | Years 3 and 4 | Simple algorithms as visual programs | A Scratch story or quiz with repeats and decisions |
 | Years 5 and 6 | Visual programs with variables and input | A Scratch game with a score, lives and keyboard controls |
@@ -99,14 +95,14 @@ We do not certify or assess for registration purposes; we teach, and we give you
 
 Planning map summarised from ACARA's Digital Technologies content files for [Foundation to Year 6](https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/technologies/digital-technologies/technologies-digital-technologies-curriculum-content-f-6-v9.docx) and [Years 7 to 10](https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/technologies/digital-technologies/technologies-digital-technologies-curriculum-content-7-10-v9.docx), read 7 October 2026.
 
+A worked example
+
 ## Exit tickets: three lines after every lesson
 
 An exit ticket is a tiny piece of writing a student does at the very end of a lesson. Our home-schooled students write one after every class, and over a term the tickets become a clear, child-written record of what they learned.
 
-**The exit ticket our students write (our design)**
-
 | Line | Prompt | An example from a 10 year old |
-|---|---|---|
+| --- | --- | --- |
 | 1 | Today I made... | A maze game where the cat goes back to the start if it touches a wall |
 | 2 | The coding idea was... | If-then: checking whether one sprite is touching another |
 | 3 | Next time I want to... | Add a timer so the player has 60 seconds |
@@ -137,14 +133,14 @@ Families can show tickets to anyone reviewing their program, alongside their own
 
 Explaining what you learned is one of the most reliable ways to remember it.
 
+Stages
+
 ## Four stages over a home-education year
 
 With a weekly lesson, most children move through the first three stages within a year, whatever age they start.
 
-**A year of coding in a home program**
-
 | Stage | What your child can do |
-|---|---|
+| --- | --- |
 | 1. Builds | Completes small projects with a teacher and writes an exit ticket each time |
 | 2. Explains | Describes the coding idea behind each project in their own words |
 | 3. Plans | Chooses and plans a project of their own, often linked to another subject |
@@ -153,63 +149,293 @@ With a weekly lesson, most children move through the first three stages within a
 ### Social learning
 
 Group lessons give home-schooled children regular contact with peers who share an interest, often from different states and countries.
+
 Children who prefer a quieter setting can learn one to one.
 
 ### Flexible across the year
 
 Home-educating families rarely follow school terms exactly. Lessons continue whenever you like, and billing is monthly.
+
 Day and time are agreed in the free first class.
+
+The catalogue
 
 ## Courses home-schooled children choose
 
 Grouped by age. Every course suits a home program, and none requires school enrolment.
 
+I
+
 ### Younger children
 
 Ages 6 to 9
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course): Stories, games and animations in Scratch.
-- [Problem Solving for Kids](/courses/problem-solving-and-computational-thinking-for-kids): Logic, patterns and algorithms.
-- [Early Math Foundations](/courses/early-math-foundations): Playful maths for the youngest learners.
+HSCH / YNG / 01
+
+#### Scratch Coding for Kids
+
+Stories, games and animations in Scratch.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)
+
+HSCH / YNG / 02
+
+#### Problem Solving for Kids
+
+Logic, patterns and algorithms.
+
+[Open the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)
+
+HSCH / YNG / 03
+
+#### Early Math Foundations
+
+Playful maths for the youngest learners.
+
+[Open the syllabus](/courses/early-math-foundations)II
 
 ### Middle years
 
 Ages 9 to 12
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass): First Python and small AI projects.
-- [Web Development for Kids](/courses/kids-ai-web-development-course): Websites for projects in any subject.
-- [Maths Through Coding](/courses/maths-through-coding): Maths learned with Python, from ten.
+HSCH / MID / 01
+
+#### Python and AI for Kids
+
+First Python and small AI projects.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)
+
+HSCH / MID / 02
+
+#### Web Development for Kids
+
+Websites for projects in any subject.
+
+[Open the syllabus](/courses/kids-ai-web-development-course)
+
+HSCH / MID / 03
+
+#### Maths Through Coding
+
+Maths learned with Python, from ten.
+
+[Open the syllabus](/courses/maths-through-coding)III
 
 ### Teenagers
 
 Ages 13 to 18
 
-- [Python for Teens](/courses/python-complete-masterclass-teens): A full year of Python.
-- [Full Stack Web Development for Teens](/courses/full-stack-web-development-teens-masterclass): Front end and back end, project by project.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data): Python for real data, a natural partner to maths.
+HSCH / TEEN / 01
+
+#### Python for Teens
+
+A full year of Python.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+HSCH / TEEN / 02
+
+#### Full Stack Web Development for Teens
+
+Front end and back end, project by project.
+
+[Open the syllabus](/courses/full-stack-web-development-teens-masterclass)
+
+HSCH / TEEN / 03
+
+#### Data Science for Teens
+
+Python for real data, a natural partner to maths.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)
+
+How lessons run
 
 ## Live lessons around a home-education day
 
 Because India time is behind every Australian state, our teachers can offer Australian mornings and early afternoons as well as after-school slots, which suits families who learn at home during the day.
 
-- **Weekday, late morning** A favourite for home-educated children.
-- **Weekday, early afternoon** After lunch, before afternoon activities.
-- **After school or weekend** For families who mix home and part-time school.
+Weekday, late morning
 
-- **A free first class** Your child tries a short project, and we discuss how coding could fit your program.
-- **Groups** Fifteen to twenty learners at a similar level, sometimes including other home-schooled children.
-- **One to one** Shaped entirely around your child and your program.
-- **Exit tickets** A short written record after every lesson, in your child's words.
-- **Parents welcome** Sit in on any lesson; many parents learn too.
-- **Teaching, not certifying** We teach and describe what was taught. Registration decisions belong to your state's authority.
+A favourite for home-educated children.
+
+Weekday, early afternoon
+
+After lunch, before afternoon activities.
+
+After school or weekend
+
+For families who mix home and part-time school.
+
+### A free first class
+
+Your child tries a short project, and we discuss how coding could fit your program.
+
+### Groups
+
+Fifteen to twenty learners at a similar level, sometimes including other home-schooled children.
+
+### One to one
+
+Shaped entirely around your child and your program.
+
+### Exit tickets
+
+A short written record after every lesson, in your child's words.
+
+### Parents welcome
+
+Sit in on any lesson; many parents learn too.
+
+### Teaching, not certifying
+
+We teach and describe what was taught. Registration decisions belong to your state's authority.
+
+Student work
+
+## Projects built by our students
+
+Projects finished by our students, some of them home-educated. See more in our [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees for home-schooling families
 
 Home-schooling families in Australia pay a monthly fee in US dollars. There is no joining fee and no commitment beyond the current month.
 
-- Free first class: USD 0. A short project with a teacher. A conversation about your program. No card or bank details.
-- Group batch: USD 100 a month. Fifteen to twenty learners per class. A consistent teacher. Daytime groups where available. Stop after any month.
-- One to one: USD 150 a month. Lessons built around your program. Daytime scheduling. Exit tickets after every lesson.
+Free first class
+
+USD 0
+
+no card required
+
+- A short project with a teacher
+- A conversation about your program
+- No card or bank details
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners per class
+- A consistent teacher
+- Daytime groups where available
+- Stop after any month
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- Lessons built around your program
+- Daytime scheduling
+- Exit tickets after every lesson
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Exactly as left by parents and students on our Google profile.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions from home educators
 
 ## What home-schooling families ask about coding
 
@@ -253,15 +479,54 @@ Where daytime groups run, they often include home-educated learners. One-to-one 
 
 Your first lesson is free, with no card asked for. Group and private lessons each carry a monthly fee, shown in the Fees section, and nothing is charged to join.
 
+Elsewhere on this site
+
 ## Related pages
 
-- [Coding classes in Australia](/coding-classes-in-australia): The full list of our Australian pages and guides.
-- [Homeschool coding curriculum](/homeschool-coding-curriculum): Our general guide to planning coding at home.
-- [Kids coding languages](/kids-coding-languages-australia): Which language to start with at each age.
-- [Coding for 9 and 10 year olds](/coding-classes-for-9-and-10-year-olds-australia): What children of this age can build.
-- [Online coding for Australian kids](/online-coding-classes-for-kids-australia): Year levels and lesson times by state.
-- [Online maths tutoring in Australia](/online-maths-tutoring-australia): For the maths side of a home program.
+More for Australian home-educating families.
 
-## Contact
+### [Coding classes in Australia](/coding-classes-in-australia)
 
-Book the free first class at [https://learn.modernagecoders.com/coding-for-homeschool-kids-australia](https://learn.modernagecoders.com/coding-for-homeschool-kids-australia#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The full list of our Australian pages and guides.
+
+### [Homeschool coding curriculum](/homeschool-coding-curriculum)
+
+Our general guide to planning coding at home.
+
+### [Kids coding languages](/kids-coding-languages-australia)
+
+Which language to start with at each age.
+
+### [Coding for 9 and 10 year olds](/coding-classes-for-9-and-10-year-olds-australia)
+
+What children of this age can build.
+
+### [Online coding for Australian kids](/online-coding-classes-for-kids-australia)
+
+Year levels and lesson times by state.
+
+### [Online maths tutoring in Australia](/online-maths-tutoring-australia)
+
+For the maths side of a home program.
+
+Start here
+
+## Book a free first class
+
+Send your details and we will call at a time that suits your day. In the free class your child tries a short project, and we talk through how coding could fit into your home education program.
+
+If you like to research first, [how we teach](/how-we-teach) explains our lessons in depth and the [course list](/courses) shows every subject and age.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20home%20school%20in%20Australia%20and%20would%20like%20to%20add%20coding%20to%20our%20program.%20Could%20we%20book%20a%20free%20first%20class%3F) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is often the easiest way to reach us from Australia. Our team is in India (hence +91), and we have no Australian office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-for-homeschool-kids-australia*

@@ -4,46 +4,32 @@ description: "Online coding and Python classes for Hatfield, South Hatfield, Roe
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-hatfield
 source: src/pages/online-coding-and-python-classes-in-hatfield.html
 ---
-> Hatfield counted 41,560 usual residents as an ONS built-up area at the 2021 census. The wider borough of Welwyn Hatfield counted 119,836. Gazetteer suburbs inside the town include South Hatfield, Roe Green, Oxlease, Birchwood, Old Hatfield, Ellenbrook and Hatfield Garden Village. Modern Age Coders teaches coding, Python, AI, vibe coding and maths to Hatfield learners aged six to 67, live on video, with a tutor based in India, either one-to-one or in a group of fifteen to twenty at the same level. Our Hatfield project asks a question every programmer meets daily: when a file changes, what exactly changed? Learners write the Myers diff in Python and test it against the library that ships with Python. Your opening lesson is on us. Carrying on costs USD 100 per month for a seat in a small class, or USD 150 per month for a tutor to yourself.
+> Online coding and Python classes for Hatfield, South Hatfield, Roe Green and Oxlease: live lessons, vibe coding and AI agents for ages 6 to 67. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [East of England](/coding-and-ai-classes-in-east-of-england) / Hatfield
-
-Hatfield, Welwyn Hatfield, Hertfordshire / Live online
-
-# Online coding and Python classes in Hatfield
-
-**Which online coding and Python classes are best for Hatfield learners?** Hatfield counted 41,560 usual residents as an ONS built-up area at the 2021 census. The wider borough of Welwyn Hatfield counted 119,836. Gazetteer suburbs inside the town include South Hatfield, Roe Green, Oxlease, Birchwood, Old Hatfield, Ellenbrook and Hatfield Garden Village. Modern Age Coders teaches coding, Python, AI, vibe coding and maths to Hatfield learners aged six to 67, live on video, with a tutor based in India, either one-to-one or in a group of fifteen to twenty at the same level. Our Hatfield project asks a question every programmer meets daily: when a file changes, what exactly changed? Learners write the Myers diff in Python and test it against the library that ships with Python. Your opening lesson is on us. Carrying on costs USD 100 per month for a seat in a small class, or USD 150 per month for a tutor to yourself.
-
-Every time a programmer saves a change, a tool compares the old file with the new one and reports what was added and what was removed. The report looks simple, yet producing the shortest possible report is a real search problem. In 1986 Eugene Myers published a method that finds it quickly when the two versions are mostly alike, and a version of his algorithm is still the default in Git. Hatfield learners code it themselves, then point it at three versions of the public encyclopedia article about their own town.
-
-Facts last verified 30 September 2026. Teaching is online; no Hatfield branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentSuggested courses
 
 ## Python and coding courses for Hatfield
 
 Pick by age. Each course begins with a free live lesson, and no payment card is needed to book it.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): How to think: comparing two lists by hand and spotting what moved, before any code.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Vibe coding for children: an AI helps build a Scratch game, and the child checks every change it makes.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Complete Python for teenagers, with the Hatfield diff project as a milestone.
-- [Git & GitHub Course for Teens](/courses/git-github-version-control-course-for-teens) (Ages 13 and up): Git and GitHub, where diffs are read every day; the natural next step after this project.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsHow to think: comparing two lists by hand and spotting what moved, before any code.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsVibe coding for children: an AI helps build a Scratch game, and the child checks every change it makes.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensComplete Python for teenagers, with the Hatfield diff project as a milestone.See the syllabus](/courses/python-complete-masterclass-teens)[![Git & GitHub Course for Teens course thumbnail](/images/git-github-teens.webp)Ages 13 and upGit & GitHub Course for TeensGit and GitHub, where diffs are read every day; the natural next step after this project.See the syllabus](/courses/git-github-version-control-course-for-teens)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)The town in numbers
 
 ## Hatfield, South Hatfield, Roe Green and Oxlease
 
 Two census counts and seven gazetteer names, each with its source.
 
-**Census 2021 usual residents, Office for National Statistics**
-
 | Area | Residents |
-|---|---|
+| --- | --- |
 | Hatfield built-up area | 41,560 |
 | Welwyn Hatfield borough | 119,836 |
 
@@ -52,6 +38,8 @@ The borough figure is a separate count on a wider boundary: it also covers Welwy
 ### Nearby pages
 
 The [Hertfordshire page](/coding-classes-in-hertfordshire) covers the county, and [Welwyn Garden City](/best-coding-and-ai-classes-in-welwyn-garden-city) shares the borough with Hatfield. Our view on why the basics still matter is in [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
+
+The Hatfield project
 
 ## The Myers diff: the shortest list of changes between two texts
 
@@ -63,10 +51,8 @@ The first attempt most people make is to compare the texts position by position:
 
 Myers treats the problem as a walk across a grid: moving right deletes a word from the old version, moving down inserts one from the new version, and a diagonal step is free wherever the two words match. The shortest edit script is the path with the fewest non-diagonal steps. His algorithm explores the grid by number of edits, one extra edit at a time, and stops as soon as a path reaches the corner. When two versions are close, that happens early. In Python the core is a loop over a dictionary of how far each diagonal has reached, about twenty lines in all.
 
-**Hatfield article, edits needed to turn one revision into the next, our Python run**
-
 | Comparison | Myers (shortest) | difflib, default settings | Position by position |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 2025 to 2026, lines | 32 | 32 | 263 lines differ |
 | 2025 to 2026, words | 107 | 107 | 4,550 words differ |
 | 2020 to 2025, lines | 210 | 224 | not meaningful |
@@ -92,14 +78,14 @@ Code the Myers loop, test it against the table, then time both on the three Hatf
 
 Revision texts are from English Wikipedia, used under its Creative Commons licence; we report counts only. The algorithm is from Myers (1986) in Algorithmica. Timings depend on the machine. The splits into lines and words are our choice, and a different split would give different counts.
 
+Why this matters with AI
+
 ## Diffs are how people check what an AI changed
 
 When an assistant edits code, the change arrives as a diff, and reading it is the review.
 
-**From the Hatfield diffs to working with AI**
-
 | In the project | When coding with AI |
-|---|---|
+| --- | --- |
 | A position check called 263 of 274 lines different | Never judge an AI edit by eye alone; let a real diff show what moved |
 | Myers found only 32 line edits | A short, clean diff is easier to review, so ask the assistant for small changes |
 | difflib added 146 word edits by default | A library setting you never read can change the answer; check the defaults |
@@ -110,14 +96,37 @@ Coding assistants and AI agents propose their work as edits to existing files, a
 
 Wikipedia, the Office for National Statistics and postcodes.io have no connection with Modern Age Coders. We used their public data; the code, the counts and the conclusions are our own.
 
+Progression
+
 ## From matching lists by hand to diffs in Python
 
 A school year suggests where to start; the free lesson settles it.
 
-- **Years 2 to 6: How to think** Comparing, sorting and spotting changes in lists and pictures. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Scratch and a first taste of Python, with an AI helper whose changes the child reviews. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python and version control** Strings, tables and algorithms in Python, then Git for real projects. [Python for Teens](/courses/python-complete-masterclass-teens), [Git & GitHub Course for Teens](/courses/git-github-version-control-course-for-teens)
-- **Adults: Algorithms and AI agents** Dynamic programming and search in depth, then agents built on top. [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Years 2 to 6
+
+### How to think
+
+Comparing, sorting and spotting changes in lists and pictures.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Scratch and a first taste of Python, with an AI helper whose changes the child reviews.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python and version control
+
+Strings, tables and algorithms in Python, then Git for real projects.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Git & GitHub Course for Teens](/courses/git-github-version-control-course-for-teens)Adults
+
+### Algorithms and AI agents
+
+Dynamic programming and search in depth, then agents built on top.
+
+[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)Diffs and AI
 
 ## What is a diff algorithm, and why does it matter for AI coding tools?
 
@@ -129,30 +138,139 @@ After this project, learners ask of any AI edit: how big is the real change, and
 
 A Hatfield teenager who has written a diff can review an assistant's work instead of trusting it, and that skill is built by learning to code. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Lessons for Hatfield learners, week to week
 
 Learners join from home on a laptop or desktop with a camera. A steady connection matters more than a fast one.
 
-- **Hands on the keyboard** The learner types and runs every line. The tutor asks questions and points at bugs rather than fixing them.
-- **Placed by what they can do** The free lesson shows the level; the course suggestion comes afterwards, not before.
-- **Nothing to pay up front** The trial is a complete lesson, it is free, and booking it needs no card.
-- **Fifteen to twenty per group** Groups are matched on level and pace, with classmates from across the UK.
-- **Two sessions a week** Share your school term dates and we leave the holiday weeks out.
-- **One UK start time** British clock changes are handled by the tutor; the slot stays at the same UK time all year.
+### Hands on the keyboard
 
-**Why live and online** On a live call the tutor sees a mistake as it is typed and can ask why. A national pool of learners also lets groups be matched far more closely by level than any single town could manage.
+The learner types and runs every line. The tutor asks questions and points at bugs rather than fixing them.
+
+### Placed by what they can do
+
+The free lesson shows the level; the course suggestion comes afterwards, not before.
+
+### Nothing to pay up front
+
+The trial is a complete lesson, it is free, and booking it needs no card.
+
+### Fifteen to twenty per group
+
+Groups are matched on level and pace, with classmates from across the UK.
+
+### Two sessions a week
+
+Share your school term dates and we leave the holiday weeks out.
+
+### One UK start time
+
+British clock changes are handled by the tutor; the slot stays at the same UK time all year.
+
+Why live and online
+
+On a live call the tutor sees a mistake as it is typed and can ask why. A national pool of learners also lets groups be matched far more closely by level than any single town could manage.
+
+Fees
 
 ## What Hatfield families pay
 
 Learners in Hatfield pay our standard international fees.
 
-- First class: USD 0. One complete lesson free, ending with a course suggestion.
-- Group tuition: USD 100 a month. Small-group tuition, about eight lessons a month.
-- Private tuition: USD 150 a month. One-to-one tuition, about eight lessons a month.
+First class**USD 0**
+
+One complete lesson free, ending with a course suggestion.
+
+Group tuition**USD 100**
+
+Small-group tuition, about eight lessons a month.
+
+Private tuition**USD 150**
+
+One-to-one tuition, about eight lessons a month.
 
 Fees are set in US dollars and are not converted into sterling. The trial is unbilled; invoices begin after the trial, once you have chosen a course and a weekly slot with us. The pricing page covers breaks, absences and moving from a class to private tuition or back.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20live%20in%20Hatfield%20and%20would%20like%20to%20book%20a%20free%20coding%20or%20Python%20lesson.)Reviews
+
+## What families in Hertfordshire and across the UK say on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson in Hatfield
+
+Tell us an age or school year and something the learner enjoys. The trial might be spotting the differences between two lists, a Scratch game built with AI help, a first Python program, or a small diff written in code.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Hatfield one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20live%20in%20Hatfield%20and%20would%20like%20to%20book%20a%20free%20coding%20or%20Python%20lesson.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Hatfield: questions and answers
+
+Diffs, Python, AI, vibe coding, fees and timings.
 
 ### How many people live in Hatfield?
 
@@ -194,10 +312,14 @@ The first lesson is free. After that it is USD 100 a month in a group or USD 150
 
 Of course. List the weeks you will be away and no lessons are booked in them.
 
+More in Hertfordshire
+
 ## Other Hertfordshire towns we teach
 
 Try [Welwyn Garden City](/best-coding-and-ai-classes-in-welwyn-garden-city), [St Albans](/best-coding-class-in-st-albans) and [Stevenage](/ai-and-programming-classes-in-stevenage), each with its own project. The [Hertfordshire page](/coding-classes-in-hertfordshire) and the [UK hub](/coding-classes-in-united-kingdom) list the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20live%20in%20Hatfield%20and%20would%20like%20to%20book%20a%20free%20coding%20or%20Python%20lesson.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/online-coding-and-python-classes-in-hatfield](https://learn.modernagecoders.com/online-coding-and-python-classes-in-hatfield#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-hatfield*

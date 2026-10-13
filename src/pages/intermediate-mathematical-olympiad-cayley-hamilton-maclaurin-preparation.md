@@ -4,42 +4,34 @@ description: "Preparing for the UKMT intermediate olympiads: which paper each ye
 canonical: https://learn.modernagecoders.com/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation
 source: src/pages/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation.html
 ---
-> The UK Mathematics Trust runs three intermediate olympiads on one day, 18 March 2027: Cayley for "England, Wales and Overseas: Year 9 and below", Hamilton for "Year 10" and Maclaurin for "Year 11", with Scotland sitting S2 or below, S3 and S4 and Northern Ireland one year higher in each case. Each is a two-hour paper of "six Olympiad style problems". Entry is "by invitation based on a qualifying IMC score, or by discretionary entry", from the Intermediate Mathematical Challenge on 27 January 2027, and UKMT says "around 1,800 students qualify from the IMC each year". Candidates "should give full written solutions, including mathematical reasons as to why your method is correct", because "just stating an answer, even a correct one, will earn you very few marks". We teach the mathematics and the writing, live online. The first class is free; a group place is USD 100 a month and one-to-one teaching USD 150.
+> Preparing for the UKMT intermediate olympiads: which paper each year group sits, six questions in two hours, and why finding one answer is rarely the answer.
 
-[Home](/) / [Courses](/courses) / [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar) / Cayley, Hamilton and Maclaurin
+In short
 
-United Kingdom · Years 9, 10 and 11 · 18 March 2027
+The UK Mathematics Trust runs three intermediate olympiads on one day, 18 March 2027: Cayley for "England, Wales and Overseas: Year 9 and below", Hamilton for "Year 10" and Maclaurin for "Year 11", with Scotland sitting S2 or below, S3 and S4 and Northern Ireland one year higher in each case. Each is a two-hour paper of "six Olympiad style problems". Entry is "by invitation based on a qualifying IMC score, or by discretionary entry", from the Intermediate Mathematical Challenge on 27 January 2027, and UKMT says "around 1,800 students qualify from the IMC each year". Candidates "should give full written solutions, including mathematical reasons as to why your method is correct", because "just stating an answer, even a correct one, will earn you very few marks". We teach the mathematics and the writing, live online. The first class is free; a group place is USD 100 a month and one-to-one teaching USD 150.
 
-# Cayley, Hamilton and Maclaurin preparation
-
-Three olympiad papers, sat on the same afternoon, split not by how good a pupil is but by which school year they are in. Cayley is for Year 9 and below, Hamilton for Year 10, Maclaurin for Year 11, and each is six questions in two hours with every answer written out in full. That structure has a consequence worth understanding before March: a pupil who sits Cayley this year will sit Hamilton next year and Maclaurin the year after, against the same people. Nobody gets one attempt at this. What carries between the three is not topics. It is the habit of finishing a question, which at this level almost always means finding every answer rather than an answer.
-
-At a glance: Organiser: UK Mathematics Trust; Three papers: Cayley, Hamilton, Maclaurin; 2027 date: 18 March, all three; Paper: Six questions in two hours; Split by: School year, not by score; Qualifying from: The Intermediate Challenge; Qualifiers a year: Around 1,800; Answers: Full written solutions. Rated 4.9 across 547 Google reviews.
+Where to start
 
 ## Three courses for an intermediate olympiad candidate
 
 Choose by what a pupil can finish, not by what they can start.
 
-- [Olympiad and competition maths](/courses/olympiad-competition-mathematics-mastery): Number theory, combinatorics and geometry in the olympiad idiom, with solutions written to completion.
-- [High school mathematics](/courses/complete-high-school-mathematics-mastery): For a Year 10 or 11 pupil whose algebra needs to stop being the obstacle.
-- [Middle school maths mastery](/courses/comprehensive-middle-school-mathematics-mastery): For a Year 9 Cayley candidate still consolidating the ground the paper stands on.
+[![Maths Olympiad & Competition Course course thumbnail](/images/olympiad-competition-maths.webp)  IMK / 01 Olympiad and competition maths Number theory, combinatorics and geometry in the olympiad idiom, with solutions written to completion. Open the syllabus →](/courses/olympiad-competition-mathematics-mastery)[![High School Mathematics course thumbnail](/images/high-school-maths.webp)  IMK / 02 High school mathematics For a Year 10 or 11 pupil whose algebra needs to stop being the obstacle. Open the syllabus →](/courses/complete-high-school-mathematics-mastery)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  IMK / 03 Middle school maths mastery For a Year 9 Cayley candidate still consolidating the ground the paper stands on. Open the syllabus →](/courses/comprehensive-middle-school-mathematics-mastery)
+
+The three papers
 
 ## One afternoon, three papers, split by year group
 
 Facts read at UKMT's own pages on 20 September 2026.
 
-**Who sits which paper, in UKMT's own words**
-
 | Paper | England, Wales and Overseas | Scotland | Northern Ireland |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Cayley | Year 9 and below | S2 or below | Year 10 or below |
 | Hamilton | Year 10 | S3 | Year 11 |
 | Maclaurin | Year 11 | S4 | Year 12 |
 
-**The intermediate route, with the 2026-27 dates UKMT publishes**
-
 | Round | Date | What it is |
-|---|---|---|
+| --- | --- | --- |
 | Intermediate Mathematical Challenge | 27 January 2027 | The multiple-choice paper everyone sits first |
 | Cayley, Hamilton and Maclaurin | 18 March 2027 | Six written questions, two hours, by year group |
 | Grey Kangaroo | 18 March 2027 | A multiple-choice follow-on, same afternoon |
@@ -55,26 +47,26 @@ Entry is a school matter. UKMT invites on a qualifying Intermediate Challenge sc
 
 Sources: [UKMT competitions calendar](https://ukmt.org.uk/competitions) and the [Cayley, Hamilton and Maclaurin page](https://ukmt.org.uk/intermediate-challenges/cayley-hamilton-maclaurin-olympiad-challenge), read 20 September 2026. We have no connection with the UK Mathematics Trust, and nothing on this page should be read as one.
 
+The method
+
 ## A complete answer means all of them
 
 UKMT is explicit: "just stating an answer, even a correct one, will earn you very few marks". Here is what that looks like on a real question.
 
-A question in this style: **find all pairs of positive whole numbers a and b for which 1/a + 1/b = 1/6.** Most pupils find one within a minute. a = 12 and b = 12 works, because a sixth is two twelfths. That is a correct answer, and on an olympiad paper it is worth almost nothing, because the question said all.
-
-**Our run of 20 September 2026: every solution, and where they come from**
+A question in this style: **find all pairs of positive whole numbers a and b for which 1/a + 1/b = 1/6.** Most pupils find one within a minute. a = 12 and b = 12 works, because a sixth is two twelfths. That is a correct answer, and on an olympiad paper it is worth almost nothing, because the question said *all*.
 
 | a | b | Why it appears |
-|---|---|---|
-| 7 | 42 | a &minus; 6 = 1, so b &minus; 6 = 36 |
-| 8 | 24 | a &minus; 6 = 2, so b &minus; 6 = 18 |
-| 9 | 18 | a &minus; 6 = 3, so b &minus; 6 = 12 |
-| 10 | 15 | a &minus; 6 = 4, so b &minus; 6 = 9 |
-| 12 | 12 | a &minus; 6 = 6, so b &minus; 6 = 6 |
+| --- | --- | --- |
+| 7 | 42 | a − 6 = 1, so b − 6 = 36 |
+| 8 | 24 | a − 6 = 2, so b − 6 = 18 |
+| 9 | 18 | a − 6 = 3, so b − 6 = 12 |
+| 10 | 15 | a − 6 = 4, so b − 6 = 9 |
+| 12 | 12 | a − 6 = 6, so b − 6 = 6 |
 | 15, 18, 24, 42 | 10, 9, 8, 7 | The same four pairs the other way round |
 
 ### The move that finds them
 
-Multiply out and rearrange: ab &minus; 6a &minus; 6b = 0, so (a &minus; 6)(b &minus; 6) = 36. Now the question is about the divisors of 36, and there is nothing left to hunt for.
+Multiply out and rearrange: ab − 6a − 6b = 0, so (a − 6)(b − 6) = 36. Now the question is about the divisors of 36, and there is nothing left to hunt for.
 
 ### Why nine and not more
 
@@ -94,14 +86,14 @@ And notice what the good answer is not: it is not longer. Three lines of algebra
 
 The problem, the algebra and the search are ours, written and run on 20 September 2026. UKMT publishes its own past papers and full solutions free, and none of them is reproduced here.
 
+How to practise
+
 ## Six weeks, one habit
 
 The Intermediate Challenge is in January and the olympiads are in March. That gap is enough if it is spent on writing rather than on reading.
 
-**What earns marks on these papers, and what does not**
-
 | Habit | What it is worth | The failure it prevents |
-|---|---|---|
+| --- | --- | --- |
 | Writing "all solutions are" and then proving it | Often the majority of a question's marks | A correct first answer scoring almost nothing |
 | Stating the method before using it | Lets a marker follow a long argument | A page of algebra nobody can grade |
 | Checking the boundary cases | Catches the solution that was quietly excluded | Nine solutions written as eight |
@@ -116,14 +108,14 @@ For a Year 9 pupil sitting Cayley, the best investment is the one that pays thre
 
 A pupil who finds they enjoy this should look at the [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar): the senior rounds and the British Mathematical Olympiad are the same sport played longer.
 
+Getting ready
+
 ## Four rungs, and a ladder that repeats
 
 The same pupil climbs this three times, in Years 9, 10 and 11. What is learned once counts three times.
 
-**From an answer to a complete, proved solution**
-
 | Stage | Rung | The sign it is secure |
-|---|---|---|
+| --- | --- | --- |
 | Year 8 to 9 | 1. Algebra that does not slow you down | Rearranges and factorises without stopping to think |
 | Year 9 | 2. One complete solution | Writes an argument a classmate could follow unaided |
 | Year 10 | 3. All solutions | Asks "could there be another?" without being prompted |
@@ -132,71 +124,321 @@ The same pupil climbs this three times, in Years 9, 10 and 11. What is learned o
 ### If March is close
 
 Write up three problems the pupil has already solved, in full, and have someone read them as a stranger would. That is the highest-return evening available.
+
 Do not start new topics. Intermediate olympiad questions are built from school mathematics used unfamiliarly.
 
 ### After Maclaurin
 
 The senior rounds follow, and the British Mathematical Olympiad after those, where the same habit is worth far more.
+
 A pupil who enjoys closing a list of cases usually enjoys writing the program that generated it, which is what [maths through coding](/courses/maths-through-coding) is for.
+
+The full list
 
 ## What we teach a Year 9, 10 or 11 mathematician
 
 Four groups, chosen by what is currently in the way rather than by year group.
 
+I
+
 ### Olympiad mathematics
 
 The paper itself
 
-- [Olympiad and competition maths](/courses/olympiad-competition-mathematics-mastery): Divisors, invariants and arguments taken to the end.
-- [Middle school maths mastery](/courses/comprehensive-middle-school-mathematics-mastery): The ground a Cayley candidate stands on.
-- [Statistics and probability](/courses/statistics-probability-maths-course): Counting arguments, done carefully.
+IMK / O / 01
+
+#### Olympiad and competition maths
+
+Divisors, invariants and arguments taken to the end.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)
+
+IMK / O / 02
+
+#### Middle school maths mastery
+
+The ground a Cayley candidate stands on.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+IMK / O / 03
+
+#### Statistics and probability
+
+Counting arguments, done carefully.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)II
 
 ### School mathematics
 
 Years 9 to 11
 
-- [High school mathematics](/courses/complete-high-school-mathematics-mastery): The algebra a Maclaurin candidate should not be thinking about.
-- [GCSE maths](/courses/gcse-mathematics-mastery): Foundation and higher, to the school's board.
-- [IGCSE maths](/courses/igcse-mathematics-mastery): For international and independent schools.
+IMK / S / 01
+
+#### High school mathematics
+
+The algebra a Maclaurin candidate should not be thinking about.
+
+[Open the syllabus](/courses/complete-high-school-mathematics-mastery)
+
+IMK / S / 02
+
+#### GCSE maths
+
+Foundation and higher, to the school's board.
+
+[Open the syllabus](/courses/gcse-mathematics-mastery)
+
+IMK / S / 03
+
+#### IGCSE maths
+
+For international and independent schools.
+
+[Open the syllabus](/courses/igcse-mathematics-mastery)III
 
 ### Checking and building
 
 Where maths meets code
 
-- [Maths through coding](/courses/maths-through-coding): A program that lists candidates, and a proof that closes the list.
-- [Python from start to finish](/courses/python-complete-masterclass-teens): Enough code to search a space of cases by hand.
-- [Algorithms and data structures](/courses/problem-solving-dsa-masterclass-teens): Counting, searching and proving a method terminates.
+IMK / C / 01
+
+#### Maths through coding
+
+A program that lists candidates, and a proof that closes the list.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+IMK / C / 02
+
+#### Python from start to finish
+
+Enough code to search a space of cases by hand.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+IMK / C / 03
+
+#### Algorithms and data structures
+
+Counting, searching and proving a method terminates.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)IV
 
 ### Looking further
 
 Sixth form and beyond
 
-- [A-level maths](/courses/a-level-maths-course-pure-mechanics-statistics): Pure, mechanics and statistics, taught properly.
-- [Competitive programming](/courses/competitive-programming-for-teens-course): Correctness under a clock.
-- [AI and machine learning for teens](/courses/ai-ml-masterclass-teens): Where the mathematics goes next.
+IMK / N / 01
+
+#### A-level maths
+
+Pure, mechanics and statistics, taught properly.
+
+[Open the syllabus](/courses/a-level-maths-course-pure-mechanics-statistics)
+
+IMK / N / 02
+
+#### Competitive programming
+
+Correctness under a clock.
+
+[Open the syllabus](/courses/competitive-programming-for-teens-course)
+
+IMK / N / 03
+
+#### AI and machine learning for teens
+
+Where the mathematics goes next.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+How lessons run
 
 ## A weekly hour, and a reader for the write-up
 
 Teaching is live on video from India, which sits five and a half hours ahead of Britain in winter and four and a half in summer. Slots are agreed and kept in UK time.
 
-- **Weekday evening** The usual choice for Years 9 to 11.
-- **Weekend morning** For two hours on a single question, properly.
-- **Half term** Short intensives in the run-up to March.
+Weekday evening
 
-- **Written solutions marked** Someone reads the argument as a stranger would and says where it stops convincing.
-- **Problems written by us** In the olympiad idiom. UKMT's past papers stay on UKMT's site.
-- **Fifteen to twenty pupils** Enough for two different methods to meet, small enough for every write-up to be read.
-- **Year groups respected** Cayley, Hamilton and Maclaurin candidates are taught at the level their paper is set.
-- **One to one when useful** For a pupil far ahead of their year or preparing for a specific paper.
-- **No score promised** We cannot qualify anyone and do not claim to. Nobody honest promises a medal.
+The usual choice for Years 9 to 11.
+
+Weekend morning
+
+For two hours on a single question, properly.
+
+Half term
+
+Short intensives in the run-up to March.
+
+### Written solutions marked
+
+Someone reads the argument as a stranger would and says where it stops convincing.
+
+### Problems written by us
+
+In the olympiad idiom. UKMT's past papers stay on UKMT's site.
+
+### Fifteen to twenty pupils
+
+Enough for two different methods to meet, small enough for every write-up to be read.
+
+### Year groups respected
+
+Cayley, Hamilton and Maclaurin candidates are taught at the level their paper is set.
+
+### One to one when useful
+
+For a pupil far ahead of their year or preparing for a specific paper.
+
+### No score promised
+
+We cannot qualify anyone and do not claim to. Nobody honest promises a medal.
+
+Student work
+
+## What our students build
+
+Four published projects by students at our school, none of them competition entries. More on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 One monthly rate in US dollars for every country outside India. No joining fee and no term to sign.
 
-- Free first class: USD 0. A real lesson on one problem. An honest read on the level. No card details.
-- Group batch: USD 100 a month. Fifteen to twenty pupils at one level. The same teacher weekly. Solutions read line by line. A certificate at the end.
-- One to one: USD 150 a month. One pupil with one teacher. Aimed at a particular paper. For pupils well ahead of their year.
+Free first class
+
+USD 0
+
+no card required
+
+- A real lesson on one problem
+- An honest read on the level
+- No card details
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty pupils at one level
+- The same teacher weekly
+- Solutions read line by line
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- One pupil with one teacher
+- Aimed at a particular paper
+- For pupils well ahead of their year
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Six reviews left on our Google profile, printed without a word changed.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Intermediate olympiad questions
 
 ## What pupils and parents ask
 
@@ -240,15 +482,54 @@ No. UKMT publishes its own past papers and full solutions free, which is the rig
 
 The first lesson is free. A group place is then USD 100 a month and one-to-one teaching USD 150, with nothing to join and no minimum term.
 
+Related pages
+
 ## More for olympiad mathematicians
 
-- [Junior Mathematical Olympiad](/junior-mathematical-olympiad-preparation): The rung below, for Year 8 and under.
-- [UK competitions calendar 2026-27](/uk-coding-maths-and-ai-competitions-calendar): The whole season in one table, organiser by organiser.
-- [Scottish Mathematical Challenge](/scottish-mathematical-challenge-practice): Three rounds a year, and a mug for the winners.
-- [British Informatics Olympiad](/british-informatics-olympiad-preparation): For pupils who would rather prove things in code.
-- [Coding classes in the UK](/coding-classes-in-united-kingdom): The four school systems, and where every UK page sits.
-- [Choosing an online class](/best-online-coding-classes-uk): Seven things to ask before a card comes out.
+The rung below, the paper beside it, and the whole competition year.
 
-## Contact
+### [Junior Mathematical Olympiad](/junior-mathematical-olympiad-preparation)
 
-Book the free first class at [https://learn.modernagecoders.com/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation](https://learn.modernagecoders.com/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The rung below, for Year 8 and under.
+
+### [UK competitions calendar 2026-27](/uk-coding-maths-and-ai-competitions-calendar)
+
+The whole season in one table, organiser by organiser.
+
+### [Scottish Mathematical Challenge](/scottish-mathematical-challenge-practice)
+
+Three rounds a year, and a mug for the winners.
+
+### [British Informatics Olympiad](/british-informatics-olympiad-preparation)
+
+For pupils who would rather prove things in code.
+
+### [Coding classes in the UK](/coding-classes-in-united-kingdom)
+
+The four school systems, and where every UK page sits.
+
+### [Choosing an online class](/best-online-coding-classes-uk)
+
+Seven things to ask before a card comes out.
+
+Start here
+
+## Book a free olympiad lesson
+
+Tell us the year group and which paper is coming. The free lesson takes one problem all the way to a written solution someone else can read.
+
+Rather read? Syllabuses are on the [course pages](/courses), the method on [how we teach](/how-we-teach), and the order of topics on the [roadmap](/coding-roadmap).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20has%20qualified%20for%20a%20UKMT%20intermediate%20olympiad%20and%20I%20would%20like%20a%20free%20maths%20class.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp costs a UK mobile nothing and reaches us quickest. Our number is Indian, as we say on every page, and there is no office in Britain.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation*

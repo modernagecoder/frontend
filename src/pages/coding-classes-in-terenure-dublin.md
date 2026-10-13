@@ -4,46 +4,32 @@ description: "Coding, Python, AI and maths lessons for Terenure learners aged 6 
 canonical: https://learn.modernagecoders.com/coding-classes-in-terenure-dublin
 source: src/pages/coding-classes-in-terenure-dublin.html
 ---
-> For Terenure learners every lesson is taught live over video by a teacher, in a small group of learners at the same level or one to one, usually twice a week, and the classes take anyone aged six to sixty-seven. There is nowhere to get to. The opening lesson is free, then a month of lessons is USD 100 in a group or USD 150 privately.
+> Coding, Python, AI and maths lessons for Terenure learners aged 6 to 67, taught live online in small same-level groups or one to one. The first lesson is free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [Dublin](/best-coding-class-in-dublin) / Terenure
-
-Terenure, Dublin 6W / Live online
-
-# Coding classes in Terenure
-
-**What are the best coding classes in Terenure?** For Terenure learners every lesson is taught live over video by a teacher, in a small group of learners at the same level or one to one, usually twice a week, and the classes take anyone aged six to sixty-seven. There is nowhere to get to. The opening lesson is free, then a month of lessons is USD 100 in a group or USD 150 privately.
-
-Seven Dublin Bus routes stop in Terenure. How alike are they? A standard answer compares the stops two routes share with all the stops either one uses, a score called the Jaccard index that runs from 0, nothing in common, to 1, identical. Routes 16 and 16D score 0.896; routes 65 and 74 both pass through Terenure and score 0. Then comes the surprise: route 15 compared with itself going the other way scores 0.008, because a stop in the timetable is one side of the road. Count stops by name instead and the same comparison gives 0.859. This page teaches a learner to measure similarity, and to decide first what counts as the same thing.
-
-Facts last verified 20 September 2026. Teaching is online; no Terenure branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Terenure
 
 ## Four first courses for Terenure
 
 Pick an age band to begin; the teacher uses the free first lesson to confirm the level and will move the learner if another course fits better.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Blocks and sorting games: which items two lists share, and which belong to only one.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Python sets: union, intersection and a similarity score computed from real bus stops.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Real timetable data in Python: stop patterns, Jaccard scores, and matching places by identifier, name or distance.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (College and adult): For adults who compare customer lists, product catalogues or service areas and need a fair overlap measure.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlocks and sorting games: which items two lists share, and which belong to only one.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsPython sets: union, intersection and a similarity score computed from real bus stops.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensReal timetable data in Python: stop patterns, Jaccard scores, and matching places by identifier, name or distance.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)College and adultData Analysis CourseFor adults who compare customer lists, product catalogues or service areas and need a fair overlap measure.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## How alike are two bus routes? It depends on what counts as the same stop
 
 Everything here comes from one day of the national timetable feed for Dublin Bus, Tuesday 22 September 2026. For each route and direction that stops at one of the 13 stops named Terenure, the program takes the stop list used by most of that day's trips, then compares routes as sets of stops.
 
-**Jaccard similarity: shared stops divided by all stops used by either route**
-
 | Comparison | By stop identifier | By stop name | Within 100 metres |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Route 15, one direction against the other | 0.008 | 0.859 | 0.662 |
 | Route 65, one direction against the other | 0.007 | 0.793 | 0.585 |
 | Routes 16 and 16D, same direction | 0.896 | 0.896 | not needed |
@@ -79,14 +65,14 @@ Route 65 runs three different stop patterns in one direction on the chosen day, 
 
 The figures describe planned stop lists for one weekday. They say nothing about how many people use each stop, or about weekend and evening variations.
 
+Terenure, named
+
 ## Terenure from its library, its park and its bus stops
 
 Nothing below is our own description; each line repeats what the responsible body publishes.
 
-**Named places in Terenure**
-
 | Place | What its own source says |
-|---|---|
+| --- | --- |
 | Terenure Library | Templeogue Road, Dublin 6W, D6W YC59 |
 | Bushy Park | In Terenure, with walks along the River Dodder |
 | Bus stops named Terenure | 13 stops in the Dublin Bus timetable feed |
@@ -104,7 +90,11 @@ The council lists walks along the River Dodder, GAA pitches, tennis, padel and b
 
 According to the council, the Templeogue Road branch keeps late hours, until 8 pm, on Mondays and Wednesdays, closes at 5 pm on Tuesdays and Thursdays, and has a hearing loop for visitors who use hearing aids.
 
-**What this page does not claim** No population is given for Terenure, because the page prints only what named bodies publish about the place. The bus figures are planned stop patterns on one weekday from the national timetable feed.
+What this page does not claim
+
+No population is given for Terenure, because the page prints only what named bodies publish about the place. The bus figures are planned stop patterns on one weekday from the national timetable feed.
+
+Learning here
 
 ## The lessons in a Terenure learner's week
 
@@ -124,14 +114,37 @@ Adults can begin with no experience at all; the first lesson points to the cours
 
 The stop patterns are published by the National Transport Authority; grouping them by route, comparing them as sets and applying the three matching rules is our own work of 20 September 2026. Park and library details are Dublin City Council's.
 
+Learning ladder
+
 ## From sorting cards to comparing sets
 
 Bands are only a starting guide; lesson one sets the level.
 
-- **Ages 6 to 10: In both, in one** Block-coded sorting games with two overlapping groups. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Sets in Python** Union, intersection and a similarity score on small lists. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Matching rules** Real bus data, Jaccard scores and three ways of deciding two stops are the same. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Overlap at work** Comparing customer lists, catalogues and coverage areas with a clear matching rule. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### In both, in one
+
+Block-coded sorting games with two overlapping groups.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Sets in Python
+
+Union, intersection and a similarity score on small lists.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Matching rules
+
+Real bus data, Jaccard scores and three ways of deciding two stops are the same.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Overlap at work
+
+Comparing customer lists, catalogues and coverage areas with a clear matching rule.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## Ask an assistant how similar two routes are
 
@@ -143,30 +156,139 @@ A learner who has worked through this project requests three versions, by identi
 
 Similarity depends on sameness. Define sameness first, then let the code count. The longer argument is in [why learning to code matters more with AI around](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How lessons run for Terenure
 
 The main points.
 
-- **Live lessons** A teacher leads each lesson in real time and works through each learner's code alongside them.
-- **Grouped by level** Fifteen to twenty learners on the same level, joining from Terenure, around Ireland or abroad.
-- **Two days a week** The same pair of days each week, which comes to roughly eight lessons a month.
-- **School calendar** Breaks for holidays, mid-terms and exams are part of the plan.
-- **Equipment check** A proper computer rather than a phone, a working mic, a way to hear the teacher, and broadband that keeps video smooth.
-- **Just the two of you** Private lessons pair one learner with one teacher, useful for anyone racing ahead, wanting a gentler pace, or free only at unusual times.
+### Live lessons
 
-**All online** There are no Modern Age Coders premises in Terenure or anywhere in Ireland. Lessons are live on video and run the same wherever the learner is.
+A teacher leads each lesson in real time and works through each learner's code alongside them.
+
+### Grouped by level
+
+Fifteen to twenty learners on the same level, joining from Terenure, around Ireland or abroad.
+
+### Two days a week
+
+The same pair of days each week, which comes to roughly eight lessons a month.
+
+### School calendar
+
+Breaks for holidays, mid-terms and exams are part of the plan.
+
+### Equipment check
+
+A proper computer rather than a phone, a working mic, a way to hear the teacher, and broadband that keeps video smooth.
+
+### Just the two of you
+
+Private lessons pair one learner with one teacher, useful for anyone racing ahead, wanting a gentler pace, or free only at unusual times.
+
+All online
+
+There are no Modern Age Coders premises in Terenure or anywhere in Ireland. Lessons are live on video and run the same wherever the learner is.
+
+Fees
 
 ## Fees for Terenure
 
 Clearly.
 
-- First class: USD 0. A free first lesson, with a check of the learner's level.
-- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, around eight live lessons.
-- Private tuition: USD 150 a month. A month of one-to-one lessons on the same pattern.
+First class**USD 0**
+
+A free first lesson, with a check of the learner's level.
+
+Group tuition**USD 100**
+
+A month in a group of fifteen to twenty at one level, around eight live lessons.
+
+Private tuition**USD 150**
+
+A month of one-to-one lessons on the same pattern.
 
 Outside India the fee is a single US dollar amount for every family, paid monthly. Taking the free lesson signs you up to nothing; the first bill arrives only when the course begins, and anything about holidays, missed sessions or changing format is set out on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Terenure.)Reviews
+
+## Six Google reviews from families, left as written
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free first lesson in Terenure
+
+Tell us the learner's age and interests and the first lesson will be built for them. Some learners leave that hour with a tiny game, some with their first running program, and some with two lists compared properly.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Terenure one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Terenure.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Terenure coding class questions
+
+What Terenure families usually ask.
 
 ### Is there a Modern Age Coders centre in Terenure?
 
@@ -204,10 +326,14 @@ The first lesson is free. After that a group place is USD 100 a month for about 
 
 Fifteen to twenty learners, matched by level, pace and goals rather than age or address. If no group runs at a workable time, lessons are one to one.
 
+Explore Ireland
+
 ## Around Terenure
 
 South along the Dodder, [Rathfarnham](/coding-classes-in-rathfarnham-dublin) has a project on the shortest route between heritage sites, and to the north [Rathmines](/coding-classes-in-rathmines-dublin) one on library loans. The [Dublin](/best-coding-class-in-dublin) page covers the city, and the [Ireland hub](/coding-classes-in-ireland) the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Terenure.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-terenure-dublin](https://learn.modernagecoders.com/coding-classes-in-terenure-dublin#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-terenure-dublin*

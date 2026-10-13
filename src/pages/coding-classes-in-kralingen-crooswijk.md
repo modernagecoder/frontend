@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes in Kralingen-Crooswijk, 
 canonical: https://learn.modernagecoders.com/coding-classes-in-kralingen-crooswijk
 source: src/pages/coding-classes-in-kralingen-crooswijk.html
 ---
-> Coding classes in Kralingen-Crooswijk reach 54,856 residents (1 January 2026) on 1,042 hectares of land, in 32,675 households of which 19,895 hold one person. 4,850 residents are enrolled at university and 1,980 in applied higher education, 12.5 percent of everybody, the highest student share of the six Rotterdam districts in this series. It also has the highest average income of the six, 35,000 euro. Whatever explains that, it is not the students, and noticing why is worth more than the number. Modern Age Coders teaches live online in English from Rubroek to De Esch, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
+> Live online coding, Python and AI classes in Kralingen-Crooswijk, Rotterdam, for ages 6 to 67, from Rubroek to De Esch. The first lesson is free.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Rotterdam](/coding-classes-in-rotterdam) / Kralingen-Crooswijk
-
-Kralingen-Crooswijk, Rotterdam / Live online
-
-# Coding classes in Kralingen-Crooswijk, the district with the most students and, awkwardly, the highest incomes
-
-**What are the best coding classes in Kralingen-Crooswijk?** Coding classes in Kralingen-Crooswijk reach 54,856 residents (1 January 2026) on 1,042 hectares of land, in 32,675 households of which 19,895 hold one person. 4,850 residents are enrolled at university and 1,980 in applied higher education, 12.5 percent of everybody, the highest student share of the six Rotterdam districts in this series. It also has the highest average income of the six, 35,000 euro. Whatever explains that, it is not the students, and noticing why is worth more than the number. Modern Age Coders teaches live online in English from Rubroek to De Esch, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
-
-Kralingen-Crooswijk has more students than any other Rotterdam district measured here, 6,830 of them, and the highest average income, 35,000 euro. Point at the students to explain the district and you have pointed at the one group that, on any ordinary view of what a student earns, pulls that average downwards. The most visible thing about a place is almost never what its statistics are made of, and it is almost always the first thing anybody reaches for.
-
-Facts last verified 9 September 2026. Teaching is online; no Kralingen-Crooswijk branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Kralingen-Crooswijk
 
 ## Four courses for a district where one in eight residents is a student
 
 A groep 5 child in Rubroek who wants to build a website rather than look at one, a teenager in Oud Crooswijk who has decided the interface is the interesting part, one of the 4,850 university students here who needs data work to be a skill rather than a module, and an adult in Kralingen Oost automating a report by hand every month: four doors, and the first hour of each is free.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Real typed Python, drawings that follow orders and a first program that finds a rule, taught in English to the groep 5 to 8 child in any of the eight buurten.
-- [React Course for Teens](/courses/react-for-teens-complete-masterclass) (Ages 13 to 18): Components, state and an interface that works on a phone, for the teenager who wants what they build to be usable by somebody else.
-- [Data Science Course](/courses/data-science-complete-masterclass-college) (College and adult): Python, pandas and the habit of asking what a pattern is actually made of, for the student who will be handed datasets for a working lifetime.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (Adults): Python that gathers, cleans, checks and reports on its own schedule, for anybody rebuilding the same spreadsheet every month.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsReal typed Python, drawings that follow orders and a first program that finds a rule, taught in English to the groep 5 to 8 child in any of the eight buurten.See the syllabus](/courses/python-ai-kids-masterclass)[![React Course for Teens course thumbnail](/images/react-teens.webp)Ages 13 to 18React Course for TeensComponents, state and an interface that works on a phone, for the teenager who wants what they build to be usable by somebody else.See the syllabus](/courses/react-for-teens-complete-masterclass)[![Data Science Course course thumbnail](/images/data-science-college.webp)College and adultData Science CoursePython, pandas and the habit of asking what a pattern is actually made of, for the student who will be handed datasets for a working lifetime.See the syllabus](/courses/data-science-complete-masterclass-college)[![Python Automation Course course thumbnail](/images/python-college.webp)AdultsPython Automation CoursePython that gathers, cleans, checks and reports on its own schedule, for anybody rebuilding the same spreadsheet every month.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Kralingen-Crooswijk today
 
 ## Fifty-five thousand people, and a wood among the neighbourhoods
 
@@ -52,16 +40,18 @@ Nieuw Crooswijk, the Kralingse Bos, Oud Crooswijk, Kralingen West, Rubroek, Kral
 
 11,355 residents are between fifteen and twenty-five, 21 percent, against just 6,730 under fifteen, 12 percent. 17,350 are between twenty-five and forty-five. The bands are of different widths, which is the argument of the IJsselmonde page in this series and is not reopened here.
 
-**The number this page is about** 4,850 residents are enrolled at university level and 1,980 in applied higher education, 6,830 people, or 12.5 percent of the district. That is the highest student share of the six Rotterdam districts this series has measured, and by a wide margin: the next is Delfshaven at 7.2 percent. The district also reports the highest average income of the six, 35,000 euro per resident for 2024. Those two facts sit together uncomfortably, and the discomfort is the point.
+The number this page is about
+
+4,850 residents are enrolled at university level and 1,980 in applied higher education, 6,830 people, or 12.5 percent of the district. That is the highest student share of the six Rotterdam districts this series has measured, and by a wide margin: the next is Delfshaven at 7.2 percent. The district also reports the highest average income of the six, 35,000 euro per resident for 2024. Those two facts sit together uncomfortably, and the discomfort is the point.
+
+Where the learners are
 
 ## Student share and average income, across five districts
 
 Five of the six Rotterdam districts in this series publish both a count of residents in higher education and an average income. Set them side by side and they rise together, which is the reverse of what the obvious explanation predicts.
 
-**Students and income, ordered by student share**
-
 | District | Residents in higher education | As a share of residents | Average income per resident |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Kralingen-Crooswijk | 6,830, of which 4,850 at university | 12.5 percent | 35,000 euro, the highest here |
 | Delfshaven | 5,510, of which 2,910 at university | 7.2 percent | 30,100 euro |
 | Feijenoord | 3,720, of which 1,510 at university | 4.6 percent | 29,200 euro |
@@ -70,6 +60,8 @@ Five of the six Rotterdam districts in this series publish both a count of resid
 | The shape of it | more students | goes with | higher average income, not lower |
 
 The ordering agrees on four of the five and swaps only Charlois and IJsselmonde. Whatever is producing that, it cannot be the students themselves acting on the average, because that mechanism predicts the opposite direction. This page notes the pattern, notes that the obvious explanation has it backwards, and stops there, because separating the two would need income published by student status and no such breakdown was read.
+
+Verified local facts
 
 ## Every figure, its source, its year, and the explanation not offered
 
@@ -97,6 +89,8 @@ Nothing about why. No claim that students raise incomes, which would be strange,
 
 There is no relationship between Modern Age Coders and this gebied, the city, the university or any school named, and none is implied. Figures quoted come from the statistics office page for each named wijk. The student shares of 12.5, 7.2, 4.6, 4.2 and 2.8 percent are worked out here from published counts and populations.
 
+Signature project
+
 ## The most obvious explanation, pointing the wrong way
 
 A district defined in most people minds by one thing, a statistic that thing cannot account for, and the discipline of stopping when you notice.
@@ -113,10 +107,8 @@ A large group with low earnings, added to a population, pulls an average income 
 
 The tempting next move is a better story, about the kind of neighbourhood a university sits in, or about who else lives nearby. Any of those could be right. None of them is in the data on this page, and swapping one unsupported explanation for a more sophisticated unsupported explanation is not progress.
 
-**What survives the check and what does not**
-
 | Statement | Status | Why | What would settle it |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | The district has 6,830 residents in higher education | established | a published count | nothing further |
 | It has the highest average income of the six measured | established | a published figure, compared with five others | nothing further |
 | Student share and income rise together across five districts | described | the orderings agree on four of five | more districts, which the Feijenoord page argues |
@@ -127,14 +119,14 @@ The tempting next move is a better story, about the kind of neighbourhood a univ
 
 Every dataset has a headline characteristic, the thing anybody would name if asked to describe the row in five words. A university district. A port city. A retirement town. A young team. An enterprise account. That characteristic is the first thing reached for whenever a number attached to the row needs explaining, and the reaching happens so fast that it usually skips the step of asking which direction the proposed cause would push. Here it takes one sentence to notice: a large population of students, being a group with low earnings, lowers an average income rather than raising it, so it cannot be the reason this district sits at the top. The interesting part is what to do next, and the honest answer is often nothing. The temptation is to reach immediately for a second explanation, better dressed, about the sort of place a campus tends to sit in or the kind of housing built around it, and to feel that the analysis has advanced. It has not. Trading a naive story for a sophisticated one, with no more evidence behind either, is the most comfortable way to be wrong, because the sophisticated version is much harder for anybody to challenge. The finding worth writing down is the negative one: the obvious cause is ruled out by its own direction, and what remains is a question rather than an answer. Reporting a question that specific is a genuine result, and a great deal more useful than a plausible paragraph.
 
+Reliable pipeline
+
 ## Five habits for the explanation that arrives first
 
 The loudest customer segment, the newest feature, the biggest region, the most recent release: whatever is most visible gets blamed and credited for everything measured alongside it. Practised on a district whose defining feature pushes its headline figure the wrong way.
 
-**Testing an explanation before adopting it**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Write the reflex down | State the explanation you reached for, in one sentence, before testing it | An assumption that never becomes examinable | Something specific enough to be wrong |
 | Check the direction | Ask which way the proposed cause would push the number | A story that contradicts itself unnoticed | Often, an immediate elimination |
 | Separate ruling out from explaining | Treat eliminating a cause as a finished result on its own | A vacuum filled by the next guess | A published negative, which is real work |
@@ -155,14 +147,37 @@ A metric at work that moved, and the explanation everybody accepted. Adults very
 
 Population, household, age, area, density, dwelling, value, tenure, income, student, establishment and pupil figures for this district, and the student and income columns for the four compared with it, come from the statistics office pages for those wijken, with 2026 populations, 2025 household, housing and student figures and 2024 incomes. The student shares of 12.5, 7.2, 4.6, 4.2 and 2.8 percent are computed here from published counts and populations and are labelled as computed wherever they appear.
 
+Learning ladder
+
 ## From the tallest child in the class to a function that asks which way a cause pushes
 
 The rung is settled in the free hour by what the learner can already do, and never by which of the eight buurten the address falls in.
 
-- **Ages 6 to 10: Why did the average go up?** Children find out it was not the most noticeable person in the room. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Web Development for Kids](/courses/kids-ai-web-development-course)
-- **Ages 11 to 13: Which way would that push it?** Learners test the direction of an explanation before accepting it. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 14 to 18: Ruling out is a result** Teenagers write analyses that report an eliminated cause instead of inventing a replacement. [React Course for Teens](/courses/react-for-teens-complete-masterclass), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: The explanation everybody accepted** Adults take a movement at work and test whether the agreed cause pushes the right way. [Data Science Course](/courses/data-science-complete-masterclass-college), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### Why did the average go up?
+
+Children find out it was not the most noticeable person in the room.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Web Development for Kids](/courses/kids-ai-web-development-course)Ages 11 to 13
+
+### Which way would that push it?
+
+Learners test the direction of an explanation before accepting it.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 14 to 18
+
+### Ruling out is a result
+
+Teenagers write analyses that report an eliminated cause instead of inventing a replacement.
+
+[React Course for Teens](/courses/react-for-teens-complete-masterclass)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### The explanation everybody accepted
+
+Adults take a movement at work and test whether the agreed cause pushes the right way.
+
+[Data Science Course](/courses/data-science-complete-masterclass-college)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## An AI will explain this district by its students. Why should a teenager in Crooswijk check the direction first?
 
@@ -174,30 +189,139 @@ So the learner practises the check itself, which takes one sentence: which way w
 
 The case for a child in Kralingen-Crooswijk learning to code in 2026 is therefore not about universities. It is that the most visible thing about anything gets credited with everything measured alongside it, that one question about direction disposes of a great many of those credits, and that a district full of students with the highest incomes in the comparison makes the lesson unavoidable. The longer argument is in [the case for a child writing code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes from Crooswijk out to the lake
 
 This district runs from dense nineteenth-century streets to a wood, a lake and a campus. Its households are small and mostly rented, and 61 percent of them contain one person, so quiet rooms are scarcer than they look.
 
-- **A weekly hour that does not need a room** The lesson runs at the table in Rubroek, Kralingen West or De Esch at the same time each week, which is the only version that fits around a small flat and a full week.
-- **Taught in English, with the Dutch that matters kept** Groep, havo, vwo and profielkeuze stay as the school writes them; everything else is English. A child should recognise the words for their own year and their own track without translating.
-- **The first hour, and what comes out of it** Something real to do, watched rather than marked, which fixes a level. From the level comes a course and from the course a weekly time. Nothing about payment is raised while it happens.
-- **The group is a level** Fifteen to twenty learners working at one stage, assembled from wherever people at that stage happen to live. It is why a narrow level fills at all, and why the group is rarely local.
-- **Twice a week, on published holiday dates** About eight lessons a month. The regio Midden calendar covers Zuid-Holland and is issued well ahead, so the breaks are part of the plan rather than an interruption to it.
-- **A gap that changes with the Dutch clock** Three and a half hours to the teacher for part of the year and four and a half for the rest, entirely because the Netherlands changes its time and India does not. The workable hours are the same at both settings.
+### A weekly hour that does not need a room
 
-**Twice as many people aged fifteen to twenty-five as under fifteen** 11,355 residents are between fifteen and twenty-five and 6,730 are under fifteen, which is an unusual shape for a district and reflects the 6,830 residents in higher education. For a family with a young child it means the local pool of eleven-year-olds at any particular stage is thin, whatever the schools are doing. A group of fifteen to twenty built on ability from across the world does not depend on that pool, and the same class runs up to the age of sixty-seven for the students and adults who make up so much of this district.
+The lesson runs at the table in Rubroek, Kralingen West or De Esch at the same time each week, which is the only version that fits around a small flat and a full week.
+
+### Taught in English, with the Dutch that matters kept
+
+Groep, havo, vwo and profielkeuze stay as the school writes them; everything else is English. A child should recognise the words for their own year and their own track without translating.
+
+### The first hour, and what comes out of it
+
+Something real to do, watched rather than marked, which fixes a level. From the level comes a course and from the course a weekly time. Nothing about payment is raised while it happens.
+
+### The group is a level
+
+Fifteen to twenty learners working at one stage, assembled from wherever people at that stage happen to live. It is why a narrow level fills at all, and why the group is rarely local.
+
+### Twice a week, on published holiday dates
+
+About eight lessons a month. The regio Midden calendar covers Zuid-Holland and is issued well ahead, so the breaks are part of the plan rather than an interruption to it.
+
+### A gap that changes with the Dutch clock
+
+Three and a half hours to the teacher for part of the year and four and a half for the rest, entirely because the Netherlands changes its time and India does not. The workable hours are the same at both settings.
+
+Twice as many people aged fifteen to twenty-five as under fifteen
+
+11,355 residents are between fifteen and twenty-five and 6,730 are under fifteen, which is an unusual shape for a district and reflects the 6,830 residents in higher education. For a family with a young child it means the local pool of eleven-year-olds at any particular stage is thin, whatever the schools are doing. A group of fifteen to twenty built on ability from across the world does not depend on that pool, and the same class runs up to the age of sixty-seven for the students and adults who make up so much of this district.
+
+Fees
 
 ## The fee, in dollars, in all eight buurten
 
 On the page rather than saved for a call.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 One international rate, in dollars, with no euro edition, so an address in Oud Crooswijk is charged what one in Kralingen Oost is. Nothing is paid until the free lesson has settled a course and an hour, and payment follows over WhatsApp. Pausing, switching plan and missing a week are all on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Kralingen-Crooswijk.)Reviews
+
+## Six Google reviews, kept as the people who left them wrote them
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Send the level; the buurt is not needed
+
+The first task might be a class average that did not move for the reason everybody assumed, a function that asks which direction a cause pushes, or a metric at work whose accepted explanation nobody has ever tested.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Kralingen-Crooswijk one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Kralingen-Crooswijk.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Kralingen-Crooswijk coding class questions
+
+The district, its eight buurten, one explanation that fails, the teaching and the terms.
 
 ### Does this district have a high average income because of its students?
 
@@ -239,10 +363,14 @@ The first lesson is free. After it, group tuition is USD 100 a month for two liv
 
 Fifteen to twenty, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
+Explore Rotterdam and beyond
+
 ## West into the centre, south across the river, and out to the country
 
 West is [Rotterdam Centrum](/coding-classes-in-rotterdam-centrum), whose page argues that a small district is mostly edge, and south across the Maas are [Feijenoord](/coding-classes-in-feijenoord) and [IJsselmonde](/coding-classes-in-ijsselmonde). The city page, [coding classes in Rotterdam](/coding-classes-in-rotterdam), carries the port and all fourteen gebieden, and everything here sits inside [Zuid-Holland](/coding-classes-in-zuid-holland). The series descends from the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner after trained models rather than running programs should begin at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Carry on in WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Kralingen-Crooswijk.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-kralingen-crooswijk](https://learn.modernagecoders.com/coding-classes-in-kralingen-crooswijk#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-kralingen-crooswijk*

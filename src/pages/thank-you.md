@@ -10,7 +10,9 @@ Request received
 
 # You are in. Here is what happens next.
 
-Your details just reached our team. A real person, not a bot, will contact you within 24 hours.
+Your details just reached our team. A real person, not a bot, will contact you within 24 hours. One quick choice first: how soon do you want your demo?
+
+New to the paid option? Read [why we charge for a priority demo](/why-we-charge-for-a-priority-demo) and [what happens in a demo class](/what-happens-in-a-demo-class).
 
 [Continue on WhatsApp, get your slot in minutes](https://wa.me/919123366161?text=Hi!%20I%20just%20booked%20a%20free%20demo%20on%20the%20website%20and%20would%20like%20to%20confirm%20my%20slot%20and%20timing.)
 

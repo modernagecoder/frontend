@@ -23,4 +23,4 @@ For a faster response, contact [9123366161](https://wa.me/919123366161?text=Hi%2
 
 Login to access your dashboard
 
-[Back to Home](/)[Ask Misti AI](https://misti.modernagecoders.com)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)[Ask Misti AI](https://misti.modernagecoders.com)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[Back to Home](/)[Ask Misti AI](https://misti.modernagecoders.com)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)

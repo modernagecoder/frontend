@@ -4,46 +4,32 @@ description: "Live online coding, Python and AI lessons for Letterkenny learners
 canonical: https://learn.modernagecoders.com/best-coding-class-in-letterkenny
 source: src/pages/best-coding-class-in-letterkenny.html
 ---
-> Letterkenny has 22,252 usual residents in the census town tables, the 21st largest of 867 towns, and 8,431 households, 6,875 of them on broadband. Every lesson with us is live on video, twice in most weeks, with a teacher who works through the course with a group of fifteen to twenty at the same level or with one learner alone. Anyone from six to sixty-seven can join. The opening lesson is free, and after it a place costs USD 100 a month in a group or USD 150 one to one.
+> Live online coding, Python and AI lessons for Letterkenny learners aged 6 to 67, taught live by a teacher in small ability groups or one to one. First lesson free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [County Donegal](/coding-classes-in-county-donegal) / Letterkenny
-
-Letterkenny, County Donegal / Live online
-
-# Coding classes in Letterkenny
-
-**What is the best coding class in Letterkenny?** Letterkenny has 22,252 usual residents in the census town tables, the 21st largest of 867 towns, and 8,431 households, 6,875 of them on broadband. Every lesson with us is live on video, twice in most weeks, with a teacher who works through the course with a group of fifteen to twenty at the same level or with one learner alone. Anyone from six to sixty-seven can join. The opening lesson is free, and after it a place costs USD 100 a month in a group or USD 150 one to one.
-
-A census table looks like a grid, and it does not arrive as one. The CSO sends the internet access table as a single line of 4,340 numbers: five answer categories multiplied by 868 area labels, one after another, with a short description of which dimension varies fastest. Letterkenny's broadband count, 6,875, is number 688 in that line. A program that reads the description correctly finds it. A program that assumes the dimensions run the other way round reads number 3,440 instead and gets 2, which is the Other row for Ballybrittas in County Laois. A program that is off by one gets 99, the broadband count for Drumkeen down the road. None of those mistakes raises an error. Every one of them was run against the real file while writing this page.
-
-Facts last verified 19 September 2026. Teaching is online; no Letterkenny branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Letterkenny
 
 ## Courses Letterkenny learners begin with
 
 Choose on age and interest, and let the opening lesson with that course's teacher confirm where the learner should start.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Block coding with lists, where item three and item four are different things and it matters which you pick.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Python lists and indexes from the start, including why counting begins at zero.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 14 to 18): Real data files, nested structures and the index arithmetic that turns a flat list back into a table.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): For adults pulling data from APIs, where a quietly wrong index is worse than a crash.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlock coding with lists, where item three and item four are different things and it matters which you pick.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsPython lists and indexes from the start, including why counting begins at zero.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 14 to 18Python for TeensReal data files, nested structures and the index arithmetic that turns a flat list back into a table.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CourseFor adults pulling data from APIs, where a quietly wrong index is worse than a crash.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## A table is one long list
 
 How the CSO internet access table is actually stored, and what three ways of reading it return for Letterkenny. Every line was run against the downloaded file on 19 September 2026.
 
-**Finding one number in a flat array**
-
 | Step or mistake | What happens |
-|---|---|
+| --- | --- |
 | The file's own description of its shape | Statistic 1, census year 1, internet answer 5, area label 868: 4,340 values in one array |
 | Which dimension varies fastest | The area label, so neighbouring positions hold neighbouring towns for the same answer |
 | Correct position for Letterkenny broadband | Answer 0 times 868, plus town 688, gives position 688: the value is 6,875 |
@@ -69,14 +55,14 @@ The same trap runs the other way. The HSE prints Letterkenny University Hospital
 
 The project is a reader for the CSO file format written from scratch, no library. The learner loads the JSON, prints each dimension and its size, writes a function that turns a set of positions into one flat index, and checks it by fetching Letterkenny's five internet answers and confirming they sum to the published total of 8,431. Then they break it on purpose, swapping two dimensions, and write down how quickly they would have noticed if they had not been looking. The last line of the exercise is a single assertion against a known value, kept in the code forever after.
 
+Letterkenny in the town tables
+
 ## The numbers at position 688, and around it
 
 Published for the built-up area Letterkenny, Co Donegal, in the Census 2022 small area tables.
 
-**Letterkenny, Census 2022**
-
 | Measured | Count |
-|---|---|
+| --- | --- |
 | Usual residents | 22,252 |
 | Households | 8,431 |
 | Households reporting broadband | 6,875 |
@@ -96,16 +82,18 @@ Of 6,068 journeys to school, college or childcare, 3,069 are as a car passenger,
 
 The five answers that sit at positions 688, 1,556 and onwards in the file: 6,875 broadband, 658 no internet, 773 not stated and 125 another connection, totalling 8,431 households.
 
-**The hospital** The HSE lists Letterkenny University Hospital at Kilmacrennan Road, Letterkenny, Donegal, F92 AE81. We name it here as the town's largest public institution with a published address, and because its printed phone number carries the leading zero that the project warns about. We have no connection with the hospital.
+The hospital
+
+The HSE lists Letterkenny University Hospital at Kilmacrennan Road, Letterkenny, Donegal, F92 AE81. We name it here as the town's largest public institution with a published address, and because its printed phone number carries the leading zero that the project warns about. We have no connection with the hospital.
+
+Reading the file honestly
 
 ## Four checks before trusting any value
 
 What the Letterkenny exercise turns into, as a routine for any data file a learner loads.
 
-**Checks that catch indexing mistakes**
-
 | Check | Applied to this file |
-|---|---|
+| --- | --- |
 | Does the array length equal the product of the dimension sizes? | Yes: 1 times 1 times 5 times 868 is 4,340, the length of the value array |
 | Do the parts add up to the published total? | Yes: 6,875 plus 658 plus 773 plus 125 is 8,431, the Total answer for Letterkenny |
 | Does a value you already know come back unchanged? | Yes: position 688 returns 6,875, which matches the town profile |
@@ -123,7 +111,11 @@ The file starts with Carlingford, Co Louth, not with any alphabetical or populat
 
 Each of the four checks above is one line of code. Together they would have caught every mistake in the project table before a single wrong number reached a report.
 
-**The theatre** An Grianan Theatre describes itself on its own site as an arts, music and comedy venue in Letterkenny, Donegal. We have no connection with it, and none of its prices appears here.
+The theatre
+
+An Grianan Theatre describes itself on its own site as an arts, music and comedy venue in Letterkenny, Donegal. We have no connection with it, and none of its prices appears here.
+
+Learning in Letterkenny
 
 ## How the lessons run from here
 
@@ -143,14 +135,37 @@ Plenty start with no background at all, and 2,574 working residents here already
 
 The HSE and An Grianan Theatre are named from their own published pages, and neither has any connection with us, nor does Donegal County Council. Census counts are Central Statistics Office figures for this built-up area, printed as published. The array positions, the wrong-index results and the leading-zero example were all produced by running code on 19 September 2026 against the files and pages quoted, and the page reports what the code returned rather than what it ought to have returned.
 
+Learning ladder
+
 ## From a list of items to a table in a file
 
 Treat the ages as a starting guess; the opening lesson decides.
 
-- **Ages 6 to 10: First, second, third** Lists and positions in block code, and why picking the right item matters. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Counting from zero** Python lists and indexes, off-by-one errors, and how to test for them. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Reading real formats** JSON, nested data and index arithmetic, with checks against known values. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Data pipelines at work** Pulling data from APIs and files and proving the right number came out. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### First, second, third
+
+Lists and positions in block code, and why picking the right item matters.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Counting from zero
+
+Python lists and indexes, off-by-one errors, and how to test for them.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Reading real formats
+
+JSON, nested data and index arithmetic, with checks against known values.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Data pipelines at work
+
+Pulling data from APIs and files and proving the right number came out.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## Ask a model to parse this file
 
@@ -162,30 +177,139 @@ A learner who has built the reader by hand checks three things in any generated 
 
 Generating a parser takes seconds. Knowing how it could be quietly wrong is the part a person has to supply. The longer argument is in [why coding is worth a young person's time](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## The practical arrangements
 
 What a Letterkenny household needs to know.
 
-- **Live every time** A teacher on the call for the whole lesson, working from what is on the learner's screen.
-- **Groups at one level** Fifteen to twenty learners at the same stage, joining from Letterkenny, the rest of Ireland and abroad.
-- **Most weeks, twice** Roughly eight lessons a month at the hour chosen when the course begins.
-- **The school calendar** Holidays, mid-terms and exam weeks are allowed for when the timetable is set.
-- **Equipment** A desktop or laptop, a microphone with speakers or a headset, and broadband able to carry an hour of video.
-- **One to one** Where a learner's level has no matching group at a sensible hour, the course goes private.
+### Live every time
 
-**Stored as written** A learner's contact number goes into our records as text, leading zero and all, for the same reason the project gives. It is a small thing and exactly the kind that breaks otherwise.
+A teacher on the call for the whole lesson, working from what is on the learner's screen.
+
+### Groups at one level
+
+Fifteen to twenty learners at the same stage, joining from Letterkenny, the rest of Ireland and abroad.
+
+### Most weeks, twice
+
+Roughly eight lessons a month at the hour chosen when the course begins.
+
+### The school calendar
+
+Holidays, mid-terms and exam weeks are allowed for when the timetable is set.
+
+### Equipment
+
+A desktop or laptop, a microphone with speakers or a headset, and broadband able to carry an hour of video.
+
+### One to one
+
+Where a learner's level has no matching group at a sensible hour, the course goes private.
+
+Stored as written
+
+A learner's contact number goes into our records as text, leading zero and all, for the same reason the project gives. It is a small thing and exactly the kind that breaks otherwise.
+
+Fees
 
 ## Letterkenny class fees
 
 The whole price list.
 
-- First class: USD 0. An opening lesson, taught in full and assessed, at no charge.
-- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, about eight live lessons.
-- Private tuition: USD 150 a month. A month of private lessons at the same weekly frequency.
+First class**USD 0**
+
+An opening lesson, taught in full and assessed, at no charge.
+
+Group tuition**USD 100**
+
+A month in a group of fifteen to twenty at one level, about eight live lessons.
+
+Private tuition**USD 150**
+
+A month of private lessons at the same weekly frequency.
 
 The monthly price is set in US dollars and is the same for every household outside India, so there is no euro figure to compare it with. Payment follows the decision, never the other way round: course and hour first, invoice second, and the pricing page explains the awkward weeks, from school holidays to a missed lesson or a change of format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20arrange%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Letterkenny.)Reviews
+
+## Google reviews from six of our families, as posted
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Letterkenny lesson
+
+Say how old the learner is and what they are into. The first hour is shaped around that and might finish with a game, a working program, or a file read correctly on the second attempt.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Letterkenny one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20arrange%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Letterkenny.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Letterkenny coding class questions
+
+What people in Letterkenny ask before they book.
 
 ### How many people live in Letterkenny?
 
@@ -227,10 +351,14 @@ The first lesson is free. After that a shared place costs USD 100 a month and br
 
 Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
+Explore Ireland
+
 ## Around Letterkenny
 
 The county is covered on the [County Donegal](/coding-classes-in-county-donegal) page, part of the three-county [Ulster](/coding-and-ai-classes-in-ulster) page for Cavan, Donegal and Monaghan, with [County Sligo](/coding-classes-in-county-sligo) to the south. To see how we compare with other online providers, [start here](/best-online-coding-classes-ireland), and the [Ireland hub](/coding-classes-in-ireland) gathers every town and county page.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20arrange%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Letterkenny.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-letterkenny](https://learn.modernagecoders.com/best-coding-class-in-letterkenny#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-letterkenny*

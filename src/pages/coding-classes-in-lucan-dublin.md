@@ -4,46 +4,32 @@ description: "Coding, Python, AI and data lessons for Lucan learners aged 6 to 6
 canonical: https://learn.modernagecoders.com/coding-classes-in-lucan-dublin
 source: src/pages/coding-classes-in-lucan-dublin.html
 ---
-> A Lucan learner joins each lesson on video with a live teacher, as part of a small group at one stage or on their own, normally on two days a week, and any age from six to sixty-seven is welcome. Nothing is taught on site anywhere in Lucan or elsewhere. The first lesson costs nothing, and after it a group place is USD 100 a month while one-to-one lessons are USD 150 a month.
+> Coding, Python, AI and data lessons for Lucan learners aged 6 to 67, taught live online in small same-level groups or one to one. Your first lesson is free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [South Dublin](/coding-classes-in-south-dublin) / Lucan
-
-Lucan, County Dublin / Live online
-
-# Coding classes in Lucan
-
-**What are the best coding classes in Lucan?** A Lucan learner joins each lesson on video with a live teacher, as part of a small group at one stage or on their own, normally on two days a week, and any age from six to sixty-seven is welcome. Nothing is taught on site anywhere in Lucan or elsewhere. The first lesson costs nothing, and after it a group place is USD 100 a month while one-to-one lessons are USD 150 a month.
-
-Met Éireann ran a rain gauge called Lucan G.S. from 1949 to 1973, and every day of its record comes with two numbers: the rainfall, and a code saying how that rainfall was obtained. Most days are marked satisfactory. Some are marked trace, which means rain fell but too little to measure. And some are marked estimated. In 1964, 212 of the year's 366 days were estimates, and those days account for 484.9 of the year's 670.9 millimetres. A learner who reads only the rainfall column is mostly reading someone's estimates without knowing it. This page shows how to read the flag first, and how to write code that reports what was measured separately from what was filled in.
-
-Facts last verified 19 September 2026. Teaching is online; no Lucan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentStarting courses in Lucan
 
 ## Four ways into coding for Lucan
 
 Pick the band that fits the learner; in the free opening lesson the teacher either confirms the course or suggests a better one.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Blocks with labels: sorting cards into piles by the colour on the back before counting them.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Python dictionaries and counting, so each number is kept together with the label that explains it.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 18): Real weather records in Python: quality codes, filtering, and every result computed two ways.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (College and adult): For adults whose reports mix measured and estimated figures and who need to say which is which.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlocks with labels: sorting cards into piles by the colour on the back before counting them.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsPython dictionaries and counting, so each number is kept together with the label that explains it.See the syllabus](/courses/python-ai-kids-masterclass)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 18Data Science for TeensReal weather records in Python: quality codes, filtering, and every result computed two ways.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)College and adultData Analysis CourseFor adults whose reports mix measured and estimated figures and who need to say which is which.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## One rain gauge, three kinds of zero and a year that is mostly estimates
 
 Daily rainfall at Met Éireann's closed Lucan G.S. station for the sixteen complete years 1950 to 1965, 5,844 days, split by the indicator code published with each value.
 
-**Lucan G.S. daily rainfall 1950 to 1965, by quality code**
-
 | Code | Days | Dry (0 mm) | Median |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Satisfactory | 4,255 | 38.8% | 0.5 mm |
 | Estimated | 848 | 21.0% | 1.2 mm |
 | Trace | 740 | 100% | 0 mm |
@@ -79,14 +65,14 @@ Met Éireann lists three closed Lucan stations: Lucan G.S. at 29 metres, Lucan (
 
 Fingal County Council's 2026 counter tables for St Catherine's Park show 0 for July to December, months that had not happened when the table was last filled. The pedestrian count to June is 26,367. A zero is only as honest as its label.
 
+Lucan, named
+
 ## Lucan in the words of the people who run its places
 
 Each fact below is published by the body responsible, on its own site; the K78 eircodes come from those same pages.
 
-**Named places in Lucan**
-
 | Place | What its own site says |
-|---|---|
+| --- | --- |
 | Adamstown station | Adamstown, Co Dublin, K78 EF64 |
 | Lucan Community College | Esker Drive, Lucan, K78 TF67 |
 | Lucan Library | Lucan Shopping Centre, Newcastle Road, K78 V295 |
@@ -104,7 +90,11 @@ The same description notes that the Liffey Descent, a 25-mile canoe race, passes
 
 South Dublin County Council runs Lucan Library as a full-time branch in the shopping centre on Newcastle Road, open until 8pm Monday to Thursday and until 4.30pm on Friday and Saturday.
 
-**What this page does not claim** No population is printed for Lucan, because the page uses only facts that named bodies publish about the place itself. The rainfall figures describe one closed gauge in the past, not Lucan's weather today, and the reasons behind the estimated days are not given in the data, so none are suggested here.
+What this page does not claim
+
+No population is printed for Lucan, because the page uses only facts that named bodies publish about the place itself. The rainfall figures describe one closed gauge in the past, not Lucan's weather today, and the reasons behind the estimated days are not given in the data, so none are suggested here.
+
+Learning here
 
 ## How the weeks run for Lucan learners
 
@@ -124,14 +114,37 @@ Adults can arrive knowing nothing about code; the opening lesson settles the cou
 
 Rainfall values and indicator codes are Met Éireann's, as published for its closed Lucan stations; the counts, medians and dry spells are our own calculations, run on 19 September 2026. The station, the college, the library and the park are described from the websites of the bodies that run them.
 
+Learning ladder
+
 ## From sorting by label to reporting by flag
 
 Use the ages as a starting guess; the teacher confirms the real level in lesson one.
 
-- **Ages 6 to 10: Labels first** Block-coded sorting games where each item carries a label that decides its pile. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Keeping pairs together** Python that stores each value with its code and counts by code. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Flags and streaks** Quality codes, filtering and a dry-spell counter written from a published definition. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Measured or estimated** Reports that show which figures were measured and which were filled in, with results both ways. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### Labels first
+
+Block-coded sorting games where each item carries a label that decides its pile.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Keeping pairs together
+
+Python that stores each value with its code and counts by code.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Flags and streaks
+
+Quality codes, filtering and a dry-spell counter written from a published definition.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Measured or estimated
+
+Reports that show which figures were measured and which were filled in, with results both ways.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## Ask an assistant how dry 1964 was in Lucan
 
@@ -143,30 +156,139 @@ After building the flag-aware version, the learner asks the assistant what the i
 
 Counting zeros takes one line. Knowing which zeros were measured is the skill. The longer argument is in [why learning to code is still worth the effort](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How lessons run for Lucan
 
 The arrangement, briefly.
 
-- **Taught live** The teacher is there for the whole lesson, working through each learner's code as it develops.
-- **Classes by level** Fifteen to twenty learners at a shared stage, some in Lucan, some elsewhere in Ireland and some further afield.
-- **Regular days** Roughly eight lessons a month, on the same two days each week once agreed.
-- **School calendar** Holidays, mid-terms and exam weeks are accounted for from the start of the course.
-- **What is needed** A computer with a keyboard, a microphone and headphones or speakers, and broadband that handles video.
-- **Individual lessons** One-to-one teaching for learners far ahead of a group, wanting a gentler pace, or free only at unusual hours.
+### Taught live
 
-**No local premises** We have no classroom in Lucan, in South Dublin or anywhere in the country. Each lesson takes place on video and is identical wherever the learner joins from.
+The teacher is there for the whole lesson, working through each learner's code as it develops.
+
+### Classes by level
+
+Fifteen to twenty learners at a shared stage, some in Lucan, some elsewhere in Ireland and some further afield.
+
+### Regular days
+
+Roughly eight lessons a month, on the same two days each week once agreed.
+
+### School calendar
+
+Holidays, mid-terms and exam weeks are accounted for from the start of the course.
+
+### What is needed
+
+A computer with a keyboard, a microphone and headphones or speakers, and broadband that handles video.
+
+### Individual lessons
+
+One-to-one teaching for learners far ahead of a group, wanting a gentler pace, or free only at unusual hours.
+
+No local premises
+
+We have no classroom in Lucan, in South Dublin or anywhere in the country. Each lesson takes place on video and is identical wherever the learner joins from.
+
+Fees
 
 ## The fees for Lucan learners
 
 Short and complete.
 
-- First class: USD 0. The first lesson, with its level check, free.
-- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, around eight live lessons.
-- Private tuition: USD 150 a month. A month of one-to-one lessons on the same timetable.
+First class**USD 0**
+
+The first lesson, with its level check, free.
+
+Group tuition**USD 100**
+
+A month in a group of fifteen to twenty at one level, around eight live lessons.
+
+Private tuition**USD 150**
+
+A month of one-to-one lessons on the same timetable.
 
 Every family outside India pays a single monthly fee in US dollars. Taking the free lesson commits nobody, charging begins with the course itself, and the pricing page covers holidays, missed lessons and moving between group and one-to-one teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Lucan.)Reviews
+
+## Google reviews from six families, unchanged
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free first lesson in Lucan
+
+Share the learner's age and what they enjoy, and the first hour will be planned to match. It may end in a game, a first working program, or a table where every number carries its own label.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Lucan one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Lucan.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Lucan coding class questions
+
+Questions Lucan families often ask.
 
 ### Do you have a classroom in Lucan?
 
@@ -204,10 +326,14 @@ The first lesson is free. After that a group place costs USD 100 a month for abo
 
 Fifteen to twenty learners, matched on level, pace and goals rather than on age or address. If nothing fits at a workable time, lessons are one to one.
 
+Explore Ireland
+
 ## Around Lucan and the Liffey valley
 
 The [South Dublin](/coding-classes-in-south-dublin) page covers the council area Lucan belongs to, and across the river and the county line are [Leixlip](/best-coding-class-in-leixlip) and [Celbridge](/best-coding-class-in-celbridge). Dublin 15 has its own pages for [Blanchardstown](/coding-classes-in-blanchardstown-dublin) and [Castleknock](/coding-classes-in-castleknock-dublin), and the [Ireland hub](/coding-classes-in-ireland) connects them all.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Lucan.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-lucan-dublin](https://learn.modernagecoders.com/coding-classes-in-lucan-dublin#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-lucan-dublin*

@@ -4,46 +4,32 @@ description: "Live online coding, Python and AI classes in Weesp and Driemond fo
 canonical: https://learn.modernagecoders.com/coding-classes-in-weesp
 source: src/pages/coding-classes-in-weesp.html
 ---
-> Coding classes in Weesp reach a town that received city rights on 20 May 1355 and stopped being an independent municipality on 24 March 2022. It is now inside the municipality of Amsterdam, and it is not a stadsdeel; it forms a governing area with Driemond, with a status aparte and eleven directly elected members. It sits enclosed between a canal, a motorway and the Vecht, and 55 percent of the homes in its centre are owner-occupied, which is unlike anything in the city proper. Modern Age Coders teaches live online in English in Weesp and Driemond, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
+> Live online coding, Python and AI classes in Weesp and Driemond for ages 6 to 67, taught in English by teachers in India. The first lesson is free.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Amsterdam](/coding-classes-in-amsterdam) / Weesp
-
-Weesp, Amsterdam / Live online
-
-# Coding classes in Weesp, which is part of Amsterdam by one test and not by five others
-
-**What are the best coding classes in Weesp?** Coding classes in Weesp reach a town that received city rights on 20 May 1355 and stopped being an independent municipality on 24 March 2022. It is now inside the municipality of Amsterdam, and it is not a stadsdeel; it forms a governing area with Driemond, with a status aparte and eleven directly elected members. It sits enclosed between a canal, a motorway and the Vecht, and 55 percent of the homes in its centre are owner-occupied, which is unlike anything in the city proper. Modern Age Coders teaches live online in English in Weesp and Driemond, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
-
-Is Weesp part of Amsterdam? Legally, since 24 March 2022, yes. It is also not a stadsdeel, it is not physically joined to the city, it has held a charter of its own since 1355, it is grouped for governance with a village rather than with any Amsterdam district, and it appears in none of Amsterdam's population figures before 2022. Six reasonable tests of belonging, one yes and five noes. Every one of those tests is the sort of thing that quietly becomes a filter in somebody's query, and they do not agree.
-
-Facts last verified 9 September 2026. Teaching is online; no Weesp branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Weesp
 
 ## Four courses for a small town with a big city attached to it on paper
 
 A groep 5 child near the Vecht who has outgrown dragging coloured blocks, a teenager in Weesp-Zuid who wants a site that works on a phone rather than a slideshow about one, a student who has met Python in one module and wants the rest of it, and an adult in Driemond who has to defend a number to somebody more senior every month: four doors, and the first hour of each is free.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Typed Python, drawings that take instructions and a first program that works out a rule, taught in English to the groep 5 to 8 child in either place.
-- [Frontend Development for Teens](/courses/frontend-development-masterclass-for-teens) (Ages 13 to 18): HTML, CSS and JavaScript carried until a real site behaves properly on a real phone, for the teenager who wants something other people can open.
-- [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) (College and adult): A model built, trained, tested and deliberately broken, for the student who would rather see the machinery than the demonstration.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (Adults): Cleaning, joining and knowing what a filter actually selected, for anybody whose work involves handing a figure to someone who will act on it.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsTyped Python, drawings that take instructions and a first program that works out a rule, taught in English to the groep 5 to 8 child in either place.See the syllabus](/courses/python-ai-kids-masterclass)[![Frontend Development for Teens course thumbnail](/images/frontend-teens.webp)Ages 13 to 18Frontend Development for TeensHTML, CSS and JavaScript carried until a real site behaves properly on a real phone, for the teenager who wants something other people can open.See the syllabus](/courses/frontend-development-masterclass-for-teens)[![AI and ML Masterclass course thumbnail](/images/ai-ml-college.webp)College and adultAI and ML MasterclassA model built, trained, tested and deliberately broken, for the student who would rather see the machinery than the demonstration.See the syllabus](/courses/ai-ml-masterclass-complete-college)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)AdultsData Analysis CourseCleaning, joining and knowing what a filter actually selected, for anybody whose work involves handing a figure to someone who will act on it.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Weesp today
 
 ## A town of six hundred and seventy years, inside a city for four of them
 
 Willem van Beieren, count of Holland, granted Weesp city rights on 20 May 1355. On 24 March 2022 it ceased to be an independent municipality and became part of Amsterdam. The last population published for it as a municipality was 20,766, for 1 January 2022, and after that date its residents are counted inside Amsterdam. Whether that makes it part of the city depends entirely on which question you are asking.
 
-**Six reasonable tests of being part of Amsterdam**
-
 | The test | A street in the Jordaan | Weesp |
-|---|---|---|
+| --- | --- | --- |
 | Inside the municipality of Amsterdam | yes | yes, since 24 March 2022 |
 | Governed as one of the stadsdelen | yes | no, a governing area with a status aparte, shared with Driemond |
 | Physically continuous with the city | yes | no, enclosed between the Amsterdam-Rijnkanaal, the A1 and the Vecht |
@@ -52,6 +38,8 @@ Willem van Beieren, count of Holland, granted Weesp city rights on 20 May 1355. 
 | Counted in Amsterdam figures before 2022 | yes | no, it was a municipality in its own right |
 
 The governing body is a bestuurscommissie of eleven directly elected members. The town was, and to a degree still is, an industrial place: Coenraad Johannes van Houten moved his cocoa factory here from Leiden in 1851, and one of the six buurten of its centre is still called the Bedrijventerrein Van Houten. There is a Torenfort. None of that is Amsterdam history, and all of it is now inside Amsterdam.
+
+Where the learners are
 
 ## A town centre and a village, and a housing pattern the city does not have
 
@@ -73,7 +61,11 @@ Owner-occupation is 55 percent in the Weesp centre and 62 percent in Driemond. A
 
 Weesp-Noordwest and Aetsveld with the Oostelijke Vechtoever are wijken of this area and carry no figures here, because none were read. The two wijken above are also not the old municipality: they hold 7,488 residents between them in 2026, against 20,766 for the municipality of Weesp in 2022, and Driemond was never part of that municipality at all. Those two numbers are not two points on one line and are never treated as such.
 
-**What the class asks for** A level, and nothing else. A learner in Dorp Driemond and a learner in the Herensingelkwartier work in the same group when they are at the same stage and in different groups when they are not. Whether their address counts as Amsterdam, on any of the six tests above, never comes up, because a live online class has no reason to care and no way to find out.
+What the class asks for
+
+A level, and nothing else. A learner in Dorp Driemond and a learner in the Herensingelkwartier work in the same group when they are at the same stage and in different groups when they are not. Whether their address counts as Amsterdam, on any of the six tests above, never comes up, because a live online class has no reason to care and no way to find out.
+
+Verified local facts
 
 ## Every figure, its source, its year, and one address that no longer exists
 
@@ -101,6 +93,8 @@ It does not compare the 20,766 residents of the old municipality with any figure
 
 Modern Age Coders has no connection to the bestuurscommissie, the city of Amsterdam or any school named here and claims none. The two-wijk total of 7,488, the tenure comparison across the nineteen Amsterdam wijken measured in this series and the six tests in the table above are this page adding and sorting published facts, and are labelled as such where they appear.
 
+Signature project
+
 ## Six tests of belonging, and only one of them says yes
 
 A category that everybody uses, a town that satisfies one of its criteria, and a filter that has been quietly choosing between them.
@@ -117,10 +111,8 @@ Weesp separates them. It is inside the municipality and outside the stadsdeel st
 
 Then go back to whatever selects Amsterdam in your data and find out which criterion it encoded. Usually it is the legal boundary, because that is the field that exists. Whether that is the one you meant depends on the question, and the moment somebody asks about travel time, or about local government, or about anything before 2022, it is the wrong one.
 
-**What a filter on Amsterdam actually returns**
-
 | If the filter means | Weesp is | The question it answers | The question it silently gets wrong |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | inside the municipal boundary | included | anything about local taxation or the register | anything about the built-up city |
 | one of the seven stadsdelen | excluded | anything about district governance | anything about who lives in the municipality |
 | physically part of the urban area | excluded | travel, catchment, infrastructure | anything legal or administrative |
@@ -131,14 +123,14 @@ Then go back to whatever selects Amsterdam in your data and find out which crite
 
 Every important word in a dataset is like this. An active customer might mean one who has bought recently, or logged in recently, or has an unexpired contract, or has not asked to leave, and for the overwhelming majority of customers all four are true together, which is why the definition is never written down and why four teams can each hold a different one without anybody noticing. An employee might mean somebody on payroll, in the HR system, holding a badge, or with an email address, and for almost everybody those coincide. Our region, the London office, a returning user, a completed order, a duplicate record: every one is a bundle. The bundle holds until an edge case arrives, and the edge case is always something like Weesp, a thing that has been sitting there for six hundred years quietly satisfying some of the criteria and not others. When that happens the argument that follows is never really about the edge case. It is about the fact that the category was never defined, and everybody discovers simultaneously that they had been assuming a different one of its components was the important one. The habit that prevents it is unglamorous and cheap. When a category carries weight, write its criteria down as separate fields, store them separately, and let each query name the one it means. Then the edge case is a row with an unusual pattern of flags rather than a meeting.
 
+Reliable pipeline
+
 ## Five habits for a category nobody has defined
 
 Active customers, employees, regions, duplicates, completed orders: all of them are bundles of criteria that agree until they do not. Practised on a town that answers one of six tests of belonging to the city it belongs to.
 
-**Turning a word into something a query can mean**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | List the tests | Write down every criterion somebody might have meant by the word | A definition that exists only in habit | A shared vocabulary before the argument |
 | Store them apart | Keep each criterion as its own field rather than one label | Four teams holding four definitions | Queries that can say which one they want |
 | Hunt for the disagreement | Look for the rows where the criteria do not all agree | An edge case discovered by a customer | The cases that will cause the argument, in advance |
@@ -159,14 +151,37 @@ A real category at work that two teams count differently. Adults nearly always f
 
 The town population, city rights, merger date, governing arrangement, physical setting and the Van Houten factory come from the entry for Weesp, with the population dated 1 January 2022. The wijk populations, households, ages, areas, densities, dwellings, values, tenure and incomes come from the national statistics office pages for Weesp Binnenstad and Zuid and for Driemond, with 2026 populations, 2025 household and housing figures, and incomes dated 2024 and 2023 respectively. The dissolved municipality address was observed on that same site. The two-wijk total of 7,488 and the tenure comparison across the wijken this series has measured are this page adding and sorting published figures.
 
+Learning ladder
+
 ## From what counts as a sandwich to a filter that names its own criterion
 
 The starting rung comes out of the free hour and what the learner can already do. Which side of any administrative line the address falls on is not asked.
 
-- **Ages 6 to 10: Is that a sandwich?** Children write the rules, then meet the things that break them. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 11 to 13: One word, several tests** Learners take a category apart into the separate questions hiding inside it. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 14 to 18: Filters that declare what they mean** Teenagers store criteria as separate fields and write queries that must choose one. [Frontend Development for Teens](/courses/frontend-development-masterclass-for-teens), [MySQL for Teens](/courses/mysql-mastery-for-teens)
-- **Ages 18 to 67: The category two teams count differently** Adults take a disputed definition at work and find the criteria nobody wrote down. [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### Is that a sandwich?
+
+Children write the rules, then meet the things that break them.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 11 to 13
+
+### One word, several tests
+
+Learners take a category apart into the separate questions hiding inside it.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 14 to 18
+
+### Filters that declare what they mean
+
+Teenagers store criteria as separate fields and write queries that must choose one.
+
+[Frontend Development for Teens](/courses/frontend-development-masterclass-for-teens)[MySQL for Teens](/courses/mysql-mastery-for-teens)Ages 18 to 67
+
+### The category two teams count differently
+
+Adults take a disputed definition at work and find the criteria nobody wrote down.
+
+[AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## Ask an AI whether Weesp is in Amsterdam and it will answer. Why should a teenager here ask it to pick a test first?
 
@@ -178,30 +193,139 @@ So the learner practises making the criterion explicit before asking, and then b
 
 The case for a child in Weesp learning to code in 2026 is therefore nothing to do with municipal boundaries. It is that the words carrying the most weight in adult working life are almost never defined, that they hold up only because their criteria usually agree, and that living somewhere which passes one test out of six makes that impossible to overlook. The longer argument is in [whether coding is still worth a child's time in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for a town that is not on the metro
 
 Weesp has a station and a motorway and roughly nothing else connecting it to the city it belongs to. For a weekly class that matters more than any of the administrative questions on this page.
 
-- **The journey is the part that gets cancelled** A class in the centre of Amsterdam is a train each way on a winter evening, and it is the leg that fails first when a week gets busy. This one happens at the kitchen table, at an hour that repeats.
-- **Lessons in English, school words in Dutch** The teaching is English throughout. Groep, havo, vwo and profielkeuze are left alone, because those four are printed on the paperwork a child carries home and swapping them for English adds a step nobody needs.
-- **Nothing is charged for the first one** The teacher sets a real task, watches how it goes, and from that names a level and a course. A weekly hour is agreed at the end. No card details are taken and none are asked for.
-- **Fifteen to twenty learners, chosen by level** Groups are built from what people can do. In a town of this size that is the only way a specific level fills at all, and it is why the group is drawn from far beyond Weesp.
-- **The regio Noord holiday block** Two lessons a week, usually eight in a month. Noord-Holland sits in regio Noord for school holidays, so the weeks that will disappear are known well in advance and are built into the plan.
-- **Teaching from India, on a shifting offset** The teacher is ahead by three and a half hours for part of the year and four and a half for the rest, because the Dutch clock changes and the Indian one has not. The workable hours are the same either way.
+### The journey is the part that gets cancelled
 
-**A quarter of the town centre is sixty-five or over** 1,465 of the 5,810 residents of Weesp Binnenstad and Zuid are sixty-five or older, 25 percent, against 815 under fifteen. Driemond has 310 in each of those bands out of 1,678. A place with this shape has enough children to fill a school and nowhere near enough to fill a group of fifteen to twenty at one specific level in one specific subject, which is arithmetic and no reflection on anybody local. It also has a large number of adults with time, and the classes here run to sixty-seven.
+A class in the centre of Amsterdam is a train each way on a winter evening, and it is the leg that fails first when a week gets busy. This one happens at the kitchen table, at an hour that repeats.
+
+### Lessons in English, school words in Dutch
+
+The teaching is English throughout. Groep, havo, vwo and profielkeuze are left alone, because those four are printed on the paperwork a child carries home and swapping them for English adds a step nobody needs.
+
+### Nothing is charged for the first one
+
+The teacher sets a real task, watches how it goes, and from that names a level and a course. A weekly hour is agreed at the end. No card details are taken and none are asked for.
+
+### Fifteen to twenty learners, chosen by level
+
+Groups are built from what people can do. In a town of this size that is the only way a specific level fills at all, and it is why the group is drawn from far beyond Weesp.
+
+### The regio Noord holiday block
+
+Two lessons a week, usually eight in a month. Noord-Holland sits in regio Noord for school holidays, so the weeks that will disappear are known well in advance and are built into the plan.
+
+### Teaching from India, on a shifting offset
+
+The teacher is ahead by three and a half hours for part of the year and four and a half for the rest, because the Dutch clock changes and the Indian one has not. The workable hours are the same either way.
+
+A quarter of the town centre is sixty-five or over
+
+1,465 of the 5,810 residents of Weesp Binnenstad and Zuid are sixty-five or older, 25 percent, against 815 under fifteen. Driemond has 310 in each of those bands out of 1,678. A place with this shape has enough children to fill a school and nowhere near enough to fill a group of fifteen to twenty at one specific level in one specific subject, which is arithmetic and no reflection on anybody local. It also has a large number of adults with time, and the classes here run to sixty-seven.
+
+Fees
 
 ## The fee, in dollars, in Weesp and in Driemond
 
 Set out here instead of held back for a phone call.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 One international rate exists, quoted in dollars, and there is no euro edition, so an address in Dorp Driemond sees exactly what one on the Herensingel sees. Nothing is paid before the free lesson has fixed a course and an hour, and payment is arranged over WhatsApp afterwards. Pausing, changing plan and missing a week are described on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Weesp.)Reviews
+
+## Six Google reviews, exactly as the people who left them typed them
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us the level; the administrative status is not required
+
+The first task might be an argument about what counts as a sandwich, a filter that refuses to run until it is told which test it means, or a category at work that two teams have been counting differently for years.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Weesp one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Weesp.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Weesp coding class questions
+
+The town, its village, six tests of belonging, the teaching and the terms.
 
 ### Is Weesp part of Amsterdam or not?
 
@@ -243,10 +367,14 @@ The first lesson is free. After it, group tuition is USD 100 a month for two liv
 
 Fifteen to twenty, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
+Explore Amsterdam and beyond
+
 ## West into the city, and out to the province
 
 West of here, past Diemen, the city proper begins. [Amsterdam-Zuidoost](/coding-classes-in-amsterdam-zuidoost) is the nearest of the seven stadsdelen and its page finds cheaper homes beside better-off residents; [Amsterdam-Oost](/coding-classes-in-amsterdam-oost) lies beyond it, and [Amsterdam-Centrum](/coding-classes-in-amsterdam-centrum) further west again. The city page, [coding classes in Amsterdam](/coding-classes-in-amsterdam), carries the picture for all eight areas, and the whole city sits inside [Noord-Holland](/coding-classes-in-noord-holland). Everything descends from the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner who wants trained models rather than running programs should begin at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Take this to WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Weesp.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-weesp](https://learn.modernagecoders.com/coding-classes-in-weesp#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-weesp*

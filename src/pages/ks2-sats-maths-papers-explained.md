@@ -6,10 +6,6 @@ source: src/pages/ks2-sats-maths-papers-explained.html
 ---
 > Year 6 SATs maths explained: Paper 1 arithmetic and Papers 2 and 3 reasoning, marks and timings, the May 2027 dates, and what a scaled score of 100 means.
 
-# KS2 SATs maths papers: arithmetic, reasoning and the scaled score
-
-**The short answer.** Year 6 SATs maths is three papers: Paper 1 arithmetic (40 marks, 30 minutes) and Papers 2 and 3 reasoning (35 marks and 40 minutes each). Raw marks out of 110 are converted to a scaled score from 80 to 120, and 100 or more means the expected standard. In 2027 the papers are on 12 and 13 May.
-
 Courses for Year 6
 
 ## Arithmetic that is fast and reasoning that is calm.

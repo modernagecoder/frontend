@@ -4,46 +4,32 @@ description: "Live online coding, Python and maths classes across Moray, from El
 canonical: https://learn.modernagecoders.com/coding-classes-in-moray
 source: src/pages/coding-classes-in-moray.html
 ---
-> Moray had about 93,400 residents in roughly 43,100 households at the 2022 census, spread thinly at 41.7 people per square kilometre. Elgin is the main town, with Forres, Buckie and Lossiemouth next and smaller places such as Keith, Fochabers and Dufftown. Our teachers in India give every lesson live over video, and a free first session places each learner, from P1 to S6 or beyond school. Anyone from 6 to 67 can study coding, Python or maths here, either one-to-one or in a group of fifteen to twenty. The Moray project begins with a lighthouse inscription near Lossiemouth. Following the free lesson, groups cost USD 100 a month and one-to-one lessons USD 150 a month.
+> Live online coding, Python and maths classes across Moray, from Elgin, Forres and Buckie to Lossiemouth, Keith, Fochabers, Burghead and Dufftown.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / Moray
-
-Moray / Live online
-
-# Coding classes in Moray
-
-**What are the best coding classes in Moray?** Moray had about 93,400 residents in roughly 43,100 households at the 2022 census, spread thinly at 41.7 people per square kilometre. Elgin is the main town, with Forres, Buckie and Lossiemouth next and smaller places such as Keith, Fochabers and Dufftown. Our teachers in India give every lesson live over video, and a free first session places each learner, from P1 to S6 or beyond school. Anyone from 6 to 67 can study coding, Python or maths here, either one-to-one or in a group of fifteen to twenty. The Moray project begins with a lighthouse inscription near Lossiemouth. Following the free lesson, groups cost USD 100 a month and one-to-one lessons USD 150 a month.
-
-Near Lossiemouth, Historic Environment Scotland lists the Covesea Skerries Lighthouse at Category A: a tall circular tower by the engineer Alan Stevenson, dated 1844, with Egyptian-style keepers' cottages. The listing transcribes the inscription over the entrance, which ends with a date in Roman numerals, and the characters it gives are MDLCC XL1V. That is not a standard Roman numeral, and it contains a digit 1 where a letter I would be expected. We have not seen the stone, so we cannot say what is carved there. But the transcription makes a perfect test for a program. Feed it to a careless parser and it cheerfully prints a date almost 150 years out. This page's project builds a Roman numeral reader in Python that knows when to refuse.
-
-Facts last verified 26 September 2026. Teaching is online; no Moray branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Moray
 
 ## Common first courses in Moray
 
 A six-year-old in Buckie, a P7 in Forres who likes puzzles, an S3 in Elgin ready for proper Python, and an adult in Lossiemouth cleaning up data at work. These are their usual starting courses, each after a free lesson.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 12): Block coding with number puzzles, codes and games that check the player's answers.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 9 to 13): A first typed language, including programs that read and check what people type.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 12 to 18): Complete Python for teenagers, with strings, validation and testing done properly.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Adults): Python from zero for adults, including cleaning and checking messy real-world data.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 12Coding for KidsBlock coding with number puzzles, codes and games that check the player's answers.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 9 to 13Python and AI for KidsA first typed language, including programs that read and check what people type.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 12 to 18Python for TeensComplete Python for teenagers, with strings, validation and testing done properly.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)AdultsPython MasterclassPython from zero for adults, including cleaning and checking messy real-world data.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Moray in numbers
 
 ## About 93,400 people across Moray
 
 Totals for the council come from the rounded first results of the 2022 census, published by National Records of Scotland. Town sizes are NRS estimates for mid-2020.
 
-**Moray localities above 1,500 people, NRS mid-2020 estimates**
-
 | Locality | Residents | Locality | Residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Elgin | 25,040 | Burghead | 1,840 |
 | Forres | 9,900 | Lhanbryde | 1,830 |
 | Buckie | 9,010 | Fochabers | 1,770 |
@@ -56,16 +42,16 @@ At 41.7 residents per square kilometre, Moray is more thinly settled than Scotla
 
 See [Aberdeenshire](/coding-classes-in-aberdeenshire) and [the Highlands](/coding-classes-in-highland). For exam support: [National 5 Computing Science](/national-5-computing-science-help) and [Higher Computing Science](/higher-computing-science-help).
 
+The Moray project
+
 ## A parser that knows when to say no
 
 Seven letters, a handful of rules, and a date that should not come out as 1695.
 
 Roman numerals use seven letters, I, V, X, L, C, D and M, worth 1, 5, 10, 50, 100, 500 and 1,000. Most of the time you add them up, but a smaller value placed before a larger one is subtracted, as in IV for 4. The learner's first program does exactly that and nothing more: it skips any character it does not recognise, then walks along the letters, adding or subtracting. It is short, and it is dangerously polite, because it never refuses an input.
 
-**Our parsers on the listing's transcription and friends, 26 September 2026**
-
 | Input | Naive parser says | Strict validator says |
-|---|---|---|
+| --- | --- | --- |
 | MDLCC XL1V (as transcribed) | 1695 | Not a valid numeral |
 | MDLCCXLIV (1 read as I) | 1694 | Not a valid numeral |
 | MDCCCXLIV (1844 written the standard way) | 1844 | Valid |
@@ -93,14 +79,14 @@ Write the strict validator as a regular expression, test every number to 3,999, 
 
 We are using the listing's typed transcription as test data. We have not seen the carved stone, and the characters on it may well differ from the transcription. Nothing here says the inscription itself is wrong.
 
+Why Covesea Skerries
+
 ## A Stevenson lighthouse from 1844
 
 What Historic Environment Scotland records about it.
 
-**Covesea Skerries Lighthouse, Keepers' Cottages and Steading, HES listing LB37605**
-
 | Listing detail | What it records |
-|---|---|
+| --- | --- |
 | Category | A, listed in 1971 |
 | Engineer and date | Alan Stevenson, engineer; James Smith, contractor; dated 1844 |
 | Tower | Tall circular 7-storey lighthouse tower |
@@ -112,14 +98,37 @@ Every form on the internet faces the same question as the Roman numeral parser: 
 
 We have no link with Historic Environment Scotland or Moray Council. The listing and its transcription are theirs; the parsers, tests and any mistakes are ours.
 
+Stages
+
 ## From number puzzles to validators
 
 Stages are guides only; the free lesson settles the starting point.
 
-- **P1 to P4: Puzzles and codes** Block coding with number games, secret codes and answer checking. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **P5 to S2: Reading input** Typed Python that reads what users type and handles mistakes. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **S3 to S6: Strings and testing** Parsing, patterns and systematic testing beside National 5, Higher and Advanced Higher Computing Science. [Python for Teens](/courses/python-complete-masterclass-teens), [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)
-- **Adults: Clean data** Python for adults who need to check and tidy real data. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+P1 to P4
+
+### Puzzles and codes
+
+Block coding with number games, secret codes and answer checking.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)P5 to S2
+
+### Reading input
+
+Typed Python that reads what users type and handles mistakes.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)S3 to S6
+
+### Strings and testing
+
+Parsing, patterns and systematic testing beside National 5, Higher and Advanced Higher Computing Science.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)Adults
+
+### Clean data
+
+Python for adults who need to check and tidy real data.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)AI and messy input
 
 ## An AI will read almost anything. Will it tell you when it should not?
 
@@ -131,30 +140,139 @@ A Moray learner who has written a strict validator knows that refusing bad input
 
 That is why a Moray teenager should still learn to code in 2026: to build programs that know the difference between an answer and a guess. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Practical details
+
 ## Lessons from Elgin to Dufftown, online
 
 With towns spread across the county, online classes save the evening journey.
 
-- **Typing, not watching** Learners write every line themselves while the teacher follows the shared screen.
-- **Scottish stages** We work in P6, S3, National 5, Higher and Advanced Higher, as Moray schools do, in English.
-- **A free first session** A real lesson with no charge, followed by a straight recommendation.
-- **Stage-matched groups** Fifteen to twenty learners at one stage, often from several countries.
-- **Breaks for holidays** Twice a week in term; nothing during school holidays.
-- **Fixed in UK time** Your slot keeps its UK time when the clocks change; teachers in India time adapt instead.
+### Typing, not watching
 
-**Why not group by town?** Five learners at one stage, free at the same hour, rarely live in one Moray town. Grouping by stage across a wider pool finds a real class for a pupil in Hopeman or Lhanbryde.
+Learners write every line themselves while the teacher follows the shared screen.
+
+### Scottish stages
+
+We work in P6, S3, National 5, Higher and Advanced Higher, as Moray schools do, in English.
+
+### A free first session
+
+A real lesson with no charge, followed by a straight recommendation.
+
+### Stage-matched groups
+
+Fifteen to twenty learners at one stage, often from several countries.
+
+### Breaks for holidays
+
+Twice a week in term; nothing during school holidays.
+
+### Fixed in UK time
+
+Your slot keeps its UK time when the clocks change; teachers in India time adapt instead.
+
+Why not group by town?
+
+Five learners at one stage, free at the same hour, rarely live in one Moray town. Grouping by stage across a wider pool finds a real class for a pupil in Hopeman or Lhanbryde.
+
+Fees
 
 ## Fees in Moray
 
 Buckie or Burghead, the fee is identical, and the same everywhere we teach outside India.
 
-- First class: USD 0. A complete free lesson, then a clear suggestion.
-- Group tuition: USD 100 a month. About eight lessons a month with fifteen to twenty learners at one stage.
-- Private tuition: USD 150 a month. About eight lessons a month with a teacher of your own.
+First class**USD 0**
+
+A complete free lesson, then a clear suggestion.
+
+Group tuition**USD 100**
+
+About eight lessons a month with fifteen to twenty learners at one stage.
+
+Private tuition**USD 150**
+
+About eight lessons a month with a teacher of your own.
 
 Our prices are in US dollars, and we have no sterling price list. Charges begin only once the free lesson has fixed a course and a weekly time; the pricing page details holidays, missed lessons and moving between formats.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Moray%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Reviews
+
+## Reviews from Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Moray lesson
+
+Say who is learning, their age or S stage, and a favourite interest. The first lesson could be a Scratch game, a Python program, or the Roman numeral reader on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Moray one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Moray%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Moray questions
+
+Moray in figures, the lighthouse project and the practicalities.
 
 ### How many people live in Moray?
 
@@ -196,10 +314,14 @@ The first lesson is free; afterwards USD 100 a month for a group or USD 150 a mo
 
 No, we pause. Tell us your school's holiday dates and we work around them.
 
+Related pages
+
 ## Beyond Moray
 
 Try [Aberdeenshire](/coding-classes-in-aberdeenshire), [the Highlands](/coding-classes-in-highland) and [Inverness](/best-coding-class-in-inverness), or every council on the [Scotland](/coding-and-ai-classes-in-scotland) page. The [UK hub](/coding-classes-in-united-kingdom) covers the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Contact us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Moray%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-moray](https://learn.modernagecoders.com/coding-classes-in-moray#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-moray*

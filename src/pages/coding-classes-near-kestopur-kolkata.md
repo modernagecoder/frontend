@@ -12,7 +12,7 @@ LIVE ONLINE · CODING & MATHS · KESTOPUR, KOLKATA
 
 Modern Age Coders runs premium, 100% live online coding and mathematics classes for families across Kestopur, Krishnapur, Prafulla Kanan and the New Town fringe. Small live batches are taught in real time by full-time software engineers and maths graduates, never pre-recorded videos. We cover ICSE Java/BlueJ, CBSE Python, AI/ML and school maths, project-based throughout, with no Kestopur Bridge or canal crossing. Book a free live demo class, no commitment.
 
-100% live, never recordedMax 15-20 per batchEngineers & maths graduatesFrom ₹1,499/mo6-8Max students per live batch~90 minBridge + VIP Road commute saved1-on-1Personalised option available0Payment to book your demo[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)AT A GLANCE
+100% live, never recordedMax 20 per batchEngineers & maths graduatesFrom ₹1,499/mo15-20Max students per live batch~90 minBridge + VIP Road commute saved1-on-1Personalised option available0Payment to book your demo[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)AT A GLANCE
 
 ## The essentials, on one screen
 

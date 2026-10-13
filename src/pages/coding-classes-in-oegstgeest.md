@@ -4,37 +4,25 @@ description: "Live online coding, Python, AI and app classes for Oegstgeest, age
 canonical: https://learn.modernagecoders.com/coding-classes-in-oegstgeest
 source: src/pages/coding-classes-in-oegstgeest.html
 ---
-> Oegstgeest, with 26,095 residents on 1 January 2026 by the national count, lies against Leiden, around a village whose Groene Kerkje stands where, legend says, Willibrord consecrated a church in the ninth century. Among its castles is Endegeest, where the philosopher and mathematician René Descartes lived in 1642, a few years after his Discourse on Method was published in Leiden. Its best-known piece of advice, to divide each difficulty into as many parts as possible, is also the most useful idea in programming. Programmers call it divide and conquer, and in its sharpest form, halving, it finds one number among a thousand in at most ten questions. Modern Age Coders teaches live online in English, for ages 6 to 67; the first lesson is free, and then a group costs USD 100 a month and one-to-one tuition USD 150.
+> Live online coding, Python, AI and app classes for Oegstgeest, ages 6 to 67, from Oud Oegstgeest and Oudenhof to De Kwaak. The first lesson is free.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Oegstgeest
-
-Oegstgeest, Zuid-Holland / Live online
-
-# Coding classes in Oegstgeest, where Descartes lived and a big problem becomes small ones
-
-**What are the best coding classes in Oegstgeest?** Oegstgeest, with 26,095 residents on 1 January 2026 by the national count, lies against Leiden, around a village whose Groene Kerkje stands where, legend says, Willibrord consecrated a church in the ninth century. Among its castles is Endegeest, where the philosopher and mathematician René Descartes lived in 1642, a few years after his Discourse on Method was published in Leiden. Its best-known piece of advice, to divide each difficulty into as many parts as possible, is also the most useful idea in programming. Programmers call it divide and conquer, and in its sharpest form, halving, it finds one number among a thousand in at most ten questions. Modern Age Coders teaches live online in English, for ages 6 to 67; the first lesson is free, and then a group costs USD 100 a month and one-to-one tuition USD 150.
-
-Think of a number between one and a thousand. A careless guesser tries numbers one after another and may need a thousand tries. A careful one asks whether it is above five hundred, then halves what is left, and halves again, and is certain to have it within ten questions, because ten halvings reduce a thousand possibilities to one. That is the whole trick of divide and conquer: split a problem so that each part is smaller and simpler than the whole, solve the parts, and put the answers together. Descartes, who lived for a time at Endegeest in Oegstgeest, put a version of it at the heart of his method, published in Leiden in 1637. Computer science turned it into sorting methods that handle millions of items, searches that find one record among billions, and the way good programmers break any large task into pieces small enough to get right.
-
-Facts last verified 11 September 2026. Teaching is online; no Oegstgeest branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Oegstgeest
 
 ## Four courses for the village beside Leiden
 
 A child in De Kwaak who wants to build a guess-my-number game, a teenager in Oudenhof learning how search and sorting really work, a student in Oegstgeest Noord facing a project too big to start, and an adult in Oud Oegstgeest who wants to break messy work problems into steps a computer can do. Each of them can take the first lesson free.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): A guess-my-number game in Python that learns to ask the halving question, and a child who can explain why it always wins in ten.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 11 to 14): Halving, powers of two and logarithms met through code, so the mathematics behind fast search becomes something a learner has built.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Divide-and-conquer algorithms, recursion and task decomposition in Python, from binary search to breaking a project into testable parts.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): Large reporting and AI tasks split into small, checkable steps before any tool is asked to do them.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsA guess-my-number game in Python that learns to ask the halving question, and a child who can explain why it always wins in ten.See the syllabus](/courses/python-ai-kids-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 11 to 14Maths Through CodingHalving, powers of two and logarithms met through code, so the mathematics behind fast search becomes something a learner has built.See the syllabus](/courses/maths-through-coding)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CourseDivide-and-conquer algorithms, recursion and task decomposition in Python, from binary search to breaking a project into testable parts.See the syllabus](/courses/python-ai-automation-masterclass-college)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)Large reporting and AI tasks split into small, checkable steps before any tool is asked to do them.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Oegstgeest today
 
 ## A ninth-century church site, two castles, and a philosopher in 1642
 
@@ -54,14 +42,14 @@ René Descartes, philosopher and mathematician, who lived from 1596 to 1650, liv
 
 The older parts of the village include the Kerkbuurt, the Leidse Buurt, the Poelgeesterbuurt, the Mors, the Bazar and the Rijsjes, with twentieth-century neighbourhoods such as the Wilhelminapark, the Julianapark and Haaswijk around them. The municipality grew from 19,445 residents in 1995 to 26,095 in 2026.
 
+Halving
+
 ## How many questions it takes to find one number
 
 Each halving question cuts the possibilities in two. The table shows how few questions are needed, and how fast the advantage grows with the size of the problem.
 
-**Guessing one number, one at a time or by halving**
-
 | Possible numbers | Guessing one after another, worst case | Halving, worst case | Why |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 16 | 16 guesses | 4 questions | 2 to the power 4 is 16 |
 | 1,000 | 1,000 guesses | 10 questions | 2 to the power 10 is 1,024 |
 | 1,000,000 | 1,000,000 guesses | 20 questions | 2 to the power 20 is just over a million |
@@ -69,14 +57,14 @@ Each halving question cuts the possibilities in two. The table shows how few que
 
 Multiplying the problem by a thousand adds only ten questions to the halving method, while the one-after-another method needs a thousand times more work. This is why a sorted list of a billion names can be searched almost instantly, and why so much of computer science is about finding ways to split a problem into halves or smaller parts. The same principle runs through sorting, where a large list is split, each half is sorted, and the sorted halves are merged, and through ordinary programming, where a task that seems impossible as a whole becomes a series of small functions, each simple enough to write and test. Descartes wrote about problems of reasoning, not about computers, and the page does not claim otherwise. His advice simply turned out to describe one of the most powerful ideas the field has.
 
+Verified local facts
+
 ## Oegstgeest in the national statistics
 
 The figures published for the municipality, each with its year, followed by the encyclopaedia history and the arithmetic used on this page.
 
-**Oegstgeest in the statistics**
-
 | Measure | Figure | Year |
-|---|---|---|
+| --- | --- | --- |
 | Residents | 19,445; 23,153; 26,058; 26,095 | 1995, 2013, 2025, 2026 |
 | Men and women | 12,628 and 13,430 | 2025 |
 | Under fifteen, 15 to 25, 25 to 45 | 4,559; 2,849; 5,940 | 2026 |
@@ -100,6 +88,8 @@ In 2025, 18,020 residents were of Dutch origin, 3,346 of European and 4,692 of n
 
 Modern Age Coders has no connection with the municipality of Oegstgeest, Endegeest, the Groene Kerkje or any school in the area, and nothing on the page suggests one. The statistics are those published for Oegstgeest for the years stated. The church, the early spelling, the castles, Descartes at Endegeest and the neighbourhoods come from the encyclopaedia entry for Oegstgeest, which gives 26,096 residents on 1 January 2026 and an area of 7.97 square kilometres, from a different source; the publication of the Discourse in Leiden comes from the entry for that book.
 
+Signature project
+
 ## Split it until each part is easy
 
 Divide and conquer is a way of thinking before it is an algorithm. A learner can practise both halves of it, the fast search and the careful breakdown, in a single project.
@@ -116,10 +106,8 @@ Take a task that feels too big, such as a quiz app, and split it into parts unti
 
 Combine the parts and test the whole. If the whole fails while every part works, the problem lies in how the parts were split or joined, and that is the next thing to examine.
 
-**Divide and conquer at work**
-
 | Where | How the problem is split | What is gained | What must be true |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Searching a sorted list | look at the middle and keep only the half that can hold the answer | a billion items in about thirty steps | the list must be sorted |
 | Sorting | split the list, sort each half, merge the results | millions of items sorted quickly | merging two sorted halves must be done carefully |
 | Finding a bug | test halfway through the program, then halfway through the half that fails | the faulty line found in a few steps | each test must give a clear yes or no |
@@ -130,14 +118,14 @@ Combine the parts and test the whole. If the whole fails while every part works,
 
 AI assistants are most reliable on small, clearly defined tasks and least reliable on large, vague ones. Ask for a whole application in one request and the result is often long, plausible and subtly wrong in ways that are hard to find. Split the same job into parts, each with a clear purpose and a test, and the assistant can help with every part while the person keeps track of how they fit together. Many AI tools now try to do this splitting themselves, planning a task in steps before carrying it out, and the quality of the result depends heavily on whether the split was a good one. That judgement, how to cut a problem so that each part is small, independent and checkable, is the part of divide and conquer that remains human. A learner who has halved a search to ten questions and broken an app into testable functions has practised it twice. Descartes' advice was written for reasoning in general, nearly four centuries ago, a few kilometres from where these lessons are joined; it applies to programming, and to working with AI, as well as it ever did.
 
+Reliable pipeline
+
 ## Five habits for breaking problems down
 
 For searches, sorting, debugging, projects and AI-assisted work. Worked through in the village where Descartes lived.
 
-**Dividing well**
-
 | Habit | In practice | What it avoids | What it yields |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Halve when you can | Look for a question that rules out half the possibilities | Checking things one by one | Search that stays fast as data grows |
 | Small, testable parts | Split a task until each part is one clear function | Code too big to understand | Pieces you can trust |
 | Clear inputs and outputs | Define what each part receives and returns | Parts that do not fit together | Clean joins |
@@ -158,14 +146,37 @@ A large task at work split into small steps on paper before any tool is opened. 
 
 This section uses the encyclopaedia's note that Descartes lived at Endegeest and the publication of his Discourse in Leiden as context, and standard computer science for the rest. It does not claim that Descartes wrote about computing.
 
+Learning ladder
+
 ## From a guessing game to splitting problems for AI
 
 Where a learner starts is decided in the free lesson from the way they work on something real. Neither age alone nor which wijk they live in decides it.
 
-- **Ages 6 to 10: Ask about the middle** Children learn that halving wins a guessing game fastest. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Game Development for Kids](/courses/game-development-masterclass-for-kids)
-- **Ages 11 to 13: Powers of two** Learners count halving steps in Python and link them to powers of two. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Search and sort** Teenagers write binary search and merge sort and time them. [App Development for Teens](/courses/complete-app-development-masterclass-for-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Split the job** Adults break large tasks into checkable parts for people and AI. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Ask about the middle
+
+Children learn that halving wins a guessing game fastest.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Game Development for Kids](/courses/game-development-masterclass-for-kids)Ages 11 to 13
+
+### Powers of two
+
+Learners count halving steps in Python and link them to powers of two.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Search and sort
+
+Teenagers write binary search and merge sort and time them.
+
+[App Development for Teens](/courses/complete-app-development-masterclass-for-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Split the job
+
+Adults break large tasks into checkable parts for people and AI.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## An AI can take on a huge task in one go. Why should a teenager in Oegstgeest learn to split it first?
 
@@ -177,30 +188,139 @@ A learner who has turned a thousand possibilities into ten questions, and a daun
 
 So the case for a child in Oegstgeest learning to code in 2026 is not the castles or the famous resident. It is that someone who can split a problem into parts small enough to check will be needed wherever AI is handed tasks too large for anyone to verify whole. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Lessons that reach every wijk of Oegstgeest
 
 From Oud Oegstgeest by the Groene Kerkje to Oegstgeest West, the village is compact, and a class at home is equally close to every street.
 
-- **Right at home** A learner in De Kwaak and a learner in Oegstgeest Noord join the same lesson at the same moment from their own homes, with no trip into Leiden.
-- **School words in Dutch** Groep, brugklas, vmbo, havo, vwo and the profielkeuze stay in Dutch, as Oegstgeest families use them, and the teaching is in English.
-- **A free lesson with a real task** The first hour is a real lesson. Afterwards the teacher suggests a level, a course and a weekly time; no payment details are asked for.
-- **Groups beyond the village** Fifteen to twenty learners at one stage. Oegstgeest has 4,559 residents under fifteen, far too few to fill every level and hour locally, so groups include learners from other places.
-- **Regio Midden holidays** Twice a week, about eight lessons a month, at one fixed hour, with breaks for the regio Midden holidays of Zuid-Holland.
-- **Evening-friendly hours** The teachers are in India, three and a half hours ahead of Oegstgeest in summer and four and a half in winter, so late afternoons, evenings and weekend mornings all work.
+### Right at home
 
-**Sixteen schools, five wijken, and one group online** Oegstgeest has 12 primary establishments teaching 3,361 pupils and 4 secondary establishments teaching 2,678. A coding group needs five learners who match on subject, stage and hour at once, and they are found far more easily across all ages from 6 to 67 and many countries than inside one village.
+A learner in De Kwaak and a learner in Oegstgeest Noord join the same lesson at the same moment from their own homes, with no trip into Leiden.
+
+### School words in Dutch
+
+Groep, brugklas, vmbo, havo, vwo and the profielkeuze stay in Dutch, as Oegstgeest families use them, and the teaching is in English.
+
+### A free lesson with a real task
+
+The first hour is a real lesson. Afterwards the teacher suggests a level, a course and a weekly time; no payment details are asked for.
+
+### Groups beyond the village
+
+Fifteen to twenty learners at one stage. Oegstgeest has 4,559 residents under fifteen, far too few to fill every level and hour locally, so groups include learners from other places.
+
+### Regio Midden holidays
+
+Twice a week, about eight lessons a month, at one fixed hour, with breaks for the regio Midden holidays of Zuid-Holland.
+
+### Evening-friendly hours
+
+The teachers are in India, three and a half hours ahead of Oegstgeest in summer and four and a half in winter, so late afternoons, evenings and weekend mornings all work.
+
+Sixteen schools, five wijken, and one group online
+
+Oegstgeest has 12 primary establishments teaching 3,361 pupils and 4 secondary establishments teaching 2,678. A coding group needs five learners who match on subject, stage and hour at once, and they are found far more easily across all ages from 6 to 67 and many countries than inside one village.
+
+Fees
 
 ## Oegstgeest fees
 
 Three prices, with nothing added later.
 
-- First class: USD 0. A real lesson on a real task, finishing with a level and a course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with a teacher.
+First class**USD 0**
+
+A real lesson on a real task, finishing with a level and a course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with a teacher.
 
 The fee is set in dollars and is the same everywhere, with no euro list, so a family in Oudenhof pays what a family in Oegstgeest West pays. Nothing is charged until the free lesson has fixed a course and a time, and payment is then arranged over WhatsApp. The pricing page explains pauses, a change of format and missed lessons.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Oegstgeest.)Reviews
+
+## Six Google reviews, printed as their writers left them
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us what the learner can do
+
+The first task might be a guessing game that learns to halve, a count of halving steps against powers of two, or a large task split into small parts before any code is written.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Oegstgeest one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Oegstgeest.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Oegstgeest coding class questions
+
+The village, its history, its figures, and the lessons.
 
 ### Which wijken does Oegstgeest have?
 
@@ -242,10 +362,14 @@ The first lesson is free. After it, group tuition is USD 100 a month for two liv
 
 Fifteen to twenty, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
+Explore the Leiden region and beyond
+
 ## Next door to Leiden, and across the province
 
 Oegstgeest's neighbour has its own page at [coding classes in Leiden](/coding-classes-in-leiden), and a little further south along the Vliet lies [Voorschoten](/coding-classes-in-voorschoten). Every town and city in the province with a page is gathered on [Zuid-Holland](/coding-classes-in-zuid-holland). For machine learning from the first lesson there is the [AI and Python Academy](/ai-and-python-academy-netherlands), and the whole series is listed on the [Netherlands coding hub](/coding-classes-in-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Chat on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Oegstgeest.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-oegstgeest](https://learn.modernagecoders.com/coding-classes-in-oegstgeest#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-oegstgeest*

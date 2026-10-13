@@ -4,56 +4,40 @@ description: "Live online coding and AI classes for Subiaco learners aged 6 to 6
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-subiaco-perth
 source: src/pages/best-coding-and-ai-classes-in-subiaco-perth.html
 ---
-> Live online lessons, in a small group or one to one, beginning with Scratch at six and moving through Python to data work and AI for teenagers and adults, using real Western Australian data. The 2021 Census counted 9,940 people in Subiaco.
+> Live online coding and AI classes for Subiaco learners aged 6 to 67, from Scratch and Python to data and AI projects, in groups or one to one. First lesson free.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [Western Australia](/coding-and-ai-classes-in-western-australia) / [Perth](/online-coding-and-python-classes-in-perth-western-australia) / Subiaco
-
-Subiaco, City of Subiaco, Western Australia / Live online
-
-# Coding and AI classes in Subiaco
-
-**Where can Subiaco learners find the best coding and AI classes?** Live online lessons, in a small group or one to one, beginning with Scratch at six and moving through Python to data work and AI for teenagers and adults, using real Western Australian data. The 2021 Census counted 9,940 people in Subiaco.
-
-The state's public transport stops file has 29 columns. In Subiaco, five of them hold the same value on every one of the suburb's 58 stop records, so a tidy-minded analyst might delete all five. Run the same check on the whole state file and only two survive the cut.
-
-Facts last verified 12 October 2026. Teaching is online; no Subiaco branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Subiaco
 
 ## Courses that teach careful data work
 
 The stops project needs Python, a feel for tables and the habit of testing a conclusion on more than one sample. These courses build it, and the free trial sets the level.
 
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 17): Python with real public tables, from loading to honest conclusions.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (University and adult): Cleaning and profiling data before any chart or model is built.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Core Python: lists, sets, dictionaries and files.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): First typed Python and AI projects in short steps.
+[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 17Data Science for TeensPython with real public tables, from loading to honest conclusions.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)University and adultData Analysis CourseCleaning and profiling data before any chart or model is built.See the syllabus](/courses/data-analysis-mastery-course-college)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensCore Python: lists, sets, dictionaries and files.See the syllabus](/courses/python-complete-masterclass-teens)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsFirst typed Python and AI projects in short steps.See the syllabus](/courses/python-ai-kids-masterclass)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Subiaco in the Census
 
 ## Apartments, graduates and the train
 
 Selected 2021 Census QuickStats for the suburb of Subiaco (ABS code SAL51416), alongside the Western Australian figure.
 
-**Subiaco at a glance, 2021**
-
 | Measure | Subiaco |
-|---|---|
+| --- | --- |
 | Residents | 9,940 |
 | Median age | 40 |
 | Families | 2,549 |
 | Private dwellings | 5,333 |
 | People per household | 2.1 |
 
-**Subiaco compared with Western Australia**
-
 | Indicator | Subiaco | Western Australia |
-|---|---|---|
+| --- | --- | --- |
 | Flats or apartments | 41.7% (1,869) | 6.5% |
 | Adults with a bachelor degree or higher | 56.2% (4,795) | 23.8% |
 | Employed people in professional jobs | 48.4% (2,676) | 22.0% |
@@ -74,14 +58,14 @@ The ABS boundary of Subiaco takes in about 3.1 square kilometres west of the Per
 
 Census counts carry deliberate small adjustments for privacy, so we copy them unchanged and build no new totals from them.
 
+Signature project
+
 ## Constant here, or constant everywhere?
 
 A column whose value never changes cannot separate one row from another, so it is safe to drop. The catch is the word never. We counted distinct values in all 29 columns of the stops file, first for Subiaco's records and then for the whole state.
 
-**Distinct values per column (our calculation)**
-
 | Column | In Subiaco (58 records) | Statewide (16,822 records) |
-|---|---|---|
+| --- | --- | --- |
 | accessible | 1 | 1, every record is Y |
 | shelter | 1 | 1, every record is Y |
 | status | 1 | 2: 16,821 Active, 1 Planned |
@@ -107,14 +91,14 @@ Decide which columns to drop using the data the code will actually run on. A sam
 
 Stop records are open data from the Public Transport Authority of Western Australia. Membership of Subiaco is our point-in-boundary check, and every distinct-value count is our calculation. We describe what the columns contain, not what each was intended to mean, since the file carries no data dictionary.
 
+Profiling a table
+
 ## Finding single-valued columns in code
 
 The check is short in plain Python or in pandas. What matters is where you run it.
 
-**Ways to find constant columns**
-
 | Approach | Code idea | Statewide result |
-|---|---|---|
+| --- | --- | --- |
 | Plain Python | len(set(row[c] for row in rows)) == 1 | accessible, shelter |
 | pandas | df.columns[df.nunique() == 1] | Same two columns |
 | Count missing too | df.nunique(dropna=False) | Same answer here |
@@ -134,6 +118,8 @@ Profile work spreadsheets on the full dataset before deleting columns that look 
 
 A constant column is not always an error. Sometimes it is a placeholder for data not yet collected. The useful habit is to report it, ask what it was meant to hold, and only then decide whether to drop it.
 
+Around Subiaco
+
 ## Three stations along one line
 
 Local markers from the stops file, our boundary checks and the WA school calendar.
@@ -150,16 +136,41 @@ Of those 58 records, 52 carry the suburb label Subiaco, 5 say Daglish and 1 says
 
 WA public school Term 1 of 2027 runs from Monday 1 February to Friday 9 April.
 
-**Subiaco alone** Figures here describe the suburb of Subiaco only. Bagot Road carries the most stop records, 12. Neighbouring suburbs such as Shenton Park, Jolimont and West Leederville have their own separate numbers, none added in.
+Subiaco alone
+
+Figures here describe the suburb of Subiaco only. Bagot Road carries the most stop records, 12. Neighbouring suburbs such as Shenton Park, Jolimont and West Leederville have their own separate numbers, none added in.
+
+Learning ladder
 
 ## From sorting buttons to profiling data
 
 These bands are rough; a learner's trial class shows where they really belong.
 
-- **Ages 6 to 10: Scratch and patterns** Games and puzzles that train careful observation. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 10 to 14: Python basics** Lists, sets and counting things in code. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Data with Python** Real tables, profiling and honest summaries. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **University and adult: Data analysis** Cleaning, profiling and modelling data for work or study. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Data Science Course](/courses/data-science-complete-masterclass-college)
+Ages 6 to 10
+
+### Scratch and patterns
+
+Games and puzzles that train careful observation.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 10 to 14
+
+### Python basics
+
+Lists, sets and counting things in code.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Data with Python
+
+Real tables, profiling and honest summaries.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)University and adult
+
+### Data analysis
+
+Cleaning, profiling and modelling data for work or study.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Data Science Course](/courses/data-science-complete-masterclass-college)Coding and AI
 
 ## An AI can clean the table. Which table did it look at?
 
@@ -171,30 +182,139 @@ Learners who have run the check at both scales ask the follow-up question every 
 
 In Subiaco, the learner who checks the full dataset keeps the columns that matter. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How Subiaco lessons run
 
 Lessons happen over live video, so nobody travels anywhere.
 
-- **Hands on the keys** Subiaco learners write every line themselves while the teacher watches and questions.
-- **WA school terms** Plans follow the Western Australian school year and break for its holidays.
-- **Try before paying** One complete lesson at no cost, then a plain suggestion of what fits.
-- **Groups of fifteen to twenty** Matched by level and pace, or one to one.
-- **Two classes a week** Fixed weekly times, about eight lessons a month.
-- **Teachers in India** A 5pm Subiaco lesson starts at 2:30pm India time, all year.
+### Hands on the keys
 
-**Perth time, all year** Western Australia last used daylight saving in a trial that ended in March 2009 (IANA time zone database), and India does not use it, so lesson times never shift.
+Subiaco learners write every line themselves while the teacher watches and questions.
+
+### WA school terms
+
+Plans follow the Western Australian school year and break for its holidays.
+
+### Try before paying
+
+One complete lesson at no cost, then a plain suggestion of what fits.
+
+### Groups of fifteen to twenty
+
+Matched by level and pace, or one to one.
+
+### Two classes a week
+
+Fixed weekly times, about eight lessons a month.
+
+### Teachers in India
+
+A 5pm Subiaco lesson starts at 2:30pm India time, all year.
+
+Perth time, all year
+
+Western Australia last used daylight saving in a trial that ended in March 2009 (IANA time zone database), and India does not use it, so lesson times never shift.
+
+Fees
 
 ## Subiaco class fees
 
 Three prices for every family.
 
-- First class: USD 0. The first lesson is free and ends with a clear suggestion.
-- Group tuition: USD 100 a month. A month of group classes, about eight lessons, with fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. About eight lessons a month with one teacher for one learner.
+First class**USD 0**
+
+The first lesson is free and ends with a clear suggestion.
+
+Group tuition**USD 100**
+
+A month of group classes, about eight lessons, with fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+About eight lessons a month with one teacher for one learner.
 
 Subiaco families pay in US dollars, only after the trial and once a course and time are agreed. The pricing page covers school holidays, missed lessons and switching between group and private.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20or%20AI%20class%20for%20a%20learner%20in%20Subiaco.)Reviews
+
+## Google reviews from our families and students
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a first Subiaco lesson
+
+Let us know how old the learner is and what they like doing. Teenagers could open by profiling the stops file at two scales, and younger children with a Scratch sorting game.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Subiaco one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20or%20AI%20class%20for%20a%20learner%20in%20Subiaco.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Questions from Subiaco
+
+What Subiaco parents and adult learners usually want to know.
 
 ### How many people live in Subiaco, Perth?
 
@@ -236,10 +356,14 @@ Fifteen to twenty learners at a similar level and pace, not sorted by age or sub
 
 No. Copilot Studio lessons run privately, one learner and one teacher; group classes write their agents in Python.
 
+Explore Perth and Western Australia
+
 ## More for Subiaco learners
 
 See [the Perth page](/online-coding-and-python-classes-in-perth-western-australia) for the whole city and [coding for Perth children](/coding-classes-for-kids-perth) for younger learners. [The Western Australia guide](/coding-and-ai-classes-in-western-australia) covers the state.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20or%20AI%20class%20for%20a%20learner%20in%20Subiaco.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-and-ai-classes-in-subiaco-perth](https://learn.modernagecoders.com/best-coding-and-ai-classes-in-subiaco-perth#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-subiaco-perth*

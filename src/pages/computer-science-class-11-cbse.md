@@ -12,7 +12,7 @@ For CBSE Class 11 CS students · Code 083
 
 CBSE Class 11 CS (Code 083) is Python-based with serious theory, boolean algebra, number systems, basics of computer organisation. Our 1 hour live classes cover the NCERT syllabus line by line and build real projects for the practical.
 
-[Book a free demo class](/book-demo)See the curriculum**2,200+**CBSE Class 11 CS students**94%**Score 85+ on the CS paper**1 hour**Live class, 1:1 or group**Code 083**Full NCERT alignmentCS11CBSE · 083NCERT alignedPythonBoolean + networksCourses matched for this level
+[Book a free demo class](/book-demo)See the curriculum**10,000+**Students taught live since 2020**15 to 20**Students in a group batch**1 hour**Live class, 1:1 or group**Code 083**Full NCERT alignmentCS11CBSE · 083NCERT alignedPythonBoolean + networksCourses matched for this level
 
 ## Courses for a CBSE Class 11 CS student.
 
@@ -156,9 +156,9 @@ One teacher, one learner, the full 1 hour. The teacher adapts pace in real time,
 
 **₹4,999**/ month · 4 sessionsOption B
 
-### Live Small-Group Online Class
+### Live Group Online Class
 
-4 to 6 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
+15 to 20 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
 
 - Small groups of 4 to 6 similar-level learners
 - 1 hour live session, 2 sessions per week

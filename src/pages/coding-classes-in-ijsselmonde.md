@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes in IJsselmonde for ages 
 canonical: https://learn.modernagecoders.com/coding-classes-in-ijsselmonde
 source: src/pages/coding-classes-in-ijsselmonde.html
 ---
-> Coding classes in IJsselmonde reach 63,475 residents (1 January 2026) on 1,179 hectares of land at 5,376 people to the square kilometre, in 29,930 households averaging 2.1 people. The district publishes 11,115 residents under fifteen and 11,185 aged sixty-five and over, seventy apart, which reads as a place with as many pensioners as children. The first of those bands covers fifteen years and the second covers as many as anybody lives, so the two counts were never comparable. Modern Age Coders teaches live online in English across Beverwaard, Lombardijen and Groot IJsselmonde, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
+> Live online coding, Python and AI classes in IJsselmonde for ages 6 to 67, across Beverwaard, Lombardijen and Groot IJsselmonde. First lesson free.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Rotterdam](/coding-classes-in-rotterdam) / IJsselmonde
-
-IJsselmonde, Rotterdam / Live online
-
-# Coding classes in IJsselmonde, which has as many pensioners as children only because one age band never ends
-
-**What are the best coding classes in IJsselmonde?** Coding classes in IJsselmonde reach 63,475 residents (1 January 2026) on 1,179 hectares of land at 5,376 people to the square kilometre, in 29,930 households averaging 2.1 people. The district publishes 11,115 residents under fifteen and 11,185 aged sixty-five and over, seventy apart, which reads as a place with as many pensioners as children. The first of those bands covers fifteen years and the second covers as many as anybody lives, so the two counts were never comparable. Modern Age Coders teaches live online in English across Beverwaard, Lombardijen and Groot IJsselmonde, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
-
-IJsselmonde has 11,115 residents under fifteen and 11,185 aged sixty-five or over. Both are eighteen percent, seventy people apart, and it is a striking sentence: as many pensioners as children. It is also an artefact. The first band is fifteen years wide. The second has no upper end at all. Per year of age the children come to about 741 and the pensioners cannot be worked out, because nobody has said where the band stops. The symmetry belongs to the table, not to the district.
-
-Facts last verified 9 September 2026. Teaching is online; no IJsselmonde branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for IJsselmonde
 
 ## Four courses for eleven thousand children across four large buurten
 
 A groep 5 child in Beverwaard with a games console and no idea anyone makes them, a teenager in Lombardijen who wants to know what a model does under the surface, a student in Groot IJsselmonde who needs Python properly rather than as one module, and an adult in Oud IJsselmonde who reports a number every month and has begun to distrust it: four doors, first hour free on each.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Real typed Python, drawings that follow orders and a first program that spots a rule, taught in English to the groep 5 to 8 child in any of the four buurten.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 18): A model built, trained and deliberately broken, for the teenager who has used plenty of them and never seen inside one.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (College and adult): Python from an empty file to work that runs unattended, for the student who met it once in a module and wants the rest of it.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): Reading a table honestly, including what a band of numbers is hiding, for anybody who passes figures to somebody more senior.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsReal typed Python, drawings that follow orders and a first program that spots a rule, taught in English to the groep 5 to 8 child in any of the four buurten.See the syllabus](/courses/python-ai-kids-masterclass)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 18AI and Machine Learning for TeensA model built, trained and deliberately broken, for the teenager who has used plenty of them and never seen inside one.See the syllabus](/courses/ai-ml-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)College and adultPython MasterclassPython from an empty file to work that runs unattended, for the student who met it once in a module and wants the rest of it.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)Reading a table honestly, including what a band of numbers is hiding, for anybody who passes figures to somebody more senior.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)IJsselmonde today
 
 ## Sixty-three thousand people in only four neighbourhoods
 
@@ -52,16 +40,18 @@ Oud IJsselmonde, Beverwaard, Groot IJsselmonde and Lombardijen. Four pieces for 
 
 26 primary establishments teach 5,796 pupils and 7 secondary establishments teach 3,550. Separately, 1,340 residents are enrolled in applied higher education and 460 at university level, the lowest university figure of the districts read here. No sum of the two kinds appears anywhere on this page.
 
-**The sentence this page is about** The published age table gives 11,115 residents under fifteen and 11,185 aged sixty-five and over. Both round to eighteen percent and they sit seventy people apart, which invites the observation that IJsselmonde has as many pensioners as children. That sentence is true of the two numbers and false of the district, because the two bands are not measuring comparable stretches of a human life, and the rest of this page works out by how much.
+The sentence this page is about
+
+The published age table gives 11,115 residents under fifteen and 11,185 aged sixty-five and over. Both round to eighteen percent and they sit seventy people apart, which invites the observation that IJsselmonde has as many pensioners as children. That sentence is true of the two numbers and false of the district, because the two bands are not measuring comparable stretches of a human life, and the rest of this page works out by how much.
+
+Where the learners are
 
 ## Five bands, four widths, and one with no end
 
 These are the five age groups the statistics office publishes for every district in the country. Reading their counts against each other assumes they cover comparable spans of life, and four different widths say otherwise.
 
-**The published bands, and what they look like once the width is divided out**
-
 | Band | Residents | Years it covers | Residents per year of age |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 0 to 15 | 11,115 | 15 | about 741 |
 | 15 to 25 | 7,525 | 10 | about 753 |
 | 25 to 45 | 18,505 | 20 | about 925 |
@@ -70,6 +60,8 @@ These are the five age groups the statistics office publishes for every district
 | What changes | the largest count is 25 to 45 | because it is a twenty-year band | per year it leads by a quarter, not by two thirds |
 
 The counts say the 25 to 45 group is two thirds larger than the under-fifteens, 18,505 against 11,115. Per year of age the gap is about 925 against 741, roughly a quarter. And the top band cannot be put on this footing at all: if it were assumed to run to ninety-five it would give about 373 residents per year of age, half the children's rate, but nothing published says where it stops and this page does not pretend to know. Every per-year figure here is arithmetic on the published counts, not a published figure.
+
+Verified local facts
 
 ## Every figure, its source, its year, and the division this page performs
 
@@ -97,6 +89,8 @@ No statement that IJsselmonde is ageing, or is not. No comparison of its age str
 
 This page has no connection to the gebied, to the city, or to any school inside either, and asserts none. What is quoted comes from the statistics office page for the wijk. The per-year figures of about 741, 753, 925, 757 and the hypothetical 373 are calculated here and are marked as such wherever they appear.
 
+Signature project
+
 ## As many pensioners as children, and a band with no end
 
 Two counts seventy apart, five bands of four different widths, and a headline that survives only as long as nobody divides.
@@ -113,10 +107,8 @@ The other four can be put on a common footing by dividing. The top band cannot, 
 
 As many pensioners as children becomes: the district holds 11,115 people in the first fifteen years of life and 11,185 in the whole of life after sixty-five. That is duller, longer and true, and it no longer suggests a balance that the underlying population may not have at all.
 
-**What the same data supports, and what it does not**
-
 | Claim | Is it supported? | Why | What would settle it |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | IJsselmonde has 11,115 residents under fifteen | yes | a published count in a defined band | nothing further |
 | It has as many pensioners as children | no | the bands cover very different spans of life | single-year age data |
 | The 25 to 45 group is the largest | yes, as a count | it is, and it is also the widest band | per year of age, where it leads by a quarter |
@@ -127,14 +119,14 @@ As many pensioners as children becomes: the district holds 11,115 people in the 
 
 Published data almost always arrives in buckets, because a table with a hundred rows for a hundred ages is unreadable and because small counts have to be grouped to protect the people in them. The grouping is sensible and the trouble starts the moment somebody compares one bucket with another without looking at how wide each one is. A twenty-year band will beat a ten-year band on almost any population, and that tells you about the bands. The version that reaches a headline is always the count, because the count is the number printed. There is a second problem underneath it, and it has no clean solution: the last bucket is usually open. Sixty-five and over, or a hundred thousand pounds and above, or ten years or longer. An open bucket has no width, so it can never be normalised, and any comparison involving it is a comparison of a defined range with an undefined one. The habit worth carrying is short. Before comparing two buckets, divide each count by its width and see whether the ordering survives. If one of the buckets is open, say plainly that it cannot be put on the same footing, and resist every temptation to assume a ceiling, because the assumption will be doing all the work in whatever conclusion follows.
 
+Reliable pipeline
+
 ## Five habits for data that arrives in buckets
 
 Age bands, income brackets, tenure lengths, response-time ranges, order-value tiers: all bucketed, rarely evenly, and the last one is usually open. Practised on a district where two bands seventy apart tell a story that dividing removes.
 
-**Reading a bucketed table**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Write the widths down | Put the span of each bucket beside its count before reading anything | A wide bucket mistaken for a large group | A table you can actually compare across |
 | Divide by the width | Convert every closed bucket to a per-unit rate | A ranking that reflects the labels | The ordering that survives normalisation |
 | Flag the open bucket | Mark the unbounded one as not comparable, and leave it there | A ceiling assumed and then forgotten | An honest gap rather than a fabricated rate |
@@ -155,14 +147,37 @@ A bucketed table from work: salary bands, response times, order values, tenure. 
 
 The population, household, age, area, density, dwelling, value, tenure, income, student, establishment and pupil figures all come from the statistics office page for this wijk, with a 2026 population, 2025 household and housing figures and a 2024 income. The band widths of fifteen, ten, twenty and twenty years are read off the published labels. The per-year figures of about 741, 753, 925 and 757, and the hypothetical 373 for an assumed ceiling of ninety-five, are computed here and labelled as computed.
 
+Learning ladder
+
 ## From sorting a class by height to a comparison that checks the bucket widths first
 
 The rung comes out of the free hour and what the learner can already do, and never out of which of the four buurten the address falls in.
 
-- **Ages 6 to 10: Why is that group bigger?** Children find the answer is the size of the group, not the number of people. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Roblox Game Coding for Kids](/courses/roblox-game-coding-for-kids-lua-course)
-- **Ages 11 to 13: How wide is this bucket?** Learners write the span beside every count before they compare any two. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Statistics & Probability](/courses/statistics-probability-maths-course)
-- **Ages 14 to 18: Normalise, or refuse** Teenagers build comparisons that divide by width and stop dead at an open bucket. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [MySQL for Teens](/courses/mysql-mastery-for-teens)
-- **Ages 18 to 67: The salary band on the slide** Adults take a bucketed table from work and find the uneven widths inside it. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Why is that group bigger?
+
+Children find the answer is the size of the group, not the number of people.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Roblox Game Coding for Kids](/courses/roblox-game-coding-for-kids-lua-course)Ages 11 to 13
+
+### How wide is this bucket?
+
+Learners write the span beside every count before they compare any two.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Statistics & Probability](/courses/statistics-probability-maths-course)Ages 14 to 18
+
+### Normalise, or refuse
+
+Teenagers build comparisons that divide by width and stop dead at an open bucket.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[MySQL for Teens](/courses/mysql-mastery-for-teens)Ages 18 to 67
+
+### The salary band on the slide
+
+Adults take a bucketed table from work and find the uneven widths inside it.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## An AI will tell you IJsselmonde has as many pensioners as children. Why should a teenager here ask how wide the bands are?
 
@@ -174,30 +189,139 @@ So the learner practises putting the width beside the count before reading anyth
 
 The case for a child in IJsselmonde learning to code in 2026 is therefore not about demography. It is that almost every table an adult is handed has been bucketed by somebody else, that the buckets are rarely equal and the last one is usually open, and that a district with 11,115 children and 11,185 pensioners shows in two rows how much that can distort. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes across the south-east of the city
 
 IJsselmonde is spread out, mostly post-war, and separated from the rest of Rotterdam by water and motorway. Its households are the largest of the districts here, which usually means the flat is full.
 
-- **A weekly hour that arrives instead of being travelled to** The class happens in Beverwaard, Lombardijen or Oud IJsselmonde at the same time each week, which removes the crossing and the evening journey in one move.
-- **What is taught in English and what is not** Everything except four words. Groep, havo, vwo and profielkeuze are said in Dutch exactly as the school writes them, because those are the terms a child already recognises.
-- **A first lesson with nothing attached to it** The teacher gives the learner something real to do and watches how it goes. That fixes a level, the level fixes a course, and a weekly hour is agreed. No payment details are taken at any point.
-- **The group is a level, not a place** Fifteen to twenty learners, all working at the same stage, from wherever in the world that stage happens to be populated this month. Two children in the same street at different stages are in different groups.
-- **Two lessons a week, and the breaks are known** Around eight lessons a month. Zuid-Holland follows the regio Midden holiday calendar, published far ahead, so the weeks off are in the plan from the first day rather than sprung later.
-- **India does not change its clocks** The Netherlands does, twice a year, so the teacher is three and a half hours ahead for part of the year and four and a half for the rest. The hours that work are unaffected either way.
+### A weekly hour that arrives instead of being travelled to
 
-**Eleven thousand children, and only four places to look for them** 11,115 residents are under fifteen, 18 percent, in a district divided into just four buurten averaging about sixteen thousand people each. There are plenty of children in IJsselmonde and very little published detail about where they are, and neither fact helps a family trying to find a group at one specific level in one specific subject nearby. A group assembled on ability from across the world does not depend on either, and it runs from age 6 up to 67.
+The class happens in Beverwaard, Lombardijen or Oud IJsselmonde at the same time each week, which removes the crossing and the evening journey in one move.
+
+### What is taught in English and what is not
+
+Everything except four words. Groep, havo, vwo and profielkeuze are said in Dutch exactly as the school writes them, because those are the terms a child already recognises.
+
+### A first lesson with nothing attached to it
+
+The teacher gives the learner something real to do and watches how it goes. That fixes a level, the level fixes a course, and a weekly hour is agreed. No payment details are taken at any point.
+
+### The group is a level, not a place
+
+Fifteen to twenty learners, all working at the same stage, from wherever in the world that stage happens to be populated this month. Two children in the same street at different stages are in different groups.
+
+### Two lessons a week, and the breaks are known
+
+Around eight lessons a month. Zuid-Holland follows the regio Midden holiday calendar, published far ahead, so the weeks off are in the plan from the first day rather than sprung later.
+
+### India does not change its clocks
+
+The Netherlands does, twice a year, so the teacher is three and a half hours ahead for part of the year and four and a half for the rest. The hours that work are unaffected either way.
+
+Eleven thousand children, and only four places to look for them
+
+11,115 residents are under fifteen, 18 percent, in a district divided into just four buurten averaging about sixteen thousand people each. There are plenty of children in IJsselmonde and very little published detail about where they are, and neither fact helps a family trying to find a group at one specific level in one specific subject nearby. A group assembled on ability from across the world does not depend on either, and it runs from age 6 up to 67.
+
+Fees
 
 ## The fee, in dollars, in all four buurten
 
 Printed here instead of held for a call.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 A single international rate, in dollars, with no euro edition, so an address in Beverwaard is charged what one in Lombardijen is. Nothing is paid until the free lesson has settled a course and an hour, and payment follows over WhatsApp. Pausing, switching plan and missing a week are all on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20IJsselmonde.)Reviews
+
+## Six Google reviews, reproduced as the people who left them wrote them
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Send us the level, not the buurt
+
+The first task might be a class sorted into two height groups of unequal size, a bucketed table that refuses to compare across widths, or a salary band chart at work with an open top and nobody asking about it.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented IJsselmonde one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20IJsselmonde.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## IJsselmonde coding class questions
+
+The district, its four buurten, one misleading symmetry, the teaching and the terms.
 
 ### Does IJsselmonde really have as many pensioners as children?
 
@@ -239,10 +363,14 @@ The first lesson is free. After it, group tuition is USD 100 a month for two liv
 
 Fifteen to twenty, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
+Explore Rotterdam and beyond
+
 ## West along the south bank, north across the river, and out to the country
 
 West along the bank are [Feijenoord](/coding-classes-in-feijenoord) and [Charlois](/coding-classes-in-charlois), and north across the Maas sit [Rotterdam Centrum](/coding-classes-in-rotterdam-centrum) and [Delfshaven](/coding-classes-in-delfshaven). The city page, [coding classes in Rotterdam](/coding-classes-in-rotterdam), carries the port and all fourteen gebieden, and everything here sits inside [Zuid-Holland](/coding-classes-in-zuid-holland). The series descends from the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner after trained models rather than running programs should begin at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Take this to WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20IJsselmonde.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-ijsselmonde](https://learn.modernagecoders.com/coding-classes-in-ijsselmonde#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-ijsselmonde*

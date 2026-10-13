@@ -4,34 +4,28 @@ description: "Coding for Year 7 in Australia: what Digital Technologies expects 
 canonical: https://learn.modernagecoders.com/coding-for-year-7-australia
 source: src/pages/coding-for-year-7-australia.html
 ---
-> Coding for Year 7 means writing programs in a general-purpose language such as Python, after years of visual block coding in primary school. The Australian Curriculum v9 expects that by the end of Year 8 students "design and trace algorithms and implement them in a general-purpose programming language". The best preparation is a term or two of Python before or during Year 7, plus practice predicting what a program will do before running it.
+> Coding for Year 7 in Australia: what Digital Technologies expects in the first year of high school, from tracing algorithms to Python, and how to get ready.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / Coding for Year 7
+In short
 
-Australia · Years 7 and 8 · Live online
+Coding for Year 7 means writing programs in a general-purpose language such as Python, after years of visual block coding in primary school. The Australian Curriculum v9 expects that by the end of Year 8 students "design and trace algorithms and implement them in a general-purpose programming language". The best preparation is a term or two of Python before or during Year 7, plus practice predicting what a program will do before running it.
 
-# Coding for Year 7
-
-Year 7 is a turning point for young programmers in Australia, and few families notice it happening. Through primary school, coding in class mostly means dragging blocks on a screen. From Year 7 the Australian Curriculum expects students to write programs in a general-purpose language, the kind professionals type every day, and to plan them first with flowcharts and pseudocode. At the same moment, students are changing schools, meeting new teachers and juggling a timetable full of subjects. This page explains exactly what the curriculum asks of Years 7 and 8, why the move from blocks to text catches some students out, and how a child can arrive in Year 7 already comfortable rather than scrambling to catch up.
-
-At a glance: For: Years 6, 7 and 8; Language: Usually Python; Also covers: Flowcharts and pseudocode; Skills: Tracing, debugging, functions; Curriculum: Australian Curriculum v9; Format: Live online lessons; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three ways to get ready for Year 7
 
 Pick by how much coding your child has already done.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass): For upper primary students, about 9 to 12, who want a head start in text coding before high school.
-- [Python for Teens](/courses/python-complete-masterclass-teens): For students already in Year 7 or 8, from first lines of code to confident, well-organised programs.
-- [Problem Solving for Kids](/courses/problem-solving-and-computational-thinking-for-kids): For students who need the thinking first: breaking problems down, patterns and algorithms, ages 7 to 12.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  YRSV / 01 Python and AI for Kids For upper primary students, about 9 to 12, who want a head start in text coding before high school. Open the syllabus →](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)  YRSV / 02 Python for Teens For students already in Year 7 or 8, from first lines of code to confident, well-organised programs. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)  YRSV / 03 Problem Solving for Kids For students who need the thinking first: breaking problems down, patterns and algorithms, ages 7 to 12. Open the syllabus →](/courses/problem-solving-and-computational-thinking-for-kids)
+
+The curriculum
 
 ## What Digital Technologies asks of Years 7 and 8
 
 The Australian Curriculum v9 groups Years 7 and 8 into one band. Its band description sets the scene in one sentence: students apply computational thinking by "designing and modifying algorithms, and implementing them in a general-purpose programming language".
 
-**Programming content descriptions for Years 7 and 8, Australian Curriculum v9 (quoted)**
-
 | Code | Students learn to |
-|---|---|
+| --- | --- |
 | AC9TDI8P04 | "define and decompose real-world problems with design criteria and by creating user stories" |
 | AC9TDI8P05 | design algorithms with nested control structures and show them as flowcharts and pseudocode |
 | AC9TDI8P06 | "trace algorithms to predict output for a given input and to identify errors" |
@@ -53,14 +47,14 @@ The achievement standard for the end of Year 8 sums it up: students "design and 
 
 Checked on 7 October 2026 against ACARA's Word download of the [Digital Technologies content for Years 7 to 10](https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/technologies/digital-technologies/technologies-digital-technologies-curriculum-content-7-10-v9.docx). Quotation marks show ACARA's exact words; the other rows are close summaries. NSW and some other jurisdictions publish their own syllabuses, so a school's course may be organised differently.
 
+Blocks to text
+
 ## Why the jump from blocks to text catches students out
 
 Most Year 7 students have coded before, usually in Scratch. The ideas carry over. The surprises are almost all about the medium.
 
-**What changes when a student moves from blocks to a typed language**
-
 | In block coding | In Year 7 text coding | What helps |
-|---|---|---|
+| --- | --- | --- |
 | Blocks only fit together in valid ways | One missing bracket stops the whole program | Reading error messages aloud and finding the line they name |
 | Everything is visible on one screen | Programs grow past what fits on screen | Splitting code into named functions |
 | A sprite shows what is happening | Output may be a single line of text | Printing values while the program runs |
@@ -82,16 +76,16 @@ Year 7 is the first year of secondary school across Australia; in the ABS's word
 
 Source, read 7 October 2026: [ABS, Schools methodology, 2025](https://www.abs.gov.au/methodologies/schools-methodology/2025), schooling structure and the history of changes to the year in which secondary school begins.
 
+A worked example
+
 ## ROT13 and XOR: two ciphers that undo themselves
 
 Here is the kind of lesson we run with Year 7 students, built on ACARA's own suggestion. The surprising idea at its heart is a function that, applied twice, gives back exactly what you started with.
 
 **ROT13** replaces each letter with the letter thirteen places further along the alphabet, wrapping round from Z back to A. Because the alphabet has 26 letters, moving thirteen places and then thirteen more is a full lap. So ROT13 is its own decoder: run it once to scramble a message, run it again to unscramble it. Mathematicians call a function like this **self-inverse**.
 
-**ROT13 by hand (our worked example, checked in Python)**
-
 | Step | H | E | L | L | O |
-|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- |
 | Original letter | H | E | L | L | O |
 | Thirteen places on | U | R | Y | Y | B |
 | Thirteen places again | H | E | L | L | O |
@@ -120,16 +114,16 @@ What happens with a space, a full stop or a lower-case letter? Each answer is a 
 
 ROT13 is easy to break, so why is it taught? Because it shows the shape of encryption without the maths of real ciphers.
 
-We check every worked example ourselves: HELLO becomes URYYB and back, and 72 XOR 42 is 98 and back to 72. Students are encouraged to check ours too.
+We check every worked example ourselves: `HELLO` becomes `URYYB` and back, and 72 XOR 42 is 98 and back to 72. Students are encouraged to check ours too.
+
+A first term
 
 ## A ten-week plan for a Year 7 student new to text coding
 
 Australian school terms run roughly ten weeks. This is how we would use one with a student who has done some Scratch but no typed code.
 
-**Our ten-week starter plan (one or two live lessons a week)**
-
 | Weeks | Focus | By the end the student can |
-|---|---|---|
+| --- | --- | --- |
 | 1 and 2 | First programs, printing and input | Run a program, read an error message and fix a typo |
 | 3 and 4 | Variables and decisions | Write a small quiz that keeps score and reacts to answers |
 | 5 and 6 | Loops and tracing | Predict a loop's output in a desk check table before running it |
@@ -147,6 +141,8 @@ We keep the plans simple: boxes, diamonds and arrows on paper, photographed and 
 A student who has done Python before may cover this plan in five weeks and move on to lists, files and larger projects.
 
 A student who finds typing hard may spend longer on weeks one to four. The plan bends to the student, not the other way round.
+
+Helping at home
 
 ## How parents can help without knowing how to code
 
@@ -166,14 +162,14 @@ Being stuck for ten minutes on a bug is normal and useful. Resist fixing it for 
 
 About AI tools: many Year 7 students now have access to chatbots that write code. Used well, they explain error messages. Used badly, they hand over working code the student cannot explain, which collapses the moment a teacher asks a question. Our page on [how we teach](/how-we-teach) sets out how lessons keep students explaining their own code, with or without an AI tool open.
 
+Stages
+
 ## Four stages through Years 7 and 8
 
 With one or two lessons a week, most students reach the third stage during Year 7.
 
-**From first lines to confident programs**
-
 | Stage | What your child can do |
-|---|---|
+| --- | --- |
 | 1. Reads code | Predicts what a short program will print and explains each line |
 | 2. Writes code | Writes a working program with variables, decisions and loops from a blank file |
 | 3. Organises code | Splits a longer program into functions and tests each one separately |
@@ -182,63 +178,293 @@ With one or two lessons a week, most students reach the third stage during Year 
 ### Is Year 7 too late to start?
 
 Not at all. Plenty of strong programmers wrote their first line in Year 7 or later. Starting in Year 7 just means pairing the text coding with the thinking skills primary school would otherwise have built.
+
 For those students we often add a few weeks of problem-solving work alongside Python.
 
 ### Fitting it round school
 
 Lessons are after school or at the weekend and continue across the four school terms if a family wants. Billing is monthly, so pausing in a busy term is easy.
+
 We do not do or check assessed school work; we build the skills that make it manageable.
+
+The catalogue
 
 ## Courses for Years 6 to 8
 
 Grouped by where a student is starting from.
 
+I
+
 ### Before Year 7
 
 Upper primary
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass): A first text language with games and small AI projects.
-- [Problem Solving for Kids](/courses/problem-solving-and-computational-thinking-for-kids): Decomposition, patterns and algorithms before code.
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course): For students who have not yet coded with blocks.
+YRSV / PRE / 01
+
+#### Python and AI for Kids
+
+A first text language with games and small AI projects.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)
+
+YRSV / PRE / 02
+
+#### Problem Solving for Kids
+
+Decomposition, patterns and algorithms before code.
+
+[Open the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)
+
+YRSV / PRE / 03
+
+#### Scratch Coding for Kids
+
+For students who have not yet coded with blocks.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)II
 
 ### During Years 7 and 8
 
 Lower secondary
 
-- [Python for Teens](/courses/python-complete-masterclass-teens): Python from first lines to organised, tested programs.
-- [Web Development for Kids](/courses/kids-ai-web-development-course): HTML, CSS and a first look at JavaScript.
-- [Maths Through Coding](/courses/maths-through-coding): Python used to explore the maths of Years 5 to 10.
+YRSV / SEC / 01
+
+#### Python for Teens
+
+Python from first lines to organised, tested programs.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+YRSV / SEC / 02
+
+#### Web Development for Kids
+
+HTML, CSS and a first look at JavaScript.
+
+[Open the syllabus](/courses/kids-ai-web-development-course)
+
+YRSV / SEC / 03
+
+#### Maths Through Coding
+
+Python used to explore the maths of Years 5 to 10.
+
+[Open the syllabus](/courses/maths-through-coding)III
 
 ### Stretch
 
 Keen Year 8 students
 
-- [Competitive Programming for Teens](/courses/competitive-programming-for-teens-course): Algorithm puzzles for students who love a challenge.
-- [JavaScript for Teens](/courses/javascript-course-for-teens-beginners-interactive-web): A second language through interactive web pages.
-- [Cybersecurity for Teens](/courses/cybersecurity-course-for-teens-ethical-defensive): Ethical, defensive security for students drawn to ciphers.
+YRSV / EXT / 01
+
+#### Competitive Programming for Teens
+
+Algorithm puzzles for students who love a challenge.
+
+[Open the syllabus](/courses/competitive-programming-for-teens-course)
+
+YRSV / EXT / 02
+
+#### JavaScript for Teens
+
+A second language through interactive web pages.
+
+[Open the syllabus](/courses/javascript-course-for-teens-beginners-interactive-web)
+
+YRSV / EXT / 03
+
+#### Cybersecurity for Teens
+
+Ethical, defensive security for students drawn to ciphers.
+
+[Open the syllabus](/courses/cybersecurity-course-for-teens-ethical-defensive)
+
+How lessons run
 
 ## Live lessons around a Year 7 timetable
 
 Our teachers are based in India. Every Australian state is ahead of India time, by between two and a half hours (Perth) and five and a half (the eastern states in summer), so after-school lessons in Australia fall in the Indian afternoon.
 
-- **Weekday, late afternoon** Popular with Year 7 students who travel to a new school.
-- **Weekday, early evening** Works around sport and homework.
-- **Saturday or Sunday** A longer session for project work.
+Weekday, late afternoon
 
-- **A free first class** The teacher checks what your child can already read and write in code.
-- **Groups** Fifteen to twenty students of a similar level, usually all in Years 6 to 8.
-- **One to one** Helpful for a student who is anxious about text coding or far ahead of their class.
-- **Their own code** The student types every line. Teachers explain, ask and point at errors.
-- **Parents can watch** Every lesson is live, so you can see exactly how your child is taught.
-- **No ghost-writing** Assessment tasks are never written or checked by our teachers.
+Popular with Year 7 students who travel to a new school.
+
+Weekday, early evening
+
+Works around sport and homework.
+
+Saturday or Sunday
+
+A longer session for project work.
+
+### A free first class
+
+The teacher checks what your child can already read and write in code.
+
+### Groups
+
+Fifteen to twenty students of a similar level, usually all in Years 6 to 8.
+
+### One to one
+
+Helpful for a student who is anxious about text coding or far ahead of their class.
+
+### Their own code
+
+The student types every line. Teachers explain, ask and point at errors.
+
+### Parents can watch
+
+Every lesson is live, so you can see exactly how your child is taught.
+
+### No ghost-writing
+
+Assessment tasks are never written or checked by our teachers.
+
+Student work
+
+## Projects built by our students
+
+A few finished projects by our students, several of whom began text coding around Year 7. See more in our [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees for Year 7 coding
 
 Australian families pay one monthly price in US dollars. Nothing is charged to join, and there is no term-long contract.
 
-- Free first class: USD 0. A short Python task with a teacher. A recommended starting course. No card or bank details.
-- Group batch: USD 100 a month. Fifteen to twenty students per class. The same teacher each week. Classmates of a similar level. Stop after any month.
-- One to one: USD 150 a month. Lessons shaped around your child. A pace that suits them. Time for one ambitious project.
+Free first class
+
+USD 0
+
+no card required
+
+- A short Python task with a teacher
+- A recommended starting course
+- No card or bank details
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students per class
+- The same teacher each week
+- Classmates of a similar level
+- Stop after any month
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- Lessons shaped around your child
+- A pace that suits them
+- Time for one ambitious project
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Word for word as parents and students wrote them on Google.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions from parents
 
 ## What parents ask about coding in Year 7
 
@@ -282,15 +508,54 @@ Once a week is enough to make steady progress; twice a week suits a student prep
 
 The opening lesson is free with no card needed. Monthly prices for group places and private lessons are listed in the fees section further up this page.
 
+Elsewhere on this site
+
 ## Related pages
 
-- [Coding classes in Australia](/coding-classes-in-australia): The index of our pages for Australian students.
-- [Kids coding languages](/kids-coding-languages-australia): Which language to start with, and why.
-- [After Scratch: Python](/after-scratch-next-step-python-australia): The step from blocks to text.
-- [Coding for 11 and 12 year olds](/coding-classes-for-11-and-12-year-olds-australia): The last primary years, just before Year 7.
-- [Python for 12 year olds](/python-for-12-year-olds): A closer look at Python at this age.
-- [NAPLAN numeracy practice](/naplan-numeracy-practice-online): For the Year 7 NAPLAN tests in March.
+More for Australian students around Years 6 to 8.
 
-## Contact
+### [Coding classes in Australia](/coding-classes-in-australia)
 
-Book the free first class at [https://learn.modernagecoders.com/coding-for-year-7-australia](https://learn.modernagecoders.com/coding-for-year-7-australia#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The index of our pages for Australian students.
+
+### [Kids coding languages](/kids-coding-languages-australia)
+
+Which language to start with, and why.
+
+### [After Scratch: Python](/after-scratch-next-step-python-australia)
+
+The step from blocks to text.
+
+### [Coding for 11 and 12 year olds](/coding-classes-for-11-and-12-year-olds-australia)
+
+The last primary years, just before Year 7.
+
+### [Python for 12 year olds](/python-for-12-year-olds)
+
+A closer look at Python at this age.
+
+### [NAPLAN numeracy practice](/naplan-numeracy-practice-online)
+
+For the Year 7 NAPLAN tests in March.
+
+Start here
+
+## Book a free first class
+
+Send your details and we will call at a time that suits. In the free class your child reads and writes a little Python with a teacher, and you hear honestly whether they are ready for Year 7 coding and what would help.
+
+Curious how a lesson actually runs? [How we teach](/how-we-teach) breaks one down, and our [courses](/courses) page lists what comes after Year 8.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20starting%20or%20in%20Year%207%20in%20Australia%20and%20we%20would%20like%20help%20with%20coding.%20Could%20we%20book%20a%20free%20first%20class%3F) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+Australian families often find WhatsApp the quickest way to reach us. Our number begins +91 because the team is in India, and we do not have an Australian office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-for-year-7-australia*

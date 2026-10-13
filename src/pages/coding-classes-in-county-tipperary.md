@@ -4,46 +4,32 @@ description: "Live online coding, Python and AI classes across County Tipperary,
 canonical: https://learn.modernagecoders.com/coding-classes-in-county-tipperary
 source: src/pages/coding-classes-in-county-tipperary.html
 ---
-> County Tipperary holds 167,895 people, 8,342 more than in 2016, including 33,286 children aged 15 and under. Clonmel is the largest town at 18,369, with Nenagh at 9,895 and Thurles at 8,185, and the county has run as a single council since the North and South Riding councils merged. Its third level rate is 38% against 45% nationally, one of several counties where that gap is wide. We teach ages 6 to 67 live online at a fixed weekly hour, in groups of fifteen to twenty placed by ability or one to one, starting with a free lesson and then USD 100 a month in a group or USD 150 privately.
+> Live online coding, Python and AI classes across County Tipperary, from Clonmel and Nenagh to Thurles, Cashel and Roscrea, ages 6 to 67. The first lesson is free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [Waterford](/best-coding-class-in-waterford) / County Tipperary
-
-County Tipperary, Munster / Live online
-
-# Coding classes in County Tipperary
-
-**What are the best coding classes in County Tipperary?** County Tipperary holds 167,895 people, 8,342 more than in 2016, including 33,286 children aged 15 and under. Clonmel is the largest town at 18,369, with Nenagh at 9,895 and Thurles at 8,185, and the county has run as a single council since the North and South Riding councils merged. Its third level rate is 38% against 45% nationally, one of several counties where that gap is wide. We teach ages 6 to 67 live online at a fixed weekly hour, in groups of fifteen to twenty placed by ability or one to one, starting with a free lesson and then USD 100 a month in a group or USD 150 privately.
-
-We went looking for Tipperary council data for this page and found something more interesting than a spreadsheet. The council publishes nothing at all on the national data portal, which its own publisher page states plainly: zero datasets. It does run open data pages on its own website, and every attempt to read them returned a security block instead, the kind that stops automated requests. So the data may well exist and we cannot see it. At that point there are two kinds of person. One goes looking for a way around the block. The other writes down exactly what happened, quotes the message, and uses a source that gives permission. We are teaching children to be the second kind, and this page explains why that is the more valuable habit in a career, not just the more polite one.
-
-Facts last verified 16 September 2026. Teaching is online; no County Tipperary branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for County Tipperary
 
 ## Four ways into this
 
 Choose by age and by what the learner wants to make. A free lesson with the teacher who would take the course settles it properly.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Scratch projects with a locked door in them, and a character who has to find the key rather than break the wall.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python from first principles, aimed squarely at the Junior Cycle and Transition Year.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 15 to 18): Projects that use only sources which permit it, and say so in writing.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (College and adult): For adults who need figures from systems they do not own, without stepping over a line.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsScratch projects with a locked door in them, and a character who has to find the key rather than break the wall.See the syllabus](/courses/scratch-programming-complete-course)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython from first principles, aimed squarely at the Junior Cycle and Transition Year.See the syllabus](/courses/python-complete-masterclass-teens)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 15 to 18Vibe Coding for TeensProjects that use only sources which permit it, and say so in writing.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)College and adultData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For adults who need figures from systems they do not own, without stepping over a line.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## No data, or no permission?
 
 A short, real investigation with an uncomfortable ending, which is what makes it worth doing.
 
-**What we found looking for Tipperary council data, 16 September 2026**
-
 | Step | Result |
-|---|---|
+| --- | --- |
 | The national open data portal | The council's publisher page lists zero datasets |
 | The council's own open data page | A security block page instead of the content |
 | A second council data page | The same block |
@@ -68,14 +54,14 @@ Every organisation has a system somebody cannot query, an export that a supplier
 
 So the Tipperary project has no downloaded file in it at all. The output is a short written record, an exact quotation of the refusal, a named alternative source with its licence, and a paragraph on what could be answered and what could not. It is the least glamorous project in this cluster and one of the most useful.
 
+The county today
+
 ## Tipperary in the 2022 census
 
 These come from national statistics releases, which do permit reuse, and each names Tipperary.
 
-**County Tipperary, Census 2022, Central Statistics Office**
-
 | Measure | Figure |
-|---|---|
+| --- | --- |
 | Population | 167,895, up 8,342 since 2016 |
 | Women and men | 84,256 female and 83,639 male, or 99 males for every 100 females |
 | Average age | 40.3 years, against 38.6 in 2016 |
@@ -97,14 +83,14 @@ Among places of at least 500 people, Newport has the youngest average age at 34.
 
 Clonmel deserves a footnote that most write-ups skip. The statistics office registers its built-up area as spanning Counties Tipperary and Waterford, because the town boundary crosses the county line. The 18,369 figure is the whole town, not the Tipperary part of it, and anyone adding town populations to reach a county total will overshoot if they forget that. Non-Irish citizens make up 9% of the county, led by Polish at 3,255, UK at 2,926, Romanian at 1,187 and Lithuanian at 848.
 
+Access, in every sense
+
 ## The county with the lowest bus share in Ireland
 
 Tipperary's travel figures make an unusually direct argument for teaching this subject online.
 
-**Getting to work in Tipperary, Census 2022**
-
 | Measure | Figure |
-|---|---|
+| --- | --- |
 | People travelling to work | 65,656 |
 | Driving by car | 44,595 |
 | Travelling by bus | 528 people, a rate of 1%, the lowest in the country |
@@ -124,7 +110,11 @@ More than 43,200 people in the county hold a third level qualification, up from 
 
 TUS runs two campuses here, at Nenagh Road in Thurles, eircode E41 PC92, and in Clonmel, eircode E91 D896, so higher education in Tipperary is not concentrated in one place.
 
-**Working from home is least common here too** More than 73,200 people work in Tipperary. Over 47,300 of them never work from home, and almost 17,700 do at least some of the time, which the statistics office puts at 24% of the workforce against 32% nationally. A county that travels for almost everything gains the most from a class that requires no travel at all.
+Working from home is least common here too
+
+More than 73,200 people work in Tipperary. Over 47,300 of them never work from home, and almost 17,700 do at least some of the time, which the statistics office puts at 24% of the workforce against 32% nationally. A county that travels for almost everything gains the most from a class that requires no travel at all.
+
+Schools and landmarks
 
 ## One listed school, and a very old lesson in documentation
 
@@ -144,14 +134,37 @@ Because a name retyped from memory is a name that will not match a search, a dat
 
 We are not connected with Tipperary County Council, the Technological University of the Shannon, the Office of Public Works or any school named here. Population, education and travel figures are quoted from Central Statistics Office releases naming Tipperary; the zero dataset count is from the national portal's own publisher page; the description of the block is a plain account of what we received when we asked, with no attempt made to get around it. One well known Clonmel manufacturer is not named with an address here because its own site did not respond when we checked, and we do not take addresses from third parties.
 
+Learning ladder
+
 ## From asking permission to documenting a refusal
 
 Ages are a guide only. The free lesson sets the real starting point.
 
-- **Ages 6 to 10: Rules in a game** Programs where a door is locked on purpose, and the answer is the key rather than the wall. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 11 to 13: Whose data is it** Reading who owns a file and what the licence says before touching it. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Projects with clean hands** Research where every source is quoted, licensed and permitted, including the ones that said no. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Legitimate routes** Getting the figures you need from systems you do not own, the way an auditor would accept. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### Rules in a game
+
+Programs where a door is locked on purpose, and the answer is the key rather than the wall.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 11 to 13
+
+### Whose data is it
+
+Reading who owns a file and what the licence says before touching it.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Projects with clean hands
+
+Research where every source is quoted, licensed and permitted, including the ones that said no.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Legitimate routes
+
+Getting the figures you need from systems you do not own, the way an auditor would accept.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## An assistant will describe a dataset it has never opened
 
@@ -163,30 +176,139 @@ A learner who has personally hit the block knows the shape of the ground truth. 
 
 Coding in 2026 is less about typing and more about knowing which claims have been checked. A child who learns that on a real locked door will not forget it. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## What a Tipperary family signs up to
 
 Six things that are true of every class we run, so there is nothing to discover later.
 
-- **A teacher, live, every week** Not a video library with a chat box. Someone is there for the hour and expects the learner to speak.
-- **Zero travel** In a county where one commuter in a hundred takes a bus, that is the whole argument.
-- **Placed on ability** Groups of fifteen to twenty at one level, drawn from Tipperary and other countries so a suitable class exists at a workable hour.
-- **Irish school shape** Junior Cycle, Transition Year, fifth and sixth year, with mid-terms and exams planned around.
-- **Same hour, every week** Two lessons in most weeks, about eight a month, agreed once and then kept.
-- **A time zone ahead** Teachers work from India, four and a half hours ahead of Ireland in summer and five and a half in winter.
+### A teacher, live, every week
 
-**For families in the smaller towns** Roscrea, Cahir, Carrick-on-Suir, Templemore and Borrisokane are each a serious drive from the nearest evening option, and 44,595 people in this county already drive to work every day. Adding a second round trip to that week is what makes families quietly give up a subject in November. Removing the journey is not a concession here. It is the reason it lasts past Christmas.
+Not a video library with a chat box. Someone is there for the hour and expects the learner to speak.
+
+### Zero travel
+
+In a county where one commuter in a hundred takes a bus, that is the whole argument.
+
+### Placed on ability
+
+Groups of fifteen to twenty at one level, drawn from Tipperary and other countries so a suitable class exists at a workable hour.
+
+### Irish school shape
+
+Junior Cycle, Transition Year, fifth and sixth year, with mid-terms and exams planned around.
+
+### Same hour, every week
+
+Two lessons in most weeks, about eight a month, agreed once and then kept.
+
+### A time zone ahead
+
+Teachers work from India, four and a half hours ahead of Ireland in summer and five and a half in winter.
+
+For families in the smaller towns
+
+Roscrea, Cahir, Carrick-on-Suir, Templemore and Borrisokane are each a serious drive from the nearest evening option, and 44,595 people in this county already drive to work every day. Adding a second round trip to that week is what makes families quietly give up a subject in November. Removing the journey is not a concession here. It is the reason it lasts past Christmas.
+
+Fees
 
 ## Tipperary class fees
 
 Three figures, and the conditions stated up front rather than in a footnote.
 
-- First class: USD 0. A full first lesson at no cost, ending with a level and a recommendation.
-- Group tuition: USD 100 a month. A month of group classes, normally eight lessons, fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. A month of one to one classes on the same weekly pattern.
+First class**USD 0**
+
+A full first lesson at no cost, ending with a level and a recommendation.
+
+Group tuition**USD 100**
+
+A month of group classes, normally eight lessons, fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+A month of one to one classes on the same weekly pattern.
 
 We bill monthly in US dollars at the single rate charged outside India, so Nenagh and Carrick-on-Suir pay the same and there is no euro list to compare against. Nothing is charged before the free lesson has agreed a course and an hour, and pauses, missed lessons and moves between formats are set out on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20County%20Tipperary.)Reviews
+
+## Six Google reviews from our families, printed exactly as written
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Start with the free lesson
+
+Tell us the learner's age and what they are drawn to. The first hour is shaped around that, whether it is a puzzle with a locked door, a first Python program, or the question of which sources a project is allowed to use.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented County Tipperary one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20County%20Tipperary.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## County Tipperary coding class questions
+
+What Tipperary families ask before they start.
 
 ### How many people live in County Tipperary?
 
@@ -228,10 +350,14 @@ The first lesson is free. After that a shared place costs USD 100 a month and br
 
 Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
+Explore Ireland
+
 ## The counties and cities around Tipperary
 
 Tipperary borders more counties than most. Nearby pages include [Waterford](/best-coding-class-in-waterford), [Limerick](/best-coding-class-in-limerick), [County Clare](/coding-classes-in-county-clare) and [County Cork](/coding-classes-in-county-cork). To compare providers, read [best online coding classes in Ireland](/best-online-coding-classes-ireland), and everything is listed on the [Ireland coding page](/coding-classes-in-ireland).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20County%20Tipperary.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-county-tipperary](https://learn.modernagecoders.com/coding-classes-in-county-tipperary#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-county-tipperary*

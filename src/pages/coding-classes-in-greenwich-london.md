@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths classes for Greenwich: Wo
 canonical: https://learn.modernagecoders.com/coding-classes-in-greenwich-london
 source: src/pages/coding-classes-in-greenwich-london.html
 ---
-> Greenwich is the south east London borough of Greenwich, Woolwich, Eltham, Charlton, Plumstead, Abbey Wood, Kidbrooke and the Greenwich Peninsula, with 289,068 residents at the 2021 Census and the Royal Observatory, where the Prime Meridian runs through the Transit House. A coding class worth the time teaches a learner how tiny, repeated effects add up to something large, and this page does it with time itself: daily measurements of how long the Earth takes to turn, summed over half a century until they rebuild every leap second ever added to the world's clocks. We teach live by video from India, for anyone from 6 to 67, individually or in groups of fifteen to twenty at one level. Nothing is charged for the first lesson. From then on it is USD 100 a month in a group or USD 150 a month one to one.
+> Live online coding, Python, AI and maths classes for Greenwich: Woolwich, Eltham, Charlton, Plumstead, Abbey Wood and Greenwich Peninsula. Ages 6 to 67.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Greenwich
-
-Royal Borough of Greenwich / Live online
-
-# Coding classes in Greenwich
-
-**What are the best coding classes in Greenwich?** Greenwich is the south east London borough of Greenwich, Woolwich, Eltham, Charlton, Plumstead, Abbey Wood, Kidbrooke and the Greenwich Peninsula, with 289,068 residents at the 2021 Census and the Royal Observatory, where the Prime Meridian runs through the Transit House. A coding class worth the time teaches a learner how tiny, repeated effects add up to something large, and this page does it with time itself: daily measurements of how long the Earth takes to turn, summed over half a century until they rebuild every leap second ever added to the world's clocks. We teach live by video from India, for anyone from 6 to 67, individually or in groups of fifteen to twenty at one level. Nothing is charged for the first lesson. From then on it is USD 100 a month in a group or USD 150 a month one to one.
-
-Historic England's list entry for the Transit House at the Royal Observatory says that the Prime Meridian runs through its eastern part. Greenwich gave the world a way of measuring time and place; our learners use modern data to check how steady the Earth's own clock really is. The International Earth Rotation and Reference Systems Service publishes, for every day since 1962, how much longer or shorter than 86,400 seconds the Earth took to spin. The differences are thousandths of a second. In 1972 each day ran about 3 milliseconds long. That sounds like nothing, but add it up over a year and it comes to more than a second, which is why leap seconds exist. Learners add up every day from 1972 to 2026 and rebuild all 27 leap seconds to within four thousandths of a second.
-
-Facts last verified 25 September 2026. Teaching is online; no Greenwich branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Greenwich
 
 ## First courses from Greenwich
 
 Picture a Year 1 child in Eltham who loves the big clock at the Observatory gate, a Year 9 pupil in Woolwich curious about how GPS keeps time, a Year 12 student in Charlton choosing physics or computer science, and a commuter on the Peninsula who has always wondered what a leap second is. Every one of them can start with a free lesson.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): A Scratch clock with a second hand that drifts slightly, and a counter that adds up the drift day by day.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 9 to 12): First Python: add up thousands of tiny numbers and watch a big total appear.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Python for Key Stages 3 to 5, including the length-of-day and leap second project on this page.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): For adults who handle rates and totals at work and want to see how small daily effects become big yearly ones.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsA Scratch clock with a second hand that drifts slightly, and a counter that adds up the drift day by day.See the syllabus](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 9 to 12Python and AI for KidsFirst Python: add up thousands of tiny numbers and watch a big total appear.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensPython for Key Stages 3 to 5, including the length-of-day and leap second project on this page.See the syllabus](/courses/python-complete-masterclass-teens)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For adults who handle rates and totals at work and want to see how small daily effects become big yearly ones.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Greenwich in figures
 
 ## 289,068 residents and 28 Grade I entries
 
 The organisation named beside each figure publishes it, or publishes the data we counted it from.
 
-**Royal Borough of Greenwich: figures and their origin**
-
 | What | Figure | Origin |
-|---|---|---|
+| --- | --- | --- |
 | People counted at the 2021 Census | 289,068 | ONS, table TS001 |
 | Listed entries inside the borough, by our count | 540, including 28 Grade I and 45 Grade II* | Historic England data, 25 September 2026 |
 | Council libraries in its directory | 12 | Royal Borough of Greenwich, read 25 September 2026 |
@@ -63,14 +49,14 @@ The Great Hall of Eltham Palace, Charlton House, the Ranger's House, Vanbrugh Ca
 
 The council's directory lists libraries at Abbey Wood, Blackheath, Charlton House, Coldharbour, Eltham Centre, Greenwich Centre, New Eltham, Plumstead, Slade Centre, Thamesmere, West Greenwich and Woolwich Centre.
 
+The data
+
 ## How long was yesterday?
 
 Atomic clocks keep perfectly steady seconds. The Earth does not keep perfectly steady days. The IERS series records the difference for every day since 1 January 1962: 23,614 days up to 26 August 2026.
 
-**Average length of day minus 86,400 seconds, in milliseconds**
-
 | Year | Average excess | Days shorter than 86,400 s | Added up over the year |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1972 | +3.13 | 0 | +1.14 seconds |
 | 1990 | +1.95 | 0 | +0.71 seconds |
 | 2005 | +0.43 | 73 | +0.16 seconds |
@@ -78,6 +64,8 @@ Atomic clocks keep perfectly steady seconds. The Earth does not keep perfectly s
 | 2022 | -0.25 | 239 | -0.09 seconds |
 
 The longest day in the series was 12 April 1972, 4.355 milliseconds over 86,400 seconds. The first day shorter than 86,400 seconds came on 2 August 1986, and the shortest of all was 5 July 2024, 1.651 milliseconds under. In recent years more than half of all days have been slightly short. The IERS also publishes every leap second: atomic time and the world's civil time were 10 seconds apart in 1972 and have been 37 seconds apart since 1 January 2017, the last time one was added.
+
+Signature project
 
 ## Rebuilding 27 leap seconds from 19,962 days
 
@@ -95,10 +83,8 @@ The IERS publishes the real gap between Earth time and atomic time. Subtract the
 
 Each time the gap grows by about another second, a leap second was added to keep civil clocks close to the Earth. Mark them on the chart.
 
-**The running sum against the published record, run 25 September 2026**
-
 | Measure | Value |
-|---|---|
+| --- | --- |
 | Gap between Earth time and atomic time, 1 January 1972 | 10.05 seconds |
 | Published gap, 26 August 2026 | 36.993 seconds |
 | Gap rebuilt by adding up every day's length | 36.996 seconds |
@@ -110,6 +96,8 @@ A day about three thousandths of a second too long is invisible on any watch, ye
 ### Why an AI answer does not replace this
 
 An AI assistant can explain leap seconds in a paragraph. It cannot give a learner the experience of watching thousandths of a second pile up into whole seconds in their own running total, or of checking that total against the published record and finding it right to four thousandths. That experience, small rates becoming large totals, underlies interest, population growth, climate and software performance alike.
+
+The big idea
 
 ## Small rates, large totals
 
@@ -129,6 +117,8 @@ The rate was positive for decades and has recently dipped below zero. A forecast
 
 Pupils studying GCSE maths can follow the running total and the units; A-level students can connect it to integration and compare the running sum with the trapezium rule. The Earth rotation figures are the IERS's, published by the Paris Observatory; the running sums, yearly averages and comparisons are our own, computed on 25 September 2026. The IERS, the Paris Observatory, Royal Museums Greenwich, the Royal Borough of Greenwich, Historic England, TfL and the ONS have no link with Modern Age Coders.
 
+Getting around
+
 ## Greenwich station, the DLR and a desk at home
 
 Greenwich is served by the DLR and main-line trains. Our classes are served by broadband.
@@ -145,16 +135,41 @@ A learner in Eltham and one on the Greenwich Peninsula can join the same lesson 
 
 Our timetable keeps steadier time than the Earth: two evenings a week, the same group of fifteen to twenty learners at one stage.
 
-**Greenwich among the boroughs** Greenwich is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) covers all of them and the City, adding a link to each page as it is published, including [Bexley](/coding-classes-in-bexley-london) to the east.
+Greenwich among the boroughs
+
+Greenwich is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) covers all of them and the City, adding a link to each page as it is published, including [Bexley](/coding-classes-in-bexley-london) to the east.
+
+Learning ladder
 
 ## From a drifting clock to running sums
 
 In the free lesson we see what the learner can already do, and that, more than a year group, sets where they start.
 
-- **Ages 6 to 10: Clocks and counting** Children build clocks in Scratch and count how a small change each tick adds up. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 10 to 13: Loops that add** Python loops that keep a running total over thousands of values and print where it crosses each whole number. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 18: Rates and totals** Running sums checked against a published record, the idea behind integration, a strong physics or computing project. [Python for Teens](/courses/python-complete-masterclass-teens), [Full Stack Web Development for Teens](/courses/full-stack-web-development-teens-masterclass)
-- **Ages 18 to 67: Compounding effects** Adults learn to see how small, persistent rates turn into large totals, in data they meet every day. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### Clocks and counting
+
+Children build clocks in Scratch and count how a small change each tick adds up.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 10 to 13
+
+### Loops that add
+
+Python loops that keep a running total over thousands of values and print where it crosses each whole number.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 18
+
+### Rates and totals
+
+Running sums checked against a published record, the idea behind integration, a strong physics or computing project.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Full Stack Web Development for Teens](/courses/full-stack-web-development-teens-masterclass)Ages 18 to 67
+
+### Compounding effects
+
+Adults learn to see how small, persistent rates turn into large totals, in data they meet every day.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## AI can explain leap seconds. Why should a Greenwich teenager compute them?
 
@@ -166,30 +181,139 @@ Running sums, units and independent checks are the backbone of trustworthy softw
 
 Greenwich has been measuring time for three and a half centuries. A Greenwich learner who can measure the Earth's own timekeeping with code is part of that story. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Woolwich to Blackheath, live lessons at home
 
 Anywhere in the Royal Borough, a lesson begins when the video call does.
 
-- **Home desk** Learners need a laptop or desktop, headphones and an internet connection good enough for video calls.
-- **English school stages** We talk about progress using the Key Stages English schools use, Key Stage 1 up to sixth form, with GCSE and A level mentioned where relevant. Lessons are in English.
-- **Start for free** A proper first lesson with a teacher, free, ending with a recommended level and course. No payment details are requested.
-- **Same-level classes** Fifteen to twenty learners at the same stage form each class, drawn from across the UK and abroad, so there is usually a suitable hour.
-- **Two evenings weekly** Classes generally meet twice a week in the evening, pausing for half terms, holidays and exams as agreed.
-- **Greenwich Mean Time, naturally** Teachers work from India, but every time we send is given as it reads on a UK clock.
+### Home desk
 
-**A large borough, one right class** Nearly 290,000 people live in Greenwich, and a good class still needs five learners at one level free together, so our groups draw far beyond the borough.
+Learners need a laptop or desktop, headphones and an internet connection good enough for video calls.
+
+### English school stages
+
+We talk about progress using the Key Stages English schools use, Key Stage 1 up to sixth form, with GCSE and A level mentioned where relevant. Lessons are in English.
+
+### Start for free
+
+A proper first lesson with a teacher, free, ending with a recommended level and course. No payment details are requested.
+
+### Same-level classes
+
+Fifteen to twenty learners at the same stage form each class, drawn from across the UK and abroad, so there is usually a suitable hour.
+
+### Two evenings weekly
+
+Classes generally meet twice a week in the evening, pausing for half terms, holidays and exams as agreed.
+
+### Greenwich Mean Time, naturally
+
+Teachers work from India, but every time we send is given as it reads on a UK clock.
+
+A large borough, one right class
+
+Nearly 290,000 people live in Greenwich, and a good class still needs five learners at one level free together, so our groups draw far beyond the borough.
+
+Fees
 
 ## Fees for Greenwich families
 
 The first lesson is free; after that one monthly fee applies across the Royal Borough.
 
-- First class: USD 0. A full lesson with a teacher, free, finishing with a recommended level, course and time.
-- Group tuition: USD 100 a month. About eight live lessons a month in a group of fifteen to twenty at one stage.
-- Private tuition: USD 150 a month. About eight live lessons a month, one to one.
+First class**USD 0**
+
+A full lesson with a teacher, free, finishing with a recommended level, course and time.
+
+Group tuition**USD 100**
+
+About eight live lessons a month in a group of fifteen to twenty at one stage.
+
+Private tuition**USD 150**
+
+About eight live lessons a month, one to one.
 
 Greenwich families pay in US dollars, as all families outside India do, and the site shows no prices in pounds. Nothing is charged until the free lesson is complete and you have chosen a course and regular time. Pausing, missed lessons and switching between group and private lessons are explained on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Greenwich.)Reviews
+
+## Families' reviews from Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Request a free lesson
+
+Tell us an age or school year and one interest. We could start with a Scratch clock, a Python running total, or the leap second project from this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Greenwich one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Greenwich.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Greenwich questions
+
+About the borough, the Earth rotation project and our classes.
 
 ### How many people live in Greenwich?
 
@@ -231,10 +355,14 @@ The first lesson is free. After that, a group place costs USD 100 a month for tw
 
 By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
 
+Explore London
+
 ## From the meridian outwards
 
 Every borough and the City has a place on the [London page](/best-coding-class-in-london), linked when its page goes live, such as [Richmond upon Thames](/coding-classes-in-richmond-upon-thames-london), home of Kew Observatory, and [Newham](/coding-classes-in-newham-london) across the Thames. Learners who enjoy data and prediction can continue with our [AI and machine learning classes in London](/ai-and-machine-learning-classes-in-london), and the [UK coding page](/coding-classes-in-united-kingdom) compares school stages across the four UK nations.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Greenwich.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-greenwich-london](https://learn.modernagecoders.com/coding-classes-in-greenwich-london#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-greenwich-london*

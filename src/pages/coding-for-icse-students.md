@@ -12,7 +12,7 @@ For ICSE/ISC parents · Class 7 through 12
 
 ICSE and ISC are Java-heavy, BlueJ-centric, and strict about OOP style. Our 1 hour live classes know the CISCE syllabus by heart, from Class 7 Computer Applications through ISC Class 12 CS, and build real Java projects alongside board prep.
 
-[Book a free demo class](/book-demo)See the curriculum**5,200+**ICSE/ISC students with us**4.9 / 5**Parent rating · 580+ reviews**1 hour**Live class, 1:1 or group**CISCE**Syllabus-aligned curriculumICSEBoard · CISCEJava / BlueJCA + ISC CSOOP done rightCourses matched for this level
+[Book a free demo class](/book-demo)See the curriculum**10,000+**Students taught live since 2020**4.9 / 5**Rated across 547 Google reviews**1 hour**Live class, 1:1 or group**CISCE**Syllabus-aligned curriculumICSEBoard · CISCEJava / BlueJCA + ISC CSOOP done rightCourses matched for this level
 
 ## ICSE-aligned courses: Class 7 onwards.
 
@@ -154,9 +154,9 @@ One teacher, one learner, the full 1 hour. The teacher adapts pace in real time,
 
 **₹4,999**/ month · 4 sessionsOption B
 
-### Live Small-Group Online Class
+### Live Group Online Class
 
-4 to 6 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
+15 to 20 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
 
 - Small groups of 4 to 6 similar-level learners
 - 1 hour live session, 2 sessions per week
@@ -209,7 +209,7 @@ Fill the form. Our counsellor calls you within 3 hours, understands your child's
 
 ### Related pages
 
-[Compare Coding for CBSE](/coding-for-cbse-students)[Compare Coding for IGCSE](/coding-for-igcse-students)[Paper ICSE CA Class 10](/computer-applications-icse-class-10)[Paper CS Class 11 ICSE](/computer-science-class-11-icse)[Paper CS Class 12 ICSE](/computer-science-class-12-icse)[Grade Coding for Class 9](/coding-for-class-9)[Grade Coding for Class 10](/coding-for-class-10)[Course Java for Teens](/java-programming-for-kids-teens)
+[Class 10 ICSE Class 10 Java classes](/icse-class-10-java-classes-online)[Class 10 Computer Applications syllabus](/icse-class-10-computer-applications-syllabus-explained)[Class 10 Java programs practice](/icse-class-10-java-programs-practice)[Class 10 BlueJ coaching](/icse-class-10-bluej-java-coaching)[Class 10 CA board exam preparation](/icse-class-10-computer-applications-board-exam-preparation)[Compare Coding for CBSE](/coding-for-cbse-students)[Compare Coding for IGCSE](/coding-for-igcse-students)[Paper ICSE CA Class 10](/computer-applications-icse-class-10)[Paper CS Class 11 ICSE](/computer-science-class-11-icse)[Paper CS Class 12 ICSE](/computer-science-class-12-icse)[Grade Coding for Class 9](/coding-for-class-9)[Grade Coding for Class 10](/coding-for-class-10)[Course Java for Teens](/java-programming-for-kids-teens)
 
 ### Coding classes near your city
 

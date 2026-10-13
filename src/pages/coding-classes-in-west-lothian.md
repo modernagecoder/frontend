@@ -4,46 +4,32 @@ description: "Live online coding, Python and maths classes across West Lothian, 
 canonical: https://learn.modernagecoders.com/coding-classes-in-west-lothian
 source: src/pages/coding-classes-in-west-lothian.html
 ---
-> West Lothian had about 181,300 residents in roughly 79,800 households at the 2022 census, at 423.9 people per square kilometre. Livingston is by far the largest town, followed by Bathgate, Broxburn, Linlithgow, Armadale and Whitburn, with East Calder, Fauldhouse and Winchburgh among the smaller places. Lessons are live on video with teachers in India, and a free first lesson places each learner at the right stage, from P1 to S6 or as an adult. Coding, Python and maths are taught to people from six up to 67, individually or in classes of fifteen to twenty. The West Lothian project starts with a famous heap of shale. West Lothian families who stay on pay a monthly USD 100 for a shared class, or USD 150 for a tutor to themselves.
+> Live online coding, Python and maths classes across West Lothian, from Livingston, Bathgate and Broxburn to Linlithgow, Armadale, Whitburn and East Calder.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / West Lothian
-
-West Lothian / Live online
-
-# Coding classes in West Lothian
-
-**What are the best coding classes in West Lothian?** West Lothian had about 181,300 residents in roughly 79,800 households at the 2022 census, at 423.9 people per square kilometre. Livingston is by far the largest town, followed by Bathgate, Broxburn, Linlithgow, Armadale and Whitburn, with East Calder, Fauldhouse and Winchburgh among the smaller places. Lessons are live on video with teachers in India, and a free first lesson places each learner at the right stage, from P1 to S6 or as an adult. Coding, Python and maths are taught to people from six up to 67, individually or in classes of fifteen to twenty. The West Lothian project starts with a famous heap of shale. West Lothian families who stay on pay a monthly USD 100 for a shared class, or USD 150 for a tutor to themselves.
-
-Historic Environment Scotland names the Five Sisters as the most widely known shale bing, a heap of waste left from the oil-shale industry that James Young pioneered. It has an unusual form, with five distinct lobes that the record says were formed by the method of tipping. Other bings are huge: the scheduled area at Greendykes near Broxburn measures about 920 by 580 metres. How does tipping create a shape? Every grain dropped on a heap either stays or slides downhill until the slope is gentle enough, and those simple rules, repeated thousands of times, build cones, ridges and lobes. This page's project simulates it in Python.
-
-Facts last verified 26 September 2026. Teaching is online; no West Lothian branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for West Lothian
 
 ## Where West Lothian learners start
 
 A P2 in Livingston who loves sandpits, a P6 in Bathgate ready to type code, an S4 in Linlithgow studying National 5, and an adult in Broxburn moving into data work. Each one begins with a free trial.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 12): Block coding with falling objects, piles and simple physics rules.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 9 to 13): A first typed language, with grids, loops and small simulations.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 12 to 18): Complete Python for teenagers, including 2D grids and simulation.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (Adults): Data analysis for adults, from spreadsheets to Python models and charts.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 12Coding for KidsBlock coding with falling objects, piles and simple physics rules.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 9 to 13Python and AI for KidsA first typed language, with grids, loops and small simulations.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 12 to 18Python for TeensComplete Python for teenagers, including 2D grids and simulation.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)AdultsData Analysis CourseData analysis for adults, from spreadsheets to Python models and charts.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)West Lothian figures
 
 ## About 181,300 people in West Lothian
 
 The council total is a rounded first result from Scotland's 2022 census, published by National Records of Scotland. Town figures are NRS estimates for mid-2020.
 
-**West Lothian localities above 3,000 people, NRS mid-2020 estimates**
-
 | Locality | Residents | Locality | Residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Livingston | 56,840 | East Calder | 6,430 |
 | Bathgate | 23,600 | Blackburn | 5,730 |
 | Broxburn | 15,970 | Fauldhouse | 4,900 |
@@ -57,16 +43,16 @@ West Lothian has 423.9 residents per square kilometre, about six times the Scott
 
 The [Edinburgh](/best-coding-class-in-edinburgh) page covers the capital. For qualifications: [National 5 Computing Science](/national-5-computing-science-help) and [Higher Maths](/higher-maths-tuition-online).
 
+The West Lothian project
+
 ## Forty thousand grains, five tipping points
 
 A grid, a slide rule for grains, and shapes nobody programmed.
 
 The heap is imaginary. The ground is a grid of 161 by 161 squares, each holding a column of grains. A grain is dropped at a tipping point and then obeys one rule: if a neighbouring square is at least two grains lower, it slides to the lowest such neighbour, and keeps going until no step down is that steep. Real spoil settles at a natural slope called the angle of repose; the rule builds the same idea into the grid. The learner drops 40,000 grains, first all at one point and then shared among five points in a row, and prints the heights.
 
-**Our simulated heaps, 40,000 grains each, 26 September 2026**
-
 | Tipping plan | What forms | Peak height | Low point between peaks |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | One point | A single cone, 61 squares wide | 62 | Not applicable |
 | Five points, 30 squares apart | Five separate lobes | 36 each | 6 |
 | Five points, 10 squares apart | One long ridge | 39 to 44 | 32 to 34 |
@@ -91,14 +77,14 @@ Run the five-point and ridge experiments, detect the diamond artefact, and add d
 
 The Five Sisters and Greendykes descriptions come from Historic Environment Scotland records. The grid, the rule, the grain counts and every result are invented for teaching and say nothing about how the real bings were tipped or measured.
 
+Why the Five Sisters
+
 ## A heap that remembers an industry
 
 What the scheduled monument records say.
 
-**Five Sisters (SM6254) and Greendykes (SM6186) shale bings, Historic Environment Scotland**
-
 | Record detail | What it says |
-|---|---|
+| --- | --- |
 | What a bing is | A waste heap of residue from the destructive distillation of shale to extract oil |
 | Five Sisters form | Rather unusual, with five distinct lobes formed by the method of tipping |
 | Five Sisters importance | The most widely known reminder of the pioneering West Lothian shale oil industry |
@@ -110,14 +96,37 @@ Simulations built from tiny local rules explain landslides, snowdrifts, sand dun
 
 We have no connection with Historic Environment Scotland or West Lothian Council. The records' facts are theirs; the heap simulation and any errors are ours.
 
+Stages
+
 ## From pouring rice to grid simulations
 
 The stages are a guide; the free trial settles the real starting point.
 
-- **P1 to P4: Falling and piling** Block coding with falling sprites and simple rules. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **P5 to S2: Grids and loops** Typed Python with 2D lists and step-by-step rules. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **S3 to S6: Simulation and modelling** Larger simulations beside National 5, Higher and Advanced Higher courses. [Python for Teens](/courses/python-complete-masterclass-teens), [High School Mathematics](/courses/complete-high-school-mathematics-mastery)
-- **Adults: Models and data** Python and data analysis for adults working with models. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+P1 to P4
+
+### Falling and piling
+
+Block coding with falling sprites and simple rules.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)P5 to S2
+
+### Grids and loops
+
+Typed Python with 2D lists and step-by-step rules.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)S3 to S6
+
+### Simulation and modelling
+
+Larger simulations beside National 5, Higher and Advanced Higher courses.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[High School Mathematics](/courses/complete-high-school-mathematics-mastery)Adults
+
+### Models and data
+
+Python and data analysis for adults working with models.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)AI and models
 
 ## An AI can write a heap simulation in seconds. Will it notice the heap is a diamond?
 
@@ -129,30 +138,139 @@ A West Lothian learner who has measured a heap along the axis and the diagonal k
 
 A model that looks right can still be wrong in shape, and catching that is a reason for West Lothian teenagers to keep learning to code in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## From Linlithgow to West Calder, lessons at home
 
 Every town and village in West Lothian joins by video in the same way.
 
-- **Learner at the keys** Pupils write and run their own code; the teacher follows the shared screen and steps in when needed.
-- **Stages you already know** An Armadale P4 or a Whitburn S3 hears the Curriculum for Excellence names used at school, up to Advanced Higher. Lessons are in English.
-- **Trial lesson, free** One complete lesson with no charge, then honest advice.
-- **Classes by stage** Fifteen to twenty learners sharing a stage, from several countries.
-- **Two a week in term** Lessons run through term and pause for the holidays.
-- **UK time throughout** Your slot stays at its UK time as the clocks change; the teachers in India time adjust.
+### Learner at the keys
 
-**Why groups span towns** Even in Livingston, five learners at one stage free at the same hour are hard to find. Grouping by stage across a wider pool gives a pupil in Fauldhouse or Winchburgh a class that fits.
+Pupils write and run their own code; the teacher follows the shared screen and steps in when needed.
+
+### Stages you already know
+
+An Armadale P4 or a Whitburn S3 hears the Curriculum for Excellence names used at school, up to Advanced Higher. Lessons are in English.
+
+### Trial lesson, free
+
+One complete lesson with no charge, then honest advice.
+
+### Classes by stage
+
+Fifteen to twenty learners sharing a stage, from several countries.
+
+### Two a week in term
+
+Lessons run through term and pause for the holidays.
+
+### UK time throughout
+
+Your slot stays at its UK time as the clocks change; the teachers in India time adjust.
+
+Why groups span towns
+
+Even in Livingston, five learners at one stage free at the same hour are hard to find. Grouping by stage across a wider pool gives a pupil in Fauldhouse or Winchburgh a class that fits.
+
+Fees
 
 ## Fees in West Lothian
 
 Bathgate or Mid Calder, the fee is the same, as in every country we teach outside India.
 
-- First class: USD 0. A full free trial, then a clear recommendation.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty.
-- Private tuition: USD 150 a month. About eight lessons a month with your own teacher.
+First class**USD 0**
+
+A full free trial, then a clear recommendation.
+
+Group tuition**USD 100**
+
+About eight lessons a month in a group of fifteen to twenty.
+
+Private tuition**USD 150**
+
+About eight lessons a month with your own teacher.
 
 Every fee is quoted in US dollars, never sterling. Once the trial has settled a course and a weekday, invoices begin; the pricing page answers questions about breaks, absences and moving between formats.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20West%20Lothian%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Reviews
+
+## Google star ratings from learners
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free West Lothian lesson
+
+Send a note with the learner's age or stage and a favourite pastime. The trial could then be a Scratch game, a first Python grid, or the heap simulation on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented West Lothian one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20West%20Lothian%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## West Lothian questions
+
+The council area, the Five Sisters project and practical points.
 
 ### What is the population of West Lothian?
 
@@ -194,10 +312,14 @@ There is no charge for the trial. Afterwards, group tuition is USD 100 monthly a
 
 Yes. Let us know your school's holiday weeks and we leave them free.
 
+Nearby pages
+
 ## Around West Lothian
 
 [Falkirk](/coding-classes-in-falkirk) grows seeds at the golden angle, [Midlothian](/coding-classes-in-midlothian) finds sunlit faces on a sundial, and [Edinburgh](/best-coding-class-in-edinburgh) has its own page. See every council on the [Scotland](/coding-and-ai-classes-in-scotland) page, or the [UK hub](/coding-classes-in-united-kingdom) for the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20West%20Lothian%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-west-lothian](https://learn.modernagecoders.com/coding-classes-in-west-lothian#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-west-lothian*

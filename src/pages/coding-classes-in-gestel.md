@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes in Gestel, Eindhoven for
 canonical: https://learn.modernagecoders.com/coding-classes-in-gestel
 source: src/pages/coding-classes-in-gestel.html
 ---
-> Coding classes in Gestel reach a stadsdeel of three statistics office wijken, Rozenknopje, Oud-Gestel and Gestelse Ontginning, all three read, with 28,334 residents in January 2026. Oud-Gestel has 2,296 owner-occupied dwellings and Gestelse Ontginning 2,290, six apart. As shares they are 33 percent of 6,958 dwellings and 62 percent of 3,694: a gap of 29 percentage points, which is also 88 percent more, 47 percent fewer, or odds of owning 3.3 times as high. Every one of those is true, and only the first is the same in both directions. Modern Age Coders teaches live online in English from Hanevoet to the Schrijversbuurt, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
+> Live online coding, Python and AI classes in Gestel, Eindhoven for ages 6 to 67, in Rozenknopje, Oud-Gestel and Gestelse Ontginning. The first lesson is free.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Eindhoven](/coding-classes-in-eindhoven) / Gestel
-
-Gestel, Eindhoven / Live online
-
-# Coding classes in Gestel, where the same gap is six homes, 29 points or 88 percent
-
-**What are the best coding classes in Gestel, Eindhoven?** Coding classes in Gestel reach a stadsdeel of three statistics office wijken, Rozenknopje, Oud-Gestel and Gestelse Ontginning, all three read, with 28,334 residents in January 2026. Oud-Gestel has 2,296 owner-occupied dwellings and Gestelse Ontginning 2,290, six apart. As shares they are 33 percent of 6,958 dwellings and 62 percent of 3,694: a gap of 29 percentage points, which is also 88 percent more, 47 percent fewer, or odds of owning 3.3 times as high. Every one of those is true, and only the first is the same in both directions. Modern Age Coders teaches live online in English from Hanevoet to the Schrijversbuurt, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
-
-Two wijken of Gestel sit side by side along the Gender and the Dommel, and they differ sharply in who owns their homes. Ask how sharply and there is no single answer. They hold almost exactly the same number of owner-occupied dwellings. As a share, one has 29 percentage points more. As a ratio, one has 88 percent more owners, which is the same fact as the other having 47 percent fewer, and on the renting side the same gap becomes 76 percent more renters. Put as odds, the kind of figure a statistical model prints, it is 3.3 times. None of these is a mistake. The mistake is to report one of them without saying which, because a reader cannot convert between them in their head, and whoever chose the framing chose the impression.
-
-Facts last verified 10 September 2026. Teaching is online; no Gestel branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Gestel
 
 ## Four courses for the south-west of Eindhoven
 
 A groep 4 child in Rozenknopje who has never written a line of code, a teenager in Oud-Gestel who has already sketched the app and wants to build it, a student near the campus in the south whose new model is described as twice as good as the old one, and an adult in Gestelse Ontginning who reads three reports a week that all say percent. Each of them starts with a lesson that is taught properly and costs nothing.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Typed Python where a child compares two collections and learns to say how much bigger in two ways, by taking away and by dividing.
-- [App Development for Teens](/courses/complete-app-development-masterclass-for-teens) (Ages 13 to 18): A real application from first screen to finished build, including the chart that labels its axis in points or in percent and never mixes them.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Python for comparing results, where a model that halves an error of two percent has gained one point and the report has to say so.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): Reading a percent in a headline by asking three things: percent of what, compared with what, and in points or as a ratio.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsTyped Python where a child compares two collections and learns to say how much bigger in two ways, by taking away and by dividing.See the syllabus](/courses/python-ai-kids-masterclass)[![App Development for Teens course thumbnail](/images/app-dev-teens.webp)Ages 13 to 18App Development for TeensA real application from first screen to finished build, including the chart that labels its axis in points or in percent and never mixes them.See the syllabus](/courses/complete-app-development-masterclass-for-teens)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CoursePython for comparing results, where a model that halves an error of two percent has gained one point and the report has to say so.See the syllabus](/courses/python-ai-automation-masterclass-college)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)Reading a percent in a headline by asking three things: percent of what, compared with what, and in points or as a ratio.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Gestel today
 
 ## Three wijken between the Dommel and the campus
 
@@ -52,16 +40,18 @@ Since Napoleonic times Gestel belonged to the municipality of Gestel en Blaarthe
 
 8,060 residents on 245 hectares, in three buurten: Genderbeemd, Hanevoet and Ooievaarsnest. The owner-occupied share is the highest in Gestel, 2,290 of 3,694 dwellings, and so is the share over sixty-five, 1,845 residents, 23 percent. Four primary establishments teach 954 pupils.
 
-**A painted mill, a village church and a research campus** The encyclopaedia entry for Gestel supplies the landmarks. The Sint-Lambertuskerk, with its pastorie, was built in 1910 to a design by Wolter te Riele. The Genneper Watermolen was painted four times on canvas by Vincent van Gogh. The Historisch Openlucht Museum Eindhoven stands in the Genneper Parken, among a cluster of other sports grounds. The Clarissenklooster is on the Claralaan and the convent of the Zusters van Liefde van Schijndel on the Hoogstraat. The small river Gender, which once meandered, has become a drainage channel, while the Dommel still flows south of Gestel. And the High Tech Campus Eindhoven, which began in 1998 as the central research centre of Philips and opened to other innovative companies in 2003, lies in the south of Gestel.
+A painted mill, a village church and a research campus
+
+The encyclopaedia entry for Gestel supplies the landmarks. The Sint-Lambertuskerk, with its pastorie, was built in 1910 to a design by Wolter te Riele. The Genneper Watermolen was painted four times on canvas by Vincent van Gogh. The Historisch Openlucht Museum Eindhoven stands in the Genneper Parken, among a cluster of other sports grounds. The Clarissenklooster is on the Claralaan and the convent of the Zusters van Liefde van Schijndel on the Hoogstraat. The small river Gender, which once meandered, has become a drainage channel, while the Dommel still flows south of Gestel. And the High Tech Campus Eindhoven, which began in 1998 as the central research centre of Philips and opened to other innovative companies in 2003, lies in the south of Gestel.
+
+One gap, five headlines
 
 ## Six homes apart, and 29 points apart, at the same time
 
 All the counts below are published by the statistics office for 2025. Every share, difference and ratio is a calculation made on this page, and each row of the table is a true description of the same two wijken.
 
-**Owner-occupied dwellings, Oud-Gestel against Gestelse Ontginning, 2025**
-
 | How the gap is stated | Oud-Gestel | Gestelse Ontginning | The headline it produces |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | As a count of homes | 2,296 owner-occupied | 2,290 owner-occupied | the same number of owner-occupiers, six apart |
 | As a share, in percentage points | 33.0 percent of 6,958 | 62.0 percent of 3,694 | a gap of 29 points either way round |
 | As a ratio, from Oud-Gestel | the base | 1.88 times the share | owner-occupation 88 percent higher |
@@ -70,6 +60,8 @@ All the counts below are published by the statistics office for 2025. Every shar
 | As odds of owning | 0.49 to 1 | 1.63 to 1 | odds of owning 3.3 times as high |
 
 Read down the last column and the two wijken go from identical to wildly different without a single number changing. The count says they are the same because Gestelse Ontginning has almost exactly half as many dwellings, 3,694 against 6,958, and so its 2,290 owner-occupied homes make up almost twice the share. The points column is the only one that gives the same answer whichever wijk is taken as the starting point: 29 points from either side. Every ratio depends on its base, which is why 88 percent more and 47 percent fewer describe one gap, and on which side of the complement is counted, which is why owning gives 88 and renting gives 76. The odds ratio, 3.3, is larger again, and it is the number a logistic regression would print.
+
+Verified local facts
 
 ## The three wijken of Gestel as published, and every calculation made here
 
@@ -101,6 +93,8 @@ It does not say either wijk is more prosperous, more settled or better housed; t
 
 Modern Age Coders is not connected with Gestel, with Eindhoven, with the campus in its south or with any school, museum or church named here, and nothing on the page implies a connection. Each wijk figure was read from its own statistics office page: residents and ages for 2026, households, dwellings, tenure and dwelling values for 2025, income for 2024, resident students for 2025. The 1920 merger, the 9.53 square kilometres and the landmarks are from the encyclopaedia entries, and the page quotes them without adding to them.
 
+Signature project
+
 ## Say the gap in points first, then say which ratio you mean
 
 A difference between two percentages can be taken by subtracting or by dividing, from either end, on either side of the complement, or as odds. Only one of those is symmetric. The rest are honest only when they are labelled.
@@ -117,10 +111,8 @@ Subtract the shares: 62.0 minus 33.0 is 29 points. Start from either wijk and th
 
 88 percent higher, measured from Oud-Gestel. 47 percent lower, measured from Gestelse Ontginning. 76 percent more renting, measured on the other side. Odds 3.3 times. Each is fine with its base stated in the same sentence, and misleading without it.
 
-**The same choice of framing, in five other places**
-
 | The comparison | In points | As a ratio | Why the two feel so different |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | A model error rate falls from 2 percent to 1 | one point better | errors halved, 50 percent fewer | near zero, tiny moves make huge ratios |
 | A sign-up rate rises from 2 percent to 3 | one point up | sign-ups 50 percent higher | the same one point sounds like a triumph |
 | A test passes 99 percent of runs instead of 98 | one point up | failures halved, from 2 to 1 | measured on the pass side it barely moved |
@@ -131,14 +123,14 @@ Subtract the shares: 62.0 minus 33.0 is 29 points. Start from either wijk and th
 
 The reason relative figures run away is arithmetic, not dishonesty. Divide by a small base and every change looks enormous, which is why error rates near zero produce spectacular percentages and why a model that goes from 2 percent wrong to 1 percent wrong can be announced as halving its errors. Divide from the other end and the same gap shrinks, because the base is bigger; that is 88 percent against 47. Switch to the complement and the base changes again, which turns 88 into 76. Odds stretch the scale further still, and an odds ratio of 3.3 is regularly read aloud as three times as likely, which it is not. Programming meets this choice directly. The standard comparison function in Python, math.isclose, takes two tolerances, a relative one and an absolute one, because neither works alone: a relative tolerance is useless when comparing values close to zero, and an absolute one is meaningless when comparing large ones. Tests of numerical code, dashboards of conversion rates and papers reporting model gains all make the same decision, whether or not anyone notices. The discipline is simple and almost never followed. Give the difference in points, or in the raw unit, first; then, if a ratio is useful, give it with its base named in the same sentence; and never let a percentage point be written as a percent. Gestel makes the point with two wijken on one river that own the same number of homes, six apart, and differ by 29 points.
 
+Reliable pipeline
+
 ## Five habits for reporting how much two numbers differ
 
 Model gains, test pass rates, conversion rates, error rates, survey shares and prices all get compared, and every comparison can be framed to sound large or small. Practised on two wijken of Gestel that are the same by count and far apart by share.
 
-**Stating a difference so the reader hears what is true**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Show the counts | Print both numerators and both denominators before any comparison | A share with its size hidden | The raw picture |
 | Points first | State the difference in points or in the raw unit before any ratio | A small gap dressed as a big one | A figure that is the same from both sides |
 | Name the base | Put the starting value in the same sentence as any ratio | 88 and 47 quoted as if they differ | Ratios a reader can check |
@@ -159,14 +151,37 @@ Three percentages from recent reports at work, each rewritten with its base and 
 
 This section rests on the three published wijk rows alone: tenure counts, dwellings and households at 2025, residents at 2026. The check that the three wijken are the whole of Gestel is the match between their areas and the 9.53 square kilometres of the encyclopaedia entry. Every share, gap, ratio and odds figure on the page is printed above with the counts it came from, so each can be redone with a phone calculator in the time it takes to read it.
 
+Learning ladder
+
 ## From two bags of marbles to an odds ratio said out loud correctly
 
 The free lesson settles where each learner begins, by watching them work through a real problem. Neither the wijk they live in nor their age has any say in it.
 
-- **Ages 6 to 10: Same count, different bags** Children compare collections of different sizes and find more than one fair way to say which has more. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Game Development for Kids](/courses/game-development-masterclass-for-kids)
-- **Ages 11 to 13: Take away or divide** Learners measure a difference by subtracting and by dividing, and say which they did. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Near zero** Teenagers watch small rates produce huge ratios, and learn why tests carry two tolerances. [App Development for Teens](/courses/complete-app-development-masterclass-for-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: The headline and its base** Adults restate report figures in points and with named bases, and see which claims survive. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Same count, different bags
+
+Children compare collections of different sizes and find more than one fair way to say which has more.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Game Development for Kids](/courses/game-development-masterclass-for-kids)Ages 11 to 13
+
+### Take away or divide
+
+Learners measure a difference by subtracting and by dividing, and say which they did.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Near zero
+
+Teenagers watch small rates produce huge ratios, and learn why tests carry two tolerances.
+
+[App Development for Teens](/courses/complete-app-development-masterclass-for-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### The headline and its base
+
+Adults restate report figures in points and with named bases, and see which claims survive.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## An AI will say one wijk of Gestel has 88 percent more homeowners. Why should a teenager in Hanevoet ask 88 percent of what?
 
@@ -178,30 +193,139 @@ A learner who has written code that compares results, and has had to pick betwee
 
 The case for a child in Gestel learning to code in 2026 is therefore not the research campus at the southern edge of the stadsdeel. It is that a program comparing two numbers has to say how it compares them, and a person who has written one learns to ask every headline the same thing. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for Rozenknopje, Oud-Gestel and Gestelse Ontginning
 
 Gestel runs from streets a few minutes from the station out to the Genneper Parken and the campus in the south, and whichever part a family lives in, the evening is the thing in short supply.
 
-- **The lesson comes to the table** From Hanevoet or Blaarthem any classroom is a trip across the city, and twice a week that trip is what quietly ends a habit. Online, the learner opens a laptop at the agreed hour and the travel time becomes part of the evening again.
-- **Dutch school terms, left as they are** Groep, havo, vwo and profielkeuze are used untranslated in class. They are the words on every school report a child in Gestel brings home, so the teacher uses them too and nothing is lost in a translation that was never needed.
-- **The first hour teaches, and only teaches** A learner in the free lesson works on a genuine task while the teacher watches how they approach it. By the end there is a level, a course that fits it and a weekly slot, and no payment details have been asked for.
-- **Groups set by stage, from anywhere** Fifteen to twenty learners who are at the same point in the same subject. Gestel holds 3,435 children under fifteen, yet the chance of five of them sitting at one precise stage and free at one precise hour is small, so groups are drawn from a worldwide pool.
-- **The calendar follows regio Zuid** Two lessons a week, around eight a month, at a fixed hour. Brabant schools take regio Zuid holidays, which do not line up with the west of the country, and the teaching calendar is built around them from the start.
-- **Summer and winter, one clock moves** The teachers in India are three and a half hours ahead of Gestel in summer and four and a half in winter, since only the Dutch clock changes. Late afternoon, early evening and weekend mornings are available all year.
+### The lesson comes to the table
 
-**Nine primary schools, five secondary, and one way to form a class** Gestel has nine primary establishments teaching 1,728 pupils and five secondary establishments teaching 4,518, four of them in Oud-Gestel alone, which makes the stadsdeel a place thousands of teenagers travel to every morning. That concentration does not help form a coding group. What matters is how many learners, anywhere, are at one stage of one subject in the same month, and that is always a small number, so classes are formed by stage from a pool spanning every age from 6 to 67.
+From Hanevoet or Blaarthem any classroom is a trip across the city, and twice a week that trip is what quietly ends a habit. Online, the learner opens a laptop at the agreed hour and the travel time becomes part of the evening again.
+
+### Dutch school terms, left as they are
+
+Groep, havo, vwo and profielkeuze are used untranslated in class. They are the words on every school report a child in Gestel brings home, so the teacher uses them too and nothing is lost in a translation that was never needed.
+
+### The first hour teaches, and only teaches
+
+A learner in the free lesson works on a genuine task while the teacher watches how they approach it. By the end there is a level, a course that fits it and a weekly slot, and no payment details have been asked for.
+
+### Groups set by stage, from anywhere
+
+Fifteen to twenty learners who are at the same point in the same subject. Gestel holds 3,435 children under fifteen, yet the chance of five of them sitting at one precise stage and free at one precise hour is small, so groups are drawn from a worldwide pool.
+
+### The calendar follows regio Zuid
+
+Two lessons a week, around eight a month, at a fixed hour. Brabant schools take regio Zuid holidays, which do not line up with the west of the country, and the teaching calendar is built around them from the start.
+
+### Summer and winter, one clock moves
+
+The teachers in India are three and a half hours ahead of Gestel in summer and four and a half in winter, since only the Dutch clock changes. Late afternoon, early evening and weekend mornings are available all year.
+
+Nine primary schools, five secondary, and one way to form a class
+
+Gestel has nine primary establishments teaching 1,728 pupils and five secondary establishments teaching 4,518, four of them in Oud-Gestel alone, which makes the stadsdeel a place thousands of teenagers travel to every morning. That concentration does not help form a coding group. What matters is how many learners, anywhere, are at one stage of one subject in the same month, and that is always a small number, so classes are formed by stage from a pool spanning every age from 6 to 67.
+
+Fees
 
 ## What classes in Gestel cost, in dollars
 
 The whole fee is on the page, with nothing held back for later.
 
-- First class: USD 0. A full taught lesson that ends with a placement and a named course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A full taught lesson that ends with a placement and a named course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 Every country pays the same dollar amount and there is no separate euro price, so a rented flat in Oud-Gestel and an owned house in Gestelse Ontginning see the same number. Nothing is paid until the free lesson has settled a course and a weekly hour, and payment is then made over WhatsApp. Pausing, switching format and missed lessons are all explained on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Gestel%2C%20Eindhoven.)Reviews
+
+## Six Google reviews, reproduced exactly as their authors wrote them
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Send us the stage the learner is at
+
+The first task might be comparing two bags of marbles, a function that states one gap five ways, or a work report rewritten in points with every base named.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Gestel one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Gestel%2C%20Eindhoven.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Gestel coding class questions
+
+The stadsdeel, its three wijken, one gap stated five ways, the lessons and the terms.
 
 ### What does Gestel include?
 
@@ -243,10 +367,14 @@ The first lesson is free. After it, group tuition is USD 100 a month for two liv
 
 Fifteen to twenty, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
+Explore Eindhoven and beyond
+
 ## Across the Dommel and out into Brabant
 
 Brainport, the international schools and the numbers for the city as a whole are on [coding classes in Eindhoven](/coding-classes-in-eindhoven). East across the Dommel is [Stratum](/coding-classes-in-stratum), where three correct densities average to a wrong one, and north-east is the old town on [Eindhoven Centrum](/coding-classes-in-eindhoven-centrum). Strijp, Woensel-Zuid, Woensel-Noord and Tongelre will join them as they are written, all within [Noord-Brabant](/coding-classes-in-noord-brabant). A learner heading straight for machine learning may prefer the [AI and Python Academy](/ai-and-python-academy-netherlands), and the [Netherlands coding hub](/coding-classes-in-netherlands) links every page in the series.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Carry on over WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Gestel%2C%20Eindhoven.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-gestel](https://learn.modernagecoders.com/coding-classes-in-gestel#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-gestel*

@@ -4,49 +4,35 @@ description: "Live online coding, Python and AI classes for the Ulster counties 
 canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-ulster
 source: src/pages/coding-and-ai-classes-in-ulster.html
 ---
-> This page covers Ulster as the Irish census counts it: Cavan, Donegal and Monaghan, the three Ulster counties in the State, which the statistics office labels Ulster (part of). They held 310,160 usually resident people and 113,206 households at the 2022 census. Nothing here describes Northern Ireland. Each of the three counties has its own page with us, linked below. In Letterkenny, Cootehill or Clones the offer is identical: two live video lessons in a normal week, a small group matched on ability or a private teacher, and learners anywhere from six to sixty-seven. Nobody pays for the first lesson. From then on it is USD 100 monthly in a group, USD 150 privately.
+> Live online coding, Python and AI classes for the Ulster counties in the State, Cavan, Donegal and Monaghan, for learners aged 6 to 67. The first lesson is free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / Cavan, Donegal and Monaghan
-
-Ulster, the three counties in the State / Live online
-
-# Coding and AI classes in Ulster
-
-**What are the best coding and AI classes in Cavan, Donegal and Monaghan?** This page covers Ulster as the Irish census counts it: Cavan, Donegal and Monaghan, the three Ulster counties in the State, which the statistics office labels Ulster (part of). They held 310,160 usually resident people and 113,206 households at the 2022 census. Nothing here describes Northern Ireland. Each of the three counties has its own page with us, linked below. In Letterkenny, Cootehill or Clones the offer is identical: two live video lessons in a normal week, a small group matched on ability or a private teacher, and learners anywhere from six to sixty-seven. Nobody pays for the first lesson. From then on it is USD 100 monthly in a group, USD 150 privately.
-
-Here are two gaps between these three counties and Munster, and a question: which gap is bigger? Among people who stated how long their journey to work, school or college takes, 3.5% here travel an hour and a half or more, against 2.0% in Munster. On birthplace, 78.4% of residents here were born in Ireland, against 82.8% in Munster. The first gap is 1.5 percentage points, the second 4.5, so the birthplace gap looks three times bigger. Now compare them proportionally: the long-journey share here is 76% higher than Munster's, while Munster's born-in-Ireland share is only 5.7% higher. By that measure the journey gap is thirteen times bigger. Both statements are arithmetically correct, and they rank the same two gaps in opposite orders.
-
-Facts last verified 17 September 2026. Teaching is online; no Cavan, Donegal and Monaghan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Cavan, Donegal and Monaghan
 
 ## Four good places to start
 
 Each course starts with a free lesson from its own teacher, and booking needs contact details only.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Scratch projects that grow a score by adding and by multiplying, and show how different the two feel.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 9 to 13): Percentages, percentage points and ratios, learned by programming the difference between them.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): Comparing real census shares both ways, and saying which comparison a claim is making.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (College and adult): For adults who read or write that something rose by 50% and need to know 50% of what.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsScratch projects that grow a score by adding and by multiplying, and show how different the two feel.See the syllabus](/courses/scratch-programming-complete-course)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 9 to 13Maths Through CodingPercentages, percentage points and ratios, learned by programming the difference between them.See the syllabus](/courses/maths-through-coding)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensComparing real census shares both ways, and saying which comparison a claim is making.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)College and adultData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For adults who read or write that something rose by 50% and need to know 50% of what.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## Points or per cent?
 
 Two comparisons between Ulster (part of) and Munster, each measured two ways. Counts are published; every share and difference is our arithmetic.
 
-**The same two gaps, as percentage points and as a relative difference**
-
 | Comparison | Ulster (part of) | Munster | Gap in points | Relative gap |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Journeys of 1.5 hours or more, share of stated | 6,077, about 3.5% | 15,185, about 2.0% | 1.5 points | Ulster share 76% higher |
 | Residents born in Ireland | 243,018, about 78.4% | 1,122,711, about 82.8% | 4.5 points | Munster share 5.7% higher |
-| Which gap looks bigger |  |  | Birthplace, three times over | Journeys, thirteen times over |
+| Which gap looks bigger |   |   | Birthplace, three times over | Journeys, thirteen times over |
 
 ### Why the measures disagree
 
@@ -66,6 +52,8 @@ A risk rising from one in a thousand to two in a thousand is up 100%, and also u
 
 The label on the data matters as well, and here the statistics office gets it exactly right. Its province tables do not call this area Ulster. They call it Ulster (part of), because the historic province also includes six counties outside the State that the Irish census does not cover. We follow that label throughout, and every figure on this page describes Cavan, Donegal and Monaghan only.
 
+The three counties
+
 ## Cavan, Donegal and Monaghan
 
 Each county has a page of its own with local figures, schools and a separate data project.
@@ -84,14 +72,14 @@ Monaghan town, Carrickmacross and Castleblayney, and the countryside around them
 
 The county pages already carry each county's census figures and a data project apiece, so this page does not repeat them. It adds what the census publishes for the three counties taken together.
 
+The three counties in the census
+
 ## Ulster (part of), as the census reports it
 
 Totals from the census small area population tables for the province. Our percentages are marked.
 
-**Cavan, Donegal and Monaghan together, Census 2022**
-
 | Census item | The three counties |
-|---|---|
+| --- | --- |
 | Usually resident population | 310,160 |
 | Born in the United Kingdom | 38,819, about 12.5%, the highest share of the four provinces |
 | Born in Poland | 4,474 |
@@ -111,16 +99,41 @@ Of 130,188 working people, 28,479 work from home at least some of the time, abou
 
 About one resident in eight was born in the United Kingdom, more than twice the share across the State as a whole, which is about 5.7%.
 
-**What long journeys mean for evenings** Where a noticeable share of people travel an hour and a half or more each way, the hours after school are short and precious. A weekly class that begins at home, at a fixed time, asks for none of that travel, and gathers learners at the right level from across all three counties and beyond.
+What long journeys mean for evenings
+
+Where a noticeable share of people travel an hour and a half or more each way, the hours after school are short and precious. A weekly class that begins at home, at a fixed time, asks for none of that travel, and gathers learners at the right level from across all three counties and beyond.
+
+Learning ladder
 
 ## From adding to comparing properly
 
 Age bands are rough; placement happens in the free lesson.
 
-- **Ages 6 to 10: Plus or times** Games where one score grows by adding and another by doubling, and the child sees why they part company. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 11 to 13: Points and per cent** Writing programs that compare two shares both ways and print both answers. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 14 to 18: Honest comparisons** Real census shares, compared in points and relative terms, with the choice explained. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Reading claims at work** Spotting when a report chose points or per cent to make a change look larger or smaller. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### Plus or times
+
+Games where one score grows by adding and another by doubling, and the child sees why they part company.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 11 to 13
+
+### Points and per cent
+
+Writing programs that compare two shares both ways and print both answers.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### Honest comparisons
+
+Real census shares, compared in points and relative terms, with the choice explained.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Reading claims at work
+
+Spotting when a report chose points or per cent to make a change look larger or smaller.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## A summary will say something rose by 76% and stop there
 
@@ -132,30 +145,139 @@ A learner who has worked both versions asks for the base before reacting to any 
 
 Calculating a percentage is trivial for a machine. Knowing which percentage honestly answers the question is a human judgement, and a good reason to learn this properly in 2026. The longer argument is in [our case for learning to code properly](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How teaching reaches the three counties
 
 From Malin Head to Kingscourt, the arrangement is the same.
 
-- **Always live** A teacher leads each lesson as it happens, and the learner takes part rather than watches.
-- **Grouped by ability** Fifteen to twenty learners at one level, gathered from all three counties and further afield.
-- **A rhythm that holds** Roughly eight sessions a month, usually two a week, on days and at an hour agreed at the outset.
-- **Irish school stages** From Junior Cycle to Leaving Certificate, with holidays and exam weeks built in.
-- **What is needed** A laptop or desktop, working sound and a connection that carries video, all checked in the free lesson.
-- **One to one if needed** If no suitable group meets at a workable hour, the same course is taught privately.
+### Always live
 
-**For families along the border counties** A learner in these counties who wants to go further with programming may have nobody at the same level within easy reach. An online group removes that problem entirely, and it runs to the Irish school calendar whichever county the learner lives in.
+A teacher leads each lesson as it happens, and the learner takes part rather than watches.
+
+### Grouped by ability
+
+Fifteen to twenty learners at one level, gathered from all three counties and further afield.
+
+### A rhythm that holds
+
+Roughly eight sessions a month, usually two a week, on days and at an hour agreed at the outset.
+
+### Irish school stages
+
+From Junior Cycle to Leaving Certificate, with holidays and exam weeks built in.
+
+### What is needed
+
+A laptop or desktop, working sound and a connection that carries video, all checked in the free lesson.
+
+### One to one if needed
+
+If no suitable group meets at a workable hour, the same course is taught privately.
+
+For families along the border counties
+
+A learner in these counties who wants to go further with programming may have nobody at the same level within easy reach. An online group removes that problem entirely, and it runs to the Irish school calendar whichever county the learner lives in.
+
+Fees
 
 ## Fees in Cavan, Donegal and Monaghan
 
 Three prices, identical in all three counties.
 
-- First class: USD 0. A full first lesson, free, closing with a level and a suggested course.
-- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, about eight lessons.
-- Private tuition: USD 150 a month. A month of one to one teaching on the same weekly schedule.
+First class**USD 0**
+
+A full first lesson, free, closing with a level and a suggested course.
+
+Group tuition**USD 100**
+
+A month in a group of fifteen to twenty at one level, about eight lessons.
+
+Private tuition**USD 150**
+
+A month of one to one teaching on the same weekly schedule.
 
 Everything is billed monthly in US dollars at the single rate we use outside India, so a family in Letterkenny and one in Carrickmacross pay the same and there is no second currency. No payment is taken until the free lesson settles a course and a time, and the pricing page covers pauses, missed lessons and changing format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Cavan%2C%20Donegal%20or%20Monaghan.)Reviews
+
+## What six families wrote about us on Google, unedited
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free first lesson
+
+A few details are enough: how old the learner is and what they enjoy. The opening hour is then shaped for them, perhaps a Scratch game where adding and doubling race each other, perhaps two census gaps that swap places.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Cavan, Donegal and Monaghan one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Cavan%2C%20Donegal%20or%20Monaghan.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Questions from Cavan, Donegal and Monaghan
+
+What families in the three counties ask first.
 
 ### Does this page cover Northern Ireland?
 
@@ -197,10 +319,14 @@ The first lesson is free. After that a shared place costs USD 100 a month and br
 
 Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
+Explore Ireland
+
 ## The other three provinces
 
 The rest of the State is covered by pages for [Connacht](/coding-and-ai-classes-in-connacht), [Leinster](/coding-and-ai-classes-in-leinster) and [Munster](/coding-and-ai-classes-in-munster). Parents comparing providers can read [this comparison of online coding schools](/best-online-coding-classes-ireland), and the [Ireland page](/coding-classes-in-ireland) lists every county, city and guide.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Cavan%2C%20Donegal%20or%20Monaghan.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-and-ai-classes-in-ulster](https://learn.modernagecoders.com/coding-and-ai-classes-in-ulster#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-ulster*

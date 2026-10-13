@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths lessons for Crumlin learn
 canonical: https://learn.modernagecoders.com/coding-classes-in-crumlin-dublin
 source: src/pages/coding-classes-in-crumlin-dublin.html
 ---
-> Crumlin learners have a teacher leading every lesson live over video, in a small group of learners at one level or one to one, on two days in a normal week, for any age from six to sixty-seven. It all happens at home. Lesson one carries no charge, and from then on each month is USD 100 as part of a group or USD 150 taught privately.
+> Live online coding, Python, AI and maths lessons for Crumlin learners aged 6 to 67, in small same-level groups or one to one. The first lesson is completely free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [Dublin](/best-coding-class-in-dublin) / Crumlin
-
-Crumlin, Dublin 12 / Live online
-
-# Coding classes in Crumlin
-
-**What are the best coding classes in Crumlin?** Crumlin learners have a teacher leading every lesson live over video, in a small group of learners at one level or one to one, on two days in a normal week, for any age from six to sixty-seven. It all happens at home. Lesson one carries no charge, and from then on each month is USD 100 as part of a group or USD 150 taught privately.
-
-Eight Dublin Bus routes stop at places the timetable names after Crumlin, and each has a last departure of the night. Three of them leave after midnight: at 00:02, 00:08 and 00:16. Average the eight last buses as a clock shows them and the answer is 14:54, the middle of the afternoon, when every one of those buses is still running. The mistake is not in the arithmetic. Clock times go round in a circle, and an ordinary average treats 00:16 as the earliest time of day rather than the latest. This page teaches a learner two ways to average times properly, and why the bus timetable itself writes 00:16 as 24:16.
-
-Facts last verified 20 September 2026. Teaching is online; no Crumlin branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Crumlin
 
 ## Four first courses for Crumlin
 
 Use the age band to choose a starting point; the free first lesson is where the teacher checks the level and switches course if another fits better.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Blocks and clocks: a clock face game where the hands go round and the numbers start again after 12.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 13): Angles, sine and cosine made useful: turning times of day into points on a circle and back.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 18): Python with a real bus timetable feed: filtering stops, finding last departures and averaging them correctly.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (College and adult): For adults who summarise shift times, delivery windows or opening hours that cross midnight.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlocks and clocks: a clock face game where the hands go round and the numbers start again after 12.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 13Maths Through CodingAngles, sine and cosine made useful: turning times of day into points on a circle and back.See the syllabus](/courses/maths-through-coding)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 18Data Science for TeensPython with a real bus timetable feed: filtering stops, finding last departures and averaging them correctly.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)College and adultData Analysis CourseFor adults who summarise shift times, delivery windows or opening hours that cross midnight.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## When is the last bus, on average? Times that cross midnight
 
 The departures come from the National Transport Authority's Dublin Bus timetable feed for Tuesday 22 September 2026, at the nine stops whose names contain Crumlin. Routes with fewer than 10 departures from those stops that day are left out, which removes one route that runs a single morning trip.
 
-**Last weekday departures from Crumlin stops, and three ways to average them**
-
 | What is averaged | Result |
-|---|---|
+| --- | --- |
 | Last buses: 150, 122, 151, 27, 56A | 23:29, 23:30, 23:54, 23:56, 23:58 |
 | Last buses: S2, 74, 77A (clock time) | 00:02, 00:08, 00:16 |
 | Ordinary average of the clock times | 14:54 |
@@ -80,14 +66,14 @@ These are planned departures for one weekday in the feed. Buses run early or lat
 
 The same trap waits in shift rotas that end after midnight, in wind directions near north, and in birthdays around New Year. Anything measured on a dial needs the circle treatment.
 
+Crumlin, named
+
 ## Crumlin by its parks, its college and its bus stops
 
 Each line is taken from the body that runs the place.
 
-**Named places in Crumlin**
-
 | Place | What its own source says |
-|---|---|
+| --- | --- |
 | Eamonn Ceannt Park | 237 Clogher Road, Crumlin, D12 DP78, with the city's velodrome |
 | Willie Pearse Park | 159 Windmill Road, Crumlin, D12 H4C8, opened 1949 |
 | City of Dublin FET College, Crumlin | D12 N921, ten minutes' walk from the Suir Road Luas stop |
@@ -105,7 +91,11 @@ The council says the park first opened in 1949 and is named after Willie Pearse,
 
 City of Dublin FET College, Crumlin, gives its eircode as D12 N921 and says it is ten minutes' walk from the Suir Road Luas stop and well served by buses on the Crumlin Road.
 
-**What this page does not claim** No population is given for Crumlin, because the page prints only what named bodies publish about the place. The bus figures are planned times for one weekday, taken from the national timetable feed, and the page says nothing about how busy any bus is.
+What this page does not claim
+
+No population is given for Crumlin, because the page prints only what named bodies publish about the place. The bus figures are planned times for one weekday, taken from the national timetable feed, and the page says nothing about how busy any bus is.
+
+Learning here
 
 ## A Crumlin learner's week of lessons
 
@@ -125,14 +115,37 @@ Adults can join with no background; the first lesson settles where to start.
 
 Departure times are the National Transport Authority's published timetable feed; the route filtering, first and last departures and all three averages were worked out by us on 20 September 2026. Park details are Dublin City Council's and college details the college's own.
 
+Learning ladder
+
 ## From a clock face to averages on a circle
 
 Take the bands as a first guess; lesson one places the learner.
 
-- **Ages 6 to 10: Round and round** Block-coded clocks and spinners that wrap back to the start. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Times as angles** Python that turns a time into an angle and a point, and back again. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Circular averages** Real timetable data, first and last departures, and three averages side by side. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Shifts and schedules** Summarising times that cross midnight without producing nonsense. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Round and round
+
+Block-coded clocks and spinners that wrap back to the start.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Times as angles
+
+Python that turns a time into an angle and a point, and back again.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Circular averages
+
+Real timetable data, first and last departures, and three averages side by side.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Shifts and schedules
+
+Summarising times that cross midnight without producing nonsense.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## Ask an assistant for the average last bus
 
@@ -144,30 +157,139 @@ The learner who has done this project asks the assistant to average the times on
 
 Arithmetic assumes numbers lie on a line. Some live on a circle, and code has to be told. The longer argument is in [what a learner of any age still gains from coding](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How lessons run for Crumlin
 
 The practicalities.
 
-- **A teacher every time** Each lesson is led live, and the teacher watches and helps with each learner's code as it comes together.
-- **Levelled groups** Fifteen to twenty learners at one level, joining from Crumlin, the rest of Ireland or abroad.
-- **Two slots a week** Lessons on the same two days each week, about eight in a month.
-- **Holidays planned** The course plan works around school holidays, mid-terms and exams.
-- **Equipment** A desktop or laptop, a microphone, headphones or speakers, and internet good enough for a video call.
-- **Solo teaching** One-to-one lessons for learners who are ahead, need extra time, or need hours no group runs.
+### A teacher every time
 
-**No local premises** We have no building in Crumlin, in Dublin or anywhere in Ireland. Lessons happen live on video and are the same from any home.
+Each lesson is led live, and the teacher watches and helps with each learner's code as it comes together.
+
+### Levelled groups
+
+Fifteen to twenty learners at one level, joining from Crumlin, the rest of Ireland or abroad.
+
+### Two slots a week
+
+Lessons on the same two days each week, about eight in a month.
+
+### Holidays planned
+
+The course plan works around school holidays, mid-terms and exams.
+
+### Equipment
+
+A desktop or laptop, a microphone, headphones or speakers, and internet good enough for a video call.
+
+### Solo teaching
+
+One-to-one lessons for learners who are ahead, need extra time, or need hours no group runs.
+
+No local premises
+
+We have no building in Crumlin, in Dublin or anywhere in Ireland. Lessons happen live on video and are the same from any home.
+
+Fees
 
 ## Fees for Crumlin
 
 In brief.
 
-- First class: USD 0. A first lesson with a level check, at no charge.
-- Group tuition: USD 100 a month. A month in a same-level group of fifteen to twenty, around eight live lessons.
-- Private tuition: USD 150 a month. A month of one-to-one lessons on the same timetable.
+First class**USD 0**
+
+A first lesson with a level check, at no charge.
+
+Group tuition**USD 100**
+
+A month in a same-level group of fifteen to twenty, around eight live lessons.
+
+Private tuition**USD 150**
+
+A month of one-to-one lessons on the same timetable.
 
 All families outside India pay the same US dollar fee, one month at a time. The free lesson involves no commitment, charges begin only with the course, and the pricing page sets out holidays, missed lessons and switching between group and private teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Crumlin.)Reviews
+
+## Google reviews from families, copied exactly
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free first lesson in Crumlin
+
+Tell us how old the learner is and what grabs their attention, and the opening lesson will be shaped to match. It might close with a small game, a working program, or a clock that averages midnight properly.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Crumlin one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Crumlin.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Crumlin coding class questions
+
+Questions Crumlin families often ask.
 
 ### Is there a Modern Age Coders centre in Crumlin?
 
@@ -205,10 +327,14 @@ The first lesson is free. After that a group place is USD 100 a month for about 
 
 Fifteen to twenty learners, matched by level, pace and goals rather than age or address. If no group fits a workable time, lessons are one to one.
 
+Explore Ireland
+
 ## Around Crumlin
 
 To the east, [Rathmines](/coding-classes-in-rathmines-dublin) has a project on library loans. The [Dublin](/best-coding-class-in-dublin) page covers the city, and for every other county, town and district there is the [Ireland hub](/coding-classes-in-ireland).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Crumlin.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-crumlin-dublin](https://learn.modernagecoders.com/coding-classes-in-crumlin-dublin#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-crumlin-dublin*

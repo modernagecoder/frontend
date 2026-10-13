@@ -4,46 +4,32 @@ description: "Online vibe coding, AI agents and Python classes for Scunthorpe, A
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-scunthorpe
 source: src/pages/vibe-coding-and-ai-agents-classes-in-scunthorpe.html
 ---
-> Scunthorpe's built-up area held 81,265 people at the 2021 census, according to the ONS, in a North Lincolnshire of 169,680 that also takes in Brigg and Winterton; Ashby, Bottesford, Frodingham, Crosby and Yaddlethorpe are among Scunthorpe's recorded suburbs. Children from six, teenagers and adults up to 67 across the area learn vibe coding, AI agents, Python, coding and maths on camera with our tutors in India, either on their own or in a class of fifteen to twenty at one stage. Thinking skills come ahead of tools, so an agent's output is something the learner checks, not simply accepts. We give the first lesson free and finish it with a course recommendation. The Scunthorpe project looks at the moment an AI agent receives data from a tool, and at everything that can be wrong with it. Continuing lessons are USD 100 monthly in a class or USD 150 monthly one-to-one.
+> Online vibe coding, AI agents and Python classes for Scunthorpe, Ashby, Bottesford and Brigg learners aged 6 to 67, one-to-one or in groups. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Yorkshire and the Humber](/coding-and-ai-classes-in-yorkshire-and-the-humber) / Scunthorpe
-
-Scunthorpe, North Lincolnshire, England / Live online
-
-# Vibe coding and AI agents classes in Scunthorpe
-
-**Where can Scunthorpe learners find the best vibe coding and AI agents classes?** Scunthorpe's built-up area held 81,265 people at the 2021 census, according to the ONS, in a North Lincolnshire of 169,680 that also takes in Brigg and Winterton; Ashby, Bottesford, Frodingham, Crosby and Yaddlethorpe are among Scunthorpe's recorded suburbs. Children from six, teenagers and adults up to 67 across the area learn vibe coding, AI agents, Python, coding and maths on camera with our tutors in India, either on their own or in a class of fifteen to twenty at one stage. Thinking skills come ahead of tools, so an agent's output is something the learner checks, not simply accepts. We give the first lesson free and finish it with a course recommendation. The Scunthorpe project looks at the moment an AI agent receives data from a tool, and at everything that can be wrong with it. Continuing lessons are USD 100 monthly in a class or USD 150 monthly one-to-one.
-
-AI agents are useful because they call tools: they look things up, fetch data and then act on what comes back. The weak point is that last step. This project plays the part of an agent asked about traffic around Scunthorpe. It calls the Department for Transport's public road traffic API, receives 1,844 records for North Lincolnshire going back to 2000, and then does what a careful agent must do before answering anything: checks every record against what it expected. Numbers arrive as text, almost a quarter of the road details are missing, and hundreds of totals do not quite add up. None of that is an error by the data provider. All of it would trip up an agent that trusted the data blindly.
-
-Facts last verified 29 September 2026. Teaching is online; no Scunthorpe branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentScunthorpe course picks
 
 ## Scunthorpe courses in thinking, vibe coding and agents
 
 Four starting points arranged by age, each opening with a live lesson that costs nothing and needs no card to book.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think programme: checking information, spotting odd values and asking where a number came from.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch projects, then apps created by describing them to an AI and testing each part.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python and web projects built with AI, including this traffic data checker.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): Agents, tool calls, structured output and the checks that keep them honest.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think programme: checking information, spotting odd values and asking where a number came from.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch projects, then apps created by describing them to an AI and testing each part.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensPython and web projects built with AI, including this traffic data checker.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseAgents, tool calls, structured output and the checks that keep them honest.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Scunthorpe and North Lincolnshire
 
 ## Scunthorpe, Brigg and Winterton
 
 ONS 2021 census counts for three built-up areas in North Lincolnshire, and the suburbs recorded in Scunthorpe.
 
-**Scunthorpe, Brigg and Winterton, 2021 census counts from the ONS**
-
 | Built-up area | People (2021) |
-|---|---|
+| --- | --- |
 | Scunthorpe | 81,265 |
 | Brigg | 5,635 |
 | Winterton | 4,765 |
@@ -54,16 +40,16 @@ The ONS publishes each of these separately, so they appear here unadded; North L
 
 Wider options are on [coding classes in Lincolnshire](/coding-classes-in-lincolnshire) and [Yorkshire and the Humber](/coding-and-ai-classes-in-yorkshire-and-the-humber). Why every course puts reasoning before prompting is set out on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Scunthorpe project
+
 ## Checking an AI agent's tool output: real traffic data from the DfT
 
 Fetch the records, write down what you expect them to look like, and count every place the data disagrees.
 
 The learner writes a small Python "tool" of the kind an AI agent would call: it asks the Department for Transport's road traffic API for every average daily flow record in North Lincolnshire, following the pages politely. Eight requests return 1,844 records covering 154 counting points from 2000 to 2025. One of them is the A18 between the Scotter Road roundabout and the A159, where 15,374 motor vehicles a day were counted in 2024. Before answering any question, the learner writes a schema: a description of what each field should be, such as "latitude is a number", "the vehicle types add up to the total" and "every record says whether it was counted or estimated". Then every record is checked.
 
-**What the schema checks found in 1,844 DfT records for North Lincolnshire, our Python run, 29 September 2026**
-
 | Check | Result |
-|---|---|
+| --- | --- |
 | Latitude and longitude supplied as numbers | No: text in all 1,844 records |
 | Road-link length and junction names present | Missing in 436 records |
 | Vehicle types add up to the all-vehicles total | Off in 462 records, by one or two vehicles |
@@ -91,14 +77,14 @@ Write a full schema, validate every record and design how an agent should report
 
 Traffic records come from the Department for Transport road traffic statistics service, and the census counts from the ONS. The schema, the checks and every count in the table are our own work; none of the findings is a criticism of the publisher.
 
+Agents and tools
+
 ## What this teaches about vibe coding and AI agents
 
 Trust in an agent rests on the checks it runs on its tools.
 
-**From the DfT records to any AI agent with tools**
-
 | In the Scunthorpe project | For AI agents in general |
-|---|---|
+| --- | --- |
 | Coordinates arrived as text | Convert and check types right after every tool call |
 | 436 records lacked link details | Handle missing values explicitly, never silently |
 | Totals were one or two vehicles out | Know when a mismatch is rounding, not an error |
@@ -109,14 +95,37 @@ Structured output, where a tool or a model returns data in a fixed format such a
 
 Modern Age Coders is independent of the Department for Transport, the ONS and postcodes.io. We relied only on what they publish openly; any slips in the checking are down to us.
 
+Stages
+
 ## From spotting gaps to validating agent output
 
 A school year gives a rough starting point, and the trial lesson refines it.
 
-- **Years 2 to 7: How to think** Checking information and asking where a number came from. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Games and small apps built with AI help and tested by the learner. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python and real data** APIs, data types and validation alongside GCSE and A level. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **Adults: Reliable AI agents** Tool calling, structured output, validation and guardrails in Python. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Years 2 to 7
+
+### How to think
+
+Checking information and asking where a number came from.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Games and small apps built with AI help and tested by the learner.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python and real data
+
+APIs, data types and validation alongside GCSE and A level.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)Adults
+
+### Reliable AI agents
+
+Tool calling, structured output, validation and guardrails in Python.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)AI and tools
 
 ## How should an AI agent check the data its tools return?
 
@@ -128,30 +137,139 @@ Learners who have built the checks themselves insist on them in any agent they d
 
 A Scunthorpe teenager who can make an AI agent check its own data is ready for how software is being built in 2026, and that makes coding well worth learning. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Ashby to Bottesford, online
 
 A laptop or desktop and a broadband connection that can hold a video call are enough.
 
-- **Learners type the code** Students write, prompt and run each program; the tutor watches their shared screen and keeps asking why.
-- **Start at the right level** We watch what the learner can do in the trial and pick topic one from that; exam boards are written down.
-- **No fee for lesson one** Session one is free, and we end it by naming a course.
-- **Classes by stage** Each group has fifteen to twenty learners from around Britain at one level.
-- **Twice weekly** Lessons pause in school holidays.
-- **Fixed hours** Tutors adjust for UK clock changes so the lesson time stays put.
+### Learners type the code
 
-**Why lessons run online** Five learners at one stage who are all free on one evening seldom live on the same road. Online, they can still learn together.
+Students write, prompt and run each program; the tutor watches their shared screen and keeps asking why.
+
+### Start at the right level
+
+We watch what the learner can do in the trial and pick topic one from that; exam boards are written down.
+
+### No fee for lesson one
+
+Session one is free, and we end it by naming a course.
+
+### Classes by stage
+
+Each group has fifteen to twenty learners from around Britain at one level.
+
+### Twice weekly
+
+Lessons pause in school holidays.
+
+### Fixed hours
+
+Tutors adjust for UK clock changes so the lesson time stays put.
+
+Why lessons run online
+
+Five learners at one stage who are all free on one evening seldom live on the same road. Online, they can still learn together.
+
+Fees
 
 ## Scunthorpe fees
 
 Scunthorpe learners pay our international rate, as does every country other than India.
 
-- First class: USD 0. A full lesson free at the start, with a suggested course at the end.
-- Group tuition: USD 100 a month. About eight live group lessons per month.
-- Private tuition: USD 150 a month. About eight live private lessons per month.
+First class**USD 0**
+
+A full lesson free at the start, with a suggested course at the end.
+
+Group tuition**USD 100**
+
+About eight live group lessons per month.
+
+Private tuition**USD 150**
+
+About eight live private lessons per month.
 
 We bill in US dollars rather than pounds, and not until the trial has fixed a course and a regular slot. Time away, missed sessions and group-private switches are explained on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Scunthorpe.)Reviews
+
+## Google reviews: Lincolnshire households and families nationwide
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Scunthorpe lesson
+
+An age or year group plus a hobby is plenty to start with. A trial might be a spot-the-odd-value puzzle, a Scratch game made with AI help, a first Python program, or fetching real data and checking it.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Scunthorpe one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Scunthorpe.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Scunthorpe questions
+
+Structured output, the traffic data project, vibe coding and practical details.
 
 ### What is the population of Scunthorpe?
 
@@ -193,10 +311,14 @@ Lesson one is free of charge. Afterwards it is USD 100 monthly for a class seat 
 
 Yes. Let us know the dates.
 
+Nearby
+
 ## More Lincolnshire and Humber pages
 
 [Grimsby](/ai-and-programming-classes-in-grimsby) and [Lincoln](/best-coding-class-in-lincoln) have pages and projects of their own, as does [Harrogate](/ai-and-programming-classes-in-harrogate) in the same region. Every area we cover is listed on the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Scunthorpe.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-scunthorpe](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-scunthorpe#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-scunthorpe*

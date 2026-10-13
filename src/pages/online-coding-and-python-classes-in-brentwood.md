@@ -4,46 +4,32 @@ description: "Python, coding, AI and vibe coding lessons online with a live tuto
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-brentwood
 source: src/pages/online-coding-and-python-classes-in-brentwood.html
 ---
-> Brentwood borough had 77,047 residents at the 2021 census, and the ONS built-up area of Brentwood held 55,340. Shenfield, Hutton, Warley and Brook Street are recorded suburbs, with Ingatestone and Great Warley as villages in the borough. Our tutors, who work from India, teach Python, coding, AI, vibe coding and maths on live video calls to anyone here from six years old to 67. You can have a tutor to yourself or share one with fifteen to twenty learners of your own standard. We want learners who test their beliefs about code instead of trusting a hunch. You try one lesson for nothing and we tell you which course we would pick. In the Brentwood project a Python program that takes three and a half seconds is put under a profiler, the guilty function is found, and two rewrites bring it down to a tenth of a second. After the trial it is USD 100 per month for group lessons and USD 150 per month for private ones.
+> Python, coding, AI and vibe coding lessons online with a live tutor for Brentwood, Shenfield, Hutton and Ingatestone, ages 6 to 67. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [East of England](/coding-and-ai-classes-in-east-of-england) / Brentwood
-
-Brentwood, Essex, East of England / Live online
-
-# Online coding and Python classes in Brentwood
-
-**Which are the best online coding and Python classes in Brentwood?** Brentwood borough had 77,047 residents at the 2021 census, and the ONS built-up area of Brentwood held 55,340. Shenfield, Hutton, Warley and Brook Street are recorded suburbs, with Ingatestone and Great Warley as villages in the borough. Our tutors, who work from India, teach Python, coding, AI, vibe coding and maths on live video calls to anyone here from six years old to 67. You can have a tutor to yourself or share one with fifteen to twenty learners of your own standard. We want learners who test their beliefs about code instead of trusting a hunch. You try one lesson for nothing and we tell you which course we would pick. In the Brentwood project a Python program that takes three and a half seconds is put under a profiler, the guilty function is found, and two rewrites bring it down to a tenth of a second. After the trial it is USD 100 per month for group lessons and USD 150 per month for private ones.
-
-Every programmer eventually writes something that works but crawls. The tempting response is to guess what is slow and start rewriting. The guess is usually wrong. A profiler replaces the guess with a measurement: it runs the program and reports how many times each function was called and how long each one took. Python ships with one, called cProfile. This project points it at a small, real task, finding the closest neighbour of every postcode in the Brentwood borough, and follows the evidence. AI assistants now write a great deal of code, and they are no better than people at knowing which part will be slow without measuring.
-
-Facts last verified 30 September 2026. Teaching is online; no Brentwood branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentBrentwood course picks
 
 ## Python and coding courses to begin with in Brentwood
 
 Choose the row that matches the learner. In each case the first live lesson is a free trial and we never ask for card details to book it.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 9 to 13): A first Python course for children, with small AI projects and the habit of timing what they write.
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): How to think before coding: counting steps, spotting repeated work, finding a shorter way.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Full Python for teenagers, from loops to data structures, including the Brentwood profiling exercise.
-- [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college) (Students and adults): Algorithms and data structures with measured running times, for degrees, interviews and real projects.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 9 to 13Python and AI for KidsA first Python course for children, with small AI projects and the habit of timing what they write.See the syllabus](/courses/python-ai-kids-masterclass)[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsHow to think before coding: counting steps, spotting repeated work, finding a shorter way.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensFull Python for teenagers, from loops to data structures, including the Brentwood profiling exercise.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Structures & Algorithms Course course thumbnail](/images/dsa-college.webp)Students and adultsData Structures & Algorithms CourseAlgorithms and data structures with measured running times, for degrees, interviews and real projects.See the syllabus](/courses/data-structures-algorithms-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Brentwood borough
 
 ## Brentwood, Shenfield, Hutton and Ingatestone
 
 Census populations, recorded place names and the postcode districts the project uses.
 
-**Brentwood at the 2021 census (ONS)**
-
 | Area | Usual residents |
-|---|---|
+| --- | --- |
 | Brentwood built-up area | 55,340 |
 | Brentwood borough | 77,047 |
 
@@ -53,26 +39,24 @@ The built-up area and the borough are different boundaries, published separately
 
 See also [coding classes in Essex](/coding-classes-in-essex), [Basildon](/best-coding-and-ai-classes-in-basildon) and [Chelmsford](/best-coding-class-in-chelmsford). Our view on thinking before tools is at [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Brentwood project
+
 ## Profiling with cProfile: find the slow line before you fix anything
 
 A working program, a wrong guess, a measurement, and two fixes of very different size.
 
 Ordnance Survey's Code-Point Open file gives a map coordinate for every postcode in Great Britain. In the CM file, 2,144 postcodes carry the Brentwood district code, most of them in CM13, CM14 and CM15. The learner writes the obvious program: read the file, then for each postcode loop over all the others, call a small dist() function, and remember the closest. It is correct and it takes about 3.5 seconds. Asked why, most people blame reading the file from disk.
 
-**What cProfile reported for the first version (profiled run, 6.495 seconds in total, our laptop)**
-
 | Part of the program | Times called | Share of run time |
-|---|---|---|
+| --- | --- | --- |
 | dist() and the square root inside it | 4,594,592 | 67.5% |
 | The double loop around it | 1 | 30.6% |
 | Reading the postcode file | 1 | 1.9% |
 
 The profiler disagrees with the guess. Reading the file is under 2% of the run. Two thirds of the time goes on dist(), which is tiny but is called 4,594,592 times, once for every ordered pair of postcodes (2,144 times 2,143). That number, not the function's length, is the problem. Profiling slows a program down, which is why the profiled run took 6.495 seconds; the timings below are from ordinary runs.
 
-**Three versions of the same program, median of five ordinary runs on our laptop**
-
 | Version | Pairs compared | Time | Speed-up |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1. dist() helper with a square root | 4,594,592 | 3.54 s | baseline |
 | 2. Squared distance written inside the loop | 4,594,592 | 1.04 s | 3.4 times |
 | 3. 500 m grid, search nearby squares only | 291,987 | 0.11 s | 32 times |
@@ -95,14 +79,14 @@ Build the grid version, prove it matches, and explain why changing the count bea
 
 Contains OS data (C) Crown copyright and database right 2026, and Royal Mail and National Statistics data (C) Crown copyright and database right 2026, from Code-Point Open version 2026.3.0 under the Open Government Licence. The programs, call counts and timings are our own work on one laptop.
 
+Measuring AI-written code
+
 ## What profiling teaches about vibe coding and AI agents
 
 An assistant can write a loop in a second. Whether the loop is fast is a separate question.
 
-**Lessons from the Brentwood profile**
-
 | In the postcode program | When an AI writes your code |
-|---|---|
+| --- | --- |
 | The file-reading guess was wrong | Do not accept a guess about speed, yours or the AI's |
 | One small function ate 67.5% of the time | Ask where the time goes before asking for a rewrite |
 | Tidying the call gave 3.4 times | Micro-fixes help a little |
@@ -113,14 +97,37 @@ Vibe coding is the practice of describing a program in everyday words and lettin
 
 Ordnance Survey, Royal Mail, the Office for National Statistics and postcodes.io have no connection with Modern Age Coders. We used their openly licensed data, and what we did with it is our responsibility.
 
+Course ladder
+
 ## Counting steps, then writing fast Python
 
 School year is where we start guessing. One free lesson is how we find out.
 
-- **Years 2 to 6: How to think** Count the steps in a method and look for a shorter one. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 5 to 8: First Python** Real typed code, with AI used as a helper the child can question. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)
-- **Years 9 to 13: Python in depth** Functions, data structures and profiling next to GCSE and A level. [Python for Teens](/courses/python-complete-masterclass-teens), [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)
-- **Adults: Algorithms and AI** Efficient code, machine learning and agents for work or study. [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Years 2 to 6
+
+### How to think
+
+Count the steps in a method and look for a shorter one.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 5 to 8
+
+### First Python
+
+Real typed code, with AI used as a helper the child can question.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)Years 9 to 13
+
+### Python in depth
+
+Functions, data structures and profiling next to GCSE and A level.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)Adults
+
+### Algorithms and AI
+
+Efficient code, machine learning and agents for work or study.
+
+[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)AI and performance
 
 ## What is profiling in Python, and can AI tell you why code is slow?
 
@@ -132,30 +139,139 @@ A learner with that experience asks an AI for the profile before the fix, and ch
 
 It is a small habit, and it is one reason a Brentwood teenager who can code gets far more from AI tools than one who can only ask. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Practicalities
+
 ## Online lessons for Brentwood, step by step
 
 Lessons run over video. A laptop or desktop is strongly preferred to a tablet, because the learner will be typing code.
 
-- **Code typed by the learner** We never hand over finished programs. The student writes, runs and debugs while the tutor coaches.
-- **One trial, then a plan** A free lesson tells us the right level, and you get a suggested course at the end of it.
-- **Nothing to pay up front** The trial has no cost and needs no card.
-- **Matched groups** Fifteen to twenty learners at one level, joining from anywhere in the UK.
-- **Two sessions weekly** During term. Essex school holidays are skipped once we have your dates.
-- **Steady UK timing** We absorb the hour when the clocks change, so your slot holds.
+### Code typed by the learner
 
-**Why online suits coding** The tutor sees the learner's actual screen, every error message included, and a class can be filled by level from across the country.
+We never hand over finished programs. The student writes, runs and debugs while the tutor coaches.
+
+### One trial, then a plan
+
+A free lesson tells us the right level, and you get a suggested course at the end of it.
+
+### Nothing to pay up front
+
+The trial has no cost and needs no card.
+
+### Matched groups
+
+Fifteen to twenty learners at one level, joining from anywhere in the UK.
+
+### Two sessions weekly
+
+During term. Essex school holidays are skipped once we have your dates.
+
+### Steady UK timing
+
+We absorb the hour when the clocks change, so your slot holds.
+
+Why online suits coding
+
+The tutor sees the learner's actual screen, every error message included, and a class can be filled by level from across the country.
+
+Fees
 
 ## Lesson fees for Brentwood
 
 Outside India we charge one set of prices, shown here.
 
-- First class: USD 0. Your first complete lesson is free, and we recommend a course after it.
-- Group tuition: USD 100 a month. Small-class teaching, approximately eight lessons per month.
-- Private tuition: USD 150 a month. Private teaching, approximately eight lessons per month.
+First class**USD 0**
+
+Your first complete lesson is free, and we recommend a course after it.
+
+Group tuition**USD 100**
+
+Small-class teaching, approximately eight lessons per month.
+
+Private tuition**USD 150**
+
+Private teaching, approximately eight lessons per month.
 
 All fees are in US dollars; there is no sterling price list. No invoice goes out until the trial is finished and you have chosen a course and a time. For holidays, missed lessons and changes of format, see the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20Python%20or%20coding%20lesson%20for%20someone%20in%20Brentwood.)Reviews
+
+## Essex families and UK learners reviewing us on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book your free Brentwood lesson
+
+Let us know the age or year group and any interest at all. A trial can be a step-counting puzzle, a Scratch game made with an AI helper, a first Python program, or timing two versions of the same code.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Brentwood one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20Python%20or%20coding%20lesson%20for%20someone%20in%20Brentwood.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Brentwood: common questions
+
+About profiling, the postcode project, Python, vibe coding and arrangements.
 
 ### What is the population of Brentwood?
 
@@ -197,10 +313,14 @@ The first lesson costs nothing. Group lessons are USD 100 a month and private le
 
 Not unless you ask. Normally lessons pause for the dates you give us.
 
+Around Essex
+
 ## Other Essex pages and their projects
 
 Try [Basildon](/best-coding-and-ai-classes-in-basildon) (choosing a quicksort pivot), [Chelmsford](/best-coding-class-in-chelmsford) or the county page for [Essex](/coding-classes-in-essex). The [East of England page](/coding-and-ai-classes-in-east-of-england) and the [UK hub](/coding-classes-in-united-kingdom) list the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[WhatsApp our team](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20Python%20or%20coding%20lesson%20for%20someone%20in%20Brentwood.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/online-coding-and-python-classes-in-brentwood](https://learn.modernagecoders.com/online-coding-and-python-classes-in-brentwood#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-brentwood*

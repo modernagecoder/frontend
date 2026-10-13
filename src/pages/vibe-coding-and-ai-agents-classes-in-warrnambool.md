@@ -4,56 +4,40 @@ description: "Vibe coding and AI agents classes for Warrnambool teens and adults
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-warrnambool
 source: src/pages/vibe-coding-and-ai-agents-classes-in-warrnambool.html
 ---
-> For Warrnambool teenagers and adults, classes where you build apps by talking to AI coding tools and agents, and learn just enough Python and maths to catch them when they are wrong. Warrnambool had 35,743 residents at the 2021 Census. A teacher runs every lesson live on video, in a group of fifteen to twenty or one to one, and the first lesson is free.
+> Vibe coding and AI agents classes for Warrnambool teens and adults: build with AI helpers, then test their answers on real local bus data. First lesson free.
 
-[Home](/) / [Victoria](/coding-and-ai-classes-in-victoria) / [Australia](/coding-classes-in-australia) / Warrnambool
-
-Warrnambool, Victoria, Australia / Live online
-
-# Vibe coding and AI agents classes in Warrnambool
-
-**What are the best vibe coding and AI agents classes in Warrnambool?** For Warrnambool teenagers and adults, classes where you build apps by talking to AI coding tools and agents, and learn just enough Python and maths to catch them when they are wrong. Warrnambool had 35,743 residents at the 2021 Census. A teacher runs every lesson live on video, in a group of fifteen to twenty or one to one, and the first lesson is free.
-
-Here is a question an AI travel agent might be asked in Warrnambool: how often does the Merrivale bus run? To answer from raw timetable data, a tempting trick borrowed from audio engineering is to treat departures like a sound and listen for the strongest beat. The Goertzel algorithm does exactly that, testing one period at a time. We ran it over every town route on a Wednesday in October. For route 1 it heard a 15-minute beat just as loudly as a 30-minute one, although no bus on that route ever runs 15 minutes apart. Working out why is the whole lesson.
-
-Facts last verified 8 October 2026. Teaching is online; no Warrnambool branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Warrnambool
 
 ## Four ways into building with AI
 
 Each runs live and teaches both the building and the checking. The free trial, no card needed, decides the fit.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Teenagers build web pages, games and Python tools with AI assistants, testing each piece as it arrives.
-- [AI Tools Course for Teens (13+)](/courses/teens-ai-tools-mastery-course) (Ages 13 to 17): A practical tour of AI tools: what each does well, where it fails, and how to tell the difference.
-- [Vibe Coding for College](/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course) (University and adult): Full apps built with AI help, alongside the algorithms that let you review generated code properly.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (Adults): Python and AI for automating everyday work, from timetables and spreadsheets to simple agents.
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensTeenagers build web pages, games and Python tools with AI assistants, testing each piece as it arrives.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![AI Tools Course for Teens (13+) course thumbnail](/images/ai-tools-kids.webp)Ages 13 to 17AI Tools Course for Teens (13+)A practical tour of AI tools: what each does well, where it fails, and how to tell the difference.See the syllabus](/courses/teens-ai-tools-mastery-course)[![Vibe Coding for College course thumbnail](/images/vibe-coding-college.webp)University and adultVibe Coding for CollegeFull apps built with AI help, alongside the algorithms that let you review generated code properly.See the syllabus](/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course)[![Python Automation Course course thumbnail](/images/python-college.webp)AdultsPython Automation CoursePython and AI for automating everyday work, from timetables and spreadsheets to simple agents.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Warrnambool in figures
 
 ## A coastal city with a large school population
 
 The statistics bureau's Warrnambool Significant Urban Area, as counted in the 2021 Census.
 
-**Warrnambool urban area, 2021**
-
 | Statistic | Warrnambool |
-|---|---|
+| --- | --- |
 | Residents | 35,743 |
 | Median age | 42 |
 | Families | 9,525 |
 | Private dwellings | 16,101 |
 | Mean household size | 2.3 people |
 
-**Warrnambool compared with Victoria and Australia**
-
 | Measure | Warrnambool | Victoria | Australia |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Residents aged 15 to 19 | 2,129 (6.0%) | 5.6% | 5.7% |
 | People in education who attend a government secondary school | 1,416 (14.2%) | 11.7% | 12.2% |
 | Occupied homes that are separate houses | 11,775 (83.4%) | 73.4% | 72.3% |
@@ -74,23 +58,21 @@ Among everyone in education, 14.2% attend a government secondary school, compare
 
 The bureau adds small random changes to Census cells for privacy, so breakdowns may not total exactly. Figures here match the bureau's publication.
 
+Signature project
+
 ## Can a frequency detector read a bus timetable?
 
 Turn a day of departures into a signal, then test which repeating period fits it most closely.
 
-**Warrnambool town buses in the regional feed, Wednesday 14 October 2026 (our count)**
-
 | Item | Value |
-|---|---|
+| --- | --- |
 | Routes named in the feed | 1 Dennington, 2 Gateway Plaza, 3 Deakin University via Gateway Plaza, 4 Tower Square via Gateway Plaza, 5 Lake Pertobe Loop, 6 Merrivale, 8 Port Fairy, 9 Allansford |
 | Trips running that day | 202 |
 | Route and direction pairs with 10 or more departures | 11 |
 | Periods tested, in minutes | 15, 20, 24, 30, 40, 45, 50, 60, 75, 90 and 120 |
 
-**Route 1, first direction in the feed: 16 departures from 08:00 to 18:30 (our Goertzel run)**
-
 | Period tested | Relative strength |
-|---|---|
+| --- | --- |
 | 15 minutes | 1.00 |
 | 20 minutes | 0.14 |
 | 30 minutes | 1.00 |
@@ -116,6 +98,8 @@ Buses leaving on the hour and half hour line up perfectly with a 30-minute grid,
 
 The other three are revealing. Route 2 in its second direction and route 4 in both directions most often run an hour apart, yet their strength at 60 minutes is only 0.06 to 0.11, because the buses still keep to half-hour marks. The detector hears the clock face, not the gap. Routes 8 and 9 run only five or six times that day, too few for any period to be meaningful. Timetable data from Transport Victoria under Creative Commons Attribution 4.0; all strengths and counts are ours.
 
+What it teaches
+
 ## Harmonics, and why agents need guard rails
 
 One misread signal explains a whole class of AI tool mistakes.
@@ -134,9 +118,13 @@ Connect Goertzel to the discrete Fourier transform, explain the tie between 15 a
 
 Build a small agent tool that answers "how often" from timetable data and returns both the clock pattern and the typical gap.
 
-**Two answers, both true** For route 2 in its second direction, "buses keep to the half-hour grid" and "most buses are an hour apart" are both correct. A good tool says which question it is answering.
+Two answers, both true
+
+For route 2 in its second direction, "buses keep to the half-hour grid" and "most buses are an hour apart" are both correct. A good tool says which question it is answering.
 
 Modern Age Coders is independent of Transport Victoria, the Victorian Government, Warrnambool City Council and the statistics bureau. Census figures are the bureau's; the departure series, Goertzel strengths and match counts all come from our own code.
+
+Warrnambool calendar
 
 ## Victorian terms and the daylight saving switch
 
@@ -154,14 +142,37 @@ Starts Wednesday 27 January, with government school students back on Thursday 28
 
 Victoria moves to daylight saving on the first Sunday in October and back to standard time on the first Sunday in April.
 
+Learning ladder
+
 ## From a timetable loop to tools an agent can trust
 
 The ages guide the first step; the trial lesson confirms it.
 
-- **Ages 13 to 14: Patterns in code** Python that reads times, works out gaps and spots repeating patterns in simple lists. [Python for Teens](/courses/python-complete-masterclass-teens), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 15 to 18: Building with AI** AI-assisted projects that come with the learner's own tests, so nothing unchecked ships. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [AI Tools Course for Teens (13+)](/courses/teens-ai-tools-mastery-course)
-- **University: Signals and agents** Fourier ideas, estimators and agent tools that report their method alongside the answer. [Vibe Coding for College](/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course), [Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college)
-- **Adults: Automation that holds up** Scripts and agents for real tasks, with checks that catch confident wrong answers. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
+Ages 13 to 14
+
+### Patterns in code
+
+Python that reads times, works out gaps and spots repeating patterns in simple lists.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Maths Through Coding](/courses/maths-through-coding)Ages 15 to 18
+
+### Building with AI
+
+AI-assisted projects that come with the learner's own tests, so nothing unchecked ships.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[AI Tools Course for Teens (13+)](/courses/teens-ai-tools-mastery-course)University
+
+### Signals and agents
+
+Fourier ideas, estimators and agent tools that report their method alongside the answer.
+
+[Vibe Coding for College](/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course)[Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college)Adults
+
+### Automation that holds up
+
+Scripts and agents for real tasks, with checks that catch confident wrong answers.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)Vibe coding and agents
 
 ## An AI agent can analyse a timetable for you. Why should a Warrnambool learner learn how?
 
@@ -173,30 +184,139 @@ Our Warrnambool learners vibe-code the timetable tool, then deliberately break i
 
 Agents will do more of the routine work; the people who know where they fail will decide when to trust them. The longer argument is in [whether coding is still worth learning in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Warrnambool lessons, run online
 
 Every class happens on video, so the distance to Melbourne or Geelong changes nothing.
 
-- **From home** Learners log in from their own computer, with no trip to a city campus for a class.
-- **Victorian levels** Lessons are pitched at Victorian year levels and paced around the state's four terms. Teaching is in English.
-- **Free trial** The first lesson teaches something real and ends with a suggested course and weekly time.
-- **Five to ten** Group classes hold fifteen to twenty learners at the same level, combined from Warrnambool and other places.
-- **Every week** Two live sessions each week, close to eight a month, on days agreed after the trial.
-- **Teachers in India** In summer Warrnambool runs five and a half hours ahead of India time; from April to October the difference is four and a half hours.
+### From home
 
-**Local time, always** We confirm each lesson in Warrnambool time, and handle the April and October clock changes ourselves.
+Learners log in from their own computer, with no trip to a city campus for a class.
+
+### Victorian levels
+
+Lessons are pitched at Victorian year levels and paced around the state's four terms. Teaching is in English.
+
+### Free trial
+
+The first lesson teaches something real and ends with a suggested course and weekly time.
+
+### Fifteen to twenty
+
+Group classes hold fifteen to twenty learners at the same level, combined from Warrnambool and other places.
+
+### Every week
+
+Two live sessions each week, close to eight a month, on days agreed after the trial.
+
+### Teachers in India
+
+In summer Warrnambool runs five and a half hours ahead of India time; from April to October the difference is four and a half hours.
+
+Local time, always
+
+We confirm each lesson in Warrnambool time, and handle the April and October clock changes ourselves.
+
+Fees
 
 ## Warrnambool fees
 
 Pricing is brief and uniform across Australia.
 
-- First class: USD 0. A free first lesson that finishes with a recommended level, course and weekly slot.
-- Group tuition: USD 100 a month. A month of group sessions, normally eight, with fifteen to twenty learners at your level.
-- Private tuition: USD 150 a month. Close to eight one-to-one sessions a month with your own teacher.
+First class**USD 0**
+
+A free first lesson that finishes with a recommended level, course and weekly slot.
+
+Group tuition**USD 100**
+
+A month of group sessions, normally eight, with fifteen to twenty learners at your level.
+
+Private tuition**USD 150**
+
+Close to eight one-to-one sessions a month with your own teacher.
 
 Fees outside India are in US dollars, so Warrnambool learners pay the national rate. No payment is taken until the trial has fixed what and when you will study; the pricing page explains holidays, missed sessions and switching formats.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20class%20for%20a%20learner%20in%20Warrnambool.)Reviews
+
+## Reviews our families posted on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free vibe coding or agents lesson
+
+Tell us the learner's age and what they are curious about. A teenager might begin by vibe-coding a small game; an adult might start with the bus timetable and an agent that answers questions about it.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Warrnambool one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20class%20for%20a%20learner%20in%20Warrnambool.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Warrnambool vibe coding questions
+
+Common questions from Warrnambool learners and parents.
 
 ### What is the Goertzel algorithm?
 
@@ -238,10 +358,14 @@ The first lesson is free. Afterwards a group place is USD 100 a month for two li
 
 Fifteen to twenty, grouped by level and goals rather than age or town. If no group fits the timetable, one-to-one lessons are offered.
 
+Explore Australia
+
 ## More for south-west Victoria
 
 See [coding and AI classes in Victoria](/coding-and-ai-classes-in-victoria) for the whole state. VCE students can read [VCE Applied Computing: Software Development help](/vce-applied-computing-software-development-help), and anyone using AI tools should try [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-australia). Every Australian page is gathered on the [Australia coding hub](/coding-classes-in-australia).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20class%20for%20a%20learner%20in%20Warrnambool.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-warrnambool](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-warrnambool#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-warrnambool*

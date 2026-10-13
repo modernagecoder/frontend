@@ -4,46 +4,32 @@ description: "Live online AI and programming classes for Adelaide teenagers and 
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-adelaide
 source: src/pages/ai-and-programming-classes-in-adelaide.html
 ---
-> For an Adelaide teenager or adult, live lessons where you write the AI yourself, test it against simple alternatives and understand why it works. Greater Adelaide counted 1,387,290 people at the 2021 Census, with a median age of 39, older than most capitals, so our classes run from Year 9 students to people changing careers. Lessons are online, privately or in small level-matched groups, and the first one is free.
+> Live online AI and programming classes for Adelaide teenagers and adults: Python, machine learning and optimisation, taught by a real teacher. First lesson free.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [South Australia](/coding-and-ai-classes-in-south-australia) / Adelaide
-
-Adelaide, South Australia / Live online
-
-# AI and programming classes in Adelaide
-
-**What are the best AI and programming classes in Adelaide?** For an Adelaide teenager or adult, live lessons where you write the AI yourself, test it against simple alternatives and understand why it works. Greater Adelaide counted 1,387,290 people at the 2021 Census, with a median age of 39, older than most capitals, so our classes run from Year 9 students to people changing careers. Lessons are online, privately or in small level-matched groups, and the first one is free.
-
-Some of the most useful ideas in artificial intelligence are borrowed from nature. Particle swarm optimisation copies a flock of birds: dozens of simple agents wander a problem, remember the good spots they have seen and drift towards the good spots their neighbours report. Our Adelaide project gives the swarm a real puzzle. Using Adelaide Metro's own open data, 7,680 stops served by its trains, trams and buses, where would you put three study hubs so that as many stops as possible lie within 800 metres? The swarm does well. Then learners try a plain greedy rule, and the result is the most important lesson of the course: always compare a clever method with a simple one before trusting it.
-
-Facts last verified 7 October 2026. Teaching is online; no Adelaide branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Adelaide
 
 ## Four ways into AI and programming in Adelaide
 
 Chosen by what you want to build, then pitched at the right level in the free lesson. Starting costs nothing and needs no card.
 
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Python first, then real machine learning models trained and tested on data the learner can inspect.
-- [Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college) (University and adult): Search, optimisation, logic and agents: the classic ideas underneath today's AI tools.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): The programming foundation every AI project needs, from loops and functions to files and classes.
-- [Data Science Course](/courses/data-science-complete-masterclass-college) (Adults): Python, statistics and machine learning for people who want to work with data seriously.
+[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 14 to 18AI and Machine Learning for TeensPython first, then real machine learning models trained and tested on data the learner can inspect.See the syllabus](/courses/ai-ml-masterclass-teens)[![Artificial Intelligence Course course thumbnail](/images/ai-college.webp)University and adultArtificial Intelligence CourseSearch, optimisation, logic and agents: the classic ideas underneath today's AI tools.See the syllabus](/courses/artificial-intelligence-complete-masterclass-college)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensThe programming foundation every AI project needs, from loops and functions to files and classes.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Science Course course thumbnail](/images/data-science-college.webp)AdultsData Science CoursePython, statistics and machine learning for people who want to work with data seriously.See the syllabus](/courses/data-science-complete-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Greater Adelaide in the Census
 
 ## A capital of 1.4 million with an older profile
 
 QuickStats for the Greater Adelaide capital city area from the 2021 Census, compared with South Australia and the whole country.
 
-**Greater Adelaide, 2021 Census QuickStats**
-
 | Measure | Greater Adelaide | South Australia | Australia |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | People | 1,387,290 | Not compared | Not compared |
 | Median age | 39 | 41 | 38 |
 | Families | 375,146 | Not compared | Not compared |
@@ -65,14 +51,14 @@ A median age of 39 puts Greater Adelaide a year above Australia's 38, though sti
 
 How these census numbers are treated here. The bureau perturbs every table cell slightly to protect privacy, so adding a column's pieces may not reproduce its printed total. We quote only the totals and percentages as published and never create totals of our own by adding rows.
 
+Signature project
+
 ## Where should three study hubs go to reach the most Adelaide Metro stops?
 
 A made-up problem on real data: choose three points so that the largest number of the 7,680 stops served by Adelaide Metro sit within 800 metres of one of them.
 
-**Stops within 800 m of three hubs, 10 runs each, 6,000 placements tried per run (our calculation, 7 October 2026)**
-
 | Method | Average stops covered | Range over 10 runs |
-|---|---|---|
+| --- | --- | --- |
 | Random points anywhere in the network's bounding box | 121.3 | 105 to 146 |
 | Random points placed on real stops | 176.9 | 171 to 198 |
 | Particle swarm, 30 particles | 195.1 | 167 to 206 |
@@ -96,14 +82,14 @@ The greedy hubs land beside Stop V1 on King William Street, Stop 63C on Elizabet
 
 This is a teaching exercise, not a proposal for real hubs. Coverage counts stops, not people or services, and distances are straight lines on a flat projection of the map, not walking routes. The figures are ours, worked out from the Adelaide Metro feed published for 2 October 2026 to 9 April 2027; a later feed will shift them a little.
 
+Testing any AI method
+
 ## Five checks before you believe an AI result
 
 First practised on the swarm, then applied to classifiers, recommenders and anything else that claims to be smart.
 
-**Habits that keep AI work honest**
-
 | Check | In the Adelaide project | What it stops |
-|---|---|---|
+| --- | --- | --- |
 | Beat random first | The swarm had to beat 121.3 stops from blind guessing | Calling luck intelligence |
 | Beat a simple rule | The greedy rule reached 205 | Using a complex tool where a simple one wins |
 | Run it more than once | Ten swarm runs ranged from 167 to 206 | Reporting one lucky run |
@@ -126,6 +112,8 @@ Learn to question a vendor's AI claim: what was it compared against, how many ru
 
 Modern Age Coders works independently of Adelaide Metro, the South Australian Department for Infrastructure and Transport and the statistics bureau. The census counts belong to the bureau; every coverage figure on this page is our own calculation from the open Adelaide Metro feed.
 
+Around Adelaide
+
 ## A network on a grid and a clock half an hour apart
 
 Two details a programmer in Adelaide runs into early.
@@ -142,16 +130,41 @@ The stops in our filtered list stretch about 54 km east to west and 85 km north 
 
 Adelaide sits nine and a half hours ahead of UTC in winter and ten and a half in summer, one of the few half-hour offsets in the world.
 
-**Why half-hour offsets catch programmers out** Code that stores time zones as whole numbers of hours breaks in Adelaide. Any program that schedules Adelaide lessons, flights or meetings has to allow offsets in minutes, and to know that South Australia moves its clocks on the first Sundays of October and April.
+Why half-hour offsets catch programmers out
+
+Code that stores time zones as whole numbers of hours breaks in Adelaide. Any program that schedules Adelaide lessons, flights or meetings has to allow offsets in minutes, and to know that South Australia moves its clocks on the first Sundays of October and April.
+
+Learning ladder
 
 ## From a first Python loop to building and testing AI
 
 The age ranges are guides only; your trial lesson sets the actual level.
 
-- **Ages 13 to 14: Programming foundations** Python variables, loops, functions and lists, with small simulations that already behave a little like agents. [Python for Teens](/courses/python-complete-masterclass-teens), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 15 to 18: Search and learning** Random search, greedy rules and swarms, then first machine learning models trained and tested properly. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)
-- **University: AI methods in depth** Optimisation, search, probabilistic reasoning and neural networks, with fair experiments and written reports. [Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college), [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college)
-- **Adults: AI at work** Applying machine learning and automation to real business data, and judging AI products with a critical eye. [Data Science Course](/courses/data-science-complete-masterclass-college), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 13 to 14
+
+### Programming foundations
+
+Python variables, loops, functions and lists, with small simulations that already behave a little like agents.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Maths Through Coding](/courses/maths-through-coding)Ages 15 to 18
+
+### Search and learning
+
+Random search, greedy rules and swarms, then first machine learning models trained and tested properly.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)University
+
+### AI methods in depth
+
+Optimisation, search, probabilistic reasoning and neural networks, with fair experiments and written reports.
+
+[Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college)[AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college)Adults
+
+### AI at work
+
+Applying machine learning and automation to real business data, and judging AI products with a critical eye.
+
+[Data Science Course](/courses/data-science-complete-masterclass-college)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## AI tools can write code already. Why should an Adelaide student learn to build AI from scratch?
 
@@ -163,30 +176,139 @@ Learners who build the method themselves learn the questions that matter: what i
 
 In 2026 the scarce skill is not generating code but judging it, and an Adelaide learner who has watched a swarm lose to a greedy rule will judge every AI claim more carefully. The longer argument is in [is coding still worth learning in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Gawler, Glenelg or the Hills, one live lesson
 
 Greater Adelaide reaches from the coast up into the Hills, and an online class reaches every part of it the same way.
 
-- **From home, anywhere in the city** A learner in Salisbury and one in Mount Barker can share a lesson, each from their own room, with no travel at all.
-- **South Australian year levels** Teachers use the year levels Adelaide schools use and plan around the SA school terms; senior students can link projects to SACE studies. Lessons are in English.
-- **Start with a free lesson** A proper task with a proper teacher, then a recommended level, course and time. We never ask for card details at this stage.
-- **Groups matched by level** Fifteen to twenty learners at the same stage, from Adelaide and elsewhere, so most evening times have a group.
-- **Two lessons each week** About eight lessons a month at a fixed time, with holiday and exam breaks planned with the teacher.
-- **Four or five hours to India time** Adelaide is 4 hours ahead of India time in winter and 5 hours ahead during daylight saving, from 4 October 2026 to 4 April 2027.
+### From home, anywhere in the city
 
-**Daylight saving, noted once** South Australia moves its clocks forward on Sunday 4 October 2026 and back on Sunday 4 April 2027. India does not change, so the gap to our teachers grows by an hour in summer. Lesson times are always confirmed in Adelaide time.
+A learner in Salisbury and one in Mount Barker can share a lesson, each from their own room, with no travel at all.
+
+### South Australian year levels
+
+Teachers use the year levels Adelaide schools use and plan around the SA school terms; senior students can link projects to SACE studies. Lessons are in English.
+
+### Start with a free lesson
+
+A proper task with a proper teacher, then a recommended level, course and time. We never ask for card details at this stage.
+
+### Groups matched by level
+
+Fifteen to twenty learners at the same stage, from Adelaide and elsewhere, so most evening times have a group.
+
+### Two lessons each week
+
+About eight lessons a month at a fixed time, with holiday and exam breaks planned with the teacher.
+
+### Four or five hours to India time
+
+Adelaide is 4 hours ahead of India time in winter and 5 hours ahead during daylight saving, from 4 October 2026 to 4 April 2027.
+
+Daylight saving, noted once
+
+South Australia moves its clocks forward on Sunday 4 October 2026 and back on Sunday 4 April 2027. India does not change, so the gap to our teachers grows by an hour in summer. Lesson times are always confirmed in Adelaide time.
+
+Fees
 
 ## What classes cost in Adelaide
 
 Three figures with no extras.
 
-- First class: USD 0. An entire lesson free of charge, ending with a suggested level, course and lesson time.
-- Group tuition: USD 100 a month. A month of lessons, usually eight, in a group of fifteen to twenty learners at the same stage.
-- Private tuition: USD 150 a month. The same rhythm of about eight lessons a month, with one teacher for one learner.
+First class**USD 0**
+
+An entire lesson free of charge, ending with a suggested level, course and lesson time.
+
+Group tuition**USD 100**
+
+A month of lessons, usually eight, in a group of fifteen to twenty learners at the same stage.
+
+Private tuition**USD 150**
+
+The same rhythm of about eight lessons a month, with one teacher for one learner.
 
 Families outside India pay in US dollars at one rate, so Port Adelaide and Unley pay the same and there is no Adelaide price list. Billing begins only after the trial, once course and time are settled; the pricing page explains holidays, missed lessons and switching between group and private.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20Adelaide.)Reviews
+
+## What parents and learners have written on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us what you want to learn
+
+We match the first task to you: a first Python program for a Year 9 student, a small swarm for a Year 11 student, or the full Adelaide Metro coverage project for an adult.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Adelaide one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20Adelaide.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Adelaide AI and programming questions
+
+What Adelaide learners and parents ask before they begin.
 
 ### How many people live in Greater Adelaide?
 
@@ -228,10 +350,14 @@ The first lesson is free. After that a group place is USD 100 a month for two li
 
 Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
+Explore Australia
+
 ## More for Adelaide and Australian learners
 
 Senior students taking computing can read [SACE Digital Technologies help](/sace-digital-technologies-help), and those taking maths can see [SACE Mathematical Methods tutoring](/sace-mathematical-methods-tutoring). Younger students preparing for selective entry can start with [SA Ignite entry maths practice](/sa-ignite-entry-maths-practice), and teenagers curious about AI should look at [AI classes for Australian teens](/ai-classes-for-teens-australia). Everything is linked from the [Australia coding page](/coding-classes-in-australia).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20Adelaide.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-adelaide](https://learn.modernagecoders.com/ai-and-programming-classes-in-adelaide#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-adelaide*

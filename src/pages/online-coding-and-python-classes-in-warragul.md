@@ -4,46 +4,32 @@ description: "Live online Python and coding classes for Warragul and Drouin teen
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-warragul
 source: src/pages/online-coding-and-python-classes-in-warragul.html
 ---
-> Look for a live teacher, a class at the learner's level and projects on data the learner can check. Warragul and Drouin together counted 42,827 residents at the 2021 Census. Our lessons run over video, one to one or with a few classmates working at the same stage, and the first one is free.
+> Live online Python and coding classes for Warragul and Drouin teens and adults, built on Victorian transport data. Small groups or one to one, first lesson free.
 
-[Home](/) / [Victoria](/coding-and-ai-classes-in-victoria) / [Australia](/coding-classes-in-australia) / Warragul
-
-Warragul and Drouin, Victoria / Live online
-
-# Online coding and Python classes in Warragul
-
-**How should someone in Warragul pick the best online Python class?** Look for a live teacher, a class at the learner's level and projects on data the learner can check. Warragul and Drouin together counted 42,827 residents at the 2021 Census. Our lessons run over video, one to one or with a few classmates working at the same stage, and the first one is free.
-
-Transport Victoria publishes every scheduled bus trip in the state as an open timetable feed. The six town routes serving Warragul and Drouin account for 1,542 trips and 21,135 rows of stop times, which sounds like a big network. Group the trips by the exact ordered list of stops they visit and only 13 distinct journeys remain, each run to an identical timing pattern. Python makes that grouping one line long, provided the key is a tuple. Try a list and the program stops with an error; try a set and it quietly forgets which way the bus is going.
-
-Facts last verified 9 October 2026. Teaching is online; no Warragul branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentPython course picks for Warragul
 
 ## Python routes for Warragul and Drouin learners
 
 Four starting points, chosen by what the learner wants Python to do. The free lesson confirms the stage, and we take no card details.
 
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Lists, tuples, dictionaries and files, with real timetables as practice data.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): Grouping, counting and summarising large tables with Python.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (University and adult): Hashing, mutability and the data model that decides what can be a dictionary key.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (Adults working with data): Deduplicating and compressing operational data before anyone reports on it.
+[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensLists, tuples, dictionaries and files, with real timetables as practice data.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensGrouping, counting and summarising large tables with Python.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Python Masterclass course thumbnail](/images/python-college.webp)University and adultPython MasterclassHashing, mutability and the data model that decides what can be a dictionary key.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)Adults working with dataData Analysis CourseDeduplicating and compressing operational data before anyone reports on it.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Warragul and Drouin in the Census
 
 ## Two Baw Baw towns counted together: 42,827 people
 
 ABS 2021 QuickStats for the Warragul and Drouin urban area, compared with Victoria and the country.
 
-**Warragul and Drouin, 2021 Census**
-
 | Statistic | Warragul and Drouin | Victoria | Australia |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Population | 42,827 | Not reported | Not reported |
 | Median age | 40 | 38 | 38 |
 | Families | 11,719 | Not reported | Not reported |
@@ -66,14 +52,14 @@ There were 2,362 residents aged 15 to 19 and 2,216 aged 20 to 24 in 2021.
 
 The ABS perturbs small census cells for confidentiality, which can stop table rows matching their totals. We show each figure as the bureau printed it and have added nothing up ourselves.
 
+Signature project
+
 ## How many different bus journeys do Warragul and Drouin really have?
 
 Six town routes from Transport Victoria's timetable feed, dated 2 October 2026, grouped in Python.
 
-**Trips and distinct stop sequences by route (our count)**
-
 | Route | Trips in the feed | Distinct stop sequences |
-|---|---|---|
+| --- | --- | --- |
 | 80 | 276 | 2 |
 | 81 | 276 | 2 |
 | 82 | 270 | 2 |
@@ -99,14 +85,14 @@ Two of route 85's sequences leave Drouin Station in the same direction. One runs
 
 On this feed a frozenset of stops also happens to give 13 groups, because no two journeys visit the same stops in a different order. A learner proves why that cannot be relied on by building a small test case where an outbound and an inbound trip share every stop, and watching the set key merge them.
 
+Choosing a key
+
 ## Four ways to key a trip, and which ones survive
 
 The same question asked four ways on the Warragul and Drouin trips.
 
-**Candidate grouping keys**
-
 | Key | Result on this feed | Problem |
-|---|---|---|
+| --- | --- | --- |
 | A list of stop IDs | TypeError: unhashable type | Lists can change, so Python refuses them as keys |
 | A tuple of stop IDs | 13 groups | None: order kept and hashable |
 | A frozenset of stop IDs | 13 groups | Would merge journeys that run the same stops in reverse |
@@ -128,6 +114,8 @@ Spotting repeated records in logs, rosters or order files, and compressing them 
 
 Modern Age Coders is not connected with Transport Victoria, Baw Baw Shire or the ABS. The timetable feed and census data are theirs; the groups, counts and key comparisons are our own analysis, and they describe the published timetable rather than any bus actually running.
 
+Around Warragul
+
 ## Victorian terms and summer time
 
 When Warragul learners have school, and how the clocks move.
@@ -144,16 +132,41 @@ Government school students return on Thursday 28 January 2027, and Term 1 finish
 
 Victoria moves to summer time on the first Sunday in October and back on the first Sunday in April.
 
-**An hour that moves twice a year** India keeps the same clock all year, so the gap to Warragul is four and a half hours in winter and five and a half in summer. Lessons are fixed in Warragul time and the shift is handled on our side.
+An hour that moves twice a year
+
+India keeps the same clock all year, so the gap to Warragul is four and a half hours in winter and five and a half in summer. Lessons are fixed in Warragul time and the shift is handled on our side.
+
+Learning ladder
 
 ## From a first dictionary to clean data pipelines
 
 The ages are approximate. The trial lesson finds the right stage.
 
-- **Ages 13 to 14: Collections** Lists, tuples and dictionaries, and why some can be keys and others cannot. [Python for Teens](/courses/python-complete-masterclass-teens), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 15 to 18: Grouping data** Reading CSV files, grouping rows and testing keys on real timetable data. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)
-- **University: Hashing in depth** Hash tables, immutability and performance on files with tens of thousands of rows. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)
-- **Adults: Reliable data work** Deduplication, compression and checks that survive new data arriving. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 13 to 14
+
+### Collections
+
+Lists, tuples and dictionaries, and why some can be keys and others cannot.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Maths Through Coding](/courses/maths-through-coding)Ages 15 to 18
+
+### Grouping data
+
+Reading CSV files, grouping rows and testing keys on real timetable data.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)University
+
+### Hashing in depth
+
+Hash tables, immutability and performance on files with tens of thousands of rows.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)Adults
+
+### Reliable data work
+
+Deduplication, compression and checks that survive new data arriving.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## Would an AI assistant choose the right key?
 
@@ -165,30 +178,139 @@ Our Warragul learners treat matching answers as a reason to test harder, not to 
 
 A Warragul learner who can explain why a tuple beat a set will read any AI-generated Python more carefully in 2026, and that is why the coding underneath still matters. The longer argument is in [why coding still matters in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Drouin to Warragul, one Python lesson
 
 The two towns share the Princes Way corridor, and a live online class covers both.
 
-- **Either town, same class** A learner in Drouin and one in Warragul can join one lesson from their own homes.
-- **Victorian levels** Lessons follow Victorian year levels, including VCE study for senior students, in English.
-- **Free first session** Write some real Python with a teacher, then receive a suggested stage, course and time; no card required.
-- **Fifteen to twenty learners** Groups share a level and draw from Victoria, the rest of Australia and abroad.
-- **Twice weekly** Normally two lessons a week, about eight a month, with Victorian holidays planned in.
-- **Clock changes handled** When daylight saving starts or ends, the lesson stays at the same Warragul time.
+### Either town, same class
 
-**Every time in Warragul time** Confirmed lesson times are always written for Victoria, so families never work out a conversion.
+A learner in Drouin and one in Warragul can join one lesson from their own homes.
+
+### Victorian levels
+
+Lessons follow Victorian year levels, including VCE study for senior students, in English.
+
+### Free first session
+
+Write some real Python with a teacher, then receive a suggested stage, course and time; no card required.
+
+### Fifteen to twenty learners
+
+Groups share a level and draw from Victoria, the rest of Australia and abroad.
+
+### Twice weekly
+
+Normally two lessons a week, about eight a month, with Victorian holidays planned in.
+
+### Clock changes handled
+
+When daylight saving starts or ends, the lesson stays at the same Warragul time.
+
+Every time in Warragul time
+
+Confirmed lesson times are always written for Victoria, so families never work out a conversion.
+
+Fees
 
 ## What Python classes cost in Warragul
 
 Here is the full list.
 
-- First class: USD 0. A no-cost first lesson that finishes with a stage, a course and a time.
-- Group tuition: USD 100 a month. A month of group lessons, typically eight, with fifteen to twenty learners at your level.
-- Private tuition: USD 150 a month. Typically eight one-to-one lessons a month with one teacher.
+First class**USD 0**
+
+A no-cost first lesson that finishes with a stage, a course and a time.
+
+Group tuition**USD 100**
+
+A month of group lessons, typically eight, with fifteen to twenty learners at your level.
+
+Private tuition**USD 150**
+
+Typically eight one-to-one lessons a month with one teacher.
 
 Warragul and Drouin learners pay the national rate in US dollars, with no Gippsland extra. Nothing is billed until the trial has settled a course and a slot; the pricing page has the details on holidays, missed lessons and swapping formats.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20Python%20class%20for%20a%20learner%20in%20Warragul.)Reviews
+
+## Families on Google, in their own words
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us where the learner is with Python
+
+We set the first task to match: a dictionary of favourite things for a Year 7 beginner, the bus-trip grouping problem for a Year 10 student, or the full timetable feed and its key question for an adult.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Warragul one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20Python%20class%20for%20a%20learner%20in%20Warragul.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Warragul Python and coding questions
+
+What Warragul and Drouin learners and parents ask most.
 
 ### How many people live in Warragul and Drouin?
 
@@ -230,10 +352,14 @@ The first lesson is free. After that a group place is USD 100 a month for two li
 
 Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
+Explore Victoria
+
 ## More for Warragul and Victorian learners
 
 Elsewhere in Victoria there are [online Python classes in Geelong](/online-coding-and-python-classes-in-geelong), [Python classes in Ballarat](/online-coding-and-python-classes-in-ballarat) and [vibe coding and AI agents in Melbourne](/vibe-coding-and-ai-agents-classes-in-melbourne). VCE students can see [VCE Applied Computing Data Analytics help](/vce-applied-computing-data-analytics-help), and the state page is [coding and AI classes in Victoria](/coding-and-ai-classes-in-victoria).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20Python%20class%20for%20a%20learner%20in%20Warragul.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/online-coding-and-python-classes-in-warragul](https://learn.modernagecoders.com/online-coding-and-python-classes-in-warragul#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-warragul*

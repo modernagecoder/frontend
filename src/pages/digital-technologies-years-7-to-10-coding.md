@@ -4,34 +4,28 @@ description: "Digital Technologies coding for Years 7 to 10: what ACARA's Versio
 canonical: https://learn.modernagecoders.com/digital-technologies-years-7-to-10-coding
 source: src/pages/digital-technologies-years-7-to-10-coding.html
 ---
-> In Years 7 to 10 the Australian Curriculum asks students to implement algorithms in a general-purpose language, then by Year 10 in an object-oriented one. They also model structured data and query multi-table databases with SQL, manage collaborative projects with tools such as GitHub, and build cyber security threat models. Each school decides how these are taught and assessed.
+> Digital Technologies coding for Years 7 to 10: what ACARA's Version 9.0 content asks students to program, store, test and secure, with a worked SQL lesson.
 
-[Home](/) / [Digital Technologies curriculum help](/australian-curriculum-digital-technologies-help) / Years 7 to 10 coding
+In short
 
-Australia · Digital Technologies Years 7 to 10 · Live online
+In Years 7 to 10 the Australian Curriculum asks students to implement algorithms in a general-purpose language, then by Year 10 in an object-oriented one. They also model structured data and query multi-table databases with SQL, manage collaborative projects with tools such as GitHub, and build cyber security threat models. Each school decides how these are taught and assessed.
 
-# Years 7 to 10 coding in Digital Technologies
-
-Secondary Digital Technologies is where computing stops being a set of puzzles and starts looking like software work. Across Years 7 to 10 the curriculum asks for programs in a real language, then object-oriented design, databases queried with SQL, version control on shared projects, and threat models for security. This page reads the Version 9.0 content for those years and pulls out what a student is actually expected to produce, then works one lesson from the Years 9 to 10 data content: why a review table needs a key that stops the same person reviewing the same film twice. It suits students heading into senior computing and parents who want to know what the homework is really about.
-
-At a glance: Bands: Years 7 to 8, Years 9 to 10; Languages: General-purpose, then object-oriented; Data: Spreadsheets, then multi-table databases; Queries: SELECT, WHERE, simple JOIN and GROUP BY; Projects: Agile, with version control such as GitHub; Security: Authentication, then threat models; Assessment: Set by each school; We teach: Python, SQL and testing, live. Rated 4.9 across 547 Google reviews.
+Built for these years
 
 ## Three courses for secondary Digital Technologies
 
 Programming first, then data, then the habits that make projects work.
 
-- [Python, properly](/courses/python-complete-masterclass-teens): Functions, files and data structures, with every program traced and tested before it is called finished.
-- [SQL and database design](/courses/mysql-mastery-for-teens): Tables, keys and joins: the structured data the Years 9 to 10 content builds on.
-- [Git and GitHub](/courses/git-github-version-control-course-for-teens): Version control for shared projects, the tool the curriculum names for collaborative work.
+[![Python for Teens course thumbnail](/images/python-teens.webp)  DTSN / 01 Python, properly Functions, files and data structures, with every program traced and tested before it is called finished. Open the syllabus →](/courses/python-complete-masterclass-teens)[![MySQL for Teens course thumbnail](/images/mysql-teens.webp)  DTSN / 02 SQL and database design Tables, keys and joins: the structured data the Years 9 to 10 content builds on. Open the syllabus →](/courses/mysql-mastery-for-teens)[![Git & GitHub Course for Teens course thumbnail](/images/git-github-teens.webp)  DTSN / 03 Git and GitHub Version control for shared projects, the tool the curriculum names for collaborative work. Open the syllabus →](/courses/git-github-version-control-course-for-teens)
+
+What the two bands ask for
 
 ## From a first real language to object-oriented code
 
 The band descriptions set the direction. These sentences are ACARA's, from the Version 9.0 Years 7 to 10 file.
 
-**Programming and data expectations, Years 7 to 8 against Years 9 to 10**
-
 | Area | Years 7 to 8 | Years 9 to 10 |
-|---|---|---|
+| --- | --- | --- |
 | Language | "implementing them in a general-purpose programming language" | "implementing them, including in an object-oriented programming language" |
 | Algorithms | Nested control structures, shown as flowcharts and pseudocode | Logical operators, shown as flowcharts and pseudocode |
 | Checking work | Trace algorithms to predict output and find errors | Validate against "a range of test cases" |
@@ -49,14 +43,14 @@ The quietest change is testing. Years 7 to 8 trace code by hand with desk checks
 
 Source: ACARA, [Digital Technologies content 7 to 10, Version 9.0](https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/technologies/digital-technologies/technologies-digital-technologies-curriculum-content-7-10-v9.docx) (Word download), band descriptions, Year 10 achievement standard and AC9TDI10P09, read on 7 October 2026. We are not connected with ACARA.
 
+A lesson from AC9TDI10P03
+
 ## One person, one review: why a database needs a composite key
 
 The content description AC9TDI10P03 asks students to "model and query entities and their relationships using structured data". One of its elaborations is a check that "each user has only reviewed each movie once". Here is that check, done for real.
 
-**An invented reviews table with eight rows (user and movie numbers stand for names)**
-
 | Row | User | Movie | Rating |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1 | 1 | 1 | 4 |
 | 2 | 1 | 2 | 5 |
 | 3 | 2 | 1 | 3 |
@@ -68,25 +62,27 @@ The content description AC9TDI10P03 asks students to "model and query entities a
 
 ### Finding the duplicate
 
-Grouping by both columns and counting finds any pair that appears more than once. The query is SELECT user_id, movie_id, COUNT(*) FROM reviews GROUP BY user_id, movie_id HAVING COUNT(*) &gt; 1; and on this table it returns one row: user 2, movie 1, count 2.
+Grouping by both columns and counting finds any pair that appears more than once. The query is `SELECT user_id, movie_id, COUNT(*) FROM reviews GROUP BY user_id, movie_id HAVING COUNT(*) > 1;` and on this table it returns one row: user 2, movie 1, count 2.
 
 That duplicate changes the answer to a simple question. Averaging every rating for movie 1 gives 17 divided by 4, an average of 4.25. With only one review per person, keeping user 2's first rating of 3, the average is 12 divided by 3, which is 4.0.
 
 ### Stopping it happening
 
-The fix belongs in the design, not in a clean-up query run every week. Declaring PRIMARY KEY (user_id, movie_id) makes the pair a composite key, so the database itself refuses a second review from the same person for the same film.
+The fix belongs in the design, not in a clean-up query run every week. Declaring `PRIMARY KEY (user_id, movie_id)` makes the pair a composite key, so the database itself refuses a second review from the same person for the same film.
 
-When we load the same eight rows into a table with that key, seven are accepted and the fifth row is rejected with the message UNIQUE constraint failed: r2.user_id, r2.movie_id. Students then have to decide what should happen instead: keep the first review, or let people update their rating.
+When we load the same eight rows into a table with that key, seven are accepted and the fifth row is rejected with the message `UNIQUE constraint failed: r2.user_id, r2.movie_id`. Students then have to decide what should happen instead: keep the first review, or let people update their rating.
 
 This is why the curriculum pairs modelling with querying. A student who only learns SELECT statements can find the problem; a student who learns to model entities and relationships stops it from existing. The same thinking carries straight into senior computing subjects and into any job that touches data.
 
 Quotations: ACARA, Digital Technologies content 7 to 10, Version 9.0, AC9TDI10P03 and its elaborations. The table is invented for teaching; the query results and the error message were produced by us in SQLite on 7 October 2026.
 
+Working as a team
+
 ## Projects, user stories and version control
 
 The Years 9 to 10 content treats software as something built by groups, with roles, plans and shared code.
 
-AC9TDI10P04 asks students to "define and decompose real-world problems with design criteria and by interviewing stakeholders to create user stories". Its elaboration gives the template "As a &lt;type of user&gt;, I want &lt;some goal&gt; so that &lt;some reason&gt;".
+AC9TDI10P04 asks students to "define and decompose real-world problems with design criteria and by interviewing stakeholders to create user stories". Its elaboration gives the template "As a <type of user>, I want <some goal> so that <some reason>".
 
 AC9TDI10P12 then asks students to "use simple project management tools to plan and manage individual and collaborative agile projects, accounting for risks and responsibilities". The example given is "a collaborative version control tool such as GitHub".
 
@@ -95,6 +91,8 @@ Group projects usually go wrong in one of two places: nobody agrees what the pro
 Assessment of group work is set by each school. We help students understand and practise the techniques; the project they hand in stays their own, done under their school's rules.
 
 Quotations: ACARA, Digital Technologies content 7 to 10, Version 9.0, AC9TDI10P04 and AC9TDI10P12, read on 7 October 2026.
+
+Security in Year 10
 
 ## Threat models and data flow diagrams
 
@@ -116,14 +114,14 @@ We teach this from the defender's side and only on systems students own. The ela
 
 Quotations: ACARA, Digital Technologies content 7 to 10, Version 9.0, AC9TDI10P13 and its elaborations, read on 7 October 2026.
 
+Year by year
+
 ## A sensible order through Years 7 to 10
 
 Schools vary, but skills stack in roughly this order.
 
-**Programming and data skills, Year 7 to Year 10**
-
 | Around | Skill | The sign it is secure |
-|---|---|---|
+| --- | --- | --- |
 | Year 7 | Functions and loops in a text language | Writes a short program and desk checks it on paper |
 | Year 8 | Spreadsheet and database basics | Validates data and explains a trend it shows |
 | Year 9 | SQL across tables | Writes a JOIN and a GROUP BY and explains the result |
@@ -132,63 +130,293 @@ Schools vary, but skills stack in roughly this order.
 ### If programming feels rushed at school
 
 Many schools fit Digital Technologies around other Technologies subjects, so time with code can be short. A steady weekly class fills that gap without racing ahead of the school.
+
 The fastest improvement usually comes from reading and tracing other people's code, not only writing new code.
 
 ### Looking ahead
 
 Senior computing subjects differ by state. Our pages on [choosing Year 11 computing subjects](/choosing-year-11-computing-subjects-australia) and [HSC Software Engineering](/hsc-software-engineering-help) pick up from here.
+
 Students who like the algorithmic side often enjoy the Australian Informatics Olympiad, which needs exactly these skills.
+
+The catalogue
 
 ## Nine courses for Years 7 to 10
 
 Grouped by the part of the curriculum each one serves. Each card opens the full syllabus.
 
+I
+
 ### Programming
 
 General-purpose and object-oriented
 
-- [Python for teens](/courses/python-complete-masterclass-teens): From first script to modular programs.
-- [Java for teens](/courses/java-programming-masterclass-for-teens): Classes and objects in a strongly typed language.
-- [JavaScript for teens](/courses/javascript-course-for-teens-beginners-interactive-web): Interactive pages and simple browser games.
+DTSN / C / 01
+
+#### Python for teens
+
+From first script to modular programs.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+DTSN / C / 02
+
+#### Java for teens
+
+Classes and objects in a strongly typed language.
+
+[Open the syllabus](/courses/java-programming-masterclass-for-teens)
+
+DTSN / C / 03
+
+#### JavaScript for teens
+
+Interactive pages and simple browser games.
+
+[Open the syllabus](/courses/javascript-course-for-teens-beginners-interactive-web)II
 
 ### Data and the web
 
 Structured data and documents
 
-- [SQL for teens](/courses/mysql-mastery-for-teens): Keys, joins and queries on real tables.
-- [Data science for teens](/courses/data-science-course-for-teens-python-data): Trends, outliers and first models in Python.
-- [HTML and CSS](/courses/html-css-course-for-beginners-build-real-websites): Content, structure and styling, kept separate.
+DTSN / D / 01
+
+#### SQL for teens
+
+Keys, joins and queries on real tables.
+
+[Open the syllabus](/courses/mysql-mastery-for-teens)
+
+DTSN / D / 02
+
+#### Data science for teens
+
+Trends, outliers and first models in Python.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)
+
+DTSN / D / 03
+
+#### HTML and CSS
+
+Content, structure and styling, kept separate.
+
+[Open the syllabus](/courses/html-css-course-for-beginners-build-real-websites)III
 
 ### Projects and security
 
 Working like developers
 
-- [Git and GitHub for teens](/courses/git-github-version-control-course-for-teens): Branches, commits and pull requests on shared work.
-- [Cyber security for teens](/courses/cybersecurity-course-for-teens-ethical-defensive): Threats and defences, taught ethically.
-- [Algorithms and data structures](/courses/problem-solving-dsa-masterclass-teens): Choosing the right structure for the job.
+DTSN / P / 01
+
+#### Git and GitHub for teens
+
+Branches, commits and pull requests on shared work.
+
+[Open the syllabus](/courses/git-github-version-control-course-for-teens)
+
+DTSN / P / 02
+
+#### Cyber security for teens
+
+Threats and defences, taught ethically.
+
+[Open the syllabus](/courses/cybersecurity-course-for-teens-ethical-defensive)
+
+DTSN / P / 03
+
+#### Algorithms and data structures
+
+Choosing the right structure for the job.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
+
+How lessons run
 
 ## Live coding classes for Australian secondary students
 
 Teachers work from India, which is behind every Australian time zone. A 5 pm lesson in Sydney during daylight saving begins at 11.30 am India time, so late-afternoon slots are steady for us to staff.
 
-- **Weekday after school** Most Years 7 to 10 students choose this.
-- **Saturday or Sunday** For students with sport or music on weekdays.
-- **Holiday blocks** A focused week on one skill, such as SQL.
+Weekday after school
 
-- **Code read aloud** Students explain each line before changing it.
-- **Tests first** Boundaries and bad input are tried on every program.
-- **Fifteen to twenty per group** Placed by skill so everyone works at the right pace.
-- **Private lessons** Chosen for a specific gap or a student moving fast.
-- **Notes for parents** A line on what was covered and what to ask about.
-- **Honest about school work** We teach technique; assessed projects stay the student's own.
+Most Years 7 to 10 students choose this.
+
+Saturday or Sunday
+
+For students with sport or music on weekdays.
+
+Holiday blocks
+
+A focused week on one skill, such as SQL.
+
+### Code read aloud
+
+Students explain each line before changing it.
+
+### Tests first
+
+Boundaries and bad input are tried on every program.
+
+### Fifteen to twenty per group
+
+Placed by skill so everyone works at the right pace.
+
+### Private lessons
+
+Chosen for a specific gap or a student moving fast.
+
+### Notes for parents
+
+A line on what was covered and what to ask about.
+
+### Honest about school work
+
+We teach technique; assessed projects stay the student's own.
+
+Student work
+
+## Work our students have put online
+
+Made for the learners' own reasons rather than for marks. The full set is in the [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Australian families are billed each month in US dollars at our standard rate outside India. There is no deposit, and you can stop at the end of any month.
 
-- Free first class: USD 0. A real lesson with a teacher. An honest read on your child's level. No card required.
-- Group batch: USD 100 a month. Fifteen to twenty students at one level. One teacher, every week. Code reviewed with comments. A certificate on completion.
-- One to one: USD 150 a month. A teacher for one student. Aimed at a particular goal. A weekly time that suits you.
+Free first class
+
+USD 0
+
+no card required
+
+- A real lesson with a teacher
+- An honest read on your child's level
+- No card required
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students at one level
+- One teacher, every week
+- Code reviewed with comments
+- A certificate on completion
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one student
+- Aimed at a particular goal
+- A weekly time that suits you
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Parents' and students' words, exactly as posted on Google.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about Years 7 to 10 coding
 
 ## What families and students ask
 
@@ -232,15 +460,54 @@ No. We are an independent online school. ACARA is quoted here because it publish
 
 We agree a weekly time after the free class. Every Australian time zone is ahead of India, so after-school lessons in Australia fall in our daytime.
 
+Related pages
+
 ## More for Australian secondary students
 
-- [Digital Technologies curriculum help](/australian-curriculum-digital-technologies-help): The whole subject, Foundation to Year 10.
-- [Coding for Year 7](/coding-for-year-7-australia): The first year of a text language.
-- [Choosing Year 11 computing](/choosing-year-11-computing-subjects-australia): Senior subjects by state.
-- [HSC Software Engineering](/hsc-software-engineering-help): The NSW senior course.
-- [Understand the code](/understand-the-code-dont-copy-paste-australia): Why pasted code breaks.
-- [Coding classes in Australia](/coding-classes-in-australia): Our main Australian page.
+Curriculum guides, senior subjects and coding paths.
 
-## Contact
+### [Digital Technologies curriculum help](/australian-curriculum-digital-technologies-help)
 
-Book the free first class at [https://learn.modernagecoders.com/digital-technologies-years-7-to-10-coding](https://learn.modernagecoders.com/digital-technologies-years-7-to-10-coding#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The whole subject, Foundation to Year 10.
+
+### [Coding for Year 7](/coding-for-year-7-australia)
+
+The first year of a text language.
+
+### [Choosing Year 11 computing](/choosing-year-11-computing-subjects-australia)
+
+Senior subjects by state.
+
+### [HSC Software Engineering](/hsc-software-engineering-help)
+
+The NSW senior course.
+
+### [Understand the code](/understand-the-code-dont-copy-paste-australia)
+
+Why pasted code breaks.
+
+### [Coding classes in Australia](/coding-classes-in-australia)
+
+Our main Australian page.
+
+Start here
+
+## Book a free secondary coding class
+
+Tell us the year level and what the class is covering, whether that is Python, databases or a project. The free lesson works on that and ends with honest advice about next steps.
+
+Want to look first? The [course atlas](/course-atlas) lists every course, and [how we teach](/how-we-teach) describes a lesson.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20class%20for%20Years%207%20to%2010%20Digital%20Technologies.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+A WhatsApp message is the quickest way to reach us. The number starts +91 because the school is based in India, with no office in Australia.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/digital-technologies-years-7-to-10-coding*

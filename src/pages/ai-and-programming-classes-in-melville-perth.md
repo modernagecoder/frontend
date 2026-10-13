@@ -4,46 +4,32 @@ description: "Live online AI and programming classes for the City of Melville, a
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-melville-perth
 source: src/pages/ai-and-programming-classes-in-melville-perth.html
 ---
-> Whether a model respects common sense. A road with more weekday traffic should not be predicted to have less weekend traffic, all else equal. An unconstrained model breaks that rule 2,070 times on a test grid. A monotonic constraint removes every break and improves accuracy, yet a simple ratio still predicts Melville roads more accurately than either model.
+> Live online AI and programming classes for the City of Melville, ages 6 to adult, with a machine learning project that tests monotonic constraints on traffic data.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [Western Australia](/coding-and-ai-classes-in-western-australia) / [Perth](/online-coding-and-python-classes-in-perth-western-australia) / Melville
-
-City of Melville, south of the Swan River, Western Australia / Live online
-
-# AI and programming classes in Melville
-
-**What does the Melville machine learning project test?** Whether a model respects common sense. A road with more weekday traffic should not be predicted to have less weekend traffic, all else equal. An unconstrained model breaks that rule 2,070 times on a test grid. A monotonic constraint removes every break and improves accuracy, yet a simple ratio still predicts Melville roads more accurately than either model.
-
-The City of Melville spreads along the southern shore of the Swan River, crossed by Leach Highway, Canning Highway and the Kwinana Freeway. Main Roads lists 79 traffic count sites in the council. They make a compact, real test set for a question every model builder meets: should the model be allowed any shape it likes?
-
-Facts last verified 12 October 2026. Teaching is online; no Melville branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Melville
 
 ## Machine learning and Python
 
 Courses suited to the constraint project below. A free trial lesson sets the starting point.
 
-- [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) (University and adult): Models, validation and constraints that encode what you already know.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Training and testing models on real public data.
-- [Statistics & Probability](/courses/statistics-probability-maths-course) (University and adult): Error measures and baselines that keep models honest.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): First Python and AI ideas for children.
+[![AI and ML Masterclass course thumbnail](/images/ai-ml-college.webp)University and adultAI and ML MasterclassModels, validation and constraints that encode what you already know.See the syllabus](/courses/ai-ml-masterclass-complete-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensTraining and testing models on real public data.See the syllabus](/courses/ai-ml-masterclass-teens)[![Statistics & Probability course thumbnail](/images/statistics-probability-maths.webp)University and adultStatistics & ProbabilityError measures and baselines that keep models honest.See the syllabus](/courses/statistics-probability-maths-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsFirst Python and AI ideas for children.See the syllabus](/courses/python-ai-kids-masterclass)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Melville at a glance
 
 ## A riverside council of graduates and professionals
 
 Council-level figures for the City of Melville (ABS LGA55320) from 2021 Census QuickStats, read on 12 October 2026, alongside the ABS 2025 estimate.
 
-**City of Melville counts**
-
 | Measure | Value |
-|---|---|
+| --- | --- |
 | Residents, 2021 Census | 103,523 |
 | Estimated residents, 2025 | 115,945 |
 | Median age | 42 |
@@ -51,10 +37,8 @@ Council-level figures for the City of Melville (ABS LGA55320) from 2021 Census Q
 | Private dwellings | 42,881 |
 | Bedrooms per dwelling | 3.4 |
 
-**Melville shares compared with WA**
-
 | Share | Melville | WA |
-|---|---|---|
+| --- | --- | --- |
 | Bachelor degree or higher | 38.4% (32,842) | 23.8% |
 | Professionals among workers | 33.2% (17,167) | 22.0% |
 | Worked at home | 10.0% (5,168) | 7.5% |
@@ -74,14 +58,14 @@ Our map test finds 25 government schools inside the council outline, 18 of them 
 
 The 2021 Census fell during the pandemic, so working-from-home figures in particular may be higher than in a usual week. The ABS rounds shares and lightly perturbs small counts, which means table parts may not add exactly to totals; we copy its numbers as published.
 
+Signature project
+
 ## A model that must not slope the wrong way
 
 The task: predict a site's average weekend traffic from its average weekday traffic and weekday heavy-vehicle share. Learners train a gradient-boosted model on 931 Perth metropolitan count sites outside Melville, then test it on the 70 Melville sites that have both figures. Common sense says busier weekday roads should never get lower weekend predictions, so they check that too.
 
-**Three predictors on 70 Melville sites (our calculation)**
-
 | Predictor | Mean absolute error | Wrong-way steps |
-|---|---|---|
+| --- | --- | --- |
 | Gradient boosting, unconstrained | 2,599 vehicles | 2,070 of 11,060 |
 | Gradient boosting, monotonic in weekday volume | 2,232 vehicles | 0 of 11,060 |
 | Weekday volume times median ratio 0.801 | 1,673 vehicles | 0 by design |
@@ -104,14 +88,14 @@ Constraints make a model safer and easier to trust, but they do not make it the 
 
 Volumes come from the Main Roads Traffic Digest, downloaded on 12 October 2026. Training uses metropolitan sites in other councils; testing uses sites Main Roads assigns to the City of Melville. Count years vary from 2021/22 to 2026/27. Models were fitted with scikit-learn 1.7.2 and every error and violation figure is our own calculation.
 
+In code
+
 ## One parameter, measured properly
 
 In scikit-learn the constraint is a single argument, monotonic_cst, with 1 for features that may only push predictions up and 0 for free ones.
 
-**Lesson steps**
-
 | Step | Learner task |
-|---|---|
+| --- | --- |
 | 1 | Split the Traffic Digest into Melville test sites and metropolitan training sites. |
 | 2 | Fit the free model and write a function that counts wrong-way steps on a grid. |
 | 3 | Refit with monotonic_cst=[1, 0] and compare errors and violations. |
@@ -131,6 +115,8 @@ Train both models, count violations and present the baseline result fairly.
 
 Add monotonic constraints to pricing, risk or demand models where the direction is known.
 
+Around Melville
+
 ## Freight routes, river paths and 2027 dates
 
 Local facts from Main Roads and the WA Department of Education.
@@ -147,16 +133,41 @@ The Tompkins Park path counter west of Dunkley Avenue averages 814 riders a day,
 
 The third WA school term of 2027 begins on Monday 19 July and ends on Friday 24 September.
 
-**Boundary used** The council is the ABS outline of about 52.9 square kilometres. Count sites are those Main Roads records against the City of Melville; school figures use our point-in-polygon test.
+Boundary used
+
+The council is the ABS outline of about 52.9 square kilometres. Count sites are those Main Roads records against the City of Melville; school figures use our point-in-polygon test.
+
+Learning ladder
 
 ## From staircases to constrained models
 
 Ages are a guide only; the free lesson decides.
 
-- **Ages 6 to 9: Patterns** Block-code games about rising and falling patterns. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)
-- **Ages 8 to 12: Numbers in code** Python, simple charts and first predictions. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 17: Machine learning** Models, baselines and fair testing. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **University and adult: Applied ML** Constraints, validation and statistics for work. [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college), [Statistics & Probability](/courses/statistics-probability-maths-course)
+Ages 6 to 9
+
+### Patterns
+
+Block-code games about rising and falling patterns.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)Ages 8 to 12
+
+### Numbers in code
+
+Python, simple charts and first predictions.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 17
+
+### Machine learning
+
+Models, baselines and fair testing.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)University and adult
+
+### Applied ML
+
+Constraints, validation and statistics for work.
+
+[AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college)[Statistics & Probability](/courses/statistics-probability-maths-course)Coding and AI
 
 ## Why learn this if AutoML tools exist?
 
@@ -168,30 +179,139 @@ A Melville learner who has counted 2,070 wrong-way steps knows to ask what shape
 
 Our AI classes teach learners to judge models, not just train them. The longer argument is in [the case for learning to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Melville lessons, delivered live
 
 Every class takes place live over video, so learners join from home on either side of Leach Highway.
 
-- **Live teacher** Lessons are taught in real time with code checked as it is written.
-- **School terms** Classes match WA terms and pause during holidays.
-- **Free trial** Start with a free lesson and a short written plan.
-- **Group sizes** Groups of fifteen to twenty at one level, or private lessons.
-- **Schedule** Two lessons a week, about eight a month.
-- **India timing** A 6:30pm Melville lesson begins at 4pm in India.
+### Live teacher
 
-**Perth time** WA last used daylight saving in a period that ended in March 2009, according to the IANA time zone database, so the offset from India never changes.
+Lessons are taught in real time with code checked as it is written.
+
+### School terms
+
+Classes match WA terms and pause during holidays.
+
+### Free trial
+
+Start with a free lesson and a short written plan.
+
+### Group sizes
+
+Groups of fifteen to twenty at one level, or private lessons.
+
+### Schedule
+
+Two lessons a week, about eight a month.
+
+### India timing
+
+A 6:30pm Melville lesson begins at 4pm in India.
+
+Perth time
+
+WA last used daylight saving in a period that ended in March 2009, according to the IANA time zone database, so the offset from India never changes.
+
+Fees
 
 ## Melville class fees
 
 Fees are the same for all learners.
 
-- First class: USD 0. Lesson one is free, with a plan afterwards.
-- Group tuition: USD 100 a month. Group classes: about eight lessons monthly with fifteen to twenty learners.
-- Private tuition: USD 150 a month. Private classes: about eight lessons monthly with one teacher.
+First class**USD 0**
+
+Lesson one is free, with a plan afterwards.
+
+Group tuition**USD 100**
+
+Group classes: about eight lessons monthly with fifteen to twenty learners.
+
+Private tuition**USD 150**
+
+Private classes: about eight lessons monthly with one teacher.
 
 Fees are in US dollars and start only after the trial has agreed the course and a weekly time. Holiday and missed-lesson rules are on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hi%20Modern%20Age%20Coders%2C%20I%20am%20in%20Melville%20and%20would%20like%20to%20book%20a%20free%20AI%20or%20programming%20lesson.)Reviews
+
+## Google reviews
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Melville lesson
+
+Tell us the learner's age and interests. A young child might draw the only-up staircase; a teenager might count the model's wrong-way steps.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Melville one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hi%20Modern%20Age%20Coders%2C%20I%20am%20in%20Melville%20and%20would%20like%20to%20book%20a%20free%20AI%20or%20programming%20lesson.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Melville AI and programming questions
+
+Questions Melville families and adult learners ask.
 
 ### How big is the City of Melville?
 
@@ -233,10 +353,14 @@ Fifteen to twenty learners matched by level and pace, not by age or suburb. One-
 
 Yes. Adults learn in adult groups or privately, often applying models to problems at work.
 
+More for Perth learners
+
 ## Where else to look
 
 South-of-the-river families can also browse the [Perth classes page](/online-coding-and-python-classes-in-perth-western-australia), our [Western Australia overview](/coding-and-ai-classes-in-western-australia), and [AI classes for teenagers](/ai-classes-for-teens-australia).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hi%20Modern%20Age%20Coders%2C%20I%20am%20in%20Melville%20and%20would%20like%20to%20book%20a%20free%20AI%20or%20programming%20lesson.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-melville-perth](https://learn.modernagecoders.com/ai-and-programming-classes-in-melville-perth#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-melville-perth*

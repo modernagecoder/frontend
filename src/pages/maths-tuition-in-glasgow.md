@@ -4,34 +4,28 @@ description: "Online maths tuition in Glasgow for ages 6 to 67: primary maths, N
 canonical: https://learn.modernagecoders.com/maths-tuition-in-glasgow
 source: src/pages/maths-tuition-in-glasgow.html
 ---
-> We teach maths live online to Glasgow learners aged 6 to 67: primary maths from P1 to P7, S1 to S3 maths in the broad general education, then SQA National 5, Higher and Advanced Higher Mathematics, plus adult refreshers. Classes hold fifteen to twenty learners at one level, or a learner can work one to one. Our Glasgow example is the Subway: a least-squares circle through its 15 stations has a radius of 1,600.1 metres, but the stations lie between 1,304.4 and 1,891.5 metres from its centre, a good test of the Higher Maths equation of a circle. A first lesson is free; ongoing places are USD 100 a month in a group or USD 150 a month one to one.
+> Online maths tuition in Glasgow for ages 6 to 67: primary maths, National 5, Higher and Advanced Higher, plus adult learners, with a Subway circle geometry project.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths tuition in Glasgow
+In short
 
-Glasgow · Maths from P1 to adult learners · Live online lessons for small groups or one learner
+We teach maths live online to Glasgow learners aged 6 to 67: primary maths from P1 to P7, S1 to S3 maths in the broad general education, then SQA National 5, Higher and Advanced Higher Mathematics, plus adult refreshers. Classes hold fifteen to twenty learners at one level, or a learner can work one to one. Our Glasgow example is the Subway: a least-squares circle through its 15 stations has a radius of 1,600.1 metres, but the stations lie between 1,304.4 and 1,891.5 metres from its centre, a good test of the Higher Maths equation of a circle. A first lesson is free; ongoing places are USD 100 a month in a group or USD 150 a month one to one.
 
-# Maths tuition in Glasgow
-
-Everyone in Glasgow calls the Subway a circle. Is it? We took the positions of its 15 stations from OpenStreetMap and asked which circle fits them most closely. The answer has a radius of 1,600.1 metres, and the stations sit anywhere from 1,304.4 to 1,891.5 metres from its centre. So it is a loop, and a fairly round one, but not a circle. Getting there uses exactly the tools of SQA Higher Mathematics: perpendicular bisectors, the circle through three points and the equation of a circle. This page sets out how we teach maths to Glasgow learners, from P1 to Advanced Higher and adult study, with the Subway as a running example.
-
-At a glance: Who: Glasgow learners aged 6 to 67; Primary: P1 to P7, number and early algebra; BGE: S1 to S3 maths, the base for the senior phase; Senior phase: National 5, Higher, Advanced Higher; Adults: Refreshers and a return to qualifications; Format: Live video, groups of 15 to 20 or private; Teachers: Based in India, booked in UK time; Local project: Subway stations and the circle equation. Rated 4.9 across 547 Google reviews.
+Typical starting points in Glasgow
 
 ## Three common first steps
 
 Pick by stage. The full list, from early number to university study, is further down.
 
-- [Primary maths, P1 to P7](/courses/elementary-mathematics-complete-masterclass): Number, fractions, measure and shape, explained until each idea can be put into words.
-- [S1 to S3 maths](/courses/comprehensive-middle-school-mathematics-mastery): Algebra, ratio, angles and data in the broad general education, so National 5 starts on firm ground.
-- [Higher-level maths](/courses/a-level-maths-course-pure-mechanics-statistics): Written for English A level; its pure content overlaps heavily with Higher and Advanced Higher, and we steer it to the SQA course specification.
+[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  GLA / 1 Primary maths, P1 to P7 Number, fractions, measure and shape, explained until each idea can be put into words. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  GLA / 2 S1 to S3 maths Algebra, ratio, angles and data in the broad general education, so National 5 starts on firm ground. Open the syllabus →](/courses/comprehensive-middle-school-mathematics-mastery)[![A-Level Maths course thumbnail](/images/a-level-maths.webp)  GLA / 3 Higher-level maths Written for English A level; its pure content overlaps heavily with Higher and Advanced Higher, and we steer it to the SQA course specification. Open the syllabus →](/courses/a-level-maths-course-pure-mechanics-statistics)
+
+Maths in Scotland
 
 ## National 5, Higher and Advanced Higher maths for Glasgow learners
 
 Scotland has its own curriculum and exams. A Glasgow pupil does not sit GCSEs or A levels; those belong to the English system. Here is the Scottish route, and what our lessons focus on.
 
-**Maths stages in Scotland, and our focus at each one**
-
 | Stage | Usual ages | Our focus |
-|---|---|---|
+| --- | --- | --- |
 | P1 to P3 | 5 to 8 | Counting, place value, adding and subtracting with confidence, shape and pattern. |
 | P4 to P7 | 8 to 12 | Times tables, fractions and decimals, measure, and explaining a strategy aloud. |
 | S1 to S3 | 11 to 15 | Algebra, ratio, angles, Pythagoras and handling data in the broad general education. |
@@ -54,6 +48,8 @@ Our national pages go further: [National 5 maths](/national-5-maths-tuition-onli
 
 Sources: [National 5 Mathematics course specification](https://www.sqa.org.uk/sqa/files_ccc/n5-course-spec-mathematics.pdf) and [Higher Mathematics course specification](https://www.sqa.org.uk/sqa/files_ccc/h-course-spec-mathematics.pdf), read on 1 October 2026. The awarding body's site now shows both the names Qualifications Scotland and SQA. Age ranges are typical, not rules.
 
+The Glasgow project
+
 ## Is the Glasgow Subway really a circle?
 
 Fifteen stations, one loop. The question is simple enough for P7 and deep enough for Higher, and it has a numerical answer.
@@ -66,10 +62,8 @@ So the loop bulges in some places and pinches in others. The typical station sit
 
 There is a nice check on that. Join the stations in order with straight lines and the 15-sided shape has a perimeter of 10,261 metres. Divide by the fitted diameter and you get 3.206. For a true circle that ratio would approach π, and 3.206 is a surprisingly good guess at 3.14159 from a railway map.
 
-**Distance of selected stations from the centre of the fitted circle, our calculation from OpenStreetMap**
-
 | Station | Distance from centre | Off the circle by |
-|---|---|---|
+| --- | --- | --- |
 | St George's Cross | 1,304.4 m | 295.8 m inside |
 | Kinning Park | 1,333.8 m | 266.3 m inside |
 | Kelvinbridge | 1,384.0 m | 216.1 m inside |
@@ -79,6 +73,8 @@ There is a nice check on that. Join the stations in order with straight lines an
 | Partick | 1,891.5 m | 291.4 m outside |
 
 Data: [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), nodes tagged as Subway stations in Glasgow City, one Overpass query on 1 October 2026. Station positions are mapped points, not platform centres. The fitted circle, distances and ratios are Modern Age Coders' calculations; they are not published by SPT and they are not track lengths.
+
+Higher Maths, on a real map
 
 ## The equation of the Subway circle, and the circle through three stations
 
@@ -96,10 +92,8 @@ Any three points that are not in a straight line lie on exactly one circle. Its 
 
 Hillhead, St Enoch and Cessnock give a radius of 1.602 km, almost identical to our fitted circle. Govan, Buchanan Street and Shields Road give 1.831 km. That spread is the clearest possible evidence that the stations are not on one circle: if they were, every trio would agree.
 
-**Circles through three Subway stations, found from perpendicular bisectors (our calculation)**
-
 | Three stations | Radius, km |
-|---|---|
+| --- | --- |
 | Hillhead, St Enoch, Cessnock | 1.602 |
 | Partick, Cowcaddens, Kinning Park | 1.599 |
 | Kelvinbridge, Bridge Street, Ibrox | 1.625 |
@@ -109,6 +103,8 @@ Hillhead, St Enoch and Cessnock give a radius of 1.602 km, almost identical to o
 Arc length gives a National 5 version. Seen from the centre, neighbouring stations are on average 24.0° apart. The widest gap, Shields Road to Kinning Park, is 33.4°, an arc of about 933 metres on the fitted circle; the narrowest, Partick to Kelvinhall, is 14.8°, about 413 metres. Learners compute those with (angle ÷ 360) × 2πr, and then discuss why an arc is not the same as the tunnel between two stations.
 
 All coordinates, equations and arcs are our calculations from the OpenStreetMap download above, rounded as shown. SQA wording from the [Higher Mathematics course specification](https://www.sqa.org.uk/sqa/files_ccc/h-course-spec-mathematics.pdf).
+
+Maths beyond lessons
 
 ## Masterclasses, Maths Circles and the Scottish Mathematical Challenge
 
@@ -136,6 +132,8 @@ The Subway project is good practice for challenge papers: it rewards a clear arg
 
 Source: [University of Glasgow, School of Mathematics & Statistics, Community and Public Engagement](https://www.gla.ac.uk/schools/mathematicsstatistics/outreach/), read on 1 October 2026. Modern Age Coders has no connection with the University of Glasgow, the Royal Institution, We Solve Problems, the University of Strathclyde or any Glasgow school.
 
+Adult learners
+
 ## Maths tuition for adults in Glasgow
 
 Plenty of our learners are adults: some returning to a qualification, many simply wanting maths to make sense at last.
@@ -154,14 +152,14 @@ Spreadsheets, rates, percentages and charts. Our [adult maths page](/online-math
 
 Adults often light up at the Subway project, because so many have ridden the loop for years without ever asking how round it is. Ten minutes with a coordinate grid turns a familiar journey into a piece of geometry they can explain to anyone.
 
+The route
+
 ## From counting to circle equations, in four steps
 
 Each step relies on the one before. A learner enters at whatever step fits, which the free lesson reveals.
 
-**Four steps through Scottish school maths, with a sign that each is secure**
-
 | Usually | Step | Secure when the learner |
-|---|---|---|
+| --- | --- | --- |
 | P4 to P7 | 1. Number and measure | Converts between units and explains each step of a calculation |
 | S1 to S3 | 2. Algebra and shape | Solves linear equations and uses Pythagoras on a coordinate grid |
 | S4 | 3. National 5 geometry | Finds an arc length and the centre of a circle from two chords |
@@ -170,75 +168,353 @@ Each step relies on the one before. A learner enters at whatever step fits, whic
 ### Joining in S4 or S5
 
 It is not too late. We secure algebra first, because almost every Higher question leans on it, then build up the geometry.
+
 If the gap is larger than the months left, we will say so plainly after the trial.
 
 ### Beyond Higher
 
 Some learners continue to Advanced Higher; others try [statistics and probability](/courses/statistics-probability-maths-course) or [maths through coding](/courses/maths-through-coding), where a short program fits the Subway circle for them.
+
 A few discover problem solving and head for competition maths.
+
+Our courses
 
 ## Maths courses for Glasgow learners
 
 Arranged by stage. Courses written for English exams are matched topic by topic to SQA content when a Glasgow learner takes them.
 
+I
+
 ### Primary
 
 P1 to P7
 
-- [Early number](/courses/early-math-foundations): Counting, shape and sorting for P1 and P2.
-- [Primary maths](/courses/elementary-mathematics-complete-masterclass): Every primary topic, explained as well as practised.
-- [Mental maths](/courses/mental-maths-mastery-kids): Sharp calculation without pencil and paper.
-- [Abacus maths](/courses/abacus-mental-maths-course-for-kids): Counting beads that turn into a mental image.
+MTG / A1
+
+#### Early number
+
+Counting, shape and sorting for P1 and P2.
+
+[Open the syllabus](/courses/early-math-foundations)
+
+MTG / A2
+
+#### Primary maths
+
+Every primary topic, explained as well as practised.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+MTG / A3
+
+#### Mental maths
+
+Sharp calculation without pencil and paper.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+MTG / A4
+
+#### Abacus maths
+
+Counting beads that turn into a mental image.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)II
 
 ### S1 to S4
 
 BGE and National 5
 
-- [S1 to S3 maths](/courses/comprehensive-middle-school-mathematics-mastery): The broad general education years.
-- [Algebra foundations](/courses/algebra-foundations-masterclass): For learners whose algebra needs rebuilding.
-- [National 5 level maths](/courses/gcse-mathematics-mastery): An English GCSE course used as a National 5 topic match.
-- [IGCSE maths](/courses/igcse-mathematics-mastery): For international school entries.
+MTG / B1
+
+#### S1 to S3 maths
+
+The broad general education years.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+MTG / B2
+
+#### Algebra foundations
+
+For learners whose algebra needs rebuilding.
+
+[Open the syllabus](/courses/algebra-foundations-masterclass)
+
+MTG / B3
+
+#### National 5 level maths
+
+An English GCSE course used as a National 5 topic match.
+
+[Open the syllabus](/courses/gcse-mathematics-mastery)
+
+MTG / B4
+
+#### IGCSE maths
+
+For international school entries.
+
+[Open the syllabus](/courses/igcse-mathematics-mastery)III
 
 ### S5, S6 and beyond
 
 Higher and further
 
-- [Higher level maths](/courses/a-level-maths-course-pure-mechanics-statistics): English A level content, steered to Higher and Advanced Higher.
-- [Statistics](/courses/statistics-probability-maths-course): Data, probability and inference.
-- [University maths](/courses/college-mathematics-complete-masterclass): Calculus and linear algebra at degree level.
-- [Competition maths](/courses/olympiad-competition-mathematics-mastery): Problem solving for challenge papers.
+MTG / C1
+
+#### Higher level maths
+
+English A level content, steered to Higher and Advanced Higher.
+
+[Open the syllabus](/courses/a-level-maths-course-pure-mechanics-statistics)
+
+MTG / C2
+
+#### Statistics
+
+Data, probability and inference.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)
+
+MTG / C3
+
+#### University maths
+
+Calculus and linear algebra at degree level.
+
+[Open the syllabus](/courses/college-mathematics-complete-masterclass)
+
+MTG / C4
+
+#### Competition maths
+
+Problem solving for challenge papers.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)IV
 
 ### Applied and adult
 
 Work and interest
 
-- [Business maths](/courses/complete-business-finance-mathematics-mastery): Interest, loans and investment explained.
-- [Data maths](/courses/data-analytics-mathematics-masterclass): The algebra and statistics behind analysis.
-- [Maths through coding](/courses/maths-through-coding): Exploring geometry and number in Python.
-- [Vedic maths](/courses/vedic-maths-course-speed-calculation-mastery): Quick calculation methods for the confident.
+MTG / D1
+
+#### Business maths
+
+Interest, loans and investment explained.
+
+[Open the syllabus](/courses/complete-business-finance-mathematics-mastery)
+
+MTG / D2
+
+#### Data maths
+
+The algebra and statistics behind analysis.
+
+[Open the syllabus](/courses/data-analytics-mathematics-masterclass)
+
+MTG / D3
+
+#### Maths through coding
+
+Exploring geometry and number in Python.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+MTG / D4
+
+#### Vedic maths
+
+Quick calculation methods for the confident.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
+
+Timings
 
 ## When Glasgow learners have their lessons
 
 Our teachers are in India, where the clocks stay put all year. Between late October and late March that puts India five and a half hours ahead of Glasgow; in British Summer Time it is four and a half. We agree every slot in UK time.
 
-- **After school on weekdays** Primary pupils and S1 to S6.
-- **Weekday evenings** Senior phase learners and adults.
-- **Weekend mornings** A quiet hour before the weekend gets busy.
+After school on weekdays
 
-- **The same teacher** Every week, so small habits and slips are noticed.
-- **Short updates** A note after lessons on what is secure and what is next.
-- **Groups by level** Fifteen to twenty learners, all working at one level.
-- **Real maps and data** Station coordinates, census tables and weather records in lessons.
-- **One to one** For a single difficult topic or the weeks before an exam.
-- **Reasons, not tricks** Learners explain why a method works before practising it.
+Primary pupils and S1 to S6.
+
+Weekday evenings
+
+Senior phase learners and adults.
+
+Weekend mornings
+
+A quiet hour before the weekend gets busy.
+
+### The same teacher
+
+Every week, so small habits and slips are noticed.
+
+### Short updates
+
+A note after lessons on what is secure and what is next.
+
+### Groups by level
+
+Fifteen to twenty learners, all working at one level.
+
+### Real maps and data
+
+Station coordinates, census tables and weather records in lessons.
+
+### One to one
+
+For a single difficult topic or the weeks before an exam.
+
+### Reasons, not tricks
+
+Learners explain why a method works before practising it.
+
+Student work
+
+## Projects our learners have gone on to build
+
+Learners who began with coordinates and calculations made the four projects below. The [student labs](/student-labs) have more.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Charged monthly in US dollars, at one price for every country outside India, with no registration fee and no long contract.
 
-- Free first class: USD 0. A complete lesson at the right level. Our honest assessment. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty learners at the same level. A regular teacher. Homework marked and explained. A certificate on completion.
-- One to one: USD 150 a month. One learner, one teacher. Targeted at the precise gap. Valuable in the run-up to exams.
+Free first class
+
+USD 0
+
+no card required
+
+- A complete lesson at the right level
+- Our honest assessment
+- No card needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners at the same level
+- A regular teacher
+- Homework marked and explained
+- A certificate on completion
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- One learner, one teacher
+- Targeted at the precise gap
+- Valuable in the run-up to exams
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Taken word for word from reviews families and learners left on Google.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Glasgow maths questions
 
 ## Questions Glasgow families and adult learners ask
 
@@ -282,15 +558,54 @@ No. Nobody can honestly guarantee a grade. We teach thoroughly and keep you info
 
 No. We mention public events and documents so families know about them. We have no link with any university, the awarding body, or any school.
 
+Related
+
 ## More for Glasgow learners
 
-- [National 5 maths tuition](/national-5-maths-tuition-online): The National 5 course, topic by topic.
-- [Higher maths tuition](/higher-maths-tuition-online): Straight lines, circles, calculus and vectors.
-- [Advanced Higher maths](/advanced-higher-maths-tuition-online): The final step of Scottish school maths.
-- [Coding classes in Glasgow](/best-coding-class-in-glasgow): Our coding page for the city.
-- [Maths tuition in Edinburgh](/maths-tuition-in-edinburgh): Gradients up Arthur's Seat.
-- [Scotland](/coding-and-ai-classes-in-scotland): Our page for learners across Scotland.
+Scottish maths pages, our Scotland page and our coding page for the city.
 
-## Contact
+### [National 5 maths tuition](/national-5-maths-tuition-online)
 
-Book the free first class at [https://learn.modernagecoders.com/maths-tuition-in-glasgow](https://learn.modernagecoders.com/maths-tuition-in-glasgow#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The National 5 course, topic by topic.
+
+### [Higher maths tuition](/higher-maths-tuition-online)
+
+Straight lines, circles, calculus and vectors.
+
+### [Advanced Higher maths](/advanced-higher-maths-tuition-online)
+
+The final step of Scottish school maths.
+
+### [Coding classes in Glasgow](/best-coding-class-in-glasgow)
+
+Our coding page for the city.
+
+### [Maths tuition in Edinburgh](/maths-tuition-in-edinburgh)
+
+Gradients up Arthur's Seat.
+
+### [Scotland](/coding-and-ai-classes-in-scotland)
+
+Our page for learners across Scotland.
+
+Start here
+
+## Book a free maths lesson
+
+Tell us the learner's age or school year, P or S, and the topic that feels toughest. The trial is a real lesson, and we tell you honestly afterwards where the learner stands.
+
+Would you like to browse first? See our [courses](/courses) or our page on [teaching method](/how-we-teach).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20a%20learner%20in%20Glasgow.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+Messages sent on WhatsApp are answered first. You will see an Indian country code, because that is where our team works; there is no office in Scotland, and every lesson takes place online.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/maths-tuition-in-glasgow*

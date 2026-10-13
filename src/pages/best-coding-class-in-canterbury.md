@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths lessons for Canterbury le
 canonical: https://learn.modernagecoders.com/best-coding-class-in-canterbury
 source: src/pages/best-coding-class-in-canterbury.html
 ---
-> The 2021 census counted 157,432 usual residents in the Canterbury district, and 10.0% of them were aged 20 to 24, against 6.0% in England. Canterbury Cathedral dates its founding by St Augustine to 597 AD, and says the shrine of Thomas Becket made the city one of the great pilgrimage sites of medieval Christendom. Canterbury learners aged six to sixty-seven can take lessons with us on live video, alone with a teacher or in a class of fifteen to twenty at their stage, taught from India at hours suited to UK families. The first lesson is free; then a group place is USD 100 a month and one-to-one teaching USD 150.
+> Live online coding, Python, AI and maths lessons for Canterbury learners aged 6 to 67, from Whitstable and Herne Bay to Sturry. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Canterbury
-
-Canterbury, Kent / Live online
-
-# Coding classes in Canterbury
-
-**What are the best coding classes in Canterbury?** The 2021 census counted 157,432 usual residents in the Canterbury district, and 10.0% of them were aged 20 to 24, against 6.0% in England. Canterbury Cathedral dates its founding by St Augustine to 597 AD, and says the shrine of Thomas Becket made the city one of the great pilgrimage sites of medieval Christendom. Canterbury learners aged six to sixty-seven can take lessons with us on live video, alone with a teacher or in a class of fifteen to twenty at their stage, taught from India at hours suited to UK families. The first lesson is free; then a group place is USD 100 a month and one-to-one teaching USD 150.
-
-Chaucer's pilgrims set out, as line 16 of the Tales puts it, "to Caunterbury". How many different words did he use to tell their stories? Split Walter Skeat's edition on spaces and the answer is 23,609. Ignore capital letters and it drops to 22,164. Strip punctuation and it halves, to 12,132, and treating hyphens and accents consistently brings it to 11,567. Even then, "said" appears in six spellings, from seyde to seid. The vocabulary also keeps growing as you read: Heaps' law describes that growth with a simple power curve, but a curve fitted to the first tenth of the book predicts 16,538 words, far more than there are. Our teenagers learn that counting starts with deciding what to count.
-
-Facts last verified 23 September 2026. Teaching is online; no Canterbury branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Canterbury
 
 ## Four courses for the pilgrims' city
 
 Choose the course that suits what the learner enjoys. Every course starts with a free live lesson, and we never take a card to book it.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 12): Stories and games built from blocks, including simple word games that count and sort what a player types.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Python from first lines to full projects, including reading a whole book from a file and counting its words.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 18): Machine learning for teenagers, where turning text into tokens is the first step for every language model.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (University and adult): Python for adults who work with documents, from cleaning text to summarising and searching it.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 12Scratch Coding for KidsStories and games built from blocks, including simple word games that count and sort what a player types.See the syllabus](/courses/scratch-programming-complete-course)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensPython from first lines to full projects, including reading a whole book from a file and counting its words.See the syllabus](/courses/python-complete-masterclass-teens)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 18AI and Machine Learning for TeensMachine learning for teenagers, where turning text into tokens is the first step for every language model.See the syllabus](/courses/ai-ml-masterclass-teens)[![Python Automation Course course thumbnail](/images/python-college.webp)University and adultPython Automation CoursePython for adults who work with documents, from cleaning text to summarising and searching it.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Canterbury today
 
 ## A university city among coastal towns
 
 Census 2021 figures for the City of Canterbury district, which includes Whitstable and Herne Bay, from the Office for National Statistics on Nomis.
 
-**Canterbury district, Census 2021**
-
 | Measure | Canterbury | England |
-|---|---|---|
+| --- | --- | --- |
 | Usual residents | 157,432 | 56,490,048 |
 | Living in households | 148,198 | Not compared |
 | Living in communal establishments | 9,234 | Not compared |
@@ -67,6 +53,8 @@ Some 9,234 residents lived in communal establishments such as student halls, whi
 
 Our Canterbury learners come from across that mix. A Year 5 child in Whitstable might be writing a first word game, a Year 12 student in Wincheap working on A level Computer Science, and a retired reader in Herne Bay learning Python to explore old texts, each in a small group at the same level.
 
+A city of pilgrims
+
 ## From St Augustine to Chaucer's travellers
 
 From Canterbury Cathedral's own account and from the text of the Tales.
@@ -85,16 +73,18 @@ Chaucer's pilgrims gather at the Tabard in Southwark and ride "to Caunterbury", 
 
 We have no connection with Canterbury Cathedral. Chaucer belongs on this page because his book is a large, freely available text written before English spelling settled down, which makes it a perfect place to learn how computers count words and why the counting rules matter so much.
 
-**Where the text comes from** Project Gutenberg publishes Walter W. Skeat's edition of The Canterbury Tales as free plain text. The edition includes the editor's notes on manuscript variants, which have to be removed first so that only Chaucer's words are counted.
+Where the text comes from
+
+Project Gutenberg publishes Walter W. Skeat's edition of The Canterbury Tales as free plain text. The edition includes the editor's notes on manuscript variants, which have to be removed first so that only Chaucer's words are counted.
+
+Signature project
 
 ## How many words are in The Canterbury Tales?
 
 Tokenisation is the rule that splits text into words. Heaps' law says the number of different words grows as a power of the total number read.
 
-**Distinct words in Chaucer's text under different tokenisation rules, Skeat's edition with editorial notes removed**
-
 | Rule | Tokens | Distinct words |
-|---|---|---|
+| --- | --- | --- |
 | Split on spaces only | 187,345 | 23,609 |
 | Also ignore capital letters | 187,345 | 22,164 |
 | Also remove punctuation | 182,905 | 12,132 |
@@ -119,14 +109,14 @@ Fit Heaps' law to the first tenth of the book and it predicts 16,538 distinct wo
 
 Middle English makes the lesson sharper. The word said appears as seyde 370 times, seyd 66, sayde 26, seide 12, sayd 11 and seid once, six spellings of one word. Nearly half the distinct words, 5,374 of 11,567, appear only once, and 3,381 words in the second half of the book never appear in the first. Counting words is easy; deciding which strings are the same word is the real work.
 
+Text as data
+
 ## Five decisions before counting words in anything
 
 Learned on Chaucer, then used on search engines, spelling checkers, social media posts, customer reviews and the tokenisers inside every large language model.
 
-**Choices that change a word count**
-
 | Decision | For The Canterbury Tales | What happens if you skip it |
-|---|---|---|
+| --- | --- | --- |
 | What is the text? | Chaucer only, editorial notes removed | The editor's words counted as Chaucer's |
 | Capital letters? | Ignored | Sentence starts double some words |
 | Punctuation? | Removed | Word counts nearly twice too high |
@@ -149,14 +139,37 @@ Text analysis at work, from documents to reviews, with the cleaning and counting
 
 We have no connection with Canterbury Cathedral, Project Gutenberg or Canterbury City Council. The text is in the public domain and the census tables are published openly; the cleaning, counts and fitted curves are our own work.
 
+Learning ladder
+
 ## From counting words to Heaps' law
 
 Use the age bands as a rough guide; the free lesson finds the proper starting level.
 
-- **Ages 6 to 10: Words and rules** Counting words in a short story, and seeing how the total changes when capital letters and commas are treated differently. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 11 to 13: Text in code** Reading a story from a file in Python, splitting it into words and counting each one with a dictionary. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Tokens and power laws** Cleaning a real book, comparing tokenisation rules and fitting Heaps' law on log-log axes. [Python for Teens](/courses/python-complete-masterclass-teens), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **Ages 18 to 67: Text analysis at work** Processing documents and reviews, with cleaning rules and vocabulary estimates explained plainly. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data Science Course](/courses/data-science-complete-masterclass-college)
+Ages 6 to 10
+
+### Words and rules
+
+Counting words in a short story, and seeing how the total changes when capital letters and commas are treated differently.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 11 to 13
+
+### Text in code
+
+Reading a story from a file in Python, splitting it into words and counting each one with a dictionary.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Tokens and power laws
+
+Cleaning a real book, comparing tokenisation rules and fitting Heaps' law on log-log axes.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)Ages 18 to 67
+
+### Text analysis at work
+
+Processing documents and reviews, with cleaning rules and vocabulary estimates explained plainly.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data Science Course](/courses/data-science-complete-masterclass-college)Coding and AI
 
 ## Language models read billions of words. Why should a Canterbury teenager count Chaucer's?
 
@@ -168,30 +181,139 @@ Vocabulary growth matters for AI too. Heaps' law describes how new words keep ap
 
 So a Canterbury teenager should still learn to program in 2026, in the city Chaucer's pilgrims rode towards: machines can read faster than any pilgrim, but someone still has to decide what counts as a word. The longer argument is in [why coding is worth learning in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Wincheap, Whitstable or Herne Bay, from home
 
 The district runs from the city walls to the north Kent coast. Online, a learner in Herne Bay is as close to the lesson as one in the city centre.
 
-- **City and coast** A learner in Sturry and another in Whitstable can share the same class without a bus ride into Canterbury.
-- **English stages throughout** We follow the stages Kent schools use, Reception and Key Stages 1 to 4 through GCSE and A level, and teach entirely in English.
-- **A lesson, not a sales call** The free session teaches a real task and ends with our suggested level, course and weekly slot. We never ask for card details.
-- **Grouped by stage** Fifteen to twenty learners working at one level, from Canterbury, elsewhere in the UK and abroad, so every stage has a sensible time.
-- **Two regular lessons** Two set lessons a week, about eight a month, with holidays and exam weeks planned with the teacher well ahead.
-- **Evening classes from India** A 5 pm lesson in Canterbury starts at 9.30 pm in India during British Summer Time and 10.30 pm in winter, as India keeps one time all year; our teachers work late for UK learners.
+### City and coast
 
-**Across east Kent** Families in Faversham, Ashford, Margate or Dover join exactly the same classes, since lessons are online and groups are formed by level.
+A learner in Sturry and another in Whitstable can share the same class without a bus ride into Canterbury.
+
+### English stages throughout
+
+We follow the stages Kent schools use, Reception and Key Stages 1 to 4 through GCSE and A level, and teach entirely in English.
+
+### A lesson, not a sales call
+
+The free session teaches a real task and ends with our suggested level, course and weekly slot. We never ask for card details.
+
+### Grouped by stage
+
+Fifteen to twenty learners working at one level, from Canterbury, elsewhere in the UK and abroad, so every stage has a sensible time.
+
+### Two regular lessons
+
+Two set lessons a week, about eight a month, with holidays and exam weeks planned with the teacher well ahead.
+
+### Evening classes from India
+
+A 5 pm lesson in Canterbury starts at 9.30 pm in India during British Summer Time and 10.30 pm in winter, as India keeps one time all year; our teachers work late for UK learners.
+
+Across east Kent
+
+Families in Faversham, Ashford, Margate or Dover join exactly the same classes, since lessons are online and groups are formed by level.
+
+Fees
 
 ## Canterbury lesson fees
 
 A free first lesson, then one monthly fee.
 
-- First class: USD 0. A full lesson with nothing to pay, ending with a suggested level, course and weekly time.
-- Group tuition: USD 100 a month. Around eight live lessons a month in a group of fifteen to twenty learners at one stage.
-- Private tuition: USD 150 a month. Around eight live lessons a month, with the teacher focused on your learner alone.
+First class**USD 0**
+
+A full lesson with nothing to pay, ending with a suggested level, course and weekly time.
+
+Group tuition**USD 100**
+
+Around eight live lessons a month in a group of fifteen to twenty learners at one stage.
+
+Private tuition**USD 150**
+
+Around eight live lessons a month, with the teacher focused on your learner alone.
 
 Thanington and Tankerton pay what every family outside India pays: one fee in US dollars, with no pound prices anywhere on our site. The free lesson comes first, and billing starts only once a course and a weekly time are agreed; pausing, missed lessons and moving between group and private teaching are explained on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Canterbury.)Reviews
+
+## Six families on Google, quoted as they wrote
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson for a Canterbury learner
+
+We choose the first task by level: a word-counting game for a young child, a short Python program that counts words in a paragraph for a beginner, or the Gutenberg text and Heaps' law for a teenager ready for real data.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Canterbury one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Canterbury.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Canterbury coding class questions
+
+What Canterbury families most often ask us.
 
 ### How many people live in the Canterbury district?
 
@@ -233,10 +355,14 @@ The first lesson is free. After it, a group place is USD 100 a month for two liv
 
 By level, pace and goals rather than age or address, with fifteen to twenty learners at one stage. If no group fits the learner's week, we offer one-to-one lessons.
 
+Explore England and the UK
+
 ## The south east and beyond
 
 Along the coast, the [Brighton and Hove page](/best-coding-class-in-brighton-and-hove) slides a window along a year of ozone readings, and in [York](/best-coding-class-in-york) street names are measured for surprise. [Cardiff](/best-coding-class-in-cardiff) tests whether its size fits Zipf's law, a close cousin of Heaps'. The [England guide](/coding-and-ai-classes-in-england) sets out school stages, and the [UK coding page](/coding-classes-in-united-kingdom) leads everywhere else.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Canterbury.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-canterbury](https://learn.modernagecoders.com/best-coding-class-in-canterbury#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-canterbury*

@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and data classes for Sandyford and 
 canonical: https://learn.modernagecoders.com/coding-classes-in-sandyford-dublin
 source: src/pages/coding-classes-in-sandyford-dublin.html
 ---
-> In Sandyford, lessons happen live on a video call with a teacher, for a small group of learners at one level or for one learner by themselves, usually twice in a week, and they are open to every age from six to sixty-seven. No trip into Dublin 18 or anywhere else is needed. We charge nothing for the first lesson; the monthly fee that follows is USD 100 in a group and USD 150 on a one-to-one basis.
+> Live online coding, Python, AI and data classes for Sandyford and Dublin 18, for ages 6 to 67, in level-matched groups or one to one. First lesson free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [Dún Laoghaire-Rathdown](/coding-classes-in-dun-laoghaire-rathdown) / Sandyford
-
-Sandyford, Dublin 18 / Live online
-
-# Coding classes in Sandyford
-
-**What are the best coding classes in Sandyford?** In Sandyford, lessons happen live on a video call with a teacher, for a small group of learners at one level or for one learner by themselves, usually twice in a week, and they are open to every age from six to sixty-seven. No trip into Dublin 18 or anywhere else is needed. We charge nothing for the first lesson; the monthly fee that follows is USD 100 in a group and USD 150 on a one-to-one basis.
-
-The Luas Green Line runs through Sandyford, where it keeps a depot, and the statistics office publishes how many journeys each Luas line carries. Ask which line grew more by 2025 and the answer depends entirely on the year you start counting from. Start in 2018 and the Green Line grew by 37.2 percent against the Red Line's 26.8. Start in 2019 and the Red Line comes out ahead, 15.2 percent against 12.9. Start in any other year from 2018 to 2024 and the Green Line leads again. Nothing about the passengers changed between those sentences, only the choice of base year. This page teaches a learner to try every base, report the spread, and say why one was chosen.
-
-Facts last verified 20 September 2026. Teaching is online; no Sandyford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Dublin 18
 
 ## Four ways to start in Sandyford
 
 Choose the band that matches the learner; during the free first lesson the teacher settles the course, keeping it or moving it up or down.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Blocks and counting: two sprites race, and the score is kept from different starting lines.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Python with yearly numbers, percentages and a first index where one year is set to 100.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 18): Official transport statistics in Python: indices, base years and results tested for every choice.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): For adults who report growth at work and need a comparison that survives a change of starting point.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlocks and counting: two sprites race, and the score is kept from different starting lines.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsPython with yearly numbers, percentages and a first index where one year is set to 100.See the syllabus](/courses/python-ai-kids-masterclass)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 18Data Science for TeensOfficial transport statistics in Python: indices, base years and results tested for every choice.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CourseFor adults who report growth at work and need a comparison that survives a change of starting point.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## Which Luas line grew more? Try every starting year before answering
 
 Luas journeys in 2025 as a percentage of journeys in each earlier year, from the statistics office's table of passenger numbers by line. A value of 100 would mean no change.
 
-**Luas journeys in 2025, indexed to each base year**
-
 | Base year | Red Line | Green Line | Grew more |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 2018 | 126.8 | 137.2 | Green |
 | 2019 | 115.2 | 112.9 | Red |
 | 2020 | 284.7 | 290.4 | Green |
@@ -82,14 +68,14 @@ TII says the Green Line trams were lengthened to 54.7 metres between May 2019 an
 
 The table counts journeys for the whole line. It does not say how many start or end at Sandyford, and nothing on this page should be read as a figure for the Sandyford stop.
 
+Sandyford, named
+
 ## Sandyford, from the organisations based there
 
 Facts that each organisation publishes itself, with eircodes only where its own page prints them.
 
-**Named places in Sandyford**
-
 | Place | What its own source says |
-|---|---|
+| --- | --- |
 | Sandyford Luas depot | Stabling for up to 32 trams |
 | Sandyford Luas stop | Park and ride, and cycle and ride |
 | Sandyford Urban Framework Plan | 192 hectares in the council's plan data |
@@ -109,7 +95,11 @@ Dún Laoghaire-Rathdown County Council's boundary data for its 2022 to 2028 deve
 
 St Mary's National School is a co-educational primary school at Lamb's Cross. Nord Anglia International School Dublin says it is the only private school in Dublin accredited to teach the International Baccalaureate to students aged 3 to 18.
 
-**What this page does not claim** No population is printed for Sandyford, because the page uses only facts that named organisations publish about the place itself. The Luas figures describe whole lines, not the Sandyford stop. The Department of Education's school profile page could not be read on 19 September 2026, so the school is described from its own website.
+What this page does not claim
+
+No population is printed for Sandyford, because the page uses only facts that named organisations publish about the place itself. The Luas figures describe whole lines, not the Sandyford stop. The Department of Education's school profile page could not be read on 19 September 2026, so the school is described from its own website.
+
+Learning here
 
 ## What a week of lessons looks like from Sandyford
 
@@ -129,14 +119,37 @@ Adults can start without any coding at all; the first lesson decides the course.
 
 Passenger numbers are the Central Statistics Office's, and depot, fleet and stop details are Transport Infrastructure Ireland's; the indices and comparisons are our own arithmetic, run on 20 September 2026. The council plan data, the schools and the hospital are quoted from their own publications and sites.
 
+Learning ladder
+
 ## From a race with two starting lines to a table of base years
 
 The bands are a first guess; lesson one shows where each learner should really begin.
 
-- **Ages 6 to 10: Starting lines** Block-coded races where moving the start line changes the result. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Percent change** Python that works out growth from one year to another and turns it into an index. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Every base at once** Loops over base years, tables of indices and a count of how many bases agree. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Honest growth claims** Workplace reports that name their base year, give the reason and show the alternatives. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### Starting lines
+
+Block-coded races where moving the start line changes the result.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Percent change
+
+Python that works out growth from one year to another and turns it into an index.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Every base at once
+
+Loops over base years, tables of indices and a count of how many bases agree.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Honest growth claims
+
+Workplace reports that name their base year, give the reason and show the alternatives.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## Ask an assistant which Luas line has grown more
 
@@ -148,30 +161,139 @@ With the full table built, the learner asks the assistant which base year it cho
 
 Calculating a percentage change is simple. Deciding which change to calculate is the skill. The longer argument is in [why learning to code still makes a difference](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How lessons run for Sandyford
 
 The working details.
 
-- **Real-time teaching** A teacher runs the whole lesson live and checks each learner's code while they write it.
-- **Stage-matched** Fifteen to twenty learners at the same stage, whether they are in Dublin 18, another part of Ireland or overseas.
-- **Fixed weekly slots** About eight lessons a month on two days each week, agreed when the course begins.
-- **Holidays included** School holidays, mid-terms and exam weeks are built into the course plan.
-- **Equipment list** A laptop or desktop, a microphone with headphones or speakers, and a connection able to carry video.
-- **Just one learner** One-to-one teaching when a learner is ahead of every group, wants a slower pace, or needs hours no group keeps.
+### Real-time teaching
 
-**Nothing on site** Modern Age Coders has no premises in Sandyford, in Dún Laoghaire-Rathdown or anywhere in Ireland. Every lesson is given over video, the same for every learner wherever they are.
+A teacher runs the whole lesson live and checks each learner's code while they write it.
+
+### Stage-matched
+
+Fifteen to twenty learners at the same stage, whether they are in Dublin 18, another part of Ireland or overseas.
+
+### Fixed weekly slots
+
+About eight lessons a month on two days each week, agreed when the course begins.
+
+### Holidays included
+
+School holidays, mid-terms and exam weeks are built into the course plan.
+
+### Equipment list
+
+A laptop or desktop, a microphone with headphones or speakers, and a connection able to carry video.
+
+### Just one learner
+
+One-to-one teaching when a learner is ahead of every group, wants a slower pace, or needs hours no group keeps.
+
+Nothing on site
+
+Modern Age Coders has no premises in Sandyford, in Dún Laoghaire-Rathdown or anywhere in Ireland. Every lesson is given over video, the same for every learner wherever they are.
+
+Fees
 
 ## Fees for Sandyford
 
 Every charge, listed.
 
-- First class: USD 0. A first lesson with a level check, at no cost.
-- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one stage, around eight live lessons.
-- Private tuition: USD 150 a month. A month of one-to-one lessons, same weekly pattern.
+First class**USD 0**
+
+A first lesson with a level check, at no cost.
+
+Group tuition**USD 100**
+
+A month in a group of fifteen to twenty at one stage, around eight live lessons.
+
+Private tuition**USD 150**
+
+A month of one-to-one lessons, same weekly pattern.
 
 All families outside India pay one monthly US dollar fee. The free lesson carries no commitment, payments start with the course and not before, and the pricing page explains how holidays, missed lessons and changes between group and private lessons are handled.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Sandyford.)Reviews
+
+## Six families' Google reviews, as they were posted
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free first lesson in Sandyford
+
+Tell us how old the learner is and what they like doing, and the first hour will be designed around it. It could end with a game, a first program, or a table that tests an answer from every starting point.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Sandyford one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Sandyford.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Sandyford coding class questions
+
+Questions we are asked by Sandyford families.
 
 ### Is there a Modern Age Coders centre in Sandyford?
 
@@ -209,10 +331,14 @@ The first lesson is free. A group place is then USD 100 a month for about eight 
 
 Fifteen to twenty, placed by level, pace and aim rather than by age or address. When no group fits a workable time, lessons are one to one.
 
+Explore Ireland
+
 ## Around Sandyford and south Dublin
 
 The [Dún Laoghaire-Rathdown](/coding-classes-in-dun-laoghaire-rathdown) page covers the council area around Sandyford, the [Dublin](/best-coding-class-in-dublin) page covers the city the Green Line runs into, and further south the county has pages for [Bray](/best-coding-class-in-bray) and [Greystones](/best-coding-class-in-greystones). The [Ireland hub](/coding-classes-in-ireland) links every page in the series.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Sandyford.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-sandyford-dublin](https://learn.modernagecoders.com/coding-classes-in-sandyford-dublin#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-sandyford-dublin*

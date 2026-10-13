@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes in Prins Alexander for a
 canonical: https://learn.modernagecoders.com/coding-classes-in-prins-alexander
 source: src/pages/coding-classes-in-prins-alexander.html
 ---
-> Coding classes in Prins Alexander reach 97,794 residents (1 January 2026), the largest of the fourteen gebieden, on 1,738 hectares of land at 5,635 people to the square kilometre. 25,205 residents are between forty-five and sixty-five and 22,845 are sixty-five or over: 48,050 people, forty-nine percent of the district. Whether that is because older people move to suburbs or because the people who bought these houses when they were new have simply got older, this snapshot cannot say, and the two answers point in opposite directions. Modern Age Coders teaches live online in English from Ommoord to Nesselande, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
+> Live online coding, Python and AI classes in Prins Alexander for ages 6 to 67, from Ommoord and Zevenkamp to Nesselande. The first lesson is free.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Rotterdam](/coding-classes-in-rotterdam) / Prins Alexander
-
-Prins Alexander, Rotterdam / Live online
-
-# Coding classes in Prins Alexander, where half the district is over forty-five and nobody can tell you why from this data
-
-**What are the best coding classes in Prins Alexander?** Coding classes in Prins Alexander reach 97,794 residents (1 January 2026), the largest of the fourteen gebieden, on 1,738 hectares of land at 5,635 people to the square kilometre. 25,205 residents are between forty-five and sixty-five and 22,845 are sixty-five or over: 48,050 people, forty-nine percent of the district. Whether that is because older people move to suburbs or because the people who bought these houses when they were new have simply got older, this snapshot cannot say, and the two answers point in opposite directions. Modern Age Coders teaches live online in English from Ommoord to Nesselande, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
-
-Half of Prins Alexander is over forty-five. There are two ordinary explanations and they are not compatible. Either this is the kind of place people move to as they age, in which case the profile will look much the same in twenty years as each generation arrives. Or the district filled up once, when it was built, and everybody who arrived then has been getting older in the same houses, in which case the profile is about to change sharply. One year of data is consistent with both, and choosing between them is not a matter of looking harder at it.
-
-Facts last verified 9 September 2026. Teaching is online; no Prins Alexander branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Prins Alexander
 
 ## Four courses for the largest district in the city
 
 A groep 5 child in Zevenkamp who has finished every game in the house, a teenager in Ommoord with an app in mind and no notion of how one gets made, a student in Prinsenland who needs Python to run without being supervised, and an adult in Nesselande watching a chart drift and wondering which way it is going: four doors, and the first hour of each costs nothing.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Real typed Python, drawings that follow orders and a first program that spots a rule, taught in English to the groep 5 to 8 child in any of the eight buurten.
-- [App Development for Teens](/courses/complete-app-development-masterclass-for-teens) (Ages 13 to 18): An application taken from an empty project to something that installs and runs, for the teenager who has described one to three adults and built none of it.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Python that gathers, cleans, checks and reports unattended, for the student or worker repeating the same job by hand every week.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): Reading a table honestly, including what one year of it can and cannot tell you, for anybody reporting numbers that get acted on.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsReal typed Python, drawings that follow orders and a first program that spots a rule, taught in English to the groep 5 to 8 child in any of the eight buurten.See the syllabus](/courses/python-ai-kids-masterclass)[![App Development for Teens course thumbnail](/images/app-dev-teens.webp)Ages 13 to 18App Development for TeensAn application taken from an empty project to something that installs and runs, for the teenager who has described one to three adults and built none of it.See the syllabus](/courses/complete-app-development-masterclass-for-teens)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CoursePython that gathers, cleans, checks and reports unattended, for the student or worker repeating the same job by hand every week.See the syllabus](/courses/python-ai-automation-masterclass-college)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)Reading a table honestly, including what one year of it can and cannot tell you, for anybody reporting numbers that get acted on.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Prins Alexander today
 
 ## Ninety-eight thousand people on polder built out from the 1960s
 
@@ -52,16 +40,18 @@ Prins Alexander holds 97,794 residents across 1,860 hectares, of which 1,738 are
 
 47,041 dwellings, of which 20,698 are owner-occupied, 44 percent, and 26,343 rented. Average value is 360,000 euro and average income 34,700 euro per resident for 2024, both around the middle of the eight districts. Households average 2.0 people and 21,710 of the 48,260 hold one person, 45 percent.
 
-**Why a district built at once has an unusual age profile** When a large area of housing goes up over a short period, it fills over a short period too, largely with people at a similar stage of life. Those households then age together in the same houses, so the district carries the shape of its own construction for decades afterwards. That is a mechanism, not a measurement: nothing on this page shows it happening here. It is set out because it is the second of the two explanations for what the age table shows, and because it is the one nobody reaches for.
+Why a district built at once has an unusual age profile
+
+When a large area of housing goes up over a short period, it fills over a short period too, largely with people at a similar stage of life. Those households then age together in the same houses, so the district carries the shape of its own construction for decades afterwards. That is a mechanism, not a measurement: nothing on this page shows it happening here. It is set out because it is the second of the two explanations for what the age table shows, and because it is the one nobody reaches for.
+
+Where the learners are
 
 ## Two explanations, one table, opposite futures
 
 Both readings below fit the published figures exactly. They differ in what they predict, which is the only way to tell them apart and is not something a single year of data can do.
 
-**The same age profile, read two ways**
-
-|  | If older people move here | If the original residents aged in place | What the 2026 table shows |
-|---|---|---|---|
+|   | If older people move here | If the original residents aged in place | What the 2026 table shows |
+| --- | --- | --- | --- |
 | Why 23 percent are over sixty-five | a steady inflow of older households | the people who arrived when it was built | identical either way |
 | Why 26 percent are forty-five to sixty-five | the next wave of arrivals | the cohort behind the first one | identical either way |
 | What happens by 2040 | much the same profile, refreshed by new arrivals | a sharp fall as the housing turns over | nothing, it cannot see forward |
@@ -69,6 +59,8 @@ Both readings below fit the published figures exactly. They differ in what they 
 | What would distinguish them | the same bands measured across several years | or migration counts by age | neither was read for this page |
 
 This is not a hedge. The two readings imply different things about who will be living in Ommoord in fifteen years, about how many primary places the district will need, and about whether 14,585 children is a floor or a ceiling. A single snapshot supports both equally, so the honest output is the pair of hypotheses plus the measurement that would separate them, rather than whichever one sounds more natural to whoever is reading.
+
+Verified local facts
 
 ## Every figure, its source, its year, and the question left open
 
@@ -96,6 +88,8 @@ It does not say the district is ageing, which would require more than one year. 
 
 This page is not affiliated with the gebied, with Rotterdam, or with any school in either, and claims no such thing. Its quoted figures are taken from the statistics office page for this wijk: a 2026 population, 2025 household and housing figures, a 2024 income. Only the 48,050 total and the 49.1 percent were calculated here.
 
+Signature project
+
 ## Is the district old, or is it the same people getting older?
 
 One age table, two mechanisms that fit it perfectly, and a rule for what to do when a snapshot cannot choose.
@@ -112,10 +106,8 @@ A steady inflow of older households keeps the profile roughly where it is. A gen
 
 The same bands across several years, or arrivals and departures counted by age. Either would separate the two in an afternoon. Neither is on this page, so the page reports two live hypotheses and the test, which is a more useful output than a confident paragraph choosing between them for aesthetic reasons.
 
-**The same shape, in four other places**
-
 | Situation | The age reading | The cohort reading | What separates them |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | A product whose users keep getting older | it appeals to older people | its original users aged and no new ones came | signup dates by age, over time |
 | A team with rising average tenure | people are staying longer | nobody new has been hired | joiners and leavers per year |
 | A town with a rising median age | retirees are moving in | the young left and the rest stayed | migration by age band |
@@ -126,14 +118,14 @@ The same bands across several years, or arrivals and departures counted by age. 
 
 Cross-sectional data is the most available kind and the most confidently misread, because a single moment looks like an explanation as well as a description. A group is older than average. That is a state. It could have arrived by people of that age joining, or by the people already there ageing while nobody joined, and those two histories imply opposite things about what happens next. Nothing in the snapshot distinguishes them, and no amount of care with the snapshot will, because the information simply is not in it. What makes this expensive rather than merely academic is that one of the two readings is always more available than the other. The one that involves people choosing something is easy to picture and easy to say. The one that involves a group ageing together while the world moved on is duller, has no protagonist, and is very often the true one. So the discipline is to write the second explanation down deliberately, every time, before deciding anything: what would this look like if nobody had chosen anything and time had simply passed. Then ask which measurement would tell the two apart, and be honest about whether you have it. Reporting two hypotheses and the test that separates them is a real result. Picking whichever fits the story you were already telling is not, however well it is written.
 
+Reliable pipeline
+
 ## Five habits for a single snapshot
 
 User age, team tenure, customer size, account maturity, contract length: every one of them arrives as a state and gets read as a trend. Practised on a district where half the residents are over forty-five for either of two opposite reasons.
 
-**Reading a cross-section without inventing a history**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Name the state | Describe what the data shows without any verb implying movement | A snapshot written up as a trend | A clean starting point |
 | Write the boring history | Ask what this would look like if nobody chose anything and time passed | The vivid explanation winning by default | A second hypothesis, usually the neglected one |
 | Derive the predictions | State what each history implies for the next few years | Two stories that sound the same | Something that can actually be tested |
@@ -154,14 +146,37 @@ A real state from work read as a direction: average tenure, customer age, deal s
 
 Population, household, age, area, density, dwelling, value, tenure, income, establishment and pupil figures come from the statistics office page for this wijk, with a 2026 population, 2025 household and housing figures and a 2024 income. The 48,050 residents aged forty-five and over and the 49.1 percent are this page adding two published bands and dividing by the published population. The construction history of the district is context rather than evidence, and no claim on this page rests on it.
 
+Learning ladder
+
 ## From one photograph of a class to a report that publishes both histories
 
 The rung comes out of the free hour and what the learner can already do, and never out of which of the eight buurten the address falls in.
 
-- **Ages 6 to 10: Are they getting taller?** Children find out one photograph cannot say, and work out what would. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Game Development for Kids](/courses/game-development-masterclass-for-kids)
-- **Ages 11 to 13: The other explanation** Learners write the dull history alongside the vivid one, every time. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Hypotheses with predictions attached** Teenagers build code that will not prefer a history without a second period of data. [App Development for Teens](/courses/complete-app-development-masterclass-for-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: The state everybody read as a trend** Adults take a real snapshot from work and reconstruct the history nobody wrote down. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Are they getting taller?
+
+Children find out one photograph cannot say, and work out what would.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Game Development for Kids](/courses/game-development-masterclass-for-kids)Ages 11 to 13
+
+### The other explanation
+
+Learners write the dull history alongside the vivid one, every time.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Hypotheses with predictions attached
+
+Teenagers build code that will not prefer a history without a second period of data.
+
+[App Development for Teens](/courses/complete-app-development-masterclass-for-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### The state everybody read as a trend
+
+Adults take a real snapshot from work and reconstruct the history nobody wrote down.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## An AI will tell you this district is ageing. Why should a teenager in Ommoord ask which year that came from?
 
@@ -173,30 +188,139 @@ So the learner practises writing both histories before preferring either, and th
 
 The case for a child in Prins Alexander learning to code in 2026 is therefore not about demography. It is that most data arrives as a single moment, that every moment has at least two histories behind it, and that the more interesting one is usually the one with nobody choosing anything in it. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes across the largest district in Rotterdam
 
 Prins Alexander covers seventeen square kilometres of land on the north-eastern edge, with the metro running through it and a good deal of distance between one buurt and the next.
 
-- **Seventeen square kilometres, and no journey** The lesson runs at the table in Ommoord, Nesselande or Kralingseveer at one fixed hour a week. In a district this size the travel is the part that quietly kills an enrolment, and this removes it.
-- **Four words that are not translated** Groep, havo, vwo, profielkeuze. Those arrive in the lesson exactly as they appear on a Dutch school report, and everything constructed around them is in English.
-- **Free, and not a sales call** An hour of actual teaching with a task in it. What comes out is a level nobody had to guess at, the course that level indicates, and a time each week. Payment arrangements are a separate conversation, later.
-- **The other learners will not be neighbours** A group needs fifteen to twenty people at the same stage, and a single district rarely has them simultaneously. Drawing from everywhere is what makes a narrow level exist at all rather than something to wait for.
-- **The schedule already knows about the holidays** Two lessons a week, near enough eight a month. Zuid-Holland sits in regio Midden, whose dates are set long in advance, so the breaks are written in when the plan is made rather than negotiated when they arrive.
-- **Two clocks, one of which moves** The Dutch one, twice a year. That is the entire reason the teacher is sometimes three and a half hours ahead and sometimes four and a half, and it changes nothing about which hours of the week actually work.
+### Seventeen square kilometres, and no journey
 
-**The most children of any Rotterdam district measured, and the most people over sixty-five** 14,585 residents are under fifteen and 22,845 are sixty-five or over, both the largest counts of the eight Rotterdam districts in this series, because this is the largest district. 28 primary establishments teach 8,108 pupils here. What none of that guarantees is a group of fifteen to twenty learners at one particular level in one particular subject within reach of any particular family, which is a matter of how thinly a specific stage is spread rather than of how many children there are. Groups here are assembled on ability from across the world, at every age from 6 to 67.
+The lesson runs at the table in Ommoord, Nesselande or Kralingseveer at one fixed hour a week. In a district this size the travel is the part that quietly kills an enrolment, and this removes it.
+
+### Four words that are not translated
+
+Groep, havo, vwo, profielkeuze. Those arrive in the lesson exactly as they appear on a Dutch school report, and everything constructed around them is in English.
+
+### Free, and not a sales call
+
+An hour of actual teaching with a task in it. What comes out is a level nobody had to guess at, the course that level indicates, and a time each week. Payment arrangements are a separate conversation, later.
+
+### The other learners will not be neighbours
+
+A group needs fifteen to twenty people at the same stage, and a single district rarely has them simultaneously. Drawing from everywhere is what makes a narrow level exist at all rather than something to wait for.
+
+### The schedule already knows about the holidays
+
+Two lessons a week, near enough eight a month. Zuid-Holland sits in regio Midden, whose dates are set long in advance, so the breaks are written in when the plan is made rather than negotiated when they arrive.
+
+### Two clocks, one of which moves
+
+The Dutch one, twice a year. That is the entire reason the teacher is sometimes three and a half hours ahead and sometimes four and a half, and it changes nothing about which hours of the week actually work.
+
+The most children of any Rotterdam district measured, and the most people over sixty-five
+
+14,585 residents are under fifteen and 22,845 are sixty-five or over, both the largest counts of the eight Rotterdam districts in this series, because this is the largest district. 28 primary establishments teach 8,108 pupils here. What none of that guarantees is a group of fifteen to twenty learners at one particular level in one particular subject within reach of any particular family, which is a matter of how thinly a specific stage is spread rather than of how many children there are. Groups here are assembled on ability from across the world, at every age from 6 to 67.
+
+Fees
 
 ## The fee, in dollars, in all eight buurten
 
 On the page rather than saved for a phone call.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 One international rate, quoted in dollars, with no euro edition, so an address in Nesselande is charged what one in Het Lage Land is. Nothing is paid until the free lesson has settled a course and an hour, and payment is arranged over WhatsApp afterwards. Pausing, switching plan and missing a week are all on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Prins%20Alexander.)Reviews
+
+## Six Google reviews, exactly as the people who left them wrote them
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Send the level, not the buurt
+
+The first task might be one photograph of a class and a question it cannot answer, a function that generates two histories for a single snapshot, or a metric at work that was read as a direction from one month of data.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Prins Alexander one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Prins%20Alexander.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Prins Alexander coding class questions
+
+The district, its eight buurten, one question a snapshot cannot answer, the teaching and the terms.
 
 ### Is Prins Alexander an ageing district?
 
@@ -238,10 +362,14 @@ The first lesson is free. After it, group tuition is USD 100 a month for two liv
 
 Fifteen to twenty, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
+Explore Rotterdam and beyond
+
 ## West into the city, south across the river, and out to the country
 
 West are [Kralingen-Crooswijk](/coding-classes-in-kralingen-crooswijk) and [Rotterdam Centrum](/coding-classes-in-rotterdam-centrum), north-west [Hillegersberg-Schiebroek](/coding-classes-in-hillegersberg-schiebroek), and south across the Maas [IJsselmonde](/coding-classes-in-ijsselmonde). The city page, [coding classes in Rotterdam](/coding-classes-in-rotterdam), carries the port and all fourteen gebieden, and everything here sits inside [Zuid-Holland](/coding-classes-in-zuid-holland). The series descends from the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner after trained models rather than running programs should begin at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Finish this on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Prins%20Alexander.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-prins-alexander](https://learn.modernagecoders.com/coding-classes-in-prins-alexander#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-prins-alexander*

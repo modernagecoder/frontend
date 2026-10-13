@@ -4,46 +4,32 @@ description: "Live online coding, Python and AI lessons for Wexford learners age
 canonical: https://learn.modernagecoders.com/best-coding-class-in-wexford
 source: src/pages/best-coding-class-in-wexford.html
 ---
-> Wexford town counts 21,358 usual residents in the census town tables and 8,506 households, of which 6,785 report broadband. Lessons with us are taught live over video, twice in most weeks, by a teacher who stays for the whole hour, either with a small group working at one level or with a single learner, for ages six to sixty-seven. Nothing is charged for the first lesson. After that it is USD 100 a month for a group place or USD 150 for private teaching.
+> Live online coding, Python and AI lessons for Wexford learners aged 6 to 67, taught live by a teacher in small ability groups or one to one. First lesson free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [County Wexford](/coding-classes-in-county-wexford) / Wexford
-
-Wexford town, County Wexford / Live online
-
-# Coding classes in Wexford
-
-**What is the best coding class in Wexford?** Wexford town counts 21,358 usual residents in the census town tables and 8,506 households, of which 6,785 report broadband. Lessons with us are taught live over video, twice in most weeks, by a teacher who stays for the whole hour, either with a small group working at one level or with a single learner, for ages six to sixty-seven. Nothing is charged for the first lesson. After that it is USD 100 a month for a group place or USD 150 for private teaching.
-
-The CSO counts the new homes completed in Wexford town every year, and fourteen years of that count now sit in one table: 8 in 2012, rising to 291 in 2022, and 173 in 2025. Write a headline from it. Measure from 2012 and completions have grown more than twentyfold. Measure from 2019 and they are up a quarter. Measure from 2022 and they have fallen by two fifths. All three sentences are arithmetic on the same published numbers, and each would survive a fact check on its own. The trick is entirely in the first year chosen, which is why a figure about change that does not show its starting point, or better the whole series, has not told you enough to believe it.
-
-Facts last verified 19 September 2026. Teaching is online; no Wexford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Wexford
 
 ## Where Wexford learners get started
 
 Age and interest point to a course; the first lesson, taught by that course's own teacher, makes the final call.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Block coding with scores that change over time, and charts that show every turn rather than only the start and finish.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 13): Percentage change, averages over several years and growth, written as small programs.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): Time series in Python: plotting, smoothing, and choosing a baseline you can defend.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (College and adult): For adults who report year-on-year figures and get asked why the story changed.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlock coding with scores that change over time, and charts that show every turn rather than only the start and finish.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 13Maths Through CodingPercentage change, averages over several years and growth, written as small programs.See the syllabus](/courses/maths-through-coding)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensTime series in Python: plotting, smoothing, and choosing a baseline you can defend.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)College and adultData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For adults who report year-on-year figures and get asked why the story changed.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## Choose the start year, choose the headline
 
 New dwelling completions in the settlement of Wexford, from CSO table NDA06, measured to 2025 from six different starting years. The completions are published; the changes are our arithmetic.
 
-**The same series, six ways of describing it**
-
 | Measured from | Completions that year | Completions in 2025 | Change to 2025 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 2012 | 8 | 173 | up 2,062.5%, more than twenty times |
 | 2016 | 22 | 173 | up 686.4% |
 | 2019 | 138 | 173 | up 25.4% |
@@ -69,16 +55,16 @@ Sales since the worst month. Visitors since the site relaunched. Membership sinc
 
 The learner's project loads the fourteen published values and writes a function that returns the percentage change between any two years. They produce the six headlines above, then build the defence: a plot of the full series, a three-year moving average, and a comparison of the first five years with the last five, 87 completions against 1,021. The final output is a caption that shows the series and states its range, which cannot be bent by choosing a convenient starting year because it does not choose one.
 
+The whole series
+
 ## Fourteen years, smoothed and unsmoothed
 
 Every published value for the Wexford settlement in NDA06, the change from the year before, and a three-year moving average. The changes and averages are ours.
 
-**New dwelling completions, Wexford settlement, 2012 to 2025**
-
 | Year | Completions | Change on the year before | Three-year average |
-|---|---|---|---|
-| 2012 | 8 |  |  |
-| 2013 | 9 | up 12.5% |  |
+| --- | --- | --- | --- |
+| 2012 | 8 |   |   |
+| 2013 | 9 | up 12.5% |   |
 | 2014 | 12 | up 33.3% | 9.7 |
 | 2015 | 36 | up 200.0% | 19.0 |
 | 2016 | 22 | down 38.9% | 23.3 |
@@ -104,16 +90,18 @@ The moving average rises steadily from 9.7 to a high of 227.0 in 2024 and eases 
 
 Across all fourteen years the table records 1,489 completions in the Wexford settlement, 87 of them in the first five years and 1,021 in the last five. Those two numbers say more than any single percentage.
 
-**A different table, a different list of places** NDA06 names 873 settlements, not the 867 census towns, and spells some differently: it has Tinriland and Inniscrone where the census town table has Tinryland and Enniscrone. We therefore do not assume a settlement in NDA06 covers exactly the same ground as the census town of the same name, and never divide completions by census households.
+A different table, a different list of places
+
+NDA06 names 873 settlements, not the 867 census towns, and spells some differently: it has Tinriland and Inniscrone where the census town table has Tinryland and Enniscrone. We therefore do not assume a settlement in NDA06 covers exactly the same ground as the census town of the same name, and never divide completions by census households.
+
+Wexford in the town tables
 
 ## The census snapshot beside the series
 
 Published for the built-up area Wexford, Co Wexford, in the Census 2022 small area tables, a single point in the middle of the fourteen years above.
 
-**Wexford town, Census 2022**
-
 | Measured | Count |
-|---|---|
+| --- | --- |
 | Usual residents | 21,358 |
 | Households | 8,506 |
 | Households reporting broadband | 6,785 |
@@ -133,7 +121,11 @@ Of 4,689 journeys to school, college or childcare, 2,514 are as a car passenger,
 
 Asked about home working directly, 2,034 working residents do it at least some of the time, 6,225 never do and 848 did not answer.
 
-**The opera house and the arts centre** The National Opera House gives its address as High Street, Wexford, Y35 FEP3, where The National Opera House Ltd is registered in Ireland as company 16277 and charity CHY18140, and it is the home of Wexford Festival Opera. Wexford Arts Centre gives its address as Cornmarket, Wexford, company registration 306536. We have no connection with either and reproduce no ticket prices.
+The opera house and the arts centre
+
+The National Opera House gives its address as High Street, Wexford, Y35 FEP3, where The National Opera House Ltd is registered in Ireland as company 16277 and charity CHY18140, and it is the home of Wexford Festival Opera. Wexford Arts Centre gives its address as Cornmarket, Wexford, company registration 306536. We have no connection with either and reproduce no ticket prices.
+
+Learning in Wexford
 
 ## What lessons with us involve
 
@@ -153,14 +145,37 @@ Adult learners start wherever they are, and 2,034 working residents in the town 
 
 The National Opera House and Wexford Arts Centre are named from their own published pages, and neither, nor Wexford County Council, is connected with us. Census counts and dwelling completions are Central Statistics Office figures printed as published; the percentage changes, moving averages and five-year totals are our own arithmetic, and the full series is printed so that no single starting year does the talking.
 
+Learning ladder
+
 ## From a before and after to a whole series
 
 The ages are a guide; the first lesson finds the right starting point.
 
-- **Ages 6 to 10: Watching things change** Block projects with scores and timers, charting every step rather than just the last one. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Percent change** Writing the percentage-change calculation in Python and seeing what a tiny starting number does to it. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 14 to 18: Series and smoothing** Plotting real yearly data, moving averages, and baselines that can be defended. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Reporting change** Year-on-year figures for work that show the whole picture instead of the flattering slice. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### Watching things change
+
+Block projects with scores and timers, charting every step rather than just the last one.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Percent change
+
+Writing the percentage-change calculation in Python and seeing what a tiny starting number does to it.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### Series and smoothing
+
+Plotting real yearly data, moving averages, and baselines that can be defended.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Reporting change
+
+Year-on-year figures for work that show the whole picture instead of the flattering slice.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## Ask for a headline about new homes in Wexford
 
@@ -172,30 +187,139 @@ A learner who has run this project asks for the full series first, looks at its 
 
 Any number of true headlines can be produced from one series. Learning to see all of them at once is the skill that stops you believing the first one you are shown. The longer argument is in [why coding keeps its value for young people](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How the teaching is organised
 
 The details a Wexford family needs.
 
-- **Taught live** The teacher is on the call throughout, working from what the learner is doing on screen.
-- **Grouped by level** Fifteen to twenty learners at the same stage, whether in Wexford, elsewhere in Ireland or abroad.
-- **A weekly pattern** Two lessons in most weeks, around eight a month, at an hour fixed at the start.
-- **Term time** Holidays, mid-terms and exam weeks are worked into the plan in advance.
-- **Equipment** A laptop or desktop with a keyboard, sound in and out, and a connection that stays up for a full video lesson.
-- **One to one** Private teaching exists for the learner no group fits, whether by level or by timetable.
+### Taught live
 
-**Progress over the whole course** We judge a learner's progress across the course rather than from one good or bad lesson, for the same reason this page refuses to judge a series from one year.
+The teacher is on the call throughout, working from what the learner is doing on screen.
+
+### Grouped by level
+
+Fifteen to twenty learners at the same stage, whether in Wexford, elsewhere in Ireland or abroad.
+
+### A weekly pattern
+
+Two lessons in most weeks, around eight a month, at an hour fixed at the start.
+
+### Term time
+
+Holidays, mid-terms and exam weeks are worked into the plan in advance.
+
+### Equipment
+
+A laptop or desktop with a keyboard, sound in and out, and a connection that stays up for a full video lesson.
+
+### One to one
+
+Private teaching exists for the learner no group fits, whether by level or by timetable.
+
+Progress over the whole course
+
+We judge a learner's progress across the course rather than from one good or bad lesson, for the same reason this page refuses to judge a series from one year.
+
+Fees
 
 ## Wexford class fees
 
 All there is to the price.
 
-- First class: USD 0. A first lesson taught in full and assessed, with no charge.
-- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, about eight live lessons.
-- Private tuition: USD 150 a month. A month of private lessons at the same weekly frequency.
+First class**USD 0**
+
+A first lesson taught in full and assessed, with no charge.
+
+Group tuition**USD 100**
+
+A month in a group of fifteen to twenty at one level, about eight live lessons.
+
+Private tuition**USD 150**
+
+A month of private lessons at the same weekly frequency.
 
 Every family outside India pays the same monthly rate in US dollars, so a Wexford household sees the figure a Galway or Kilkenny household sees, and there is no euro price to compare it with. The free lesson comes first, the invoice only after a course and a time are agreed, and the pricing page sets out the rules for holidays, absences and moving between formats.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Wexford.)Reviews
+
+## Six of our families on Google, quoted without edits
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Wexford lesson
+
+Tell us the learner's age and what they like doing, and the first hour is built from that, whether it ends with a game, a first program, or a chart that shows a whole story instead of one convenient slice of it.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Wexford one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Wexford.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Wexford coding class questions
+
+What people in Wexford ask us first.
 
 ### How many people live in Wexford town?
 
@@ -237,10 +361,14 @@ The first lesson is free. After that a shared place costs USD 100 a month and br
 
 Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
+Explore Ireland
+
 ## Around Wexford
 
 The [County Wexford](/coding-classes-in-county-wexford) page covers the rest of the county, with [Waterford](/best-coding-class-in-waterford) and [Kilkenny](/best-coding-class-in-kilkenny) to the west, all in the south east of [Leinster](/coding-and-ai-classes-in-leinster) and beyond. Anyone weighing us against other online schools can begin with [this guide](/best-online-coding-classes-ireland), and every place in the series is listed on the [Ireland hub](/coding-classes-in-ireland).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Wexford.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-wexford](https://learn.modernagecoders.com/best-coding-class-in-wexford#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-wexford*

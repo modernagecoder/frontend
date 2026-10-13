@@ -500,42 +500,109 @@ The verifiable list is broader than people expect. University College Cork place
 
 They answer two different questions. A grind school exists to move a student up a grade band in a subject examined in June, and it is good at that. It is not built to leave a learner holding a trained model, a held out test window and a public link. Ireland is at 4.9 per cent unemployment against 6.4 per cent across the euro area, so the constraint here is not vacancies, it is being chosen among strong applicants, and that is settled by evidence of work rather than exam drilling. A group place is USD 100 a month, so this is rarely a choice between the two.
 
-<!-- ireland-pages:start -->
-
 More for Irish learners
 
 ## Guides for Irish families, and pages for Irish places
 
 Each page answers one question for one audience, with its facts read at the source.
 
-- [Best coding class in the world](/best-coding-class-in-the-world): Eight tests any coding class should pass, from research on how people learn to program.
-- [Best online coding classes in Ireland](/best-online-coding-classes-ireland): Where coding sits in Irish schools, six checks for any provider, and what clubs, camps, grinds and live classes are each for.
-- [Understand the code, don't copy-paste](/understand-the-code-dont-copy-paste-ireland): What Irish school and exam guidance says about AI, and how to learn code you can explain line by line.
-- [Leaving Cert Computer Science grinds online](/leaving-cert-computer-science-grinds-online): The subject's strands, exam and coursework, the changes coming in 2027, and live grinds for Fifth and Sixth Years.
-- [After CoderDojo: the next step in coding](/after-coderdojo-next-step-coding-ireland): For children who have outgrown a free coding club: the step from Scratch to Python and AI, with a teacher and a clear path.
-- [AI and Python academy for girls in Ireland](/ai-and-python-academy-for-girls-ireland): Who studies and works in computing in Ireland, why interest fades, and a mixed class that keeps a learner going.
-- [Junior Cycle Coding short course help](/junior-cycle-coding-short-course-help): The Coding short course and its Classroom-Based Assessment, explained, with the help a learner can have and the line we never cross.
-- [Best coding classes for kids in Ireland](/best-coding-classes-for-kids-ireland): Coding for primary-school children, from Junior Infants to Sixth Class: blocks, Scratch and first Python, set against the new primary curriculum.
-- [Best coding classes for teens in Ireland](/best-coding-classes-for-teens-ireland): Coding for secondary-school students, First Year to the Leaving Cert: Python, the web, apps and AI, with a data project on Irish school enrolments.
-- [Transition Year coding course in Ireland](/transition-year-coding-course-ireland): A coding project that lasts the whole of Transition Year, fitted to the new Programme Statement and to your school's own TY plan.
-- [AI agents course for students in Ireland](/ai-agents-course-for-students-ireland): For students in Ireland who want to build AI agents as their own work, inside Irish academic integrity guidance.
-- [Online coding summer course in Ireland](/online-coding-summer-course-ireland): A live online coding course across the Irish summer holidays, for primary and secondary students, from June to the week school reopens.
-- [Learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-ireland): For families who want a class that builds thinking rather than tool use, set against the key skills and competencies Irish schools already teach.
-- [Problem solving skills through coding in Ireland](/problem-solving-skills-through-coding-ireland): What PISA and the Irish maths curriculum say about problem solving, and how coding classes build it step by step.
-- [Best coding classes for adults in Ireland](/best-coding-classes-for-adults-ireland): Coding for adults in Ireland, whether you are changing career, returning to work or simply curious, with the public routes explained honestly.
-- [Coding for college students in Ireland](/coding-for-college-students-ireland): For students in Irish higher education: what first-year programming actually asks, and how to build the portfolio employers look at.
-- [Full stack software development course in Ireland](/full-stack-software-development-course-ireland): Front end, back end and database together, with an honest reading of what Irish labour market data does and does not say.
-- [Best Python classes online in Ireland](/best-python-classes-online-ireland): Python taught on Ireland's own public data, from a child's first program to the CSO statistical tables professionals actually use.
-- [Build real AI projects in Ireland](/build-real-ai-projects-ireland): Building AI projects on real Irish data, including how to tell an honest result from a leaked one.
-- [Data science course in Ireland](/data-science-course-ireland): Data science taught on Ireland's open data portal, including how to read a licence and how to spot a column that mixes units.
-- [Learn to train AI, not just prompt it](/learn-to-train-ai-not-just-prompt-it-ireland): The difference between prompting a model and training one, worked through on an Irish dataset with a baseline you have to beat.
-- [AI agents course for professionals in Ireland](/ai-agents-course-for-professionals-ireland): For professionals in Ireland building AI agents at work, with the national adoption figures read carefully.
-- [Java classes in Ireland](/java-classes-ireland): Where Java actually sits in Irish computing education, and how to learn it properly at school, in college or at work.
-- [App development course in Ireland](/app-development-course-ireland): Building and shipping real mobile apps, with two Irish public apps read as worked examples.
+### [Best coding class in the world](/best-coding-class-in-the-world)
 
-Pages for Irish places are listed on [the national Ireland page](/coding-classes-in-ireland).
+Eight tests any coding class should pass, from research on how people learn to program.
 
-<!-- ireland-pages:end -->
+### [Best online coding classes in Ireland](/best-online-coding-classes-ireland)
+
+Where coding sits in Irish schools, six checks for any provider, and what clubs, camps, grinds and live classes are each for.
+
+### [Understand the code, don't copy-paste](/understand-the-code-dont-copy-paste-ireland)
+
+What Irish school and exam guidance says about AI, and how to learn code you can explain line by line.
+
+### [Leaving Cert Computer Science grinds online](/leaving-cert-computer-science-grinds-online)
+
+The subject's strands, exam and coursework, the changes coming in 2027, and live grinds for Fifth and Sixth Years.
+
+### [After CoderDojo: the next step in coding](/after-coderdojo-next-step-coding-ireland)
+
+For children who have outgrown a free coding club: the step from Scratch to Python and AI, with a teacher and a clear path.
+
+### [AI and Python academy for girls in Ireland](/ai-and-python-academy-for-girls-ireland)
+
+Who studies and works in computing in Ireland, why interest fades, and a mixed class that keeps a learner going.
+
+### [Junior Cycle Coding short course help](/junior-cycle-coding-short-course-help)
+
+The Coding short course and its Classroom-Based Assessment, explained, with the help a learner can have and the line we never cross.
+
+### [Best coding classes for kids in Ireland](/best-coding-classes-for-kids-ireland)
+
+Coding for primary-school children, from Junior Infants to Sixth Class: blocks, Scratch and first Python, set against the new primary curriculum.
+
+### [Best coding classes for teens in Ireland](/best-coding-classes-for-teens-ireland)
+
+Coding for secondary-school students, First Year to the Leaving Cert: Python, the web, apps and AI, with a data project on Irish school enrolments.
+
+### [Transition Year coding course in Ireland](/transition-year-coding-course-ireland)
+
+A coding project that lasts the whole of Transition Year, fitted to the new Programme Statement and to your school's own TY plan.
+
+### [AI agents course for students in Ireland](/ai-agents-course-for-students-ireland)
+
+For students in Ireland who want to build AI agents as their own work, inside Irish academic integrity guidance.
+
+### [Online coding summer course in Ireland](/online-coding-summer-course-ireland)
+
+A live online coding course across the Irish summer holidays, for primary and secondary students, from June to the week school reopens.
+
+### [Learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-ireland)
+
+For families who want a class that builds thinking rather than tool use, set against the key skills and competencies Irish schools already teach.
+
+### [Problem solving skills through coding in Ireland](/problem-solving-skills-through-coding-ireland)
+
+What PISA and the Irish maths curriculum say about problem solving, and how coding classes build it step by step.
+
+### [Best coding classes for adults in Ireland](/best-coding-classes-for-adults-ireland)
+
+Coding for adults in Ireland, whether you are changing career, returning to work or simply curious, with the public routes explained honestly.
+
+### [Coding for college students in Ireland](/coding-for-college-students-ireland)
+
+For students in Irish higher education: what first-year programming actually asks, and how to build the portfolio employers look at.
+
+### [Full stack software development course in Ireland](/full-stack-software-development-course-ireland)
+
+Front end, back end and database together, with an honest reading of what Irish labour market data does and does not say.
+
+### [Best Python classes online in Ireland](/best-python-classes-online-ireland)
+
+Python taught on Ireland's own public data, from a child's first program to the CSO statistical tables professionals actually use.
+
+### [Build real AI projects in Ireland](/build-real-ai-projects-ireland)
+
+Building AI projects on real Irish data, including how to tell an honest result from a leaked one.
+
+### [Data science course in Ireland](/data-science-course-ireland)
+
+Data science taught on Ireland's open data portal, including how to read a licence and how to spot a column that mixes units.
+
+### [Learn to train AI, not just prompt it](/learn-to-train-ai-not-just-prompt-it-ireland)
+
+The difference between prompting a model and training one, worked through on an Irish dataset with a baseline you have to beat.
+
+### [AI agents course for professionals in Ireland](/ai-agents-course-for-professionals-ireland)
+
+For professionals in Ireland building AI agents at work, with the national adoption figures read carefully.
+
+### [Java classes in Ireland](/java-classes-ireland)
+
+Where Java actually sits in Irish computing education, and how to learn it properly at school, in college or at work.
+
+### [App development course in Ireland](/app-development-course-ireland)
+
+Building and shipping real mobile apps, with two Irish public apps read as worked examples.
+
+Pages for Irish places, 110 so far, are listed on [the national Ireland page](/coding-classes-in-ireland).
 
 Start here
 

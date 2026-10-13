@@ -4,55 +4,39 @@ description: "Live online AI and programming classes for Mildura teenagers and a
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-mildura
 source: src/pages/ai-and-programming-classes-in-mildura.html
 ---
-> Classes in which a Mildura teenager or adult trains and tests real machine learning models in Python with a teacher, on data from sensors in their own city. The 2021 Census counted 53,620 people in the Mildura and Buronga urban area, which spans the Murray into New South Wales. We teach on live video, either privately or with a few learners at the same level, and there is no charge for the first class.
+> Live online AI and programming classes for Mildura teenagers and adults: Python, machine learning and honest model testing, with a real teacher. First lesson free.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [Victoria](/coding-and-ai-classes-in-victoria) / Mildura
-
-Mildura, Victoria, Australia / Live online
-
-# AI and programming classes in Mildura
-
-**What are the best AI and programming classes in Mildura?** Classes in which a Mildura teenager or adult trains and tests real machine learning models in Python with a teacher, on data from sensors in their own city. The 2021 Census counted 53,620 people in the Mildura and Buronga urban area, which spans the Murray into New South Wales. We teach on live video, either privately or with a few learners at the same level, and there is no charge for the first class.
-
-Mildura Rural City Council fitted some of its public bins with sensors that measure the distance from the lid down to the rubbish, and published every reading as open data. Two of those bins, in Mildura itself, sent 13,758 usable readings between December 2021 and April 2023. Can a computer predict, from one reading, whether the bin will be emptied in the next 24 hours? Our Mildura project builds the simplest machine learning model there is, a one-rule classifier, and finds that it beats the "never emptied" guess by only four percentage points, while catching about one emptying in three. Understanding why is a better introduction to AI than any chatbot.
-
-Facts last verified 7 October 2026. Teaching is online; no Mildura branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Mildura
 
 ## AI and programming courses for Mildura learners
 
 All four connect to the smart bin project. The free first lesson suggests one, and no card details are taken.
 
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Machine learning from the ground up: data, simple models, testing and the habit of comparing with a baseline.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 17): Python for real data, including the cleaning that sensor readings always need.
-- [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) (University and adult): A full machine learning course, from classic models to neural networks, with careful evaluation.
-- [Data Science Course](/courses/data-science-complete-masterclass-college) (University and adult): The complete path from raw data to trustworthy models, built in Python.
+[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensMachine learning from the ground up: data, simple models, testing and the habit of comparing with a baseline.See the syllabus](/courses/ai-ml-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 17Data Science for TeensPython for real data, including the cleaning that sensor readings always need.See the syllabus](/courses/data-science-course-for-teens-python-data)[![AI and ML Masterclass course thumbnail](/images/ai-ml-college.webp)University and adultAI and ML MasterclassA full machine learning course, from classic models to neural networks, with careful evaluation.See the syllabus](/courses/ai-ml-masterclass-complete-college)[![Data Science Course course thumbnail](/images/data-science-college.webp)University and adultData Science CourseThe complete path from raw data to trustworthy models, built in Python.See the syllabus](/courses/data-science-complete-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Mildura in the Census
 
 ## A river city of houses, spanning two states
 
 The 2021 Census QuickStats for the Mildura - Buronga Significant Urban Area. Buronga sits across the Murray in New South Wales, and the bureau compares the area with Victoria.
 
-**Mildura - Buronga urban area totals, 2021 Census QuickStats**
-
 | Census total | Mildura - Buronga |
-|---|---|
+| --- | --- |
 | People | 53,620 |
 | Families | 13,903 |
 | Private dwellings | 23,731 |
 | Average household size | 2.4 |
 
-**Mildura - Buronga beside Victoria and Australia**
-
 | Measure | Mildura - Buronga | Victoria | Australia |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Median age | 40 | 38 | 38 |
 | Separate houses among occupied homes | 84.8% (16,888) | 73.4% | 72.3% |
 | Technicians and trades workers among the employed | 13.6% (3,195) | 12.6% | 12.9% |
@@ -72,23 +56,21 @@ The Census counted 3,448 residents aged 10 to 14 and 3,114 aged 15 to 19.
 
 On census figures: the bureau perturbs each cell slightly to protect privacy, so the rows of a table may not sum exactly to its total. We quote published totals and percentages as they appear and never create totals by adding rows.
 
+Signature project
+
 ## Can one simple rule predict when a Mildura smart bin is emptied?
 
 The council's open sensor file records how far the lid sits above the rubbish, hour by hour. We labelled each reading by whether an emptying followed within 24 hours, trained one-rule models on the first 70% of the time line, and tested them on the last 30%.
 
-**The two Mildura bins in the council file (our count)**
-
 | Item | Figure |
-|---|---|
+| --- | --- |
 | Readings from the two Mildura bins | 13,795, of which 37 hold the value 9999, marking a failed measurement |
 | Usable readings after removing 9999 | 13,758 |
 | Emptying events (distance rises by more than 400 mm) | 96 for one bin, 41 for the other |
 | Readings followed by an emptying within 24 hours | 17.7% in training, 15.9% in testing |
 
-**How each one-rule model scores on the test period (our calculation)**
-
 | Rule built on | What it predicts | Test accuracy |
-|---|---|---|
+| --- | --- | --- |
 | Nothing (always "not emptied") | No for every reading | 84.1% |
 | Day of the week | No for every day | 84.1% |
 | Hour of the day | No for every hour | 84.1% |
@@ -113,14 +95,14 @@ Fridays were followed by an emptying 26.0% of the time and Mondays only 10.2%, y
 
 These results are ours, from the council file as downloaded, with an emptying defined by our 400 mm rule and a 70/30 split in time order; other choices give somewhat different numbers. The data ends in 2023 and describes two bins only. Nothing here comments on the council's collection service; the project is about how a simple model behaves.
 
+Machine learning honestly
+
 ## What a one-rule model teaches before any neural network
 
 The Mildura project walks through the whole machine learning cycle with a model small enough to check by hand.
 
-**Steps in the project and what each teaches**
-
 | Step | In the Mildura project | Lesson |
-|---|---|---|
+| --- | --- | --- |
 | Clean | Remove the 37 readings of 9999 | Sensors produce impossible values |
 | Label | Mark readings followed by an emptying within 24 hours | Targets are defined by people |
 | Split by time | Train before 30 November 2022, test after | Never test a model on its own past |
@@ -143,6 +125,8 @@ Reading model reports at work with the right questions: what was the baseline, a
 
 Modern Age Coders has no affiliation with Mildura Rural City Council, the Victorian Government or the Australian Bureau of Statistics. The council publishes the sensor readings; every label, rule and score on this page comes from our own code.
 
+Around Mildura
+
 ## Sensors on the river, schools and Victorian time
 
 Further details from the council's data and Victoria's calendar.
@@ -159,16 +143,41 @@ Classes in Victorian state schools resume for students on 28 January 2027, a Thu
 
 Mildura keeps to Victorian time, so its clocks gain an hour on 4 October 2026 and lose it again on 4 April 2027, both Sundays.
 
-**Why sensor data suits a first AI project** Sensor files are honest about their flaws. A value of 9999 where a measurement failed, readings at slightly irregular times and long gaps when a device is offline all have to be handled before any model is trained, which is exactly the work most real AI projects involve.
+Why sensor data suits a first AI project
+
+Sensor files are honest about their flaws. A value of 9999 where a measurement failed, readings at slightly irregular times and long gaps when a device is offline all have to be handled before any model is trained, which is exactly the work most real AI projects involve.
+
+Learning ladder
 
 ## From one rule to real machine learning
 
 Starting points vary; one free class shows which rung suits each learner.
 
-- **Ages 13 to 14: Data and rules** Python that reads sensor readings, counts outcomes and builds simple if-then rules by hand. [Python for Teens](/courses/python-complete-masterclass-teens), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 15 to 18: First models** One-rule classifiers, decision trees and fair testing, applied to the Mildura bins and other open data. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **University: Machine learning in depth** Model families, evaluation metrics and the statistics that make comparisons meaningful. [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college), [Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college)
-- **Adults: AI you can judge** Understanding and questioning the models that appear in reports, products and tools at work. [Data Science Course](/courses/data-science-complete-masterclass-college), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
+Ages 13 to 14
+
+### Data and rules
+
+Python that reads sensor readings, counts outcomes and builds simple if-then rules by hand.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Maths Through Coding](/courses/maths-through-coding)Ages 15 to 18
+
+### First models
+
+One-rule classifiers, decision trees and fair testing, applied to the Mildura bins and other open data.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)University
+
+### Machine learning in depth
+
+Model families, evaluation metrics and the statistics that make comparisons meaningful.
+
+[AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college)[Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college)Adults
+
+### AI you can judge
+
+Understanding and questioning the models that appear in reports, products and tools at work.
+
+[Data Science Course](/courses/data-science-complete-masterclass-college)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)Coding and AI
 
 ## Why should a Mildura learner start AI with a model this simple?
 
@@ -180,30 +189,139 @@ Learners who have built it bring the same scepticism to every AI system they mee
 
 Models are everywhere in 2026, and a Mildura learner who always asks what the simplest model would score is the one who can tell real progress from noise. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Mildura, Irymple or Buronga, the same live lesson
 
 The urban area straddles a state border, and an online class does not mind which side of the river a learner lives on.
 
-- **Across the Murray** A learner in Buronga and one in Irymple join the same class without anyone crossing the bridge.
-- **Victorian and NSW schooling** Teachers plan around Victorian year levels and terms, and work just as readily with NSW students across the river. Lessons are in English.
-- **The trial is a real class** The free lesson ends with a recommended level, course and time, and nobody asks for payment details.
-- **Groups at the same stage** Fifteen to twenty learners at one level, from Sunraysia and beyond, so classes are never too small to run.
-- **A twice-weekly habit** Two lessons a week at fixed times, about eight a month, with breaks planned around holidays and exams.
-- **Teachers in India** A 5pm Mildura lesson in July starts at 12:30pm India time; once daylight saving begins, it starts at 11:30am there.
+### Across the Murray
 
-**Time zones on a border** Mildura keeps Victorian time. Families near the border should confirm which clock a lesson uses, so every booking is quoted in Mildura time to keep things simple.
+A learner in Buronga and one in Irymple join the same class without anyone crossing the bridge.
+
+### Victorian and NSW schooling
+
+Teachers plan around Victorian year levels and terms, and work just as readily with NSW students across the river. Lessons are in English.
+
+### The trial is a real class
+
+The free lesson ends with a recommended level, course and time, and nobody asks for payment details.
+
+### Groups at the same stage
+
+Fifteen to twenty learners at one level, from Sunraysia and beyond, so classes are never too small to run.
+
+### A twice-weekly habit
+
+Two lessons a week at fixed times, about eight a month, with breaks planned around holidays and exams.
+
+### Teachers in India
+
+A 5pm Mildura lesson in July starts at 12:30pm India time; once daylight saving begins, it starts at 11:30am there.
+
+Time zones on a border
+
+Mildura keeps Victorian time. Families near the border should confirm which clock a lesson uses, so every booking is quoted in Mildura time to keep things simple.
+
+Fees
 
 ## Mildura class fees
 
 Three figures, no small print.
 
-- First class: USD 0. A free first lesson, finishing with a level, a course and a lesson time.
-- Group tuition: USD 100 a month. A month of classes, usually eight, with fifteen to twenty learners at your stage.
-- Private tuition: USD 150 a month. About eight lessons a month on the same plan, one to one.
+First class**USD 0**
+
+A free first lesson, finishing with a level, a course and a lesson time.
+
+Group tuition**USD 100**
+
+A month of classes, usually eight, with fifteen to twenty learners at your stage.
+
+Private tuition**USD 150**
+
+About eight lessons a month on the same plan, one to one.
 
 We invoice everywhere except India in US dollars, so a household in Mildura and one in Buronga pay exactly the same and no local price list exists. Payment starts only after the trial has agreed a course and a time; the pricing page covers holidays, absences and changing formats.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20and%20programming%20class%20for%20a%20learner%20in%20Mildura.)Reviews
+
+## Families' Google reviews
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a first Mildura lesson
+
+Tell us an age and an interest. A Year 9 student might start by graphing one bin's readings; an adult could go straight to training and testing the one-rule model.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Mildura one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20and%20programming%20class%20for%20a%20learner%20in%20Mildura.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Mildura AI and programming class questions
+
+What Mildura learners and families usually ask before starting.
 
 ### How many people live in the Mildura urban area?
 
@@ -245,10 +363,14 @@ The first lesson is free. After that a group place is USD 100 a month for two li
 
 Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
+Explore Australia
+
 ## More for Mildura and Victorian learners
 
 Learners who enjoy models with language rather than numbers can read about the school-name generator on [AI and programming classes in Melton](/ai-and-programming-classes-in-melton). Year 12 students working with data may like [VCE Applied Computing: Data Analytics help](/vce-applied-computing-data-analytics-help); Victoria as a whole is covered on [coding and AI classes in Victoria](/coding-and-ai-classes-in-victoria).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20and%20programming%20class%20for%20a%20learner%20in%20Mildura.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-mildura](https://learn.modernagecoders.com/ai-and-programming-classes-in-mildura#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-mildura*

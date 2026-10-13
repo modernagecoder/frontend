@@ -4,46 +4,32 @@ description: "Live online coding, Python, vibe coding and AI classes for Wigan, 
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-wigan
 source: src/pages/online-coding-and-python-classes-in-wigan.html
 ---
-> Wigan borough counted 329,330 usual residents in 2021, and the ONS gives 81,580 for the Wigan built-up area and 45,495 for Leigh, with Golborne, Hindley, Tyldesley and Standish among the other towns. The borough has more people in their fifties and seventies than England's average, and fewer in their early twenties. Leigh, Golborne, Hindley and the rest are all in reach: learners from primary age to 67 take coding, Python, vibe coding, AI and maths with us through live video, taught by tutors in India individually or in classes of fifteen to twenty who move at the same pace. Everything starts from sound reasoning, so AI tools extend a learner's skills rather than stand in for them. The opening lesson is free, and monthly fees after it are USD 100 in a group or USD 150 one-to-one.
+> Live online coding, Python, vibe coding and AI classes for Wigan, Leigh, Golborne and Hindley learners aged 6 to 67, one-to-one or in groups. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [North West England](/coding-and-ai-classes-in-north-west-england) / Wigan
-
-Wigan, Greater Manchester, England / Live online
-
-# Online coding and Python classes in Wigan
-
-**Which are the best online coding and Python classes in Wigan?** Wigan borough counted 329,330 usual residents in 2021, and the ONS gives 81,580 for the Wigan built-up area and 45,495 for Leigh, with Golborne, Hindley, Tyldesley and Standish among the other towns. The borough has more people in their fifties and seventies than England's average, and fewer in their early twenties. Leigh, Golborne, Hindley and the rest are all in reach: learners from primary age to 67 take coding, Python, vibe coding, AI and maths with us through live video, taught by tutors in India individually or in classes of fifteen to twenty who move at the same pace. Everything starts from sound reasoning, so AI tools extend a learner's skills rather than stand in for them. The opening lesson is free, and monthly fees after it are USD 100 in a group or USD 150 one-to-one.
-
-Machine learning models only understand numbers, so every category has to be turned into numbers first. It sounds trivial, and it hides one of the commonest mistakes in AI. The 2021 census sorts Wigan's 154,614 working residents into nine occupation groups, numbered 1 for managers to 9 for elementary occupations. Take those numbers at face value and Wigan's "average occupation" is 4.753, England's 4.387, and it looks like a finding. Number the same groups alphabetically instead and Wigan's average drops below England's. Our Wigan project uses this to teach how AI systems should really see categories, through a technique called one-hot encoding.
-
-Facts last verified 28 September 2026. Teaching is online; no Wigan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentWigan course picks
 
 ## How-to-think, vibe coding and Python courses
 
 Start from what suits the learner's age and appetite; a free live lesson opens every course, and nothing is asked in advance.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think programme: sorting, grouping and careful logic.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games, then small apps produced with AI and checked by hand.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI work for teenagers, including the encoding project.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): How modern AI represents data, from encodings to agents, in Python.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think programme: sorting, grouping and careful logic.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games, then small apps produced with AI and checked by hand.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensPython, web and AI work for teenagers, including the encoding project.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseHow modern AI represents data, from encodings to agents, in Python.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Wigan borough
 
 ## A borough with many towns
 
 Nomis age figures from the 2021 census for Wigan borough, with England for comparison.
 
-**Wigan borough and England across six age bands (TS007A)**
-
 | Age band | In Wigan | Wigan % | England % |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 20 to 24 | 17,057 | 5.2% | 6.0% |
 | 25 to 29 | 20,834 | 6.3% | 6.6% |
 | 50 to 54 | 24,984 | 7.6% | 6.9% |
@@ -57,16 +43,16 @@ The fifty-somethings stand out most, 0.7 points ahead of England, and the early 
 
 The thinking behind our lessons is on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk). County-wide options sit on [Greater Manchester](/coding-classes-in-greater-manchester).
 
+The Wigan project
+
 ## One-hot encoding Wigan's jobs
 
 Turn nine occupation groups into numbers two ways, and see which one tells the truth.
 
 The learner downloads the census occupation table for Wigan and for England. It gives nine groups, from managers, directors and senior officials to elementary occupations, each with a number in its name. The quickest way to feed this to a model, called label encoding, is to use those numbers directly. The learner does exactly that and averages them: 4.753 for Wigan, 4.387 for England. Then comes the test. The numbers are only labels, so the learner renumbers the same nine groups in alphabetical order and repeats the calculation. Wigan now scores 5.041 and England 5.047, so the gap has vanished and even reversed.
 
-**Occupation groups in Wigan against England, share of working residents, TS063, our Python run, 28 September 2026**
-
 | Occupation group | Wigan | England | Difference (points) |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Professional occupations | 16.2% | 20.3% | -4.1 |
 | Managers, directors and senior officials | 10.4% | 12.9% | -2.4 |
 | Process, plant and machine operatives | 9.3% | 6.9% | +2.3 |
@@ -94,14 +80,14 @@ Compare label and one-hot encodings in a small model and explain the difference.
 
 Counts come from the Census 2021 occupation table TS063 on Nomis. The encodings, averages and the comparison are our own work.
 
+Vibe coding and AI agents
+
 ## Data preparation is where AI goes right or wrong
 
 Encodings are invisible in the final app, and decisive for what it learns.
 
-**Built-up areas inside Wigan borough, ONS 2021 published figures**
-
 | Built-up area | People |
-|---|---|
+| --- | --- |
 | Wigan | 81,580 |
 | Leigh | 45,495 |
 | Golborne | 25,555 |
@@ -113,14 +99,37 @@ Ask an AI assistant to prepare data for a model and it may well pass category nu
 
 The census figures belong to the Office for National Statistics and Nomis, neither of which is connected to Modern Age Coders. How we encoded and compared them is our doing, errors included.
 
+Stages
+
 ## From colour codes to machine learning
 
 A year group is a first estimate, refined by the trial lesson.
 
-- **Years 2 to 7: How to think** Sorting, grouping and logical steps. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Years 4 to 8: Vibe coding for kids** Games and apps built with AI, then checked. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Data and machine learning** Encoding, models and AI beside GCSE and A level. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **Adults: AI in practice** Data preparation, models and agents in Python. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Data Science Course](/courses/data-science-complete-masterclass-college)
+Years 2 to 7
+
+### How to think
+
+Sorting, grouping and logical steps.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Years 4 to 8
+
+### Vibe coding for kids
+
+Games and apps built with AI, then checked.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Data and machine learning
+
+Encoding, models and AI beside GCSE and A level.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)Adults
+
+### AI in practice
+
+Data preparation, models and agents in Python.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Data Science Course](/courses/data-science-complete-masterclass-college)AI and categories
 
 ## Does your model think managers are "less" than cleaners?
 
@@ -132,30 +141,139 @@ A Wigan learner who has renumbered the groups and watched the "result" reverse w
 
 Getting data preparation right is where good AI begins, and it is a strong reason for Wigan teenagers to keep learning to code in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Leigh to Standish, all online
 
 Across the borough, a computer and a steady connection are the only kit needed.
 
-- **Learners drive the code** Every line, prompt and test comes from the student; the tutor watches the shared screen and asks.
-- **The right first topic** The trial shows where a Year 4 or Year 13 should begin, with exam boards noted.
-- **Trial on us** A full lesson, free, with a clear recommendation afterwards.
-- **Fifteen to twenty per class** UK learners grouped by level.
-- **Two a week** Holidays are left clear.
-- **Same slot all year** The UK clock changes are handled by our tutors.
+### Learners drive the code
 
-**Why online classes** Five learners across Wigan at one level and free at one time seldom live close together. Online, each finds the right group.
+Every line, prompt and test comes from the student; the tutor watches the shared screen and asks.
+
+### The right first topic
+
+The trial shows where a Year 4 or Year 13 should begin, with exam boards noted.
+
+### Trial on us
+
+A full lesson, free, with a clear recommendation afterwards.
+
+### Fifteen to twenty per class
+
+UK learners grouped by level.
+
+### Two a week
+
+Holidays are left clear.
+
+### Same slot all year
+
+The UK clock changes are handled by our tutors.
+
+Why online classes
+
+Five learners across Wigan at one level and free at one time seldom live close together. Online, each finds the right group.
+
+Fees
 
 ## Wigan fees
 
 Wigan families pay our standard rate for learners outside India.
 
-- First class: USD 0. A free trial lesson, then a course recommendation.
-- Group tuition: USD 100 a month. Around eight live group lessons monthly.
-- Private tuition: USD 150 a month. Around eight live one-to-one lessons monthly.
+First class**USD 0**
+
+A free trial lesson, then a course recommendation.
+
+Group tuition**USD 100**
+
+Around eight live group lessons monthly.
+
+Private tuition**USD 150**
+
+Around eight live one-to-one lessons monthly.
 
 Fees are billed in US dollars. Payment starts after the trial confirms a course and a regular time, and the pricing page explains how holidays, absences and format changes work.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20or%20Python%20lesson%20for%20a%20learner%20in%20Wigan.)Reviews
+
+## Reviews on Google from Wigan and across the country
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Wigan lesson
+
+A sentence about the learner's age or year and their interests is plenty. We could start with a sorting-and-grouping puzzle, a Scratch game made with AI, beginner Python, or encoding real census categories.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Wigan one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20or%20Python%20lesson%20for%20a%20learner%20in%20Wigan.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Wigan questions
+
+Encoding, vibe coding, AI agents and the practical details.
 
 ### What is the population of Wigan?
 
@@ -197,10 +315,14 @@ The first lesson is free. Afterwards, a group place costs USD 100 a month and on
 
 Yes; send the dates and we pause.
 
+Nearby
+
 ## Other pages in the North West
 
 Nearby, [St Helens](/best-coding-and-ai-classes-in-st-helens), [Bolton](/online-coding-and-python-classes-in-bolton) and [Warrington](/online-coding-and-python-classes-in-warrington) have their own pages. The county is on [Greater Manchester](/coding-classes-in-greater-manchester), the region on [North West England](/coding-and-ai-classes-in-north-west-england), and every page is reachable from the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20or%20Python%20lesson%20for%20a%20learner%20in%20Wigan.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/online-coding-and-python-classes-in-wigan](https://learn.modernagecoders.com/online-coding-and-python-classes-in-wigan#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-wigan*

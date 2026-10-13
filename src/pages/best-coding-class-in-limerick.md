@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and data classes for learners acros
 canonical: https://learn.modernagecoders.com/best-coding-class-in-limerick
 source: src/pages/best-coding-class-in-limerick.html
 ---
-> Limerick is a single council area of 209,536 people wrapped around a built-up city of 102,287, and the difference matters: most figures published about "Limerick" describe the whole council, not the city. It is a place where 27% of workers did some work from home against 32% nationally, where 34,381 residents were born outside the State, and where fewer than half the people working in the city actually live in it. A live online class suits that shape of place, because it does not care whether a learner is in Castletroy, Dooradoyle or out past Adare. We teach ages 6 to 67 in groups of fifteen to twenty at a single level, or one to one, with teachers working from India at an hour fixed to the Irish clock. Nothing is charged for the first lesson; after it, a shared place is USD 100 a month and a private one USD 150.
+> Live online coding, Python, AI and data classes for learners across Limerick city and county, ages 6 to 67, at a fixed weekly hour. First lesson free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / Limerick
-
-Limerick, Munster / Live online
-
-# Coding classes in Limerick
-
-**What are the best coding classes in Limerick?** Limerick is a single council area of 209,536 people wrapped around a built-up city of 102,287, and the difference matters: most figures published about "Limerick" describe the whole council, not the city. It is a place where 27% of workers did some work from home against 32% nationally, where 34,381 residents were born outside the State, and where fewer than half the people working in the city actually live in it. A live online class suits that shape of place, because it does not care whether a learner is in Castletroy, Dooradoyle or out past Adare. We teach ages 6 to 67 in groups of fifteen to twenty at a single level, or one to one, with teachers working from India at an hour fixed to the Irish clock. Nothing is charged for the first lesson; after it, a shared place is USD 100 a month and a private one USD 150.
-
-There is a sensor on the Shannon Bridge that counts everything crossing it, hour by hour, sorted into cars, vans, trucks, motorbikes, bikes and people on foot. Limerick City and County Council publishes the lot, a month at a time, and it comes to 2,608,032 rows. Download a few months and something odd shows up: from late 2022 onwards, the last hours of each day are missing. In December 2022, and again in August 2026, the 22:00 and 23:00 readings are absent on all 31 days. In March 2023 only the 23:00 hour is gone. Nothing announces this. There is no note, no gap marker, no data dictionary at all. So anyone comparing a 2021 month against a 2026 month, using the totals as published, is comparing 24 hours a day against 22, and will get a number that is confidently wrong in a direction they cannot predict. Working out how to compare them fairly is the best data lesson this city has to offer, and it is where our teenage learners here start.
-
-Facts last verified 16 September 2026. Teaching is online; no Limerick branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Limerick
 
 ## Four courses for the Shannon city
 
 Pick by what the learner wants to make, not by age alone. Each of these begins with one free lesson, taught live, with no payment details asked for.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Stories and games in Scratch, including a bridge counter that keeps score and a discussion about what happens when it stops counting.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python taken seriously across the Junior Cycle years, using the city's own traffic files as the practice material.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): Seventy-one monthly files, one missing month, and the question of how to compare two Augusts honestly.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): For working adults: scripts that download, check and flag gaps in a data feed before anyone builds a report on it.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsStories and games in Scratch, including a bridge counter that keeps score and a discussion about what happens when it stops counting.See the syllabus](/courses/scratch-programming-complete-course)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython taken seriously across the Junior Cycle years, using the city's own traffic files as the practice material.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensSeventy-one monthly files, one missing month, and the question of how to compare two Augusts honestly.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CourseFor working adults: scripts that download, check and flag gaps in a data feed before anyone builds a report on it.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Limerick today
 
 ## One council, one city, and two different populations
 
 Limerick merged its city and county councils, so the word Limerick in an official statistic usually means the whole council area. Here are both figures, kept apart on purpose.
 
-**Limerick in Census 2022, Central Statistics Office**
-
 | Measure | Figure | Which Limerick |
-|---|---|---|
+| --- | --- | --- |
 | Limerick City and County Council | 209,536, up 8% or 14,637 since 2016 | The whole council area |
 | Limerick city and suburbs | 102,287 | The built-up city, which the CSO labels as spanning Counties Limerick and Clare |
 | Average age of the built-up city | 37.9 | With 17.6% aged under 15 |
@@ -65,6 +51,8 @@ Of 80,665 people travelling to work, 49,996 drove, 7,091 walked, 2,571 took a bu
 
 One more figure that is easy to misread. The CSO records 45,486 people working in Limerick city and suburbs, and its table of where they come from puts 45.4% in the category called cities. That category means urban areas of any kind, not Limerick city itself, so it cannot be read as "45% live in Limerick". We mention it because that is precisely the sort of column a learner has to interrogate, and this page would rather show the trap than step in it.
 
+Computer Science and Limerick schools
+
 ## One first-phase school in the county, none in the city
 
 Leaving Certificate Computer Science started in a named group of schools in September 2018. Limerick barely featured.
@@ -83,16 +71,18 @@ Our classes do not deliver the Leaving Certificate subject or its examination. T
 
 There is more computing in Limerick than the school list suggests. The University of Limerick sits on a 130 hectare riverside campus with the Shannon running through it and more than 19,000 students, over 3,300 of them international, alongside research centres and the Nexus Innovation Centre. The Technological University of the Shannon has its Moylish campus in the city at V94 EC5T, with the Limerick School of Art and Design on Clare Street. And at Plassey Business Campus in Castletroy, the validation software company Kneat lists its European office at V94 5F68. A child in Limerick grows up surrounded by this work; the question is whether they get to try it before choosing.
 
-**Manufacturing still leads** The largest single employment sector in the council area is manufacturing, with more than 12,500 workers. Software and data work sit inside those companies too, which is one reason the analytical habits taught here travel well locally.
+Manufacturing still leads
+
+The largest single employment sector in the council area is manufacturing, with more than 12,500 workers. Software and data work sit inside those companies too, which is one reason the analytical habits taught here travel well locally.
+
+Signature project
 
 ## The Shannon Bridge counter, and the hours that are not there
 
 Limerick City and County Council publishes the bridge counter monthly under a Creative Commons Attribution Share-Alike licence. It is generous, detailed and entirely undocumented, which makes it an unusually good teacher.
 
-**What we measured in the published files, read 16 September 2026**
-
 | Measure | Figure |
-|---|---|
+| --- | --- |
 | Monthly files published | 71, from November 2020 to September 2026 |
 | Rows in total | 2,608,032 |
 | Rows per hour | 56: seven zones by eight vehicle and pedestrian classes, from a single sensor |
@@ -118,14 +108,14 @@ Compare August 2021 with August 2026 using the raw monthly totals and bicycle cr
 
 Two smaller traps live in the same file and both are worth an evening. Every class shares one volume column, so adding it all up for "people crossing the bridge" in August 2026 gives 713,254, of which cars are 529,663 and actual pedestrians only 23,865, about 3.3%. And the rows marked undefined always carry a volume of zero while still reporting a gap value, so averaging the gap across every class quietly mixes in thousands of rows that measured nothing.
 
+Working with a gappy feed
+
 ## Five habits for data with holes in it
 
 Learned on a bridge counter, used afterwards on sales data, attendance records, sensors and anything an AI assistant is asked to summarise.
 
-**How to handle a feed that does not tell you what is missing**
-
 | Habit | What it looks like | What it prevents |
-|---|---|---|
+| --- | --- | --- |
 | Count what should be there | Build the full list of expected timestamps and subtract what you have | Averages computed over unequal coverage |
 | Chart the coverage | Draw a grid of period against hour before drawing anything else | Discovering a blackout after publishing |
 | Open every file | Check row counts per file, including the ones you expect to be dull | An empty month adding nothing and raising no error |
@@ -148,6 +138,8 @@ The same checks written as reusable code, run before any dashboard or report at 
 
 We are not connected to Limerick City and County Council, the University of Limerick, the Technological University of the Shannon, Iarnród Éireann, Kneat or any school mentioned here, and no such link is implied. Census figures come from the Central Statistics Office for 2022; the counter measurements are ours, taken from the council's published files.
 
+Around the city
+
 ## One routing key, a castle and a station at Parnell Street
 
 Limerick addresses share a routing key, which makes the city unusually easy to recognise on paper.
@@ -164,16 +156,41 @@ In the medieval quarter, the council's own visitor pages describe over 800 years
 
 The city's rail station has sheltered bike parking, nine rentable bicycle lockers and a Changing Places toilet, with the taxi rank to the right as you leave.
 
-**The largest town is not the city** When the CSO lists towns in Limerick, the city is counted separately, so the largest town in the county is Newcastle West with 7,209 people. It is a good reminder that official categories rarely match how people talk, which is the same lesson the bridge file teaches with its columns.
+The largest town is not the city
+
+When the CSO lists towns in Limerick, the city is counted separately, so the largest town in the county is Newcastle West with 7,209 people. It is a good reminder that official categories rarely match how people talk, which is the same lesson the bridge file teaches with its columns.
+
+Learning ladder
 
 ## From a counter that sleeps to a comparison that holds
 
 Bands are indicative. What decides a learner's starting point is the work they do in the first free lesson.
 
-- **Ages 6 to 10: Counting and noticing** Small programs that tally things, and the discovery that a stopped counter is not the same as nothing happening. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 11 to 13: Files and rows** Opening real files, counting rows, and checking that a table holds what it claims to hold. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Gaps and fair tests** Mapping missing periods, filtering by class, and building a comparison that survives questioning. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Checks that run themselves** Automating coverage checks so a gap is caught before a report is built on it. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Counting and noticing
+
+Small programs that tally things, and the discovery that a stopped counter is not the same as nothing happening.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 11 to 13
+
+### Files and rows
+
+Opening real files, counting rows, and checking that a table holds what it claims to hold.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Gaps and fair tests
+
+Mapping missing periods, filtering by class, and building a comparison that survives questioning.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Checks that run themselves
+
+Automating coverage checks so a gap is caught before a report is built on it.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## An assistant will compare two Augusts instantly. Why should a Limerick teenager learn to check the comparison?
 
@@ -185,30 +202,139 @@ This is not an argument against the tools. It is an argument for knowing what qu
 
 So the reason for a Limerick child to learn to code in 2026 is not that a company might one day hire them, though several might. It is that the judgement to ask whether the data covers what it claims to cover is becoming one of the most portable skills there is. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Castletroy, Dooradoyle or out the Ennis road
 
 The council area stretches far past the city, and a lesson delivered live online lands in every part of it at once.
 
-- **No journey at all** Whether a learner is in Raheen or thirty kilometres out, the class starts at the same second and the commute is a chair.
-- **Irish school stages, by name** Teachers talk about First Year, the Junior Cycle, Transition Year and sixth year as Irish schools do, so families are not translating anything.
-- **A genuine free lesson** Real teaching on a real task, followed by a straight recommendation about level, course and weekly hour. No card is requested at any point.
-- **Ability groups, not age groups** Fifteen to twenty learners who can work at the same pace, gathered from Limerick and several other countries so that each level has a workable hour.
-- **Two lessons most weeks** About eight a month at a fixed time, with pauses for mid-term, exams and family holidays agreed in advance.
-- **Teachers on Indian time** Their clock never shifts, so they run four and a half hours ahead of Ireland in summer and five and a half in winter, which puts Limerick afternoons and evenings in their working day.
+### No journey at all
 
-**A county where fewer work from home** Only 27% of Limerick workers did any work from home in 2022, against 32% nationally, so many households need an evening slot rather than an afternoon one. That is the most common request here, and it is easy to accommodate.
+Whether a learner is in Raheen or thirty kilometres out, the class starts at the same second and the commute is a chair.
+
+### Irish school stages, by name
+
+Teachers talk about First Year, the Junior Cycle, Transition Year and sixth year as Irish schools do, so families are not translating anything.
+
+### A genuine free lesson
+
+Real teaching on a real task, followed by a straight recommendation about level, course and weekly hour. No card is requested at any point.
+
+### Ability groups, not age groups
+
+Fifteen to twenty learners who can work at the same pace, gathered from Limerick and several other countries so that each level has a workable hour.
+
+### Two lessons most weeks
+
+About eight a month at a fixed time, with pauses for mid-term, exams and family holidays agreed in advance.
+
+### Teachers on Indian time
+
+Their clock never shifts, so they run four and a half hours ahead of Ireland in summer and five and a half in winter, which puts Limerick afternoons and evenings in their working day.
+
+A county where fewer work from home
+
+Only 27% of Limerick workers did any work from home in 2022, against 32% nationally, so many households need an evening slot rather than an afternoon one. That is the most common request here, and it is easy to accommodate.
+
+Fees
 
 ## What classes cost in Limerick
 
 Three numbers, and no small print underneath them.
 
-- First class: USD 0. A complete lesson at no charge, ending with a clear statement of level and a recommended course.
-- Group tuition: USD 100 a month. A month of teaching, normally eight lessons, in a group of fifteen to twenty learners of equal ability.
-- Private tuition: USD 150 a month. The same monthly rhythm of roughly eight lessons, with a teacher working with one learner alone.
+First class**USD 0**
+
+A complete lesson at no charge, ending with a clear statement of level and a recommended course.
+
+Group tuition**USD 100**
+
+A month of teaching, normally eight lessons, in a group of fifteen to twenty learners of equal ability.
+
+Private tuition**USD 150**
+
+The same monthly rhythm of roughly eight lessons, with a teacher working with one learner alone.
 
 Everything is billed in US dollars on the single rate charged outside India, so Castletroy and Croom pay identically and no euro list exists. Charging starts only once a course and a weekly hour have been settled in the free lesson, and the pricing page explains what happens with pauses, missed lessons and changes of format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Limerick.)Reviews
+
+## Six unedited Google reviews from our families
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us where the learner is now
+
+The opening task is chosen to suit: a Scratch counter for a younger child, a first script that opens a table, or a coverage map of a real Limerick traffic file for a teenager who likes a puzzle.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Limerick one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Limerick.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Limerick coding class questions
+
+What families here ask most often.
 
 ### How many people live in Limerick?
 
@@ -250,10 +376,14 @@ The first lesson is free. Continuing costs USD 100 a month for a group place, wh
 
 Fifteen to twenty. Learners are matched on ability, working pace and what they want to build, not on age or address. Where no suitable group meets at a workable hour, private lessons are offered instead.
 
+Explore Ireland
+
 ## Down the country and up to the capital
 
 The other cities have pages of their own: [Cork](/best-coding-class-in-cork) and [Dublin](/best-coding-class-in-dublin). Anyone weighing schools against each other should read [best online coding classes in Ireland](/best-online-coding-classes-ireland) first, and learners heading towards models and data will want [AI and machine learning classes in Ireland](/ai-and-machine-learning-classes-in-ireland). Everything Irish hangs off the [Ireland coding page](/coding-classes-in-ireland).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Limerick.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-limerick](https://learn.modernagecoders.com/best-coding-class-in-limerick#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-limerick*

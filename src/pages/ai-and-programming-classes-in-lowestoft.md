@@ -4,46 +4,32 @@ description: "Online AI, programming, Python and vibe coding classes for Lowesto
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-lowestoft
 source: src/pages/ai-and-programming-classes-in-lowestoft.html
 ---
-> The ONS counted 71,315 people in the Lowestoft built-up area at the 2021 census, within an East Suffolk district of 246,058 that also includes Beccles, Bungay, Halesworth and Kessingland. Whether home is Pakefield, Oulton Broad, Carlton Colville or the town centre, a learner of 6, 16 or 67 can join our India-based tutors on live video for AI, programming, Python, vibe coding and maths, privately or as one of fifteen to twenty classmates at a similar point. We teach how to think first, so that learners stay in charge of the AI tools they use. The free first lesson ends with our course suggestion. For Lowestoft the project puts a popular AI trick, data augmentation, to a fair test using two old histories of the town. Beyond the trial, lessons cost USD 100 a month in a group or USD 150 a month one-to-one.
+> Online AI, programming, Python and vibe coding classes for Lowestoft, Oulton Broad, Pakefield and Carlton Colville learners aged 6 to 67. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [East of England](/coding-and-ai-classes-in-east-of-england) / Lowestoft
-
-Lowestoft, East Suffolk, England / Live online
-
-# AI and programming classes in Lowestoft
-
-**Which are the best AI and programming classes in Lowestoft?** The ONS counted 71,315 people in the Lowestoft built-up area at the 2021 census, within an East Suffolk district of 246,058 that also includes Beccles, Bungay, Halesworth and Kessingland. Whether home is Pakefield, Oulton Broad, Carlton Colville or the town centre, a learner of 6, 16 or 67 can join our India-based tutors on live video for AI, programming, Python, vibe coding and maths, privately or as one of fifteen to twenty classmates at a similar point. We teach how to think first, so that learners stay in charge of the AI tools they use. The free first lesson ends with our course suggestion. For Lowestoft the project puts a popular AI trick, data augmentation, to a fair test using two old histories of the town. Beyond the trial, lessons cost USD 100 a month in a group or USD 150 a month one-to-one.
-
-Two histories of Lowestoft are free on Project Gutenberg. Edmund Gillingwater's, reprinted in 1897, opens with the Island of Lothingland: "THIS island (lately become a peninsula)". Francis Davy Longe's Lowestoft in Olden Times began as "lectures read before the members of St. Margaret's Institute, at Lowestoft". A computer can learn to tell their sentences apart, but only if it has enough examples. When examples are scarce, AI builders often use data augmentation: making extra, slightly altered copies of the examples they have. This project tests whether that really helps, and finds two ways it can mislead anyone who does not check.
-
-Facts last verified 28 September 2026. Teaching is online; no Lowestoft branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentLowestoft course picks
 
 ## Lowestoft courses in thinking, vibe coding and AI
 
 Let age and curiosity steer the choice. The first live lesson on every course is free, and booking needs no card.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think programme: fair tests, clues and spotting when a result is too good to be true.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games, then small apps built by describing them to AI and testing them carefully.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Machine learning in Python, from a first text classifier to honest testing, including this project.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): How modern AI is trained and evaluated, plus language models, retrieval and agents.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think programme: fair tests, clues and spotting when a result is too good to be true.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games, then small apps built by describing them to AI and testing them carefully.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensMachine learning in Python, from a first text classifier to honest testing, including this project.See the syllabus](/courses/ai-ml-masterclass-teens)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseHow modern AI is trained and evaluated, plus language models, retrieval and agents.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Lowestoft and East Suffolk
 
 ## Lowestoft and other East Suffolk towns
 
 ONS 2021 census populations for Lowestoft and some of the district's smaller built-up areas.
 
-**Lowestoft beside four smaller East Suffolk settlements, 2021 census (ONS)**
-
 | Built-up area | People (2021) |
-|---|---|
+| --- | --- |
 | Lowestoft | 71,315 |
 | Beccles | 9,810 |
 | Bungay | 5,010 |
@@ -56,16 +42,16 @@ These are individual ONS figures, printed as released and never added together; 
 
 For the rest of the county see [coding classes in Suffolk](/coding-classes-in-suffolk), and for the region [the East of England page](/coding-and-ai-classes-in-east-of-england). The thinking behind judgement before prompting is on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Lowestoft project
+
 ## Does data augmentation really help? Two histories as a test
 
 Teach a model to tell Gillingwater from Longe with very few examples, then add altered copies and measure fairly.
 
 The learner splits each book into sentences, keeping those of 8 to 60 words and leaving out later additions and footnotes: 1,922 sentences from Gillingwater and 938 from Longe. A simple word-count classifier, known as naive Bayes, learns which words each author favours. To imitate a shortage of data, it is trained on only a handful of sentences per author and tested on 300 unseen sentences from each. The augmented version gets four extra copies of every training sentence, each with about one word in ten deleted and a pair of words swapped. Longe's remark that the oldest record naming the town is Domesday Book, lowercased as "the most ancient record in which we find any mention of lowestoft is domesday book" becomes, for example, "the most ancient record which of find any mention we lowestoft is domesday book". Every result is averaged over 200 random splits.
 
-**Mean accuracy on 600 unseen sentences, 200 random splits, our Python run, 28 September 2026**
-
 | Training sentences per author | Without augmentation | With augmentation |
-|---|---|---|
+| --- | --- | --- |
 | 5 | 55.1% | 55.7% |
 | 10 | 57.6% | 58.4% |
 | 20 | 61.8% | 62.6% |
@@ -73,10 +59,8 @@ The learner splits each book into sentences, keeping those of 8 to 60 words and 
 
 At first glance augmentation works. It adds a little under a point at every size, and at 20 sentences per author it wins in 133 of the 200 splits and loses in 56. A beginner might stop there and report success. The careful next step is a control: what happens if, instead of altered copies, the program simply adds four exact copies of each sentence? That changes nothing about the information available, only how heavily the training examples count.
 
-**Controls at 20 training sentences per author, same 600 test sentences and 200 splits**
-
 | Training data | Mean accuracy |
-|---|---|
+| --- | --- |
 | Original sentences only | 61.8% |
 | Plus four exact copies of each | 62.6% |
 | Plus four copies with words swapped only | 62.6% |
@@ -85,10 +69,8 @@ At first glance augmentation works. It adds a little under a point at every size
 
 Every version lands on the same figure. Exact copies do just as well as the clever ones, so the small gain comes from giving the training examples more weight, not from new information. The swapped copies are the clearest case: their results match the exact copies in every one of the 200 splits, because a word-count model never sees word order at all. An augmentation only helps if it changes something the model can actually notice.
 
-**The leakage trap, 95 original sentences per author, 80% train and 20% test**
-
 | Order of steps | Mean accuracy |
-|---|---|
+| --- | --- |
 | Augment all sentences, then split into train and test | 99.2% |
 | Split first, then augment only the training sentences | 71.5% |
 
@@ -110,14 +92,14 @@ Build the augmentation, add the copy control, then reproduce and fix the leakage
 
 The texts are the Project Gutenberg transcriptions of Gillingwater's History of Lowestoft and Lowestoft in Olden Times by Francis Davy Longe. The sentence splits, the classifier, the augmentations and every accuracy figure are our own work.
 
+Fair tests for AI
+
 ## What this teaches about vibe coding and AI agents
 
 Treat any striking result as a prompt to dig further.
 
-**From the Lowestoft experiment to everyday AI**
-
 | In the history project | When AI builds or reports something |
-|---|---|
+| --- | --- |
 | Augmentation looked like a win | A reported improvement needs a control |
 | Exact copies scored the same | Ask whether the simplest version does just as well |
 | Swaps were invisible to the model | Check that a change touches what the system uses |
@@ -128,14 +110,37 @@ Ask an AI assistant to improve a model and it may well suggest data augmentation
 
 Modern Age Coders has no connection with Project Gutenberg, the Office for National Statistics or postcodes.io. We borrowed their words and numbers; the testing, and whatever we got wrong, is down to us.
 
+Stages
+
 ## From fair tests to honest AI
 
 We use the school year as a first estimate and let the free lesson decide the level.
 
-- **Years 2 to 7: How to think** Fair tests, patterns and checking a surprising answer. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Games and apps made with AI help, each tested by the learner. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python and machine learning** Text, data and fair model testing alongside GCSE and A level. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **Adults: Models and agents** Training, evaluation, language models and agents in Python. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Years 2 to 7
+
+### How to think
+
+Fair tests, patterns and checking a surprising answer.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Games and apps made with AI help, each tested by the learner.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python and machine learning
+
+Text, data and fair model testing alongside GCSE and A level.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)Adults
+
+### Models and agents
+
+Training, evaluation, language models and agents in Python.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)AI and evidence
 
 ## Can you trust a score an AI reports?
 
@@ -147,30 +152,139 @@ Learners who have produced a fake 99.2% themselves become quick to spot one else
 
 Spotting a leaky test is a habit that serves Lowestoft teenagers with every AI tool they touch, which makes coding well worth learning in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Pakefield to Oulton Broad, online
 
 All a Lowestoft home needs is a computer and a dependable connection.
 
-- **Students at the controls** Learners write, prompt and run the code; the tutor watches on screen share and asks the questions that move them on.
-- **The trial sets the level** From Year 3 to Year 13, the free lesson decides where to begin, and we record any exam board.
-- **No cost to start** The first lesson is free and ends with a suggested course.
-- **Groups by stage** Five to ten UK learners at a similar level in each class.
-- **Two sessions weekly** Lessons are paused over school holidays.
-- **Stable lesson hours** Tutors follow UK clock changes, so the time you chose stays the same.
+### Students at the controls
 
-**Why the classes are online** Five East Suffolk learners at the same stage, all free on the same evening, seldom live near each other. Online, they can share a class.
+Learners write, prompt and run the code; the tutor watches on screen share and asks the questions that move them on.
+
+### The trial sets the level
+
+From Year 3 to Year 13, the free lesson decides where to begin, and we record any exam board.
+
+### No cost to start
+
+The first lesson is free and ends with a suggested course.
+
+### Groups by stage
+
+Five to ten UK learners at a similar level in each class.
+
+### Two sessions weekly
+
+Lessons are paused over school holidays.
+
+### Stable lesson hours
+
+Tutors follow UK clock changes, so the time you chose stays the same.
+
+Why the classes are online
+
+Five East Suffolk learners at the same stage, all free on the same evening, seldom live near each other. Online, they can share a class.
+
+Fees
 
 ## Lowestoft fees
 
 Lowestoft learners pay our international rate, which covers every country but India.
 
-- First class: USD 0. A full lesson at no charge first, followed by our course suggestion.
-- Group tuition: USD 100 a month. Around eight live group lessons per month.
-- Private tuition: USD 150 a month. Around eight live private lessons per month.
+First class**USD 0**
+
+A full lesson at no charge first, followed by our course suggestion.
+
+Group tuition**USD 100**
+
+Around eight live group lessons per month.
+
+Private tuition**USD 150**
+
+Around eight live private lessons per month.
 
 Fees are in US dollars rather than pounds. Billing begins only after the trial fixes the course and the regular slot, and our pricing page deals with holidays away, missed sessions and moving between formats.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20Lowestoft%20learner.)Reviews
+
+## What Suffolk households, and others across Britain, write on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Lowestoft lesson
+
+Mention how old the learner is, or their year at school, plus what they are into. A trial could be a puzzle about fair experiments, a Scratch game put together with an AI, some opening Python, or a mini program that sorts sentences.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Lowestoft one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20Lowestoft%20learner.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Lowestoft questions
+
+The data augmentation project, vibe coding, agents and the practical details.
 
 ### What is the population of Lowestoft?
 
@@ -212,10 +326,14 @@ Nothing for the first. Then USD 100 a month for a group place or USD 150 a month
 
 We stop for them; just let us know when they fall.
 
+Nearby
+
 ## More East Anglia pages
 
 In Suffolk, [Ipswich](/best-coding-and-ai-classes-in-ipswich) has its own page and project, and across the county line [Norwich](/best-coding-class-in-norwich) and [Norfolk](/coding-classes-in-norfolk) are covered too. Our [UK hub](/coding-classes-in-united-kingdom) links to every area.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20Lowestoft%20learner.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-lowestoft](https://learn.modernagecoders.com/ai-and-programming-classes-in-lowestoft#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-lowestoft*

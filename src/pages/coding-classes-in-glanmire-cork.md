@@ -4,46 +4,32 @@ description: "Coding, Python, AI and maths lessons for Glanmire learners aged 6 
 canonical: https://learn.modernagecoders.com/coding-classes-in-glanmire-cork
 source: src/pages/coding-classes-in-glanmire-cork.html
 ---
-> In Glanmire each lesson is taught live on a video call by a teacher, to a small group at one level or to one learner, on two days of most weeks, and learners from six up to sixty-seven are welcome. There is no journey. Lesson one is on us; afterwards the monthly fee is USD 100 for a group place or USD 150 for a private learner.
+> Coding, Python, AI and maths lessons for Glanmire learners aged 6 to 67, taught live online in small same-level groups or one to one. The first lesson is free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [Cork](/best-coding-class-in-cork) / Glanmire
-
-Glanmire, Cork / Live online
-
-# Coding classes in Glanmire
-
-**What are the best coding classes in Glanmire?** In Glanmire each lesson is taught live on a video call by a teacher, to a small group at one level or to one learner, on two days of most weeks, and learners from six up to sixty-seven are welcome. There is no journey. Lesson one is on us; afterwards the monthly fee is USD 100 for a group place or USD 150 for a private learner.
-
-Met Éireann kept a rain gauge at Northesk in Glanmire from 1952 to 1960, and its daily readings are open data. How much rain falls there in a year? The file has four complete years, and they average 1,138.9 millimetres. A careful learner then asks the next question: how sure can four years make us? The honest answer is not very. The likely range runs from 838 to 1,439 millimetres, a quarter either way, and one wet year, 1960, moves the average by 93 millimetres on its own. This page teaches a learner to measure that uncertainty, to see why it shrinks only with the square root of the number of years, and to work out how many years a trustworthy average would need.
-
-Facts last verified 20 September 2026. Teaching is online; no Glanmire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Glanmire
 
 ## Four first courses for Glanmire
 
 Start from the age band that fits; the teacher checks the level in the free first lesson and suggests a switch if another course would suit better.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Blocks and a dice game: how the average of a few rolls jumps about, and how it settles with more.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 13): Averages, spread and square roots in code, and why four times the data only halves the uncertainty.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 18): Real rainfall records in Python: checking for missing months, standard errors and how many years a result needs.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (College and adult): For adults who report averages from small samples and need to say how far to trust them.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlocks and a dice game: how the average of a few rolls jumps about, and how it settles with more.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 13Maths Through CodingAverages, spread and square roots in code, and why four times the data only halves the uncertainty.See the syllabus](/courses/maths-through-coding)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 18Data Science for TeensReal rainfall records in Python: checking for missing months, standard errors and how many years a result needs.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)College and adultData Analysis CourseFor adults who report averages from small samples and need to say how far to trust them.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## How many years does an average need? A 1950s rain gauge in Glanmire
 
 Readings come from the Northesk gauge in Glanmire, published by Met Éireann as a daily file that runs from February 1952 to the end of 1960. A year counts here only if every day of it is in the file.
 
-**Glanmire (Northesk) annual rainfall and what four years can tell us**
-
 | Measure | Result |
-|---|---|
+| --- | --- |
 | Complete years in the file | 1954, 1955, 1956 and 1960 |
 | Their annual totals (millimetres) | 1,008.2, 1,047.9, 1,080.7 and 1,418.7 |
 | Average of the four | 1,138.9, with a standard error of 94.4 |
@@ -80,14 +66,14 @@ Met Éireann lists the station at 5 metres above sea level. Its readings stop at
 
 Four complete years, and nine calendar years in all, are far too few to say whether rainfall was rising or falling. The one wet year at the end is a reason for caution, not a finding.
 
+Glanmire, named
+
 ## Glanmire from its library, its college and its flood scheme
 
 Each fact below is quoted from the organisation responsible.
 
-**Named places and projects in Glanmire**
-
 | Place | What its own source says |
-|---|---|
+| --- | --- |
 | Glanmire Library | Hazelwood Shopping Centre, Glanmire, T45 E033 |
 | Glanmire Community College | Brooklodge, Glanmire, T45 W965 |
 | Glashaboy Flood Relief Scheme | Protection for some 103 properties |
@@ -105,7 +91,11 @@ Cork City Libraries lists staffed hours of 10.00 am to 5.30 pm from Tuesday to S
 
 Glanmire Community College gives its address as Brooklodge, Glanmire, with the eircode T45 W965.
 
-**What this page does not claim** No population is given for Glanmire, because the page prints only what named bodies publish about the place. The rainfall figures come from one gauge that closed in 1960, and the page says nothing about flood risk beyond what the scheme itself publishes.
+What this page does not claim
+
+No population is given for Glanmire, because the page prints only what named bodies publish about the place. The rainfall figures come from one gauge that closed in 1960, and the page says nothing about flood risk beyond what the scheme itself publishes.
+
+Learning here
 
 ## Two lessons a week for a Glanmire learner
 
@@ -125,14 +115,37 @@ Grown-ups may start with no background; the first lesson picks the course.
 
 Rainfall is Met Éireann's published daily record for its Glanmire (Northesk) station; the completeness check, averages, standard error, range and years needed are our own calculations from 20 September 2026. Library, college and flood scheme details come from their own websites.
 
+Learning ladder
+
 ## From a wobbling average to a planned study
 
 The bands guide a first choice; lesson one fixes the level.
 
-- **Ages 6 to 10: More rolls, steadier** Block-coded dice games that track the running average of the rolls. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Spread and square roots** Python that measures how far values sit from their average and why square roots appear. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Standard errors** Real rainfall files, completeness checks and the sample size a claim needs. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Small samples at work** Reporting averages from few observations with an honest range beside them. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### More rolls, steadier
+
+Block-coded dice games that track the running average of the rolls.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Spread and square roots
+
+Python that measures how far values sit from their average and why square roots appear.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Standard errors
+
+Real rainfall files, completeness checks and the sample size a claim needs.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Small samples at work
+
+Reporting averages from few observations with an honest range beside them.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## Ask an assistant how much rain falls in Glanmire
 
@@ -144,30 +157,139 @@ The learner who has done this project asks the assistant to count days per year 
 
 A number without its uncertainty is only half a result. Code makes the other half easy to add. The longer argument is in [the lasting value of learning to code, for any age](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How lessons run for Glanmire
 
 The essentials.
 
-- **Teacher-led** Every lesson is live, and the teacher follows and helps with each learner's code as it grows.
-- **By level** Groups of fifteen to twenty at the same level, from Glanmire, the rest of Ireland or abroad.
-- **Two set days** The same two days every week, about eight lessons in a month.
-- **Built around school** The plan steps around Christmas, Easter, summer, mid-terms and exam season.
-- **Set-up at home** A computer with a keyboard, a microphone, headphones or speakers, and internet that can carry a video call without stalling.
-- **Single-learner classes** A teacher for one learner alone, suited to anyone who has overtaken the groups, prefers a gentler pace, or has an awkward timetable.
+### Teacher-led
 
-**Fully remote** Modern Age Coders has no premises in Glanmire or elsewhere in Ireland. Lessons are live on video and the same from any home.
+Every lesson is live, and the teacher follows and helps with each learner's code as it grows.
+
+### By level
+
+Groups of fifteen to twenty at the same level, from Glanmire, the rest of Ireland or abroad.
+
+### Two set days
+
+The same two days every week, about eight lessons in a month.
+
+### Built around school
+
+The plan steps around Christmas, Easter, summer, mid-terms and exam season.
+
+### Set-up at home
+
+A computer with a keyboard, a microphone, headphones or speakers, and internet that can carry a video call without stalling.
+
+### Single-learner classes
+
+A teacher for one learner alone, suited to anyone who has overtaken the groups, prefers a gentler pace, or has an awkward timetable.
+
+Fully remote
+
+Modern Age Coders has no premises in Glanmire or elsewhere in Ireland. Lessons are live on video and the same from any home.
+
+Fees
 
 ## Fees for Glanmire
 
 In a nutshell.
 
-- First class: USD 0. A free first lesson, level check included.
-- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, roughly eight live lessons.
-- Private tuition: USD 150 a month. A month of one-to-one lessons at the same frequency.
+First class**USD 0**
+
+A free first lesson, level check included.
+
+Group tuition**USD 100**
+
+A month in a group of fifteen to twenty at one level, roughly eight live lessons.
+
+Private tuition**USD 150**
+
+A month of one-to-one lessons at the same frequency.
 
 Every family outside India pays one fee in US dollars, charged monthly. The trial lesson carries no strings; the monthly charge begins on the course start date, and our pricing page deals with holiday weeks, sessions a learner misses, and moving between shared and private classes.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Glanmire.)Reviews
+
+## Reviews families posted on Google, unaltered
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free first lesson in Glanmire
+
+Share how old the learner is and what they enjoy, and we will design the opening lesson with that in mind. The hour might close with a small game, a program that works, or an average printed beside its honest margin of error.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Glanmire one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Glanmire.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Glanmire coding class questions
+
+Questions families in Glanmire ask most.
 
 ### Is there a Modern Age Coders centre in Glanmire?
 
@@ -205,10 +327,14 @@ The first lesson is free. After that a group place costs USD 100 a month for abo
 
 Fifteen to twenty learners, matched by level, pace and goals rather than age or address. When no group fits a workable time, lessons are one to one.
 
+Explore Ireland
+
 ## Around Glanmire
 
 Across the city, [Bishopstown](/coding-classes-in-bishopstown-cork) has a project on library opening hours and [Douglas](/coding-classes-in-douglas-cork) one on tide readings. Citywide information sits on the [Cork](/best-coding-class-in-cork) page, and every other place is reached from the [Ireland hub](/coding-classes-in-ireland).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Glanmire.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-glanmire-cork](https://learn.modernagecoders.com/coding-classes-in-glanmire-cork#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-glanmire-cork*

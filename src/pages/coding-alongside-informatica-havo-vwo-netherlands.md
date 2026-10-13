@@ -4,34 +4,28 @@ description: "Coding alongside informatica for havo and vwo pupils in the Nether
 canonical: https://learn.modernagecoders.com/coding-alongside-informatica-havo-vwo-netherlands
 source: src/pages/coding-alongside-informatica-havo-vwo-netherlands.html
 ---
-> Modern Age Coders teaches coding live online to havo and vwo pupils in the Netherlands who take informatica, or who would like to but cannot at their school. The classes run beside the school subject: Python written properly, algorithms and data structures, data and databases, and projects that can support a profielwerkstuk, taught by a specialist teacher in groups of fifteen to twenty at one level or one to one. We do not replace the school's informatica or its assessment. A trial lesson costs nothing. Continuing costs USD 100 a month in a group or USD 150 a month one to one.
+> Coding alongside informatica for havo and vwo pupils in the Netherlands, a subject with one of the largest teacher shortages. Live online, first lesson free.
 
-[Home](/) / [Courses](/courses) / [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands) / Alongside informatica
+In short
 
-Netherlands · Havo and vwo · Live online
+Modern Age Coders teaches coding live online to havo and vwo pupils in the Netherlands who take informatica, or who would like to but cannot at their school. The classes run beside the school subject: Python written properly, algorithms and data structures, data and databases, and projects that can support a profielwerkstuk, taught by a specialist teacher in groups of fifteen to twenty at one level or one to one. We do not replace the school's informatica or its assessment. A trial lesson costs nothing. Continuing costs USD 100 a month in a group or USD 150 a month one to one.
 
-# Coding alongside informatica for havo and vwo
-
-Informatica is a small subject in Dutch secondary schools, and it is hard to staff. In the national measurement of teacher shortages for October 2024, only one subject, NASK, had a larger shortage as a share of its teaching than informatica, at 10.0 percent. Most of that shortage does not show up as empty posts. It is hidden: lessons that go ahead, but not always with a fully qualified informatica teacher. For a pupil who chose informatica because they love programming, or whose school offers it with a teacher stretched thin, that can mean a subject that covers the programme without ever going deep. This page is for those pupils, in havo 4 and 5 and vwo 4 to 6, and for their parents. Our classes sit beside informatica, not instead of it: Python, algorithms, data and projects taught by a specialist, live online and in English, at a pace that fits the school year.
-
-At a glance: For: Havo 4 to 5, vwo 4 to 6; Beside: The school subject informatica; Covers: Python, algorithms, data, databases; Also for: Pupils whose school does not offer it; Format: Live video with a teacher; Groups: Fifteen to twenty, or one to one; Language: English; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three courses that sit well beside informatica
 
 One for programming depth, one for data and databases, and one for the algorithms that informatica touches and university computing assumes. Each opens its own page.
 
-- [Python for Teens](/courses/python-complete-masterclass-teens): Python taught in depth over two years, so a pupil's programming goes beyond what a stretched school timetable allows.
-- [MySQL for Teens](/courses/mysql-mastery-for-teens): Databases and SQL from the first query, a topic informatica pupils meet and often want to go further in.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data): Real data in Python, from cleaning to a first model, a strong base for a profielwerkstuk with a technical side.
+[![Python for Teens course thumbnail](/images/python-teens.webp)  INF / 01 Python for Teens Python taught in depth over two years, so a pupil's programming goes beyond what a stretched school timetable allows. Open the syllabus →](/courses/python-complete-masterclass-teens)[![MySQL for Teens course thumbnail](/images/mysql-teens.webp)  INF / 02 MySQL for Teens Databases and SQL from the first query, a topic informatica pupils meet and often want to go further in. Open the syllabus →](/courses/mysql-mastery-for-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)  INF / 03 Data Science for Teens Real data in Python, from cleaning to a first model, a strong base for a profielwerkstuk with a technical side. Open the syllabus →](/courses/data-science-course-for-teens-python-data)
+
+The shortage
 
 ## Informatica has one of the largest teacher shortages of any secondary subject
 
 The figures below come from the national report "Personeelstekorten voortgezet onderwijs, peildatum 1 oktober 2024", published in December 2024 by Hendri Adriaens, Benjamin Feher, Suzan Elshout and Maartje Elshout for the education ministry's labour market reporting.
 
-**Teacher shortages in vmbo, havo and vwo, reference date 1 October 2024**
-
 | Measure | Figure |
-|---|---|
+| --- | --- |
 | Shortage across all subjects in vmbo, havo and vwo | 4.8 percent |
 | NASK | 10.3 percent, the largest by share |
 | Informatica | 10.0 percent, the second largest by share |
@@ -52,6 +46,8 @@ How many schools offer informatica at all, and how many pupils take it, is set o
 
 Source: [Personeelstekorten voortgezet onderwijs, peildatum 1 oktober 2024 (December 2024)](https://www.rijksoverheid.nl/binaries/rijksoverheid/documenten/rapporten/2024/12/17/rapporten-bij-trendrapportage-arbeidsmarkt-leraren-po-vo-en-mbo-2024/Personeelstekorten+voortgezet+onderwijs+2024.pdf), summary and tables 4, 20, 21 and 22. Read 15 September 2026; figures quoted as published. The report is in Dutch.
 
+Beside the subject
+
 ## What classes beside informatica can do, and what they should not try to do
 
 Outside classes cannot fix a staffing shortage, and they should not compete with the school. They can add depth where a pupil wants it and a specialist where a school cannot always provide one.
@@ -68,10 +64,8 @@ Every havo and vwo pupil writes a profielwerkstuk. A pupil with a technical topi
 
 For a pupil whose school does not offer informatica, or cannot run it this year, our classes cover the programming, data and algorithms a future technical student will need. They do not give school credit, but they give real ability.
 
-**Topics informatica pupils often want to take further**
-
 | Topic | What we add | Course |
-|---|---|---|
+| --- | --- | --- |
 | Programming | Depth, larger programs, debugging on their own | Python for Teens |
 | Databases | SQL, design, queries on real data | MySQL for Teens |
 | Algorithms | Searching, sorting and their cost, reasoned out | AI and Machine Learning for Teens, then data structures |
@@ -88,6 +82,8 @@ In both cases our teacher asks what the school is covering this term and fits th
 
 This section is our teaching plan. It makes no claim about any school's informatica provision and does not replace the school's programme or assessment.
 
+Beyond school
+
 ## From informatica to a technical degree
 
 Many informatica pupils are heading for computing, AI or engineering at university. The step up is large, and preparation shows.
@@ -100,14 +96,14 @@ The wider teenage route, including pupils not taking informatica, is on [coding 
 
 Projects that could support a profielwerkstuk are described on [building real AI projects](/build-real-ai-projects-netherlands).
 
+The ladder
+
 ## The upper-school route, beside informatica
 
 The rungs follow the bovenbouw years. A pupil can join at any point; the free lesson decides where.
 
-**Coding beside informatica, havo 4 to vwo 6**
-
 | Rung | Usually | What the pupil builds |
-|---|---|---|
+| --- | --- | --- |
 | 1. Python in depth | Havo 4, vwo 4 | Larger programs written and debugged without help |
 | 2. Data and databases | Havo 4 to 5, vwo 4 to 5 | SQL queries and data analyses on real datasets |
 | 3. Algorithms | Vwo 5, havo 5 | Searching and sorting with their costs understood |
@@ -117,62 +113,285 @@ The rungs follow the bovenbouw years. A pupil can join at any point; the free le
 ### Why depth before breadth
 
 Informatica is broad by design. Pupils who want to become strong programmers need one area, usually programming itself, taken deep. Everything else becomes easier after that.
+
 Our [coding roadmap](/coding-roadmap) shows how the programming, data and algorithms rungs connect to everything that follows them.
 
 ### Around toetsweken and the eindexamen
 
 Lessons usually pause during school test weeks and ease off in the exam year. The profielwerkstuk year is often the busiest, and one-to-one lessons fit it best.
+
 Pupils at international schools join the same route by ability.
+
+The catalogue
 
 ## Eight live courses for upper-school pupils
 
 Grouped by what informatica pupils most often want more of. A card leads to the full syllabus and timetable, and the trial lesson settles the starting point.
 
+I
+
 ### Programming
 
 Depth beyond the school programme
 
-- [Python for Teens](/courses/python-complete-masterclass-teens): Two years of Python, from variables to classes and files, with no topic rushed.
-- [Java for Teens](/courses/java-programming-masterclass-for-teens): A second, stricter language, useful for pupils heading into computing degrees.
-- [Git and GitHub for Teens](/courses/git-github-version-control-course-for-teens): Version control and a public portfolio, from the first commit.
+INF / PROG / 01
+
+#### Python for Teens
+
+Two years of Python, from variables to classes and files, with no topic rushed.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+INF / PROG / 02
+
+#### Java for Teens
+
+A second, stricter language, useful for pupils heading into computing degrees.
+
+[Open the syllabus](/courses/java-programming-masterclass-for-teens)
+
+INF / PROG / 03
+
+#### Git and GitHub for Teens
+
+Version control and a public portfolio, from the first commit.
+
+[Open the syllabus](/courses/git-github-version-control-course-for-teens)II
 
 ### Data and databases
 
 Topics informatica pupils want to take further
 
-- [MySQL for Teens](/courses/mysql-mastery-for-teens): SQL and database design on real data.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data): Data in Python from cleaning to a first model.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens): Models trained and tested properly, for pupils drawn to AI.
+INF / DATA / 01
+
+#### MySQL for Teens
+
+SQL and database design on real data.
+
+[Open the syllabus](/courses/mysql-mastery-for-teens)
+
+INF / DATA / 02
+
+#### Data Science for Teens
+
+Data in Python from cleaning to a first model.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)
+
+INF / DATA / 03
+
+#### AI and Machine Learning for Teens
+
+Models trained and tested properly, for pupils drawn to AI.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)III
 
 ### Building
 
 Projects and the web
 
-- [Full Stack Web Development for Teens](/courses/full-stack-web-development-teens-masterclass): A working website with its own front end, back end and data.
-- [App Development for Teens](/courses/complete-app-development-masterclass-for-teens): A real app, often a pupil's first public project.
+INF / BUILD / 01
+
+#### Full Stack Web Development for Teens
+
+A working website with its own front end, back end and data.
+
+[Open the syllabus](/courses/full-stack-web-development-teens-masterclass)
+
+INF / BUILD / 02
+
+#### App Development for Teens
+
+A real app, often a pupil's first public project.
+
+[Open the syllabus](/courses/complete-app-development-masterclass-for-teens)
+
+How the classes run
 
 ## After school, beside the timetable
 
 Teachers work from India, where the clock stays the same all year, while the Netherlands switches between winter and summer time. That gives a gap of four and a half hours in winter and three and a half in summer, so upper-school pupils usually learn in the late afternoon, early evening or at the weekend. The regular slot is agreed with the family in the free lesson.
 
-- **After school** Late afternoon, Dutch time, the usual choice.
-- **Early evening** By arrangement, for pupils with afternoon sport or work.
-- **Weekend** Saturday or Sunday, useful in the profielwerkstuk year.
+After school
 
-- **A free first lesson** The pupil writes code with a specialist teacher, who sees how far they are beyond, or behind, the school programme.
-- **Groups of fifteen to twenty** Pupils at the same level from several countries, many of them also taking a school computing subject.
-- **One to one for projects** For a profielwerkstuk, an exam year or a pupil who prefers a teacher to themselves.
-- **Families in the loop** Nothing is arranged without a parent on the call, and parents hear what the pupil is building as the months go by.
-- **In English, with Dutch school terms** Lessons are in English; informatica, profielwerkstuk and toetsweek are used as pupils use them.
-- **Work kept** Every program goes into the pupil's own GitHub repository, ready for applications.
+Late afternoon, Dutch time, the usual choice.
+
+Early evening
+
+By arrangement, for pupils with afternoon sport or work.
+
+Weekend
+
+Saturday or Sunday, useful in the profielwerkstuk year.
+
+### A free first lesson
+
+The pupil writes code with a specialist teacher, who sees how far they are beyond, or behind, the school programme.
+
+### Groups of fifteen to twenty
+
+Pupils at the same level from several countries, many of them also taking a school computing subject.
+
+### One to one for projects
+
+For a profielwerkstuk, an exam year or a pupil who prefers a teacher to themselves.
+
+### Families in the loop
+
+Nothing is arranged without a parent on the call, and parents hear what the pupil is building as the months go by.
+
+### In English, with Dutch school terms
+
+Lessons are in English; informatica, profielwerkstuk and toetsweek are used as pupils use them.
+
+### Work kept
+
+Every program goes into the pupil's own GitHub repository, ready for applications.
+
+Student work
+
+## Projects our students built
+
+Four live projects by our students. More on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Charged each month in US dollars, at one rate for every country outside India. There is nothing to pay to register and no year-long commitment.
 
-- Free first class: USD 0. A real lesson with a specialist. Places the pupil at the right rung. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty pupils at one level. The same live teacher each week. Code reviewed every week. A certificate at the end.
-- One to one: USD 150 a month. A teacher for one pupil. Paced to the school year. Best for the profielwerkstuk year.
+Free first class
+
+USD 0
+
+no card required
+
+- A real lesson with a specialist
+- Places the pupil at the right rung
+- No card needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty pupils at one level
+- The same live teacher each week
+- Code reviewed every week
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one pupil
+- Paced to the school year
+- Best for the profielwerkstuk year
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+From Google, word for word. We do not write or pay for reviews.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions from pupils and parents
 
 ## What informatica pupils and their parents ask
 
@@ -220,15 +439,54 @@ After school, in the early evening or at the weekend, Dutch time. The teacher is
 
 A member of our team rings the parent back, at a time that suits a Dutch evening, and fixes the trial lesson. You pay nothing unless the pupil carries on afterwards.
 
+Elsewhere on this site
+
 ## More for upper-school pupils
 
-- [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands): How many schools offer informatica, and how many pupils take it.
-- [Coding classes for teens](/coding-classes-for-teens-netherlands): The wider teenage route.
-- [Machine learning for school students](/machine-learning-for-school-students-netherlands): For pupils drawn to AI.
-- [Python classes in the Netherlands](/python-classes-netherlands): The language most pupils start with.
-- [AI and Python Academy, Groningen](/ai-and-python-academy-groningen): What a university AI first year asks.
-- [Build real AI projects](/build-real-ai-projects-netherlands): Projects on real Dutch data.
+Pages for the wider route and for what comes after school.
 
-## Contact
+### [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands)
 
-Book the free first class at [https://learn.modernagecoders.com/coding-alongside-informatica-havo-vwo-netherlands](https://learn.modernagecoders.com/coding-alongside-informatica-havo-vwo-netherlands#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+How many schools offer informatica, and how many pupils take it.
+
+### [Coding classes for teens](/coding-classes-for-teens-netherlands)
+
+The wider teenage route.
+
+### [Machine learning for school students](/machine-learning-for-school-students-netherlands)
+
+For pupils drawn to AI.
+
+### [Python classes in the Netherlands](/python-classes-netherlands)
+
+The language most pupils start with.
+
+### [AI and Python Academy, Groningen](/ai-and-python-academy-groningen)
+
+What a university AI first year asks.
+
+### [Build real AI projects](/build-real-ai-projects-netherlands)
+
+Projects on real Dutch data.
+
+Start here
+
+## Book a free lesson beside informatica
+
+Give us a parent's phone number and we ring back when it suits a Dutch household. During the trial lesson the pupil writes real code with a specialist, which shows exactly which rung to begin on.
+
+Prefer to look around before calling? Our [teaching method](/how-we-teach), the full [list of courses](/courses) and the [roadmap of subjects](/coding-roadmap) are all open to read.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20havo%20or%20vwo%20pupil%20who%20takes%20informatica.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp from a Dutch phone is free and usually quickest. The number is Indian; we have no office or premises in the Netherlands.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-alongside-informatica-havo-vwo-netherlands*

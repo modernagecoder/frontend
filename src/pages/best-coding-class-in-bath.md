@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths lessons for Bath learners
 canonical: https://learn.modernagecoders.com/best-coding-class-in-bath
 source: src/pages/best-coding-class-in-bath.html
 ---
-> Bath and North East Somerset had 193,409 usual residents at the 2021 census, and 25.2% of those aged five and over were students, against 20.4% in England. The city's World Heritage office says Bath was inscribed as a World Heritage Site in 1987 and again in 2021 as one of the Great Spa Towns of Europe. We teach Bath learners aged six to sixty-seven from India over live video, in a group of fifteen to twenty at the same level or one to one, at times that suit the UK day. The first lesson is free, and after that a group place is USD 100 a month and private lessons USD 150.
+> Live online coding, Python, AI and maths lessons for Bath learners aged 6 to 67, from Oldfield Park and Widcombe to Keynsham. The first lesson is on us.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Bath
-
-Bath, Somerset / Live online
-
-# Coding classes in Bath
-
-**What are the best coding classes in Bath?** Bath and North East Somerset had 193,409 usual residents at the 2021 census, and 25.2% of those aged five and over were students, against 20.4% in England. The city's World Heritage office says Bath was inscribed as a World Heritage Site in 1987 and again in 2021 as one of the Great Spa Towns of Europe. We teach Bath learners aged six to sixty-seven from India over live video, in a group of fifteen to twenty at the same level or one to one, at times that suit the UK day. The first lesson is free, and after that a group place is USD 100 a month and private lessons USD 150.
-
-Jane Austen set parts of two novels in Bath: Northanger Abbey names the city 83 times and Persuasion 99. Do they sound alike? Our teenagers turn each of six Austen novels into a vector of word counts and measure the angle between them, cosine similarity. With raw counts, every pair scores above 0.97, because "the" and "and" swamp everything. With TF-IDF, which weights words by how rare they are, every pair falls below 0.05, because character names dominate. Only when names are removed do themes appear: the Bath pair rises to fourth of fifteen, joined by "pump", "concert" and "buildings", and Persuasion's nearest neighbour becomes Mansfield Park, through its sailors and navy.
-
-Facts last verified 23 September 2026. Teaching is online; no Bath branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Bath
 
 ## Four courses for the spa city
 
 Pick the course closest to what the learner already loves. A free live lesson opens each one, and booking it never needs payment details.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 12): Block programming for younger children, a first step towards programs that count words and compare stories.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Python from first lines to complete projects, enough to read whole novels from files and count every word in them.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 18): Machine learning for teenagers, where turning text into vectors is the first step towards search and language models.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (University and adult): Python for adults who handle documents, from finding near-duplicate files to grouping similar reports.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 12Scratch Coding for KidsBlock programming for younger children, a first step towards programs that count words and compare stories.See the syllabus](/courses/scratch-programming-complete-course)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensPython from first lines to complete projects, enough to read whole novels from files and count every word in them.See the syllabus](/courses/python-complete-masterclass-teens)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 18AI and Machine Learning for TeensMachine learning for teenagers, where turning text into vectors is the first step towards search and language models.See the syllabus](/courses/ai-ml-masterclass-teens)[![Python Automation Course course thumbnail](/images/python-college.webp)University and adultPython Automation CoursePython for adults who handle documents, from finding near-duplicate files to grouping similar reports.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Bath today
 
 ## A student city inside a wider district
 
 Census 2021 figures for Bath and North East Somerset, which includes Keynsham, Midsomer Norton and Radstock as well as Bath, and for two middle-layer areas of the city named by the House of Commons Library, from the Office for National Statistics on Nomis.
 
-**Bath and North East Somerset and two Bath areas, Census 2021**
-
 | Area | Usual residents | Students among those aged 5 and over | Residents per square kilometre |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Bath and North East Somerset | 193,409 | 25.2% | 559.2 |
 | Central Bath and Lansdown | 10,998 | 25.2% | 2,928.0 |
 | Oldfield Park East | 5,979 | 42.3% | 6,215.8 |
@@ -63,6 +49,8 @@ District-wide, 185,438 people lived in households and 7,971 in communal establis
 
 Our Bath classes bring that mix together. A Year 3 child in Combe Down might be building a first game, a Year 13 student in Widcombe finishing an A level project, and an adult in Keynsham learning Python for their job, each in a small group at the right level.
 
+Roman and Georgian
+
 ## Twice a World Heritage Site
 
 From the council's World Heritage and Roman Baths websites, and Historic England's open listing data.
@@ -81,16 +69,18 @@ The Roman Baths calls the gilt bronze head of the goddess Sulis Minerva one of t
 
 Historic England lists the Grand Pump Room, the Assembly Rooms, the thirty houses of the Royal Crescent and Bath Abbey at Grade I. The Pump Room turns up in our project too: "pump" is the most distinctive word in Northanger Abbey once names are removed, almost all of it from the novel's 23 mentions of the pump-room, and one of the words it shares with Persuasion. We have no connection with Bath and North East Somerset Council, the Roman Baths, Historic England or Project Gutenberg.
 
-**Where the novels come from** Project Gutenberg publishes all six novels as free plain text. They were transcribed by different volunteers from different printed editions, which, as the project found, matters more than you might expect.
+Where the novels come from
+
+Project Gutenberg publishes all six novels as free plain text. They were transcribed by different volunteers from different printed editions, which, as the project found, matters more than you might expect.
+
+Signature project
 
 ## Do Austen's two Bath novels sound alike?
 
 Turn each novel into a list of word counts, treat the list as an arrow in a space with one direction per word, and measure the angle between two arrows. A cosine of 1 means the same direction; 0 means nothing in common.
 
-**Cosine similarity between six Austen novels (15 pairs), spellings normalised, under four ways of counting words**
-
 | How words are counted | Closest pair | Northanger Abbey and Persuasion |
-|---|---|---|
+| --- | --- | --- |
 | Raw counts of every word | Northanger Abbey and Mansfield Park, 0.985 | 0.977, 11th of 15 |
 | 100 most common words removed | Northanger Abbey and Pride and Prejudice, 0.648 | 0.596, 12th of 15 |
 | TF-IDF weighting | Northanger Abbey and Pride and Prejudice, 0.046 | 0.003, 7th of 15 |
@@ -114,14 +104,14 @@ Our first run put Persuasion and Mansfield Park far ahead at 0.156, with "shewn"
 
 The two Bath novels never become the closest pair. Their strongest shared words, pump, concert and buildings, are Bath life itself, and the city's name appears 83 times in Northanger Abbey and 99 in Persuasion, 76 of them in its second half, chapters 13 to 24. Setting alone does not make two books similar; the plots, the characters and even the spelling of the edition pull harder.
 
+Text as vectors
+
 ## Five decisions before comparing any two documents
 
 Learned on Austen, then used in search engines, plagiarism checks, recommendation systems and the embeddings behind modern AI tools.
 
-**Choices that decide what "similar" means**
-
 | Decision | For the six novels | What goes wrong if you skip it |
-|---|---|---|
+| --- | --- | --- |
 | What is in the file? | Gutenberg front and back matter removed | Licence text counted as Austen |
 | Are the spellings consistent? | shew, connexion, every thing normalised | Editors' habits read as the author's |
 | Which words carry meaning? | Most common words removed or down-weighted | Every book looks the same |
@@ -144,14 +134,37 @@ Comparing documents at work, from duplicate reports to similar enquiries, with e
 
 We have no connection with Bath and North East Somerset Council, the Roman Baths, Historic England or Project Gutenberg. The novels are in the public domain and the census and listing data are open; the vectors, similarities and word lists on this page are our own work.
 
+Learning ladder
+
 ## From counting words to cosine similarity
 
 The age bands give a rough idea; the free lesson finds the right starting level.
 
-- **Ages 6 to 10: Words and stories** Counting words in two short stories and deciding, with reasons, which stories are most alike. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 11 to 13: Counts in code** Counting every word in a chapter with a Python dictionary and listing the most common ones. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Vectors and angles** Word vectors, TF-IDF and cosine similarity on whole novels, with each cleaning choice tested. [Python for Teens](/courses/python-complete-masterclass-teens), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **Ages 18 to 67: Documents at work** Finding similar and duplicate documents in real collections, with the rules behind every match explained. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data Science Course](/courses/data-science-complete-masterclass-college)
+Ages 6 to 10
+
+### Words and stories
+
+Counting words in two short stories and deciding, with reasons, which stories are most alike.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 11 to 13
+
+### Counts in code
+
+Counting every word in a chapter with a Python dictionary and listing the most common ones.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Vectors and angles
+
+Word vectors, TF-IDF and cosine similarity on whole novels, with each cleaning choice tested.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)Ages 18 to 67
+
+### Documents at work
+
+Finding similar and duplicate documents in real collections, with the rules behind every match explained.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data Science Course](/courses/data-science-complete-masterclass-college)Coding and AI
 
 ## AI tools compare text with embeddings. Why should a Bath teenager count Austen's words by hand?
 
@@ -163,30 +176,139 @@ The name problem is just as real in AI. Systems that match documents often latch
 
 So a Bath teenager should still learn to program in 2026, in the city of the pump-room Austen wrote about: machines can compare millions of documents, but someone has to ask what the similarity is really measuring. The longer argument is in [why coding is worth learning in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Oldfield Park, Weston or Keynsham, right at home
 
 The district runs from the city's terraces out to Keynsham, Midsomer Norton and Radstock. Online, every one of them is next to the lesson.
 
-- **City and valleys** A learner in Twerton and another in Radstock can share a class without a drive into the centre or a hunt for parking.
-- **English school stages** We teach to the stages used in Bath schools, from Reception and Key Stages 1 to 4 through GCSE and A level, entirely in English.
-- **A proper first lesson** The free session is a full lesson on a real task and finishes with a recommended level, course and weekly time. We never take card details.
-- **Groups by stage** Fifteen to twenty learners at the same level, from Bath, the rest of the UK and abroad, which keeps sensible times available for every stage.
-- **Twice every week** Two regular lessons a week, about eight a month, with holidays and exam weeks agreed with the teacher well in advance.
-- **Evening in Bath, night in India** A 5 pm lesson in Bath starts at 9.30 pm in India while British Summer Time runs and 10.30 pm in winter, since India has one time all year; our teachers work late for UK families.
+### City and valleys
 
-**Around Bath and Bristol** Families in Bristol, Chippenham, Frome or Trowbridge join exactly the same classes, because every group is online and set by level.
+A learner in Twerton and another in Radstock can share a class without a drive into the centre or a hunt for parking.
+
+### English school stages
+
+We teach to the stages used in Bath schools, from Reception and Key Stages 1 to 4 through GCSE and A level, entirely in English.
+
+### A proper first lesson
+
+The free session is a full lesson on a real task and finishes with a recommended level, course and weekly time. We never take card details.
+
+### Groups by stage
+
+Fifteen to twenty learners at the same level, from Bath, the rest of the UK and abroad, which keeps sensible times available for every stage.
+
+### Twice every week
+
+Two regular lessons a week, about eight a month, with holidays and exam weeks agreed with the teacher well in advance.
+
+### Evening in Bath, night in India
+
+A 5 pm lesson in Bath starts at 9.30 pm in India while British Summer Time runs and 10.30 pm in winter, since India has one time all year; our teachers work late for UK families.
+
+Around Bath and Bristol
+
+Families in Bristol, Chippenham, Frome or Trowbridge join exactly the same classes, because every group is online and set by level.
+
+Fees
 
 ## Bath lesson fees
 
 A free first lesson, then a single monthly fee.
 
-- First class: USD 0. A full lesson at no cost, finishing with our advice on level, course and a weekly time.
-- Group tuition: USD 100 a month. About eight live lessons a month in a group of fifteen to twenty learners at one stage.
-- Private tuition: USD 150 a month. About eight live lessons a month, with the teacher attending to your learner alone.
+First class**USD 0**
+
+A full lesson at no cost, finishing with our advice on level, course and a weekly time.
+
+Group tuition**USD 100**
+
+About eight live lessons a month in a group of fifteen to twenty learners at one stage.
+
+Private tuition**USD 150**
+
+About eight live lessons a month, with the teacher attending to your learner alone.
 
 A Lansdown family pays in US dollars like every family outside India, and there are no pound prices anywhere on the site. The free lesson always comes first, with billing only after a course and a weekly time are agreed; the pricing page sets out pausing, missed lessons and changing between a group and private teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Bath%2C%20please.)Reviews
+
+## Six family reviews from Google, just as written
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson for a Bath learner
+
+The first task depends on the learner: a word-counting game with two short stories for a young child, a Python program that counts the words in a chapter for a beginner, or six Austen novels and cosine similarity for a teenager ready for real text.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Bath one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Bath%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Bath coding class questions
+
+What Bath families ask us most often.
 
 ### How many people live in Bath and North East Somerset?
 
@@ -228,10 +350,14 @@ The first lesson is free. After it, a group place is USD 100 a month for two liv
 
 By level, pace and goals rather than age or where they live, with fifteen to twenty learners at one stage in each group. If no group fits the learner's week, we offer one-to-one lessons.
 
+Explore England and the UK
+
 ## The West Country and beyond
 
 Down the road, the [Bristol page](/best-coding-class-in-bristol) draws a Voronoi diagram showing which library is nearest to each part of the city, and in [Canterbury](/best-coding-class-in-canterbury) learners count the words in Chaucer and find the answer depends on what a word is. [York](/best-coding-class-in-york) measures how surprising its street names are. The [England guide](/coding-and-ai-classes-in-england) explains school stages, and the [UK coding page](/coding-classes-in-united-kingdom) links every other city.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Bath%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-bath](https://learn.modernagecoders.com/best-coding-class-in-bath#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-bath*

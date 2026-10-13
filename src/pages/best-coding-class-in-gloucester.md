@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths lessons for Gloucester le
 canonical: https://learn.modernagecoders.com/best-coding-class-in-gloucester
 source: src/pages/best-coding-class-in-gloucester.html
 ---
-> The 2021 census counted 132,416 usual residents in Gloucester, and children aged five to nine made up 6.3% of them, against 5.9% in England. Gloucester Cathedral says its site has seen continuous Christian worship since 678 to 679 AD, and that its Great Cloister holds the earliest known fan vaulting in the world. Anyone in Gloucester aged between six and sixty-seven can have a live video lesson with one of our India-based teachers, either alone or with fifteen to twenty classmates at the same stage, timed for UK after-school and evening hours. The first lesson is free, and after that a group place is USD 100 a month and private teaching USD 150.
+> Live online coding, Python, AI and maths lessons for Gloucester learners aged 6 to 67, from Kingsholm and Hucclecote to Quedgeley. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Gloucester
-
-Gloucester, Gloucestershire / Live online
-
-# Coding classes in Gloucester
-
-**What are the best coding classes in Gloucester?** The 2021 census counted 132,416 usual residents in Gloucester, and children aged five to nine made up 6.3% of them, against 5.9% in England. Gloucester Cathedral says its site has seen continuous Christian worship since 678 to 679 AD, and that its Great Cloister holds the earliest known fan vaulting in the world. Anyone in Gloucester aged between six and sixty-seven can have a live video lesson with one of our India-based teachers, either alone or with fifteen to twenty classmates at the same stage, timed for UK after-school and evening hours. The first lesson is free, and after that a group place is USD 100 a month and private teaching USD 150.
-
-Environment Agency gauges measure the River Severn every few minutes at Sharpness, Epney, Minsterworth and Gloucester. At Sharpness the tide rises and falls by several metres twice a day. Does each tide reach Gloucester, and when? Line the two records up with one fixed delay and even the closest choice, 150 minutes, still leaves them badly out of step. Dynamic time warping lets the delay stretch and shrink, and the match improves sharply. Look closer, though, and in four weeks only 16 of 54 tides lifted Gloucester by 30 centimetres or more; the rest barely register. The flexible method was also bending itself to match river wiggles that were not the tide at all. Our teenagers learn both lessons.
-
-Facts last verified 23 September 2026. Teaching is online; no Gloucester branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Gloucester
 
 ## Four courses for the city on the Severn
 
 Pick the course that fits what the learner enjoys. Every one opens with a free live lesson, and there is no card to enter.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Block coding for young learners, with timing puzzles where two things must happen in step.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 18): Real sensor records in Python, from putting readings on a common clock to comparing and aligning them.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 18): Machine learning for teenagers, where comparing sequences such as speech and movement uses the same ideas as this page.
-- [Data Science Course](/courses/data-science-complete-masterclass-college) (University and adult): Data science for adults, including time series, similarity measures and knowing when a match is meaningful.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlock coding for young learners, with timing puzzles where two things must happen in step.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 18Data Science for TeensReal sensor records in Python, from putting readings on a common clock to comparing and aligning them.See the syllabus](/courses/data-science-course-for-teens-python-data)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 18AI and Machine Learning for TeensMachine learning for teenagers, where comparing sequences such as speech and movement uses the same ideas as this page.See the syllabus](/courses/ai-ml-masterclass-teens)[![Data Science Course course thumbnail](/images/data-science-college.webp)University and adultData Science CourseData science for adults, including time series, similarity measures and knowing when a match is meaningful.See the syllabus](/courses/data-science-complete-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Gloucester today
 
 ## A compact city of young families
 
 Census 2021 figures for Gloucester, from the Office for National Statistics via Nomis, set beside England.
 
-**Gloucester, Census 2021**
-
 | Measure | Gloucester | England |
-|---|---|---|
+| --- | --- | --- |
 | Usual residents | 132,416 | 56,490,048 |
 | Living in households | 130,621 | Not compared |
 | Aged 5 to 9 | 8,331 (6.3%) | 5.9% |
@@ -66,6 +52,8 @@ At 3,266.6 residents per square kilometre, the council area holds the city itsel
 
 Our Gloucester learners reflect that mix of families. A Year 2 child in Kingsholm might be making first steps in code, a Year 10 student in Tuffley preparing for GCSE Computer Science, and a parent in Quedgeley learning Python for work, each in a group at the same level.
 
+Thirteen centuries on one site
+
 ## A cathedral with the world's earliest known fan vaulting
 
 From Gloucester Cathedral's own heritage pages.
@@ -84,16 +72,18 @@ The Cathedral counts the tomb of a king among the things visitors come to discov
 
 We have no connection with Gloucester Cathedral. Fan vaulting opens this page because it is pattern made precise: the same curved shape repeated and fitted together until the whole ceiling reads as one design. The project below is about fitting patterns too, deciding when the rise of the river at Sharpness and the rise at Gloucester are really the same event seen twice.
 
-**Where the river readings come from** The Environment Agency's flood-monitoring service publishes recent river levels for its gauges, every five minutes at Sharpness and every fifteen at Epney, Minsterworth and Gloucester, as heights on each gauge's own scale.
+Where the river readings come from
+
+The Environment Agency's flood-monitoring service publishes recent river levels for its gauges, every five minutes at Sharpness and every fifteen at Epney, Minsterworth and Gloucester, as heights on each gauge's own scale.
+
+Signature project
 
 ## Following the tide from Sharpness to Gloucester
 
 Dynamic time warping aligns two sequences by letting one run faster or slower than the other, finding the stretching that makes them match most closely.
 
-**River Severn gauges, 25 August to 23 September 2026, compared with the Sharpness record**
-
 | Question | Answer | Detail |
-|---|---|---|
+| --- | --- | --- |
 | High tides seen at Sharpness | 54 | Two a day for four weeks |
 | Tides that lifted Gloucester by 0.3 m or more | 16 | Smallest such Sharpness tide 7.57 m |
 | A bigger tide that did not | 7.76 m | The threshold is not a sharp line |
@@ -119,14 +109,14 @@ Warping cut the gap to 0.547, which looks like a clear win. But in four weeks, 3
 
 For the tides that clearly arrived, the story is consistent. The largest, 9.69 metres on the Sharpness gauge at 20:45 GMT on 12 September, lifted Gloucester by 1.65 metres about two hours later. Across all 54 tides, the height at Sharpness and the rise at Gloucester correlate at 0.79, but the dividing line is fuzzy: a 7.57-metre tide got through while a 7.76-metre one did not, so the height at Sharpness is clearly not the only thing that matters on the day.
 
+Matching sequences
+
 ## Five questions before trusting an alignment
 
 Learned on a tidal river, then used on speech recognition, handwriting, step counts in sports watches, gestures, music and sensor streams from machines.
 
-**Using dynamic time warping without fooling yourself**
-
 | Question | For the Severn gauges | What it prevents |
-|---|---|---|
+| --- | --- | --- |
 | Are the clocks the same? | All readings moved onto one 15-minute grid in UTC | Comparing a reading with the wrong moment |
 | How much stretch is allowed? | A band of four hours | Pairing a tide with the next day's |
 | Is the event present in both? | Only 16 of 54 tides clearly reach Gloucester | Aligning a signal with noise |
@@ -149,14 +139,37 @@ Comparing time series at work, from machine sensors to sales, with the alignment
 
 We have no connection with the Environment Agency, Gloucester Cathedral or Gloucester City Council. The gauge readings and census tables are published openly; the alignments, rises and comparisons shown are our own calculations and make no flood forecast.
 
+Learning ladder
+
 ## From clapping in time to dynamic time warping
 
 The age bands are a rough starting point, and the free lesson settles the right level.
 
-- **Ages 6 to 10: Keeping in step** Rhythms, timing and patterns that repeat, and spotting when two of them drift apart. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Mental Maths for Kids](/courses/mental-maths-mastery-kids)
-- **Ages 11 to 13: Time in code** Storing readings with their times, drawing them as lines, and shifting one line to match another. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Aligning sequences** Fixed lags, dynamic programming tables and dynamic time warping on real river data, with bands and baselines. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)
-- **Ages 18 to 67: Time series at work** Similarity, alignment and event detection in sensor and business data, with the traps explained. [Data Science Course](/courses/data-science-complete-masterclass-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### Keeping in step
+
+Rhythms, timing and patterns that repeat, and spotting when two of them drift apart.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Mental Maths for Kids](/courses/mental-maths-mastery-kids)Ages 11 to 13
+
+### Time in code
+
+Storing readings with their times, drawing them as lines, and shifting one line to match another.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Aligning sequences
+
+Fixed lags, dynamic programming tables and dynamic time warping on real river data, with bands and baselines.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)Ages 18 to 67
+
+### Time series at work
+
+Similarity, alignment and event detection in sensor and business data, with the traps explained.
+
+[Data Science Course](/courses/data-science-complete-masterclass-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## AI tools match patterns automatically. Why should a Gloucester teenager learn how alignment works?
 
@@ -168,30 +181,139 @@ Sequence alignment runs through AI: recognising speech, reading handwriting, com
 
 So a Gloucester teenager should still learn to program in 2026, in a city whose cloister first made fan vaulting fit together: the algorithm finds a fit, but deciding whether the fit is true is still up to us. The longer argument is in [why coding is worth learning in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Kingsholm, Barnwood or Quedgeley, from home
 
 From Longlevens to Quedgeley, a school-run crossing of Gloucester takes time. A live online lesson takes none.
 
-- **North to south of the city** A learner in Longlevens and another in Abbeymead can join the same lesson without anyone driving across town.
-- **Stages from Reception on** We use the stages Gloucester schools use, Reception and Key Stages 1 to 4 through to GCSE and A level, and we teach in English.
-- **A free lesson worth the time** The first session is real teaching and ends with a suggested level, course and weekly time. Nobody asks for card details.
-- **Groups of fifteen to twenty** Everyone in a group is at the same stage, drawn from Gloucester, the rest of the UK and abroad, so each level has a workable hour.
-- **A twice-weekly habit** Two fixed lessons each week, about eight a month, with school holidays and exams planned with the teacher in advance.
-- **Teachers on Indian time** A 4 pm class in Gloucester begins at 8.30 pm in India in British Summer Time and 9.30 pm in winter, because India never changes its clocks; our teachers work those evenings for UK learners.
+### North to south of the city
 
-**Across Gloucestershire** Families in Cheltenham, Stroud, Tewkesbury or the Forest of Dean join exactly the same classes, as lessons are online and groups form by level.
+A learner in Longlevens and another in Abbeymead can join the same lesson without anyone driving across town.
+
+### Stages from Reception on
+
+We use the stages Gloucester schools use, Reception and Key Stages 1 to 4 through to GCSE and A level, and we teach in English.
+
+### A free lesson worth the time
+
+The first session is real teaching and ends with a suggested level, course and weekly time. Nobody asks for card details.
+
+### Groups of fifteen to twenty
+
+Everyone in a group is at the same stage, drawn from Gloucester, the rest of the UK and abroad, so each level has a workable hour.
+
+### A twice-weekly habit
+
+Two fixed lessons each week, about eight a month, with school holidays and exams planned with the teacher in advance.
+
+### Teachers on Indian time
+
+A 4 pm class in Gloucester begins at 8.30 pm in India in British Summer Time and 9.30 pm in winter, because India never changes its clocks; our teachers work those evenings for UK learners.
+
+Across Gloucestershire
+
+Families in Cheltenham, Stroud, Tewkesbury or the Forest of Dean join exactly the same classes, as lessons are online and groups form by level.
+
+Fees
 
 ## Gloucester lesson fees
 
 One free lesson, then a single monthly fee.
 
-- First class: USD 0. A full lesson at no charge, finishing with a recommended level, course and weekly slot.
-- Group tuition: USD 100 a month. About eight live lessons a month in a group of fifteen to twenty learners at one stage.
-- Private tuition: USD 150 a month. About eight live lessons a month, just the teacher and your learner.
+First class**USD 0**
+
+A full lesson at no charge, finishing with a recommended level, course and weekly slot.
+
+Group tuition**USD 100**
+
+About eight live lessons a month in a group of fifteen to twenty learners at one stage.
+
+Private tuition**USD 150**
+
+About eight live lessons a month, just the teacher and your learner.
 
 Matson and Hempsted pay the same as any other family outside India, one fee in US dollars, and you will find no pound prices on our site. You are billed only after the free lesson, once a course and a time are agreed; pausing, missed lessons and switching between group and one-to-one lessons are explained on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Gloucester.)Reviews
+
+## Google reviews from six families, reproduced faithfully
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson for a Gloucester learner
+
+We set the first task by level: a clapping-in-time pattern game for a young child, a short Python program that lines up two lists for a beginner, or the Severn gauge records and dynamic time warping for a teenager ready for real data.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Gloucester one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Gloucester.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Gloucester coding class questions
+
+The questions Gloucester families ask us most.
 
 ### How many people live in Gloucester?
 
@@ -233,10 +355,14 @@ The first lesson is free. After it, a group place is USD 100 a month for two liv
 
 By level, pace and goals rather than age or address, with fifteen to twenty learners at one stage. If no group suits the learner's week, we offer one-to-one lessons.
 
+Explore England and the UK
+
 ## The Severn and beyond
 
 Down the Severn, the [Bristol page](/best-coding-class-in-bristol) divides its city into library catchments, and across the estuary [Newport](/best-coding-class-in-newport-wales) measures what scrapping the Severn tolls did to traffic. [Exeter](/best-coding-class-in-exeter) sorts a whole river network into flow order. School stages are explained in our [England guide](/coding-and-ai-classes-in-england), and the [UK coding page](/coding-classes-in-united-kingdom) leads to every other place we cover.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Gloucester.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-gloucester](https://learn.modernagecoders.com/best-coding-class-in-gloucester#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-gloucester*

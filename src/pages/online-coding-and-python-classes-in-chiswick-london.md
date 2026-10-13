@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths lessons for learners aged
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-chiswick-london
 source: src/pages/online-coding-and-python-classes-in-chiswick-london.html
 ---
-> Chiswick gives its name to three wards of the London Borough of Hounslow: Chiswick Gunnersbury, with 12,697 residents at the 2021 census, Chiswick Homefields with 13,740 and Chiswick Riverside with 10,301. Grove Park, Gunnersbury and Strand on the Green are recorded in the same W4 postcode district. A Chiswick learner of any age from six to 67 studies coding, Python, AI, vibe coding and maths with us over live video; the tutor is in India, and the lesson is either private or shared with five to ten others at the same stage. We ask learners to look at the shape of their data before they calculate anything. The opening Chiswick lesson is free and finishes with a suggested course. Our Chiswick project measures 3,109 building footprints from OpenStreetMap, finds them far too lopsided for ordinary statistics, and uses a Box-Cox transform to put them on a scale that works. Continuing costs USD 100 a month in a class, or USD 150 a month one-to-one.
+> Live online coding, Python, AI and maths lessons for learners aged 6 to 67 in Chiswick, Grove Park, Gunnersbury and Strand on the Green. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Chiswick
-
-Chiswick, Hounslow, London / Live online
-
-# Online coding and Python classes in Chiswick
-
-**Which are the best online coding and Python classes for Chiswick learners?** Chiswick gives its name to three wards of the London Borough of Hounslow: Chiswick Gunnersbury, with 12,697 residents at the 2021 census, Chiswick Homefields with 13,740 and Chiswick Riverside with 10,301. Grove Park, Gunnersbury and Strand on the Green are recorded in the same W4 postcode district. A Chiswick learner of any age from six to 67 studies coding, Python, AI, vibe coding and maths with us over live video; the tutor is in India, and the lesson is either private or shared with five to ten others at the same stage. We ask learners to look at the shape of their data before they calculate anything. The opening Chiswick lesson is free and finishes with a suggested course. Our Chiswick project measures 3,109 building footprints from OpenStreetMap, finds them far too lopsided for ordinary statistics, and uses a Box-Cox transform to put them on a scale that works. Continuing costs USD 100 a month in a class, or USD 150 a month one-to-one.
-
-Most school statistics quietly assume a bell curve: values pile up in the middle and thin out evenly on both sides. Sizes of things rarely oblige. A few huge items and a great many small ones give a long right tail, measured by a number called skewness, and on such data the mean sits where almost nothing is and "two standard deviations below the mean" can be a negative area. The fix is old and elegant: change the scale. Take logarithms, or let the Box-Cox method choose the power that straightens the data, and do the statistics there. This project does it to every mapped building in a rectangle around Chiswick.
-
-Facts last verified 30 September 2026. Teaching is online; no Chiswick branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentChiswick course picks
 
 ## Coding and Python courses for Chiswick, by age
 
 Find the row that matches the Chiswick learner. Every one of these starts with a live lesson that costs nothing and asks for no card.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 7 to 11): First programs in Scratch: loops, decisions and sprites that sort big things from small.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 9 to 13): A gentle start in Python, with lists of real measurements to plot and question.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python written properly, up to reading map data and drawing its histogram.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Students and adults): From nothing to data analysis, including transforms and when to use them.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 7 to 11Scratch Coding for KidsFirst programs in Scratch: loops, decisions and sprites that sort big things from small.See the syllabus](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 9 to 13Python and AI for KidsA gentle start in Python, with lists of real measurements to plot and question.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython written properly, up to reading map data and drawing its histogram.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)Students and adultsPython MasterclassFrom nothing to data analysis, including transforms and when to use them.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Chiswick and Hounslow
 
 ## Chiswick Homefields, Chiswick Riverside and Chiswick Gunnersbury
 
 What the 2021 census recorded for the three Chiswick wards, and the W4 place names around them.
 
-**The three Chiswick wards of Hounslow at the 2021 census (ONS, via Nomis; 2022 wards)**
-
 | Ward | Residents (2021) |
-|---|---|
+| --- | --- |
 | Chiswick Gunnersbury | 12,697 |
 | Chiswick Homefields | 13,740 |
 | Chiswick Riverside | 10,301 |
@@ -54,6 +40,8 @@ Each figure stands alone as the ONS published it. We have not added them into a 
 
 The borough is covered on [coding classes in Hounslow](/coding-classes-in-hounslow-london) and the capital on the [London page](/best-coding-class-in-london). Our reasons for teaching thinking first are set out on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Chiswick project
+
 ## A Box-Cox transform for 3,109 building footprints
 
 Measure every mapped building, see why the usual statistics fail, then find the scale on which they work.
@@ -62,10 +50,8 @@ We downloaded OpenStreetMap data for a rectangle around Chiswick and kept every 
 
 Ordinary rules collapse on numbers like these. The standard deviation is 649.8 square metres, so "the mean minus two standard deviations" is minus 1,086.9 square metres, an area no building can have. The familiar outlier rule, anything more than three standard deviations from the mean, flags 36 buildings, every one of them large; it can never flag a small one, because there is no room below.
 
-**The same 3,109 footprints on different scales, our Python run on OpenStreetMap data**
-
 | Scale | Skewness | Verdict |
-|---|---|---|
+| --- | --- | --- |
 | Raw area | 18.09 | Hopelessly lopsided |
 | Square root | 5.13 | Better, still a long tail |
 | Logarithm | 1.08 | Nearly there |
@@ -91,14 +77,14 @@ Code the Box-Cox search, compare skewness by power and rerun the outlier rule.
 
 The building outlines are from OpenStreetMap, © OpenStreetMap contributors, under the Open Database Licence, read on 30 September 2026. They are what volunteers have drawn, which is not a survey of every structure, and outlines may be merged or missing. The areas, statistics and transforms are our own calculations.
 
+Python and AI
+
 ## What this teaches about Python and AI
 
 A model inherits every assumption of the scale its numbers arrive on.
 
-**From Chiswick footprints to work with AI**
-
 | In the footprint project | When you use or build AI |
-|---|---|
+| --- | --- |
 | The mean was above 82.6% of buildings | An average can describe nobody |
 | Two deviations down was a negative area | Default formulas assume a bell curve |
 | A log scale brought skew to 1.08 | Rescaling is ordinary preparation |
@@ -109,14 +95,37 @@ Ask an AI assistant to "summarise this column and list the outliers" and it will
 
 OpenStreetMap, the Office for National Statistics, Nomis and postcodes.io have no connection with Modern Age Coders and have not endorsed this page. We used their open data and nothing more.
 
+Stages
+
 ## From sorting shapes to statistics on the right scale
 
 A Chiswick school year gives us a first guess at the rung; the free lesson confirms it.
 
-- **Years 2 to 6: Thinking and Scratch** Sorting, comparing and first programs built from blocks. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 5 to 8: First Python** Typed code, lists of measurements and simple charts. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)
-- **Years 9 to 13: Python and statistics** Files, functions, logarithms and distributions beside GCSE and A level. [Python for Teens](/courses/python-complete-masterclass-teens), [Statistics & Probability](/courses/statistics-probability-maths-course)
-- **Adults: Data and AI** Analysis in Python, then machine learning on data prepared with care. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
+Years 2 to 6
+
+### Thinking and Scratch
+
+Sorting, comparing and first programs built from blocks.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 5 to 8
+
+### First Python
+
+Typed code, lists of measurements and simple charts.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)Years 9 to 13
+
+### Python and statistics
+
+Files, functions, logarithms and distributions beside GCSE and A level.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Statistics & Probability](/courses/statistics-probability-maths-course)Adults
+
+### Data and AI
+
+Analysis in Python, then machine learning on data prepared with care.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)Python and statistics
 
 ## What is a Box-Cox transform, and when should you use one?
 
@@ -128,30 +137,139 @@ Having turned that dial themselves, learners ask a sharper question of any AI-wr
 
 A Chiswick teenager who can write the transform in Python can also tell when an AI has skipped it, and that judgement is why the coding still matters. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Grove Park to Gunnersbury, taught live
 
 For a Chiswick lesson you need a laptop or desktop, a camera and broadband good enough for a video call.
 
-- **Hands on the keys** The Chiswick learner writes each line. Our tutor sees the screen and keeps asking what the picture of the data shows.
-- **Level set at the trial** In the free lesson we gauge what is known, pick where to begin and ask about any exam board.
-- **No charge to try** The Chiswick trial is a whole lesson, and you leave with a named course.
-- **Classes sorted by stage** Between five and ten learners from anywhere in the UK, all working at one level.
-- **Twice-weekly rhythm** Two lessons a week, with school holidays left empty.
-- **The time does not drift** British clock changes are absorbed at the tutor's end.
+### Hands on the keys
 
-**Why Chiswick lessons are online** Filling a room in W4 with five learners at one level on one free evening is unlikely. Draw them from the whole country by video and it becomes routine.
+The Chiswick learner writes each line. Our tutor sees the screen and keeps asking what the picture of the data shows.
+
+### Level set at the trial
+
+In the free lesson we gauge what is known, pick where to begin and ask about any exam board.
+
+### No charge to try
+
+The Chiswick trial is a whole lesson, and you leave with a named course.
+
+### Classes sorted by stage
+
+Between five and ten learners from anywhere in the UK, all working at one level.
+
+### Twice-weekly rhythm
+
+Two lessons a week, with school holidays left empty.
+
+### The time does not drift
+
+British clock changes are absorbed at the tutor's end.
+
+Why Chiswick lessons are online
+
+Filling a room in W4 with five learners at one level on one free evening is unlikely. Draw them from the whole country by video and it becomes routine.
+
+Fees
 
 ## Chiswick fees
 
 Chiswick learners pay our international rate, which is the same in every country other than India.
 
-- First class: USD 0. One complete lesson, free, with a course suggested at the end.
-- Group tuition: USD 100 a month. About eight live lessons a month in a class.
-- Private tuition: USD 150 a month. About eight live one-to-one lessons a month.
+First class**USD 0**
+
+One complete lesson, free, with a course suggested at the end.
+
+Group tuition**USD 100**
+
+About eight live lessons a month in a class.
+
+Private tuition**USD 150**
+
+About eight live one-to-one lessons a month.
 
 Chiswick prices are stated in US dollars and we publish no figure in pounds. Nothing is invoiced before the trial has settled the course and the weekly slot. Holidays, missed lessons and switching between a class and private teaching are explained on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20we%20arrange%20a%20free%20online%20coding%20or%20Python%20lesson%20for%20a%20learner%20in%20Chiswick%3F)Reviews
+
+## Google reviews from Hounslow families and learners around the UK
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Chiswick lesson
+
+Send an age or school year and something the learner enjoys. A Chiswick trial might then be a sorting puzzle, a Scratch animation, a first page of Python, or a histogram of real building sizes.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Chiswick one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20we%20arrange%20a%20free%20online%20coding%20or%20Python%20lesson%20for%20a%20learner%20in%20Chiswick%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Chiswick questions
+
+Skewed data, the footprint project, Python, vibe coding and how a Chiswick lesson is run.
 
 ### How many people live in the Chiswick wards?
 
@@ -193,10 +311,14 @@ The trial is free. After it, USD 100 a month for a class place or USD 150 a mont
 
 They stop for school holidays as soon as we have your dates.
 
+Read on
+
 ## More Hounslow and London pages
 
 A different project on each: [Hounslow](/coding-classes-in-hounslow-london) (an error budget), [Ealing](/coding-classes-in-ealing-london), [Hayes](/online-coding-and-python-classes-in-hayes-london) (averages that survive a bad value) and [Twickenham](/vibe-coding-and-ai-agents-classes-in-twickenham-london) (an agent that updates its belief). For the whole capital see [our London page](/best-coding-class-in-london), and for every other UK page the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20we%20arrange%20a%20free%20online%20coding%20or%20Python%20lesson%20for%20a%20learner%20in%20Chiswick%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/online-coding-and-python-classes-in-chiswick-london](https://learn.modernagecoders.com/online-coding-and-python-classes-in-chiswick-london#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-chiswick-london*

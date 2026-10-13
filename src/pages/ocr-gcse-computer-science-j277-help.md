@@ -4,34 +4,28 @@ description: "Help with OCR J277: both components, the Exam Reference Language, 
 canonical: https://learn.modernagecoders.com/ocr-gcse-computer-science-j277-help
 source: src/pages/ocr-gcse-computer-science-j277-help.html
 ---
-> J277 is two written papers of an hour and a half each, 80 marks apiece, each worth half the GCSE, both non-calculator and both entirely compulsory. Component 01 covers computer systems; component 02 covers algorithms and programming and splits into Sections A and B. Two things in the specification are worth more than any revision guide. The first is the Not required column, which appears throughout and tells candidates what they need not learn, including the code for the standard sorting algorithms. The second is that in Section B, questions on writing or refining algorithms may be answered "using either the OCR Exam Reference Language or the high-level programming language they are familiar with", which is a choice most candidates never realise they hold. We teach the content and those decisions together. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
+> Help with OCR J277: both components, the Exam Reference Language, how to answer Section B, and what the specification says you do not have to know. First class free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / OCR J277 help
+In short
 
-England · OCR J277 · Years 10 and 11
+J277 is two written papers of an hour and a half each, 80 marks apiece, each worth half the GCSE, both non-calculator and both entirely compulsory. Component 01 covers computer systems; component 02 covers algorithms and programming and splits into Sections A and B. Two things in the specification are worth more than any revision guide. The first is the Not required column, which appears throughout and tells candidates what they need not learn, including the code for the standard sorting algorithms. The second is that in Section B, questions on writing or refining algorithms may be answered "using either the OCR Exam Reference Language or the high-level programming language they are familiar with", which is a choice most candidates never realise they hold. We teach the content and those decisions together. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
 
-# OCR GCSE Computer Science J277 help
-
-Open the OCR specification at almost any topic and you will find two columns. One is headed Required. The other is headed Not required, and it is the one nobody reads. Beside the standard searching and sorting algorithms it says that a candidate is required to identify an algorithm when given its code, and not required "to remember the code, pseudocode or Exam Reference Language for these algorithms". Thousands of students spend evenings memorising bubble sort line by line for an exam that has told them, in print, not to bother. There are eight such blocks in the specification. This page goes through what they say, what the two components actually contain, and the choice OCR gives candidates in Section B that most of them do not know they have.
-
-At a glance: Qualification: Cambridge OCR GCSE J277; Component 01: Computer systems, 1h30, 80 marks; Component 02: Thinking and programming, 1h30, 80; Each worth: 50 per cent of the GCSE; Calculators: Not allowed in either paper; Code printed in: OCR Exam Reference Language; Section B answers: Reference Language or your own; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three courses for OCR candidates
 
 The specification content, and the programming fluency both components lean on. Cards open the full syllabus.
 
-- [GCSE Computer Science](/courses/gcse-computer-science-course): Every topic covered, with the Required and Not required columns in the specification deciding where the hours go.
-- [Python for Teens](/courses/python-complete-masterclass-teens): The high-level language most OCR centres teach, and a permitted way to answer Section B write questions.
-- [Algorithms and Data Structures](/courses/problem-solving-dsa-masterclass-teens): Binary and linear search, bubble, merge and insertion sort, understood and applied rather than memorised.
+[![GCSE Computer Science course thumbnail](/images/gcse-computer-science.webp)  OCR / 01 GCSE Computer Science Every topic covered, with the Required and Not required columns in the specification deciding where the hours go. Open the syllabus →](/courses/gcse-computer-science-course)[![Python for Teens course thumbnail](/images/python-teens.webp)  OCR / 02 Python for Teens The high-level language most OCR centres teach, and a permitted way to answer Section B write questions. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)  OCR / 03 Algorithms and Data Structures Binary and linear search, bubble, merge and insertion sort, understood and applied rather than memorised. Open the syllabus →](/courses/problem-solving-dsa-masterclass-teens)
+
+What is not required
 
 ## The column that gives you your evenings back
 
 Eight blocks in the specification are headed Not required. Every one is a list of things a candidate can stop worrying about, and they are quoted here as printed.
 
-**A selection of what OCR says is not required**
-
 | Topic | Not required | What students do instead |
-|---|---|---|
+| --- | --- | --- |
 | Searching and sorting algorithms | "To remember the code, pseudocode or Exam Reference Language for these algorithms" | Memorise bubble sort line by line, for weeks |
 | Character sets | "Memorisation of character set codes" | Learn ASCII tables |
 | Compression | "Ability to carry out specific compression algorithms" | Try to work through Huffman coding by hand |
@@ -39,7 +33,9 @@ Eight blocks in the specification are headed Not required. Every one is a list o
 | CPU architecture | "Knowledge of passing of data between registers in each stage" | Diagram the fetch-execute cycle at register level |
 | Systems software | "Understanding of paging or segmentation" | Learn memory management in detail |
 
-**What is required instead** For searching and sorting, OCR asks candidates to "Understand the main steps of the algorithm and the segments of code in it", to "Understand any pre-requisites of an algorithm", to "Apply the algorithm to a data set", and to "Identify an algorithm if given the code, pseudocode or Exam Reference Language for it". Recognition and application, not recall.
+What is required instead
+
+For searching and sorting, OCR asks candidates to "Understand the main steps of the algorithm and the segments of code in it", to "Understand any pre-requisites of an algorithm", to "Apply the algorithm to a data set", and to "Identify an algorithm if given the code, pseudocode or Exam Reference Language for it". Recognition and application, not recall.
 
 ### Why this matters more than it sounds
 
@@ -55,14 +51,14 @@ This is not a shortcut and we would not present it as one. It is reading the rul
 
 Source, read 20 September 2026: [Cambridge OCR GCSE (9-1) Computer Science (J277) specification](https://www.ocr.org.uk/qualifications/gcse/computer-science-j277-from-2020/), version 3.1, May 2026, first assessment 2022. The specification notes that as of September 2025 the board's name is Cambridge OCR. Check the current version, and your school will confirm which applies.
 
+Both components
+
 ## Two papers, eighty marks each, no calculator
 
 Straight from the specification overview. The symmetry between the two papers is unusual and worth planning around.
 
-**J277 at a glance**
-
-|  | J277/01: Computer systems | J277/02: Computational thinking, algorithms and programming |
-|---|---|---|
+|   | J277/01: Computer systems | J277/02: Computational thinking, algorithms and programming |
+| --- | --- | --- |
 | Length | Written paper, 1 hour and 30 minutes | Written paper, 1 hour and 30 minutes |
 | Marks | 80 | 80 |
 | Weighting | 50 per cent of the total GCSE | 50 per cent of the total GCSE |
@@ -86,20 +82,22 @@ There is also a practical requirement sitting outside the two papers. The specif
 
 For how the other English boards differ on exactly this point, the [Python page](/best-python-classes-online-uk) compares all three, and one of them sits its practical paper on a computer.
 
+Answering Section B
+
 ## The choice candidates do not know they have
 
 OCR publishes a table of how each kind of Section B question is asked and how it may be answered. It rewards reading.
 
-**Section B, as the specification sets it out**
-
 | Question focus | Asked in | Answered using |
-|---|---|---|
+| --- | --- | --- |
 | Design | Natural English | Pseudocode, flowcharts, tick-box responses or natural English |
 | Write | Pseudocode, natural English or flowcharts | OCR Exam Reference Language or a high-level programming language |
 | Test | OCR Exam Reference Language | Trace tables, test plans or identifying suitable test data |
 | Refine | OCR Exam Reference Language | OCR Exam Reference Language, a high-level programming language or natural English |
 
-**The sentence that matters** The specification states that "In Section B, questions assessing students' ability to write or refine algorithms must be answered using either the OCR Exam Reference Language or the high-level programming language they are familiar with". You may answer in your own language. Many candidates do not realise this and struggle through a notation they half-know.
+The sentence that matters
+
+The specification states that "In Section B, questions assessing students' ability to write or refine algorithms must be answered using either the OCR Exam Reference Language or the high-level programming language they are familiar with". You may answer in your own language. Many candidates do not realise this and struggle through a notation they half-know.
 
 ### Which should a candidate choose?
 
@@ -117,14 +115,14 @@ Section A works differently again, and more gently. It "assesses a student's abi
 
 We teach both sides: reading the Exam Reference Language until it is unremarkable, and writing fluently in Python so that the Section B choice is a real one. The wider habit of predicting what code does before running it is described on [the problem-solving page](/problem-solving-skills-through-coding-uk), and it is exactly what Test questions reward.
 
+Progression
+
 ## Four stages, from the first term to the papers
 
 Nothing is banked along the way, so the question is never what a student once understood but what survives to the summer.
 
-**Where an OCR candidate should be**
-
 | Stage | Usually | What should be secure |
-|---|---|---|
+| --- | --- | --- |
 | 1. Fluent in one language | By the first winter of the course | Producing short programs on paper whose logic a marker can follow |
 | 2. Reading the Reference Language | Mid Year 10 | Following an algorithm set out in it at first sight, with no rewriting into Python first |
 | 3. Component 01 content | Across both years | Architecture, storage, networks, security and the impacts section, done by hand without a calculator |
@@ -133,63 +131,293 @@ Nothing is banked along the way, so the question is never what a student once un
 ### Use the Not required column early
 
 Deciding in Year 10 what does not need learning is worth more than any revision technique applied in Year 11, because it changes two years of effort rather than six weeks.
+
 The wider topic sequence sits on the [coding roadmap](/coding-roadmap).
 
 ### Non-calculator is a practice issue
 
 Binary and denary conversion, storage sizes and Boolean expressions all done by hand, repeatedly, until they are quick. There is no clever method, only practice.
+
 Lessons ease off in the weeks immediately before the papers and pick up again afterwards.
+
+The catalogue
 
 ## Nine courses for OCR GCSE students
 
 Grouped by what a candidate usually needs. The free lesson settles the starting point.
 
+I
+
 ### The specification
 
 Content in order
 
-- [GCSE Computer Science](/courses/gcse-computer-science-course): Component 01 and component 02 taught apart, so revision knows which paper it is for.
-- [Python in full](/courses/python-complete-masterclass-teens): The high-level language most OCR centres teach, to the point of writing it by hand.
-- [Databases and SQL](/courses/mysql-database-complete-masterclass-college): Useful background for the systems side, and essential if a student carries on to A level.
+UK / OC1 / 01
+
+#### GCSE Computer Science
+
+Component 01 and component 02 taught apart, so revision knows which paper it is for.
+
+[Open the syllabus](/courses/gcse-computer-science-course)
+
+UK / OC1 / 02
+
+#### Python in full
+
+The high-level language most OCR centres teach, to the point of writing it by hand.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+UK / OC1 / 03
+
+#### Databases and SQL
+
+Useful background for the systems side, and essential if a student carries on to A level.
+
+[Open the syllabus](/courses/mysql-database-complete-masterclass-college)II
 
 ### Component 02 skills
 
 Algorithms under a clock
 
-- [Algorithms and data structures](/courses/problem-solving-dsa-masterclass-teens): Search and sort understood and applied, which is what the Required column actually asks for.
-- [First Python](/courses/python-ai-kids-masterclass): For students who arrived from blocks and need the keyboard stage done properly first.
-- [Computational thinking](/courses/problem-solving-and-computational-thinking-for-kids): Precise description and decomposition, for students who find the wording harder than the code.
+UK / OC2 / 01
+
+#### Algorithms and data structures
+
+Search and sort understood and applied, which is what the Required column actually asks for.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
+
+UK / OC2 / 02
+
+#### First Python
+
+For students who arrived from blocks and need the keyboard stage done properly first.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)
+
+UK / OC2 / 03
+
+#### Computational thinking
+
+Precise description and decomposition, for students who find the wording harder than the code.
+
+[Open the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)III
 
 ### Beyond the GCSE
 
 For students continuing
 
-- [Full stack web development](/courses/full-stack-web-development-teens-masterclass): A site with a database behind it, for students who want to build rather than revise.
-- [AI and machine learning](/courses/ai-ml-masterclass-teens): Where the programming and the mathematics start reinforcing each other.
-- [Data science with Python](/courses/data-science-course-for-teens-python-data): Published data cleaned and argued with, which is where A level Computer Science gets interesting.
+UK / OC3 / 01
+
+#### Full stack web development
+
+A site with a database behind it, for students who want to build rather than revise.
+
+[Open the syllabus](/courses/full-stack-web-development-teens-masterclass)
+
+UK / OC3 / 02
+
+#### AI and machine learning
+
+Where the programming and the mathematics start reinforcing each other.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+UK / OC3 / 03
+
+#### Data science with Python
+
+Published data cleaned and argued with, which is where A level Computer Science gets interesting.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)
+
+How lessons work
 
 ## Read the specification, then the paper
 
 Our teachers work from India on a clock that never changes, leaving the UK five and a half hours behind from October and four and a half from March. Slots are set in UK time.
 
-- **Straight after school** The slot most J277 candidates end up keeping.
-- **Later on** When the rest of the homework is out of the way and the house is quiet.
-- **Saturday or Sunday** Long enough to sit a full past paper and go through it.
+Straight after school
 
-- **The specification is open** Lessons refer to the Required and Not required columns by name, so a student knows why something is being learnt.
-- **Reference Language drills** Reading it until it is unremarkable, because every printed code snippet in both papers uses it.
-- **Writing by hand** Regular handwritten code, since an editor hides exactly the weaknesses a written paper exposes.
-- **Trace tables as a reflex** Built quickly and correctly, because Test questions in Section B ask for them directly.
-- **No calculator, ever** Binary and storage arithmetic practised by hand from the first term, as both papers require.
-- **Groups by level** Fifteen to twenty students at one stage, comparing two answers to the same question.
+The slot most J277 candidates end up keeping.
+
+Later on
+
+When the rest of the homework is out of the way and the house is quiet.
+
+Saturday or Sunday
+
+Long enough to sit a full past paper and go through it.
+
+### The specification is open
+
+Lessons refer to the Required and Not required columns by name, so a student knows why something is being learnt.
+
+### Reference Language drills
+
+Reading it until it is unremarkable, because every printed code snippet in both papers uses it.
+
+### Writing by hand
+
+Regular handwritten code, since an editor hides exactly the weaknesses a written paper exposes.
+
+### Trace tables as a reflex
+
+Built quickly and correctly, because Test questions in Section B ask for them directly.
+
+### No calculator, ever
+
+Binary and storage arithmetic practised by hand from the first term, as both papers require.
+
+### Groups by level
+
+Fifteen to twenty students at one stage, comparing two answers to the same question.
+
+Student work
+
+## Projects from students at this stage
+
+Four things GCSE-age learners have put online. Many more sit in [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## What GCSE tuition costs
 
 A flat charge each month, priced in US dollars for every country but India. Try the free lesson first; billing starts only once a course and a weekly time are fixed.
 
-- Free first class: USD 0. A full lesson using actual J277 questions. A blunt assessment of what is missing. Nothing asked for but a number to call.
-- Group batch: USD 100 a month. A room of five to ten at the same point. The same named teacher from start to finish. Handwritten answers read and returned each week. Fewer lessons in the run-up to the papers themselves.
-- One to one: USD 150 a month. One student, one teacher. Planned backwards from the exam dates. Useful where a grade target is specific.
+Free first class
+
+USD 0
+
+no card required
+
+- A full lesson using actual J277 questions
+- A blunt assessment of what is missing
+- Nothing asked for but a number to call
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- A room of five to ten at the same point
+- The same named teacher from start to finish
+- Handwritten answers read and returned each week
+- Fewer lessons in the run-up to the papers themselves
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- One student, one teacher
+- Planned backwards from the exam dates
+- Useful where a grade target is specific
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+From Google, unedited, by families nobody asked.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about OCR J277
 
 ## What OCR candidates and parents ask
 
@@ -233,15 +461,54 @@ Read it beside any revision guide, topic by topic. Where the guide goes beyond t
 
 Nothing for the opening lesson. A group place runs at USD 100 each month afterwards and a private one at USD 150, billed monthly and never up front.
 
+Elsewhere on this site
+
 ## Where to read next
 
-- [AQA GCSE Computer Science 8525](/aqa-gcse-computer-science-8525-help): The other big English board, and why its notation rules differ.
-- [Coding and AI classes in England](/coding-and-ai-classes-in-england): Why most secondary schools are not required to teach computing at all.
-- [Python classes online in the UK](/best-python-classes-online-uk): One board examines Python on a computer. Here is which, and what that changes.
-- [Problem-solving skills through coding](/problem-solving-skills-through-coding-uk): What the research says builds skill, and the claim we refuse to make.
-- [Coding classes in the UK](/coding-classes-in-united-kingdom): The national page, and the index of every UK page we publish.
-- [A-level Computer Science coursework](/a-level-computer-science-nea-help): Where the marks sit at AQA and OCR once a project is assessed.
+Each covers a different part of the picture.
 
-## Contact
+### [AQA GCSE Computer Science 8525](/aqa-gcse-computer-science-8525-help)
 
-Book the free first class at [https://learn.modernagecoders.com/ocr-gcse-computer-science-j277-help](https://learn.modernagecoders.com/ocr-gcse-computer-science-j277-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The other big English board, and why its notation rules differ.
+
+### [Coding and AI classes in England](/coding-and-ai-classes-in-england)
+
+Why most secondary schools are not required to teach computing at all.
+
+### [Python classes online in the UK](/best-python-classes-online-uk)
+
+One board examines Python on a computer. Here is which, and what that changes.
+
+### [Problem-solving skills through coding](/problem-solving-skills-through-coding-uk)
+
+What the research says builds skill, and the claim we refuse to make.
+
+### [Coding classes in the UK](/coding-classes-in-united-kingdom)
+
+The national page, and the index of every UK page we publish.
+
+### [A-level Computer Science coursework](/a-level-computer-science-nea-help)
+
+Where the marks sit at AQA and OCR once a project is assessed.
+
+Start here
+
+## Book a free first lesson
+
+Send a number and we will reply at a British hour you pick. The lesson uses real J277 material and finishes with a straight view of the gaps.
+
+Prefer reading? Syllabuses are published on every [course page](/courses), the teaching method and its limits are in [how we teach](/how-we-teach), and topic order runs down the [coding roadmap](/coding-roadmap).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20first%20class%20for%20OCR%20GCSE%20Computer%20Science%20J277.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp gets the quickest reply and is free from a British mobile. The number is Indian, stated here rather than discovered later.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/ocr-gcse-computer-science-j277-help*

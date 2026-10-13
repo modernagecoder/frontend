@@ -4,34 +4,28 @@ description: "VCE Algorithmics (HESS) help for Victorian students: both units, t
 canonical: https://learn.modernagecoders.com/vce-algorithmics-hess-help
 source: src/pages/vce-algorithmics-hess-help.html
 ---
-> VCE Algorithmics (HESS) is a Victorian Units 3 and 4 study, accredited from 1 January 2023 and designed to the standard of a first-year university subject. Unit 3 covers abstract data types and algorithm design; Unit 4 covers complexity, advanced design patterns and the limits of computation. The study score comes from coursework (20 per cent), a School-assessed Task (20 per cent) and a 2-hour exam (60 per cent).
+> VCE Algorithmics (HESS) help for Victorian students: both units, the 2-hour exam worth 60 per cent, the School-assessed Task, and worked algorithm design.
 
-[Home](/) / [Coding classes in Australia](/coding-classes-in-australia) / VCE Algorithmics (HESS)
+In short
 
-Victoria · VCE Algorithmics (HESS) · Live online
+VCE Algorithmics (HESS) is a Victorian Units 3 and 4 study, accredited from 1 January 2023 and designed to the standard of a first-year university subject. Unit 3 covers abstract data types and algorithm design; Unit 4 covers complexity, advanced design patterns and the limits of computation. The study score comes from coursework (20 per cent), a School-assessed Task (20 per cent) and a 2-hour exam (60 per cent).
 
-# VCE Algorithmics (HESS) help
-
-Algorithmics is the one VCE computing study that the VCAA pitches at first-year university level, and it reads that way. Graphs, recurrences, the Master Theorem, the Halting Problem and neural networks all sit inside two units, and the exam alone decides 60 per cent of the study score. Students who do well treat it as a reasoning subject that happens to use code.
-
-At a glance: Study: VCE Algorithmics (HESS); Units: 3 and 4, taken as a sequence; Accredited from: 1 January 2023; Exam weight: 60 per cent of the study score; Exam length: 2 hours; 2026 exam: Wednesday 4 November; We teach: Design, analysis and proof technique; We never: Touch the School-assessed Task. Rated 4.9 across 547 Google reviews.
+Where to begin
 
 ## Three courses that carry the study design
 
 Reasoning about algorithms first, then the speed and accuracy that exam conditions demand.
 
-- [Data structures and algorithms](/courses/problem-solving-dsa-masterclass-teens): Stacks, queues, graphs, searching and sorting, each traced by hand before it is run: the ground Unit 3 is built on.
-- [Competitive programming](/courses/competitive-programming-for-teens-course): Greedy, dynamic programming and backtracking under time pressure, the three design patterns Unit 4 asks students to tell apart.
-- [Python for teens](/courses/python-complete-masterclass-teens): A very high-level language with dictionaries, sets and graph libraries, which is what the study design requires for implementation.
+[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)  VCAL / 01 Data structures and algorithms Stacks, queues, graphs, searching and sorting, each traced by hand before it is run: the ground Unit 3 is built on. Open the syllabus →](/courses/problem-solving-dsa-masterclass-teens)[![Competitive Programming for Teens course thumbnail](/images/competitive-programming-teens.webp)  VCAL / 02 Competitive programming Greedy, dynamic programming and backtracking under time pressure, the three design patterns Unit 4 asks students to tell apart. Open the syllabus →](/courses/competitive-programming-for-teens-course)[![Python for Teens course thumbnail](/images/python-teens.webp)  VCAL / 03 Python for teens A very high-level language with dictionaries, sets and graph libraries, which is what the study design requires for implementation. Open the syllabus →](/courses/python-complete-masterclass-teens)
+
+Inside the study design
 
 ## Two units, six areas of study, one sequence
 
 The outline below comes from the VCAA study design for VCE Algorithmics (HESS), read on 7 October 2026. Units 3 and 4 cannot be split: the VCAA requires them as a sequence.
 
-**VCE Algorithmics (HESS): units and areas of study**
-
 | Unit | Area of study | What it covers |
-|---|---|---|
+| --- | --- | --- |
 | Unit 3: Algorithmic problem-solving | Data modelling with abstract data types | Sets, lists, arrays, dictionaries, stacks, queues, priority queues and graphs, plus decision trees and state graphs |
 | Unit 3 | Algorithm design | Pseudocode, recursion, brute-force and greedy patterns, breadth-first and depth-first search, Prim, Dijkstra, Bellman-Ford, Floyd-Warshall and PageRank |
 | Unit 3 | Applied algorithms | Choosing and justifying a combination of data types and algorithms for a real problem |
@@ -49,14 +43,14 @@ The final area of study reaches back to Hilbert, Church and Turing and forward t
 
 Sources: [VCAA, VCE Algorithmics (HESS) study design page](https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/algorithms-hess/vce-algorithmics-hess); VCE Algorithmics (HESS) Study Design (accreditation from 1 January 2023), read on 7 October 2026.
 
+How the study score is built
+
 ## Sixty per cent in one 2-hour sitting
 
 The weightings and exam conditions below are quoted from the study design; the 2026 date and session come from the VCAA examination timetable, checked on 7 October 2026.
 
-**VCE Algorithmics (HESS) assessment, as the study design sets it**
-
 | Component | Contribution to the study score | What it assesses |
-|---|---|---|
+| --- | --- | --- |
 | Unit 3 School-assessed Coursework | 12 per cent | Unit 3 Outcomes 1 and 2: data modelling and algorithm design |
 | Unit 4 School-assessed Coursework | 8 per cent | Unit 4 Outcome 3: the history of computer science and modern machine learning |
 | School-assessed Task | 20 per cent | Unit 3 Outcome 3 with Unit 4 Outcomes 1 and 2: a designed solution, its complexity analysis and an improved design |
@@ -71,6 +65,8 @@ The School-assessed Task is unusual in that it spans both units. It starts with 
 The study design also notes that some universities may offer accelerated pathways to students who complete the study. That is the universities' decision, not ours or the VCAA's, and no page here promises any pathway, score or ATAR.
 
 Sources: VCE Algorithmics (HESS) Study Design, assessment sections; [VCAA, 2026 VCE examination timetable](https://www.vcaa.vic.edu.au/administration/key-dates/vce-examination-timetable), checked on 7 October 2026.
+
+A worked problem from Unit 4
 
 ## When greedy gets the change-making problem wrong
 
@@ -88,16 +84,12 @@ Always take the largest coin that still fits. For a target of 14 that gives 10, 
 
 Fill an array fewest[0..t] where fewest[v] is the fewest coins for value v, built from smaller values. For 14 the array finds 7 plus 7: two coins.
 
-**The single dimension array for targets 0 to 14, coins 1, 7 and 10 (our calculation)**
-
 | Value v | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | fewest[v] | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 1 | 2 | 3 | 1 | 2 | 3 | 4 | 2 |
 
-**Greedy against dynamic programming, targets 1 to 100, coins 1, 7 and 10 (our calculation)**
-
 | Measure | Result |
-|---|---|
+| --- | --- |
 | Targets where greedy uses more coins than necessary | 27 of the 100 |
 | First targets where greedy fails | 14, 15, 16, then 24, 25, 26, and so on |
 | Largest excess coins from greedy on one target | 3 |
@@ -114,14 +106,14 @@ The same comparison is a model for the School-assessed Task's final stage, where
 
 Dynamic programming wording quoted from the VCE Algorithmics (HESS) Study Design, Unit 4 Area of Study 2. Coin system, array and counts are our own, computed in Python on 7 October 2026.
 
+The School-assessed Task
+
 ## Whose work the task has to be
 
 The VCAA accepts School-based assessment only when the teacher can attest to who did it. The wording below is quoted from the study design.
 
-**VCAA rules that shape how we help**
-
 | Point | What the study design says |
-|---|---|
+| --- | --- |
 | Authentication | Work will be accepted only if the teacher can attest that, to the best of their knowledge, all unacknowledged work is the student’s own |
 | Coursework conditions | Tasks must be completed mainly in class and within a limited timeframe |
 | The SAT's first part | A data model and algorithm combination for a real-world or applied problem, with multiple solution options considered |
@@ -131,14 +123,14 @@ Our rule follows from that. We teach algorithm design, complexity analysis and p
 
 Source: VCE Algorithmics (HESS) Study Design, authentication and School-assessed Task sections, read on 7 October 2026.
 
+Building towards Unit 3
+
 ## Four rungs before and during the study
 
 Most students meet Algorithmics in Year 12, sometimes in Year 11 as an acceleration. The ladder depends on how they reason, not which year they are in.
 
-**From confident coder to algorithmics student**
-
 | When | Rung | The sign it is secure |
-|---|---|---|
+| --- | --- | --- |
 | Before Unit 3 | 1. Fluent tracing | Executes unfamiliar pseudocode by hand and records every variable without slipping |
 | Early Unit 3 | 2. Modelling | Chooses a stack, queue, dictionary or graph for a problem and says why the others fit worse |
 | Late Unit 3 | 3. Graph algorithms | Picks Dijkstra, Bellman-Ford or Floyd-Warshall for a stated problem and justifies the choice |
@@ -147,63 +139,293 @@ Most students meet Algorithmics in Year 12, sometimes in Year 11 as an accelerat
 ### If Unit 3 feels abstract
 
 The jump from writing programs to modelling problems is the usual stall point. Drawing the graph first, with labelled vertices and weighted edges, before writing a single line of pseudocode fixes most of it.
+
 Students who have only met loops benefit from a few weeks of recursion practice, because Unit 3 assumes recursion is comfortable before it builds on it.
 
 ### Beyond the study
 
 Students who enjoy the puzzle side can try the Australian Informatics Olympiad; our [AIO and CAT preparation page](/australian-maths-trust-amc-aio-cat-preparation) explains how it runs.
+
 The study's habits, proving correctness and estimating cost before coding, are the ones first-year computer science subjects ask for.
+
+The catalogue
 
 ## Nine courses for Algorithmics students
 
 Grouped by the unit they support most. Each card opens a full syllabus.
 
+I
+
 ### Unit 3 foundations
 
 Data types and design
 
-- [Algorithms and data structures](/courses/problem-solving-dsa-masterclass-teens): Abstract data types and the searches built on them, reasoned before coded.
-- [Python for teens](/courses/python-complete-masterclass-teens): The implementation language most Victorian classes use, from loops to classes.
-- [Java for teens](/courses/java-programming-masterclass-for-teens): A typed second language that makes abstract data types explicit.
+VCAL / U3 / 01
+
+#### Algorithms and data structures
+
+Abstract data types and the searches built on them, reasoned before coded.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
+
+VCAL / U3 / 02
+
+#### Python for teens
+
+The implementation language most Victorian classes use, from loops to classes.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+VCAL / U3 / 03
+
+#### Java for teens
+
+A typed second language that makes abstract data types explicit.
+
+[Open the syllabus](/courses/java-programming-masterclass-for-teens)II
 
 ### Unit 4 depth
 
 Complexity and design patterns
 
-- [Competitive programming](/courses/competitive-programming-for-teens-course): Greedy, dynamic programming and backtracking, tested against hard cases.
-- [Data structures and algorithms, university level](/courses/data-structures-algorithms-masterclass-college): Recurrences and complexity at the depth first-year subjects expect.
-- [University mathematics](/courses/college-mathematics-complete-masterclass): Logarithms, induction and discrete maths for the analysis work.
+VCAL / U4 / 01
+
+#### Competitive programming
+
+Greedy, dynamic programming and backtracking, tested against hard cases.
+
+[Open the syllabus](/courses/competitive-programming-for-teens-course)
+
+VCAL / U4 / 02
+
+#### Data structures and algorithms, university level
+
+Recurrences and complexity at the depth first-year subjects expect.
+
+[Open the syllabus](/courses/data-structures-algorithms-masterclass-college)
+
+VCAL / U4 / 03
+
+#### University mathematics
+
+Logarithms, induction and discrete maths for the analysis work.
+
+[Open the syllabus](/courses/college-mathematics-complete-masterclass)III
 
 ### The AI area of study
 
 Machine learning and its limits
 
-- [AI and machine learning for teens](/courses/ai-ml-masterclass-teens): Training, overfitting and simple networks, built and evaluated honestly.
-- [Statistics and probability](/courses/statistics-probability-maths-course): The probability behind randomised search and data-driven algorithms.
-- [Competitive programming, advanced](/courses/competitive-programming-masterclass-college): For students who finish Unit 4 hungry for harder problems.
+VCAL / AI / 01
+
+#### AI and machine learning for teens
+
+Training, overfitting and simple networks, built and evaluated honestly.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+VCAL / AI / 02
+
+#### Statistics and probability
+
+The probability behind randomised search and data-driven algorithms.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)
+
+VCAL / AI / 03
+
+#### Competitive programming, advanced
+
+For students who finish Unit 4 hungry for harder problems.
+
+[Open the syllabus](/courses/competitive-programming-masterclass-college)
+
+How lessons run
 
 ## Weekly classes, timed for Victoria
 
 Our teachers work from India, and Victoria runs ahead of them: four and a half hours in winter and five and a half during daylight saving, which the IANA time zone database places from Sunday 4 October 2026 to Sunday 4 April 2027. A 5 pm lesson in Melbourne therefore lands at 11.30 am India time in summer and 12.30 pm in winter, inside our teachers' working day.
 
-- **Weekday after school** The common choice through Units 3 and 4.
-- **Weekend morning** Longer sessions for proofs, recurrences or timed papers.
-- **School holidays** Short intensives before the November exam.
+Weekday after school
 
-- **Our own problems** Every example is written by us, never taken from a student's assessed task.
-- **Hand execution drilled** Pseudocode traced on paper until reading it is as quick as reading prose.
-- **Exam-length answers** Short written arguments that name a pattern, justify it and state a bound.
-- **Senior groups of fifteen to twenty** Students at a matching level, each one explaining a solution aloud every week.
-- **Solo sessions** For one area of study that needs repair before the exam.
-- **Nothing guaranteed** No study score, ATAR or university offer is promised; the thinking and the outcome are the student's.
+The common choice through Units 3 and 4.
+
+Weekend morning
+
+Longer sessions for proofs, recurrences or timed papers.
+
+School holidays
+
+Short intensives before the November exam.
+
+### Our own problems
+
+Every example is written by us, never taken from a student's assessed task.
+
+### Hand execution drilled
+
+Pseudocode traced on paper until reading it is as quick as reading prose.
+
+### Exam-length answers
+
+Short written arguments that name a pattern, justify it and state a bound.
+
+### Senior groups of fifteen to twenty
+
+Students at a matching level, each one explaining a solution aloud every week.
+
+### Solo sessions
+
+For one area of study that needs repair before the exam.
+
+### Nothing guaranteed
+
+No study score, ATAR or university offer is promised; the thinking and the outcome are the student's.
+
+Student work
+
+## Projects our students have published
+
+Personal projects only, none of them school assessment. More are in our [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 A single monthly fee in US dollars, the same for every family outside India. There is no joining charge and nothing continues past the month you are in.
 
-- Free first class: USD 0. A full lesson with a teacher. A frank view of what needs work. No card details asked.
-- Group batch: USD 100 a month. Fifteen to twenty students at one level. One teacher all term. Practice marked and talked through. A certificate when the course ends.
-- One to one: USD 150 a month. One teacher, one student. Aimed at the weakest area of study. Useful in the weeks before November.
+Free first class
+
+USD 0
+
+no card required
+
+- A full lesson with a teacher
+- A frank view of what needs work
+- No card details asked
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students at one level
+- One teacher all term
+- Practice marked and talked through
+- A certificate when the course ends
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- One teacher, one student
+- Aimed at the weakest area of study
+- Useful in the weeks before November
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Copied word for word from Google, exactly as families and students posted them.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about the study
 
 ## Questions Algorithmics students ask
 
@@ -247,15 +469,54 @@ The study design notes that some universities may offer accelerated pathways to 
 
 Late afternoon in Victoria suits most senior students, and it falls in the middle of our teachers' day. The weekly time is agreed together after the free class.
 
+Related pages
+
 ## More for Victorian and Australian students
 
-- [Coding and AI classes in Melbourne](/vibe-coding-and-ai-agents-classes-in-melbourne): Victoria's school side and the AI agent skills Melbourne teens ask for.
-- [Australian competitions calendar](/australian-coding-maths-and-ai-competitions-calendar): Coding, maths and AI contests through the year.
-- [Informatics olympiad preparation](/australian-maths-trust-amc-aio-cat-preparation): The AIO, for students who want harder algorithm problems.
-- [HSC Software Engineering help](/hsc-software-engineering-help): The New South Wales senior computing course, for comparison.
-- [Coding classes in Australia](/coding-classes-in-australia): Every state, every age, and how online lessons fit time zones.
-- [Online maths tutoring in Australia](/online-maths-tutoring-australia): The logarithms and proof that Unit 4 leans on.
+The Victorian school picture, competitions beside the study, and other senior computing courses.
 
-## Contact
+### [Coding and AI classes in Melbourne](/vibe-coding-and-ai-agents-classes-in-melbourne)
 
-Book the free first class at [https://learn.modernagecoders.com/vce-algorithmics-hess-help](https://learn.modernagecoders.com/vce-algorithmics-hess-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Victoria's school side and the AI agent skills Melbourne teens ask for.
+
+### [Australian competitions calendar](/australian-coding-maths-and-ai-competitions-calendar)
+
+Coding, maths and AI contests through the year.
+
+### [Informatics olympiad preparation](/australian-maths-trust-amc-aio-cat-preparation)
+
+The AIO, for students who want harder algorithm problems.
+
+### [HSC Software Engineering help](/hsc-software-engineering-help)
+
+The New South Wales senior computing course, for comparison.
+
+### [Coding classes in Australia](/coding-classes-in-australia)
+
+Every state, every age, and how online lessons fit time zones.
+
+### [Online maths tutoring in Australia](/online-maths-tutoring-australia)
+
+The logarithms and proof that Unit 4 leans on.
+
+Start here
+
+## Begin with a free class on the hard part
+
+Tell us the unit, the area of study and the idea that is not landing. The free class works on that idea with our own problems, never with assessed work.
+
+Prefer to read first? Every syllabus is on the [course atlas](/course-atlas), our teaching method is set out on [how we teach](/how-we-teach), and the Victorian context sits on the [Melbourne page](/vibe-coding-and-ai-agents-classes-in-melbourne).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20class%20about%20VCE%20Algorithmics%20(HESS)%20in%20Victoria.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is the quickest way to reach us. The +91 prefix is Indian because the school runs from India; no Victorian office is claimed anywhere.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/vce-algorithmics-hess-help*

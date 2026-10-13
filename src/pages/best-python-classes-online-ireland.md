@@ -4,25 +4,21 @@ description: "Python classes online for learners in Ireland, ages 6 to 67: taugh
 canonical: https://learn.modernagecoders.com/best-python-classes-online-ireland
 source: src/pages/best-python-classes-online-ireland.html
 ---
-> Python suits Irish learners of any age: readable enough for a nine year old, powerful enough for professional data work, and the language Ireland's public statistics are served up for. We teach it live online in groups of fifteen to twenty placed by level, or one to one, from first programs through functions and files to reading data straight from the Central Statistics Office and training a first model. Learners practise on real Irish datasets, which is where the important lessons live, and the traps in them are taught deliberately. The first class is free; a place afterwards is USD 100 a month in a group or USD 150 a month one to one.
+> Python classes online for learners in Ireland, ages 6 to 67: taught live on real Irish public data, from first programs to APIs and analysis. First class free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Ireland](/coding-classes-in-ireland) / Python classes, Ireland
+In short
 
-Ireland · Python · Ages 6 to 67
+Python suits Irish learners of any age: readable enough for a nine year old, powerful enough for professional data work, and the language Ireland's public statistics are served up for. We teach it live online in groups of fifteen to twenty placed by level, or one to one, from first programs through functions and files to reading data straight from the Central Statistics Office and training a first model. Learners practise on real Irish datasets, which is where the important lessons live, and the traps in them are taught deliberately. The first class is free; a place afterwards is USD 100 a month in a group or USD 150 a month one to one.
 
-# Best Python classes online in Ireland
-
-Python is the language most people in Ireland should learn first, and the reason is not fashion. It reads almost like English, it is what the machine learning world runs on, and, usefully for anyone here, it is the language Ireland's own public data is built for. The Central Statistics Office publishes its statistics through a portal that hands out data in formats designed to be read by code, and the CSO itself says it uses open-source Python libraries in statistical production. So an Irish learner does not have to practise on invented examples. They can pull real population figures into a program in their first month, and discover, in their second, why those figures are harder to add up than they look. This page explains how we teach Python, live and in small groups, from six year olds writing their first lines to adults automating a working week.
-
-At a glance: For: Ages 6 to 67; Starts: No experience needed; Reaches: APIs, analysis, automation, AI; Practises on: Irish open data; Group: Fifteen to twenty at one level; Or: One to one; Hours: After school and evenings, Irish time; Start: A free first class. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three Python courses, by age
 
 The same language taught three ways, because a nine year old and a working adult need different first hours. Each card opens its syllabus.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass): For children of about nine and up: typed Python through puzzles and small games, with a first program that learns from examples.
-- [Python for Teens](/courses/python-complete-masterclass-teens): The whole language for secondary students, until writing a program from a blank file feels ordinary rather than daunting.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college): For college students and adults: from the first line to files, APIs, testing and the habits that make code worth keeping.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  PYTHON / 01 Python and AI for Kids For children of about nine and up: typed Python through puzzles and small games, with a first program that learns from examples. Open the syllabus →](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)  PYTHON / 02 Python for Teens The whole language for secondary students, until writing a program from a blank file feels ordinary rather than daunting. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)  PYTHON / 03 Python Masterclass For college students and adults: from the first line to files, APIs, testing and the habits that make code worth keeping. Open the syllabus →](/courses/python-programming-masterclass-zero-to-advanced-college)
+
+Why Python here
 
 ## Why Python is the right first language in Ireland
 
@@ -50,14 +46,14 @@ Its conference, PyCon Ireland 2026, takes place in Dublin on Saturday 21 Novembe
 
 Sources, read 16 September 2026: [CSO PxStat user guide](https://www.cso.ie/en/databases/userguides/pxstatuserguide/); [CSO, Port Visits Using Real-Time Shipping Data, methods](https://www.cso.ie/en/releasesandpublications/fp/fp-pvrts/portvisitsusingreal-timeshippingdata/datasourcemethodsandquality/); [python.ie](https://python.ie/) and [2026.pycon.ie](https://2026.pycon.ie/). We have no connection with Python Ireland.
 
+Irish data in Python
+
 ## Pulling real Irish statistics into a program
 
 This is a lesson our students reach within a few months, and it changes how they see the language.
 
-**How Ireland publishes statistics for code**
-
 | Thing | Detail |
-|---|---|
+| --- | --- |
 | Portal | data.cso.ie, the CSO's open data portal, running on PxStat |
 | Formats | JSON-stat, PX, XLSX and CSV, chosen by one segment of the web address |
 | Method | ReadDataset, documented on the CSO's own PxStat wiki, with anonymous access |
@@ -74,14 +70,14 @@ The population table carries one such note, and it is a good example of why they
 
 Sources: [the CSO's PxStat API wiki](https://github.com/CSOIreland/PxStat/wiki/API-Cube-RESTful), [json-stat.org tools](https://json-stat.org/tools/), and the [PEA01 table](https://data.cso.ie/table/PEA01) itself, read 16 September 2026.
 
+The lesson that sticks
+
 ## Ireland has 42.8 million people, and other things a computer will tell you
 
 Table PEA01 gives population estimates each April. Load it, group by year, add up the values, and for 2026 you get 42,800.1 thousand people. Ireland has about five and a half million. Nothing is broken; the learner asked the wrong question.
 
-**Adding up CSO table PEA01 for 2026, in thousands of persons**
-
 | What you add | Result | Comment |
-|---|---|---|
+| --- | --- | --- |
 | The official All ages row, both sexes | 5,525.6 | The right answer |
 | All 27 age rows, both sexes | 21,400.0 | Nearly four times too big |
 | Every row, all ages by all three sex categories | 42,800.1 | Almost eight times too big |
@@ -109,14 +105,14 @@ It is also why we teach on public data. A learner who has been burned once by a 
 
 Source: [CSO table PEA01, Population Estimates (Persons in April)](https://data.cso.ie/table/PEA01), read through the CSO API on 16 September 2026. The sums above are our own arithmetic on the published table, which is exactly the exercise students repeat.
 
+The rungs
+
 ## Five rungs of Python
 
 Ages vary enormously; the order does not. Children take the first rungs slowly and adults take them in weeks.
 
-**The Python route**
-
 | Rung | The learner can |
-|---|---|
+| --- | --- |
 | 1. First programs | Write, run and fix programs with variables, loops and conditions |
 | 2. Structure | Use functions, lists and dictionaries, and split a program into parts |
 | 3. The outside world | Read and write files, handle errors, and fetch data from an API |
@@ -126,63 +122,293 @@ Ages vary enormously; the order does not. Children take the first rungs slowly a
 ### When does it get useful?
 
 Around rung three for most adults, because that is where Python starts doing real jobs: renaming a thousand files, pulling a report, checking a spreadsheet.
+
 Where each rung leads next is set out on the [coding roadmap](/coding-roadmap).
 
 ### Certifications
 
 Some adult learners want a certificate at the end. We teach towards the standard Python certifications, though we are honest that a portfolio matters more to most employers.
+
 For where Python leads in analysis, see [data science in Ireland](/data-science-course-ireland).
+
+The catalogue
 
 ## Nine live Python courses
 
 Grouped by stage. The free first class decides which course and which rung.
 
+I
+
 ### Young learners
 
 First typed code
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass): Typed Python and a first learning program.
-- [Python for Teens](/courses/python-complete-masterclass-teens): The language in full, over the school years.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course): Python projects built with AI help, read line by line.
+PY / YOUNG / 01
+
+#### Python and AI for Kids
+
+Typed Python and a first learning program.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)
+
+PY / YOUNG / 02
+
+#### Python for Teens
+
+The language in full, over the school years.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+PY / YOUNG / 03
+
+#### Vibe Coding for Teens
+
+Python projects built with AI help, read line by line.
+
+[Open the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)II
 
 ### College and adults
 
 Python that does real work
 
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college): Zero to confident, including files and APIs.
-- [Python Web Development with Django and Flask](/courses/python-web-development-django-flask-course): Web applications in the language you know.
-- [Python and AI Automation](/courses/python-ai-automation-masterclass-college): Scripts that take the repetition out of a week.
+PY / ADULT / 01
+
+#### Python Masterclass
+
+Zero to confident, including files and APIs.
+
+[Open the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
+
+PY / ADULT / 02
+
+#### Python Web Development with Django and Flask
+
+Web applications in the language you know.
+
+[Open the syllabus](/courses/python-web-development-django-flask-course)
+
+PY / ADULT / 03
+
+#### Python and AI Automation
+
+Scripts that take the repetition out of a week.
+
+[Open the syllabus](/courses/python-ai-automation-masterclass-college)III
 
 ### Proof and depth
 
 Certificates and analysis
 
-- [PCEP and PCAP Certification](/courses/pcep-pcap-python-certification-course): The standard Python certifications, prepared properly.
-- [PCAP Certification Prep](/courses/pcap-python-certification-prep-course): The associate level, for people who want the badge.
-- [Data Science Masterclass](/courses/data-science-complete-masterclass-college): Where Python meets real analysis.
+PY / DEPTH / 01
+
+#### PCEP and PCAP Certification
+
+The standard Python certifications, prepared properly.
+
+[Open the syllabus](/courses/pcep-pcap-python-certification-course)
+
+PY / DEPTH / 02
+
+#### PCAP Certification Prep
+
+The associate level, for people who want the badge.
+
+[Open the syllabus](/courses/pcap-python-certification-prep-course)
+
+PY / DEPTH / 03
+
+#### Data Science Masterclass
+
+Where Python meets real analysis.
+
+[Open the syllabus](/courses/data-science-complete-masterclass-college)
+
+How the classes run
 
 ## Live Python, at an hour that suits Ireland
 
 Teaching is live rather than recorded, with teachers working from India at a weekly hour fixed in Irish time. India runs one clock all year and Ireland runs two, so the difference is four and a half hours in the Irish summer and five and a half in the winter. Children usually take an after-school slot and adults an evening one.
 
-- **After school** Children and teenagers, Irish time.
-- **Evening** Adults and college students.
-- **Weekend** Longer sessions for data projects.
+After school
 
-- **A free first class** The learner writes actual Python with a teacher, who then recommends a rung and a course.
-- **Fifteen to twenty per group** Learners at the same rung, so nobody is lost and nobody is bored.
-- **One to one** For a focused goal, an unusual schedule, or a learner who prefers privacy.
-- **Real datasets early** Irish public data appears as soon as a learner can read a file, because it teaches more than invented examples.
-- **Checks in the code** Students learn to make a program verify its own totals rather than trusting them.
-- **Work that is kept** Programs live in the learner's own repository, so a year of progress is visible.
+Children and teenagers, Irish time.
+
+Evening
+
+Adults and college students.
+
+Weekend
+
+Longer sessions for data projects.
+
+### A free first class
+
+The learner writes actual Python with a teacher, who then recommends a rung and a course.
+
+### Fifteen to twenty per group
+
+Learners at the same rung, so nobody is lost and nobody is bored.
+
+### One to one
+
+For a focused goal, an unusual schedule, or a learner who prefers privacy.
+
+### Real datasets early
+
+Irish public data appears as soon as a learner can read a file, because it teaches more than invented examples.
+
+### Checks in the code
+
+Students learn to make a program verify its own totals rather than trusting them.
+
+### Work that is kept
+
+Programs live in the learner's own repository, so a year of progress is visible.
+
+Student work
+
+## Python projects our students published
+
+Four things our students built and put online. The full collection is on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Python class fees
 
 One monthly price in US dollars, the same in every country apart from India, whatever the age of the learner or the course. No registration fee and nothing to commit to beyond the month.
 
-- Free first class: USD 0. Real Python written with a teacher. An honest view of the right rung. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty learners at one rung. The same teacher each week. Code read and corrected weekly. A certificate at the end.
-- One to one: USD 150 a month. A teacher for one learner. Built around a goal or deadline. Good for certification work.
+Free first class
+
+USD 0
+
+no card required
+
+- Real Python written with a teacher
+- An honest view of the right rung
+- No card needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners at one rung
+- The same teacher each week
+- Code read and corrected weekly
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one learner
+- Built around a goal or deadline
+- Good for certification work
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Our reviews on Google, unaltered and unpaid, from students and parents.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions
 
 ## What learners in Ireland ask about Python
 
@@ -226,15 +452,54 @@ After school, in the evening or at weekends, at a weekly hour set in the free cl
 
 We ring you at a sensible Irish hour and arrange the free first class. Nothing is charged unless the learner continues.
 
+Elsewhere on this site
+
 ## Where Python leads
 
-- [Data science course in Ireland](/data-science-course-ireland): Analysis on Irish open data.
-- [Build real AI projects in Ireland](/build-real-ai-projects-ireland): Models that actually get evaluated.
-- [Full stack software development](/full-stack-software-development-course-ireland): When Python meets the web.
-- [Best coding classes for teens in Ireland](/best-coding-classes-for-teens-ireland): Python in the school years.
-- [Best coding classes for adults in Ireland](/best-coding-classes-for-adults-ireland): Starting as an adult.
-- [Coding classes in Ireland](/coding-classes-in-ireland): The national page.
+Pages that build on the language.
 
-## Contact
+### [Data science course in Ireland](/data-science-course-ireland)
 
-Book the free first class at [https://learn.modernagecoders.com/best-python-classes-online-ireland](https://learn.modernagecoders.com/best-python-classes-online-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Analysis on Irish open data.
+
+### [Build real AI projects in Ireland](/build-real-ai-projects-ireland)
+
+Models that actually get evaluated.
+
+### [Full stack software development](/full-stack-software-development-course-ireland)
+
+When Python meets the web.
+
+### [Best coding classes for teens in Ireland](/best-coding-classes-for-teens-ireland)
+
+Python in the school years.
+
+### [Best coding classes for adults in Ireland](/best-coding-classes-for-adults-ireland)
+
+Starting as an adult.
+
+### [Coding classes in Ireland](/coding-classes-in-ireland)
+
+The national page.
+
+Start here
+
+## Write real Python in a free first class
+
+Leave a number and we will ring at a time that works in Ireland. In the free class the learner writes actual Python with a teacher and finds out which rung to start on.
+
+Want to look around first? There is [how we teach](/how-we-teach), every [course syllabus](/courses), and [projects our students published](/student-labs).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20first%20Python%20class%20for%20a%20learner%20in%20Ireland.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is free from an Irish phone and usually the quickest way to us. The number is Indian, as our teachers are based in India; we keep no office in Ireland.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/best-python-classes-online-ireland*

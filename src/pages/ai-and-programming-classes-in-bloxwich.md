@@ -4,46 +4,32 @@ description: "Live online AI and programming classes for Bloxwich, Leamore, Blak
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-bloxwich
 source: src/pages/ai-and-programming-classes-in-bloxwich.html
 ---
-> At the 2021 census the ONS recorded 51,875 usual residents in the Bloxwich built-up area and 284,124 across the borough of Walsall. The gazetteer suburbs of Leamore, Blakenall Heath, Little Bloxwich, Wallington Heath, Harden and Coal Pool all sit within that built-up area. Modern Age Coders teaches AI, programming, Python, vibe coding and maths to Bloxwich learners from age six to 67. Lessons are live on video with a tutor in India, in private or in a class of fifteen to twenty at the same stage. We want learners to ask how a dataset was collected before they trust what it says. The Bloxwich project maps the town's roads as a network and shows that a point reached by following a road has, on average, more roads than a point picked at random. One lesson is free to begin with. Continuing costs USD 100 a month for a group place or USD 150 a month for a private tutor.
+> Live online AI and programming classes for Bloxwich, Leamore, Blakenall Heath and Little Bloxwich: Python, vibe coding and agents, ages 6 to 67. Free first lesson.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [West Midlands region](/coding-and-ai-classes-in-west-midlands-region) / Bloxwich
-
-Bloxwich, Walsall, West Midlands / Live online
-
-# AI and programming classes in Bloxwich
-
-**Where can Bloxwich learners find the best AI and programming classes?** At the 2021 census the ONS recorded 51,875 usual residents in the Bloxwich built-up area and 284,124 across the borough of Walsall. The gazetteer suburbs of Leamore, Blakenall Heath, Little Bloxwich, Wallington Heath, Harden and Coal Pool all sit within that built-up area. Modern Age Coders teaches AI, programming, Python, vibe coding and maths to Bloxwich learners from age six to 67. Lessons are live on video with a tutor in India, in private or in a class of fifteen to twenty at the same stage. We want learners to ask how a dataset was collected before they trust what it says. The Bloxwich project maps the town's roads as a network and shows that a point reached by following a road has, on average, more roads than a point picked at random. One lesson is free to begin with. Continuing costs USD 100 a month for a group place or USD 150 a month for a private tutor.
-
-In 1991 the sociologist Scott Feld published a paper with a title nobody forgets: why your friends have more friends than you do. It is true for most people, and it is not an insult. Popular people appear on many friends lists, so when you look along a friendship you are more likely to arrive at one of them. The same arithmetic applies to anything joined by links, including junctions joined by roads. It matters for AI because a great deal of training data is gathered by following links, and whatever is reached that way is not a fair sample of what exists.
-
-Facts last verified 30 September 2026. Teaching is online; no Bloxwich branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentChoose a start
 
 ## AI and programming courses chosen for Bloxwich
 
 Four ways in, by age. A live first lesson comes free with each and no card is needed to reserve it.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): How to think: networks, counting and fair sampling explored with string, pins and paper.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Vibe coding for younger learners, making Scratch games with an AI and testing them properly.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Machine learning for teenagers, with the Bloxwich road network as a lesson in biased data.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Students and adults): Python from scratch through graphs, data and AI agents.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsHow to think: networks, counting and fair sampling explored with string, pins and paper.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsVibe coding for younger learners, making Scratch games with an AI and testing them properly.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensMachine learning for teenagers, with the Bloxwich road network as a lesson in biased data.See the syllabus](/courses/ai-ml-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)Students and adultsPython MasterclassPython from scratch through graphs, data and AI agents.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Place and numbers
 
 ## Bloxwich, Leamore, Blakenall Heath and Little Bloxwich
 
 What the census counted and which suburb names the gazetteer places in the town.
 
-**Usual residents, Census 2021 (ONS)**
-
 | Area | People |
-|---|---|
+| --- | --- |
 | Bloxwich built-up area | 51,875 |
 | Walsall borough | 284,124 |
 
@@ -53,16 +39,16 @@ The first row is the built-up area the ONS names Bloxwich; the second is the who
 
 Read [Walsall](/best-coding-and-ai-classes-in-walsall), [Wolverhampton](/best-coding-class-in-wolverhampton) or the [West Midlands county page](/coding-classes-in-the-west-midlands). The thinking behind our teaching is on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Bloxwich project
+
 ## The friendship paradox, measured on Bloxwich roads
 
 Junctions stand in for people and roads for friendships. The counting is the same.
 
 The learner downloads from OpenStreetMap every public road, from residential streets up to main roads, in a rectangle around the census centres of the Bloxwich built-up area: 1,308 mapped stretches. Service roads, tracks and footpaths are left out. Points where a road merely bends are removed, which leaves two kinds of point, road ends and junctions. Each point gets a number: how many roads meet there. To keep the count fair, the sample is the 1,676 points inside the rectangle whose neighbouring points are inside it as well, so nothing is cut off at the edge.
 
-**The 1,676 sampled points on the Bloxwich road network, our Python run**
-
 | Kind of point | How many | Share |
-|---|---|---|
+| --- | --- | --- |
 | Road end (one road) | 527 | 31.4% |
 | Three-way junction | 1,087 | 64.9% |
 | Four-way junction | 62 | 3.7% |
@@ -89,14 +75,14 @@ Build the graph from the OpenStreetMap download, run the two sampling methods 10
 
 Road data is from OpenStreetMap contributors under the Open Database Licence, fetched in a single Overpass query. The idea is from Feld (1991). The choice of road classes, the sample and all the figures are ours.
 
+Data and AI
+
 ## What a road network teaches about AI training data
 
 A model learns from what was collected, and collection has a shape.
 
-**From Bloxwich junctions to AI systems**
-
 | On the road network | In AI and programming |
-|---|---|
+| --- | --- |
 | Following a road led to junctions, not road ends | A web crawler reaches heavily linked pages first |
 | Road ends were 31.4% of points but 10.3% of arrivals | Quiet sources are under-represented in scraped data |
 | Two ways of sampling gave two averages | State how the data was gathered before quoting it |
@@ -107,14 +93,37 @@ Language models are trained largely on text found by following links, and recomm
 
 OpenStreetMap, the Office for National Statistics and postcodes.io are not connected with Modern Age Coders. The data is theirs and openly licensed; the measurements and any mistakes are ours.
 
+Progression
+
 ## Dots and string first, graphs and AI later
 
 Give us a year group and we will suggest a rung; the trial lesson lets us check it.
 
-- **Years 2 to 6: How to think** Counting, linking and sampling with things you can touch. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Making with AI** Scratch projects drafted with an AI and fixed by the child. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: AI and Python** Models, graphs and data, with attention to where data comes from. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Programming in depth** Python, generative AI and agents you can explain line by line. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
+Years 2 to 6
+
+### How to think
+
+Counting, linking and sampling with things you can touch.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Making with AI
+
+Scratch projects drafted with an AI and fixed by the child.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### AI and Python
+
+Models, graphs and data, with attention to where data comes from.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Programming in depth
+
+Python, generative AI and agents you can explain line by line.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)AI and sampling
 
 ## What is the friendship paradox, and why does it matter for AI?
 
@@ -126,30 +135,139 @@ Someone who has measured that gap will not read "trained on the internet" as "tr
 
 Bloxwich teenagers who understand how data is gathered can question an AI system instead of deferring to it, and programming is how they get there. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Practicalities
+
 ## Bloxwich lessons, taught live over video
 
 You need a computer with a camera and a connection stable enough for a video call. Nothing has to be installed before the trial.
 
-- **Learners do the work** The tutor sees the learner's screen and asks questions while they write and run their own code.
-- **Course chosen after the trial** We recommend a starting point once we have watched the learner think.
-- **Free to try** The trial is a real lesson, not a sales call, and it is not charged.
-- **Classes kept small** Between five and ten learners, grouped by level, joining from all over the UK.
-- **Term-time rhythm** Two lessons a week as a rule; we leave out Walsall school holidays if you send dates.
-- **Same UK hour all year** British Summer Time changes are absorbed by the tutor's timetable.
+### Learners do the work
 
-**Why not a room in Bloxwich?** A local room would mix ages and levels to fill seats. Online, each class is built from learners at one stage, and a live tutor can still look at every screen.
+The tutor sees the learner's screen and asks questions while they write and run their own code.
+
+### Course chosen after the trial
+
+We recommend a starting point once we have watched the learner think.
+
+### Free to try
+
+The trial is a real lesson, not a sales call, and it is not charged.
+
+### Classes kept small
+
+Between five and ten learners, grouped by level, joining from all over the UK.
+
+### Term-time rhythm
+
+Two lessons a week as a rule; we leave out Walsall school holidays if you send dates.
+
+### Same UK hour all year
+
+British Summer Time changes are absorbed by the tutor's timetable.
+
+Why not a room in Bloxwich?
+
+A local room would mix ages and levels to fill seats. Online, each class is built from learners at one stage, and a live tutor can still look at every screen.
+
+Fees
 
 ## Bloxwich fees
 
 Bloxwich is charged on the same international list as every country apart from India.
 
-- First class: USD 0. The first lesson, full length and free, with a recommendation at the end.
-- Group tuition: USD 100 a month. Group lessons, about eight in a month.
-- Private tuition: USD 150 a month. One-to-one lessons, about eight in a month.
+First class**USD 0**
+
+The first lesson, full length and free, with a recommendation at the end.
+
+Group tuition**USD 100**
+
+Group lessons, about eight in a month.
+
+Private tuition**USD 150**
+
+One-to-one lessons, about eight in a month.
 
 We price in US dollars and do not give a figure in pounds. No payment is taken for the trial, and invoices start only after a course and time slot have been agreed. See the pricing page for holidays, absences and changing format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Bloxwich%20and%20interested%20in%20a%20free%20AI%20or%20programming%20trial%20lesson.)Reviews
+
+## What West Midlands and other UK families say on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Arrange a free lesson for Bloxwich
+
+An age or school year and a favourite subject or hobby is all we need. The trial could be a dots-and-roads puzzle, an AI-assisted Scratch game, a first Python script, or a small network in code.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Bloxwich one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Bloxwich%20and%20interested%20in%20a%20free%20AI%20or%20programming%20trial%20lesson.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Questions from Bloxwich
+
+The paradox, the road project, AI, vibe coding and how lessons work.
 
 ### What is the population of Bloxwich?
 
@@ -191,10 +309,14 @@ The first is free. After that it is USD 100 a month in a group or USD 150 a mont
 
 Yes, when you tell us the dates.
 
+Nearby pages
+
 ## More West Midlands towns and their projects
 
 Go to [Walsall](/best-coding-and-ai-classes-in-walsall) (word meanings from text), [West Bromwich](/vibe-coding-and-ai-agents-classes-in-west-bromwich) or [Wolverhampton](/best-coding-class-in-wolverhampton). All of them are linked from the [West Midlands page](/coding-classes-in-the-west-midlands) and the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[WhatsApp the team](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Bloxwich%20and%20interested%20in%20a%20free%20AI%20or%20programming%20trial%20lesson.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-bloxwich](https://learn.modernagecoders.com/ai-and-programming-classes-in-bloxwich#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-bloxwich*

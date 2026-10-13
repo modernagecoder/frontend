@@ -4,46 +4,32 @@ description: "Live online coding, Python and maths classes across Aberdeenshire,
 canonical: https://learn.modernagecoders.com/coding-classes-in-aberdeenshire
 source: src/pages/coding-classes-in-aberdeenshire.html
 ---
-> Aberdeenshire is one council area, and Scotland's Census 2022 counted about 263,900 people there, in some 115,800 households, at 41.8 people per square kilometre against 69.8 for Scotland. Its largest towns are Peterhead, Inverurie, Fraserburgh, Westhill and Stonehaven. Teaching happens live by video from India, and the class a learner joins depends on what they can already do rather than their age. We teach anyone from 6 to 67, from Primary 1 to S6 and beyond, in groups of fifteen to twenty or one-to-one, in coding, Python, algorithms and maths. The Aberdeenshire project comes from the Braemar Gathering. We charge nothing for the opening lesson; continuing costs USD 100 per month in a small group or USD 150 per month on your own.
+> Live online coding, Python and maths classes across Aberdeenshire, from Peterhead, Inverurie and Fraserburgh to Westhill, Stonehaven, Ellon, Banchory and Huntly.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / Aberdeenshire
-
-Aberdeenshire / Live online
-
-# Coding classes in Aberdeenshire
-
-**What are the best coding classes in Aberdeenshire?** Aberdeenshire is one council area, and Scotland's Census 2022 counted about 263,900 people there, in some 115,800 households, at 41.8 people per square kilometre against 69.8 for Scotland. Its largest towns are Peterhead, Inverurie, Fraserburgh, Westhill and Stonehaven. Teaching happens live by video from India, and the class a learner joins depends on what they can already do rather than their age. We teach anyone from 6 to 67, from Primary 1 to S6 and beyond, in groups of fifteen to twenty or one-to-one, in coding, Python, algorithms and maths. The Aberdeenshire project comes from the Braemar Gathering. We charge nothing for the opening lesson; continuing costs USD 100 per month in a small group or USD 150 per month on your own.
-
-The Braemar Gathering says it has been held in its present form since 1832, on the first Saturday of September, and the next is on 4 September 2027. Any competition with many teams faces a scheduling puzzle that computer scientists love: how do you arrange the contests so that every team meets every other team exactly once, nobody has two contests at the same time, and the whole thing takes as few rounds as possible? The standard answer, called the circle method, fits in a dozen lines of Python. This page's project builds it, proves it works with a checker, handles an odd number of teams, and then makes the schedule fairer.
-
-Facts last verified 26 September 2026. Teaching is online; no Aberdeenshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Aberdeenshire
 
 ## Where Aberdeenshire learners begin
 
 A P4 pupil in Ellon who loves organising games, an S2 in Inverurie who likes puzzles with rules, an S5 in Stonehaven working towards Higher Computing Science, and an adult in Peterhead learning to program. Each starts with a free lesson.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): Logic puzzles and computational thinking, with step-by-step strategies and real-world challenges.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Typed Python for children, with games, puzzles and first steps with data and AI.
-- [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens) (Ages 13 to 18): Algorithms for teenagers, where every method is written, tested and judged by what it costs.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Adults): Python from zero for adults, building towards programs that organise real work.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsLogic puzzles and computational thinking, with step-by-step strategies and real-world challenges.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsTyped Python for children, with games, puzzles and first steps with data and AI.See the syllabus](/courses/python-ai-kids-masterclass)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)Ages 13 to 18Problem Solving for TeensAlgorithms for teenagers, where every method is written, tested and judged by what it costs.See the syllabus](/courses/problem-solving-dsa-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)AdultsPython MasterclassPython from zero for adults, building towards programs that organise real work.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Aberdeenshire in figures
 
 ## About 263,900 people, from the coast to the Cairngorms
 
 The council figures are Scotland's Census 2022 first results, which the National Records of Scotland rounds to the nearest hundred. Town figures are NRS locality estimates for mid-2020, a different source and year.
 
-**Aberdeenshire's twelve largest localities, NRS mid-2020 estimates**
-
 | Locality | Residents | Locality | Residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Peterhead | 19,060 | Portlethen | 8,940 |
 | Inverurie | 14,660 | Banchory | 7,440 |
 | Fraserburgh | 12,570 | Turriff | 4,700 |
@@ -57,16 +43,16 @@ Aberdeenshire is spread thin: no town reaches twenty thousand, and adding up all
 
 The city has its own council and its own page: [Aberdeen](/best-coding-class-in-aberdeen). For Scottish exams, see our [National 5 Computing Science](/national-5-computing-science-help) and [Higher Computing Science](/higher-computing-science-help) pages.
 
+The Aberdeenshire project
+
 ## Every team against every other, exactly once
 
 The circle method, a checker that nearly fooled us, and a fairer schedule.
 
 Imagine eight teams in a contest where each pair meets once. That is 28 contests, and with four arenas running at once they could fit into seven rounds. The circle method finds such a schedule. Write the teams round a circle, keep team 1 fixed, pair them across the circle for round one, then rotate everyone else one place and pair them again. After seven rotations every pair has met exactly once. The learner codes it with a list and a slice, and then writes the part that matters more: a checker that confirms every pair appears once and no team is in two contests in the same round.
 
-**Our schedules, built and checked in Python, 26 September 2026**
-
 | Teams | Rounds | Contests | Breaks, simple version | Breaks, alternating ends |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | 6 | 5 | 15 | 16 | 4 |
 | 7 (one sits out each round) | 7 | 21 | 32 | 5 |
 | 8 | 7 | 28 | 36 | 6 |
@@ -93,14 +79,14 @@ Add byes for odd numbers, write a checker, count breaks, and invent a rule that 
 
 The dates and history come from the Braemar Gathering's own website. The teams, contests and schedules are invented for teaching and do not describe how the Gathering organises any event.
 
+Why Braemar
+
 ## A Gathering on the first Saturday of September
 
 The Aberdeenshire link, in the Gathering's own words.
 
-**The Braemar Gathering, as its website describes it**
-
 | Point | The Gathering says |
-|---|---|
+| --- | --- |
 | When | Held on the first Saturday of September each year. |
 | Since | Run in its present form since 1832. |
 | The first meeting | On 20 July 1832, at a General Meeting held in Braemar Castle. |
@@ -111,16 +97,41 @@ Round robins are everywhere: school leagues, chess tournaments, sports fixtures,
 
 Modern Age Coders has no connection with the Braemar Gathering or Aberdeenshire Council. The Gathering's facts are its own; our schedules and any mistakes are ours.
 
-**Nearby pages** [Aberdeen](/best-coding-class-in-aberdeen) is surrounded by Aberdeenshire; [Inverness](/best-coding-class-in-inverness) is west and [Dundee](/best-coding-class-in-dundee) south. The [Scotland](/coding-and-ai-classes-in-scotland) page lists every council.
+Nearby pages
+
+[Aberdeen](/best-coding-class-in-aberdeen) is surrounded by Aberdeenshire; [Inverness](/best-coding-class-in-inverness) is west and [Dundee](/best-coding-class-in-dundee) south. The [Scotland](/coding-and-ai-classes-in-scotland) page lists every council.
+
+The path
 
 ## From team games to algorithm design
 
 The free lesson places each learner. The school year is a hint; ability decides.
 
-- **P1 to P4: Games with rules** Block coding games where turns and rules keep things fair. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **P5 to S2: Puzzles and Python** Logic puzzles and typed Python that organise lists, turns and teams. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **S3 to S6: Algorithms that work** Algorithms and full Python, useful for National 5, Higher and beyond, with testing built in. [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Programs for real work** Python and data structures for adults, from basics to scheduling and automation. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)
+P1 to P4
+
+### Games with rules
+
+Block coding games where turns and rules keep things fair.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)P5 to S2
+
+### Puzzles and Python
+
+Logic puzzles and typed Python that organise lists, turns and teams.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Python and AI for Kids](/courses/python-ai-kids-masterclass)S3 to S6
+
+### Algorithms that work
+
+Algorithms and full Python, useful for National 5, Higher and beyond, with testing built in.
+
+[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Programs for real work
+
+Python and data structures for adults, from basics to scheduling and automation.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)AI and checking
 
 ## An AI can write a fixture list. Who checks that every team meets every other?
 
@@ -132,30 +143,139 @@ Our own first checker was wrong, which is the other half of the lesson: tests ne
 
 Learning to code in 2026 gives an Aberdeenshire teenager the means to check the work an AI hands back. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How lessons run
+
 ## Deeside, Donside and the Buchan coast, all online
 
 Aberdeenshire covers a great deal of countryside, and for many homes the nearest club at the right level is a long way off. Online lessons make that irrelevant.
 
-- **At home, anywhere** A farmhouse near Turriff, a house in Westhill, a flat in Peterhead. The pupil types and runs the code, and the teacher sees the same screen and guides.
-- **Scottish school stages** Primary 1 to 7, S1 to S6, then National 5, Higher and Advanced Higher: lessons use the names Aberdeenshire schools use, and teaching is in English.
-- **A free first lesson** A real lesson, then honest advice on level and course. No card details are asked for.
-- **A group that matches** Classes of fifteen to twenty are built around a shared stage, not a shared postcode.
-- **Term and holiday rhythm** Most pupils have two lessons a week in term and pause when the school holidays arrive.
-- **Scottish clock, not ours** A lesson booked for 5pm in Aberdeenshire stays at 5pm UK time in March and October alike; our teachers, working on India time, move instead.
+### At home, anywhere
 
-**Why groups follow level** In a council area of small towns and villages, five learners at one stage free on the same evening rarely live near each other. Level-based groups let a learner in Banff or Laurencekirk join a class that fits.
+A farmhouse near Turriff, a house in Westhill, a flat in Peterhead. The pupil types and runs the code, and the teacher sees the same screen and guides.
+
+### Scottish school stages
+
+Primary 1 to 7, S1 to S6, then National 5, Higher and Advanced Higher: lessons use the names Aberdeenshire schools use, and teaching is in English.
+
+### A free first lesson
+
+A real lesson, then honest advice on level and course. No card details are asked for.
+
+### A group that matches
+
+Classes of fifteen to twenty are built around a shared stage, not a shared postcode.
+
+### Term and holiday rhythm
+
+Most pupils have two lessons a week in term and pause when the school holidays arrive.
+
+### Scottish clock, not ours
+
+A lesson booked for 5pm in Aberdeenshire stays at 5pm UK time in March and October alike; our teachers, working on India time, move instead.
+
+Why groups follow level
+
+In a council area of small towns and villages, five learners at one stage free on the same evening rarely live near each other. Level-based groups let a learner in Banff or Laurencekirk join a class that fits.
+
+Fees
 
 ## Fees in Aberdeenshire
 
 Fraserburgh or Banchory, the fee is the same, as it is in every country we teach apart from India.
 
-- First class: USD 0. A complete lesson of genuine work, then a recommended level and course.
-- Group tuition: USD 100 a month. About eight lessons a month with fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. About eight lessons a month, one-to-one.
+First class**USD 0**
+
+A complete lesson of genuine work, then a recommended level and course.
+
+Group tuition**USD 100**
+
+About eight lessons a month with fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+About eight lessons a month, one-to-one.
 
 We charge in US dollars and publish no pound prices. No bill arrives until the free lesson has settled a course and a weekly slot; the pricing page covers holidays, missed lessons and switching format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Aberdeenshire%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Reviews
+
+## Google reviews from families
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Aberdeenshire lesson
+
+Let us know the pupil's age or stage, P1 to S6 or adult, and one or two interests. A first lesson could be a Scratch team game, a first Python list, or the Braemar schedule on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Aberdeenshire one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Aberdeenshire%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Aberdeenshire questions
+
+The council area, the scheduling project and practical details.
 
 ### How many people live in Aberdeenshire?
 
@@ -197,10 +317,14 @@ The first lesson is free. From the second lesson a group place costs USD 100 mon
 
 Yes, if you like. Aberdeenshire Council fixes the term dates, and once you share them we build lesson breaks to match.
 
+Close by
+
 ## Pages near Aberdeenshire
 
 See [Aberdeen](/best-coding-class-in-aberdeen), [Inverness](/best-coding-class-in-inverness) and [Dundee](/best-coding-class-in-dundee), or the [Scotland](/coding-and-ai-classes-in-scotland) page for every council. The [UK hub](/coding-classes-in-united-kingdom) covers the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Aberdeenshire%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-aberdeenshire](https://learn.modernagecoders.com/coding-classes-in-aberdeenshire#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-aberdeenshire*

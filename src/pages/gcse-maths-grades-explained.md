@@ -6,10 +6,6 @@ source: src/pages/gcse-maths-grades-explained.html
 ---
 > GCSE maths grades 9 to 1 explained: how they compare with A* to G, what grade 4 and grade 5 mean for sixth form and resits, and how grade boundaries are set.
 
-# GCSE maths grades 1 to 9: what each grade means
-
-**The short answer.** GCSE maths is graded 9 to 1, with 9 the highest and U for ungraded. The bottom of grade 4 lines up with the bottom of an old C, and the Department for Education treats grade 4 as a standard pass. Students below grade 4 in maths keep studying it after 16. Grade boundaries are reset every year after marking.
-
 Courses for every target grade
 
 ## Pick the course for the grade you are aiming at.

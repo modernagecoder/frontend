@@ -6,10 +6,6 @@ source: src/pages/is-a-level-further-maths-worth-it.html
 ---
 > Is A level Further Maths worth taking? What the course adds beyond A level Maths, the core topics, the AS option, the extra workload and the students it suits.
 
-# Is A level Further Maths worth it? What it adds and what it asks
-
-**The short answer.** For a student who enjoys maths and is heading towards a maths-heavy subject, usually yes. The Department for Education describes Further Maths as deeper and broader than A level Maths, adding complex numbers and matrices. The price is a whole extra A level of demanding work, so it suits students secure in A level Maths.
-
 Courses for sixth form maths
 
 ## Further Maths taught live, alongside A level Maths.

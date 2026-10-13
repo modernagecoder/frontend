@@ -12,7 +12,7 @@ Live Online · South Kolkata · Ballygunge
 
 Modern Age Coders runs premium, live online coding and mathematics classes for Ballygunge families, in batches of 15-20 students taught by full-time engineers and maths graduates. We follow the exact ICSE Java (BlueJ) and CBSE Python syllabi that South Point, Modern High, Birla High and La Martiniere for Girls set, so your child gets board-grade rigour without the daily fight through Ballygunge Phari and Gariahat traffic. Book a free live demo.
 
-Small live batches (max 20)Taught by full-time engineersProject-based, not pre-recordedClasses can start within 24 hours[Book Free Demo Class](/book-demo)[Explore Courses](/courses)6-8Students per live batch₹1,499Per month, group10+Ballygunge schools served24 hrsFrom demo to first classLive Online · Ballygunge, Kolkata
+Small live batches (max 20)Taught by full-time engineersProject-based, not pre-recordedClasses can start within 24 hours[Book Free Demo Class](/book-demo)[Explore Courses](/courses)15-20Students per live batch₹1,499Per month, group10+Ballygunge schools served24 hrsFrom demo to first classLive Online · Ballygunge, Kolkata
 
 ## At a glance
 

@@ -4,46 +4,32 @@ description: "Live online vibe coding, AI agents, Python and coding classes for 
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-burnley
 source: src/pages/vibe-coding-and-ai-agents-classes-in-burnley.html
 ---
-> Burnley borough had 94,646 usual residents at the 2021 census; the ONS gives 78,255 for the Burnley built-up area and 10,125 for Padiham, with Hapton, Worsthorne and Cliviger much smaller. It is a young borough, with every age band from birth to 14 well above the England share. Children, teenagers and adults up to 67 in Burnley, Padiham, Worsthorne or Cliviger meet our India-based tutors on live video for vibe coding, AI agents, Python, coding and maths, either one-to-one or within a same-level class of fifteen to twenty. Vibe coding is building software by describing it to an AI; an AI agent goes a step further and takes actions, such as editing files. Our courses build judgement first. We waive the fee for the first lesson; regular lessons then cost USD 100 monthly with a group or USD 150 monthly on your own.
+> Live online vibe coding, AI agents, Python and coding classes for Burnley, Padiham, Hapton and Worsthorne learners aged 6 to 67. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [North West England](/coding-and-ai-classes-in-north-west-england) / Burnley
-
-Burnley, Lancashire, England / Live online
-
-# Vibe coding and AI agents classes in Burnley
-
-**Where can Burnley learners find the best vibe coding and AI agents classes?** Burnley borough had 94,646 usual residents at the 2021 census; the ONS gives 78,255 for the Burnley built-up area and 10,125 for Padiham, with Hapton, Worsthorne and Cliviger much smaller. It is a young borough, with every age band from birth to 14 well above the England share. Children, teenagers and adults up to 67 in Burnley, Padiham, Worsthorne or Cliviger meet our India-based tutors on live video for vibe coding, AI agents, Python, coding and maths, either one-to-one or within a same-level class of fifteen to twenty. Vibe coding is building software by describing it to an AI; an AI agent goes a step further and takes actions, such as editing files. Our courses build judgement first. We waive the fee for the first lesson; regular lessons then cost USD 100 monthly with a group or USD 150 monthly on your own.
-
-AI agents do more than talk. Given the right permissions they can edit spreadsheets, rename files and send messages, which makes the question of what they are allowed to touch as important as what they can say. Our Burnley project explores it with a small, real table. The census gives the borough 94,646 residents, but its five built-up areas, from Burnley itself to Cliviger, add up to only 92,160. A learner vibe codes an agent and gives it one instruction: make this table consistent. With full access, it quietly deletes 2,486 people from the official figure. In a sandbox, it does something far more sensible.
-
-Facts last verified 28 September 2026. Teaching is online; no Burnley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentBurnley course picks
 
 ## Vibe coding, AI agents and how-to-think courses
 
 Age and enthusiasm point to the right course. The first live lesson is free on every one, and no card details are taken.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think programme: rules, logic and thinking before acting.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games, then small apps made by describing them to AI and checking them.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects for teenagers, including the sandboxed agent.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): Language models and AI agents with tools, permissions and safeguards, in Python.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think programme: rules, logic and thinking before acting.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games, then small apps made by describing them to AI and checking them.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensPython, web and AI projects for teenagers, including the sandboxed agent.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseLanguage models and AI agents with tools, permissions and safeguards, in Python.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Burnley borough
 
 ## Plenty of children, fewer of the very old
 
 Nomis figures for six age bands in Burnley from the 2021 census, set against England.
 
-**Burnley borough and England, six age bands (Census 2021, TS007A)**
-
 | Age band | Burnley residents | Burnley % | England % |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 0 to 4 | 5,760 | 6.1% | 5.4% |
 | 5 to 9 | 6,174 | 6.5% | 5.9% |
 | 10 to 14 | 6,278 | 6.6% | 6.0% |
@@ -57,16 +43,16 @@ The three youngest bands each run 0.6 or 0.7 points above England, while the ove
 
 Why we teach thinking before AI tools is explained on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk). The county page is [Lancashire](/coding-classes-in-lancashire).
 
+The Burnley project
+
 ## An agent, a spreadsheet and a sandbox
 
 Give an agent a real table and a vague instruction, then decide what it may change.
 
 The learner builds a small table: the five built-up areas the ONS publishes for Burnley borough, and the census total, 94,646. Then they vibe code a simple agent with two tools, one to read the table and one to write it, and give it the instruction "make the parts add up to the total". The five areas sum to 92,160. The agent's obvious fix is to overwrite the total with 92,160. Another version scales every town up by 2.7 percent so they reach 94,646. Both look tidy, both run without an error, and both damage official figures that were correct all along.
 
-**What the Burnley agent does with different permissions, our demonstration, 28 September 2026**
-
 | Permission set | What the agent changes | Result |
-|---|---|---|
+| --- | --- | --- |
 | Read and write the original file | Total overwritten: 94,646 becomes 92,160 | 2,486 residents vanish from the record |
 | Read and write, "scale the parts" | Each town multiplied by 1.027 | Every published figure is now wrong |
 | Sandbox: read original, write a copy, log changes | Adds a row: outside listed areas, 2,486 (derived) | Nothing official altered; a person approves |
@@ -92,14 +78,14 @@ Add read-only originals, an audit log and an approval step to the agent.
 
 The total comes from Census 2021 on Nomis and the built-up areas from the ONS. The agent, its permission designs and the derived row are our own demonstration.
 
+Vibe coding and AI agents
+
 ## Why permissions matter more as AI does more
 
 An AI that can act needs limits that are designed, not assumed.
 
-**Built-up areas in Burnley borough, ONS 2021 published figures**
-
 | Built-up area | People |
-|---|---|
+| --- | --- |
 | Burnley | 78,255 |
 | Padiham | 10,125 |
 | Hapton | 2,240 |
@@ -111,14 +97,37 @@ Vibe coding an agent that edits files takes minutes. Deciding what it may edit, 
 
 The Office for National Statistics and Nomis are separate from Modern Age Coders. We reproduce their published figures; the agent and any error in the demonstration are ours.
 
+Stages
+
 ## From robot rules to safe AI agents
 
 Year group is a rough first guide, and the free lesson sharpens it.
 
-- **Years 2 to 7: How to think** Rules, consequences and logic. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Games and small apps built with AI, then tested. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python and AI safety** Files, data and careful automation beside GCSE and A level. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **Adults: AI agents with guardrails** Tools, permissions and approvals in Python. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Years 2 to 7
+
+### How to think
+
+Rules, consequences and logic.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Games and small apps built with AI, then tested.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python and AI safety
+
+Files, data and careful automation beside GCSE and A level.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)Adults
+
+### AI agents with guardrails
+
+Tools, permissions and approvals in Python.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Python Automation Course](/courses/python-ai-automation-masterclass-college)AI agents and safety
 
 ## Would you give an AI agent your only copy?
 
@@ -130,30 +139,139 @@ A learner who has sandboxed that agent knows to keep originals read-only, log ev
 
 Burnley teenagers who can build AI agents that are safe to trust will be valued wherever AI is used, which is why coding still matters in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Padiham to Cliviger, online
 
 Every home in the borough can join with a computer and a steady connection.
 
-- **The learner decides** Prompts, code and tests all come from the student; the tutor watches the shared screen and asks what should happen next.
-- **Pitched by the trial** Year 4 to Year 13, the free lesson sets the starting topic and notes the exam board.
-- **Free to start** The first lesson costs nothing and ends with clear advice.
-- **A class that fits** Each group has fifteen to twenty UK learners progressing together.
-- **Twice a week** No lessons in school holidays.
-- **A fixed time** The UK clock changes are ours to handle.
+### The learner decides
 
-**Why the groups are online** Five Burnley learners at the same level and free at one time rarely live side by side. Online, each joins the right class.
+Prompts, code and tests all come from the student; the tutor watches the shared screen and asks what should happen next.
+
+### Pitched by the trial
+
+Year 4 to Year 13, the free lesson sets the starting topic and notes the exam board.
+
+### Free to start
+
+The first lesson costs nothing and ends with clear advice.
+
+### A class that fits
+
+Each group has fifteen to twenty UK learners progressing together.
+
+### Twice a week
+
+No lessons in school holidays.
+
+### A fixed time
+
+The UK clock changes are ours to handle.
+
+Why the groups are online
+
+Five Burnley learners at the same level and free at one time rarely live side by side. Online, each joins the right class.
+
+Fees
 
 ## Burnley fees
 
 Burnley pays the international rate we charge outside India.
 
-- First class: USD 0. A full trial lesson, free, then our suggestion.
-- Group tuition: USD 100 a month. About eight live group lessons a month.
-- Private tuition: USD 150 a month. About eight live private lessons a month; Copilot Studio agent courses are private only.
+First class**USD 0**
+
+A full trial lesson, free, then our suggestion.
+
+Group tuition**USD 100**
+
+About eight live group lessons a month.
+
+Private tuition**USD 150**
+
+About eight live private lessons a month; Copilot Studio agent courses are private only.
 
 We charge in US dollars, not pounds. Billing begins after the trial has chosen the course and a weekly time; see the pricing page for holidays, absences and moving between formats.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20Burnley%20learner.)Reviews
+
+## Lancashire and UK families review us on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Burnley lesson
+
+Tell us the learner's age or school year and something they enjoy. We could begin with a rules-and-consequences puzzle, a Scratch game built with AI, some first Python, or a table-tidying agent that must be kept safe.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Burnley one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20Burnley%20learner.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Burnley questions
+
+AI agents, sandboxes, vibe coding and practical details.
 
 ### What is the population of Burnley?
 
@@ -195,10 +313,14 @@ Trial: free. After that, USD 100 per month in a class or USD 150 per month priva
 
 Yes; just send the dates.
 
+Nearby
+
 ## Other Lancashire and North West pages
 
 Nearby, [Blackburn](/ai-and-programming-classes-in-blackburn) and [Preston](/best-coding-class-in-preston) have their own pages, and [Stockton-on-Tees](/vibe-coding-and-ai-agents-classes-in-stockton-on-tees) has another AI agent project. Lancashire-wide options are on [our Lancashire page](/coding-classes-in-lancashire), the region sits under [North West England](/coding-and-ai-classes-in-north-west-england), and the [UK hub](/coding-classes-in-united-kingdom) leads to the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20Burnley%20learner.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-burnley](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-burnley#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-burnley*

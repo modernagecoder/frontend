@@ -4,46 +4,32 @@ description: "Live online coding and AI classes for Eccles, Patricroft, Monton, 
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-eccles
 source: src/pages/best-coding-and-ai-classes-in-eccles.html
 ---
-> In March 2021 the census found 41,125 usual residents in the Eccles built-up area and 269,923 in the City of Salford around it. Suburbs listed in the gazetteer include Patricroft, Monton, Winton, Peel Green, Ellesmere Park, Alder Forest, Westwood Park and Barton upon Irwell. Anyone in Eccles aged six to 67 can learn coding, AI, Python, vibe coding or maths with Modern Age Coders; our tutors, who are based in India, teach live over video, either one person at a time or fifteen to twenty people who are at the same point. The Eccles project treats the street map as a network and asks a question from network science: how often do three junctions all connect to each other? Learners count the triangles three ways, from hopelessly slow to instant, and then find out what creates them. A first lesson is free; a group costs USD 100 a month and one-to-one tuition USD 150 a month.
+> Live online coding and AI classes for Eccles, Patricroft, Monton, Winton and Peel Green: Python, vibe coding and AI agents for ages 6 to 67. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [North West England](/coding-and-ai-classes-in-north-west-england) / Eccles
-
-Eccles, Salford, Greater Manchester / Live online
-
-# Coding and AI classes in Eccles
-
-**Which coding and AI classes are best for Eccles?** In March 2021 the census found 41,125 usual residents in the Eccles built-up area and 269,923 in the City of Salford around it. Suburbs listed in the gazetteer include Patricroft, Monton, Winton, Peel Green, Ellesmere Park, Alder Forest, Westwood Park and Barton upon Irwell. Anyone in Eccles aged six to 67 can learn coding, AI, Python, vibe coding or maths with Modern Age Coders; our tutors, who are based in India, teach live over video, either one person at a time or fifteen to twenty people who are at the same point. The Eccles project treats the street map as a network and asks a question from network science: how often do three junctions all connect to each other? Learners count the triangles three ways, from hopelessly slow to instant, and then find out what creates them. A first lesson is free; a group costs USD 100 a month and one-to-one tuition USD 150 a month.
-
-In a group of friends, two of your friends are often friends with each other; that closes a triangle. Network scientists measure how common triangles are with a number called the clustering coefficient, and it has become a standard measure for networks of every kind, from friendships to power grids. A street network is a different creature. Eccles learners turn their town's roads into a graph of 1,543 junctions and road ends and discover that triangles are rare, but not nearly as rare as chance would make them, and that the ones that exist have a surprising source.
-
-Facts last verified 30 September 2026. Teaching is online; no Eccles branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentSuggested courses
 
 ## Coding and AI courses for Eccles
 
 Choose by age. Every course opens with a free live lesson, booked without a card.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): How to think: counting shapes in a drawing without missing or double-counting any.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Vibe coding for children: a Scratch game built with AI help and checked by its designer.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python for teenagers, with graphs, sets and the Eccles triangle project.
-- [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college) (Students and adults): Graphs and algorithm design in depth, the ground under machine learning on networks.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsHow to think: counting shapes in a drawing without missing or double-counting any.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsVibe coding for children: a Scratch game built with AI help and checked by its designer.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython for teenagers, with graphs, sets and the Eccles triangle project.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Structures & Algorithms Course course thumbnail](/images/dsa-college.webp)Students and adultsData Structures & Algorithms CourseGraphs and algorithm design in depth, the ground under machine learning on networks.See the syllabus](/courses/data-structures-algorithms-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)About Eccles
 
 ## Eccles, Patricroft, Monton and Winton
 
 Census counts and suburb names, each traced to its source.
 
-**People counted at the 2021 census (ONS)**
-
 | Boundary | Usual residents |
-|---|---|
+| --- | --- |
 | Eccles built-up area | 41,125 |
 | City of Salford | 269,923 |
 
@@ -53,6 +39,8 @@ The city total is on a far wider boundary, taking in Salford itself, Swinton, Wa
 
 The [Salford page](/best-coding-class-in-salford) covers the wider city and the [Greater Manchester page](/coding-classes-in-greater-manchester) the county. For what AI tools cannot do for a learner, read [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Eccles project
+
 ## Counting triangles in the Eccles street network
 
 A graph of 1,543 points, three counting methods from two minutes to two milliseconds, and a comparison with chance.
@@ -61,10 +49,8 @@ One query to OpenStreetMap returned 1,401 mapped roads, from the motorway to res
 
 A triangle is three points that are all linked to one another. The first method checks every possible trio, and there are 611,085,091 of them. Timed on five million trios, that approach would take about two minutes in Python for the full count. The second method walks each link and asks which points are neighbours of both ends, using Python sets: 4,119 lookups and 0.002 seconds. The third writes the network as a table of zeros and ones, multiplies it by itself three times with NumPy and reads off the triangles from the diagonal. All three give the same answer: 43 triangles.
 
-**Eccles street network, our Python run**
-
 | Measure | Value |
-|---|---|
+| --- | --- |
 | Triangles | 43 |
 | Junctions in at least one triangle | 123 of 1,543 |
 | Connected trios (two links sharing a point) | 3,008 |
@@ -89,14 +75,14 @@ Build the Eccles graph, count triangles three ways, time each, and compare with 
 
 Roads are from OpenStreetMap under the Open Database Licence, as mapped on 30 September 2026. The rectangle is our approximation of the town, not its boundary, and roads that leave it become dead ends. The clustering coefficient follows Watts and Strogatz (1998). Timings are from one laptop.
 
+The AI connection
+
 ## What triangles in a network teach about AI
 
 Machine learning on networks starts from exactly these counts.
 
-**What the Eccles count carries into AI work**
-
 | In the Eccles network | In AI and data science |
-|---|---|
+| --- | --- |
 | Three methods, one answer, very different speed | The algorithm matters more than the computer |
 | 43 triangles against 0.70 by chance | Compare a number with a random baseline before calling it big |
 | Roundabouts and slip roads made 25 of 43 | Check how data was recorded before explaining a pattern |
@@ -107,14 +93,37 @@ Triangle counts are a common ingredient when machine learning is applied to netw
 
 The map data belongs to OpenStreetMap's volunteer mappers and the place data to the ONS and postcodes.io, and none of them works with Modern Age Coders; the network, the counts and the conclusions are our own.
 
+How learners progress
+
 ## From dots and lines to network science in Python
 
 We start from the school year and confirm the level in the free lesson.
 
-- **Years 2 to 6: How to think** Counting carefully, spotting shapes and checking answers another way. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Scratch and first Python, with AI suggestions the child tests. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python and graphs** Sets, dictionaries, matrices and graph algorithms on real maps. [Python for Teens](/courses/python-complete-masterclass-teens), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **Adults: Algorithms and agents** Data structures in depth, then AI agents built on them. [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Years 2 to 6
+
+### How to think
+
+Counting carefully, spotting shapes and checking answers another way.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Scratch and first Python, with AI suggestions the child tests.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python and graphs
+
+Sets, dictionaries, matrices and graph algorithms on real maps.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)Adults
+
+### Algorithms and agents
+
+Data structures in depth, then AI agents built on them.
+
+[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)Networks and AI
 
 ## What is the clustering coefficient, and why does it matter for AI?
 
@@ -126,30 +135,139 @@ Having counted them, learners ask of any network statistic an AI reports: compar
 
 An Eccles teenager who can tell a real pattern from a mapping habit will question what an AI finds in data, and coding is where that judgement is built. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Lessons in practice
+
 ## How Eccles learners are taught
 
 Learners sit at home at a laptop or desktop with a webcam. The connection needs to be steady more than fast.
 
-- **Learner at the keyboard** The tutor asks and prompts; the learner types, runs and repairs the code.
-- **Course chosen after the trial** We only suggest a course once the free lesson has shown the learner's level.
-- **Trial at no charge** A complete lesson for free; we do not take card details to book it.
-- **Groups by level** Fifteen to twenty learners at the same stage, gathered from across the UK.
-- **Two per week in term** Tell us your Salford school holidays and we will pause for them.
-- **One UK time** When the clocks go forward or back, the tutor adapts and your slot stays.
+### Learner at the keyboard
 
-**Why live and online** A tutor on a live call spots a misunderstanding as it forms. With learners from all over the UK, we can group people by level far more exactly than one town allows.
+The tutor asks and prompts; the learner types, runs and repairs the code.
+
+### Course chosen after the trial
+
+We only suggest a course once the free lesson has shown the learner's level.
+
+### Trial at no charge
+
+A complete lesson for free; we do not take card details to book it.
+
+### Groups by level
+
+Fifteen to twenty learners at the same stage, gathered from across the UK.
+
+### Two per week in term
+
+Tell us your Salford school holidays and we will pause for them.
+
+### One UK time
+
+When the clocks go forward or back, the tutor adapts and your slot stays.
+
+Why live and online
+
+A tutor on a live call spots a misunderstanding as it forms. With learners from all over the UK, we can group people by level far more exactly than one town allows.
+
+Fees
 
 ## Fees in Eccles
 
 Eccles learners pay our standard international fees.
 
-- First class: USD 0. A full first lesson free, with a course recommendation at the end.
-- Group tuition: USD 100 a month. Group lessons, about eight a month.
-- Private tuition: USD 150 a month. Private lessons, about eight a month.
+First class**USD 0**
+
+A full first lesson free, with a course recommendation at the end.
+
+Group tuition**USD 100**
+
+Group lessons, about eight a month.
+
+Private tuition**USD 150**
+
+Private lessons, about eight a month.
 
 Fees are in US dollars; no sterling prices are quoted. There is no charge for the trial, and billing begins after you choose a course and a weekly time. Our pricing page sets out how holidays, missed lessons and format changes are handled.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Eccles%20and%20would%20like%20to%20book%20a%20free%20coding%20or%20AI%20lesson.)Reviews
+
+## Reviews on Google from Greater Manchester families and learners nationwide
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Try a free lesson in Eccles
+
+Share an age or year group and one of the learner's interests. The trial could be a count-the-triangles puzzle, a Scratch game built with AI, a first Python program, or a small network drawn in code.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Eccles one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Eccles%20and%20would%20like%20to%20book%20a%20free%20coding%20or%20AI%20lesson.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Eccles: frequently asked
+
+The triangle project, AI, vibe coding and practical details.
 
 ### How many people live in Eccles?
 
@@ -191,10 +309,14 @@ No charge for the first lesson; from then on it is USD 100 per month with a clas
 
 Yes, if you want. Tell us the weeks and we skip them.
 
+Greater Manchester
+
 ## More Greater Manchester pages
 
 Neighbouring pages include [Salford](/best-coding-class-in-salford), [Manchester](/best-coding-class-in-manchester) and [Bury](/online-coding-and-python-classes-in-bury), and none of them repeats this project. The [Greater Manchester page](/coding-classes-in-greater-manchester) and the [UK hub](/coding-classes-in-united-kingdom) have the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Chat with us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Eccles%20and%20would%20like%20to%20book%20a%20free%20coding%20or%20AI%20lesson.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-and-ai-classes-in-eccles](https://learn.modernagecoders.com/best-coding-and-ai-classes-in-eccles#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-eccles*

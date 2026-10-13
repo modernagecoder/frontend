@@ -4,34 +4,28 @@ description: "Learn to train AI in Ireland, not just prompt it: labels, splits, 
 canonical: https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-ireland
 source: src/pages/learn-to-train-ai-not-just-prompt-it-ireland.html
 ---
-> Training a model means deciding what to predict, choosing evidence you would genuinely have in advance, splitting the data so the test is fair, setting a baseline, and only then fitting anything. We teach that on real Irish data rather than on tidied teaching sets, because every important lesson lives in the mess: categories that repeat themselves as totals, missing values that are missing for a reason, and splits that let a model memorise instead of learn. Classes are live, in groups of fifteen to twenty at one level or one to one, for teenagers, students and adults. The first class is free, then USD 100 a month in a group or USD 150 a month one to one.
+> Learn to train AI in Ireland, not just prompt it: labels, splits, baselines and overfitting, worked on a real Irish dataset. Live online, first class free.
 
-[Home](/) / [Courses](/courses) / [AI and machine learning classes in Ireland](/ai-and-machine-learning-classes-in-ireland) / Learn to train AI, Ireland
+In short
 
-Ireland · Training, not prompting · Live online
+Training a model means deciding what to predict, choosing evidence you would genuinely have in advance, splitting the data so the test is fair, setting a baseline, and only then fitting anything. We teach that on real Irish data rather than on tidied teaching sets, because every important lesson lives in the mess: categories that repeat themselves as totals, missing values that are missing for a reason, and splits that let a model memorise instead of learn. Classes are live, in groups of fifteen to twenty at one level or one to one, for teenagers, students and adults. The first class is free, then USD 100 a month in a group or USD 150 a month one to one.
 
-# Learn to train AI, not just prompt it
-
-Prompting is a genuine skill, and it is a shallow one. It takes a weekend to get good at, the tools change every few months, and none of it tells you whether the answer you got is right. Training is the other half of AI, the half that decides what a model learns and how you would know if it had learned nothing useful. It involves choices no tool makes for you: what exactly are you predicting, what evidence would have been available at the moment of the prediction, how do you split the data so the test is honest, and what is the simplest possible approach your model has to beat? Ireland's 2024 National AI Strategy refresh makes a related point about people rather than models: "the skills needed for AI are not only digital skills, and the continued development of empathetic and cognitive skills will be crucial to the success of AI adoption in Ireland." This page shows the training half being done properly, on an Irish dataset anyone can download.
-
-At a glance: For: Teens, students and adults; Teaches: Labels, features, splits, baselines; Catches: Overfitting and group leakage; Uses: Open Irish data; Needs: Python, at least the basics; Group: Fifteen to twenty at one level; Or: One to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three courses where you train the model
 
 The mechanics of training, at three levels. Each card opens its syllabus.
 
-- [AI and Machine Learning Masterclass](/courses/ai-ml-masterclass-complete-college): The full training loop for students and adults: features, splits, fitting, validation and the arithmetic of deciding whether a result is real.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens): The same ideas at secondary-school pace, with a first model the student trains, breaks on purpose and then fixes.
-- [Orange Data Mining](/courses/orange-data-mining-machine-learning-course-for-college-students): Training made visible, for learners who want to see the pipeline before they write one in code.
+[![AI and ML Masterclass course thumbnail](/images/ai-ml-college.webp)  TRAIN / 01 AI and Machine Learning Masterclass The full training loop for students and adults: features, splits, fitting, validation and the arithmetic of deciding whether a result is real. Open the syllabus →](/courses/ai-ml-masterclass-complete-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)  TRAIN / 02 AI and Machine Learning for Teens The same ideas at secondary-school pace, with a first model the student trains, breaks on purpose and then fixes. Open the syllabus →](/courses/ai-ml-masterclass-teens)[![Orange Data Mining Course for College Students course thumbnail](/images/orange-data-mining-college.webp)  TRAIN / 03 Orange Data Mining Training made visible, for learners who want to see the pipeline before they write one in code. Open the syllabus →](/courses/orange-data-mining-machine-learning-course-for-college-students)
+
+Prompting or training
 
 ## What training actually asks of you
 
 Both skills matter. They are simply not the same work, and only one of them makes you able to judge a model.
 
-**Two different jobs**
-
 | Question | Prompting | Training |
-|---|---|---|
+| --- | --- | --- |
 | What do you control? | The words you send | The data, the labels, the features and the split |
 | How do you know it worked? | It looks right | It beats a baseline you defined in advance |
 | What can go wrong quietly? | A confident wrong answer | A score inflated by leakage or a bad split |
@@ -47,14 +41,14 @@ The practical version of that sentence, for a learner, is judgement: knowing whi
 
 Source: [Ireland's National AI Strategy: AI, Here for Good, Refresh 2024](https://enterprise.gov.ie/en/publications/publication-files/national-ai-strategy-refresh-2024.pdf), Department of Enterprise, Trade and Employment, read 16 September 2026.
 
+A dataset to train on
+
 ## Driving test pass rates: a training set every Irish family understands
 
 The Central Statistics Office publishes driving test figures from the Road Safety Authority, monthly, by test centre and test category. It is open under a Creative Commons Attribution 4.0 licence, and it is a superb first training set precisely because it is awkward.
 
-**CSO table ROA30, Driving Tests Delivered and Pass Rate**
-
 | Aspect | Measured |
-|---|---|
+| --- | --- |
 | Shape | An exact cube: 4 statistics by 68 months by 18 test categories by 73 centres, which is 357,408 rows |
 | Period | January 2021 to August 2026 |
 | The task we set | Predict the car-test pass rate for a given centre in a given month |
@@ -75,14 +69,14 @@ We publish no ranking of test centres, and neither should a learner. The data su
 
 Source: [ROA30, Driving Tests Delivered and Pass Rate](https://data.gov.ie/dataset/roa30-driving-tests-delivered-and-pass-rate), published by the Central Statistics Office with the Road Safety Authority as source, listed on data.gov.ie as "Licensed under: Creative Commons Attribution 4.0", read and measured on 16 September 2026. Contains Irish Public Sector Data licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) licence. All counts above are ours, computed from the published file.
 
+Five ways to fool yourself
+
 ## Five traps in one file, each of them measured
 
 These are not hypothetical warnings. Every number below came out of this file, and each one has ruined somebody's project at some point.
 
-**Measured traps in ROA30**
-
 | Trap | What we measured | What it costs you |
-|---|---|---|
+| --- | --- | --- |
 | A random split | A random 80/20 split put 67 centres in the test set, and all 67 also appeared in training | The model can memorise centres instead of learning; centre memorisation alone cuts the error by 24% |
 | Time drift | Yearly mean pass rates ran 55.90, 52.19, 52.72, 51.59, 53.14 and 54.71 across the period | Training on one era and testing across all of them is not forecasting |
 | Missing for a reason | 81.48% of raw cells are blank, from 20.6% for the car test to 100% for one category; 43 centres never miss a value and 4 always do | Dropping blank rows silently deletes whole categories and venues |
@@ -105,6 +99,8 @@ Working through these is the course. A learner who has met group leakage once, w
 
 And when the honest model finally beats 6.787, they know exactly what the improvement is worth, which is the only thing that separates a result from a screenshot.
 
+What it cannot tell you
+
 ## The limits are part of the training
 
 A model that predicts a number says nothing about why the number is what it is. Confusing those two is the most common mistake in applied AI.
@@ -121,14 +117,14 @@ We do not publish league tables from data like this, and we teach students not t
 
 Every project ends with the conditions under which the model would stop working: a new category, a new venue, a change in how the figures are recorded.
 
+The rungs
+
 ## Five rungs of training a model
 
 The order matters more than the algorithm. Most learners reach the last rung in three to five months.
 
-**The training loop, in order**
-
 | Rung | What the learner does |
-|---|---|
+| --- | --- |
 | 1. Define the target | States the exact quantity, the unit and the moment of prediction |
 | 2. Choose honest features | Keeps only evidence that exists before the target is known |
 | 3. Split with intent | Holds out groups or time periods, not random rows |
@@ -138,63 +134,293 @@ The order matters more than the algorithm. Most learners reach the last rung in 
 ### Where overfitting shows up
 
 Usually between rungs three and four: the training score climbs while the held-out score stalls. Seeing it happen once, on your own data, teaches more than any definition.
+
 The wider sequence of subjects is on the [coding roadmap](/coding-roadmap).
 
 ### After this
 
 Learners who want a finished, defensible project go on to [build real AI projects](/build-real-ai-projects-ireland), which works on a different Irish dataset.
+
 Those heading for agents and language models take [AI agents for students](/ai-agents-course-for-students-ireland) instead.
+
+The catalogue
 
 ## Nine live courses on training and evaluating models
 
 By level. The free first class decides where you start.
 
+I
+
 ### Before training
 
 The groundwork
 
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college): Enough Python to write a training pipeline yourself.
-- [Data Analysis Mastery](/courses/data-analysis-mastery-course-college): Reading a file properly before modelling it.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data): The same groundwork for secondary students.
+TRAIN / BASE / 01
+
+#### Python Masterclass
+
+Enough Python to write a training pipeline yourself.
+
+[Open the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
+
+TRAIN / BASE / 02
+
+#### Data Analysis Mastery
+
+Reading a file properly before modelling it.
+
+[Open the syllabus](/courses/data-analysis-mastery-course-college)
+
+TRAIN / BASE / 03
+
+#### Data Science for Teens
+
+The same groundwork for secondary students.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)II
 
 ### Training
 
 The loop itself
 
-- [AI and Machine Learning Masterclass](/courses/ai-ml-masterclass-complete-college): Features, splits, fitting, validation, judgement.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens): A model a teenager trains and interrogates.
-- [Orange Data Mining](/courses/orange-data-mining-machine-learning-course-for-college-students): The pipeline seen before it is written.
+TRAIN / CORE / 01
+
+#### AI and Machine Learning Masterclass
+
+Features, splits, fitting, validation, judgement.
+
+[Open the syllabus](/courses/ai-ml-masterclass-complete-college)
+
+TRAIN / CORE / 02
+
+#### AI and Machine Learning for Teens
+
+A model a teenager trains and interrogates.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+TRAIN / CORE / 03
+
+#### Orange Data Mining
+
+The pipeline seen before it is written.
+
+[Open the syllabus](/courses/orange-data-mining-machine-learning-course-for-college-students)III
 
 ### Beyond one model
 
 Scale and modern methods
 
-- [Artificial Intelligence Masterclass](/courses/artificial-intelligence-complete-masterclass-college): The field around the training loop.
-- [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college): What training means for language models.
-- [Data Science Masterclass](/courses/data-science-complete-masterclass-college): The analysis that surrounds any model.
+TRAIN / NEXT / 01
+
+#### Artificial Intelligence Masterclass
+
+The field around the training loop.
+
+[Open the syllabus](/courses/artificial-intelligence-complete-masterclass-college)
+
+TRAIN / NEXT / 02
+
+#### Generative AI: LLMs, RAG and Agents
+
+What training means for language models.
+
+[Open the syllabus](/courses/complete-generative-ai-masterclass-college)
+
+TRAIN / NEXT / 03
+
+#### Data Science Masterclass
+
+The analysis that surrounds any model.
+
+[Open the syllabus](/courses/data-science-complete-masterclass-college)
+
+How the classes run
 
 ## Live sessions with the data open in front of you
 
 Classes are live, with teachers working from India at a weekly hour set in Irish time. India does not change its clocks and Ireland does, so the gap is four and a half hours through the Irish summer and five and a half through the winter. Training sessions suit longer slots, so many learners choose a weekend time.
 
-- **Weekday evening** Steady weekly progress, Irish time.
-- **Weekend** Longer blocks for fitting and evaluation.
-- **Quiet periods** Intensive weeks during holidays.
+Weekday evening
 
-- **A free first class** You define a task and compute its baseline with a teacher, before any model is trained.
-- **Fifteen to twenty per group** Learners at one level, comparing splits and scores on the same data.
-- **One to one** For work data, a thesis, or a deadline that will not wait.
-- **Baseline before model** No result is accepted in class without the naive score it has to beat.
-- **Splits are checked** Every split is inspected for group and time leakage before training begins.
-- **Limits written down** Each project ends with the conditions under which its model should not be trusted.
+Steady weekly progress, Irish time.
+
+Weekend
+
+Longer blocks for fitting and evaluation.
+
+Quiet periods
+
+Intensive weeks during holidays.
+
+### A free first class
+
+You define a task and compute its baseline with a teacher, before any model is trained.
+
+### Fifteen to twenty per group
+
+Learners at one level, comparing splits and scores on the same data.
+
+### One to one
+
+For work data, a thesis, or a deadline that will not wait.
+
+### Baseline before model
+
+No result is accepted in class without the naive score it has to beat.
+
+### Splits are checked
+
+Every split is inspected for group and time leakage before training begins.
+
+### Limits written down
+
+Each project ends with the conditions under which its model should not be trusted.
+
+Student work
+
+## Models our learners trained
+
+Four projects our students published, with their code and their evaluation. More are gathered on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 One monthly fee in US dollars, identical in every country outside India, for any course on this page. Nothing to pay in advance for a term, and you stop whenever you choose.
 
-- Free first class: USD 0. A task defined and a baseline computed. An honest view of your starting level. No card taken.
-- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher throughout. Splits and scores reviewed weekly. A certificate at the end.
-- One to one: USD 150 a month. A teacher to yourself. Your own dataset and question. Suited to work projects and theses.
+Free first class
+
+USD 0
+
+no card required
+
+- A task defined and a baseline computed
+- An honest view of your starting level
+- No card taken
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners at one level
+- The same teacher throughout
+- Splits and scores reviewed weekly
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher to yourself
+- Your own dataset and question
+- Suited to work projects and theses
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Straight from Google: reviews written by our students and their families, never bought.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions
 
 ## What learners in Ireland ask about training models
 
@@ -238,15 +464,54 @@ Evenings and weekends, at a weekly hour set in the free class. Our teachers are 
 
 We phone you at a reasonable Irish hour and arrange the free class. There is no charge unless you continue.
 
+Elsewhere on this site
+
 ## Related pages
 
-- [Build real AI projects in Ireland](/build-real-ai-projects-ireland): A finished project, start to finish.
-- [Data science course in Ireland](/data-science-course-ireland): The data work underneath.
-- [Learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-ireland): The judgement side.
-- [AI agents course for professionals](/ai-agents-course-for-professionals-ireland): Agents at work.
-- [Best Python classes online in Ireland](/best-python-classes-online-ireland): The language for all of it.
-- [AI and machine learning classes in Ireland](/ai-and-machine-learning-classes-in-ireland): The national AI page.
+Neighbouring subjects.
 
-## Contact
+### [Build real AI projects in Ireland](/build-real-ai-projects-ireland)
 
-Book the free first class at [https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-ireland](https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+A finished project, start to finish.
+
+### [Data science course in Ireland](/data-science-course-ireland)
+
+The data work underneath.
+
+### [Learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-ireland)
+
+The judgement side.
+
+### [AI agents course for professionals](/ai-agents-course-for-professionals-ireland)
+
+Agents at work.
+
+### [Best Python classes online in Ireland](/best-python-classes-online-ireland)
+
+The language for all of it.
+
+### [AI and machine learning classes in Ireland](/ai-and-machine-learning-classes-in-ireland)
+
+The national AI page.
+
+Start here
+
+## Compute your first baseline in a free class
+
+Leave a number and we will ring at a time that suits you in Ireland. In the free class you take a real Irish dataset, define a task with a teacher and work out the number any model would have to beat.
+
+Prefer to read first? Try [how we teach](/how-we-teach), the [course syllabuses](/courses), and [projects our students published](/student-labs).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Ireland%20and%20would%20like%20a%20free%20first%20class%20on%20training%20AI%20models.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is free from an Irish number and usually reaches us fastest. Ours is an Indian number, because our teachers are in India, and we keep no Irish office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-ireland*

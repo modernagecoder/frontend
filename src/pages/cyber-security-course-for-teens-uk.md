@@ -4,34 +4,28 @@ description: "A cyber security course for UK teenagers: defensive skills, legal 
 canonical: https://learn.modernagecoders.com/cyber-security-course-for-teens-uk
 source: src/pages/cyber-security-course-for-teens-uk.html
 ---
-> The Computer Misuse Act 1990 makes it an offence to access computer material without permission, to impair a computer's operation, or to make or obtain tools for those purposes, and the National Crime Agency warns that teenagers often break it without realising: in an NCA survey of 10 to 16 year olds, 20% had engaged in behaviours that violate the Act. The NCA's Cyber Choices programme exists to steer that curiosity towards legal use. Employers need it: DSIT's 2025 research found 49% of UK businesses had a basic cyber security skills gap. Modern Age Coders teaches a defensive cyber security course for UK teenagers aged 13 to 18, live and online, covering how the internet works, passwords and hashing, phishing, malware concepts, encryption and web security, ending with instructor-built capture-the-flag puzzles. No coding is needed to start. Every exercise uses the student's own devices or puzzles built for the purpose. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
+> A cyber security course for UK teenagers: defensive skills, legal practice and the Computer Misuse Act as the NCA explains it. Ages 13 to 18, first lesson free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Cyber security for teens
+In short
 
-UK · Ages 13 to 18 · Defensive security
+The Computer Misuse Act 1990 makes it an offence to access computer material without permission, to impair a computer's operation, or to make or obtain tools for those purposes, and the National Crime Agency warns that teenagers often break it without realising: in an NCA survey of 10 to 16 year olds, 20% had engaged in behaviours that violate the Act. The NCA's Cyber Choices programme exists to steer that curiosity towards legal use. Employers need it: DSIT's 2025 research found 49% of UK businesses had a basic cyber security skills gap. Modern Age Coders teaches a defensive cyber security course for UK teenagers aged 13 to 18, live and online, covering how the internet works, passwords and hashing, phishing, malware concepts, encryption and web security, ending with instructor-built capture-the-flag puzzles. No coding is needed to start. Every exercise uses the student's own devices or puzzles built for the purpose. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
 
-# Cyber security course for teens in the UK
-
-Curiosity about how systems break is exactly what the cyber security industry wants. It is also where a lot of teenagers get into trouble without meaning to. The National Crime Agency reports that in a survey of children aged 10 to 16, 20% engaged in behaviours that violate the Computer Misuse Act, rising to 25% among those who game, and that many people involved in low-level cyber crime "are unaware that their actions are criminal". Logging into a friend's account with a password you watched them type, knocking a rival offline in a game with a booter tool, downloading software to get into someone else's laptop: the NCA uses all three as examples of offences. At the same time, the government's own research finds that nearly half of UK businesses have a basic cyber skills gap. This course sits between those two facts. It teaches UK teenagers how attacks work and how defence wins, and it keeps every exercise on the legal side of the line: their own devices and accounts, puzzles built by the instructor, and nothing touched without permission.
-
-At a glance: For: UK teenagers aged 13 to 18; Coding needed: None to start; Length: 24 weeks over six months; Covers: Networks, passwords, phishing, malware, encryption; Ends with: Instructor-built capture-the-flag puzzles; Practice on: Own devices and built puzzles only; Group: Fifteen to twenty, or one to one; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three courses for a teenager interested in security
 
 The defensive security course itself, the programming that deeper security work needs, and how the web works underneath. Each card opens the syllabus.
 
-- [Cybersecurity for Teens](/courses/cybersecurity-course-for-teens-ethical-defensive): Six months of defensive security, from how the internet works to a capture-the-flag capstone. No coding needed.
-- [Python for Teens](/courses/python-complete-masterclass-teens): The language most security scripting and tooling is written in, learned properly.
-- [Backend Coding for Teens](/courses/backend-coding-masterclass-for-teens): Servers, APIs and databases, the places where web security is won or lost.
+[![Cybersecurity for Teens course thumbnail](/images/cybersecurity-teens.webp)  CYT / 01 Cybersecurity for Teens Six months of defensive security, from how the internet works to a capture-the-flag capstone. No coding needed. Open the syllabus →](/courses/cybersecurity-course-for-teens-ethical-defensive)[![Python for Teens course thumbnail](/images/python-teens.webp)  CYT / 02 Python for Teens The language most security scripting and tooling is written in, learned properly. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Backend Development for Teens course thumbnail](/images/backend-teens.webp)  CYT / 03 Backend Coding for Teens Servers, APIs and databases, the places where web security is won or lost. Open the syllabus →](/courses/backend-coding-masterclass-for-teens)
+
+The law
 
 ## The Computer Misuse Act, as the NCA explains it to teenagers
 
 The NCA's Cyber Choices programme "was created to help people make informed choices and to use their cyber skills in a legal way". Its page sets out the Act section by section, each with an example.
 
-**Computer Misuse Act 1990, with the NCA's own examples**
-
 | Section | Offence | The NCA's example |
-|---|---|---|
+| --- | --- | --- |
 | 1 | Unauthorised access to computer material | Adam watches a friend type a password, then later logs in without permission and reads their messages |
 | 2 | Unauthorised access with intent to commit or facilitate further offences | Raj uses a teacher's unattended tablet to buy things with the saved card |
 | 3 | Unauthorised acts impairing, or reckless as to impairing, a computer's operation | Sarah uses a booter tool to knock a friend offline so she can win a game |
@@ -52,14 +46,14 @@ None of this is meant to frighten a curious teenager away from the subject. The 
 
 Sources, read 21 September 2026: [National Crime Agency, Cyber Choices](https://www.nationalcrimeagency.gov.uk/cyber-choices); [NCA, One in five children found to engage in illegal activity online](https://www.nationalcrimeagency.gov.uk/news/one-in-five-children-found-to-engage-in-illegal-activity-online); [NCA, Rise in school cyber crime attacks sparks NCA education drive](https://www.nationalcrimeagency.gov.uk/news/rise-in-school-cyber-crime-attacks-sparks-nca-education-drive), 17 January 2022. Section wording is as the NCA presents it; this page is not legal advice.
 
+The skills gap
+
 ## Half of UK businesses lack basic cyber skills
 
 From the Department for Science, Innovation and Technology's Cyber security skills in the UK labour market 2025, first published on 19 September 2025.
 
-**Cyber security skills in the UK, DSIT 2025**
-
 | Finding | Published figure |
-|---|---|
+| --- | --- |
 | Businesses with a basic cyber skills gap | 49% |
 | Charities with a basic skills gap | 59% |
 | Public sector organisations with a basic skills gap | 14% |
@@ -82,14 +76,14 @@ For a teenager, that means a degree is one route among several; our page on [deg
 
 Source, read 21 September 2026: [DSIT, Cyber security skills in the UK labour market 2025](https://www.gov.uk/government/publications/cyber-security-skills-in-the-uk-labour-market-2025/cyber-security-skills-in-the-uk-labour-market-2025). The workforce estimate covers the end of 2024.
 
+Practising legally
+
 ## Where a curious teenager can practise without breaking the law
 
 The rule is simple enough to put on a sticky note: only your own devices and accounts, only systems built for practice, and never anything without clear permission.
 
-**Legal and illegal, side by side**
-
 | Legal practice | The offence it can turn into |
-|---|---|
+| --- | --- |
 | Auditing your own accounts and passwords | Trying passwords on someone else's account |
 | Hardening your own home network settings, with your household's agreement | Scanning or testing a network you do not own |
 | Solving capture-the-flag puzzles built for the purpose | Attacking a real website to see if it works |
@@ -110,14 +104,14 @@ The NCA encourages parents and teachers of 10 to 16 year olds to help them under
 
 If a teenager has already crossed a line, the Cyber Choices programme is delivered through Regional Organised Crime Units and local police cyber teams. We are a teaching organisation, not part of that programme.
 
+The course
+
 ## Six months of defensive security
 
 Cybersecurity for Teens runs for 24 weeks over six months, for ages 13 to 18, with no coding required to start.
 
-**The course month by month**
-
 | Month | Title | What it builds |
-|---|---|---|
+| --- | --- | --- |
 | 1 | How the Internet Actually Works | Networks, addresses and what really happens when you load a page |
 | 2 | Passwords, Hashing, and Proving Who You Are | Why strong passwords work, how hashing protects them, and two-factor login |
 | 3 | Phishing and Social Engineering | How people, not machines, are usually the way in, and how to spot it |
@@ -139,14 +133,14 @@ Solutions are written out, because explaining how a puzzle was solved is part of
 
 Students who want to go further usually add programming next, since scripting underpins most technical security work. Python is the usual choice, then web development to understand the systems being defended. For school exams, security topics also appear in GCSE computer science, and our [AQA GCSE computer science](/aqa-gcse-computer-science-8525-help) page covers that specification.
 
+Stages
+
 ## Four stages for a teenager in security
 
 Placement depends on what a student already knows, not age.
 
-**From safe habits to technical depth**
-
 | Stage | What should be true |
-|---|---|
+| --- | --- |
 | 1. Safe and aware | Your own accounts are secured and you can spot a phishing attempt |
 | 2. Understands the machinery | You can explain networks, hashing and encryption in your own words |
 | 3. Solves puzzles | You work through capture-the-flag challenges and write up your solutions |
@@ -155,63 +149,293 @@ Placement depends on what a student already knows, not age.
 ### Stage three is where it clicks
 
 Puzzles turn knowledge into skill, legally.
+
 The wider sequence of subjects is on the [coding roadmap](/coding-roadmap).
 
 ### Stage four opens doors
 
 Programming is what turns an interest in security into a technical career path.
+
 It comes after the defensive foundations, not before.
+
+The catalogue
 
 ## Nine courses around cyber security
 
 Security first, then the programming and systems knowledge that deepen it.
 
+I
+
 ### Security
 
 Defensive foundations
 
-- [Cybersecurity for Teens](/courses/cybersecurity-course-for-teens-ethical-defensive): Six months of defence, ending in capture-the-flag.
-- [AI Tools for Teens](/courses/teens-ai-tools-mastery-course): Using AI assistants well, and checking what they produce.
-- [GCSE Computer Science](/courses/gcse-computer-science-course): The exam subject, including its networks and security topics.
+CYT / SEC / 01
+
+#### Cybersecurity for Teens
+
+Six months of defence, ending in capture-the-flag.
+
+[Open the syllabus](/courses/cybersecurity-course-for-teens-ethical-defensive)
+
+CYT / SEC / 02
+
+#### AI Tools for Teens
+
+Using AI assistants well, and checking what they produce.
+
+[Open the syllabus](/courses/teens-ai-tools-mastery-course)
+
+CYT / SEC / 03
+
+#### GCSE Computer Science
+
+The exam subject, including its networks and security topics.
+
+[Open the syllabus](/courses/gcse-computer-science-course)II
 
 ### Programming
 
 For technical depth
 
-- [Python for Teens](/courses/python-complete-masterclass-teens): The scripting language of security work.
-- [Problem Solving and DSA](/courses/problem-solving-dsa-masterclass-teens): The logical thinking puzzles depend on.
-- [Git and GitHub for Teens](/courses/git-github-version-control-course-for-teens): Keeping and sharing your own work properly.
+CYT / PRG / 01
+
+#### Python for Teens
+
+The scripting language of security work.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+CYT / PRG / 02
+
+#### Problem Solving and DSA
+
+The logical thinking puzzles depend on.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
+
+CYT / PRG / 03
+
+#### Git and GitHub for Teens
+
+Keeping and sharing your own work properly.
+
+[Open the syllabus](/courses/git-github-version-control-course-for-teens)III
 
 ### Systems
 
 What security protects
 
-- [Backend Coding for Teens](/courses/backend-coding-masterclass-for-teens): Servers and APIs, from the defender's side.
-- [MySQL for Teens](/courses/mysql-mastery-for-teens): Databases, and why input must be handled safely.
-- [Full Stack Web Development](/courses/full-stack-web-development-teens-masterclass): Building a web application end to end.
+CYT / SYS / 01
+
+#### Backend Coding for Teens
+
+Servers and APIs, from the defender's side.
+
+[Open the syllabus](/courses/backend-coding-masterclass-for-teens)
+
+CYT / SYS / 02
+
+#### MySQL for Teens
+
+Databases, and why input must be handled safely.
+
+[Open the syllabus](/courses/mysql-mastery-for-teens)
+
+CYT / SYS / 03
+
+#### Full Stack Web Development
+
+Building a web application end to end.
+
+[Open the syllabus](/courses/full-stack-web-development-teens-masterclass)
+
+How lessons run
 
 ## Live lessons after school
 
 Teachers work from India, which keeps one clock all year; the UK is four and a half hours behind India in British Summer Time and five and a half behind in winter. After-school and weekend times in the UK are easy to arrange.
 
-- **After school** An early-evening weekday slot in UK time.
-- **Saturday** A longer session for puzzle work.
-- **Sunday** For teenagers busy on Saturdays.
+After school
 
-- **A free first lesson** We find out what the student knows and what draws them to security.
-- **Groups** Fifteen to twenty teenagers at the same level.
-- **One to one** For a faster pace or a particular interest.
-- **Legal by design** Every exercise uses the student's own devices or puzzles built for the purpose.
-- **Explained, not just shown** Students write up how and why, not only what worked.
-- **Ages 13 to 18** Taught at a level that respects teenagers without assuming prior coding.
+An early-evening weekday slot in UK time.
+
+Saturday
+
+A longer session for puzzle work.
+
+Sunday
+
+For teenagers busy on Saturdays.
+
+### A free first lesson
+
+We find out what the student knows and what draws them to security.
+
+### Small groups
+
+Five to ten teenagers at the same level.
+
+### One to one
+
+For a faster pace or a particular interest.
+
+### Legal by design
+
+Every exercise uses the student's own devices or puzzles built for the purpose.
+
+### Explained, not just shown
+
+Students write up how and why, not only what worked.
+
+### Ages 13 to 18
+
+Taught at a level that respects teenagers without assuming prior coding.
+
+Student work
+
+## Projects built by our students
+
+Four projects finished by our students. More, across all ages, are in [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 One monthly fee in US dollars, the same everywhere outside India, with no enrolment fee and no commitment beyond the month.
 
-- Free first class: USD 0. A look at what the student already knows. A suggested route through security. No payment details needed.
-- Group batch: USD 100 a month. Five to ten teenagers at one level. The same teacher each week. Capture-the-flag practice. Stop at the end of any month.
-- One to one: USD 150 a month. A teacher for one student. A pace set by the student. Suits a particular interest or goal.
+Free first class
+
+USD 0
+
+no card required
+
+- A look at what the student already knows
+- A suggested route through security
+- No payment details needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Five to ten teenagers at one level
+- The same teacher each week
+- Capture-the-flag practice
+- Stop at the end of any month
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one student
+- A pace set by the student
+- Suits a particular interest or goal
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Parents' and students' reviews from Google, exactly as posted.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions from parents and teenagers
 
 ## What families ask about cyber security
 
@@ -255,15 +479,54 @@ The first lesson is free. After that it is USD 100 a month in a group or USD 150
 
 After school on weekdays or at weekends in UK time, agreed in the first lesson. Teachers are four and a half hours ahead of the UK in summer and five and a half in winter.
 
+Elsewhere on this site
+
 ## Related pages
 
-- [CyberFirst Girls competition](/cyberfirst-girls-competition-preparation): The NCSC competition for girls.
-- [National Cipher Challenge](/national-cipher-challenge-preparation): Code-breaking for school students.
-- [Coding before a degree apprenticeship](/coding-before-a-degree-apprenticeship-uk): Including the cyber security option.
-- [Coding classes for teens](/best-coding-classes-for-teens-uk): How we teach teenagers.
-- [Python classes online](/best-python-classes-online-uk): The next step after security basics.
-- [Coding classes in the UK](/coding-classes-in-united-kingdom): All our UK pages.
+Competitions, routes into work, and programming for teens.
 
-## Contact
+### [CyberFirst Girls competition](/cyberfirst-girls-competition-preparation)
 
-Book the free first class at [https://learn.modernagecoders.com/cyber-security-course-for-teens-uk](https://learn.modernagecoders.com/cyber-security-course-for-teens-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The NCSC competition for girls.
+
+### [National Cipher Challenge](/national-cipher-challenge-preparation)
+
+Code-breaking for school students.
+
+### [Coding before a degree apprenticeship](/coding-before-a-degree-apprenticeship-uk)
+
+Including the cyber security option.
+
+### [Coding classes for teens](/best-coding-classes-for-teens-uk)
+
+How we teach teenagers.
+
+### [Python classes online](/best-python-classes-online-uk)
+
+The next step after security basics.
+
+### [Coding classes in the UK](/coding-classes-in-united-kingdom)
+
+All our UK pages.
+
+Start here
+
+## Book a free first lesson
+
+Leave a number and we will call at a UK time that suits you. Tell us what interests your teenager about security; the lesson starts there and ends with a route through the course.
+
+Reading first? See the [course list](/courses), [our approach to teaching](/how-we-teach), and [finished student work](/student-labs).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teenager%20is%20interested%20in%20cyber%20security%20in%20the%20UK%20and%20we%20would%20like%20a%20free%20first%20lesson.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp from a UK phone is the quickest way to reach us. We are based in India, so the number starts +91, and there is no UK office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/cyber-security-course-for-teens-uk*

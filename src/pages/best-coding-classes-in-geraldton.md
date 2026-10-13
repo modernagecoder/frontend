@@ -4,46 +4,32 @@ description: "Live online coding, Python and data classes for Geraldton teenager
 canonical: https://learn.modernagecoders.com/best-coding-classes-in-geraldton
 source: src/pages/best-coding-classes-in-geraldton.html
 ---
-> Ones where a Geraldton teenager or adult writes real programs against real Western Australian data while a teacher watches the reasoning, not just the output. The urban area counted 38,595 residents at the 2021 Census. Our lessons are live and online, one to one or in a small group at your level, and the first is free.
+> Live online coding, Python and data classes for Geraldton teenagers and adults, built on real WA open data, with a teacher in small groups or one to one.
 
-[Home](/) / [Western Australia](/coding-and-ai-classes-in-western-australia) / [Australia](/coding-classes-in-australia) / Geraldton
-
-Geraldton, Western Australia / Live online
-
-# Coding classes in Geraldton
-
-**What are the best coding classes in Geraldton?** Ones where a Geraldton teenager or adult writes real programs against real Western Australian data while a teacher watches the reasoning, not just the output. The urban area counted 38,595 residents at the 2021 Census. Our lessons are live and online, one to one or in a small group at your level, and the first is free.
-
-The WA Department of Transport publishes its regional long-term cycle network as an open map layer, and 222 of its lines belong to the Geraldton 2050 strategy. Load them into Python, treat every line end as a junction, and ask a simple question: how many separate networks are there? Taken literally, the answer is 218, because only 4 of the 444 line ends land on exactly the same coordinate as another. Allow ends within one metre to join and the count drops to 164; allow 100 metres and it falls to 37. Our Geraldton learners discover that the number of networks is partly a choice, and learn how to make that choice honestly.
-
-Facts last verified 9 October 2026. Teaching is online; no Geraldton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Geraldton
 
 ## Where a Geraldton learner might start
 
 Four routes matched to the project on this page. The free first lesson settles which one, with no card details asked for.
 
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python from scratch to reading map data, loops over coordinates and small graph programs.
-- [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens) (Ages 14 to 18): Graphs, connected pieces and search, the ideas behind joining up a network.
-- [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college) (University and adult): Union of nearby points, spatial indexes and why a tolerance changes an answer.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (Adults working with data): Checking a published dataset before trusting the totals it produces.
+[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython from scratch to reading map data, loops over coordinates and small graph programs.See the syllabus](/courses/python-complete-masterclass-teens)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)Ages 14 to 18Problem Solving for TeensGraphs, connected pieces and search, the ideas behind joining up a network.See the syllabus](/courses/problem-solving-dsa-masterclass-teens)[![Data Structures & Algorithms Course course thumbnail](/images/dsa-college.webp)University and adultData Structures & Algorithms CourseUnion of nearby points, spatial indexes and why a tolerance changes an answer.See the syllabus](/courses/data-structures-algorithms-masterclass-college)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)Adults working with dataData Analysis CourseChecking a published dataset before trusting the totals it produces.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Geraldton in the Census
 
 ## A coastal city of 38,595 on the Midwest coast
 
 Figures from the 2021 Census QuickStats for the Geraldton urban area, set beside Western Australia and the nation where the bureau publishes them.
 
-**Geraldton in the 2021 Census**
-
 | Measure | Geraldton | Western Australia | Australia |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | People counted | 38,595 | Not shown | Not shown |
 | Median age | 40 | Not shown | Not shown |
 | Families | 9,955 | Not shown | Not shown |
@@ -66,14 +52,14 @@ There were 2,454 residents aged 15 to 19 and 2,033 aged 20 to 24 on Census night
 
 The ABS randomly adjusts small cells to protect privacy, so the parts of a table can miss the published total. Every figure above is printed exactly as published, and none of them is a total we added up ourselves.
 
+Signature project
+
 ## How many separate cycle networks does Geraldton plan, one or two hundred?
 
 The Geraldton 2050 lines in the WA Department of Transport's Regional Long-Term Cycle Network, turned into a graph in Python.
 
-**Connected pieces by snapping tolerance (our measurement, 8 October 2026)**
-
 | Ends joined when closer than | Separate pieces | Largest piece |
-|---|---|---|
+| --- | --- | --- |
 | Exact match only | 218 | 59.57 km, 12.9% of the length |
 | 1 metre | 164 | 59.57 km |
 | 5 metres | 104 | 59.57 km |
@@ -99,14 +85,14 @@ The distance from each end to the closest end of another line tells the story. 4
 
 Lengths are our own approximate measurements on a flat projection of the map coordinates: 460.97 km in all, of which 247.78 km are marked Proposed, 189.06 km Existing (needs improvement) and 24.12 km Existing (adequate). These describe the planning layer as published; they are not a survey of paths on the ground.
 
+Building a network from lines
+
 ## Four decisions every map-to-graph program makes
 
 Practised on the Geraldton layer, then useful for road, pipe, trail or river data anywhere.
 
-**Decisions behind the count**
-
 | Decision | What we did | What changes if you choose differently |
-|---|---|---|
+| --- | --- | --- |
 | What counts as a node | The two ends of each line | Using every vertex finds crossings mid-line that ends alone miss |
 | How close is close enough | A tolerance from 0 to 100 m | The number of pieces moves from 218 to 37 |
 | Which distance | Metres on a local flat projection | Raw degrees mix east-west and north-south scales |
@@ -128,6 +114,8 @@ The same habit applies to customer addresses, asset registers or any data where 
 
 Modern Age Coders is not linked to the WA Department of Transport or the ABS. The map layer is the department's and the census figures are the bureau's; the piece counts, distances and lengths come from our own analysis.
 
+Around Geraldton
+
 ## School terms and a clock that never changes
 
 Local details that shape when and how Geraldton learners study.
@@ -144,16 +132,41 @@ School returns on Monday 1 February 2027, with Term 1 running to Friday 9 April.
 
 Western Australia stays on UTC plus 8 all year, so a Geraldton lesson time never shifts against India time.
 
-**A fixed gap all year** India time is two and a half hours behind Geraldton in every month. A 5pm lesson in Geraldton is 2:30pm for our teachers in January and in July alike.
+A fixed gap all year
+
+India time is two and a half hours behind Geraldton in every month. A 5pm lesson in Geraldton is 2:30pm for our teachers in January and in July alike.
+
+Learning ladder
 
 ## From a first loop to programs that handle messy maps
 
 Ages are signposts only; the free lesson finds where each learner should start.
 
-- **Ages 13 to 14: Points and lines** Reading coordinates, measuring distances and drawing simple routes in Python. [Python for Teens](/courses/python-complete-masterclass-teens), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 15 to 18: Graphs** Nodes, edges and connected pieces, with the Geraldton layer as the test case. [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **University: Spatial algorithms** Spatial indexes, tolerance choices and sensitivity analysis on public data. [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
-- **Adults: Trustworthy data work** Checking published layers and registers before building reports on them. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 13 to 14
+
+### Points and lines
+
+Reading coordinates, measuring distances and drawing simple routes in Python.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Maths Through Coding](/courses/maths-through-coding)Ages 15 to 18
+
+### Graphs
+
+Nodes, edges and connected pieces, with the Geraldton layer as the test case.
+
+[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)[Python for Teens](/courses/python-complete-masterclass-teens)University
+
+### Spatial algorithms
+
+Spatial indexes, tolerance choices and sensitivity analysis on public data.
+
+[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)Adults
+
+### Trustworthy data work
+
+Checking published layers and registers before building reports on them.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## Would an AI assistant have noticed the 218 pieces were mostly an artefact?
 
@@ -165,30 +178,139 @@ Our Geraldton learners look at the distribution of gaps before trusting any coun
 
 A Geraldton learner who has seen one map turn into 218 islands and then into 37 knows that an answer can depend on a setting nobody mentioned, and that habit is worth more than any single tool in 2026. The longer argument is in [why coding still matters in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Waggrakine to Wandina, one live class
 
 Geraldton stretches a long way along the coast, and an online lesson reaches every part of it equally.
 
-- **No travel at all** A learner at home in any Geraldton suburb joins the same live lesson as one in Perth or overseas.
-- **WA year levels** Teachers use Western Australian year levels, from primary through Years 11 and 12, and teach in English.
-- **A free first lesson** You write real code with a teacher, then hear which stage, course and weekly time would suit; no card is requested.
-- **Groups of fifteen to twenty** Classmates at the same stage from across Australia and abroad, so every level has a workable time.
-- **Two lessons a week** Usually about eight lessons a month, with holidays and exam weeks planned with the teacher.
-- **A steady clock** Because WA does not use daylight saving, a Geraldton lesson stays at the same India time all year.
+### No travel at all
 
-**Times written in Geraldton time** Every lesson time is agreed and shown in Western Australian time, so families never have to convert anything themselves.
+A learner at home in any Geraldton suburb joins the same live lesson as one in Perth or overseas.
+
+### WA year levels
+
+Teachers use Western Australian year levels, from primary through Years 11 and 12, and teach in English.
+
+### A free first lesson
+
+You write real code with a teacher, then hear which stage, course and weekly time would suit; no card is requested.
+
+### Groups of fifteen to twenty
+
+Classmates at the same stage from across Australia and abroad, so every level has a workable time.
+
+### Two lessons a week
+
+Usually about eight lessons a month, with holidays and exam weeks planned with the teacher.
+
+### A steady clock
+
+Because WA does not use daylight saving, a Geraldton lesson stays at the same India time all year.
+
+Times written in Geraldton time
+
+Every lesson time is agreed and shown in Western Australian time, so families never have to convert anything themselves.
+
+Fees
 
 ## What coding classes cost in Geraldton
 
 The whole price list in three lines.
 
-- First class: USD 0. A free opening lesson that ends with a recommended stage, course and time.
-- Group tuition: USD 100 a month. A month of lessons, usually eight, with fifteen to twenty learners at your level.
-- Private tuition: USD 150 a month. About eight one-to-one lessons a month with a single teacher.
+First class**USD 0**
+
+A free opening lesson that ends with a recommended stage, course and time.
+
+Group tuition**USD 100**
+
+A month of lessons, usually eight, with fifteen to twenty learners at your level.
+
+Private tuition**USD 150**
+
+About eight one-to-one lessons a month with a single teacher.
 
 Geraldton families pay one rate in US dollars, the same as everywhere else in Australia, with no regional loading. Nothing is charged until the trial has settled a course and a time; the pricing page covers holidays, missed lessons and switching format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20class%20for%20a%20learner%20in%20Geraldton.)Reviews
+
+## From Google reviews: families describe the lessons
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us where the learner is now
+
+We plan the first task to fit: a coordinate-drawing exercise for a Year 8 beginner, a graph-counting problem for a Year 11 student, or the full cycle-network layer and its tolerance question for an adult.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Geraldton one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20class%20for%20a%20learner%20in%20Geraldton.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Geraldton coding class questions
+
+The questions Geraldton learners and parents tend to ask first.
 
 ### How many people live in Geraldton?
 
@@ -230,10 +352,14 @@ The first lesson is free. After that a group place is USD 100 a month for two li
 
 Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
+Explore Western Australia
+
 ## More for Geraldton and WA learners
 
 Down the coast there is [online coding and Python classes in Perth](/online-coding-and-python-classes-in-perth-western-australia) and [a Bunbury page on vibe coding and AI agents](/vibe-coding-and-ai-agents-classes-in-bunbury). Younger learners can start with [coding classes for kids in Perth](/coding-classes-for-kids-perth), and the state guide is [coding and AI classes in Western Australia](/coding-and-ai-classes-in-western-australia).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20class%20for%20a%20learner%20in%20Geraldton.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-classes-in-geraldton](https://learn.modernagecoders.com/best-coding-classes-in-geraldton#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-classes-in-geraldton*

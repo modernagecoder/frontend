@@ -12,7 +12,7 @@ North Kolkata · Live Online · Shyambazar
 
 Modern Age Coders runs premium, live online coding and mathematics classes for families near Shyambazar, Kolkata. Children, teens and adults learn Python, Java, AI & Machine Learning and school-to-college maths in live batches of 15 to 20, taught by full-time engineers and maths graduates, never pre-recorded videos. Every class is project-based and joins straight from home, with no commute through the Shyambazar 5-point crossing.
 
-Live batches (15–20)Full-time engineer tutorsProject-based, not pre-recordedAges 6 to 67[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)3–8Students per live batch100%Live, never recorded₹1,499Starting fee / month0 minCommute through 5-pointAt a glance
+Live batches (15–20)Full-time engineer tutorsProject-based, not pre-recordedAges 6 to 67[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)15–20Students per live batch100%Live, never recorded₹1,499Starting fee / month0 minCommute through 5-pointAt a glance
 
 ## Coding & maths near Shyambazar: the essentials
 

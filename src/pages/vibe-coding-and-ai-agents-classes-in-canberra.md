@@ -4,46 +4,32 @@ description: "Live online vibe coding and AI agents classes for Canberra teenage
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-canberra
 source: src/pages/vibe-coding-and-ai-agents-classes-in-canberra.html
 ---
-> For Canberra teenagers and adults, live classes where you describe a program to an AI, then read, test and steer what it writes until it truly works. The Australian Capital Territory counted 453,890 people at the 2021 Census and 43.0% of residents aged 15 and over hold a bachelor degree or higher, so our learners range from Year 10 students to public servants. Lessons are online, one to one or in small groups, and the first is free.
+> Live online vibe coding and AI agents classes for Canberra teenagers and adults: build, test and steer AI tools in Python with a real teacher. First lesson free.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [Australian Capital Territory](/coding-and-ai-classes-in-australian-capital-territory) / Canberra
-
-Canberra, Australian Capital Territory / Live online
-
-# Vibe coding and AI agents classes in Canberra
-
-**What are the best vibe coding and AI agents classes in Canberra?** For Canberra teenagers and adults, live classes where you describe a program to an AI, then read, test and steer what it writes until it truly works. The Australian Capital Territory counted 453,890 people at the 2021 Census and 43.0% of residents aged 15 and over hold a bachelor degree or higher, so our learners range from Year 10 students to public servants. Lessons are online, one to one or in small groups, and the first is free.
-
-An AI agent cannot remember everything, and it should not try. Our Canberra project shows why. Transport Canberra publishes a weekly figure for the share of services that leave their first stop on time, nine years of it, and we built a small agent to watch that number and raise an alert when a week looks unusually bad. The agent keeps only the last few weeks in a ring buffer, a fixed-size memory that overwrites its oldest entry with each new one. Learners discover two things quickly. The size of that memory changes how often the agent cries wolf. And when the data itself goes wrong, an agent that trusts every number it is fed will report a collapse that never happened.
-
-Facts last verified 7 October 2026. Teaching is online; no Canberra branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Canberra
 
 ## Four starting points for Canberra teenagers and adults
 
 Matched to what you want to build and pitched in the free lesson. There is no charge to begin and no card is asked for.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Build web and Python projects with an AI assistant, then learn to read and fix every line it produces.
-- [Vibe Coding for College](/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course) (University and adult): Full-stack projects built alongside AI, with the data structures and testing that keep them reliable.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Adults): Large language models, retrieval and AI agents, built and evaluated rather than just used.
-- [Copilot Studio Agent Masterclass for Professionals](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals) (Professionals, one to one only): Designing workplace agents in Copilot Studio, taught only in private lessons.
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensBuild web and Python projects with an AI assistant, then learn to read and fix every line it produces.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Vibe Coding for College course thumbnail](/images/vibe-coding-college.webp)University and adultVibe Coding for CollegeFull-stack projects built alongside AI, with the data structures and testing that keep them reliable.See the syllabus](/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)AdultsGenerative AI CourseLarge language models, retrieval and AI agents, built and evaluated rather than just used.See the syllabus](/courses/complete-generative-ai-masterclass-college)[![Copilot Studio Agent Masterclass for Professionals course thumbnail](/images/copilot-studio-professionals.webp)Professionals, one to one onlyCopilot Studio Agent Masterclass for ProfessionalsDesigning workplace agents in Copilot Studio, taught only in private lessons.See the syllabus](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)The capital in the Census
 
 ## A young, highly educated capital territory
 
 The Australian Bureau of Statistics treats the whole Australian Capital Territory as one capital city area. These QuickStats figures from the 2021 Census compare it with Australia.
 
-**Australian Capital Territory, 2021 Census QuickStats**
-
 | Measure | Australian Capital Territory | Australia |
-|---|---|---|
+| --- | --- | --- |
 | People | 453,890 | Not compared |
 | Median age | 35 | 38 |
 | Families | 119,752 | Not compared |
@@ -65,14 +51,14 @@ A median age of 35 makes the capital three years younger than Australia as a who
 
 About our use of these numbers: the bureau makes tiny random changes to each table cell for privacy, which means rows do not always sum to the printed total. We quote the published totals and percentages exactly and never add rows together to produce new ones.
 
+Signature project
+
 ## How much should an AI agent remember?
 
 An agent watches Transport Canberra's weekly on-time figure, keeps the last few valid weeks in a ring buffer, and raises an alert when a new week falls more than 5 points below that recent average.
 
-**What the published series contains, read 7 October 2026 (our count)**
-
 | Item | Figure |
-|---|---|
+| --- | --- |
 | Weekly rows in the dataset | 442, from June 2017 to June 2026 |
 | Weeks recorded as 0.00% on time, treated as missing | 49 |
 | Gap with no rows at all | 210 days, between September 2024 and April 2025 |
@@ -80,10 +66,8 @@ An agent watches Transport Canberra's weekly on-time figure, keeps the last few 
 | Lowest and highest valid weeks | 63.54% and 88.62% |
 | Average of the latest 13 valid weeks | 82.28% |
 
-**Same data, same alert rule, three memory sizes (our calculation)**
-
 | Weeks the agent remembers | Alerts raised | Lowest average it ever held |
-|---|---|---|
+| --- | --- | --- |
 | 4 | 11 | Not reported |
 | 13 | 26 | 67.25% |
 | 52 | 45 | Not reported |
@@ -107,14 +91,14 @@ The dataset carries its own note that the "data remains unverified" while report
 
 These counts are our own, from the portal download of 7 October 2026. We make no claim about why on-time running rose or fell in any week; the project is about how an agent stores and reacts to numbers, not about the bus network. The alert threshold of 5 points is our choice for teaching.
 
+Designing an agent's memory
+
 ## Five decisions every agent builder makes
 
 Worked out on one punctuality series, and the same for chat assistants, monitoring bots and coding agents.
 
-**Memory design choices and what they cost**
-
 | Decision | In the Canberra agent | Why it matters |
-|---|---|---|
+| --- | --- | --- |
 | How much to keep | N weeks in a ring buffer | Too little forgets context; too much reacts slowly |
 | What to throw away first | Always the oldest week | Older context fades unless you save it on purpose |
 | What not to store | Weeks reported as 0.00% | Bad inputs poison every later decision |
@@ -137,6 +121,8 @@ Design agents for workplace data that handle missing or suspect values gracefull
 
 Modern Age Coders works independently of Transport Canberra, the ACT Government and the statistics bureau, and implies no partnership with any of them. The census counts belong to the bureau; the alert counts and averages are our own calculations from the ACT open dataset.
 
+Around the capital
+
 ## A territory counted as one city and a clock borrowed from Sydney
 
 Two quirks of the capital that matter to anyone writing software for it.
@@ -153,16 +139,41 @@ In the IANA time zone database, Australia/Canberra is simply a link to Australia
 
 Transport Canberra publishes punctuality week by week on the ACT open data portal under a Creative Commons Attribution licence.
 
-**Why a time zone link is worth knowing** Software should never hard-code an offset for Canberra. Look the zone up by name, let the database follow the link to Sydney's rules, and the clock changes on Sunday 4 October 2026 and Sunday 4 April 2027 take care of themselves.
+Why a time zone link is worth knowing
+
+Software should never hard-code an offset for Canberra. Look the zone up by name, let the database follow the link to Sydney's rules, and the clock changes on Sunday 4 October 2026 and Sunday 4 April 2027 take care of themselves.
+
+Learning ladder
 
 ## From prompting an assistant to building agents you can trust
 
 Ages here are rough markers; the free lesson decides the real first step.
 
-- **Ages 13 to 15: Vibe coding with care** Describing small programs to an AI assistant, running the result and learning to read every line before accepting it. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [AI Tools Course for Teens (13+)](/courses/teens-ai-tools-mastery-course)
-- **Ages 16 to 18: Agents and memory** Python agents that read data, remember a little and act on rules, with tests that show when they misbehave. [Python for Teens](/courses/python-complete-masterclass-teens), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **University: Building with models** Language models, retrieval and tool use, evaluated with held-out tests and measured error rates. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Vibe Coding for College](/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course)
-- **Adults: Agents at work** Coding agents and workplace agents that handle real records safely, with private lessons for Copilot Studio. [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals), [Copilot Studio Agent Masterclass for Professionals](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals)
+Ages 13 to 15
+
+### Vibe coding with care
+
+Describing small programs to an AI assistant, running the result and learning to read every line before accepting it.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[AI Tools Course for Teens (13+)](/courses/teens-ai-tools-mastery-course)Ages 16 to 18
+
+### Agents and memory
+
+Python agents that read data, remember a little and act on rules, with tests that show when they misbehave.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)University
+
+### Building with models
+
+Language models, retrieval and tool use, evaluated with held-out tests and measured error rates.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Vibe Coding for College](/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course)Adults
+
+### Agents at work
+
+Coding agents and workplace agents that handle real records safely, with private lessons for Copilot Studio.
+
+[Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)[Copilot Studio Agent Masterclass for Professionals](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals)Coding and AI
 
 ## If AI agents can write code, why should a Canberra learner build one by hand?
 
@@ -174,30 +185,139 @@ Building the agent yourself, even with an assistant writing much of the code, fo
 
 In 2026 anyone can generate an agent; the useful people are the ones who can decide what it should remember and prove it behaves, and a Canberra learner who has tuned a ring buffer by hand is one of them. The longer argument is in [why learning to code still matters in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Belconnen, Tuggeranong or Gungahlin, the same live room
 
 The capital is spread across separate town centres, and an online lesson brings all of them to one virtual desk.
 
-- **No trip across town** A learner near Lake Burley Griffin and one in Tuggeranong share the lesson from home, with nothing to travel to.
-- **Familiar year levels** Teachers use the year levels ACT schools use, from Year 7 to Year 12, and work around the territory's school terms. All teaching is in English.
-- **A genuine trial** You complete a real task with a teacher and leave with a suggested level, course and lesson time. No card details are taken.
-- **Level-matched groups** Fifteen to twenty learners at the same stage, from Canberra and further afield, so a suitable evening slot is easy to find.
-- **Two lessons a week** Roughly eight lessons a month at a regular time. Holidays and exam weeks are planned with the teacher ahead of time.
-- **India time, four and a half or five and a half hours behind** Canberra is 4 hours 30 minutes ahead of India time in winter and 5 hours 30 minutes ahead from Sunday 4 October 2026 until Sunday 4 April 2027.
+### No trip across town
 
-**Daylight saving in the capital** The ACT changes its clocks on the same Sundays as New South Wales. India never does, so the gap to our teachers widens by an hour in summer, and every lesson time is confirmed in Canberra time.
+A learner near Lake Burley Griffin and one in Tuggeranong share the lesson from home, with nothing to travel to.
+
+### Familiar year levels
+
+Teachers use the year levels ACT schools use, from Year 7 to Year 12, and work around the territory's school terms. All teaching is in English.
+
+### A genuine trial
+
+You complete a real task with a teacher and leave with a suggested level, course and lesson time. No card details are taken.
+
+### Level-matched groups
+
+Fifteen to twenty learners at the same stage, from Canberra and further afield, so a suitable evening slot is easy to find.
+
+### Two lessons a week
+
+Roughly eight lessons a month at a regular time. Holidays and exam weeks are planned with the teacher ahead of time.
+
+### India time, four and a half or five and a half hours behind
+
+Canberra is 4 hours 30 minutes ahead of India time in winter and 5 hours 30 minutes ahead from Sunday 4 October 2026 until Sunday 4 April 2027.
+
+Daylight saving in the capital
+
+The ACT changes its clocks on the same Sundays as New South Wales. India never does, so the gap to our teachers widens by an hour in summer, and every lesson time is confirmed in Canberra time.
+
+Fees
 
 ## What classes cost in Canberra
 
 Three amounts and no surprises.
 
-- First class: USD 0. A complete lesson at no charge, followed by a recommended level, course and weekly time.
-- Group tuition: USD 100 a month. A month of classes, normally eight, with fifteen to twenty learners at a matching level.
-- Private tuition: USD 150 a month. About eight classes a month in the same pattern, with one learner and one teacher.
+First class**USD 0**
+
+A complete lesson at no charge, followed by a recommended level, course and weekly time.
+
+Group tuition**USD 100**
+
+A month of classes, normally eight, with fifteen to twenty learners at a matching level.
+
+Private tuition**USD 150**
+
+About eight classes a month in the same pattern, with one learner and one teacher.
 
 Everyone outside India pays in US dollars at a single rate, so the inner north and the far south get the same invoice, and there is no Canberra price list. Payment starts only after the trial, once course and time are agreed; the pricing page covers holidays, missed classes and moving between group and private lessons. Copilot Studio agent lessons are one to one only.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20class%20for%20a%20learner%20in%20Canberra.)Reviews
+
+## Reviews our families have posted on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us what you want your AI to do
+
+We shape the first task around you: a first vibe-coded web page for a Year 10 student, a small Python agent for a Year 12 student, or the punctuality-watching agent for an adult.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Canberra one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20class%20for%20a%20learner%20in%20Canberra.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Canberra vibe coding and AI agents questions
+
+What Canberra learners and parents ask us first.
 
 ### How many people live in the Australian Capital Territory?
 
@@ -239,10 +359,14 @@ The first lesson is free. After that a group place is USD 100 a month for two li
 
 Fifteen to twenty learners, matched on level, pace and what they want to build rather than on age or suburb. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
+Explore Australia
+
 ## More for Canberra and Australian learners
 
 For a look at testing an agent's answers rather than its memory, see [vibe coding and AI agents classes in Melbourne](/vibe-coding-and-ai-agents-classes-in-melbourne). Learners who want to think critically about AI tools can read [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-australia), and senior students weighing up computing subjects should see [choosing Year 11 computing subjects in Australia](/choosing-year-11-computing-subjects-australia). All our Australian pages are listed on the [Australia coding page](/coding-classes-in-australia).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20class%20for%20a%20learner%20in%20Canberra.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-canberra](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-canberra#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-canberra*

@@ -4,37 +4,25 @@ description: "Live online coding, Python, C++ and AI classes for Eindhoven learn
 canonical: https://learn.modernagecoders.com/coding-classes-in-eindhoven
 source: src/pages/coding-classes-in-eindhoven.html
 ---
-> Coding classes in Eindhoven serve a city where an unusual share of the parents are engineers: ASML, headquartered in Veldhoven next door, employed more than 44,000 people worldwide in 2025 from 143 nationalities; the High Tech Campus holds some 300 companies and more than 12,500 people; and 35.4 of every thousand Eindhoven residents are of Indian origin, the third highest share of any Dutch municipality (Statistics Netherlands, 1 January 2024). Modern Age Coders teaches coding, Python, C++, AI and mathematics live online, in English, to learners aged 6 to 67 here. The first class is free; then USD 100 a month in a group of fifteen to twenty, or USD 150 one to one.
+> Live online coding, Python, C++ and AI classes for Eindhoven learners aged 6 to 67, written for Brainport families where the parents already build the machines.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Eindhoven
-
-Eindhoven, Noord-Brabant / Live online
-
-# Coding classes in Eindhoven, for children whose parents build the machines that build the chips
-
-**What are the best coding classes in Eindhoven?** Coding classes in Eindhoven serve a city where an unusual share of the parents are engineers: ASML, headquartered in Veldhoven next door, employed more than 44,000 people worldwide in 2025 from 143 nationalities; the High Tech Campus holds some 300 companies and more than 12,500 people; and 35.4 of every thousand Eindhoven residents are of Indian origin, the third highest share of any Dutch municipality (Statistics Netherlands, 1 January 2024). Modern Age Coders teaches coding, Python, C++, AI and mathematics live online, in English, to learners aged 6 to 67 here. The first class is free; then USD 100 a month in a group of fifteen to twenty, or USD 150 one to one.
-
-On 10 March 2026 the city council approved the plan for a campus at BIC Noord with room for 20,000 workplaces. Within a week the question in every Eindhoven kitchen was how many homes that means, and every answer was a different number. The project on this page is the short program that shows why they differ, and it may be the most Eindhoven thing a child here can learn.
-
-Facts last verified 7 September 2026. Teaching is online; no Eindhoven branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Eindhoven
 
 ## Four courses for a city that already knows what an engineer does all day
 
 Eindhoven children do not need convincing that software matters; they need a reason to build it themselves when a parent could do it for them. These four are chosen for that: making, not watching, from Scratch to C++ to a model trained by hand.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): The child of two engineers still starts with sequencing and debugging, in English, and still needs to own the first bug.
-- [Game Development for Kids](/courses/game-development-masterclass-for-kids) (Ages 8 to 12): Scratch, Roblox and Minecraft, for the groep 5 to 8 child who wants something a classmate at ISE or the Eckart can actually play.
-- [C++ for Teens](/courses/cpp-programming-masterclass-for-teens) (Ages 14 to 18): C++ from fundamentals to the STL and real games, in the city where the machines that matter run on it.
-- [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) (College and adult): Python to deep learning and generative AI for the TU/e or Fontys student, or the engineer who wants the model built by hand once.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsThe child of two engineers still starts with sequencing and debugging, in English, and still needs to own the first bug.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Game Development for Kids course thumbnail](/images/game-dev-kids.webp)Ages 8 to 12Game Development for KidsScratch, Roblox and Minecraft, for the groep 5 to 8 child who wants something a classmate at ISE or the Eckart can actually play.See the syllabus](/courses/game-development-masterclass-for-kids)[![C++ for Teens course thumbnail](/images/cpp-teens.webp)Ages 14 to 18C++ for TeensC++ from fundamentals to the STL and real games, in the city where the machines that matter run on it.See the syllabus](/courses/cpp-programming-masterclass-for-teens)[![AI and ML Masterclass course thumbnail](/images/ai-ml-college.webp)College and adultAI and ML MasterclassPython to deep learning and generative AI for the TU/e or Fontys student, or the engineer who wants the model built by hand once.See the syllabus](/courses/ai-ml-masterclass-complete-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Eindhoven today
 
 ## A municipality of 249,783 people that behaves like a region
 
@@ -52,21 +40,21 @@ The High Tech Campus held about 300 companies and institutions and more than 12,
 
 Statistics Netherlands put Eindhoven at 35.4 residents of Indian origin per thousand on 1 January 2024, behind only Amstelveen and Uithoorn. On the 2026 population that is roughly 8,800 people, most of them families who arrived through the same companies named above.
 
-**Founded on light, run on lithography** Philips began making light bulbs here in 1891, which is why the city is still called the Lichtstad, and the International School's secondary department began in 1974 as a Philips initiative for the families the company brought in. The pattern has not changed; only the machines have.
+Founded on light, run on lithography
+
+Philips began making light bulbs here in 1891, which is why the city is still called the Lichtstad, and the International School's secondary department began in 1974 as a Philips initiative for the families the company brought in. The pattern has not changed; only the machines have.
+
+Schools by name
 
 ## Seven schools an Eindhoven child might be in, and where we pick up from each
 
 Twenty-five secondary establishments serve 17,578 pupils in the municipality (Statistics Netherlands). The left column is the school as it describes itself and as the register counts it; the right column is what fits beside it.
 
-- **ISE**: International School Eindhoven, Oirschotsedijk 14b, on the former De Constant Rebecque Kazerne. Primary since 1965, secondary since 1974, IB since 1982; MYP and Diploma Programme; about 1,400 pupils of some 60 nationalities across its departments, 731 of them in the secondary school in 2025-26. Our answer: Blocks then Python placed by the MYP year; C++ or the IB Computer Science course for the Diploma years. Many ISE families are on fixed contracts, and a course that moves with the family to the next posting is the point.
-- **Stedelijk**: Stedelijk College Eindhoven, Henegouwenlaan 2: vmbo through vwo under one roof, 1,297 pupils from the municipality in 2025-26, the largest intake in the city. Our answer: Placement by what the learner can do, not by the stream. A vmbo-t student and a vwo student have sat in the same Python group here and neither noticed.
-- **Van Maerlant**: Van Maerlantlyceum, Jacob van Maerlantlaan 11, havo and vwo, 744 Eindhoven pupils. Our answer: Python before the profile choice at the end of year 3; data science in Python beside wiskunde A or B afterwards.
-- **Lorentz Casimir**: Lorentz Casimir Lyceum, Celebeslaan 10, havo and vwo, 690 Eindhoven pupils, named for two physicists the city likes to claim. Our answer: C++ and problem solving for the teenager who already knows what a compiler is because a parent explained it at dinner.
-- **Augustinianum**: Augustinianum, Dirk Boutslaan 25, havo and vwo, 649 Eindhoven pupils. Our answer: The same bovenbouw pairing: Python for the humanities-leaning student, C++ or DSA for the one headed to TU/e.
-- **Frits Philips**: Frits Philips lyceum-mavo, Avignonlaan 1, mavo through vwo, 1,170 Eindhoven pupils. Our answer: For a mavo learner, app-making and web courses that produce a portfolio before the MBO intake asks for one; for the vwo stream, the standard ladder.
-- **SintLucas**: SintLucas, Torenallee 75 on Strijp-S, the creative vmbo and MBO in the old Philips factory quarter. Our answer: Creative coding, game development and web work, because a SintLucas learner already wants to make things and needs the code to be one more material.
+ISEInternational School Eindhoven, Oirschotsedijk 14b, on the former De Constant Rebecque Kazerne. Primary since 1965, secondary since 1974, IB since 1982; MYP and Diploma Programme; about 1,400 pupils of some 60 nationalities across its departments, 731 of them in the secondary school in 2025-26.Blocks then Python placed by the MYP year; C++ or the IB Computer Science course for the Diploma years. Many ISE families are on fixed contracts, and a course that moves with the family to the next posting is the point.StedelijkStedelijk College Eindhoven, Henegouwenlaan 2: vmbo through vwo under one roof, 1,297 pupils from the municipality in 2025-26, the largest intake in the city.Placement by what the learner can do, not by the stream. A vmbo-t student and a vwo student have sat in the same Python group here and neither noticed.Van MaerlantVan Maerlantlyceum, Jacob van Maerlantlaan 11, havo and vwo, 744 Eindhoven pupils.Python before the profile choice at the end of year 3; data science in Python beside wiskunde A or B afterwards.Lorentz CasimirLorentz Casimir Lyceum, Celebeslaan 10, havo and vwo, 690 Eindhoven pupils, named for two physicists the city likes to claim.C++ and problem solving for the teenager who already knows what a compiler is because a parent explained it at dinner.AugustinianumAugustinianum, Dirk Boutslaan 25, havo and vwo, 649 Eindhoven pupils.The same bovenbouw pairing: Python for the humanities-leaning student, C++ or DSA for the one headed to TU/e.Frits PhilipsFrits Philips lyceum-mavo, Avignonlaan 1, mavo through vwo, 1,170 Eindhoven pupils.For a mavo learner, app-making and web courses that produce a portfolio before the MBO intake asks for one; for the vwo stream, the standard ladder.SintLucasSintLucas, Torenallee 75 on Strijp-S, the creative vmbo and MBO in the old Philips factory quarter.Creative coding, game development and web work, because a SintLucas learner already wants to make things and needs the code to be one more material.
 
 The Eckartcollege, Huygens Lyceum, Montessori College, Novalis College and the Parmant schools complete the list. The school name tells us the vocabulary; the free class tells us the level.
+
+Verified local facts
 
 ## Eindhoven facts, each with the office that published it
 
@@ -98,6 +86,8 @@ ISE at Oirschotsedijk 14b, IB since 1982, 731 secondary pupils in 2025-26, Dutch
 
 Modern Age Coders has no association with ASML, the High Tech Campus, the Metropoolregio, the municipality, the International School or any school named above, and claims none. A page about coding classes in Eindhoven should know what Eindhoven is; that is the only reason they are here.
 
+Signature project
+
 ## Twenty thousand workplaces: build the program that turns it into homes, and watch the answer move by a factor of six
 
 One published number, three ratios that nobody has published together, and a table every Brainport household argued about in March 2026 without writing down.
@@ -114,10 +104,8 @@ To get from workplaces to homes inside Eindhoven you need: the share of those jo
 
 With the share of newcomers between 50 and 90 percent, workers per household between 1.2 and 1.8, and the in-city share between 30 and 70 percent, the homes needed inside Eindhoven run from about 1,700 to about 10,500. The middle assumptions give about 4,700. Region-wide the same chain gives roughly 5,600 to 15,000. Every input is plausible; the output spans a factor of six.
 
-**From 20,000 workplaces to homes inside the municipality: the same arithmetic, six sets of plausible inputs**
-
 | Share of jobs going to newcomers | Employed people per new household | Share settling inside Eindhoven | Homes implied |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 50 percent | 1.8 | 30 percent | about 1,700 |
 | 50 percent | 1.5 | 50 percent | about 3,300 |
 | 70 percent | 1.5 | 50 percent | about 4,700 |
@@ -129,14 +117,14 @@ With the share of newcomers between 50 and 90 percent, workers per household bet
 
 Each input on its own is defensible. Multiply three of them and the uncertainty compounds rather than averaging out, which is why two neighbours who both read the same letter can arrive at 2,000 homes and 10,000 homes and both be arguing honestly. The lesson is not which number is right. It is that a headline homes figure derived from a jobs figure should arrive with its three ratios attached, and that when it does not, the first question is what they were. The table was computed before this paragraph was written; the ranges are illustrative and labelled, and the 20,000 is the only published input.
 
+Reliable pipeline
+
 ## Five habits for any number that was derived from another number
 
 The same chain sits under every capacity plan, every hiring forecast and every server budget an Eindhoven engineer has ever signed off. Practised first on the campus next door.
 
-**When one figure is manufactured from another**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Separate | Mark which inputs are published and which are assumed | A guess wearing the confidence of the one real figure | An honest starting point |
 | Range | Give every assumption a low and a high, not a point | A single answer that hides its own spread | Two numbers instead of one |
 | Multiply | Propagate the ranges through the chain, do not average them | Compounding uncertainty mistaken for cancelling | The real width of the answer |
@@ -157,14 +145,37 @@ The same program on a real capacity plan from work: users to servers, orders to 
 
 The 20,000 workplaces, the 10 March 2026 council decision, the 2.51 billion euro package of 28 March 2024, the population and school counts, the ASML and High Tech Campus figures and the ISE history are all published by the organisations named in the sentences that carry them. The three ratios and every homes figure in the table are illustrative and labelled as such; the page derives nothing it presents as a fact.
 
+Learning ladder
+
 ## From twenty toy workers to a capacity model that shows its ratios
 
 One free class finds the rung. A parent's job title is not an input.
 
-- **Ages 6 to 10: A number that depends on three others** Children sort the same twenty figures three ways and get three different house counts. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Ranges instead of points** Learners replace each guess with a low and a high in Python and see the answer widen. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 14 to 18: The chain, and the ratio that matters most** Teenagers propagate ranges through a chain and find the sensitive input. [C++ for Teens](/courses/cpp-programming-masterclass-for-teens), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Capacity plans with the working shown** Adults rebuild a real estimate from work with its ratios attached. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
+Ages 6 to 10
+
+### A number that depends on three others
+
+Children sort the same twenty figures three ways and get three different house counts.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Ranges instead of points
+
+Learners replace each guess with a low and a high in Python and see the answer widen.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### The chain, and the ratio that matters most
+
+Teenagers propagate ranges through a chain and find the sensitive input.
+
+[C++ for Teens](/courses/cpp-programming-masterclass-for-teens)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Capacity plans with the working shown
+
+Adults rebuild a real estimate from work with its ratios attached.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)Coding and AI
 
 ## Should a child in Eindhoven still learn to code when the parents' employer is teaching machines to write it?
 
@@ -176,30 +187,139 @@ What the class trains, then, is exactly that habit, on a problem the child can h
 
 So for an Eindhoven parent the answer is a plain one: the syntax is cheaper than it was, the judgement is not, and the only way anyone has found to grow the judgement is to make the learner build the chain and then take it apart. The longer argument is in [is coding still worth learning now that AI writes it](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for families who already drive the Randweg twice a day
 
 Between the school run to the Oirschotsedijk, the commute to Veldhoven or the campus and the evening call with a supplier in Taiwan, an Eindhoven week has no room for a fourth destination. A class that arrives over the connection does not ask for one.
 
-- **No extra trip on the A2** The lesson happens at the kitchen table in Meerhoven, Woensel or Stratum, at a fixed time, and the only traffic it competes with is the household's own.
-- **English, with the Brainport words kept** Taught in English, which is the working language of most of the households this page is written for. Groep, havo, vwo, profiel and MYP are used as the child hears them at school.
-- **One full free lesson first** A real task, a level and a named course at the end of it. No card and no decision until the family has watched a lesson happen.
-- **Groups of fifteen to twenty, matched on level** Who joins a group depends on what the learner can do and wants next. Which company a parent works for, and in which municipality, is not a variable.
-- **Eight lessons a month, regio Zuid calendar** Two lessons a week at a recurring time. Noord-Brabant sits in regio Zuid for school holidays, so the summer weeks differ from Amsterdam's, and that is settled before the slot is fixed.
-- **The clock, stated plainly** An Eindhoven evening is late in India: seven o'clock here is half past ten or half past eleven there depending on the season. Late afternoon, early evening and weekend slots work for both sides and are confirmed on the free class.
+### No extra trip on the A2
 
-**A posting that moves does not end the course** Brainport families are moved: to Veldhoven, to Wilton, to Linkou, back to Bengaluru. A course that lives on a laptop and a fixed time in the family's own calendar goes with them, and more than one learner has finished a Python course from a different continent than the one they started it on.
+The lesson happens at the kitchen table in Meerhoven, Woensel or Stratum, at a fixed time, and the only traffic it competes with is the household's own.
+
+### English, with the Brainport words kept
+
+Taught in English, which is the working language of most of the households this page is written for. Groep, havo, vwo, profiel and MYP are used as the child hears them at school.
+
+### One full free lesson first
+
+A real task, a level and a named course at the end of it. No card and no decision until the family has watched a lesson happen.
+
+### Groups of fifteen to twenty, matched on level
+
+Who joins a group depends on what the learner can do and wants next. Which company a parent works for, and in which municipality, is not a variable.
+
+### Eight lessons a month, regio Zuid calendar
+
+Two lessons a week at a recurring time. Noord-Brabant sits in regio Zuid for school holidays, so the summer weeks differ from Amsterdam's, and that is settled before the slot is fixed.
+
+### The clock, stated plainly
+
+An Eindhoven evening is late in India: seven o'clock here is half past ten or half past eleven there depending on the season. Late afternoon, early evening and weekend slots work for both sides and are confirmed on the free class.
+
+A posting that moves does not end the course
+
+Brainport families are moved: to Veldhoven, to Wilton, to Linkou, back to Bengaluru. A course that lives on a laptop and a fixed time in the family's own calendar goes with them, and more than one learner has finished a Python course from a different continent than the one they started it on.
+
+Fees
 
 ## One free class, then USD 100 or USD 150 a month, published here
 
 The fee is stated before anybody is asked for a phone number, because an engineer would want it that way round.
 
-- First class: USD 0. A full lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner and one teacher.
+First class**USD 0**
+
+A full lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner and one teacher.
 
 The figure is in US dollars because there is one published international rate and no euro list; there is no Eindhoven supplement and no enrolment fee. The free class settles the course and the slot first and payment is arranged afterwards over WhatsApp. Pauses, plan changes and missed lessons are on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Eindhoven.)Reviews
+
+## What families and learners say
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us the learner's level and, if you like, the number you were arguing about
+
+The first task might be twenty toy workers and three rules, a Python chain with three ranges, or a capacity estimate from work that arrived as a single confident figure.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Eindhoven one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Eindhoven.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Eindhoven coding class questions
+
+The city, the campus next door, the schools, the teaching and the terms.
 
 ### How many homes does the ASML campus at BIC Noord mean for Eindhoven?
 
@@ -241,10 +361,14 @@ The first class is free. Group tuition is USD 100 a month for two live lessons a
 
 Fifteen to twenty learners, matched on level, pace and goal rather than on age, school or a parent's employer. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next group to form.
 
+Explore the Netherlands
+
 ## The country page, the two Amsterdam pages, and the page for building AI
 
 The [Netherlands coding hub](/coding-classes-in-netherlands) carries the national curriculum picture and the full course list. [Coding classes in Amsterdam](/coding-classes-in-amsterdam) and [coding classes in Amstelveen](/coding-classes-in-amstelveen) cover the capital and the municipality with the highest Indian-origin share in the country, and [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) is for the learner who wants to build models; the [AI and Python Academy, Eindhoven](/ai-and-python-academy-eindhoven) takes that learner on to AI that runs inside machines. Below this page sit all seven stadsdeel pages: [Eindhoven Centrum](/coding-classes-in-eindhoven-centrum), [Stratum](/coding-classes-in-stratum), [Gestel](/coding-classes-in-gestel), [Strijp](/coding-classes-in-strijp), [Woensel-Zuid](/coding-classes-in-woensel-zuid), [Woensel-Noord](/coding-classes-in-woensel-noord) and [Tongelre](/coding-classes-in-tongelre), with pages for the rest of Noord-Brabant after them.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Eindhoven.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-eindhoven](https://learn.modernagecoders.com/coding-classes-in-eindhoven#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-eindhoven*

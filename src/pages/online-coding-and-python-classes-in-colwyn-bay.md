@@ -4,46 +4,32 @@ description: "Live online coding and Python classes for Colwyn Bay, Rhos-on-Sea,
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-colwyn-bay
 source: src/pages/online-coding-and-python-classes-in-colwyn-bay.html
 ---
-> Conwy county borough recorded 114,741 usual residents in the 2021 census, and the ONS built-up area of Colwyn Bay, Bae Colwyn in Welsh, recorded 29,275. Rhôs-on-Sea, Old Colwyn, Mochdre and Tan-y-Lan all fall inside it. Our tutors in India teach coding, Python, AI, vibe coding and maths over live video to Colwyn Bay pupils and adults from six up to 67, singly or in classes of fifteen to twenty pitched at a single level. Everyone starts with a free trial lesson that ends in a course recommendation. In the Colwyn Bay project a learner pairs every LL28 and LL29 postcode with a height from a terrain model, finds that two heights are missing, and watches one innocent line of Python shift a thousand answers by one place. Past the free session, expect USD 100 monthly in a class or USD 150 monthly on your own with a tutor.
+> Live online coding and Python classes for Colwyn Bay, Rhos-on-Sea, Old Colwyn and Mochdre, ages 6 to 67, plus AI and maths. Your first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Colwyn Bay
-
-Colwyn Bay (Bae Colwyn), Conwy, Wales / Live online
-
-# Online coding and Python classes in Colwyn Bay
-
-**What are the best online coding and Python classes in Colwyn Bay?** Conwy county borough recorded 114,741 usual residents in the 2021 census, and the ONS built-up area of Colwyn Bay, Bae Colwyn in Welsh, recorded 29,275. Rhôs-on-Sea, Old Colwyn, Mochdre and Tan-y-Lan all fall inside it. Our tutors in India teach coding, Python, AI, vibe coding and maths over live video to Colwyn Bay pupils and adults from six up to 67, singly or in classes of fifteen to twenty pitched at a single level. Everyone starts with a free trial lesson that ends in a course recommendation. In the Colwyn Bay project a learner pairs every LL28 and LL29 postcode with a height from a terrain model, finds that two heights are missing, and watches one innocent line of Python shift a thousand answers by one place. Past the free session, expect USD 100 monthly in a class or USD 150 monthly on your own with a tutor.
-
-Python's zip is one of the friendliest tools in the language: give it two lists and it walks along them together, pairing the first with the first, the second with the second. It has one habit that catches out beginners and professionals alike. If the lists are different lengths, it stops at the end of the shorter one and says nothing. In Colwyn Bay, two missing numbers out of 1,066 were enough to make that habit wreck a dataset without a single error message.
-
-Facts last verified 1 October 2026. Teaching is online; no Colwyn Bay branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentWhere to start
 
 ## Python and coding courses for Colwyn Bay learners
 
 Choose the course by age. Its first live lesson is free and needs no card.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): Matching, pairing and spot-the-mistake puzzles before any typing.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Children describe a Scratch game to an AI, then try it and repair it.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 17): Python for real data, including the Colwyn Bay postcode heights project.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Students and adults): Python from nothing to dependable data work, with the habits that catch silent errors.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsMatching, pairing and spot-the-mistake puzzles before any typing.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsChildren describe a Scratch game to an AI, then try it and repair it.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 17Data Science for TeensPython for real data, including the Colwyn Bay postcode heights project.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Python Masterclass course thumbnail](/images/python-college.webp)Students and adultsPython MasterclassPython from nothing to dependable data work, with the habits that catch silent errors.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Colwyn Bay today
 
 ## Colwyn Bay, Rhôs-on-Sea, Old Colwyn and Mochdre
 
 Census headline counts, the places inside the town, and the postcode districts we use.
 
-**Census 2021 (ONS)**
-
 | Area | Usual residents |
-|---|---|
+| --- | --- |
 | Colwyn Bay built-up area | 29,275 |
 | Conwy county borough | 114,741 |
 
@@ -53,18 +39,18 @@ Conwy also includes Llandudno, Abergele, Conwy town and the upland villages, so 
 
 See [Conwy](/coding-classes-in-conwy), [Bangor](/best-coding-class-in-bangor-wales), [St Asaph](/best-coding-class-in-st-asaph) and [WJEC GCSE Computer Science help](/wjec-gcse-computer-science-help-wales). Our reasons for insisting learners read every line are in [understand the code, don't copy-paste](/understand-the-code-dont-copy-paste-uk).
 
+The Colwyn Bay project
+
 ## Two missing heights and a thousand wrong answers
 
 Postcodes, a terrain model, one tidy-looking filter, and what zip does with lists that no longer match.
 
 The learner starts with all 1,066 postcodes in the LL28 and LL29 districts from Ordnance Survey's Code-Point Open, looks up the position of each one, and asks a terrain service, OpenTopoData, for the ground height at that point from the EU-DEM elevation model. The service returns the heights in the same order the positions were sent. 1,064 come back as numbers; two come back empty. Both belong to postcodes on the shore at Rhos, LL28 4EN and LL28 4PR. Our reading is that the points sit where the model has no land value, but either way the gap is real.
 
-Now the tidy-looking line. A common first instinct is to remove missing values before doing anything else, for example heights = [h for h in heights if h is not None], and then pair the results with the postcodes using zip(postcodes, heights). Python accepts it. It produces 1,064 pairs without complaint. It is also badly wrong.
-
-**What one filtered list does to the pairing, our Python run**
+Now the tidy-looking line. A common first instinct is to remove missing values before doing anything else, for example `heights = [h for h in heights if h is not None]`, and then pair the results with the postcodes using `zip(postcodes, heights)`. Python accepts it. It produces 1,064 pairs without complaint. It is also badly wrong.
 
 | Measure | Result |
-|---|---|
+| --- | --- |
 | Pairs produced by zip | 1,064 of 1,066 |
 | Postcodes silently left out | LL29 9YP and LL29 9YW |
 | Postcodes given a neighbour's height | 1,003 (from the 62nd onwards) |
@@ -73,9 +59,9 @@ Now the tidy-looking line. A common first instinct is to remove missing values b
 | Errors over 10 m | 459 |
 | Largest error | 221.3 m |
 
-Removing the first missing height slid every later height up by one place, so from the 62nd postcode onwards each one was paired with its neighbour's height, and after the second gap, with the one two places on. The two postcodes at the end of the list simply vanished, because zip stops when the shorter list runs out. The damage then spreads into every answer built on the pairs. Ask which postcode stands highest and the broken pairs say LL29 6AW at 306.2 m; its real height is 158.3 m. The true highest point in the list, LL29 6BA, sits two places further down the sorted list, which is exactly why its height was handed over.
+Removing the first missing height slid every later height up by one place, so from the 62nd postcode onwards each one was paired with its neighbour's height, and after the second gap, with the one two places on. The two postcodes at the end of the list simply vanished, because `zip` stops when the shorter list runs out. The damage then spreads into every answer built on the pairs. Ask which postcode stands highest and the broken pairs say LL29 6AW at 306.2 m; its real height is 158.3 m. The true highest point in the list, LL29 6BA, sits two places further down the sorted list, which is exactly why its height was handed over.
 
-There are two clean fixes, and the learner writes both. Since Python 3.10, zip(postcodes, heights, strict=True) refuses to pair lists of different lengths and stops with ValueError: zip() argument 2 is shorter than argument 1, which turns a silent bug into a loud one. Better still, pair each height with its postcode before cleaning anything, in a dictionary built straight from the service's reply, so the two missing values stay attached to their own postcodes and can be dealt with deliberately.
+There are two clean fixes, and the learner writes both. Since Python 3.10, `zip(postcodes, heights, strict=True)` refuses to pair lists of different lengths and stops with `ValueError: zip() argument 2 is shorter than argument 1`, which turns a silent bug into a loud one. Better still, pair each height with its postcode before cleaning anything, in a dictionary built straight from the service's reply, so the two missing values stay attached to their own postcodes and can be dealt with deliberately.
 
 ### Ages 8 to 11
 
@@ -93,32 +79,55 @@ Reproduce the postcode bug, measure the damage, then fix it with strict=True and
 
 Postcodes are from Ordnance Survey Code-Point Open 2026.3.0, with Royal Mail and OS data under the Open Government Licence; positions come from postcodes.io. Heights are from OpenTopoData, serving the Copernicus EU-DEM model at 25 m resolution; they describe the ground model, not any building. The filter, the pairing and every count in the table come from our own Python run.
 
+Python and AI together
+
 ## What a silent zip teaches about code an AI writes
 
 No error, plausible numbers, and a thousand wrong answers: the worst kind of bug.
 
-**Postcode heights and the code assistants write**
-
 | Seen in the heights data | Carried over to AI suggestions |
-|---|---|
+| --- | --- |
 | zip paired lists of different lengths quietly | Code can run cleanly and still be wrong |
 | Two gaps shifted 1,003 answers | Small data problems can have large effects |
 | The highest postcode came out wrong | Check headline answers against the source |
 | strict=True turned silence into an error | Prefer code that fails loudly |
 | A dictionary kept each height with its postcode | Join data by key, not by position |
 
-This exact pattern, clean the list then zip it back, is something AI assistants produce all the time, because it is short and looks sensible. A learner who has watched LL29 6AW grow by nearly 150 m reads such code differently: they count the lengths, ask what was dropped, and reach for strict=True. That is the heart of how we teach vibe coding. Agents come later in the course: a learner designs one when unaided Python feels routine, commonly in Year 12 or beyond, and Copilot Studio work happens solely in private sessions. Background reading: [problem-solving skills through coding](/problem-solving-skills-through-coding-uk), and [learn to train AI, not just prompt it](/learn-to-train-ai-not-just-prompt-it-uk).
+This exact pattern, clean the list then zip it back, is something AI assistants produce all the time, because it is short and looks sensible. A learner who has watched LL29 6AW grow by nearly 150 m reads such code differently: they count the lengths, ask what was dropped, and reach for `strict=True`. That is the heart of how we teach vibe coding. Agents come later in the course: a learner designs one when unaided Python feels routine, commonly in Year 12 or beyond, and Copilot Studio work happens solely in private sessions. Background reading: [problem-solving skills through coding](/problem-solving-skills-through-coding-uk), and [learn to train AI, not just prompt it](/learn-to-train-ai-not-just-prompt-it-uk).
 
 Ordnance Survey, postcodes.io, OpenTopoData and the Copernicus programme have no connection with Modern Age Coders. We use their open data; the experiment is ours.
+
+Next steps
 
 ## From matching cards at seven to bug-proof data pipelines at seventeen
 
 The Welsh school year is where we start guessing; the trial lesson settles it.
 
-- **Years 2 to 6: Pairs and patterns** Matching, ordering and spotting mistakes, often with cards before code. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Programs with AI** Scratch games made with an AI helper, then the step into Python. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Real data in Python** Lists, dictionaries and joins, checked against the source every time. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Data you can rely on** Python for work, with careful joins, missing values and tests. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)
+Years 2 to 6
+
+### Pairs and patterns
+
+Matching, ordering and spotting mistakes, often with cards before code.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Programs with AI
+
+Scratch games made with an AI helper, then the step into Python.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Real data in Python
+
+Lists, dictionaries and joins, checked against the source every time.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Data you can rely on
+
+Python for work, with careful joins, missing values and tests.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)Pairing data safely
 
 ## What does zip() do in Python when the lists are different lengths?
 
@@ -130,30 +139,139 @@ A learner who has seen that checks list lengths and joins by key from then on, w
 
 For a teenager in Colwyn Bay, catching the bugs that make no noise is what puts them in charge of AI-written code, and that comes from writing and testing Python themselves. The longer argument is in [what coding still offers a young person in 2026](/blog/is-coding-worth-learning-2026).
 
+Practical details
+
 ## Lessons for a Colwyn Bay learner
 
 Lessons are live video classes. A computer with a keyboard is needed, as Python does not run well on a tablet alone.
 
-- **Code typed by the learner** The learner writes and runs each program; the tutor asks how they know it is right.
-- **Level before course** The trial lesson shows us where to start before any recommendation.
-- **Free to try** Your opening session is unpaid, and we never take card details for it.
-- **Matched groups** Fifteen to twenty learners at the same level, from all over the UK.
-- **Twice weekly** Around eight lessons a month, with Conwy school holidays kept free on request.
-- **One UK time** The lesson keeps its UK time through the spring and autumn clock changes.
+### Code typed by the learner
 
-**Why we teach online** It is much easier to gather fifteen to twenty learners at one exact level across the UK than along one stretch of coast, and video means nobody travels.
+The learner writes and runs each program; the tutor asks how they know it is right.
+
+### Level before course
+
+The trial lesson shows us where to start before any recommendation.
+
+### Free to try
+
+Your opening session is unpaid, and we never take card details for it.
+
+### Matched groups
+
+Fifteen to twenty learners at the same level, from all over the UK.
+
+### Twice weekly
+
+Around eight lessons a month, with Conwy school holidays kept free on request.
+
+### One UK time
+
+The lesson keeps its UK time through the spring and autumn clock changes.
+
+Why we teach online
+
+It is much easier to gather fifteen to twenty learners at one exact level across the UK than along one stretch of coast, and video means nobody travels.
+
+Fees
 
 ## Fees for Colwyn Bay families
 
 Colwyn Bay learners pay the same as all learners outside India.
 
-- First class: USD 0. First lesson: free, full length, ending with a course recommendation.
-- Group tuition: USD 100 a month. Group class, usually eight lessons a month.
-- Private tuition: USD 150 a month. One-to-one tuition, usually eight lessons a month.
+First class**USD 0**
+
+First lesson: free, full length, ending with a course recommendation.
+
+Group tuition**USD 100**
+
+Group class, usually eight lessons a month.
+
+Private tuition**USD 150**
+
+One-to-one tuition, usually eight lessons a month.
 
 We charge in US dollars and list no price in pounds. The trial is free, and billing begins only once a course and a weekly slot are agreed. For holidays, missed sessions and moving from group to private or back, see the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20to%20book%20a%20free%20online%20coding%20or%20Python%20trial%20lesson.%20We%20are%20in%20Colwyn%20Bay.)Reviews
+
+## Google reviews from North Wales families and UK learners
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Colwyn Bay lesson
+
+A note of the learner's age, or Welsh school year, and a hobby is all we need. The trial could be a card-matching puzzle, a Scratch game built with an AI, a first Python program, or the postcode heights project.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Colwyn Bay one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20to%20book%20a%20free%20online%20coding%20or%20Python%20trial%20lesson.%20We%20are%20in%20Colwyn%20Bay.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Colwyn Bay questions
+
+The heights project, zip and missing data, vibe coding and practical details.
 
 ### How many people live in Colwyn Bay?
 
@@ -195,10 +313,14 @@ The trial is free. After it, group classes are USD 100 a month and private lesso
 
 Yes. Send us the Conwy term dates and we keep the holidays clear.
 
+Close to Colwyn Bay
+
 ## More pages for North Wales
 
 Visit [Conwy](/coding-classes-in-conwy), [Bangor](/best-coding-class-in-bangor-wales), [St Asaph](/best-coding-class-in-st-asaph) and [Denbighshire](/coding-classes-in-denbighshire). Every other Welsh page is listed on [our Wales page](/coding-and-ai-classes-in-wales), and the rest of the country on the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20to%20book%20a%20free%20online%20coding%20or%20Python%20trial%20lesson.%20We%20are%20in%20Colwyn%20Bay.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/online-coding-and-python-classes-in-colwyn-bay](https://learn.modernagecoders.com/online-coding-and-python-classes-in-colwyn-bay#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-colwyn-bay*

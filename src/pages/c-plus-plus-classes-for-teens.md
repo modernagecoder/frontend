@@ -185,7 +185,7 @@ How much do teen C++ classes cost?+
 
 Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of up to 6 students is ₹2,999 per month, and 1-on-1 classes are ₹4,999 per month. A free demo class is available first.
 
-Are the classes live and in batches?+
+Are the classes live and in small batches?+
 
 Yes. Every class is live and interactive with a real mentor, in batches of 15–20 students (or up to 6 in a Mini Batch). Sessions are recorded so teens can revise anytime.
 

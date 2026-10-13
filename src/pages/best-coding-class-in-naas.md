@@ -4,46 +4,32 @@ description: "Live online coding, Python and AI classes for learners in Naas age
 canonical: https://learn.modernagecoders.com/best-coding-class-in-naas
 source: src/pages/best-coding-class-in-naas.html
 ---
-> Naas holds 25,991 usual residents in the census town tables, in 8,817 households, and 2,034 of its children under fifteen are in some form of childcare. Our teaching reaches all of them without anyone leaving the house: live video lessons twice in most weeks, in a group of fifteen to twenty placed at the same level or one to one, for learners aged six to sixty-seven. We charge nothing for the first lesson, then USD 100 a month for a group place or USD 150 for one to one.
+> Live online coding, Python and AI classes for learners in Naas aged 6 to 67, taught in real time by a teacher, in ability groups or one to one. First lesson free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [County Kildare](/coding-classes-in-county-kildare) / Naas
-
-Naas, County Kildare / Live online
-
-# Coding classes in Naas
-
-**What is the best coding class in Naas?** Naas holds 25,991 usual residents in the census town tables, in 8,817 households, and 2,034 of its children under fifteen are in some form of childcare. Our teaching reaches all of them without anyone leaving the house: live video lessons twice in most weeks, in a group of fifteen to twenty placed at the same level or one to one, for learners aged six to sixty-seven. We charge nothing for the first lesson, then USD 100 a month for a group place or USD 150 for one to one.
-
-Ask the census where people in Naas were born and it answers most of the question. Of 25,991 usual residents, 19,599 were born in Ireland, 1,131 in the United Kingdom, 1,008 in Poland and 368 in India. Then it stops answering: the next largest group, 2,674 people, sits under the heading Rest of World, and one more, 1,211 people, under a heading for the other EU countries. Rest of World on its own is 41.8% of everyone in the town born outside Ireland, and with the regional heading added the two cover 3,885 people, or 60.8%, by our arithmetic. So the town learns its second most common birthplace only by asking something other than the census. That is not an error in the table. It is the shape every classification ends up with, and learning to spot it is worth more than any single figure in the row.
-
-Facts last verified 18 September 2026. Teaching is online; no Naas branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Naas
 
 ## Good first courses for Naas learners
 
 Choose on age and interest. The free lesson is taught by the teacher who runs that course, and it is the lesson, not a sales call.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Sorting and grouping in Scratch, where a bucket called everything else quickly becomes a nuisance.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Python lists and counting, with early practice at naming categories honestly.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): Grouping real census data, and deciding what belongs in a category and what does not.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (College and adult): For adults whose reports have an Other row nobody has ever opened.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsSorting and grouping in Scratch, where a bucket called everything else quickly becomes a nuisance.See the syllabus](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsPython lists and counting, with early practice at naming categories honestly.See the syllabus](/courses/python-ai-kids-masterclass)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensGrouping real census data, and deciding what belongs in a category and what does not.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)College and adultData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For adults whose reports have an Other row nobody has ever opened.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## The leftover column
 
 Birthplace of the 25,991 usual residents of Naas, Census 2022, with the headings exactly as the table publishes them. Shares are ours.
 
-**Where Naas residents were born, April 2022**
-
 | Heading as published | Kind of heading | Residents | Share of town |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Ireland | A named place | 19,599 | 75.4% |
 | Rest of World | Everything left over | 2,674 | 10.3% |
 | Other EU272020 (Exec Ireland & Poland) | Everything left over inside a region | 1,211 | 4.7% |
@@ -69,14 +55,14 @@ Other in a dropdown. Miscellaneous in a ledger. Unknown in a web analytics repor
 
 The project is a short program over this table. It marks each heading as named, residual or not stated, adds up the residual share, prints the ranking of named groups only, and then prints the one sentence that matters: with 2,674 of the 6,392 residents born outside Ireland in a single heading that names nowhere, no second place can be awarded. The learner then goes looking for the same shape in the other Naas tables, and finds it quickly.
 
+Naas in the town tables
+
 ## The county town, counted
 
 Published for the built-up area called Naas, Co Kildare, in the Census 2022 small area tables.
 
-**Naas, Census 2022**
-
 | Measured | Count |
-|---|---|
+| --- | --- |
 | Usual residents | 25,991 |
 | Households | 8,817 |
 | Households with a broadband connection | 8,019 |
@@ -96,18 +82,20 @@ Of the 6,924 travelling to school, college or childcare, 3,088 go as a car passe
 
 A separate table asks about home working directly: 4,895 working residents do some of their work at home, 7,008 never do and 810 did not state.
 
-**The hospital in the town** The HSE lists Naas General Hospital at Craddockstown Road, Naas East, Naas, Kildare, W91 AE76. We have no connection with it, and it appears here only as a named institution with a published address.
+The hospital in the town
+
+The HSE lists Naas General Hospital at Craddockstown Road, Naas East, Naas, Kildare, W91 AE76. We have no connection with it, and it appears here only as a named institution with a published address.
 
 Broadband reaches about 90.9% of Naas households by our arithmetic, with 332 households recording no internet access and 364 not stating. In the town education table of 16,505 people, 3,124 hold an honours bachelor degree or professional qualification and 2,731 a postgraduate diploma or degree, while 787 did not state, which is the non-response column rather than a residual.
+
+The same trap, a second table
 
 ## Where Other ties with a real category
 
 The eight industry groups published for the 12,802 Naas residents at work. Shares are our arithmetic and the groups are the table's own.
 
-**Industry groups, Naas residents at work**
-
 | Group as published | Residents | Share |
-|---|---|---|
+| --- | --- | --- |
 | Commerce and trade | 3,654 | 28.5% |
 | Professional services | 3,300 | 25.8% |
 | Manufacturing industries | 1,638 | 12.8% |
@@ -129,7 +117,11 @@ The travel table is more generous: its leftover is labelled Other (incl. lorry),
 
 Eight groups for every job in a town of this size means each one covers a great deal. The published figure is right; a sentence built on it has to stay inside what a group of that width can support.
 
-**The station is not in the town** Irish Rail names the station serving the area Sallins and Naas, and gives its address as Sallins, Co. Kildare, Eircode W91 XY28. It lists the station as unstaffed with no booking office and a ticket vending machine, access to both platforms by ramps from the car parks, sheltered bicycle parking with 20 lockers, and an additional 200 commuter parking spaces beside it in the Waterways development. A name that carries two places is worth noticing before any figure is attached to either.
+The station is not in the town
+
+Irish Rail names the station serving the area Sallins and Naas, and gives its address as Sallins, Co. Kildare, Eircode W91 XY28. It lists the station as unstaffed with no booking office and a ticket vending machine, access to both platforms by ramps from the car parks, sheltered bicycle parking with 20 lockers, and an additional 200 commuter parking spaces beside it in the Waterways development. A name that carries two places is worth noticing before any figure is attached to either.
+
+Learning in Naas
 
 ## Lessons at the kitchen table
 
@@ -149,14 +141,37 @@ Python, data and AI for adults, including the 4,895 residents who already do par
 
 Nothing on this page implies a connection with the Health Service Executive, Irish Rail, Kildare County Council or any employer in Naas; each is quoted from its own published page and named for that reason alone. The counts are Central Statistics Office Census 2022 figures reproduced as published, the shares are our own division, and where a heading is a leftover or a non-response column this page says which it is rather than quietly treating it as a place or a trade.
 
+Learning ladder
+
 ## From sorting things to defining categories
 
 The age bands are indicative; the free lesson sets the real starting point.
 
-- **Ages 6 to 10: What goes where** Sorting and grouping in block code, and noticing when the leftover pile grows bigger than the piles you named. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 11 to 13: Counting by group** Loops, dictionaries and tallies in Python, with categories the learner has to define before counting. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Honest grouping** Working with published classifications, residual groups and missing answers, and reporting each correctly. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Reports that hold up** Building analysis for other people to act on, including the part that says what the data cannot show. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### What goes where
+
+Sorting and grouping in block code, and noticing when the leftover pile grows bigger than the piles you named.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 11 to 13
+
+### Counting by group
+
+Loops, dictionaries and tallies in Python, with categories the learner has to define before counting.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Honest grouping
+
+Working with published classifications, residual groups and missing answers, and reporting each correctly.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Reports that hold up
+
+Building analysis for other people to act on, including the part that says what the data cannot show.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## Ask an assistant to rank these groups
 
@@ -168,30 +183,139 @@ A learner who has done this project asks a different question of the tool, and c
 
 Tools will keep getting better at producing answers. The value of knowing which questions have no answer in the data keeps going up with them. The longer argument is in [the case for learning to code](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How a Naas family uses the classes
 
 The logistics in six lines.
 
-- **Taught live** A teacher on video, watching the work happen and correcting it in the moment. No recordings standing in for teaching.
-- **Grouped by level** Fifteen to twenty learners of the same ability, joining from Naas, elsewhere in Ireland and other countries.
-- **A fixed weekly hour** Two lessons most weeks, about eight in a month, in a slot chosen once and then left alone.
-- **Term dates respected** Mid-terms, holidays and exam periods are worked into the plan when the schedule is set.
-- **Equipment** A laptop or desktop, sound that works and a connection steady enough for video, all checked during the free lesson.
-- **One to one when it suits better** Where no group at the right level meets at a workable time, the same course is taught privately.
+### Taught live
 
-**No journey attached** A town where 7,408 residents drive to work does not need another trip in the diary. The lesson happens where the learner already is, at an hour the household picked.
+A teacher on video, watching the work happen and correcting it in the moment. No recordings standing in for teaching.
+
+### Grouped by level
+
+Fifteen to twenty learners of the same ability, joining from Naas, elsewhere in Ireland and other countries.
+
+### A fixed weekly hour
+
+Two lessons most weeks, about eight in a month, in a slot chosen once and then left alone.
+
+### Term dates respected
+
+Mid-terms, holidays and exam periods are worked into the plan when the schedule is set.
+
+### Equipment
+
+A laptop or desktop, sound that works and a connection steady enough for video, all checked during the free lesson.
+
+### One to one when it suits better
+
+Where no group at the right level meets at a workable time, the same course is taught privately.
+
+No journey attached
+
+A town where 7,408 residents drive to work does not need another trip in the diary. The lesson happens where the learner already is, at an hour the household picked.
+
+Fees
 
 ## Naas class fees
 
 Everything we charge, in three lines.
 
-- First class: USD 0. A complete first lesson at no charge, ending with an assessed level and a course recommendation.
-- Group tuition: USD 100 a month. A month in an ability group of fifteen to twenty learners, roughly eight live lessons.
-- Private tuition: USD 150 a month. A month of private lessons, same frequency, one learner and one teacher.
+First class**USD 0**
+
+A complete first lesson at no charge, ending with an assessed level and a course recommendation.
+
+Group tuition**USD 100**
+
+A month in an ability group of fifteen to twenty learners, roughly eight live lessons.
+
+Private tuition**USD 150**
+
+A month of private lessons, same frequency, one learner and one teacher.
 
 Fees are monthly, in US dollars, at the single rate for families outside India, which means Naas sees the same figure as every other Irish town and no second price list in another currency. Payment starts only once the free lesson has fixed a course and an hour, and pauses, missed lessons and moves between group and private are set out on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20looking%20for%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Naas.)Reviews
+
+## Six of our families, quoted from Google without edits
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson in Naas
+
+Give us an age and an interest and we will plan the first hour around it, whether that turns out to be a game to build or a census table to take apart.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Naas one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20looking%20for%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Naas.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Naas coding class questions
+
+What parents and adult learners in Naas ask us first.
 
 ### How many people live in Naas?
 
@@ -233,10 +357,14 @@ The first lesson is free. After that a shared place costs USD 100 a month and br
 
 Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
+Explore Ireland
+
 ## Around Naas
 
 Other Kildare pages cover [Celbridge](/best-coding-class-in-celbridge), [Maynooth](/best-coding-class-in-maynooth) and [Leixlip](/best-coding-class-in-leixlip), inside [County Kildare](/coding-classes-in-county-kildare) and the province of [Leinster](/coding-and-ai-classes-in-leinster). Our [comparison page](/best-online-coding-classes-ireland) sets us beside other online schools, and the [Ireland hub](/coding-classes-in-ireland) lists every page.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20looking%20for%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Naas.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-naas](https://learn.modernagecoders.com/best-coding-class-in-naas#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-naas*

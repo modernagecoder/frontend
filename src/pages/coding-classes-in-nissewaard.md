@@ -4,37 +4,25 @@ description: "Live online coding, Python, AI and app classes in Nissewaard for a
 canonical: https://learn.modernagecoders.com/coding-classes-in-nissewaard
 source: src/pages/coding-classes-in-nissewaard.html
 ---
-> Coding classes in Nissewaard serve 89,112 people (statistics office, 1 January 2026) in a municipality formed on 1 January 2015 from Spijkenisse and Bernisse, on the island of Voorne-Putten. Spijkenisse became a groeigemeente in 1958 and a groeikern in 1977, and by around 1990 it had 26,400 dwellings housing 68,000 people, almost twenty new wijken and a metro connection with Rotterdam. A town filled in one burst ages together, so its averages can shift simply because the mix of households shifts, while no single household has changed at all. Statisticians call it the composition effect, and machine learning meets it as dataset shift. Modern Age Coders teaches live online in English, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
+> Live online coding, Python, AI and app classes in Nissewaard for ages 6 to 67, in Spijkenisse, Heenvliet, Geervliet, Zuidland or Simonshaven. First lesson free.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Nissewaard
-
-Nissewaard, Zuid-Holland / Live online
-
-# Coding classes in Nissewaard, a town built for young families that grew up together
-
-**What are the best coding classes in Nissewaard?** Coding classes in Nissewaard serve 89,112 people (statistics office, 1 January 2026) in a municipality formed on 1 January 2015 from Spijkenisse and Bernisse, on the island of Voorne-Putten. Spijkenisse became a groeigemeente in 1958 and a groeikern in 1977, and by around 1990 it had 26,400 dwellings housing 68,000 people, almost twenty new wijken and a metro connection with Rotterdam. A town filled in one burst ages together, so its averages can shift simply because the mix of households shifts, while no single household has changed at all. Statisticians call it the composition effect, and machine learning meets it as dataset shift. Modern Age Coders teaches live online in English, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
-
-Most towns grow a little every year, and their residents come in all ages at once. Spijkenisse grew in a hurry, from its designation as a groeigemeente in 1958 through the raised targets of a groeikern after 1977, and by around 1990 it had almost twenty new wijken. Places built like that fill with people at the same stage of life, and then all of them move on to the next stage together. The consequence is easy to miss in the figures. An average over the whole town, of household size, of income, of anything, can rise or fall because the town now contains more of one kind of household and fewer of another, even when every kind is exactly as it was. Anyone who builds a model, a dashboard or a school report will meet the same effect, and it is far easier to spot once someone has shown it on a town.
-
-Facts last verified 11 September 2026. Teaching is online; no Nissewaard branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Nissewaard
 
 ## Four courses for Spijkenisse and the Bernisse villages
 
 A child in Zuidland who wants to build a game, a teenager in Spijkenisse who takes the metro and wonders how an app predicts the next train, a student comparing averages that refuse to behave, and an adult in Heenvliet whose monthly figures moved when nothing at work did. Each of them can start with a complete lesson that costs nothing.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Typed Python where a child builds a class average from two groups and watches it move when only the group sizes change.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 18): Real data in Python, with every overall average split into its groups before anyone draws a conclusion from it.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Models and metrics monitored group by group, so that a change in the mix of inputs is never mistaken for a change in quality.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): Dashboards that show the mix beside the average, so a moving figure can be explained before it is acted on.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsTyped Python where a child builds a class average from two groups and watches it move when only the group sizes change.See the syllabus](/courses/python-ai-kids-masterclass)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 18Data Science for TeensReal data in Python, with every overall average split into its groups before anyone draws a conclusion from it.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CourseModels and metrics monitored group by group, so that a change in the mix of inputs is never mistaken for a change in quality.See the syllabus](/courses/python-ai-automation-masterclass-college)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)Dashboards that show the mix beside the average, so a moving figure can be explained before it is acted on.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Nissewaard today
 
 ## Spijkenisse, Bernisse, and a name chosen in 2013
 
@@ -52,10 +40,8 @@ In 1958 Spijkenisse officially became a groeigemeente, and in 1977 it accepted t
 
 A large library and cultural centre, the Boekenberg, was built, along with a new theatre, de Stoep. The encyclopaedia gives Spijkenisse 72,830 residents on 1 January 2023. The Bernisse side of the municipality holds villages such as Heenvliet, Geervliet, Zuidland, Abbenbroek, Simonshaven and Hekelingen.
 
-**The municipality in the statistics office row**
-
 | Measure | Figure | Year |
-|---|---|---|
+| --- | --- | --- |
 | Residents | 89,112; 88,341; 84,771; 83,122 | 2026, 2025, 2013, 1995 |
 | Households, one-person, with children | 40,096; 13,993; 14,324 | 2025 |
 | Average household | 2.18 people | 2025 |
@@ -63,19 +49,21 @@ A large library and cultural centre, the Boekenberg, was built, along with a new
 | Under fifteen, sixty-five or over | 14,107; 19,685 | 2026 |
 | Income per resident, per income recipient | 34,000 and 41,700 euro | 2024 |
 
+When the mix moves
+
 ## An average that changes while nothing inside it does
 
 The figures in this table are invented to show the mechanism cleanly. They are not Nissewaard data, and the page does not claim that Nissewaard households followed this path.
 
-**An illustration: the same two kinds of household, mixed in different proportions**
-
 | Moment | Family households, averaging 3.5 people | Older households, averaging 1.6 people | Average over the whole town |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Soon after a growth burst | 70 percent of households | 30 percent | 0.7 times 3.5 plus 0.3 times 1.6, which is 2.93 |
 | A generation later | 40 percent of households | 60 percent | 0.4 times 3.5 plus 0.6 times 1.6, which is 2.36 |
 | What changed | nothing: still 3.5 | nothing: still 1.6 | down by 0.57, entirely from the mix |
 
 In the illustration, no household of either kind became smaller. Every family still averages 3.5 people and every older household 1.6. Yet the town-wide average fell by more than half a person, because the town now holds more of the smaller kind. Read without the breakdown, the falling average invites a story about families shrinking. Read with it, the story is about who lives in the town. A place like Spijkenisse, where almost twenty wijken were filled within a few decades, is exactly where this effect is strongest, because many households there reached the same stage of life at about the same time. The honest question to ask of any moving average is therefore twofold: did the groups change, or did the proportions?
+
+Verified local facts
 
 ## Nissewaard in figures, and the arithmetic this page does
 
@@ -107,6 +95,8 @@ The page does not compare the 1990 figure of 68,000 residents in 26,400 Spijkeni
 
 Modern Age Coders has no connection with the municipality of Nissewaard, the Boekenberg, the metro operator or any school on Voorne-Putten, and nothing here suggests one. The municipal figures are the statistics office row for Nissewaard at the years stated, with the years before 2015 as the office has recalculated them. The merger date, the name decision and the villages come from the encyclopaedia entry for Nissewaard, and the growth history, the bridges, the library and the Dorpskerk from the entry for Spijkenisse.
 
+Signature project
+
 ## Split the average before you explain it
 
 When an overall figure moves, there are always two candidates: the groups inside it changed, or the share of each group changed. Only a breakdown can tell them apart.
@@ -123,10 +113,8 @@ For each period, record every group's own average and its share of the whole. Th
 
 If the groups held steady and only the shares moved, say so plainly: the population changed, not the behaviour. If the groups moved too, say how much of the change belongs to each.
 
-**The same effect in places people rarely expect it**
-
 | Where | The overall figure | What actually moved | The mistaken reading |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | A machine learning model | accuracy falls from one month to the next | more inputs now come from a harder group | the model has got worse |
 | An app's average rating | the average drops after a launch abroad | a new market that rates everything lower | the app has got worse |
 | A school's average score | results fall in one year | a larger share of pupils in their first year at the school | teaching has got worse |
@@ -137,14 +125,14 @@ If the groups held steady and only the shares moved, say so plainly: the populat
 
 Machine learning systems are usually judged by one overall number, and that number is an average over whatever inputs arrived. Suppose a model reads handwriting correctly 98 percent of the time for neat writers and 85 percent of the time for hurried ones, and suppose the proportion of hurried writers rises from a fifth to a half because the product is now used on phones. The overall accuracy falls from about 95 to about 92 percent, and a dashboard shows a model in decline, although it performs exactly as before on every kind of writing. Engineers call this dataset shift, and the remedy is the same as for a growth town: keep the breakdown, track each group separately, and compare like with like before changing anything. Retraining a model that has not got worse can make it worse for the group it used to serve well. Nissewaard offers the shape of the problem without any need for invented drama: a town filled in one burst, whose averages will keep moving for decades simply because its people move through life together.
 
+Reliable pipeline
+
 ## Five habits for any average that is going to be compared
 
 For dashboards, model monitoring, school results, surveys and census figures. Practised on the town that filled almost twenty wijken within a generation.
 
-**Keeping the mix visible**
-
 | Habit | What to do | What it catches | What it gives |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Store the groups | Keep each record's group, not only the overall total | Averages that cannot be split later | A breakdown on demand |
 | Show shares with averages | Put each group's share of the whole next to the overall figure | Mix changes hidden inside a single number | A visible composition |
 | Decompose every change | Split any change into a within-group part and a mix part | Behaviour blamed for a change in population | The right explanation |
@@ -165,14 +153,37 @@ A real figure from work that went up or down, rebuilt with a breakdown by custom
 
 This section uses only the published history of Spijkenisse as a growth town and labelled, invented numbers for the illustration and the handwriting example. It makes no claim about the actual household sizes, ages or incomes of any group in Nissewaard over time.
 
+Learning ladder
+
 ## From mixing two jars to monitoring a model group by group
 
 Where each learner begins is decided during the free lesson, by watching them tackle a real task. Neither their village nor their birthday settles it.
 
-- **Ages 6 to 10: Two jars** Children see an average move when only the mixture changes. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Game Development for Kids](/courses/game-development-masterclass-for-kids)
-- **Ages 11 to 13: Group sizes** Learners compute a class average from two groups of different sizes. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Within and between** Teenagers split a change in a mean into its two parts in Python. [App Development for Teens](/courses/complete-app-development-masterclass-for-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Model monitoring** Adults track a model or a process by group instead of overall. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Two jars
+
+Children see an average move when only the mixture changes.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Game Development for Kids](/courses/game-development-masterclass-for-kids)Ages 11 to 13
+
+### Group sizes
+
+Learners compute a class average from two groups of different sizes.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Within and between
+
+Teenagers split a change in a mean into its two parts in Python.
+
+[App Development for Teens](/courses/complete-app-development-masterclass-for-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Model monitoring
+
+Adults track a model or a process by group instead of overall.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## An AI model can lose accuracy without getting any worse. Why should a teenager in Spijkenisse learn how that happens?
 
@@ -184,30 +195,139 @@ A learner who has mixed two groups in different proportions and watched the over
 
 The case for a child in Nissewaard learning to code in 2026 is therefore not the metro to Rotterdam. It is that someone who asks what the mix was before explaining a moving average will be needed wherever AI systems are judged by a single number. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## On Voorne-Putten, the lesson comes to the house
 
 Nissewaard spans Spijkenisse and a string of Bernisse villages, and while the metro serves the town, a lesson that needs no journey serves them all equally.
 
-- **Village or town, same seat** A learner in Abbenbroek, Simonshaven or Hekelingen joins from home exactly as one in Spijkenisse does. There is no metro to catch and no drive across the island after the evening meal.
-- **Groep and havo in Dutch** The school vocabulary a Nissewaard family already uses, groep, brugklas, vmbo, havo, vwo and profielkeuze, stays in Dutch during lessons, while the teaching itself is in English.
-- **An honest first hour** The free lesson is a real one. The teacher sets a genuine task, watches how the learner approaches it, and afterwards recommends a level, a course and a weekly time, with no card requested and no pressure to decide.
-- **Well-matched classmates** A group is fifteen to twenty learners who are at the same stage. Nissewaard has 14,107 residents under fifteen, but matching five of them on subject, level and hour is unlikely, so a group may include learners from several countries.
-- **Regio Midden holidays** Two sessions a week, roughly eight each month, at one fixed hour. Zuid-Holland schools take regio Midden holidays, and lessons pause for the same weeks.
-- **Time zones that suit families** With India three and a half hours ahead in summer and four and a half in winter, the usual slots fall after school, in the early evening and at weekends, and they hold steady through the year.
+### Village or town, same seat
 
-**Forty schools, and a group from further away** Nissewaard has 31 primary establishments teaching 7,532 pupils and 9 secondary establishments teaching 4,696. That is plenty of pupils, but a class that works needs five of them matched on subject, stage and hour, and such a match is much easier to make across the whole age range from 6 to 67 and many countries than within one island.
+A learner in Abbenbroek, Simonshaven or Hekelingen joins from home exactly as one in Spijkenisse does. There is no metro to catch and no drive across the island after the evening meal.
+
+### Groep and havo in Dutch
+
+The school vocabulary a Nissewaard family already uses, groep, brugklas, vmbo, havo, vwo and profielkeuze, stays in Dutch during lessons, while the teaching itself is in English.
+
+### An honest first hour
+
+The free lesson is a real one. The teacher sets a genuine task, watches how the learner approaches it, and afterwards recommends a level, a course and a weekly time, with no card requested and no pressure to decide.
+
+### Well-matched classmates
+
+A group is fifteen to twenty learners who are at the same stage. Nissewaard has 14,107 residents under fifteen, but matching five of them on subject, level and hour is unlikely, so a group may include learners from several countries.
+
+### Regio Midden holidays
+
+Two sessions a week, roughly eight each month, at one fixed hour. Zuid-Holland schools take regio Midden holidays, and lessons pause for the same weeks.
+
+### Time zones that suit families
+
+With India three and a half hours ahead in summer and four and a half in winter, the usual slots fall after school, in the early evening and at weekends, and they hold steady through the year.
+
+Forty schools, and a group from further away
+
+Nissewaard has 31 primary establishments teaching 7,532 pupils and 9 secondary establishments teaching 4,696. That is plenty of pupils, but a class that works needs five of them matched on subject, stage and hour, and such a match is much easier to make across the whole age range from 6 to 67 and many countries than within one island.
+
+Fees
 
 ## Nissewaard fees, stated once and in full
 
 The three prices below are the whole picture.
 
-- First class: USD 0. A real lesson on a real task, ending in a recommended level and course.
-- Group tuition: USD 100 a month. Monthly, usually eight lessons, in a group of fifteen to twenty learners at the same level.
-- Private tuition: USD 150 a month. Monthly, usually eight lessons, with one teacher and one learner.
+First class**USD 0**
+
+A real lesson on a real task, ending in a recommended level and course.
+
+Group tuition**USD 100**
+
+Monthly, usually eight lessons, in a group of fifteen to twenty learners at the same level.
+
+Private tuition**USD 150**
+
+Monthly, usually eight lessons, with one teacher and one learner.
 
 The fee is in dollars and is the same for every country, so there is no euro price to weigh against it, and a family in Zuidland pays what a family in Spijkenisse pays. Payment begins only once the free lesson has fixed a course and an hour, and it is set up over WhatsApp. The pricing page covers breaks, a change of format and lessons that are missed.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Nissewaard.)Reviews
+
+## Six Google reviews, quoted in full
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us about the learner
+
+The first task might be mixing two jars of sweets, averaging two groups of different sizes, or splitting a change in a mean into its two parts.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Nissewaard one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Nissewaard.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Nissewaard coding class questions
+
+The municipality, its growth, the villages and the lessons.
 
 ### What does Nissewaard include?
 
@@ -249,10 +369,14 @@ The first lesson is free. After it, group tuition is USD 100 a month for two liv
 
 Fifteen to twenty, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
+Explore Zuid-Holland and beyond
+
 ## Up the metro line to Rotterdam, and out to the province
 
 The metro that Spijkenisse gained in its growth years runs to the city covered by [coding classes in Rotterdam](/coding-classes-in-rotterdam), which hands on to its own district pages. Further up the rivers, [Dordrecht](/coding-classes-in-dordrecht) has a page too, and every city in the province with one is gathered on [Zuid-Holland](/coding-classes-in-zuid-holland). For a learner heading straight into machine learning there is the [AI and Python Academy](/ai-and-python-academy-netherlands), and the full series is on the [Netherlands coding hub](/coding-classes-in-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Write to us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Nissewaard.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-nissewaard](https://learn.modernagecoders.com/coding-classes-in-nissewaard#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-nissewaard*

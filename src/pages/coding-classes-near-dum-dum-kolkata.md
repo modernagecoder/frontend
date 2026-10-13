@@ -12,7 +12,7 @@ DUM DUM · NAGER BAZAR · BANGUR AVENUE · NORTH KOLKATA
 
 Modern Age Coders runs premium, live online coding and mathematics classes for students near Dum Dum, Kolkata, covering Nager Bazar, Bangur Avenue, Motijheel and Dum Dum Cantonment. Children, teens and college students learn Python, Java, AI/ML and school maths in live batches of 15–20, taught by full-time software engineers and maths graduates. Nothing is pre-recorded. You get Salt Lake-grade instruction at home, with no Jessore Road commute.
 
-Live, never pre-recordedBatches of 6–8Engineers & maths graduatesFrom ₹1,499/month[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)6–8Students per live batch100%Live, project-based classes9Local schools served near Dum Dum0 minCommute through Nager BazarAT A GLANCE
+Live, never pre-recordedBatches of 15–20Engineers & maths graduatesFrom ₹1,499/month[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)15–20Students per live batch100%Live, project-based classes9Local schools served near Dum Dum0 minCommute through Nager BazarAT A GLANCE
 
 ## The essentials, in one place
 

@@ -12,11 +12,11 @@ LIVE ONLINE · SOUTH KOLKATA · ALIPORE 700027
 
 Modern Age Coders runs live online coding and mathematics classes for Alipore families, taught in real time by full-time software engineers and maths graduates, never pre-recorded. Children learn in batches of 15–20, building real Python, Java and AI projects from the bungalow drawing room. No crawl through Judges Court Road or the Diamond Harbour Road signal at Belvedere. Book a free demo class and judge the quality yourself.
 
-Live, not recordedBatches of 6–8Engineers & maths graduatesAges 6 to college10,000+Students taught online4.9/5Parent rating6–8Per live batchFreeFirst demo class[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)LIVE ONLINE · ALIPORE, KOLKATA
+Live, not recordedBatches of 15–20Engineers & maths graduatesAges 6 to college10,000+Students taught online4.9/5Parent rating15–20Per live batchFreeFirst demo class[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)LIVE ONLINE · ALIPORE, KOLKATA
 
 ## At a glance
 
-Format**Live online, real-time classes** (never pre-recorded), screen-shared and interactiveBatch size6–8 students (group), up to 6 (mini batch), or 1-on-1Ages6 to 18, plus college and working adultsSubjectsCoding (Python, Java, AI/ML, web, DSA) and Mathematics (school, Olympiad, college)BoardsISC, ICSE, CBSE, IGCSE, board-aligned Computer Science & Computer ApplicationsFeesFrom **₹1,499/month** (group), ₹2,999/month (mini batch), ₹4,999/month (1-on-1)Free demoYes, one free, no-commitment live demo classServingAlipore, Judges Court, Burdwan Road, Belvedere Estate, New Alipore, Hastings, Chetla and nearbyWHY MODERN AGE CODERS
+Format**Live online, real-time classes** (never pre-recorded), screen-shared and interactiveBatch size15–20 students (group), up to 6 (mini batch), or 1-on-1Ages6 to 18, plus college and working adultsSubjectsCoding (Python, Java, AI/ML, web, DSA) and Mathematics (school, Olympiad, college)BoardsISC, ICSE, CBSE, IGCSE, board-aligned Computer Science & Computer ApplicationsFeesFrom **₹1,499/month** (group), ₹2,999/month (mini batch), ₹4,999/month (1-on-1)Free demoYes, one free, no-commitment live demo classServingAlipore, Judges Court, Burdwan Road, Belvedere Estate, New Alipore, Hastings, Chetla and nearbyWHY MODERN AGE CODERS
 
 ## Premium live online: built for Alipore rigour
 

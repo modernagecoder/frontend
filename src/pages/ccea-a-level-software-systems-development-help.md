@@ -4,34 +4,28 @@ description: "CCEA A level Software Systems Development help: the 2025 report sa
 canonical: https://learn.modernagecoders.com/ccea-a-level-software-systems-development-help
 source: src/pages/ccea-a-level-software-systems-development-help.html
 ---
-> CCEA's A level Software Systems Development has four units. AS 1, Introduction to Object Oriented Development, is a two-hour written exam worth 20 per cent of the A level. AS 2, Event Driven Programming, is an internally assessed application worth 20 per cent. A2 1, Systems Approaches and Database Concepts, is a two-hour exam based on a case study CCEA releases each March, worth 30 per cent. A2 2, Implementing Solutions, is an internally assessed database application built in an object-oriented environment from a case study and task released each June, worth 30 per cent. Each internal unit represents about 60 hours of work. CCEA's 2025 report calls SQL a key differentiator and links weak SQL to relying on Visual Studio's database tools rather than writing queries in SQL Server Management Studio. Modern Age Coders teaches SQL written by hand, normalisation and ER modelling, object-oriented programming and systems theory, using past case studies and our own briefs. We never work on a portfolio or on the current year's case studies. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
+> CCEA A level Software Systems Development help: the 2025 report says written SQL separates the grades. OOP, databases and the four units, taught live.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / CCEA Software Systems Development
+In short
 
-Northern Ireland · CCEA A level · Years 13 and 14
+CCEA's A level Software Systems Development has four units. AS 1, Introduction to Object Oriented Development, is a two-hour written exam worth 20 per cent of the A level. AS 2, Event Driven Programming, is an internally assessed application worth 20 per cent. A2 1, Systems Approaches and Database Concepts, is a two-hour exam based on a case study CCEA releases each March, worth 30 per cent. A2 2, Implementing Solutions, is an internally assessed database application built in an object-oriented environment from a case study and task released each June, worth 30 per cent. Each internal unit represents about 60 hours of work. CCEA's 2025 report calls SQL a key differentiator and links weak SQL to relying on Visual Studio's database tools rather than writing queries in SQL Server Management Studio. Modern Age Coders teaches SQL written by hand, normalisation and ER modelling, object-oriented programming and systems theory, using past case studies and our own briefs. We never work on a portfolio or on the current year's case studies. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
 
-# CCEA A level Software Systems Development help
-
-CCEA's A level Software Systems Development asks for a great deal: object-oriented code on paper, an event-driven application, systems theory built around a case study, and finally a database application written in an object-oriented environment. Its 2025 examiners' report singles out one skill above the rest. SQL, it says, separates the strongest candidates from the weakest in both the A2 exam and the coursework, and it names a cause: students who lean on "the inbuilt database tools within Visual Studio" instead of writing SQL themselves. "Candidates who build and query their databases independently within SSMS tend to develop a deeper understanding of SQL and perform notably better in this paper." This page takes that seriously, and sets out the rest of the course from the same report.
-
-At a glance: Qualification: CCEA GCE Software Systems Development; AS 1: Object-oriented development, 2-hour exam, 20 per cent; AS 2: Event-driven application, internal, 20 per cent; A2 1: Systems and databases, 2-hour exam on a case study, 30 per cent; A2 2: Database application, internal, 30 per cent; The differentiator: Written SQL, says CCEA; Portfolios: Never touched by us; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three courses for the A level
 
 SQL twice over, because CCEA says it decides the grade, and the object-oriented programming AS 1 examines. Each card opens a syllabus.
 
-- [MySQL for Teens](/courses/mysql-mastery-for-teens): Queries, joins, aggregates and subqueries, written out in SQL rather than assembled in a visual tool.
-- [Databases and SQL, advanced](/courses/mysql-database-complete-masterclass-college): Normalisation to third normal form, ER modelling and database design, the core of A2 1 and A2 2.
-- [Java for Teens](/courses/java-programming-masterclass-for-teens): Classes, constructors, inheritance, overriding and exceptions in a language very close to C#.
+[![MySQL for Teens course thumbnail](/images/mysql-teens.webp)  SSD / 01 MySQL for Teens Queries, joins, aggregates and subqueries, written out in SQL rather than assembled in a visual tool. Open the syllabus →](/courses/mysql-mastery-for-teens)[![MySQL Course course thumbnail](/images/database-college.webp)  SSD / 02 Databases and SQL, advanced Normalisation to third normal form, ER modelling and database design, the core of A2 1 and A2 2. Open the syllabus →](/courses/mysql-database-complete-masterclass-college)[![Java for Teens course thumbnail](/images/java-teens.webp)  SSD / 03 Java for Teens Classes, constructors, inheritance, overriding and exceptions in a language very close to C#. Open the syllabus →](/courses/java-programming-masterclass-for-teens)
+
+The four units
 
 ## Half examined, half built in school and at home
 
 From the CCEA GCE Software Systems Development specification, updated September 2019.
 
-**The four units**
-
 | Unit | Assessment | Share of the A level |
-|---|---|---|
+| --- | --- | --- |
 | AS 1: Introduction to Object Oriented Development | Written exam, 2 hours | 20 per cent |
 | AS 2: Event Driven Programming | Internal assessment: a portfolio and an event-driven application | 20 per cent |
 | A2 1: Systems Approaches and Database Concepts | Written exam, 2 hours, on a case study released in March | 30 per cent |
@@ -53,16 +47,16 @@ Where C# differs in ways the examiners mark, such as properties and the virtual 
 
 Source: the CCEA GCE Software Systems Development specification and the Chief Examiner's and Principal Moderator's Report, Summer Series 2025, both from the [CCEA Software Systems Development pages](https://ccea.org.uk/post-16/gce/subjects/gce-software-systems-development-2016).
 
+Why SQL decides it
+
 ## SQL decides it, and the designer does not teach it
 
 The A2 1 question on SQL in 2025, and what CCEA concluded from it.
 
 The 2025 A2 1 paper asked candidates to write INSERT statements, joins and aggregate queries. The report says the question once again showed how fundamental SQL is to success in both the theory paper and the coursework, and that a significant number of weaker candidates struggled with query structure and joins. Its explanation is specific: "overreliance on the inbuilt database tools within Visual Studio rather than working directly in SQL Server Management Studio (SSMS)". Dragging tables into a designer produces a working database without the student ever writing the SQL that builds or queries it.
 
-**The 2025 A2 1 paper, area by area**
-
 | Area | How candidates did |
-|---|---|
+| --- | --- |
 | Fact-finding | Questionnaires handled well; user stories poorly, often confused with general requirements |
 | Methodologies | Strong: DSDM, Scrum, RAD, XP and Waterfall matched confidently |
 | Prototyping | Improvements to a prototype well handled; evolutionary and throwaway prototyping often confused |
@@ -87,14 +81,14 @@ Relationship and cardinality are different ideas. One-to-one, one-to-many and ma
 
 Our SQL teaching runs in MySQL. The language is standard enough that queries, joins and aggregates carry across to SQL Server with small differences, and we point those out, but a student should also practise in SQL Server Management Studio, the tool CCEA's report recommends.
 
+AS 1 code
+
 ## AS 1: object-oriented code on paper, in precise terms
 
 The 2025 AS 1 paper was better structured and marks rose, but the same slips recurred.
 
-**AS 1 slips in the 2025 report**
-
 | Topic | The slip |
-|---|---|
+| --- | --- |
 | Terminology | Imprecise object-oriented terms; uncertainty about the purpose of method overloading |
 | Strings | A validation method not returning a Boolean; changes to a string not written back into the array |
 | Constructors | The parameter placed on the left of the assignment instead of the field |
@@ -118,14 +112,14 @@ Base, parent and super class; derived, child and sub class; overloading against 
 
 The report rewards precise terms with short examples, so that is how answers are drafted.
 
+Portfolios
+
 ## AS 2 and A2 2: what moderators noted, and where we stop
 
 Each is about sixty hours of work, assessed by the school and then checked by CCEA's moderators.
 
-**Moderators' notes, 2025**
-
 | Unit | What moderators saw |
-|---|---|
+| --- | --- |
 | AS 2 requirements | Better overall, but user requirements should be written from the client's view without technical jargon; over-specific requirements multiplied the workload |
 | AS 2 code | Game-based projects often showed more complexity than quizzes; applications still crashed on unexpected input in free-text fields |
 | A2 2 design | ER diagrams drawn before normalisation or inconsistent with it; schemas claimed as third normal form with errors; standalone tables |
@@ -149,14 +143,14 @@ Work on the current year's case study for A2 1 or A2 2. Past case studies are fa
 
 For the GCSE that leads here, [the CCEA programming route page](/ccea-gcse-digital-technology-programming-help) covers Units 4 and 5, while [our Northern Ireland overview](/coding-and-ai-classes-in-northern-ireland) maps every stage from primary school. [The page on declaring AI](/understand-the-code-dont-copy-paste-uk) covers AI tools near assessed work.
 
+Progression
+
 ## Four rungs across Years 13 and 14
 
 Placement follows what a student can write unaided, in code and in SQL.
 
-**What a Software Systems Development student should be able to do**
-
 | Rung | When | What should be true |
-|---|---|---|
+| --- | --- | --- |
 | 1. Objects | Start of Year 13 | Classes, constructors, properties, inheritance, overriding and exceptions, written on paper and on screen |
 | 2. SQL by hand | Year 13 | Creating, filling and querying a database with joins and aggregates, without a designer |
 | 3. Design | End of Year 13 | Normalisation to third normal form, the ER diagram derived from it, use case and class diagrams |
@@ -165,63 +159,293 @@ Placement follows what a student can write unaided, in code and in SQL.
 ### Rung two decides the most
 
 CCEA's report is explicit that SQL separates the grades. It is also the rung most often skipped, because tools make it look unnecessary.
+
 The general order of topics runs down the [coding roadmap](/coding-roadmap).
 
 ### Rung four needs a case study
 
 A2 1 questions apply theory to a scenario. We practise on past case studies so answers are always tied to one.
+
 Lessons thin out around portfolio deadlines and exams.
+
+The catalogue
 
 ## Nine courses for Software Systems Development
 
 Set out by the part of the A level they serve. The free lesson picks the first.
 
+I
+
 ### Databases and SQL
 
 A2 1 and A2 2
 
-- [MySQL for teens](/courses/mysql-mastery-for-teens): Hand-written SQL from the first lesson, joins and aggregates included.
-- [Databases and SQL, advanced](/courses/mysql-database-complete-masterclass-college): Normalisation, ER modelling and design at A level depth.
-- [Data analysis](/courses/data-analysis-mastery-course-college): SQL used on real data, for students who want more practice querying.
+UK / SD1 / 01
+
+#### MySQL for teens
+
+Hand-written SQL from the first lesson, joins and aggregates included.
+
+[Open the syllabus](/courses/mysql-mastery-for-teens)
+
+UK / SD1 / 02
+
+#### Databases and SQL, advanced
+
+Normalisation, ER modelling and design at A level depth.
+
+[Open the syllabus](/courses/mysql-database-complete-masterclass-college)
+
+UK / SD1 / 03
+
+#### Data analysis
+
+SQL used on real data, for students who want more practice querying.
+
+[Open the syllabus](/courses/data-analysis-mastery-course-college)II
 
 ### Object-oriented programming
 
 AS 1, AS 2 and A2 2
 
-- [Java for teens](/courses/java-programming-masterclass-for-teens): Classes, inheritance, polymorphism and exceptions, close to C# in form.
-- [Java, core to advanced](/courses/complete-java-programming-masterclass-college): Deeper object-oriented design for Year 14 and beyond.
-- [Game development in C#](/courses/complete-game-development-masterclass-for-teens): Our only C# course, via Unity; event-driven thinking in the school's likely language.
+UK / SD2 / 01
+
+#### Java for teens
+
+Classes, inheritance, polymorphism and exceptions, close to C# in form.
+
+[Open the syllabus](/courses/java-programming-masterclass-for-teens)
+
+UK / SD2 / 02
+
+#### Java, core to advanced
+
+Deeper object-oriented design for Year 14 and beyond.
+
+[Open the syllabus](/courses/complete-java-programming-masterclass-college)
+
+UK / SD2 / 03
+
+#### Game development in C#
+
+Our only C# course, via Unity; event-driven thinking in the school's likely language.
+
+[Open the syllabus](/courses/complete-game-development-masterclass-for-teens)III
 
 ### Systems and beyond
 
 A2 1 theory and after
 
-- [Data structures and algorithms](/courses/data-structures-algorithms-masterclass-college): The algorithmic depth a computing degree will expect next.
-- [Git and GitHub](/courses/git-github-version-control-course-for-college-students): Version control, the everyday face of the methodologies A2 1 examines.
-- [Full stack web development](/courses/full-stack-web-development-masterclass-college): Databases behind real applications, for students heading into software work.
+UK / SD3 / 01
+
+#### Data structures and algorithms
+
+The algorithmic depth a computing degree will expect next.
+
+[Open the syllabus](/courses/data-structures-algorithms-masterclass-college)
+
+UK / SD3 / 02
+
+#### Git and GitHub
+
+Version control, the everyday face of the methodologies A2 1 examines.
+
+[Open the syllabus](/courses/git-github-version-control-course-for-college-students)
+
+UK / SD3 / 03
+
+#### Full stack web development
+
+Databases behind real applications, for students heading into software work.
+
+[Open the syllabus](/courses/full-stack-web-development-masterclass-college)
+
+How lessons work
 
 ## SQL every week, code on paper, theory on a case study
 
 Our teachers are in India, where clocks never change, so Northern Ireland runs four and a half hours behind in summer and five and a half in winter. Every slot is agreed in UK time.
 
-- **After school** The usual choice in Years 13 and 14.
-- **Evening** Around study periods, jobs and sport.
-- **Weekend** Time for a full two-hour paper and its review.
+After school
 
-- **SQL without a designer** Every week some SQL written from memory and run, so the syntax never depends on a tool.
-- **Normalise then diagram** Schemas taken to third normal form first, then the ER diagram drawn from them.
-- **Classes on paper** Short object-oriented exercises handwritten, because AS 1 is a written paper.
-- **Past case studies** A2 1 theory practised against CCEA case studies from earlier years, never the live one.
-- **Robust by habit** Validation through exception handling in classes, in every practice application.
-- **Fifteen to twenty per group** Students at one rung, reviewing each other's queries and code.
+The usual choice in Years 13 and 14.
+
+Evening
+
+Around study periods, jobs and sport.
+
+Weekend
+
+Time for a full two-hour paper and its review.
+
+### SQL without a designer
+
+Every week some SQL written from memory and run, so the syntax never depends on a tool.
+
+### Normalise then diagram
+
+Schemas taken to third normal form first, then the ER diagram drawn from them.
+
+### Classes on paper
+
+Short object-oriented exercises handwritten, because AS 1 is a written paper.
+
+### Past case studies
+
+A2 1 theory practised against CCEA case studies from earlier years, never the live one.
+
+### Robust by habit
+
+Validation through exception handling in classes, in every practice application.
+
+### Fifteen to twenty per group
+
+Students at one rung, reviewing each other's queries and code.
+
+Student work
+
+## Built by our older students in class
+
+Four projects from lessons, none of them assessed. More in [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees for A level lessons
 
 Charged monthly in US dollars, at the rate all our families outside India pay. There is no cost for a first lesson, and no bill until a course and a regular weekly slot are agreed.
 
-- Free first class: USD 0. A real lesson on A level material. An honest placement on the rungs. A phone number is all it takes.
-- Group batch: USD 100 a month. Fifteen to twenty students on one rung. The same teacher through Years 13 and 14. Hand-written SQL checked every week. Lighter near portfolio deadlines.
-- One to one: USD 150 a month. A teacher for one student. Planned back from exam and deadline dates. Suits a student catching up on SQL.
+Free first class
+
+USD 0
+
+no card required
+
+- A real lesson on A level material
+- An honest placement on the rungs
+- A phone number is all it takes
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students on one rung
+- The same teacher through Years 13 and 14
+- Hand-written SQL checked every week
+- Lighter near portfolio deadlines
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one student
+- Planned back from exam and deadline dates
+- Suits a student catching up on SQL
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Parents' Google reviews, unedited.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about CCEA Software Systems Development
 
 ## What A level students and parents ask
 
@@ -265,15 +489,54 @@ Yes. CCEA allows the AS as a stand-alone qualification, made up of AS 1 and AS 2
 
 The first lesson is free. After it, one monthly fee in US dollars applies, lower in a group than one to one, with the amounts in the fees section and nothing billed in advance.
 
+Elsewhere on this site
+
 ## Related pages for Northern Ireland
 
-- [CCEA GCSE Digital Technology, programming](/ccea-gcse-digital-technology-programming-help): The GCSE route that leads into this A level.
-- [Coding and AI classes in Northern Ireland](/coding-and-ai-classes-in-northern-ireland): The whole system, from primary school to A level.
-- [A level Computer Science NEA](/a-level-computer-science-nea-help): How the English boards handle their programming projects, for comparison.
-- [Understand the code, do not copy-paste it](/understand-the-code-dont-copy-paste-uk): What the rules say when AI touches a portfolio.
-- [Learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk): Why understanding outlasts any tool.
-- [Coding classes in the UK](/coding-classes-in-united-kingdom): The UK hub, listing every page.
+The GCSE before this A level, the wider system, and the rules on AI.
 
-## Contact
+### [CCEA GCSE Digital Technology, programming](/ccea-gcse-digital-technology-programming-help)
 
-Book the free first class at [https://learn.modernagecoders.com/ccea-a-level-software-systems-development-help](https://learn.modernagecoders.com/ccea-a-level-software-systems-development-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The GCSE route that leads into this A level.
+
+### [Coding and AI classes in Northern Ireland](/coding-and-ai-classes-in-northern-ireland)
+
+The whole system, from primary school to A level.
+
+### [A level Computer Science NEA](/a-level-computer-science-nea-help)
+
+How the English boards handle their programming projects, for comparison.
+
+### [Understand the code, do not copy-paste it](/understand-the-code-dont-copy-paste-uk)
+
+What the rules say when AI touches a portfolio.
+
+### [Learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk)
+
+Why understanding outlasts any tool.
+
+### [Coding classes in the UK](/coding-classes-in-united-kingdom)
+
+The UK hub, listing every page.
+
+Start here
+
+## Book a free first lesson
+
+Leave a number and we will call at a UK time that suits. The lesson includes some SQL written by hand and ends with a rung to start on.
+
+Prefer to read first? Every [course page](/courses) sets out its syllabus, [how we teach](/how-we-teach) is clear about who the method suits, and [student labs](/student-labs) shows students' work.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20first%20lesson%20for%20CCEA%20A%20level%20Software%20Systems%20Development.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is quickest and free from a UK phone. It reaches our office in India, so the number starts +91.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/ccea-a-level-software-systems-development-help*

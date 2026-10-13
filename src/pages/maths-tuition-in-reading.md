@@ -4,34 +4,28 @@ description: "Maths tutor in Reading for ages 6 to 67, live online: KS2, 11 plus
 canonical: https://learn.modernagecoders.com/maths-tuition-in-reading
 source: src/pages/maths-tuition-in-reading.html
 ---
-> For Reading learners from age 6 to 67 we work as an online maths tutor, teaching live by video. That covers primary arithmetic through to the Year 6 SATs, preparation for the 11 plus, Years 7 to 9, GCSE (either tier, with AQA, Edexcel or OCR), IGCSE, A level with optional Further Maths topics, and maths for grown-ups, resits included. A learner can have a teacher to themselves or join a class of fifteen to twenty who are working at the same point. Our Reading project uses Environment Agency readings of the Thames: on a typical day 23.4 cubic metres of water pass the town each second, which is about 2.02 × 10⁶ cubic metres a day. The trial costs nothing. Ongoing lessons are USD 100 a month for a class seat or USD 150 a month taught privately.
+> Maths tutor in Reading for ages 6 to 67, live online: KS2, 11 plus, KS3, GCSE, A level and adult maths, plus a Thames flow project in standard form.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths tuition in Reading
+Maths tuition in Reading: the short version
 
-Reading · Online maths tutor, ages 6 to 67 · Groups or one to one
+For Reading learners from age 6 to 67 we work as an online maths tutor, teaching live by video. That covers primary arithmetic through to the Year 6 SATs, preparation for the 11 plus, Years 7 to 9, GCSE (either tier, with AQA, Edexcel or OCR), IGCSE, A level with optional Further Maths topics, and maths for grown-ups, resits included. A learner can have a teacher to themselves or join a class of fifteen to twenty who are working at the same point. Our Reading project uses Environment Agency readings of the Thames: on a typical day 23.4 cubic metres of water pass the town each second, which is about 2.02 × 10⁶ cubic metres a day. The trial costs nothing. Ongoing lessons are USD 100 a month for a class seat or USD 150 a month taught privately.
 
-# Maths tuition in Reading
-
-On a typical day the River Thames carries about 23.4 cubic metres of water past Reading every second. That sounds modest until you turn it into a day: 23.4 × 86,400 seconds is 2,021,760 cubic metres, enough to fill roughly 800 large swimming pools. On its wettest day in our records it carried 302.0 cubic metres a second; on its driest, 2.189. Turning one of those numbers into the others is exactly the skill GCSE calls compound measures, and writing them neatly needs standard form. This page shows how we teach maths to Reading learners, from Key Stage 2 to A level and adult study, with the Thames as our running example.
-
-At a glance: Ages: 6 to 67, across Reading; Primary: KS2 maths, times tables, SATs; 11 plus: Maths for the grammar school tests; Secondary: KS3 and GCSE, Foundation or Higher; Sixth form: A level Maths, Further Maths topics; Adults: GCSE resits and everyday maths; Format: Live online, 1 to 1 or 5 to 10 a group; Project: Thames flow in standard form. Rated 4.9 across 547 Google reviews.
+What Reading families ask for first
 
 ## GCSE, A level and 11 plus maths
 
 The three courses most often requested by Reading families. The full list follows further down.
 
-- [GCSE maths](/courses/gcse-mathematics-mastery): Foundation or Higher, matched to the exam board, with compound measures and standard form practised on real data.
-- [A level maths](/courses/a-level-maths-course-pure-mechanics-statistics): Logarithms, calculus and data, taught so that the Thames log scales below make sense as well as the exam questions.
-- [11 plus maths](/courses/11-plus-maths-preparation-course-uk): Quick, careful number work and multi-step reasoning for Year 5 children heading for selective tests.
+[![GCSE Maths course thumbnail](/images/gcse-maths.webp)  RDG / 1 GCSE maths Foundation or Higher, matched to the exam board, with compound measures and standard form practised on real data. Open the syllabus →](/courses/gcse-mathematics-mastery)[![A-Level Maths course thumbnail](/images/a-level-maths.webp)  RDG / 2 A level maths Logarithms, calculus and data, taught so that the Thames log scales below make sense as well as the exam questions. Open the syllabus →](/courses/a-level-maths-course-pure-mechanics-statistics)[![11 Plus Maths Prep course thumbnail](/images/eleven-plus-maths.webp)  RDG / 3 11 plus maths Quick, careful number work and multi-step reasoning for Year 5 children heading for selective tests. Open the syllabus →](/courses/11-plus-maths-preparation-course-uk)
+
+Every stage, every age
 
 ## Maths tutor in Reading, from KS2 to A level and beyond
 
 Reading schools teach the national curriculum for England. The table shows the stages a Reading learner meets and where our teaching puts its weight.
 
-**Maths stages for a Reading learner and our emphasis at each**
-
 | Stage | Typical age | Where our lessons put the weight |
-|---|---|---|
+| --- | --- | --- |
 | KS1 | 5 to 7 | Number to 100, adding and subtracting, telling the time, simple measures. |
 | KS2 | 7 to 11 | All tables to 12 × 12 before the Year 4 check, then written methods, fractions and decimals on the way to the Year 6 SATs. |
 | 11 plus | 9 to 11 | Fast, accurate number work and multi-step problems for grammar school tests. |
@@ -53,6 +47,8 @@ For each stage our national pages go deeper: [KS2](/ks2-maths-tuition-online), [
 
 Typical ages are the usual ones for each stage in England. Grammar school test details are on our Reading 11 plus page, not repeated here.
 
+The Reading project
+
 ## How much water passes Reading in a day?
 
 Thirty-three years of daily readings from one gauge, and one unit conversion that every GCSE student should be able to do in their sleep.
@@ -65,10 +61,8 @@ The middle value, the median, is 23.4 cubic metres a second. The mean is higher,
 
 A cubic metre a second sounds small because a second is short. The question a learner should ask straight away is: per what? Change the time unit and the same river looks completely different.
 
-**Thames at Reading, daily mean flow converted three ways (our calculation from Environment Agency data)**
-
 | Day | Flow, m³ per second | Water in one day, m³ | In standard form | Pools of 2,500 m³ |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Driest, 17 August 2022 | 2.189 | 189,129.6 | 1.89 × 10⁵ | 75.7 |
 | Typical (median) | 23.4 | 2,021,760 | 2.02 × 10⁶ | 808.7 |
 | Average (mean) | 38.19 | 3,300,000 | 3.30 × 10⁶ | 1,320.0 |
@@ -88,6 +82,8 @@ UKCEH, which runs the National River Flow Archive, gives that area as 4,633.7 sq
 
 Data: [Environment Agency hydrology data](https://environment.data.gov.uk/hydrology/), station Reading on the River Thames, daily mean flow, read on 1 October 2026; catchment area from the [UKCEH National River Flow Archive](https://nrfa.ceh.ac.uk/), station 39130. GCSE wording: [DfE, GCSE mathematics subject content](https://www.gov.uk/government/publications/gcse-mathematics-subject-content-and-assessment-objectives). All conversions are Modern Age Coders calculations.
 
+Standard form and log scales
+
 ## Numbers that span a hundredfold, and two areas that disagree
 
 The Thames data is a good place to see why scientists write numbers in standard form and draw some graphs on a log scale.
@@ -100,10 +96,8 @@ Draw those flows on an ordinary graph and the summer days squash into a flat lin
 
 At A level the same idea returns as logarithms: log₁₀ of 302.0 is about 2.48 and log₁₀ of 2.189 is about 0.34, and the gap between them, 2.14, is the number of tens you multiply by to get from one to the other.
 
-**Thames at Reading, days of good-quality daily mean flow by size (our calculation)**
-
 | Daily mean flow, m³ per second | Number of days | Power of ten |
-|---|---|---|
+| --- | --- | --- |
 | Under 10 | 2,699 | 10⁰ up to 10¹ |
 | 10 to under 100 | 7,483 | 10¹ up to 10² |
 | 100 or more | 1,021 | 10² and above |
@@ -121,6 +115,8 @@ At KS3 a learner converts per second to per day. At GCSE they write the answers 
 At every level the habit is the same: say what the unit is, say which source you used, and say how accurate the answer can honestly be.
 
 Catchment areas: Environment Agency hydrology API station record (4,640.0) and UKCEH National River Flow Archive station 39130 (4,633.7), both read on 1 October 2026. The day counts and logarithms are our calculations.
+
+Maths in and around Reading
 
 ## The Maths Hub, the university and the UKMT maths challenge
 
@@ -148,6 +144,8 @@ Adults who walk the Thames Path often find the flow numbers the most memorable t
 
 Sources: [NCETM, Möbius Maths Hub](https://www.ncetm.org.uk/hubs/moebius-maths-hub/); [University of Reading, Department of Mathematics and Statistics, Outreach](https://www.reading.ac.uk/maths-and-stats/outreach). Both read on 1 October 2026. Modern Age Coders has no link with the NCETM, its hubs, the University of Reading, the UKMT or any Reading school.
 
+Adult learners
+
 ## Maths tutor for adults in Reading
 
 Adults come to us for many reasons: a GCSE maths resit for a course, numbers at work, or the wish to help a child without confusing them.
@@ -166,14 +164,14 @@ Spreadsheets, rates, unit conversions and reading charts with confidence, which 
 
 Many adults tell us they were never shown why the methods work, only told to use them. We start from the reasons, which tends to make the methods stick. Our [adult maths page](/online-maths-classes-for-adults-in-uk) has more.
 
+Our teaching order
+
 ## Four steps from counting to standard form
 
 Learners join at whichever step suits them; the free lesson shows us where.
 
-**From place value to orders of magnitude: what we look for before moving on**
-
 | Typical years | Stage of the climb | Ready to move on once they |
-|---|---|---|
+| --- | --- | --- |
 | Years 2 to 4 | 1. Place value | Read and write numbers to a million and say what each digit is worth |
 | Years 5 to 7 | 2. Units | Convert between seconds, minutes, hours and days without a calculator |
 | Years 8 to 10 | 3. Compound measures | Turn a rate per second into a rate per day and explain each step |
@@ -182,75 +180,353 @@ Learners join at whichever step suits them; the free lesson shows us where.
 ### Joining late in GCSE
 
 A Year 11 learner who joins in spring still benefits. We check place value and units first, because standard form questions usually go wrong there.
+
 If the gap is too wide for the time left, we will tell you honestly at the free lesson.
 
 ### Beyond the exam
 
 Anyone hooked by the river data can carry on with [maths through coding](/courses/maths-through-coding), turning the Thames readings into a short program, or with our [statistics and probability](/courses/statistics-probability-maths-course) course.
+
 Others try competition maths, which rewards the same careful reading.
+
+Our maths courses
 
 ## Popular maths courses for Reading learners
 
 The courses UK families look for most often are first: GCSE, A level, 11 plus and IGCSE. Open any card for the syllabus.
 
+I
+
 ### Most requested
 
 Exam courses
 
-- [GCSE maths](/courses/gcse-mathematics-mastery): Foundation and Higher tier, every major board.
-- [A level maths](/courses/a-level-maths-course-pure-mechanics-statistics): Pure, statistics and mechanics.
-- [11 plus maths](/courses/11-plus-maths-preparation-course-uk): Speed and reasoning for selective entry papers.
-- [IGCSE maths](/courses/igcse-mathematics-mastery): For international exam papers.
+MRD / A1
+
+#### GCSE maths
+
+Foundation and Higher tier, every major board.
+
+[Open the syllabus](/courses/gcse-mathematics-mastery)
+
+MRD / A2
+
+#### A level maths
+
+Pure, statistics and mechanics.
+
+[Open the syllabus](/courses/a-level-maths-course-pure-mechanics-statistics)
+
+MRD / A3
+
+#### 11 plus maths
+
+Speed and reasoning for selective entry papers.
+
+[Open the syllabus](/courses/11-plus-maths-preparation-course-uk)
+
+MRD / A4
+
+#### IGCSE maths
+
+For international exam papers.
+
+[Open the syllabus](/courses/igcse-mathematics-mastery)II
 
 ### Primary
 
 KS1 and KS2
 
-- [KS1 and KS2 maths](/courses/elementary-mathematics-complete-masterclass): All of primary maths, up to the SATs.
-- [Early maths](/courses/early-math-foundations): Number and shape for the youngest learners.
-- [Mental maths](/courses/mental-maths-mastery-kids): Reliable calculation without paper.
-- [Abacus arithmetic](/courses/abacus-mental-maths-course-for-kids): From beads to mental pictures.
+MRD / B1
+
+#### KS1 and KS2 maths
+
+All of primary maths, up to the SATs.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+MRD / B2
+
+#### Early maths
+
+Number and shape for the youngest learners.
+
+[Open the syllabus](/courses/early-math-foundations)
+
+MRD / B3
+
+#### Mental maths
+
+Reliable calculation without paper.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+MRD / B4
+
+#### Abacus arithmetic
+
+From beads to mental pictures.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)III
 
 ### Secondary and stretch
 
 KS3 and beyond
 
-- [KS3 maths](/courses/comprehensive-middle-school-mathematics-mastery): Proportion, algebra and measures, the ground GCSE builds on.
-- [Algebra foundations](/courses/algebra-foundations-masterclass): For algebra that never quite settled.
-- [Statistics and probability](/courses/statistics-probability-maths-course): Data, averages and probability.
-- [Competition maths](/courses/olympiad-competition-mathematics-mastery): Problems in the UKMT style.
+MRD / C1
+
+#### KS3 maths
+
+Proportion, algebra and measures, the ground GCSE builds on.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+MRD / C2
+
+#### Algebra foundations
+
+For algebra that never quite settled.
+
+[Open the syllabus](/courses/algebra-foundations-masterclass)
+
+MRD / C3
+
+#### Statistics and probability
+
+Data, averages and probability.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)
+
+MRD / C4
+
+#### Competition maths
+
+Problems in the UKMT style.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)IV
 
 ### For adults
 
 Work and further study
 
-- [University maths](/courses/college-mathematics-complete-masterclass): First-year topics for adults returning to study.
-- [Maths for data](/courses/data-analytics-mathematics-masterclass): Statistics behind data analysis.
-- [Business and finance maths](/courses/complete-business-finance-mathematics-mastery): Interest, rates and percentages.
-- [Vedic maths](/courses/vedic-maths-course-speed-calculation-mastery): Speedy arithmetic methods.
+MRD / D1
+
+#### University maths
+
+First-year topics for adults returning to study.
+
+[Open the syllabus](/courses/college-mathematics-complete-masterclass)
+
+MRD / D2
+
+#### Maths for data
+
+Statistics behind data analysis.
+
+[Open the syllabus](/courses/data-analytics-mathematics-masterclass)
+
+MRD / D3
+
+#### Business and finance maths
+
+Interest, rates and percentages.
+
+[Open the syllabus](/courses/complete-business-finance-mathematics-mastery)
+
+MRD / D4
+
+#### Vedic maths
+
+Speedy arithmetic methods.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
+
+Timetable
 
 ## Lessons after school, in the evening and at weekends
 
 Our teachers are in India, which is five and a half hours ahead of Reading in winter and four and a half in British Summer Time. We agree every slot in UK time.
 
-- **After school, weekdays** Primary, 11 plus and KS3.
-- **Evenings, weekdays** GCSE, A level and adult learners.
-- **Weekend mornings** Any stage.
+After school, weekdays
 
-- **A regular teacher** The same person each week, who knows what slipped last time.
-- **Short updates home** A few lines after lessons on progress and next steps.
-- **Groups of fifteen to twenty** Matched by level, so the pace suits everyone.
-- **Real data used** River flows, timetables and census tables alongside exam questions.
-- **Private lessons too** For a near exam or a single stubborn topic.
-- **Why before how** We explain the reason behind every method we teach.
+Primary, 11 plus and KS3.
+
+Evenings, weekdays
+
+GCSE, A level and adult learners.
+
+Weekend mornings
+
+Any stage.
+
+### A regular teacher
+
+The same person each week, who knows what slipped last time.
+
+### Short updates home
+
+A few lines after lessons on progress and next steps.
+
+### Groups of fifteen to twenty
+
+Matched by level, so the pace suits everyone.
+
+### Real data used
+
+River flows, timetables and census tables alongside exam questions.
+
+### Private lessons too
+
+For a near exam or a single stubborn topic.
+
+### Why before how
+
+We explain the reason behind every method we teach.
+
+Student work
+
+## Our learners went on to build these
+
+Four projects from students whose first lessons used real numbers much like the Thames flows. The [student labs](/student-labs) show plenty more.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Charged monthly in US dollars, at the same rate for every country outside India. Nothing to pay up front and no contract.
 
-- Free first class: USD 0. A real lesson at the right level. Frank feedback afterwards. No card required.
-- Group batch: USD 100 a month. Fifteen to twenty learners, one level. A teacher who stays with the group. Marked homework, discussed. A certificate on completion.
-- One to one: USD 150 a month. A single learner with a teacher. Built around the exact gap. Useful before an exam.
+Free first class
+
+USD 0
+
+no card required
+
+- A real lesson at the right level
+- Frank feedback afterwards
+- No card required
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners, one level
+- A teacher who stays with the group
+- Marked homework, discussed
+- A certificate on completion
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A single learner with a teacher
+- Built around the exact gap
+- Useful before an exam
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Word-for-word reviews that families and learners posted on our Google profile.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Reading maths questions
 
 ## What Reading families ask about maths tuition
 
@@ -294,15 +570,54 @@ Yes, as an extension of A level. Once the single-maths core is solid, a keen six
 
 No. We teach carefully and report progress honestly, but no tutor can promise a grade.
 
+Related
+
 ## More for Reading learners
 
-- [11 plus maths in Reading](/11-plus-maths-tuition-reading): The local grammar school tests, in detail.
-- [GCSE maths tuition](/gcse-maths-tuition-online): Every tier and board.
-- [A level maths tuition](/a-level-maths-tuition-online): Pure, statistics and mechanics.
-- [Coding classes in Reading](/best-coding-class-in-reading): Our coding page for the town.
-- [Maths tuition in Slough](/maths-tuition-in-slough): A neighbouring town, a different project.
-- [The UK index](/coding-classes-in-united-kingdom): All our UK pages in one place.
+Our 11 plus page for Reading, national maths pages and our coding page for the town.
 
-## Contact
+### [11 plus maths in Reading](/11-plus-maths-tuition-reading)
 
-Book the free first class at [https://learn.modernagecoders.com/maths-tuition-in-reading](https://learn.modernagecoders.com/maths-tuition-in-reading#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The local grammar school tests, in detail.
+
+### [GCSE maths tuition](/gcse-maths-tuition-online)
+
+Every tier and board.
+
+### [A level maths tuition](/a-level-maths-tuition-online)
+
+Pure, statistics and mechanics.
+
+### [Coding classes in Reading](/best-coding-class-in-reading)
+
+Our coding page for the town.
+
+### [Maths tuition in Slough](/maths-tuition-in-slough)
+
+A neighbouring town, a different project.
+
+### [The UK index](/coding-classes-in-united-kingdom)
+
+All our UK pages in one place.
+
+Start here
+
+## Book a free maths lesson in Reading
+
+Tell us the age or year and the topic that causes the most trouble. The trial is a full lesson, and we follow it with a clear view of where the learner stands.
+
+Would you like to look first? See our [courses](/courses) and how we approach [teaching](/how-we-teach).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20a%20learner%20in%20Reading.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp gets the quickest reply. The number starts with India's code because the team works from India; there is no Reading office and lessons are online.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/maths-tuition-in-reading*

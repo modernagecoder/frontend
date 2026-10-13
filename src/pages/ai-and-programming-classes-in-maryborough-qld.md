@@ -4,55 +4,39 @@ description: "Live online AI, machine learning and programming classes for Maryb
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-maryborough-qld
 source: src/pages/ai-and-programming-classes-in-maryborough-qld.html
 ---
-> Classes in which Maryborough teenagers and adults learn how artificial intelligence actually computes, writing Python with a teacher and testing ideas on real Queensland data. The 2021 Census counted 27,489 people in the Maryborough urban area, with a median age of 47. Every lesson is live on video, one to one or in a small group at the same level, and the first is free.
+> Live online AI, machine learning and programming classes for Maryborough teenagers and adults, with a real teacher, in small groups or one to one. First lesson free.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [Queensland](/coding-and-ai-classes-in-queensland) / Maryborough
-
-Maryborough, Queensland, Australia / Live online
-
-# AI and programming classes in Maryborough
-
-**What are the best AI and programming classes in Maryborough, Queensland?** Classes in which Maryborough teenagers and adults learn how artificial intelligence actually computes, writing Python with a teacher and testing ideas on real Queensland data. The 2021 Census counted 27,489 people in the Maryborough urban area, with a median age of 47. Every lesson is live on video, one to one or in a small group at the same level, and the first is free.
-
-Route 705 links Maryborough and Hervey Bay and back, and its path in the state's transit file is 1,220 points long. Add up the gaps between them and you get 102,231 metres. Do the same sum in half precision, the 16-bit numbers that many AI chips use to go fast, and the answer is not slightly wrong: it is infinity, because a 16-bit float cannot hold any number above 65,504. Store the map coordinates in half precision instead and the route grows by a third. Our Maryborough project makes these numbers in Python and shows why AI engineers think so hard about precision.
-
-Facts last verified 9 October 2026. Teaching is online; no Maryborough branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Maryborough
 
 ## AI and programming courses that start from first principles
 
 Each one connects to the precision project below. The free trial lesson points to the right one, and no card is requested.
 
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Machine learning from the inside: data, models, training and the arithmetic that makes them run.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python from the first line, including how numbers are stored and why that matters.
-- [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) (University and adult): A full machine learning course, from classic methods to neural networks and the hardware they run on.
-- [Data Science Course](/courses/data-science-complete-masterclass-college) (University and adult): Real data, careful calculation and models whose numbers can be checked.
+[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensMachine learning from the inside: data, models, training and the arithmetic that makes them run.See the syllabus](/courses/ai-ml-masterclass-teens)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython from the first line, including how numbers are stored and why that matters.See the syllabus](/courses/python-complete-masterclass-teens)[![AI and ML Masterclass course thumbnail](/images/ai-ml-college.webp)University and adultAI and ML MasterclassA full machine learning course, from classic methods to neural networks and the hardware they run on.See the syllabus](/courses/ai-ml-masterclass-complete-college)[![Data Science Course course thumbnail](/images/data-science-college.webp)University and adultData Science CourseReal data, careful calculation and models whose numbers can be checked.See the syllabus](/courses/data-science-complete-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Maryborough in the Census
 
 ## Nearly nine in ten homes are separate houses
 
 Figures the statistics bureau released for the Maryborough Significant Urban Area from the 2021 Census, compared with Queensland and Australia.
 
-**Maryborough urban area, 2021 Census QuickStats**
-
 | Census figure | Maryborough |
-|---|---|
+| --- | --- |
 | Residents | 27,489 |
 | Families | 7,259 |
 | Private dwellings | 12,282 |
 | Average household size | 2.3 people |
 
-**How Maryborough compares**
-
 | Measure | Maryborough | Queensland | Australia |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Median age | 47 | 38 | 38 |
 | Separate houses, share of occupied homes | 88.4% (9,467) | 74.8% | 72.3% |
 | Flats or apartments, share of occupied homes | 3.6% (385) | 12.5% | 14.2% |
@@ -72,24 +56,22 @@ The Census recorded 1,654 residents aged 10 to 14 and 1,576 aged 15 to 19.
 
 One caution about these tables: the bureau randomly adjusts small census counts so individuals cannot be picked out, and as a result rows may not sum to the printed total. We use the published totals and percentages exactly as given and never total the rows ourselves.
 
+Signature project
+
 ## How much precision does it take to add up a bus route?
 
 Translink publishes the exact path of every Maryborough bus as a list of map points. We measured each route by adding the distances between its points, once with exact arithmetic and then in the lower-precision number formats used across computing and AI.
 
-**Route 705, its longest path: 1,220 points, the same sum in five formats (our calculation)**
-
 | How the sum is done | Result | Error |
-|---|---|---|
+| --- | --- | --- |
 | Exact sum (Python math.fsum) | 102,231.22 m | reference |
 | 64-bit floats, ordinary running sum | 102,231.22 m | about a ten-billionth of a metre |
 | 32-bit floats | 102,231.16 m | 0.056 m short |
 | 16-bit floats, in metres | infinity | overflow above 65,504 |
 | 16-bit floats, in kilometres | 101.812 km | 419 m short |
 
-**Each Maryborough route's longest path, exact and in 16-bit metres (our calculation)**
-
 | Route | Exact length | 16-bit result |
-|---|---|---|
+| --- | --- | --- |
 | 701 | 13,004.6 m | 12,992 m |
 | 702 | 15,079.4 m | 15,080 m |
 | 703 | 22,213.0 m | 22,272 m |
@@ -115,14 +97,14 @@ A 16-bit float spends only 10 bits on its digits, so between 32,768 and 65,504 i
 
 All lengths here come from our own code on Translink's published shapes, measured as straight lines between consecutive points on a sphere. They are not official route distances and say nothing about how the buses are run.
 
+Precision in AI
+
 ## What bus routes teach about how AI is computed
 
 Modern AI training and inference often use 16-bit and even 8-bit numbers, because they are faster and use less memory. The Maryborough project shows exactly what that trade costs and how engineers protect against it.
 
-**From the route experiment to real AI practice**
-
 | Problem seen with the routes | In AI systems | The usual remedy |
-|---|---|---|
+| --- | --- | --- |
 | 16-bit sums overflow above 65,504 | Gradients and activations can overflow | Loss scaling and careful ranges |
 | Small additions to a big total are rounded away | Tiny weight updates can be lost | Keep a 32-bit master copy of the weights |
 | Changing the unit rescued the sum | Normalising inputs keeps values in range | Scale data before training |
@@ -144,6 +126,8 @@ Understanding why AI tools trade accuracy for speed, and when that trade matters
 
 Modern Age Coders has no connection with Translink, the Queensland Department of Transport and Main Roads, Fraser Coast Regional Council or the Australian Bureau of Statistics. They publish the transit file and the census figures; the measurements and every precision result shown here are from our own code.
 
+Around Maryborough
+
 ## Seven routes, 244 stops and a 2027 school year
 
 A few further facts from the transit feed and the Queensland calendar.
@@ -160,16 +144,41 @@ Route 707 continues to Aldershot, Torbanlea and Howard, and route 705 links Mary
 
 Queensland's 2027 school year begins on Wednesday 27 January and Term 4 ends on Friday 10 December.
 
-**A second precision puzzle to try** Instead of adding many small gaps to one big total, add them in pairs, then pairs of pairs, the way a tree is built. On route 705 in 16-bit kilometres, pairwise summation gives 102.25 km, within about 19 metres of the exact length, where the simple running sum lost 419 metres; each addition joins numbers of similar size. It is the same idea that keeps large AI computations stable.
+A second precision puzzle to try
+
+Instead of adding many small gaps to one big total, add them in pairs, then pairs of pairs, the way a tree is built. On route 705 in 16-bit kilometres, pairwise summation gives 102.25 km, within about 19 metres of the exact length, where the simple running sum lost 419 metres; each addition joins numbers of similar size. It is the same idea that keeps large AI computations stable.
+
+Learning ladder
 
 ## From adding numbers to understanding AI hardware
 
 Treat the ages as a starting guide; the free lesson decides the actual level.
 
-- **Ages 13 to 14: Numbers in code** Python variables, loops and functions, measuring distances and adding them up on real map data. [Python for Teens](/courses/python-complete-masterclass-teens), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 15 to 18: Inside machine learning** How models train, why precision matters and how to test a calculation two ways. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **University: Numerics for AI** Floating point, stability and the engineering choices behind fast model training. [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
-- **Adults: AI you can question** Reading claims about AI speed and accuracy with a clear sense of what is being traded away. [Data Science Course](/courses/data-science-complete-masterclass-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 13 to 14
+
+### Numbers in code
+
+Python variables, loops and functions, measuring distances and adding them up on real map data.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Maths Through Coding](/courses/maths-through-coding)Ages 15 to 18
+
+### Inside machine learning
+
+How models train, why precision matters and how to test a calculation two ways.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)University
+
+### Numerics for AI
+
+Floating point, stability and the engineering choices behind fast model training.
+
+[AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)Adults
+
+### AI you can question
+
+Reading claims about AI speed and accuracy with a clear sense of what is being traded away.
+
+[Data Science Course](/courses/data-science-complete-masterclass-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## Why should a Maryborough learner care how many bits a number has?
 
@@ -181,30 +190,139 @@ Learners who have added up a Maryborough bus route in four formats know what tho
 
 In 2026 almost everyone uses AI and very few understand its arithmetic, and a Maryborough learner who does is the one trusted to make it work properly. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Tinana to Granville, the same live lesson
 
 Maryborough's seven bus routes connect suburbs such as Tinana and Granville with the city centre, and an online class reaches every one of them without a trip.
 
-- **Across the city** A teenager in Tinana and an adult in Granville can learn side by side without either of them catching a bus.
-- **Queensland years** Lessons follow Queensland's year levels and four terms, and senior students can link projects to the computing and maths subjects they take.
-- **A proper trial** The first lesson is a full class with real code. Afterwards you receive a recommended level, course and time, and no payment details are taken.
-- **Level-matched groups** Fifteen to twenty learners at one stage, from Maryborough and further afield, so the group always has enough people.
-- **Two lessons a week** Fixed times twice weekly, about eight lessons a month, with breaks for school holidays and exams planned ahead.
-- **One steady time gap** Queensland does not use daylight saving, so a 5pm Maryborough lesson starts at 12:30pm in India all year round.
+### Across the city
 
-**No clock changes to plan around** Maryborough keeps Australian Eastern Standard Time throughout the year, four and a half hours ahead of India. Unlike families in New South Wales or Victoria, Maryborough learners never see their lesson time move in October or April.
+A teenager in Tinana and an adult in Granville can learn side by side without either of them catching a bus.
+
+### Queensland years
+
+Lessons follow Queensland's year levels and four terms, and senior students can link projects to the computing and maths subjects they take.
+
+### A proper trial
+
+The first lesson is a full class with real code. Afterwards you receive a recommended level, course and time, and no payment details are taken.
+
+### Level-matched groups
+
+Fifteen to twenty learners at one stage, from Maryborough and further afield, so the group always has enough people.
+
+### Two lessons a week
+
+Fixed times twice weekly, about eight lessons a month, with breaks for school holidays and exams planned ahead.
+
+### One steady time gap
+
+Queensland does not use daylight saving, so a 5pm Maryborough lesson starts at 12:30pm in India all year round.
+
+No clock changes to plan around
+
+Maryborough keeps Australian Eastern Standard Time throughout the year, four and a half hours ahead of India. Unlike families in New South Wales or Victoria, Maryborough learners never see their lesson time move in October or April.
+
+Fees
 
 ## Maryborough class fees
 
 Three numbers explain the cost.
 
-- First class: USD 0. A full lesson at no charge, finished with a suggested level, course and lesson time.
-- Group tuition: USD 100 a month. Close to eight lessons a month with fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. Close to eight lessons a month with a teacher working one to one.
+First class**USD 0**
+
+A full lesson at no charge, finished with a suggested level, course and lesson time.
+
+Group tuition**USD 100**
+
+Close to eight lessons a month with fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+Close to eight lessons a month with a teacher working one to one.
 
 Families outside India are billed in US dollars, so a learner in Tinana and one in Granville pay the same and there is no Maryborough price list. We charge nothing until the trial has fixed a course and a weekly time, and the pricing page sets out breaks, absences and changes of format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20Maryborough%2C%20Queensland.)Reviews
+
+## What our families write on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## What would the learner like to explore?
+
+An age and an interest are enough for us to plan a first lesson. A Year 9 student might start by measuring one short route in Python; an adult might begin with the full precision experiment.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Maryborough one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20Maryborough%2C%20Queensland.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Maryborough AI and programming questions
+
+The questions Maryborough learners and families usually ask first.
 
 ### How many people live in Maryborough, Queensland?
 
@@ -246,10 +364,14 @@ The first lesson is free. After that a group place is USD 100 a month for two li
 
 Fifteen to twenty learners, grouped by level, pace and goals rather than by age or postcode. When no group suits the time a learner needs, one-to-one lessons are offered instead.
 
+Explore Australia
+
 ## More for Fraser Coast and Queensland learners
 
 Neighbours on the coast can read about [vibe coding and AI agents classes in Hervey Bay](/vibe-coding-and-ai-agents-classes-in-hervey-bay) and [online coding and Python classes in Bundaberg](/online-coding-and-python-classes-in-bundaberg). Our [Queensland page](/coding-and-ai-classes-in-queensland) covers the state, and the [Australia hub](/coding-classes-in-australia) links every other place and topic.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20Maryborough%2C%20Queensland.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-maryborough-qld](https://learn.modernagecoders.com/ai-and-programming-classes-in-maryborough-qld#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-maryborough-qld*

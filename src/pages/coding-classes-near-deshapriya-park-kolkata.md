@@ -12,7 +12,7 @@ LIVE ONLINE · SOUTH KOLKATA · DESHAPRIYA PARK
 
 Modern Age Coders runs premium, live online coding and maths classes for families near Deshapriya Park, Lake Market and Rashbehari Avenue. Every class is taught live by full-time engineers and maths graduates in batches of 15–20, never pre-recorded video. Children build real projects in Python, Java and AI from home, with no evening crawl through the Rashbehari–Lansdowne crossing. Book a free demo class to evaluate before you commit.
 
-Live, never pre-recordedSmall batches (max 20)Taught by full-time engineersProject-based, board-aware4th yearteaching the South Kolkata belt6–8students per live batch₹1,499per month, group plan100%live classes, zero recordings[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)LIVE ONLINE · DESHAPRIYA PARK, KOLKATA
+Live, never pre-recordedBatches (max 20)Taught by full-time engineersProject-based, board-aware4th yearteaching the South Kolkata belt15–20students per live batch₹1,499per month, group plan100%live classes, zero recordings[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)LIVE ONLINE · DESHAPRIYA PARK, KOLKATA
 
 ## At a glance
 

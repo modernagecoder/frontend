@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths lessons for Dunfermline l
 canonical: https://learn.modernagecoders.com/best-coding-class-in-dunfermline
 source: src/pages/best-coding-class-in-dunfermline.html
 ---
-> Fife, the council area that includes Dunfermline, had about 370,400 usual residents at Scotland's 2022 census, rounded to the nearest hundred by National Records of Scotland. Andrew Carnegie wrote that he was born in Dunfermline on 25 November 1835, in a house at the corner of Moodie Street and Priory Lane. Dunfermline learners aged six to sixty-seven meet our teachers in India in live video lessons, one to one or in a class of fifteen to twenty at the same stage, at times fitted around Scottish school days and working hours. The first lesson is free; after that a group place costs USD 100 a month and one-to-one teaching USD 150 a month.
+> Live online coding, Python, AI and maths lessons for Dunfermline learners aged 6 to 67, from Abbey Parks and Headwell to Crossford. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Dunfermline
-
-Dunfermline, Fife / Live online
-
-# Coding classes in Dunfermline
-
-**What are the best coding classes in Dunfermline?** Fife, the council area that includes Dunfermline, had about 370,400 usual residents at Scotland's 2022 census, rounded to the nearest hundred by National Records of Scotland. Andrew Carnegie wrote that he was born in Dunfermline on 25 November 1835, in a house at the corner of Moodie Street and Priory Lane. Dunfermline learners aged six to sixty-seven meet our teachers in India in live video lessons, one to one or in a class of fifteen to twenty at the same stage, at times fitted around Scottish school days and working hours. The first lesson is free; after that a group place costs USD 100 a month and one-to-one teaching USD 150 a month.
-
-Before his fortune, Andrew Carnegie was a telegraph messenger, and in his autobiography he describes learning to take a message by ear. A telegraph line could garble a message; so can any cable or radio link today. Our Dunfermline project sends Carnegie's entire autobiography, 669,829 characters, through a simulated line that flips one bit in every hundred at random. Sent plainly, 51,518 characters arrive wrong. Wrapped in a Hamming code, which adds three check bits to every four and can find and fix any single flipped bit, only 2,682 do. Teenagers build the code, run the line and check every result against the formula that predicts it.
-
-Facts last verified 23 September 2026. Teaching is online; no Dunfermline branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Dunfermline
 
 ## Four courses for Carnegie's birthplace
 
 Start from what the learner already enjoys and choose the nearest course. Every one begins with a free live lesson, and booking it asks for no payment details.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 12): Block programming for younger children, from secret-message games to animations that send signals between sprites.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): First Python with text and binary numbers, the building blocks of every message a computer sends.
-- [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens) (Ages 13 to 18): Algorithms and problem solving for teenagers, including the bit tricks behind codes that repair their own errors.
-- [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college) (University and adult): Algorithms for adults who work with networks, storage or data transfer and want to know how errors are caught.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 12Scratch Coding for KidsBlock programming for younger children, from secret-message games to animations that send signals between sprites.See the syllabus](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsFirst Python with text and binary numbers, the building blocks of every message a computer sends.See the syllabus](/courses/python-ai-kids-masterclass)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)Ages 13 to 18Problem Solving for TeensAlgorithms and problem solving for teenagers, including the bit tricks behind codes that repair their own errors.See the syllabus](/courses/problem-solving-dsa-masterclass-teens)[![Data Structures & Algorithms Course course thumbnail](/images/dsa-college.webp)University and adultData Structures & Algorithms CourseAlgorithms for adults who work with networks, storage or data transfer and want to know how errors are caught.See the syllabus](/courses/data-structures-algorithms-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Dunfermline today
 
 ## A city within a closely settled Fife
 
 Scotland's Census 2022 first results from National Records of Scotland, which publishes figures for council areas rounded to the nearest hundred. Dunfermline sits within Fife.
 
-**Fife and Scotland, Scotland's Census 2022 (rounded) and 2011**
-
 | Area | Usual residents, 2022 | Usual residents, 2011 | Residents per square kilometre, 2022 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Fife | 370,400 | 365,198 | 279.5 |
 | Scotland | 5,436,600 | 5,295,403 | 69.8 |
 
@@ -60,6 +46,8 @@ In Fife, 15.6% of residents were aged 0 to 14 and 21.6% were 65 or over, against
 At 279.5 residents per square kilometre, Fife is far more densely settled than Scotland as a whole, which averages 69.8.
 
 Because National Records of Scotland rounds every 2022 figure separately to the nearest hundred, the parts may not add exactly to the totals, and we quote each as published. Our Dunfermline classes draw on the city and the Fife villages around it. A Brucefield eight-year-old making a first game, an S4 pupil from Townhill working towards National 5 Computing Science and a Crossford adult learning Python for a new role could each join a different class, placed by level.
+
+Carnegie's town
 
 ## A weaver's son, an abbey and a birthplace museum
 
@@ -79,16 +67,18 @@ The Andrew Carnegie Birthplace Memorial carries an inscription recording that th
 
 Historic Environment Scotland lists the Abbey church and the nave at Category A, and the birthplace memorial at 2-4 Moodie Street and 5 Priory Lane at Category B, recording that the properties passed to the Carnegie Dunfermline Trustees in 1910 and that a lintel is inscribed with the years 1835 to 1919. It also lists a statue of Carnegie and the Louise Carnegie Memorial Gateway in Pittencrieff Park. We have no connection with Historic Environment Scotland, the Abbey or the Carnegie trusts, and the history here is taken from their published records and from Carnegie's own words.
 
-**Where the text comes from** Project Gutenberg publishes the Autobiography of Andrew Carnegie as a free ebook, number 17976. We use the body of the book, 117,001 words and 669,829 characters, exactly as published.
+Where the text comes from
+
+Project Gutenberg publishes the Autobiography of Andrew Carnegie as a free ebook, number 17976. We use the body of the book, 117,001 words and 669,829 characters, exactly as published.
+
+Signature project
 
 ## Could Carnegie's story survive a noisy line?
 
 A Hamming code sends every four data bits with three extra check bits, each checking a different overlapping group. If one bit flips on the way, the pattern of failed checks, called the syndrome, points to exactly which bit it was, and the receiver flips it back.
 
-**Characters of Carnegie's autobiography (669,829 in all) that arrive wrong, when each bit is flipped at random with the stated chance**
-
 | Chance a bit flips | Sent plainly | Hamming code (75% more bits) | Every bit sent three times (200% more bits) |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1 in 1,000 | 5,223 | 32 | 9 |
 | 1 in 100 | 51,518 | 2,682 | 1,616 |
 | 1 in 20 | 224,375 | 58,266 | 37,687 |
@@ -111,14 +101,14 @@ Repetition works: send each bit three times and take the majority, and at 1 in 1
 
 The last row shows the limit. When one bit in twenty flips, two errors in the same seven-bit codeword become common, and a Hamming code, built to fix one, gets them wrong: 58,266 characters still arrive damaged. Every code is designed for a certain level of noise, and choosing the right one means measuring the line first. That, rather than any single number, is the engineering lesson.
 
+Error-correcting codes
+
 ## Five checks before trusting a code
 
 Learned on Carnegie's autobiography, then used for QR codes, memory chips, satellite links, file storage and any message that has to arrive intact.
 
-**Decisions behind the Dunfermline telegraph simulation**
-
 | Question | For the Carnegie text | What goes wrong if you skip it |
-|---|---|---|
+| --- | --- | --- |
 | Does the code fix every single error? | All seven single-bit flips tested by syndrome | A mis-wired check bit that fixes the wrong bit |
 | Does the simulation match the maths? | Every result compared with its formula | A bug that looks like a result |
 | How much extra does it cost? | 75% more bits for Hamming, 200% for repetition | Protection bought at any price |
@@ -141,14 +131,37 @@ How storage, networks and QR codes survive errors, and how to weigh protection a
 
 We have no connection with Project Gutenberg, Historic Environment Scotland, National Records of Scotland or Fife Council. The book, listing records and census tables are published openly; the encoding, simulated noise and counts on this page are our own work.
 
+Learning ladder
+
 ## From secret messages to Hamming codes
 
 Think of the ages as rough bands; the free lesson places each learner properly.
 
-- **Ages 6 to 10: Codes and signals** Secret-message games and simple signals between sprites in block code. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 11 to 13: Binary and parity** Turning letters into bits in Python and adding a parity bit to catch a single mistake. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Codes that correct** Hamming codes, syndromes, simulation and probability, checked against exact formulas. [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Reliable data** Error detection and correction in networks, storage and file formats, and the cost of each safeguard. [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Ages 6 to 10
+
+### Codes and signals
+
+Secret-message games and simple signals between sprites in block code.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 11 to 13
+
+### Binary and parity
+
+Turning letters into bits in Python and adding a parity bit to catch a single mistake.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Codes that correct
+
+Hamming codes, syndromes, simulation and probability, checked against exact formulas.
+
+[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Reliable data
+
+Error detection and correction in networks, storage and file formats, and the cost of each safeguard.
+
+[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)Coding and AI
 
 ## AI moves enormous amounts of data. Why should a Dunfermline teenager learn how a single bit is saved?
 
@@ -160,30 +173,139 @@ The project also teaches a habit AI rarely models: compare every experimental re
 
 So a Dunfermline teenager should keep learning to code in 2026, in the town where Carnegie was born in 1835: machines send the data, but people design the codes that keep it whole. The longer argument is in [why coding is worth learning in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Abbey Parks, Headwell or Crossford, all in one class
 
 Dunfermline's learners live across the city and in the Fife villages around it. Online, every one of them is equally close to the lesson.
 
-- **City and villages** A learner in Garvock Hill and another in Cairneyhill can share a class without anyone taking a bus.
-- **Scottish stages** P1 to P7, S1 to S6, then National 5, Higher and Advanced Higher: our levels use the names Scottish schools use, and every lesson is taught in English.
-- **The free lesson** The learner builds something real in the first session, and the teacher then suggests a level, a course and a weekly time. No card is ever needed.
-- **Classes by level** Fifteen to twenty learners at one stage, from Dunfermline, the rest of the UK and abroad, so every level has good times to choose from.
-- **Two lessons a week** Two fixed lessons weekly, around eight a month, with school holidays and exam leave agreed with the teacher well ahead.
-- **Evening in India** India keeps one time all year, so a 5 pm class in Fife starts at 21:30 for our teachers during British Summer Time and 22:30 in winter.
+### City and villages
 
-**Across Fife** Learners in Rosyth, Limekilns, Kingseat or Halbeath join exactly the same classes, since every lesson is online and classes are grouped by level.
+A learner in Garvock Hill and another in Cairneyhill can share a class without anyone taking a bus.
+
+### Scottish stages
+
+P1 to P7, S1 to S6, then National 5, Higher and Advanced Higher: our levels use the names Scottish schools use, and every lesson is taught in English.
+
+### The free lesson
+
+The learner builds something real in the first session, and the teacher then suggests a level, a course and a weekly time. No card is ever needed.
+
+### Classes by level
+
+Fifteen to twenty learners at one stage, from Dunfermline, the rest of the UK and abroad, so every level has good times to choose from.
+
+### Two lessons a week
+
+Two fixed lessons weekly, around eight a month, with school holidays and exam leave agreed with the teacher well ahead.
+
+### Evening in India
+
+India keeps one time all year, so a 5 pm class in Fife starts at 21:30 for our teachers during British Summer Time and 22:30 in winter.
+
+Across Fife
+
+Learners in Rosyth, Limekilns, Kingseat or Halbeath join exactly the same classes, since every lesson is online and classes are grouped by level.
+
+Fees
 
 ## Dunfermline lesson fees
 
 A free first lesson, then one fee each month.
 
-- First class: USD 0. A complete lesson without charge, ending with a suggested level, course and weekly time.
-- Group tuition: USD 100 a month. About eight live lessons a month in a class of fifteen to twenty learners at one stage.
-- Private tuition: USD 150 a month. About eight live lessons a month, with a teacher for your learner alone.
+First class**USD 0**
+
+A complete lesson without charge, ending with a suggested level, course and weekly time.
+
+Group tuition**USD 100**
+
+About eight live lessons a month in a class of fifteen to twenty learners at one stage.
+
+Private tuition**USD 150**
+
+About eight live lessons a month, with a teacher for your learner alone.
 
 Families in Bellyeoman or Townhill pay in US dollars, like every family outside India, and our site shows no pound prices. No charge is made until after the free lesson, once a course and weekly time are agreed with us; the pricing page explains pauses, missed lessons and changes between group and one-to-one teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Dunfermline.)Reviews
+
+## Six family reviews from Google, word for word
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson for a Dunfermline learner
+
+The first lesson fits the learner: a secret-message parity game for a young child, a short Python program that turns a name into binary for a beginner, or Carnegie's autobiography and a Hamming code for a teenager ready for real engineering.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Dunfermline one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Dunfermline.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Dunfermline coding class questions
+
+What Dunfermline families most often ask us.
 
 ### How many people live in Fife?
 
@@ -225,10 +347,14 @@ The first lesson is free. After it, a group place costs USD 100 a month for two 
 
 By level, pace and goals rather than age or where they live, with fifteen to twenty learners at the same stage. If no group fits the learner's week, we offer one-to-one lessons.
 
+Explore Scotland and the UK
+
 ## Scotland and beyond
 
 Across the Forth, the [Edinburgh page](/best-coding-class-in-edinburgh) works out why summer nights there never go properly dark, and up the coast [Dundee](/best-coding-class-in-dundee) tests weather forecasts against plain baselines. The [Scotland guide](/coding-and-ai-classes-in-scotland) covers the Curriculum for Excellence, with exam support on the [National 5](/national-5-computing-science-help) and [Higher Computing Science](/higher-computing-science-help) pages, and every other city is linked from the [UK coding page](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Dunfermline.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-dunfermline](https://learn.modernagecoders.com/best-coding-class-in-dunfermline#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-dunfermline*

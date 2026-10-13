@@ -4,34 +4,28 @@ description: "Online maths tutor for Gold Coast learners, Prep to Year 12 and ad
 canonical: https://learn.modernagecoders.com/maths-tutor-gold-coast
 source: src/pages/maths-tutor-gold-coast.html
 ---
-> Gold Coast families can book live online maths lessons with Modern Age Coders for anyone aged 6 to 67. We teach everything from early number to senior calculus: the primary years, the secondary years, Queensland Year 12 subjects including Mathematical Methods and Specialist Mathematics, and maths for grown-ups. Times are set in Queensland time, which has no daylight saving, and learners choose private lessons or a group of fifteen to twenty at their level. Trying a first lesson costs nothing.
+> Online maths tutor for Gold Coast learners, Prep to Year 12 and adults: Queensland Mathematical Methods and Specialist Mathematics, live on Queensland time.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / Maths tutor on the Gold Coast
+Maths tutor on the Gold Coast, in brief
 
-Gold Coast, Queensland · Prep to Year 12 and adults · Live maths lessons online
+Gold Coast families can book live online maths lessons with Modern Age Coders for anyone aged 6 to 67. We teach everything from early number to senior calculus: the primary years, the secondary years, Queensland Year 12 subjects including Mathematical Methods and Specialist Mathematics, and maths for grown-ups. Times are set in Queensland time, which has no daylight saving, and learners choose private lessons or a group of fifteen to twenty at their level. Trying a first lesson costs nothing.
 
-# Maths tutor on the Gold Coast
-
-On a winter afternoon in Surfers Paradise, the tall towers along the beachfront throw long shadows towards the sand. How long? The answer needs just two numbers, the height of the building and the angle of the sun above the horizon, and one ratio from trigonometry. A 158 metre tower on the June solstice at 3:00 pm casts a shadow about 417 metres long; at noon in December, barely 13. Working it out is a perfect Year 10 problem with a real place behind it. We teach Gold Coast learners live online from Prep right through to Year 12, plus adults, with every lesson set in Queensland time.
-
-At a glance: Ages: 6 to 67; Primary: Prep to Year 6; Secondary: Years 7 to 10; Senior: Methods, Specialist and other subjects; Adults: Bridging and workplace maths; How: Live video, one to one or five to ten; Time: Queensland time, all year; City project: Tower shadows with trigonometry. Rated 4.9 across 547 Google reviews.
+A good place to start on the Gold Coast
 
 ## Three maths courses Gold Coast learners choose
 
 Mental arithmetic and number sense for younger children, the trigonometry and algebra of Years 7 to 10, and precalculus for students moving into senior maths. The complete range is lower down.
 
-- [Number sense and mental maths](/courses/mental-maths-mastery-kids): Prep to Year 6: calculating, estimating and checking, so that written methods make sense later.
-- [Secondary maths, Years 7 to 10](/courses/comprehensive-middle-school-mathematics-mastery): Equations, Pythagoras and first trigonometry: exactly the toolkit the shadow problem on this page needs.
-- [Functions and precalculus](/courses/ap-precalculus-exam-prep-course): Strong function skills and trigonometric graphs for students heading into Mathematical Methods.
+[![Mental Maths for Kids course thumbnail](/images/mental-maths-kids.webp)  GC / 1 Number sense and mental maths Prep to Year 6: calculating, estimating and checking, so that written methods make sense later. Open the syllabus →](/courses/mental-maths-mastery-kids)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  GC / 2 Secondary maths, Years 7 to 10 Equations, Pythagoras and first trigonometry: exactly the toolkit the shadow problem on this page needs. Open the syllabus →](/courses/comprehensive-middle-school-mathematics-mastery)[![AP Precalculus course thumbnail](/images/ap-precalculus.webp)  GC / 3 Functions and precalculus Strong function skills and trigonometric graphs for students heading into Mathematical Methods. Open the syllabus →](/courses/ap-precalculus-exam-prep-course)
+
+Prep to Year 12
 
 ## Maths lessons for every Gold Coast year level
 
 Gold Coast schools follow Queensland's structure, from Prep through to Year 12. Lessons match the year and the topic a learner is working on.
 
-**Year levels and lesson focus**
-
 | Years | Stage | Typical lesson topics |
-|---|---|---|
+| --- | --- | --- |
 | Prep to Year 2 | Early years | Counting, number bonds, simple measuring |
 | Years 3 to 6 | Primary | Multiplication, fractions, angles, time and timetables |
 | Years 7 and 8 | Lower secondary | Integers, equations, area and volume |
@@ -51,14 +45,14 @@ Students who have fallen behind after a move or a busy term, students who want m
 
 Each starts with a free lesson pitched at their level.
 
+Senior maths in Queensland
+
 ## Senior maths for Gold Coast students
 
 Queensland's curriculum authority did not respond to our requests, so for subject names we rely on a university that must state them exactly: The University of Queensland names two Year 12 maths subjects in its course prerequisites.
 
-**Queensland Year 12 subjects in UQ prerequisites (read 13 October 2026)**
-
 | Year 12 subject | Role in UQ prerequisites | Main topics |
-|---|---|---|
+| --- | --- | --- |
 | Mathematical Methods (Units 3 and 4) | Required for MATH1051, the first-year calculus and linear algebra course | Calculus, functions, probability |
 | Specialist Mathematics (Units 3 and 4) | An alternative route into MATH1050 | Vectors, complex numbers, further calculus and proof |
 
@@ -76,24 +70,22 @@ If a subject is the wrong fit, we say so early.
 
 Sources: The University of Queensland course pages [MATH1051](https://programs-courses.uq.edu.au/course.html?course_code=MATH1051) and [MATH1050](https://programs-courses.uq.edu.au/course.html?course_code=MATH1050), read 13 October 2026.
 
+A Gold Coast worked example
+
 ## How long are the shadows of Surfers Paradise towers?
 
 If the sun is a certain angle above the horizon, a building of height h casts a shadow of length h divided by the tangent of that angle. The hard part is finding the angle.
 
 We took building heights from OpenStreetMap for a small area of Surfers Paradise; six buildings there are tagged as 50 metres or taller. Then we calculated the sun's height in the sky at latitude 28 degrees south using the standard approximation published for solar position, for three dates in 2026 and two times of day: solar noon, when the sun is highest, and 3:00 pm Queensland time.
 
-**Sun elevation above the horizon at latitude 28 degrees south, 2026 (our calculation)**
-
 | Date | Solar noon (AEST) | Elevation at noon | Elevation at 3:00 pm | Shadow per metre at 3:00 pm |
-|---|---|---|---|---|
-| 21 June (winter solstice) | 11:48 | 38.55&deg; | 20.73&deg; | 2.64 m |
-| 23 September (equinox) | 11:39 | 61.58&deg; | 34.12&deg; | 1.48 m |
-| 21 December (summer solstice) | 11:44 | 85.41&deg; | 45.9&deg; | 0.97 m |
-
-**Shadow lengths for the six tallest tagged buildings (our calculation; heights as mapped)**
+| --- | --- | --- | --- | --- |
+| 21 June (winter solstice) | 11:48 | 38.55° | 20.73° | 2.64 m |
+| 23 September (equinox) | 11:39 | 61.58° | 34.12° | 1.48 m |
+| 21 December (summer solstice) | 11:44 | 85.41° | 45.9° | 0.97 m |
 
 | Building | Height (m) | June noon (m) | June 3 pm (m) | December noon (m) |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Circle on Cavill South Tower | 158 | 198 | 417 | 13 |
 | Unnamed tower | 150 | 188 | 396 | 12 |
 | Unnamed tower | 130 | 163 | 343 | 10 |
@@ -127,14 +119,14 @@ Map data: OpenStreetMap contributors, ODbL.
 
 Heights: [OpenStreetMap](https://www.openstreetmap.org/copyright), building height tags, one Overpass query on 13 October 2026. Sun angles and shadow lengths are our calculation using the widely used NOAA solar-position approximation.
 
+Gold Coast learners
+
 ## Gold Coast learners and qualifications, 2021 Census
 
 The ABS publishes figures for the Gold Coast statistical region. They show a large school population and many adults with trade and diploma qualifications.
 
-**Gold Coast (statistical area level 4), 2021 Census**
-
 | Measure | People |
-|---|---|
+| --- | --- |
 | Attending primary school | 49,914 |
 | Attending secondary school | 41,917 |
 | Attending vocational education, including TAFE | 16,391 |
@@ -158,6 +150,8 @@ A teacher reads the current school unit before planning lessons.
 
 Source: ABS, [2021 Census QuickStats, Gold Coast](https://abs.gov.au/census/find-census-data/quickstats/2021/309), read 13 October 2026, CC BY 4.0.
 
+Online on Queensland time
+
 ## Online maths lessons for the Gold Coast
 
 The Gold Coast keeps Queensland time all year, four and a half hours ahead of India. In summer that puts it an hour behind New South Wales just across the border, which matters to families who work or study on both sides; our bookings always follow Queensland time.
@@ -178,14 +172,14 @@ Online lessons suit Gold Coast families with sport, surf club or part-time work 
 
 Parents sometimes ask whether a teacher on a screen can really tell when a child is stuck. In practice the shared whiteboard shows more than a classroom does: every pause, crossed-out line and second attempt is visible, and the teacher can ask about it straight away. Quieter students, who might not raise a hand in a class of twenty-five, often speak up far more in a small online group.
 
+Progress
+
 ## From counting to trigonometry
 
 Learners come in at any level; the free lesson tells us which.
 
-**Four levels**
-
 | Usually | Level | Secure when |
-|---|---|---|
+| --- | --- | --- |
 | Prep to Year 2 | 1. Number | They add within 20 without counting on fingers |
 | Years 3 to 6 | 2. Angles and time | They read clocks, measure angles and estimate both |
 | Years 7 to 10 | 3. Triangles | They use Pythagoras and tangent to find unknown sides |
@@ -194,63 +188,293 @@ Learners come in at any level; the free lesson tells us which.
 ### Late to senior maths
 
 Starting in Year 11 is common. We check algebra first and plan the catch-up.
+
 Trigonometry and functions are the usual gaps.
 
 ### Adults
 
 Adults often want bridging maths for university or a trade upgrade.
+
 Lessons start from what they need now.
+
+Full course list
 
 ## Maths courses for Gold Coast learners
 
 International course names, taught to Queensland years and subjects.
 
+I
+
 ### Primary
 
 Prep to Year 6
 
-- [Early maths](/courses/early-math-foundations): Hands-on counting.
-- [Primary maths](/courses/elementary-mathematics-complete-masterclass): Number, shape, data, measurement.
-- [Speed arithmetic](/courses/vedic-maths-course-speed-calculation-mastery): Once foundations are firm.
+GC / P1
+
+#### Early maths
+
+Hands-on counting.
+
+[Open the syllabus](/courses/early-math-foundations)
+
+GC / P2
+
+#### Primary maths
+
+Number, shape, data, measurement.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+GC / P3
+
+#### Speed arithmetic
+
+Once foundations are firm.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)II
 
 ### Secondary
 
 Years 7 to 10
 
-- [Years 7 to 10 maths](/courses/comprehensive-middle-school-mathematics-mastery): Triangles, algebra, data.
-- [Algebra rebuilt](/courses/algebra-foundations-masterclass): Confidence restored.
-- [Maths through coding](/courses/maths-through-coding): Calculate shadows in code.
+GC / S1
+
+#### Years 7 to 10 maths
+
+Triangles, algebra, data.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+GC / S2
+
+#### Algebra rebuilt
+
+Confidence restored.
+
+[Open the syllabus](/courses/algebra-foundations-masterclass)
+
+GC / S3
+
+#### Maths through coding
+
+Calculate shadows in code.
+
+[Open the syllabus](/courses/maths-through-coding)III
 
 ### Senior and adults
 
 Years 11, 12 and beyond
 
-- [Precalculus](/courses/ap-precalculus-exam-prep-course): Trig and functions.
-- [Senior maths](/courses/complete-high-school-mathematics-mastery): Calculus and statistics.
-- [Statistics](/courses/statistics-probability-maths-course): Data and probability.
+GC / H1
+
+#### Precalculus
+
+Trig and functions.
+
+[Open the syllabus](/courses/ap-precalculus-exam-prep-course)
+
+GC / H2
+
+#### Senior maths
+
+Calculus and statistics.
+
+[Open the syllabus](/courses/complete-high-school-mathematics-mastery)
+
+GC / H3
+
+#### Statistics
+
+Data and probability.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)
+
+When lessons happen
 
 ## A Gold Coast lesson timetable
 
 Queensland time is steady all year, so once a lesson time is set it stays put.
 
-- **After school** Primary and lower secondary.
-- **Evening** Senior students and adults.
-- **Weekend** Longer, relaxed sessions.
+After school
 
-- **Consistent teacher** Same person each week.
-- **Parent notes** Brief and honest.
-- **Classes by level** Fifteen to twenty learners.
-- **Local problems** Shadows, beaches and timetables.
-- **Private option** For tests and gaps.
-- **Meaning first** Why, then how.
+Primary and lower secondary.
+
+Evening
+
+Senior students and adults.
+
+Weekend
+
+Longer, relaxed sessions.
+
+### Consistent teacher
+
+Same person each week.
+
+### Parent notes
+
+Brief and honest.
+
+### Classes by level
+
+Fifteen to twenty learners.
+
+### Local problems
+
+Shadows, beaches and timetables.
+
+### Private option
+
+For tests and gaps.
+
+### Meaning first
+
+Why, then how.
+
+Student work
+
+## Things our learners have made
+
+Projects by students who began with careful maths. The [student labs](/student-labs) list others.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees for maths tutoring on the Gold Coast
 
 Gold Coast families pay a monthly fee in US dollars, with nothing to pay at sign-up and no fixed term.
 
-- Free first class: USD 0. A first lesson at the right level. Advice afterwards. No card details.
-- Group batch: USD 100 a month. Fifteen to twenty learners per class. Same teacher weekly. Marked practice. Stop any month.
-- One to one: USD 150 a month. Private lessons. Built around one learner. Helpful before exams.
+Free first class
+
+USD 0
+
+no card required
+
+- A first lesson at the right level
+- Advice afterwards
+- No card details
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners per class
+- Same teacher weekly
+- Marked practice
+- Stop any month
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- Private lessons
+- Built around one learner
+- Helpful before exams
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Reviews from Google, unchanged.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Gold Coast maths questions
 
 ## Questions Gold Coast families ask about maths tutoring
 
@@ -286,15 +510,54 @@ Yes, in adult groups or privately.
 
 The first lesson is free. Monthly fees are listed in the fees section.
 
+More for Gold Coast families
+
 ## Related pages
 
-- [Queensland Academies maths](/queensland-academies-entry-maths-practice): Entry test practice.
-- [NAPLAN numeracy](/naplan-numeracy-practice-online): Practice by year.
-- [Australian Curriculum maths, Years 7 to 10](/australian-curriculum-maths-year-7-to-10-help): Topic-by-topic support for the middle years.
-- [Maths competition practice](/australian-mathematics-competition-practice-by-year): Problems by year.
-- [Maths tutor costs](/maths-tutor-cost-australia-explained): Prices explained.
-- [Maths tutor in Brisbane](/maths-tutor-brisbane): For learners up the highway.
+Tests, curriculum and costs.
 
-## Contact
+### [Queensland Academies maths](/queensland-academies-entry-maths-practice)
 
-Book the free first class at [https://learn.modernagecoders.com/maths-tutor-gold-coast](https://learn.modernagecoders.com/maths-tutor-gold-coast#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Entry test practice.
+
+### [NAPLAN numeracy](/naplan-numeracy-practice-online)
+
+Practice by year.
+
+### [Australian Curriculum maths, Years 7 to 10](/australian-curriculum-maths-year-7-to-10-help)
+
+Topic-by-topic support for the middle years.
+
+### [Maths competition practice](/australian-mathematics-competition-practice-by-year)
+
+Problems by year.
+
+### [Maths tutor costs](/maths-tutor-cost-australia-explained)
+
+Prices explained.
+
+### [Maths tutor in Brisbane](/maths-tutor-brisbane)
+
+For learners up the highway.
+
+Start here
+
+## Book a free Gold Coast maths lesson
+
+Share a phone number and a good time. The first lesson is a real one, at the learner's level, with clear advice afterwards.
+
+Have a look at [our approach](/how-we-teach) or [online maths tutoring across Australia](/online-maths-tutoring-australia) first if you like.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20a%20learner%20on%20the%20Gold%20Coast.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+The team that replies works from India and uses a +91 number; we do not run a Gold Coast office. A WhatsApp message sent from an Australian mobile normally gets the fastest answer.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/maths-tutor-gold-coast*

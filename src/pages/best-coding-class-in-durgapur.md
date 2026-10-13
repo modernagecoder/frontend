@@ -156,11 +156,11 @@ Live
 
 Every class is taught live by an instructor with industry experience, questions get answered the moment they come up.
 
-Small
+Choose
 
-### 15–20 per batch
+### Your batch size
 
-Small enough that the teacher knows each child's pace, and nobody drifts to the back of the room.
+A group of 15 to 20, a mini batch of up to 6, or 1-on-1 classes on a fully flexible schedule.
 
 Build
 

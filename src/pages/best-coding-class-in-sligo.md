@@ -4,50 +4,36 @@ description: "Live online coding, Python and AI lessons for Sligo learners aged 
 canonical: https://learn.modernagecoders.com/best-coding-class-in-sligo
 source: src/pages/best-coding-class-in-sligo.html
 ---
-> Sligo town has 20,238 usual residents in the census town tables and 8,208 households, and 1,738 of its 8,622 working residents walk to work. Lessons with us need no journey at all: a teacher on a live video call twice in most weeks, with a small group of learners at the same stage or with one learner on their own, from six years old up to sixty-seven. The opening lesson is free. From then on a group place is USD 100 a month and private lessons are USD 150.
+> Live online coding, Python and AI lessons for Sligo learners aged 6 to 67, taught live by a teacher in small ability groups or one to one. First lesson free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [County Sligo](/coding-classes-in-county-sligo) / Sligo
-
-Sligo town, County Sligo / Live online
-
-# Coding classes in Sligo
-
-**What is the best coding class in Sligo?** Sligo town has 20,238 usual residents in the census town tables and 8,208 households, and 1,738 of its 8,622 working residents walk to work. Lessons with us need no journey at all: a teacher on a live video call twice in most weeks, with a small group of learners at the same stage or with one learner on their own, from six years old up to sixty-seven. The opening lesson is free. From then on a group place is USD 100 a month and private lessons are USD 150.
-
-Here is a result that sounds impossible. On the census row for people whose main answer is that they work or study at home, Balbriggan is level with Sligo among working residents and ahead of Sligo among students and children, yet behind Sligo when the two groups are added together. We did not construct it. We searched the census travel table for every town large enough to compare and found exactly this one reversal against Sligo. The explanation is not in either rate but in the mix: Balbriggan has more of its travellers in the education group, where home is almost never the answer, and that group drags its combined figure down. It is called Simpson's paradox, it catches professionals, and this page shows it with real numbers from two Irish towns.
-
-Facts last verified 19 September 2026. Teaching is online; no Sligo branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Sligo
 
 ## Where Sligo learners begin
 
 The age and the interest suggest a course. The free lesson, taught by that course's own teacher, decides it.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Block coding with teams and scores, where the mix of players changes which team looks better.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 13): Fractions, weighted averages and mixtures, built as programs rather than worked on paper.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): Grouped data in Python, comparing like with like, and standardising before ranking anything.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (College and adult): For adults comparing branches, schools or teams whose mix of cases is not the same.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlock coding with teams and scores, where the mix of players changes which team looks better.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 13Maths Through CodingFractions, weighted averages and mixtures, built as programs rather than worked on paper.See the syllabus](/courses/maths-through-coding)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensGrouped data in Python, comparing like with like, and standardising before ranking anything.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)College and adultData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For adults comparing branches, schools or teams whose mix of cases is not the same.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## Level, ahead, and still behind
 
 The row labelled work mainly at or from home, for Sligo and Balbriggan, split into the census's two travel groups. Counts are published; the percentages are our division, shown to three decimals because the working-resident rates differ only in the third.
 
-**Home as the main answer, by travel group**
-
 | Group | Sligo | Sligo rate | Balbriggan | Balbriggan rate |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Working residents | 831 of 8,622 | 9.638% | 1,000 of 10,373 | 9.640% |
 | Travelling to school, college or childcare | 20 of 5,073 | 0.394% | 38 of 7,725 | 0.492% |
 | Both groups together | 851 of 13,695 | 6.214% | 1,038 of 18,098 | 5.735% |
-| Share of travellers in the education group | 37.0% |  | 42.7% |  |
+| Share of travellers in the education group | 37.0% |   | 42.7% |   |
 
 ### The paradox
 
@@ -67,14 +53,14 @@ A hospital with better outcomes in every category of patient can have a worse ov
 
 The learner's project has three stages. First, reproduce the table from the published counts and see the reversal for themselves. Second, write the standardisation: a function that takes two sets of rates and one set of weights and returns comparable totals, applied at Sligo's mix, at Balbriggan's, and at an even split. Third, repeat our search: loop over every sufficiently large town in the travel table, test every mode for a reversal against a chosen town, and count how many turn up. Against Sligo, among 74 towns, we found exactly one, which is itself worth knowing: the paradox is real and it is rare, which is why it surprises people when it bites.
 
+Sligo in the town tables
+
 ## The town behind the comparison
 
 Published for the built-up area Sligo, Co Sligo, in the Census 2022 small area tables.
 
-**Sligo town, Census 2022**
-
 | Measured | Count |
-|---|---|
+| --- | --- |
 | Usual residents | 20,238 |
 | Households | 8,208 |
 | Working residents in the travel table | 8,622 |
@@ -94,16 +80,18 @@ Of 5,073 journeys to school, college or childcare, 2,172 are as a car passenger,
 
 Broadband is reported by 6,322 of 8,208 households. A separate table records 1,843 working residents doing some work at home and 5,426 who never do.
 
-**The hospital** The HSE lists Sligo University Hospital at The Mall, Rathquarter, Sligo Town, F91 H684. We name it only from that published listing and have no connection with it.
+The hospital
+
+The HSE lists Sligo University Hospital at The Mall, Rathquarter, Sligo Town, F91 H684. We name it only from that published listing and have no connection with it.
+
+Before comparing any two totals
 
 ## Three questions that catch a composition effect
 
 The Sligo and Balbriggan case turned into a checklist a learner can apply to any league table or report.
 
-**What to ask, and what the census answered here**
-
 | Question | Answer for Sligo and Balbriggan |
-|---|---|
+| --- | --- |
 | Is the total made of groups with very different rates? | Yes: about 9.6% among working residents, under 0.5% among education travellers |
 | Do the two places have different mixes of those groups? | Yes: 37.0% of Sligo's travellers are in the education group, 42.7% of Balbriggan's |
 | Does the comparison change at a common mix? | Yes: at Sligo's mix Balbriggan's rates give 6.252%, above Sligo's 6.214% |
@@ -120,7 +108,11 @@ Both, labelled. The combined rate is a true description of each town's traveller
 
 That either town has more home-working or home-learning in any meaningful sense. The gaps are tiny, and the point is how totals behave, not a ranking of towns.
 
-**The abbey** The Office of Public Works describes Sligo Abbey, at Abbey Street, Sligo, F91 K796, as a Dominican priory that has dominated the town's eastern district since Sligo was founded in the mid-thirteenth century, with its church, sacristy and chapterhouse preserved from that period alongside a fifteenth-century cloister. We quote the description only; its admission prices are not reproduced here.
+The abbey
+
+The Office of Public Works describes Sligo Abbey, at Abbey Street, Sligo, F91 K796, as a Dominican priory that has dominated the town's eastern district since Sligo was founded in the mid-thirteenth century, with its church, sacristy and chapterhouse preserved from that period alongside a fifteenth-century cloister. We quote the description only; its admission prices are not reproduced here.
+
+Learning in Sligo
 
 ## How the lessons run for Sligo families
 
@@ -140,14 +132,37 @@ Adults join from every starting point, and 1,843 working residents here already 
 
 The HSE and the Office of Public Works are quoted from their own published pages, and neither, nor Sligo County Council, has any connection with us. Every count on this page is a Central Statistics Office Census 2022 figure for the built-up areas of Sligo and Balbriggan, printed as published. The rates, the standardised figure and the search for reversals are our own arithmetic, run on 19 September 2026, and the search is described closely enough that anybody can repeat it.
 
+Learning ladder
+
 ## From fair teams to fair comparisons
 
 Ages are a starting guess; the free lesson confirms the level.
 
-- **Ages 6 to 10: Picking fair teams** Block games where the mix of players changes who wins, and fixing it. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Averages of mixtures** Weighted averages in Python, and why the weights matter as much as the values. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 14 to 18: Grouped comparisons** Splitting data by group, finding reversals and standardising to a common mix. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Comparing units at work** Branches, teams and schools compared fairly when their mix of cases differs. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### Picking fair teams
+
+Block games where the mix of players changes who wins, and fixing it.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Averages of mixtures
+
+Weighted averages in Python, and why the weights matter as much as the values.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### Grouped comparisons
+
+Splitting data by group, finding reversals and standardising to a common mix.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Comparing units at work
+
+Branches, teams and schools compared fairly when their mix of cases differs.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## Ask which town has more people working from home
 
@@ -159,30 +174,139 @@ A learner who has worked through this page asks whether the groups have differen
 
 Tools will hand you whichever total you ask for. Knowing which total answers your question is still a human job, and a very learnable one. The longer argument is in [why coding repays a young learner](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Practical details for Sligo
 
 What happens in practice.
 
-- **A teacher, live** Every lesson is taught in real time, with the teacher following the learner's own work.
-- **Grouped by ability** Fifteen to twenty learners at one stage, from Sligo, the rest of Ireland and further away.
-- **Two lessons most weeks** Around eight a month, at an hour chosen when the course begins.
-- **Term dates** Holidays and exam weeks are planned into the schedule from the outset.
-- **What to have** The learner needs their own screen and keyboard for the hour, working audio, and a connection that does not drop a video call.
-- **On their own** If the timetable and the level cannot meet in a group, the teacher takes the learner one to one.
+### A teacher, live
 
-**Groups matched on purpose** We group learners by level precisely so that comparisons inside a group are fair, the same principle as comparing towns at a common mix.
+Every lesson is taught in real time, with the teacher following the learner's own work.
+
+### Grouped by ability
+
+Fifteen to twenty learners at one stage, from Sligo, the rest of Ireland and further away.
+
+### Two lessons most weeks
+
+Around eight a month, at an hour chosen when the course begins.
+
+### Term dates
+
+Holidays and exam weeks are planned into the schedule from the outset.
+
+### What to have
+
+The learner needs their own screen and keyboard for the hour, working audio, and a connection that does not drop a video call.
+
+### On their own
+
+If the timetable and the level cannot meet in a group, the teacher takes the learner one to one.
+
+Groups matched on purpose
+
+We group learners by level precisely so that comparisons inside a group are fair, the same principle as comparing towns at a common mix.
+
+Fees
 
 ## Sligo class fees
 
 Three lines, nothing more.
 
-- First class: USD 0. The opening lesson, taught in full and assessed, free.
-- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, about eight live lessons.
-- Private tuition: USD 150 a month. A month of one to one lessons on the same weekly pattern.
+First class**USD 0**
+
+The opening lesson, taught in full and assessed, free.
+
+Group tuition**USD 100**
+
+A month in a group of fifteen to twenty at one level, about eight live lessons.
+
+Private tuition**USD 150**
+
+A month of one to one lessons on the same weekly pattern.
 
 Families outside India all pay the same monthly fee in US dollars, so Sligo sees the figure Galway sees, with no euro version shown. There is no charge until the free lesson has produced a course and a weekly time, and the pricing page explains what happens over holidays, after a missed lesson, and when a learner changes format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Sligo.)Reviews
+
+## Six families' Google reviews, printed as they wrote them
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Sligo lesson
+
+Tell us the learner's age and what they like. We build the opening hour from that, and it might end with a game, a first working program, or a comparison made fair by fixing the mix.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Sligo one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Sligo.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Sligo coding class questions
+
+What families in Sligo ask before booking.
 
 ### How many people live in Sligo town?
 
@@ -224,10 +348,14 @@ The first lesson is free. After that a shared place costs USD 100 a month and br
 
 Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
+Explore Ireland
+
 ## Around Sligo
 
 The rest of the county is on the [County Sligo](/coding-classes-in-county-sligo) page, within [Connacht](/coding-and-ai-classes-in-connacht), and the other town in this comparison has its own page at [Balbriggan](/best-coding-class-in-balbriggan). For a view of online schools side by side, [read this comparison](/best-online-coding-classes-ireland), and the [Ireland hub](/coding-classes-in-ireland) collects every page in the series.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Sligo.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-sligo](https://learn.modernagecoders.com/best-coding-class-in-sligo#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-sligo*

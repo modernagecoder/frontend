@@ -4,46 +4,32 @@ description: "Live online coding, Python and AI classes across County Roscommon,
 canonical: https://learn.modernagecoders.com/coding-classes-in-county-roscommon
 source: src/pages/coding-classes-in-county-roscommon.html
 ---
-> Roscommon grew by 5,715 people between the last two censuses to reach 70,259, a little faster than the country. Its largest town, Roscommon itself, has 6,555 residents; Boyle, Ballaghaderreen and Castlerea each hold between two and three thousand. Seven in ten commuters here drive, the joint highest share in Ireland. A free trial lesson comes first. After it, a seat in a small ability group costs USD 100 a month and private tuition USD 150, all of it taught live at a set time each week to learners from six up to sixty-seven.
+> Live online coding, Python and AI classes across County Roscommon, from Roscommon town and Boyle to Castlerea, Ballaghaderreen and Strokestown, ages 6 to 67.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [County Galway](/coding-classes-in-county-galway) / County Roscommon
-
-County Roscommon, Connacht / Live online
-
-# Coding classes in County Roscommon
-
-**What are the best coding classes in County Roscommon?** Roscommon grew by 5,715 people between the last two censuses to reach 70,259, a little faster than the country. Its largest town, Roscommon itself, has 6,555 residents; Boyle, Ballaghaderreen and Castlerea each hold between two and three thousand. Seven in ten commuters here drive, the joint highest share in Ireland. A free trial lesson comes first. After it, a seat in a small ability group costs USD 100 a month and private tuition USD 150, all of it taught live at a set time each week to learners from six up to sixty-seven.
-
-Open the county council's list of protected buildings in any ordinary data tool and ask it which towns hold the most. Boyle comes first with 109. Second, with 93 structures, is a town called na. There is no such town. Somebody typing into a form wrote na when a building had no town, and a colleague wrote n/a, and another left it blank, and others wrote NA and Na. Five spellings of nothing, and pandas, a very widely used analysis library, left on its defaults, recognises three of them and treats the other ninety-five rows as a real place. The file is honest, public and licensed for reuse. It just records absence in a way software was never told about, which happens in almost every spreadsheet anybody inherits.
-
-Facts last verified 16 September 2026. Teaching is online; no County Roscommon branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for County Roscommon
 
 ## Where a Roscommon learner begins
 
 Pick by age and interest. The trial lesson is given by the teacher who would take the course, and you are never asked for card details to book it.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Scratch projects where an empty box, a zero and the word none all have to be handled differently.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Python first steps, and an early lesson in checking what a program has actually read in.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): A real council file of 559 buildings, cleaned properly and then mapped.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): For adults whose reports are built on spreadsheets typed by many different people.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsScratch projects where an empty box, a zero and the word none all have to be handled differently.See the syllabus](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsPython first steps, and an early lesson in checking what a program has actually read in.See the syllabus](/courses/python-ai-kids-masterclass)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensA real council file of 559 buildings, cleaned properly and then mapped.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CourseFor adults whose reports are built on spreadsheets typed by many different people.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## The second biggest town is called na
 
 Roscommon County Council's Record of Protected Structures, 559 buildings, examined before any chart is drawn.
 
-**How the TOWN column says "no town", counted row by row**
-
 | Written as | Rows | Seen as missing by default? |
-|---|---|---|
+| --- | --- | --- |
 | na | 93 | No, read as a town name |
 | n/a | 3 | Yes |
 | A blank cell | 3 | Yes |
@@ -69,14 +55,14 @@ Every system that collects information has to decide how to write down that some
 
 The deliverable is a short cleaning note and one honest chart. The note lists the five spellings of missing, the line-versus-record gap and the split town name. The chart shows protected structures by town with those fixed and with the unknown-town rows reported as their own labelled bar rather than quietly dropped, because 102 buildings without a recorded town is a fact about the register worth showing. The file is published under a Creative Commons Attribution licence and was last edited in December 2022, and the page says so.
 
+The county today
+
 ## Roscommon by the numbers
 
 Everything below is quoted from the statistics office's Roscommon releases.
 
-**Roscommon, April 2022**
-
 | Item | Census 2022 |
-|---|---|
+| --- | --- |
 | Residents | 70,259, up 5,715 or 9% since 2016, against 8% for the State |
 | Women and men | 35,089 and 35,170, or 100 males for every 100 females |
 | Average age | 40.8, up from 39.7 |
@@ -98,14 +84,14 @@ Only 41% of residents were born in the county and a further 40% elsewhere in the
 
 Three of the larger places people associate with Roscommon are recorded by the statistics office as towns shared with a neighbouring county: Athlone with Westmeath, Carrick-on-Shannon with Leitrim, and Lanesborough-Ballyleague with Longford. Their published populations describe the whole town on both sides of the line, so none of them is quoted here as a Roscommon figure.
 
+Travel and work
+
 ## The county that drives furthest
 
 Two national comparisons, both stated by the statistics office itself.
 
-**Getting to work from Roscommon**
-
 | Reported | Value |
-|---|---|
+| --- | --- |
 | Commuters | 26,488 |
 | Travelling by car | 18,552, which is 70% of working commuters and the joint highest rate in the country |
 | Average distance | 24.9 kilometres, the second longest in the country |
@@ -125,7 +111,11 @@ Irish Rail's Roscommon station at Abbeytown carries eircode F42 KF85 and Castler
 
 Labour force participation is 58% against 61% nationally, partly a reflection of an average age more than two years above the national one.
 
-**Why an online class fits a driving county** Where 70% of commuters already drive and the average trip is among the longest in Ireland, every activity that needs a car competes with work for the same hours and the same fuel. A weekly lesson that arrives at the kitchen table is not a second-best version of a class in a hall. For a family outside the towns it is usually the only version that survives the winter.
+Why an online class fits a driving county
+
+Where 70% of commuters already drive and the average trip is among the longest in Ireland, every activity that needs a car competes with work for the same hours and the same fuel. A weekly lesson that arrives at the kitchen table is not a second-best version of a class in a hall. For a family outside the towns it is usually the only version that survives the winter.
+
+Places in the county
 
 ## Three visitor sites and a council office
 
@@ -145,14 +135,37 @@ Home of the National Famine Museum, eircode F42 H282, cared for by the Irish Her
 
 Roscommon County Council itself is at Aras an Chontae, Roscommon, F42 VR98, and it publishes 187 datasets on the national data portal, which is why this page has a real file to work with rather than a note about an empty catalogue. None of these organisations is connected with us, and nor is any school. We checked the January 2018 list of forty schools that started Leaving Certificate Computer Science first and Roscommon does not appear on it, which is a statement about that list only. The census figures are the statistics office's; the counts in the project are ours, taken from the council's published file.
 
+Learning ladder
+
 ## From an empty box to a cleaning note
 
 Treat the ages as rough. Placement happens in the trial lesson.
 
-- **Ages 6 to 10: Nothing is something** Games that must behave sensibly when a box is empty, zero, or says none. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 11 to 13: What did it read in?** Loading a small file and checking it matches what is on screen before trusting any total. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Cleaning with a record** Fixing a real public file and writing down every change so someone else could repeat it. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Many hands, one sheet** Working with data typed by lots of people without inheriting all of their habits. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Nothing is something
+
+Games that must behave sensibly when a box is empty, zero, or says none.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 11 to 13
+
+### What did it read in?
+
+Loading a small file and checking it matches what is on screen before trusting any total.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Cleaning with a record
+
+Fixing a real public file and writing down every change so someone else could repeat it.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Many hands, one sheet
+
+Working with data typed by lots of people without inheriting all of their habits.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## A summary of that file would mention the town of na
 
@@ -164,30 +177,139 @@ A learner who has once counted the five spellings of nothing looks for them in e
 
 Knowing what a blank really is remains a human judgement in 2026, and it is one of the most useful things a young programmer can be good at. The longer argument is in [is learning to code still worth it in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## The format, plainly
 
 What happens each week for a learner anywhere between Boyle and Athlone.
 
-- **Taught, not recorded** A real teacher runs every lesson live and the learner is expected to answer, ask and try things out loud.
-- **Placed with equals** Fifteen to twenty learners working at the same level, drawn from Roscommon and a number of other countries so the match is genuine.
-- **The same slot each week** Normally two lessons weekly, about eight a month, at a day and time fixed at the start.
-- **Irish school rhythm** Junior Cycle, Transition Year and the Leaving Certificate years, with holidays and exam weeks planned around.
-- **A home setup** A computer rather than a phone, sound that works and a connection steady enough for video. The trial lesson confirms it.
-- **One to one when needed** If no group at the right level meets at a time that suits, we teach the learner privately instead.
+### Taught, not recorded
 
-**For the western half of the county** Castlerea, Ballaghaderreen and the villages around Frenchpark and Loughglynn are a long way from any town with a computing club, and a train timetable is no help to a fourteen year old who wants a class on a Tuesday evening. An online group at the right level, meeting at a fixed hour, is the arrangement that actually reaches them.
+A real teacher runs every lesson live and the learner is expected to answer, ask and try things out loud.
+
+### Placed with equals
+
+Fifteen to twenty learners working at the same level, drawn from Roscommon and a number of other countries so the match is genuine.
+
+### The same slot each week
+
+Normally two lessons weekly, about eight a month, at a day and time fixed at the start.
+
+### Irish school rhythm
+
+Junior Cycle, Transition Year and the Leaving Certificate years, with holidays and exam weeks planned around.
+
+### A home setup
+
+A computer rather than a phone, sound that works and a connection steady enough for video. The trial lesson confirms it.
+
+### One to one when needed
+
+If no group at the right level meets at a time that suits, we teach the learner privately instead.
+
+For the western half of the county
+
+Castlerea, Ballaghaderreen and the villages around Frenchpark and Loughglynn are a long way from any town with a computing club, and a train timetable is no help to a fourteen year old who wants a class on a Tuesday evening. An online group at the right level, meeting at a fixed hour, is the arrangement that actually reaches them.
+
+Fees
 
 ## What classes cost in Roscommon
 
 Three prices, stated once.
 
-- First class: USD 0. The trial lesson: complete, free, and ending with a level and a suggested course.
-- Group tuition: USD 100 a month. Monthly group place, around eight lessons, with fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. Monthly one to one teaching on the same weekly pattern.
+First class**USD 0**
+
+The trial lesson: complete, free, and ending with a level and a suggested course.
+
+Group tuition**USD 100**
+
+Monthly group place, around eight lessons, with fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+Monthly one to one teaching on the same weekly pattern.
 
 Invoices are monthly and in US dollars, the one rate we use for families outside India, so Strokestown and Roscommon town pay the same and no second currency is involved. You pay nothing until the trial lesson has settled a course and a time. The pricing page covers pauses, missed lessons and switching format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20County%20Roscommon.)Reviews
+
+## Six reviews families left for us on Google, unaltered
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book the trial lesson
+
+Tell us how old the learner is and what they like doing. We plan the first hour around that, whether it is a first Scratch game or a real council file with a town called na in it.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented County Roscommon one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20County%20Roscommon.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## County Roscommon coding class questions
+
+Asked most often by Roscommon families.
 
 ### How many people live in County Roscommon?
 
@@ -229,10 +351,14 @@ The first lesson is free. After that a shared place costs USD 100 a month and br
 
 Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
+Explore Ireland
+
 ## Next door to Roscommon
 
 The county touches several others with their own pages: [County Galway](/coding-classes-in-county-galway) and [County Mayo](/coding-classes-in-county-mayo) to the west, [Leitrim](/coding-classes-in-county-leitrim) and [Sligo](/coding-classes-in-county-sligo) to the north, and [Westmeath](/coding-classes-in-county-westmeath) across the Shannon. If you want a side by side look at online schools, [this comparison](/best-online-coding-classes-ireland) covers it, and the [Ireland page](/coding-classes-in-ireland) lists everything else.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20County%20Roscommon.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-county-roscommon](https://learn.modernagecoders.com/coding-classes-in-county-roscommon#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-county-roscommon*

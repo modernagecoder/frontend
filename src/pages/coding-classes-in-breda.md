@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes in Breda for ages 6 to 6
 canonical: https://learn.modernagecoders.com/coding-classes-in-breda
 source: src/pages/coding-classes-in-breda.html
 ---
-> Coding classes in Breda serve a municipality of 190,204 people (Statistics Netherlands, 1 January 2026), the third of Noord-Brabant after Eindhoven and Tilburg. Its own encyclopaedia entry calls it the ninth municipality of the Netherlands; Nijmegen's entry calls Nijmegen the ninth city, and on the same date the two are 333 people apart. Two published sources disagree by as much as 402 about a single city on a single day, so the ninth place is not something the data can settle. Modern Age Coders teaches live online in English across the whole municipality, ages 6 to 67, first lesson free, then USD 100 a month in a group of fifteen to twenty or USD 150 one-to-one.
+> Live online coding, Python and AI classes in Breda for ages 6 to 67, from Prinsenbeek to Bavel and Ulvenhout. First lesson free, then one flat monthly fee.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Breda
-
-Breda, Noord-Brabant / Live online
-
-# Coding classes in Breda, the ninth city of the Netherlands by a margin narrower than the error bar
-
-**What are the best coding classes in Breda?** Coding classes in Breda serve a municipality of 190,204 people (Statistics Netherlands, 1 January 2026), the third of Noord-Brabant after Eindhoven and Tilburg. Its own encyclopaedia entry calls it the ninth municipality of the Netherlands; Nijmegen's entry calls Nijmegen the ninth city, and on the same date the two are 333 people apart. Two published sources disagree by as much as 402 about a single city on a single day, so the ninth place is not something the data can settle. Modern Age Coders teaches live online in English across the whole municipality, ages 6 to 67, first lesson free, then USD 100 a month in a group of fifteen to twenty or USD 150 one-to-one.
-
-Breda and Nijmegen both claim ninth place in the country, and the honest answer is that neither claim is supported. On 1 January 2026 the national figures put Breda at 190,204 and Nijmegen at 189,871, a gap of 333 people. On the same date two published sources give Groningen as 244,427 and 244,829, a gap of 402. When the distance between two ranks is smaller than the distance between two sources describing one city, the ranking is noise wearing a number. A child who can measure that is harder to sell things to.
-
-Facts last verified 7 September 2026. Teaching is online; no Breda branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Breda
 
 ## Four courses for a city of soldiers, students and screen-makers
 
 A groep 5 child in Teteringen who has run out of things to build in Minecraft, a teenager in Prinsenbeek who wants a game rather than a mod, a student at one of the city's applied colleges who needs the whole stack, and a working parent in Bavel who has been handed an AI tool and no training: four doors into one city.
 
-- [Minecraft Coding for Kids](/courses/minecraft-coding-for-kids-course) (Ages 8 to 12): Real code inside the world the groep 5 to 8 child already knows, in English, from Ulvenhout to the Haagse Beemden.
-- [Game Development for Teens](/courses/complete-game-development-masterclass-for-teens) (Ages 13 to 18): Unity and C sharp to a game that ships, for the teenager whose school offers art or computing but never both together.
-- [Full Stack Developer Course](/courses/full-stack-web-development-masterclass-college) (College and adult): React, Node and a live deployment, for the student at an applied university who wants a portfolio rather than a transcript.
-- [AI Tools Mastery Course](/courses/ai-tools-mastery-complete-college) (Adults): ChatGPT, Claude and automation with judgement attached, for the parent whose employer rolled the tools out and skipped the training.
+[![Minecraft Coding for Kids course thumbnail](/images/minecraft-coding-kids.webp)Ages 8 to 12Minecraft Coding for KidsReal code inside the world the groep 5 to 8 child already knows, in English, from Ulvenhout to the Haagse Beemden.See the syllabus](/courses/minecraft-coding-for-kids-course)[![Game Development for Teens course thumbnail](/images/game-dev-teens.webp)Ages 13 to 18Game Development for TeensUnity and C sharp to a game that ships, for the teenager whose school offers art or computing but never both together.See the syllabus](/courses/complete-game-development-masterclass-for-teens)[![Full Stack Developer Course course thumbnail](/images/full-stack-development-college.webp)College and adultFull Stack Developer CourseReact, Node and a live deployment, for the student at an applied university who wants a portfolio rather than a transcript.See the syllabus](/courses/full-stack-web-development-masterclass-college)[![AI Tools Mastery Course course thumbnail](/images/ai-tools-college.webp)AdultsAI Tools Mastery CourseChatGPT, Claude and automation with judgement attached, for the parent whose employer rolled the tools out and skipped the training.See the syllabus](/courses/ai-tools-mastery-complete-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Breda today
 
 ## Third in the province, ninth or tenth in the country, and older than its paperwork
 
@@ -52,7 +40,11 @@ The national register held 190,204 people in the municipality on 1 January 2026,
 
 Breda was the seat of the Barony of Breda from 1403 and is the Nassau city above all others; Baron of Breda has been among the royal titles since 1815. Seventeen members of the family are buried in the Prinsenkapel of the Grote Kerk, whose tower stands at 97.2 metres.
 
-**City rights that never quite happened on a Tuesday** In 1252 Breda bought privileges from Henry the Fourth of Schoten, and its own encyclopaedia entry treats the acquisition of city rights as gradual rather than as a single grant. The Koninklijke Militaire Academie, the country's military academy, was founded in the city in 1828 and is still there, which is why Breda has a garrison's memory as well as a court's.
+City rights that never quite happened on a Tuesday
+
+In 1252 Breda bought privileges from Henry the Fourth of Schoten, and its own encyclopaedia entry treats the acquisition of city rights as gradual rather than as a single grant. The Koninklijke Militaire Academie, the country's military academy, was founded in the city in 1828 and is still there, which is why Breda has a garrison's memory as well as a court's.
+
+Where the learners are
 
 ## One city, five villages, and two districts that were villages until 1942
 
@@ -84,6 +76,8 @@ The smaller places west and south-west of the city. Eleven wijken and 56 buurten
 
 The lesson reaches every one of them at one hour, and placement is settled by what the learner can already do.
 
+Verified local facts
+
 ## Every figure and its office, and the disagreements kept in plain sight
 
 The national count, the encyclopaedia entries, the church, the academy, and the six pairs of numbers that make the project below possible.
@@ -114,6 +108,8 @@ The Koninklijke Militaire Academie, founded 1828 and seated in Breda. The page n
 
 No connection exists or is implied between Modern Age Coders and the municipality, the academy, the church or any school named here. They are on the page because a page that claims Breda should be able to show where its numbers come from and where they fail to agree.
 
+Signature project
+
 ## Ninth or tenth: build the program that measures the ranking against the noise
 
 Six cities, twelve published figures, one date, and a league table whose top boundary turns out to sit inside the width of its own error.
@@ -130,10 +126,8 @@ Then the distance between neighbouring cities in the ranking: Breda to Nijmegen 
 
 The rule the learner writes: if the gap between two entries is smaller than the largest same-date disagreement observed between sources, print them as tied rather than ranked. Breda and Nijmegen tie. Apeldoorn and Haarlem tie. Arnhem stands clear of both groups, and so does the pair above it.
 
-**Six municipalities on 1 January 2026: two sources, one date, and what the gap is worth**
-
 | Municipality | National statistics site | Encyclopaedia entry | They disagree by | Gap to the next city below |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Breda | 190,204 | about 190,000 at 30 September 2025 | not comparable, different date | 333 |
 | Nijmegen | 189,871 | 189,850 | 21 | 18,049 |
 | Arnhem | 171,822 | 172,002 | 180 | 2,610 |
@@ -145,14 +139,14 @@ The rule the learner writes: if the gap between two entries is smaller than the 
 
 Every published count carries a width: registers are revised, dates are drawn differently, and two careful sources describing one municipality on one morning can be four hundred people apart. A ranking hides that width completely, because a rank is a whole number and looks exact. The discipline is to measure the width first, from the data itself where possible, and then to refuse any ordering that the width would overturn. Breda may well be ninth. The point is that these figures cannot show it, and that a page claiming so is claiming more than it has. This differs from the older lesson that ranks flatten unequal gaps: there the gaps were real and the ranking concealed their size, and here the gap is smaller than the uncertainty, so the ranking is not determined at all. The table was built before this paragraph was written, from the twelve published figures and nothing else.
 
+Reliable pipeline
+
 ## Five habits for any league table, scoreboard or top ten
 
 School rankings, hospital rankings, best-place-to-live lists, sales leaderboards, model benchmark scores: all of them turn measurements into whole-numbered positions, and all of them lose the width doing it. Practised on the city the learner comes from.
 
-**When positions are printed but uncertainty is not**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Find a second source | Get an independent figure for the same thing on the same date | One number treated as exact | A measured width instead of a guessed one |
 | Quantify the width | Take the spread across sources as the working uncertainty | A 333-person gap read as decisive | A threshold you can apply |
 | Compare gap with width | Only rank two entries when the gap exceeds the width | Ninth place asserted from noise | Rankings that survive a revision |
@@ -173,14 +167,37 @@ The same treatment on a leaderboard from work: regional sales, response times, s
 
 The resident counts, household counts, areas, school figures, the church measurements and the academy date come from the offices and entries named beside them. The differences, the gaps and the tie rule are this page's arithmetic on those published figures, and every one of them can be reproduced from the table above.
 
+Learning ladder
+
 ## From two tape measures to a ranking that reports its own ties
 
 The starting point comes out of the free hour, and no part of it depends on the address.
 
-- **Ages 6 to 10: Two measurements, one friend** Children measure the same thing twice and find the two answers are not identical. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Minecraft Coding for Kids](/courses/minecraft-coding-for-kids-course)
-- **Ages 11 to 13: Sorting, and what sorting hides** Learners write a sort, then compare the gaps between neighbours with the spread in the data. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 14 to 18: Uncertainty as a number** Teenagers compute the width from real pairs and print ties where the width swallows the gap. [Game Development for Teens](/courses/complete-game-development-masterclass-for-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Leaderboards at work** Adults test whether the top of a table at work survives the variation already in it. [Full Stack Developer Course](/courses/full-stack-web-development-masterclass-college), [AI Tools Mastery Course](/courses/ai-tools-mastery-complete-college)
+Ages 6 to 10
+
+### Two measurements, one friend
+
+Children measure the same thing twice and find the two answers are not identical.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Minecraft Coding for Kids](/courses/minecraft-coding-for-kids-course)Ages 11 to 13
+
+### Sorting, and what sorting hides
+
+Learners write a sort, then compare the gaps between neighbours with the spread in the data.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### Uncertainty as a number
+
+Teenagers compute the width from real pairs and print ties where the width swallows the gap.
+
+[Game Development for Teens](/courses/complete-game-development-masterclass-for-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Leaderboards at work
+
+Adults test whether the top of a table at work survives the variation already in it.
+
+[Full Stack Developer Course](/courses/full-stack-web-development-masterclass-college)[AI Tools Mastery Course](/courses/ai-tools-mastery-complete-college)Coding and AI
 
 ## Ask an AI whether Breda is the ninth city of the Netherlands and it will answer. Why should a child here learn to distrust the answer?
 
@@ -192,30 +209,139 @@ Which is why the learner still writes it. Asked directly, the tool will happily 
 
 So the case for a Breda child learning to code in 2026 has nothing to do with becoming a statistician. It is that every number a person is shown has a width, that the width is usually recoverable with a second source and a subtraction, and that a child who has done it once on their own city will do it for the rest of their life without being asked. The longer argument is in [the fuller argument for teaching a child to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for a city with five villages hanging off it
 
 Prinsenbeek is over the motorway, Bavel and Ulvenhout are out towards the woods, and Teteringen is on the Oosterhout side. Each of them is a car journey the lesson removes.
 
-- **Nothing to drive to** Class happens at the kitchen table in Prinsenbeek, Bavel or the Haagse Beemden at the same hour every week, in February as easily as in June.
-- **Taught in English, school words left in Dutch** Instruction is English throughout. Where the child's school says groep, havo, vwo or profielkeuze, the teacher says it too, and translates neither way.
-- **The free hour and what it produces** Work set at the level the learner is genuinely at, a named course that follows from it, and a weekly time. No card details are taken to arrange any of that.
-- **The group follows the level** Two learners at the same stage work together whether one is in Ulvenhout and the other in the centre; two at different stages do not, however close they live.
-- **Two lessons a week on the southern calendar** Usually eight lessons a month at one fixed slot. Breda's school year runs on regio Zuid with the rest of Brabant, Limburg and Zeeland, and holiday weeks go into the schedule before the slot is fixed.
-- **The teacher is ahead by three and a half hours, or four and a half** Dutch clocks shift twice a year and Indian ones never do, so the gap changes with the season. The usable window runs from the end of the school day into mid-evening, and across both weekend days.
+### Nothing to drive to
 
-**A garrison town that has had to reinvent itself before** Breda has been a court, a fortress, a garrison and a commuter city in turn, and the families here are used to the idea that the work changes. A weekly hour at home is the cheapest way to find out whether a child takes to the kind of work that is still being invented.
+Class happens at the kitchen table in Prinsenbeek, Bavel or the Haagse Beemden at the same hour every week, in February as easily as in June.
+
+### Taught in English, school words left in Dutch
+
+Instruction is English throughout. Where the child's school says groep, havo, vwo or profielkeuze, the teacher says it too, and translates neither way.
+
+### The free hour and what it produces
+
+Work set at the level the learner is genuinely at, a named course that follows from it, and a weekly time. No card details are taken to arrange any of that.
+
+### The group follows the level
+
+Two learners at the same stage work together whether one is in Ulvenhout and the other in the centre; two at different stages do not, however close they live.
+
+### Two lessons a week on the southern calendar
+
+Usually eight lessons a month at one fixed slot. Breda's school year runs on regio Zuid with the rest of Brabant, Limburg and Zeeland, and holiday weeks go into the schedule before the slot is fixed.
+
+### The teacher is ahead by three and a half hours, or four and a half
+
+Dutch clocks shift twice a year and Indian ones never do, so the gap changes with the season. The usable window runs from the end of the school day into mid-evening, and across both weekend days.
+
+A garrison town that has had to reinvent itself before
+
+Breda has been a court, a fortress, a garrison and a commuter city in turn, and the families here are used to the idea that the work changes. A weekly hour at home is the cheapest way to find out whether a child takes to the kind of work that is still being invented.
+
+Fees
 
 ## What it costs, in dollars, for every address in the municipality
 
 Set out here so that nobody has to ask for it.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 One international rate applies, quoted in dollars, with no separate euro list, so a family in Effen sees exactly what a family in the centre sees. Money is only exchanged once the free lesson has produced a course and a timetable, and it goes over WhatsApp. Pauses, plan changes and missed weeks are described on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Breda.)Reviews
+
+## Six families, quoted from Google exactly as they wrote it
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Send the level. The postcode can wait.
+
+Depending on the learner, the first thing on screen might be two tape measures and five friends, twelve population figures in Python, or a sales leaderboard from work whose top three sit inside the monthly variation.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Breda one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Breda.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Breda coding class questions
+
+The city, its villages, its ranking, the teaching and the terms.
 
 ### Is Breda really the ninth city of the Netherlands?
 
@@ -257,10 +383,14 @@ The first lesson is free. Group tuition is USD 100 a month for two live lessons 
 
 Between five and ten, matched on level, pace and goal rather than on age, school or neighbourhood. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.
 
+Explore the Netherlands
+
 ## East along the A58, and up to the country
 
 Breda sits in [Noord-Brabant](/coding-classes-in-noord-brabant), whose page counts the rings around a garden in Baarle; east along the A58 are [Tilburg](/coding-classes-in-tilburg) and then [Eindhoven](/coding-classes-in-eindhoven). The [Netherlands coding hub](/coding-classes-in-netherlands) is the root of the whole set, and anyone whose goal is a model that learns rather than a program that runs should start at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or at the [AI and Python Academy](/ai-and-python-academy-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Breda.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-breda](https://learn.modernagecoders.com/coding-classes-in-breda#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-breda*

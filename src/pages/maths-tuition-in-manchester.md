@@ -4,34 +4,28 @@ description: "Online maths tutor in Manchester for ages 6 to 67: KS2 and SATs, K
 canonical: https://learn.modernagecoders.com/maths-tuition-in-manchester
 source: src/pages/maths-tuition-in-manchester.html
 ---
-> As an online maths tutor we teach Manchester learners live from age 6 to 67: primary number, times tables and the Year 6 SATs, KS3, GCSE maths at Foundation or Higher tier for AQA, Edexcel or OCR, IGCSE, A level Maths and Further Maths, and adult maths from GCSE maths resits to plain refreshers. Group classes hold between five and ten learners of matching level, and private lessons are on offer too. Lessons follow the national curriculum and the GCSE and A level specifications, and every learner works on real data as well as textbook questions. Our Manchester example is the Metrolink: across 101 pairs of neighbouring stops, the mean straight-line gap is 952.9 metres and the median is 819.5 metres, because a few long gaps on the lines out to Bury, Oldham and Rochdale pull the mean up. We charge nothing for the opening lesson; continuing costs USD 100 monthly for a group seat or USD 150 monthly for private teaching.
+> Online maths tutor in Manchester for ages 6 to 67: KS2 and SATs, KS3, GCSE, A level, Further Maths and adult maths, with a Metrolink statistics project.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths tuition in Manchester
+In short
 
-Manchester · Maths from age 6 to 67 · Live online, small groups or one to one
+As an online maths tutor we teach Manchester learners live from age 6 to 67: primary number, times tables and the Year 6 SATs, KS3, GCSE maths at Foundation or Higher tier for AQA, Edexcel or OCR, IGCSE, A level Maths and Further Maths, and adult maths from GCSE maths resits to plain refreshers. Group classes hold between five and ten learners of matching level, and private lessons are on offer too. Lessons follow the national curriculum and the GCSE and A level specifications, and every learner works on real data as well as textbook questions. Our Manchester example is the Metrolink: across 101 pairs of neighbouring stops, the mean straight-line gap is 952.9 metres and the median is 819.5 metres, because a few long gaps on the lines out to Bury, Oldham and Rochdale pull the mean up. We charge nothing for the opening lesson; continuing costs USD 100 monthly for a group seat or USD 150 monthly for private teaching.
 
-# Maths tuition in Manchester
-
-Ask a Manchester commuter how far apart the tram stops are and you will get a feeling, not a number. We measured it. Between the 99 named Metrolink stops in OpenStreetMap there are 101 pairs of neighbours, and the straight-line gaps between them average 952.9 metres. Yet half the gaps are shorter than 819.5 metres. Two honest answers, 133 metres apart, from the same list: that gap between the mean and the median is the whole of GCSE statistics in one tram map. This page explains how we teach maths to Manchester learners from the Year 4 multiplication tables check to Further Maths and adult refreshers, and uses the Metrolink as a running example.
-
-At a glance: Who: Learners aged 6 to 67 in Manchester; Primary: Times tables, the Year 4 check, Year 6 tests; GCSE: Foundation or Higher, AQA, Edexcel or OCR; Sixth form: A level Maths and Further Maths; Adults: GCSE resits, Functional Skills topics, refreshers; Format: Live video, 15 to 20 per group or one to one; Teachers: Based in India, booked on UK time; Local project: Metrolink stop gaps, mean against median. Rated 4.9 across 547 Google reviews.
+Where a Manchester learner starts
 
 ## GCSE, A level and primary maths come first
 
 Pick by stage. The full list, from early number to university maths, is further down the page.
 
-- [GCSE mathematics](/courses/gcse-mathematics-mastery): Whichever board and tier a Manchester school uses, with statistics practised on real data such as the tram gaps below.
-- [A level maths](/courses/a-level-maths-course-pure-mechanics-statistics): Pure, statistics and mechanics, for learners who want the reasons behind each method, not only the method.
-- [Primary maths, Years 1 to 6](/courses/elementary-mathematics-complete-masterclass): Place value, times tables for the Year 4 check, fractions and the reasoning that the Year 6 tests ask for.
+[![GCSE Maths course thumbnail](/images/gcse-maths.webp)  MCR / 1 GCSE mathematics Whichever board and tier a Manchester school uses, with statistics practised on real data such as the tram gaps below. Open the syllabus →](/courses/gcse-mathematics-mastery)[![A-Level Maths course thumbnail](/images/a-level-maths.webp)  MCR / 2 A level maths Pure, statistics and mechanics, for learners who want the reasons behind each method, not only the method. Open the syllabus →](/courses/a-level-maths-course-pure-mechanics-statistics)[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  MCR / 3 Primary maths, Years 1 to 6 Place value, times tables for the Year 4 check, fractions and the reasoning that the Year 6 tests ask for. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)
+
+Every age
 
 ## Maths tutor in Manchester: what we teach from KS1 to A level
 
 Manchester schools follow the national curriculum for England, so the stages below are the ones a Manchester child moves through. Adults join at whatever point they left off.
 
-**Maths stages for a Manchester learner, and what our lessons concentrate on**
-
 | Stage | Ages | What we concentrate on |
-|---|---|---|
+| --- | --- | --- |
 | Key Stage 1 | 5 to 7 | Counting, place value to 100, number bonds, simple fractions of shapes and quantities. |
 | Key Stage 2 | 7 to 11 | Times tables to 12 × 12 before the Year 4 check, written methods, fractions and decimals, and the reasoning questions of the Year 6 tests. |
 | Key Stage 3 | 11 to 14 | Algebra as a language, ratio, negative numbers, angle facts, and the first proper statistics. |
@@ -53,6 +47,8 @@ Our national pages go deeper on each stage: [Key Stage 2](/ks2-maths-tuition-onl
 
 Source: [gov.uk, multiplication tables check](https://www.gov.uk/government/collections/multiplication-tables-check), read on 1 October 2026. The age ranges are the usual ones for each key stage in England.
 
+The Manchester project
+
 ## How far apart are the Metrolink stops?
 
 One list of 101 distances, measured by us, carries a learner from rounding at primary school to box plots at GCSE and spherical distance at A level.
@@ -65,10 +61,8 @@ The mean gap is 952.9 metres. The median, the middle gap when all 101 are put in
 
 The answer is the shape of the data. Most gaps are short and similar, but a handful are very long, and all five of the longest are on the lines to Bury and to Oldham and Rochdale. Those few big values pull the mean upwards. The median only cares about the middle position, so it barely moves.
 
-**The 101 gaps between neighbouring Metrolink stops, our calculation from OpenStreetMap on 1 October 2026**
-
 | Measure | Value | What it tells a learner |
-|---|---|---|
+| --- | --- | --- |
 | Mean | 952.9 m | Add all 101 gaps and share the total equally. |
 | Median | 819.5 m | The 51st gap when they are sorted from shortest to longest. |
 | Lower quartile | 621.2 m | A quarter of the gaps are shorter than this. |
@@ -92,14 +86,14 @@ The point at every stage is the same: an average is a choice, and a good mathema
 
 Data: [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), Metrolink route relations, one Overpass query on 1 October 2026. Distances are straight lines between mapped stop positions, calculated by Modern Age Coders; they are not track lengths and are not published by Transport for Greater Manchester. GCSE wording: [DfE, GCSE mathematics subject content](https://www.gov.uk/government/publications/gcse-mathematics-subject-content-and-assessment-objectives).
 
+A GCSE skill, checked
+
 ## Estimating the mean from a grouped table, and how far off it is
 
 GCSE questions often hide the raw data and give only a grouped frequency table. Because we have all 101 gaps, we can see exactly how good the estimate is.
 
-**The Metrolink gaps grouped into 500 metre classes (our calculation)**
-
 | Gap, metres | Frequency | Class midpoint | Midpoint × frequency |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 0 to under 500 | 16 | 250 | 4,000 |
 | 500 to under 1,000 | 51 | 750 | 38,250 |
 | 1,000 to under 1,500 | 21 | 1,250 | 26,250 |
@@ -118,6 +112,8 @@ Change the class width and the estimate changes. With 250 metre classes the esti
 That is a lesson worth more than the formula: grouping throws information away, and the wider the groups, the more you throw away. Students who have seen it happen with real numbers stop treating an estimated mean as if it were exact.
 
 All figures are Modern Age Coders' calculations from the OpenStreetMap download above. The table and the worked estimates are ours and are not taken from any exam paper.
+
+Maths around Manchester
 
 ## The Maths Hub, the university and what a keen learner can join
 
@@ -145,6 +141,8 @@ Our lessons are live on video, so a learner in Wythenshawe, Moston or Didsbury j
 
 Sources: [NCETM, North West One Maths Hub](https://www.ncetm.org.uk/hubs/north-west-one-maths-hub/); [University of Manchester, Department of Mathematics, schools, colleges and the public](https://www.maths.manchester.ac.uk/connect/schools-colleges-public/). Both read on 1 October 2026. We are independent of the NCETM, the Maths Hubs, the University of Manchester and every Manchester school.
 
+Maths for grown-ups
+
 ## Adults learning maths in Manchester
 
 Plenty of the people who ask us about maths are adults. Many left school some time ago and want to understand what they were once only told to do.
@@ -163,14 +161,14 @@ Spreadsheets, rates, statistics for reports, and the numbers behind data work. O
 
 Adults use the same Metrolink data as the teenagers, and often get more from it: anyone who has waited at a stop in the rain has an opinion on the gaps between them. The difference is that an adult tends to ask straight away whether the median is the fairer number to quote, which is exactly the right question.
 
+A route through
+
 ## Four steps from times tables to statistics that mean something
 
 The steps below are the order we teach in. A learner can join at any of them, and the free first lesson tells us which.
 
-**From number facts to choosing an average, with a sign that each step is secure**
-
 | Usually | Step | The sign it is secure |
-|---|---|---|
+| --- | --- | --- |
 | Years 3 and 4 | 1. Facts | Knows the tables to 12 × 12 and can rebuild one from another |
 | Years 5 to 7 | 2. Methods | Multiplies, divides and works with fractions on paper, accurately and neatly |
 | Years 8 to 10 | 3. Algebra and data | Writes a rule with letters and finds a mean, median and range from a table |
@@ -179,75 +177,353 @@ The steps below are the order we teach in. A learner can join at any of them, an
 ### Starting late
 
 A GCSE student who joins in Year 11 still gains a lot, as long as we fix the foundations first. A shaky understanding of fractions shows up everywhere from ratio to probability.
+
 If the gap is larger than the time left before an exam, we will say so honestly at the free lesson.
 
 ### After an exam
 
 The maths keeps going. Many learners move on to [statistics and probability](/courses/statistics-probability-maths-course) or to [maths through coding](/courses/maths-through-coding), where the Metrolink distances become a short program.
+
 Learners who enjoy problems for their own sake often try competition maths next.
+
+Every course
 
 ## Popular maths courses for Manchester learners
 
 Headed by the four that UK parents and students ask about most, GCSE, A level, 11 plus and IGCSE, then sorted by stage. Tap a card for its syllabus.
 
+I
+
 ### Most asked for
 
 Exam and entry courses
 
-- [GCSE mathematics](/courses/gcse-mathematics-mastery): Foundation or higher tier, matched to the board a school enters.
-- [A level maths](/courses/a-level-maths-course-pure-mechanics-statistics): Pure, statistics and mechanics.
-- [11 plus maths](/courses/11-plus-maths-preparation-course-uk): For families next door in Trafford and beyond who sit a grammar school test.
-- [IGCSE maths](/courses/igcse-mathematics-mastery): For learners at schools that sit the international papers.
+MTM / A1
+
+#### GCSE mathematics
+
+Foundation or higher tier, matched to the board a school enters.
+
+[Open the syllabus](/courses/gcse-mathematics-mastery)
+
+MTM / A2
+
+#### A level maths
+
+Pure, statistics and mechanics.
+
+[Open the syllabus](/courses/a-level-maths-course-pure-mechanics-statistics)
+
+MTM / A3
+
+#### 11 plus maths
+
+For families next door in Trafford and beyond who sit a grammar school test.
+
+[Open the syllabus](/courses/11-plus-maths-preparation-course-uk)
+
+MTM / A4
+
+#### IGCSE maths
+
+For learners at schools that sit the international papers.
+
+[Open the syllabus](/courses/igcse-mathematics-mastery)II
 
 ### Primary
 
 Ages 6 to 11
 
-- [Early maths foundations](/courses/early-math-foundations): Counting, shape and number sense for the youngest learners.
-- [Primary maths, Years 1 to 6](/courses/elementary-mathematics-complete-masterclass): Every primary topic, with the why before the how.
-- [Mental maths for kids](/courses/mental-maths-mastery-kids): Working sums out in the head without guessing.
-- [Abacus arithmetic](/courses/abacus-mental-maths-course-for-kids): A bead frame that slowly moves inside the head.
+MTM / B1
+
+#### Early maths foundations
+
+Counting, shape and number sense for the youngest learners.
+
+[Open the syllabus](/courses/early-math-foundations)
+
+MTM / B2
+
+#### Primary maths, Years 1 to 6
+
+Every primary topic, with the why before the how.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+MTM / B3
+
+#### Mental maths for kids
+
+Working sums out in the head without guessing.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+MTM / B4
+
+#### Abacus arithmetic
+
+A bead frame that slowly moves inside the head.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)III
 
 ### Secondary and stretch
 
 KS3 and beyond
 
-- [Key Stage 3 maths](/courses/comprehensive-middle-school-mathematics-mastery): Algebra, ratio, geometry and the start of statistics.
-- [Algebra foundations](/courses/algebra-foundations-masterclass): For a learner who needs algebra rebuilt from the ground.
-- [Statistics and probability](/courses/statistics-probability-maths-course): From data to hypothesis testing.
-- [Competition maths](/courses/olympiad-competition-mathematics-mastery): Problems with no set method, for UKMT-minded learners.
+MTM / C1
+
+#### Key Stage 3 maths
+
+Algebra, ratio, geometry and the start of statistics.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+MTM / C2
+
+#### Algebra foundations
+
+For a learner who needs algebra rebuilt from the ground.
+
+[Open the syllabus](/courses/algebra-foundations-masterclass)
+
+MTM / C3
+
+#### Statistics and probability
+
+From data to hypothesis testing.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)
+
+MTM / C4
+
+#### Competition maths
+
+Problems with no set method, for UKMT-minded learners.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)IV
 
 ### Applied and adult
 
 Maths for work and interest
 
-- [University maths](/courses/college-mathematics-complete-masterclass): Calculus, linear algebra and the start of analysis.
-- [Business and finance maths](/courses/complete-business-finance-mathematics-mastery): Interest, investment and risk, worked through.
-- [Maths for data science](/courses/data-analytics-mathematics-masterclass): Statistics and linear algebra behind data work.
-- [Vedic maths](/courses/vedic-maths-course-speed-calculation-mastery): Shortcuts for arithmetic, learned once the basics hold.
+MTM / D1
+
+#### University maths
+
+Calculus, linear algebra and the start of analysis.
+
+[Open the syllabus](/courses/college-mathematics-complete-masterclass)
+
+MTM / D2
+
+#### Business and finance maths
+
+Interest, investment and risk, worked through.
+
+[Open the syllabus](/courses/complete-business-finance-mathematics-mastery)
+
+MTM / D3
+
+#### Maths for data science
+
+Statistics and linear algebra behind data work.
+
+[Open the syllabus](/courses/data-analytics-mathematics-masterclass)
+
+MTM / D4
+
+#### Vedic maths
+
+Shortcuts for arithmetic, learned once the basics hold.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
+
+Lesson times
 
 ## After school, evenings and weekends, on UK time
 
 Teaching happens from India, where clocks never go forward or back. Between late October and late March the two countries are five and a half hours apart; in British Summer Time the difference shrinks to four and a half. Every slot is agreed and shown in UK time.
 
-- **Weekday, after school** For primary and secondary learners.
-- **Weekday evening** For sixth formers and adults after work.
-- **Weekend morning** For anyone who prefers a fresh start.
+Weekday, after school
 
-- **The same teacher each week** Whoever spotted a slip on Tuesday is the one who checks for it the following Tuesday.
-- **Short reports home** A few lines after lessons on what clicked and what still wobbles.
-- **Fifteen to twenty per group** Everyone at the same level, so an explanation lands for all of them.
-- **Real data in lessons** Metrolink gaps, weather records and census tables, as well as textbook questions.
-- **One to one if needed** For a specific gap, an exam close at hand, or a learner who prefers it.
-- **Maths, explained** We ask learners to say why a method works, not only to follow it.
+For primary and secondary learners.
+
+Weekday evening
+
+For sixth formers and adults after work.
+
+Weekend morning
+
+For anyone who prefers a fresh start.
+
+### The same teacher each week
+
+Whoever spotted a slip on Tuesday is the one who checks for it the following Tuesday.
+
+### Short reports home
+
+A few lines after lessons on what clicked and what still wobbles.
+
+### Fifteen to twenty per group
+
+Everyone at the same level, so an explanation lands for all of them.
+
+### Real data in lessons
+
+Metrolink gaps, weather records and census tables, as well as textbook questions.
+
+### One to one if needed
+
+For a specific gap, an exam close at hand, or a learner who prefers it.
+
+### Maths, explained
+
+We ask learners to say why a method works, not only to follow it.
+
+Student work
+
+## What our students go on to build
+
+Learners who started with numbers like these went on to make the four projects below. The [student labs](/student-labs) show many others.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Billed monthly in US dollars at one rate for every country outside India, with nothing to sign up front and nothing to pay to join.
 
-- Free first class: USD 0. A real lesson at the right level. Our honest view afterwards. No card details asked for.
-- Group batch: USD 100 a month. Fifteen to twenty learners at one level. A regular teacher. Marked work, talked through. A certificate at the end.
-- One to one: USD 150 a month. A teacher for one learner. Aimed at the exact gap. Useful in the months before an exam.
+Free first class
+
+USD 0
+
+no card required
+
+- A real lesson at the right level
+- Our honest view afterwards
+- No card details asked for
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners at one level
+- A regular teacher
+- Marked work, talked through
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one learner
+- Aimed at the exact gap
+- Useful in the months before an exam
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Copied without edits from reviews that families and learners left for us on Google.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Manchester maths questions
 
 ## What Manchester families and adult learners ask us
 
@@ -291,15 +567,54 @@ Yes. We teach the GCSE content again at an adult pace, from whichever topic feel
 
 Nothing for the trial lesson. Ongoing places cost USD 100 per month in a small group or USD 150 per month one to one, with no joining fee and no minimum term.
 
+Related
+
 ## More for Manchester learners
 
-- [GCSE maths tuition](/gcse-maths-tuition-online): Our national page on GCSE maths, by tier and board.
-- [A level maths tuition](/a-level-maths-tuition-online): Pure, statistics and mechanics at sixth form.
-- [Key Stage 2 maths](/ks2-maths-tuition-online): Primary maths from Year 3 to the Year 6 tests.
-- [Coding classes in Manchester](/best-coding-class-in-manchester): Our page on coding for Manchester learners.
-- [11 plus maths in Trafford](/11-plus-maths-tuition-trafford): For families next door preparing for the Trafford test.
-- [The UK index](/coding-classes-in-united-kingdom): Our list of nations, cities, towns and maths pages.
+Our national maths pages by stage, and our coding page for the city.
 
-## Contact
+### [GCSE maths tuition](/gcse-maths-tuition-online)
 
-Book the free first class at [https://learn.modernagecoders.com/maths-tuition-in-manchester](https://learn.modernagecoders.com/maths-tuition-in-manchester#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Our national page on GCSE maths, by tier and board.
+
+### [A level maths tuition](/a-level-maths-tuition-online)
+
+Pure, statistics and mechanics at sixth form.
+
+### [Key Stage 2 maths](/ks2-maths-tuition-online)
+
+Primary maths from Year 3 to the Year 6 tests.
+
+### [Coding classes in Manchester](/best-coding-class-in-manchester)
+
+Our page on coding for Manchester learners.
+
+### [11 plus maths in Trafford](/11-plus-maths-tuition-trafford)
+
+For families next door preparing for the Trafford test.
+
+### [The UK index](/coding-classes-in-united-kingdom)
+
+Our list of nations, cities, towns and maths pages.
+
+Start here
+
+## Book a free maths lesson
+
+Tell us the age or school year and which topic feels hardest. The trial is a proper lesson, and afterwards you get a frank account of where the learner stands.
+
+Prefer to look around first? The [course list](/courses) and our note on [teaching method](/how-we-teach) are a good place to start.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20a%20learner%20in%20Manchester.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+Messages on WhatsApp get the fastest reply. The number has an Indian code because the team is in India; there is no UK office and every lesson happens online.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/maths-tuition-in-manchester*

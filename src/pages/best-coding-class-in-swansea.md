@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths lessons for Swansea learn
 canonical: https://learn.modernagecoders.com/best-coding-class-in-swansea
 source: src/pages/best-coding-class-in-swansea.html
 ---
-> The 2021 census recorded 238,490 usual residents in Swansea, and 22.8% of those aged five and over were in school or full-time study, against 19.9% across Wales. Swansea University says the finite element method, which changed how manufactured products are designed, was developed there in the 1960s by Professor Olek Zienkiewicz. Learners in Swansea, from age six to sixty-seven, join our live online lessons one to one or in an level-matched group of fifteen to twenty, taught from India at UK-friendly times. We charge nothing for the first lesson; from then on a group place is USD 100 a month and private teaching USD 150 a month.
+> Live online coding, Python, AI and maths lessons for Swansea learners aged 6 to 67, from Sketty and Uplands to Morriston and Mumbles. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Swansea
-
-Swansea, Wales / Live online
-
-# Coding classes in Swansea
-
-**What are the best coding classes in Swansea?** The 2021 census recorded 238,490 usual residents in Swansea, and 22.8% of those aged five and over were in school or full-time study, against 19.9% across Wales. Swansea University says the finite element method, which changed how manufactured products are designed, was developed there in the 1960s by Professor Olek Zienkiewicz. Learners in Swansea, from age six to sixty-seven, join our live online lessons one to one or in an level-matched group of fifteen to twenty, taught from India at UK-friendly times. We charge nothing for the first lesson; from then on a group place is USD 100 a month and private teaching USD 150 a month.
-
-A monitor beside the A483 Carmarthen Road has measured nitrogen dioxide every hour for years. Suppose a program has to spot, as soon as possible, when the usual level shifts. Checking each day on its own fails: in 2019 and 2020 not a single day fell far enough below normal to trip a two-standard-deviation alarm. A CUSUM detector instead adds up small shortfalls until the evidence is strong, and in spring 2020 it fired on 17 March, six days before the stay-at-home instruction of 23 March. Set it more cautiously and it stays silent until July; set it more eagerly and it raises ten false alarms in an ordinary year. Our teenagers tune it, and learn that a detector reports when a level changed, never why.
-
-Facts last verified 22 September 2026. Teaching is online; no Swansea branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Swansea
 
 ## Four courses for the city by the bay
 
 Choose by the learner's interests. Every course starts with a free live lesson, and no card is asked for when booking.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 12): Games and animations built from blocks, including a simple alarm that goes off when a score keeps dropping.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 18): Real sensor files in Python: cleaning gaps, removing weekly patterns and detecting shifts, as on this page.
-- [Statistics & Probability](/courses/statistics-probability-maths-course) (University and adult): Statistics for adults, including variation, false alarms and the trade-offs behind any monitoring rule.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (University and adult): Python for adults who want to automate checks on data at work, from spreadsheets to live feeds.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 12Scratch Coding for KidsGames and animations built from blocks, including a simple alarm that goes off when a score keeps dropping.See the syllabus](/courses/scratch-programming-complete-course)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 18Data Science for TeensReal sensor files in Python: cleaning gaps, removing weekly patterns and detecting shifts, as on this page.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Statistics & Probability course thumbnail](/images/statistics-probability-maths.webp)University and adultStatistics & ProbabilityStatistics for adults, including variation, false alarms and the trade-offs behind any monitoring rule.See the syllabus](/courses/statistics-probability-maths-course)[![Python Automation Course course thumbnail](/images/python-college.webp)University and adultPython Automation CoursePython for adults who want to automate checks on data at work, from spreadsheets to live feeds.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Swansea today
 
 ## A student city on the Welsh coast
 
 Census 2021 figures for the City and County of Swansea, read from Nomis and printed as the Office for National Statistics released them, with Wales for comparison.
 
-**Swansea, Census 2021**
-
 | Measure | Swansea | Wales |
-|---|---|---|
+| --- | --- | --- |
 | Usual residents | 238,490 | Not compared |
 | Living in households | 233,322 | Not compared |
 | Aged 15 to 19 | 14,451 (6.1%) | 5.7% |
@@ -66,6 +52,8 @@ At 631.5 residents per square kilometre, the council area mixes a dense city wit
 
 We teach Swansea learners at every stage. A Year 4 pupil in Sketty might be animating a first sprite, a Year 11 student in Morriston preparing for WJEC GCSE Computer Science, and an adult in the Uplands learning Python to automate work reports, each in a group of fifteen to twenty at the same level.
 
+Engineering by numbers
+
 ## A university founded in 1920 and a method that changed engineering
 
 From Swansea University's published history.
@@ -84,16 +72,18 @@ Professor Olek Zienkiewicz developed the finite element method at Swansea, a tec
 
 We have no connection with Swansea University. The finite element method belongs here because it is a computing idea at heart: break a problem too hard to solve whole into many small pieces, solve each simply, and add the results up. The project below uses the same spirit on data, adding up small pieces of evidence until they amount to something worth acting on.
 
-**Where the readings come from** Swansea Roadside is an urban traffic site in the national monitoring network, housed on a grassed frontage of the A483 Carmarthen Road beside Lyon Street, about 4.5 metres from the kerb. DEFRA's UK-AIR service publishes its ratified hourly nitrogen dioxide readings as free yearly files.
+Where the readings come from
+
+Swansea Roadside is an urban traffic site in the national monitoring network, housed on a grassed frontage of the A483 Carmarthen Road beside Lyon Street, about 4.5 metres from the kerb. DEFRA's UK-AIR service publishes its ratified hourly nitrogen dioxide readings as free yearly files.
+
+Signature project
 
 ## When did the air on Carmarthen Road change?
 
 A CUSUM detector keeps a running total of how far each day falls below normal, forgives small dips, and raises an alarm when the total grows too large.
 
-**Detecting a drop in daily nitrogen dioxide at Swansea Roadside, with a baseline learned from 2018**
-
 | Rule | False alarms in 2019 | First alarm in spring 2020 |
-|---|---|---|
+| --- | --- | --- |
 | One day more than 2 standard deviations low | 0 | None all year |
 | CUSUM, slack 0.5, threshold 4 | 10 | 14 March |
 | CUSUM, slack 0.5, threshold 5 | 8 | 17 March |
@@ -117,14 +107,14 @@ The detector at threshold 5 fired on 17 March 2020, six days before the Prime Mi
 
 The yearly means tell the same story more quietly: 23.5 in 2018, 24.2 in 2019, 17.7 in 2020 and 19.2 in 2021. An annual average confirms that 2020 was different, but a whole year late. The point of a change detector is speed, and speed always costs false alarms.
 
+Watching data change
+
 ## Five settings behind every alarm
 
 Learned on roadside air, then used on website traffic, machine sensors, bank transactions, exam results and the monitoring that keeps AI systems honest in use.
 
-**Choices a change detector cannot make for you**
-
 | Setting | On Carmarthen Road | Set it wrong and |
-|---|---|---|
+| --- | --- | --- |
 | Baseline period | 2018 only, before anything was tested | The detector learns the change as normal |
 | Regular cycles | Weekday means removed first | Every Sunday looks like a drop |
 | Slack | 0.5 or 1.0 standard deviations forgiven each day | Too little and noise adds up; too much and real shifts vanish |
@@ -147,14 +137,37 @@ Monitoring rules at work, with baselines, thresholds and false-alarm budgets agr
 
 We have no connection with DEFRA, Swansea University or Swansea Council. The readings are published on UK-AIR and the census tables through Nomis; the daily means, detectors and alarm dates on this page are our own arithmetic and make no claim about health or about causes.
 
+Learning ladder
+
 ## From a jar of drops to a CUSUM detector
 
 The age bands are only a first guess; the free lesson finds the real starting point.
 
-- **Ages 6 to 10: Keeping count** Collecting small drops in a running total, and deciding how full the jar must be before anyone should worry. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Mental Maths for Kids](/courses/mental-maths-mastery-kids)
-- **Ages 11 to 13: Normal and unusual** Averages and ranges in code, and the difference between one strange day and a run of them. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Change detection** Daily means from hourly data, weekly cycles removed, CUSUM tuned for false alarms against delay. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Monitoring at work** Alarm rules for sensors, sales and systems, designed with their error rates stated plainly. [Statistics & Probability](/courses/statistics-probability-maths-course), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### Keeping count
+
+Collecting small drops in a running total, and deciding how full the jar must be before anyone should worry.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Mental Maths for Kids](/courses/mental-maths-mastery-kids)Ages 11 to 13
+
+### Normal and unusual
+
+Averages and ranges in code, and the difference between one strange day and a run of them.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Change detection
+
+Daily means from hourly data, weekly cycles removed, CUSUM tuned for false alarms against delay.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Monitoring at work
+
+Alarm rules for sensors, sales and systems, designed with their error rates stated plainly.
+
+[Statistics & Probability](/courses/statistics-probability-maths-course)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## Monitoring software raises alerts automatically. Why should a Swansea teenager build a detector by hand?
 
@@ -166,30 +179,139 @@ AI systems themselves are watched this way once they are in use. Engineers track
 
 So a Swansea teenager should still learn to program in 2026, in a city where engineers learned to solve big problems in small pieces: alarms are easy to automate, and deciding what an alarm means is still a human job. The longer argument is in [why coding is worth learning in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Sketty, Morriston or Mumbles, from home
 
 Swansea stretches from Gower to the valleys, and an evening journey across it is long. A live online lesson makes the distance irrelevant.
 
-- **Gower to the valleys** A learner in Mumbles and another in Clydach can sit in the same lesson without either making the trip into town.
-- **Welsh school years** Years 1 to 13, the Curriculum for Wales and WJEC GCSEs and A levels, named as Swansea schools name them. Lessons are taught in English.
-- **A free lesson worth having** The first session works through a real task and ends with a suggested level, course and weekly time. Booking asks for no card.
-- **Level first, not postcode** Groups of fifteen to twenty learners at one stage, from Swansea, elsewhere in the UK and overseas, so every level has a suitable time.
-- **A twice-weekly routine** Two regular lessons each week, about eight a month, with holidays and exam periods agreed with the teacher beforehand.
-- **How the clocks line up** Because Indian time never changes, India sits four and a half hours ahead of Swansea during British Summer Time and five and a half ahead in winter, which fits UK after-school and evening lessons into the teaching day.
+### Gower to the valleys
 
-**Across south-west Wales** Families in Neath, Port Talbot, Llanelli or Pontarddulais join exactly the same classes, since all lessons are online and groups are formed by level.
+A learner in Mumbles and another in Clydach can sit in the same lesson without either making the trip into town.
+
+### Welsh school years
+
+Years 1 to 13, the Curriculum for Wales and WJEC GCSEs and A levels, named as Swansea schools name them. Lessons are taught in English.
+
+### A free lesson worth having
+
+The first session works through a real task and ends with a suggested level, course and weekly time. Booking asks for no card.
+
+### Level first, not postcode
+
+Groups of fifteen to twenty learners at one stage, from Swansea, elsewhere in the UK and overseas, so every level has a suitable time.
+
+### A twice-weekly routine
+
+Two regular lessons each week, about eight a month, with holidays and exam periods agreed with the teacher beforehand.
+
+### How the clocks line up
+
+Because Indian time never changes, India sits four and a half hours ahead of Swansea during British Summer Time and five and a half ahead in winter, which fits UK after-school and evening lessons into the teaching day.
+
+Across south-west Wales
+
+Families in Neath, Port Talbot, Llanelli or Pontarddulais join exactly the same classes, since all lessons are online and groups are formed by level.
+
+Fees
 
 ## Swansea lesson fees
 
 Your first lesson is free, then there is one monthly fee.
 
-- First class: USD 0. A whole lesson at no cost, finishing with a recommended level, course and weekly slot.
-- Group tuition: USD 100 a month. Roughly eight live lessons a month, alongside fifteen to twenty learners at the same level.
-- Private tuition: USD 150 a month. Roughly eight live lessons a month, with the teacher's attention on your learner alone.
+First class**USD 0**
+
+A whole lesson at no cost, finishing with a recommended level, course and weekly slot.
+
+Group tuition**USD 100**
+
+Roughly eight live lessons a month, alongside fifteen to twenty learners at the same level.
+
+Private tuition**USD 150**
+
+Roughly eight live lessons a month, with the teacher's attention on your learner alone.
 
 We charge every family outside India the same fee in US dollars, whether they live in Townhill or Killay, and we publish nothing in pounds. Payment starts only after the free lesson has agreed a course and a time; the pricing page sets out pauses, missed lessons and moves between group and one-to-one teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Swansea.)Reviews
+
+## Six Google reviews, left exactly as families posted them
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson for a Swansea learner
+
+We match the first task to the learner: a running-total alarm game for a young child, a short Python program that averages a week of readings for a beginner, or the Carmarthen Road files and a CUSUM detector for a teenager ready for real data.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Swansea one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Swansea.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Swansea coding class questions
+
+What Swansea families ask us most.
 
 ### How many people live in Swansea?
 
@@ -231,10 +353,14 @@ The first lesson is free. After it, a group place is USD 100 a month for two liv
 
 By level, pace and goals rather than age or postcode, with fifteen to twenty learners at one stage. When no group fits the learner's week, we offer one-to-one lessons.
 
+Explore Wales and the UK
+
 ## Welsh pages and other cities
 
 Along the M4, the [Cardiff page](/best-coding-class-in-cardiff) tests whether its size fits Zipf's law. The [Wales guide](/coding-and-ai-classes-in-wales) covers coding across the Curriculum for Wales, and exam help lives on the [WJEC GCSE Computer Science](/wjec-gcse-computer-science-help-wales) and [WJEC Digital Technology](/wjec-gcse-digital-technology-help-wales) pages. Over the Bristol Channel, [Brighton and Hove](/best-coding-class-in-brighton-and-hove) slides an eight-hour window over a different kind of air reading.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Swansea.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-swansea](https://learn.modernagecoders.com/best-coding-class-in-swansea#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-swansea*

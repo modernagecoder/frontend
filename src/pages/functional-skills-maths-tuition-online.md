@@ -24,6 +24,8 @@ How we teach
 
 Built around your goal and your deadline.
 
+Not sure whether you need Functional Skills or a GCSE? Read [Functional Skills maths vs GCSE maths](/functional-skills-maths-vs-gcse-maths).
+
 ### Check your level and goal
 
 We confirm the level you need (often Level 2) and assess where you are, then build up through Entry 3 and Level 1 if required.
@@ -251,7 +253,7 @@ Tell us the level you need and your deadline. We'll assess where you are calmly 
 
 ## More maths tuition from Modern Age Coders.
 
-[UK · adultsMaths Classes for Adults](/online-maths-classes-for-adults-in-uk)[UK · examGCSE Maths Tuition](/gcse-maths-tuition-online)[UK · 16–19College & Sixth Form Maths](/online-maths-tuition-for-college-students-in-uk)[USA · adultsMaths Classes for Adults (USA)](/online-maths-classes-for-adults-in-usa)[UK · KS3/KS4Maths Tuition for Teens](/online-maths-tuition-for-teens-in-uk)[CourseBusiness & Finance Mathematics](/courses/complete-business-finance-mathematics-mastery)
+[UK · costsFunctional Skills Course Cost](/functional-skills-maths-course-cost-uk)[UK · adultsMaths Classes for Adults](/online-maths-classes-for-adults-in-uk)[UK · examGCSE Maths Tuition](/gcse-maths-tuition-online)[UK · 16–19College & Sixth Form Maths](/online-maths-tuition-for-college-students-in-uk)[USA · adultsMaths Classes for Adults (USA)](/online-maths-classes-for-adults-in-usa)[UK · KS3/KS4Maths Tuition for Teens](/online-maths-tuition-for-teens-in-uk)[CourseBusiness & Finance Mathematics](/courses/complete-business-finance-mathematics-mastery)
 
 Real student projects
 

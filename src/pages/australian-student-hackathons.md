@@ -4,34 +4,28 @@ description: "Student hackathons in Australia, checked at the organisers: UNIHAC
 canonical: https://learn.modernagecoders.com/australian-student-hackathons
 source: src/pages/australian-student-hackathons.html
 ---
-> The biggest student hackathon in Australia, by its own description, is UNIHACK: 48 hours, hybrid, next held March 12 to 14, 2027, open to university and TAFE students aged 18 or older. GovHack, an open government data competition open from high school students upwards, is refreshing its format and says more is coming in 2027. School-age students can enter project competitions such as Young ICT Explorers instead.
+> Student hackathons in Australia, checked at the organisers: UNIHACK, GovHack, who can enter, school-age alternatives, and how a team ships a working demo in time.
 
-[Home](/) / [Coding classes in Australia](/coding-classes-in-australia) / Student hackathons
+In short
 
-Australia · Secondary, TAFE and university · Checked at the organisers
+The biggest student hackathon in Australia, by its own description, is UNIHACK: 48 hours, hybrid, next held March 12 to 14, 2027, open to university and TAFE students aged 18 or older. GovHack, an open government data competition open from high school students upwards, is refreshing its format and says more is coming in 2027. School-age students can enter project competitions such as Young ICT Explorers instead.
 
-# Student hackathons in Australia
-
-A hackathon squeezes a whole software project into a weekend: form a team, pick a problem, build something that works, and show it to judges before the clock runs out. Lists of "student hackathons" online are often out of date, and many events have age or enrolment rules that rule out school students. This page sets out what the main Australian events say about themselves, who can actually enter, what school-age students can do instead, and the single build habit that most often decides whether a team has a demo at the end. Every detail was checked at the organiser on 7 October 2026. We are independent of all of them.
-
-At a glance: UNIHACK 2027: March 12 to 14, 2027, 48 hours, hybrid; UNIHACK eligibility: 18 or older, university or TAFE student; GovHack: Open government data, 46 hours; refreshing for 2027; Under 18?: Project competitions and workshops instead; Typical team: Mixed skills: code, design, story; Core habit: A working end-to-end path first; We provide: Preparation classes in building fast; We are not: An organiser of these events. Rated 4.9 across 547 Google reviews.
+Where to start
 
 ## Three courses that build hackathon skills
 
 Building fast and well is a skill that can be practised, and these courses practise it.
 
-- [Hackathon prep for teens](/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course): Python, JavaScript, AI APIs and pitching for ages 13 to 17, built around short team projects.
-- [Hackathon prep for adults](/courses/hackathon-prep-for-adults-professionals-coding-ai-innovation-course): For university and TAFE students heading to events like UNIHACK.
-- [App development for teens](/courses/complete-app-development-masterclass-for-teens): Mobile apps with React Native, the format many hackathon teams choose.
+[![Hackathon for Teens course thumbnail](/images/hackathon-teens.webp)  HKA / 01 Hackathon prep for teens Python, JavaScript, AI APIs and pitching for ages 13 to 17, built around short team projects. Open the syllabus →](/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course)[![Hackathon for Adults course thumbnail](/images/hackathon-adults.webp)  HKA / 02 Hackathon prep for adults For university and TAFE students heading to events like UNIHACK. Open the syllabus →](/courses/hackathon-prep-for-adults-professionals-coding-ai-innovation-course)[![App Development for Teens course thumbnail](/images/app-dev-teens.webp)  HKA / 03 App development for teens Mobile apps with React Native, the format many hackathon teams choose. Open the syllabus →](/courses/complete-app-development-masterclass-for-teens)
+
+What is on
 
 ## UNIHACK and GovHack, as their organisers describe them
 
 These are the two large Australian hackathons whose own sites we could verify on 7 October 2026. Always confirm details with the organiser before planning around a date.
 
-**Two Australian hackathons, from their own websites**
-
-|  | UNIHACK | GovHack |
-|---|---|---|
+|   | UNIHACK | GovHack |
+| --- | --- | --- |
 | What it is | "Australia's biggest student hackathon", by its own description | An annual open government data competition in Australia and New Zealand |
 | Length | 48-hour hybrid weekend | 46 hours |
 | Next event | March 12 to 14, 2027 (pre-registration open) | Refresh under way; the organisers say they will share what is coming in 2027 |
@@ -49,14 +43,14 @@ On its home page GovHack says it is taking time to refresh the event after sixte
 
 Sources: [UNIHACK](https://www.unihack.net/); [GovHack](https://govhack.org/). Both read on 7 October 2026. We have no tie to either organiser.
 
+Under 18
+
 ## What school-age students can enter instead
 
 Most large public hackathons in Australia set age or enrolment rules that leave out school students. These events offer a similar build-and-present experience with rules written for school years.
 
-**School-age alternatives with similar skills, linked to our checked guides**
-
 | Event or program | Who it is for | How it resembles a hackathon |
-|---|---|---|
+| --- | --- | --- |
 | Young ICT Explorers | Years 3 to 12, alone or in teams of up to four | Build a digital solution, write it up and pitch it to judges |
 | RoboCup Junior Australia | Primary and secondary teams, generally 2 to 4 students | Design, build and program a robot against a deadline |
 | FIRST LEGO League | Ages 6 to 16 in three divisions | A season-long team project with a robot game and presentation |
@@ -70,6 +64,8 @@ Universities and schools also run their own one-day coding events and holiday pr
 For a student under 18, an event's rules on age, supervision and parental consent matter as much as its prize list. Read the code of conduct before registering; UNIHACK and GovHack both publish one.
 
 A school-age student who learns to build a small working thing in a short time will be well placed for UNIHACK or GovHack later, once old enough or enrolled.
+
+Worked lesson
 
 ## The walking skeleton: something that works, first
 
@@ -87,10 +83,8 @@ Joining parts is where hidden problems live: data in the wrong format, a service
 
 Once the skeleton walks, every hour adds muscle to a working body. If time runs out, the team still has a demo; it is just thinner than planned.
 
-**Two invented teams in a 48-hour hackathon building an app that suggests a study timetable**
-
 | Hours in | Team A: build parts separately | Team B: skeleton first |
-|---|---|---|
+| --- | --- | --- |
 | 0 to 4 | Idea chosen; each member starts their own part | Idea chosen; one-sentence demo script written |
 | 4 to 8 | Login screen, database and scheduling code under way | Skeleton: type one subject, get one suggested slot on screen |
 | 8 to 30 | Each part grows, tested alone | Real scheduling rules added to the working path |
@@ -112,6 +106,8 @@ Criteria such as UNIHACK's "does it actually work" reward the skeleton habit dir
 
 The habit also suits project competitions like Young ICT Explorers, where judges welcome prototypes but need to see a working core.
 
+Getting ready
+
 ## How we prepare students for team builds
 
 Hackathon readiness is a mix of coding fluency, teamwork and calm under time pressure. Each can be practised.
@@ -124,24 +120,22 @@ We do not build projects for teams at events, and we follow each event's rules o
 
 We make no promise of a prize or a placing. We teach students to ship something that works, which is the part they control.
 
-**An eight-week build-up to a first hackathon**
-
 | Weeks | Focus | Ready when |
-|---|---|---|
+| --- | --- | --- |
 | 1 and 2 | A quick starter project the student knows by heart | Can create it from scratch in under 20 minutes |
 | 3 and 4 | Using a public data source or API | Shows real data on screen from a live request |
 | 5 and 6 | Team splits and joining work | Two students join their parts without breaking either |
 | 7 | Two-hour mini hackathon with a skeleton first | Has a working demo at the end, however small |
 | 8 | Pitching and handling questions | Presents in three minutes and answers calmly |
 
+Growing as a builder
+
 ## Four rungs from first project to hackathon team
 
 Age decides eligibility; these rungs decide readiness.
 
-**From finishing a small project to building fast in a team**
-
 | Around | Rung | The sign it is secure |
-|---|---|---|
+| --- | --- | --- |
 | Years 5 to 8 | 1. Finishes small projects | Completes a working project in a few sessions |
 | Years 7 to 10 | 2. Builds against a deadline | Has a demo ready on time in a timed build |
 | Years 9 to 12 | 3. Works in a team | Splits and joins work with others smoothly |
@@ -150,63 +144,293 @@ Age decides eligibility; these rungs decide readiness.
 ### If a build falls apart
 
 Go back to the last version that worked and rebuild the path from there. Version control makes this painless.
+
 Shrink the demo, not the quality. A smaller thing that works is still a real result.
 
 ### Related reading
 
 The [competitions calendar](/australian-coding-maths-and-ai-competitions-calendar) lists coding and maths contests by month.
+
 For the coding habit behind good team code, see [understand the code, don't copy-paste](/understand-the-code-dont-copy-paste-australia).
+
+The catalogue
 
 ## Nine courses for students who build
 
 Grouped by stage. Each card opens a full course outline.
 
+I
+
 ### Hackathon preparation
 
 Kids, teens and adults
 
-- [Hackathon prep for kids](/courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course): Ages 8 to 12, projects and pitching.
-- [Hackathon prep for teens](/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course): Ages 13 to 17, apps and AI APIs.
-- [Hackathon prep for adults](/courses/hackathon-prep-for-adults-professionals-coding-ai-innovation-course): University, TAFE and beyond.
+HKA / HP / 01
+
+#### Hackathon prep for kids
+
+Ages 8 to 12, projects and pitching.
+
+[Open the syllabus](/courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course)
+
+HKA / HP / 02
+
+#### Hackathon prep for teens
+
+Ages 13 to 17, apps and AI APIs.
+
+[Open the syllabus](/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course)
+
+HKA / HP / 03
+
+#### Hackathon prep for adults
+
+University, TAFE and beyond.
+
+[Open the syllabus](/courses/hackathon-prep-for-adults-professionals-coding-ai-innovation-course)II
 
 ### Building blocks
 
 Fast front ends and logic
 
-- [App development for teens](/courses/complete-app-development-masterclass-for-teens): React Native mobile apps.
-- [Python for teens](/courses/python-complete-masterclass-teens): Quick, readable back-end code.
-- [HTML and CSS](/courses/html-css-course-for-beginners-build-real-websites): Pages that look finished fast.
+HKA / BB / 01
+
+#### App development for teens
+
+React Native mobile apps.
+
+[Open the syllabus](/courses/complete-app-development-masterclass-for-teens)
+
+HKA / BB / 02
+
+#### Python for teens
+
+Quick, readable back-end code.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+HKA / BB / 03
+
+#### HTML and CSS
+
+Pages that look finished fast.
+
+[Open the syllabus](/courses/html-css-course-for-beginners-build-real-websites)III
 
 ### Going further
 
 Data and AI
 
-- [Data science for teens](/courses/data-science-course-for-teens-python-data): Working with real data sets.
-- [Problem solving for teens](/courses/problem-solving-dsa-masterclass-teens): Clean logic under time pressure.
-- [Creative coding](/courses/creative-coding-animation-mastery): Visual demos with p5.js.
+HKA / GF / 01
+
+#### Data science for teens
+
+Working with real data sets.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)
+
+HKA / GF / 02
+
+#### Problem solving for teens
+
+Clean logic under time pressure.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
+
+HKA / GF / 03
+
+#### Creative coding
+
+Visual demos with p5.js.
+
+[Open the syllabus](/courses/creative-coding-animation-mastery)
+
+How lessons run
 
 ## Live online practice builds
 
 Lessons are taught live from India, which runs behind Australia: Canberra is four and a half hours ahead of India time in winter and five and a half in summer, and Perth two and a half hours all year. Australian afternoons and evenings fall in Indian working hours, which suits timed practice builds after school or university.
 
-- **Weekday evening** Short builds with the skeleton rule.
-- **Weekend** A two-hour mini hackathon with review.
-- **Before an event** Pitch practice and starter projects polished.
+Weekday evening
 
-- **Working first** Every build starts with a path that runs end to end.
-- **Real data** Practice with public data sources and APIs.
-- **Team habits** Splitting and joining work without breaking it.
-- **Groups of fifteen to twenty** Peers to build and pitch alongside.
-- **One-to-one option** For a student preparing for a specific event.
-- **No prize promised** Judges decide; we teach students to ship.
+Short builds with the skeleton rule.
+
+Weekend
+
+A two-hour mini hackathon with review.
+
+Before an event
+
+Pitch practice and starter projects polished.
+
+### Working first
+
+Every build starts with a path that runs end to end.
+
+### Real data
+
+Practice with public data sources and APIs.
+
+### Team habits
+
+Splitting and joining work without breaking it.
+
+### Groups of fifteen to twenty
+
+Peers to build and pitch alongside.
+
+### One-to-one option
+
+For a student preparing for a specific event.
+
+### No prize promised
+
+Judges decide; we teach students to ship.
+
+Student work
+
+## Projects our students shipped
+
+Built by students on their own time. Browse them in the [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Lessons are billed monthly in US dollars at our international rate, with no joining fee and no lock-in. Hackathon registration is handled by each event's organiser, separately from us.
 
-- Free first class: USD 0. A first practice build with a teacher, free. An honest view of readiness for a first event. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty students at a similar level. One teacher for the term. Timed builds reviewed together. A certificate when finished.
-- One to one: USD 150 a month. A teacher for one student. Preparation aimed at a chosen event. Weekly times that fit study.
+Free first class
+
+USD 0
+
+no card required
+
+- A first practice build with a teacher, free
+- An honest view of readiness for a first event
+- No card needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students at a similar level
+- One teacher for the term
+- Timed builds reviewed together
+- A certificate when finished
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one student
+- Preparation aimed at a chosen event
+- Weekly times that fit study
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Google reviews, reproduced exactly as their authors wrote them.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about hackathons
 
 ## What students and parents ask
 
@@ -250,15 +474,54 @@ Our eight-week build-up suits a first event: a starter project, using an API, te
 
 The demo: one sentence describing exactly what will be shown working at the end. Everything else follows from that path.
 
+Related pages
+
 ## More for Australian students
 
-- [Young ICT Explorers](/young-ict-explorers-project-help): A national project competition for Years 3 to 12.
-- [RoboCup Junior Australia](/robocup-junior-australia-coding-help): Team robotics with deadlines.
-- [FIRST LEGO League](/first-lego-league-australia-coding-help): A season-long team build.
-- [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar): Every contest by month.
-- [AI classes for teens](/ai-classes-for-teens-australia): Using and building with AI.
-- [Coding classes in Australia](/coding-classes-in-australia): Every state and every age.
+Project competitions and coding pathways.
 
-## Contact
+### [Young ICT Explorers](/young-ict-explorers-project-help)
 
-Book the free first class at [https://learn.modernagecoders.com/australian-student-hackathons](https://learn.modernagecoders.com/australian-student-hackathons#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+A national project competition for Years 3 to 12.
+
+### [RoboCup Junior Australia](/robocup-junior-australia-coding-help)
+
+Team robotics with deadlines.
+
+### [FIRST LEGO League](/first-lego-league-australia-coding-help)
+
+A season-long team build.
+
+### [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar)
+
+Every contest by month.
+
+### [AI classes for teens](/ai-classes-for-teens-australia)
+
+Using and building with AI.
+
+### [Coding classes in Australia](/coding-classes-in-australia)
+
+Every state and every age.
+
+Start here
+
+## Book a free practice build
+
+Tell us the student's age, what they can already build and which event they have in mind. The free class runs a short build with the skeleton rule and ends with a preparation plan.
+
+Want more detail first? Course outlines are on the [course atlas](/course-atlas), and [how we teach](/how-we-teach) explains our approach.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20class%20about%20preparing%20for%20a%20hackathon%20in%20Australia.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+The quickest way to reach us is usually WhatsApp. The number is Indian since we are based in India; we have no office in Australia.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/australian-student-hackathons*

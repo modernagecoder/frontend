@@ -24,7 +24,7 @@ Book the free first classSee the strand mapping
 
 No card. No obligation. We call, we do not spam.
 
-10,000+students taught4.9across 547 Google reviews2020teaching since25+countries6 to 67ages taught5 to 8students per groupCourses for Ontario
+10,000+students taught4.9across 547 Google reviews2020teaching since25+countries6 to 67ages taught15 to 20students per groupCourses for Ontario
 
 ## What Ontario families actually book
 
@@ -225,7 +225,7 @@ Fees
 
 Ontario families are charged in USD. There is no registration fee and no term commitment, so a month that does not work is a month you can end.
 
-Group$100per month, 8 classes
+Small group$100per month, 8 classes
 
 Fifteen to twenty learners with a consistent teacher. Most Ontario students start here and stay, because the group is small enough that nobody hides in it.
 

@@ -6,10 +6,6 @@ source: src/pages/national-5-vs-higher-maths.html
 ---
 > National 5 vs Higher Maths in Scotland: SCQF levels, the two papers and their marks, what each course covers, how big the jump is and how to prepare for Higher.
 
-# National 5 vs Higher Maths: what changes from S4 to S5
-
-**The short answer.** National 5 Maths is at SCQF level 5 and Higher Maths at level 6. Both are graded A to D from two question papers, one without a calculator. National 5 has 90 marks over 2 hours 30 minutes; Higher has 120 marks over 2 hours 45 minutes and adds calculus, logarithms, vectors in three dimensions and the circle.
-
 Courses for S3 to S6
 
 ## National 5, then Higher, taught in order.

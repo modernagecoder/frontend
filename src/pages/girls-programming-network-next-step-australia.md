@@ -4,34 +4,28 @@ description: "What Girls' Programming Network workshops offer in Australia, the 
 canonical: https://learn.modernagecoders.com/girls-programming-network-next-step-australia
 source: src/pages/girls-programming-network-next-step-australia.html
 ---
-> Girls' Programming Network runs free, full-day programming workshops each school term around Australia, which it describes as coding workshops for high school girls and gender minorities, hosted by volunteer technologists and teachers. It has nodes in Sydney, Perth, Canberra, Melbourne, Burnie, Adelaide and Brisbane, and GPN Junior for primary Years 3 to 6 in Sydney. Between workshops, regular practice keeps the skills growing.
+> What Girls' Programming Network workshops offer in Australia, the cities they run in, and practical ways to keep coding in Python between workshops.
 
-[Home](/) / [Coding classes in Australia](/coding-classes-in-australia) / Girls' Programming Network next steps
+In short
 
-Australia · Primary and high school · Checked at Girls' Programming Network
+Girls' Programming Network runs free, full-day programming workshops each school term around Australia, which it describes as coding workshops for high school girls and gender minorities, hosted by volunteer technologists and teachers. It has nodes in Sydney, Perth, Canberra, Melbourne, Burnie, Adelaide and Brisbane, and GPN Junior for primary Years 3 to 6 in Sydney. Between workshops, regular practice keeps the skills growing.
 
-# After a Girls' Programming Network workshop
-
-A Girls' Programming Network workshop is a full day of building something real in code, alongside mentors and new friends, and many students leave wanting more. The gap between one workshop and the next is a whole school term, which is long enough for new skills to fade. This page explains what GPN runs and where, in the organisers' own words, points to the resources GPN itself recommends, and then sets out a simple way to keep coding between events, including one Python habit that makes every project easier to grow. We are independent of GPN and admire what it does.
-
-At a glance: Organisation: Girls' Programming Network (GPN); Workshops: Free, full day, each school term; Main program: High school students; GPN Junior: Primary Years 3 to 6, Sydney; Nodes: Sydney, Perth, Canberra, Melbourne, Burnie, Adelaide, Brisbane; Run by: Volunteer tutors; We provide: Weekly Python and coding classes; We are not: Part of GPN. Rated 4.9 across 547 Google reviews.
+Where to start
 
 ## Three courses for keeping the coding going
 
 Python is the natural next step for many GPN students, so these lead there.
 
-- [Princess Coders](/courses/princess-coders-complete-coding-masterclass): Our coding course designed for girls and women, from complete beginner upwards.
-- [Python for teens](/courses/python-complete-masterclass-teens): A full path from first programs to structured projects for high school students.
-- [Python and AI for kids](/courses/python-ai-kids-masterclass): For primary students coming from GPN Junior who are ready for text code.
+[![Princess Coders course thumbnail](/images/princess-coders.webp)  GPN / 01 Princess Coders Our coding course designed for girls and women, from complete beginner upwards. Open the syllabus →](/courses/princess-coders-complete-coding-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)  GPN / 02 Python for teens A full path from first programs to structured projects for high school students. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  GPN / 03 Python and AI for kids For primary students coming from GPN Junior who are ready for text code. Open the syllabus →](/courses/python-ai-kids-masterclass)
+
+About GPN
 
 ## What Girls' Programming Network runs, and where
 
 Everything below is taken from GPN's own site, read on 7 October 2026.
 
-**Girls' Programming Network at a glance, from the organisers**
-
 | What | Details |
-|---|---|
+| --- | --- |
 | Workshops | Free, full-day programming workshops each school term, hosted by local technologists and teachers |
 | Who they are for | In GPN's words, "Coding workshops for high school girls and gender minorities", for beginners and experienced coders alike |
 | Where | Nodes in Sydney, Perth, Canberra, Melbourne, Burnie, Adelaide and Brisbane |
@@ -49,14 +43,14 @@ Workshop dates are announced by each node. GPN invites students to find their ne
 
 Sources: [Girls' Programming Network](https://www.girlsprogramming.network/); [GPN Junior](https://www.girlsprogramming.network/junior); [More opportunities](https://www.girlsprogramming.network/more-opportunities); [GPN values](https://www.girlsprogramming.network/gpn-values). Read 7 October 2026. We are not part of GPN.
 
+Between workshops
+
 ## Turning one great day into a steady habit
 
 A school term is roughly ten weeks. Without practice, much of a workshop's new learning fades long before the next one. Small, regular sessions keep it alive.
 
-**A simple between-workshops plan, about an hour a week**
-
 | Week | Do this | Why it helps |
-|---|---|---|
+| --- | --- | --- |
 | 1 | Rebuild the workshop project from memory, without looking | Shows exactly which parts were really understood |
 | 2 and 3 | Change it: add a feature, alter the rules, new text | Changing code teaches more than copying it |
 | 4 and 5 | Start a small project of your own choosing | Ownership keeps motivation high |
@@ -70,6 +64,8 @@ A short coding journal helps too: one line per session saying what was built and
 Some students want a teacher between workshops, especially once their own projects grow beyond what a single day covers. That is where weekly classes can sit alongside GPN rather than replace it.
 
 Students in Year 9 and above can also aim to return as GPN tutors. Teaching a concept is a powerful way to master it.
+
+Worked lesson
 
 ## Don't repeat yourself: turning copied code into a function
 
@@ -87,10 +83,8 @@ A student notices that "Paris" is marked wrong when someone types "paris". The f
 
 The five lines become one function, ask(question, answer), with the question and answer as parameters. The questions go in a list, and a loop calls the function for each one.
 
-**Copied blocks compared with one function, as the quiz grows (counts for our example)**
-
 | Task | Copied blocks | One function and a list |
-|---|---|---|
+| --- | --- | --- |
 | Lines of code for 3 questions | 15 | 13 |
 | Lines added for a 4th question | 5 | 1 |
 | Lines of code for 10 questions | 50 | 20 |
@@ -111,6 +105,8 @@ Every larger program, from a game to a website, is built from functions that are
 
 It also makes code easier to share with a tutor or teammate, because a named function says what it does in a way five copied lines never can.
 
+A pathway
+
 ## How weekly classes can sit alongside GPN
 
 GPN offers a free, social day of coding each term. Weekly classes can fill the weeks in between with steady progress.
@@ -123,24 +119,22 @@ We are not part of GPN and do not run its workshops or speak for it. Families sh
 
 We do not promise particular outcomes. Our aim is steady skill and confidence, measured by what a student can build and explain.
 
-**A term of weekly classes alongside GPN workshops**
-
 | Weeks | Focus | Sign of progress |
-|---|---|---|
+| --- | --- | --- |
 | 1 and 2 | Variables, input and decisions | Writes a short interactive program unaided |
 | 3 and 4 | Loops and lists | Repeats work with a loop instead of copying |
 | 5 and 6 | Functions and parameters | Turns a repeated block into a function |
 | 7 and 8 | A small project of her own design | Plans and builds a working first version |
 | 9 and 10 | Improving and presenting | Explains the project and one design choice |
 
+Growing as a programmer
+
 ## Four rungs from first workshop to tutor
 
 Every student moves at her own pace; these rungs describe the order.
 
-**From a first workshop to helping others learn**
-
 | Around | Rung | The sign it is secure |
-|---|---|---|
+| --- | --- | --- |
 | Years 3 to 6 | 1. Enjoys making things | Finishes a small project in Scratch or blocks |
 | Years 7 and 8 | 2. Writes Python | Builds a short program with input, decisions and loops |
 | Years 8 to 10 | 3. Structures code | Uses functions and lists to keep projects tidy |
@@ -149,63 +143,293 @@ Every student moves at her own pace; these rungs describe the order.
 ### If motivation dips
 
 Switch to a project that matters to her: a game, a quiz about a favourite topic, a tool for a hobby.
+
 Code with a friend. GPN's emphasis on the social side of coding is worth copying at home.
 
 ### Related reading
 
 For moving from blocks to text, see [after Scratch, the next step is Python](/after-scratch-next-step-python-australia).
+
 Students who enjoy building might try [Young ICT Explorers](/young-ict-explorers-project-help).
+
+The catalogue
 
 ## Nine courses for students who want more coding
 
 Grouped by stage. Every card opens its full course outline.
 
+I
+
 ### Starting out
 
 Primary and early secondary
 
-- [Scratch for kids](/courses/scratch-programming-complete-course): Projects in blocks, from Year 3.
-- [Python and AI for kids](/courses/python-ai-kids-masterclass): A first text language.
-- [Princess Coders](/courses/princess-coders-complete-coding-masterclass): Designed for girls and women.
+GPN / SO / 01
+
+#### Scratch for kids
+
+Projects in blocks, from Year 3.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)
+
+GPN / SO / 02
+
+#### Python and AI for kids
+
+A first text language.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)
+
+GPN / SO / 03
+
+#### Princess Coders
+
+Designed for girls and women.
+
+[Open the syllabus](/courses/princess-coders-complete-coding-masterclass)II
 
 ### Building in Python
 
 High school
 
-- [Python for teens](/courses/python-complete-masterclass-teens): From first programs to projects.
-- [Problem solving for teens](/courses/problem-solving-dsa-masterclass-teens): Logic and algorithms.
-- [Data science for teens](/courses/data-science-course-for-teens-python-data): Python with real data.
+GPN / PY / 01
+
+#### Python for teens
+
+From first programs to projects.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+GPN / PY / 02
+
+#### Problem solving for teens
+
+Logic and algorithms.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
+
+GPN / PY / 03
+
+#### Data science for teens
+
+Python with real data.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)III
 
 ### Making things
 
 Web, games and apps
 
-- [HTML and CSS](/courses/html-css-course-for-beginners-build-real-websites): Real websites from scratch.
-- [Game development for teens](/courses/complete-game-development-masterclass-for-teens): Unity and C#.
-- [App development for teens](/courses/complete-app-development-masterclass-for-teens): Mobile apps that work.
+GPN / MK / 01
+
+#### HTML and CSS
+
+Real websites from scratch.
+
+[Open the syllabus](/courses/html-css-course-for-beginners-build-real-websites)
+
+GPN / MK / 02
+
+#### Game development for teens
+
+Unity and C#.
+
+[Open the syllabus](/courses/complete-game-development-masterclass-for-teens)
+
+GPN / MK / 03
+
+#### App development for teens
+
+Mobile apps that work.
+
+[Open the syllabus](/courses/complete-app-development-masterclass-for-teens)
+
+How lessons run
 
 ## Weekly live classes between workshops
 
 Our teachers are in India. Burnie and Hobart are four and a half hours ahead of India time in winter and five and a half in summer, and Perth two and a half hours ahead all year. An Australian after-school class lands in the Indian afternoon, so a regular weekly slot is easy to keep.
 
-- **After school, midweek** Concepts practised on short exercises.
-- **Weekend** Growing a project of her own design.
-- **Before a workshop** A quick refresh so she arrives ready to go further.
+After school, midweek
 
-- **Projects she chooses** Interest keeps students coding between events.
-- **Understanding first** Every line explained, never just copied.
-- **Friendly groups** Fifteen to twenty students at a similar level.
-- **One-to-one option** For a student who wants a personal pace.
-- **Alongside GPN** Classes complement workshops; they never replace them.
-- **No outcome promised** We build skill and confidence, week by week.
+Concepts practised on short exercises.
+
+Weekend
+
+Growing a project of her own design.
+
+Before a workshop
+
+A quick refresh so she arrives ready to go further.
+
+### Projects she chooses
+
+Interest keeps students coding between events.
+
+### Understanding first
+
+Every line explained, never just copied.
+
+### Friendly groups
+
+Fifteen to twenty students at a similar level.
+
+### One-to-one option
+
+For a student who wants a personal pace.
+
+### Alongside GPN
+
+Classes complement workshops; they never replace them.
+
+### No outcome promised
+
+We build skill and confidence, week by week.
+
+Student work
+
+## Projects our students built themselves
+
+Made because students wanted to. More in the [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Classes are charged monthly in US dollars, our international rate, with no joining fee and no lock-in. GPN workshops are free and run by GPN; they have nothing to do with our fees.
 
-- Free first class: USD 0. A first class with a teacher, at no cost. Bring a workshop project to look at together. No card details.
-- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher across the term. Projects shared and discussed. A certificate at the end.
-- One to one: USD 150 a month. A teacher for one student. Lessons built around her own projects. Weekly times chosen with you.
+Free first class
+
+USD 0
+
+no card required
+
+- A first class with a teacher, at no cost
+- Bring a workshop project to look at together
+- No card details
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students at one level
+- The same teacher across the term
+- Projects shared and discussed
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one student
+- Lessons built around her own projects
+- Weekly times chosen with you
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Reviews from our Google listing, word for word.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about GPN and next steps
 
 ## What students and parents ask
 
@@ -249,15 +473,54 @@ Python is a natural choice for many students; GPN's own resources page starts by
 
 A teacher looks at what she has built, works through one new idea with her, and suggests a simple plan for the weeks ahead.
 
+Related pages
+
 ## More for Australian students
 
-- [After Scratch, Python](/after-scratch-next-step-python-australia): Making the jump to text code.
-- [Young ICT Explorers](/young-ict-explorers-project-help): A national project competition.
-- [Student hackathons](/australian-student-hackathons): Team builds and who can enter.
-- [Kids coding languages](/kids-coding-languages-australia): Which language for which stage.
-- [Coding classes in Australia](/coding-classes-in-australia): Every state and every age.
-- [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar): Contests through the year.
+Coding pathways, projects and competitions.
 
-## Contact
+### [After Scratch, Python](/after-scratch-next-step-python-australia)
 
-Book the free first class at [https://learn.modernagecoders.com/girls-programming-network-next-step-australia](https://learn.modernagecoders.com/girls-programming-network-next-step-australia#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Making the jump to text code.
+
+### [Young ICT Explorers](/young-ict-explorers-project-help)
+
+A national project competition.
+
+### [Student hackathons](/australian-student-hackathons)
+
+Team builds and who can enter.
+
+### [Kids coding languages](/kids-coding-languages-australia)
+
+Which language for which stage.
+
+### [Coding classes in Australia](/coding-classes-in-australia)
+
+Every state and every age.
+
+### [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar)
+
+Contests through the year.
+
+Start here
+
+## Book a free Python class
+
+Tell us her year level and what she built at GPN or on her own. The free class grows one idea further and ends with a simple plan to keep coding.
+
+Prefer to explore first? Course outlines are on the [course atlas](/course-atlas), and [how we teach](/how-we-teach) describes a lesson.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20Python%20class%20for%20a%20student%20who%20has%20been%20to%20a%20Girls'%20Programming%20Network%20workshop.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp usually brings the quickest reply. Our number is Indian because the team is based in India; there is no Australian office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/girls-programming-network-next-step-australia*

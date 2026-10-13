@@ -4,46 +4,32 @@ description: "Live online coding, Python and AI classes across County Cork, from
 canonical: https://learn.modernagecoders.com/coding-classes-in-county-cork
 source: src/pages/coding-classes-in-county-cork.html
 ---
-> County Cork, the area outside the city, holds 360,152 people and the largest land area of any Irish county. Its towns are scattered: Carrigaline at 18,239, Cobh at 14,148, Midleton at 13,906, Mallow at 13,456, then Youghal, Bandon, Fermoy, Kinsale and Clonakilty. Unemployment here is 6%, which the statistics office recorded as the joint lowest in the country. What the county does not have is a class within easy reach of every town, which is where a live online school earns its place. We teach ages 6 to 67 at a fixed weekly hour in ability groups of fifteen to twenty, or one to one, with a free first lesson and then USD 100 a month in a group or USD 150 privately.
+> Live online coding, Python and AI classes across County Cork, from Carrigaline and Midleton to Mallow and Clonakilty, ages 6 to 67. The first lesson is free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [Cork](/best-coding-class-in-cork) / County Cork
-
-County Cork, Munster / Live online
-
-# Coding classes in County Cork
-
-**What are the best coding classes in County Cork?** County Cork, the area outside the city, holds 360,152 people and the largest land area of any Irish county. Its towns are scattered: Carrigaline at 18,239, Cobh at 14,148, Midleton at 13,906, Mallow at 13,456, then Youghal, Bandon, Fermoy, Kinsale and Clonakilty. Unemployment here is 6%, which the statistics office recorded as the joint lowest in the country. What the county does not have is a class within easy reach of every town, which is where a live online school earns its place. We teach ages 6 to 67 at a fixed weekly hour in ability groups of fifteen to twenty, or one to one, with a free first lesson and then USD 100 a month in a group or USD 150 privately.
-
-On 31 May 2019 a large piece of County Cork stopped being County Cork. Ballincollig, Blarney, Tower, Glanmire, Douglas, Rochestown and Togher transferred to Cork City Council under legislation passed that January, and the county lost both territory and tens of thousands of residents overnight. This matters for anyone working with Cork figures, because the Central Statistics Office states plainly that the change means "a direct comparison with Census 2016 data is not possible" for Cork. So the growth percentages you see quoted casually for other counties simply cannot be produced honestly here. A learner who understands why will treat every time series with more respect afterwards: boundaries move, definitions change, and a number that looks comparable often is not. That is the thread of this page, and it runs through everything from school lists to council datasets.
-
-Facts last verified 16 September 2026. Teaching is online; no County Cork branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for County Cork
 
 ## Four courses for a very large county
 
 Pick by what the learner wants to build. Every one starts with a free lesson taught by the teacher who would take the course, and no card details are requested.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Games and stories in Scratch, with a map where the lines move halfway through and the score has to cope.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python through the Junior Cycle and Transition Year, practised on files where the categories have changed over time.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): Two censuses, one moved boundary, and an honest answer about what can and cannot be compared.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (College and adult): For adults tracking figures over time: spotting the year a definition changed before drawing a trend line.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsGames and stories in Scratch, with a map where the lines move halfway through and the score has to cope.See the syllabus](/courses/scratch-programming-complete-course)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython through the Junior Cycle and Transition Year, practised on files where the categories have changed over time.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensTwo censuses, one moved boundary, and an honest answer about what can and cannot be compared.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)College and adultData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For adults tracking figures over time: spotting the year a definition changed before drawing a trend line.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)The county today
 
 ## A county of towns, minus the ones that became city
 
 Everything below describes County Cork after the 2019 boundary change, which is the only way these figures make sense.
 
-**County Cork in Census 2022, Central Statistics Office**
-
 | Measure | Figure |
-|---|---|
+| --- | --- |
 | Population of Cork County Council | 360,152 |
 | At work | Over 161,000 people |
 | Unemployment | 6%, recorded as the joint lowest rate in the country |
@@ -65,6 +51,8 @@ In County Cork the largest non-Irish groups are Polish at 8,590, UK at 8,127 and
 
 On the Irish language, the county council area records almost 15,000 people, 10%, who speak Irish very well, just over 49,000 who speak it well, and 84,607 who cannot speak it well. Our teaching is in English, and programming keywords are English in every school, so the language of instruction at a learner's school makes no practical difference to how they get on here.
 
+Computer Science in County Cork schools
+
 ## Three county schools in the first phase, and four that are now city
 
 This is where the boundary change bites hardest, and where most write-ups get Cork wrong.
@@ -83,16 +71,18 @@ A list published in January 2018 describes a Cork that no longer exists. Using i
 
 Both county schools publish their own eircodes, which is useful for anyone checking: Carrigaline Community School gives P43 XE06 and Coláiste an Chraoibhín gives P61 VX78. That second routing key is worth noting, because Fermoy sits on P61 rather than any of the keys people usually associate with Cork, and assuming otherwise is a good way to misfile an address.
 
-**Where third level sits in the county** The National Maritime College of Ireland is at Ringaskiddy in Cork Harbour, outside the extended city boundary. MTU describes it as a purpose-built college on a ten-acre campus, 18 kilometres from Cork city, providing training for the merchant shipping industry and the non-military needs of the Irish Naval Service. It is a reminder that specialist technical education in this county is not all in one place.
+Where third level sits in the county
+
+The National Maritime College of Ireland is at Ringaskiddy in Cork Harbour, outside the extended city boundary. MTU describes it as a purpose-built college on a ten-acre campus, 18 kilometres from Cork city, providing training for the merchant shipping industry and the non-military needs of the Irish Naval Service. It is a reminder that specialist technical education in this county is not all in one place.
+
+Signature project
 
 ## The county that changed shape
 
 This project has no download at all in its first half. It is about understanding why a comparison is impossible before anyone tries to make one.
 
-**What changed, and what it means for the figures**
-
 | Element | Detail |
-|---|---|
+| --- | --- |
 | When | 31 May 2019, under legislation passed in January 2019 |
 | What moved | Ballincollig, Blarney, Tower, Glanmire, Douglas, Rochestown and Togher |
 | Direction | From Cork County Council to Cork City Council |
@@ -117,14 +107,14 @@ Cork County Council publishes nine datasets, all development plan mapping layers
 
 The written output is short: one paragraph explaining why no county growth rate appears on the page, and one listing what the conservation layer does and does not contain. Learning to write those two paragraphs is worth more than any chart.
 
+Comparing across time
+
 ## Five questions before you draw a trend
 
 Every one of these has caught out a professional analyst somewhere, and all five are quick.
 
-**Before any figure is compared with an older one**
-
 | Question | What you check | What it prevents |
-|---|---|---|
+| --- | --- | --- |
 | Did the boundary move? | Whether the area meant the same thing in both years | Measuring a legal change as a real one |
 | Did the definition change? | Whether the thing counted was defined the same way | A jump that is only a rule |
 | Did the method change? | Whether the publisher says comparison is possible | Ignoring an explicit warning |
@@ -145,6 +135,8 @@ The same discipline on business reporting, where reorganisations do to sales reg
 
 We are not connected with Cork County Council, Munster Technological University, the National Maritime College of Ireland or any school named here. Population figures come from Central Statistics Office tables that name Cork County Council directly, and the conservation layer counts are ours, taken from the council's published service under its Creative Commons Attribution licence. Cork city figures belong to the city page and are deliberately not repeated here.
 
+Living in the county
+
 ## Harbour towns, market towns and a long way between them
 
 County Cork runs from Youghal in the east to the Beara Peninsula in the west, which is most of the reason an online class works here.
@@ -161,16 +153,41 @@ Over 161,000 people work in the county, 50,510 of them from home at least part o
 
 The schools above sit on P43 in Carrigaline and P61 in Fermoy, which is a reminder that a county this size holds a dozen postal areas rather than one.
 
-**Why distance decides the format here** A family in Castletownbere is more than two hours from Carrigaline by road. No weekly evening class in a room can serve both ends of this county, and pretending otherwise is how rural learners end up with nothing. An online group at the right level, drawn from several countries, is the only version of this that reaches everybody.
+Why distance decides the format here
+
+A family in Castletownbere is more than two hours from Carrigaline by road. No weekly evening class in a room can serve both ends of this county, and pretending otherwise is how rural learners end up with nothing. An online group at the right level, drawn from several countries, is the only version of this that reaches everybody.
+
+Learning ladder
 
 ## From a changing pitch to an honest trend
 
 Ages are a guide only. The free lesson decides where a learner actually begins.
 
-- **Ages 6 to 10: Fair comparisons** Programs that compare two things and notice when the rules changed in between. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 11 to 13: Reading the notes** Opening real tables and finding the sentence that says what may not be compared. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Time series with care** Building comparisons that survive a boundary change, or explaining why none is possible. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Definitions at work** Tracking figures across reorganisations without pretending the old numbers still apply. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### Fair comparisons
+
+Programs that compare two things and notice when the rules changed in between.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 11 to 13
+
+### Reading the notes
+
+Opening real tables and finding the sentence that says what may not be compared.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Time series with care
+
+Building comparisons that survive a boundary change, or explaining why none is possible.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Definitions at work
+
+Tracking figures across reorganisations without pretending the old numbers still apply.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## An assistant will give you Cork's growth rate. Why should a Midleton teenager refuse it?
 
@@ -182,30 +199,139 @@ A learner who has read the note will do something more useful: say which compari
 
 So a County Cork child learning to code in 2026 is learning when to say no to a number, which is the part of this work that no tool is going to do for anybody. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Mallow, Bantry, Youghal or Kinsale
 
 This is the largest county in Ireland by area, and its learners are spread across all of it.
 
-- **The same class everywhere** Skibbereen and Midleton are two hours apart and zero minutes apart once the lesson starts.
-- **School stages by name** Junior Cycle, Transition Year, fifth and sixth year, as they are called in Cork schools.
-- **A free lesson that teaches** Real work with a real teacher, ending in a level, a course and an hour, and no request for card details.
-- **Ability groups** Fifteen to twenty learners at one level, drawn from County Cork and several other countries so the right class exists at a workable hour.
-- **Weekly and predictable** Two lessons in most weeks, about eight a month, with mid-terms and exams planned around in advance.
-- **The time difference** Our teachers work from India, four and a half hours ahead of Ireland in summer and five and a half in winter.
+### The same class everywhere
 
-**For the 50,510 already working from home** Half the county's home workers are in towns with no evening class of any kind. Those households already have the connection and the habit, and a live class at a fixed hour is the simplest thing in the world to add to a week that already runs on video calls.
+Skibbereen and Midleton are two hours apart and zero minutes apart once the lesson starts.
+
+### School stages by name
+
+Junior Cycle, Transition Year, fifth and sixth year, as they are called in Cork schools.
+
+### A free lesson that teaches
+
+Real work with a real teacher, ending in a level, a course and an hour, and no request for card details.
+
+### Ability groups
+
+Fifteen to twenty learners at one level, drawn from County Cork and several other countries so the right class exists at a workable hour.
+
+### Weekly and predictable
+
+Two lessons in most weeks, about eight a month, with mid-terms and exams planned around in advance.
+
+### The time difference
+
+Our teachers work from India, four and a half hours ahead of Ireland in summer and five and a half in winter.
+
+For the 50,510 already working from home
+
+Half the county's home workers are in towns with no evening class of any kind. Those households already have the connection and the habit, and a live class at a fixed hour is the simplest thing in the world to add to a week that already runs on video calls.
+
+Fees
 
 ## What classes cost in County Cork
 
 Three figures and no small print.
 
-- First class: USD 0. A complete lesson at no charge, closing with a level named and a course recommended.
-- Group tuition: USD 100 a month. A month of classes, normally eight, with fifteen to twenty learners of similar ability.
-- Private tuition: USD 150 a month. The same month of classes, with the teacher working with one learner.
+First class**USD 0**
+
+A complete lesson at no charge, closing with a level named and a course recommended.
+
+Group tuition**USD 100**
+
+A month of classes, normally eight, with fifteen to twenty learners of similar ability.
+
+Private tuition**USD 150**
+
+The same month of classes, with the teacher working with one learner.
 
 Billing is monthly in US dollars at the single rate charged outside India, so Bantry pays what Carrigaline pays and there is no euro list. Nothing is charged until the free lesson has settled a course and a weekly hour, and pauses, missed lessons and format changes are set out on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20County%20Cork.)Reviews
+
+## Six Google reviews from our families, printed as written
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us about the learner
+
+The opening task fits the person: a fair-comparison game for a young child, a first real table for the middle years, or the boundary problem for a teenager.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented County Cork one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20County%20Cork.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## County Cork coding class questions
+
+What families across the county ask.
 
 ### How many people live in County Cork?
 
@@ -247,10 +373,14 @@ The first lesson is free. After that a shared place costs USD 100 a month and br
 
 Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
+Explore Ireland
+
 ## The city, and the counties around
 
 Cork city has its own page at [coding classes in Cork](/best-coding-class-in-cork), and the next cities west and east are [Limerick](/best-coding-class-in-limerick) and [Waterford](/best-coding-class-in-waterford). For comparing online schools, read [best online coding classes in Ireland](/best-online-coding-classes-ireland). Everything is gathered on the [Ireland coding page](/coding-classes-in-ireland).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20County%20Cork.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-county-cork](https://learn.modernagecoders.com/coding-classes-in-county-cork#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-county-cork*

@@ -4,47 +4,33 @@ description: "Live online coding, Python, data and AI classes for learners in Ca
 canonical: https://learn.modernagecoders.com/best-coding-class-in-cavan
 source: src/pages/best-coding-class-in-cavan.html
 ---
-> Cavan town's 11,651 usual residents live in 4,297 households, 3,585 of them on broadband, and broadband is all our lessons need. A teacher takes every lesson live over video, with a few learners at one level or with a single learner, around twice a week, for any age from six to sixty-seven. Lesson one is free; groups are USD 100 a month after that and one-to-one lessons USD 150.
+> Live online coding, Python, data and AI classes for learners in Cavan town aged 6 to 67, in small same-level groups or one to one. The first lesson is free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [County Cavan](/coding-classes-in-county-cavan) / Cavan
-
-Cavan town, County Cavan / Live online
-
-# Coding classes in Cavan town
-
-**What is the best coding class in Cavan town?** Cavan town's 11,651 usual residents live in 4,297 households, 3,585 of them on broadband, and broadband is all our lessons need. A teacher takes every lesson live over video, with a few learners at one level or with a single learner, around twice a week, for any age from six to sixty-seven. Lesson one is free; groups are USD 100 a month after that and one-to-one lessons USD 150.
-
-Look at the first digit of every count the census publishes for Irish towns, a quarter of a million of them, and something odd appears: 1 comes first 31.4 percent of the time, 9 only 4.2 percent. That is not a quirk of the census. Real counts that range across many sizes tend to follow a pattern called Benford's law, and invented numbers usually do not. This page builds a checker for it and tests it on four sets of numbers: the census counts, which pass; a batch of made-up numbers, which fail; broadband percentages, where the law was never going to apply; and Cavan town's own 310 published counts, which turn out to be too few to judge either way. The last result is the most important one.
-
-Facts last verified 19 September 2026. Teaching is online; no Cavan branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Cavan town
 
 ## Where Cavan town learners often start
 
 Age and interest point to a course; its teacher confirms the right starting place during the free first lesson.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Block coding with counting games that tally what turns up most often, the first step towards any pattern.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Python that reads long lists of numbers, counts digits and draws the result as a chart.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 14 to 18): Full Python projects with simulations and checks, including tests that flag data worth a second look.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (College and adult): For adults who review figures, claims or accounts at work and want quick, honest screening tools.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlock coding with counting games that tally what turns up most often, the first step towards any pattern.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsPython that reads long lists of numbers, counts digits and draws the result as a chart.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 14 to 18Python for TeensFull Python projects with simulations and checks, including tests that flag data worth a second look.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)College and adultData Analysis CourseFor adults who review figures, claims or accounts at work and want quick, honest screening tools.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## Build a checker for made-up numbers, then run it on the census
 
 In counts that stretch from tens to millions, the leading digit is 1 about 30 percent of the time and 9 under 5 percent. The learner writes a checker that measures how far any set of numbers sits from that pattern, then feeds it four sets.
 
-**Four sets of numbers against Benford's law**
-
 | Numbers tested | Leading 1 | Leading 9 | Average gap |
-|---|---|---|---|
-| What Benford's law predicts | 30.1% | 4.6% |  |
+| --- | --- | --- | --- |
+| What Benford's law predicts | 30.1% | 4.6% |   |
 | Every count in the town tables, 252,923 of them | 31.4% | 4.2% | 0.36 points |
 | Usual residents of the 867 towns | 28.0% | 2.9% | 1.25 points |
 | Cavan town's own 310 counts | 24.8% | 5.2% | 1.94 points |
@@ -69,6 +55,8 @@ Checks like this are sometimes used as a first screen on accounts, expense claim
 
 The checker is short. It takes each number, keeps its first digit by reading the number as text, tallies the nine digits, turns the tallies into shares and averages the gaps from Benford's shares. The more interesting code is the control: a loop that draws 310 numbers from the exact Benford pattern, measures the gap, and repeats 10,000 times with a fixed random seed, so the learner can see how far a perfectly genuine small sample strays. Every check of real data should come with a check like that, showing what chance alone produces.
 
+Why the pattern exists
+
 ## Where leading 1s come from, and where they do not
 
 The pattern looks like magic until you watch a number grow.
@@ -85,16 +73,18 @@ Numbers kept in a narrow band, numbers set by rule, rounded or capped figures, a
 
 The 252,923 census counts sit very close to the pattern; Cavan's 310 sit further away without meaning anything. A result about a quarter of a million numbers and a result about three hundred are different kinds of evidence.
 
-**What this page does not claim** It does not suggest that any census figure is wrong; the census counts pass comfortably. It does not treat the made-up set as typical of real fraud, which is usually less clumsy. It uses the checker only to show what the pattern can and cannot tell a careful reader.
+What this page does not claim
+
+It does not suggest that any census figure is wrong; the census counts pass comfortably. It does not treat the made-up set as typical of real fraud, which is usually less clumsy. It uses the checker only to show what the pattern can and cannot tell a careful reader.
+
+The town in the census
 
 ## Cavan town, as the census counted it
 
 Town of Cavan, Co Cavan: counts from the Census 2022 small area tables for usual residents and their households.
 
-**Cavan town at a glance, April 2022**
-
 | Item counted | Count |
-|---|---|
+| --- | --- |
 | Usual residents | 11,651 |
 | Households | 4,297 |
 | Households with broadband | 3,585 |
@@ -115,7 +105,11 @@ Of 3,169 journeys to school, college or childcare, 1,891 are made as a car passe
 
 When asked, 770 of the working residents said they work from home at least some of the time; 3,294 said never, and 627 left it blank.
 
-**Two named places** The HSE lists Cavan Monaghan General Hospital at Lisdarn, Cavan Town, Cavan, H12 Y7W1. Cavan County Libraries gives the Johnston Central Library's address as Farnham Centre, Farnham St, Cavan, H12 A3T1. Neither has any connection with us.
+Two named places
+
+The HSE lists Cavan Monaghan General Hospital at Lisdarn, Cavan Town, Cavan, H12 Y7W1. Cavan County Libraries gives the Johnston Central Library's address as Farnham Centre, Farnham St, Cavan, H12 A3T1. Neither has any connection with us.
+
+Learning here
 
 ## Lessons for learners in Cavan town
 
@@ -135,14 +129,37 @@ Adults join with any amount of experience, none at all included, and the first l
 
 Census numbers here are the ones the Central Statistics Office put out, untouched. The digit counts, gaps and the 10,000 simulated samples were produced on 19 September 2026. The HSE and Cavan County Libraries are quoted from their own pages.
 
+Learning ladder
+
 ## From counting digits to checking data
 
 Take the age bands loosely: where a learner actually starts is settled in lesson one.
 
-- **Ages 6 to 10: What turns up most** Block-coded counting games that keep a tally and show which result appears most often. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Digits and charts** Python that counts digits in long lists and draws the result, then compares it with a prediction. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Checks with controls** Screening real data, simulating what chance produces, and telling a signal from sampling noise. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Screening at work** Quick, honest checks on figures, claims and accounts, and knowing what a failed check does and does not mean. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### What turns up most
+
+Block-coded counting games that keep a tally and show which result appears most often.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Digits and charts
+
+Python that counts digits in long lists and draws the result, then compares it with a prediction.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Checks with controls
+
+Screening real data, simulating what chance produces, and telling a signal from sampling noise.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Screening at work
+
+Quick, honest checks on figures, claims and accounts, and knowing what a failed check does and does not mean.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## Ask an assistant whether a set of numbers is genuine
 
@@ -154,30 +171,139 @@ A learner who has built the checker and its control asks two questions before tr
 
 Automated checks are fast and useful. Deciding what a check can prove is still the human part of the job. The longer argument is in [why learning to code still makes sense](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How lessons work in Cavan town
 
 The practicalities.
 
-- **Live throughout** The teacher leads each lesson in real time and works from the learner's own code.
-- **Level-matched** Fifteen to twenty learners at the same stage, from Cavan, the rest of Ireland and abroad.
-- **Most weeks, twice** About eight lessons a month, at times agreed before the course begins.
-- **Around school** Holidays, mid-term breaks and exam weeks are planned in from the start.
-- **At home** A laptop or desktop, since code is hard to type on a phone; a microphone and speakers or a headset; and broadband that keeps a video call steady.
-- **Private lessons** Private teaching suits the learner who is between groups, ahead of them, or free only at an unusual hour.
+### Live throughout
 
-**Nothing to drive to** Cavan town learners join every lesson by video. We have no premises in Cavan or anywhere in Ireland, and the lesson is the same from any home with a connection.
+The teacher leads each lesson in real time and works from the learner's own code.
+
+### Level-matched
+
+Fifteen to twenty learners at the same stage, from Cavan, the rest of Ireland and abroad.
+
+### Most weeks, twice
+
+About eight lessons a month, at times agreed before the course begins.
+
+### Around school
+
+Holidays, mid-term breaks and exam weeks are planned in from the start.
+
+### At home
+
+A laptop or desktop, since code is hard to type on a phone; a microphone and speakers or a headset; and broadband that keeps a video call steady.
+
+### Private lessons
+
+Private teaching suits the learner who is between groups, ahead of them, or free only at an unusual hour.
+
+Nothing to drive to
+
+Cavan town learners join every lesson by video. We have no premises in Cavan or anywhere in Ireland, and the lesson is the same from any home with a connection.
+
+Fees
 
 ## Fees for Cavan town
 
 All prices.
 
-- First class: USD 0. A full first lesson with a level check, free.
-- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, about eight live lessons.
-- Private tuition: USD 150 a month. A month of one-to-one lessons at the same weekly frequency.
+First class**USD 0**
+
+A full first lesson with a level check, free.
+
+Group tuition**USD 100**
+
+A month in a group of fifteen to twenty at one level, about eight live lessons.
+
+Private tuition**USD 150**
+
+A month of one-to-one lessons at the same weekly frequency.
 
 One price in US dollars each month for every family outside India, and nothing to pay for the first lesson. Charging starts once a course is running, and the pricing page spells out holidays, missed lessons and changes between group and private teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Cavan%20town.)Reviews
+
+## Six families' reviews from Google, copied exactly
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free first lesson in Cavan town
+
+Share the learner's age and interests with us and we will build the first hour for them. It might close with a game they made, a program that works, or a checker that flags numbers worth a second look.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Cavan one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Cavan%20town.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Cavan town coding class questions
+
+What families in Cavan town ask first.
 
 ### How many people live in Cavan town?
 
@@ -219,10 +345,14 @@ The first lesson is free. After that a shared place costs USD 100 a month and br
 
 Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
+Explore Ireland
+
 ## Around Cavan
 
 County-level information is on the [County Cavan](/coding-classes-in-county-cavan) page, and neighbouring county pages include [Monaghan](/coding-classes-in-county-monaghan), [Leitrim](/coding-classes-in-county-leitrim) and [Longford](/coding-classes-in-county-longford), with [Ulster](/coding-and-ai-classes-in-ulster) as the provincial page. A straight comparison of online coding schools is [here](/best-online-coding-classes-ireland), and the [Ireland hub](/coding-classes-in-ireland) connects the whole series.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Cavan%20town.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-cavan](https://learn.modernagecoders.com/best-coding-class-in-cavan#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-cavan*

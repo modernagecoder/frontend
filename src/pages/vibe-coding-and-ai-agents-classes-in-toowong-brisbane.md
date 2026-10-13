@@ -4,56 +4,40 @@ description: "Live online vibe coding and AI agent classes for Toowong students 
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-toowong-brisbane
 source: src/pages/vibe-coding-and-ai-agents-classes-in-toowong-brisbane.html
 ---
-> By asking the agent to write out each step of its working, so a person can test every step against the data rather than trusting a final number. Live online lessons teach this through Python and agent projects. Toowong had 12,556 residents at the 2021 Census, median age 30.
+> Live online vibe coding and AI agent classes for Toowong students and adults, with Scratch and Python for children from six, in small groups or one to one.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [Queensland](/coding-and-ai-classes-in-queensland) / [Brisbane](/best-coding-classes-in-brisbane) / Toowong
-
-Toowong, City of Brisbane, Queensland / Live online
-
-# Vibe coding and AI agent classes in Toowong
-
-**How do Toowong learners make an AI agent's answers checkable?** By asking the agent to write out each step of its working, so a person can test every step against the data rather than trusting a final number. Live online lessons teach this through Python and agent projects. Toowong had 12,556 residents at the 2021 Census, median age 30.
-
-Four platforms, two directions and a timetable file listing every trip for two months. Ask an agent how many trains leave Toowong for the city on a weekday morning and you might get 202, or 29, or 21. Only one is right, and only an agent that shows its working lets you see which.
-
-Facts last verified 12 October 2026. Teaching is online; no Toowong branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Toowong
 
 ## Courses for building agents you can audit
 
 The train question needs Python, a little data handling and the discipline to make an agent explain itself. These courses cover all three; the trial lesson finds the right one.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Build apps with an AI partner while learning to read and test what it writes.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Adults 18 and over): Coding agents for real projects, with plans and steps reviewed before changes land.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (University and adult): Prompting, tool use and evaluation of model output on real data.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): The Python underneath every agent: files, filters and functions.
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensBuild apps with an AI partner while learning to read and test what it writes.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Adults 18 and overCodex & Claude CodeCoding agents for real projects, with plans and steps reviewed before changes land.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)University and adultGenerative AI CoursePrompting, tool use and evaluation of model output on real data.See the syllabus](/courses/complete-generative-ai-masterclass-college)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensThe Python underneath every agent: files, filters and functions.See the syllabus](/courses/python-complete-masterclass-teens)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Toowong in the Census
 
 ## Apartments, students and a train station
 
 2021 Census QuickStats for the suburb of Toowong (ABS code SAL32854), with the Queensland figure alongside where one is published.
 
-**Toowong in numbers, 2021**
-
 | Measure | Toowong |
-|---|---|
+| --- | --- |
 | Residents | 12,556 |
 | Median age | 30 |
 | Families | 2,900 |
 | Private dwellings | 6,203 |
 | People per household | 2.1 |
 
-**Toowong compared with Queensland**
-
 | Indicator | Toowong | Queensland |
-|---|---|---|
+| --- | --- | --- |
 | Dwellings that are flats or apartments | 67.9% (3,642) | 12.5% |
 | People in education who attend university | 49.5% (2,358) | 14.2% |
 | Workers who took the train to work | 5.7% (421) | 1.1% |
@@ -74,23 +58,21 @@ The ABS boundary covers about 4.1 square kilometres along the Brisbane River, we
 
 Small random adjustments protect privacy in Census tables, so each figure appears exactly as the bureau published it and we do not total figures ourselves.
 
+Signature project
+
 ## Twenty-one trains, four visible steps
 
 The question: how many trains leave Toowong station towards the city between 7am and 9am on Wednesday 21 October 2026? The Translink timetable feed answers it, but only after four filters, each easy to skip.
 
-**The working, one filter at a time (our calculation)**
-
 | Step | Rule applied | Rows left |
-|---|---|---|
+| --- | --- | --- |
 | 1. Toowong platforms | Stop records for platforms 1 to 4 | 2,362 |
 | 2. The right day | Trips whose service runs on Wednesday 21 October 2026 | 189 |
 | 3. The right hours | Departures from 7:00am to before 9:00am | 29 |
 | 4. The right direction | Trips heading towards the city and the north | 21 |
 
-**Where the 21 city-bound trains were going (our calculation)**
-
 | Destination on the timetable | Trains |
-|---|---|
+| --- | --- |
 | Bowen Hills | 13 |
 | Kippa-Ring | 4 |
 | Caboolture | 3 |
@@ -114,14 +96,14 @@ A timetable file lists every trip for every service pattern, weekends and public
 
 The timetable is Translink open data. The filters, row counts and destination totals are our calculation. Both agents described here are scripts we wrote to demonstrate the difference; they are not transcripts from any commercial AI model. Timetables give scheduled trains, not passengers.
 
+Agents that explain
+
 ## Asking for the working, in practice
 
 Step-by-step output is not magic. It is a design choice in how an agent is prompted and how its tools report back.
 
-**Habits that make agent answers checkable**
-
 | Habit | How | In the Toowong task |
-|---|---|---|
+| --- | --- | --- |
 | Name each filter | Ask the agent to list its steps before the answer | Four filters, written out |
 | Report a count after each step | len() after every filter | 2,362, 189, 29, 21 |
 | State assumptions | Write down the date and the time window | Wednesday 21 October, 7:00 to 8:59am |
@@ -141,6 +123,8 @@ Ask for working on every agent report at work, and reject any summary whose step
 
 Written steps are only useful if someone reads them. A model can also produce tidy-looking steps that do not match what it actually did, so the habit we teach is to rerun at least one step yourself rather than admire the explanation.
 
+Around Toowong
+
 ## A rail and bus crossroads by the river
 
 Local markers drawn from the transit timetable, council open data and the Queensland school calendar.
@@ -157,16 +141,41 @@ Moggill Rd at BBC, stop 16, had 302 scheduled bus visits that Wednesday, tying w
 
 Queensland state schools hold Term 2 of 2027 from Monday 12 April to Friday 25 June.
 
-**Toowong only** Council data places Toowong Library in the suburb, at Toowong Village. All counts here belong to Toowong alone; Auchenflower, St Lucia, Taringa and the other neighbours have their own figures, which we do not merge with these.
+Toowong only
+
+Council data places Toowong Library in the suburb, at Toowong Village. All counts here belong to Toowong alone; Auchenflower, St Lucia, Taringa and the other neighbours have their own figures, which we do not merge with these.
+
+Learning ladder
 
 ## From explaining blocks to auditing agents
 
 Starting points depend on the learner, not the age; the trial lesson settles it.
 
-- **Ages 6 to 10: Scratch and play** Games built block by block, with every move explained. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)
-- **Ages 10 to 14: Python and AI basics** First code and a clear sense of what AI can and cannot do. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)
-- **Ages 14 to 18: Vibe coding** Apps built with AI help, tested and explained by the learner. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [AI Tools Course for Teens (13+)](/courses/teens-ai-tools-mastery-course)
-- **Adults 18 and over: Agents** Coding agents and generative AI for study and work. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)
+Ages 6 to 10
+
+### Scratch and play
+
+Games built block by block, with every move explained.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)Ages 10 to 14
+
+### Python and AI basics
+
+First code and a clear sense of what AI can and cannot do.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)Ages 14 to 18
+
+### Vibe coding
+
+Apps built with AI help, tested and explained by the learner.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[AI Tools Course for Teens (13+)](/courses/teens-ai-tools-mastery-course)Adults 18 and over
+
+### Agents
+
+Coding agents and generative AI for study and work.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Vibe coding and agents
 
 ## If the agent writes the code, what does a Toowong learner do?
 
@@ -178,30 +187,139 @@ Learners who have built the four filters themselves know which step is easy to s
 
 In Toowong, the learner who asks "show me the steps" gets answers worth acting on. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How Toowong lessons run
 
 All lessons are live on video, so learners join from a flat, a college room or a family home.
 
-- **Screens shared** Learners drive the keyboard while the teacher reads every prompt and output with them.
-- **Term-time plans** Lessons follow the Queensland school year and pause in its holidays.
-- **Trial at no cost** A full first class, with an honest suggestion at the end.
-- **Fifteen to twenty learners** Grouped by level and goal, with one-to-one lessons as the alternative.
-- **Twice each week** Fixed weekly times, roughly eight lessons a month.
-- **India time** Our teachers are in India: a 6pm Toowong class begins at 1:30pm India time, every week of the year.
+### Screens shared
 
-**Fixed clocks** Brisbane has kept the same time all year since daylight saving last ended in March 1992 (IANA time zone database), and India keeps one time too, so the lesson hour never shifts.
+Learners drive the keyboard while the teacher reads every prompt and output with them.
+
+### Term-time plans
+
+Lessons follow the Queensland school year and pause in its holidays.
+
+### Trial at no cost
+
+A full first class, with an honest suggestion at the end.
+
+### Fifteen to twenty learners
+
+Grouped by level and goal, with one-to-one lessons as the alternative.
+
+### Twice each week
+
+Fixed weekly times, roughly eight lessons a month.
+
+### India time
+
+Our teachers are in India: a 6pm Toowong class begins at 1:30pm India time, every week of the year.
+
+Fixed clocks
+
+Brisbane has kept the same time all year since daylight saving last ended in March 1992 (IANA time zone database), and India keeps one time too, so the lesson hour never shifts.
+
+Fees
 
 ## Toowong lesson fees
 
 Three prices apply to everyone.
 
-- First class: USD 0. The opening lesson costs nothing and ends with a written next step.
-- Group tuition: USD 100 a month. Group month: about eight live lessons with fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. Private month: about eight lessons, one learner and one teacher.
+First class**USD 0**
+
+The opening lesson costs nothing and ends with a written next step.
+
+Group tuition**USD 100**
+
+Group month: about eight live lessons with fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+Private month: about eight lessons, one learner and one teacher.
 
 Toowong learners pay in US dollars, never before the trial, and only once course and time are agreed. Holiday, absence and format-change rules are on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20class%20for%20a%20learner%20in%20Toowong.)Reviews
+
+## Google reviews from learners and parents
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Toowong class
+
+Tell us the learner's age and goals. A university student might begin by making an agent show its working on the train question; a child might start with a Scratch game.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Toowong one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20class%20for%20a%20learner%20in%20Toowong.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Toowong vibe coding and agent questions
+
+Common questions from Toowong students, parents and working adults.
 
 ### What is the population of Toowong?
 
@@ -243,10 +361,14 @@ Fifteen to twenty learners at a similar level and pace, not sorted by age or sub
 
 No. Copilot Studio is taught one to one only; Toowong group learners build agents in Python.
 
+Explore Brisbane and Queensland
+
 ## More for Toowong learners
 
 See [the Brisbane guide](/best-coding-classes-in-brisbane) for the whole city or [coding for Brisbane children](/coding-classes-for-kids-brisbane) for younger learners. West along the rail line, [Ipswich](/vibe-coding-and-ai-agents-classes-in-ipswich-qld) has a page too, and [the Queensland guide](/coding-and-ai-classes-in-queensland) covers the state.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20class%20for%20a%20learner%20in%20Toowong.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-toowong-brisbane](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-toowong-brisbane#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-toowong-brisbane*

@@ -4,46 +4,32 @@ description: "Coding, Python, AI and maths classes for Clondalkin learners aged 
 canonical: https://learn.modernagecoders.com/coding-classes-in-clondalkin-dublin
 source: src/pages/coding-classes-in-clondalkin-dublin.html
 ---
-> Clondalkin learners have a live teacher on video for each lesson, either in a small group where everyone is at the same point or individually, commonly twice a week, and the classes are open to people from six to sixty-seven. There is no trip to make. The free first lesson comes before anything else; from then on a group place is USD 100 a month and a private place USD 150 a month.
+> Coding, Python, AI and maths classes for Clondalkin learners aged 6 to 67, taught live online in same-level groups or one to one. The first lesson is free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [South Dublin](/coding-classes-in-south-dublin) / Clondalkin
-
-Clondalkin, Dublin 22 / Live online
-
-# Coding classes in Clondalkin
-
-**What are the best coding classes in Clondalkin?** Clondalkin learners have a live teacher on video for each lesson, either in a small group where everyone is at the same point or individually, commonly twice a week, and the classes are open to people from six to sixty-seven. There is no trip to make. The free first lesson comes before anything else; from then on a group place is USD 100 a month and a private place USD 150 a month.
-
-South Dublin County Council gives the height of the Round Tower in Clondalkin village as 27.5 metres. Suppose a learner wants to check that with nothing but a phone's angle app and a measured distance. The trigonometry is one line, but the answer is only as good as the measurements, and a single degree of error in the angle can shift the result by almost a metre or by nearly three, depending on where the learner stands. This page turns that into a small coding project: build the calculation, add a deliberate error, and let the program find the spot where the tower can be measured most reliably.
-
-Facts last verified 20 September 2026. Teaching is online; no Clondalkin branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Clondalkin
 
 ## First courses for Clondalkin learners
 
 A course for each stage of life, with the free first lesson and its teacher deciding whether it fits.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Blocks and angles: a sprite that turns, aims and measures how far its shot lands from the target.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 14): Maths through code: triangles, angles and tangent turned into a height calculator that anyone can test.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 18): Python models with inputs that can be nudged, to see which measurement errors matter most.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (College and adult): For adults whose estimates rest on measurements, and who need to know how much a small error matters.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlocks and angles: a sprite that turns, aims and measures how far its shot lands from the target.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 14Maths Through CodingMaths through code: triangles, angles and tangent turned into a height calculator that anyone can test.See the syllabus](/courses/maths-through-coding)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 18Data Science for TeensPython models with inputs that can be nudged, to see which measurement errors matter most.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)College and adultData Analysis CourseFor adults whose estimates rest on measurements, and who need to know how much a small error matters.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## Measure the Round Tower with an angle, then find where to stand
 
 The height is worked out from the distance to the tower and the angle up to its top, plus the observer's eye height, assumed here to be 1.5 metres on level ground. The table shows how far off the answer lands when the angle is misread by one degree either way.
 
-**Estimating a 27.5 m tower when the angle is off by one degree**
-
 | Distance | Angle to the top | Error if +1 degree | Error if -1 degree |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 5 m | 79.1 degrees | +2.69 m | -2.24 m |
 | 10 m | 69.0 degrees | +1.42 m | -1.30 m |
 | 26 m | 45.0 degrees | +0.92 m | -0.89 m |
@@ -81,14 +67,14 @@ The council describes the tower as 27.5 metres high and four metres wide at the 
 
 The error from a small angle slip is smallest where the angle is 45 degrees, because that is where the product of its sine and cosine is largest. The program finds this by searching; the maths explains why.
 
+Clondalkin, named
+
 ## Clondalkin, in the words of the council and its services
 
 Facts that each body publishes itself, with an eircode where its page gives a valid one.
 
-**Named places in Clondalkin**
-
 | Place | What its own source says |
-|---|---|
+| --- | --- |
 | The Round Tower | 27.5 m high, four metres wide at the base |
 | Round Tower visitor centre | Tower Road, D22 DV56; opened 3 July 2017 |
 | North Clondalkin Library | Liscarne Close, Rowlagh, D22 E2Y2; opened December 2020 |
@@ -106,7 +92,11 @@ The council describes North Clondalkin Library as purpose-built and opened to th
 
 Clondalkin Library, on Monastery Road in the village, opens until 8pm from Monday to Thursday. Its web page prints an eircode containing the letter O, which eircodes do not use, so none is repeated here.
 
-**What this page does not claim** No population is printed for Clondalkin, because the page uses only facts that named bodies publish about the place itself. The council's pages give the tower's age in two different ways, so this page does not state one. The measurement project uses stated assumptions, not a survey of the tower.
+What this page does not claim
+
+No population is printed for Clondalkin, because the page uses only facts that named bodies publish about the place itself. The council's pages give the tower's age in two different ways, so this page does not state one. The measurement project uses stated assumptions, not a survey of the tower.
+
+Learning here
 
 ## Clondalkin learners and their week
 
@@ -126,14 +116,37 @@ Adults may start with no coding at all; the opening lesson chooses the path.
 
 The tower's height and width are South Dublin County Council's figures; the angles, errors and recommended distance are our own calculations, run on 20 September 2026, using the assumptions stated above. The libraries, the visitor centre and the station are quoted from their own pages.
 
+Learning ladder
+
 ## From aiming a sprite to testing a model
 
 Age bands are approximate; lesson one finds the real starting point for each learner.
 
-- **Ages 6 to 10: Turn and aim** Block-coded sprites that turn by angles and hit, or miss, a target. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Triangles in code** Python that uses tangent to find a height from a distance and an angle. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 14 to 18: Sensitivity** Nudging inputs in a loop to see which errors matter and how to reduce them. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Estimates with margins** Workplace calculations reported with the error each input can cause. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### Turn and aim
+
+Block-coded sprites that turn by angles and hit, or miss, a target.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Triangles in code
+
+Python that uses tangent to find a height from a distance and an angle.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### Sensitivity
+
+Nudging inputs in a loop to see which errors matter and how to reduce them.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Estimates with margins
+
+Workplace calculations reported with the error each input can cause.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## Ask an assistant to measure the Round Tower from a photo
 
@@ -145,30 +158,139 @@ With the sensitivity table in hand, the learner asks the assistant what error ma
 
 Calculating a height is one line. Knowing how wrong it could be is the skill. The longer argument is in [the case for learning to code at any age](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How lessons run for Clondalkin
 
 The practical arrangements.
 
-- **A live teacher** Each lesson is led live, with the teacher watching and helping as every learner writes code.
-- **Same-stage learners** Groups of fifteen to twenty at one stage, from Dublin 22, elsewhere in Ireland and abroad.
-- **Two regular slots** About eight lessons a month, on the same two weekly slots agreed at the outset.
-- **Term planning** School holidays, mid-term breaks and exam weeks are accounted for in advance.
-- **Setup at home** Whatever laptop or desktop is at home will usually do, with a mic and something to hear through, on broadband that copes with video.
-- **Alone with a tutor** One-to-one lessons for learners who are ahead, need extra time, or can only attend at unusual hours.
+### A live teacher
 
-**Online, not local** We have no premises in Clondalkin, in South Dublin or anywhere in Ireland. Every lesson is on video and is the same wherever the learner joins from.
+Each lesson is led live, with the teacher watching and helping as every learner writes code.
+
+### Same-stage learners
+
+Groups of fifteen to twenty at one stage, from Dublin 22, elsewhere in Ireland and abroad.
+
+### Two regular slots
+
+About eight lessons a month, on the same two weekly slots agreed at the outset.
+
+### Term planning
+
+School holidays, mid-term breaks and exam weeks are accounted for in advance.
+
+### Setup at home
+
+Whatever laptop or desktop is at home will usually do, with a mic and something to hear through, on broadband that copes with video.
+
+### Alone with a tutor
+
+One-to-one lessons for learners who are ahead, need extra time, or can only attend at unusual hours.
+
+Online, not local
+
+We have no premises in Clondalkin, in South Dublin or anywhere in Ireland. Every lesson is on video and is the same wherever the learner joins from.
+
+Fees
 
 ## Clondalkin lesson fees
 
 Here is everything.
 
-- First class: USD 0. A free first lesson that includes a level check.
-- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one stage, around eight live lessons.
-- Private tuition: USD 150 a month. A month of private lessons at the same pace.
+First class**USD 0**
+
+A free first lesson that includes a level check.
+
+Group tuition**USD 100**
+
+A month in a group of fifteen to twenty at one stage, around eight live lessons.
+
+Private tuition**USD 150**
+
+A month of private lessons at the same pace.
 
 One monthly fee in US dollars applies to every family outside India. The free lesson involves no commitment, the first payment is due when the course begins, and the pricing page explains holidays, missed lessons and moving between group and private lessons.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Clondalkin.)Reviews
+
+## Six families on Google, word for word
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free first lesson in Clondalkin
+
+Tell us the learner's age and interests, and the first hour will be planned around them. The hour might close with a small game, a program that works, or a height calculator honest about its own margin of error.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Clondalkin one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Clondalkin.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Clondalkin coding class questions
+
+Questions Clondalkin families often ask.
 
 ### Is there a Modern Age Coders centre in Clondalkin?
 
@@ -206,10 +328,14 @@ The first lesson is free. A group place is then USD 100 a month for around eight
 
 Between five and ten learners, grouped by level, pace and goals rather than age or address. If no group fits a workable hour, lessons are one to one.
 
+Explore Ireland
+
 ## Around Clondalkin and South Dublin
 
 The [South Dublin](/coding-classes-in-south-dublin) page covers the council area, [Tallaght](/coding-classes-in-tallaght-dublin) and [Lucan](/coding-classes-in-lucan-dublin) have their own district pages nearby, and learners who like the maths side can look at the [problem solving through coding](/problem-solving-skills-through-coding-ireland) page. The [Ireland hub](/coding-classes-in-ireland) lists everything else.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Clondalkin.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-clondalkin-dublin](https://learn.modernagecoders.com/coding-classes-in-clondalkin-dublin#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-clondalkin-dublin*

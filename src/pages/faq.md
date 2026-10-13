@@ -173,8 +173,8 @@ What classes cost, how to pay and what happens if plans change.
 
 ### Fees at a glance, for your country
 
-- **Group class****₹1,499**a month · 5 to 10 students · 8 classes
-- **Small batch****₹2,999**a month · up to 6 students · 8 classes
+- **Group class****₹1,499**a month · 15 to 20 students · 8 classes
+- **Batch****₹2,999**a month · up to 6 students · 8 classes
 - **1-on-1****₹4,999**a month · 4 classes
 
 Every class is one hour. The same fees apply to every coding and maths course.

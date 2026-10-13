@@ -4,34 +4,28 @@ description: "Online maths tutor in Birmingham, ages 6 to 67: KS2 and SATs, 11 p
 canonical: https://learn.modernagecoders.com/maths-tuition-in-birmingham
 source: src/pages/maths-tuition-in-birmingham.html
 ---
-> Modern Age Coders is an online maths tutor for Birmingham learners aged 6 to 67: KS2 number, times tables and the Year 6 SATs, 11 plus maths, Key Stage 3, GCSE maths at either tier for AQA, Edexcel or OCR, IGCSE, A level Maths and Further Maths, and adults sitting a GCSE maths resit, brushing up for work or helping their children. Classes are matched by level and hold fifteen to twenty learners, or a learner can have a teacher to themselves. We follow the national curriculum and the exam specifications, and we build lessons on real measurements. Our Birmingham example: canal lines inside the city boundary measure 64.20 km on OpenStreetMap, against 49.62 km for the named canals of central Venice, yet Venice has far more separate canals. The first lesson is on us; afterwards a seat in a class is USD 100 per month and a private teacher USD 150 per month.
+> Online maths tutor in Birmingham, ages 6 to 67: KS2 and SATs, 11 plus, KS3, GCSE, A level and adult maths, with a project measuring canals against Venice.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths tuition in Birmingham
+Maths tuition in Birmingham, in brief
 
-Birmingham · Maths for ages 6 to 67 · Taught live online
+Modern Age Coders is an online maths tutor for Birmingham learners aged 6 to 67: KS2 number, times tables and the Year 6 SATs, 11 plus maths, Key Stage 3, GCSE maths at either tier for AQA, Edexcel or OCR, IGCSE, A level Maths and Further Maths, and adults sitting a GCSE maths resit, brushing up for work or helping their children. Classes are matched by level and hold fifteen to twenty learners, or a learner can have a teacher to themselves. We follow the national curriculum and the exam specifications, and we build lessons on real measurements. Our Birmingham example: canal lines inside the city boundary measure 64.20 km on OpenStreetMap, against 49.62 km for the named canals of central Venice, yet Venice has far more separate canals. The first lesson is on us; afterwards a seat in a class is USD 100 per month and a private teacher USD 150 per month.
 
-# Maths tuition in Birmingham
-
-Every Birmingham child hears it sooner or later: the city has more canals than Venice. The Canal & River Trust repeats it too. So we got out a map and measured. Inside the city boundary, the canal lines on OpenStreetMap add up to 64.20 kilometres, which is 39.89 miles. The canals of central Venice, measured the same way inside a rectangle we drew round the historic city, come to 49.62 kilometres. So Birmingham wins? Only if you count length. Count names instead, and that rectangle holds 165 differently named Venetian canals against 11 canal names inside Birmingham. Whether the saying is true depends entirely on what you decide to measure, and deciding what to measure is where real maths starts. That is how we teach maths in Birmingham, from first number bonds to A level calculus.
-
-At a glance: Ages: 6 to 67; Early years and primary: Number bonds to the Year 6 tests; Lower secondary: Key Stage 3 algebra, ratio and geometry; GCSE: Foundation or Higher, AQA, Edexcel or OCR; Grown-ups: GCSE resits, brush-ups, workplace maths; How: Live video, 15 to 20 in a class, or private; Sixth form: A level Maths and Further Maths; City project: Canal length, Birmingham against Venice. Rated 4.9 across 547 Google reviews.
+Most Birmingham families start here
 
 ## GCSE, A level and 11 plus maths
 
 The three courses Birmingham families ask about most. Primary, KS3 and adult courses sit in the full list below.
 
-- [GCSE maths](/courses/gcse-mathematics-mastery): Either tier, any English board, with rounding, bounds and error intervals treated as skills in their own right.
-- [A level maths](/courses/a-level-maths-course-pure-mechanics-statistics): Pure maths, mechanics and statistics, with proper attention to why a method works.
-- [11 plus maths](/courses/11-plus-maths-preparation-course-uk): Quick, accurate arithmetic and problem solving for children heading for a grammar school test in Year 6.
+[![GCSE Maths course thumbnail](/images/gcse-maths.webp)  BRUM / 1 GCSE maths Either tier, any English board, with rounding, bounds and error intervals treated as skills in their own right. Open the syllabus →](/courses/gcse-mathematics-mastery)[![A-Level Maths course thumbnail](/images/a-level-maths.webp)  BRUM / 2 A level maths Pure maths, mechanics and statistics, with proper attention to why a method works. Open the syllabus →](/courses/a-level-maths-course-pure-mechanics-statistics)[![11 Plus Maths Prep course thumbnail](/images/eleven-plus-maths.webp)  BRUM / 3 11 plus maths Quick, accurate arithmetic and problem solving for children heading for a grammar school test in Year 6. Open the syllabus →](/courses/11-plus-maths-preparation-course-uk)
+
+From Year 1 to adult
 
 ## Maths tutor in Birmingham for every level, KS1 to A level
 
 Birmingham schools prepare children for the same Year 6 tests and the same GCSE and A level exams as the rest of England, so these are the levels we teach to.
 
-**Levels we teach in Birmingham, with the skill at the centre of each**
-
 | Level | School years | The skill at the centre |
-|---|---|---|
+| --- | --- | --- |
 | Early primary | Years 1 and 2 | Number bonds to 20, counting in 2s, 5s and 10s, halves and quarters. |
 | Upper primary | Years 3 to 6 | Times tables, long multiplication and division, fractions, and converting between units of length. |
 | Lower secondary | Years 7 to 9 | Letters standing for numbers, proportional reasoning, angles and area. |
@@ -51,6 +45,8 @@ GCSE asks students to round sensibly, write error intervals and reason with uppe
 
 Deeper pages for each stage: [Key Stage 3](/ks3-maths-tuition-online), [GCSE](/gcse-maths-tuition-online), [A level](/a-level-maths-tuition-online), [Further Maths](/further-maths-tuition-online) and [maths for adults](/online-maths-classes-for-adults-in-uk).
 
+The Birmingham project
+
 ## Does Birmingham really have more canals than Venice?
 
 The Canal & River Trust writes that "Most people know that Birmingham has more canals than Venice". We tested the saying with a map, a formula and some care about definitions.
@@ -63,10 +59,8 @@ For Venice we ran the same query. The whole municipality of Venice, which stretc
 
 On length, then, Birmingham's 64.20 kilometres beats central Venice's 49.62. But widen the Venice rectangle to every mapped canal line inside it, including wide channels such as the Canale della Giudecca, and Venice reaches 77.41 kilometres. Count names instead of length and the rectangle holds 165 named Venetian canals against Birmingham's 11 canal names. The saying is true, false or both, depending on the question.
 
-**Canal length by OpenStreetMap, measured by us on 1 October 2026**
-
 | What was measured | Kilometres | Miles |
-|---|---|---|
+| --- | --- | --- |
 | Birmingham, all canal lines inside the city boundary | 64.20 | 39.89 |
 | Birmingham, the same without tunnels | 60.42 | 37.54 |
 | Venice, Rio, Rielo and Canal Grande in our rectangle | 49.62 | 30.83 |
@@ -74,10 +68,8 @@ On length, then, Birmingham's 64.20 kilometres beats central Venice's 49.62. But
 | Venice, the Venezia-Murano-Burano municipality area | 317.56 | 197.32 |
 | Venice, the whole municipality, lagoon included | 491.29 | 305.27 |
 
-**The five longest canals inside Birmingham by mapped length (our calculation)**
-
 | Canal | Kilometres inside the city |
-|---|---|
+| --- | --- |
 | Birmingham and Fazeley Canal | 14.25 |
 | Grand Union Canal | 13.91 |
 | Worcester and Birmingham Canal | 10.12 |
@@ -86,13 +78,15 @@ On length, then, Birmingham's 64.20 kilometres beats central Venice's 49.62. But
 
 Data: [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), ways tagged as canals, one Overpass query on 1 October 2026; lengths are great-circle sums calculated by Modern Age Coders. The Venice rectangle (45.4245 to 45.4475 N, 12.300 to 12.370 E) is our own choice. Quotes: [Canal & River Trust, fascinating facts about canals and rivers](https://canalrivertrust.org.uk/news-and-views/features/fascinating-facts-about-canals-and-rivers), read on 1 October 2026.
 
+Accuracy, at GCSE and A level
+
 ## How accurate is 64.20 kilometres?
 
 A measured length is never exact. The canal data shows two separate reasons why, and each one is on the syllabus.
 
 ### Rounding and error intervals
 
-The DfE subject content asks GCSE students to "use inequality notation to specify simple error intervals due to truncation or rounding" and to "apply and interpret limits of accuracy, including upper and lower bounds". Our total, 64.20 km, is given to 2 decimal places, so the true sum of our steps lies in 64.195 ≤ L &lt; 64.205.
+The DfE subject content asks GCSE students to "use inequality notation to specify simple error intervals due to truncation or rounding" and to "apply and interpret limits of accuracy, including upper and lower bounds". Our total, 64.20 km, is given to 2 decimal places, so the true sum of our steps lies in 64.195 ≤ L < 64.205.
 
 The Trust's "just over 100 miles" is a different kind of statement. It is not rounded to a stated accuracy, so no error interval can be written for it. Students who can tell those two kinds of number apart are reading statistics the way a careful adult should.
 
@@ -102,10 +96,8 @@ The second reason is deeper. A canal bends, but the map stores it as points join
 
 We tested that by keeping only every second, fourth, eighth or sixteenth point. The total fell from 64.20 km to 62.75 km. Joining only the two ends of each piece gives 59.73 km. True length is what the steps approach as they get shorter, which is exactly the idea behind arc length in A level calculus.
 
-**Birmingham canal length using fewer of the 2,049 mapped points (our calculation)**
-
 | Points kept | Total length, km | Shortfall against all points, km |
-|---|---|---|
+| --- | --- | --- |
 | Every point | 64.20 | 0.00 |
 | Every 2nd point | 64.15 | 0.05 |
 | Every 4th point | 63.93 | 0.27 |
@@ -116,6 +108,8 @@ We tested that by keeping only every second, fourth, eighth or sixteenth point. 
 Definitions move the answer further than either kind of error. The two spillways in the data add 596.9 metres, the named basins and wharves 914.6 metres, and the tunnels 3.78 kilometres. Whether a tunnel counts as canal is a choice, not a calculation, and we ask students to state their choice before they add anything up.
 
 GCSE wording: [DfE, GCSE mathematics subject content](https://www.gov.uk/government/publications/gcse-mathematics-subject-content-and-assessment-objectives), number items 15 and 16. The thinning experiment and its figures are Modern Age Coders' own work on the OpenStreetMap download.
+
+Maths in the city
 
 ## The Maths Hub, the university lectures and the Year 10 quiz
 
@@ -143,6 +137,8 @@ A good first lesson for a curious teenager is the canal project above. It starts
 
 Sources: [NCETM, Central Maths Hub](https://www.ncetm.org.uk/hubs/central-maths-hub/); [University of Birmingham, School of Mathematics outreach](https://www.birmingham.ac.uk/about/college-of-engineering-and-physical-sciences/mathematics/about/outreach) and its about page. Read on 1 October 2026. Modern Age Coders is separate from the NCETM, every Maths Hub, the University of Birmingham and all Birmingham schools.
 
+Adult learners
+
 ## Grown-ups learning maths in Birmingham
 
 Adults come to us for many reasons, and almost none of them is an exam.
@@ -161,14 +157,14 @@ Estimating, checking and presenting figures, and knowing when a total is precise
 
 The canal project works well for adults too. Anyone who has walked a stretch of city-centre towpath has a feel for the distances, and comparing that feel with a measurement is a good way back into maths for someone who left it behind years ago.
 
+How a learner progresses
+
 ## From counting to measuring with confidence
 
 A learner can start at any rung. The free lesson shows us where.
 
-**Four rungs of maths, and how we know each is secure**
-
 | Typically | Rung | We know it is secure when |
-|---|---|---|
+| --- | --- | --- |
 | Years 1 to 3 | 1. Number | They can partition 47 into 40 and 7 and use it to add and subtract |
 | Years 4 to 6 | 2. Measure | They convert between kilometres and metres, and estimate before they calculate |
 | Years 7 to 11 | 3. Accuracy | They write an error interval and explain what it says about a measurement |
@@ -177,75 +173,353 @@ A learner can start at any rung. The free lesson shows us where.
 ### Coming in at GCSE
 
 Students who arrive in Year 10 or 11 usually need a few foundations repaired before exam practice is worth doing. We say how many weeks that is likely to take at the first lesson.
+
 Bounds and error intervals are a common weak spot, and they are best fixed with a short, focused run of lessons.
 
 ### Going further
 
 After an exam, some learners carry on with [statistics and probability](/courses/statistics-probability-maths-course); others try [maths through coding](/courses/maths-through-coding) and write the canal calculation as a program.
+
 Learners who like hard problems for their own sake are welcome in our competition maths groups.
+
+The full list
 
 ## Popular maths courses for Birmingham
 
 The four courses UK families search for most, GCSE, A level, 11 plus and IGCSE, lead the list; the rest follow by stage. Open any card for the syllabus.
 
+I
+
 ### Most searched for
 
 Exams and entry tests
 
-- [GCSE](/courses/gcse-mathematics-mastery): Either tier, any English board.
-- [A level](/courses/a-level-maths-course-pure-mechanics-statistics): Pure, mechanics and statistics.
-- [11 plus](/courses/11-plus-maths-preparation-course-uk): Maths for the Birmingham grammar school test and others.
-- [IGCSE](/courses/igcse-mathematics-mastery): For schools that enter the international exam.
+MTB / A1
+
+#### GCSE
+
+Either tier, any English board.
+
+[Open the syllabus](/courses/gcse-mathematics-mastery)
+
+MTB / A2
+
+#### A level
+
+Pure, mechanics and statistics.
+
+[Open the syllabus](/courses/a-level-maths-course-pure-mechanics-statistics)
+
+MTB / A3
+
+#### 11 plus
+
+Maths for the Birmingham grammar school test and others.
+
+[Open the syllabus](/courses/11-plus-maths-preparation-course-uk)
+
+MTB / A4
+
+#### IGCSE
+
+For schools that enter the international exam.
+
+[Open the syllabus](/courses/igcse-mathematics-mastery)II
 
 ### Ages 6 to 11
 
 Primary years
 
-- [First maths](/courses/early-math-foundations): Counting, shapes and patterns with objects to hand.
-- [Primary maths](/courses/elementary-mathematics-complete-masterclass): Years 1 to 6, topic by topic, for understanding.
-- [Mental maths](/courses/mental-maths-mastery-kids): Calculating in the head, quickly and correctly.
-- [Abacus](/courses/abacus-mental-maths-course-for-kids): Beads on a frame, then beads in the mind.
+MTB / B1
+
+#### First maths
+
+Counting, shapes and patterns with objects to hand.
+
+[Open the syllabus](/courses/early-math-foundations)
+
+MTB / B2
+
+#### Primary maths
+
+Years 1 to 6, topic by topic, for understanding.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+MTB / B3
+
+#### Mental maths
+
+Calculating in the head, quickly and correctly.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+MTB / B4
+
+#### Abacus
+
+Beads on a frame, then beads in the mind.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)III
 
 ### Ages 11 and up
 
 Secondary and stretch
 
-- [Key Stage 3](/courses/comprehensive-middle-school-mathematics-mastery): The algebra, ratio and geometry GCSE builds on.
-- [Algebra from scratch](/courses/algebra-foundations-masterclass): For a learner who lost the thread of algebra.
-- [Statistics](/courses/statistics-probability-maths-course): Data, probability and testing ideas.
-- [Olympiad maths](/courses/olympiad-competition-mathematics-mastery): Hard problems, no recipes, UKMT style.
+MTB / C1
+
+#### Key Stage 3
+
+The algebra, ratio and geometry GCSE builds on.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+MTB / C2
+
+#### Algebra from scratch
+
+For a learner who lost the thread of algebra.
+
+[Open the syllabus](/courses/algebra-foundations-masterclass)
+
+MTB / C3
+
+#### Statistics
+
+Data, probability and testing ideas.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)
+
+MTB / C4
+
+#### Olympiad maths
+
+Hard problems, no recipes, UKMT style.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)IV
 
 ### Maths for life and work
 
 Adults and the curious
 
-- [First-year university maths](/courses/college-mathematics-complete-masterclass): Calculus and linear algebra in depth.
-- [Money and business maths](/courses/complete-business-finance-mathematics-mastery): Interest, growth and risk, with worked cases.
-- [Data maths](/courses/data-analytics-mathematics-masterclass): The statistics and algebra under data work.
-- [Speed arithmetic](/courses/vedic-maths-course-speed-calculation-mastery): Vedic methods once the foundations are firm.
+MTB / D1
+
+#### First-year university maths
+
+Calculus and linear algebra in depth.
+
+[Open the syllabus](/courses/college-mathematics-complete-masterclass)
+
+MTB / D2
+
+#### Money and business maths
+
+Interest, growth and risk, with worked cases.
+
+[Open the syllabus](/courses/complete-business-finance-mathematics-mastery)
+
+MTB / D3
+
+#### Data maths
+
+The statistics and algebra under data work.
+
+[Open the syllabus](/courses/data-analytics-mathematics-masterclass)
+
+MTB / D4
+
+#### Speed arithmetic
+
+Vedic methods once the foundations are firm.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
+
+Scheduling
 
 ## Lessons that fit a Birmingham week
 
 The teachers are in India, which keeps one time all year. Birmingham is five and a half hours behind India in winter and four and a half in summer, and we arrange everything in UK time so families never need to convert.
 
-- **Straight after school** Primary and lower secondary.
-- **Later evenings** GCSE, A level and working adults.
-- **Saturday or Sunday** For a calmer, unhurried lesson.
+Straight after school
 
-- **A teacher who stays** One person follows the learner from week to week and remembers what went wrong.
-- **News after lessons** Parents get a brief, honest note on progress.
-- **Classes of fifteen to twenty** Matched by level so nobody is left behind or held back.
-- **Measurement and data** Canals, maps and timetables alongside the usual exercises.
-- **Private option** One teacher, one learner, for a gap or a deadline.
-- **Reasons, not rules** Learners explain a method before they practise it.
+Primary and lower secondary.
+
+Later evenings
+
+GCSE, A level and working adults.
+
+Saturday or Sunday
+
+For a calmer, unhurried lesson.
+
+### A teacher who stays
+
+One person follows the learner from week to week and remembers what went wrong.
+
+### News after lessons
+
+Parents get a brief, honest note on progress.
+
+### Classes of fifteen to twenty
+
+Matched by level so nobody is left behind or held back.
+
+### Measurement and data
+
+Canals, maps and timetables alongside the usual exercises.
+
+### Private option
+
+One teacher, one learner, for a gap or a deadline.
+
+### Reasons, not rules
+
+Learners explain a method before they practise it.
+
+Student work
+
+## Where our learners take their maths
+
+Four things built by students who began with exactly this kind of number work. There are more in the [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 A flat monthly fee in US dollars for every family outside India. There is no sign-up charge and no fixed term to commit to.
 
-- Free first class: USD 0. A full lesson at the learner's level. An honest summary for you. No payment card.
-- Group batch: USD 100 a month. A class of fifteen to twenty at one level. The same teacher each week. Work marked and discussed. Certificate on completion.
-- One to one: USD 150 a month. Private teaching. Built around one gap or goal. Good for the run-up to an exam.
+Free first class
+
+USD 0
+
+no card required
+
+- A full lesson at the learner's level
+- An honest summary for you
+- No payment card
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- A class of fifteen to twenty at one level
+- The same teacher each week
+- Work marked and discussed
+- Certificate on completion
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- Private teaching
+- Built around one gap or goal
+- Good for the run-up to an exam
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Straight from our Google profile, as families and learners wrote them.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Birmingham maths questions
 
 ## Questions Birmingham families ask about maths
 
@@ -289,15 +563,54 @@ Yes, through our olympiad maths course, which works on problems in the UKMT styl
 
 The first lesson is free. Then it is USD 100 per month for a class place or USD 150 per month for private lessons, with no joining fee and no minimum term.
 
+Also useful
+
 ## More pages for Birmingham learners
 
-- [GCSE maths tuition](/gcse-maths-tuition-online): Our national GCSE maths page.
-- [Further Maths tuition](/further-maths-tuition-online): For sixth formers who want more maths.
-- [Key Stage 3 maths](/ks3-maths-tuition-online): Years 7 to 9, the bridge to GCSE.
-- [Coding classes in Birmingham](/coding-classes-in-birmingham): Our coding page for the city.
-- [Maths tuition in Manchester](/maths-tuition-in-manchester): The same approach, built on the Metrolink.
-- [Every UK page](/coding-classes-in-united-kingdom): Nations, cities, towns and maths, in one list.
+National maths pages by stage, the city 11 plus page and our Birmingham coding page.
 
-## Contact
+### [GCSE maths tuition](/gcse-maths-tuition-online)
 
-Book the free first class at [https://learn.modernagecoders.com/maths-tuition-in-birmingham](https://learn.modernagecoders.com/maths-tuition-in-birmingham#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Our national GCSE maths page.
+
+### [Further Maths tuition](/further-maths-tuition-online)
+
+For sixth formers who want more maths.
+
+### [Key Stage 3 maths](/ks3-maths-tuition-online)
+
+Years 7 to 9, the bridge to GCSE.
+
+### [Coding classes in Birmingham](/coding-classes-in-birmingham)
+
+Our coding page for the city.
+
+### [Maths tuition in Manchester](/maths-tuition-in-manchester)
+
+The same approach, built on the Metrolink.
+
+### [Every UK page](/coding-classes-in-united-kingdom)
+
+Nations, cities, towns and maths, in one list.
+
+Start here
+
+## Start with a free lesson
+
+Let us know the learner's age or year and what is going wrong, or right, in maths at the moment. We teach a full lesson and then give you a straight assessment.
+
+Want to look first? See [all our courses](/courses) or how we approach [teaching](/how-we-teach).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20a%20learner%20in%20Birmingham.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+The quickest reply comes on WhatsApp. You will see an Indian number, since our team works from India; we have no UK premises and teach only online.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/maths-tuition-in-birmingham*

@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes in Escamp, The Hague, fo
 canonical: https://learn.modernagecoders.com/coding-classes-in-escamp
 source: src/pages/coding-classes-in-escamp.html
 ---
-> Coding classes in Escamp reach the largest stadsdeel of The Hague, six wijken across the post-war south-west. Bouwlust has 13 primary establishments teaching 2,954 pupils. The Wateringse Veld has 5 teaching 2,534. Counting the buildings does not count the places in them, and a school standing inside a wijk is neither necessary nor sufficient for the children who live there, because it may teach anyone and they may go anywhere. Modern Age Coders teaches live online in English from Moerwijk to the Hoge Veld, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
+> Live online coding, Python and AI classes in Escamp, The Hague, for ages 6 to 67, from Bouwlust and Moerwijk to the Wateringse Veld. First lesson free.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / [The Hague](/coding-classes-in-the-hague) / Escamp
-
-Escamp, Den Haag / Live online
-
-# Coding classes in Escamp, where thirteen primary schools and five primary schools teach almost the same number of children
-
-**What are the best coding classes in Escamp?** Coding classes in Escamp reach the largest stadsdeel of The Hague, six wijken across the post-war south-west. Bouwlust has 13 primary establishments teaching 2,954 pupils. The Wateringse Veld has 5 teaching 2,534. Counting the buildings does not count the places in them, and a school standing inside a wijk is neither necessary nor sufficient for the children who live there, because it may teach anyone and they may go anywhere. Modern Age Coders teaches live online in English from Moerwijk to the Hoge Veld, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
-
-Thirteen schools sounds like more than five schools. It is more buildings, certainly. It is not more pupils in any reliable way: the thirteen establishments in Bouwlust teach 2,954 children and the five in the Wateringse Veld teach 2,534, a difference of a few hundred across a ratio of nearly three to one. And neither figure is a statement about the children of either wijk, because a school inside a wijk is not required for a local child to be educated and does not guarantee that it educates one. The count answers a question about geography that almost nobody was asking.
-
-Facts last verified 10 September 2026. Teaching is online; no Escamp branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Escamp
 
 ## Four courses for the south-west of The Hague
 
 A groep 6 child in Morgenstond who has never been asked to make the computer do anything, a teenager in Bouwlust whose game exists entirely as a description, a student in Leyenburg whose script passes on their own machine and nowhere else, and an adult in the Wateringse Veld who has to sign off a rule that decides who qualifies. Four separate starting points, and none of them charges for the first hour.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Typed Python with real conditions in it, where the child finds out that one test is usually not enough to describe what they meant.
-- [App Development for Teens](/courses/complete-app-development-masterclass-for-teens) (Ages 13 to 18): An app taken from nothing to something installable, for the teenager who can describe every screen and has never opened an editor.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Python that runs without a person watching, which is where a condition that was almost right starts costing something.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): Reading a count without assuming it answers the question you had, for anybody who reports figures other people act on.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsTyped Python with real conditions in it, where the child finds out that one test is usually not enough to describe what they meant.See the syllabus](/courses/python-ai-kids-masterclass)[![App Development for Teens course thumbnail](/images/app-dev-teens.webp)Ages 13 to 18App Development for TeensAn app taken from nothing to something installable, for the teenager who can describe every screen and has never opened an editor.See the syllabus](/courses/complete-app-development-masterclass-for-teens)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CoursePython that runs without a person watching, which is where a condition that was almost right starts costing something.See the syllabus](/courses/python-ai-automation-masterclass-college)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)Reading a count without assuming it answers the question you had, for anybody who reports figures other people act on.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Escamp today
 
 ## Six wijken in the post-war south-west, five read in full
 
@@ -52,16 +40,18 @@ Households average 2.6 people in the Wateringse Veld with only 2,415 of its 9,17
 
 Under fifteen: 5,325 in Bouwlust, 4,750 in the Wateringse Veld, 4,060 in Moerwijk, 3,625 in Morgenstond and 2,395 in Leyenburg. Primary establishments in the same five: 13, 5, 7, 8 and 4. Those two lists are not in the same order, and the reason is the subject of this page.
 
-**Why this page gives no population for Escamp itself** There are two published stadsdeel totals and neither is current. The encyclopaedia entry gives 120,080 residents for 2015. The Hague city page in this series carries 128,967 for 2022. The wijk rows above are 2026 and exact, and five of the six is not the whole, so nothing here is added up into a stadsdeel figure and no stadsdeel figure is divided down into a wijk. Where the total appears at all it is dated. This is not fussiness: a number carried over from a different year and presented flat is the most ordinary way a page like this becomes quietly wrong.
+Why this page gives no population for Escamp itself
+
+There are two published stadsdeel totals and neither is current. The encyclopaedia entry gives 120,080 residents for 2015. The Hague city page in this series carries 128,967 for 2022. The wijk rows above are 2026 and exact, and five of the six is not the whole, so nothing here is added up into a stadsdeel figure and no stadsdeel figure is divided down into a wijk. Where the total appears at all it is dated. This is not fussiness: a number carried over from a different year and presented flat is the most ordinary way a page like this becomes quietly wrong.
+
+Where the learners are
 
 ## Two columns that look like the same column
 
 Below are three published counts for each of the five wijken read. The first two are commonly treated as measures of the third. Neither is.
 
-**Establishments, pupils taught, children resident**
-
 | Wijk | Primary establishments | Primary pupils taught in it | Residents under fifteen |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Bouwlust | 13 | 2,954 | 5,325 |
 | Wateringse Veld | 5 | 2,534 | 4,750 |
 | Morgenstond | 8 | 1,734 | 3,625 |
@@ -69,6 +59,8 @@ Below are three published counts for each of the five wijken read. The first two
 | Leyenburg | 4 | 1,454 | 2,395 |
 
 Two rows are worth staring at. Bouwlust has thirteen establishments and the Wateringse Veld has five, a ratio of nearly three to one, and they teach 2,954 and 2,534 pupils, which is not a ratio of nearly three to one. And Moerwijk has 435 more residents under fifteen than Morgenstond while 169 fewer primary pupils are taught inside it, from one establishment fewer. Those two subtractions are the only arithmetic on this page. Nothing is wrong with any of the published numbers. They simply count three different things, and the habit of reading them as one thing is what this page is about.
+
+Verified local facts
 
 ## Five rows in full, two subtractions, and the sixth wijk left out
 
@@ -100,6 +92,8 @@ Rustenburg en Oostbroek is the sixth wijk of Escamp and its row was not read for
 
 No relationship exists between Modern Age Coders and Escamp, its wijken, the municipality or any establishment counted above, and nothing on this page should be read as suggesting one. Each wijk row was taken from its own statistics office page. The vintages are mixed by the office rather than by this page: residents and ages are January 2026, households and housing are 2025, income is 2024. The 1986 formation of the stadsdeel and the 2009 completion of the Wateringse Veld are from the encyclopaedia entry.
 
+Signature project
+
 ## Necessary, sufficient, or neither
 
 One count of buildings, three questions it does not answer, and the two failure modes of every condition anybody has ever written.
@@ -116,10 +110,8 @@ Do thirteen establishments in Bouwlust guarantee that Bouwlust children have pla
 
 It measures buildings with a school registered at an address inside a boundary. That is a real and useful fact about buildings. It becomes a false one the moment it is offered as an answer to a question about children, and nobody has to lie for that to happen.
 
-**The same two questions, in five other places**
-
 | The condition | Necessary? | Sufficient? | What goes wrong when it is treated as both |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Being over eighteen, to open an account | yes | no | Adults are let through who fail the checks nobody wrote |
 | A filename ending in .jpg, to be an image | no | no | Real images rejected, and anything renamed accepted |
 | Passing the tests, to be correct | no | no | Green suite read as proof, untested paths shipped |
@@ -130,14 +122,14 @@ It measures buildings with a school registered at an address inside a boundary. 
 
 There are exactly two ways a condition can be wrong and they fail in opposite directions, which is why they are so rarely spotted together. A condition that is necessary but not sufficient lets things through: adulthood is required to open an account and is nowhere near enough, so a check that stops at age admits everyone who is old enough and fails everything else silently. A condition that is sufficient but not necessary keeps things out: a file ending in .jpg is probably an image, so a check that insists on the extension rejects every image that does not have it, and the rejection looks like the code working. Beginners write the first kind constantly, because the first condition they think of is genuinely required and the feeling of having thought of a real requirement is indistinguishable from the feeling of being finished. Experienced people write the second kind, because they know one reliable case and reach for it. The habit that fixes both takes fifteen seconds and is almost never done: for every condition, ask can this be false while the thing is still true, and can this be true while the thing is still false. If the first answer is yes the condition is not necessary. If the second is yes it is not sufficient. Most real conditions score yes on both, and once you have seen that written down you can no longer pretend the single test in front of you was the whole rule. This is the same move as noticing that thirteen buildings inside a boundary neither had to be there nor settle anything, and it is worth more than most of what gets called logic.
 
+Reliable pipeline
+
 ## Five habits for a count that seems to answer your question
 
 Headcount, licence count, ticket count, store count, school count: every one of them is a real measurement of something, and each gets quoted as an answer to a question it was not measuring. Practised on a stadsdeel where thirteen schools and five schools teach nearly the same number of children.
 
-**Checking a count against the question you actually had**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Write the question | Say what you wanted to know, before looking at any figure | A number arriving in search of a use | Something the count can be judged against |
 | Name the population | State exactly who or what the count counts | Two different groups read as one | The mismatch, if there is one |
 | Test necessity | Ask if the condition can be false while the thing is true | A missing case treated as a disproof | Whether absence means anything |
@@ -158,14 +150,37 @@ A rule at work that decides eligibility, access or a discount. Adults almost alw
 
 Every quoted figure above belongs to one of five wijk pages published by the statistics office, and each column carries the year the office assigned it rather than a year chosen here. The encyclopaedia entry supplied four things and nothing else: that the stadsdeel dates from 1986, that it holds six wijken, that the Wateringse Veld was finished in 2009, and a 2015 count of 120,080. Two subtractions, both shown, are the whole of the arithmetic.
 
+Learning ladder
+
 ## From a rule for joining a game to an eligibility clause nobody has re-read
 
 Which rung a learner starts on is decided in the free hour, by what they turn out to be able to do. No part of it depends on the wijk, and no part of it depends on their age either.
 
-- **Ages 6 to 10: Break your own rule** Children write a rule and then watch it admit the wrong person and turn away the right one. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Game Development for Kids](/courses/game-development-masterclass-for-kids)
-- **Ages 11 to 13: Two questions per condition** Learners ask of every test whether it has to be true and whether it is enough. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: The guard doing three jobs** Teenagers find the single condition standing in for a rule nobody wrote down, and write it. [App Development for Teens](/courses/complete-app-development-masterclass-for-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: The clause that was never required** Adults take a real eligibility rule apart and find both kinds of error in it. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Break your own rule
+
+Children write a rule and then watch it admit the wrong person and turn away the right one.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Game Development for Kids](/courses/game-development-masterclass-for-kids)Ages 11 to 13
+
+### Two questions per condition
+
+Learners ask of every test whether it has to be true and whether it is enough.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### The guard doing three jobs
+
+Teenagers find the single condition standing in for a rule nobody wrote down, and write it.
+
+[App Development for Teens](/courses/complete-app-development-masterclass-for-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### The clause that was never required
+
+Adults take a real eligibility rule apart and find both kinds of error in it.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## An AI will tell you Bouwlust has thirteen primary schools. Why should a teenager in Morgenstond ask thirteen schools for whom?
 
@@ -177,30 +192,139 @@ So the learner practises the two questions on everything, starting with their ow
 
 The case for a child in Escamp learning to code in 2026 is therefore not about schools. It is that code is unusually honest about conditions: write one that is not sufficient and something wrong gets through, write one that is not necessary and something right gets refused, and either way the program tells you, which is more than most arguments do. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes across the largest stadsdeel in The Hague
 
 Escamp runs from Leyenburg down to the Wateringse Veld, and Bouwlust alone covers 428 hectares, so this is a district where getting to a weekly activity is a real question rather than a formality.
 
-- **Four hundred and twenty-eight hectares, and no journey at all** Bouwlust is larger than several Dutch towns and the Wateringse Veld sits at the far southern edge of the city. A weekly class that requires crossing that is a class that gets dropped in November; one that starts at the kitchen table does not.
-- **The school words stay Dutch** Groep, havo, vwo and profielkeuze are used untranslated inside an English lesson. A child reading those on a report card should meet the same words in class, not an approximation that has to be converted back before it means anything.
-- **What the free hour is actually for** It is a lesson, with a task, taught by a teacher who is watching how the learner works rather than whether they say yes. It ends with a level, a course and a weekly time. Nothing is charged and no card is requested.
-- **Level decides the group; the address never does** Fifteen to twenty learners at the same stage, gathered from wherever they are. A single stadsdeel, however large, rarely holds enough people at one narrow level in one month, and waiting for it to is how a family ends up waiting a term.
-- **Eight lessons a month, holidays already in the plan** Two live lessons a week at a fixed hour. Zuid-Holland follows the regio Midden holiday calendar, which is published years ahead, so the weeks off are agreed at the start rather than discovered later.
-- **A gap that changes without anyone in India moving a clock** Three and a half hours in Dutch summer time, four and a half outside it. The teacher sits in a country that has kept one time for decades; the whole of the shift comes from this side, and neither setting touches the hours a family here would use.
+### Four hundred and twenty-eight hectares, and no journey at all
 
-**The most children in the stadsdeel, and still no guarantee of a group** Bouwlust has 5,325 residents under fifteen and the Wateringse Veld 4,750, the two largest child populations of the five wijken read here. That is a great many eleven-year-olds. It is still not five to ten of them at one particular stage of one particular subject in one particular month, because a stage is narrow and a wijk is only a place; the two conditions are independent, and having plenty of the second does nothing about the first. That is why the groups are built by stage from a worldwide pool, and why they run at every age between 6 and 67.
+Bouwlust is larger than several Dutch towns and the Wateringse Veld sits at the far southern edge of the city. A weekly class that requires crossing that is a class that gets dropped in November; one that starts at the kitchen table does not.
+
+### The school words stay Dutch
+
+Groep, havo, vwo and profielkeuze are used untranslated inside an English lesson. A child reading those on a report card should meet the same words in class, not an approximation that has to be converted back before it means anything.
+
+### What the free hour is actually for
+
+It is a lesson, with a task, taught by a teacher who is watching how the learner works rather than whether they say yes. It ends with a level, a course and a weekly time. Nothing is charged and no card is requested.
+
+### Level decides the group; the address never does
+
+Fifteen to twenty learners at the same stage, gathered from wherever they are. A single stadsdeel, however large, rarely holds enough people at one narrow level in one month, and waiting for it to is how a family ends up waiting a term.
+
+### Eight lessons a month, holidays already in the plan
+
+Two live lessons a week at a fixed hour. Zuid-Holland follows the regio Midden holiday calendar, which is published years ahead, so the weeks off are agreed at the start rather than discovered later.
+
+### A gap that changes without anyone in India moving a clock
+
+Three and a half hours in Dutch summer time, four and a half outside it. The teacher sits in a country that has kept one time for decades; the whole of the shift comes from this side, and neither setting touches the hours a family here would use.
+
+The most children in the stadsdeel, and still no guarantee of a group
+
+Bouwlust has 5,325 residents under fifteen and the Wateringse Veld 4,750, the two largest child populations of the five wijken read here. That is a great many eleven-year-olds. It is still not five to ten of them at one particular stage of one particular subject in one particular month, because a stage is narrow and a wijk is only a place; the two conditions are independent, and having plenty of the second does nothing about the first. That is why the groups are built by stage from a worldwide pool, and why they run at every age between 6 and 67.
+
+Fees
 
 ## The fee, in dollars, in all six wijken
 
 Set out here, not held back for a call.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 One international rate in dollars and no euro edition, so an address in the Hoge Veld pays exactly what one in Moerwijk pays. Nothing is due until the free lesson has fixed a course and an hour, and payment is arranged over WhatsApp after that. Pausing, changing plan and missing a week are all covered on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Escamp.)Reviews
+
+## Six Google reviews, exactly as the people who left them wrote them
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Send the level, not the wijk
+
+The first task might be a rule for joining a game that lets in the wrong child, an if statement asked whether it has to be true and whether it is enough, or a rule at work that decides who qualifies and has never been taken apart.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Escamp one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Escamp.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Escamp coding class questions
+
+The stadsdeel, its six wijken, one thing a count of buildings cannot tell you, the teaching and the terms.
 
 ### Which neighbourhoods make up Escamp?
 
@@ -242,10 +366,14 @@ The first lesson is free. After it, group tuition is USD 100 a month for two liv
 
 Fifteen to twenty, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
+Explore The Hague and beyond
+
 ## North into the centre, and out across Zuid-Holland
 
 North is [Den Haag Centrum](/coding-classes-in-the-hague-centrum), whose page refuses to grade a household figure at all. The city page, [coding classes in The Hague](/coding-classes-in-the-hague), carries all eight stadsdelen and the schools named across them. South-west across the boundary are the greenhouses of the [Westland](/coding-classes-in-westland), east is [Zoetermeer](/coding-classes-in-zoetermeer), and everything here sits inside [Zuid-Holland](/coding-classes-in-zuid-holland). Every page in this series hangs off the [Netherlands coding hub](/coding-classes-in-netherlands). Anyone whose real interest is training a model rather than writing a program has two better starting points: [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands), or the [AI and Python Academy](/ai-and-python-academy-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Finish this on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Escamp.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-escamp](https://learn.modernagecoders.com/coding-classes-in-escamp#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-escamp*

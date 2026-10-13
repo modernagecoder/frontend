@@ -4,46 +4,32 @@ description: "Live online coding and Python classes for Kingswinford, Wall Heath
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-kingswinford
 source: src/pages/online-coding-and-python-classes-in-kingswinford.html
 ---
-> Kingswinford is an ONS built-up area of 51,910 people (Census 2021) within the borough of Dudley, which had 323,486. Wall Heath, Wordsley, Pensnett and Bromley are gazetteer suburbs that fall inside it. Modern Age Coders teaches Python, coding, vibe coding, AI and maths live online to learners there aged six to 67. Tutors based in India take each lesson over video, either one-to-one or with a group of fifteen to twenty working at a shared level. We have learners count what their code does instead of assuming it. After a free first lesson we recommend a course. In the Kingswinford project a learner writes Shell sort in Python, puts 810 local street names into alphabetical order, and counts how the number of comparisons changes with the gaps chosen. Lessons then cost USD 100 a month in a group, or USD 150 a month one-to-one.
+> Live online coding and Python classes for Kingswinford, Wall Heath, Wordsley and Pensnett, ages 6 to 67, with vibe coding and AI. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [West Midlands region](/coding-and-ai-classes-in-west-midlands-region) / Kingswinford
-
-Kingswinford, Dudley, West Midlands / Live online
-
-# Online coding and Python classes in Kingswinford
-
-**What are the best online coding and Python classes for Kingswinford?** Kingswinford is an ONS built-up area of 51,910 people (Census 2021) within the borough of Dudley, which had 323,486. Wall Heath, Wordsley, Pensnett and Bromley are gazetteer suburbs that fall inside it. Modern Age Coders teaches Python, coding, vibe coding, AI and maths live online to learners there aged six to 67. Tutors based in India take each lesson over video, either one-to-one or with a group of fifteen to twenty working at a shared level. We have learners count what their code does instead of assuming it. After a free first lesson we recommend a course. In the Kingswinford project a learner writes Shell sort in Python, puts 810 local street names into alphabetical order, and counts how the number of comparisons changes with the gaps chosen. Lessons then cost USD 100 a month in a group, or USD 150 a month one-to-one.
-
-In 1959 Donald Shell noticed something about the simple card-player's way of sorting, where each new item is walked back past its neighbours until it fits. The method is slow because items only ever move one place at a time. His fix was to run the same loop first on items far apart, then closer, then adjacent. The code barely changes: one extra loop and one number, the gap. What nobody could say for certain, then or since, is which gaps to use. That makes it an unusually good lesson, because the learner can test the question on real data and get a clear answer in an afternoon.
-
-Facts last verified 30 September 2026. Teaching is online; no Kingswinford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks
 
 ## Python and coding courses for Kingswinford learners
 
 One suggestion per age band. Whichever you choose, lesson one is live, free and booked without a card.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): How to think like a programmer: sorting cards, spotting patterns and writing steps someone else can follow.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Vibe coding for children, building Scratch games with an AI and checking each piece works.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Typed Python from the ground up, with sorting, searching and the Kingswinford street-name project.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Students and adults): Python from zero to algorithms, data work and a first AI agent.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsHow to think like a programmer: sorting cards, spotting patterns and writing steps someone else can follow.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsVibe coding for children, building Scratch games with an AI and checking each piece works.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensTyped Python from the ground up, with sorting, searching and the Kingswinford street-name project.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)Students and adultsPython MasterclassPython from zero to algorithms, data work and a first AI agent.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)About the area
 
 ## Kingswinford, Wall Heath, Wordsley and Pensnett
 
 Census counts for the town and its borough, with the suburb names the postcode gazetteer holds.
 
-**Census 2021 usual residents (ONS)**
-
 | Area | Count |
-|---|---|
+| --- | --- |
 | Kingswinford built-up area | 51,910 |
 | Dudley borough | 323,486 |
 
@@ -53,6 +39,8 @@ The ONS built-up area called Kingswinford spans more than one postcode district.
 
 See also [Dudley](/online-coding-and-python-classes-in-dudley), [Stourbridge](/online-coding-and-python-classes-in-stourbridge) and the [West Midlands county page](/coding-classes-in-the-west-midlands). Our case for thinking skills first is on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Kingswinford project
+
 ## Shell sort: the same loop, run with different gaps
 
 Eight hundred and ten street names, four sets of gaps, and a counter on every comparison.
@@ -61,10 +49,8 @@ The learner asks OpenStreetMap for every named road in a rectangle drawn around 
 
 Shell sort picks a gap, say 40, and sorts the names that are 40 apart from one another using the card-player's method. Then it picks a smaller gap and repeats, finishing with a gap of 1. By that last pass the list is nearly in order, so little work remains. The Python is about ten lines, and the gaps are just a list handed to the function. The learner wraps each name so that every "is this one before that one?" adds 1 to a counter.
 
-**Comparisons needed to alphabetise 810 street names, our Python run**
-
 | Gaps used | As downloaded | Mean of 20 shuffles | Already sorted |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1 only (no Shell passes) | 169,625 | 165,423 | 809 |
 | Shell 1959: 405, 202, 101, 50, 25, 12, 6, 3, 1 | 12,471 | 12,154 | 6,485 |
 | Knuth: 121, 40, 13, 4, 1 | 10,571 | 10,769 | 3,871 |
@@ -90,14 +76,14 @@ Pass the gaps in as a list, test three published sequences, then invent a fourth
 
 Street names are from OpenStreetMap contributors under the Open Database Licence, fetched with a single Overpass query. The gap sequences are from Shell (1959), Knuth and Ciura (2001). The counting and every figure in the table are our own.
 
+Python with AI beside you
+
 ## What counting comparisons teaches about coding with AI
 
 A claim that code is "faster" is an invitation to measure it.
 
-**From sorting street names to working with an AI assistant**
-
 | In the Kingswinford run | Carry it over |
-|---|---|
+| --- | --- |
 | One number, the gap, changed the cost more than thirteenfold | Small parameters deserve attention |
 | Three published gap lists gave three results | Ask the AI which variant it wrote, and why |
 | Sorted input made Shell sort look wasteful | Test on more than one kind of input |
@@ -108,14 +94,37 @@ Ask an AI assistant to sort a list in Python and it will call sorted(), which is
 
 Modern Age Coders is independent of OpenStreetMap, the Office for National Statistics and postcodes.io. Their open data fed the exercise; the analysis is ours.
 
+The route through
+
 ## Card sorting at seven, measured Python at seventeen
 
 We place learners by what they can do in the trial lesson, with the school year as a starting hint.
 
-- **Years 2 to 6: How to think** Order, pattern and clear steps, practised away from the screen too. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: First real code** Scratch with AI help, then a gentle move into typed Python. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python properly** Functions, lists, sorting and searching, with counts and tests. [Python for Teens](/courses/python-complete-masterclass-teens), [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)
-- **Adults: Algorithms and agents** Data structures, then Python agents built on code you understand. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)
+Years 2 to 6
+
+### How to think
+
+Order, pattern and clear steps, practised away from the screen too.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### First real code
+
+Scratch with AI help, then a gentle move into typed Python.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python properly
+
+Functions, lists, sorting and searching, with counts and tests.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)Adults
+
+### Algorithms and agents
+
+Data structures, then Python agents built on code you understand.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)Python, sorting and AI
 
 ## What is Shell sort, and does it still matter when AI writes the code?
 
@@ -127,30 +136,139 @@ A learner who has produced that table treats any code, their own or an AI's, as 
 
 For a Kingswinford teenager, being able to measure what a program does is the difference between using AI and being led by it, and that skill is learned by coding. The longer argument is in [why coding is worth learning in 2026](/blog/is-coding-worth-learning-2026).
 
+Teaching method
+
 ## What a Kingswinford lesson looks like
 
 Lessons happen on a video call from your home. A computer with a keyboard and camera is required; a tablet alone is not enough for Python.
 
-- **The learner drives** They type and run the code on a shared screen while the tutor asks why each line is there.
-- **Level found, not guessed** The free lesson shows us what the learner already knows before we name a course.
-- **A trial with no strings** No fee, no card and no commitment for the first session.
-- **Fifteen to twenty per class** Classmates are at the same stage and log in from around the UK.
-- **About eight lessons a month** Twice a week in term, with Dudley school holidays left clear on request.
-- **Clock changes handled** Your UK lesson time is fixed through the year; tutors shift at their end.
+### The learner drives
 
-**Why live, and why online** Python is learned by typing it and being asked questions about it, which needs a live person. Teaching online lets us group learners by level instead of by postcode.
+They type and run the code on a shared screen while the tutor asks why each line is there.
+
+### Level found, not guessed
+
+The free lesson shows us what the learner already knows before we name a course.
+
+### A trial with no strings
+
+No fee, no card and no commitment for the first session.
+
+### Fifteen to twenty per class
+
+Classmates are at the same stage and log in from around the UK.
+
+### About eight lessons a month
+
+Twice a week in term, with Dudley school holidays left clear on request.
+
+### Clock changes handled
+
+Your UK lesson time is fixed through the year; tutors shift at their end.
+
+Why live, and why online
+
+Python is learned by typing it and being asked questions about it, which needs a live person. Teaching online lets us group learners by level instead of by postcode.
+
+Fees
 
 ## What Kingswinford lessons cost
 
 One price list applies outside India, and Kingswinford families are on it.
 
-- First class: USD 0. First lesson: free and full length, ending with a course recommendation.
-- Group tuition: USD 100 a month. Group class, roughly eight lessons in a month.
-- Private tuition: USD 150 a month. One-to-one tuition, roughly eight lessons in a month.
+First class**USD 0**
+
+First lesson: free and full length, ending with a course recommendation.
+
+Group tuition**USD 100**
+
+Group class, roughly eight lessons in a month.
+
+Private tuition**USD 150**
+
+One-to-one tuition, roughly eight lessons in a month.
 
 All prices are in US dollars, with no sterling equivalent quoted by us. You pay nothing before the trial, and billing begins only once you have accepted a course and a time. Holiday pauses, missed lessons and switching format are covered on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20Python%20or%20coding%20trial%20lesson%3F%20We%20are%20in%20Kingswinford.)Reviews
+
+## West Midlands families and UK learners on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Request a free Kingswinford lesson
+
+Tell us the learner's age or year and what they like doing. The trial might be a card-sorting race, a Scratch game made with AI, a first Python program, or a sort with a counter attached.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Kingswinford one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20Python%20or%20coding%20trial%20lesson%3F%20We%20are%20in%20Kingswinford.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Kingswinford FAQs
+
+Shell sort, the street-name project, Python, vibe coding and how lessons are arranged.
 
 ### What is the population of Kingswinford?
 
@@ -192,10 +310,14 @@ The first lesson is free. Group lessons are USD 100 a month and one-to-one lesso
 
 Yes. Let us know the dates and those weeks are left out.
 
+Close by
+
 ## Other pages in the West Midlands set
 
 Have a look at [Dudley](/online-coding-and-python-classes-in-dudley) (timing slow and fast joins), [Stourbridge](/online-coding-and-python-classes-in-stourbridge) and [Halesowen](/vibe-coding-and-ai-agents-classes-in-halesowen). The [West Midlands page](/coding-classes-in-the-west-midlands) and the [UK hub](/coding-classes-in-united-kingdom) list the others.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Ask us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20Python%20or%20coding%20trial%20lesson%3F%20We%20are%20in%20Kingswinford.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/online-coding-and-python-classes-in-kingswinford](https://learn.modernagecoders.com/online-coding-and-python-classes-in-kingswinford#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-kingswinford*

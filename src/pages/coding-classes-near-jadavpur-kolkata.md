@@ -12,7 +12,7 @@ Jadavpur · Kolkata's University Town
 
 Modern Age Coders runs premium, live online coding and mathematics classes for families near Jadavpur, Kolkata, from six-year-olds on Scratch to Jadavpur University students sharpening DSA for placements. We teach Python, Java (BlueJ), AI/ML and ICSE/CBSE board prep in live batches of 15–20, led by full-time engineers and maths graduates. No pre-recorded videos, no commute down Raja S.C. Mallick Road. Every class is real, live and project-based.
 
-Live, not pre-recordedSmall batches (15–20)Taught by full-time engineersICSE · CBSE · WBBSE aligned[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)10,000+Students taught online4.9/5Parent rating4–8Students per live batchFreeFirst demo classLive Online · Jadavpur, Kolkata
+Live, not pre-recordedBatches (15–20)Taught by full-time engineersICSE · CBSE · WBBSE aligned[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)10,000+Students taught online4.9/5Parent rating15–20Students per live batchFreeFirst demo classLive Online · Jadavpur, Kolkata
 
 ## At a glance
 

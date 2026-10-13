@@ -4,46 +4,32 @@ description: "Live online coding, Python and maths classes across Rutland, from 
 canonical: https://learn.modernagecoders.com/coding-classes-in-rutland
 source: src/pages/coding-classes-in-rutland.html
 ---
-> Rutland is a single council area, and the 2021 Census counted 41,049 people there. Oakham is the county town and much the largest parish, with Uppingham second, then villages such as Cottesmore, Ketton and Ryhall. In a county this small, finding a local class at exactly the right level is hard, which is where live online teaching helps. We teach over video from India and match each learner to a class by ability, not age, for anyone from 6 to 67, in groups of fifteen to twenty or one-to-one, across coding, Python, data structures and maths. The Rutland project turns the whole county into a tree. There is no fee for the first lesson; after that it is USD 100 a month for a group place or USD 150 a month for one-to-one teaching.
+> Live online coding, Python and maths classes across Rutland, from Oakham and Uppingham to Cottesmore, Ketton, Ryhall, Empingham, Whissendine and Edith Weston.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Rutland
-
-Rutland / Live online
-
-# Coding classes in Rutland
-
-**What are the best coding classes in Rutland?** Rutland is a single council area, and the 2021 Census counted 41,049 people there. Oakham is the county town and much the largest parish, with Uppingham second, then villages such as Cottesmore, Ketton and Ryhall. In a county this small, finding a local class at exactly the right level is hard, which is where live online teaching helps. We teach over video from India and match each learner to a class by ability, not age, for anyone from 6 to 67, in groups of fifteen to twenty or one-to-one, across coding, Python, data structures and maths. The Rutland project turns the whole county into a tree. There is no fee for the first lesson; after that it is USD 100 a month for a group place or USD 150 a month for one-to-one teaching.
-
-Rutland's motto is Multum in Parvo, much in little, and Discover Rutland calls it England's smallest county. Small is useful for a programmer, because it means the whole county fits into one data structure you can print on a page. This project builds Rutland as a tree: the county at the root, its parishes as branches, and the 2021 Census output areas as leaves, each holding a count of people. The learner walks the tree in different orders to print it, total it and search it, and then meets a real surprise: the leaves add up to one person fewer than the county total the ONS publishes, for a reason the ONS explains itself.
-
-Facts last verified 26 September 2026. Teaching is online; no Rutland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Rutland
 
 ## Where Rutland learners begin
 
 A seven-year-old in Ketton who loves sorting things into groups, a Year 7 in Oakham curious about how family trees work, a Year 12 in Uppingham preparing for computer science, and an adult in Empingham getting to grips with data. Each starts with a free lesson.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): Logic, sorting and grouping puzzles, including Venn diagrams and step-by-step problem solving.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Typed Python for children, with games, puzzles and first steps with data and AI.
-- [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens) (Ages 13 to 18): Algorithms and data structures for teenagers, from lists to trees and the orders you can walk them in.
-- [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college) (Adults): Data structures and algorithms for adults, from stacks and queues to trees, heaps and graphs.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsLogic, sorting and grouping puzzles, including Venn diagrams and step-by-step problem solving.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsTyped Python for children, with games, puzzles and first steps with data and AI.See the syllabus](/courses/python-ai-kids-masterclass)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)Ages 13 to 18Problem Solving for TeensAlgorithms and data structures for teenagers, from lists to trees and the orders you can walk them in.See the syllabus](/courses/problem-solving-dsa-masterclass-teens)[![Data Structures & Algorithms Course course thumbnail](/images/dsa-college.webp)AdultsData Structures & Algorithms CourseData structures and algorithms for adults, from stacks and queues to trees, heaps and graphs.See the syllabus](/courses/data-structures-algorithms-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Rutland in figures
 
 ## 41,049 people in 39 parish branches
 
 The county count is the 2021 Census figure on Nomis. Parish figures are our own sums of the census output areas that the ONS assigns to each parish.
 
-**Rutland's largest parishes by our sum of 2021 Census output areas**
-
 | Parish | Residents | Output areas |
-|---|---|---|
+| --- | --- | --- |
 | Oakham | 11,165 | 36 |
 | Uppingham | 4,722 | 15 |
 | Cottesmore | 3,084 | 8 |
@@ -59,16 +45,16 @@ Oakham holds about 27 per cent of the county on its own, and Oakham and Uppingha
 
 Rutland sits between [Leicestershire](/coding-classes-in-leicestershire), [Lincolnshire](/coding-classes-in-lincolnshire) and [Northamptonshire](/coding-classes-in-northamptonshire), with [Peterborough](/best-coding-class-in-peterborough) a short way east.
 
+The Rutland project
+
 ## A whole county as one tree
 
 Real census data, four ways to walk a tree, and a total that is one person out.
 
 The learner downloads two things: the 2021 Census count for each of Rutland's 128 output areas from Nomis, and the ONS lookup that says which parish each output area belongs to. Every output area appears exactly once, so the pieces fit into a tree with 168 nodes: one root for the county, 39 parish branches and 128 leaves. Output areas range from 103 residents to 1,221, averaging about 321. Now the program walks the tree in different orders, each useful for a different job.
 
-**Four ways our program walks the Rutland tree**
-
 | Walk | Order it visits | What it is good for |
-|---|---|---|
+| --- | --- | --- |
 | Pre-order | Parent first, then its children | Printing the tree as an indented list, county at the top |
 | Post-order | Children first, then the parent | Adding up: each parish total needs its areas first |
 | Level order | Root, then all parishes, then all areas | Counting nodes at each depth: 1, 39 and 128 |
@@ -94,14 +80,14 @@ Write recursive pre-order and post-order functions, a level-order walk with a qu
 
 Every count is the ONS's, from Census 2021 on Nomis, and the parish assignments come from the ONS lookup. The tree, its totals and the traversal code are ours. The explanation of the gap is quoted from the ONS page on protecting personal data in Census 2021 results.
 
+Why Rutland
+
 ## Much in little, from a Norman hall to a data structure
 
 The Rutland link, from the county's own sites.
 
-**Rutland in its own words**
-
 | Source | What it says |
-|---|---|
+| --- | --- |
 | Discover Rutland | Rutland is England's smallest county, with the motto Multum in Parvo, much in little. |
 | Oakham Castle | Its Great Hall was built between 1180 and 1190. |
 | Oakham Castle | It calls the hall the finest surviving example of Norman domestic architecture in Europe. |
@@ -112,16 +98,41 @@ Trees are everywhere in computing: folders on a disk, the structure of a web pag
 
 Modern Age Coders is independent of Rutland County Council, Oakham Castle, Discover Rutland and the Office for National Statistics. Their facts are theirs; the tree, our sums and any slips in them are ours.
 
-**Nearby pages** [Leicestershire](/coding-classes-in-leicestershire) wraps round the west, with [Lincolnshire](/coding-classes-in-lincolnshire) north-east, [Northamptonshire](/coding-classes-in-northamptonshire) south and [Peterborough](/best-coding-class-in-peterborough) east.
+Nearby pages
+
+[Leicestershire](/coding-classes-in-leicestershire) wraps round the west, with [Lincolnshire](/coding-classes-in-lincolnshire) north-east, [Northamptonshire](/coding-classes-in-northamptonshire) south and [Peterborough](/best-coding-class-in-peterborough) east.
+
+The path
 
 ## From sorting games to recursive trees
 
 The free lesson settles where each learner starts. Age suggests, ability decides.
 
-- **Ages 6 to 10: Sort and group** Block coding and puzzles that sort things into groups, the first step towards thinking in trees. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 8 to 13: Lists of lists** Typed Python with lists and dictionaries, building small nested structures and adding them up. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 18: Trees and recursion** Data structures and algorithms for teenagers, including recursion, trees and traversal orders. [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Structures for work** Trees, heaps, graphs and the rest for adults, whether for interviews, study or work with data. [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### Sort and group
+
+Block coding and puzzles that sort things into groups, the first step towards thinking in trees.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 8 to 13
+
+### Lists of lists
+
+Typed Python with lists and dictionaries, building small nested structures and adding them up.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 18
+
+### Trees and recursion
+
+Data structures and algorithms for teenagers, including recursion, trees and traversal orders.
+
+[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Structures for work
+
+Trees, heaps, graphs and the rest for adults, whether for interviews, study or work with data.
+
+[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)AI and official data
 
 ## An AI will happily add up the parts. Will it tell you they should not match?
 
@@ -133,30 +144,139 @@ A Rutland student who has read the ONS explanation knows to quote the published 
 
 So a young person in Rutland should learn to code in 2026 to understand where numbers come from, not only how to add them. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+The everyday details
+
 ## From Oakham to the smallest parish
 
 In a county of villages, a weekly class at the right level might mean a long drive out of the county. Online lessons remove the drive.
 
-- **Lessons in your own home** A cottage in Lyddington, a new house in Barleythorpe, a farmhouse near Clipsham. The screen is shared and the learner does the coding.
-- **The school words, unchanged** Key stages, year groups, GCSEs and A levels are used as Rutland schools use them, and the teaching is in English.
-- **The first lesson is free** A proper lesson with real work, then a straight answer on level and course, without card details.
-- **A group that matches you** Fifteen to twenty learners at one stage, from Rutland, the rest of the UK and abroad.
-- **Breaks when you need them** Two lessons a week for most learners, with pauses for your own school holidays.
-- **UK time, clock change or not** Your slot is fixed in UK time all year; the teacher, whose day runs on India time a few hours ahead, adapts when the UK clocks move.
+### Lessons in your own home
 
-**Why groups are built on level** With about 41,000 people across the whole county, five learners at one stage on the same evening are almost impossible to find locally. Level-based groups mean a learner in Whissendine or Morcott still joins the right class.
+A cottage in Lyddington, a new house in Barleythorpe, a farmhouse near Clipsham. The screen is shared and the learner does the coding.
+
+### The school words, unchanged
+
+Key stages, year groups, GCSEs and A levels are used as Rutland schools use them, and the teaching is in English.
+
+### The first lesson is free
+
+A proper lesson with real work, then a straight answer on level and course, without card details.
+
+### A group that matches you
+
+Fifteen to twenty learners at one stage, from Rutland, the rest of the UK and abroad.
+
+### Breaks when you need them
+
+Two lessons a week for most learners, with pauses for your own school holidays.
+
+### UK time, clock change or not
+
+Your slot is fixed in UK time all year; the teacher, whose day runs on India time a few hours ahead, adapts when the UK clocks move.
+
+Why groups are built on level
+
+With about 41,000 people across the whole county, five learners at one stage on the same evening are almost impossible to find locally. Level-based groups mean a learner in Whissendine or Morcott still joins the right class.
+
+Fees
 
 ## Fees in Rutland
 
 Uppingham or Tinwell, the price is the same, and it is the same in every country we teach other than India.
 
-- First class: USD 0. One real lesson with genuine work, then advice on level and course.
-- Group tuition: USD 100 a month. About eight lessons a month with a group of fifteen to twenty at one level.
-- Private tuition: USD 150 a month. About eight lessons a month, one-to-one with a teacher.
+First class**USD 0**
+
+One real lesson with genuine work, then advice on level and course.
+
+Group tuition**USD 100**
+
+About eight lessons a month with a group of fifteen to twenty at one level.
+
+Private tuition**USD 150**
+
+About eight lessons a month, one-to-one with a teacher.
 
 We price and bill in US dollars, not pounds. There is no charge until the free lesson has settled a course and a weekly time, and the pricing page explains pauses, missed lessons and switching between group and private.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20live%20in%20Rutland%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Reviews
+
+## Families on Google, in brief
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson in Rutland
+
+Send the learner's age or year group and a couple of interests. A first lesson might be a sorting game, a first Python dictionary, or the Rutland tree on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Rutland one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20live%20in%20Rutland%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Rutland questions
+
+The county, the tree project and how lessons work.
 
 ### How many people live in Rutland?
 
@@ -198,10 +318,14 @@ The first lesson is free. After that, a group place is USD 100 per month and one
 
 Yes. Rutland County Council and academy trusts publish their own dates; tell us yours and we will plan breaks around them.
 
+Neighbours
+
 ## Pages around Rutland
 
 Try [Leicestershire](/coding-classes-in-leicestershire), [Lincolnshire](/coding-classes-in-lincolnshire), [Northamptonshire](/coding-classes-in-northamptonshire) or [Peterborough](/best-coding-class-in-peterborough). The [UK hub](/coding-classes-in-united-kingdom) has every other area.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20live%20in%20Rutland%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-rutland](https://learn.modernagecoders.com/coding-classes-in-rutland#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-rutland*

@@ -392,7 +392,7 @@ Group classes start at ₹1,499 a month, a mini batch with near one-to-one atten
 
 Both are live and taught by an expert mentor. Group classes in batches of 15 to 20 are the most affordable and add peer learning, a mini batch of up to 6 gives near one-to-one attention, and 1-on-1 gives a fully personalised pace. Start with a free demo, and you can change your plan later.
 
-## Browse all 122 courses
+## Browse all 128 courses
 
 Every live course we teach, by audience. Each link opens the full syllabus, projects, schedule and pricing.
 
@@ -457,6 +457,7 @@ Every live course we teach, by audience. Each link opens the full syllabus, proj
 
 - [Codex + Claude Code Masterclass](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)
 - [AI Agents with Copilot Studio](/courses/ai-agents-with-microsoft-copilot-studio-course-for-college-students)
+- [Build AI Agents with Google Gemini Enterprise](/courses/build-ai-agents-with-google-gemini-enterprise-course)
 - [Copilot Studio Agent Masterclass](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals)
 - [Vibe Coding for College](/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course)
 - [Git & GitHub for College](/courses/git-github-version-control-course-for-college-students)
@@ -506,6 +507,7 @@ Every live course we teach, by audience. Each link opens the full syllabus, proj
 - [Mental Maths Mastery (Ages 5-10)](/courses/mental-maths-mastery-kids/)
 - [PSLE Maths Mastery](/courses/psle-maths-mastery/)
 - [Abacus & Mental Maths for Kids](/courses/abacus-mental-maths-course-for-kids/)
+- [KS2 SATs Maths (UK)](/courses/ks2-sats-maths-course/)
 
 ### Maths for middle school
 
@@ -526,6 +528,8 @@ Every live course we teach, by audience. Each link opens the full syllabus, proj
 - [CBSE Class 10 Maths Board Prep](/courses/cbse-class-10-maths-board-exam-prep-course/)
 - [JEE Foundation Maths (8-10)](/courses/jee-foundation-maths-course-class-8-10/)
 - [A-Level Maths](/courses/a-level-maths-course-pure-mechanics-statistics/)
+- [A-Level Further Maths](/courses/a-level-further-maths-course/)
+- [National 5 & Higher Maths (Scotland)](/courses/national-5-and-higher-maths-course/)
 - [AP Statistics](/courses/ap-statistics-maths-exam-prep-course/)
 - [AP Precalculus](/courses/ap-precalculus-exam-prep-course/)
 - [Olympiad Mathematics (IOQM, INMO, AMC)](/courses/olympiad-mathematics-premium-course/)
@@ -534,6 +538,8 @@ Every live course we teach, by audience. Each link opens the full syllabus, proj
 
 - [College Math Masterclass](/courses/college-mathematics-complete-masterclass/)
 - [Applied Mathematics](/courses/college-mathematics-complete-masterclass/)
+- [GCSE Maths Resit (Post-16 & Adults)](/courses/gcse-maths-resit-course/)
+- [Functional Skills Maths L1 & L2](/courses/functional-skills-maths-course/)
 - [Statistics & Probability](/courses/statistics-probability-maths-course/)
 - [GRE & GMAT Quant Prep](/courses/gre-gmat-quant-maths-prep-course/)
 - [Business & Finance Math](/courses/complete-business-finance-mathematics-mastery/)

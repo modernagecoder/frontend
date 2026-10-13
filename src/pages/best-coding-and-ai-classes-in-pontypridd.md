@@ -4,46 +4,32 @@ description: "Live online coding and AI classes for Pontypridd, Treforest, Cilfy
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-pontypridd
 source: src/pages/best-coding-and-ai-classes-in-pontypridd.html
 ---
-> In the 2021 census the Pontypridd built-up area had 31,900 usual residents, and Rhondda Cynon Taf as a whole 237,651. The built-up area takes in Treforest, Trallwn, Cilfynydd, Graig, Hopkinstown, Glyncoch, Maesycoed, Rhydyfelin, Hawthorn and Upper Boat. Modern Age Coders teaches coding, AI, Python, vibe coding and maths to Pontypridd learners aged six to 67, in live video classes led by tutors in India, on their own with a tutor or alongside fifteen to twenty classmates who are at the same point. The trial lesson is free and finishes with a course recommendation. For the Pontypridd project, a learner puts all 885 CF37 postcodes into a skip list, a structure that uses coin tosses to build express lanes, and measures how it compares with scanning and with binary search. Once the trial is done, fees run at USD 100 monthly for a shared class or USD 150 monthly for a tutor of your own.
+> Live online coding and AI classes for Pontypridd, Treforest, Cilfynydd and Rhydyfelin, ages 6 to 67, with Python and maths. Book a free first lesson today.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Pontypridd
-
-Pontypridd, Rhondda Cynon Taf, Wales / Live online
-
-# Coding and AI classes in Pontypridd
-
-**Where can Pontypridd learners find the best coding and AI classes?** In the 2021 census the Pontypridd built-up area had 31,900 usual residents, and Rhondda Cynon Taf as a whole 237,651. The built-up area takes in Treforest, Trallwn, Cilfynydd, Graig, Hopkinstown, Glyncoch, Maesycoed, Rhydyfelin, Hawthorn and Upper Boat. Modern Age Coders teaches coding, AI, Python, vibe coding and maths to Pontypridd learners aged six to 67, in live video classes led by tutors in India, on their own with a tutor or alongside fifteen to twenty classmates who are at the same point. The trial lesson is free and finishes with a course recommendation. For the Pontypridd project, a learner puts all 885 CF37 postcodes into a skip list, a structure that uses coin tosses to build express lanes, and measures how it compares with scanning and with binary search. Once the trial is done, fees run at USD 100 monthly for a shared class or USD 150 monthly for a tutor of your own.
-
-Most data structures are built with care: every branch balanced, every rule enforced. A skip list is built by tossing coins. Each item goes into an ordinary sorted chain, and then a coin decides whether it also gets a place on a faster lane above, and another toss whether it goes higher still. William Pugh published the idea in 1990, and it still runs inside software used every day. It sounds too casual to work. In Pontypridd we test it on every postcode in CF37.
-
-Facts last verified 1 October 2026. Teaching is online; no Pontypridd branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentRecommended courses
 
 ## Coding and AI courses for Pontypridd learners
 
 Choose by age. Every course opens with a free live lesson, booked without a card.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): Searching, sorting and shortcut games, worked through before any code.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Children ask an AI for a Scratch game, then test it and fix what is wrong.
-- [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens) (Ages 13 to 17): Data structures and algorithms in Python, including the CF37 skip list.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Students and adults): Python from first lines to efficient data handling and AI tools.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsSearching, sorting and shortcut games, worked through before any code.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsChildren ask an AI for a Scratch game, then test it and fix what is wrong.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)Ages 13 to 17Problem Solving for TeensData structures and algorithms in Python, including the CF37 skip list.See the syllabus](/courses/problem-solving-dsa-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)Students and adultsPython MasterclassPython from first lines to efficient data handling and AI tools.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Pontypridd at a glance
 
 ## Pontypridd, Treforest, Trallwn, Cilfynydd and Glyncoch
 
 Census counts, the neighbourhoods inside the town, and the postcode district we use.
 
-**Census 2021 (ONS)**
-
 | Area | Usual residents |
-|---|---|
+| --- | --- |
 | Pontypridd built-up area | 31,900 |
 | Rhondda Cynon Taf county borough | 237,651 |
 
@@ -53,18 +39,18 @@ Rhondda Cynon Taf also covers Aberdare, the Rhondda valleys and Mountain Ash, so
 
 Try [Cardiff](/best-coding-class-in-cardiff), [Rhondda Cynon Taf](/coding-classes-in-rhondda-cynon-taf), [Caerphilly](/coding-classes-in-caerphilly-county-borough) and [WJEC GCSE Computer Science help](/wjec-gcse-computer-science-help-wales). We explain why every learner must be able to read their own code in [understand the code, don't copy-paste](/understand-the-code-dont-copy-paste-uk).
 
+The Pontypridd project
+
 ## Express lanes through 885 postcodes, decided by coin tosses
 
 Three ways to find a postcode in a sorted list, counted comparison by comparison.
 
-The data is every CF37 postcode in Ordnance Survey's Code-Point Open, 885 of them, sorted from CF37 1AA upwards. The question is simple: how many times must the program compare two postcodes before it finds the one it wants? The slowest answer is to start at the top and read down, which takes 443 comparisons on average. The usual fast answer is binary search, the method behind Python's bisect module: look at the middle, discard the half that cannot hold the target, repeat. That takes 10.85 comparisons on average, close to the 9.79 you get from log base 2 of 885.
+The data is every CF37 postcode in Ordnance Survey's Code-Point Open, 885 of them, sorted from CF37 1AA upwards. The question is simple: how many times must the program compare two postcodes before it finds the one it wants? The slowest answer is to start at the top and read down, which takes 443 comparisons on average. The usual fast answer is binary search, the method behind Python's `bisect` module: look at the middle, discard the half that cannot hold the target, repeat. That takes 10.85 comparisons on average, close to the 9.79 you get from log base 2 of 885.
 
 Binary search needs the whole list stored in one block so it can jump straight to the middle. A linked list, where each postcode only knows the next one, cannot jump. The skip list fixes that by adding lanes. Every postcode sits on level 1. A coin toss decides whether it also sits on level 2; if that toss succeeds, another toss decides level 3, and so on. A search starts on the highest lane, runs forward until the next stop would overshoot, drops down a lane, and repeats until it reaches level 1.
 
-**Comparisons to find a CF37 postcode, our Python run**
-
 | Method | Average comparisons | Extra links per postcode |
-|---|---|---|
+| --- | --- | --- |
 | Read the list from the top | 443 | none |
 | Binary search (bisect) | 10.85 | none |
 | Skip list, coin lands heads half the time | 19.15 | about 1 |
@@ -90,14 +76,14 @@ Build the skip list, run 20 random builds, and explain why the worst case moves 
 
 Postcodes are from Ordnance Survey Code-Point Open 2026.3.0, which contains Royal Mail and Ordnance Survey data under the Open Government Licence. Census figures are from the ONS. The skip list, the 20 random builds and every count in the table come from our own Python run; a different set of coin tosses gives slightly different numbers.
 
+Data structures and AI
+
 ## What a coin-toss data structure teaches about AI-written code
 
 Randomness can be a design choice, but only if you measure what it does.
 
-**From the CF37 skip list to working with AI**
-
 | Finding from the postcodes | Lesson for AI-written code |
-|---|---|
+| --- | --- |
 | Binary search beat the skip list on lookups | The fanciest structure is not always the right one |
 | Skip lists win when data keeps changing | Choose for the job: reads, writes or both |
 | 20 builds gave 20 different averages | Test randomised code more than once |
@@ -108,14 +94,37 @@ Ask an AI for "a fast way to look up postcodes" and you may get a skip list, a b
 
 Ordnance Survey, the ONS, postcodes.io and Redis have no connection with Modern Age Coders. We use their published data and documentation; the experiments are ours.
 
+Stages
+
 ## From paper shortcuts at seven to measured data structures at seventeen
 
 We start from the Welsh school year and let the trial lesson adjust it.
 
-- **Years 2 to 6: Finding things fast** Searching games, ordering and shortcuts, often on paper first. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Making with AI** Scratch built with an AI helper, then the first steps in Python. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Structures and algorithms** Lists, searches and randomised structures, counted and compared in Python. [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Code that scales** Python for work, with the data structure choices explained and tested. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)
+Years 2 to 6
+
+### Finding things fast
+
+Searching games, ordering and shortcuts, often on paper first.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Making with AI
+
+Scratch built with an AI helper, then the first steps in Python.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Structures and algorithms
+
+Lists, searches and randomised structures, counted and compared in Python.
+
+[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Code that scales
+
+Python for work, with the data structure choices explained and tested.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)Searching and AI
 
 ## What is a skip list, and why does it matter when AI suggests a data structure?
 
@@ -127,30 +136,139 @@ Learners who measure that understand that a suggested structure is a trade, and 
 
 For a Pontypridd teenager, measuring before trusting is what keeps them in charge of AI tools rather than led by them, and that habit comes from writing the code. The longer argument is in [why it still pays to learn coding in 2026](/blog/is-coding-worth-learning-2026).
 
+Lessons
+
 ## How classes run for a Pontypridd learner
 
 All lessons are live on video. A computer with a keyboard is needed, because a tablet alone cannot run Python well.
 
-- **Code by the learner** The learner types and runs everything, and explains it as they go.
-- **Level first** The trial lesson shows us the starting point before we suggest a course.
-- **No-cost trial** The first lesson is free and asks for no payment details.
-- **Five to ten together** Groups share one level and join from across the UK.
-- **About eight a month** Normally two sessions weekly during term; ask and we skip the local school holidays.
-- **UK clock kept** Lessons stay at the same UK time through the clock changes.
+### Code by the learner
 
-**Why online** Matching fifteen to twenty learners at one exact level is much easier across the UK than in one valley town, and video means no travelling.
+The learner types and runs everything, and explains it as they go.
+
+### Level first
+
+The trial lesson shows us the starting point before we suggest a course.
+
+### No-cost trial
+
+The first lesson is free and asks for no payment details.
+
+### Fifteen to twenty together
+
+Groups share one level and join from across the UK.
+
+### About eight a month
+
+Normally two sessions weekly during term; ask and we skip the local school holidays.
+
+### UK clock kept
+
+Lessons stay at the same UK time through the clock changes.
+
+Why online
+
+Matching fifteen to twenty learners at one exact level is much easier across the UK than in one valley town, and video means no travelling.
+
+Fees
 
 ## Prices for Pontypridd families
 
 Learners in Pontypridd pay what all learners outside India pay.
 
-- First class: USD 0. First lesson: free and a full session, with a course suggestion to close.
-- Group tuition: USD 100 a month. Group class, generally eight lessons a month.
-- Private tuition: USD 150 a month. Private lessons, generally eight a month.
+First class**USD 0**
+
+First lesson: free and a full session, with a course suggestion to close.
+
+Group tuition**USD 100**
+
+Group class, generally eight lessons a month.
+
+Private tuition**USD 150**
+
+Private lessons, generally eight a month.
 
 Our fees are in US dollars and we publish no sterling price. The trial is free, and charges begin only after a course and a fixed weekly time are agreed. The pricing page explains breaks for holidays, missed lessons and switching between group and private.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20to%20book%20a%20free%20coding%20or%20AI%20trial%20lesson.%20We%20are%20in%20Pontypridd.)Reviews
+
+## Google reviews from families in Wales and around the UK
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Pontypridd lesson
+
+Tell us the learner's age or school year and what they like. The trial might be a shortcut game, a Scratch game built with an AI, a first Python program, or the CF37 postcode search.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Pontypridd one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20to%20book%20a%20free%20coding%20or%20AI%20trial%20lesson.%20We%20are%20in%20Pontypridd.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Pontypridd questions
+
+The skip list project, searching, vibe coding and practical details.
 
 ### How many people live in Pontypridd?
 
@@ -192,10 +310,14 @@ The trial lesson is free. After that, group classes cost USD 100 a month and pri
 
 Yes. Send the Rhondda Cynon Taf term dates and we keep the holidays free.
 
+More nearby
+
 ## More pages for South Wales
 
 Visit [Cardiff](/best-coding-class-in-cardiff), [Llandaff](/vibe-coding-and-ai-agents-classes-in-llandaff-cardiff), [Caerphilly](/coding-classes-in-caerphilly-county-borough) and [Rhondda Cynon Taf](/coding-classes-in-rhondda-cynon-taf). Every other Welsh town is on our [page for Wales](/coding-and-ai-classes-in-wales), and the rest of Britain on the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20to%20book%20a%20free%20coding%20or%20AI%20trial%20lesson.%20We%20are%20in%20Pontypridd.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-and-ai-classes-in-pontypridd](https://learn.modernagecoders.com/best-coding-and-ai-classes-in-pontypridd#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-pontypridd*

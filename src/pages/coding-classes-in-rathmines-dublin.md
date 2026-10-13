@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths classes for Rathmines lea
 canonical: https://learn.modernagecoders.com/coding-classes-in-rathmines-dublin
 source: src/pages/coding-classes-in-rathmines-dublin.html
 ---
-> Rathmines learners join a live video lesson led by a teacher, in a small group at one level or on their own, usually twice a week, and the classes take anyone from six years old to sixty-seven. There is no journey to make. The first lesson is free; from then on it is USD 100 a month in a group, or USD 150 a month taught one to one.
+> Live online coding, Python, AI and maths classes for Rathmines learners aged 6 to 67, in small groups at one level or one to one. Your first lesson costs nothing.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [Dublin](/best-coding-class-in-dublin) / Rathmines
-
-Rathmines, Dublin 6 / Live online
-
-# Coding classes in Rathmines
-
-**What are the best coding classes in Rathmines?** Rathmines learners join a live video lesson led by a teacher, in a small group at one level or on their own, usually twice a week, and the classes take anyone from six years old to sixty-seven. There is no journey to make. The first lesson is free; from then on it is USD 100 a month in a group, or USD 150 a month taught one to one.
-
-In November 2012 Dublin City Council's libraries logged 43,295 adult fiction loans and renewals, and Rathmines Library handled 3,661 of them, 8.46 percent. One novel broke that pattern. Of the 142 times Jon McGregor's Even the dogs went out across the city, 34 were at Rathmines, where its ordinary share would predict 12. Comparing a branch's share of one book with its share of everything is a standard tool with a well-known trap, and this page teaches both: the ratio, and why a list ranked by it needs a minimum count before it means anything.
-
-Facts last verified 20 September 2026. Teaching is online; no Rathmines branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Rathmines
 
 ## Four first courses for Rathmines
 
 The age band is a starting point; the teacher checks the level in the free first lesson and moves the learner to a better-fitting course if needed.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Blocks and tallies: counting which books one class borrows and comparing it with the whole school.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 13): Shares, ratios and fair comparisons, worked through in code.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 18): Python with a real library file: counting, turning two totals into a ratio, and testing what chance alone would produce.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (College and adult): For adults who compare branches, shops or regions and need to know when a high ratio is real.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlocks and tallies: counting which books one class borrows and comparing it with the whole school.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 13Maths Through CodingShares, ratios and fair comparisons, worked through in code.See the syllabus](/courses/maths-through-coding)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 18Data Science for TeensPython with a real library file: counting, turning two totals into a ratio, and testing what chance alone would produce.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)College and adultData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For adults who compare branches, shops or regions and need to know when a high ratio is real.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## More than its share: what Rathmines borrowed out of proportion
 
 Dublin City Council published every adult fiction issue and renewal at its libraries for November 2012, one row per loan, from 22 branches. There are no borrower details in the file, only the branch, date, author, title and whether it was a new issue or a renewal.
 
-**Rathmines against the whole network, November 2012**
-
 | Book or author | Loans across the network | At Rathmines (expected) | Ratio |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Even the dogs, Jon McGregor | 142 | 34 (12.0) | 2.83 |
 | Henry James, five titles | 22 | 11 (1.9) | 5.91 |
 | David Mitchell, five titles | 29 | 14 (2.5) | 5.71 |
@@ -79,14 +65,14 @@ Even the dogs is listed as the 2012 winner of the Dublin Literary Award, which D
 
 Jane Austen had 52 loans across the network that month and none at Rathmines, where 4.4 would be expected. With numbers that small, a zero happens by chance about once in a hundred tries, so an absence is weaker evidence than it looks.
 
+Rathmines, named
+
 ## Rathmines from its library, its cinema, its club and its air monitor
 
 Each entry is quoted from whoever runs the place, eircode included where they give one.
 
-**Named places in Rathmines**
-
 | Place | What its own source says |
-|---|---|
+| --- | --- |
 | Rathmines Library | 157 Lower Rathmines Road, D06 K2K6 |
 | Stella Cinema | 207/209 Rathmines Road Lower, D06 W403 |
 | Leinster Cricket Club | Founded 1 May 1852, at Observatory Lane since 1865 |
@@ -104,7 +90,11 @@ The Stella says it opened on 29 January 1923 with room for 1,283 people, which m
 
 Leinster Cricket Club moved to Observatory Lane in 1865, and bowls (1913), tennis (1925) and squash (1969) followed. The EPA's Rathmines station on Wynnefield Road runs continuous monitors for sulphur dioxide, nitrogen oxides, ozone, benzene and fine particles.
 
-**What this page does not claim** No population is given for Rathmines, since the page prints only what named bodies publish about the place. The library figures describe loans in one month of 2012, not readers, and the file holds no information about who borrowed anything.
+What this page does not claim
+
+No population is given for Rathmines, since the page prints only what named bodies publish about the place. The library figures describe loans in one month of 2012, not readers, and the file holds no information about who borrowed anything.
+
+Learning here
 
 ## The shape of a Rathmines learner's week
 
@@ -124,14 +114,37 @@ Adults can start from nothing; the first lesson settles the course.
 
 Loan records are Dublin City Council's open data for November 2012; the shares, ratios, expected counts and chance figures were worked out by us on 20 September 2026. Library, cinema, club, award and monitoring-station details come from each organisation's own website.
 
+Learning ladder
+
 ## From a tally chart to a fair comparison
 
 Treat each band as rough; lesson one fixes the real level.
 
-- **Ages 6 to 10: Tally and compare** Block-coded tallies of what a class chooses, set beside the whole school. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Shares and ratios** Python that turns counts into shares and shares into a ratio. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Chance as a yardstick** Expected counts, binomial tails and minimum counts before any ranking. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Fair comparisons at work** Branch, store and region comparisons that show the evidence behind each ratio. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### Tally and compare
+
+Block-coded tallies of what a class chooses, set beside the whole school.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Shares and ratios
+
+Python that turns counts into shares and shares into a ratio.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Chance as a yardstick
+
+Expected counts, binomial tails and minimum counts before any ranking.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Fair comparisons at work
+
+Branch, store and region comparisons that show the evidence behind each ratio.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## Ask an assistant which authors Rathmines likes most
 
@@ -143,30 +156,139 @@ The learner who has built this project asks the follow-up questions: how many lo
 
 A ratio without its counts is half an answer. Code keeps the other half attached. The longer argument is in [the case for learning to code, even now](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How lessons run for Rathmines
 
 In outline.
 
-- **Live, not recorded** Every lesson is taught as it happens, and the teacher looks at and helps with each learner's own code.
-- **One level per group** Fifteen to twenty learners working at the same level, from Rathmines, other parts of Ireland or overseas.
-- **Two regular days** The same two days each week, roughly eight lessons a month.
-- **Fits the school year** School holidays, mid-term breaks and exam periods are allowed for in the plan.
-- **Kit** Any desktop or laptop with a working microphone, something to hear through, and internet steady enough for video.
-- **Private option** One-to-one lessons for learners who are ahead, want more time, or need hours no group runs at.
+### Live, not recorded
 
-**Nowhere to commute to** Modern Age Coders has no premises in Rathmines or anywhere in Ireland. Lessons are live on video and the same wherever the learner joins from.
+Every lesson is taught as it happens, and the teacher looks at and helps with each learner's own code.
+
+### One level per group
+
+Fifteen to twenty learners working at the same level, from Rathmines, other parts of Ireland or overseas.
+
+### Two regular days
+
+The same two days each week, roughly eight lessons a month.
+
+### Fits the school year
+
+School holidays, mid-term breaks and exam periods are allowed for in the plan.
+
+### Kit
+
+Any desktop or laptop with a working microphone, something to hear through, and internet steady enough for video.
+
+### Private option
+
+One-to-one lessons for learners who are ahead, want more time, or need hours no group runs at.
+
+Nowhere to commute to
+
+Modern Age Coders has no premises in Rathmines or anywhere in Ireland. Lessons are live on video and the same wherever the learner joins from.
+
+Fees
 
 ## Fees for Rathmines
 
 Plainly.
 
-- First class: USD 0. A free first lesson, which includes a level check.
-- Group tuition: USD 100 a month. A month in a same-level group of fifteen to twenty, about eight live lessons.
-- Private tuition: USD 150 a month. A month of one-to-one lessons at the same rhythm.
+First class**USD 0**
+
+A free first lesson, which includes a level check.
+
+Group tuition**USD 100**
+
+A month in a same-level group of fifteen to twenty, about eight live lessons.
+
+Private tuition**USD 150**
+
+A month of one-to-one lessons at the same rhythm.
 
 Families everywhere outside India pay one US dollar fee, month by month. The free lesson binds you to nothing, charges start with the course itself, and the pricing page sets out how holidays, missed lessons and a switch between group and private teaching are handled.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Rathmines.)Reviews
+
+## Families' Google reviews, quoted in full
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free first lesson in Rathmines
+
+Let us know the learner's age and interests and the first lesson will be planned around them. By the end there might be a simple game, a program that runs, or a book list ranked fairly for once.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Rathmines one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Rathmines.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Rathmines coding class questions
+
+What Rathmines families usually want to know.
 
 ### Is there a Modern Age Coders centre in Rathmines?
 
@@ -204,10 +326,14 @@ The first lesson is free. After it, a group place costs USD 100 a month for abou
 
 From five to ten, matched by level, pace and goals rather than age or address. If no group runs at a workable time, lessons are one to one.
 
+Explore Ireland
+
 ## Near Rathmines
 
 The [Dublin](/best-coding-class-in-dublin) page covers the city as a whole. Further south, [Rathfarnham](/coding-classes-in-rathfarnham-dublin) and [Dundrum](/coding-classes-in-dundrum-dublin) have district pages, while the [Ireland hub](/coding-classes-in-ireland) has the full list.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Rathmines.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-rathmines-dublin](https://learn.modernagecoders.com/coding-classes-in-rathmines-dublin#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-rathmines-dublin*

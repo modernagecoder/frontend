@@ -12,7 +12,7 @@ LIVE ONLINE CODING & MATHS · DHAKURIA · SOUTH KOLKATA
 
 Modern Age Coders runs premium live online coding and mathematics classes for families near Dhakuria, Kolkata, covering Selimpur, Jodhpur Park, Lake Gardens, South End Park and the Jadavpur University belt across the bridge. Children learn Python, Java, AI/ML, Scratch and school maths in live batches of 15 to 20, taught by full-time engineers and maths graduates. Classes are mapped to ICSE and CBSE syllabi, project-based, and never pre-recorded. Free demo within 24 hours.
 
-Small live batches, max 6 to 8Taught by full-time engineers & maths graduatesICSE Java/BlueJ + CBSE Python board-alignedNo commute over Dhakuria Bridge. Learn from home[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)6-8Students per live batch~90 minSaved per class, no bridge crossing1-on-1Personal tutoring available24 hrFrom free demo to first classLIVE ONLINE · DHAKURIA, KOLKATA
+Small live batches, max 20Taught by full-time engineers & maths graduatesICSE Java/BlueJ + CBSE Python board-alignedNo commute over Dhakuria Bridge. Learn from home[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)15-20Students per live batch~90 minSaved per class, no bridge crossing1-on-1Personal tutoring available24 hrFrom free demo to first classLIVE ONLINE · DHAKURIA, KOLKATA
 
 ## At a glance
 

@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths lessons for Doncaster lea
 canonical: https://learn.modernagecoders.com/best-coding-class-in-doncaster
 source: src/pages/best-coding-class-in-doncaster.html
 ---
-> The 2021 census counted 308,106 usual residents in the Doncaster borough, and 7.1% of them were aged 55 to 59, against 6.7% in England. The National Railway Museum shows Sir Nigel Gresley, designer of the record-breaking locomotive Mallard, photographed at the Doncaster Works. Doncaster learners from six to sixty-seven join our teachers live on screen, either in a group of fifteen to twenty at the same level or one to one, with lessons arranged in UK hours by our team in India. The first lesson is free; after it a group place costs USD 100 a month and private teaching USD 150.
+> Live online coding, Python, AI and maths lessons for Doncaster learners aged 6 to 67, from Bessacarr and Balby to Thorne and Mexborough. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Doncaster
-
-Doncaster, South Yorkshire / Live online
-
-# Coding classes in Doncaster
-
-**What are the best coding classes in Doncaster?** The 2021 census counted 308,106 usual residents in the Doncaster borough, and 7.1% of them were aged 55 to 59, against 6.7% in England. The National Railway Museum shows Sir Nigel Gresley, designer of the record-breaking locomotive Mallard, photographed at the Doncaster Works. Doncaster learners from six to sixty-seven join our teachers live on screen, either in a group of fifteen to twenty at the same level or one to one, with lessons arranged in UK hours by our team in India. The first lesson is free; after it a group place costs USD 100 a month and private teaching USD 150.
-
-Suppose Doncaster wanted ten study hubs, placed so that the average resident lives as close as possible to one. The census divides the borough into 199 neighbourhoods, and there are about 21 million billion ways to choose ten of them. No computer can try them all. Pick ten at random and the average trip is about 2.9 kilometres. Add hubs one at a time, always taking the most helpful, and it falls to 1.822. Simulated annealing does better, 1.767, by sometimes accepting a worse arrangement on purpose so that it can escape a dead end, then cooling until it settles. Our teenagers write all three and learn to report not just the answer but how sure they can be of it.
-
-Facts last verified 23 September 2026. Teaching is online; no Doncaster branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Doncaster
 
 ## Four courses for the railway city
 
 Follow the learner's interests. Each course starts with a free live lesson, and booking it never asks for a card.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): Puzzles where the obvious move is not the smartest one, and learning to try, undo and try again.
-- [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens) (Ages 13 to 18): Search, greedy methods and heuristics built from scratch, the tools behind this page's project.
-- [Competitive Programming for Teens](/courses/competitive-programming-for-teens-course) (Ages 13 to 18): Hard optimisation problems for keen teenagers, where knowing when to stop searching is part of the skill.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (University and adult): Python for adults who want to automate decisions at work, from scheduling to choosing locations.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsPuzzles where the obvious move is not the smartest one, and learning to try, undo and try again.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)Ages 13 to 18Problem Solving for TeensSearch, greedy methods and heuristics built from scratch, the tools behind this page's project.See the syllabus](/courses/problem-solving-dsa-masterclass-teens)[![Competitive Programming for Teens course thumbnail](/images/competitive-programming-teens.webp)Ages 13 to 18Competitive Programming for TeensHard optimisation problems for keen teenagers, where knowing when to stop searching is part of the skill.See the syllabus](/courses/competitive-programming-for-teens-course)[![Python Automation Course course thumbnail](/images/python-college.webp)University and adultPython Automation CoursePython for adults who want to automate decisions at work, from scheduling to choosing locations.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Doncaster today
 
 ## A spread-out borough with an older middle
 
 Census 2021 figures for the City of Doncaster council area, published by the Office for National Statistics and read through Nomis.
 
-**Doncaster, Census 2021**
-
 | Measure | Doncaster | England |
-|---|---|---|
+| --- | --- | --- |
 | Usual residents | 308,106 | 56,490,048 |
 | Living in households | 303,172 | Not compared |
 | Living in communal establishments | 4,934 | Not compared |
@@ -66,6 +52,8 @@ Of 291,164 residents aged five and over, 52,064 were at school or in full-time s
 
 Our Doncaster learners span that range. A Year 3 child in Bessacarr might be solving first puzzles in code, a Year 11 student in Armthorpe revising for GCSE Computer Science, and an adult in Conisbrough learning Python to change career, each in a small group at the same level.
 
+Engineering for speed
+
 ## Gresley, the A4s and a record from 1938
 
 From the National Railway Museum's accounts of Mallard and its designer.
@@ -84,16 +72,18 @@ Mallard reached 126 mph down Stoke Bank, a steam locomotive world speed record t
 
 We have no connection with the National Railway Museum. The A4s belong on this page because they were designed by testing, measuring and improving, not by guessing. Wind tunnel shapes were tried, compared and refined until one worked. The project below does the same with an arrangement of places, trying, comparing and improving until it can do no better.
 
-**Where the neighbourhood figures come from** The Office for National Statistics publishes Census 2021 populations for lower layer super output areas, small neighbourhoods of about 1,500 people, and a population-weighted centre point for each. Doncaster has 199 of them.
+Where the neighbourhood figures come from
+
+The Office for National Statistics publishes Census 2021 populations for lower layer super output areas, small neighbourhoods of about 1,500 people, and a population-weighted centre point for each. Doncaster has 199 of them.
+
+Signature project
 
 ## Placing ten hubs among 199 neighbourhoods
 
 The p-median problem asks where to put a set number of facilities so that people are, on average, as close to one as possible. It is too big to solve by trying everything.
 
-**Average straight-line distance from home to the nearest of ten hubs, weighted by residents, for different search methods**
-
 | Method | Lowest average | Highest average | Notes |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 2,000 random choices | 2.015 km | 5.696 km | Median 2.863 km |
 | Greedy, one hub at a time | 1.822 km | Same | Always the same answer |
 | Hill climbing, 10 random starts | 1.767 km | 1.820 km | 8 different end points |
@@ -118,14 +108,14 @@ The lowest average we found, 1.767 kilometres, appeared in several runs of both 
 
 The lowest-scoring arrangement puts 67.4% of residents within two kilometres of a hub and 96.5% within five; the farthest neighbourhood is 6.47 kilometres away. More hubs help less and less: one hub gives an average of 6.417 kilometres, five give 2.973, ten 1.822 and fifteen 1.335 by the greedy method. Distances are straight lines between population-weighted centres, not journeys by road or bus.
 
+Searching huge spaces
+
 ## Five things to report with any heuristic answer
 
 Learned on hubs for a borough, then used on delivery routes, school timetables, chip layouts, warehouse picking and the training of neural networks.
 
-**Making an optimisation result trustworthy**
-
 | Report | For the Doncaster hubs | Why it matters |
-|---|---|---|
+| --- | --- | --- |
 | What was minimised | Resident-weighted straight-line distance | A different goal gives a different map |
 | How big the search space is | About 2.13 times ten to the sixteen | Explains why no proof is possible |
 | Range across runs | 1.767 to 1.779 km for annealing | Shows how repeatable the answer is |
@@ -148,14 +138,37 @@ Optimisation at work, from rotas to routes, with the goal, settings and spread o
 
 We are not connected with the Office for National Statistics, the National Railway Museum or City of Doncaster Council. The census counts and centroids are published openly; the hub arrangements, distances and comparisons are our own calculations and are not a proposal for real sites.
 
+Learning ladder
+
 ## From moving counters to simulated annealing
 
 The age bands are a rough guide only; the free lesson finds the real starting point.
 
-- **Ages 6 to 10: Try and improve** Placing counters on a map, measuring how far each house is, and swapping to make things better. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 11 to 13: Distances in code** Working out distances between points in Python and finding the nearest one for each house. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Heuristic search** Greedy methods, hill climbing and simulated annealing on real census data, with runs compared and settings recorded. [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens), [Competitive Programming for Teens](/courses/competitive-programming-for-teens-course)
-- **Ages 18 to 67: Optimisation at work** Scheduling, routing and location problems, and how to explain a heuristic answer to people who must act on it. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)
+Ages 6 to 10
+
+### Try and improve
+
+Placing counters on a map, measuring how far each house is, and swapping to make things better.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 11 to 13
+
+### Distances in code
+
+Working out distances between points in Python and finding the nearest one for each house.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Heuristic search
+
+Greedy methods, hill climbing and simulated annealing on real census data, with runs compared and settings recorded.
+
+[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)[Competitive Programming for Teens](/courses/competitive-programming-for-teens-course)Ages 18 to 67
+
+### Optimisation at work
+
+Scheduling, routing and location problems, and how to explain a heuristic answer to people who must act on it.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)Coding and AI
 
 ## An AI can suggest locations in seconds. Why should a Doncaster teenager learn how the search works?
 
@@ -167,30 +180,139 @@ Training an AI model is itself a search through a vast space, and it borrows ide
 
 So a Doncaster teenager should still learn to program in 2026, in a borough whose railway engineers shaped a locomotive in a wind tunnel: the computer does the searching, but people still decide what counts as good. The longer argument is in [why coding is worth learning in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Bessacarr, Thorne or Mexborough, from home
 
 Doncaster borough stretches from Askern to Tickhill and from Thorne to Mexborough. Online lessons turn every one of those places into the same distance: none.
 
-- **Town and village alike** A learner in Rossington and another in Adwick can join the same class without either travelling into town.
-- **School stages, English style** Reception, Key Stages 1 to 4, GCSE choices and A levels, named as Doncaster schools name them, with lessons taught in English.
-- **A free lesson that counts** The first session involves genuine work and ends with a suggested level, course and weekly slot. You will not be asked for a card.
-- **Classmates at your level** Groups of fifteen to twenty learners at one stage, from Doncaster, the rest of Britain and abroad, so there is a sensible time for every level.
-- **Two lessons each week** A regular pair of weekly lessons, about eight a month, with holidays and exams planned with the teacher ahead of time.
-- **Late evenings in India** A 5 pm class in Doncaster starts at 9.30 pm in India in the British summer and 10.30 pm in winter, because India keeps one time all year; our teachers work those hours for UK learners.
+### Town and village alike
 
-**Around South Yorkshire** Families in Rotherham, Barnsley, Worksop or Scunthorpe join exactly the same classes, since lessons are online and groups are formed by level.
+A learner in Rossington and another in Adwick can join the same class without either travelling into town.
+
+### School stages, English style
+
+Reception, Key Stages 1 to 4, GCSE choices and A levels, named as Doncaster schools name them, with lessons taught in English.
+
+### A free lesson that counts
+
+The first session involves genuine work and ends with a suggested level, course and weekly slot. You will not be asked for a card.
+
+### Classmates at your level
+
+Groups of fifteen to twenty learners at one stage, from Doncaster, the rest of Britain and abroad, so there is a sensible time for every level.
+
+### Two lessons each week
+
+A regular pair of weekly lessons, about eight a month, with holidays and exams planned with the teacher ahead of time.
+
+### Late evenings in India
+
+A 5 pm class in Doncaster starts at 9.30 pm in India in the British summer and 10.30 pm in winter, because India keeps one time all year; our teachers work those hours for UK learners.
+
+Around South Yorkshire
+
+Families in Rotherham, Barnsley, Worksop or Scunthorpe join exactly the same classes, since lessons are online and groups are formed by level.
+
+Fees
 
 ## Doncaster lesson fees
 
 The first lesson is free, then a single monthly fee.
 
-- First class: USD 0. A complete lesson at no charge, closing with a recommended level, course and weekly time.
-- Group tuition: USD 100 a month. Roughly eight live lessons a month in a group of fifteen to twenty learners at the same level.
-- Private tuition: USD 150 a month. Roughly eight live lessons a month, with the teacher working only with your learner.
+First class**USD 0**
+
+A complete lesson at no charge, closing with a recommended level, course and weekly time.
+
+Group tuition**USD 100**
+
+Roughly eight live lessons a month in a group of fifteen to twenty learners at the same level.
+
+Private tuition**USD 150**
+
+Roughly eight live lessons a month, with the teacher working only with your learner.
 
 Wheatley and Hatfield pay the same as any family elsewhere outside India: one fee, set in US dollars, and nothing on our site is priced in pounds. Billing starts only when the free lesson has settled a course and a lesson time; the pricing page covers pausing, missed lessons and moving between group and private teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Doncaster.)Reviews
+
+## Six family reviews from Google, unchanged
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson for a Doncaster learner
+
+We choose the first task by level: a move-the-counters puzzle for a young child, a short Python program that finds the nearest point for a beginner, or census neighbourhoods and simulated annealing for a teenager ready for real data.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Doncaster one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Doncaster.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Doncaster coding class questions
+
+The questions Doncaster families ask us most often.
 
 ### How many people live in Doncaster?
 
@@ -232,10 +354,14 @@ The first lesson is free. After it, a group place is USD 100 a month for two liv
 
 By level, pace and goals rather than age or postcode, with fifteen to twenty learners at one stage. If no group fits the learner's week, we offer one-to-one lessons.
 
+Explore England and the UK
+
 ## South Yorkshire and beyond
 
 Up the A1, the [Wakefield page](/best-coding-class-in-wakefield) adds up a year of river flow, and to the west [Sheffield](/best-coding-class-in-sheffield) tests how a trend line shifts with its start. [Portsmouth](/best-coding-class-in-portsmouth) finds the fewest roads that cut its island off. Our [England guide](/coding-and-ai-classes-in-england) explains key stages and exams, and the [UK coding page](/coding-classes-in-united-kingdom) leads to every town and city.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Doncaster.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-doncaster](https://learn.modernagecoders.com/best-coding-class-in-doncaster#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-doncaster*

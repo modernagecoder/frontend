@@ -12,7 +12,7 @@ Python for CBSE Class 11 · CS 083 + IP
 
 CBSE Class 11 Python is split between CS 083 (theory + programming) and IP (Pandas + SQL). Our 1 hour live classes cover both NCERT books, chapter by chapter, with real practical prep.
 
-[Book a free demo class](/book-demo)See the curriculum**1,900+**CBSE Class 11 Python students**94%**Score 85+ on the paper**1 hour**Live class, 1:1 or group**CS 083**Full NCERT alignment11CBSE · PythonNCERT alignedPandas + SQLPractical prepCourses matched for this level
+[Book a free demo class](/book-demo)See the curriculum**10,000+**Students taught live since 2020**15 to 20**Students in a group batch**1 hour**Live class, 1:1 or group**CS 083**Full NCERT alignment11CBSE · PythonNCERT alignedPandas + SQLPractical prepCourses matched for this level
 
 ## Python courses for CBSE Class 11.
 
@@ -154,9 +154,9 @@ One teacher, one learner, the full 1 hour. The teacher adapts pace in real time,
 
 **₹4,999**/ month · 4 sessionsOption B
 
-### Live Small-Group Online Class
+### Live Group Online Class
 
-4 to 6 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
+15 to 20 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
 
 - Small groups of 4 to 6 similar-level learners
 - 1 hour live session, 2 sessions per week

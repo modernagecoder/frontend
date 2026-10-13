@@ -4,34 +4,28 @@ description: "NAPLAN Year 5 numeracy practice: the 50-minute test, what moves a 
 canonical: https://learn.modernagecoders.com/naplan-year-5-numeracy-practice
 source: src/pages/naplan-year-5-numeracy-practice.html
 ---
-> Year 5 NAPLAN numeracy runs for 50 minutes online. Students sit it straight after conventions of language, on a day their school picks inside the national window, 10 to 22 March in 2027. For the Strong level, ACARA's Year 5 description lists comparing numbers beyond 10 000, representing hundredths as decimals, spotting equivalent fractions and solving simple multi-step problems.
+> NAPLAN Year 5 numeracy practice: the 50-minute test, what moves a Year 5 student from Developing to Strong, and original compensation questions with full answers.
 
-[Home](/) / [NAPLAN numeracy practice](/naplan-numeracy-practice-online) / Year 5 numeracy
+In short
 
-Australia · NAPLAN Year 5 numeracy · Live online
+Year 5 NAPLAN numeracy runs for 50 minutes online. Students sit it straight after conventions of language, on a day their school picks inside the national window, 10 to 22 March in 2027. For the Strong level, ACARA's Year 5 description lists comparing numbers beyond 10 000, representing hundredths as decimals, spotting equivalent fractions and solving simple multi-step problems.
 
-# NAPLAN Year 5 numeracy practice
-
-By Year 5 the numbers in NAPLAN numeracy reach the tens of thousands, decimals arrive in hundredths, and many questions take two or three steps. The test runs 50 minutes, online. This page compares what ACARA says a Year 5 student at the Developing and Strong levels can do, because the gap between those two levels explains where most effort pays off. Then it teaches compensation, the habit of rounding to a friendly number, calculating, and correcting the difference, with practice questions we wrote. We teach numeracy only, not the literacy tests, and we promise no level.
-
-At a glance: Year level: Year 5; Numeracy time: 50 minutes; 2027 window: 10 to 22 March; Format: Online, tailored testlets; Number range: Beyond 10 000 at Strong; Our focus: Flexible calculation and decimals; Not covered: Reading, writing, conventions; Promise: None about results. Rated 4.9 across 547 Google reviews.
+Where to begin
 
 ## Three courses for the Year 5 stretch
 
 Chosen for the skills that separate the middle levels in Year 5.
 
-- [Primary maths, upper years](/courses/elementary-mathematics-complete-masterclass): Place value to ten thousand, fractions and decimals, measurement and data.
-- [Mental maths](/courses/mental-maths-mastery-kids): Compensation, partitioning and estimation, practised until they feel natural.
-- [Problem solving](/courses/problem-solving-and-computational-thinking-for-kids): Multi-step questions broken into calm, checkable stages.
+[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  NY5 / 01 Primary maths, upper years Place value to ten thousand, fractions and decimals, measurement and data. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)[![Mental Maths for Kids course thumbnail](/images/mental-maths-kids.webp)  NY5 / 02 Mental maths Compensation, partitioning and estimation, practised until they feel natural. Open the syllabus →](/courses/mental-maths-mastery-kids)[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)  NY5 / 03 Problem solving Multi-step questions broken into calm, checkable stages. Open the syllabus →](/courses/problem-solving-and-computational-thinking-for-kids)
+
+The Year 5 numeracy test
 
 ## Fifty minutes, online, and longer chains of reasoning
 
 Taken from the NAPLAN site run by ACARA; we checked each line on 7 October 2026.
 
-**Year 5 numeracy facts**
-
 | Feature | ACARA's description |
-|---|---|
+| --- | --- |
 | Length | 50 minutes |
 | Order | Straight after conventions of language |
 | Maths covered | Number and algebra, measurement and space, statistics and probability |
@@ -49,14 +43,14 @@ Its advice on preparation is short: teach the curriculum. The practice on this p
 
 Sources: [NAPLAN test window and durations](https://www.nap.edu.au/naplan/key-dates/naplan-test-window); [What's in the tests](https://www.nap.edu.au/naplan/whats-in-the-tests); [Tailored tests](https://www.nap.edu.au/naplan/understanding-online-assessment/tailored-tests). Read at source on 7 October 2026; Modern Age Coders is independent of ACARA.
 
+Reading the Year 5 descriptions
+
 ## What changes between Developing and Strong
 
 Quoted from ACARA's Year 5 numeracy descriptions. The pairing of lines is our own, to show the step.
 
-**Year 5 numeracy, Developing beside Strong (ACARA wording)**
-
 | Idea | Developing: the student can | Strong: the student can |
-|---|---|---|
+| --- | --- | --- |
 | Size of numbers | compare, order and represent numbers to 10 000 | compare, order and represent numbers beyond 10 000 |
 | Decimals | represent tenths as decimal numbers | represent hundredths as decimals |
 | Fractions | compare fractions and identify the fraction to complete a whole | identify equivalent fractions |
@@ -74,6 +68,8 @@ It also builds the checking habit. The correction at the end forces a child to a
 
 Source: [NAPLAN proficiency level descriptions, Numeracy Year 5](https://www.nap.edu.au/naplan/results-and-reports/proficiency-level-descriptions). Checked on 7 October 2026.
 
+Practice we wrote
+
 ## Compensation: round, calculate, then correct
 
 Change one number to something easy, do the easy calculation, then undo the change. The method is the same for whole numbers, decimals, multiplication and time.
@@ -90,10 +86,8 @@ Change one number to something easy, do the easy calculation, then undo the chan
 
 6 times 49: 6 times 50 is 300, but that counts one extra 6, so subtract 6. The answer is 294.
 
-**Original Year 5 practice with the compensation step written out**
-
 | Question | Friendly version | Correction | Answer |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | A school prints 299 newsletters on Monday and 146 on Tuesday. How many in total? | 300 + 146 = 446 | Used 1 too many, so subtract 1 | 445 |
 | A tank holds 504 litres. 198 litres are drained. How much is left? | 504 minus 200 = 304 | Took 2 too many, so add 2 | 306 litres |
 | Each of 6 teams runs 49 laps. How many laps altogether? | 6 times 50 = 300 | Counted 6 extra laps, so subtract 6 | 294 laps |
@@ -105,6 +99,8 @@ Change one number to something easy, do the easy calculation, then undo the chan
 The sixth question is a favourite of teachers because it removes the regrouping that causes so many slips. Subtracting from 999 never needs borrowing, and the correction of one is easy to remember. The last question is compensation with time: instead of counting minutes across the hour, a student rounds to 10:00 first, which is the timetable skill ACARA lists at the Exceeding level.
 
 Every answer also comes with a free check. If 6 times 49 came out larger than 300, something went wrong, because 49 is smaller than 50. Estimation and compensation are two sides of the same idea.
+
+Where Year 5 marks slip away
 
 ## Four slips we see, and the habit that prevents each
 
@@ -130,14 +126,14 @@ Before answering, reread the question and circle what it asks for.
 
 Bridge to the next whole hour first, then count the rest, exactly as in the timetable question above.
 
+Calculation, flexibly
+
 ## Four rungs through Year 5
 
 A child climbs these at their own pace; the year level is only a rough guide.
 
-**Mental calculation rungs for upper primary**
-
 | Rung | In practice | Ready to move on when |
-|---|---|---|
+| --- | --- | --- |
 | 1. Partitioning | Splits numbers into hundreds, tens and ones | Add 346 and 238 in their head, place by place |
 | 2. Compensation | Rounds, calculates, corrects | Explain why 504 minus 198 means adding 2 back |
 | 3. Decimals | Uses the same moves with tenths and hundredths | Add 3.99 and 2.45 without a written method |
@@ -146,63 +142,293 @@ A child climbs these at their own pace; the year level is only a rough guide.
 ### If maths has become a worry
 
 By Year 5 some children have decided they are "not a maths person". Small wins with a reliable strategy change that story faster than extra homework.
+
 Praise the explanation, not just the answer.
 
 ### What comes next
 
 Year 7 adds the non-calculator section and proportional reasoning; our [Year 7 numeracy page](/naplan-year-7-numeracy-practice) continues the story.
+
 For Year 3 strategies, see [NAPLAN Year 3 numeracy](/naplan-year-3-numeracy-practice).
+
+Courses for upper primary
 
 ## Maths courses that fit Years 4 to 6
 
 Arranged by need. The full syllabus sits behind each card.
 
+I
+
 ### Core maths
 
 Place value, fractions, decimals
 
-- [Primary maths](/courses/elementary-mathematics-complete-masterclass): The whole upper-primary curriculum, explained.
-- [Mental maths](/courses/mental-maths-mastery-kids): Strategies that make calculation flexible.
-- [Statistics and probability](/courses/statistics-probability-maths-course): Graphs, tables and chance experiments.
+NY5 / C / 01
+
+#### Primary maths
+
+The whole upper-primary curriculum, explained.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+NY5 / C / 02
+
+#### Mental maths
+
+Strategies that make calculation flexible.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+NY5 / C / 03
+
+#### Statistics and probability
+
+Graphs, tables and chance experiments.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)II
 
 ### Reasoning
 
 Multi-step thinking
 
-- [Problem solving and computational thinking](/courses/problem-solving-and-computational-thinking-for-kids): Breaking big questions into small steps.
-- [Abacus mental maths](/courses/abacus-mental-maths-course-for-kids): Visual place value for children who think in pictures.
-- [Vedic maths](/courses/vedic-maths-course-speed-calculation-mastery): Calculation patterns, always paired with a check.
+NY5 / R / 01
+
+#### Problem solving and computational thinking
+
+Breaking big questions into small steps.
+
+[Open the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)
+
+NY5 / R / 02
+
+#### Abacus mental maths
+
+Visual place value for children who think in pictures.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)
+
+NY5 / R / 03
+
+#### Vedic maths
+
+Calculation patterns, always paired with a check.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)III
 
 ### Stretch
 
 For students ready for more
 
-- [Competition maths](/courses/olympiad-competition-mathematics-mastery): Problems from contests for upper primary.
-- [Middle years maths](/courses/comprehensive-middle-school-mathematics-mastery): An early start on Years 7 to 9 content.
-- [Algebra foundations](/courses/algebra-foundations-masterclass): Number sentences grow into equations.
+NY5 / X / 01
+
+#### Competition maths
+
+Problems from contests for upper primary.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)
+
+NY5 / X / 02
+
+#### Middle years maths
+
+An early start on Years 7 to 9 content.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+NY5 / X / 03
+
+#### Algebra foundations
+
+Number sentences grow into equations.
+
+[Open the syllabus](/courses/algebra-foundations-masterclass)
+
+How classes work
 
 ## Live, small and timed for Australian afternoons
 
 Our teachers are in India, behind every Australian capital. In Adelaide during daylight saving, a 4.30 pm class starts at 11.30 am India time, which keeps after-school slots easy to staff.
 
-- **Weekday afternoon** The most popular time for Years 4 to 6.
-- **Weekend morning** Good for families with sport after school.
-- **School holidays** Short blocks on one topic, such as decimals.
+Weekday afternoon
 
-- **One strategy at a time** Each lesson builds a single method until it is reliable.
-- **Explain the correction** Students say what they changed and how they undid it.
-- **Fifteen to twenty per group** Grouped by skill, so the pace suits everyone.
-- **Private option** One-to-one lessons for a particular gap or a confidence rebuild.
-- **Short parent updates** What was covered, and one question to try at the dinner table.
-- **No level promised** We teach the mathematics; NAPLAN reports what the child shows on the day.
+The most popular time for Years 4 to 6.
+
+Weekend morning
+
+Good for families with sport after school.
+
+School holidays
+
+Short blocks on one topic, such as decimals.
+
+### One strategy at a time
+
+Each lesson builds a single method until it is reliable.
+
+### Explain the correction
+
+Students say what they changed and how they undid it.
+
+### Fifteen to twenty per group
+
+Grouped by skill, so the pace suits everyone.
+
+### Private option
+
+One-to-one lessons for a particular gap or a confidence rebuild.
+
+### Short parent updates
+
+What was covered, and one question to try at the dinner table.
+
+### No level promised
+
+We teach the mathematics; NAPLAN reports what the child shows on the day.
+
+Student work
+
+## Student projects
+
+Work our learners made because they wanted to. See more in the [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Australian families are charged monthly in US dollars, our rate for every country outside India. Nothing is paid in advance, and you can stop at any month end.
 
-- Free first class: USD 0. A full lesson with a teacher. Advice on where your child stands. No card required.
-- Group batch: USD 100 a month. Fifteen to twenty students at the same stage. One regular teacher. Feedback on every task. A certificate on completion.
-- One to one: USD 150 a month. A teacher for one student. Work on the exact gaps that matter. Times that suit your family.
+Free first class
+
+USD 0
+
+no card required
+
+- A full lesson with a teacher
+- Advice on where your child stands
+- No card required
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students at the same stage
+- One regular teacher
+- Feedback on every task
+- A certificate on completion
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one student
+- Work on the exact gaps that matter
+- Times that suit your family
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+What parents wrote on Google, reproduced exactly.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about Year 5 NAPLAN numeracy
 
 ## What Year 5 families ask us
 
@@ -246,15 +472,54 @@ We promise no level or score. We teach the mathematics carefully, and that is wh
 
 We agree a weekly time after the free trial. Adelaide is five hours ahead of India time during daylight saving, so a 4.30 pm class begins at 11.30 am India time.
 
+Related pages
+
 ## Keep exploring
 
-- [Every NAPLAN year level](/naplan-numeracy-practice-online): The national overview: test windows and tailored testlets.
-- [NAPLAN Year 3 numeracy](/naplan-year-3-numeracy-practice): The number line strategies Year 5 builds on.
-- [NAPLAN Year 7 numeracy](/naplan-year-7-numeracy-practice): Calculator rules and proportional reasoning.
-- [Maths tutoring in Australia](/online-maths-tutoring-australia): Live classes for every year level.
-- [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar): Contests for upper primary students.
-- [Coding for 9 and 10 year olds](/coding-classes-for-9-and-10-year-olds-australia): Where maths meets programming.
+Other NAPLAN years, competitions and maths support in Australia.
 
-## Contact
+### [Every NAPLAN year level](/naplan-numeracy-practice-online)
 
-Book the free first class at [https://learn.modernagecoders.com/naplan-year-5-numeracy-practice](https://learn.modernagecoders.com/naplan-year-5-numeracy-practice#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The national overview: test windows and tailored testlets.
+
+### [NAPLAN Year 3 numeracy](/naplan-year-3-numeracy-practice)
+
+The number line strategies Year 5 builds on.
+
+### [NAPLAN Year 7 numeracy](/naplan-year-7-numeracy-practice)
+
+Calculator rules and proportional reasoning.
+
+### [Maths tutoring in Australia](/online-maths-tutoring-australia)
+
+Live classes for every year level.
+
+### [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar)
+
+Contests for upper primary students.
+
+### [Coding for 9 and 10 year olds](/coding-classes-for-9-and-10-year-olds-australia)
+
+Where maths meets programming.
+
+Start here
+
+## Book a free Year 5 maths class
+
+Let us know the year level and the topic that feels hardest. The trial lesson works on that topic and ends with clear, honest advice.
+
+Want to see the options first? The [course atlas](/course-atlas) shows every course side by side, and [how we teach](/how-we-teach) describes a lesson minute by minute.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20class%20for%20my%20Year%205%20child%2C%20on%20mental%20calculation%20and%20decimals.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+A WhatsApp message usually gets the quickest answer. The number has India's +91 code because our school is based there; there is no Australian office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/naplan-year-5-numeracy-practice*

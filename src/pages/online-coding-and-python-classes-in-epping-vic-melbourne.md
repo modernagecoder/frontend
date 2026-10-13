@@ -4,56 +4,40 @@ description: "Live online coding and Python classes for Epping children, teenage
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-epping-vic-melbourne
 source: src/pages/online-coding-and-python-classes-in-epping-vic-melbourne.html
 ---
-> Live lessons over video, in small groups by level, where learners write real Python on their own computers. Epping sits on the Mernda line in the north of Melbourne, and the 2021 Census counted 33,489 residents in 11,923 private dwellings there.
+> Live online coding and Python classes for Epping children, teenagers and adults in Melbourne's north, from Scratch to pandas and data, in groups or one to one.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [Victoria](/coding-and-ai-classes-in-victoria) / [Melbourne](/vibe-coding-and-ai-agents-classes-in-melbourne) / Epping
-
-Epping, City of Whittlesea, Melbourne, Victoria / Live online
-
-# Online coding and Python classes in Epping, Melbourne
-
-**How do online Python classes work for learners in Epping, Victoria?** Live lessons over video, in small groups by level, where learners write real Python on their own computers. Epping sits on the Mernda line in the north of Melbourne, and the 2021 Census counted 33,489 residents in 11,923 private dwellings there.
-
-The state's station patronage file gives each station one row per year, with the time of day spread across five columns: before the morning peak, the morning peak, the middle of the day, the afternoon peak and late. That layout is easy to read and awkward to analyse. One pandas function, melt, turns those five columns into rows, and Epping's changing day comes out of it.
-
-Facts last verified 11 October 2026. Teaching is online; no Epping branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Epping
 
 ## Courses that make data tidy
 
 Every course here gets learners reshaping and summarising tables in Python, as the melt project does. The free first class settles the level.
 
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 17): pandas from the first DataFrame to group-by summaries and charts.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): The Python foundations that make pandas make sense.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (University and adult): Excel, SQL and pandas, with tidy data at the centre.
-- [Data Science Course](/courses/data-science-complete-masterclass-college) (University and adult): Full data projects from messy files to explained results.
+[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 17Data Science for Teenspandas from the first DataFrame to group-by summaries and charts.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensThe Python foundations that make pandas make sense.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)University and adultData Analysis CourseExcel, SQL and pandas, with tidy data at the centre.See the syllabus](/courses/data-analysis-mastery-course-college)[![Data Science Course course thumbnail](/images/data-science-college.webp)University and adultData Science CourseFull data projects from messy files to explained results.See the syllabus](/courses/data-science-complete-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Epping in the Census
 
 ## A northern suburb of family homes
 
 Figures for the Epping suburb in Victoria (ABS code SAL20878, listed as Epping (Vic.)) from the 2021 Census QuickStats, beside the Victorian figure.
 
-**Epping (Vic.) suburb, 2021 Census headline counts**
-
 | Headline | Epping |
-|---|---|
+| --- | --- |
 | Residents | 33,489 |
 | Median age | 35 |
 | Families | 8,779 |
 | Private dwellings | 11,923 |
 | Average people per household | 2.9 |
 
-**Epping measured against Victoria**
-
 | Measure | Epping | Victoria |
-|---|---|---|
+| --- | --- | --- |
 | Separate houses | 81.2% (8,687) | 73.4% |
 | Semi-detached, row or terrace houses and townhouses | 17.0% (1,816) | 13.9% |
 | Workers who drove to work | 59.9% (9,006) | 49.9% |
@@ -74,14 +58,14 @@ Census night in 2021 fell in a Victorian lockdown, so the home-working share ref
 
 The bureau slightly perturbs every cell to keep individuals unidentifiable, so pieces of a table may not reach its total. Numbers here are reproduced as published, never summed by us.
 
+Signature project
+
 ## Five columns into one
 
 We loaded the station patronage files for FY18-19 to FY24-25: 1,555 rows, one per station per year, each with five time-band columns of average entries. pandas.melt, keeping the year and station as identifiers, turned them into 7,775 rows of year, station, band and value, one row per measurement. Grouping that long table by band shows how Epping's day changed.
 
-**Epping station, entries by time band in the published file (melted, our calculation of change)**
-
 | Band | FY18-19 | FY24-25 | Change |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Before the morning peak | 450 | 300 | Down 33.3% |
 | Morning peak | 1,250 | 900 | Down 28.0% |
 | Interpeak | 700 | 650 | Down 7.1% |
@@ -106,14 +90,14 @@ Leave the station name out of the identifier columns and melt still returns 7,77
 
 The band figures are the publisher's estimates, rounded to the nearest 50, and the file does not state the clock hours of each band, so we report the bands by name only. We never add bands together into a total. Melting, grouping and the percentage changes are our own calculation.
 
+In pandas
+
 ## Wide for reading, long for analysis
 
 A wide table puts one kind of measurement in several columns. A long table gives each measurement its own row with a label saying what it is. pandas.melt goes from wide to long; pivot goes back.
 
-**The arguments that matter in pandas.melt**
-
 | Argument | Set to | Why |
-|---|---|---|
+| --- | --- | --- |
 | id_vars | Fin_year, Stop_name | Columns copied onto every new row so each value stays traceable |
 | value_vars | The five Pax band columns | The columns to fold into rows |
 | var_name | band | Name for the new label column |
@@ -133,6 +117,8 @@ Melt the station file in pandas, then make the wrong melt on purpose and find th
 
 Unpivot a monthly report so that one pivot table or chart can answer every question.
 
+Around Epping
+
 ## A station and eleven schools
 
 From the patronage file and the 2025 school locations file.
@@ -149,16 +135,41 @@ The file's average weekday figure for Epping fell from 3,050 entries in FY18-19 
 
 Eleven open schools lie inside Epping, six of them government, including Meadowglen Primary School, Harvest Home Primary School and Lalor North Secondary College.
 
-**Term 3, 2027** Victorian government schools run Term 3 from Monday 12 July to Friday 17 September 2027, a natural point to start or change a course.
+Term 3, 2027
+
+Victorian government schools run Term 3 from Monday 12 July to Friday 17 September 2027, a natural point to start or change a course.
+
+Learning ladder
 
 ## From times tables to tidy data
 
 Ages are only a guide; the free first class places each learner.
 
-- **Ages 6 to 10: Scratch and lists** Games that store and sort lists of things. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Microsoft Office for Kids](/courses/microsoft-office-kids-mastery)
-- **Ages 10 to 14: Python basics** Lists, dictionaries and reading a first CSV file. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 17: pandas and charts** DataFrames, melt, group-by and clear plots. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **University and adult: Data at work** Reshaping, joining and reporting real business data. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Scratch and lists
+
+Games that store and sort lists of things.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Microsoft Office for Kids](/courses/microsoft-office-kids-mastery)Ages 10 to 14
+
+### Python basics
+
+Lists, dictionaries and reading a first CSV file.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 17
+
+### pandas and charts
+
+DataFrames, melt, group-by and clear plots.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)University and adult
+
+### Data at work
+
+Reshaping, joining and reporting real business data.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Python and AI
 
 ## Will an AI reshape the data for an Epping learner?
 
@@ -170,30 +181,139 @@ A learner who has broken a melt on purpose knows to check the identifier columns
 
 Our Epping classes treat AI as a fast typist and the learner as the person responsible for the answer. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Online lessons for Epping
 
 Lessons are live over video, so learners take part from home.
 
-- **Real code, real time** Learners code on their own computers and share the screen, and the teacher responds to what they write.
-- **In step with school** Courses follow the Victorian terms and stop for each holiday.
-- **A full first lesson** The free trial is a complete class; then the teacher recommends a course and a weekly slot.
-- **Groups by level** Groups contain fifteen to twenty learners at a similar stage.
-- **A weekly habit** Two lessons each week on fixed days, about eight a month, with holidays set out early.
-- **Teachers in India** Teachers work in India, so a 3:30pm Epping class in daylight saving is 10am India time, and 11am in Melbourne winter.
+### Real code, real time
 
-**Melbourne clocks** Daylight saving in Melbourne began on Sunday 4 October 2026 and ends on Sunday 4 April 2027. India keeps one time all year, so lesson times are always confirmed in Melbourne time.
+Learners code on their own computers and share the screen, and the teacher responds to what they write.
+
+### In step with school
+
+Courses follow the Victorian terms and stop for each holiday.
+
+### A full first lesson
+
+The free trial is a complete class; then the teacher recommends a course and a weekly slot.
+
+### Groups by level
+
+Groups contain fifteen to twenty learners at a similar stage.
+
+### A weekly habit
+
+Two lessons each week on fixed days, about eight a month, with holidays set out early.
+
+### Teachers in India
+
+Teachers work in India, so a 3:30pm Epping class in daylight saving is 10am India time, and 11am in Melbourne winter.
+
+Melbourne clocks
+
+Daylight saving in Melbourne began on Sunday 4 October 2026 and ends on Sunday 4 April 2027. India keeps one time all year, so lesson times are always confirmed in Melbourne time.
+
+Fees
 
 ## Epping class fees
 
 Three numbers explain the cost.
 
-- First class: USD 0. One free lesson that ends with an honest next step.
-- Group tuition: USD 100 a month. Four weeks of group lessons, normally eight, in a group of fifteen to twenty.
-- Private tuition: USD 150 a month. Roughly eight one-to-one lessons in a month.
+First class**USD 0**
+
+One free lesson that ends with an honest next step.
+
+Group tuition**USD 100**
+
+Four weeks of group lessons, normally eight, in a group of fifteen to twenty.
+
+Private tuition**USD 150**
+
+Roughly eight one-to-one lessons in a month.
 
 Outside India we bill in US dollars, so Epping families pay the same as families anywhere else abroad. Nothing is due until the trial has agreed the course and time; the pricing page covers holidays, missed lessons and changing between group and private.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20online%20coding%20or%20Python%20class%20for%20a%20learner%20in%20Epping%2C%20Melbourne.)Reviews
+
+## What Google reviewers write about our classes
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Epping class
+
+Tell us the age and one interest. A six-year-old might begin with a list game in Scratch; a Year 12 student might begin by melting the station file in pandas.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Epping one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20online%20coding%20or%20Python%20class%20for%20a%20learner%20in%20Epping%2C%20Melbourne.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Epping coding and Python questions
+
+Questions Epping families and adult learners raise with us.
 
 ### How many people live in Epping, Victoria?
 
@@ -235,10 +355,14 @@ Fifteen to twenty, grouped on level, pace and goals, with one-to-one lessons if 
 
 Yes. Adults have their own groups or private lessons, often to move reporting work out of manual spreadsheets.
 
+Explore Melbourne and Victoria
+
 ## More for Epping learners
 
 This page is for Epping in Melbourne's north. For the wider city, see the [Melbourne page](/vibe-coding-and-ai-agents-classes-in-melbourne); for the state, the [Victoria guide](/coding-and-ai-classes-in-victoria). Families with a young beginner can read about [kids coding classes in Melbourne](/coding-classes-for-kids-melbourne).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20online%20coding%20or%20Python%20class%20for%20a%20learner%20in%20Epping%2C%20Melbourne.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/online-coding-and-python-classes-in-epping-vic-melbourne](https://learn.modernagecoders.com/online-coding-and-python-classes-in-epping-vic-melbourne#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-epping-vic-melbourne*

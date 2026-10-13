@@ -4,53 +4,37 @@ description: "Live online coding, Python, data and AI classes for Athy learners 
 canonical: https://learn.modernagecoders.com/best-coding-class-in-athy
 source: src/pages/best-coding-class-in-athy.html
 ---
-> Athy has 10,992 usual residents, and 3,206 of its households report broadband, the one thing a lesson from us needs at home. A teacher leads each lesson live on video, either for a few learners at one level or for a single learner, twice in most weeks, for any age from six to sixty-seven. After a free first lesson, it is USD 100 a month for a group place or USD 150 for one-to-one.
+> Live online coding, Python, data and AI classes for Athy learners aged 6 to 67, in small groups at one level or one to one. The first lesson is free of charge.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [County Kildare](/coding-classes-in-county-kildare) / Athy
-
-Athy, County Kildare / Live online
-
-# Coding classes in Athy
-
-**What is the best coding class in Athy?** Athy has 10,992 usual residents, and 3,206 of its households report broadband, the one thing a lesson from us needs at home. A teacher leads each lesson live on video, either for a few learners at one level or for a single learner, twice in most weeks, for any age from six to sixty-seven. After a free first lesson, it is USD 100 a month for a group place or USD 150 for one-to-one.
-
-How many primary-school-age children will Athy have in April 2028? It sounds like a question for a model, but most of the answer is already written down. Every child who will be six to twelve in 2028 had been born by census night 2022, and the census counted them by single year of age. Move each year of the table up six rows and the answer is 1,018, against 1,253 of that age now. That is a projection with no trend line and no formula, only counting. It rests on one assumption, that nobody moves in or out, and the census has a table that measures how wrong that assumption is. This page builds the projection, compares Athy with 94 other towns, and then tests the assumption against the record of who moved.
-
-Facts last verified 19 September 2026. Teaching is online; no Athy branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Athy
 
 ## Courses Athy learners often begin with
 
 Go by age and interest; in the free first lesson the course teacher works out where the learner should begin.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Scratch projects with counters that tick up each year, the simplest version of ageing a population forward.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 13): Lists, shifting and summing in code, applied to real counts from the census.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): Projections built from real tables, with every assumption stated and checked against data.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (College and adult): For adults planning places, staff or stock, who need a baseline before any forecast.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsScratch projects with counters that tick up each year, the simplest version of ageing a population forward.See the syllabus](/courses/scratch-programming-complete-course)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 13Maths Through CodingLists, shifting and summing in code, applied to real counts from the census.See the syllabus](/courses/maths-through-coding)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensProjections built from real tables, with every assumption stated and checked against data.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)College and adultData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For adults planning places, staff or stock, who need a baseline before any forecast.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## Count the pupils of 2028 from the census of 2022
 
 The census-night age table for Athy gives a count for every single year of age up to nineteen. The learner moves each year up six places and adds the rows that land in each school-age group.
 
-**Athy's school-age groups in 2022 and, if nobody moved, in 2028**
-
 | Age group | April 2022 | April 2028, same children | Change |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 6 to 12 | 1,253 | 1,018 | down 235, 18.8% |
 | 13 to 18 | 1,074 | 1,101 | up 27, 2.5% |
 
-**The single years behind the projection, census night 2022**
-
 | Rows used | People in each single year |
-|---|---|
+| --- | --- |
 | Aged 0 to 6, the 6 to 12s of 2028 | 154, 131, 134, 148, 139, 160, 152 |
 | Aged 6 to 12 today | 152, 166, 157, 178, 199, 205, 196 |
 | Aged 7 to 12, the 13 to 18s of 2028 | 166, 157, 178, 199, 205, 196 |
@@ -74,6 +58,8 @@ Some of the future is already on paper. The school-age children of the next few 
 
 In code the whole projection is a list shift. The learner reads the single years from 0 to 19 into a list, moves every entry six places to the right, drops what falls off the end, and sums the ranges for each school stage. The comparison with other towns is the same function in a loop over every town of 5,000 or more. A final function takes an assumed number of children arriving each year as a parameter and shows how far it moves the 2028 figure, which turns the hidden assumption into a dial the reader can see and set.
 
+What the baseline leaves out
+
 ## What would move the 2028 number
 
 The counted part is fixed. Three things can still change the result, and none of them is in the age table.
@@ -90,16 +76,18 @@ Families who move away lower the count, and because leavers vanish from a town's
 
 Held against real numbers in 2028, the baseline turns into a measurement: whatever gap appears is, in large part, the net effect of people moving.
 
-**What this page does not claim** It is not a forecast of school enrolments: Athy's schools draw pupils from beyond the town boundary, and enrolment depends on choices this table does not record. It takes no view on planning or school places. Deaths among children, very rare, are ignored.
+What this page does not claim
+
+It is not a forecast of school enrolments: Athy's schools draw pupils from beyond the town boundary, and enrolment depends on choices this table does not record. It takes no view on planning or school places. Deaths among children, very rare, are ignored.
+
+The town in the census
 
 ## Athy in Census 2022 terms
 
 Numbers from the small area tables for the town of Athy, Co Kildare, all about usual residents and the homes they live in.
 
-**Census 2022: Athy in seven counts**
-
 | Measure for Athy | Count |
-|---|---|
+| --- | --- |
 | Usual residents | 10,992 |
 | Households | 4,045 |
 | Households with broadband | 3,206 |
@@ -120,7 +108,11 @@ Of 3,026 journeys to school, college or childcare, 1,312 are made as a car passe
 
 The census asked Athy's workers directly: 833 work from home some or all of the time, 2,921 never do, and 484 did not reply.
 
-**Two named places** Irish Rail gives the station as Church Road, Athy, Co. Kildare, Eircode R14 XH64, with sheltered bike parking. The Shackleton Experience gives its address as Emily Square, Athy, Co. Kildare, R14 KW65. Neither has any connection with us.
+Two named places
+
+Irish Rail gives the station as Church Road, Athy, Co. Kildare, Eircode R14 XH64, with sheltered bike parking. The Shackleton Experience gives its address as Emily Square, Athy, Co. Kildare, R14 KW65. Neither has any connection with us.
+
+Learning here
 
 ## Lessons for Athy learners
 
@@ -140,14 +132,37 @@ Adults start at their own level, which can be no coding at all, and the first le
 
 The census figures are the Central Statistics Office's, reproduced without change. The projection and the comparison across 95 towns were computed from the published age table on 19 September 2026. Irish Rail and the Shackleton Experience are quoted from their own sites.
 
+Learning ladder
+
 ## From counting birthdays to building a baseline
 
 Ages give a rough starting point, and the first lesson refines it.
 
-- **Ages 6 to 10: Counting on** Block-coded counters and timers that move things along one step at a time. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 11 to 13: Lists that shift** Python lists shifted, sliced and summed, used on real single-year counts. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 14 to 18: Projections** Baselines, stated assumptions and a dial for each one, built on census data. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **Ages 18 to 67: Planning ahead** Baselines for places, staffing and demand at work, and keeping counted and assumed parts apart. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### Counting on
+
+Block-coded counters and timers that move things along one step at a time.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 11 to 13
+
+### Lists that shift
+
+Python lists shifted, sliced and summed, used on real single-year counts.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### Projections
+
+Baselines, stated assumptions and a dial for each one, built on census data.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)Ages 18 to 67
+
+### Planning ahead
+
+Baselines for places, staffing and demand at work, and keeping counted and assumed parts apart.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## Ask an assistant how many children Athy will have in 2028
 
@@ -159,30 +174,139 @@ Anyone who has built this projection asks the assistant to age the single-year c
 
 An assistant can produce a number instantly. Knowing which part of it was counted and which was assumed is the part worth teaching. The longer argument is in [why learning to code still adds up](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How lessons work for Athy
 
 The basics.
 
-- **Taught in real time** Every lesson has a teacher on the call, responding to the learner's code as it is written.
-- **Matched by stage** Groups of fifteen to twenty, all at the same point in the course, drawn from Kildare, the rest of Ireland and beyond.
-- **Weekly pattern** Two lessons in most weeks, about eight a month, at hours settled before the course begins.
-- **School terms** The course plan builds in mid-term breaks, holidays and exam periods.
-- **What the learner needs** A laptop or desktop to type on, a working microphone with speakers or headphones, and home broadband reliable through a whole lesson.
-- **One to one** One-to-one lessons are arranged when a learner is ready to move faster, needs to go slower, or can only learn at an hour no group meets.
+### Taught in real time
 
-**No premises in Athy** Athy learners join every lesson by video. We have no classroom in Athy or anywhere in Ireland, and a lesson is the same from any home with a connection.
+Every lesson has a teacher on the call, responding to the learner's code as it is written.
+
+### Matched by stage
+
+Groups of fifteen to twenty, all at the same point in the course, drawn from Kildare, the rest of Ireland and beyond.
+
+### Weekly pattern
+
+Two lessons in most weeks, about eight a month, at hours settled before the course begins.
+
+### School terms
+
+The course plan builds in mid-term breaks, holidays and exam periods.
+
+### What the learner needs
+
+A laptop or desktop to type on, a working microphone with speakers or headphones, and home broadband reliable through a whole lesson.
+
+### One to one
+
+One-to-one lessons are arranged when a learner is ready to move faster, needs to go slower, or can only learn at an hour no group meets.
+
+No premises in Athy
+
+Athy learners join every lesson by video. We have no classroom in Athy or anywhere in Ireland, and a lesson is the same from any home with a connection.
+
+Fees
 
 ## Fees for Athy
 
 The price list in full.
 
-- First class: USD 0. A full first lesson with the level assessed, free.
-- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one stage, about eight live lessons.
-- Private tuition: USD 150 a month. A month of one-to-one lessons on the same weekly pattern.
+First class**USD 0**
+
+A full first lesson with the level assessed, free.
+
+Group tuition**USD 100**
+
+A month in a group of fifteen to twenty at one stage, about eight live lessons.
+
+Private tuition**USD 150**
+
+A month of one-to-one lessons on the same weekly pattern.
 
 Families in every country except India pay the same monthly fee, in US dollars. The first lesson is free and the first month is charged only when the course starts; for holidays, missed lessons and switching between group and one-to-one, see the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Athy.)Reviews
+
+## Six Google reviews from families we teach, as posted
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free first lesson in Athy
+
+Let us know the learner's age and what they are into, and the first hour will be built around that. It could end with a game, a first working program, or the class sizes of 2028 worked out from today's census.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Athy one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Athy.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Athy coding class questions
+
+What Athy families ask before starting.
 
 ### How many people live in Athy?
 
@@ -224,10 +348,14 @@ The first lesson is free. After that a shared place costs USD 100 a month and br
 
 Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
+Explore Ireland
+
 ## Elsewhere in Kildare
 
 Athy sits under the [County Kildare](/coding-classes-in-county-kildare) page, alongside the town pages for [Newbridge](/best-coding-class-in-newbridge), [Naas](/best-coding-class-in-naas) and [Maynooth](/best-coding-class-in-maynooth), with [Leinster](/coding-and-ai-classes-in-leinster) above. Online coding schools are compared, without spin, on [their own page](/best-online-coding-classes-ireland), and the [Ireland hub](/coding-classes-in-ireland) connects every page.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Athy.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-athy](https://learn.modernagecoders.com/best-coding-class-in-athy#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-athy*

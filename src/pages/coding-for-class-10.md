@@ -12,7 +12,7 @@ For parents of Class 10 students · Board year
 
 Class 10 is the board year. The right programme respects that, fewer, deeper sessions, projects timed between exam blocks, full pause during pre-boards. Your child finishes Class 10 with both a score card and a portfolio.
 
-[Book a free demo class](/book-demo)See the curriculum**4,800+**Class 10 students with us**93%**Finish year without dropping marks**1 hour**Per live class, 1:1 or group**6 projects**Across the board year10Class · GradeBoard-safePortfolio-gradeDSA startedCourses matched for this level
+[Book a free demo class](/book-demo)See the curriculum**10,000+**Students taught live since 2020**15 to 20**Students in a group batch**1 hour**Per live class, 1:1 or group**6 projects**Across the board year10Class · GradeBoard-safePortfolio-gradeDSA startedCourses matched for this level
 
 ## Class 10 courses that fit a board schedule.
 
@@ -156,9 +156,9 @@ One teacher, one learner, the full 1 hour. The teacher adapts pace in real time,
 
 **₹4,999**/ month · 4 sessionsOption B
 
-### Live Small-Group Online Class
+### Live Group Online Class
 
-4 to 6 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
+15 to 20 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
 
 - Small groups of 4 to 6 similar-level learners
 - 1 hour live session, 2 sessions per week
@@ -211,7 +211,7 @@ Fill the form. Our counsellor calls you within 3 hours, understands your child's
 
 ### Related pages
 
-[Lower Coding for Class 9](/coding-for-class-9)[Higher Coding for Class 11](/coding-for-class-11)[Age Coding for 15 Year Olds](/coding-for-15-year-olds)[Board ICSE CA Class 10](/computer-applications-icse-class-10)[Board CBSE Coding](/coding-for-cbse-students)[Board ICSE Coding](/coding-for-icse-students)[Course AI & ML for Teens](/ai-ml-course-for-teens)[Course Java for Teens](/java-programming-for-kids-teens)
+[Board Class 10 AI classes](/cbse-class-10-ai-classes-online)[Board CBSE 417 syllabus explained](/cbse-class-10-ai-syllabus-explained)[Board ICSE Class 10 Java classes](/icse-class-10-java-classes-online)[Board Computer Applications syllabus](/icse-class-10-computer-applications-syllabus-explained)[Lower Coding for Class 9](/coding-for-class-9)[Higher Coding for Class 11](/coding-for-class-11)[Age Coding for 15 Year Olds](/coding-for-15-year-olds)[Board ICSE CA Class 10](/computer-applications-icse-class-10)[Board CBSE Coding](/coding-for-cbse-students)[Board ICSE Coding](/coding-for-icse-students)[Course AI & ML for Teens](/ai-ml-course-for-teens)[Course Java for Teens](/java-programming-for-kids-teens)
 
 ### Coding classes near your city
 

@@ -4,34 +4,28 @@ description: "An AI agents course for UK professionals: build agents that meet A
 canonical: https://learn.modernagecoders.com/ai-agents-course-for-professionals-uk
 source: src/pages/ai-agents-course-for-professionals-uk.html
 ---
-> An AI agent is software in which a language model plans steps and uses tools to reach a goal. In the UK, three authorities now shape how one should be built. The ICO applies Article 22A of the UK GDPR, which requires safeguards, including access to human intervention, for solely automated decisions with legal or similarly significant effects. The NCSC advises starting small, with low-risk tasks and the minimum access for the shortest time. The CMA holds businesses responsible for how they treat consumers whether through people or AI systems. Modern Age Coders teaches working professionals to build agents that meet all three, live and online, in small groups or one to one. The first class is free; afterwards a group place is USD 100 a month and one-to-one lessons USD 150 a month. Copilot Studio and Gemini Enterprise are taught one to one only, and Gemini Enterprise has its own fee, shown on its course page.
+> An AI agents course for UK professionals: build agents that meet Article 22A safeguards and the NCSC test for deployment. Live online, first class free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / AI agents for professionals
+In short
 
-UK · Working professionals · Live online
+An AI agent is software in which a language model plans steps and uses tools to reach a goal. In the UK, three authorities now shape how one should be built. The ICO applies Article 22A of the UK GDPR, which requires safeguards, including access to human intervention, for solely automated decisions with legal or similarly significant effects. The NCSC advises starting small, with low-risk tasks and the minimum access for the shortest time. The CMA holds businesses responsible for how they treat consumers whether through people or AI systems. Modern Age Coders teaches working professionals to build agents that meet all three, live and online, in small groups or one to one. The first class is free; afterwards a group place is USD 100 a month and one-to-one lessons USD 150 a month. Copilot Studio and Gemini Enterprise are taught one to one only, and Gemini Enterprise has its own fee, shown on its course page.
 
-# AI agents course for professionals in the UK
-
-Around 35% of UK businesses with 10 or more employees now use some form of AI, almost three times the share in late 2023, according to the Office for National Statistics. Agents are a further step: software that plans its own steps and acts on real systems, which the ONS does not yet count separately. For organisations taking that step, three UK authorities have already set out what they expect. The Information Commissioner's Office applies Article 22A of the UK GDPR to decisions about people taken without meaningful human involvement. The National Cyber Security Centre says an agent whose actions cannot be understood, monitored or contained is not ready to deploy. The Competition and Markets Authority says a business is responsible for how it treats consumers whether it acts through people or through AI systems. This course is for the analysts, operations leads, engineers and managers who are being asked to build these agents, and it teaches them to build ones that can stand up to those questions.
-
-At a glance: For: Working professionals in the UK; Platforms: Copilot Studio, Gemini Enterprise, code; Decisions: Article 22A safeguards designed in; Security: NCSC least privilege from day one; Proof: Tested against known cases; Output: An agent record a manager can audit; Format: Small group or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three ways into agent building
 
 The engineering underneath, or the agent platform your employer already licenses. Each card opens the full syllabus.
 
-- [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college): Retrieval, tool calls and evaluation built from first principles, so no platform is a black box to you.
-- [AI Agents with Copilot Studio](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals): Agents inside Microsoft 365, grounded in your organisation's documents. Taught one to one only.
-- [AI Agents with Gemini Enterprise](/courses/build-ai-agents-with-google-gemini-enterprise-course): The Google route, for organisations that run on Workspace. One to one only, with its own monthly fee.
+[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)  APU / 01 Generative AI: LLMs, RAG and Agents Retrieval, tool calls and evaluation built from first principles, so no platform is a black box to you. Open the syllabus →](/courses/complete-generative-ai-masterclass-college)[![Copilot Studio Agent Masterclass for Professionals course thumbnail](/images/copilot-studio-professionals.webp)  APU / 02 AI Agents with Copilot Studio Agents inside Microsoft 365, grounded in your organisation's documents. Taught one to one only. Open the syllabus →](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals)[![Build AI Agents with Google Gemini Enterprise course thumbnail](/images/gemini-enterprise-agents.webp)  APU / 03 AI Agents with Gemini Enterprise The Google route, for organisations that run on Workspace. One to one only, with its own monthly fee. Open the syllabus →](/courses/build-ai-agents-with-google-gemini-enterprise-course)
+
+UK adoption
 
 ## UK businesses use AI widely, but not yet deeply
 
 From the Office for National Statistics, Artificial intelligence in UK businesses: 2023 to 2026, released 20 July 2026 and based on the Business Insights and Conditions Survey.
 
-**AI use among UK businesses with 10 or more employees, June 2026 unless stated**
-
 | Measure | Published figure |
-|---|---|
+| --- | --- |
 | Businesses using at least one AI technology | Around 35%, up from around 12% in late 2023 |
 | Businesses with 250 or more employees | 49% |
 | Large language models, the most used type | 18% |
@@ -67,16 +61,16 @@ Around half of businesses said AI had no impact on headcount. Reductions were mo
 
 Source, read 21 September 2026: [ONS, Artificial intelligence in UK businesses: 2023 to 2026](https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/articles/artificialintelligenceinukbusinesses/2023to2026), released 20 July 2026 (Business Insights and Conditions Survey, wave 159, 5 to 28 June 2026). Business figures cover firms with 10 or more employees unless stated.
 
+Automated decisions
+
 ## Where UK data law keeps a person in the decision
 
 The Data (Use and Access) Act 2025 replaced Article 22 of the UK GDPR with new Articles 22A to 22D. This is the rule an agent meets the moment it decides something about a person.
 
 The ICO summarises Article 22A like this: automated decision-making is where a decision "is based solely on automated processing (ie there is no meaningful human involvement in the decision)" and "has a legal or similarly significant effect on a person". The government describes the Act as creating a "more permissive framework" for such decisions than the old rule, which was framed as a general prohibition with narrow exceptions, on condition that organisations put safeguards in place.
 
-**The safeguards as the government lists them, and what each asks of an agent**
-
 | Safeguard | What the agent's designer has to build |
-|---|---|
+| --- | --- |
 | "providing people with information about significant decisions made about them" | A plain-language notice, produced with the decision, that the person affected can actually understand |
 | "enabling them to make representations about and to challenge such decisions" | A route back in, and a log showing exactly what the agent saw and did |
 | "enabling them to obtain human intervention in respect of such decisions" | A named person with the authority to review the decision and change it |
@@ -97,16 +91,16 @@ None of this is legal advice, and the course does not give any. What it does is 
 
 Sources, read 21 September 2026: [gov.uk, Data (Use and Access) Act 2025: data protection and privacy changes](https://www.gov.uk/guidance/data-use-and-access-act-2025-data-protection-and-privacy-changes); [UK GDPR and DPA factsheet](https://www.gov.uk/government/publications/data-use-and-access-act-2025-factsheets/data-use-and-access-act-factsheet-uk-gdpr-and-dpa); [plans for commencement](https://www.gov.uk/guidance/data-use-and-access-act-2025-plans-for-commencement); [ICO, what the Act means for organisations](https://ico.org.uk/about-the-ico/what-we-do/legislation-we-cover/data-use-and-access-act-2025/the-data-use-and-access-act-2025-what-does-it-mean-for-organisations/); [ICO, automated decisions in hiring](https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/03/automated-decisions-can-streamline-the-hiring-process-with-the-right-safeguards-in-place/), 31 March 2026.
 
+Security and accountability
+
 ## The agent acts; a named person answers for it
 
 Two more UK authorities reached the same conclusion from different directions in 2026: the National Cyber Security Centre on security, and the Competition and Markets Authority on consumers.
 
 On 15 May 2026 the NCSC summarised new joint guidance, Careful adoption of agentic AI services, written with international partners. Its advice is that organisations should "start small, use agents only for low-risk tasks" and apply established cyber security controls from the outset. Its test for readiness is blunt: "If you cannot understand, monitor or contain an agent's actions, it is not ready for deployment".
 
-**NCSC controls, and how each appears in an agent built on this course**
-
 | NCSC control | In the agent you build |
-|---|---|
+| --- | --- |
 | Least privilege: "give agents only the minimum access they need, for the shortest time required" | A written list of every system the agent may read or change, and nothing beyond it |
 | Limit scope | Actions and hours constrained in configuration, not only in the prompt |
 | Avoid long-lived credentials | Temporary keys, revoked when the task finishes |
@@ -128,14 +122,14 @@ It also observes that where businesses deploy agents today, "Consumer facing aut
 
 Sources, read 21 September 2026: [NCSC, Thinking carefully before adopting agentic AI](https://www.ncsc.gov.uk/blogs/thinking-carefully-before-adopting-agentic-ai), 15 May 2026; [CMA, Agentic AI and consumers](https://www.gov.uk/government/publications/agentic-ai-and-consumers/agentic-ai-and-consumers), 9 March 2026.
 
+What you build
+
 ## An agent with its paperwork done
 
 Every agent built on the course ends with a one-page record that a manager, an auditor or a data protection officer could read in five minutes.
 
-**The agent record**
-
 | Field | What goes in it | The rule it answers |
-|---|---|---|
+| --- | --- | --- |
 | Owner | The person who answers for the agent and can switch it off | NCSC accountability |
 | Job | One task, written in a single sentence | Start small |
 | Access | Each system, the permission level, and how long access lasts | Least privilege |
@@ -164,14 +158,14 @@ Sometimes the right answer is not to build an agent at all. A process that is di
 
 How models are trained and measured is covered on [learn to train AI, not just prompt it](/learn-to-train-ai-not-just-prompt-it-uk), and why reading AI output critically matters is on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+Stages
+
 ## Five stages from user to owner
 
 Plan on roughly four to six months at one lesson a week, less if you already work with data or code.
 
-**From checking AI output to owning an agent**
-
 | Stage | What you can do |
-|---|---|
+| --- | --- |
 | 1. Check | Use AI tools on real work and catch their errors against what you know |
 | 2. Ground | Connect a model to your own documents and find where retrieval misses |
 | 3. Connect | Give it tools, with access written down and limited |
@@ -181,63 +175,293 @@ Plan on roughly four to six months at one lesson a week, less if you already wor
 ### Code or configuration?
 
 Copilot Studio and Gemini Enterprise are configured more than programmed. Python becomes useful once you want custom tools or your own evaluation scripts, and the free class settles which route suits your role.
+
 The wider sequence of subjects is on the [coding roadmap](/coding-roadmap).
 
 ### Fitted around work
 
 One lesson a week, short enough to survive a quarter end. Billing is monthly, so a launch or an audit season can mean pausing at the end of a month and starting again later.
+
 Confidential systems belong in one-to-one lessons, where nothing is shown to a group.
+
+The catalogue
 
 ## Nine courses, three starting points
 
 Choose by where you begin rather than by job title. The free class confirms the choice.
 
+I
+
 ### Foundations
 
 Before building an agent
 
-- [AI Tools Mastery](/courses/ai-tools-mastery-complete-college): Real work from AI assistants, and the habit of checking it.
-- [Data and AI for Non-Programmers](/courses/data-and-ai-analytics-for-non-programmers-course): Answers from your own data, no language required.
-- [Python from Zero](/courses/python-programming-masterclass-zero-to-advanced-college): For custom tools, evaluation scripts and automation.
+AGT / BASE / 01
+
+#### AI Tools Mastery
+
+Real work from AI assistants, and the habit of checking it.
+
+[Open the syllabus](/courses/ai-tools-mastery-complete-college)
+
+AGT / BASE / 02
+
+#### Data and AI for Non-Programmers
+
+Answers from your own data, no language required.
+
+[Open the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
+
+AGT / BASE / 03
+
+#### Python from Zero
+
+For custom tools, evaluation scripts and automation.
+
+[Open the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)II
 
 ### Agent platforms
 
 In the tools employers license
 
-- [AI Agents with Copilot Studio](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals): Microsoft 365 agents, taught one to one only.
-- [AI Agents with Gemini Enterprise](/courses/build-ai-agents-with-google-gemini-enterprise-course): Workspace agents; one to one, with its own fee.
-- [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college): The engineering beneath every platform.
+AGT / PLAT / 01
+
+#### AI Agents with Copilot Studio
+
+Microsoft 365 agents, taught one to one only.
+
+[Open the syllabus](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals)
+
+AGT / PLAT / 02
+
+#### AI Agents with Gemini Enterprise
+
+Workspace agents; one to one, with its own fee.
+
+[Open the syllabus](/courses/build-ai-agents-with-google-gemini-enterprise-course)
+
+AGT / PLAT / 03
+
+#### Generative AI: LLMs, RAG and Agents
+
+The engineering beneath every platform.
+
+[Open the syllabus](/courses/complete-generative-ai-masterclass-college)III
 
 ### Engineering
 
 For technical staff
 
-- [Codex and Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals): Coding agents directed, every change reviewed.
-- [Python and AI Automation](/courses/python-ai-automation-masterclass-college): Scheduled jobs that run with nobody watching.
-- [Git and GitHub for Professionals](/courses/git-github-advanced-version-control-masterclass-for-professionals): Review and rollback, which agent work relies on.
+AGT / ENG / 01
+
+#### Codex and Claude Code
+
+Coding agents directed, every change reviewed.
+
+[Open the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)
+
+AGT / ENG / 02
+
+#### Python and AI Automation
+
+Scheduled jobs that run with nobody watching.
+
+[Open the syllabus](/courses/python-ai-automation-masterclass-college)
+
+AGT / ENG / 03
+
+#### Git and GitHub for Professionals
+
+Review and rollback, which agent work relies on.
+
+[Open the syllabus](/courses/git-github-advanced-version-control-masterclass-for-professionals)
+
+How lessons run
 
 ## Live lessons on UK working hours
 
 Our teachers work from India, which does not change its clocks. The UK is four and a half hours behind India during British Summer Time and five and a half hours behind in winter, so UK mornings, evenings and weekends can all be arranged.
 
-- **Before work** An early slot, ahead of the UK working day.
-- **After work** The usual choice for people in full-time roles.
-- **Weekend** Longer sessions for building and testing.
+Before work
 
-- **A free first class** Bring a process you run and leave knowing whether an agent belongs in it.
-- **Groups** Fifteen to twenty professionals at one level, comparing designs and test results.
-- **One to one** For confidential data, and the only format for Copilot Studio and Gemini Enterprise.
-- **Your own subscriptions** Coding-agent work runs on accounts you own, so the work stays with you.
-- **Records, not demos** An agent counts as finished when its record is complete and its tests pass.
-- **Every step questioned** A teacher reviews what the agent did and why, not only what it produced.
+An early slot, ahead of the UK working day.
+
+After work
+
+The usual choice for people in full-time roles.
+
+Weekend
+
+Longer sessions for building and testing.
+
+### A free first class
+
+Bring a process you run and leave knowing whether an agent belongs in it.
+
+### Small groups
+
+Five to ten professionals at one level, comparing designs and test results.
+
+### One to one
+
+For confidential data, and the only format for Copilot Studio and Gemini Enterprise.
+
+### Your own subscriptions
+
+Coding-agent work runs on accounts you own, so the work stays with you.
+
+### Records, not demos
+
+An agent counts as finished when its record is complete and its tests pass.
+
+### Every step questioned
+
+A teacher reviews what the agent did and why, not only what it produced.
+
+Student work
+
+## Work our students have built
+
+Four finished projects from our students. Many more, from every age group, are collected in [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## What the course costs
 
 One monthly fee in US dollars, charged the same way in every country outside India, with no enrolment fee and nothing to sign beyond the month. Copilot Studio and Gemini Enterprise are one to one only, and Gemini Enterprise carries its own monthly fee, shown on its course page.
 
-- Free first class: USD 0. A real process examined with a teacher. A straight answer on whether an agent fits. No payment details asked.
-- Group batch: USD 100 a month. Five to ten professionals at one level. One teacher throughout. Agent records and tests reviewed. Stop at the end of any month.
-- One to one: USD 150 a month. A teacher for you alone. Room for confidential systems. Required for Copilot Studio and Gemini Enterprise.
+Free first class
+
+USD 0
+
+no card required
+
+- A real process examined with a teacher
+- A straight answer on whether an agent fits
+- No payment details asked
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Five to ten professionals at one level
+- One teacher throughout
+- Agent records and tests reviewed
+- Stop at the end of any month
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for you alone
+- Room for confidential systems
+- Required for Copilot Studio and Gemini Enterprise
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Reviews posted on Google by our students and their families, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions from UK professionals
 
 ## What professionals ask about agents
 
@@ -281,15 +505,54 @@ The first class is free. After that a group place is USD 100 a month and one-to-
 
 Before work, after work or at weekends in UK time, fixed in the free class. Our teachers are four and a half hours ahead of the UK in summer and five and a half in winter.
 
+Elsewhere on this site
+
 ## Related pages
 
-- [Learn to train AI, not just prompt it](/learn-to-train-ai-not-just-prompt-it-uk): How models are measured and assured.
-- [Learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk): Why judgement still decides the outcome.
-- [Understand the code, do not copy and paste](/understand-the-code-dont-copy-paste-uk): Reading what an assistant writes for you.
-- [Coding classes for adults](/best-coding-classes-for-adults-uk): When the programming has to come first.
-- [Learn to code over 50](/learn-to-code-over-50-uk): Starting later, and England's free routes.
-- [Coding classes in the UK](/coding-classes-in-united-kingdom): Every page for the UK in one place.
+The models underneath, the programming first, and reading what AI writes.
 
-## Contact
+### [Learn to train AI, not just prompt it](/learn-to-train-ai-not-just-prompt-it-uk)
 
-Book the free first class at [https://learn.modernagecoders.com/ai-agents-course-for-professionals-uk](https://learn.modernagecoders.com/ai-agents-course-for-professionals-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+How models are measured and assured.
+
+### [Learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk)
+
+Why judgement still decides the outcome.
+
+### [Understand the code, do not copy and paste](/understand-the-code-dont-copy-paste-uk)
+
+Reading what an assistant writes for you.
+
+### [Coding classes for adults](/best-coding-classes-for-adults-uk)
+
+When the programming has to come first.
+
+### [Learn to code over 50](/learn-to-code-over-50-uk)
+
+Starting later, and England's free routes.
+
+### [Coding classes in the UK](/coding-classes-in-united-kingdom)
+
+Every page for the UK in one place.
+
+Start here
+
+## Bring one real process to a free class
+
+Leave a number and we will ring at a time that fits your UK working day. Describe a process you actually run; you will leave with a view on whether an agent belongs in it, and on what its record would need to say.
+
+Prefer to read before talking? The [teaching approach](/how-we-teach) comes first, then the [full course list](/courses), then finished work in [student labs](/student-labs).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20work%20in%20the%20UK%20and%20would%20like%20a%20free%20first%20class%20on%20building%20AI%20agents.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is often the quickest way to reach us from a UK mobile. The team works from India, so our number starts +91, and we have no UK office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-agents-course-for-professionals-uk*

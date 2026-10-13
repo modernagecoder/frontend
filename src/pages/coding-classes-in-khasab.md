@@ -285,7 +285,7 @@ Reaching the rest of Oman from Khasab means crossing UAE territory, so a class t
 
 The class reaches Khasab directly, with no journey through another country.
 
-### A group of five to eight
+### A group of fifteen to twenty
 
 Compatible learners with one teacher and direct spoken feedback.
 

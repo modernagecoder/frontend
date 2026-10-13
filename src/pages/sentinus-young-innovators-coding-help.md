@@ -4,34 +4,28 @@ description: "Help for Northern Ireland students entering Sentinus Young Innovat
 canonical: https://learn.modernagecoders.com/sentinus-young-innovators-coding-help
 source: src/pages/sentinus-young-innovators-coding-help.html
 ---
-> Sentinus Young Innovators 2026 chooses Northern Ireland's Young Scientist, Young Engineer, Young Mathematician and Young Coder of the Year, with an overall Sentinus Young Innovator above them. "Applications must be aged under 19 on July 1st 2027." Scientists submit a poster by 29 September 2026 and engineers by 30 September 2026, while the mathematics and coding categories run "an assessment in late September 2026, to select the finalists"; the first two allow individuals or "teams of up to 3 people" and the second two are individual. The final is "Thursday 26th November 2026" at Ulster University, Belfast, where mathematics finalists face "a 90 minutes live maths challenge" and coders "a 90 minute coding challenge", judged by a panel of industry experts. The overall winner receives a funded trip to the International Science and Engineering Fair 2027 in the USA. We teach the coding and the mathematics. A first class is free; a group place is USD 100 a month and one-to-one teaching USD 150.
+> Help for Northern Ireland students entering Sentinus Young Innovators: who is eligible, the poster stage, and the 90-minute live coding final in Belfast.
 
-[Home](/) / [Courses](/courses) / [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar) / Sentinus Young Innovators
+In short
 
-Northern Ireland · Under 19 · Final 26 November 2026
+Sentinus Young Innovators 2026 chooses Northern Ireland's Young Scientist, Young Engineer, Young Mathematician and Young Coder of the Year, with an overall Sentinus Young Innovator above them. "Applications must be aged under 19 on July 1st 2027." Scientists submit a poster by 29 September 2026 and engineers by 30 September 2026, while the mathematics and coding categories run "an assessment in late September 2026, to select the finalists"; the first two allow individuals or "teams of up to 3 people" and the second two are individual. The final is "Thursday 26th November 2026" at Ulster University, Belfast, where mathematics finalists face "a 90 minutes live maths challenge" and coders "a 90 minute coding challenge", judged by a panel of industry experts. The overall winner receives a funded trip to the International Science and Engineering Fair 2027 in the USA. We teach the coding and the mathematics. A first class is free; a group place is USD 100 a month and one-to-one teaching USD 150.
 
-# Sentinus Young Innovators coding help
-
-Northern Ireland runs its own STEM competition and almost nobody outside it knows. Sentinus Young Innovators picks a Young Scientist, a Young Engineer, a Young Mathematician and a Young Coder of the Year, and unlike almost every project competition in Britain, the coding and mathematics titles are not decided by something submitted from home. Finalists come to Ulster University in Belfast on a Thursday in November and are given ninety minutes, live, in front of a panel. You cannot polish that, and you cannot outsource it, which makes preparing for it a completely different job.
-
-At a glance: Organiser: Sentinus, Northern Ireland; Eligibility: Under 19 on 1 July 2027; Titles: Scientist, Engineer, Mathematician, Coder; Plus: Overall Young Innovator 2026; First stage: A poster or an assessment; Final: Thursday 26 November 2026; Venue: Ulster University, Belfast; Coding final: 90 minutes, live. Rated 4.9 across 547 Google reviews.
+Where to start
 
 ## Three courses for a Sentinus finalist
 
 A live challenge rewards what a student can produce unaided, which is a narrower thing than what they know.
 
-- [Python from start to finish](/courses/python-complete-masterclass-teens): For the coding final: writing and debugging without looking things up, which is the whole skill on the day.
-- [Olympiad and competition maths](/courses/olympiad-competition-mathematics-mastery): For the mathematics final: unfamiliar problems worked to an answer under a clock.
-- [Algorithms and data structures](/courses/problem-solving-dsa-masterclass-teens): For choosing a method quickly and knowing it will finish inside the time.
+[![Python for Teens course thumbnail](/images/python-teens.webp)  SYI / 01 Python from start to finish For the coding final: writing and debugging without looking things up, which is the whole skill on the day. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Maths Olympiad & Competition Course course thumbnail](/images/olympiad-competition-maths.webp)  SYI / 02 Olympiad and competition maths For the mathematics final: unfamiliar problems worked to an answer under a clock. Open the syllabus →](/courses/olympiad-competition-mathematics-mastery)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)  SYI / 03 Algorithms and data structures For choosing a method quickly and knowing it will finish inside the time. Open the syllabus →](/courses/problem-solving-dsa-masterclass-teens)
+
+The competition
 
 ## Four titles, two routes in, one day in Belfast
 
 Facts read at the organiser's own pages on 20 September 2026.
 
-**Sentinus Young Innovators 2026 as its organiser describes it**
-
 | Part | Scientist and Engineer | Mathematician and Coder |
-|---|---|---|
+| --- | --- | --- |
 | How you get in | An online poster submission | "An assessment in late September 2026, to select the finalists" |
 | Deadline | 29 September 2026 for scientists, 30 September for engineers | The assessment, in late September |
 | Who can enter | "Individuals" or "teams of up to 3 people" | Individual entries |
@@ -51,16 +45,16 @@ It also runs early. The assessment is in late September and the final in Novembe
 
 Source: [Sentinus Young Innovators](http://www.sentinus.co.uk/programmes/sentinus-young-innovators/), read 20 September 2026. Modern Age Coders is not connected with Sentinus or Ulster University.
 
+The method
+
 ## The age rule is a Northern Ireland school-year rule
 
 Sentinus sets eligibility by birthday rather than by year group. In Northern Ireland, and only there, those two things come to almost exactly the same thing.
 
 The rule is "aged under 19 on July 1st 2027". Turn that into a birth date and something interesting appears.
 
-**Our arithmetic of 20 September 2026**
-
 | Step | Result |
-|---|---|
+| --- | --- |
 | "Under 19 on 1 July 2027" means born after | 1 July 2008 |
 | Northern Ireland's compulsory school age cut-off | 2 July |
 | So a Northern Ireland school year runs from | 2 July to 1 July |
@@ -89,14 +83,14 @@ The Northern Ireland cut-off we use here was read at the Department of Education
 
 The arithmetic is ours, computed on 20 September 2026 from the organiser's published eligibility rule and the Northern Ireland compulsory school age cut-off.
 
+The final
+
 ## Ninety minutes, live, with nothing brought in
 
 A live final is not a harder version of a take-home task. It tests a different thing, and it can be practised.
 
-**What a live challenge rewards, and what it does not**
-
 | Rewarded | Why | Not rewarded |
-|---|---|---|
+| --- | --- | --- |
 | Writing code from memory | There is no time to look up how a thing is spelled | Knowing where to find an answer |
 | Choosing a method quickly | Ninety minutes is enough for one good plan and not two | Exploring three approaches |
 | Starting with something that runs | A partial working program beats an unfinished elegant one | Designing before typing anything |
@@ -111,14 +105,14 @@ For the mathematics final the shape is the same: ninety live minutes, unfamiliar
 
 And whether or not a student reaches Belfast, practising under a clock without a search engine is the rarest and most useful habit we teach. Most young programmers have never once worked without one.
 
+Getting ready
+
 ## Four rungs to a live final
 
 Each rung is something a student can do without help, which is the only thing a live challenge can see.
 
-**From working with help to working alone**
-
 | Stage | Rung | The sign it is secure |
-|---|---|---|
+| --- | --- | --- |
 | Years 8 to 10 | 1. Fluent basics | Writes input, loops and conditions without looking anything up |
 | Years 10 to 11 | 2. Unaided debugging | Finds and fixes an error without asking or searching |
 | Years 11 to 13 | 3. Under a clock | Produces a working partial answer inside the first quarter of the time |
@@ -127,71 +121,321 @@ Each rung is something a student can do without help, which is the only thing a 
 ### If September is close
 
 The assessment that selects finalists is in late September, so an entry has to be decided in the summer term rather than the autumn.
+
 Practise one ninety-minute sitting a week with no internet. Nothing else prepares for a live final.
 
 ### Whatever happens in November
 
 Working without a search engine is a skill almost no young programmer has, and it is the one employers notice first.
+
 The rest of the season is on the [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar), including several open across all four nations.
+
+The full list
 
 ## Courses for a Northern Ireland finalist
 
 Grouped by which final a student is heading for, with the syllabus behind each card.
 
+I
+
 ### The coding final
 
 Working unaided
 
-- [Python from start to finish](/courses/python-complete-masterclass-teens): Fluency, so nothing has to be looked up.
-- [Competitive programming](/courses/competitive-programming-for-teens-course): Correct code against a clock.
-- [Algorithms and data structures](/courses/problem-solving-dsa-masterclass-teens): Picking a method that will finish in time.
+SYI / A / 01
+
+#### Python from start to finish
+
+Fluency, so nothing has to be looked up.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+SYI / A / 02
+
+#### Competitive programming
+
+Correct code against a clock.
+
+[Open the syllabus](/courses/competitive-programming-for-teens-course)
+
+SYI / A / 03
+
+#### Algorithms and data structures
+
+Picking a method that will finish in time.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)II
 
 ### The maths final
 
 Ninety live minutes
 
-- [Olympiad and competition maths](/courses/olympiad-competition-mathematics-mastery): Unfamiliar problems, worked to an answer.
-- [High school mathematics](/courses/complete-high-school-mathematics-mastery): Technique that should never slow the thinking.
-- [Statistics and probability](/courses/statistics-probability-maths-course): Careful counting under time pressure.
+SYI / B / 01
+
+#### Olympiad and competition maths
+
+Unfamiliar problems, worked to an answer.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)
+
+SYI / B / 02
+
+#### High school mathematics
+
+Technique that should never slow the thinking.
+
+[Open the syllabus](/courses/complete-high-school-mathematics-mastery)
+
+SYI / B / 03
+
+#### Statistics and probability
+
+Careful counting under time pressure.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)III
 
 ### The project titles
 
 Scientist and engineer
 
-- [Data science with Python](/courses/data-science-course-for-teens-python-data): Evidence a poster can actually carry.
-- [AI and machine learning for teens](/courses/ai-ml-masterclass-teens): A trained model, honestly reported.
-- [Full stack web development](/courses/full-stack-web-development-teens-masterclass): Building something people can try.
+SYI / C / 01
+
+#### Data science with Python
+
+Evidence a poster can actually carry.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)
+
+SYI / C / 02
+
+#### AI and machine learning for teens
+
+A trained model, honestly reported.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+SYI / C / 03
+
+#### Full stack web development
+
+Building something people can try.
+
+[Open the syllabus](/courses/full-stack-web-development-teens-masterclass)IV
 
 ### Younger students
 
 Before Year 11
 
-- [Python and AI for kids](/courses/python-ai-kids-masterclass): The first typed language, taught patiently.
-- [Scratch for kids](/courses/scratch-programming-complete-course): Logic first, typing later.
-- [Maths through coding](/courses/maths-through-coding): Programs that show why a method works.
+SYI / D / 01
+
+#### Python and AI for kids
+
+The first typed language, taught patiently.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)
+
+SYI / D / 02
+
+#### Scratch for kids
+
+Logic first, typing later.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)
+
+SYI / D / 03
+
+#### Maths through coding
+
+Programs that show why a method works.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+How lessons run
 
 ## Weekly practice, sometimes with a clock on the table
 
 Lessons are live on video from India, five and a half hours ahead of the UK in winter and four and a half in summer, at a time agreed and kept in UK time.
 
-- **Weekday evening** The usual slot for Years 11 to 14.
-- **Weekend morning** Long enough for a full ninety-minute sitting.
-- **September weeks** For the run-up to the selection assessment.
+Weekday evening
 
-- **Timed sittings** We run ninety-minute practices with nothing to look up, because that is the round.
-- **Unaided debugging** A student finds their own error while a teacher watches and says nothing, which is uncomfortable and works.
-- **Fifteen to twenty students** Enough for two approaches to meet, small enough for every program to be read.
-- **Northern Ireland years used** Year 12 and Year 14 mean what they mean in Belfast, not what they mean in Birmingham.
-- **One to one when useful** For a finalist in the weeks before November.
-- **No role in the competition** We do not enter students, and we have no relationship with Sentinus.
+The usual slot for Years 11 to 14.
+
+Weekend morning
+
+Long enough for a full ninety-minute sitting.
+
+September weeks
+
+For the run-up to the selection assessment.
+
+### Timed sittings
+
+We run ninety-minute practices with nothing to look up, because that is the round.
+
+### Unaided debugging
+
+A student finds their own error while a teacher watches and says nothing, which is uncomfortable and works.
+
+### Fifteen to twenty students
+
+Enough for two approaches to meet, small enough for every program to be read.
+
+### Northern Ireland years used
+
+Year 12 and Year 14 mean what they mean in Belfast, not what they mean in Birmingham.
+
+### One to one when useful
+
+For a finalist in the weeks before November.
+
+### No role in the competition
+
+We do not enter students, and we have no relationship with Sentinus.
+
+Student work
+
+## What our students have built
+
+Four pieces of finished, published work by students here, made for their own reasons. More of them sit on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 A single monthly rate in US dollars outside India, no registration charge, and you can stop whenever a month ends.
 
-- Free first class: USD 0. A genuine lesson on the work itself. A plain view of where the gaps are. No card, no details beyond a number.
-- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher weekly. Work read closely. A certificate at the end.
-- One to one: USD 150 a month. A teacher working with one student. Shaped around the final they are sitting. Useful in the weeks before November.
+Free first class
+
+USD 0
+
+no card required
+
+- A genuine lesson on the work itself
+- A plain view of where the gaps are
+- No card, no details beyond a number
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students at one level
+- The same teacher weekly
+- Work read closely
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher working with one student
+- Shaped around the final they are sitting
+- Useful in the weeks before November
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+What families have written about us on Google, unedited.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Sentinus Young Innovators questions
 
 ## What Northern Ireland families ask
 
@@ -235,15 +479,54 @@ Sentinus is a Northern Ireland organisation and the competition and its final ar
 
 We teach coding and mathematics in live online classes, including timed practice. We do not enter anyone and have no relationship with Sentinus.
 
+Related pages
+
 ## More for students in Northern Ireland
 
-- [Coding classes in the UK](/coding-classes-in-united-kingdom): Four school systems, and what one birthday does under each.
-- [British Informatics Olympiad](/british-informatics-olympiad-preparation): Sat in school in December and January.
-- [UK competitions calendar 2026-27](/uk-coding-maths-and-ai-competitions-calendar): The season in one table, with each organiser named.
-- [British Mathematical Olympiad](/british-mathematical-olympiad-bmo-preparation): Three and a half hours, and marked by hand.
-- [Big Bang Competition](/big-bang-competition-project-help): Project entries from teams of any size.
-- [Choosing an online class](/best-online-coding-classes-uk): How to tell a serious provider from a well-designed one.
+The UK-wide contests open to the same students, and where the whole year is set out.
 
-## Contact
+### [Coding classes in the UK](/coding-classes-in-united-kingdom)
 
-Book the free first class at [https://learn.modernagecoders.com/sentinus-young-innovators-coding-help](https://learn.modernagecoders.com/sentinus-young-innovators-coding-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Four school systems, and what one birthday does under each.
+
+### [British Informatics Olympiad](/british-informatics-olympiad-preparation)
+
+Sat in school in December and January.
+
+### [UK competitions calendar 2026-27](/uk-coding-maths-and-ai-competitions-calendar)
+
+The season in one table, with each organiser named.
+
+### [British Mathematical Olympiad](/british-mathematical-olympiad-bmo-preparation)
+
+Three and a half hours, and marked by hand.
+
+### [Big Bang Competition](/big-bang-competition-project-help)
+
+Project entries from teams of any size.
+
+### [Choosing an online class](/best-online-coding-classes-uk)
+
+How to tell a serious provider from a well-designed one.
+
+Start here
+
+## Book a free lesson
+
+Tell us the year group and which title your child is aiming at. The free lesson is real work, and afterwards we say honestly what we saw.
+
+Rather read first? Syllabuses are on the [course pages](/courses), the method on [how we teach](/how-we-teach), and the topic order on the [roadmap](/coding-roadmap).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20entering%20Sentinus%20Young%20Innovators%20and%20I%20would%20like%20a%20free%20class.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+A WhatsApp message reaches us quickest and is free from a UK mobile. Our number is Indian, which we say on every page, and no British office exists.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/sentinus-young-innovators-coding-help*

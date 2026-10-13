@@ -4,46 +4,32 @@ description: "Online coding, AI, Python and vibe coding lessons for Farnborough,
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-farnborough
 source: src/pages/best-coding-and-ai-classes-in-farnborough.html
 ---
-> The ONS gives the Farnborough built-up area 60,655 residents at the 2021 census and Aldershot 39,825, in Rushmoor, a borough of 99,756. Cove, North Camp, Southwood, West Heath and Farnborough Park are recorded suburbs lying inside Farnborough's built-up area. Rushmoor learners aged six to 67 are taught coding, AI, Python, vibe coding and maths on camera by tutors working from India, privately or inside an level-matched class of fifteen to twenty. We put thinking first, so learners can explain why a model or chatbot said what it did. Your first lesson is free and closes with our course recommendation. The Farnborough project trains a model on 318 Census areas and then interrogates it about which inputs it actually uses, with a column of random numbers planted as a test. Past the trial, a class place is USD 100 per month and a private tutor USD 150 per month.
+> Online coding, AI, Python and vibe coding lessons for Farnborough, Cove, North Camp and Aldershot learners aged 6 to 67, taught live by a tutor. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South East England](/coding-and-ai-classes-in-south-east-england) / Farnborough
-
-Farnborough, Rushmoor, Hampshire, England / Live online
-
-# Coding and AI classes in Farnborough
-
-**Where can Farnborough learners find the best coding and AI classes?** The ONS gives the Farnborough built-up area 60,655 residents at the 2021 census and Aldershot 39,825, in Rushmoor, a borough of 99,756. Cove, North Camp, Southwood, West Heath and Farnborough Park are recorded suburbs lying inside Farnborough's built-up area. Rushmoor learners aged six to 67 are taught coding, AI, Python, vibe coding and maths on camera by tutors working from India, privately or inside an level-matched class of fifteen to twenty. We put thinking first, so learners can explain why a model or chatbot said what it did. Your first lesson is free and closes with our course recommendation. The Farnborough project trains a model on 318 Census areas and then interrogates it about which inputs it actually uses, with a column of random numbers planted as a test. Past the trial, a class place is USD 100 per month and a private tutor USD 150 per month.
-
-Once a machine learning model is trained, people want to know why it predicts what it does. The common shortcut is a feature importance score, a percentage for each input that most libraries print with one line of code. Those numbers look authoritative, but they are not all equally trustworthy. This project gives a random forest four inputs about each of Rushmoor's 318 Census areas, three genuine and one made of pure random numbers, and asks it to predict how many households live in flats. Then it compares two ways of asking the model which inputs mattered. A good method should give the random column nothing.
-
-Facts last verified 29 September 2026. Teaching is online; no Farnborough branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentFarnborough course picks
 
 ## Farnborough courses in reasoning, Python and AI
 
 Pick a course by age and interest. Lesson one of each is live and free, with no card needed.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think course: testing ideas, controls and asking which clue really mattered.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games planned by the learner, built with an AI and tested for every bug.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Machine learning in Python, including the random-column importance test on Rushmoor data.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): Modern AI, how models are evaluated and explained, and AI agents in Python.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think course: testing ideas, controls and asking which clue really mattered.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games planned by the learner, built with an AI and tested for every bug.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensMachine learning in Python, including the random-column importance test on Rushmoor data.See the syllabus](/courses/ai-ml-masterclass-teens)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseModern AI, how models are evaluated and explained, and AI agents in Python.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Farnborough and Rushmoor
 
 ## Farnborough, Aldershot, Cove and North Camp
 
 The borough's two ONS built-up areas, and recorded suburbs within Farnborough.
 
-**ONS built-up areas in Rushmoor, 2021 census residents**
-
 | Built-up area | Residents (2021) |
-|---|---|
+| --- | --- |
 | Farnborough | 60,655 |
 | Aldershot | 39,825 |
 
@@ -53,6 +39,8 @@ These counts come straight from the ONS and are not added together; the Rushmoor
 
 More choices are on [coding classes in Hampshire](/coding-classes-in-hampshire) and [South East England](/coding-and-ai-classes-in-south-east-england). Our view on thinking before tools is on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Farnborough project
+
 ## Which inputs does the model use? Feature importance with a random-number control
 
 Train a model, plant a fake input, and see which importance method is fooled.
@@ -61,10 +49,8 @@ From the Nomis API the learner downloads four Census 2021 tables for all 318 out
 
 On unseen areas the model explains about 65% of the variation in the flat share. Two importance methods are then compared. The first is the forest's built-in score, based on how much each input helped split the training data. The second, permutation importance, shuffles one input at a time on the test areas and measures how much worse the predictions become.
 
-**Importance of each input for predicting the share of households in flats, averages over 20 splits, our Python run on Census 2021 data for Rushmoor**
-
 | Input | Built-in score | Permutation: accuracy lost when shuffled |
-|---|---|---|
+| --- | --- | --- |
 | No-car share | 45.3% | 0.429 |
 | One-person share | 36.6% | 0.342 |
 | Population density | 12.1% | 0.065 |
@@ -88,14 +74,14 @@ Train the forest, add a noise column, and compare built-in and permutation impor
 
 Accommodation, car, household and density data are Office for National Statistics Census 2021 releases via Nomis, under the Open Government Licence. The model, the random column and every importance figure are our own calculations.
 
+Explaining models
+
 ## What this teaches about vibe coding and AI agents
 
 When a model explains itself, treat the explanation as one more output to verify.
 
-**From the Farnborough importance test to working with AI**
-
 | In the flats project | When AI explains a result |
-|---|---|
+| --- | --- |
 | Random numbers scored 6.0% built-in | Default explanations can credit noise |
 | Permutation gave them about zero | Test importance on data the model has not seen |
 | Density swung between splits | Small datasets give unstable explanations |
@@ -106,14 +92,37 @@ Ask an AI assistant which factors matter most in a dataset and it will often tra
 
 The ONS, Nomis and postcodes.io have no part in this page beyond publishing the open data it uses; the forest, the planted column and any error are ours alone.
 
+Stages
+
 ## From clue games to explaining models
 
 A school year gives a starting guess; the free lesson pins down the level.
 
-- **Years 2 to 7: How to think** Clues, controls and asking what really made the difference. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Games and apps built with an AI and tested by the learner. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python and machine learning** Models, importance and controls alongside GCSE and A level. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)
-- **Adults: AI, evaluation and agents** How models are judged and explained, then agents in Python. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Years 2 to 7
+
+### How to think
+
+Clues, controls and asking what really made the difference.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Games and apps built with an AI and tested by the learner.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python and machine learning
+
+Models, importance and controls alongside GCSE and A level.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)Adults
+
+### AI, evaluation and agents
+
+How models are judged and explained, then agents in Python.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)Explainable AI
 
 ## What is feature importance in machine learning, and can you trust it?
 
@@ -125,30 +134,139 @@ Learners who have run that test ask of any AI explanation: was it measured on ne
 
 Farnborough teenagers who can audit an explanation will not be talked round by a confident chart, and coding is where that audit skill is learned. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Cove to North Camp, all online
 
 Bring a computer and an internet connection that handles video; that is the whole kit list.
 
-- **Learner at the controls** Code, prompts and test runs are all done by the student, with the tutor following the shared screen and asking for reasons.
-- **Starting from the trial** What the free session uncovers sets the first topic; exam boards go on file.
-- **No fee for lesson one** The trial is free and wraps up with a course suggestion.
-- **Same-level classes** Fifteen to twenty learners from across the UK make up each class, all at one stage.
-- **Two each week** Paused in school holidays.
-- **Stable lesson time** Tutors adjust when UK clocks change, so your hour stays put.
+### Learner at the controls
 
-**Why lessons are online** Five learners at the same level with the same free evening are rarely neighbours. Video means they do not need to be.
+Code, prompts and test runs are all done by the student, with the tutor following the shared screen and asking for reasons.
+
+### Starting from the trial
+
+What the free session uncovers sets the first topic; exam boards go on file.
+
+### No fee for lesson one
+
+The trial is free and wraps up with a course suggestion.
+
+### Same-level classes
+
+Fifteen to twenty learners from across the UK make up each class, all at one stage.
+
+### Two each week
+
+Paused in school holidays.
+
+### Stable lesson time
+
+Tutors adjust when UK clocks change, so your hour stays put.
+
+Why lessons are online
+
+Five learners at the same level with the same free evening are rarely neighbours. Video means they do not need to be.
+
+Fees
 
 ## Farnborough fees
 
 Farnborough learners pay our international prices, which apply everywhere except India.
 
-- First class: USD 0. A full lesson at no charge, then a recommendation.
-- Group tuition: USD 100 a month. Roughly eight live group lessons per month.
-- Private tuition: USD 150 a month. Roughly eight live private lessons per month.
+First class**USD 0**
+
+A full lesson at no charge, then a recommendation.
+
+Group tuition**USD 100**
+
+Roughly eight live group lessons per month.
+
+Private tuition**USD 150**
+
+Roughly eight live private lessons per month.
 
 Fees are set in US dollars, not pounds, and billing starts only after the trial has confirmed a course and a weekly time. The pricing page covers holidays, missed lessons and swaps between group and private.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20may%20we%20book%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Farnborough%3F)Reviews
+
+## Hampshire parents and learners across the UK, in their Google reviews
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Farnborough lesson
+
+Share an age or school year and whatever the learner loves doing. The trial might be a hidden-clue game, a Scratch game co-designed with an AI, first steps in Python, or checking which inputs a small model uses.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Farnborough one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20may%20we%20book%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Farnborough%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Farnborough questions
+
+Feature importance, the Census project, Python, vibe coding and practical points.
 
 ### What is the population of Farnborough?
 
@@ -190,10 +308,14 @@ The first is free. After that, USD 100 a month for group lessons or USD 150 a mo
 
 Yes, just send the dates.
 
+Nearby
+
 ## More Hampshire, Surrey and Berkshire pages
 
 Pages with projects of their own: [Guildford](/ai-and-programming-classes-in-guildford), [Woking](/best-coding-and-ai-classes-in-woking), [Basingstoke](/ai-and-programming-classes-in-basingstoke) and [Bracknell](/online-coding-and-python-classes-in-bracknell). Everywhere else we teach is on the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20may%20we%20book%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Farnborough%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-and-ai-classes-in-farnborough](https://learn.modernagecoders.com/best-coding-and-ai-classes-in-farnborough#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-farnborough*

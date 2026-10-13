@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes in Stratum, Eindhoven fo
 canonical: https://learn.modernagecoders.com/coding-classes-in-stratum
 source: src/pages/coding-classes-in-stratum.html
 ---
-> Coding classes in Stratum reach a stadsdeel of three statistics office wijken, Oud-Stratum, Kortonjo and Putten, all three read for this page, holding 35,779 residents on 1,141 hectares of land in January 2026. Their densities are 6,156, 2,777 and 2,361 residents per square kilometre of land. The mean of those three is 3,765, and it is wrong: Stratum as a whole has 3,136, because Oud-Stratum is the densest wijk and has the least land. Add the people, add the land, divide once. Modern Age Coders teaches live online in English from the Joriskwartier to Leenderheide, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
+> Live online coding, Python and AI classes in Stratum, Eindhoven for ages 6 to 67, across Oud-Stratum, Kortonjo and Putten. The first full lesson is free.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Eindhoven](/coding-classes-in-eindhoven) / Stratum
-
-Stratum, Eindhoven / Live online
-
-# Coding classes in Stratum, where averaging three correct densities gives a wrong one
-
-**What are the best coding classes in Stratum, Eindhoven?** Coding classes in Stratum reach a stadsdeel of three statistics office wijken, Oud-Stratum, Kortonjo and Putten, all three read for this page, holding 35,779 residents on 1,141 hectares of land in January 2026. Their densities are 6,156, 2,777 and 2,361 residents per square kilometre of land. The mean of those three is 3,765, and it is wrong: Stratum as a whole has 3,136, because Oud-Stratum is the densest wijk and has the least land. Add the people, add the land, divide once. Modern Age Coders teaches live online in English from the Joriskwartier to Leenderheide, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
-
-Three numbers, each of them correct, each of them published or checked against a published count, and the most natural thing anyone could do with them, take their average, produces a figure about twenty percent too high. Nothing is wrong with Oud-Stratum, Kortonjo or Putten. What goes wrong is the one step that combines them, because an average of three densities treats the three wijken as equal, and they are not equal in the thing a density divides by. The same step is taken every day in code, when somebody averages the accuracy of each batch, the response time of each server or the pass rate of each class, and it is one of the few mistakes in data work that can be caught with nothing more than a pencil.
-
-Facts last verified 10 September 2026. Teaching is online; no Stratum branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Stratum
 
 ## Four courses for the south-east of Eindhoven
 
 A groep 6 child in Kortonjo who wants to make something move on a screen, a teenager in Putten whose phone is full of ideas for apps nobody has built, a student in Oud-Stratum whose model looks accurate on every batch and disappointing on the whole test set, and an adult near the Stadswandelpark who averages a column of percentages every Monday. Any of the four can start with an hour that is taught in full and billed at nothing.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Typed Python where a child shares out sweets between tables of different sizes and finds that the fair answer is not the average of the tables.
-- [App Development for Teens](/courses/complete-app-development-masterclass-for-teens) (Ages 13 to 18): A working application built screen by screen, including the summary screen that totals everything correctly instead of averaging the averages.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Python that keeps numerators and denominators as separate columns until the last line, so a combined rate is always a real rate.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): Spreadsheets and dashboards read by one habit: before averaging a column of rates, ask how big each row is.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsTyped Python where a child shares out sweets between tables of different sizes and finds that the fair answer is not the average of the tables.See the syllabus](/courses/python-ai-kids-masterclass)[![App Development for Teens course thumbnail](/images/app-dev-teens.webp)Ages 13 to 18App Development for TeensA working application built screen by screen, including the summary screen that totals everything correctly instead of averaging the averages.See the syllabus](/courses/complete-app-development-masterclass-for-teens)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CoursePython that keeps numerators and denominators as separate columns until the last line, so a combined rate is always a real rate.See the syllabus](/courses/python-ai-automation-masterclass-college)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)Spreadsheets and dashboards read by one habit: before averaging a column of rates, ask how big each row is.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Stratum today
 
 ## Three wijken, and together they are exactly the stadsdeel
 
@@ -52,16 +40,18 @@ Stratum was a municipality in its own right until 1 January 1920, when it was on
 
 14,731 residents on 624 hectares, more than half of all the land in Stratum, in eleven buurten that run south to Gijzenrooi, Riel, Schuttersbosch and Leenderheide. The most children of the three, 2,425 under fifteen, and four primary schools teaching 1,197 pupils.
 
-**A village with a radio monument** The encyclopaedia entry for Stratum lists the landmarks that make it more than a set of figures. The Sint-Joriskerk, a neo-gothic cruciform basilica, was consecrated in 1885. The Witte Dorp, a quarter of entirely white-painted houses between the old core of Stratum and the country house De Burgh, was built by Willem Dudok from 1937 to 1939, and De Burgh itself was built in 1912 to a design by Joseph Cuypers. In the Stadswandelpark stands the Radiomonument, from 1936, which recalls the first wireless radio link made in 1927 with what was then Nederlandsch-Indie. A water tower of three white spheres stands on the Antoon Coolenlaan, built in 1970 to a design by Wim Quist; DAF has its plant between the Geldropseweg and the Eindhovens Kanaal; and on the west the stadsdeel is bounded, as it always was, by the Dommel and the Tongelreep, which meet inside the Stadswandelpark.
+A village with a radio monument
+
+The encyclopaedia entry for Stratum lists the landmarks that make it more than a set of figures. The Sint-Joriskerk, a neo-gothic cruciform basilica, was consecrated in 1885. The Witte Dorp, a quarter of entirely white-painted houses between the old core of Stratum and the country house De Burgh, was built by Willem Dudok from 1937 to 1939, and De Burgh itself was built in 1912 to a design by Joseph Cuypers. In the Stadswandelpark stands the Radiomonument, from 1936, which recalls the first wireless radio link made in 1927 with what was then Nederlandsch-Indie. A water tower of three white spheres stands on the Antoon Coolenlaan, built in 1970 to a design by Wim Quist; DAF has its plant between the Geldropseweg and the Eindhovens Kanaal; and on the west the stadsdeel is bounded, as it always was, by the Dommel and the Tongelreep, which meet inside the Stadswandelpark.
+
+Three densities
 
 ## Three correct densities, and one average that is not
 
 Each density below is the 2026 resident count divided by the land area the statistics office publishes for that wijk. The published densities are slightly different because they sit on the 2025 counts, 6,210 for Oud-Stratum being 12,295 residents over 198 hectares, so the page recomputes all three on 2026 to keep every figure in one year.
 
-**Residents per square kilometre of land, January 2026**
-
 | Wijk or combination | Residents on land | Per square kilometre | How much each part counts |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Oud-Stratum | 12,188 on 198 ha | 6,156 | 17.4 percent of the land; a third of the list |
 | Kortonjo | 8,860 on 319 ha | 2,777 | 28.0 percent of the land; a third of the list |
 | Putten | 14,731 on 624 ha | 2,361 | 54.7 percent of the land; a third of the list |
@@ -69,6 +59,8 @@ Each density below is the 2026 resident count divided by the land area the stati
 | Stratum, all people over all land | 35,779 on 1,141 ha | 3,136 | every hectare counted once |
 
 The mean of the three densities is 3,765 residents per square kilometre. The density of Stratum is 3,136. The first figure is 20 percent higher than the second, and the only thing that separates them is how much each wijk is allowed to count. A density is people divided by land, so the land is what every part should be weighted by. Oud-Stratum has 17.4 percent of the land and a density two and a half times that of the other two, and the plain mean gives it a third of the vote, nearly double its share. Putten, which is more than half the land, is cut to a third. Weight each density by its land and the answer returns to exactly 3,136, which is simply the long way round to people over land. Using the published 2025 densities instead gives a mean of 3,795, and the error is the same size.
+
+Verified local facts
 
 ## All three wijken of Stratum, row by row, and every sum done here
 
@@ -100,6 +92,8 @@ It gives no stadsdeel figure for income or dwelling value, because each is an av
 
 Modern Age Coders has no link with Stratum, with Eindhoven, with DAF or with any school or landmark named on this page, and nothing here suggests otherwise. The three wijk rows were each read from their own statistics office page: residents and ages for 2026, households, dwellings and dwelling values for 2025, resident students for 2025, income for 2024. The 1920 merger, the 11.53 square kilometres and the landmarks, from the Sint-Joriskerk to the water tower, come from the encyclopaedia entry for the stadsdeel, quoted rather than enlarged upon.
 
+Signature project
+
 ## Add the tops, add the bottoms, divide once
 
 A rate is a pair of counts. Combine the counts and divide at the end, and the combined rate is always right. Combine the rates and it is right only by luck.
@@ -116,18 +110,14 @@ All the people in Stratum: 35,779. All the land: 1,141 hectares. Those sums are 
 
 35,779 over 1,141 hectares is 3,136 to the square kilometre. If the parts were ever to be averaged instead, each would have to be weighted by its own denominator, its land, and that weighted average comes back to 3,136 exactly, which is why the shortcut is never worth taking.
 
-**One mistake, three measures, three different errors**
-
 | Measure | Mean of the three wijk figures | Totals divided once | Size of the error, and why |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Residents per square kilometre of land | 3,765 | 3,136 | 20 percent too high: the densest wijk has the least land and gets a third of the vote |
 | Share of households with one person | 50.3 percent | 51.0 percent | 0.6 points too low: Kortonjo holds 23 percent of the households and is counted as a third |
 | Share of dwellings owner-occupied | 49.3 percent | 47.8 percent | 1.5 points too high: Kortonjo, at 60 percent owners, holds 23.5 percent of the dwellings and is counted as a third |
 
-**The same step, taken in five other places**
-
 | What gets averaged | The tempting figure | The honest figure | Why they differ |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Model accuracy per batch, last batch of four examples | the mean of the batch accuracies | all correct predictions over all examples | four examples count as much as two hundred and fifty-six |
 | Page load time per server | the mean of each server average | total time over total requests | a quiet server with one slow page counts like the busiest one |
 | Star ratings across a shop | the mean of each product average | all the stars over all the ratings | two reviews weigh the same as two thousand |
@@ -138,14 +128,14 @@ All the people in Stratum: 35,779. All the land: 1,141 hectares. Those sums are 
 
 The size of the error is not random, and seeing why makes it easy to predict. An unweighted mean gives every part the same weight, and the true figure gives each part a weight equal to its share of the denominator. The error comes from parts whose weight is misstated and whose value sits far from the rest, and it needs both. In density, Oud-Stratum is both: badly overweighted and two and a half times as dense as its neighbours, so the mean is 20 percent out. In the household measures something tidier happens. Oud-Stratum and Putten each publish exactly 7,295 households, so the unweighted mean misweights them by identical amounts and the whole error reduces to how far Kortonjo sits from the other two; it sits close, so the mean is out by only 0.6 points. The wrong weight is its own trap: weight the three densities by residents instead of land and the answer is 3,757, which is not the density of Stratum either, but the density at which the average resident lives, a real quantity with uses in planning and a wrong one if reported as the first. In code the fix is structural. Keep numerators and denominators as separate columns, sum them with the grouping, and divide in the last line; in a training loop, accumulate correct predictions and example counts rather than per-batch accuracies, or the short final batch quietly gets the same say as a full one. An unweighted mean is sometimes exactly what is wanted, when the question is about the typical wijk rather than about Stratum, but that is a different question and it should be asked out loud.
 
+Reliable pipeline
+
 ## Five habits for combining rates without inventing one
 
 Densities, shares, averages, conversion rates, accuracies and response times all have a top and a bottom, and all of them break the same way when the bottoms are thrown away too early. Practised on three wijken whose own figures are all correct.
 
-**Combining parts into a whole that is really the whole**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Store counts, not ratios | Keep the numerator and denominator of every rate as their own fields | A rate that cannot be combined | Figures that can be added up later |
 | Check the set is whole | Confirm the parts cover the entire area, group or period before summing | A total that is really a subtotal | Sums that mean what they say |
 | Sum, then divide | Add the tops and the bottoms separately, and divide last | An average of averages | The real combined rate |
@@ -166,14 +156,37 @@ A column of percentages from a real report, each row with its own size. Adults c
 
 The figures behind this section are the three published wijk rows and nothing else: residents and ages at 2026, households and dwellings at 2025, land area as the office gives it. The completeness check is the match between the three wijk areas and the 11.53 square kilometres of the encyclopaedia entry. Every sum on this page adds all three wijken at one year, and every division is set out above so that a reader with a calculator can reproduce it in a couple of minutes.
 
+Learning ladder
+
 ## From sweets at two party tables to a model scored on the whole test set
 
 Where a learner starts is settled in the free hour, by watching how they handle one real problem. Which wijk they live in and how old they are decide nothing.
 
-- **Ages 6 to 10: Fair shares** Children share things out between groups of different sizes and see why the fair answer is not the middle one. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Game Development for Kids](/courses/game-development-masterclass-for-kids)
-- **Ages 11 to 13: Tops and bottoms** Learners keep both numbers of every fraction and add them up before dividing. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: The short last batch** Teenagers score a model two ways and find the line that lets a tiny batch outvote a big one. [App Development for Teens](/courses/complete-app-development-masterclass-for-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: The column of percentages** Adults recombine a real report from its counts and find out which figures were ever real. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Fair shares
+
+Children share things out between groups of different sizes and see why the fair answer is not the middle one.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Game Development for Kids](/courses/game-development-masterclass-for-kids)Ages 11 to 13
+
+### Tops and bottoms
+
+Learners keep both numbers of every fraction and add them up before dividing.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### The short last batch
+
+Teenagers score a model two ways and find the line that lets a tiny batch outvote a big one.
+
+[App Development for Teens](/courses/complete-app-development-masterclass-for-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### The column of percentages
+
+Adults recombine a real report from its counts and find out which figures were ever real.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## Ask an AI for the density of Stratum and it may average the three wijken. Why should a teenager in Putten add the land first?
 
@@ -185,30 +198,139 @@ The learner who has written the loop that sums correct predictions and example c
 
 The case for a child in Stratum learning to code in 2026 is therefore not DAF down the road or the campus to the north. It is that a program that keeps both halves of every fraction cannot make this mistake, and a person who has written one stops making it too. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for Oud-Stratum, Kortonjo and Putten
 
 Stratum runs from the old village streets by the Sint-Joriskerk to the woods at Leenderheide, and whichever end a family lives at, the scarce thing is a free evening rather than a route to a classroom.
 
-- **No ride across the ring** From Putten or the Elzent a classroom anywhere else in the city is a bike ride each way, twice a week, in every kind of weather. A lesson at the kitchen table removes the ride and keeps the hour, and an hour that costs no travel is the one that survives November.
-- **School words stay in Dutch** Groep, havo, vwo and profielkeuze are not translated during a lesson. A Stratum child reads them on every letter home and hears them at every parents evening, so they are used in their own form and nobody pauses to convert them.
-- **A real lesson, and no sales pitch** The free hour is taught, with a problem the learner actually solves, and it ends with a placement, a named course and a fixed weekly time. There is no card to enter and no call afterwards dressed up as a follow-up lesson.
-- **Classmates by stage, not by postcode** A group is fifteen to twenty learners at the same point in the same subject. Stratum holds 4,930 children under fifteen, and even so, five at one exact stage wanting one exact hour is rare anywhere, so groups are formed from a worldwide pool and start without a waiting list.
-- **Holidays set by regio Zuid** Twice a week, about eight lessons a month, at an hour that does not move. Noord-Brabant schools take regio Zuid holidays, which fall at different times from the west of the country, and the teaching calendar follows them from the first month.
-- **One clock changes, and it is the Dutch one** India runs three and a half hours ahead of Eindhoven in summer and four and a half in winter, and India never changes its clocks. After school, the early evening and weekend mornings all stay open whatever the season.
+### No ride across the ring
 
-**Eight primary schools, and why the group still comes from everywhere** Stratum has eight primary establishments teaching 2,719 pupils and three secondary establishments teaching 1,833, which is a good deal of schooling for three wijken. None of that changes how a class is formed. Two learners from the same school are rarely at the same stage in Python, and a group that waits for five from one stadsdeel may wait a year. Placement is therefore by stage alone, from a pool that spans every age from 6 to 67 and every time zone the teachers serve.
+From Putten or the Elzent a classroom anywhere else in the city is a bike ride each way, twice a week, in every kind of weather. A lesson at the kitchen table removes the ride and keeps the hour, and an hour that costs no travel is the one that survives November.
+
+### School words stay in Dutch
+
+Groep, havo, vwo and profielkeuze are not translated during a lesson. A Stratum child reads them on every letter home and hears them at every parents evening, so they are used in their own form and nobody pauses to convert them.
+
+### A real lesson, and no sales pitch
+
+The free hour is taught, with a problem the learner actually solves, and it ends with a placement, a named course and a fixed weekly time. There is no card to enter and no call afterwards dressed up as a follow-up lesson.
+
+### Classmates by stage, not by postcode
+
+A group is fifteen to twenty learners at the same point in the same subject. Stratum holds 4,930 children under fifteen, and even so, five at one exact stage wanting one exact hour is rare anywhere, so groups are formed from a worldwide pool and start without a waiting list.
+
+### Holidays set by regio Zuid
+
+Twice a week, about eight lessons a month, at an hour that does not move. Noord-Brabant schools take regio Zuid holidays, which fall at different times from the west of the country, and the teaching calendar follows them from the first month.
+
+### One clock changes, and it is the Dutch one
+
+India runs three and a half hours ahead of Eindhoven in summer and four and a half in winter, and India never changes its clocks. After school, the early evening and weekend mornings all stay open whatever the season.
+
+Eight primary schools, and why the group still comes from everywhere
+
+Stratum has eight primary establishments teaching 2,719 pupils and three secondary establishments teaching 1,833, which is a good deal of schooling for three wijken. None of that changes how a class is formed. Two learners from the same school are rarely at the same stage in Python, and a group that waits for five from one stadsdeel may wait a year. Placement is therefore by stage alone, from a pool that spans every age from 6 to 67 and every time zone the teachers serve.
+
+Fees
 
 ## The fee for Stratum, set out in dollars
 
 Printed in full on the page so that nobody has to ask for it.
 
-- First class: USD 0. A complete taught lesson that ends with a level and a named course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete taught lesson that ends with a level and a named course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 The same dollar figure applies in every country, with no euro version, so a flat in Oud-Stratum and a house in Kortonjo pay exactly the same. Nothing is charged until the free lesson has fixed a course and an hour, and payment is then handled over WhatsApp. What happens with a pause, a change of plan or a missed week is written out on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Stratum%2C%20Eindhoven.)Reviews
+
+## Six Google reviews, word for word as they were posted
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us the stage, not the street
+
+The first task might be sharing sweets between tables of different sizes, a model scored batch by batch and then as a whole, or a column of percentages rebuilt from its counts.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Stratum one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Stratum%2C%20Eindhoven.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Stratum coding class questions
+
+The stadsdeel, its three wijken, one way of combining numbers that goes wrong, the teaching and the terms.
 
 ### What does Stratum include?
 
@@ -250,10 +372,14 @@ The first lesson is free. After it, group tuition is USD 100 a month for two liv
 
 Fifteen to twenty, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
+Explore Eindhoven and beyond
+
 ## From Stratum into the rest of Eindhoven and Brabant
 
 The whole-city picture, with Brainport, the international schools and the figures the district pages leave alone, is on [coding classes in Eindhoven](/coding-classes-in-eindhoven). Across the Dommel to the north-west lies the old town, on [Eindhoven Centrum](/coding-classes-in-eindhoven-centrum), a single wijk where the campus is the youngest place and still not where the young people are. Gestel, Strijp, Woensel-Zuid, Woensel-Noord and Tongelre follow as their pages are written, and the province around all of them is [Noord-Brabant](/coding-classes-in-noord-brabant). For a learner who wants to go straight to machine learning, the [AI and Python Academy](/ai-and-python-academy-netherlands) is the more direct entrance, and every page in the series leads back to the [Netherlands coding hub](/coding-classes-in-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Ask on WhatsApp instead](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Stratum%2C%20Eindhoven.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-stratum](https://learn.modernagecoders.com/coding-classes-in-stratum#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-stratum*

@@ -4,34 +4,28 @@ description: "WA Gifted and Talented ASET for Year 6: the 35-minute Quantitative
 canonical: https://learn.modernagecoders.com/wa-gate-aset-maths-practice
 source: src/pages/wa-gate-aset-maths-practice.html
 ---
-> The ASET is the Academic Selective Entrance Test for WA Gifted and Talented programs, sat in Year 6 for Year 7 entry. It has four tests: Reading Comprehension, Communicating Ideas in Writing, Quantitative Reasoning and Abstract Reasoning. Quantitative Reasoning has 35 multiple-choice questions in 35 minutes. For the 2028 intake, Year 6 students sit it on Saturday 6 March 2027 in Perth, Bunbury and Albany.
+> WA Gifted and Talented ASET for Year 6: the 35-minute Quantitative Reasoning test, the 2027 date, the department's advice, and matchstick pattern puzzles.
 
-[Home](/) / [Online maths tutoring in Australia](/online-maths-tutoring-australia) / WA GATE ASET maths
+In short
 
-Western Australia · Gifted and Talented · ASET
+The ASET is the Academic Selective Entrance Test for WA Gifted and Talented programs, sat in Year 6 for Year 7 entry. It has four tests: Reading Comprehension, Communicating Ideas in Writing, Quantitative Reasoning and Abstract Reasoning. Quantitative Reasoning has 35 multiple-choice questions in 35 minutes. For the 2028 intake, Year 6 students sit it on Saturday 6 March 2027 in Perth, Bunbury and Albany.
 
-# WA GATE ASET maths practice
-
-In Western Australia, academic entry to the Gifted and Talented Secondary Selective Entrance programs begins in Year 5, with testing in Year 6 and placement from Year 7. Academic applicants sit one test: the Academic Selective Entrance Test, or ASET. Its number-based part, Quantitative Reasoning, is 35 multiple-choice questions in 35 minutes. This page explains it from the department's ASET Handbook, quotes the department's view on coaching, and practises a kind of reasoning that suits it well: growing matchstick patterns, where the job is to find the rule. There is no program-choice or admissions advice here, and no promise of a result.
-
-At a glance: Programs: Gifted and Talented, Years 7 to 12; Test: ASET; Sat in: Year 6; Next Year 6 test: Saturday 6 March 2027; Quantitative Reasoning: 35 questions, 35 minutes; Options: A, B, C or D; Wrong answers: No points deducted; Answers: Pencil in a paper booklet. Rated 4.9 across 547 Google reviews.
+Reasoning that lasts
 
 ## Three courses for able Years 5 and 6 students
 
 Maths and logic that are worth learning whichever school comes next.
 
-- [Problem solving and patterns](/courses/problem-solving-and-computational-thinking-for-kids): Rules, sequences and logical steps, talked through.
-- [Algebra foundations](/courses/algebra-foundations-masterclass): Growing patterns become the first algebraic rules.
-- [Competition maths](/courses/olympiad-competition-mathematics-mastery): Unfamiliar problems for students who love a challenge.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)  WGA / 01 Problem solving and patterns Rules, sequences and logical steps, talked through. Open the syllabus →](/courses/problem-solving-and-computational-thinking-for-kids)[![Algebra Foundations course thumbnail](/images/algebra-foundations.webp)  WGA / 02 Algebra foundations Growing patterns become the first algebraic rules. Open the syllabus →](/courses/algebra-foundations-masterclass)[![Maths Olympiad & Competition Course course thumbnail](/images/olympiad-competition-maths.webp)  WGA / 03 Competition maths Unfamiliar problems for students who love a challenge. Open the syllabus →](/courses/olympiad-competition-mathematics-mastery)
+
+The ASET, from the department
 
 ## Four tests, about two hours of tasks, one booklet
 
 Order and timings are quoted from the department's ASET Handbook, read on 7 October 2026.
 
-**ASET tests in the order sat (ASET Handbook)**
-
 | Test | Time | Format |
-|---|---|---|
+| --- | --- | --- |
 | Reading Comprehension | 35 minutes | Multiple choice |
 | Communicating Ideas in Writing | 25 minutes | Written test |
 | Break | 10 minutes | Students leave the room |
@@ -48,11 +42,15 @@ The department publishes a Practice ASET aimed at the Year 7 intake and notes th
 
 Sources: [WA Department of Education, Gifted and Talented testing](https://www.education.wa.edu.au/gifted-and-talented/testing); [Key dates and application guidelines](https://www.education.wa.edu.au/key-dates-and-application-guidelines); [Gifted and Talented overview](https://www.education.wa.edu.au/gifted-and-talented); ASET Handbook (PDF linked from the testing page). Checked on 7 October 2026. We are independent of the department.
 
+Quantitative Reasoning
+
 ## Not a school maths test, by design
 
 The handbook is explicit about what this test is and is not.
 
-**From the ASET Handbook** "This test assesses quantitative reasoning ability, which is very different to a test of school achievement in mathematics or science." It checks how well a student can use mathematical and scientific reasoning to solve problems, with content drawn from many sources and "very different to what is taught in school".
+From the ASET Handbook
+
+"This test assesses quantitative reasoning ability, which is very different to a test of school achievement in mathematics or science." It checks how well a student can use mathematical and scientific reasoning to solve problems, with content drawn from many sources and "very different to what is taught in school".
 
 The handbook asks students to look at information carefully, find patterns and relationships, solve problems, and spot similarities and differences. Rough working is allowed in the question booklet and on the back of the answer booklet, but only shaded answers are marked.
 
@@ -63,6 +61,8 @@ We take that seriously. A test designed to identify potential rather than acquir
 Our classes build those habits through ordinary, interesting mathematics. They are not ASET coaching, and the free trial is where we say honestly whether a child needs anything beyond the official practice test.
 
 Sources: ASET Handbook, Quantitative Reasoning test overview; [Gifted and Talented testing](https://www.education.wa.edu.au/gifted-and-talented/testing). Checked on 7 October 2026.
+
+Puzzles we wrote
 
 ## Matchstick growing patterns
 
@@ -80,10 +80,8 @@ The difference between counts tells you how many sticks each new piece needs, af
 
 A rule such as 3 times the step, plus 1, must work for every step you drew, not just one.
 
-**Original matchstick patterns with rules**
-
 | Pattern | First counts | Rule for step n | Question and answer |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Squares joined in a row | 4, 7, 10 | 3n + 1 | Step 10 needs 31 sticks |
 | Triangles joined in a row, alternately up and down | 3, 5, 7 | 2n + 1 | Step 20 needs 41 sticks |
 | Squares in a row: which step uses exactly 100 sticks? | 4, 7, 10 | 3n + 1 = 100 | Step 33 |
@@ -94,6 +92,8 @@ A rule such as 3 times the step, plus 1, must work for every step you drew, not 
 The first pattern explains why so many rules end in plus 1. The first square needs 4 sticks, but every square after it shares a side with the one before, so it adds only 3. Four sticks is really 1 plus 3, which is where 3n + 1 comes from. A student who can explain the plus 1 has understood the pattern, not just matched numbers.
 
 The last pattern is different, and that is the point. The counts 4, 12, 24 do not go up by the same amount each time, so no rule of the form "times something, plus 1" fits. Counting horizontal and vertical sticks separately in a 3 by 3 grid gives 4 rows of 3 and 4 columns of 3, which is 12 plus 12. Checking a rule on every step catches the moment a pattern stops being simple.
+
+The other reasoning test
 
 ## Abstract Reasoning: 35 questions in 20 minutes
 
@@ -115,6 +115,8 @@ Try the hexagon pattern from the table with this in mind. One hexagon needs 6 st
 
 Source: ASET Handbook, Abstract Reasoning test overview, linked from [Gifted and Talented testing](https://www.education.wa.edu.au/gifted-and-talented/testing). Checked on 7 October 2026.
 
+A paper test
+
 ## Pencil, ovals and careful alignment
 
 The ASET is answered on paper, and the handbook spends real care on the answer booklet.
@@ -133,14 +135,14 @@ Use the question booklet for working; markers only see the shaded answers.
 
 If stuck, choose the most sensible option and move on, since wrong answers cost nothing.
 
+Pattern reasoning
+
 ## Four stages for young pattern spotters
 
 These develop through puzzles, discussion and good teaching over years.
 
-**From counting to rules**
-
 | Stage | The student can | Secure when |
-|---|---|---|
+| --- | --- | --- |
 | 1. Continue | Extend a pattern by drawing | Draws step 4 of the square pattern correctly |
 | 2. Difference | See what each step adds | Explains why each square adds 3 sticks |
 | 3. Rule | Write a rule for step n | Finds step 20 of the triangle pattern without drawing |
@@ -149,63 +151,293 @@ These develop through puzzles, discussion and good teaching over years.
 ### Wellbeing
 
 The department does not recommend private coaching for the ASET, and heavy preparation for a test of potential rarely helps.
+
 Matchsticks, toothpicks or drawn lines at the kitchen table make pattern puzzles a game rather than a chore.
 
 ### Other states
 
 South Australia's Ignite assessment is covered on [SA Ignite maths practice](/sa-ignite-entry-maths-practice).
+
 For NAPLAN in Year 5, see [NAPLAN Year 5 numeracy](/naplan-year-5-numeracy-practice).
+
+Courses for Years 5 and 6
 
 ## Courses for pattern-loving students
 
 Sorted into three groups; tap a card for the syllabus.
 
+I
+
 ### Patterns and logic
 
 Reasoning skills
 
-- [Problem solving and computational thinking](/courses/problem-solving-and-computational-thinking-for-kids): Sequences, rules and logical steps.
-- [Maths through coding](/courses/maths-through-coding): Patterns generated by code.
-- [Competition maths](/courses/olympiad-competition-mathematics-mastery): Challenging puzzles.
+WGA / P / 01
+
+#### Problem solving and computational thinking
+
+Sequences, rules and logical steps.
+
+[Open the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)
+
+WGA / P / 02
+
+#### Maths through coding
+
+Patterns generated by code.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+WGA / P / 03
+
+#### Competition maths
+
+Challenging puzzles.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)II
 
 ### Curriculum maths
 
 Strong foundations
 
-- [Primary maths](/courses/elementary-mathematics-complete-masterclass): All strands, deeply.
-- [Mental maths](/courses/mental-maths-mastery-kids): Quick, accurate calculation.
-- [Statistics and probability](/courses/statistics-probability-maths-course): Reading graphs and judging likelihood.
+WGA / C / 01
+
+#### Primary maths
+
+All strands, deeply.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+WGA / C / 02
+
+#### Mental maths
+
+Quick, accurate calculation.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+WGA / C / 03
+
+#### Statistics and probability
+
+Reading graphs and judging likelihood.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)III
 
 ### Ahead
 
 Toward secondary maths
 
-- [Algebra foundations](/courses/algebra-foundations-masterclass): Rules written as algebra.
-- [Middle years maths](/courses/comprehensive-middle-school-mathematics-mastery): A head start on secondary topics.
-- [Vedic maths](/courses/vedic-maths-course-speed-calculation-mastery): Patterns in calculation.
+WGA / A / 01
+
+#### Algebra foundations
+
+Rules written as algebra.
+
+[Open the syllabus](/courses/algebra-foundations-masterclass)
+
+WGA / A / 02
+
+#### Middle years maths
+
+A head start on secondary topics.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+WGA / A / 03
+
+#### Vedic maths
+
+Patterns in calculation.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
+
+Our lessons
 
 ## Live classes for Western Australian families
 
 Teachers are in India, two and a half hours behind Perth all year, since WA has no daylight saving. A 4 pm Perth class starts at 1.30 pm India time.
 
-- **After school** Ideal for Years 5 and 6.
-- **Saturday** For busy weekday families.
-- **Holidays** Short pattern and logic workshops.
+After school
 
-- **Draw, count, rule** Students build patterns before writing rules.
-- **Explain the plus one** Every rule must be explained, not just found.
-- **Fifteen to twenty per group** Groups at a shared level.
-- **One-to-one** For focused individual work.
-- **Not ASET coaching** We teach maths and reasoning, consistent with the department's advice.
-- **No offer promises** Offers are the department's decision.
+Ideal for Years 5 and 6.
+
+Saturday
+
+For busy weekday families.
+
+Holidays
+
+Short pattern and logic workshops.
+
+### Draw, count, rule
+
+Students build patterns before writing rules.
+
+### Explain the plus one
+
+Every rule must be explained, not just found.
+
+### Fifteen to twenty per group
+
+Groups at a shared level.
+
+### One-to-one
+
+For focused individual work.
+
+### Not ASET coaching
+
+We teach maths and reasoning, consistent with the department's advice.
+
+### No offer promises
+
+Offers are the department's decision.
+
+Student work
+
+## Our students' projects
+
+Built by learners for fun. See the [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 WA families pay monthly in US dollars, our rate outside India. No deposit, and you can stop at the end of any month.
 
-- Free first class: USD 0. A real trial lesson. Honest advice, including when no classes are needed. No card details.
-- Group batch: USD 100 a month. Fifteen to twenty students at one level. A regular teacher. Explained feedback. Certificate at the end.
-- One to one: USD 150 a month. A teacher for one child. Chosen focus areas. Times to suit you.
+Free first class
+
+USD 0
+
+no card required
+
+- A real trial lesson
+- Honest advice, including when no classes are needed
+- No card details
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students at one level
+- A regular teacher
+- Explained feedback
+- Certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one child
+- Chosen focus areas
+- Times to suit you
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Parent reviews from Google, word for word.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about the ASET
 
 ## Western Australian families ask
 
@@ -249,15 +481,54 @@ No. We give no admissions or program-choice advice.
 
 One weekly slot is set once the free class is done. Western Australia keeps the same clock all year, so Perth stays two and a half hours ahead of India.
 
+Related pages
+
 ## More for WA families
 
-- [SA Ignite maths](/sa-ignite-entry-maths-practice): South Australia's gifted program assessment.
-- [Queensland Academies test](/queensland-academies-entry-maths-practice): Logic grids and number series.
-- [Maths tutoring in Australia](/online-maths-tutoring-australia): Live lessons for all years.
-- [Coding for 11 and 12 year olds](/coding-classes-for-11-and-12-year-olds-australia): Patterns and logic in code.
-- [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar): Maths and coding contests, month by month.
-- [Maths challenges](/maths-challenges): Puzzles for home.
+Other tests, maths and coding.
 
-## Contact
+### [SA Ignite maths](/sa-ignite-entry-maths-practice)
 
-Book the free first class at [https://learn.modernagecoders.com/wa-gate-aset-maths-practice](https://learn.modernagecoders.com/wa-gate-aset-maths-practice#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+South Australia's gifted program assessment.
+
+### [Queensland Academies test](/queensland-academies-entry-maths-practice)
+
+Logic grids and number series.
+
+### [Maths tutoring in Australia](/online-maths-tutoring-australia)
+
+Live lessons for all years.
+
+### [Coding for 11 and 12 year olds](/coding-classes-for-11-and-12-year-olds-australia)
+
+Patterns and logic in code.
+
+### [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar)
+
+Maths and coding contests, month by month.
+
+### [Maths challenges](/maths-challenges)
+
+Puzzles for home.
+
+Start here
+
+## Book a free patterns class
+
+Share your child's year level and a puzzle or game they enjoy. The trial is a real lesson in patterns and reasoning, with honest advice afterwards.
+
+Exploring first? The [course atlas](/course-atlas) lists every course, and [how we teach](/how-we-teach) shows a lesson.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20and%20reasoning%20class%20for%20my%20Year%205%20or%206%20child%20in%20WA.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+The fastest replies come on WhatsApp. Our number has India's +91 code; we teach from India and have no WA office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/wa-gate-aset-maths-practice*

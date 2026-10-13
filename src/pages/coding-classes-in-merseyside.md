@@ -4,46 +4,32 @@ description: "Live online coding, Python and maths classes across Merseyside, fr
 canonical: https://learn.modernagecoders.com/coding-classes-in-merseyside
 source: src/pages/coding-classes-in-merseyside.html
 ---
-> Merseyside is five boroughs: Liverpool, Wirral, Sefton, St Helens and Knowsley. The 2021 Census found 1,423,287 people across them, a total we added up ourselves from the five published counts. Liverpool's built-up area passes half a million, and Birkenhead, St Helens, Southport and Wallasey follow. Lessons are live over video, taught from India, and learners are grouped by the level they have reached rather than their age. We take students from 6 to 67 in groups of fifteen to twenty or one-to-one, for coding, Python, computer science and maths. The Merseyside project goes back to the locomotive trials at Rainhill in 1829. Trying a lesson is free, and continuing costs USD 100 a month in a group or USD 150 a month one-to-one.
+> Live online coding, Python and maths classes across Merseyside, from Liverpool, Birkenhead and St Helens to Southport, Wallasey, Bootle, Crosby and Kirkby.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Merseyside
-
-Merseyside / Live online
-
-# Coding classes in Merseyside
-
-**What are the best coding classes in Merseyside?** Merseyside is five boroughs: Liverpool, Wirral, Sefton, St Helens and Knowsley. The 2021 Census found 1,423,287 people across them, a total we added up ourselves from the five published counts. Liverpool's built-up area passes half a million, and Birkenhead, St Helens, Southport and Wallasey follow. Lessons are live over video, taught from India, and learners are grouped by the level they have reached rather than their age. We take students from 6 to 67 in groups of fifteen to twenty or one-to-one, for coding, Python, computer science and maths. The Merseyside project goes back to the locomotive trials at Rainhill in 1829. Trying a lesson is free, and continuing costs USD 100 a month in a group or USD 150 a month one-to-one.
-
-In October 1829, on a level stretch of line at Rainhill, now in the borough of St Helens, four locomotives competed to prove that steam could work the new Liverpool and Manchester Railway. The directors had published eight conditions in advance, and Samuel Smiles printed them in his life of the Stephensons. A written set of conditions that a machine must meet is exactly what programmers call a specification, and the way to check one is to turn it into tests. This page's project does that in Python, runs the tests on the four engines using the figures Smiles reports, and finds that the hardest part is not writing the code but deciding what the words meant.
-
-Facts last verified 26 September 2026. Teaching is online; no Merseyside branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Merseyside
 
 ## Where Merseyside learners start out
 
 An eight-year-old in Formby building a first game, a Year 10 in Wallasey taking GCSE Computer Science, a Year 13 in Crosby ready for real Python, and a parent in Huyton learning to code after work. Every one of them begins with a free lesson.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 12): Block programming for younger children, a first step towards games with rules that are checked every turn.
-- [GCSE Computer Science](/courses/gcse-computer-science-course) (GCSE years): GCSE Computer Science for AQA, OCR and Edexcel, including building a test plan and naming syntax, logic and runtime errors precisely.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Python from beginner to advanced for teenagers, through games, automation, data and AI projects.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Adults): Python from the first line, for adults who want programs they can trust and check.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 12Scratch Coding for KidsBlock programming for younger children, a first step towards games with rules that are checked every turn.See the syllabus](/courses/scratch-programming-complete-course)[![GCSE Computer Science course thumbnail](/images/gcse-computer-science.webp)GCSE yearsGCSE Computer ScienceGCSE Computer Science for AQA, OCR and Edexcel, including building a test plan and naming syntax, logic and runtime errors precisely.See the syllabus](/courses/gcse-computer-science-course)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensPython from beginner to advanced for teenagers, through games, automation, data and AI projects.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)AdultsPython MasterclassPython from the first line, for adults who want programs they can trust and check.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Merseyside in figures
 
 ## 1,423,287 people in five boroughs
 
 Borough counts come from the 2021 Census on Nomis, and the total is our sum. Towns are ONS built-up areas, checked against our own addition of census output areas.
 
-**Merseyside's twelve largest built-up areas, 2021 Census**
-
 | Town | Residents | Town | Residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Liverpool | 506,565 | Bebington | 57,600 |
 | Birkenhead | 109,835 | Bootle | 53,720 |
 | St Helens | 107,680 | Crosby | 50,215 |
@@ -57,16 +43,16 @@ The ONS Liverpool area reaches into Knowsley and Sefton, which is why it is larg
 
 The [Liverpool](/best-coding-class-in-liverpool) page has a different project, on the tides of the Mersey. For Wirral families thinking about entrance tests there is also our [Wirral 11+ maths](/11-plus-maths-tuition-wirral) page.
 
+The Merseyside project
+
 ## Turning the Rainhill rules into tests
 
 Eight conditions from 1829, four engines, and a test suite that finds problems in the rules as well as the machines.
 
 The conditions, as Smiles prints them, include: the engine "must effectually consume its own smoke"; if it weighs six tons it must draw twenty tons "(including the tender and water-tank) at ten miles an hour"; it must not weigh more than six tons, but a lighter engine "would be preferred on its drawing a proportionate load"; four wheels are allowed only at four and a half tons; and "a mercurial gauge must be affixed". The trial itself was twenty trips on a level piece of line "about two miles in length", averaging at least ten miles an hour. The learner writes one small Python function for each rule that can be checked from numbers, and records what Smiles says each engine did.
 
-**Our tests run on the figures in Smiles's account, 26 September 2026**
-
 | Engine | All 20 trips | Weight rule | Speed of 10 mph | Load, read literally |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Rocket | Pass | Pass (4.5 tons) | Pass | Fail: 13 tons against 15 |
 | Sanspareil | Fail: stopped at trip 8 | Fail: over the four-wheel limit | Pass (about 14 mph) | Cannot decide |
 | Novelty | Fail: pipe burst | Pass (about 3 tons) | Cannot decide | Fail: about 7 tons against 10.2 |
@@ -92,14 +78,14 @@ Add a third answer for missing data, write the tests with a proper testing frame
 
 The conditions and every figure for the engines come from Smiles's book, which was written long after the event and is one account among several. The tests, their readings of the rules and the pass or fail results are ours, made for teaching. They are not a new verdict on the trials.
 
+Why Rainhill
+
 ## Four engines, one level track, and a rule book
 
 The Merseyside link, as Samuel Smiles tells it.
 
-**The Rainhill Trials in Smiles's account**
-
 | Point | What Smiles writes |
-|---|---|
+| --- | --- |
 | Deadline | Engines to be delivered, complete and ready, at the Liverpool end of the railway by 1 October 1829; the start was put back to 6 October. |
 | Entrants | Novelty, Sanspareil, Rocket and Perseverance; a horse-worked machine was not admitted. |
 | 8 October | Rocket raised steam in fifty-seven minutes, then pulled about thirteen tons through all twenty trips, touching twenty-nine miles an hour. |
@@ -110,16 +96,41 @@ Rainhill is a good place to learn that a specification is a promise written in w
 
 We have no connection with St Helens Council, any Merseyside council, the Science Museum Group or Project Gutenberg. Smiles's words are his; the tests and any error in them are ours.
 
-**Nearby pages** [Liverpool](/best-coding-class-in-liverpool) has its own page, with [Lancashire](/coding-classes-in-lancashire) to the north, [Greater Manchester](/coding-classes-in-greater-manchester) at the other end of the old railway, and [Cheshire](/coding-classes-in-cheshire) and [Chester](/best-coding-class-in-chester) to the south.
+Nearby pages
+
+[Liverpool](/best-coding-class-in-liverpool) has its own page, with [Lancashire](/coding-classes-in-lancashire) to the north, [Greater Manchester](/coding-classes-in-greater-manchester) at the other end of the old railway, and [Cheshire](/coding-classes-in-cheshire) and [Chester](/best-coding-class-in-chester) to the south.
+
+The path
 
 ## From game rules to test suites
 
 Where a learner starts is decided in the free lesson. Age gives a hint, and ability settles it.
 
-- **Ages 6 to 10: Rules in a game** Block coding where the game checks a rule every turn: collect three keys, then the door opens. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 9 to 13: Does it work?** Typed Python and logic puzzles, where every program is tried on examples before it is called finished. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 13 to 18: Tested code** GCSE Computer Science and full Python, with test plans, awkward inputs and clear names for errors. [GCSE Computer Science](/courses/gcse-computer-science-course), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Programs you trust** Python for adults, from basics to automation, with checks built in from the first week. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### Rules in a game
+
+Block coding where the game checks a rule every turn: collect three keys, then the door opens.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 9 to 13
+
+### Does it work?
+
+Typed Python and logic puzzles, where every program is tried on examples before it is called finished.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 13 to 18
+
+### Tested code
+
+GCSE Computer Science and full Python, with test plans, awkward inputs and clear names for errors.
+
+[GCSE Computer Science](/courses/gcse-computer-science-course)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Programs you trust
+
+Python for adults, from basics to automation, with checks built in from the first week.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Python Automation Course](/courses/python-ai-automation-masterclass-college)AI and specifications
 
 ## An AI can write tests from a rule book. Who decides what the rules mean?
 
@@ -131,30 +142,139 @@ People who work with AI-written code spend much of their time on exactly this: c
 
 So a young person on Merseyside should learn to code in 2026 to be able to question a test as well as pass one. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+The practical side
+
 ## Both banks of the Mersey, no crossing needed
 
 Getting from Wirral to Liverpool or from Southport to St Helens for a weekly class takes time. Online lessons take none.
 
-- **Lessons at home** A bedroom in Bootle, a table in Heswall, a spare room in Haydock. The teacher shares a screen and the learner does the typing.
-- **The same school words** Year groups, key stages, GCSEs and A levels are named the way Merseyside schools name them, and everything is taught in English.
-- **A free first lesson** A real lesson with real work, then a straight recommendation. We do not ask for card details.
-- **Classmates at your level** Fifteen to twenty learners at the same stage, from across Merseyside, the UK and other countries.
-- **Holidays that match yours** Two lessons a week is usual, and we pause for the holidays your own school sets.
-- **Your clock, not ours** We give every slot in UK time and keep it steady through the clock changes; the teacher works in India time, several hours ahead, and adjusts.
+### Lessons at home
 
-**Why groups follow level** Five learners at one stage who are free on the same evening are rare even in a big borough. Grouping by level lets a learner from Maghull or Newton-le-Willows join a class that suits them.
+A bedroom in Bootle, a table in Heswall, a spare room in Haydock. The teacher shares a screen and the learner does the typing.
+
+### The same school words
+
+Year groups, key stages, GCSEs and A levels are named the way Merseyside schools name them, and everything is taught in English.
+
+### A free first lesson
+
+A real lesson with real work, then a straight recommendation. We do not ask for card details.
+
+### Classmates at your level
+
+Fifteen to twenty learners at the same stage, from across Merseyside, the UK and other countries.
+
+### Holidays that match yours
+
+Two lessons a week is usual, and we pause for the holidays your own school sets.
+
+### Your clock, not ours
+
+We give every slot in UK time and keep it steady through the clock changes; the teacher works in India time, several hours ahead, and adjusts.
+
+Why groups follow level
+
+Five learners at one stage who are free on the same evening are rare even in a big borough. Grouping by level lets a learner from Maghull or Newton-le-Willows join a class that suits them.
+
+Fees
 
 ## Fees on Merseyside
 
 Kirkby or West Kirby, the price is identical, and it is the price families pay everywhere we teach outside India.
 
-- First class: USD 0. A full lesson of genuine work, finishing with advice on level and course.
-- Group tuition: USD 100 a month. Around eight lessons a month, in a group of fifteen to twenty at the same level.
-- Private tuition: USD 150 a month. Around eight lessons a month, one teacher with one learner.
+First class**USD 0**
+
+A full lesson of genuine work, finishing with advice on level and course.
+
+Group tuition**USD 100**
+
+Around eight lessons a month, in a group of fifteen to twenty at the same level.
+
+Private tuition**USD 150**
+
+Around eight lessons a month, one teacher with one learner.
 
 Everything is charged in US dollars; there are no sterling prices. Nothing is billed until the free lesson has agreed a course and a weekly time, and the pricing page explains pauses, missed lessons and moving between group and one-to-one.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20lesson%20for%20a%20learner%20in%20Merseyside%2C%20please%3F)Reviews
+
+## Reviews from families, on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Ask for a free Merseyside lesson
+
+Give us an age or school year and something the learner likes. A first lesson might be a Scratch game with rules, a first Python test, or the Rainhill engines on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Merseyside one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20lesson%20for%20a%20learner%20in%20Merseyside%2C%20please%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Merseyside questions
+
+The boroughs, the Rainhill project and how the lessons work.
 
 ### How many people live in Merseyside?
 
@@ -196,10 +316,14 @@ The first lesson is free. Group classes then cost USD 100 a month and one-to-one
 
 Yes, if you want to. The five councils and academy trusts each publish their own dates, and we plan pauses around your school's.
 
+Beyond Merseyside
+
 ## Neighbouring pages
 
 See [Liverpool](/best-coding-class-in-liverpool) for the city, then [Lancashire](/coding-classes-in-lancashire), [Greater Manchester](/coding-classes-in-greater-manchester) and [Cheshire](/coding-classes-in-cheshire) around it. The [UK hub](/coding-classes-in-united-kingdom) covers the rest of the country.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20lesson%20for%20a%20learner%20in%20Merseyside%2C%20please%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-merseyside](https://learn.modernagecoders.com/coding-classes-in-merseyside#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-merseyside*

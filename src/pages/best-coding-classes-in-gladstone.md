@@ -4,55 +4,39 @@ description: "Live online coding, Python and applied maths classes for Gladstone
 canonical: https://learn.modernagecoders.com/best-coding-classes-in-gladstone
 source: src/pages/best-coding-classes-in-gladstone.html
 ---
-> For a Gladstone teenager or adult, a live class where a teacher writes working programs beside you, starting with Python basics and reaching the geometry engineers use on real rail maps. At the 2021 Census the Gladstone urban area held 45,185 people, and one employed resident in five, 4,265 people, worked in a technical or trade job. Classes happen on a video call, one to one or alongside a handful of learners working at the same stage, and nothing is charged for the first session.
+> Live online coding, Python and applied maths classes for Gladstone teenagers and adults, one to one or in small groups with a real teacher. First lesson free.
 
-[Home](/) / [Queensland](/coding-and-ai-classes-in-queensland) / [Australia](/coding-classes-in-australia) / Gladstone
-
-Gladstone, Queensland, Australia / Live online
-
-# Coding classes in Gladstone
-
-**What are the best coding classes in Gladstone?** For a Gladstone teenager or adult, a live class where a teacher writes working programs beside you, starting with Python basics and reaching the geometry engineers use on real rail maps. At the 2021 Census the Gladstone urban area held 45,185 people, and one employed resident in five, 4,265 people, worked in a technical or trade job. Classes happen on a video call, one to one or alongside a handful of learners working at the same stage, and nothing is charged for the first session.
-
-A loaded coal train cannot turn like a car. Where it reverses at the port it runs round a balloon loop, a teardrop of track that brings it back the way it came. Queensland publishes its railway centrelines as open map data, and around Gladstone harbour that data names nine balloon loops. Our project asks a plain question of them: how sharp is the tightest part of each loop? The answer comes from a three-line piece of geometry, the circle through three points, and from one surprisingly important decision, how far apart those three points should be.
-
-Facts last verified 8 October 2026. Teaching is online; no Gladstone branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Gladstone
 
 ## Four courses that fit this project
 
 Each one connects to the railway geometry below. The free first lesson decides where to begin, and no card is needed to book it.
 
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python from first lines to reading map coordinates and drawing them, every step explained before it is used.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 11 to 16): Coordinates, triangles and circles made concrete by writing code that measures real shapes.
-- [College Maths Course](/courses/college-mathematics-complete-masterclass) (University and adult): Calculus and linear algebra for curvature, arc length and the maths behind engineering drawings.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (Adults): Pulling public datasets, checking their quality and reporting what they can and cannot support.
+[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython from first lines to reading map coordinates and drawing them, every step explained before it is used.See the syllabus](/courses/python-complete-masterclass-teens)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 11 to 16Maths Through CodingCoordinates, triangles and circles made concrete by writing code that measures real shapes.See the syllabus](/courses/maths-through-coding)[![College Maths Course course thumbnail](/images/college-level-maths.webp)University and adultCollege Maths CourseCalculus and linear algebra for curvature, arc length and the maths behind engineering drawings.See the syllabus](/courses/college-mathematics-complete-masterclass)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)AdultsData Analysis CoursePulling public datasets, checking their quality and reporting what they can and cannot support.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Gladstone in the Census
 
 ## A trades town of houses on Port Curtis
 
 QuickStats for the Gladstone Significant Urban Area from the 2021 Census, set beside Queensland and Australia.
 
-**Gladstone at a glance, 2021 Census**
-
 | Count | Gladstone urban area |
-|---|---|
+| --- | --- |
 | Residents | 45,185 |
 | Middle age of all residents | 36 years |
 | Families | 11,924 |
 | Private dwellings and household size | 20,608 dwellings, 2.5 residents each on average |
 
-**Shares that set Gladstone apart from its state and the nation**
-
 | Share of | Gladstone | Queensland | Australia |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Separate houses, share of occupied homes | 13,971, or 82.8% | 74.8% | 72.3% |
 | Flats or apartments, share of occupied homes | 1,543, or 9.1% | 12.5% | 14.2% |
 | Technicians and trades workers, share of employed | 4,265, or 20.4% | 13.7% | 12.9% |
@@ -72,24 +56,22 @@ The urban area takes in Gladstone itself, Clinton, Bangalee, Boyne Island and Ta
 
 The bureau adjusts small Census counts slightly to protect privacy, so a table's rows rarely add up exactly to its printed total. We quote totals and shares exactly as published and never invent a new total by adding rows ourselves.
 
+Signature project
+
 ## How tightly does a balloon loop turn?
 
 Three points on a curve define one circle. Its radius measures the bend. Run that along a loop and the smallest radius marks the tightest turn.
 
-**What the Queensland railway layer holds around Gladstone (our count, queried 8 October 2026)**
-
 | Item | Figure |
-|---|---|
+| --- | --- |
 | Railway pieces in our extraction box | 458 |
 | Pieces captured from 10 cm aerial photography dated 30 May 2016 | 426 |
 | Electrified pieces | 345 of 458 |
 | Named balloon loops | 9 |
 | Longest single loop piece (Wiggins Island) | 12,211 m |
 
-**Smallest three-point radius on each loop as the spacing between points changes (our calculation)**
-
 | Loop piece | Points 5 m apart | 20 m apart | 50 m apart | 100 m apart |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Clinton Balloon Loop No 1, 4,281 m | 49 m | 159 m | 260 m | 288 m |
 | Clinton Balloon Loop No 2, 4,504 m | 36 m | 171 m | 229 m | 257 m |
 | Fishermans Landing, 1,567 m piece | 48 m | 149 m | 196 m | 220 m |
@@ -113,14 +95,14 @@ At 5 metre spacing the three points sit so close together that tiny wobbles in t
 
 Every radius here is our estimate from map geometry, computed from the Queensland layer as published, not a design figure for any railway. A loop drawn as several pieces gives slightly different numbers from one drawn whole, and we make no claim about train speeds or operations.
 
+Inside the geometry
+
 ## Five steps from a map line to a radius you can defend
 
 The circumcircle formula takes one line of Python. Everything around it decides whether the answer means anything.
 
-**The pieces of the calculation and what each one protects**
-
 | Step | In the Gladstone code | What goes wrong without it |
-|---|---|---|
+| --- | --- | --- |
 | Project to metres | Longitude and latitude scaled to metres around 23.85 degrees south | Distances come out in degrees and every radius is meaningless |
 | Resample evenly | A new point every 5, 20, 50 or 100 m along each loop | Densely drawn bends look sharper than sparsely drawn ones |
 | Three-point radius | Side lengths a, b, c and twice the area from a cross product | Dividing by zero on straight track |
@@ -143,6 +125,8 @@ Read a government spatial service, filter it by attribute and measure what you n
 
 We have no link with the state government, the rail operators named in the layer, the regional council or the statistics bureau. The bureau supplied the Census numbers; every radius and count in the project came out of our own program run over the public railway map.
 
+Around Gladstone
+
 ## Term 4 in Queensland and a clock that stays put
 
 Two calendar facts that shape when a Gladstone learner studies.
@@ -159,16 +143,41 @@ Queensland keeps one clock all year, so a Gladstone lesson time never jumps when
 
 Most of the railway pieces were drawn from aerial photography taken on 30 May 2016, so newer track would not appear in this layer.
 
-**A map is a dated snapshot** Spatial layers carry the date their features were captured. Reading that date before trusting a measurement tells you what the map can and cannot show, and it is a habit every analyst of public data needs.
+A map is a dated snapshot
+
+Spatial layers carry the date their features were captured. Reading that date before trusting a measurement tells you what the map can and cannot show, and it is a habit every analyst of public data needs.
+
+Learning ladder
 
 ## From plotting points to measuring real track
 
 The ages are guides; the free lesson decides where each learner starts.
 
-- **Ages 13 to 14: Points and distances** Python that stores coordinates, measures between them and draws a simple map on screen. [Python for Teens](/courses/python-complete-masterclass-teens), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 15 to 18: Geometry in code** Triangles, circles and loops, tested on the Gladstone railway data and on shapes drawn by hand. [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens), [High School Mathematics](/courses/complete-high-school-mathematics-mastery)
-- **University: Curvature and smoothing** Calculus-based curvature, resampling and noise, with every method checked against another. [College Maths Course](/courses/college-mathematics-complete-masterclass), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
-- **Adults: Spatial data at work** Querying public map services, cleaning results and writing clear, honest summaries for colleagues. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [MySQL Course](/courses/mysql-database-complete-masterclass-college)
+Ages 13 to 14
+
+### Points and distances
+
+Python that stores coordinates, measures between them and draws a simple map on screen.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Maths Through Coding](/courses/maths-through-coding)Ages 15 to 18
+
+### Geometry in code
+
+Triangles, circles and loops, tested on the Gladstone railway data and on shapes drawn by hand.
+
+[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)[High School Mathematics](/courses/complete-high-school-mathematics-mastery)University
+
+### Curvature and smoothing
+
+Calculus-based curvature, resampling and noise, with every method checked against another.
+
+[College Maths Course](/courses/college-mathematics-complete-masterclass)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)Adults
+
+### Spatial data at work
+
+Querying public map services, cleaning results and writing clear, honest summaries for colleagues.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[MySQL Course](/courses/mysql-database-complete-masterclass-college)Coding and AI
 
 ## An AI assistant will hand you a curvature function in seconds. Why should a Gladstone learner understand it?
 
@@ -180,30 +189,139 @@ That gap is what we teach. A Gladstone learner who has resampled the loops and w
 
 Generating code costs almost nothing now; deciding whether its numbers mean anything is the skill, and it is learned by writing the code yourself. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Clinton, Boyne Island or Tannum Sands, the same live lesson
 
 The urban area stretches along the coast, and a video lesson reaches every part of it without a drive.
 
-- **One room for the whole coast** A learner at Tannum Sands and one in central Gladstone can join the same session, each from home.
-- **Local year levels** Teachers speak in the year levels Gladstone schools use and line homework up with the four Queensland terms. All teaching is in English.
-- **A real first lesson** The free session is an ordinary lesson rather than a sales call, and it ends with a suggested level, course and time. No card is needed to book.
-- **Groups at one level** Fifteen to twenty learners working at the same stage, from Gladstone and other places, so a regional city still gets a full group.
-- **Twice a week** About eight lessons a month in a fixed slot, with exam weeks and holidays agreed with the teacher in advance.
-- **Four and a half hours apart** Neither Queensland nor India changes its clocks, so 6pm in Gladstone is 1:30pm India time in every month of the year.
+### One room for the whole coast
 
-**One gap, all year** Our teachers work four and a half hours behind Gladstone in January and in July alike. Lesson times are always confirmed in Queensland time.
+A learner at Tannum Sands and one in central Gladstone can join the same session, each from home.
+
+### Local year levels
+
+Teachers speak in the year levels Gladstone schools use and line homework up with the four Queensland terms. All teaching is in English.
+
+### A real first lesson
+
+The free session is an ordinary lesson rather than a sales call, and it ends with a suggested level, course and time. No card is needed to book.
+
+### Groups at one level
+
+Fifteen to twenty learners working at the same stage, from Gladstone and other places, so a regional city still gets a full group.
+
+### Twice a week
+
+About eight lessons a month in a fixed slot, with exam weeks and holidays agreed with the teacher in advance.
+
+### Four and a half hours apart
+
+Neither Queensland nor India changes its clocks, so 6pm in Gladstone is 1:30pm India time in every month of the year.
+
+One gap, all year
+
+Our teachers work four and a half hours behind Gladstone in January and in July alike. Lesson times are always confirmed in Queensland time.
+
+Fees
 
 ## What classes cost in Gladstone
 
 Three lines cover the whole price list.
 
-- First class: USD 0. One complete lesson at no charge, after which you receive a level, a course suggestion and a regular time.
-- Group tuition: USD 100 a month. A month of lessons, usually eight, shared with fifteen to twenty learners at your level.
-- Private tuition: USD 150 a month. Roughly eight lessons a month on the same pattern, with one teacher working only with you.
+First class**USD 0**
+
+One complete lesson at no charge, after which you receive a level, a course suggestion and a regular time.
+
+Group tuition**USD 100**
+
+A month of lessons, usually eight, shared with fifteen to twenty learners at your level.
+
+Private tuition**USD 150**
+
+Roughly eight lessons a month on the same pattern, with one teacher working only with you.
 
 Fees are charged in US dollars everywhere outside India, so a family in Clinton pays exactly what a family in Boyne Island pays. Nothing is billed until the trial has settled a course and a weekly slot, and the pricing page explains holidays, missed lessons and moving between group and private classes.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20class%20for%20a%20learner%20in%20Gladstone.)Reviews
+
+## What parents and learners say on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## What should the first lesson cover?
+
+Mention who is learning and what they enjoy, and the opening task follows from that: a compass-drawn circle measured by hand for a Year 8 student, or the whole loop survey for an older learner.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Gladstone one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20class%20for%20a%20learner%20in%20Gladstone.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Gladstone coding class questions
+
+What Gladstone learners and parents usually ask first.
 
 ### How many people live in Gladstone?
 
@@ -245,10 +363,14 @@ The first lesson is free. After that a group place is USD 100 a month for two li
 
 Fifteen to twenty learners, matched on level, pace and goals rather than age or postcode. If no suitable group meets at a workable time, one-to-one lessons are offered instead.
 
+Explore Australia
+
 ## More for Gladstone and Queensland learners
 
 Up the coast, [Rockhampton](/ai-and-programming-classes-in-rockhampton) has its own page, and the state capital is covered on the [Brisbane page](/best-coding-classes-in-brisbane). For a statewide view read [coding and AI classes in Queensland](/coding-and-ai-classes-in-queensland); puzzle lovers can continue with [problem solving through coding](/problem-solving-through-coding-australia), and the [national coding page](/coding-classes-in-australia) links every Australian guide.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20class%20for%20a%20learner%20in%20Gladstone.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-classes-in-gladstone](https://learn.modernagecoders.com/best-coding-classes-in-gladstone#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-classes-in-gladstone*

@@ -4,34 +4,28 @@ description: "Game development for kids in Australia: Scratch games in Year 3, P
 canonical: https://learn.modernagecoders.com/game-development-for-kids-australia
 source: src/pages/game-development-for-kids-australia.html
 ---
-> Game development for kids is the practice of designing and programming a playable game: its rules, its moving objects, its scoring and what happens when things collide. In Australia the Digital Technologies curriculum moves from visual programs in Years 3 to 6 to a general-purpose language such as Python in Years 7 and 8, so a strong path is Scratch first, then Python with Pygame, then an engine such as Unity or Godot. Modern Age Coders teaches that path live online, in small groups or one to one, and the first class is free.
+> Game development for kids in Australia: Scratch games in Year 3, Python and Pygame by Year 7, a real engine by Year 9, taught live online. First class free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / Game development for kids
+In short
 
-Australia · Ages 6 to 18 · Live online
+Game development for kids is the practice of designing and programming a playable game: its rules, its moving objects, its scoring and what happens when things collide. In Australia the Digital Technologies curriculum moves from visual programs in Years 3 to 6 to a general-purpose language such as Python in Years 7 and 8, so a strong path is Scratch first, then Python with Pygame, then an engine such as Unity or Godot. Modern Age Coders teaches that path live online, in small groups or one to one, and the first class is free.
 
-# Game development for kids in Australia
-
-Most children who ask to make games have already spent hundreds of hours playing them, so they arrive knowing exactly what a good game feels like and nothing about why. That gap is where the learning lives. Making a game means deciding what counts as a win, what the player sees first, what happens when two things touch and how fast anything moves. Each of those is a small programming problem in disguise. This page sets out how Australian kids can go from a first Scratch game in primary school to Python and Pygame around Year 7 and a real engine by Year 9 or 10, which mirrors the order the Australian Curriculum itself uses: visual programs first, then a general-purpose language, then object-oriented code. It also shows one idea worked all the way through, the hitbox, so you can see what a lesson actually contains.
-
-At a glance: For: Kids and teens, ages 6 to 18; Starts with: Scratch, a free visual language; Then: Python and the Pygame library; Later: Unity and C#, or Godot; Also: Roblox Studio and Minecraft; Format: Live online, after school; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three ways into making games
 
 Pick by age and by how much your child already knows. Each card opens the full syllabus.
 
-- [Game Development for Kids](/courses/game-development-masterclass-for-kids): Ages 8 to 12. Real games in Scratch first, then Roblox and Minecraft worlds, over six to eight months.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass): Ages 9 to 12. From first lines of Python to Pygame games and small, kid-safe AI projects.
-- [Game Development for Teens](/courses/complete-game-development-masterclass-for-teens): Ages 13 to 18. Unity and C#, 2D and 3D games, and the habits of shipping something finished.
+[![Game Development for Kids course thumbnail](/images/game-dev-kids.webp)  GDAU / 01 Game Development for Kids Ages 8 to 12. Real games in Scratch first, then Roblox and Minecraft worlds, over six to eight months. Open the syllabus →](/courses/game-development-masterclass-for-kids)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  GDAU / 02 Python and AI for Kids Ages 9 to 12. From first lines of Python to Pygame games and small, kid-safe AI projects. Open the syllabus →](/courses/python-ai-kids-masterclass)[![Game Development for Teens course thumbnail](/images/game-dev-teens.webp)  GDAU / 03 Game Development for Teens Ages 13 to 18. Unity and C#, 2D and 3D games, and the habits of shipping something finished. Open the syllabus →](/courses/complete-game-development-masterclass-for-teens)
+
+The path
 
 ## From a Scratch game to a real engine, by year level
 
 Children learn game development fastest when each stage removes one kind of friction at a time. Scratch removes typing errors, Python removes the blocks, and an engine removes the plumbing so a teenager can think about design.
 
-**A typical progression for Australian students**
-
 | Year level | Tool | What a finished game looks like |
-|---|---|---|
+| --- | --- | --- |
 | Foundation to Year 2 | Scratch Junior style activities, then Scratch | A character that moves when a key is pressed and makes a sound when it reaches a goal |
 | Years 3 and 4 | Scratch | A catch-the-falling-objects game with a score that goes up and a timer that runs out |
 | Years 5 and 6 | Scratch, with variables and clones | A platformer with gravity, two levels and a high score the player can beat |
@@ -53,14 +47,14 @@ Moving to Python, and later to an engine, is not about leaving childish things b
 
 Ages are a guide, not a rule. A keen Year 4 student can start Python; a Year 9 student who has never coded usually still benefits from two or three weeks of Scratch first. The free first class is where that decision gets made, with the child at the keyboard rather than by guesswork. If you are weighing the two languages, our comparison of [Scratch and Python for young learners](/blog/scratch-vs-python-which-better-young-learners) goes into more detail.
 
+The Australian Curriculum
+
 ## How this lines up with Digital Technologies at school
 
 Version 9 of the Australian Curriculum, published by ACARA, sets out what students should learn in Digital Technologies from Foundation to Year 10. The programming strand follows the same order as a good game development path.
 
-**Programming content descriptions in Digital Technologies, Australian Curriculum v9**
-
 | Band | Code | Content description, as published |
-|---|---|---|
+| --- | --- | --- |
 | Years 3 and 4 | AC9TDI4P04 | "implement simple algorithms as visual programs involving control structures and input" |
 | Years 5 and 6 | AC9TDI6P05 | "implement algorithms as visual programs involving control structures, variables and input" |
 | Years 7 and 8 | AC9TDI8P09 | "implement, modify and debug programs involving control structures and functions in a general-purpose programming language" |
@@ -80,16 +74,16 @@ We do not teach to any particular school's assessment task, and we never complet
 
 Source, read 7 October 2026: ACARA, Australian Curriculum Version 9.0, Technologies, Digital Technologies [curriculum content F-6](https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/technologies/digital-technologies/technologies-digital-technologies-curriculum-content-f-6-v9.docx) and [curriculum content 7-10](https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/technologies/digital-technologies/technologies-digital-technologies-curriculum-content-7-10-v9.docx) (Word downloads). States and territories implement the Australian Curriculum in their own ways; NSW, for example, publishes its own syllabuses.
 
+A worked example
+
 ## What a lesson looks like: the hitbox
 
 Almost every game has to answer one question dozens of times a second: are these two things touching? Here is how we teach the answer, from a hand-drawn sketch to working code.
 
-In Scratch, the question is a single block: touching coin? It works, and children love it. But it hides the idea. So once a student is comfortable, we take the block away and ask them to decide for themselves when two rectangles overlap. The rectangle drawn around a sprite for this purpose is called its **hitbox**, and the test is called an axis-aligned bounding box check, because the box edges run along the screen's x and y axes.
-
-**Our worked example: does the player collect the coin?**
+In Scratch, the question is a single block: *touching coin?* It works, and children love it. But it hides the idea. So once a student is comfortable, we take the block away and ask them to decide for themselves when two rectangles overlap. The rectangle drawn around a sprite for this purpose is called its **hitbox**, and the test is called an axis-aligned bounding box check, because the box edges run along the screen's x and y axes.
 
 | Object | Left edge (x) | Top edge (y) | Width | Height |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Player | 100 | 200 | 40 | 40 |
 | Coin | 130 | 220 | 16 | 16 |
 
@@ -105,7 +99,7 @@ The player's top (200) is above the coin's bottom (220 + 16 = 236), and the play
 
 Both checks pass, so the boxes overlap and the coin is collected. If either check fails, they are not touching, however close they look on screen.
 
-In Python with Pygame, the same test becomes four comparisons joined by and, and a student who has worked it by hand can write it from memory. Pygame also has a built-in method for it, colliderect, but we only introduce it after the student has written their own version and tested it against the example above.
+In Python with Pygame, the same test becomes four comparisons joined by `and`, and a student who has worked it by hand can write it from memory. Pygame also has a built-in method for it, `colliderect`, but we only introduce it after the student has written their own version and tested it against the example above.
 
 ### The catch, in numbers
 
@@ -119,14 +113,14 @@ Older students go on to shrink hitboxes slightly so the game feels fair, to use 
 
 Each of those is a trade-off between speed and accuracy, which is one of the most useful ideas in all of programming, not just games.
 
+First games
+
 ## Games children build in their first term
 
 Every project is small enough to finish and share, and each one is chosen because it teaches one new idea properly.
 
-**Starter projects and the idea each one teaches**
-
 | Game | Tool | The idea it teaches |
-|---|---|---|
+| --- | --- | --- |
 | Catch the falling fruit | Scratch | Random positions, a score variable and a game-over condition |
 | Maze escape | Scratch | Detecting walls and resetting the player to a start point |
 | Pong for two players | Scratch, then Python | Angles of reflection and a ball that speeds up |
@@ -146,14 +140,14 @@ Scratch projects can be shared to the Scratch website; Python games run on the f
 
 Children who run out of ideas between lessons can browse our list of [Scratch project ideas](/blog/30-plus-scratch-project-ideas-kids-fun-coding-beginner-advanced), sorted from beginner to advanced.
 
+Engines and platforms
+
 ## Scratch, Pygame, Roblox, Unity and Godot, compared honestly
 
 Parents often ask which tool is right. The honest answer is that each one is right at a different stage, and some children will use three of them in a single year.
 
-**What each tool is good for**
-
 | Tool | Language | Cost to the family | Good for |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Scratch | Blocks | Free to use | First games and first ideas, from about age 6 |
 | Pygame | Python | Free and open source (pygame 2.6.1 is published under the LGPL) | Learning how a game loop really works, in text |
 | Roblox Studio | Luau | See Roblox's current terms | Building worlds other people can join, with a real scripting language |
@@ -164,14 +158,14 @@ We avoid recommending tools by brand loyalty. A child who learns why a game loop
 
 Sources, read 7 October 2026: [Godot Engine licence page](https://godotengine.org/license/) ("free and open source software released under the permissive MIT license"); the Python Package Index entry for pygame (version 2.6.1, licence LGPL). Licence terms for Unity and Roblox change; read the current terms on their own sites before relying on them.
 
+Stages
+
 ## Four stages from player to game maker
 
 At one or two live lessons a week, most children reach the third stage within a school year. The fourth usually takes a second year.
 
-**From playing games to making them**
-
 | Stage | What your child can do |
-|---|---|
+| --- | --- |
 | 1. Remix | Change an existing game's speed, sprites and score, and predict what each change will do |
 | 2. Build | Make a complete small game from a blank project, with a start, a goal and an ending |
 | 3. Explain | Write the same game in Python and explain each line, including the game loop and collisions |
@@ -180,63 +174,293 @@ At one or two live lessons a week, most children reach the third stage within a 
 ### Does my child need to be good at maths?
 
 No, but game development is one of the friendliest ways to meet coordinates, negative numbers, angles and percentages. Children often understand x and y axes in a game months before they meet them in class.
+
 For children who want more, our [Maths Through Coding](/courses/maths-through-coding) course uses Python to teach maths directly.
 
 ### Around school terms
 
 Australian schools run four terms a year. Billing is monthly, so families can pause over the long summer break or during exam weeks and restart when ready.
+
 Lessons are after school or at the weekend; the hour is agreed in the free first class.
+
+The catalogue
 
 ## Nine courses for young game makers
 
 Grouped by stage. The free first class settles where your child starts.
 
+I
+
 ### First games
 
 Primary school
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course): From a first block to real games and animations.
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass): Scratch to games, apps and a first taste of Python.
-- [Game Development for Kids](/courses/game-development-masterclass-for-kids): Scratch, then Roblox and Minecraft worlds.
+GDAU / FST / 01
+
+#### Scratch Coding for Kids
+
+From a first block to real games and animations.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)
+
+GDAU / FST / 02
+
+#### Coding for Kids
+
+Scratch to games, apps and a first taste of Python.
+
+[Open the syllabus](/courses/kids-coding-blocks-masterclass)
+
+GDAU / FST / 03
+
+#### Game Development for Kids
+
+Scratch, then Roblox and Minecraft worlds.
+
+[Open the syllabus](/courses/game-development-masterclass-for-kids)II
 
 ### Worlds and text
 
 Upper primary and Years 7 and 8
 
-- [Roblox Game Coding for Kids](/courses/roblox-game-coding-for-kids-lua-course): Roblox Studio and Luau, up to a published game.
-- [Minecraft Coding for Kids](/courses/minecraft-coding-for-kids-course): From blocks to real code inside a world they know.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass): Pygame games, turtle art and small AI projects.
+GDAU / WLD / 01
+
+#### Roblox Game Coding for Kids
+
+Roblox Studio and Luau, up to a published game.
+
+[Open the syllabus](/courses/roblox-game-coding-for-kids-lua-course)
+
+GDAU / WLD / 02
+
+#### Minecraft Coding for Kids
+
+From blocks to real code inside a world they know.
+
+[Open the syllabus](/courses/minecraft-coding-for-kids-course)
+
+GDAU / WLD / 03
+
+#### Python and AI for Kids
+
+Pygame games, turtle art and small AI projects.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)III
 
 ### Real engines
 
 Years 9 to 12 and beyond
 
-- [Game Development for Teens](/courses/complete-game-development-masterclass-for-teens): Unity and C#, from a first scene to a shipped game.
-- [JavaScript for Teens](/courses/javascript-course-for-teens-beginners-interactive-web): Interactive websites and games that run in a browser.
-- [Game Development Course](/courses/game-development-complete-masterclass-college): Unity, C# and Unreal for older teens and adults.
+GDAU / ENG / 01
+
+#### Game Development for Teens
+
+Unity and C#, from a first scene to a shipped game.
+
+[Open the syllabus](/courses/complete-game-development-masterclass-for-teens)
+
+GDAU / ENG / 02
+
+#### JavaScript for Teens
+
+Interactive websites and games that run in a browser.
+
+[Open the syllabus](/courses/javascript-course-for-teens-beginners-interactive-web)
+
+GDAU / ENG / 03
+
+#### Game Development Course
+
+Unity, C# and Unreal for older teens and adults.
+
+[Open the syllabus](/courses/game-development-complete-masterclass-college)
+
+How lessons run
 
 ## Live lessons that fit an Australian school week
 
 Our teachers are in India. In winter, Sydney, Melbourne, Brisbane, Canberra and Hobart are four and a half hours ahead of India time, Adelaide and Darwin four hours ahead and Perth two and a half. After school in Australia falls in the Indian afternoon, so lessons sit comfortably in the school week.
 
-- **Weekday, after school** The most common choice for primary students.
-- **Saturday** A longer build session for older students.
-- **Sunday** For families with busy Saturday sport.
+Weekday, after school
 
-- **Try before paying** The opening class costs nothing; it shows the teacher how far your child has already got.
-- **Groups** Fifteen to twenty children of a similar level, playing and testing each other's games.
-- **Private lessons** Suited to a quick learner, a quiet child or a teenager chasing one ambitious game.
-- **Their own games** Every line is typed or snapped in by the child. Teachers explain and question; they do not build it for them.
-- **Parents can watch** Lessons are live, so you can sit in, and finished games can be played at home.
-- **No assessed work** We never complete school assessment tasks, though skills learned here help in class.
+The most common choice for primary students.
+
+Saturday
+
+A longer build session for older students.
+
+Sunday
+
+For families with busy Saturday sport.
+
+### Try before paying
+
+The opening class costs nothing; it shows the teacher how far your child has already got.
+
+### Groups
+
+Fifteen to twenty children of a similar level, playing and testing each other's games.
+
+### Private lessons
+
+Suited to a quick learner, a quiet child or a teenager chasing one ambitious game.
+
+### Their own games
+
+Every line is typed or snapped in by the child. Teachers explain and question; they do not build it for them.
+
+### Parents can watch
+
+Lessons are live, so you can sit in, and finished games can be played at home.
+
+### No assessed work
+
+We never complete school assessment tasks, though skills learned here help in class.
+
+Student work
+
+## Projects built by our students
+
+A few games and apps our students finished and published. More of them, from young beginners to adults, sit in our [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees for game development
 
 Families outside India pay a single monthly price in US dollars. Nothing is charged to enrol and nobody signs up for a whole term: stopping after any month is fine, the long summer break included.
 
-- Free first class: USD 0. A small game made during the class. Advice on the right starting course. No card or bank details.
-- Group batch: USD 100 a month. Between five and ten children per class. One teacher who knows your child. Classmates play-test each game. Stop after any month.
-- One to one: USD 150 a month. Every minute spent on your child. Timing worked around sport and homework. Space for one big game of their own.
+Free first class
+
+USD 0
+
+no card required
+
+- A small game made during the class
+- Advice on the right starting course
+- No card or bank details
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Between five and ten children per class
+- One teacher who knows your child
+- Classmates play-test each game
+- Stop after any month
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- Every minute spent on your child
+- Timing worked around sport and homework
+- Space for one big game of their own
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Copied exactly as families and learners posted them on our Google profile.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions from parents
 
 ## What Australian parents ask about game development
 
@@ -280,15 +504,54 @@ After school or at the weekend in your own state's time, agreed in the free firs
 
 The first class is free and needs no card. Monthly fees for group and one-to-one lessons are shown in the fees section of this page, with no enrolment charge and no term contract.
 
+Elsewhere on this site
+
 ## Related pages
 
-- [Coding classes in Australia](/coding-classes-in-australia): All of our Australian pages in one place.
-- [AI and machine learning in Australia](/ai-and-machine-learning-classes-in-australia): For teens ready to build with AI.
-- [Scratch coding classes](/scratch-coding-classes-for-kids): The first stage of the path, in detail.
-- [Roblox coding classes](/roblox-coding-classes-for-kids): Building worlds with Roblox Studio and Luau.
-- [Coding games and platforms](/blog/top-coding-games-platforms-make-learning-fun-kids): Where children can practise between lessons.
-- [The right age to start coding](/best-age-to-start-coding): What changes at six, nine and twelve.
+For Australian families, for younger beginners and for choosing a first language.
 
-## Contact
+### [Coding classes in Australia](/coding-classes-in-australia)
 
-Book the free first class at [https://learn.modernagecoders.com/game-development-for-kids-australia](https://learn.modernagecoders.com/game-development-for-kids-australia#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+All of our Australian pages in one place.
+
+### [AI and machine learning in Australia](/ai-and-machine-learning-classes-in-australia)
+
+For teens ready to build with AI.
+
+### [Scratch coding classes](/scratch-coding-classes-for-kids)
+
+The first stage of the path, in detail.
+
+### [Roblox coding classes](/roblox-coding-classes-for-kids)
+
+Building worlds with Roblox Studio and Luau.
+
+### [Coding games and platforms](/blog/top-coding-games-platforms-make-learning-fun-kids)
+
+Where children can practise between lessons.
+
+### [The right age to start coding](/best-age-to-start-coding)
+
+What changes at six, nine and twelve.
+
+Start here
+
+## Book a free first class
+
+Send your details and we will ring when it suits you. During the free class your child makes a small game with a teacher, and afterwards you hear plainly which course would suit them and why.
+
+Prefer to read more before calling? Our page on [the way we teach](/how-we-teach) explains a lesson minute by minute, and the [full course list](/courses) covers every age.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20in%20Australia%20and%20wants%20to%20learn%20game%20development.%20Could%20we%20book%20a%20free%20first%20class%3F) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+Messaging us on WhatsApp from an Australian phone is often quickest. Our team works from India, which is why the number starts with +91, and we have no office in Australia.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/game-development-for-kids-australia*

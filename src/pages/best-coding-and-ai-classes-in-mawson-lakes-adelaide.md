@@ -4,56 +4,40 @@ description: "Live online coding and AI classes for Mawson Lakes learners aged 6
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-mawson-lakes-adelaide
 source: src/pages/best-coding-and-ai-classes-in-mawson-lakes-adelaide.html
 ---
-> Through live video classes, private or in a small group, which open with Scratch for six-year-olds and climb to Python, data and AI for older students and adults, all built on real South Australian data. Mawson Lakes counted 13,794 residents at the 2021 Census.
+> Live online coding and AI classes for Mawson Lakes learners aged 6 to 67, from Scratch to Python, data and AI projects, in groups or one to one. First lesson free.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [South Australia](/coding-and-ai-classes-in-south-australia) / [Adelaide](/ai-and-programming-classes-in-adelaide) / Mawson Lakes
-
-Mawson Lakes, City of Salisbury, South Australia / Live online
-
-# Coding and AI classes in Mawson Lakes
-
-**Where can Mawson Lakes learners find the best coding and AI classes?** Through live video classes, private or in a small group, which open with Scratch for six-year-olds and climb to Python, data and AI for older students and adults, all built on real South Australian data. Mawson Lakes counted 13,794 residents at the 2021 Census.
-
-South Australia's public transport timetable is published as a single zip file of 18.2 MB. Unpacked it fills 102 MB, and one file inside holds 1,152,604 rows. A Mawson Lakes learner can pull out the suburb's rows without unpacking anything, and without loading the whole file into memory.
-
-Facts last verified 13 October 2026. Teaching is online; no Mawson Lakes branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Mawson Lakes
 
 ## Courses that handle real-sized data
 
 The timetable project needs Python files, the standard library and some care with memory. Each course below covers part of it, and the no-cost first class tells us where to begin.
 
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Files, modules and the standard library, used on real downloads.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 17): Working with large public datasets one sensible step at a time.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (University and adult): Python from the start to efficient, well-structured programs.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): A first taste of Python and AI in small projects.
+[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensFiles, modules and the standard library, used on real downloads.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 17Data Science for TeensWorking with large public datasets one sensible step at a time.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Python Masterclass course thumbnail](/images/python-college.webp)University and adultPython MasterclassPython from the start to efficient, well-structured programs.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsA first taste of Python and AI in small projects.See the syllabus](/courses/python-ai-kids-masterclass)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Mawson Lakes in the Census
 
 ## A young suburb of students and graduates
 
 Mawson Lakes (ABS code SAL40844) in the 2021 Census, measured against South Australia.
 
-**Mawson Lakes at a glance, 2021**
-
 | Measure | Mawson Lakes |
-|---|---|
+| --- | --- |
 | Residents | 13,794 |
 | Median age | 33 |
 | Families | 3,623 |
 | Private dwellings | 5,498 |
 | People per household | 2.6 |
 
-**Mawson Lakes compared with South Australia**
-
 | Indicator | Mawson Lakes | South Australia |
-|---|---|---|
+| --- | --- | --- |
 | People in education attending university | 28.3% (1,323) | 16.7% |
 | Adults with a bachelor degree or higher | 35.3% (3,959) | 22.7% |
 | Flats or apartments | 14.9% (755) | 6.8% |
@@ -73,24 +57,22 @@ The ABS boundary of Mawson Lakes covers about 6.2 square kilometres in Adelaide'
 
 Because the ABS fuzzes small counts slightly to protect privacy, these figures are shown untouched and we build no sums from them.
 
+Signature project
+
 ## Reading inside the zip
 
 Python's zipfile module opens an archive and hands back any file inside it as a stream of bytes. Wrapped in io.TextIOWrapper and fed to csv.DictReader, that stream becomes rows, one at a time, and nothing is written to disk.
 
-**The timetable archive, version 1708 (our measurement)**
-
 | Item | Size |
-|---|---|
+| --- | --- |
 | The zip file as downloaded | 18,189,702 bytes |
 | All twelve files once unpacked | 102,063,356 bytes |
 | stop_times.txt, unpacked | 60,937,589 bytes |
 | stop_times.txt, compressed inside the zip | 8,509,615 bytes |
 | Rows in stop_times.txt | 1,152,604 |
 
-**Two ways to find the Mawson Lakes rows (our run, Python 3.13.6)**
-
 | Method | Rows found | Peak Python memory |
-|---|---|---|
+| --- | --- | --- |
 | Stream the file row by row from the zip | 11,134 | 0.11 MB |
 | Read the whole file, decode and split into lines | 11,134 | 185.6 MB |
 
@@ -112,14 +94,14 @@ zipfile returns bytes, and csv needs text. io.TextIOWrapper with encoding set to
 
 The timetable is Adelaide Metro open data. Membership of Mawson Lakes is our point-in-boundary check; the sizes, row counts and memory peaks are our own measurements with Python's tracemalloc module, which counts memory Python allocates rather than everything the process uses.
 
+Working with archives
+
 ## Three lines that replace an unzip
 
 The whole technique fits on one screen, and every part is in Python's standard library.
 
-**Steps and what each does**
-
 | Step | Code idea | Result here |
-|---|---|---|
+| --- | --- | --- |
 | Open the archive | zipfile.ZipFile(path) | 12 files listed |
 | Open one member | z.open('stop_times.txt') | A byte stream |
 | Turn bytes into text rows | csv.DictReader(io.TextIOWrapper(...)) | One row at a time |
@@ -139,6 +121,8 @@ Process large zipped exports at work directly, without filling a disk or a lapto
 
 The same idea works for gzip files with the gzip module and for remote downloads read in chunks. Learning to stream data is one of the habits that separates scripts that work on samples from scripts that work on real data.
 
+Around Mawson Lakes
+
 ## An interchange and a railway station
 
 Local markers from the timetable for Wednesday 21 October 2026.
@@ -155,16 +139,41 @@ Zone D at Mawson Interchange was the busiest stop record, with 281 scheduled vis
 
 Mawson Lakes Railway Station had 129 scheduled train visits; 70 more visits were by school bus services.
 
-**Mawson Lakes only** Figures describe the suburb of Mawson Lakes in the City of Salisbury. Pooraka, Parafield, Cavan, Dry Creek, Green Fields and Globe Derby Park border it and keep their own figures.
+Mawson Lakes only
+
+Figures describe the suburb of Mawson Lakes in the City of Salisbury. Pooraka, Parafield, Cavan, Dry Creek, Green Fields and Globe Derby Park border it and keep their own figures.
+
+Learning ladder
 
 ## From toy boxes to streamed data
 
 A trial lesson decides the starting point; these ages are only a guide.
 
-- **Ages 6 to 10: Scratch and logic** Games that build careful thinking. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 10 to 14: Python basics** Files, loops and simple data in code. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Python with data** Large public datasets handled properly. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **University and adult: Python at scale** Efficient scripts and data pipelines for work or study. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### Scratch and logic
+
+Games that build careful thinking.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 10 to 14
+
+### Python basics
+
+Files, loops and simple data in code.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Python with data
+
+Large public datasets handled properly.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)University and adult
+
+### Python at scale
+
+Efficient scripts and data pipelines for work or study.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## An AI can unzip the file. Should it?
 
@@ -176,30 +185,139 @@ Learners who have streamed the file themselves know to ask for it, and can check
 
 In Mawson Lakes, the learner who streams the data gets answers where others run out of memory. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How Mawson Lakes lessons run
 
 Lessons are live over video, so learners join from wherever they are.
 
-- **Typing and talking** The learner writes the code; the teacher follows and asks questions.
-- **South Australian terms** Plans follow the state school year and pause in the holidays.
-- **A free start** Lesson one is on us, and we follow it with written advice.
-- **Class size** Between five and ten students who share a level, unless private teaching suits better.
-- **Two classes weekly** Fixed times, around eight lessons a month.
-- **India time** Teachers are in India: a 5pm Mawson Lakes lesson is 12 noon India time until 4 April 2027, then 1pm.
+### Typing and talking
 
-**Daylight saving** Adelaide moves its clocks forward on the first Sunday in October and back on the first Sunday in April (IANA time zone database); India does not, so the gap is five hours in summer and four in winter.
+The learner writes the code; the teacher follows and asks questions.
+
+### South Australian terms
+
+Plans follow the state school year and pause in the holidays.
+
+### A free start
+
+Lesson one is on us, and we follow it with written advice.
+
+### Class size
+
+Between five and ten students who share a level, unless private teaching suits better.
+
+### Two classes weekly
+
+Fixed times, around eight lessons a month.
+
+### India time
+
+Teachers are in India: a 5pm Mawson Lakes lesson is 12 noon India time until 4 April 2027, then 1pm.
+
+Daylight saving
+
+Adelaide moves its clocks forward on the first Sunday in October and back on the first Sunday in April (IANA time zone database); India does not, so the gap is five hours in summer and four in winter.
+
+Fees
 
 ## Mawson Lakes class fees
 
 Three prices for everyone.
 
-- First class: USD 0. The first lesson is free and ends with a clear suggestion.
-- Group tuition: USD 100 a month. About eight group lessons a month with fifteen to twenty learners.
-- Private tuition: USD 150 a month. About eight lessons a month with one teacher.
+First class**USD 0**
+
+The first lesson is free and ends with a clear suggestion.
+
+Group tuition**USD 100**
+
+About eight group lessons a month with fifteen to twenty learners.
+
+Private tuition**USD 150**
+
+About eight lessons a month with one teacher.
 
 Families pay in US dollars, only after the trial and once course and time are agreed. The pricing page covers holidays, missed lessons and changing format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20or%20AI%20class%20for%20a%20learner%20in%20Mawson%20Lakes.)Reviews
+
+## Feedback from families, posted on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a first Mawson Lakes lesson
+
+Drop us a note with the student's age and hobbies. Secondary students may like streaming the timetable for their own stop; little ones often enjoy a Scratch sorting game.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Mawson Lakes one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20or%20AI%20class%20for%20a%20learner%20in%20Mawson%20Lakes.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Mawson Lakes coding and AI questions
+
+Questions families and adult learners in Mawson Lakes ask.
 
 ### How many people live in Mawson Lakes?
 
@@ -241,10 +359,14 @@ Fifteen to twenty learners at a similar level and pace, not sorted by age or sub
 
 No. That platform is reserved for private tuition; our groups write their agents in Python instead.
 
+Explore Adelaide and South Australia
+
 ## More for Mawson Lakes learners
 
 See [the Adelaide page](/ai-and-programming-classes-in-adelaide) for the whole city and [coding for Adelaide children](/coding-classes-for-kids-adelaide) for younger learners. [The South Australia guide](/coding-and-ai-classes-in-south-australia) covers the state.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20or%20AI%20class%20for%20a%20learner%20in%20Mawson%20Lakes.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-and-ai-classes-in-mawson-lakes-adelaide](https://learn.modernagecoders.com/best-coding-and-ai-classes-in-mawson-lakes-adelaide#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-mawson-lakes-adelaide*

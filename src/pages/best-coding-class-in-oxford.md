@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths lessons for Oxford learne
 canonical: https://learn.modernagecoders.com/best-coding-class-in-oxford
 source: src/pages/best-coding-class-in-oxford.html
 ---
-> Oxford counted 162,040 usual residents in the 2021 Census, and 35.1% of those aged five and over were at school or in full-time study, against 20.4% across England. The city's Radcliffe Meteorological Station holds the longest single-site weather records in the United Kingdom, and the University set up its Computing Laboratory in 1957. Modern Age Coders runs live online lessons for Oxford learners aged six to sixty-seven, in a class of fifteen to twenty matched by level or with a teacher for one, at times fixed in UK hours by teachers working from India. Your first lesson costs nothing. After that, USD 100 a month pays for a group place and USD 150 a month for private teaching.
+> Live online coding, Python, AI and maths lessons for Oxford learners aged 6 to 67, from Headington and Cowley to Summertown, with a real teacher. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Oxford
-
-Oxford, Oxfordshire, England / Live online
-
-# Coding classes in Oxford
-
-**What are the best coding classes in Oxford?** Oxford counted 162,040 usual residents in the 2021 Census, and 35.1% of those aged five and over were at school or in full-time study, against 20.4% across England. The city's Radcliffe Meteorological Station holds the longest single-site weather records in the United Kingdom, and the University set up its Computing Laboratory in 1957. Modern Age Coders runs live online lessons for Oxford learners aged six to sixty-seven, in a class of fifteen to twenty matched by level or with a teacher for one, at times fixed in UK hours by teachers working from India. Your first lesson costs nothing. After that, USD 100 a month pays for a group place and USD 150 a month for private teaching.
-
-Does rain remember yesterday? Few places can answer that as well as Oxford, because the Radcliffe Meteorological Station, in the garden of Green Templeton College off Woodstock Road, has recorded daily rainfall since January 1827. From 1853, before which the University's geographers warn that some daily values may be totals for several days, to the end of 2025 there are 63,187 days, and on 19,763 of them at least a millimetre of rain fell. That is 31.3% of days. Yet after a wet day the next was wet 49.4% of the time, and after a dry day only 23.0%. Rain roughly doubles the chance of more rain tomorrow. A model built from those two numbers alone, called a Markov chain, reproduces the long-run share of wet days. Then it gets two things wrong, and finding them is the most valuable part of the lesson for our Oxford teenagers.
-
-Facts last verified 21 September 2026. Teaching is online; no Oxford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Oxford
 
 ## Four courses for a city of records
 
 Pick by what the learner enjoys. Each course opens with a free live lesson, booked without a card.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): Puzzles, patterns and first programs, with random-number games that show how chance behaves.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Python from a first line to full projects; the Oxford rain chain makes a natural project once loops and lists are secure.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): For teenagers who already know basic Python: pandas, real datasets and honest charts, the right tools for counting what follows what.
-- [Statistics & Probability](/courses/statistics-probability-maths-course) (University and adult): Conditional probability, independence and Bayes' theorem worked through properly, the mathematics a Markov chain rests on.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsPuzzles, patterns and first programs, with random-number games that show how chance behaves.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensPython from a first line to full projects; the Oxford rain chain makes a natural project once loops and lists are secure.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensFor teenagers who already know basic Python: pandas, real datasets and honest charts, the right tools for counting what follows what.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Statistics & Probability course thumbnail](/images/statistics-probability-maths.webp)University and adultStatistics & ProbabilityConditional probability, independence and Bayes' theorem worked through properly, the mathematics a Markov chain rests on.See the syllabus](/courses/statistics-probability-maths-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Oxford today
 
 ## A young city in its late teens and twenties
 
 From the 2021 Census tables for the Oxford local authority district, published by the Office for National Statistics on Nomis.
 
-**Oxford district, Census 2021**
-
 | Measure | Oxford | England share |
-|---|---|---|
+| --- | --- | --- |
 | Usual residents | 162,040 | Not compared |
 | Living in households | 140,818 | Not compared |
 | Living in communal establishments | 21,222, 13.1% | Not compared |
@@ -66,6 +52,8 @@ Children aged 5 to 9 made up 4.8% of residents against 5.9% nationally, while 15
 
 For a family with a young child, that last contrast has a practical side: a local class for one narrow age and level can be hard to fill. Our groups are formed online from learners across the UK and beyond, so a seven-year-old in Marston can join five to ten others at exactly the same stage, and a teenager in Headington can move on to real data work as soon as they are ready.
 
+Records and computing
+
 ## Two centuries of weather, seven decades of computing
 
 From the University of Oxford, its School of Geography and the Environment, and its Department of Computer Science.
@@ -84,16 +72,18 @@ The Department of Computer Science records that the Oxford University Computing 
 
 In 1960 Joan Walsh became the laboratory's first woman to be awarded a DPhil, and in 1965 the Programming Research Group was founded under Christopher Strachey, broadening the laboratory's scope well beyond numerical analysis. It took the name Department of Computer Science in 2011. The University says teaching existed in Oxford in some form in 1096, and its facts and figures page, which gives no date for the count, reports more than 26,000 students, including 12,460 undergraduates and 13,755 postgraduates. The same page says there are usually around 3,300 undergraduate places, and that over 23,000 people applied to start in 2024. We have no connection with the University. Its story matters here because it shows careful measurement and computing growing up side by side in one city.
 
-**Documented from the start** The School stresses that the station's instruments and their exposure have been fully documented throughout. That is what lets a learner use 173 years in one model with open eyes: readings before 1972, for example, were taken in inches and have been converted to millimetres, and the notes say so rather than leaving it to be discovered.
+Documented from the start
+
+The School stresses that the station's instruments and their exposure have been fully documented throughout. That is what lets a learner use 173 years in one model with open eyes: readings before 1972, for example, were taken in inches and have been converted to millimetres, and the notes say so rather than leaving it to be discovered.
+
+Signature project
 
 ## Two probabilities, 173 years of Oxford rain
 
 A Markov chain predicts tomorrow from today and nothing earlier. We built one from the Radcliffe station's daily rainfall, counting a day as wet when at least 1.0 millimetre fell.
 
-**What followed each day at the Radcliffe station, 1 January 1853 to 31 December 2025**
-
 | Today | Next day wet | Next day dry | Chance the next day is wet |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Wet | 9,766 | 9,997 | 49.4% |
 | Dry | 9,997 | 33,426 | 23.0% |
 
@@ -115,14 +105,14 @@ The model says memory fades fast. Three days after a wet day it gives rain a 32.
 
 Whole years expose a second gap. Across the 173 years, a year held 114.2 wet days on average, from 79 in 1921 to 150 in 1872, with a standard deviation of 14.7 days. We simulated 34,600 years with the chain and matched that average, but with a spread of only 11.6 days; a memoryless coin gave 8.8. The chain is a clear improvement on the coin and still makes Oxford's years look more alike than they really are. Good modelling means reporting both halves of that sentence.
 
+Testing a model of chance
+
 ## Five checks before trusting a probability model
 
 Learned on rain, used afterwards on predictive text, queues at a help desk, games of chance and any sequence where the next step depends on the last.
 
-**How to test a Markov chain against its data**
-
 | Check | What it looks like | What it prevents |
-|---|---|---|
+| --- | --- | --- |
 | Count pairs, not just days | Tally what follows each wet day and each dry day, not only how many days were wet | A model that treats every day as a separate coin toss |
 | Know which checks are free | Notice that wet-to-dry and dry-to-wet counts can differ by at most one, so matching the long-run share proves little | Mistaking arithmetic for evidence |
 | Test beyond the fit | Compare the model with the record two, three and seven days ahead, which it was not built from | Trusting a model only on the numbers it was tuned to |
@@ -145,14 +135,37 @@ Sequence models for demand, risk or customer behaviour, checked on data they wer
 
 We are not connected with the University of Oxford, its School of Geography and the Environment or its Department of Computer Science. The Radcliffe daily dataset is published by the School; the pair counts, the chain and the simulations are ours.
 
+Learning ladder
+
 ## From a coin toss to a chain you can test
 
 Ages are only a starting point; the free lesson decides the level.
 
-- **Ages 6 to 10: Chance games** Spinners, dice and coin tosses, counting what turns up and noticing that a fair coin has no memory. [Mental Maths for Kids](/courses/mental-maths-mastery-kids), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 11 to 13: What follows what** Tallying pairs in a table, turning counts into fractions and percentages, and writing the first loop that does the tallying. [Maths Through Coding](/courses/maths-through-coding), [Middle School Mathematics Mastery](/courses/comprehensive-middle-school-mathematics-mastery)
-- **Ages 14 to 18: Markov chains in Python** A transition table built from real data, years simulated from it and the model tested at longer lags. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **Ages 18 to 67: Sequence models at work** Conditional probability, simulation and model checking for anyone who forecasts demand, risk or behaviour. [Statistics & Probability](/courses/statistics-probability-maths-course), [Maths for Data Science](/courses/data-analytics-mathematics-masterclass)
+Ages 6 to 10
+
+### Chance games
+
+Spinners, dice and coin tosses, counting what turns up and noticing that a fair coin has no memory.
+
+[Mental Maths for Kids](/courses/mental-maths-mastery-kids)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 11 to 13
+
+### What follows what
+
+Tallying pairs in a table, turning counts into fractions and percentages, and writing the first loop that does the tallying.
+
+[Maths Through Coding](/courses/maths-through-coding)[Middle School Mathematics Mastery](/courses/comprehensive-middle-school-mathematics-mastery)Ages 14 to 18
+
+### Markov chains in Python
+
+A transition table built from real data, years simulated from it and the model tested at longer lags.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)Ages 18 to 67
+
+### Sequence models at work
+
+Conditional probability, simulation and model checking for anyone who forecasts demand, risk or behaviour.
+
+[Statistics & Probability](/courses/statistics-probability-maths-course)[Maths for Data Science](/courses/data-analytics-mathematics-masterclass)Coding and AI
 
 ## Any chatbot will guess tomorrow's weather. Why should an Oxford teenager build a Markov chain?
 
@@ -164,30 +177,139 @@ It also teaches the limit. Our chain matched the long-run share of wet days and 
 
 So an Oxford teenager should still learn to program in 2026, in the city that keeps the longest single-site weather record in the country: predictions are everywhere now, and the ability to test one is what makes a programmer worth listening to. The longer argument is in [whether learning to code is still worth it in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Headington, Cowley or Summertown, with no journey at all
 
 Even a short journey across Oxford costs time; a live online lesson takes it out of the week altogether.
 
-- **No trip across the city** A learner in Wolvercote and another in Littlemore can sit the same lesson from their own rooms, with no bus through the centre at rush hour.
-- **School stages as England names them** We use Reception, Key Stages 1 to 4, Year 9 options, GCSEs and A levels, as Oxford schools do, and every lesson is taught in English.
-- **A first lesson that counts** The free session is real teaching on a real task. It ends with an honest view of level, a suggested course and a proposed weekly time, and no card details are asked for.
-- **Matched on ability** Groups of fifteen to twenty learners at one level, gathered from Oxford, the rest of the UK and other countries, which is how every level finds a time that works.
-- **Twice a week, same slot** Lessons run twice weekly at a fixed time, around eight a month, with breaks for holidays and exams arranged with the teacher.
-- **Teachers in India** India Standard Time never moves, so Oxford sits four and a half hours behind our teachers in British Summer Time and five and a half behind in winter, which puts after-school and evening lessons inside their working day.
+### No trip across the city
 
-**Pauses agreed in advance** A learner who is also at university can pause over vacations or exams and pick up again at the same level, as long as the dates are agreed with the teacher first. Schoolchildren do the same around GCSEs, A levels and family holidays.
+A learner in Wolvercote and another in Littlemore can sit the same lesson from their own rooms, with no bus through the centre at rush hour.
+
+### School stages as England names them
+
+We use Reception, Key Stages 1 to 4, Year 9 options, GCSEs and A levels, as Oxford schools do, and every lesson is taught in English.
+
+### A first lesson that counts
+
+The free session is real teaching on a real task. It ends with an honest view of level, a suggested course and a proposed weekly time, and no card details are asked for.
+
+### Matched on ability
+
+Groups of fifteen to twenty learners at one level, gathered from Oxford, the rest of the UK and other countries, which is how every level finds a time that works.
+
+### Twice a week, same slot
+
+Lessons run twice weekly at a fixed time, around eight a month, with breaks for holidays and exams arranged with the teacher.
+
+### Teachers in India
+
+India Standard Time never moves, so Oxford sits four and a half hours behind our teachers in British Summer Time and five and a half behind in winter, which puts after-school and evening lessons inside their working day.
+
+Pauses agreed in advance
+
+A learner who is also at university can pause over vacations or exams and pick up again at the same level, as long as the dates are agreed with the teacher first. Schoolchildren do the same around GCSEs, A levels and family holidays.
+
+Fees
 
 ## Oxford class fees
 
 Three prices, and nothing to add to them.
 
-- First class: USD 0. One complete lesson, free, after which you receive a level, a course suggestion and a weekly time.
-- Group tuition: USD 100 a month. A month of live teaching, normally eight lessons, with fifteen to twenty learners working at one level.
-- Private tuition: USD 150 a month. The same eight or so lessons a month, taught to one learner alone.
+First class**USD 0**
+
+One complete lesson, free, after which you receive a level, a course suggestion and a weekly time.
+
+Group tuition**USD 100**
+
+A month of live teaching, normally eight lessons, with fifteen to twenty learners working at one level.
+
+Private tuition**USD 150**
+
+The same eight or so lessons a month, taught to one learner alone.
 
 Everyone outside India pays one US dollar rate, so a family in Marston and a family in Wolvercote pay exactly the same, and we publish no prices in pounds. Billing begins only after the free lesson has fixed a course and a slot; the pricing page sets out how pauses, missed lessons and switches between group and private teaching work.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Oxford.)Reviews
+
+## Straight from Google: six family reviews, no edits
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Arrange a free lesson for an Oxford learner
+
+The first task fits the learner: a spinner game for a young child, a first Python program that tallies coin tosses, or the Radcliffe rain record and a two-state chain for a teenager ready to model real data.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Oxford one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Oxford.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Oxford coding class questions
+
+The questions Oxford families ask us most.
 
 ### How many people live in Oxford?
 
@@ -229,10 +351,14 @@ Nothing for the first lesson. After that, a group place costs USD 100 a month fo
 
 By ability, pace and goals rather than age or postcode, with fifteen to twenty learners at one level in each group. If no group meets at a suitable time, we suggest one-to-one lessons instead.
 
+Explore the UK
+
 ## More UK cities and the national guide
 
 Cambridge answers Oxford with EDSAC and a heap that ranks its warmest months on the [Cambridge page](/best-coding-class-in-cambridge). [Milton Keynes](/best-coding-class-in-milton-keynes) has Colossus and a map estimated from random points, and [London](/best-coding-class-in-london) has a guide of its own. School stages across England are explained in the [England guide](/coding-and-ai-classes-in-england), and the [UK coding page](/coding-classes-in-united-kingdom) links to every UK page.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Oxford.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-oxford](https://learn.modernagecoders.com/best-coding-class-in-oxford#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-oxford*

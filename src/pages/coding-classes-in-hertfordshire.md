@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths classes across Hertfordsh
 canonical: https://learn.modernagecoders.com/coding-classes-in-hertfordshire
 source: src/pages/coding-classes-in-hertfordshire.html
 ---
-> Hertfordshire is ten districts and boroughs with 1,198,800 residents at the 2021 Census, and like its neighbours it has no single dominant town: Watford, Hemel Hempstead and Stevenage are the three largest, followed by St Albans, Welwyn Garden City and more than two dozen others. Our lessons come to every one of them in the same way. They are live on video with teachers based in India, and learners join at the level they have reached, whatever their age, from 6 to 67. Pick a group of fifteen to twenty or have a teacher to yourself. Subjects run from first programs through Python and AI to maths. The county project follows a Mars rover built in Stevenage. There is no charge for lesson one; afterwards it is USD 100 monthly for a group seat and USD 150 for private lessons.
+> Live online coding, Python, AI and maths classes across Hertfordshire, from Watford and Stevenage to St Albans, Hemel Hempstead and Hitchin. The first class is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Hertfordshire
-
-County of Hertfordshire / Live online
-
-# Coding classes in Hertfordshire
-
-**What are the best coding classes in Hertfordshire?** Hertfordshire is ten districts and boroughs with 1,198,800 residents at the 2021 Census, and like its neighbours it has no single dominant town: Watford, Hemel Hempstead and Stevenage are the three largest, followed by St Albans, Welwyn Garden City and more than two dozen others. Our lessons come to every one of them in the same way. They are live on video with teachers based in India, and learners join at the level they have reached, whatever their age, from 6 to 67. Pick a group of fifteen to twenty or have a teacher to yourself. Subjects run from first programs through Python and AI to maths. The county project follows a Mars rover built in Stevenage. There is no charge for lesson one; afterwards it is USD 100 monthly for a group seat and USD 150 for private lessons.
-
-Imagine steering a car where every turn of the wheel takes twenty minutes to reach the tyres, and every picture from the windscreen takes another twenty to reach you. That is roughly what driving on Mars would be like on a bad day, and it is why the rover being built for Europe's ExoMars mission has to make many of its own decisions. The UK Space Agency says the Rosalind Franklin rover was built entirely in Stevenage by Airbus engineers, and that it is due to launch in 2028 and land in 2030. So Hertfordshire's project asks a question that sounds simple and is not: how far away will that rover be, day by day, once it arrives, and what does that distance do to anyone trying to control it from Earth?
-
-Facts last verified 26 September 2026. Teaching is online; no Hertfordshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Hertfordshire
 
 ## Four courses Hertfordshire learners often begin with
 
 A six-year-old in Tring who loves the museum's animals, a Year 7 in Letchworth who wants to make a game, a Year 11 in Bishop's Stortford reading about Mars and machine learning, and an operations analyst in Hatfield buried in repetitive reports. Different first courses; the same free first lesson.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Scratch for young beginners: characters that move, react and keep score, and the first idea that a program is a set of instructions.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Real typed Python for children, with enough arithmetic practice to work out a light-minute from the speed of light.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 18): Machine learning, neural networks and computer vision for teenagers, the family of ideas that lets a machine judge terrain from a camera.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (Adults): Python automation for professionals: scraping, browser automation and applied AI for documents and forecasts.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsScratch for young beginners: characters that move, react and keep score, and the first idea that a program is a set of instructions.See the syllabus](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsReal typed Python for children, with enough arithmetic practice to work out a light-minute from the speed of light.See the syllabus](/courses/python-ai-kids-masterclass)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 18AI and Machine Learning for TeensMachine learning, neural networks and computer vision for teenagers, the family of ideas that lets a machine judge terrain from a camera.See the syllabus](/courses/ai-ml-masterclass-teens)[![Python Automation Course course thumbnail](/images/python-college.webp)AdultsPython Automation CoursePython automation for professionals: scraping, browser automation and applied AI for documents and forecasts.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)The county today
 
 ## Ten districts, 1,198,800 people and a string of towns that overlap their boroughs
 
 District totals are 2021 Census counts from Nomis. Towns are ONS built-up areas, and we checked each against our own count of the census output areas inside the county.
 
-**Hertfordshire's ten districts and boroughs, usual residents at Census 2021, largest first**
-
 | District or borough | Usual residents | Main towns |
-|---|---|---|
+| --- | --- | --- |
 | Dacorum | 155,081 | Hemel Hempstead, Berkhamsted, Tring |
 | East Hertfordshire | 150,158 | Bishop's Stortford, Hertford, Ware, Sawbridgeworth, Buntingford |
 | St Albans | 148,167 | St Albans, Harpenden, London Colney, Redbourn |
@@ -57,10 +43,8 @@ District totals are 2021 Census counts from Nomis. Towns are ONS built-up areas,
 
 Ten districts of similar size, none above about 155,000, means Hertfordshire's children are spread over many towns rather than gathered in one. Several of those towns do not fit their own borough. The Watford built-up area holds 131,325 people, well above Watford borough's 102,246, because it runs into Three Rivers and Hertsmere. Stevenage's built-up area spills into North Hertfordshire. Hemel Hempstead reaches into Three Rivers. A family's town and a family's council are often two different answers.
 
-**Hertfordshire towns by ONS built-up area, Census 2021, largest first; Harlow is in Essex and is left out**
-
 | Town | Usual residents | Town | Usual residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Watford | 131,325 | Berkhamsted | 21,240 |
 | Hemel Hempstead | 95,985 | Ware | 19,625 |
 | Stevenage | 94,470 | Abbots Langley and Kings Langley | 18,205 |
@@ -76,8 +60,8 @@ Ten districts of similar size, none above about 155,000, means Hertfordshire's c
 | Harpenden | 30,965 | Moor Park | 5,850 |
 | Hertford | 28,800 | Bovingdon | 5,310 |
 | Bushey | 28,425 | Redbourn | 5,185 |
-| Rickmansworth | 26,290 |  |  |
-| Potters Bar | 23,400 |  |  |
+| Rickmansworth | 26,290 |   |   |
+| Potters Bar | 23,400 |   |   |
 
 Our count agrees with the ONS totals to within rounding for all but three rows. Sawbridgeworth reaches about two thousand people into Essex, Hoddesdon a little under nine hundred, and Borehamwood a couple of hundred into London; the table prints the ONS figure for the whole place in each case. Harlow is the opposite: an Essex town with about 420 residents on the Hertfordshire side, so it is not a Hertfordshire town at all.
 
@@ -85,16 +69,16 @@ Our count agrees with the ONS totals to within rounding for all but three rows. 
 
 For the county's community schools, term starts on 1 September 2026, October half term is 26 to 30 October, and Christmas runs 21 December 2026 to 1 January 2027. February half term is 15 to 19 February 2027, Easter 26 March to 9 April, the May half term 31 May to 4 June, and the summer holiday begins on 23 July 2027. The council notes that academies, voluntary-aided, foundation and free schools may have different dates, so we agree breaks family by family. The county's partially selective schools have [a maths page of their own](/11-plus-maths-tuition-hertfordshire); this page gives no school advice.
 
+The Hertfordshire project
+
 ## How far away is a Stevenage rover, and what does the distance do?
 
 A real ephemeris, a constant everyone learns at school, and a few lines of code. The answers surprise most adults.
 
 NASA's Jet Propulsion Laboratory publishes a free service called Horizons that gives the position of any planet on any date. We asked it for the distance from Earth to Mars every day from 1 January 2030, the year the rover is due to land, to 31 December 2032: 1,096 rows. Divide each distance by the speed of light, 299,792.458 kilometres a second, and you have the time a radio signal takes to cross the gap one way. Double it for a question and its answer.
 
-**Our run of 26 September 2026: Earth to Mars, from JPL Horizons, converted to signal time**
-
 | Date | Distance | One way | Question and answer |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1 January 2030 | 2.081 au | 17.3 minutes | 34.6 minutes |
 | 1 July 2030 | 2.544 au | 21.2 minutes | 42.3 minutes |
 | 1 January 2031 | 1.564 au | 13.0 minutes | 26.0 minutes |
@@ -122,14 +106,14 @@ Simulate a rover that stops for orders against one that plans its own moves, and
 
 The distances are between the centres of Earth and Mars, from JPL's published ephemeris, and the landing date is the UK Space Agency's stated plan, not a guarantee. Real missions relay through orbiting spacecraft and cannot talk to Mars at all when the Sun is in the way; our one-command-per-round-trip driver is a teaching model, not how any mission actually operates.
 
+Why this county
+
 ## A Mars rover with a Stevenage address
 
 The Hertfordshire link, in the words of the agencies that fund and run the mission.
 
-**The Rosalind Franklin rover, from UK Space Agency and ESA pages**
-
 | Source | What it says |
-|---|---|
+| --- | --- |
 | UK Space Agency, 29 March 2025 | The rover was "entirely built in Stevenage by engineers from Airbus UK" and "is due to launch in 2028 with the support of NASA and land on Mars in 2030". |
 | UK Space Agency, ExoMars case study | Built by Airbus Defence and Space at the company's UK facility in Stevenage; its software "will have a degree of 'intelligence' and autonomy to make certain decisions on the ground" and will navigate using optical sensors. |
 | UK Space Agency, 29 March 2025 | The mission is to drill 2 metres into the surface to hunt for signs of ancient life. |
@@ -139,16 +123,41 @@ The rover is named after Rosalind Franklin, the British scientist whose X-ray wo
 
 Modern Age Coders has no connection with Airbus, the UK Space Agency, ESA, NASA or JPL, or with Hertfordshire County Council, and this page implies none. The quotations are theirs; the distance calculation, the teaching model and any error in them are ours.
 
-**Nearby pages** [St Albans](/best-coding-class-in-st-albans) has a city page of its own, [Buckinghamshire](/coding-classes-in-buckinghamshire) is the next county west and [London](/best-coding-class-in-london) lies to the south. Everything else is on the [UK page](/coding-classes-in-united-kingdom).
+Nearby pages
+
+[St Albans](/best-coding-class-in-st-albans) has a city page of its own, [Buckinghamshire](/coding-classes-in-buckinghamshire) is the next county west and [London](/best-coding-class-in-london) lies to the south. Everything else is on the [UK page](/coding-classes-in-united-kingdom).
+
+The route through
 
 ## From a sprite that follows orders to a machine that makes its own
 
 The free lesson finds the right first rung. A school year is useful information, not a rule.
 
-- **Ages 6 to 10: Instructions, exactly** Scratch characters that do precisely what they are told, which is the first and most important thing to understand about any machine. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 10 to 13: Numbers with units** Python arithmetic with real quantities, kilometres, seconds and minutes, and the habit of checking an answer another way. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 18: Machines that judge** Machine learning and computer vision, alongside the algorithms that plan a route through a grid of obstacles. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)
-- **Ages 18 to 67: Automation at work** Python that removes repetitive tasks, with a clear view of when a person should stay in the loop. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Ages 6 to 10
+
+### Instructions, exactly
+
+Scratch characters that do precisely what they are told, which is the first and most important thing to understand about any machine.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 10 to 13
+
+### Numbers with units
+
+Python arithmetic with real quantities, kilometres, seconds and minutes, and the habit of checking an answer another way.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 18
+
+### Machines that judge
+
+Machine learning and computer vision, alongside the algorithms that plan a route through a grid of obstacles.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)Ages 18 to 67
+
+### Automation at work
+
+Python that removes repetitive tasks, with a clear view of when a person should stay in the loop.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)Coding when AI writes code
 
 ## Rovers already drive themselves. Why should a Hertfordshire teenager learn to program?
 
@@ -160,30 +169,139 @@ A student who has worked out that a question to Mars can take 43.9 minutes to an
 
 So the reason to learn to code in Hertfordshire in 2026 is to be one of the people who set those limits, not one of the people surprised by them. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Practical details
+
 ## Royston to Rickmansworth with no drive at either end
 
 Hertfordshire is a county of towns joined by busy roads. An online lesson skips every one of them.
 
-- **Taught at home** A bedroom in Ware, a kitchen in Berkhamsted, a desk in Borehamwood. The teacher shares a screen and the learner does the typing.
-- **School words families know** Key Stages, GCSE options and A levels are named as Hertfordshire schools name them, and everything is in English.
-- **First lesson on us** A complete lesson with a teacher, ending with an honest recommendation of level and course. Nobody asks for card details.
-- **Matched by stage** Groups of fifteen to twenty learners who are at the same point, gathered from many places, so the level is right and the time is sensible.
-- **Holidays by agreement** Most learners take two lessons a week, with breaks settled around their own school's dates, which in Hertfordshire can differ by school type.
-- **Every time in UK time** Teachers work from India, which is four and a half hours ahead of British Summer Time and five and a half hours ahead in winter. Bookings always show the UK time.
+### Taught at home
 
-**Why a level-based group suits Hertfordshire** Thirty-odd towns and no dominant city mean a class formed around one town rarely has enough learners at the same stage. Forming groups by level lets a Tring learner and a Cheshunt learner work side by side.
+A bedroom in Ware, a kitchen in Berkhamsted, a desk in Borehamwood. The teacher shares a screen and the learner does the typing.
+
+### School words families know
+
+Key Stages, GCSE options and A levels are named as Hertfordshire schools name them, and everything is in English.
+
+### First lesson on us
+
+A complete lesson with a teacher, ending with an honest recommendation of level and course. Nobody asks for card details.
+
+### Matched by stage
+
+Groups of fifteen to twenty learners who are at the same point, gathered from many places, so the level is right and the time is sensible.
+
+### Holidays by agreement
+
+Most learners take two lessons a week, with breaks settled around their own school's dates, which in Hertfordshire can differ by school type.
+
+### Every time in UK time
+
+Teachers work from India, which is four and a half hours ahead of British Summer Time and five and a half hours ahead in winter. Bookings always show the UK time.
+
+Why a level-based group suits Hertfordshire
+
+Thirty-odd towns and no dominant city mean a class formed around one town rarely has enough learners at the same stage. Forming groups by level lets a Tring learner and a Cheshunt learner work side by side.
+
+Fees
 
 ## What classes cost in Hertfordshire
 
 One set of prices covers the whole county, and every country except India.
 
-- First class: USD 0. A full lesson of genuine work, ending in a suggested level and course.
-- Group tuition: USD 100 a month. About eight lessons each month, in a group of fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. About eight lessons each month with a teacher and one learner.
+First class**USD 0**
+
+A full lesson of genuine work, ending in a suggested level and course.
+
+Group tuition**USD 100**
+
+About eight lessons each month, in a group of fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+About eight lessons each month with a teacher and one learner.
 
 All fees are in US dollars, the rate we charge outside India, and there is no pound price list. Payment only begins after the free lesson has agreed a course and a weekly time; the pricing page covers pauses, missed lessons and switching between group and private teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20we%20have%20a%20free%20lesson%20for%20a%20learner%20in%20Hertfordshire%3F)Reviews
+
+## Reviews families left on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Request the free lesson
+
+Share an age or school year and one thing the learner enjoys. Lesson one might be a Scratch game, a first Python calculation, or working out how long a message takes to reach Mars.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Hertfordshire one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20we%20have%20a%20free%20lesson%20for%20a%20learner%20in%20Hertfordshire%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Hertfordshire questions
+
+The county, the rover project and the lessons.
 
 ### How many people live in Hertfordshire?
 
@@ -225,10 +343,14 @@ The first lesson is free. After that, USD 100 a month for a group place or USD 1
 
 There is a separate maths page about them. This page is about coding, and we give no advice on schools or admissions.
 
+More of the UK
+
 ## Pages beyond Hertfordshire
 
 [St Albans](/best-coding-class-in-st-albans) has its own page, [Buckinghamshire](/coding-classes-in-buckinghamshire) builds a cipher and [Berkshire](/coding-classes-in-berkshire) counts forecasts. Start from the [UK hub](/coding-classes-in-united-kingdom) for the rest, or read [how to choose an online class](/best-online-coding-classes-uk) first.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Chat with us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20we%20have%20a%20free%20lesson%20for%20a%20learner%20in%20Hertfordshire%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-hertfordshire](https://learn.modernagecoders.com/coding-classes-in-hertfordshire#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-hertfordshire*

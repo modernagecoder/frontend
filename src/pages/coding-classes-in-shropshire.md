@@ -4,46 +4,32 @@ description: "Live online coding, Python and maths classes across Shropshire, fr
 canonical: https://learn.modernagecoders.com/coding-classes-in-shropshire
 source: src/pages/coding-classes-in-shropshire.html
 ---
-> Shropshire as a county is two unitary councils, Shropshire and Telford and Wrekin, and together they had 509,147 residents at the 2021 Census, our sum of the two published counts. Telford is the largest town, then Shrewsbury, with Oswestry, Newport, Bridgnorth and Market Drayton well behind. We teach live over video from India, and a learner's class is decided by what they can already do, never simply by age. Learners from 6 to 67 join groups of fifteen to twenty or have one-to-one lessons, in coding, Python, AI and maths. The Shropshire project starts with Charles Darwin, who was born in Shrewsbury. The first lesson is free; continuing is USD 100 a month in a group or USD 150 a month one-to-one.
+> Live online coding, Python and maths classes across Shropshire, from Telford and Shrewsbury to Oswestry, Newport, Bridgnorth, Market Drayton and Ludlow.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Shropshire
-
-Shropshire / Live online
-
-# Coding classes in Shropshire
-
-**What are the best coding classes in Shropshire?** Shropshire as a county is two unitary councils, Shropshire and Telford and Wrekin, and together they had 509,147 residents at the 2021 Census, our sum of the two published counts. Telford is the largest town, then Shrewsbury, with Oswestry, Newport, Bridgnorth and Market Drayton well behind. We teach live over video from India, and a learner's class is decided by what they can already do, never simply by age. Learners from 6 to 67 join groups of fifteen to twenty or have one-to-one lessons, in coding, Python, AI and maths. The Shropshire project starts with Charles Darwin, who was born in Shrewsbury. The first lesson is free; continuing is USD 100 a month in a group or USD 150 a month one-to-one.
-
-Charles Darwin opened his autobiography with the words "I was born at Shrewsbury on February 12th, 1809", and a bronze statue of him, made in 1897, sits in front of the town's library. His idea of natural selection, slight useful variations preserved over generations, became one of the most borrowed ideas in computing: the genetic algorithm, which breeds better answers to a problem instead of calculating them. This page's project builds one in Python, tests it against pure guessing and against an exact method, and then does what any good scientist would do: switches off each ingredient in turn to find out which ones actually matter.
-
-Facts last verified 26 September 2026. Teaching is online; no Shropshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Shropshire
 
 ## Where Shropshire learners start
 
 An eight-year-old in Wem who likes making creatures in Scratch, a Year 9 in Bridgnorth fascinated by how AI learns, a Year 12 in Shrewsbury heading for computer science, and an adult in Telford studying AI properly. Each begins with a free lesson.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Typed Python for children, with games, puzzles and first steps with data and AI.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): Maths learned by coding it, including chance, averages and experiments run many times.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 18): Python to real machine learning for teenagers, from first models to neural networks and computer vision.
-- [Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college) (Adults): Search, logic and agents for adults, including hill-climbing, simulated annealing and genetic algorithms.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsTyped Python for children, with games, puzzles and first steps with data and AI.See the syllabus](/courses/python-ai-kids-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingMaths learned by coding it, including chance, averages and experiments run many times.See the syllabus](/courses/maths-through-coding)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 18AI and Machine Learning for TeensPython to real machine learning for teenagers, from first models to neural networks and computer vision.See the syllabus](/courses/ai-ml-masterclass-teens)[![Artificial Intelligence Course course thumbnail](/images/ai-college.webp)AdultsArtificial Intelligence CourseSearch, logic and agents for adults, including hill-climbing, simulated annealing and genetic algorithms.See the syllabus](/courses/artificial-intelligence-complete-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Shropshire in figures
 
 ## 509,147 people under two councils
 
 Council counts are 2021 Census figures on Nomis, and the total is our own addition. Towns are ONS built-up areas, each checked against our sum of census output areas.
 
-**Shropshire built-up areas with at least 6,000 residents, 2021 Census**
-
 | Town | Residents |
-|---|---|
+| --- | --- |
 | Telford | 156,910 |
 | Shrewsbury | 76,015 |
 | Oswestry | 17,510 |
@@ -62,16 +48,16 @@ Shropshire Council covers 323,606 people and Telford and Wrekin 185,541. The sha
 
 Shropshire touches Wales and several English counties with pages of their own, including [Herefordshire](/coding-classes-in-herefordshire) to the south and [Cheshire](/coding-classes-in-cheshire) to the north, with [Wolverhampton](/best-coding-class-in-wolverhampton) just east.
 
+The Shropshire project
+
 ## Evolving an answer, then testing the theory
 
 A packing puzzle, a genetic algorithm, and an experiment that removes one ingredient at a time.
 
 The puzzle is one of our own invention: 40 items, each with a weight and a value, and a bag that holds 286 units of weight. Which items should go in to make the bag as valuable as possible? A pack is written as 40 yes-or-no genes. The genetic algorithm starts with 60 random packs, then builds each new generation by picking parents in small contests where the better pack wins, cutting two parents and joining the pieces (crossover), and flipping the odd gene at random (mutation). Any pack that is too heavy scores nothing. Because the puzzle is small, dynamic programming can also find the true optimum, a value of 411, so we can measure precisely how close each method gets.
 
-**Our experiment: 30 runs of 20,000 tries each, 26 September 2026**
-
 | Method | Average result, share of optimum | Worst run | Runs that hit the optimum |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Pure guessing | 91.6% | 89.8% | 0 of 30 |
 | Full genetic algorithm | 98.5% | 96.8% | 0 of 30 |
 | No selection (parents picked at random) | 94.9% | 91.7% | 0 of 30 |
@@ -98,14 +84,14 @@ Build the full algorithm with tournaments, crossover and mutation, add the exact
 
 The quotations come from Darwin's autobiography and the first edition of On the Origin of Species, both on Project Gutenberg, and the statue details from its Historic England list entry. The puzzle, the algorithm and every result in the table are ours. A genetic algorithm borrows an idea from biology; it is not a model of how living things evolve.
 
+Why Shrewsbury
+
 ## A Shrewsbury boy and an idea computing borrowed
 
 The Shropshire link, from Darwin's own words and the official list entry.
 
-**Charles Darwin and Shrewsbury**
-
 | Source | What it says |
-|---|---|
+| --- | --- |
 | Darwin's autobiography | He was born at Shrewsbury on 12 February 1809. |
 | On the Origin of Species, 1859 | Each slight variation, if useful, is preserved: the principle he called Natural Selection. |
 | Historic England, entry 1246556 | A seated bronze statue of Darwin by H Montford, made in 1897, stands in front of the library at Castle Gates. |
@@ -115,16 +101,41 @@ Computer scientists borrowed Darwin's idea because some problems have too many p
 
 Modern Age Coders is independent of Shropshire Council, Telford and Wrekin Council, Historic England and Project Gutenberg. Darwin's words are his; the code, the puzzle and any mistakes are ours.
 
-**Nearby pages** [Herefordshire](/coding-classes-in-herefordshire) and [Hereford](/best-coding-class-in-hereford) are south; [Cheshire](/coding-classes-in-cheshire) and [Chester](/best-coding-class-in-chester) north; [Wolverhampton](/best-coding-class-in-wolverhampton) and the [West Midlands](/coding-classes-in-the-west-midlands) east.
+Nearby pages
+
+[Herefordshire](/coding-classes-in-herefordshire) and [Hereford](/best-coding-class-in-hereford) are south; [Cheshire](/coding-classes-in-cheshire) and [Chester](/best-coding-class-in-chester) north; [Wolverhampton](/best-coding-class-in-wolverhampton) and the [West Midlands](/coding-classes-in-the-west-midlands) east.
+
+The path
 
 ## From Scratch creatures to evolving algorithms
 
 The free lesson places each learner. A birthday is a first guess; skill settles it.
 
-- **Ages 6 to 10: Creatures and games** Block coding with creatures that move, collect and compete, and a first look at randomness. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 8 to 13: Experiments in code** Typed Python that runs a game many times and counts what happens. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 18: How AI learns** Machine learning and search for teenagers, with honest tests of what each method achieves. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)
-- **Ages 18 to 67: AI done properly** Search, logic, agents and machine learning for adults who want to understand AI, not just use it. [Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Ages 6 to 10
+
+### Creatures and games
+
+Block coding with creatures that move, collect and compete, and a first look at randomness.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 8 to 13
+
+### Experiments in code
+
+Typed Python that runs a game many times and counts what happens.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 18
+
+### How AI learns
+
+Machine learning and search for teenagers, with honest tests of what each method achieves.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)Ages 18 to 67
+
+### AI done properly
+
+Search, logic, agents and machine learning for adults who want to understand AI, not just use it.
+
+[Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)AI and experiments
 
 ## Every AI method comes with a story. How do you know which part works?
 
@@ -136,30 +147,139 @@ Researchers call this an ablation study: remove one component, rerun, compare. A
 
 So a young person in Shropshire should learn to code in 2026 to test the stories told about AI, not just repeat them. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How lessons run
+
 ## Ludlow to Whitchurch, one screen away
 
 Shropshire is large and rural, and for many families a weekly class in Telford or Shrewsbury means a real journey. Online lessons remove it.
 
-- **From your own home** A farmhouse near Clun, a terrace in Oswestry, a new estate in Telford. Learner and teacher share one screen, and the learner types.
-- **The school system you know** Key stages, year groups, GCSEs and A levels mean what they mean in Shropshire schools, and lessons are in English.
-- **A free lesson to begin** A genuine lesson, then an honest recommendation. We ask for no card details.
-- **Classmates at your stage** Fifteen to twenty learners at one level, from Shropshire and many other places.
-- **Holidays when you need them** Most learners do two lessons a week and pause for their school's own holidays.
-- **Booked in UK time** Your slot is set in UK time and stays put through the clock changes; the teacher, on India time some hours ahead, moves instead.
+### From your own home
 
-**Why groups follow level** In a county of small towns and villages, five learners at the same stage free on one evening rarely live close together. Level-based groups let a learner in Church Stretton or Much Wenlock join a class that suits them.
+A farmhouse near Clun, a terrace in Oswestry, a new estate in Telford. Learner and teacher share one screen, and the learner types.
+
+### The school system you know
+
+Key stages, year groups, GCSEs and A levels mean what they mean in Shropshire schools, and lessons are in English.
+
+### A free lesson to begin
+
+A genuine lesson, then an honest recommendation. We ask for no card details.
+
+### Classmates at your stage
+
+Fifteen to twenty learners at one level, from Shropshire and many other places.
+
+### Holidays when you need them
+
+Most learners do two lessons a week and pause for their school's own holidays.
+
+### Booked in UK time
+
+Your slot is set in UK time and stays put through the clock changes; the teacher, on India time some hours ahead, moves instead.
+
+Why groups follow level
+
+In a county of small towns and villages, five learners at the same stage free on one evening rarely live close together. Level-based groups let a learner in Church Stretton or Much Wenlock join a class that suits them.
+
+Fees
 
 ## Fees in Shropshire
 
 Market Drayton or Albrighton, the fee is the same, as it is in every country we teach other than India.
 
-- First class: USD 0. One whole lesson of genuine work, then advice on level and course.
-- Group tuition: USD 100 a month. Around eight lessons a month with fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. Around eight lessons a month with the teacher to themselves.
+First class**USD 0**
+
+One whole lesson of genuine work, then advice on level and course.
+
+Group tuition**USD 100**
+
+Around eight lessons a month with fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+Around eight lessons a month with the teacher to themselves.
 
 Our prices are in US dollars rather than pounds. Billing begins only once the free lesson has produced an agreed course and a regular weekly time. Pauses, missed lessons and a switch between group and private work are all set out on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Shropshire%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Reviews
+
+## Family reviews on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Ask for a free Shropshire lesson
+
+Tell us the learner's age or school year and what they enjoy. A first lesson might be a Scratch creature game, a Python experiment, or the evolving packs on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Shropshire one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Shropshire%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Shropshire questions
+
+The county, the Darwin project and the practical details.
 
 ### How many people live in Shropshire?
 
@@ -201,10 +321,14 @@ The first lesson is free. Carry on and you pay USD 100 monthly for a group seat 
 
 Yes, if you wish. Shropshire Council, Telford and Wrekin Council and academy trusts publish their own dates, and we plan breaks around yours.
 
+Around Shropshire
+
 ## Neighbouring pages
 
 Try [Herefordshire](/coding-classes-in-herefordshire), [Cheshire](/coding-classes-in-cheshire), [Wolverhampton](/best-coding-class-in-wolverhampton) or [Stoke-on-Trent](/best-coding-class-in-stoke-on-trent). The [UK hub](/coding-classes-in-united-kingdom) has every other area.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Shropshire%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-shropshire](https://learn.modernagecoders.com/coding-classes-in-shropshire#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-shropshire*

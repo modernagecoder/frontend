@@ -4,46 +4,32 @@ description: "Vibe coding, AI agents, Python and maths taught live online for Hu
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-huyton-with-roby
 source: src/pages/vibe-coding-and-ai-agents-classes-in-huyton-with-roby.html
 ---
-> Huyton with Roby is an ONS built-up area in Knowsley, and the 2021 census put 59,845 residents in it. Roby, Page Moss, Longview, Bowring Park, Court Hey and Woolfall Heath are recorded suburbs within it. From age six to 67, learners here study vibe coding, AI agents, Python, coding and maths over live video with tutors based in India, either alone with a tutor or in a group of fifteen to twenty who share a level. Every course puts clear thinking before tools, so a learner can say why an agent did what it did. You can try a lesson free and hear which course we would choose. From then on the fee is USD 100 a month for a group place or USD 150 a month for private lessons. In the Huyton project a search agent places six sites across 193 Census areas, gets stuck, and is rescued by one addition: a short memory of where it has just been.
+> Vibe coding, AI agents, Python and maths taught live online for Huyton, Roby, Page Moss, Longview and Court Hey learners aged 6 to 67. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [North West England](/coding-and-ai-classes-in-north-west-england) / Huyton with Roby
-
-Huyton with Roby, Knowsley, England / Live online
-
-# Vibe coding and AI agents classes in Huyton with Roby
-
-**Which vibe coding and AI agents classes are best for Huyton with Roby learners?** Huyton with Roby is an ONS built-up area in Knowsley, and the 2021 census put 59,845 residents in it. Roby, Page Moss, Longview, Bowring Park, Court Hey and Woolfall Heath are recorded suburbs within it. From age six to 67, learners here study vibe coding, AI agents, Python, coding and maths over live video with tutors based in India, either alone with a tutor or in a group of fifteen to twenty who share a level. Every course puts clear thinking before tools, so a learner can say why an agent did what it did. You can try a lesson free and hear which course we would choose. From then on the fee is USD 100 a month for a group place or USD 150 a month for private lessons. In the Huyton project a search agent places six sites across 193 Census areas, gets stuck, and is rescued by one addition: a short memory of where it has just been.
-
-An agent that improves a plan one small step at a time will sooner or later reach a plan that no single step can improve. That is not the same as the right answer. It may simply be a dead end, a layout that looks fine from where the agent stands and is beaten by one it cannot reach without first getting worse. The obvious fix, allowing a step backwards, fails at once, because the next step forwards undoes it. Tabu search adds the missing piece: the agent keeps a list of recent moves and refuses to reverse them for a while. The Huyton project measures how much that list is worth and how long it should be.
-
-Facts last verified 30 September 2026. Teaching is online; no Huyton with Roby branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentHuyton course picks
 
 ## Huyton with Roby courses in thinking, vibe coding and agents
 
 Four starting points by age, each opening with a free live lesson. We do not take card details to book it.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think course: step-by-step plans, dead ends and ways of backing out of them.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): A child explains a game to an AI, sees it built in Scratch and then hunts for what is wrong.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects, including search agents like the one on this page.
-- [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college) (Students and adults): Algorithms in depth: search, heuristics and knowing what a method can and cannot guarantee.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think course: step-by-step plans, dead ends and ways of backing out of them.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsA child explains a game to an AI, sees it built in Scratch and then hunts for what is wrong.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensPython, web and AI projects, including search agents like the one on this page.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Data Structures & Algorithms Course course thumbnail](/images/dsa-college.webp)Students and adultsData Structures & Algorithms CourseAlgorithms in depth: search, heuristics and knowing what a method can and cannot guarantee.See the syllabus](/courses/data-structures-algorithms-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Huyton with Roby and Knowsley
 
 ## Huyton, Roby, Page Moss, Longview and Bowring Park
 
 Three ONS built-up areas in Knowsley, and the suburbs recorded inside the first of them.
 
-**ONS built-up areas in Knowsley, residents at the 2021 census**
-
 | Built-up area | Residents (2021) |
-|---|---|
+| --- | --- |
 | Huyton with Roby | 59,845 |
 | Kirkby | 45,560 |
 | Prescot | 39,225 |
@@ -54,6 +40,8 @@ These are three separate ONS figures, shown side by side and not added together.
 
 Other pages cover [Merseyside as a whole](/coding-classes-in-merseyside) and [North West England](/coding-and-ai-classes-in-north-west-england). The case for learning to reason before leaning on AI is made on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Huyton project
+
 ## Tabu search: an agent that remembers where it has just been
 
 Six sites, 193 areas, forty attempts, and a memory that changes the result.
@@ -62,10 +50,8 @@ The learner sets the agent a placement puzzle. The Census output areas that make
 
 Plain local search takes whichever move helps most and stops when none helps. Tabu search never stops early. At every turn it takes the least harmful move available, even when that move makes the layout worse, and it writes the area it has just left onto a tabu list so that it cannot step straight back. The length of that list is the agent's memory. Both methods were run from the same 40 random starts.
 
-**Average straight-line distance from a resident to the closest of six sites, in metres, over 40 random starts (our Python run)**
-
 | Method | Mean result | Worst of 40 |
-|---|---|---|
+| --- | --- | --- |
 | Six random sites, no search | 832.7 | not recorded |
 | Plain local search | 576.6 | 597.2 |
 | Tabu search, no memory | 576.1 | 597.2 |
@@ -92,14 +78,14 @@ Add the tabu list, vary its length across 40 starts and chart the worst result f
 
 Resident counts are ONS Census 2021 figures from Nomis, and the centre points and area lookups come from the ONS Open Geography Portal, all under the Open Government Licence. The sites are imaginary, and the search code and its results are ours.
 
+Memory in agents
+
 ## What the tabu list teaches about vibe coding and AI agents
 
 An agent with no record of its own steps will repeat them.
 
-**From the Huyton placement puzzle to AI agents in general**
-
 | In the tabu project | When you build or use an agent |
-|---|---|
+| --- | --- |
 | Nine of 40 local searches hit a dead end | Stopping when nothing improves is not proof of success |
 | No memory: out of the trap and straight back | Agents loop when they cannot see their own history |
 | Ten remembered moves fixed all 40 runs | A small, well-chosen memory can be enough |
@@ -110,14 +96,37 @@ Anyone who has watched an AI coding assistant apply a fix, break something, undo
 
 We have no link with the ONS, Nomis or postcodes.io. Their open data is used as published, and they have not checked this page.
 
+Steps
+
 ## From sliding puzzles to agents with a memory
 
 Treat the year bands loosely; a free lesson shows where to begin.
 
-- **Years 2 to 7: How to think** Plans, dead ends and rules for backing out of them. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Scratch and first Python, built with an AI and tested by hand. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python and search** Projects with search and heuristics, in step with GCSE and A level. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Algorithms and agents** Search methods, generative AI and agents that plan. [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
+Years 2 to 7
+
+### How to think
+
+Plans, dead ends and rules for backing out of them.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Scratch and first Python, built with an AI and tested by hand.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python and search
+
+Projects with search and heuristics, in step with GCSE and A level.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Algorithms and agents
+
+Search methods, generative AI and agents that plan.
+
+[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)AI agents and memory
 
 ## What is tabu search, and why does an AI agent need a memory of its moves?
 
@@ -129,30 +138,139 @@ Students who have built it ask two things of any agent: what does it remember, a
 
 Teenagers in Huyton who can code a memory into an agent understand why an assistant goes round in circles, and that understanding comes from writing the code themselves. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Lesson format
+
 ## Online lessons for Roby, Page Moss and Longview
 
 You need a computer with a keyboard and an internet line that can hold a video call.
 
-- **Learner in control** The student writes the prompts and the code while sharing a screen. The tutor's job is to question and to explain.
-- **Placed by a trial** A free first lesson shows what the learner can already do, so nothing is repeated and nothing is skipped.
-- **Free to begin** That first lesson costs nothing and we recommend a course at the end of it.
-- **Matched groups** A group means five to ten UK learners working at one level.
-- **Two sessions weekly** Lessons run twice a week and halt during school holidays.
-- **Same hour all year** Our tutors shift with British Summer Time so that your slot does not.
+### Learner in control
 
-**Why video** Filling a class with learners at one stage, all available on one evening, is hard within a single borough. Drawing on the whole UK makes it easy.
+The student writes the prompts and the code while sharing a screen. The tutor's job is to question and to explain.
+
+### Placed by a trial
+
+A free first lesson shows what the learner can already do, so nothing is repeated and nothing is skipped.
+
+### Free to begin
+
+That first lesson costs nothing and we recommend a course at the end of it.
+
+### Matched groups
+
+A group means five to ten UK learners working at one level.
+
+### Two sessions weekly
+
+Lessons run twice a week and halt during school holidays.
+
+### Same hour all year
+
+Our tutors shift with British Summer Time so that your slot does not.
+
+Why video
+
+Filling a class with learners at one stage, all available on one evening, is hard within a single borough. Drawing on the whole UK makes it easy.
+
+Fees
 
 ## Huyton with Roby fees
 
 Learners in Huyton pay the international rate that applies outside India.
 
-- First class: USD 0. A free lesson of full length, followed by our course advice.
-- Group tuition: USD 100 a month. Around eight live group lessons each month.
-- Private tuition: USD 150 a month. Around eight live one-to-one lessons each month.
+First class**USD 0**
+
+A free lesson of full length, followed by our course advice.
+
+Group tuition**USD 100**
+
+Around eight live group lessons each month.
+
+Private tuition**USD 150**
+
+Around eight live one-to-one lessons each month.
 
 All amounts are in US dollars; we do not quote in pounds. The first invoice follows the trial, once a course and a regular time are agreed. See the pricing page for holiday breaks, absences and changes of format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20we%20arrange%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Huyton%3F)Reviews
+
+## Reviews left on Google by parents and learners in the UK, Merseyside included
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Huyton lesson
+
+Send an age or school year and a favourite interest. The trial may be a puzzle with a no-undo rule, a Scratch game built with AI help, some first Python, or a small search agent.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Huyton with Roby one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20we%20arrange%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Huyton%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Huyton with Roby questions
+
+Tabu search, the placement project, vibe coding, agents and practical points.
 
 ### What is the population of Huyton with Roby?
 
@@ -194,10 +312,14 @@ Nothing for the first one. Group lessons are then USD 100 per month and private 
 
 No, we stop for the weeks you give us and start again afterwards.
 
+More places
+
 ## Other Merseyside pages
 
 Separate pages, each with its own project, cover [Liverpool](/best-coding-class-in-liverpool), [St Helens](/best-coding-and-ai-classes-in-st-helens), [Bootle](/ai-and-programming-classes-in-bootle) and [Widnes](/best-coding-and-ai-classes-in-widnes) (the 80/20 rule). All UK pages are listed on the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Chat on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20we%20arrange%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Huyton%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-huyton-with-roby](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-huyton-with-roby#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-huyton-with-roby*

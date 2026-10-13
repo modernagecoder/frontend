@@ -4,46 +4,32 @@ description: "Coding, Python, AI and data classes for Tramore learners aged 6 to
 canonical: https://learn.modernagecoders.com/best-coding-class-in-tramore
 source: src/pages/best-coding-class-in-tramore.html
 ---
-> Tramore's 11,176 usual residents live in 4,176 households, and 3,512 of those households have broadband, which carries our lessons in full. Each lesson is live on video: a teacher with a small group sharing one level, or with a single learner, roughly two times a week, for ages six to sixty-seven. The first lesson is on the house; from then on a group place is USD 100 a month and private teaching USD 150.
+> Coding, Python, AI and data classes for Tramore learners aged 6 to 67, taught live online in small groups at one level or one to one. The first lesson is free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [Waterford](/best-coding-class-in-waterford) / Tramore
-
-Tramore, County Waterford / Live online
-
-# Coding classes in Tramore
-
-**What is the best coding class in Tramore?** Tramore's 11,176 usual residents live in 4,176 households, and 3,512 of those households have broadband, which carries our lessons in full. Each lesson is live on video: a teacher with a small group sharing one level, or with a single learner, roughly two times a week, for ages six to sixty-seven. The first lesson is on the house; from then on a group place is USD 100 a month and private teaching USD 150.
-
-The Central Statistics Office's statement on County Waterford contains a clear, checkable sentence: "Looking at Waterford, we can see that Tramore was the largest town, with a population of 11,277 in April 2022." The learner sets out to verify it from the published town list. The number is exactly right. Whether Tramore is the largest town, though, depends on a rule the sentence never states, because the same list puts two bigger places in County Waterford: Waterford city and its suburbs, and Clonmel, whose label names both Tipperary and Waterford. Checking the claim turns out to mean finding the definition under which it is true, and writing it down.
-
-Facts last verified 19 September 2026. Teaching is online; no Tramore branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Tramore
 
 ## Courses Tramore learners often start on
 
 Match the course to the learner's age and interests; the teacher of that course sets the level in the free first lesson.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Block coding with sorting games, where "the biggest" depends on which things are allowed into the game.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Python filters and sorting on real lists, and checking a sentence against the data.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 14 to 18): Complete programs that test claims, with the rules behind each test written into the code.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (College and adult): For adults who quote or check statistics at work and need the definition behind every superlative.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlock coding with sorting games, where "the biggest" depends on which things are allowed into the game.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsPython filters and sorting on real lists, and checking a sentence against the data.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 14 to 18Python for TeensComplete programs that test claims, with the rules behind each test written into the code.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)College and adultData Analysis CourseFor adults who quote or check statistics at work and need the definition behind every superlative.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## Check a claim about Tramore, and find the rule that makes it true
 
 The CSO's town list gives a population for every town, city and suburb in the State. The learner filters it for County Waterford three different ways and asks which town comes first each time.
 
-**The largest places whose census label mentions Waterford, population in April 2022**
-
 | Label in the town list | Population |
-|---|---|
+| --- | --- |
 | Waterford city and suburbs, Counties Waterford & Kilkenny | 60,079 |
 | Clonmel, Counties Tipperary & Waterford | 18,369 |
 | Tramore, Co Waterford | 11,277 |
@@ -62,10 +48,8 @@ Leave the city out and Clonmel, at 18,369, comes first, because its label names 
 
 Keep only towns labelled Co Waterford alone, cities apart, and Tramore comes first at 11,277, exactly the figure stated. This is the reading under which the CSO sentence is true.
 
-**The rest of the same statement, checked against the same list**
-
 | Claim in the statement | Reproduced? |
-|---|---|
+| --- | --- |
 | Tramore largest, 11,277 | Yes, under rule three |
 | Youngest town of 500 or more: Ballinroad, average age 33.6 | Yes |
 | Oldest town of 500 or more: Cappoquin, average age 43.1 | Yes |
@@ -76,6 +60,8 @@ Keep only towns labelled Co Waterford alone, cities apart, and Tramore comes fir
 A claim that checks out is not the end of verification. "Largest town" hides at least two decisions, whether a city counts as a town and what to do with a town that straddles a county boundary, and the answer changes with each. The useful output of checking is the rule under which the claim holds, written down so the next reader does not have to rediscover it. Here that is: the largest town lying wholly in County Waterford, with Waterford city and its suburbs treated separately.
 
 The learner loads the town list and writes three small filter functions, one for each rule, then a function that returns the largest town under a given filter. Running all three on the Waterford rows reproduces the city, then Clonmel, then Tramore. The same code checks the youngest and oldest claims in the statement and, with one more line, lists every town whose label names two counties. The finished program prints each claim alongside the rule that makes it true, which is the kind of output a careful fact-checker actually needs.
+
+Why the wording matters
 
 ## Cities, borders and the word "town"
 
@@ -93,16 +79,18 @@ Eighteen labels in the list name two counties, from Carlow to Roosky. A filter t
 
 "The largest town wholly in County Waterford, leaving aside Waterford city" is longer than the original, but anyone can check it without guessing. Precision in a sentence is what makes verification possible.
 
-**What this page does not claim** It does not say the CSO statement is wrong: under its natural reading it is right to the last person. It points out only that the reading is unstated. The town-list population of 11,277 is the census-night count; the resident tables used below give 11,176.
+What this page does not claim
+
+It does not say the CSO statement is wrong: under its natural reading it is right to the last person. It points out only that the reading is unstated. The town-list population of 11,277 is the census-night count; the resident tables used below give 11,176.
+
+The town in the census
 
 ## Tramore in census figures
 
 Census 2022 small area counts for the town of Tramore, Co Waterford, covering its usual residents and their households.
 
-**Tramore: a few census counts**
-
 | Counted for Tramore | Figure |
-|---|---|
+| --- | --- |
 | Usual residents | 11,176 |
 | Households | 4,176 |
 | Households with broadband | 3,512 |
@@ -123,7 +111,11 @@ Of 3,061 journeys to school, college or childcare, 1,598 are made as a car passe
 
 On the home-working question, 1,442 Tramore workers said they work from home at least some of the time, 2,988 said they never do, and 489 gave no answer.
 
-**Sources we tried** The claim is quoted from the CSO's own statement. Tramore Racecourse's website did not respond and the council's Tramore library page returned an error on 19 September 2026, so neither is quoted.
+Sources we tried
+
+The claim is quoted from the CSO's own statement. Tramore Racecourse's website did not respond and the council's Tramore library page returned an error on 19 September 2026, so neither is quoted.
+
+Learning here
 
 ## Lessons for Tramore learners
 
@@ -143,14 +135,37 @@ Adults come with every level of experience, including none, and the course is se
 
 Census counts are given exactly as the Central Statistics Office released them, and the CSO's statement is quoted word for word. The three filters and the checks of the statement were run on the published town list on 19 September 2026.
 
+Learning ladder
+
 ## From "the biggest" to "the biggest under which rule"
 
 Ages here are approximate; lesson one decides where each learner starts.
 
-- **Ages 6 to 10: Sorting games** Block-coded games that pick the biggest or fastest, and change the winner by changing the rules. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Filters** Python that filters a real list in different ways and compares the answers. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Checking claims** Programs that test statements against data and print the rule each one depends on. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Fact-checking at work** Verifying figures in reports and press releases, and writing claims others can check. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Sorting games
+
+Block-coded games that pick the biggest or fastest, and change the winner by changing the rules.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Filters
+
+Python that filters a real list in different ways and compares the answers.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Checking claims
+
+Programs that test statements against data and print the rule each one depends on.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Fact-checking at work
+
+Verifying figures in reports and press releases, and writing claims others can check.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## Ask an assistant to fact-check the sentence
 
@@ -162,30 +177,139 @@ Someone who has worked through this project asks the assistant for the rule: doe
 
 Assistants repeat what they have read. Checking what a sentence actually claims remains a human skill. The longer argument is in [why learning to code keeps paying off](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How Tramore lessons are run
 
 The practicalities.
 
-- **Live, start to finish** The teacher runs each lesson in real time and works with whatever the learner is building.
-- **Who is in the group** Between five and ten learners, all at the same point in the course, joining from Waterford, other parts of Ireland and further away.
-- **Rhythm** Lessons usually land on two fixed days each week, around eight a month, with the days chosen together before the course begins.
-- **School calendar** Holidays, mid-terms and exam weeks are planned in from the beginning.
-- **What is needed** A laptop or desktop rather than a phone, something to hear the teacher through, a microphone, and a connection good enough for video.
-- **Private lessons** Private lessons fit learners with an unusual pace or an unusual timetable.
+### Live, start to finish
 
-**No premises by the strand** Tramore learners take every lesson over video. We have no classroom in Tramore or anywhere in Ireland, and the lesson is the same from any home with a connection.
+The teacher runs each lesson in real time and works with whatever the learner is building.
+
+### Who is in the group
+
+Between five and ten learners, all at the same point in the course, joining from Waterford, other parts of Ireland and further away.
+
+### Rhythm
+
+Lessons usually land on two fixed days each week, around eight a month, with the days chosen together before the course begins.
+
+### School calendar
+
+Holidays, mid-terms and exam weeks are planned in from the beginning.
+
+### What is needed
+
+A laptop or desktop rather than a phone, something to hear the teacher through, a microphone, and a connection good enough for video.
+
+### Private lessons
+
+Private lessons fit learners with an unusual pace or an unusual timetable.
+
+No premises by the strand
+
+Tramore learners take every lesson over video. We have no classroom in Tramore or anywhere in Ireland, and the lesson is the same from any home with a connection.
+
+Fees
 
 ## Fees for Tramore
 
 All of the prices.
 
-- First class: USD 0. A full first lesson with a level assessment, at no cost.
-- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one stage, about eight live lessons.
-- Private tuition: USD 150 a month. A month of one-to-one teaching on the same weekly pattern.
+First class**USD 0**
+
+A full first lesson with a level assessment, at no cost.
+
+Group tuition**USD 100**
+
+A month in a group of fifteen to twenty at one stage, about eight live lessons.
+
+Private tuition**USD 150**
+
+A month of one-to-one teaching on the same weekly pattern.
 
 Outside India every family pays the same monthly price, in US dollars. The first lesson costs nothing and commits you to nothing, payments start with the course itself, and holidays, missed lessons and a move between group and private lessons are covered on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Tramore.)Reviews
+
+## Six Google reviews from families we teach, word for word
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free first lesson in Tramore
+
+Tell us a little about the learner, their age and what they enjoy, and we will plan their first hour. It may end with a game, a small working program, or a claim checked from the data up.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Tramore one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Tramore.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Tramore coding class questions
+
+What Tramore families usually ask first.
 
 ### How many people live in Tramore?
 
@@ -227,10 +351,14 @@ The first lesson is free. After that a shared place costs USD 100 a month and br
 
 Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
+Explore Ireland
+
 ## Around Tramore
 
 The city next door has its own page, [Waterford](/best-coding-class-in-waterford), and [Clonmel](/best-coding-class-in-clonmel) is the cross-county town the claim leaves out. Both sit within [Munster](/coding-and-ai-classes-in-munster). Online coding schools are set side by side on [one comparison page](/best-online-coding-classes-ireland), and the [Ireland hub](/coding-classes-in-ireland) leads everywhere else.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Tramore.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-tramore](https://learn.modernagecoders.com/best-coding-class-in-tramore#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-tramore*

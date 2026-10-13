@@ -4,56 +4,40 @@ description: "AI and programming classes for Dubbo teens and adults, live online
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-dubbo
 source: src/pages/ai-and-programming-classes-in-dubbo.html
 ---
-> Dubbo teenagers and adults do well with classes that teach AI from the data up: Python, then cleaning and checking data, then models that learn from it. At the 2021 Census the Dubbo urban area had 40,578 residents. Every lesson is live online with a teacher, one to one or in a small matched group, and the first lesson costs nothing.
+> AI and programming classes for Dubbo teens and adults, live online: Python, machine learning and data cleaning on real local data. First lesson free.
 
-[Home](/) / [New South Wales](/coding-and-ai-classes-in-new-south-wales) / [Australia](/coding-classes-in-australia) / Dubbo
-
-Dubbo, New South Wales, Australia / Live online
-
-# AI and programming classes in Dubbo
-
-**What are the best AI and programming classes in Dubbo?** Dubbo teenagers and adults do well with classes that teach AI from the data up: Python, then cleaning and checking data, then models that learn from it. At the 2021 Census the Dubbo urban area had 40,578 residents. Every lesson is live online with a teacher, one to one or in a small matched group, and the first lesson costs nothing.
-
-Before any AI model learns from data, someone has to find the bad rows. One of the simplest tools for that is the Hampel filter: slide a window along a sequence, take the median, and flag anything that sits too far from it. We pointed one at house numbers. The NSW address map lists every numbered site in Dubbo, so we walked the filter along Darling Street and Fitzroy Street in order. On Darling Street it raised 59 alarms. Almost all of them were false, and the fix was not a cleverer threshold. It was understanding how streets are numbered.
-
-Facts last verified 8 October 2026. Teaching is online; no Dubbo branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Dubbo
 
 ## AI learning paths for the Orana region
 
 All four are taught live and use data like the address project. Book the free trial, which needs no card, and the teacher will recommend one.
 
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python from scratch, through lists and loops to programs that sort and check real data.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Machine learning for teenagers, including how messy data trips models up and how to prepare it.
-- [Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college) (University and adult): A complete AI course, from search and probability to neural networks and modern models.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (Adults): Cleaning, exploring and summarising data properly, the work that comes before any model.
+[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython from scratch, through lists and loops to programs that sort and check real data.See the syllabus](/courses/python-complete-masterclass-teens)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensMachine learning for teenagers, including how messy data trips models up and how to prepare it.See the syllabus](/courses/ai-ml-masterclass-teens)[![Artificial Intelligence Course course thumbnail](/images/ai-college.webp)University and adultArtificial Intelligence CourseA complete AI course, from search and probability to neural networks and modern models.See the syllabus](/courses/artificial-intelligence-complete-masterclass-college)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)AdultsData Analysis CourseCleaning, exploring and summarising data properly, the work that comes before any model.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Dubbo at the Census
 
 ## A young, working city in the Central West
 
 Figures for the Dubbo Significant Urban Area from the 2021 Census.
 
-**Dubbo urban area: core 2021 counts**
-
 | Measure | Dubbo |
-|---|---|
+| --- | --- |
 | Residents | 40,578 |
 | Median age | 35 |
 | Families | 10,276 |
 | Private dwellings | 16,842 |
 | Average household size | 2.5 |
 
-**How Dubbo differs from New South Wales and Australia**
-
 | Measure | Dubbo | NSW | Australia |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Children aged 0 to 4 | 3,066 (7.6%) | 5.8% | 5.8% |
 | Children aged 5 to 9 | 2,887 (7.1%) | 6.2% | 6.2% |
 | Employed people who worked full-time | 12,642 (62.9%) | 55.2% | 55.9% |
@@ -76,23 +60,21 @@ NSW place names within the urban area include Dubbo, North Dubbo, South Dubbo, W
 
 Census cells are randomly adjusted by small amounts to protect privacy, so details may not sum to totals. We print the bureau's published figures without change.
 
+Signature project
+
 ## Can an outlier detector find odd house numbers?
 
 Order every address point along the street, read off the house numbers, and ask the Hampel filter which ones look wrong.
 
-**The two Dubbo streets in the NSW address points (our counts, extracted 8 October 2026)**
-
 | Item | Darling Street | Fitzroy Street |
-|---|---|---|
+| --- | --- | --- |
 | Address points | 328 | 444 |
 | Distinct numbered sites after merging duplicates | 212 | 311 |
 | Approximate length covered | 3.3 km | 5.7 km |
 | Highest odd and even numbers | 363 and 272 | 411 and 434 |
 
-**Hampel flags, window of 5 either side, threshold 3 (our calculation)**
-
 | How the numbers are fed in | Darling Street flags | Fitzroy Street flags |
-|---|---|---|
+| --- | --- | --- |
 | Both sides mixed in one sequence | 59 | 6 |
 | Odd side only | 2 of 106 sites | 0 of 147 sites |
 | Even side only | 0 of 106 sites | 3 of 164 sites |
@@ -116,6 +98,8 @@ On Darling Street the odd side reaches 363 while the even side stops at 272, so 
 
 A flag means "worth checking", not "wrong": a number can be unusual for good reasons, such as a corner block or a renumbered lot. We publish counts only, never individual addresses. Address data (c) Spatial Services; every count and flag is our own calculation.
 
+From filter to AI
+
 ## Why data cleaning is AI work
 
 Most real AI projects spend more time on this step than on the model.
@@ -136,6 +120,8 @@ Learn to look at how data is organised before cleaning it, and to report flags a
 
 Modern Age Coders has no affiliation with Spatial Services, the NSW Government, Dubbo Regional Council or the statistics bureau. The bureau supplied the Census tables; the ordering, filtering and every flag count came from our own Python.
 
+Dubbo planner
+
 ## NSW terms in 2027 and lesson clocks
 
 Useful dates for planning a regular slot from Dubbo.
@@ -152,14 +138,37 @@ Term 3 of 2027 runs from Monday 19 July to Friday 24 September, then two weeks o
 
 Term 4 of 2027 is Monday 11 October to Monday 20 December. Daylight saving in NSW starts on the first Sunday in October.
 
+Learning ladder
+
 ## From sorting a list to cleaning data for models
 
 The ages are a starting point; the free lesson sets the real level.
 
-- **Ages 13 to 14: Lists and order** Python that sorts, finds medians and spots the odd one out in a short list. [Python for Teens](/courses/python-complete-masterclass-teens), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 15 to 18: Learning from data** First machine learning models and the data preparation that decides whether they work. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Statistics & Probability](/courses/statistics-probability-maths-course)
-- **University: Robust methods** Robust statistics, anomaly detection and evaluating models when the data is messy. [Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college), [Data Science Course](/courses/data-science-complete-masterclass-college)
-- **Adults: Clean data at work** Spreadsheets and databases checked with code, with problems reported clearly to colleagues. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [MySQL Course](/courses/mysql-database-complete-masterclass-college)
+Ages 13 to 14
+
+### Lists and order
+
+Python that sorts, finds medians and spots the odd one out in a short list.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Maths Through Coding](/courses/maths-through-coding)Ages 15 to 18
+
+### Learning from data
+
+First machine learning models and the data preparation that decides whether they work.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Statistics & Probability](/courses/statistics-probability-maths-course)University
+
+### Robust methods
+
+Robust statistics, anomaly detection and evaluating models when the data is messy.
+
+[Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college)[Data Science Course](/courses/data-science-complete-masterclass-college)Adults
+
+### Clean data at work
+
+Spreadsheets and databases checked with code, with problems reported clearly to colleagues.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[MySQL Course](/courses/mysql-database-complete-masterclass-college)Coding and AI
 
 ## AI tools can clean data automatically. Why should Dubbo learners know how?
 
@@ -171,30 +180,139 @@ Our Dubbo learners build the filter themselves, run it on real streets, and then
 
 Models learn from whatever they are given; the person who cleans the data decides what that is. The longer argument is in [why coding still matters in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How Dubbo lessons work
 
 Every class is a live video lesson, so distance from a big city is no obstacle.
 
-- **At home** Learners connect from their own desk; there is no long drive to Sydney or Orange for a class.
-- **Fits NSW school** Teachers plan with NSW year levels in mind and work around the state's four terms. Everything is taught in English.
-- **Trial first** A real, free first lesson ends with a recommended course and a weekly time that suits.
-- **Matched groups** Fifteen to twenty learners at the same level, gathered from Dubbo and elsewhere so each group stays full.
-- **Twice weekly** A learner meets the class on two set days each week, which comes to roughly eight sessions in a month.
-- **Teachers in India** India time is five and a half hours behind Dubbo during daylight saving and four and a half hours behind for the rest of the year.
+### At home
 
-**Times in Dubbo time** We always book in Dubbo time, so when NSW clocks change the adjustment is ours to make.
+Learners connect from their own desk; there is no long drive to Sydney or Orange for a class.
+
+### Fits NSW school
+
+Teachers plan with NSW year levels in mind and work around the state's four terms. Everything is taught in English.
+
+### Trial first
+
+A real, free first lesson ends with a recommended course and a weekly time that suits.
+
+### Matched groups
+
+Fifteen to twenty learners at the same level, gathered from Dubbo and elsewhere so each group stays full.
+
+### Twice weekly
+
+A learner meets the class on two set days each week, which comes to roughly eight sessions in a month.
+
+### Teachers in India
+
+India time is five and a half hours behind Dubbo during daylight saving and four and a half hours behind for the rest of the year.
+
+Times in Dubbo time
+
+We always book in Dubbo time, so when NSW clocks change the adjustment is ours to make.
+
+Fees
 
 ## Dubbo class fees
 
 The pricing is short and the same across Australia.
 
-- First class: USD 0. Your first lesson is free, with a level, course and weekly time suggested at the end.
-- Group tuition: USD 100 a month. A month of group classes, about eight, with fifteen to twenty learners at the same stage.
-- Private tuition: USD 150 a month. About eight private lessons a month with your own teacher.
+First class**USD 0**
+
+Your first lesson is free, with a level, course and weekly time suggested at the end.
+
+Group tuition**USD 100**
+
+A month of group classes, about eight, with fifteen to twenty learners at the same stage.
+
+Private tuition**USD 150**
+
+About eight private lessons a month with your own teacher.
 
 Outside India we charge in US dollars, and Dubbo pays the same as every other Australian town. You are billed only once the trial has settled what and when you will study, and our pricing page deals with holidays, absences and moving from group to private or back.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20Dubbo.)Reviews
+
+## Families who reviewed us on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free AI lesson in Dubbo
+
+Give us the learner's age and interests. A beginner might start by sorting lists in Python; someone further on might run the Hampel filter along a Dubbo street.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Dubbo one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20Dubbo.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Dubbo AI class questions
+
+Answers to what Dubbo families and adults ask most often.
 
 ### What is a Hampel filter?
 
@@ -236,10 +354,14 @@ The first lesson is free. Then a group place is USD 100 a month for two live les
 
 Between five and ten, matched by level and goals rather than age or location. If no group time works, we offer one-to-one lessons.
 
+Explore Australia
+
 ## Further reading from the Central West
 
 The state guide is [coding and AI classes in New South Wales](/coding-and-ai-classes-in-new-south-wales). To go beyond prompting, read [learn to train AI, not just prompt it](/learn-to-train-ai-not-just-prompt-it-australia), and for younger teens see [AI classes for teens in Australia](/ai-classes-for-teens-australia). All Australian pages are on the [Australia coding hub](/coding-classes-in-australia).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20Dubbo.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-dubbo](https://learn.modernagecoders.com/ai-and-programming-classes-in-dubbo#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-dubbo*

@@ -4,34 +4,28 @@ description: "Preparing for the Perse Coding Team Challenge: pairs on one comput
 canonical: https://learn.modernagecoders.com/perse-coding-team-challenge-preparation
 source: src/pages/perse-coding-team-challenge-preparation.html
 ---
-> The Perse Coding Team Challenge runs from The Perse School and is "open to UK pupils up to Year 11 (S4 in Scotland) and is free to enter". Round 1 falls between 25 January and 5 February 2027 and is sat in "pairs (or solo, if necessary) sharing one computer" for "40 minutes". Round 2 runs from 1 to 12 March 2027 in "teams of up to three", with "a maximum of two Years 11 students allowed per team", for "60 minutes", across a four-level format from basic text and number processing up to algorithmic complexity, where "every question is worth an equal ten points each". A Sixth Form Gold Rush follows from 15 to 19 March 2027: six questions from Round 2 material, solo, in 50 minutes. Teams may code in "Python, C++, C#, Java, JavaScript and Visual Basic.Net" and may bring up to 20 A4 sides of code snippets. We teach the programming, live online. The first class is free; a group place is USD 100 a month and one-to-one teaching USD 150.
+> Preparing for the Perse Coding Team Challenge: pairs on one computer for 40 minutes, teams of three for 60, six languages, and hidden test cases.
 
-[Home](/) / [Courses](/courses) / [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar) / Perse Coding Team Challenge
+In short
 
-United Kingdom · Up to Year 11 · January to March 2027
+The Perse Coding Team Challenge runs from The Perse School and is "open to UK pupils up to Year 11 (S4 in Scotland) and is free to enter". Round 1 falls between 25 January and 5 February 2027 and is sat in "pairs (or solo, if necessary) sharing one computer" for "40 minutes". Round 2 runs from 1 to 12 March 2027 in "teams of up to three", with "a maximum of two Years 11 students allowed per team", for "60 minutes", across a four-level format from basic text and number processing up to algorithmic complexity, where "every question is worth an equal ten points each". A Sixth Form Gold Rush follows from 15 to 19 March 2027: six questions from Round 2 material, solo, in 50 minutes. Teams may code in "Python, C++, C#, Java, JavaScript and Visual Basic.Net" and may bring up to 20 A4 sides of code snippets. We teach the programming, live online. The first class is free; a group place is USD 100 a month and one-to-one teaching USD 150.
 
-# Perse Coding Team Challenge preparation
-
-Two pupils, one computer, forty minutes. That is the first round of the Perse Coding Team Challenge, and the shared keyboard is not a limitation the organisers apologise for: it is the competition. A pair who both type produce half a program each; a pair who talk produce one that works. Round two stretches to teams of three and an hour, and the questions climb through four levels from basic text handling to genuine algorithmic complexity. The whole thing is free, it is open to any UK pupil up to Year 11, and it is marked by a machine that will tell a team how many hidden tests they failed without ever telling them which.
-
-At a glance: Organiser: The Perse School; For: UK pupils up to Year 11, S4 in Scotland; Cost: Free to enter; Round 1: Pairs, one computer, 40 minutes; Round 2: Teams of three, 60 minutes; Levels: Four, from text handling to complexity; Languages: Six, including Python; Marking: Automatic, on hidden tests. Rated 4.9 across 547 Google reviews.
+Where to start
 
 ## Three courses for a coding team
 
 The level a pupil should work at is set by what they can debug alone, not by their year group.
 
-- [Python and AI for kids](/courses/python-ai-kids-masterclass): For Years 6 to 8: a first typed language, taught until a program can be read back before it runs.
-- [Python from start to finish](/courses/python-complete-masterclass-teens): The main route: strings, lists, loops and functions until they are automatic under a clock.
-- [Algorithms and data structures](/courses/problem-solving-dsa-masterclass-teens): For the Level 3 and Level 4 questions, where a working answer is not yet a fast one.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  PCT / 01 Python and AI for kids For Years 6 to 8: a first typed language, taught until a program can be read back before it runs. Open the syllabus →](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)  PCT / 02 Python from start to finish The main route: strings, lists, loops and functions until they are automatic under a clock. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)  PCT / 03 Algorithms and data structures For the Level 3 and Level 4 questions, where a working answer is not yet a fast one. Open the syllabus →](/courses/problem-solving-dsa-masterclass-teens)
+
+The two rounds
 
 ## Forty minutes in pairs, then an hour in threes
 
 Facts read at the organiser's own pages on 20 September 2026.
 
-**The Perse Coding Team Challenge as the organiser describes it**
-
-|  | Round 1 | Round 2 | Sixth Form Gold Rush |
-|---|---|---|---|
+|   | Round 1 | Round 2 | Sixth Form Gold Rush |
+| --- | --- | --- | --- |
 | 2027 dates | 25 January to 5 February | 1 to 12 March | 15 to 19 March |
 | Who sits it | "pairs (or solo, if necessary) sharing one computer" | "teams of up to three", with "a maximum of two Years 11 students allowed per team" | Solo, for older students |
 | Length | "40 minutes" | "60 minutes" | "50 minutes" |
@@ -49,19 +43,19 @@ That equal scoring is a strategy in itself. In a competition where all questions
 
 Sources: [Perse Coding Team Challenge](https://pctc.perse.co.uk/) and its [competition information](https://pctc.perse.co.uk/coding-competition/), read 20 September 2026. Modern Age Coders is not connected with The Perse School or the challenge.
 
+The method
+
 ## You are told that you failed, not why
 
 The organiser marks automatically and gives "feedback regarding the number of test cases passed or failed", while "the test cases themselves are not shown". That one rule decides how a team should work.
 
 Imagine a question asking for **the second largest number in a list**. In Python the obvious answer is one line: sort the list and take the second from the end. A team writes it in fifteen seconds, submits, and is told that it passed four of seven tests. Now what? They cannot see the three that failed. They can guess, or they can have a checklist.
 
-**Our run of 20 September 2026: the one-line answer against a checklist written from the question alone**
-
 | The case | The list | What the one-liner does |
-|---|---|---|
+| --- | --- | --- |
 | The ordinary case | 3, 9, 4, 1 | Returns 4, correct |
 | Already in order | 1, 2, 3 | Returns 2, correct |
-| All negative | &minus;5, &minus;2, &minus;9 | Returns &minus;5, correct |
+| All negative | −5, −2, −9 | Returns −5, correct |
 | Two equal at the top | 9, 9, 4 | Returns 9: the largest again. Is that what the question wanted? |
 | Every value the same | 7, 7, 7 | Returns 7, for the same reason |
 | One item | 4 | Crashes |
@@ -89,14 +83,14 @@ A pupil who enjoys this side of programming should look at the [British Informat
 
 The task, the checklist and the run are ours, written and executed on 20 September 2026. No Perse Coding Team Challenge question is reproduced; the organiser publishes its own past papers and solutions.
 
+The twenty sides
+
 ## You may bring notes, so bring the right ones
 
 The organiser allows "up to 20 A4 sides (10 double-sided pages) of printed or digital code snippets". Most teams either ignore that or fill it with the wrong thing.
 
-**What belongs in twenty sides of notes, and what does not**
-
 | Worth the space | Why | Not worth it |
-|---|---|---|
+| --- | --- | --- |
 | Reading input and printing output in your language | Every question begins and ends with it, and it is the commonest thing to forget under pressure | Long tutorials on syntax already known |
 | String handling: split, join, slice, case | Level 1 and 2 questions are mostly text manipulation | Whole language reference pages |
 | Sorting with a custom key, and reversing | Appears constantly and is easy to get subtly wrong | Theory about sorting algorithms |
@@ -111,14 +105,14 @@ It is worth remembering that submissions can be repeated and the highest-scoring
 
 And the whole competition is free, which is unusual enough to say plainly. A school needs a room, some computers and a teacher willing to register, and nothing else.
 
+Getting ready
+
 ## Four rungs to a team that finishes
 
 Level is set by what a pupil can fix alone, not by what they can write with help.
 
-**From a first program to a checked submission**
-
 | Stage | Rung | The sign it is secure |
-|---|---|---|
+| --- | --- | --- |
 | Years 5 to 7 | 1. A program that runs | Writes and fixes twenty lines without a template |
 | Years 7 to 9 | 2. Text and numbers | Splits, joins and converts without looking anything up |
 | Years 9 to 10 | 3. The checklist habit | Invents awkward inputs before submitting, unprompted |
@@ -127,71 +121,321 @@ Level is set by what a pupil can fix alone, not by what they can write with help
 ### If round one is close
 
 Practise in pairs on one computer, with the non-typing pupil reading the question aloud and listing the awkward cases. That is the round.
+
 Build the twenty sides from whatever the team actually looks up in practice, not from a template found online.
 
 ### After the challenge
 
 The [British Informatics Olympiad](/british-informatics-olympiad-preparation) is the next step for a pupil who liked the hidden tests.
+
 The [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar) has every other contest open to a UK pupil.
+
+The full list
 
 ## Programming courses for a challenge team
 
 Sorted by what a pupil can already do alone, with each syllabus a click away.
 
+I
+
 ### Before typing
 
 Ages 6 to 11
 
-- [Scratch for kids](/courses/scratch-programming-complete-course): Loops, conditions and variables in a visual language.
-- [Coding for kids, blocks to AI](/courses/kids-coding-blocks-masterclass): Games and apps, then a first look at AI.
-- [Maths through coding](/courses/maths-through-coding): Programs that check whether a method works.
+PCT / A / 01
+
+#### Scratch for kids
+
+Loops, conditions and variables in a visual language.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)
+
+PCT / A / 02
+
+#### Coding for kids, blocks to AI
+
+Games and apps, then a first look at AI.
+
+[Open the syllabus](/courses/kids-coding-blocks-masterclass)
+
+PCT / A / 03
+
+#### Maths through coding
+
+Programs that check whether a method works.
+
+[Open the syllabus](/courses/maths-through-coding)II
 
 ### The competition language
 
 Ages 10 to 16
 
-- [Python and AI for kids](/courses/python-ai-kids-masterclass): A first typed language, taught patiently.
-- [Python from start to finish](/courses/python-complete-masterclass-teens): Strings, lists and functions until they are automatic.
-- [Java for teens](/courses/java-programming-masterclass-for-teens): For schools and teams that work in Java.
+PCT / B / 01
+
+#### Python and AI for kids
+
+A first typed language, taught patiently.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)
+
+PCT / B / 02
+
+#### Python from start to finish
+
+Strings, lists and functions until they are automatic.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+PCT / B / 03
+
+#### Java for teens
+
+For schools and teams that work in Java.
+
+[Open the syllabus](/courses/java-programming-masterclass-for-teens)III
 
 ### Levels three and four
 
 Where speed matters
 
-- [Algorithms and data structures](/courses/problem-solving-dsa-masterclass-teens): Searching, sorting and how long a method takes.
-- [Competitive programming](/courses/competitive-programming-for-teens-course): Correctness under a clock, against hidden tests.
-- [GCSE Computer Science](/courses/gcse-computer-science-course): Taught to the board the school uses.
+PCT / C / 01
+
+#### Algorithms and data structures
+
+Searching, sorting and how long a method takes.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
+
+PCT / C / 02
+
+#### Competitive programming
+
+Correctness under a clock, against hidden tests.
+
+[Open the syllabus](/courses/competitive-programming-for-teens-course)
+
+PCT / C / 03
+
+#### GCSE Computer Science
+
+Taught to the board the school uses.
+
+[Open the syllabus](/courses/gcse-computer-science-course)IV
 
 ### Building things
 
 For pupils who want more than contests
 
-- [Full stack web development](/courses/full-stack-web-development-teens-masterclass): A site with its own database, built in slices.
-- [AI and machine learning for teens](/courses/ai-ml-masterclass-teens): Models built and evaluated honestly.
-- [App development](/courses/complete-app-development-masterclass-for-teens): Interfaces, events and state.
+PCT / D / 01
+
+#### Full stack web development
+
+A site with its own database, built in slices.
+
+[Open the syllabus](/courses/full-stack-web-development-teens-masterclass)
+
+PCT / D / 02
+
+#### AI and machine learning for teens
+
+Models built and evaluated honestly.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+PCT / D / 03
+
+#### App development
+
+Interfaces, events and state.
+
+[Open the syllabus](/courses/complete-app-development-masterclass-for-teens)
+
+How lessons run
 
 ## Weekly programming, with the awkward inputs written first
 
 Lessons are live on video from India, five and a half hours ahead of the UK in winter and four and a half in summer, at a time fixed in UK time.
 
-- **Early weekday evening** For pupils in Years 6 to 9.
-- **Later weekday evening** For Year 10 and 11 teams.
-- **Weekend morning** For a full practice round, start to finish.
+Early weekday evening
 
-- **Checklist before submit** Every task starts by listing the awkward inputs, before a line of code is written.
-- **One keyboard practice** We run pair tasks the way round one does, with one pupil typing and one reading.
-- **Fifteen to twenty learners** Enough for two solutions to be compared, small enough for every program to be looked at.
-- **Our own tasks** Written by us in the same style. The organiser publishes its own past papers.
-- **One to one when useful** For a pupil working well above their year, or one with a specific gap.
-- **Nothing promised** We cannot register a team and promise no score, certificate or prize.
+For pupils in Years 6 to 9.
+
+Later weekday evening
+
+For Year 10 and 11 teams.
+
+Weekend morning
+
+For a full practice round, start to finish.
+
+### Checklist before submit
+
+Every task starts by listing the awkward inputs, before a line of code is written.
+
+### One keyboard practice
+
+We run pair tasks the way round one does, with one pupil typing and one reading.
+
+### Fifteen to twenty learners
+
+Enough for two solutions to be compared, small enough for every program to be looked at.
+
+### Our own tasks
+
+Written by us in the same style. The organiser publishes its own past papers.
+
+### One to one when useful
+
+For a pupil working well above their year, or one with a specific gap.
+
+### Nothing promised
+
+We cannot register a team and promise no score, certificate or prize.
+
+Student work
+
+## What our students build
+
+Four published projects by students at our school, built outside any competition. More on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 A single monthly rate in US dollars for families outside India, with no registration fee and no minimum term.
 
-- Free first class: USD 0. A full lesson on a real task. A straight read on the right level. No card details taken.
-- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher weekly. Code read line by line. A certificate at the end.
-- One to one: USD 150 a month. A teacher working with one learner. Shaped around the specific weakness. Useful in the weeks before a round.
+Free first class
+
+USD 0
+
+no card required
+
+- A full lesson on a real task
+- A straight read on the right level
+- No card details taken
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners at one level
+- The same teacher weekly
+- Code read line by line
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher working with one learner
+- Shaped around the specific weakness
+- Useful in the weeks before a round
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Reviews families have left on Google, printed as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Perse Coding Team Challenge questions
 
 ## What teachers and parents ask
 
@@ -235,15 +479,54 @@ The organiser describes a four-level format running from Level 1, basic text and
 
 The first lesson is free. A group place is then USD 100 a month and one-to-one teaching USD 150, with nothing to pay to register.
 
+Related pages
+
 ## Other coding contests for school pupils
 
-- [UK Bebras Challenge](/bebras-computational-thinking-challenge-practice-uk): No programming at all, and half a million entrants.
-- [Oxford University Computing Challenge](/oxford-university-computing-challenge-preparation): The coding round that follows Bebras.
-- [British Informatics Olympiad](/british-informatics-olympiad-preparation): Three hours, three questions, hidden tests.
-- [UK competitions calendar 2026-27](/uk-coding-maths-and-ai-competitions-calendar): Dates for every contest, checked with the people who run them.
-- [Coding classes in the UK](/coding-classes-in-united-kingdom): The four school systems, and every UK page.
-- [GCSE Computer Science tutoring](/uk-gcse-computer-science-tutoring): The qualification most of these pupils are heading for.
+What comes before this one, what comes after, and where the whole year is listed.
 
-## Contact
+### [UK Bebras Challenge](/bebras-computational-thinking-challenge-practice-uk)
 
-Book the free first class at [https://learn.modernagecoders.com/perse-coding-team-challenge-preparation](https://learn.modernagecoders.com/perse-coding-team-challenge-preparation#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+No programming at all, and half a million entrants.
+
+### [Oxford University Computing Challenge](/oxford-university-computing-challenge-preparation)
+
+The coding round that follows Bebras.
+
+### [British Informatics Olympiad](/british-informatics-olympiad-preparation)
+
+Three hours, three questions, hidden tests.
+
+### [UK competitions calendar 2026-27](/uk-coding-maths-and-ai-competitions-calendar)
+
+Dates for every contest, checked with the people who run them.
+
+### [Coding classes in the UK](/coding-classes-in-united-kingdom)
+
+The four school systems, and every UK page.
+
+### [GCSE Computer Science tutoring](/uk-gcse-computer-science-tutoring)
+
+The qualification most of these pupils are heading for.
+
+Start here
+
+## Book a free programming lesson
+
+Tell us the year group and which language the team codes in. The free lesson is a real task, checklist and all, and we say afterwards what we saw.
+
+Rather read first? Syllabuses sit on the [course pages](/courses), the method on [how we teach](/how-we-teach), and the order of topics on the [roadmap](/coding-roadmap).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20entering%20the%20Perse%20Coding%20Team%20Challenge%20and%20I%20would%20like%20a%20free%20class.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp costs a UK mobile nothing and usually reaches us first. Our number is an Indian one, which we state on every page, and there is no British office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/perse-coding-team-challenge-preparation*

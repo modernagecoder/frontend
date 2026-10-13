@@ -26,7 +26,7 @@ No card. No obligation. We call, we do not spam.
 
 Facts last verified 17 August 2026. Teaching is online; no premises in Brunei are claimed.
 
-10,000+students taught4.9across 547 Google reviews2020teaching since25+countries6 to 67ages taught5 to 8students per groupCourses for Liang and Lumut
+10,000+students taught4.9across 547 Google reviews2020teaching since25+countries6 to 67ages taught15 to 20students per groupCourses for Liang and Lumut
 
 ## Four sensible starting points, not one course for everybody
 

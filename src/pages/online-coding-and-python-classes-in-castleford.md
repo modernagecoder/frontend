@@ -4,46 +4,32 @@ description: "Online coding, Python, AI and vibe coding classes for Castleford, 
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-castleford
 source: src/pages/online-coding-and-python-classes-in-castleford.html
 ---
-> At the 2021 census the ONS counted 45,355 people in the Castleford built-up area and 353,368 in the City of Wakefield district. Airedale, Whitwood, Cutsyke, Half Acres, Wheldale, Townville, Whitwood Mere and New Fryston appear in postcodes.io as suburban areas whose nearest postcode is inside that built-up area. We teach coding, Python, AI, vibe coding and maths to anyone from six to 67 on live video, with tutors based in India, either one-to-one or in a class of fifteen to twenty learners who have reached the same point. The teaching aims at understanding: a learner should be able to predict what a loop will do before running it. In the Castleford project Python hides patches of a real height map and refills them by averaging, and learners find out that the obvious rule for when to stop gives an answer that looks finished and is not. The first lesson is free and closes with a course recommendation. After that, monthly fees are USD 100 for group lessons and USD 150 for private ones.
+> Online coding, Python, AI and vibe coding classes for Castleford, Airedale, Whitwood, Cutsyke and Half Acres, taught live for ages 6 to 67. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Yorkshire and the Humber](/coding-and-ai-classes-in-yorkshire-and-the-humber) / Castleford
-
-Castleford, City of Wakefield, West Yorkshire / Live online
-
-# Online coding and Python classes in Castleford
-
-**Which online coding and Python classes suit Castleford learners best?** At the 2021 census the ONS counted 45,355 people in the Castleford built-up area and 353,368 in the City of Wakefield district. Airedale, Whitwood, Cutsyke, Half Acres, Wheldale, Townville, Whitwood Mere and New Fryston appear in postcodes.io as suburban areas whose nearest postcode is inside that built-up area. We teach coding, Python, AI, vibe coding and maths to anyone from six to 67 on live video, with tutors based in India, either one-to-one or in a class of fifteen to twenty learners who have reached the same point. The teaching aims at understanding: a learner should be able to predict what a loop will do before running it. In the Castleford project Python hides patches of a real height map and refills them by averaging, and learners find out that the obvious rule for when to stop gives an answer that looks finished and is not. The first lesson is free and closes with a course recommendation. After that, monthly fees are USD 100 for group lessons and USD 150 for private ones.
-
-Here is a rule a ten-year-old can follow: to guess a missing number in a grid, take the average of the four numbers around it. Now suppose a whole block of numbers is missing. Each guess depends on its neighbours, which are guesses too. The way out is to sweep through the block again and again, updating every guess from its neighbours, until nothing changes. Mathematicians call this relaxation, and the order in which you update turns out to matter enormously. Castleford makes a good test because its height map, from the EU-DEM model, runs from under 6 m to nearly 75 m within a single 3 km square.
-
-Facts last verified 30 September 2026. Teaching is online; no Castleford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentChoosing a course
 
 ## Coding, Python and AI courses for Castleford
 
 Match a course to the learner's age. Every one starts with a free live lesson, reserved without payment details.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): How to think: fill the blanks in a number grid so every square is the average of its neighbours.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Get an AI to draft a Scratch game with a hidden map, then check where its guesses go wrong.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python through loops, arrays and numerical methods, with the Castleford height map as a project.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Web and Python projects built alongside an AI assistant, with every result checked against the data.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsHow to think: fill the blanks in a number grid so every square is the average of its neighbours.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsGet an AI to draft a Scratch game with a hidden map, then check where its guesses go wrong.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython through loops, arrays and numerical methods, with the Castleford height map as a project.See the syllabus](/courses/python-complete-masterclass-teens)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensWeb and Python projects built alongside an AI assistant, with every result checked against the data.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Wakefield district
 
 ## Castleford and the other towns of the district
 
 Five built-up areas that lie wholly inside the City of Wakefield district, with their 2021 populations.
 
-**Built-up areas wholly inside the City of Wakefield district, residents at the 2021 census (ONS)**
-
 | Built-up area | Residents |
-|---|---|
+| --- | --- |
 | Wakefield | 97,870 |
 | Castleford | 45,355 |
 | Pontefract | 32,975 |
@@ -56,6 +42,8 @@ These are the ONS's published figures, printed as they stand and never added tog
 
 The county page is [coding classes in West Yorkshire](/coding-classes-in-west-yorkshire), and the regional page is [Yorkshire and the Humber](/coding-and-ai-classes-in-yorkshire-and-the-humber). Why every course puts thinking ahead of tools is set out in [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Castleford project
+
 ## Relaxation in Python: Jacobi, Gauss-Seidel and over-relaxation
 
 Hide part of a real height map, refill it by averaging, and measure how fast and how well each method works.
@@ -64,20 +52,16 @@ The grid comes from the OpenTopoData service, which serves the Copernicus EU-DEM
 
 The rule for every missing point is the same: become the average of your four neighbours. There is exactly one set of numbers that satisfies it everywhere at once, and Python can find it directly with a sparse matrix solver, which gives us a reference answer to measure against. The interesting part is getting there by sweeping. Jacobi's method updates every point from the old values of its neighbours. Gauss-Seidel uses each new value the moment it is computed. Successive over-relaxation, or SOR, does the same but deliberately overshoots each update by a factor, here 1.729, the figure theory recommends for a hole of this size.
 
-**Sweeps needed across the nine hidden blocks (our Python, EU-DEM heights)**
-
 | Method | Sweeps to get within 1 cm of the exact fill | Where "stop when nothing moves 1 cm" stops | How far off it still is then |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Jacobi | 219 to 356 | 45 to 135 | 0.27 to 0.43 m |
 | Gauss-Seidel | 111 to 214 | 33 to 84 | 0.16 to 0.30 m |
 | SOR, factor 1.729 | 24 to 40 | 23 to 41 | no more than 0.01 m |
 
 Two lessons come out of that table. The first is speed. On average Gauss-Seidel needed about half the sweeps of Jacobi, and SOR needed about a fifth of Gauss-Seidel's. One line of code, multiplying each correction by 1.729, cut the work by that much. The second lesson is subtler and more useful. The natural stopping rule, quit when no point moves by more than a centimetre, is badly wrong for the slow methods. Jacobi's updates shrink to a centimetre while its answer is still up to 43 cm from where it will end up; each step is small only because the method is slow, not because it has arrived. SOR is the only one of the three for which small steps really do mean done.
 
-**How close the refilled heights come to the real ones (our comparison)**
-
 | Fill | Error per block, root mean square | Closer of the two |
-|---|---|---|
+| --- | --- | --- |
 | Relaxation from the ring | 1.25 to 4.74 m | 9 blocks of 9 |
 | Every hole set to the ring's average | 1.96 to 16.71 m | 0 blocks of 9 |
 
@@ -99,14 +83,14 @@ Use NumPy on the real heights, add Gauss-Seidel and SOR, and design a stopping r
 
 Heights from the EU-DEM v1.1 model through the OpenTopoData API, produced using Copernicus data and information funded by the European Union. A 25 m elevation model smooths buildings and banks, and our points are about 50 m apart, so none of these figures describes a particular street. The holes, the fills and every count above come from our own code.
 
+Knowing when to stop
+
 ## What averaging a height map teaches about AI and vibe coding
 
 A process that has stopped changing much has not necessarily reached the right answer.
 
-**From Castleford's grid to AI work**
-
 | In the project | In AI and vibe coding |
-|---|---|
+| --- | --- |
 | Jacobi 0.43 m off when its steps were tiny | Small changes can mean slow progress, not arrival |
 | SOR 1.729 cut sweeps about fivefold | A well-chosen setting can matter more than more computing |
 | An exact solver to compare against | Keep a trusted answer to test the fast one |
@@ -117,14 +101,37 @@ Training a neural network is also an iterative process, and people stop it when 
 
 This page is our own work. OpenTopoData, the Copernicus programme, the Office for National Statistics and postcodes.io have not reviewed it and are named only as sources of open data.
 
+Stages
+
 ## From number grids to numerical methods
 
 School years give a rough starting point; the free lesson tells us more.
 
-- **Years 1 to 6: How to think** Averages, patterns and puzzles that settle down step by step. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Games drafted with an AI and then tested for mistakes. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python and numerical work** Loops, arrays and methods that converge, in step with GCSE and A level. [Python for Teens](/courses/python-complete-masterclass-teens), [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)
-- **Adults: Python for real problems** Sound Python, then data structures, algorithms and generative AI. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)
+Years 1 to 6
+
+### How to think
+
+Averages, patterns and puzzles that settle down step by step.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Games drafted with an AI and then tested for mistakes.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python and numerical work
+
+Loops, arrays and methods that converge, in step with GCSE and A level.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)Adults
+
+### Python for real problems
+
+Sound Python, then data structures, algorithms and generative AI.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)Python and iteration
 
 ## What is the relaxation method in programming?
 
@@ -136,30 +143,139 @@ Stopping as soon as no height moved more than 1 cm left Jacobi's answers up to 0
 
 Castleford teenagers who have caught a loop looking finished too early bring that suspicion to every AI result they meet. It comes from writing and testing the loop themselves, which is one more reason to learn to code in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Practical details
+
 ## Airedale, Whitwood and Cutsyke, one online class
 
 The learner needs a computer, a webcam and a connection that can carry video.
 
-- **Hands on the keyboard** The learner writes and runs everything; the tutor watches the shared screen and questions.
-- **Level found first** The trial shows us what the learner can already do and which board they sit.
-- **No-cost first lesson** A full lesson with no card required, ending in our recommendation.
-- **Groups of equals** Fifteen to twenty learners at one stage, recruited nationally.
-- **Two sessions a week** We skip whatever holiday weeks you list.
-- **Fixed through the year** Clock changes are handled at our end, so the lesson time stays put.
+### Hands on the keyboard
 
-**Why the class is online** Learners at exactly the same stage are spread thinly across any one district. Online, the whole country is the pool.
+The learner writes and runs everything; the tutor watches the shared screen and questions.
+
+### Level found first
+
+The trial shows us what the learner can already do and which board they sit.
+
+### No-cost first lesson
+
+A full lesson with no card required, ending in our recommendation.
+
+### Groups of equals
+
+Fifteen to twenty learners at one stage, recruited nationally.
+
+### Two sessions a week
+
+We skip whatever holiday weeks you list.
+
+### Fixed through the year
+
+Clock changes are handled at our end, so the lesson time stays put.
+
+Why the class is online
+
+Learners at exactly the same stage are spread thinly across any one district. Online, the whole country is the pool.
+
+Fees
 
 ## Castleford lesson fees
 
 Castleford pays our international rates, which apply everywhere except India.
 
-- First class: USD 0. One full live lesson, free, ending with our course advice.
-- Group tuition: USD 100 a month. About eight group lessons in a month.
-- Private tuition: USD 150 a month. About eight private lessons in a month.
+First class**USD 0**
+
+One full live lesson, free, ending with our course advice.
+
+Group tuition**USD 100**
+
+About eight group lessons in a month.
+
+Private tuition**USD 150**
+
+About eight private lessons in a month.
 
 Fees are in US dollars only, with no sterling figure. Billing begins after the trial, when a course and a regular time are settled. The pricing page covers holidays, missed sessions and moving between formats.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20or%20Python%20lesson%20for%20a%20learner%20in%20Castleford.)Reviews
+
+## Google reviews from Yorkshire families and learners across the UK
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Reserve a free Castleford lesson
+
+Give us an age or school year and something the learner enjoys. The trial could be a number-grid puzzle, a Scratch game drafted with AI, first steps in Python, or a first numerical method.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Castleford one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20or%20Python%20lesson%20for%20a%20learner%20in%20Castleford.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Castleford FAQs
+
+The relaxation project, Python, AI, vibe coding and how lessons work.
 
 ### What is the population of Castleford?
 
@@ -201,10 +317,14 @@ Nothing for lesson one; from then on USD 100 monthly as part of a class, or USD 
 
 They can. Tell us the dates and we will pause.
 
+Around West Yorkshire
+
 ## Other West Yorkshire and Yorkshire pages
 
 Different projects run on the pages for [Wakefield](/best-coding-class-in-wakefield), [Dewsbury](/ai-and-programming-classes-in-dewsbury) and [Keighley](/vibe-coding-and-ai-agents-classes-in-keighley), and the county has its own page at [West Yorkshire](/coding-classes-in-west-yorkshire). The [UK hub](/coding-classes-in-united-kingdom) lists the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Chat on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20or%20Python%20lesson%20for%20a%20learner%20in%20Castleford.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/online-coding-and-python-classes-in-castleford](https://learn.modernagecoders.com/online-coding-and-python-classes-in-castleford#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-castleford*

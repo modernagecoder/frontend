@@ -4,34 +4,28 @@ description: "Help with primary Digital Technologies coding in Australia: what A
 canonical: https://learn.modernagecoders.com/digital-technologies-primary-coding-help
 source: src/pages/digital-technologies-primary-coding-help.html
 ---
-> Primary Digital Technologies builds coding in three steps. By Year 2 children follow and describe algorithms with steps and branching. By Year 4 they implement simple algorithms as visual programs with branching and iteration. By Year 6 they design algorithms with complex branching and iteration and build visual programs that include variables. Throughout, they define problems with user stories and judge solutions against design criteria.
+> Help with primary Digital Technologies coding in Australia: what ACARA's Version 9.0 content asks from Foundation to Year 6, and an algorithm lesson to try at home.
 
-[Home](/) / [Digital Technologies curriculum help](/australian-curriculum-digital-technologies-help) / Primary coding help
+In short
 
-Australia · Primary Digital Technologies · Live online
+Primary Digital Technologies builds coding in three steps. By Year 2 children follow and describe algorithms with steps and branching. By Year 4 they implement simple algorithms as visual programs with branching and iteration. By Year 6 they design algorithms with complex branching and iteration and build visual programs that include variables. Throughout, they define problems with user stories and judge solutions against design criteria.
 
-# Primary Digital Technologies coding help
-
-In Australian primary schools, coding rarely looks like typing. It starts with following and describing steps, moves to building block programs, and by Year 6 expects children to design algorithms with several choices and repeats, use variables, and judge whether their solution actually helps the person it was made for. Parents are often asked to help with homework they never did themselves. This page walks through what the Version 9.0 curriculum asks at each stage, quotes ACARA directly, and then works a lesson built from one of ACARA's own examples: a rule for forming the past tense of verbs, written as an algorithm and tested until it breaks.
-
-At a glance: Years: Foundation to Year 6; Bands: Foundation, 1 to 2, 3 to 4, 5 to 6; Coding style: Following steps, then visual programs; By Year 4: Branching and iteration as visual programs; By Year 6: Variables and input added; Problem side: User stories and design criteria; Taught by: Your child's school, in its own way; We offer: Live classes from age 6. Rated 4.9 across 547 Google reviews.
+For primary students
 
 ## Three courses that match primary Digital Technologies
 
 Unplugged thinking, visual programming, and a gentle step towards text code for confident Year 5 and 6 students.
 
-- [Thinking in steps](/courses/problem-solving-and-computational-thinking-for-kids): Sequencing, decisions and repetition through puzzles, before and alongside any screen.
-- [Visual programming](/courses/scratch-programming-complete-course): Block programs with loops, conditions and variables: the Year 4 to Year 6 content in practice.
-- [Projects with blocks](/courses/kids-coding-blocks-masterclass): Games and small apps that give children a reason to define a problem first.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)  DTPR / 01 Thinking in steps Sequencing, decisions and repetition through puzzles, before and alongside any screen. Open the syllabus →](/courses/problem-solving-and-computational-thinking-for-kids)[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)  DTPR / 02 Visual programming Block programs with loops, conditions and variables: the Year 4 to Year 6 content in practice. Open the syllabus →](/courses/scratch-programming-complete-course)[![Coding for Kids course thumbnail](/images/kids-coding.webp)  DTPR / 03 Projects with blocks Games and small apps that give children a reason to define a problem first. Open the syllabus →](/courses/kids-coding-blocks-masterclass)
+
+Band by band
 
 ## How coding grows from Foundation to Year 6
 
 The band level descriptions say what children should have had the chance to do. These extracts are ACARA's words.
 
-**Primary Digital Technologies band level descriptions, Version 9.0, coding extracts**
-
 | By the end of | ACARA says students should have had the opportunity to |
-|---|---|
+| --- | --- |
 | Year 2 | "apply computational thinking by describing algorithms that include sequences of instructions and decisions, and by using digital systems to produce simple solutions" |
 | Year 4 | "broaden their computational thinking by creating simple digital solutions, individually and in groups, that involve defining problems, and designing and implementing solutions as visual programs" |
 | Year 6 | "apply computational thinking by creating digital solutions that involve defining problems, designing and modifying algorithms, and implementing them as visual programs" |
@@ -46,20 +40,20 @@ Text-based languages belong to the secondary bands. Some children are ready earl
 
 Source: ACARA, [Digital Technologies content F to 6, Version 9.0](https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/technologies/digital-technologies/technologies-digital-technologies-curriculum-content-f-6-v9.docx) (Word download), band level descriptions, AC9TDI2P01 and AC9TDI2P03, read on 7 October 2026. ACARA is not connected with us.
 
+Defining the problem
+
 ## User stories and design criteria in primary school
 
 Primary children are asked to say who a solution is for and how they will know it works. It sounds grown-up; ACARA's examples show how ordinary it can be.
 
-**Problem definition and evaluation in the Years 3 to 6 content, quoted**
-
 | Code | Content description | An example ACARA gives |
-|---|---|---|
+| --- | --- | --- |
 | AC9TDI4P01 | "define problems with given design criteria and by co-creating user stories" | "buying presents for family members within a specified budget" |
 | AC9TDI4P05 | "discuss how existing and student solutions satisfy the design criteria and user stories" | "how maps help people to locate places in the community" |
 | AC9TDI6P01 | "define problems with given or codeveloped design criteria and by creating user stories" | a family in a bushfire or flood-prone area preparing for an emergency |
 | AC9TDI6P07 | "select and use appropriate digital tools effectively to create, locate and communicate content, applying common conventions" | "modifying search terms to make the query more accurate" |
 
-The Years 3 to 4 user story template is "A &lt;type of user&gt; has &lt;some goal&gt; so that &lt;some reason&gt;", with the example "a sports team wants to access league rankings online so that they can see their progress". Children fill it in before they build anything.
+The Years 3 to 4 user story template is "A <type of user> has <some goal> so that <some reason>", with the example "a sports team wants to access league rankings online so that they can see their progress". Children fill it in before they build anything.
 
 At home, the same template works for any idea a child wants to code. "A younger brother wants a game that teaches times tables so that he can practise without a worksheet." Once that sentence exists, the child knows who to test the game on.
 
@@ -69,14 +63,14 @@ Children who skip this step build impressive programs that nobody uses. Children
 
 Quotations: ACARA, Digital Technologies content F to 6, Version 9.0, AC9TDI4P01, AC9TDI4P05, AC9TDI6P01 and AC9TDI6P07 with elaborations, read on 7 October 2026.
 
+A lesson from ACARA's own example
+
 ## An algorithm for the past tense, tested until it breaks
 
 One elaboration under AC9TDI4P02 describes "following rules to form the past tense of regular verbs such as 'create' to 'created', 'try' to 'tried' and 'cook' to 'cooked'". It makes a surprisingly good programming lesson, because the obvious rule is wrong in instructive ways.
 
-**Three versions of the rule, each run by us on the same twelve verbs**
-
 | Version | The rule | Correct | What went wrong |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1 | If the word ends in e, add d. If it ends in y, change y to ied. Otherwise add ed. | 7 of the 12 verbs | play became plaied, enjoy became enjoied, stop became stoped, hop became hoped, go became goed |
 | 2 | As version 1, but change y to ied only when the letter before the y is not a vowel. | 9 of the 12 verbs | stop, hop and go still wrong |
 | 3 | As version 2, and short words ending consonant, vowel, consonant double the last letter before ed. | 11 of the 12 verbs | go became goed |
@@ -92,6 +86,8 @@ In a block language the rule becomes nested if-then-else blocks with a list for 
 Every number in the table comes from running the three rules in Python on the twelve words listed. The point is not grammar; it is the habit of writing a rule, testing it on cases you did not think of, and improving it, which is the computational thinking every primary band description asks for.
 
 Quotation: ACARA, Digital Technologies content F to 6, Version 9.0, AC9TDI4P02 elaboration, read on 7 October 2026. The three rules and the twelve-verb test are ours.
+
+Helping with homework
 
 ## What to do when your child brings coding home
 
@@ -117,14 +113,14 @@ If you want steady practice outside school, our primary classes follow the same 
 
 Anything the school assesses stays your child's own work. We teach the thinking; the homework is theirs.
 
+Four steps
+
 ## Primary coding, step by step
 
 Year levels are a guide. Children move when they are ready.
 
-**A primary coding progression**
-
 | Around | Step | The sign it is secure |
-|---|---|---|
+| --- | --- | --- |
 | Foundation to Year 2 | 1. Following steps | Follows and describes a short algorithm with a decision |
 | Years 3 to 4 | 2. Block programs | Builds a program with a loop and an if-then block |
 | Years 5 to 6 | 3. Variables and input | Keeps a score or a count that changes as the user plays |
@@ -133,63 +129,293 @@ Year levels are a guide. Children move when they are ready.
 ### If your child finds it frustrating
 
 Frustration usually means a step was skipped. Going back to saying the algorithm out loud almost always helps.
+
 Short, frequent sessions beat long ones at this age.
 
 ### When they are ready for more
 
 Our page on [moving from Scratch to Python](/after-scratch-next-step-python-australia) explains the step into text code.
+
 Primary competitions such as the Bebras Challenge reward exactly this kind of thinking, without any coding required.
+
+The catalogue
 
 ## Nine courses for primary-age coders
 
 Grouped by stage. Each card opens the full course outline.
 
+I
+
 ### First steps
 
 Ages 6 to 8
 
-- [Computational thinking](/courses/problem-solving-and-computational-thinking-for-kids): Steps, choices and repeats through puzzles.
-- [Creative coding for beginners](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev): Making things move, with a teacher beside you.
-- [AI literacy for kids](/courses/ai-literacy-for-kids-course): What AI is and is not, explained simply.
+DTPR / A / 01
+
+#### Computational thinking
+
+Steps, choices and repeats through puzzles.
+
+[Open the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)
+
+DTPR / A / 02
+
+#### Creative coding for beginners
+
+Making things move, with a teacher beside you.
+
+[Open the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)
+
+DTPR / A / 03
+
+#### AI literacy for kids
+
+What AI is and is not, explained simply.
+
+[Open the syllabus](/courses/ai-literacy-for-kids-course)II
 
 ### Block programming
 
 Ages 8 to 11
 
-- [Scratch programming](/courses/scratch-programming-complete-course): Loops, conditions and variables in real projects.
-- [Coding for kids](/courses/kids-coding-blocks-masterclass): Games and apps built from blocks.
-- [Game development for kids](/courses/game-development-masterclass-for-kids): Designing and building small games.
+DTPR / B / 01
+
+#### Scratch programming
+
+Loops, conditions and variables in real projects.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)
+
+DTPR / B / 02
+
+#### Coding for kids
+
+Games and apps built from blocks.
+
+[Open the syllabus](/courses/kids-coding-blocks-masterclass)
+
+DTPR / B / 03
+
+#### Game development for kids
+
+Designing and building small games.
+
+[Open the syllabus](/courses/game-development-masterclass-for-kids)III
 
 ### Ready for more
 
 Confident Years 5 and 6
 
-- [Python for kids](/courses/python-ai-kids-masterclass): A first text language, taken slowly.
-- [Maths through coding](/courses/maths-through-coding): Using code to explore number patterns.
-- [Minecraft coding](/courses/minecraft-coding-for-kids-course): Code that builds in a world children already know.
+DTPR / C / 01
+
+#### Python for kids
+
+A first text language, taken slowly.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)
+
+DTPR / C / 02
+
+#### Maths through coding
+
+Using code to explore number patterns.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+DTPR / C / 03
+
+#### Minecraft coding
+
+Code that builds in a world children already know.
+
+[Open the syllabus](/courses/minecraft-coding-for-kids-course)
+
+How lessons run
 
 ## Short, live classes for primary children
 
 Our teachers are in India, behind every Australian state. A 4 pm lesson in Perth starts at 1.30 pm India time all year, as Western Australia has no daylight saving, which makes after-school times simple to keep.
 
-- **Straight after school** The most common choice for primary families.
-- **Saturday morning** Calmer for younger children.
-- **Holiday sessions** A few days on one project.
+Straight after school
 
-- **Say it before coding it** Children describe the steps before building them.
-- **Testing as a game** Children try to break each other's programs, then fix their own.
-- **Groups** Fifteen to twenty children at a similar stage.
-- **One-to-one option** For children who need a slower or faster pace.
-- **A note home** One line on what was learned and one thing to ask about.
-- **Homework stays theirs** We teach the idea; school tasks remain the child's own.
+The most common choice for primary families.
+
+Saturday morning
+
+Calmer for younger children.
+
+Holiday sessions
+
+A few days on one project.
+
+### Say it before coding it
+
+Children describe the steps before building them.
+
+### Testing as a game
+
+Children try to break each other's programs, then fix their own.
+
+### Groups
+
+Fifteen to twenty children at a similar stage.
+
+### One-to-one option
+
+For children who need a slower or faster pace.
+
+### A note home
+
+One line on what was learned and one thing to ask about.
+
+### Homework stays theirs
+
+We teach the idea; school tasks remain the child's own.
+
+Student work
+
+## Projects made by our students
+
+Built by learners because they wanted to, not for a grade. See more in the [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Families in Australia are charged monthly in US dollars, our usual rate everywhere outside India. There is nothing to pay in advance and you can stop at any month end.
 
-- Free first class: USD 0. A real lesson with a teacher. An honest view of your child's stage. No card details asked for.
-- Group batch: USD 100 a month. Fifteen to twenty children at one stage. The same teacher each week. Projects reviewed with feedback. A certificate when the course ends.
-- One to one: USD 150 a month. A teacher for your child only. Paced to suit them. A weekly time you choose.
+Free first class
+
+USD 0
+
+no card required
+
+- A real lesson with a teacher
+- An honest view of your child's stage
+- No card details asked for
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty children at one stage
+- The same teacher each week
+- Projects reviewed with feedback
+- A certificate when the course ends
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for your child only
+- Paced to suit them
+- A weekly time you choose
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Parents' comments, copied word for word from Google.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about primary coding
 
 ## What parents of primary children ask
 
@@ -233,15 +459,54 @@ No. We are an independent online school. We quote ACARA because it publishes the
 
 We agree a weekly slot after the free class, usually after school in your state. All Australian states are ahead of India time, so after-school lessons fall in our working day.
 
+Related pages
+
 ## More for Australian primary families
 
-- [Digital Technologies curriculum help](/australian-curriculum-digital-technologies-help): The subject from Foundation to Year 10.
-- [Online coding for kids](/online-coding-classes-for-kids-australia): Classes for primary children across Australia.
-- [Coding for 7 and 8 year olds](/coding-classes-for-7-and-8-year-olds-australia): What a lesson looks like at that age.
-- [After Scratch: Python](/after-scratch-next-step-python-australia): Moving from blocks to text.
-- [Coding games for kids](/coding-games-for-kids-australia): Games that teach the same ideas.
-- [Coding classes in Australia](/coding-classes-in-australia): Our main Australian page.
+Coding by age, the whole curriculum, and the next steps.
 
-## Contact
+### [Digital Technologies curriculum help](/australian-curriculum-digital-technologies-help)
 
-Book the free first class at [https://learn.modernagecoders.com/digital-technologies-primary-coding-help](https://learn.modernagecoders.com/digital-technologies-primary-coding-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The subject from Foundation to Year 10.
+
+### [Online coding for kids](/online-coding-classes-for-kids-australia)
+
+Classes for primary children across Australia.
+
+### [Coding for 7 and 8 year olds](/coding-classes-for-7-and-8-year-olds-australia)
+
+What a lesson looks like at that age.
+
+### [After Scratch: Python](/after-scratch-next-step-python-australia)
+
+Moving from blocks to text.
+
+### [Coding games for kids](/coding-games-for-kids-australia)
+
+Games that teach the same ideas.
+
+### [Coding classes in Australia](/coding-classes-in-australia)
+
+Our main Australian page.
+
+Start here
+
+## Try a free primary coding class
+
+Tell us your child's age and what they enjoy. The free class starts with steps and decisions, moves to blocks if they are ready, and ends with a plain answer about what would help next.
+
+Would you rather browse? The [course atlas](/course-atlas) shows every course, and [how we teach](/how-we-teach) explains our approach.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20class%20to%20help%20with%20primary%20Digital%20Technologies%20coding.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is normally the fastest way to reach us. Our number starts with +91, India's code, as the school is run from India and has no Australian premises.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/digital-technologies-primary-coding-help*

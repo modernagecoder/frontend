@@ -4,46 +4,32 @@ description: "Live online vibe coding, AI agents and Python lessons for Hamilton
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-hamilton-scotland
 source: src/pages/vibe-coding-and-ai-agents-classes-in-hamilton-scotland.html
 ---
-> Hamilton's locality held an estimated 54,480 people in mid-2020, according to National Records of Scotland, making it the second largest in South Lanarkshire. Burnbank, Eddlewood, Silvertonhill, Laighstonehall, Whitehill and Low Waters are among the suburbs listed in the ML3 district. Vibe coding, AI agents, Python, coding and maths are taught to anyone from six to 67 by our tutors in India over live video, as private lessons or in a group of fifteen to twenty matched by level. Planning and reasoning come before tools, so a learner can tell when an agent is improvising badly. We give the first session free and name the course that suits at the end. In the Hamilton project an agent must drive every one of 44.82 km of streets in the town centre and get home, and we measure how much planning ahead saves. Group lessons then cost USD 100 per month, private lessons USD 150 per month.
+> Live online vibe coding, AI agents and Python lessons for Hamilton, Burnbank, Eddlewood and Silvertonhill learners in Lanarkshire, aged 6 to 67. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / Hamilton
-
-Hamilton, South Lanarkshire, Scotland / Live online
-
-# Vibe coding and AI agents classes in Hamilton
-
-**Where can Hamilton learners find the best vibe coding and AI agents classes?** Hamilton's locality held an estimated 54,480 people in mid-2020, according to National Records of Scotland, making it the second largest in South Lanarkshire. Burnbank, Eddlewood, Silvertonhill, Laighstonehall, Whitehill and Low Waters are among the suburbs listed in the ML3 district. Vibe coding, AI agents, Python, coding and maths are taught to anyone from six to 67 by our tutors in India over live video, as private lessons or in a group of fifteen to twenty matched by level. Planning and reasoning come before tools, so a learner can tell when an agent is improvising badly. We give the first session free and name the course that suits at the end. In the Hamilton project an agent must drive every one of 44.82 km of streets in the town centre and get home, and we measure how much planning ahead saves. Group lessons then cost USD 100 per month, private lessons USD 150 per month.
-
-Some jobs mean visiting every street rather than reaching one place: a survey vehicle photographing roads, a delivery round, a robot checking pavements. An AI agent given such a job can simply act, taking whichever untravelled street is nearest, or it can plan the whole route first. Mathematicians solved the planning version long ago. It is called the route inspection problem, or the Chinese postman problem, after the Chinese mathematician Kwan Mei-Ko who studied it. This project hands both kinds of agent the drivable streets of central Hamilton, as mapped on OpenStreetMap, and compares the distances they cover.
-
-Facts last verified 29 September 2026. Teaching is online; no Hamilton branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentHamilton course picks
 
 ## Hamilton courses in planning, vibe coding and agents
 
 Match a course to the learner's age. Lesson one is always live and free, and no card is taken.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think course: tracing routes, drawing without lifting the pen and planning before moving.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games dreamed up by the learner, coded with an AI and tested hard.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python and web projects with AI help, including the street-covering agent.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): Agents that plan, act and check, built in Python.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think course: tracing routes, drawing without lifting the pen and planning before moving.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games dreamed up by the learner, coded with an AI and tested hard.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensPython and web projects with AI help, including the street-covering agent.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseAgents that plan, act and check, built in Python.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Hamilton and South Lanarkshire
 
 ## Hamilton, Burnbank, Eddlewood and Silvertonhill
 
 The NRS estimate for Hamilton, and suburbs recorded in the ML3 postcode district.
 
-**Hamilton in National Records of Scotland estimates**
-
 | Area | People |
-|---|---|
+| --- | --- |
 | Hamilton locality, mid-2020 | 54,480 |
 
 Postcodes.io records Burnbank, Eddlewood, Fairhill, Hillhouse, Laighstonehall, Low Waters, Silvertonhill, Whitehill, Earnock, Meikle Earnock and Udston as suburban areas of South Lanarkshire in ML3, and Ferniegair as a village. Lanarkshire schools work to the Curriculum for Excellence, and our lessons use the same primary and secondary years and SQA levels, from National 5 upward. Tell us your holiday weeks and lessons will skip them.
@@ -51,6 +37,8 @@ Postcodes.io records Burnbank, Eddlewood, Fairhill, Hillhouse, Laighstonehall, L
 ### South Lanarkshire, Glasgow and exam help
 
 More is on [coding classes in South Lanarkshire](/coding-classes-in-south-lanarkshire), [Glasgow](/best-coding-class-in-glasgow) and [National 5 Maths tuition](/national-5-maths-tuition-online). Our reasons for teaching thinking first are on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
+
+The Hamilton project
 
 ## An agent that must travel every street: the Chinese postman problem in central Hamilton
 
@@ -60,10 +48,8 @@ The learner downloads OpenStreetMap data for a rectangle about 1.9 km across ove
 
 A route that never repeats a street exists only if every junction has an even number of streets, so that each arrival can be matched with a departure. Here 420 junctions are odd, including 148 dead ends, where the only way out is back the way you came. The planner pairs the odd junctions up so that the total distance between partners is as small as possible, a step called minimum-weight matching, and repeats exactly those connecting stretches. The greedy agent does no planning: it takes any street it has not yet driven and, when stuck, heads for the nearest junction that still has one.
 
-**Covering every drivable street in central Hamilton and returning, our Python run on OpenStreetMap data**
-
 | Agent | Distance driven | Extra over the 44.82 km of streets |
-|---|---|---|
+| --- | --- | --- |
 | Planned route (Chinese postman) | 67.80 km | 51.3% |
 | Greedy agent, average of 20 runs | 80.55 km | 79.7% |
 | Greedy agent, shortest of 20 runs | 77.82 km | 73.6% |
@@ -86,14 +72,14 @@ Code the matching, build the optimal route and pit it against a greedy agent ove
 
 Street data is from OpenStreetMap and its contributors under the Open Database Licence. One-way rules and access restrictions beyond private roads are ignored; the rectangle, the agents and every distance are our own work.
 
+Planning agents
+
 ## What this teaches about vibe coding and AI agents
 
 Short-sighted steps add up to a long way round.
 
-**From the Hamilton street agent to real AI agents**
-
 | In the route project | When an AI agent tackles a task |
-|---|---|
+| --- | --- |
 | 420 odd junctions forced repeats | Some cost is unavoidable; know how much |
 | The plan drove 67.80 km | A global plan can be computed before acting |
 | Greedy averaged 80.55 km | Step-by-step choices can add up badly |
@@ -104,14 +90,37 @@ Many AI agents work step by step: look at the situation, pick the next action, r
 
 OpenStreetMap, National Records of Scotland and postcodes.io did not review this page; we simply used their open data, and the two agents and any errors belong to us.
 
+Stages
+
 ## From pencil puzzles to planning agents
 
 We begin from the school year and let the trial adjust it.
 
-- **Primary years: How to think** Routes, puzzles and planning before moving. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **P5 to S2: Vibe coding for kids** Apps and games made with AI help, planned and tested by the learner. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **S3 to S6: Python and graphs** Networks, shortest paths and agents, alongside SQA Maths and Computing Science. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)
-- **Adults: Agents that plan** Planning, tool use and checking, built as Python agents. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Primary years
+
+### How to think
+
+Routes, puzzles and planning before moving.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)P5 to S2
+
+### Vibe coding for kids
+
+Apps and games made with AI help, planned and tested by the learner.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)S3 to S6
+
+### Python and graphs
+
+Networks, shortest paths and agents, alongside SQA Maths and Computing Science.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)Adults
+
+### Agents that plan
+
+Planning, tool use and checking, built as Python agents.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)Agents and planning
 
 ## Why should an AI agent plan before it acts?
 
@@ -123,30 +132,139 @@ Learners who have raced the two ask of any AI agent: did it make a plan, and can
 
 A Hamilton teenager who demands to see the plan first stays the one in charge, and writing code is where that instinct is trained. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Lessons across Hamilton, all on video
 
 Kit list: a computer with a webcam, and internet steady enough to stream.
 
-- **Learner in control** Students write, prompt and run everything while the tutor follows the shared screen and asks for their plan.
-- **Level from the trial** The free lesson shows where to begin; SQA courses are written down if relevant.
-- **Opening lesson free** No fee for the first session, which ends with a suggested course.
-- **Classes by level** Each class is five to ten UK learners at one stage.
-- **Two lessons a week** No lessons in school holidays.
-- **Reliable slot** UK clock changes are absorbed by our tutors; your time stays fixed.
+### Learner in control
 
-**Why online** Five learners at one level, all free on one evening, are unlikely to be neighbours. Online, they do not have to be.
+Students write, prompt and run everything while the tutor follows the shared screen and asks for their plan.
+
+### Level from the trial
+
+The free lesson shows where to begin; SQA courses are written down if relevant.
+
+### Opening lesson free
+
+No fee for the first session, which ends with a suggested course.
+
+### Classes by level
+
+Each class is five to ten UK learners at one stage.
+
+### Two lessons a week
+
+No lessons in school holidays.
+
+### Reliable slot
+
+UK clock changes are absorbed by our tutors; your time stays fixed.
+
+Why online
+
+Five learners at one level, all free on one evening, are unlikely to be neighbours. Online, they do not have to be.
+
+Fees
 
 ## Hamilton fees
 
 Learners in Hamilton pay our international rates, the ones for every country outside India.
 
-- First class: USD 0. A full free lesson, then a recommendation.
-- Group tuition: USD 100 a month. About eight live group lessons a month.
-- Private tuition: USD 150 a month. About eight live one-to-one lessons a month.
+First class**USD 0**
+
+A full free lesson, then a recommendation.
+
+Group tuition**USD 100**
+
+About eight live group lessons a month.
+
+Private tuition**USD 150**
+
+About eight live one-to-one lessons a month.
 
 Fees are quoted in US dollars with no pound equivalent, and the first bill follows the trial only once a course and a regular time are agreed. See the pricing page for holiday weeks, absences and moving from class to private tuition or back.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Hamilton%2C%20South%20Lanarkshire%3F)Reviews
+
+## South Lanarkshire families and learners elsewhere in the UK, on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Hamilton lesson
+
+Tell us an age or school year and something the learner enjoys. We might start with a no-lift drawing puzzle, a Scratch game planned with an AI, some first Python, or a route-planning challenge on a real map.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Hamilton one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Hamilton%2C%20South%20Lanarkshire%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Hamilton questions
+
+Route planning, the street agent, vibe coding, Python and the practical side.
 
 ### What is the population of Hamilton, South Lanarkshire?
 
@@ -188,10 +306,14 @@ Lesson one is free. Ongoing classes are USD 100 per month, or USD 150 per month 
 
 No, they pause for school holidays; send the dates.
 
+Nearby
+
 ## More Lanarkshire and central Scotland pages
 
 Pages with their own projects: [East Kilbride](/ai-and-programming-classes-in-east-kilbride) (spotting roundabouts), [South Lanarkshire](/coding-classes-in-south-lanarkshire), [North Lanarkshire](/coding-classes-in-north-lanarkshire) and [Livingston](/best-coding-and-ai-classes-in-livingston). Everything else starts at the [Scotland page](/coding-and-ai-classes-in-scotland) or the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Hamilton%2C%20South%20Lanarkshire%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-hamilton-scotland](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-hamilton-scotland#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-hamilton-scotland*

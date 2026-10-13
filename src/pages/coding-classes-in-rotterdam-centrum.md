@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes in Rotterdam Centrum for
 canonical: https://learn.modernagecoders.com/coding-classes-in-rotterdam-centrum
 source: src/pages/coding-classes-in-rotterdam-centrum.html
 ---
-> Coding classes in Rotterdam Centrum reach 42,924 residents (1 January 2026) on 413 hectares of land, the smallest of the fourteen gebieden, in 25,035 households of which 15,290 hold one person. Six primary establishments here teach 1,989 pupils and four secondary ones teach 1,622, in a district holding 3,130 residents under fifteen. None of those figures answers the question anybody wants answered, because a school catchment is not district-shaped and this district is small enough that almost everyone in it lives near an edge. Modern Age Coders teaches live online in English across all six buurten, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
+> Live online coding, Python and AI classes in Rotterdam Centrum for ages 6 to 67, from the Stadsdriehoek to Dijkzigt. The first lesson costs nothing.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Rotterdam](/coding-classes-in-rotterdam) / Rotterdam Centrum
-
-Centrum, Rotterdam / Live online
-
-# Coding classes in Rotterdam Centrum, a district where three quarters of the ground is within five hundred metres of somewhere else
-
-**What are the best coding classes in Rotterdam Centrum?** Coding classes in Rotterdam Centrum reach 42,924 residents (1 January 2026) on 413 hectares of land, the smallest of the fourteen gebieden, in 25,035 households of which 15,290 hold one person. Six primary establishments here teach 1,989 pupils and four secondary ones teach 1,622, in a district holding 3,130 residents under fifteen. None of those figures answers the question anybody wants answered, because a school catchment is not district-shaped and this district is small enough that almost everyone in it lives near an edge. Modern Age Coders teaches live online in English across all six buurten, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
-
-Rotterdam Centrum covers 413 hectares of land, which is 4.13 square kilometres. Lay that out as a square and its sides are about two kilometres, so a person standing anywhere in it is on average a few minutes from a district that is not this one. Count what is near residents by counting only what falls inside the boundary and you will undercount for nearly all of them, not because the centre is badly served but because it is small. The same count in a district four times the size undercounts far less. Half of what separates those two numbers is geometry.
-
-Facts last verified 9 September 2026. Teaching is online; no Rotterdam Centrum branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Rotterdam Centrum
 
 ## Four courses for the densest four square kilometres in the city
 
 A groep 5 child in the Oude Westen who has finished every game in the house, a teenager off the Coolsingel who wants to see what a model does rather than what it says, a student near Dijkzigt who needs Python to be automatic, and an adult in the Stadsdriehoek who has to defend a figure in a meeting every month: four doors, and the first hour of each is free.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Real typed Python, drawings that take instructions and a first program that works out a rule, taught in English to the groep 5 to 8 child in any of the six buurten.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 18): A model trained, tested and deliberately broken, for the teenager who has used plenty and been shown the inside of none.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Python that collects, cleans, checks and reports on its own schedule, for the student or worker doing one job by hand every week.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (Adults): Cleaning, joining, and knowing what a boundary did to a number before you quote it, for anybody who hands figures to people who act on them.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsReal typed Python, drawings that take instructions and a first program that works out a rule, taught in English to the groep 5 to 8 child in any of the six buurten.See the syllabus](/courses/python-ai-kids-masterclass)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 18AI and Machine Learning for TeensA model trained, tested and deliberately broken, for the teenager who has used plenty and been shown the inside of none.See the syllabus](/courses/ai-ml-masterclass-teens)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CoursePython that collects, cleans, checks and reports on its own schedule, for the student or worker doing one job by hand every week.See the syllabus](/courses/python-ai-automation-masterclass-college)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)AdultsData Analysis CourseCleaning, joining, and knowing what a boundary did to a number before you quote it, for anybody who hands figures to people who act on them.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Centrum today
 
 ## Forty-three thousand residents, and a city of six hundred thousand using them
 
@@ -52,16 +40,18 @@ The centre is divided into the Cs Kwartier, the Stadsdriehoek, Cool, the Oude We
 
 Six primary establishments here teach 1,989 pupils and four secondary establishments teach 1,622. Those are counts of pupils attending schools inside the boundary, not of children living inside it, and in a district this small the two have very little to do with each other.
 
-**Where Rotterdam differs from Amsterdam, for anyone reading both** The national statistics office publishes Rotterdam at wijk level with the wijken corresponding to the gebieden, so this district has a full statistics row of its own. Amsterdam does not work that way: its stadsdelen are not a publication level at all, which is why the Amsterdam district pages in this series are built from the wijken beneath them instead. One consequence is that a Rotterdam wijk holds about 30,600 people on average and an Amsterdam wijk about 8,500. What that does to any national table with a wijk column is the argument of the Tilburg page and is not repeated here.
+Where Rotterdam differs from Amsterdam, for anyone reading both
+
+The national statistics office publishes Rotterdam at wijk level with the wijken corresponding to the gebieden, so this district has a full statistics row of its own. Amsterdam does not work that way: its stadsdelen are not a publication level at all, which is why the Amsterdam district pages in this series are built from the wijken beneath them instead. One consequence is that a Rotterdam wijk holds about 30,600 people on average and an Amsterdam wijk about 8,500. What that does to any national table with a wijk column is the argument of the Tilburg page and is not repeated here.
+
+Where the learners are
 
 ## The smallest gebied and the largest, measured the same way
 
 Prins Alexander is the largest of the fourteen and sits on the north-eastern edge of the city. Setting it beside the centre shows what a boundary does to a number, because the two are described by identical columns and are nothing like the same shape.
 
-**Rotterdam Centrum and Prins Alexander, in the same columns**
-
-|  | Rotterdam Centrum | Prins Alexander | What the difference is made of |
-|---|---|---|---|
+|   | Rotterdam Centrum | Prins Alexander | What the difference is made of |
+| --- | --- | --- | --- |
 | Residents | 42,924 | 97,794 | the smallest gebied and the largest |
 | Land area | 413 hectares | 1,738 hectares | four times as much ground |
 | People per square kilometre | 10,191 | 5,635 | the centre is nearly twice as dense |
@@ -72,6 +62,8 @@ Prins Alexander is the largest of the fourteen and sits on the north-eastern edg
 | Share of the area more than 500 m from an edge | about 26 percent | about 58 percent | geometry, not provision |
 
 That last row is this page modelling each district as a square of its published land area and asking how much of it lies more than five hundred metres inside the boundary. Neither district is a square, and real shapes are more irregular than squares, which makes the edge share larger rather than smaller. The figure is an illustration of a mechanism rather than a measurement of these two places, and it is labelled as one wherever it appears. What it shows is that the centre is mostly edge and the suburb is mostly interior, before anybody has counted a single school.
+
+Verified local facts
 
 ## Every figure, its source, its year, and two ratios computed to be wrong
 
@@ -99,6 +91,8 @@ This page does not say how well served children in the centre are, because no fi
 
 Modern Age Coders has no connection to the gebied, the city or any school named here and claims none. The square-equivalent sides of about 2.03 and 4.17 kilometres, the edge shares of about 26 and 58 percent, the pupils-per-establishment figures of 332, 290, 406 and 651 and the two ratios above are all this page computing from published numbers, and every one of them is labelled as arithmetic where it appears.
 
+Signature project
+
 ## Most of a small district is edge, and the count does not know it
 
 A boundary, a radius, and a bias that grows as the area shrinks without anything on the ground changing at all.
@@ -115,10 +109,8 @@ Model the centre as a square of its 413 hectares and its sides are about 2.03 ki
 
 Any table of districts ordered by amenities near residents, counted within boundaries, is partly a table ordered by district size and shape. Small districts look badly served and large ones look well served, and a good deal of that ordering would survive even if every district had identical provision on the ground.
 
-**The same question, asked four ways**
-
 | The question | How it gets computed | What the boundary does to it | A better approach |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | How many schools are near residents here? | count schools inside the district | cuts off every school just over the line | count within a radius of each resident, ignoring boundaries |
 | How many pupils does this district educate? | sum enrolment at schools inside it | counts pupils who live elsewhere | ask for pupil home postcodes, if they exist |
 | How many children live here? | the resident count, 3,130 under fifteen | nothing, this one is fine | use it, and do not divide it by the previous row |
@@ -128,14 +120,14 @@ Any table of districts ordered by amenities near residents, counted within bound
 
 Almost every dataset arrives cut into regions, and almost every question about proximity gets answered inside those cuts because that is how the data is shaped. The trouble is that people and the things they use do not respect the cuts. A resident near a border has half their world in the next region, the count inside the border misses it, and nothing in the output records the omission. What makes this worse than an ordinary inaccuracy is that the size of the error depends on the size of the region. A small region is nearly all edge; a large one is mostly interior. So when you line regions up and compare them on any within-boundary measure of what is nearby, part of what you have measured is how big each region is. The same failure runs through sales territories, hospital trusts, police areas, delivery zones, store catchments, network regions and school districts. In each case the honest fix is to stop letting the boundary define the question: compute proximity from each point outward, in whatever radius the thing actually reaches, and let the results cross the lines the way the people do. When that is impossible because the data only exists per region, the correct output is not a ranked table. It is a note saying that the measure is biased by area size, and that small regions will look worse whether or not they are.
 
+Reliable pipeline
+
 ## Five habits for data that arrives cut into regions
 
 Sales territories, delivery zones, hospital catchments, store radii, network regions: the boundary was drawn for administration and the question is about distance. Practised on a district that is mostly edge.
 
-**Asking a distance question of regional data**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Separate the two questions | Ask whether you want what is inside the region or what is near the people | A proximity question answered by a container | Clarity about what the number can mean |
 | Measure the edge share | Estimate how much of each region lies within the relevant radius of a border | Regions compared as though the bias were equal | A size for the distortion, per region |
 | Compute outward, not inward | Where the coordinates exist, measure from each point rather than per region | Everything just over the line discarded | Numbers that describe people rather than shapes |
@@ -156,14 +148,37 @@ A real regional measure from work, such as coverage, response time or store prox
 
 All population, household, age, area, density, dwelling, value, tenure, income, establishment and pupil figures for both districts, and the city totals, come from the national statistics office pages named beside them, with 2026 populations and pupil counts, 2025 household and housing figures and 2024 incomes. The square-equivalent sides, the edge shares of about 26 and 58 percent, the pupils per establishment and the two attendance-over-residence ratios are this page computing from those figures, and the square model is stated as a model rather than as a description of either district.
 
+Learning ladder
+
 ## From a circle round your house to a table that refuses to rank on a truncated measure
 
 The rung is settled in the free hour by what the learner can already do, and never by which of the six buurten the address falls in.
 
-- **Ages 6 to 10: What is really within reach?** Children draw a circle, meet a fence, and count twice. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Inside the line, or near the person** Learners work out which of the two questions a count has actually answered. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Interior share, and rankings that admit it** Teenagers compute how much of an area is edge and print it beside every regional figure. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: The smallest region on the improvement plan** Adults take a regional coverage measure from work and find the geometry inside it. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### What is really within reach?
+
+Children draw a circle, meet a fence, and count twice.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Inside the line, or near the person
+
+Learners work out which of the two questions a count has actually answered.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Interior share, and rankings that admit it
+
+Teenagers compute how much of an area is edge and print it beside every regional figure.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### The smallest region on the improvement plan
+
+Adults take a regional coverage measure from work and find the geometry inside it.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## An AI will tell you the centre has fewer schools per child. Why should a teenager here learn to ask how big the district is?
 
@@ -175,30 +190,139 @@ So the learner practises asking what the boundary did before asking what the num
 
 The case for a child in Rotterdam Centrum learning to code in 2026 is therefore not about schools. It is that a great deal of working life is spent comparing regions that were drawn for administrative convenience, that any question about distance answered inside those lines is biased by their size, and that a district three quarters of which is within five hundred metres of somewhere else makes the bias impossible to ignore. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes in four square kilometres of city centre
 
 Nothing in the centre is far from anything. What families here run short of is space and evenings, in flats where 61 percent of households are one person and the rest are fitting a great deal into small rooms.
 
-- **No room to book and nowhere to go** The lesson happens at the table in the Stadsdriehoek, the Oude Westen or Cool, at one hour that repeats every week, which is the only arrangement that does not need a spare room somewhere else.
-- **English for the lesson, Dutch for the school** Teaching is in English throughout. Groep, havo, vwo and profielkeuze stay Dutch, because those four are printed on the paperwork a child brings home and an English version would only need turning back.
-- **The first hour is free and settles three things** A level, found by giving the learner something real to do. A course chosen because that level points at it. A weekly time. Nothing about payment comes up while any of it is happening.
-- **Grouped by stage, drawn from far outside the district** Fifteen to twenty learners at one level. In a district with 3,130 children under fifteen, drawing from further afield is not a preference, it is the only way a specific level fills.
-- **Twice a week, on the regio Midden calendar** Two lessons weekly at a repeating hour, normally eight in a month. Zuid-Holland takes its school holidays with regio Midden, and the weeks a family will be away are agreed at the start rather than found later.
-- **India is ahead, by three and a half hours or four and a half** The Dutch clock changes twice a year and the Indian one does not, which is where the whole difference comes from. Late afternoon, early evening and either weekend day work at both settings.
+### No room to book and nowhere to go
 
-**The lowest share of children of any page in this series** Just 3,130 of the centre's 42,924 residents are under fifteen, 7.3 percent, against 15 percent in Prins Alexander and 19 percent in the fullest Amsterdam neighbourhood this series has measured. A child growing up here is in a very small local cohort, and no school or club inside four square kilometres can assemble a group of fifteen to twenty at one particular level in one particular subject from it. That is arithmetic rather than any comment on the schools, and it is the reason groups here are formed on ability from across the world, at every age up to sixty-seven.
+The lesson happens at the table in the Stadsdriehoek, the Oude Westen or Cool, at one hour that repeats every week, which is the only arrangement that does not need a spare room somewhere else.
+
+### English for the lesson, Dutch for the school
+
+Teaching is in English throughout. Groep, havo, vwo and profielkeuze stay Dutch, because those four are printed on the paperwork a child brings home and an English version would only need turning back.
+
+### The first hour is free and settles three things
+
+A level, found by giving the learner something real to do. A course chosen because that level points at it. A weekly time. Nothing about payment comes up while any of it is happening.
+
+### Grouped by stage, drawn from far outside the district
+
+Fifteen to twenty learners at one level. In a district with 3,130 children under fifteen, drawing from further afield is not a preference, it is the only way a specific level fills.
+
+### Twice a week, on the regio Midden calendar
+
+Two lessons weekly at a repeating hour, normally eight in a month. Zuid-Holland takes its school holidays with regio Midden, and the weeks a family will be away are agreed at the start rather than found later.
+
+### India is ahead, by three and a half hours or four and a half
+
+The Dutch clock changes twice a year and the Indian one does not, which is where the whole difference comes from. Late afternoon, early evening and either weekend day work at both settings.
+
+The lowest share of children of any page in this series
+
+Just 3,130 of the centre's 42,924 residents are under fifteen, 7.3 percent, against 15 percent in Prins Alexander and 19 percent in the fullest Amsterdam neighbourhood this series has measured. A child growing up here is in a very small local cohort, and no school or club inside four square kilometres can assemble a group of fifteen to twenty at one particular level in one particular subject from it. That is arithmetic rather than any comment on the schools, and it is the reason groups here are formed on ability from across the world, at every age up to sixty-seven.
+
+Fees
 
 ## The fee, in dollars, in all six buurten
 
 On the page rather than saved for a telephone call.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 One international rate applies and it is quoted in dollars, with no euro edition, so an address in Dijkzigt is charged exactly what one in the Cs Kwartier is. Nothing is paid until the free lesson has settled a course and an hour, and payment is arranged over WhatsApp afterwards. Pausing, switching plan and missing a week are described on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Rotterdam%20Centrum.)Reviews
+
+## Six Google reviews, printed as the people who left them wrote them
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Send the level; the buurt is not needed
+
+The first task might be a circle drawn round a house on a map of a playground, a function that reports how much of an area is edge, or a regional measure from work that has been ranking places by their size for years.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Rotterdam Centrum one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Rotterdam%20Centrum.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Rotterdam Centrum coding class questions
+
+The district, its six buurten, one boundary problem, the teaching and the terms.
 
 ### Does the city centre have fewer schools per child than the suburbs?
 
@@ -240,10 +364,14 @@ The first lesson is free. After it, group tuition is USD 100 a month for two liv
 
 Fifteen to twenty, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
+Explore Rotterdam and beyond
+
 ## Out to the city, north to Delft, and up to the country
 
 The city page, [coding classes in Rotterdam](/coding-classes-in-rotterdam), carries the port throughput argument and the map of all fourteen gebieden, and the other district pages follow this one in the series. North up the line are [Delft](/coding-classes-in-delft) and [The Hague](/coding-classes-in-the-hague), and everything here sits inside [Zuid-Holland](/coding-classes-in-zuid-holland). The whole series descends from the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner who wants trained models rather than running programs should begin at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Finish this on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Rotterdam%20Centrum.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-rotterdam-centrum](https://learn.modernagecoders.com/coding-classes-in-rotterdam-centrum#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-rotterdam-centrum*

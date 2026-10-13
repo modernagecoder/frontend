@@ -6,10 +6,6 @@ source: src/pages/functional-skills-maths-vs-gcse-maths.html
 ---
 > Functional Skills maths or GCSE maths? Levels, exam length, calculator rules, what each tests, the post-16 rules and how to choose the right one for work or study.
 
-# Functional Skills maths vs GCSE maths: which one fits you?
-
-**The short answer.** Functional Skills maths tests maths for work and everyday life at Entry Levels 1 to 3, Level 1 and Level 2. GCSE maths is graded 9 to 1 over three 1 hour 30 minute papers and covers more algebra and geometry. Choose by what your job, course or college asks for.
-
 Courses for both qualifications
 
 ## Pick the qualification, then the course that gets you there.

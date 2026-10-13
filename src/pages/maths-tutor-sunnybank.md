@@ -4,36 +4,30 @@ description: "Online maths tutor for Sunnybank, Brisbane: Prep to Year 12 and ad
 canonical: https://learn.modernagecoders.com/maths-tutor-sunnybank
 source: src/pages/maths-tutor-sunnybank.html
 ---
-> Modern Age Coders is an online maths tutor for Sunnybank learners aged 6 to 67, teaching Australian Curriculum maths from Prep to Year 10, Queensland senior mathematics including Mathematical Methods, and adult maths. Lessons are live video in Brisbane time, one to one or in groups of fifteen to twenty at the same level. Our Sunnybank example compares probabilities with and without replacement using Census counts: 0.37146 against 0.37124. Your first lesson is free.
+> Online maths tutor for Sunnybank, Brisbane: Prep to Year 12 and adults, Australian Curriculum maths and Queensland senior Mathematical Methods, in Brisbane time.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / Maths tutor in Sunnybank
+Maths tutor in Sunnybank, in brief
 
-Sunnybank · Prep to Year 12 and adults · Live maths lessons online
+Modern Age Coders is an online maths tutor for Sunnybank learners aged 6 to 67, teaching Australian Curriculum maths from Prep to Year 10, Queensland senior mathematics including Mathematical Methods, and adult maths. Lessons are live video in Brisbane time, one to one or in groups of fifteen to twenty at the same level. Our Sunnybank example compares probabilities with and without replacement using Census counts: 0.37146 against 0.37124. Your first lesson is free.
 
-# Maths tutor in Sunnybank
-
-At the 2021 Census, 1,119 Sunnybank residents were in tertiary education, and 682 of them were at university. Choose two of those students at random: what is the chance both are at university? A careful student says the second choice is out of 1,118 people, not 1,119, and works it through without replacement. A hurried student squares 682 over 1,119. The two answers are 0.37124 and 0.37146, a difference of 0.06%. So the shortcut is fine here, but try the same shortcut in a class of ten and it is out by a third. Knowing when a shortcut is safe is the heart of probability, and of how we teach maths to Sunnybank learners from Prep to Year 12.
-
-At a glance: Age range: 6 to 67; Prep to Year 6: Number, fractions, chance; Years 7 to 10: Algebra, probability, statistics; Years 11 and 12: Including Mathematical Methods; Adults: Practical and refresher maths; Lessons: Live video, one to one or five to ten; Clock: Brisbane time, no daylight saving; Sunnybank project: With and without replacement. Rated 4.9 across 547 Google reviews.
+Popular with Sunnybank families
 
 ## Primary, secondary and senior maths
 
 The three courses Sunnybank families ask about most; the full list is lower down.
 
-- [Prep to Year 6](/courses/elementary-mathematics-complete-masterclass): Place value, fractions, measurement and early chance, built carefully.
-- [Probability and statistics](/courses/statistics-probability-maths-course): Counting outcomes, with and without replacement, and reading data honestly.
-- [Senior maths](/courses/complete-high-school-mathematics-mastery): Functions, calculus and probability for students taking Mathematical Methods.
+[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  SNB / 1 Prep to Year 6 Place value, fractions, measurement and early chance, built carefully. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)[![Statistics & Probability course thumbnail](/images/statistics-probability-maths.webp)  SNB / 2 Probability and statistics Counting outcomes, with and without replacement, and reading data honestly. Open the syllabus →](/courses/statistics-probability-maths-course)[![High School Mathematics course thumbnail](/images/high-school-maths.webp)  SNB / 3 Senior maths Functions, calculus and probability for students taking Mathematical Methods. Open the syllabus →](/courses/complete-high-school-mathematics-mastery)
+
+A Sunnybank worked example
 
 ## Choosing two people: with or without replacement?
 
 When you pick two different people, the second pick comes from a slightly smaller group. Whether that matters depends on how big the group is.
 
-The 2021 Census counted **1,119** Sunnybank residents in tertiary education, of whom **682** were at university and 432 in vocational education. Without replacement, the chance that two different tertiary students chosen at random are both at university is (682 &times; 681) / (1,119 &times; 1,118). With replacement, which treats the two picks as independent, it is (682 / 1,119) squared.
-
-**Two ways to calculate the same chance (our calculation from ABS counts)**
+The 2021 Census counted **1,119** Sunnybank residents in tertiary education, of whom **682** were at university and 432 in vocational education. Without replacement, the chance that two different tertiary students chosen at random are both at university is (682 × 681) / (1,119 × 1,118). With replacement, which treats the two picks as independent, it is (682 / 1,119) squared.
 
 | Method | Calculation | Probability | About 1 in |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Both at university, without replacement (exact) | (682 x 681) / (1,119 x 1,118) | 0.37124 | about 0.37 |
 | Both at university, with replacement (shortcut) | (682 / 1,119) squared | 0.37146 | about 0.37 |
 | Both in vocational education, exact | (432 x 431) / (1,119 x 1,118) | 0.14883 | about 0.15 |
@@ -65,14 +59,14 @@ The counts are as the ABS published them; the probabilities are our own calculat
 
 Data: ABS, [2021 Census QuickStats, Sunnybank](https://abs.gov.au/census/find-census-data/quickstats/2021/SAL32694), read 14 October 2026.
 
+Checking by experiment
+
 ## Simulating the draw in Python
 
 A formula gives the probability; a simulation shows what happens in practice. Older students do both and compare.
 
-**Drawing two of the 1,119 tertiary students at random, repeated (our simulation, seed 2026)**
-
 | Number of repeats | Times both were at university | Observed proportion | Exact probability |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1,000 | 371 | 0.371 | 0.37124 |
 | 100,000 | 37,294 | 0.37294 | 0.37124 |
 
@@ -87,6 +81,8 @@ Students learn that simulations get closer to the truth on average as repeats gr
 Writing ten lines of Python to draw two names from a list makes "without replacement" concrete: the code literally removes the first name before drawing the second.
 
 Students taking [maths through coding](/courses/maths-through-coding) build this as one of their first probability projects.
+
+Years 11 and 12 in Queensland
 
 ## Senior maths for Sunnybank students
 
@@ -108,14 +104,14 @@ The Queensland Curriculum and Assessment Authority publishes the full list of se
 
 Source: The University of Queensland, [Bachelor of Science program page](https://my.uq.edu.au/programs-courses/program.html?acad_prog=2461), read 14 October 2026.
 
+Prep to Year 10
+
 ## What Sunnybank learners build before senior school
 
 Probability starts long before Year 11, with words like likely and unlikely, and grows into fractions, tree diagrams and data.
 
-**Chance and data through the years**
-
 | Years | Chance and data focus | A typical task |
-|---|---|---|
+| --- | --- | --- |
 | Prep to 2 | Likely, unlikely, certain, impossible | Sorting everyday events by how likely they are |
 | 3 to 6 | Fractions as chances, simple experiments | Rolling a dice 60 times and comparing with 1/6 |
 | 7 and 8 | Sample spaces and relative frequency | Listing outcomes for two coins |
@@ -133,14 +129,14 @@ Year 9 families interested in the Queensland Academies can read our [Queensland 
 
 This page stays with everyday maths.
 
+Calendar and clock
+
 ## The 2027 Queensland school year, on Brisbane time
 
 Queensland keeps the same clock all year, which makes lesson times simple.
 
-**Queensland state school terms, 2027**
-
 | Term | Dates | Length |
-|---|---|---|
+| --- | --- | --- |
 | Term 1 | Wednesday 27 January to Thursday 25 March | 9 weeks |
 | Term 2 | Monday 12 April to Friday 25 June | 11 weeks |
 | Term 3 | Monday 12 July to Friday 17 September | 10 weeks |
@@ -160,6 +156,8 @@ Holiday revision is available on request.
 
 Sources: Queensland Department of Education, [future school dates](https://education.qld.gov.au/about-us/calendar/future-dates); IANA time zone database, Australia/Brisbane. Read 14 October 2026.
 
+Adults in Sunnybank
+
 ## Probability and statistics for grown-ups
 
 Many adults who join us want to read numbers with confidence: risks, averages and percentages in the news and at work.
@@ -178,14 +176,14 @@ Following tree diagrams and probability tables well enough to help a teenager wi
 
 Adult learners have their own classes, separate from school students, or private lessons at a time that suits shift work. The with-and-without replacement question above is a favourite first lesson for adults too, because it shows that a sensible shortcut has limits.
 
+Progress
+
 ## From likely and unlikely to Mathematical Methods
 
 Learners step up once a skill works on a problem they have not met before.
 
-**Steps in chance and reasoning**
-
 | Usually | Step | Shown when the learner can |
-|---|---|---|
+| --- | --- | --- |
 | Prep to Year 2 | 1. Language of chance | Place events on a likely-to-unlikely line and explain why |
 | Years 3 to 6 | 2. Chance as a fraction | Write the chance of rolling a 5 and test it |
 | Years 7 to 10 | 3. Two-step events | Decide whether replacement matters and calculate both ways |
@@ -194,63 +192,293 @@ Learners step up once a skill works on a problem they have not met before.
 ### Coming in at Year 11
 
 Students who join late often need algebra and fractions shored up first; we say how long that should take.
+
 It is the quickest path to coping with senior work.
 
 ### Adults
 
 Adults often come for statistics at work or to help with homework.
+
 They learn in adult groups or one to one.
+
+All courses
 
 ## Maths courses for Sunnybank learners
 
 Grouped by stage; card titles are our course names, lessons follow the Australian Curriculum and Queensland senior subjects.
 
+I
+
 ### Prep to Year 6
 
 Primary
 
-- [Early number](/courses/early-math-foundations): Ages 4 to 7, with objects.
-- [Mental maths](/courses/mental-maths-mastery-kids): Reasoned quick arithmetic.
-- [Abacus](/courses/abacus-mental-maths-course-for-kids): Beads to mental images.
+SNB / P1
+
+#### Early number
+
+Ages 4 to 7, with objects.
+
+[Open the syllabus](/courses/early-math-foundations)
+
+SNB / P2
+
+#### Mental maths
+
+Reasoned quick arithmetic.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+SNB / P3
+
+#### Abacus
+
+Beads to mental images.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)II
 
 ### Years 7 to 10
 
 Secondary
 
-- [Years 7 to 10 maths](/courses/comprehensive-middle-school-mathematics-mastery): Algebra, geometry and chance.
-- [Algebra foundations](/courses/algebra-foundations-masterclass): For a learner who slipped.
-- [Maths through coding](/courses/maths-through-coding): Simulate probability in Python.
+SNB / S1
+
+#### Years 7 to 10 maths
+
+Algebra, geometry and chance.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+SNB / S2
+
+#### Algebra foundations
+
+For a learner who slipped.
+
+[Open the syllabus](/courses/algebra-foundations-masterclass)
+
+SNB / S3
+
+#### Maths through coding
+
+Simulate probability in Python.
+
+[Open the syllabus](/courses/maths-through-coding)III
 
 ### Senior and adults
 
 Years 11, 12 and beyond
 
-- [Senior maths](/courses/complete-high-school-mathematics-mastery): For Mathematical Methods.
-- [Statistics and probability](/courses/statistics-probability-maths-course): In depth, for older learners.
-- [University maths](/courses/college-mathematics-complete-masterclass): Calculus and linear algebra.
+SNB / H1
+
+#### Senior maths
+
+For Mathematical Methods.
+
+[Open the syllabus](/courses/complete-high-school-mathematics-mastery)
+
+SNB / H2
+
+#### Statistics and probability
+
+In depth, for older learners.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)
+
+SNB / H3
+
+#### University maths
+
+Calculus and linear algebra.
+
+[Open the syllabus](/courses/college-mathematics-complete-masterclass)
+
+Routine
 
 ## A Sunnybank week of maths
 
 Fixed weekly times on Brisbane time, which never shifts for daylight saving.
 
-- **Weekday afternoons** Prep to Year 10.
-- **Weekday evenings** Senior students and adults.
-- **Weekends** Longer lessons on request.
+Weekday afternoons
 
-- **One teacher** The same teacher each week.
-- **Family updates** A short, honest note after lessons.
-- **Grouped by level** Classmates working at the same point.
-- **Real data** Census counts and simulations in lessons.
-- **Extra before exams** Private lessons can be added.
-- **Explain first** Learners say why before they drill how.
+Prep to Year 10.
+
+Weekday evenings
+
+Senior students and adults.
+
+Weekends
+
+Longer lessons on request.
+
+### One teacher
+
+The same teacher each week.
+
+### Family updates
+
+A short, honest note after lessons.
+
+### Grouped by level
+
+Classmates working at the same point.
+
+### Real data
+
+Census counts and simulations in lessons.
+
+### Extra before exams
+
+Private lessons can be added.
+
+### Explain first
+
+Learners say why before they drill how.
+
+Student work
+
+## What our learners have made
+
+Projects by students who started with maths like this. More in the [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees for Sunnybank maths lessons
 
 Families outside India pay a set monthly fee in US dollars, with no joining fee and no contract.
 
-- Free first class: USD 0. A full lesson at the right level. An honest summary. No card required.
-- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher all term. Practice checked. Stop after any month.
-- One to one: USD 150 a month. Private teaching. One goal at a time. Helpful before senior exams.
+Free first class
+
+USD 0
+
+no card required
+
+- A full lesson at the right level
+- An honest summary
+- No card required
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners at one level
+- The same teacher all term
+- Practice checked
+- Stop after any month
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- Private teaching
+- One goal at a time
+- Helpful before senior exams
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Reviews posted on our Google profile, unedited.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Sunnybank maths questions
 
 ## Questions about a maths tutor in Sunnybank
 
@@ -298,15 +526,54 @@ It lays out each stage of a chance experiment as branches, so probabilities can 
 
 The first lesson is free. Monthly fees for groups and private lessons are in the fees panel on this page.
 
+Also on this site
+
 ## More for Sunnybank learners
 
-- [Queensland Academies entry maths](/queensland-academies-entry-maths-practice): For Year 9 applicants.
-- [NAPLAN numeracy](/naplan-numeracy-practice-online): Years 3, 5, 7 and 9.
-- [Years 7 to 10 maths](/australian-curriculum-maths-year-7-to-10-help): The national curriculum.
-- [Maths competitions](/australian-mathematics-competition-practice-by-year): Practice by year.
-- [Maths tutoring costs](/maths-tutor-cost-australia-explained): What lessons cost.
-- [Coding in Sunnybank](/best-coding-and-ai-classes-in-sunnybank-brisbane): Programming for the suburb.
+Queensland and national maths pages and our Sunnybank coding page.
 
-## Contact
+### [Queensland Academies entry maths](/queensland-academies-entry-maths-practice)
 
-Book the free first class at [https://learn.modernagecoders.com/maths-tutor-sunnybank](https://learn.modernagecoders.com/maths-tutor-sunnybank#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+For Year 9 applicants.
+
+### [NAPLAN numeracy](/naplan-numeracy-practice-online)
+
+Years 3, 5, 7 and 9.
+
+### [Years 7 to 10 maths](/australian-curriculum-maths-year-7-to-10-help)
+
+The national curriculum.
+
+### [Maths competitions](/australian-mathematics-competition-practice-by-year)
+
+Practice by year.
+
+### [Maths tutoring costs](/maths-tutor-cost-australia-explained)
+
+What lessons cost.
+
+### [Coding in Sunnybank](/best-coding-and-ai-classes-in-sunnybank-brisbane)
+
+Programming for the suburb.
+
+Start here
+
+## Book a free Sunnybank lesson
+
+Tell us the learner's year and what feels difficult. We teach a full lesson and then give a straight answer about next steps.
+
+Read first: [how we teach](/how-we-teach) and [online maths tutoring in Australia](/online-maths-tutoring-australia).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20a%20learner%20in%20Sunnybank.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+We are a team in India, hence the +91 number, with no office in Brisbane. WhatsApp is usually the quickest way to reach us.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/maths-tutor-sunnybank*

@@ -4,46 +4,32 @@ description: "Live online coding, AI, Python and maths classes across Yorkshire 
 canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-yorkshire-and-the-humber
 source: src/pages/coding-and-ai-classes-in-yorkshire-and-the-humber.html
 ---
-> Yorkshire and The Humber had 5,480,774 usual residents at the 2021 census, across 21 local authorities. Leeds is its largest built-up area, followed by Bradford, Kingston upon Hull, York and Huddersfield, with Wakefield, Halifax, Doncaster, Grimsby, Scunthorpe, Harrogate, Rotherham and Barnsley among the other large towns. We teach every class live by video, with teachers in India. Learners of 6 to 67 take coding, AI, Python and maths, privately or in groups of fifteen to twenty sorted by level. One free lesson picks the starting course. This page indexes our Yorkshire and Humber pages and adds a temperature project. Those who continue pay USD 100 per month for a class place, or USD 150 per month to learn one-to-one.
+> Live online coding, AI, Python and maths classes across Yorkshire and the Humber, with pages for Leeds, Sheffield, Bradford, Hull, York and all four counties.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [England](/coding-and-ai-classes-in-england) / Yorkshire and the Humber
-
-Yorkshire and the Humber / Live online
-
-# Coding and AI classes in Yorkshire and the Humber
-
-**What are the best coding and AI classes in Yorkshire and the Humber?** Yorkshire and The Humber had 5,480,774 usual residents at the 2021 census, across 21 local authorities. Leeds is its largest built-up area, followed by Bradford, Kingston upon Hull, York and Huddersfield, with Wakefield, Halifax, Doncaster, Grimsby, Scunthorpe, Harrogate, Rotherham and Barnsley among the other large towns. We teach every class live by video, with teachers in India. Learners of 6 to 67 take coding, AI, Python and maths, privately or in groups of fifteen to twenty sorted by level. One free lesson picks the starting course. This page indexes our Yorkshire and Humber pages and adds a temperature project. Those who continue pay USD 100 per month for a class place, or USD 150 per month to learn one-to-one.
-
-Three Met Office stations in the region publish long monthly records: Whitby, Bradford and Sheffield. Over 2000 to 2020 our sums make Sheffield the warmest at 10.44 degrees, then Whitby at 10.06, then Bradford at 9.86. So is the coast warmer than West Yorkshire? Not so fast. Bradford's station stands 134 metres above sea level and Whitby's only 41, and air generally gets cooler as you climb, by roughly 0.65 degrees for every 100 metres. Before comparing places, a fair analyst removes the effect of height, and when you do, the ranking changes and a different pattern appears. This page's project makes that adjustment in Python and shows how an unadjusted comparison can mislead.
-
-Facts last verified 26 September 2026. Teaching is online; no Yorkshire and the Humber branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses across Yorkshire and the Humber
 
 ## Starting courses in Yorkshire and the Humber
 
 A Year 2 pupil in Grimsby who likes the seaside, a Year 8 in Rotherham starting Python, a Year 12 in Harrogate on A level maths, and a Barnsley adult learning data skills. Each gets a free first lesson.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 12): Block coding with hills, heights and simple charts.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): Rates, units and adjustments worked through in code.
-- [High School Mathematics](/courses/complete-high-school-mathematics-mastery) (Ages 14 to 18): Full secondary maths, including rates of change and modelling.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Adults): Python for adults from first steps to real analysis.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 12Coding for KidsBlock coding with hills, heights and simple charts.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingRates, units and adjustments worked through in code.See the syllabus](/courses/maths-through-coding)[![High School Mathematics course thumbnail](/images/high-school-maths.webp)Ages 14 to 18High School MathematicsFull secondary maths, including rates of change and modelling.See the syllabus](/courses/complete-high-school-mathematics-mastery)[![Python Masterclass course thumbnail](/images/python-college.webp)AdultsPython MasterclassPython for adults from first steps to real analysis.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)The region counted
 
 ## 5,480,774 people in Yorkshire and the Humber
 
 Nomis supplies the region's 2021 census usual-resident count from ONS. Only ONS built-up areas that sit fully inside Yorkshire and The Humber appear in the towns table.
 
-**Yorkshire and The Humber: ONS 2021 built-up areas wholly inside the region**
-
 | Place | Residents | Place | Residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Leeds | 536,280 | Doncaster | 87,455 |
 | Bradford | 333,950 | Grimsby | 85,925 |
 | Kingston upon Hull | 270,810 | Scunthorpe | 81,265 |
@@ -60,20 +46,20 @@ Our pages across Yorkshire and the Humber, each with its own project, are linked
 
 The [England](/coding-and-ai-classes-in-england) page explains schooling, and [A level Computer Science NEA help](/a-level-computer-science-nea-help) covers the programming project.
 
+The Yorkshire and Humber project
+
 ## Adjust for height, then compare
 
 One multiplication per station changes the whole ranking.
 
 The learner reads the three station files, keeps 2000 to 2020, and averages the monthly means. The window is chosen with care: Whitby's file records that its station moved in 2000 from a site 60 metres up to one 41 metres up, and mixing the two would blur the comparison. Then comes the adjustment. Each station's height in metres, multiplied by 0.0065, estimates how much cooler it is than it would be at sea level, so adding that amount puts all three on the same footing. The 0.65 degrees per 100 metres is a standard textbook average; real rates vary with weather.
 
-**Our height-adjusted means from Met Office station data, 2000 to 2020, 26 September 2026**
-
 | Station | Height | Measured mean | Adjusted to sea level |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Sheffield | 131 m | 10.44 C | 11.29 C |
 | Bradford | 134 m | 9.86 C | 10.74 C |
 | Whitby | 41 m | 10.06 C | 10.33 C |
-| Ranking |  | Sheffield, Whitby, Bradford | Sheffield, Bradford, Whitby |
+| Ranking |   | Sheffield, Whitby, Bradford | Sheffield, Bradford, Whitby |
 
 Before adjustment, Whitby seems warmer than Bradford. After it, Bradford is warmer by about 0.4 degrees, and the adjusted order, Sheffield then Bradford then Whitby, matches the stations' latitudes from south to north: 53.38, 53.81 and 54.48 degrees. Height was hiding a north-to-south pattern. That does not prove latitude is the whole story, since the sea, towns and the exact site all play a part, but it shows why measured values should not be ranked before known effects are removed.
 
@@ -95,14 +81,14 @@ Test the unit slip, try different lapse rates, and discuss what else could expla
 
 Monthly temperatures and station heights come from the Met Office files. The window, the averages and the 0.65 degree adjustment are ours, so the adjusted figures illustrate the method rather than giving official values.
 
+The three stations
+
 ## Three long station records
 
 How each station file describes its site.
 
-**Met Office historic station data for Whitby, Bradford and Sheffield, as stated in each file**
-
 | Station | Latitude and longitude | Height | Note in the file |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Whitby | Lat 54.481, Lon -0.624 | 41 m (60 m until December 1999) | Whitby Coastguard until 1999, Whitby from 2000 |
 | Bradford | Lat 53.813, Lon -1.772 | 134 m | One location given |
 | Sheffield | Lat 53.381, Lon -1.490 | 131 m | One location given |
@@ -111,14 +97,37 @@ Adjusting for a known effect before comparing is a core skill in science, medici
 
 Modern Age Coders has no link with the Met Office or the ONS. The records are theirs, and the adjustments on this page, mistakes and all, are ours.
 
+Year by year
+
 ## From thermometers to fair comparisons
 
 Years here are a rough guide; the trial lesson finds the right level.
 
-- **Years 1 to 4: Compare and sort** Block coding that compares, sorts and ranks. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 5 to 8: Rates and units** Python with rates, units and simple adjustments. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Models and AI** Linear models, data and first AI, alongside GCSE and A level. [High School Mathematics](/courses/complete-high-school-mathematics-mastery), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Analysis at work** Adult Python for comparing and presenting data. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Years 1 to 4
+
+### Compare and sort
+
+Block coding that compares, sorts and ranks.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 5 to 8
+
+### Rates and units
+
+Python with rates, units and simple adjustments.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Models and AI
+
+Linear models, data and first AI, alongside GCSE and A level.
+
+[High School Mathematics](/courses/complete-high-school-mathematics-mastery)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Analysis at work
+
+Adult Python for comparing and presenting data.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)AI and fair comparison
 
 ## An AI can rank places by temperature. Did it adjust for height?
 
@@ -130,30 +139,139 @@ A learner in Yorkshire and the Humber who has seen one adjustment reverse a rank
 
 Spotting an unadjusted comparison before it misleads anyone is a skill a Yorkshire or Humber teenager sharpens by coding in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Lesson set-up
+
 ## From Scunthorpe to Harrogate, on video
 
 Town, village or city, the classroom is a link.
 
-- **Students type** Learners write their own code while the tutor watches the shared screen and asks a well-timed question.
-- **Placed by year group** We start a Halifax Year 5 or a Dewsbury Year 11 at the level their school year suggests, then adjust after the trial; exams are named as their board names them.
-- **Free trial** A whole first lesson for nothing, then a recommendation.
-- **Level first** Each class gathers fifteen to twenty learners who are at the same point, wherever in Britain they live.
-- **Term time** Twice a week in term; no lessons in holidays.
-- **Fixed UK hour** Clock changes leave your lesson time alone; our teachers adapt.
+### Students type
 
-**Why online suits a large region** Five learners at one level and one free hour rarely share a town. Online, a Grimsby or Barnsley learner joins a class at exactly the right stage.
+Learners write their own code while the tutor watches the shared screen and asks a well-timed question.
+
+### Placed by year group
+
+We start a Halifax Year 5 or a Dewsbury Year 11 at the level their school year suggests, then adjust after the trial; exams are named as their board names them.
+
+### Free trial
+
+A whole first lesson for nothing, then a recommendation.
+
+### Level first
+
+Each class gathers fifteen to twenty learners who are at the same point, wherever in Britain they live.
+
+### Term time
+
+Twice a week in term; no lessons in holidays.
+
+### Fixed UK hour
+
+Clock changes leave your lesson time alone; our teachers adapt.
+
+Why online suits a large region
+
+Five learners at one level and one free hour rarely share a town. Online, a Grimsby or Barnsley learner joins a class at exactly the right stage.
+
+Fees
 
 ## Fees in Yorkshire and the Humber
 
 One price covers Leeds, Grimsby and everywhere between, the same price we charge across every country outside India.
 
-- First class: USD 0. One full lesson free, then honest advice.
-- Group tuition: USD 100 a month. Around eight lessons a month with five to ten others.
-- Private tuition: USD 150 a month. Around eight lessons a month with a tutor to yourself.
+First class**USD 0**
+
+One full lesson free, then honest advice.
+
+Group tuition**USD 100**
+
+Around eight lessons a month with five to ten others.
+
+Private tuition**USD 150**
+
+Around eight lessons a month with a tutor to yourself.
 
 We charge in US dollars, never sterling. The first bill comes only once the trial has fixed a course and a weekly time; see the pricing page for holidays, absences and moving between class and private tuition.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Yorkshire%20and%20the%20Humber%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Reviews
+
+## Families review us on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Yorkshire or Humber lesson
+
+A school year or age and an interest are all we need. The trial could be a Scratch map, a first Python program, or the three-station height puzzle.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Yorkshire and the Humber one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Yorkshire%20and%20the%20Humber%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Yorkshire and the Humber questions
+
+The region, the temperature project and practical details.
 
 ### What is the population of Yorkshire and the Humber?
 
@@ -195,10 +313,14 @@ Nothing for the opening lesson, then USD 100 monthly for a group place or USD 15
 
 No. Tell us your school holiday weeks.
 
+Other regions
+
 ## More English regions
 
 Region indexes also cover the [East Midlands](/coding-and-ai-classes-in-east-midlands), the [West Midlands region](/coding-and-ai-classes-in-west-midlands-region) and [the East of England](/coding-and-ai-classes-in-east-of-england). The [England](/coding-and-ai-classes-in-england) page explains schooling, and the [UK hub](/coding-classes-in-united-kingdom) lists the full series.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Send us a WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Yorkshire%20and%20the%20Humber%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-and-ai-classes-in-yorkshire-and-the-humber](https://learn.modernagecoders.com/coding-and-ai-classes-in-yorkshire-and-the-humber#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-yorkshire-and-the-humber*

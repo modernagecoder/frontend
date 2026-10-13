@@ -4,46 +4,32 @@ description: "Live online coding, Python and maths classes across the Scottish B
 canonical: https://learn.modernagecoders.com/coding-classes-in-scottish-borders
 source: src/pages/coding-classes-in-scottish-borders.html
 ---
-> The Scottish Borders had about 116,900 residents in roughly 55,600 households at the 2022 census, living at 24.7 people per square kilometre. It has no single dominant town: Hawick and Galashiels are close in size, with Peebles, Kelso, Selkirk and Jedburgh next, and Eyemouth, Duns and Melrose among the rest. Lessons are given live over video by teachers in India, and a free first lesson places every learner, whether in P1, S6 or long out of school. Coding, Python and maths are open to anyone between six and 67, whether in a class of fifteen to twenty or alone with a tutor. The Borders project begins at Melrose Abbey. Beyond the trial, Borders learners pay a monthly USD 100 for a class place or USD 150 for private lessons.
+> Live online coding, Python and maths classes across the Scottish Borders, from Hawick, Galashiels and Peebles to Kelso, Selkirk, Jedburgh and Melrose.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / Scottish Borders
-
-Scottish Borders / Live online
-
-# Coding classes in the Scottish Borders
-
-**What are the best coding classes in the Scottish Borders?** The Scottish Borders had about 116,900 residents in roughly 55,600 households at the 2022 census, living at 24.7 people per square kilometre. It has no single dominant town: Hawick and Galashiels are close in size, with Peebles, Kelso, Selkirk and Jedburgh next, and Eyemouth, Duns and Melrose among the rest. Lessons are given live over video by teachers in India, and a free first lesson places every learner, whether in P1, S6 or long out of school. Coding, Python and maths are open to anyone between six and 67, whether in a class of fifteen to twenty or alone with a tutor. The Borders project begins at Melrose Abbey. Beyond the trial, Borders learners pay a monthly USD 100 for a class place or USD 150 for private lessons.
-
-Historic Environment Scotland records that Melrose Abbey was founded in 1136 or 1137 by King David I, and that its monks even took a lade of water from a weir on the Tweed about 500 metres away. For a medieval religious house, one of the hardest recurring calculations was the date of Easter, which moves between March and April every year. It depends on a full moon and a Sunday, but in practice on arithmetic tables rather than the real sky. Today the rule fits in a dozen lines of code. This page's project writes those lines in Python and then does what any good programmer should: tests them against every year from 1583 to 4099, and finds that one famous formula needs two special cases to survive.
-
-Facts last verified 26 September 2026. Teaching is online; no Scottish Borders branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for the Borders
 
 ## How Borders learners start
 
 A P2 in Hawick who loves calendars, a P6 in Peebles ready to type code, an S4 in Galashiels working towards National 5, and an adult in Kelso learning to automate. All of them start with the same free trial.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 12): Block coding with counting, calendars and patterns that repeat.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): Remainders, cycles and number puzzles, made concrete with code.
-- [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens) (Ages 13 to 18): Algorithms for teenagers, with testing built in from the first program.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Adults): Python for adults from the start, including dates, data and automation.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 12Coding for KidsBlock coding with counting, calendars and patterns that repeat.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingRemainders, cycles and number puzzles, made concrete with code.See the syllabus](/courses/maths-through-coding)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)Ages 13 to 18Problem Solving for TeensAlgorithms for teenagers, with testing built in from the first program.See the syllabus](/courses/problem-solving-dsa-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)AdultsPython MasterclassPython for adults from the start, including dates, data and automation.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)The Borders in numbers
 
 ## About 116,900 people across the Borders
 
 Council totals are rounded first results from the 2022 census, published by National Records of Scotland. Town sizes come from a separate NRS series for mid-2020.
 
-**Scottish Borders localities above 2,500 people, NRS mid-2020 estimates**
-
 | Locality | Residents | Locality | Residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Hawick | 10,630 | Eyemouth | 3,580 |
 | Galashiels | 10,060 | Langlee | 3,410 |
 | Peebles | 9,000 | Innerleithen | 3,180 |
@@ -57,16 +43,16 @@ At 24.7 residents per square kilometre, the Borders are about a third as densely
 
 The capital has its own [Edinburgh](/best-coding-class-in-edinburgh) page. For qualifications, see [National 5 Maths](/national-5-maths-tuition-online) and [Higher Computing Science](/higher-computing-science-help).
 
+The Borders project
+
 ## When is Easter, and can you prove it?
 
 Two formulas, a trusted library, and 2,517 years of tests.
 
 Easter Sunday is set by a rule: the first Sunday after the church's calculated full moon on or after 21 March. The calculated moon follows tables, not the real sky, so the whole thing reduces to whole-number arithmetic with remainders. The learner codes two famous versions. One, often called the anonymous Gregorian algorithm, is a chain of about a dozen divisions and remainders. The other, by the mathematician Carl Friedrich Gauss, is shorter but comes with two special exceptions. Both are then compared with the Easter function in a well-tested Python library, year by year from 1583 to 4099.
 
-**Our Easter tests, every year from 1583 to 4099, 26 September 2026**
-
 | Method | Years checked | Years wrong | Examples |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Anonymous algorithm | 2,517 | 0 | None |
 | Gauss, with both exceptions | 2,517 | 0 | None |
 | Gauss, exceptions left out | 2,517 | 23 | 1954, 1981, 2049, 2076 |
@@ -92,14 +78,14 @@ Implement Gauss with and without exceptions, test every year against the library
 
 The abbey facts come from the Historic Environment Scotland record. The Easter dates, test counts and percentages come from our own program checked against the python-dateutil library; they do not describe how Melrose itself kept its calendar.
 
+Why Melrose Abbey
+
 ## Founded in 1136 or 1137
 
 What the scheduled monument record says.
 
-**Melrose Abbey, HES scheduled monument SM90214**
-
 | Record detail | What it says |
-|---|---|
+| --- | --- |
 | Founded | 1136 or 1137, by King David I |
 | Water | A lade from a weir on the River Tweed about 500 metres to the west-northwest |
 | Cloister | Unusually north of the church, to use the diverted waters of the Tweed |
@@ -111,14 +97,37 @@ Rare-case bugs like Gauss's missing exceptions are the ones that reach real soft
 
 Historic Environment Scotland and Scottish Borders Council have no connection with us. The record's facts are theirs; the Easter code, the tests and any mistakes are ours.
 
+Stages
+
 ## From calendars to tested algorithms
 
 Stages are a starting guide; the free lesson confirms the level.
 
-- **P1 to P4: Patterns and dates** Block coding with counting, days and repeating patterns. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **P5 to S2: Remainders and rules** Typed Python with division, remainders and simple date puzzles. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **S3 to S6: Algorithms and proof** Algorithms and systematic testing beside National 5, Higher and Advanced Higher Computing Science. [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Dates in real code** Python for adults, including dates, schedules and data. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+P1 to P4
+
+### Patterns and dates
+
+Block coding with counting, days and repeating patterns.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)P5 to S2
+
+### Remainders and rules
+
+Typed Python with division, remainders and simple date puzzles.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)S3 to S6
+
+### Algorithms and proof
+
+Algorithms and systematic testing beside National 5, Higher and Advanced Higher Computing Science.
+
+[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Dates in real code
+
+Python for adults, including dates, schedules and data.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)AI and edge cases
 
 ## An AI can write an Easter function in seconds. Will it remember 1981?
 
@@ -130,30 +139,139 @@ A Borders learner who has run the full test knows to check generated code exhaus
 
 Hunting down the rare year where the answer breaks is a skill no AI supplies, and it is why a Borders teenager should still learn to code in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How lessons run
+
 ## From Eyemouth to Peebles, lessons at home
 
 Across a large rural council area, online lessons remove the drive to an evening club.
 
-- **Type, run, fix** The learner writes every line; the teacher follows the shared screen and helps when it breaks.
-- **The same stage names as school** A Galashiels S3 or a Hawick P6 hears the Curriculum for Excellence terms they already know, up to Advanced Higher. We teach in English.
-- **A free first lesson** A real lesson, no payment, and then honest advice.
-- **Peers at your level** Classes gather fifteen to twenty learners who share a stage, wherever in the world they happen to live.
-- **Term time only** Two lessons a week in term; none during the school holidays.
-- **Clock changes handled** When British clocks go forward or back, your class stays at its usual UK hour; the teachers in India time are the ones who shift.
+### Type, run, fix
 
-**Why groups reach beyond one town** Five learners at the same stage, free at the same hour, rarely live in one Borders town. Grouping by stage across a wider pool gives a pupil in Duns or Innerleithen a class that fits.
+The learner writes every line; the teacher follows the shared screen and helps when it breaks.
+
+### The same stage names as school
+
+A Galashiels S3 or a Hawick P6 hears the Curriculum for Excellence terms they already know, up to Advanced Higher. We teach in English.
+
+### A free first lesson
+
+A real lesson, no payment, and then honest advice.
+
+### Peers at your level
+
+Classes gather fifteen to twenty learners who share a stage, wherever in the world they happen to live.
+
+### Term time only
+
+Two lessons a week in term; none during the school holidays.
+
+### Clock changes handled
+
+When British clocks go forward or back, your class stays at its usual UK hour; the teachers in India time are the ones who shift.
+
+Why groups reach beyond one town
+
+Five learners at the same stage, free at the same hour, rarely live in one Borders town. Grouping by stage across a wider pool gives a pupil in Duns or Innerleithen a class that fits.
+
+Fees
 
 ## Fees in the Scottish Borders
 
 Hawick or Eyemouth, the fee is the same, and it matches every country we teach outside India.
 
-- First class: USD 0. A complete free lesson, followed by a recommendation.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty.
-- Private tuition: USD 150 a month. About eight lessons a month with one teacher.
+First class**USD 0**
+
+A complete free lesson, followed by a recommendation.
+
+Group tuition**USD 100**
+
+About eight lessons a month in a group of fifteen to twenty.
+
+Private tuition**USD 150**
+
+About eight lessons a month with one teacher.
 
 All fees are in US dollars; there is no sterling price list. We bill only after the free lesson has set a course and weekly time, and the pricing page explains holidays, missed lessons and switching formats.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20the%20Scottish%20Borders%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Reviews
+
+## Star ratings and comments on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Borders lesson
+
+A line about the learner is enough: age or stage, plus something they enjoy. From that we plan a first lesson such as a Scratch game, some Python, or the Easter calculation on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Scottish Borders one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20the%20Scottish%20Borders%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Scottish Borders questions
+
+The council area, the Melrose Abbey project and practical points.
 
 ### How many people live in the Scottish Borders?
 
@@ -195,10 +313,14 @@ One trial lesson at no charge; after it, a group seat is USD 100 per month and o
 
 We follow your school's calendar: when the Borders holidays begin, lessons stop, and they pick up again in the new term.
 
+Nearby
+
 ## Other pages near the Borders
 
 Next door in our series, [Midlothian](/coding-classes-in-midlothian) works out which faces of a sundial catch the sun, [East Lothian](/coding-classes-in-east-lothian) models Bass Rock gannets and [Dumfries and Galloway](/coding-classes-in-dumfries-and-galloway) counts dark-sky stars. The full list is on our [Scotland](/coding-and-ai-classes-in-scotland) page. The [UK hub](/coding-classes-in-united-kingdom) covers the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20the%20Scottish%20Borders%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-scottish-borders](https://learn.modernagecoders.com/coding-classes-in-scottish-borders#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-scottish-borders*

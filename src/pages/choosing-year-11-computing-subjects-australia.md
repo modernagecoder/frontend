@@ -4,34 +4,28 @@ description: "Choosing Year 11 computing subjects: NSW Software Engineering and 
 canonical: https://learn.modernagecoders.com/choosing-year-11-computing-subjects-australia
 source: src/pages/choosing-year-11-computing-subjects-australia.html
 ---
-> In NSW, the senior computing courses are Software Engineering 11-12, centred on programming, and Enterprise Computing 11-12, centred on data and systems; each is 2 units over Year 11 and Year 12. In Victoria, VCE Applied Computing runs across Units 1 to 4 with Data Analytics and Software Development in Year 12, and Algorithmics (HESS) is a Units 3 and 4 study. Choose by interest, then check enrolment rules.
+> Choosing Year 11 computing subjects: NSW Software Engineering and Enterprise Computing, VCE Algorithmics and Applied Computing, and how the rules fit together.
 
-[Home](/) / [Coding classes in Australia](/coding-classes-in-australia) / Choosing computing subjects
+In short
 
-Australia · Year 10 into Year 11 · Computing subjects
+In NSW, the senior computing courses are Software Engineering 11-12, centred on programming, and Enterprise Computing 11-12, centred on data and systems; each is 2 units over Year 11 and Year 12. In Victoria, VCE Applied Computing runs across Units 1 to 4 with Data Analytics and Software Development in Year 12, and Algorithmics (HESS) is a Units 3 and 4 study. Choose by interest, then check enrolment rules.
 
-# Choosing Year 11 computing subjects
-
-Subject selection in Year 10 can feel like a decision about the rest of a student's life. For computing, it is simpler than it looks once you know what each subject actually contains. This guide sets out the senior computing courses in New South Wales and Victoria from the authorities' own pages, explains the enrolment rules that trip students up, and leaves the ATAR guesswork out entirely.
-
-At a glance: NSW programming course: Software Engineering 11-12; NSW data and systems course: Enterprise Computing 11-12; VCE algorithms study: Algorithmics (HESS), Units 3 and 4; VCE computing study: Applied Computing, Units 1 to 4; NSW course size: 2 units, 120 hours a year; Other states: Check your authority directly; We teach: Programming before and during; We never: Advise picking for the ATAR. Rated 4.9 across 547 Google reviews.
+Before Year 11 starts
 
 ## Three courses that make any choice easier
 
 Real programming fluency, the data skills behind the systems courses, and algorithmic thinking.
 
-- [Python from scratch](/courses/python-complete-masterclass-teens): Writing, testing and debugging real programs, so a Year 11 computing course starts from strength rather than from zero.
-- [Working with data](/courses/data-science-course-for-teens-python-data): Cleaning and charting data in Python, a head start for Enterprise Computing or VCE Data Analytics.
-- [Algorithmic thinking](/courses/problem-solving-dsa-masterclass-teens): Searching, sorting and graph problems reasoned carefully, the territory of VCE Algorithmics and harder programming.
+[![Python for Teens course thumbnail](/images/python-teens.webp)  CSUB / 01 Python from scratch Writing, testing and debugging real programs, so a Year 11 computing course starts from strength rather than from zero. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)  CSUB / 02 Working with data Cleaning and charting data in Python, a head start for Enterprise Computing or VCE Data Analytics. Open the syllabus →](/courses/data-science-course-for-teens-python-data)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)  CSUB / 03 Algorithmic thinking Searching, sorting and graph problems reasoned carefully, the territory of VCE Algorithmics and harder programming. Open the syllabus →](/courses/problem-solving-dsa-masterclass-teens)
+
+New South Wales
 
 ## Two computing courses, both 2 units
 
 NESA's enrolment details for each course, from the NSW Curriculum site, checked on 7 October 2026.
 
-**NSW senior computing courses: enrolment details**
-
 | Course | Year 11 | Year 12 | Size | Year 12 prerequisite |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Software Engineering 11-12 (2022) | 11345 | 15365 | 2 units, 120 hours each year | Software Engineering Year 11 |
 | Enterprise Computing 11-12 (2022) | 11175 | 15175 | 2 units, 120 hours each year | Enterprise Computing Year 11 |
 
@@ -45,14 +39,14 @@ The two courses do not exclude each other in NESA's lists: each excludes only th
 
 Sources: NSW Curriculum enrolment details for [Software Engineering 11-12](https://curriculum.nsw.edu.au/learning-areas/tas/software-engineering-11-12-2022/overview/course) and [Enterprise Computing 11-12](https://curriculum.nsw.edu.au/learning-areas/tas/enterprise-computing-11-12-2022/overview/course). Checked on 7 October 2026.
 
+Victoria
+
 ## Applied Computing across four units, Algorithmics at the top
 
 The VCE structure differs from NSW. The details below come from VCAA's study design and examination pages, checked on 7 October 2026.
 
-**VCE computing studies and their 2026 examinations**
-
 | Study | Units | Study design accredited from | 2026 VCE exam (times include reading) |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Applied Computing: Data Analytics | Units 1 and 2 Applied Computing, then Units 3 and 4 Data Analytics | 2025 | Monday 9 November, 11:45 am to 2:00 pm |
 | Applied Computing: Software Development | Units 1 and 2 Applied Computing, then Units 3 and 4 Software Development | 2025 | Friday 13 November, 3:00 pm to 5:15 pm |
 | Algorithmics (HESS) | Units 3 and 4 | 2023 | Wednesday 4 November, 11:45 am to 2:00 pm |
@@ -67,16 +61,16 @@ VCAA's pages are the authority for any rule about combining studies or counting 
 
 Sources: VCAA study pages for [Algorithmics (HESS)](https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/algorithmics/vce-algorithmics-hess) and [Applied Computing](https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/applied-computing/applied-computing); [VCAA 2026 VCE examination timetable](https://www.vcaa.vic.edu.au/administration/Key-dates/Pages/VCE-exam-timetable.aspx). Checked on 7 October 2026.
 
+A small computing problem
+
 ## Checking a subject list for exclusions
 
 NESA publishes, for every course, a list of other courses it excludes. Checking a candidate subject list against those lists is a neat little programming problem, and it catches mistakes before enrolment.
 
 A worked example, using NESA's published exclusions and an invented subject list. A Year 10 student in NSW drafts this list: Mathematics Standard Year 11, Mathematics Advanced Year 11, Software Engineering Year 11, Enterprise Computing Year 11 and Computing Technology Life Skills Year 11. A program checks every pair against the exclusion lists.
 
-**Pairs flagged by the exclusion check (NESA exclusion lists)**
-
 | Pair | Excluded? | Which rule |
-|---|---|---|
+| --- | --- | --- |
 | Mathematics Standard and Mathematics Advanced | Yes | Each lists the other as an exclusion |
 | Software Engineering and Computing Technology Life Skills | Yes | Software Engineering excludes course 16623 |
 | Enterprise Computing and Computing Technology Life Skills | Yes | Enterprise Computing excludes course 16623 |
@@ -91,14 +85,14 @@ An exclusion check does not say whether a combination is wise or whether a schoo
 
 Victoria has its own rules for combining studies, set by VCAA. The same programming idea works there too, with VCAA's rules as the data.
 
+Making the choice
+
 ## How to decide, honestly
 
 Our suggestions are about learning, not about ranks. Subject decisions belong with the student, the family and the school.
 
-**Questions that sort out most computing subject choices**
-
 | Question | Points towards |
-|---|---|
+| --- | --- |
 | Do you enjoy writing programs and fixing them? | NSW Software Engineering, or VCE Software Development |
 | Do you enjoy asking questions of data? | NSW Enterprise Computing, or VCE Data Analytics |
 | Do you enjoy puzzles about efficient algorithms? | VCE Algorithmics (HESS), or harder programming alongside any course |
@@ -108,14 +102,14 @@ We deliberately do not say which subject is "good for the ATAR". The admissions 
 
 Whatever the choice, the most useful preparation in Year 10 is the same: write real programs, read other people's code, and get comfortable with being stuck for a while before a bug gives way. That is what we teach, in any state.
 
+Getting ready
+
 ## Four things to do in Year 10
 
 Preparation that helps whichever computing subject a student ends up taking.
 
-**Year 10 preparation for senior computing**
-
 | Step | What to do | The sign it is working |
-|---|---|---|
+| --- | --- | --- |
 | 1 | Learn one language properly | Writes a 100-line program without copying |
 | 2 | Read the subject guides | Can name the focus areas of each option |
 | 3 | Try a small data project | Has cleaned and charted one real data set |
@@ -124,63 +118,293 @@ Preparation that helps whichever computing subject a student ends up taking.
 ### If no computing subject fits
 
 Some schools do not offer every course, and some timetables do not allow it. Learning to code outside school keeps the door open for university computing courses, many of which teach programming from the start.
+
 Competitions are another route; the [competitions calendar](/australian-coding-maths-and-ai-competitions-calendar) lists coding contests for secondary students.
 
 ### Alongside mathematics
 
 Computing and mathematics support each other. NSW students choosing between mathematics courses can read our [Year 11 mathematics page](/preliminary-hsc-maths-year-11-help).
+
 Victorian students heading into Methods can start with our [Year 10 Methods preparation page](/year-10-maths-methods-preparation).
+
+The catalogue
 
 ## Nine courses for future computing students
 
 Grouped by the kind of senior subject they prepare for. Each opens a full syllabus.
 
+I
+
 ### For programming courses
 
 Software Engineering, Software Development
 
-- [Python for teens](/courses/python-complete-masterclass-teens): A complete first language, with testing from the start.
-- [Java for teens](/courses/java-programming-masterclass-for-teens): Objects and classes in a strongly typed language.
-- [Full stack web development](/courses/full-stack-web-development-teens-masterclass): Programming for the web, front end to back end.
+CSUB / P / 01
+
+#### Python for teens
+
+A complete first language, with testing from the start.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+CSUB / P / 02
+
+#### Java for teens
+
+Objects and classes in a strongly typed language.
+
+[Open the syllabus](/courses/java-programming-masterclass-for-teens)
+
+CSUB / P / 03
+
+#### Full stack web development
+
+Programming for the web, front end to back end.
+
+[Open the syllabus](/courses/full-stack-web-development-teens-masterclass)II
 
 ### For data and systems courses
 
 Enterprise Computing, Data Analytics
 
-- [Data science for teens](/courses/data-science-course-for-teens-python-data): Analysis and charts with Python.
-- [MySQL for teens](/courses/mysql-mastery-for-teens): Databases and SQL queries.
-- [Cybersecurity for teens](/courses/cybersecurity-course-for-teens-ethical-defensive): Security thinking for systems that hold data.
+CSUB / D / 01
+
+#### Data science for teens
+
+Analysis and charts with Python.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)
+
+CSUB / D / 02
+
+#### MySQL for teens
+
+Databases and SQL queries.
+
+[Open the syllabus](/courses/mysql-mastery-for-teens)
+
+CSUB / D / 03
+
+#### Cybersecurity for teens
+
+Security thinking for systems that hold data.
+
+[Open the syllabus](/courses/cybersecurity-course-for-teens-ethical-defensive)III
 
 ### For algorithm-heavy study
 
 Algorithmics and beyond
 
-- [Problem solving for teens](/courses/problem-solving-dsa-masterclass-teens): Data structures and algorithms, reasoned carefully.
-- [Competitive programming](/courses/competitive-programming-for-teens-course): Efficient solutions under time limits.
-- [AI and machine learning](/courses/ai-ml-masterclass-teens): Models built and evaluated in Python.
+CSUB / A / 01
+
+#### Problem solving for teens
+
+Data structures and algorithms, reasoned carefully.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
+
+CSUB / A / 02
+
+#### Competitive programming
+
+Efficient solutions under time limits.
+
+[Open the syllabus](/courses/competitive-programming-for-teens-course)
+
+CSUB / A / 03
+
+#### AI and machine learning
+
+Models built and evaluated in Python.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+How we work
 
 ## Weekly lessons for students in any state
 
 Our tutors are based in India. Sydney and Melbourne sit five and a half hours ahead of India time during daylight saving and four and a half hours ahead in winter; Perth is two and a half hours ahead all year. After-school hours across Australia therefore fall in the Indian working day.
 
-- **After school** A weekly lesson through Year 10 and Year 11.
-- **Weekends** Longer project sessions.
-- **Holidays** Short intensives before a new course starts.
+After school
 
-- **Programs, not slides** Students write and run code in every lesson.
-- **Any state** We prepare students for whichever course their school offers.
-- **No ATAR talk** Choices are about interests; ranks are left to the admissions centres.
-- **Groups of fifteen to twenty** Students at one level, each sharing their work.
-- **One-to-one option** Private lessons for a student with a specific aim.
-- **Honest throughout** We promise effort and clarity, never results.
+A weekly lesson through Year 10 and Year 11.
+
+Weekends
+
+Longer project sessions.
+
+Holidays
+
+Short intensives before a new course starts.
+
+### Programs, not slides
+
+Students write and run code in every lesson.
+
+### Any state
+
+We prepare students for whichever course their school offers.
+
+### No ATAR talk
+
+Choices are about interests; ranks are left to the admissions centres.
+
+### Groups of fifteen to twenty
+
+Students at one level, each sharing their work.
+
+### One-to-one option
+
+Private lessons for a student with a specific aim.
+
+### Honest throughout
+
+We promise effort and clarity, never results.
+
+Student work
+
+## Projects our students have published
+
+Personal projects, separate from school. Explore more in our [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Billed monthly in US dollars, at one rate for every family outside India. Free to join, and you only pay for the current month.
 
-- Free first class: USD 0. A real programming lesson. An honest chat about options. No card required.
-- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same tutor each week. Code reviewed together. A certificate at the end.
-- One to one: USD 150 a month. A personal tutor. Shaped around your goals. Flexible timing.
+Free first class
+
+USD 0
+
+no card required
+
+- A real programming lesson
+- An honest chat about options
+- No card required
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students at one level
+- The same tutor each week
+- Code reviewed together
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A personal tutor
+- Shaped around your goals
+- Flexible timing
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Exactly as students and parents posted them on Google.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about computing subjects
 
 ## What Year 10 families ask us
 
@@ -224,15 +448,54 @@ Each has its own senior secondary authority and subjects. We could not read all 
 
 Learn one programming language properly, try a small data project, read your school's subject guide, and check your draft subject list against the published rules.
 
+Related pages
+
 ## Read more before choosing
 
-- [HSC Software Engineering](/hsc-software-engineering-help): The NSW programming course in full.
-- [HSC Enterprise Computing](/hsc-enterprise-computing-help): The NSW data and systems course.
-- [The ATAR explained](/atar-explained-for-coding-students): Ranks and scaling, from the sources.
-- [Coding from Year 7](/coding-for-year-7-australia): Where programming starts at secondary school.
-- [Coding classes in Australia](/coding-classes-in-australia): Every Australian page we have.
-- [How we teach](/how-we-teach): Our method, step by step.
+The courses in detail, how ranks work, and the mathematics alongside.
 
-## Contact
+### [HSC Software Engineering](/hsc-software-engineering-help)
 
-Book the free first class at [https://learn.modernagecoders.com/choosing-year-11-computing-subjects-australia](https://learn.modernagecoders.com/choosing-year-11-computing-subjects-australia#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The NSW programming course in full.
+
+### [HSC Enterprise Computing](/hsc-enterprise-computing-help)
+
+The NSW data and systems course.
+
+### [The ATAR explained](/atar-explained-for-coding-students)
+
+Ranks and scaling, from the sources.
+
+### [Coding from Year 7](/coding-for-year-7-australia)
+
+Where programming starts at secondary school.
+
+### [Coding classes in Australia](/coding-classes-in-australia)
+
+Every Australian page we have.
+
+### [How we teach](/how-we-teach)
+
+Our method, step by step.
+
+Start here
+
+## Book a free taster lesson
+
+Tell us the state, the subjects being considered and how much coding the student has done. The free lesson gives a feel for real programming, which is often the deciding factor.
+
+Browsing first? Course outlines are on the [course atlas](/course-atlas), our teaching method is on [how we teach](/how-we-teach), and costs are set out on [what classes cost in Australia](/coding-classes-cost-australia).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20class%20to%20prepare%20for%20a%20senior%20computing%20subject.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp brings the quickest reply. The +91 prefix is Indian since we teach from India; we have no Australian office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/choosing-year-11-computing-subjects-australia*

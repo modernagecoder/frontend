@@ -4,46 +4,32 @@ description: "Online AI, programming, Python and vibe coding classes for Dewsbur
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-dewsbury
 source: src/pages/ai-and-programming-classes-in-dewsbury.html
 ---
-> The ONS gives 63,720 people for the Dewsbury built-up area at the 2021 census, making it the largest town in Kirklees after Huddersfield, with Batley at 44,500 and Mirfield at 19,610 close by. Learners aged 6 to 67 in Dewsbury, Batley, Mirfield or Heckmondwike can take AI, programming, Python, vibe coding and maths live online with tutors based in India, one-to-one or in a same-level class of fifteen to twenty. We start with how to think, so that learners who build with AI tools also understand them. The free first lesson ends with a course suggestion. The Dewsbury project builds a language model, the idea at the heart of chatbots, from a book about the Brontes. Once the trial is done, a class place is USD 100 per month and solo lessons USD 150 per month.
+> Online AI, programming, Python and vibe coding classes for Dewsbury, Batley, Mirfield and Heckmondwike learners aged 6 to 67, solo or in groups. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Yorkshire and the Humber](/coding-and-ai-classes-in-yorkshire-and-the-humber) / Dewsbury
-
-Dewsbury, Kirklees, West Yorkshire, England / Live online
-
-# AI and programming classes in Dewsbury
-
-**Which are the best AI and programming classes in Dewsbury?** The ONS gives 63,720 people for the Dewsbury built-up area at the 2021 census, making it the largest town in Kirklees after Huddersfield, with Batley at 44,500 and Mirfield at 19,610 close by. Learners aged 6 to 67 in Dewsbury, Batley, Mirfield or Heckmondwike can take AI, programming, Python, vibe coding and maths live online with tutors based in India, one-to-one or in a same-level class of fifteen to twenty. We start with how to think, so that learners who build with AI tools also understand them. The free first lesson ends with a course suggestion. The Dewsbury project builds a language model, the idea at the heart of chatbots, from a book about the Brontes. Once the trial is done, a class place is USD 100 per month and solo lessons USD 150 per month.
-
-Before Patrick Bronte moved to Haworth, Elizabeth Gaskell tells us, he spent five years "at Hartshead, in the parish of Dewsbury", and his daughter Charlotte later taught at a school that moved from Roe Head "to Dewsbury Moor". Gaskell's Life of Charlotte Bronte is free on Project Gutenberg, and it makes a fine training set for one of the simplest language models there is. A bigram model reads the book and counts which word follows which, then predicts the next word from those counts. The chatbots learners use every day are vastly bigger, but they are built around the same question: given the words so far, what comes next? Building the tiny version shows what that question can and cannot answer.
-
-Facts last verified 28 September 2026. Teaching is online; no Dewsbury branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentDewsbury course picks
 
 ## Thinking, vibe coding and AI courses for Dewsbury
 
 Pick by age and interest. Each course opens with a free live lesson, booked without a card.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): Our how-to-think programme: logic, patterns and step-by-step reasoning.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games and word games, then simple apps built by talking to AI.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python and AI projects for teenagers, including the tiny language model.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): How large language models, retrieval and AI agents really work.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsOur how-to-think programme: logic, patterns and step-by-step reasoning.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games and word games, then simple apps built by talking to AI.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensPython and AI projects for teenagers, including the tiny language model.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseHow large language models, retrieval and AI agents really work.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Dewsbury and its neighbours
 
 ## Dewsbury and nearby Kirklees towns
 
 ONS built-up area populations from the 2021 census for Dewsbury and nearby Kirklees towns.
 
-**Built-up areas in Kirklees near Dewsbury, ONS 2021 published populations**
-
 | Built-up area | People (2021) |
-|---|---|
+| --- | --- |
 | Dewsbury | 63,720 |
 | Batley | 44,500 |
 | Mirfield | 19,610 |
@@ -57,16 +43,16 @@ The ONS publishes each of these towns separately, and we quote them that way rat
 
 The county is on [West Yorkshire](/coding-classes-in-west-yorkshire) and the region on [Yorkshire and the Humber](/coding-and-ai-classes-in-yorkshire-and-the-humber). Why every learner starts by thinking rather than prompting is set out on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Dewsbury project
+
 ## A language model built from the Life of Charlotte Bronte
 
 Count word pairs in one volume, predict and generate text, then test on the other volume.
 
 The learner downloads both volumes, lowercases the words and marks where each sentence starts. The first run gives a strange result: after the word "mr", the model predicts a new sentence every single time, 208 out of 208. The cause is the full stop in "Mr.", which the program read as the end of a sentence. Once titles like Mr, Mrs and Dr are handled, "mr" is followed by "bronte" 55 times, the most common pair. Volume 1 then yields 98,792 tokens and 54,305 different word pairs. Some predictions are perfect: "roe" is followed by "head" all 24 times, and "dewsbury" by "moor" 9 times out of 11.
 
-**What the bigram model learned from Volume 1, and how it did on Volume 2, our Python run, 28 September 2026**
-
 | Test | Result |
-|---|---|
+| --- | --- |
 | Word after "roe" | "head", 24 times out of 24 |
 | Word after "dewsbury" | "moor", 9 times out of 11 |
 | Greedy text from "she" | "she was a little more than i have been a little more than i have" |
@@ -95,14 +81,14 @@ Test on held-out text, measure perplexity and compare smoothing methods.
 
 The text is the Project Gutenberg edition of The Life of Charlotte Bronte by Elizabeth Cleghorn Gaskell. The counting, the model and every figure in the tables are our own work.
 
+From bigrams to chatbots
+
 ## What this teaches about vibe coding and AI agents
 
 The tiny model and the big ones share the same basic question.
 
-**The Dewsbury model next to modern AI**
-
 | Tiny bigram model | Modern AI tools |
-|---|---|
+| --- | --- |
 | Looks back one word | Look back over thousands of words of context |
 | Counts pairs in one book | Trained on vast amounts of text |
 | Loops when always choosing the top word | Use sampling to vary their output |
@@ -113,14 +99,37 @@ Knowing that a chatbot predicts likely text, rather than looking up facts, chang
 
 Modern Age Coders is not connected with Project Gutenberg or the Office for National Statistics. The book and the figures are theirs; the model and any mistakes in it are ours.
 
+Stages
+
 ## From word games to language models
 
 The school year is only a first guess; the free lesson settles the level.
 
-- **Years 2 to 7: How to think** Logic, patterns and clear step-by-step reasoning. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Games and word projects, then small apps built with AI and checked. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python and AI** Text, data and language models beside GCSE and A level. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **Adults: Language models and agents** How LLMs, retrieval and AI agents work, built in Python. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Years 2 to 7
+
+### How to think
+
+Logic, patterns and clear step-by-step reasoning.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Games and word projects, then small apps built with AI and checked.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python and AI
+
+Text, data and language models beside GCSE and A level.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)Adults
+
+### Language models and agents
+
+How LLMs, retrieval and AI agents work, built in Python.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)AI and language
 
 ## Does a chatbot know what it is saying?
 
@@ -132,30 +141,139 @@ A learner who has built next-word prediction from scratch checks AI output the w
 
 A Dewsbury teenager who knows how a language model guesses words will use every AI tool more wisely, and that alone makes coding worth learning in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Batley to Mirfield, all online
 
 A computer and a good connection are all any Kirklees home needs.
 
-- **The student at the keys** Learners type, prompt and test every program; the tutor follows over screen share and asks the next question.
-- **The trial finds the start** A Year 3 or a Year 12 begins where the free lesson places them, with their exam board in mind.
-- **A free start** Your opening lesson is on us and finishes with a suggested next step.
-- **Same-level groups** Fifteen to twenty UK learners at one stage per class.
-- **Two sessions a week** Paused in the school holidays.
-- **Your hour, all year** Tutors shift with the UK clocks, so the lesson time holds.
+### The student at the keys
 
-**Why classes meet online** Five Kirklees learners at one level who are free at one time seldom live near each other. Online, each finds a class that fits.
+Learners type, prompt and test every program; the tutor follows over screen share and asks the next question.
+
+### The trial finds the start
+
+A Year 3 or a Year 12 begins where the free lesson places them, with their exam board in mind.
+
+### A free start
+
+Your opening lesson is on us and finishes with a suggested next step.
+
+### Same-level groups
+
+Five to ten UK learners at one stage per class.
+
+### Two sessions a week
+
+Paused in the school holidays.
+
+### Your hour, all year
+
+Tutors shift with the UK clocks, so the lesson time holds.
+
+Why classes meet online
+
+Five Kirklees learners at one level who are free at one time seldom live near each other. Online, each finds a class that fits.
+
+Fees
 
 ## Dewsbury fees
 
 Dewsbury pays the international rate we use in every country other than India.
 
-- First class: USD 0. One whole lesson for free, then a course recommendation.
-- Group tuition: USD 100 a month. About eight live small-group lessons a month.
-- Private tuition: USD 150 a month. About eight live one-to-one lessons a month.
+First class**USD 0**
+
+One whole lesson for free, then a course recommendation.
+
+Group tuition**USD 100**
+
+About eight live small-group lessons a month.
+
+Private tuition**USD 150**
+
+About eight live one-to-one lessons a month.
 
 Fees are in US dollars, not pounds. Invoices wait until the free lesson has agreed a course and a slot in the week. For breaks, absences and changing format, see the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20Dewsbury%20learner.)Reviews
+
+## What West Yorkshire and UK families say on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Dewsbury lesson
+
+Send the learner's age or school year together with an interest or two. Trial lesson ideas: guess-the-next-word games, a Scratch game made with AI help, a first Python script, or reasoning puzzles.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Dewsbury one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20Dewsbury%20learner.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Dewsbury questions
+
+The language model project, vibe coding and practical details.
 
 ### What is the population of Dewsbury?
 
@@ -197,10 +315,14 @@ You pay nothing for the first lesson. Groups then cost USD 100 monthly, and one-
 
 Yes; tell us the dates.
 
+Nearby
+
 ## More pages in West Yorkshire
 
 Next door, [Huddersfield](/best-coding-and-ai-classes-in-huddersfield) has a river-sensor project, and [Wakefield](/best-coding-class-in-wakefield), [Leeds](/best-coding-class-in-leeds) and [Bradford](/best-coding-class-in-bradford) have their own pages. See [West Yorkshire](/coding-classes-in-west-yorkshire) for the county, [Yorkshire and the Humber](/coding-and-ai-classes-in-yorkshire-and-the-humber) for the region, and the [UK hub](/coding-classes-in-united-kingdom) for every page.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20Dewsbury%20learner.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-dewsbury](https://learn.modernagecoders.com/ai-and-programming-classes-in-dewsbury#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-dewsbury*

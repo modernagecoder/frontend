@@ -12,7 +12,7 @@ For parents of Class 12 students · Board + college
 
 Class 12 is the last structured year before college. Our programme keeps CBSE/ICSE CS/IP marks safe, finishes a serious portfolio piece, and sharpens DSA/CP for college CS entry. 1 hour live, 1:1 or small group.
 
-[Book a free demo class](/book-demo)See the curriculum**3,100+**Class 12 students this year**4.9 / 5**Parent rating · 360+ reviews**1 hour**Per live class, 1:1 or group**91%**Finish with CS marks 90+12Class · GradeBoard-safeCollege-readyPortfolio finishedCourses matched for this level
+[Book a free demo class](/book-demo)See the curriculum**10,000+**Students taught live since 2020**4.9 / 5**Rated across 547 Google reviews**1 hour**Per live class, 1:1 or group**15 to 20**Students in a group batch12Class · GradeBoard-safeCollege-readyPortfolio finishedCourses matched for this level
 
 ## Class 12 courses that win the year.
 
@@ -155,9 +155,9 @@ One teacher, one learner, the full 1 hour. The teacher adapts pace in real time,
 
 **₹4,999**/ month · 4 sessionsOption B
 
-### Live Small-Group Online Class
+### Live Group Online Class
 
-4 to 6 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
+15 to 20 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
 
 - Small groups of 4 to 6 similar-level learners
 - 1 hour live session, 2 sessions per week

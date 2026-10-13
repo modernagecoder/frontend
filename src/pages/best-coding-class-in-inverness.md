@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths lessons for Inverness lea
 canonical: https://learn.modernagecoders.com/best-coding-class-in-inverness
 source: src/pages/best-coding-class-in-inverness.html
 ---
-> Highland, the council area around Inverness, had about 235,400 usual residents at Scotland's 2022 census, and only 9.2 people per square kilometre, figures rounded by National Records of Scotland. The British Geological Survey's earthquake database lists a magnitude 5.1 earthquake at Inverness on 13 August 1816. Anyone in Inverness from six to sixty-seven can join live video lessons led by a teacher in India, either one to one or in a class of fifteen to twenty learners at a single level, booked around the Scottish school day and working hours. Nothing is charged for the opening lesson; a place in a class then costs USD 100 each month, and private lessons USD 150.
+> Live online coding, Python, AI and maths lessons for Inverness learners aged 6 to 67, from Merkinch and Dalneigh to Culcabock and Raigmore. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Inverness
-
-Inverness, Highland / Live online
-
-# Coding classes in Inverness
-
-**What are the best coding classes in Inverness?** Highland, the council area around Inverness, had about 235,400 usual residents at Scotland's 2022 census, and only 9.2 people per square kilometre, figures rounded by National Records of Scotland. The British Geological Survey's earthquake database lists a magnitude 5.1 earthquake at Inverness on 13 August 1816. Anyone in Inverness from six to sixty-seven can join live video lessons led by a teacher in India, either one to one or in a class of fifteen to twenty learners at a single level, booked around the Scottish school day and working hours. Nothing is charged for the opening lesson; a place in a class then costs USD 100 each month, and private lessons USD 150.
-
-Since 1970 the British Geological Survey has recorded 883 earthquakes within 100 kilometres of Inverness, nearly all too small to feel. Only 28 reached magnitude 3, and 3 reached magnitude 4. Our Inverness project asks how quickly earthquakes become rarer as they grow, the pattern known as the Gutenberg-Richter law, and it meets a trap straight away: in the 1970s the records near Inverness hardly include anything below magnitude 3, not because small quakes stopped happening, but because the record of that decade did not capture them. Teenagers learn to find the magnitude a catalogue is complete above, then estimate the slope, called the b-value, only from data they can trust.
-
-Facts last verified 23 September 2026. Teaching is online; no Inverness branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Inverness
 
 ## Four courses for the city on the Ness
 
 Choose the course nearest to what the learner already likes. Each begins with a free live lesson, and booking it needs no card.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 12): Block programming for younger children, from games to a shaking-ground simulation with bigger and smaller tremors.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): Powers of ten, logarithms and counting written as short programs, the mathematics behind every magnitude scale.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 18): Statistics on real data in Python, including fitting a law to a catalogue and spotting what the catalogue misses.
-- [Data Science Course](/courses/data-science-complete-masterclass-college) (University and adult): Data science for adults whose records improve over time and who need to separate real change from better detection.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 12Scratch Coding for KidsBlock programming for younger children, from games to a shaking-ground simulation with bigger and smaller tremors.See the syllabus](/courses/scratch-programming-complete-course)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingPowers of ten, logarithms and counting written as short programs, the mathematics behind every magnitude scale.See the syllabus](/courses/maths-through-coding)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 18Data Science for TeensStatistics on real data in Python, including fitting a law to a catalogue and spotting what the catalogue misses.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data Science Course course thumbnail](/images/data-science-college.webp)University and adultData Science CourseData science for adults whose records improve over time and who need to separate real change from better detection.See the syllabus](/courses/data-science-complete-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Inverness today
 
 ## A city in a vast, thinly settled council area
 
 Inverness lies in the Highland council area. National Records of Scotland published the first 2022 census results by council area, each figure rounded to the nearest hundred.
 
-**Highland against Scotland: people counted in 2011 and, rounded, in 2022**
-
 | Where | People in 2011 | People in 2022 (to the nearest hundred) | People per square kilometre in 2022 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Highland | 232,132 | 235,400 | 9.2 |
 | Scotland | 5,295,403 | 5,436,600 | 69.8 |
 
@@ -60,6 +46,8 @@ Children up to 14 made up 14.7% of Highland residents in 2022 (Scotland 15.3%), 
 At 9.2 residents per square kilometre, Highland is very thinly settled; Scotland as a whole averages 69.8.
 
 National Records of Scotland rounds every 2022 figure to the nearest hundred on its own, so parts may not add exactly to totals, and we quote each as published. Our Inverness classes take in the city and the places around the Firth. A Dalneigh eight-year-old making a first game, an S5 pupil from Lochardil working towards Higher Computing Science and a North Kessock adult learning Python for work could each join a different class, placed by level.
+
+Steeple and cathedral
 
 ## An 18th-century steeple and a riverside cathedral
 
@@ -79,16 +67,18 @@ The British Geological Survey's database lists an earthquake at Inverness that d
 
 Historic Environment Scotland also lists, at Category A, the Old High Church, Dunbar's Hospital, the Town House and Balnain House in the centre of the city. We quote the database's early entries exactly as it lists them. We have no connection with Historic Environment Scotland or the British Geological Survey, and the descriptions here are theirs.
 
-**Where the earthquake data comes from** The British Geological Survey publishes a searchable database of earthquakes in and around the UK, with date, time, position, depth, magnitude and a flag marking events it lists as induced. We downloaded every event from 1970 to 2025 in a box around the UK, 12,827 in all, and left out the 489 flagged as induced.
+Where the earthquake data comes from
+
+The British Geological Survey publishes a searchable database of earthquakes in and around the UK, with date, time, position, depth, magnitude and a flag marking events it lists as induced. We downloaded every event from 1970 to 2025 in a box around the UK, 12,827 in all, and left out the 489 flagged as induced.
+
+Signature project
 
 ## How quickly do earthquakes get rarer?
 
 The Gutenberg-Richter law says that the number of earthquakes at or above a magnitude falls by a steady factor for each step up the scale. Plotted on a logarithmic axis, the counts form a straight line, and its slope is the b-value. A b-value of 1 would mean ten times fewer earthquakes for each whole step of magnitude.
 
-**Earthquakes within 100 km of Inverness in the British Geological Survey database, by decade, and the smallest magnitude each decade records reliably**
-
 | Decade | Earthquakes listed | Complete above about | Magnitude 3 or more |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1970s | 97 | 3.4 | 25 |
 | 1980s | 169 | 0.9 | 0 |
 | 1990s | 190 | 0.3 | 1 |
@@ -114,14 +104,14 @@ The 1970s look far more active near Inverness: 25 earthquakes of magnitude 3 or 
 
 Going further back makes the point sharper. The database lists 40 earthquakes within 100 km of Inverness between 1768 and 1969, with a smallest magnitude of 2.0 and a median of 3.2; from 1970 to 2025 the median is 1.1. The early record captured only the quakes large enough to be noticed. Across the whole of the UK since 2000 the b-value comes out lower, between 0.64 and 0.72 depending on the cutoff, and the fact that it rises as the cutoff rises is itself a warning that the smallest events are still undercounted somewhere.
 
+Records that improve
+
 ## Five checks before comparing old and new records
 
 Learned on Highland earthquakes, then used for bird counts, traffic counts, meteor sightings, website analytics and any record whose ability to detect things changes over time.
 
-**Decisions behind the Inverness earthquake study**
-
 | Question | For the earthquake records | What goes wrong if you skip it |
-|---|---|---|
+| --- | --- | --- |
 | What is left out? | The 489 events flagged as induced | Events the database marks as induced mixed in |
 | Where is the record complete? | Completeness found decade by decade | Fewer small events read as a quieter Earth |
 | How is the slope estimated? | Maximum likelihood above the cutoff | A line through incomplete counts |
@@ -144,14 +134,37 @@ Comparing records collected with changing methods, and correcting for what the o
 
 We have no connection with the British Geological Survey, Historic Environment Scotland, National Records of Scotland or Highland Council. The earthquake database, listing records and census tables are published openly; the counts, completeness estimates and b-values on this page are our own analysis.
 
+Learning ladder
+
 ## From counting pebbles to the Gutenberg-Richter law
 
 The ages are a guide only; the free lesson shows where each learner starts.
 
-- **Ages 6 to 10: Big and small** Sorting and counting things by size in block code, and charting how the biggest are the rarest. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 11 to 13: Powers of ten** Place value, powers of ten and simple logarithms in Python, with a chart that turns a curve into a line. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Laws from data** The Gutenberg-Richter law, completeness and maximum likelihood on real British Geological Survey records. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Better detection** Separating real change from improved measurement in any record kept over many years. [Data Science Course](/courses/data-science-complete-masterclass-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### Big and small
+
+Sorting and counting things by size in block code, and charting how the biggest are the rarest.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 11 to 13
+
+### Powers of ten
+
+Place value, powers of ten and simple logarithms in Python, with a chart that turns a curve into a line.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Laws from data
+
+The Gutenberg-Richter law, completeness and maximum likelihood on real British Geological Survey records.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Better detection
+
+Separating real change from improved measurement in any record kept over many years.
+
+[Data Science Course](/courses/data-science-complete-masterclass-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## AI learns from historical records. Why should an Inverness teenager ask what those records missed?
 
@@ -163,30 +176,139 @@ The b-value work adds a second habit: report the uncertainty. From 40 earthquake
 
 So an Inverness teenager should keep learning to code in 2026, in a city where the geological record reaches back to 1816: AI can fit a law in seconds, but a person has to ask what the data could not see. The longer argument is in [why coding is worth learning in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Merkinch, Culcabock or Smithton, in the same class
 
 Inverness learners live across the city and along the Firth, and in a council area of 9.2 people to the square kilometre distance can be a real obstacle. Online, it disappears.
 
-- **City and firth** A learner in Clachnaharry and another in Westhill can share one class without a drive through the city.
-- **Scottish stages** Learners are placed by their stage in Scottish schooling, primary P1 to P7 and secondary S1 to S6 through National 5, Higher and Advanced Higher, with all teaching in English.
-- **Your free lesson** Rather than a presentation, the first session is a proper coding task; at the end the teacher recommends where to begin, which course fits and a weekly time. There is no card to give.
-- **Grouped by level** Each class holds fifteen to twenty learners working at one level; because they come from across the UK and beyond, there are workable times at every stage.
-- **A weekly habit** Two fixed lessons each week, about eight a month, with holidays and exam leave planned with the teacher.
-- **Teachers' evenings** Because India keeps a single time zone year-round, a 5 pm Highland lesson begins at 21:30 for our teachers in summer and 22:30 in winter.
+### City and firth
 
-**Across the Highlands** Learners in Nairn, Dingwall, Beauly or Fort William join the same classes, since every lesson is online and classes are formed by level.
+A learner in Clachnaharry and another in Westhill can share one class without a drive through the city.
+
+### Scottish stages
+
+Learners are placed by their stage in Scottish schooling, primary P1 to P7 and secondary S1 to S6 through National 5, Higher and Advanced Higher, with all teaching in English.
+
+### Your free lesson
+
+Rather than a presentation, the first session is a proper coding task; at the end the teacher recommends where to begin, which course fits and a weekly time. There is no card to give.
+
+### Grouped by level
+
+Each class holds fifteen to twenty learners working at one level; because they come from across the UK and beyond, there are workable times at every stage.
+
+### A weekly habit
+
+Two fixed lessons each week, about eight a month, with holidays and exam leave planned with the teacher.
+
+### Teachers' evenings
+
+Because India keeps a single time zone year-round, a 5 pm Highland lesson begins at 21:30 for our teachers in summer and 22:30 in winter.
+
+Across the Highlands
+
+Learners in Nairn, Dingwall, Beauly or Fort William join the same classes, since every lesson is online and classes are formed by level.
+
+Fees
 
 ## Inverness lesson fees
 
 The first lesson is free, then a single fee each month.
 
-- First class: USD 0. A full lesson without charge, closing with a suggested level, course and weekly time.
-- Group tuition: USD 100 a month. About eight live lessons a month in a class of fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. About eight live lessons a month, with a teacher for your learner alone.
+First class**USD 0**
+
+A full lesson without charge, closing with a suggested level, course and weekly time.
+
+Group tuition**USD 100**
+
+About eight live lessons a month in a class of fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+About eight live lessons a month, with a teacher for your learner alone.
 
 Families in Scorguie or Bunchrew pay in US dollars, like all families outside India, and our site lists no pound prices. Nothing is charged until the free lesson is over and you have agreed a course and a weekly time with us; the pricing page covers pauses, missed lessons and switching between group and one-to-one teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Inverness.)Reviews
+
+## Six family reviews from Google, as they wrote them
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson for an Inverness learner
+
+The first lesson depends on the learner: a big-and-small counting game for a young child, a short Python program that counts values above a threshold for a beginner, or the British Geological Survey's earthquake records and the Gutenberg-Richter law for a teenager ready for real science.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Inverness one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Inverness.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Inverness coding class questions
+
+What Inverness families ask us most.
 
 ### How many people live in Highland?
 
@@ -228,10 +350,14 @@ The first lesson is free. After it, a group place costs USD 100 a month for two 
 
 By level, pace and goals rather than by age or address, with fifteen to twenty learners at the same stage. When no group fits the learner's week, we offer one-to-one lessons.
 
+Explore Scotland and the UK
+
 ## Scotland and beyond
 
 Along the coast, the [Aberdeen page](/best-coding-class-in-aberdeen) packs every place name in the city into a few kilobytes, and in Fife [Dunfermline](/best-coding-class-in-dunfermline) repairs Carnegie's autobiography with a Hamming code. Pupils revising can use our [National 5 Computing Science](/national-5-computing-science-help) and [Higher Computing Science](/higher-computing-science-help) pages, and families new to us will find how our stages fit the Curriculum for Excellence in the [Scotland guide](/coding-and-ai-classes-in-scotland). Other cities are all reached from the [UK coding page](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Inverness.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-inverness](https://learn.modernagecoders.com/best-coding-class-in-inverness#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-inverness*

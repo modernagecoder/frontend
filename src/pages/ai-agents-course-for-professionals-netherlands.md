@@ -4,25 +4,21 @@ description: "Build and govern AI agents at work: Copilot Studio, Codex and Clau
 canonical: https://learn.modernagecoders.com/ai-agents-course-for-professionals-netherlands
 source: src/pages/ai-agents-course-for-professionals-netherlands.html
 ---
-> Modern Age Coders teaches working professionals in the Netherlands to build, direct and govern AI agents, live online. There are three routes: Microsoft Copilot Studio for agents inside an organisation's own tools, taught one to one; Codex and Claude Code for professionals who write or manage software; and a generative AI route for those who want to design agent systems from the model up. Every route includes what the AI Act now expects of organisations: knowing what a system does, what it must not do, and who is accountable. Group places are USD 100 a month and one-to-one tuition USD 150; the Copilot Studio courses are taught only one to one, and the first lesson is free.
+> Build and govern AI agents at work: Copilot Studio, Codex and Claude Code, taught live online to professionals in the Netherlands, one to one or in small groups.
 
-[Home](/) / [Courses](/courses) / [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands) / For professionals
+In short
 
-Netherlands · Professionals · Live online
+Modern Age Coders teaches working professionals in the Netherlands to build, direct and govern AI agents, live online. There are three routes: Microsoft Copilot Studio for agents inside an organisation's own tools, taught one to one; Codex and Claude Code for professionals who write or manage software; and a generative AI route for those who want to design agent systems from the model up. Every route includes what the AI Act now expects of organisations: knowing what a system does, what it must not do, and who is accountable. Group places are USD 100 a month and one-to-one tuition USD 150; the Copilot Studio courses are taught only one to one, and the first lesson is free.
 
-# AI agents course for professionals in the Netherlands
-
-On 2 February 2025 a new duty reached every Dutch organisation that builds or uses AI. Under the EU AI Act they must now make sure the people who work with those systems know enough about them to use them responsibly: how the technology works, where its opportunities lie and what risks it brings. At the same time, AI agents, programs that take a goal, plan their own steps and act through tools, have moved from demonstrations into ordinary office software. The professional who can build an agent in Copilot Studio, direct a coding agent through a real codebase, and explain to a manager or an auditor what the agent may and may not do, now has a skill the law itself asks organisations to have. This page is for professionals in the Netherlands, many of them international, who want that skill properly, live online and mostly one to one.
-
-At a glance: For: Working professionals and teams; Builds: Copilot Studio agents, coding agents; Also: Retrieval, agent design, governance; Format: Live, mostly one to one; Copilot Studio: One to one only; Times: Evenings, weekends or in the working day; Language: English; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three agent courses for professionals
 
 One for agents inside Microsoft tools, one for agents that write code, one for professionals who want to design agent systems themselves. Each opens its own page with full syllabus, format and fee.
 
-- [Copilot Studio Agent Masterclass](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals): Building, testing and governing agents in Microsoft Copilot Studio, taught one to one around the systems your organisation already runs.
-- [Codex and Claude Code for Professionals](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals): Directing AI coding agents through real software, reviewing every change they make, and knowing when to stop them. Learners use their own subscriptions to the tools.
-- [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college): Language models, retrieval over company documents and agent design from first principles, for professionals who want to build rather than configure.
+[![Copilot Studio Agent Masterclass for Professionals course thumbnail](/images/copilot-studio-professionals.webp)  PRO / 01 Copilot Studio Agent Masterclass Building, testing and governing agents in Microsoft Copilot Studio, taught one to one around the systems your organisation already runs. Open the syllabus →](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)  PRO / 02 Codex and Claude Code for Professionals Directing AI coding agents through real software, reviewing every change they make, and knowing when to stop them. Learners use their own subscriptions to the tools. Open the syllabus →](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)  PRO / 03 Generative AI: LLMs, RAG and Agents Language models, retrieval over company documents and agent design from first principles, for professionals who want to build rather than configure. Open the syllabus →](/courses/complete-generative-ai-masterclass-college)
+
+The AI Act
 
 ## Since 2 February 2025, AI literacy is an organisation's duty
 
@@ -36,24 +32,22 @@ The same day, 2 February 2025, a set of prohibitions came into force across the 
 
 The timetable the government published then runs on: requirements for general-purpose AI models from 2 August 2025, for high-risk applications from 2 August 2026, the full act from **2 August 2027**, and high-risk AI in public organisations by 2 August 2030. Timetables can be revised, so organisations should check the current one.
 
-**What the AI literacy duty asks, by role, as the Dutch government describes it**
-
 | Who | What they should know | Where our courses fit |
-|---|---|---|
+| --- | --- | --- |
 | People who develop or buy AI systems | How the system works and what risks it can bring | The generative AI and coding agent routes |
 | People responsible for using a system | How and for what it should be used, and the risks of that use | Copilot Studio, taught around your own processes |
 | Everyone who works with AI | General knowledge of AI and algorithms | AI tools and analytics courses for colleagues |
 
 Sources: [Digitale Overheid, Wat je moet weten over AI-geletterdheid, 26 February 2025](https://www.digitaleoverheid.nl/achtergrondartikelen/wat-je-moet-weten-over-ai-geletterdheid/); [Rijksoverheid, Europese verboden op ongewenste AI-toepassingen ingegaan, 3 February 2025](https://www.rijksoverheid.nl/actueel/nieuws/2025/02/03/europese-verboden-op-ongewenste-ai-toepassingen-ingegaan). Read 15 September 2026. This is general information, not legal advice; our courses do not certify legal compliance.
 
+Dutch firms
+
 ## One Dutch company in four now uses AI, and the big ones lead
 
 CBS figures show how quickly AI has entered Dutch business, and where. They are the context in which the AI literacy duty lands.
 
-**AI use by Dutch companies with ten or more workers (CBS)**
-
 | Measure | Figure |
-|---|---|
+| --- | --- |
 | Companies using one or more AI technologies, 2024 | 23 percent |
 | The same, 2023 | 14 percent |
 | Companies with 500 or more workers, 2024 | 59 percent |
@@ -72,6 +66,8 @@ For an international professional, skills that an employer is now legally expect
 
 Sources: [CBS, The Netherlands in Numbers 2025, How many companies in the Netherlands are using AI?](https://longreads.cbs.nl/the-netherlands-in-numbers-2025/how-many-companies-in-the-netherlands-are-using-ai/); [IND, required amounts income requirements](https://ind.nl/en/required-amounts-income-requirements). Read 15 September 2026.
 
+The three routes
+
 ## Configure, direct or design: three ways into agents
 
 Professionals come to agents from different directions. The free lesson decides which route fits.
@@ -84,14 +80,14 @@ Designing agent systems suits professionals who want to understand the whole sta
 
 All three routes include governance: what the agent may do on its own, what needs a human, how its actions are logged, and how it would be explained to a colleague, a manager or a supervisor. The [Amsterdam academy page](/ai-and-python-academy-amsterdam) shows how a Dutch city documents its own algorithms.
 
+The rungs for professionals
+
 ## From informed user to accountable builder
 
 Professionals rarely need every rung, but the order holds. An agent built by someone who cannot evaluate a model, or deployed by someone who cannot say what it may do, is a liability the AI Act now makes visible.
 
-**The route for professionals working with AI agents**
-
 | Rung | Who usually needs it | What it adds |
-|---|---|---|
+| --- | --- | --- |
 | 1. AI literacy | Everyone who works with AI | What systems do, where they fail, what must stay private |
 | 2. Configuring agents | Analysts, team leads, IT staff | Agents in Copilot Studio around real processes |
 | 3. Directing coding agents | Developers and technical managers | Codex and Claude Code used with review and limits |
@@ -101,61 +97,277 @@ Professionals rarely need every rung, but the order holds. An agent built by som
 ### Why governance is a rung, not an appendix
 
 An agent that acts on its own must have limits someone set deliberately. Writing those limits down, and being able to show them, is now part of what the AI literacy duty implies for the people closest to the system.
+
 The wider order of subjects is on the [coding roadmap](/coding-roadmap).
 
 ### Fitting it around a working week
 
 Most professionals take one-to-one lessons at a fixed weekly time, in the evening or occasionally during the working day, and pause during busy periods.
+
 Teams can arrange lessons for several colleagues separately, each built around their own role.
+
+The catalogue
 
 ## Seven live courses for professionals working with AI
 
 Grouped by route. Every card opens the course page with its format and fee; the Copilot Studio course is one to one only.
 
+I
+
 ### Configure agents
 
 Inside Microsoft tools, taught one to one
 
-- [Copilot Studio Agent Masterclass](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals): Agents in Microsoft Copilot Studio, from design to testing and governance, built around your organisation's own data and permissions.
+PRO / CONF / 01
+
+#### Copilot Studio Agent Masterclass
+
+Agents in Microsoft Copilot Studio, from design to testing and governance, built around your organisation's own data and permissions.
+
+[Open the syllabus](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals)II
 
 ### Direct coding agents
 
 For people who write or manage software
 
-- [Codex and Claude Code for Professionals](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals): Setting coding agents real tasks, reviewing every change and keeping them within safe limits, on your own tool subscriptions.
-- [Advanced Git and GitHub](/courses/git-github-advanced-version-control-masterclass-for-professionals): The version control discipline that makes agent-written code reviewable, reversible and safe to merge.
-- [Python and AI Automation](/courses/python-ai-automation-masterclass-college): Python for automating work with AI tools, the foundation for understanding what a coding agent produces.
+PRO / CODE / 01
+
+#### Codex and Claude Code for Professionals
+
+Setting coding agents real tasks, reviewing every change and keeping them within safe limits, on your own tool subscriptions.
+
+[Open the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)
+
+PRO / CODE / 02
+
+#### Advanced Git and GitHub
+
+The version control discipline that makes agent-written code reviewable, reversible and safe to merge.
+
+[Open the syllabus](/courses/git-github-advanced-version-control-masterclass-for-professionals)
+
+PRO / CODE / 03
+
+#### Python and AI Automation
+
+Python for automating work with AI tools, the foundation for understanding what a coding agent produces.
+
+[Open the syllabus](/courses/python-ai-automation-masterclass-college)III
 
 ### Design agent systems and build literacy
 
 From the model up, and for colleagues
 
-- [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college): Language models, retrieval over internal documents and agent design with evaluation and constraints built in.
-- [AI Tools Mastery Course](/courses/ai-tools-mastery-complete-college): Practical, careful use of AI tools across a team, a good first step towards the literacy the AI Act expects.
-- [Data and AI Analytics for Non-Programmers](/courses/data-and-ai-analytics-for-non-programmers-course): Data and AI assistants for colleagues who do not code, so that the whole team shares a working understanding.
+PRO / SYS / 01
+
+#### Generative AI: LLMs, RAG and Agents
+
+Language models, retrieval over internal documents and agent design with evaluation and constraints built in.
+
+[Open the syllabus](/courses/complete-generative-ai-masterclass-college)
+
+PRO / SYS / 02
+
+#### AI Tools Mastery Course
+
+Practical, careful use of AI tools across a team, a good first step towards the literacy the AI Act expects.
+
+[Open the syllabus](/courses/ai-tools-mastery-complete-college)
+
+PRO / SYS / 03
+
+#### Data and AI Analytics for Non-Programmers
+
+Data and AI assistants for colleagues who do not code, so that the whole team shares a working understanding.
+
+[Open the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
+
+How the classes run
 
 ## Built around a professional's diary
 
 Teaching comes from India, which has no daylight saving, so the offset to the Netherlands is three and a half hours while Dutch summer time lasts and four and a half through the winter. Professionals usually take an evening or weekend slot; some book a fixed hour inside the working day. Whatever suits is agreed at the free lesson and can be moved when work demands it.
 
-- **Evening** After work, Dutch time. The usual choice for one-to-one agent lessons.
-- **Weekend** Saturday or Sunday mornings, for longer, uninterrupted sessions.
-- **During the day** For professionals whose employer supports training in working hours, where a specialist is available.
+Evening
 
-- **An opening lesson on your case** Bring a real process or codebase. The teacher sees where you are and proposes a route before anything is paid.
-- **Mostly one to one** Agent work depends on each organisation's systems, so most professionals learn individually. Copilot Studio is only taught this way.
-- **Groups where they fit** For the generative AI and automation routes, groups of fifteen to twenty at one level are available and often lively.
-- **Nothing confidential shared** Lessons use your processes as examples without your organisation's confidential data; the teacher works with safe substitutes.
-- **English throughout** The language of the tools, their documentation and most international teams in the Netherlands.
-- **Work you can show** Agents, prompts, evaluations and governance notes are kept in your own repository, ready to show a manager or reviewer.
+After work, Dutch time. The usual choice for one-to-one agent lessons.
+
+Weekend
+
+Saturday or Sunday mornings, for longer, uninterrupted sessions.
+
+During the day
+
+For professionals whose employer supports training in working hours, where a specialist is available.
+
+### An opening lesson on your case
+
+Bring a real process or codebase. The teacher sees where you are and proposes a route before anything is paid.
+
+### Mostly one to one
+
+Agent work depends on each organisation's systems, so most professionals learn individually. Copilot Studio is only taught this way.
+
+### Groups where they fit
+
+For the generative AI and automation routes, groups of fifteen to twenty at one level are available and often lively.
+
+### Nothing confidential shared
+
+Lessons use your processes as examples without your organisation's confidential data; the teacher works with safe substitutes.
+
+### English throughout
+
+The language of the tools, their documentation and most international teams in the Netherlands.
+
+### Work you can show
+
+Agents, prompts, evaluations and governance notes are kept in your own repository, ready to show a manager or reviewer.
+
+Student work
+
+## Student projects, still running
+
+Four live projects by our students, open to anyone who wants to try them. More on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees for professionals
 
 Monthly, in US dollars. A group place is the lower rate and private tuition the higher, as in every country outside India. The Copilot Studio course is private tuition by design, so it is charged at the one-to-one rate. No joining fee, no annual contract.
 
-- Free first class: USD 0. A lesson on your own case. A route proposed before any payment. No card details.
-- Group batch: USD 100 a month. Five to ten professionals at one level. Generative AI and automation routes. Weekly review of your work. Certificate at the end.
-- One to one: USD 150 a month. A specialist teacher for you alone. Built around your systems and role. The only format for Copilot Studio.
+Free first class
+
+USD 0
+
+no card required
+
+- A lesson on your own case
+- A route proposed before any payment
+- No card details
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Five to ten professionals at one level
+- Generative AI and automation routes
+- Weekly review of your work
+- Certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A specialist teacher for you alone
+- Built around your systems and role
+- The only format for Copilot Studio
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Taken from Google without changes. We neither write nor pay for reviews.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions from professionals
 
 ## What professionals in the Netherlands ask about agent courses
 
@@ -199,15 +411,54 @@ Evenings, weekends or, where your employer allows, during the working day. The t
 
 Someone from the team rings you at a Dutch hour to set up the first lesson. It is free, and nothing is booked or charged until you decide to continue.
 
+Elsewhere on this site
+
 ## More on agents and AI at work
 
-- [AI agents course](/ai-agents-course): The global agents page: what agents are and how they are built.
-- [Agentic coding classes](/agentic-coding-classes): Working with coding agents, in more depth.
-- [AI and ML for working professionals](/ai-and-machine-learning-for-working-professionals): Machine learning for people already in work.
-- [Coding and AI classes for adults](/coding-and-ai-classes-for-adults-netherlands): For colleagues starting with Python, data or AI tools.
-- [AI and Python Academy, The Hague](/ai-and-python-academy-the-hague): Why a model's errors must be counted group by group.
-- [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands): The country-wide academy and its five rungs.
+Related pages, for going deeper or for colleagues.
 
-## Contact
+### [AI agents course](/ai-agents-course)
 
-Book the free first class at [https://learn.modernagecoders.com/ai-agents-course-for-professionals-netherlands](https://learn.modernagecoders.com/ai-agents-course-for-professionals-netherlands#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The global agents page: what agents are and how they are built.
+
+### [Agentic coding classes](/agentic-coding-classes)
+
+Working with coding agents, in more depth.
+
+### [AI and ML for working professionals](/ai-and-machine-learning-for-working-professionals)
+
+Machine learning for people already in work.
+
+### [Coding and AI classes for adults](/coding-and-ai-classes-for-adults-netherlands)
+
+For colleagues starting with Python, data or AI tools.
+
+### [AI and Python Academy, The Hague](/ai-and-python-academy-the-hague)
+
+Why a model's errors must be counted group by group.
+
+### [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands)
+
+The country-wide academy and its five rungs.
+
+Start here
+
+## Bring a real case to a free lesson
+
+Leave a number and we will ring at a Dutch hour to fix a time. Bring a process, a codebase or a question from work; the teacher will show you where to start and propose a route.
+
+Rather look around first? The [AI agents course](/ai-agents-course) page explains the ideas, [how we teach](/how-we-teach) describes a lesson, and the [course list](/courses) has every syllabus.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20work%20in%20the%20Netherlands%20and%20would%20like%20a%20free%20first%20lesson%20on%20the%20AI%20agents%20courses.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+On WhatsApp from a Dutch phone we usually answer fastest, at no cost to you. The number is Indian; we have no office, address or premises in the Netherlands.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-agents-course-for-professionals-netherlands*

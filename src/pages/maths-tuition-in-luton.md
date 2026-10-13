@@ -4,34 +4,28 @@ description: "Online maths tutor in Luton for ages 6 to 67: KS2 and SATs, KS3, G
 canonical: https://learn.modernagecoders.com/maths-tuition-in-luton
 source: src/pages/maths-tuition-in-luton.html
 ---
-> We teach maths to Luton learners aged 6 to 67, live online. Primary pupils build number sense and tables on the way to the Year 6 SATs. In secondary school the work moves through KS3 to GCSE (Foundation or Higher, for AQA, Edexcel or OCR) or IGCSE. Sixth formers study A level, with Further Maths topics if they want them, and adults come to resit GCSE, to cover Functional Skills content or simply to feel at ease with numbers. A learner can study privately or in a class of fifteen to twenty at one level. Our Luton project explains the runway numbers: the UK aeronautical publication gives a true bearing of 074.38 degrees and a magnetic variation of 1.23 degrees east, so the magnetic direction is 073.15 degrees, which rounds to Runway 07. The opening lesson is free of charge. Continuing means USD 100 monthly for a shared class or USD 150 monthly for a teacher of your own.
+> Online maths tutor in Luton for ages 6 to 67: KS2 and SATs, KS3, GCSE, A level and adult maths, with a project on why the airport runway is numbered 07.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths tuition in Luton
+Maths tuition in Luton, quickly
 
-Luton · Maths for ages 6 to 67 · Live online, groups or one to one
+We teach maths to Luton learners aged 6 to 67, live online. Primary pupils build number sense and tables on the way to the Year 6 SATs. In secondary school the work moves through KS3 to GCSE (Foundation or Higher, for AQA, Edexcel or OCR) or IGCSE. Sixth formers study A level, with Further Maths topics if they want them, and adults come to resit GCSE, to cover Functional Skills content or simply to feel at ease with numbers. A learner can study privately or in a class of fifteen to twenty at one level. Our Luton project explains the runway numbers: the UK aeronautical publication gives a true bearing of 074.38 degrees and a magnetic variation of 1.23 degrees east, so the magnetic direction is 073.15 degrees, which rounds to Runway 07. The opening lesson is free of charge. Continuing means USD 100 monthly for a shared class or USD 150 monthly for a teacher of your own.
 
-# Maths tuition in Luton
-
-Anyone who has flown from Luton has seen the big white numbers painted at each end of the runway: 07 at one end, 25 at the other. Where do they come from? The official UK aeronautical publication gives the runway a true bearing of 074.38 degrees. That does not round to 07. It rounds to 07 only after you allow for the difference between true north and magnetic north, which the same publication puts at 1.23 degrees east. One painted number, and inside it sit bearings, rounding, decimals and a correction that most adults have never heard of. This page shows how we teach maths to Luton learners, from Key Stage 2 to A level and adult study, using that runway as our example.
-
-At a glance: Who: Learners aged 6 to 67 in Luton; Primary: KS2 maths, tables, SATs; KS3: Years 7 to 9, angles and algebra; GCSE: AQA, Edexcel, OCR, both tiers; A level: Maths plus Further Maths topics; Adults: GCSE resits and Functional Skills topics; Delivery: Live online, 1 to 1 or classes of 15 to 20; Project: Runway numbers and trigonometry. Rated 4.9 across 547 Google reviews.
+The three most asked about in Luton
 
 ## Where most Luton learners start
 
 GCSE, A level and KS2 maths account for most first enquiries from Luton. Our other courses are listed below.
 
-- [GCSE maths tuition](/courses/gcse-mathematics-mastery): Bearings, trigonometry and rounding sit on every GCSE paper; we teach them to the tier and board the school uses.
-- [A level maths tuition](/courses/a-level-maths-course-pure-mechanics-statistics): Vectors, radians and mechanics for sixth formers, with Further Maths topics for those who want them.
-- [KS2 maths tuition](/courses/elementary-mathematics-complete-masterclass): Times tables, place value and the reasoning that the Year 6 SATs ask for, built carefully from Year 3.
+[![GCSE Maths course thumbnail](/images/gcse-maths.webp)  LTN / 1 GCSE maths tuition Bearings, trigonometry and rounding sit on every GCSE paper; we teach them to the tier and board the school uses. Open the syllabus →](/courses/gcse-mathematics-mastery)[![A-Level Maths course thumbnail](/images/a-level-maths.webp)  LTN / 2 A level maths tuition Vectors, radians and mechanics for sixth formers, with Further Maths topics for those who want them. Open the syllabus →](/courses/a-level-maths-course-pure-mechanics-statistics)[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  LTN / 3 KS2 maths tuition Times tables, place value and the reasoning that the Year 6 SATs ask for, built carefully from Year 3. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)
+
+At every stage
 
 ## Maths tutor in Luton for school and adult learners
 
 Luton schools teach the national curriculum for England. This is how our lessons shift as a learner moves through it.
 
-**Maths stages in Luton and where our lessons concentrate**
-
 | Stage | Ages | Where we concentrate |
-|---|---|---|
+| --- | --- | --- |
 | KS1 | 5 to 7 | Counting, number bonds, simple shapes and turns. |
 | KS2 | 7 to 11 | Angles measured in degrees, decimals to two places, every table up to 12, and the reasoning style of the SATs at the end of Year 6. |
 | KS3 | 11 to 14 | Angle facts, bearings, rounding, ratio and the start of algebra proper. |
@@ -53,6 +47,8 @@ Each stage has its own national page with us, starting at [primary (KS2)](/ks2-m
 
 The age bands are the ones normally used in English schools. Details of the statutory tables check for Year 4 are published on [the government website](https://www.gov.uk/government/collections/multiplication-tables-check).
 
+The Luton project
+
 ## Why is the runway at Luton called 07 and 25?
 
 Two painted numbers, one official table and a rule written in a pilots' manual. Together they make a neat lesson in rounding.
@@ -65,10 +61,8 @@ The rule for runway numbers is written in the Aeronautical Information Manual of
 
 So the method is: change the true bearing to a magnetic one, divide by ten, and round to the nearest whole number. Every step is school maths.
 
-**From true bearing to painted runway number, our working from the UK AIP figures**
-
 | Step | Runway 07 end | Runway 25 end |
-|---|---|---|
+| --- | --- | --- |
 | True bearing (published) | 074.38° | 254.40° |
 | Subtract the easterly variation, 1.23° | 073.15° | 253.17° |
 | Divide by 10 | 7.315 | 25.317 |
@@ -89,6 +83,8 @@ The publication also gives an annual change of 0.17 degrees east. Magnetic north
 
 Data: [NATS, UK AIP](https://nats-uk.ead-it.com/cms-nats/opencms/en/Publications/AIP/), AIRAC 1 October 2026, EGGW AD 2.2 and AD 2.12; rule: [FAA Aeronautical Information Manual, chapter 2, section 3](https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap2_section_3.html). Both read on 1 October 2026. The working in the table is ours. This page is for maths teaching only and must never be used for navigation.
 
+Checking the bearing ourselves
+
 ## Degrees, minutes and seconds, a right-angled triangle, and one easy slip
 
 The publication also gives the latitude and longitude of the two runway thresholds. From those we can work out the bearing ourselves and see whether we agree.
@@ -101,10 +97,8 @@ Doing that, the second threshold lies 559.4 metres north and 1,997.7 metres east
 
 The published figure is 074.38. A more exact method on a sphere gives 074.35. Our three answers agree to within 0.03 of a degree, which is a satisfying check on both the data and the method.
 
-**Four ways to get the bearing between the Luton thresholds (our calculation from the UK AIP coordinates)**
-
 | Method | Bearing | Comment |
-|---|---|---|
+| --- | --- | --- |
 | Published true bearing | 074.38° | The official figure in the UK AIP. |
 | Sphere formula | 074.35° | A level and beyond: great-circle bearing. |
 | Flat triangle with cos(latitude) | 074.36° | GCSE trigonometry with one sensible correction. |
@@ -123,6 +117,8 @@ The two thresholds are 2,074.6 metres apart by our calculation, less than the pu
 The two published bearings, 074.38 and 254.40, differ by 180.02 degrees, not exactly 180. On a curved Earth the bearing at the far end of a straight path is very slightly different, a fact that A level students find surprising and satisfying.
 
 Coordinates from the NATS UK AIP, EGGW AD 2.12. GCSE wording from [DfE, GCSE mathematics subject content](https://www.gov.uk/government/publications/gcse-mathematics-subject-content-and-assessment-objectives). All conversions, distances and bearings are Modern Age Coders calculations.
+
+Maths around Luton
 
 ## Maths beyond the classroom in Luton
 
@@ -150,6 +146,8 @@ Adults who travel through the airport often find the runway question the most me
 
 Hub information comes from the [Enigma Maths Hub page on the NCETM site](https://www.ncetm.org.uk/hubs/enigma-maths-hub/), checked on the first of October 2026. Modern Age Coders has no tie to the NCETM, any Maths Hub, the UKMT, London Luton Airport, NATS or any school in Luton.
 
+Learning as an adult
+
 ## Adult maths in Luton, including GCSE resits
 
 Adults make up a real share of our learners. Many need a GCSE pass for work or study; others want to stop feeling anxious about numbers.
@@ -168,14 +166,14 @@ Rounding sensibly, reading tables of figures and checking a calculation by estim
 
 A common story from Luton adults: they were handed rules at school but never the reasons. We do the opposite, and the rules tend to stick as a result. Our [adult maths page](/online-maths-classes-for-adults-in-uk) says more.
 
+Steps we follow
+
 ## Four steps from right angles to trigonometry
 
 Start wherever the learner is; the free lesson tells us where that is.
 
-**From turns and degrees to bearings with trigonometry, and what shows each step has landed**
-
 | Typical years | Step | Shows it has landed when the learner |
-|---|---|---|
+| --- | --- | --- |
 | Years 3 to 5 | 1. Turns and degrees | Knows a right angle is 90 degrees and a full turn 360 |
 | Years 6 to 8 | 2. Bearings | Gives a bearing as three figures, measured clockwise from north |
 | Years 8 to 10 | 3. Rounding with purpose | Rounds to the accuracy a question needs and explains why |
@@ -184,75 +182,353 @@ Start wherever the learner is; the free lesson tells us where that is.
 ### Late starters
 
 Learners who join us in Year 11 are welcome. We check angle facts and fractions first, because trigonometry questions usually fail there.
+
 If there is more to rebuild than time allows, we say so honestly after the first lesson.
 
 ### What comes next
 
 Learners who enjoy this often go on to [maths through coding](/courses/maths-through-coding), where the bearing calculation becomes a few lines of Python, or to [statistics and probability](/courses/statistics-probability-maths-course).
+
 Those who love a puzzle tend to try competition maths.
+
+Course list
 
 ## Popular maths courses for Luton learners
 
 First come the courses UK families look for most: GCSE, A level, 11 plus and IGCSE. Open a card to see its syllabus.
 
+I
+
 ### Most searched
 
 Exam preparation
 
-- [GCSE maths](/courses/gcse-mathematics-mastery): Foundation and Higher for the main boards.
-- [A level maths](/courses/a-level-maths-course-pure-mechanics-statistics): All three strands of the A level.
-- [11 plus maths](/courses/11-plus-maths-preparation-course-uk): Selective-test maths for Years 5 and 6.
-- [IGCSE maths](/courses/igcse-mathematics-mastery): The international GCSE papers.
+LUM / A1
+
+#### GCSE maths
+
+Foundation and Higher for the main boards.
+
+[Open the syllabus](/courses/gcse-mathematics-mastery)
+
+LUM / A2
+
+#### A level maths
+
+All three strands of the A level.
+
+[Open the syllabus](/courses/a-level-maths-course-pure-mechanics-statistics)
+
+LUM / A3
+
+#### 11 plus maths
+
+Selective-test maths for Years 5 and 6.
+
+[Open the syllabus](/courses/11-plus-maths-preparation-course-uk)
+
+LUM / A4
+
+#### IGCSE maths
+
+The international GCSE papers.
+
+[Open the syllabus](/courses/igcse-mathematics-mastery)II
 
 ### Primary school
 
 KS1 and KS2
 
-- [KS2 maths](/courses/elementary-mathematics-complete-masterclass): Years 1 to 6, ending with the SATs.
-- [Mental maths](/courses/mental-maths-mastery-kids): Arithmetic in the head, done reliably.
-- [Early number](/courses/early-math-foundations): For children aged 6 and 7.
-- [Abacus](/courses/abacus-mental-maths-course-for-kids): Bead-frame sums for younger learners.
+LUM / B1
+
+#### KS2 maths
+
+Years 1 to 6, ending with the SATs.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+LUM / B2
+
+#### Mental maths
+
+Arithmetic in the head, done reliably.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+LUM / B3
+
+#### Early number
+
+For children aged 6 and 7.
+
+[Open the syllabus](/courses/early-math-foundations)
+
+LUM / B4
+
+#### Abacus
+
+Bead-frame sums for younger learners.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)III
 
 ### Secondary school
 
 KS3 and further
 
-- [KS3 maths](/courses/comprehensive-middle-school-mathematics-mastery): Angles, bearings, algebra and ratio.
-- [Algebra again](/courses/algebra-foundations-masterclass): For algebra that never quite clicked.
-- [Statistics and probability](/courses/statistics-probability-maths-course): Data handling and chance.
-- [Competition maths](/courses/olympiad-competition-mathematics-mastery): For learners entering UKMT challenges.
+LUM / C1
+
+#### KS3 maths
+
+Angles, bearings, algebra and ratio.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+LUM / C2
+
+#### Algebra again
+
+For algebra that never quite clicked.
+
+[Open the syllabus](/courses/algebra-foundations-masterclass)
+
+LUM / C3
+
+#### Statistics and probability
+
+Data handling and chance.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)
+
+LUM / C4
+
+#### Competition maths
+
+For learners entering UKMT challenges.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)IV
 
 ### Adults
 
 Work and study
 
-- [University maths](/courses/college-mathematics-complete-masterclass): For adults returning to higher study.
-- [Business maths](/courses/complete-business-finance-mathematics-mastery): Percentages, interest and costs.
-- [Maths for data jobs](/courses/data-analytics-mathematics-masterclass): Averages, spread and regression for analysts.
-- [Vedic maths](/courses/vedic-maths-course-speed-calculation-mastery): Pattern-based tricks for quick arithmetic.
+LUM / D1
+
+#### University maths
+
+For adults returning to higher study.
+
+[Open the syllabus](/courses/college-mathematics-complete-masterclass)
+
+LUM / D2
+
+#### Business maths
+
+Percentages, interest and costs.
+
+[Open the syllabus](/courses/complete-business-finance-mathematics-mastery)
+
+LUM / D3
+
+#### Maths for data jobs
+
+Averages, spread and regression for analysts.
+
+[Open the syllabus](/courses/data-analytics-mathematics-masterclass)
+
+LUM / D4
+
+#### Vedic maths
+
+Pattern-based tricks for quick arithmetic.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
+
+Our timetable
 
 ## Lessons that fit round school and work in Luton
 
 Teaching is done from India. In winter India runs 5 hours 30 minutes ahead of Luton, and from late March to late October the gap is 4 hours 30 minutes. We always quote slots in UK time.
 
-- **Weekdays from 4pm** Children in primary school or Years 7 to 9.
-- **Weekday evenings** Exam-year pupils, sixth formers and working adults.
-- **Weekend mornings** Learners of every age.
+Weekdays from 4pm
 
-- **The same teacher** One teacher follows the learner, week after week.
-- **Updates for families** A short note after lessons: what clicked, what to revisit.
-- **Classes of fifteen to twenty** Grouped by level so nobody is lost or bored.
-- **Real-world numbers** Runway data, timetables and census figures as well as past papers.
-- **Private when needed** One to one before an exam or for a particular gap.
-- **Estimate first** We train learners to predict an answer before calculating it.
+Children in primary school or Years 7 to 9.
+
+Weekday evenings
+
+Exam-year pupils, sixth formers and working adults.
+
+Weekend mornings
+
+Learners of every age.
+
+### The same teacher
+
+One teacher follows the learner, week after week.
+
+### Updates for families
+
+A short note after lessons: what clicked, what to revisit.
+
+### Classes of fifteen to twenty
+
+Grouped by level so nobody is lost or bored.
+
+### Real-world numbers
+
+Runway data, timetables and census figures as well as past papers.
+
+### Private when needed
+
+One to one before an exam or for a particular gap.
+
+### Estimate first
+
+We train learners to predict an answer before calculating it.
+
+Student work
+
+## Student projects
+
+Learners who began with problems like this one went on to build the projects shown here. The [student labs](/student-labs) include many others.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 A single monthly price in US dollars for everyone outside India, with no registration fee and no lock-in.
 
-- Free first class: USD 0. A genuine lesson at the right level. Our honest assessment afterwards. No payment details needed.
-- Group batch: USD 100 a month. Fifteen to twenty learners at one level. A dedicated teacher. Homework reviewed together. Certificate when you finish.
-- One to one: USD 150 a month. Individual lessons. Built around one learner. Ideal before exams.
+Free first class
+
+USD 0
+
+no card required
+
+- A genuine lesson at the right level
+- Our honest assessment afterwards
+- No payment details needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners at one level
+- A dedicated teacher
+- Homework reviewed together
+- Certificate when you finish
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- Individual lessons
+- Built around one learner
+- Ideal before exams
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Copied exactly from reviews left on our Google profile by families and learners.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Luton maths questions
 
 ## Maths tuition in Luton: common questions
 
@@ -296,15 +572,54 @@ No travel at all. Our teaching happens over live video, so a laptop or tablet at
 
 We will not make that promise, because nobody can keep it honestly. What we promise is careful teaching and a clear account of progress.
 
+Related
+
 ## More for Luton learners
 
-- [GCSE maths tuition](/gcse-maths-tuition-online): Both tiers and every board.
-- [A level maths tuition](/a-level-maths-tuition-online): Sixth form maths in full.
-- [Functional Skills maths](/functional-skills-maths-tuition-online): Practical maths for adults.
-- [Coding classes in Luton](/best-coding-class-in-luton): Our coding page for Luton.
-- [Maths tuition in Milton Keynes](/maths-tuition-in-milton-keynes): The same Maths Hub area, a grid road project.
-- [The UK index](/coding-classes-in-united-kingdom): All our UK pages.
+National maths pages, our coding page for the town and a nearby maths page.
 
-## Contact
+### [GCSE maths tuition](/gcse-maths-tuition-online)
 
-Book the free first class at [https://learn.modernagecoders.com/maths-tuition-in-luton](https://learn.modernagecoders.com/maths-tuition-in-luton#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Both tiers and every board.
+
+### [A level maths tuition](/a-level-maths-tuition-online)
+
+Sixth form maths in full.
+
+### [Functional Skills maths](/functional-skills-maths-tuition-online)
+
+Practical maths for adults.
+
+### [Coding classes in Luton](/best-coding-class-in-luton)
+
+Our coding page for Luton.
+
+### [Maths tuition in Milton Keynes](/maths-tuition-in-milton-keynes)
+
+The same Maths Hub area, a grid road project.
+
+### [The UK index](/coding-classes-in-united-kingdom)
+
+All our UK pages.
+
+Start here
+
+## Book a free maths lesson in Luton
+
+Send us the learner's year group and the part of maths that causes the most groans at home. We teach a genuine lesson first and then give you a straight account of the starting point.
+
+Want to look around first? There is our [course catalogue](/courses) and an explanation of [our teaching](/how-we-teach).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20a%20learner%20in%20Luton.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is quickest. The number carries India's code because our teachers are based there; we have no Luton premises and every lesson is online.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/maths-tuition-in-luton*

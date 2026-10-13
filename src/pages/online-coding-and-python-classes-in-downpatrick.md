@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and vibe coding lessons for Downpat
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-downpatrick
 source: src/pages/online-coding-and-python-classes-in-downpatrick.html
 ---
-> Downpatrick town counted 11,545 residents in NISRA's 2021 census tables, with 21,916 across its electoral area in the Newry, Mourne and Down district. Cathedral and Quoile are two of the census wards at the town, while Killyleagh and Ardglass are among the smaller settlements elsewhere in the district. From primary school up to age 67, learners study coding, Python, AI, vibe coding and maths on live video with tutors based in India, in one-to-one lessons or a group of fifteen to twenty who share a stage. Clear geometric and logical thinking comes first, so learners can check a program's answer rather than trust it. Lesson one costs nothing, and we close it by naming the course that fits. In the Downpatrick project, Python finds the smallest circle that holds all 40 mapped shops, then shows why the same clever algorithm can run several times slower on sorted input. Staying on means USD 100 per month for class lessons, or USD 150 per month with a tutor to yourself.
+> Live online coding, Python, AI and vibe coding lessons for Downpatrick, Killyleagh, Ardglass and Quoile learners in County Down, aged 6 to 67. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Northern Ireland](/coding-and-ai-classes-in-northern-ireland) / Downpatrick
-
-Downpatrick, County Down, Northern Ireland / Live online
-
-# Online coding and Python classes in Downpatrick
-
-**Which are the best online coding and Python classes in Downpatrick?** Downpatrick town counted 11,545 residents in NISRA's 2021 census tables, with 21,916 across its electoral area in the Newry, Mourne and Down district. Cathedral and Quoile are two of the census wards at the town, while Killyleagh and Ardglass are among the smaller settlements elsewhere in the district. From primary school up to age 67, learners study coding, Python, AI, vibe coding and maths on live video with tutors based in India, in one-to-one lessons or a group of fifteen to twenty who share a stage. Clear geometric and logical thinking comes first, so learners can check a program's answer rather than trust it. Lesson one costs nothing, and we close it by naming the course that fits. In the Downpatrick project, Python finds the smallest circle that holds all 40 mapped shops, then shows why the same clever algorithm can run several times slower on sorted input. Staying on means USD 100 per month for class lessons, or USD 150 per month with a tutor to yourself.
-
-Here is a question that sounds simple: what is the smallest circle that contains every point in a set? Delivery planners ask it about customers, phone engineers about masts, and game programmers about collision boxes. The obvious approaches, a circle around the average point or around the middle of the bounding box, are close but not right. The exact answer comes from an elegant algorithm published by Emo Welzl in 1991, which adds points one at a time and only rebuilds the circle when a point falls outside it. It is fast on average, provided the points arrive in random order. This project runs it in Python on the shops and buildings of Downpatrick as mapped on OpenStreetMap.
-
-Facts last verified 29 September 2026. Teaching is online; no Downpatrick branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentDownpatrick course picks
 
 ## Downpatrick starting courses in geometry, Python and AI
 
 Choose by age and interest. Each course opens with a live class that is free, and booking takes no card.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think course: shapes, distances and finding the tightest fit.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games that the learner plans, an AI helps build and the learner then tests hard.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python from first programs to geometry and algorithms, including the Downpatrick circle.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Students and adults): Python for data, algorithms, randomisation and AI agents.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think course: shapes, distances and finding the tightest fit.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games that the learner plans, an AI helps build and the learner then tests hard.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython from first programs to geometry and algorithms, including the Downpatrick circle.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)Students and adultsPython MasterclassPython for data, algorithms, randomisation and AI agents.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Downpatrick in the 2021 census
 
 ## Downpatrick, Quoile, Killyleagh and Ardglass
 
 NISRA figures for the town, its electoral area and the district, with nearby settlements and wards.
 
-**People usually resident in 2021, from NISRA table MS-A01**
-
 | Place | NISRA geography | Residents |
-|---|---|---|
+| --- | --- | --- |
 | Downpatrick | Settlement | 11,545 |
 | Downpatrick | District electoral area | 21,916 |
 | Killyleagh | Settlement | 2,787 |
@@ -55,16 +41,16 @@ Each figure is a separate NISRA count for a different kind of area, so none is a
 
 See [Newry](/best-coding-class-in-newry), [Northern Ireland](/coding-and-ai-classes-in-northern-ireland) and [CCEA GCSE Maths help](/ccea-gcse-maths-help). Why thinking comes before tools is explained on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Downpatrick project
+
 ## The smallest circle round every Downpatrick shop: Welzl's algorithm in Python
 
 Forty shops, one exact circle, two tempting shortcuts, and a test of what input order does to speed.
 
 OpenStreetMap supplies 40 shops inside a rectangle over Downpatrick; where a shop is drawn as an outline, its centre stands in for it. Positions are converted to metres. Welzl's algorithm then builds the smallest enclosing circle: it takes the shops one at a time, and whenever a shop falls outside the current circle, it rebuilds the circle so that this shop sits on its edge. The final circle always rests on two or three points, its support points; every other shop could move a little without changing it.
 
-**Circles holding all 40 mapped shops in Downpatrick, our Python run on OpenStreetMap data**
-
 | Method | Radius | Point checks |
-|---|---|---|
+| --- | --- | --- |
 | Welzl's algorithm (exact) | 1,834.3 m | 229 |
 | Try every circle through 2 or 3 shops | 1,834.3 m | 15,409 |
 | Centre on the middle of the shops' box | 1,855.9 m | Not exact |
@@ -88,14 +74,14 @@ Code Welzl's algorithm, count its checks on shuffled and sorted input, and compa
 
 Shops and buildings are from OpenStreetMap and its contributors under the Open Database Licence. The rectangle, the circles and every count are our own work; shops are not named.
 
+Algorithms and AI
+
 ## What this teaches about vibe coding and AI agents
 
 Correct is not the same as quick; the input decides.
 
-**From the Downpatrick circle to coding with AI**
-
 | In the geometry project | When AI writes code for you |
-|---|---|
+| --- | --- |
 | Welzl needed 229 checks, brute force 15,409 | A known algorithm can beat a naive loop by miles |
 | The average-centre circle was 504 m too wide | An intuitive shortcut can be quietly wrong |
 | Two shops fixed the whole circle | A few points can decide the answer |
@@ -106,14 +92,37 @@ Ask an AI assistant for "the smallest circle containing these points" and it may
 
 OpenStreetMap and NISRA publish the open data this page relies on and have no link with Modern Age Coders; the circles and any errors in them are ours.
 
+Stages
+
 ## From coins on a map to randomised algorithms
 
 School year is a first guide; the free lesson shows the real starting point.
 
-- **P1 to P7: How to think** Shapes, distances and the tightest fit. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **P5 to Year 9: Vibe coding for kids** Games and small apps built with AI help and tested by the learner. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 10 to 14: Python and algorithms** Geometry, recursion and algorithm analysis alongside CCEA GCSE and A level. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)
-- **Adults: Python for data and agents** Algorithms, data and AI agents built in Python. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
+P1 to P7
+
+### How to think
+
+Shapes, distances and the tightest fit.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)P5 to Year 9
+
+### Vibe coding for kids
+
+Games and small apps built with AI help and tested by the learner.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 10 to 14
+
+### Python and algorithms
+
+Geometry, recursion and algorithm analysis alongside CCEA GCSE and A level.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)Adults
+
+### Python for data and agents
+
+Algorithms, data and AI agents built in Python.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)Python and geometry
 
 ## How do you find the smallest circle that contains a set of points?
 
@@ -125,30 +134,139 @@ Learners who have run it ask of any code an AI writes: is this the exact answer,
 
 A Downpatrick teenager who can test an algorithm on its worst input will not be fooled by code that only works on tidy examples, and Python is where that habit is formed. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Taught online across County Down
 
 A computer, a camera and broadband that can hold a video call are all the equipment required.
 
-- **Learner at the keyboard** The student writes and runs each step; our tutor follows on screen share and asks them to predict the result first.
-- **Trial sets the starting topic** We see what the learner can already do and note any CCEA course ahead.
-- **Free opening class** The first class is free and finishes with our course recommendation.
-- **Level-matched groups** Classes hold fifteen to twenty learners drawn together by stage, not by town.
-- **Twice weekly in term** School holidays off.
-- **Fixed hour** When UK clocks change, our tutors shift so your slot stays the same.
+### Learner at the keyboard
 
-**Why online** Five learners at one level, all free on the same evening, rarely live close together. Video makes the distance irrelevant.
+The student writes and runs each step; our tutor follows on screen share and asks them to predict the result first.
+
+### Trial sets the starting topic
+
+We see what the learner can already do and note any CCEA course ahead.
+
+### Free opening class
+
+The first class is free and finishes with our course recommendation.
+
+### Level-matched groups
+
+Classes hold fifteen to twenty learners drawn together by stage, not by town.
+
+### Twice weekly in term
+
+School holidays off.
+
+### Fixed hour
+
+When UK clocks change, our tutors shift so your slot stays the same.
+
+Why online
+
+Five learners at one level, all free on the same evening, rarely live close together. Video makes the distance irrelevant.
+
+Fees
 
 ## Downpatrick fees
 
 Learners in Downpatrick pay our international rates, applied in every country except India.
 
-- First class: USD 0. One complete free lesson, then a suggestion.
-- Group tuition: USD 100 a month. Roughly eight live group lessons monthly.
-- Private tuition: USD 150 a month. Roughly eight live one-to-one lessons monthly.
+First class**USD 0**
+
+One complete free lesson, then a suggestion.
+
+Group tuition**USD 100**
+
+Roughly eight live group lessons monthly.
+
+Private tuition**USD 150**
+
+Roughly eight live one-to-one lessons monthly.
 
 Downpatrick families see prices in US dollars only. Nothing is invoiced until after the trial, once a course and a regular slot are fixed; the pricing page handles breaks, missed sessions and format changes.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20Python%20lesson%20for%20a%20learner%20in%20Downpatrick%3F)Reviews
+
+## County Down parents and UK learners, reviewing us on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Downpatrick lesson
+
+Let us know the learner's age or year and one interest. The trial could be a coin-and-circle puzzle, a Scratch game made with an AI, a first Python script, or measuring real places from a map.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Downpatrick one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20Python%20lesson%20for%20a%20learner%20in%20Downpatrick%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Downpatrick questions
+
+Enclosing circles, the shop project, Python, vibe coding and practical points.
 
 ### What is the population of Downpatrick?
 
@@ -190,10 +308,14 @@ Free for the trial; afterwards USD 100 monthly as part of a class, USD 150 month
 
 Yes, for school holidays; send the dates.
 
+Nearby
+
 ## Other pages across Northern Ireland
 
 A different experiment on each: [Newry](/best-coding-class-in-newry) (an exact test on heritage records), [Lisburn](/best-coding-class-in-lisburn), [Belfast](/best-coding-class-in-belfast) and [Armagh](/best-coding-class-in-armagh). The [Northern Ireland page](/coding-and-ai-classes-in-northern-ireland) and the [UK hub](/coding-classes-in-united-kingdom) cover the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20Python%20lesson%20for%20a%20learner%20in%20Downpatrick%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/online-coding-and-python-classes-in-downpatrick](https://learn.modernagecoders.com/online-coding-and-python-classes-in-downpatrick#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-downpatrick*

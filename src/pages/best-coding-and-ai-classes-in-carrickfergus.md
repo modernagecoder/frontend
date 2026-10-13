@@ -4,46 +4,32 @@ description: "Online coding, AI, Python and vibe coding lessons for Carrickfergu
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-carrickfergus
 source: src/pages/best-coding-and-ai-classes-in-carrickfergus.html
 ---
-> At the 2021 census NISRA put the Carrickfergus settlement at roughly 28,141 usual residents, part of Mid and East Antrim, a district of 138,994. OpenStreetMap names Eden, Sunnylands, Castlemara, Clipperstown, Boneybefore and Burleigh Hill among the town's neighbourhoods, and the same map area includes the villages of Trooperslane and Woodburn. Primary pupils, secondary students and adults up to 67 are taught coding, AI, Python, vibe coding and maths on camera by tutors based in India, singly or in level-matched groups of fifteen to twenty. Reasoning is taught before tools, so learners can tell a model that has learned something from one that has memorised noise. The trial lesson is free and ends with the course we recommend. The Carrickfergus project uses NISRA census data for 3,780 small areas to show why a single decision tree changes its mind so easily, and how bagging, averaging many trees, steadies it. Staying on costs USD 100 for each month of small-group teaching or USD 150 for each month of individual tuition.
+> Online coding, AI, Python and vibe coding lessons for Carrickfergus, Greenisland, Eden and Sunnylands learners aged 6 to 67, with CCEA exam help. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Northern Ireland](/coding-and-ai-classes-in-northern-ireland) / Carrickfergus
-
-Carrickfergus, Mid and East Antrim, Northern Ireland / Live online
-
-# Coding and AI classes in Carrickfergus
-
-**Where can Carrickfergus learners find the best coding and AI classes?** At the 2021 census NISRA put the Carrickfergus settlement at roughly 28,141 usual residents, part of Mid and East Antrim, a district of 138,994. OpenStreetMap names Eden, Sunnylands, Castlemara, Clipperstown, Boneybefore and Burleigh Hill among the town's neighbourhoods, and the same map area includes the villages of Trooperslane and Woodburn. Primary pupils, secondary students and adults up to 67 are taught coding, AI, Python, vibe coding and maths on camera by tutors based in India, singly or in level-matched groups of fifteen to twenty. Reasoning is taught before tools, so learners can tell a model that has learned something from one that has memorised noise. The trial lesson is free and ends with the course we recommend. The Carrickfergus project uses NISRA census data for 3,780 small areas to show why a single decision tree changes its mind so easily, and how bagging, averaging many trees, steadies it. Staying on costs USD 100 for each month of small-group teaching or USD 150 for each month of individual tuition.
-
-A decision tree is one of the easiest machine learning models to understand: a flowchart of yes or no questions. It also has an awkward habit. Train it on a slightly different sample of the same data and it can build a quite different flowchart and give a quite different answer. Statisticians call this high variance. In 1996 Leo Breiman proposed a simple cure called bagging, short for bootstrap aggregating: train many trees, each on a random resample of the data, and average what they say. This project tests it on NISRA's Census 2021 figures for Northern Ireland's 3,780 data zones, predicting how many households live alone and checking the answers on the 74 zones of the Carrick Castle and Knockagh electoral areas.
-
-Facts last verified 29 September 2026. Teaching is online; no Carrickfergus branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCarrickfergus course picks
 
 ## Carrickfergus courses in reasoning, Python and AI
 
 Four routes in, by age. Each begins with a free live class, booked without any payment details.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think course: asking a crowd instead of one person, and why averages are steadier.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games planned by the learner, built with AI help and checked piece by piece.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Machine learning in Python, including decision trees and bagging on NISRA census data.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Students and adults): Python through data science, ensemble models and AI agents.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think course: asking a crowd instead of one person, and why averages are steadier.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games planned by the learner, built with AI help and checked piece by piece.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensMachine learning in Python, including decision trees and bagging on NISRA census data.See the syllabus](/courses/ai-ml-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)Students and adultsPython MasterclassPython through data science, ensemble models and AI agents.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Carrickfergus and Mid and East Antrim
 
 ## Carrickfergus, Eden, Sunnylands and Castlemara
 
 NISRA 2021 census figures for the town and its two electoral areas, and neighbourhoods named on the map.
 
-**Carrickfergus in NISRA Census 2021 figures, usual residents**
-
 | Area | Kind of area | Usual residents |
-|---|---|---|
+| --- | --- | --- |
 | Carrickfergus | Settlement (NISRA approximation) | 28,141 |
 | Carrick Castle | District electoral area | 18,430 |
 | Knockagh | District electoral area | 17,272 |
@@ -55,16 +41,16 @@ Each number is printed as NISRA publishes it; the areas overlap in different way
 
 See [coding classes in Mid and East Antrim](/coding-classes-in-mid-and-east-antrim), [Belfast](/best-coding-class-in-belfast) and [CCEA GCSE Digital Technology help](/ccea-gcse-digital-technology-programming-help). Why thinking comes before tools is on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Carrickfergus project
+
 ## Bagging on census data: steadying a jumpy decision tree
 
 One target, seven inputs, fifty resampled trees, and a measure of how much each one wobbles.
 
 The learner downloads two NISRA Census 2021 tables at data zone level, the smallest areas NISRA publishes these for: age by single year and household size. For each of the 3,780 zones the target is the share of households with one person living alone; the inputs are the shares of residents in six age bands plus the number of residents. The 74 zones of the Carrick Castle and Knockagh electoral areas are held back as the test, where one-person households range from 6.2% to 68.3%. Every model trains on the other 3,706 zones.
 
-**Predicting the share of one-person households in 74 Carrick Castle and Knockagh data zones, typical error in percentage points, our Python run on NISRA data**
-
 | Model | Typical error | Note |
-|---|---|---|
+| --- | --- | --- |
 | Guess the Northern Ireland average | 11.51 | The baseline to beat |
 | One full-depth decision tree | 10.07 | Swings about 8 points between resamples |
 | Average of 50 resampled full-depth trees | 8.55 | Bagging, built by hand |
@@ -90,14 +76,14 @@ Train single and bagged trees, measure their variance and explain why bagging he
 
 Age and household size counts are NISRA Census 2021 main statistics, published under the Open Government Licence. The choice of test zones, inputs and models, and every error figure, are our own work and not NISRA outputs.
 
+Ensembles and AI
+
 ## What this teaches about vibe coding and AI agents
 
 A lone confident answer may just be a lucky draw.
 
-**From the Carrickfergus bagging project to working with AI**
-
 | In the census project | When AI gives you an answer |
-|---|---|
+| --- | --- |
 | One tree swung about 8 points between samples | A single run can be unusually good or bad |
 | Averaging 50 trees cut the error | Combining several attempts smooths out quirks |
 | 200 trees barely beat 50 | Beyond a point, more copies add little |
@@ -108,14 +94,37 @@ Many AI systems use the same trick: generate several answers and combine them. I
 
 NISRA and OpenStreetMap supply the open data used here and have no link with Modern Age Coders; the models, and any errors in them, are ours.
 
+Stages
+
 ## From guessing jars to ensemble models
 
 We start from the school year, P1 to Year 14, and let the free lesson fine-tune it.
 
-- **P1 to P7: How to think** Guessing, averaging and asking why a crowd beats one voice. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **P5 to Year 9: Vibe coding for kids** Games and apps planned by the learner, built with an AI and tested. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 10 to 14: Python and machine learning** Trees, resampling and ensembles alongside CCEA GCSE and A level. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Statistics & Probability](/courses/statistics-probability-maths-course)
-- **Adults: Data science and agents** Python, ensemble models and AI agents, step by step. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
+P1 to P7
+
+### How to think
+
+Guessing, averaging and asking why a crowd beats one voice.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)P5 to Year 9
+
+### Vibe coding for kids
+
+Games and apps planned by the learner, built with an AI and tested.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 10 to 14
+
+### Python and machine learning
+
+Trees, resampling and ensembles alongside CCEA GCSE and A level.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Statistics & Probability](/courses/statistics-probability-maths-course)Adults
+
+### Data science and agents
+
+Python, ensemble models and AI agents, step by step.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)AI and ensembles
 
 ## What is bagging in machine learning, and why does it help?
 
@@ -127,30 +136,139 @@ Learners who have seen that ask of any AI answer: would it say the same thing if
 
 A Carrickfergus teenager who knows when averaging helps, and when it cannot, will read AI claims with the right amount of doubt, and coding is where that instinct forms. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Eden to Sunnylands, online
 
 A computer, a webcam and an internet connection steady enough for video are all you need.
 
-- **Learners drive** Students write the code and the prompts; our tutor watches the shared screen and keeps asking for a prediction first.
-- **Starting point found** Thirty minutes of real work in the trial tells us where to begin, and any CCEA exam is written into the plan.
-- **No fee to start** Lesson one is free and finishes with our course suggestion.
-- **Small matched groups** Between five and ten learners per class, from all over Britain, at a single level.
-- **Two each week** Lessons pause for school holidays.
-- **Fixed time** UK clock changes are handled by our tutors, so your slot stays put.
+### Learners drive
 
-**Why online** Five learners at the same level, all free the same evening, rarely live on the same street. Video removes the distance.
+Students write the code and the prompts; our tutor watches the shared screen and keeps asking for a prediction first.
+
+### Starting point found
+
+Thirty minutes of real work in the trial tells us where to begin, and any CCEA exam is written into the plan.
+
+### No fee to start
+
+Lesson one is free and finishes with our course suggestion.
+
+### Small matched groups
+
+Between five and ten learners per class, from all over Britain, at a single level.
+
+### Two each week
+
+Lessons pause for school holidays.
+
+### Fixed time
+
+UK clock changes are handled by our tutors, so your slot stays put.
+
+Why online
+
+Five learners at the same level, all free the same evening, rarely live on the same street. Video removes the distance.
+
+Fees
 
 ## Carrickfergus fees
 
 Carrickfergus learners pay our international prices, which apply everywhere apart from India.
 
-- First class: USD 0. A whole lesson free, then a recommendation.
-- Group tuition: USD 100 a month. About eight live small-group lessons each month.
-- Private tuition: USD 150 a month. About eight live private lessons each month.
+First class**USD 0**
+
+A whole lesson free, then a recommendation.
+
+Group tuition**USD 100**
+
+About eight live small-group lessons each month.
+
+Private tuition**USD 150**
+
+About eight live private lessons each month.
 
 We charge in US dollars and never in sterling, and billing starts only after the trial has settled a course and a weekly time. Holidays, missed lessons and changing between group and private are explained on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Carrickfergus%3F)Reviews
+
+## What County Antrim parents and UK learners write on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Carrickfergus lesson
+
+A P or Year group, or simply an age, plus one hobby lets us shape the trial. It might be a guess-the-jar game, a Scratch game built with an AI, some first Python, or a tiny tree trained on real census numbers.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Carrickfergus one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Carrickfergus%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Carrickfergus questions
+
+Bagging, the census project, vibe coding, Python and practical details.
 
 ### What is the population of Carrickfergus?
 
@@ -192,10 +310,14 @@ Trial lesson free. After that, group classes are USD 100 monthly and one-to-one 
 
 Yes; send us the dates and we will pause.
 
+Nearby
+
 ## More Antrim and Northern Ireland pages
 
 Pages with projects of their own: [Mid and East Antrim](/coding-classes-in-mid-and-east-antrim) (the Carrickfergus gasworks), [Antrim and Newtownabbey](/coding-classes-in-antrim-and-newtownabbey), [Belfast](/best-coding-class-in-belfast) and [Bangor](/best-coding-class-in-bangor-northern-ireland). The [Northern Ireland page](/coding-and-ai-classes-in-northern-ireland) and the [UK hub](/coding-classes-in-united-kingdom) cover the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Carrickfergus%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-and-ai-classes-in-carrickfergus](https://learn.modernagecoders.com/best-coding-and-ai-classes-in-carrickfergus#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-carrickfergus*

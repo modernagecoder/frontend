@@ -24,7 +24,7 @@ Book the free first classSee the standards mapping
 
 No card. No obligation. We call, we do not spam.
 
-10,000+students taught4.9across 547 Google reviews2020teaching since25+countries6 to 67ages taught5 to 8students per groupCourses for New Jersey
+10,000+students taught4.9across 547 Google reviews2020teaching since25+countries6 to 67ages taught15 to 20students per groupCourses for New Jersey
 
 ## What New Jersey families actually book
 
@@ -253,7 +253,7 @@ Fees
 
 Monthly, in US dollars, with no joining fee and no annual contract. You can stop at the end of any month.
 
-Group$100per month, 8 classes
+Small group$100per month, 8 classes
 
 Fifteen to twenty students, same teacher every week. The default for most learners, and the one most families stay on.
 

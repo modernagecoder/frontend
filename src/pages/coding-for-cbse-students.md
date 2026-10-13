@@ -12,7 +12,7 @@ For CBSE parents · Class 6 through 12
 
 CBSE has been quietly Python-first for years. Our 1 hour live classes follow the exact NCERT trajectory, Code 166 at Class 6, Code 402 at Class 9/10, CS and IP at Class 11/12, and add the real projects the school cannot fit in.
 
-[Book a free demo class](/book-demo)See the curriculum**8,600+**CBSE students across India**4.9 / 5**Parent rating · 910+ reviews**1 hour**Live class, 1:1 or small group**NCERT**Textbook-aligned curriculumCBSEBoard · NCERTPython-firstCode 402 readyCS + IP coveredCourses matched for this level
+[Book a free demo class](/book-demo)See the curriculum**10,000+**Students taught live since 2020**4.9 / 5**Rated across 547 Google reviews**1 hour**Live class, 1:1 or small group**NCERT**Textbook-aligned curriculumCBSEBoard · NCERTPython-firstCode 402 readyCS + IP coveredCourses matched for this level
 
 ## Courses across the CBSE journey: Class 6 to 12.
 
@@ -156,9 +156,9 @@ One teacher, one learner, the full 1 hour. The teacher adapts pace in real time,
 
 **₹4,999**/ month · 4 sessionsOption B
 
-### Live Small-Group Online Class
+### Live Group Online Class
 
-4 to 6 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
+15 to 20 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
 
 - Small groups of 4 to 6 similar-level learners
 - 1 hour live session, 2 sessions per week
@@ -211,7 +211,7 @@ Fill the form. Our counsellor calls you within 3 hours, understands your child's
 
 ### Related pages
 
-[Compare Coding for ICSE](/coding-for-icse-students)[Compare Coding for IGCSE](/coding-for-igcse-students)[Paper CS Class 11 CBSE](/computer-science-class-11-cbse)[Paper CS Class 12 CBSE](/computer-science-class-12-cbse)[Grade Coding for Class 9](/coding-for-class-9)[Grade Coding for Class 10](/coding-for-class-10)[Grade Coding for Class 11](/coding-for-class-11)[Grade Coding for Class 12](/coding-for-class-12)
+[Class 10 Class 10 AI classes](/cbse-class-10-ai-classes-online)[Class 10 CBSE 417 syllabus explained](/cbse-class-10-ai-syllabus-explained)[Class 10 Python for Class 10 AI](/python-for-cbse-class-10-ai)[Class 10 AI board exam preparation](/cbse-class-10-ai-board-exam-preparation)[Class 10 AI project and practical file](/cbse-class-10-ai-project-and-practical-file)[Compare Coding for ICSE](/coding-for-icse-students)[Compare Coding for IGCSE](/coding-for-igcse-students)[Paper CS Class 11 CBSE](/computer-science-class-11-cbse)[Paper CS Class 12 CBSE](/computer-science-class-12-cbse)[Grade Coding for Class 9](/coding-for-class-9)[Grade Coding for Class 10](/coding-for-class-10)[Grade Coding for Class 11](/coding-for-class-11)[Grade Coding for Class 12](/coding-for-class-12)
 
 ### Coding classes near your city
 

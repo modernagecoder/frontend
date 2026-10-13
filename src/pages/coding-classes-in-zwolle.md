@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes in Zwolle for ages 6 to 
 canonical: https://learn.modernagecoders.com/coding-classes-in-zwolle
 source: src/pages/coding-classes-in-zwolle.html
 ---
-> Coding classes in Zwolle serve 134,147 people (Statistics Netherlands, 1 January 2026), the capital of Overijssel and the nineteenth municipality of the country. Its own entry calls the station one of the largest railway junctions in the Netherlands and says eight directions leave it. Only one of those two statements can be tested, and it is not the first. Across the whole municipality the teaching is done by Modern Age Coders on a live connection, in English, at any age between 6 and 67. Nothing is charged for the opening hour. From there it is USD 100 monthly in a group of fifteen to twenty, or USD 150 with a teacher to yourself.
+> Live online coding, Python and AI classes in Zwolle for ages 6 to 67, across all 16 wijken of the Overijssel capital. First lesson free, then one flat fee.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Zwolle
-
-Zwolle, Overijssel / Live online
-
-# Coding classes in Zwolle, where one of the biggest is not a claim you can check
-
-**What are the best coding classes in Zwolle?** Coding classes in Zwolle serve 134,147 people (Statistics Netherlands, 1 January 2026), the capital of Overijssel and the nineteenth municipality of the country. Its own entry calls the station one of the largest railway junctions in the Netherlands and says eight directions leave it. Only one of those two statements can be tested, and it is not the first. Across the whole municipality the teaching is done by Modern Age Coders on a live connection, in English, at any age between 6 and 67. Nothing is charged for the opening hour. From there it is USD 100 monthly in a group of fifteen to twenty, or USD 150 with a teacher to yourself.
-
-Two sentences about this city's station sit next to each other in the same source. Zwolle is one of the largest railway junctions in the Netherlands. From Zwolle you can travel in eight directions by train. The second can be checked by anyone with a map and ten minutes. The first cannot be checked by anyone at all, because nobody has said which junctions are in the running, what is being measured, or where the cutoff falls. A child who can tell those two sentences apart is already harder to sell to than most adults.
-
-Facts last verified 7 September 2026. Teaching is online; no Zwolle branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Zwolle
 
 ## Four courses for a city that half the north travels into
 
 A groep 5 child in Stadshagen, a teenager in Zwolle-Zuid who wants to test a claim rather than repeat it, a student at one of the applied institutions here, and a parent in Berkum whose reports are full of phrases nobody can check: four doors into one city.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Scratch from an empty stage to a finished game in three months, in English, for the groep 3 to 6 child anywhere in the municipality.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 17): Python and real datasets to a first model, for the teenager who would rather check a claim than accept it.
-- [Statistics & Probability](/courses/statistics-probability-maths-course) (Teens and adults): From data to hypothesis testing, for anyone who wants to know what evidence would actually settle a question.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (Adults): Excel, SQL, Python and BI, for the working parent who has to turn a vague brief into a number somebody can defend.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsScratch from an empty stage to a finished game in three months, in English, for the groep 3 to 6 child anywhere in the municipality.See the syllabus](/courses/scratch-programming-complete-course)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 17Data Science for TeensPython and real datasets to a first model, for the teenager who would rather check a claim than accept it.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Statistics & Probability course thumbnail](/images/statistics-probability-maths.webp)Teens and adultsStatistics & ProbabilityFrom data to hypothesis testing, for anyone who wants to know what evidence would actually settle a question.See the syllabus](/courses/statistics-probability-maths-course)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)AdultsData Analysis CourseExcel, SQL, Python and BI, for the working parent who has to turn a vague brief into a number somebody can defend.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Zwolle today
 
 ## The provincial capital, nineteenth in the country, and more secondary pupils than primary
 
@@ -52,7 +40,11 @@ The national register held 134,147 people on 1 January 2026, in 63,332 household
 
 Zwolle is a Hanzestad and the capital of Overijssel, and it sits where the IJssel, the Vecht and the Zwarte Water come together. City rights were granted in 1230 by bishop Wilbrand van Oldenburg, and the municipality is a single woonplaats divided into 16 wijken and 78 buurten.
 
-**A tower that stopped being the tallest** The Peperbus, formally the Onze-Lieve-Vrouwetoren, was built between 1463 and 1482 and stands 75 metres. It is no longer the tallest structure in the city: the IJsseltoren, at about 96 metres, now is. The Sassenpoort, the city gate completed in 1406, has been a national monument since 13 February 1967.
+A tower that stopped being the tallest
+
+The Peperbus, formally the Onze-Lieve-Vrouwetoren, was built between 1463 and 1482 and stands 75 metres. It is no longer the tallest structure in the city: the IJsseltoren, at about 96 metres, now is. The Sassenpoort, the city gate completed in 1406, has been a national monument since 13 February 1967.
+
+Where the learners are
 
 ## One woonplaats, sixteen wijken, and a station everybody changes at
 
@@ -84,6 +76,8 @@ The former village cores and the industrial edges by the water. Even here nothin
 
 The class reaches every wijk at one hour and one fee, and stage rather than address decides which group a learner joins.
 
+Verified local facts
+
 ## Every figure and its source, and the one sentence this page will not repeat as fact
 
 The national count, the municipal entry, the tower, the gate, and the claim the project below takes apart.
@@ -114,6 +108,8 @@ The formal name of the Peperbus, Onze-Lieve-Vrouwetoren, is also the formal name
 
 Modern Age Coders has no connection to the municipality, the station or any school named here and claims none. That is a statement anybody can check, which is the standard this page is arguing for.
 
+Signature project
+
 ## One of the largest: build the test, discover there isn't one, and write the claim that can be tested
 
 Two sentences about the same station, one checkable and one not, and the three things a superlative needs before anybody can agree or disagree with it.
@@ -130,10 +126,8 @@ Suppose largest means directions, and the cutoff is the top three. Zwolle has ei
 
 The claim that survives is the one already in the source: eight directions leave this station. It has a measure, a subject and a value, it can be confirmed or refuted with a railway map, and it happens to be more informative than the superlative it sat next to. The learner ends with a rule: if a claim cannot be made false, it is not carrying information.
 
-**What a testable claim needs, and which pieces each sentence has**
-
 | Claim | Comparison set | Measure | Threshold | Can it be checked? |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | One of the largest railway junctions in the Netherlands | not given | not given | not given | no |
 | Eight directions leave the station | not needed | directions | not needed | yes, with a map |
 | The nineteenth municipality of the Netherlands by population | all municipalities | residents | rank 19 exactly | yes, and the source gives it |
@@ -144,14 +138,14 @@ The claim that survives is the one already in the source: eight directions leave
 
 The phrase one of the largest is doing something specific: it borrows the authority of a ranking while declining to say where the line is, so it cannot be shown to be wrong and therefore cannot be shown to be right either. The remedy is mechanical. Ask what is being compared, by what quantity, and where the cutoff falls. If any of the three is missing, either find it or replace the sentence with one that carries a measurable value, which is nearly always more useful anyway. The last row of the table above is included deliberately: a properly formed superlative can be checked, and this one turns out to be false, which is exactly what a good claim is supposed to risk. Every row was assessed against what the sources on this page actually provide, and the two sentences about the station are quoted from the same entry.
 
+Reliable pipeline
+
 ## Five habits for claims that sound like measurements
 
 A leading provider, among the fastest growing, one of the most trusted, a top destination: the phrases are everywhere and almost none of them can be checked. Practised on a sentence about the station down the road.
 
-**When a sentence borrows the authority of a number**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Name the set | Ask what the subject is being compared with | A ranking with no other entrants | A comparison somebody could repeat |
 | Name the measure | Ask what quantity decides the ordering | Largest meaning whatever suits | A number to go and find |
 | Name the threshold | Ask where one of the largest stops | An unfalsifiable boast | A verdict that can go either way |
@@ -172,14 +166,37 @@ The same three questions on the copy your own organisation publishes. Adults alm
 
 The population, household, area, school, tower and gate figures come from the offices and entries named beside them. The verdicts in the table are assessments of what those sources supply, not new measurements, and this page states no ranking for the station because none of its sources contains one.
 
+Learning ladder
+
 ## From the fastest dog in the street to a claim that can be shown false
 
 Where a learner begins is settled in the free hour, and the wijk on the address is not consulted.
 
-- **Ages 6 to 10: How would we find out?** Children turn a boast into a question with a method attached. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Set, measure, cutoff** Learners test claims against the three things a comparison needs. [Maths Through Coding](/courses/maths-through-coding), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 14 to 18: Falsifiable by design** Teenagers write the classifier and the rewriter, and try both on real advertising. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Statistics & Probability](/courses/statistics-probability-maths-course)
-- **Ages 18 to 67: Auditing your own claims** Adults apply the three questions to copy their own organisation publishes. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Ages 6 to 10
+
+### How would we find out?
+
+Children turn a boast into a question with a method attached.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Set, measure, cutoff
+
+Learners test claims against the three things a comparison needs.
+
+[Maths Through Coding](/courses/maths-through-coding)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 14 to 18
+
+### Falsifiable by design
+
+Teenagers write the classifier and the rewriter, and try both on real advertising.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Statistics & Probability](/courses/statistics-probability-maths-course)Ages 18 to 67
+
+### Auditing your own claims
+
+Adults apply the three questions to copy their own organisation publishes.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)Coding and AI
 
 ## An AI will tell you Zwolle is a major rail hub. Why should a child here learn to ask what would make that false?
 
@@ -191,30 +208,139 @@ That is why the learner writes the classifier rather than reading a warning abou
 
 The case for a Zwolle child learning to code in 2026 is therefore not about railways. It is that a great deal of what anybody reads is built to be agreeable rather than checkable, that telling the two apart takes three questions and no expertise, and that the habit is best fixed by testing a sentence about the station they pass every day. The longer argument is in [whether a child should learn to code now that AI can](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for a city the whole region commutes into
 
 Zwolle is where the north changes trains, and a great many of its secondary pupils and students arrive each morning from outside it. A lesson delivered over the connection reverses that: the class comes to the house instead.
 
-- **No train, no bicycle, no car park** The lesson runs at the kitchen table in Stadshagen, Zwolle-Zuid or Westenholte at one fixed hour a week, in any weather and any month.
-- **The teaching is English; the school words stay Dutch** Instruction is in English throughout, and groep, havo, vwo and profielkeuze are used exactly as the school uses them, without translation in either direction.
-- **The opening hour, and what it produces** Three outcomes: evidence of where the learner really stands, the name of a course that follows from that evidence, and a time each week. Setting all three up needs no card and no deposit.
-- **Grouping follows ability and nothing else** A learner from Berkum and a learner from Stadshagen share a group whenever they are working at the same level. Where the levels differ, so do the groups, regardless of how near the two addresses are.
-- **Eight lessons a month, around the northern holidays** Lessons come twice weekly in one repeating slot, so eight in a typical month. The school year here belongs to regio Noord, as it does throughout Overijssel, and holidays a family has already booked get written in before the slot is settled.
-- **Summer narrows the gap, winter widens it** Clocks here shift in March and October while India leaves its own alone, putting the teacher three and a half hours in front for part of the year and four and a half for the rest. Late afternoons and early evenings work, and so does any hour of Saturday or Sunday.
+### No train, no bicycle, no car park
 
-**More secondary pupils than primary, because the region comes here** 62 primary establishments teach 12,931 pupils and 25 secondary establishments teach 13,407. A city whose schools draw from a whole province is a city whose teenagers already spend an hour a day travelling, and adding an evening journey on top of that is what stops many families from starting anything at all.
+The lesson runs at the kitchen table in Stadshagen, Zwolle-Zuid or Westenholte at one fixed hour a week, in any weather and any month.
+
+### The teaching is English; the school words stay Dutch
+
+Instruction is in English throughout, and groep, havo, vwo and profielkeuze are used exactly as the school uses them, without translation in either direction.
+
+### The opening hour, and what it produces
+
+Three outcomes: evidence of where the learner really stands, the name of a course that follows from that evidence, and a time each week. Setting all three up needs no card and no deposit.
+
+### Grouping follows ability and nothing else
+
+A learner from Berkum and a learner from Stadshagen share a group whenever they are working at the same level. Where the levels differ, so do the groups, regardless of how near the two addresses are.
+
+### Eight lessons a month, around the northern holidays
+
+Lessons come twice weekly in one repeating slot, so eight in a typical month. The school year here belongs to regio Noord, as it does throughout Overijssel, and holidays a family has already booked get written in before the slot is settled.
+
+### Summer narrows the gap, winter widens it
+
+Clocks here shift in March and October while India leaves its own alone, putting the teacher three and a half hours in front for part of the year and four and a half for the rest. Late afternoons and early evenings work, and so does any hour of Saturday or Sunday.
+
+More secondary pupils than primary, because the region comes here
+
+62 primary establishments teach 12,931 pupils and 25 secondary establishments teach 13,407. A city whose schools draw from a whole province is a city whose teenagers already spend an hour a day travelling, and adding an evening journey on top of that is what stops many families from starting anything at all.
+
+Fees
 
 ## The fee, in dollars, in every wijk
 
 Stated on the page rather than kept for a phone call.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 One international rate applies and it is quoted in dollars, never in euros, so every address in the municipality sees the same figure. Payment follows the free lesson rather than preceding it, and it goes over WhatsApp once a course and a time are settled. Pausing, changing plan and missing a week are described on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Zwolle.)Reviews
+
+## Six families, in the words they left on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Send the level; the wijk is not needed
+
+The first task might be a boast about a dog turned into a question with a method, a classifier that decides whether a claim can be tested, or a line of copy your own employer publishes that turns out not to be checkable.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Zwolle one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Zwolle.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Zwolle coding class questions
+
+The city, its station, its schools, the teaching and the terms.
 
 ### Why does this page refuse to call Zwolle a major rail hub?
 
@@ -256,10 +382,14 @@ The first lesson is free. Group tuition is USD 100 a month for two live lessons 
 
 Between five and ten, matched on level, pace and goal rather than on age, school or wijk. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.
 
+Explore the Netherlands
+
 ## East to the border, out to the province, and up to the country
 
 East along the line is [Enschede](/coding-classes-in-enschede), the largest city of [Overijssel](/coding-classes-in-overijssel), whose page turns a dike standard into a lifetime probability; south-west is [Apeldoorn](/coding-classes-in-apeldoorn). Standing over the whole set is the [Netherlands coding hub](/coding-classes-in-netherlands). A learner who turns out to want machine learning instead of software should look at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands), or at the [AI and Python Academy](/ai-and-python-academy-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Zwolle.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-zwolle](https://learn.modernagecoders.com/coding-classes-in-zwolle#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-zwolle*

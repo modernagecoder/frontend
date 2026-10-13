@@ -4,34 +4,28 @@ description: "Help with VCE Applied Computing: Software Development, Units 3 and
 canonical: https://learn.modernagecoders.com/vce-applied-computing-software-development-help
 source: src/pages/vce-applied-computing-software-development-help.html
 ---
-> VCE Applied Computing: Software Development is the Units 3 and 4 sequence of the Applied Computing study, accredited from 1 January 2025. Unit 3 develops working software modules in an object-oriented language and plans a student-chosen solution; Unit 4 builds and evaluates that solution and studies software security. Coursework is worth 20 per cent, the School-assessed Task 30 and the 2-hour exam 50.
+> Help with VCE Applied Computing: Software Development, Units 3 and 4: OOP modules, the 30 per cent School-assessed Task, the 2-hour exam, and validation technique.
 
-[Home](/) / [Coding classes in Australia](/coding-classes-in-australia) / VCE Software Development
+In short
 
-Victoria · Applied Computing: Software Development · Live online
+VCE Applied Computing: Software Development is the Units 3 and 4 sequence of the Applied Computing study, accredited from 1 January 2025. Unit 3 develops working software modules in an object-oriented language and plans a student-chosen solution; Unit 4 builds and evaluates that solution and studies software security. Coursework is worth 20 per cent, the School-assessed Task 30 and the 2-hour exam 50.
 
-# VCE Software Development help
-
-Software Development is the half of VCE Applied Computing where students actually build programs: first modules to a teacher's design, then a solution to a problem they find themselves. The study design rewards a disciplined process as much as working code, and almost a third of the study score rides on one long project.
-
-At a glance: Study: VCE Applied Computing; Units: 3 (IT033) and 4 (IT034); Accredited from: 1 January 2025; Task weight: 30 per cent of the study score; Exam: 50 per cent, 2 hours; 2026 exam: Friday 13 November; We teach: OOP, validation and testing; We never: Build any part of the task. Rated 4.9 across 547 Google reviews.
+Where to begin
 
 ## Three courses that match the two units
 
 An object-oriented language first, then the algorithms and testing the key knowledge lists.
 
-- [Python for teens](/courses/python-complete-masterclass-teens): Classes, objects, file handling and graphical interfaces: the features Unit 3 Area of Study 1 asks students to use well.
-- [Java for teens](/courses/java-programming-masterclass-for-teens): For schools teaching in Java or C#, where types and encapsulation are explicit from the first line.
-- [Algorithms and data structures](/courses/problem-solving-dsa-masterclass-teens): Selection sort, quick sort, binary and linear search, each traced and tested, as the key knowledge requires.
+[![Python for Teens course thumbnail](/images/python-teens.webp)  VCSD / 01 Python for teens Classes, objects, file handling and graphical interfaces: the features Unit 3 Area of Study 1 asks students to use well. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Java for Teens course thumbnail](/images/java-teens.webp)  VCSD / 02 Java for teens For schools teaching in Java or C#, where types and encapsulation are explicit from the first line. Open the syllabus →](/courses/java-programming-masterclass-for-teens)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)  VCSD / 03 Algorithms and data structures Selection sort, quick sort, binary and linear search, each traced and tested, as the key knowledge requires. Open the syllabus →](/courses/problem-solving-dsa-masterclass-teens)
+
+Inside the study design
 
 ## What Units 3 and 4 ask students to do
 
 From the VCE Applied Computing Study Design, read on 7 October 2026. The study offers two Units 3 and 4 sequences, Software Development and Data Analytics, and the study design notes that students may elect to undertake one or both.
 
-**Software Development: units and areas of study**
-
 | Unit | Area of study | The work |
-|---|---|---|
+| --- | --- | --- |
 | Unit 3 (IT033) | Software development: programming | Turn teacher-provided requirements and designs into working modules in an object-oriented language, including a graphical user interface |
 | Unit 3 (IT033) | Software development: analysis and design | Find a problem, need or opportunity, plan it with a Gantt chart, write a software requirements specification, and develop two to three design ideas into a preferred design |
 | Unit 4 (IT034) | Development and evaluation | Build the preferred design into a solution, test and evaluate it, and assess how well the project plan worked |
@@ -47,14 +41,14 @@ That cuts both ways for students. The exam can ask about these trends, and the S
 
 Sources: [VCAA, Applied Computing study design page](https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/applied-computing-data-analytics/applied-computing); VCE Applied Computing Study Design, Units 1 to 4 accredited from 1 January 2025, read on 7 October 2026.
 
+How the study score is built
+
 ## Half the score in the exam, nearly a third in one project
 
 Weightings are quoted from the study design. The class-time guidance comes from the VCAA's 2026 administrative information for the task, and the exam session from the 2026 timetable, all checked on 7 October 2026.
 
-**VCE Software Development assessment**
-
 | Component | Contribution to the study score | Notes |
-|---|---|---|
+| --- | --- | --- |
 | Unit 3 School-assessed Coursework | 10 per cent | The programming outcome: working modules to a given design |
 | Unit 4 School-assessed Coursework | 10 per cent | The security case study |
 | School-assessed Task | 30 per cent | Unit 3 analysis and design, then Unit 4 development and evaluation |
@@ -69,6 +63,8 @@ The exam covers the key knowledge of both units, which means object-oriented pri
 Good exam preparation therefore looks like short, varied practice: read a fragment and name the error type, design a testing table for a function, explain which validation check catches which input, and justify a design choice against a requirement in two or three sentences.
 
 Sources: VCE Applied Computing Study Design, assessment sections; [VCAA, Software Development administrative information for School-based Assessment in 2026](https://www.vcaa.vic.edu.au/sites/default/files/2026-01/2026SoftwareDevelopmentAdmin-Information-for-School-based-Assessment.docx); [VCAA, 2026 VCE examination timetable](https://www.vcaa.vic.edu.au/administration/key-dates/vce-examination-timetable).
+
+A worked example from Unit 3
 
 ## Existence, then type, then range: why the order matters
 
@@ -86,10 +82,8 @@ Can the value be read as the type the program needs? "ten" and "12.0" are presen
 
 Is the number inside the allowed limits? A year level of 15 is a valid integer and still wrong for a secondary school.
 
-**Twelve year-level cells from an invented CSV import, rule: whole number from 7 to 12 (our example)**
-
 | Cell | Existence | Type | Range | Outcome |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | 9 | Pass | Pass | Pass | Accepted |
 | (blank) | Fail | Not reached | Not reached | Rejected: missing |
 | 11 | Pass | Pass | Pass | Accepted |
@@ -113,14 +107,14 @@ In the exam, a question that asks which validation technique applies to a given 
 
 Validation and error types quoted from the VCE Applied Computing Study Design, Unit 3 key knowledge. The twelve cells, rule and counts are our own, checked in Python on 7 October 2026.
 
+The School-assessed Task
+
 ## Why we teach around the task, never inside it
 
 The task is the student's solution to a problem they identified. The study design and the VCAA's 2026 administrative information spell out what that means.
 
-**What the VCAA requires of the task**
-
 | Point | What the VCAA says |
-|---|---|
+| --- | --- |
 | Who finds the problem | Students are expected to independently identify a problem, need or opportunity from within their community |
 | Planning | A project plan with student-determined and teacher-provided milestones in a Gantt chart |
 | Design | Two to three design ideas, with evaluation criteria developed by the student to choose the preferred design |
@@ -131,14 +125,14 @@ So our line is simple. We teach object-oriented programming, validation, testing
 
 Sources: VCE Applied Computing Study Design, Unit 3 Area of Study 2; VCAA, Software Development administrative information for School-based Assessment in 2026, read on 7 October 2026.
 
+From Unit 1 to the exam
+
 ## Four rungs through the sequence
 
 Some students arrive from Units 1 and 2 of Applied Computing, others straight into Unit 3. The rungs describe skill, not year level.
 
-**From first programs to an evaluated solution**
-
 | Stage | Milestone | Evidence it is in place |
-|---|---|---|
+| --- | --- | --- |
 | Before Unit 3 | 1. Language fluency | Writes a hundred lines with functions and a simple interface without help |
 | Unit 3 programming | 2. Objects and data | Builds classes that encapsulate their data and read a CSV file safely |
 | Unit 3 design | 3. Planning | Writes requirements, a Gantt chart and two genuinely different design ideas |
@@ -147,63 +141,293 @@ Some students arrive from Units 1 and 2 of Applied Computing, others straight in
 ### If Unit 3 programming feels heavy
 
 The usual gap is objects. Students who learned scripts can make a program run but struggle to split it into classes, and a few weeks of small, deliberate object-oriented exercises closes it faster than more features.
+
 Validation and testing are also skills on their own. Practising them on throwaway programs means they are automatic by the time the task begins.
 
 ### Alongside the study
 
 Students who enjoy the theory more than the building may also like [VCE Algorithmics (HESS)](/vce-algorithmics-hess-help), the VCAA's university-level algorithms study.
+
 The security area of study pairs well with defensive coding practice, the habits behind every input a real user can type.
+
+The catalogue
 
 ## Nine courses for Software Development students
 
 Grouped by the part of the sequence they support. Every card opens a complete syllabus.
 
+I
+
 ### Unit 3 programming
 
 Language and objects
 
-- [Python for teens](/courses/python-complete-masterclass-teens): Object-oriented Python with files and interfaces.
-- [Java for teens](/courses/java-programming-masterclass-for-teens): Strong typing and encapsulation from the first program.
-- [Algorithms and data structures](/courses/problem-solving-dsa-masterclass-teens): Sorts, searches and structures, traced before they are typed.
+VCSD / U3 / 01
+
+#### Python for teens
+
+Object-oriented Python with files and interfaces.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+VCSD / U3 / 02
+
+#### Java for teens
+
+Strong typing and encapsulation from the first program.
+
+[Open the syllabus](/courses/java-programming-masterclass-for-teens)
+
+VCSD / U3 / 03
+
+#### Algorithms and data structures
+
+Sorts, searches and structures, traced before they are typed.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)II
 
 ### Unit 4 solutions
 
 Building something real
 
-- [Full stack web development](/courses/full-stack-web-development-teens-masterclass): Interfaces, servers and data for students whose solution lives on the web.
-- [App development for teens](/courses/complete-app-development-masterclass-for-teens): State, screens and testing for students building an app.
-- [Databases with MySQL](/courses/mysql-mastery-for-teens): Stored data done properly, for solutions that need more than a file.
+VCSD / U4 / 01
+
+#### Full stack web development
+
+Interfaces, servers and data for students whose solution lives on the web.
+
+[Open the syllabus](/courses/full-stack-web-development-teens-masterclass)
+
+VCSD / U4 / 02
+
+#### App development for teens
+
+State, screens and testing for students building an app.
+
+[Open the syllabus](/courses/complete-app-development-masterclass-for-teens)
+
+VCSD / U4 / 03
+
+#### Databases with MySQL
+
+Stored data done properly, for solutions that need more than a file.
+
+[Open the syllabus](/courses/mysql-mastery-for-teens)III
 
 ### Security and modern practice
 
 Beyond the code
 
-- [Cybersecurity for teens](/courses/cybersecurity-course-for-teens-ethical-defensive): Threats and controls, the language of the Unit 4 case study.
-- [React for teens](/courses/react-for-teens-complete-masterclass): Component-based interfaces for students who want a modern front end.
-- [Vibe coding for teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course): Working with AI tools while understanding every line they produce.
+VCSD / SEC / 01
+
+#### Cybersecurity for teens
+
+Threats and controls, the language of the Unit 4 case study.
+
+[Open the syllabus](/courses/cybersecurity-course-for-teens-ethical-defensive)
+
+VCSD / SEC / 02
+
+#### React for teens
+
+Component-based interfaces for students who want a modern front end.
+
+[Open the syllabus](/courses/react-for-teens-complete-masterclass)
+
+VCSD / SEC / 03
+
+#### Vibe coding for teens
+
+Working with AI tools while understanding every line they produce.
+
+[Open the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)
+
+How lessons run
 
 ## Weekly lessons on Victorian time
 
 Our teachers are based in India. Victorian clocks are ahead of theirs by 4 hours 30 minutes in winter and by 5 hours 30 minutes under daylight saving, which runs from 4 October 2026 to 4 April 2027 according to the IANA time zone database. A lesson at 4.30 pm in Geelong or Melbourne is 11 am India time in summer, comfortably inside the teaching day.
 
-- **Weekday after school** The usual slot through Units 3 and 4.
-- **Weekend morning** For longer practice on objects, testing or design tools.
-- **School holidays** Focused revision blocks before the November exam.
+Weekday after school
 
-- **Invented projects only** Every exercise is ours. Assessed work stays out of the lesson.
-- **Testing tables taught** Expected and actual output, written before the code is run.
-- **Exam-style short answers** Name the technique, apply it to the scenario, state the effect.
-- **Groups of fifteen to twenty** Senior students at the same level, each explaining their reasoning out loud.
-- **One-to-one option** For one area of study that needs repair quickly.
-- **No predictions** We do not forecast study scores or ATARs; the solution and its result belong to the student.
+The usual slot through Units 3 and 4.
+
+Weekend morning
+
+For longer practice on objects, testing or design tools.
+
+School holidays
+
+Focused revision blocks before the November exam.
+
+### Invented projects only
+
+Every exercise is ours. Assessed work stays out of the lesson.
+
+### Testing tables taught
+
+Expected and actual output, written before the code is run.
+
+### Exam-style short answers
+
+Name the technique, apply it to the scenario, state the effect.
+
+### Groups of fifteen to twenty
+
+Senior students at the same level, each explaining their reasoning out loud.
+
+### One-to-one option
+
+For one area of study that needs repair quickly.
+
+### No predictions
+
+We do not forecast study scores or ATARs; the solution and its result belong to the student.
+
+Student work
+
+## Projects our students have published
+
+Personal builds only, never school assessment. More sit in our [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 One monthly fee, charged in US dollars and identical for every family outside India. No sign-up charge, and you can stop at the end of any month.
 
-- Free first class: USD 0. A complete lesson with a teacher. An honest picture of the gaps. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher every week. Practice reviewed together. A certificate on completion.
-- One to one: USD 150 a month. A teacher working with one student. Focused on a single weak area. Handy in the run-up to November.
+Free first class
+
+USD 0
+
+no card required
+
+- A complete lesson with a teacher
+- An honest picture of the gaps
+- No card needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students at one level
+- The same teacher every week
+- Practice reviewed together
+- A certificate on completion
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher working with one student
+- Focused on a single weak area
+- Handy in the run-up to November
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Reproduced exactly as families and students wrote them on Google.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about the study
 
 ## What Victorian students and parents ask
 
@@ -247,15 +471,54 @@ No. We teach the skills with projects we invent and never design, write, debug, 
 
 Late afternoon in Victoria works for most senior students and falls in the middle of our teachers' day. We settle the weekly time together after the free class.
 
+Related pages
+
 ## More for Victorian students
 
-- [VCE Algorithmics (HESS) help](/vce-algorithmics-hess-help): The university-level algorithms study, for theory-minded students.
-- [Coding and AI classes in Melbourne](/vibe-coding-and-ai-agents-classes-in-melbourne): Coding, vibe coding and AI agents for Melbourne students.
-- [HSC Software Engineering help](/hsc-software-engineering-help): The New South Wales equivalent, for comparison.
-- [Australian competitions calendar](/australian-coding-maths-and-ai-competitions-calendar): Coding and AI contests through the school year.
-- [Coding classes in Australia](/coding-classes-in-australia): Every state and age, and how lessons fit around time zones.
-- [Understand the code, do not copy it](/understand-the-code-dont-copy-paste-australia): Why reading every line matters more than ever.
+The other VCE computing studies, the Victorian school picture, and competitions that use the same skills.
 
-## Contact
+### [VCE Algorithmics (HESS) help](/vce-algorithmics-hess-help)
 
-Book the free first class at [https://learn.modernagecoders.com/vce-applied-computing-software-development-help](https://learn.modernagecoders.com/vce-applied-computing-software-development-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The university-level algorithms study, for theory-minded students.
+
+### [Coding and AI classes in Melbourne](/vibe-coding-and-ai-agents-classes-in-melbourne)
+
+Coding, vibe coding and AI agents for Melbourne students.
+
+### [HSC Software Engineering help](/hsc-software-engineering-help)
+
+The New South Wales equivalent, for comparison.
+
+### [Australian competitions calendar](/australian-coding-maths-and-ai-competitions-calendar)
+
+Coding and AI contests through the school year.
+
+### [Coding classes in Australia](/coding-classes-in-australia)
+
+Every state and age, and how lessons fit around time zones.
+
+### [Understand the code, do not copy it](/understand-the-code-dont-copy-paste-australia)
+
+Why reading every line matters more than ever.
+
+Start here
+
+## Start with a free class on one skill
+
+Tell us the unit and the skill that is not clicking yet: objects, validation, testing or design tools. The free class works on it with our own projects, never with assessed work.
+
+Want to read first? Syllabuses are on the [course atlas](/course-atlas), our approach is on [how we teach](/how-we-teach), and the Victorian background is on the [Melbourne page](/vibe-coding-and-ai-agents-classes-in-melbourne).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20class%20about%20VCE%20Applied%20Computing%3A%20Software%20Development.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp gets the fastest reply. The +91 number is Indian because we teach from India; there is no Victorian office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/vce-applied-computing-software-development-help*

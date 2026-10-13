@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and app classes for Rijswijk, ages 
 canonical: https://learn.modernagecoders.com/coding-classes-in-rijswijk
 source: src/pages/coding-classes-in-rijswijk.html
 ---
-> Rijswijk, 61,857 residents on 1 January 2026 in the national count, lies between The Hague and Delft. In 1697 the Peace of Rijswijk was signed here, at Huis ter Nieuwburg; in 1959 Shell began building a research laboratory in the Plaspoelpolder; and from 2009 the last farmland in the municipality became the new wijk of Rijswijk Buiten. A treaty is a set of promises that each side relies on. Software is built on promises too. An API, the published way one program talks to another, is a promise about what it will accept and return, and changing it without warning breaks every program that relied on it. Versions, deprecation notices and contract tests exist to keep those promises, and AI models, which can change their answers after an update, have made them more important. Live lessons in English run online for ages 6 to 67; the first is free, then a group costs USD 100 a month and one-to-one tuition USD 150.
+> Live online coding, Python, AI and app classes for Rijswijk, ages 6 to 67, from Oud-Rijswijk and Te Werve to Rijswijk Buiten. The first lesson is free.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Rijswijk
-
-Rijswijk, Zuid-Holland / Live online
-
-# Coding classes in Rijswijk, the town of a treaty, and the promises inside every program
-
-**What are the best coding classes in Rijswijk?** Rijswijk, 61,857 residents on 1 January 2026 in the national count, lies between The Hague and Delft. In 1697 the Peace of Rijswijk was signed here, at Huis ter Nieuwburg; in 1959 Shell began building a research laboratory in the Plaspoelpolder; and from 2009 the last farmland in the municipality became the new wijk of Rijswijk Buiten. A treaty is a set of promises that each side relies on. Software is built on promises too. An API, the published way one program talks to another, is a promise about what it will accept and return, and changing it without warning breaks every program that relied on it. Versions, deprecation notices and contract tests exist to keep those promises, and AI models, which can change their answers after an update, have made them more important. Live lessons in English run online for ages 6 to 67; the first is free, then a group costs USD 100 a month and one-to-one tuition USD 150.
-
-A treaty works because every party knows what the others have agreed to do, and plans around it. Break a term without notice and the whole arrangement is in doubt. Programs depend on one another in exactly the same way. A weather app relies on a weather service to send the temperature in a field called temperature, in degrees Celsius; a shop relies on a payment service to answer in a known format; a thousand projects rely on the same small library to behave the same way tomorrow as today. Each of those dependencies is an unwritten treaty, and when one side changes its terms, renaming a field or changing a unit or dropping a feature, the other side breaks, often in production and often at night. Rijswijk, which gave its name to a peace signed in 1697, is a good place to learn how software keeps its promises: by writing them down, numbering its versions, announcing changes before making them, and testing that the promise still holds.
-
-Facts last verified 11 September 2026. Teaching is online; no Rijswijk branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Rijswijk
 
 ## Four courses for the town between The Hague and Delft
 
 A child in the Bomenbuurt making a game that loads levels from a file, a teenager in Te Werve building an app on a public weather service, a student in Oud-Rijswijk whose project broke when a library updated, and an adult at work in the Plaspoelpolder whose reports depend on another team's data feed. For each of them the first lesson is free.
 
-- [Game Development for Kids](/courses/game-development-masterclass-for-kids) (Ages 8 to 12): Games that read their levels from a file with an agreed format, so a child learns what happens when the format changes.
-- [App Development for Teens](/courses/complete-app-development-masterclass-for-teens) (Ages 13 to 18): Apps built on real outside services, with the agreed request and response checked by tests before anything ships.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Designing and versioning APIs in Python, pinning dependencies and AI model versions, and handling change without breaking users.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): Reports and dashboards that depend on other systems, with a clear record of what each source has promised.
+[![Game Development for Kids course thumbnail](/images/game-dev-kids.webp)Ages 8 to 12Game Development for KidsGames that read their levels from a file with an agreed format, so a child learns what happens when the format changes.See the syllabus](/courses/game-development-masterclass-for-kids)[![App Development for Teens course thumbnail](/images/app-dev-teens.webp)Ages 13 to 18App Development for TeensApps built on real outside services, with the agreed request and response checked by tests before anything ships.See the syllabus](/courses/complete-app-development-masterclass-for-teens)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CourseDesigning and versioning APIs in Python, pinning dependencies and AI model versions, and handling change without breaking users.See the syllabus](/courses/python-ai-automation-masterclass-college)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)Reports and dashboards that depend on other systems, with a clear record of what each source has promised.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Rijswijk today
 
 ## A peace of 1697, a laboratory of 1959, and a new wijk from 2009
 
 Rijswijk lies on the southern side of The Hague and the northern edge of Delft. The statistics office divides it into 11 wijken and 32 buurten, and the encyclopaedia names many neighbourhoods, among them Oud-Rijswijk, Te Werve, Hoornwijck, Welgelegen, the Bomenbuurt, Cromvliet and Stervoorde. The municipality has 1,398 hectares of land and 53 of water, at a published density of 4,343 residents per square kilometre.
 
-**Rijswijk in three dates from the encyclopaedia**
-
 | Year | What happened |
-|---|---|
+| --- | --- |
 | 1697 | the Peace of Rijswijk was signed at Huis ter Nieuwburg |
 | 5 January 1959 | Shell began building its research laboratory in the Plaspoelpolder, which became an industrial and office district |
 | 2009 onwards | Sion, 't Haantje and Pasgeld, the last farmland in Rijswijk, began to be turned into the residential and business area of Rijswijk Buiten |
@@ -60,14 +46,14 @@ The statistics give 46,415 residents in 1995, 47,372 in 2013 and 61,857 on 1 Jan
 
 The Plaspoelpolder grew into a district of offices and industry after 1959. The statistics also count higher professional and university students at institutions in the municipality, 1,220 and 1,130.
 
+Promises between programs
+
 ## What an API promises, and how a change breaks it
 
 The table shows the kinds of change a service can make, and what each does to the programs relying on it. It is written as a general guide, not about any Rijswijk company.
 
-**Changes to a published interface, from harmless to breaking**
-
 | The change | Example | Effect on programs that rely on it | How careful services handle it |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Add something new | a new optional field, windspeed | none, old programs ignore it | a minor version number goes up |
 | Fix a bug without changing the format | rounding corrected | usually none | a patch version number goes up |
 | Rename a field | temperature becomes temp | programs reading temperature get nothing, and may crash | a major version, with the old name kept for a while |
@@ -75,6 +61,8 @@ The table shows the kinds of change a service can make, and what each does to th
 | Remove a feature | an old endpoint switched off | every program still using it stops working | a deprecation notice months before, then removal |
 
 The most dangerous row is the unit change, because nothing fails loudly: the field is still there, the number still arrives, and it is simply wrong. The usual discipline for avoiding all of this is called semantic versioning. A version number has three parts, major, minor and patch; the patch number rises for fixes, the minor number for additions that break nothing, and the major number, the only one that warns of broken promises, rises for any change that could stop existing programs working. Around it sit the other habits of a trustworthy service: write the promise down, announce breaking changes well in advance, keep the old version running while people move, and test automatically that every promise still holds. A treaty signed at Huis ter Nieuwburg in 1697 held because its terms were written down and known. So do good interfaces.
+
+Verified local facts
 
 ## Rijswijk in the national statistics
 
@@ -106,6 +94,8 @@ The figures published for the municipality, each with its year, then the encyclo
 
 Modern Age Coders has no connection with the municipality of Rijswijk, Shell, Huis ter Nieuwburg or any school in the area, and nothing on the page implies one. The statistics are those published for Rijswijk for the years stated. The Peace of Rijswijk, the Shell laboratory, Rijswijk Buiten, the town's position and the neighbourhoods come from the encyclopaedia entry for Rijswijk, which gives 61,874 residents on 1 January 2026 and 14.50 square kilometres, from a different source, not combined with the statistics.
 
+Signature project
+
 ## Write the promise down, then test that it holds
 
 A learner can build both sides of a promise: a small service that makes one, and a program that relies on it, then watch what happens when the promise changes.
@@ -122,10 +112,8 @@ Write tests from the user's side that check every promise. Run them automaticall
 
 Now make a breaking change the right way: a new major version, the old one kept running, a notice to users, and a date for switching the old version off.
 
-**Silent changes and what guards against them**
-
 | What changed | Where it happens | What goes wrong | The guard |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | A library's behaviour after an update | every project with dependencies | code that worked yesterday fails today | pinned versions and reading the change log before upgrading |
 | A field renamed in a data feed | reports built on another team's data | empty columns or crashes | a contract test run on every delivery |
 | A unit changed without a new name | sensor data, prices, measurements | numbers that are wrong but look fine | units written into the contract and checked |
@@ -136,14 +124,14 @@ Now make a breaking change the right way: a new major version, the old one kept 
 
 Traditional software changes only when someone releases a new version. AI models blur that. A hosted model can be updated by its provider, and the same question, sent the same way, can produce a noticeably different answer the next week. An app that relied on the model returning a neat list, a particular tone or a certain level of caution may quietly stop working as intended, with no error and no change on its own side. The discipline that protects ordinary interfaces applies here with extra force. Pin the model version where the provider allows it. Keep a set of test prompts with the answers you rely on, and run them whenever anything changes. Treat the format you need from a model as a contract and check every response against it before using it. Rijswijk's name is attached to a peace that depended on written terms; programs that depend on AI need their terms written down just as clearly, because the other party can change without telling them.
 
+Reliable pipeline
+
 ## Five habits for keeping promises between programs
 
 For APIs, data feeds, libraries, file formats and AI models. Practised in the town that gave its name to the Peace of 1697.
 
-**Changing software without breaking its users**
-
 | Habit | In practice | What it prevents | The result |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Write the contract | Document fields, types, units and error behaviour | Users guessing what was promised | A shared understanding |
 | Version meaningfully | Use major, minor and patch numbers honestly | Breaking changes hidden in small updates | Upgrades users can judge |
 | Deprecate before removing | Announce, keep the old version running, then switch off | Sudden breakage | Time for everyone to move |
@@ -164,14 +152,37 @@ A list of every outside system a report or tool depends on, with what each one p
 
 This section uses the Peace of Rijswijk only as an image, together with standard practice in software engineering. It says nothing about the terms of the treaty or about any system used by a Rijswijk company.
 
+Learning ladder
+
 ## From a level file with a version number to contracts with AI models
 
 The free lesson sets the starting level, from how the learner handles a real task. Age alone does not set it, and neither does whether home is in Oud-Rijswijk or Rijswijk Buiten.
 
-- **Ages 6 to 10: Agreed formats** Children see a game break when a file format changes without warning. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Game Development for Kids](/courses/game-development-masterclass-for-kids)
-- **Ages 11 to 13: Version numbers** Learners add versions to their files and check them when loading. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Service and client** Teenagers build both sides of an API and test the promise between them. [App Development for Teens](/courses/complete-app-development-masterclass-for-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Pinned and tested** Adults pin library and AI versions and test every contract. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Agreed formats
+
+Children see a game break when a file format changes without warning.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Game Development for Kids](/courses/game-development-masterclass-for-kids)Ages 11 to 13
+
+### Version numbers
+
+Learners add versions to their files and check them when loading.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Service and client
+
+Teenagers build both sides of an API and test the promise between them.
+
+[App Development for Teens](/courses/complete-app-development-masterclass-for-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Pinned and tested
+
+Adults pin library and AI versions and test every contract.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## An AI model can change its answers after an update. Why should a teenager in Rijswijk learn to write contracts?
 
@@ -183,30 +194,139 @@ A learner who has built a small service and a client, renamed one field and watc
 
 So the case for a child in Rijswijk learning to code in 2026 is not the treaty or the laboratory. It is that someone who writes down what a system promises, and tests that the promise holds, will be needed wherever software is built on AI models and services that other people can change. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Online lessons for every part of Rijswijk
 
 From Oud-Rijswijk to the new streets of Rijswijk Buiten, and from the edge of The Hague to the edge of Delft, a learner joins the same class from home.
 
-- **Home, not a classroom** A learner in Stervoorde and a learner in Hoornwijck start the lesson together, each from home, with no journey through the evening traffic between two cities.
-- **Dutch school terms stay Dutch** Brugklas, groep, vmbo, havo, vwo and the profielkeuze are kept as Rijswijk schools write them, while the teaching is in English.
-- **A real first lesson, free** The first hour is a full lesson on a genuine task. The teacher then recommends a level, a course and a weekly time, with no payment details requested.
-- **Matched groups** Fifteen to twenty learners at the same stage. Rijswijk has 10,444 residents under fifteen, but five who match on subject, level and hour are rare, so groups also draw on learners in other countries.
-- **Regio Midden breaks** Two lessons a week, about eight a month, at one fixed hour, pausing for the regio Midden holidays that Zuid-Holland schools keep.
-- **Teachers ahead in time** The teachers are in India, three and a half hours ahead of Rijswijk in summer and four and a half in winter, so late afternoons, evenings and weekend mornings are all available.
+### Home, not a classroom
 
-**Twenty-three schools between two cities, and one group online** Rijswijk has 18 primary establishments and 5 secondary establishments teaching 2,001 pupils. A coding group needs five learners who match on subject, stage and hour, and across all ages from 6 to 67 and many countries they are much easier to find than inside one municipality.
+A learner in Stervoorde and a learner in Hoornwijck start the lesson together, each from home, with no journey through the evening traffic between two cities.
+
+### Dutch school terms stay Dutch
+
+Brugklas, groep, vmbo, havo, vwo and the profielkeuze are kept as Rijswijk schools write them, while the teaching is in English.
+
+### A real first lesson, free
+
+The first hour is a full lesson on a genuine task. The teacher then recommends a level, a course and a weekly time, with no payment details requested.
+
+### Matched groups
+
+Fifteen to twenty learners at the same stage. Rijswijk has 10,444 residents under fifteen, but five who match on subject, level and hour are rare, so groups also draw on learners in other countries.
+
+### Regio Midden breaks
+
+Two lessons a week, about eight a month, at one fixed hour, pausing for the regio Midden holidays that Zuid-Holland schools keep.
+
+### Teachers ahead in time
+
+The teachers are in India, three and a half hours ahead of Rijswijk in summer and four and a half in winter, so late afternoons, evenings and weekend mornings are all available.
+
+Twenty-three schools between two cities, and one group online
+
+Rijswijk has 18 primary establishments and 5 secondary establishments teaching 2,001 pupils. A coding group needs five learners who match on subject, stage and hour, and across all ages from 6 to 67 and many countries they are much easier to find than inside one municipality.
+
+Fees
 
 ## Fees for Rijswijk families
 
 Three prices, stated in full.
 
-- First class: USD 0. A real lesson on a real task, ending with a level and a course.
-- Group tuition: USD 100 a month. Monthly, normally eight lessons, fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. Monthly, normally eight lessons, one teacher and one learner.
+First class**USD 0**
+
+A real lesson on a real task, ending with a level and a course.
+
+Group tuition**USD 100**
+
+Monthly, normally eight lessons, fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+Monthly, normally eight lessons, one teacher and one learner.
 
 The dollar fee is the same in every country, with no euro list beside it, so a family in Welgelegen pays what a family in Rijswijk Buiten pays. Nothing is charged until the free lesson has settled a course and a time; payment is then arranged over WhatsApp. The pricing page covers pauses, format changes and missed lessons.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Rijswijk.)Reviews
+
+## Six Google reviews, word for word
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Where is the learner up to?
+
+The first task might be a game that reads levels from a versioned file, a small service with a written promise, or a test that catches a renamed field before it breaks anything.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Rijswijk one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Rijswijk.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Rijswijk coding class questions
+
+The town, its treaty, its figures, and the lessons.
 
 ### Where is Rijswijk?
 
@@ -248,10 +368,14 @@ The first lesson is free. After it, group tuition is USD 100 a month for two liv
 
 Fifteen to twenty, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
+Explore Haaglanden and beyond
+
 ## Between The Hague and Delft, and across the province
 
 To the north lies the city covered by [coding classes in The Hague](/coding-classes-in-the-hague), and to the south [Delft](/coding-classes-in-delft) has its own page; [Leidschendam-Voorburg](/coding-classes-in-leidschendam-voorburg) is close by to the east. Every town and city in the province with a page is gathered on [Zuid-Holland](/coding-classes-in-zuid-holland). For machine learning from the start there is the [AI and Python Academy](/ai-and-python-academy-netherlands), and the complete series is listed on the [Netherlands coding hub](/coding-classes-in-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Write to us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Rijswijk.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-rijswijk](https://learn.modernagecoders.com/coding-classes-in-rijswijk#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-rijswijk*

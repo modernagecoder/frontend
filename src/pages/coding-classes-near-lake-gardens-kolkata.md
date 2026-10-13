@@ -12,7 +12,7 @@ Lake Gardens, South Kolkata · 100% Live Online Classes
 
 Modern Age Coders runs 100% live online coding and mathematics classes for families in Lake Gardens, Kolkata: Python, Java, AI/ML and school maths, taught in batches of 15–20 by full-time software engineers and maths graduates, not pre-recorded videos. Children from South Point, Birla High, Modern High and DPS Ruby Park learn from the same desk at home, with no Prince Anwar Shah Road commute. Book a free demo today.
 
-100% Live, Not RecordedSmall Batches (15–20)Taught by Full-Time EngineersFrom ₹1,499/month[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)6–8Students per live batch1:1Personalised option4.9/5Parent rating24 hrsDemo to first classLive Online · Lake Gardens, Kolkata
+100% Live, Not RecordedBatches (15–20)Taught by Full-Time EngineersFrom ₹1,499/month[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)15–20Students per live batch1:1Personalised option4.9/5Parent rating24 hrsDemo to first classLive Online · Lake Gardens, Kolkata
 
 ## At a glance
 

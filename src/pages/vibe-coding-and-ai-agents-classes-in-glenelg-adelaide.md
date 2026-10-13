@@ -4,56 +4,40 @@ description: "Live online vibe coding and AI agent classes for Glenelg teenagers
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-glenelg-adelaide
 source: src/pages/vibe-coding-and-ai-agents-classes-in-glenelg-adelaide.html
 ---
-> By checking that each test compares the code against an independent answer, not against the same calculation run twice. Our live online classes teach vibe coding and agent work with that check built in. Glenelg had 3,440 residents at the 2021 Census.
+> Live online vibe coding and AI agent classes for Glenelg teenagers and adults, with Scratch and Python for children from six, taught in small groups or one to one.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [South Australia](/coding-and-ai-classes-in-south-australia) / [Adelaide](/ai-and-programming-classes-in-adelaide) / Glenelg
-
-Glenelg, City of Holdfast Bay, South Australia / Live online
-
-# Vibe coding and AI agent classes in Glenelg
-
-**How can Glenelg learners tell whether an AI agent's tests mean anything?** By checking that each test compares the code against an independent answer, not against the same calculation run twice. Our live online classes teach vibe coding and agent work with that check built in. Glenelg had 3,440 residents at the 2021 Census.
-
-Trams reach Moseley Square on every day of the week in the timetable, so a count of Wednesday tram visits at Glenelg should not be zero. Our scripted agent's code said zero, and the test it wrote for that code passed. The test was checking the code against itself.
-
-Facts last verified 13 October 2026. Teaching is online; no Glenelg branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Glenelg
 
 ## Courses for testing what agents build
 
 This project needs Python, a little testing knowledge and a sceptical eye for green ticks. These courses teach all three; a free lesson finds the fit.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): AI-assisted building, with tests the learner writes and understands.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Adults 18 and over): Coding agents on real projects, with independent checks on their work.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python types, files and the testing basics agents rely on.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (University and adult): Generative AI and agents, including how to evaluate their output.
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensAI-assisted building, with tests the learner writes and understands.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Adults 18 and overCodex & Claude CodeCoding agents on real projects, with independent checks on their work.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython types, files and the testing basics agents rely on.See the syllabus](/courses/python-complete-masterclass-teens)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)University and adultGenerative AI CourseGenerative AI and agents, including how to evaluate their output.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Glenelg in the Census
 
 ## A small seaside suburb of apartments
 
 Census 2021 figures for the suburb of Glenelg (ABS code SAL40505), set against the whole of South Australia.
 
-**Glenelg in 2021**
-
 | Measure | Glenelg |
-|---|---|
+| --- | --- |
 | Residents | 3,440 |
 | Median age | 55 |
 | Families | 841 |
 | Private dwellings | 2,299 |
 | People per household | 1.8 |
 
-**Glenelg beside the state**
-
 | Indicator | Glenelg | South Australia |
-|---|---|---|
+| --- | --- | --- |
 | Flats or apartments | 61.1% (1,026) | 6.8% |
 | Separate houses | 15.8% (265) | 78.0% |
 | Employed residents working from home | 16.5% (263) | 9.6% |
@@ -73,14 +57,14 @@ The ABS outline of Glenelg encloses just under 1 square kilometre by the beach.
 
 Small Census counts are randomly nudged by the bureau for privacy. That is why we show them exactly as released and do not add any of them up.
 
+Signature project
+
 ## A test that could never fail
 
 The request: count the scheduled tram visits at stop records inside Glenelg on Wednesday 21 October 2026. Tram routes carry route_type 0 in the timetable. The scripted agent wrote a filter, then a test to prove it worked.
 
-**What each version reported (our run)**
-
 | Code or test | Result |
-|---|---|
+| --- | --- |
 | Agent filter: route_type == 0 | 0 tram visits |
 | Agent test: expected = count_trams(data); assert count_trams(data) == expected | Passed |
 | Independent test: visits on trips of the route named GLNELG | Expects 474, so it fails |
@@ -104,14 +88,14 @@ The tram stop records inside Glenelg are Jetty Road (two records) and Moseley Sq
 
 The timetable is Adelaide Metro open data. Glenelg membership is our point-in-boundary check and every count is ours. The agent and its test are scripts we wrote to show the pattern, not output from any commercial AI model.
 
+Agents and testing
+
 ## Spotting a tautological test
 
 Agents write tests quickly, and many are fine. A short review catches the ones that cannot fail.
 
-**Questions to ask of any agent-written test**
-
 | Question | Warning sign | Glenelg case |
-|---|---|---|
+| --- | --- | --- |
 | Where does the expected value come from? | From the code under test | count_trams() on both sides |
 | Could this test ever fail? | Hard to imagine how | Passes even at 0 |
 | Is there a second route to the answer? | None used | Route name GLNELG gives 474 |
@@ -131,6 +115,8 @@ Ask that every agent-written test names where its expected value comes from befo
 
 The quickest defence is to make a test fail on purpose before trusting it. A test that stays green when the code is wrong is not testing anything.
 
+Around Glenelg
+
 ## Tram, bus interchange and late services
 
 Local details from the timetable for Wednesday 21 October 2026.
@@ -147,16 +133,41 @@ Zone B at Glenelg Interchange was the busiest stop record, with 267 visits; a Je
 
 The last scheduled departure was written as 25:19:00, the timetable's way of saying 1:19am on the same service day.
 
-**Glenelg proper** This page covers the suburb of Glenelg in the City of Holdfast Bay. Glenelg North, Glenelg East and Glenelg South are separate ABS suburbs with their own figures, not included here.
+Glenelg proper
+
+This page covers the suburb of Glenelg in the City of Holdfast Bay. Glenelg North, Glenelg East and Glenelg South are separate ABS suburbs with their own figures, not included here.
+
+Learning ladder
 
 ## From finger counting to agent review
 
 Treat the ages loosely; a learner's first lesson shows where to begin.
 
-- **Ages 6 to 10: Scratch and play** Games built and checked block by block. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)
-- **Ages 10 to 14: Python and AI basics** First code and a sensible view of AI. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)
-- **Ages 14 to 18: Vibe coding** Building with AI, then testing it independently. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [AI Tools Course for Teens (13+)](/courses/teens-ai-tools-mastery-course)
-- **Adults 18 and over: Coding agents** Agents for real work, reviewed like any colleague's code. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)
+Ages 6 to 10
+
+### Scratch and play
+
+Games built and checked block by block.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)Ages 10 to 14
+
+### Python and AI basics
+
+First code and a sensible view of AI.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)Ages 14 to 18
+
+### Vibe coding
+
+Building with AI, then testing it independently.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[AI Tools Course for Teens (13+)](/courses/teens-ai-tools-mastery-course)Adults 18 and over
+
+### Coding agents
+
+Agents for real work, reviewed like any colleague's code.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Vibe coding and agents
 
 ## If the agent writes the tests, who tests the tests?
 
@@ -168,30 +179,139 @@ Learners who have watched a passing test sit beside a zero tram count stop trust
 
 In Glenelg, the learner who tests the tests ships code that counts the trams. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Glenelg lessons online
 
 Each lesson is a live video class; there is no venue to visit.
 
-- **Shared screen** Prompts, code and test results are all read together.
-- **Term-time rhythm** Classes follow South Australian school terms with holiday breaks.
-- **Opening class free** A real first lesson, then honest advice on next steps.
-- **Groups** Fifteen to twenty learners at a matching level, or private lessons.
-- **Twice a week** Regular slots, roughly eight lessons a month.
-- **India time** Our teachers are in India: a 6pm Glenelg class is 1pm India time until early April, then 2pm.
+### Shared screen
 
-**Adelaide summer time** South Australia uses daylight saving from the first Sunday in October to the first Sunday in April (IANA time zone database), so the gap to India is five hours in summer and four otherwise.
+Prompts, code and test results are all read together.
+
+### Term-time rhythm
+
+Classes follow South Australian school terms with holiday breaks.
+
+### Opening class free
+
+A real first lesson, then honest advice on next steps.
+
+### Groups
+
+Fifteen to twenty learners at a matching level, or private lessons.
+
+### Twice a week
+
+Regular slots, roughly eight lessons a month.
+
+### India time
+
+Our teachers are in India: a 6pm Glenelg class is 1pm India time until early April, then 2pm.
+
+Adelaide summer time
+
+South Australia uses daylight saving from the first Sunday in October to the first Sunday in April (IANA time zone database), so the gap to India is five hours in summer and four otherwise.
+
+Fees
 
 ## Glenelg class fees
 
 The same three prices for all.
 
-- First class: USD 0. Your first lesson is free and comes with a written plan.
-- Group tuition: USD 100 a month. Group month: about eight lessons with fifteen to twenty learners.
-- Private tuition: USD 150 a month. Private month: about eight lessons with one teacher.
+First class**USD 0**
+
+Your first lesson is free and comes with a written plan.
+
+Group tuition**USD 100**
+
+Group month: about eight lessons with fifteen to twenty learners.
+
+Private tuition**USD 150**
+
+Private month: about eight lessons with one teacher.
 
 Glenelg learners pay in US dollars after the trial, once course and timing are agreed. The pricing page details holidays and absences.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20class%20for%20a%20learner%20in%20Glenelg.)Reviews
+
+## Google reviews from people we teach
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Glenelg class
+
+Share the learner's age and what they enjoy. An older learner could start by breaking a test on purpose; a child could start with a Scratch tram game.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Glenelg one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20class%20for%20a%20learner%20in%20Glenelg.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Glenelg vibe coding and agent questions
+
+Questions Glenelg residents ask about agents and coding classes.
 
 ### How many people live in Glenelg?
 
@@ -233,10 +353,14 @@ Fifteen to twenty learners at a similar level and pace, not sorted by age or sub
 
 No. Copilot Studio is kept for one-to-one lessons; groups build agents in Python.
 
+Explore Adelaide and South Australia
+
 ## More for Glenelg learners
 
 The [Adelaide page](/ai-and-programming-classes-in-adelaide) covers the whole city and [coding for Adelaide kids](/coding-classes-for-kids-adelaide) suits children. Down the south-east, [Mount Gambier](/vibe-coding-and-ai-agents-classes-in-mount-gambier) has its own agents page, and [the South Australia guide](/coding-and-ai-classes-in-south-australia) covers the state.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20class%20for%20a%20learner%20in%20Glenelg.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-glenelg-adelaide](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-glenelg-adelaide#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-glenelg-adelaide*

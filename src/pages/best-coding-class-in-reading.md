@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths classes for learners in R
 canonical: https://learn.modernagecoders.com/best-coding-class-in-reading
 source: src/pages/best-coding-class-in-reading.html
 ---
-> Reading had 174,224 residents at the 2021 census and is a town of young adults: people aged 20 to 24 made up 8.4 per cent of residents and those aged 30 to 34 made up 9.0, against 6.0 and 7.0 per cent across England. Caversham, inside the borough, is a built-up area of 33,040 on its own. Reading Museum also holds Britain's Bayeux Tapestry, a full-size Victorian copy. Our teachers work from India and teach every lesson live by video, in coding, Python, AI and maths, for anyone from 6 to 67, one-to-one or in a class of fifteen to twenty at one level. A free first lesson finds the right course. The Reading project asks whose mistake is whose when copies are made from copies. Continuing costs USD 100 a month for a class or USD 150 a month with a private tutor.
+> Live online coding, Python, AI and maths classes for learners in Reading and Caversham, aged 6 to 67, taught by a live teacher. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South East England](/coding-and-ai-classes-in-south-east-england) / Reading
-
-Reading, Berkshire, England / Live online
-
-# Coding classes in Reading
-
-**What are the best coding classes in Reading?** Reading had 174,224 residents at the 2021 census and is a town of young adults: people aged 20 to 24 made up 8.4 per cent of residents and those aged 30 to 34 made up 9.0, against 6.0 and 7.0 per cent across England. Caversham, inside the borough, is a built-up area of 33,040 on its own. Reading Museum also holds Britain's Bayeux Tapestry, a full-size Victorian copy. Our teachers work from India and teach every lesson live by video, in coding, Python, AI and maths, for anyone from 6 to 67, one-to-one or in a class of fifteen to twenty at one level. A free first lesson finds the right course. The Reading project asks whose mistake is whose when copies are made from copies. Continuing costs USD 100 a month for a class or USD 150 a month with a private tutor.
-
-In 1885 Elizabeth Wardle of the Leek Embroidery Society visited Bayeux, and soon thirty-five women were stitching a full-size copy of its famous embroidery, over 70 metres long, finished at Whitsuntide 1886. Reading Museum has displayed it since the town was given it. The museum's history page tells a lovely story about mistakes. In the Reading copy one naked figure in the border wears pants. The embroiderers are often blamed for adding them, but the museum explains they simply copied hand-coloured photographs whose images had already been "cleaned up" by staff at the South Kensington Museum. The copy was faithful to its source; the source had changed. How do errors build up when every copy is made from the last, and how do you tell who made them? This page's project works it out in Python.
-
-Facts last verified 27 September 2026. Teaching is online; no Reading branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Reading
 
 ## Four courses for Reading learners
 
 Choose by what the learner wants to make. Every course starts with a free live lesson and needs no payment details.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Scratch stories and comic strips, told scene by scene like a tapestry.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 9 to 12): Python and first AI ideas, including a copying game that counts its own mistakes.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python to GCSE depth and beyond, with simulation, randomness and testing.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (University and adult): Python for data work, where tracing a number back to its true source matters most.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsScratch stories and comic strips, told scene by scene like a tapestry.See the syllabus](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 9 to 12Python and AI for KidsPython and first AI ideas, including a copying game that counts its own mistakes.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython to GCSE depth and beyond, with simulation, randomness and testing.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)University and adultData Analysis CoursePython for data work, where tracing a number back to its true source matters most.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Reading today
 
 ## A town of young adults
 
 These figures come from the 2021 census age table TS007A, read through Nomis; each band is shown as published and none are added together.
 
-**Reading and England, selected age bands, Census 2021 table TS007A**
-
 | Age band | Reading residents | Share in Reading | Share in England |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 20 to 24 | 14,690 | 8.4% | 6.0% |
 | 25 to 29 | 14,572 | 8.4% | 6.6% |
 | 30 to 34 | 15,640 | 9.0% | 7.0% |
@@ -57,16 +43,16 @@ Reading leans towards people in their twenties and early thirties, with a smalle
 
 Our [Berkshire](/coding-classes-in-berkshire) page covers the county, the [South East](/coding-and-ai-classes-in-south-east-england) page indexes the region, and there is a separate [Reading 11+ maths](/11-plus-maths-tuition-reading) page for families preparing for selective tests.
 
+The Reading project
+
 ## Whose mistake is it?
 
 Copy a copy, and errors from every stage arrive together.
 
 The learner imagines the embroidery as 1,000 small details in a row and simulates two stages of copying, with rates we invented for the lesson. First the photographs: each detail has a half-per-cent chance of being altered, as the retouching did. Then the stitching: each detail has a one-per-cent chance of a slip. The program compares the finished copy two ways, against the photographs it was made from and against the original, and repeats the whole thing 5,000 times to average out the luck.
 
-**Our copying simulation, 1,000 invented details, 5,000 trials, 27 September 2026**
-
 | Comparison | Average differences found | What it measures | Who gets blamed |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Replica against the photographs | 10 | Only the stitchers' slips | The embroiderers alone |
 | Replica against the original | 15 | Slips plus inherited changes | Both stages together |
 | Photographs against the original | 5 | Only the retouching | The photographers |
@@ -91,14 +77,14 @@ Model long copy chains, find the half-way point with logarithms, and connect it 
 
 The story of the replica, the photographs and the pants comes from Reading Museum's history page. Every rate and count in the table is invented for the simulation, so it illustrates how errors build up, not how many the real replica contains.
 
+Why the tapestry
+
 ## Britain's Bayeux Tapestry
 
 What Reading Museum's history page says.
 
-**Britain's Bayeux Tapestry, from Reading Museum's history page**
-
 | From the page | Detail |
-|---|---|
+| --- | --- |
 | The original | Over 70 metres long, an embroidery stitched in wool on linen rather than a woven tapestry |
 | The idea | Elizabeth Wardle of the Leek Embroidery Society, who visited Bayeux in 1885 |
 | The sources | Hand-coloured photographs of 1872 to 1874 held by the South Kensington Museum, now the V&A |
@@ -110,14 +96,37 @@ Tracing an error back to where it entered is a daily task in software and data. 
 
 Modern Age Coders is independent of Reading Museum and the Office for National Statistics. The history is theirs; the simulation and any mistakes in it are ours.
 
+Learning path
+
 ## From picture stories to version control
 
 These bands are a sketch; the free lesson sets the starting point.
 
-- **Years 1 to 4: Stories in blocks** Block coding that tells stories scene by scene. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Years 5 to 8: Chance in code** Python with random numbers, counting and simple simulations. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Years 9 to 13: Models and testing** Simulation, probability and testing alongside GCSE and A level. [Python for Teens](/courses/python-complete-masterclass-teens), [High School Mathematics](/courses/complete-high-school-mathematics-mastery)
-- **Adults: Data you can trace** Adult Python for data work with a clear record of every step. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Years 1 to 4
+
+### Stories in blocks
+
+Block coding that tells stories scene by scene.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Years 5 to 8
+
+### Chance in code
+
+Python with random numbers, counting and simple simulations.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Years 9 to 13
+
+### Models and testing
+
+Simulation, probability and testing alongside GCSE and A level.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[High School Mathematics](/courses/complete-high-school-mathematics-mastery)Adults
+
+### Data you can trace
+
+Adult Python for data work with a clear record of every step.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)AI and sources
 
 ## An AI can repeat a story. Will it check the source it came from?
 
@@ -129,30 +138,139 @@ A Reading learner who has compared a copy with each of its sources knows to ask 
 
 Tracing a claim back to where it started is a strong reason for a Reading teenager to keep coding in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How lessons work
+
 ## From Caversham to the town centre, online
 
 Every part of Reading joins by video.
 
-- **Learners at the keyboard** Students type their own code; the teacher watches the shared screen and nudges with questions.
-- **By year group** A Year 3 or a Year 11 in Reading starts at a level fitting their school year, using exam board names.
-- **Trial first** The opening lesson is free and ends with a straight recommendation.
-- **Classes at one stage** Fifteen to twenty learners working at one level, from all over the UK.
-- **School terms** Two lessons each week in term; the holidays are left free.
-- **On UK time** Your lesson stays at its UK hour through the clock changes; teachers move instead.
+### Learners at the keyboard
 
-**Why online groups** Five learners at one level and one free hour rarely live on the same street. Online, a Caversham learner joins exactly the right class.
+Students type their own code; the teacher watches the shared screen and nudges with questions.
+
+### By year group
+
+A Year 3 or a Year 11 in Reading starts at a level fitting their school year, using exam board names.
+
+### Trial first
+
+The opening lesson is free and ends with a straight recommendation.
+
+### Classes at one stage
+
+Fifteen to twenty learners working at one level, from all over the UK.
+
+### School terms
+
+Two lessons each week in term; the holidays are left free.
+
+### On UK time
+
+Your lesson stays at its UK hour through the clock changes; teachers move instead.
+
+Why online groups
+
+Five learners at one level and one free hour rarely live on the same street. Online, a Caversham learner joins exactly the right class.
+
+Fees
 
 ## Fees in Reading
 
 Reading pays the same fee as every country we teach outside India.
 
-- First class: USD 0. A complete free lesson and honest advice.
-- Group tuition: USD 100 a month. Roughly eight lessons a month with fifteen to twenty classmates.
-- Private tuition: USD 150 a month. Roughly eight lessons a month with one tutor.
+First class**USD 0**
+
+A complete free lesson and honest advice.
+
+Group tuition**USD 100**
+
+Roughly eight lessons a month with fifteen to twenty classmates.
+
+Private tuition**USD 150**
+
+Roughly eight lessons a month with one tutor.
 
 All fees are in US dollars and never in sterling. You pay only after the trial has settled a course and a weekly slot; holidays, missed lessons and format changes are set out on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20class%20for%20a%20learner%20in%20Reading.)Reviews
+
+## Google ratings from our families
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Reading lesson
+
+Share a school year or age and one interest. The trial could be a Scratch comic strip, a first Python program, or the copying-chain puzzle.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Reading one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20class%20for%20a%20learner%20in%20Reading.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Reading questions
+
+The town, the tapestry project and practical details.
 
 ### How many people live in Reading?
 
@@ -194,10 +312,14 @@ Free first lesson; then USD 100 a month for a class or USD 150 a month one-to-on
 
 No, they pause. Share your school dates with us.
 
+Nearby pages
+
 ## More pages near Reading
 
 [Slough](/best-coding-class-in-slough) measures Herschel's giant mirror, [Oxfordshire](/coding-classes-in-oxfordshire) has its own county project, and the [South East](/coding-and-ai-classes-in-south-east-england) page indexes the region. The [UK hub](/coding-classes-in-united-kingdom) lists every page.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Chat with us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20class%20for%20a%20learner%20in%20Reading.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-reading](https://learn.modernagecoders.com/best-coding-class-in-reading#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-reading*

@@ -4,46 +4,32 @@ description: "Live online AI and programming classes for Kingston learners: Scra
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-kingston-melbourne
 source: src/pages/ai-and-programming-classes-in-kingston-melbourne.html
 ---
-> Because accuracy hides them. In our Kingston project only 15 of 197 Melbourne stations are as busy on Saturday as on a weekday. A plain model scores 93.4% and finds two of them; weighting the rare class finds nine but raises 42 false alarms. Choosing between them is the real skill.
+> Live online AI and programming classes for Kingston learners: Scratch, Python, data science and machine learning, in groups or one to one, first lesson free.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [Victoria](/coding-and-ai-classes-in-victoria) / [Melbourne](/vibe-coding-and-ai-agents-classes-in-melbourne) / Kingston
-
-City of Kingston, Melbourne, Victoria / Live online
-
-# AI and programming classes in Kingston
-
-**Why does a Kingston machine learning class care about rare cases?** Because accuracy hides them. In our Kingston project only 15 of 197 Melbourne stations are as busy on Saturday as on a weekday. A plain model scores 93.4% and finds two of them; weighting the rare class finds nine but raises 42 false alarms. Choosing between them is the real skill.
-
-Southland station is unusual. In FY24-25 it averaged more entries on a Saturday than on a normal weekday, something only four of the 197 stations with at least 500 weekday entries managed. Teaching a model to recognise that pattern from weekday travel times is a perfect lesson in imbalanced data, because the easy answer, "never Saturday-busy", is already right 92.4% of the time.
-
-Facts last verified 10 October 2026. Teaching is online; no Kingston branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Kingston
 
 ## Machine learning and programming courses
 
 Each course here gets learners evaluating models honestly, not just training them. The free lesson shows which suits.
 
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Machine learning with Python, including precision, recall and imbalanced data.
-- [Orange Data Mining Course for Teens](/courses/orange-data-mining-visual-machine-learning-course-for-teens) (Ages 13 to 17): Visual machine learning with Orange before writing code.
-- [Data Science Course](/courses/data-science-complete-masterclass-college) (University and adult): Data science from cleaning to modelling and evaluation.
-- [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) (University and adult): A complete machine learning course for study and work.
+[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensMachine learning with Python, including precision, recall and imbalanced data.See the syllabus](/courses/ai-ml-masterclass-teens)[![Orange Data Mining Course for Teens course thumbnail](/images/orange-data-mining-teens.webp)Ages 13 to 17Orange Data Mining Course for TeensVisual machine learning with Orange before writing code.See the syllabus](/courses/orange-data-mining-visual-machine-learning-course-for-teens)[![Data Science Course course thumbnail](/images/data-science-college.webp)University and adultData Science CourseData science from cleaning to modelling and evaluation.See the syllabus](/courses/data-science-complete-masterclass-college)[![AI and ML Masterclass course thumbnail](/images/ai-ml-college.webp)University and adultAI and ML MasterclassA complete machine learning course for study and work.See the syllabus](/courses/ai-ml-masterclass-complete-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Kingston in the Census
 
 ## A higher share of apartments than Victoria
 
 Totals for the City of Kingston (ABS LGA23430), read from 2021 Census QuickStats on 10 October 2026. This is the Victorian council, not any other Kingston.
 
-**City of Kingston, Census 2021**
-
 | Item | Kingston |
-|---|---|
+| --- | --- |
 | Usual residents | 158,129 |
 | Median age (years) | 41 |
 | Families counted | 43,676 |
@@ -51,10 +37,8 @@ Totals for the City of Kingston (ABS LGA23430), read from 2021 Census QuickStats
 | People per household | 2.5 |
 | Motor vehicles per dwelling | 1.8 |
 
-**Kingston percentages next to Victoria**
-
 | Measure | Kingston | Victoria |
-|---|---|---|
+| --- | --- | --- |
 | Separate houses | 58.8% (35,855) | 73.4% |
 | Flats or apartments | 15.0% (9,155) | 12.1% |
 | Bachelor degree or above | 31.1% (40,750) | 29.2% |
@@ -74,22 +58,20 @@ With Melbourne in lockdown on Census night, 30.0% of Kingston workers (24,383) w
 
 QuickStats percentages are rounded and small counts are randomly adjusted by the bureau to protect privacy. We use each published value as it stands and never add categories up.
 
+Signature project
+
 ## Finding Saturday stations
 
 From the FY24-25 entries file we kept the 197 stations averaging at least 500 entries on a normal weekday. We labelled a station "Saturday-busy" if its Saturday average reached 80% of its weekday average: 15 do. Each station's features are the shares of its weekday entries in the file's five time bands. We trained logistic regression and tested every station while leaving it out of training.
 
-**Leave-one-out results over 197 stations (our calculation)**
-
 | Model | Accuracy | Saturday-busy found | False alarms |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Always say "no" | 92.4% | 0 of 15 | 0 |
 | Logistic regression, plain | 93.4% | 2 of 15 | 0 |
 | Logistic regression, balanced weights | 75.6% | 9 of 15 | 42 |
 
-**The eleven modelled Kingston stations**
-
 | Station | Saturday-busy? | Plain score | Weighted score |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Southland | yes | 0.34 | 0.95 |
 | Mordialloc | yes | 0.06 | 0.44 |
 | Carrum | yes | 0.04 | 0.31 |
@@ -120,14 +102,14 @@ If missing a Saturday-busy station is costly, the weighted model is better. If f
 
 Weekday time shares are a weak signal for Saturday use, which is why neither model is strong; that limit is part of the lesson. Station entries are departmental estimates rounded to the nearest 50, and which stations are in Kingston is our test against the ABS outline. Bonbeach falls below the 500-entry cut and is left out.
 
+How balanced weights work
+
 ## Making rare examples count
 
 The idea fits in one line: weight each class by the number of samples divided by twice that class's count.
 
-**Balanced weights for this data**
-
 | Class | Stations | Weight per station |
-|---|---|---|
+| --- | --- | --- |
 | Saturday-busy | 15 | about 6.6 |
 | Not Saturday-busy | 182 | about 0.54 |
 
@@ -145,6 +127,8 @@ Train both models, draw the confusion tables, and argue which mistake matters mo
 
 Re-check a work model built on rare events, such as faults or returns, with recall alongside accuracy.
 
+Kingston counts
+
 ## Kingston schools and stations
 
 From the 2025 school locations list and the metropolitan entries file.
@@ -161,16 +145,41 @@ Twelve stations sit inside the council outline. Cheltenham was the busiest in FY
 
 Term 1 for Victorian government schools runs from Thursday 28 January to Thursday 25 March 2027.
 
-**Council outline** Figures use the ABS boundary of the City of Kingston, about 91.4 square kilometres. School addresses inside it include Cheltenham, Mentone, Mordialloc, Chelsea, Dingley Village and Patterson Lakes.
+Council outline
+
+Figures use the ABS boundary of the City of Kingston, about 91.4 square kilometres. School addresses inside it include Cheltenham, Mentone, Mordialloc, Chelsea, Dingley Village and Patterson Lakes.
+
+Learning ladder
 
 ## From counters to class weights
 
 Rough starting points by age; the free lesson fine-tunes them.
 
-- **Ages 6 to 9: Coding with blocks** Scratch games, sorting and simple patterns. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)
-- **Ages 9 to 12: Python and data** First Python, tables of numbers and simple predictions. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 17: Machine learning** Models, evaluation and imbalanced data. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Orange Data Mining Course for Teens](/courses/orange-data-mining-visual-machine-learning-course-for-teens)
-- **University and adult: Data science** End-to-end projects for study and careers. [Data Science Course](/courses/data-science-complete-masterclass-college), [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college)
+Ages 6 to 9
+
+### Coding with blocks
+
+Scratch games, sorting and simple patterns.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)Ages 9 to 12
+
+### Python and data
+
+First Python, tables of numbers and simple predictions.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 17
+
+### Machine learning
+
+Models, evaluation and imbalanced data.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Orange Data Mining Course for Teens](/courses/orange-data-mining-visual-machine-learning-course-for-teens)University and adult
+
+### Data science
+
+End-to-end projects for study and careers.
+
+[Data Science Course](/courses/data-science-complete-masterclass-college)[AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college)Coding and AI
 
 ## If AI tools train models automatically, what is left for Kingston learners?
 
@@ -182,30 +191,139 @@ A learner who has seen recall jump from 2 to 9 while false alarms reach 42 knows
 
 Kingston learners use AI tools well when they choose the measure that matters. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Lessons for Kingston, online
 
 Every class runs on video, for learners in Mentone, Chelsea, Dingley Village or elsewhere in Kingston.
 
-- **Live and hands-on** The learner shares their screen and builds while the teacher explains.
-- **Term-based plan** Teaching tracks the Victorian term dates and breaks for holidays.
-- **No-fee first lesson** A complete lesson free of charge, with a course suggestion afterwards.
-- **Level groups** Fifteen to twenty learners at the same level, drawn from many suburbs.
-- **Two lessons a week** Two fixed sessions weekly, about eight each month.
-- **India-based teachers** A 4:45pm Kingston class is 11:15am India time under Melbourne daylight saving and 12:15pm once it ends.
+### Live and hands-on
 
-**Daylight saving dates** Melbourne observes daylight saving from Sunday 4 October 2026 to Sunday 4 April 2027. India keeps one time all year, so our times are always in Melbourne time.
+The learner shares their screen and builds while the teacher explains.
+
+### Term-based plan
+
+Teaching tracks the Victorian term dates and breaks for holidays.
+
+### No-fee first lesson
+
+A complete lesson free of charge, with a course suggestion afterwards.
+
+### Level groups
+
+Fifteen to twenty learners at the same level, drawn from many suburbs.
+
+### Two lessons a week
+
+Two fixed sessions weekly, about eight each month.
+
+### India-based teachers
+
+A 4:45pm Kingston class is 11:15am India time under Melbourne daylight saving and 12:15pm once it ends.
+
+Daylight saving dates
+
+Melbourne observes daylight saving from Sunday 4 October 2026 to Sunday 4 April 2027. India keeps one time all year, so our times are always in Melbourne time.
+
+Fees
 
 ## Kingston class fees
 
 Fees are simple and identical for every family.
 
-- First class: USD 0. Lesson one is free, with clear advice at the end.
-- Group tuition: USD 100 a month. Group option: a month of lessons, usually eight, fifteen to twenty learners together.
-- Private tuition: USD 150 a month. Private option: a month of lessons, usually eight, one learner with one teacher.
+First class**USD 0**
+
+Lesson one is free, with clear advice at the end.
+
+Group tuition**USD 100**
+
+Group option: a month of lessons, usually eight, fifteen to twenty learners together.
+
+Private tuition**USD 150**
+
+Private option: a month of lessons, usually eight, one learner with one teacher.
 
 Kingston families pay in US dollars. You pay nothing until the trial agrees a course and a weekly slot; holiday and missed-lesson rules sit on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20Kingston.)Reviews
+
+## Families reviewing our classes on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Kingston class
+
+Tell us the learner's age and interests. A younger learner might start a Scratch game; a teenager might train the Saturday station model.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Kingston one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20Kingston.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Kingston AI and programming questions
+
+Questions from Kingston parents and adult learners.
 
 ### How many people live in the City of Kingston?
 
@@ -247,10 +365,14 @@ Into groups of fifteen to twenty by level and pace, not by age or suburb, with o
 
 Cheltenham, with 717,500 entries, among the twelve stations inside the council outline by our calculation.
 
+Explore Melbourne and Victoria
+
 ## More for Kingston learners
 
 Try the [Melbourne page](/vibe-coding-and-ai-agents-classes-in-melbourne) for the city, the [Victoria guide](/coding-and-ai-classes-in-victoria) for the state, and [coding for kids in Melbourne](/coding-classes-for-kids-melbourne) for younger learners.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20Kingston.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-kingston-melbourne](https://learn.modernagecoders.com/ai-and-programming-classes-in-kingston-melbourne#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-kingston-melbourne*

@@ -4,37 +4,25 @@ description: "Live online Python and coding classes for Moreton Bay teenagers an
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-moreton-bay
 source: src/pages/online-coding-and-python-classes-in-moreton-bay.html
 ---
-> Live Python lessons in which a Moreton Bay teenager or adult works with data big enough to matter, measures what their code costs, and explains the trade-offs to a teacher. The council area counted 476,340 people at the 2021 Census. Lessons run online, privately or in a small group at the same level, and the first lesson is free.
+> Live online Python and coding classes for Moreton Bay teenagers and adults, with a project that loads every local timetabled stop and measures the memory it uses.
 
-[Home](/) / [Queensland](/coding-and-ai-classes-in-queensland) / [Australia](/coding-classes-in-australia) / Moreton Bay
-
-Moreton Bay, north of Brisbane, Queensland / Live online
-
-# Online coding and Python classes in Moreton Bay
-
-**What are the best online coding and Python classes in Moreton Bay?** Live Python lessons in which a Moreton Bay teenager or adult works with data big enough to matter, measures what their code costs, and explains the trade-offs to a teacher. The council area counted 476,340 people at the 2021 Census. Lessons run online, privately or in a small group at the same level, and the first lesson is free.
-
-Translink publishes its whole south east Queensland timetable as open data: every trip, every stop, every scheduled time. Inside the Moreton Bay council boundary that comes to 1,347 stops and 137,865 timetabled stop times in the current feed, from Kippa-Ring and Petrie stations to the buses of Bribie Island. Load them into Python as dictionaries and they take 38.6 megabytes. Load the same values into a class that declares its fields with __slots__ and they take 13.3. Nothing about the timetable changed, only the containers holding it. Our Moreton Bay learners find out where memory goes in a Python program and how to stop wasting it.
-
-Facts last verified 10 October 2026. Teaching is online; no Moreton Bay branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Moreton Bay
 
 ## Python paths for Moreton Bay learners
 
 Each one arrives at the timetable project below. A free lesson picks the right start, and no card is asked for.
 
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python from the start through files, dictionaries and the first custom classes.
-- [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens) (Ages 14 to 18): Choosing data structures by cost, measuring speed and memory instead of guessing.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (University and adult): Classes, dataclasses, __slots__ and profiling, with tests at every stage.
-- [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college) (University and adult): How containers are built underneath, and when that changes a design.
+[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython from the start through files, dictionaries and the first custom classes.See the syllabus](/courses/python-complete-masterclass-teens)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)Ages 14 to 18Problem Solving for TeensChoosing data structures by cost, measuring speed and memory instead of guessing.See the syllabus](/courses/problem-solving-dsa-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)University and adultPython MasterclassClasses, dataclasses, __slots__ and profiling, with tests at every stage.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)[![Data Structures & Algorithms Course course thumbnail](/images/dsa-college.webp)University and adultData Structures & Algorithms CourseHow containers are built underneath, and when that changes a design.See the syllabus](/courses/data-structures-algorithms-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Moreton Bay in the Census
 
 ## A council area of 476,340 north of Brisbane
 
@@ -42,10 +30,8 @@ The 2021 Census for the Moreton Bay council area, placed beside Queensland and A
 
 Moreton Bay was home to 476,340 people with a median age of 39. They made up 132,607 families and lived in 188,200 private dwellings, at 2.6 people per household.
 
-**Moreton Bay against Queensland and Australia (2021 Census shares)**
-
 | Share | Moreton Bay | Queensland | Australia |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Separate houses (138,771 dwellings) | 81.1% | 74.8% | 72.3% |
 | Professionals (39,202 people) | 17.9% | 21.4% | 24.0% |
 | Bachelor degree or above (65,353 people) | 17.1% | 21.9% | 26.3% |
@@ -65,14 +51,14 @@ Another 27,256 residents were aged 20 to 24, 5.7% of the total.
 
 The ABS estimates 532,445 people in Moreton Bay at 30 June 2025. Because the bureau adds small random changes to Census cells, rows may not sum to totals; all figures are printed as published, and we never total rows ourselves.
 
+Signature project
+
 ## How much memory does Moreton Bay's timetable take in Python?
 
 The 137,865 stop times at Moreton Bay stops in Translink's open timetable feed, loaded seven different ways and measured with Python's tracemalloc.
 
-**Same 137,865 records, seven containers (our measurements, Python 3.13, 10 October 2026)**
-
 | Container | Memory for all records | Bytes per record |
-|---|---|---|
+| --- | --- | --- |
 | Dictionary | 38.6 MB | 272 |
 | Plain class | 18.8 MB | 176 |
 | Dataclass | 18.8 MB | 176 |
@@ -99,14 +85,14 @@ An ordinary Python object keeps its attributes in a hidden dictionary, built to 
 
 The feed is Translink's, valid from 7 October to 6 December 2026, used under its open licence. Memory figures are our own, measured on Python 3.13.6; other versions and platforms give somewhat different numbers, which is why learners measure on their own machines.
 
+Measuring memory
+
 ## How to find out what your data really costs
 
 Practised on Moreton Bay's timetable, then applied to logs, sensor readings and any program that holds many small records.
 
-**Steps in the Moreton Bay memory study**
-
 | Step | Tool | Why |
-|---|---|---|
+| --- | --- | --- |
 | Fix the data first | Load the strings once and reuse them | Only the container should differ between runs |
 | Measure allocation | tracemalloc | Counts what each version adds, not what the process already held |
 | Inspect one object | sys.getsizeof on the object and its __dict__ | Shows 272, 176 and 88 bytes directly |
@@ -128,6 +114,8 @@ Before scaling a script up to millions of rows, measure the container cost on a 
 
 Modern Age Coders is not affiliated with Translink, the Queensland Government, the ABS or the City of Moreton Bay. The timetable and statistics belong to them; the measurements are our own.
 
+Around Moreton Bay
+
 ## Queensland time and the second half of 2027
 
 When a Moreton Bay learner can fit in a live lesson.
@@ -144,16 +132,41 @@ Moreton Bay is four and a half hours ahead of India time all through the year.
 
 Between October and April, Sydney and Melbourne are an hour ahead; Moreton Bay lessons keep their hour.
 
-**Queensland school terms later in 2027** The department lists Term 3 of 2027 from Monday 12 July to Friday 17 September and Term 4 from Tuesday 5 October to Friday 10 December, with 44 days of summer holidays to follow.
+Queensland school terms later in 2027
+
+The department lists Term 3 of 2027 from Monday 12 July to Friday 17 September and Term 4 from Tuesday 5 October to Friday 10 December, with 44 days of summer holidays to follow.
+
+Learning ladder
 
 ## From a first dictionary to profiled programs
 
 Ages give a rough idea only; the free lesson places each learner.
 
-- **Ages 13 to 14: Lists and dictionaries** Storing records, looking things up and printing tidy results. [Python for Teens](/courses/python-complete-masterclass-teens), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 15 to 18: Classes and costs** Writing classes, comparing containers and timing code. [Python for Teens](/courses/python-complete-masterclass-teens), [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)
-- **University: Profiling** tracemalloc, cProfile and designing for memory and speed together. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)
-- **Adults: Scaling scripts** Taking a working script from a sample to the full dataset without surprises. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 13 to 14
+
+### Lists and dictionaries
+
+Storing records, looking things up and printing tidy results.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Maths Through Coding](/courses/maths-through-coding)Ages 15 to 18
+
+### Classes and costs
+
+Writing classes, comparing containers and timing code.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)University
+
+### Profiling
+
+tracemalloc, cProfile and designing for memory and speed together.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)Adults
+
+### Scaling scripts
+
+Taking a working script from a sample to the full dataset without surprises.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## Would an AI assistant choose a lean container?
 
@@ -165,30 +178,139 @@ Our Moreton Bay learners let AI write the loader, then measure it with tracemall
 
 A Moreton Bay learner who has measured 38.6 megabytes shrink to 13.3 will check the cost of AI-written code before trusting it at scale, whatever arrives after 2026. The longer argument is in [why understanding code still beats copying it](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## From Redcliffe to Caboolture, one online class
 
 A live lesson online is equally close to every part of Moreton Bay.
 
-- **Queensland time only** Lesson times are written in Moreton Bay time and stay put all year.
-- **Queensland year levels** Teachers plan to Queensland year levels, including QCE seniors, and teach in English.
-- **Write code on day one** The trial lesson is genuine programming with a teacher; we then suggest a course and time, and no payment details are taken.
-- **Fifteen to twenty per group** Learners share a level, drawn from different places so every stage has a usable slot.
-- **Two lessons each week** About eight a month, with holidays and exam periods planned ahead.
-- **Evening slots for workers** Adults commuting into Brisbane can join later groups or book one-to-one lessons.
+### Queensland time only
 
-**Written in local time** Every lesson time we send is in Queensland time, so there is nothing to convert.
+Lesson times are written in Moreton Bay time and stay put all year.
+
+### Queensland year levels
+
+Teachers plan to Queensland year levels, including QCE seniors, and teach in English.
+
+### Write code on day one
+
+The trial lesson is genuine programming with a teacher; we then suggest a course and time, and no payment details are taken.
+
+### Fifteen to twenty per group
+
+Learners share a level, drawn from different places so every stage has a usable slot.
+
+### Two lessons each week
+
+About eight a month, with holidays and exam periods planned ahead.
+
+### Evening slots for workers
+
+Adults commuting into Brisbane can join later groups or book one-to-one lessons.
+
+Written in local time
+
+Every lesson time we send is in Queensland time, so there is nothing to convert.
+
+Fees
 
 ## Online Python fees for Moreton Bay
 
 Three options, stated plainly.
 
-- First class: USD 0. One free lesson that ends with our suggested level, course and time.
-- Group tuition: USD 100 a month. About eight group lessons a month, with fifteen to twenty learners at your level.
-- Private tuition: USD 150 a month. About eight one-to-one lessons a month with the same teacher.
+First class**USD 0**
+
+One free lesson that ends with our suggested level, course and time.
+
+Group tuition**USD 100**
+
+About eight group lessons a month, with fifteen to twenty learners at your level.
+
+Private tuition**USD 150**
+
+About eight one-to-one lessons a month with the same teacher.
 
 Moreton Bay families pay the same US dollar fee as families anywhere else in Australia. Nothing is charged before the trial settles a course and time, and the pricing page explains holidays, missed lessons and changing format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20online%20Python%20class%20for%20a%20learner%20in%20Moreton%20Bay.)Reviews
+
+## What learners and parents say on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## A few details and we will get the trial ready
+
+We set the first exercise ahead: building a small dictionary of stops for a Year 8 beginner, the container comparison for a Year 11 student, or a full tracemalloc study for an adult.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Moreton Bay one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20online%20Python%20class%20for%20a%20learner%20in%20Moreton%20Bay.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Moreton Bay Python class questions
+
+Questions Moreton Bay families and adult learners ask before they book.
 
 ### How many people live in Moreton Bay?
 
@@ -230,10 +352,14 @@ The first lesson is free. After that a group place costs USD 100 a month for two
 
 Between five and ten learners, matched on level, pace and goals rather than on age or postcode. When no group fits a workable time, one-to-one lessons are offered instead.
 
+More in Queensland
+
 ## Pages for Moreton Bay's neighbours
 
 South across the boundary is [the Brisbane coding page](/best-coding-classes-in-brisbane), with [coding classes for kids in Brisbane](/coding-classes-for-kids-brisbane) for younger learners. Further north there is [AI and programming on the Sunshine Coast](/ai-and-programming-classes-in-sunshine-coast), and the state guide is [coding and AI classes in Queensland](/coding-and-ai-classes-in-queensland).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20online%20Python%20class%20for%20a%20learner%20in%20Moreton%20Bay.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/online-coding-and-python-classes-in-moreton-bay](https://learn.modernagecoders.com/online-coding-and-python-classes-in-moreton-bay#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-moreton-bay*

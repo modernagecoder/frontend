@@ -4,55 +4,39 @@ description: "Live online vibe coding, AI agents and Python classes for Ryde tee
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-ryde-sydney
 source: src/pages/vibe-coding-and-ai-agents-classes-in-ryde-sydney.html
 ---
-> In live online lessons where a teacher shows Ryde teenagers and adults how to have an AI write code, check what it wrote, and build agents that look things up before they answer. The 2021 Census counted 129,123 people in the City of Ryde council area, 46.4% of those aged 15 and over with a bachelor degree or higher. Teaching is private or in an level-matched small group, and the opening lesson is free.
+> Live online vibe coding, AI agents and Python classes for Ryde teenagers and adults, with real teachers, in small groups or one to one. The first lesson is free.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [New South Wales](/coding-and-ai-classes-in-new-south-wales) / [Sydney](/best-coding-classes-in-sydney) / Ryde
-
-City of Ryde, Sydney, New South Wales / Live online
-
-# Vibe coding and AI agents classes in Ryde
-
-**Where do Ryde learners find the best vibe coding and AI agents classes?** In live online lessons where a teacher shows Ryde teenagers and adults how to have an AI write code, check what it wrote, and build agents that look things up before they answer. The 2021 Census counted 129,123 people in the City of Ryde council area, 46.4% of those aged 15 and over with a bachelor degree or higher. Teaching is private or in an level-matched small group, and the opening lesson is free.
-
-Many AI agents answer questions by first fetching a piece of text and then reading only that piece. Which piece they can fetch depends on how the document was cut up beforehand, a step called chunking. We wrote one plain sentence for each of the 19 government schools in the City of Ryde, from the state's open schools file, and asked an agent when each school first had a teacher. Cut the text into 60-character chunks and the agent never sees a complete answer: 0 out of 19. Cut it at sentence boundaries and it gets 16 right. The three it still misses are instructive, because each one is a school whose name is also the name of a suburb.
-
-Facts last verified 10 October 2026. Teaching is online; no Ryde branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Ryde
 
 ## Courses for agents that read before they answer
 
 Every course here connects to the retrieval project. A free trial settles which fits, and no card details are asked for.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Prompt an AI to build Python and web projects, then read and test every line it writes.
-- [AI Tools Course for Teens (13+)](/courses/teens-ai-tools-mastery-course) (Ages 13 to 18): How everyday AI tools work, where they get things wrong, and how to fact-check what they say.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (University and adult): Generative AI in depth, including retrieval, embeddings and evaluation of answers.
-- [Copilot Studio Agent Masterclass for Professionals](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals) (Professionals, one to one): Workplace agents in Copilot Studio that search company documents, taught privately.
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensPrompt an AI to build Python and web projects, then read and test every line it writes.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![AI Tools Course for Teens (13+) course thumbnail](/images/ai-tools-kids.webp)Ages 13 to 18AI Tools Course for Teens (13+)How everyday AI tools work, where they get things wrong, and how to fact-check what they say.See the syllabus](/courses/teens-ai-tools-mastery-course)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)University and adultGenerative AI CourseGenerative AI in depth, including retrieval, embeddings and evaluation of answers.See the syllabus](/courses/complete-generative-ai-masterclass-college)[![Copilot Studio Agent Masterclass for Professionals course thumbnail](/images/copilot-studio-professionals.webp)Professionals, one to oneCopilot Studio Agent Masterclass for ProfessionalsWorkplace agents in Copilot Studio that search company documents, taught privately.See the syllabus](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Ryde in the Census
 
 ## A council area of apartments, graduates and young adults
 
 QuickStats for the City of Ryde local government area from the 2021 Census, against New South Wales and Australia.
 
-**City of Ryde, 2021 Census headline counts**
-
 | Headline | Ryde |
-|---|---|
+| --- | --- |
 | Residents | 129,123 |
 | Families | 34,985 |
 | Private dwellings | 55,669 |
 | People per household | 2.5 |
 
-**Ryde measured against NSW and Australia**
-
 | Measure | Ryde | NSW | Australia |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Median age | 37 | 39 | 38 |
 | Flats or apartments among occupied homes | 44.6% (21,854) | 21.7% | 14.2% |
 | Bachelor degree or higher, aged 15 and over | 46.4% (50,196) | 27.8% | 26.3% |
@@ -72,14 +56,14 @@ At 2.5 people per household on average, Ryde households are smaller than the sta
 
 Privacy protection means the bureau slightly randomises every table cell, so columns may not sum exactly to their totals. We therefore quote the bureau's published numbers directly and never derive totals by addition.
 
+Signature project
+
 ## Chunk the text badly and the agent never sees the answer
 
 We turned the NSW Department of Education's records for the 19 Ryde government schools into 19 short sentences, 2,284 characters in all, then let a simple retrieval agent fetch one chunk per question.
 
-**Questions where the retrieved chunk held both the school name and its date, out of 19 (our calculation)**
-
 | How the text was chunked | No overlap | With 25% overlap |
-|---|---|---|
+| --- | --- | --- |
 | 60 characters | 0 | 0 |
 | 120 characters | 1 | 0 |
 | 200 characters | 8 | 4 |
@@ -87,10 +71,8 @@ We turned the NSW Department of Education's records for the 19 Ryde government s
 | 800 characters | 14 | 13 |
 | The whole text as one chunk | 19 | 19 |
 
-**Chunking by whole sentences instead (our calculation)**
-
 | Sentences per chunk | Questions answered |
-|---|---|
+| --- | --- |
 | 1 | 16 of 19 |
 | 2 | 13 of 19 |
 | 3 | 14 of 19 |
@@ -114,14 +96,14 @@ None of the wrong schools scored higher. Asked about Eastwood Public School, thr
 
 The sentences, questions, chunk counts and retrieval scores are our own, built from the department's published fields; the agent is a simple keyword matcher written for teaching, not a commercial product. Overlap did not help reliably here because sliding windows still split records at awkward places.
 
+Retrieval done carefully
+
 ## Questions to ask of any agent that searches documents
 
 Retrieval sits behind many AI assistants that answer from company files, manuals or websites. The Ryde example shows where they go wrong.
 
-**Retrieval checks a learner can apply anywhere**
-
 | Check | Failure it prevents | What to try |
-|---|---|---|
+| --- | --- | --- |
 | Does a chunk hold a whole fact? | Answers split across two chunks | Cut at sentences, rows or headings |
 | How many chunks does the agent read? | The right chunk tied for first but not picked | Retrieve the top three, not one |
 | Do names clash with other words? | Eastwood the suburb beating Eastwood the school | Match whole names or use embeddings |
@@ -143,6 +125,8 @@ Design document search for workplace agents, including chunking rules and an eva
 
 The NSW Department of Education, City of Ryde, Transport for NSW and the statistics bureau provide the open data used here and have no link with Modern Age Coders. The sentences, chunks and scores come from our own code.
 
+Around Ryde
+
 ## A school from 1868 and a university station
 
 More facts from the same files and the NSW calendar.
@@ -159,16 +143,41 @@ In August 2026 Transport for NSW counted 482,099 entries at Macquarie University
 
 For Eastern division schools, Term 1 of 2027 runs from Wednesday 3 February until Friday 9 April.
 
-**Addresses in the file** The schools file gives each school a street address. Among the 19 Ryde schools the address suburbs include East Ryde, Eastwood, Gladesville, Marsfield, Meadowbank, North Ryde, Ryde and West Ryde, which is also why so many names in our questions collide.
+Addresses in the file
+
+The schools file gives each school a street address. Among the 19 Ryde schools the address suburbs include East Ryde, Eastwood, Gladesville, Marsfield, Meadowbank, North Ryde, Ryde and West Ryde, which is also why so many names in our questions collide.
+
+Learning ladder
 
 ## From asking an AI for a game to building agents that cite their sources
 
 Use the ages as a guide only; the free trial fixes the level.
 
-- **Ages 8 to 12: Vibe coding for kids** Scratch games planned by the child and built with AI help, then tested. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 13 to 15: Reading AI code** Python projects written with an AI, then read, debugged and extended. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 15 to 18: Agents and retrieval** Agents that search text, measured on questions with known answers. [AI Tools Course for Teens (13+)](/courses/teens-ai-tools-mastery-course), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **University and adult: Agents for work** Retrieval-based assistants and workplace agents, designed and evaluated properly. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Copilot Studio Agent Masterclass for Professionals](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals)
+Ages 8 to 12
+
+### Vibe coding for kids
+
+Scratch games planned by the child and built with AI help, then tested.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 13 to 15
+
+### Reading AI code
+
+Python projects written with an AI, then read, debugged and extended.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 15 to 18
+
+### Agents and retrieval
+
+Agents that search text, measured on questions with known answers.
+
+[AI Tools Course for Teens (13+)](/courses/teens-ai-tools-mastery-course)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)University and adult
+
+### Agents for work
+
+Retrieval-based assistants and workplace agents, designed and evaluated properly.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Copilot Studio Agent Masterclass for Professionals](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals)Coding and AI
 
 ## Agents already search documents. Why should a Ryde learner build the search?
 
@@ -180,30 +189,139 @@ A learner who has measured 0, 8, 14 and 16 correct out of 19 understands that re
 
 In 2026 agents read before they answer, and the Ryde learner who knows how the reading can fail is the one who builds agents people can trust. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Gladesville to Marsfield, one online class
 
 The schools in our project have addresses from Gladesville to Marsfield, and a live online lesson reaches every one of those neighbourhoods equally.
 
-- **From home** No travel between suburbs; the learner logs in from home and the whole hour is spent coding.
-- **NSW stages** Plans track the NSW syllabus stages, break for the state holidays, and give senior students projects that suit their computing subjects.
-- **Trial, not a pitch** The free first lesson is a real class. At the end the teacher suggests a course, level and time, with nothing paid.
-- **Fifteen to twenty learners** Groups are built around level and pace, mixing Ryde learners with classmates from elsewhere.
-- **Twice a week** A fixed hour on two days each week, roughly eight lessons monthly, with breaks agreed ahead.
-- **Teachers in India** An 8pm Ryde lesson in summer starts at 2:30pm India time; after Sydney leaves daylight saving it starts at 3:30pm there.
+### From home
 
-**Daylight saving in Sydney** Clocks go forward on Sunday 4 October 2026 and back on Sunday 4 April 2027, and India keeps one time all year. Every lesson time we give is Sydney time.
+No travel between suburbs; the learner logs in from home and the whole hour is spent coding.
+
+### NSW stages
+
+Plans track the NSW syllabus stages, break for the state holidays, and give senior students projects that suit their computing subjects.
+
+### Trial, not a pitch
+
+The free first lesson is a real class. At the end the teacher suggests a course, level and time, with nothing paid.
+
+### Fifteen to twenty learners
+
+Groups are built around level and pace, mixing Ryde learners with classmates from elsewhere.
+
+### Twice a week
+
+A fixed hour on two days each week, roughly eight lessons monthly, with breaks agreed ahead.
+
+### Teachers in India
+
+An 8pm Ryde lesson in summer starts at 2:30pm India time; after Sydney leaves daylight saving it starts at 3:30pm there.
+
+Daylight saving in Sydney
+
+Clocks go forward on Sunday 4 October 2026 and back on Sunday 4 April 2027, and India keeps one time all year. Every lesson time we give is Sydney time.
+
+Fees
 
 ## Ryde class fees
 
 Three amounts make up the whole price list.
 
-- First class: USD 0. The first lesson costs nothing and ends with a clear recommendation.
-- Group tuition: USD 100 a month. A month of group lessons, normally eight, with fifteen to twenty learners.
-- Private tuition: USD 150 a month. Roughly eight lessons a month, one teacher and one learner.
+First class**USD 0**
+
+The first lesson costs nothing and ends with a clear recommendation.
+
+Group tuition**USD 100**
+
+A month of group lessons, normally eight, with fifteen to twenty learners.
+
+Private tuition**USD 150**
+
+Roughly eight lessons a month, one teacher and one learner.
 
 Outside India every invoice is in US dollars, which means one rate for all of Ryde rather than a suburb tariff. Nothing is charged until course and time are fixed after the trial; holidays, absences and format changes are covered on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Ryde.)Reviews
+
+## Google reviews from families we teach
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Arrange a first Ryde lesson
+
+Send an age and a topic the learner enjoys. For a Year 10 student, a first task could be getting an AI to make a quiz; for an adult, rerunning the chunking test.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Ryde one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Ryde.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Ryde vibe coding and AI agents questions
+
+What Ryde families and adult learners usually ask us first.
 
 ### How many people live in the City of Ryde?
 
@@ -245,10 +363,14 @@ The first lesson is free. After that, group lessons cost USD 100 a month for two
 
 Fifteen to twenty, matched by level, pace and goals rather than age or suburb. One-to-one lessons are offered if no group suits the learner's time.
 
+Explore Sydney and NSW
+
 ## More for Ryde learners
 
 Nearby, [Hornsby](/online-coding-and-python-classes-in-hornsby-sydney) and [Ku-ring-gai](/ai-and-programming-classes-in-ku-ring-gai-sydney) have pages of their own, and the [Sydney page](/best-coding-classes-in-sydney) covers the city. [Understand the code, don't copy-paste](/understand-the-code-dont-copy-paste-australia) explains our approach to AI-written code; for statewide options see [coding and AI in New South Wales](/coding-and-ai-classes-in-new-south-wales).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Ryde.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-ryde-sydney](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-ryde-sydney#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-ryde-sydney*

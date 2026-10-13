@@ -4,34 +4,28 @@ description: "NAPLAN numeracy practice for Years 3, 5, 7 and 9: the 2027 test da
 canonical: https://learn.modernagecoders.com/naplan-numeracy-practice-online
 source: src/pages/naplan-numeracy-practice-online.html
 ---
-> NAPLAN numeracy is the national maths test for Years 3, 5, 7 and 9. It runs 45 minutes in Year 3, 50 in Year 5 and 65 in Years 7 and 9, where a short non-calculator section comes first. The tailored design adapts the questions to each student. In 2027 the test window is 10 to 22 March. Results are reported as four proficiency levels.
+> NAPLAN numeracy practice for Years 3, 5, 7 and 9: the 2027 test dates, how the tailored online test works, calculator rules, and original practice questions.
 
-[Home](/) / [Online maths tutoring in Australia](/online-maths-tutoring-australia) / NAPLAN numeracy practice
+In short
 
-Australia · NAPLAN Years 3, 5, 7 and 9 · Live online
+NAPLAN numeracy is the national maths test for Years 3, 5, 7 and 9. It runs 45 minutes in Year 3, 50 in Year 5 and 65 in Years 7 and 9, where a short non-calculator section comes first. The tailored design adapts the questions to each student. In 2027 the test window is 10 to 22 March. Results are reported as four proficiency levels.
 
-# NAPLAN numeracy practice
-
-NAPLAN numeracy is a short online test, but it measures something that takes years to build: whether a child can reason with numbers rather than only follow steps. The questions change as a student answers, the Year 7 and 9 tests lock the calculator away for the first part, and the results come back as one of four proficiency levels. This page explains how the test actually works, using ACARA's own descriptions, gives the confirmed dates for 2027, and offers practice questions we wrote around one habit that helps in every year level: estimating before calculating. Nothing here promises a score. Good teaching shows up in NAPLAN as a by-product, not the other way round.
-
-At a glance: Who sits it: Years 3, 5, 7 and 9; 2027 window: 10 to 22 March; Design: Tailored: adapts as students answer; Year 3: 45 minutes; Year 5: 50 minutes; Years 7 and 9: 65 minutes, calculator after a short section; Results: Four proficiency levels; We teach: Number sense and reasoning. Rated 4.9 across 547 Google reviews.
+Where to start
 
 ## Three courses that build what NAPLAN measures
 
 Number sense first, then the reasoning that the later testlets reward.
 
-- [Mental maths for primary](/courses/mental-maths-mastery-kids): Place value, estimation and quick reasoning: the ground Years 3 and 5 stand on.
-- [Primary maths, all strands](/courses/elementary-mathematics-complete-masterclass): Number, measurement, space and data in step with what Australian classrooms cover.
-- [Years 7 to 9 maths](/courses/comprehensive-middle-school-mathematics-mastery): Fractions, ratios, algebra and geometry, with reasoning written out.
+[![Mental Maths for Kids course thumbnail](/images/mental-maths-kids.webp)  NNP / 01 Mental maths for primary Place value, estimation and quick reasoning: the ground Years 3 and 5 stand on. Open the syllabus →](/courses/mental-maths-mastery-kids)[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  NNP / 02 Primary maths, all strands Number, measurement, space and data in step with what Australian classrooms cover. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  NNP / 03 Years 7 to 9 maths Fractions, ratios, algebra and geometry, with reasoning written out. Open the syllabus →](/courses/comprehensive-middle-school-mathematics-mastery)
+
+What the numeracy test is
 
 ## One test, four year levels, five content strands
 
 Durations and rules are ACARA's, from the NAPLAN site, checked on 7 October 2026.
 
-**NAPLAN numeracy by year level**
-
 | Year | Duration | Calculator |
-|---|---|---|
+| --- | --- | --- |
 | Year 3 | 45 minutes | No calculator section is described |
 | Year 5 | 50 minutes | No calculator section is described |
 | Year 7 | 65 minutes | A short non-calculator section first, then an online calculator |
@@ -47,14 +41,14 @@ NAPLAN is aligned with the Australian Curriculum: Mathematics. While states move
 
 Sources: [NAPLAN, What's in the tests](https://www.nap.edu.au/naplan/whats-in-the-tests); [NAPLAN test window and durations](https://www.nap.edu.au/naplan/key-dates/naplan-test-window). Read at source on 7 October 2026; ACARA has no connection with Modern Age Coders.
 
+How the test adapts
+
 ## Tailored testing: three testlets, several pathways
 
 NAPLAN numeracy is not the same paper for everyone. The questions a student sees depend on how they answer, which changes how practice should be done.
 
-**The numeracy testlet design, as ACARA describes it**
-
 | Stage | What happens |
-|---|---|
+| --- | --- |
 | First testlet | Every student at a year level starts with testlet A |
 | Second testlet | Answers in A decide the next set: less complex (B) or more complex (D); a low score in A leads to testlet C early, then B |
 | Final testlet | The second testlet decides the last one: highest complexity (F), average (E) or lowest (C) |
@@ -70,14 +64,14 @@ The levels describe what a child could do on the day. They are a useful snapshot
 
 Sources: [NAPLAN, Tailored tests](https://www.nap.edu.au/naplan/understanding-online-assessment/tailored-tests); [NAPLAN proficiency level descriptions](https://www.nap.edu.au/naplan/results-and-reports/proficiency-level-descriptions). Checked on 7 October 2026.
 
+Key dates
+
 ## When NAPLAN runs in 2027, 2028 and 2029
 
 ACARA publishes test windows years ahead. Schools choose the exact days within the window.
 
-**NAPLAN test windows, as published on the NAPLAN key dates page**
-
 | Year | Test window |
-|---|---|
+| --- | --- |
 | 2027 | 10 to 22 March |
 | 2028 | 15 to 27 March |
 | 2029 | 14 to 26 March |
@@ -91,6 +85,8 @@ Familiarisation is free and official. ACARA says schools can complete practice t
 We recommend that every student tries the public demonstration site once, simply to remove surprise about how drag-and-drop or text entry works on screen.
 
 Source: [NAPLAN key dates](https://www.nap.edu.au/naplan/key-dates). Checked on 7 October 2026.
+
+Practice we wrote
 
 ## Front-end estimation and benchmark fractions
 
@@ -108,10 +104,8 @@ Compare fractions to 0, a half and 1 before calculating. Five eighths is more th
 
 After calculating, set the answer beside the estimate. If they disagree by a factor of ten, a decimal point or a digit has slipped, and there is still time to fix it.
 
-**Original practice questions by year level, with the estimate and the exact answer**
-
 | Year | Question | Estimate first | Exact answer |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Year 3 | A class receives 3 boxes of 48 pencils. About how many pencils is that? | 40 times 3 is 120, plus 8 times 3 is 24: about 144 | 144 |
 | Year 5 | Which is larger, five eighths or three sevenths? | Five eighths is more than a half; three sevenths is less than a half | Five eighths |
 | Year 5 | A 3.8 metre ribbon is cut into 4 equal pieces. About how long is each piece? | 3.8 is close to 4, and 4 shared by 4 is 1: just under 1 metre | 0.95 metres |
@@ -124,14 +118,14 @@ Notice what the estimates do. In the Year 9 calculator question, the student nev
 
 We do not sell NAPLAN drilling, and we do not promise a proficiency level. Our classes teach the mathematics properly, with estimation and checking built in from the first lesson, and families tell us the test week feels calmer as a result.
 
+Building number sense
+
 ## Four rungs from Year 3 to Year 9
 
 Where a child starts depends on how they reason with numbers, not on their year level.
 
-**Estimation and reasoning, rung by rung**
-
 | Around | Rung | The sign it is secure |
-|---|---|---|
+| --- | --- | --- |
 | Year 3 | 1. Place value | Rounds to the nearest ten or hundred and explains why |
 | Year 5 | 2. Front-end estimation | Estimates products and quotients before calculating |
 | Year 7 | 3. Benchmarks | Compares fractions and percentages to a half and a whole without converting |
@@ -140,63 +134,293 @@ Where a child starts depends on how they reason with numbers, not on their year 
 ### If maths feels stressful
 
 Anxiety about tests usually comes from not knowing whether an answer is right. Estimation gives a child a way to check, which changes how a test feels.
+
 Short, regular practice with talk about reasoning beats long sessions of worksheets.
 
 ### Beyond NAPLAN
 
 Students who enjoy the reasoning side often try the Australian Mathematics Competition, covered on our [Australian Maths Trust page](/australian-maths-trust-amc-aio-cat-preparation).
+
 The same habits carry into senior maths, where checking a result against an estimate saves marks in every exam.
+
+The catalogue
 
 ## Nine maths courses for Australian students
 
 Grouped by stage. Full syllabuses open from each card.
 
+I
+
 ### Years 3 to 5
 
 Number sense and fluency
 
-- [Mental maths for kids](/courses/mental-maths-mastery-kids): Number sense and estimation, not tricks.
-- [Primary maths](/courses/elementary-mathematics-complete-masterclass): All strands, taught with reasoning out loud.
-- [Abacus mental maths](/courses/abacus-mental-maths-course-for-kids): Visual calculation for younger learners who like structure.
+NNP / P / 01
+
+#### Mental maths for kids
+
+Number sense and estimation, not tricks.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+NNP / P / 02
+
+#### Primary maths
+
+All strands, taught with reasoning out loud.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+NNP / P / 03
+
+#### Abacus mental maths
+
+Visual calculation for younger learners who like structure.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)II
 
 ### Years 7 to 9
 
 Fractions to algebra
 
-- [Middle years maths](/courses/comprehensive-middle-school-mathematics-mastery): Fractions, ratios, geometry and early algebra.
-- [Algebra foundations](/courses/algebra-foundations-masterclass): Equations and expressions, understood rather than memorised.
-- [Statistics and probability](/courses/statistics-probability-maths-course): Data, chance and the reasoning NAPLAN's later items use.
+NNP / S / 01
+
+#### Middle years maths
+
+Fractions, ratios, geometry and early algebra.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+NNP / S / 02
+
+#### Algebra foundations
+
+Equations and expressions, understood rather than memorised.
+
+[Open the syllabus](/courses/algebra-foundations-masterclass)
+
+NNP / S / 03
+
+#### Statistics and probability
+
+Data, chance and the reasoning NAPLAN's later items use.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)III
 
 ### Stretch
 
 For keen problem solvers
 
-- [Competition maths](/courses/olympiad-competition-mathematics-mastery): Problem solving for the AMC and beyond.
-- [Problem solving and computational thinking](/courses/problem-solving-and-computational-thinking-for-kids): Logic and patterns for curious primary students.
-- [Vedic maths](/courses/vedic-maths-course-speed-calculation-mastery): Fast calculation methods, always checked against an estimate.
+NNP / X / 01
+
+#### Competition maths
+
+Problem solving for the AMC and beyond.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)
+
+NNP / X / 02
+
+#### Problem solving and computational thinking
+
+Logic and patterns for curious primary students.
+
+[Open the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)
+
+NNP / X / 03
+
+#### Vedic maths
+
+Fast calculation methods, always checked against an estimate.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
+
+How lessons run
 
 ## Weekly classes, timed for Australian afternoons
 
 Our maths teachers are based in India, which sits behind every Australian capital. A 4 pm class in Brisbane, for instance, begins at 11.30 am India time, so primary-age slots straight after the school bell are simple to staff and simple to keep.
 
-- **Weekday after school** The usual choice for primary and middle years.
-- **Weekend morning** For families who prefer a calmer start.
-- **School holidays** Short catch-up blocks on a single topic.
+Weekday after school
 
-- **Reasoning out loud** Students explain how they know, not just what they got.
-- **Estimation built in** Every calculation starts with a rough answer and ends with a check.
-- **Classes of fifteen to twenty** Children grouped by what they can already do, so nobody waits and nobody is lost.
-- **Private lessons** Chosen when a child needs a particular gap closed or confidence rebuilt.
-- **Parents kept informed** A short note on what was covered and what to try at home.
-- **No promises** No proficiency level is promised. We teach the maths; the result is the child's.
+The usual choice for primary and middle years.
+
+Weekend morning
+
+For families who prefer a calmer start.
+
+School holidays
+
+Short catch-up blocks on a single topic.
+
+### Reasoning out loud
+
+Students explain how they know, not just what they got.
+
+### Estimation built in
+
+Every calculation starts with a rough answer and ends with a check.
+
+### Classes of fifteen to twenty
+
+Children grouped by what they can already do, so nobody waits and nobody is lost.
+
+### Private lessons
+
+Chosen when a child needs a particular gap closed or confidence rebuilt.
+
+### Parents kept informed
+
+A short note on what was covered and what to try at home.
+
+### No promises
+
+No proficiency level is promised. We teach the maths; the result is the child's.
+
+Student work
+
+## Projects our students have published
+
+Work our learners made for its own sake, with no test attached. The full gallery lives in the [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Australian families are billed monthly in US dollars, the same rate we charge everywhere outside India, with nothing to pay up front and freedom to stop at any month end.
 
-- Free first class: USD 0. A real lesson with a teacher. An honest view of where your child is. No card details.
-- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher each week. Work reviewed and explained. A certificate at the end.
-- One to one: USD 150 a month. A teacher for one child. Focused on specific gaps. Flexible weekly times.
+Free first class
+
+USD 0
+
+no card required
+
+- A real lesson with a teacher
+- An honest view of where your child is
+- No card details
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students at one level
+- The same teacher each week
+- Work reviewed and explained
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one child
+- Focused on specific gaps
+- Flexible weekly times
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Parents in their own words, quoted exactly as they appear on Google.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about NAPLAN numeracy
 
 ## What Australian parents ask
 
@@ -240,15 +464,54 @@ We do not promise any result or proficiency level. We teach number sense, estima
 
 We fix one weekly slot with you once the trial class is done, normally just after school in your state. Brisbane is four and a half hours ahead of India time all year, as Queensland has no daylight saving.
 
+Related pages
+
 ## More for Australian families
 
-- [Online maths tutoring in Australia](/online-maths-tutoring-australia): From Foundation year to senior maths, taught live.
-- [Australian competitions calendar](/australian-coding-maths-and-ai-competitions-calendar): Maths, coding and AI contests, month by month.
-- [AMC and CAT preparation](/australian-maths-trust-amc-aio-cat-preparation): Getting primary and middle-years students ready for AMT papers.
-- [Maths olympiad tutoring](/math-olympiad-amc-tutoring): For students who want harder problems.
-- [Maths challenges](/maths-challenges): Puzzles to try at home.
-- [Coding classes in Australia](/coding-classes-in-australia): Where maths meets programming.
+Maths beyond NAPLAN, competitions, and coding.
 
-## Contact
+### [Online maths tutoring in Australia](/online-maths-tutoring-australia)
 
-Book the free first class at [https://learn.modernagecoders.com/naplan-numeracy-practice-online](https://learn.modernagecoders.com/naplan-numeracy-practice-online#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+From Foundation year to senior maths, taught live.
+
+### [Australian competitions calendar](/australian-coding-maths-and-ai-competitions-calendar)
+
+Maths, coding and AI contests, month by month.
+
+### [AMC and CAT preparation](/australian-maths-trust-amc-aio-cat-preparation)
+
+Getting primary and middle-years students ready for AMT papers.
+
+### [Maths olympiad tutoring](/math-olympiad-amc-tutoring)
+
+For students who want harder problems.
+
+### [Maths challenges](/maths-challenges)
+
+Puzzles to try at home.
+
+### [Coding classes in Australia](/coding-classes-in-australia)
+
+Where maths meets programming.
+
+Start here
+
+## Start with a free maths class
+
+Tell us the year level and what feels hard right now. The free class works on number sense and reasoning, and ends with an honest view of next steps.
+
+Rather browse quietly? Every maths course is laid out on the [course atlas](/course-atlas), and [how we teach](/how-we-teach) describes a lesson from start to finish.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20class%20about%20number%20sense%20and%20NAPLAN%20numeracy.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+A WhatsApp message tends to get the quickest reply. Our number carries the +91 Indian code: the school operates from India and keeps no premises in Australia.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/naplan-numeracy-practice-online*

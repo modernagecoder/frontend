@@ -12,7 +12,7 @@ LIVE ONLINE CODING & MATHS · ANDUL, HOWRAH
 
 Modern Age Coders runs 100% live online coding and maths classes for students in Andul, Andul Mouri, Mahiari and across the NH-16 corridor, taught by full-time software engineers and maths graduates in batches of 15–20, never pre-recorded. Children from Andul Mahiari B.M. Institution, Adamas International and Howrah Vivekananda get Salt-Lake-quality teaching at home from ₹1,499/month, with zero commute through the Andul Mouri crossing.
 
-100% Live · Never RecordedSmall Batches (15–20)Project-Based Every ClassFrom ₹1,499/month[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)6–8Students per live batch₹1,499Starting fee per month90 minsCommute saved per class day30+Coding & maths coursesAt a glance
+100% Live · Never RecordedBatches (15–20)Project-Based Every ClassFrom ₹1,499/month[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)15–20Students per live batch₹1,499Starting fee per month90 minsCommute saved per class day30+Coding & maths coursesAt a glance
 
 ## Live coding & maths near Andul: the facts
 

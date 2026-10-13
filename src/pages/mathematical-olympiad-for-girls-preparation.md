@@ -4,34 +4,28 @@ description: "Preparing for the UKMT Mathematical Olympiad for Girls: five probl
 canonical: https://learn.modernagecoders.com/mathematical-olympiad-for-girls-preparation
 source: src/pages/mathematical-olympiad-for-girls-preparation.html
 ---
-> The Mathematical Olympiad for Girls is run by the UK Mathematics Trust and falls on "Tuesday 22nd September 2026". UKMT describes a paper of "2.5 hours" that "consists of five challenging problems": two ask for "numerical answers only" and three "require full written explanations". Eligibility is "England and Wales: Year 11 and above (younger students may be entered at the school's discretion)", "Scotland: S4 and above" and "Northern Ireland: Year 12 and above", and entry is discretionary through a school. On the same day UKMT runs the newer Mathematical Competition for Girls, an unlimited-entry paper of "five similar problems, but in the answer-only format", with some questions shared; "students cannot sit both the MCG and MOG". We teach the problem solving and the written argument, live online. The first class is free; a group place is USD 100 a month and one-to-one teaching USD 150.
+> Preparing for the UKMT Mathematical Olympiad for Girls: five problems in two and a half hours, two answer-only and three written, and how the MCG differs.
 
-[Home](/) / [Courses](/courses) / [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar) / Mathematical Olympiad for Girls
+In short
 
-United Kingdom · Year 11 and above · 22 September 2026
+The Mathematical Olympiad for Girls is run by the UK Mathematics Trust and falls on "Tuesday 22nd September 2026". UKMT describes a paper of "2.5 hours" that "consists of five challenging problems": two ask for "numerical answers only" and three "require full written explanations". Eligibility is "England and Wales: Year 11 and above (younger students may be entered at the school's discretion)", "Scotland: S4 and above" and "Northern Ireland: Year 12 and above", and entry is discretionary through a school. On the same day UKMT runs the newer Mathematical Competition for Girls, an unlimited-entry paper of "five similar problems, but in the answer-only format", with some questions shared; "students cannot sit both the MCG and MOG". We teach the problem solving and the written argument, live online. The first class is free; a group place is USD 100 a month and one-to-one teaching USD 150.
 
-# Mathematical Olympiad for Girls preparation
-
-Most students meet written mathematics as a cliff. One year the papers are multiple choice and the next they want a proof, and nothing in between teaches the crossing. The Mathematical Olympiad for Girls is the gentlest bridge in the British system, and it is built that way on purpose: five problems in two and a half hours, of which two ask for a numerical answer and three ask for a full written explanation. A student can walk in able to do the first kind and learn, on paper, what the second kind wants. This page is about that difference, and about how to practise the half nobody has ever asked for.
-
-At a glance: Organiser: UK Mathematics Trust; Date: Tuesday 22 September 2026; Length: Two and a half hours; Problems: Five; Answer only: Two of the five; Written explanation: Three of the five; England and Wales: Year 11 and above; Also that day: The Mathematical Competition for Girls. Rated 4.9 across 547 Google reviews.
+Where to start
 
 ## Three courses for a MOG candidate
 
 Pick by whether the gap is the mathematics or the writing.
 
-- [Olympiad and competition maths](/courses/olympiad-competition-mathematics-mastery): Counting, number theory and geometry in the olympiad idiom, with every solution written out.
-- [High school mathematics](/courses/complete-high-school-mathematics-mastery): For a student who can see the idea but loses time getting the algebra out.
-- [Statistics and probability](/courses/statistics-probability-maths-course): Counting arguments done carefully, which is where a good many MOG problems live.
+[![Maths Olympiad & Competition Course course thumbnail](/images/olympiad-competition-maths.webp)  MOG / 01 Olympiad and competition maths Counting, number theory and geometry in the olympiad idiom, with every solution written out. Open the syllabus →](/courses/olympiad-competition-mathematics-mastery)[![High School Mathematics course thumbnail](/images/high-school-maths.webp)  MOG / 02 High school mathematics For a student who can see the idea but loses time getting the algebra out. Open the syllabus →](/courses/complete-high-school-mathematics-mastery)[![Statistics & Probability course thumbnail](/images/statistics-probability-maths.webp)  MOG / 03 Statistics and probability Counting arguments done carefully, which is where a good many MOG problems live. Open the syllabus →](/courses/statistics-probability-maths-course)
+
+The paper
 
 ## Five problems, and two different kinds of answer
 
 Facts read at UKMT's own pages on 20 September 2026.
 
-**The Mathematical Olympiad for Girls as UKMT publishes it**
-
 | Part | What UKMT says | What it means on the day |
-|---|---|---|
+| --- | --- | --- |
 | Date | "Tuesday 22nd September 2026" | Early in the autumn term, before most competition seasons begin |
 | Length | "2.5 hours" | Thirty minutes a problem, which nobody should spend evenly |
 | The paper | "consists of five challenging problems" | Fewer, longer problems than any challenge paper |
@@ -52,16 +46,16 @@ It falls in September, which makes it the first serious paper of the school year
 
 Sources: [UKMT, Mathematical Olympiad for Girls](https://ukmt.org.uk/mathematical-olympiad-for-girls), [Mathematical Competition for Girls](https://ukmt.org.uk/competitions/mathematical-competition-for-girls) and the [competitions calendar](https://ukmt.org.uk/competitions), read 20 September 2026. We have no connection with the UK Mathematics Trust.
 
+The method
+
 ## The number is one word. The reason is the question.
 
 A worked case, written by us, that shows exactly what the three explained questions are asking for.
 
 Here is a problem in the right spirit. **In any group of people, some pairs are friends and the rest are strangers. What is the smallest size of group that must always contain three people who are all friends with each other, or three who are all strangers to each other?** The answer is six. Written on a line by itself, that answer is worth almost nothing, and a student who has only ever sat answer-only papers has no idea why.
 
-**Our brute force of 20 September 2026: every possible pattern of friendships**
-
 | Group size | Patterns checked | Patterns with no trio of mutual friends and no trio of mutual strangers |
-|---|---|---|
+| --- | --- | --- |
 | Five people | 1,024 | 12 |
 | Six people | 32,768 | 0 |
 
@@ -87,14 +81,14 @@ That is the whole difference between the two answer-only questions and the three
 
 The problem, the argument and the brute-force check are ours, written and run on 20 September 2026: all 1,024 friendship patterns on five people and all 32,768 on six were tested, with twelve escapes at five and none at six.
 
+The choice
+
 ## MOG or MCG, and why a student cannot sit both
 
 UKMT now runs two papers for girls on the same day, and a school has to choose one per student.
 
-**The two papers compared, from UKMT's own descriptions**
-
-|  | Mathematical Olympiad for Girls | Mathematical Competition for Girls |
-|---|---|---|
+|   | Mathematical Olympiad for Girls | Mathematical Competition for Girls |
+| --- | --- | --- |
 | Entry | Discretionary, through a school | Unlimited entry |
 | Problems | Five challenging problems | "five similar problems, but in the answer-only format" |
 | Answers | Two numerical, three fully written | All answer only |
@@ -109,14 +103,14 @@ What should not drive the decision is fear of a bad score. Neither paper is a qu
 
 The other rungs are open in parallel. The Senior Mathematical Challenge falls on 7 October 2026 and the [British Mathematical Olympiad](/british-mathematical-olympiad-bmo-preparation) follows in November, and a student can sit those as well as this.
 
+How to practise
+
 ## Write ten lines, then read them cold
 
 There is one exercise worth doing repeatedly, and it takes twenty minutes a week.
 
-**Preparation that works for a September paper**
-
 | When | What to do | Why |
-|---|---|---|
+| --- | --- | --- |
 | Summer term before | Work olympiad problems without a clock | Problem-solving grows slowly and cannot be hurried in September |
 | Summer holidays | Write up one solution a week, properly | The writing is the half nobody has practised |
 | Early September | Reread old write-ups cold and mark them yourself | A solution that convinced you in July often does not in September |
@@ -131,14 +125,14 @@ UKMT publishes its own past papers and full solutions free, which is the right p
 
 If a student finds she enjoys the written questions more than the answer-only ones, that is the signal to look at the [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar) and keep going.
 
+Getting ready
+
 ## Four rungs from an answer to an argument
 
 A student moves up when the previous habit is automatic, whatever her year group.
 
-**From a number to a proof a stranger accepts**
-
 | Stage | Rung | The sign it is secure |
-|---|---|---|
+| --- | --- | --- |
 | Years 9 to 10 | 1. Technique out of the way | Algebra and counting never interrupt the thinking |
 | Years 10 to 11 | 2. Patience | Will stay with one problem for half an hour unprompted |
 | Year 11 to 12 | 3. Ten honest lines | Writes a short argument that a classmate can follow |
@@ -147,71 +141,321 @@ A student moves up when the previous habit is automatic, whatever her year group
 ### If September is close
 
 Write up two problems already solved, fully, and have someone read them as a stranger would. That is the highest-value evening available.
+
 Sit one timed paper for pacing, and do not add topics. Nothing in this paper needs content beyond school mathematics.
 
 ### What comes after
 
 The Senior Mathematical Challenge is on 7 October 2026 and the [British Mathematical Olympiad](/british-mathematical-olympiad-bmo-preparation) in November, both open to the same students.
+
 The written habit is worth more at every level above this one, and it is what university mathematics is made of.
+
+The full list
 
 ## Courses for a sixth-form problem solver
 
 Sorted by the obstacle rather than the year group, with each syllabus a click away.
 
+I
+
 ### Olympiad mathematics
 
 The paper itself
 
-- [Olympiad and competition maths](/courses/olympiad-competition-mathematics-mastery): Pigeonhole, counting and construction, written out.
-- [Statistics and probability](/courses/statistics-probability-maths-course): Probability arguments that survive being questioned.
-- [High school mathematics](/courses/complete-high-school-mathematics-mastery): Algebra and geometry until they are out of the way.
+MOG / O / 01
+
+#### Olympiad and competition maths
+
+Pigeonhole, counting and construction, written out.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)
+
+MOG / O / 02
+
+#### Statistics and probability
+
+Probability arguments that survive being questioned.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)
+
+MOG / O / 03
+
+#### High school mathematics
+
+Algebra and geometry until they are out of the way.
+
+[Open the syllabus](/courses/complete-high-school-mathematics-mastery)II
 
 ### The school course
 
 Running underneath it all
 
-- [A-level maths](/courses/a-level-maths-course-pure-mechanics-statistics): The sixth-form course, taught so it stops eating the same evenings.
-- [GCSE maths](/courses/gcse-mathematics-mastery): Foundation and higher, for a candidate still in Year 11.
-- [IGCSE maths](/courses/igcse-mathematics-mastery): For students in independent and international schools.
+MOG / S / 01
+
+#### A-level maths
+
+The sixth-form course, taught so it stops eating the same evenings.
+
+[Open the syllabus](/courses/a-level-maths-course-pure-mechanics-statistics)
+
+MOG / S / 02
+
+#### GCSE maths
+
+Foundation and higher, for a candidate still in Year 11.
+
+[Open the syllabus](/courses/gcse-mathematics-mastery)
+
+MOG / S / 03
+
+#### IGCSE maths
+
+For students in independent and international schools.
+
+[Open the syllabus](/courses/igcse-mathematics-mastery)III
 
 ### Computing beside it
 
 Where a program helps
 
-- [Maths through coding](/courses/maths-through-coding): A short program, and then the sentence that makes it unnecessary.
-- [Python from start to finish](/courses/python-complete-masterclass-teens): Enough code to list every case before arguing about them.
-- [Data science with Python](/courses/data-science-course-for-teens-python-data): Where careful counting meets a messy spreadsheet.
+MOG / C / 01
+
+#### Maths through coding
+
+A short program, and then the sentence that makes it unnecessary.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+MOG / C / 02
+
+#### Python from start to finish
+
+Enough code to list every case before arguing about them.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+MOG / C / 03
+
+#### Data science with Python
+
+Where careful counting meets a messy spreadsheet.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)IV
 
 ### Further on
 
 University and after
 
-- [Algorithms and data structures](/courses/problem-solving-dsa-masterclass-teens): Searching, sorting and how long a method takes.
-- [AI and machine learning for teens](/courses/ai-ml-masterclass-teens): What counting and probability turn into later.
-- [Competitive programming](/courses/competitive-programming-for-teens-course): Problems solved against a clock and a judge.
+MOG / N / 01
+
+#### Algorithms and data structures
+
+Searching, sorting and how long a method takes.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
+
+MOG / N / 02
+
+#### AI and machine learning for teens
+
+What counting and probability turn into later.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+MOG / N / 03
+
+#### Competitive programming
+
+Problems solved against a clock and a judge.
+
+[Open the syllabus](/courses/competitive-programming-for-teens-course)
+
+How lessons run
 
 ## One problem a week, and a reader for the write-up
 
 Teaching is live on video from India, five and a half hours ahead of the UK in winter and four and a half in summer, at a time agreed and kept in UK time.
 
-- **Weekday evening** The usual choice for Years 11 to 13.
-- **Weekend morning** Long enough to work a problem to a finished argument.
-- **Summer weeks** The right time to prepare for a September paper.
+Weekday evening
 
-- **Write-ups read as a stranger** A teacher reads the argument cold and says where it stops being convincing.
-- **Techniques named** Pigeonhole, extremal cases and construction are taught as a repertoire, not as tricks.
-- **Fifteen to twenty students** Enough for two approaches to meet, small enough for every solution to be read aloud.
-- **Our own problems** Written by us in the same territory. UKMT publishes its own past papers and solutions.
-- **One to one when wanted** For a student working beyond her year group, or one who prefers to think out loud alone.
-- **Nothing promised** We cannot enter anyone, and no score, award or invitation is promised by us.
+The usual choice for Years 11 to 13.
+
+Weekend morning
+
+Long enough to work a problem to a finished argument.
+
+Summer weeks
+
+The right time to prepare for a September paper.
+
+### Write-ups read as a stranger
+
+A teacher reads the argument cold and says where it stops being convincing.
+
+### Techniques named
+
+Pigeonhole, extremal cases and construction are taught as a repertoire, not as tricks.
+
+### Fifteen to twenty students
+
+Enough for two approaches to meet, small enough for every solution to be read aloud.
+
+### Our own problems
+
+Written by us in the same territory. UKMT publishes its own past papers and solutions.
+
+### One to one when wanted
+
+For a student working beyond her year group, or one who prefers to think out loud alone.
+
+### Nothing promised
+
+We cannot enter anyone, and no score, award or invitation is promised by us.
+
+Student work
+
+## What our students build
+
+Four published projects by students at our school, none of them competition entries. More on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Priced monthly in US dollars for families outside India, with no registration fee and no minimum number of months.
 
-- Free first class: USD 0. One real problem with a teacher. A straight read on the level. No card details.
-- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher weekly. Written arguments read closely. A certificate at the end.
-- One to one: USD 150 a month. A teacher working with one student. Shaped around what she finds hard. Useful when a group hour will not fit the week.
+Free first class
+
+USD 0
+
+no card required
+
+- One real problem with a teacher
+- A straight read on the level
+- No card details
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students at one level
+- The same teacher weekly
+- Written arguments read closely
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher working with one student
+- Shaped around what she finds hard
+- Useful when a group hour will not fit the week
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+What families have said about us on Google, quoted without edits.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Mathematical Olympiad for Girls questions
 
 ## What students and parents ask
 
@@ -255,15 +499,54 @@ No. UKMT publishes its own past papers and full solutions free. Our practice pro
 
 The first lesson is free. A group place is then USD 100 a month and one-to-one teaching USD 150, with nothing to join and no minimum term.
 
+Related pages
+
 ## Where to go after September
 
-- [British Mathematical Olympiad](/british-mathematical-olympiad-bmo-preparation): Three and a half hours, six problems, in November.
-- [Cayley, Hamilton and Maclaurin](/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation): The intermediate papers, split by school year.
-- [UK competitions calendar 2026-27](/uk-coding-maths-and-ai-competitions-calendar): Dates for every contest, checked with the people who run them.
-- [Junior Mathematical Olympiad](/junior-mathematical-olympiad-preparation): Where written solutions begin, at Year 8.
-- [Coding classes in the UK](/coding-classes-in-united-kingdom): The four school systems, and every UK page.
-- [Choosing an online class](/best-online-coding-classes-uk): How to tell a serious provider from a well-designed one.
+The autumn rounds, the papers below this one, and the full calendar.
 
-## Contact
+### [British Mathematical Olympiad](/british-mathematical-olympiad-bmo-preparation)
 
-Book the free first class at [https://learn.modernagecoders.com/mathematical-olympiad-for-girls-preparation](https://learn.modernagecoders.com/mathematical-olympiad-for-girls-preparation#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Three and a half hours, six problems, in November.
+
+### [Cayley, Hamilton and Maclaurin](/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation)
+
+The intermediate papers, split by school year.
+
+### [UK competitions calendar 2026-27](/uk-coding-maths-and-ai-competitions-calendar)
+
+Dates for every contest, checked with the people who run them.
+
+### [Junior Mathematical Olympiad](/junior-mathematical-olympiad-preparation)
+
+Where written solutions begin, at Year 8.
+
+### [Coding classes in the UK](/coding-classes-in-united-kingdom)
+
+The four school systems, and every UK page.
+
+### [Choosing an online class](/best-online-coding-classes-uk)
+
+How to tell a serious provider from a well-designed one.
+
+Start here
+
+## Book a free olympiad lesson
+
+Tell us the year group and whether she has written up a solution before. The free lesson takes one problem from a first reading to an argument on paper.
+
+Rather read first? Syllabuses live on the [course pages](/courses), the teaching approach on [how we teach](/how-we-teach), and the order of topics on the [roadmap](/coding-roadmap).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20daughter%20is%20entering%20the%20Mathematical%20Olympiad%20for%20Girls%20and%20I%20would%20like%20a%20free%20class.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is free from a UK mobile and reaches us fastest. Our number is an Indian one, which we say on every page, and we keep no office in Britain.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/mathematical-olympiad-for-girls-preparation*

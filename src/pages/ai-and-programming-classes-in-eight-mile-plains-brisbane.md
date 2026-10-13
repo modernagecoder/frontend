@@ -4,56 +4,40 @@ description: "Live online AI and programming classes for Eight Mile Plains learn
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-eight-mile-plains-brisbane
 source: src/pages/ai-and-programming-classes-in-eight-mile-plains-brisbane.html
 ---
-> The ability to build machine learning models and the discipline to test whether a recommended technique actually helps on their own data. Children begin with Scratch at six; teenagers and adults train models in Python. Eight Mile Plains recorded 15,326 residents at the 2021 Census.
+> Live online AI and programming classes for Eight Mile Plains learners aged 6 to 67, with machine learning tested on real Brisbane data, in groups or one to one.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [Queensland](/coding-and-ai-classes-in-queensland) / [Brisbane](/best-coding-classes-in-brisbane) / Eight Mile Plains
-
-Eight Mile Plains, City of Brisbane, Queensland / Live online
-
-# AI and programming classes in Eight Mile Plains
-
-**What do Eight Mile Plains learners gain from AI and programming classes?** The ability to build machine learning models and the discipline to test whether a recommended technique actually helps on their own data. Children begin with Scratch at six; teenagers and adults train models in Python. Eight Mile Plains recorded 15,326 residents at the 2021 Census.
-
-Textbooks say k-means++ picks better starting centres than random guesses. We tried both, a thousand times each, on the 47 bus stop records inside Eight Mile Plains. The fancy method won on some measures and lost on another, which is exactly why learners should run the experiment rather than quote the rule.
-
-Facts last verified 12 October 2026. Teaching is online; no Eight Mile Plains branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Eight Mile Plains
 
 ## Courses that test methods, not just apply them
 
 The stop-clustering project needs Python, numpy and the habit of comparing methods fairly. These courses build each part; the trial lesson finds the level.
 
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Clustering, classification and regression built by hand, then compared honestly.
-- [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) (University and adult): Machine learning from first principles to evaluated, working models.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 17): Python data work with maps, charts and repeatable experiments.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): First Python and AI projects, small enough to test by eye.
+[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensClustering, classification and regression built by hand, then compared honestly.See the syllabus](/courses/ai-ml-masterclass-teens)[![AI and ML Masterclass course thumbnail](/images/ai-ml-college.webp)University and adultAI and ML MasterclassMachine learning from first principles to evaluated, working models.See the syllabus](/courses/ai-ml-masterclass-complete-college)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 17Data Science for TeensPython data work with maps, charts and repeatable experiments.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsFirst Python and AI projects, small enough to test by eye.See the syllabus](/courses/python-ai-kids-masterclass)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Eight Mile Plains in the Census
 
 ## Houses, townhouses and bus commuters
 
 A selection of 2021 Census QuickStats for the suburb of Eight Mile Plains (ABS code SAL30950), shown beside the Queensland figure.
 
-**Eight Mile Plains counts, 2021**
-
 | Measure | Eight Mile Plains |
-|---|---|
+| --- | --- |
 | Residents | 15,326 |
 | Median age | 36 |
 | Families | 4,125 |
 | Private dwellings | 5,631 |
 | People per household | 2.8 |
 
-**Eight Mile Plains and Queensland side by side**
-
 | Indicator | Eight Mile Plains | Queensland |
-|---|---|---|
+| --- | --- | --- |
 | Workers who rode a bus to work | 7.2% (534) | 1.7% |
 | Semi-detached, row or townhouse homes | 26.1% (1,348) | 11.7% |
 | Employed people in professional jobs | 29.5% (2,184) | 21.4% |
@@ -74,23 +58,21 @@ The ABS boundary takes in roughly 7.6 square kilometres of Brisbane's southern s
 
 The bureau adds small privacy perturbations to Census cells, so these figures are reproduced exactly and never summed into totals of our own making.
 
+Signature project
+
 ## Does smart seeding beat a random start?
 
 k-means groups points around k centres, but it needs starting centres, and a bad start can trap it in a poor answer. Random seeding picks k stops at random. k-means++ picks one at random, then favours stops far from the centres already chosen. We ran each method 1,000 times on the 47 stop records with k = 4, 5 and 6.
 
-**k = 5, 1,000 runs per method (our calculation)**
-
 | Measure | Random start | k-means++ |
-|---|---|---|
+| --- | --- | --- |
 | Median typical distance from stop to its centre | 494 m | 493 m |
 | Worst run | 632 m | 596 m |
 | Runs reaching the tightest answer found (470 m) | 10.5% | 9.3% |
 | Average iterations to settle | 5.22 | 4.43 |
 
-**Median and worst runs at other values of k (our calculation)**
-
 | k | Random: median, worst | k-means++: median, worst |
-|---|---|---|
+| --- | --- | --- |
 | 4 | 574 m, 676 m | 571 m, 666 m |
 | 6 | 450 m, 591 m | 440 m, 558 m |
 
@@ -112,14 +94,14 @@ With only 47 stops in one suburb, almost any start lands near a good answer, so 
 
 Stop positions come from the Translink timetable feed; membership of the suburb is our point-in-boundary check. Distances use a flat projection in metres, fine at suburb scale. The typical distance is the root mean square distance from each stop to its cluster centre. All runs, seeds and statistics are our calculation with numpy, seed 2026.
 
+Machine learning practice
+
 ## Running a fair comparison
 
 The interesting part of this project is not k-means itself but the experiment around it.
 
-**Experiment design, and what it showed**
-
 | Choice | Why | Here |
-|---|---|---|
+| --- | --- | --- |
 | Many runs per method | One run is luck, not evidence | 1,000 each |
 | Same data and seed source | Differences must come from the method | 47 stops, seed 2026 |
 | Several values of k | A result at one k may not hold at another | k = 4, 5 and 6 |
@@ -139,6 +121,8 @@ Question any "standard practice" in an analytics tool by testing it on your own 
 
 Library defaults are worth reading. In scikit-learn, k-means++ is the default seeding and, with the default n_init setting, it runs from a single start, while random seeding runs 10 times and keeps the tightest result. Our runs suggest restarts deserve as much thought as seeding.
 
+Around Eight Mile Plains
+
 ## Warrigal Road and 35 council parks
 
 Local markers from the timetable feed, the council park register and the Queensland school calendar.
@@ -155,16 +139,41 @@ Warrigal Rd at Fanfare, at Bordeaux and at Padstow Views tied that day with 139 
 
 Queensland state schools open on Wednesday 27 January 2027, and Term 1 ends on Thursday 25 March.
 
-**Just this suburb** Brisbane City Council's park register lists 35 parks in Eight Mile Plains. Kuraby, Macgregor, Rochedale, Runcorn, Sunnybank, Upper Mount Gravatt and Wishart all border the suburb, and their figures stay separate from these.
+Just this suburb
+
+Brisbane City Council's park register lists 35 parks in Eight Mile Plains. Kuraby, Macgregor, Rochedale, Runcorn, Sunnybank, Upper Mount Gravatt and Wishart all border the suburb, and their figures stay separate from these.
+
+Learning ladder
 
 ## From grouping counters to training models
 
 Ages are a guide; the trial lesson shows where to begin.
 
-- **Ages 6 to 10: Scratch and logic** Puzzles and games that build step-by-step thinking. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 10 to 14: Python and AI ideas** First code and models that learn from examples. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)
-- **Ages 14 to 18: Machine learning** Clustering, regression and fair evaluation in Python. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **University and adult: Applied AI** Data science and models for study and work. [Data Science Course](/courses/data-science-complete-masterclass-college), [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college)
+Ages 6 to 10
+
+### Scratch and logic
+
+Puzzles and games that build step-by-step thinking.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 10 to 14
+
+### Python and AI ideas
+
+First code and models that learn from examples.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)Ages 14 to 18
+
+### Machine learning
+
+Clustering, regression and fair evaluation in Python.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)University and adult
+
+### Applied AI
+
+Data science and models for study and work.
+
+[Data Science Course](/courses/data-science-complete-masterclass-college)[AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college)Coding and AI
 
 ## If AI recommends the method, who checks it works?
 
@@ -176,30 +185,139 @@ Learners who have run the comparison themselves know to treat advice as a hypoth
 
 In Eight Mile Plains, the learner who tests the advice is the one ready to use AI well. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How classes run for Eight Mile Plains
 
 Lessons happen live over video, so learners anywhere in the suburb join from home.
 
-- **Shared notebooks** Teacher and learner run code and read the results together, line by line.
-- **School-year rhythm** Plans follow Queensland terms, with breaks in the holidays.
-- **Free trial** One real lesson at no charge, closing with an honest recommendation.
-- **Matched groups** Fifteen to twenty learners of similar level, or one to one.
-- **Two per week** Set weekly times, close to eight lessons a month.
-- **India time** Our teachers are based in India, so a 7pm class here starts at 2:30pm India time, all year.
+### Shared notebooks
 
-**Clocks that never change** Brisbane has had no daylight saving since March 1992 (IANA time zone database), and India has none either, so agreed lesson times hold year round.
+Teacher and learner run code and read the results together, line by line.
+
+### School-year rhythm
+
+Plans follow Queensland terms, with breaks in the holidays.
+
+### Free trial
+
+One real lesson at no charge, closing with an honest recommendation.
+
+### Matched groups
+
+Fifteen to twenty learners of similar level, or one to one.
+
+### Two per week
+
+Set weekly times, close to eight lessons a month.
+
+### India time
+
+Our teachers are based in India, so a 7pm class here starts at 2:30pm India time, all year.
+
+Clocks that never change
+
+Brisbane has had no daylight saving since March 1992 (IANA time zone database), and India has none either, so agreed lesson times hold year round.
+
+Fees
 
 ## Fees for Eight Mile Plains learners
 
 Three prices for every family.
 
-- First class: USD 0. The trial lesson is free and ends with a written plan.
-- Group tuition: USD 100 a month. About eight group lessons a month with fifteen to twenty learners at the same level.
-- Private tuition: USD 150 a month. About eight private lessons a month, one teacher to one learner.
+First class**USD 0**
+
+The trial lesson is free and ends with a written plan.
+
+Group tuition**USD 100**
+
+About eight group lessons a month with fifteen to twenty learners at the same level.
+
+Private tuition**USD 150**
+
+About eight private lessons a month, one teacher to one learner.
 
 Payment is in US dollars and comes after the trial, once the course and time are agreed. Holiday breaks, missed lessons and format changes are covered on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20Eight%20Mile%20Plains.)Reviews
+
+## Reviews on Google from learners and families
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Eight Mile Plains class
+
+Tell us the learner's age and interests. A teenager might start by clustering the suburb's bus stops; a younger child might start with Scratch logic puzzles.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Eight Mile Plains one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20Eight%20Mile%20Plains.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Eight Mile Plains AI and programming questions
+
+Questions families and adult learners in Eight Mile Plains often ask.
 
 ### What is the population of Eight Mile Plains?
 
@@ -241,10 +359,14 @@ Fifteen to twenty learners at a similar level and pace, not sorted by age or sub
 
 No. Copilot Studio is taught one to one only; group learners build agents in Python code.
 
+Explore Brisbane and Queensland
+
 ## More for Eight Mile Plains learners
 
 Try [the Brisbane guide](/best-coding-classes-in-brisbane) or [coding for Brisbane children](/coding-classes-for-kids-brisbane). Families to the south may also want [Logan](/best-coding-classes-in-logan) or [the Gold Coast](/best-coding-classes-in-gold-coast), and [the Queensland guide](/coding-and-ai-classes-in-queensland) covers the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20class%20for%20a%20learner%20in%20Eight%20Mile%20Plains.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-eight-mile-plains-brisbane](https://learn.modernagecoders.com/ai-and-programming-classes-in-eight-mile-plains-brisbane#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-eight-mile-plains-brisbane*

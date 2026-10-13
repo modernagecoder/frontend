@@ -4,51 +4,34 @@ description: "Coding, Python, data and AI lessons for Tullamore learners aged 6 
 canonical: https://learn.modernagecoders.com/best-coding-class-in-tullamore
 source: src/pages/best-coding-class-in-tullamore.html
 ---
-> Of Tullamore's 5,601 households, 4,530 report broadband, which is the whole of the equipment list apart from a computer. Our teachers take a live lesson over video with a few learners working at the same level, or with one learner on their own, about twice a week, for any age from six to sixty-seven. The opening lesson costs nothing. A group place is then USD 100 a month and private teaching USD 150.
+> Coding, Python, data and AI lessons for Tullamore learners aged 6 to 67, taught live online in small groups matched by level or one to one. First lesson free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [County Offaly](/coding-classes-in-county-offaly) / Tullamore
-
-Tullamore, County Offaly / Live online
-
-# Coding classes in Tullamore
-
-**What is the best coding class in Tullamore?** Of Tullamore's 5,601 households, 4,530 report broadband, which is the whole of the equipment list apart from a computer. Our teachers take a live lesson over video with a few learners working at the same level, or with one learner on their own, about twice a week, for any age from six to sixty-seven. The opening lesson costs nothing. A group place is then USD 100 a month and private teaching USD 150.
-
-The Central Statistics Office prints a single number for how old Tullamore is: an average age of 38.1. Underneath it sits a table counting the town's people by age, one row per year up to nineteen and then five-year bands, ending in an open row for everyone aged 85 and over. This page rebuilds the one from the other, the way a careful analyst checks any figure before quoting it. The totals agree. The average only comes out right if each person is counted at the middle of their year of age, not at the birthday just gone, and that single discovery is the reason to do the exercise. Then the same program runs across all 867 census towns, and the pattern of its misses shows what grouping ages into bands throws away. Every number below came from running it.
-
-Facts last verified 19 September 2026. Teaching is online; no Tullamore branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Tullamore
 
 ## Four places Tullamore learners start
 
 Start from age and interest; the first lesson, taken by the course teacher, confirms the level.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Block coding where sorting things into boxes and counting them is part of the game.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 13): Averages, rounding and tables worked out by a program the learner writes, then checked by hand.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): Real census tables in Python, and the habit of rebuilding a published number before trusting a chart.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (College and adult): For adults who report figures at work and want to know how each one was made.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlock coding where sorting things into boxes and counting them is part of the game.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 13Maths Through CodingAverages, rounding and tables worked out by a program the learner writes, then checked by hand.See the syllabus](/courses/maths-through-coding)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensReal census tables in Python, and the habit of rebuilding a published number before trusting a chart.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)College and adultData Analysis CourseFor adults who report figures at work and want to know how each one was made.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## Rebuild Tullamore's average age from the table beneath it
 
 The published figure is 38.1. The age table for the same town has 34 rows. Four steps get from the rows to the figure, and one of them decides whether it can be done at all.
 
-- **Step 1**: **Match the population.** Add up the age table before anything else. Our answer: The 34 rows sum to 15,598, the same as the published population of Tullamore. The birthplace and citizenship tables count 15,412 usual residents instead, so they cannot be the base. Across all 867 towns the age-table total equals the published population every time.
-- **Step 2**: **Give every row one age.** A band holds many ages; the formula needs one. Our answer: There are 20 single years from 0 to 19, 13 five-year bands from 20 to 24 up to 80 to 84, and one open row, 85 and over, which holds 230 people in Tullamore and has no upper edge.
-- **Step 3**: **Choose how an age is counted.** Completed years, or the middle of the year. Our answer: In completed years somebody who is 38 counts as 38 and a band from 20 to 24 as 22. At the middle of the year the same person counts as 38.5, because on an average day a 38-year-old is halfway to 39, and the band counts as 22.5.
-- **Step 4**: **Compare, then widen.** One town can mislead; run all of them. Our answer: Round the result to one decimal, as the published figure is, test it against that figure, then repeat for all 867 towns and count how many come out exactly.
-
-**Tullamore's average age rebuilt two ways, with the 230 people aged 85 and over set at four assumed averages, against the published 38.1**
+Step 1**Match the population.** Add up the age table before anything else.The 34 rows sum to 15,598, the same as the published population of Tullamore. The birthplace and citizenship tables count 15,412 usual residents instead, so they cannot be the base. Across all 867 towns the age-table total equals the published population every time.Step 2**Give every row one age.** A band holds many ages; the formula needs one.There are 20 single years from 0 to 19, 13 five-year bands from 20 to 24 up to 80 to 84, and one open row, 85 and over, which holds 230 people in Tullamore and has no upper edge.Step 3**Choose how an age is counted.** Completed years, or the middle of the year.In completed years somebody who is 38 counts as 38 and a band from 20 to 24 as 22. At the middle of the year the same person counts as 38.5, because on an average day a 38-year-old is halfway to 39, and the band counts as 22.5.Step 4**Compare, then widen.** One town can mislead; run all of them.Round the result to one decimal, as the published figure is, test it against that figure, then repeat for all 867 towns and count how many come out exactly.
 
 | Oldest row at | Completed years | Middle of year | Gives 38.1 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 87 | 37.62 | 38.11 | Middle |
 | 88 | 37.63 | 38.13 | Middle |
 | 89 | 37.65 | 38.14 | Middle |
@@ -72,14 +55,14 @@ A reproduction is an experiment, not a formality. If every rebuilt value comes o
 
 In code the whole exercise is small. The learner writes one function that takes the band edges, the counts, a convention and a value for the open row, and returns an average. A second function rounds it to one decimal and compares it with the published figure. A loop sends all 867 towns through both and tallies exact matches, near misses and the direction of every miss. The table above is that program run on one town; the three findings are the same program run on every town. The learner then changes one thing at a time, the convention or the value for the oldest row, and watches the tally move, which is how a guess about how a number was made becomes evidence.
 
+What the table cannot hold
+
 ## Where grouping costs the most
 
 The towns that miss by more than a tenth are not random. Two of the largest misses show the two ways a band loses detail.
 
-**Rebuilt against published average age, middle-of-year counting, oldest row at 88**
-
 | Town | Population | Aged 85 and over | Rebuilt | Published |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Tyrrellspass, Co Westmeath | 480 | 51, one in ten | 49.91 | 50.3 |
 | Ballynoe, Co Cork | 211 | none | 36.23 | 36.0 |
 | Tullamore, Co Offaly | 15,598 | 230 | 38.13 | 38.1 |
@@ -96,16 +79,18 @@ Nobody in Ballynoe is 85 or over, yet the rebuilt average is 0.23 years out. The
 
 The towns that reproduce exactly have a median population of 772, the towns that miss about 440, and the 47 that miss by more than a tenth just 238. In a large town the errors inside each band tend to cancel, which is why Tullamore, with 15,598 people and 230 in the oldest row, comes out right for any average in that row from 85 to about 89.6.
 
-**What this page does not claim** The rebuild shows that the published averages behave as if ages were counted at the middle of the year. It does not show how the CSO computed them, and nothing here says the published figures are wrong: the misses are the size and the pattern that grouping alone would produce.
+What this page does not claim
+
+The rebuild shows that the published averages behave as if ages were counted at the middle of the year. It does not show how the CSO computed them, and nothing here says the published figures are wrong: the misses are the size and the pattern that grouping alone would produce.
+
+The town in the census
 
 ## Tullamore in the small area tables
 
 Published for the town Tullamore, Co Offaly, in the Census 2022 small area tables. Each table counts its own population, which is why two different totals appear.
 
-**Tullamore, Co Offaly, Census 2022**
-
 | Counted | Number |
-|---|---|
+| --- | --- |
 | Usual residents, birthplace table | 15,412 |
 | Population, age table | 15,598 |
 | Households | 5,601 |
@@ -127,7 +112,11 @@ Of 3,833 journeys to school, college or childcare, 1,772 are made as a car passe
 
 Asked the question directly, 1,353 working residents do at least some of their work from home, 4,349 never do and 755 left it blank.
 
-**Two named places** Irish Rail gives the station address as Iarnród Éireann, Kilcruttin, Tullamore, Co. Offaly, Eircode R35 RY63, and says sheltered bike parking is available there. The HSE lists Midland Regional Hospital Tullamore at Arden Road, Tullamore, Offaly, R35 NY51. Neither has any connection with us.
+Two named places
+
+Irish Rail gives the station address as Iarnród Éireann, Kilcruttin, Tullamore, Co. Offaly, Eircode R35 RY63, and says sheltered bike parking is available there. The HSE lists Midland Regional Hospital Tullamore at Arden Road, Tullamore, Offaly, R35 NY51. Neither has any connection with us.
+
+Learning here
 
 ## Lessons for Tullamore learners
 
@@ -147,14 +136,37 @@ Retired, working shifts or back at a desk after years away, adults start from wh
 
 Census counts are Central Statistics Office figures printed as published, and every rebuilt average on this page came from running the reconstruction over the published age table and table F1015 on 19 September 2026. Irish Rail and the HSE are quoted from their own pages and have no link with us.
 
+Learning ladder
+
 ## From counting things to checking a statistic
 
 Ages are a starting guide; the first lesson finds the real level.
 
-- **Ages 6 to 10: Sort and count** Block-coded games that sort things into groups and count them, the first step towards any table. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Averages by program** Writing code that works out an average, then checking it by hand and finding out when the two disagree. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 14 to 18: Rebuild a statistic** Loading real tables in Python, reproducing a published figure and explaining any gap. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **Ages 18 to 67: Check before citing** Tracing a figure at work back to its table, and saying plainly what it can and cannot support. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Sort and count
+
+Block-coded games that sort things into groups and count them, the first step towards any table.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Averages by program
+
+Writing code that works out an average, then checking it by hand and finding out when the two disagree.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### Rebuild a statistic
+
+Loading real tables in Python, reproducing a published figure and explaining any gap.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)Ages 18 to 67
+
+### Check before citing
+
+Tracing a figure at work back to its table, and saying plainly what it can and cannot support.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## Ask an assistant how old Tullamore is
 
@@ -166,30 +178,139 @@ A learner who has done this project asks for the code, runs it, compares the res
 
 The arithmetic is cheap now. Knowing which arithmetic produced a published number still takes a person who checks. The longer argument is in [why learning to code keeps its worth](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How Tullamore lessons run
 
 The arrangements, in brief.
 
-- **Live, not recorded** A teacher runs each lesson in real time and responds to the code in front of the learner.
-- **Matched groups** Fifteen to twenty learners at one stage, drawn from Offaly, the rest of Ireland and other countries.
-- **Twice most weeks** About eight lessons a month, on days and at an hour agreed at the start.
-- **Fitted to the school year** The plan allows for mid-terms, holidays and the weeks before exams.
-- **At home** A keyboard and a screen wide enough for code beside a video window, a headset or speakers with a microphone, and the ordinary home broadband that 4,530 households here already have.
-- **Taught alone** Some learners are taught on their own, usually because the group at their level meets when they cannot, or because they are ahead of every group running.
+### Live, not recorded
 
-**Nothing to travel to** Lessons reach Tullamore over video only. There is no classroom in the town, and the same lesson reaches Clara, Kilbeggan or anywhere else with a connection.
+A teacher runs each lesson in real time and responds to the code in front of the learner.
+
+### Matched groups
+
+Fifteen to twenty learners at one stage, drawn from Offaly, the rest of Ireland and other countries.
+
+### Twice most weeks
+
+About eight lessons a month, on days and at an hour agreed at the start.
+
+### Fitted to the school year
+
+The plan allows for mid-terms, holidays and the weeks before exams.
+
+### At home
+
+A keyboard and a screen wide enough for code beside a video window, a headset or speakers with a microphone, and the ordinary home broadband that 4,530 households here already have.
+
+### Taught alone
+
+Some learners are taught on their own, usually because the group at their level meets when they cannot, or because they are ahead of every group running.
+
+Nothing to travel to
+
+Lessons reach Tullamore over video only. There is no classroom in the town, and the same lesson reaches Clara, Kilbeggan or anywhere else with a connection.
+
+Fees
 
 ## Fees for Tullamore
 
 All of it, in one place.
 
-- First class: USD 0. A complete first lesson with a level assessment, at no charge.
-- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at the same stage, about eight live lessons.
-- Private tuition: USD 150 a month. A month of one-to-one lessons on the same weekly pattern.
+First class**USD 0**
+
+A complete first lesson with a level assessment, at no charge.
+
+Group tuition**USD 100**
+
+A month in a group of fifteen to twenty at the same stage, about eight live lessons.
+
+Private tuition**USD 150**
+
+A month of one-to-one lessons on the same weekly pattern.
 
 Nothing is owed for the opening hour; the month begins when the first paid lesson does, at the one US dollar rate used for every country outside India, and the pricing page sets out what happens over holidays, after a missed lesson or on moving between group and private.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Tullamore.)Reviews
+
+## Six Google reviews from our families, quoted in full
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free first lesson from Tullamore
+
+Tell us the learner's age and what they enjoy, and the first hour is planned around it. It may end with a game, a first program, or an average that finally matches the published one.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Tullamore one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Tullamore.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Tullamore coding class questions
+
+The questions Tullamore families put to us first.
 
 ### How many people live in Tullamore?
 
@@ -231,10 +352,14 @@ The first lesson is free. After that a shared place costs USD 100 a month and br
 
 Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
+Explore Ireland
+
 ## Beyond Tullamore
 
 Next door in the series are the [County Offaly](/coding-classes-in-county-offaly) page and the midland town pages for [Portlaoise](/best-coding-class-in-portlaoise), [Mullingar](/best-coding-class-in-mullingar) and [Athlone](/best-coding-class-in-athlone), all within [Leinster](/coding-and-ai-classes-in-leinster). For a side-by-side look at online coding schools there is [a separate comparison](/best-online-coding-classes-ireland), and every county and town in the series is listed from the [Ireland hub](/coding-classes-in-ireland).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Tullamore.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-tullamore](https://learn.modernagecoders.com/best-coding-class-in-tullamore#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-tullamore*

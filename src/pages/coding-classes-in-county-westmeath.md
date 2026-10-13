@@ -4,46 +4,32 @@ description: "Live online coding, Python and AI classes across County Westmeath,
 canonical: https://learn.modernagecoders.com/coding-classes-in-county-westmeath
 source: src/pages/coding-classes-in-county-westmeath.html
 ---
-> Westmeath holds 96,221 people, up 8% since 2016, spread between two towns of almost identical size and a great deal of lake and farmland. Home working is low here at 26% against a national 32%, so most families need an evening class rather than an afternoon one, and few of them live near a centre that runs one. That is precisely the gap a live online class fills: the same teacher, the same hour every week, whether a learner is in Mullingar, Moate or out towards Lough Ree. We teach ages 6 to 67, in ability groups of fifteen to twenty or one to one. The first lesson costs nothing; then a group place is USD 100 a month and a private one USD 150.
+> Live online coding, Python and AI classes across County Westmeath, from Mullingar and Athlone to Moate and Kinnegad, ages 6 to 67. The first lesson is free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / County Westmeath
-
-County Westmeath, Leinster / Live online
-
-# Coding classes in County Westmeath
-
-**What are the best coding classes in County Westmeath?** Westmeath holds 96,221 people, up 8% since 2016, spread between two towns of almost identical size and a great deal of lake and farmland. Home working is low here at 26% against a national 32%, so most families need an evening class rather than an afternoon one, and few of them live near a centre that runs one. That is precisely the gap a live online class fills: the same teacher, the same hour every week, whether a learner is in Mullingar, Moate or out towards Lough Ree. We teach ages 6 to 67, in ability groups of fifteen to twenty or one to one. The first lesson costs nothing; then a group place is USD 100 a month and a private one USD 150.
-
-Westmeath County Council publishes a list of its 49 recycling bring banks, and it is a tidy file: no duplicate rows, sensible coordinates, a column for each material. Four of the five material columns say YES on every single site. The fifth, for textiles, is more interesting. Forty-two sites say YES. Six say NO, meaning the council has confirmed that site does not take textiles. And one site, at Horseleap, says nothing at all: the cell is empty. Those last two are not the same thing, and no ordinary piece of code will tell them apart unless somebody thought about it first. Ask for the sites that take textiles and you get 42. Ask for the sites that do not and you get six, or seven, depending entirely on how your code treats an empty cell. One bring bank in the county falls into the gap between confirmed absent and never recorded, and finding it is the best half hour a young data learner here can spend.
-
-Facts last verified 16 September 2026. Teaching is online; no County Westmeath branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for County Westmeath
 
 ## Four courses for the midlands
 
 Go by what the learner wants to build, not by the age on the label. Each option opens with a free lesson, taught live, with no card details taken.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Blocks and first programs, where a missing answer and the answer no have to be handled differently.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): First typed Python for a learner ready to leave blocks behind, reading real council files rather than invented ones.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): Forty-nine recycling points, one empty cell, and two defensible answers to the same question.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): For adults working with records: code that refuses to treat a blank as a decision.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlocks and first programs, where a missing answer and the answer no have to be handled differently.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsFirst typed Python for a learner ready to leave blocks behind, reading real council files rather than invented ones.See the syllabus](/courses/python-ai-kids-masterclass)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensForty-nine recycling points, one empty cell, and two defensible answers to the same question.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CourseFor adults working with records: code that refuses to treat a blank as a decision.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)The county today
 
 ## Two towns of the same size, one of them in two counties
 
 Westmeath is unusual in having its two largest towns within a couple of hundred people of each other, and in one of them not being entirely its own.
 
-**County Westmeath in Census 2022, Central Statistics Office**
-
 | Measure | Figure |
-|---|---|
+| --- | --- |
 | Population | 96,221, up 8% or 7,451 since 2016 |
 | Average age | 38.6 years, against 38.8 nationally |
 | Aged 65 and over | 14,369, an increase of 26% |
@@ -65,6 +51,8 @@ Kinnegad, at 3,064 people, has an average age of 34.1, the youngest of any Westm
 
 Where people come from is worth a line of its own. Just over half of Westmeath residents, 52% or 50,115 people, were born in the county; 29% were born elsewhere in Ireland; and 18%, some 17,565 people, were born outside the State, up from 16% in 2016. The largest non-Irish groups are Polish at 1,832, UK at 1,357, Indian at 1,034 and Lithuanian at 1,005. One small honesty note: the statistics office puts the non-Irish share at 11% in one release and 12% in another, and we quote both rather than choose.
 
+Computer Science in Westmeath schools
+
 ## Two schools, one in each town
 
 Westmeath did better than several larger counties when Leaving Certificate Computer Science began in September 2018.
@@ -83,16 +71,18 @@ We teach the programming, data handling and problem solving the subject assumes,
 
 After school, the county holds a university campus. The Technological University of the Shannon gives its Athlone address as University Road, Athlone, N37 HD68, and it is the natural local route into a computing degree for students on the western side of the county. The council's own records confirm two routing keys across Westmeath: N37 at the Athlone Civic Centre on Church Street, and N91 at County Buildings on Mount Street in Mullingar, which is a neat reminder that a county of this size can still be split down the middle by something as ordinary as a postcode.
 
-**Work in the county** Unemployment fell from 16% to 9% between censuses, with more than 4,400 people unemployed in April 2022, a drop of 34%. Labour force participation is 61%, exactly the national figure. The largest employing sectors are wholesale and retail at almost 5,400 workers, health and social work at just over 5,100, and manufacturing at more than 4,500.
+Work in the county
+
+Unemployment fell from 16% to 9% between censuses, with more than 4,400 people unemployed in April 2022, a drop of 34%. Labour force participation is 61%, exactly the national figure. The largest employing sectors are wholesale and retail at almost 5,400 workers, health and social work at just over 5,100, and manufacturing at more than 4,500.
+
+Signature project
 
 ## Where one bring bank disappears
 
 A short, complete dataset, published by the county itself with an admirably honest disclaimer, and exactly one cell that changes the answer.
 
-**What we measured in the published file, read 16 September 2026**
-
 | Value in the textiles column | Sites | What it means |
-|---|---|---|
+| --- | --- | --- |
 | YES | 42 | The council records textile recycling at this site |
 | NO | 6 | The council records that this site does not take textiles |
 | An empty cell | 1, at Horseleap | Nothing was recorded either way |
@@ -117,14 +107,14 @@ It is worth saying what this file gets right, because most of our other county p
 
 The output is a count of sites offering textile recycling, a count of those confirmed not to, a count of those unrecorded, and a sentence explaining why the third number exists. A learner who produces that has understood something most adults handling spreadsheets never do.
 
+Blanks are not answers
+
 ## Five rules for missing values
 
 The most common source of quietly wrong analysis, and the easiest to guard against once you have been caught by it.
 
-**Handling what is not there**
-
 | Rule | In practice | What it prevents |
-|---|---|---|
+| --- | --- | --- |
 | Count the blanks first | Report how many cells are empty before doing anything else | Silent conversion of unknowns into answers |
 | Keep three categories | Yes, no and not recorded, never two | A blank becoming a decision nobody made |
 | Never fill without saying so | If you must substitute a value, state it in the write-up | Invisible assumptions inside a result |
@@ -145,6 +135,8 @@ The same rules on work records, where blanks in a status column are the usual ca
 
 We have no connection with Westmeath County Council, the Technological University of the Shannon or either school named here. Census figures are the Central Statistics Office's for 2022, and the counts from the recycling file are ours, taken from the council's published data under its Creative Commons Attribution licence.
 
+Living in the county
+
 ## Two routing keys, two lakes and a long drive to anywhere
 
 Westmeath sits in the middle of Ireland, which is convenient for crossing and awkward for getting to a class.
@@ -161,16 +153,41 @@ Of 3,390 third-level students commuting, driving was the most popular option at 
 
 3,028 people moved into the county in the year before the census, 1,748 from elsewhere in Ireland and 1,280 from outside the State, while dual Irish citizenship rose from 1,826 to 3,180. The county also recorded 974 Irish Travellers, down 3% on 2016.
 
-**Why 26% matters here** Only 26% of the Westmeath workforce works from home at least one day a week, against 32% nationally, so most households have both parents out of the house until the evening. The classes that fill first here are the later ones, and they are the ones we open first.
+Why 26% matters here
+
+Only 26% of the Westmeath workforce works from home at least one day a week, against 32% nationally, so most households have both parents out of the house until the evening. The classes that fill first here are the later ones, and they are the ones we open first.
+
+Learning ladder
 
 ## From a blank answer to a defensible count
 
 Ages here are only indicative. The free lesson settles where a learner actually starts.
 
-- **Ages 6 to 10: Nothing is not no** Programs that tell the difference between an empty answer and a negative one. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Counting carefully** Opening real files, counting categories and noticing the rows that fit none of them. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Missing data** Handling blanks honestly, reporting three categories and defending the choice in writing. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Rules in code** Writing checks that refuse to fill a blank silently, and run before anyone sees a result. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Nothing is not no
+
+Programs that tell the difference between an empty answer and a negative one.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Counting carefully
+
+Opening real files, counting categories and noticing the rows that fit none of them.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Missing data
+
+Handling blanks honestly, reporting three categories and defending the choice in writing.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Rules in code
+
+Writing checks that refuse to fill a blank silently, and run before anyone sees a result.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## An assistant will answer this in one line. Why should a Mullingar teenager count three ways?
 
@@ -182,30 +199,139 @@ What a learner brings is the willingness to keep a third category and to write d
 
 So a Westmeath child learning to code in 2026 is learning to notice what is absent, which is a harder and more useful habit than noticing what is there. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Mullingar, Athlone, Moate or out by the lakes
 
 This is a wide county with two centres at opposite ends, which makes any class held in a room inconvenient for half the population.
 
-- **Both ends at once** A learner in Athlone and one in Kinnegad sit in the same group, which no room in either town could manage on a weekday evening.
-- **Irish school stages** Junior Cycle, Transition Year, fifth and sixth year, named the way the family and the school name them.
-- **A free lesson that counts** Real teaching on a real task, closing with a level, a course and an hour, and no request for card details.
-- **Sorted by ability** Fifteen to twenty learners at one level, drawn from Westmeath and several other countries so each level meets at a workable hour.
-- **Weekly and fixed** Two lessons in most weeks, around eight a month, at the same hour, with pauses for mid-terms and exams agreed in advance.
-- **The clocks** India holds one time all year while Ireland changes twice, so our teachers are four and a half hours ahead in summer and five and a half in winter.
+### Both ends at once
 
-**A county where the car is the commute** With 24,378 people driving to work and only 339 taking a train, Westmeath families organise their evenings around the car. A class that needs no journey at all is worth more here than a slightly cheaper one that does.
+A learner in Athlone and one in Kinnegad sit in the same group, which no room in either town could manage on a weekday evening.
+
+### Irish school stages
+
+Junior Cycle, Transition Year, fifth and sixth year, named the way the family and the school name them.
+
+### A free lesson that counts
+
+Real teaching on a real task, closing with a level, a course and an hour, and no request for card details.
+
+### Sorted by ability
+
+Fifteen to twenty learners at one level, drawn from Westmeath and several other countries so each level meets at a workable hour.
+
+### Weekly and fixed
+
+Two lessons in most weeks, around eight a month, at the same hour, with pauses for mid-terms and exams agreed in advance.
+
+### The clocks
+
+India holds one time all year while Ireland changes twice, so our teachers are four and a half hours ahead in summer and five and a half in winter.
+
+A county where the car is the commute
+
+With 24,378 people driving to work and only 339 taking a train, Westmeath families organise their evenings around the car. A class that needs no journey at all is worth more here than a slightly cheaper one that does.
+
+Fees
 
 ## What classes cost in County Westmeath
 
 Three figures, and that is the whole of it.
 
-- First class: USD 0. One full lesson free, ending with a level named and a course recommended.
-- Group tuition: USD 100 a month. A month of classes, normally eight, with fifteen to twenty learners of similar ability.
-- Private tuition: USD 150 a month. The same month of classes, with the teacher working with a single learner.
+First class**USD 0**
+
+One full lesson free, ending with a level named and a course recommended.
+
+Group tuition**USD 100**
+
+A month of classes, normally eight, with fifteen to twenty learners of similar ability.
+
+Private tuition**USD 150**
+
+The same month of classes, with the teacher working with a single learner.
 
 Billing is monthly in US dollars at the one rate charged outside India, so Moate pays what Mullingar pays and there is no euro list. Nothing is charged until the free lesson has settled a course and a weekly hour, and the pricing page covers pauses, missed lessons and changing format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20County%20Westmeath.)Reviews
+
+## Six Google reviews from our families, printed unedited
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us about the learner
+
+The first task fits the person: a blank-versus-no quiz for a young child, a first file opened in code for the middle years, or the Horseleap puzzle for a teenager.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented County Westmeath one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20County%20Westmeath.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## County Westmeath coding class questions
+
+What families in the midlands ask before booking.
 
 ### How many people live in County Westmeath?
 
@@ -247,10 +373,14 @@ The first lesson is free. Continuing costs USD 100 a month for a shared place, w
 
 Fifteen to twenty, grouped on ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
+Explore Ireland
+
 ## Across the midlands
 
 East of here, [County Meath](/coding-classes-in-county-meath) and [County Kildare](/coding-classes-in-county-kildare) have pages of their own, and south lies [County Laois](/coding-classes-in-county-laois). For choosing between online schools, read [best online coding classes in Ireland](/best-online-coding-classes-ireland). Everything is gathered on the [Ireland coding page](/coding-classes-in-ireland).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20County%20Westmeath.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-county-westmeath](https://learn.modernagecoders.com/coding-classes-in-county-westmeath#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-county-westmeath*

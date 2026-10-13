@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes in Dordrecht for ages 6 
 canonical: https://learn.modernagecoders.com/coding-classes-in-dordrecht
 source: src/pages/coding-classes-in-dordrecht.html
 ---
-> Coding classes in Dordrecht serve 122,991 people (Statistics Netherlands, 1 January 2026) on an island that is 22 percent water by area, in a municipality that calls itself the oldest city of Holland. The flood that made it an island in 1421 is remembered with a death toll of about two thousand, a legend that inflated it to a hundred thousand, and a modern reading of the evidence that puts the deaths in the Grote Waard at about a dozen. Six centuries of repetition produced none of that certainty. Wherever on the island a learner sits, Modern Age Coders reaches them live and in English, at any age from 6 up to 67. Nothing is charged for the first hour. Beyond it the fee is USD 100 a month for a group of fifteen to twenty, or USD 150 for one-to-one work.
+> Live online coding, Python and AI classes in Dordrecht for ages 6 to 67, across the whole Island of Dordrecht. First lesson free, then one flat monthly fee.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Dordrecht
-
-Dordrecht, Zuid-Holland / Live online
-
-# Coding classes in Dordrecht, where one flood has three death tolls and they differ by a factor of eight thousand
-
-**What are the best coding classes in Dordrecht?** Coding classes in Dordrecht serve 122,991 people (Statistics Netherlands, 1 January 2026) on an island that is 22 percent water by area, in a municipality that calls itself the oldest city of Holland. The flood that made it an island in 1421 is remembered with a death toll of about two thousand, a legend that inflated it to a hundred thousand, and a modern reading of the evidence that puts the deaths in the Grote Waard at about a dozen. Six centuries of repetition produced none of that certainty. Wherever on the island a learner sits, Modern Age Coders reaches them live and in English, at any age from 6 up to 67. Nothing is charged for the first hour. Beyond it the fee is USD 100 a month for a group of fifteen to twenty, or USD 150 for one-to-one work.
-
-How many people drowned here in November 1421? The traditional answer is two thousand, hedged in its own source with the words as they say. A later legend raised it to a hundred thousand. Modern analysis of the evidence puts the deaths in the Grote Waard at roughly a dozen. Nothing new was discovered to make the first number two thousand; it was written down, copied, and copied again, and each retelling made it more solid rather than better attested. Counting citations is not counting evidence, and a child who learns that early is protected for life.
-
-Facts last verified 8 September 2026. Teaching is online; no Dordrecht branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Dordrecht
 
 ## Four courses for a city that has been arguing about its own records since 1618
 
 A groep 5 child in Sterrenburg, a teenager in Dubbeldam who would rather check a claim than repeat it, an adult in the old harbour retraining, and a parent in Stadspolders whose reports cite figures nobody can trace: four doors on one island.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Typed Python, turtle drawings and a first program that learns a rule, in English, for the groep 5 to 8 child anywhere on the island.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Two years from a blank file to real projects, for the teenager whose school offers no timetabled route into programming.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 17): Python and real datasets to a first trained model, for the teenager who wants to trace a number to where it came from.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (Adults): Excel, SQL, Python and BI, for the working parent whose sources all agree because they all copied the same one.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsTyped Python, turtle drawings and a first program that learns a rule, in English, for the groep 5 to 8 child anywhere on the island.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensTwo years from a blank file to real projects, for the teenager whose school offers no timetabled route into programming.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 17Data Science for TeensPython and real datasets to a first trained model, for the teenager who wants to trace a number to where it came from.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)AdultsData Analysis CourseExcel, SQL, Python and BI, for the working parent whose sources all agree because they all copied the same one.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Dordrecht today
 
 ## A whole island in one municipality, a fifth of it water
 
@@ -52,7 +40,11 @@ The national register held 122,991 people on 1 January 2026, in 57,807 household
 
 Its entry says so directly, and dates the confirmation of city rights by Count Willem the First to 1220, after earlier charters granted around 1195 and 1205. Note that the claim is about Holland rather than about the Netherlands, which is a different competition and one this cluster settles elsewhere.
 
-**An island by accident, and a synod** The municipality covers the entire Island of Dordrecht, the Eiland van Dordrecht, about 9,000 hectares. The island exists because of the St Elizabeth floods, the Sint-Elisabethsvloed of 1421 and a second in 1424, which put the city on water it had not been on before. In 1618 and 1619 the Synod of Dordrecht met here, setting the Remonstrants against the Counter-Remonstrants and commissioning the translation that became the Statenbijbel of 1637.
+An island by accident, and a synod
+
+The municipality covers the entire Island of Dordrecht, the Eiland van Dordrecht, about 9,000 hectares. The island exists because of the St Elizabeth floods, the Sint-Elisabethsvloed of 1421 and a second in 1424, which put the city on water it had not been on before. In 1618 and 1619 the Synod of Dordrecht met here, setting the Remonstrants against the Counter-Remonstrants and commissioning the translation that became the Statenbijbel of 1637.
+
+Where the learners are
 
 ## One island, fourteen wijken, one bridge north
 
@@ -84,6 +76,8 @@ The polders south and east of the built-up area, farmland and nature inside the 
 
 All fourteen wijken get the same class at the same hour and the same fee, and stage rather than address decides which group a learner joins.
 
+Verified local facts
+
 ## Every figure and its source, and the three death tolls quoted exactly
 
 The national count, the municipal entry, the flood entry, the synod and the city rights.
@@ -114,6 +108,8 @@ The Synod of Dordrecht met in 1618 and 1619, setting Remonstrants against Counte
 
 Modern Age Coders has no connection to the municipality or any school named here and claims none. The three casualty figures are quoted exactly as the entry gives them, including its own hedges, and this page does not choose between them.
 
+Signature project
+
 ## Two thousand, a hundred thousand, or a dozen: build the habit of tracing a number to its source
 
 One night in 1421, three figures separated by nearly four orders of magnitude, and a lesson about what repetition does and does not prove.
@@ -130,10 +126,8 @@ The learner separates the question of what a figure says from the question of ho
 
 A figure repeated in a hundred books may descend from one manuscript, and search results measure how often a claim has been copied rather than how well it is attested. The learner writes the rule down: before believing a number, find the earliest thing that says it, and count how many independent things say it after that.
 
-**One night in November 1421, three published figures**
-
 | Figure | Where it comes from | How it is supported | What it can be used for |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | About a dozen deaths in the Grote Waard | modern analysis, per the same entry | reasoning from evidence about the ground and the settlements | a working estimate, open to revision |
 | Two thousand drowned | the traditional account | the entry itself says people are said to have drowned | a record of what has been believed |
 | A hundred thousand drowned | later legend, per the same entry | nothing offered | a fact about the legend, not the flood |
@@ -143,14 +137,14 @@ A figure repeated in a hundred books may descend from one manuscript, and search
 
 Numbers travel better than the reasons for them. A figure written once in a chronicle gets copied into a history, then into a schoolbook, then into a thousand pages, and at every step the hedge that came with it falls away a little more, until it is quoted flatly by people who have never seen the original and reasonably assume somebody else has. The defences are unglamorous. Find the earliest source that states the figure. Ask whether later sources are independent of it or descended from it. Keep the hedge that the original carried, because as they say is part of the claim rather than decoration. And treat a very round, very large number about a very old event as a hypothesis about human memory rather than a measurement. Every figure in the table above is quoted from the entries named in the evidence for this page, including the hedges, and none is preferred here.
 
+Reliable pipeline
+
 ## Five habits for a figure everybody already knows
 
 Nine out of ten dentists, most of the brain unused, a statistic in a slide deck with no footnote: the most confidently repeated numbers are often the least attested. Practised on a night this city has remembered for six hundred years.
 
-**When a number arrives already famous**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Find the earliest statement | Follow the citations back until they stop | A chain mistaken for a consensus | The actual origin of the claim |
 | Test independence | Ask whether each source could have got it from the last | A hundred copies counted as a hundred witnesses | The real number of sources, often one |
 | Keep the hedge | Carry as they say, about and estimated through every retelling | An estimate hardening into a fact | A claim as strong as its evidence |
@@ -171,14 +165,37 @@ The same trace on a figure that circulates inside your own organisation: a marke
 
 The population, household, area, school and synod figures come from the offices and entries named beside them. The three casualty figures and the village estimate are quoted from a single entry that carries all of them, with its own hedges preserved, and no arithmetic is performed on any of them.
 
+Learning ladder
+
 ## From a whispered message to a citation trace that ends at one page
 
 The starting rung is settled in the free hour, and the wijk on the address plays no part.
 
-- **Ages 6 to 10: Where did you hear that?** Children pass a message along and discover confidence survives better than accuracy. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 11 to 13: Sources and copies** Learners sort a pile of claims into originals and repetitions. [Maths Through Coding](/courses/maths-through-coding), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 14 to 18: Independence, hedges and roots** Teenagers build the trace tool and count how many independent roots a famous figure really has. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Benchmarks at work** Adults trace a number their team relies on back to whatever it actually came from. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Ages 6 to 10
+
+### Where did you hear that?
+
+Children pass a message along and discover confidence survives better than accuracy.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 11 to 13
+
+### Sources and copies
+
+Learners sort a pile of claims into originals and repetitions.
+
+[Maths Through Coding](/courses/maths-through-coding)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 14 to 18
+
+### Independence, hedges and roots
+
+Teenagers build the trace tool and count how many independent roots a famous figure really has.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Benchmarks at work
+
+Adults trace a number their team relies on back to whatever it actually came from.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)Coding and AI
 
 ## An AI will tell you two thousand people drowned in 1421. Why should a child in Dordrecht learn to ask who counted?
 
@@ -190,30 +207,139 @@ So the learner builds the trace instead of accepting the total. The work is ungl
 
 The case for a Dordrecht child learning to code in 2026 is therefore nothing to do with medieval floods. It is that the most confidently held numbers are often the least examined, that tracing one to its origin is a skill rather than a talent, and that this city keeps an unusually clear example of it in its own history. The longer argument is in [the argument for a child writing code in an age of AI](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for a city with water on every side
 
 The island has one main crossing north and the traffic knows it. Nothing on this page requires anybody to use it.
 
-- **No bridge, no tunnel, no queue** The lesson happens at the kitchen table in Sterrenburg, Dubbeldam or the old harbour at one fixed hour a week.
-- **A lesson in English that keeps the school's Dutch** The teaching happens in English. Four words are left exactly as a Dutch school prints them, groep and havo and vwo and profielkeuze, so a child never has to guess which term the teacher means.
-- **One free hour, three decisions** By the end of it the teacher knows what the learner can do, the learner has a course with a name, and the week has a slot in it. Not one of those steps involves a card.
-- **Stage sets the group** Two learners at the same point work together whichever wijk they live in, and two at different points do not.
-- **Twice weekly, on the middle calendar** Two lessons a week at one repeating slot, eight in most months. Dordrecht takes its holidays with regio Midden along with the rest of Zuid-Holland, and weeks away are written in first.
-- **Winter adds an hour to the distance** One country moves its clocks and the other never has, which leaves the teacher three and a half hours in front through the summer and four and a half through the winter. Anything after school and before bedtime lands inside both working days, as does either weekend day.
+### No bridge, no tunnel, no queue
 
-**Almost nothing to study here after school** Only 804 students are counted at institutions in the municipality, while 3,440 residents are registered in higher education somewhere. Dordrecht sends its students to Rotterdam and beyond, and a class that arrives through the connection is one of very few things on this island that does not require the crossing.
+The lesson happens at the kitchen table in Sterrenburg, Dubbeldam or the old harbour at one fixed hour a week.
+
+### A lesson in English that keeps the school's Dutch
+
+The teaching happens in English. Four words are left exactly as a Dutch school prints them, groep and havo and vwo and profielkeuze, so a child never has to guess which term the teacher means.
+
+### One free hour, three decisions
+
+By the end of it the teacher knows what the learner can do, the learner has a course with a name, and the week has a slot in it. Not one of those steps involves a card.
+
+### Stage sets the group
+
+Two learners at the same point work together whichever wijk they live in, and two at different points do not.
+
+### Twice weekly, on the middle calendar
+
+Two lessons a week at one repeating slot, eight in most months. Dordrecht takes its holidays with regio Midden along with the rest of Zuid-Holland, and weeks away are written in first.
+
+### Winter adds an hour to the distance
+
+One country moves its clocks and the other never has, which leaves the teacher three and a half hours in front through the summer and four and a half through the winter. Anything after school and before bedtime lands inside both working days, as does either weekend day.
+
+Almost nothing to study here after school
+
+Only 804 students are counted at institutions in the municipality, while 3,440 residents are registered in higher education somewhere. Dordrecht sends its students to Rotterdam and beyond, and a class that arrives through the connection is one of very few things on this island that does not require the crossing.
+
+Fees
 
 ## The fee, in dollars, everywhere on the island
 
 Printed here rather than saved for a phone call.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 A single international rate applies and it is a dollar figure, with no euro list, so every address on the island sees the same number. Nothing is collected before the free lesson has produced a course and a time, and payment then goes through WhatsApp. Pausing, changing plan and missing a week each have their own paragraph on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Dordrecht.)Reviews
+
+## Six Google reviews, printed as their authors typed them
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us where the learner is; the address is not needed
+
+The first task might be a message whispered down a line, a citation trace that ends at one page, or a benchmark at work whose trail stops at a slide by somebody who has left.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Dordrecht one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Dordrecht.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Dordrecht coding class questions
+
+The city, its island, its records, the teaching and the terms.
 
 ### How many people really died in the St Elizabeth flood?
 
@@ -255,10 +381,14 @@ The first lesson is free. Group tuition is USD 100 a month for two live lessons 
 
 Between five and ten, matched on level, pace and goal rather than on age, school or wijk. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.
 
+Explore the Netherlands
+
 ## North across the water, out to the province, and up to the country
 
 North across the rivers is [Rotterdam](/coding-classes-in-rotterdam), and Dordrecht is the fifth municipality of [Zuid-Holland](/coding-classes-in-zuid-holland), whose page is about a region nobody ever drew a boundary for. The argument about which town is the oldest in the country is on the [Nijmegen](/coding-classes-in-nijmegen) page. Sitting at the head of it all is the [Netherlands coding hub](/coding-classes-in-netherlands). Two more pages exist for anyone who turns out to want trained models instead of running programs: [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) and the [AI and Python Academy](/ai-and-python-academy-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Dordrecht.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-dordrecht](https://learn.modernagecoders.com/coding-classes-in-dordrecht#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-dordrecht*

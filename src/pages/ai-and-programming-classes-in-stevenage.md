@@ -4,46 +4,32 @@ description: "Online AI, programming, Python and coding classes for Stevenage ch
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-stevenage
 source: src/pages/ai-and-programming-classes-in-stevenage.html
 ---
-> The 2021 census counted 89,501 people in Stevenage borough, and the ONS puts the Stevenage built-up area, which spreads a little past the borough edge, at 94,470. The single most common ages in the borough are 30 to 34, and children aged 5 to 10 are 8.0 per cent of residents against 7.2 per cent in England. From India, our tutors teach AI, programming, Python and maths over live video to learners aged 6 to 67, in private lessons or groups of fifteen to twenty at the same stage. A no-charge opening lesson settles which course comes next. The Stevenage project turns the town's census into a program that answers questions instantly. Staying on means USD 100 monthly for a group place or USD 150 monthly for a personal tutor.
+> Online AI, programming, Python and coding classes for Stevenage children, teenagers and adults aged 6 to 67, live one-to-one or in small groups. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [East of England](/coding-and-ai-classes-in-east-of-england) / Stevenage
-
-Stevenage, Hertfordshire, England / Live online
-
-# AI and programming classes in Stevenage
-
-**Where can Stevenage learners find the best AI and programming classes?** The 2021 census counted 89,501 people in Stevenage borough, and the ONS puts the Stevenage built-up area, which spreads a little past the borough edge, at 94,470. The single most common ages in the borough are 30 to 34, and children aged 5 to 10 are 8.0 per cent of residents against 7.2 per cent in England. From India, our tutors teach AI, programming, Python and maths over live video to learners aged 6 to 67, in private lessons or groups of fifteen to twenty at the same stage. A no-charge opening lesson settles which course comes next. The Stevenage project turns the town's census into a program that answers questions instantly. Staying on means USD 100 monthly for a group place or USD 150 monthly for a personal tutor.
-
-How many people in Stevenage are aged 11 to 15? How many are between 6 and 67, the ages we teach? The census gives 101 numbers for the borough, one for every age from under 1 to 100 and over, and any such question means adding a run of them. A first program simply loops through the run each time. That is fine for one question and painfully slow for thousands. There is a classic trick, used inside databases and spreadsheets, that answers every possible age-range question with just two lookups and one subtraction. It is called a prefix sum, and a Stevenage learner can build it in a few lines of Python, then meet the off-by-one mistake that catches almost everyone the first time.
-
-Facts last verified 27 September 2026. Teaching is online; no Stevenage branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentStevenage course picks
 
 ## First courses for Stevenage learners
 
 Choose by age and interest. The opening live lesson of every course is free, with no card needed.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 9): Block coding with counters, lists and quick-answer games.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 9 to 12): A first real language, with small AI projects.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): In-depth Python for teenagers, including the prefix sum project.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Adults and students): Python for adults from zero, up to algorithms and data.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 9Coding for KidsBlock coding with counters, lists and quick-answer games.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 9 to 12Python and AI for KidsA first real language, with small AI projects.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensIn-depth Python for teenagers, including the prefix sum project.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)Adults and studentsPython MasterclassPython for adults from zero, up to algorithms and data.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Stevenage by age
 
 ## A borough full of thirty-somethings
 
 Age ranges for Stevenage worked out from the 2021 census single-year table on Nomis, England alongside.
 
-**Stevenage borough and England, age ranges from Census 2021 TS007 single years (our sums)**
-
 | Ages | Stevenage residents | Stevenage % | England % |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 5 to 10 | 7,125 | 8.0% | 7.2% |
 | 11 to 15 | 5,516 | 6.2% | 6.0% |
 | 16 and 17 | 2,043 | 2.3% | 2.3% |
@@ -57,16 +43,16 @@ Children aged 5 to 10 are more common than nationally, older residents less so, 
 
 Our [Hertfordshire](/coding-classes-in-hertfordshire) page covers the county, and the [East of England](/coding-and-ai-classes-in-east-of-england) page links the region.
 
+The Stevenage project
+
 ## Prefix sums on the Stevenage census
 
 Build one running list once, then answer any range with a subtraction.
 
 The learner downloads the 101 single-year counts for Stevenage into a Python list called ages, where ages[0] is babies under one and ages[100] is everyone aged 100 or more. The slow way to answer "how many are 11 to 15?" is to loop from index 11 to 15 and add. The prefix sum way builds a second list, P, once: P[0] is 0, and each P[i+1] is P[i] plus ages[i]. After that, the count for ages a to b is P[b+1] minus P[a], two lookups however wide the range.
 
-**Our Python comparison for Stevenage, 27 September 2026**
-
 | Task | Loop every time | Prefix sums | Note |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Six age-range questions | 118 additions | 101 to build, 12 lookups | Already faster |
 | All 5,151 possible age ranges | 176,851 additions | 101 to build, 10,302 lookups | Far faster |
 | Ages 16 and 17, correct formula | 2,043 | 2,043 | P[18] minus P[16] |
@@ -92,14 +78,14 @@ Count operations, write edge-case tests, and extend the idea to two-dimensional 
 
 The single-year counts and published totals come from the 2021 census table TS007 on Nomis. The ranges, percentages and operation counts are our own calculations.
 
+Why prefix sums
+
 ## Two lookups instead of a loop
 
 What the Stevenage run shows.
 
-**Key figures from the Stevenage prefix sum project**
-
 | Figure | Value |
-|---|---|
+| --- | --- |
 | Single-year counts used | 101, from under 1 to 100 and over |
 | Published borough total | 89,501, matched exactly by the counts |
 | Residents aged 6 to 67 | 71,562 |
@@ -111,14 +97,37 @@ The same idea runs quietly inside a lot of software. Spreadsheet totals over a r
 
 Modern Age Coders is independent of the ONS and Nomis. The census data is theirs; the program, and any bug in it, is ours.
 
+Stages
+
 ## From running totals on paper to real algorithms
 
 Years are rough; the free lesson finds the right start.
 
-- **Years 1 to 4: Counting and blocks** Block coding with counters, scores and patterns. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 5 to 8: Python lists** Lists, loops and totals in Python. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Years 9 to 13: Algorithms and AI** Efficient algorithms, data and AI beside GCSE and A level. [Python for Teens](/courses/python-complete-masterclass-teens), [High School Mathematics](/courses/complete-high-school-mathematics-mastery)
-- **Adults: Practical programming** Adult Python through data analysis. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Years 1 to 4
+
+### Counting and blocks
+
+Block coding with counters, scores and patterns.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 5 to 8
+
+### Python lists
+
+Lists, loops and totals in Python.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Years 9 to 13
+
+### Algorithms and AI
+
+Efficient algorithms, data and AI beside GCSE and A level.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[High School Mathematics](/courses/complete-high-school-mathematics-mastery)Adults
+
+### Practical programming
+
+Adult Python through data analysis.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)AI and edges
 
 ## Will an AI get the edge of a range right?
 
@@ -130,30 +139,139 @@ A Stevenage learner who has tested P[b+1] against P[b] knows to write a one-age 
 
 Testing the edges of code an AI writes is a strong reason for Stevenage teenagers to keep learning programming in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Across Stevenage, by live video
 
 Every neighbourhood in the borough joins in the same way.
 
-- **Learner-typed code** The student writes every program; the tutor reads the shared screen and asks guiding questions.
-- **Right starting point** Year 3 or Year 13, each learner starts where their school year and trial lesson suggest, with their exam board named.
-- **Trial without charge** The first full lesson is free, with honest advice at the end.
-- **Stage-matched classes** Five to ten UK learners who are all at one level.
-- **Twice a week in term** Two lessons weekly during term; holidays stay free.
-- **Same slot all year** In March and October it is our tutors who shift their day; a Stevenage lesson keeps its hour.
+### Learner-typed code
 
-**Why groups meet online** Five Stevenage learners at the same level, free at the same hour, rarely live on one street. Online groups give each the right classmates.
+The student writes every program; the tutor reads the shared screen and asks guiding questions.
+
+### Right starting point
+
+Year 3 or Year 13, each learner starts where their school year and trial lesson suggest, with their exam board named.
+
+### Trial without charge
+
+The first full lesson is free, with honest advice at the end.
+
+### Stage-matched classes
+
+Five to ten UK learners who are all at one level.
+
+### Twice a week in term
+
+Two lessons weekly during term; holidays stay free.
+
+### Same slot all year
+
+In March and October it is our tutors who shift their day; a Stevenage lesson keeps its hour.
+
+Why groups meet online
+
+Five Stevenage learners at the same level, free at the same hour, rarely live on one street. Online groups give each the right classmates.
+
+Fees
 
 ## Stevenage fees
 
 Stevenage families pay the same as families in every country outside India.
 
-- First class: USD 0. A full lesson at no cost, followed by a clear recommendation.
-- Group tuition: USD 100 a month. Around eight live group lessons each month.
-- Private tuition: USD 150 a month. Around eight live private lessons each month.
+First class**USD 0**
+
+A full lesson at no cost, followed by a clear recommendation.
+
+Group tuition**USD 100**
+
+Around eight live group lessons each month.
+
+Private tuition**USD 150**
+
+Around eight live private lessons each month.
 
 We charge in US dollars, not sterling. Billing starts only once the trial has fixed a course and a weekly time, and the pricing page covers holidays, missed lessons and moving between formats.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20Stevenage%20learner.)Reviews
+
+## Google reviews: what learners and parents wrote
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Stevenage lesson
+
+Share the age or year group, plus a hobby or subject the learner likes. Trial options include a Scratch tally game, first steps in Python, a tiny AI build, or answering census questions with running totals.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Stevenage one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20Stevenage%20learner.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Stevenage questions
+
+About the town, the project and our lessons.
 
 ### What is the population of Stevenage?
 
@@ -195,10 +313,14 @@ Zero for the trial. Then a class place is USD 100 monthly and one-to-one tuition
 
 No. Send the dates and we pause.
 
+Nearby
+
 ## More pages near Stevenage
 
 For the county, read our [Hertfordshire](/coding-classes-in-hertfordshire) page; [Watford](/best-coding-and-ai-classes-in-watford) tracks a railway station's recovery; [East of England](/coding-and-ai-classes-in-east-of-england) gathers the region. The [UK hub](/coding-classes-in-united-kingdom) links every page.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20Stevenage%20learner.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-stevenage](https://learn.modernagecoders.com/ai-and-programming-classes-in-stevenage#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-stevenage*

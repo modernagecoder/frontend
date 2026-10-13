@@ -4,46 +4,32 @@ description: "Live online coding and Python classes for Redlands learners aged 6
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-redlands-brisbane
 source: src/pages/online-coding-and-python-classes-in-redlands-brisbane.html
 ---
-> To let a tool check your assumptions before your users do. Redland City has 691 stop records in the Translink feed, and 11 of their IDs are words, not numbers. A function that treats every ID as a number is wrong, and the type checker mypy says so in one line before the program ever runs.
+> Live online coding and Python classes for Redlands learners aged 6 to adult, with a type-checking project built on real public transport stop IDs in Redland City.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [Queensland](/coding-and-ai-classes-in-queensland) / [Brisbane](/best-coding-classes-in-brisbane) / Redlands
-
-Redland City, Brisbane, Queensland / Live online
-
-# Online coding and Python classes in Redlands
-
-**What does a Redlands Python project teach?** To let a tool check your assumptions before your users do. Redland City has 691 stop records in the Translink feed, and 11 of their IDs are words, not numbers. A function that treats every ID as a number is wrong, and the type checker mypy says so in one line before the program ever runs.
-
-Redland City stretches from Thorneside and Capalaba out to the Southern Moreton Bay Islands. On Wednesday 21 October 2026 the Translink timetable has 16,809 stop visits inside the council area on 31 routes: 16,167 by bus, 540 by train and 102 by ferry. Every one of those stops carries an ID, and that is where the lesson starts.
-
-Facts last verified 12 October 2026. Teaching is online; no Redlands branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Redlands
 
 ## Python and coding courses
 
 All taught live, in level-matched groups or one to one. The trial lesson finds the right fit.
 
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (University and adult): Python in depth, including type hints and testing.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python projects on real files and data.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): A gentle start in Python with games and AI.
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Logic and sequencing with blocks before typing.
+[![Python Masterclass course thumbnail](/images/python-college.webp)University and adultPython MasterclassPython in depth, including type hints and testing.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython projects on real files and data.See the syllabus](/courses/python-complete-masterclass-teens)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsA gentle start in Python with games and AI.See the syllabus](/courses/python-ai-kids-masterclass)[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsLogic and sequencing with blocks before typing.See the syllabus](/courses/kids-coding-blocks-masterclass)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Redland City in the 2021 Census
 
 ## A council of family houses by the bay
 
 Figures for the Redland local government area (ABS LGA36250) from its 2021 Census QuickStats, read on 12 October 2026.
 
-**Redland City headline counts**
-
 | Measure | Redland City |
-|---|---|
+| --- | --- |
 | People | 159,222 |
 | Median age | 43 |
 | Families | 45,763 |
@@ -51,10 +37,8 @@ Figures for the Redland local government area (ABS LGA36250) from its 2021 Censu
 | People per household | 2.6 |
 | Motor vehicles per dwelling | 2 |
 
-**Redland City shares next to Queensland**
-
 | Share | Redland City | Queensland |
-|---|---|---|
+| --- | --- | --- |
 | Separate house | 83.9% (49,276) | 74.8% |
 | Aged 10 to 14 | 6.8% (10,750) | 6.6% |
 | Car as driver to work | 61.6% (47,296) | 59.5% |
@@ -74,14 +58,14 @@ The August 2021 Census was held during the pandemic, so travel and work answers 
 
 The bureau rounds its percentages and slightly perturbs small counts for confidentiality. We print the published values and never sum rows into totals the bureau did not publish.
 
+Signature project
+
 ## Eleven IDs that are not numbers
 
 Of the 691 stop records inside Redland City, 680 have numeric IDs. The other 11 group platforms and berths under a name: Birkdale, Cleveland, Ormiston, Thorneside and Wellington Point stations, Capalaba station, Victoria Point Central, three island ferry terminals and Redland Bay Marina.
 
-**One bug, four versions of the code (our run, mypy 2.4.0, Python 3.13)**
-
 | Version | mypy before running | When it runs |
-|---|---|---|
+| --- | --- | --- |
 | is_station(stop_id: int), called with text IDs | 1 error: incompatible type "str"; expected "int" | TypeError on the first comparison |
 | Same code, no type hints | nothing to check | the same TypeError, found only at run time |
 | "Fixed" with int(stop_id) | no issues found | ValueError on place_birsta |
@@ -105,14 +89,14 @@ Sorting IDs as text instead of numbers can scramble their order. Here it does no
 
 The stop IDs are real Translink records placed in Redland City by our own point-in-polygon test. The four code versions and their outputs come from our run in an isolated environment.
 
+Type hints in Python
+
 ## Promises the checker can read
 
 A type hint such as stop_id: str tells readers and tools what a function expects. Python itself ignores hints when running; mypy reads them and reports mismatches.
 
-**The lesson in four moves**
-
 | Step | Learner task |
-|---|---|
+| --- | --- |
 | 1 | Load stop IDs from the feed and count numeric and text ones. |
 | 2 | Write is_station with an int hint and run mypy. |
 | 3 | Try the int() shortcut, then watch it fail on real data. |
@@ -132,6 +116,8 @@ Add hints to a real script and fix each mypy message one at a time.
 
 Introduce gradual typing to an existing codebase without stopping work.
 
+Across Redland City
+
 ## Trains, buses, island ferries and the 2027 terms
 
 Translink counts for Wednesday 21 October 2026 and 2027 dates from the Queensland Department of Education.
@@ -148,16 +134,41 @@ Train visits total 540 at the five stations from Thorneside to Cleveland.
 
 Queensland state school Term 1 runs from Wednesday 27 January to Thursday 25 March 2027.
 
-**Area used** Redlands here is the ABS outline of Redland City local government area, about 537 square kilometres. Stops are assigned to it with our own point-in-polygon test, and address-style data appears only as counts.
+Area used
+
+Redlands here is the ABS outline of Redland City local government area, about 537 square kilometres. Stops are assigned to it with our own point-in-polygon test, and address-style data appears only as counts.
+
+Learning ladder
 
 ## From sorting cards to typed Python
 
 Ages are a guide; the free lesson places each learner.
 
-- **Ages 6 to 9: Rules and kinds** Block programs that sort numbers from words. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 8 to 12: Starting Python** Variables, types and friendly error messages. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 13 to 17: Reliable scripts** Files, hints and checks on real data. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **University and adult: Professional Python** Typing, testing and maintainable code. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 9
+
+### Rules and kinds
+
+Block programs that sort numbers from words.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 8 to 12
+
+### Starting Python
+
+Variables, types and friendly error messages.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 13 to 17
+
+### Reliable scripts
+
+Files, hints and checks on real data.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)University and adult
+
+### Professional Python
+
+Typing, testing and maintainable code.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## Does AI-written code need type checking?
 
@@ -169,30 +180,139 @@ Running mypy over generated code is a cheap second opinion. A Redlands learner w
 
 In Redlands classes, learners check AI output with real tools, not hope. The longer argument is in [is learning to code still worth it](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Studying online from Redlands
 
 Lessons are live video sessions, so learners on the mainland or the islands join the same way.
 
-- **Teacher present** Every lesson is taught live, with the learner's screen shared.
-- **School holidays** Classes follow Queensland terms and stop over the holidays.
-- **Free trial** One full lesson without charge, then a written course suggestion.
-- **Group or private** Groups of fifteen to twenty at one level, or one to one.
-- **Two per week** About eight lessons each month.
-- **India hours** A 6:30pm Redlands lesson is 2pm in India.
+### Teacher present
 
-**Fixed offset** Queensland ended its last daylight saving period in March 1992, the IANA time zone database records, so lessons never move with clock changes.
+Every lesson is taught live, with the learner's screen shared.
+
+### School holidays
+
+Classes follow Queensland terms and stop over the holidays.
+
+### Free trial
+
+One full lesson without charge, then a written course suggestion.
+
+### Group or private
+
+Groups of fifteen to twenty at one level, or one to one.
+
+### Two per week
+
+About eight lessons each month.
+
+### India hours
+
+A 6:30pm Redlands lesson is 2pm in India.
+
+Fixed offset
+
+Queensland ended its last daylight saving period in March 1992, the IANA time zone database records, so lessons never move with clock changes.
+
+Fees
 
 ## Redlands class fees
 
 Fees are identical for every learner.
 
-- First class: USD 0. The first lesson is free and ends with a recommended plan.
-- Group tuition: USD 100 a month. Group study: about eight lessons a month, fifteen to twenty learners.
-- Private tuition: USD 150 a month. Private study: about eight lessons a month, one to one.
+First class**USD 0**
+
+The first lesson is free and ends with a recommended plan.
+
+Group tuition**USD 100**
+
+Group study: about eight lessons a month, fifteen to twenty learners.
+
+Private tuition**USD 150**
+
+Private study: about eight lessons a month, one to one.
 
 Redlands fees are billed in US dollars, after the trial has fixed a course and a weekly time. The pricing page explains holidays and missed lessons.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20online%20coding%20or%20Python%20class%20for%20a%20learner%20in%20Redlands.)Reviews
+
+## What learners and families say on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Redlands lesson
+
+Share the learner's age and interests. A younger child might sort cards in block code; a teenager might type-check the stop loader.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Redlands one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20online%20coding%20or%20Python%20class%20for%20a%20learner%20in%20Redlands.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Redlands coding and Python questions
+
+Questions Redlands parents and adult learners ask us.
 
 ### How many people live in Redland City?
 
@@ -234,10 +354,14 @@ Fifteen to twenty learners at a similar level and pace, not sorted by age or sub
 
 Birkdale, Cleveland, Ormiston, Thorneside and Wellington Point stations sit inside the council outline in the Translink feed.
 
+More for Brisbane learners
+
 ## Further reading
 
 Read the [Brisbane page](/best-coding-classes-in-brisbane) for the region, the [Queensland guide](/coding-and-ai-classes-in-queensland) for the state, and [kids coding in Brisbane](/coding-classes-for-kids-brisbane) for younger learners.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20online%20coding%20or%20Python%20class%20for%20a%20learner%20in%20Redlands.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/online-coding-and-python-classes-in-redlands-brisbane](https://learn.modernagecoders.com/online-coding-and-python-classes-in-redlands-brisbane#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-redlands-brisbane*

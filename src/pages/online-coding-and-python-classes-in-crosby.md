@@ -4,46 +4,32 @@ description: "Python, coding, AI and vibe coding taught live online for Crosby, 
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-crosby
 source: src/pages/online-coding-and-python-classes-in-crosby.html
 ---
-> Crosby is a town in the borough of Sefton, and its built-up area had 50,215 usual residents in the 2021 census on the Office for National Statistics count. The postcode gazetteer lists Great Crosby, Blundellsands, Waterloo and Thornton as suburban areas of Sefton, and Little Crosby and Hightown as villages. From any of them, a learner aged six to 67 can study Python, coding, AI, vibe coding and maths with us by live video. Our tutors are based in India. Some learners have a tutor to themselves; others share one with fifteen to twenty people at the same stage. We want learners to understand an idea well enough to do it by hand, and then to code it. A free first lesson comes before any decision, and we close it with a course suggestion. The Crosby project is about chance: a Python program has to pick a resident's census area at random, fairly, a million times, and we count how much work three different methods need. Beyond the trial, a place in a group is USD 100 a month and a tutor of your own is USD 150 a month.
+> Python, coding, AI and vibe coding taught live online for Crosby, Blundellsands, Waterloo, Thornton and Hightown learners aged 6 to 67. Free first lesson.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [North West England](/coding-and-ai-classes-in-north-west-england) / Crosby
-
-Crosby, Sefton, Merseyside / Live online
-
-# Online coding and Python classes in Crosby
-
-**Which are the best online coding and Python classes in Crosby?** Crosby is a town in the borough of Sefton, and its built-up area had 50,215 usual residents in the 2021 census on the Office for National Statistics count. The postcode gazetteer lists Great Crosby, Blundellsands, Waterloo and Thornton as suburban areas of Sefton, and Little Crosby and Hightown as villages. From any of them, a learner aged six to 67 can study Python, coding, AI, vibe coding and maths with us by live video. Our tutors are based in India. Some learners have a tutor to themselves; others share one with fifteen to twenty people at the same stage. We want learners to understand an idea well enough to do it by hand, and then to code it. A free first lesson comes before any decision, and we close it with a course suggestion. The Crosby project is about chance: a Python program has to pick a resident's census area at random, fairly, a million times, and we count how much work three different methods need. Beyond the trial, a place in a group is USD 100 a month and a tutor of your own is USD 150 a month.
-
-Choosing at random is easy when every option is equally likely: roll a die. It gets harder when the options have different weights. A game drops rare items less often than common ones. A language model picks its next word from thousands of candidates with very unequal chances. A survey wants to pick households so that big streets are not under-counted. The slow way to make a weighted choice is to walk down the list adding up weights until you pass a random number. Python's bisect module does it faster. A lovely piece of cleverness called the alias method does it in a single step, however long the list. This project tries all three on the census areas of Crosby.
-
-Facts last verified 30 September 2026. Teaching is online; no Crosby branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses to start with
 
 ## Python and coding routes for Crosby learners
 
 Four ways in, depending on age. Each starts with a live lesson at no charge, with no card requested.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 9 to 13): First real Python for children, with small AI projects and plenty of dice, coins and random numbers.
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): How to think before you code: fair choices, counting steps and spotting a quicker method.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): The full Python course for teenagers, lists to algorithms, with the Crosby sampling experiment inside.
-- [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college) (Students and adults): Data structures and algorithms with the costs counted, for university, interviews or work.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 9 to 13Python and AI for KidsFirst real Python for children, with small AI projects and plenty of dice, coins and random numbers.See the syllabus](/courses/python-ai-kids-masterclass)[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsHow to think before you code: fair choices, counting steps and spotting a quicker method.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensThe full Python course for teenagers, lists to algorithms, with the Crosby sampling experiment inside.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Structures & Algorithms Course course thumbnail](/images/dsa-college.webp)Students and adultsData Structures & Algorithms CourseData structures and algorithms with the costs counted, for university, interviews or work.See the syllabus](/courses/data-structures-algorithms-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Crosby on the record
 
 ## Crosby, Blundellsands, Waterloo, Thornton and Hightown
 
 The published census counts, and how the gazetteer describes the places around the town.
 
-**Crosby and Sefton, Census 2021 (ONS)**
-
 | Area | Usual residents |
-|---|---|
+| --- | --- |
 | Crosby built-up area | 50,215 |
 | Sefton borough | 279,233 |
 
@@ -53,6 +39,8 @@ Each figure is published in its own right. The borough count takes in several ot
 
 Try [coding classes in Merseyside](/coding-classes-in-merseyside), [Bootle](/ai-and-programming-classes-in-bootle) and [Southport](/best-coding-and-ai-classes-in-southport). For the thinking behind our teaching, read [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Crosby project
+
 ## Weighted random choice and the alias method
 
 Pick a Crosby resident at random. Which small census area are they in?
@@ -61,10 +49,8 @@ The census divides the country into output areas, small patches of a few streets
 
 The first attempt most people write is wrong: pick one of the 169 areas with equal chance. Over a million draws that gave the largest area 5,879 picks when its fair share is 10,873, and gave the smallest 5,842 when it is due 2,569. Every area is treated alike, so residents of crowded areas are under-counted. The fix is to weight the choice, and there are three ways to do it.
 
-**Three correct ways to draw a weighted random area, 169 Crosby output areas, 1,000,000 draws each (our Python count)**
-
 | Method | Comparisons per draw | Set-up work |
-|---|---|---|
+| --- | --- | --- |
 | Walk down the running totals | 86.3 on average | One pass to add up |
 | Binary search the running totals (bisect) | 7.51 on average | One pass to add up |
 | Alias table | 1, always | 168 pairing steps |
@@ -89,14 +75,14 @@ Build the alias table, prove each column sums to one share, and test a million d
 
 Census 2021 output-area counts are from the Office for National Statistics through Nomis, read 30 September 2026, under the Open Government Licence. The sampling methods, the comparison counts and the checks are our own work with a fixed random seed; a different seed would move the tallies slightly.
 
+Randomness inside AI
+
 ## What weighted sampling has to do with AI, vibe coding and agents
 
 Each word a language model writes is usually a weighted random draw.
 
-**From the Crosby draws to AI systems**
-
 | In the Crosby experiment | In AI and software |
-|---|---|
+| --- | --- |
 | Uniform choice gave 5,879 where 10,873 were due | A plausible shortcut can be quietly biased |
 | The walk needed 86.3 comparisons | The first method that works may not scale |
 | The alias table needed 1 | Set-up work can buy very fast answers |
@@ -107,14 +93,37 @@ A large language model gives a score to every possible next token, turns the sco
 
 The Office for National Statistics, Nomis and postcodes.io have no link to Modern Age Coders. Their open data made the project possible; the sums and conclusions are our responsibility.
 
+The route up
+
 ## Spinners first, then Python, then algorithms
 
 School year gives us a first guess at the level. One free lesson settles it.
 
-- **Years 2 to 6: How to think** Fair and unfair games, tallies and patterns, on paper and in Scratch. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 5 to 8: First Python** Typed code from day one, with an AI helper the child learns to question. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)
-- **Years 9 to 13: Python in depth** Lists, random, bisect and testing, alongside GCSE and A level. [Python for Teens](/courses/python-complete-masterclass-teens), [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)
-- **Adults: Algorithms and AI** Efficient methods, probability and machine learning for study or a career move. [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Years 2 to 6
+
+### How to think
+
+Fair and unfair games, tallies and patterns, on paper and in Scratch.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 5 to 8
+
+### First Python
+
+Typed code from day one, with an AI helper the child learns to question.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)Years 9 to 13
+
+### Python in depth
+
+Lists, random, bisect and testing, alongside GCSE and A level.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)Adults
+
+### Algorithms and AI
+
+Efficient methods, probability and machine learning for study or a career move.
+
+[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)Python and AI
 
 ## What is the alias method, and how does AI pick its next word?
 
@@ -126,30 +135,139 @@ The careless uniform version handed the largest area 5,879 picks per million whe
 
 Seeing that for themselves is why Crosby teenagers who code can still check an AI's work in 2026 instead of trusting it. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Practicalities
+
 ## What a Crosby lesson looks like
 
 We teach by video call. A computer with a camera and microphone is all a learner needs, plus a spot at home where they can concentrate.
 
-- **Hands on keys** The learner writes the code on a shared screen while the tutor guides with questions.
-- **Try before deciding** A complete free lesson lets us see the learner at work and recommend a course.
-- **No card for the trial** Booking it needs a name, an age and a phone number.
-- **Same-level groups** Classes of fifteen to twenty, matched by stage and joined from all over the UK.
-- **Twice a week in term** With breaks for Sefton school holidays when you let us know the dates.
-- **Fixed UK times** When clocks go forward or back, our tutors adjust and your slot does not.
+### Hands on keys
 
-**Why we teach online** On a shared screen the tutor sees every keystroke, and a national pool of learners lets us form classes at one precise level.
+The learner writes the code on a shared screen while the tutor guides with questions.
+
+### Try before deciding
+
+A complete free lesson lets us see the learner at work and recommend a course.
+
+### No card for the trial
+
+Booking it needs a name, an age and a phone number.
+
+### Same-level groups
+
+Classes of fifteen to twenty, matched by stage and joined from all over the UK.
+
+### Twice a week in term
+
+With breaks for Sefton school holidays when you let us know the dates.
+
+### Fixed UK times
+
+When clocks go forward or back, our tutors adjust and your slot does not.
+
+Why we teach online
+
+On a shared screen the tutor sees every keystroke, and a national pool of learners lets us form classes at one precise level.
+
+Fees
 
 ## Crosby lesson fees
 
 Learners anywhere outside India pay the same international rates.
 
-- First class: USD 0. The opening lesson is free and complete, with course advice at the end.
-- Group tuition: USD 100 a month. Fifteen to twenty learners in a class, roughly eight lessons per month.
-- Private tuition: USD 150 a month. One-to-one with a tutor, roughly eight lessons per month.
+First class**USD 0**
+
+The opening lesson is free and complete, with course advice at the end.
+
+Group tuition**USD 100**
+
+Fifteen to twenty learners in a class, roughly eight lessons per month.
+
+Private tuition**USD 150**
+
+One-to-one with a tutor, roughly eight lessons per month.
 
 Fees are stated in US dollars and we give no price in pounds. Nothing is charged until the trial is done and you have settled on a course and a time. See the pricing page for holiday breaks, absences and switching format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20looking%20for%20a%20free%20Python%20or%20coding%20lesson%20for%20a%20learner%20in%20Crosby.)Reviews
+
+## Google reviews from Merseyside families and learners around the UK
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Ask for a free Crosby lesson
+
+Let us know the learner's age or school year and one interest. A first lesson could be an unfair spinner to investigate, a Scratch game made with AI help, a few lines of Python, or a random draw to test.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Crosby one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20looking%20for%20a%20free%20Python%20or%20coding%20lesson%20for%20a%20learner%20in%20Crosby.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Questions from Crosby
+
+Random choice, the census experiment, Python, vibe coding and how lessons are arranged.
 
 ### What is the population of Crosby?
 
@@ -191,10 +309,14 @@ Nothing for the first lesson. After that, USD 100 a month in a group or USD 150 
 
 Yes, send the dates and we will stop for them.
 
+Next
+
 ## Other towns in Merseyside
 
 Each page has a project of its own: [Bootle](/ai-and-programming-classes-in-bootle) (how much data a model needs), [Southport](/best-coding-and-ai-classes-in-southport) (how AI splits words into tokens) and [Liverpool](/best-coding-class-in-liverpool). There is more on the [North West England page](/coding-and-ai-classes-in-north-west-england) and the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Chat with us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20looking%20for%20a%20free%20Python%20or%20coding%20lesson%20for%20a%20learner%20in%20Crosby.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/online-coding-and-python-classes-in-crosby](https://learn.modernagecoders.com/online-coding-and-python-classes-in-crosby#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-crosby*

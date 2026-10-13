@@ -12,7 +12,7 @@ India's Most Loved Java Course for Kids & Teens
 
 Java programming for kids opens the door to Android app development, game creation, and competitive programming. Our Java course is designed for young learners aged 10+ with project-based learning. Live one-to-one classes, or groups of 15 to 20. Expert instructors. Students from 25+ countries. Free demo class.
 
-Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I want to know more about Java programming for kids and teens)Ages 8-185 to 10 Students Per GroupRated 4.9/5 by ParentsLive Online ClassesFree Demo ClassCBSE & ICSE Aligned
+Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I want to know more about Java programming for kids and teens)Ages 8-1815 to 20 Students Per GroupRated 4.9/5 by ParentsLive Online ClassesFree Demo ClassCBSE & ICSE Aligned
 
 Proven Track Record
 

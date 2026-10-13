@@ -4,46 +4,32 @@ description: "Live online AI and programming classes for Aberdare, Trecynon, Cwm
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-aberdare
 source: src/pages/ai-and-programming-classes-in-aberdare.html
 ---
-> Rhondda Cynon Taf counted 237,651 usual residents in the 2021 census, and the ONS built-up area of Aberdare held 37,675 of them. That built-up area stretches from Hirwaun and Penywaun through Trecynon, Cwmdare and Llwydcoed to Cwmbach, Aberaman, Godreaman and Cwmaman. Modern Age Coders teaches AI, programming, Python, vibe coding and maths to Aberdare learners from six to 67, live on video with tutors in India, one-to-one or in groups of fifteen to twenty at the same level. A free trial lesson always comes first, followed by a course suggestion. The Aberdare project builds one of the oldest neural networks there is, a Hopfield network, stores census patterns for local neighbourhoods in it, and counts how quickly the memory starts producing patterns nobody stored. After the trial, fees are USD 100 a month in a group and USD 150 a month one-to-one.
+> Live online AI and programming classes for Aberdare, Trecynon, Cwmbach and Hirwaun, ages 6 to 67, with Python and maths. Book a free first lesson, no card needed.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Aberdare
-
-Aberdare, Rhondda Cynon Taf, Wales / Live online
-
-# AI and programming classes in Aberdare
-
-**Which are the best AI and programming classes for Aberdare?** Rhondda Cynon Taf counted 237,651 usual residents in the 2021 census, and the ONS built-up area of Aberdare held 37,675 of them. That built-up area stretches from Hirwaun and Penywaun through Trecynon, Cwmdare and Llwydcoed to Cwmbach, Aberaman, Godreaman and Cwmaman. Modern Age Coders teaches AI, programming, Python, vibe coding and maths to Aberdare learners from six to 67, live on video with tutors in India, one-to-one or in groups of fifteen to twenty at the same level. A free trial lesson always comes first, followed by a course suggestion. The Aberdare project builds one of the oldest neural networks there is, a Hopfield network, stores census patterns for local neighbourhoods in it, and counts how quickly the memory starts producing patterns nobody stored. After the trial, fees are USD 100 a month in a group and USD 150 a month one-to-one.
-
-Most people meet AI as something that predicts. Older and in some ways stranger is AI that remembers: give it a damaged or partial pattern and it settles back to the complete one it learned. John Hopfield described such a network in 1982, and the 2024 Nobel Prize in Physics, which he shared with Geoffrey Hinton, cited that work. It is small enough for a teenager to write from scratch, and it has a hard limit that is easy to measure. Fill it with too many memories and it begins to recall things that were never put in.
-
-Facts last verified 1 October 2026. Teaching is online; no Aberdare branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentStarting points
 
 ## AI and programming courses for Aberdare learners
 
 Choose by the learner's age. Each course begins with a live lesson that is free and asks for no card.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): Patterns, rules and memory games that lead into how machines learn.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Making Scratch games with an AI helper, then testing and correcting them.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Machine learning in Python, including the Aberdare neural memory project.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Students and adults): Python from the beginning, through data work, to models you can explain.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsPatterns, rules and memory games that lead into how machines learn.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsMaking Scratch games with an AI helper, then testing and correcting them.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensMachine learning in Python, including the Aberdare neural memory project.See the syllabus](/courses/ai-ml-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)Students and adultsPython MasterclassPython from the beginning, through data work, to models you can explain.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Aberdare and the Cynon Valley
 
 ## Aberdare, Trecynon, Cwmbach, Aberaman and Hirwaun
 
 Census headline figures and the places inside the Aberdare built-up area.
 
-**Census 2021 (ONS)**
-
 | Area | Usual residents |
-|---|---|
+| --- | --- |
 | Aberdare built-up area | 37,675 |
 | Rhondda Cynon Taf county borough | 237,651 |
 
@@ -53,6 +39,8 @@ The county borough also includes Pontypridd, the Rhondda and Mountain Ash, so th
 
 See [Rhondda Cynon Taf](/coding-classes-in-rhondda-cynon-taf), [Merthyr Tydfil](/coding-classes-in-merthyr-tydfil-county-borough), [Cardiff](/best-coding-class-in-cardiff) and [WJEC GCSE Computer Science help](/wjec-gcse-computer-science-help-wales). Our view that thinking comes before tools is set out in [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Aberdare project
+
 ## A neural memory filled with neighbourhoods
 
 Census patterns for 123 local areas, a network that stores them, and the point at which it starts to make things up.
@@ -61,10 +49,8 @@ Each memory is a neighbourhood. The learner takes the 123 census output areas th
 
 A Hopfield network stores patterns in a grid of connection weights, one for every pair of bits, using the oldest learning rule in the book: strengthen the link between two bits that agree, weaken it when they disagree. To recall, you hand the network a pattern with some bits flipped and let each bit repeatedly take the sign its neighbours vote for, until nothing changes. The learner stores a few neighbourhoods, flips 4 of the 36 bits in one of them, and checks whether the network settles back on exactly the right pattern. Then the same test is run with random patterns of the same length for comparison, 200 times for each number of stored memories.
 
-**Share of damaged patterns recalled exactly, 4 of 36 bits flipped, our Python run**
-
 | Memories stored | Aberdare census patterns | Random patterns |
-|---|---|---|
+| --- | --- | --- |
 | 1 | 100% | 100% |
 | 3 | 96.3% | 99.7% |
 | 4 | 80.6% | 97.9% |
@@ -93,14 +79,14 @@ Write the network, measure recall as memories are added, and explain why real da
 
 Census 2021 tables TS007A, TS044, TS050, TS017 and TS061 come from Nomis and are published by the ONS under the Open Government Licence; the output areas counted as Aberdare come from the ONS 2021 output area to built-up area lookup. The 36-bit coding, the network, the random seed (20261001) and every percentage above come from our own run.
 
+Memory and modern AI
+
 ## What an overflowing memory teaches about today's AI
 
 A network that invents a memory when it is overfull is a small, honest picture of a much bigger problem.
 
-**From the Aberdare network to the AI you use**
-
 | What the project showed | Why it matters now |
-|---|---|
+| --- | --- |
 | Recall held up for a few memories | Every model has limits on what it can store |
 | Real patterns overflowed before random ones | Correlated data behaves worse than theory assumes |
 | 79.0% of failures at eight memories were inventions | A confident answer can match nothing that was learned |
@@ -111,14 +97,37 @@ Large language models are far bigger and work differently, but the habit this pr
 
 The ONS, Nomis and postcodes.io have no link with Modern Age Coders. We use their open data; the network and its results are ours.
 
+How learners progress
+
 ## From memory games at seven to neural networks at seventeen
 
 The Welsh school year is our first guess; the trial lesson decides where to start.
 
-- **Years 2 to 6: Patterns and rules** Puzzles, sequences and memory games, often before a screen is involved. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Creating with AI** AI-assisted Scratch projects, then the step into Python. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Models in Python** Data, simple networks and experiments that test what a model can really do. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: AI you can explain** Python and machine learning for work, built and checked by hand. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)
+Years 2 to 6
+
+### Patterns and rules
+
+Puzzles, sequences and memory games, often before a screen is involved.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Creating with AI
+
+AI-assisted Scratch projects, then the step into Python.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Models in Python
+
+Data, simple networks and experiments that test what a model can really do.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### AI you can explain
+
+Python and machine learning for work, built and checked by hand.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)Neural memory
 
 ## What is a Hopfield network, and why does it matter for AI today?
 
@@ -130,30 +139,139 @@ Learners who have measured that look at fluent AI output and ask a sharper quest
 
 For a teenager in Aberdare, understanding where an AI's answers come from is what turns it into a tool they control, and that understanding is built by programming one. The longer argument is in [why building AI yourself still matters in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## A lesson for an Aberdare learner
 
 Lessons are live video sessions. Learners need a computer with a keyboard, since Python does not run well on a tablet alone.
 
-- **Learner writes the code** Every line is typed by the learner while the tutor probes their reasoning.
-- **Trial before advice** We see the learner's level in the first lesson, then recommend a course.
-- **First session free** The trial costs nothing and needs no card.
-- **Fifteen to twenty per group** Learners at one level, joining from all over the UK.
-- **Steady pace** About two lessons a week in term, with Rhondda Cynon Taf holidays left free if asked.
-- **Same UK time** Your slot does not move when the clocks go forward or back.
+### Learner writes the code
 
-**Why video lessons** Fifteen to twenty learners at one exact level are much easier to find across the UK than in one valley, and nobody needs to travel to join them.
+Every line is typed by the learner while the tutor probes their reasoning.
+
+### Trial before advice
+
+We see the learner's level in the first lesson, then recommend a course.
+
+### First session free
+
+The trial costs nothing and needs no card.
+
+### Fifteen to twenty per group
+
+Learners at one level, joining from all over the UK.
+
+### Steady pace
+
+About two lessons a week in term, with Rhondda Cynon Taf holidays left free if asked.
+
+### Same UK time
+
+Your slot does not move when the clocks go forward or back.
+
+Why video lessons
+
+Fifteen to twenty learners at one exact level are much easier to find across the UK than in one valley, and nobody needs to travel to join them.
+
+Fees
 
 ## Fees for Aberdare families
 
 Aberdare learners pay the same rates as every learner outside India.
 
-- First class: USD 0. First lesson: free and full length, with our course recommendation at the end.
-- Group tuition: USD 100 a month. Group class, around eight lessons each month.
-- Private tuition: USD 150 a month. Private tuition, around eight lessons each month.
+First class**USD 0**
+
+First lesson: free and full length, with our course recommendation at the end.
+
+Group tuition**USD 100**
+
+Group class, around eight lessons each month.
+
+Private tuition**USD 150**
+
+Private tuition, around eight lessons each month.
 
 We bill in US dollars and give no sterling figure. The trial is never charged; payment starts only once a course and a regular time are agreed. Holidays, missed lessons and moves between group and private lessons are covered on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20to%20book%20a%20free%20AI%20or%20programming%20trial%20lesson.%20We%20are%20in%20Aberdare.)Reviews
+
+## Google reviews from Welsh families and learners around the UK
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Aberdare lesson
+
+Share the learner's age or year and one interest. Their free session might be a memory game, an AI-made Scratch game, a first Python program, or a first try at the neighbourhood memory network.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Aberdare one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20to%20book%20a%20free%20AI%20or%20programming%20trial%20lesson.%20We%20are%20in%20Aberdare.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Aberdare questions
+
+The neural memory project, Hopfield networks, vibe coding and how lessons are run.
 
 ### How many people live in Aberdare?
 
@@ -195,10 +313,14 @@ The trial is free. Afterwards a group place is USD 100 a month and private lesso
 
 Send us the Rhondda Cynon Taf holiday dates and we keep those weeks free.
 
+Nearby pages
+
 ## More pages for the Valleys and Cardiff
 
 See [Rhondda Cynon Taf](/coding-classes-in-rhondda-cynon-taf), [Merthyr Tydfil](/coding-classes-in-merthyr-tydfil-county-borough), [Caerphilly](/coding-classes-in-caerphilly-county-borough) and [Cardiff](/best-coding-class-in-cardiff). The [Wales page](/coding-and-ai-classes-in-wales) and the [UK hub](/coding-classes-in-united-kingdom) list the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Ask us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20like%20to%20book%20a%20free%20AI%20or%20programming%20trial%20lesson.%20We%20are%20in%20Aberdare.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-aberdare](https://learn.modernagecoders.com/ai-and-programming-classes-in-aberdare#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-aberdare*

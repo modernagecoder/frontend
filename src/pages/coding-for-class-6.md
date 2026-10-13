@@ -12,7 +12,7 @@ For parents of Class 6 students · Age 11
 
 Class 6 is the year CBSE formally introduces coding. Our 1 hour live classes take that starter and turn it into fluent Python, deployed websites and a first proper AI project, not just textbook answers.
 
-[Book a free demo class](/book-demo)See the curriculum**4,700+**Class 6 students with us**4.9 / 5**Parent rating · 550+ reviews**1 hour**Per live class, 1:1 or group**8 weeks**To fluent Python + deployed site6Class · GradeCBSE 166 alignedPython fluentAI explorerCourses matched for this level
+[Book a free demo class](/book-demo)See the curriculum**10,000+**Students taught live since 2020**4.9 / 5**Rated across 547 Google reviews**1 hour**Per live class, 1:1 or group**8 weeks**To fluent Python + deployed site6Class · GradeCBSE 166 alignedPython fluentAI explorerCourses matched for this level
 
 ## Courses for a Class 6 student who wants to go deeper.
 
@@ -158,9 +158,9 @@ One teacher, one learner, the full 1 hour. The teacher adapts pace in real time,
 
 **₹4,999**/ month · 4 sessionsOption B
 
-### Live Small-Group Online Class
+### Live Group Online Class
 
-4 to 6 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
+15 to 20 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
 
 - Small groups of 4 to 6 similar-level learners
 - 1 hour live session, 2 sessions per week

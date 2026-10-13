@@ -4,34 +4,28 @@ description: "AI and Python for Australian girls aged 9 to 18: real projects, vi
 canonical: https://learn.modernagecoders.com/ai-and-python-academy-for-girls-australia
 source: src/pages/ai-and-python-academy-for-girls-australia.html
 ---
-> An AI and Python academy for girls helps girls aged 9 to 18 get into coding and artificial intelligence through open access, visible role models and real projects. It does not assume girls learn differently, and the syllabus is the same as every course. Modern Age Coders teaches it live online across Australia, in mixed small groups or one to one, and the first class is free.
+> AI and Python for Australian girls aged 9 to 18: real projects, visible role models and lessons around school, anywhere in Australia. Live online, first class free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / AI and Python for girls
+In short
 
-Australia · Ages 9 to 18 · Access, role models, real projects
+An AI and Python academy for girls helps girls aged 9 to 18 get into coding and artificial intelligence through open access, visible role models and real projects. It does not assume girls learn differently, and the syllabus is the same as every course. Modern Age Coders teaches it live online across Australia, in mixed small groups or one to one, and the first class is free.
 
-# AI and Python academy for girls
-
-Plenty of Australian girls are curious about AI and coding and never find a way in: no class nearby, no friend doing it, no one to show them what a real project looks like. This academy is about removing those obstacles, not about teaching girls differently. The lessons are the same rigorous AI and Python lessons every student gets, live online so distance stops mattering, with real projects from the first weeks and people who already do this work to learn from. This page explains how it works, walks through a first AI project with its actual results, and points to free community events across Australia.
-
-At a glance: For: Girls aged 9 to 18; Languages: Python, then AI libraries; Projects: Real ones, from the first weeks; Access: Online, anywhere in Australia; Classes: Mixed small groups or one to one; Syllabus: The same as every course; Times: Around school; Start: A free first class. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three ways in, by age
 
 The same courses every student takes. Each card opens the syllabus.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass): Ages 9 to 12: games, turtle art and small smart projects in real Python.
-- [Python for Teens](/courses/python-complete-masterclass-teens): Ages 13 to 18, from zero to confident, with projects she chooses.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens): Ages 13 to 18: training and testing real models in Python.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  GAAU / 01 Python and AI for Kids Ages 9 to 12: games, turtle art and small smart projects in real Python. Open the syllabus →](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)  GAAU / 02 Python for Teens Ages 13 to 18, from zero to confident, with projects she chooses. Open the syllabus →](/courses/python-complete-masterclass-teens)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)  GAAU / 03 AI and Machine Learning for Teens Ages 13 to 18: training and testing real models in Python. Open the syllabus →](/courses/ai-ml-masterclass-teens)
+
+Access
 
 ## What gets in the way, and what we change
 
 The barriers are practical. So are the answers.
 
-**Common obstacles and how the academy handles them**
-
 | Obstacle | What we do |
-|---|---|
+| --- | --- |
 | No coding class within reach, especially outside the capital cities | Live online lessons, the same in Broome as in Brisbane |
 | Being the only beginner in a room of experienced coders | Groups formed by level, so everyone starts together |
 | Projects that feel pointless | Projects chosen by the student, from games to tools to AI |
@@ -50,16 +44,16 @@ The Australian Curriculum makes the point itself: "training a model on data coll
 
 AI is better when the people building and checking it bring different experiences. That starts with more students learning how it works.
 
+A first AI project
+
 ## A rock, paper, scissors AI that learns
 
 One of the first AI projects in the academy. It fits in a few dozen lines of Python and teaches the core idea behind machine learning: an AI can only learn patterns that are really there.
 
 The program keeps a table of what its opponent played after each of their previous moves. Each round it predicts the most likely next move and plays whatever beats it. We tested it against four kinds of player, **20 games of 1,000 rounds** each, with fixed random seeds so the results can be repeated.
 
-**The learning player against four opponents (our simulation, 14 October 2026)**
-
 | Opponent | AI wins | AI loses | Draws |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Plays completely at random | 33.6% | 33.0% | 33.3% |
 | Repeats their own last move 70% of the time | 79.9% | 10.1% | 10.0% |
 | Cycles rock, paper, scissors in order | 99.7% | 0.1% | 0.1% |
@@ -91,6 +85,8 @@ Younger students build the game first in Python and add the learning part once l
 
 The program, seeds and results are our own. Curriculum quote from ACARA, [Digital Technologies curriculum content, Years 7 to 10](https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/technologies/digital-technologies/technologies-digital-technologies-curriculum-content-7-10-v9.docx), read 14 October 2026.
 
+Role models
+
 ## Seeing people who already do this
 
 It is easier to picture yourself writing code when you have watched someone do it and talk about it.
@@ -109,14 +105,14 @@ Our [guide to the next step after a GPN workshop](/girls-programming-network-nex
 
 Source, read 14 October 2026: [Girls' Programming Network](https://gpn.org.au/) home page.
 
+Projects
+
 ## Real projects at every age
 
 Every stage ends with something that works and can be shown to family and friends.
 
-**Project ladder in the academy**
-
 | Age | Project | Skill |
-|---|---|---|
+| --- | --- | --- |
 | 9 to 12 | Turtle art and a number-guessing game | Loops, variables and decisions |
 | 9 to 12 | Rock, paper, scissors that learns | Lists, counting and first prediction |
 | 13 to 15 | A quiz that adapts to wrong answers | Functions, data and simple models |
@@ -125,14 +121,14 @@ Every stage ends with something that works and can be shown to family and friend
 
 Students interested in building websites can add [web development for teens](/web-development-course-for-teens-australia); those who enjoy puzzles often enjoy [competitive programming](/competitive-programming-australia).
 
+Choosing projects
+
 ## Turning an interest into a first project
 
 Students learn faster when the project is about something they already care about. The first lessons help each student pick one.
 
-**Interests and first projects**
-
 | If she likes | A first Python project | An AI step later |
-|---|---|---|
+| --- | --- | --- |
 | Music | A playlist shuffler that avoids repeats | A model that guesses a song's genre from simple features |
 | Animals | A quiz about native wildlife | An image classifier for a few species |
 | Sport | A score tracker for her team | Predicting results and checking how often it is right |
@@ -151,14 +147,14 @@ Finished projects are shown to the group, and older students can publish theirs 
 
 Some go on to student hackathons or programming competitions; others simply keep building.
 
+For families
+
 ## Supporting a daughter who is starting to code
 
 Families do not need to know how to code to help. A few small things make a difference.
 
-**Simple ways families help**
-
 | What families do | Why it helps |
-|---|---|
+| --- | --- |
 | Ask to see the latest project | Explaining it out loud deepens understanding |
 | Treat bugs as normal | Every programmer spends time stuck; it is part of the work |
 | Keep a regular lesson slot | Steady practice matters more than long sessions |
@@ -176,14 +172,14 @@ Interest rises and falls with school terms and other activities. A change of pro
 
 Teachers can suggest a new project that fits what she enjoys now.
 
+Progress
+
 ## Four stages from first program to AI builder
 
 Each stage ends with a working project; the next begins when that project is done.
 
-**From first lines to working AI**
-
 | Stage | What you can do |
-|---|---|
+| --- | --- |
 | 1. Starter | Write short Python programs with loops and decisions |
 | 2. Maker | Build complete games and tools you designed yourself |
 | 3. Modeller | Train a small AI model and measure how well it works |
@@ -192,63 +188,293 @@ Each stage ends with a working project; the next begins when that project is don
 ### Are the classes girls only?
 
 No. In this academy students learn in our normal mixed small groups, matched by level, or one to one. It is about access and encouragement, not separate classes.
+
 Families who prefer one-to-one lessons can choose them at any stage.
 
 ### Is the content different for girls?
 
 No. The syllabus, projects and standard are exactly the same as for every student.
+
 What we add is a deliberate effort to show real people and real work, and a choice of projects.
+
+The catalogue
 
 ## AI and Python courses
 
 Grouped by age. The free class decides where a student begins.
 
+I
+
 ### Ages 9 to 12
 
 First code
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass): Games and smart projects.
-- [AI Literacy for Kids](/courses/ai-literacy-for-kids-course): Understand AI, ages 8 to 14.
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course): From age 6, before Python.
+GAAU / KID / 01
+
+#### Python and AI for Kids
+
+Games and smart projects.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)
+
+GAAU / KID / 02
+
+#### AI Literacy for Kids
+
+Understand AI, ages 8 to 14.
+
+[Open the syllabus](/courses/ai-literacy-for-kids-course)
+
+GAAU / KID / 03
+
+#### Scratch Coding for Kids
+
+From age 6, before Python.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)II
 
 ### Ages 13 to 18
 
 Python and AI
 
-- [Python for Teens](/courses/python-complete-masterclass-teens): Zero to confident.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens): Real models in Python.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data): Data and first models, 14 to 18.
+GAAU / TEN / 01
+
+#### Python for Teens
+
+Zero to confident.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+GAAU / TEN / 02
+
+#### AI and Machine Learning for Teens
+
+Real models in Python.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+GAAU / TEN / 03
+
+#### Data Science for Teens
+
+Data and first models, 14 to 18.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)III
 
 ### Make things
 
 Alongside AI
 
-- [AI Tools Course for Teens](/courses/teens-ai-tools-mastery-course): 13 and over, within each tool's age rules.
-- [JavaScript for Teens](/courses/javascript-course-for-teens-beginners-interactive-web): Interactive web pages.
-- [Hackathon Prep for Teens](/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course): Build fast with a team, 13 to 17.
+GAAU / MAK / 01
+
+#### AI Tools Course for Teens
+
+13 and over, within each tool's age rules.
+
+[Open the syllabus](/courses/teens-ai-tools-mastery-course)
+
+GAAU / MAK / 02
+
+#### JavaScript for Teens
+
+Interactive web pages.
+
+[Open the syllabus](/courses/javascript-course-for-teens-beginners-interactive-web)
+
+GAAU / MAK / 03
+
+#### Hackathon Prep for Teens
+
+Build fast with a team, 13 to 17.
+
+[Open the syllabus](/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course)
+
+How lessons run
 
 ## Lessons that fit a school week
 
 Teachers are in India, where the working day overlaps Australian afternoons. Lesson times are set in your own state's time and follow daylight saving.
 
-- **After school** Weekday lessons in term.
-- **Early evening** For older students, by arrangement.
-- **Weekend** Longer project sessions.
+After school
 
-- **Free first class** A first Python program and a look at what the AI project does.
-- **Groups** Fifteen to twenty students at the same level.
-- **One to one** For any student who prefers it, at any stage.
-- **Her projects** Students choose what to build within each unit.
-- **Show and tell** Students present their work and give feedback.
-- **Age rules respected** No AI tool is used below the minimum age its own terms set.
+Weekday lessons in term.
+
+Early evening
+
+For older students, by arrangement.
+
+Weekend
+
+Longer project sessions.
+
+### Free first class
+
+A first Python program and a look at what the AI project does.
+
+### Groups
+
+Fifteen to twenty students at the same level.
+
+### One to one
+
+For any student who prefers it, at any stage.
+
+### Her projects
+
+Students choose what to build within each unit.
+
+### Show and tell
+
+Students present their work and give feedback.
+
+### Age rules respected
+
+No AI tool is used below the minimum age its own terms set.
+
+Student work
+
+## Real projects by our students
+
+Work our students built and published. See more in the [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees for the AI and Python academy
 
 Families outside India pay a monthly fee in US dollars. Nothing is due at sign-up and there is no contract.
 
-- Free first class: USD 0. A first Python program in the lesson. Advice on the right starting course. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty students at one level. Show and tell of projects. A regular teacher. Stop after any month.
-- One to one: USD 150 a month. Lessons shaped around one student. Her pace and project choices. Times around school.
+Free first class
+
+USD 0
+
+no card required
+
+- A first Python program in the lesson
+- Advice on the right starting course
+- No card needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students at one level
+- Show and tell of projects
+- A regular teacher
+- Stop after any month
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- Lessons shaped around one student
+- Her pace and project choices
+- Times around school
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Reviews from our Google profile, reproduced word for word.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Girls and parents ask
 
 ## Questions about the AI and Python academy for girls
 
@@ -292,15 +518,54 @@ We make no career or salary promises. The academy builds real skills and a portf
 
 A first class at no charge, with no card. Ongoing monthly fees for groups and one-to-one lessons are in the fees panel.
 
+Also on this site
+
 ## Related pages
 
-- [After a GPN workshop](/girls-programming-network-next-step-australia): From community events to regular lessons.
-- [Coding classes in Australia](/coding-classes-in-australia): Our full map of Australian pages.
-- [AI classes for teens](/ai-classes-for-teens-australia): Use, check and build AI.
-- [Python AI course for kids](/python-ai-course-for-kids-australia): Small models, ages 9 to 13.
-- [AI tool age guide](/ai-tools-age-guide): Minimum ages for popular tools.
-- [Student hackathons](/australian-student-hackathons): Build with a team.
+Other pages for girls, parents and curious students.
 
-## Contact
+### [After a GPN workshop](/girls-programming-network-next-step-australia)
 
-Book the free first class at [https://learn.modernagecoders.com/ai-and-python-academy-for-girls-australia](https://learn.modernagecoders.com/ai-and-python-academy-for-girls-australia#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+From community events to regular lessons.
+
+### [Coding classes in Australia](/coding-classes-in-australia)
+
+Our full map of Australian pages.
+
+### [AI classes for teens](/ai-classes-for-teens-australia)
+
+Use, check and build AI.
+
+### [Python AI course for kids](/python-ai-course-for-kids-australia)
+
+Small models, ages 9 to 13.
+
+### [AI tool age guide](/ai-tools-age-guide)
+
+Minimum ages for popular tools.
+
+### [Student hackathons](/australian-student-hackathons)
+
+Build with a team.
+
+Start here
+
+## Book her free first class
+
+Leave your details and we will call at a time that suits. The first class includes a first Python program and ends with a recommendation.
+
+More on [how we teach](/how-we-teach), and the [full course list](/courses).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Australia%20and%20interested%20in%20AI%20and%20Python%20lessons%20for%20my%20daughter%20(or%20for%20me).%20Could%20we%20book%20a%20free%20first%20class%3F) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+Families can message us on WhatsApp from any Australian mobile. The +91 number belongs to our teachers in India; we have no local office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-python-academy-for-girls-australia*

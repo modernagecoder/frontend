@@ -4,34 +4,28 @@ description: "Leaving Cert Computer Science grinds online: live Python, algorith
 canonical: https://learn.modernagecoders.com/leaving-cert-computer-science-grinds-online
 source: src/pages/leaving-cert-computer-science-grinds-online.html
 ---
-> Leaving Certificate Computer Science is designed for 180 hours of class contact time and, under the current specification, assessed by an end-of-course examination worth 70 percent and coursework worth 30 percent: one computational artefact with a report, done individually. Python is the language assessed in the exam, Python and JavaScript in the coursework. From September 2027 a redeveloped subject moves to a 60 percent exam and a 40 percent coursework project. Our grinds build what both parts reward: fluent, well-understood Python, algorithms and data handled with confidence, and the testing and reporting habits a project needs. We never write or edit coursework. Classes run live online, one to one or in groups of fifteen to twenty; the first class is free, then USD 150 a month one to one or USD 100 in a group.
+> Leaving Cert Computer Science grinds online: live Python, algorithms and coursework skills for the 70/30 exam and project, taught one to one or in small groups.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Ireland](/coding-classes-in-ireland) / Leaving Cert Computer Science grinds
+In short
 
-Ireland · Leaving Certificate · Live online
+Leaving Certificate Computer Science is designed for 180 hours of class contact time and, under the current specification, assessed by an end-of-course examination worth 70 percent and coursework worth 30 percent: one computational artefact with a report, done individually. Python is the language assessed in the exam, Python and JavaScript in the coursework. From September 2027 a redeveloped subject moves to a 60 percent exam and a 40 percent coursework project. Our grinds build what both parts reward: fluent, well-understood Python, algorithms and data handled with confidence, and the testing and reporting habits a project needs. We never write or edit coursework. Classes run live online, one to one or in groups of fifteen to twenty; the first class is free, then USD 150 a month one to one or USD 100 in a group.
 
-# Leaving Cert Computer Science grinds online
-
-Leaving Certificate Computer Science is unusual among Irish subjects: part of the marks come from a program the student builds and documents alone, and the written exam assesses Python. A grind for it therefore has two jobs. It has to build the fluency that lets a student read, trace and write code under exam conditions, and it has to build the skills the coursework assumes, without ever touching the coursework itself. This page sets out the subject as its specification describes it: the strands, the weighting, the languages assessed and the coursework rules. It also covers the redeveloped subject that reaches schools from September 2027. And it explains how our live online grinds for Fifth and Sixth Years work, one to one or in small groups, taught by a specialist at an Irish hour. We make no promise about grades or points. What we promise is a student who understands their code.
-
-At a glance: For: Fifth and Sixth Year; Subject: Leaving Cert Computer Science; Exam: Python, Higher and Ordinary; Coursework: Skills taught, never written for you; Format: Live, one to one or small group; Teacher: The same specialist each week; Hours: Irish evenings and weekends; Start: A free first class. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three courses that match the subject's demands
 
 Python for the exam, problem solving for the algorithms, and web development for the JavaScript side of the coursework. Each card opens its syllabus.
 
-- [Python for Teens](/courses/python-complete-masterclass-teens): The language the exam assesses, taught until reading, tracing and writing it are second nature.
-- [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens): Algorithms reasoned out and explained in words, the way a written exam asks for them.
-- [Full Stack Web Development for Teens](/courses/full-stack-web-development-teens-masterclass): JavaScript and the web, the other language the current coursework assesses.
+[![Python for Teens course thumbnail](/images/python-teens.webp)  LCCS / 01 Python for Teens The language the exam assesses, taught until reading, tracing and writing it are second nature. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)  LCCS / 02 Problem Solving for Teens Algorithms reasoned out and explained in words, the way a written exam asks for them. Open the syllabus →](/courses/problem-solving-dsa-masterclass-teens)[![Full Stack Web Development for Teens course thumbnail](/images/web-dev-teens.webp)  LCCS / 03 Full Stack Web Development for Teens JavaScript and the web, the other language the current coursework assesses. Open the syllabus →](/courses/full-stack-web-development-teens-masterclass)
+
+The subject
 
 ## Leaving Cert Computer Science, as the specifications set it out
 
 Two specifications matter to students now: the current one, which applies for examination up to June 2028, and the redeveloped one, for introduction in schools from September 2027. The details below are quoted or closely paraphrased from both.
 
-**The current and the redeveloped Leaving Certificate Computer Science**
-
-|  | Current specification | Redeveloped specification |
-|---|---|---|
+|   | Current specification | Redeveloped specification |
+| --- | --- | --- |
 | When | For examination to June 2028 | For introduction in September 2027 |
 | Hours | Designed for 180 hours of class contact time | Designed for a minimum of 180 hours of class contact time |
 | Assessment | An end-of-course examination (70%) and coursework (30%) | A final examination (60%) and a Coursework Project (40%) on a common brief |
@@ -48,6 +42,8 @@ The change is part of the redevelopment of the Senior Cycle. Computer Science is
 For a student in Fifth Year now, the practical point is simple: check with the school which specification your class will sit, because the weighting and the coursework format differ.
 
 Sources, read 16 September 2026: [LCCS specification (current)](https://www.curriculumonline.ie/getmedia/cff6eb86-9ff8-4e68-abf9-e42ca637492d/LC-Computer-Science-specification-updated.pdf); [Structure of Leaving Certificate Computer Science](https://www.curriculumonline.ie/senior-cycle/senior-cycle-subjects/computer-science/structure-of-leaving-certificate-computer-science/); [Coursework assessment guidelines (August 2023)](https://www.curriculumonline.ie/getmedia/b5e9833d-6842-4c85-b46e-a0897b72891e/CS-Coursework-Assessment-Guidelines-en.pdf); [Computer Science specification for introduction in 2027](https://www.curriculumonline.ie/getmedia/e794b22c-902f-4a8d-babb-fc7610454198/SC-Computer-Science-ENG-INT.pdf); [Senior Cycle redevelopment: what it means for me](https://www.gov.ie/en/department-of-education/publications/senior-cycle-redevelopment-what-it-means-for-me/); [Senior Cycle redevelopment](https://www.gov.ie/en/department-of-education/publications/senior-cycle-redevelopment/). The current coursework guidelines give ten school weeks in one place and eight in another.
+
+The coursework
 
 ## One artefact, one report, and the student's own work
 
@@ -77,6 +73,8 @@ Interactive information systems need a working interface and stored data; Analyt
 
 Our lessons practise each kind of task on separate projects across Fifth Year, so no brief arrives as a surprise. More on AI and your own work is on [understanding the code instead of copy-pasting](/understand-the-code-dont-copy-paste-ireland).
 
+The written exam
+
 ## What exam practice looks like in a Computer Science grind
 
 A written paper tests whether a student can reason about code without a computer to check it. That is a skill, and it is practised.
@@ -95,27 +93,27 @@ Short functions written by hand against the clock, then compared with the teache
 
 The 2026 Leaving Certificate written examinations ran from 3 June to 23 June 2026. We do not quote the date of any individual paper here: the State Examinations Commission publishes the timetable, and students should take it from there. Nothing on this page is a prediction of exam content or results.
 
+Good grinds
+
 ## What a good Computer Science grind looks like, from any provider
 
 Four things worth asking before booking Computer Science grinds, with our own answers.
 
-**Four questions for any Computer Science grind**
-
 | Question | Why ask it | Our answer |
-|---|---|---|
+| --- | --- | --- |
 | Is it live, with the same teacher? | Recorded lessons cannot notice where a student is stuck. | Live every time, with one specialist through the year. |
 | Does it teach understanding or answers? | A paper that cannot be run rewards reasoning, not memory. | Every program is predicted and explained before it is written. |
 | How does it handle the coursework? | The coursework must be the student's own work. | Skills on other examples only; the artefact is never touched. |
 | What does it promise? | No one can promise a grade or CAO points. | We promise a student who understands their code, and nothing we cannot keep. |
 
+Fifth and Sixth Year
+
 ## A two-year plan around the subject's calendar
 
 The plan fits the current specification's timing, with the coursework brief arriving towards the end of the first term of the second year. Each student's plan is adjusted to their school.
 
-**A typical two years of Computer Science grinds**
-
 | When | Focus | By the end the student can |
-|---|---|---|
+| --- | --- | --- |
 | Fifth Year, autumn | Python fluency | Read, trace and write Python without looking things up |
 | Fifth Year, spring | Algorithms and data | Explain and code sorts, searches and data handling |
 | Fifth Year, summer term | Project skills | Plan, test and document a small program of their own |
@@ -125,62 +123,285 @@ The plan fits the current specification's timing, with the coursework brief arri
 ### Starting late
 
 Students who start in Sixth Year skip nothing, but move faster through the first rungs and spend more time on tracing and written answers. One-to-one lessons usually suit a late start best.
+
 Students who have not yet chosen the subject can begin with [a general coding class](/best-online-coding-classes-ireland) in the Junior Cycle or Transition Year.
 
 ### During the coursework weeks
 
 While the student builds the artefact, grinds switch entirely to exam practice and to different example projects, so there is no question about whose work the coursework is.
+
 After the coursework is submitted, the final months go to written practice.
+
+The catalogue
 
 ## Eight live courses that support Leaving Cert Computer Science
 
 The courses our Computer Science students draw on, grouped by what they support. The free first class decides the mix.
 
+I
+
 ### For the exam
 
 Python, algorithms and reasoning
 
-- [Python for Teens](/courses/python-complete-masterclass-teens): The language of the paper, learned to fluency.
-- [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens): Algorithms and data structures, reasoned out.
-- [Maths Through Coding](/courses/maths-through-coding): The mathematics that algorithms quietly rely on.
+LCCS / EXAM / 01
+
+#### Python for Teens
+
+The language of the paper, learned to fluency.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+LCCS / EXAM / 02
+
+#### Problem Solving for Teens
+
+Algorithms and data structures, reasoned out.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
+
+LCCS / EXAM / 03
+
+#### Maths Through Coding
+
+The mathematics that algorithms quietly rely on.
+
+[Open the syllabus](/courses/maths-through-coding)II
 
 ### For coursework skills
 
 Practised on separate projects, never on the artefact
 
-- [Full Stack Web Development for Teens](/courses/full-stack-web-development-teens-masterclass): Interfaces, stored data and JavaScript.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data): Reading, cleaning and interpreting data.
-- [Git and GitHub for Teens](/courses/git-github-version-control-course-for-teens): A clear history of the student's own work.
+LCCS / SKILL / 01
+
+#### Full Stack Web Development for Teens
+
+Interfaces, stored data and JavaScript.
+
+[Open the syllabus](/courses/full-stack-web-development-teens-masterclass)
+
+LCCS / SKILL / 02
+
+#### Data Science for Teens
+
+Reading, cleaning and interpreting data.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)
+
+LCCS / SKILL / 03
+
+#### Git and GitHub for Teens
+
+A clear history of the student's own work.
+
+[Open the syllabus](/courses/git-github-version-control-course-for-teens)III
 
 ### For the redeveloped subject
 
 AI outcomes and deeper projects
 
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens): How AI systems learn, and what makes them work.
-- [App Development for Teens](/courses/complete-app-development-masterclass-for-teens): A complete app, built and documented.
+LCCS / NEXT / 01
+
+#### AI and Machine Learning for Teens
+
+How AI systems learn, and what makes them work.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+LCCS / NEXT / 02
+
+#### App Development for Teens
+
+A complete app, built and documented.
+
+[Open the syllabus](/courses/complete-app-development-masterclass-for-teens)
+
+How the grinds run
 
 ## Live grinds on Irish evenings and weekends
 
 Lessons are live, taught from India, at a weekly hour set in Irish time. Irish time runs five and a half hours behind India time in winter and four and a half in summer, so Senior Cycle students usually meet their teacher in the early evening or at the weekend.
 
-- **Early evening** After study, on school days, Irish time.
-- **Saturday** Longer sessions for written practice.
-- **Sunday** For students with busy weekday evenings.
+Early evening
 
-- **A free first class** The student traces and explains some Python, and the teacher says honestly where they stand.
-- **One to one** The usual choice for Sixth Years: one specialist, one student, the whole hour.
-- **Groups** Fifteen to twenty Senior Cycle students at the same level, often from several schools.
-- **Specialist teachers** Teachers who program, not generalists covering the subject for a term.
-- **Coursework kept separate** Skills on other projects only; the student's artefact is never seen or touched.
-- **Progress you can see** Parents hear what the student can now do, in plain terms, as the months go by.
+After study, on school days, Irish time.
+
+Saturday
+
+Longer sessions for written practice.
+
+Sunday
+
+For students with busy weekday evenings.
+
+### A free first class
+
+The student traces and explains some Python, and the teacher says honestly where they stand.
+
+### One to one
+
+The usual choice for Sixth Years: one specialist, one student, the whole hour.
+
+### Small groups
+
+Five to ten Senior Cycle students at the same level, often from several schools.
+
+### Specialist teachers
+
+Teachers who program, not generalists covering the subject for a term.
+
+### Coursework kept separate
+
+Skills on other projects only; the student's artefact is never seen or touched.
+
+### Progress you can see
+
+Parents hear what the student can now do, in plain terms, as the months go by.
+
+Student work
+
+## Projects our students built, outside any coursework
+
+Four live projects by our students. More on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees for Computer Science grinds
 
 Charged monthly in US dollars, the one rate we use outside India. No registration fee, and you can stop at the end of any month.
 
-- Free first class: USD 0. A first class with a specialist. An honest assessment of the starting point. No card needed.
-- Group batch: USD 100 a month. Five to ten Senior Cycle students. The same teacher each week. Written practice every week. A certificate at the end.
-- One to one: USD 150 a month. A specialist for one student. Paced to the school calendar. The usual choice for Sixth Year.
+Free first class
+
+USD 0
+
+no card required
+
+- A first class with a specialist
+- An honest assessment of the starting point
+- No card needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Five to ten Senior Cycle students
+- The same teacher each week
+- Written practice every week
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A specialist for one student
+- Paced to the school calendar
+- The usual choice for Sixth Year
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Copied from Google exactly. We do not write or pay for reviews.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions from Senior Cycle families
 
 ## What students and parents ask about Computer Science grinds
 
@@ -224,15 +445,54 @@ At a weekly hour set in the free first class, usually early evening or at the we
 
 We ring back at a suitable Irish hour to arrange the free first class. Nothing is charged unless the student continues.
 
+Elsewhere on this site
+
 ## More for Senior Cycle students
 
-- [Understand the code, do not copy-paste](/understand-the-code-dont-copy-paste-ireland): AI and your own work, in Irish guidance.
-- [Best online coding classes in Ireland](/best-online-coding-classes-ireland): Where Computer Science sits in Irish schools.
-- [AI and machine learning classes in Ireland](/ai-and-machine-learning-classes-in-ireland): For students drawn to the AI side of the new subject.
-- [Coding classes in Ireland](/coding-classes-in-ireland): The national page.
-- [How to read code](/how-to-read-code): Tracing, the core exam skill.
-- [The best coding class in the world](/best-coding-class-in-the-world): Eight tests for any class, grinds included.
+Related pages for the subject and beyond.
 
-## Contact
+### [Understand the code, do not copy-paste](/understand-the-code-dont-copy-paste-ireland)
 
-Book the free first class at [https://learn.modernagecoders.com/leaving-cert-computer-science-grinds-online](https://learn.modernagecoders.com/leaving-cert-computer-science-grinds-online#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+AI and your own work, in Irish guidance.
+
+### [Best online coding classes in Ireland](/best-online-coding-classes-ireland)
+
+Where Computer Science sits in Irish schools.
+
+### [AI and machine learning classes in Ireland](/ai-and-machine-learning-classes-in-ireland)
+
+For students drawn to the AI side of the new subject.
+
+### [Coding classes in Ireland](/coding-classes-in-ireland)
+
+The national page.
+
+### [How to read code](/how-to-read-code)
+
+Tracing, the core exam skill.
+
+### [The best coding class in the world](/best-coding-class-in-the-world)
+
+Eight tests for any class, grinds included.
+
+Start here
+
+## Book a free Computer Science class
+
+Leave a number and we will ring at a suitable Irish hour. In the first class a specialist works through some Python with the student and tells you plainly what to work on first.
+
+To read first: the [course pages](/courses) list every syllabus, [how we teach](/how-we-teach) explains the method, and [how to read code](/how-to-read-code) shows the tracing skill the exam rewards.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20first%20class%20for%20Leaving%20Cert%20Computer%20Science%20grinds.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp from an Irish phone is free and usually quickest. The number is Indian; we have no Irish office or classroom.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/leaving-cert-computer-science-grinds-online*

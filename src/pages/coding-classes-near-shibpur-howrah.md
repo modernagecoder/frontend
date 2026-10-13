@@ -12,15 +12,15 @@ Engineering Heritage Meets Future Skills: Live Online
 
 Modern Age Coders runs premium, 100% live online coding and mathematics classes for kids, teens and college students near Shibpur, Howrah. Built for IIEST's engineering-heritage neighbourhood, our small live batches (max 20) are taught by full-time software engineers and maths graduates, never pre-recorded video. Learn Python, Java, AI/ML, Scratch and school-to-Olympiad maths from home, with full ICSE and CBSE board support. From ₹1,499/month. Free demo today.
 
-100% Live Interactive4.9/5 Parent RatingMax 15–20 per BatchFrom ₹1,499/mo[Book Free Demo Class](/book-demo)[Explore Courses](/courses)
+100% Live Interactive4.9/5 Parent RatingMax 20 per BatchFrom ₹1,499/mo[Book Free Demo Class](/book-demo)[Explore Courses](/courses)
 
 Free demo • No commitment • Classes start within 24 hours
 
-10,000+Students Mentored4.9/5Average Parent Rating6–8Students per Live Batch90 minSaved per Class DayLive Online · Shibpur, Howrah
+10,000+Students Mentored4.9/5Average Parent Rating15–20Students per Live Batch90 minSaved per Class DayLive Online · Shibpur, Howrah
 
 ## At a Glance
 
-Format**100% live online, batch**, never pre-recorded videoBatch sizeMax 15–20 (group), up to 6 (mini batch), or 1-on-1Ages6 to 67, kids, teens, college students and working adultsSubjectsCoding (Python, Java, AI/ML, Scratch, Web, DSA) + Mathematics (school to Olympiad)BoardsICSE (Java/BlueJ), CBSE (Python), WBBSE state board: Bengali & Hindi-medium friendlyFeesGroup ₹1,499/mo • Mini Batch ₹2,999/mo • 1-on-1 ₹4,999/moFree demoYes, no commitment; classes start within 24 hours of enrolmentServingShibpur, Botanic Garden area, IIEST side, Mandirtala, Howrah Maidan, Kadamtala, Bandhaghat & nearby (711102, 711103, 711104), part of the greater Kolkata metroLive Online · Shibpur, Howrah
+Format**100% live online, small-batch**, never pre-recorded videoBatch sizeMax 20 (group), up to 6 (mini batch), or 1-on-1Ages6 to 67, kids, teens, college students and working adultsSubjectsCoding (Python, Java, AI/ML, Scratch, Web, DSA) + Mathematics (school to Olympiad)BoardsICSE (Java/BlueJ), CBSE (Python), WBBSE state board: Bengali & Hindi-medium friendlyFeesGroup ₹1,499/mo • Mini Batch ₹2,999/mo • 1-on-1 ₹4,999/moFree demoYes, no commitment; classes start within 24 hours of enrolmentServingShibpur, Botanic Garden area, IIEST side, Mandirtala, Howrah Maidan, Kadamtala, Bandhaghat & nearby (711102, 711103, 711104), part of the greater Kolkata metroLive Online · Shibpur, Howrah
 
 ## Premium Live Teaching, Brought Home to Shibpur
 

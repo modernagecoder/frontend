@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths classes for Cardiff learn
 canonical: https://learn.modernagecoders.com/best-coding-class-in-cardiff
 source: src/pages/best-coding-class-in-cardiff.html
 ---
-> Cardiff had 362,308 usual residents at the 2021 Census, and 27.6% of those aged five and over were schoolchildren or full-time students, against 19.9% across Wales. Cardiff University, which opened on 24 October 1883 with 102 full-time degree students, now counts 31,505. Learners across Cardiff, from six-year-olds to people of sixty-seven, study with Modern Age Coders live online, privately or in groups of fifteen to twenty placed by level, with India-based teachers working to a UK timetable. The first lesson costs nothing; afterwards a group place is USD 100 a month and private lessons USD 150 a month.
+> Live online coding, Python, AI and maths classes for Cardiff learners aged 6 to 67, from Canton and Roath to Cathays and Llanishen. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Cardiff
-
-Cardiff, Wales / Live online
-
-# Coding classes in Cardiff
-
-**What are the best coding classes in Cardiff?** Cardiff had 362,308 usual residents at the 2021 Census, and 27.6% of those aged five and over were schoolchildren or full-time students, against 19.9% across Wales. Cardiff University, which opened on 24 October 1883 with 102 full-time degree students, now counts 31,505. Learners across Cardiff, from six-year-olds to people of sixty-seven, study with Modern Age Coders live online, privately or in groups of fifteen to twenty placed by level, with India-based teachers working to a UK timetable. The first lesson costs nothing; afterwards a group place is USD 100 a month and private lessons USD 150 a month.
-
-The Office for National Statistics counted the people in every built-up area of Wales in 2021: 579 of them, from Cardiff with 348,535 down to Llandarcy with 115. Put them in order of size and a curious pattern appears. Zipf's law, famous from word frequencies, says the second place should be about half the size of the first, the third a third, and so on. Swansea, in second place, has 170,085; the law predicts 174,268 from Cardiff's count, within 2.5%. Across the ten largest places, the fitted line on a log-log chart has a slope of minus 0.999, almost exactly Zipf's minus one. But fit the 54 places of 10,000 or more and the line predicts a capital of about 246,650, so Cardiff comes out bigger than the pattern expects. Why, and how much the answer depends on which towns you include, is the lesson Wales's towns give our teenage learners.
-
-Facts last verified 21 September 2026. Teaching is online; no Cardiff branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Cardiff
 
 ## Four courses for the Welsh capital
 
 Follow the learner's interests. The opening lesson of any course is free, live and booked without card details.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): Logic, patterns and first programs, where ordering towns by size and spotting a rule is a natural early puzzle.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): Algebra, graphs and probability built in Python, the tools for plotting a pattern and testing whether it holds.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): Pandas, real datasets and honest charts for teenagers who know basic Python, a natural home for a 579-row census table.
-- [Maths for Data Science](/courses/data-analytics-mathematics-masterclass) (University and adult): Statistics, regression and the mathematics of data for adults, including the log scales that power laws need.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsLogic, patterns and first programs, where ordering towns by size and spotting a rule is a natural early puzzle.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingAlgebra, graphs and probability built in Python, the tools for plotting a pattern and testing whether it holds.See the syllabus](/courses/maths-through-coding)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensPandas, real datasets and honest charts for teenagers who know basic Python, a natural home for a 579-row census table.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Maths for Data Science course thumbnail](/images/data-analytics-maths.webp)University and adultMaths for Data ScienceStatistics, regression and the mathematics of data for adults, including the log scales that power laws need.See the syllabus](/courses/data-analytics-mathematics-masterclass)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Cardiff today
 
 ## A capital full of students and young adults
 
 From the 2021 Census tables for the Cardiff local authority, published by the Office for National Statistics on Nomis.
 
-**Cardiff, Census 2021**
-
 | Census 2021 measure | Cardiff | Wales |
-|---|---|---|
+| --- | --- | --- |
 | Usual residents | 362,308 | Not compared |
 | In households | 346,893, 95.7% | Not compared |
 | In communal establishments | 15,415, 4.3% | Not compared |
@@ -66,6 +52,8 @@ Children aged 5 to 9 were 5.9% of residents, close to Wales's 5.7%, so the capit
 
 Note that the council area and the built-up area are different shapes: the local authority counted 362,308 people, while the ONS built-up area called Cardiff, drawn around continuous development, counted 348,535. Both are right, for different boundaries. Learners here span every stage, from a Year 3 pupil in Roath building a first game to a Year 11 student in Llanishen preparing for WJEC GCSE Computer Science, or an adult in Cathays learning data skills.
 
+A university and a museum
+
 ## From 102 students to a Russell Group university
 
 From Cardiff University and Amgueddfa Cymru, National Museum Wales.
@@ -84,16 +72,18 @@ The University now reports 31,505 students from 142 countries and is a member of
 
 In 1893 the college became one of the founding institutions of the University of Wales, and it took the name University College, Cardiff, by 1972. In Cathays Park, Amgueddfa Cymru runs National Museum Cardiff, where admission is free with a booked ticket. We have no connection with either. We mention them because a capital city collects institutions, people and activity faster than its neighbours, which is exactly the effect the project on this page tries to measure.
 
-**What a built-up area is** The ONS draws built-up areas from satellite imagery around continuous development, so they follow the towns themselves rather than council boundaries. For Census 2021 it published a population for each of Wales's 579 built-up areas, rounded to the nearest 5 to protect confidentiality, and grouped them into five size classes.
+What a built-up area is
+
+The ONS draws built-up areas from satellite imagery around continuous development, so they follow the towns themselves rather than council boundaries. For Census 2021 it published a population for each of Wales's 579 built-up areas, rounded to the nearest 5 to protect confidentiality, and grouped them into five size classes.
+
+Signature project
 
 ## Is Cardiff as big as it should be?
 
 Zipf's rank-size rule says the town at rank r should have about 1/r of the largest town's population. We tested it on every built-up area in Wales.
 
-**Largest built-up areas in Wales, Census 2021, against the Zipf prediction from Cardiff**
-
 | Rank | Built-up area | Census 2021 | Zipf prediction |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1 | Cardiff | 348,535 | Starting point |
 | 2 | Swansea | 170,085 | 174,268 |
 | 3 | Newport | 130,890 | 116,178 |
@@ -119,14 +109,14 @@ The line fitted to the 54 places of 10,000 or more predicts a largest town of ab
 
 The answer depends heavily on the range. Fit all 579 places and the slope steepens to minus 1.259, because the smallest villages fall away faster than the rule allows. Fit only the top ten and it is almost perfect. A power law is only ever claimed over a range, and a learner who reports a slope without its range, or who fits the range that gives the answer they wanted, has not really tested anything.
 
+Testing a power law
+
 ## Five checks before claiming a pattern holds
 
 Learned on Welsh towns, used afterwards on word frequencies, website traffic, earthquake sizes, city populations everywhere and any ranked list that seems to follow a rule.
 
-**Testing a rank-size rule honestly**
-
 | Check | What it looks like | What it prevents |
-|---|---|---|
+| --- | --- | --- |
 | Define the units | Say whether you rank built-up areas, council areas or something else | Mixing boundaries that measure different things |
 | Plot on log scales | Look at log population against log rank before fitting anything | Missing a curve that a straight-line claim hides |
 | Report the range | Give the slope with the ranks it was fitted over | A pattern that only holds for the places you chose |
@@ -149,14 +139,37 @@ Power-law claims at work, from customer sizes to web traffic, tested over stated
 
 We are not connected with the Office for National Statistics, Cardiff University or Amgueddfa Cymru. The census figures are published for public use; the rankings, predictions and fitted slopes are our own calculations.
 
+Learning ladder
+
 ## From a bar chart of towns to a power law
 
 The ages are a starting guide; the free lesson settles the real level.
 
-- **Ages 6 to 10: Biggest to smallest** Ordering towns and objects by size, drawing bar charts and describing how quickly the bars shrink. [Elementary Maths for Grades 1-5](/courses/elementary-mathematics-complete-masterclass), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 11 to 13: Patterns and fractions** Halves, thirds and quarters of a number, sorting in code and testing whether a list follows a simple rule. [Maths Through Coding](/courses/maths-through-coding), [Middle School Mathematics Mastery](/courses/comprehensive-middle-school-mathematics-mastery)
-- **Ages 14 to 18: Power laws in Python** Real census data ranked, logarithms and log-log fits applied, and the range of a law tested honestly. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [High School Mathematics](/courses/complete-high-school-mathematics-mastery)
-- **Ages 18 to 67: Patterns in data at work** Regression, log scales and outlier analysis for adults who need to know whether a pattern is real. [Maths for Data Science](/courses/data-analytics-mathematics-masterclass), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### Biggest to smallest
+
+Ordering towns and objects by size, drawing bar charts and describing how quickly the bars shrink.
+
+[Elementary Maths for Grades 1-5](/courses/elementary-mathematics-complete-masterclass)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 11 to 13
+
+### Patterns and fractions
+
+Halves, thirds and quarters of a number, sorting in code and testing whether a list follows a simple rule.
+
+[Maths Through Coding](/courses/maths-through-coding)[Middle School Mathematics Mastery](/courses/comprehensive-middle-school-mathematics-mastery)Ages 14 to 18
+
+### Power laws in Python
+
+Real census data ranked, logarithms and log-log fits applied, and the range of a law tested honestly.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[High School Mathematics](/courses/complete-high-school-mathematics-mastery)Ages 18 to 67
+
+### Patterns in data at work
+
+Regression, log scales and outlier analysis for adults who need to know whether a pattern is real.
+
+[Maths for Data Science](/courses/data-analytics-mathematics-masterclass)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## An assistant can tell you Cardiff is the biggest town in Wales. Why should a Cardiff teenager test Zipf's law?
 
@@ -168,30 +181,139 @@ Zipf's law also sits close to the heart of modern AI. Word frequencies in any la
 
 Which is why programming is still worth a Cardiff teenager's time in 2026, in a capital that has outgrown its neighbours: patterns are easy to claim and hard to test, and knowing the difference is what programming with data teaches. The longer argument is in [is learning to code still worthwhile in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Canton, Roath or Llanishen, from your own desk
 
 Cardiff is compact, but a live online lesson still saves the trip across town.
 
-- **Bay to the northern suburbs** A learner in Butetown and another in Rhiwbina can share a lesson without either crossing the city.
-- **Welsh school years** Years 1 to 13, the Curriculum for Wales and WJEC GCSEs and A levels, named as Cardiff schools name them. Lessons are taught in English.
-- **A free lesson that counts** The first lesson teaches something real and ends with a recommended level, course and weekly time. No card is needed.
-- **Grouped by level** Every group holds fifteen to twenty learners at the same stage, gathered from Cardiff, other parts of Britain and further afield, so each level can meet at a sensible hour.
-- **Twice a week, set times** The rhythm is two fixed lessons weekly, roughly eight in a month, and any holiday or exam pause is planned with the teacher before it begins.
-- **Teachers in India** India keeps the same clock all year. Cardiff is four and a half hours behind it in British Summer Time and five and a half behind in winter, which places after-school and evening slots inside the teaching day.
+### Bay to the northern suburbs
 
-**Across South Wales** Families in Penarth, Caerphilly or Newport join exactly the same groups, because every lesson is online and groups are formed by level rather than postcode.
+A learner in Butetown and another in Rhiwbina can share a lesson without either crossing the city.
+
+### Welsh school years
+
+Years 1 to 13, the Curriculum for Wales and WJEC GCSEs and A levels, named as Cardiff schools name them. Lessons are taught in English.
+
+### A free lesson that counts
+
+The first lesson teaches something real and ends with a recommended level, course and weekly time. No card is needed.
+
+### Grouped by level
+
+Every group holds fifteen to twenty learners at the same stage, gathered from Cardiff, other parts of Britain and further afield, so each level can meet at a sensible hour.
+
+### Twice a week, set times
+
+The rhythm is two fixed lessons weekly, roughly eight in a month, and any holiday or exam pause is planned with the teacher before it begins.
+
+### Teachers in India
+
+India keeps the same clock all year. Cardiff is four and a half hours behind it in British Summer Time and five and a half behind in winter, which places after-school and evening slots inside the teaching day.
+
+Across South Wales
+
+Families in Penarth, Caerphilly or Newport join exactly the same groups, because every lesson is online and groups are formed by level rather than postcode.
+
+Fees
 
 ## Cardiff lesson fees
 
 One free lesson, then a single monthly fee.
 
-- First class: USD 0. A full lesson at no charge, ending with a level, a suggested course and a proposed weekly time.
-- Group tuition: USD 100 a month. About eight live lessons a month in a group of fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. About eight live lessons a month with a teacher who works with your learner alone.
+First class**USD 0**
+
+A full lesson at no charge, ending with a level, a suggested course and a proposed weekly time.
+
+Group tuition**USD 100**
+
+About eight live lessons a month in a group of fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+About eight live lessons a month with a teacher who works with your learner alone.
 
 Families outside India all pay one US dollar fee, so Pontcanna and Splott pay exactly the same, and we publish no prices in pounds. No invoice arrives before the free lesson has settled which course and which weekly slot suit, and our pricing page explains how pausing, missed lessons and a switch between group and private teaching are handled.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20we%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Cardiff%3F)Reviews
+
+## Six Google reviews from our families, as they wrote them
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson for a Cardiff learner
+
+We choose the first task by level: a bar chart of towns for a young child, a first Python program that sorts a list, or the ONS table of 579 Welsh built-up areas and a Zipf test for a teenager ready for real data.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Cardiff one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20we%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Cardiff%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Cardiff coding class questions
+
+What Cardiff families ask us most often.
 
 ### How many people live in Cardiff?
 
@@ -233,10 +355,14 @@ The first lesson is free. After it, a group place is USD 100 a month for two liv
 
 By level, pace and aims rather than age or postcode, with fifteen to twenty learners at one stage. If no group meets at a suitable time, we propose one-to-one lessons.
 
+Explore Wales and the UK
+
 ## Welsh guides and nearby cities
 
 The [Wales guide](/coding-and-ai-classes-in-wales) covers coding across the Curriculum for Wales, and exam help lives on the [WJEC GCSE Computer Science](/wjec-gcse-computer-science-help-wales) and [WJEC Digital Technology](/wjec-gcse-digital-technology-help-wales) pages. Across the Severn, [Bristol](/best-coding-class-in-bristol) splits its city into library catchments. Every UK page is linked from the [UK coding page](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20could%20we%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Cardiff%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-cardiff](https://learn.modernagecoders.com/best-coding-class-in-cardiff#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-cardiff*

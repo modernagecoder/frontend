@@ -4,34 +4,28 @@ description: "Maths tuition in Bristol for ages 6 to 67: live online lessons for
 canonical: https://learn.modernagecoders.com/maths-tuition-in-bristol
 source: src/pages/maths-tuition-in-bristol.html
 ---
-> Bristol learners aged 6 to 67 take live maths lessons with us online, either in a class of fifteen to twenty people working at the same level or one to one. Young children build times tables for the Year 4 check and the reasoning needed for Year 6 SATs maths. Older pupils move through KS3 maths into GCSE, foundation or higher, for AQA, Edexcel or OCR, or into IGCSE. Sixth formers study A level Maths, with Further Maths if they want it, and adults come for Functional Skills maths, GCSE maths resits or simply to feel confident with numbers again. Our Bristol example plots Census 2021 commuting data for 57 neighbourhoods and shows where a trend line can and cannot be trusted. Your first lesson is free; ongoing lessons are USD 100 a month in a class or USD 150 a month one to one.
+> Maths tuition in Bristol for ages 6 to 67: live online lessons for KS2 and SATs, KS3, GCSE, A level and Further Maths, plus adult maths. First lesson free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths tuition in Bristol
+What do Bristol learners get from our maths tuition?
 
-Bristol · Online maths tutor, ages 6 to 67 · Small live classes or private lessons
+Bristol learners aged 6 to 67 take live maths lessons with us online, either in a class of fifteen to twenty people working at the same level or one to one. Young children build times tables for the Year 4 check and the reasoning needed for Year 6 SATs maths. Older pupils move through KS3 maths into GCSE, foundation or higher, for AQA, Edexcel or OCR, or into IGCSE. Sixth formers study A level Maths, with Further Maths if they want it, and adults come for Functional Skills maths, GCSE maths resits or simply to feel confident with numbers again. Our Bristol example plots Census 2021 commuting data for 57 neighbourhoods and shows where a trend line can and cannot be trusted. Your first lesson is free; ongoing lessons are USD 100 a month in a class or USD 150 a month one to one.
 
-# Maths tuition in Bristol
-
-Split Bristol into its 57 census neighbourhoods and plot each one: distance from Bristol Bridge along the bottom, share of commuters who walk up the side. The points fall in a clear downhill band, with a correlation of minus 0.82. Draw the trend line and it makes a confident prediction for the furthest neighbourhood, 7.44 km out: minus 1.43% of people walk to work. In reality 12.4% do. A line that fits well in the middle can talk nonsense at the edges, and learning to notice that is a large part of GCSE statistics. This page explains how our online maths tutors teach Bristol learners, from the Year 4 times tables check through GCSE and A level to adult maths, using the city's own commuting data.
-
-At a glance: For: Bristol learners aged 6 to 67; Primary: KS2 maths, tables check, Year 6 SATs; Secondary: KS3, then GCSE at either tier; Exam boards: AQA, Edexcel, OCR, and IGCSE; Sixth form: A level Maths and Further Maths; Adults: Functional Skills, GCSE resits; Teaching: Live online, 15 to 20 per class or solo; Bristol project: Commuting by neighbourhood on a scatter graph. Rated 4.9 across 547 Google reviews.
+Popular with Bristol families
 
 ## Three maths courses Bristol learners book most
 
 GCSE, A level and primary maths come up in most Bristol enquiries. The complete list is further down.
 
-- [GCSE maths](/courses/gcse-mathematics-mastery): Every board, either tier, resits welcome; scatter graphs and correlation practised on real Bristol data.
-- [A level maths](/courses/a-level-maths-course-pure-mechanics-statistics): Pure, statistics and mechanics, with correlation and regression taught as tools rather than recipes.
-- [KS1 and KS2 maths](/courses/elementary-mathematics-complete-masterclass): Number facts, fractions and the explaining that the Year 6 SATs reasoning papers expect.
+[![GCSE Maths course thumbnail](/images/gcse-maths.webp)  BRS / 1 GCSE maths Every board, either tier, resits welcome; scatter graphs and correlation practised on real Bristol data. Open the syllabus →](/courses/gcse-mathematics-mastery)[![A-Level Maths course thumbnail](/images/a-level-maths.webp)  BRS / 2 A level maths Pure, statistics and mechanics, with correlation and regression taught as tools rather than recipes. Open the syllabus →](/courses/a-level-maths-course-pure-mechanics-statistics)[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  BRS / 3 KS1 and KS2 maths Number facts, fractions and the explaining that the Year 6 SATs reasoning papers expect. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)
+
+Primary to adult
 
 ## A Bristol maths tutor for KS2, KS3, GCSE, A level and adults
 
 Bristol schools teach the national curriculum for England, so a Bristol learner works through the same key stages and exams as learners elsewhere in England. Adults can join at any point.
 
-**What each stage of maths covers for a Bristol learner, and our main emphasis**
-
 | Stage | Years | Emphasis in our lessons |
-|---|---|---|
+| --- | --- | --- |
 | KS1 | Years 1 and 2 | Counting, number bonds, early multiplication and reading simple charts. |
 | KS2 | Years 3 to 6 | Times tables for the Year 4 check, written methods, fractions, line graphs and SATs reasoning. |
 | KS3 | Years 7 to 9 | Algebra, ratio, coordinates and straight-line graphs, the foundation for every scatter graph. |
@@ -53,6 +47,8 @@ National pages go further on each stage: [KS2](/ks2-maths-tuition-online), [KS3]
 
 Tables check: [gov.uk](https://www.gov.uk/government/collections/multiplication-tables-check), read on 1 October 2026. Year groups follow the usual pattern in English schools.
 
+The Bristol project
+
 ## Do people who live further out walk and cycle to work less?
 
 The 2021 census counted how every working Bristol resident travels to work, neighbourhood by neighbourhood. Put that next to distance from the centre and you have four scatter graphs with four very different stories.
@@ -65,10 +61,8 @@ Then we drew the four scatter graphs and fitted a least-squares line to each. Th
 
 Distance explains driving and walking well, explains cycling only partly, and explains bus use not at all. The same city, the same distances and the same census, yet four quite different answers.
 
-**Share of Bristol commuters by method against distance from Bristol Bridge, 57 neighbourhoods (our calculation from Census 2021)**
-
 | Method | Least-squares line | r | Lowest and highest share |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Driving a car or van | 30.296 + 6.489 × distance | 0.846 | 26.4% to 77.3% |
 | On foot | 37.693 − 5.262 × distance | −0.822 | 6.7% to 47.1% |
 | Bicycle | 13.871 − 1.465 × distance | −0.599 | 2.2% to 18.0% |
@@ -88,14 +82,14 @@ Averaged without weighting, the 24 neighbourhoods within 3 km have a cycling sha
 
 Data: [Nomis, Census 2021 table TS061, method used to travel to work](https://www.nomisweb.co.uk/sources/census_2021_bulk), Bristol MSOAs; [ONS Open Geography Portal](https://geoportal.statistics.gov.uk/), MSOA 2021 population weighted centroids. Both read 1 October 2026; Office for National Statistics, Open Government Licence. Shares, distances, lines and correlations are Modern Age Coders' calculations.
 
+Prediction, with a warning
+
 ## When a good line gives an impossible answer
 
 The same DfE statement asks learners to "interpolate and extrapolate apparent trends whilst knowing the dangers of so doing". The walking graph shows those dangers in a single number.
 
-**What the walking line predicts against what the census recorded (our calculation)**
-
 | Neighbourhood | Distance | Line predicts | Census shows |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Bristol 061, nearest | 0.50 km | 35.1% | 42.9% |
 | Bristol 058 | 1.67 km | 28.9% | 28.1% |
 | Bristol 052 | 5.57 km | 8.4% | 6.9% |
@@ -112,6 +106,8 @@ At A level we go further: a share has to stay between 0% and 100%, so a straight
 Every learner meets this project at their own level. Primary children read off the highest and lowest values. KS3 learners plot the points and describe the pattern. GCSE learners draw the line by eye, compare it with ours and talk about correlation. A level learners calculate r themselves and test whether the cycling correlation could have arisen by chance.
 
 Predictions use the least-squares lines in the previous table; all values are Modern Age Coders' calculations. GCSE wording: [DfE, GCSE mathematics subject content](https://www.gov.uk/government/publications/gcse-mathematics-subject-content-and-assessment-objectives).
+
+Maths around the city
 
 ## The Boolean Maths Hub and maths at the University of Bristol
 
@@ -139,6 +135,8 @@ All our lessons are online, so a learner in Bedminster, Fishponds or Southmead j
 
 Sources: [NCETM, Boolean Maths Hub](https://www.ncetm.org.uk/hubs/boolean-maths-hub/); [University of Bristol, School of Mathematics, About](https://www.bristol.ac.uk/maths/about/); [University of Bristol, faculty outreach activities](https://www.bristol.ac.uk/science-engineering/faculty-outreach-activities/). All read 1 October 2026. We have no link with the NCETM, the hub, the University of Bristol or any Bristol school.
 
+For adults
+
 ## Adult maths in Bristol: Functional Skills, GCSE resits and confidence
 
 Plenty of our Bristol learners are adults. Some need a maths qualification for work or college, some want to help with homework, and some simply want numbers to stop feeling like a test.
@@ -157,14 +155,14 @@ Percentages, graphs and statistics in the news and at work. Our [adult maths cla
 
 Adults often take to this project quickly, because most of them commute and many have argued about whether more cycle lanes would change their own journey. The scatter graphs give them a careful way to have that argument, and the causation warning gives them a reason to be modest about the answer.
 
+Route
+
 ## From reading a chart to judging a trend line
 
 These are the steps that lead to the statistics on this page. The free lesson shows where a new learner should start.
 
-**Four steps towards scatter graphs and correlation for Bristol learners**
-
 | Usually | Step | Secure when the learner |
-|---|---|---|
+| --- | --- | --- |
 | Years 3 and 4 | 1. Facts and charts | Knows the tables and reads values from a bar chart or line graph |
 | Years 5 to 7 | 2. Coordinates | Plots points accurately in all four quadrants |
 | Years 8 to 10 | 3. Straight lines | Finds a gradient and an intercept and explains what each means |
@@ -173,75 +171,353 @@ These are the steps that lead to the statistics on this page. The free lesson sh
 ### Joining late in GCSE
 
 Learners who start in Year 11 can still make solid progress if we first secure the algebra and number that everything else depends on.
+
 If the gap is too big for the time left before the exam, we will tell you honestly after the free lesson.
 
 ### Beyond GCSE
 
 Many learners continue to A level Maths, some with Further Maths. Those who enjoy data often take our [statistics and probability course](/courses/statistics-probability-maths-course).
+
 Others use [maths through coding](/courses/maths-through-coding) to draw these scatter graphs in Python.
+
+Course catalogue
 
 ## Maths courses for Bristol learners
 
 Four groups by stage. Each card leads to the full syllabus.
 
+I
+
 ### Early years and primary
 
 Ages 6 to 11
 
-- [Primary maths](/courses/elementary-mathematics-complete-masterclass): KS1 and KS2, through to SATs reasoning.
-- [First steps in maths](/courses/early-math-foundations): Number sense for the youngest.
-- [Mental maths](/courses/mental-maths-mastery-kids): Quick, careful calculation.
-- [11 plus maths](/courses/11-plus-maths-preparation-course-uk): Preparation for selective school tests.
+MBS / A1
+
+#### Primary maths
+
+KS1 and KS2, through to SATs reasoning.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+MBS / A2
+
+#### First steps in maths
+
+Number sense for the youngest.
+
+[Open the syllabus](/courses/early-math-foundations)
+
+MBS / A3
+
+#### Mental maths
+
+Quick, careful calculation.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+MBS / A4
+
+#### 11 plus maths
+
+Preparation for selective school tests.
+
+[Open the syllabus](/courses/11-plus-maths-preparation-course-uk)II
 
 ### Secondary
 
 KS3 to GCSE
 
-- [KS3 maths](/courses/comprehensive-middle-school-mathematics-mastery): Years 7 to 9: algebra, graphs and data.
-- [GCSE maths](/courses/gcse-mathematics-mastery): AQA, Edexcel, OCR; either tier; resits.
-- [IGCSE maths](/courses/igcse-mathematics-mastery): For the international specifications.
-- [Algebra foundations](/courses/algebra-foundations-masterclass): A fresh start with letters and equations.
+MBS / B1
+
+#### KS3 maths
+
+Years 7 to 9: algebra, graphs and data.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+MBS / B2
+
+#### GCSE maths
+
+AQA, Edexcel, OCR; either tier; resits.
+
+[Open the syllabus](/courses/gcse-mathematics-mastery)
+
+MBS / B3
+
+#### IGCSE maths
+
+For the international specifications.
+
+[Open the syllabus](/courses/igcse-mathematics-mastery)
+
+MBS / B4
+
+#### Algebra foundations
+
+A fresh start with letters and equations.
+
+[Open the syllabus](/courses/algebra-foundations-masterclass)III
 
 ### Sixth form and university
 
 Advanced and competition
 
-- [A level maths](/courses/a-level-maths-course-pure-mechanics-statistics): Pure, statistics and mechanics.
-- [Statistics and probability](/courses/statistics-probability-maths-course): Correlation, regression and testing.
-- [Competition maths](/courses/olympiad-competition-mathematics-mastery): For UKMT challenges and beyond.
-- [University maths](/courses/college-mathematics-complete-masterclass): Calculus and linear algebra.
+MBS / C1
+
+#### A level maths
+
+Pure, statistics and mechanics.
+
+[Open the syllabus](/courses/a-level-maths-course-pure-mechanics-statistics)
+
+MBS / C2
+
+#### Statistics and probability
+
+Correlation, regression and testing.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)
+
+MBS / C3
+
+#### Competition maths
+
+For UKMT challenges and beyond.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)
+
+MBS / C4
+
+#### University maths
+
+Calculus and linear algebra.
+
+[Open the syllabus](/courses/college-mathematics-complete-masterclass)IV
 
 ### Adult and applied
 
 Work and interest
 
-- [Maths for data analysis](/courses/data-analytics-mathematics-masterclass): Regression and statistics at work.
-- [Business and finance maths](/courses/complete-business-finance-mathematics-mastery): Interest, budgets and forecasting.
-- [Maths through coding](/courses/maths-through-coding): Scatter graphs and models in Python.
-- [Vedic maths](/courses/vedic-maths-course-speed-calculation-mastery): Speed methods for arithmetic.
+MBS / D1
+
+#### Maths for data analysis
+
+Regression and statistics at work.
+
+[Open the syllabus](/courses/data-analytics-mathematics-masterclass)
+
+MBS / D2
+
+#### Business and finance maths
+
+Interest, budgets and forecasting.
+
+[Open the syllabus](/courses/complete-business-finance-mathematics-mastery)
+
+MBS / D3
+
+#### Maths through coding
+
+Scatter graphs and models in Python.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+MBS / D4
+
+#### Vedic maths
+
+Speed methods for arithmetic.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
+
+Scheduling
 
 ## Maths lessons that fit the Bristol day
 
 Our tutors teach from India, where clocks do not change. India is four and a half hours ahead of Bristol in British Summer Time and five and a half ahead in winter, and we book every lesson in UK time.
 
-- **Weekday late afternoons** Primary and secondary learners after school.
-- **Weekday evenings** A level students and working adults.
-- **Weekend mornings** For families who prefer the weekend.
+Weekday late afternoons
 
-- **Same tutor every week** Continuity means no time lost re-explaining.
-- **Progress notes** Short, honest updates after lessons for families.
-- **Matched by level** Classes of fifteen to twenty at one level, wherever they live.
-- **Census and local data** Real Bristol numbers next to exam questions.
-- **Private lessons** One to one for a particular gap or an exam close at hand.
-- **Why before how** Learners explain an idea before they practise it.
+Primary and secondary learners after school.
+
+Weekday evenings
+
+A level students and working adults.
+
+Weekend mornings
+
+For families who prefer the weekend.
+
+### Same tutor every week
+
+Continuity means no time lost re-explaining.
+
+### Progress notes
+
+Short, honest updates after lessons for families.
+
+### Matched by level
+
+Classes of fifteen to twenty at one level, wherever they live.
+
+### Census and local data
+
+Real Bristol numbers next to exam questions.
+
+### Private lessons
+
+One to one for a particular gap or an exam close at hand.
+
+### Why before how
+
+Learners explain an idea before they practise it.
+
+Student work
+
+## Projects built by our learners
+
+Students who started with data problems like the Bristol scatter graphs have gone on to build the projects below. See more in the [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Billed in US dollars each month, one price for every country outside India, with no registration fee and no contract to sign.
 
-- Free first class: USD 0. A real lesson pitched at the learner. Clear feedback afterwards. No card details.
-- Group batch: USD 100 a month. A class of fifteen to twenty at one level. A regular tutor. Homework marked with comments. Course certificate.
-- One to one: USD 150 a month. One tutor, one learner. Focused on particular gaps. Useful before exams.
+Free first class
+
+USD 0
+
+no card required
+
+- A real lesson pitched at the learner
+- Clear feedback afterwards
+- No card details
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- A class of fifteen to twenty at one level
+- A regular tutor
+- Homework marked with comments
+- Course certificate
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- One tutor, one learner
+- Focused on particular gaps
+- Useful before exams
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Unaltered Google reviews from families and learners.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Bristol maths questions
 
 ## Questions Bristol families ask before booking
 
@@ -285,15 +561,54 @@ No. We describe their public pages so families know about them, but we have no c
 
 No. We teach carefully and report progress honestly, but no tutor can guarantee an exam result.
 
+Next pages
+
 ## More for Bristol learners
 
-- [GCSE maths tuition](/gcse-maths-tuition-online): Our national GCSE maths page.
-- [A level maths tuition](/a-level-maths-tuition-online): Sixth form maths, explained.
-- [Maths for adults](/online-maths-classes-for-adults-in-uk): Classes for adult learners across the UK.
-- [Coding classes in Bristol](/best-coding-class-in-bristol): Our Bristol coding and AI page.
-- [Maths tuition in London](/maths-tuition-in-london): Our London maths page and its sampling project.
-- [UK index](/coding-classes-in-united-kingdom): All our UK pages in one place.
+Maths pages by stage, our Bristol coding page and other city maths pages.
 
-## Contact
+### [GCSE maths tuition](/gcse-maths-tuition-online)
 
-Book the free first class at [https://learn.modernagecoders.com/maths-tuition-in-bristol](https://learn.modernagecoders.com/maths-tuition-in-bristol#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Our national GCSE maths page.
+
+### [A level maths tuition](/a-level-maths-tuition-online)
+
+Sixth form maths, explained.
+
+### [Maths for adults](/online-maths-classes-for-adults-in-uk)
+
+Classes for adult learners across the UK.
+
+### [Coding classes in Bristol](/best-coding-class-in-bristol)
+
+Our Bristol coding and AI page.
+
+### [Maths tuition in London](/maths-tuition-in-london)
+
+Our London maths page and its sampling project.
+
+### [UK index](/coding-classes-in-united-kingdom)
+
+All our UK pages in one place.
+
+Start here
+
+## Book a free maths lesson for a Bristol learner
+
+Give us the learner's age or school year, any exam board, and the topic that feels hardest. The first lesson is a proper lesson, and afterwards we tell you plainly where the learner stands.
+
+Want to look first? See all [our courses](/courses) or how [our lessons are taught](/how-we-teach).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20a%20learner%20in%20Bristol.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp brings the quickest answer. The number has an Indian code because the team is in India; we have no Bristol premises and teach entirely online.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/maths-tuition-in-bristol*

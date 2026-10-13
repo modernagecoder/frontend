@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths classes for families acro
 canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-wales
 source: src/pages/coding-and-ai-classes-in-wales.html
 ---
-> Wales has just rebuilt its computing qualification and almost nobody has explained what changed. The Made-for-Wales GCSE Computer Science, first taught from September 2025, is "a unitised qualification" in two halves: Unit 1, a "digital only examination, marked by WJEC" worth 50 per cent and first available in 2026, and Unit 2, an "on-screen examination" also worth 50 per cent, first available in 2027, in which "the language used in the examination will be Python". There is "no optionality and no tiering". Unit 2 runs from a pre-release brief issued a full academic year in advance, and no work done on that brief may be taken into the room. A class that helps a Welsh learner has to teach what survives that door: Python they can write unaided. We teach live online from India, ages 6 to 67, in groups of fifteen to twenty or one to one. The first lesson is free; a group place is then USD 100 a month and one-to-one teaching USD 150.
+> Live online coding, Python, AI and maths classes for families across Wales, built around the Curriculum for Wales and the new Made-for-Wales Computer Science GCSE.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Wales
-
-Wales, United Kingdom / Live online
-
-# Coding and AI classes in Wales
-
-**What are the best coding classes in Wales?** Wales has just rebuilt its computing qualification and almost nobody has explained what changed. The Made-for-Wales GCSE Computer Science, first taught from September 2025, is "a unitised qualification" in two halves: Unit 1, a "digital only examination, marked by WJEC" worth 50 per cent and first available in 2026, and Unit 2, an "on-screen examination" also worth 50 per cent, first available in 2027, in which "the language used in the examination will be Python". There is "no optionality and no tiering". Unit 2 runs from a pre-release brief issued a full academic year in advance, and no work done on that brief may be taken into the room. A class that helps a Welsh learner has to teach what survives that door: Python they can write unaided. We teach live online from India, ages 6 to 67, in groups of fifteen to twenty or one to one. The first lesson is free; a group place is then USD 100 a month and one-to-one teaching USD 150.
-
-Every other nation in Britain marks a computing project a student brings with them. Wales does the opposite, and the design is worth reading twice. Candidates for Unit 2 receive a pre-release brief in the academic year before the exam, a scenario with requirements and tasks to work through "both individually and in groups". They may spend a year on it. Then WJEC says two things in the same paragraph: work done on the brief "will not be formally assessed and nor will it contribute to the final grade", and "learners may not take any work already done on the pre-release brief into the assessment". A year of preparation, and not one page of it crosses the threshold. That single rule decides what a useful class in Wales looks like.
-
-Facts last verified 20 September 2026. Teaching is online; no Wales branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Wales
 
 ## Four courses for learners in Wales
 
 A Year 4 child in Swansea who wants to make a game, a Year 10 in Wrexham starting the new GCSE, a sixth former in Cardiff looking past it, and a parent in Bridgend who wants to understand what their child is learning. Each begins with a free lesson.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): A first language, where a child builds something that works and can explain how, which is what the Welsh progression steps are built around.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Typed Python before the GCSE starts, so that Year 10 is spent on problems rather than on syntax.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): The language the Welsh Unit 2 examination is written in, taught until a student can produce a working program with nothing to copy from.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): For grown-ups who want the vocabulary their children are being taught, without becoming programmers.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsA first language, where a child builds something that works and can explain how, which is what the Welsh progression steps are built around.See the syllabus](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsTyped Python before the GCSE starts, so that Year 10 is spent on problems rather than on syntax.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensThe language the Welsh Unit 2 examination is written in, taught until a student can produce a working program with nothing to copy from.See the syllabus](/courses/python-complete-masterclass-teens)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For grown-ups who want the vocabulary their children are being taught, without becoming programmers.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)The new GCSE
 
 ## Two units, both on a screen, and Python named in the rules
 
 Every figure below is from WJEC's own qualification outline, read on 20 September 2026.
 
-**Made-for-Wales GCSE Computer Science, as WJEC describes it**
-
-|  | Unit 1: Understanding Computer Science | Unit 2: Computer Programming |
-|---|---|---|
+|   | Unit 1: Understanding Computer Science | Unit 2: Computer Programming |
+| --- | --- | --- |
 | Weighting | 50 per cent | 50 per cent |
 | How it is sat | "Digital only examination, marked by WJEC" | "On-screen examination, marked by WJEC" |
 | Suggested length | "No longer than 1 hour and 45 minutes" | "No longer than 2 hours" |
@@ -63,14 +49,14 @@ Alongside it, WJEC has a second qualification: GCSE Digital Technology, teaching
 
 One consequence worth naming for parents: because Unit 2 is assessed on screen in Python, a Welsh student who has only ever used block-based coding arrives at a disadvantage that has nothing to do with ability. The gap is keyboard fluency in one specific language, and it closes in a term.
 
+The pre-release brief
+
 ## A year with the brief, and nothing you may carry in
 
 This is the most unusual rule in British computing assessment, and it is stated plainly in the qualification outline.
 
-**What WJEC says about the pre-release brief**
-
 | Rule | In WJEC's words |
-|---|---|
+| --- | --- |
 | When it arrives | "Issued to centres in the academic year before the assessment is scheduled to take place (for example, September 2025 for the 2027 examination)" |
 | What is in it | "A scenario containing a list of requirements and provides information about all tasks learners must undertake both individually and in groups" |
 | Whether it is marked | "Work completed on the pre-release brief prior to the assessment will not be formally assessed and nor will it contribute to the final grade" |
@@ -98,14 +84,14 @@ None of this is guesswork on our part. Every sentence in the table is quoted fro
 
 Modern Age Coders has no connection with WJEC or Qualifications Wales. We do not see pre-release briefs, we do not work on a candidate's brief with them, and we would decline if asked: the whole design depends on the preparation being the student's own.
 
+Before the GCSE
+
 ## Progression steps, not key stages
 
 Wales reorganised its whole curriculum, and the vocabulary a Welsh parent meets is different from the one used across the border.
 
-**How the Curriculum for Wales is put together**
-
 | Term | What it means | The English equivalent |
-|---|---|---|
+| --- | --- | --- |
 | Areas of Learning and Experience | Six broad areas rather than a list of subjects | Subjects and the national curriculum |
 | Science and Technology | The area that "draws on the disciplines of biology, chemistry, computer science, design and technology, and physics" | Computing, science and design technology, separately |
 | Progression steps | Broad points in a learner's journey, not year-group boundaries | Key stages 1 to 4 |
@@ -119,14 +105,14 @@ For us it changes how we place a learner. We do not ask which key stage a child 
 
 The same approach runs through every nation on this site. The [UK page](/coding-classes-in-united-kingdom) sets out all four school systems and what a single birthday does under each of them.
 
+Across Wales
+
 ## Twenty-two principal areas, 3,107,500 people, one lesson
 
 Usual residents at Census 2021, from the Office for National Statistics. Online teaching puts all twenty-two the same distance from a teacher.
 
-**The largest Welsh principal areas at Census 2021**
-
 | Principal area | Usual residents | Principal area | Usual residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Cardiff | 362,308 | Powys | 133,169 |
 | Swansea | 238,490 | Vale of Glamorgan | 131,939 |
 | Rhondda Cynon Taff | 237,651 | Pembrokeshire | 123,360 |
@@ -148,16 +134,41 @@ We teach in English. Welsh-medium and bilingual education is a substantial part 
 
 Everything else about the offer is as elsewhere: [the UK page](/coding-classes-in-united-kingdom) lists every page in this series, and the [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar) covers what a Welsh pupil can enter.
 
-**Source** Population: Office for National Statistics, Population and household estimates, England and Wales, Census 2021, for the figure for Wales, and ONS Census 2021 usual residents by local authority via Nomis for the principal areas. Qualification facts: WJEC's GCSE Computer Science qualification outline and its GCSE Digital Technology pages. Curriculum structure: Hwb, Welsh Government. All read 20 September 2026.
+Source
+
+Population: Office for National Statistics, Population and household estimates, England and Wales, Census 2021, for the figure for Wales, and ONS Census 2021 usual residents by local authority via Nomis for the principal areas. Qualification facts: WJEC's GCSE Computer Science qualification outline and its GCSE Digital Technology pages. Curriculum structure: Hwb, Welsh Government. All read 20 September 2026.
+
+Learning ladder
 
 ## From a first program to a Python exam sat on screen
 
 A learner is placed by what they can write unaided, which in Wales is exactly what the qualification measures.
 
-- **Ages 6 to 10: Making things work** Block-based programs a child can explain, matching the progression steps rather than any year group. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 10 to 13: Into typed Python** The crossing that decides how Year 10 feels, made early and slowly rather than late and fast. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 16: Python without a crutch** Writing, testing and refining a program with nothing to copy from, which is the Unit 2 room. [Python for Teens](/courses/python-complete-masterclass-teens), [GCSE Computer Science](/courses/gcse-computer-science-course)
-- **Ages 16 to 67: Beyond the GCSE** A levels, data, AI and adult retraining, for learners who found they liked it. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Making things work
+
+Block-based programs a child can explain, matching the progression steps rather than any year group.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 10 to 13
+
+### Into typed Python
+
+The crossing that decides how Year 10 feels, made early and slowly rather than late and fast.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 16
+
+### Python without a crutch
+
+Writing, testing and refining a program with nothing to copy from, which is the Unit 2 room.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[GCSE Computer Science](/courses/gcse-computer-science-course)Ages 16 to 67
+
+### Beyond the GCSE
+
+A levels, data, AI and adult retraining, for learners who found they liked it.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## An AI will write the pre-release solution for you. Why should a Welsh teenager learn to write it themselves?
 
@@ -169,30 +180,139 @@ That makes Wales an unusually honest test of what a student actually knows, and 
 
 So the case for a Welsh teenager learning to code in 2026 is not abstract. Half their Computer Science GCSE is a program they must produce from their own hands, and the qualification was designed that way on purpose. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## From Holyhead to Chepstow, taught at your desk
 
 A scattered country is the strongest case there is for a lesson that does not need a journey.
 
-- **Wherever the learner is** Valleys, coast or city. The lesson travels to the child instead of a parent driving across a county.
-- **Welsh vocabulary used** Progression steps, Areas of Learning and Experience and the Made-for-Wales GCSE, called what Wales calls them.
-- **A free lesson first** A real piece of teaching that ends with an honest view of level and course. No card needed.
-- **Groups by level** Fifteen to twenty learners at the same stage, drawn from Wales and beyond so a group exists at a sensible hour.
-- **Taught in English** We do not teach through Welsh. A bilingual learner is very welcome; a Welsh-medium lesson is not something we can offer.
-- **Times in UK time** Teachers work from India, five and a half hours ahead in winter and four and a half in summer, and every lesson is agreed in UK time.
+### Wherever the learner is
 
-**Python early, not late** Unit 2 is sat on screen in Python in the final year of the course. A learner who reaches Year 10 already typing Python spends that year on problems instead of on syntax, which is the single most useful thing a Welsh family can arrange in advance.
+Valleys, coast or city. The lesson travels to the child instead of a parent driving across a county.
+
+### Welsh vocabulary used
+
+Progression steps, Areas of Learning and Experience and the Made-for-Wales GCSE, called what Wales calls them.
+
+### A free lesson first
+
+A real piece of teaching that ends with an honest view of level and course. No card needed.
+
+### Groups by level
+
+Fifteen to twenty learners at the same stage, drawn from Wales and beyond so a group exists at a sensible hour.
+
+### Taught in English
+
+We do not teach through Welsh. A bilingual learner is very welcome; a Welsh-medium lesson is not something we can offer.
+
+### Times in UK time
+
+Teachers work from India, five and a half hours ahead in winter and four and a half in summer, and every lesson is agreed in UK time.
+
+Python early, not late
+
+Unit 2 is sat on screen in Python in the final year of the course. A learner who reaches Year 10 already typing Python spends that year on problems instead of on syntax, which is the single most useful thing a Welsh family can arrange in advance.
+
+Fees
 
 ## What classes cost in Wales
 
 The same three prices everywhere, from Cardiff to Anglesey.
 
-- First class: USD 0. A full lesson on real work, ending with a suggested level and course.
-- Group tuition: USD 100 a month. About eight lessons a month with fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. About eight lessons a month with a teacher for one learner.
+First class**USD 0**
+
+A full lesson on real work, ending with a suggested level and course.
+
+Group tuition**USD 100**
+
+About eight lessons a month with fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+About eight lessons a month with a teacher for one learner.
 
 Fees are set in US dollars, the rate for every family outside India, and there is no pound price list. Nothing is charged until the free lesson has settled a course and a regular slot; the pricing page covers pauses, missed lessons and moving between group and private teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Wales.)Reviews
+
+## Six Google reviews, printed as families wrote them
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us about the learner
+
+A school year and what they enjoy is enough. A first task might be a Scratch game, a first Python program, or a look at what Unit 2 actually asks for.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Wales one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Wales.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Coding classes in Wales: questions
+
+About the new GCSE, the curriculum and how lessons work.
 
 ### What is the Made-for-Wales Computer Science GCSE?
 
@@ -234,10 +354,14 @@ Because the Curriculum for Wales uses progression steps and six Areas of Learnin
 
 No. Our lessons are in English. We say so plainly rather than let a Welsh-medium family find out after booking.
 
+Explore the UK
+
 ## The other nations
 
 The [UK page](/coding-classes-in-united-kingdom) covers all four school systems and links every UK page as it goes live, [Scotland](/coding-and-ai-classes-in-scotland) has its own qualifications and stages, and the [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar) lists what a Welsh pupil can enter this year.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Wales.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-and-ai-classes-in-wales](https://learn.modernagecoders.com/coding-and-ai-classes-in-wales#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-wales*

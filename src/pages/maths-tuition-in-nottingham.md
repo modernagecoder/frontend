@@ -4,34 +4,28 @@ description: "Online maths tuition in Nottingham for ages 6 to 67: Year 6 SATs, 
 canonical: https://learn.modernagecoders.com/maths-tuition-in-nottingham
 source: src/pages/maths-tuition-in-nottingham.html
 ---
-> We are an online maths tutor for Nottingham learners from 6 to 67: KS2 maths and the Year 6 SATs papers, KS3, GCSE at Foundation or Higher tier on AQA, Edexcel or OCR including resits, A level Maths and Further Maths, and adult maths such as Functional Skills and refreshers. Groups of fifteen to twenty learners share one level, and private lessons are also available. Our local example uses Met Office records from Sutton Bonington: over 481 months from 1959 to 1999, sunshine and maximum temperature correlate at 0.834, but within November alone the correlation is -0.098, because the season, not the sunshine, drives most of the pattern. The opening lesson costs nothing; then it is USD 100 a month for a group place or USD 150 a month for one to one.
+> Online maths tuition in Nottingham for ages 6 to 67: Year 6 SATs, KS3, GCSE resits, A level, Further Maths and adult maths, with a local weather data project.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths tuition in Nottingham
+In short
 
-Nottingham · Maths for every learner from 6 to 67 · Live online, small groups or one to one
+We are an online maths tutor for Nottingham learners from 6 to 67: KS2 maths and the Year 6 SATs papers, KS3, GCSE at Foundation or Higher tier on AQA, Edexcel or OCR including resits, A level Maths and Further Maths, and adult maths such as Functional Skills and refreshers. Groups of fifteen to twenty learners share one level, and private lessons are also available. Our local example uses Met Office records from Sutton Bonington: over 481 months from 1959 to 1999, sunshine and maximum temperature correlate at 0.834, but within November alone the correlation is -0.098, because the season, not the sunshine, drives most of the pattern. The opening lesson costs nothing; then it is USD 100 a month for a group place or USD 150 a month for one to one.
 
-# Maths tuition in Nottingham
-
-Does a sunny month run warmer? It sounds too obvious to test, so we tested it on forty-one years of Met Office records from Sutton Bonington, in Rushcliffe. Across 481 months the answer looks like a firm yes: the correlation between sunshine hours and average maximum temperature is 0.834. Then split the months up. In July the link stays strong. In November it vanishes, and the correlation even turns slightly negative. The strong overall pattern was mostly the seasons talking. Knowing when a correlation means something is a GCSE skill and an A level one, and it is the thread running through this page about how we teach maths to Nottingham learners of every age.
-
-At a glance: Who: Nottingham learners aged 6 to 67; Primary: KS2 maths and the Year 6 tests; Secondary: KS3, then GCSE on AQA, Edexcel or OCR; Sixth form: A level Maths, Further Maths; Adults: Functional Skills, GCSE resits, refreshers; Format: Live video, 15 to 20 per group, or one to one; Teachers: Working from India on UK hours; Local project: Sunshine against temperature, 1959 to 1999. Rated 4.9 across 547 Google reviews.
+Where Nottingham learners tend to start
 
 ## Three usual first courses
 
 Start from the stage. Every other course, from early number to university maths, is listed lower down.
 
-- [KS2 maths](/courses/elementary-mathematics-complete-masterclass): Arithmetic that holds up under a 30 minute paper, and reasoning that can be written down, ready for Year 6.
-- [GCSE maths, first time or resit](/courses/gcse-mathematics-mastery): AQA, Edexcel or OCR at either tier, including learners resitting after Year 11.
-- [A level Maths](/courses/a-level-maths-course-pure-mechanics-statistics): Regression, correlation and calculus practised on genuine data, such as the weather records further down.
+[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  NOT / 1 KS2 maths Arithmetic that holds up under a 30 minute paper, and reasoning that can be written down, ready for Year 6. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)[![GCSE Maths course thumbnail](/images/gcse-maths.webp)  NOT / 2 GCSE maths, first time or resit AQA, Edexcel or OCR at either tier, including learners resitting after Year 11. Open the syllabus →](/courses/gcse-mathematics-mastery)[![A-Level Maths course thumbnail](/images/a-level-maths.webp)  NOT / 3 A level Maths Regression, correlation and calculus practised on genuine data, such as the weather records further down. Open the syllabus →](/courses/a-level-maths-course-pure-mechanics-statistics)
+
+Stage by stage
 
 ## KS2, KS3, GCSE and A level maths for Nottingham learners
 
 Nottingham schools teach the national curriculum for England, so a learner here passes through the same key stages and exams as one in Leeds or Bristol. Adults pick up wherever they stopped.
 
-**The maths stages in England, and where our lessons put the weight**
-
 | Stage | Typical ages | Where we put the weight |
-|---|---|---|
+| --- | --- | --- |
 | Key Stage 1 | 5 to 7 | Number bonds, counting in steps, halves and quarters, telling the time. |
 | Key Stage 2 | 7 to 11 | Fluent arithmetic for Paper 1, then multi-step reasoning for Papers 2 and 3 of the Year 6 tests. |
 | Key Stage 3 | 11 to 14 | Algebraic notation, proportion, area and volume, and drawing and reading charts. |
@@ -53,6 +47,8 @@ For more detail by stage, see our national pages on [KS2 maths](/ks2-maths-tuiti
 
 Source: [Standards and Testing Agency, Key stage 2 mathematics test framework](https://www.gov.uk/government/publications/key-stage-2-mathematics-test-framework), read on 1 October 2026. The ages shown are typical, not rules.
 
+The Nottingham project
+
 ## Does a sunny month run warmer? Forty-one years of Nottinghamshire weather
 
 A scatter graph of sunshine against temperature looks convincing. The interesting maths starts when you ask what is really causing the pattern.
@@ -65,10 +61,8 @@ The points rise steeply from left to right. The correlation coefficient is 0.834
 
 The trouble is that both quantities follow the calendar. Summer months are long and bright; winter months are short and dull. Put every month on one graph and you mostly measure the difference between July and January, not the effect of a sunny spell.
 
-**Correlation between sunshine hours and mean maximum temperature at Sutton Bonington, 1959 to 1999, our calculation**
-
 | Months included | Points | Correlation r | What it suggests |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | All months together | 481 | 0.834 | A strong pattern, mostly made by the seasons |
 | Julys only | 40 | 0.872 | In summer, a sunnier July really is a warmer July |
 | Mays only | 41 | 0.644 | Still clearly positive in late spring |
@@ -77,6 +71,8 @@ The trouble is that both quantities follow the calendar. Summer months are long 
 | Novembers only | 41 | -0.098 | Slightly negative: a sunny November is no warmer |
 
 Data: [Met Office historic station data, Sutton Bonington](https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/suttonboningtondata.txt), read on 1 October 2026; sunshine in these years came from a Campbell Stokes recorder. Months marked as estimated were left out. Correlations, lines and residuals are Modern Age Coders' calculations. Number of years differs slightly by month because of those exclusions.
+
+A GCSE skill with a trap in it
 
 ## Fitted lines, residuals and the danger of going past the data
 
@@ -97,6 +93,8 @@ Push it to 400 hours and it promises 30.2 °C. No July on the record came anywhe
 The DfE wording also asks students to "draw estimated lines of best fit" and to know that correlation "does not indicate causation". This data set teaches both in one sitting, and it carries on into A level, where students compute the coefficient themselves, test whether it differs from zero, and write a sentence about what it does not prove.
 
 Wording: [DfE, GCSE mathematics subject content and assessment objectives](https://www.gov.uk/government/publications/gcse-mathematics-subject-content-and-assessment-objectives). All fitted values and residuals are our calculations from the Met Office file above.
+
+Maths around the city
 
 ## Maths outside the classroom in and near Nottingham
 
@@ -124,6 +122,8 @@ Adults usually come to us for one of two routes, Functional Skills maths or a GC
 
 Sources: [NCETM, East Midlands West Maths Hub](https://www.ncetm.org.uk/hubs/east-midlands-west-maths-hub/); [University of Nottingham, School of Mathematical Sciences, schools and community outreach](https://www.nottingham.ac.uk/mathematics/outreach/index.aspx). Read on 1 October 2026. None of these bodies is connected with Modern Age Coders.
 
+Adult learners
+
 ## A maths tutor for adults in Nottingham
 
 Adults make up a good share of the people who contact us, and they rarely want the same thing.
@@ -142,14 +142,14 @@ Some adults just want to understand what they once memorised. Our [adult maths p
 
 The weather data suits adults well. Most of us have seen a chart in the news showing two things rising together, and the November result above is a quick, memorable way to learn the question worth asking every time: what else changed at the same moment?
 
+How the steps fit
+
 ## From arithmetic to judging a trend, in four steps
 
 The steps build on one another. Learners start at whichever one fits, and the free first lesson finds it.
 
-**A route from fluent arithmetic to statistical judgement, with a sign each step is secure**
-
 | Usually | Step | A sign it is secure |
-|---|---|---|
+| --- | --- | --- |
 | Years 3 to 6 | 1. Arithmetic | Completes long multiplication and division accurately without a calculator |
 | Years 6 to 8 | 2. Reading data | Reads values and differences off a line graph and works out a mean |
 | Years 8 to 11 | 3. Relationships | Plots a scatter graph and describes the correlation in a sentence |
@@ -158,75 +158,353 @@ The steps build on one another. Learners start at whichever one fits, and the fr
 ### Close to an exam
 
 A Year 11 or Year 6 learner who joins late can still gain a great deal, provided we fix the arithmetic first. Most lost marks trace back to it.
+
 If there is more to fix than there is time, we will tell you plainly after the trial lesson.
 
 ### Beyond the exam
 
 Some learners continue with [statistics and probability](/courses/statistics-probability-maths-course), where the sunshine records become a full regression study, or with [maths through coding](/courses/maths-through-coding), where a short program draws the scatter graph.
+
 Others find they enjoy problem solving for its own sake and move on to competition maths.
+
+All courses
 
 ## Maths courses for Nottingham learners
 
 Arranged by stage; open any card for the complete syllabus.
 
+I
+
 ### Primary
 
 Ages 6 to 11
 
-- [Early number](/courses/early-math-foundations): Counting, patterns and shape for young children.
-- [KS1 and KS2 maths](/courses/elementary-mathematics-complete-masterclass): The whole primary curriculum, reasons included.
-- [Mental maths](/courses/mental-maths-mastery-kids): Fast, reliable calculation in the head.
-- [Abacus arithmetic](/courses/abacus-mental-maths-course-for-kids): A physical frame that becomes a mental one.
+MTN / A1
+
+#### Early number
+
+Counting, patterns and shape for young children.
+
+[Open the syllabus](/courses/early-math-foundations)
+
+MTN / A2
+
+#### KS1 and KS2 maths
+
+The whole primary curriculum, reasons included.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+MTN / A3
+
+#### Mental maths
+
+Fast, reliable calculation in the head.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+MTN / A4
+
+#### Abacus arithmetic
+
+A physical frame that becomes a mental one.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)II
 
 ### Secondary
 
 KS3 and GCSE
 
-- [KS3 maths](/courses/comprehensive-middle-school-mathematics-mastery): Years 7 to 9: algebra, proportion, geometry, data.
-- [Algebra foundations](/courses/algebra-foundations-masterclass): Rebuilding algebra from the ground up.
-- [GCSE maths](/courses/gcse-mathematics-mastery): AQA, Edexcel or OCR, either tier, resits included.
-- [IGCSE maths](/courses/igcse-mathematics-mastery): Cambridge and Edexcel International entries.
+MTN / B1
+
+#### KS3 maths
+
+Years 7 to 9: algebra, proportion, geometry, data.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+MTN / B2
+
+#### Algebra foundations
+
+Rebuilding algebra from the ground up.
+
+[Open the syllabus](/courses/algebra-foundations-masterclass)
+
+MTN / B3
+
+#### GCSE maths
+
+AQA, Edexcel or OCR, either tier, resits included.
+
+[Open the syllabus](/courses/gcse-mathematics-mastery)
+
+MTN / B4
+
+#### IGCSE maths
+
+Cambridge and Edexcel International entries.
+
+[Open the syllabus](/courses/igcse-mathematics-mastery)III
 
 ### Sixth form and beyond
 
 From 16
 
-- [A level Maths](/courses/a-level-maths-course-pure-mechanics-statistics): Pure, mechanics and statistics.
-- [Statistics and probability](/courses/statistics-probability-maths-course): Correlation, regression and hypothesis tests.
-- [University maths](/courses/college-mathematics-complete-masterclass): First-year calculus and linear algebra.
-- [Competition maths](/courses/olympiad-competition-mathematics-mastery): Problems that need ideas, not procedures.
+MTN / C1
+
+#### A level Maths
+
+Pure, mechanics and statistics.
+
+[Open the syllabus](/courses/a-level-maths-course-pure-mechanics-statistics)
+
+MTN / C2
+
+#### Statistics and probability
+
+Correlation, regression and hypothesis tests.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)
+
+MTN / C3
+
+#### University maths
+
+First-year calculus and linear algebra.
+
+[Open the syllabus](/courses/college-mathematics-complete-masterclass)
+
+MTN / C4
+
+#### Competition maths
+
+Problems that need ideas, not procedures.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)IV
 
 ### Applied and adult
 
 Work and interest
 
-- [Business maths](/courses/complete-business-finance-mathematics-mastery): Interest, depreciation and investment.
-- [Maths for data analysis](/courses/data-analytics-mathematics-masterclass): Statistics and matrices behind data work.
-- [Maths through coding](/courses/maths-through-coding): Exploring number and data in Python.
-- [Vedic maths](/courses/vedic-maths-course-speed-calculation-mastery): Speedy calculation tricks for confident learners.
+MTN / D1
+
+#### Business maths
+
+Interest, depreciation and investment.
+
+[Open the syllabus](/courses/complete-business-finance-mathematics-mastery)
+
+MTN / D2
+
+#### Maths for data analysis
+
+Statistics and matrices behind data work.
+
+[Open the syllabus](/courses/data-analytics-mathematics-masterclass)
+
+MTN / D3
+
+#### Maths through coding
+
+Exploring number and data in Python.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+MTN / D4
+
+#### Vedic maths
+
+Speedy calculation tricks for confident learners.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
+
+Timetable
 
 ## Weekday afternoons, evenings and weekends, in UK time
 
 Our teachers are in India, where the clocks never change. From late October to late March India is five and a half hours ahead of Nottingham, and four and a half hours ahead in British Summer Time. Slots are always fixed and shown in UK time.
 
-- **Weekdays after school** Primary and secondary pupils.
-- **Weekday evenings** Sixth formers and adults after work.
-- **Weekend mornings** For learners who prefer an early start.
+Weekdays after school
 
-- **A steady teacher** One teacher follows a group week after week and remembers each learner's habits.
-- **A note after class** A few lines home on what is secure and what needs another look.
-- **Matched groups** Fifteen to twenty learners, all working at the same level.
-- **Local data** Weather records, census tables and maps alongside exam questions.
-- **Private option** One to one for a single topic, a looming exam or personal preference.
-- **Understanding first** Learners explain a method before they practise it.
+Primary and secondary pupils.
+
+Weekday evenings
+
+Sixth formers and adults after work.
+
+Weekend mornings
+
+For learners who prefer an early start.
+
+### A steady teacher
+
+One teacher follows a group week after week and remembers each learner's habits.
+
+### A note after class
+
+A few lines home on what is secure and what needs another look.
+
+### Matched groups
+
+Fifteen to twenty learners, all working at the same level.
+
+### Local data
+
+Weather records, census tables and maps alongside exam questions.
+
+### Private option
+
+One to one for a single topic, a looming exam or personal preference.
+
+### Understanding first
+
+Learners explain a method before they practise it.
+
+Student work
+
+## Projects our students went on to make
+
+Learners who started with graphs and data went on to make the four projects below. Plenty more are in the [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Billed each month in US dollars, at one rate for all countries outside India, with no sign-up fee and no contract.
 
-- Free first class: USD 0. A full lesson pitched at the right level. Our straight assessment afterwards. No payment details taken.
-- Group batch: USD 100 a month. Fifteen to twenty learners, one level. The same teacher each week. Feedback on written work. Certificate on completion.
-- One to one: USD 150 a month. One teacher, one learner. Focused on the precise gap. Useful when an exam is near.
+Free first class
+
+USD 0
+
+no card required
+
+- A full lesson pitched at the right level
+- Our straight assessment afterwards
+- No payment details taken
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners, one level
+- The same teacher each week
+- Feedback on written work
+- Certificate on completion
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- One teacher, one learner
+- Focused on the precise gap
+- Useful when an exam is near
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Reproduced without editing from Google reviews left by our families and learners.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Nottingham maths questions
 
 ## What Nottingham parents and adult learners ask
 
@@ -270,15 +548,54 @@ No. Nobody can honestly guarantee a grade. We teach carefully, set and mark work
 
 No. We mention their public events so families know about them, but we have no connection with the university, the NCETM, any Maths Hub or any school.
 
+Related
+
 ## More for Nottingham learners
 
-- [KS2 maths tuition](/ks2-maths-tuition-online): Years 3 to 6 and the Year 6 tests.
-- [GCSE maths tuition](/gcse-maths-tuition-online): Every board and both tiers.
-- [Functional Skills maths](/functional-skills-maths-tuition-online): Practical maths qualifications for adults.
-- [Coding classes in Nottingham](/best-coding-class-in-nottingham): Our page on coding for the city.
-- [Nottinghamshire](/coding-classes-in-nottinghamshire): Our county page.
-- [Maths tuition in Liverpool](/maths-tuition-in-liverpool): A tide data project on the Mersey.
+Stage-by-stage maths pages, the county page and our coding page for the city.
 
-## Contact
+### [KS2 maths tuition](/ks2-maths-tuition-online)
 
-Book the free first class at [https://learn.modernagecoders.com/maths-tuition-in-nottingham](https://learn.modernagecoders.com/maths-tuition-in-nottingham#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Years 3 to 6 and the Year 6 tests.
+
+### [GCSE maths tuition](/gcse-maths-tuition-online)
+
+Every board and both tiers.
+
+### [Functional Skills maths](/functional-skills-maths-tuition-online)
+
+Practical maths qualifications for adults.
+
+### [Coding classes in Nottingham](/best-coding-class-in-nottingham)
+
+Our page on coding for the city.
+
+### [Nottinghamshire](/coding-classes-in-nottinghamshire)
+
+Our county page.
+
+### [Maths tuition in Liverpool](/maths-tuition-in-liverpool)
+
+A tide data project on the Mersey.
+
+Start here
+
+## Book a free maths lesson
+
+Let us know the learner's age or year group and the topic that worries them most. The trial is a genuine lesson, and you get a clear account of the learner's level afterwards.
+
+Rather browse first? See our [course list](/courses) or read about [how we teach](/how-we-teach).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20a%20learner%20in%20Nottingham.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+A WhatsApp message is the fastest route to a reply. Our number carries India's dialling code because the team is based there; we have no Nottingham office, and teaching is entirely online.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/maths-tuition-in-nottingham*

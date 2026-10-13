@@ -4,53 +4,37 @@ description: "Live online coding, Python, AI and data classes for Rush learners 
 canonical: https://learn.modernagecoders.com/best-coding-class-in-rush
 source: src/pages/best-coding-class-in-rush.html
 ---
-> Rush has 10,814 usual residents in 3,472 households, and 3,059 of those households are on broadband, which is how our lessons arrive. A teacher runs each lesson live on video with a small group at one level or with a single learner, about twice a week, for ages six to sixty-seven. The opening lesson is free of charge. Monthly fees then run at USD 100 for a group place and USD 150 for one-to-one teaching.
+> Live online coding, Python, AI and data classes for Rush learners aged 6 to 67, in small groups at one level or one to one. The first lesson is free of charge.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [Fingal](/coding-classes-in-fingal) / Rush
-
-Rush, Fingal, County Dublin / Live online
-
-# Coding classes in Rush
-
-**What is the best coding class in Rush?** Rush has 10,814 usual residents in 3,472 households, and 3,059 of those households are on broadband, which is how our lessons arrive. A teacher runs each lesson live on video with a small group at one level or with a single learner, about twice a week, for ages six to sixty-seven. The opening lesson is free of charge. Monthly fees then run at USD 100 for a group place and USD 150 for one-to-one teaching.
-
-In Rush, 526 of the 7,744 residents who described their journey to work, school or college go by train. That suggests a simple rule for any town: if enough people take the train, it probably has a station. The rule is easy to write. Checking it properly is the real exercise, and it is the same check every machine-learning model has to pass. The learner scores the rule against Irish Rail's own list of 171 stations for 89 towns, counts the hits and both kinds of miss, and discovers that the usual score, accuracy, can be beaten by a rule that says every town has a station. Along the way the answer key turns out to need checking too: the station that serves Rush is called Rush and Lusk, and its address is in Lusk.
-
-Facts last verified 19 September 2026. Teaching is online; no Rush branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Rush
 
 ## First courses for Rush learners
 
 Choose the course by age and interest; its teacher places the learner properly in the free first lesson.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Block coding with sorting games where the rule sometimes gets it wrong, and the learner counts how often.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Python and first AI ideas: a rule that makes a guess, and a table of when it was right.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 18): Machine learning with proper scoring: confusion matrices, precision, recall and thresholds.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): For adults building alerts and filters at work, where false alarms and misses have different costs.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlock coding with sorting games where the rule sometimes gets it wrong, and the learner counts how often.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsPython and first AI ideas: a rule that makes a guess, and a table of when it was right.See the syllabus](/courses/python-ai-kids-masterclass)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 18AI and Machine Learning for TeensMachine learning with proper scoring: confusion matrices, precision, recall and thresholds.See the syllabus](/courses/ai-ml-masterclass-teens)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CourseFor adults building alerts and filters at work, where false alarms and misses have different costs.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## Test a rule that spots rail towns, and count every kind of mistake
 
 The rule: call a town a rail town if at least a chosen share of its journeys are by train. The answer key: whether Irish Rail's station list names the town. The test: 89 towns of 5,000 or more, with the five cities left aside.
 
-**The confusion matrix at a 2 percent threshold**
-
-|  | Town has a station | No station |
-|---|---|---|
+|   | Town has a station | No station |
+| --- | --- | --- |
 | Rule says rail town | 29 correct | 1 false alarm |
 | Rule says not | 26 missed | 33 correct |
 
-**Three thresholds, and a rule that guesses the same thing every time**
-
 | Rule | Precision | Recall | Accuracy |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | At least 1% by train | 88.4% | 69.1% | 75.3% |
 | At least 2% by train | 96.7% | 52.7% | 69.7% |
 | At least 5% by train | 100.0% | 27.3% | 55.1% |
@@ -68,10 +52,8 @@ Of the 89 towns, 55 have a station. A rule that simply says yes to every town is
 
 At 2 percent the one false alarm is Naas, with 4.0 percent of journeys by train and no station of that name in the list. The misses include county towns such as Tralee and Castlebar, each 0.3 percent, which have a station but where few residents use it for daily journeys.
 
-**The answer key was built by a rule too: whole-word name matching, then checked by hand**
-
 | Town | Matched station | After checking the station's address |
-|---|---|---|
+| --- | --- | --- |
 | Navan | Navan Road Parkway | On the Navan Road, Dublin 15: not Navan |
 | Shannon | Carrick on Shannon | In Co Leitrim: not Shannon |
 | Passage West-Monkstown | Salthill and Monkstown | In Dun Laoghaire, Co Dublin: not this Monkstown |
@@ -83,6 +65,8 @@ At 2 percent the one false alarm is Naas, with 4.0 percent of journeys by train 
 Every classifier, from a spam filter to a medical test, makes two kinds of error: false alarms and misses. A single accuracy figure hides which is which, and when one answer is far more common than the other it can make a useless rule look good. Report the full confusion matrix, say which error matters more for the job, and choose the threshold with that in mind. Then check the answer key, because the labels a model is scored against are often built by rules of their own.
 
 The learner writes the rule as one line, prediction equals train share at or above a threshold, and a scoring function that fills the four cells of the confusion matrix and computes precision, recall and accuracy. A loop runs the thresholds; one more line scores the rule that always says yes. Building the answer key is its own small program: split each station name and alias into words, look for the town name as whole words, and print every match for a human to check. Three matches failed that check, and a fourth town only appeared once the alias field was included.
+
+Rush and its station
 
 ## One station, two towns
 
@@ -100,16 +84,18 @@ With 526 of 7,744 stated journeys by train, 6.79 percent, Rush is flagged as a r
 
 Lusk, sharing the same station, sends 4.9 percent of its journeys by train: flagged at 2 percent, missed at 5. The same station, two towns, two different outcomes at the stricter threshold.
 
-**What this page does not claim** It does not rate rail services or say why some towns with a station have few train users. The answer key reflects one reasonable rule plus three hand corrections, and a different rule, such as distance to the nearest station, would change some labels. Irish Rail has no connection with us.
+What this page does not claim
+
+It does not rate rail services or say why some towns with a station have few train users. The answer key reflects one reasonable rule plus three hand corrections, and a different rule, such as distance to the nearest station, would change some labels. Irish Rail has no connection with us.
+
+The town in the census
 
 ## What the 2022 census found in Rush
 
 The Census 2022 small area tables for the town of Rush, Co Dublin, describing its usual residents and their homes.
 
-**Rush at census time**
-
 | Census count | Rush |
-|---|---|
+| --- | --- |
 | Usual residents | 10,814 |
 | Households | 3,472 |
 | Households with broadband | 3,059 |
@@ -130,6 +116,8 @@ Of 3,193 journeys to school, college or childcare, 1,062 are made as a car passe
 
 Asked about working from home, 1,728 of Rush's working residents said they do some or all of the time, 2,842 said they never do, and 375 did not answer.
 
+Learning here
+
 ## Lessons for Rush learners
 
 Two lessons a week is the usual rhythm, and a teacher leads every minute of each.
@@ -148,14 +136,37 @@ Adults join from any starting point, including none, and the first lesson settle
 
 Census figures are reproduced as the Central Statistics Office published them, and the station list is Irish Rail's own, read with its aliases. The rule, the answer key and the scores were computed on 19 September 2026, and each of the three corrected labels was checked against Irish Rail's station page for its address.
 
+Learning ladder
+
 ## From sorting rules to scoring a classifier
 
 Treat each age band as a suggestion; lesson one sets the real starting point.
 
-- **Ages 6 to 10: Rules that sort** Block-coded games that sort things by a rule, and a tally of when the rule got it wrong. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Right and wrong guesses** Python rules that make a guess, and a two-by-two table of hits, misses and false alarms. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Scoring models** Confusion matrices, precision, recall and threshold choice on real public data. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Alerts at work** Filters and alerts where false alarms and misses cost different amounts, and a threshold chosen to match. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### Rules that sort
+
+Block-coded games that sort things by a rule, and a tally of when the rule got it wrong.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Right and wrong guesses
+
+Python rules that make a guess, and a two-by-two table of hits, misses and false alarms.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Scoring models
+
+Confusion matrices, precision, recall and threshold choice on real public data.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Alerts at work
+
+Filters and alerts where false alarms and misses cost different amounts, and a threshold chosen to match.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## Ask an assistant how good the rule is
 
@@ -167,30 +178,139 @@ The learner who built this test then asks the assistant for the confusion matrix
 
 Models are easy to build now. Scoring them honestly, labels included, is the skill that matters. The longer argument is in [why learning to code is worth starting now](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How Rush lessons run
 
 In practice.
 
-- **Live, every lesson** A teacher runs each lesson in real time and works from the learner's own code.
-- **Groups at one level** Fifteen to twenty learners who have reached the same point in the course, from Fingal, the rest of Ireland and abroad.
-- **Twice a week, mostly** Around eight lessons a month, on days and at hours fixed before the course starts.
-- **Built round the school year** Breaks, holidays and exam weeks are planned in from the outset.
-- **Equipment** A laptop or desktop with a keyboard, sound in both directions, and a broadband line that copes with live video.
-- **Private lessons** One-to-one teaching is there for any learner whose level, speed or free hours leave them without a suitable group.
+### Live, every lesson
 
-**Taught online only** Rush learners take every lesson on video. We have no premises in Rush or anywhere in Ireland, and the lesson is the same from any connected home.
+A teacher runs each lesson in real time and works from the learner's own code.
+
+### Groups at one level
+
+Fifteen to twenty learners who have reached the same point in the course, from Fingal, the rest of Ireland and abroad.
+
+### Twice a week, mostly
+
+Around eight lessons a month, on days and at hours fixed before the course starts.
+
+### Built round the school year
+
+Breaks, holidays and exam weeks are planned in from the outset.
+
+### Equipment
+
+A laptop or desktop with a keyboard, sound in both directions, and a broadband line that copes with live video.
+
+### Private lessons
+
+One-to-one teaching is there for any learner whose level, speed or free hours leave them without a suitable group.
+
+Taught online only
+
+Rush learners take every lesson on video. We have no premises in Rush or anywhere in Ireland, and the lesson is the same from any connected home.
+
+Fees
 
 ## Fees for Rush
 
 The complete list.
 
-- First class: USD 0. A full first lesson with the level assessed, free.
-- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at the same level, about eight live lessons.
-- Private tuition: USD 150 a month. A month of private lessons at the same weekly frequency.
+First class**USD 0**
+
+A full first lesson with the level assessed, free.
+
+Group tuition**USD 100**
+
+A month in a group of fifteen to twenty at the same level, about eight live lessons.
+
+Private tuition**USD 150**
+
+A month of private lessons at the same weekly frequency.
 
 One monthly price in US dollars applies to every family outside India. The free first lesson carries no charge, fees begin when the course does, and the pricing page covers holidays, missed lessons and switching between a group and private lessons.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Rush.)Reviews
+
+## Six of our families on Google, each review in full
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free first lesson in Rush
+
+Send us the learner's age and interests and we will plan a first hour to match. It could end with a game, a program that works, or a rule tested against real data, misses and all.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Rush one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Rush.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Rush coding class questions
+
+What Rush families usually ask first.
 
 ### How many people live in Rush?
 
@@ -232,10 +352,14 @@ The first lesson is free. After that a shared place costs USD 100 a month and br
 
 Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
+Explore Ireland
+
 ## North Fingal and beyond
 
 Rush sits under the [Fingal](/coding-classes-in-fingal) page, beside the town pages for [Swords](/best-coding-class-in-swords), [Balbriggan](/best-coding-class-in-balbriggan) and [Malahide](/best-coding-class-in-malahide), with [Leinster](/coding-and-ai-classes-in-leinster) above. A neutral comparison of online coding schools is on [this page](/best-online-coding-classes-ireland), and the [Ireland hub](/coding-classes-in-ireland) brings the series together.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Rush.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-rush](https://learn.modernagecoders.com/best-coding-class-in-rush#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-rush*

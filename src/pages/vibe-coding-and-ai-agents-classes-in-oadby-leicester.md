@@ -4,46 +4,32 @@ description: "Live online vibe coding, AI agents and Python lessons for Oadby le
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-oadby-leicester
 source: src/pages/vibe-coding-and-ai-agents-classes-in-oadby-leicester.html
 ---
-> The ONS counted 24,030 people in the Oadby built-up area at the 2021 census. Oadby belongs to the borough of Oadby and Wigston, a Leicestershire district of 57,747 that is separate from the City of Leicester, and its census wards include Oadby Grange, Oadby Woodlands, Oadby Uplands and Oadby Brocks Hill. Our tutors, who teach from India by live video, take Oadby learners aged six to 67 through vibe coding, AI agents, Python, coding and maths, individually or five to ten to a class by level. We teach reasoning first, so a learner can judge how a team of agents made its choices. The opening session is free, and we finish it by naming a course. In the Oadby project, delivery agents bid for jobs on 161.1 km of real roads, and the learner measures how far simple bidding falls short of the ideal share-out. If you stay on, a seat in a class is USD 100 each month and a tutor to yourself USD 150 each month.
+> Live online vibe coding, AI agents and Python lessons for Oadby learners in Leicestershire, from Oadby Grange to Brocks Hill, aged 6 to 67. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Leicestershire](/coding-classes-in-leicestershire) / Oadby
-
-Oadby, Oadby and Wigston, Leicestershire / Live online
-
-# Vibe coding and AI agents classes in Oadby
-
-**Where can Oadby learners find the best vibe coding and AI agents classes?** The ONS counted 24,030 people in the Oadby built-up area at the 2021 census. Oadby belongs to the borough of Oadby and Wigston, a Leicestershire district of 57,747 that is separate from the City of Leicester, and its census wards include Oadby Grange, Oadby Woodlands, Oadby Uplands and Oadby Brocks Hill. Our tutors, who teach from India by live video, take Oadby learners aged six to 67 through vibe coding, AI agents, Python, coding and maths, individually or five to ten to a class by level. We teach reasoning first, so a learner can judge how a team of agents made its choices. The opening session is free, and we finish it by naming a course. In the Oadby project, delivery agents bid for jobs on 161.1 km of real roads, and the learner measures how far simple bidding falls short of the ideal share-out. If you stay on, a seat in a class is USD 100 each month and a tutor to yourself USD 150 each month.
-
-When several AI agents share a workload, something has to decide who does what. One of the oldest answers, first described in 1980 in research on distributed computing, is the contract net protocol: a task is announced, each available agent replies with a bid, and the task goes to whoever bid lowest. It needs no central planner and it is easy to build. The question is how much it costs compared with a planner that sees everything at once. This project puts both on the road network of Oadby, as mapped on OpenStreetMap: agents start at random points, jobs appear at real building locations, and every bid is an actual driving distance.
-
-Facts last verified 30 September 2026. Teaching is online; no Oadby branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentOadby course picks
 
 ## Oadby courses in reasoning, vibe coding and agents
 
 Find the row that fits the learner's age. Whichever it is, the opening lesson is live, costs nothing and is booked without a card.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think course: sharing jobs fairly and asking whether a quick rule is good enough.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games invented by the learner, built with an AI and tested until they work.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python and web projects with AI help, including the bidding agents on Oadby roads.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): Multi-agent systems, task allocation and evaluation, built in Python.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think course: sharing jobs fairly and asking whether a quick rule is good enough.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games invented by the learner, built with an AI and tested until they work.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensPython and web projects with AI help, including the bidding agents on Oadby roads.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseMulti-agent systems, task allocation and evaluation, built in Python.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Oadby and its borough
 
 ## Oadby, Oadby Grange, Uplands and Brocks Hill
 
 ONS figures for Oadby, its district and its census wards.
 
-**Oadby in the 2021 census (ONS, via Nomis)**
-
 | Area | Residents (2021) |
-|---|---|
+| --- | --- |
 | Oadby built-up area | 24,030 |
 | Oadby Grange ward | 6,052 |
 | Oadby Woodlands ward | 4,634 |
@@ -57,16 +43,16 @@ Each figure is published separately and none is added to another here; ward and 
 
 See [coding classes in Leicestershire](/coding-classes-in-leicestershire) and the [East Midlands](/coding-and-ai-classes-in-east-midlands). Why thinking comes before tools is on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Oadby project
+
 ## Agents that bid for jobs: the contract net protocol on Oadby's roads
 
 Announce, bid, award, repeat, then compare the bill with the ideal plan.
 
 The learner downloads the roads and buildings of a rectangle around Oadby through the Overpass service: 161.1 km of road and 1,375 mapped buildings. A trial places a team of agents at random points on the network and the same number of jobs at random buildings. Under the contract net, jobs are announced one at a time; each agent still free bids its shortest driving distance to the job, and the lowest bid wins. For comparison, the Hungarian method finds the allocation with the smallest possible total distance, and a third run simply allocates at random.
 
-**Total driving distance against the ideal allocation, our Python simulation on OpenStreetMap roads around Oadby**
-
 | Team size | Bidding, typical | Bidding, worst tenth | Bidding matched the ideal | Random allocation |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | 3 agents, 3 jobs | Same as ideal | 22.9% more | In 56.7% of trials | 18.8% more |
 | 5 agents, 5 jobs | 5.0% more | 22.4% more | In 22.0% of trials | 35.6% more |
 | 10 agents, 10 jobs | 12.2% more | 26.3% more | Never in 80 trials | 71.2% more |
@@ -89,14 +75,14 @@ Build the contract net, compare it with the optimal assignment and explain where
 
 Roads and buildings are from OpenStreetMap and its contributors under the Open Database Licence. The agents, jobs and every distance are simulated by us; no real delivery service is modelled.
 
+Agents sharing work
+
 ## What this teaches about vibe coding and AI agents
 
 Whoever writes the hand-out rule decides how well the whole team performs.
 
-**From the Oadby bidding agents to real multi-agent systems**
-
 | In the Oadby simulation | When AI agents work as a team |
-|---|---|
+| --- | --- |
 | Bidding needed no central planner | Simple protocols are easy to run |
 | Ten agents drove 12.2% further than ideal | Local choices add up to a global cost |
 | Random allocation wasted 71.2% | Any sensible rule beats none |
@@ -107,14 +93,37 @@ Multi-agent AI systems hand tasks to worker agents all the time, and many use so
 
 Neither OpenStreetMap nor the Office for National Statistics is connected with Modern Age Coders. We used their open data, and the simulation and its errors are ours.
 
+Stages
+
 ## From sharing chores to agent teams
 
 Year group is a rough marker only; twenty minutes of the trial tells us more.
 
-- **Years 2 to 7: How to think** Fair shares, quick rules and checking them. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Games and apps planned by the learner and built with AI help. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python and optimisation** Graphs, allocation and simulation alongside GCSE and A level. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)
-- **Adults: Multi-agent AI** Agent teams, protocols and evaluation in Python. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Years 2 to 7
+
+### How to think
+
+Fair shares, quick rules and checking them.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Games and apps planned by the learner and built with AI help.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python and optimisation
+
+Graphs, allocation and simulation alongside GCSE and A level.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)Adults
+
+### Multi-agent AI
+
+Agent teams, protocols and evaluation in Python.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)Agents and allocation
 
 ## How do AI agents decide which agent does which task?
 
@@ -126,30 +135,139 @@ Learners who have run that comparison ask of any agent team: who hands out the w
 
 Knowing how work is shared keeps Oadby teenagers in charge of the agent teams they design, and that starts with learning to code in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## How an Oadby lesson runs
 
 A webcam-equipped computer and broadband that streams smoothly: nothing more.
 
-- **Learners build it** Code and prompts are written by the student; the tutor follows on screen share and asks why each rule was chosen.
-- **Trial sets the start** The free session shows the level, and any exam board is noted.
-- **Try it free** The first session is on us and closes with our pick of course.
-- **Small and matched** A class means fifteen to twenty people at a shared stage, wherever in Britain they log in from.
-- **Two a week** Lessons stop for school holidays.
-- **Time stays fixed** UK clock changes are absorbed by our tutors.
+### Learners build it
 
-**Why online** Five learners at one level who are all free the same evening rarely live in the same town. Video removes that limit.
+Code and prompts are written by the student; the tutor follows on screen share and asks why each rule was chosen.
+
+### Trial sets the start
+
+The free session shows the level, and any exam board is noted.
+
+### Try it free
+
+The first session is on us and closes with our pick of course.
+
+### Small and matched
+
+A class means fifteen to twenty people at a shared stage, wherever in Britain they log in from.
+
+### Two a week
+
+Lessons stop for school holidays.
+
+### Time stays fixed
+
+UK clock changes are absorbed by our tutors.
+
+Why online
+
+Five learners at one level who are all free the same evening rarely live in the same town. Video removes that limit.
+
+Fees
 
 ## Oadby fees
 
 Oadby learners pay our international rates, used everywhere outside India.
 
-- First class: USD 0. A full lesson at no cost, then our advice.
-- Group tuition: USD 100 a month. About eight live group lessons a month.
-- Private tuition: USD 150 a month. About eight live one-to-one lessons a month.
+First class**USD 0**
+
+A full lesson at no cost, then our advice.
+
+Group tuition**USD 100**
+
+About eight live group lessons a month.
+
+Private tuition**USD 150**
+
+About eight live one-to-one lessons a month.
 
 Quoted and billed in US dollars, with no sterling list. Payment starts once the trial has pinned down the course and a regular time, and the pricing page answers questions on breaks, missed lessons and changing format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Oadby%3F)Reviews
+
+## What Leicestershire parents and learners elsewhere tell Google about us
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Oadby lesson
+
+All we need is an age or year group and a hobby. From there the trial can be a who-does-which-chore puzzle, an AI-assisted Scratch game, a first taste of Python, or a pair of tiny agents bidding against each other.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Oadby one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Oadby%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Oadby questions
+
+Bidding agents, the road project, vibe coding, Python and practical points.
 
 ### What is the population of Oadby?
 
@@ -191,10 +309,14 @@ Nothing for the trial. Then USD 100 monthly per class place, or USD 150 monthly 
 
 Lessons stop; tell us the dates in advance.
 
+Nearby
+
 ## More Leicestershire and East Midlands pages
 
 Pages with their own projects: [Leicestershire](/coding-classes-in-leicestershire), [Loughborough](/best-coding-and-ai-classes-in-loughborough), [Nottingham](/best-coding-class-in-nottingham) and [Corby](/online-coding-and-python-classes-in-corby). The [UK hub](/coding-classes-in-united-kingdom) lists everywhere else.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Oadby%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-oadby-leicester](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-oadby-leicester#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-oadby-leicester*

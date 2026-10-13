@@ -4,56 +4,40 @@ description: "Live online vibe coding and AI agent classes for Randwick children
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-randwick-sydney
 source: src/pages/vibe-coding-and-ai-agents-classes-in-randwick-sydney.html
 ---
-> In small live online groups where a teacher builds agents with the class and makes every tool prove its inputs are sensible before it answers. Randwick suits that kind of careful work: the 2021 Census counted 134,252 residents, and 49,178 adults, 43.3%, held a bachelor degree or higher.
+> Live online vibe coding and AI agent classes for Randwick children, teens and adults: plan, prompt, test and fix real projects with a teacher, in small groups.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [New South Wales](/coding-and-ai-classes-in-new-south-wales) / [Sydney](/best-coding-classes-in-sydney) / Randwick
-
-Randwick City Council area, Sydney, New South Wales / Live online
-
-# Vibe coding and AI agents classes in Randwick
-
-**Where can Randwick learners find the best vibe coding and AI agents classes?** In small live online groups where a teacher builds agents with the class and makes every tool prove its inputs are sensible before it answers. Randwick suits that kind of careful work: the 2021 Census counted 134,252 residents, and 49,178 adults, 43.3%, held a bachelor degree or higher.
-
-An AI agent does not look things up itself; it calls tools that programmers write, passing in whatever words the conversation produced. "Royal Randwick", "UNSW", "Aug 2026", "last month": a careless tool turns every one of those into a number. A careful tool checks first, and says plainly when it cannot answer.
-
-Facts last verified 10 October 2026. Teaching is online; no Randwick branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Randwick
 
 ## Courses for building agents that check before they answer
 
 Each course here practises the validation habit from the light rail tool. The free trial sets the level, and payment waits until a course and time are agreed.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): AI drafts the Python; the learner adds input checks and tests before anything ships.
-- [AI Tools Course for Teens (13+)](/courses/teens-ai-tools-mastery-course) (Ages 13 to 18): How assistants call tools, what they pass in, and how to spot an invented answer.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (University and adult): Language models, function calling and evaluating agents on scripted requests.
-- [Copilot Studio Agent Masterclass for Professionals](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals) (Professionals, one to one): Workplace agents with validated inputs in Copilot Studio, taught privately.
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensAI drafts the Python; the learner adds input checks and tests before anything ships.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![AI Tools Course for Teens (13+) course thumbnail](/images/ai-tools-kids.webp)Ages 13 to 18AI Tools Course for Teens (13+)How assistants call tools, what they pass in, and how to spot an invented answer.See the syllabus](/courses/teens-ai-tools-mastery-course)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)University and adultGenerative AI CourseLanguage models, function calling and evaluating agents on scripted requests.See the syllabus](/courses/complete-generative-ai-masterclass-college)[![Copilot Studio Agent Masterclass for Professionals course thumbnail](/images/copilot-studio-professionals.webp)Professionals, one to oneCopilot Studio Agent Masterclass for ProfessionalsWorkplace agents with validated inputs in Copilot Studio, taught privately.See the syllabus](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Randwick in the Census
 
 ## A council of apartments and graduates
 
 Figures for the Randwick local government area (ABS code LGA16550) from the 2021 Census QuickStats, next to the NSW and Australian figures.
 
-**Randwick, 2021 Census headline counts**
-
 | Headline | Randwick |
-|---|---|
+| --- | --- |
 | Residents | 134,252 |
 | Median age | 37 |
 | Families | 33,700 |
 | Private dwellings | 59,773 |
 | Average people per household | 2.4 |
 
-**Randwick compared with NSW and Australia**
-
 | Measure | Randwick | NSW | Australia |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Homes that are flats or apartments | 55.5% (28,527) | 21.7% | 14.2% |
 | Homes that are separate houses | 26.8% (13,790) | 65.6% | 72.3% |
 | Adults with a bachelor degree or higher | 43.3% (49,178) | 27.8% | 26.3% |
@@ -74,14 +58,14 @@ The Census fell in the August 2021 lockdown; 31,221 employed residents, 45.2%, w
 
 The bureau perturbs each Census cell slightly for privacy, so we quote these figures as published and do not add any of them together.
 
+Signature project
+
 ## A light rail tool that refuses to guess
 
 Students give an agent one tool: look up the tap-on entries at a light rail stop for a month. The data is the Transport for NSW usage file for nine stops on the L2 and L3 lines, from Royal Randwick and Randwick to Kingsford and Juniors Kingsford.
 
-**Tap-on entries, August 2026 (Transport for NSW)**
-
 | Stop | Tap-on entries |
-|---|---|
+| --- | --- |
 | UNSW Anzac Parade | 119,668 |
 | Randwick | 99,155 |
 | UNSW High Street | 94,948 |
@@ -92,10 +76,8 @@ Students give an agent one tool: look up the tap-on entries at a light rail stop
 | Royal Randwick | 25,878 |
 | Wansey Road | 23,021 |
 
-**Twenty loosely typed requests, two versions of the tool (our test)**
-
 | Outcome | Tool with no checks | Tool that validates |
-|---|---|---|
+| --- | --- | --- |
 | Answerable requests answered correctly (of 14) | 9 | 14 |
 | Answerable requests given the wrong stop or month | 5 | 0 |
 | Unanswerable requests given a number anyway (of 6) | 6 | 0 |
@@ -119,14 +101,14 @@ The validator is short: tidy the words (case, spacing, "Rd" to "Road", a trailin
 
 We wrote both the 20 requests and the validator, so a perfect score on them proves little; real conversations will find cases we did not think of. The counts are Transport for NSW tap-ons, which miss untapped trips. We name the stops only, not the council area each lies in.
 
+How students build it
+
 ## Let the AI draft it, then make it strict
 
 In a vibe coding lesson the AI writes the first version of the tool. The learner's job is to break it with awkward requests and then add the checks.
 
-**The rules the validator follows**
-
 | Input | Accepted | Refused, with this message |
-|---|---|---|
+| --- | --- | --- |
 | Stop name | Exact or unique match after tidying | "No light rail stop by that name" or "ambiguous, choose one of..." |
 | Month | 2026-08, 2026-8, 08/2026, Aug 2026, March 2026 | "Say the month as YYYY-MM" |
 | Month range | October 2024 to August 2026 | "Outside the published range" |
@@ -145,6 +127,8 @@ Write the tool, let an AI write tricky requests for it, and keep a table of what
 
 Wrap a work spreadsheet in a validated lookup tool before letting any assistant query it.
 
+Schools and terms
+
 ## A school at La Perouse since 1868
 
 From the NSW government schools file and the 2027 calendar.
@@ -161,16 +145,41 @@ La Perouse Public School records its first teacher in 1868, then Coogee Public S
 
 Eastern division schools start on Wednesday 3 February 2027; Term 1 closes on Friday 9 April.
 
-**Council area figures** The Census numbers on this page are for the whole Randwick council area, from Clovelly and Kensington south to La Perouse, not for the suburb of Randwick alone.
+Council area figures
+
+The Census numbers on this page are for the whole Randwick council area, from Clovelly and Kensington south to La Perouse, not for the suburb of Randwick alone.
+
+Learning ladder
 
 ## From a quiz that asks again to agents that check
 
 The age bands are a guide; the free trial shows where each learner should start.
 
-- **Ages 8 to 12: Vibe coding for kids** Scratch games planned by the child, built with AI help and tested on silly inputs. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 13 to 15: Read, then trust** Python that an AI drafted, read line by line, fixed and extended. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 15 to 18: Agents with tools** Assistants that call functions, with every input checked and tested. [AI Tools Course for Teens (13+)](/courses/teens-ai-tools-mastery-course), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **University and adult: Agents for work** Tool design, validation and evaluation for workplace assistants. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Copilot Studio Agent Masterclass for Professionals](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals)
+Ages 8 to 12
+
+### Vibe coding for kids
+
+Scratch games planned by the child, built with AI help and tested on silly inputs.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 13 to 15
+
+### Read, then trust
+
+Python that an AI drafted, read line by line, fixed and extended.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 15 to 18
+
+### Agents with tools
+
+Assistants that call functions, with every input checked and tested.
+
+[AI Tools Course for Teens (13+)](/courses/teens-ai-tools-mastery-course)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)University and adult
+
+### Agents for work
+
+Tool design, validation and evaluation for workplace assistants.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Copilot Studio Agent Masterclass for Professionals](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals)Coding and AI
 
 ## If the agent understands language, why do Randwick students need to write checks?
 
@@ -182,30 +191,139 @@ Learners who have watched an unchecked tool invent six answers out of twenty wri
 
 The Randwick student who makes a tool say "I cannot answer that" has learned the most useful sentence in agent building. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## From Clovelly to La Perouse, classes arrive online
 
 Lessons are live online, so learners anywhere in the council area join the same way.
 
-- **Join from home** The learner logs in from a desk at home and spends the whole lesson building.
-- **Built around NSW terms** Lessons track NSW syllabus stages and pause in the state school holidays.
-- **A genuine trial** The free first class is a full lesson, finishing with a course, level and time suggestion.
-- **Groups** Fifteen to twenty learners per group, matched by level and pace, Randwick learners alongside others.
-- **Two a week** Two fixed lessons weekly, about eight a month, with breaks agreed in advance.
-- **Teachers in India** A 4pm Randwick lesson during daylight saving begins at 10:30am in India; in Sydney standard time it begins at 11:30am there.
+### Join from home
 
-**Daylight saving dates** Sydney clocks go forward on Sunday 4 October 2026 and back on Sunday 4 April 2027, while India keeps one time all year. Lesson times are always set in Sydney time.
+The learner logs in from a desk at home and spends the whole lesson building.
+
+### Built around NSW terms
+
+Lessons track NSW syllabus stages and pause in the state school holidays.
+
+### A genuine trial
+
+The free first class is a full lesson, finishing with a course, level and time suggestion.
+
+### Groups
+
+Fifteen to twenty learners per group, matched by level and pace, Randwick learners alongside others.
+
+### Two a week
+
+Two fixed lessons weekly, about eight a month, with breaks agreed in advance.
+
+### Teachers in India
+
+A 4pm Randwick lesson during daylight saving begins at 10:30am in India; in Sydney standard time it begins at 11:30am there.
+
+Daylight saving dates
+
+Sydney clocks go forward on Sunday 4 October 2026 and back on Sunday 4 April 2027, while India keeps one time all year. Lesson times are always set in Sydney time.
+
+Fees
 
 ## Fees for Randwick learners
 
 Three amounts, all stated up front.
 
-- First class: USD 0. The first class is free and closes with an honest course recommendation.
-- Group tuition: USD 100 a month. A month of group lessons, eight as a rule, with fifteen to twenty learners at a similar level.
-- Private tuition: USD 150 a month. Around eight lessons a month with a teacher to themselves.
+First class**USD 0**
+
+The first class is free and closes with an honest course recommendation.
+
+Group tuition**USD 100**
+
+A month of group lessons, eight as a rule, with fifteen to twenty learners at a similar level.
+
+Private tuition**USD 150**
+
+Around eight lessons a month with a teacher to themselves.
 
 Families outside India are billed in US dollars, so every Randwick family pays the same. Billing starts only after the trial, when course and time are agreed; the pricing page explains holidays, absences and changing format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20class%20for%20a%20learner%20in%20Randwick.)Reviews
+
+## Reviews from our families and learners on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a first Randwick class
+
+Tell us the learner's age and what they like building. An eleven-year-old might start with a Scratch quiz that checks answers; an adult might start with the light rail tool.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Randwick one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20class%20for%20a%20learner%20in%20Randwick.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Randwick vibe coding and AI agents questions
+
+Questions Randwick families and adult learners ask us.
 
 ### How many people live in the Randwick council area?
 
@@ -247,10 +365,14 @@ Fifteen to twenty learners, matched by level, pace and goals rather than age or 
 
 Yes, in adult groups or one to one, often building an agent for study or a work task.
 
+Explore Sydney and NSW
+
 ## More for Randwick learners
 
 Just north, [Waverley](/online-coding-and-python-classes-in-waverley-sydney) has its own page, and the [Inner West](/best-coding-and-ai-classes-in-inner-west-sydney) page is across the city. The [Sydney page](/best-coding-classes-in-sydney) and the [New South Wales guide](/coding-and-ai-classes-in-new-south-wales) cover the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20class%20for%20a%20learner%20in%20Randwick.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-randwick-sydney](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-randwick-sydney#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-randwick-sydney*

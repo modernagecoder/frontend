@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes in Den Bosch for ages 6 
 canonical: https://learn.modernagecoders.com/coding-classes-in-den-bosch
 source: src/pages/coding-classes-in-den-bosch.html
 ---
-> Coding classes in Den Bosch serve 162,295 people (Statistics Netherlands, 1 January 2026), the capital of Noord-Brabant and its fourth city, in a municipality that also holds Rosmalen, Nuland and Vinkel. The city's most famous son, Jheronimus Bosch, appears in one encyclopaedia with a death date of 9 August 1516 and a burial date of 8 August 1516, which is impossible, and no check on either field alone would ever notice. Modern Age Coders teaches live online in English across the municipality for anyone aged 6 to 67, giving the first lesson free and then charging USD 100 a month for a group of fifteen to twenty or USD 150 for one-to-one.
+> Live online coding, Python and AI classes in Den Bosch for ages 6 to 67, in Rosmalen, Empel, Nuland and Vinkel. First lesson free, then one flat monthly fee.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / ’s-Hertogenbosch
-
-’s-Hertogenbosch, Noord-Brabant / Live online
-
-# Coding classes in Den Bosch, where the record has a painter buried the day before he died
-
-**What are the best coding classes in Den Bosch?** Coding classes in Den Bosch serve 162,295 people (Statistics Netherlands, 1 January 2026), the capital of Noord-Brabant and its fourth city, in a municipality that also holds Rosmalen, Nuland and Vinkel. The city's most famous son, Jheronimus Bosch, appears in one encyclopaedia with a death date of 9 August 1516 and a burial date of 8 August 1516, which is impossible, and no check on either field alone would ever notice. Modern Age Coders teaches live online in English across the municipality for anyone aged 6 to 67, giving the first lesson free and then charging USD 100 a month for a group of fifteen to twenty or USD 150 for one-to-one.
-
-Two dates sit in one record about a painter from this city. He died on 9 August 1516. He was buried on 8 August 1516. Both are real dates, both are correctly formatted, and every validator that checks fields one at a time will pass them. The fault lies in the relationship, and the reason is worth more than the error: the day of his death was never written down, only the day of his funeral, so somebody put the funeral into the field marked died. A child who has seen that once will check the relationships between columns for the rest of their working life.
-
-Facts last verified 7 September 2026. Teaching is online; no ’s-Hertogenbosch branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Den Bosch
 
 ## Four courses for the capital of the province with the most town halls
 
 A groep 5 child in Rosmalen, a teenager in Empel who wants two years of Python rather than one term of it, a student at one of the applied academies here, and a parent in Nuland whose systems disagree with each other: four doors into one city.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Typed Python, turtle drawings and a first program that learns a rule, in English, for the groep 5 to 8 child in Vinkel or Engelen.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Two years from a blank file to real projects, for the teenager whose school lists informatica in the prospectus and not on the timetable.
-- [MySQL Course](/courses/mysql-database-complete-masterclass-college) (College and adult): Design, keys and constraints done properly, for the student or working adult who has inherited a schema that lets impossible rows in.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): Excel, Sheets and Power BI with AI, for the parent whose weekly figures come from two systems that describe the same thing differently.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsTyped Python, turtle drawings and a first program that learns a rule, in English, for the groep 5 to 8 child in Vinkel or Engelen.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensTwo years from a blank file to real projects, for the teenager whose school lists informatica in the prospectus and not on the timetable.See the syllabus](/courses/python-complete-masterclass-teens)[![MySQL Course course thumbnail](/images/database-college.webp)College and adultMySQL CourseDesign, keys and constraints done properly, for the student or working adult who has inherited a schema that lets impossible rows in.See the syllabus](/courses/mysql-database-complete-masterclass-college)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)Excel, Sheets and Power BI with AI, for the parent whose weekly figures come from two systems that describe the same thing differently.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Den Bosch today
 
 ## The provincial capital, fourth by size, and nine very large secondary schools
 
@@ -52,7 +40,11 @@ The national register held 162,295 people on 1 January 2026, in 77,843 household
 
 ’s-Hertogenbosch is the seat of Noord-Brabant and only its fourth city, behind Eindhoven, Tilburg and Breda. The municipality counts 17,559 students in higher education for 2026, alongside 4,260 residents in applied higher education and 1,530 at university level for 2025, which are different measures and are not added together here.
 
-**A city named for a duke’s wood, chartered in 1185** City rights were granted in 1185 by Godfried the Third of Leuven. The Sint-Janskathedraal was built between about 1370 and about 1530, became a cathedral in 1559 and a basilica on 22 June 1929; its west tower stands at 73 metres and its crossing tower at 63. Under the streets runs the Binnendieze, once about twelve kilometres of watercourse and now 3,630 metres, of which 1,290 metres are still vaulted over.
+A city named for a duke’s wood, chartered in 1185
+
+City rights were granted in 1185 by Godfried the Third of Leuven. The Sint-Janskathedraal was built between about 1370 and about 1530, became a cathedral in 1559 and a basilica on 22 June 1929; its west tower stands at 73 metres and its crossing tower at 63. Under the streets runs the Binnendieze, once about twelve kilometres of watercourse and now 3,630 metres, of which 1,290 metres are still vaulted over.
+
+Where the learners are
 
 ## Four woonplaatsen, fourteen wijken, and a city that grew by absorbing
 
@@ -84,6 +76,8 @@ The smaller named districts around the edges of the city, some of them older tha
 
 The lesson reaches all four woonplaatsen at one hour and one fee, and stage is the only thing that determines placement.
 
+Verified local facts
+
 ## Every figure, its office, and the two entries that disagree about a painter
 
 The national count, the municipal entry, the cathedral, the watercourse, and the record the project below rests on, quoted exactly.
@@ -114,6 +108,8 @@ The collective name for the watercourses of the inner city. Originally about twe
 
 Modern Age Coders has no connection to the municipality, the cathedral or any school named here and claims none. The Bosch dates are quoted exactly as the two entries give them, and this page does not decide which is right.
 
+Signature project
+
 ## Buried before he died: build the checks that no single field can fail
 
 Three dates in one record, each of them valid, and a relationship between two of them that cannot be true.
@@ -130,10 +126,8 @@ Then one line that compares fields rather than inspecting them: burial must not 
 
 The reason is not carelessness. No source records the day Bosch died; what is recorded is the funeral mass held on 9 August 1516. One encyclopaedia put that date in the field named died and something else in the field named buried; the other put it in the field named buried and left died empty. The value migrated between labels, and only the relationship between fields shows it.
 
-**One painter, two entries, and what each field claims**
-
 | Field | Dutch entry | English entry | What the sources actually record |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Born | 1450, Julian | circa 1450, exact date not determined | a year, approximate in both |
 | Died | 9 August 1516 | not given as a death date | no source read gives a day of death |
 | Buried | 8 August 1516, Julian | 9 August 1516 | a funeral mass on 9 August 1516 |
@@ -144,14 +138,14 @@ The reason is not carelessness. No source records the day Bosch died; what is re
 
 Every dataset has fields whose contents drifted away from their labels, and it almost always begins the same way: the value that was wanted did not exist, something close to it did, and a person put the close thing in rather than leave a blank. That is a defensible decision on the day and an invisible landmine afterwards, because the label keeps making the original promise to everybody who reads the column later. Two defences work. State a constraint between fields, not just within them, so that an impossible combination is rejected even when every part of it is valid. And when a proxy is used, record that it is one, in the data rather than in somebody's memory. A learner who has met the painter buried before he died will write the cross-field check into the next thing they build. The five rows above are quoted from the two entries as they stand, and this page takes no position on which of them is correct.
 
+Reliable pipeline
+
 ## Five habits for records whose fields have to agree with each other
 
 Start and end dates, order and delivery, admission and discharge, contract and renewal, birth and death: the interesting errors in real data live between the columns rather than inside them. Practised on a record about a man from this city.
 
-**When each field is fine and the row is not**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Check the pairs | Write down every ordering that must hold between two fields | A burial dated before a death | Errors that single-field checks cannot see |
 | Reject, do not repair | Refuse the impossible row rather than quietly adjusting a date | A silent correction nobody knows about | A row somebody has to look at |
 | Allow a genuine blank | Let unknown be a value, so a proxy is never needed | A funeral date living in a death field | Fields that still mean what they say |
@@ -172,14 +166,37 @@ The same pair rules on a table from work: order date against dispatch date, star
 
 The population, household, area, school, cathedral and watercourse figures come from the offices and entries named beside them. The Bosch dates are quoted verbatim from the two encyclopaedia entries, the table sets them side by side without adjustment, and no date on this page has been corrected, averaged or inferred.
 
+Learning ladder
+
 ## From breakfast before waking up to a validator that names the broken rule
 
 The starting rung is worked out in the free hour, and the woonplaats on the address has no bearing on it.
 
-- **Ages 6 to 10: Which came first?** Children hunt for an order that cannot be, using two boxes rather than one. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 11 to 13: Rules between fields** Learners write a comparison that catches what a field check misses. [Maths Through Coding](/courses/maths-through-coding), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 14 to 18: Unknowns and constraints** Teenagers make unknown a real value and build a validator that says which rule broke. [Python for Teens](/courses/python-complete-masterclass-teens), [MySQL for Teens](/courses/mysql-mastery-for-teens)
-- **Ages 18 to 67: Pair rules at work** Adults apply ordering constraints to a live table and find the rows nobody has questioned. [MySQL Course](/courses/mysql-database-complete-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Which came first?
+
+Children hunt for an order that cannot be, using two boxes rather than one.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 11 to 13
+
+### Rules between fields
+
+Learners write a comparison that catches what a field check misses.
+
+[Maths Through Coding](/courses/maths-through-coding)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 14 to 18
+
+### Unknowns and constraints
+
+Teenagers make unknown a real value and build a validator that says which rule broke.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[MySQL for Teens](/courses/mysql-mastery-for-teens)Ages 18 to 67
+
+### Pair rules at work
+
+Adults apply ordering constraints to a live table and find the rows nobody has questioned.
+
+[MySQL Course](/courses/mysql-database-complete-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## An AI will read out both dates without blinking. Why should a child in Den Bosch learn to notice they cannot both be right?
 
@@ -191,30 +208,139 @@ That is what the learner practises. Writing the constraint is three lines; knowi
 
 The case for a Den Bosch child learning to code in 2026 is therefore nothing to do with art history. It is that the costly errors in real records are relationships rather than values, that no amount of checking one column at a time will find them, and that a painter buried the day before he died is the clearest possible demonstration on the doorstep. The longer argument is in [the case for teaching a child to code while AI writes it](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for a city, a large town and two villages
 
 Rosmalen is a town in its own right, Nuland and Vinkel are out towards Oss, and Engelen and Bokhoven are on the far side of the water. Each of those is an evening journey the lesson does away with.
 
-- **Nothing to travel to** The class runs at the kitchen table in Vinkel, Rosmalen or the centre at one fixed hour a week, in the dark months exactly as in the light ones.
-- **One language for teaching, another for school terms** The lesson is in English. Groep, havo, vwo and profielkeuze stay Dutch because a child has to recognise them on a timetable, and nothing is converted between the two.
-- **What the free hour settles** A piece of work that shows the true level, a course named from how it goes, and a weekly slot, none of which needs payment details.
-- **Stage sets the group** Two learners at the same point work together whether one is in Nuland and the other in the centre, and two at different points do not, however near they live.
-- **Twice weekly, on the southern calendar** Two lessons a week at a fixed time, eight in most months. School holidays here follow regio Zuid with the rest of Brabant, Limburg and Zeeland, and weeks away are written in before a slot is agreed.
-- **A gap that grows in winter** Only the Dutch clock moves, so the teacher is three and a half hours ahead across the summer months and four and a half across the winter ones. The window runs from the end of school into mid-evening, and both weekend days are open.
+### Nothing to travel to
 
-**Nine secondary schools, about a thousand pupils each** A teenager in this municipality is likely to be one of roughly a thousand in their building, which is the largest average of any city in this series. A group of fifteen to twenty at a fixed hour is a different proposition from a class of thirty, and for some learners that difference is the whole point.
+The class runs at the kitchen table in Vinkel, Rosmalen or the centre at one fixed hour a week, in the dark months exactly as in the light ones.
+
+### One language for teaching, another for school terms
+
+The lesson is in English. Groep, havo, vwo and profielkeuze stay Dutch because a child has to recognise them on a timetable, and nothing is converted between the two.
+
+### What the free hour settles
+
+A piece of work that shows the true level, a course named from how it goes, and a weekly slot, none of which needs payment details.
+
+### Stage sets the group
+
+Two learners at the same point work together whether one is in Nuland and the other in the centre, and two at different points do not, however near they live.
+
+### Twice weekly, on the southern calendar
+
+Two lessons a week at a fixed time, eight in most months. School holidays here follow regio Zuid with the rest of Brabant, Limburg and Zeeland, and weeks away are written in before a slot is agreed.
+
+### A gap that grows in winter
+
+Only the Dutch clock moves, so the teacher is three and a half hours ahead across the summer months and four and a half across the winter ones. The window runs from the end of school into mid-evening, and both weekend days are open.
+
+Nine secondary schools, about a thousand pupils each
+
+A teenager in this municipality is likely to be one of roughly a thousand in their building, which is the largest average of any city in this series. A group of fifteen to twenty at a fixed hour is a different proposition from a class of thirty, and for some learners that difference is the whole point.
+
+Fees
 
 ## The fee, in dollars, for all four woonplaatsen
 
 Printed here so that nobody has to ask for it.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 A single international rate applies and it is quoted in dollars, never in euros, so a family in Vinkel is charged exactly what one in the centre is charged. Money is collected only after the free lesson has produced a course and a time, and it goes over WhatsApp. Pausing, changing plan and missing a week are set out on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Den%20Bosch.)Reviews
+
+## Six families, in the words they left on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Give us the level; the woonplaats is optional
+
+The first task might be a card of three times with one of them out of order, a record in Python whose fields have to agree with each other, or a table at work where an order was dispatched before it was placed.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented ’s-Hertogenbosch one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Den%20Bosch.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Den Bosch coding class questions
+
+The city, its villages, its records, the teaching and the terms.
 
 ### Why does this page say a painter was buried before he died?
 
@@ -256,10 +382,14 @@ The first lesson is free. Group tuition is USD 100 a month for two live lessons 
 
 Between five and ten, matched on level, pace and goal rather than on age, school or woonplaats. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.
 
+Explore the Netherlands
+
 ## South to the big three, out to the province, and up to the country
 
 The three cities ahead of the capital all have pages: [Eindhoven](/coding-classes-in-eindhoven), [Tilburg](/coding-classes-in-tilburg) and [Breda](/coding-classes-in-breda), and all four sit inside [Noord-Brabant](/coding-classes-in-noord-brabant), whose page counts the rings around a garden in Baarle. Above them is the [Netherlands coding hub](/coding-classes-in-netherlands), and for models rather than programs the doors are [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) and the [AI and Python Academy](/ai-and-python-academy-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Den%20Bosch.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-den-bosch](https://learn.modernagecoders.com/coding-classes-in-den-bosch#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-den-bosch*

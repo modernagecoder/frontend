@@ -4,46 +4,32 @@ description: "Online coding, AI, Python and vibe coding lessons for Finchley, Ea
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-finchley-london
 source: src/pages/best-coding-and-ai-classes-in-finchley-london.html
 ---
-> Three Barnet wards carry the Finchley name: East Finchley with 16,639 residents at the 2021 census, Finchley Church End with 18,840 and West Finchley with 19,430. Church End, North Finchley and Woodside Park are recorded as suburban areas in the N3 and N12 postcode districts. Finchley learners aged six to 67 study coding, AI, Python, vibe coding and maths live on video with a tutor in India, privately or in a class of fifteen to twenty who are at one level. Careful measurement is taught before tools, so a learner knows what a score does and does not say. The opening Finchley lesson is free and closes with a suggested course. The Finchley project trains a classifier on 1,113 Census areas and finds that a score of 0.905 can sit alongside being wrong in four of every five alarms. Finchley families who carry on pay USD 100 each month for a class place, or USD 150 each month for a tutor to themselves.
+> Online coding, AI, Python and vibe coding lessons for Finchley, East Finchley, North Finchley and Woodside Park learners aged 6 to 67, live. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Finchley
-
-Finchley, Barnet, London / Live online
-
-# Coding and AI classes in Finchley
-
-**Where can Finchley learners find the best coding and AI classes?** Three Barnet wards carry the Finchley name: East Finchley with 16,639 residents at the 2021 census, Finchley Church End with 18,840 and West Finchley with 19,430. Church End, North Finchley and Woodside Park are recorded as suburban areas in the N3 and N12 postcode districts. Finchley learners aged six to 67 study coding, AI, Python, vibe coding and maths live on video with a tutor in India, privately or in a class of fifteen to twenty who are at one level. Careful measurement is taught before tools, so a learner knows what a score does and does not say. The opening Finchley lesson is free and closes with a suggested course. The Finchley project trains a classifier on 1,113 Census areas and finds that a score of 0.905 can sit alongside being wrong in four of every five alarms. Finchley families who carry on pay USD 100 each month for a class place, or USD 150 each month for a tutor to themselves.
-
-Spam, fraud, faults, rare diseases: most things worth detecting are rare. That rarity breaks the usual way of grading a classifier. The ROC curve and its summary, the AUC, ask how well the model separates positives from negatives, and they barely change when positives become scarce. But the person using the model cares about something else: when it says yes, how often is it right? That is precision, and it collapses as positives get rarer. This project shows both on one dataset, the Census areas of Barnet, by asking a model to find the areas where unusually many households have no car, and making the target steadily rarer.
-
-Facts last verified 30 September 2026. Teaching is online; no Finchley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentFinchley course picks
 
 ## Finchley courses in measuring, Python and AI
 
 Finchley learners begin on the course for their age. The first live lesson of each costs nothing, and we never take a card to reserve it.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think course: needles in haystacks, false alarms and asking what a score really counts.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games imagined by the learner, drafted with an AI and tested until they hold up.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Machine learning in Python, including the rare-target classifier on Barnet Census areas.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): How AI systems are evaluated, where the numbers mislead, and AI agents in Python.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think course: needles in haystacks, false alarms and asking what a score really counts.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games imagined by the learner, drafted with an AI and tested until they hold up.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensMachine learning in Python, including the rare-target classifier on Barnet Census areas.See the syllabus](/courses/ai-ml-masterclass-teens)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseHow AI systems are evaluated, where the numbers mislead, and AI agents in Python.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Finchley and Barnet
 
 ## East Finchley, Church End, West Finchley and North Finchley
 
 Census 2021 counts for the three wards named Finchley, and places recorded in N2, N3 and N12.
 
-**The three Finchley wards of Barnet at the 2021 census (ONS figures from Nomis, wards as drawn in 2022)**
-
 | Finchley ward | People counted |
-|---|---|
+| --- | --- |
 | East Finchley | 16,639 |
 | Finchley Church End | 18,840 |
 | West Finchley | 19,430 |
@@ -54,16 +40,16 @@ Each line is the ONS count for one ward; they are not added together, because Fi
 
 For more, see [coding classes in Barnet](/coding-classes-in-barnet-london) and the [London page](/best-coding-class-in-london). Why we teach judgement before tools is on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Finchley project
+
 ## Precision-recall against ROC: finding rare areas in Barnet Census data
 
 One model, one borough, and a target made rarer step by step.
 
 From the Nomis API the learner collects four Census 2021 tables for all 1,113 output areas in Barnet. An area is labelled car-light if its share of households without a car is among the highest in the borough. The detector is a logistic regression fed three clues per area: how densely people live, how many households are a single person, and how much of the housing is flats. Its verdict on each area is always given without having trained on that area. The experiment is run four times, with car-light meaning the top half of areas, the top quarter, the top tenth and finally the top twentieth: just 56 areas where at least 56.4% of households have no car.
 
-**The same model as the target gets rarer, out-of-fold predictions on 1,113 Barnet output areas, our Python run on Census 2021 data**
-
 | Car-light means | Positive areas | ROC AUC | Average precision |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Top 50% of areas | 557 | 0.907 | 0.901 |
 | Top 25% | 279 | 0.908 | 0.750 |
 | Top 10% | 112 | 0.915 | 0.521 |
@@ -87,14 +73,14 @@ Plot ROC and precision-recall curves side by side as the target gets rarer and e
 
 Counts are Office for National Statistics Census 2021 data from Nomis, under the Open Government Licence. The car-light label is our own teaching device, not an official category, and the model and every score are our work.
 
+Metrics and AI
+
 ## What this teaches about vibe coding and AI agents
 
 Good at ranking, poor at alarms: both can be true of the same detector.
 
-**From the Finchley metric test to working with AI**
-
 | In the Barnet project | When an AI system reports a score |
-|---|---|
+| --- | --- |
 | ROC AUC stayed near 0.91 | Some scores are blind to rarity |
 | Average precision fell to 0.359 | Pick the metric that matches the job |
 | 164 false alarms for 45 finds | Translate scores into counts of mistakes |
@@ -105,14 +91,37 @@ An AI assistant asked to evaluate a detector will often print the ROC AUC, becau
 
 We have no tie to the Office for National Statistics, Nomis or postcodes.io beyond using their open data. The classifier and any mistakes in it are our own.
 
+Stages
+
 ## From counter hunts to honest metrics
 
 A Finchley learner's school year suggests a level; the trial lesson confirms it.
 
-- **Years 2 to 7: How to think** Searching, sorting and counting the misses as carefully as the hits. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Games and small apps drafted with an AI and tested by the learner. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python and machine learning** Classifiers, curves and metrics alongside GCSE and A level. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Statistics & Probability](/courses/statistics-probability-maths-course)
-- **Adults: AI evaluation and agents** Judging AI systems properly, then building agents in Python. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Years 2 to 7
+
+### How to think
+
+Searching, sorting and counting the misses as carefully as the hits.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Games and small apps drafted with an AI and tested by the learner.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python and machine learning
+
+Classifiers, curves and metrics alongside GCSE and A level.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Statistics & Probability](/courses/statistics-probability-maths-course)Adults
+
+### AI evaluation and agents
+
+Judging AI systems properly, then building agents in Python.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)AI and metrics
 
 ## What is a precision-recall curve, and when is it better than ROC AUC?
 
@@ -124,30 +133,139 @@ After this project, a learner meeting any AI accuracy claim asks: how rare is th
 
 A Finchley teenager who can turn a score into a count of false alarms will not be dazzled by a 0.9, and that habit is learned by coding the test. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## East Finchley to Woodside Park, on video
 
 A Finchley learner needs a computer with a camera and broadband that carries a video call.
 
-- **The learner does the coding** Each line and each run is theirs. Watching the shared screen, the tutor asks what the number on it actually measures.
-- **Level found at the trial** A free first session shows us where to start, and any exam board goes on the record.
-- **Free Finchley trial** No payment for lesson one; it closes with a course suggestion.
-- **Classes matched by level** Groups of fifteen to twenty, with classmates from anywhere in the UK.
-- **Two sessions a week** School holidays are left free.
-- **Unchanging time** Our tutors absorb the British clock changes.
+### The learner does the coding
 
-**Why the lessons are online** Finding five Finchley learners at the same level with the same evening free would take months. On video, the class forms from the whole country.
+Each line and each run is theirs. Watching the shared screen, the tutor asks what the number on it actually measures.
+
+### Level found at the trial
+
+A free first session shows us where to start, and any exam board goes on the record.
+
+### Free Finchley trial
+
+No payment for lesson one; it closes with a course suggestion.
+
+### Classes matched by level
+
+Groups of fifteen to twenty, with classmates from anywhere in the UK.
+
+### Two sessions a week
+
+School holidays are left free.
+
+### Unchanging time
+
+Our tutors absorb the British clock changes.
+
+Why the lessons are online
+
+Finding five Finchley learners at the same level with the same evening free would take months. On video, the class forms from the whole country.
+
+Fees
 
 ## Finchley fees
 
 Families in Finchley pay the international rate, the same one used in every country except India.
 
-- First class: USD 0. A whole lesson free, then our recommendation.
-- Group tuition: USD 100 a month. Roughly eight live small-group lessons per month.
-- Private tuition: USD 150 a month. Roughly eight live private lessons per month.
+First class**USD 0**
+
+A whole lesson free, then our recommendation.
+
+Group tuition**USD 100**
+
+Roughly eight live small-group lessons per month.
+
+Private tuition**USD 150**
+
+Roughly eight live private lessons per month.
 
 Finchley fees are set in US dollars and there is no sterling price; an invoice is sent only after the trial has fixed the course and the weekly slot. The pricing page covers holidays, absences and switching format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Finchley%3F)Reviews
+
+## Barnet families and learners elsewhere in Britain, reviewing us on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Finchley lesson
+
+Let us have the learner's age or year group and one thing they enjoy. A Finchley trial can be a counter hunt, a Scratch game made with an AI, a first Python script, or a small detector tested on real data.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Finchley one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Finchley%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Finchley questions
+
+Rare targets, the Barnet Census project, vibe coding, Python and how Finchley lessons are arranged.
 
 ### How many people live in the Finchley wards?
 
@@ -189,10 +307,14 @@ Nothing for the trial. Then USD 100 per month in a class or USD 150 per month fo
 
 No; send us the dates and we pause.
 
+Read on
+
 ## More Barnet and London pages
 
 Every one of these carries a different project: [Barnet](/coding-classes-in-barnet-london) (a traffic model), [Haringey](/coding-classes-in-haringey-london), [Camden](/coding-classes-in-camden-london) and [Wimbledon](/ai-and-programming-classes-in-wimbledon-london) (honest model scores). Other areas are listed on [London](/best-coding-class-in-london) and the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Finchley%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-and-ai-classes-in-finchley-london](https://learn.modernagecoders.com/best-coding-and-ai-classes-in-finchley-london#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-finchley-london*

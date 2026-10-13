@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes in Zoetermeer for ages 6
 canonical: https://learn.modernagecoders.com/coding-classes-in-zoetermeer
 source: src/pages/coding-classes-in-zoetermeer.html
 ---
-> Coding classes in Zoetermeer serve 130,836 people (Statistics Netherlands, 1 January 2026) in a town that held 8,404 residents in 1960 and was designated a growth centre in 1962. It welcomed its hundred-thousandth resident on Friday 13 September 1991, at about a quarter past ten in the Lange Land hospital, and that was a decision as much as a measurement: a population is a net figure that can cross a line more than once. Modern Age Coders teaches live online in English across all fifteen wijken for anyone aged 6 to 67, with a free opening lesson and then USD 100 a month in a group of fifteen to twenty, or USD 150 with a teacher alone.
+> Live online coding, Python and AI classes in Zoetermeer for ages 6 to 67, across all 15 wijken of the growth city. First lesson free, then one flat monthly fee.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Zoetermeer
-
-Zoetermeer, Zuid-Holland / Live online
-
-# Coding classes in Zoetermeer, where somebody had to decide which baby was the hundred-thousandth
-
-**What are the best coding classes in Zoetermeer?** Coding classes in Zoetermeer serve 130,836 people (Statistics Netherlands, 1 January 2026) in a town that held 8,404 residents in 1960 and was designated a growth centre in 1962. It welcomed its hundred-thousandth resident on Friday 13 September 1991, at about a quarter past ten in the Lange Land hospital, and that was a decision as much as a measurement: a population is a net figure that can cross a line more than once. Modern Age Coders teaches live online in English across all fifteen wijken for anyone aged 6 to 67, with a free opening lesson and then USD 100 a month in a group of fifteen to twenty, or USD 150 with a teacher alone.
-
-On a Friday morning in September 1991 this town named its hundred-thousandth resident: a baby, born at about a quarter past ten. It is a lovely piece of civic ceremony and it is not a measurement. A population register is a running net total, pushed up by births and arrivals and down by deaths and departures, and a quantity like that can cross a hundred thousand, fall back below it and cross again the same week. Somebody had to choose which event counted. A child who understands why is well placed to distrust every milestone they are ever shown.
-
-Facts last verified 7 September 2026. Teaching is online; no Zoetermeer branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Zoetermeer
 
 ## Four courses for a town that was built on purpose
 
 A groep 5 child in Rokkeveen, a teenager in Oosterheem who wants an app rather than another worksheet, an adult in Meerzicht going back to study, and a parent in the old centre whose dashboard counts things it should not: four doors into one planned town.
 
-- [App Making for Kids](/courses/block-coding-app-development-masterclass) (Ages 8 to 12): Real apps built with blocks, in English, for the groep 5 to 8 child who wants something that runs on the family phone.
-- [App Development for Teens](/courses/complete-app-development-masterclass-for-teens) (Ages 13 to 18): From an idea to an app on a real device, for the teenager whose school has no route into building software.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (College and adult): Python from nothing to advanced, live, for the adult who has decided this is the year they stop asking somebody else.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): Excel, Sheets and Power BI with AI, for the working parent whose weekly report counts events that keep changing underneath it.
+[![App Making for Kids course thumbnail](/images/app-dev-kids.webp)Ages 8 to 12App Making for KidsReal apps built with blocks, in English, for the groep 5 to 8 child who wants something that runs on the family phone.See the syllabus](/courses/block-coding-app-development-masterclass)[![App Development for Teens course thumbnail](/images/app-dev-teens.webp)Ages 13 to 18App Development for TeensFrom an idea to an app on a real device, for the teenager whose school has no route into building software.See the syllabus](/courses/complete-app-development-masterclass-for-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)College and adultPython MasterclassPython from nothing to advanced, live, for the adult who has decided this is the year they stop asking somebody else.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)Excel, Sheets and Power BI with AI, for the working parent whose weekly report counts events that keep changing underneath it.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Zoetermeer today
 
 ## Fifteen times bigger than in 1960, and almost finished growing
 
@@ -52,7 +40,11 @@ Zoetermeer was appointed a growth centre, a groeikern in the planning language o
 
 21,379 residents are under fifteen and 15,165 are between fifteen and twenty-five; 33,239 are between twenty-five and forty-five, 32,834 between forty-five and sixty-five, and 28,219 are sixty-five or over. 20,970 households hold one person, 36 percent. The families who arrived in the 1970s are now the twenty-two percent aged over sixty-five.
 
-**A railway built for a town that did not exist yet** The Stadslijn opened its first section on 20 May 1977 with service from 22 May, reached Seghwaert and Palenstein in 1978 and closed its ring on 29 September 1979. Heavy rail service ended on 3 June 2006 and the line has run as a tram under the name RandstadRail since 29 October 2006.
+A railway built for a town that did not exist yet
+
+The Stadslijn opened its first section on 20 May 1977 with service from 22 May, reached Seghwaert and Palenstein in 1978 and closed its ring on 29 September 1979. Heavy rail service ended on 3 June 2006 and the line has run as a tram under the name RandstadRail since 29 October 2006.
+
+Where the learners are
 
 ## One woonplaats, fifteen wijken, and districts named after their decade
 
@@ -84,6 +76,8 @@ Driemanspolder, Dorp, Stadscentrum and the smaller wijken between them. Nothing 
 
 Every wijk gets the same class at the same hour and the same fee, and the group a learner joins is decided by stage rather than by district.
 
+Verified local facts
+
 ## Every figure, its source, and the one event that was chosen rather than measured
 
 The national count, the municipal entry, the dated growth series, the milestone record and the railway.
@@ -114,6 +108,8 @@ The Stadslijn opened its first section on 20 May 1977, with service from 22 May 
 
 Modern Age Coders has no connection to the municipality, the hospital, the railway or any school named here and claims none. The child named in the milestone record is not named on this page, because a private individual is not a data point.
 
+Signature project
+
 ## The hundred-thousandth resident: build the model that shows a threshold can be crossed more than once
 
 One ceremonial morning, one running net total, and a simulation that explains why the honest answer is a date range rather than a moment.
@@ -130,10 +126,8 @@ Starting just below a hundred thousand and running a few thousand events with a 
 
 The answer is not the moment the population reached a hundred thousand, because that moment is not unique and the register is not read continuously. What was recorded is a decision: a municipality picked an event, on a date, and designated it. That is a perfectly good thing to do, and it is a different kind of statement from a measurement.
 
-**What the record supports, and what it does not**
-
 | Statement | Kind of claim | Supported by the sources? |
-|---|---|---|
+| --- | --- | --- |
 | The town held 96,292 residents on 1 January 1990 | a snapshot from a register | yes |
 | The town held 105,009 residents on 1 January 1995 | a snapshot from a register | yes |
 | The population first passed a hundred thousand between those dates | an inference from two snapshots | yes, and only to that precision |
@@ -144,14 +138,14 @@ The answer is not the moment the population reached a hundred thousand, because 
 
 Counters that only ever go up, like total cars produced or total barrels pumped, do have a genuine nth item, even if identifying it is hard. A population is not one of those. It is a net figure, and net figures wander across their thresholds repeatedly, which means the millionth customer, the hundred-thousandth resident and the thousandth day without an incident are all designations rather than discoveries once departures are possible. The useful habit is to ask, of any milestone, whether the underlying quantity can go down. If it can, the milestone is a ceremony, and the honest statement is a range: this town passed a hundred thousand somewhere between the start of 1990 and the start of 1995, and a municipality chose a morning in 1991 to mark it. The crossing count above comes from a simulation with an assumed rate and drift, is labelled as a model throughout, and is not a claim about what this register actually did.
 
+Reliable pipeline
+
 ## Five habits for any number that is celebrated when it passes a line
 
 The millionth user, the thousandth order, the hundredth day, the five-star average: thresholds get crossed by quantities that can also move the other way. Practised on the morning this town chose.
 
-**When a threshold is about to be announced**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Ask if it can go down | Separate cumulative totals from net quantities before celebrating | A net figure treated as a ratchet | The right kind of claim |
 | Count the crossings | Simulate or check whether the line is crossed more than once | One crossing assumed where there were many | An honest picture of the boundary |
 | Report the interval | Say between which two observations the crossing happened | A minute quoted from annual data | Precision matched to the evidence |
@@ -172,14 +166,37 @@ The same test on a metric at work that gets celebrated: active users, subscriber
 
 The population figures, the milestone dates, the school counts, the areas and the railway dates come from the offices and records named beside them. The crossing count is the output of a simulation with assumed parameters, described as a model wherever it appears, and no claim is made here about the actual movements of this municipality's register.
 
+Learning ladder
+
 ## From a jar of marbles to a crossing counter with its assumptions printed
 
 The rung is decided in the free hour, and the wijk on the address is not one of the inputs.
 
-- **Ages 6 to 10: Who won the prize?** Children watch a count reach ten twice and invent the rule that settles it. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [App Making for Kids](/courses/block-coding-app-development-masterclass)
-- **Ages 11 to 13: Up and down, not just up** Learners build a running total from events and see it wander across a line. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 14 to 18: Simulation with stated assumptions** Teenagers count crossings, report a window from two snapshots, and label the model as a model. [App Development for Teens](/courses/complete-app-development-masterclass-for-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Milestones at work** Adults test whether a celebrated metric is cumulative or net, and rewrite the announcement. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Who won the prize?
+
+Children watch a count reach ten twice and invent the rule that settles it.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[App Making for Kids](/courses/block-coding-app-development-masterclass)Ages 11 to 13
+
+### Up and down, not just up
+
+Learners build a running total from events and see it wander across a line.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### Simulation with stated assumptions
+
+Teenagers count crossings, report a window from two snapshots, and label the model as a model.
+
+[App Development for Teens](/courses/complete-app-development-masterclass-for-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Milestones at work
+
+Adults test whether a celebrated metric is cumulative or net, and rewrite the announcement.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## An AI will tell you exactly when Zoetermeer reached a hundred thousand. Why should a child here learn that nobody can?
 
@@ -191,30 +208,139 @@ That is why the learner builds the event model instead of reading the date. Watc
 
 The case for a Zoetermeer child learning to code in 2026 is therefore nothing to do with town planning. It is that quantities which can fall have no natural milestones, that announcing one is a choice, and that the cheapest way to understand the difference for good is to model the register of the town they live in and watch it cross the line again and again. The longer argument is in [whether a child should learn to code now that AI can](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for a compact town with a tram ring round it
 
 Nothing in Zoetermeer is far from anything else, and RandstadRail connects most of it. The obstacle here is not distance but a diary: two working parents, a commute to The Hague and no spare evening.
 
-- **No journey in the plan** The lesson happens at the kitchen table in Rokkeveen, Oosterheem or the old centre at one fixed hour a week, and no part of the evening is spent travelling.
-- **English carries the lesson, Dutch keeps the school words** Instruction is in English. Groep, havo, vwo and profielkeuze stay Dutch because those are the words a child meets on a timetable, and nothing is translated in either direction.
-- **The opening hour and its output** Evidence of the real level, a course chosen from that evidence, and a weekly time, none of which needs a card.
-- **Ability sets the group** Two learners at the same level work together whether one is in Meerzicht and the other in Seghwaert, and two at different levels do not.
-- **Twice a week, on the middle calendar** Two lessons weekly at one repeating slot, eight in most months. Zoetermeer takes its holidays with regio Midden along with the rest of Zuid-Holland, and weeks away are written in before the slot is fixed.
-- **Three and a half hours, then four and a half** Dutch clocks move twice a year and Indian clocks do not, so the gap to the teacher depends on the month. Anything from the end of school to mid-evening works, and both weekend days are free.
+### No journey in the plan
 
-**A town whose schools were built for a wave that has passed** Seven secondary establishments teach 7,392 pupils, about a thousand each, and the districts built in the 1970s now hold the twenty-two percent of residents aged over sixty-five. A group of fifteen to twenty at a fixed hour is a different setting from a school of a thousand, and for some learners that is the entire attraction.
+The lesson happens at the kitchen table in Rokkeveen, Oosterheem or the old centre at one fixed hour a week, and no part of the evening is spent travelling.
+
+### English carries the lesson, Dutch keeps the school words
+
+Instruction is in English. Groep, havo, vwo and profielkeuze stay Dutch because those are the words a child meets on a timetable, and nothing is translated in either direction.
+
+### The opening hour and its output
+
+Evidence of the real level, a course chosen from that evidence, and a weekly time, none of which needs a card.
+
+### Ability sets the group
+
+Two learners at the same level work together whether one is in Meerzicht and the other in Seghwaert, and two at different levels do not.
+
+### Twice a week, on the middle calendar
+
+Two lessons weekly at one repeating slot, eight in most months. Zoetermeer takes its holidays with regio Midden along with the rest of Zuid-Holland, and weeks away are written in before the slot is fixed.
+
+### Three and a half hours, then four and a half
+
+Dutch clocks move twice a year and Indian clocks do not, so the gap to the teacher depends on the month. Anything from the end of school to mid-evening works, and both weekend days are free.
+
+A town whose schools were built for a wave that has passed
+
+Seven secondary establishments teach 7,392 pupils, about a thousand each, and the districts built in the 1970s now hold the twenty-two percent of residents aged over sixty-five. A group of fifteen to twenty at a fixed hour is a different setting from a school of a thousand, and for some learners that is the entire attraction.
+
+Fees
 
 ## The fee, in dollars, in all fifteen wijken
 
 Set out here rather than kept for a phone call.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 There is one international rate and it is quoted in dollars, with no euro list, so every address in the town sees the same figure. Nothing is collected until the free lesson has produced a course and a time, and it is then collected over WhatsApp. Pausing, changing plan and missing a week are covered on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Zoetermeer.)Reviews
+
+## What six families wrote on Google, unedited
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Send the level; the wijk is optional
+
+The first task might be a jar of marbles that reaches ten twice, an event model in Python that crosses a threshold repeatedly, or a metric at work that gets celebrated without anybody asking whether it can fall.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Zoetermeer one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Zoetermeer.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Zoetermeer coding class questions
+
+The town, its growth, its schools, the teaching and the terms.
 
 ### Why does this page question the hundred-thousandth resident?
 
@@ -256,10 +382,14 @@ The first lesson is free. Group tuition is USD 100 a month for two live lessons 
 
 Between five and ten, matched on level, pace and goal rather than on age, school or wijk. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.
 
+Explore the Netherlands
+
 ## West to the ministries, out to the province, and up to the country
 
 West down the tram line is [The Hague](/coding-classes-in-the-hague), where most of this town's commuters go, and Zoetermeer is the third municipality of [Zuid-Holland](/coding-classes-in-zuid-holland), whose page is about a region nobody ever drew a boundary for. Above them stands the [Netherlands coding hub](/coding-classes-in-netherlands), and for machine learning rather than software the doors are [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) and the [AI and Python Academy](/ai-and-python-academy-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Zoetermeer.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-zoetermeer](https://learn.modernagecoders.com/coding-classes-in-zoetermeer#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-zoetermeer*

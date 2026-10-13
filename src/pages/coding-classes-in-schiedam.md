@@ -4,43 +4,33 @@ description: "Online coding, Python, AI and app classes taught live for Schiedam
 canonical: https://learn.modernagecoders.com/coding-classes-in-schiedam
 source: src/pages/coding-classes-in-schiedam.html
 ---
-> Schiedam, a town of 81,931 on 1 January 2026 in the national count, received its charter in 1275 and had its golden age in the eighteenth century, when tens of branderijen and distilleries exported jenever around the world and earned the town the nickname Zwart Nazareth. Six classical windmills still shape the skyline. Distilling is a good way into one of the most used techniques in modern AI, knowledge distillation, in which a small model is trained to copy a large one: like a still, it keeps what comes over and leaves the rest behind, and the copy inherits the original's mistakes along with its skill. For every age from 6 to 67, Modern Age Coders runs live classes online in English; the first is free, then a place in a group costs USD 100 a month and private tuition USD 150.
+> Online coding, Python, AI and app classes taught live for Schiedam, ages 6 to 67, from Kethel and Woudhoek to Groenoord and Nieuwland. First lesson is free.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Schiedam
-
-Schiedam, Zuid-Holland / Live online
-
-# Coding classes in Schiedam, the jenever town, and what a distilled AI model leaves in the still
-
-**What are the best coding classes in Schiedam?** Schiedam, a town of 81,931 on 1 January 2026 in the national count, received its charter in 1275 and had its golden age in the eighteenth century, when tens of branderijen and distilleries exported jenever around the world and earned the town the nickname Zwart Nazareth. Six classical windmills still shape the skyline. Distilling is a good way into one of the most used techniques in modern AI, knowledge distillation, in which a small model is trained to copy a large one: like a still, it keeps what comes over and leaves the rest behind, and the copy inherits the original's mistakes along with its skill. For every age from 6 to 67, Modern Age Coders runs live classes online in English; the first is free, then a place in a group costs USD 100 a month and private tuition USD 150.
-
-A still does not make anything new. It heats what it is given, collects what rises, and leaves the rest in the pot, so the spirit that comes out is shaped both by the mash that went in and by what the process could carry over. Schiedam built its eighteenth-century fortune on that simple fact, with tens of distilleries shipping jenever across the world. Artificial intelligence has borrowed the word. In knowledge distillation, a large and expensive model, the teacher, answers a great many questions, and a smaller, cheaper model, the student, is trained to give the same answers. The student can be remarkably good. It is also exactly as good as the questions it was trained on, it copies the teacher's errors as faithfully as its insights, and anything the teacher knew but was never asked stays behind in the still.
-
-Facts last verified 11 September 2026. Teaching is online; no Schiedam branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Schiedam
 
 ## Four courses for the town of the tallest mills
 
 A child in Kethel who wants to make a quiz game, a teenager in Groenoord curious how small AI models fit on a phone, a student in Nieuwland summarising long documents with a model, and an adult in Woudhoek whose firm wants a cheaper AI tool that works as well as the expensive one. Their first lesson is free, whichever of them it is.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Python where a child builds a question-and-answer bot by copying answers from a bigger list, then finds the questions it cannot handle.
-- [App Development for Teens](/courses/complete-app-development-masterclass-for-teens) (Ages 13 to 18): An app that uses a small AI model on the device, with tests that check its answers against the truth rather than against a bigger model.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Training and evaluating compact models in Python, including what is lost when a large model is copied into a small one.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): Choosing between large and small AI tools with a checklist that asks what the cheaper one was trained to copy.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsPython where a child builds a question-and-answer bot by copying answers from a bigger list, then finds the questions it cannot handle.See the syllabus](/courses/python-ai-kids-masterclass)[![App Development for Teens course thumbnail](/images/app-dev-teens.webp)Ages 13 to 18App Development for TeensAn app that uses a small AI model on the device, with tests that check its answers against the truth rather than against a bigger model.See the syllabus](/courses/complete-app-development-masterclass-for-teens)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CourseTraining and evaluating compact models in Python, including what is lost when a large model is copied into a small one.See the syllabus](/courses/python-ai-automation-masterclass-college)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)Choosing between large and small AI tools with a checklist that asks what the cheaper one was trained to copy.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Schiedam today
 
 ## A charter of 1275, a golden age of jenever, and six mills on the skyline
 
 Schiedam is one woonplaats, divided by the statistics office into 12 wijken and 70 buurten, among them Kethel, Spaland, Woudhoek, Groenoord, Nieuwland, Bijdorp and Schiedam-Oost, -West and -Zuid. On 1,781 hectares of land within 1,986, it houses a published 4,617 residents to the square kilometre, a dense town by any measure.
 
-**Jenever, and a nickname** In 1275 town rights were granted by Aleid van Holland. The eighteenth century was a golden age for Schiedam, as imports of drink from abroad came to a halt and jenever distilling rose: tens of branderijen and distilleries were founded and exported all over the world. The jenever industry gave Schiedam the nickname Zwart Nazareth. The Jenevermuseum has been housed on the historic Lange Haven since 1996.
+Jenever, and a nickname
+
+In 1275 town rights were granted by Aleid van Holland. The eighteenth century was a golden age for Schiedam, as imports of drink from abroad came to a halt and jenever distilling rose: tens of branderijen and distilleries were founded and exported all over the world. The jenever industry gave Schiedam the nickname Zwart Nazareth. The Jenevermuseum has been housed on the historic Lange Haven since 1996.
 
 ### The mills
 
@@ -54,14 +44,14 @@ With 1,781 hectares of land and 205 of water, Schiedam is small in area and larg
 
 The encyclopaedia names wijken including Bijdorp, Groenoord, Kethel, Nieuwland, Schiedam-Oost, Schiedam-West, Schiedam-Zuid, Spaland and Woudhoek.
 
+What the still keeps
+
 ## From a pot still to a student model
 
 The left-hand column describes distillation in general terms, not any Schiedam distillery; the right-hand column describes knowledge distillation as it is used in AI.
 
-**Two kinds of distillation, side by side**
-
 | Step | In a still | In knowledge distillation | The consequence |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | What goes in | the mash | a large teacher model and a set of questions | the output can be no better than the input |
 | What is carried over | what rises with the vapour | the teacher's answers to those questions | only what the process exercises is kept |
 | What stays behind | what does not rise | whatever the teacher knew but was never asked | gaps nobody can see in the result |
@@ -69,6 +59,8 @@ The left-hand column describes distillation in general terms, not any Schiedam d
 | The result | a concentrated spirit | a smaller, faster, cheaper model | valuable, and narrower than it looks |
 
 The attraction of knowledge distillation is real. A distilled model can run on a phone instead of a data centre, answer in a fraction of the time and cost far less, and on the questions it was trained with it may be nearly as good as the teacher. The risk is in how it is judged. It is tempting to test the student by comparing it with the teacher, because the teacher is available and the truth is expensive. That test only measures copying. A student that matches its teacher perfectly has matched the teacher's errors perfectly too, and a student tested only on the kinds of question it was trained on will look better than it will be on anything else. Honest evaluation compares the student with the truth, on questions of every kind, including the ones nobody thought to distil.
+
+Verified local facts
 
 ## Schiedam in the national figures
 
@@ -100,6 +92,8 @@ In 2026 there were 12,890 children under fifteen, 8,959 people aged fifteen to t
 
 Neither the municipality of Schiedam, the Jenevermuseum, any distillery nor any school in the town has any tie to Modern Age Coders, and none is implied. All population, housing, income and school figures are the national statistics as published for Schiedam for the years given. The charter, the eighteenth-century distilling boom, the nickname, the mills, the museum and the wijken are taken from the encyclopaedia entry for Schiedam, which gives its own population figure of 82,055 for 1 January 2026; that figure comes from a different source and is not mixed with the statistics here.
 
+Signature project
+
 ## Test the copy against the truth, not against the original
 
 Knowledge distillation is everywhere in AI products today. The discipline it needs is mostly about evaluation, and it can be learned on a very small scale.
@@ -116,10 +110,8 @@ Build a test set with correct answers from outside both models, and score teache
 
 Include questions unlike anything in the distillation set: rare topics, other languages, edge cases. That is where the student and teacher usually part company, and where users get hurt.
 
-**What a distilled model keeps and what it can lose**
-
 | What was measured | How it looks | What it can hide | A better check |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Agreement with the teacher | 98 percent match | the teacher's own errors, copied | accuracy against known correct answers |
 | Accuracy on the distillation topics | close to the teacher | weakness on topics never distilled | a test set drawn from real use |
 | Average accuracy | a single strong number | failures on rare but important cases | scores by type of question |
@@ -130,14 +122,14 @@ Include questions unlike anything in the distillation set: rare topics, other la
 
 A teacher model that is unsure about a question often spreads its answer across several possibilities. Distillation training can pass that uncertainty on, but in practice students are frequently trained on the teacher's single best answer, and they learn to give that answer firmly. The student then states, without hesitation, conclusions the teacher only half believed, and it does so fastest on the questions where it has no business being sure. The remedies are not exotic. Keep the teacher's full spread of answers where possible, measure the student against real ground truth rather than against its teacher, test it well outside the questions it was distilled on, and treat speed and cost as gains to weigh against a documented loss rather than as a free lunch. The same thinking applies to every summary, compressed file and shortened report: something concentrated from a larger source is only as trustworthy as the process that made it, and the part that did not come over is invisible in the result. Schiedam, with its mills and its distilling past, is a good place to remember what stays in the pot.
 
+Reliable pipeline
+
 ## Five checks for any smaller copy of a larger model
 
 For distilled models, compressed models, summaries and any cheaper substitute for an expensive system. Worked through in the town that distilled for the world.
 
-**Evaluating a copy honestly**
-
 | Check | Method | Hazard it guards against | Outcome |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Keep the recipe | Store the distillation questions and the teacher version used | Not knowing what the student was offered | A known scope |
 | Ground truth | Score both models on answers verified independently | Copying scored as accuracy | Real accuracy for each |
 | Breadth | Test on topics and formats absent from training | Hidden gaps outside the distilled range | A map of where the student fails |
@@ -158,14 +150,37 @@ A proposal to replace an expensive AI tool with a cheaper one, rewritten with a 
 
 This section uses the encyclopaedia's account of Schiedam's distilling history only as an image, and general knowledge of how knowledge distillation works in machine learning. It describes no Schiedam distillery's methods and no particular AI product.
 
+Learning ladder
+
 ## From a quiz bot that copies a friend to a model scored against the truth
 
 The level is set in the free lesson by watching the learner handle a real task. Neither age alone nor which wijk they live in fixes where they start.
 
-- **Ages 6 to 10: Copying a friend** Children build a bot that copies answers and find what it gets wrong. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Game Development for Kids](/courses/game-development-masterclass-for-kids)
-- **Ages 11 to 13: Right, or just the same?** Learners check copied answers against a key instead of against the source. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Student and teacher** Teenagers train a small model to imitate a larger one and score both. [App Development for Teens](/courses/complete-app-development-masterclass-for-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: The cheaper tool** Adults test a lighter AI tool on real cases before adopting it. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Copying a friend
+
+Children build a bot that copies answers and find what it gets wrong.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Game Development for Kids](/courses/game-development-masterclass-for-kids)Ages 11 to 13
+
+### Right, or just the same?
+
+Learners check copied answers against a key instead of against the source.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Student and teacher
+
+Teenagers train a small model to imitate a larger one and score both.
+
+[App Development for Teens](/courses/complete-app-development-masterclass-for-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### The cheaper tool
+
+Adults test a lighter AI tool on real cases before adopting it.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## Many AI tools are smaller copies of bigger ones. Why should a teenager in Schiedam ask what was left in the still?
 
@@ -177,30 +192,139 @@ A learner who has trained a small model to copy a large one, scored it against i
 
 So the reason for a child in Schiedam to learn to code in 2026 is not the mills or the museum. It is that someone who asks what a smaller model left in the still will be needed wherever cheap copies of powerful AI are put in front of people. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for a close-packed town
 
 Schiedam fits more than eighty thousand people onto under eighteen square kilometres of land, and a class that starts at home saves every one of them a trip through busy streets.
 
-- **From the living room** A pupil in Spaland and a pupil in Bijdorp log on at the same minute from their own homes. No cycle through the evening traffic and no waiting at a door afterwards.
-- **School vocabulary left in Dutch** Brugklas, vmbo, havo, vwo, groep and the profielkeuze are never translated during a lesson; the explanations around them are in English.
-- **A free lesson that teaches** The opening session is a lesson, not a sales demonstration. The teacher sets a real task, watches how it is handled, and afterwards proposes a level, a course and a regular time, with no payment details taken.
-- **Groups of equals** Fifteen to twenty learners who stand at the same point in the same subject. Schiedam has 12,890 residents under fifteen, but five of them matched on subject, stage and hour is rare, so a group may include learners from abroad.
-- **Regio Midden calendar** Classes meet twice a week, about eight times a month, in one fixed slot, and break for the regio Midden holidays that Zuid-Holland schools keep.
-- **Evenings on Indian time** Because the teachers work from India, three and a half hours ahead in the Dutch summer and four and a half in winter, late afternoons, evenings and weekend mornings are all practical here.
+### From the living room
 
-**Thirty-two schools on a small map, and one group from further away** Schiedam has 24 primary establishments with 7,114 pupils and 8 secondary establishments with 4,076. A coding group still depends on five learners who line up on subject, stage and hour, and across all ages from 6 to 67 and many countries that line-up happens much more easily than in one town.
+A pupil in Spaland and a pupil in Bijdorp log on at the same minute from their own homes. No cycle through the evening traffic and no waiting at a door afterwards.
+
+### School vocabulary left in Dutch
+
+Brugklas, vmbo, havo, vwo, groep and the profielkeuze are never translated during a lesson; the explanations around them are in English.
+
+### A free lesson that teaches
+
+The opening session is a lesson, not a sales demonstration. The teacher sets a real task, watches how it is handled, and afterwards proposes a level, a course and a regular time, with no payment details taken.
+
+### Groups of equals
+
+Fifteen to twenty learners who stand at the same point in the same subject. Schiedam has 12,890 residents under fifteen, but five of them matched on subject, stage and hour is rare, so a group may include learners from abroad.
+
+### Regio Midden calendar
+
+Classes meet twice a week, about eight times a month, in one fixed slot, and break for the regio Midden holidays that Zuid-Holland schools keep.
+
+### Evenings on Indian time
+
+Because the teachers work from India, three and a half hours ahead in the Dutch summer and four and a half in winter, late afternoons, evenings and weekend mornings are all practical here.
+
+Thirty-two schools on a small map, and one group from further away
+
+Schiedam has 24 primary establishments with 7,114 pupils and 8 secondary establishments with 4,076. A coding group still depends on five learners who line up on subject, stage and hour, and across all ages from 6 to 67 and many countries that line-up happens much more easily than in one town.
+
+Fees
 
 ## The price of classes in Schiedam
 
 Three figures, shown in full here rather than on request.
 
-- First class: USD 0. One real lesson with a real task, closing with a level and a recommended course.
-- Group tuition: USD 100 a month. Monthly, usually eight classes, with fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. Monthly, usually eight classes, one learner and a dedicated teacher.
+First class**USD 0**
+
+One real lesson with a real task, closing with a level and a recommended course.
+
+Group tuition**USD 100**
+
+Monthly, usually eight classes, with fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+Monthly, usually eight classes, one learner and a dedicated teacher.
 
 The dollar price is the same everywhere and no euro list exists beside it, so a household in Kethel pays what one in Schiedam-Zuid pays. No payment is taken until the free lesson has settled the course and the slot, after which WhatsApp is used to arrange it. The pricing page covers pauses, a change of format and missed classes.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Schiedam.)Reviews
+
+## Six Google reviews, printed without edits
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Where does the learner stand today?
+
+The first task might be a quiz bot that copies a friend, a set of copied answers checked against a key, or a small model trained to imitate a bigger one and tested against the truth.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Schiedam one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Schiedam.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Schiedam coding class questions
+
+The jenever town, its mills, its numbers, and the lessons.
 
 ### Which wijken does Schiedam have?
 
@@ -242,10 +366,14 @@ The first lesson is free. After it, group tuition is USD 100 a month for two liv
 
 Fifteen to twenty, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
+Explore the Rijnmond and beyond
+
 ## Into Rotterdam, around the port, and out to the province
 
 Schiedam's large neighbour has its own page at [coding classes in Rotterdam](/coding-classes-in-rotterdam), with district pages beneath it including [Delfshaven](/coding-classes-in-delfshaven). Across the river, [Nissewaard](/coding-classes-in-nissewaard) has a page too, and every town and city in the province with one is gathered on [Zuid-Holland](/coding-classes-in-zuid-holland). To begin with machine learning directly, go to the [AI and Python Academy](/ai-and-python-academy-netherlands); the complete series is on the [Netherlands coding hub](/coding-classes-in-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Chat with us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Schiedam.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-schiedam](https://learn.modernagecoders.com/coding-classes-in-schiedam#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-schiedam*

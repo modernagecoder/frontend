@@ -4,34 +4,28 @@ description: "Online maths tuition in Belfast for ages 6 to 67: CCEA GCSE Maths 
 canonical: https://learn.modernagecoders.com/maths-tuition-in-belfast
 source: src/pages/maths-tuition-in-belfast.html
 ---
-> Belfast learners from 6 to 67 can study maths with us live online: primary maths from P1 to P7, Years 8 to 10, CCEA GCSE Mathematics at Foundation or Higher tier, CCEA GCSE Further Mathematics, CCEA AS and A2 Mathematics, and adult maths. Classes hold fifteen to twenty learners at the same level, or a learner can work one to one. Our Belfast example uses the hills: on a smooth Earth without refraction, the horizon from the 478 metre summit of Divis is 78.0 kilometres away, found with the circle theorem that a tangent is perpendicular to a radius and with Pythagoras. The first lesson is free. Afterwards, group places cost USD 100 a month and private lessons USD 150 a month.
+> Online maths tuition in Belfast for ages 6 to 67: CCEA GCSE Maths and Further Maths, AS and A2, primary and adult maths, plus a horizon project from Divis.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths tuition in Belfast
+In short
 
-Belfast · Maths for learners aged 6 to 67 · Live and online, small classes or one to one
+Belfast learners from 6 to 67 can study maths with us live online: primary maths from P1 to P7, Years 8 to 10, CCEA GCSE Mathematics at Foundation or Higher tier, CCEA GCSE Further Mathematics, CCEA AS and A2 Mathematics, and adult maths. Classes hold fifteen to twenty learners at the same level, or a learner can work one to one. Our Belfast example uses the hills: on a smooth Earth without refraction, the horizon from the 478 metre summit of Divis is 78.0 kilometres away, found with the circle theorem that a tangent is perpendicular to a radius and with Pythagoras. The first lesson is free. Afterwards, group places cost USD 100 a month and private lessons USD 150 a month.
 
-# Maths tuition in Belfast
-
-OpenStreetMap gives the summit of Divis as 478 metres. Imagine the Earth as a perfectly smooth ball with no air to bend the light. How far away is the horizon from the top? One fact from GCSE geometry answers it: a tangent meets a radius at a right angle. Put Pythagoras on that right angle, with the Earth's radius of 6,371 kilometres on one side, and the horizon sits 78.0 kilometres away. Stand at sea level with your eyes 1.6 metres up and it shrinks to 4.5 kilometres. This page explains how we teach maths to Belfast learners, from P1 to A2 and adult study, and uses the Belfast Hills to show how much a single circle theorem can do.
-
-At a glance: Who: Belfast learners aged 6 to 67; Primary: P1 to P7 number, shape and measure; Secondary: Years 8 to 12, CCEA GCSE Mathematics; Extra GCSE: CCEA GCSE Further Mathematics; Sixth form: CCEA AS and A2 Mathematics; Adults: Refreshers, Functional Mathematics, GCSE; Format: Live video, 15 to 20 per class or one to one; Local project: Horizons from Divis and Black Mountain. Rated 4.9 across 547 Google reviews.
+Common starting points in Belfast
 
 ## Three courses most families start with
 
 Pick by stage. The complete list, from first counting to degree-level maths, follows below.
 
-- [Primary maths, P1 to P7](/courses/elementary-mathematics-complete-masterclass): Number, fractions, measure and problem solving, with clear written working from the start.
-- [GCSE maths](/courses/gcse-mathematics-mastery): Written for the English boards; for Belfast learners we teach to the CCEA specification and its unit structure.
-- [AS and A2 maths](/courses/a-level-maths-course-pure-mechanics-statistics): Pure and applied mathematics, sequenced to follow the CCEA AS and A2 units.
+[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  BFS / 1 Primary maths, P1 to P7 Number, fractions, measure and problem solving, with clear written working from the start. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)[![GCSE Maths course thumbnail](/images/gcse-maths.webp)  BFS / 2 GCSE maths Written for the English boards; for Belfast learners we teach to the CCEA specification and its unit structure. Open the syllabus →](/courses/gcse-mathematics-mastery)[![A-Level Maths course thumbnail](/images/a-level-maths.webp)  BFS / 3 AS and A2 maths Pure and applied mathematics, sequenced to follow the CCEA AS and A2 units. Open the syllabus →](/courses/a-level-maths-course-pure-mechanics-statistics)
+
+Maths in Northern Ireland
 
 ## CCEA GCSE, Further Maths and A level maths for Belfast learners
 
 Northern Ireland has its own curriculum and its own awarding body, CCEA. A Belfast pupil's path looks different from one in England, Scotland or Wales.
 
-**Maths stages for a Belfast learner, and what our lessons concentrate on**
-
 | Stage | Usual ages | Our concentration |
-|---|---|---|
+| --- | --- | --- |
 | P1 to P4 | 4 to 8 | Counting, place value, number facts, money and simple shape. |
 | P5 to P7 | 8 to 11 | Times tables, fractions and decimals, measure, and multi-step problems. |
 | Years 8 to 10 | 11 to 14 | Algebra, ratio, Pythagoras, angles and data handling. |
@@ -53,6 +47,8 @@ Our national pages go into detail: [CCEA GCSE maths](/ccea-gcse-maths-help), [A 
 
 Sources: CCEA specifications for [GCSE Mathematics](https://ccea.org.uk/downloads/docs/Specifications/GCSE/GCSE%20Mathematics%20(2017)/GCSE%20Mathematics%20(2017)-specification-Standard.pdf), [GCSE Further Mathematics](https://ccea.org.uk/downloads/docs/Specifications/GCSE/GCSE%20Further%20Mathematics%20(2017)/GCSE%20Further%20Mathematics%20(2017)-specification-Standard.pdf) and [GCE Mathematics](https://ccea.org.uk/downloads/docs/Specifications/GCE/GCE%20Mathematics%20(2018)/GCE%20Mathematics%20(2018)-specification-Standard.pdf), read on 1 October 2026. The ages in the table are typical, not fixed.
 
+The Belfast project
+
 ## How far could you see from Divis on a perfectly smooth Earth?
 
 A geometry question with real numbers: the heights of the Belfast Hills, the size of the Earth, and one right angle.
@@ -65,10 +61,8 @@ Now the question. From a height h above a smooth sphere of radius R, the line of
 
 With R = 6,371 kilometres and h = 478 metres, d comes to 78.0 kilometres. Using the EU-DEM height of 468.8 metres instead gives 77.3 kilometres. A 9 metre difference in height moves the horizon by about 750 metres, which shows how sensitive the answer is to the input.
 
-**Horizon distance on a smooth Earth of radius 6,371 km, ignoring refraction and terrain (our calculation)**
-
 | Viewpoint | Height used | Horizon distance |
-|---|---|---|
+| --- | --- | --- |
 | Divis, map tag | 478 m | 78.0 km |
 | Divis, EU-DEM | 468.8 m | 77.3 km |
 | Black Mountain, map tag | 389 m | 70.4 km |
@@ -77,6 +71,8 @@ With R = 6,371 kilometres and h = 478 metres, d comes to 78.0 kilometres. Using 
 | Eye 1.6 m above sea level | 1.6 m | 4.5 km |
 
 Summits and City Hall: [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), 1 October 2026. Heights: [OpenTopoData](https://www.opentopodata.org/) eudem25m (EU-DEM v1.1, produced using Copernicus data) and srtm30m. Horizons are Modern Age Coders' calculations for an idealised smooth sphere; real views depend on the air, the weather and the land in between, and this page makes no claim about what can actually be seen from any hill.
+
+From GCSE to A level
 
 ## A circle theorem, Pythagoras and an approximation worth knowing
 
@@ -94,10 +90,8 @@ Another way to see the curve: how far below a perfectly level line does the sphe
 
 Doubling the distance quadruples the drop, which is the square law in action. Students who see the table usually ask whether that is why ships seem to sink as they sail away, and that question leads naturally into A level modelling.
 
-**How far a smooth Earth drops below a level line, x² ÷ 2R with R = 6,371 km (our calculation)**
-
 | Distance | Drop below the level line |
-|---|---|
+| --- | --- |
 | 1 km | 0.08 m |
 | 10 km | 7.85 m |
 | 20 km | 31.4 m |
@@ -106,6 +100,8 @@ Doubling the distance quadruples the drop, which is the square law in action. St
 There is one more number worth showing. Seen from the centre of the Earth, the whole 78 kilometres from Divis to its horizon spans an angle of only 0.70°. Meanwhile, on the map, Divis is 5.96 kilometres in a straight line from Belfast City Hall and 6.05 kilometres from McArt's Fort. The local distances are tiny next to the horizon, and a learner who puts both on one sketch understands scale in a way no worksheet manages.
 
 All values are our calculations from the inputs above. CCEA wording from the [GCSE Mathematics specification](https://ccea.org.uk/downloads/docs/Specifications/GCSE/GCSE%20Mathematics%20(2017)/GCSE%20Mathematics%20(2017)-specification-Standard.pdf).
+
+Maths outside lessons
 
 ## Maths Week Ireland, maths challenges and where a keen Belfast learner can go
 
@@ -133,6 +129,8 @@ For learners heading towards competition maths, our [olympiad page](/maths-olymp
 
 Source: [Maths Week Ireland 2026](https://www.mathsweek.ie/2026/), read on 1 October 2026; [UK Mathematics Trust](https://ukmt.org.uk/). Modern Age Coders has no connection with Maths Week Ireland, the UKMT, CCEA or any Belfast school, college or university.
 
+Adults welcome
+
 ## Maths for adults in Belfast
 
 Many of our learners are adults, and almost all of them are better at maths than they believe.
@@ -151,14 +149,14 @@ Budgets, rates, measurements and charts. Our [adult maths page](/online-maths-cl
 
 Adults enjoy the horizon project because it starts from something they have wondered about on a clear day. Ten minutes later they have used a circle theorem and Pythagoras, often for the first time since school, and found that both make perfect sense.
 
+Building up
+
 ## From measuring to circle theorems, in four steps
 
 Each step relies on the previous one. A learner joins at whichever step fits, and the free lesson finds it.
 
-**Four steps from measure to geometric proof, with a sign that each is secure**
-
 | Usually | Step | Secure when the learner |
-|---|---|---|
+| --- | --- | --- |
 | P5 to P7 | 1. Measure and square numbers | Works with metres and kilometres and squares numbers accurately |
 | Years 8 to 10 | 2. Pythagoras | Finds any side of a right-angled triangle and checks it is sensible |
 | Years 11 and 12 | 3. Circle theorems | Uses the tangent and radius rule to set up a triangle |
@@ -167,75 +165,353 @@ Each step relies on the previous one. A learner joins at whichever step fits, an
 ### Joining in Year 11 or 12
 
 It is still worth it. We make number and algebra secure first, because shaky foundations cost marks on every unit.
+
 If there is more to do than time allows, we will say so honestly after the trial lesson.
 
 ### After GCSE
 
 Many carry on to AS and A2, some to [statistics and probability](/courses/statistics-probability-maths-course), and some to [maths through coding](/courses/maths-through-coding), where a short program draws the horizon for any height.
+
 A few fall for problem solving and move on to competition maths.
+
+Every course
 
 ## Maths courses for Belfast learners
 
 Arranged by stage. Courses written for English exams are matched to the CCEA specification for Belfast learners.
 
+I
+
 ### Primary
 
 P1 to P7
 
-- [Early maths](/courses/early-math-foundations): Counting and shape for the youngest pupils.
-- [Primary maths](/courses/elementary-mathematics-complete-masterclass): All primary topics, explained properly.
-- [Mental maths](/courses/mental-maths-mastery-kids): Calculation in the head, quickly and accurately.
-- [Abacus maths](/courses/abacus-mental-maths-course-for-kids): Beads first, then a mental abacus.
+MBF / A1
+
+#### Early maths
+
+Counting and shape for the youngest pupils.
+
+[Open the syllabus](/courses/early-math-foundations)
+
+MBF / A2
+
+#### Primary maths
+
+All primary topics, explained properly.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+MBF / A3
+
+#### Mental maths
+
+Calculation in the head, quickly and accurately.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+MBF / A4
+
+#### Abacus maths
+
+Beads first, then a mental abacus.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)II
 
 ### Years 8 to 12
 
 Key Stage 3 and GCSE
 
-- [Years 8 to 10 maths](/courses/comprehensive-middle-school-mathematics-mastery): Algebra, geometry and data before GCSE.
-- [Algebra foundations](/courses/algebra-foundations-masterclass): Firm algebra for the GCSE years.
-- [GCSE maths](/courses/gcse-mathematics-mastery): Taught to CCEA units at either tier.
-- [IGCSE maths](/courses/igcse-mathematics-mastery): For international qualification entries.
+MBF / B1
+
+#### Years 8 to 10 maths
+
+Algebra, geometry and data before GCSE.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+MBF / B2
+
+#### Algebra foundations
+
+Firm algebra for the GCSE years.
+
+[Open the syllabus](/courses/algebra-foundations-masterclass)
+
+MBF / B3
+
+#### GCSE maths
+
+Taught to CCEA units at either tier.
+
+[Open the syllabus](/courses/gcse-mathematics-mastery)
+
+MBF / B4
+
+#### IGCSE maths
+
+For international qualification entries.
+
+[Open the syllabus](/courses/igcse-mathematics-mastery)III
 
 ### Years 13 and 14 and beyond
 
 AS, A2 and university
 
-- [AS and A2 maths](/courses/a-level-maths-course-pure-mechanics-statistics): Pure and applied units in CCEA order.
-- [Statistics](/courses/statistics-probability-maths-course): Probability and data at depth.
-- [University maths](/courses/college-mathematics-complete-masterclass): Calculus and linear algebra for degree study.
-- [Competition maths](/courses/olympiad-competition-mathematics-mastery): Challenge-style problems with no recipe.
+MBF / C1
+
+#### AS and A2 maths
+
+Pure and applied units in CCEA order.
+
+[Open the syllabus](/courses/a-level-maths-course-pure-mechanics-statistics)
+
+MBF / C2
+
+#### Statistics
+
+Probability and data at depth.
+
+[Open the syllabus](/courses/statistics-probability-maths-course)
+
+MBF / C3
+
+#### University maths
+
+Calculus and linear algebra for degree study.
+
+[Open the syllabus](/courses/college-mathematics-complete-masterclass)
+
+MBF / C4
+
+#### Competition maths
+
+Challenge-style problems with no recipe.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)IV
 
 ### Applied and adult
 
 Work and curiosity
 
-- [Money maths](/courses/complete-business-finance-mathematics-mastery): Interest, loans and investment.
-- [Data maths](/courses/data-analytics-mathematics-masterclass): Numbers behind charts and reports.
-- [Maths through coding](/courses/maths-through-coding): Using Python to explore geometry.
-- [Vedic maths](/courses/vedic-maths-course-speed-calculation-mastery): Speed methods once basics are secure.
+MBF / D1
+
+#### Money maths
+
+Interest, loans and investment.
+
+[Open the syllabus](/courses/complete-business-finance-mathematics-mastery)
+
+MBF / D2
+
+#### Data maths
+
+Numbers behind charts and reports.
+
+[Open the syllabus](/courses/data-analytics-mathematics-masterclass)
+
+MBF / D3
+
+#### Maths through coding
+
+Using Python to explore geometry.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+MBF / D4
+
+#### Vedic maths
+
+Speed methods once basics are secure.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
+
+Lesson times
 
 ## Fitting maths around a Belfast week
 
 Teaching happens from India, where the clocks do not change. India is five and a half hours ahead of Belfast in winter and four and a half hours ahead in British Summer Time. Every time we agree is given in UK time.
 
-- **Weekdays after school** Primary and post-primary pupils.
-- **Weekday evenings** Years 13 and 14, and adults.
-- **Saturday and Sunday mornings** For anyone who prefers weekends.
+Weekdays after school
 
-- **One teacher throughout** The same teacher each week, who learns each learner's habits.
-- **Updates home** A brief note after lessons on progress and next steps.
-- **Classes by level** Fifteen to twenty learners at one level in each class.
-- **Real numbers** Hill heights, maps and records next to exam questions.
-- **Private teaching** One to one for a single topic or the last weeks before exams.
-- **Understanding before speed** Methods are explained, then practised.
+Primary and post-primary pupils.
+
+Weekday evenings
+
+Years 13 and 14, and adults.
+
+Saturday and Sunday mornings
+
+For anyone who prefers weekends.
+
+### One teacher throughout
+
+The same teacher each week, who learns each learner's habits.
+
+### Updates home
+
+A brief note after lessons on progress and next steps.
+
+### Classes by level
+
+Fifteen to twenty learners at one level in each class.
+
+### Real numbers
+
+Hill heights, maps and records next to exam questions.
+
+### Private teaching
+
+One to one for a single topic or the last weeks before exams.
+
+### Understanding before speed
+
+Methods are explained, then practised.
+
+Student work
+
+## Projects our learners built later on
+
+Learners who began with geometry and numbers created the four projects below. More are in the [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Paid monthly in US dollars, at the same rate for every country outside India, with no joining fee and no fixed term.
 
-- Free first class: USD 0. A real lesson at the right level. Our candid view afterwards. No card details asked for.
-- Group batch: USD 100 a month. Fifteen to twenty learners at one level. A regular teacher. Marked work, discussed in class. A certificate when you finish.
-- One to one: USD 150 a month. Individual teaching. Focused on the exact gap. Well suited to the run-up to exams.
+Free first class
+
+USD 0
+
+no card required
+
+- A real lesson at the right level
+- Our candid view afterwards
+- No card details asked for
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners at one level
+- A regular teacher
+- Marked work, discussed in class
+- A certificate when you finish
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- Individual teaching
+- Focused on the exact gap
+- Well suited to the run-up to exams
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Copied exactly from the Google reviews our families and learners wrote.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Belfast maths questions
 
 ## What Belfast families and adult learners ask
 
@@ -279,15 +555,54 @@ No. Nobody can honestly promise a grade. We teach thoroughly and tell you clearl
 
 No. We quote CCEA's published specifications so families know what is examined, but we have no link with CCEA, any university or any school.
 
+Related
+
 ## More for Belfast learners
 
-- [CCEA GCSE maths help](/ccea-gcse-maths-help): The CCEA GCSE in detail.
-- [Transfer test maths](/transfer-test-maths-practice-northern-ireland): The maths side of P7 preparation.
-- [Further Maths tuition](/further-maths-tuition-online): For learners who want more.
-- [Coding classes in Belfast](/best-coding-class-in-belfast): Our coding page for the city.
-- [Northern Ireland](/coding-and-ai-classes-in-northern-ireland): Our page for learners across Northern Ireland.
-- [Maths tuition in Cardiff](/maths-tuition-in-cardiff): A census histogram project.
+Northern Ireland maths pages, our Northern Ireland page and coding in Belfast.
 
-## Contact
+### [CCEA GCSE maths help](/ccea-gcse-maths-help)
 
-Book the free first class at [https://learn.modernagecoders.com/maths-tuition-in-belfast](https://learn.modernagecoders.com/maths-tuition-in-belfast#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The CCEA GCSE in detail.
+
+### [Transfer test maths](/transfer-test-maths-practice-northern-ireland)
+
+The maths side of P7 preparation.
+
+### [Further Maths tuition](/further-maths-tuition-online)
+
+For learners who want more.
+
+### [Coding classes in Belfast](/best-coding-class-in-belfast)
+
+Our coding page for the city.
+
+### [Northern Ireland](/coding-and-ai-classes-in-northern-ireland)
+
+Our page for learners across Northern Ireland.
+
+### [Maths tuition in Cardiff](/maths-tuition-in-cardiff)
+
+A census histogram project.
+
+Start here
+
+## Book a free maths lesson
+
+Tell us the learner's age or school year and the topic they find hardest. The trial is a proper lesson, and you get an honest picture of where things stand.
+
+Want to look around first? Our [courses](/courses) and our page on [how we teach](/how-we-teach) are good places to start.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20a%20learner%20in%20Belfast.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp gets the fastest reply. Our number starts with India's code because the team works there; there is no Belfast office, and all teaching is online.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/maths-tuition-in-belfast*

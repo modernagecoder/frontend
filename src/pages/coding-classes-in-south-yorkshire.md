@@ -4,46 +4,32 @@ description: "Live online coding, Python and maths classes across South Yorkshir
 canonical: https://learn.modernagecoders.com/coding-classes-in-south-yorkshire
 source: src/pages/coding-classes-in-south-yorkshire.html
 ---
-> South Yorkshire is four boroughs, Sheffield, Doncaster, Rotherham and Barnsley, and the 2021 Census counted 1,375,006 people across them, by our addition of the four totals. The Sheffield built-up area alone passes half a million, with Doncaster, Rotherham and Barnsley next. We teach every class live over video from India, and each learner is placed by the level they have reached, whatever their age. Coding, Python, probability and maths are open to anyone aged 6 to 67, either in a class of fifteen to twenty or one-to-one. The South Yorkshire project is set at the Crucible in Sheffield. Lesson one is free of charge. Carry on and it is USD 100 per month in a group, or USD 150 per month for one-to-one.
+> Live online coding, Python and maths classes across South Yorkshire, from Sheffield, Doncaster, Rotherham and Barnsley to Wombwell, Maltby and Mexborough.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / South Yorkshire
-
-South Yorkshire / Live online
-
-# Coding classes in South Yorkshire
-
-**What are the best coding classes in South Yorkshire?** South Yorkshire is four boroughs, Sheffield, Doncaster, Rotherham and Barnsley, and the 2021 Census counted 1,375,006 people across them, by our addition of the four totals. The Sheffield built-up area alone passes half a million, with Doncaster, Rotherham and Barnsley next. We teach every class live over video from India, and each learner is placed by the level they have reached, whatever their age. Coding, Python, probability and maths are open to anyone aged 6 to 67, either in a class of fifteen to twenty or one-to-one. The South Yorkshire project is set at the Crucible in Sheffield. Lesson one is free of charge. Carry on and it is USD 100 per month in a group, or USD 150 per month for one-to-one.
-
-World Snooker Tour calls the Crucible in Sheffield the home of the World Championship, and describes a 147, all fifteen reds with blacks and then every colour, as snooker's perfect break. It also notes that in 46 years at the Crucible, with many thousands of frames, there had been only 14 maximum breaks. That fact is a gift for a young programmer, because a simple model of a snooker break gives a very different answer. This page's project builds that model in Python, works out the expected value of a break and the chance of a 147, and then uses the gap between the model and the Crucible's real record to find what the model gets wrong.
-
-Facts last verified 26 September 2026. Teaching is online; no South Yorkshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for South Yorkshire
 
 ## Where South Yorkshire learners begin
 
 An eight-year-old in Barnsley who keeps score in every game, a Year 9 in Rotherham curious about odds, a Year 12 in Sheffield taking statistics seriously, and an adult in Doncaster who wants to understand risk at work. Each starts with a free lesson.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Typed Python for children, with games, puzzles and first steps with data and AI.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): Maths learned by coding it, including chance, averages and games simulated thousands of times.
-- [Statistics & Probability](/courses/statistics-probability-maths-course) (Ages 14 to 18): Statistics and probability built step by step, including expected value and why averages can mislead.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): Data and AI tools for adults who do not code yet, with a clear head for averages, odds and risk.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsTyped Python for children, with games, puzzles and first steps with data and AI.See the syllabus](/courses/python-ai-kids-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingMaths learned by coding it, including chance, averages and games simulated thousands of times.See the syllabus](/courses/maths-through-coding)[![Statistics & Probability course thumbnail](/images/statistics-probability-maths.webp)Ages 14 to 18Statistics & ProbabilityStatistics and probability built step by step, including expected value and why averages can mislead.See the syllabus](/courses/statistics-probability-maths-course)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)Data and AI tools for adults who do not code yet, with a clear head for averages, odds and risk.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)South Yorkshire in figures
 
 ## 1,375,006 people in four boroughs
 
 Borough counts are 2021 Census figures from Nomis; the total is our sum. Town figures are ONS built-up areas, each checked against our own count of census output areas.
 
-**South Yorkshire's twelve largest built-up areas, 2021 Census**
-
 | Town | Residents | Town | Residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Sheffield | 500,535 | Adwick le Street | 18,325 |
 | Doncaster | 87,455 | Wath upon Dearne | 16,960 |
 | Rotherham | 71,535 | Wombwell | 16,765 |
@@ -57,16 +43,16 @@ Sheffield borough had 556,521 residents, Doncaster 308,106, Rotherham 265,807 an
 
 Our [Sheffield](/best-coding-class-in-sheffield) page fits trend lines to a record, and [Doncaster](/best-coding-class-in-doncaster) is about searching cleverly. This page is for the whole county, Rotherham and Barnsley included.
 
+The South Yorkshire project
+
 ## What is a snooker break worth?
 
 A model with one number in it, the arithmetic of chance, and a reality check from the Crucible.
 
 The model is deliberately simple. The player pots each ball with the same chance p, every shot independent of the last, and always takes red then black fifteen times before clearing the six colours: 36 pots worth 147 points. The break ends at the first miss. The chance of reaching the tenth pot is p multiplied by itself ten times, so the expected value of a break is the value of each ball times the chance of getting that far, added up. The learner writes it as a short loop, then checks it with 200,000 simulated breaks, which agree.
 
-**Our model: exact results for four levels of skill, 26 September 2026**
-
 | Chance of each pot | Expected break | Middle break (median) | Chance of a 147 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 80 per cent | 14.7 | 9 | 1 in 3,081 |
 | 90 per cent | 33.9 | 24 | 1 in 44 |
 | 95 per cent | 63.2 | 49 | 1 in 6 |
@@ -92,14 +78,14 @@ Compute the full distribution exactly, confirm it by simulation, then add a hard
 
 The description of a 147 and the Crucible maximum figures come from World Snooker Tour's website. The model, its pot rates and every number in the table are ours, invented for teaching; they do not describe any real player.
 
+Why the Crucible
+
 ## A Sheffield theatre and snooker's perfect break
 
 The South Yorkshire link, in the words of the people who run it.
 
-**The Crucible and the 147, from its own sources**
-
 | Source | What it says |
-|---|---|
+| --- | --- |
 | Sheffield Theatres | The world-famous Crucible is a Sheffield landmark with a distinctive stage. |
 | World Snooker Tour | The Crucible is the home of the World Championship. |
 | World Snooker Tour | A 147 means potting all 15 reds with blacks, then clearing the colours. |
@@ -109,16 +95,41 @@ Snooker is a lovely way into probability because every shot is a chance and ever
 
 We have no link with World Snooker Tour, Sheffield Theatres or any South Yorkshire council. Their facts are theirs; the model and any error in it are ours.
 
-**Nearby pages** [Sheffield](/best-coding-class-in-sheffield) and [Doncaster](/best-coding-class-in-doncaster) have their own pages; [Derbyshire](/coding-classes-in-derbyshire) and [Nottinghamshire](/coding-classes-in-nottinghamshire) are south, [Leeds](/best-coding-class-in-leeds) north.
+Nearby pages
+
+[Sheffield](/best-coding-class-in-sheffield) and [Doncaster](/best-coding-class-in-doncaster) have their own pages; [Derbyshire](/coding-classes-in-derbyshire) and [Nottinghamshire](/coding-classes-in-nottinghamshire) are south, [Leeds](/best-coding-class-in-leeds) north.
+
+The path
 
 ## From keeping score to reasoning about chance
 
 The free lesson settles the starting point. Age is a hint; skill decides.
 
-- **Ages 6 to 10: Scores and dice** Block coding games with scores, dice and turns, where children first see chance at work. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 8 to 13: Games in Python** Typed Python that plays a game many times and counts what happens. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 18: Probability properly** Expected value, distributions and simulation, from GCSE ideas through to A level statistics. [Statistics & Probability](/courses/statistics-probability-maths-course), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Risk and data** Data, statistics and AI tools for adults who weigh odds and risks in their work. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### Scores and dice
+
+Block coding games with scores, dice and turns, where children first see chance at work.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 8 to 13
+
+### Games in Python
+
+Typed Python that plays a game many times and counts what happens.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 18
+
+### Probability properly
+
+Expected value, distributions and simulation, from GCSE ideas through to A level statistics.
+
+[Statistics & Probability](/courses/statistics-probability-maths-course)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Risk and data
+
+Data, statistics and AI tools for adults who weigh odds and risks in their work.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Data Analysis Course](/courses/data-analysis-mastery-course-college)AI and models of chance
 
 ## An AI can compute an expected value instantly. Will it check the model against the world?
 
@@ -130,30 +141,139 @@ A South Yorkshire student who has made that comparison will ask the same of any 
 
 For a teenager in South Yorkshire, learning to code in 2026 means being able to put any model up against the real world before trusting it. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Lesson logistics
+
 ## From the Dearne to the Don, straight from home
 
 Crossing South Yorkshire for a weekly class in the evening rush takes time many families do not have. Online lessons give it back.
 
-- **Lessons at your table** A semi in Wickersley, a terrace in Wombwell, a flat in Doncaster. The teacher and learner share a screen, and the learner writes the code.
-- **School words we use** Whether it is a Year 7 homework project or an A level statistics topic, the teacher uses the terms South Yorkshire pupils hear in class, in English.
-- **First lesson free** A proper lesson, then honest advice on level and course. No card details are asked for.
-- **Your level, your group** Everyone in a group of fifteen to twenty is working at the same point, wherever in the world they log in from.
-- **Breaks to match school** Two lessons a week is typical, with pauses for your school's holidays.
-- **Held in UK time** Slots are fixed in UK time and ignore the clock changes on your side; the teacher, running on India time several hours ahead, adjusts.
+### Lessons at your table
 
-**Why groups follow level** Even in a borough of a quarter of a million, five learners at one stage free on the same evening are hard to find. Level-based groups let a learner in Thorne or Hoyland join the right class.
+A semi in Wickersley, a terrace in Wombwell, a flat in Doncaster. The teacher and learner share a screen, and the learner writes the code.
+
+### School words we use
+
+Whether it is a Year 7 homework project or an A level statistics topic, the teacher uses the terms South Yorkshire pupils hear in class, in English.
+
+### First lesson free
+
+A proper lesson, then honest advice on level and course. No card details are asked for.
+
+### Your level, your group
+
+Everyone in a group of fifteen to twenty is working at the same point, wherever in the world they log in from.
+
+### Breaks to match school
+
+Two lessons a week is typical, with pauses for your school's holidays.
+
+### Held in UK time
+
+Slots are fixed in UK time and ignore the clock changes on your side; the teacher, running on India time several hours ahead, adjusts.
+
+Why groups follow level
+
+Even in a borough of a quarter of a million, five learners at one stage free on the same evening are hard to find. Level-based groups let a learner in Thorne or Hoyland join the right class.
+
+Fees
 
 ## Fees in South Yorkshire
 
 Maltby or Mexborough, the fee is the same, as it is in every country we teach apart from India.
 
-- First class: USD 0. A full lesson of genuine work, finishing with advice on level and course.
-- Group tuition: USD 100 a month. About eight lessons a month with fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. About eight lessons a month with a teacher of your own.
+First class**USD 0**
+
+A full lesson of genuine work, finishing with advice on level and course.
+
+Group tuition**USD 100**
+
+About eight lessons a month with fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+About eight lessons a month with a teacher of your own.
 
 All prices are set in US dollars, with none in pounds. You are only billed once the free lesson has led to an agreed course and a fixed weekly slot. How pauses, missed classes and swaps between group and private teaching work is spelled out on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20South%20Yorkshire%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Reviews
+
+## Google reviews, from families like yours
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free South Yorkshire lesson
+
+Send the learner's age or year and one or two interests. A first lesson might be a dice game in Scratch, a Python scorekeeper, or the snooker model on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented South Yorkshire one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20South%20Yorkshire%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## South Yorkshire questions
+
+The county, the snooker project and the practical side.
 
 ### How many people live in South Yorkshire?
 
@@ -195,10 +315,14 @@ The first lesson is free. Staying on costs USD 100 monthly in a small group or U
 
 If you want us to. Sheffield, Doncaster, Rotherham and Barnsley councils and academy trusts publish dates, and we plan around yours.
 
+Nearby
+
 ## Pages around South Yorkshire
 
 See [Sheffield](/best-coding-class-in-sheffield) and [Doncaster](/best-coding-class-in-doncaster), then [Derbyshire](/coding-classes-in-derbyshire), [Nottinghamshire](/coding-classes-in-nottinghamshire) and [Leeds](/best-coding-class-in-leeds). The [UK hub](/coding-classes-in-united-kingdom) covers the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20South%20Yorkshire%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-south-yorkshire](https://learn.modernagecoders.com/coding-classes-in-south-yorkshire#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-south-yorkshire*

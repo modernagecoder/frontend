@@ -4,46 +4,32 @@ description: "Live online coding, Python and maths classes across Dumfries and G
 canonical: https://learn.modernagecoders.com/coding-classes-in-dumfries-and-galloway
 source: src/pages/coding-classes-in-dumfries-and-galloway.html
 ---
-> Dumfries and Galloway is a single, sprawling council area, where Scotland's Census 2022 found about 145,900 people in some 70,600 households, at 22.7 people per square kilometre. Dumfries is by far the largest town, then Stranraer and Annan, with Lockerbie, Dalbeattie, Newton Stewart, Castle Douglas and Kirkcudbright after. Every class runs live over video from India, and learners are grouped by ability, from Primary 1 through S6 and on to adults. We teach coding, Python, data science and maths to everyone between 6 and 67, privately or in classes of fifteen to twenty. The Dumfries and Galloway project looks up at the Galloway sky. Lesson one is free; after that it is USD 100 a month in a group or USD 150 a month one-to-one.
+> Live online coding, Python and maths classes across Dumfries and Galloway, from Dumfries, Stranraer and Annan to Lockerbie, Castle Douglas and Kirkcudbright.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / Dumfries and Galloway
-
-Dumfries and Galloway / Live online
-
-# Coding classes in Dumfries and Galloway
-
-**What are the best coding classes in Dumfries and Galloway?** Dumfries and Galloway is a single, sprawling council area, where Scotland's Census 2022 found about 145,900 people in some 70,600 households, at 22.7 people per square kilometre. Dumfries is by far the largest town, then Stranraer and Annan, with Lockerbie, Dalbeattie, Newton Stewart, Castle Douglas and Kirkcudbright after. Every class runs live over video from India, and learners are grouped by ability, from Primary 1 through S6 and on to adults. We teach coding, Python, data science and maths to everyone between 6 and 67, privately or in classes of fifteen to twenty. The Dumfries and Galloway project looks up at the Galloway sky. Lesson one is free; after that it is USD 100 a month in a group or USD 150 a month one-to-one.
-
-Forestry and Land Scotland says that in 2009 Galloway Forest Park became one of the first places in the world to be named an International Dark Sky Park, and that on a clear night over 7,000 stars and planets are visible with the naked eye. That is a claim a programmer can test. Astronomers have catalogued every star bright enough to see without a telescope, with its brightness and its position. This page's project loads that catalogue into Python, works out which stars ever rise over Galloway and how many are above the horizon at any one moment, and finds that the answer depends entirely on what "visible" is taken to mean.
-
-Facts last verified 26 September 2026. Teaching is online; no Dumfries and Galloway branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Dumfries and Galloway
 
 ## Where Dumfries and Galloway learners start
 
 A P5 pupil in Castle Douglas who loves the stars, an S2 in Annan starting Python, an S5 in Dumfries working with data, and an adult in Stranraer building new skills. Each begins with a free lesson.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 12): Block coding from a first Scratch game onwards, including night-sky scenes and counting games.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Typed Python for children, with games, puzzles and first steps with data and AI.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 18): Real data in Python for teenagers, from loading a catalogue to testing a claim against it.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (Adults): Spreadsheets, statistics and SQL, then Python and dashboards, for adults working with real data.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 12Coding for KidsBlock coding from a first Scratch game onwards, including night-sky scenes and counting games.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsTyped Python for children, with games, puzzles and first steps with data and AI.See the syllabus](/courses/python-ai-kids-masterclass)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 18Data Science for TeensReal data in Python for teenagers, from loading a catalogue to testing a claim against it.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)AdultsData Analysis CourseSpreadsheets, statistics and SQL, then Python and dashboards, for adults working with real data.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Dumfries and Galloway in figures
 
 ## About 145,900 people from the Solway to the Galloway hills
 
 Population, households and density come from the 2022 census as first published, in hundreds; the town list is from the NRS mid-2020 locality estimates.
 
-**Dumfries and Galloway localities above 3,000 people, NRS mid-2020 estimates**
-
 | Locality | Residents | Locality | Residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Dumfries | 33,470 | Dalbeattie | 4,160 |
 | Stranraer | 10,110 | Newton Stewart | 4,030 |
 | Annan | 8,760 | Castle Douglas | 4,000 |
@@ -56,16 +42,16 @@ At 22.7 residents per square kilometre, the council area is about a third as den
 
 Many families look across the Solway to [Carlisle](/best-coding-class-in-carlisle) and [Cumbria](/coding-classes-in-cumbria). For Scottish exams, see [National 5 Computing Science](/national-5-computing-science-help) and [Higher Computing Science](/higher-computing-science-help).
 
+The Dumfries and Galloway project
+
 ## How many stars can you really see?
 
 A real star catalogue, a few lines of spherical geometry, and a claim that depends on its definition.
 
 The learner downloads the Yale Bright Star Catalogue, which lists the brightness and position of every star bright enough to see without a telescope: 9,096 entries with both values. Astronomers measure brightness in magnitudes, where bigger numbers are fainter, and the usual naked-eye limit under a dark sky is around magnitude 6 to 6.5. First the program counts stars brighter than each magnitude, and a pattern jumps out: each step fainter roughly triples the count, from 174 stars brighter than 3 to 518 brighter than 4, 1,630 brighter than 5 and 5,080 brighter than 6.
 
-**Our counts from the Bright Star Catalogue for a place at latitude 55 degrees north**
-
 | What "visible" means | Stars counted |
-|---|---|
+| --- | --- |
 | Whole sky, brighter than magnitude 6.5 | 8,404 |
 | Every star in the catalogue that ever rises at 55 degrees north | 6,814 |
 | Above the horizon at one moment, brighter than 6.5 (average of 24 times) | About 4,074 |
@@ -92,14 +78,14 @@ Compute each star's altitude for a given time and latitude, average over the nig
 
 The Dark Sky Park facts and the 7,000 figure are Forestry and Land Scotland's. The Bright Star Catalogue is published by the Strasbourg astronomical data centre from Yale's work. Every count on this page is ours, and a different latitude, brightness limit or catalogue would give different numbers.
 
+Why Galloway
+
 ## One of the first Dark Sky Parks in the world
 
 The Dumfries and Galloway link, from Forestry and Land Scotland.
 
-**Galloway International Dark Sky Park, as Forestry and Land Scotland describes it**
-
 | Point | The page says |
-|---|---|
+| --- | --- |
 | Designation | In 2009 Galloway Forest Park became one of the first in the world to be named an International Dark Sky Park. |
 | Tier | It was also awarded Gold Tier status. |
 | On a clear night | Over 7,000 stars and planets are visible with the naked eye. |
@@ -109,16 +95,41 @@ Astronomy was one of the first sciences to depend on large catalogues and carefu
 
 We have no connection with Forestry and Land Scotland, the Strasbourg data centre or Dumfries and Galloway Council. Their facts and data are theirs; our analysis and any mistakes are ours.
 
-**Nearby pages** [Carlisle](/best-coding-class-in-carlisle) and [Cumbria](/coding-classes-in-cumbria) are over the border; [Glasgow](/best-coding-class-in-glasgow) is to the north. The [Scotland](/coding-and-ai-classes-in-scotland) page lists every council.
+Nearby pages
+
+[Carlisle](/best-coding-class-in-carlisle) and [Cumbria](/coding-classes-in-cumbria) are over the border; [Glasgow](/best-coding-class-in-glasgow) is to the north. The [Scotland](/coding-and-ai-classes-in-scotland) page lists every council.
+
+The path
 
 ## From counting stars to testing claims with data
 
 The free lesson settles where to start. The school stage is a clue, and ability is the answer.
 
-- **P1 to P4: Counting games** Block coding with counting, sorting and simple night-sky scenes. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **P5 to S2: Lists and thresholds** Typed Python that filters a list by a rule and counts what passes. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **S3 to S6: Real datasets** Data science with real catalogues, useful alongside National 5 and Higher courses. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Data you can defend** Spreadsheets, SQL and Python for adults who need numbers that stand up to questions. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+P1 to P4
+
+### Counting games
+
+Block coding with counting, sorting and simple night-sky scenes.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)P5 to S2
+
+### Lists and thresholds
+
+Typed Python that filters a list by a rule and counts what passes.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)S3 to S6
+
+### Real datasets
+
+Data science with real catalogues, useful alongside National 5 and Higher courses.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Data you can defend
+
+Spreadsheets, SQL and Python for adults who need numbers that stand up to questions.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)AI and definitions
 
 ## An AI can repeat "over 7,000 stars". Can it tell you what that number counts?
 
@@ -130,30 +141,139 @@ A Dumfries and Galloway student who has run those numbers knows to ask what a fi
 
 So a young person in Dumfries and Galloway should learn to code in 2026 to find out what a number really counts. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How lessons run
+
 ## From the Rhins to Annandale, no long drive
 
 Dumfries and Galloway is wide and rural, and a weekly class at the right level can be far from home. Online lessons remove the distance.
 
-- **Home is the classroom** A farmhouse near Newton Stewart, a flat in Dumfries, a house in Stranraer. The pupil types the code while the teacher watches the shared screen.
-- **Scottish stages** Teachers know where a P7 or an S4 pupil is in the Scottish system, from Primary to National 5, Higher and Advanced Higher, and teach in English.
-- **Free to start** A real first lesson, then clear advice on level and course. No card details are asked for.
-- **Groups by stage** Each class of fifteen to twenty shares a level, even if its members live in different countries.
-- **Term and holidays** A usual week has two lessons; when the school holidays start, so does our break.
-- **UK time, steady** Your slot stays at the same UK time all year; the teacher, on India time several hours ahead, adjusts when the clocks change.
+### Home is the classroom
 
-**Why groups follow level** Across a council area this large, five learners at one stage who are free on the same evening rarely live near each other. Grouping by level lets a pupil in Moffat or Kirkcudbright join a class that fits.
+A farmhouse near Newton Stewart, a flat in Dumfries, a house in Stranraer. The pupil types the code while the teacher watches the shared screen.
+
+### Scottish stages
+
+Teachers know where a P7 or an S4 pupil is in the Scottish system, from Primary to National 5, Higher and Advanced Higher, and teach in English.
+
+### Free to start
+
+A real first lesson, then clear advice on level and course. No card details are asked for.
+
+### Groups by stage
+
+Each class of fifteen to twenty shares a level, even if its members live in different countries.
+
+### Term and holidays
+
+A usual week has two lessons; when the school holidays start, so does our break.
+
+### UK time, steady
+
+Your slot stays at the same UK time all year; the teacher, on India time several hours ahead, adjusts when the clocks change.
+
+Why groups follow level
+
+Across a council area this large, five learners at one stage who are free on the same evening rarely live near each other. Grouping by level lets a pupil in Moffat or Kirkcudbright join a class that fits.
+
+Fees
 
 ## Fees in Dumfries and Galloway
 
 Stranraer or Gretna, the fee is the same, and it is the fee in every country we teach apart from India.
 
-- First class: USD 0. A full lesson of genuine work, then a suggested level and course.
-- Group tuition: USD 100 a month. About eight lessons a month with fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. About eight lessons a month, one-to-one.
+First class**USD 0**
+
+A full lesson of genuine work, then a suggested level and course.
+
+Group tuition**USD 100**
+
+About eight lessons a month with fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+About eight lessons a month, one-to-one.
 
 Prices are set in US dollars, not pounds. Payment only begins after the free lesson has settled which course and which weekly hour; holiday pauses, missed lessons and changing between group and private are explained on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Dumfries%20and%20Galloway%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Reviews
+
+## Reviews from families on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Dumfries and Galloway lesson
+
+Give us the pupil's stage or the adult's aim, and one or two interests. A first lesson could be a Scratch night-sky scene, a Python counting program, or the star catalogue on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Dumfries and Galloway one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Dumfries%20and%20Galloway%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Dumfries and Galloway questions
+
+The council area, the dark sky project and practical details.
 
 ### How many people live in Dumfries and Galloway?
 
@@ -195,10 +315,14 @@ The first lesson is free. From then on it is USD 100 monthly in a group or USD 1
 
 Yes. Term dates are published by the council, and we arrange pauses once you send yours.
 
+Close by
+
 ## Pages near Dumfries and Galloway
 
 South over the Solway are [Carlisle](/best-coding-class-in-carlisle) and [Cumbria](/coding-classes-in-cumbria); north is [Glasgow](/best-coding-class-in-glasgow). All 32 Scottish councils appear on our [Scotland](/coding-and-ai-classes-in-scotland) page. The [UK hub](/coding-classes-in-united-kingdom) has the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Dumfries%20and%20Galloway%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-dumfries-and-galloway](https://learn.modernagecoders.com/coding-classes-in-dumfries-and-galloway#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-dumfries-and-galloway*

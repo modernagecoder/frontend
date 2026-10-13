@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes in Leeuwarden for ages 6
 canonical: https://learn.modernagecoders.com/coding-classes-in-leeuwarden
 source: src/pages/coding-classes-in-leeuwarden.html
 ---
-> Coding classes in Leeuwarden serve 130,162 people (Statistics Netherlands, 1 January 2026) across 36 named places, from the city itself at 95,890 in 2023 down to Lions with about 25. The Oldehove, its unfinished tower, is published at 40 metres and 4.2 degrees out of true, and those two rounded figures put its lean somewhere between 2.86 and 3.00 metres. The single number a calculator returns is 2.93, and claiming it would be claiming more than the sources gave. Modern Age Coders teaches live online in English to all 36 places, ages 6 to 67, with a free opening lesson and then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
+> Live online coding, Python and AI classes in Leeuwarden for ages 6 to 67, in Stiens, Grouw, Goutum, Mantgum and all 36 places. First lesson free, then one flat fee.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Leeuwarden
-
-Leeuwarden, Friesland / Live online
-
-# Coding classes in Leeuwarden, where a tower 40 metres tall leaning 4.2 degrees will not give you a lean in centimetres
-
-**What are the best coding classes in Leeuwarden?** Coding classes in Leeuwarden serve 130,162 people (Statistics Netherlands, 1 January 2026) across 36 named places, from the city itself at 95,890 in 2023 down to Lions with about 25. The Oldehove, its unfinished tower, is published at 40 metres and 4.2 degrees out of true, and those two rounded figures put its lean somewhere between 2.86 and 3.00 metres. The single number a calculator returns is 2.93, and claiming it would be claiming more than the sources gave. Modern Age Coders teaches live online in English to all 36 places, ages 6 to 67, with a free opening lesson and then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
-
-Type forty times the sine of 4.2 degrees into anything and it answers 2.93 metres. That is how far the top of the Oldehove stands out from its base, and it is a figure no source on this page publishes. The height is given to the nearest metre and the angle to one decimal place, so the honest answer is a range from 2.86 to 3.00 metres, about seven centimetres either side. The calculator gave three digits because calculators always do. Knowing how many of them to keep is a separate skill, and it is one almost nobody is taught.
-
-Facts last verified 7 September 2026. Teaching is online; no Leeuwarden branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Leeuwarden
 
 ## Four courses for a capital with thirty-five villages attached
 
 A groep 5 child in Stiens, a teenager in Grouw with no club within cycling distance, a student at one of the applied institutions here, and a parent in Goutum whose measurements arrive rounded and leave over-precise: four doors into one very wide municipality.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Typed Python, turtle drawings and a first program that learns a rule, in English, for the groep 5 to 8 child in Wirdum, Britsum or Mantgum.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 11 to 15): Mathematics done in Python rather than on paper, for the learner who wants the trigonometry to produce something they can see.
-- [Statistics & Probability](/courses/statistics-probability-maths-course) (Teens and adults): From data to hypothesis testing, for anyone who has to say how much confidence a figure deserves.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (Adults): Excel, SQL, Python and BI, for the working parent whose inputs are rounded and whose outputs get quoted to four decimals.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsTyped Python, turtle drawings and a first program that learns a rule, in English, for the groep 5 to 8 child in Wirdum, Britsum or Mantgum.See the syllabus](/courses/python-ai-kids-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 11 to 15Maths Through CodingMathematics done in Python rather than on paper, for the learner who wants the trigonometry to produce something they can see.See the syllabus](/courses/maths-through-coding)[![Statistics & Probability course thumbnail](/images/statistics-probability-maths.webp)Teens and adultsStatistics & ProbabilityFrom data to hypothesis testing, for anyone who has to say how much confidence a figure deserves.See the syllabus](/courses/statistics-probability-maths-course)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)AdultsData Analysis CourseExcel, SQL, Python and BI, for the working parent whose inputs are rounded and whose outputs get quoted to four decimals.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Leeuwarden today
 
 ## A capital of 130,162 spread over 36 places and 238 square kilometres
 
@@ -52,7 +40,11 @@ The municipality contains 36 named places. On the 2023 figures the city itself h
 
 The municipality counts 21,170 students at institutions here, alongside 7,870 residents in applied higher education and only 930 at university level. Leeuwarden teaches at the applied level and sends its university students to Groningen. It was European Capital of Culture in 2018.
 
-**A tower that was never finished** The Oldehove was begun on 28 May 1529, started leaning during construction and was abandoned unfinished; the church beside it collapsed in 1576. It stands 40 metres and hangs 4.2 degrees out of true. The municipality reached its present extent through mergers in 2014, when part of Boornsterhem including Grouw came in, and in 2018, when parts of Littenseradeel including Mantgum arrived along with the whole of Leeuwarderadeel.
+A tower that was never finished
+
+The Oldehove was begun on 28 May 1529, started leaning during construction and was abandoned unfinished; the church beside it collapsed in 1576. It stands 40 metres and hangs 4.2 degrees out of true. The municipality reached its present extent through mergers in 2014, when part of Boornsterhem including Grouw came in, and in 2018, when parts of Littenseradeel including Mantgum arrived along with the whole of Leeuwarderadeel.
+
+Where the learners are
 
 ## Thirty-six places, twenty-two wijken, and a lot of farmland between them
 
@@ -84,6 +76,8 @@ Roordahuizum at 1,085 and then places the source does not size individually, dow
 
 One class, one hour and one fee cover all thirty-six, and the group a learner joins is set by what they can already do.
 
+Verified local facts
+
 ## Every figure, its source, and the one number this page had to work out
 
 The national count, the municipal entry, the tower, the mergers, and the derivation the project below rests on.
@@ -114,6 +108,8 @@ In 2014 part of the former municipality of Boornsterhem, including the village o
 
 Modern Age Coders has no connection to the municipality, the tower or any school named here and claims none. The one figure on this page that is not published anywhere is the lean in metres, and it is labelled as derived every time it appears.
 
+Signature project
+
 ## Two point nine three metres: build the calculation that reports how much of its own answer to believe
 
 One tower, two rounded inputs, one trigonometric function, and an answer that has to arrive as an interval.
@@ -130,10 +126,8 @@ A height published as 40 means somewhere between 39.5 and 40.5. An angle publish
 
 So the lean is 2.86 to 3.00 metres, a spread of fourteen centimetres, or about two and a half percent either side. Quoting 2.93 is not exactly false, but it presents a range as a point and invites the next person to quote 2.930. The output of the program is a pair of numbers, and that is the whole discipline.
 
-**One tower, and what the published inputs support**
-
 | Quantity | As published | What it really means | Effect on the lean |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Height | 40 metres | between 39.5 and 40.5 | plus or minus about 1.2 percent |
 | Angle from vertical | 4.2 degrees | between 4.15 and 4.25 | plus or minus about 1.2 percent |
 | Lean, computed at the midpoint | 2.93 metres | one point from a range | not supportable on its own |
@@ -143,14 +137,14 @@ So the lean is 2.86 to 3.00 metres, a spread of fourteen centimetres, or about t
 
 Rounding happens at publication, quietly, and then the rounded figure is fed into a formula that returns fifteen digits. Those digits are real arithmetic on the values as typed, and almost all of them are noise inherited from a decision somebody made about how to print a measurement. The remedy is to carry the interval rather than the point: read every published figure as a range implied by its last digit, run the calculation at the corners, and report both ends. Where the function is smooth and the inputs are independent, as here, the corners give the interval directly. This differs from the compounding problem in a chain of several ratios, where each step adds its own uncertainty; here there are only two inputs and one operation, and the width comes entirely from how the sources chose to round. Every figure above is either published in the entry named or the result of that arithmetic, and the derived lean never appears on this page without its range.
 
+Reliable pipeline
+
 ## Five habits for calculations built on published figures
 
 Areas from rounded lengths, speeds from rounded distances and times, percentages from rounded counts, costs per unit from rounded totals: the inputs arrive rounded and the outputs get quoted to the decimal. Practised on the tower in the middle of this city.
 
-**When the inputs were rounded before you got them**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Read the last digit | Treat a published number as a range implied by its precision | 40 read as exactly forty | An honest input |
 | Run the corners | Evaluate at the extremes of every input range | A single answer with invented digits | The interval the data supports |
 | Report both ends | Publish the range, or the midpoint with its width | A point value quoted onwards forever | A figure the next reader can use safely |
@@ -171,14 +165,37 @@ The same treatment on a derived figure at work: cost per unit, conversion rate, 
 
 The population, household, area, school, village and tower figures come from the offices and entries named beside them. The lean of 2.86 to 3.00 metres is this page's own calculation from the published height and angle, presented as an interval and marked as derived wherever it appears.
 
+Learning ladder
+
 ## From a metre stick with no centimetres to arithmetic that carries an interval
 
 The starting rung is settled in the free hour, and which of the thirty-six places a learner lives in is not an input.
 
-- **Ages 6 to 10: How big could the room be?** Children measure with a coarse ruler and find the biggest and smallest answers. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 11 to 13: Ranges instead of points** Learners turn every rounded figure into a low and a high before calculating. [Maths Through Coding](/courses/maths-through-coding), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 14 to 18: Interval arithmetic and trigonometry** Teenagers build an interval type, run the tower through it and report both ends. [Statistics & Probability](/courses/statistics-probability-maths-course), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Derived figures at work** Adults trace a quoted decimal back to the rounded inputs behind it. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Ages 6 to 10
+
+### How big could the room be?
+
+Children measure with a coarse ruler and find the biggest and smallest answers.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 11 to 13
+
+### Ranges instead of points
+
+Learners turn every rounded figure into a low and a high before calculating.
+
+[Maths Through Coding](/courses/maths-through-coding)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 14 to 18
+
+### Interval arithmetic and trigonometry
+
+Teenagers build an interval type, run the tower through it and report both ends.
+
+[Statistics & Probability](/courses/statistics-probability-maths-course)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Derived figures at work
+
+Adults trace a quoted decimal back to the rounded inputs behind it.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)Coding and AI
 
 ## An AI will give you the lean of the Oldehove to four decimals. Why should a child in Leeuwarden learn to give it to none?
 
@@ -190,30 +207,139 @@ So the learner builds the interval type and runs the calculation at the corners.
 
 The case for a Leeuwarden child learning to code in 2026 is therefore nothing to do with towers. It is that published numbers arrive rounded, that calculators do not know this, that the difference between a point and an interval is the difference between honesty and overclaiming, and that the lesson lands hardest on something the child can see from the street. The longer argument is in [why writing code still repays a child in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for a capital with thirty-five villages around it
 
 Grouw is twenty kilometres out, Stiens is north across the fields and Lions is a hamlet of about twenty-five people. None of them will ever support a coding club, and none of them has to.
 
-- **No road, no bus, no bicycle** The lesson happens at the kitchen table in Wartena, Britsum or the city centre at one fixed hour a week, in a Frisian January as readily as in June.
-- **English for the class, Dutch for the school words** Instruction is in English. Groep, havo, vwo and profielkeuze stay Dutch because those are the words on the timetable, and a child schooled partly in Frisian is asked to translate nothing.
-- **What comes out of the opening hour** Evidence of the real level, a course chosen from it, and a weekly time, none of which requires a card.
-- **Stage sets the group** A learner in Mantgum and a learner in the city share a group when they are at the same point, and do not when they are not.
-- **Twice weekly, on the northern calendar** Two lessons a week at one repeating slot, eight in most months. Leeuwarden takes its holidays with regio Noord along with the rest of the province, and weeks away go into the plan before the slot is agreed.
-- **A gap of three and a half or four and a half hours** Only the Dutch clock moves, so the distance to the teacher is shorter in summer and longer in winter. Late afternoon, early evening and the whole weekend work at both ends.
+### No road, no bus, no bicycle
 
-**A village of twenty-five gets the same teacher as a city of ninety-six thousand** Lions had about 25 residents in 2023 and the city 95,890. No club of any kind will form for the children of the first, and the fee, the group size and the hour offered to a family there are the same as those offered in the centre of the second.
+The lesson happens at the kitchen table in Wartena, Britsum or the city centre at one fixed hour a week, in a Frisian January as readily as in June.
+
+### English for the class, Dutch for the school words
+
+Instruction is in English. Groep, havo, vwo and profielkeuze stay Dutch because those are the words on the timetable, and a child schooled partly in Frisian is asked to translate nothing.
+
+### What comes out of the opening hour
+
+Evidence of the real level, a course chosen from it, and a weekly time, none of which requires a card.
+
+### Stage sets the group
+
+A learner in Mantgum and a learner in the city share a group when they are at the same point, and do not when they are not.
+
+### Twice weekly, on the northern calendar
+
+Two lessons a week at one repeating slot, eight in most months. Leeuwarden takes its holidays with regio Noord along with the rest of the province, and weeks away go into the plan before the slot is agreed.
+
+### A gap of three and a half or four and a half hours
+
+Only the Dutch clock moves, so the distance to the teacher is shorter in summer and longer in winter. Late afternoon, early evening and the whole weekend work at both ends.
+
+A village of twenty-five gets the same teacher as a city of ninety-six thousand
+
+Lions had about 25 residents in 2023 and the city 95,890. No club of any kind will form for the children of the first, and the fee, the group size and the hour offered to a family there are the same as those offered in the centre of the second.
+
+Fees
 
 ## The fee, in dollars, in all thirty-six places
 
 On the page rather than saved for a phone call.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 One international rate applies, quoted in dollars and never in euros, so a family in Lions sees exactly what a family in the city sees. Payment comes after the free lesson has produced a course and a time, and it comes over WhatsApp. Pausing, changing plan and missing a week are described on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Leeuwarden.)Reviews
+
+## Six families, in the words they left on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Send the level; the village can wait
+
+The first task might be a room measured with a coarse ruler, an interval type in Python that carries a low and a high, or a margin at work quoted to two decimals from inputs rounded to the nearest thousand.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Leeuwarden one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Leeuwarden.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Leeuwarden coding class questions
+
+The city, its villages, its tower, the teaching and the terms.
 
 ### How far does the Oldehove actually lean?
 
@@ -255,10 +381,14 @@ The first lesson is free. Group tuition is USD 100 a month for two live lessons 
 
 Between five and ten, matched on level, pace and goal rather than on age, school or village. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.
 
+Explore the Netherlands
+
 ## Out to the province, east to the city, and up to the country
 
 Leeuwarden is the capital of [Friesland](/coding-classes-in-friesland), whose page is about a province that a database loses when it joins on the name; east along the Wadden coast is the [province of Groningen](/coding-classes-in-groningen-province) and its [city](/coding-classes-in-groningen). The parent of the whole series is the [Netherlands coding hub](/coding-classes-in-netherlands), and for machine learning rather than software there are [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) and the [AI and Python Academy](/ai-and-python-academy-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Leeuwarden.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-leeuwarden](https://learn.modernagecoders.com/coding-classes-in-leeuwarden#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-leeuwarden*

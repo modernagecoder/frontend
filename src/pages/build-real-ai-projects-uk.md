@@ -4,25 +4,21 @@ description: "Build real AI projects in the UK: data you may legally use, models
 canonical: https://learn.modernagecoders.com/build-real-ai-projects-uk
 source: src/pages/build-real-ai-projects-uk.html
 ---
-> In the UK, copyright law includes an exception allowing copies of lawfully accessed material to be made for text and data mining, but only for non-commercial research, and contract terms that forbid such copying are unenforceable, according to the Intellectual Property Office. Public sector information under the Open Government Licence v3.0 may be used commercially and non-commercially with attribution, though the licence excludes personal data, logos and third party rights. Evaluation matters as much as data: the UK AI Security Institute co-develops Inspect, an open-source framework for large language model evaluations with over 200 pre-built evaluations. Modern Age Coders teaches UK teenagers and adults to build real AI projects live and online: choosing lawful data, training and fine-tuning models in Python, grounding assistants in licensed documents, and evaluating results. This is general information, not legal advice. Your first class costs nothing; after that, group places are USD 100 a month and one-to-one teaching USD 150 a month.
+> Build real AI projects in the UK: data you may legally use, models you train and test, and evaluation with open tools. Teens and adults, first class free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Real AI projects
+In short
 
-UK · Teens and adults · Python and models
+In the UK, copyright law includes an exception allowing copies of lawfully accessed material to be made for text and data mining, but only for non-commercial research, and contract terms that forbid such copying are unenforceable, according to the Intellectual Property Office. Public sector information under the Open Government Licence v3.0 may be used commercially and non-commercially with attribution, though the licence excludes personal data, logos and third party rights. Evaluation matters as much as data: the UK AI Security Institute co-develops Inspect, an open-source framework for large language model evaluations with over 200 pre-built evaluations. Modern Age Coders teaches UK teenagers and adults to build real AI projects live and online: choosing lawful data, training and fine-tuning models in Python, grounding assistants in licensed documents, and evaluating results. This is general information, not legal advice. Your first class costs nothing; after that, group places are USD 100 a month and one-to-one teaching USD 150 a month.
 
-# Build real AI projects in the UK
-
-A real AI project is mostly two questions that demos skip: where did the data come from, and how do you know it works? In the UK the first has a legal edge. The Intellectual Property Office explains that the copyright exception for text and data mining lets researchers copy material they can lawfully read for computational analysis, but "This exception only permits the making of copies for the purpose of text and data mining for non-commercial research." A school or personal research project may sit inside that; an app you plan to sell does not. Public sector data under the Open Government Licence is different again: you may "exploit the Information commercially and non-commercially", provided you credit the source. The second question has an unusual UK answer too. The UK AI Security Institute co-develops Inspect, "An open-source framework for large language model evaluations", which anyone can install. Our lessons show UK teenagers and adults how to build AI projects that answer both questions: lawful data in, a trained or grounded model in the middle, and a measured result out.
-
-At a glance: Data rule: TDM exception: non-commercial research only; Open data: OGL: commercial use with attribution; Personal data: A separate question, kept out; Models: Trained, fine-tuned or grounded by you; Evaluation: Open tools such as Inspect; For: Teens and adults; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three ways into building AI
 
 Machine learning for teenagers, generative AI engineering for adults, and a project sprint. Each card opens the full syllabus.
 
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens): Python to real models, for ages 13 to 18, with school maths enough to start.
-- [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college): Retrieval, fine-tuning and evaluation for adults, built in Python.
-- [Hackathon Prep for Teens](/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course): Scoping, building and presenting an AI project against a clock.
+[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)  RAP / 01 AI and Machine Learning for Teens Python to real models, for ages 13 to 18, with school maths enough to start. Open the syllabus →](/courses/ai-ml-masterclass-teens)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)  RAP / 02 Generative AI: LLMs, RAG and Agents Retrieval, fine-tuning and evaluation for adults, built in Python. Open the syllabus →](/courses/complete-generative-ai-masterclass-college)[![Hackathon for Teens course thumbnail](/images/hackathon-teens.webp)  RAP / 03 Hackathon Prep for Teens Scoping, building and presenting an AI project against a clock. Open the syllabus →](/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course)
+
+Data you may use
 
 ## The first question: where did the data come from?
 
@@ -30,10 +26,8 @@ From the Intellectual Property Office's guidance on exceptions to copyright on g
 
 The IPO describes text and data mining as "the use of automated analytical techniques to analyse text and data for patterns, trends and other useful information", and notes that it usually requires copying the work being analysed. The exception lets researchers make those copies when they already have lawful access to the work, that is, the right to read it. Two limits matter for anyone building AI: "This exception only permits the making of copies for the purpose of text and data mining for non-commercial research", and researchers still have to pay for access where access costs money.
 
-**Common data sources for a student AI project, and the question each raises**
-
 | Data source | The question to ask | Usual answer for a learner |
-|---|---|---|
+| --- | --- | --- |
 | Public sector data under the Open Government Licence | Have I credited the source as the licence asks? | Usable, including commercially, with attribution |
 | Texts or images you can lawfully read | Is my project non-commercial research? | Possibly within the exception; not for a product |
 | Datasets published with their own licence | What does that licence allow? | Read it; many allow research, some forbid commercial use |
@@ -54,14 +48,14 @@ Anyone planning to commercialise a model trained on other people's work should t
 
 Sources, read 21 September 2026: [Intellectual Property Office, Exceptions to copyright](https://www.gov.uk/guidance/exceptions-to-copyright); [Data Use and Access Act 2025: plans for commencement](https://www.gov.uk/guidance/data-use-and-access-act-2025-plans-for-commencement). Not legal advice.
 
+Open data
+
 ## The Open Government Licence: data built to be reused
 
 Much UK public sector information is published under the Open Government Licence v3.0, maintained by The National Archives. It is the most generous licence a learner is likely to meet.
 
-**What the Open Government Licence v3.0 allows and excludes**
-
-|  | As the licence states |
-|---|---|
+|   | As the licence states |
+| --- | --- |
 | The spirit | "You are encouraged to use and re-use the Information that is available under this licence freely and flexibly, with only a few conditions." |
 | The grant | A worldwide, royalty-free, perpetual, non-exclusive licence |
 | Commercial use | You may "exploit the Information commercially and non-commercially", including in your own product or application |
@@ -83,16 +77,16 @@ And the licence never covers personal data, which brings in data protection law 
 
 Source, read 21 September 2026: [The National Archives, Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
 
+Proving it works
+
 ## The last question: how do you know it works?
 
 A demo shows a model working once. An evaluation shows how often it works, on cases chosen before the results were known.
 
 The UK AI Security Institute, with Meridian Labs, develops Inspect, described in its documentation as "An open-source framework for large language model evaluations". It is built from "datasets, agents, tools, and scorers", ships "A collection of over 200 pre-built evaluations ready to run on any model", and can run untrusted model code in a sandbox. It is used for serious frontier model testing, and it is free for a student to install and learn.
 
-**An evaluation in four parts, and what a student writes for each**
-
 | Part | What it is | In a student project |
-|---|---|---|
+| --- | --- | --- |
 | Dataset | The test cases, with the answers you expect | Thirty to a hundred real examples, written before looking at results |
 | Solver or agent | How the model is asked, with any tools | The prompt, retrieval step or fine-tuned model being tested |
 | Scorer | How each answer is marked | Exact match, a rubric, or a second model with its own checks |
@@ -112,14 +106,14 @@ How models learn and are assured is also covered on [learn to train AI, not just
 
 Source, read 21 September 2026: [Inspect documentation](https://inspect.aisi.org.uk/), UK AI Security Institute and Meridian Labs. We are not connected with either organisation.
 
+Project ideas
+
 ## Projects that answer both questions
 
 Each one names its data source and its evaluation before any code is written.
 
-**Starter AI projects**
-
 | Project | Data | How it is evaluated |
-|---|---|---|
+| --- | --- | --- |
 | A guidance assistant | Public guidance pages published under the Open Government Licence, credited | Fifty questions with known answers from the pages, scored for accuracy and citation |
 | A handwritten digit or leaf classifier | A public benchmark dataset, or photos the student takes | A held-out test set and a confusion matrix |
 | A local air quality forecaster | Public environmental monitoring data under an open licence | Error on months the model never saw |
@@ -140,14 +134,14 @@ Every project ends with a short write-up of what the model gets wrong, not only 
 
 Younger learners start gently: our [AI classes for kids](/ai-classes-for-kids-uk) build the ideas behind this. Students who want an audience can take a finished project to [a student hackathon](/student-hackathons-uk) or the [UK Olympiad in Artificial Intelligence](/uk-olympiad-in-artificial-intelligence-preparation). We never work on coursework, NEA or anything submitted for assessment.
 
+Stages
+
 ## Four stages to a real AI project
 
 Where you begin depends on your Python and maths, not your age.
 
-**From using a model to building and measuring one**
-
 | Stage | What should be true |
-|---|---|
+| --- | --- |
 | 1. Data first | You can find a dataset, read its licence and describe what is in it |
 | 2. A first model | You train a simple model in Python and understand every line |
 | 3. Grounded or fine-tuned | You build a retrieval assistant or fine-tune a model on lawful data |
@@ -156,63 +150,293 @@ Where you begin depends on your Python and maths, not your age.
 ### Stage one is not optional
 
 A brilliant model on data you may not use is not a finished project.
+
 The wider sequence of subjects is on the [coding roadmap](/coding-roadmap).
 
 ### Stage four is the proof
 
 The evaluation is what turns a demo into evidence.
+
 It is also what employers and competition judges look for first.
+
+The catalogue
 
 ## Nine courses for building AI
 
 From first models to generative AI engineering, and the data skills underneath.
 
+I
+
 ### Machine learning
 
 By age
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass): The first step, for younger learners.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens): Python to real models, ages 13 to 18.
-- [AI and Machine Learning for Adults](/courses/ai-ml-masterclass-complete-college): Models, evaluation and deployment.
+RAP / ML / 01
+
+#### Python and AI for Kids
+
+The first step, for younger learners.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)
+
+RAP / ML / 02
+
+#### AI and Machine Learning for Teens
+
+Python to real models, ages 13 to 18.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+RAP / ML / 03
+
+#### AI and Machine Learning for Adults
+
+Models, evaluation and deployment.
+
+[Open the syllabus](/courses/ai-ml-masterclass-complete-college)II
 
 ### Generative AI
 
 Engineering, not prompting
 
-- [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college): Retrieval, fine-tuning and evaluation.
-- [Artificial Intelligence Masterclass](/courses/artificial-intelligence-complete-masterclass-college): The wider field, from search to neural networks.
-- [AI Projects for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course): Python, web and AI projects, reviewed line by line.
+RAP / GEN / 01
+
+#### Generative AI: LLMs, RAG and Agents
+
+Retrieval, fine-tuning and evaluation.
+
+[Open the syllabus](/courses/complete-generative-ai-masterclass-college)
+
+RAP / GEN / 02
+
+#### Artificial Intelligence Masterclass
+
+The wider field, from search to neural networks.
+
+[Open the syllabus](/courses/artificial-intelligence-complete-masterclass-college)
+
+RAP / GEN / 03
+
+#### AI Projects for Teens
+
+Python, web and AI projects, reviewed line by line.
+
+[Open the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)III
 
 ### Data and delivery
 
 Under and around the model
 
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data): Cleaning and exploring the data first.
-- [Data Science for Adults](/courses/data-science-complete-masterclass-college): Python, SQL and machine learning.
-- [Hackathon Prep for Teens](/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course): Building and presenting under time pressure.
+RAP / DAT / 01
+
+#### Data Science for Teens
+
+Cleaning and exploring the data first.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)
+
+RAP / DAT / 02
+
+#### Data Science for Adults
+
+Python, SQL and machine learning.
+
+[Open the syllabus](/courses/data-science-complete-masterclass-college)
+
+RAP / DAT / 03
+
+#### Hackathon Prep for Teens
+
+Building and presenting under time pressure.
+
+[Open the syllabus](/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course)
+
+How lessons run
 
 ## Live lessons around a real project
 
 Classes come from India, which never changes its clocks. Against the UK that means a four and a half hour gap in summer and five and a half in winter, so weekday evenings and weekends in UK time are easy to schedule.
 
-- **After school or work** A weekday evening session.
-- **Saturday** A longer block for training runs.
-- **Sunday** For evaluation and write-ups.
+After school or work
 
-- **A free first class** We check your Python and maths and agree a first project with you.
-- **Small groups** Between five and ten learners, grouped by ability.
-- **One to one** For a competition deadline or a particular idea.
-- **Licence checked** No dataset is used until its licence has been read and recorded.
-- **Evaluation built in** A test set is written before the model is judged.
-- **Your own accounts** Code, data notes and results stay in your own repository.
+A weekday evening session.
+
+Saturday
+
+A longer block for training runs.
+
+Sunday
+
+For evaluation and write-ups.
+
+### A free first class
+
+We check your Python and maths and agree a first project with you.
+
+### Small groups
+
+Between five and ten learners, grouped by ability.
+
+### One to one
+
+For a competition deadline or a particular idea.
+
+### Licence checked
+
+No dataset is used until its licence has been read and recorded.
+
+### Evaluation built in
+
+A test set is written before the model is judged.
+
+### Your own accounts
+
+Code, data notes and results stay in your own repository.
+
+Student work
+
+## Projects our students have built
+
+Four projects completed by our students. The rest, across every age group, are in [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees for AI projects
 
 Billed monthly in US dollars, at the same rate for every country outside India, with no joining charge and no commitment past the current month. Most tools used are free; any paid AI service is your own choice and your own account.
 
-- Free first class: USD 0. A look at your Python and maths. A first project agreed with you. Nothing to pay that day.
-- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher each week. Data and evaluation reviewed. Stop at the end of any month.
-- One to one: USD 150 a month. One teacher, one learner. Your own project at the centre. Suits a competition deadline.
+Free first class
+
+USD 0
+
+no card required
+
+- A look at your Python and maths
+- A first project agreed with you
+- Nothing to pay that day
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners at one level
+- The same teacher each week
+- Data and evaluation reviewed
+- Stop at the end of any month
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- One teacher, one learner
+- Your own project at the centre
+- Suits a competition deadline
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Reviews on Google from our students and their families, shown as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about AI projects
 
 ## What UK learners ask about building AI
 
@@ -256,15 +480,54 @@ Nothing for the first class. Then a group place is USD 100 a month and one-to-on
 
 Usually a weekday evening, or a longer weekend block for training runs, set in UK time at the first class. India is four and a half hours ahead of British Summer Time and five and a half ahead in winter.
 
+Elsewhere on this site
+
 ## Related pages
 
-- [Learn to train AI, not just prompt it](/learn-to-train-ai-not-just-prompt-it-uk): How models are measured and assured.
-- [Data science course](/data-science-course-uk): The data skills underneath every model.
-- [UK Olympiad in Artificial Intelligence](/uk-olympiad-in-artificial-intelligence-preparation): A competition for AI projects.
-- [AI classes for kids](/ai-classes-for-kids-uk): Where younger learners start.
-- [AI agents for students](/ai-agents-course-for-students-uk): Agents as portfolio evidence.
-- [Coding classes in the UK](/coding-classes-in-united-kingdom): All our UK pages.
+Training, data and competitions around AI.
 
-## Contact
+### [Learn to train AI, not just prompt it](/learn-to-train-ai-not-just-prompt-it-uk)
 
-Book the free first class at [https://learn.modernagecoders.com/build-real-ai-projects-uk](https://learn.modernagecoders.com/build-real-ai-projects-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+How models are measured and assured.
+
+### [Data science course](/data-science-course-uk)
+
+The data skills underneath every model.
+
+### [UK Olympiad in Artificial Intelligence](/uk-olympiad-in-artificial-intelligence-preparation)
+
+A competition for AI projects.
+
+### [AI classes for kids](/ai-classes-for-kids-uk)
+
+Where younger learners start.
+
+### [AI agents for students](/ai-agents-course-for-students-uk)
+
+Agents as portfolio evidence.
+
+### [Coding classes in the UK](/coding-classes-in-united-kingdom)
+
+All our UK pages.
+
+Start here
+
+## Bring an AI idea to a free class
+
+Leave a number and we will call at a UK time that suits you. Bring an idea; the class checks your level and turns it into a plan with a data source and a test.
+
+Reading first? Every [course page](/courses) lists its syllabus, [how we teach](/how-we-teach) sets out the approach, and [student labs](/student-labs) gathers finished projects.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20first%20class%20on%20building%20real%20AI%20projects%20in%20the%20UK.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp from a UK number is usually the fastest way to reach us. We are based in India, so our number starts +91; there is no UK office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/build-real-ai-projects-uk*

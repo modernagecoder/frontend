@@ -4,46 +4,32 @@ description: "Live online AI and programming classes for Woden Valley, ages 6 to
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-woden-canberra
 source: src/pages/ai-and-programming-classes-in-woden-canberra.html
 ---
-> Collaborative filtering, the idea behind many "people who liked this also liked that" recommendations. Learners hide one count from the ACT vehicle registration table, such as how many of one car model are registered in Phillip, and predict it from the suburb's other models. The model misses by 6.52 vehicles on average; guessing from overall popularity misses by 9.60.
+> Live online AI and programming classes for Woden Valley, ages 6 to adult, with a collaborative filtering project built on ACT vehicle registration data.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / [Australian Capital Territory](/coding-and-ai-classes-in-australian-capital-territory) / [Canberra](/vibe-coding-and-ai-agents-classes-in-canberra) / Woden
-
-Woden Valley district, south-west Canberra, ACT / Live online
-
-# AI and programming classes in Woden
-
-**What AI technique does the Woden project use?** Collaborative filtering, the idea behind many "people who liked this also liked that" recommendations. Learners hide one count from the ACT vehicle registration table, such as how many of one car model are registered in Phillip, and predict it from the suburb's other models. The model misses by 6.52 vehicles on average; guessing from overall popularity misses by 9.60.
-
-Woden Valley is a compact district of 12 suburbs, from Curtin and Hughes to Mawson and Torrens, with Woden Town Park in Phillip at its middle. ACT Government open data lists registered vehicles by make, model and suburb, which gives a Woden learner a real table of preferences to model.
-
-Facts last verified 13 October 2026. Teaching is online; no Woden branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Woden
 
 ## AI, data and Python
 
 Courses that suit the recommender project. A free trial lesson decides the level.
 
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Similarity, prediction and honest validation.
-- [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) (University and adult): Recommenders, baselines and model selection.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 17): Tables, matrices and charts in Python.
-- [AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course) (Ages 8 to 12): How recommendations work, explained with games.
+[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensSimilarity, prediction and honest validation.See the syllabus](/courses/ai-ml-masterclass-teens)[![AI and ML Masterclass course thumbnail](/images/ai-ml-college.webp)University and adultAI and ML MasterclassRecommenders, baselines and model selection.See the syllabus](/courses/ai-ml-masterclass-complete-college)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 17Data Science for TeensTables, matrices and charts in Python.See the syllabus](/courses/data-science-course-for-teens-python-data)[![AI Literacy for Kids (Ages 8 to 14) course thumbnail](/images/ai-literacy-for-kids.webp)Ages 8 to 12AI Literacy for Kids (Ages 8 to 14)How recommendations work, explained with games.See the syllabus](/courses/ai-literacy-for-kids-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Woden Valley in the Census
 
 ## Graduates, apartments and buses
 
 Figures for the Woden Valley statistical area (ABS SA3 80109) from 2021 Census QuickStats, read on 13 October 2026, with the 2025 ABS estimate.
 
-**Woden Valley counts**
-
 | Measure | Value |
-|---|---|
+| --- | --- |
 | Residents, 2021 Census | 39,279 |
 | Estimated residents, 2025 | 41,600 |
 | Median age | 39 |
@@ -51,10 +37,8 @@ Figures for the Woden Valley statistical area (ABS SA3 80109) from 2021 Census Q
 | Private dwellings | 17,065 |
 | People per household | 2.4 |
 
-**Woden shares compared with the ACT**
-
 | Share | Woden Valley | ACT |
-|---|---|---|
+| --- | --- | --- |
 | Bachelor degree or higher | 50.4% (16,385) | 42.9% |
 | Flat or apartment | 21.3% (3,258) | 19.4% |
 | Bus to work | 5.4% (1,130) | 3.6% |
@@ -74,14 +58,14 @@ The 2021 Census count and the ABS 2025 estimate use different methods, so they a
 
 The 2021 Census took place during the pandemic, so journey-to-work answers reflect that week. ABS shares are rounded and small counts slightly adjusted; parts can miss totals, and we print the published values.
 
+Signature project
+
 ## Predicting a hidden count
 
 The registration table, dated 1 September 2026, has a row for each suburb, make, model and emissions band with more than ten vehicles. Laid out as a grid, that is 118 suburbs by 348 vehicle types, and only 6,936 of the 41,064 cells have a published number. Collaborative filtering predicts a hidden cell from similar vehicle types the same suburb does have.
 
-**Average error predicting each of Woden's 590 published counts with it hidden (our calculation)**
-
 | Method | Mean absolute error |
-|---|---|
+| --- | --- |
 | Item-item collaborative filtering, 5 neighbours | 6.52 vehicles |
 | Popularity: the type's ACT share times the suburb's total | 9.60 vehicles |
 | The suburb's average count | 10.12 vehicles |
@@ -104,14 +88,14 @@ Counts of ten or fewer are not published, so a blank cell can mean none or a han
 
 Data come from the ACT Registered Vehicles by Make, Model and Suburb dataset on data.act.gov.au, licensed CC BY 4.0, downloaded on 13 October 2026. Woden suburbs are assigned by our test of ABS suburb outlines; the similarities, predictions and errors are our own calculation in NumPy.
 
+Building the recommender
+
 ## A matrix, cosine similarity and a fair test
 
 The core is short; the care goes into what counts as a fair test.
 
-**Lesson steps**
-
 | Step | Learner task |
-|---|---|
+| --- | --- |
 | 1 | Pivot the 6,936 rows into a suburbs by vehicle-type matrix with blanks as zero. |
 | 2 | Compute item-item cosine similarities from every suburb except the one being tested. |
 | 3 | Hide each Woden cell in turn, predict it, and record the absolute error. |
@@ -131,6 +115,8 @@ Build the matrix in NumPy, code the predictor and present the baselines fairly.
 
 Prototype product or content recommendations and test them against popularity first.
 
+Around Woden
+
 ## Trees, street art and the 2027 calendar
 
 Local details from ACT Government open data.
@@ -147,16 +133,41 @@ Sixteen artworks are listed in the district, half of them street art.
 
 ACT Term 3 in 2027 runs from Tuesday 20 July to Friday 24 September.
 
-**District used** Woden Valley is the ABS statistical area of about 28.6 square kilometres; 12 named suburbs fall inside it by our test.
+District used
+
+Woden Valley is the ABS statistical area of about 28.6 square kilometres; 12 named suburbs fall inside it by our test.
+
+Learning ladder
 
 ## From snack guesses to recommenders
 
 Ages are a starting guide only.
 
-- **Ages 6 to 9: Likes and patterns** Block-code games about sorting and matching tastes. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)
-- **Ages 8 to 12: First data** Tables, counting and simple predictions in Python. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 17: Machine learning** Similarity, baselines and fair testing. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **University and adult: Applied AI** Recommenders and evaluation for work. [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college), [Statistics & Probability](/courses/statistics-probability-maths-course)
+Ages 6 to 9
+
+### Likes and patterns
+
+Block-code games about sorting and matching tastes.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)Ages 8 to 12
+
+### First data
+
+Tables, counting and simple predictions in Python.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 17
+
+### Machine learning
+
+Similarity, baselines and fair testing.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)University and adult
+
+### Applied AI
+
+Recommenders and evaluation for work.
+
+[AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college)[Statistics & Probability](/courses/statistics-probability-maths-course)Coding and AI
 
 ## Is building a recommender still worth learning?
 
@@ -168,30 +179,139 @@ A Woden learner who has met both problems in real data will ask the right questi
 
 Our AI classes start with the data and end with an honest comparison. The longer argument is in [the case for learning to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Woden lessons, live online
 
 Classes run over video, so learners join from any Woden suburb.
 
-- **Taught live** A teacher runs each lesson and checks work as it happens.
-- **ACT terms** Lessons follow the school terms and rest in holidays.
-- **Free first lesson** A trial lesson, then a short written plan.
-- **Groups** Fifteen to twenty learners per level, or one-to-one.
-- **Schedule** Two lessons a week, about eight a month.
-- **India hours** A 6:30pm Woden lesson is 1pm in India while daylight saving runs.
+### Taught live
 
-**Summer time** Canberra runs on Sydney time in the IANA database; in 2026 to 2027, daylight saving lasts from 4 October to 4 April.
+A teacher runs each lesson and checks work as it happens.
+
+### ACT terms
+
+Lessons follow the school terms and rest in holidays.
+
+### Free first lesson
+
+A trial lesson, then a short written plan.
+
+### Groups
+
+Fifteen to twenty learners per level, or one-to-one.
+
+### Schedule
+
+Two lessons a week, about eight a month.
+
+### India hours
+
+A 6:30pm Woden lesson is 1pm in India while daylight saving runs.
+
+Summer time
+
+Canberra runs on Sydney time in the IANA database; in 2026 to 2027, daylight saving lasts from 4 October to 4 April.
+
+Fees
 
 ## Woden class fees
 
 All learners pay the same fees.
 
-- First class: USD 0. Lesson one is free, followed by a plan.
-- Group tuition: USD 100 a month. Group lessons: about eight a month, fifteen to twenty learners.
-- Private tuition: USD 150 a month. Private lessons: about eight a month with one teacher.
+First class**USD 0**
+
+Lesson one is free, followed by a plan.
+
+Group tuition**USD 100**
+
+Group lessons: about eight a month, fifteen to twenty learners.
+
+Private tuition**USD 150**
+
+Private lessons: about eight a month with one teacher.
 
 Fees are in US dollars and start only once the trial has set a course and weekly time. The pricing page explains holidays and missed lessons.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hi%20Modern%20Age%20Coders%2C%20we%20live%20in%20Woden%20and%20would%20like%20a%20free%20AI%20or%20programming%20lesson.)Reviews
+
+## Google reviews from families
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Woden lesson
+
+Tell us the learner's age and interests. A child might play the snack-guessing game; a teenager might build the vehicle recommender.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Woden one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hi%20Modern%20Age%20Coders%2C%20we%20live%20in%20Woden%20and%20would%20like%20a%20free%20AI%20or%20programming%20lesson.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Woden AI and programming questions
+
+Questions from Woden families and adult learners.
 
 ### How many people live in Woden Valley?
 
@@ -233,10 +353,14 @@ By level and pace, fifteen to twenty learners, not by age or suburb. One-to-one 
 
 Yes. Adults learn in adult groups or privately, often with data from their own work.
 
+More for Canberra learners
+
 ## Explore further
 
 Woden learners can continue with the [Canberra page](/vibe-coding-and-ai-agents-classes-in-canberra), the territory-wide [ACT guide](/coding-and-ai-classes-in-australian-capital-territory) and [AI classes for teenagers](/ai-classes-for-teens-australia).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hi%20Modern%20Age%20Coders%2C%20we%20live%20in%20Woden%20and%20would%20like%20a%20free%20AI%20or%20programming%20lesson.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-woden-canberra](https://learn.modernagecoders.com/ai-and-programming-classes-in-woden-canberra#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-woden-canberra*

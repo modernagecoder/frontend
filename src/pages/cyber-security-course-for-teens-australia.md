@@ -4,34 +4,28 @@ description: "Defensive cyber security for Australian teens aged 13 to 18: prote
 canonical: https://learn.modernagecoders.com/cyber-security-course-for-teens-australia
 source: src/pages/cyber-security-course-for-teens-australia.html
 ---
-> A cyber security course for teens teaches young people aged 13 to 18 to protect accounts, recognise phishing and lookalike web addresses, understand how systems secure data, and practise only on systems they own or are permitted to test. The Australian Curriculum asks Year 7 and 8 students to identify phishing and explain multi-factor authentication. Modern Age Coders teaches the defensive side live online, in small groups or one to one, and the first class is free.
+> Defensive cyber security for Australian teens aged 13 to 18: protect accounts, spot phishing and lookalike domains, practise legally. Live online, first class free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / Cyber security for teens
+In short
 
-Australia · Ages 13 to 18 · Defensive and ethical
+A cyber security course for teens teaches young people aged 13 to 18 to protect accounts, recognise phishing and lookalike web addresses, understand how systems secure data, and practise only on systems they own or are permitted to test. The Australian Curriculum asks Year 7 and 8 students to identify phishing and explain multi-factor authentication. Modern Age Coders teaches the defensive side live online, in small groups or one to one, and the first class is free.
 
-# Cyber security course for teens
-
-Teenagers are online all day, and most of what goes wrong for them online is not clever hacking. It is a convincing message, a web address that is nearly right, or a password used in three places. Our cyber security course for teens teaches the defensive side of the field: how accounts are protected, how phishing works, how to recognise a lookalike address, and how real systems keep data safe. Every practical exercise happens on the student's own work or on systems built for practice. This page explains the approach, measures three ways of catching fake web addresses, and sets out what Australian law and the Australian Curriculum say.
-
-At a glance: For: Teens aged 13 to 18; Focus: Defence and ethics; Accounts: Passwords and multi-factor sign-in; Threats: Phishing and lookalike domains; Systems: How data is secured; Practice: Own projects and organised challenges; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three courses for a teen interested in security
 
 All three are for under-18s. Each card opens the syllabus.
 
-- [Cyber Security for Teens](/courses/cybersecurity-course-for-teens-ethical-defensive): Ages 13 to 18, no coding needed. Online safety and white-hat defence.
-- [Python for Teens](/courses/python-complete-masterclass-teens): The language most security tools and scripts are written in, from zero.
-- [Backend Development for Teens](/courses/backend-coding-masterclass-for-teens): Build a server and a database, then learn how to keep the data in them safe.
+[![Cybersecurity for Teens course thumbnail](/images/cybersecurity-teens.webp)  CSTA / 01 Cyber Security for Teens Ages 13 to 18, no coding needed. Online safety and white-hat defence. Open the syllabus →](/courses/cybersecurity-course-for-teens-ethical-defensive)[![Python for Teens course thumbnail](/images/python-teens.webp)  CSTA / 02 Python for Teens The language most security tools and scripts are written in, from zero. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Backend Development for Teens course thumbnail](/images/backend-teens.webp)  CSTA / 03 Backend Development for Teens Build a server and a database, then learn how to keep the data in them safe. Open the syllabus →](/courses/backend-coding-masterclass-for-teens)
+
+Defend first
 
 ## What a defensive course covers
 
 Security starts with the student's own accounts and devices, then moves to how websites and apps keep data safe.
 
-**Course topics**
-
 | Topic | What students learn | What they can do afterwards |
-|---|---|---|
+| --- | --- | --- |
 | Accounts | Long passphrases, password managers, multi-factor sign-in | Secure their own accounts and explain why each step helps |
 | Phishing | How messages create urgency and copy trusted brands | Pick apart a suspicious message without clicking anything |
 | Web addresses | How domains work and how lookalikes are made | Check where a link really goes before trusting it |
@@ -50,16 +44,16 @@ Every security professional spends most of their time preventing problems, not c
 
 They also build the careful, permission-first habits the field depends on.
 
+A worked example
+
 ## 72 fake addresses and three ways to catch them
 
 A phishing message only works if the link looks right. Students measure which simple checks actually catch lookalike web addresses.
 
-We took 10 real Australian government web addresses, such as ato.gov.au and my.gov.au, and wrote a script that produces lookalike spellings of them: letters swapped for identical-looking letters from another alphabet, 0 for o, an extra word, a different ending, and the real name placed at the front of someone else's domain. That gave **72 lookalikes**. None of them was registered or visited; they exist only inside the script.
-
-**Three checks against 72 lookalike addresses (our script, 14 October 2026)**
+We took 10 real Australian government web addresses, such as `ato.gov.au` and `my.gov.au`, and wrote a script that produces lookalike spellings of them: letters swapped for identical-looking letters from another alphabet, 0 for o, an extra word, a different ending, and the real name placed at the front of someone else's domain. That gave **72 lookalikes**. None of them was registered or visited; they exist only inside the script.
 
 | Check | Lookalikes flagged | What it misses |
-|---|---|---|
+| --- | --- | --- |
 | Is it exactly on my list of real addresses? | 72 of 72 | Nothing in this test |
 | Is it at least 85% similar to a real address? | 43 of 72 | All 10 subdomain tricks and 10 wrong-ending fakes, 8 extra-word fakes, 1 swap |
 | Does it turn into an xn-- address when encoded? | 29 of 29 homoglyph fakes | Only applies to other-alphabet letters |
@@ -90,6 +84,8 @@ And a smart-looking check is not automatically a good one: measure it before tru
 
 Source, read 14 October 2026: ACARA, [Digital Technologies curriculum content, Years 7 to 10](https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/technologies/digital-technologies/technologies-digital-technologies-curriculum-content-7-10-v9.docx). The script and its counts are our own; no lookalike address was registered or visited.
 
+The law
+
 ## Permission is the line
 
 Australian law treats access to a computer without authority as an offence. Students learn where the line is before they learn anything else.
@@ -106,10 +102,8 @@ Every practical task is on the student's own code, on flawed code samples writte
 
 If a student is unsure whether something is allowed, the answer is to stop and ask.
 
-**How our course draws the line**
-
 | We do | We do not |
-|---|---|
+| --- | --- |
 | Explain how attacks work so they can be prevented | Teach or run attacks on real services |
 | Test students' own projects for weaknesses | Scan, probe or log in to systems without written permission |
 | Review flawed code samples written for teaching | Share tools for getting around protections |
@@ -117,14 +111,14 @@ If a student is unsure whether something is allowed, the answer is to stop and a
 
 Source, read 14 October 2026: Federal Register of Legislation, [Criminal Code Act 1995](https://www.legislation.gov.au/C2004A04868/latest/text), compilation C2026C00243, Part 10.7 table of contents.
 
+Legal practice
+
 ## Capture the flag, the legal way
 
 Capture the flag (CTF) challenges are puzzles in which every target is built to be solved and permission is given in the rules. They are where teens practise safely.
 
-**Practice that stays on the right side of the line**
-
 | Practice | Why it is allowed | Skill it builds |
-|---|---|---|
+| --- | --- | --- |
 | Securing their own website | They own it | Finding and fixing weaknesses in their own code |
 | Teaching code samples with planted mistakes | The code is ours and is read and fixed, not used against anything | Spotting and correcting unsafe code |
 | Organised student CTF events | Entry rules grant permission for the challenge targets only | Puzzles in encoding, cryptography and careful reading |
@@ -142,14 +136,14 @@ ANZSCO groups security work with database and systems administration in minor gr
 
 We make no promise about careers. The course builds understanding and safe habits that are valuable whatever a teen goes on to do.
 
+At home
+
 ## A family security check students run
 
 One of the first practical tasks is to help the household, with permission, tighten its own accounts and devices.
 
-**The household check, step by step**
-
 | Step | What the student does | Why it helps |
-|---|---|---|
+| --- | --- | --- |
 | Accounts list | With a parent, list the important accounts: email, banking, school, games | You cannot protect what you have not listed |
 | Sign-in strength | Help switch reused passwords to long passphrases in a password manager | One leaked password no longer opens everything |
 | Second step at sign-in | Turn on multi-factor sign-in where it is offered | A stolen password alone is not enough |
@@ -168,14 +162,14 @@ It is concrete, it can be finished in one sitting, and it helps someone straight
 
 It also shows the student that security is about people as much as code.
 
+Progress
+
 ## Four levels of defensive skill
 
 Students move on when they can demonstrate a level on their own work.
 
-**From careful user to defender**
-
 | Level | What you can do |
-|---|---|
+| --- | --- |
 | 1. Careful user | Secure your own accounts and devices and explain each step |
 | 2. Spotter | Recognise phishing, lookalike addresses and suspicious requests |
 | 3. Builder | Write code that handles input safely and stores data properly |
@@ -184,63 +178,293 @@ Students move on when they can demonstrate a level on their own work.
 ### Does a teen need to code first?
 
 Not for the first course, which needs no coding. Python helps from level three onwards.
+
 Many students take Python for Teens alongside it.
 
 ### Is this for a teen who wants to hack?
 
 It is for a teen curious about how security works. We channel that curiosity into defence and legal practice, and we are clear with students about the law.
+
 Curiosity plus permission is how the field is actually learnt.
+
+The catalogue
 
 ## Courses for security-minded teens
 
 All for under-18s. The free class decides where a student starts.
 
+I
+
 ### Security
 
 Ages 13 to 18
 
-- [Cyber Security for Teens](/courses/cybersecurity-course-for-teens-ethical-defensive): Online safety and white-hat defence.
-- [AI Tools Course for Teens](/courses/teens-ai-tools-mastery-course): AI tools used safely, 13 and over.
-- [Git and GitHub for Teens](/courses/git-github-version-control-course-for-teens): Tracking every change to your code.
+CSTA / SEC / 01
+
+#### Cyber Security for Teens
+
+Online safety and white-hat defence.
+
+[Open the syllabus](/courses/cybersecurity-course-for-teens-ethical-defensive)
+
+CSTA / SEC / 02
+
+#### AI Tools Course for Teens
+
+AI tools used safely, 13 and over.
+
+[Open the syllabus](/courses/teens-ai-tools-mastery-course)
+
+CSTA / SEC / 03
+
+#### Git and GitHub for Teens
+
+Tracking every change to your code.
+
+[Open the syllabus](/courses/git-github-version-control-course-for-teens)II
 
 ### Code to defend
 
 Ages 13 to 18
 
-- [Python for Teens](/courses/python-complete-masterclass-teens): Scripts and automation from zero.
-- [JavaScript for Teens](/courses/javascript-course-for-teens-beginners-interactive-web): Where most web weaknesses live.
-- [HTML and CSS for Beginners](/courses/html-css-course-for-beginners-build-real-websites): Your own site to protect.
+CSTA / COD / 01
+
+#### Python for Teens
+
+Scripts and automation from zero.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+CSTA / COD / 02
+
+#### JavaScript for Teens
+
+Where most web weaknesses live.
+
+[Open the syllabus](/courses/javascript-course-for-teens-beginners-interactive-web)
+
+CSTA / COD / 03
+
+#### HTML and CSS for Beginners
+
+Your own site to protect.
+
+[Open the syllabus](/courses/html-css-course-for-beginners-build-real-websites)III
 
 ### Thinking skills
 
 Any teen
 
-- [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens): Logic and algorithms.
-- [Frontend Development for Teens](/courses/frontend-development-masterclass-for-teens): Building interfaces you can secure.
-- [Hackathon Prep for Teens](/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course): Building under time pressure, 13 to 17.
+CSTA / THK / 01
+
+#### Problem Solving for Teens
+
+Logic and algorithms.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
+
+CSTA / THK / 02
+
+#### Frontend Development for Teens
+
+Building interfaces you can secure.
+
+[Open the syllabus](/courses/frontend-development-masterclass-for-teens)
+
+CSTA / THK / 03
+
+#### Hackathon Prep for Teens
+
+Building under time pressure, 13 to 17.
+
+[Open the syllabus](/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course)
+
+How lessons run
 
 ## Security lessons around school
 
 Teachers are based in India and teach Australian afternoons and evenings. Times are fixed in your state's time, including across daylight saving.
 
-- **After school** Weekday lessons in term.
-- **Early evening** For older students, by arrangement.
-- **Weekend** Longer practice sessions.
+After school
 
-- **Free first class** A suspicious message taken apart safely, and a first look at domains.
-- **Groups** Fifteen to twenty teens comparing what they spotted.
-- **One to one** For a particular interest or pace.
-- **Permission first** Every exercise is on the student's own work or a practice system.
-- **Parents informed** Families can see the topics and rules for each term.
-- **Age rules respected** No tool is used below the minimum age its own terms set.
+Weekday lessons in term.
+
+Early evening
+
+For older students, by arrangement.
+
+Weekend
+
+Longer practice sessions.
+
+### Free first class
+
+A suspicious message taken apart safely, and a first look at domains.
+
+### Small groups
+
+Five to ten teens comparing what they spotted.
+
+### One to one
+
+For a particular interest or pace.
+
+### Permission first
+
+Every exercise is on the student's own work or a practice system.
+
+### Parents informed
+
+Families can see the topics and rules for each term.
+
+### Age rules respected
+
+No tool is used below the minimum age its own terms set.
+
+Student work
+
+## Things our students built
+
+Apps our students built and published, including one on staying safe online. More in the [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees for cyber security for teens
 
 Families outside India pay one monthly fee in US dollars, with nothing due at sign-up and no contract.
 
-- Free first class: USD 0. A phishing message examined safely. Advice on the right first course. No card needed.
-- Group batch: USD 100 a month. Five to ten teens per class. Shared challenges and discussion. A regular teacher. Stop after any month.
-- One to one: USD 150 a month. Lessons around one teen's interests. Their pace. Times around school.
+Free first class
+
+USD 0
+
+no card required
+
+- A phishing message examined safely
+- Advice on the right first course
+- No card needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Five to ten teens per class
+- Shared challenges and discussion
+- A regular teacher
+- Stop after any month
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- Lessons around one teen's interests
+- Their pace
+- Times around school
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Published reviews from our Google profile, unchanged.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Teens and parents ask
 
 ## Questions about cyber security courses for teens
 
@@ -284,15 +508,54 @@ We make no career or salary promises. The course builds understanding and safe h
 
 The opening class is free and asks for no card. Group and private monthly fees appear in the fees panel.
 
+Also on this site
+
 ## Related pages
 
-- [Coding classes in Australia](/coding-classes-in-australia): States, cities and every national track.
-- [Web development for teens](/web-development-course-for-teens-australia): Build the sites you will secure.
-- [AI classes for teens](/ai-classes-for-teens-australia): Use, check and build AI.
-- [Digital Technologies, Years 7 to 10](/digital-technologies-years-7-to-10-coding): Help with the school subject.
-- [AI tool age guide](/ai-tools-age-guide): Minimum ages for popular tools.
-- [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar): Organised events for students.
+Other pages for curious teenagers.
 
-## Contact
+### [Coding classes in Australia](/coding-classes-in-australia)
 
-Book the free first class at [https://learn.modernagecoders.com/cyber-security-course-for-teens-australia](https://learn.modernagecoders.com/cyber-security-course-for-teens-australia#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+States, cities and every national track.
+
+### [Web development for teens](/web-development-course-for-teens-australia)
+
+Build the sites you will secure.
+
+### [AI classes for teens](/ai-classes-for-teens-australia)
+
+Use, check and build AI.
+
+### [Digital Technologies, Years 7 to 10](/digital-technologies-years-7-to-10-coding)
+
+Help with the school subject.
+
+### [AI tool age guide](/ai-tools-age-guide)
+
+Minimum ages for popular tools.
+
+### [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar)
+
+Organised events for students.
+
+Start here
+
+## Book a free security lesson
+
+Send your details and we will call at a good time. The first class takes apart a suspicious message safely and ends with a recommendation.
+
+See [how we teach](/how-we-teach), or the [course list](/courses).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20a%20teenager%20in%20Australia%20(or%20a%20parent%20of%20one)%20interested%20in%20the%20cyber%20security%20course%20for%20teens.%20Could%20we%20book%20a%20free%20first%20class%3F) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+From Australia, WhatsApp is the simplest channel. The +91 number connects to our team in India; we keep no Australian premises.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/cyber-security-course-for-teens-australia*

@@ -4,50 +4,36 @@ description: "Live online coding, Python and maths classes across Bridgend count
 canonical: https://learn.modernagecoders.com/coding-classes-in-bridgend
 source: src/pages/coding-classes-in-bridgend.html
 ---
-> The 2021 census counted 145,488 usual residents in Bridgend county borough. Bridgend town is the main built-up area, with Maesteg, Porthcawl, Pyle and Sarn next and Pencoed and Ogmore Vale among the smaller places. Every class is taught live on video by our teachers in India, and a first lesson costs nothing and finds the right level, whether the learner is in Year 3, Year 12 or long out of school. Coding, Python and maths are open to anyone between 6 and 67, in classes of fifteen to twenty or one-to-one. The Bridgend project comes from an ironworks tower at Tondu. Keeping going costs USD 100 a month in a class or USD 150 a month with a private teacher.
+> Live online coding, Python and maths classes across Bridgend county borough, from Bridgend town, Maesteg and Porthcawl to Pyle, Sarn, Pencoed and Tondu.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Bridgend
-
-Bridgend county borough / Live online
-
-# Coding classes in Bridgend
-
-**What are the best coding classes in Bridgend?** The 2021 census counted 145,488 usual residents in Bridgend county borough. Bridgend town is the main built-up area, with Maesteg, Porthcawl, Pyle and Sarn next and Pencoed and Ogmore Vale among the smaller places. Every class is taught live on video by our teachers in India, and a first lesson costs nothing and finds the right level, whether the learner is in Year 3, Year 12 or long out of school. Coding, Python and maths are open to anyone between 6 and 67, in classes of fifteen to twenty or one-to-one. The Bridgend project comes from an ironworks tower at Tondu. Keeping going costs USD 100 a month in a class or USD 150 a month with a private teacher.
-
-At Tondu, Cadw lists a tall three-sided tower of yellow brick at Grade II*. It lifted materials to the charging platforms of an ironworks developed from 1837, and Cadw's record suggests it was possibly worked by water balance: two tram cars on a rope, with tanks of water beneath them, so that filling the top car makes it heavier and it sinks, hauling the other up, before the water is let out. No engine, just gravity and water. The record is careful to say possibly, and that steam was also used at such sites. Either way, the idea poses a neat question: how much water does it take, and what happens if you add too much? This page's project answers it in Python.
-
-Facts last verified 26 September 2026. Teaching is online; no Bridgend branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Bridgend
 
 ## Four ways in, across Bridgend county borough
 
 A Year 1 pupil in Porthcawl who builds pulleys out of string, a Year 6 in Maesteg ready for typed code, a Year 12 in Bridgend thinking about A level physics and computing, and an adult in Pencoed learning Python. Each starts with a free lesson.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 11): Scratch projects with lifts, pulleys, weights and see-saws.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): Balancing equations and rearranging formulas, practised by coding them.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 12 to 18): Complete Python for teenagers, including physics simulations and checks.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Adults): Python for adults from the beginning, up to engineering calculations.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 11Scratch Coding for KidsScratch projects with lifts, pulleys, weights and see-saws.See the syllabus](/courses/scratch-programming-complete-course)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingBalancing equations and rearranging formulas, practised by coding them.See the syllabus](/courses/maths-through-coding)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 12 to 18Python for TeensComplete Python for teenagers, including physics simulations and checks.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)AdultsPython MasterclassPython for adults from the beginning, up to engineering calculations.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Bridgend county borough in figures
 
 ## 145,488 people across the county borough
 
 That total is the usual-resident count from the 2021 census, taken from ONS through Nomis. The places below are ONS built-up areas from the same census.
 
-**Bridgend county borough, built-up areas of more than 2,500 people (ONS, 2021)**
-
 | Built-up area | People counted | Built-up area | People counted |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Bridgend | 51,760 | Sarn | 11,870 |
 | Maesteg | 18,335 | Pencoed | 9,115 |
 | Porthcawl | 15,795 | Ogmore Vale | 3,100 |
-| Pyle | 14,075 |  |  |
+| Pyle | 14,075 |   |   |
 
 Adding up census output areas ourselves, the Bridgend built-up area comes to 51,332 inside the county borough against the 51,760 ONS publishes, so a small part of it lies over the boundary; every other figure agrees within a few people. Learning follows the Curriculum for Wales, and exam courses are WJEC GCSEs and A levels. School holidays are set by Bridgend County Borough Council, and we ask each family for theirs rather than guess.
 
@@ -55,16 +41,16 @@ Adding up census output areas ourselves, the Bridgend built-up area comes to 51,
 
 The capital, [Cardiff](/best-coding-class-in-cardiff), has a page of its own. For exam support, see [WJEC GCSE Computer Science](/wjec-gcse-computer-science-help-wales) and [GCSE Maths and Numeracy in Wales](/gcse-maths-and-numeracy-wales-help).
 
+The Bridgend project
+
 ## Water in, load up
 
 Two cars, one rope, and the least water that will do the job.
 
 Every number in the model is invented. Two cars of 1,000 kilograms hang either end of a rope over a pulley, 15 metres apart in height. The bottom car carries 800 kilograms of material. Water poured into the top car's tank makes it heavier; once the difference in weight beats the friction, the cars start to move, one falling and one rising. Physicists call this an Atwood machine. The learner writes the force balance in Python: the pull is the weight difference minus friction, and the acceleration is that pull shared across everything moving. From the acceleration come the journey time and the speed at the end.
 
-**Our invented water-balance lift, 800 kg load raised 15 m, 26 September 2026**
-
 | Water in the top tank | Time to lift | Speed at the end | Share of the water's energy that lifts the load |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Less than 911 kg | Does not move | Not applicable | Not applicable |
 | 941 kg | 20.0 s | 1.5 m/s | 85 per cent |
 | 1,000 kg | 11.6 s | 2.6 m/s | 80 per cent |
@@ -91,14 +77,14 @@ Solve for the water giving a set journey time, track the energy, and write a tes
 
 Cadw's record says the Tondu lift was possibly worked by water balance and possibly by steam. The masses, height and friction in our model are invented, and the results describe the idea, not the real machinery.
 
+Why Tondu
+
 ## A rare ironworks hoisting tower
 
 The Cadw record, summarised.
 
-**Lift Tower at Tondu Ironworks, Cadw listed building record 20817, Grade II***
-
 | Record detail | What it says |
-|---|---|
+| --- | --- |
 | Ironworks | Developed from 1837 by Sir Robert Price; bought by John Brogden in 1854 |
 | Purpose | Hoisting materials to the charging platforms |
 | How it worked | Possibly by water balance, with water-filled tanks beneath the tram cars as counter-balance |
@@ -110,14 +96,37 @@ The same balance of forces and energy decides how lifts, cranes, cable cars and 
 
 We are not connected with Cadw or Bridgend County Borough Council. The record's descriptions belong to Cadw; the lift model and any mistakes belong to us.
 
+Stages
+
 ## From string and cups to physics code
 
 Year bands here are approximate; the trial lesson sets the level.
 
-- **Years 1 to 4: Machines and motion** Block coding with moving objects, pulleys and simple rules. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Years 5 to 8: Formulas in Python** Typed Python using simple formulas, units and tables. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Forces and energy** Physics models and testing alongside WJEC GCSE and A level courses. [Python for Teens](/courses/python-complete-masterclass-teens), [High School Mathematics](/courses/complete-high-school-mathematics-mastery)
-- **Adults: Engineering sums** Python for adults doing calculations, checks and small simulations. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Years 1 to 4
+
+### Machines and motion
+
+Block coding with moving objects, pulleys and simple rules.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Years 5 to 8
+
+### Formulas in Python
+
+Typed Python using simple formulas, units and tables.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Forces and energy
+
+Physics models and testing alongside WJEC GCSE and A level courses.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[High School Mathematics](/courses/complete-high-school-mathematics-mastery)Adults
+
+### Engineering sums
+
+Python for adults doing calculations, checks and small simulations.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)AI and signs
 
 ## An AI can write a physics formula in seconds. Will every sign point the right way?
 
@@ -129,30 +138,139 @@ A Bridgend learner who has written a check that the net force is zero at the thr
 
 Catching a single wrong sign before it matters is why a Bridgend teenager should keep learning to code in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Lesson practicalities
+
 ## From Maesteg to Porthcawl, lessons at home
 
 Towns and villages across the county borough all join by video.
 
-- **Code is typed, not watched** Pupils write the programs themselves; the teacher follows along on the shared screen and prompts when stuck.
-- **Placed by Welsh year group** A Pyle Year 5 or a Pencoed Year 11 is matched to their year and the Curriculum for Wales, with WJEC exam names where relevant. We teach in English.
-- **Trial lesson, on us** One whole lesson without charge, followed by frank advice.
-- **Fifteen to twenty per class** Classmates share a level and come from several countries.
-- **Twice a week in term** Regular lessons during term, a break for school holidays.
-- **Clock changes handled** The UK hour of your lesson stays fixed through the clock changes; teachers on India time shift instead.
+### Code is typed, not watched
 
-**Why classes cross town lines** Five learners at one level, free at the same hour, seldom live in one Welsh town. Grouping by level gives a pupil in Sarn or Ogmore Vale a proper class.
+Pupils write the programs themselves; the teacher follows along on the shared screen and prompts when stuck.
+
+### Placed by Welsh year group
+
+A Pyle Year 5 or a Pencoed Year 11 is matched to their year and the Curriculum for Wales, with WJEC exam names where relevant. We teach in English.
+
+### Trial lesson, on us
+
+One whole lesson without charge, followed by frank advice.
+
+### Fifteen to twenty per class
+
+Classmates share a level and come from several countries.
+
+### Twice a week in term
+
+Regular lessons during term, a break for school holidays.
+
+### Clock changes handled
+
+The UK hour of your lesson stays fixed through the clock changes; teachers on India time shift instead.
+
+Why classes cross town lines
+
+Five learners at one level, free at the same hour, seldom live in one Welsh town. Grouping by level gives a pupil in Sarn or Ogmore Vale a proper class.
+
+Fees
 
 ## Fees in Bridgend
 
 Maesteg or Porthcawl, the fee is identical, the same rate we use everywhere outside India.
 
-- First class: USD 0. A complete trial lesson, free, then our suggestion.
-- Group tuition: USD 100 a month. About eight lessons a month with fifteen to twenty classmates.
-- Private tuition: USD 150 a month. About eight lessons a month with your own teacher.
+First class**USD 0**
+
+A complete trial lesson, free, then our suggestion.
+
+Group tuition**USD 100**
+
+About eight lessons a month with fifteen to twenty classmates.
+
+Private tuition**USD 150**
+
+About eight lessons a month with your own teacher.
 
 We charge in US dollars and have no sterling price list. No payment is taken until a course and weekly slot are agreed after the trial; holidays, absences and moving between formats are covered on our pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Bridgend%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Reviews
+
+## Reviews families have written on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Bridgend lesson
+
+Let us know who is learning, their school year or age, and what they enjoy. The trial might be a Scratch pulley game, a Python program, or the water-balance lift on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Bridgend one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Bridgend%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Bridgend questions
+
+The county borough, the Tondu project and practical details.
 
 ### How many people live in Bridgend county borough?
 
@@ -194,10 +312,14 @@ The first lesson is free. Then it is USD 100 a month in a group or USD 150 a mon
 
 Yes. Share your school's holiday dates and we leave those weeks free.
 
+Nearby pages
+
 ## More South Wales pages
 
 [Blaenau Gwent](/coding-classes-in-blaenau-gwent) photographs the Tredegar clock with a pinhole camera, and [Cardiff](/best-coding-class-in-cardiff) and [Swansea](/best-coding-class-in-swansea) have city pages. Our [Wales](/coding-and-ai-classes-in-wales) page links every Welsh area as it goes live, and the [UK hub](/coding-classes-in-united-kingdom) covers the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Bridgend%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-bridgend](https://learn.modernagecoders.com/coding-classes-in-bridgend#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-bridgend*

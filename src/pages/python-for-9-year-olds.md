@@ -12,7 +12,7 @@ Python at age 9 · Class 4
 
 Nine year olds can type short sentences and read a 5-line program. That's all Python asks for. Our 1 hour live classes turn that readiness into tiny working programs, number guess games, turtle drawings, a first quiz.
 
-[Book a free demo class](/book-demo)See the curriculum**2,400+**9-year-olds learning Python with us**4.9 / 5**Parent rating · 280+ reviews**1 hour**Per live class, 1:1 or small group**4 weeks**To their first working Python programPy9Python · Age 9First print()Turtle graphicsFirst gameCourses matched for this level
+[Book a free demo class](/book-demo)See the curriculum**10,000+**Students taught live since 2020**4.9 / 5**Rated across 547 Google reviews**1 hour**Per live class, 1:1 or small group**4 weeks**To their first working Python programPy9Python · Age 9First print()Turtle graphicsFirst gameCourses matched for this level
 
 ## Python tracks made for 9-year-old hands.
 
@@ -157,9 +157,9 @@ One teacher, one learner, the full 1 hour. The teacher adapts pace in real time,
 
 **₹4,999**/ month · 4 sessionsOption B
 
-### Live Small-Group Online Class
+### Live Group Online Class
 
-4 to 6 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
+15 to 20 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
 
 - Small groups of 4 to 6 similar-level learners
 - 1 hour live session, 2 sessions per week
@@ -204,7 +204,7 @@ SSonam OswalParent of DhairyaCommon questions from parents
 
 Short, plain answers. If your question isn't here, tap the callback button at the top and a human will get back to you the same day.
 
-Is Python too hard for a 9 year old?Not if it is taught right. We start with 3-line programs and only add one new idea at a time. Most 9-year-olds write a working Python program by week 4.Do you start with Scratch first?Not for this course. This is a dedicated Python track. If your child has never coded, we still handle that here; the first 3 weeks are Python-from-zero.Will coding affect school marks?Two 1-hour classes a week fits alongside Class 4 homework comfortably. Many parents report improved maths problem-solving as a bonus.What do we need at home?Any laptop from the last 5 years. Stable internet, webcam, headphones. Python is a 30 MB install. We walk you through it in session 1.1-on-1 or group?Both work at 9. Group (4–6 kids) is great for social learners. 1-on-1 is best for faster pace or shy children.What Python version do you use?Python 3.x, the current standard. We use Thonny as the editor at this age because the error messages are friendly.Is there homework?15 minutes weekly. Usually "finish your own project" rather than drill exercises. Never pressured.Free demo?Yes, one full 1 hour live class with a real teacher, no card required. Refund clause for 2 weeks if it does not fit.Book a free 1 hour demo class
+Is Python too hard for a 9 year old?Not if it is taught right. We start with 3-line programs and only add one new idea at a time. Most 9-year-olds write a working Python program by week 4.Do you start with Scratch first?Not for this course. This is a dedicated Python track. If your child has never coded, we still handle that here; the first 3 weeks are Python-from-zero.Will coding affect school marks?Two 1-hour classes a week fits alongside Class 4 homework comfortably. Many parents report improved maths problem-solving as a bonus.What do we need at home?Any laptop from the last 5 years. Stable internet, webcam, headphones. Python is a 30 MB install. We walk you through it in session 1.1-on-1 or group?Both work at 9. Group (15 to 20 kids) is great for social learners. 1-on-1 is best for faster pace or shy children.What Python version do you use?Python 3.x, the current standard. We use Thonny as the editor at this age because the error messages are friendly.Is there homework?15 minutes weekly. Usually "finish your own project" rather than drill exercises. Never pressured.Free demo?Yes, one full 1 hour live class with a real teacher, no card required. Refund clause for 2 weeks if it does not fit.Book a free 1 hour demo class
 
 ### Try one session. Decide after.
 

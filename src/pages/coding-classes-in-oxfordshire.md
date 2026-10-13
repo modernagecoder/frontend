@@ -4,46 +4,32 @@ description: "Live online coding, Python, GCSE computing and maths classes acros
 canonical: https://learn.modernagecoders.com/coding-classes-in-oxfordshire
 source: src/pages/coding-classes-in-oxfordshire.html
 ---
-> Oxfordshire is five districts holding 725,291 people at the 2021 Census. Oxford itself is by far the biggest place, and its built-up area reaches into two neighbouring districts; after it come Banbury, Bicester, Didcot, Abingdon and Witney, then a long list of market towns and villages. Wherever a family lives among them, the offer is the same. A teacher in India works with the learner live over video; the starting level comes from skill, not birthday, for anyone between 6 and 67; and the choice is a group of fifteen to twenty or a teacher to themselves, across programming, Python, GCSE computing, AI and maths. The Oxfordshire project starts at Culham, with the fusion records set there. The first lesson costs nothing; from then on group places are USD 100 monthly and private teaching USD 150.
+> Live online coding, Python, GCSE computing and maths classes across Oxfordshire, from Oxford and Banbury to Bicester, Didcot, Abingdon and Witney. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Oxfordshire
-
-County of Oxfordshire / Live online
-
-# Coding classes in Oxfordshire
-
-**What are the best coding classes in Oxfordshire?** Oxfordshire is five districts holding 725,291 people at the 2021 Census. Oxford itself is by far the biggest place, and its built-up area reaches into two neighbouring districts; after it come Banbury, Bicester, Didcot, Abingdon and Witney, then a long list of market towns and villages. Wherever a family lives among them, the offer is the same. A teacher in India works with the learner live over video; the starting level comes from skill, not birthday, for anyone between 6 and 67; and the choice is a group of fifteen to twenty or a teacher to themselves, across programming, Python, GCSE computing, AI and maths. The Oxfordshire project starts at Culham, with the fusion records set there. The first lesson costs nothing; from then on group places are USD 100 monthly and private teaching USD 150.
-
-In 2023 the JET machine at Culham, near Abingdon, produced 69 megajoules of fusion energy over five seconds from 0.2 milligrams of fuel, about the weight of a fruit fly. Headlines often turn numbers like that into "megawatts", and the two words are not the same thing. A megajoule is an amount of energy; a megawatt is a rate, energy per second. Confuse them and a calculation can be wrong by any factor you like, with nothing on the page to warn you. This page's project builds a small piece of Python that knows the difference: every number carries its units, and the program refuses outright to add a megajoule to a megawatt. Then it uses JET's published records to show what the right sums say.
-
-Facts last verified 26 September 2026. Teaching is online; no Oxfordshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Oxfordshire
 
 ## Where Oxfordshire learners tend to begin
 
 A seven-year-old in Thame building a first game, a Year 6 in Wantage who asks how everything works, a Year 10 in Banbury sitting GCSE Computer Science, and a lab technician in Didcot who wants Python for the data piling up at work. Different routes; one free first lesson for each.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 12): From a first Scratch game to Minecraft and Roblox coding, with kid-safe AI and a taste of Python.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Real Python for children, where numbers, variables and simple classes first appear.
-- [GCSE Computer Science](/courses/gcse-computer-science-course) (GCSE years): Taught to the board your child actually sits, AQA 8525, OCR J277 or Edexcel 1CP2.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (Adults): Python for working adults: automation, scraping and applied AI for documents, text and forecasts.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 12Coding for KidsFrom a first Scratch game to Minecraft and Roblox coding, with kid-safe AI and a taste of Python.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsReal Python for children, where numbers, variables and simple classes first appear.See the syllabus](/courses/python-ai-kids-masterclass)[![GCSE Computer Science course thumbnail](/images/gcse-computer-science.webp)GCSE yearsGCSE Computer ScienceTaught to the board your child actually sits, AQA 8525, OCR J277 or Edexcel 1CP2.See the syllabus](/courses/gcse-computer-science-course)[![Python Automation Course course thumbnail](/images/python-college.webp)AdultsPython Automation CoursePython for working adults: automation, scraping and applied AI for documents, text and forecasts.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Oxfordshire by the numbers
 
 ## Five districts, 725,291 people and an Oxford that crosses three of them
 
 District totals come from the 2021 Census on Nomis. Towns are ONS built-up areas, and our own sum of census output areas shows which councils each one touches.
 
-**Oxfordshire's five districts, usual residents at Census 2021, largest first**
-
 | District | Usual residents | Main towns |
-|---|---|---|
+| --- | --- | --- |
 | Oxford | 162,040 | Oxford |
 | Cherwell | 161,016 | Banbury, Bicester, Kidlington |
 | South Oxfordshire | 149,085 | Didcot in part, Thame, Henley-on-Thames, Wallingford, Chinnor |
@@ -52,10 +38,8 @@ District totals come from the 2021 Census on Nomis. Towns are ONS built-up areas
 
 The ONS Oxford built-up area had 170,805 residents, more than the 162,040 of Oxford district, because the city's edges run into South Oxfordshire and the Vale of White Horse. Didcot, too, sits across the South Oxfordshire and Vale boundary. Outside that central belt the county is a scatter of market towns, from Banbury in the north to Henley in the south-east, and the distances between them are real: a weekly club in Oxford is not a practical option for most families in Chipping Norton or Faringdon.
 
-**Twenty Oxfordshire places over five thousand people, from the 2021 built-up area tables**
-
 | Place | People in 2021 | Place | People in 2021 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Oxford | 170,805 | Faringdon | 8,625 |
 | Banbury | 52,045 | Wallingford | 8,455 |
 | Bicester | 37,755 | Grove | 7,945 |
@@ -73,16 +57,16 @@ All twenty agree with our own count to within rounding, and none of them crosses
 
 Oxfordshire County Council's website did not respond when we tried to read its term dates on 26 September 2026, so we print none rather than rely on a copy. Academies can also set their own. Lesson breaks are arranged with each family, around the dates your own school sends home.
 
+The Oxfordshire project
+
 ## Megajoules, megawatts, and a program that will not let you mix them
 
 JET's published records, a little class that carries units with every number, and the answers that only make sense once the units are right.
 
 The learner writes a class for a quantity: a number plus the powers of kilograms, metres and seconds that describe it. A joule is kilograms times metres squared per second squared; a watt is the same divided by one more second. Dividing a quantity by a time subtracts one from the power of seconds automatically, so energy divided by time comes out as power without anyone remembering to say so. Adding two quantities checks first that their units match, and if they do not, the program stops with an error. That one rule catches a whole family of mistakes before they ever produce a number.
 
-**Our run of 26 September 2026: JET's published figures through the unit-checked class**
-
 | What we asked | From GOV.UK | Answer, with units checked |
-|---|---|---|
+| --- | --- | --- |
 | Average power of the 2023 record | 69 megajoules over five seconds | 13.8 megawatts |
 | Average power of the 2021 record | 59 megajoules over five seconds | 11.8 megawatts |
 | Shortest time the 1997 record could have taken | 21.7 megajoules at a peak of 16.1 MW | At least 1.35 seconds |
@@ -109,14 +93,14 @@ Extend the class to prefixes and conversions, run JET's records through it, and 
 
 The records, the fuel mass and the pulse facts are UKAEA's, quoted from GOV.UK. The averages, the minimum duration and the energy per kilogram are our own arithmetic, and the kettle is our illustration. None of it is a statement about fusion power stations or energy policy.
 
+Why Culham
+
 ## Forty years of fusion experiments in an Oxfordshire village
 
 The county link, as the UK Atomic Energy Authority describes it on GOV.UK.
 
-**JET, from UKAEA news on GOV.UK**
-
 | Fact | As published |
-|---|---|
+| --- | --- |
 | Where | UKAEA's Culham Campus in Oxfordshire |
 | First plasma | 25 June 1983; originally designed to run experiments for eight years |
 | Pulses | Over 103,000 by June 2023, each typically lasting 40 seconds |
@@ -127,16 +111,41 @@ A machine designed for eight years that ran for forty is itself a lesson for any
 
 Modern Age Coders has no connection with UKAEA, EUROfusion or Oxfordshire County Council, and nothing here suggests one. The published figures are theirs; the unit class, the calculations and any mistake in them are ours.
 
-**Nearby pages** The [Oxford](/best-coding-class-in-oxford) page covers the city, with its own weather project. [Berkshire](/coding-classes-in-berkshire) is across the Thames, [Buckinghamshire](/coding-classes-in-buckinghamshire) to the east and [Warwickshire](/coding-classes-in-warwickshire) to the north.
+Nearby pages
+
+The [Oxford](/best-coding-class-in-oxford) page covers the city, with its own weather project. [Berkshire](/coding-classes-in-berkshire) is across the Thames, [Buckinghamshire](/coding-classes-in-buckinghamshire) to the east and [Warwickshire](/coding-classes-in-warwickshire) to the north.
+
+Step by step
 
 ## From a number on screen to a number you can trust
 
 The free lesson decides the first step. Year group is a clue; what the learner can already do is the answer.
 
-- **Ages 6 to 10: Counting and measuring** Scratch projects with timers, scores and speeds, where children first see that a number means nothing without its unit. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 10 to 13: Numbers with meaning** Python variables that hold measurements, and simple functions that convert minutes to seconds and grams to kilograms. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Mental Maths for Kids](/courses/mental-maths-mastery-kids)
-- **Ages 13 to 18: Classes and checks** Object-oriented Python, tests that must fail when they should, and the GCSE and A level topics built on them. [GCSE Computer Science](/courses/gcse-computer-science-course), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Reliable numbers at work** Python that processes real data and reports with units and sources attached, so the numbers survive scrutiny. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### Counting and measuring
+
+Scratch projects with timers, scores and speeds, where children first see that a number means nothing without its unit.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 10 to 13
+
+### Numbers with meaning
+
+Python variables that hold measurements, and simple functions that convert minutes to seconds and grams to kilograms.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Mental Maths for Kids](/courses/mental-maths-mastery-kids)Ages 13 to 18
+
+### Classes and checks
+
+Object-oriented Python, tests that must fail when they should, and the GCSE and A level topics built on them.
+
+[GCSE Computer Science](/courses/gcse-computer-science-course)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Reliable numbers at work
+
+Python that processes real data and reports with units and sources attached, so the numbers survive scrutiny.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)AI and getting units right
 
 ## An AI will happily tell you JET produced 69 megawatts. Would you catch the mistake?
 
@@ -148,30 +157,139 @@ An Oxfordshire student who has written a class that refuses to add joules to wat
 
 So an Oxfordshire teenager should learn to program in 2026 to be the person who catches the wrong unit in a confident paragraph, whoever or whatever wrote it. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Practical matters
+
 ## Banbury to Henley with no car and no bus
 
 Oxfordshire's towns are spread out and its roads are busy at school pick-up. An online lesson skips all of it.
 
-- **Learn where you are** A bedroom in Carterton, a kitchen in Kidlington, a spare room in Wallingford. The teacher shares a screen and the learner types.
-- **The same words as school** Teachers talk about Year 9 options, mock exams and exam boards the way an Oxfordshire classroom does, always in English.
-- **No-cost first lesson** A real lesson with real work and a clear recommendation at the end. You will not be asked for card details.
-- **Peers who match** Your classmates, between five and ten of them, will have reached the same point as you, even if they log in from the far end of the country, which keeps the pace comfortable.
-- **Holidays that suit you** Typically two lessons a week, paused for your own school's breaks, since academies and council schools can differ.
-- **Times in UK time** Our teachers work on India time, 4.5 hours ahead of the UK in summer and 5.5 in winter. Every booking is written in UK time.
+### Learn where you are
 
-**Why groups follow level, not town** One city and nineteen smaller towns mean few places outside Oxford have enough learners at one stage on one evening. Level-based groups let a Faringdon learner and a Bicester learner share a class.
+A bedroom in Carterton, a kitchen in Kidlington, a spare room in Wallingford. The teacher shares a screen and the learner types.
+
+### The same words as school
+
+Teachers talk about Year 9 options, mock exams and exam boards the way an Oxfordshire classroom does, always in English.
+
+### No-cost first lesson
+
+A real lesson with real work and a clear recommendation at the end. You will not be asked for card details.
+
+### Peers who match
+
+Your classmates, between five and ten of them, will have reached the same point as you, even if they log in from the far end of the country, which keeps the pace comfortable.
+
+### Holidays that suit you
+
+Typically two lessons a week, paused for your own school's breaks, since academies and council schools can differ.
+
+### Times in UK time
+
+Our teachers work on India time, 4.5 hours ahead of the UK in summer and 5.5 in winter. Every booking is written in UK time.
+
+Why groups follow level, not town
+
+One city and nineteen smaller towns mean few places outside Oxford have enough learners at one stage on one evening. Level-based groups let a Faringdon learner and a Bicester learner share a class.
+
+Fees
 
 ## Fees for Oxfordshire
 
 Identical fees in every Oxfordshire town and in every country except India.
 
-- First class: USD 0. A complete lesson of genuine work, with a recommended level and course.
-- Group tuition: USD 100 a month. Roughly eight lessons a month, fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. Roughly eight lessons a month, one teacher with one learner.
+First class**USD 0**
+
+A complete lesson of genuine work, with a recommended level and course.
+
+Group tuition**USD 100**
+
+Roughly eight lessons a month, fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+Roughly eight lessons a month, one teacher with one learner.
 
 We quote in US dollars for all families outside India and keep no pound prices. You pay nothing until the free lesson has fixed a course and weekly time, and the pricing page sets out how pausing, missed lessons and moving between group and private places work.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20lesson%20for%20a%20learner%20in%20Oxfordshire%2C%20please.)Reviews
+
+## Six Google reviews from parents and learners
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Start with a free lesson
+
+An age or school year, plus one thing the learner enjoys, is enough. The first lesson could be a block-coding game, a first Python unit converter, or the megajoule checker on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Oxfordshire one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20lesson%20for%20a%20learner%20in%20Oxfordshire%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Oxfordshire questions
+
+The county, the fusion project and how lessons work.
 
 ### How many people live in Oxfordshire?
 
@@ -213,10 +331,14 @@ The first lesson is free. Then USD 100 a month for a group place or USD 150 a mo
 
 The county council sets dates for its schools and academies can set their own. We could not reach the council's website on the day we checked, so breaks are arranged around your school's own dates.
 
+Explore further
+
 ## Around Oxfordshire
 
 The [Oxford](/best-coding-class-in-oxford) city page asks whether rain remembers yesterday. Neighbouring counties so far are [Berkshire](/coding-classes-in-berkshire), [Buckinghamshire](/coding-classes-in-buckinghamshire) and [Warwickshire](/coding-classes-in-warwickshire), and the [UK hub](/coding-classes-in-united-kingdom) links everything else.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20lesson%20for%20a%20learner%20in%20Oxfordshire%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-oxfordshire](https://learn.modernagecoders.com/coding-classes-in-oxfordshire#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-oxfordshire*

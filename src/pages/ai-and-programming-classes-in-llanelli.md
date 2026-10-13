@@ -4,46 +4,32 @@ description: "AI and programming classes for Llanelli, Felinfoel, Dafen, Llwynhe
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-llanelli
 source: src/pages/ai-and-programming-classes-in-llanelli.html
 ---
-> The ONS recorded 42,155 usual residents in the Llanelli built-up area at the 2021 census, within a Carmarthenshire total of 187,897. Felinfoel, Dafen, Llwynhendy, Bynea, Pemberton, Bigyn, Seaside and Swiss Valley are among the gazetteer suburbs whose nearest postcode lies inside that built-up area. Modern Age Coders teaches programming, AI, Python, vibe coding and maths to Llanelli learners from six to 67 on live video, with India-based tutors working one-to-one or with a group of fifteen to twenty at the same level. Every learner starts with a free lesson, and a course is suggested only after it. The Llanelli project trains a small machine learning model to spot dead-end streets from their names and then tests it on the town's Welsh street names, where the clue it learned is not there. From the second lesson on, a group place is USD 100 per month and individual tuition USD 150 per month.
+> AI and programming classes for Llanelli, Felinfoel, Dafen, Llwynhendy and Bynea, live on video for ages 6 to 67: Python, machine learning and agents. Try it free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Llanelli
-
-Llanelli, Carmarthenshire, Wales / Live online
-
-# AI and programming classes in Llanelli
-
-**Which are the best AI and programming classes for Llanelli?** The ONS recorded 42,155 usual residents in the Llanelli built-up area at the 2021 census, within a Carmarthenshire total of 187,897. Felinfoel, Dafen, Llwynhendy, Bynea, Pemberton, Bigyn, Seaside and Swiss Valley are among the gazetteer suburbs whose nearest postcode lies inside that built-up area. Modern Age Coders teaches programming, AI, Python, vibe coding and maths to Llanelli learners from six to 67 on live video, with India-based tutors working one-to-one or with a group of fifteen to twenty at the same level. Every learner starts with a free lesson, and a course is suggested only after it. The Llanelli project trains a small machine learning model to spot dead-end streets from their names and then tests it on the town's Welsh street names, where the clue it learned is not there. From the second lesson on, a group place is USD 100 per month and individual tuition USD 150 per month.
-
-Machine learning models are very good at finding the easiest clue that fits their training data, and very bad at telling you which clue they found. Researchers call it shortcut learning. It is easy to demonstrate in Llanelli, where street names come in two patterns: English names that end with the kind of road, and Welsh names that begin with it. A model that learns from the first pattern meets the second with nothing to go on.
-
-Facts last verified 1 October 2026. Teaching is online; no Llanelli branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse ideas
 
 ## AI and programming courses for Llanelli learners
 
 Our usual first course for each age. Every course opens with a free live lesson and no card details.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): Sorting, grouping and spotting rules, the thinking behind both coding and machine learning.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Children build Scratch games with an AI, then check and correct them.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Python machine learning with real data, including the Llanelli street-name model.
-- [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college) (Students and adults): Graphs and algorithms in depth, the tools that answered the question the model could not.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsSorting, grouping and spotting rules, the thinking behind both coding and machine learning.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsChildren build Scratch games with an AI, then check and correct them.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensPython machine learning with real data, including the Llanelli street-name model.See the syllabus](/courses/ai-ml-masterclass-teens)[![Data Structures & Algorithms Course course thumbnail](/images/dsa-college.webp)Students and adultsData Structures & Algorithms CourseGraphs and algorithms in depth, the tools that answered the question the model could not.See the syllabus](/courses/data-structures-algorithms-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Llanelli and Carmarthenshire
 
 ## Llanelli, Felinfoel, Dafen, Llwynhendy and Bynea
 
 Two census totals and the suburb list, each tied to a source.
 
-**Census 2021 usual residents (ONS)**
-
 | Area | Residents |
-|---|---|
+| --- | --- |
 | Llanelli built-up area | 42,155 |
 | Carmarthenshire | 187,897 |
 
@@ -53,6 +39,8 @@ Carmarthenshire also includes Carmarthen, Ammanford, Burry Port and a great deal
 
 See also [Swansea](/best-coding-class-in-swansea), [Carmarthenshire](/coding-classes-in-carmarthenshire), [WJEC GCSE computer science help](/wjec-gcse-computer-science-help-wales) and [coding across Wales](/coding-and-ai-classes-in-wales). We explain why reasoning comes before AI on [thinking skills before AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Llanelli project
+
 ## A model that learned the name, not the street
 
 559 named streets, one honest label for each, and a model that only reads names.
@@ -61,10 +49,8 @@ The learner downloads every mapped road and path around Llanelli from OpenStreet
 
 Next the streets are split by naming pattern. 293 follow the English pattern, with the kind of road as the last word: Road, Street, Close, Court. Only 71 of them, 24.2%, are dead ends, and the last word is a strong clue: 9 of the 11 Closes and 8 of the 9 Courts are dead ends, against 7 of 83 Streets. Another 122 follow the Welsh pattern, with the kind of road first: Heol, Clos, Llys, Maes. Here 72, or 59.0%, are dead ends, including 15 of the 23 streets starting with Clos and 11 of the 15 starting with Llys. The remaining 144 names fit neither pattern and are set aside.
 
-**Predicting dead ends from street names, trained on English-pattern names only, average of 200 random 70/30 splits, our scikit-learn run**
-
 | Tested on | Model accuracy | Always guessing "not a dead end" | Dead ends the model found |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Unseen English-pattern streets | 82.3% | 75.5% | 33.1% of them |
 | All 122 Welsh-pattern streets | 41.0% | 41.0% | 0 of 72, in every split |
 
@@ -86,14 +72,14 @@ Train the model, inspect its weights, and design a test that exposes the shortcu
 
 Streets and road connections are from OpenStreetMap contributors under the Open Database Licence, read with one Overpass query on 1 October 2026. The term shortcut learning follows Geirhos and colleagues, Nature Machine Intelligence, 2020. The dead-end rule, the naming patterns and every percentage here are our own work, and footpaths were deliberately left out of the test.
 
+Programming with AI
+
 ## What the street-name model teaches about AI
 
 A high score on familiar data says little about unfamiliar data.
 
-**From Llanelli streets to trusting AI models**
-
 | What the model did | The lesson for any AI |
-|---|---|
+| --- | --- |
 | Scored 82.3% on English names by leaning on "close" | Ask which clue a model is really using |
 | Found 0 of 72 Welsh-pattern dead ends | Test on data unlike the training data |
 | Matched a guess that always says no | Compare every model with a lazy baseline |
@@ -104,14 +90,37 @@ Large language models take shortcuts too, and their confident tone hides it. In 
 
 This page uses open data from OpenStreetMap, the ONS and postcodes.io. They are not connected with Modern Age Coders, and the model and its results are our own.
 
+Progress
+
 ## From sorting cards at seven to testing models at seventeen
 
 The trial lesson places each learner; school year is only a rough first guess.
 
-- **Years 2 to 6: Rules and patterns** Sorting, grouping and step-by-step thinking, often away from the screen. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: First code with AI** Scratch built with an AI, then early Python. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Machine learning** Training, testing and questioning models beside WJEC courses. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Algorithms, then agents** Solid algorithms and Python, then agents you can explain. [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Years 2 to 6
+
+### Rules and patterns
+
+Sorting, grouping and step-by-step thinking, often away from the screen.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### First code with AI
+
+Scratch built with an AI, then early Python.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Machine learning
+
+Training, testing and questioning models beside WJEC courses.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Algorithms, then agents
+
+Solid algorithms and Python, then agents you can explain.
+
+[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)Models and AI
 
 ## What is shortcut learning, and why does it matter for AI?
 
@@ -123,30 +132,139 @@ A learner who has caught a model doing this asks of any AI result which clue pro
 
 Llanelli teenagers who can test a model like this are ready to question AI rather than simply use it, and that confidence is built by writing code. The longer argument is in [why code is still worth learning for teenagers in 2026](/blog/is-coding-worth-learning-2026).
 
+Lesson details
+
 ## How Llanelli lessons are taught
 
 Lessons are live video sessions. Please join from a computer with a physical keyboard, as phones and tablets make programming hard going.
 
-- **Learner at the controls** The learner writes and runs the code while the tutor asks the questions.
-- **Placed by the trial** The free lesson shows where to begin, and the course suggestion follows.
-- **Trial without payment** The first lesson is free and needs no card.
-- **Groups by level** Each class holds fifteen to twenty people at a shared stage, from all corners of Britain.
-- **About eight a month** Two lessons a week in term time, with holiday weeks dropped when you ask.
-- **A fixed UK slot** We handle the clock changes, so the lesson hour does not move.
+### Learner at the controls
 
-**Why we teach online** Finding fifteen to twenty learners at one exact level is realistic across the whole UK, and video means no one travels.
+The learner writes and runs the code while the tutor asks the questions.
+
+### Placed by the trial
+
+The free lesson shows where to begin, and the course suggestion follows.
+
+### Trial without payment
+
+The first lesson is free and needs no card.
+
+### Groups by level
+
+Each class holds fifteen to twenty people at a shared stage, from all corners of Britain.
+
+### About eight a month
+
+Two lessons a week in term time, with holiday weeks dropped when you ask.
+
+### A fixed UK slot
+
+We handle the clock changes, so the lesson hour does not move.
+
+Why we teach online
+
+Finding fifteen to twenty learners at one exact level is realistic across the whole UK, and video means no one travels.
+
+Fees
 
 ## Fees for Llanelli learners
 
 Llanelli learners pay the rate that applies to all our students outside India.
 
-- First class: USD 0. First lesson: free, full length, closing with a course suggestion.
-- Group tuition: USD 100 a month. Group lessons, around eight a month.
-- Private tuition: USD 150 a month. Private one-to-one lessons, around eight a month.
+First class**USD 0**
+
+First lesson: free, full length, closing with a course suggestion.
+
+Group tuition**USD 100**
+
+Group lessons, around eight a month.
+
+Private tuition**USD 150**
+
+Private one-to-one lessons, around eight a month.
 
 Every fee is set in US dollars; there is no sterling price list. Nothing is charged for the trial, and billing starts once a course and a weekly time are fixed. Holidays, missed lessons and moving between group and private are explained on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Llanelli%20and%20would%20like%20to%20book%20a%20free%20AI%20or%20programming%20lesson.)Reviews
+
+## Google reviews from families in Wales and learners across the UK
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Llanelli lesson
+
+An age or school year and one or two interests are all we need. Expect something like a card-sorting puzzle, an AI-assisted Scratch game, a first Python script or a small model trained on real Llanelli data.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Llanelli one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Llanelli%20and%20would%20like%20to%20book%20a%20free%20AI%20or%20programming%20lesson.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Llanelli questions answered
+
+The street-name model, machine learning, programming and the practical side.
 
 ### What is the population of Llanelli?
 
@@ -188,10 +306,14 @@ The first lesson is free. After that, USD 100 a month in a group or USD 150 a mo
 
 Yes. Send the holiday dates and we skip those weeks.
 
+Nearby
+
 ## More pages for West Wales
 
 Explore [Swansea](/best-coding-class-in-swansea), [Carmarthenshire](/coding-classes-in-carmarthenshire), [Neath Port Talbot](/coding-classes-in-neath-port-talbot) and [WJEC computer science help](/wjec-gcse-computer-science-help-wales). For the rest of Wales and the UK, go to [our Wales page](/coding-and-ai-classes-in-wales) or [the UK overview](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Llanelli%20and%20would%20like%20to%20book%20a%20free%20AI%20or%20programming%20lesson.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-llanelli](https://learn.modernagecoders.com/ai-and-programming-classes-in-llanelli#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-llanelli*

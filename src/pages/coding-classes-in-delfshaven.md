@@ -4,46 +4,32 @@ description: "Live online coding, Python and AI classes in Delfshaven, Rotterdam
 canonical: https://learn.modernagecoders.com/coding-classes-in-delfshaven
 source: src/pages/coding-classes-in-delfshaven.html
 ---
-> Coding classes in Delfshaven reach 76,590 residents (1 January 2026) on 515 hectares of land at 14,944 people to the square kilometre, in 40,120 households of which 20,975 hold one person. Fifteen secondary establishments here teach 4,765 pupils. Nine in Prins Alexander teach 5,860. Two thirds more schools, a fifth fewer pupils, and the number everybody quotes is the one that gets it backwards. Modern Age Coders teaches live online in English from Spangen to Schiemond, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
+> Live online coding, Python and AI classes in Delfshaven, Rotterdam, for ages 6 to 67, from Spangen and Bospolder to Schiemond. First lesson free.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Rotterdam](/coding-classes-in-rotterdam) / Delfshaven
-
-Delfshaven, Rotterdam / Live online
-
-# Coding classes in Delfshaven, which has two thirds more secondary schools than the next district and a fifth fewer pupils in them
-
-**What are the best coding classes in Delfshaven?** Coding classes in Delfshaven reach 76,590 residents (1 January 2026) on 515 hectares of land at 14,944 people to the square kilometre, in 40,120 households of which 20,975 hold one person. Fifteen secondary establishments here teach 4,765 pupils. Nine in Prins Alexander teach 5,860. Two thirds more schools, a fifth fewer pupils, and the number everybody quotes is the one that gets it backwards. Modern Age Coders teaches live online in English from Spangen to Schiemond, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
-
-Delfshaven has fifteen secondary establishments and Prins Alexander has nine. Delfshaven teaches 4,765 secondary pupils and Prins Alexander teaches 5,860. Two thirds more schools in one district, a fifth fewer pupils in them, and both figures come from the same office in the same year. Count the schools and you will conclude one thing. Count the pupils and you will conclude the opposite. Only one of those counts is measuring the amount of anything, and it is not the one that is easier to get.
-
-Facts last verified 9 September 2026. Teaching is online; no Delfshaven branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Delfshaven
 
 ## Four courses for a district with five and a half thousand students living in it
 
 A groep 5 child in Bospolder who has run out of levels, a teenager in the Nieuwe Westen with an app in mind and no idea how one is made, one of the 2,910 university students living here who needs Python to stop being a module, and an adult in Middelland handed a set of AI tools and a deadline: four doors, and the first hour of each is free.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Real typed Python, drawings that follow instructions and a first program that works out a rule, taught in English to the groep 5 to 8 child in any of the nine buurten.
-- [App Development for Teens](/courses/complete-app-development-masterclass-for-teens) (Ages 13 to 18): An application carried from an empty project to something that installs and runs, for the teenager who has described one to three adults and built none of it.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (College and adult): Python from an empty file to work that runs unattended, for the student who met it in one module and wants the rest.
-- [AI Tools Mastery Course](/courses/ai-tools-mastery-complete-college) (Adults): The current tools used with judgement rather than trust, for anybody given them at work with no instructions attached.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsReal typed Python, drawings that follow instructions and a first program that works out a rule, taught in English to the groep 5 to 8 child in any of the nine buurten.See the syllabus](/courses/python-ai-kids-masterclass)[![App Development for Teens course thumbnail](/images/app-dev-teens.webp)Ages 13 to 18App Development for TeensAn application carried from an empty project to something that installs and runs, for the teenager who has described one to three adults and built none of it.See the syllabus](/courses/complete-app-development-masterclass-for-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)College and adultPython MasterclassPython from an empty file to work that runs unattended, for the student who met it in one module and wants the rest.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)[![AI Tools Mastery Course course thumbnail](/images/ai-tools-college.webp)AdultsAI Tools Mastery CourseThe current tools used with judgement rather than trust, for anybody given them at work with no instructions attached.See the syllabus](/courses/ai-tools-mastery-complete-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Delfshaven today
 
 ## An old harbour town, now the third largest of the fourteen gebieden
 
 Delfshaven holds 76,590 residents on 596 hectares, of which 515 are land and 81 water, at a published 14,944 people to the square kilometre. It is denser than the middle of the city, has a lower average income than either district set beside it below, and houses several thousand students. Everything about the port, and about how Rotterdam families choose a secondary school, belongs to the city page and is left there.
 
-**Delfshaven as the statistics office publishes it**
-
 | Field | Figure | Year | Worth noticing |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Residents | 76,590 | 2026 | the third largest gebied |
 | Households, average size | 40,120 at 1.9 people | 2025 | 20,975 hold one person, 52 percent |
 | Dwellings, average value | 36,694 at 325,000 euro | 2025 | 26,420 rented, 72 percent |
@@ -63,6 +49,8 @@ Oud Mathenesse, Spangen, Middelland, the Nieuwe Westen, the Witte Dorp, Tussendi
 ### And a great many students
 
 2,600 residents are enrolled in applied higher education and 2,910 at university level, 5,510 in all, which is 7.2 percent of everybody living here. That is a large share and it sits underneath the district average income of 30,100 euro without explaining it, since neither figure was read as a breakdown of the other.
+
+Where the learners are
 
 ## Three districts, three ways of counting the same thing
 
@@ -92,7 +80,11 @@ Delfshaven has 15 secondary establishments and Prins Alexander has 9, two thirds
 
 A vestiging is a registered location, not a building and not a school. One school can hold several and one site can carry more than one entry. Nothing in the count carries a size, which is why 318 pupils and 651 pupils both appear as the number one.
 
-**What none of this says about the schools** Nothing on this page is a judgement about any school in any of the three districts. Establishment counts, pupil counts and the ratios between them describe how provision is registered and how large the registered units are. They do not describe teaching, results or anything a parent would recognise as quality, and no source read here offers that. The comparison exists to make a point about counting, and the schools are the example rather than the subject.
+What none of this says about the schools
+
+Nothing on this page is a judgement about any school in any of the three districts. Establishment counts, pupil counts and the ratios between them describe how provision is registered and how large the registered units are. They do not describe teaching, results or anything a parent would recognise as quality, and no source read here offers that. The comparison exists to make a point about counting, and the schools are the example rather than the subject.
+
+Verified local facts
 
 ## Every figure, its source, its year, and what the ratios are for
 
@@ -120,6 +112,8 @@ No statement about school quality, results or admissions anywhere in this distri
 
 Modern Age Coders has no connection to the gebied, the city or any school in any of the three districts and claims none. Every population, household, age, area, density, dwelling, value, tenure, income, student, establishment and pupil figure comes from the national statistics office page for the wijk named beside it. The six pupils-per-establishment figures and the percentage comparisons are this page dividing those published counts.
 
+Signature project
+
 ## Fifteen schools teaching fewer pupils than nine
 
 One city, one year, one office, and two columns that answer different questions while looking like they answer the same one.
@@ -136,10 +130,8 @@ A vestiging is a registered location. It has no size attached to it. In these th
 
 If the question is how much secondary education a district has, the pupil count answers it and the establishment count does not. The establishment count answers a genuine and different question, about how provision is organised and how many separate entries exist. Both are useful. Only one of them is about quantity.
 
-**What each count is actually counting**
-
 | Comparison | By establishments | By pupils | Which is about how much there is |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Delfshaven against Prins Alexander, secondary | 15 against 9, two thirds more | 4,765 against 5,860, a fifth fewer | the pupils, and the counts invert |
 | Delfshaven against Prins Alexander, primary | 28 against 28, identical | 6,828 against 8,108, 19 percent more | the pupils, and the counts say nothing |
 | Rotterdam Centrum, secondary | 4 establishments | 1,622 pupils, 406 each | the pupils |
@@ -150,14 +142,14 @@ If the question is how much secondary education a district has, the pupil count 
 
 Counting is the most trusted operation in any dataset because it feels like it cannot go wrong. Every row is worth one, the arithmetic is exact, and the result is a whole number nobody argues with. What gets lost is that a count is only a measure of quantity when the things counted are interchangeable, and things almost never are. Fifteen registered school locations against nine tells you about registration. It tells you nothing about how many children are being taught, and here it tells you the opposite. The same failure is everywhere, and it is always the easy number that wins because it is the one the system already stores. Headcount instead of full-time equivalents, so a department of twenty part-timers outranks one of twelve full-timers. Number of servers instead of capacity, after half of them were replaced with machines four times the size. Number of stores instead of floorspace. Number of suppliers instead of spend. Number of open tickets instead of the work in them, which is how a queue of fifty trivial items outranks three that will take a month. The check is one sentence long and it goes before the counting rather than after: are these things interchangeable, and if they are not, what varies between them? If something varies, that something is what you meant to measure, and the count is at best a proxy for it and at worst, as here, a number pointing the wrong way.
 
+Reliable pipeline
+
 ## Five habits for counting things that are not the same size
 
 Employees, servers, stores, suppliers, tickets, incidents, releases: all countable, none interchangeable, and the count is always the figure that reaches the slide. Practised on two districts where more schools means fewer pupils.
 
-**Before you count, and after**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Test for interchangeability | Ask whether one of these is the same as another before counting any | A count treated as a quantity | The knowledge that you need a size field |
 | Find the varying dimension | Name what differs between units: size, capacity, hours, weight | The easy number standing in for the real one | The measure you actually meant |
 | Report both numbers | Publish the count and the total together, never one alone | A reader inferring quantity from a count | Two facts instead of one misleading one |
@@ -178,14 +170,37 @@ A real count from work that stands in for a quantity: headcount, sites, supplier
 
 All population, household, age, area, density, dwelling, value, tenure, income, student, establishment and pupil figures for the three districts come from the national statistics office pages for those wijken, with 2026 populations, 2025 household, housing, student and school figures and 2024 incomes. The pupils-per-establishment figures of 244, 290, 332, 318, 651 and 406, and the comparisons of two thirds, a fifth and 19 percent, are this page dividing and subtracting those published counts, and are labelled as arithmetic wherever they appear.
 
+Learning ladder
+
 ## From two bags of sweets to a ranking that has to be told what to sort on
 
 The rung comes out of the free hour and what the learner can already do, and never out of which of the nine buurten the address is in.
 
-- **Ages 6 to 10: More sweets, or more sweet?** Children count, then weigh, and find the two answers disagree. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [App Making for Kids](/courses/block-coding-app-development-masterclass)
-- **Ages 11 to 13: Are these things the same thing?** Learners test whether the items in a column are interchangeable before adding them up. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 14 to 18: Rankings that declare their measure** Teenagers build code that refuses to sort until it is told which column means quantity. [App Development for Teens](/courses/complete-app-development-masterclass-for-teens), [MySQL for Teens](/courses/mysql-mastery-for-teens)
-- **Ages 18 to 67: The count on the slide** Adults take a headcount or a site count from work and find the size data nobody joined to it. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [AI Tools Mastery Course](/courses/ai-tools-mastery-complete-college)
+Ages 6 to 10
+
+### More sweets, or more sweet?
+
+Children count, then weigh, and find the two answers disagree.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[App Making for Kids](/courses/block-coding-app-development-masterclass)Ages 11 to 13
+
+### Are these things the same thing?
+
+Learners test whether the items in a column are interchangeable before adding them up.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 14 to 18
+
+### Rankings that declare their measure
+
+Teenagers build code that refuses to sort until it is told which column means quantity.
+
+[App Development for Teens](/courses/complete-app-development-masterclass-for-teens)[MySQL for Teens](/courses/mysql-mastery-for-teens)Ages 18 to 67
+
+### The count on the slide
+
+Adults take a headcount or a site count from work and find the size data nobody joined to it.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[AI Tools Mastery Course](/courses/ai-tools-mastery-complete-college)Coding and AI
 
 ## An AI will rank the districts by number of schools. Why should a teenager in Delfshaven ask what one school is?
 
@@ -197,30 +212,139 @@ So the learner practises the question that has to come first: are the things bei
 
 The case for a child in Delfshaven learning to code in 2026 is therefore not about schools at all. It is that counting feels like the one operation that cannot mislead, that it misleads whenever the units vary in size, and that two districts where more schools means fewer pupils prove it in a single line of a table. The longer argument is in [the case for a child writing code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes across nine buurten and five square kilometres
 
 Delfshaven is dense, well connected and full of small flats. Getting somewhere is rarely the problem here; finding an hour and a quiet corner in a household of 1.9 people usually is.
 
-- **One hour a week, wherever the laptop already is** The class happens in Bospolder, Middelland or the Nieuwe Westen at a time that repeats, so nothing has to be travelled to and no room has to be found somewhere else.
-- **Four words that stay Dutch** Groep. Havo. Vwo. Profielkeuze. Everything around them is English, and those four are not, because a child already knows them and an English version would have to be turned back into Dutch before it was any use.
-- **Nothing is charged for the first lesson** It is a full one, with a task that has a right answer and a teacher watching how the learner gets there. That produces a level, and the level produces a course, and the course gets an hour. Money is not part of the conversation.
-- **Five to ten at one level, drawn from anywhere** Groups are built from ability rather than address. That is what makes a narrow level fill at all, and it is why the other learners in a Delfshaven group are usually not in Delfshaven.
-- **Eight lessons in most months** Two every week at the same hour. Zuid-Holland sits in the regio Midden holiday block, so the weeks that will vanish are known months ahead and are written into the plan at the start.
-- **One clock moves and the other does not** India has not changed its time in decades; the Netherlands changes twice a year. That is the whole reason the gap is three and a half hours for part of the year and four and a half for the rest, and the usable window is the same either way.
+### One hour a week, wherever the laptop already is
 
-**Five and a half thousand students, and ten and a half thousand children** 2,600 residents are in applied higher education and 2,910 at university, while 10,470 are under fifteen. Delfshaven therefore has both a large student population and a large child population, in a district where the average household is 1.9 people and 52 percent of households are one person. It is a place with plenty of learners of every age and very little spare room, which is the situation an online class at a fixed weekly hour is built for, from age 6 up to 67.
+The class happens in Bospolder, Middelland or the Nieuwe Westen at a time that repeats, so nothing has to be travelled to and no room has to be found somewhere else.
+
+### Four words that stay Dutch
+
+Groep. Havo. Vwo. Profielkeuze. Everything around them is English, and those four are not, because a child already knows them and an English version would have to be turned back into Dutch before it was any use.
+
+### Nothing is charged for the first lesson
+
+It is a full one, with a task that has a right answer and a teacher watching how the learner gets there. That produces a level, and the level produces a course, and the course gets an hour. Money is not part of the conversation.
+
+### Fifteen to twenty at one level, drawn from anywhere
+
+Groups are built from ability rather than address. That is what makes a narrow level fill at all, and it is why the other learners in a Delfshaven group are usually not in Delfshaven.
+
+### Eight lessons in most months
+
+Two every week at the same hour. Zuid-Holland sits in the regio Midden holiday block, so the weeks that will vanish are known months ahead and are written into the plan at the start.
+
+### One clock moves and the other does not
+
+India has not changed its time in decades; the Netherlands changes twice a year. That is the whole reason the gap is three and a half hours for part of the year and four and a half for the rest, and the usable window is the same either way.
+
+Five and a half thousand students, and ten and a half thousand children
+
+2,600 residents are in applied higher education and 2,910 at university, while 10,470 are under fifteen. Delfshaven therefore has both a large student population and a large child population, in a district where the average household is 1.9 people and 52 percent of households are one person. It is a place with plenty of learners of every age and very little spare room, which is the situation an online class at a fixed weekly hour is built for, from age 6 up to 67.
+
+Fees
 
 ## The fee, in dollars, in all nine buurten
 
 Written here rather than saved for a call.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 A single international rate applies, quoted in dollars, with no euro edition, so an address in Schiemond is charged exactly what one in Spangen is. Nothing is paid until the free lesson has settled a course and an hour, and payment is arranged over WhatsApp afterwards. Pausing, switching plan and missing a week are all described on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Delfshaven.)Reviews
+
+## Six Google reviews, exactly as the people who left them wrote them
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Send the level, not the buurt
+
+The first task might be two bags of sweets that need weighing as well as counting, a ranking function that refuses to sort until told which column means quantity, or a headcount at work that nobody has ever joined to the hours behind it.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Delfshaven one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Delfshaven.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Delfshaven coding class questions
+
+The district, its nine buurten, one backwards count, the teaching and the terms.
 
 ### Does Delfshaven really have more secondary schools than Prins Alexander?
 
@@ -262,10 +386,14 @@ The first lesson is free. After it, group tuition is USD 100 a month for two liv
 
 Fifteen to twenty, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
+Explore Rotterdam and beyond
+
 ## East into the centre, north to Delft, and up to the country
 
 East of here is [Rotterdam Centrum](/coding-classes-in-rotterdam-centrum), whose page argues that a district this small is mostly edge, and the city page, [coding classes in Rotterdam](/coding-classes-in-rotterdam), carries the port and the map of all fourteen gebieden. North up the line are [Delft](/coding-classes-in-delft) and [The Hague](/coding-classes-in-the-hague), and everything here sits inside [Zuid-Holland](/coding-classes-in-zuid-holland). The whole series descends from the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner who wants trained models rather than running programs should begin at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Take this to WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Delfshaven.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-delfshaven](https://learn.modernagecoders.com/coding-classes-in-delfshaven#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-delfshaven*

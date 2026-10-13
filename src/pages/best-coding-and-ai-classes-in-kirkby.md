@@ -4,46 +4,32 @@ description: "Live online coding and AI classes for Kirkby, Northwood, Southdene
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-kirkby
 source: src/pages/best-coding-and-ai-classes-in-kirkby.html
 ---
-> The ONS gives the Kirkby built-up area 45,560 usual residents at the 2021 census, and the borough of Knowsley 154,519; a small part of that built-up area lies outside Knowsley. Northwood, Southdene, Tower Hill and Westvale are gazetteer suburbs whose nearest postcodes are inside it. People in Kirkby aged six to 67 learn coding, AI, Python, vibe coding and maths with Modern Age Coders in live online classes. Tutors in India take each class, either privately or with fifteen to twenty learners at a matching level, and every project involves calculating something real. Our course advice follows a free first lesson. In the Kirkby project the learner downloads the boundaries of 137 census neighbourhoods, writes two shape scores in Python, and finds that the question "which is the oddest shape?" has more than one honest answer. From then on it is USD 100 each month in a group, or USD 150 each month for one-to-one.
+> Live online coding and AI classes for Kirkby, Northwood, Southdene, Tower Hill and Westvale, ages 6 to 67: Python, vibe coding and agents. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [North West England](/coding-and-ai-classes-in-north-west-england) / Kirkby
-
-Kirkby, Knowsley, Merseyside / Live online
-
-# Coding and AI classes in Kirkby
-
-**Which coding and AI classes are best for Kirkby?** The ONS gives the Kirkby built-up area 45,560 usual residents at the 2021 census, and the borough of Knowsley 154,519; a small part of that built-up area lies outside Knowsley. Northwood, Southdene, Tower Hill and Westvale are gazetteer suburbs whose nearest postcodes are inside it. People in Kirkby aged six to 67 learn coding, AI, Python, vibe coding and maths with Modern Age Coders in live online classes. Tutors in India take each class, either privately or with fifteen to twenty learners at a matching level, and every project involves calculating something real. Our course advice follows a free first lesson. In the Kirkby project the learner downloads the boundaries of 137 census neighbourhoods, writes two shape scores in Python, and finds that the question "which is the oddest shape?" has more than one honest answer. From then on it is USD 100 each month in a group, or USD 150 each month for one-to-one.
-
-A circle is as compact as a shape can be. A long thin strip is not. Between those two, deciding which shape is "odder" sounds like a matter of taste, but there are formulas for it, and people use them to judge everything from census areas to land parcels. The trouble is that the standard formulas disagree, and one of them changes its answer depending on how finely the boundary was drawn. Kirkby's census neighbourhoods, whose edges follow streets and property lines rather than any geometry, make an ideal test.
-
-Facts last verified 1 October 2026. Teaching is online; no Kirkby branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentFirst courses
 
 ## Coding and AI courses for Kirkby learners
 
 A place to begin for each age. Whichever you pick, lesson one is free and no card is needed.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): How to think like a programmer: shapes, measurements and precise instructions.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Vibe coding for children: Scratch games built with an AI, then checked and fixed.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): Maths and Python together, including area, perimeter and the Kirkby shape project.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Students and adults): Python from the start to data, geometry and a first AI agent.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsHow to think like a programmer: shapes, measurements and precise instructions.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsVibe coding for children: Scratch games built with an AI, then checked and fixed.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingMaths and Python together, including area, perimeter and the Kirkby shape project.See the syllabus](/courses/maths-through-coding)[![Python Masterclass course thumbnail](/images/python-college.webp)Students and adultsPython MasterclassPython from the start to data, geometry and a first AI agent.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Kirkby and Knowsley
 
 ## Kirkby, Northwood, Southdene, Tower Hill and Westvale
 
 Census totals, where the built-up area ends, and the suburb names inside it.
 
-**People counted at the 2021 census (ONS usual residents)**
-
 | Area | Population |
-|---|---|
+| --- | --- |
 | Kirkby built-up area | 45,560 |
 | Knowsley borough | 154,519 |
 
@@ -53,6 +39,8 @@ Knowsley also contains Huyton, Prescot, Halewood and other places, so the two ro
 
 Try [Huyton with Roby](/vibe-coding-and-ai-agents-classes-in-huyton-with-roby), [St Helens](/best-coding-and-ai-classes-in-st-helens), [Liverpool](/best-coding-class-in-liverpool) or the [Merseyside page](/coding-classes-in-merseyside). We set out why thinking comes before AI tools in [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Kirkby project
+
 ## Scoring 137 neighbourhood shapes, two ways
 
 Census boundaries, two formulas, and a check on how much the drawing itself matters.
@@ -61,10 +49,8 @@ Output areas are the smallest areas the census reports on. The learner downloads
 
 Score one is the Polsby-Popper score, four pi times the area divided by the perimeter squared. A circle scores 1 and a square about 0.785; long, ragged shapes score low. Score two is the convex hull ratio: stretch an imaginary rubber band round the shape, and divide the shape's area by the area inside the band. A shape with no dents scores 1. Both are standard; they simply measure different things. Polsby-Popper punishes a long or wiggly edge, while the hull ratio punishes bites taken out of the outline.
 
-**Two compactness scores for 137 Kirkby output areas, our Python run**
-
 | Measure | Lowest | Median | Highest |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Polsby-Popper, full-resolution boundaries | 0.131 | 0.350 | 0.764 |
 | Convex hull ratio, full-resolution boundaries | 0.432 | 0.730 | 0.998 |
 | Polsby-Popper, generalised boundaries | n/a | 0.412 | n/a |
@@ -90,14 +76,14 @@ Load the ONS boundaries, compute both scores at both resolutions, and compare th
 
 Output area boundaries and the output area to built-up area lookup are from the Office for National Statistics under the Open Government Licence. The convex hulls use SciPy. The areas, perimeters, scores and rankings are all from our own run.
 
+Measurement and AI
+
 ## What two shape scores teach about AI answers
 
 A confident ranking can rest on choices nobody mentioned.
 
-**From Kirkby boundaries to AI output**
-
 | What the scores showed | What to ask of AI answers |
-|---|---|
+| --- | --- |
 | Two sound formulas named different oddest areas | Which definition was used? |
 | Seven of ten least compact areas matched | How much do the alternatives agree? |
 | Smoother boundaries raised one score by 18% | What data, at what detail? |
@@ -108,14 +94,37 @@ Ask an AI chatbot which neighbourhood in a town has the most irregular shape and
 
 The Office for National Statistics and postcodes.io have no connection with Modern Age Coders. We used their open data; the analysis is ours.
 
+The journey
+
 ## String shapes at seven, computational geometry at seventeen
 
 Starting points come from the trial lesson, with the school year as a guide only.
 
-- **Years 2 to 6: Shapes and rules** Measuring, comparing and giving exact instructions. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Making with code** Scratch projects built with AI help, then first Python. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Maths meets Python** Geometry, statistics and algorithms turned into working code. [Maths Through Coding](/courses/maths-through-coding), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Data and agents** Python for real datasets, then agents built on code you understand. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)
+Years 2 to 6
+
+### Shapes and rules
+
+Measuring, comparing and giving exact instructions.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Making with code
+
+Scratch projects built with AI help, then first Python.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Maths meets Python
+
+Geometry, statistics and algorithms turned into working code.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Data and agents
+
+Python for real datasets, then agents built on code you understand.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)Geometry and AI
 
 ## What is a compactness score, and why does it matter when AI gives you a ranking?
 
@@ -127,30 +136,139 @@ A learner who has seen that asks of any ranking, including an AI's, which defini
 
 For Kirkby teenagers, knowing that every measurement hides a choice is what keeps them in charge of AI tools, and that knowledge comes from coding the measurement yourself. The longer argument is in [whether learning to code is still worth it in 2026](/blog/is-coding-worth-learning-2026).
 
+Lesson set-up
+
 ## How Kirkby lessons work
 
 Lessons take place live over video. You need a computer with a keyboard; a tablet on its own is not suitable for Python.
 
-- **Learner does the typing** Code is written and run by the learner, with the tutor asking why.
-- **Level set by the trial** We see the learner's skills in the free lesson before naming a course.
-- **No payment to try** The first lesson is free and needs no card.
-- **Classes of fifteen to twenty** Groups share a level, with classmates from across the UK.
-- **About eight a month** Two lessons a week in term, with Knowsley holidays left free on request.
-- **No clock-change confusion** Your UK lesson time holds steady all year.
+### Learner does the typing
 
-**Why lessons are online** Finding fifteen to twenty learners at exactly the same stage is easier across the country than in one town. Video brings them together without travel.
+Code is written and run by the learner, with the tutor asking why.
+
+### Level set by the trial
+
+We see the learner's skills in the free lesson before naming a course.
+
+### No payment to try
+
+The first lesson is free and needs no card.
+
+### Classes of fifteen to twenty
+
+Groups share a level, with classmates from across the UK.
+
+### About eight a month
+
+Two lessons a week in term, with Knowsley holidays left free on request.
+
+### No clock-change confusion
+
+Your UK lesson time holds steady all year.
+
+Why lessons are online
+
+Finding fifteen to twenty learners at exactly the same stage is easier across the country than in one town. Video brings them together without travel.
+
+Fees
 
 ## Costs for Kirkby learners
 
 Kirkby families pay the same as every learner we teach outside India.
 
-- First class: USD 0. First lesson: free and full length, with our course advice at the end.
-- Group tuition: USD 100 a month. Group class, about eight lessons per month.
-- Private tuition: USD 150 a month. Private lessons, about eight per month.
+First class**USD 0**
+
+First lesson: free and full length, with our course advice at the end.
+
+Group tuition**USD 100**
+
+Group class, about eight lessons per month.
+
+Private tuition**USD 150**
+
+Private lessons, about eight per month.
 
 Everything is priced in US dollars, with no pound equivalent from us. No charge applies before the trial, and billing starts only when you have settled on a course and a weekly time. The pricing page deals with holidays, absences and a switch from group to private or back.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20love%20a%20free%20coding%20or%20AI%20trial%20lesson.%20We%20are%20in%20Kirkby.)Reviews
+
+## Merseyside families and learners across the UK, reviewing us on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Ask for a free Kirkby lesson
+
+Send us an age or school year and one of the learner's interests. A trial could be a string-and-squares puzzle, a Scratch game built with AI, a first Python program, or a first shape measured in code.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Kirkby one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20love%20a%20free%20coding%20or%20AI%20trial%20lesson.%20We%20are%20in%20Kirkby.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Kirkby FAQs
+
+The shape project, compactness, coding, vibe coding and lesson details.
 
 ### What is the population of Kirkby?
 
@@ -192,10 +310,14 @@ The first lesson is free. After that, a group costs USD 100 per month and privat
 
 Only if you want them to. Tell us the dates and we pause.
 
+In the area
+
 ## More Merseyside and North West pages
 
 See [Huyton with Roby](/vibe-coding-and-ai-agents-classes-in-huyton-with-roby), [St Helens](/best-coding-and-ai-classes-in-st-helens), [Southport](/best-coding-and-ai-classes-in-southport) and [Liverpool](/best-coding-class-in-liverpool). The [North West page](/coding-and-ai-classes-in-north-west-england) and the [UK hub](/coding-classes-in-united-kingdom) list the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[WhatsApp the team](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20would%20love%20a%20free%20coding%20or%20AI%20trial%20lesson.%20We%20are%20in%20Kirkby.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-and-ai-classes-in-kirkby](https://learn.modernagecoders.com/best-coding-and-ai-classes-in-kirkby#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-kirkby*

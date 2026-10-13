@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths lessons for Bangor learne
 canonical: https://learn.modernagecoders.com/best-coding-class-in-bangor-wales
 source: src/pages/best-coding-class-in-bangor-wales.html
 ---
-> Gwynedd, the county that includes Bangor, had 117,393 usual residents at the 2021 census, and in the Bangor City area 60.7% of residents aged five and over were students. Menai Heritage records that Thomas Telford's suspension bridge over the Menai Strait was completed on 30 January 1826. Bangor learners aged six to sixty-seven join our teachers in India on live video, one to one or in a group of fifteen to twenty at the same level, at hours arranged around the Welsh school and working day. Lesson one costs nothing; from then on, families pay USD 100 a month for a group place or USD 150 for a teacher to themselves.
+> Live online coding, Python, AI and maths lessons for Bangor learners aged 6 to 67, from Hirael and Maesgeirchen to Bethesda. The first lesson is completely free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Bangor
-
-Bangor, Wales / Live online
-
-# Coding classes in Bangor, Wales
-
-**What are the best coding classes in Bangor, Wales?** Gwynedd, the county that includes Bangor, had 117,393 usual residents at the 2021 census, and in the Bangor City area 60.7% of residents aged five and over were students. Menai Heritage records that Thomas Telford's suspension bridge over the Menai Strait was completed on 30 January 1826. Bangor learners aged six to sixty-seven join our teachers in India on live video, one to one or in a group of fifteen to twenty at the same level, at hours arranged around the Welsh school and working day. Lesson one costs nothing; from then on, families pay USD 100 a month for a group place or USD 150 for a teacher to themselves.
-
-Across the Menai Strait from Bangor, the Met Office station at Valley on Anglesey has counted hours of sunshine every month since the 1930s. In November 2001 it swapped its Campbell-Stokes sunshine recorder for an automatic Kipp and Zonen sensor. The record shows fewer sunny hours afterwards. Did Anglesey get duller, or did the new instrument simply count differently? Our teenagers use regression discontinuity: fit a line to the months just before the switch and another to the months just after, and measure the step between them. At every width they try, the step is downward, from 10.8 to 19.5 hours a month. Then they test whether an ordinary month could produce a step that big.
-
-Facts last verified 23 September 2026. Teaching is online; no Bangor branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Bangor
 
 ## Four courses for the city on the Strait
 
 Match the course to the learner's interests: each of these four opens with a free live lesson, and you can book it without giving any payment details.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 12): Block programming for younger children, a first step towards experiments that change one thing and measure what happens.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Python from first lines to full projects, enough to read ninety-five years of weather records and test for a break in them.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 18): Statistics on real data in Python, including how to tell a real change from a change in the way something was measured.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (University and adult): Python for adults who compare figures before and after a change at work, and need to know whether the change caused anything.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 12Scratch Coding for KidsBlock programming for younger children, a first step towards experiments that change one thing and measure what happens.See the syllabus](/courses/scratch-programming-complete-course)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensPython from first lines to full projects, enough to read ninety-five years of weather records and test for a break in them.See the syllabus](/courses/python-complete-masterclass-teens)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 18Data Science for TeensStatistics on real data in Python, including how to tell a real change from a change in the way something was measured.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Python Automation Course course thumbnail](/images/python-college.webp)University and adultPython Automation CoursePython for adults who compare figures before and after a change at work, and need to know whether the change caused anything.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Bangor today
 
 ## A student city in a spacious county
 
 Census 2021 figures for Gwynedd and for the two middle-layer areas the House of Commons Library names Bangor City and Bangor South, from the Office for National Statistics on Nomis.
 
-**Gwynedd and Bangor, Census 2021**
-
 | Area | Usual residents | Students among those aged 5 and over | Residents per square kilometre |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Gwynedd | 117,393 | 21.4% | 46.3 |
 | Bangor City | 8,615 | 60.7% | 3,111.9 |
 | Bangor South | 8,377 | 26.9% | 1,265.2 |
@@ -63,6 +49,8 @@ At 46.3 residents per square kilometre, Gwynedd is far more thinly settled than 
 
 Our Bangor groups draw on the city and the villages around it. One evening might bring together a Maesgeirchen eight-year-old on a first game, a Bangor Year 11 student working towards WJEC GCSE Computer Science and a Tregarth parent picking up Python for the office, each in a small group at their own pace.
 
+The Menai Strait
+
 ## A bridge that joined Anglesey to the mainland
 
 From Menai Heritage, the trust that records the bridges over the Menai Strait.
@@ -81,16 +69,18 @@ A second crossing followed, the Britannia Bridge engineered by Robert Stephenson
 
 Menai Heritage describes Telford's bridge as the biggest suspension bridge in the world at the time. We have no connection with Menai Heritage, Gwynedd Council or the Met Office. The bridges are on this page because the Valley weather station stands on Anglesey, the island they reach, and because a bridge, like a new instrument, changes what happens on one side of a line and not the other.
 
-**Where the sunshine data comes from** The Met Office publishes historic station data for Valley, 10 metres above sea level on Anglesey, with monthly sunshine totals. It marks hours measured by the automatic Kipp and Zonen sensor with a # and says the rest came from a Campbell-Stokes recorder.
+Where the sunshine data comes from
+
+The Met Office publishes historic station data for Valley, 10 metres above sea level on Anglesey, with monthly sunshine totals. It marks hours measured by the automatic Kipp and Zonen sensor with a # and says the rest came from a Campbell-Stokes recorder.
+
+Signature project
 
 ## Did the sunshine change, or did the instrument?
 
 Regression discontinuity looks for a sudden step at a known cut-off. Fit a trend on each side of the cut, using only months close to it, and measure the gap where the two lines meet the cut.
 
-**Valley, Anglesey: step in monthly sunshine (hours above or below that month's usual level) at the November 2001 switch to an automatic sensor**
-
 | Months used on each side | Step at the switch |
-|---|---|
+| --- | --- |
 | 36 | -17.2 hours a month |
 | 60 | -18.1 hours a month |
 | 84 | -10.8 hours a month |
@@ -114,14 +104,14 @@ We repeated the fit at 908 other months where nothing changed, placebo cut-offs,
 
 A plain before-and-after average tells a similar but blunter story: sunshine was 3.9 hours a month above normal in the five years before the switch and 7.0 below it in the five years after. The regression discontinuity is better because it looks only at the months nearest the change and allows for any slow trend, and the placebo test says honestly how surprising the step is.
 
+Breaks in records
+
 ## Five questions before blaming a change
 
 Learned on Anglesey's sunshine, then used for policy changes, new school rules, price changes, software releases and any record where the method of measuring changed.
 
-**Decisions behind a regression discontinuity**
-
 | Question | For Valley's sunshine | What goes wrong if you skip it |
-|---|---|---|
+| --- | --- | --- |
 | Is the cut-off known in advance? | Yes: the file marks the switch | Hunting for the month with the biggest step |
 | How many months each side? | 36, 60, 84 and 120, all reported | A width chosen for the answer it gives |
 | What about seasons and trends? | Monthly averages removed, lines fitted | A slow trend mistaken for a step |
@@ -144,14 +134,37 @@ Judging the effect of a change at work, with the cut-off fixed in advance and ch
 
 We are not connected with the Met Office, Menai Heritage or Gwynedd Council. The station data and census tables are published openly; the anomalies, fits and placebo tests on this page are our own analysis.
 
+Learning ladder
+
 ## From two rulers to regression discontinuity
 
 Ages are only approximate here; the free lesson tells us which rung a learner is really on.
 
-- **Ages 6 to 10: Measuring fairly** Measuring with different tools and noticing when the tool, not the thing, has changed the answer. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 11 to 13: Before and after** Comparing averages before and after a change in Python, and asking what else might explain the difference. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Discontinuity designs** Local lines either side of a cut-off, bandwidth checks and placebo tests on real Met Office records. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Changes at work** Measuring whether a new policy or system really changed anything, with fair comparisons and stated limits. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data Science Course](/courses/data-science-complete-masterclass-college)
+Ages 6 to 10
+
+### Measuring fairly
+
+Measuring with different tools and noticing when the tool, not the thing, has changed the answer.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 11 to 13
+
+### Before and after
+
+Comparing averages before and after a change in Python, and asking what else might explain the difference.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Discontinuity designs
+
+Local lines either side of a cut-off, bandwidth checks and placebo tests on real Met Office records.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Changes at work
+
+Measuring whether a new policy or system really changed anything, with fair comparisons and stated limits.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data Science Course](/courses/data-science-complete-masterclass-college)Coding and AI
 
 ## AI models learn from long records. Why should a Bangor teenager hunt for a break in one?
 
@@ -163,30 +176,139 @@ Regression discontinuity is also one of the most respected ways to measure cause
 
 So a Bangor teenager should keep learning to code in 2026, beside a strait that Telford bridged two centuries ago: data will keep pouring in, but someone has to notice when the way it was measured changed. The longer argument is in [why coding is worth learning in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Hirael, Maesgeirchen or Bethesda, and no trip across the Strait
 
 Bangor sits between the mountains and the Menai Strait, with villages up the valleys and across the water. Online, each of them is equally close to the lesson.
 
-- **City, valley and island** A learner in Glasinfryn and another in Porthaethwy can share a class without anyone crossing a bridge.
-- **Welsh school years** We follow Welsh school years, the Curriculum for Wales and WJEC GCSE and A level course names; every lesson is taught in English.
-- **The free lesson teaches** The first session works through a real task and ends with our suggested level, course and weekly slot. We do not take card details.
-- **Classes by stage** Fifteen to twenty learners working at one level, from Bangor, the rest of the UK and abroad, so every stage has sensible times.
-- **Two lessons weekly** Two fixed lessons each week, about eight a month, with half terms and exam weeks planned with the teacher in advance.
-- **Evenings across time zones** At 5 pm in Bangor it is 9.30 pm for our teachers in India in summer and 10.30 pm in winter, as India keeps a single time all year; they arrange their evenings around families here.
+### City, valley and island
 
-**Across North Wales** Families in Caernarfon, Llandudno, Holyhead or Conwy join exactly the same groups, since every lesson is online and groups are set by level.
+A learner in Glasinfryn and another in Porthaethwy can share a class without anyone crossing a bridge.
+
+### Welsh school years
+
+We follow Welsh school years, the Curriculum for Wales and WJEC GCSE and A level course names; every lesson is taught in English.
+
+### The free lesson teaches
+
+The first session works through a real task and ends with our suggested level, course and weekly slot. We do not take card details.
+
+### Classes by stage
+
+Fifteen to twenty learners working at one level, from Bangor, the rest of the UK and abroad, so every stage has sensible times.
+
+### Two lessons weekly
+
+Two fixed lessons each week, about eight a month, with half terms and exam weeks planned with the teacher in advance.
+
+### Evenings across time zones
+
+At 5 pm in Bangor it is 9.30 pm for our teachers in India in summer and 10.30 pm in winter, as India keeps a single time all year; they arrange their evenings around families here.
+
+Across North Wales
+
+Families in Caernarfon, Llandudno, Holyhead or Conwy join exactly the same groups, since every lesson is online and groups are set by level.
+
+Fees
 
 ## Bangor lesson fees
 
 Nothing to pay for lesson one, then a single fee each month.
 
-- First class: USD 0. A full lesson free of charge, ending with advice on level, course and a weekly time.
-- Group tuition: USD 100 a month. Around eight live lessons a month, in a group of fifteen to twenty learners at the same stage.
-- Private tuition: USD 150 a month. Around eight live lessons a month, with the teacher focused only on your learner.
+First class**USD 0**
+
+A full lesson free of charge, ending with advice on level, course and a weekly time.
+
+Group tuition**USD 100**
+
+Around eight live lessons a month, in a group of fifteen to twenty learners at the same stage.
+
+Private tuition**USD 150**
+
+Around eight live lessons a month, with the teacher focused only on your learner.
 
 Families in Y Felinheli or Llandygai are billed in US dollars, like every family outside India, and our site shows no pound prices. We only start charging after the free lesson, when you have picked a course and a regular time together with us; how pausing, missed lessons and moving between a group and private teaching work is all laid out on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Bangor%2C%20Wales.)Reviews
+
+## Six families' Google reviews, as they wrote them
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson for a Bangor learner
+
+What we teach first depends on who is learning: a two-rulers measuring game for a young child, a short Python program comparing averages before and after a change for a beginner, or the Valley sunshine record and a regression discontinuity for a teenager ready for real data.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Bangor one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Bangor%2C%20Wales.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Bangor coding class questions
+
+What Bangor families ask us most often.
 
 ### How many people live in and around Bangor?
 
@@ -228,10 +350,14 @@ The first lesson is free. After it, a group place is USD 100 a month for two liv
 
 By level, pace and goals rather than age or where they live, with fifteen to twenty learners at the same stage. If no group suits the learner's week, we offer one-to-one lessons.
 
+Explore Wales and the UK
+
 ## Wales and beyond
 
 In the south, the [Swansea page](/best-coding-class-in-swansea) hunts for the moment roadside air changed without knowing when, and [Newport](/best-coding-class-in-newport-wales) compares traffic before and after the Severn tolls ended. Learners taking [WJEC GCSE Computer Science](/wjec-gcse-computer-science-help-wales) or [WJEC GCSE Digital Technology](/wjec-gcse-digital-technology-help-wales) have their own pages. For how our levels line up with Welsh schooling, see the [Wales guide](/coding-and-ai-classes-in-wales); the [UK coding page](/coding-classes-in-united-kingdom) leads on to every other city.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Bangor%2C%20Wales.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-bangor-wales](https://learn.modernagecoders.com/best-coding-class-in-bangor-wales#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-bangor-wales*

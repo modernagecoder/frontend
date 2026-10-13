@@ -4,25 +4,21 @@ description: "Python classes online for UK learners of every age, taught live ag
 canonical: https://learn.modernagecoders.com/best-python-classes-online-uk
 source: src/pages/best-python-classes-online-uk.html
 ---
-> Python became the default language of British school computing without anybody legislating for it. Wales names it in the rules of its new GCSE. Northern Ireland permits it alongside Java and C#. In England the boards choose, and one of them, Pearson Edexcel, adopted Python as what it calls the vehicle for the whole qualification and then published a Programming Language Subset stating which parts of Python 3 its on-screen paper will use, with a written commitment not to exceed it. Knowing that list exists is useful. Building a year of teaching around only that list is not, because the subset is a floor and every interesting problem sits above it. We teach Python live online to learners from about ten upwards, in groups of fifteen to twenty at one level or one to one. The first lesson is free; after that it is USD 100 a month in a group or USD 150 one to one.
+> Python classes online for UK learners of every age, taught live against what the exam boards actually examine, with a teacher who reads the code. First class free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Python classes, UK
+In short
 
-United Kingdom · Python · Primary school to adult
+Python became the default language of British school computing without anybody legislating for it. Wales names it in the rules of its new GCSE. Northern Ireland permits it alongside Java and C#. In England the boards choose, and one of them, Pearson Edexcel, adopted Python as what it calls the vehicle for the whole qualification and then published a Programming Language Subset stating which parts of Python 3 its on-screen paper will use, with a written commitment not to exceed it. Knowing that list exists is useful. Building a year of teaching around only that list is not, because the subset is a floor and every interesting problem sits above it. We teach Python live online to learners from about ten upwards, in groups of fifteen to twenty at one level or one to one. The first lesson is free; after that it is USD 100 a month in a group or USD 150 one to one.
 
-# Best Python classes online in the UK
-
-Here is something most UK parents never discover. One of the exam boards has published a document that states exactly which parts of Python 3 its practical paper will draw on. It runs to eighteen pages, it names the library modules it will use, and the board commits in writing not to go beyond it. That changes what a Python class for a British learner should look like: there is a known floor, it is public, and the interesting work begins above it rather than inside it. This page sets out what is in that subset, which UK qualifications actually require Python and which merely allow it, and how we teach so that a learner is fluent well past the edges of any published list.
-
-At a glance: Language: Python 3; Ages: About 10 upwards; Level: First program to advanced; Exams: English boards, WJEC, CCEA, Qualifications Scotland; Group: Fifteen to twenty at one level; Or: One to one; Habit: Predict, run, compare; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three Python courses for UK learners
 
 The same language at three different starting points. Each card opens a full syllabus.
 
-- [Python for Younger Learners](/courses/python-ai-kids-masterclass): The first crossing from blocks to a keyboard, usually somewhere between Year 5 and Year 8, taken slowly enough that nothing is guessed at.
-- [Python for Teens](/courses/python-complete-masterclass-teens): The whole language for secondary students, well past whatever subset an exam board has published.
-- [Python for Adults, Zero to Advanced](/courses/python-programming-masterclass-zero-to-advanced-college): A complete route for an adult who has never programmed and wants to end up somewhere genuinely useful.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  PY / 01 Python for Younger Learners The first crossing from blocks to a keyboard, usually somewhere between Year 5 and Year 8, taken slowly enough that nothing is guessed at. Open the syllabus →](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)  PY / 02 Python for Teens The whole language for secondary students, well past whatever subset an exam board has published. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)  PY / 03 Python for Adults, Zero to Advanced A complete route for an adult who has never programmed and wants to end up somewhere genuinely useful. Open the syllabus →](/courses/python-programming-masterclass-zero-to-advanced-college)
+
+The examined subset
 
 ## Eighteen pages that tell you what the paper will use
 
@@ -36,10 +32,8 @@ The paper it governs is unusual in England. Candidates sit it on screen, using "
 
 So the assessment is a person and an IDE and nothing else, which is a fair description of what programming actually is.
 
-**What the subset booklet covers, from its own contents page**
-
 | Area | What is listed |
-|---|---|
+| --- | --- |
 | The basics | Comments, identifiers, primitive data types and conversion, constants, and combining declaration with initialisation |
 | Data | Structured data types and dimensions |
 | Operators | Arithmetic and the rest, set out explicitly |
@@ -50,14 +44,14 @@ The turtle section is the giveaway. Several pages of an eighteen-page booklet ar
 
 Sources, read 20 September 2026: [Pearson Edexcel GCSE (9-1) Computer Science (1CP2)](https://qualifications.pearson.com/en/qualifications/edexcel-gcses/computer-science-2020.html), the specification and the 1CP2/02 Programming Language Subset booklet, version 6.
 
+Who mandates Python
+
 ## Nobody legislated for it, and almost everybody uses it
 
 Four school systems, four different answers, and a language that won without a decision ever being taken nationally.
 
-**Where Python stands in each UK nation**
-
 | Nation | What the rules say | What that means for a learner |
-|---|---|---|
+| --- | --- | --- |
 | Wales | The new Made-for-Wales GCSE names Python in its own rules for the programming examination | No choice, and no ambiguity. See [coding and AI classes in Wales](/coding-and-ai-classes-in-wales) |
 | Northern Ireland | CCEA permits one of three languages in the practical unit | The school picks. See [coding and AI classes in Northern Ireland](/coding-and-ai-classes-in-northern-ireland) |
 | England | The boards decide; Pearson Edexcel adopted Python "as the vehicle" for its whole qualification | Ask which board, then which language. See [coding and AI classes in England](/coding-and-ai-classes-in-england) |
@@ -73,14 +67,14 @@ It has to be signed by a member of the senior leadership team, and failing to se
 
 That single requirement tells a parent something useful. The board considers it a real risk that a school might teach the theory and skimp the programming. If a family wants to know whether their own school is skimping, the honest test is simple: ask the child to show you something they wrote themselves this term.
 
+Past the edges
+
 ## Teaching the language, not the booklet
 
 A published subset is a floor to clear, not a syllabus to sit inside.
 
-**Where our Python teaching goes beyond what any UK subset lists**
-
 | In the exam subsets | What we also teach | Why it matters |
-|---|---|---|
+| --- | --- | --- |
 | Lists and simple structures | Dictionaries used properly, nesting, and choosing the structure before writing the loop | Most real problems are lookups, and a student who only knows lists solves them badly |
 | Reading and writing text files | Structured formats, error handling and what happens when the file is missing | Programs that only work on a perfect day are not programs |
 | Functions and parameters | Modules, imports and writing code that another person can reuse | This is the difference between a script and something worth keeping |
@@ -97,14 +91,14 @@ For adults, the useful first target is usually automating something tedious from
 
 One honest limit. We teach Python, and we teach it well; we do not teach C# and we do not run a Java course aimed at CCEA candidates. If a school has chosen one of those, say so in the free lesson and we will tell you straight whether we are the right fit, because the constructs transfer but the syntax practice does not.
 
+Progression
+
 ## Five steps through Python
 
 The step a learner starts on is decided by what they can already write unaided, not by their age or school year.
 
-**The Python ladder, and what each step looks like finished**
-
 | Step | What is being learnt | What the learner can show |
-|---|---|---|
+| --- | --- | --- |
 | 1. First programs | Input, output, variables and the idea that order matters | A short program written from an empty file, and an error message read rather than feared |
 | 2. Decisions and repetition | Conditions, loops, and when each is the right tool | A program that behaves differently on different input, and a prediction made before running it |
 | 3. Structure | Functions, lists, dictionaries and files | Something long enough to need planning, split into parts that each do one job |
@@ -114,63 +108,293 @@ The step a learner starts on is decided by what they can already write unaided, 
 ### Exams sit around step three
 
 Most UK qualifications assess somewhere between steps two and three, which is why a learner working at step four finds the paper straightforward rather than stressful.
+
 The full topic order past school is on the [coding roadmap](/coding-roadmap).
 
 ### Nobody repeats a step they own
 
 A student who arrives already writing functions starts at step three. Placement follows the work, and the free lesson is where it is decided.
+
 Moving up happens when the evidence in a learner's code says so, not on a fixed schedule.
+
+The catalogue
 
 ## Nine Python and Python-adjacent courses
 
 Grouped by where a learner is when they begin. Every syllabus sits behind its card.
 
+I
+
 ### Learning the language
 
 First programs to full fluency
 
-- [Python for younger learners](/courses/python-ai-kids-masterclass): The move from blocks to a keyboard, with short programs whose results can be seen immediately.
-- [Python for teens, in full](/courses/python-complete-masterclass-teens): The whole language for secondary students, taught by predicting before running.
-- [Python for adults](/courses/python-programming-masterclass-zero-to-advanced-college): A complete beginner route written for people with jobs and limited evenings.
+UK / PY1 / 01
+
+#### Python for younger learners
+
+The move from blocks to a keyboard, with short programs whose results can be seen immediately.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)
+
+UK / PY1 / 02
+
+#### Python for teens, in full
+
+The whole language for secondary students, taught by predicting before running.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+UK / PY1 / 03
+
+#### Python for adults
+
+A complete beginner route written for people with jobs and limited evenings.
+
+[Open the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)II
 
 ### Doing something with it
 
 Data, the web and automation
 
-- [Data science with Python](/courses/data-science-course-for-teens-python-data): Published datasets cleaned, charted and argued with, base lines included.
-- [Web development with Python](/courses/python-web-development-django-flask-course): A working site with data behind it, deployed where other people can use it.
-- [Automation with Python](/courses/python-ai-automation-masterclass-college): The repetitive parts of a real week turned into something that runs on its own.
+UK / PY2 / 01
+
+#### Data science with Python
+
+Published datasets cleaned, charted and argued with, base lines included.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)
+
+UK / PY2 / 02
+
+#### Web development with Python
+
+A working site with data behind it, deployed where other people can use it.
+
+[Open the syllabus](/courses/python-web-development-django-flask-course)
+
+UK / PY2 / 03
+
+#### Automation with Python
+
+The repetitive parts of a real week turned into something that runs on its own.
+
+[Open the syllabus](/courses/python-ai-automation-masterclass-college)III
 
 ### Exams and depth
 
 For candidates and for people going further
 
-- [GCSE Computer Science](/courses/gcse-computer-science-course): Theory and programming taught to whichever board a school has actually chosen.
-- [Algorithms and data structures](/courses/problem-solving-dsa-masterclass-teens): The problems more typing will not solve, worked on paper before any code appears.
-- [Python certification preparation](/courses/pcep-pcap-python-certification-course): For learners who want an independent credential in the language alongside school or work.
+UK / PY3 / 01
+
+#### GCSE Computer Science
+
+Theory and programming taught to whichever board a school has actually chosen.
+
+[Open the syllabus](/courses/gcse-computer-science-course)
+
+UK / PY3 / 02
+
+#### Algorithms and data structures
+
+The problems more typing will not solve, worked on paper before any code appears.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
+
+UK / PY3 / 03
+
+#### Python certification preparation
+
+For learners who want an independent credential in the language alongside school or work.
+
+[Open the syllabus](/courses/pcep-pcap-python-certification-course)
+
+How lessons work
 
 ## One teacher, one slot, and code read every week
 
 Teachers work from India, where the clocks do not move, so the UK is five and a half hours behind in winter and four and a half in summer. Families pick a slot and keep it.
 
-- **After school** The usual choice for school-age learners.
-- **Evening** For sixth formers and for adults once the day is over.
-- **Weekend morning** The right slot for a long build that should not be interrupted.
+After school
 
-- **Predict before you run** Nothing is executed until the learner has said what they expect. It is the fastest way to find out what they actually believe.
-- **Code read by a person** Every week, with reasons. A recorded course cannot tell a learner why their working program is badly built.
-- **Boards named, not guessed** Teachers work to the qualification a school has chosen, whether that is an English board, WJEC, CCEA or Qualifications Scotland, which replaced SQA in February 2026.
-- **AI used openly** Permitted once a learner can predict the answer, and logged: what the tool offered, what was kept, and why.
-- **Groups by level** Fifteen to twenty learners at the same stage, reading each other's code and disagreeing about it.
-- **Work kept publicly** Projects go to the learner's own repository, which is what a school, university or employer can actually open.
+The usual choice for school-age learners.
+
+Evening
+
+For sixth formers and for adults once the day is over.
+
+Weekend morning
+
+The right slot for a long build that should not be interrupted.
+
+### Predict before you run
+
+Nothing is executed until the learner has said what they expect. It is the fastest way to find out what they actually believe.
+
+### Code read by a person
+
+Every week, with reasons. A recorded course cannot tell a learner why their working program is badly built.
+
+### Boards named, not guessed
+
+Teachers work to the qualification a school has chosen, whether that is an English board, WJEC, CCEA or Qualifications Scotland, which replaced SQA in February 2026.
+
+### AI used openly
+
+Permitted once a learner can predict the answer, and logged: what the tool offered, what was kept, and why.
+
+### Groups by level
+
+Fifteen to twenty learners at the same stage, reading each other's code and disagreeing about it.
+
+### Work kept publicly
+
+Projects go to the learner's own repository, which is what a school, university or employer can actually open.
+
+Student work
+
+## Python projects our learners have published
+
+Four examples built in lessons. More are on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## What Python classes cost in the UK
 
 One monthly charge, quoted in US dollars for every family outside India. The free lesson comes first and nothing is taken until a course and a slot are agreed.
 
-- Free first class: USD 0. A full lesson with a teacher. An honest view of the right starting step. No card details requested.
-- Group batch: USD 100 a month. Fifteen to twenty learners at one step. The same teacher throughout. Code read and commented on weekly. A certificate when a course finishes.
-- One to one: USD 150 a month. One teacher and one learner. Planned around exam dates or a specific target. Right for deadlines and for learners well ahead.
+Free first class
+
+USD 0
+
+no card required
+
+- A full lesson with a teacher
+- An honest view of the right starting step
+- No card details requested
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners at one step
+- The same teacher throughout
+- Code read and commented on weekly
+- A certificate when a course finishes
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- One teacher and one learner
+- Planned around exam dates or a specific target
+- Right for deadlines and for learners well ahead
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Lifted from Google word for word. No review here was paid for or requested.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about Python in the UK
 
 ## What UK families ask about Python
 
@@ -214,15 +438,54 @@ It is the usual language for both and it is enough to do well, though at that le
 
 The opening lesson is free. A group place afterwards runs at USD 100 each month, and a teacher to yourself at USD 150, charged month by month with nothing taken in advance.
 
+Elsewhere on this site
+
 ## Related pages
 
-- [Coding classes in the UK](/coding-classes-in-united-kingdom): The national page, and the index of every UK page we publish.
-- [Coding and AI classes in Wales](/coding-and-ai-classes-in-wales): The one UK nation that names Python in its own rules.
-- [Coding and AI classes in Northern Ireland](/coding-and-ai-classes-in-northern-ireland): Where Python is one of three permitted languages and the school chooses.
-- [Coding classes for teens in the UK](/best-coding-classes-for-teens-uk): What Ofcom found about British teenagers and AI this year.
-- [Coding classes for adults in the UK](/best-coding-classes-for-adults-uk): Where the funded routes stop, and what is left.
-- [The coding roadmap](/coding-roadmap): What order topics come in, well past school.
+Each takes one part of this further.
 
-## Contact
+### [Coding classes in the UK](/coding-classes-in-united-kingdom)
 
-Book the free first class at [https://learn.modernagecoders.com/best-python-classes-online-uk](https://learn.modernagecoders.com/best-python-classes-online-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+The national page, and the index of every UK page we publish.
+
+### [Coding and AI classes in Wales](/coding-and-ai-classes-in-wales)
+
+The one UK nation that names Python in its own rules.
+
+### [Coding and AI classes in Northern Ireland](/coding-and-ai-classes-in-northern-ireland)
+
+Where Python is one of three permitted languages and the school chooses.
+
+### [Coding classes for teens in the UK](/best-coding-classes-for-teens-uk)
+
+What Ofcom found about British teenagers and AI this year.
+
+### [Coding classes for adults in the UK](/best-coding-classes-for-adults-uk)
+
+Where the funded routes stop, and what is left.
+
+### [The coding roadmap](/coding-roadmap)
+
+What order topics come in, well past school.
+
+Start here
+
+## Try a Python lesson, free
+
+Leave a number and we will come back at a UK time that suits. The lesson is real teaching on a real problem, and it ends with a straight view of the right starting step.
+
+Happier reading than talking? Each [course page](/courses) carries its own syllabus, [how we teach](/how-we-teach) explains the method and its limits, and the sequence of topics runs down the [coding roadmap](/coding-roadmap).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20first%20Python%20class%20for%20a%20learner%20in%20the%20UK.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+Most people reach us fastest on WhatsApp, which costs a UK mobile nothing. The number is registered in India and we would rather say that up front than have you spot it later.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/best-python-classes-online-uk*

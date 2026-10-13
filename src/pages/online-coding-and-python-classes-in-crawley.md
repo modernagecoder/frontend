@@ -4,46 +4,32 @@ description: "Live online coding, Python and AI classes for Crawley children, te
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-crawley
 source: src/pages/online-coding-and-python-classes-in-crawley.html
 ---
-> The census of 2021 found 118,491 people living in Crawley borough; the ONS built-up area of Crawley, reaching slightly beyond the boundary, holds 120,550. It is a borough of young families: adults in their thirties make up far more of it than in England as a whole, and so do children under ten, while people over 65 are fewer. Anyone from 6 up to 67 can study coding, Python, AI or maths with our India-based tutors in real-time video lessons, privately or in a class of fifteen to twenty sharing one level. A free first lesson picks the course. The Crawley project works with Gatwick Airport's passenger data. Learners who stay on pay USD 100 monthly in a shared class, or USD 150 monthly for solo tuition.
+> Live online coding, Python and AI classes for Crawley children, teenagers and adults aged 6 to 67, in small groups or one-to-one. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [South East England](/coding-and-ai-classes-in-south-east-england) / Crawley
-
-Crawley, West Sussex, England / Live online
-
-# Online coding and Python classes in Crawley
-
-**Which are the best online coding and Python classes in Crawley?** The census of 2021 found 118,491 people living in Crawley borough; the ONS built-up area of Crawley, reaching slightly beyond the boundary, holds 120,550. It is a borough of young families: adults in their thirties make up far more of it than in England as a whole, and so do children under ten, while people over 65 are fewer. Anyone from 6 up to 67 can study coding, Python, AI or maths with our India-based tutors in real-time video lessons, privately or in a class of fifteen to twenty sharing one level. A free first lesson picks the course. The Crawley project works with Gatwick Airport's passenger data. Learners who stay on pay USD 100 monthly in a shared class, or USD 150 monthly for solo tuition.
-
-Gatwick Airport sits inside Crawley borough, and every month the Civil Aviation Authority publishes how many passengers passed through it and how many passenger and cargo flights, which it calls air transport movements, took off or landed. In 2025 the CAA counted 42,769,164 terminal passengers and 259,391 air transport movements at Gatwick. So how many passengers does an average Gatwick flight carry? There are two natural ways to work it out, and they do not agree. The gap is small at one airport and enormous across the country, and understanding why is one of the most useful lessons in handling data. A Crawley learner can find it in Python with twelve monthly spreadsheets.
-
-Facts last verified 27 September 2026. Teaching is online; no Crawley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCrawley course picks
 
 ## Courses Crawley learners start with
 
 Pick one that suits the learner's age. Every course begins with a free live lesson, booked without a card.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 9): Block coding with planes, timetables and counting games.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 9 to 12): A first typed language and friendly AI experiments.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Full Python for teenagers, including the Gatwick averages project.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Adults and students): Python for adults from scratch, on to spreadsheets and data.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 9Coding for KidsBlock coding with planes, timetables and counting games.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 9 to 12Python and AI for KidsA first typed language and friendly AI experiments.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensFull Python for teenagers, including the Gatwick averages project.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)Adults and studentsPython MasterclassPython for adults from scratch, on to spreadsheets and data.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Crawley by age
 
 ## Thirty-somethings and their children
 
 Census table TS007A (2021) for Crawley borough, taken from Nomis and compared with England.
 
-**Crawley borough and England, six age bands, Census 2021 TS007A**
-
 | Ages | Crawley residents | Crawley % | England % |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Under 5 | 7,639 | 6.4% | 5.4% |
 | 5 to 9 | 8,076 | 6.8% | 5.9% |
 | 30 to 34 | 9,996 | 8.4% | 7.0% |
@@ -57,16 +43,16 @@ Adults in their thirties and young children stand well above the England share, 
 
 The [West Sussex](/coding-classes-in-west-sussex) page covers the county, and the [South East](/coding-and-ai-classes-in-south-east-england) page links the region.
 
+The Crawley project
+
 ## Passengers per flight at Gatwick
 
 A mean of ratios is not the same as a ratio of totals.
 
 The learner downloads twelve monthly files from the Civil Aviation Authority, keeping the Gatwick row of Table 03 for air transport movements and Table 09 for terminal passengers. Dividing one by the other month by month gives passengers per movement: 157.6 in January, the lowest, rising to 177.6 in August, the highest, at the summer peak. The obvious next step is to average those twelve monthly figures. Python returns 164.13.
 
-**Our Python results from CAA airport data, 2025**
-
 | Calculation | Result | What it weights |
-|---|---|---|
+| --- | --- | --- |
 | Mean of 12 monthly ratios, Gatwick | 164.13 | Every month equally |
 | Annual passengers divided by annual movements, Gatwick | 164.88 | Every flight equally |
 | Mean of 45 airport ratios, UK, July | 81.6 | Every airport equally |
@@ -93,14 +79,14 @@ Repeat across all UK airports, explain the weighting, and write tests for both f
 
 The monthly and annual figures come from the Civil Aviation Authority's UK airport data, and the airport position from OurAirports. The ratios and averages are our own calculations.
 
+Why Gatwick
+
 ## An airport inside the borough
 
 Gatwick in the CAA's 2025 figures.
 
-**Gatwick in 2025, Civil Aviation Authority UK airport data**
-
 | Figure | Value |
-|---|---|
+| --- | --- |
 | Terminal passengers, 2025 | 42,769,164 |
 | Air transport movements, 2025 | 259,391 |
 | Busiest month for passengers | August, 4,661,770 |
@@ -112,14 +98,37 @@ Weighting is everywhere once you look. School league tables, app store star rati
 
 Modern Age Coders is not connected with the Civil Aviation Authority, Gatwick Airport, OurAirports or the ONS. The figures are theirs; the averages, and any mistake in them, are ours.
 
+Stages by year
+
 ## From class averages to real datasets
 
 Treat the year labels loosely; placement follows the free lesson.
 
-- **Years 1 to 4: Counting and blocks** Block coding with scores, counts and simple averages. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 5 to 8: Python and tables** Lists, division and reading data files in Python. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Years 9 to 13: Statistics and AI** Weighted averages, data and AI beside GCSE and A level. [Python for Teens](/courses/python-complete-masterclass-teens), [High School Mathematics](/courses/complete-high-school-mathematics-mastery)
-- **Adults: Data at work** Adult Python and data analysis. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Years 1 to 4
+
+### Counting and blocks
+
+Block coding with scores, counts and simple averages.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 5 to 8
+
+### Python and tables
+
+Lists, division and reading data files in Python.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Years 9 to 13
+
+### Statistics and AI
+
+Weighted averages, data and AI beside GCSE and A level.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[High School Mathematics](/courses/complete-high-school-mathematics-mastery)Adults
+
+### Data at work
+
+Adult Python and data analysis.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)AI and averages
 
 ## Does an AI know which average you need?
 
@@ -131,30 +140,139 @@ A Crawley learner who has compared 81.6 with 150.6 knows to ask what each averag
 
 Choosing the average that fits the question is precisely why coding still repays Crawley teenagers in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Lesson details
+
 ## Across Crawley, live online
 
 Every neighbourhood in the borough joins by video.
 
-- **Code by the student** Learners type every line; the tutor follows the shared screen and asks questions rather than taking over.
-- **A start that fits** Whether in Year 3 or Year 12, the starting point comes from school year plus what the trial shows, and the correct exam board is used.
-- **No-cost first lesson** The trial is free and ends with honest advice.
-- **Level-matched groups** Classes of fifteen to twenty UK learners at the same stage.
-- **Two lessons weekly** Twice a week in term time; holidays left free.
-- **Fixed hour** UK clock changes are handled by our teachers, so your time stays the same.
+### Code by the student
 
-**Why the groups are online** Five Crawley learners at one stage, all free at the same hour, seldom live close together. Online groups solve it.
+Learners type every line; the tutor follows the shared screen and asks questions rather than taking over.
+
+### A start that fits
+
+Whether in Year 3 or Year 12, the starting point comes from school year plus what the trial shows, and the correct exam board is used.
+
+### No-cost first lesson
+
+The trial is free and ends with honest advice.
+
+### Level-matched groups
+
+Classes of fifteen to twenty UK learners at the same stage.
+
+### Two lessons weekly
+
+Twice a week in term time; holidays left free.
+
+### Fixed hour
+
+UK clock changes are handled by our teachers, so your time stays the same.
+
+Why the groups are online
+
+Five Crawley learners at one stage, all free at the same hour, seldom live close together. Online groups solve it.
+
+Fees
 
 ## Crawley fees
 
 Crawley families pay the same fee as every family outside India.
 
-- First class: USD 0. A full free lesson with a clear course recommendation.
-- Group tuition: USD 100 a month. About eight live small-group lessons a month.
-- Private tuition: USD 150 a month. About eight live private lessons a month.
+First class**USD 0**
+
+A full free lesson with a clear course recommendation.
+
+Group tuition**USD 100**
+
+About eight live small-group lessons a month.
+
+Private tuition**USD 150**
+
+About eight live private lessons a month.
 
 All prices are in US dollars rather than sterling. We send no invoice before the free lesson has matched the learner to a course and a regular time. Holidays, missed sessions and changing between shared and private lessons are all described on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20book%20a%20free%20online%20coding%20or%20Python%20lesson%20for%20a%20Crawley%20learner.)Reviews
+
+## Parents and students on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Crawley lesson
+
+Send an age or school year and something the learner is into. A trial could be a Scratch airport game, a first Python script, an AI project, or the Gatwick averages puzzle.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Crawley one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20book%20a%20free%20online%20coding%20or%20Python%20lesson%20for%20a%20Crawley%20learner.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Crawley questions
+
+The town, the Gatwick project and practical points.
 
 ### What is the population of Crawley?
 
@@ -196,10 +314,14 @@ Nothing for the trial; after it, USD 100 per month buys a group place and USD 15
 
 They stop for the break once you give us the dates.
 
+Nearby
+
 ## More pages near Crawley
 
 The [West Sussex](/coding-classes-in-west-sussex) page covers the county, [Guildford](/ai-and-programming-classes-in-guildford) solves a Lewis Carroll logic puzzle, and the [South East](/coding-and-ai-classes-in-south-east-england) page lists the region. The [UK hub](/coding-classes-in-united-kingdom) links every page.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20please%20book%20a%20free%20online%20coding%20or%20Python%20lesson%20for%20a%20Crawley%20learner.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/online-coding-and-python-classes-in-crawley](https://learn.modernagecoders.com/online-coding-and-python-classes-in-crawley#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-crawley*

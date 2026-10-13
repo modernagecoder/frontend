@@ -4,46 +4,32 @@ description: "Live online coding, Python and maths classes across Midlothian, fr
 canonical: https://learn.modernagecoders.com/coding-classes-in-midlothian
 source: src/pages/coding-classes-in-midlothian.html
 ---
-> Midlothian is a council area of about 96,600 residents in roughly 41,000 households, according to the 2022 census, with 273.1 people per square kilometre. Its biggest towns are Bonnyrigg, Penicuik and Dalkeith, followed by Mayfield, Gorebridge and Loanhead, and it includes villages such as Roslin and Rosewell. We teach online in real time from India, and a free first lesson shows where each person should start, whether in P1, S6 or adult life. People aged 6 to 67 learn coding, Python and maths with us, either with a teacher of their own or with fifteen to twenty classmates. The Midlothian project comes from a pair of carved sundials at Newbattle. Continuing costs USD 100 a month in a group or USD 150 a month with a teacher to yourself.
+> Live online coding, Python and maths classes across Midlothian, from Bonnyrigg, Penicuik and Dalkeith to Mayfield, Gorebridge, Loanhead and Roslin.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / Midlothian
-
-Midlothian / Live online
-
-# Coding classes in Midlothian
-
-**What are the best coding classes in Midlothian?** Midlothian is a council area of about 96,600 residents in roughly 41,000 households, according to the 2022 census, with 273.1 people per square kilometre. Its biggest towns are Bonnyrigg, Penicuik and Dalkeith, followed by Mayfield, Gorebridge and Loanhead, and it includes villages such as Roslin and Rosewell. We teach online in real time from India, and a free first lesson shows where each person should start, whether in P1, S6 or adult life. People aged 6 to 67 learn coding, Python and maths with us, either with a teacher of their own or with fifteen to twenty classmates. The Midlothian project comes from a pair of carved sundials at Newbattle. Continuing costs USD 100 a month in a group or USD 150 a month with a teacher to yourself.
-
-In the grounds of Newbattle Abbey stand two identical sundials, each dated 1635 and each listed at Category A by Historic Environment Scotland. The listing describes them as octagonal, carved in two tiers, with a bronze gnomon, the part that casts the shadow, in each panel of the lower tier. Why would anyone build a sundial with eight faces? Because the sun does not stay in the south. On a summer morning it rises in the north-east and sets in the north-west, so a single south-facing dial sits in its own shadow for hours. This page's project turns the sun into a vector in Python and works out, minute by minute, which faces of an eight-sided dial are in sunshine.
-
-Facts last verified 26 September 2026. Teaching is online; no Midlothian branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Midlothian
 
 ## Four starting points in Midlothian
 
 A P2 pupil in Bonnyrigg who likes shadows, a P6 in Penicuik ready to type code, an S4 in Dalkeith heading for National 5 Maths, and an adult in Loanhead learning Python. Each starts with a free lesson.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 12): Block coding with moving sprites, directions and turns measured in degrees.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): Angles, coordinates and trigonometry made concrete by coding them.
-- [High School Mathematics](/courses/complete-high-school-mathematics-mastery) (Ages 14 to 18): Secondary maths in depth, including vectors and the trigonometry of the sun.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Adults): Python for adults from the first program to scientific and data scripts.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 12Coding for KidsBlock coding with moving sprites, directions and turns measured in degrees.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingAngles, coordinates and trigonometry made concrete by coding them.See the syllabus](/courses/maths-through-coding)[![High School Mathematics course thumbnail](/images/high-school-maths.webp)Ages 14 to 18High School MathematicsSecondary maths in depth, including vectors and the trigonometry of the sun.See the syllabus](/courses/complete-high-school-mathematics-mastery)[![Python Masterclass course thumbnail](/images/python-college.webp)AdultsPython MasterclassPython for adults from the first program to scientific and data scripts.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Midlothian figures
 
 ## About 96,600 people in Midlothian
 
 The council total is a rounded first result from the 2022 census, published by National Records of Scotland. Town figures are separate NRS estimates for mid-2020.
 
-**Midlothian localities above 1,400 people, NRS mid-2020 estimates**
-
 | Locality | Residents | Locality | Residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Bonnyrigg | 18,320 | Loanhead | 6,820 |
 | Penicuik | 16,150 | Danderhall | 3,160 |
 | Dalkeith | 14,330 | Rosewell | 2,020 |
@@ -56,16 +42,16 @@ Midlothian has 273.1 residents per square kilometre, nearly four times Scotland'
 
 The capital has its own page, [Edinburgh](/best-coding-class-in-edinburgh). For qualifications, see [National 5 Maths](/national-5-maths-tuition-online) and [Higher Computing Science](/higher-computing-science-help).
 
+The Midlothian project
+
 ## Eight faces, one sun, a dot product
 
 Where is the sun, and which way does each face look?
 
 First the learner finds where Newbattle is. The listing gives an Ordnance Survey grid reference, and a standard formula converts it to latitude: about 55.9 degrees north. Next comes the sun. For any date and any hour of solar time, a few lines of trigonometry give the sun's direction as an arrow of length one, with parts pointing east, north and up. Each face of the dial is given its own arrow, pointing straight out from the stone. We assume the eight faces point north, north-east and so on round the compass; the listing does not say. A face can only catch the sun if the sun is above the horizon and in front of it, which the dot product of the two arrows tests: positive means lit.
 
-**Our model, hours of sunshine on each face of an eight-sided dial at Newbattle, 26 September 2026**
-
 | Face | Midsummer | Equinox | Midwinter |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | North | 7.6 | 0 | 0 |
 | North-east and north-west | 6.8 each | 3.4 each | 0 |
 | East and west | 8.7 each | 6.0 each | 3.3 and 3.4 |
@@ -93,14 +79,14 @@ Build the vectors, use the dot product to test each face, convert the grid refer
 
 The dates, carving and paired dials come from the Historic Environment Scotland listings. The face directions are our assumption, and every hour and angle in the table comes from our own program, not from observing the stones.
 
+Why Newbattle
+
 ## Two carved sundials from 1635
 
 The Midlothian anchor, as its listings record it.
 
-**Newbattle Abbey Policies, North Sundial (LB14562) and South Sundial (LB14563)**
-
 | Listing detail | What it records |
-|---|---|
+| --- | --- |
 | Category | A, both dials, added 1971 |
 | Date | 1635, carved on the pedestal as A.D 1635 |
 | Form | Octagonal sandstone dial, carved in two tiers, on a 19th century pedestal |
@@ -112,14 +98,37 @@ The arithmetic in this project is the same that decides where solar panels go, h
 
 Historic Environment Scotland and Midlothian Council have no connection with us. The listing details are theirs; the sun model, the assumed orientation and any mistakes are ours.
 
+Learning path
+
 ## From torchlight to vectors
 
 Stage is a hint, not a rule. The free lesson sets the level.
 
-- **P1 to P4: Directions and turns** Block coding that moves and turns sprites by angles. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **P5 to S2: Angles in Python** Typed Python with coordinates, angles and simple charts. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **S3 to S6: Vectors and trigonometry** Vector maths and larger programs beside National 5, Higher and Advanced Higher Maths. [High School Mathematics](/courses/complete-high-school-mathematics-mastery), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Science in code** Python for adults, including calculations, data and graphics. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+P1 to P4
+
+### Directions and turns
+
+Block coding that moves and turns sprites by angles.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)P5 to S2
+
+### Angles in Python
+
+Typed Python with coordinates, angles and simple charts.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)S3 to S6
+
+### Vectors and trigonometry
+
+Vector maths and larger programs beside National 5, Higher and Advanced Higher Maths.
+
+[High School Mathematics](/courses/complete-high-school-mathematics-mastery)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Science in code
+
+Python for adults, including calculations, data and graphics.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)AI and assumptions
 
 ## An AI can compute sun angles in seconds. Will it question the south-facing assumption?
 
@@ -131,30 +140,139 @@ A Midlothian learner who has watched the north face light up at dawn knows to te
 
 So a Midlothian teenager should still learn to code in 2026, because testing an assumption is harder, and more valuable, than running a formula. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Lessons that reach Penicuik and Gorebridge
 
 Whether in a Midlothian town or village, learners join from home.
 
-- **A shared screen** The learner writes and runs the code; the teacher sees it live and steps in when something breaks.
-- **Scottish stages spoken** P5, S2, National 5, Higher, Advanced Higher: the same words Midlothian schools use, and teaching in English.
-- **No-cost first lesson** A full lesson, free. Afterwards we recommend a stage and a course, with no obligation.
-- **Fifteen to twenty per group** Every group works at one stage, with classmates from several countries.
-- **Term time only** Two lessons a week during term, and none in the school holidays.
-- **Steady UK time** Lessons keep their UK time through the clock changes; teachers in India time take care of the difference.
+### A shared screen
 
-**Why groups are not local** Five Midlothian learners at one stage, free at the same hour, are hard to gather even in Bonnyrigg. Grouping by level across a wider pool gives a learner in Danderhall or Rosewell a well-matched class.
+The learner writes and runs the code; the teacher sees it live and steps in when something breaks.
+
+### Scottish stages spoken
+
+P5, S2, National 5, Higher, Advanced Higher: the same words Midlothian schools use, and teaching in English.
+
+### No-cost first lesson
+
+A full lesson, free. Afterwards we recommend a stage and a course, with no obligation.
+
+### Fifteen to twenty per group
+
+Every group works at one stage, with classmates from several countries.
+
+### Term time only
+
+Two lessons a week during term, and none in the school holidays.
+
+### Steady UK time
+
+Lessons keep their UK time through the clock changes; teachers in India time take care of the difference.
+
+Why groups are not local
+
+Five Midlothian learners at one stage, free at the same hour, are hard to gather even in Bonnyrigg. Grouping by level across a wider pool gives a learner in Danderhall or Rosewell a well-matched class.
+
+Fees
 
 ## Fees in Midlothian
 
 Dalkeith or Roslin, the fee is the same, and it matches our fee in every country except India.
 
-- First class: USD 0. One whole lesson for nothing, then our honest advice.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty.
-- Private tuition: USD 150 a month. About eight lessons a month, one-to-one.
+First class**USD 0**
+
+One whole lesson for nothing, then our honest advice.
+
+Group tuition**USD 100**
+
+About eight lessons a month in a group of fifteen to twenty.
+
+Private tuition**USD 150**
+
+About eight lessons a month, one-to-one.
 
 Fees are charged in US dollars, with no sterling price list. Nothing is billed until a course and a weekly time are agreed after the free lesson; the pricing page sets out holidays, missed lessons and switching between formats.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Midlothian%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Reviews
+
+## Midlothian families and others on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Midlothian lesson
+
+Share who is learning, how old they are or which stage they are in, and what grabs their attention. A first lesson could be a Scratch game, a Python chart, or the eight-sided sundial on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Midlothian one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Midlothian%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Midlothian questions
+
+Figures, the sundial project, and how lessons run.
 
 ### How many people live in Midlothian?
 
@@ -196,10 +314,14 @@ Lesson one costs nothing. From then on, a group place is USD 100 a month and one
 
 We do. Send the holiday dates your Midlothian school has given you and we stop for those weeks.
 
+Nearby pages
+
 ## Around Midlothian
 
 See [Edinburgh](/best-coding-class-in-edinburgh) and [East Lothian](/coding-classes-in-east-lothian), which has a Bass Rock project, or browse all councils on the [Scotland](/coding-and-ai-classes-in-scotland) page. The [UK hub](/coding-classes-in-united-kingdom) covers everywhere else.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Midlothian%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-midlothian](https://learn.modernagecoders.com/coding-classes-in-midlothian#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-midlothian*

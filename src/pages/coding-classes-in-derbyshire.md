@@ -4,46 +4,32 @@ description: "Live online coding, Python, maths and automation classes across De
 canonical: https://learn.modernagecoders.com/coding-classes-in-derbyshire
 source: src/pages/coding-classes-in-derbyshire.html
 ---
-> Derbyshire is Derby plus eight districts, 1,055,996 people at the 2021 Census. Derby's built-up area is the largest place by far, spilling into two neighbouring districts, followed by Chesterfield, then the Erewash towns of Ilkeston and Long Eaton, Swadlincote in the south, and the Peak towns of Buxton, Glossop and Matlock. We teach every one of them the same way: a teacher in India teaches live over video, learners are grouped by what they can already do rather than by age, and we welcome everyone from 6 to 67 in groups of fifteen to twenty or one to one. On offer are programming, Python, maths, automation and AI. The Derbyshire project begins in the Derwent Valley mills. There is no charge for the first lesson; group lessons then cost USD 100 a month and private lessons USD 150.
+> Live online coding, Python, maths and automation classes across Derbyshire, from Derby and Chesterfield to Ilkeston, Long Eaton, Swadlincote, Buxton and Matlock.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Derbyshire
-
-County of Derbyshire / Live online
-
-# Coding classes in Derbyshire
-
-**What are the best coding classes in Derbyshire?** Derbyshire is Derby plus eight districts, 1,055,996 people at the 2021 Census. Derby's built-up area is the largest place by far, spilling into two neighbouring districts, followed by Chesterfield, then the Erewash towns of Ilkeston and Long Eaton, Swadlincote in the south, and the Peak towns of Buxton, Glossop and Matlock. We teach every one of them the same way: a teacher in India teaches live over video, learners are grouped by what they can already do rather than by age, and we welcome everyone from 6 to 67 in groups of fifteen to twenty or one to one. On offer are programming, Python, maths, automation and AI. The Derbyshire project begins in the Derwent Valley mills. There is no charge for the first lesson; group lessons then cost USD 100 a month and private lessons USD 150.
-
-Cromford Mills, built by Richard Arkwright in 1771, describes itself as the world's first successful water-powered cotton spinning mill, and the Derwent Valley below it became a string of early factories stretching fifteen miles to Derby. Every one of those mills ran on gears, and gears hide a lovely piece of arithmetic. Pair a 96-tooth wheel with a 24-tooth pinion and each pinion tooth only ever touches four of the wheel's teeth, round and round, so any damage keeps hitting the same spots. Give the pinion one extra tooth, 25, and every tooth meets every other tooth before the pattern repeats. This page's project simulates both, and finds the rule behind it: greatest common divisors and least common multiples.
-
-Facts last verified 26 September 2026. Teaching is online; no Derbyshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Derbyshire
 
 ## Four courses Derbyshire learners start with
 
 A seven-year-old in Belper building gadgets out of boxes, a Year 7 in Glossop who likes number puzzles, a Year 10 in Dronfield learning Python seriously, and an engineer in Derby who wants to automate spreadsheets. Each begins with a free lesson.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 12): Block coding from a first Scratch game to Minecraft and Roblox, with kid-safe AI and a first taste of Python.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): Maths learned by coding it, with factors, multiples, fractions and probability built as Python projects.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Beginner to advanced Python for teenagers through games, automation, data and AI projects.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (Adults): Python automation for working adults: scripts, scraping, browser automation and applied AI.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 12Coding for KidsBlock coding from a first Scratch game to Minecraft and Roblox, with kid-safe AI and a first taste of Python.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingMaths learned by coding it, with factors, multiples, fractions and probability built as Python projects.See the syllabus](/courses/maths-through-coding)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensBeginner to advanced Python for teenagers through games, automation, data and AI projects.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Automation Course course thumbnail](/images/python-college.webp)AdultsPython Automation CoursePython automation for working adults: scripts, scraping, browser automation and applied AI.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Derbyshire's numbers
 
 ## Nine councils, 1,055,996 people, from the Peak to the Trent
 
 Each council's total is its 2021 Census count on Nomis. Towns are ONS built-up areas, each compared with our own sum of census output areas so that places crossing the county line are flagged.
 
-**Derby and the eight Derbyshire districts, usual residents at Census 2021, largest first**
-
 | Council | Usual residents | Main towns |
-|---|---|---|
+| --- | --- | --- |
 | Derby | 261,364 | Derby |
 | Amber Valley | 126,206 | Heanor, Ripley, Belper, Alfreton |
 | Erewash | 112,906 | Ilkeston, Long Eaton, Sandiacre |
@@ -56,10 +42,8 @@ Each council's total is its 2021 Census count on Nomis. Towns are ONS built-up a
 
 Derby's built-up area held 275,575 people, more than the city council's 261,364, because it runs into Amber Valley and South Derbyshire. Chesterfield's likewise reaches into North East Derbyshire. The rest of the county splits into very different landscapes: former mining towns in the east, the Erewash towns towards Nottingham, and the Peak District towns in the north-west, where Buxton, Glossop and Matlock are separated by moorland rather than suburbs.
 
-**The thirty largest Derbyshire built-up areas, 2021 Census; Burton upon Trent, a Staffordshire town, is left out**
-
 | Town | Residents | Town | Residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Derby | 275,575 | Matlock | 11,990 |
 | Chesterfield | 76,420 | Shirebrook | 11,575 |
 | Ilkeston | 38,725 | Bolsover | 11,225 |
@@ -78,16 +62,16 @@ Derby's built-up area held 275,575 people, more than the city council's 261,364,
 
 Seven more places are between five and seven and a half thousand: Woodville, Chapel-en-le-Frith, Borrowash, Wingerworth, West Hallam, Creswell, and Overseal and Castle Gresley. A few rows reach across the county boundary. Hadfield has about 9,900 of its 16,275 residents in High Peak and the rest in Greater Manchester; Swadlincote and Woodville edge into Leicestershire; New Mills touches Cheshire. The councils and academies set their own school calendars, which we did not read, so lesson breaks are agreed with each family.
 
+The Derbyshire project
+
 ## Why one extra tooth makes a gear last longer
 
 Tooth counts we chose for teaching, a simulation of every contact, and the number theory that predicts the answer before the simulation finishes.
 
 Picture two gears meshing. Number the wheel's teeth 0 to 95 and the pinion's 0 to 23. At every contact one wheel tooth touches one pinion tooth, and both gears move on by one. The learner writes a loop that records each pair that touches and stops when a pair comes round for the second time, because after that the whole pattern repeats exactly. Then they ask a practical question: how many different wheel teeth does each pinion tooth ever meet? If a pinion tooth is chipped, those are the teeth it will damage, over and over.
 
-**Our run of 26 September 2026: gear pairs we chose, and what the simulation found**
-
 | Wheel and pinion teeth | Common factor | Contacts before the pattern repeats | Wheel teeth each pinion tooth meets |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 96 and 24 | 24 | 96 | 4 of the 96 |
 | 96 and 25 | 1 | 2,400 | All 96 |
 | 60 and 24 | 12 | 120 | 5 of the 60 |
@@ -115,14 +99,14 @@ Prove the gcd rule, then search all coprime pairs within a tooth range for the o
 
 The mill facts are Cromford Mills' and the Derwent Valley Mills World Heritage Site's. The tooth counts, the simulation and the ratios are our own teaching example; we are not describing the gears of any particular mill, and nothing here is engineering advice.
 
+Why the Derwent Valley
+
 ## The first water-powered spinning mill, fifteen miles from Derby
 
 The Derbyshire link, from Cromford Mills and the World Heritage Site's own pages.
 
-**Cromford and the Derwent Valley, in their own words**
-
 | Source | What it says |
-|---|---|
+| --- | --- |
 | Cromford Mills | "Built in 1771 by Sir Richard Arkwright Cromford Mills was the world's first successful water-powered cotton spinning mill." |
 | Cromford Mills | Arkwright's spinning machine, the water frame, turned cotton from a cottage industry into large-scale factory production. |
 | Cromford Mills | Arkwright became known as the "Father of the Factory System" for launching the world's first production line. |
@@ -133,16 +117,41 @@ A production line is an algorithm made of machines: steps in a fixed order, each
 
 Modern Age Coders has no connection with Cromford Mills, the Arkwright Society, the Derwent Valley Mills World Heritage Site or any Derbyshire council, and nothing here suggests one. Their history is theirs; our gear example and any error in it are ours.
 
-**Nearby pages** [Derby](/best-coding-class-in-derby) has its own page, [Leicestershire](/coding-classes-in-leicestershire) is to the south and [Cheshire](/coding-classes-in-cheshire) to the west.
+Nearby pages
+
+[Derby](/best-coding-class-in-derby) has its own page, [Leicestershire](/coding-classes-in-leicestershire) is to the south and [Cheshire](/coding-classes-in-cheshire) to the west.
+
+Levels of learning
 
 ## From counting teeth to proving a rule
 
 The free lesson decides where to start, by ability. School year is a helpful hint.
 
-- **Ages 6 to 10: Turning and counting** Block-coding projects with wheels, timers and repeats, where children discover patterns that come back round. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 10 to 13: Factors and multiples** Python loops that find factors, common multiples and remainders, turning times-tables knowledge into programs. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 13 to 18: Simulate, then prove** Python simulations checked against a formula, the habit behind both good exam answers and good software. [Python for Teens](/courses/python-complete-masterclass-teens), [High School Mathematics](/courses/complete-high-school-mathematics-mastery)
-- **Ages 18 to 67: Automate the routine** Adults write Python that handles repetitive work, from reports to scheduling, with results they can trust. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Ages 6 to 10
+
+### Turning and counting
+
+Block-coding projects with wheels, timers and repeats, where children discover patterns that come back round.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 10 to 13
+
+### Factors and multiples
+
+Python loops that find factors, common multiples and remainders, turning times-tables knowledge into programs.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 13 to 18
+
+### Simulate, then prove
+
+Python simulations checked against a formula, the habit behind both good exam answers and good software.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[High School Mathematics](/courses/complete-high-school-mathematics-mastery)Ages 18 to 67
+
+### Automate the routine
+
+Adults write Python that handles repetitive work, from reports to scheduling, with results they can trust.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)AI and simple rules
 
 ## An AI can pick gear sizes for a ratio. Would it add the extra tooth?
 
@@ -154,30 +163,139 @@ A Derbyshire student who has watched a simulation show each tooth meeting only f
 
 So a Derbyshire teenager should learn to code in 2026, in the valley where the factory system began, to be the person who knows which question was missing. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Getting started
+
 ## Glossop to Swadlincote without the Snake Pass
 
 Derbyshire's towns are separated by moors, valleys and slow roads. Online lessons take none of that into account.
 
-- **Home is where it happens** A bedroom in Heanor, a kitchen in Ashbourne, a desk in Killamarsh. The learner writes code while the teacher watches the same screen.
-- **School words you know** Year groups, GCSE options and A levels are named as Derbyshire schools name them, all in English.
-- **Try a lesson for free** A real first lesson with a teacher, then an honest recommendation. No card is requested.
-- **Right-level groups** Fifteen to twenty learners at one stage, gathered widely, so the lesson is pitched for everyone in it.
-- **Holidays around school** Two lessons a week is usual, pausing when your own school breaks up, whoever sets its dates.
-- **Times in UK time** India, where our teachers are, is 5.5 hours ahead of the UK in winter and 4.5 in summer; every lesson is booked in UK time.
+### Home is where it happens
 
-**Why groups follow level** Thirty-seven towns in very different landscapes mean no one place has enough learners at every stage. Level-based groups let a Buxton learner and a Long Eaton learner share a class.
+A bedroom in Heanor, a kitchen in Ashbourne, a desk in Killamarsh. The learner writes code while the teacher watches the same screen.
+
+### School words you know
+
+Year groups, GCSE options and A levels are named as Derbyshire schools name them, all in English.
+
+### Try a lesson for free
+
+A real first lesson with a teacher, then an honest recommendation. No card is requested.
+
+### Right-level groups
+
+Fifteen to twenty learners at one stage, gathered widely, so the lesson is pitched for everyone in it.
+
+### Holidays around school
+
+Two lessons a week is usual, pausing when your own school breaks up, whoever sets its dates.
+
+### Times in UK time
+
+India, where our teachers are, is 5.5 hours ahead of the UK in winter and 4.5 in summer; every lesson is booked in UK time.
+
+Why groups follow level
+
+Thirty-seven towns in very different landscapes mean no one place has enough learners at every stage. Level-based groups let a Buxton learner and a Long Eaton learner share a class.
+
+Fees
 
 ## Derbyshire fees
 
 Every Derbyshire town, and every country other than India, pays the same.
 
-- First class: USD 0. A complete lesson of real work, ending in a suggested level and course.
-- Group tuition: USD 100 a month. Around eight lessons a month, fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. Around eight lessons a month, one teacher with one learner.
+First class**USD 0**
+
+A complete lesson of real work, ending in a suggested level and course.
+
+Group tuition**USD 100**
+
+Around eight lessons a month, fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+Around eight lessons a month, one teacher with one learner.
 
 We price in US dollars for everyone outside India and do not keep a pound list. Nothing is billed until after the free lesson, when a course and a weekly slot are agreed; for pauses, missed lessons and changes between group and one-to-one teaching, see the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20lesson%20for%20a%20learner%20in%20Derbyshire.)Reviews
+
+## Families on Google, unedited
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book your first lesson free
+
+Let us know an age or school year and one interest. The first lesson might be a block-coding game, a first Python factor finder, or the gear simulation on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Derbyshire one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20lesson%20for%20a%20learner%20in%20Derbyshire.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Derbyshire questions
+
+On the county, the gear project and our lessons.
 
 ### How many people live in Derbyshire?
 
@@ -219,10 +337,14 @@ Lesson one is free of charge. A monthly place in a small group then costs USD 10
 
 Derbyshire County Council, Derby and academies set their own dates. We arrange lesson breaks around the calendar your school gives you.
 
+The wider UK
+
 ## Pages beyond Derbyshire
 
 The [Derby](/best-coding-class-in-derby) page covers the city. Neighbouring counties so far include [Leicestershire](/coding-classes-in-leicestershire), [Cheshire](/coding-classes-in-cheshire) and [Greater Manchester](/coding-classes-in-greater-manchester), and the [UK hub](/coding-classes-in-united-kingdom) lists every other page.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Chat on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20lesson%20for%20a%20learner%20in%20Derbyshire.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-derbyshire](https://learn.modernagecoders.com/coding-classes-in-derbyshire#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-derbyshire*

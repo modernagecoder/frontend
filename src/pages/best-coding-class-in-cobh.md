@@ -4,46 +4,32 @@ description: "Coding, Python, data and AI lessons for Cobh learners aged 6 to 67
 canonical: https://learn.modernagecoders.com/best-coding-class-in-cobh
 source: src/pages/best-coding-class-in-cobh.html
 ---
-> The census finds 14,000 usual residents in Cobh, in 5,253 households, of which 4,489 have broadband. That connection is all our lessons travel over: a live teacher on video with a handful of learners at the same stage, or with a single learner, about twice a week, at any age from six to sixty-seven. The first lesson is free, and after it a group place costs USD 100 a month and private teaching USD 150.
+> Coding, Python, data and AI lessons for Cobh learners aged 6 to 67, taught live online in small groups at one level or one to one. The first lesson is free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [County Cork](/coding-classes-in-county-cork) / Cobh
-
-Cobh, County Cork / Live online
-
-# Coding classes in Cobh
-
-**What is the best coding class in Cobh?** The census finds 14,000 usual residents in Cobh, in 5,253 households, of which 4,489 have broadband. That connection is all our lessons travel over: a live teacher on video with a handful of learners at the same stage, or with a single learner, about twice a week, at any age from six to sixty-seven. The first lesson is free, and after it a group place costs USD 100 a month and private teaching USD 150.
-
-Census 2022 asked everybody where they had lived a year earlier, and for Cobh the answers make a tidy table of arrivals: 835 of the 13,843 residents aged one and over were at a different address twelve months before. It is tempting to read that as a measure of how much the town is changing. It is not, because a table of the people who are here can never include the people who left. This page makes that blind spot concrete. The learner reads Cobh's real row, then builds two imaginary towns, one growing and one shrinking, whose census tables come out exactly the same. In a town whose heritage centre tells the story of the people who sailed away, it is a fitting thing to learn.
-
-Facts last verified 19 September 2026. Teaching is online; no Cobh branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Cobh
 
 ## Good first courses for Cobh learners
 
 Match the course to age and interest; the first lesson, with that course's teacher, checks the level.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Block coding with games about who is in and who is out, the simplest version of a missing-data puzzle.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Python lists of people and places, and small programs that turn records into a table.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 18): Machine learning with an eye on the data it never saw, because a model learns only from what was recorded.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (College and adult): For adults working with customer, member or staff lists, where the people who left are exactly the ones missing.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlock coding with games about who is in and who is out, the simplest version of a missing-data puzzle.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsPython lists of people and places, and small programs that turn records into a table.See the syllabus](/courses/python-ai-kids-masterclass)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 18AI and Machine Learning for TeensMachine learning with an eye on the data it never saw, because a model learns only from what was recorded.See the syllabus](/courses/ai-ml-masterclass-teens)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)College and adultData Analysis CourseFor adults working with customer, member or staff lists, where the people who left are exactly the ones missing.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## Count who arrived in Cobh, then find who the table cannot see
 
 The one-year-ago question sorts every resident aged one and over into four groups. The learner reads Cobh's row, compares it with other towns and then asks what is missing from it.
 
-**Cobh, Co Cork: usual residents aged 1 and over by where they lived a year before Census Day 2022**
-
 | Lived a year earlier | People |
-|---|---|
+| --- | --- |
 | At the same address | 13,008 |
 | At another address in the county | 598 |
 | Elsewhere in Ireland | 92 |
@@ -62,10 +48,8 @@ Among the 94 towns with 5,000 or more residents aged one and over, the median sh
 
 Everyone who lived in Cobh a year earlier and has gone. Those who moved within Ireland appear in some other row, described only as elsewhere; those who emigrated appear in no row at all. Babies born during the year are outside the table too, since it starts at age one.
 
-**Two made-up towns with the same census table and opposite years. Births and deaths are left out to keep the arithmetic plain**
-
-|  | Town A | Town B |
-|---|---|---|
+|   | Town A | Town B |
+| --- | --- | --- |
 | People a year before | 980 | 1,100 |
 | Stayed at the same address | 940 | 940 |
 | Moved house within the town | 20 | 20 |
@@ -80,6 +64,8 @@ Everyone who lived in Cobh a year earlier and has gone. Those who moved within I
 This is survivorship, and it is everywhere. A list of current customers shows who signed up, never who cancelled. A class register shows who enrolled, not who dropped out. A study of successful companies leaves out every company that closed. In each case the missing group is not a random slice; it is exactly the group whose story would change the conclusion. The defence is always the same question, asked before any analysis: who could not have ended up in this table, and where would I have to look to find them?
 
 The learner builds both towns person by person: each person is a small record holding last year's address and this year's, or a note that they left. One function turns a list of people into the census-style table by counting only those present now, which is exactly what a census can do. Run on Town A and Town B it returns the same four numbers, and a single assert statement proves the two tables identical while the populations a year earlier differ by 120. The follow-up asks what extra data would tell the towns apart: last year's total, or a record of departures, and which organisation could possibly hold each one.
+
+The invisible side
 
 ## The people no census form reaches
 
@@ -97,16 +83,18 @@ Someone who emigrated was not in Ireland on census night and so fills in no Iris
 
 The Cobh Heritage Centre, housed in the restored Victorian railway station, describes Cobh as the port where 3 million of our people left from, and says that from 1848 to 1950 over six million adults and children emigrated from Ireland.
 
-**What this page does not claim** It does not say how many people left Cobh in the year before the census, because no table used here can say it. It does not set the town rows beside the national migration estimates as if they measured the same thing: one counts residents of towns, the other estimates flows for the whole State.
+What this page does not claim
+
+It does not say how many people left Cobh in the year before the census, because no table used here can say it. It does not set the town rows beside the national migration estimates as if they measured the same thing: one counts residents of towns, the other estimates flows for the whole State.
+
+The town in the census
 
 ## Cobh in the resident tables
 
 Published for the town Cobh, Co Cork, in the Census 2022 small area tables, all counting usual residents.
 
-**Cobh, Co Cork, Census 2022**
-
 | Counted | Number |
-|---|---|
+| --- | --- |
 | Usual residents | 14,000 |
 | Households | 5,253 |
 | Households with broadband | 4,489 |
@@ -127,7 +115,11 @@ Of 3,721 journeys to school, college or childcare, 1,740 are as a car passenger 
 
 Asked the direct question, 1,814 working residents work from home for at least part of the week, 3,999 never do and 450 did not answer.
 
-**The station** Irish Rail gives the address as Cobh Railway Station, Cobh, Co. Cork, Eircode P24 A462, and notes that there are no bike facilities at the station. Neither Irish Rail nor the Cobh Heritage Centre has any connection with us.
+The station
+
+Irish Rail gives the address as Cobh Railway Station, Cobh, Co. Cork, Eircode P24 A462, and notes that there are no bike facilities at the station. Neither Irish Rail nor the Cobh Heritage Centre has any connection with us.
+
+Learning here
 
 ## Lessons for Cobh learners
 
@@ -147,14 +139,37 @@ Adults come with every kind of background, and many with none in code. The openi
 
 Census counts are Central Statistics Office figures printed as published; the shares, ranks and both made-up towns were worked out on 19 September 2026. The emigration estimate is quoted from the CSO's Population and Migration Estimates for April 2022, and the heritage centre and Irish Rail from their own pages.
 
+Learning ladder
+
 ## From who is in the game to who is missing from the data
 
 Use the ages as a guide; the first lesson finds the real level.
 
-- **Ages 6 to 10: In and out** Block-coded games that keep track of who has joined and who has left, and notice when a count goes wrong. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Records to tables** Python records for people and a function that counts them into a table, then checking what the table lost. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Blind spots** Survivorship and missing groups in real datasets, and why a model trained on them inherits the gap. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Churn and leavers** Customer, member and staff data where departures matter most and are recorded least. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### In and out
+
+Block-coded games that keep track of who has joined and who has left, and notice when a count goes wrong.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Records to tables
+
+Python records for people and a function that counts them into a table, then checking what the table lost.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Blind spots
+
+Survivorship and missing groups in real datasets, and why a model trained on them inherits the gap.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Churn and leavers
+
+Customer, member and staff data where departures matter most and are recorded least.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## Ask an assistant whether Cobh is growing
 
@@ -166,30 +181,139 @@ A learner who has built Town A and Town B spots the problem at once: the same ta
 
 Machine learning inherits every blind spot in its data. Seeing the blind spot is still a human skill, and a teachable one. The longer argument is in [why learning to code still earns its place](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How lessons run for Cobh
 
 Practical points.
 
-- **Live every time** A teacher is present for the full lesson and works from whatever the learner is building.
-- **Groups of a level** Fifteen to twenty learners at the same stage of a course, from Cork, the rest of Ireland and further afield.
-- **About twice weekly** Roughly eight lessons a month, on days and times agreed at the start.
-- **School calendar** Breaks, mid-terms and exam weeks are built into the plan from the beginning.
-- **At home** A computer the learner can type on, a microphone and speakers or a headset that work, and a broadband line. A phone is not enough for writing code.
-- **One to one** Private teaching is for the learner a group cannot serve well: well ahead, well behind, or free only when no group at their stage meets.
+### Live every time
 
-**No classroom on the island** Cobh learners take every lesson over video. We have no premises in the town or anywhere in Ireland, and the lesson is the same from any house with a connection.
+A teacher is present for the full lesson and works from whatever the learner is building.
+
+### Groups of a level
+
+Fifteen to twenty learners at the same stage of a course, from Cork, the rest of Ireland and further afield.
+
+### About twice weekly
+
+Roughly eight lessons a month, on days and times agreed at the start.
+
+### School calendar
+
+Breaks, mid-terms and exam weeks are built into the plan from the beginning.
+
+### At home
+
+A computer the learner can type on, a microphone and speakers or a headset that work, and a broadband line. A phone is not enough for writing code.
+
+### One to one
+
+Private teaching is for the learner a group cannot serve well: well ahead, well behind, or free only when no group at their stage meets.
+
+No classroom on the island
+
+Cobh learners take every lesson over video. We have no premises in the town or anywhere in Ireland, and the lesson is the same from any house with a connection.
+
+Fees
 
 ## Fees for Cobh
 
 Every price we charge.
 
-- First class: USD 0. A complete first lesson, with the level assessed, at no cost.
-- Group tuition: USD 100 a month. A month in a group of fifteen to twenty at one level, around eight live lessons.
-- Private tuition: USD 150 a month. A month of private lessons on the same weekly pattern.
+First class**USD 0**
+
+A complete first lesson, with the level assessed, at no cost.
+
+Group tuition**USD 100**
+
+A month in a group of fifteen to twenty at one level, around eight live lessons.
+
+Private tuition**USD 150**
+
+A month of private lessons on the same weekly pattern.
 
 Monthly fees are billed in US dollars and are identical for every family outside India. The free lesson is never billed, and the first month is charged only once a group place or a private slot has actually been arranged; the pricing page covers holidays, missed lessons and switching format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Cobh.)Reviews
+
+## Six reviews from our families on Google, left exactly as written
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free first lesson in Cobh
+
+Say how old the learner is and what they enjoy, and the first hour is built around that. It might end with a game, a first working program, or a table with an honest note about who is missing.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Cobh one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Cobh.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Cobh coding class questions
+
+The first things Cobh families ask us.
 
 ### How many people live in Cobh?
 
@@ -231,10 +355,14 @@ The first lesson is free. After that a shared place costs USD 100 a month and br
 
 Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
+Explore Ireland
+
 ## Elsewhere around Cork
 
 Cork's pages in the series start with [County Cork](/coding-classes-in-county-cork) and [Cork city](/best-coding-class-in-cork), with [Carrigaline](/best-coding-class-in-carrigaline) the largest town page so far, and [Munster](/coding-and-ai-classes-in-munster) covering the province. To compare online coding schools there is [one plain comparison](/best-online-coding-classes-ireland), and every page in the series hangs off the [Ireland hub](/coding-classes-in-ireland).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Cobh.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-cobh](https://learn.modernagecoders.com/best-coding-class-in-cobh#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-cobh*

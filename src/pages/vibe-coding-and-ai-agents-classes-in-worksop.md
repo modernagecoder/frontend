@@ -4,46 +4,32 @@ description: "Live online vibe coding, AI agents, Python and coding classes for 
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-worksop
 source: src/pages/vibe-coding-and-ai-agents-classes-in-worksop.html
 ---
-> Worksop, as a built-up area, had 43,440 residents in 2021 by the ONS count, and its district, Bassetlaw, had 117,804. Manton, Kilton and Gateford are suburban areas of the town in postcode data, and Rhodesia and Shireoaks are villages close by. Whether a Worksop learner is six or 67, we can teach vibe coding, AI agents, Python, programming or maths, over live video from India, either privately or among fifteen to twenty classmates who share a level. When our learners build with agents, they plan who does what before anything runs, because a team of agents is only as quick as its slowest member. The Worksop project hands 240 route-finding jobs from the town's road map to four agents and compares ways of sharing them out, including one called work stealing. The first lesson is free and closes with a course suggestion; later on, a class place is USD 100 a month and a private tutor USD 150 a month.
+> Live online vibe coding, AI agents, Python and coding classes for Worksop, Manton, Kilton, Gateford, Rhodesia and Shireoaks, ages 6 to 67. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [East Midlands](/coding-and-ai-classes-in-east-midlands) / Worksop
-
-Worksop, Bassetlaw, Nottinghamshire / Live online
-
-# Vibe coding and AI agents classes in Worksop
-
-**Where are the best vibe coding and AI agents classes for Worksop learners?** Worksop, as a built-up area, had 43,440 residents in 2021 by the ONS count, and its district, Bassetlaw, had 117,804. Manton, Kilton and Gateford are suburban areas of the town in postcode data, and Rhodesia and Shireoaks are villages close by. Whether a Worksop learner is six or 67, we can teach vibe coding, AI agents, Python, programming or maths, over live video from India, either privately or among fifteen to twenty classmates who share a level. When our learners build with agents, they plan who does what before anything runs, because a team of agents is only as quick as its slowest member. The Worksop project hands 240 route-finding jobs from the town's road map to four agents and compares ways of sharing them out, including one called work stealing. The first lesson is free and closes with a course suggestion; later on, a class place is USD 100 a month and a private tutor USD 150 a month.
-
-Give one job to four AI agents and the obvious plan is to cut it into four equal parts. It rarely works. Jobs that look the same size turn out not to be, and three agents end up waiting for the fourth. Worksop's road map shows why. Finding every road within 1.5 km of a junction is quick near the edge of the mapped area and slow nearer the middle, where far more road falls within reach. Split 240 such jobs by position and one agent inherits the costly middle. Computer scientists solved this for processors with a trick called work stealing: an agent that runs out of jobs quietly takes one from a busy neighbour. It is now a standard way of sharing work in parallel programs, and it applies just as well to teams of AI agents.
-
-Facts last verified 30 September 2026. Teaching is online; no Worksop branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse routes
 
 ## Four Worksop routes into vibe coding and agents
 
 Match the route to the learner's age; whichever you pick opens with a free live lesson and no card details.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): How to think: four friends share a pile of chores of different sizes and find the fairest way to finish together.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Children ask an AI for a Scratch game with several helpers, then fix the helper that always finishes last.
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python and web projects built with AI help, including the Worksop job-sharing simulation.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): Language models, retrieval and agents, with orchestration of several agents that share one task.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsHow to think: four friends share a pile of chores of different sizes and find the fairest way to finish together.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsChildren ask an AI for a Scratch game with several helpers, then fix the helper that always finishes last.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensPython and web projects built with AI help, including the Worksop job-sharing simulation.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseLanguage models, retrieval and agents, with orchestration of several agents that share one task.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)The district
 
 ## Worksop, Retford and the rest of Bassetlaw
 
 Three of the district's built-up areas as the ONS published them for 2021, and the places around Worksop in postcode data.
 
-**Worksop, Retford, and Harworth and Bircotes: 2021 census residents as published by the ONS**
-
 | Town (built-up area) | People counted in 2021 |
-|---|---|
+| --- | --- |
 | Worksop | 43,440 |
 | Retford | 23,740 |
 | Harworth and Bircotes | 8,885 |
@@ -54,16 +40,16 @@ Each number stands alone, rounded by the ONS, and none is added to another; Bass
 
 For the county see [coding classes in Nottinghamshire](/coding-classes-in-nottinghamshire), and for the region [East Midlands](/coding-and-ai-classes-in-east-midlands). Why we teach thinking before tools is on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk), and the teenage route is on [vibe coding for teens](/vibe-coding-for-teens).
 
+The Worksop project
+
 ## Four agents, 240 jobs, and the case for work stealing
 
 Measure how big each job really is, then test four ways of sharing the jobs among four agents.
 
 The learner downloads the roads mapped in OpenStreetMap across a box around Worksop: 315.0 km of road meeting at 2,733 junctions. Python picks 240 junctions at random, and each becomes a job: find every road within 1,500 m of that junction by the shortest route. The cost of a job is the number of road segments the search has to check. The cheapest job needed 326 checks and the dearest 8,368; the middle one needed 4,021, and the whole set 969,483. Shared perfectly among four agents, nobody could finish before 242,371, a quarter of the total, so that is the target.
 
-**When the last of four agents finishes, by way of sharing 240 jobs (cost in road-segment checks, our simulation)**
-
 | How the jobs are shared | Last agent finishes at | Over the ideal |
-|---|---|---|
+| --- | --- | --- |
 | Four equal blocks, west to east | 336,566 | 38.9% |
 | Dealt out in turn, like cards | 257,374 | 6.2% |
 | Work stealing, 200 runs on average | 243,767 | 0.6% |
@@ -89,14 +75,14 @@ Simulate the four sharing methods, add a cost per contact, and explain when stea
 
 Road data is from OpenStreetMap contributors under the Open Database Licence. The box includes countryside around the town and service roads such as car park lanes, so the search costs describe the map, not traffic. Costs are counted in road-segment checks rather than seconds, which keeps runs repeatable on any computer. The jobs, the agents and the sharing rules are our simulation.
 
+Agents that share work
+
 ## What job sharing teaches about AI agents and vibe coding
 
 The slowest agent sets the pace for the whole team.
 
-**From Worksop road searches to multi-agent AI**
-
 | In the Worksop run | In AI agent design |
-|---|---|
+| --- | --- |
 | Equal-looking blocks finished 38.9% late | Tasks rarely take equal time, so avoid fixed splits |
 | Position predicted cost | Hidden patterns in the task list skew any plan |
 | A shared queue needed 240 visits | A central coordinator can become the bottleneck |
@@ -107,14 +93,37 @@ Agent frameworks often run a planner that splits a job and hands the pieces to w
 
 We built this page on open data from OpenStreetMap contributors, the Office for National Statistics and postcodes.io. They have not endorsed it, and the simulation is ours.
 
+Pathway
+
 ## From chore charts to parallel agents
 
 We start from a school year and adjust after the free lesson.
 
-- **Years 2 to 7: How to think** Planning, sharing and spotting the step that holds everyone up. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Games with several helpers, built with an AI and tuned by the child. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python, simulation and agents** Queues, simulations and models, alongside GCSE and A level work. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Agents that cooperate** Dependable Python, then language models, retrieval and agent teams. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
+Years 2 to 7
+
+### How to think
+
+Planning, sharing and spotting the step that holds everyone up.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Games with several helpers, built with an AI and tuned by the child.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python, simulation and agents
+
+Queues, simulations and models, alongside GCSE and A level work.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Agents that cooperate
+
+Dependable Python, then language models, retrieval and agent teams.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)Agents and work
 
 ## How do you split work between multiple AI agents?
 
@@ -126,30 +135,139 @@ Work stealing needed about 51 contacts between agents against 240 visits to a ce
 
 A Worksop teenager who has built that simulation will ask how an agent system shares its work before trusting it with a real job. That question comes from writing and testing code, and it is why learning to code still pays off in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Lessons
+
 ## Manton, Kilton and Gateford on a live call
 
 Any computer with a camera and a home broadband line is enough.
 
-- **Build, then explain** The learner writes the code on a shared screen and talks the tutor through it before pressing run.
-- **Level from the trial** The free session tells us where to start, and we record any exam board.
-- **Try it free** No charge and no card for lesson one, which ends with a course suggestion.
-- **A class at your stage** Fifteen to twenty learners in a group, all at one level, from around the UK.
-- **Two lessons each week** Tell us your holidays and we leave them clear.
-- **Clocks change, lessons do not** Our tutors follow British Summer Time so your slot stays the same.
+### Build, then explain
 
-**Why online** Classes grouped by level need learners from a wide area. One district cannot fill them; the UK can.
+The learner writes the code on a shared screen and talks the tutor through it before pressing run.
+
+### Level from the trial
+
+The free session tells us where to start, and we record any exam board.
+
+### Try it free
+
+No charge and no card for lesson one, which ends with a course suggestion.
+
+### A class at your stage
+
+Fifteen to twenty learners in a group, all at one level, from around the UK.
+
+### Two lessons each week
+
+Tell us your holidays and we leave them clear.
+
+### Clocks change, lessons do not
+
+Our tutors follow British Summer Time so your slot stays the same.
+
+Why online
+
+Classes grouped by level need learners from a wide area. One district cannot fill them; the UK can.
+
+Fees
 
 ## Worksop fees
 
 Worksop learners pay our international rates, which apply outside India.
 
-- First class: USD 0. A free lesson of full length, finishing with our course recommendation.
-- Group tuition: USD 100 a month. Around eight live lessons a month in a small class.
-- Private tuition: USD 150 a month. Around eight live lessons a month, one-to-one.
+First class**USD 0**
+
+A free lesson of full length, finishing with our course recommendation.
+
+Group tuition**USD 100**
+
+Around eight live lessons a month in a small class.
+
+Private tuition**USD 150**
+
+Around eight live lessons a month, one-to-one.
 
 Fees are in US dollars only, with no pound price shown. We start billing once the trial has led to an agreed course and weekly time; holidays, missed lessons and switching format are on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Worksop.)Reviews
+
+## Nottinghamshire parents and UK learners, in their Google reviews
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson for Worksop
+
+All we need is how old the learner is, or their school year, and a hobby or two. From that we plan a trial: perhaps a fair-sharing puzzle, an AI-built Scratch game, a first Python program, or a tiny team of agents.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Worksop one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Worksop.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Worksop questions
+
+Sharing work, the road-search jobs, vibe coding, and fees and timings.
 
 ### How many people live in Worksop?
 
@@ -191,10 +309,14 @@ The first lesson is free. After it, USD 100 a month for a group place, or USD 15
 
 Of course. Share your holiday dates and no lessons are booked for them.
 
+Beyond Worksop
+
 ## More pages for Nottinghamshire and nearby
 
 Other projects are on the [Mansfield](/online-coding-and-python-classes-in-mansfield), [Rotherham](/best-coding-and-ai-classes-in-rotherham) and [Chesterfield](/ai-and-programming-classes-in-chesterfield) pages, and the county page is [Nottinghamshire](/coding-classes-in-nottinghamshire). The [UK hub](/coding-classes-in-united-kingdom) links the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson%20for%20a%20learner%20in%20Worksop.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-worksop](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-worksop#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-worksop*

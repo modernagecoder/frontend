@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes across Noord-Holland, ag
 canonical: https://learn.modernagecoders.com/coding-classes-in-noord-holland
 source: src/pages/coding-classes-in-noord-holland.html
 ---
-> Coding classes in Noord-Holland have to reach 3,009,386 people in 44 municipalities (Statistics Netherlands, 1 January 2026), of whom fewer than a third live in Amsterdam. Haarlem, the provincial capital, Haarlemmermeer and Zaanstad hold places two, three and four with 168,898, 166,978 and 165,201 residents, closer to each other than a single secondary school's roll. Live online and in English, for ages 6 to 67, Modern Age Coders teaches coding, Python, AI and mathematics to every one of those municipalities at the same price: nothing for the first lesson, then USD 100 a month in a group of fifteen to twenty or USD 150 one to one.
+> Live online coding, Python and AI classes across Noord-Holland, ages 6 to 67: Haarlem, Zaanstad, Alkmaar, Hilversum, Hoorn, Den Helder and Texel, not only Amsterdam.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Noord-Holland
-
-Province of Noord-Holland / Live online
-
-# Coding classes in Noord-Holland, a province whose second, third and fourth cities are closer than the size of one school
-
-**What are the best coding classes in Noord-Holland?** Coding classes in Noord-Holland have to reach 3,009,386 people in 44 municipalities (Statistics Netherlands, 1 January 2026), of whom fewer than a third live in Amsterdam. Haarlem, the provincial capital, Haarlemmermeer and Zaanstad hold places two, three and four with 168,898, 166,978 and 165,201 residents, closer to each other than a single secondary school's roll. Live online and in English, for ages 6 to 67, Modern Age Coders teaches coding, Python, AI and mathematics to every one of those municipalities at the same price: nothing for the first lesson, then USD 100 a month in a group of fifteen to twenty or USD 150 one to one.
-
-A league table of the province's towns says Haarlem is second and Zaanstad fourth. It does not say that 3,697 people separate them, or that 773,029 separate first from second. That is what a rank does to a number, and a child who can show it with the province's own list has learned something that applies to every table with a position column in it.
-
-Facts last verified 7 September 2026. Teaching is online; no Noord-Holland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Noord-Holland
 
 ## Four courses for a province that runs from the Gooi to the Wadden
 
 A child in Hoorn, a teenager in Hilversum, a student in Haarlem and an adult in Alkmaar are in the same province and, for a live class, in the same room. These four are chosen so that each of them has a door.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Real games in Scratch in three months, in English, for a groep 3 to 5 child anywhere between Den Helder and Diemen.
-- [Roblox Game Coding for Kids](/courses/roblox-game-coding-for-kids-lua-course) (Ages 8 to 12): Luau scripting inside the game half the groep 6 class already plays, for the child who wants to make the thing rather than only play it.
-- [Frontend Development for Teens](/courses/frontend-development-masterclass-for-teens) (Ages 13 to 17): CSS craft to React, for the Hilversum or Haarlem teenager whose media-town instinct is that the thing should look right as well as work.
-- [AI Tools Mastery Course](/courses/ai-tools-mastery-complete-college) (Adults): ChatGPT, Claude and automation for the commuter on the Zaanlijn or the A9 who wants the tools to carry the boring third of the job.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsReal games in Scratch in three months, in English, for a groep 3 to 5 child anywhere between Den Helder and Diemen.See the syllabus](/courses/scratch-programming-complete-course)[![Roblox Game Coding for Kids course thumbnail](/images/roblox-coding-kids.webp)Ages 8 to 12Roblox Game Coding for KidsLuau scripting inside the game half the groep 6 class already plays, for the child who wants to make the thing rather than only play it.See the syllabus](/courses/roblox-game-coding-for-kids-lua-course)[![Frontend Development for Teens course thumbnail](/images/frontend-teens.webp)Ages 13 to 17Frontend Development for TeensCSS craft to React, for the Hilversum or Haarlem teenager whose media-town instinct is that the thing should look right as well as work.See the syllabus](/courses/frontend-development-masterclass-for-teens)[![AI Tools Mastery Course course thumbnail](/images/ai-tools-college.webp)AdultsAI Tools Mastery CourseChatGPT, Claude and automation for the commuter on the Zaanlijn or the A9 who wants the tools to carry the boring third of the job.See the syllabus](/courses/ai-tools-mastery-complete-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Noord-Holland today
 
 ## Three million people, forty-four municipalities, and a capital that is not the largest city
 
@@ -52,7 +40,11 @@ Amsterdam holds 941,927 people, 31.3 percent of the province. The other 2,067,45
 
 Alkmaar, Amsterdam, Amstelland-Meerlanden, IJmond, Gooi en Vechtstreek, Kop van Noord-Holland, West-Friesland, Zaanstreek-Waterland and Zuid-Kennemerland. They are administrative groupings rather than places anyone types into a search box, and this page uses them only to walk the province in order.
 
-**A third of the province is water** Of 4,091.94 square kilometres, 1,427.11 are water: the IJsselmeer and Markermeer coast, the Wadden, the North Sea, the Noordzeekanaal and the drained lake beds that are now Haarlemmermeer. Any density figure for Noord-Holland is a choice about whether to count the wet part, and the province's own is quoted on land only.
+A third of the province is water
+
+Of 4,091.94 square kilometres, 1,427.11 are water: the IJsselmeer and Markermeer coast, the Wadden, the North Sea, the Noordzeekanaal and the drained lake beds that are now Haarlemmermeer. Any density figure for Noord-Holland is a choice about whether to count the wet part, and the province's own is quoted on land only.
+
+The spread
 
 ## From Zandvoort to Texel: the towns that make up the other two thirds
 
@@ -84,6 +76,8 @@ Den Helder 56,678, the navy town at the tip; Hollands Kroon 50,592; Schagen 48,7
 
 Forty-four municipalities, every one named. The city pages in this series are close-up; this one is the map, and it stays deliberately wide.
 
+Verified local facts
+
 ## Noord-Holland facts, each with its office and date
 
 Seven things this page rests on. One of them is the list the project is built from.
@@ -114,6 +108,8 @@ Amstelveen at 68.3 per thousand residents and Uithoorn at 49.6 are the two highe
 
 Modern Age Coders has no association with the province of Noord-Holland, with any of its 44 municipalities or with any school in them, and claims none. They are here because a page that says it serves a province ought to be able to name the province.
 
+Signature project
+
 ## Second, third, fourth: build the program that puts the distances back into a league table
 
 Forty-four numbers, a sort, and a column that everybody reads and almost nobody questions.
@@ -130,11 +126,9 @@ Next to each rank the learner computes the gap to the place above. First to seco
 
 Purmerend is sixth and Amstelveen seventh, 342 people apart, fewer than move between them in a year. Haarlem could fall to fourth without losing a single resident if Haarlemmermeer and Zaanstad each grew by two thousand. A rank is a position in a queue; it says nothing about how far apart the people in the queue are standing.
 
-**The top eight municipalities of Noord-Holland, 1 January 2026, with the column a league table omits**
-
 | Rank | Municipality | Residents | Gap to the place above |
-|---|---|---|---|
-| 1 | Amsterdam | 941,927 |  |
+| --- | --- | --- | --- |
+| 1 | Amsterdam | 941,927 |   |
 | 2 | Haarlem | 168,898 | 773,029 |
 | 3 | Haarlemmermeer | 166,978 | 1,920 |
 | 4 | Zaanstad | 165,201 | 1,777 |
@@ -147,14 +141,14 @@ Purmerend is sixth and Amstelveen seventh, 342 people apart, fewer than move bet
 
 Converting a number to a position throws away everything except the order, and once the distances are gone nobody can put them back from the ranks alone. That is why "moved up two places" can mean a change of a few hundred people or a few hundred thousand, and why a league table of schools, hospitals or towns tells you far less than it appears to. A learner who has computed the gap column once for their own province will ask for it every time a table has a position in it. The table above was computed before this paragraph was written; every figure in it is from the municipal registers on 1 January 2026, and the gaps are subtraction.
 
+Reliable pipeline
+
 ## Five habits for any table with a position column
 
 School rankings, hospital rankings, app-store charts, sports tables: the same loss happens every time a number becomes a rank. Practised first on the province's own list.
 
-**When a number has been turned into a place**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Keep the number | Store the value beside the rank, never the rank alone | A table that cannot be un-ranked | Something you can still compute with |
 | Compute the gaps | Add a column for the distance to the place above | Places 2 and 4 read as far apart | The shape of the distribution |
 | Name the ties | Decide what counts as a tie before reading the order | A 342-person difference treated as a result | Honest positions |
@@ -175,14 +169,37 @@ The same program on a sales league, a school ranking or a product chart from wor
 
 The provincial totals, the 44 municipal populations, the areas, the regions and the Texel figures are published by the offices named in the sentences that use them. The gap column is subtraction on the published list and nothing on this page derives a Noord-Holland figure that no office has published.
 
+Learning ladder
+
 ## From eight block towers to a league table with its distances restored
 
 One free lesson finds the rung. Which of the 44 municipalities the laptop is in does not.
 
-- **Ages 6 to 10: Positions and heights** Children discover that first, second and third say nothing about how tall each tower is. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Sort, then subtract** Learners sort a list in Python and add the column the sort threw away. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 14 to 18: What moves a rank** Teenagers find the smallest change that reorders a table and say why it should not count. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: League tables at work** Adults rebuild a ranking from their own field with the values and the gaps beside it. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Statistics & Probability](/courses/statistics-probability-maths-course)
+Ages 6 to 10
+
+### Positions and heights
+
+Children discover that first, second and third say nothing about how tall each tower is.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Sort, then subtract
+
+Learners sort a list in Python and add the column the sort threw away.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### What moves a rank
+
+Teenagers find the smallest change that reorders a table and say why it should not count.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### League tables at work
+
+Adults rebuild a ranking from their own field with the values and the gaps beside it.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Statistics & Probability](/courses/statistics-probability-maths-course)Coding and AI
 
 ## A child in Hoorn or Den Helder can ask an AI to rank the province in a second. So why learn to sort it by hand?
 
@@ -194,30 +211,139 @@ That is what the class trains and why the sort is still written by the learner: 
 
 For a Noord-Holland parent, then, the case for coding in 2026 is not that the child will sort lists for a living. It is that knowing what a number lost when it became a position is a skill, that it transfers, and that the only way anyone has found to teach it is to make the learner build the table and then put the column back. The longer argument is in [is coding still worth learning in 2026, when AI writes it](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for a province where the nearest centre can be an hour away
 
 From Den Helder the nearest large city is eighty kilometres south. From Texel it is a ferry and then that. From Enkhuizen or Medemblik a coding club in Amsterdam is not a weekly plan. A class that arrives over the connection is the same class in all of them.
 
-- **The same lesson in Bergen and in Blaricum** The group is assembled on level, not on postcode. A child on Texel and a child in the Gooi sit in the same class at the same hour and neither has travelled.
-- **English, with the Dutch words left in** Groep, havo, vwo, profielkeuze and MYP are used as the family hears them at school. The teaching itself is in English, which is the language most of the province's international families share.
-- **A first lesson that is a lesson** A task pitched at the learner, a level and a named course by the end of the hour, and no card taken to arrange it.
-- **Fifteen to twenty learners, or one** Groups are built from what learners can do and want next. Private tuition is the option for a narrow goal or an examination year that is already full.
-- **Two lessons a week on the regio Noord calendar** Noord-Holland takes its school holidays with regio Noord, so the summer weeks fall earlier or later than Utrecht's and Eindhoven's in a given year. They are agreed before the slot is fixed.
-- **Four and a half hours in winter, three and a half in summer** That is the gap between a Noord-Holland afternoon and the teacher's evening in India, because only the Dutch clock moves. After-school, early-evening and weekend slots suit both ends, and the family fixes one during the free lesson.
+### The same lesson in Bergen and in Blaricum
 
-**The ferry does not matter** A learner on Texel has the same teacher, the same group and the same weekly time as one in Haarlem, and the TESO timetable never enters into it. That is the plainest version of the online argument this province offers, and it applies just as well to Enkhuizen and to Den Helder.
+The group is assembled on level, not on postcode. A child on Texel and a child in the Gooi sit in the same class at the same hour and neither has travelled.
+
+### English, with the Dutch words left in
+
+Groep, havo, vwo, profielkeuze and MYP are used as the family hears them at school. The teaching itself is in English, which is the language most of the province's international families share.
+
+### A first lesson that is a lesson
+
+A task pitched at the learner, a level and a named course by the end of the hour, and no card taken to arrange it.
+
+### Fifteen to twenty learners, or one
+
+Groups are built from what learners can do and want next. Private tuition is the option for a narrow goal or an examination year that is already full.
+
+### Two lessons a week on the regio Noord calendar
+
+Noord-Holland takes its school holidays with regio Noord, so the summer weeks fall earlier or later than Utrecht's and Eindhoven's in a given year. They are agreed before the slot is fixed.
+
+### Four and a half hours in winter, three and a half in summer
+
+That is the gap between a Noord-Holland afternoon and the teacher's evening in India, because only the Dutch clock moves. After-school, early-evening and weekend slots suit both ends, and the family fixes one during the free lesson.
+
+The ferry does not matter
+
+A learner on Texel has the same teacher, the same group and the same weekly time as one in Haarlem, and the TESO timetable never enters into it. That is the plainest version of the online argument this province offers, and it applies just as well to Enkhuizen and to Den Helder.
+
+Fees
 
 ## One free lesson, then USD 100 or USD 150 a month, in all 44 municipalities
 
 Published here in full, before anyone asks for a phone number.
 
-- First class: USD 0. A full lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A full lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 The rate is the one international rate, in US dollars, with no euro version and no difference between Amsterdam and Opmeer. The free lesson fixes the course and the slot; payment is arranged afterwards over WhatsApp. Pauses, changes of plan and missed lessons are described on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Noord-Holland.)Reviews
+
+## What families and learners say
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us the learner's level, and the municipality if you like
+
+The first task might be eight block towers, a Python sort with a gap column, or a league table from work that everyone reads by position and nobody by distance.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Noord-Holland one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Noord-Holland.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Noord-Holland coding class questions
+
+The province, its towns, the teaching and the terms.
 
 ### Is Haarlem or Amsterdam the capital of Noord-Holland?
 
@@ -259,10 +385,14 @@ The first lesson is free. Group tuition is USD 100 a month for two live lessons 
 
 Between five and ten, matched on level, pace and goal rather than on age, school or municipality. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.
 
+Explore the Netherlands
+
 ## Down to the cities and towns with pages, and up to the country
 
 Inside this province, [Amsterdam](/coding-classes-in-amsterdam) has a page that hands off to eight districts and [Amstelveen](/coding-classes-in-amstelveen) one written for the town with the highest Indian-origin share in the country. [Haarlem](/coding-classes-in-haarlem), [Haarlemmermeer](/coding-classes-in-haarlemmermeer), [Zaanstad](/coding-classes-in-zaanstad), [Alkmaar](/coding-classes-in-alkmaar), [Purmerend](/coding-classes-in-purmerend), [Hilversum](/coding-classes-in-hilversum), [Hoorn](/coding-classes-in-hoorn), [Uithoorn](/coding-classes-in-uithoorn), [Velsen](/coding-classes-in-velsen), [Diemen](/coding-classes-in-diemen) and [Weesp](/coding-classes-in-weesp) have pages of their own as well. Above them all sits the [Netherlands coding hub](/coding-classes-in-netherlands). Across the province line, [Almere](/coding-classes-in-almere) and [Utrecht](/coding-classes-in-utrecht) are the nearest neighbours with pages. For a learner who wants to build models rather than programs, the doors are [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) and the [AI and Python Academy](/ai-and-python-academy-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Noord-Holland.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-noord-holland](https://learn.modernagecoders.com/coding-classes-in-noord-holland#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-noord-holland*

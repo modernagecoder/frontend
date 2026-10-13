@@ -4,46 +4,32 @@ description: "Live online coding, Python and AI classes in Amsterdam-Oost for ag
 canonical: https://learn.modernagecoders.com/coding-classes-in-amsterdam-oost
 source: src/pages/coding-classes-in-amsterdam-oost.html
 ---
-> Coding classes in Amsterdam-Oost reach a district assembled in 2010 out of two older ones, holding a quarter built after 1900, a dock converted from the 1990s and an island under construction since 2002. IJburg-West has 6,830 homes and 16,099 residents. Indische Buurt-West has 6,712 homes and 11,939 residents. The housing stock differs by 118 units and the population by 4,160 people, and every explanation for that lives in who chose to move where. Modern Age Coders teaches live online in English from the Ambonpleinbuurt to the Rieteilanden, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
+> Live online coding, Python and AI classes in Amsterdam-Oost for ages 6 to 67, from the Indische Buurt out to IJburg. The first lesson costs nothing.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / [Amsterdam](/coding-classes-in-amsterdam) / Amsterdam-Oost
-
-Oost, Amsterdam / Live online
-
-# Coding classes in Amsterdam-Oost, where two neighbourhoods with the same number of homes hold 4,160 more people in one than the other
-
-**What are the best coding classes in Amsterdam-Oost?** Coding classes in Amsterdam-Oost reach a district assembled in 2010 out of two older ones, holding a quarter built after 1900, a dock converted from the 1990s and an island under construction since 2002. IJburg-West has 6,830 homes and 16,099 residents. Indische Buurt-West has 6,712 homes and 11,939 residents. The housing stock differs by 118 units and the population by 4,160 people, and every explanation for that lives in who chose to move where. Modern Age Coders teaches live online in English from the Ambonpleinbuurt to the Rieteilanden, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
-
-Two neighbourhoods in the same district. One has 6,830 homes, the other 6,712, a difference of under two percent. One holds 16,099 people and the other 11,939, a difference of thirty-five percent. Nothing about the ground explains that. What differs is the size of the homes and, far more importantly, who wanted them: families took the new island and single people took the older quarter. Any comparison between these two places is, before it is anything else, a comparison between two sets of people who selected themselves.
-
-Facts last verified 8 September 2026. Teaching is online; no Amsterdam-Oost branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Amsterdam-Oost
 
 ## Four courses for a district built in three different centuries
 
 A groep 5 child on the Rieteilanden who wants to make something that runs, a teenager on the Java-eiland who has decided the web is where they build, a student in the Indische Buurt who wants to know what a model does rather than what it says, and an adult in Watergraafsmeer comparing two figures that were never comparable: four separate ways in, one free hour each.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Real typed Python, drawings that follow instructions and a first program that finds a rule, taught in English to the groep 5 to 8 child anywhere in the district.
-- [React Course for Teens](/courses/react-for-teens-complete-masterclass) (Ages 13 to 18): Components, state and a real interface that works on a phone, for the teenager who wants what they build to be usable by somebody else.
-- [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college) (College and adult): Training, testing and breaking a model, for the student who would rather understand the machinery than quote its output.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (Adults): Cleaning, joining and the habit of asking who a comparison is really between, for anybody whose work involves setting two groups side by side.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsReal typed Python, drawings that follow instructions and a first program that finds a rule, taught in English to the groep 5 to 8 child anywhere in the district.See the syllabus](/courses/python-ai-kids-masterclass)[![React Course for Teens course thumbnail](/images/react-teens.webp)Ages 13 to 18React Course for TeensComponents, state and a real interface that works on a phone, for the teenager who wants what they build to be usable by somebody else.See the syllabus](/courses/react-for-teens-complete-masterclass)[![AI and ML Masterclass course thumbnail](/images/ai-ml-college.webp)College and adultAI and ML MasterclassTraining, testing and breaking a model, for the student who would rather understand the machinery than quote its output.See the syllabus](/courses/ai-ml-masterclass-complete-college)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)AdultsData Analysis CourseCleaning, joining and the habit of asking who a comparison is really between, for anybody whose work involves setting two groups side by side.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Oost today
 
 ## A district assembled in 2010 from parts built a century apart
 
 Amsterdam-Oost was created in 2010 by joining the former stadsdelen Oost-Watergraafsmeer and Zeeburg, and it is governed as a bestuurscommissiegebied. Its own entry publishes a population of 142,049 for 1 January 2020 and an area of 30.56 square kilometres. That population is six years older than the wijk figures below, which are 2026, so this page states both dates and does not divide one by the other.
 
-**What the district entry publishes, and when**
-
 | Item | As published | Date | What this page does with it |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Residents | 142,049 | 1 January 2020 | quoted, and never combined with a 2026 figure |
 | Area | 30.56 square kilometres | undated in the entry | quoted; no density is computed from a 2020 population |
 | Formed | a merger of Oost-Watergraafsmeer and Zeeburg | 2010 | the reason the district reads as several places |
@@ -51,6 +37,8 @@ Amsterdam-Oost was created in 2010 by joining the former stadsdelen Oost-Watergr
 | Still being built | IJburg under construction since 2002; Zeeburgereiland still being developed for housing | 2002 onward | the single most important fact on this page |
 
 The wijken named in the entry include Amsteldorp, Betondorp, the Dapperbuurt, Frankendael, IJburg, the Indische Buurt, the Oostelijk Havengebied, the Oosterparkbuurt, the Transvaalbuurt, the Weesperzijde and Zeeburgereiland. Three of them carry full published figures on this page, and the rest are named without invented numbers. The city page in this series holds the picture for Amsterdam as a whole and this one does not repeat it.
+
+Where the learners are
 
 ## Three wijken, three building eras, three completely different populations
 
@@ -80,7 +68,11 @@ Betondorp, Amsteldorp, Frankendael, the Dapperbuurt, the Oosterparkbuurt, the Tr
 
 Nothing at all. A learner is placed on what they can already do, so a child on Steigereiland and a child off the Timorplein sit in the same group when they are at the same stage. The wijk is not a field in the form.
 
-**A check this page ran and handed on** The five age bands published for each of these three wijken add to 16,100, 20,570 and 11,950 against populations of 16,099, 20,556 and 11,939. All three are small overshoots, and all three sit inside the twelve and a half that rounding five figures to the nearest five can produce. Why that bound is the right test, and what to do when a gap exceeds it, is the argument of the Amsterdam-Noord page in this series, so this page notes the check and moves on.
+A check this page ran and handed on
+
+The five age bands published for each of these three wijken add to 16,100, 20,570 and 11,950 against populations of 16,099, 20,556 and 11,939. All three are small overshoots, and all three sit inside the twelve and a half that rounding five figures to the nearest five can produce. Why that bound is the right test, and what to do when a gap exceeds it, is the argument of the Amsterdam-Noord page in this series, so this page notes the check and moves on.
+
+Verified local facts
 
 ## Every figure, its source, its year, and the comparisons refused
 
@@ -106,7 +98,11 @@ Amsterdam-Oost: 142,049 inwoners on 1 January 2020; oppervlakte 30.56 square kil
 
 No district density, because the published population is from 2020 and the area carries no date. No district average of any kind, because three of the district's wijken were read and a partial average is not an average. No comparison of the 2020 district population with any 2026 wijk figure. Mixing vintages is the argument of the Apeldoorn page in this series and this page declines to demonstrate it again.
 
-**What this page claims and does not claim about the differences** The three wijken differ enormously and every figure quoted for them is published. What this page does not do is attribute those differences to the places. It does not say that IJburg produces families, that the Indische Buurt produces single households, or that either neighbourhood causes an income. It says that homes of different sizes were built in different decades and that different people chose them, which is the only claim the data actually supports. Modern Age Coders has no connection to the stadsdeel, the city or any school named here and claims none.
+What this page claims and does not claim about the differences
+
+The three wijken differ enormously and every figure quoted for them is published. What this page does not do is attribute those differences to the places. It does not say that IJburg produces families, that the Indische Buurt produces single households, or that either neighbourhood causes an income. It says that homes of different sizes were built in different decades and that different people chose them, which is the only claim the data actually supports. Modern Age Coders has no connection to the stadsdeel, the city or any school named here and claims none.
+
+Signature project
 
 ## Same number of homes, 4,160 more people: who moved, not what happened
 
@@ -124,10 +120,8 @@ Nobody was assigned to either place. Family-sized homes went up on new land afte
 
 Would the same households have looked different if they had swapped neighbourhoods? If you cannot answer that, and here nobody can, then you are not comparing two places at all. You are comparing two groups of people who arranged themselves, and the neighbourhood is a label on the outcome rather than a cause of it.
 
-**Three wijken, three eras, and the sorting that produced the difference**
-
 | Wijk and when it was built | Residents | Dwellings | People per dwelling | Under fifteen, and sixty-five plus |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | IJburg-West, under construction since 2002 | 16,099 | 6,830 | 2.36 | 17 percent, and 7 percent |
 | Oostelijk Havengebied, docks converted from the 1990s | 20,556 | 10,585 | 1.94 | 11 percent, and 15 percent |
 | Indische Buurt-West, built after 1900 | 11,939 | 6,712 | 1.78 | 11 percent, and 12 percent |
@@ -137,14 +131,14 @@ Would the same households have looked different if they had swapped neighbourhoo
 
 Almost nobody is assigned to a neighbourhood, a school, a product, a gym or a newsletter. People arrange themselves, and once they have, any comparison between the groups measures the arranging at least as much as it measures the thing. The example here is unusually clean because the housing stock is nearly identical in size and the populations are not, so the buildings can be ruled out and the sorting cannot. The version that costs real money is the one where the sorting is invisible. A school whose pupils outperform another school may be teaching better or may be admitting differently, and league tables cannot tell those apart. Customers who use a feature may be more loyal because of it or may have been the loyal ones who tried it. A town with an unusual health statistic may have a cause worth finding or may simply be where people move when they retire. In every case the question that separates the two is the same, and it is a question about a world that did not happen: what would these same people have looked like in the other place? Sometimes there is a way to get at that, through a change nobody chose, a lottery, a boundary drawn for unrelated reasons, a rule that applied to some people and not others. Usually there is not, and then the honest report describes the groups, says plainly that they selected themselves, and refuses the causal sentence that everybody wants. Describing is not a lesser activity than explaining. It is what you are entitled to do.
 
+Reliable pipeline
+
 ## Five habits for a comparison nobody was assigned to
 
 Two schools, two branches, two cohorts, users against non-users, a region against the national figure: whenever people ended up in the groups by choosing, the comparison is about the choosing. Practised on two neighbourhoods with the same number of front doors.
 
-**Reading a comparison between self-selected groups**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Ask how people got in | Write down the mechanism that put each person in each group | Choice mistaken for assignment | The sorting, in the open where it can be argued with |
 | Hold the obvious things constant | Find the pair that is alike in the thing you can measure | A difference explained by the first idea available | A comparison that has ruled something out |
 | State the counterfactual | Say what the same people would have looked like elsewhere | A causal sentence nobody can support | A clear view of whether the question is answerable |
@@ -165,14 +159,37 @@ A real comparison from work between users and non-users, or between two teams or
 
 District population, area, formation, governance and the wijk list come from the stadsdeel entry; every population, household, age, area, density, dwelling, value, tenure and income figure comes from the national statistics office page for the wijk named beside it, with populations for 2026, household and housing figures for 2025 and incomes for 2024. The people-per-dwelling ratios of 2.36, 1.94 and 1.78, the differences of 118 dwellings and 4,160 residents, the 35 percent and the three age-band sums are this page dividing, subtracting and adding published numbers, and are labelled as arithmetic wherever they appear.
 
+Learning ladder
+
 ## From the football club and the chess club to a comparison that names its own sorting
 
 The rung is decided in the free hour by what the learner can already do, and never by which of the district's neighbourhoods the address falls in.
 
-- **Ages 6 to 10: Who chose which club?** Children discover that the answer was settled before the race began. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Minecraft Coding for Kids](/courses/minecraft-coding-for-kids-course)
-- **Ages 11 to 13: Alike in one thing, unlike in another** Learners hunt for the pair that holds something constant, and say what that buys. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Web Development for Kids](/courses/kids-ai-web-development-course)
-- **Ages 14 to 18: Comparisons that declare their groups** Teenagers write code that refuses to compare two groups until told how people entered them. [React Course for Teens](/courses/react-for-teens-complete-masterclass), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **Ages 18 to 67: The A and B nobody was assigned to** Adults take a real users-against-non-users comparison and find the selection inside it. [AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### Who chose which club?
+
+Children discover that the answer was settled before the race began.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Minecraft Coding for Kids](/courses/minecraft-coding-for-kids-course)Ages 11 to 13
+
+### Alike in one thing, unlike in another
+
+Learners hunt for the pair that holds something constant, and say what that buys.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Web Development for Kids](/courses/kids-ai-web-development-course)Ages 14 to 18
+
+### Comparisons that declare their groups
+
+Teenagers write code that refuses to compare two groups until told how people entered them.
+
+[React Course for Teens](/courses/react-for-teens-complete-masterclass)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)Ages 18 to 67
+
+### The A and B nobody was assigned to
+
+Adults take a real users-against-non-users comparison and find the selection inside it.
+
+[AI and ML Masterclass](/courses/ai-ml-masterclass-complete-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## An AI will explain why IJburg has more children. Why should a teenager in Oost learn to reject the explanation?
 
@@ -184,30 +201,139 @@ So the learner practises writing the comparison that declares its own groups: ho
 
 The case for a child in Amsterdam-Oost learning to code in 2026 is therefore not about islands. It is that adult life is full of comparisons between groups that assembled themselves, that the difference between choosing and being placed decides whether any conclusion is available at all, and that two neighbourhoods with the same number of front doors and 4,160 different residents make the point better than any textbook. The longer argument is in [why learning to code still repays a child in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes from the Dapperbuurt out to the last island
 
 Oost runs from streets built before the First World War to ground that did not exist twenty-five years ago, and the far end of it is a genuine journey from the middle of the city.
 
-- **The lesson comes to the island** One fixed hour a week at the kitchen table on Steigereiland, the KNSM-eiland or off the Timorplein, with no tram, no bridge and no room to book at either end.
-- **English in the class, Dutch on the school forms** Teaching runs in English throughout. Groep, havo, vwo and profielkeuze stay in Dutch, because those are the words on the paperwork a child brings home.
-- **What the first free hour produces** A level demonstrated rather than asserted, a named course that follows from it, and a weekly time. Nobody is asked for a card during it.
-- **Sorted by stage, not by island** Two learners at the same level work together whether they are on new land or in a hundred-year-old flat, and two at different levels do not.
-- **Twice weekly, regio Noord holidays** Two live lessons a week in a repeating slot, normally eight in a month. Noord-Holland takes its school holidays with regio Noord, and weeks away go into the plan before it is agreed.
-- **Three and a half hours ahead, four and a half in winter** Only the Dutch clock changes, so the distance to the teacher depends on the month. After school, early evening and both weekend days work at either setting.
+### The lesson comes to the island
 
-**The district with the youngest neighbourhood in this series** IJburg-West has 2,715 residents under fifteen and 1,115 over sixty-five, the only wijk on any Amsterdam page here where children outnumber pensioners more than two to one. That is a large cohort of school-age learners in one place and a thin one a few kilometres away, which is exactly the situation where a group formed on ability from across the world beats a group formed from whoever lives nearby, at every age up to sixty-seven.
+One fixed hour a week at the kitchen table on Steigereiland, the KNSM-eiland or off the Timorplein, with no tram, no bridge and no room to book at either end.
+
+### English in the class, Dutch on the school forms
+
+Teaching runs in English throughout. Groep, havo, vwo and profielkeuze stay in Dutch, because those are the words on the paperwork a child brings home.
+
+### What the first free hour produces
+
+A level demonstrated rather than asserted, a named course that follows from it, and a weekly time. Nobody is asked for a card during it.
+
+### Sorted by stage, not by island
+
+Two learners at the same level work together whether they are on new land or in a hundred-year-old flat, and two at different levels do not.
+
+### Twice weekly, regio Noord holidays
+
+Two live lessons a week in a repeating slot, normally eight in a month. Noord-Holland takes its school holidays with regio Noord, and weeks away go into the plan before it is agreed.
+
+### Three and a half hours ahead, four and a half in winter
+
+Only the Dutch clock changes, so the distance to the teacher depends on the month. After school, early evening and both weekend days work at either setting.
+
+The district with the youngest neighbourhood in this series
+
+IJburg-West has 2,715 residents under fifteen and 1,115 over sixty-five, the only wijk on any Amsterdam page here where children outnumber pensioners more than two to one. That is a large cohort of school-age learners in one place and a thin one a few kilometres away, which is exactly the situation where a group formed on ability from across the world beats a group formed from whoever lives nearby, at every age up to sixty-seven.
+
+Fees
 
 ## The fee, in dollars, the same on old ground and new
 
 Written down here instead of held back for a call.
 
-- First class: USD 0. A full lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A full lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 There is one international rate, quoted in dollars, and no euro edition, so an address on the Rieteilanden sees exactly what an address in the Ambonpleinbuurt sees. Nothing is charged until the free lesson has settled a course and an hour, and payment is arranged over WhatsApp afterwards. Pausing, changing plan and missing a week are described on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Amsterdam-Oost.)Reviews
+
+## Six Google reviews, kept word for word as they were written
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us the stage, not the island
+
+The first task might be the football club against the chess club, a comparison function that will not run until told how people entered each group, or a users-against-non-users chart from work that has been read causally for years.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Amsterdam-Oost one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Amsterdam-Oost.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Amsterdam-Oost coding class questions
+
+The district, its three eras, its selection problem, the teaching and the terms.
 
 ### How can two neighbourhoods with the same number of homes hold such different populations?
 
@@ -249,10 +375,14 @@ The first lesson is free. After it, group tuition is USD 100 a month for two liv
 
 Fifteen to twenty, matched on level, pace and goal rather than on age, school or neighbourhood. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
+Explore Amsterdam and beyond
+
 ## West to the canals, north across the IJ, and out to the country
 
 West of here is [Amsterdam-Centrum](/coding-classes-in-amsterdam-centrum), whose page takes apart a district less crowded than its own neighbourhoods, and north across the water is [Amsterdam-Noord](/coding-classes-in-amsterdam-noord), where the age bands outnumber the population. The city page, [coding classes in Amsterdam](/coding-classes-in-amsterdam), carries the picture for all eight districts, and the city sits inside [Noord-Holland](/coding-classes-in-noord-holland). Everything descends from the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner after trained models rather than running programs should start at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Take this to WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Amsterdam-Oost.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-amsterdam-oost](https://learn.modernagecoders.com/coding-classes-in-amsterdam-oost#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-amsterdam-oost*

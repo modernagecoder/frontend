@@ -4,46 +4,32 @@ description: "Live online coding, Python and AI lessons for Drogheda learners ag
 canonical: https://learn.modernagecoders.com/best-coding-class-in-drogheda
 source: src/pages/best-coding-class-in-drogheda.html
 ---
-> Drogheda counts 43,929 usual residents in the census town tables, living in 15,751 households, 12,860 of which report broadband. Our teaching arrives at the address: a live teacher twice in most weeks, with a group of fifteen to twenty learners at one level or with a single learner, for ages six through to sixty-seven. The opening lesson carries no charge. After it, a shared place is USD 100 a month and private teaching is USD 150.
+> Live online coding, Python and AI lessons for Drogheda learners aged 6 to 67, taught live by a teacher in small ability groups or one to one. First lesson free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [County Louth](/coding-classes-in-county-louth) / Drogheda
-
-Drogheda, Louth and Meath / Live online
-
-# Coding classes in Drogheda
-
-**What is the best coding class in Drogheda?** Drogheda counts 43,929 usual residents in the census town tables, living in 15,751 households, 12,860 of which report broadband. Our teaching arrives at the address: a live teacher twice in most weeks, with a group of fifteen to twenty learners at one level or with a single learner, for ages six through to sixty-seven. The opening lesson carries no charge. After it, a shared place is USD 100 a month and private teaching is USD 150.
-
-Three rows of one Drogheda census table count people who are not in work and are looking for it: 438 seeking a first regular job, 725 described as short term unemployed and 1,287 as long term unemployed. Add them and you have 2,450. Now choose a denominator. Against the 35,128 people aged fifteen and over in that same table, 2,450 is 7.0%. Against the 21,741 who are either at work or in those three rows, it is 11.3%. Both divisions are defensible and they differ by 4.3 points. What neither of them is allowed to be called is the unemployment rate for Drogheda, because that name belongs to a figure the Central Statistics Office produces from its own series and not to our arithmetic on one town table. Learning to keep those apart is the project on this page.
-
-Facts last verified 18 September 2026. Teaching is online; no Drogheda branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Drogheda
 
 ## Courses Drogheda learners start with
 
 Choose on age and interest. The course teacher takes the free lesson and decides the level from what they see.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Scratch projects where the program has to say exactly what it measured.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Python from first principles, with results that carry a label rather than floating free.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): Real tables in Python, deriving figures and documenting exactly how each was made.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (College and adult): For adults who publish numbers internally and need each one to carry its own definition.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsScratch projects where the program has to say exactly what it measured.See the syllabus](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsPython from first principles, with results that carry a label rather than floating free.See the syllabus](/courses/python-ai-kids-masterclass)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensReal tables in Python, deriving figures and documenting exactly how each was made.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)College and adultData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For adults who publish numbers internally and need each one to carry its own definition.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## Two honest rates, no official name
 
 One numerator and two denominators, all four figures taken from the same Census 2022 table for Drogheda. The percentages are ours.
 
-**Building a rate from the principal economic status table**
-
 | Part of the calculation | Rows used, as published | Figure |
-|---|---|---|
+| --- | --- | --- |
 | Numerator | Looking for first regular job, short term unemployed, long term unemployed | 2,450 |
 | Denominator one | Everyone aged 15 and over in the table | 35,128 |
 | Result one | Our division | 7.0% |
@@ -69,14 +55,14 @@ Conversion rate: out of visitors, sessions, or qualified leads. Churn rate: by c
 
 The project is a function with one required extra return value. Given the rows and a chosen denominator it returns the percentage and a definition string naming the numerator rows, the denominator and the table, and the program prints the two together or not at all. The learner produces both Drogheda figures, 7.0% and 11.3%, and then writes the sentence that a careless version would have produced instead, so that the difference between the two is on the page in front of them.
 
+Drogheda in the town tables
+
 ## The town as the census counts it
 
 The CSO publishes this built-up area as Drogheda, Counties Louth and Meath, since the town sits on both sides of the Boyne and the county boundary. All figures below are for that area.
 
-**Drogheda, Census 2022**
-
 | Measured | Count |
-|---|---|
+| --- | --- |
 | Usual residents | 43,929 |
 | Households | 15,751 |
 | Households with a broadband connection | 12,860 |
@@ -96,16 +82,18 @@ Of 19,199, some 9,508 drive, 2,739 walk, 1,552 give home as their main answer, 1
 
 A separate table records 4,530 working residents doing at least some work at home, 12,291 who never do and 2,378 who did not state.
 
-**The station** Irish Rail gives Drogheda (MacBride) as McBride Station, Dublin Road, Drogheda, Co. Louth, Eircode A92 W422. It is staffed from 05:30 until 01:30 on weekdays, with a booking office in the mornings, toilets, an enclosed waiting room, free Wi-Fi, a weekday coffee cart, a drinks machine on platform 1 and a filtered water refill unit.
+The station
+
+Irish Rail gives Drogheda (MacBride) as McBride Station, Dublin Road, Drogheda, Co. Louth, Eircode A92 W422. It is staffed from 05:30 until 01:30 on weekdays, with a booking office in the mornings, toilets, an enclosed waiting room, free Wi-Fi, a weekday coffee cart, a drinks machine on platform 1 and a filtered water refill unit.
+
+The table in full
 
 ## Every row, with the wording the census uses
 
 The principal economic status table for Drogheda, all rows, out of 35,128 people aged fifteen and over. The labels are the table's own and the shares are ours.
 
-**Principal economic status, Drogheda residents aged 15 and over**
-
 | Row as published | People | Share |
-|---|---|---|
+| --- | --- | --- |
 | At work | 19,291 | 54.9% |
 | Retired | 5,084 | 14.5% |
 | Student | 3,853 | 11.0% |
@@ -128,7 +116,11 @@ Short term and long term unemployed are separate published rows, as is looking f
 
 This page counts and labels. It offers no explanation for the size of any row, and nothing here is advice to anybody about work, study or benefits.
 
-**The town gallery** Highlanes Gallery describes itself as Drogheda's Municipal Art Gallery, at 36 Saint Laurence Street, A92 F7PH, open from 10.30 to 5.00 Tuesday to Saturday. Its own site records that the gallery opened on 4 October 2006 and that the Drogheda Municipal Art Collection has grown to more than 100 artworks. We have no connection with it and reproduce none of its prices.
+The town gallery
+
+Highlanes Gallery describes itself as Drogheda's Municipal Art Gallery, at 36 Saint Laurence Street, A92 F7PH, open from 10.30 to 5.00 Tuesday to Saturday. Its own site records that the gallery opened on 4 October 2006 and that the Drogheda Municipal Art Collection has grown to more than 100 artworks. We have no connection with it and reproduce none of its prices.
+
+Learning in Drogheda
 
 ## How a course runs from here
 
@@ -148,14 +140,37 @@ Data, Python and AI for adults at any starting point, including the 4,530 reside
 
 Irish Rail and Highlanes Gallery are named only from their own published pages, and neither is connected with us, nor is Louth County Council or Meath County Council. Census counts on this page come from Central Statistics Office Census 2022 tables for this built-up area, unchanged. The two rates in the project and the 81.6% broadband figure are ours, each printed with the rows and the denominator used, and none of them is given an official name, because a derived figure that borrows one is the exact mistake this page is written about.
 
+Learning ladder
+
 ## From working it out to writing it down
 
 Ages are a guide; the free lesson sets the level.
 
-- **Ages 6 to 10: Say what you counted** Counting in block code and labelling the answer so somebody else understands it. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 11 to 13: Fractions with names** Building percentages in Python where the denominator is chosen deliberately and named. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Derived figures** Producing new numbers from published data and documenting how each was made. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Definitions that ship** Writing measures for work whose definition travels with the number into every report. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### Say what you counted
+
+Counting in block code and labelling the answer so somebody else understands it.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 11 to 13
+
+### Fractions with names
+
+Building percentages in Python where the denominator is chosen deliberately and named.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Derived figures
+
+Producing new numbers from published data and documenting how each was made.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Definitions that ship
+
+Writing measures for work whose definition travels with the number into every report.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## Ask for the unemployment rate in Drogheda
 
@@ -167,30 +182,139 @@ A learner who has built the definition string asks the question properly and ans
 
 Calculating is the easy half. Saying exactly what was calculated, and refusing a name the figure has not earned, is the half worth teaching. The longer argument is in [why learning to code is still worth it](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Practicalities for a Drogheda household
 
 Six short points.
 
-- **Taught as it happens** A teacher on the call throughout, working from the learner's screen rather than a script.
-- **Levels, not year groups** Fifteen to twenty learners at the same stage, from Drogheda, elsewhere in Ireland and other countries.
-- **Two a week** Roughly eight lessons a month, in a slot fixed once and then protected.
-- **Term dates first** Mid-terms, holidays and exam weeks are agreed into the plan before lessons start.
-- **What is needed** A computer with a keyboard, working sound, and a household connection that carries video.
-- **One to one** Where nothing at the right level runs at a workable hour, the course is taught privately.
+### Taught as it happens
 
-**The lesson with no journey** Drogheda sends 9,508 residents out by car each working day and 445 by train. The coding lesson is the appointment that stays at the kitchen table.
+A teacher on the call throughout, working from the learner's screen rather than a script.
+
+### Levels, not year groups
+
+Fifteen to twenty learners at the same stage, from Drogheda, elsewhere in Ireland and other countries.
+
+### Two a week
+
+Roughly eight lessons a month, in a slot fixed once and then protected.
+
+### Term dates first
+
+Mid-terms, holidays and exam weeks are agreed into the plan before lessons start.
+
+### What is needed
+
+A computer with a keyboard, working sound, and a household connection that carries video.
+
+### One to one
+
+Where nothing at the right level runs at a workable hour, the course is taught privately.
+
+The lesson with no journey
+
+Drogheda sends 9,508 residents out by car each working day and 445 by train. The coding lesson is the appointment that stays at the kitchen table.
+
+Fees
 
 ## Drogheda class fees
 
 Three lines, all of it.
 
-- First class: USD 0. A full opening lesson, taught and assessed, at no cost.
-- Group tuition: USD 100 a month. One month in an ability group of fifteen to twenty, about eight live lessons.
-- Private tuition: USD 150 a month. One month of private teaching on the same weekly pattern.
+First class**USD 0**
+
+A full opening lesson, taught and assessed, at no cost.
+
+Group tuition**USD 100**
+
+One month in an ability group of fifteen to twenty, about eight live lessons.
+
+Private tuition**USD 150**
+
+One month of private teaching on the same weekly pattern.
 
 Fees are monthly and priced in US dollars on the single rate for families outside India, so Drogheda sees the same figure as Dundalk or Navan and no euro list beside it. Nothing is charged until the opening lesson has fixed a course and an hour, and the pricing page explains breaks, missed weeks and moves between group and private teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20arrange%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Drogheda.)Reviews
+
+## Six of our families, printed from Google as written
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Drogheda lesson
+
+Send an age and an interest and we plan the first hour around it, whether that is a game to build, a program to debug or a figure that needs its definition written beside it.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Drogheda one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20arrange%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Drogheda.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Drogheda coding class questions
+
+What Drogheda families ask us first.
 
 ### How many people live in Drogheda?
 
@@ -232,10 +356,14 @@ The first lesson is free. After that a shared place costs USD 100 a month and br
 
 Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
+Explore Ireland
+
 ## Around Drogheda
 
 The county pages on either side of the town are [County Louth](/coding-classes-in-county-louth) and [County Meath](/coding-classes-in-county-meath), with [Ashbourne](/best-coding-class-in-ashbourne) to the south west and all of it inside [Leinster](/coding-and-ai-classes-in-leinster). Our [comparison page](/best-online-coding-classes-ireland) sets us beside other online schools, and the [Ireland hub](/coding-classes-in-ireland) lists everything we have built.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20arrange%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Drogheda.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-drogheda](https://learn.modernagecoders.com/best-coding-class-in-drogheda#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-class-in-drogheda*

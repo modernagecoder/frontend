@@ -4,46 +4,32 @@ description: "Live online coding and Python classes for Royal Leamington Spa, Li
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-royal-leamington-spa
 source: src/pages/online-coding-and-python-classes-in-royal-leamington-spa.html
 ---
-> The ONS built-up area of Royal Leamington Spa held 51,310 usual residents at the 2021 census, and Warwick district as a whole held 148,453. Lillington, Milverton and Sydenham are suburban areas of the town in the postcode gazetteer. Learners there, from age six to 67, study Python, coding, vibe coding, AI and maths with Modern Age Coders over live video. A tutor in India leads every session, taken privately or as one of a group of fifteen to twenty at the same level. We like projects where the true answer is known, so a learner can see exactly how wrong a clever method is. In the Leamington project the learner hides the inside of a real census table, rebuilds it in Python from the totals, and then compares. Lesson one carries no charge. From the second lesson the price is USD 100 per month in a class and USD 150 per month for individual tuition.
+> Live online coding and Python classes for Royal Leamington Spa, Lillington, Milverton and Sydenham, with vibe coding and AI, ages 6 to 67. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [West Midlands](/coding-and-ai-classes-in-west-midlands-region) / Royal Leamington Spa
-
-Royal Leamington Spa, Warwick district, Warwickshire / Live online
-
-# Online coding and Python classes in Royal Leamington Spa
-
-**Which online coding and Python classes are best for Royal Leamington Spa?** The ONS built-up area of Royal Leamington Spa held 51,310 usual residents at the 2021 census, and Warwick district as a whole held 148,453. Lillington, Milverton and Sydenham are suburban areas of the town in the postcode gazetteer. Learners there, from age six to 67, study Python, coding, vibe coding, AI and maths with Modern Age Coders over live video. A tutor in India leads every session, taken privately or as one of a group of fifteen to twenty at the same level. We like projects where the true answer is known, so a learner can see exactly how wrong a clever method is. In the Leamington project the learner hides the inside of a real census table, rebuilds it in Python from the totals, and then compares. Lesson one carries no charge. From the second lesson the price is USD 100 per month in a class and USD 150 per month for individual tuition.
-
-Published statistics often give you the edges of a table and keep the middle back. You are told how many homes each neighbourhood has, and how many homes of each type the town has, but not how many of each type are in each neighbourhood. In 1940 W. Edwards Deming and Frederick Stephan described a procedure for filling in the middle: start with a guess, scale every row to its total, scale every column to its total, and repeat until both fit. It is a dozen lines of Python. Whether the result deserves to be believed is a separate question, and this project answers it with data where the middle is in fact known.
-
-Facts last verified 30 September 2026. Teaching is online; no Royal Leamington Spa branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentRecommended courses
 
 ## Python and coding courses for Leamington Spa
 
 A course for every age group. Each opens with a live lesson that is free to take and needs no card.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): How to think: tables, totals and "does this add up?" puzzles solved by reasoning.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Vibe coding for children, with Scratch games drafted by AI and checked by the child.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python for teenagers from basics to data work, including the Leamington table project.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Students and adults): Python from the beginning through data analysis, automation and AI agents.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsHow to think: tables, totals and "does this add up?" puzzles solved by reasoning.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsVibe coding for children, with Scratch games drafted by AI and checked by the child.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython for teenagers from basics to data work, including the Leamington table project.See the syllabus](/courses/python-complete-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)Students and adultsPython MasterclassPython from the beginning through data analysis, automation and AI agents.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)The town
 
 ## Royal Leamington Spa, Lillington, Milverton and Sydenham
 
 Census counts on two boundaries and the three suburb names the gazetteer confirms.
 
-**Usual residents, Census 2021 (ONS)**
-
 | Area | Usual residents |
-|---|---|
+| --- | --- |
 | Royal Leamington Spa built-up area | 51,310 |
 | Warwick district | 148,453 |
 
@@ -53,6 +39,8 @@ Warwick district takes in Warwick, Kenilworth and Whitnash as well as Leamington
 
 The Warwickshire set includes the [county page](/coding-classes-in-warwickshire), [Rugby](/online-coding-and-python-classes-in-rugby) and [Nuneaton](/vibe-coding-and-ai-agents-classes-in-nuneaton). Why we put reasoning ahead of tools is on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Leamington project
+
 ## Iterative proportional fitting: rebuilding a table from its edges
 
 A real table with 860 cells, its inside hidden, and three attempts to put it back.
@@ -61,10 +49,8 @@ The census gives the type of home for every household in each of the 172 output 
 
 The procedure needs a first guess, called the seed. With every cell set to 1, the program scales each row to its total, then each column to its total, and in this case it is finished after a single pass. Every total now matches to the household. Then the hidden table is uncovered and the two are compared cell by cell.
 
-**Rebuilding the Leamington housing table from its totals, our Python run**
-
 | Seed | Passes needed | Households in the wrong cell | Cells within 10 of the truth |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Every cell the same | 1 | 9,224 (41.7%) | 238 of 860 |
 | Housing mix of the wider census zone | 2 | 8,569 (38.8%) | 298 of 860 |
 | True figures of the closest other area | 5 | 7,994 (36.2%) | 416 of 860 |
@@ -89,14 +75,14 @@ Run all three seeds on the 860-cell table, measure the error, and find the zeros
 
 Housing counts are Census 2021 table TS044 from Nomis, published by the Office for National Statistics under the Open Government Licence. The procedure is from Deming and Stephan (1940). The choice of seeds, the error measure and the results are our own.
 
+Code, data and AI
+
 ## What a rebuilt table teaches about Python and AI
 
 Output that satisfies every check you thought of can still be wrong in every way you did not.
 
-**From the Leamington table to AI-assisted coding**
-
 | In the project | The wider lesson |
-|---|---|
+| --- | --- |
 | Totals matched in every rebuild | Passing a check is not the same as being right |
 | Over a third of households were misplaced | Test against known answers whenever they exist |
 | A better seed gave a slightly better table | What goes in limits what can come out |
@@ -107,14 +93,37 @@ This matters beyond statistics. Ask an AI assistant to "estimate the breakdown" 
 
 Modern Age Coders is separate from the Office for National Statistics, Nomis and postcodes.io. The figures are theirs; the experiment and its faults are ours.
 
+Learning path
+
 ## From grids and totals to data work in Python
 
 We start from the school year you give us and adjust after seeing the learner at work.
 
-- **Years 2 to 6: How to think** Grids, totals and logic puzzles, reasoning aloud before coding. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Code with an AI helper** Scratch games and early Python, with the child as the checker. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python for data** Loops, tables and real datasets, tested against known answers. [Python for Teens](/courses/python-complete-masterclass-teens), [High School Mathematics](/courses/complete-high-school-mathematics-mastery)
-- **Adults: Analysis and agents** Python, statistics and AI agents that show their working. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Statistics & Probability](/courses/statistics-probability-maths-course)
+Years 2 to 6
+
+### How to think
+
+Grids, totals and logic puzzles, reasoning aloud before coding.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Code with an AI helper
+
+Scratch games and early Python, with the child as the checker.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python for data
+
+Loops, tables and real datasets, tested against known answers.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[High School Mathematics](/courses/complete-high-school-mathematics-mastery)Adults
+
+### Analysis and agents
+
+Python, statistics and AI agents that show their working.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Statistics & Probability](/courses/statistics-probability-maths-course)Python, tables and AI
 
 ## What is iterative proportional fitting, and can a table be rebuilt from its totals?
 
@@ -126,30 +135,139 @@ A learner who has watched perfect totals sit on top of a wrong table becomes muc
 
 Leamington teenagers who can test a method against the truth will use AI tools with their eyes open, and writing the code is how that judgement is formed. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+The format
+
 ## Leamington lessons, live and online
 
 Join from any room with a computer, keyboard and camera. Python needs a proper keyboard, so a phone will not do.
 
-- **Typing, not watching** Learners build and run their own programs with the tutor looking on and asking them to explain.
-- **Level set by the trial** We hold the course recommendation until the free lesson has shown us where the learner stands.
-- **Trial at no cost** There is no fee and no card request for the first lesson.
-- **Fifteen to twenty learners** Every group is made of learners at one stage, wherever in the UK they live.
-- **Roughly eight lessons monthly** Two a week in term; Warwickshire holiday weeks are dropped if you send the dates.
-- **UK time, all year** Tutors absorb the spring and autumn clock changes so your slot holds.
+### Typing, not watching
 
-**Why we teach online and live** Grouping by level works only when you can draw on learners from many towns. A live tutor then does what no recording can: notices confusion and asks the next question.
+Learners build and run their own programs with the tutor looking on and asking them to explain.
+
+### Level set by the trial
+
+We hold the course recommendation until the free lesson has shown us where the learner stands.
+
+### Trial at no cost
+
+There is no fee and no card request for the first lesson.
+
+### Fifteen to twenty learners
+
+Every group is made of learners at one stage, wherever in the UK they live.
+
+### Roughly eight lessons monthly
+
+Two a week in term; Warwickshire holiday weeks are dropped if you send the dates.
+
+### UK time, all year
+
+Tutors absorb the spring and autumn clock changes so your slot holds.
+
+Why we teach online and live
+
+Grouping by level works only when you can draw on learners from many towns. A live tutor then does what no recording can: notices confusion and asks the next question.
+
+Fees
 
 ## Fees for Leamington Spa
 
 Leamington learners pay the rates that apply in every country other than India.
 
-- First class: USD 0. The first lesson is free, full length, and ends with a course suggestion.
-- Group tuition: USD 100 a month. Group lessons: around eight a month.
-- Private tuition: USD 150 a month. One-to-one lessons: around eight a month.
+First class**USD 0**
+
+The first lesson is free, full length, and ends with a course suggestion.
+
+Group tuition**USD 100**
+
+Group lessons: around eight a month.
+
+Private tuition**USD 150**
+
+One-to-one lessons: around eight a month.
 
 We set prices in US dollars and do not convert them to pounds on this page. You are charged nothing for the trial, and the first invoice is raised after you agree a course and a time. For holidays, absences and switching format, see the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Leamington%20Spa%20and%20would%20like%20a%20free%20Python%20or%20coding%20trial%20lesson.)Reviews
+
+## Reviews on Google from Warwickshire families and UK learners
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson from Leamington Spa
+
+Give us the learner's age or school year and an interest. A trial could be a totals puzzle on paper, a Scratch game with AI help, first Python, or a small table fitted in code.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Royal Leamington Spa one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Leamington%20Spa%20and%20would%20like%20a%20free%20Python%20or%20coding%20trial%20lesson.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Leamington Spa questions
+
+Table fitting, the housing project, Python, vibe coding and arrangements.
 
 ### What is the population of Royal Leamington Spa?
 
@@ -191,10 +309,14 @@ A free first lesson, then USD 100 a month for group lessons or USD 150 a month f
 
 They pause for any weeks you ask us to leave out.
 
+Across Warwickshire
+
 ## Other Warwickshire pages and their projects
 
 Read about [Rugby](/online-coding-and-python-classes-in-rugby), [Nuneaton](/vibe-coding-and-ai-agents-classes-in-nuneaton) or [Coventry](/best-coding-class-in-coventry). The [Warwickshire page](/coding-classes-in-warwickshire) and the [UK hub](/coding-classes-in-united-kingdom) connect to every other page.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Send us a WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Leamington%20Spa%20and%20would%20like%20a%20free%20Python%20or%20coding%20trial%20lesson.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/online-coding-and-python-classes-in-royal-leamington-spa](https://learn.modernagecoders.com/online-coding-and-python-classes-in-royal-leamington-spa#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-royal-leamington-spa*

@@ -4,51 +4,37 @@ description: "Live online coding, Python and maths classes across North Ayrshire
 canonical: https://learn.modernagecoders.com/coding-classes-in-north-ayrshire
 source: src/pages/coding-classes-in-north-ayrshire.html
 ---
-> North Ayrshire had about 133,400 residents in roughly 64,200 households at the 2022 census, at 150.7 people per square kilometre. Irvine is its largest town, followed by Kilwinning, Saltcoats, Largs and Ardrossan, and the council area also takes in the Isle of Arran. Live video lessons from our teachers in India start with a free session that shows which stage suits the learner, anything from P1 to S6 or an adult return to study. Coding, Python and maths are taught to ages 6 to 67, in groups of fifteen to twenty or one-to-one. The North Ayrshire project starts beneath a painted ceiling in Largs. Staying on costs USD 100 monthly for a group seat, or USD 150 monthly for private teaching.
+> Live online coding, Python and maths classes across North Ayrshire, from Irvine, Kilwinning and Saltcoats to Largs, Ardrossan, Stevenston and Arran.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / North Ayrshire
-
-North Ayrshire / Live online
-
-# Coding classes in North Ayrshire
-
-**What are the best coding classes in North Ayrshire?** North Ayrshire had about 133,400 residents in roughly 64,200 households at the 2022 census, at 150.7 people per square kilometre. Irvine is its largest town, followed by Kilwinning, Saltcoats, Largs and Ardrossan, and the council area also takes in the Isle of Arran. Live video lessons from our teachers in India start with a free session that shows which stage suits the learner, anything from P1 to S6 or an adult return to study. Coding, Python and maths are taught to ages 6 to 67, in groups of fifteen to twenty or one-to-one. The North Ayrshire project starts beneath a painted ceiling in Largs. Staying on costs USD 100 monthly for a group seat, or USD 150 monthly for private teaching.
-
-In Largs, Historic Environment Scotland lists the Skelmorlie Aisle at Category A. Inside is a painted timber ceiling signed by J S Stalker and dated 1638, with biblical scenes, the four seasons and, among its panels, the signs of the zodiac, the old names for twelve stretches of the Sun's yearly path across the stars. Here is the puzzle: the stars have not stayed where they were in 1638. The Earth's axis wobbles slowly, like a spinning top, and the whole grid astronomers use to locate stars drifts with it. How far, and how would a computer calculate it? This page's project rotates real star positions back to the year of the painting using matrices in Python.
-
-Facts last verified 26 September 2026. Teaching is online; no North Ayrshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for North Ayrshire
 
 ## Popular first courses in North Ayrshire
 
 A P3 in Saltcoats who loves space, a P7 in Irvine ready to type code, an S5 in Largs studying Higher Maths, and an adult in Kilwinning learning Python for a new job. Each begins with a free lesson.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 12): Block coding with planets, orbits and space games made from sprites.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): Angles, coordinates and turning shapes, learned by coding them.
-- [High School Mathematics](/courses/complete-high-school-mathematics-mastery) (Ages 14 to 18): Secondary maths in depth, from trigonometry to vectors and matrices.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Adults): Python from the beginning for adults, up to scientific calculations.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 12Coding for KidsBlock coding with planets, orbits and space games made from sprites.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingAngles, coordinates and turning shapes, learned by coding them.See the syllabus](/courses/maths-through-coding)[![High School Mathematics course thumbnail](/images/high-school-maths.webp)Ages 14 to 18High School MathematicsSecondary maths in depth, from trigonometry to vectors and matrices.See the syllabus](/courses/complete-high-school-mathematics-mastery)[![Python Masterclass course thumbnail](/images/python-college.webp)AdultsPython MasterclassPython from the beginning for adults, up to scientific calculations.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)North Ayrshire figures
 
 ## About 133,400 people in North Ayrshire
 
 Council-wide numbers are National Records of Scotland's rounded first results from the 2022 census. Town sizes are separate NRS estimates for mid-2020.
 
-**North Ayrshire localities above 5,000 people, NRS mid-2020 estimates**
-
 | Locality | Residents | Locality | Residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Irvine | 34,130 | Stevenston | 9,050 |
 | Kilwinning | 16,100 | Kilbirnie | 7,170 |
 | Saltcoats | 12,250 | Beith | 5,940 |
 | Largs | 11,030 | Dalry | 5,250 |
-| Ardrossan | 10,500 |  |  |
+| Ardrossan | 10,500 |   |   |
 
 North Ayrshire has 150.7 residents per square kilometre, roughly twice the Scottish figure of 69.8. Summing the census age groups, we get 23.8 per cent of North Ayrshire residents aged 65 and over, well above Scotland's 20.1, and 14.8 per cent under 15, a touch under the national 15.3. West Kilbride and Dreghorn are the next towns after the table. North Ayrshire Council fixes the school terms; we have not read them and plan around each family's dates.
 
@@ -56,16 +42,16 @@ North Ayrshire has 150.7 residents per square kilometre, roughly twice the Scott
 
 Our [East Ayrshire](/coding-classes-in-east-ayrshire) page has a Burns project. For Scottish qualifications, see [Higher Maths](/higher-maths-tuition-online) and [National 5 Computing Science](/national-5-computing-science-help).
 
+The North Ayrshire project
+
 ## Turning the sky back to 1638
 
 Six bright stars, three rotations, and a coordinate system that moves.
 
 Astronomers locate stars with two angles, much like longitude and latitude on Earth: right ascension and declination. The trouble is that these are measured from the Earth's axis and equator, and the axis slowly wobbles, completing one circuit in roughly 25,800 years. So a star's coordinates change even when the star itself barely moves. The learner takes six bright stars from the Bright Star Catalogue, with positions for the epoch 2000, turns each into an arrow in 3D, and applies the standard precession formula, three rotations multiplied together into a single matrix, to rotate the sky back to 1638.
 
-**Our precession of six stars from 2000 back to 1638, 26 September 2026**
-
 | Star | Change in right ascension | Change in declination | Change along the Sun's path |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Polaris | -30.9 degrees | -1.9 degrees | -5.06 degrees |
 | Aldebaran | -5.2 degrees | -0.8 degrees | -5.05 degrees |
 | Regulus | -4.9 degrees | +1.7 degrees | -5.05 degrees |
@@ -93,14 +79,14 @@ Build the three-rotation precession matrix, check its determinant, and compare e
 
 The ceiling's zodiac panels are the anchor, and we describe them only as the listing does. The project is about coordinates and rotation. The star positions come from the Bright Star Catalogue; the 1638 positions and every change in the table come from our own program.
 
+Why the Skelmorlie Aisle
+
 ## A painted ceiling from 1638
 
 What the Category A listing records.
 
-**Skelmorlie Aisle, Largs, HES listing LB37198**
-
 | Listing detail | What it records |
-|---|---|
+| --- | --- |
 | Built | 1636, originally the north transept of Largs old church |
 | Ceiling | Richly painted timber barrel vault, signed J S Stalker and dated 1638 |
 | Subjects | Biblical texts and scenes, zodiac signs and symbolic figures |
@@ -112,14 +98,37 @@ Rotation matrices are the working parts of 3D games, phone cameras that keep the
 
 Historic Environment Scotland and North Ayrshire Council have no link with us, and neither do the catalogue's compilers. The listing facts are theirs; the precession calculation and any errors are ours.
 
+Stages
+
 ## From a paper star wheel to matrices
 
 Stages are a starting guess; the free lesson confirms the level.
 
-- **P1 to P4: Space games** Block coding with rockets, planets and turning sprites. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **P5 to S2: Angles and coordinates** Typed Python with points, angles and simple rotations. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **S3 to S6: Vectors and matrices** Trigonometry, vectors and matrices beside National 5, Higher and Advanced Higher Maths. [High School Mathematics](/courses/complete-high-school-mathematics-mastery), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Scientific Python** Python for adults, from calculations to graphics and data. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+P1 to P4
+
+### Space games
+
+Block coding with rockets, planets and turning sprites.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)P5 to S2
+
+### Angles and coordinates
+
+Typed Python with points, angles and simple rotations.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)S3 to S6
+
+### Vectors and matrices
+
+Trigonometry, vectors and matrices beside National 5, Higher and Advanced Higher Maths.
+
+[High School Mathematics](/courses/complete-high-school-mathematics-mastery)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Scientific Python
+
+Python for adults, from calculations to graphics and data.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)AI and coordinates
 
 ## An AI can move a star in seconds. Will it use the right frame?
 
@@ -131,30 +140,139 @@ A North Ayrshire learner who has built the rotation matrix, checked its determin
 
 Knowing whether a formula is exact or just a shortcut is exactly why North Ayrshire teenagers should keep learning to code in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Practical side
+
 ## Lessons from Irvine to Arran
 
 Mainland towns and island villages join in exactly the same way.
 
-- **Code on screen, teacher beside you** The learner types and runs every program; the teacher watches the shared screen and steps in.
-- **Scottish stages** P6, S3, National 5, Higher and Advanced Higher are our vocabulary too, and lessons are in English.
-- **First lesson is free** A complete lesson, no payment, then honest advice on the next step.
-- **Groups matched by stage** Fifteen to twenty learners at one stage per group, from many different places.
-- **Term-time lessons** Two lessons a week in term; breaks in the school holidays.
-- **Your UK time, kept** We hold your slot at the same UK time when clocks change; our teachers in India time adjust.
+### Code on screen, teacher beside you
 
-**Why groups span towns** Five learners at one stage, free on the same evening, rarely live in one town, let alone on Arran. Grouping by stage gives a pupil in Beith or Dalry a class that fits.
+The learner types and runs every program; the teacher watches the shared screen and steps in.
+
+### Scottish stages
+
+P6, S3, National 5, Higher and Advanced Higher are our vocabulary too, and lessons are in English.
+
+### First lesson is free
+
+A complete lesson, no payment, then honest advice on the next step.
+
+### Groups matched by stage
+
+Fifteen to twenty learners at one stage per group, from many different places.
+
+### Term-time lessons
+
+Two lessons a week in term; breaks in the school holidays.
+
+### Your UK time, kept
+
+We hold your slot at the same UK time when clocks change; our teachers in India time adjust.
+
+Why groups span towns
+
+Five learners at one stage, free on the same evening, rarely live in one town, let alone on Arran. Grouping by stage gives a pupil in Beith or Dalry a class that fits.
+
+Fees
 
 ## Fees in North Ayrshire
 
 Saltcoats or Brodick, the fee is the same, as it is in every country we teach outside India.
 
-- First class: USD 0. A full lesson with no charge, then a clear recommendation.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty.
-- Private tuition: USD 150 a month. About eight lessons a month, one learner and one teacher.
+First class**USD 0**
+
+A full lesson with no charge, then a clear recommendation.
+
+Group tuition**USD 100**
+
+About eight lessons a month in a group of fifteen to twenty.
+
+Private tuition**USD 150**
+
+About eight lessons a month, one learner and one teacher.
 
 Fees are in US dollars; we have no sterling price list. You pay nothing until a course and regular slot have been settled after the trial lesson. Holidays, absences and moves between group and private lessons are explained on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20North%20Ayrshire%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Reviews
+
+## North Ayrshire and other families on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free North Ayrshire lesson
+
+Send the learner's age or school stage and a favourite subject. The first lesson might be a Scratch space game, a Python program, or the star rotation on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented North Ayrshire one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20North%20Ayrshire%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## North Ayrshire questions
+
+The council area, the Largs project and how lessons work.
 
 ### What is the population of North Ayrshire?
 
@@ -196,10 +314,14 @@ Your opening lesson is free. Afterwards a group place is USD 100 per month and a
 
 Yes. Share your school's holiday dates and we pause.
 
+Close by
+
 ## Other Ayrshire and Clyde pages
 
 See [East Ayrshire](/coding-classes-in-east-ayrshire), [Inverclyde](/coding-classes-in-inverclyde) and [Glasgow](/best-coding-class-in-glasgow), or every council on the [Scotland](/coding-and-ai-classes-in-scotland) page. The [UK hub](/coding-classes-in-united-kingdom) covers the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[WhatsApp our team](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20North%20Ayrshire%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-north-ayrshire](https://learn.modernagecoders.com/coding-classes-in-north-ayrshire#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-north-ayrshire*

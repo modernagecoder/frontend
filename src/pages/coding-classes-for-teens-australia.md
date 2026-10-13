@@ -4,34 +4,28 @@ description: "Coding classes for teens in Australia, ages 13 to 18: Python, Java
 canonical: https://learn.modernagecoders.com/coding-classes-for-teens-australia
 source: src/pages/coding-classes-for-teens-australia.html
 ---
-> Coding classes for teens teach 13 to 18 year olds to program in text languages such as Python, JavaScript and Java by building projects, testing them and fixing what breaks. The Australian Curriculum asks Years 9 and 10 students to validate programs against a range of test cases, including boundary cases. Modern Age Coders runs live online coding classes for Australian teenagers, in small groups or one to one, starting with a free first class.
+> Coding classes for teens in Australia, ages 13 to 18: Python, JavaScript and Java through real projects, with testing built in. Live online, first class free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / Coding classes for teens
+In short
 
-Australia · Ages 13 to 18 · Projects, tests, real code
+Coding classes for teens teach 13 to 18 year olds to program in text languages such as Python, JavaScript and Java by building projects, testing them and fixing what breaks. The Australian Curriculum asks Years 9 and 10 students to validate programs against a range of test cases, including boundary cases. Modern Age Coders runs live online coding classes for Australian teenagers, in small groups or one to one, starting with a free first class.
 
-# Coding classes for teens
-
-By thirteen, many Australian students have outgrown block coding and want to write the real thing: games with proper logic, websites that do something, programs that solve problems they care about. Our live online coding classes for teens aged 13 to 18 teach text languages through projects, and they treat testing as part of programming rather than an afterthought. That matches what the Australian Curriculum asks of Years 9 and 10, and it is the habit senior computing subjects reward. This page sets out what those years expect, works through a small bug in a classic grid game with a simulation of 200,000 boards, maps the language paths that suit different starting points, and explains the tools and rules we follow with under-18s.
-
-At a glance: For: Teens aged 13 to 18; Languages: Python, JavaScript, Java, C++; Method: Projects with tests; Habits: Version control, debugging; School: Never writes assessed work; Format: Live online lessons; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three first courses for teenage coders
 
 Python for most beginners, JavaScript for those drawn to the web and games in the browser, Java for teens ready for strict types. Each card leads to the full syllabus.
 
-- [Python for Teens](/courses/python-complete-masterclass-teens): Beginner to advanced: logic, data, files and projects, with tests from the first month.
-- [JavaScript for Teens](/courses/javascript-course-for-teens-beginners-interactive-web): Interactive websites and browser games, built and debugged in the browser.
-- [Java for Teens](/courses/java-programming-masterclass-for-teens): Classes, objects and collections for teens ready for a strongly typed language.
+[![Python for Teens course thumbnail](/images/python-teens.webp)  CTNS / 01 Python for Teens Beginner to advanced: logic, data, files and projects, with tests from the first month. Open the syllabus →](/courses/python-complete-masterclass-teens)[![JavaScript for Teens course thumbnail](/images/javascript-teens.webp)  CTNS / 02 JavaScript for Teens Interactive websites and browser games, built and debugged in the browser. Open the syllabus →](/courses/javascript-course-for-teens-beginners-interactive-web)[![Java for Teens course thumbnail](/images/java-teens.webp)  CTNS / 03 Java for Teens Classes, objects and collections for teens ready for a strongly typed language. Open the syllabus →](/courses/java-programming-masterclass-for-teens)
+
+Years 9 and 10
 
 ## What the Australian Curriculum asks of teenage coders
 
 Digital Technologies in Years 9 and 10 expects more than writing code that runs once. It expects code that has been tested, changed and explained.
 
-**Years 9 and 10 Digital Technologies, Version 9.0 (read 13 October 2026)**
-
 | Code | What ACARA writes | What it looks like in a lesson |
-|---|---|---|
+| --- | --- | --- |
 | Band description | Students apply computational thinking by "defining and decomposing real-world problems, creating user experiences, designing and modifying algorithms" | Projects start with a problem statement, not a tutorial |
 | AC9TDI10P06 | "validate algorithms and programs by comparing their output against a range of test cases" | Every project has a test list written before the code |
 | AC9TDI10P06 | "determining boundary test cases and testing that they are handled correctly by a program" | Edges, corners and empty inputs tested on purpose |
@@ -53,16 +47,16 @@ Teens interested in competitions can start with the [Australian Informatics Olym
 
 Source: ACARA, Australian Curriculum Version 9.0, [Digital Technologies curriculum content, Years 7 to 10](https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/technologies/digital-technologies/technologies-digital-technologies-curriculum-content-7-10-v9.docx), read 13 October 2026.
 
+A worked example
+
 ## The first click that should never lose
 
 In the classic mine-finding grid game, the first click should always be safe. Teenagers love building this game, and the first-click rule hides a lesson about fairness that only a simulation reveals.
 
-On a 9 by 9 board with 10 hidden mines, a random layout puts a mine under the first click 10 times in 81, about 12.35%. Our students' first fix is usually: if the first click lands on a mine, move that mine to the first empty square, scanning from the top-left. It works; nobody loses on click one. But is the board still fair? We simulated 200,000 boards for three fixes, with the first click in the centre, and counted how often each square held a mine.
-
-**How often a mine sits in each square, 200,000 simulated boards per method (our calculation)**
+On a 9 by 9 board with 10 hidden mines, a random layout puts a mine under the first click 10 times in 81, about 12.35%. Our students' first fix is usually: *if the first click lands on a mine, move that mine to the first empty square*, scanning from the top-left. It works; nobody loses on click one. But is the board still fair? We simulated 200,000 boards for three fixes, with the first click in the centre, and counted how often each square held a mine.
 
 | Method | Top-left corner | Every other square | First click hits a mine |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | No fix (random layout) | about 12.35% everywhere | about 12.35% | 12.41% of boards |
 | Move the mine to the first empty square | 23.32% | 12.17% to 13.69% | Never |
 | Move the mine to a random empty square | 12.48% | 12.33% to 12.64% | Never |
@@ -94,14 +88,14 @@ It also teaches a habit worth more than any of those: when a result matters, mea
 
 The simulation is ours, written in Python with a fixed seed, and short enough to rebuild in a lesson. Running it again with another seed moves the percentages by a few hundredths, not the conclusion.
 
+Language paths
+
 ## Which language should a teenager learn?
 
 It depends on where they start and what they want to make. There is no wrong first text language; there are better and worse fits.
 
-**Common starting points and the paths we suggest**
-
 | Starting point | First language | Then | Typical projects |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Some Scratch, no text coding | Python | JavaScript or Java | Text adventures, quizzes, simple games |
 | Wants to make websites | HTML, CSS and JavaScript | React | Personal sites, browser games |
 | Enjoys maths and puzzles | Python | C++ | Competition problems, simulations |
@@ -109,6 +103,8 @@ It depends on where they start and what they want to make. There is no wrong fir
 | Already writes some Python | Java or C++ | Data structures | Larger programs with classes |
 
 Teens drawn to artificial intelligence have their own page on [AI classes for teens](/ai-classes-for-teens-australia), and game makers will find more on the [game programming course](/game-programming-course-australia). Our [Java classes](/java-classes-online-australia) page explains when Java is worth choosing.
+
+Tools and rules
 
 ## The tools teenagers use with us, and the age rules we follow
 
@@ -126,13 +122,13 @@ Some online services set minimum ages above 13. Anthropic's consumer terms, for 
 
 Our [AI tool age guide](/ai-tools-age-guide) lists the published rules for many tools.
 
-**How our teen classes relate to school work**
-
 | We do | We do not |
-|---|---|
+| --- | --- |
 | Teach the concepts behind school programming tasks | Write, rewrite or debug assessed work |
 | Set our own projects and practice problems | Complete school projects or major works |
 | Teach students to explain and test their own code | Help hide AI or outside help where it is not allowed |
+
+Who joins
 
 ## Three kinds of teenage coder
 
@@ -150,14 +146,14 @@ Has made a few things and wants bigger projects: websites, multiplayer games, to
 
 Fifteen to eighteen, possibly taking a computing subject, wanting depth: data structures, algorithms and larger codebases.
 
+Progress
+
 ## Four levels for teenage programmers
 
 With weekly lessons, most teenagers reach the third level within three terms.
 
-**From typing code to owning it**
-
 | Level | What you can do |
-|---|---|
+| --- | --- |
 | 1. Writer | Write short programs with variables, loops and decisions |
 | 2. Tester | Write tests first, including boundary cases, and make them pass |
 | 3. Builder | Finish a project of several files, kept in version control |
@@ -166,63 +162,293 @@ With weekly lessons, most teenagers reach the third level within three terms.
 ### My teen has done some coding at school. Where would they start?
 
 Usually at level one or two, moving quickly. The free class includes a short task that shows us where.
+
 Teens who find it easy are moved up; nobody repeats what they already know.
 
 ### Is coding useful for a teen not planning a computing career?
 
 Yes. Breaking problems down, testing ideas and explaining reasoning carry into science, maths and almost any later study.
+
 And many teenagers simply enjoy making things that work.
+
+The catalogue
 
 ## Coding courses for teenagers
 
 Nine teen courses in three bands. The free class points each student to a band.
 
+I
+
 ### Make things
 
 Projects first
 
-- [Game Development for Teens](/courses/complete-game-development-masterclass-for-teens): Unity, C# and shipped games.
-- [Full Stack Web for Teens](/courses/full-stack-web-development-teens-masterclass): React and Node.js.
-- [App Development for Teens](/courses/complete-app-development-masterclass-for-teens): React Native apps.
+CTNS / MAK / 01
+
+#### Game Development for Teens
+
+Unity, C# and shipped games.
+
+[Open the syllabus](/courses/complete-game-development-masterclass-for-teens)
+
+CTNS / MAK / 02
+
+#### Full Stack Web for Teens
+
+React and Node.js.
+
+[Open the syllabus](/courses/full-stack-web-development-teens-masterclass)
+
+CTNS / MAK / 03
+
+#### App Development for Teens
+
+React Native apps.
+
+[Open the syllabus](/courses/complete-app-development-masterclass-for-teens)II
 
 ### Think harder
 
 Algorithms and depth
 
-- [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens): Logic and data structures.
-- [C++ for Teens](/courses/cpp-programming-masterclass-for-teens): STL, algorithms and games.
-- [Competitive Programming for Teens](/courses/competitive-programming-for-teens-course): Contest-style problems.
+CTNS / THK / 01
+
+#### Problem Solving for Teens
+
+Logic and data structures.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
+
+CTNS / THK / 02
+
+#### C++ for Teens
+
+STL, algorithms and games.
+
+[Open the syllabus](/courses/cpp-programming-masterclass-for-teens)
+
+CTNS / THK / 03
+
+#### Competitive Programming for Teens
+
+Contest-style problems.
+
+[Open the syllabus](/courses/competitive-programming-for-teens-course)III
 
 ### Work like a developer
 
 Habits that last
 
-- [Git and GitHub for Teens](/courses/git-github-version-control-course-for-teens): Version control from zero.
-- [Backend for Teens](/courses/backend-coding-masterclass-for-teens): APIs and databases.
-- [MySQL for Teens](/courses/mysql-mastery-for-teens): SQL for real apps.
+CTNS / DEV / 01
+
+#### Git and GitHub for Teens
+
+Version control from zero.
+
+[Open the syllabus](/courses/git-github-version-control-course-for-teens)
+
+CTNS / DEV / 02
+
+#### Backend for Teens
+
+APIs and databases.
+
+[Open the syllabus](/courses/backend-coding-masterclass-for-teens)
+
+CTNS / DEV / 03
+
+#### MySQL for Teens
+
+SQL for real apps.
+
+[Open the syllabus](/courses/mysql-mastery-for-teens)
+
+How lessons run
 
 ## Teen lessons after school, in your time
 
 The teaching team is in India, and its working hours cover Australian after-school time and early evenings. We book in the family's own state time, so daylight saving changes are handled for you.
 
-- **After school** Weekday lessons around homework.
-- **Early evening** For senior students, by arrangement.
-- **Weekend** Longer project and testing sessions.
+After school
 
-- **Free first class** A short coding task that shows the right starting level.
-- **Groups** Fifteen to twenty teens, reviewing each other's code.
-- **One to one** For a project, a competition or a faster pace.
-- **Tests first** Each project starts with the cases it must pass.
-- **Age rules kept** No service is used below its stated minimum age.
-- **School rules first** No assessed work, ever.
+Weekday lessons around homework.
+
+Early evening
+
+For senior students, by arrangement.
+
+Weekend
+
+Longer project and testing sessions.
+
+### Free first class
+
+A short coding task that shows the right starting level.
+
+### Small groups
+
+Five to ten teens, reviewing each other's code.
+
+### One to one
+
+For a project, a competition or a faster pace.
+
+### Tests first
+
+Each project starts with the cases it must pass.
+
+### Age rules kept
+
+No service is used below its stated minimum age.
+
+### School rules first
+
+No assessed work, ever.
+
+Student work
+
+## Projects teenagers built with us
+
+Some of the games, sites and tools our students published. Browse the [student labs](/student-labs) for the full set.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees for teen coding classes
 
 Families in Australia pay a monthly fee in US dollars. There is no sign-up charge, and classes can stop when any month ends.
 
-- Free first class: USD 0. A short coding task. Advice on the right course and level. No payment details.
-- Group batch: USD 100 a month. Five to ten teens per class. Code reviews between students. A regular teacher. Stop when any month ends.
-- One to one: USD 150 a month. Lessons around one teen's goals. Faster or slower pace. Times around school and sport.
+Free first class
+
+USD 0
+
+no card required
+
+- A short coding task
+- Advice on the right course and level
+- No payment details
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Five to ten teens per class
+- Code reviews between students
+- A regular teacher
+- Stop when any month ends
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- Lessons around one teen's goals
+- Faster or slower pace
+- Times around school and sport
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Reviews from families and students on our Google profile, reproduced word for word.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Teens and parents ask
 
 ## Questions about coding classes for teens in Australia
 
@@ -258,15 +484,54 @@ Groups are formed by stage and age band, so younger teens usually learn alongsid
 
 The first class is free with no card required. Monthly fees for groups and one-to-one lessons appear in the fees section.
 
+Also on this site
+
 ## Related pages
 
-- [Coding classes in Australia](/coding-classes-in-australia): Every Australian guide in one place.
-- [AI classes for teens](/ai-classes-for-teens-australia): Using, checking and building AI.
-- [Coding for Year 7](/coding-for-year-7-australia): For the first year of high school.
-- [Year 11 computing subjects](/choosing-year-11-computing-subjects-australia): Senior options by state.
-- [Australian Informatics Olympiad](/australian-informatics-olympiad-preparation): For competitive teenagers.
-- [Game programming course](/game-programming-course-australia): Engines, physics and game logic.
+Other pages for teenagers and their families.
 
-## Contact
+### [Coding classes in Australia](/coding-classes-in-australia)
 
-Book the free first class at [https://learn.modernagecoders.com/coding-classes-for-teens-australia](https://learn.modernagecoders.com/coding-classes-for-teens-australia#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Every Australian guide in one place.
+
+### [AI classes for teens](/ai-classes-for-teens-australia)
+
+Using, checking and building AI.
+
+### [Coding for Year 7](/coding-for-year-7-australia)
+
+For the first year of high school.
+
+### [Year 11 computing subjects](/choosing-year-11-computing-subjects-australia)
+
+Senior options by state.
+
+### [Australian Informatics Olympiad](/australian-informatics-olympiad-preparation)
+
+For competitive teenagers.
+
+### [Game programming course](/game-programming-course-australia)
+
+Engines, physics and game logic.
+
+Start here
+
+## Book a free first class
+
+Send a phone number and a time that works. The free lesson includes a short coding task, and we finish by recommending a course and level.
+
+Parents often look at [how we run lessons](/how-we-teach) and [the course list](/courses) before booking.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20a%20teenager%20(or%20parent%20of%20one)%20in%20Australia%20interested%20in%20coding%20classes.%20Could%20we%20book%20a%20free%20first%20class%3F) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+Our team is based in India, so calls and messages show a +91 number, and we have no Australian office. Families usually find WhatsApp from an Australian mobile the quickest way to reach us.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-for-teens-australia*

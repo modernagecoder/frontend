@@ -4,34 +4,28 @@ description: "Preparing for the National Cipher Challenge: ten challenges from S
 canonical: https://learn.modernagecoders.com/national-cipher-challenge-preparation
 source: src/pages/national-cipher-challenge-preparation.html
 ---
-> The National Cipher Challenge is run from the University of Southampton and runs from "September 2026 - January 2027", with the prizegiving "at Bletchley Park on March 10th". There are ten challenges, each in two parts, A and B. "The competition is open to anyone but only individuals in full time school level education in the UK and Channel Islands qualify for prizes", and "entries may be received from individuals or from teams", which "may be of any size". Scoring uses the accuracy of an entrant's strongest submission for a challenge and the order in which submissions arrive, with accuracy measured by the Damerau-Levenshtein metric, and the organiser states plainly that "accuracy is more important than speed". Entrants may write their own software and may not use online deciphering tools or AI. We teach the programming that makes your own tools possible. The first class is free; a group place is USD 100 a month and one-to-one teaching USD 150.
+> Preparing for the National Cipher Challenge: ten challenges from September to January, who can win prizes, how accuracy is scored and why you write your own tools.
 
-[Home](/) / [Courses](/courses) / [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar) / National Cipher Challenge
+In short
 
-United Kingdom · School-level education · September 2026 to January 2027
+The National Cipher Challenge is run from the University of Southampton and runs from "September 2026 - January 2027", with the prizegiving "at Bletchley Park on March 10th". There are ten challenges, each in two parts, A and B. "The competition is open to anyone but only individuals in full time school level education in the UK and Channel Islands qualify for prizes", and "entries may be received from individuals or from teams", which "may be of any size". Scoring uses the accuracy of an entrant's strongest submission for a challenge and the order in which submissions arrive, with accuracy measured by the Damerau-Levenshtein metric, and the organiser states plainly that "accuracy is more important than speed". Entrants may write their own software and may not use online deciphering tools or AI. We teach the programming that makes your own tools possible. The first class is free; a group place is USD 100 a month and one-to-one teaching USD 150.
 
-# National Cipher Challenge preparation
-
-Most competitions tell you what you may not bring into the room. The National Cipher Challenge does something rarer: it tells you what to build. Entrants may use spreadsheets, text editors and the organiser's own tools, and "any software that you write yourself" &mdash; and they may not use deciphering tools found elsewhere online, or an AI to break a message or to write the software that breaks it. That single rule turns a puzzle competition into a programming one, and it is the reason this is such a rewarding way for a curious fourteen-year-old to spend an autumn term.
-
-At a glance: Organiser: University of Southampton; Runs: September 2026 to January 2027; Challenges: Ten, each in parts A and B; Prizes open to: School-level education, UK and Channel Islands; Teams: Any size, or enter alone; Scored on: Accuracy first, then order received; AI: Not permitted, on pain of disqualification; Prizegiving: Bletchley Park, 10 March. Rated 4.9 across 547 Google reviews.
+Where to start
 
 ## Three courses for a cipher breaker
 
 The competition is won by whoever can turn an idea into a working script the same evening.
 
-- [Python from start to finish](/courses/python-complete-masterclass-teens): The language almost every entrant uses: strings, counting, files and the loops that try every possibility.
-- [Python and AI for kids](/courses/python-ai-kids-masterclass): For a younger entrant meeting typed code for the first time this autumn.
-- [Algorithms and data structures](/courses/problem-solving-dsa-masterclass-teens): For the later challenges, where a brute-force search has to be pruned before it finishes this century.
+[![Python for Teens course thumbnail](/images/python-teens.webp)  NCC / 01 Python from start to finish The language almost every entrant uses: strings, counting, files and the loops that try every possibility. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  NCC / 02 Python and AI for kids For a younger entrant meeting typed code for the first time this autumn. Open the syllabus →](/courses/python-ai-kids-masterclass)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)  NCC / 03 Algorithms and data structures For the later challenges, where a brute-force search has to be pruned before it finishes this century. Open the syllabus →](/courses/problem-solving-dsa-masterclass-teens)
+
+The competition
 
 ## Ten challenges, two parts each, one autumn term
 
 Facts read at the organiser's own pages on 20 September 2026.
 
-**The National Cipher Challenge as its organiser describes it**
-
 | Part | What the organiser says | What it means for an entrant |
-|---|---|---|
+| --- | --- | --- |
 | Who runs it | The University of Southampton | An academic competition, not a commercial one |
 | When | "September 2026 - January 2027" | A whole term, with challenges released across it |
 | How many | Ten challenges, each in two parts, A and B | Part B is the harder half of each pair |
@@ -50,6 +44,8 @@ The prize fund is published by the organiser in pounds and we do not print it, a
 
 Sources: [the National Cipher Challenge](https://www.cipherchallenge.org/) and its [rules](https://www.cipherchallenge.org/rules/), read 20 September 2026. Modern Age Coders is not connected with the University of Southampton or the challenge.
 
+The method
+
 ## Write your own tool, because the rules say so
 
 The tools rule is the most interesting sentence any UK competition publishes, and it deserves quoting in full.
@@ -64,10 +60,8 @@ The good news is that a first useful tool is about fifteen lines long. Counting 
 
 Below is one we wrote to show what "your own tool" actually means at the start. Nothing here comes from a past challenge: the sentence is ours.
 
-**Our run of 20 September 2026: a sentence we wrote, shifted seven places, and a counter**
-
 | Step | What we did | What came back |
-|---|---|---|
+| --- | --- | --- |
 | 1. Make a message | Took a sentence of our own and shifted every letter seven places along the alphabet | The ciphertext begins "aol xbhspaf vm h jshzz" |
 | 2. Count the letters | Fifteen lines of Python counting how often each letter appears | L 15, H 15, A 13, V 11, S 10 |
 | 3. Compare with English | Scored all 26 possible shifts against ordinary English letter frequencies | Shift 7 fits far better than any other |
@@ -87,14 +81,14 @@ The later challenges use ciphers that flatten the frequencies deliberately. That
 
 The sentence, the shift and the letter counts are ours, produced on 20 September 2026. No challenge text is reproduced anywhere on this page; the organiser publishes its own archive of past challenges.
 
+How it is scored
+
 ## Nearly right still counts, and the organiser says so
 
 The scoring rules are unusual, and understanding them changes what an entrant does at eleven o'clock at night.
 
-**What earns points, from the organiser's rules**
-
 | Element | How it works | What follows |
-|---|---|---|
+| --- | --- | --- |
 | Accuracy | Points reflect "the accuracy of your best submission for that challenge", measured by the Damerau-Levenshtein metric | A decryption with a few wrong letters still scores; it is not all or nothing |
 | Speed | "Time points will be based on a schedule published alongside the challenge" | Early submissions earn more, but not at any cost |
 | The trade-off | "Accuracy is more important than speed" | Do not send a half-broken message to beat a clock |
@@ -109,14 +103,14 @@ The rule that accuracy beats speed also settles the commonest argument in a scho
 
 For a pupil who enjoys the code more than the ciphers, the [British Informatics Olympiad](/british-informatics-olympiad-preparation) in December and January is a natural companion, and it runs in the same weeks.
 
+Getting ready
+
 ## Four rungs from counting letters to breaking something hard
 
 Each rung is a tool the entrant has written and can run again next week.
 
-**The toolkit, built one challenge at a time**
-
 | Stage | Rung | The tool at the end of it |
-|---|---|---|
+| --- | --- | --- |
 | First week | 1. Count and shift | A letter counter and a script that tries all 26 shifts |
 | Early autumn | 2. Substitution | A frequency table, a guessing loop and a way to print partial decryptions |
 | Mid autumn | 3. Transposition | Tools that rearrange rather than replace, and a way to test a guess quickly |
@@ -125,71 +119,321 @@ Each rung is a tool the entrant has written and can run again next week.
 ### If the term has started
 
 Write the letter counter tonight. Everything else in the competition is built on top of it, and it is fifteen lines.
+
 Submit partial answers. The accuracy metric means a nearly-right decryption scores, and waiting for perfection scores nothing.
 
 ### What this leads to
 
 Every tool an entrant writes is ordinary programming: counting, searching, testing. It is the most thoroughly disguised introduction to real software we know.
+
 The [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar) lists everything else open to a UK student this year.
+
+The full list
 
 ## Courses for an entrant who wants to build the tools
 
 Sorted by what a student can already write alone, with the syllabus on every card.
 
+I
+
 ### First programs
 
 Ages 9 to 13
 
-- [Python and AI for kids](/courses/python-ai-kids-masterclass): A first typed language, taught patiently.
-- [Maths through coding](/courses/maths-through-coding): Counting, patterns and why a method works.
-- [Scratch for kids](/courses/scratch-programming-complete-course): The logic, before the typing.
+NCC / A / 01
+
+#### Python and AI for kids
+
+A first typed language, taught patiently.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)
+
+NCC / A / 02
+
+#### Maths through coding
+
+Counting, patterns and why a method works.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+NCC / A / 03
+
+#### Scratch for kids
+
+The logic, before the typing.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)II
 
 ### Real Python
 
 Ages 13 to 18
 
-- [Python from start to finish](/courses/python-complete-masterclass-teens): Strings, files, loops and functions, to fluency.
-- [Algorithms and data structures](/courses/problem-solving-dsa-masterclass-teens): Searching and pruning, for the later challenges.
-- [Competitive programming](/courses/competitive-programming-for-teens-course): Writing correct code quickly, under pressure.
+NCC / B / 01
+
+#### Python from start to finish
+
+Strings, files, loops and functions, to fluency.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+NCC / B / 02
+
+#### Algorithms and data structures
+
+Searching and pruning, for the later challenges.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
+
+NCC / B / 03
+
+#### Competitive programming
+
+Writing correct code quickly, under pressure.
+
+[Open the syllabus](/courses/competitive-programming-for-teens-course)III
 
 ### Alongside school
 
 Qualifications
 
-- [GCSE Computer Science](/courses/gcse-computer-science-course): Taught to the board the school uses.
-- [Cambridge A Level 9618](/courses/cambridge-a-level-computer-science-9618-course): For international and independent schools.
-- [Java for teens](/courses/java-programming-masterclass-for-teens): For students whose school teaches Java.
+NCC / C / 01
+
+#### GCSE Computer Science
+
+Taught to the board the school uses.
+
+[Open the syllabus](/courses/gcse-computer-science-course)
+
+NCC / C / 02
+
+#### Cambridge A Level 9618
+
+For international and independent schools.
+
+[Open the syllabus](/courses/cambridge-a-level-computer-science-9618-course)
+
+NCC / C / 03
+
+#### Java for teens
+
+For students whose school teaches Java.
+
+[Open the syllabus](/courses/java-programming-masterclass-for-teens)IV
 
 ### Further afield
 
 Where the curiosity goes next
 
-- [AI and machine learning for teens](/courses/ai-ml-masterclass-teens): Understanding the tools the rules forbid here.
-- [Data science with Python](/courses/data-science-course-for-teens-python-data): Frequencies and distributions, on real data.
-- [Full stack web development](/courses/full-stack-web-development-teens-masterclass): For students who would rather build than break.
+NCC / D / 01
+
+#### AI and machine learning for teens
+
+Understanding the tools the rules forbid here.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+NCC / D / 02
+
+#### Data science with Python
+
+Frequencies and distributions, on real data.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)
+
+NCC / D / 03
+
+#### Full stack web development
+
+For students who would rather build than break.
+
+[Open the syllabus](/courses/full-stack-web-development-teens-masterclass)
+
+How lessons run
 
 ## Weekly Python, aimed at tools a student can keep
 
 Lessons are live on video from India, five and a half hours ahead of the UK in winter and four and a half in summer, at a time fixed in UK time.
 
-- **Weekday evening** The usual slot during the autumn term.
-- **Weekend morning** For a longer session building one tool properly.
-- **Half term** When several challenges are open at once.
+Weekday evening
 
-- **Tools, not exercises** Every lesson leaves the student with a script they can run again on the next challenge.
-- **We do not touch the challenges** We teach programming. We do not decipher a live challenge message or help with one, and we say so if asked.
-- **Fifteen to twenty students** Enough for two approaches to be compared, small enough for every script to be read.
-- **Our own examples** Written by us. The organiser publishes an archive of past challenges for the real thing.
-- **One to one when useful** For a student well ahead of their year, or one building something specific.
-- **No AI shortcuts** The competition forbids AI for this work, and we teach accordingly.
+The usual slot during the autumn term.
+
+Weekend morning
+
+For a longer session building one tool properly.
+
+Half term
+
+When several challenges are open at once.
+
+### Tools, not exercises
+
+Every lesson leaves the student with a script they can run again on the next challenge.
+
+### We do not touch the challenges
+
+We teach programming. We do not decipher a live challenge message or help with one, and we say so if asked.
+
+### Fifteen to twenty students
+
+Enough for two approaches to be compared, small enough for every script to be read.
+
+### Our own examples
+
+Written by us. The organiser publishes an archive of past challenges for the real thing.
+
+### One to one when useful
+
+For a student well ahead of their year, or one building something specific.
+
+### No AI shortcuts
+
+The competition forbids AI for this work, and we teach accordingly.
+
+Student work
+
+## What our students build
+
+Four published projects by students at our school, none of them competition entries. More on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 One monthly rate in US dollars for families outside India, with nothing to pay to register and no minimum term.
 
-- Free first class: USD 0. A full lesson building something. A straight read on the level. No card details taken.
-- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher every week. Code read line by line. A certificate at the end.
-- One to one: USD 150 a month. A teacher working with one student. Shaped around what they are building. Useful when a group hour will not fit.
+Free first class
+
+USD 0
+
+no card required
+
+- A full lesson building something
+- A straight read on the level
+- No card details taken
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students at one level
+- The same teacher every week
+- Code read line by line
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher working with one student
+- Shaped around what they are building
+- Useful when a group hour will not fit
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Reviews left by families on Google, printed unchanged.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+National Cipher Challenge questions
 
 ## What students and parents ask
 
@@ -233,15 +477,54 @@ A letter counter. Count how often each letter appears in the ciphertext, compare
 
 No. We teach programming, and we do not decipher or assist with a live challenge message. Doing so would be against the competition's rules and against how we teach.
 
+Related pages
+
 ## Other contests in the same term
 
-- [British Informatics Olympiad](/british-informatics-olympiad-preparation): Sat in school in December and January.
-- [Perse Coding Team Challenge](/perse-coding-team-challenge-preparation): Teams, hidden tests, January and March.
-- [UK Bebras Challenge](/bebras-computational-thinking-challenge-practice-uk): The November challenge with no programming in it.
-- [UK competitions calendar 2026-27](/uk-coding-maths-and-ai-competitions-calendar): Dates for every contest, checked with the people who run them.
-- [Coding classes in the UK](/coding-classes-in-united-kingdom): The four school systems, and every UK page.
-- [GCSE Computer Science tutoring](/uk-gcse-computer-science-tutoring): The qualification most entrants are working towards.
+What runs alongside the cipher challenge, and where the whole year is set out.
 
-## Contact
+### [British Informatics Olympiad](/british-informatics-olympiad-preparation)
 
-Book the free first class at [https://learn.modernagecoders.com/national-cipher-challenge-preparation](https://learn.modernagecoders.com/national-cipher-challenge-preparation#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Sat in school in December and January.
+
+### [Perse Coding Team Challenge](/perse-coding-team-challenge-preparation)
+
+Teams, hidden tests, January and March.
+
+### [UK Bebras Challenge](/bebras-computational-thinking-challenge-practice-uk)
+
+The November challenge with no programming in it.
+
+### [UK competitions calendar 2026-27](/uk-coding-maths-and-ai-competitions-calendar)
+
+Dates for every contest, checked with the people who run them.
+
+### [Coding classes in the UK](/coding-classes-in-united-kingdom)
+
+The four school systems, and every UK page.
+
+### [GCSE Computer Science tutoring](/uk-gcse-computer-science-tutoring)
+
+The qualification most entrants are working towards.
+
+Start here
+
+## Book a free coding lesson
+
+Tell us the year group and whether your child has written Python before. The free lesson builds something small and real, and we say afterwards what we saw.
+
+Rather read first? Each syllabus is on its own [course page](/courses), the method on [how we teach](/how-we-teach), and the topic order on the [roadmap](/coding-roadmap).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20doing%20the%20National%20Cipher%20Challenge%20and%20I%20would%20like%20a%20free%20coding%20class.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp is free from a UK mobile and usually the fastest way to reach us. Our number is Indian, which we say on every page, and there is no British office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/national-cipher-challenge-preparation*

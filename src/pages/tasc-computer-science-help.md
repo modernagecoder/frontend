@@ -4,34 +4,28 @@ description: "TASC Computer Science (ITC315118) help for Tasmanian students: Jav
 canonical: https://learn.modernagecoders.com/tasc-computer-science-help
 source: src/pages/tasc-computer-science-help.html
 ---
-> TASC Computer Science (ITC315118) is a Level 3 Tasmanian course with four compulsory content areas: problem solving and programming in Java (70 hours), computer fundamentals and limitations (40 hours), social and ethical issues (10 hours) and a computing option (30 hours). The final award combines nine internal ratings with five from a three-hour external exam.
+> TASC Computer Science (ITC315118) help for Tasmanian students: Java programming, computer fundamentals, the TOY machine and the five-section external exam.
 
-[Home](/) / [Coding classes in Australia](/coding-classes-in-australia) / TASC Computer Science
+In short
 
-Tasmania · TASC Level 3 · Live online
+TASC Computer Science (ITC315118) is a Level 3 Tasmanian course with four compulsory content areas: problem solving and programming in Java (70 hours), computer fundamentals and limitations (40 hours), social and ethical issues (10 hours) and a computing option (30 hours). The final award combines nine internal ratings with five from a three-hour external exam.
 
-# TASC Computer Science help
-
-Computer Science in Tasmania is a genuine first course in the discipline: Java applications on one side, binary, logic gates and machine code on the other. Students who love programming are sometimes caught out by the second half, because the exam gives equal time to how a computer stores and moves data.
-
-At a glance: Course: Computer Science; Code: ITC315118; Level: 3, size value 15; Language: Java applications; Content hours: 70, 40, 10 and 30; Exam: Three hours, five sections; 2026 exam: Thursday 19 November; We never: Write assessed work. Rated 4.9 across 547 Google reviews.
+Where to begin
 
 ## Three courses behind ITC315118
 
 Java first, then the fundamentals the exam weighs equally, then algorithm practice.
 
-- [Java for teens](/courses/java-programming-masterclass-for-teens): Classes, arrays, strings, methods and event-driven GUIs, the Java features the course document lists.
-- [AP Computer Science A](/courses/ap-computer-science-a-java-exam-prep-course): A Java exam course that drills tracing and writing code by hand, the skill the written exam rewards.
-- [Competitive programming](/courses/competitive-programming-for-teens-course): Designing and improving algorithms under time pressure, Criterion 1 in practice.
+[![Java for Teens course thumbnail](/images/java-teens.webp)  TACS / 01 Java for teens Classes, arrays, strings, methods and event-driven GUIs, the Java features the course document lists. Open the syllabus →](/courses/java-programming-masterclass-for-teens)[![AP Computer Science A course thumbnail](/images/ap-computer-science-a.webp)  TACS / 02 AP Computer Science A A Java exam course that drills tracing and writing code by hand, the skill the written exam rewards. Open the syllabus →](/courses/ap-computer-science-a-java-exam-prep-course)[![Competitive Programming for Teens course thumbnail](/images/competitive-programming-teens.webp)  TACS / 03 Competitive programming Designing and improving algorithms under time pressure, Criterion 1 in practice. Open the syllabus →](/courses/competitive-programming-for-teens-course)
+
+Inside the course document
 
 ## Four areas, 150 hours of content
 
 From the TASC Computer Science (ITC315118) course page, read on 7 October 2026. The course is current for 2026, with accreditation renewed from 1 January 2026. All content areas are compulsory.
 
-**ITC315118 content areas, hours and work requirements**
-
 | Area | Hours | What it covers | Work requirements |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1. Problem solving and programming | 70 | Algorithm design, the software development life cycle, Java applications with objects, events and GUIs, testing and documentation | Ten programming tasks, an algorithms task and an SDLC task of about 2 hours each, two fully documented programs |
 | 2. Computer fundamentals and limitations | 40 | Binary and hexadecimal, two's complement, data types, logic gates and Karnaugh maps, the von Neumann architecture, machine code and the JVM | Four tasks of about 2 hours: logic, number representation, data representation and the TOY machine |
 | 3. Social and ethical issues | 10 | Careers, professional codes of ethics, responsibilities and the consequences of technological errors | One task of about 1000 words |
@@ -47,14 +41,14 @@ The computing option leaves room for personal interest. Suggested topics include
 
 Source: [TASC, Computer Science (ITC315118) course page](https://www.tasc.tas.gov.au/students/courses/technologies/itc315118-8/), including content, work requirements and accreditation history, read on 7 October 2026.
 
+Ratings, award and exam
+
 ## Nine internal ratings, five from a three-hour exam
 
 TASC courses are assessed against criteria, each rated A, B or C, with t and z notations below C. The rules below come from the course document, the External Assessment Specifications (Version 5, February 2026) and the 2026 written exam timetable.
 
-**How ITC315118 is assessed**
-
 | Piece | Detail from TASC |
-|---|---|
+| --- | --- |
 | Criteria | Nine criteria; criteria 1 to 5 are assessed both internally and externally |
 | Final award | Determined by TASC from 14 ratings: 9 internal and 5 external |
 | Exceptional Achievement | At least 12 A and 2 B ratings, including 4 A and 1 B from external assessment |
@@ -73,6 +67,8 @@ Past exam papers and exemplar questions are linked from the course page. We use 
 
 Sources: ITC315118 course page (criteria and award); [External Assessment Specifications](https://assets.tasc.tas.gov.au/uploads/2026/06/ITC315118-Computer-Science-External-Assessment-Specifications.pdf); [2026 TASC Written Exam Timetable](https://assets.tasc.tas.gov.au/uploads/2026/08/2026-TASC-Written-Exam-Timetable.pdf). Read on 7 October 2026.
 
+A worked lesson
+
 ## Tracing a TOY machine program by hand
 
 Area 2 includes a TOY machine assessment task, and the course standards ask students to trace simple TOY programs, complete them, and relate TOY operations to Java. TOY is an imaginary computer created at Princeton for teaching. The program below is ours; the machine facts are Princeton's.
@@ -89,10 +85,8 @@ In Format 1 the last two hex digits name source registers, so 1462 adds register
 
 Load 5 and 8 from memory, store their sum and their difference, and halt. Predict every register before running anything.
 
-**Our TOY program starting at address 10, with memory 20 = 0005 and 21 = 0008**
-
 | Address | Instruction | Meaning | After it runs |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 10 | 8A20 | Load register A from memory 20 | R[A] = 0005 |
 | 11 | 8B21 | Load register B from memory 21 | R[B] = 0008 |
 | 12 | 1CAB | R[C] = R[A] + R[B] | R[C] = 000D (13) |
@@ -111,14 +105,14 @@ We checked this program in a short simulator we wrote, which steps through each 
 
 TOY machine description: [Princeton, Introduction to Programming in Java, section 6.2 TOY Machine](https://introcs.cs.princeton.edu/java/62toy/). TOY standards: ITC315118 course page. The program, trace and simulator are our own, checked on 7 October 2026.
 
+The programming half
+
 ## Java the way the course document describes it
 
 Area 1 is the largest block of hours. These are the habits we build, mapped to the course document, using small applications we invent.
 
-**What we practise for Area 1, mapped to the course document**
-
 | Course document | What we practise |
-|---|---|
+| --- | --- |
 | Algorithm design and problem solving | Decomposing a problem and expressing the solution before coding |
 | Primitive types, promotion and casting | Predicting results of mixed int and double arithmetic, then checking |
 | Classes and information hiding | Private fields with methods that protect them |
@@ -130,14 +124,14 @@ All practice uses programs we design. We do not write, debug or review any asses
 
 Source: ITC315118 course page, Area 1 content and work requirements, read on 7 October 2026.
 
+Getting ready for Level 3
+
 ## Rungs from first Java to exam-ready Computer Science
 
 Most students arrive with some coding. The rungs that matter most are the ones about the machine.
 
-**From Year 10 coding to the ITC315118 exam**
-
 | When | Rung | The sign it is secure |
-|---|---|---|
+| --- | --- | --- |
 | Year 10 | 1. Java basics | Writes classes with methods and arrays without copying an example |
 | Early Level 3 | 2. Number systems | Converts between binary, decimal and hexadecimal in both directions |
 | Mid Level 3 | 3. Logic | Simplifies a Boolean expression with a Karnaugh map and draws the circuit |
@@ -146,63 +140,293 @@ Most students arrive with some coding. The rungs that matter most are the ones a
 ### If programming is strong but theory is weak
 
 Spend a third of every week on Area 2. Number systems and logic are skills, so short daily practice works far better than cramming.
+
 Tracing by hand, on paper, is what the written exam needs. Do it before reaching for the computer.
 
 ### Comparing courses
 
 Students elsewhere can compare with [HSC Software Engineering](/hsc-software-engineering-help) or [VCE Algorithmics](/vce-algorithmics-hess-help).
+
 For the maths that pairs well with computing, see [TASC Mathematics Methods](/tasc-mathematics-methods-tutoring).
+
+The catalogue
 
 ## Nine courses for ITC315118 students
 
 Grouped by area of the course. Every card opens a full syllabus.
 
+I
+
 ### Java and algorithms
 
 Area 1
 
-- [Java for teens](/courses/java-programming-masterclass-for-teens): Objects, events and GUIs in Java.
-- [AP Computer Science A](/courses/ap-computer-science-a-java-exam-prep-course): Java tracing and writing by hand.
-- [Java masterclass](/courses/complete-java-programming-masterclass-college): Deeper Java for students racing ahead.
+TACS / JA / 01
+
+#### Java for teens
+
+Objects, events and GUIs in Java.
+
+[Open the syllabus](/courses/java-programming-masterclass-for-teens)
+
+TACS / JA / 02
+
+#### AP Computer Science A
+
+Java tracing and writing by hand.
+
+[Open the syllabus](/courses/ap-computer-science-a-java-exam-prep-course)
+
+TACS / JA / 03
+
+#### Java masterclass
+
+Deeper Java for students racing ahead.
+
+[Open the syllabus](/courses/complete-java-programming-masterclass-college)II
 
 ### Fundamentals
 
 Area 2
 
-- [AS and A Level Computer Science](/courses/cambridge-a-level-computer-science-9618-course): Binary, logic and architecture at senior depth.
-- [IGCSE Computer Science](/courses/igcse-computer-science-0478-course): Number systems and logic gates from the start.
-- [Data structures and algorithms](/courses/data-structures-algorithms-masterclass-college): Arrays and memory, the step after Area 2.
+TACS / FU / 01
+
+#### AS and A Level Computer Science
+
+Binary, logic and architecture at senior depth.
+
+[Open the syllabus](/courses/cambridge-a-level-computer-science-9618-course)
+
+TACS / FU / 02
+
+#### IGCSE Computer Science
+
+Number systems and logic gates from the start.
+
+[Open the syllabus](/courses/igcse-computer-science-0478-course)
+
+TACS / FU / 03
+
+#### Data structures and algorithms
+
+Arrays and memory, the step after Area 2.
+
+[Open the syllabus](/courses/data-structures-algorithms-masterclass-college)III
 
 ### Options
 
 Area 4 interests
 
-- [Game development](/courses/complete-game-development-masterclass-for-teens): A suggested option topic in its own right.
-- [AI and machine learning](/courses/ai-ml-masterclass-teens): Another suggested option topic.
-- [Cybersecurity](/courses/cybersecurity-course-for-teens-ethical-defensive): Cryptography and security, also on the list.
+TACS / OP / 01
+
+#### Game development
+
+A suggested option topic in its own right.
+
+[Open the syllabus](/courses/complete-game-development-masterclass-for-teens)
+
+TACS / OP / 02
+
+#### AI and machine learning
+
+Another suggested option topic.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+TACS / OP / 03
+
+#### Cybersecurity
+
+Cryptography and security, also on the list.
+
+[Open the syllabus](/courses/cybersecurity-course-for-teens-ethical-defensive)
+
+How lessons run
 
 ## Computer Science lessons on Hobart time
 
 Lessons are live with our tutors in India. Hobart is four and a half hours ahead of India time in winter and five and a half hours ahead in daylight saving, which runs from 4 October 2026 to 4 April 2027 on the IANA time zone database. A 5 pm Hobart lesson in summer is 11.30 am India time.
 
-- **Weekday after school** Java and fundamentals, alternating weeks.
-- **Weekend morning** Timed exam-style sections.
-- **School holidays** Area 2 catch-up blocks.
+Weekday after school
 
-- **Trace by hand** Every program traced on paper before it runs.
-- **Both halves** Java and machine theory taught in the same course.
-- **Mark a minute** Practice timed the way the exam is designed.
-- **Groups** Fifteen to twenty students at one level, comparing traces.
-- **One-to-one sessions** For one area, often logic or two's complement.
-- **No predictions** We never forecast a TASC award; the work belongs to the student.
+Java and fundamentals, alternating weeks.
+
+Weekend morning
+
+Timed exam-style sections.
+
+School holidays
+
+Area 2 catch-up blocks.
+
+### Trace by hand
+
+Every program traced on paper before it runs.
+
+### Both halves
+
+Java and machine theory taught in the same course.
+
+### Mark a minute
+
+Practice timed the way the exam is designed.
+
+### Groups
+
+Fifteen to twenty students at one level, comparing traces.
+
+### One-to-one sessions
+
+For one area, often logic or two's complement.
+
+### No predictions
+
+We never forecast a TASC award; the work belongs to the student.
+
+Student work
+
+## Projects our students made for themselves
+
+Built outside school and never assessed. The full set is in our [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Lessons are billed monthly in US dollars at a single rate for families outside India. There is no joining fee and no commitment beyond the month in progress.
 
-- Free first class: USD 0. A full computer science lesson with a tutor. A clear plan for the weakest area. No card details.
-- Group batch: USD 100 a month. Fifteen to twenty students at one level. One tutor all term. Traces and code reviewed in class. A certificate at the end.
-- One to one: USD 150 a month. A tutor for one student. Built around one area of the course. Useful in the weeks before November.
+Free first class
+
+USD 0
+
+no card required
+
+- A full computer science lesson with a tutor
+- A clear plan for the weakest area
+- No card details
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students at one level
+- One tutor all term
+- Traces and code reviewed in class
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A tutor for one student
+- Built around one area of the course
+- Useful in the weeks before November
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Google reviews, quoted exactly as families and students wrote them.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about ITC315118
 
 ## TASC Computer Science questions we hear
 
@@ -246,15 +470,54 @@ The course document describes it as a starting point for further education in IC
 
 Late afternoon in Hobart falls in our tutors' working day. The weekly time is agreed after the free lesson.
 
+Related pages
+
 ## More for Tasmanian students
 
-- [TASC Mathematics Methods tutoring](/tasc-mathematics-methods-tutoring): Level 4 calculus and statistics in Tasmania.
-- [HSC Software Engineering help](/hsc-software-engineering-help): The New South Wales course for comparison.
-- [VCE Algorithmics help](/vce-algorithmics-hess-help): Victoria's algorithms study.
-- [Choosing Year 11 computing subjects](/choosing-year-11-computing-subjects-australia): How senior computing differs between states.
-- [Australian competitions calendar](/australian-coding-maths-and-ai-competitions-calendar): Coding competitions through the year.
-- [Coding classes in Australia](/coding-classes-in-australia): The full list of our Australian pages.
+Maths that pairs with computing, and computing courses in other states.
 
-## Contact
+### [TASC Mathematics Methods tutoring](/tasc-mathematics-methods-tutoring)
 
-Book the free first class at [https://learn.modernagecoders.com/tasc-computer-science-help](https://learn.modernagecoders.com/tasc-computer-science-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Level 4 calculus and statistics in Tasmania.
+
+### [HSC Software Engineering help](/hsc-software-engineering-help)
+
+The New South Wales course for comparison.
+
+### [VCE Algorithmics help](/vce-algorithmics-hess-help)
+
+Victoria's algorithms study.
+
+### [Choosing Year 11 computing subjects](/choosing-year-11-computing-subjects-australia)
+
+How senior computing differs between states.
+
+### [Australian competitions calendar](/australian-coding-maths-and-ai-competitions-calendar)
+
+Coding competitions through the year.
+
+### [Coding classes in Australia](/coding-classes-in-australia)
+
+The full list of our Australian pages.
+
+Start here
+
+## Start with a free Computer Science lesson
+
+Tell us whether Java or the theory side is harder, and how far through the year you are. The free lesson works on that area with problems we write.
+
+Before booking, look through syllabuses in the [course atlas](/course-atlas), read [how we teach](/how-we-teach), or see the [Australian pages](/coding-classes-in-australia) for other states.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20class%20about%20TASC%20Computer%20Science%20(ITC315118).) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp reaches us fastest. Our number begins +91 because the school is in India, and we have no office in Tasmania or anywhere else in Australia.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/tasc-computer-science-help*

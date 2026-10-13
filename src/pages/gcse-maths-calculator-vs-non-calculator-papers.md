@@ -6,10 +6,6 @@ source: src/pages/gcse-maths-calculator-vs-non-calculator-papers.html
 ---
 > Which GCSE maths paper is non-calculator on AQA, Edexcel and OCR, what can be tested on each, and the skills to practise for both kinds of paper before the exam.
 
-# GCSE maths calculator vs non-calculator papers: what to practise for each
-
-**The short answer.** Every GCSE maths tier has three papers, and one of them is sat without a calculator: Paper 1 on AQA and Edexcel, Paper 2 or Paper 5 on OCR. That paper is a third of the marks. Any topic can appear on any paper, so exact arithmetic, fractions and estimation need practice as much as calculator skills.
-
 Courses that train both papers
 
 ## Sharp mental methods and a confident calculator hand.

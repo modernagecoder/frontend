@@ -12,7 +12,7 @@ LIVE ONLINE CODING & MATHS · MANDIRTALA · SHIBPUR · HOWRAH
 
 Modern Age Coders runs premium, 100% live online coding and mathematics classes for families near Mandirtala and Shibpur, Howrah, the same premium standard we bring to the wider Kolkata metro. Mandirtala means “the place of the temple”, and we treat learning the same way, sincere, structured, no gimmicks. Classes are small live batches taught by full-time engineers and maths graduates, never pre-recorded videos. Your child learns from home, with no evening crossing of the Vidyasagar Setu or Belilious Road traffic.
 
-100% live · never pre-recordedSmall batches of 3-8ICSE · CBSE · WBBSE · IGCSEFree demo · starts in 24 hours[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)6-8Max students per live batch100%Live, taught in real time₹1,499Group fees, per month24 hrsFrom demo to first classAT A GLANCE
+100% live · never pre-recordedBatches of 15-20ICSE · CBSE · WBBSE · IGCSEFree demo · starts in 24 hours[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)15-20Max students per live batch100%Live, taught in real time₹1,499Group fees, per month24 hrsFrom demo to first classAT A GLANCE
 
 ## The Mandirtala programme, in one fact sheet
 

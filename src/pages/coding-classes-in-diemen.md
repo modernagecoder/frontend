@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and app classes for Diemen, ages 6 
 canonical: https://learn.modernagecoders.com/coding-classes-in-diemen
 source: src/pages/coding-classes-in-diemen.html
 ---
-> Diemen had 33,327 residents on 1 January 2026, the national statistics record. First mentioned in 1033, it grew from the middle of the twentieth century as a commuter town for Amsterdam, and it has stayed an independent municipality, squeezed between Watergraafsmeer, Duivendrecht and Amsterdam-Zuidoost. Its connections tell the story: a station on the Gooilijn since 1974, and since 1993 a railway station on the Ringspoorbaan beside the metro at Diemen-Zuid. A set of stations joined by lines is what programmers call a graph, and finding the fastest way across it is one of the classic problems of computing, solved by the algorithm every route planner still uses. The fastest route, it turns out, is often not the one with the fewest stops. Modern Age Coders teaches live online in English for ages 6 to 67; the first lesson is free, then USD 100 a month in a group or USD 150 one to one.
+> Live online coding, Python, AI and app classes for Diemen, ages 6 to 67, from Diemen-Noord and Oud-Diemen to Diemen-Zuid and the Sniep. First lesson free.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Diemen
-
-Diemen, Noord-Holland / Live online
-
-# Coding classes in Diemen, where a metro and two railways meet
-
-**What are the best coding classes in Diemen?** Diemen had 33,327 residents on 1 January 2026, the national statistics record. First mentioned in 1033, it grew from the middle of the twentieth century as a commuter town for Amsterdam, and it has stayed an independent municipality, squeezed between Watergraafsmeer, Duivendrecht and Amsterdam-Zuidoost. Its connections tell the story: a station on the Gooilijn since 1974, and since 1993 a railway station on the Ringspoorbaan beside the metro at Diemen-Zuid. A set of stations joined by lines is what programmers call a graph, and finding the fastest way across it is one of the classic problems of computing, solved by the algorithm every route planner still uses. The fastest route, it turns out, is often not the one with the fewest stops. Modern Age Coders teaches live online in English for ages 6 to 67; the first lesson is free, then USD 100 a month in a group or USD 150 one to one.
-
-Look at a travel map around Diemen and it is a web of dots and lines: the station on the Gooilijn, the metro and the railway meeting at Diemen-Zuid, the roads to Amsterdam, Weesp and beyond. Computer scientists call such a web a graph, with the dots as nodes and the lines as edges, and each edge carries a cost, such as minutes, kilometres or money. The question a route planner answers, what is the cheapest way from here to there, was solved in general by Edsger Dijkstra, whose method, published in 1959, still sits inside navigation apps, internet routing and many AI planning systems. It works by always extending the cheapest route found so far, and it guarantees the best answer. Its lessons are useful far beyond travel: the obvious route is not always the best, the best route depends on what you choose to count as cost, and a network full of shortcuts can make a route with more stops the fastest of all.
-
-Facts last verified 11 September 2026. Teaching is online; no Diemen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Diemen
 
 ## Four courses for the town between Amsterdam and the Gooi
 
 A child in Diemen-Noord who wants to make a maze game, a teenager in Diemen-Zuid building a route finder for the metro, a student in Oud-Diemen who has met graphs in a data course, and an adult in the Sniep who plans deliveries or schedules at work. The first lesson is free for each of them.
 
-- [Game Development for Kids](/courses/game-development-masterclass-for-kids) (Ages 8 to 12): Maze games where a child first finds the way by hand, then teaches the computer to find the shortest one.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 11 to 14): Networks, distances and paths made concrete in code, so graph ideas become something a learner has built and tested.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Graphs and shortest paths in Python, from a small network by hand to route planning and scheduling with real data.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): Delivery, travel and scheduling problems seen as networks, with a clear idea of what is being optimised.
+[![Game Development for Kids course thumbnail](/images/game-dev-kids.webp)Ages 8 to 12Game Development for KidsMaze games where a child first finds the way by hand, then teaches the computer to find the shortest one.See the syllabus](/courses/game-development-masterclass-for-kids)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 11 to 14Maths Through CodingNetworks, distances and paths made concrete in code, so graph ideas become something a learner has built and tested.See the syllabus](/courses/maths-through-coding)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CourseGraphs and shortest paths in Python, from a small network by hand to route planning and scheduling with real data.See the syllabus](/courses/python-ai-automation-masterclass-college)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)Delivery, travel and scheduling problems seen as networks, with a clear idea of what is being optimised.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Diemen today
 
 ## A settlement of 1033, a commuter town, and a town that stayed its own
 
 The encyclopaedia divides Diemen into six parts, Diemen-Noord, Oud-Diemen, Diemen-Centrum, once called Diemerbrug, Diemen-Zuid, Diemen Sniep and the outlying area; the statistics office counts nine wijken, including Plantage de Sniep, Holland Park and Bergwijkpark, and 38 buurten. On 1,195 hectares of land and 209 of water it has a published density of 2,781 residents per square kilometre.
 
-**Diemen in the encyclopaedia, by date**
-
 | When | What happened |
-|---|---|
+| --- | --- |
 | 1033 | the oldest mention of Diemen, one of the first settlements in the area |
 | From the mid-twentieth century | Diemen grew strongly as a commuter town for Amsterdam; the old villages grew together, and Diemen-Noord and Diemen-Zuid were built |
 | 1974 | station Diemen opened on the Gooilijn |
@@ -62,14 +48,14 @@ Park Spoorzicht is a nature park in the centre of Diemen, and the Diemerbos, pla
 
 Of the 33,327 residents counted for 2026, 11,110 are aged twenty-five to forty-five, a third of the total, and institutions in the municipality count 1,890 university students.
 
+The fastest way across
+
 ## Five stops, seven connections, and a surprising answer
 
 The network below is invented to show the method, not a real map of Diemen. Travel times between stops, in minutes: A to B 4, A to C 10, B to C 3, B to D 12, C to D 5, C to E 11, D to E 2.
 
-**Dijkstra's method from A, fixing one stop at a time**
-
 | Step | Stop fixed | Fastest time from A | Reached via |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1 | A | 0 minutes | the start |
 | 2 | B | 4 minutes | A |
 | 3 | C | 7 minutes | A, B (not the direct 10) |
@@ -77,6 +63,8 @@ The network below is invented to show the method, not a real map of Diemen. Trav
 | 5 | E | 14 minutes | A, B, C, D |
 
 The fastest route from A to E takes 14 minutes and passes through every stop. The two-stop route, A to C to E, takes 21 minutes, and A to B to D to E takes 18. A traveller who counted stops would choose badly; a program that counts minutes chooses well. Dijkstra's method gets there by a simple rule repeated: of all the stops not yet fixed, fix the one that can be reached soonest, then see whether going through it improves the time to its neighbours. When the destination is fixed, its time is guaranteed to be the best possible, provided no connection has a negative cost. Change what counts as cost, say to money, or to the number of changes between metro and train, and the same method finds a different best route. Choosing the cost is the human decision; finding the route is the computer's job.
+
+Verified local facts
 
 ## Diemen in the national statistics
 
@@ -108,6 +96,8 @@ The figures published for the municipality with their years, the encyclopaedia h
 
 Modern Age Coders has no connection with the municipality of Diemen, the railway or metro operators, or any school in the area, and nothing on this page implies one. The statistics are those published for Diemen for the years stated. The oldest mention, the growth, the six parts, the stations, the Diemerbos, Park Spoorzicht and Diemen's independence come from the encyclopaedia entry for Diemen, which gives 33,284 residents on 1 January 2026 and 14.04 square kilometres, from a different source, not combined with the statistics.
 
+Signature project
+
 ## Draw the network, then let the computer find the way
 
 Graphs are one of the most useful ideas in computing, and a learner can go from a drawing on paper to a working route finder in a few lessons.
@@ -124,10 +114,8 @@ Work through Dijkstra's rule on paper, fixing the nearest unfixed stop each time
 
 Swap minutes for money, or add a penalty for each change of line, and run it again. The best route changes, which shows that the question you ask decides the answer you get.
 
-**Graphs hiding in everyday systems**
-
 | System | The nodes | The edges and their cost | The question asked |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | A route planner | stations and stops | connections, in minutes | the fastest way from here to there |
 | The internet | routers | links, in delay or capacity | the best path for each packet of data |
 | A delivery company | addresses and depots | roads, in time or fuel | the cheapest set of rounds |
@@ -138,14 +126,14 @@ Swap minutes for money, or add a penalty for each change of line, and run it aga
 
 Ask an AI assistant for the best route through a network and it will usually give a sensible-sounding answer, based on patterns in text it has read. That is not the same as solving the problem. A language model does not run Dijkstra's method in its head; it predicts what a good answer looks like, and on a network it has never seen it can confidently choose a route that is slower, longer or simply impossible. The reliable approach combines the two: let the AI help describe the problem, choose sensible costs and write the code, and let the proven algorithm find the route. Many AI systems now do exactly this, calling a real route-finding tool rather than guessing. The same goes for scheduling, logistics and any task that is secretly a graph. A learner who has worked the method by hand on five stops, and seen the longest-looking route win, understands why a guaranteed algorithm is worth more than a confident guess. Diemen, a town defined by where its lines meet, is a good place to learn it.
 
+Reliable pipeline
+
 ## Five habits for problems that are secretly networks
 
 For routes, deliveries, schedules, games and data connections. Practised in a town whose metro and railways meet at Diemen-Zuid.
 
-**Solving network problems properly**
-
 | Habit | In practice | What it avoids | What it gives |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | See the graph | Recognise when a problem is places joined by connections | Solving a network problem by trial and error | Access to proven methods |
 | Choose the cost | Decide what is being minimised: time, money, changes, risk | A best route for the wrong question | Answers that fit the need |
 | Use a proven algorithm | Find routes with a method that guarantees the best answer | Confident but wrong guesses | Routes you can rely on |
@@ -166,14 +154,37 @@ A work problem, delivery rounds or meeting rooms or task order, drawn as a graph
 
 This section uses the encyclopaedia's account of Diemen's stations as its setting and an invented network for the worked example. It gives no real travel times for any Diemen connection.
 
+Learning ladder
+
 ## From a maze on squared paper to route finding with real data
 
 Each learner's starting level comes from the free lesson, by watching them on a real task. Age alone does not decide it, and neither does the part of Diemen they live in.
 
-- **Ages 6 to 10: Mazes** Children find paths through mazes and then program the shortest one. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Game Development for Kids](/courses/game-development-masterclass-for-kids)
-- **Ages 11 to 13: Dots and lines** Learners draw networks and work out routes by hand before coding them. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Dijkstra in Python** Teenagers write the algorithm and try different costs on real maps. [App Development for Teens](/courses/complete-app-development-masterclass-for-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Networks at work** Adults turn routes, rounds and schedules into graphs and solve them. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Mazes
+
+Children find paths through mazes and then program the shortest one.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Game Development for Kids](/courses/game-development-masterclass-for-kids)Ages 11 to 13
+
+### Dots and lines
+
+Learners draw networks and work out routes by hand before coding them.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Dijkstra in Python
+
+Teenagers write the algorithm and try different costs on real maps.
+
+[App Development for Teens](/courses/complete-app-development-masterclass-for-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Networks at work
+
+Adults turn routes, rounds and schedules into graphs and solve them.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## An AI can suggest a route in a second. Why should a teenager in Diemen learn how the best route is really found?
 
@@ -185,30 +196,139 @@ A learner who has worked Dijkstra's method by hand on five stops, watched the ro
 
 So the case for a child in Diemen learning to code in 2026 is not the metro or the railway. It is that someone who can turn a messy problem into a graph and solve it properly will be needed wherever AI is asked to plan routes, rounds and schedules. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## A live class for every part of Diemen
 
 From Diemen-Noord across the railway to Diemen-Zuid and the Sniep, the town is compact, and a lesson on a laptop is the one journey that takes no time at all.
 
-- **No connection to catch** A learner in Oud-Diemen and a learner in Holland Park start the same lesson at the same moment, each from home, with no metro or train in between.
-- **School words in Dutch** Groep, brugklas, vmbo, havo, vwo and profielkeuze stay in Dutch, as Diemen families use them, while the teaching is in English.
-- **The first hour is free** It is a real lesson on a real task. The teacher then recommends a level, a course and a regular time, and asks for no payment details.
-- **Groups from further afield** Fifteen to twenty learners at the same stage. Diemen has 4,794 residents under fifteen, too few to fill every level and hour locally, so groups include learners from other places and countries.
-- **Regio Noord holidays** Twice a week, about eight lessons a month, at a fixed hour, pausing for the regio Noord holidays that Noord-Holland schools keep.
-- **Teachers a few hours ahead** The teachers are in India, three and a half hours ahead of Diemen in summer and four and a half in winter, so late afternoons, evenings and weekend mornings all work.
+### No connection to catch
 
-**Eight schools, many connections, and one group online** Diemen has 7 primary establishments teaching 2,423 pupils and one secondary establishment. A coding group needs five learners who match on subject, stage and hour, and they are found far more easily across all ages from 6 to 67 and many countries than inside one small municipality.
+A learner in Oud-Diemen and a learner in Holland Park start the same lesson at the same moment, each from home, with no metro or train in between.
+
+### School words in Dutch
+
+Groep, brugklas, vmbo, havo, vwo and profielkeuze stay in Dutch, as Diemen families use them, while the teaching is in English.
+
+### The first hour is free
+
+It is a real lesson on a real task. The teacher then recommends a level, a course and a regular time, and asks for no payment details.
+
+### Groups from further afield
+
+Fifteen to twenty learners at the same stage. Diemen has 4,794 residents under fifteen, too few to fill every level and hour locally, so groups include learners from other places and countries.
+
+### Regio Noord holidays
+
+Twice a week, about eight lessons a month, at a fixed hour, pausing for the regio Noord holidays that Noord-Holland schools keep.
+
+### Teachers a few hours ahead
+
+The teachers are in India, three and a half hours ahead of Diemen in summer and four and a half in winter, so late afternoons, evenings and weekend mornings all work.
+
+Eight schools, many connections, and one group online
+
+Diemen has 7 primary establishments teaching 2,423 pupils and one secondary establishment. A coding group needs five learners who match on subject, stage and hour, and they are found far more easily across all ages from 6 to 67 and many countries than inside one small municipality.
+
+Fees
 
 ## What classes cost in Diemen
 
 The whole price list, set out here.
 
-- First class: USD 0. A real lesson on a real task, ending with a level and a course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner and one teacher.
+First class**USD 0**
+
+A real lesson on a real task, ending with a level and a course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner and one teacher.
 
 The fee is one dollar price for every country, with no euro list, so a household in Diemen-Noord pays what a household in Diemen-Zuid pays. Nothing is charged until the free lesson has settled a course and a time, and payment is then arranged on WhatsApp. The pricing page covers pauses, format changes and missed lessons.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Diemen.)Reviews
+
+## Six Google reviews, as their authors wrote them
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## What can the learner do already?
+
+The first task might be a maze with a shortest path to find, a small network worked through by hand, or Dijkstra's method written in Python.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Diemen one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Diemen.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Diemen coding class questions
+
+The town, its lines, its figures, and the lessons.
 
 ### Which parts does Diemen have?
 
@@ -250,10 +370,14 @@ The first lesson is free. After it, group tuition is USD 100 a month for two liv
 
 Fifteen to twenty, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
+Explore Amsterdam and beyond
+
 ## Into Amsterdam, out to Weesp, and back to the hub
 
 Diemen is surrounded by the city covered by [coding classes in Amsterdam](/coding-classes-in-amsterdam), whose district pages include [Amsterdam-Oost](/coding-classes-in-amsterdam-oost), with Watergraafsmeer, and [Amsterdam-Zuidoost](/coding-classes-in-amsterdam-zuidoost). Along the Gooilijn lies [Weesp](/coding-classes-in-weesp), and every municipality in the province is listed on [Noord-Holland](/coding-classes-in-noord-holland). For machine learning from the start there is the [AI and Python Academy](/ai-and-python-academy-netherlands), and the whole series is on the [Netherlands coding hub](/coding-classes-in-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Diemen.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-diemen](https://learn.modernagecoders.com/coding-classes-in-diemen#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-diemen*

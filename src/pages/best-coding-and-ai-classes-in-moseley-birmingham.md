@@ -4,46 +4,32 @@ description: "Online coding, AI, Python and vibe coding lessons for Moseley, Wak
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-moseley-birmingham
 source: src/pages/best-coding-and-ai-classes-in-moseley-birmingham.html
 ---
-> Moseley ward, in the city of Birmingham, had 21,839 usual residents at the 2021 census. Wake Green, Moor Green and Billesley are recorded suburban areas in the same B13 postcode district, with Balsall Heath in B12. Lessons in coding, AI, Python, vibe coding and maths run on live video with a tutor based in India, open to ages six through 67, either privately or in a class of fifteen to twenty at one stage. We teach judgement alongside method, so a learner knows when a number has answered the question and when it has dodged it. The first lesson is free, and it ends with a course suggestion. The Moseley project clusters the ward's 114 mapped shops and eating places and asks a popular score how many clusters there are; the score's favourite answer turns out to be the least interesting. Ongoing tuition is USD 100 a month in a class or USD 150 a month privately.
+> Online coding, AI, Python and vibe coding lessons for Moseley, Wake Green, Moor Green and Billesley learners aged 6 to 67, taught live. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [West Midlands region](/coding-and-ai-classes-in-west-midlands-region) / Moseley
-
-Moseley, Birmingham, England / Live online
-
-# Coding and AI classes in Moseley, Birmingham
-
-**Where can Moseley learners find the best coding and AI classes?** Moseley ward, in the city of Birmingham, had 21,839 usual residents at the 2021 census. Wake Green, Moor Green and Billesley are recorded suburban areas in the same B13 postcode district, with Balsall Heath in B12. Lessons in coding, AI, Python, vibe coding and maths run on live video with a tutor based in India, open to ages six through 67, either privately or in a class of fifteen to twenty at one stage. We teach judgement alongside method, so a learner knows when a number has answered the question and when it has dodged it. The first lesson is free, and it ends with a course suggestion. The Moseley project clusters the ward's 114 mapped shops and eating places and asks a popular score how many clusters there are; the score's favourite answer turns out to be the least interesting. Ongoing tuition is USD 100 a month in a class or USD 150 a month privately.
-
-Clustering algorithms such as k-means have an awkward requirement: you must tell them how many clusters to find. Ask for two and you get two; ask for nine and you get nine. So analysts reach for a score to choose the number for them. The most popular is the silhouette score, which checks, for every point, whether it is closer to its own cluster than to the next one, and averages the result between minus one and one. Higher is supposed to be better. This project puts that to the test on something a local person can judge by eye: where the shops, cafés and pubs of Moseley ward sit on the map.
-
-Facts last verified 30 September 2026. Teaching is online; no Moseley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentMoseley course picks
 
 ## Moseley courses in thinking, Python and AI
 
 Four options by age. Each begins with a live lesson at no cost, and nothing is asked for up front.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think course: grouping things sensibly and questioning a score.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games dreamt up by the learner, typed with an AI and tested by hand.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Machine learning in Python, including k-means and the Moseley silhouette test.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): How AI systems group and embed data, how to evaluate them, and agents in Python.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think course: grouping things sensibly and questioning a score.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games dreamt up by the learner, typed with an AI and tested by hand.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensMachine learning in Python, including k-means and the Moseley silhouette test.See the syllabus](/courses/ai-ml-masterclass-teens)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseHow AI systems group and embed data, how to evaluate them, and agents in Python.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Moseley
 
 ## Moseley, Wake Green, Moor Green and Billesley
 
 The Census 2021 count for Moseley ward, and places recorded in B13.
 
-**Moseley ward, Birmingham, Census 2021 via Nomis**
-
 | Area | Residents (2021) |
-|---|---|
+| --- | --- |
 | Moseley ward | 21,839 |
 
 The ward as drawn by the ONS covers 5.87 square kilometres, and that boundary is the one the project uses. Postcodes.io lists Moseley, Wake Green, Moor Green and Billesley as suburban areas of Birmingham in the B13 district, and Balsall Heath in B12. Local schools teach England's national curriculum; pass us the term dates and lessons will keep clear of the holidays.
@@ -52,16 +38,16 @@ The ward as drawn by the ONS covers 5.87 square kilometres, and that boundary is
 
 There is more on [coding classes in Birmingham](/coding-classes-in-birmingham) and on [Kings Heath](/vibe-coding-and-ai-agents-classes-in-kings-heath-birmingham). Why we teach thinking before tools is explained on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Moseley project
+
 ## How many clusters? K-means and the silhouette score on Moseley's shops
 
 One map, nine clusterings, and a score that prefers the dullest of them.
 
 The learner downloads OpenStreetMap data for south Birmingham and keeps every shop, café, restaurant, takeaway, pub and bar whose position falls inside Moseley ward: 114 places. Their positions are converted to metres and k-means is run for every number of clusters from two to ten, twenty times each from different starts. For each result the program records the silhouette score and also the total squared distance of points from their cluster centres, the quantity k-means itself tries to shrink.
 
-**K-means on 114 shops and eating places in Moseley ward, our Python run on OpenStreetMap data**
-
 | Clusters | Silhouette score | Cluster sizes | Squared distance (sq km) |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 2 | 0.775 | 107 and 7 | 21.19 |
 | 3 | 0.757 | 103, 7 and 4 | 14.17 |
 | 5 | 0.749 | 93, 8, 6, 4 and 3 | 5.53 |
@@ -88,14 +74,14 @@ Compute silhouette scores, compare with random points and argue for a number of 
 
 Shop and venue positions are from OpenStreetMap and its contributors under the Open Database Licence; the ward boundary is from the ONS Open Geography Portal. The clustering and scores are our own work. No business is named, and mapped places are whatever volunteers have recorded.
 
+Scores and AI
+
 ## What this teaches about vibe coding and AI agents
 
 A score measures what it measures, which may not be what you wanted.
 
-**Moseley's clusters on the left, the wider lesson on the right**
-
 | What happened | What to take from it |
-|---|---|
+| --- | --- |
 | The top score was a 107 and 7 split | The highest number is not always the useful answer |
 | The 61 and 35 split scored only 0.507 | Useful distinctions can score poorly |
 | Squared distance fell at every step | Some measures cannot choose for you |
@@ -106,14 +92,37 @@ Ask an AI assistant to cluster data and "pick the optimal number" and it will co
 
 Open data from OpenStreetMap, the ONS, Nomis and postcodes.io made this page possible. None of them is connected with Modern Age Coders, and the analysis, mistakes included, is ours.
 
+Stages
+
 ## From loops on a map to judging clusters
 
 School year is where we start guessing; the free lesson is where we find out.
 
-- **Years 2 to 7: How to think** Grouping, comparing answers and asking what a score means. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Small games and apps made with an AI, checked by the learner. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python and machine learning** Clustering, evaluation and baselines beside GCSE and A level. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: AI evaluation and agents** Unsupervised learning, honest metrics and AI agents in Python. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Years 2 to 7
+
+### How to think
+
+Grouping, comparing answers and asking what a score means.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Small games and apps made with an AI, checked by the learner.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python and machine learning
+
+Clustering, evaluation and baselines beside GCSE and A level.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### AI evaluation and agents
+
+Unsupervised learning, honest metrics and AI agents in Python.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)AI and clustering
 
 ## What is the silhouette score, and can it tell you how many clusters to use?
 
@@ -125,30 +134,139 @@ Learners who have seen that ask of any AI-chosen "optimal" setting: optimal for 
 
 Looking inside the winner, not just at its score, is what keeps Moseley teenagers in charge of AI analysis, and they learn it by building the analysis themselves. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Moseley lessons, live and online
 
 The essentials are a computer, a camera and internet that holds up on a video call.
 
-- **Made by the learner** Pupils type every line and prompt; the tutor watches over screen share and keeps asking why that choice.
-- **Level from the first session** The free lesson shows where to begin, with any exam board noted.
-- **Free trial lesson** It costs nothing and finishes with a suggested course.
-- **Classes matched by stage** Fifteen to twenty learners, drawn from the whole UK, at one level.
-- **Twice weekly** Holidays are left free.
-- **One regular time** Tutors shift for UK clock changes; you do not.
+### Made by the learner
 
-**Why online** Finding five learners at one level who share a free evening is hard within a single suburb and easy across a country.
+Pupils type every line and prompt; the tutor watches over screen share and keeps asking why that choice.
+
+### Level from the first session
+
+The free lesson shows where to begin, with any exam board noted.
+
+### Free trial lesson
+
+It costs nothing and finishes with a suggested course.
+
+### Classes matched by stage
+
+Fifteen to twenty learners, drawn from the whole UK, at one level.
+
+### Twice weekly
+
+Holidays are left free.
+
+### One regular time
+
+Tutors shift for UK clock changes; you do not.
+
+Why online
+
+Finding five learners at one level who share a free evening is hard within a single suburb and easy across a country.
+
+Fees
 
 ## Moseley fees
 
 Moseley learners are charged our international rate, which applies outside India.
 
-- First class: USD 0. A free lesson in full, then a recommendation.
-- Group tuition: USD 100 a month. About eight live group lessons monthly.
-- Private tuition: USD 150 a month. About eight live private lessons monthly.
+First class**USD 0**
+
+A free lesson in full, then a recommendation.
+
+Group tuition**USD 100**
+
+About eight live group lessons monthly.
+
+Private tuition**USD 150**
+
+About eight live private lessons monthly.
 
 We set fees in US dollars and do not list sterling. Nothing is charged until the trial has decided the course and the weekly slot; the pricing page covers holidays, missed lessons and switching between group and private.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Moseley%3F)Reviews
+
+## South Birmingham families and learners nationwide, on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Moseley lesson
+
+Send us an age or year group and a hobby. For the trial we could draw clusters on a paper map, guide an AI through a Scratch game, write a little Python, or colour real shops by group.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Moseley one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Moseley%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Moseley questions
+
+Clustering scores, the shops project, Python, vibe coding and practical matters.
 
 ### How many people live in Moseley, Birmingham?
 
@@ -190,10 +308,14 @@ Free for the first lesson, then USD 100 a month in a class or USD 150 a month pr
 
 Yes; send the dates.
 
+Birmingham
+
 ## More Birmingham pages
 
 Other Birmingham districts, each with its own project: [Kings Heath](/vibe-coding-and-ai-agents-classes-in-kings-heath-birmingham) (an agent with a tiny memory), [Harborne](/ai-and-programming-classes-in-harborne-birmingham), [Edgbaston](/online-coding-and-python-classes-in-edgbaston-birmingham) and [Birmingham](/coding-classes-in-birmingham) as a whole. The [UK hub](/coding-classes-in-united-kingdom) links everywhere else.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Moseley%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-and-ai-classes-in-moseley-birmingham](https://learn.modernagecoders.com/best-coding-and-ai-classes-in-moseley-birmingham#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-moseley-birmingham*

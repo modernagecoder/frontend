@@ -4,37 +4,25 @@ description: "Live online coding, Python, JavaScript and AI classes for Utrecht 
 canonical: https://learn.modernagecoders.com/coding-classes-in-utrecht
 source: src/pages/coding-classes-in-utrecht.html
 ---
-> Coding classes in Utrecht serve a city of 378,121 people (Statistics Netherlands, 1 January 2026) with as many residents aged fifteen to twenty-five as under fifteen, whose 31 secondary schools teach 20,640 pupils while its 15,770 resident secondary pupils are spread across 62 schools in and around the city, and whose central station carries 241,730 passengers a day not counting the ones who change trains. Modern Age Coders runs live online coding, Python, JavaScript, AI and mathematics classes in English for Utrecht learners from 6 to 67. The opening lesson is free; a group place is then USD 100 a month and one-to-one tuition USD 150.
+> Live online coding, Python, JavaScript and AI classes for Utrecht learners aged 6 to 67, in the city where every count of pupils and passengers has two answers.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Utrecht
-
-Utrecht, province of Utrecht / Live online
-
-# Coding classes in Utrecht, where the busiest station in the country counts everyone except the people changing trains
-
-**What are the best coding classes in Utrecht?** Coding classes in Utrecht serve a city of 378,121 people (Statistics Netherlands, 1 January 2026) with as many residents aged fifteen to twenty-five as under fifteen, whose 31 secondary schools teach 20,640 pupils while its 15,770 resident secondary pupils are spread across 62 schools in and around the city, and whose central station carries 241,730 passengers a day not counting the ones who change trains. Modern Age Coders runs live online coding, Python, JavaScript, AI and mathematics classes in English for Utrecht learners from 6 to 67. The opening lesson is free; a group place is then USD 100 a month and one-to-one tuition USD 150.
-
-Two official offices count Utrecht's secondary pupils and get answers 4,870 apart, and both are right, because one counts the schools and the other counts the children. Working out what that gap can and cannot tell you is a twenty-minute program, and it is the most Utrecht thing a child here can learn, in a city whose whole function is people passing through.
-
-Facts last verified 7 September 2026. Teaching is online; no Utrecht branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Utrecht
 
 ## Four courses for a city with 57,569 people between fifteen and twenty-five
 
 Utrecht has a university founded in 1636 with more than 33,000 students, a hogeschool, a science park and a new half of the city built since 1997 for young families. These four courses are chosen for that spread: a child in Leidsche Rijn, a teenager at one of the two gymnasia, a student on the Science Park, and a graduate who wants the next job to be one they can build.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Sequences, conditions and the first real bug, in English, for a groep 3 to 5 child in Terwijde or Wittevrouwen.
-- [JavaScript for Teens](/courses/javascript-course-for-teens-beginners-interactive-web) (Ages 13 to 17): Interactive websites and browser games in JavaScript, for the teenager who wants the thing they built to run on a phone the same day.
-- [Data Science Course](/courses/data-science-complete-masterclass-college) (College and adult): Python, machine learning and deep learning for the UU or HU student who has a dataset and no idea yet what it can and cannot say.
-- [Git & GitHub Course for College Students](/courses/git-github-version-control-course-for-college-students) (College and adult): Team-ready version control for the student whose group project has four copies of the same file with four different names.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsSequences, conditions and the first real bug, in English, for a groep 3 to 5 child in Terwijde or Wittevrouwen.See the syllabus](/courses/kids-coding-blocks-masterclass)[![JavaScript for Teens course thumbnail](/images/javascript-teens.webp)Ages 13 to 17JavaScript for TeensInteractive websites and browser games in JavaScript, for the teenager who wants the thing they built to run on a phone the same day.See the syllabus](/courses/javascript-course-for-teens-beginners-interactive-web)[![Data Science Course course thumbnail](/images/data-science-college.webp)College and adultData Science CoursePython, machine learning and deep learning for the UU or HU student who has a dataset and no idea yet what it can and cannot say.See the syllabus](/courses/data-science-complete-masterclass-college)[![Git & GitHub Course for College Students course thumbnail](/images/git-github-college.webp)College and adultGit & GitHub Course for College StudentsTeam-ready version control for the student whose group project has four copies of the same file with four different names.See the syllabus](/courses/git-github-version-control-course-for-college-students)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Utrecht today
 
 ## Half the city is younger than its residents, and a quarter of it did not exist in 1997
 
@@ -52,21 +40,21 @@ Binnenstad is the smallest wijk at 20,549 and holds the Domtoren, at 112.32 metr
 
 Overvecht, 36,124, is the post-war north. Noordwest at 45,442, Zuidwest at 41,497, Noordoost at 39,780, West at 29,466 and Zuid at 28,766 make up the ring of pre-war and mid-century Utrecht between the old city and the new one.
 
-**Leidsche Rijn, the largest housing project in the country** Thirty thousand homes planned across 1,126 hectares for a final population of about 90,000, the first pile driven on 4 December 1997, the centre opened on 16 May 2018, the railway through it widened to four tracks by October 2018 with stations at Leidsche Rijn, Terwijde and a relocated Vleuten. The Dutch encyclopaedia calls it the largest Vinex location in the Netherlands, and most of the children in it were born after the centre was.
+Leidsche Rijn, the largest housing project in the country
+
+Thirty thousand homes planned across 1,126 hectares for a final population of about 90,000, the first pile driven on 4 December 1997, the centre opened on 16 May 2018, the railway through it widened to four tracks by October 2018 with stations at Leidsche Rijn, Terwijde and a relocated Vleuten. The Dutch encyclopaedia calls it the largest Vinex location in the Netherlands, and most of the children in it were born after the centre was.
+
+Schools by name
 
 ## Thirty-one schools in the city, sixty-two that Utrecht children attend, and the eight worth naming
 
 The schools register lists 68 secondary establishments serving Utrecht, 31 of them inside the municipality, and 15,770 Utrecht-resident pupils in 2025-26. The left column is each school as the register describes it; the right is what fits beside it.
 
-- **ISU**: International School Utrecht, Van Deventerlaan 1 in Papendorp: all three IB programmes, PYP, MYP and Diploma, governed by NUOVO Scholen and SPO Utrecht, which makes it a publicly run international school; 457 Utrecht-resident pupils. Our answer: Placement by MYP year; a Diploma student who has chosen Computer Science takes the IB course itself and uses the live sessions for the internal assessment.
-- **Amadeus**: Amadeus Lyceum, Burchtpoort 3 in Vleuten, mavo, havo and vwo, and at 1,630 Utrecht pupils the largest intake in the city. Our answer: The Python ladder by level; a term of Python for third-years before the profielkeuze; JavaScript for the teenager who wants something visible fast.
-- **Boni**: Het Boni, Burgemeester Fockema Andreaelaan 7 to 9, havo and vwo, 1,625 Utrecht pupils, a whisker behind Amadeus. Our answer: Data science in Python beside wiskunde A or B in the bovenbouw; problem solving and data structures for the student aiming at the Science Park.
-- **LRC**: Leidsche Rijn College, Maartvlinder 1, vbo through vwo under one roof, 1,328 Utrecht pupils, the school of the new half of the city. Our answer: Blocks and Python for the onderbouw; app and website courses for the vmbo stream so that something exists to show an MBO intake.
-- **Academie Tien**: Academie Tien, Berlijnplein 300 in Leidsche Rijn Centrum, vbo through vwo, 1,150 Utrecht pupils, in a building that did not exist before 2018. Our answer: The same ladder, with a slot that survives a family whose commute runs through Utrecht Centraal twice a day.
-- **Gymnasia**: Christelijk Gymnasium Utrecht on the Koningsbergerstraat, 869 Utrecht pupils, and the Utrechts Stedelijk Gymnasium on the Ina Boudier-Bakkerlaan, 747: two categorical gymnasia, vwo only. Our answer: Problem solving, data structures and the Python-to-machine-learning track, because a student doing Latin for six years can do recursion.
-- **UniC and X11**: UniC at Van Bijnkershoeklaan 2 (havo and vwo, 910) and X11 at number 8 (vbo, mavo and havo, 903), two schools on one lane. Our answer: Creative coding and game development for X11's makers; the standard ladder for UniC.
+ISUInternational School Utrecht, Van Deventerlaan 1 in Papendorp: all three IB programmes, PYP, MYP and Diploma, governed by NUOVO Scholen and SPO Utrecht, which makes it a publicly run international school; 457 Utrecht-resident pupils.Placement by MYP year; a Diploma student who has chosen Computer Science takes the IB course itself and uses the live sessions for the internal assessment.AmadeusAmadeus Lyceum, Burchtpoort 3 in Vleuten, mavo, havo and vwo, and at 1,630 Utrecht pupils the largest intake in the city.The Python ladder by level; a term of Python for third-years before the profielkeuze; JavaScript for the teenager who wants something visible fast.BoniHet Boni, Burgemeester Fockema Andreaelaan 7 to 9, havo and vwo, 1,625 Utrecht pupils, a whisker behind Amadeus.Data science in Python beside wiskunde A or B in the bovenbouw; problem solving and data structures for the student aiming at the Science Park.LRCLeidsche Rijn College, Maartvlinder 1, vbo through vwo under one roof, 1,328 Utrecht pupils, the school of the new half of the city.Blocks and Python for the onderbouw; app and website courses for the vmbo stream so that something exists to show an MBO intake.Academie TienAcademie Tien, Berlijnplein 300 in Leidsche Rijn Centrum, vbo through vwo, 1,150 Utrecht pupils, in a building that did not exist before 2018.The same ladder, with a slot that survives a family whose commute runs through Utrecht Centraal twice a day.GymnasiaChristelijk Gymnasium Utrecht on the Koningsbergerstraat, 869 Utrecht pupils, and the Utrechts Stedelijk Gymnasium on the Ina Boudier-Bakkerlaan, 747: two categorical gymnasia, vwo only.Problem solving, data structures and the Python-to-machine-learning track, because a student doing Latin for six years can do recursion.UniC and X11UniC at Van Bijnkershoeklaan 2 (havo and vwo, 910) and X11 at number 8 (vbo, mavo and havo, 903), two schools on one lane.Creative coding and game development for X11's makers; the standard ladder for UniC.
 
 Gerrit Rietveld College on the Eykmanlaan (1,145) and Descart on the Grebbeberglaan (1,175) complete the list of the largest. What a school is called fixes the words a family uses with us; what the learner can do is found out in the free lesson.
+
+Verified local facts
 
 ## Utrecht facts, each with the office that published it
 
@@ -98,6 +86,8 @@ Leidsche Rijn 51,692; Vleuten-De Meern 51,181; Noordwest 45,442; Zuidwest 41,497
 
 Modern Age Coders has no association with the municipality of Utrecht, with Utrecht University, with the Science Park, with ProRail or NS, or with any school named above, and claims none. They are here because a page about coding classes in a city should be able to describe the city.
 
+Signature project
+
 ## Twenty thousand six hundred and forty in the schools, fifteen thousand seven hundred and seventy from the homes: build the program that shows what the gap cannot tell you
 
 Two published totals, one word, and a line of solutions that no amount of staring at the two numbers will collapse to a point.
@@ -114,10 +104,8 @@ Some pupils live outside the municipality and travel into Utrecht schools: call 
 
 If nobody leaves, 4,870 come in. If 2,500 leave, 7,370 come in and 9,870 children cross the municipal line each morning. If 8,000 leave, more than half of Utrecht's own pupils are schooled outside it and 12,870 come in. Every row fits both published numbers. The gap is real; the story you tell about it is a choice until a third figure arrives.
 
-**One net figure, many pairs of gross flows: every row satisfies both published totals**
-
 | Utrecht residents schooled outside the city | Pupils coming in from outside | Children crossing the line daily | Share of Utrecht pupils schooled elsewhere |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 0 | 4,870 | 4,870 | 0 percent |
 | 1,000 | 5,870 | 6,870 | 6.3 percent |
 | 2,500 | 7,370 | 9,870 | 15.9 percent |
@@ -128,14 +116,14 @@ If nobody leaves, 4,870 come in. If 2,500 leave, 7,370 come in and 9,870 childre
 
 The 4,870 tells you Utrecht is a net importer of secondary pupils, and nothing else. It cannot tell you how many Utrecht children leave the city for school each morning, and every confident sentence about that is one row of the table chosen without saying so. The same shape hides in the station down the road: 241,730 passengers a day excluding transfers, at the one station in the country whose entire purpose is transfers. A learner who has walked this line once will ask "net or gross?" of every migration figure, every headcount change and every passenger count for the rest of their life. The table was computed before this paragraph was written; the two totals are published, and the rows are the solution set, not data.
 
+Reliable pipeline
+
 ## Five habits for any figure that is really a difference between two flows
 
 Net migration, net hiring, net promoter, net new customers: most numbers with "net" in front of them are this table in disguise. Practised first on the city's own schools.
 
-**When a number is a subtraction**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Name | Say whether the figure is a stock, a gross flow or a net flow | Net imports read as a headcount of commuters | A sentence that is true |
 | Count the unknowns | Write the equation and count what you do not know | A single answer to a question with a line of answers | Honest uncertainty |
 | Walk the line | Tabulate several pairs that fit, from one extreme to the other | The first plausible story winning | The full range of what the data allows |
@@ -156,14 +144,37 @@ The same program on a team's net headcount change, a country's net migration or 
 
 The two pupil totals, the population and wijk figures, the station count and its exclusion, the Leidsche Rijn dates and the university and Science Park figures are all published by the offices named in the sentences that use them. The rows of the solution table are arithmetic on the two published totals and are presented as the set of possibilities, never as a measurement.
 
+Learning ladder
+
 ## From two toy classrooms to a net-flow model with its unknowns counted
 
 The free lesson finds the rung; which of the ten wijken the laptop is in does not.
 
-- **Ages 6 to 10: What a difference cannot tell you** Children discover that knowing how many more does not tell them how many moved. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: An equation with a spare unknown** Learners write in minus out in Python and print every pair that works. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 14 to 18: The line of solutions, and the third figure** Teenagers tabulate the solution set and name the measurement that would fix it. [Python for Teens](/courses/python-complete-masterclass-teens), [JavaScript for Teens](/courses/javascript-course-for-teens-beginners-interactive-web)
-- **Ages 18 to 67: Net numbers at work** Adults take apart a net headcount, a net migration or a net subscriber figure from their own field. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Ages 6 to 10
+
+### What a difference cannot tell you
+
+Children discover that knowing how many more does not tell them how many moved.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### An equation with a spare unknown
+
+Learners write in minus out in Python and print every pair that works.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### The line of solutions, and the third figure
+
+Teenagers tabulate the solution set and name the measurement that would fix it.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[JavaScript for Teens](/courses/javascript-course-for-teens-beginners-interactive-web)Ages 18 to 67
+
+### Net numbers at work
+
+Adults take apart a net headcount, a net migration or a net subscriber figure from their own field.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)Coding and AI
 
 ## Utrecht educates a large share of the country's engineers. Why should a ten-year-old here still write code when an AI already can?
 
@@ -175,30 +186,139 @@ That is why the learner still writes the program here rather than requesting it:
 
 So for a Utrecht parent the case for coding in 2026 is not that the child will type for a living. It is that counting the unknowns in a number is a skill, that it transfers, and that nobody has found a way to teach it except by having the learner build the model and then find what it cannot say. The longer argument is in [is coding still worth learning when AI writes it](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for the city everybody passes through
 
 Utrecht families already spend more of their week in transit than most: through the station, over the A2, on tram 22 to the Science Park. A lesson that arrives at the kitchen table is the one appointment that does not.
 
-- **No platform, no transfer** The class is at home in Terwijde, Lombok or Tuindorp at a fixed hour, and it is indifferent to whether the 17:38 from Amsterdam is on time.
-- **English first, Dutch words intact** Teaching is in English. Groep, havo, vwo, gymnasium, profielkeuze and MYP stay in Dutch or in IB-speak, exactly as the school uses them, because that is the vocabulary the family lives in.
-- **The opening lesson is the whole product, once, for free** A task pitched at the learner, a level, a named course and a weekly time by the end of the hour. No card details are taken to arrange it.
-- **Fifteen to twenty learners, grouped by level** Groups are assembled from what learners can do and want next. Wijk, school and whether the family arrived last month or in 1636 do not enter into it.
-- **Two lessons a week, on regio Midden's calendar** Roughly eight a month at one recurring time. The province of Utrecht takes its school holidays with regio Midden, and those weeks are agreed before the slot is.
-- **Four and a half hours, or three and a half** That is the gap between a Utrecht afternoon and the teacher's evening in India, wider in winter because only the Dutch clock moves. After-school, early-evening and weekend slots suit both ends and the family fixes one during the free lesson.
+### No platform, no transfer
 
-**A city of arrivals and departures** Utrecht has 57,569 residents between fifteen and twenty-five and most of them will leave within a decade, for a job in Amsterdam, a lab in Eindhoven or a posting abroad. A course that lives on a laptop and a fixed time in the learner's own week goes with them, and a student who started the data science course in a room on the Cambridgelaan can finish it from wherever the first job is.
+The class is at home in Terwijde, Lombok or Tuindorp at a fixed hour, and it is indifferent to whether the 17:38 from Amsterdam is on time.
+
+### English first, Dutch words intact
+
+Teaching is in English. Groep, havo, vwo, gymnasium, profielkeuze and MYP stay in Dutch or in IB-speak, exactly as the school uses them, because that is the vocabulary the family lives in.
+
+### The opening lesson is the whole product, once, for free
+
+A task pitched at the learner, a level, a named course and a weekly time by the end of the hour. No card details are taken to arrange it.
+
+### Fifteen to twenty learners, grouped by level
+
+Groups are assembled from what learners can do and want next. Wijk, school and whether the family arrived last month or in 1636 do not enter into it.
+
+### Two lessons a week, on regio Midden's calendar
+
+Roughly eight a month at one recurring time. The province of Utrecht takes its school holidays with regio Midden, and those weeks are agreed before the slot is.
+
+### Four and a half hours, or three and a half
+
+That is the gap between a Utrecht afternoon and the teacher's evening in India, wider in winter because only the Dutch clock moves. After-school, early-evening and weekend slots suit both ends and the family fixes one during the free lesson.
+
+A city of arrivals and departures
+
+Utrecht has 57,569 residents between fifteen and twenty-five and most of them will leave within a decade, for a job in Amsterdam, a lab in Eindhoven or a posting abroad. A course that lives on a laptop and a fixed time in the learner's own week goes with them, and a student who started the data science course in a room on the Cambridgelaan can finish it from wherever the first job is.
+
+Fees
 
 ## Nothing for the first lesson, then USD 100 or USD 150 a month
 
 The whole tariff, printed before anyone asks for a phone number.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 One international rate exists and it is in US dollars; there is no euro list, no Utrecht supplement and no enrolment charge. The free lesson settles the course and the slot, and payment is arranged afterwards over WhatsApp rather than before. Pauses, plan changes and missed lessons are set out on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Utrecht.)Reviews
+
+## What families and learners say
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us the learner's level, and the wijk if it helps
+
+The opening task might be two toy classrooms and a closed door, a Python loop over out-commuters, or a net figure from work that has been quoted in meetings for years without anyone asking what it hides.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Utrecht one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Utrecht.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Utrecht coding class questions
+
+The city, its schools, the station, the teaching and the terms.
 
 ### How many Utrecht children go to secondary school outside the city?
 
@@ -240,10 +360,14 @@ The first lesson is free. Group tuition is USD 100 a month for two live lessons 
 
 Between five and ten, matched on level, pace and goal rather than on age, school or wijk. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.
 
+Explore the Netherlands
+
 ## Down the line in every direction
 
 Thirty minutes north-west is [Amsterdam](/coding-classes-in-amsterdam), with its eight district pages, and beyond it [Amstelveen](/coding-classes-in-amstelveen); forty minutes south is [Eindhoven](/coding-classes-in-eindhoven); west along the A12 is [The Hague](/coding-classes-in-the-hague); and across the Hollandse Brug, [Almere](/coding-classes-in-almere). All of them spoke from the [Netherlands coding hub](/coding-classes-in-netherlands), and the learner who wants to train models rather than write programs should start at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands). The [province of Utrecht](/coding-classes-in-utrecht-province) and [Amersfoort](/coding-classes-in-amersfoort) have pages of their own, and the [AI and Python Academy, Utrecht](/ai-and-python-academy-utrecht) looks at intelligence from four sides.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Utrecht.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-utrecht](https://learn.modernagecoders.com/coding-classes-in-utrecht#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-utrecht*

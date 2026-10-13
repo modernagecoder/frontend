@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes across Noord-Brabant, ag
 canonical: https://learn.modernagecoders.com/coding-classes-in-noord-brabant
 source: src/pages/coding-classes-in-noord-brabant.html
 ---
-> Coding classes in Noord-Brabant reach 2,676,954 people in 56 municipalities (Statistics Netherlands, 1 January 2026): more municipalities than any other province, the third largest population and the second largest area. Its capital, 's-Hertogenbosch, is only its fourth city, and its smallest municipality, Baarle-Nassau, holds 22 pieces of Belgium, two of which hold pieces of the Netherlands again. From Eindhoven to Baarle the class Modern Age Coders runs is one class: live, online, in English, for ages 6 to 67, with nothing owed for the first lesson and afterwards USD 100 a month in a group of fifteen to twenty or USD 150 with a teacher to yourself.
+> Live online coding, Python and AI classes across Noord-Brabant, ages 6 to 67: Eindhoven, Tilburg, Breda, Den Bosch, Helmond, Roosendaal and all 56 municipalities.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Noord-Brabant
-
-Province of Noord-Brabant / Live online
-
-# Coding classes in Noord-Brabant, where a garden in Baarle can be Dutch, inside Belgium, inside the Netherlands
-
-**What are the best coding classes in Noord-Brabant?** Coding classes in Noord-Brabant reach 2,676,954 people in 56 municipalities (Statistics Netherlands, 1 January 2026): more municipalities than any other province, the third largest population and the second largest area. Its capital, 's-Hertogenbosch, is only its fourth city, and its smallest municipality, Baarle-Nassau, holds 22 pieces of Belgium, two of which hold pieces of the Netherlands again. From Eindhoven to Baarle the class Modern Age Coders runs is one class: live, online, in English, for ages 6 to 67, with nothing owed for the first lesson and afterwards USD 100 a month in a group of fifteen to twenty or USD 150 with a teacher to yourself.
-
-Ask which country a garden in Baarle is in and the honest answer is: count the borders around it. On the open ground of Baarle-Nassau it is Dutch. Inside one of the 22 Belgian enclaves it is Belgian. Inside one of the Dutch enclaves that sit inside those Belgian enclaves it is Dutch again. Neither the outermost line nor the innermost one decides; the number of lines does. A child who has written the program that counts them has learned the rule every map with holes in it obeys.
-
-Facts last verified 7 September 2026. Teaching is online; no Noord-Brabant branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Noord-Brabant
 
 ## Four courses for the province with fifty-six town halls
 
 A groep 6 child in Oss who wants a website that is actually hers, a Tilburg teenager who has been told Java is what the serious people use, a Breda student who wants the whole stack, and a parent in Helmond whose company has just told everyone to use coding agents: four doors into one province.
 
-- [Web Development for Kids](/courses/kids-ai-web-development-course) (Ages 8 to 12): Real HTML, CSS and a little JavaScript, with AI as a helper rather than a crutch, for the groep 5 to 8 child who wants a page with her own name on it.
-- [Java for Teens](/courses/java-programming-masterclass-for-teens) (Ages 13 to 18): Java from the first class to objects, collections and a finished project, for the teenager in Tilburg or Den Bosch whose school offers informatica in theory and not on the timetable.
-- [Full Stack Developer Course](/courses/full-stack-web-development-masterclass-college) (College and adult): React, Node and deployment to a live address, for the Breda or Eindhoven student who wants to ship something before the degree ends.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Coding agents used properly, with a review habit built in, for the working parent whose employer in the Brainport supply chain has switched them on and not explained them.
+[![Web Development for Kids course thumbnail](/images/html-css-kids.webp)Ages 8 to 12Web Development for KidsReal HTML, CSS and a little JavaScript, with AI as a helper rather than a crutch, for the groep 5 to 8 child who wants a page with her own name on it.See the syllabus](/courses/kids-ai-web-development-course)[![Java for Teens course thumbnail](/images/java-teens.webp)Ages 13 to 18Java for TeensJava from the first class to objects, collections and a finished project, for the teenager in Tilburg or Den Bosch whose school offers informatica in theory and not on the timetable.See the syllabus](/courses/java-programming-masterclass-for-teens)[![Full Stack Developer Course course thumbnail](/images/full-stack-development-college.webp)College and adultFull Stack Developer CourseReact, Node and deployment to a live address, for the Breda or Eindhoven student who wants to ship something before the degree ends.See the syllabus](/courses/full-stack-web-development-masterclass-college)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)ProfessionalsCodex & Claude CodeCoding agents used properly, with a review habit built in, for the working parent whose employer in the Brainport supply chain has switched them on and not explained them.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Noord-Brabant today
 
 ## Fifty-six municipalities, a fourth-place capital and a border with twenty-two holes
 
@@ -52,7 +40,11 @@ Eindhoven leads with 249,783 people, Tilburg follows with 230,746 and Breda with
 
 Fifty-six municipalities, more than any other province; the second largest area after Gelderland; the third largest population after Zuid-Holland and Noord-Holland. The province in its present form dates from 1815, and its old regions still carry the names: De Kempen, De Peel, the Meierij, the Langstraat, the Baronie and the Markiezaat.
 
-**One border, twenty-two holes, and holes in the holes** Baarle-Nassau, the smallest municipality at 7,256 people, contains 22 separate pieces of the Belgian municipality of Baarle-Hertog, and eight pieces of Baarle-Nassau lie inside Belgian ground in turn, seven of them inside two of those Belgian enclaves and one, near Ginhoven, inside Belgium itself. The arrangement descends from medieval land deals between the lords of Breda and the dukes of Brabant, was fixed by the Treaty of Maastricht in 1843 and finally delimited in 1995, and it is the reason this page has an algorithm in it.
+One border, twenty-two holes, and holes in the holes
+
+Baarle-Nassau, the smallest municipality at 7,256 people, contains 22 separate pieces of the Belgian municipality of Baarle-Hertog, and eight pieces of Baarle-Nassau lie inside Belgian ground in turn, seven of them inside two of those Belgian enclaves and one, near Ginhoven, inside Belgium itself. The arrangement descends from medieval land deals between the lords of Breda and the dukes of Brabant, was fixed by the Treaty of Maastricht in 1843 and finally delimited in 1995, and it is the reason this page has an algorithm in it.
+
+The spread
 
 ## From Eindhoven to Baarle-Nassau: all 56 municipalities, by population
 
@@ -96,6 +88,8 @@ Oss 95,549, a page to come; Land van Cuijk 93,645; Maashorst 60,059; Bernheze 32
 
 Fifty-six, every one of them above. Eindhoven, Tilburg, Breda, 's-Hertogenbosch, Helmond, Oss, Meierijstad, Roosendaal and Bergen op Zoom have pages that go close. This page keeps the whole province in one frame, Boekel and Baarle included.
 
+Verified local facts
+
 ## Where every figure on this page comes from, and where two sources differ by two people
 
 The national count, the 56 registers, the province's own entry, and the Dutch and English entries on the two Baarles.
@@ -126,6 +120,8 @@ Noord-Brabant belongs to regio Zuid for school holidays, with Limburg, Zeeland a
 
 No connection exists or is suggested between Modern Age Coders and the province, any of its 56 municipalities, either Baarle, or any school in them. They appear because a page claiming Noord-Brabant should be able to draw it, holes included.
 
+Signature project
+
 ## Which country is this garden in? Build the program that counts the borders instead of trusting the outer one
 
 Twenty-two Belgian rings inside a Dutch municipality, seven Dutch rings inside two of those, and one rule that gets every point right.
@@ -142,10 +138,8 @@ For any point, count how many of the enclave boundaries enclose it. Zero: the op
 
 Rule A, "inside Baarle-Nassau's outer line means Dutch", is wrong in 22 patches. Rule B, "inside any Belgian ring means Belgian", is wrong in seven. And the eighth Dutch piece, near Ginhoven, sits in Belgium proper with no Dutch ring outside it, which teaches the last lesson: the count starts from whichever country the outermost ground belongs to.
 
-**Four kinds of point in and around Baarle, and what three rules say about each**
-
 | Where the point is | Rings around it | Outer-line rule | Any-Belgian-ring rule | Parity rule |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Open ground of Baarle-Nassau | none | Netherlands, right | Netherlands, right | Netherlands, right |
 | Inside one of the 22 Belgian exclaves | one | Netherlands, wrong | Belgium, right | Belgium, right |
 | Inside one of the seven Dutch counter-exclaves | two | Netherlands, right by accident | Belgium, wrong | Netherlands, right |
@@ -155,14 +149,14 @@ Rule A, "inside Baarle-Nassau's outer line means Dutch", is wrong in 22 patches.
 
 The rule the learner has just written is the rule every mapping program uses for every polygon on earth: shoot a line from the point to somewhere far away, count how many times it crosses the boundary, and an odd count means inside. Nested enclaves are that rule applied to a boundary made of many curves, and Baarle is the place where the curves are dense enough to break anyone who guesses from the outermost one. A learner who has counted rings here will treat every region with a hole in it, from a park with a lake to a tax zone with exemptions, as a set of curves to be counted rather than a shape to be eyeballed. The table was worked through before this paragraph was written; the 22, the seven and the one are quoted from the two entries on the Baarles, and every verdict in it is the parity rule and nothing else.
 
+Reliable pipeline
+
 ## Five habits for any region that has holes in it
 
 Sales territories with an excluded city, postcodes with a carve-out, a nature reserve with a village inside it, a lake inside a park inside a town: every one is a polygon with holes. Practised first on the border at Baarle.
 
-**When a boundary is more than one line**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | List every ring | A region is a set of closed curves; find all of them before testing anything | Twenty-two Belgian gardens filed as Dutch | A boundary you can actually test against |
 | Count crossings | Odd means inside, even means outside, at every level | Trusting the outer line, or trusting the innermost | One rule for every point |
 | Start from the outside | Know which side the outermost ground is on before counting | Ginhoven filed as Belgian | A count with the right starting value |
@@ -183,14 +177,37 @@ The same crossing count on something from work: a delivery zone with an excluded
 
 The provincial totals, the 56 municipal counts, the areas and the enclave numbers are published by the offices and the entries named in the sentences that use them. The verdicts in the table are the parity rule applied to the published counts, presented as exactly that; the rule for buildings that straddle the line was not read at source and is left as a stated gap rather than a guess.
 
+Learning ladder
+
 ## From three rope loops to a point-in-polygon test with holes
 
 The rung is set in the free lesson, and which of the 56 town halls is nearest is not one of the inputs.
 
-- **Ages 6 to 10: Step over a rope, change country** Children hop between nested loops and discover that inside is a count of ropes crossed. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Web Development for Kids](/courses/kids-ai-web-development-course)
-- **Ages 11 to 13: Odd and even, on a map** Learners write the crossing count for one square inside another and test it on twenty points. [Maths Through Coding](/courses/maths-through-coding), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 14 to 18: Rings, holes and areas in code** Teenagers build the toy Baarle, break the two easy rules on purpose and compute the area properly. [Java for Teens](/courses/java-programming-masterclass-for-teens), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Regions with holes at work** Adults find the carve-outs in a zone they already use and test whether the system counts them. [Full Stack Developer Course](/courses/full-stack-web-development-masterclass-college), [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)
+Ages 6 to 10
+
+### Step over a rope, change country
+
+Children hop between nested loops and discover that inside is a count of ropes crossed.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Web Development for Kids](/courses/kids-ai-web-development-course)Ages 11 to 13
+
+### Odd and even, on a map
+
+Learners write the crossing count for one square inside another and test it on twenty points.
+
+[Maths Through Coding](/courses/maths-through-coding)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 14 to 18
+
+### Rings, holes and areas in code
+
+Teenagers build the toy Baarle, break the two easy rules on purpose and compute the area properly.
+
+[Java for Teens](/courses/java-programming-masterclass-for-teens)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Regions with holes at work
+
+Adults find the carve-outs in a zone they already use and test whether the system counts them.
+
+[Full Stack Developer Course](/courses/full-stack-web-development-masterclass-college)[Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Coding and AI
 
 ## An AI will tell a child in Baarle which country the bakery is in. Why should the child learn to count the rings instead?
 
@@ -202,30 +219,139 @@ Which is what the learner is here for. The tool will happily write the point-in-
 
 A Brabant parent weighing coding in 2026, then, is weighing something narrower than a career in geography. The question is whether the child should own the rule that inside is a count and not a look, and whether the fastest way to own it is to write it and run it on the strangest border in Europe. The class says yes to both. The longer argument is in [whether coding is still worth a child's time in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for a province with four centres and no middle
 
 Eindhoven, Tilburg, Breda and Den Bosch each pull their own hinterland, and a family in Land van Cuijk or Steenbergen belongs to none of them. A class that comes to the house in Boekel or Woensdrecht does not have to choose.
 
-- **The A2, the A58 and the A67 stay out of it** The lesson is at home in Oss, Zundert or Cranendonck at a fixed weekly hour, and nobody drives to a city for it.
-- **English outside, school Dutch inside** The lesson runs in English, which the Brainport families and the international schools already share, and groep, havo, vwo and profielkeuze keep their Dutch names because the school keeps them.
-- **The first hour, and what it settles** A real task at the learner's level, a course named at the end of it and a rung to start on, and no card is asked for to book any of it.
-- **Ability sets the group** What the learner can do and wants next decides who they sit with; Brainport, the Baronie or the Peel does not.
-- **Twice a week, on regio Zuid's calendar** Eight lessons a month at one recurring time. Noord-Brabant breaks up with regio Zuid, alongside Limburg, Zeeland and the south of Gelderland, and the summer weeks are agreed before the slot is.
-- **The clocks** The Dutch clock moves in March and October and the Indian one does not, so a Brabant afternoon is three and a half hours behind the teacher in summer and four and a half in winter. After school, early evening and weekends fall inside both days.
+### The A2, the A58 and the A67 stay out of it
 
-**From Baarle, Belgium is nearer than Breda** From Baarle-Nassau, Woensdrecht or Reusel the Belgian border is a walk and the nearest Brabant city is a drive. A weekly class at home is the same class the Eindhoven family gets, and it is the only version that does not begin with a decision about which country to head into.
+The lesson is at home in Oss, Zundert or Cranendonck at a fixed weekly hour, and nobody drives to a city for it.
+
+### English outside, school Dutch inside
+
+The lesson runs in English, which the Brainport families and the international schools already share, and groep, havo, vwo and profielkeuze keep their Dutch names because the school keeps them.
+
+### The first hour, and what it settles
+
+A real task at the learner's level, a course named at the end of it and a rung to start on, and no card is asked for to book any of it.
+
+### Ability sets the group
+
+What the learner can do and wants next decides who they sit with; Brainport, the Baronie or the Peel does not.
+
+### Twice a week, on regio Zuid's calendar
+
+Eight lessons a month at one recurring time. Noord-Brabant breaks up with regio Zuid, alongside Limburg, Zeeland and the south of Gelderland, and the summer weeks are agreed before the slot is.
+
+### The clocks
+
+The Dutch clock moves in March and October and the Indian one does not, so a Brabant afternoon is three and a half hours behind the teacher in summer and four and a half in winter. After school, early evening and weekends fall inside both days.
+
+From Baarle, Belgium is nearer than Breda
+
+From Baarle-Nassau, Woensdrecht or Reusel the Belgian border is a walk and the nearest Brabant city is a drive. A weekly class at home is the same class the Eindhoven family gets, and it is the only version that does not begin with a decision about which country to head into.
+
+Fees
 
 ## Fifty-six municipalities, one dollar tariff, and a free hour first
 
 Set out before a number of yours is requested.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 Everywhere outside India pays the same US dollar figure, with no euro edition, so Baarle-Nassau pays what Eindhoven pays. Course and hour are fixed in the free lesson and payment comes after it, over WhatsApp. The pricing page covers pauses, changes of plan and missed lessons.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Noord-Brabant.)Reviews
+
+## Six Google reviews, quoted in full
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Send the level; the municipality is optional
+
+The first task could be three rope loops on the floor, a toy Baarle in Python, or a delivery zone from work with a district cut out of it that the software has never noticed.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Noord-Brabant one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Noord-Brabant.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Noord-Brabant coding class questions
+
+The province, its towns, the border at Baarle, the teaching and the terms.
 
 ### Why is a border with holes in it on a coding page?
 
@@ -267,10 +393,14 @@ The first lesson is free. Group tuition is USD 100 a month for two live lessons 
 
 Between five and ten, matched on level, pace and goal rather than on age, school or municipality. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.
 
+Explore the Netherlands
+
 ## East to Brainport, south to Limburg, and up to the country
 
 The province's largest city already has its page: [Eindhoven](/coding-classes-in-eindhoven), with the Brainport ratio chain. East along the A67 is [Limburg](/coding-classes-in-limburg), with the hill that stopped being the highest point in the country. Both sit under the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner who wants a model that learns rather than a program that runs should look at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands). [Tilburg](/coding-classes-in-tilburg) has its page; [Breda](/coding-classes-in-breda) too; so do [Den Bosch](/coding-classes-in-den-bosch) and [Helmond](/coding-classes-in-helmond); and so do [Oss](/coding-classes-in-oss), [Meierijstad](/coding-classes-in-meierijstad) and [Roosendaal](/coding-classes-in-roosendaal), and so does [Bergen op Zoom](/coding-classes-in-bergen-op-zoom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Noord-Brabant.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-noord-brabant](https://learn.modernagecoders.com/coding-classes-in-noord-brabant#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-noord-brabant*

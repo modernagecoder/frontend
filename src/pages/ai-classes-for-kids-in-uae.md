@@ -14,7 +14,7 @@ Every card opens the full syllabus, schedule and fees. All courses run as weekly
 
 Ages 6 to 12The growth path01
 
-### Start here, ages 8 to 12
+### Start here, ages 6 to 12
 
 Different doors into the same room[![AI Tools for Kids course thumbnail](/images/ai-tools-kids.webp)  AI Tools for Kids The AI literacy course proper. Six months through chatbots, image, music and video tools, prompt craft, and honest critical thinking, ending in projects the child designs. View syllabus](/courses/ai-tools-kids)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  Python & AI for Kids For the child who wants to build, not just use. A year of real typed Python, games and turtle graphics, growing into simple chatbots and image AI projects. View syllabus](/courses/python-ai-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)  Vibe Coding for Kids The gentlest entry: children describe what they want to build, AI drafts it, and the child learns to test and judge the result. Scratch keeps it playful. View syllabus](/courses/vibe-coding-for-kids)02
 

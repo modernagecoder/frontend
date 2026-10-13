@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths lessons for Howth learner
 canonical: https://learn.modernagecoders.com/coding-classes-in-howth-dublin
 source: src/pages/coding-classes-in-howth-dublin.html
 ---
-> Howth learners are taught by a teacher in live video lessons, in a small group at the same level or one to one, usually twice a week, and anybody from six to sixty-seven can sign up. Nobody needs to travel. The first lesson is free; each month after that is USD 100 in a group or USD 150 for one-to-one teaching.
+> Live online coding, Python, AI and maths lessons for Howth learners aged 6 to 67, in small same-level groups or one to one. The first lesson is free of any charge.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [Fingal](/coding-classes-in-fingal) / Howth
-
-Howth, County Dublin / Live online
-
-# Coding classes in Howth
-
-**What are the best coding classes in Howth?** Howth learners are taught by a teacher in live video lessons, in a small group at the same level or one to one, usually twice a week, and anybody from six to sixty-seven can sign up. Nobody needs to travel. The first lesson is free; each month after that is USD 100 in a group or USD 150 for one-to-one teaching.
-
-Fingal County Council counts walkers on the paths over Howth Head and publishes monthly totals for four counters: Summit, Balscadden, Baily and Red Rock. Read them closely and some numbers turn up twice. On the Baily path the count for May 2020 was 11,600, and so was June, and every month after it to November. In a real count of thousands of walkers, two months landing on exactly the same figure is rare, and seven in a row is not chance. This page teaches a learner to find repeats like these, measure how unlikely they are, and decide what they mean for any total built on them.
-
-Facts last verified 20 September 2026. Teaching is online; no Howth branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Howth
 
 ## Four first courses for Howth
 
 Choose by age to start; in the free first lesson the teacher checks the level and suggests a different course when one fits better.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Blocks and a spot-the-difference game: which numbers in a list look copied rather than counted.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Python that reads a small table, turns text like 15,049 into numbers and flags the odd ones.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 18): Real council files in Python: cleaning, repeat detection, and totals reported with and without doubtful months.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (College and adult): For adults who inherit spreadsheets from others and need to know which figures were actually measured.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlocks and a spot-the-difference game: which numbers in a list look copied rather than counted.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsPython that reads a small table, turns text like 15,049 into numbers and flags the odd ones.See the syllabus](/courses/python-ai-kids-masterclass)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 18Data Science for TeensReal council files in Python: cleaning, repeat detection, and totals reported with and without doubtful months.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)College and adultData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For adults who inherit spreadsheets from others and need to know which figures were actually measured.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## Counted or copied? Repeated figures in the Howth walk files
 
 The data is Fingal County Council's monthly footfall for its four counters on the Howth walks, from 2019 to 2023, published as open data. The table lists every repeat longer or stranger than a single pair.
 
-**Repeated counts in the Howth walk files**
-
 | Where | When | Count |
-|---|---|---|
+| --- | --- | --- |
 | Baily | May to November 2020, seven months | 11,600 each |
 | Baily | August to October 2019, three months | 19,796 each |
 | Summit and Balscadden, the same month | July 2023 | 39,036 on both |
@@ -80,14 +66,14 @@ Fingal's own note on these datasets says the figures are estimates of total trip
 
 In the 2024 to 2025 files for Summit, Balscadden and Baily only one month has a figure: Balscadden, January 2024, at 24,810, the same as January 2019. The Red Rock file for those years was not yet available to download on 20 September 2026.
 
+Howth, named
+
 ## Howth by its lighthouse, its station and its counters
 
 Every line is taken from the organisation responsible.
 
-**Named places on Howth Head**
-
 | Place | What its own source says |
-|---|---|
+| --- | --- |
 | Howth station | Howth DART Station, Dublin 13, D13 N8K7 |
 | Baily Lighthouse | 41 metres above high water, range 18 nautical miles |
 | Summit counter | 53.370956 N, 6.054537 W |
@@ -105,7 +91,11 @@ Irish Rail gives step-free access by gate and ramp from the road, sheltered bike
 
 Fingal publishes a position for each counter. Balscadden is the furthest north of the four and Red Rock the furthest west, with Summit and Baily on the southern side of the head.
 
-**What this page does not claim** No population is given for Howth, since the page prints only what named bodies publish about the place. The counts are trips past a sensor, not people, and the page does not say how any repeated figure came about; it only shows that the file cannot be treating them as fresh counts.
+What this page does not claim
+
+No population is given for Howth, since the page prints only what named bodies publish about the place. The counts are trips past a sensor, not people, and the page does not say how any repeated figure came about; it only shows that the file cannot be treating them as fresh counts.
+
+Learning here
 
 ## What a Howth learner does across a week
 
@@ -125,14 +115,37 @@ Adults may start with no background at all; the first lesson settles the course.
 
 Footfall figures are Fingal County Council's open data; the repeat counts, change sizes, tie rates and shares were worked out by us on 20 September 2026. Station and lighthouse details come from Irish Rail and Irish Lights.
 
+Learning ladder
+
 ## From spot-the-difference to data forensics
 
 Bands give a starting point only; the first lesson fixes the level.
 
-- **Ages 6 to 10: Too neat to be true** Block-coded games that hunt for copied numbers in a list. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Cleaning a table** Python that turns text into numbers and marks cells it cannot read. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Repeat detection** Neighbouring-month comparisons, tie rates and totals with and without doubtful months. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Inherited spreadsheets** Deciding which figures in someone else's file were measured and which were filled in. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### Too neat to be true
+
+Block-coded games that hunt for copied numbers in a list.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Cleaning a table
+
+Python that turns text into numbers and marks cells it cannot read.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Repeat detection
+
+Neighbouring-month comparisons, tie rates and totals with and without doubtful months.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Inherited spreadsheets
+
+Deciding which figures in someone else's file were measured and which were filled in.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## Ask an assistant how busy the Howth walks were
 
@@ -144,30 +157,139 @@ The learner who has done this project first asks what the table actually contain
 
 Adding up a column is easy. Knowing which cells deserve to be added is the skill. The longer argument is in [why learning to code is worth starting young](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How lessons run for Howth
 
 At a glance.
 
-- **Live teaching** The teacher leads every lesson in real time and checks each learner's code while it is being written.
-- **Groups by level** Fifteen to twenty learners at one level, joining from Howth, other parts of Ireland or abroad.
-- **Two fixed days** The same two days each week, about eight lessons over a month.
-- **Term breaks** Holidays, mid-term weeks and exam time are built into the plan.
-- **At the desk** A laptop or desktop, a microphone, headphones or speakers, and broadband steady enough for a video call.
-- **One-to-one option** Private lessons for a learner who is ahead, needs more time, or can only do hours no group runs.
+### Live teaching
 
-**Wholly online** We have no premises in Howth, in Fingal or anywhere in Ireland. Lessons run live on video and are the same from any home.
+The teacher leads every lesson in real time and checks each learner's code while it is being written.
+
+### Groups by level
+
+Fifteen to twenty learners at one level, joining from Howth, other parts of Ireland or abroad.
+
+### Two fixed days
+
+The same two days each week, about eight lessons over a month.
+
+### Term breaks
+
+Holidays, mid-term weeks and exam time are built into the plan.
+
+### At the desk
+
+A laptop or desktop, a microphone, headphones or speakers, and broadband steady enough for a video call.
+
+### One-to-one option
+
+Private lessons for a learner who is ahead, needs more time, or can only do hours no group runs.
+
+Wholly online
+
+We have no premises in Howth, in Fingal or anywhere in Ireland. Lessons run live on video and are the same from any home.
+
+Fees
 
 ## Fees for Howth
 
 Without fuss.
 
-- First class: USD 0. A free opening lesson with a check of the learner's level.
-- Group tuition: USD 100 a month. One month in a same-level group of fifteen to twenty, about eight live lessons.
-- Private tuition: USD 150 a month. One month of private lessons on the same schedule.
+First class**USD 0**
+
+A free opening lesson with a check of the learner's level.
+
+Group tuition**USD 100**
+
+One month in a same-level group of fifteen to twenty, about eight live lessons.
+
+Private tuition**USD 150**
+
+One month of private lessons on the same schedule.
 
 The US dollar fee is the same for every family outside India and is paid monthly. Nothing is owed for the free lesson, the monthly charge starts with the course, and the pricing page explains how holidays, missed lessons and a switch between group and private lessons work.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Howth.)Reviews
+
+## What families wrote on Google, unedited
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free first lesson in Howth
+
+Send the learner's age and interests, and we will build the first lesson around them. They could leave with a small game, a program that works, or a list of numbers they have caught repeating.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Howth one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Howth.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Howth coding class questions
+
+Questions Howth families bring to us.
 
 ### Does Modern Age Coders have a centre in Howth?
 
@@ -205,10 +327,14 @@ The first lesson is free. After that a group place costs USD 100 a month for abo
 
 Fifteen to twenty learners, matched on level, pace and goals rather than age or address. When no group fits a workable time, lessons are one to one.
 
+Explore Ireland
+
 ## Around Dublin Bay from Howth
 
 Across the bay, [Clontarf](/coding-classes-in-clontarf-dublin) has a project on the Dublin Port tide gauge. The [Fingal](/coding-classes-in-fingal) page covers the county, and the [Ireland hub](/coding-classes-in-ireland) lists every other county, town and district.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Howth.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-howth-dublin](https://learn.modernagecoders.com/coding-classes-in-howth-dublin#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-howth-dublin*

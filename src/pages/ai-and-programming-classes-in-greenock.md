@@ -4,46 +4,32 @@ description: "Live online AI, programming, Python and vibe coding lessons for Gr
 canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-greenock
 source: src/pages/ai-and-programming-classes-in-greenock.html
 ---
-> The mid-2020 estimate from National Records of Scotland gives Greenock 41,280 residents, far ahead of any other Inverclyde locality. Braeside, Branchton, Gibshill, Bow Farm, Ravenscraig and Cowdenknowes are among its recorded suburbs in the PA15 and PA16 districts. Tutors in India teach AI, programming, Python, vibe coding and maths on live video to learners from six to 67, one-to-one or in a class of fifteen to twenty at a matching level. We teach reasoning before tools, so a learner can spot a model that looks perfect and is not. The first lesson is free and closes with our course advice. The Greenock project samples a 3.3 km climb from near the waterfront, lets polynomial models learn it from just 15 points, and watches the most flexible one fail spectacularly until regularisation reins it in. Beyond the trial, our rates are USD 100 per month for a place in a class and USD 150 per month for individual lessons.
+> Live online AI, programming, Python and vibe coding lessons for Greenock, Braeside, Branchton and Gibshill learners in Inverclyde, aged 6 to 67. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / Greenock
-
-Greenock, Inverclyde, Scotland / Live online
-
-# AI and programming classes in Greenock
-
-**Which are the best AI and programming classes in Greenock?** The mid-2020 estimate from National Records of Scotland gives Greenock 41,280 residents, far ahead of any other Inverclyde locality. Braeside, Branchton, Gibshill, Bow Farm, Ravenscraig and Cowdenknowes are among its recorded suburbs in the PA15 and PA16 districts. Tutors in India teach AI, programming, Python, vibe coding and maths on live video to learners from six to 67, one-to-one or in a class of fifteen to twenty at a matching level. We teach reasoning before tools, so a learner can spot a model that looks perfect and is not. The first lesson is free and closes with our course advice. The Greenock project samples a 3.3 km climb from near the waterfront, lets polynomial models learn it from just 15 points, and watches the most flexible one fail spectacularly until regularisation reins it in. Beyond the trial, our rates are USD 100 per month for a place in a class and USD 150 per month for individual lessons.
-
-A model that matches its training data exactly sounds ideal. It usually is not. Given enough flexibility, a model can thread through every training point and swing wildly in between, a failure called overfitting. Regularisation is the standard cure: add a penalty for complicated answers, so the model prefers a smooth explanation unless the data truly demands a wiggly one. Greenock is a good place to see it, because the ground rises steadily from the waterfront. This project takes 100 heights from a published elevation model along a straight line running uphill through the town, trains polynomial models on 15 of them and tests on the other 85.
-
-Facts last verified 29 September 2026. Teaching is online; no Greenock branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentGreenock course picks
 
 ## Greenock courses in reasoning, Python and AI
 
 Choose by age and interest. The first lesson of every course is live and free, with no card required.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think course: drawing a sensible line through points and knowing when a curve is too clever.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games planned by the learner, built with an AI and tested hard.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 13 to 17): Machine learning in Python, including the Greenock slope and regularisation.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Students and adults): Python for data, modelling, machine learning and AI agents.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think course: drawing a sensible line through points and knowing when a curve is too clever.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games planned by the learner, built with an AI and tested hard.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)Ages 13 to 17AI and Machine Learning for TeensMachine learning in Python, including the Greenock slope and regularisation.See the syllabus](/courses/ai-ml-masterclass-teens)[![Python Masterclass course thumbnail](/images/python-college.webp)Students and adultsPython MasterclassPython for data, modelling, machine learning and AI agents.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Greenock and Inverclyde
 
 ## Greenock, Braeside, Branchton and Gibshill
 
 The NRS estimate for Greenock, and suburbs recorded in PA15 and PA16.
 
-**Greenock in National Records of Scotland estimates**
-
 | Area | People |
-|---|---|
+| --- | --- |
 | Greenock locality, mid-2020 | 41,280 |
 
 On postcodes.io, Bow Farm, Braeside, Branchton, Cowdenknowes, Fort Matilda, Gibshill, Lyle Hill, Maukinhill, Overton and Ravenscraig appear as suburban areas of Inverclyde in PA15 and PA16. Inverclyde schools teach the Curriculum for Excellence; our lessons are planned by Scottish year group, with SQA Computing Science and Maths support from National 5 to Advanced Higher. Tell us when the holidays fall and lessons will stop for them.
@@ -52,16 +38,16 @@ On postcodes.io, Bow Farm, Braeside, Branchton, Cowdenknowes, Fort Matilda, Gibs
 
 See [coding classes in Inverclyde](/coding-classes-in-inverclyde), [Paisley](/online-coding-and-python-classes-in-paisley) and [Advanced Higher Maths tuition](/advanced-higher-maths-tuition-online). The reasons we teach thinking first are on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Greenock project
+
 ## Regularisation on Greenock's slope: polynomial fits from 15 points
 
 One real hillside, models from straight line to degree 14, and a penalty that saves the most flexible one.
 
 The learner requests 100 heights from the OpenTopoData service, which serves the European EU-DEM elevation model at 25 m resolution, along a line 3,316 m long running south from near the waterfront. Heights rise from 5.4 m to 275.4 m. Fifteen points are picked at random for training; the other 85 test the model. Python fits polynomials of degree 1, 3, 5, 9 and 14 by ordinary least squares, then again with ridge regression, which adds a penalty on large coefficients. The whole experiment is repeated for 50 different random choices of the 15 points.
 
-**Typical error in metres when predicting heights along the Greenock line, medians over 50 draws of 15 training points, our Python run on EU-DEM data**
-
 | Model | Error on training points | Error on unseen points |
-|---|---|---|
+| --- | --- | --- |
 | Straight line (degree 1) | 16.9 | 17.9 |
 | Degree 3 | 14.2 | 15.7 |
 | Degree 9 | 3.7 | 84.5 |
@@ -88,14 +74,14 @@ Fit polynomials of rising degree, add a ridge penalty and pick its strength by c
 
 Heights come from the Copernicus EU-DEM v1.1 via the OpenTopoData service; produced using Copernicus data and information funded by the European Union. The line, the sampling, the models and every error figure are our own work.
 
+Overfitting and AI
+
 ## What this teaches about vibe coding and AI agents
 
 Zero error on training data is a warning light, not a trophy.
 
-**From the Greenock slope to working with AI**
-
 | In the regularisation project | When AI builds a model for you |
-|---|---|
+| --- | --- |
 | Degree 14 scored 0.0 m on training | Ask for the error on unseen data |
 | Its unseen error was over 23 km | Flexible models can fail badly between examples |
 | A ridge penalty cut that to 14.1 m | Penalising complexity often helps |
@@ -106,14 +92,37 @@ Modern AI models are enormously flexible, which is exactly why techniques like r
 
 We are independent of OpenTopoData, the Copernicus programme, National Records of Scotland and postcodes.io, and used only their open data. The models and any errors in them are ours.
 
+Stages
+
 ## From lines on graph paper to regularised models
 
 The school year gives a first guess; the free lesson settles the level.
 
-- **P1 to P7: How to think** Patterns, graphs and choosing a sensible line. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **P5 to S2: Vibe coding for kids** Games and apps planned by the learner, built with AI help and tested. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **S3 to S6: Python and machine learning** Curve fitting, overfitting and regularisation alongside SQA Maths. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [High School Mathematics](/courses/complete-high-school-mathematics-mastery)
-- **Adults: Modelling and agents** Python, machine learning and AI agents, built step by step. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
+P1 to P7
+
+### How to think
+
+Patterns, graphs and choosing a sensible line.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)P5 to S2
+
+### Vibe coding for kids
+
+Games and apps planned by the learner, built with AI help and tested.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)S3 to S6
+
+### Python and machine learning
+
+Curve fitting, overfitting and regularisation alongside SQA Maths.
+
+[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[High School Mathematics](/courses/complete-high-school-mathematics-mastery)Adults
+
+### Modelling and agents
+
+Python, machine learning and AI agents, built step by step.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)AI and overfitting
 
 ## What is regularisation in machine learning?
 
@@ -125,30 +134,139 @@ Learners who have run that experiment ask of any AI model: how does it do on dat
 
 Knowing why a perfect fit can be a bad model keeps Greenock teenagers in charge of the AI they build, which makes learning to code well worth it in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Braeside to Gibshill, online
 
 All you need is a computer with a webcam and an internet connection that supports video.
 
-- **Students do the typing** Every line and every run is the learner's, while the tutor watches the shared screen and asks what the numbers mean.
-- **Pitched from the trial** The free lesson shows where to start; any SQA course is noted.
-- **Free opening lesson** No charge for lesson one, which ends with our course suggestion.
-- **Classes by level** Five to ten UK learners at the same stage in each class.
-- **Two a week** Paused for school holidays.
-- **Stable time** Tutors adjust for UK clock changes so your slot stays fixed.
+### Students do the typing
 
-**Why online** Five learners at one stage, free on the same evening, seldom live close together. Over video, they do not need to.
+Every line and every run is the learner's, while the tutor watches the shared screen and asks what the numbers mean.
+
+### Pitched from the trial
+
+The free lesson shows where to start; any SQA course is noted.
+
+### Free opening lesson
+
+No charge for lesson one, which ends with our course suggestion.
+
+### Classes by level
+
+Five to ten UK learners at the same stage in each class.
+
+### Two a week
+
+Paused for school holidays.
+
+### Stable time
+
+Tutors adjust for UK clock changes so your slot stays fixed.
+
+Why online
+
+Five learners at one stage, free on the same evening, seldom live close together. Over video, they do not need to.
+
+Fees
 
 ## Greenock fees
 
 Greenock learners pay our international prices, which apply outside India.
 
-- First class: USD 0. A full lesson free, then our recommendation.
-- Group tuition: USD 100 a month. About eight live group lessons each month.
-- Private tuition: USD 150 a month. About eight live private lessons each month.
+First class**USD 0**
+
+A full lesson free, then our recommendation.
+
+Group tuition**USD 100**
+
+About eight live group lessons each month.
+
+Private tuition**USD 150**
+
+About eight live private lessons each month.
 
 No sterling prices exist: we bill in US dollars, and not before the trial has fixed a course and a time. Holidays, absences and format changes are handled on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Greenock%3F)Reviews
+
+## What parents in Inverclyde and learners across Britain say on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Greenock lesson
+
+An age or school year and a favourite hobby are all we need. Possible trials: sketching rough lines through dots, co-designing a Scratch game with an AI, writing starter Python, or fitting a curve to genuine hill heights.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Greenock one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Greenock%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Greenock questions
+
+Overfitting, penalties, the hillside data, vibe coding and how lessons work.
 
 ### What is the population of Greenock?
 
@@ -190,10 +308,14 @@ The first lesson is free; then USD 100 a month in a group or USD 150 a month pri
 
 No, lessons pause for school holidays; send the dates.
 
+Nearby
+
 ## More Inverclyde and Clyde pages
 
 Pages with their own projects: [Inverclyde](/coding-classes-in-inverclyde) (draining a tank), [Paisley](/online-coding-and-python-classes-in-paisley), [Renfrewshire](/coding-classes-in-renfrewshire) and [Glasgow](/best-coding-class-in-glasgow). Everywhere else is on the [Scotland page](/coding-and-ai-classes-in-scotland) or the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20AI%20or%20programming%20lesson%20for%20a%20learner%20in%20Greenock%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-greenock](https://learn.modernagecoders.com/ai-and-programming-classes-in-greenock#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/ai-and-programming-classes-in-greenock*

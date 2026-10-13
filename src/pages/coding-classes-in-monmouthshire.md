@@ -4,46 +4,32 @@ description: "Live online coding, Python and maths classes across Monmouthshire,
 canonical: https://learn.modernagecoders.com/coding-classes-in-monmouthshire
 source: src/pages/coding-classes-in-monmouthshire.html
 ---
-> Monmouthshire had 92,957 usual residents at the 2021 census. Abergavenny, Chepstow and Monmouth are its three main towns, each above 10,000 people, with Caldicot close behind and Undy and Magor, Usk, Gilwern and Llanfoist among the smaller places. Teachers in India run each lesson live by video, and a trial session at no cost shows where a Year 4 child, a sixth former or an adult ought to start. Coding, Python and maths are open to anyone from 6 to 67, taught solo or in a class of fifteen to twenty at one level. The Monmouthshire project starts at a hilltop roundhouse above Monmouth. Families who continue pay USD 100 monthly for group classes or USD 150 monthly for solo tuition.
+> Live online coding, Python and maths classes across Monmouthshire, from Abergavenny, Chepstow and Monmouth to Caldicot, Magor, Usk, Gilwern and Llanfoist.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Wales](/coding-and-ai-classes-in-wales) / Monmouthshire
-
-Monmouthshire / Live online
-
-# Coding classes in Monmouthshire
-
-**What are the best coding classes in Monmouthshire?** Monmouthshire had 92,957 usual residents at the 2021 census. Abergavenny, Chepstow and Monmouth are its three main towns, each above 10,000 people, with Caldicot close behind and Undy and Magor, Usk, Gilwern and Llanfoist among the smaller places. Teachers in India run each lesson live by video, and a trial session at no cost shows where a Year 4 child, a sixth former or an adult ought to start. Coding, Python and maths are open to anyone from 6 to 67, taught solo or in a class of fifteen to twenty at one level. The Monmouthshire project starts at a hilltop roundhouse above Monmouth. Families who continue pay USD 100 monthly for group classes or USD 150 monthly for solo tuition.
-
-In 1794 a dining club in Monmouth built a small round tower on the highest point of The Kymin, purely to enjoy the view. Cadw lists the Kymin Roundhouse at Grade II* and records that Nelson breakfasted there in 1802, that its windows were supposedly aligned on objects in the view, and that its flat roof once carried a telescope for the members. A telescope does more than make things bigger. The size of its lens sets the finest detail it can ever show, because light spreads slightly as it passes through any opening. And the air itself adds a shimmer that no lens can beat. How much detail could the club have seen, and what really limited it? Python gives the answer below.
-
-Facts last verified 26 September 2026. Teaching is online; no Monmouthshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Monmouthshire
 
 ## Starting points around Monmouthshire
 
 A Year 1 pupil in Usk who loves binoculars, a Year 6 in Caldicot ready to type code, a Year 11 in Abergavenny preparing for WJEC GCSE maths, and an adult in Chepstow teaching themselves Python. Each begins with a free lesson.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 12): Block coding with light, lenses and spotting games.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): Angles, tiny numbers and unit conversion, made clear by coding.
-- [High School Mathematics](/courses/complete-high-school-mathematics-mastery) (Ages 14 to 18): Secondary maths in depth, from radians to standard form and physics formulas.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Adults): Python for adults from zero, up to science and engineering scripts.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 12Coding for KidsBlock coding with light, lenses and spotting games.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingAngles, tiny numbers and unit conversion, made clear by coding.See the syllabus](/courses/maths-through-coding)[![High School Mathematics course thumbnail](/images/high-school-maths.webp)Ages 14 to 18High School MathematicsSecondary maths in depth, from radians to standard form and physics formulas.See the syllabus](/courses/complete-high-school-mathematics-mastery)[![Python Masterclass course thumbnail](/images/python-college.webp)AdultsPython MasterclassPython for adults from zero, up to science and engineering scripts.See the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Monmouthshire in figures
 
 ## 92,957 people in Monmouthshire
 
 ONS counted 92,957 usual residents in Monmouthshire on census day 2021, read here through Nomis. Town figures below are ONS built-up areas, counted on that same day.
 
-**Monmouthshire built-up areas of 2,000 or more people, ONS 2021**
-
 | Town | People | Town | People |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Abergavenny | 13,695 | Undy and Magor | 5,740 |
 | Chepstow | 11,935 | Usk | 2,310 |
 | Monmouth | 10,325 | Gilwern | 2,185 |
@@ -55,16 +41,16 @@ Each figure matches our own output-area total to within six people. Monmouthshir
 
 The city of [Newport](/best-coding-class-in-newport-wales) has its own page. For exam support, see [GCSE Maths and Numeracy in Wales](/gcse-maths-and-numeracy-wales-help) and [WJEC GCSE Computer Science](/wjec-gcse-computer-science-help-wales).
 
+The Monmouthshire project
+
 ## How fine can a lens see?
 
 One formula for light spreading through an opening, and one number for shimmering air.
 
 Light passing through any circular opening spreads a little, which blurs every point into a tiny disc. The smallest angle a lens can separate, its angular resolution at the diffraction limit, is about 1.22 times the wavelength divided by the opening's width. Green light has a wavelength of about 550 billionths of a metre. The learner codes the formula, converts the angle from radians into arcseconds, the astronomer's unit where 3,600 make a degree, and multiplies by distance to find the smallest detail that could be seen. The distances and telescope sizes are our own choices; the record does not say what the club's telescope was.
 
-**Our resolution sums, green light, 26 September 2026**
-
 | Opening | Finest angle | Smallest detail at 5 km | At 10 km |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Eye pupil, 5 mm | 27.7 arcsec | 0.67 m | 1.34 m |
 | Telescope, 3 cm | 4.6 arcsec | 11 cm | 22 cm |
 | Telescope, 5 cm | 2.8 arcsec | 7 cm | 13 cm |
@@ -90,14 +76,14 @@ Add atmospheric seeing, find the crossover aperture, and write a test that catch
 
 The Roundhouse history comes from Cadw's record. The telescope sizes, distances and seeing figure are our assumptions, so the table shows the physics of any hilltop view rather than what the Kymin Club actually saw.
 
+Why the Kymin
+
 ## A roundhouse built for a view
 
 What Cadw's record says.
 
-**The Kymin Roundhouse, Monmouth, Cadw listed building record 2222, Grade II***
-
 | Record detail | What it says |
-|---|---|
+| --- | --- |
 | Built | 1794, by the Kymin Club as a picnic house |
 | Site | The highest point of The Kymin, chosen for its views |
 | Visitors | Nelson and the Hamiltons breakfasted there in 1802 |
@@ -109,14 +95,37 @@ Resolution limits decide what phone cameras, microscopes, satellites and self-dr
 
 We have no connection with Cadw, the National Trust or Monmouthshire County Council. The record belongs to Cadw; the resolution sums and any errors belong to us.
 
+Learning path
+
 ## From spotting games to optics
 
 The year bands are rough guides; the trial lesson places each learner.
 
-- **Years 1 to 4: Looking closely** Block coding with zooming, spotting and simple light games. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 5 to 8: Angles and units** Typed Python converting angles and working with tiny numbers. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Physics formulas** Waves, optics and standard form alongside WJEC GCSE and A level courses. [High School Mathematics](/courses/complete-high-school-mathematics-mastery), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: Science in Python** Python for adults, from quick calculations to reusable tools. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Years 1 to 4
+
+### Looking closely
+
+Block coding with zooming, spotting and simple light games.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 5 to 8
+
+### Angles and units
+
+Typed Python converting angles and working with tiny numbers.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Physics formulas
+
+Waves, optics and standard form alongside WJEC GCSE and A level courses.
+
+[High School Mathematics](/courses/complete-high-school-mathematics-mastery)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### Science in Python
+
+Python for adults, from quick calculations to reusable tools.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)AI and limits
 
 ## An AI can quote a resolution formula in seconds. Will it tell you the air wins?
 
@@ -128,30 +137,139 @@ A Monmouthshire learner who has compared the two limits knows to ask which one a
 
 Spotting the missing limit in a confident answer is a skill a Monmouthshire teenager builds by coding the sums. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How lessons run
+
 ## From Usk to Caldicot, lessons at home
 
 Every town and village in the county joins by video.
 
-- **Pupils write the code** Every line on screen is typed by the learner; the teacher watches the shared window and steps in only when stuck.
-- **Welsh years and WJEC** We place a Magor Year 5 or a Monmouth Year 12 using Welsh school years and Curriculum for Wales progression steps, and name exams as WJEC does. Lessons are in English.
-- **A free trial** One whole lesson at no cost, then straight advice.
-- **Level-matched groups** Fifteen to twenty learners at one level, from many places.
-- **Term-time lessons** Two lessons a week during term; holidays off.
-- **Steady UK time** When British clocks go forward or back, your slot stays put on the local clock and our teachers shift instead.
+### Pupils write the code
 
-**Why groups span towns** Five learners at one level, free at the same time, rarely live in one Monmouthshire town. Grouping by level gives a pupil in Gilwern or Llanfoist a class that fits.
+Every line on screen is typed by the learner; the teacher watches the shared window and steps in only when stuck.
+
+### Welsh years and WJEC
+
+We place a Magor Year 5 or a Monmouth Year 12 using Welsh school years and Curriculum for Wales progression steps, and name exams as WJEC does. Lessons are in English.
+
+### A free trial
+
+One whole lesson at no cost, then straight advice.
+
+### Level-matched groups
+
+Fifteen to twenty learners at one level, from many places.
+
+### Term-time lessons
+
+Two lessons a week during term; holidays off.
+
+### Steady UK time
+
+When British clocks go forward or back, your slot stays put on the local clock and our teachers shift instead.
+
+Why groups span towns
+
+Five learners at one level, free at the same time, rarely live in one Monmouthshire town. Grouping by level gives a pupil in Gilwern or Llanfoist a class that fits.
+
+Fees
 
 ## Fees in Monmouthshire
 
 Chepstow or Abergavenny, the fee is the same, as in every country we teach outside India.
 
-- First class: USD 0. A complete free lesson, followed by a recommendation.
-- Group tuition: USD 100 a month. About eight lessons a month in a group of fifteen to twenty.
-- Private tuition: USD 150 a month. About eight lessons a month with your own teacher.
+First class**USD 0**
+
+A complete free lesson, followed by a recommendation.
+
+Group tuition**USD 100**
+
+About eight lessons a month in a group of fifteen to twenty.
+
+Private tuition**USD 150**
+
+About eight lessons a month with your own teacher.
 
 We charge in US dollars only; no sterling prices. Nothing is billed until the trial has settled a course and a weekly slot; holidays, missed sessions and changes of format are explained on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Monmouthshire%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Reviews
+
+## Ratings from families on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Monmouthshire lesson
+
+Send the learner's age or school year and a favourite interest. The trial could be a Scratch spotting game, a Python calculator, or the Kymin telescope sums.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Monmouthshire one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Monmouthshire%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Monmouthshire questions
+
+The county, the Kymin project and practical details.
 
 ### How many people live in Monmouthshire?
 
@@ -193,10 +311,14 @@ Nothing for the opening lesson; after it, a group place costs USD 100 each month
 
 Yes. Send us the holiday weeks for your school and those weeks stay empty.
 
+Nearby pages
+
 ## More South East Wales pages
 
 [Newport](/best-coding-class-in-newport-wales) and [Cardiff](/best-coding-class-in-cardiff) have city pages, and [Blaenau Gwent](/coding-classes-in-blaenau-gwent) explains why cameras flatten a round street. Our [Wales](/coding-and-ai-classes-in-wales) index gathers every Welsh county page so far, and the [UK hub](/coding-classes-in-united-kingdom) reaches England, Scotland and Northern Ireland.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Monmouthshire%20and%20would%20like%20to%20book%20a%20free%20lesson%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-monmouthshire](https://learn.modernagecoders.com/coding-classes-in-monmouthshire#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-monmouthshire*

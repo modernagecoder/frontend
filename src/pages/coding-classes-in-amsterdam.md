@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes for Amsterdam learners a
 canonical: https://learn.modernagecoders.com/coding-classes-in-amsterdam
 source: src/pages/coding-classes-in-amsterdam.html
 ---
-> Coding classes in Amsterdam have to work around a transition no other Dutch city runs quite this way: a school advice in groep 8, a doorstroomtoets that may disagree with it, and in April a central lottery in which 7,674 pupils competed for 9,969 places at 65 schools in 2026, with 73.85 percent getting their first choice. Modern Age Coders teaches coding, Python, AI and mathematics live online, in English, to learners aged 6 to 67 anywhere in the city. The first class is free; then USD 100 a month in a group of fifteen to twenty, or USD 150 one to one.
+> Live online coding, Python and AI classes for Amsterdam learners aged 6 to 67, read against the school advice, the doorstroomtoets and the April lottery.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Amsterdam
-
-Amsterdam, Noord-Holland / Live online
-
-# Coding classes in Amsterdam, a city that hands every eleven-year-old two verdicts and a lottery number
-
-**What are the best coding classes in Amsterdam?** Coding classes in Amsterdam have to work around a transition no other Dutch city runs quite this way: a school advice in groep 8, a doorstroomtoets that may disagree with it, and in April a central lottery in which 7,674 pupils competed for 9,969 places at 65 schools in 2026, with 73.85 percent getting their first choice. Modern Age Coders teaches coding, Python, AI and mathematics live online, in English, to learners aged 6 to 67 anywhere in the city. The first class is free; then USD 100 a month in a group of fifteen to twenty, or USD 150 one to one.
-
-Nationally about one child in three gets a test result higher than the advice the school gave. In Amsterdam it is one in five. Ask why and you will hear two confident answers that contradict each other. The project on this page is the small program that shows both answers fit the number, which is the beginning of knowing how to read any number at all.
-
-Facts last verified 7 September 2026. Teaching is online; no Amsterdam branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Amsterdam
 
 ## Four courses for a city with 244 primary schools and 91 secondary ones
 
 Amsterdam is big enough that no single starting point fits. These four cover the child in a basisschool in Oost, the teenager who just came through the April lottery, the international-school student on the IB, and the parent who works on the Zuidas and wants to build agents rather than prompt them.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Real games in Scratch for a groep 3 to 5 child, in English, three months from nothing to something a friend can play.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): For groep 6 to 8, the years the advice is being formed: Python, turtle art and a first model, without touching the school timetable.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): Python and a first machine learning model for the havo or vwo bovenbouw, where wiskunde A and B both meet real data.
-- [Codex & Claude Code for Teens](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens) (Ages 13 to 17): AI coding agents, taught so the teenager still owns the codebase: for the MYP student who already ships small projects.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsReal games in Scratch for a groep 3 to 5 child, in English, three months from nothing to something a friend can play.See the syllabus](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsFor groep 6 to 8, the years the advice is being formed: Python, turtle art and a first model, without touching the school timetable.See the syllabus](/courses/python-ai-kids-masterclass)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensPython and a first machine learning model for the havo or vwo bovenbouw, where wiskunde A and B both meet real data.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Codex & Claude Code for Teens course thumbnail](/images/codex-claude-code-teens.webp)Ages 13 to 17Codex & Claude Code for TeensAI coding agents, taught so the teenager still owns the codebase: for the MYP student who already ships small projects.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Amsterdam today
 
 ## Two population figures, eight districts, and a city that will pass a million
 
@@ -52,16 +40,17 @@ The city's own research office projects growth of about 178,000 to 1,120,000 res
 
 The same April 2026 projection names the main countries of origin of people who moved to Amsterdam in 2025: the United States, Italy, Germany, Spain, the United Kingdom, India and Turkey. A coding class taught in English, with the Dutch school words kept, is written for exactly that list.
 
-**111 wijken, 519 buurten, and this page stops at eight** The statistics office divides Amsterdam into 111 wijken and 519 buurten. This page works at the level above that, the seven stadsdelen plus the stadsgebied of Weesp, and hands each of them off to its own page in this series rather than pretending one page can be about Osdorp and De Pijp at once.
+111 wijken, 519 buurten, and this page stops at eight
+
+The statistics office divides Amsterdam into 111 wijken and 519 buurten. This page works at the level above that, the seven stadsdelen plus the stadsgebied of Weesp, and hands each of them off to its own page in this series rather than pretending one page can be about Osdorp and De Pijp at once.
+
+The transition at eleven
 
 ## Advice, test, lottery: what actually happens to an Amsterdam child in groep 8
 
 Three events in fourteen weeks decide where a child spends the next four to six years. Every one of them produces a number, and this page uses all three.
 
-- **January**: The school gives its advice: vmbo, havo, vwo or one of five double advices. In 2024/25, 28 percent of Amsterdam groep 8 pupils received a vwo advice and 56 percent an advice that included havo or vwo, according to the city research office (9 March 2026). Our answer: Nothing we teach changes an advice, and we say so. A child who has been building in Scratch or Python since groep 5 arrives at January with something the advice conversation can point to, which is a different thing.
-- **February**: The doorstroomtoets, sat nationally between 26 January and 13 February 2026 with results from 3 to 15 March. When the test comes out higher than the advice, the school must reconsider. Nationally that happens for nearly one pupil in three; in Amsterdam for one in five. Our answer: That gap is the data project below. The learner does not take a side; they build the model that shows why the gap alone cannot tell you which side is right.
-- **March to April**: Preference lists of four, six or twelve schools go in from 25 to 31 March, and on 9 April 2026 the Centrale Loting and Matching placed 7,674 pupils across 9,969 places at 65 schools: 73.85 percent at their first choice, 91 percent in their top three, 95.54 percent in their top five (OSVO, 9 April 2026). Our answer: For the family, the lottery is the week to keep a routine. A recurring online class survives a school change without a timetable clash, because it was never tied to a building.
-- **The list length**: In 2025 havo and vwo pupils were asked for nine preferences instead of twelve, and the school boards found that the shorter list affected the placement guarantee. For 2026 it went back to twelve, and reserve lists now stay valid until 30 September. Our answer: A rule that was changed and changed back within a year is a real dataset about a real trade-off, and teenagers in the class have modelled it: how the guaranteed-placement rate moves as the list shortens.
+JanuaryThe school gives its advice: vmbo, havo, vwo or one of five double advices. In 2024/25, 28 percent of Amsterdam groep 8 pupils received a vwo advice and 56 percent an advice that included havo or vwo, according to the city research office (9 March 2026).Nothing we teach changes an advice, and we say so. A child who has been building in Scratch or Python since groep 5 arrives at January with something the advice conversation can point to, which is a different thing.FebruaryThe doorstroomtoets, sat nationally between 26 January and 13 February 2026 with results from 3 to 15 March. When the test comes out higher than the advice, the school must reconsider. Nationally that happens for nearly one pupil in three; in Amsterdam for one in five.That gap is the data project below. The learner does not take a side; they build the model that shows why the gap alone cannot tell you which side is right.March to AprilPreference lists of four, six or twelve schools go in from 25 to 31 March, and on 9 April 2026 the Centrale Loting and Matching placed 7,674 pupils across 9,969 places at 65 schools: 73.85 percent at their first choice, 91 percent in their top three, 95.54 percent in their top five (OSVO, 9 April 2026).For the family, the lottery is the week to keep a routine. A recurring online class survives a school change without a timetable clash, because it was never tied to a building.The list lengthIn 2025 havo and vwo pupils were asked for nine preferences instead of twelve, and the school boards found that the shorter list affected the placement guarantee. For 2026 it went back to twelve, and reserve lists now stay valid until 30 September.A rule that was changed and changed back within a year is a real dataset about a real trade-off, and teenagers in the class have modelled it: how the guaranteed-placement rate moves as the list shortens.The eight districts
 
 ## One city, eight places to live, and the differences a parent actually notices
 
@@ -93,6 +82,8 @@ Now with [a page of its own](/coding-classes-in-amsterdam-noord), arguing about 
 
 The district pages in this series are written under a rule: one paragraph of city context, then only what is true of that district and false of its neighbours. This page carries the city context so that they do not have to.
 
+Verified local facts
+
 ## Amsterdam facts with the office and the date attached
 
 Every figure this page uses, traced. Two of them disagree with each other, and the page keeps both.
@@ -123,6 +114,8 @@ Seventy hectares, about 176 companies, more than 600 network hubs, the AMS-IX ex
 
 Modern Age Coders has no association with the municipality of Amsterdam, with OSVO, with either international school or with any school or institute named above, and claims none. A page about coding classes in a city should know how the city's schools work; that is the only reason they appear.
 
+Signature project
+
 ## One in three nationally, one in five in Amsterdam: build the simulation that shows the gap cannot tell you why
 
 Two judgements of the same child, a rate at which they disagree, and a program that produces the same rate from opposite causes.
@@ -139,10 +132,8 @@ Each simulated pupil has one true level. The school advice is that level plus a 
 
 Teachers who sit a fifth of a standard deviation low, with a moderately noisy test, produce 33 percent. Unbiased teachers with a much noisier test produce 31. Unbiased teachers with a precise test produce 21; teachers who sit slightly high produce 19. The national one-third and the Amsterdam one-fifth can each be made from teacher tendency alone or from test noise alone.
 
-**Four settings of the simulation, two disagreement rates: the rate does not identify the cause**
-
 | Setting | Teacher tendency | Test noise | Share with test above advice |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | A | advises 0.20 sd low | moderate (0.45 sd) | 33 percent |
 | B | none | high (0.95 sd) | 31 percent |
 | C | none | low (0.35 sd) | 21 percent |
@@ -152,14 +143,14 @@ Teachers who sit a fifth of a standard deviation low, with a moderately noisy te
 
 When two measurements of the same thing disagree, the size of the disagreement tells you that at least one of them is off. It cannot tell you which. Amsterdam's one in five could mean its teachers advise a little higher than the country's, or that its test scores are a little less noisy, or some of each, and the only thing that separates those is a third measurement: where the same children are three years later. The simulation above was run before this paragraph was written; the two published rates are real, and every row of the table is a labelled model.
 
+Reliable pipeline
+
 ## Five habits for reading any figure that compares two judgements
 
 The same mistake sits inside exam moderation, medical second opinions, code review statistics and A/B tests. Practised here on the Amsterdam numbers first.
 
-**When two instruments measure one thing**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Name | Say which instrument the rate is about, and that it is about both | Blaming the teacher, or the test, from a number that cannot assign blame | A sentence that is true |
 | Simulate | Produce the observed rate from at least two different causes | The first explanation winning by being first | A list of causes that fit |
 | Anchor | Ask what third measurement would separate the causes | An argument that can never end | A question the data could answer |
@@ -180,14 +171,37 @@ The same model on a code review process, where two reviewers disagree on 20 perc
 
 The lottery figures, the advice and test shares, both population counts, the school counts, the metro and the two international schools are all published by the offices named in the sentences that use them. The simulation settings and their outputs are a model built in class and are presented as nothing more.
 
+Learning ladder
+
 ## From guessing sweets in a jar to modelling two noisy judgements
 
 The free class finds the rung, whatever the advice said in January.
 
-- **Ages 6 to 10: Two guesses, one jar** Children discover that a gap between two guesses says nothing about which guess was right. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Noise you can see** Learners add random noise to a number in Python and watch how often two readings land in different bands. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Two causes, one rate** Teenagers build the simulation and find the settings that make the national and city figures. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Inter-rater disagreement at work** Adults measure reviewer, reader and rater disagreement in their own field and learn what it can support. [Statistics & Probability](/courses/statistics-probability-maths-course), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Ages 6 to 10
+
+### Two guesses, one jar
+
+Children discover that a gap between two guesses says nothing about which guess was right.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Noise you can see
+
+Learners add random noise to a number in Python and watch how often two readings land in different bands.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Two causes, one rate
+
+Teenagers build the simulation and find the settings that make the national and city figures.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Inter-rater disagreement at work
+
+Adults measure reviewer, reader and rater disagreement in their own field and learn what it can support.
+
+[Statistics & Probability](/courses/statistics-probability-maths-course)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)Coding and AI
 
 ## Will an Amsterdam teenager who can ask an AI for the answer ever need to build the model themselves?
 
@@ -199,30 +213,139 @@ That is what the class trains and why the code still has to be written by the le
 
 For an Amsterdam parent, then, the case for coding in 2026 is not that the child will write software for a living, though many will. It is that building the second explanation is a skill, it is teachable, and the only known way to teach it is to make the learner build. The longer argument is in [whether coding is still worth learning in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for a city where the school might change in April
 
 A recurring lesson that lives on a laptop rather than in a building is the one thing in an Amsterdam child's week that the lottery cannot move.
 
-- **Survives the placement** The class was booked around the family, not the school, so when the 9 April result sends a child across the city in September, the Tuesday slot is still Tuesday.
-- **English, with the Amsterdam words** Taught in English. Groep, advice, doorstroomtoets, loting, brugklas and profiel are used as the family hears them at school, because that is what the family will ask about.
-- **The first hour is a real lesson** A task pitched at the learner, a level, a named course and a slot at the end of it. No card, no deposit and no decision before anyone has watched us teach.
-- **Fifteen to twenty per group, by level** A group is formed on what its members can do and what they want next. Which stadsdeel they live in and which school the lottery gave them are not inputs.
-- **Eight lessons a month, one fixed time** Two lessons a week at a time agreed once. Regio Noord holiday weeks, the exam period and the summer are settled before the slot, not after.
-- **The clock difference, stated plainly** An Amsterdam evening is late in India: eight o'clock here is half past eleven or half past midnight in Kolkata depending on the season. Late afternoon, early evening and weekend slots are the ones that work, and the recurring time is confirmed on the call.
+### Survives the placement
 
-**Nothing on this page depends on a building** There is no Amsterdam classroom, no centre in Zuid and no desk on the Science Park. Every lesson is live online with a teacher in India, and the page says so in the schema, in the footer and here, because a family choosing a class should never have to guess.
+The class was booked around the family, not the school, so when the 9 April result sends a child across the city in September, the Tuesday slot is still Tuesday.
+
+### English, with the Amsterdam words
+
+Taught in English. Groep, advice, doorstroomtoets, loting, brugklas and profiel are used as the family hears them at school, because that is what the family will ask about.
+
+### The first hour is a real lesson
+
+A task pitched at the learner, a level, a named course and a slot at the end of it. No card, no deposit and no decision before anyone has watched us teach.
+
+### Fifteen to twenty per group, by level
+
+A group is formed on what its members can do and what they want next. Which stadsdeel they live in and which school the lottery gave them are not inputs.
+
+### Eight lessons a month, one fixed time
+
+Two lessons a week at a time agreed once. Regio Noord holiday weeks, the exam period and the summer are settled before the slot, not after.
+
+### The clock difference, stated plainly
+
+An Amsterdam evening is late in India: eight o'clock here is half past eleven or half past midnight in Kolkata depending on the season. Late afternoon, early evening and weekend slots are the ones that work, and the recurring time is confirmed on the call.
+
+Nothing on this page depends on a building
+
+There is no Amsterdam classroom, no centre in Zuid and no desk on the Science Park. Every lesson is live online with a teacher in India, and the page says so in the schema, in the footer and here, because a family choosing a class should never have to guess.
+
+Fees
 
 ## One free class, then USD 100 or USD 150 a month, and nothing else
 
 Published in full, here, so nobody has to book a call to learn a price.
 
-- First class: USD 0. A full lesson with a task, a level and a named next step.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A full lesson with a task, a level and a named next step.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 Fees are in US dollars because that is the one published international rate; there is no separate euro tariff and nothing added for Amsterdam. The free class comes first and settles the course and the slot; payment is arranged afterwards over WhatsApp. Pauses, plan changes and missed lessons are on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Amsterdam.)Reviews
+
+## What families and learners say
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us the learner's level, and the district if you like
+
+The first task might be two guesses and a jar, a simulation with two parameter settings, or a disagreement rate from your own team that you have never been sure how to read.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Amsterdam one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Amsterdam.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Amsterdam coding class questions
+
+The city, the transition at eleven, the teaching and the terms.
 
 ### How does the Amsterdam school lottery work, and does a coding class help with it?
 
@@ -264,10 +387,14 @@ The first class is free. Group tuition is USD 100 a month for two live lessons a
 
 Fifteen to twenty learners, matched on level, pace and goal rather than on age, district or school. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next group to form.
 
+Explore the Netherlands
+
 ## The town next door, the country page, and the page for building AI
 
 [Coding classes in Amstelveen](/coding-classes-in-amstelveen) covers the municipality on Amsterdam's southern edge with the highest share of Indian-origin residents in the country. The [Netherlands coding hub](/coding-classes-in-netherlands) carries the national curriculum picture and the full course list, and [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) is for the learner who wants to build models, and the [AI and Python Academy, Amsterdam](/ai-and-python-academy-amsterdam) teaches that building with the kind of public write-up the city publishes for its own algorithms. [Amsterdam-Centrum](/coding-classes-in-amsterdam-centrum) and [Amsterdam-Noord](/coding-classes-in-amsterdam-noord) and [Amsterdam-Oost](/coding-classes-in-amsterdam-oost) and [Amsterdam-Zuid](/coding-classes-in-amsterdam-zuid) and [Amsterdam-West](/coding-classes-in-amsterdam-west) are the first five of the eight district pages; [Amsterdam Nieuw-West](/coding-classes-in-amsterdam-nieuw-west) and [Amsterdam-Zuidoost](/coding-classes-in-amsterdam-zuidoost) and [Weesp](/coding-classes-in-weesp) complete the set: all eight are now written.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Amsterdam.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-amsterdam](https://learn.modernagecoders.com/coding-classes-in-amsterdam#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-amsterdam*

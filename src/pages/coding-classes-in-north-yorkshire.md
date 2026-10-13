@@ -4,46 +4,32 @@ description: "Live online coding, Python and maths classes across North Yorkshir
 canonical: https://learn.modernagecoders.com/coding-classes-in-north-yorkshire
 source: src/pages/coding-classes-in-north-yorkshire.html
 ---
-> This page covers North Yorkshire as a county: the North Yorkshire Council area, counted at the 2021 Census as seven districts, together with York, Middlesbrough and Redcar and Cleveland. Adding up the ten published counts gives our total of 1,098,768 residents. The biggest places are Middlesbrough, York, Harrogate and Scarborough. We teach live over video from India, and place each learner in a class matched to their ability, whatever their age. That runs from 6 to 67, with groups of fifteen to twenty or one-to-one lessons in coding, Python, data science and maths. The North Yorkshire project uses real census data on who commutes where. A first lesson is on us; carrying on costs USD 100 a month for a group or USD 150 a month for one-to-one.
+> Live online coding, Python and maths classes across North Yorkshire, from York, Harrogate and Scarborough to Middlesbrough, Redcar, Selby, Ripon and Skipton.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / North Yorkshire
-
-North Yorkshire / Live online
-
-# Coding classes in North Yorkshire
-
-**What are the best coding classes in North Yorkshire?** This page covers North Yorkshire as a county: the North Yorkshire Council area, counted at the 2021 Census as seven districts, together with York, Middlesbrough and Redcar and Cleveland. Adding up the ten published counts gives our total of 1,098,768 residents. The biggest places are Middlesbrough, York, Harrogate and Scarborough. We teach live over video from India, and place each learner in a class matched to their ability, whatever their age. That runs from 6 to 67, with groups of fifteen to twenty or one-to-one lessons in coding, Python, data science and maths. The North Yorkshire project uses real census data on who commutes where. A first lesson is on us; carrying on costs USD 100 a month for a group or USD 150 a month for one-to-one.
-
-Why do more people commute from Selby to York than from Scarborough to Richmondshire? Big places attract more journeys, and near places attract more than far ones. Geographers turned that common sense into a formula borrowed from physics, the gravity model: the flow between two places grows with their size and shrinks with the distance between them. The census recorded where people lived and where they worked, so the formula can be tested properly. This page's project fits it in Python to the real 2011 Census flows between ten North Yorkshire areas, measures how much it explains, and then studies the places where it gets the answer badly wrong, because that is where the interesting geography is.
-
-Facts last verified 26 September 2026. Teaching is online; no North Yorkshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for North Yorkshire
 
 ## Where North Yorkshire learners start
 
 A seven-year-old in Northallerton building a first game, a Year 8 in Knaresborough who loves maps, a Year 12 in Guisborough keen on data science, and an adult in Scarborough who works with spreadsheets every day. Each of them begins with a free lesson.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Typed Python for children, with games, puzzles and first steps with data and AI.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): Maths learned by coding it, with graphs, logs and ratios turned into Python projects.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 18): Real data in Python for teenagers, including fitting a model and reading what it gets wrong.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (Adults): Spreadsheets, statistics and SQL, then Python and dashboards, for adults whose work runs on data.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsTyped Python for children, with games, puzzles and first steps with data and AI.See the syllabus](/courses/python-ai-kids-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingMaths learned by coding it, with graphs, logs and ratios turned into Python projects.See the syllabus](/courses/maths-through-coding)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 18Data Science for TeensReal data in Python for teenagers, including fitting a model and reading what it gets wrong.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)AdultsData Analysis CourseSpreadsheets, statistics and SQL, then Python and dashboards, for adults whose work runs on data.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)North Yorkshire in figures
 
 ## 1,098,768 people from the Dales to the Tees
 
 Area counts are 2021 Census figures on Nomis; the county total is our own sum. Town figures are ONS built-up areas, which we checked by totalling census output areas.
 
-**The twelve largest built-up areas in North Yorkshire, 2021 Census**
-
 | Town | Residents | Town | Residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Middlesbrough | 148,215 | Selby | 19,475 |
 | York | 141,685 | Guisborough | 18,095 |
 | Harrogate | 75,515 | Ripon | 16,590 |
@@ -57,6 +43,8 @@ The ONS Middlesbrough area crosses into Redcar and Cleveland, so it is larger th
 
 Our [York](/best-coding-class-in-york) page is about street names, and [Ripon](/best-coding-class-in-ripon) is about river floods. This page is for the rest of the county, from Skipton to Saltburn.
 
+The North Yorkshire project
+
 ## Does commuting obey a law of gravity?
 
 Real census flows between ten areas, a formula from physics, and the places where it fails.
@@ -65,10 +53,8 @@ The learner downloads the 2011 Census table WU01UK from Nomis, which counts peop
 
 Newton's gravity falls with the square of distance. The commuting version is flow = k × (size of origin)ᵃ × (size of destination)ᵇ ÷ distanceᶜ, and taking logarithms turns it into a straight line that ordinary least squares can fit. Fitted to the 89 pairs with at least one commuter, it gives a distance power of 3.3 and explains 77.6 per cent of the variation in the logged flows, an R² of 0.776. Forcing Newton's square law instead drops the fit to 0.677: commuting falls away with distance much faster than gravity does.
 
-**Where our fitted model misses by most, 2011 Census commuters**
-
 | From | To | Actual | Model | What it tells you |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | York | Hambleton | 2,915 | 552 | Centres 40 km apart; journeys near the edges are much shorter. |
 | Selby | York | 5,093 | 5,403 | A near hit, for comparison. |
 | Redcar and Cleveland | Middlesbrough | 10,569 | 32,225 | Centres only 11 km apart, and a steep power law overshoots. |
@@ -93,14 +79,14 @@ Fit the full model with least squares, compare it with Newton's square law, and 
 
 The commuting counts are from the 2011 Census, published by the ONS on Nomis, and the centre points from ONS centroids. The fitted formula, its powers, R² values and every model prediction are ours, computed for teaching. Commuting in 2011 may differ from commuting now.
 
+Why North Yorkshire
+
 ## A big, varied county is a fair test
 
 Why this county suits a gravity model, and where its limits show.
 
-**Some 2011 Census commuting flows, from Nomis table WU01UK**
-
 | From | To | Commuters |
-|---|---|---|
+| --- | --- | --- |
 | Selby | York | 5,093 |
 | Harrogate | Leeds | 8,481 |
 | Selby | Leeds | 6,193 |
@@ -112,16 +98,41 @@ A county that runs from Pennine towns through market towns to a coast and an ind
 
 We have no link with the Office for National Statistics, Nomis, North Yorkshire Council or any council named here. The census counts are theirs; the model and any error in it are ours.
 
-**Nearby pages** [York](/best-coding-class-in-york) and [Ripon](/best-coding-class-in-ripon) have their own pages; the [East Riding](/coding-classes-in-east-riding-of-yorkshire) is to the south-east, [County Durham](/coding-classes-in-county-durham) to the north and [Leeds](/best-coding-class-in-leeds) to the south.
+Nearby pages
+
+[York](/best-coding-class-in-york) and [Ripon](/best-coding-class-in-ripon) have their own pages; the [East Riding](/coding-classes-in-east-riding-of-yorkshire) is to the south-east, [County Durham](/coding-classes-in-county-durham) to the north and [Leeds](/best-coding-class-in-leeds) to the south.
+
+The path
 
 ## From maps and games to models of real data
 
 The free lesson settles where each learner starts. Age is a first guess only.
 
-- **Ages 6 to 10: Games and maps** Block coding with games that move around a map, measuring how far a sprite has travelled. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 8 to 13: Numbers in Python** Typed Python with tables, totals and simple graphs built from real numbers. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 18: Models and data** Data science in Python, fitting lines and curves to real tables and questioning the leftovers. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Data for work** Spreadsheets, SQL and Python for adults who need to explain what the numbers really show. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Games and maps
+
+Block coding with games that move around a map, measuring how far a sprite has travelled.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 8 to 13
+
+### Numbers in Python
+
+Typed Python with tables, totals and simple graphs built from real numbers.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 18
+
+### Models and data
+
+Data science in Python, fitting lines and curves to real tables and questioning the leftovers.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Data for work
+
+Spreadsheets, SQL and Python for adults who need to explain what the numbers really show.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)AI and models
 
 ## An AI can fit a model in seconds. Can it tell you what the model left out?
 
@@ -133,30 +144,139 @@ Every AI system is a fitted model of some data, and its failures often come from
 
 So a young person in North Yorkshire should learn to code in 2026 to see what a model is missing, not just how well it scores. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How lessons happen
+
 ## Dales, moors and coast, one screen away
 
 In a county this size, a weekly class in York or Middlesbrough can mean a long drive each way. Online lessons remove it.
 
-- **Lessons at home** A farmhouse in Wensleydale, a terrace in Redcar, a flat in Harrogate. The teacher shares a screen and the learner does the coding.
-- **Words from your school** Year groups, key stages, GCSEs and A levels are named as North Yorkshire schools name them, and lessons are in English.
-- **A free lesson first** A proper lesson with real work, then clear advice on level and course, with no card details asked for.
-- **Classmates at your level** Fifteen to twenty learners at the same stage, from across the county, the UK and further afield.
-- **Breaks when school breaks** Two lessons a week is typical, and we pause for your own school's holidays.
-- **UK times, always** Your lesson time is set in UK time and does not shift with the clocks; the teacher, who keeps India time several hours ahead, adjusts instead.
+### Lessons at home
 
-**Why groups go by level** Even York or Middlesbrough rarely has five learners at the same stage free on the same evening. Grouping by level means a learner in Whitby or Settle joins a class that fits.
+A farmhouse in Wensleydale, a terrace in Redcar, a flat in Harrogate. The teacher shares a screen and the learner does the coding.
+
+### Words from your school
+
+Year groups, key stages, GCSEs and A levels are named as North Yorkshire schools name them, and lessons are in English.
+
+### A free lesson first
+
+A proper lesson with real work, then clear advice on level and course, with no card details asked for.
+
+### Classmates at your level
+
+Fifteen to twenty learners at the same stage, from across the county, the UK and further afield.
+
+### Breaks when school breaks
+
+Two lessons a week is typical, and we pause for your own school's holidays.
+
+### UK times, always
+
+Your lesson time is set in UK time and does not shift with the clocks; the teacher, who keeps India time several hours ahead, adjusts instead.
+
+Why groups go by level
+
+Even York or Middlesbrough rarely has five learners at the same stage free on the same evening. Grouping by level means a learner in Whitby or Settle joins a class that fits.
+
+Fees
 
 ## Fees in North Yorkshire
 
 Skipton or Saltburn, the fee is identical, and it is the fee in every country we teach apart from India.
 
-- First class: USD 0. A full lesson of real work, ending with a suggested level and course.
-- Group tuition: USD 100 a month. Around eight lessons a month with fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. Around eight lessons a month with a teacher to themselves.
+First class**USD 0**
+
+A full lesson of real work, ending with a suggested level and course.
+
+Group tuition**USD 100**
+
+Around eight lessons a month with fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+Around eight lessons a month with a teacher to themselves.
 
 We bill in US dollars and quote no sterling prices. Nothing is charged until the free lesson has settled a course and a weekly time, and our pricing page explains pauses, missed lessons and switching between group and private.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20North%20Yorkshire%20and%20would%20like%20a%20free%20lesson%2C%20please.)Reviews
+
+## Families rate us on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson in North Yorkshire
+
+Tell us an age or school year and what the learner enjoys. A first lesson could be a map game in Scratch, a Python table, or the commuting data on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented North Yorkshire one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20North%20Yorkshire%20and%20would%20like%20a%20free%20lesson%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## North Yorkshire questions
+
+The county, the commuting project and how lessons run.
 
 ### How many people live in North Yorkshire?
 
@@ -198,10 +318,14 @@ The first lesson is free. Groups are then USD 100 per month and one-to-one USD 1
 
 Yes, if you like. North Yorkshire Council, York, Middlesbrough, Redcar and Cleveland and academy trusts publish their own dates, and we fit breaks to yours.
 
+Close by
+
 ## Neighbouring pages
 
 Start with [York](/best-coding-class-in-york) or [Ripon](/best-coding-class-in-ripon), then [County Durham](/coding-classes-in-county-durham), the [East Riding](/coding-classes-in-east-riding-of-yorkshire) and [Leeds](/best-coding-class-in-leeds). The [UK hub](/coding-classes-in-united-kingdom) lists the rest.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20North%20Yorkshire%20and%20would%20like%20a%20free%20lesson%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-north-yorkshire](https://learn.modernagecoders.com/coding-classes-in-north-yorkshire#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-north-yorkshire*

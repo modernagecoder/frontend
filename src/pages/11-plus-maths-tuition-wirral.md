@@ -4,34 +4,28 @@ description: "Live online 11 plus maths for the Wirral grammar school assessment
 canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-wirral
 source: src/pages/11-plus-maths-tuition-wirral.html
 ---
-> Wirral Council says children who want to attend a non-Catholic grammar school on the Wirral must take its assessment, used by Calday Grange Grammar School, West Kirby Grammar School, Wirral Grammar School for Boys and Wirral Grammar School for Girls. Quest Assessments provides two papers of about fifty minutes on the same day: Paper One verbal reasoning, Paper Two mathematics and non-verbal reasoning, all multiple choice from usually five options, with no long written answers. For 2027 entry the assessment was on Tuesday 15 September 2026, with results due on 21 October 2026. For 2028 entry, the council's timetable gives registration from 1 May to 31 May 2027. St Anselm's College and Upton Hall School run their own tests. We teach the maths, live online. Your first lesson is free; afterwards a group place is USD 100 per month and one to one USD 150 per month.
+> Live online 11 plus maths for the Wirral grammar school assessment: Paper Two maths with Quest, the 2028 registration window already set, and Year 5 maths taught.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / 11 plus maths on the Wirral
+In short
 
-Wirral · Grammar school assessment maths · Live online, small groups or one to one
+Wirral Council says children who want to attend a non-Catholic grammar school on the Wirral must take its assessment, used by Calday Grange Grammar School, West Kirby Grammar School, Wirral Grammar School for Boys and Wirral Grammar School for Girls. Quest Assessments provides two papers of about fifty minutes on the same day: Paper One verbal reasoning, Paper Two mathematics and non-verbal reasoning, all multiple choice from usually five options, with no long written answers. For 2027 entry the assessment was on Tuesday 15 September 2026, with results due on 21 October 2026. For 2028 entry, the council's timetable gives registration from 1 May to 31 May 2027. St Anselm's College and Upton Hall School run their own tests. We teach the maths, live online. Your first lesson is free; afterwards a group place is USD 100 per month and one to one USD 150 per month.
 
-# 11 plus maths tuition on the Wirral
-
-Most areas have not yet said when families of children now in Year 5 should register for next year's 11 plus. Wirral Council has. Its admissions timetable already lists the window for September 2028 entry: registrations open on 1 May 2027 and close on 31 May 2027. That leaves this school year for the maths, and Quest Assessments, which provides the test with the four non-Catholic grammar schools, describes where the maths will be: Paper Two, "Mathematics and non-verbal reasoning", about fifty minutes, every question multiple choice from usually five options, and no long written answers. This page sets out what the council and Quest publish, notes the different arrangements at the two Catholic grammar schools, and then teaches one Year 5 topic that fits a short, multiple-choice maths section well: negative numbers.
-
-At a glance: Schools: Calday Grange, West Kirby, Wirral Grammar Boys and Girls; Run by: Wirral Council, with Quest Assessments; Papers: Two, about 50 minutes each, same day; Maths: Paper Two, with non-verbal reasoning; Answers: Multiple choice, usually five options; Long written answers: None; Next registration: 1 to 31 May 2027; We teach: Year 5 maths for Paper Two. Rated 4.9 across 547 Google reviews.
+Wirral starting points
 
 ## Three courses for Paper Two
 
 Choose by how well your child copes with a short maths section followed by a switch to shapes and patterns.
 
-- [Paper Two maths course](/courses/11-plus-maths-preparation-course-uk): Year 5 number, measures, geometry and data, practised as five-option questions.
-- [Quick, secure arithmetic](/courses/mental-maths-mastery-kids): Fast recall so the maths in Paper Two leaves time for everything else.
-- [Core primary maths](/courses/elementary-mathematics-complete-masterclass): For a Year 4 child whose number sense needs strengthening first.
+[![11 Plus Maths Prep course thumbnail](/images/eleven-plus-maths.webp)  WIRRAL / 1 Paper Two maths course Year 5 number, measures, geometry and data, practised as five-option questions. Open the syllabus →](/courses/11-plus-maths-preparation-course-uk)[![Mental Maths for Kids course thumbnail](/images/mental-maths-kids.webp)  WIRRAL / 2 Quick, secure arithmetic Fast recall so the maths in Paper Two leaves time for everything else. Open the syllabus →](/courses/mental-maths-mastery-kids)[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  WIRRAL / 3 Core primary maths For a Year 4 child whose number sense needs strengthening first. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)
+
+The assessment
 
 ## What Wirral Council and Quest publish
 
 Wirral Council runs registration and the assessment for the four non-Catholic grammar schools; Quest Assessments, the provider, publishes the paper structure with them. Read on 26 September 2026.
 
-**The Wirral non-Catholic grammar school assessment for September 2027 entry**
-
 | Step | Date | As published |
-|---|---|---|
+| --- | --- | --- |
 | Registration | 1 May to 31 May 2026 | The council's timetable gives 31 May; its assessment page says registration closed at 12 noon on 1 June 2026. |
 | Venue notice | End of August 2026 | Parents told which test venue their child will attend. |
 | Assessment | Tuesday 15 September 2026 | Two papers taken on the same day. |
@@ -47,14 +41,14 @@ Allocation of places belongs to each school's published policy and the council's
 
 Sources: [Wirral Council, assessment for grammar school education](https://www.wirral.gov.uk/schools-and-learning/school-admissions/step-by-step/apply-secondary-school-place/assessment-grammar) and its secondary admissions timetable; [Quest Assessments, Wirral Consortium 11+ Assessment](https://www.questassessments.com/parent-guidance-consortium/wirral-consortium-11-assessment); St Anselm's College admissions FAQs; Upton Hall School FCJ admission arrangements 2027. Modern Age Coders has no connection with Wirral Council, Quest or any Wirral school.
 
+Already published
+
 ## The 2028 registration window is already set
 
 For children now in Year 5, Wirral Council's timetable gives dates most areas have not yet announced.
 
-**Wirral Council's timetable for secondary admissions in September 2028**
-
 | Date | Step |
-|---|---|
+| --- | --- |
 | 1 May 2027 | Online registrations for the selective assessments open |
 | 31 May 2027 | Deadline for registrations |
 | 1 September 2027 | Literature and application forms available |
@@ -69,18 +63,18 @@ Quest publishes familiarisation booklets with OMR answer sheets, including a mat
 
 Source: Wirral Council, secondary admissions timetable (Admissions to Secondary School in September 2028), read 26 September 2026.
 
+The lesson
+
 ## Negative numbers, counted through zero
 
 The Year 5 curriculum asks children to "interpret negative numbers in context, count forwards and backwards with positive and negative whole numbers, including through zero". Temperature is the classic context.
 
-**A week of night-time lows, invented for teaching (degrees Celsius)**
-
 | Night | Low | Night | Low |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Monday | 3 | Friday | -4 |
 | Tuesday | -1 | Saturday | -2 |
 | Wednesday | -3 | Sunday | 1 |
-| Thursday | 0 |  |  |
+| Thursday | 0 |   |   |
 
 ### Order
 
@@ -103,6 +97,8 @@ On a multiple-choice question, the wrong options are often the answers produced 
 The same number-line picture helps elsewhere in Paper Two maths: sequences that count down past zero, and coordinates, which children meet more fully in Year 6.
 
 Source: [national curriculum in England, mathematics](https://www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study/national-curriculum-in-england-mathematics-programmes-of-study), Year 5 number and place value (statutory requirements). The temperatures are invented; the questions are Modern Age Coders' own.
+
+Paper Two in practice
 
 ## Maths, then shapes: preparing for a shared paper
 
@@ -128,14 +124,14 @@ St Anselm's College's exam, as its FAQ describes it, includes a separate one-hou
 
 Upton Hall School's 2027 test had no maths paper, so this page does not apply to it.
 
+Across the peninsula
+
 ## Four consortium schools, lessons at home
 
 Quest and the council name the four non-Catholic grammar schools that share the assessment. We list them only to make the scope clear.
 
-**The Wirral Consortium schools, as Quest Assessments and Wirral Council name them**
-
 | School | Test |
-|---|---|
+| --- | --- |
 | Calday Grange Grammar School | Wirral assessment |
 | West Kirby Grammar School | Wirral assessment |
 | Wirral Grammar School for Boys | Wirral assessment |
@@ -151,14 +147,14 @@ We teach children across the UK and beyond, and a Wirral pupil may share a class
 
 We have no connection with Wirral Council, Quest Assessments or any of these schools, and we do not advise on applications or places.
 
+Up to May 2027 and beyond
+
 ## Four stages for today's Year 5
 
 Register in May 2027, sit the assessment early in Year 6. Here is how the year before fits together.
 
-**Year 5 maths, secure by the summer**
-
 | When | Stage | You will see |
-|---|---|---|
+| --- | --- | --- |
 | Autumn, Year 5 | 1. Number and place value | Numbers to a million, negatives through zero, rounding |
 | Winter, Year 5 | 2. Operations and fractions | Written and mental methods quick and reliable |
 | Spring, Year 5 (register in May) | 3. Measures, shape, data | The rest of Year 5 as secure as number |
@@ -167,71 +163,321 @@ Register in May 2027, sit the assessment early in Year 6. Here is how the year b
 ### Later start
 
 Starting after registration still leaves the summer. Number first, then timed sets.
+
 We will tell you honestly at the free lesson what is realistic.
 
 ### After October
 
 Negative numbers lead on to algebra and coordinates. Many pupils continue with [maths through coding](/courses/maths-through-coding).
+
 Children who liked the puzzles can look ahead to the Primary and Junior Maths Challenges on our [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar).
+
+Courses
 
 ## Maths and coding for Wirral families
 
 Grouped by stage, each with a full syllabus.
 
+I
+
 ### For the Wirral assessment
 
 Years 3 to 5
 
-- [11 plus maths, Wirral](/courses/11-plus-maths-preparation-course-uk): Year 5 maths for Paper Two.
-- [Mental calculation for children](/courses/mental-maths-mastery-kids): Speed and accuracy without a calculator.
-- [Years 1 to 5 maths](/courses/elementary-mathematics-complete-masterclass): Foundations before exam work.
-- [Abacus maths](/courses/abacus-mental-maths-course-for-kids): A physical route to number sense.
+WRM / 01
+
+#### 11 plus maths, Wirral
+
+Year 5 maths for Paper Two.
+
+[Open the syllabus](/courses/11-plus-maths-preparation-course-uk)
+
+WRM / 02
+
+#### Mental calculation for children
+
+Speed and accuracy without a calculator.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+WRM / 03
+
+#### Years 1 to 5 maths
+
+Foundations before exam work.
+
+[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
+
+WRM / 04
+
+#### Abacus maths
+
+A physical route to number sense.
+
+[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)II
 
 ### Secondary
 
 From Year 6
 
-- [Key Stage 3 maths](/courses/comprehensive-middle-school-mathematics-mastery): Negatives, algebra and graphs.
-- [GCSE maths, every board](/courses/gcse-mathematics-mastery): Foundation and higher.
-- [Olympiad-style maths](/courses/olympiad-competition-mathematics-mastery): Challenging problems for enthusiasts.
+WRM / 05
+
+#### Key Stage 3 maths
+
+Negatives, algebra and graphs.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+
+WRM / 06
+
+#### GCSE maths, every board
+
+Foundation and higher.
+
+[Open the syllabus](/courses/gcse-mathematics-mastery)
+
+WRM / 07
+
+#### Olympiad-style maths
+
+Challenging problems for enthusiasts.
+
+[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)III
 
 ### Coding
 
 Numbers that run
 
-- [Maths through coding](/courses/maths-through-coding): Plot temperatures below zero in Python.
-- [Scratch coding](/courses/scratch-programming-complete-course): First programs, block by block.
-- [Junior Python and AI](/courses/python-ai-kids-masterclass): Typed code for ready children.
+WRM / 08
+
+#### Maths through coding
+
+Plot temperatures below zero in Python.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+WRM / 09
+
+#### Scratch coding
+
+First programs, block by block.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)
+
+WRM / 10
+
+#### Junior Python and AI
+
+Typed code for ready children.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)IV
 
 ### Later
 
 Teenagers
 
-- [Vedic speed calculation](/courses/vedic-maths-course-speed-calculation-mastery): Faster methods on firm ground.
-- [Machine learning for teens](/courses/ai-ml-masterclass-teens): Data and models, a few years on.
+WRM / 11
+
+#### Vedic speed calculation
+
+Faster methods on firm ground.
+
+[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
+
+WRM / 12
+
+#### Machine learning for teens
+
+Data and models, a few years on.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+Lesson hours
 
 ## Early evenings and weekends, UK time
 
 Teaching happens live from India. For ten-year-olds on the Wirral that means after-school or Saturday and Sunday morning slots, fixed in UK time, with any clock-change shuffling done by us.
 
-- **Weekday evenings, early** Soon after school.
-- **Weekend mornings** When children are fresh.
-- **Holidays** Short extra sessions.
+Weekday evenings, early
 
-- **One teacher** The same person every week.
-- **Honest notes** Brief, frank updates for parents.
-- **Fifteen to twenty per group** Matched by level.
-- **Our own questions** Nothing copied from Quest material.
-- **One to one** For a particular gap.
-- **Maths only** No reasoning coaching, no admissions advice.
+Soon after school.
+
+Weekend mornings
+
+When children are fresh.
+
+Holidays
+
+Short extra sessions.
+
+### One teacher
+
+The same person every week.
+
+### Honest notes
+
+Brief, frank updates for parents.
+
+### Fifteen to twenty per group
+
+Matched by level.
+
+### Our own questions
+
+Nothing copied from Quest material.
+
+### One to one
+
+For a particular gap.
+
+### Maths only
+
+No reasoning coaching, no admissions advice.
+
+Student work
+
+## From the number line to real projects
+
+Four things our students have built and published; each started, years earlier, with arithmetic like Paper Two's. The [student labs](/student-labs) page has more.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 A single US dollar price each month for families outside India. No sign-up fee; stop when you like.
 
-- Free first class: USD 0. A lesson that teaches. An honest verdict. No card required.
-- Group batch: USD 100 a month. Fifteen to twenty children, one level. A regular teacher. Work checked together. A certificate at the end.
-- One to one: USD 150 a month. A teacher for one child. Targeted at gaps. Handy in the summer before.
+Free first class
+
+USD 0
+
+no card required
+
+- A lesson that teaches
+- An honest verdict
+- No card required
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty children, one level
+- A regular teacher
+- Work checked together
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one child
+- Targeted at gaps
+- Handy in the summer before
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Parents' Google reviews, quoted as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Wirral questions
 
 ## What Wirral families ask us
 
@@ -275,15 +521,54 @@ No. We write our own questions and do not reproduce familiarisation material.
 
 There is no charge for lesson one. After that, USD 100 per month buys a group place and USD 150 per month one to one tuition.
 
+Related
+
 ## More for Merseyside and Cheshire families
 
-- [Coding classes in Liverpool](/best-coding-class-in-liverpool): Programming for children across the Mersey.
-- [11 plus maths in Trafford](/11-plus-maths-tuition-trafford): Greater Manchester's consortium test.
-- [11 plus maths tuition](/11-plus-maths-tuition): The broad picture of 11 plus maths.
-- [Coding for UK children](/online-coding-classes-for-kids-uk): Where primary pupils begin.
-- [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar): Maths challenges, dated.
-- [All our UK pages](/coding-classes-in-united-kingdom): Every UK area.
+Coding in Liverpool, our national 11 plus page, and another north-west selective area.
 
-## Contact
+### [Coding classes in Liverpool](/best-coding-class-in-liverpool)
 
-Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-wirral](https://learn.modernagecoders.com/11-plus-maths-tuition-wirral#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Programming for children across the Mersey.
+
+### [11 plus maths in Trafford](/11-plus-maths-tuition-trafford)
+
+Greater Manchester's consortium test.
+
+### [11 plus maths tuition](/11-plus-maths-tuition)
+
+The broad picture of 11 plus maths.
+
+### [Coding for UK children](/online-coding-classes-for-kids-uk)
+
+Where primary pupils begin.
+
+### [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar)
+
+Maths challenges, dated.
+
+### [All our UK pages](/coding-classes-in-united-kingdom)
+
+Every UK area.
+
+Start here
+
+## Ask for a free lesson
+
+Give us the school year and a line on maths at home. The trial is a genuine lesson, followed by our candid view of where your child stands.
+
+Browsing first? Our [courses](/courses) each have a syllabus, [how we teach](/how-we-teach) describes the lessons, and the [roadmap](/coding-roadmap) shows what follows.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20my%20child%20for%20the%20Wirral%2011%20plus.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+A WhatsApp message tends to get the swiftest answer. Our staff and phone line are in India; there is no office on Merseyside or elsewhere in Britain.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-wirral*

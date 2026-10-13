@@ -24,6 +24,8 @@ How we teach
 
 Adults don't need to relearn everything, only the pieces that matter for what you're trying to do.
 
+Resitting GCSE maths? Read [GCSE maths resits explained](/gcse-maths-resit-explained) for the rules and the November series.
+
 ### Start with your why
 
 A GCSE resit, Functional Skills, a work skill or simple confidence. We shape the whole plan around the outcome you actually want.

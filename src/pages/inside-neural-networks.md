@@ -138,7 +138,7 @@ Modern Age Coders cohorts · for every age
 
 A neural networks paper is not the same as training a neural network. Below are the live MAC cohorts, at every age, where students implement perceptrons, train classifiers, build CNNs and write tiny transformers under mentor supervision.
 
-### For *kids*, age 8–12
+### For *kids*, age 6–12
 
 Junior · weekly live[Ages 8–12 · Python + AI Python & AI Kids *Masterclass* The kid-paced foundation. Build first AI projects. The neuron and gradient descent introduced gently. 2 classes/week₹1,499/mo](/courses/python-ai-kids-masterclass)[Ages 8–11 · Thinking Computational *Thinking + AI* The skill that comes before the model. Pattern recognition, decomposition, the algorithmic mind. 2 classes/week₹1,499/mo](/courses/computational-thinking-ai-kids)[Ages 8–13 · AI & Thinking Computational Thinking *& AI* Use real AI tools, then look under the hood at what is actually happening. Curiosity-led. 2 classes/week₹1,499/mo](/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8)
 

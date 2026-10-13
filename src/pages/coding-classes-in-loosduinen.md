@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes in Loosduinen, The Hague
 canonical: https://learn.modernagecoders.com/coding-classes-in-loosduinen
 source: src/pages/coding-classes-in-loosduinen.html
 ---
-> Coding classes in Loosduinen reach the west of The Hague, four wijken, all read for this page. Waldeck has 17,950 residents, 9,690 households and 10,020 dwellings, every one of those enumerated from a register. It also has an average WOZ value of 308,000 euro, which was not enumerated from anything: it is an estimate made by municipal assessors from sale prices of comparable homes, referenced to a date a year before the tax year. All four figures print the same way. Modern Age Coders teaches live online in English from the Componistenbuurt to Ockenburgh, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
+> Live online coding, Python and AI classes in Loosduinen, The Hague, for ages 6 to 67, from Houtwijk and Waldeck to Kijkduin. The first lesson is free.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / [The Hague](/coding-classes-in-the-hague) / Loosduinen
-
-Loosduinen, Den Haag / Live online
-
-# Coding classes in Loosduinen, where one column of the table was counted and one was estimated and they look identical
-
-**What are the best coding classes in Loosduinen?** Coding classes in Loosduinen reach the west of The Hague, four wijken, all read for this page. Waldeck has 17,950 residents, 9,690 households and 10,020 dwellings, every one of those enumerated from a register. It also has an average WOZ value of 308,000 euro, which was not enumerated from anything: it is an estimate made by municipal assessors from sale prices of comparable homes, referenced to a date a year before the tax year. All four figures print the same way. Modern Age Coders teaches live online in English from the Componistenbuurt to Ockenburgh, ages 6 to 67, first lesson free, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
-
-This series has now printed an average WOZ value on sixty-nine pages, always in the same sentence as a population and always in the same shape. The population was counted. The WOZ was modelled: an official estimates what a dwelling would fetch, working from what comparable dwellings nearby actually sold for, and the estimate is pinned to a valuation date one year before the tax year it governs. It is a good estimate and it is used for real things, from municipal tax to mortgage collateral. It is still not the same kind of object as a headcount, and no table anywhere in this cluster has ever said so.
-
-Facts last verified 10 September 2026. Teaching is online; no Loosduinen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Loosduinen
 
 ## Four courses for the western edge
 
 A groep 6 child in Houtwijk who has never been asked where a number on a screen came from, a teenager in Nieuw Waldeck with a game that lives entirely in a notebook, a student in Vroondaal whose program fills a missing value and forgets it did, and an adult in Kijkduin reading a report in which every figure looks equally solid. Four ways in, and the first hour of each is free.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Typed Python, where a child sees the difference between a number the program was given and a number the program worked out.
-- [App Development for Teens](/courses/complete-app-development-masterclass-for-teens) (Ages 13 to 18): A real application built from nothing to something installable, for the teenager whose version so far is a notebook full of screens.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Python that runs unattended, where an imputed value written into a table becomes a fact for everybody downstream.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): Asking of every figure how it was produced, for anybody who signs off numbers other people will act on.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsTyped Python, where a child sees the difference between a number the program was given and a number the program worked out.See the syllabus](/courses/python-ai-kids-masterclass)[![App Development for Teens course thumbnail](/images/app-dev-teens.webp)Ages 13 to 18App Development for TeensA real application built from nothing to something installable, for the teenager whose version so far is a notebook full of screens.See the syllabus](/courses/complete-app-development-masterclass-for-teens)[![Python Automation Course course thumbnail](/images/python-college.webp)College and adultPython Automation CoursePython that runs unattended, where an imputed value written into a table becomes a fact for everybody downstream.See the syllabus](/courses/python-ai-automation-masterclass-college)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)Asking of every figure how it was produced, for anybody who signs off numbers other people will act on.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Loosduinen today
 
 ## Four wijken, from the old village to the dunes
 
@@ -52,16 +40,18 @@ Over-sixty-fives are 26 percent in Loosduinen, 32 percent in Waldeck, where 5,74
 
 Waldeck has 9,690 households averaging 1.8 people, 5,160 of them a single person, 53 percent, in a stock of 10,020 dwellings. Loosduinen has 8,535 averaging 2.0 with 3,615 single. Kraayenstein en Vroondaal has 4,140 averaging 2.5, the largest here, with 4,109 dwellings. Kijkduin en Ockenburgh has 1,870 averaging 1.9.
 
-**What the WOZ figure actually is** It is the estimated market value of a dwelling, set each year by municipal assessors in a formal written decision. For homes it is worked out by comparing sale prices of similar dwellings nearby and adjusting for the characteristics of the particular house. Its valuation date, the waardepeildatum, is fixed one year before the tax year it applies to, so a value labelled 2025 describes conditions at the start of 2024. It approximates market value without being identical to any actual transaction, and it is used for municipal property tax, water board levies, income tax, inheritance tax and increasingly by banks as evidence of mortgage collateral. All of that is worth knowing before treating it as a fact about houses.
+What the WOZ figure actually is
+
+It is the estimated market value of a dwelling, set each year by municipal assessors in a formal written decision. For homes it is worked out by comparing sale prices of similar dwellings nearby and adjusting for the characteristics of the particular house. Its valuation date, the waardepeildatum, is fixed one year before the tax year it applies to, so a value labelled 2025 describes conditions at the start of 2024. It approximates market value without being identical to any actual transaction, and it is used for municipal property tax, water board levies, income tax, inheritance tax and increasingly by banks as evidence of mortgage collateral. All of that is worth knowing before treating it as a fact about houses.
+
+Where the learners are
 
 ## One wijk, five figures, two entirely different kinds of number
 
 Every figure below is published for Wijk 18 Waldeck, and every one of them prints the same way. They were not produced the same way.
 
-**How each Waldeck figure was made**
-
 | The published figure | How it was produced | The date it describes | What kind of thing it is |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 17,950 residents | enumerated from the population register | 1 January 2026 | a count |
 | 9,690 households | enumerated from the register | 2025 | a count |
 | 10,020 dwellings | enumerated from the housing register | 2025 | a count |
@@ -69,6 +59,8 @@ Every figure below is published for Wijk 18 Waldeck, and every one of them print
 | 308,000 euro average WOZ | estimated by assessors from comparable sales | a date one year before the tax year | an estimate |
 
 Four of those are records of things that happened, assembled by counting. The fifth is somebody skilled making a judgement about what a house would fetch if it were sold, which it was not. That is a legitimate and carefully produced number, and it is not the same kind of claim as 17,950. The reason this matters is visible in the table itself: nothing in the layout, the formatting, the precision or the placement distinguishes the fifth row from the other four, and by the time any of them reaches a page like this one, all trace of how it was made has been stripped off.
+
+Verified local facts
 
 ## Four wijken in full, with the counted and the estimated marked apart
 
@@ -100,6 +92,8 @@ Nothing was calculated. No wijk was averaged into a stadsdeel, no figure recompu
 
 Modern Age Coders has no connection to Loosduinen, to any of its four wijken, to The Hague or to any school counted above, and nothing here suggests one. Each wijk row was taken from its own statistics office page at that office own vintages: residents and ages January 2026, households and housing 2025, income 2024. The description of what the WOZ value is comes from the published account of the law that creates it, and every WOZ figure on this page is labelled as an estimate for that reason.
 
+Signature project
+
 ## The table has no column for how you know
 
 A figure everybody quotes, a process nobody looks up, and the reason a stored estimate stops being an estimate.
@@ -116,10 +110,8 @@ A database column holds 308000. It does not hold the fact that an assessor produ
 
 A second column, a suffix, a naming convention, anything. The discipline is that a derived value should be impossible to mistake for an observed one at a glance, because the person who reads it next will not have the context you have now, and quite often that person is you.
 
-**An estimate that stopped looking like one, in five other places**
-
 | The stored value | How it was really made | How it reads downstream | What it costs |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | A column named price | a model predicted it | what the thing costs | forecasts trained on forecasts |
 | Latitude and longitude | geocoded from a text address | a surveyed position | distances computed to the metre |
 | An age field | inferred from a first name | something the user told you | a segment built on a guess |
@@ -130,14 +122,14 @@ A second column, a suffix, a naming convention, anything. The discipline is that
 
 This page has an awkward admission to make, and it is the most useful thing on it. Sixty-nine pages in this series have printed an average WOZ value, always beside a population count, always in the same sentence shape, and not one of them has ever indicated that the first was enumerated and the second estimated. Nobody was careless. The figures arrived in one table, formatted alike, and the difference between them lives in a law that you have to go and read, not in the number. That is exactly the mechanism, and it is worth seeing at work on yourself rather than only in the abstract, because in software the same thing happens continuously and much faster. A model produces a number and it is written to a column. The column has a type, and the type is decimal, and there is no type for probably. Six months later somebody joins that column to a table of real observations and computes an average, and the average is now part estimate and part measurement in an unrecorded proportion, and it goes into a report, and somebody acts on it. No step in that chain was wrong. The provenance was simply not one of the things the system was built to carry, so it fell off at the first write, and every reader after that inherits a number stripped of the only fact that would have told them how much weight it bears. The fix is unglamorous and cheap: name the column so the guess is visible, keep the method beside the value, and when you publish, say which of your figures were counted. It takes a sentence. It is the difference between a table somebody can audit and a table somebody has to trust.
 
+Reliable pipeline
+
 ## Five habits for a number whose origins fell off
 
 A forecast, an imputed blank, a geocoded point, a scraped figure, a model score written back to the source table: every one of them is a claim about the world that arrives shaped like a fact. Practised on a valuation that seventy pages have quoted as a price.
 
-**Recovering provenance and keeping it**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Classify the origin | Sort every figure into counted, measured, estimated or imputed | Four kinds of claim in one column | A map of what you actually know |
 | Find the reference date | Ask what moment the figure describes, not when it was published | A label read as a date | The real timeline |
 | Name it visibly | Put the method in the column name or beside it | Provenance lost at the first write | A value that explains itself |
@@ -158,14 +150,37 @@ A figure from work traced back to its origin. Adults very often find a number th
 
 The four wijken were read one page each from the statistics office at that office own vintages: residents and ages January 2026, households and housing 2025, income 2024. Every average dwelling value quoted here is labelled an estimate because the published account of the Wet waardering onroerende zaken describes it as one, set by municipal assessors from sale prices of comparable dwellings, with a valuation date one year ahead of the tax year. The stadsdeel figure of 51,395 residents for 2022 comes from the Hague city page in this series. Nothing on this page was calculated.
 
+Learning ladder
+
 ## From guessing against counting to an aggregate that mixes both
 
 The rung is decided in the free hour by what the learner can do when given something real. Neither the wijk nor the age has any bearing on it.
 
-- **Ages 6 to 10: Counted or guessed** Children put two numbers on the board and later try to tell them apart. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Game Development for Kids](/courses/game-development-masterclass-for-kids)
-- **Ages 11 to 13: Where did this number come from** Learners ask it of every value before using any of them. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Storage that remembers** Teenagers redesign a table so a program can tell an estimate from an observation. [App Development for Teens](/courses/complete-app-development-masterclass-for-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Three systems from a measurement** Adults trace a real figure back and find where the provenance fell off. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Counted or guessed
+
+Children put two numbers on the board and later try to tell them apart.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Game Development for Kids](/courses/game-development-masterclass-for-kids)Ages 11 to 13
+
+### Where did this number come from
+
+Learners ask it of every value before using any of them.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Storage that remembers
+
+Teenagers redesign a table so a program can tell an estimate from an observation.
+
+[App Development for Teens](/courses/complete-app-development-masterclass-for-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Three systems from a measurement
+
+Adults trace a real figure back and find where the provenance fell off.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
 
 ## An AI will tell you houses in Kijkduin are worth 670,000 euro. Why should a teenager in Waldeck ask who worked that out?
 
@@ -177,30 +192,139 @@ So the learner practises asking how a number was made before asking what it mean
 
 The case for a child in Loosduinen learning to code in 2026 is therefore not about property. It is that a program forces you to decide what kind of thing each value is and where it will be stored, and that decision is where most of the honesty in any system either gets built in or gets lost. The longer argument is in [why a child should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes across the west of the city
 
 Loosduinen runs from the old village out to the dunes at Kijkduin and Ockenburgh, and the western wijken are a long way from anything central by tram, which matters more in January than it does when a family first signs up.
 
-- **The far side of the city, and no journey** From Kijkduin or Nieuw Waldeck an evening class in the middle of town is two long tram rides in the dark. Taking the journey out of the arrangement is what makes a weekly commitment survive the winter rather than quietly lapse.
-- **The four words that stay Dutch** Groep, havo, vwo, profielkeuze. English carries the rest of the hour. A child should hear the name of their own school year in the form they read it in, not in a translation they have to convert back.
-- **Free, and actually a lesson** A task, a teacher watching the working rather than the result, and three things fixed by the end: the level, the course, the weekly hour. Nothing is charged and no card details are requested at any stage.
-- **Grouped by stage, gathered from anywhere** Fifteen to twenty learners at one level. A stadsdeel of fifty thousand will not reliably hold five people at one narrow stage in one month, so the pool is worldwide, which is the reason a class exists to join instead of a list to wait on.
-- **Two a week, holidays already in it** Roughly eight lessons a month at a fixed hour. Zuid-Holland follows the regio Midden holiday calendar, published years ahead, so the weeks off are part of the schedule from the first conversation.
-- **Three and a half hours, or four and a half** The teacher is in India, which has kept one clock for decades, so both changes each year happen on the Dutch side. Neither setting removes an hour a family here would have used anyway.
+### The far side of the city, and no journey
 
-**The oldest stadsdeel in the series, and one wijk that is not** Over-sixty-fives are 26 percent in Loosduinen, 32 in Waldeck and 32 in Kijkduin en Ockenburgh, the highest shares in any Hague stadsdeel this series has read. Kraayenstein en Vroondaal runs against all of it at 13 percent, with 2,435 residents under fifteen, 23 percent of the wijk. Neither the high shares nor the low one settles the question that actually decides whether a class can run, which is how many people sit at one precise stage of one precise subject during one precise month. That figure is small everywhere and having more children within a kilometre does not raise it. Hence a worldwide pool, sorted by stage, spanning ages 6 to 67.
+From Kijkduin or Nieuw Waldeck an evening class in the middle of town is two long tram rides in the dark. Taking the journey out of the arrangement is what makes a weekly commitment survive the winter rather than quietly lapse.
+
+### The four words that stay Dutch
+
+Groep, havo, vwo, profielkeuze. English carries the rest of the hour. A child should hear the name of their own school year in the form they read it in, not in a translation they have to convert back.
+
+### Free, and actually a lesson
+
+A task, a teacher watching the working rather than the result, and three things fixed by the end: the level, the course, the weekly hour. Nothing is charged and no card details are requested at any stage.
+
+### Grouped by stage, gathered from anywhere
+
+Fifteen to twenty learners at one level. A stadsdeel of fifty thousand will not reliably hold five people at one narrow stage in one month, so the pool is worldwide, which is the reason a class exists to join instead of a list to wait on.
+
+### Two a week, holidays already in it
+
+Roughly eight lessons a month at a fixed hour. Zuid-Holland follows the regio Midden holiday calendar, published years ahead, so the weeks off are part of the schedule from the first conversation.
+
+### Three and a half hours, or four and a half
+
+The teacher is in India, which has kept one clock for decades, so both changes each year happen on the Dutch side. Neither setting removes an hour a family here would have used anyway.
+
+The oldest stadsdeel in the series, and one wijk that is not
+
+Over-sixty-fives are 26 percent in Loosduinen, 32 in Waldeck and 32 in Kijkduin en Ockenburgh, the highest shares in any Hague stadsdeel this series has read. Kraayenstein en Vroondaal runs against all of it at 13 percent, with 2,435 residents under fifteen, 23 percent of the wijk. Neither the high shares nor the low one settles the question that actually decides whether a class can run, which is how many people sit at one precise stage of one precise subject during one precise month. That figure is small everywhere and having more children within a kilometre does not raise it. Hence a worldwide pool, sorted by stage, spanning ages 6 to 67.
+
+Fees
 
 ## The fee, in dollars, in all four wijken
 
 Below, in full, because a price a family has to ask for is a price that has something wrong with it.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 Dollars, one rate, worldwide, and no separate euro price list, which means Rosenburg and Kijkduin see the same figure. Nothing is paid until the free lesson has produced a course and an hour, and payment is arranged over WhatsApp afterwards. Pausing, switching plan and missing a week are all written out on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Loosduinen.)Reviews
+
+## Six Google reviews, exactly as the people who left them wrote them
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Send the level, not the wijk
+
+The first task might be two numbers on a board, one counted and one guessed, to be told apart an hour later; a table redesigned so a program can tell an estimate from an observation; or a figure at work traced back until the provenance runs out.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Loosduinen one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Loosduinen.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Loosduinen coding class questions
+
+The stadsdeel, its four wijken, one number that is not what it looks like, the teaching and the terms.
 
 ### Which neighbourhoods make up Loosduinen?
 
@@ -242,10 +366,14 @@ The first lesson is free. After it, group tuition is USD 100 a month for two liv
 
 Fifteen to twenty, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
+Explore The Hague and beyond
+
 ## East into the city, south into the greenhouses
 
 East are [Escamp](/coding-classes-in-escamp), which counts school buildings and then explains why the count was beside the point, and [Den Haag Centrum](/coding-classes-in-the-hague-centrum), which declines to grade a household figure. North along the coast is [Scheveningen](/coding-classes-in-scheveningen), and inland [Haagse Hout](/coding-classes-in-haagse-hout), [Laak](/coding-classes-in-laak) and [Leidschenveen-Ypenburg](/coding-classes-in-leidschenveen-ypenburg). The city page, [coding classes in The Hague](/coding-classes-in-the-hague), holds all eight stadsdelen together. South across the boundary are the greenhouses of the [Westland](/coding-classes-in-westland), and the whole of it sits in [Zuid-Holland](/coding-classes-in-zuid-holland). Two doors lead somewhere else entirely: [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) and the [AI and Python Academy](/ai-and-python-academy-netherlands), both for people who want to train a model rather than write a program. The [Netherlands coding hub](/coding-classes-in-netherlands) sits above all of it.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Finish this on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Loosduinen.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-loosduinen](https://learn.modernagecoders.com/coding-classes-in-loosduinen#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-loosduinen*

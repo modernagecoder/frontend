@@ -12,7 +12,7 @@ For parents of Class 8 students · Age 13
 
 Class 8 is the turning point. Old enough for OOP, React and deployed apps; young enough that board exams are still a year away. Our 1 hour live classes make this year count, by Class 9, your child walks in ready.
 
-[Book a free demo class](/book-demo)See the curriculum**5,400+**Class 8 teens in our classes**4.9 / 5**Parent rating · 620+ reviews**1 hour**Per live class, 1:1 or group**12 weeks**To first deployed full-stack project8Class · GradeOOP fluentGitHub activeFirst full-stackCourses matched for this level
+[Book a free demo class](/book-demo)See the curriculum**10,000+**Students taught live since 2020**4.9 / 5**Rated across 547 Google reviews**1 hour**Per live class, 1:1 or group**12 weeks**To first deployed full-stack project8Class · GradeOOP fluentGitHub activeFirst full-stackCourses matched for this level
 
 ## Class 8: pick a real track.
 
@@ -156,9 +156,9 @@ One teacher, one learner, the full 1 hour. The teacher adapts pace in real time,
 
 **₹4,999**/ month · 4 sessionsOption B
 
-### Live Small-Group Online Class
+### Live Group Online Class
 
-4 to 6 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
+15 to 20 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
 
 - Small groups of 4 to 6 similar-level learners
 - 1 hour live session, 2 sessions per week

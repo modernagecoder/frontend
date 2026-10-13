@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes in Alphen aan den Rijn f
 canonical: https://learn.modernagecoders.com/coding-classes-in-alphen-aan-den-rijn
 source: src/pages/coding-classes-in-alphen-aan-den-rijn.html
 ---
-> Coding classes in Alphen aan den Rijn serve 117,284 people (Statistics Netherlands, 1 January 2026) across eight places on the Oude Rijn, in a municipality that took its present shape on 1 January 2014. One page of the national statistics site carries two tables about students in this municipality. In one, the vocational figure is 1,648 and the higher-education figures are zero. In the other, the vocational figure is 3,110 and the higher-education figures are 2,470 and 1,110. Neither table says which population it counts. Modern Age Coders teaches live online in English to all eight places, ages 6 to 67, free first lesson, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
+> Live online coding, Python and AI classes in Alphen aan den Rijn for ages 6 to 67, in Boskoop, Hazerswoude, Benthuizen and Koudekerk. First lesson free.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Alphen aan den Rijn
-
-Alphen aan den Rijn, Zuid-Holland / Live online
-
-# Coding classes in Alphen aan den Rijn, where one page counts the same students twice and gets two answers
-
-**What are the best coding classes in Alphen aan den Rijn?** Coding classes in Alphen aan den Rijn serve 117,284 people (Statistics Netherlands, 1 January 2026) across eight places on the Oude Rijn, in a municipality that took its present shape on 1 January 2014. One page of the national statistics site carries two tables about students in this municipality. In one, the vocational figure is 1,648 and the higher-education figures are zero. In the other, the vocational figure is 3,110 and the higher-education figures are 2,470 and 1,110. Neither table says which population it counts. Modern Age Coders teaches live online in English to all eight places, ages 6 to 67, free first lesson, then USD 100 monthly in a group of fifteen to twenty or USD 150 one to one.
-
-Two tables sit on the same page about the same municipality. One reports 1,648 vocational students; the other reports 3,110. The pair looks like an error until you read across: the first table also reports zero students in applied higher education, and the second reports 2,470. A municipality does not have zero and 2,470 of the same thing, so the two tables must be counting different populations, one of them students at institutions here and the other residents studying anywhere. Neither table says so. Working that out from the numbers is a real skill, and it is not taught anywhere.
-
-Facts last verified 8 September 2026. Teaching is online; no Alphen aan den Rijn branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Alphen aan den Rijn
 
 ## Four courses for a town, a nursery village and six smaller places
 
 A groep 5 child in Hazerswoude-Dorp, a teenager in Boskoop who wants the database rather than the spreadsheet, an adult in Koudekerk retraining, and a parent in Benthuizen whose two reports never agree: four doors along one river.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Typed Python, turtle drawings and a first program that learns a rule, in English, for the groep 5 to 8 child in Zwammerdam or Aarlanderveen.
-- [MySQL for Teens](/courses/mysql-mastery-for-teens) (Ages 13 to 17): SQL from a first query to real applications, for the teenager who wants to know why two queries over one dataset can disagree.
-- [MySQL Course](/courses/mysql-database-complete-masterclass-college) (College and adult): Design, keys and administration done properly, for the student or working adult who inherits tables nobody documented.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (Adults): Excel, SQL, Python and BI, for the working parent whose dashboard shows two different numbers for one metric.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsTyped Python, turtle drawings and a first program that learns a rule, in English, for the groep 5 to 8 child in Zwammerdam or Aarlanderveen.See the syllabus](/courses/python-ai-kids-masterclass)[![MySQL for Teens course thumbnail](/images/mysql-teens.webp)Ages 13 to 17MySQL for TeensSQL from a first query to real applications, for the teenager who wants to know why two queries over one dataset can disagree.See the syllabus](/courses/mysql-mastery-for-teens)[![MySQL Course course thumbnail](/images/database-college.webp)College and adultMySQL CourseDesign, keys and administration done properly, for the student or working adult who inherits tables nobody documented.See the syllabus](/courses/mysql-database-complete-masterclass-college)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)AdultsData Analysis CourseExcel, SQL, Python and BI, for the working parent whose dashboard shows two different numbers for one metric.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Alphen aan den Rijn today
 
 ## Eight places along the Oude Rijn, assembled in 2014
 
@@ -52,7 +40,11 @@ The national register held 117,284 people on 1 January 2026, in 51,011 household
 
 The present municipality dates from 1 January 2014, when Boskoop and Rijnwoude joined the existing Alphen aan den Rijn. Boskoop had been independent until that morning, and it is still a name people use for a place rather than a district.
 
-**Nurseries, an apple and the first bird park** Boskoop is nursery country: about 770 nurseries spread over some 1,100 hectares, an industry that expanded from the fifteenth to the seventeenth century and began exporting in the late nineteenth, with Germany as its first buyer. The Boskoop apple is described as the best-selling apple variety in Europe, which this page quotes as a description rather than a measurement. Avifauna opened in 1950 and is called the first bird park in the world.
+Nurseries, an apple and the first bird park
+
+Boskoop is nursery country: about 770 nurseries spread over some 1,100 hectares, an industry that expanded from the fifteenth to the seventeenth century and began exporting in the late nineteenth, with Germany as its first buyer. The Boskoop apple is described as the best-selling apple variety in Europe, which this page quotes as a description rather than a measurement. Avifauna opened in 1950 and is called the first bird park in the world.
+
+Where the learners are
 
 ## Eight places, one town and seven villages
 
@@ -84,6 +76,8 @@ The two smallest in 2023, east and north of the town, where no after-school club
 
 All eight places get the same class at the same hour and the same fee, and the group a learner joins depends on what they can already do.
 
+Verified local facts
+
 ## Every figure and its source, including the two tables that disagree
 
 The national count, both of its student tables, the municipal entry, the merger, and Boskoop.
@@ -114,6 +108,8 @@ About 770 nurseries spread over an area of some 1,100 hectares; the industry exp
 
 Modern Age Coders has no connection to the municipality, Avifauna, any nursery or any school named here and claims none. The reading of what the two student tables count is this page's inference from their values and is presented as an inference.
 
+Signature project
+
 ## One page, two tables, six numbers: build the reasoning that works out what each column means
 
 Three labels, two values each, no documentation anywhere, and one row that gives the whole thing away.
@@ -130,10 +126,8 @@ A municipality of 117,284 people does not contain zero residents in applied high
 
 One table appears to count students at institutions inside the municipality; the other appears to count residents enrolled anywhere. On that reading 1,648 study here and 3,110 live here and study somewhere, and the ratio between them, about 1.9, is a statement about commuting rather than about enrolment. The page marks this as an inference, because neither table says it.
 
-**Six published figures, two tables, one page**
-
 | Level | Education section | Topics table | Can both be about one population? |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Vocational | 1,648 | 3,110 | no, they differ by 1,462 |
 | Applied higher education | 0 | 2,470 | no, and this row is the giveaway |
 | University | 0 | 1,110 | no, for the same reason |
@@ -143,14 +137,14 @@ One table appears to count students at institutions inside the municipality; the
 
 This is the most ordinary failure in data work and it never announces itself: two views of what looks like one metric, built at different times by different people for different purposes, sitting on one page or in one dashboard, sharing a name and measuring different populations. Nobody is careless; the label was accurate in each place when it was written, and only the pairing is misleading. The technique for unpicking it is worth practising, because it is almost always available: find the row where the two versions are not merely different but impossible together, and use that row to work out what each column must actually be counting. Then write the answer into a note, because the next person will not do this again. The six values above are quoted from one page of one source, and the interpretation is labelled throughout as an inference from them rather than as a statement by it.
 
+Reliable pipeline
+
 ## Five habits for two numbers that should be one
 
 Two dashboard tiles with different revenue, a report that disagrees with the system it was built from, a headcount that changes between slides: the numbers are usually both right and about different things. Practised on one page about this municipality.
 
-**When one metric has two values**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Tabulate them together | Put the competing values side by side before reasoning | A pattern invisible in the original layout | Something to look at |
 | Find the impossible row | Look for a pair that cannot both describe one population | Endless argument about which is right | A key to the whole difference |
 | Name each population | State in words who each column counts | A metric with no definition | Two numbers you can both use |
@@ -171,14 +165,37 @@ The same routine on two reports at work that disagree. Adults nearly always find
 
 The population, household, area, school, nursery and Avifauna figures come from the offices and entries named beside them. The six student figures are quoted from two tables on a single page of one source, and the reading of what each table counts is an inference from those values, labelled as such wherever it appears.
 
+Learning ladder
+
 ## From two counts of one class to a column with its definition attached
 
 The starting rung comes out of the free hour, and which of the eight places a learner lives in is not part of it.
 
-- **Ages 6 to 10: In the room, or on the register** Children find two right answers to one question and work out why they differ. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 11 to 13: Same name, different thing** Learners compare two tables and say in words what each one counts. [Maths Through Coding](/courses/maths-through-coding), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 14 to 18: The impossible row** Teenagers write the check that finds pairs which cannot describe one population. [MySQL for Teens](/courses/mysql-mastery-for-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Two reports, one metric** Adults reconcile two disagreeing reports by defining rather than by arguing. [MySQL Course](/courses/mysql-database-complete-masterclass-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### In the room, or on the register
+
+Children find two right answers to one question and work out why they differ.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 11 to 13
+
+### Same name, different thing
+
+Learners compare two tables and say in words what each one counts.
+
+[Maths Through Coding](/courses/maths-through-coding)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 14 to 18
+
+### The impossible row
+
+Teenagers write the check that finds pairs which cannot describe one population.
+
+[MySQL for Teens](/courses/mysql-mastery-for-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Two reports, one metric
+
+Adults reconcile two disagreeing reports by defining rather than by arguing.
+
+[MySQL Course](/courses/mysql-database-complete-masterclass-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## An AI will read you whichever student figure it found first. Why should a child here learn to look for the second one?
 
@@ -190,30 +207,139 @@ So the learner builds the grid and hunts for the impossible row. This is genuine
 
 The case for a child here learning to code in 2026 is therefore not about education statistics. It is that most numbers in working life arrive without definitions, that the definitions can usually be recovered by reasoning rather than by asking, and that the clearest possible example sits on one page of a public website about the town they live in. The longer argument is in [the argument for a child writing code in an age of AI](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for a town and seven villages along a river
 
 Benthuizen looks towards Zoetermeer, Boskoop keeps its own centre, and Aarlanderveen has 1,205 people. Nothing about that arrangement suits an evening class in a building.
 
-- **The river crossings stay out of it** The lesson happens at the kitchen table in Zwammerdam, Koudekerk or the town at one fixed hour a week, all year.
-- **One working language, plus the school vocabulary** Lessons are conducted in English. The exception is the handful of Dutch terms a pupil actually encounters at school, which are spoken unchanged so that nobody has to map them onto something else mid-sentence.
-- **Where the first hour leaves you** With a level established by doing rather than by asking, a course that follows from it, and a place in the weekly timetable. Not one of those steps asks for a card number.
-- **Neighbours are irrelevant; stage is not** Placement looks only at what a learner can currently do. Two children from the same street may end up in different groups, and two from opposite ends of the municipality in the same one.
-- **Twice weekly, on the middle calendar** Two lessons a week at one repeating slot, eight in most months. This municipality takes its holidays with regio Midden along with the rest of Zuid-Holland, and weeks away are written in before the slot is set.
-- **A gap the Dutch clock sets** India runs on one time the whole year, so all of the seasonal movement comes from this side: three and a half hours in the lighter months, four and a half in the darker ones. The overlap that matters covers the end of the afternoon, the early evening and both weekend days.
+### The river crossings stay out of it
 
-**A municipality where nothing higher is taught** One of the two student tables reports zero programmes above secondary level here, and the other reports 3,580 residents registered in applied and university education somewhere. Whatever a family here wants after school involves a journey, and a class delivered over the connection is one of the few things that does not.
+The lesson happens at the kitchen table in Zwammerdam, Koudekerk or the town at one fixed hour a week, all year.
+
+### One working language, plus the school vocabulary
+
+Lessons are conducted in English. The exception is the handful of Dutch terms a pupil actually encounters at school, which are spoken unchanged so that nobody has to map them onto something else mid-sentence.
+
+### Where the first hour leaves you
+
+With a level established by doing rather than by asking, a course that follows from it, and a place in the weekly timetable. Not one of those steps asks for a card number.
+
+### Neighbours are irrelevant; stage is not
+
+Placement looks only at what a learner can currently do. Two children from the same street may end up in different groups, and two from opposite ends of the municipality in the same one.
+
+### Twice weekly, on the middle calendar
+
+Two lessons a week at one repeating slot, eight in most months. This municipality takes its holidays with regio Midden along with the rest of Zuid-Holland, and weeks away are written in before the slot is set.
+
+### A gap the Dutch clock sets
+
+India runs on one time the whole year, so all of the seasonal movement comes from this side: three and a half hours in the lighter months, four and a half in the darker ones. The overlap that matters covers the end of the afternoon, the early evening and both weekend days.
+
+A municipality where nothing higher is taught
+
+One of the two student tables reports zero programmes above secondary level here, and the other reports 3,580 residents registered in applied and university education somewhere. Whatever a family here wants after school involves a journey, and a class delivered over the connection is one of the few things that does not.
+
+Fees
 
 ## The fee, in dollars, in all eight places
 
 Printed here rather than saved for a phone call.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 A family in Aarlanderveen and a family in the town are shown the same number, because there is one international rate, it is in dollars, and no euro version of it exists. Money is the last step rather than the first: the free lesson settles a course and an hour, and only then does anything go through WhatsApp. The pricing page handles pauses, plan changes and missed weeks.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Alphen%20aan%20den%20Rijn.)Reviews
+
+## Six Google reviews, printed as their authors typed them
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us the level; the village is not needed
+
+The first task might be two counts of one class that disagree, a grid of six figures with an impossible row in it, or two reports at work that have been arguing for a year.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Alphen aan den Rijn one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Alphen%20aan%20den%20Rijn.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Alphen aan den Rijn coding class questions
+
+The municipality, its villages, its statistics, the teaching and the terms.
 
 ### Why does one page give two different student figures?
 
@@ -255,10 +381,14 @@ The first lesson is free. Group tuition is USD 100 a month for two live lessons 
 
 Between five and ten, matched on level, pace and goal rather than on age, school or village. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.
 
+Explore the Netherlands
+
 ## Down the river, out to the province, and up to the country
 
 West along the Oude Rijn is [Leiden](/coding-classes-in-leiden) and south is [Zoetermeer](/coding-classes-in-zoetermeer), both inside [Zuid-Holland](/coding-classes-in-zuid-holland), whose page is about a region nobody drew a boundary for. At the head of the series is the [Netherlands coding hub](/coding-classes-in-netherlands), with [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) and the [AI and Python Academy](/ai-and-python-academy-netherlands) for models rather than programs.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Alphen%20aan%20den%20Rijn.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-alphen-aan-den-rijn](https://learn.modernagecoders.com/coding-classes-in-alphen-aan-den-rijn#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-alphen-aan-den-rijn*

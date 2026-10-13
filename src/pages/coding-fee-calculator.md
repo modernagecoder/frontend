@@ -60,7 +60,7 @@ A fair comparison
 
 Roughly compared to public pricing data for the year ending March 2026. We have tried to be fair. If we have missed something or misrepresented anyone, write to us and we will correct it on this page.
 
-FeatureMAC (us)WhiteHat JrCoding Ninjas JuniorCamp K12Live class size4–8 students1-on-1 (premium)15–2510–15Real working portfolioYes · public GitHubLimitedYesPartialRecorded class backupYes · 12 months accessYesYesYesParent monthly progress noteYes · plain EnglishNoNoNoPause / resume without penaltyYes · 12 monthsNoLimitedNoTransparent published feeYes · this calculatorQuote onlyQuote onlyQuote onlyScholarship without sales pressureYes · 4 categoriesNoLimitedNoFour quiet scholarships
+FeatureMAC (us)WhiteHat JrCoding Ninjas JuniorCamp K12Live class size15–20 students1-on-1 (premium)15–2510–15Real working portfolioYes · public GitHubLimitedYesPartialRecorded class backupYes · 12 months accessYesYesYesParent monthly progress noteYes · plain EnglishNoNoNoPause / resume without penaltyYes · 12 monthsNoLimitedNoTransparent published feeYes · this calculatorQuote onlyQuote onlyQuote onlyScholarship without sales pressureYes · 4 categoriesNoLimitedNoFour quiet scholarships
 
 ## We have given fee waivers *every year since 2019*.
 

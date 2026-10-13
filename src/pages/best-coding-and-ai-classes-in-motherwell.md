@@ -4,46 +4,32 @@ description: "Online coding, AI, Python and vibe coding lessons for Motherwell, 
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-motherwell
 source: src/pages/best-coding-and-ai-classes-in-motherwell.html
 ---
-> Behind Cumbernauld, Coatbridge and Airdrie, Motherwell is North Lanarkshire's fourth locality, estimated at 32,840 residents for mid-2020 by National Records of Scotland. Forgewood, Muirhouse, Flemington, Carfin and New Stevenston are among its recorded suburbs in the ML1 district, with Newarthill and Cleland listed as villages. Coding, AI, Python, vibe coding and maths lessons are delivered on camera by India-based tutors to anyone six to 67, as one-to-one sessions or in an level-matched group of fifteen to twenty. Logical thinking is taught before tools, so learners can find the flaw in a map, a program or an AI answer. We run the first session without charge and finish it with a course suggestion. The Motherwell project turns 96.9 km of mapped streets into a directed graph and asks whether any one-way rule lets a driver in but never out. Past the trial, group lessons are USD 100 monthly and individual lessons USD 150 monthly.
+> Online coding, AI, Python and vibe coding lessons for Motherwell, Forgewood, Muirhouse and Newarthill learners aged 6 to 67, taught live online. First lesson free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / Motherwell
-
-Motherwell, North Lanarkshire, Scotland / Live online
-
-# Coding and AI classes in Motherwell
-
-**Where can Motherwell learners find the best coding and AI classes?** Behind Cumbernauld, Coatbridge and Airdrie, Motherwell is North Lanarkshire's fourth locality, estimated at 32,840 residents for mid-2020 by National Records of Scotland. Forgewood, Muirhouse, Flemington, Carfin and New Stevenston are among its recorded suburbs in the ML1 district, with Newarthill and Cleland listed as villages. Coding, AI, Python, vibe coding and maths lessons are delivered on camera by India-based tutors to anyone six to 67, as one-to-one sessions or in an level-matched group of fifteen to twenty. Logical thinking is taught before tools, so learners can find the flaw in a map, a program or an AI answer. We run the first session without charge and finish it with a course suggestion. The Motherwell project turns 96.9 km of mapped streets into a directed graph and asks whether any one-way rule lets a driver in but never out. Past the trial, group lessons are USD 100 monthly and individual lessons USD 150 monthly.
-
-A road map is a graph: junctions joined by streets. With two-way streets you can always retrace your steps, but one-way streets turn it into a directed graph, where getting from A to B says nothing about getting back. The right question then is which parts of town are strongly connected: places you can drive from any one to any other and back again, legally. A single wrongly tagged one-way street can create a pocket you can enter but never leave. This project runs that check on Motherwell's streets as mapped on OpenStreetMap, and discovers that most of the apparent problems were caused by the analysis itself.
-
-Facts last verified 29 September 2026. Teaching is online; no Motherwell branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentMotherwell course picks
 
 ## Motherwell courses in logic, Python and AI
 
 Four starting points arranged by age. Whichever you choose, the opening live lesson is free and booking takes no card.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): The how-to-think course: one-way arrows, mazes and proving you can always get back.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Scratch games designed by the learner, built with an AI and tested until they break.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python from scratch to graphs and maps, including the Motherwell one-way check.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): Modern AI, planning agents that navigate constraints, and Python agents.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThe how-to-think course: one-way arrows, mazes and proving you can always get back.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsScratch games designed by the learner, built with an AI and tested until they break.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython from scratch to graphs and maps, including the Motherwell one-way check.See the syllabus](/courses/python-complete-masterclass-teens)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseModern AI, planning agents that navigate constraints, and Python agents.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Motherwell and North Lanarkshire
 
 ## Motherwell, Forgewood, Muirhouse and Newarthill
 
 The NRS figure for Motherwell, and places recorded in ML1.
 
-**Motherwell in National Records of Scotland estimates**
-
 | Area | People |
-|---|---|
+| --- | --- |
 | Motherwell locality, mid-2020 | 32,840 |
 
 Carfin, Flemington, Forgewood, Muirhouse and New Stevenston appear on postcodes.io as suburban areas of North Lanarkshire in ML1; Cleland and Newarthill are recorded as villages. Lanarkshire classrooms work to the Curriculum for Excellence, and we plan the same way, by primary and secondary year, with SQA help in Computing Science and Maths. Tell us the holiday dates and those weeks stay free.
@@ -52,16 +38,16 @@ Carfin, Flemington, Forgewood, Muirhouse and New Stevenston appear on postcodes.
 
 Try [coding classes in North Lanarkshire](/coding-classes-in-north-lanarkshire), [Hamilton](/vibe-coding-and-ai-agents-classes-in-hamilton-scotland) and [National 5 Computing Science help](/national-5-computing-science-help). Our thinking-first approach is explained on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Motherwell project
+
 ## Can you always drive out again? Strongly connected components on Motherwell's one-way streets
 
 A directed street graph, a search in both directions, and a careful look at where the gaps are.
 
 The learner downloads OpenStreetMap data and keeps the public streets inside a rectangle over Motherwell: 96.9 km, of which 14.8 km carry one-way rules, including roundabouts. Each street becomes one arrow for a one-way street or two arrows for a two-way one. Python then finds the strongly connected components: groups of junctions where every one can reach every other and back. A classic way to do it, Kosaraju's algorithm, runs one search along the arrows and a second search against them.
 
-**Strongly connected components of Motherwell's public streets, our Python run on OpenStreetMap data**
-
 | Measure | Result |
-|---|---|
+| --- | --- |
 | Junctions and bends in the network | 4,014 |
 | In the largest strongly connected component | 3,878 (96.61%) |
 | Share of street length in it | 98.8% |
@@ -87,14 +73,14 @@ Run Kosaraju's algorithm on the whole network and separate real pockets from edg
 
 Street geometry and one-way tags are from OpenStreetMap and its contributors under the Open Database Licence. Turn restrictions and time-limited rules were not modelled; the rectangle, graph and results are our own work.
 
+Graphs and AI
+
 ## What this teaches about vibe coding and AI agents
 
 Some problems in the data are ones you put there yourself.
 
-**From the Motherwell one-way check to working with AI**
-
 | In the street project | When an AI agent plans in a network |
-|---|---|
+| --- | --- |
 | One-way streets made the graph directed | Constraints change what is reachable |
 | 98.8% of street length was strongly connected | Most networks are healthy; measure it |
 | 121 of 136 problem points were edge artefacts | Your own cut can create false problems |
@@ -105,14 +91,37 @@ Route-planning agents, delivery robots and navigation apps all rely on directed 
 
 Modern Age Coders has no tie to OpenStreetMap, National Records of Scotland or postcodes.io; we relied on their open data, and the graph work and its errors are ours.
 
+Stages
+
 ## From arrow mazes to graph algorithms
 
 We use the school year as a starting hint and adjust after the trial.
 
-- **P1 to P7: How to think** Arrows, mazes and proving a way back exists. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **P5 to S2: Vibe coding for kids** Games and small apps made with AI help and tested by the learner. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **S3 to S6: Python and graphs** Directed graphs, searches and real map data alongside SQA Computing Science. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)
-- **Adults: AI and planning agents** Graphs, planning and AI agents, built in Python. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+P1 to P7
+
+### How to think
+
+Arrows, mazes and proving a way back exists.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)P5 to S2
+
+### Vibe coding for kids
+
+Games and small apps made with AI help and tested by the learner.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)S3 to S6
+
+### Python and graphs
+
+Directed graphs, searches and real map data alongside SQA Computing Science.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Data Structures & Algorithms Course](/courses/data-structures-algorithms-masterclass-college)Adults
+
+### AI and planning agents
+
+Graphs, planning and AI agents, built in Python.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)Graphs and code
 
 ## What is a strongly connected component in a graph?
 
@@ -124,30 +133,139 @@ Learners who have run that check ask of any AI route or plan: is every step reve
 
 Separating real problems from artefacts keeps Motherwell teenagers in charge of the AI they use, and coding is where that skill is practised in 2026. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How it works
+
 ## Online lessons across Motherwell
 
 Kit list: a computer, a webcam and an internet connection that handles video.
 
-- **Learner in charge** The student types and runs everything; the tutor watches via screen share and asks them to predict each output.
-- **Trial sets the level** The free first lesson shows what to teach first, with SQA exams noted if relevant.
-- **Opening lesson free** No fee for lesson one, which finishes with a course suggestion.
-- **Classes by ability** Fifteen to twenty learners from across Britain, grouped by stage.
-- **Twice weekly** We break for school holidays.
-- **Unchanging hour** When UK clocks change, our tutors move so you do not have to.
+### Learner in charge
 
-**Why online** Five learners at one stage, free the same evening and living close by, are rare. Online classes make distance irrelevant.
+The student types and runs everything; the tutor watches via screen share and asks them to predict each output.
+
+### Trial sets the level
+
+The free first lesson shows what to teach first, with SQA exams noted if relevant.
+
+### Opening lesson free
+
+No fee for lesson one, which finishes with a course suggestion.
+
+### Classes by ability
+
+Fifteen to twenty learners from across Britain, grouped by stage.
+
+### Twice weekly
+
+We break for school holidays.
+
+### Unchanging hour
+
+When UK clocks change, our tutors move so you do not have to.
+
+Why online
+
+Five learners at one stage, free the same evening and living close by, are rare. Online classes make distance irrelevant.
+
+Fees
 
 ## Motherwell fees
 
 Motherwell learners are on our international rates, which apply in every country except India.
 
-- First class: USD 0. A free first lesson, then a recommendation.
-- Group tuition: USD 100 a month. About eight live small-group lessons monthly.
-- Private tuition: USD 150 a month. About eight live one-to-one lessons monthly.
+First class**USD 0**
+
+A free first lesson, then a recommendation.
+
+Group tuition**USD 100**
+
+About eight live small-group lessons monthly.
+
+Private tuition**USD 150**
+
+About eight live one-to-one lessons monthly.
 
 Motherwell families are billed in US dollars, not pounds, from the week the trial fixes a course and a slot; holiday breaks, missed lessons and switching format sit on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Motherwell%3F)Reviews
+
+## What Lanarkshire families and UK learners say on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Motherwell lesson
+
+Give us an age or school year and something the learner enjoys. We might start with an arrow-maze puzzle, an AI-assisted Scratch game, some first Python, or a small directed graph of real streets.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Motherwell one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Motherwell%3F)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Motherwell questions
+
+Directed graphs, the street check, vibe coding, Python and practical points.
 
 ### What is the population of Motherwell?
 
@@ -189,10 +307,14 @@ No charge for the trial; a class place then costs USD 100 each month and private
 
 Yes; tell us the school holiday dates.
 
+Nearby
+
 ## Other Lanarkshire pages
 
 Each has its own experiment: [Hamilton](/vibe-coding-and-ai-agents-classes-in-hamilton-scotland) (an agent covering every street), [Airdrie](/vibe-coding-and-ai-agents-classes-in-airdrie), [Coatbridge](/online-coding-and-python-classes-in-coatbridge) and [North Lanarkshire](/coding-classes-in-north-lanarkshire). For anywhere else, go via [Scotland](/coding-and-ai-classes-in-scotland) or the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20could%20we%20book%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20learner%20in%20Motherwell%3F)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-and-ai-classes-in-motherwell](https://learn.modernagecoders.com/best-coding-and-ai-classes-in-motherwell#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-motherwell*

@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes across Overijssel, ages 
 canonical: https://learn.modernagecoders.com/coding-classes-in-overijssel
 source: src/pages/coding-classes-in-overijssel.html
 ---
-> Coding classes in Overijssel reach 1,202,375 people in 25 municipalities (Statistics Netherlands, 1 January 2026), three landscapes and one river: Twente in the east around Enschede, Salland in the middle around Deventer, and the Kop and the IJssel delta in the north around Zwolle, the capital. The dike rings along the IJssel were built to a standard of one flood in 1,250 years, a figure that means something quite different from what it sounds like. The class is the same in every one of the 25: live, online, in English, for learners from 6 to 67, with nothing charged for the first lesson and then USD 100 a month for a group of fifteen to twenty or USD 150 for a teacher alone, taught by Modern Age Coders.
+> Live online coding, Python and AI classes across Overijssel, ages 6 to 67: Enschede, Zwolle, Deventer, Hengelo, Almelo, Kampen, Hardenberg and all 25 municipalities.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Overijssel
-
-Province of Overijssel / Live online
-
-# Coding classes in Overijssel, where a one-in-1,250-year dike is a one-in-sixteen lifetime
-
-**What are the best coding classes in Overijssel?** Coding classes in Overijssel reach 1,202,375 people in 25 municipalities (Statistics Netherlands, 1 January 2026), three landscapes and one river: Twente in the east around Enschede, Salland in the middle around Deventer, and the Kop and the IJssel delta in the north around Zwolle, the capital. The dike rings along the IJssel were built to a standard of one flood in 1,250 years, a figure that means something quite different from what it sounds like. The class is the same in every one of the 25: live, online, in English, for learners from 6 to 67, with nothing charged for the first lesson and then USD 100 a month for a group of fifteen to twenty or USD 150 for a teacher alone, taught by Modern Age Coders.
-
-A dike built to a one-in-1,250-year standard is not a dike that floods once every 1,250 years. It is a dike with a 0.08 percent chance of failing in any given year, which over the eighty years of a child born in Kampen this year adds up to about one chance in sixteen. The program that turns the first number into the second is fifteen lines long, and every family living below the IJssel should have one.
-
-Facts last verified 7 September 2026. Teaching is online; no Overijssel branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Overijssel
 
 ## Four courses for a province of a technical university, a river and a border
 
 A groep 6 child in Kampen, a teenager in Hengelo who wants the server side to make sense, a Twente student who wants typed code, and an adult in Deventer who has never trusted a probability: four doors for a province that is three places at once.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Typed Python, turtle drawings and a first program that learns a rule, in English, for a groep 5 to 8 child anywhere from Steenwijk to Enschede.
-- [Backend Development for Teens](/courses/backend-coding-masterclass-for-teens) (Ages 13 to 17): Node, APIs and databases, for the teenager who has built a front end and wants to know where the data actually goes.
-- [TypeScript Course](/courses/complete-typescript-programming-masterclass-college) (College and adult): Typed JavaScript, React and Node for the University of Twente or Saxion student who has had enough of undefined.
-- [Statistics & Probability](/courses/statistics-probability-maths-course) (Teens and adults): From data to hypothesis testing, for anyone who has ever read a return period as a countdown.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsTyped Python, turtle drawings and a first program that learns a rule, in English, for a groep 5 to 8 child anywhere from Steenwijk to Enschede.See the syllabus](/courses/python-ai-kids-masterclass)[![Backend Development for Teens course thumbnail](/images/backend-teens.webp)Ages 13 to 17Backend Development for TeensNode, APIs and databases, for the teenager who has built a front end and wants to know where the data actually goes.See the syllabus](/courses/backend-coding-masterclass-for-teens)[![TypeScript Course course thumbnail](/images/typescript-college.webp)College and adultTypeScript CourseTyped JavaScript, React and Node for the University of Twente or Saxion student who has had enough of undefined.See the syllabus](/courses/complete-typescript-programming-masterclass-college)[![Statistics & Probability course thumbnail](/images/statistics-probability-maths.webp)Teens and adultsStatistics & ProbabilityFrom data to hypothesis testing, for anyone who has ever read a return period as a countdown.See the syllabus](/courses/statistics-probability-maths-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Overijssel today
 
 ## Three landscapes, one capital that is not the largest city, and a river along the whole western edge
 
@@ -52,7 +40,11 @@ Enschede holds 162,683 people and is the largest city; Zwolle, with 134,147, is 
 
 Twente in the east, the old textile district against the German border, with the technical university and half the province's people. Salland in the middle along the IJssel. The Kop van Overijssel in the north around the delta where the IJssel, the Vecht and the Zwarte Water reach the old Zuiderzee.
 
-**A province named for a river it sits beyond** Overijssel means "over the IJssel": the land on the far side of the river from Holland and Utrecht. The IJssel runs the whole western boundary against Gelderland, the Vecht comes in from Germany through Hardenberg, Ommen and Dalfsen, and the Zwarte Water links Zwolle to Genemuiden. The dikes along all three are the reason this page has a probability table in it.
+A province named for a river it sits beyond
+
+Overijssel means "over the IJssel": the land on the far side of the river from Holland and Utrecht. The IJssel runs the whole western boundary against Gelderland, the Vecht comes in from Germany through Hardenberg, Ommen and Dalfsen, and the Zwarte Water links Zwolle to Genemuiden. The dikes along all three are the reason this page has a probability table in it.
+
+The spread
 
 ## From Twente to the Kop: all 25 municipalities, by population
 
@@ -84,6 +76,8 @@ Steenwijkerland 45,926, one municipality holding Steenwijk, Giethoorn and the la
 
 Twenty-five, and every one is above. This page is deliberately wide; Enschede, Zwolle, Deventer, Hengelo and Almelo already have pages that go close.
 
+Verified local facts
+
 ## The sources behind every number here
 
 Office by office, including the dike standards the project is built on and the one change the sources do not quantify.
@@ -114,6 +108,8 @@ Overijssel takes its school holidays with regio Noord, alongside Groningen, Frie
 
 The province, its 25 municipalities, the water authorities and the schools named on this page have no connection to Modern Age Coders and none is implied; they are here because a page that says it serves Overijssel should know what Overijssel is built on.
 
+Signature project
+
 ## One in 1,250 per year: build the program that turns a dike standard into the number a family actually needs
 
 Four published standards, one lifetime, and a table in which the safest-sounding phrase in Dutch engineering becomes a one-in-sixteen chance.
@@ -130,10 +126,8 @@ The learner writes the one line that matters: the chance of at least one exceeda
 
 The same program on the coast's 1 in 10,000 gives 0.80 percent over eighty years; on 1 in 4,000, 1.98; on 1 in 2,000, 3.92. The river standard that sounds like once a millennium is, over a lifetime, eight times the coastal one, and every one of those numbers is arithmetic on a figure the learner was given.
 
-**The pre-2017 dike standards, compounded: chance of at least one exceedance**
-
 | Standard (per year) | In one year | Over 30 years | Over 50 years | Over 80 years |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | 1 in 10,000 (Holland coast) | 0.01 percent | 0.30 percent | 0.50 percent | 0.80 percent |
 | 1 in 4,000 (Texel, Friesland and Groningen, Flevoland) | 0.025 percent | 0.75 percent | 1.24 percent | 1.98 percent |
 | 1 in 2,000 (river areas) | 0.05 percent | 1.49 percent | 2.47 percent | 3.92 percent |
@@ -143,14 +137,14 @@ The same program on the coast's 1 in 10,000 gives 0.80 percent over eighty years
 
 The phrase "once in 1,250 years" invites two mistakes at once: that a flood is due when the clock runs out, and that having had one buys a long quiet. Neither follows from a per-year probability, which has no memory and no schedule. What does follow is that small annual chances compound over a life into chances a family can feel, and that the honest way to compare two standards is over the same horizon. A learner who has written the compounding line once will read every "one in N" for the rest of their life as a rate to be multiplied out, and will ask "over how long?" before being reassured. The table was computed before this paragraph was written; the four standards are quoted from the published list of dike rings, and every other figure is that one line of arithmetic.
 
+Reliable pipeline
+
 ## Five habits for any figure that arrives as one in N
 
 Return periods, failure rates, false-positive rates, the chance of rain: every one of them is a per-event or per-year rate that people read as a schedule. Rehearsed first on the dikes the province stands behind.
 
-**When a probability has been dressed as a period**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Restate as a rate | Turn "one in N years" into "1 over N per year" before doing anything | A countdown that does not exist | The number the maths can use |
 | Choose a horizon | Ask over how many years the reader will care | A per-year figure mistaken for a lifetime figure | A comparison at the right scale |
 | Compound, do not multiply | Use one minus (one minus p) to the N, never p times N | A 1 in 10 rate over 20 years read as 200 percent | A probability that stays below one |
@@ -171,14 +165,37 @@ The same program on a failure rate from work: a server with a 0.1 percent daily 
 
 The provincial totals, the 25 municipal populations, the areas, the rivers and the four dike standards are published by the offices and the encyclopaedia entry named in the sentences that use them. The compounded probabilities are one line of arithmetic on those standards, presented as exactly that, and the page states plainly that the post-2017 standards were not available to it.
 
+Learning ladder
+
 ## From a bag of marbles to a compounding function with a chosen horizon
 
 The starting rung is found in the free lesson; the postcode plays no part in it.
 
-- **Ages 6 to 10: The bag has no memory** Children draw from a bag once a year and learn that last year's draw does not change this one. [Minecraft Coding for Kids](/courses/minecraft-coding-for-kids-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 11 to 13: One in N, as a rate** Learners write a per-year chance in Python and repeat it over ten, thirty and fifty years. [Maths Through Coding](/courses/maths-through-coding), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 14 to 18: Compounding and simulating** Teenagers derive the lifetime chance and check it against ten thousand simulated lives. [Python for Teens](/courses/python-complete-masterclass-teens), [Backend Development for Teens](/courses/backend-coding-masterclass-for-teens)
-- **Ages 18 to 67: Rates at work** Adults take a failure rate from their own field and compound it over the horizon that matters. [Statistics & Probability](/courses/statistics-probability-maths-course), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Ages 6 to 10
+
+### The bag has no memory
+
+Children draw from a bag once a year and learn that last year's draw does not change this one.
+
+[Minecraft Coding for Kids](/courses/minecraft-coding-for-kids-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 11 to 13
+
+### One in N, as a rate
+
+Learners write a per-year chance in Python and repeat it over ten, thirty and fifty years.
+
+[Maths Through Coding](/courses/maths-through-coding)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 14 to 18
+
+### Compounding and simulating
+
+Teenagers derive the lifetime chance and check it against ten thousand simulated lives.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Backend Development for Teens](/courses/backend-coding-masterclass-for-teens)Ages 18 to 67
+
+### Rates at work
+
+Adults take a failure rate from their own field and compound it over the horizon that matters.
+
+[Statistics & Probability](/courses/statistics-probability-maths-course)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)Coding and AI
 
 ## An AI can say in a second how safe the IJssel dikes are. Why should a child in Zwolle learn to compute it?
 
@@ -190,30 +207,139 @@ That is why the learner still writes the program: not for the syntax, which the 
 
 So for an Overijssel parent the argument for coding in 2026 is not that the child will design dikes. It is that knowing a rate from a schedule, and knowing how rates add up over a life, is a skill that transfers to every risk the child will ever be quoted, and that it is learned by writing the compounding line and running it. The longer argument is in [whether coding is still worth learning now that AI writes it](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for a province whose three parts do not face the same way
 
 Twente looks east to Germany, the Kop looks north to Friesland, and Salland looks west across the IJssel. A class that comes to the house in Tubbergen or Giethoorn does not need any of them to travel.
 
-- **Nobody drives to Zwolle for it** The lesson is at home in Hardenberg, Oldenzaal or Steenwijk at a fixed hour, and the N35 and the A1 stay out of it.
-- **English on the outside, Dutch on the inside** Groep, havo, vwo and profielkeuze are said the way the school says them; around them the lesson is in English, which is the language the province's international families at the university and in the Twente firms have in common.
-- **The first hour, free, and what it produces** One task at the learner's level, then a named course and a starting rung, and no card is taken to arrange any of it.
-- **Sorted by ability** What a learner can do and wants next decides the group; Twente, Salland or the Kop does not.
-- **Two lessons a week, regio Noord's summer** Eight a month at one recurring time. Overijssel breaks up with regio Noord, in a different fortnight from Utrecht and Brabant, and the weeks are agreed before the slot is.
-- **Three and a half hours, or four and a half** The Dutch clock jumps twice a year and the Indian one stays, so an Overijssel afternoon trails the teacher's evening by three and a half hours in summer and four and a half in winter. Late afternoon, early evening and the weekend suit both ends.
+### Nobody drives to Zwolle for it
 
-**The border is a fact of life here** From Enschede, Losser or Dinkelland the nearest large city is Münster, not Zwolle. A weekly class at home is the same class a family in the capital gets, and for much of Twente it is the only one that does not involve a motorway in either country.
+The lesson is at home in Hardenberg, Oldenzaal or Steenwijk at a fixed hour, and the N35 and the A1 stay out of it.
+
+### English on the outside, Dutch on the inside
+
+Groep, havo, vwo and profielkeuze are said the way the school says them; around them the lesson is in English, which is the language the province's international families at the university and in the Twente firms have in common.
+
+### The first hour, free, and what it produces
+
+One task at the learner's level, then a named course and a starting rung, and no card is taken to arrange any of it.
+
+### Sorted by ability
+
+What a learner can do and wants next decides the group; Twente, Salland or the Kop does not.
+
+### Two lessons a week, regio Noord's summer
+
+Eight a month at one recurring time. Overijssel breaks up with regio Noord, in a different fortnight from Utrecht and Brabant, and the weeks are agreed before the slot is.
+
+### Three and a half hours, or four and a half
+
+The Dutch clock jumps twice a year and the Indian one stays, so an Overijssel afternoon trails the teacher's evening by three and a half hours in summer and four and a half in winter. Late afternoon, early evening and the weekend suit both ends.
+
+The border is a fact of life here
+
+From Enschede, Losser or Dinkelland the nearest large city is Münster, not Zwolle. A weekly class at home is the same class a family in the capital gets, and for much of Twente it is the only one that does not involve a motorway in either country.
+
+Fees
 
 ## The tariff for twenty-five municipalities, in full
 
 Printed before a phone number is asked for.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 A single dollar rate applies everywhere outside India, with no euro list, and Staphorst pays what Enschede pays. Course and hour are settled in the free lesson and payment comes afterwards, over WhatsApp. Pauses, plan changes and missed lessons are described on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Overijssel.)Reviews
+
+## What six families wrote on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Give us the level; the town is optional
+
+The opening exercise could be a bag of marbles drawn once a year, the compounding line in Python, or a failure rate from work that has always been quoted as a promise.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Overijssel one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Overijssel.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Overijssel coding class questions
+
+The province, its towns, the dikes, the teaching and the terms.
 
 ### What does a one-in-1,250-year dike standard actually mean?
 
@@ -255,10 +381,14 @@ The first lesson is free. Group tuition is USD 100 a month for two live lessons 
 
 Between five and ten, matched on level, pace and goal rather than on age, school or municipality. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.
 
+Explore the Netherlands
+
 ## Across the IJssel, and up to the country
 
 Across the river is [Gelderland](/coding-classes-in-gelderland), with its two holiday calendars; beyond it the [province of Utrecht](/coding-classes-in-utrecht-province), and across the Zuiderzee polders [Almere](/coding-classes-in-almere). All of them are children of the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner whose goal is a trained model rather than a program should go to [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands). Enschede, Zwolle, [Deventer](/coding-classes-in-deventer), [Hengelo](/coding-classes-in-hengelo) and [Almelo](/coding-classes-in-almelo) are built.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Overijssel.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-overijssel](https://learn.modernagecoders.com/coding-classes-in-overijssel#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-overijssel*

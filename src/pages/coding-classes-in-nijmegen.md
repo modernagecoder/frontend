@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes in Nijmegen for ages 6 t
 canonical: https://learn.modernagecoders.com/coding-classes-in-nijmegen
 source: src/pages/coding-classes-in-nijmegen.html
 ---
-> Coding classes in Nijmegen serve a municipality of 189,871 people (Statistics Netherlands, 1 January 2026), the largest in Gelderland and the densest city on this site at 3,579 to the square kilometre. It declared itself the oldest city in the country in 2005, and it is one of four places that claim the title: change the test from Roman city rights to continuous habitation and the winner changes with it. Every district of it is taught by Modern Age Coders on the same live online basis, in English, to learners of any age from 6 to 67. An opening lesson is given free; from there the monthly figure is USD 100 for a group of fifteen to twenty and USD 150 for private tuition.
+> Live online coding, Python and AI classes in Nijmegen for ages 6 to 67, from Hatert and Hees to Lent and the Waalsprong. First lesson free, then one flat fee.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Nijmegen
-
-Nijmegen, Gelderland / Live online
-
-# Coding classes in Nijmegen, the oldest city in the Netherlands under three of the five tests
-
-**What are the best coding classes in Nijmegen?** Coding classes in Nijmegen serve a municipality of 189,871 people (Statistics Netherlands, 1 January 2026), the largest in Gelderland and the densest city on this site at 3,579 to the square kilometre. It declared itself the oldest city in the country in 2005, and it is one of four places that claim the title: change the test from Roman city rights to continuous habitation and the winner changes with it. Every district of it is taught by Modern Age Coders on the same live online basis, in English, to learners of any age from 6 to 67. An opening lesson is given free; from there the monthly figure is USD 100 for a group of fifteen to twenty and USD 150 for private tuition.
-
-Four Dutch towns claim to be the oldest city in the country and all four are telling the truth about something. Nijmegen has Roman city rights from about the year 98, and a garrison from 19 BC. One rival has a Roman bath house begun between 65 and 73. Another has been lived in without a break ever since the legions left. A third was a planned Roman town that was abandoned around 270. Nothing here is in dispute except which question counts, and a child who has built that table has learned more about evidence than a year of being told to check sources.
-
-Facts last verified 7 September 2026. Teaching is online; no Nijmegen branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Nijmegen
 
 ## Four courses for a city that argues about evidence for a living
 
 A groep 5 child in Lent who wants to build rather than watch, a teenager in Hatert aiming at a technical profile, a Radboud student who needs the theory behind the models and not only the library call, and a parent in Neerbosch whose team has been told to automate something: four doors into one city.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 8 to 12): Typed Python, turtle graphics and a first program that learns a rule, in English, for the groep 5 to 8 child anywhere from Hees to the Waalsprong.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 17): Python and real datasets to a first trained model, for the teenager who wants to test a claim instead of repeating it.
-- [Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college) (College and adult): Search, logic and agents from the ground up, for the student who wants to know what the system is actually doing before calling an API.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (Adults): Scripting, scraping and automation for the working parent whose week is full of tasks a short program could finish.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 8 to 12Python and AI for KidsTyped Python, turtle graphics and a first program that learns a rule, in English, for the groep 5 to 8 child anywhere from Hees to the Waalsprong.See the syllabus](/courses/python-ai-kids-masterclass)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 17Data Science for TeensPython and real datasets to a first trained model, for the teenager who wants to test a claim instead of repeating it.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Artificial Intelligence Course course thumbnail](/images/ai-college.webp)College and adultArtificial Intelligence CourseSearch, logic and agents from the ground up, for the student who wants to know what the system is actually doing before calling an API.See the syllabus](/courses/artificial-intelligence-complete-masterclass-college)[![Python Automation Course course thumbnail](/images/python-college.webp)AdultsPython Automation CourseScripting, scraping and automation for the working parent whose week is full of tasks a short program could finish.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Nijmegen today
 
 ## The largest city in Gelderland, the densest on this site, and more than half its households a single person
 
@@ -52,7 +40,11 @@ The national register held 189,871 people in the municipality on 1 January 2026,
 
 Radboud University was founded on 15 May 1923 as the Roomsch Katholieke Universiteit Nijmegen. On 1 October 2022 it had 24,633 students enrolled and about 6,147 full-time-equivalent staff, of whom 3,467 were academic, across seven faculties. That enrolment count and the municipal count answer different questions and are not combined anywhere on this page.
 
-**A city that grew across its own river** Nijmegen sits on the south bank of the Waal, and the Waalsprong, the leap over the river, has put Lent, Ressen and Oosterhout inside the city's growth over the past three decades. The road bridge was completed in 1936 and De Oversteek was added downstream. The Vierdaagse, the four-day march, has been held since 1909.
+A city that grew across its own river
+
+Nijmegen sits on the south bank of the Waal, and the Waalsprong, the leap over the river, has put Lent, Ressen and Oosterhout inside the city's growth over the past three decades. The road bridge was completed in 1936 and De Oversteek was added downstream. The Vierdaagse, the four-day march, has been held since 1909.
+
+Where the learners are
 
 ## Nine wijken on the hill, and the districts across the water
 
@@ -84,6 +76,8 @@ Nine wijken, 44 buurten and a river do not affect placement. A learner in Lent a
 
 The lesson reaches every district at one hour, and the only question asked before it is what the learner can already do.
 
+Verified local facts
+
 ## Every figure and its source, and the four claims kept side by side
 
 The national count, the encyclopaedia entries for the city and for the oldest-city question, the university, and the places where the record is silent.
@@ -114,6 +108,8 @@ Radboud University: founded 15 May 1923 as the Roomsch Katholieke Universiteit N
 
 Modern Age Coders is unaffiliated with the municipality, with the university and with every school this page names, and nothing above should be read as suggesting otherwise. They appear so that a page claiming to serve Nijmegen can show its working, including the point at which the record stops.
 
+Signature project
+
 ## Which is the oldest city? Build the table, and then notice what the empty cells are doing
 
 Four candidates, five tests, three different winners, and a comparison that quietly turns silence into evidence.
@@ -130,10 +126,8 @@ Nijmegen wins the Roman grant, the military presence and the medieval rights. Co
 
 Most cells are empty. No source read here gives a military presence date for the other three, or a stone-building date for Nijmegen, or tells us whether Nijmegen was inhabited without a break. A program that scores this table has to decide what an empty cell means, and the tempting choice, treating it as a zero, converts "nobody wrote it down" into "it did not happen".
 
-**Four claimants, five tests, and the cells the sources do not fill**
-
 | Test | Nijmegen | Forum Hadriani, Voorburg | The continuously inhabited city | Coriovallum |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Earliest Roman grant of rights | city rights about 98 to 100 | market rights after about 121 | none recorded | none recorded |
 | Recorded military presence from | 19 BC | not stated in these sources | not stated in these sources | not stated in these sources |
 | Oldest surviving Roman stone building | not stated in these sources | not stated in these sources | not stated in these sources | bath house, first phase 65 to 73 |
@@ -144,14 +138,14 @@ Most cells are empty. No source read here gives a military presence date for the
 
 Two separate mistakes are waiting in this table and both are ordinary. The first is answering a superlative before defining it: "oldest" is not a property of a city but of a city under a test, and here three of the four candidates win under some test. The second is quieter and does more damage in real work: when a comparison is turned into code, missing values have to become something, and the something is usually zero or false. Do that here and Nijmegen scores nothing for its stone buildings while Coriovallum scores nothing for its garrison, and both are artefacts of what nobody happened to write down. A learner who has met this once will insist that a dataset distinguish "no" from "not recorded", which is the single most useful habit anyone can carry into working with real data. The table was built from the sources before this paragraph was written, and every unfilled cell says so rather than guessing.
 
+Reliable pipeline
+
 ## Five habits for any table with holes in it
 
 Product comparisons, medical records, survey answers, school league tables, historical claims: real data is full of blanks, and the blanks mean at least three different things. Practised on an argument this city has been having for a century.
 
-**When a value is missing**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Name the test first | Define the criterion before collecting any candidate | A superlative that changes with the question | A comparison that can be settled |
 | Separate the three blanks | Distinguish "no", "not recorded" and "not applicable" in the data itself | Silence counted as a negative | A table that says what it knows |
 | Never default to zero | Make the missing value explicit and refuse to sum over it silently | A garrison scored as none | Totals you can defend |
@@ -172,14 +166,37 @@ The same three-state discipline on a spreadsheet from work where blank cells are
 
 The population, household, area, density, school and university figures come from the offices and entries named beside them. The five tests are this page's framing of claims those sources make, every cell is either quoted or marked as not stated, and no cell was filled by inference.
 
+Learning ladder
+
 ## From four toy animals to a scorer that refuses to guess
 
 Where a learner starts is decided in the free hour, and no part of that decision involves the address.
 
-- **Ages 6 to 10: Best at what?** Children choose their own tests and watch the winner change with each one. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 11 to 13: Blank is not nought** Learners build a small table with gaps and decide, in code, what a gap means. [Maths Through Coding](/courses/maths-through-coding), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 14 to 18: Three states and a coverage check** Teenagers write a scorer that reports coverage and declines to rank when the evidence is thin. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Missing data at work** Adults audit a live spreadsheet for blanks that are being treated as zeros. [Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### Best at what?
+
+Children choose their own tests and watch the winner change with each one.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 11 to 13
+
+### Blank is not nought
+
+Learners build a small table with gaps and decide, in code, what a gap means.
+
+[Maths Through Coding](/courses/maths-through-coding)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 14 to 18
+
+### Three states and a coverage check
+
+Teenagers write a scorer that reports coverage and declines to rank when the evidence is thin.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Missing data at work
+
+Adults audit a live spreadsheet for blanks that are being treated as zeros.
+
+[Artificial Intelligence Course](/courses/artificial-intelligence-complete-masterclass-college)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## Ask an AI which is the oldest city in the Netherlands and it will name one. Why should a child in Nijmegen learn to ask which test it used?
 
@@ -191,30 +208,139 @@ That is why the learner still builds it. Asked directly the tool will explain mi
 
 Archaeology is not the reason to put a Nijmegen child in front of an editor in 2026. The reasons are narrower and more durable: a superlative is empty until its test is named, real tables come with holes in them, writing code forces a decision about what a hole means, and taking that decision carelessly is the ordinary route by which confident nonsense gets published. The longer argument is in [the longer case for teaching a child to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for a compact city with a river through it
 
 The hill, the west and the Waalsprong are each a real trip on a dark evening, and the bridges are the only way between the last of them and the rest. The lesson does not use the bridges.
 
-- **No crossing, no parking** The class runs at the kitchen table in Lent, Hatert or Hees at the same hour every week, whatever the weather is doing on the Waal.
-- **Taught in English, school words left in Dutch** Instruction is in English. Groep, havo, vwo and profielkeuze are said the way the child's school says them, and translated in neither direction.
-- **What comes out of the first hour** Three things: a piece of work that shows where the learner actually stands, the name of the course that fits, and a slot in the week. Arranging all three requires no payment details from anybody.
-- **The level chooses the group** Two learners at the same stage work together whether one is in Neerbosch and the other in Ressen; two at different stages do not, whatever the distance between them.
-- **Twice a week, on the middle calendar** Usually eight lessons a month at one fixed slot. Nijmegen is in the northern half of Gelderland, which takes its school holidays with regio Midden, and holiday weeks are agreed before the slot is.
-- **A seasonal gap of three and a half or four and a half hours** Only one of the two countries adjusts its clocks, so the distance to the teacher is shorter between late March and late October and longer the rest of the year. Either way the overlap covers the later part of the afternoon, the early evening, and all of Saturday and Sunday.
+### No crossing, no parking
 
-**A city that keeps its arguments in public** Nijmegen declared itself the oldest city in the country in 2005 and has been arguing the point ever since, in newspapers, in museums and on signposts. It is a good place to raise a child who asks what the test was, and a weekly hour at home is a cheap way to find out whether they take to it.
+The class runs at the kitchen table in Lent, Hatert or Hees at the same hour every week, whatever the weather is doing on the Waal.
+
+### Taught in English, school words left in Dutch
+
+Instruction is in English. Groep, havo, vwo and profielkeuze are said the way the child's school says them, and translated in neither direction.
+
+### What comes out of the first hour
+
+Three things: a piece of work that shows where the learner actually stands, the name of the course that fits, and a slot in the week. Arranging all three requires no payment details from anybody.
+
+### The level chooses the group
+
+Two learners at the same stage work together whether one is in Neerbosch and the other in Ressen; two at different stages do not, whatever the distance between them.
+
+### Twice a week, on the middle calendar
+
+Usually eight lessons a month at one fixed slot. Nijmegen is in the northern half of Gelderland, which takes its school holidays with regio Midden, and holiday weeks are agreed before the slot is.
+
+### A seasonal gap of three and a half or four and a half hours
+
+Only one of the two countries adjusts its clocks, so the distance to the teacher is shorter between late March and late October and longer the rest of the year. Either way the overlap covers the later part of the afternoon, the early evening, and all of Saturday and Sunday.
+
+A city that keeps its arguments in public
+
+Nijmegen declared itself the oldest city in the country in 2005 and has been arguing the point ever since, in newspapers, in museums and on signposts. It is a good place to raise a child who asks what the test was, and a weekly hour at home is a cheap way to find out whether they take to it.
+
+Fees
 
 ## What it costs, in dollars, on both sides of the river
 
 Published here so that nobody has to ask.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 A single international rate applies, quoted in dollars, with no euro list beside it, so a family in Ressen sees what a family on the hill sees. Nothing is paid until the free lesson has produced a course and a timetable, and payment then goes over WhatsApp. Pauses, plan changes and missed weeks are set out on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Nijmegen.)Reviews
+
+## What six families put on Google, unedited
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Start with the level; we can find the district later
+
+The first thing on screen might be four toy animals and an argument about tests, a table in Python with three states instead of two, or a spreadsheet from work whose blanks are quietly being added up.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Nijmegen one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Nijmegen.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Nijmegen coding class questions
+
+The city, its claim, its districts, the teaching and the terms.
 
 ### Is Nijmegen actually the oldest city in the Netherlands?
 
@@ -256,10 +382,14 @@ The first lesson is free. Group tuition is USD 100 a month for two live lessons 
 
 Between five and ten, matched on level, pace and goal rather than on age, school or district. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.
 
+Explore the Netherlands
+
 ## Downriver, across the province, and up to the country
 
 Nijmegen is the largest municipality of [Gelderland](/coding-classes-in-gelderland), whose page is about a province split between two holiday calendars; south across the Maas is [Limburg](/coding-classes-in-limburg) and its contested highest point. Everything in the series descends from the [Netherlands coding hub](/coding-classes-in-netherlands). Where the ambition is training a model instead of writing a program, the two doors are [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) and the [AI and Python Academy](/ai-and-python-academy-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Nijmegen.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-nijmegen](https://learn.modernagecoders.com/coding-classes-in-nijmegen#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-nijmegen*

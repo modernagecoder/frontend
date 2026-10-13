@@ -10,7 +10,7 @@ source: src/pages/pricing.html
 
 No hidden fees, no surprises. Pick a plan that works for you. Whether you prefer learning in a group or need personalized attention, we've got you covered.
 
-Modern Age Coders keeps pricing simple: live group classes start at ₹1,499 a month, a mini batch with near one-to-one attention starts at ₹2,999, and fully personalised one-to-one classes are ₹4,999 a month for one private class a week (4 a month); plans outside India are shown in local currency. The Copilot Studio AI agents courses are taught 1-on-1 only. Every plan is live and covers coding or maths for ages 6 to 67. A free live demo is available before you pay, and anyone who has watched the free class recordings can enroll directly.
+Modern Age Coders keeps pricing simple: live group classes start at ₹1,499 a month, a mini batch with near one-to-one attention starts at ₹2,999, and fully personalised one-to-one classes are ₹4,999 a month for one private class a week (4 a month); plans outside India are shown in local currency. The Copilot Studio AI agents courses are taught 1-on-1 only, and the [Build AI Agents with Google Gemini Enterprise](/courses/build-ai-agents-with-google-gemini-enterprise-course) programme is a separate 1-on-1 track at ₹14,999 a month for two private classes a week. Every plan is live and covers coding or maths for ages 6 to 67. A free live demo is available before you pay, and anyone who has watched the free class recordings can enroll directly.
 
 Rated 4.9 across 547 Google reviews
 
@@ -155,7 +155,21 @@ Custom Quote
 - Interview preparation
 - Job placement help
 
-[Get Quote](/contact)Free live demo available, never requiredMonthly billing, cancel anytimeNo registration fee[Read our zero-risk promise](/guarantee)
+[Get Quote](/contact)Priority Live Demo
+
+## Not ready to pick a plan? Sit in a full live class first.
+
+The Priority Live Demo is a real class of about 45 to 60 minutes, today or tomorrow, at a time you pick, with a mentor reserved only for you. It is separate from the plans above: one class, one fee, no enrolment needed.
+
+[Book priority demo · ₹499](/book-demo)[Compare with the free demo](/free-demo-vs-priority-demo)
+
+One-time fee. No enrolment required. Rated 4.9 across 547 Google reviews.
+
+1. **A real class, not a sales call**The student solves a problem and builds something that works, in coding or maths.
+2. **A written skill report**After the class the mentor sends a skill report and a personal learning roadmap on WhatsApp.
+3. **Fee adjusted if you enrol**Send us your demo Order ID and we take the demo fee off your first month.
+
+Free live demo available, never requiredMonthly billing, cancel anytimeNo registration fee[Read our zero-risk promise](/guarantee)
 
 ## Why Choose Modern Age Coders?
 

@@ -12,7 +12,7 @@ SOUTH KOLKATA · RASHBEHARI · LIVE ONLINE
 
 Modern Age Coders runs premium live online coding and maths classes for families near Rashbehari, Kolkata. These are small live batches taught in real time by full-time software engineers and maths graduates, not pre-recorded videos. Children from South Point, Modern High, Birla High and La Martiniere learn Python, Java, AI and school maths through real projects, while skipping the auto-rickshaw grind through Rashbehari crossing and Gariahat traffic.
 
-Live, never pre-recordedMax 15–20 per batchAges 6–67, all boardsFree demo in 24 hours[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)1-on-1Personalised plans available6–8Max learners per live batch~90 minCommute saved per class day24 hrsTo schedule your free demoAT A GLANCE
+Live, never pre-recordedMax 20 per batchAges 6–67, all boardsFree demo in 24 hours[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)1-on-1Personalised plans available15–20Max learners per live batch~90 minCommute saved per class day24 hrsTo schedule your free demoAT A GLANCE
 
 ## The essentials, in one place
 

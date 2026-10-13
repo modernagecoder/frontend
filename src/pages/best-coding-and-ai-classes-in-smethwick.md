@@ -4,46 +4,32 @@ description: "Coding, AI, Python and vibe coding taught live online for Smethwic
 canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-smethwick
 source: src/pages/best-coding-and-ai-classes-in-smethwick.html
 ---
-> Smethwick is a town of 56,340 people by the ONS built-up area count from the 2021 census, and postcodes.io records Bearwood, Cape Hill, Black Patch, West Smethwick, Londonderry, Warley Woods and Rood End as suburbs around it. From there, children of six, teenagers, parents and retired people up to 67 join our tutors in India by video for coding, AI, Python, vibe coding and maths. Some work one-to-one; most sit in a class of fifteen to twenty at one level. Understanding comes first with us: a learner should be able to say why a method works and when it will not. We give the first lesson away and finish it by naming a course. Smethwick's project describes 978 small census areas with up to 21 columns each and watches "find the most similar area" slowly stop meaning anything. Monthly fees afterwards are USD 100 for a group seat and USD 150 for private tuition.
+> Coding, AI, Python and vibe coding taught live online for Smethwick, Bearwood, Cape Hill and Rood End learners aged 6 to 67. Your first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [West Midlands region](/coding-and-ai-classes-in-west-midlands-region) / Smethwick
-
-Smethwick, Sandwell, West Midlands / Live online
-
-# Coding and AI classes in Smethwick
-
-**Where can Smethwick learners find the best coding and AI classes?** Smethwick is a town of 56,340 people by the ONS built-up area count from the 2021 census, and postcodes.io records Bearwood, Cape Hill, Black Patch, West Smethwick, Londonderry, Warley Woods and Rood End as suburbs around it. From there, children of six, teenagers, parents and retired people up to 67 join our tutors in India by video for coding, AI, Python, vibe coding and maths. Some work one-to-one; most sit in a class of fifteen to twenty at one level. Understanding comes first with us: a learner should be able to say why a method works and when it will not. We give the first lesson away and finish it by naming a course. Smethwick's project describes 978 small census areas with up to 21 columns each and watches "find the most similar area" slowly stop meaning anything. Monthly fees afterwards are USD 100 for a group seat and USD 150 for private tuition.
-
-Recommendation engines, search tools and the memory behind many AI chat assistants all rest on one idea: turn each item into a list of numbers, then call two items similar when their lists are close. It feels safe to add more numbers, because more description ought to mean better matches. Often the opposite happens. As columns pile up, every item drifts to roughly the same distance from every other, and the nearest match is barely nearer than the farthest. Mathematicians call this distance concentration, one face of the curse of dimensionality. This project measures it on census columns for Sandwell, the borough Smethwick sits in, and on made-up random columns for contrast.
-
-Facts last verified 30 September 2026. Teaching is online; no Smethwick branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentWhere to begin
 
 ## Four Smethwick starting courses
 
 One per age band. The opening session of any of them is taught live and costs nothing, with no card taken.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): Thinking skills first: comparing things fairly, sorting by more than one feature, explaining a choice.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Children plan a Scratch game, let an AI suggest code and decide what to keep.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python from the ground up, reaching arrays, distances and the Smethwick similarity experiment.
-- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (Students and adults): How generative AI stores and retrieves meaning, with embeddings, search and agents built in code.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsThinking skills first: comparing things fairly, sorting by more than one feature, explaining a choice.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsChildren plan a Scratch game, let an AI suggest code and decide what to keep.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython from the ground up, reaching arrays, distances and the Smethwick similarity experiment.See the syllabus](/courses/python-complete-masterclass-teens)[![Generative AI Course course thumbnail](/images/generative-ai-college.webp)Students and adultsGenerative AI CourseHow generative AI stores and retrieves meaning, with embeddings, search and agents built in code.See the syllabus](/courses/complete-generative-ai-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Smethwick in figures
 
 ## Smethwick, Bearwood, Cape Hill and West Smethwick
 
 What the census and the postcode gazetteer record for the town and its borough.
 
-**Smethwick and Sandwell, Census 2021 (ONS)**
-
 | Area | Usual residents |
-|---|---|
+| --- | --- |
 | Smethwick built-up area | 56,340 |
 | Sandwell borough | 341,832 |
 
@@ -53,16 +39,16 @@ These are two separate published counts for two different boundaries. The postco
 
 The borough is also covered from [West Bromwich](/vibe-coding-and-ai-agents-classes-in-west-bromwich), and there are pages for [Birmingham](/coding-classes-in-birmingham) and [the West Midlands county](/coding-classes-in-the-west-midlands). Our case for reasoning ahead of tools is on [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Smethwick project
+
 ## Distance concentration: when every area looks equally far away
 
 Describe 978 areas with more and more columns, and compare each area's nearest match with its farthest.
 
 From the Nomis API the learner pulls four Census 2021 tables for all 978 output areas in Sandwell: household size, car or van availability, accommodation type and population density. The household-size rows add to 130,315 households (the published borough total is 130,246; small census counts are adjusted, so rows and totals differ a little). Turned into shares, the tables give 21 columns per area, each rescaled so no column dominates. For every area the program finds the closest other area and the most distant one, then divides the first distance by the second. A ratio close to 0 means the nearest match is far nearer than the rest, which is what a similarity search needs. A ratio close to 1 means near and far are almost the same.
 
-**Nearest distance as a fraction of farthest distance, median across 978 areas, our Python run**
-
 | Columns used | Sandwell census columns | Independent random columns |
-|---|---|---|
+| --- | --- | --- |
 | 3 | 0.01 | 0.04 |
 | 8 | 0.06 | 0.20 |
 | 21 | 0.14 | 0.40 |
@@ -89,14 +75,14 @@ Reproduce the ratio table with NumPy, add noise columns and explain why correlat
 
 The census counts are Office for National Statistics data served by Nomis under the Open Government Licence. Ratios, medians and the noise experiment are our own calculations, and the random columns are generated by us, not measured anywhere. Areas are compared only on housing, household size, cars and density.
 
+Why it matters for AI
+
 ## Vibe coding, AI agents and the limits of "similar"
 
 Much of what an assistant retrieves is chosen by distance between long lists of numbers.
 
-**From the Smethwick experiment to AI tools**
-
 | What the experiment showed | What it means when you build with AI |
-|---|---|
+| --- | --- |
 | The ratio climbed from 0.01 to 0.14 | Extra features can blur a search |
 | Random columns reached 0.88 | Uninformative features blur it fastest |
 | 21 columns acted like about 9 | Overlapping features add less than they seem to |
@@ -107,14 +93,37 @@ When an AI agent looks something up in its notes, it usually ranks stored passag
 
 We have no link with the Office for National Statistics, Nomis or postcodes.io; we only read their open data. Every calculation on this page, and any error in one, belongs to Modern Age Coders.
 
+Progression
+
 ## The route from sorting cards to embeddings
 
 School year gives us a first guess at the stage. The free lesson corrects it.
 
-- **Years 2 to 6: How to think** Compare, classify and justify, first on paper and then in Scratch. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Build games with an AI helper and test every suggestion. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Python and machine learning** Arrays, distances and models, alongside GCSE and A level. [Python for Teens](/courses/python-complete-masterclass-teens), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
-- **Adults: Generative AI and agents** Embeddings, retrieval and agents written in Python. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Years 2 to 6
+
+### How to think
+
+Compare, classify and justify, first on paper and then in Scratch.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Build games with an AI helper and test every suggestion.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Python and machine learning
+
+Arrays, distances and models, alongside GCSE and A level.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)Adults
+
+### Generative AI and agents
+
+Embeddings, retrieval and agents written in Python.
+
+[Generative AI Course](/courses/complete-generative-ai-masterclass-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)AI and similarity
 
 ## What is the curse of dimensionality, and why does it matter for AI?
 
@@ -126,30 +135,139 @@ A learner who has produced those numbers will not assume that feeding a model mo
 
 Questions like that come from having written the distance function yourself, which is why Smethwick teenagers still gain from learning to code while AI tools write so much of it. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Lesson format
+
 ## What a Smethwick learner needs, and what we provide
 
 Bring a computer with a working camera and microphone. We bring the tutor, the plan and the projects.
 
-- **Learner at the controls** The student shares their screen and does the building. The tutor questions, hints and waits.
-- **Placed by a real lesson** We decide the course after watching the learner work for one free session, not from a form.
-- **No charge to try** That first session is complete and unpaid, and you leave with a named course.
-- **Same-level classmates** Group classes hold fifteen to twenty learners from around the UK who are at one stage.
-- **Term-time rhythm** Two sessions in most weeks, paused for the Sandwell school holidays you tell us about.
-- **UK time, always** Tutors shift their own clocks when British Summer Time starts and ends.
+### Learner at the controls
 
-**Why we teach by video** Matching by level matters more than matching by postcode. Drawing each class from the whole country lets a Smethwick learner sit with true peers.
+The student shares their screen and does the building. The tutor questions, hints and waits.
+
+### Placed by a real lesson
+
+We decide the course after watching the learner work for one free session, not from a form.
+
+### No charge to try
+
+That first session is complete and unpaid, and you leave with a named course.
+
+### Same-level classmates
+
+Group classes hold fifteen to twenty learners from around the UK who are at one stage.
+
+### Term-time rhythm
+
+Two sessions in most weeks, paused for the Sandwell school holidays you tell us about.
+
+### UK time, always
+
+Tutors shift their own clocks when British Summer Time starts and ends.
+
+Why we teach by video
+
+Matching by level matters more than matching by postcode. Drawing each class from the whole country lets a Smethwick learner sit with true peers.
+
+Fees
 
 ## What Smethwick learners pay
 
 We publish one price list for every country other than India, and it applies here.
 
-- First class: USD 0. A full first lesson, free, with a course recommendation.
-- Group tuition: USD 100 a month. Class of fifteen to twenty, roughly eight sessions each month.
-- Private tuition: USD 150 a month. Individual tuition, roughly eight sessions each month.
+First class**USD 0**
+
+A full first lesson, free, with a course recommendation.
+
+Group tuition**USD 100**
+
+Class of fifteen to twenty, roughly eight sessions each month.
+
+Private tuition**USD 150**
+
+Individual tuition, roughly eight sessions each month.
 
 Prices are quoted in US dollars and we do not list a sterling figure. You are invoiced only once the trial is done and a course and time are agreed; the pricing page explains holidays, missed sessions and switching between group and private.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Smethwick%20and%20would%20like%20to%20book%20a%20free%20coding%20or%20AI%20lesson.)Reviews
+
+## What West Midlands and other UK families say on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Reserve a free Smethwick lesson
+
+Send an age or school year plus whatever the learner is curious about. We might open with a card-sorting puzzle, a Scratch game drafted with an AI, a first Python loop, or a distance calculation on real areas.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Smethwick one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Smethwick%20and%20would%20like%20to%20book%20a%20free%20coding%20or%20AI%20lesson.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Smethwick questions answered
+
+On the similarity project, the courses, vibe coding and how lessons are arranged.
 
 ### How many people live in Smethwick?
 
@@ -191,10 +309,14 @@ The trial lesson is free. A group place is USD 100 a month and private lessons a
 
 Yes. Give us the dates and those weeks are left empty.
 
+Keep exploring
+
 ## Other pages around the West Midlands
 
 Each has a project of its own: [West Bromwich](/vibe-coding-and-ai-agents-classes-in-west-bromwich) (an agent that must not double-count areas), [Dudley](/online-coding-and-python-classes-in-dudley) and [Walsall](/best-coding-and-ai-classes-in-walsall). For the rest of the country, start at the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Ask us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Smethwick%20and%20would%20like%20to%20book%20a%20free%20coding%20or%20AI%20lesson.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-and-ai-classes-in-smethwick](https://learn.modernagecoders.com/best-coding-and-ai-classes-in-smethwick#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-smethwick*

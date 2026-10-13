@@ -4,46 +4,32 @@ description: "Live online coding, Python and AI classes across County Sligo, fro
 canonical: https://learn.modernagecoders.com/coding-classes-in-county-sligo
 source: src/pages/coding-classes-in-county-sligo.html
 ---
-> County Sligo holds 70,198 people, 4,663 more than in 2016. Sligo town accounts for 20,608 of them and the rest are spread thinly, from Tubbercurry at 2,307 down to villages of a few hundred. The county has an older profile than most, with 12,903 people aged 65 or over, and no Gaeltacht. Our teaching runs live, one hour a week at a fixed time, in ability groups of fifteen to twenty or one to one, from age six through to sixty-seven. The first lesson is free, then USD 100 a month in a group or USD 150 privately.
+> Live online coding, Python and AI classes across County Sligo, from Sligo town and Tubbercurry to Ballymote, Strandhill and Coolaney, ages 6 to 67.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [County Mayo](/coding-classes-in-county-mayo) / County Sligo
-
-County Sligo, Connacht / Live online
-
-# Coding classes in County Sligo
-
-**What are the best coding classes in County Sligo?** County Sligo holds 70,198 people, 4,663 more than in 2016. Sligo town accounts for 20,608 of them and the rest are spread thinly, from Tubbercurry at 2,307 down to villages of a few hundred. The county has an older profile than most, with 12,903 people aged 65 or over, and no Gaeltacht. Our teaching runs live, one hour a week at a fixed time, in ability groups of fifteen to twenty or one to one, from age six through to sixty-seven. The first lesson is free, then USD 100 a month in a group or USD 150 privately.
-
-The average age in County Sligo is 40.7 years. Now look at its towns. Coolaney averages 31.8. Rosses Point and Enniscrone both average 45.3. That is a spread of thirteen and a half years inside one small county, and the county figure sits in the middle describing none of them. Push a little further and it gets stranger. Sligo town is the biggest place here by a wide margin, and only 16.4 per cent of its residents are under 15. In Coolaney, a village of 1,155 people, the figure is 30.6 per cent, nearly double. The children of this county are not, proportionally, where the county keeps its population. An average told you none of that, and an average is usually all anybody quotes.
-
-Facts last verified 16 September 2026. Teaching is online; no County Sligo branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for County Sligo
 
 ## Four ways to begin
 
 Each starts with a free lesson from the teacher who would take the course. No card details are collected first.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Scratch projects that show the average of a set of numbers and how little it says about any one of them.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 9 to 13): Averages, ranges and spread, taught by writing the programs that calculate them.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 14 to 18): Real town-level tables, and the difference between a summary and a distribution.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (College and adult): For adults who have to report on a region without flattening the places inside it.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsScratch projects that show the average of a set of numbers and how little it says about any one of them.See the syllabus](/courses/scratch-programming-complete-course)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 9 to 13Maths Through CodingAverages, ranges and spread, taught by writing the programs that calculate them.See the syllabus](/courses/maths-through-coding)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 14 to 18Data Science for TeensReal town-level tables, and the difference between a summary and a distribution.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)College and adultData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For adults who have to report on a region without flattening the places inside it.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## An average describes nowhere
 
 Eight Sligo places, one county figure, and the gap between them.
 
-**Average age and share of children, by Sligo town, Census 2022**
-
 | Place | Average age | What stands out |
-|---|---|---|
+| --- | --- | --- |
 | County Sligo as a whole | 40.7 | Up from 39.2 in 2016, against a national 38.8 |
 | Sligo town, 20,608 people | 39.8 | Only 16.4% under 15, the smallest share of children of the towns checked |
 | Coolaney, 1,155 people | 31.8 | 30.6% under 15, nearly double the town's share |
@@ -69,14 +55,14 @@ Almost every decision made about a place is made from a summary figure. Average 
 
 The extension is a real question rather than an exercise. If you were starting a class for twelve year olds in this county, and you only had the county average to go on, where would you put it? Then look at the town figures and answer again. The two answers are different, and understanding why is the point of the whole project.
 
+The county today
+
 ## A small county with a big town in it
 
 Quoted from Central Statistics Office releases that name Sligo.
 
-**County Sligo at the 2022 census**
-
 | Counted | Number |
-|---|---|
+| --- | --- |
 | People in the county | 70,198, up 4,663 since 2016, growing slightly slower than the State |
 | Aged 65 or over | 12,903, an increase of 21% |
 | Able to speak Irish, aged three and over | 26,506, up from 25,196, or 41.5% of that group |
@@ -98,14 +84,14 @@ Non-Irish citizens make up 9% of the county, led by UK citizens at 1,599 and Pol
 
 Sligo has no Gaeltacht area. The statistics office defines the Gaeltacht as a set of electoral divisions in seven named counties and Sligo is not among them, so no part of this county is classified that way. That matters for a page like this only because it is the kind of detail people assume rather than check, and the check takes about a minute in the source itself.
 
+Work, study and travel
+
 ## Health, manufacturing and a short commute
 
 What Sligo does for a living, and how long it takes to get there.
 
-**Working in Sligo, Census 2022**
-
 | What the CSO reported | Figure |
-|---|---|
+| --- | --- |
 | Largest employment sector | Human health and social work, with almost 4,600 workers |
 | Next two | Manufacturing at just over 3,600 and wholesale and retail at almost 3,500 |
 | Unemployment | 8%, down from 14% in 2016 |
@@ -125,7 +111,11 @@ The average age at which people finished full time education rose from 19.9 year
 
 No County Sligo school appears among the forty on the first national list for Leaving Certificate Computer Science. We read the full table and searched it. The nearest entries are in Mayo and Galway.
 
-**Why the short commute still argues for online** Sligo commutes are not long by Irish standards, at 23.4 minutes on average, and nearly 7,700 people travel under fifteen minutes. That is a genuine advantage for anything happening in Sligo town. It is no help at all in Coolaney, Ballymote, Enniscrone or Tubbercurry, where the children are proportionally more numerous and the options are fewer. An online class does not care which of those two situations a family is in, which is the entire point of it.
+Why the short commute still argues for online
+
+Sligo commutes are not long by Irish standards, at 23.4 minutes on average, and nearly 7,700 people travel under fifteen minutes. That is a genuine advantage for anything happening in Sligo town. It is no help at all in Coolaney, Ballymote, Enniscrone or Tubbercurry, where the children are proportionally more numerous and the options are fewer. An online class does not care which of those two situations a family is in, which is the entire point of it.
+
+Sligo addresses
 
 ## Four places, one routing key
 
@@ -145,14 +135,37 @@ Sligo MacDiarmada station on Lord Edward Street is F91 K752, open 24 hours with 
 
 All four share the routing key F91, which is the part of an eircode identifying the principal post town rather than the individual building. It is a small, checkable thing, and it is the sort of pattern worth noticing before assuming: four independent organisations, four separate websites, one key. We are not connected with any of them, nor with Sligo County Council, nor with any school. Population, work and education figures are quoted from Central Statistics Office releases naming Sligo, and the spread calculations in the project are our own, made on published town-level tables. Sligo County Council publishes no datasets on the national portal, which we checked directly, so nothing in this page depends on council data.
 
+Learning ladder
+
 ## From one number to the whole shape
 
 Ages guide the grouping; the free lesson decides it.
 
-- **Ages 6 to 10: Middles and extremes** Programs that find the average of a list and then show what the list actually looks like. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 11 to 13: Range and spread** Why two very different sets of numbers can share an average, using real Sligo towns. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 14 to 18: Distributions in code** Building the picture behind a summary and writing what the summary is good for. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Reporting without flattening** Presenting a regional figure while making the variation inside it visible. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### Middles and extremes
+
+Programs that find the average of a list and then show what the list actually looks like.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 11 to 13
+
+### Range and spread
+
+Why two very different sets of numbers can share an average, using real Sligo towns.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### Distributions in code
+
+Building the picture behind a summary and writing what the summary is good for.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Reporting without flattening
+
+Presenting a regional figure while making the variation inside it visible.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## Ask how old County Sligo is and you will be told 40.7
 
@@ -164,30 +177,139 @@ The fix is not a better tool. It is a better second question: what is the range,
 
 That habit of asking for the shape rather than the summary is most of what separates somebody who uses data from somebody who is used by it. The longer argument is in [whether coding is still worth learning in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How the class runs, from Ballymote to Strandhill
 
 Six plain facts about the format.
 
-- **One live hour a week** A teacher is present throughout and the learner is expected to talk, not to watch.
-- **Reaching the small places** Coolaney, Ballymote and Tubbercurry have proportionally more children and fewer options than Sligo town. Online removes that difference entirely.
-- **Ability groups of fifteen to twenty** Learners placed at one level, gathered across Sligo and several other countries, so a proper peer group exists at a workable hour.
-- **What is needed** A laptop or desktop, working sound and a connection good enough for video, which the free lesson tests directly.
-- **Irish school stages** Junior Cycle, Transition Year and senior cycle, with exam weeks and mid-terms planned around.
-- **Our hours** Afternoons, evenings and weekend mornings, taught by a team working several hours ahead of Irish time.
+### One live hour a week
 
-**Small numbers, real consequence** Rosses Point has 883 people and Coolaney 1,155. In places that size there may be two or three children in a given school year with a serious interest in programming, and they may not be in the same year or the same school. That is not enough for a class in a room anywhere, at any price. Gathering those learners with others at the same level, from across the county and beyond it, is the only way the right group ever comes into existence.
+A teacher is present throughout and the learner is expected to talk, not to watch.
+
+### Reaching the small places
+
+Coolaney, Ballymote and Tubbercurry have proportionally more children and fewer options than Sligo town. Online removes that difference entirely.
+
+### Ability groups of fifteen to twenty
+
+Learners placed at one level, gathered across Sligo and several other countries, so a proper peer group exists at a workable hour.
+
+### What is needed
+
+A laptop or desktop, working sound and a connection good enough for video, which the free lesson tests directly.
+
+### Irish school stages
+
+Junior Cycle, Transition Year and senior cycle, with exam weeks and mid-terms planned around.
+
+### Our hours
+
+Afternoons, evenings and weekend mornings, taught by a team working several hours ahead of Irish time.
+
+Small numbers, real consequence
+
+Rosses Point has 883 people and Coolaney 1,155. In places that size there may be two or three children in a given school year with a serious interest in programming, and they may not be in the same year or the same school. That is not enough for a class in a room anywhere, at any price. Gathering those learners with others at the same level, from across the county and beyond it, is the only way the right group ever comes into existence.
+
+Fees
 
 ## What Sligo families pay
 
 Three figures, with the terms in plain sight.
 
-- First class: USD 0. A complete first lesson at no cost, which ends with a level and a recommendation.
-- Group tuition: USD 100 a month. A month of group classes, about eight lessons, fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. A month of one to one teaching on the same weekly pattern.
+First class**USD 0**
+
+A complete first lesson at no cost, which ends with a level and a recommendation.
+
+Group tuition**USD 100**
+
+A month of group classes, about eight lessons, fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+A month of one to one teaching on the same weekly pattern.
 
 We bill monthly in US dollars at the single rate charged outside India, so Enniscrone pays what Sligo town pays and no second price list exists. Nothing is charged until a course and an hour have been agreed in the free lesson, and the pricing page sets out pauses, missed lessons and changes of format.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20County%20Sligo.)Reviews
+
+## Six Google reviews left by our families, printed as they were written
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Ask for a free lesson
+
+Tell us the learner's age and what draws them. The first hour is shaped around it, from a Scratch project about averages to a real set of town figures that refuse to agree with each other.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented County Sligo one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20County%20Sligo.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## County Sligo coding class questions
+
+What Sligo families ask before starting.
 
 ### How many people live in County Sligo?
 
@@ -229,10 +351,14 @@ The first lesson is free. After that a shared place costs USD 100 a month and br
 
 Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
+Explore Ireland
+
 ## The north west and Connacht
 
 Sligo's neighbours with their own pages are [County Mayo](/coding-classes-in-county-mayo), [County Donegal](/coding-classes-in-county-donegal) and [County Galway](/coding-classes-in-county-galway). To compare online schools, read [best online coding classes in Ireland](/best-online-coding-classes-ireland), and the whole cluster is indexed on the [Ireland coding page](/coding-classes-in-ireland).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20County%20Sligo.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-county-sligo](https://learn.modernagecoders.com/coding-classes-in-county-sligo#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-county-sligo*

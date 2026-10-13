@@ -4,34 +4,28 @@ description: "Live online Java classes in the Netherlands for teens and adults, 
 canonical: https://learn.modernagecoders.com/java-classes-netherlands
 source: src/pages/java-classes-netherlands.html
 ---
-> Modern Age Coders teaches Java live online to learners in the Netherlands: teenagers preparing for AP Computer Science A, students on university programming courses, and adults moving into back-end or enterprise development. Learners write Java from the first lesson, move on to object-oriented design and data structures, and, for adults, to Spring Boot. AP candidates work through the course College Board sets, which uses a subset of the Java language, towards the exam on 12 May 2027. Lessons are in English, in groups of fifteen to twenty or one to one. The first lesson is free; after it a group place is USD 100 a month and private tuition USD 150.
+> Live online Java classes in the Netherlands for teens and adults, including AP Computer Science A preparation for the May 2027 exam. First lesson free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the Netherlands](/coding-classes-in-netherlands) / Java
+In short
 
-Netherlands · Java · Teens and adults
+Modern Age Coders teaches Java live online to learners in the Netherlands: teenagers preparing for AP Computer Science A, students on university programming courses, and adults moving into back-end or enterprise development. Learners write Java from the first lesson, move on to object-oriented design and data structures, and, for adults, to Spring Boot. AP candidates work through the course College Board sets, which uses a subset of the Java language, towards the exam on 12 May 2027. Lessons are in English, in groups of fifteen to twenty or one to one. The first lesson is free; after it a group place is USD 100 a month and private tuition USD 150.
 
-# Java classes in the Netherlands
-
-Most learners should start with Python. Some should start with Java, and they usually know who they are. A teenager at an American-curriculum school preparing for AP Computer Science A has no choice: College Board teaches and examines the course in Java, and the 2027 exam falls on 12 May. A university student facing a first-year course in object-oriented programming, an adult heading for back-end or enterprise software, or a teenager who wants to understand how large, structured programs are built, all benefit from Java's strict, explicit style. This page is for those learners in the Netherlands, taught live online and in English, with a teacher who knows exactly where AP candidates lose marks and where university first-years get stuck.
-
-At a glance: Language: Java; For: AP candidates, students, adults; AP exam: 12 May 2027; Covers: Objects, data structures, Spring Boot; Format: Live video with a teacher; Groups: Fifteen to twenty, or one to one; Language of teaching: English; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three Java courses for three different goals
 
 One for teenagers, including AP candidates, one for university students and adults, and one for the data structures every Java programmer is examined on. Each opens its own page.
 
-- [Java for Teens](/courses/java-programming-masterclass-for-teens): Java from the beginning to the object-oriented depth AP Computer Science A expects, with practice on the kind of free-response questions the exam sets.
-- [Java Course for College](/courses/complete-java-programming-masterclass-college): Core Java to Spring Boot for students and adults, from a first class to a working back-end service.
-- [Data Structures and Algorithms](/courses/data-structures-algorithms-masterclass-college): Lists, trees, maps and sorting, reasoned out with their costs, the material first-year exams and technical interviews test.
+[![Java for Teens course thumbnail](/images/java-teens.webp)  JAVA / 01 Java for Teens Java from the beginning to the object-oriented depth AP Computer Science A expects, with practice on the kind of free-response questions the exam sets. Open the syllabus →](/courses/java-programming-masterclass-for-teens)[![Java Course for College course thumbnail](/images/java-college.webp)  JAVA / 02 Java Course for College Core Java to Spring Boot for students and adults, from a first class to a working back-end service. Open the syllabus →](/courses/complete-java-programming-masterclass-college)[![Data Structures & Algorithms Course course thumbnail](/images/dsa-college.webp)  JAVA / 03 Data Structures and Algorithms Lists, trees, maps and sorting, reasoned out with their costs, the material first-year exams and technical interviews test. Open the syllabus →](/courses/data-structures-algorithms-masterclass-college)
+
+AP Computer Science A
 
 ## AP Computer Science A is taught in Java, and its 2027 exam is on 12 May
 
 For families at American-curriculum schools in the Netherlands, AP Computer Science A is the most common reason to learn Java. The details below come from College Board's own course page and from the American School of The Hague.
 
-**AP Computer Science A and where it is offered in the Netherlands**
-
 | Item | Detail | Source |
-|---|---|---|
+| --- | --- | --- |
 | Language of the course | A subset of the Java programming language | College Board |
 | College equivalent | A one-semester, introductory college course in computer science | College Board |
 | 2027 exam date | Wednesday 12 May 2027, session 2 | College Board |
@@ -50,6 +44,8 @@ We have no connection with College Board or with ASH. AP is a registered tradema
 
 Sources: [College Board, AP Computer Science A](https://apstudents.collegeboard.org/courses/ap-computer-science-a); [American School of The Hague, about](https://www.ash.nl/about); [ASH, AP and IB courses](https://www.ash.nl/academics/high-school/posts). Read 15 September 2026.
 
+Java or Python?
+
 ## When Java is the right language, and when Python is
 
 We teach both, and we would rather a learner start with the right one than the one we happen to be selling. This is how we advise families and adults.
@@ -66,10 +62,8 @@ Java makes a programmer declare types and organise code into classes. That stric
 
 For a learner aiming at data science or machine learning, Python is the better first language, because the tools of that field are written for it. Our [Python classes](/python-classes-netherlands) cover that route.
 
-**A quick guide to the first language**
-
 | Goal | Start with | Why |
-|---|---|---|
+| --- | --- | --- |
 | AP Computer Science A | Java | The course and exam use a subset of Java |
 | A university first-year course in Java | Java | Learn the language the exam is in |
 | Back-end or enterprise software | Java | Widely used in large, long-lived systems |
@@ -85,6 +79,8 @@ Adults moving into back-end development meet a third kind of difficulty: the siz
 
 Whichever group a learner belongs to, the aim is the same: to read and write Java confidently enough that the exam, the course or the job becomes a place to show that skill rather than to acquire it under pressure.
 
+Java routes
+
 ## Java for teenagers, students and adults in the Netherlands
 
 The same language, taught towards three different ends.
@@ -97,14 +93,14 @@ University students will find the foundations and the interview material on [cod
 
 The [Hague academy page](/ai-and-python-academy-the-hague) covers AI and Python in the region where many international families live.
 
+The Java ladder
+
 ## From a first class to object-oriented design and back-end services
 
 Java rewards a careful order. A learner who rushes to frameworks without understanding objects and types spends months debugging what a week of fundamentals would have prevented.
 
-**The Java route**
-
 | Rung | Usually | What the learner can do |
-|---|---|---|
+| --- | --- | --- |
 | 1. First Java | Teenagers and beginners | Variables, conditions, loops and methods in a first class |
 | 2. Objects | After rung 1 | Classes, objects, inheritance and interfaces used deliberately |
 | 3. Data structures | AP candidates, students | Arrays, lists and maps, with the cost of each operation |
@@ -114,61 +110,277 @@ Java rewards a careful order. A learner who rushes to frameworks without underst
 ### Why objects come before frameworks
 
 Frameworks such as Spring Boot hide a great deal of Java behind conventions. A learner who understands objects, interfaces and types can see through the conventions; one who does not can only copy them.
+
 The complete order of subjects is on the [coding roadmap](/coding-roadmap).
 
 ### Timing for AP candidates
 
 Most AP candidates start well before grade 11, so that the exam year is revision rather than first contact. In the weeks before the May exam, lessons turn to timed free-response practice.
+
 Students on Dutch university courses usually take lessons in the block before the Java exam.
+
+The catalogue
 
 ## Seven live courses around Java
 
 Each card opens the full course page with its schedule and fee; the free lesson decides where a learner begins.
 
+I
+
 ### Java for teenagers
 
 Including AP Computer Science A
 
-- [Java for Teens](/courses/java-programming-masterclass-for-teens): Java from zero to object-oriented programs, with AP-style practice for those who need it.
-- [Git and GitHub for Teens](/courses/git-github-version-control-course-for-teens): Version control for every Java project, and a public portfolio from the start.
+JAVA / TEEN / 01
+
+#### Java for Teens
+
+Java from zero to object-oriented programs, with AP-style practice for those who need it.
+
+[Open the syllabus](/courses/java-programming-masterclass-for-teens)
+
+JAVA / TEEN / 02
+
+#### Git and GitHub for Teens
+
+Version control for every Java project, and a public portfolio from the start.
+
+[Open the syllabus](/courses/git-github-version-control-course-for-teens)II
 
 ### Java for students and adults
 
 Core Java to back-end services
 
-- [Java Course for College](/courses/complete-java-programming-masterclass-college): Core Java through Spring Boot, for university courses and software careers.
-- [Data Structures and Algorithms](/courses/data-structures-algorithms-masterclass-college): The structures and reasoning Java exams and interviews test.
-- [Git and GitHub for College Students](/courses/git-github-version-control-course-for-college-students): Team workflows for Java projects: branches, reviews and pull requests.
+JAVA / PRO / 01
+
+#### Java Course for College
+
+Core Java through Spring Boot, for university courses and software careers.
+
+[Open the syllabus](/courses/complete-java-programming-masterclass-college)
+
+JAVA / PRO / 02
+
+#### Data Structures and Algorithms
+
+The structures and reasoning Java exams and interviews test.
+
+[Open the syllabus](/courses/data-structures-algorithms-masterclass-college)
+
+JAVA / PRO / 03
+
+#### Git and GitHub for College Students
+
+Team workflows for Java projects: branches, reviews and pull requests.
+
+[Open the syllabus](/courses/git-github-version-control-course-for-college-students)III
 
 ### Beyond Java
 
 Related languages
 
-- [Kotlin and Android Course](/courses/complete-kotlin-programming-masterclass-professional): Kotlin, Java's modern partner on Android, for learners heading into mobile development.
-- [Python for Teens](/courses/python-complete-masterclass-teens): The better first language for data and AI, for teenagers who want both.
+JAVA / NEXT / 01
+
+#### Kotlin and Android Course
+
+Kotlin, Java's modern partner on Android, for learners heading into mobile development.
+
+[Open the syllabus](/courses/complete-kotlin-programming-masterclass-professional)
+
+JAVA / NEXT / 02
+
+#### Python for Teens
+
+The better first language for data and AI, for teenagers who want both.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+How the classes run
 
 ## Java lessons around school, university and work
 
 Our teachers work from India, which does not change its clocks, so the gap to the Netherlands is four and a half hours in winter and three and a half from late March to late October. AP candidates usually learn after school, students and adults in the evening or at the weekend, at a regular time agreed in the free lesson.
 
-- **After school** Late afternoon, Dutch time, for teenagers and AP candidates.
-- **Evening** By arrangement, for university students and adults.
-- **Weekend** Saturday or Sunday, popular for exam practice.
+After school
 
-- **A free first lesson** The learner writes Java with the teacher, who sees their level and, for AP candidates, how far they are from exam standard.
-- **Groups of fifteen to twenty** Learners at the same level from several countries, often including other AP candidates.
-- **One to one for exams** For AP preparation close to the exam, a university resit, or an adult with a specific goal.
-- **Code explained aloud** Learners explain their classes and methods as they write them, the skill free-response questions reward.
-- **In English** Java, AP and university materials are in English; so are the lessons.
-- **Every project kept** All code goes into the learner's own GitHub repository.
+Late afternoon, Dutch time, for teenagers and AP candidates.
+
+Evening
+
+By arrangement, for university students and adults.
+
+Weekend
+
+Saturday or Sunday, popular for exam practice.
+
+### A free first lesson
+
+The learner writes Java with the teacher, who sees their level and, for AP candidates, how far they are from exam standard.
+
+### Groups of fifteen to twenty
+
+Learners at the same level from several countries, often including other AP candidates.
+
+### One to one for exams
+
+For AP preparation close to the exam, a university resit, or an adult with a specific goal.
+
+### Code explained aloud
+
+Learners explain their classes and methods as they write them, the skill free-response questions reward.
+
+### In English
+
+Java, AP and university materials are in English; so are the lessons.
+
+### Every project kept
+
+All code goes into the learner's own GitHub repository.
+
+Student work
+
+## Projects our students built
+
+Four live projects by our students. More on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Java lesson fees
 
 Monthly, in US dollars, the same in every country outside India. No enrolment fee and no annual contract. AP preparation costs the same as any other course.
 
-- Free first class: USD 0. A real Java lesson. An honest view of the starting level. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same live teacher each week. Code reviewed every week. A certificate at the end.
-- One to one: USD 150 a month. A teacher for one learner. Paced to the exam or deadline. Ideal for AP in the final months.
+Free first class
+
+USD 0
+
+no card required
+
+- A real Java lesson
+- An honest view of the starting level
+- No card needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners at one level
+- The same live teacher each week
+- Code reviewed every week
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one learner
+- Paced to the exam or deadline
+- Ideal for AP in the final months
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Taken from Google without changes. We do not write or pay for reviews.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about Java
 
 ## What families, students and adults in the Netherlands ask about Java
 
@@ -212,15 +424,54 @@ After school, in the evening or at the weekend, Dutch time. Teachers are four an
 
 We call at a Dutch hour to arrange the free lesson. Nothing is charged unless you decide to continue.
 
+Elsewhere on this site
+
 ## More about Java and programming in the Netherlands
 
-- [Java classes for teens](/java-classes-for-teens): Java for teenagers, including AP preparation.
-- [Java classes for adults](/java-classes-for-adults): Java for adults heading into software careers.
-- [Java projects for students](/java-projects-for-students): Project ideas once the basics are secure.
-- [Python classes in the Netherlands](/python-classes-netherlands): The better first language for data and AI.
-- [Coding for college students](/coding-for-college-students-netherlands): Algorithms, Git and software beside a degree.
-- [Coding classes in Wassenaar](/coding-classes-in-wassenaar): The town where the American School of The Hague stands.
+Related pages for each kind of Java learner.
 
-## Contact
+### [Java classes for teens](/java-classes-for-teens)
 
-Book the free first class at [https://learn.modernagecoders.com/java-classes-netherlands](https://learn.modernagecoders.com/java-classes-netherlands#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Java for teenagers, including AP preparation.
+
+### [Java classes for adults](/java-classes-for-adults)
+
+Java for adults heading into software careers.
+
+### [Java projects for students](/java-projects-for-students)
+
+Project ideas once the basics are secure.
+
+### [Python classes in the Netherlands](/python-classes-netherlands)
+
+The better first language for data and AI.
+
+### [Coding for college students](/coding-for-college-students-netherlands)
+
+Algorithms, Git and software beside a degree.
+
+### [Coding classes in Wassenaar](/coding-classes-in-wassenaar)
+
+The town where the American School of The Hague stands.
+
+Start here
+
+## Book a free Java lesson
+
+Leave a number and we will ring at a Dutch hour. In the first lesson you write real Java with a teacher, and by the end we know where to start and, for AP candidates, how far there is to go.
+
+Would you like to read first? See [Java classes for teens](/java-classes-for-teens), [how we teach](/how-we-teach) and the [course list](/courses).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20Java%20lesson%20in%20the%20Netherlands.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp from a Dutch number is free and usually the fastest way to reach us. The number is Indian; we have no office or premises in the Netherlands.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/java-classes-netherlands*

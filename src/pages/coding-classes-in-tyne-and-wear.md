@@ -4,46 +4,32 @@ description: "Live online coding, Python and maths classes across Tyne and Wear,
 canonical: https://learn.modernagecoders.com/coding-classes-in-tyne-and-wear
 source: src/pages/coding-classes-in-tyne-and-wear.html
 ---
-> Tyne and Wear is five boroughs: Newcastle upon Tyne, Sunderland, North Tyneside, Gateshead and South Tyneside. At the 2021 Census they held 1,127,191 people between them, by our sum of the five published counts. The Newcastle built-up area is the largest, followed by Sunderland, Gateshead and South Shields. Teachers in India run every class live over video, and each learner joins the group that matches their skills, whatever their age. We teach everyone from 6 to 67, in groups of fifteen to twenty or one-to-one, in coding, Python, probability and maths. The Tyne and Wear project uses the official list of Metro stations. Lesson one is on us; stay, and a group costs USD 100 a month while one-to-one costs USD 150.
+> Live online coding, Python and maths classes across Tyne and Wear, from Newcastle, Sunderland and Gateshead to South Shields, Tynemouth, Washington and Wallsend.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Tyne and Wear
-
-Tyne and Wear / Live online
-
-# Coding classes in Tyne and Wear
-
-**What are the best coding classes in Tyne and Wear?** Tyne and Wear is five boroughs: Newcastle upon Tyne, Sunderland, North Tyneside, Gateshead and South Tyneside. At the 2021 Census they held 1,127,191 people between them, by our sum of the five published counts. The Newcastle built-up area is the largest, followed by Sunderland, Gateshead and South Shields. Teachers in India run every class live over video, and each learner joins the group that matches their skills, whatever their age. We teach everyone from 6 to 67, in groups of fifteen to twenty or one-to-one, in coding, Python, probability and maths. The Tyne and Wear project uses the official list of Metro stations. Lesson one is on us; stay, and a group costs USD 100 a month while one-to-one costs USD 150.
-
-Suppose you set out to visit every Tyne and Wear Metro station, but each trip takes you to a station chosen at random. The first few trips almost always bring somewhere new, yet the last few stations can take an age to turn up. Mathematicians call this the coupon collector problem, after collecting every card in a set. This page's project starts with the government's official register of public transport stops, discovers that the obvious way to pick out Metro stations quietly lets in eight tram stops from Edinburgh, cleans the list down to 60 stations, and then works out exactly how many random trips a full set should take.
-
-Facts last verified 26 September 2026. Teaching is online; no Tyne and Wear branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Tyne and Wear
 
 ## Where Tyne and Wear learners start
 
 A seven-year-old in Whitley Bay who collects cards, a Year 8 in Washington who wants to know the odds, a Year 12 in Gateshead working with real data, and an adult in Jarrow who handles records at work. Each starts with a free lesson.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 12): Block coding from a first Scratch game onwards, including collecting games and random events.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 15): Maths learned by coding it, with chance, averages and experiments repeated thousands of times.
-- [Statistics & Probability](/courses/statistics-probability-maths-course) (Ages 14 to 18): Statistics and probability built step by step, from expected values to long-tailed outcomes.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (Adults): Spreadsheets, statistics and SQL, then Python and dashboards, including checking and cleaning real data.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 12Coding for KidsBlock coding from a first Scratch game onwards, including collecting games and random events.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 15Maths Through CodingMaths learned by coding it, with chance, averages and experiments repeated thousands of times.See the syllabus](/courses/maths-through-coding)[![Statistics & Probability course thumbnail](/images/statistics-probability-maths.webp)Ages 14 to 18Statistics & ProbabilityStatistics and probability built step by step, from expected values to long-tailed outcomes.See the syllabus](/courses/statistics-probability-maths-course)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)AdultsData Analysis CourseSpreadsheets, statistics and SQL, then Python and dashboards, including checking and cleaning real data.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Tyne and Wear in figures
 
 ## 1,127,191 people in five boroughs
 
 Borough counts are 2021 Census figures on Nomis, and the total is our addition. The town list uses ONS built-up areas, and we cross-checked every figure by totting up census output areas ourselves.
 
-**Tyne and Wear's twelve largest built-up areas, 2021 Census**
-
 | Town | Residents | Town | Residents |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Newcastle upon Tyne | 286,445 | Wallsend | 45,355 |
 | Sunderland | 168,315 | Whitley Bay | 36,880 |
 | Gateshead | 115,280 | Jarrow | 29,470 |
@@ -57,6 +43,8 @@ Newcastle upon Tyne borough had 300,125 residents, Sunderland 274,172, North Tyn
 
 Our [Newcastle upon Tyne](/best-coding-class-in-newcastle-upon-tyne) page colours a map of wards, and [Sunderland](/best-coding-class-in-sunderland) is about skipping work that cannot matter. This page covers all five boroughs.
 
+The Tyne and Wear project
+
 ## Every Metro station by random trips
 
 An official stop register, a filter that lets in the wrong city, and the arithmetic of collecting a full set.
@@ -65,10 +53,8 @@ The learner downloads NaPTAN, the Department for Transport's national register o
 
 Now the puzzle. If each trip goes to one of 60 stations at random, the first trip is always new. After that, the chance of a new station falls as the collection grows: with 59 already seen, only 1 station in 60 is new, so that last one takes 60 trips on average. Adding up the waits for each new station gives 60 × (1 + 1/2 + 1/3 + … + 1/60), about 280.8 trips. The sum in brackets is called a harmonic number, and it grows only slowly, which is why doubling the number of stations roughly doubles the trips and adds a little more.
 
-**Collecting all 60 Metro stations by random trips, our model, 26 September 2026**
-
 | Question | Answer |
-|---|---|
+| --- | --- |
 | Expected trips for the full set, equal chances | 280.8 |
 | Trips for the first 30 new stations | About 41 |
 | Trips for the last 30 | About 240 |
@@ -93,14 +79,14 @@ Derive the harmonic formula, compare it with thousands of simulations, and study
 
 The station list comes from NaPTAN, published by the Department for Transport; we report exactly what the downloaded file contained. The random-trip model, its unequal version and all the results are ours, invented for teaching. Real Metro journeys are not random, and nothing here describes how people travel.
 
+Why the Metro
+
 ## Sixty stations from the airport to the coast
 
 The Tyne and Wear link, straight from the national stops register.
 
-**What the NaPTAN file showed for codes beginning 9400ZZTW, 26 September 2026**
-
 | Check | Result |
-|---|---|
+| --- | --- |
 | Active tram and metro stations with the prefix | 68 |
 | Named as Edinburgh Trams stops | 8, all created on 11 November 2022 |
 | Tyne and Wear Metro stations after cleaning | 60 |
@@ -111,16 +97,41 @@ Official registers are generally excellent, and still every large dataset has su
 
 Modern Age Coders has no connection with Nexus, the Department for Transport or any Tyne and Wear council. NaPTAN is the Department's; our filtering, model and any mistakes are ours.
 
-**Nearby pages** [Newcastle upon Tyne](/best-coding-class-in-newcastle-upon-tyne) and [Sunderland](/best-coding-class-in-sunderland) have their own pages; [Northumberland](/coding-classes-in-northumberland) is north and [County Durham](/coding-classes-in-county-durham) south.
+Nearby pages
+
+[Newcastle upon Tyne](/best-coding-class-in-newcastle-upon-tyne) and [Sunderland](/best-coding-class-in-sunderland) have their own pages; [Northumberland](/coding-classes-in-northumberland) is north and [County Durham](/coding-classes-in-county-durham) south.
+
+The path
 
 ## From collecting games to the maths of chance
 
 The free lesson settles where to begin. Age is a first guess; ability decides.
 
-- **Ages 6 to 10: Collect them all** Block coding games that collect items at random and count how long a full set takes. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 8 to 13: Chance in code** Typed Python with dice, cards and random picks, repeated thousands of times. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 18: Probability and data** Probability, expected values and real datasets cleaned and analysed in Python. [Statistics & Probability](/courses/statistics-probability-maths-course), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Clean data, sound conclusions** Spreadsheets, SQL and Python for adults who need to trust the numbers they report. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
+Ages 6 to 10
+
+### Collect them all
+
+Block coding games that collect items at random and count how long a full set takes.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 8 to 13
+
+### Chance in code
+
+Typed Python with dice, cards and random picks, repeated thousands of times.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 18
+
+### Probability and data
+
+Probability, expected values and real datasets cleaned and analysed in Python.
+
+[Statistics & Probability](/courses/statistics-probability-maths-course)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Clean data, sound conclusions
+
+Spreadsheets, SQL and Python for adults who need to trust the numbers they report.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)AI and messy data
 
 ## An AI can count Metro stations from a file. Would it notice eight are in Edinburgh?
 
@@ -132,30 +143,139 @@ AI systems are trained and tested on data like this, and their answers are only 
 
 So a young person in Tyne and Wear should learn to code in 2026 to check the data before trusting the answer. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How lessons run
+
 ## Both rivers, every borough, one screen
 
 Getting across Tyne and Wear for a weekly evening class takes time. Online lessons give it back.
 
-- **At home, anywhere** A terrace in Hebburn, a semi in Longbenton, a flat in Sunderland. The learner types and the teacher follows on the shared screen.
-- **The school words** A Year 9 option choice or an A level coursework deadline means the same to our teachers as to a Tyneside classroom, and every lesson is in English.
-- **Try a lesson free** A proper lesson, then clear advice on level and course. No card details are requested.
-- **A group at your level** Fifteen to twenty learners at the same stage, whether they log in from Tyneside or much further away.
-- **Pauses for holidays** Two lessons a week is usual, and we stop for your school's own holidays.
-- **Booked in UK time** Your slot stays at the same UK time all year; the teacher, whose clock runs on India time several hours ahead, adjusts at the changes.
+### At home, anywhere
 
-**Why groups follow level** Even in a county of over a million, five learners at one stage free on the same evening are rarely neighbours. Level-based groups let a learner in Whickham or Shiney Row join a class that fits.
+A terrace in Hebburn, a semi in Longbenton, a flat in Sunderland. The learner types and the teacher follows on the shared screen.
+
+### The school words
+
+A Year 9 option choice or an A level coursework deadline means the same to our teachers as to a Tyneside classroom, and every lesson is in English.
+
+### Try a lesson free
+
+A proper lesson, then clear advice on level and course. No card details are requested.
+
+### A group at your level
+
+Fifteen to twenty learners at the same stage, whether they log in from Tyneside or much further away.
+
+### Pauses for holidays
+
+Two lessons a week is usual, and we stop for your school's own holidays.
+
+### Booked in UK time
+
+Your slot stays at the same UK time all year; the teacher, whose clock runs on India time several hours ahead, adjusts at the changes.
+
+Why groups follow level
+
+Even in a county of over a million, five learners at one stage free on the same evening are rarely neighbours. Level-based groups let a learner in Whickham or Shiney Row join a class that fits.
+
+Fees
 
 ## Fees in Tyne and Wear
 
 Jarrow or Jesmond, the fee is the same, and it is the fee in every country we teach except India.
 
-- First class: USD 0. A full lesson of real work, then advice on level and course.
-- Group tuition: USD 100 a month. Around eight lessons a month with fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. Around eight lessons a month, one-to-one.
+First class**USD 0**
+
+A full lesson of real work, then advice on level and course.
+
+Group tuition**USD 100**
+
+Around eight lessons a month with fifteen to twenty learners at one level.
+
+Private tuition**USD 150**
+
+Around eight lessons a month, one-to-one.
 
 We charge in US dollars and list no pound prices. The first invoice waits until the free lesson has produced a chosen course and a regular weekly time. Our pricing page sets out what happens with holidays, a missed class, or a move from group to private.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Tyne%20and%20Wear%20and%20would%20like%20to%20try%20a%20free%20lesson%2C%20please.)Reviews
+
+## Reviews from families on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free Tyne and Wear lesson
+
+Say how old the learner is, or their school year, and what they are keen on. A first lesson might be a Scratch collecting game, a Python dice experiment, or the Metro puzzle on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Tyne and Wear one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Tyne%20and%20Wear%20and%20would%20like%20to%20try%20a%20free%20lesson%2C%20please.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Tyne and Wear questions
+
+The county, the Metro project and practical details.
 
 ### How many people live in Tyne and Wear?
 
@@ -197,10 +317,14 @@ The first lesson is free. Continuing is USD 100 per month in a group of fifteen 
 
 Yes, if you like. Each borough and each academy trust fixes its own term dates, so send us your school's and we will pause to match.
 
+Nearby
+
 ## Pages around Tyne and Wear
 
 See [Newcastle upon Tyne](/best-coding-class-in-newcastle-upon-tyne) and [Sunderland](/best-coding-class-in-sunderland), then [Northumberland](/coding-classes-in-northumberland) and [County Durham](/coding-classes-in-county-durham). The [UK hub](/coding-classes-in-united-kingdom) has everywhere else.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Tyne%20and%20Wear%20and%20would%20like%20to%20try%20a%20free%20lesson%2C%20please.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-tyne-and-wear](https://learn.modernagecoders.com/coding-classes-in-tyne-and-wear#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-tyne-and-wear*

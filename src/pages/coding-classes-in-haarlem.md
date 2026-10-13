@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes in Haarlem for ages 6 to
 canonical: https://learn.modernagecoders.com/coding-classes-in-haarlem
 source: src/pages/coding-classes-in-haarlem.html
 ---
-> Coding classes in Haarlem serve 168,898 people (Statistics Netherlands, 1 January 2026) on 29.21 square kilometres of land, which makes it the most tightly packed municipality in this series at about 5,780 residents to the square kilometre. One widely read source gives the population as 168,946 and the density as 5,036 on the same page, and those two numbers cannot both describe the same place: the division comes out at 5,265 against the total area and 5,792 against the land. Modern Age Coders teaches live online in English across every wijk, for ages 6 to 67, first lesson free, then USD 100 a month in a group of fifteen to twenty or USD 150 one-to-one.
+> Live online coding, Python and AI classes in Haarlem for ages 6 to 67, across all 21 wijken and Spaarndam. First lesson free, then one flat monthly fee.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Haarlem
-
-Haarlem, Noord-Holland / Live online
-
-# Coding classes in Haarlem, where one page publishes a population and a density that cannot both be true
-
-**What are the best coding classes in Haarlem?** Coding classes in Haarlem serve 168,898 people (Statistics Netherlands, 1 January 2026) on 29.21 square kilometres of land, which makes it the most tightly packed municipality in this series at about 5,780 residents to the square kilometre. One widely read source gives the population as 168,946 and the density as 5,036 on the same page, and those two numbers cannot both describe the same place: the division comes out at 5,265 against the total area and 5,792 against the land. Modern Age Coders teaches live online in English across every wijk, for ages 6 to 67, first lesson free, then USD 100 a month in a group of fifteen to twenty or USD 150 one-to-one.
-
-Divide 168,946 residents by 32.09 square kilometres and you get 5,265 to the square kilometre. Divide by the 29.17 of land and you get 5,792. The page that publishes all three of those numbers also publishes a density of 5,036, which is neither. Work backwards and 5,036 implies a population of about 161,605, which is Haarlem a few years ago. Nobody has lied. Somebody stored a calculated number, updated the population above it, and never recomputed the line below. A child who has caught that once will check derived figures for the rest of their life.
-
-Facts last verified 7 September 2026. Teaching is online; no Haarlem branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Haarlem
 
 ## Four courses for a city that is mostly within cycling distance of itself
 
 A groep 4 child in the Vijfhoek, a teenager in Schalkwijk who wants the page to look designed rather than defaulted, an adult retraining after years in Amsterdam offices, and a parent in the Haarlemmerhout side whose reporting pack has a stale number in it: four doors into one compact city.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Scratch from an empty stage to a finished game in three months, in English, for the groep 3 to 6 child anywhere between the Spaarne and Schalkwijk.
-- [Frontend Development for Teens](/courses/frontend-development-masterclass-for-teens) (Ages 13 to 18): Real CSS, then JavaScript, then React, for the teenager who has noticed that every template looks the same and wants out of it.
-- [Full Stack Developer Course](/courses/full-stack-web-development-masterclass-college) (College and adult): React, Node and a live deployment, for the student or career-changer who wants something running at a real address by the end.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (Adults): Excel, SQL, Python and BI, for the working parent whose monthly pack contains at least one number nobody has recalculated since it was written.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsScratch from an empty stage to a finished game in three months, in English, for the groep 3 to 6 child anywhere between the Spaarne and Schalkwijk.See the syllabus](/courses/scratch-programming-complete-course)[![Frontend Development for Teens course thumbnail](/images/frontend-teens.webp)Ages 13 to 18Frontend Development for TeensReal CSS, then JavaScript, then React, for the teenager who has noticed that every template looks the same and wants out of it.See the syllabus](/courses/frontend-development-masterclass-for-teens)[![Full Stack Developer Course course thumbnail](/images/full-stack-development-college.webp)College and adultFull Stack Developer CourseReact, Node and a live deployment, for the student or career-changer who wants something running at a real address by the end.See the syllabus](/courses/full-stack-web-development-masterclass-college)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)AdultsData Analysis CourseExcel, SQL, Python and BI, for the working parent whose monthly pack contains at least one number nobody has recalculated since it was written.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Haarlem today
 
 ## The provincial capital, twenty minutes from Amsterdam, and packed tight
 
@@ -52,7 +40,11 @@ The national register held 168,898 people on 1 January 2026, in 81,464 household
 
 Haarlem is the seat of Noord-Holland, a province whose largest city is Amsterdam by a wide margin. It has city rights from 1245, granted by Count Willem the Second of Holland, and its own entry calls it one of the most densely populated cities in the country.
 
-**Four centuries of measurement in one square** The Grote of Sint-Bavokerk was built between 1370 and 1520, its crossing tower stands at over 78 metres, and its Christian Müller organ of 1735 to 1738 has about five thousand pipes. Frans Hals, Pieter Saenredam, Jan Adriaanszoon Leeghwater, Pieter Teyler van der Hulst and Willem Bilderdijk are buried in it. Teylers Museum, founded in 1784 and holding the oldest Dutch museum hall with a near-original interior, recorded 157,843 visitors in 2016.
+Four centuries of measurement in one square
+
+The Grote of Sint-Bavokerk was built between 1370 and 1520, its crossing tower stands at over 78 metres, and its Christian Müller organ of 1735 to 1738 has about five thousand pipes. Frans Hals, Pieter Saenredam, Jan Adriaanszoon Leeghwater, Pieter Teyler van der Hulst and Willem Bilderdijk are buried in it. Teylers Museum, founded in 1784 and holding the oldest Dutch museum hall with a near-original interior, recorded 157,843 visitors in 2016.
+
+Where the learners are
 
 ## Twenty-one wijken, two woonplaatsen, and nothing more than a few kilometres away
 
@@ -84,6 +76,8 @@ The second woonplaatsen of the municipality out towards the north-east, a villag
 
 All of it is taught at one hour, and the wijk on the address has never been an input to which group a learner joins.
 
+Verified local facts
+
 ## Every figure and its office, including the three densities that do not agree
 
 The national count, the municipal entry, the church, the museum, and the arithmetic that shows which published number was left behind.
@@ -114,6 +108,8 @@ The Haarlemmerhout, the municipal forest on the edge of the city, described in i
 
 Modern Age Coders has no connection to the municipality, the museum, the church or any school named here and claims none. They appear because a page that says it teaches Haarlem should be willing to check the arithmetic of the sources it leans on.
 
+Signature project
+
 ## A density that will not divide: build the program that recomputes instead of trusting
 
 Three published numbers on one page, one division, and an answer that shows which of them was last updated.
@@ -130,10 +126,8 @@ If the density is 5,036 and the area is 32.09, the population it was computed fr
 
 The national source publishes 5,777 and its own inputs give 5,782, agreeing to within a rounding of the area. So one publisher recomputes the derived value when the inputs change and the other does not. The lesson is not that either is careless; it is that a stored derived number carries a date its label does not show.
 
-**One city, two sources, and four densities**
-
 | Density | Where it comes from | Population implied | Area implied | Consistent with its own page? |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | 5,782 | this page dividing 168,898 by 29.21 | 168,898 | 29.21 km2 of land | yes |
 | 5,777 | published by the national source | about 168,898 | about 29.24 km2 | yes, to within rounding |
 | 5,265 | this page dividing 168,946 by 32.09 | 168,946 | 32.09 km2 in total | yes, if total area is meant |
@@ -143,14 +137,14 @@ The national source publishes 5,777 and its own inputs give 5,782, agreeing to w
 
 Density, averages per head, growth rates, ratios and percentages are all calculated from other values, and the moment they are written down they stop tracking those values. Update the population and the density beside it goes quietly wrong, with no error message and no visible change. The defence has two parts, and both are cheap. Recompute derived values from stored inputs rather than storing the result, so that they cannot drift. And when you meet a derived figure you did not compute, divide it back out and see what inputs it implies, because that tells you when it was made. The four rows above were computed before this paragraph was written, from figures each source publishes about itself; the implied populations are inversions of the published density, not claims about how many people have ever lived here.
 
+Reliable pipeline
+
 ## Five habits for any number somebody else calculated
 
 Conversion rates in a deck, cost per unit in a price list, margins in a model, scores in a dashboard: every one is a division somebody did once. Practised on the entry for the city the learner lives in.
 
-**When the number in front of you is a result, not an input**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Identify the derived | Mark which figures are inputs and which are results of arithmetic | A density trusted like a headcount | A map of what can drift |
 | Recompute on sight | Redo the division from the inputs on the same page | A stale result carried forward for years | Agreement, or a question |
 | Invert the discrepancy | Solve for the input that would produce the published result | A vague sense that something is off | The approximate date of the error |
@@ -171,14 +165,37 @@ The same check on a reporting pack from work: recompute every percentage and per
 
 The population, household, area, school, church and museum figures come from the offices and entries named beside them. The 5,782, the 5,265, the implied 161,605 and the implied 146,900 are this page dividing and inverting those published figures, and each is presented as arithmetic rather than as a claim about the city.
 
+Learning ladder
+
 ## From a mislabelled sweet jar to a checker that recomputes every derived cell
 
 The rung is fixed during the free hour, and the wijk on the address has nothing to do with it.
 
-- **Ages 6 to 10: The label nobody updated** Children find the gap between what a label says and what is actually in the jar. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 11 to 13: Recompute before believing** Learners redo a published division and say whether the two agree. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 14 to 18: Functions, not fields** Teenagers make density a function of its inputs and invert a published figure to date it. [Frontend Development for Teens](/courses/frontend-development-masterclass-for-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
-- **Ages 18 to 67: Hard-coded cells at work** Adults rebuild a reporting pack so every derived value is computed rather than typed. [Full Stack Developer Course](/courses/full-stack-web-development-masterclass-college), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### The label nobody updated
+
+Children find the gap between what a label says and what is actually in the jar.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 11 to 13
+
+### Recompute before believing
+
+Learners redo a published division and say whether the two agree.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### Functions, not fields
+
+Teenagers make density a function of its inputs and invert a published figure to date it.
+
+[Frontend Development for Teens](/courses/frontend-development-masterclass-for-teens)[Data Science for Teens](/courses/data-science-course-for-teens-python-data)Ages 18 to 67
+
+### Hard-coded cells at work
+
+Adults rebuild a reporting pack so every derived value is computed rather than typed.
+
+[Full Stack Developer Course](/courses/full-stack-web-development-masterclass-college)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## An AI will quote you Haarlem's density without dividing anything. Why should a child here learn to do the division?
 
@@ -190,30 +207,139 @@ That is why the learner writes it. The tool will happily compute the density, in
 
 The case for a Haarlem child learning to code in 2026 is therefore not about geography. It is that most numbers in working life are results of arithmetic somebody did once, that they go stale silently when their inputs move, and that the habit of recomputing before believing is best learned on a page describing the street the child lives on. The longer argument is in [the longer case for teaching a child to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for a city where nothing is far and every hour is spoken for
 
 Haarlem is small enough to cross by bicycle in half an hour, so distance is not the obstacle here. Time is: two working parents, a train to Amsterdam and a diary with no gaps in it.
 
-- **No journey to schedule around** The lesson happens at the kitchen table in Schalkwijk, the Vijfhoek or Spaarndam at one fixed hour, and no part of the evening is spent getting anywhere.
-- **English throughout, Dutch school words kept** Teaching is in English. Groep, havo, vwo and profielkeuze are said as the child's school says them, and nothing is translated in either direction.
-- **What the first hour settles** A piece of work that shows the real level, a named course that follows from it, and a weekly slot, arranged without any payment details.
-- **Grouped by level, not by stadsdeel** Two learners at the same stage sit together whether one is in Haarlem-Noord and the other by the Hout; two at different stages do not, however close they live.
-- **Two lessons a week, on the northern calendar** Usually eight lessons a month at one fixed time. Haarlem takes its school holidays with regio Noord along with the rest of Noord-Holland, and the family's weeks away go into the plan before the slot is agreed.
-- **A gap of three and a half or four and a half hours** Only the Dutch clock changes, so the distance to the teacher is shorter from late March to late October and longer through winter. The overlap covers the late afternoon, the early evening and both weekend days.
+### No journey to schedule around
 
-**A commuter city that keeps its children at home** Haarlem has a high share of under-fifteens and a low share of young adults: families settle here and school leavers go elsewhere. A weekly hour that arrives through the connection fits a household where both parents are on a train by eight and back after six, which is the ordinary shape of a Haarlem week.
+The lesson happens at the kitchen table in Schalkwijk, the Vijfhoek or Spaarndam at one fixed hour, and no part of the evening is spent getting anywhere.
+
+### English throughout, Dutch school words kept
+
+Teaching is in English. Groep, havo, vwo and profielkeuze are said as the child's school says them, and nothing is translated in either direction.
+
+### What the first hour settles
+
+A piece of work that shows the real level, a named course that follows from it, and a weekly slot, arranged without any payment details.
+
+### Grouped by level, not by stadsdeel
+
+Two learners at the same stage sit together whether one is in Haarlem-Noord and the other by the Hout; two at different stages do not, however close they live.
+
+### Two lessons a week, on the northern calendar
+
+Usually eight lessons a month at one fixed time. Haarlem takes its school holidays with regio Noord along with the rest of Noord-Holland, and the family's weeks away go into the plan before the slot is agreed.
+
+### A gap of three and a half or four and a half hours
+
+Only the Dutch clock changes, so the distance to the teacher is shorter from late March to late October and longer through winter. The overlap covers the late afternoon, the early evening and both weekend days.
+
+A commuter city that keeps its children at home
+
+Haarlem has a high share of under-fifteens and a low share of young adults: families settle here and school leavers go elsewhere. A weekly hour that arrives through the connection fits a household where both parents are on a train by eight and back after six, which is the ordinary shape of a Haarlem week.
+
+Fees
 
 ## What it costs, in dollars, in every wijk
 
 Put on the page rather than kept for a phone call.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 One international rate applies, quoted in dollars and never in euros, so a family in Spaarndam sees exactly what a family in the centre sees. Payment comes after the free lesson has produced a course and a time, and it goes over WhatsApp. Pausing, changing plan and missing a week are described on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Haarlem.)Reviews
+
+## Six families, in the words they left on Google
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Send us the level; the wijk is not needed
+
+The first task might be a sweet jar with an out-of-date label, a density recomputed from its own inputs in Python, or a reporting pack from work with a hard-coded percentage in it.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Haarlem one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Haarlem.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Haarlem coding class questions
+
+The city, its figures, its districts, the teaching and the terms.
 
 ### Why does this page say a published density is wrong?
 
@@ -255,10 +381,14 @@ The first lesson is free. Group tuition is USD 100 a month for two live lessons 
 
 Between five and ten, matched on level, pace and goal rather than on age, school or wijk. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.
 
+Explore the Netherlands
+
 ## East to the capital, out to the province, and up to the country
 
 Twenty minutes east is [Amsterdam](/coding-classes-in-amsterdam), and Haarlem is the seat of [Noord-Holland](/coding-classes-in-noord-holland), whose page is about the difference between a rank and a distance. Everything here descends from the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner after a model that learns rather than a program that runs should open [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands) or the [AI and Python Academy](/ai-and-python-academy-netherlands).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Haarlem.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-haarlem](https://learn.modernagecoders.com/coding-classes-in-haarlem#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-haarlem*

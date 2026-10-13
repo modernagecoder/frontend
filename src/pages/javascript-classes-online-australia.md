@@ -4,34 +4,28 @@ description: "Live online JavaScript classes for Australians of any age: the lan
 canonical: https://learn.modernagecoders.com/javascript-classes-online-australia
 source: src/pages/javascript-classes-online-australia.html
 ---
-> JavaScript classes online teach the JavaScript language for use in web browsers and on servers through Node.js: values, functions, objects, events and asynchronous code with promises and async functions. The Australian Curriculum names JavaScript as one example of a general-purpose language. Modern Age Coders teaches JavaScript live online to Australian teens and adults, in small groups or one to one, and the first class is free.
+> Live online JavaScript classes for Australians of any age: the language, the browser, Node and async code, in small groups or one to one. First class free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / JavaScript classes online
+In short
 
-Australia · Ages 13 to adult · Browser, Node and async
+JavaScript classes online teach the JavaScript language for use in web browsers and on servers through Node.js: values, functions, objects, events and asynchronous code with promises and async functions. The Australian Curriculum names JavaScript as one example of a general-purpose language. Modern Age Coders teaches JavaScript live online to Australian teens and adults, in small groups or one to one, and the first class is free.
 
-# JavaScript classes online
-
-JavaScript runs in every web browser and, through Node, on servers and laptops too. That makes it one of the most useful languages to know, and one of the easiest to get subtly wrong, because so much of it is asynchronous: code that asks for something and carries on before the answer arrives. Our JavaScript classes teach the language properly, live online, to Australian teens and adults, from the first variable to promises and async functions. This page sets out what is covered, measures one asynchronous mistake with real requests to the Australian Bureau of Statistics, and shows where JavaScript sits in the Australian Curriculum.
-
-At a glance: For: Teens 13+ and adults; Core: Values, functions, objects, arrays; Browser: Events and the page; Node: Scripts and servers; Async: Promises and await; Format: Live online lessons; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three JavaScript courses
 
 Chosen by age and direction. Each card opens the syllabus.
 
-- [JavaScript for Teens](/courses/javascript-course-for-teens-beginners-interactive-web): Ages 13 to 18 from zero: interactive pages and browser games.
-- [TypeScript Course](/courses/complete-typescript-programming-masterclass-college): For 18 and over: JavaScript with types, then React and Node.
-- [React Masterclass](/courses/react-js-complete-masterclass-college): For adults who know the basics: JavaScript to production React.
+[![JavaScript for Teens course thumbnail](/images/javascript-teens.webp)  JSAU / 01 JavaScript for Teens Ages 13 to 18 from zero: interactive pages and browser games. Open the syllabus →](/courses/javascript-course-for-teens-beginners-interactive-web)[![TypeScript Course course thumbnail](/images/typescript-college.webp)  JSAU / 02 TypeScript Course For 18 and over: JavaScript with types, then React and Node. Open the syllabus →](/courses/complete-typescript-programming-masterclass-college)[![React Masterclass course thumbnail](/images/react-college.webp)  JSAU / 03 React Masterclass For adults who know the basics: JavaScript to production React. Open the syllabus →](/courses/react-js-complete-masterclass-college)
+
+The language
 
 ## What a learner covers, in order
 
 Frameworks change every few years. The language underneath changes slowly, so we teach it first.
 
-**Topics in our JavaScript classes**
-
 | Topic | What learners practise | Typical first mistake |
-|---|---|---|
+| --- | --- | --- |
 | Values and types | Numbers, strings, booleans, null and undefined | Comparing with == instead of === |
 | Functions | Declarations, arrow functions, parameters, return values | Forgetting to return a value |
 | Objects and arrays | Building, reading and copying data structures | Changing an object shared by two variables |
@@ -50,16 +44,16 @@ ANZSCO 261212 Web Developer "Plans, produces and maintains websites using web pr
 
 JavaScript is the language that runs in the browser for that work. We make no promise about jobs; we describe what the work involves.
 
+A worked example
+
 ## Eight requests: one at a time, or all together
 
 Most real JavaScript waits for something: a server, a file, a database. How it waits changes how long a user sits watching a spinner.
 
-We wrote a short Node program that asks the ABS Data API for the 2025 estimated resident population of seven capital-city councils (Sydney, Melbourne, Brisbane, Adelaide, Perth, Hobart and Darwin) plus the unincorporated ACT. It ran the eight requests three ways: awaiting each one before starting the next, starting all eight and awaiting them together with Promise.all, and the common mistake of calling an async function inside forEach.
-
-**Eight ABS requests from Node 22 (our run, 14 October 2026)**
+We wrote a short Node program that asks the ABS Data API for the 2025 estimated resident population of seven capital-city councils (Sydney, Melbourne, Brisbane, Adelaide, Perth, Hobart and Darwin) plus the unincorporated ACT. It ran the eight requests three ways: awaiting each one before starting the next, starting all eight and awaiting them together with `Promise.all`, and the common mistake of calling an async function inside `forEach`.
 
 | Approach | Round 1 | Round 2 | Result |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | await each request in a for loop | 16,843 ms | 9,512 ms | All eight values |
 | Promise.all over all eight | 2,190 ms | 1,940 ms | The same eight values |
 | async callback inside forEach | 8.5 ms | not repeated | Returned with 0 of 8 finished |
@@ -90,14 +84,14 @@ Eight small requests are a light load on a public data service, and we ran only 
 
 Sources, read 14 October 2026: MDN Web Docs on [Promise.all()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all) and [Array.prototype.forEach()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach); data from the [ABS Data API](https://data.api.abs.gov.au/rest/data/ABS,ABS_ANNUAL_ERP_LGA2025,1.0.0/ERP.3.TOT..LGA2025.A?startPeriod=2025&endPeriod=2025) (CC BY 4.0). The program and timings are our own.
 
+Where it runs
+
 ## One language, three places
 
 Learners meet JavaScript in the browser first, then in Node, then inside frameworks.
 
-**Where JavaScript runs and what learners build there**
-
 | Place | What it is for | A project in our classes |
-|---|---|---|
+| --- | --- | --- |
 | The browser | Making pages respond to people | A quiz or game that keeps score |
 | Node.js | Scripts, tools and servers on a computer | A program that fetches and summarises public data |
 | Frameworks such as React | Large interfaces built from components | A small app with several screens |
@@ -114,14 +108,14 @@ Adults often start in Node, writing scripts that save time at work, before movin
 
 Career changers may prefer the broader [coding for career changers](/coding-for-career-changers-australia) route.
 
+Route
+
 ## From first script to confident developer
 
 Each project adds one idea and keeps the earlier ones in use.
 
-**Project sequence in our JavaScript classes**
-
 | Project | New idea | Done when |
-|---|---|---|
+| --- | --- | --- |
 | Tip calculator in the browser | Variables, functions, events | It handles empty and silly input |
 | Card game | Arrays, objects and state | A full round plays without errors |
 | Data fetcher in Node | Promises and async functions | All requests finish and failures are reported |
@@ -130,14 +124,14 @@ Each project adds one idea and keeps the earlier ones in use.
 
 Learners who want to understand how larger programs are kept working can add the [software development course](/software-development-course-australia). Those curious about a compiled language may enjoy [C++ classes](/c-plus-plus-classes-online-australia).
 
+Debugging
+
 ## Finding bugs with the tools already in the browser
 
 Every modern browser includes developer tools. Learners use them from the first week instead of guessing.
 
-**Browser developer tools learners use**
-
 | Tool | What it shows | Typical use |
-|---|---|---|
+| --- | --- | --- |
 | Console | Errors, warnings and anything logged | Reading the first error, not the last |
 | Breakpoints | The program paused on a chosen line | Checking values one step at a time |
 | Network panel | Every request, its timing and its reply | Seeing whether requests run one after another or together |
@@ -156,14 +150,14 @@ Learners practise reading an error message from the top: what kind of error, on 
 
 Most beginner bugs are solved by the first line of the first error.
 
+Modern JavaScript
+
 ## Old habits and modern replacements
 
 JavaScript has changed a great deal. Learners meet older code online, so we show both and explain why the newer form is preferred.
 
-**Older patterns and what we teach instead**
-
 | Older pattern | Modern form | Why |
-|---|---|---|
+| --- | --- | --- |
 | var | let and const | Clearer scope and fewer accidental changes |
 | Nested callbacks | Promises with async and await | Code that reads top to bottom |
 | == comparisons | === comparisons | No surprising type conversions |
@@ -184,14 +178,14 @@ Each lesson includes a short program to read before running: what will it print,
 
 Predicting first, then running, is how the event loop stops being mysterious.
 
+Progress
+
 ## Four levels of JavaScript skill
 
 Each level is a set of things a learner can do, confirmed by a project.
 
-**From scripts to applications**
-
 | Level | What you can do |
-|---|---|
+| --- | --- |
 | 1. Scripter | Write functions that work on numbers, strings and arrays |
 | 2. Page builder | Make a web page respond to clicks and typing |
 | 3. Async coder | Fetch data, wait for it correctly and handle failures |
@@ -200,63 +194,293 @@ Each level is a set of things a learner can do, confirmed by a project.
 ### JavaScript or Python first?
 
 Either works. Python is gentler for complete beginners; JavaScript is better for someone who wants things on screen quickly.
+
 Many learners end up using both.
 
 ### Is TypeScript worth learning?
 
 For adults building larger projects, yes. It adds types that catch mistakes before the code runs.
+
 We teach it after plain JavaScript feels comfortable.
+
+The catalogue
 
 ## JavaScript courses
 
 Grouped by age and stage. The free class decides where a learner starts.
 
+I
+
 ### Teens
 
 Ages 13 to 18
 
-- [JavaScript for Teens](/courses/javascript-course-for-teens-beginners-interactive-web): Interactive pages and games.
-- [React for Teens](/courses/react-for-teens-complete-masterclass): JavaScript to real React apps.
-- [Backend Development for Teens](/courses/backend-coding-masterclass-for-teens): Node, APIs and databases.
+JSAU / TEN / 01
+
+#### JavaScript for Teens
+
+Interactive pages and games.
+
+[Open the syllabus](/courses/javascript-course-for-teens-beginners-interactive-web)
+
+JSAU / TEN / 02
+
+#### React for Teens
+
+JavaScript to real React apps.
+
+[Open the syllabus](/courses/react-for-teens-complete-masterclass)
+
+JSAU / TEN / 03
+
+#### Backend Development for Teens
+
+Node, APIs and databases.
+
+[Open the syllabus](/courses/backend-coding-masterclass-for-teens)II
 
 ### Adults
 
 18 and over
 
-- [TypeScript Course](/courses/complete-typescript-programming-masterclass-college): Typed JavaScript, React and Node.
-- [React Masterclass](/courses/react-js-complete-masterclass-college): To production React.
-- [MERN Stack Course](/courses/mern-stack-development-masterclass-college): MongoDB, Express, React, Node.
+JSAU / ADL / 01
+
+#### TypeScript Course
+
+Typed JavaScript, React and Node.
+
+[Open the syllabus](/courses/complete-typescript-programming-masterclass-college)
+
+JSAU / ADL / 02
+
+#### React Masterclass
+
+To production React.
+
+[Open the syllabus](/courses/react-js-complete-masterclass-college)
+
+JSAU / ADL / 03
+
+#### MERN Stack Course
+
+MongoDB, Express, React, Node.
+
+[Open the syllabus](/courses/mern-stack-development-masterclass-college)III
 
 ### Around the language
 
 Useful companions
 
-- [HTML and CSS for Beginners](/courses/html-css-course-for-beginners-build-real-websites): The page JavaScript works on.
-- [Git and GitHub for Teens](/courses/git-github-version-control-course-for-teens): Saving every version.
-- [Full Stack Developer Course](/courses/full-stack-web-development-masterclass-college): React, Node and deployment, 18+.
+JSAU / CMP / 01
+
+#### HTML and CSS for Beginners
+
+The page JavaScript works on.
+
+[Open the syllabus](/courses/html-css-course-for-beginners-build-real-websites)
+
+JSAU / CMP / 02
+
+#### Git and GitHub for Teens
+
+Saving every version.
+
+[Open the syllabus](/courses/git-github-version-control-course-for-teens)
+
+JSAU / CMP / 03
+
+#### Full Stack Developer Course
+
+React, Node and deployment, 18+.
+
+[Open the syllabus](/courses/full-stack-web-development-masterclass-college)
+
+How lessons run
 
 ## JavaScript lessons on Australian time
 
 Teachers work from India, and their day overlaps Australian afternoons and evenings. Times are set in your own state's time and move with daylight saving.
 
-- **After school** For teens in term time.
-- **Evening** For adults after work, by arrangement.
-- **Weekend** Longer build sessions.
+After school
 
-- **Free first class** A first script in the browser and advice on where to start.
-- **Groups** Fifteen to twenty learners at the same stage.
-- **One to one** For a particular project or pace.
-- **Console open** Learners read errors in the browser console from day one.
-- **Real data** Public Australian data in the async projects.
-- **Code by the learner** Teachers guide; learners type every line.
+For teens in term time.
+
+Evening
+
+For adults after work, by arrangement.
+
+Weekend
+
+Longer build sessions.
+
+### Free first class
+
+A first script in the browser and advice on where to start.
+
+### Groups
+
+Fifteen to twenty learners at the same stage.
+
+### One to one
+
+For a particular project or pace.
+
+### Console open
+
+Learners read errors in the browser console from day one.
+
+### Real data
+
+Public Australian data in the async projects.
+
+### Code by the learner
+
+Teachers guide; learners type every line.
+
+Student work
+
+## Published work by our students
+
+Work our students built and published. More in the [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees for JavaScript classes
 
 Learners outside India pay one monthly fee in US dollars; nothing is due at sign-up and there is no contract.
 
-- Free first class: USD 0. A first script running in your browser. Advice on the right course. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty learners per class. Code shared and discussed. The same teacher each week. Stop after any month.
-- One to one: USD 150 a month. Lessons around one learner's project. Browser, Node or React focus. Times around school or work.
+Free first class
+
+USD 0
+
+no card required
+
+- A first script running in your browser
+- Advice on the right course
+- No card needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners per class
+- Code shared and discussed
+- The same teacher each week
+- Stop after any month
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- Lessons around one learner's project
+- Browser, Node or React focus
+- Times around school or work
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Published Google reviews, copied without edits.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Learners ask
 
 ## Questions about online JavaScript classes in Australia
 
@@ -300,15 +524,54 @@ We make no job or salary promises. The classes build real projects and understan
 
 The first class is on us, with no card asked for. Monthly group and one-to-one prices are listed in the fees panel.
 
+Also on this site
+
 ## Related pages
 
-- [Web development for teens](/web-development-course-for-teens-australia): Whole sites, designed and published.
-- [Software development course](/software-development-course-australia): Testing, Git and debugging.
-- [C++ classes online](/c-plus-plus-classes-online-australia): A compiled language.
-- [Coding for career changers](/coding-for-career-changers-australia): For adults switching fields.
-- [Coding classes in Australia](/coding-classes-in-australia): States, cities, exams and every subject door.
-- [Online coding tutor](/online-coding-tutor-australia): Private help in any language.
+Pages beside this one.
 
-## Contact
+### [Web development for teens](/web-development-course-for-teens-australia)
 
-Book the free first class at [https://learn.modernagecoders.com/javascript-classes-online-australia](https://learn.modernagecoders.com/javascript-classes-online-australia#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Whole sites, designed and published.
+
+### [Software development course](/software-development-course-australia)
+
+Testing, Git and debugging.
+
+### [C++ classes online](/c-plus-plus-classes-online-australia)
+
+A compiled language.
+
+### [Coding for career changers](/coding-for-career-changers-australia)
+
+For adults switching fields.
+
+### [Coding classes in Australia](/coding-classes-in-australia)
+
+States, cities, exams and every subject door.
+
+### [Online coding tutor](/online-coding-tutor-australia)
+
+Private help in any language.
+
+Start here
+
+## Book a free JavaScript lesson
+
+Leave your details and we will phone at a convenient time. The first class runs a first script and ends with a recommendation.
+
+Read about [how we teach](/how-we-teach) or browse [every course](/courses).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Australia%20and%20interested%20in%20online%20JavaScript%20classes.%20Could%20we%20book%20a%20free%20first%20class%3F) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+Send a WhatsApp from your Australian number for the fastest answer. The +91 line is answered by our team in India; we have no Australian office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/javascript-classes-online-australia*

@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths classes for the City of L
 canonical: https://learn.modernagecoders.com/coding-classes-in-the-city-of-london
 source: src/pages/coding-classes-in-the-city-of-london.html
 ---
-> The City of London is the Square Mile of the Barbican, Smithfield, Aldgate, Bank, Temple, Blackfriars and Liverpool Street, home to only 8,583 residents at the 2021 Census, the fewest of any London local authority, yet to 86 Grade I buildings including St Paul's Cathedral and the Monument. A class worth joining lets a learner discover a law of nature with code rather than read it in a book, and this page does that with arches: hang a virtual chain, let the computer find the shape of least energy, and turn it upside down to get the ideal arch. Teaching happens live on video from India, for anyone aged 6 to 67, one to one or in a group of fifteen to twenty learners at the same stage. Lesson one is free; from then on, group places cost USD 100 a month and private lessons USD 150 a month.
+> Live online coding, Python, AI and maths classes for the City of London: the Barbican, Smithfield, Aldgate, Bank, Temple and Blackfriars. Ages 6 to 67.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / City of London
-
-The City of London / Live online
-
-# Coding classes in the City of London
-
-**What are the best coding classes in the City of London?** The City of London is the Square Mile of the Barbican, Smithfield, Aldgate, Bank, Temple, Blackfriars and Liverpool Street, home to only 8,583 residents at the 2021 Census, the fewest of any London local authority, yet to 86 Grade I buildings including St Paul's Cathedral and the Monument. A class worth joining lets a learner discover a law of nature with code rather than read it in a book, and this page does that with arches: hang a virtual chain, let the computer find the shape of least energy, and turn it upside down to get the ideal arch. Teaching happens live on video from India, for anyone aged 6 to 67, one to one or in a group of fifteen to twenty learners at the same stage. Lesson one is free; from then on, group places cost USD 100 a month and private lessons USD 150 a month.
-
-Historic England's list entry for St Paul's Cathedral records a rebuilding by Sir Christopher Wren between 1675 and 1710, in Portland stone, with a great central dome, after the medieval cathedral burnt in the Great Fire. Nearby stands Wren's Monument to that fire, built between 1671 and 1677. Buildings like these raise a question every engineer faces: what shape should an arch or a dome be, so that it carries its own weight without bending? There is a beautifully simple answer, and learners find it themselves. Hang a chain between two points and it settles into a curve where every link pulls purely along the chain. Flip that curve upside down and every stone would push purely along the arch. Our learners let a computer hang a chain of 60 links, compare the result with the curves they know, and see which one nature chose.
-
-Facts last verified 26 September 2026. Teaching is online; no City of London branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for the City
 
 ## Courses City learners begin with
 
 Picture a Year 3 child in the Barbican who builds towers of blocks until they topple, a Year 10 pupil at a City school fascinated by old buildings, a Year 13 student heading for architecture or engineering, and an office worker near Bank who walks past St Paul's every day and wonders how it stands up. Each can begin with a free lesson.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): A Scratch chain of beads that swings and settles, and a first look at shapes that gravity makes.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 9 to 12): First Python with curves: plot a parabola, then a hanging rope, and compare them on the same chart.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Python for Key Stages 3 to 5, including the energy-minimising chain and catenary fit on this page.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): For adults who enjoy architecture and engineering and want to see the maths behind the shapes.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsA Scratch chain of beads that swings and settles, and a first look at shapes that gravity makes.See the syllabus](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 9 to 12Python and AI for KidsFirst Python with curves: plot a parabola, then a hanging rope, and compare them on the same chart.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensPython for Key Stages 3 to 5, including the energy-minimising chain and catenary fit on this page.See the syllabus](/courses/python-complete-masterclass-teens)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For adults who enjoy architecture and engineering and want to see the maths behind the shapes.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)The Square Mile in figures
 
 ## 8,583 residents and 613 listed buildings
 
 Each number here is the named organisation's own, or our count of its open data.
 
-**The City of London, by the numbers**
-
 | Measure | Figure | Where it comes from |
-|---|---|---|
+| --- | --- | --- |
 | Residents at the 2021 Census | 8,583, the fewest of London's 33 local authorities | ONS table TS001 |
 | Heritage List entries we counted inside the City | 613: 86 Grade I, 83 Grade II*, 444 Grade II | Historic England data, 26 September 2026 |
 | St Paul's Cathedral built | 1675 to 1710, by Sir Christopher Wren | Historic England list entry 1079157 |
@@ -60,6 +46,8 @@ The Guildhall, Mansion House, the Royal Exchange and the Bank of England buildin
 ### Temple and Smithfield
 
 Middle Temple Hall, Temple Church, St Bartholomew the Great and the gatehouse of St Bartholomew's Hospital complete a remarkable Grade I list.
+
+The question
 
 ## Which curve carries its own weight?
 
@@ -79,6 +67,8 @@ The curve is called a catenary. It looks like a parabola, but it is not one, and
 
 We make no claim about the exact shape of St Paul's dome or any particular City arch; the list entries do not describe their geometry. The project uses the City's buildings as the question, and physics and code to find the answer. We looked for a list of the City's lending libraries, but the pages we tried returned "not found", so none are named here.
 
+Signature project
+
 ## Let a computer hang a chain
 
 Learners describe a chain as 60 equal links and ask the computer for the position of lowest total energy, with every link kept exactly the same length.
@@ -95,10 +85,8 @@ Every link must keep its length, and the ends must stay pinned. An optimiser sea
 
 Fit the exact catenary formula and the closest parabola to the chain the computer found, and measure how far each misses.
 
-**A 3 metre chain pinned at points 2 metres apart, computed 26 September 2026**
-
 | Curve | Largest miss from the chain | Typical miss |
-|---|---|---|
+| --- | --- | --- |
 | Catenary formula | 0.18 mm | 0.11 mm |
 | Closest parabola | 35 mm | 25 mm |
 | Sag at the middle | chain 1.0055 m | catenary 1.0053 m |
@@ -108,6 +96,8 @@ The catenary matches the computed chain to within a fifth of a millimetre over a
 ### Why do this when an AI can state the answer?
 
 Ask an AI what shape a hanging chain makes and it will say "a catenary". A learner who has made a computer find that shape from nothing but energy and constraints, then measured how far a parabola misses, has seen physics emerge from a calculation. That skill, turning a principle into a program and testing the result, is how engineers and scientists work with or without AI.
+
+The wider idea
 
 ## Nature as an optimiser
 
@@ -127,6 +117,8 @@ A good program is tested against a known exact solution, as the chain is tested 
 
 GCSE maths and physics students can follow energy, curves and the idea of fitting a curve to points; A-level students can meet the hyperbolic cosine, constrained optimisation and why the catenary satisfies the equilibrium of forces. The building details come from Historic England; the chain, fits and comparisons are our own, computed on 26 September 2026. Historic England, the City of London Corporation, TfL and the ONS have no connection with Modern Age Coders.
 
+Getting around
+
 ## Bank station, and a desk at home
 
 The City is criss-crossed by Tube, DLR and rail lines. Our lessons need none of them.
@@ -143,16 +135,41 @@ Families in the Barbican estate and near Aldgate can join the same class without
 
 The City has few residents, so our classes gather learners from everywhere: five to ten at one stage, two evenings a week.
 
-**The City among London's authorities** The City of London sits alongside London's 32 boroughs. The [London page](/best-coding-class-in-london) now links a page for every one of them, including [Westminster](/coding-classes-in-westminster-london) to the west and [Tower Hamlets](/coding-classes-in-tower-hamlets-london) to the east.
+The City among London's authorities
+
+The City of London sits alongside London's 32 boroughs. The [London page](/best-coding-class-in-london) now links a page for every one of them, including [Westminster](/coding-classes-in-westminster-london) to the west and [Tower Hamlets](/coding-classes-in-tower-hamlets-london) to the east.
+
+Learning ladder
 
 ## From stacking blocks to constrained optimisation
 
 We set each learner's starting point from what they show in the free lesson, not from their year group alone.
 
-- **Ages 6 to 10: Shapes and gravity** Children animate swinging chains and towers in Scratch and see which shapes stay up. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 10 to 13: Plotting curves** Python that plots parabolas and other curves and compares them point by point. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 18: Energy and fitting** Energy minimisation with constraints and exact-solution checks, strong preparation for physics, engineering and maths. [Python for Teens](/courses/python-complete-masterclass-teens), [Full Stack Web Development for Teens](/courses/full-stack-web-development-teens-masterclass)
-- **Ages 18 to 67: Engineering intuition** Adults learn to read the shapes of structures around them through the maths that governs them. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### Shapes and gravity
+
+Children animate swinging chains and towers in Scratch and see which shapes stay up.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 10 to 13
+
+### Plotting curves
+
+Python that plots parabolas and other curves and compares them point by point.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 18
+
+### Energy and fitting
+
+Energy minimisation with constraints and exact-solution checks, strong preparation for physics, engineering and maths.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Full Stack Web Development for Teens](/courses/full-stack-web-development-teens-masterclass)Ages 18 to 67
+
+### Engineering intuition
+
+Adults learn to read the shapes of structures around them through the maths that governs them.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## AI can name the curve. Why should a City learner derive it?
 
@@ -164,30 +181,139 @@ That link is worth stressing: every AI model is found by an optimiser searching 
 
 The City has been rebuilt in stone more than once. A learner here who can find the ideal arch with code has joined a very old conversation between builders and mathematicians. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Temple to Liverpool Street, taught live
 
 For City families, lessons happen at home, whatever the office hours around them.
 
-- **A screen at home** A laptop or desktop, a headset and broadband that handles video are all that is required.
-- **Key Stages in England** Progress reports use English Key Stages, from the start of primary to sixth form, with GCSE and A level where they apply. Lessons are in English.
-- **Nothing to pay first** The opening lesson is free and properly taught, ending with the teacher's advice on level and course; no card is taken.
-- **Classmates from everywhere** With so few City residents, each class of fifteen to twenty at one stage is drawn from across the UK and beyond.
-- **Two evening sessions** Most classes meet on two evenings a week and break for holidays and exams by agreement.
-- **London time** Teachers work from India; every time we send is already in UK time.
+### A screen at home
 
-**The smallest authority, a full class** Fewer than 9,000 people live in the City, so our classes are always drawn far more widely: five learners at the same stage and hour are found across the country.
+A laptop or desktop, a headset and broadband that handles video are all that is required.
+
+### Key Stages in England
+
+Progress reports use English Key Stages, from the start of primary to sixth form, with GCSE and A level where they apply. Lessons are in English.
+
+### Nothing to pay first
+
+The opening lesson is free and properly taught, ending with the teacher's advice on level and course; no card is taken.
+
+### Classmates from everywhere
+
+With so few City residents, each class of fifteen to twenty at one stage is drawn from across the UK and beyond.
+
+### Two evening sessions
+
+Most classes meet on two evenings a week and break for holidays and exams by agreement.
+
+### London time
+
+Teachers work from India; every time we send is already in UK time.
+
+The smallest authority, a full class
+
+Fewer than 9,000 people live in the City, so our classes are always drawn far more widely: five learners at the same stage and hour are found across the country.
+
+Fees
 
 ## Fees for City families
 
 A free first lesson, then one monthly fee, the same as everywhere else in London.
 
-- First class: USD 0. A complete first lesson with a teacher, free, closing with a recommended level, course and time.
-- Group tuition: USD 100 a month. About eight live lessons a month, in a class of fifteen to twenty at one stage.
-- Private tuition: USD 150 a month. About eight live lessons a month, one to one.
+First class**USD 0**
+
+A complete first lesson with a teacher, free, closing with a recommended level, course and time.
+
+Group tuition**USD 100**
+
+About eight live lessons a month, in a class of fifteen to twenty at one stage.
+
+Private tuition**USD 150**
+
+About eight live lessons a month, one to one.
 
 Families in the City are billed in US dollars, as every family outside India is, and the site shows no pound prices. Billing starts only after the free lesson, once a course and a regular evening are agreed. The pricing page explains pauses, missed lessons and changes between class and private teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20the%20City%20of%20London.)Reviews
+
+## Six Google reviews from families we teach
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Request a free lesson
+
+An age or school year and one interest is all we need to prepare. Lesson one might be a Scratch swinging chain, a Python curve plotter, or the arch project on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented City of London one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20the%20City%20of%20London.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## City of London questions
+
+About the Square Mile, the arch project and our lessons.
 
 ### How many people live in the City of London?
 
@@ -229,10 +355,14 @@ The first lesson is free. After that, a group place costs USD 100 a month for tw
 
 By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
 
+Explore London
+
 ## The rest of London
 
 Every borough now has its own page on our [London page](/best-coding-class-in-london), from [Southwark](/coding-classes-in-southwark-london) across the river to [Islington](/coding-classes-in-islington-london) to the north. Optimisation leads directly into our [AI and machine learning classes in London](/ai-and-machine-learning-classes-in-london), where models are trained by the same search for a minimum, and the [UK coding page](/coding-classes-in-united-kingdom) sets out school stages across the four nations.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20the%20City%20of%20London.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-the-city-of-london](https://learn.modernagecoders.com/coding-classes-in-the-city-of-london#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-the-city-of-london*

@@ -4,37 +4,25 @@ description: "Live online coding, Python, Java, app and AI classes for Rotterdam
 canonical: https://learn.modernagecoders.com/coding-classes-in-rotterdam
 source: src/pages/coding-classes-in-rotterdam.html
 ---
-> Coding classes in Rotterdam serve the second city of the Netherlands, 673,804 people on 1 January 2026 (Statistics Netherlands), a third of them born abroad, with the largest Surinamese-origin community of any origin group in the city at 52,003, and a port that in 2025 moved 428.4 million tonnes, 1.7 percent less than the year before, while handling 14.2 million containers, 3.1 percent more. Modern Age Coders teaches coding, Python, Java, app development, AI and mathematics to Rotterdam learners aged 6 to 67, live online and in English. Nothing is charged for the first lesson; a place in a group of fifteen to twenty is then USD 100 a month and private tuition USD 150.
+> Live online coding, Python, Java, app and AI classes for Rotterdam learners aged 6 to 67, from Feijenoord to Prins Alexander, where the port counts in two units.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / Rotterdam
-
-Rotterdam, Zuid-Holland / Live online
-
-# Coding classes in Rotterdam, where the port handled more boxes and less cargo in the same year
-
-**What are the best coding classes in Rotterdam?** Coding classes in Rotterdam serve the second city of the Netherlands, 673,804 people on 1 January 2026 (Statistics Netherlands), a third of them born abroad, with the largest Surinamese-origin community of any origin group in the city at 52,003, and a port that in 2025 moved 428.4 million tonnes, 1.7 percent less than the year before, while handling 14.2 million containers, 3.1 percent more. Modern Age Coders teaches coding, Python, Java, app development, AI and mathematics to Rotterdam learners aged 6 to 67, live online and in English. Nothing is charged for the first lesson; a place in a group of fifteen to twenty is then USD 100 a month and private tuition USD 150.
-
-A container is a box, and a tonne is what is inside it. In 2025 Rotterdam had more of the first and less of the second, and a family reading two headlines about the same port in the same week could be forgiven for thinking one of them was wrong. Neither was. The program that shows why is the project on this page, and in a city that lives by the quay it is not a small thing for a child to understand.
-
-Facts last verified 7 September 2026. Teaching is online; no Rotterdam branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Rotterdam
 
 ## Four courses for a city that builds things and ships them
 
 Rotterdam is the Dutch city most likely to send a child to a vmbo, the home of a business university founded by the port's own merchants, and a place where a third of residents were born somewhere else. These four are chosen for making rather than talking: an app on a phone, a Java service that runs, a dataset that can be checked against the quay.
 
-- [App Making for Kids](/courses/block-coding-app-development-masterclass) (Ages 8 to 12): Real apps built from blocks, for the groep 5 to 8 child in Charlois or Prins Alexander who wants something to show a cousin by the weekend.
-- [App Development for Teens](/courses/complete-app-development-masterclass-for-teens) (Ages 13 to 17): React Native apps that run on a real phone, for the teenager at De Hef, the Wolfert or the Erasmiaans who is done with worksheets.
-- [Java Course for College](/courses/complete-java-programming-masterclass-college) (College and adult): Core Java to Spring Boot, for the Hogeschool Rotterdam or Erasmus student who wants a backend that would survive a port operator's traffic.
-- [Data Analysis Course](/courses/data-analysis-mastery-course-college) (Adults): Excel, SQL, Python and Power BI, for the logistics planner who has read tonnes and TEU in the same report and never been sure which one to trust.
+[![App Making for Kids course thumbnail](/images/app-dev-kids.webp)Ages 8 to 12App Making for KidsReal apps built from blocks, for the groep 5 to 8 child in Charlois or Prins Alexander who wants something to show a cousin by the weekend.See the syllabus](/courses/block-coding-app-development-masterclass)[![App Development for Teens course thumbnail](/images/app-dev-teens.webp)Ages 13 to 17App Development for TeensReact Native apps that run on a real phone, for the teenager at De Hef, the Wolfert or the Erasmiaans who is done with worksheets.See the syllabus](/courses/complete-app-development-masterclass-for-teens)[![Java Course for College course thumbnail](/images/java-college.webp)College and adultJava Course for CollegeCore Java to Spring Boot, for the Hogeschool Rotterdam or Erasmus student who wants a backend that would survive a port operator's traffic.See the syllabus](/courses/complete-java-programming-masterclass-college)[![Data Analysis Course course thumbnail](/images/data-analysis-college.webp)AdultsData Analysis CourseExcel, SQL, Python and Power BI, for the logistics planner who has read tonnes and TEU in the same report and never been sure which one to trust.See the syllabus](/courses/data-analysis-mastery-course-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Rotterdam today
 
 ## Six hundred and seventy-three thousand people, a third born abroad, in a city that was rebuilt from a quarter of an hour
 
@@ -52,7 +40,11 @@ The Maastunnel opened on 14 February 1942, the first road tunnel in the country,
 
 Europe's largest port stretches about forty kilometres from the city to the sea. In 2025 it handled 428.4 million tonnes, down 1.7 percent, and 14.2 million TEU of containers, up 3.1 percent, according to the Port Authority figures reported on 27 February 2026; crude oil rose 3.4 percent to 101.2 million tonnes, LNG rose 15.1 percent to 13.0 million and coal fell 8.7 percent to 17.3 million.
 
-**The most Surinamese city in the country by absolute count of any single origin** In The Hague the Surinamese-origin community is the largest non-Dutch group at 44,769; in Rotterdam it is larger still, at 52,003, and it is the largest origin group of any kind in the city. The Hindustani, Creole and Javanese families inside that figure are not separated by any statistic, which is the same limit The Hague's page explains. Rotterdam's page does not repeat the argument; it points to it and moves on to the quay.
+The most Surinamese city in the country by absolute count of any single origin
+
+In The Hague the Surinamese-origin community is the largest non-Dutch group at 44,769; in Rotterdam it is larger still, at 52,003, and it is the largest origin group of any kind in the city. The Hindustani, Creole and Javanese families inside that figure are not separated by any statistic, which is the same limit The Hague's page explains. Rotterdam's page does not repeat the argument; it points to it and moves on to the quay.
+
+The fourteen gebieden
 
 ## Fourteen districts that sum to the city minus eight people
 
@@ -84,19 +76,17 @@ Hoogvliet 36,752, Overschie 21,157, Rozenburg 12,619, Hoek van Holland 10,513 an
 
 District pages in this series follow one rule: a paragraph of city context, then only what is true of that gebied and false of its neighbours. This page carries the city so that they can stay close to the ground.
 
+Schools by name
+
 ## Eighty-one schools in the city, and the seven that place a Rotterdam child for us
 
 The schools register lists 82 secondary establishments in the municipality and 26,376 Rotterdam-resident pupils attending 142 different schools in 2025-26. The left column is the school as the register and its own site describe it; the right is what fits beside it.
 
-- **RISS**: Rotterdam International Secondary School, Bentincklaan 294, part of the Wolfert van Borselen group: the IB Diploma Programme and IGCSE, about 400 pupils in 2021 and 82 countries represented in 2017. Our answer: Cambridge IGCSE Computer Science 0478 for the middle years; the IB Diploma Computer Science course for the Diploma years, with the live sessions used for the internal assessment.
-- **Wolfert Tweetalig**: Wolfert Tweetalig, Bentincklaan 280, the bilingual school of the same group, vbo through vwo, 1,062 Rotterdam pupils, second largest intake in the city. Our answer: Python for teens in English fits a bilingual timetable without translation; a term of it before the profielkeuze for third-years.
-- **NAISR**: Nord Anglia International School Rotterdam in Hillegersberg, founded in 1959 as the American International School of Rotterdam, acquired by Nord Anglia in 2018, an IB World School for ages 3 to 18 with about 260 pupils from more than forty nationalities. Our answer: Placement by programme year; the IB course for Diploma students who choose Computer Science. Many NAISR families are on three-year postings, and a course that goes to the next one is the point.
-- **Melanchthon**: Melanchthon Schiebroek, Van Bijnkershoekweg 97, vbo through vwo, 1,129 Rotterdam pupils, the largest intake in the city. Our answer: The Python ladder by level for the havo and vwo streams; app and website courses for the vmbo stream, so a portfolio exists before an MBO intake asks for one.
-- **Erasmiaans**: Erasmiaans Gymnasium, Wytemaweg 25, vwo only, 858 Rotterdam pupils, the categorical gymnasium of the city. Our answer: Problem solving and data structures, and the Python-to-machine-learning track, for the student who reads Homer and can therefore read a stack trace.
-- **Montessori and Emmaus**: Montessori Lyceum Rotterdam on the Schimmelpenninckstraat (havo and vwo, 981) and the Emmauscollege on the Alexandriestraat in Prins Alexander (havo and vwo, 973). Our answer: Data science in Python beside wiskunde A or B in the bovenbouw; JavaScript for the teenager who wants the thing built to be on a phone by Friday.
-- **De Hef**: De Hef, Slaghekstraat 221 in Feijenoord, vbo and mavo, 603 Rotterdam pupils, the school of the south bank. Our answer: App-making and web development whose output is something to show an MBO admissions tutor, and a first data course on the port's own numbers.
+RISSRotterdam International Secondary School, Bentincklaan 294, part of the Wolfert van Borselen group: the IB Diploma Programme and IGCSE, about 400 pupils in 2021 and 82 countries represented in 2017.Cambridge IGCSE Computer Science 0478 for the middle years; the IB Diploma Computer Science course for the Diploma years, with the live sessions used for the internal assessment.Wolfert TweetaligWolfert Tweetalig, Bentincklaan 280, the bilingual school of the same group, vbo through vwo, 1,062 Rotterdam pupils, second largest intake in the city.Python for teens in English fits a bilingual timetable without translation; a term of it before the profielkeuze for third-years.NAISRNord Anglia International School Rotterdam in Hillegersberg, founded in 1959 as the American International School of Rotterdam, acquired by Nord Anglia in 2018, an IB World School for ages 3 to 18 with about 260 pupils from more than forty nationalities.Placement by programme year; the IB course for Diploma students who choose Computer Science. Many NAISR families are on three-year postings, and a course that goes to the next one is the point.MelanchthonMelanchthon Schiebroek, Van Bijnkershoekweg 97, vbo through vwo, 1,129 Rotterdam pupils, the largest intake in the city.The Python ladder by level for the havo and vwo streams; app and website courses for the vmbo stream, so a portfolio exists before an MBO intake asks for one.ErasmiaansErasmiaans Gymnasium, Wytemaweg 25, vwo only, 858 Rotterdam pupils, the categorical gymnasium of the city.Problem solving and data structures, and the Python-to-machine-learning track, for the student who reads Homer and can therefore read a stack trace.Montessori and EmmausMontessori Lyceum Rotterdam on the Schimmelpenninckstraat (havo and vwo, 981) and the Emmauscollege on the Alexandriestraat in Prins Alexander (havo and vwo, 973).Data science in Python beside wiskunde A or B in the bovenbouw; JavaScript for the teenager who wants the thing built to be on a phone by Friday.De HefDe Hef, Slaghekstraat 221 in Feijenoord, vbo and mavo, 603 Rotterdam pupils, the school of the south bank.App-making and web development whose output is something to show an MBO admissions tutor, and a first data course on the port's own numbers.
 
 Het Lyceum Rotterdam, the Rotterdam Designcollege, the Avicenna College, the Rudolf Steiner College, the Einstein Lyceum, the Laurens Lyceum and the Wolfert Dalton complete the largest fifteen. A school's name fixes the vocabulary we use with a family; the level is found in the opening lesson and nowhere else.
+
+Verified local facts
 
 ## Rotterdam facts, with the office and the date on each
 
@@ -128,6 +118,8 @@ Register 2025-26: 82 establishments in the municipality, 26,376 Rotterdam pupils
 
 Modern Age Coders has no association with the Port of Rotterdam Authority, the municipality, Erasmus University, the Wolfert van Borselen group, Nord Anglia or any school named above, and claims none. They appear because a page about coding classes in Rotterdam has to know what Rotterdam does for a living.
 
+Signature project
+
 ## More boxes, less cargo: build the program that makes both port headlines true at once
 
 Two published percentages for one flow of containers, a unit that counts and a unit that weighs, and a table that turns a contradiction into arithmetic.
@@ -144,10 +136,8 @@ The learner keeps boxes and weight as separate quantities and derives the third:
 
 The share of empty containers is not published, so the learner treats it as a labelled assumption. If empties rose from 20 to 23 percent of all boxes, loaded boxes fell 0.8 percent in a year the box count rose 3.1. At 20 to 25 percent, loaded boxes fell 3.3 percent. The port grew and shrank in the same year, and which one you say depends on which unit you were handed.
 
-**One container flow, two units, and the derived figure neither headline mentions (2024 = 100; empty shares illustrative)**
-
 | Measure | 2024 | 2025 | Change | Status |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Boxes, million TEU | 13.77 | 14.20 | plus 3.1 percent | published (2024 derived from the change) |
 | Container cargo by weight, index | 100.0 | 99.8 | minus 0.2 percent | published |
 | Weight per box, index | 100.0 | 96.8 | minus 3.2 percent | derived |
@@ -158,14 +148,14 @@ The share of empty containers is not published, so the learner treats it as a la
 
 Every count of a flow is a count in some unit, and the unit decides what the number can see. TEU sees box-lengths and is blind to what is inside; tonnes see weight and are blind to how many boxes carried it. When the two move in opposite directions the flow has changed shape, not size: lighter loads, more empties, more imports and fewer exports, as the Authority's own explanation says. A learner who has derived the weight-per-box line once will ask "in what unit?" of a sales figure, a traffic count and a press release for the rest of their life. The table was computed before this paragraph was written; the two published percentages are the Authority's, and the empty-container rows are labelled as the assumptions they are.
 
+Reliable pipeline
+
 ## Five habits for any figure that could have been counted in a different unit
 
 Units, page views against sessions, orders against revenue, tonnes against boxes: the same trap sits under most dashboards. Practised first on the quay.
 
-**When two units describe one flow**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Name the unit | Say what one of the thing is: a box, a tonne, a visit, an order | Growth in one unit read as growth in all | A number you can compare |
 | Ask what the unit is blind to | A TEU cannot see weight; a tonne cannot see count | A contradiction where there is only a change of shape | The second variable |
 | Derive the ratio | Divide one unit by the other and watch the ratio move | Two headlines with opposite signs and no explanation | The figure neither headline gave |
@@ -186,14 +176,37 @@ The same program on page views against sessions, orders against revenue, or tonn
 
 The port percentages, the population and gebied figures, the school counts, the dates of the bombing, the tunnel and the bridge, and the university figures are published by the offices and outlets named in the sentences that use them. The 2024 TEU figure is derived from the published change; the weight-per-box index is derived from the two published percentages; the empty-container shares are illustrative and labelled. No figure on this page reports a Rotterdam measurement that no office has published.
 
+Learning ladder
+
 ## From ten toy boxes to a two-unit model with its ratio derived
 
 The opening lesson finds the rung; which gebied the laptop is in does not.
 
-- **Ages 6 to 10: More boxes, less weight** Children count and weigh the same table and find the two numbers move apart. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [App Making for Kids](/courses/block-coding-app-development-masterclass)
-- **Ages 11 to 13: A ratio that explains two headlines** Learners divide one unit by another in Python and watch the result move. [Maths Through Coding](/courses/maths-through-coding), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Ages 14 to 18: Two units, one flow, labelled assumptions** Teenagers build the container model and mark what is published and what is assumed. [Python for Teens](/courses/python-complete-masterclass-teens), [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)
-- **Ages 18 to 67: Units at work** Adults take apart a dashboard that reports the flattering unit and rebuild it in both. [Data Analysis Course](/courses/data-analysis-mastery-course-college), [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)
+Ages 6 to 10
+
+### More boxes, less weight
+
+Children count and weigh the same table and find the two numbers move apart.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[App Making for Kids](/courses/block-coding-app-development-masterclass)Ages 11 to 13
+
+### A ratio that explains two headlines
+
+Learners divide one unit by another in Python and watch the result move.
+
+[Maths Through Coding](/courses/maths-through-coding)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Ages 14 to 18
+
+### Two units, one flow, labelled assumptions
+
+Teenagers build the container model and mark what is published and what is assumed.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)Ages 18 to 67
+
+### Units at work
+
+Adults take apart a dashboard that reports the flattering unit and rebuild it in both.
+
+[Data Analysis Course](/courses/data-analysis-mastery-course-college)[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)Coding and AI
 
 ## The port already runs on software. Does a Rotterdam child still need to learn to write it, now that AI does too?
 
@@ -205,30 +218,139 @@ That is why the learner still writes the program: not for the syntax, which the 
 
 So the honest answer for a Rotterdam parent is the one the quay teaches every day: a flow can grow in one unit and shrink in another, a child who can show that in code has learned to think, and the code was the way in, not the point. The longer argument is in [is coding still worth learning in 2026 when AI writes it](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for a city that works in shifts
 
 Port, hospital, terminal and refinery families in Rotterdam do not all keep office hours, and a child's week in Pendrecht or Nesselande is planned around a rota. A lesson that comes to the kitchen table at a fixed time is built for that.
 
-- **One recurring slot, chosen by the family** The class is at home in Ommoord, Kralingen or the Kop van Zuid at an hour the household keeps, and it does not require the parent on the early shift to be there.
-- **English, with Rotterdam's school words left alone** Teaching is in English. Groep, mavo, havo, vwo, profiel, tweetalig and IGCSE are used as the child hears them at school, because that is the vocabulary the family uses at the table.
-- **One full lesson before any decision** A real task, a level and a named course by the end of the hour, with no card details taken to arrange it and nothing to decide until the family has watched us teach.
-- **Fifteen to twenty learners, grouped by level** A group is built from what its members can do and want next. The gebied, the school, the rota and the country the grandparents left play no part in it.
-- **Eight lessons a month, on the regio Midden calendar** Two lessons a week at one time agreed once. Zuid-Holland takes its school holidays with regio Midden, and the summer weeks are settled before the slot is.
-- **Three and a half hours, or four and a half** That is how far a Rotterdam afternoon sits behind the teacher's evening in India, more in winter because only the Dutch clock changes. After-school, early-evening and weekend slots suit both ends and the family picks one during the free lesson.
+### One recurring slot, chosen by the family
 
-**A metro city** Five metro lines, a river, a bridge and a tunnel connect the fourteen gebieden, and a child in Hoogvliet is forty minutes from a child in Prins Alexander. Neither of them has to travel for a class that arrives over a connection, and the class does not care which side of the Maas the laptop is on.
+The class is at home in Ommoord, Kralingen or the Kop van Zuid at an hour the household keeps, and it does not require the parent on the early shift to be there.
+
+### English, with Rotterdam's school words left alone
+
+Teaching is in English. Groep, mavo, havo, vwo, profiel, tweetalig and IGCSE are used as the child hears them at school, because that is the vocabulary the family uses at the table.
+
+### One full lesson before any decision
+
+A real task, a level and a named course by the end of the hour, with no card details taken to arrange it and nothing to decide until the family has watched us teach.
+
+### Fifteen to twenty learners, grouped by level
+
+A group is built from what its members can do and want next. The gebied, the school, the rota and the country the grandparents left play no part in it.
+
+### Eight lessons a month, on the regio Midden calendar
+
+Two lessons a week at one time agreed once. Zuid-Holland takes its school holidays with regio Midden, and the summer weeks are settled before the slot is.
+
+### Three and a half hours, or four and a half
+
+That is how far a Rotterdam afternoon sits behind the teacher's evening in India, more in winter because only the Dutch clock changes. After-school, early-evening and weekend slots suit both ends and the family picks one during the free lesson.
+
+A metro city
+
+Five metro lines, a river, a bridge and a tunnel connect the fourteen gebieden, and a child in Hoogvliet is forty minutes from a child in Prins Alexander. Neither of them has to travel for a class that arrives over a connection, and the class does not care which side of the Maas the laptop is on.
+
+Fees
 
 ## A free opening lesson, then USD 100 or USD 150 a month, and that is all of it
 
 The tariff in full, ahead of any request for a phone number, because a port city likes its numbers on the table.
 
-- First class: USD 0. A complete lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner with one teacher.
+First class**USD 0**
+
+A complete lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner with one teacher.
 
 The rate is the single international one and it is in US dollars: no euro list, no Rotterdam surcharge, no joining fee. The opening lesson fixes the course and the slot; payment is arranged afterwards over WhatsApp. Pauses, changes of plan and missed lessons are on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Rotterdam.)Reviews
+
+## What families and learners say
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Tell us the learner's level, and the gebied if you like
+
+The opening task might be ten toy boxes and a kitchen scale, a Python model of boxes and tonnes with the empties as a labelled variable, or a report from work that says two opposite things in two different units.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Rotterdam one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Rotterdam.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Rotterdam coding class questions
+
+The city, the port, the schools, the teaching and the terms.
 
 ### Did the port of Rotterdam grow or shrink in 2025?
 
@@ -270,10 +392,14 @@ The first lesson is free. Group tuition is USD 100 a month for two live lessons 
 
 Between five and ten, matched on level, pace and goal rather than on age, school or gebied. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.
 
+Explore the Netherlands
+
 ## Up the river, along the coast, and up to the country page
 
 Twenty minutes up the A13 is [The Hague](/coding-classes-in-the-hague), whose page explains the Surinamese-origin figure this one only cites; up the A2 is [Utrecht](/coding-classes-in-utrecht); and beyond them [Amsterdam](/coding-classes-in-amsterdam), [Amstelveen](/coding-classes-in-amstelveen), [Almere](/coding-classes-in-almere) and [Eindhoven](/coding-classes-in-eindhoven). Every one of them spokes from the [Netherlands coding hub](/coding-classes-in-netherlands), and a learner who wants to train models rather than write programs should start at [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands), and the [AI and Python Academy, Rotterdam](/ai-and-python-academy-rotterdam) follows the port’s forecasts from prediction to proof. [Rotterdam Centrum](/coding-classes-in-rotterdam-centrum) and [Delfshaven](/coding-classes-in-delfshaven) and [Feijenoord](/coding-classes-in-feijenoord) and [Charlois](/coding-classes-in-charlois) and [IJsselmonde](/coding-classes-in-ijsselmonde) and [Kralingen-Crooswijk](/coding-classes-in-kralingen-crooswijk) and [Hillegersberg-Schiebroek](/coding-classes-in-hillegersberg-schiebroek) and [Prins Alexander](/coding-classes-in-prins-alexander) complete all eight gebied pages.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Rotterdam.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-rotterdam](https://learn.modernagecoders.com/coding-classes-in-rotterdam#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-rotterdam*

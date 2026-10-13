@@ -4,46 +4,32 @@ description: "Coding, Python, AI and maths lessons for Ballymun learners aged 6 
 canonical: https://learn.modernagecoders.com/coding-classes-in-ballymun-dublin
 source: src/pages/coding-classes-in-ballymun-dublin.html
 ---
-> Every Ballymun learner is taught live on a video call by a teacher, in a small same-level group or alone with the teacher, typically on two days a week, and they can be any age from six to sixty-seven. There is no journey involved. No fee applies to the first lesson; later months are billed at USD 100 in a shared group or USD 150 with a teacher to oneself.
+> Coding, Python, AI and maths lessons for Ballymun learners aged 6 to 67, taught live online in small same-level groups or one to one. The opening lesson is free.
 
-[Home](/) / [Ireland](/coding-classes-in-ireland) / [Dublin](/best-coding-class-in-dublin) / Ballymun
-
-Ballymun, Dublin 9 and 11 / Live online
-
-# Coding classes in Ballymun
-
-**What are the best coding classes in Ballymun?** Every Ballymun learner is taught live on a video call by a teacher, in a small same-level group or alone with the teacher, typically on two days a week, and they can be any age from six to sixty-seven. There is no journey involved. No fee applies to the first lesson; later months are billed at USD 100 in a shared group or USD 150 with a teacher to oneself.
-
-Dublin City Council's sound monitor in Ballymun recorded the noise level every five minutes through 2015, as its monitor in Drumcondra did. Each reading comes with three numbers: an average level, the level exceeded 10 percent of the time, and the level exceeded 95 percent of the time. Compare the two places on the average alone and Ballymun is about 7.5 decibels louder at night. Compare them on the quiet background and the gap shrinks to 1.77. Compare them on the peaks and it grows to 12.49. This page teaches a learner why one number cannot describe a difference, and how the three together do.
-
-Facts last verified 20 September 2026. Teaching is online; no Ballymun branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourses for Ballymun
 
 ## Four first courses for Ballymun
 
 The age bands below are where most learners begin, and the opening lesson is when the teacher confirms the fit or proposes a different course.
 
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Ages 6 to 10): Blocks and a sound game: the quietest moment, the loudest moment and the usual moment of a noisy room.
-- [Maths Through Coding](/courses/maths-through-coding) (Ages 10 to 13): Sorting lists and reading off the value at 10 percent and 95 percent, then asking what each one means.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Ages 13 to 18): Two real sensor files in Python: parsing, percentile summaries by hour, and comparisons that say which part differs.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (College and adult): For adults who compare sites, shops or services and need more than an average to explain the difference.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)Ages 6 to 10Coding for KidsBlocks and a sound game: the quietest moment, the loudest moment and the usual moment of a noisy room.See the syllabus](/courses/kids-coding-blocks-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)Ages 10 to 13Maths Through CodingSorting lists and reading off the value at 10 percent and 95 percent, then asking what each one means.See the syllabus](/courses/maths-through-coding)[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)Ages 13 to 18Data Science for TeensTwo real sensor files in Python: parsing, percentile summaries by hour, and comparisons that say which part differs.See the syllabus](/courses/data-science-course-for-teens-python-data)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)College and adultData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For adults who compare sites, shops or services and need more than an average to explain the difference.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Signature project
 
 ## Louder how? Ballymun and Drumcondra by background and by peaks
 
 Both series are Dublin City Council's 2015 files from its ambient sound monitors, one reading every five minutes. Night means readings that start between 23:00 and 07:00. Levels are in A-weighted decibels, and the council defines L10 and L95 as the levels exceeded for 10 percent and 95 percent of the time.
 
-**Nights in 2015: the same comparison three ways (decibels)**
-
 | Measure | Ballymun | Drumcondra | Gap |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Energy average (Leq) | 57.98 | 50.50 | 7.48 |
 | Peaks: median of L10 | 62.66 | 50.17 | 12.49 |
 | Background: median of L95 | 46.65 | 44.88 | 1.77 |
@@ -78,14 +64,14 @@ A small gap between L10 and L95 means the level barely changes; a large one mean
 
 The monitors record levels at one point each, not what made the sound. The page describes the two sites and the shape of their readings, and makes no claim about the sources of noise in either place.
 
+Ballymun, named
+
 ## Ballymun from its library, arts centre, park and Boiler House
 
 Each fact is taken from the body that runs the place.
 
-**Named places in Ballymun**
-
 | Place | What its own source says |
-|---|---|
+| --- | --- |
 | Ballymun Library | Ballymun Road, Dublin 11, D11 DCR7 |
 | Axis Ballymun | Main Street, Ballymun, Dublin 9, D09 Y9W0 |
 | The Rediscovery Centre | The Boiler House, Ballymun Road, D09 HK58 |
@@ -103,7 +89,11 @@ Axis describes itself as an arts and community centre on Main Street with a thea
 
 The Rediscovery Centre calls itself the National Centre for the Circular Economy. From the Boiler House on Ballymun Road it runs social enterprises that recondition furniture, bicycles, paint and clothing.
 
-**What this page does not claim** No population is given for Ballymun, since the page uses only what named bodies publish about the place. The sound figures describe one monitor in 2015 at the position the files give, and nothing here names a source of noise.
+What this page does not claim
+
+No population is given for Ballymun, since the page uses only what named bodies publish about the place. The sound figures describe one monitor in 2015 at the position the files give, and nothing here names a source of noise.
+
+Learning here
 
 ## Two lessons in a Ballymun learner's week
 
@@ -123,14 +113,37 @@ Adults can join with no background; the first lesson settles the course.
 
 The 2015 readings come from Dublin City Council's open data portal, and every median, percentile, energy average and site comparison on this page is our own working, done on 20 September 2026. Library and park details are the council's, and the arts centre and Boiler House details come from their own websites.
 
+Learning ladder
+
 ## From the loudest moment to a full description
 
 Bands are a rough guide; the first lesson finds the right level.
 
-- **Ages 6 to 10: Quiet, loud, usual** Block-coded games that find the extremes and the middle of a list of sounds. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Ages 11 to 13: Percentiles by hand** Python that sorts values and reads off the 10 and 95 percent points. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Shape, not just size** Hour-by-hour percentile summaries of two real sensor files and a fair comparison. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Ages 18 to 67: Explaining a difference** Comparing sites or services by floor, peaks and spread, not a single average. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Data Analysis Course](/courses/data-analysis-mastery-course-college)
+Ages 6 to 10
+
+### Quiet, loud, usual
+
+Block-coded games that find the extremes and the middle of a list of sounds.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
+
+### Percentiles by hand
+
+Python that sorts values and reads off the 10 and 95 percent points.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Shape, not just size
+
+Hour-by-hour percentile summaries of two real sensor files and a fair comparison.
+
+[Data Science for Teens](/courses/data-science-course-for-teens-python-data)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
+
+### Explaining a difference
+
+Comparing sites or services by floor, peaks and spread, not a single average.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Data Analysis Course](/courses/data-analysis-mastery-course-college)Coding and AI
 
 ## Ask an assistant which place is noisier
 
@@ -142,30 +155,139 @@ The learner who has built this project asks for the background and the peaks sep
 
 An average tells you how much. Percentiles tell you where. Good analysis reports both. The longer argument is in [why every learner should try coding at least once](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## How lessons run for Ballymun
 
 Briefly.
 
-- **Live with a teacher** The teacher runs each lesson live, looking over each learner's code as they build it.
-- **Same-level groups** Groups of fifteen to twenty at one level, from Ballymun, other parts of Ireland or overseas.
-- **Set days** The same two days every week, roughly eight lessons a month.
-- **Around school** The plan makes room for holidays, mid-terms and exam periods.
-- **Home kit** Any computer with a keyboard, plus a mic, some way to hear, and a line fast enough that video does not stall.
-- **A teacher to yourself** Private teaching suits a learner who has outpaced the groups, wants a slower pace, or can only study at odd hours.
+### Live with a teacher
 
-**Taught remotely** Modern Age Coders has no premises in Ballymun or elsewhere in Ireland. Lessons are live on video and run the same for every learner.
+The teacher runs each lesson live, looking over each learner's code as they build it.
+
+### Same-level groups
+
+Groups of fifteen to twenty at one level, from Ballymun, other parts of Ireland or overseas.
+
+### Set days
+
+The same two days every week, roughly eight lessons a month.
+
+### Around school
+
+The plan makes room for holidays, mid-terms and exam periods.
+
+### Home kit
+
+Any computer with a keyboard, plus a mic, some way to hear, and a line fast enough that video does not stall.
+
+### A teacher to yourself
+
+Private teaching suits a learner who has outpaced the groups, wants a slower pace, or can only study at odd hours.
+
+Taught remotely
+
+Modern Age Coders has no premises in Ballymun or elsewhere in Ireland. Lessons are live on video and run the same for every learner.
+
+Fees
 
 ## Fees for Ballymun
 
 The short version.
 
-- First class: USD 0. A free first lesson that includes a level check.
-- Group tuition: USD 100 a month. A month in a same-level group of fifteen to twenty, close to eight live lessons.
-- Private tuition: USD 150 a month. A month of private lessons at the same frequency.
+First class**USD 0**
+
+A free first lesson that includes a level check.
+
+Group tuition**USD 100**
+
+A month in a same-level group of fifteen to twenty, close to eight live lessons.
+
+Private tuition**USD 150**
+
+A month of private lessons at the same frequency.
 
 Outside India the fee is one US dollar amount for everyone, paid month by month. Trying the free lesson creates no obligation, billing only starts alongside the course, and holidays, missed sessions and moves between group and private teaching are explained on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Ballymun.)Reviews
+
+## Google reviews left by families, reproduced as written
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free first lesson in Ballymun
+
+Share the learner's age and interests, and the first lesson will be built around them. Some first lessons finish with a tiny game, some with a program that works first time, some with a chart showing exactly where two sets of numbers part company.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Ballymun one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Ballymun.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Ballymun coding class questions
+
+What Ballymun families tend to ask.
 
 ### Is there a Modern Age Coders centre in Ballymun?
 
@@ -203,10 +325,14 @@ The first lesson is free. Then a group place costs USD 100 a month for about eig
 
 Fifteen to twenty, grouped by level, pace and goals rather than by age or address. If no group runs at a workable time, lessons are one to one.
 
+Explore Ireland
+
 ## Around Ballymun
 
 To the south, [Drumcondra](/coding-classes-in-drumcondra-dublin) teaches how to average decibels at all, and [Glasnevin](/coding-classes-in-glasnevin-dublin) has a project on temperature records. West of here, [Finglas](/coding-classes-in-finglas-dublin) looks at particle spikes, and the [Ireland hub](/coding-classes-in-ireland) covers everywhere else.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20to%20book%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20Ballymun.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-ballymun-dublin](https://learn.modernagecoders.com/coding-classes-in-ballymun-dublin#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-ballymun-dublin*

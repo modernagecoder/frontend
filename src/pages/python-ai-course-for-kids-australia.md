@@ -4,25 +4,21 @@ description: "A Python AI course for Australian kids aged 9 to 13: write small A
 canonical: https://learn.modernagecoders.com/python-ai-course-for-kids-australia
 source: src/pages/python-ai-course-for-kids-australia.html
 ---
-> A Python AI course for kids teaches children to program in Python and then use it to build small artificial intelligence programs of their own, such as a text sorter that learns from labelled examples. Children learn the core ideas of machine learning: training data, a model, testing on new examples and spotting mistakes. Our course is for Australian children aged about 9 to 13, runs live online in small groups or one to one, needs no account with an adult AI chatbot, and starts with a free class.
+> A Python AI course for Australian kids aged 9 to 13: write small AI programs, train them on examples and test them honestly. No adult chatbots. First class free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / Python AI course for kids
+In short
 
-Australia · Ages 9 to 13 · Python and AI
+A Python AI course for kids teaches children to program in Python and then use it to build small artificial intelligence programs of their own, such as a text sorter that learns from labelled examples. Children learn the core ideas of machine learning: training data, a model, testing on new examples and spotting mistakes. Our course is for Australian children aged about 9 to 13, runs live online in small groups or one to one, needs no account with an adult AI chatbot, and starts with a free class.
 
-# Python AI course for kids
-
-Children meet AI every day, in search boxes, games and video recommendations, and many have already asked a chatbot a question. Very few have built an AI program themselves, or seen how a computer can get better at a task by looking at examples. That is the gap this course fills. Children aged about nine to thirteen learn Python, then use it to build small, real AI programs: a sorter that learns from examples, a guessing game that improves as it plays, a simple model they train and then test on things it has never seen. Everything runs in their own Python code, so nobody needs an account with an adult AI service. This page explains why Python, works through one AI idea in full with real numbers, and shows what Australian children build along the way.
-
-At a glance: For: Children aged about 9 to 13; Language: Python; AI ideas: Training data, models, testing; Accounts: No adult AI chatbots needed; Before this: Scratch helps, not required; Format: Live online lessons; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three courses for young Python and AI learners
 
 Chosen by age and confidence with code. Each card opens the full syllabus.
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass): For 9 to 12 year olds: first Python programs, turtle drawings and games, then small AI projects.
-- [AI Literacy for Kids](/courses/ai-literacy-for-kids-course): For 8 to 14 year olds: how AI works and where it goes wrong, with less code and more thinking.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev): For 8 to 12 year olds who want to make things with an AI helper and still know what each step does.
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  PYAU / 01 Python and AI for Kids For 9 to 12 year olds: first Python programs, turtle drawings and games, then small AI projects. Open the syllabus →](/courses/python-ai-kids-masterclass)[![AI Literacy for Kids (Ages 8 to 14) course thumbnail](/images/ai-literacy-for-kids.webp)  PYAU / 02 AI Literacy for Kids For 8 to 14 year olds: how AI works and where it goes wrong, with less code and more thinking. Open the syllabus →](/courses/ai-literacy-for-kids-course)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)  PYAU / 03 Vibe Coding for Kids For 8 to 12 year olds who want to make things with an AI helper and still know what each step does. Open the syllabus →](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)
+
+Why Python
 
 ## Why Python is the right first language for AI
 
@@ -30,7 +26,7 @@ There is a practical reason to start AI with Python, and a more important one.
 
 ### It reads like plain English
 
-The Python Software Foundation describes Python as "friendly & easy to learn". A line such as if score > 10: print("You win") can be read aloud by a nine-year-old and understood.
+The Python Software Foundation describes Python as "friendly & easy to learn". A line such as `if score > 10: print("You win")` can be read aloud by a nine-year-old and understood.
 
 That matters for AI, because children need to see exactly what their program does with the examples it is given. Hidden steps make AI feel like magic; readable code makes it make sense.
 
@@ -40,10 +36,8 @@ The same language a child uses to draw a spiral with turtle graphics is used lat
 
 Children who later move to more advanced AI work, in our teen courses, keep their Python habits and simply add new libraries.
 
-**How the course is paced**
-
 | Weeks | Python skills | AI ideas |
-|---|---|---|
+| --- | --- | --- |
 | 1 to 4 | Variables, input, if statements, loops | What is a rule? Writing rules by hand |
 | 5 to 8 | Lists, strings, functions | Examples and labels: the idea of training data |
 | 9 to 12 | Dictionaries and counting | A model that learns word counts from examples |
@@ -52,16 +46,16 @@ Children who later move to more advanced AI work, in our teen courses, keep thei
 
 Source, read 7 October 2026: Python Software Foundation, [About Python](https://www.python.org/about/). Pacing is our plan for a typical learner; quick learners move faster.
 
+A worked example
+
 ## Hand-written rules versus learning from examples
 
 This project is the heart of the course. Children build the same program twice, once with hand-written rules and once with a model that learns, and then test both on sentences neither has seen.
 
 The task: decide whether a sentence is about **space** or the **ocean**. First, the child writes a rule by hand: if the sentence contains "rocket" or "moon", say space; otherwise say ocean. Then they build a learning version. They give the program twelve example sentences, six labelled space and six labelled ocean, and it counts how often each word appears in each group. To judge a new sentence, it adds up the counts for its words and picks the bigger total. If the totals are equal, it says "not sure".
 
-**Our test: 8 new sentences, judged by both programs (our own sentences and results)**
-
 | New sentence | Correct answer | Hand-written rule | Learned word counts |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | astronauts saw stars from the space station | Space | Ocean (wrong) | Space |
 | a turtle swam near the reef | Ocean | Ocean | Ocean |
 | the comet flew past mars | Space | Ocean (wrong) | Space |
@@ -97,14 +91,14 @@ Another elaboration suggests "changing the weighting of different input variable
 
 Both elaborations were taken on 7 October 2026 from the Years 7 to 10 Digital Technologies [curriculum document](https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/technologies/digital-technologies/technologies-digital-technologies-curriculum-content-7-10-v9.docx) published by ACARA (Version 9.0). ACARA lists them under Years 9 and 10; we teach a simpler version earlier.
 
+Projects
+
 ## AI projects children build in Python
 
 Every project is small enough to finish in a few lessons, and each one teaches a single AI idea properly.
 
-**Projects and the idea each one teaches**
-
 | Project | What it does | The AI idea |
-|---|---|---|
+| --- | --- | --- |
 | Space or ocean? | Sorts sentences after learning from examples | Training data and testing on new data |
 | Number guesser | Narrows down a secret number in as few tries as possible | Searching a space of answers |
 | Rock, paper, scissors bot | Notices a player's habits and plays against them | Learning patterns from past moves |
@@ -126,6 +120,8 @@ It also makes them sceptical in a healthy way: they know that a confident answer
 
 Source, read 7 October 2026: [Machine Learning for Kids](https://machinelearningforkids.co.uk/), site description. We are independent of it.
 
+No adult chatbots
+
 ## Learning AI without adult AI accounts
 
 Many popular AI chatbots set minimum ages in their own terms, and some do not allow children at all. This course does not need them.
@@ -142,23 +138,21 @@ Older students eventually meet large AI tools, and should, once they meet each s
 
 For a wider view of what a good AI course for children should include, see [AI courses for kids in Australia](/ai-courses-for-kids-australia).
 
-**How this course compares with "AI for kids" that means chatting with a bot**
-
 | Question | This course | Chatbot-based activities |
-|---|---|---|
+| --- | --- | --- |
 | Who builds the AI? | The child, in Python | A company |
 | Is an account needed? | No | Usually, with age rules |
 | Can the child explain each decision? | Yes, line by line | Rarely |
 | What does the child learn? | How learning from examples works | How to phrase questions |
 
+Is my child ready?
+
 ## Signs your child is ready for Python and AI
 
 Age is only a rough guide. These signs matter more.
 
-**Readiness signs and what to do**
-
 | What you notice | What it suggests | Where to start |
-|---|---|---|
+| --- | --- | --- |
 | Reads comfortably and types a little | Ready for typed Python | This course |
 | Has finished Scratch projects alone | Ready to move from blocks to text | This course, from week one |
 | Asks how AI or chatbots work | Curious about the ideas | This course, or AI Literacy for Kids |
@@ -166,14 +160,14 @@ Age is only a rough guide. These signs matter more.
 
 Younger children usually start with blocks. Our page on [coding games for kids](/coding-games-for-kids-australia) explains how puzzle games prepare them, and [online coding classes for kids in Australia](/online-coding-classes-for-kids-australia) describes how live lessons run.
 
+Progress
+
 ## Four stages from first Python to first AI
 
 Most children reach the third stage in about two terms of weekly lessons.
 
-**From typing Python to testing a model**
-
 | Stage | What your child can do |
-|---|---|
+| --- | --- |
 | 1. Coder | Write Python with variables, loops and if statements, and fix simple errors |
 | 2. Rule maker | Write a hand-made rule for a task and explain where it fails |
 | 3. Trainer | Build a model that learns from labelled examples and test it on new ones |
@@ -182,63 +176,293 @@ Most children reach the third stage in about two terms of weekly lessons.
 ### Does my child need to be good at maths?
 
 Counting, comparing and simple percentages are enough to start. The course builds number sense rather than requiring it.
+
 Children who love maths often enjoy seeing how a model's score is calculated.
 
 ### How much time each week?
 
 One or two live lessons a week, plus optional practice. Many children happily spend extra time improving their own projects.
+
 Billing is monthly, so a break over the summer holidays is easy.
+
+The catalogue
 
 ## Courses around Python and AI for children
 
 Three bands, from before Python to beyond this course. The trial lesson tells us which one fits.
 
+I
+
 ### Before Python
 
 Ages 6 to 9
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course): Logic and loops in blocks.
-- [Coding for Kids](/courses/kids-coding-blocks-masterclass): From blocks towards typed code.
-- [Problem Solving for Kids](/courses/problem-solving-and-computational-thinking-for-kids): Breaking problems into steps.
+PYAU / PRE / 01
+
+#### Scratch Coding for Kids
+
+Logic and loops in blocks.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)
+
+PYAU / PRE / 02
+
+#### Coding for Kids
+
+From blocks towards typed code.
+
+[Open the syllabus](/courses/kids-coding-blocks-masterclass)
+
+PYAU / PRE / 03
+
+#### Problem Solving for Kids
+
+Breaking problems into steps.
+
+[Open the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)II
 
 ### Python and AI
 
 Ages 8 to 14
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass): The course this page describes.
-- [AI Literacy for Kids](/courses/ai-literacy-for-kids-course): Understanding AI, ages 8 to 14.
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev): Building with AI help, ages 8 to 12.
+PYAU / PAI / 01
+
+#### Python and AI for Kids
+
+The course this page describes.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)
+
+PYAU / PAI / 02
+
+#### AI Literacy for Kids
+
+Understanding AI, ages 8 to 14.
+
+[Open the syllabus](/courses/ai-literacy-for-kids-course)
+
+PYAU / PAI / 03
+
+#### Vibe Coding for Kids
+
+Building with AI help, ages 8 to 12.
+
+[Open the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)III
 
 ### After this course
 
 Ages 13 and up
 
-- [Python for Teens](/courses/python-complete-masterclass-teens): Deeper Python for teenagers.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens): Real models with real libraries, 13 to 18.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data): Data and first ML models, 14 to 18.
+PYAU / AFT / 01
+
+#### Python for Teens
+
+Deeper Python for teenagers.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+PYAU / AFT / 02
+
+#### AI and Machine Learning for Teens
+
+Real models with real libraries, 13 to 18.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+PYAU / AFT / 03
+
+#### Data Science for Teens
+
+Data and first ML models, 14 to 18.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)
+
+How lessons run
 
 ## Python AI lessons in Australian time
 
 Our teachers work from India, where the working day overlaps Australian afternoons in every state. Lessons are booked in your own state's time, and daylight saving in the east is handled for you.
 
-- **After school** Weekday lessons for primary and lower secondary.
-- **Saturday** Longer project sessions.
-- **Sunday** When weeknights are full of sport and homework.
+After school
 
-- **Free first class** Your child writes a first Python program, and a first rule, with a teacher.
-- **Groups** Fifteen to twenty children comparing how their models perform.
-- **Private lessons** When your child has one AI idea they want to chase.
-- **Code by the child** Teachers explain and question; children type every line.
-- **No chatbot accounts** Everything runs in the child's own Python code.
-- **Honest testing** Every model is tested on data it has not seen, every time.
+Weekday lessons for primary and lower secondary.
+
+Saturday
+
+Longer project sessions.
+
+Sunday
+
+When weeknights are full of sport and homework.
+
+### Free first class
+
+Your child writes a first Python program, and a first rule, with a teacher.
+
+### Groups
+
+Fifteen to twenty children comparing how their models perform.
+
+### Private lessons
+
+When your child has one AI idea they want to chase.
+
+### Code by the child
+
+Teachers explain and question; children type every line.
+
+### No chatbot accounts
+
+Everything runs in the child's own Python code.
+
+### Honest testing
+
+Every model is tested on data it has not seen, every time.
+
+Student work
+
+## Projects built by our students
+
+Programs and apps our students finished and put online. The [student labs](/student-labs) hold the rest.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees for the Python AI course
 
 Outside India, lessons are billed once a month in US dollars, with no sign-up fee. Leave whenever you like; there is no term to finish.
 
-- Free first class: USD 0. A first Python program and a first rule. Honest advice on readiness. No card or bank details.
-- Group batch: USD 100 a month. Fifteen to twenty children per class. Models compared and discussed together. A regular teacher. Stop after any month.
-- One to one: USD 150 a month. Lessons around your child's own AI project. Pace set by your child. Times around school and activities.
+Free first class
+
+USD 0
+
+no card required
+
+- A first Python program and a first rule
+- Honest advice on readiness
+- No card or bank details
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty children per class
+- Models compared and discussed together
+- A regular teacher
+- Stop after any month
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- Lessons around your child's own AI project
+- Pace set by your child
+- Times around school and activities
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Copied word for word from families' reviews on our Google profile.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Parents ask
 
 ## What Australian parents ask about Python and AI for kids
 
@@ -282,15 +506,54 @@ They build a simple rule-based chat program and learn why real chatbots need eno
 
 Nothing for the opening lesson, and no payment details are asked for. After that it is a flat monthly fee for either a small group or private lessons, set out in the fees panel above.
 
+Also on this site
+
 ## Related pages
 
-- [Coding classes in Australia](/coding-classes-in-australia): All of our Australian guides together.
-- [AI courses for kids](/ai-courses-for-kids-australia): What a good AI course for children includes.
-- [AI classes for teens](/ai-classes-for-teens-australia): Using and checking AI tools, for teenagers.
-- [AI and machine learning in Australia](/ai-and-machine-learning-classes-in-australia): Deeper AI study for older learners.
-- [Coding games for kids](/coding-games-for-kids-australia): Puzzle games that prepare younger children.
-- [Online coding classes for kids](/online-coding-classes-for-kids-australia): Year levels, time zones and online safety.
+Other AI and coding pages for Australian families.
 
-## Contact
+### [Coding classes in Australia](/coding-classes-in-australia)
 
-Book the free first class at [https://learn.modernagecoders.com/python-ai-course-for-kids-australia](https://learn.modernagecoders.com/python-ai-course-for-kids-australia#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+All of our Australian guides together.
+
+### [AI courses for kids](/ai-courses-for-kids-australia)
+
+What a good AI course for children includes.
+
+### [AI classes for teens](/ai-classes-for-teens-australia)
+
+Using and checking AI tools, for teenagers.
+
+### [AI and machine learning in Australia](/ai-and-machine-learning-classes-in-australia)
+
+Deeper AI study for older learners.
+
+### [Coding games for kids](/coding-games-for-kids-australia)
+
+Puzzle games that prepare younger children.
+
+### [Online coding classes for kids](/online-coding-classes-for-kids-australia)
+
+Year levels, time zones and online safety.
+
+Start here
+
+## Book a free first class
+
+Tell us a little about your child and pick a time for a call. During the trial lesson they type their first lines of Python and invent a first AI rule, and you leave knowing which course, if any, makes sense.
+
+If you prefer to read first, see [how we teach a lesson](/how-we-teach) or browse [our courses by age](/courses).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20Australia%20wants%20to%20learn%20Python%20and%20AI.%20Could%20we%20book%20a%20free%20first%20class%3F) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+Messages on WhatsApp reach our India-based team (the +91 number) fastest. We do not run an office in Australia.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/python-ai-course-for-kids-australia*

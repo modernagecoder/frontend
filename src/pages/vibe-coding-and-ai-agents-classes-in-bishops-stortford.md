@@ -4,46 +4,32 @@ description: "Vibe coding, AI agents, Python and coding classes online for Bisho
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-bishops-stortford
 source: src/pages/vibe-coding-and-ai-agents-classes-in-bishops-stortford.html
 ---
-> The ONS counted 40,915 usual residents in the Bishop's Stortford built-up area in 2021, and 150,158 across East Hertfordshire. Thorley, Hockerill and Thorley Street appear in the gazetteer as parts of the town. Modern Age Coders teaches vibe coding, AI agents, Python, coding and maths to people there aged six to 67, in live video lessons with tutors in India, either privately or in groups of fifteen to twenty at one level. When several AI agents work on the same task, each keeps its own copy of what it knows, and sooner or later the copies must be merged. Our Bishop's Stortford project sends three simulated agents out to list the town's bus stops, post boxes and benches, lets them edit offline, and compares three ways of merging. Your first lesson costs nothing; keeping going is USD 100 monthly in a class or USD 150 monthly on a one-to-one basis.
+> Vibe coding, AI agents, Python and coding classes online for Bishop's Stortford, Thorley, Hockerill and Thorley Street, ages 6 to 67. The first lesson is free.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [East of England](/coding-and-ai-classes-in-east-of-england) / Bishop’s Stortford
-
-Bishop's Stortford, East Hertfordshire, Hertfordshire / Live online
-
-# Vibe coding and AI agents classes in Bishop's Stortford
-
-**Where are the best vibe coding and AI agents classes for Bishop's Stortford learners?** The ONS counted 40,915 usual residents in the Bishop's Stortford built-up area in 2021, and 150,158 across East Hertfordshire. Thorley, Hockerill and Thorley Street appear in the gazetteer as parts of the town. Modern Age Coders teaches vibe coding, AI agents, Python, coding and maths to people there aged six to 67, in live video lessons with tutors in India, either privately or in groups of fifteen to twenty at one level. When several AI agents work on the same task, each keeps its own copy of what it knows, and sooner or later the copies must be merged. Our Bishop's Stortford project sends three simulated agents out to list the town's bus stops, post boxes and benches, lets them edit offline, and compares three ways of merging. Your first lesson costs nothing; keeping going is USD 100 monthly in a class or USD 150 monthly on a one-to-one basis.
-
-Two people edit the same shopping list on their phones in a tunnel. One crosses off milk; the other adds bread. When the signal returns, what should the list say? Now replace the people with AI agents, and the list with a shared record of a whole town. Computer scientists have a family of answers called conflict-free replicated data types, CRDTs for short, which guarantee that every copy ends up identical whatever order the updates arrive in. Bishop's Stortford learners build one, and then discover that identical is not the same as correct.
-
-Facts last verified 30 September 2026. Teaching is online; no Bishop’s Stortford branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentSuggested courses
 
 ## Vibe coding and AI agents courses for Bishop's Stortford
 
 Choose by age. Every course starts with a free live lesson, and no card is needed.
 
-- [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev) (Ages 8 to 12): Vibe coding for children: the child describes a Scratch game, an AI helps build it, and the child tests every part.
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): How to think: two people change the same plan at once; whose change should win, and why?
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Vibe coding for teenagers: Python and web projects built with AI, including the shared-list agents.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (Students and adults): Python automation and AI agents for older learners, with the data questions agents raise.
+[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Ages 8 to 12Vibe Coding for KidsVibe coding for children: the child describes a Scratch game, an AI helps build it, and the child tests every part.See the syllabus](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsHow to think: two people change the same plan at once; whose change should win, and why?See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Ages 13 to 17Vibe Coding for TeensVibe coding for teenagers: Python and web projects built with AI, including the shared-list agents.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Students and adultsPython Automation CoursePython automation and AI agents for older learners, with the data questions agents raise.See the syllabus](/courses/python-ai-automation-masterclass-college)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Bishop's Stortford facts
 
 ## Bishop's Stortford, Thorley, Hockerill and Thorley Street
 
 Census counts, gazetteer names and council wards, each with its source.
 
-**Usual residents at the 2021 census (ONS)**
-
 | Area | Residents |
-|---|---|
+| --- | --- |
 | Bishop's Stortford built-up area | 40,915 |
 | East Hertfordshire district | 150,158 |
 
@@ -53,6 +39,8 @@ The district total covers far more than the town, including Hertford, Ware and S
 
 See the [Hertfordshire page](/coding-classes-in-hertfordshire) and [Harlow](/best-coding-and-ai-classes-in-harlow). Our case for learning to think before handing work to AI is in [learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-uk).
 
+The Bishop's Stortford project
+
 ## Three agents, one shared list, and three ways to merge it
 
 Real features from OpenStreetMap, simulated agents and edits, and a result every learner can check.
@@ -61,10 +49,8 @@ OpenStreetMap records 424 benches, bus stops and post boxes in a rectangle aroun
 
 In the second round the agents work offline. A adds everything it missed. B decides benches are out of scope, deletes every bench it knows about, and adds its other missed features. C decides that stops sharing a name are duplicates, deletes the extras it knows about, and adds new stops. C's rule is questionable, because sharing a name does not make two stops the same stop, and that is part of the lesson: an agent can apply a bad rule perfectly. Then all three sync, in each of the six possible orders.
 
-**Merging the three agents' lists, one simulated run (seed 1), our Python code**
-
 | Merge rule | Items after merging | Same result in every sync order? | Benches left | Same-named stops left |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Whole list, last sync wins | 191 to 366 | No | depends on order | depends on order |
 | Keep everything anyone added | 393 | Yes | 189 | 71 |
 | Observed-remove set (a CRDT) | 172 | Yes | 18 | 21 |
@@ -88,14 +74,14 @@ Build the observed-remove set with unique tags, prove every sync order agrees, t
 
 Features are from OpenStreetMap under the Open Database Licence, as mapped on 30 September 2026. The agents, their strips, their 80 per cent success rate and their rules are invented by us, and the numbers come from our simulation, not from any real agent system. CRDTs are described by Shapiro and colleagues (2011).
 
+Vibe coding and AI agents
+
 ## What shared lists teach about teams of AI agents
 
 Once agents work in parallel, keeping their knowledge consistent becomes a design problem.
 
-**From the Bishop's Stortford simulation to real agent systems**
-
 | In the simulation | For AI agents |
-|---|---|
+| --- | --- |
 | Last sync won and dropped up to 15 agreed items | Overwriting shared memory silently loses work |
 | Keeping everything made deletion impossible | Memory that only grows fills up with things nobody wants |
 | The observed-remove set agreed in every order | Design merges so the order of messages does not matter |
@@ -106,14 +92,37 @@ Frameworks for multi-agent AI let agents share memory, task lists and results, a
 
 We drew on open data from OpenStreetMap volunteers, the ONS and postcodes.io, none of whom has any link to Modern Age Coders. The agents, the edits and the conclusions are our invention and our responsibility.
 
+Stages
+
 ## From paper lists to agents that share memory
 
 We start from the school year and check it in the free lesson.
 
-- **Years 2 to 6: How to think** Rules for fair decisions when two people want different things. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
-- **Years 4 to 8: Vibe coding for kids** Games and apps built with AI help, tested by the child who designed them. [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- **Years 9 to 13: Vibe coding and Python** Real Python behind AI-built projects, including data shared between programs. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [Python for Teens](/courses/python-complete-masterclass-teens)
-- **Adults: AI agents** Automation and agents in Python, with memory and coordination done properly. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Generative AI Course](/courses/complete-generative-ai-masterclass-college)
+Years 2 to 6
+
+### How to think
+
+Rules for fair decisions when two people want different things.
+
+[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Years 4 to 8
+
+### Vibe coding for kids
+
+Games and apps built with AI help, tested by the child who designed them.
+
+[Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Python and AI for Kids](/courses/python-ai-kids-masterclass)Years 9 to 13
+
+### Vibe coding and Python
+
+Real Python behind AI-built projects, including data shared between programs.
+
+[Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[Python for Teens](/courses/python-complete-masterclass-teens)Adults
+
+### AI agents
+
+Automation and agents in Python, with memory and coordination done properly.
+
+[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Generative AI Course](/courses/complete-generative-ai-masterclass-college)Agents and shared state
 
 ## What is a CRDT, and why do AI agents need one?
 
@@ -125,30 +134,139 @@ After building one, learners ask of any multi-agent system: what happens when tw
 
 A Bishop's Stortford teenager who has merged three agents' work by hand will design shared memory with care, and that care comes from writing the code. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+How lessons run
+
 ## Lessons for Bishop's Stortford learners
 
 Learners join from home with a laptop or desktop and a camera. A reliable connection matters more than raw speed.
 
-- **The learner builds** Tutors ask and suggest; learners write, run and fix the code, including the AI's.
-- **Placement comes first** The free lesson shows the level, and only then do we recommend a course.
-- **A free full lesson** The trial costs nothing and we take no card details.
-- **Fifteen to twenty per class** Classmates share a level and come from towns across the UK.
-- **Two slots a week** Holiday breaks follow your own school calendar; send it and we plan round it.
-- **Fixed UK start time** Clock changes are absorbed by the tutor, not by your timetable.
+### The learner builds
 
-**Why live and online** A live tutor sees a wrong idea as it forms and can question it at once. Learners from all over the UK let us match groups by level far more closely than a single town could.
+Tutors ask and suggest; learners write, run and fix the code, including the AI's.
+
+### Placement comes first
+
+The free lesson shows the level, and only then do we recommend a course.
+
+### A free full lesson
+
+The trial costs nothing and we take no card details.
+
+### Fifteen to twenty per class
+
+Classmates share a level and come from towns across the UK.
+
+### Two slots a week
+
+Holiday breaks follow your own school calendar; send it and we plan round it.
+
+### Fixed UK start time
+
+Clock changes are absorbed by the tutor, not by your timetable.
+
+Why live and online
+
+A live tutor sees a wrong idea as it forms and can question it at once. Learners from all over the UK let us match groups by level far more closely than a single town could.
+
+Fees
 
 ## Fees for Bishop's Stortford
 
 The fees below are the same ones we charge learners everywhere.
 
-- First class: USD 0. A full free first lesson that ends with a course suggestion.
-- Group tuition: USD 100 a month. Small-group lessons, about eight a month.
-- Private tuition: USD 150 a month. One-to-one lessons, about eight a month.
+First class**USD 0**
+
+A full free first lesson that ends with a course suggestion.
+
+Group tuition**USD 100**
+
+Small-group lessons, about eight a month.
+
+Private tuition**USD 150**
+
+One-to-one lessons, about eight a month.
 
 Everything is priced in US dollars; we publish no sterling figures. You will not be billed for the trial. The first invoice arrives after you pick a course and a regular slot, and the pricing page spells out what happens with holidays, absences or a switch between class and private.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Bishop's%20Stortford%20and%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson.)Reviews
+
+## Parents and learners rating us on Google, from East Herts and further afield
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book a free lesson in Bishop's Stortford
+
+A quick note of age or year group, plus a favourite pastime, lets us tailor the trial: a two-player list-editing game, an AI-assisted Scratch build, a learner's very first Python, or a pair of miniature agents that have to share one list.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Bishop’s Stortford one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Bishop's%20Stortford%20and%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Bishop's Stortford: questions answered
+
+About CRDTs, the simulation, vibe coding, agents and practical details.
 
 ### What is the population of Bishop's Stortford?
 
@@ -190,10 +308,14 @@ Lesson one is on the house. Staying on costs USD 100 each month in a small class
 
 Certainly; mark the weeks off and we will not book lessons in them.
 
+Hertfordshire and beyond
+
 ## More towns to explore
 
 Every town page runs its own project: [Harlow](/best-coding-and-ai-classes-in-harlow) in Essex, and [Welwyn Garden City](/best-coding-and-ai-classes-in-welwyn-garden-city) and [Stevenage](/ai-and-programming-classes-in-stevenage) in Hertfordshire, for example. For the complete set, start at the [county page](/coding-classes-in-hertfordshire) or the [UK hub](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Send us a WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Bishop's%20Stortford%20and%20would%20like%20a%20free%20vibe%20coding%20or%20AI%20agents%20lesson.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-bishops-stortford](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-bishops-stortford#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-bishops-stortford*

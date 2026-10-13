@@ -4,34 +4,28 @@ description: "Build real AI projects on Dutch open data, from CBS StatLine to KN
 canonical: https://learn.modernagecoders.com/build-real-ai-projects-netherlands
 source: src/pages/build-real-ai-projects-netherlands.html
 ---
-> Modern Age Coders teaches learners in the Netherlands to build AI and data projects on real Dutch open data, live online. Learners fetch data from CBS StatLine, the KNMI Data Platform and the government data register, clean it, model it and publish the result with its licence, its limits and its sources written down. Teenagers usually start once they can write Python; students and adults can start at any rung. Groups hold fifteen to twenty learners at one level, or lessons are one to one. The opening lesson is free; after it a group place is USD 100 a month and one-to-one lessons USD 150.
+> Build real AI projects on Dutch open data, from CBS StatLine to KNMI weather, with licences, limits and results handled properly. Live online, first lesson free.
 
-[Home](/) / [Courses](/courses) / [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands) / Real AI projects
+In short
 
-Netherlands · Project work · Live online
+Modern Age Coders teaches learners in the Netherlands to build AI and data projects on real Dutch open data, live online. Learners fetch data from CBS StatLine, the KNMI Data Platform and the government data register, clean it, model it and publish the result with its licence, its limits and its sources written down. Teenagers usually start once they can write Python; students and adults can start at any rung. Groups hold fifteen to twenty learners at one level, or lessons are one to one. The opening lesson is free; after it a group place is USD 100 a month and one-to-one lessons USD 150.
 
-# Build real AI projects in the Netherlands
-
-A tutorial project uses a tidy dataset that someone else cleaned years ago, answers a question nobody asked and ends when the notebook does. A real project is different in three ways: the data comes from somewhere that matters, the rules that come with that data are respected, and the result is written up so that someone else could check it. The Netherlands makes the first part unusually easy. The national statistics office publishes every one of its StatLine tables as open data, the meteorological institute publishes weather observations taken every ten minutes, and the government's data register lists tens of thousands of entries. The other two parts, the licences and limits and the honest write-up, are what we teach. This page is for learners in the Netherlands, from confident teenagers to working adults, who want to build AI projects on real Dutch data, live online and in English.
-
-At a glance: Data: CBS StatLine, KNMI, data.overheid.nl; Skills: Python, APIs, cleaning, models, publishing; Standard: Licences respected, limits measured; For: Confident teens, students, adults; Format: Live video with a teacher; Groups: Fifteen to twenty, or one to one; Language: English; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three courses for project builders
 
 A data course for teenagers, a full data science course for students and adults, and an automation course for turning a project into something that runs by itself. Each card opens its own syllabus and timetable.
 
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data): A teenager fetches a real CBS table, cleans it, plots it and builds a first model, then writes down what the data cannot say.
-- [Data Science Course](/courses/data-science-complete-masterclass-college): Statistics, SQL, APIs and modelling for students and adults, ending in a portfolio project on public data that an employer can open and rerun.
-- [Python and AI Automation](/courses/python-ai-automation-masterclass-college): Scheduled scripts that fetch new observations, refresh a model and publish the result, so a project keeps working after the lesson ends.
+[![Data Science for Teens course thumbnail](/images/data-science-teens.webp)  PROJ / 01 Data Science for Teens A teenager fetches a real CBS table, cleans it, plots it and builds a first model, then writes down what the data cannot say. Open the syllabus →](/courses/data-science-course-for-teens-python-data)[![Data Science Course course thumbnail](/images/data-science-college.webp)  PROJ / 02 Data Science Course Statistics, SQL, APIs and modelling for students and adults, ending in a portfolio project on public data that an employer can open and rerun. Open the syllabus →](/courses/data-science-complete-masterclass-college)[![Python Automation Course course thumbnail](/images/python-college.webp)  PROJ / 03 Python and AI Automation Scheduled scripts that fetch new observations, refresh a model and publish the result, so a project keeps working after the lesson ends. Open the syllabus →](/courses/python-ai-automation-masterclass-college)
+
+Dutch open data
 
 ## Real projects start with real data, and the Netherlands publishes a great deal of it
 
 Three public sources carry most of our learners' projects. Each was read at its own page on 15 September 2026, and each comes with rules of its own.
 
-**Three Dutch open data sources and the rule each one brings**
-
 | Source | What it offers | How learners reach it | The rule to respect |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | data.overheid.nl, the Dataregister van de Nederlandse Overheid | The national register of government data, listing both open and closed data; its search showed 26,986 results across datasets, data services, applications and organisations | Search the register, then follow each entry to its publisher | Check each dataset's own licence and whether it is open at all |
 | CBS StatLine | Every StatLine table from the national statistics office, published as open data | A catalogue service, a standard API and a feed, built on OData 3 with OData 4 in development | The standard API returns at most 10,000 cells per request; larger downloads go through the feed |
 | KNMI Data Platform | 10-minute observations, hourly to yearly ground-based weather observations, and the HARMONIE weather model | Datasets in the platform's catalogue, downloaded through its APIs | CC BY 4.0: users must state that the data comes from the KNMI |
@@ -45,6 +39,8 @@ Each source also brings a rule, and meeting it is part of the project rather tha
 The same approach runs through the city academy pages: [Amsterdam](/ai-and-python-academy-amsterdam) reads the public algorithm register, and [Rotterdam](/ai-and-python-academy-rotterdam) scores forecasts against what happened.
 
 Sources: [data.overheid.nl](https://data.overheid.nl/); [CBS, StatLine als open data](https://www.cbs.nl/nl-nl/onze-diensten/open-data/statline-als-open-data); [KNMI Data Platform, open data](https://www.knmidata.nl/open-data). Read 15 September 2026; counts and services may change after that date. We have no connection with any of these organisations.
+
+Three constraints
 
 ## Licence, limit and record: the three constraints that make a project real
 
@@ -62,16 +58,16 @@ The standard StatLine API returns at most 10,000 cells in a single request, whil
 
 Public data changes as tables are revised and observations added. A project records which table or dataset it used, when it was downloaded and what was removed during cleaning, and keeps the raw download next to the cleaned version. Without that record, nobody, including the learner a month later, can check the result.
 
-**Project ideas our learners build on Dutch open data (our own examples)**
-
 | Project | Data | The AI or data step | The constraint it teaches |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Rain and your own measurements | KNMI daily observations joined to data the learner collects | A simple model relating weather to the learner's variable | Attribution under CC BY 4.0 |
 | A municipality comparison | CBS StatLine tables for several municipalities | Clustering municipalities by their figures | The 10,000-cell API limit |
 | A dataset nobody has used yet | An entry found on data.overheid.nl | Cleaning, a first chart and a baseline model | Checking whether the data is open |
 | A weekly refresh | Any of the above, fetched on a schedule | Automation that retrains and republishes | Recording versions and download dates |
 
 The rules in this section are quoted from the source pages listed above. The project ideas are our own teaching examples and make no claim about what the data will show.
+
+Publishing
 
 ## Finished means published, with its limits written down
 
@@ -85,14 +81,14 @@ For students and adults, [AI and ML projects for students](/ai-ml-projects-for-s
 
 The national [AI and Python Academy](/ai-and-python-academy-netherlands) sets out the full ladder that these projects sit on.
 
+The rungs for project builders
+
 ## From a first chart to a project that runs by itself
 
 A good project needs each rung beneath it. The model is the exciting part, but the download, the cleaning and the write-up decide whether anyone should believe it.
 
-**The route from first data to published project**
-
 | Rung | Usually | What the learner can do |
-|---|---|---|
+| --- | --- | --- |
 | 1. Python by hand | Age 11 and up, or any adult beginner | Read a file, loop through it, make a first chart |
 | 2. Real data | Once Python is comfortable | Fetch from an API, respect its limits, clean and record |
 | 3. Models | Upper school, students, adults | Fit a model, compare it with a baseline, state its error |
@@ -102,64 +98,301 @@ A good project needs each rung beneath it. The model is the exciting part, but t
 ### Why the second rung takes longest
 
 Fetching and cleaning real data is where most of the time goes, in learner projects and in professional ones. We do not skip it with pre-cleaned files, because that is where the real learning happens.
+
 The order of every subject we teach is on the [coding roadmap](/coding-roadmap).
 
 ### Projects around school and work
 
 Teenagers often build one project a term, timed around school tests. Adults usually choose a project close to their work and use their own sector's public data.
+
 Younger children work with simpler data first, in the kids courses, and reach these projects later.
+
+The catalogue
 
 ## Ten live courses behind the projects
 
 Grouped by stage. Each card opens the full course with its own timetable and fee; the free lesson settles where a learner starts.
 
+I
+
 ### Getting started with data
 
 For teenagers and younger learners ready to type
 
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass): For children of nine to twelve: typed Python, small datasets and a first program that learns from examples.
-- [Python for Teens](/courses/python-complete-masterclass-teens): The Python foundation, including files, loops and functions, that every later project depends on.
-- [Data Science for Teens](/courses/data-science-course-for-teens-python-data): Reading, cleaning and plotting real datasets, then a first model with its error stated.
+PROJ / START / 01
+
+#### Python and AI for Kids
+
+For children of nine to twelve: typed Python, small datasets and a first program that learns from examples.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)
+
+PROJ / START / 02
+
+#### Python for Teens
+
+The Python foundation, including files, loops and functions, that every later project depends on.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+PROJ / START / 03
+
+#### Data Science for Teens
+
+Reading, cleaning and plotting real datasets, then a first model with its error stated.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)II
 
 ### Models and machine learning
 
 For upper-school learners, students and adults
 
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens): From statistics to neural networks, each model trained on real data and compared with a simple baseline.
-- [Data Science Course](/courses/data-science-complete-masterclass-college): Statistics, SQL, APIs, modelling and a portfolio built on public data.
-- [AI and Machine Learning Masterclass](/courses/ai-ml-masterclass-complete-college): Classical methods to deep learning, with evaluation and deployment given proper weight.
+PROJ / ML / 01
+
+#### AI and Machine Learning for Teens
+
+From statistics to neural networks, each model trained on real data and compared with a simple baseline.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+PROJ / ML / 02
+
+#### Data Science Course
+
+Statistics, SQL, APIs, modelling and a portfolio built on public data.
+
+[Open the syllabus](/courses/data-science-complete-masterclass-college)
+
+PROJ / ML / 03
+
+#### AI and Machine Learning Masterclass
+
+Classical methods to deep learning, with evaluation and deployment given proper weight.
+
+[Open the syllabus](/courses/ai-ml-masterclass-complete-college)III
 
 ### Running and publishing projects
 
 The skills that keep a project alive
 
-- [Python and AI Automation](/courses/python-ai-automation-masterclass-college): Scheduled fetching, retraining and publishing, so a project updates itself.
-- [MySQL Course](/courses/mysql-database-complete-masterclass-college): Storing downloads and results properly, with versions and dates kept.
-- [Git and GitHub for College Students](/courses/git-github-version-control-course-for-college-students): Version control and public repositories, the home of every finished project.
-- [Git and GitHub for Teens](/courses/git-github-version-control-course-for-teens): The same habits for teenagers, from the first commit to a public portfolio.
+PROJ / RUN / 01
+
+#### Python and AI Automation
+
+Scheduled fetching, retraining and publishing, so a project updates itself.
+
+[Open the syllabus](/courses/python-ai-automation-masterclass-college)
+
+PROJ / RUN / 02
+
+#### MySQL Course
+
+Storing downloads and results properly, with versions and dates kept.
+
+[Open the syllabus](/courses/mysql-database-complete-masterclass-college)
+
+PROJ / RUN / 03
+
+#### Git and GitHub for College Students
+
+Version control and public repositories, the home of every finished project.
+
+[Open the syllabus](/courses/git-github-version-control-course-for-college-students)
+
+PROJ / RUN / 04
+
+#### Git and GitHub for Teens
+
+The same habits for teenagers, from the first commit to a public portfolio.
+
+[Open the syllabus](/courses/git-github-version-control-course-for-teens)
+
+How the classes run
 
 ## Project lessons, live and hands-on
 
 Our teachers are in India, where clocks do not change for summer, so they sit three and a half hours ahead of the Netherlands in the Dutch summer and four and a half ahead in winter. Project lessons usually happen in the late afternoon, evening or at the weekend, at a fixed time agreed in the free lesson.
 
-- **Late afternoon** Dutch time, for teenagers building projects after school.
-- **Evening** Dutch time, by arrangement, for students and working adults.
-- **Weekend** Longer sessions on Saturday or Sunday, popular for project work.
+Late afternoon
 
-- **A free project lesson** The first lesson starts a small project on real data, so both learner and teacher see how the learner works before anything is decided.
-- **Groups of fifteen to twenty** Learners at the same level, often working on different projects with the same data sources, which makes for useful comparison.
-- **One to one for big projects** For a school profile project, a thesis, a portfolio piece for an application, or an adult's work-related project.
-- **Code seen as it is written** Shared screens mean the teacher catches a wrong join or a missed licence line while it is still easy to fix.
-- **English, with Dutch data** Lessons are in English, while the data itself often has Dutch column names; learners get used to working across both.
-- **Everything in a repository** Raw downloads, cleaned data, code, results and the write-up all live in the learner's own GitHub repository.
+Dutch time, for teenagers building projects after school.
+
+Evening
+
+Dutch time, by arrangement, for students and working adults.
+
+Weekend
+
+Longer sessions on Saturday or Sunday, popular for project work.
+
+### A free project lesson
+
+The first lesson starts a small project on real data, so both learner and teacher see how the learner works before anything is decided.
+
+### Groups of fifteen to twenty
+
+Learners at the same level, often working on different projects with the same data sources, which makes for useful comparison.
+
+### One to one for big projects
+
+For a school profile project, a thesis, a portfolio piece for an application, or an adult's work-related project.
+
+### Code seen as it is written
+
+Shared screens mean the teacher catches a wrong join or a missed licence line while it is still easy to fix.
+
+### English, with Dutch data
+
+Lessons are in English, while the data itself often has Dutch column names; learners get used to working across both.
+
+### Everything in a repository
+
+Raw downloads, cleaned data, code, results and the write-up all live in the learner's own GitHub repository.
+
+Student work
+
+## Projects our students have published
+
+Four live projects built by our students. Try them, then look at how they were made; the [student labs](/student-labs) page has many more.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees for project learners
 
 Charged monthly in US dollars, the same in every country outside India. There is no separate project fee, no enrolment charge and no annual contract. Copilot Studio courses, which are taught one to one only, use the one-to-one rate.
 
-- Free first class: USD 0. A real project lesson. Places you at the right rung. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same live teacher throughout. Project work reviewed weekly. A certificate at the end.
-- One to one: USD 150 a month. A teacher for your project alone. Pace set by your deadline. Right for theses and portfolios.
+Free first class
+
+USD 0
+
+no card required
+
+- A real project lesson
+- Places you at the right rung
+- No card needed
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty learners at one level
+- The same live teacher throughout
+- Project work reviewed weekly
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for your project alone
+- Pace set by your deadline
+- Right for theses and portfolios
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Word for word from Google. We do not write, reward or alter reviews.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about projects
 
 ## What learners ask before building on Dutch data
 
@@ -203,15 +436,54 @@ Late afternoons, evenings or weekends, Dutch time. The teacher is three and a ha
 
 We phone at a Dutch hour to set up the first project lesson. It costs nothing, and payment only comes up if you decide to continue.
 
+Elsewhere on this site
+
 ## More on projects and on AI in the Netherlands
 
-- [AI projects for high school students](/ai-projects-for-high-school-students): Project ideas pitched at secondary-school level.
-- [AI and ML projects for students](/ai-ml-projects-for-students): Model-driven projects for students.
-- [AI science fair project ideas](/science-fair-project-ideas-ai): Ideas that suit a school fair or profile project.
-- [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands): The national ladder these projects sit on.
-- [Coding for college students](/coding-for-college-students-netherlands): For students building portfolios alongside a degree.
-- [Coding classes for teens](/coding-classes-for-teens-netherlands): For teenagers still building their Python foundation.
+Related pages for project ideas and for the wider route.
 
-## Contact
+### [AI projects for high school students](/ai-projects-for-high-school-students)
 
-Book the free first class at [https://learn.modernagecoders.com/build-real-ai-projects-netherlands](https://learn.modernagecoders.com/build-real-ai-projects-netherlands#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Project ideas pitched at secondary-school level.
+
+### [AI and ML projects for students](/ai-ml-projects-for-students)
+
+Model-driven projects for students.
+
+### [AI science fair project ideas](/science-fair-project-ideas-ai)
+
+Ideas that suit a school fair or profile project.
+
+### [AI and Python Academy, Netherlands](/ai-and-python-academy-netherlands)
+
+The national ladder these projects sit on.
+
+### [Coding for college students](/coding-for-college-students-netherlands)
+
+For students building portfolios alongside a degree.
+
+### [Coding classes for teens](/coding-classes-for-teens-netherlands)
+
+For teenagers still building their Python foundation.
+
+Start here
+
+## Start a project in your free lesson
+
+Leave a number and we will ring at a Dutch hour to fix a time. In the free lesson you start a small project on real Dutch data with a teacher, and by the end you know which rung to build on.
+
+Want to look around first? The [student labs](/student-labs) show finished work, [how we teach](/how-we-teach) describes a lesson, and the [course list](/courses) has every syllabus.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20lesson%20on%20building%20real%20AI%20projects%20with%20Dutch%20data.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+From a Dutch phone, a WhatsApp message costs nothing and usually gets the quickest answer. The number is Indian, and we have no office or premises in the Netherlands.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/build-real-ai-projects-netherlands*

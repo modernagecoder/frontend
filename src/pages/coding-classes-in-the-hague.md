@@ -4,37 +4,25 @@ description: "Live online coding, Python and AI classes for The Hague learners a
 canonical: https://learn.modernagecoders.com/coding-classes-in-the-hague
 source: src/pages/coding-classes-in-the-hague.html
 ---
-> Coding classes in The Hague serve a city of 569,468 people (Statistics Netherlands, 1 January 2026) where 43 percent of residents have their origins outside Europe, 44,769 of them from Suriname, and where the Hindustani community that grew from that migration is the largest in the country and is not measured by any statistic, because the office counts countries of origin for two generations and then stops. Live online and in English, for ages 6 to 67 across all eight stadsdelen, Modern Age Coders teaches coding, Python, AI and mathematics. There is no charge for the first lesson; after it, USD 100 a month buys a place in a group of fifteen to twenty and USD 150 a month buys private tuition.
+> Live online coding, Python and AI classes for The Hague learners aged 6 to 67, from Escamp to Scheveningen, in the city where 43 percent have roots outside Europe.
 
-[Home](/) / [Netherlands](/coding-classes-in-netherlands) / The Hague
-
-The Hague (Den Haag), Zuid-Holland / Live online
-
-# Coding classes in The Hague, a city whose largest South Asian community appears in no column of the census
-
-**What are the best coding classes in The Hague?** Coding classes in The Hague serve a city of 569,468 people (Statistics Netherlands, 1 January 2026) where 43 percent of residents have their origins outside Europe, 44,769 of them from Suriname, and where the Hindustani community that grew from that migration is the largest in the country and is not measured by any statistic, because the office counts countries of origin for two generations and then stops. Live online and in English, for ages 6 to 67 across all eight stadsdelen, Modern Age Coders teaches coding, Python, AI and mathematics. There is no charge for the first lesson; after it, USD 100 a month buys a place in a group of fifteen to twenty and USD 150 a month buys private tuition.
-
-A grandchild of a family that arrived from Suriname around 25 November 1975 is, in the national statistics, of Dutch origin. The community has not gone anywhere; the column has. Building the small program that shows a group growing while its measured size shrinks is the project on this page, and in this city it is not an abstract one.
-
-Facts last verified 7 September 2026. Teaching is online; no The Hague branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for The Hague
 
 ## Four courses for a city with 138 primary schools, 59 secondary and five international ones
 
 The Hague schools a child on the National Curriculum for England in Leidschenveen, a child on the IB in Kijkduin, a child at a gymnasium in the Statenkwartier and a child at a vmbo in Escamp, all inside one municipality. These four are chosen so that each of them has a door.
 
-- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 6 to 10): Decomposition and pattern-finding before any syntax, in English, for a groep 3 to 5 child or a Key Stage 1 pupil at the British School.
-- [Web Development for Kids](/courses/kids-ai-web-development-course) (Ages 8 to 12): A real website that exists afterwards, for the groep 6 to 8 years in which a Hague child is deciding what they are good at.
-- [IGCSE Computer Science (0478)](/courses/igcse-computer-science-0478-course) (Ages 14 to 16): The Cambridge IGCSE 0478 syllabus in full, for the Years 10 and 11 that the British School in the Netherlands runs on the Vrouw Avenweg.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): Excel, Sheets and Power BI with AI, for the policy analyst, the embassy officer or the court clerk who reads data all day and has never built any.
+[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 6 to 10Problem Solving and Computational Thinking for KidsDecomposition and pattern-finding before any syntax, in English, for a groep 3 to 5 child or a Key Stage 1 pupil at the British School.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Web Development for Kids course thumbnail](/images/html-css-kids.webp)Ages 8 to 12Web Development for KidsA real website that exists afterwards, for the groep 6 to 8 years in which a Hague child is deciding what they are good at.See the syllabus](/courses/kids-ai-web-development-course)[![IGCSE Computer Science (0478) course thumbnail](/images/igcse-computer-science.webp)Ages 14 to 16IGCSE Computer Science (0478)The Cambridge IGCSE 0478 syllabus in full, for the Years 10 and 11 that the British School in the Netherlands runs on the Vrouw Avenweg.See the syllabus](/courses/igcse-computer-science-0478-course)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)Excel, Sheets and Power BI with AI, for the policy analyst, the embassy officer or the court clerk who reads data all day and has never built any.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)The Hague today
 
 ## Eight districts, forty-five wijken, and a population whose origins have inverted in thirty years
 
@@ -52,7 +40,11 @@ In 1995, 63 percent of Hague residents were of Dutch origin. By 2025 it was 39 p
 
 Escamp is the largest stadsdeel at 128,967 residents in 2022, then Centrum at 106,261, Segbroek 62,507, Scheveningen 59,992, Loosduinen 51,395, Haagse Hout 48,606, Leidschenveen-Ypenburg 48,273 and Laak 47,305. Laak holds the single largest wijk in the city, Laakkwartier en Spoorwijk, at 44,684 on 1 January 2026.
 
-**A government town by a quarter** About a quarter of the jobs in The Hague are in the national government or the roughly two hundred international organisations the city hosts, from the ministries to Europol, Eurojust, the European Patent Office and the European Space Agency, whose staff get priority at the European School. A coding class here has to fit a policy analyst as naturally as an engineer.
+A government town by a quarter
+
+About a quarter of the jobs in The Hague are in the national government or the roughly two hundred international organisations the city hosts, from the ministries to Europol, Eurojust, the European Patent Office and the European Space Agency, whose staff get priority at the European School. A coding class here has to fit a policy analyst as naturally as an engineer.
+
+The eight stadsdelen
 
 ## What separates Escamp from Haagse Hout, in the numbers a parent would notice
 
@@ -84,25 +76,23 @@ Segbroek, 62,507, is the pre-war middle of the city, and [its page](/coding-clas
 
 District pages in this series are written under one rule: a paragraph of city context, then only what is true of that district and false of its neighbours. This page carries the city so that they can stay local.
 
+Schools by name
+
 ## Five school systems in one city, and where each one hands off to us
 
 A Hague child may be on the Dutch system, the English one, the IB, the European Baccalaureate or the French baccalaureat without leaving the municipality. The left column is the school as it describes itself; the right is what fits beside it.
 
-- **BSN**: The British School in the Netherlands: Junior School Vlaskamp at Vlaskamp 19, Junior and Senior School Leidschenveen at Vrouw Avenweg 640 and 422, Senior School Voorschoten just outside the city. National Curriculum for England, IGCSE and A level. Our answer: Key Stage 2 pupils start with blocks and Python placed by year group; Years 10 and 11 take the Cambridge IGCSE Computer Science 0478 course directly; Sixth Form the A level.
-- **ISH**: International School of The Hague, Wijndaelerweg 11 in Kijkduin: primary and secondary on one site, the IB Middle Years and Diploma Programmes, 1,174 Hague-resident pupils in 2025-26. Our answer: Placement by MYP year; the IB Diploma Computer Science course for Diploma students, with the live sessions used for the internal assessment.
-- **ESH**: European School The Hague, founded August 2012, an accredited European School run by the Rijnlands Lyceum foundation, European Baccalaureate since 2019, priority for the children of Europol, Eurojust, European Patent Office and European Space Agency staff. Our answer: The Dutch, English and French sections all reach the same Python and data ladder; the European Baccalaureate ICT option is supported with the general courses rather than a bespoke one.
-- **Segbroek**: Segbroek College on the Klaverstraat, mavo, havo and vwo, the largest secondary school in the city with 1,385 Hague pupils. Our answer: A term of Python in the third year, ahead of the profielkeuze, is the cheapest way to find out whether code belongs in the profile; in the bovenbouw, data work in Python runs alongside wiskunde A or B. Whether the school timetables informatica is never assumed, because many do not.
-- **Gymnasia**: Gymnasium Haganum (708 pupils) and the Christelijk Gymnasium Sorghvliet (721), both vwo only, both categorical gymnasia in a city that still has two. Our answer: For the gymnasium learner: problem solving and data structures, and the Python-to-machine-learning track, because a student who does Latin for six years can do recursion.
-- **Johan de Witt**: Johan de Witt on the Zusterstraat, vmbo through vwo, 990 Hague pupils, the school of the Schildersbuurt and the Transvaalkwartier. Our answer: For the vmbo streams, the app and website courses whose output is something to show an MBO admissions tutor; for the havo and vwo streams, the Python ladder every other school on this list gets.
+BSNThe British School in the Netherlands: Junior School Vlaskamp at Vlaskamp 19, Junior and Senior School Leidschenveen at Vrouw Avenweg 640 and 422, Senior School Voorschoten just outside the city. National Curriculum for England, IGCSE and A level.Key Stage 2 pupils start with blocks and Python placed by year group; Years 10 and 11 take the Cambridge IGCSE Computer Science 0478 course directly; Sixth Form the A level.ISHInternational School of The Hague, Wijndaelerweg 11 in Kijkduin: primary and secondary on one site, the IB Middle Years and Diploma Programmes, 1,174 Hague-resident pupils in 2025-26.Placement by MYP year; the IB Diploma Computer Science course for Diploma students, with the live sessions used for the internal assessment.ESHEuropean School The Hague, founded August 2012, an accredited European School run by the Rijnlands Lyceum foundation, European Baccalaureate since 2019, priority for the children of Europol, Eurojust, European Patent Office and European Space Agency staff.The Dutch, English and French sections all reach the same Python and data ladder; the European Baccalaureate ICT option is supported with the general courses rather than a bespoke one.SegbroekSegbroek College on the Klaverstraat, mavo, havo and vwo, the largest secondary school in the city with 1,385 Hague pupils.A term of Python in the third year, ahead of the profielkeuze, is the cheapest way to find out whether code belongs in the profile; in the bovenbouw, data work in Python runs alongside wiskunde A or B. Whether the school timetables informatica is never assumed, because many do not.GymnasiaGymnasium Haganum (708 pupils) and the Christelijk Gymnasium Sorghvliet (721), both vwo only, both categorical gymnasia in a city that still has two.For the gymnasium learner: problem solving and data structures, and the Python-to-machine-learning track, because a student who does Latin for six years can do recursion.Johan de WittJohan de Witt on the Zusterstraat, vmbo through vwo, 990 Hague pupils, the school of the Schildersbuurt and the Transvaalkwartier.For the vmbo streams, the app and website courses whose output is something to show an MBO admissions tutor; for the havo and vwo streams, the Python ladder every other school on this list gets.
 
 The Lycee Francais Vincent van Gogh on the Scheveningseweg, the German International School on the Van Bleiswijkstraat, the Maris College sites and the American School of The Hague across the line in Wassenaar complete the list. A school's name sets the words we use with the family; the level comes from the free lesson and nowhere else.
+
+The transition at eleven
 
 ## BOVO Haaglanden: how a Hague child gets a secondary school, and what 99.2 percent means
 
 The Hague and its region run their own transition procedure, BOVO Haaglanden, with a digital application as the standard route and a minimum number of schools on every preference list.
 
-- **The list**: Parents submit a ranked list of schools through the parent portal, with a minimum length set by the procedure, and oversubscribed schools place by lot. Our answer: Nothing we teach changes a lottery number, and we say so. A recurring online class is booked around the family rather than the school, so it survives whichever school the list produces.
-- **The result**: On 13 May 2026 BOVO reported that 99.2 percent of pupils were placed within the top three of their list. It did not publish the first-choice share in the same line. Our answer: That is a top-three figure, not a first-choice figure, and the class teaches a learner to notice the difference: a placement statistic is only as strong as the rank it reports.
+The listParents submit a ranked list of schools through the parent portal, with a minimum length set by the procedure, and oversubscribed schools place by lot.Nothing we teach changes a lottery number, and we say so. A recurring online class is booked around the family rather than the school, so it survives whichever school the list produces.The resultOn 13 May 2026 BOVO reported that 99.2 percent of pupils were placed within the top three of their list. It did not publish the first-choice share in the same line.That is a top-three figure, not a first-choice figure, and the class teaches a learner to notice the difference: a placement statistic is only as strong as the rank it reports.Verified local facts
 
 ## The Hague facts, with the office and the date on each
 
@@ -134,6 +124,8 @@ BOVO Haaglanden, 13 May 2026: 99.2 percent of pupils placed within the top three
 
 Modern Age Coders has no association with the municipality of The Hague, with BOVO Haaglanden, with any international organisation or with any school named above, and claims none. They appear because a page about coding classes in this city has to know which city it is.
 
+Signature project
+
 ## Counted for two generations, present for four: build the model of a community that outlives its own category
 
 One real definition, one real national figure, and a generational model that shows the measured size of a community falling while the community itself grows.
@@ -150,10 +142,8 @@ A first generation arrives around 1975. Each generation has children; the learne
 
 With illustrative generation sizes of 100, 160, 256 and 410, the descendant community is 926 and the counted community is 260: 28 percent of it is visible. Choenni's national arithmetic runs the same way with real numbers: 163,413 counted, about 22,500 in a third generation the count cannot see, so roughly one in eight of the community is already outside the column, and the share grows every year.
 
-**A community across four generations, and how much of it the two-generation definition still counts**
-
 | Generation | Illustrative size | Counted as Surinamese origin? | Cumulative community | Cumulative counted |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | First: arrived around 1975 | 100 | yes, born in Suriname | 100 | 100 |
 | Second: born in the Netherlands to first-generation parents | 160 | yes, a parent born in Suriname | 260 | 260 |
 | Third: born to second-generation parents | 256 | no, both parents born in the Netherlands | 516 | 260 |
@@ -163,14 +153,14 @@ With illustrative generation sizes of 100, 160, 256 and 410, the descendant comm
 
 From the fourth generation onward, every year the definition sees a smaller share of a larger community, and a naive reading of the origin statistics would report the Hindustani presence in The Hague declining. The Schildersbuurt would disagree. The lesson is not that the definition is wrong; the statistics office has good reasons for a rule that does not follow ancestry forever. The lesson is that a category has a horizon, that the horizon is part of the number, and that a learner who knows to ask where a definition stops has learned something that applies to every dataset with a category in it. The table was computed before this paragraph was written; the generation sizes are illustrative and labelled, and the 163,413 and 22,500 are Choenni's figures.
 
+Reliable pipeline
+
 ## Five habits for any number that comes with a category attached
 
 The same failure sits inside customer segments, patient cohorts and every dashboard with a dropdown. Practised first on the city's own origin table.
 
-**When the data has categories and the world has people**
-
 | Stage | Rule | What it prevents | What it gives you |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Define | Read the definition of the category before reading the count | A two-generation rule read as a headcount of a community | A number you understand |
 | Horizon | Ask where the definition stops following the thing you care about | A falling series reported as a shrinking group | The shape of the blind spot |
 | Model | Simulate the thing and the category side by side | Confusing the measured with the real | Two lines, and the gap between them |
@@ -191,14 +181,37 @@ The same program on a customer base with an "active" definition, a patient list 
 
 The population, origin and school counts, the stadsdeel and wijk figures, the school addresses, the BOVO result and Choenni's national arithmetic are published by the offices and authors named in the sentences that use them. The four generation sizes in the table are illustrative and labelled; the 50,000 regional figure is presented as the estimate it is, and nothing on this page derives a Hague ethnic count that no office has published.
 
+Learning ladder
+
 ## From a paper family tree to a model with the definition built in
 
 One free class finds the rung. The school system the child is on only tells us the vocabulary.
 
-- **Ages 6 to 10: Who the rule can see** Children colour a family tree by a rule and count the coloured figures against the whole. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 11 to 13: A rule as a function** Learners write the two-generation rule in Python and run it over a made-up family. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 14 to 18: Two lines that part** Teenagers model a community and its counted subset from 1975 to now, then change the rule. [Python for Teens](/courses/python-complete-masterclass-teens), [IB DP Computer Science (New Guide, First Assessment 2027)](/courses/ib-diploma-computer-science-course)
-- **Ages 18 to 67: Categories with a horizon at work** Adults find the definition behind a business category and model what it hides. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Statistics & Probability](/courses/statistics-probability-maths-course)
+Ages 6 to 10
+
+### Who the rule can see
+
+Children colour a family tree by a rule and count the coloured figures against the whole.
+
+[Coding for Kids](/courses/kids-coding-blocks-masterclass)[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)Ages 11 to 13
+
+### A rule as a function
+
+Learners write the two-generation rule in Python and run it over a made-up family.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
+
+### Two lines that part
+
+Teenagers model a community and its counted subset from 1975 to now, then change the rule.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[IB DP Computer Science (New Guide, First Assessment 2027)](/courses/ib-diploma-computer-science-course)Ages 18 to 67
+
+### Categories with a horizon at work
+
+Adults find the definition behind a business category and model what it hides.
+
+[Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college)[Statistics & Probability](/courses/statistics-probability-maths-course)Coding and AI
 
 ## When the ministries in The Hague are buying AI by the department, why teach a child here to write code?
 
@@ -210,30 +223,139 @@ That is what the class trains, and it is why the learner still writes the code r
 
 So the answer for a Hague parent is a plain one: the code is cheaper than it was and the judgement is not, and the only method anyone has found for growing the judgement is to have the learner build the thing and then find the horizon in it. The longer argument is in [is coding still worth learning in 2026, now that AI writes it](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Live classes for a city that is forty minutes wide by tram
 
 Kijkduin to Leidschenveen is most of an hour on public transport, and a Hague week already has the school run, the office and the sea in it. A class that arrives over the connection adds nothing to the timetable but the lesson.
 
-- **No crossing of the city** The lesson is at the kitchen table in Escamp, Segbroek or Ypenburg at a fixed time. Tram 1, tram 9 and the RandstadRail are for other things.
-- **English, with the Hague words kept** Taught in English. Groep, havo, vwo, Key Stage, MYP and the BOVO list are used as the family hears them, because the family has to live with them.
-- **One free lesson that ends in a decision** A real task, a level, a named course and a slot. No card and no commitment until the family has watched a lesson happen.
-- **Fifteen to twenty learners a group, sorted by what they can do** A group is assembled from level and goal, nothing else. The school system, the stadsdeel and the country the grandparents left are not inputs to it.
-- **Eight lessons a month on the regio Midden calendar** Two lessons a week at a recurring time. Zuid-Holland sits in regio Midden for school holidays, so the summer break falls a week apart from Amsterdam's, and that is settled before the slot is.
-- **Where the hours line up** By the time a Hague family sits down to dinner the teacher's day in India is almost over, three and a half hours ahead in summer and four and a half in winter. The slots that suit both ends are the ones after school, before dinner and at the weekend, and the one the family keeps is fixed during the free lesson.
+### No crossing of the city
 
-**Three-year cycles** Embassy, court, patent office and agency families in The Hague tend to be posted for three years and then moved. A course that lives on a laptop and a fixed time in the family's own calendar goes to the next posting, and a learner who started the Python course in Benoordenhout can finish it in Geneva or Brussels without a change of teacher.
+The lesson is at the kitchen table in Escamp, Segbroek or Ypenburg at a fixed time. Tram 1, tram 9 and the RandstadRail are for other things.
+
+### English, with the Hague words kept
+
+Taught in English. Groep, havo, vwo, Key Stage, MYP and the BOVO list are used as the family hears them, because the family has to live with them.
+
+### One free lesson that ends in a decision
+
+A real task, a level, a named course and a slot. No card and no commitment until the family has watched a lesson happen.
+
+### Fifteen to twenty learners a group, sorted by what they can do
+
+A group is assembled from level and goal, nothing else. The school system, the stadsdeel and the country the grandparents left are not inputs to it.
+
+### Eight lessons a month on the regio Midden calendar
+
+Two lessons a week at a recurring time. Zuid-Holland sits in regio Midden for school holidays, so the summer break falls a week apart from Amsterdam's, and that is settled before the slot is.
+
+### Where the hours line up
+
+By the time a Hague family sits down to dinner the teacher's day in India is almost over, three and a half hours ahead in summer and four and a half in winter. The slots that suit both ends are the ones after school, before dinner and at the weekend, and the one the family keeps is fixed during the free lesson.
+
+Three-year cycles
+
+Embassy, court, patent office and agency families in The Hague tend to be posted for three years and then moved. A course that lives on a laptop and a fixed time in the family's own calendar goes to the next posting, and a learner who started the Python course in Benoordenhout can finish it in Geneva or Brussels without a change of teacher.
+
+Fees
 
 ## One free class, then USD 100 or USD 150 a month, published here
 
 Stated in full before anyone is asked for a phone number.
 
-- First class: USD 0. A full lesson with a real task, a level and a named next course.
-- Group tuition: USD 100 a month. Per month, normally eight lessons, fifteen to twenty learners placed by ability.
-- Private tuition: USD 150 a month. Per month, normally eight lessons, one learner and one teacher.
+First class**USD 0**
+
+A full lesson with a real task, a level and a named next course.
+
+Group tuition**USD 100**
+
+Per month, normally eight lessons, fifteen to twenty learners placed by ability.
+
+Private tuition**USD 150**
+
+Per month, normally eight lessons, one learner and one teacher.
 
 Dollars, because the international tariff is published once and has no euro edition; The Hague pays what every other city outside India pays, with no joining fee. Course and slot are settled in the free lesson, and only then is payment arranged, over WhatsApp. What happens with a pause, a change of plan or a missed lesson is written up on the pricing page.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20The%20Hague.)Reviews
+
+## What families and learners say
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Send the learner's level, and the school system if it helps
+
+The opening task could be a paper family tree and a colouring rule, a Python model of a community and its counted subset, or a departmental category from work that you have never seen the definition of.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented The Hague one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20The%20Hague.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## The Hague coding class questions
+
+The city, its five school systems, the transition, the teaching and the terms.
 
 ### How many Hindustani people live in The Hague, and why does the page not just say?
 
@@ -275,10 +397,14 @@ The first class is free. Group tuition is USD 100 a month for two live lessons a
 
 Fifteen to twenty learners, matched on level, pace and goal rather than on age, school system or stadsdeel. Private tuition is one learner and one teacher. If no group at the right level is running, the family can take private tuition or wait for the next one to form.
 
+Explore the Netherlands
+
 ## Where this page sits in the series
 
 Above it is the [Netherlands coding hub](/coding-classes-in-netherlands), which owns the national curriculum argument and lists every course. Beside it are [Amsterdam](/coding-classes-in-amsterdam), [Amstelveen](/coding-classes-in-amstelveen) and [Eindhoven](/coding-classes-in-eindhoven), each written the way this one is. For a learner whose goal is a trained model rather than a program, the right door is [AI and machine learning classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands), and the [AI and Python Academy, The Hague](/ai-and-python-academy-the-hague) studies what goes wrong when a risk model is trusted too far. Below this page sit [Den Haag Centrum](/coding-classes-in-the-hague-centrum), [Escamp](/coding-classes-in-escamp), [Scheveningen](/coding-classes-in-scheveningen) , [Haagse Hout](/coding-classes-in-haagse-hout), [Laak](/coding-classes-in-laak), [Leidschenveen-Ypenburg](/coding-classes-in-leidschenveen-ypenburg), [Loosduinen](/coding-classes-in-loosduinen) and [Segbroek](/coding-classes-in-segbroek). All eight stadsdeel pages are now written.
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Close with WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20The%20Hague.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-the-hague](https://learn.modernagecoders.com/coding-classes-in-the-hague#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-the-hague*

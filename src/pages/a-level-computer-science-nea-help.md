@@ -4,34 +4,28 @@ description: "Help with the A-level Computer Science project: what AQA and OCR m
 canonical: https://learn.modernagecoders.com/a-level-computer-science-nea-help
 source: src/pages/a-level-computer-science-nea-help.html
 ---
-> At AQA, A-level Computer Science 7517 is marked out of 375 scaled marks: two papers of 100 raw marks each, scaled to 150, and the non-exam assessment at 75, with AQA's guidance putting 42 of the 75 on the technical solution. At OCR, H446 has two papers of 140 marks each, 2 hours 30 minutes and 40 per cent apiece, and the programming project, H446/03, at 70 marks and 20 per cent, split into analyse a problem (10 marks), design (15), develop and test (25) and evaluate and document (20). Both reward evidence of thinking, not just a working program. The commonest mistake is scope, and the fix is to design the states of the program before writing it. On AI, OCR is explicit that only independent candidate work should be credited. Our classes teach the programming, design and testing behind the project, and never produce any part of it. The opening lesson costs nothing, and after it a group place runs at USD 100 monthly, private teaching at USD 150.
+> Help with the A-level Computer Science project: what AQA and OCR mark, how to scope and design it, and the AI rules. We never write any of your coursework.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / A-level Computer Science NEA
+In short
 
-United Kingdom · AQA 7517 and OCR H446 · Live online
+At AQA, A-level Computer Science 7517 is marked out of 375 scaled marks: two papers of 100 raw marks each, scaled to 150, and the non-exam assessment at 75, with AQA's guidance putting 42 of the 75 on the technical solution. At OCR, H446 has two papers of 140 marks each, 2 hours 30 minutes and 40 per cent apiece, and the programming project, H446/03, at 70 marks and 20 per cent, split into analyse a problem (10 marks), design (15), develop and test (25) and evaluate and document (20). Both reward evidence of thinking, not just a working program. The commonest mistake is scope, and the fix is to design the states of the program before writing it. On AI, OCR is explicit that only independent candidate work should be credited. Our classes teach the programming, design and testing behind the project, and never produce any part of it. The opening lesson costs nothing, and after it a group place runs at USD 100 monthly, private teaching at USD 150.
 
-# A-level Computer Science coursework help
-
-The programming project is the part of A-level Computer Science that students remember, and the part that goes wrong quietly. It is worth a fifth of the qualification, it runs for months with no exam hall to concentrate the mind, and the most common failure is not a lack of skill: it is a project that was too big to finish, designed in the writing rather than before it. This page sets out exactly what AQA and OCR give marks for, shows a design method that makes a project finishable, and quotes what the boards say about using AI, because that question now comes up in every first conversation. We teach the skills the project needs. We never write, edit or supply any part of anyone's coursework.
-
-At a glance: Boards: AQA 7517, OCR H446; Weight: A fifth of the A level; AQA marks: 75, with 42 for the solution; OCR marks: 70, in four sections; Runs for: Months, in school time and out; AI: Allowed narrowly, and declared; We provide: Teaching and review of skills; We never: Write or edit the project. Rated 4.9 across 547 Google reviews.
+Where to start
 
 ## Three courses for A-level programmers
 
 Most students need fluency, structure and testing, in that order.
 
-- [Python from start to finish](/courses/python-complete-masterclass-teens): When the obstacle is the language and not the idea: files, classes, error handling and how to lay a program out.
-- [Algorithms and data structures](/courses/problem-solving-dsa-masterclass-teens): Paper 2 ground, and the source of anything in a project worth analysing or evaluating.
-- [Full stack web development](/courses/full-stack-web-development-teens-masterclass): For projects with a database and an interface: how the parts fit and where the data lives.
+[![Python for Teens course thumbnail](/images/python-teens.webp)  NEA / 01 Python from start to finish When the obstacle is the language and not the idea: files, classes, error handling and how to lay a program out. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)  NEA / 02 Algorithms and data structures Paper 2 ground, and the source of anything in a project worth analysing or evaluating. Open the syllabus →](/courses/problem-solving-dsa-masterclass-teens)[![Full Stack Web Development for Teens course thumbnail](/images/web-dev-teens.webp)  NEA / 03 Full stack web development For projects with a database and an interface: how the parts fit and where the data lives. Open the syllabus →](/courses/full-stack-web-development-teens-masterclass)
+
+What the boards mark
 
 ## Where the marks actually are, at AQA and OCR
 
 Two boards, two structures, one common message: the program is not the whole of it. Figures read at each board's own specification pages on 20 September 2026.
 
-**A-level Computer Science assessment, as each board publishes it**
-
 | Board | Components | The project |
-|---|---|---|
+| --- | --- | --- |
 | AQA 7517 | Paper 1 and Paper 2, each 100 raw marks scaled to 150; NEA 75 marks unscaled; total 375 scaled marks | A computing practical project; AQA's guidance puts 42 of the 75 marks on the technical solution, the rest on the documentation |
 | OCR H446 | Component 01 Computer systems, 140 marks, 2 hours 30 mins, 40 per cent; Component 02 Algorithms and programming, 140 marks, 2 hours 30 mins, 40 per cent | Component 03 Programming project, 70 marks, 20 per cent: analyse a problem (10 marks), design (15 marks), develop and test (25 marks), evaluate and document (20 marks) |
 
@@ -44,6 +38,8 @@ Both boards want evidence of a process, not a finished artefact dropped on the d
 Neither board is in the business of surprises: the criteria are published, and a student who reads them in September writes a different project from one who reads them in March.
 
 Sources: [AQA, A-level Computer Science 7517 scheme of assessment](https://www.aqa.org.uk/subjects/computer-science/a-level/computer-science-7517/specification/scheme-of-assessment) and its [NEA subject content](https://www.aqa.org.uk/subjects/computer-science/a-level/computer-science-7517/specification/subject-content/non-exam-assessment-the-computing-practical-project); [OCR, H446 specification at a glance](https://www.ocr.org.uk/qualifications/as-and-a-level/computer-science-h046-h446-from-2015/specification-at-a-glance/). Read 20 September 2026. Modern Age Coders is not connected with AQA or OCR.
+
+The method
 
 ## Draw the states before you write the code
 
@@ -61,10 +57,8 @@ What can happen? An answer submitted, a timer expiring, a back button, a lost co
 
 For each state and each event, say what happens next. The squares nobody thinks about, a timer expiring on the finished screen, a back button mid-question, are exactly where finished projects break.
 
-**A worked illustration: a five-state quiz project, four events, twenty transitions to decide**
-
 | State | Answer submitted | Timer expires | Back pressed |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Waiting to start | Not possible: ignore it and say so in the design | Not possible | Leave the quiz |
 | Showing a question | Mark it, go to feedback | Count as wrong, go to feedback | Confirm, then leave |
 | Showing feedback | Ignore: the answer is already marked | Move to the next question | Confirm, then leave |
@@ -79,14 +73,14 @@ The same habit answers the evaluation section. When a project is described as a 
 
 Students who prefer flowcharts or pseudocode can keep them. The point is that every combination of state and event has an answer decided in advance, in a form someone else can read.
 
+The AI rules
+
 ## What the boards say about AI in the project
 
 Every family asks this, so here is the answer from an exam board rather than from us. The quotes below are OCR's own guidance for the A Level Computer Science project.
 
-**OCR's guidance on AI in the A Level Computer Science NEA**
-
 | Question | What OCR says |
-|---|---|
+| --- | --- |
 | Can AI be used at all? | AI tools may be used to support debugging, and could also be used to suggest ideas and methods to troubleshoot non-functional code |
 | Can it suggest code? | A candidate may ask how a method or object could be written, but must show clearly how this suggestion has been adapted to suit their project |
 | What counts as misuse? | Using or modifying AI responses without acknowledgement, disguising the use of AI, and using it for substantial sections of work |
@@ -98,14 +92,14 @@ Put plainly: an AI tool can help a student get unstuck, and it cannot earn marks
 
 Our own rule follows from the boards': we teach programming, design and testing, we discuss a student's project in general terms, and we do not write, debug, edit or review the code that will be submitted. If a student asks us to look at their NEA code, the answer is no, and we explain why. For the same reason, the practice problems in our classes are never the student's project in disguise.
 
+A workable year
+
 ## When to do what, across the project year
 
 Dates vary by school, since teachers set internal deadlines. The order does not.
 
-**A sensible order for the project year**
-
 | Stage | What happens | The trap to avoid |
-|---|---|---|
+| --- | --- | --- |
 | Choosing | Find a real user with a real problem, small enough to finish | A project chosen because it sounds impressive |
 | Analysis | Interview the user, write criteria that can be tested later | Criteria so vague that nothing can fail them |
 | Design | States, events, data structures and interfaces on paper | Designing in the code and writing it up afterwards |
@@ -115,14 +109,14 @@ Dates vary by school, since teachers set internal deadlines. The order does not.
 
 The evidence trail matters as much as the program. Dated notes, test results with dates, and a record of what changed after feedback are what let a teacher confirm the work is the student's own, which both boards require.
 
+Getting ready
+
 ## Four rungs to a project that finishes
 
 Where a student starts depends on their programming, not their year group.
 
-**From confident coder to completed project**
-
 | Stage | Rung | The sign it is secure |
-|---|---|---|
+| --- | --- | --- |
 | Year 11 to 12 | 1. Fluency | Can write and debug a program of a few hundred lines without help |
 | Year 12 | 2. Structure | Splits a program into functions, classes and files that make sense to someone else |
 | Year 12 into 13 | 3. Design | Can state every state and event of a planned program before coding |
@@ -131,63 +125,293 @@ Where a student starts depends on their programming, not their year group.
 ### If the project is stuck
 
 Stalled projects are usually too big. Cutting features is not failure; the boards reward a finished, well-evidenced small project over an unfinished ambitious one.
+
 Paper 2 practice often unsticks a project, because the algorithms it teaches are the ones a project needs.
 
 ### Beyond the A level
 
 The habits here, design before code and evidence as you go, are what university projects and first jobs expect.
+
 Students who enjoy the problem-solving side often try the [British Informatics Olympiad](/british-informatics-olympiad-preparation).
+
+The catalogue
 
 ## Nine courses for A-level Computer Science students
 
 Sorted by the thing that usually gets in the way. Syllabuses open from the cards.
 
+I
+
 ### Programming fluency
 
 The language stops getting in the way
 
-- [Python from start to finish](/courses/python-complete-masterclass-teens): Every core idea, with prediction before running.
-- [Java for teens](/courses/java-programming-masterclass-for-teens): For schools and students working in Java.
-- [App development](/courses/complete-app-development-masterclass-for-teens): Interfaces, events and state, which projects lean on heavily.
+NEA / LANG / 01
+
+#### Python from start to finish
+
+Every core idea, with prediction before running.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+NEA / LANG / 02
+
+#### Java for teens
+
+For schools and students working in Java.
+
+[Open the syllabus](/courses/java-programming-masterclass-for-teens)
+
+NEA / LANG / 03
+
+#### App development
+
+Interfaces, events and state, which projects lean on heavily.
+
+[Open the syllabus](/courses/complete-app-development-masterclass-for-teens)II
 
 ### Theory and algorithms
 
 Paper 1 and Paper 2 ground
 
-- [Algorithms and data structures](/courses/problem-solving-dsa-masterclass-teens): Searching, sorting, trees and graphs, reasoned before coded.
-- [GCSE Computer Science](/courses/gcse-computer-science-course): For students who came to the A level without the GCSE.
-- [Competitive programming](/courses/competitive-programming-for-teens-course): Speed and correctness under time limits, which sharpens paper 2.
+NEA / THEORY / 01
+
+#### Algorithms and data structures
+
+Searching, sorting, trees and graphs, reasoned before coded.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
+
+NEA / THEORY / 02
+
+#### GCSE Computer Science
+
+For students who came to the A level without the GCSE.
+
+[Open the syllabus](/courses/gcse-computer-science-course)
+
+NEA / THEORY / 03
+
+#### Competitive programming
+
+Speed and correctness under time limits, which sharpens paper 2.
+
+[Open the syllabus](/courses/competitive-programming-for-teens-course)III
 
 ### Building real systems
 
 Databases, web and data
 
-- [Full stack web development](/courses/full-stack-web-development-teens-masterclass): A site with its own database, built in slices and tested.
-- [Data science with Python](/courses/data-science-course-for-teens-python-data): For projects that analyse data rather than manage it.
-- [AI and machine learning for teens](/courses/ai-ml-masterclass-teens): When the project needs a trained model, and an honest account of how well it works.
+NEA / BUILD / 01
+
+#### Full stack web development
+
+A site with its own database, built in slices and tested.
+
+[Open the syllabus](/courses/full-stack-web-development-teens-masterclass)
+
+NEA / BUILD / 02
+
+#### Data science with Python
+
+For projects that analyse data rather than manage it.
+
+[Open the syllabus](/courses/data-science-course-for-teens-python-data)
+
+NEA / BUILD / 03
+
+#### AI and machine learning for teens
+
+When the project needs a trained model, and an honest account of how well it works.
+
+[Open the syllabus](/courses/ai-ml-masterclass-teens)
+
+How lessons run
 
 ## Weekly teaching, and a clear line around the coursework
 
 Lessons run on video with a teacher in India, where the clock sits five and a half hours ahead of Britain in winter and four and a half in summer. Sixth formers generally settle on an evening, written into the diary in UK time.
 
-- **Weekday evening** The usual choice for Year 12 and Year 13.
-- **Weekend morning** For longer sessions on algorithms or a full past paper.
-- **Holiday intensives** For catching up on paper 1 and paper 2 content.
+Weekday evening
 
-- **Skills, not solutions** We teach programming, design and testing with our own examples, never with the student's project code.
-- **Design taught explicitly** States, events, data models and interfaces, practised on projects that are not the student's own.
-- **Papers practised** Algorithms, data structures, systems and the written technique both papers reward.
-- **Groups of a size that works** Between five and ten students of similar ability, arguing over the same question until the method is clear.
-- **One to one when needed** For a student with a gap to close before a mock or a deadline.
-- **No promises** No grade is promised, and nothing we do forms part of an assessed submission.
+The usual choice for Year 12 and Year 13.
+
+Weekend morning
+
+For longer sessions on algorithms or a full past paper.
+
+Holiday intensives
+
+For catching up on paper 1 and paper 2 content.
+
+### Skills, not solutions
+
+We teach programming, design and testing with our own examples, never with the student's project code.
+
+### Design taught explicitly
+
+States, events, data models and interfaces, practised on projects that are not the student's own.
+
+### Papers practised
+
+Algorithms, data structures, systems and the written technique both papers reward.
+
+### Groups of a size that works
+
+Between five and ten students of similar ability, arguing over the same question until the method is clear.
+
+### One to one when needed
+
+For a student with a gap to close before a mock or a deadline.
+
+### No promises
+
+No grade is promised, and nothing we do forms part of an assessed submission.
+
+Student work
+
+## Projects our students have published
+
+Four live examples, all built outside any assessed coursework. More on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Monthly, in US dollars, the rate for every country outside India. No joining fee, no annual tie.
 
-- Free first class: USD 0. A real lesson with a teacher. An honest view of the gaps. No card details.
-- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher each week. Work read and discussed. A certificate at the end.
-- One to one: USD 150 a month. A teacher for one student. Aimed at specific gaps. Useful before mocks and deadlines.
+Free first class
+
+USD 0
+
+no card required
+
+- A real lesson with a teacher
+- An honest view of the gaps
+- No card details
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students at one level
+- The same teacher each week
+- Work read and discussed
+- A certificate at the end
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for one student
+- Aimed at specific gaps
+- Useful before mocks and deadlines
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Straight from our Google profile, with no edits.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about the NEA
 
 ## What A-level students and parents ask
 
@@ -231,15 +455,54 @@ Nothing for the opening lesson. From then on it is USD 100 a month to share a gr
 
 Whatever weekly time is agreed once the free lesson is done, most often after school in the evening. The clock in India sits five and a half hours ahead of Britain in winter, four and a half in summer.
 
+Related pages
+
 ## More for UK computing students
 
-- [GCSE Computer Science tutoring](/uk-gcse-computer-science-tutoring): AQA, OCR and Edexcel compared, taught to your board.
-- [British Informatics Olympiad](/british-informatics-olympiad-preparation): For students who enjoy the problem-solving side.
-- [UK competitions calendar 2026-27](/uk-coding-maths-and-ai-competitions-calendar): Every contest we could confirm, month by month.
-- [Choosing an online class in the UK](/best-online-coding-classes-uk): The questions worth putting to any provider before you pay.
-- [Coding classes in the UK](/coding-classes-in-united-kingdom): Four school systems, and every UK page.
-- [AI and machine learning classes in the UK](/ai-and-machine-learning-classes-in-uk): For projects with a model in them.
+The exam before this one, the contests beside it, and the national picture.
 
-## Contact
+### [GCSE Computer Science tutoring](/uk-gcse-computer-science-tutoring)
 
-Book the free first class at [https://learn.modernagecoders.com/a-level-computer-science-nea-help](https://learn.modernagecoders.com/a-level-computer-science-nea-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+AQA, OCR and Edexcel compared, taught to your board.
+
+### [British Informatics Olympiad](/british-informatics-olympiad-preparation)
+
+For students who enjoy the problem-solving side.
+
+### [UK competitions calendar 2026-27](/uk-coding-maths-and-ai-competitions-calendar)
+
+Every contest we could confirm, month by month.
+
+### [Choosing an online class in the UK](/best-online-coding-classes-uk)
+
+The questions worth putting to any provider before you pay.
+
+### [Coding classes in the UK](/coding-classes-in-united-kingdom)
+
+Four school systems, and every UK page.
+
+### [AI and machine learning classes in the UK](/ai-and-machine-learning-classes-in-uk)
+
+For projects with a model in them.
+
+Start here
+
+## Start with a free lesson on the skills
+
+Tell us the board, the year and where the project stands. The free lesson works on a skill the project needs, using our examples rather than your coursework.
+
+Happier reading than talking? Syllabuses sit on the [course pages](/courses), the teaching method is described on [how we teach](/how-we-teach), and the [roadmap](/coding-roadmap) puts the topics in order.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20class%20about%20A-level%20Computer%20Science%20and%20the%20programming%20project.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+A WhatsApp message costs a UK mobile nothing and tends to reach us soonest. The number belongs to India, which we state plainly, and no British office exists.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/a-level-computer-science-nea-help*

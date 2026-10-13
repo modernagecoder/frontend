@@ -4,34 +4,28 @@ description: "FIRST LEGO League in Australia: Explore, Challenge and the new Fut
 canonical: https://learn.modernagecoders.com/first-lego-league-australia-coding-help
 source: src/pages/first-lego-league-australia-coding-help.html
 ---
-> FIRST LEGO League in Australia has three divisions: Explore for ages 6 to 10, Challenge for ages 9 to 16, and Future Edition for ages 8 to 16, new for 2026-2027. The 2026-2027 season is BIOGLOW, on biodiversity. Challenge robots run autonomous 2:30 matches and can be coded in Word Blocks, Icon Blocks or Python, according to FIRST Australia.
+> FIRST LEGO League in Australia: Explore, Challenge and the new Future Edition, the 2026-2027 BIOGLOW season, and the coding a 2:30 robot game run needs.
 
-[Home](/) / [Coding classes in Australia](/coding-classes-in-australia) / FIRST LEGO League Australia
+In short
 
-Australia · Years 1 to 10 · Checked at FIRST Australia
+FIRST LEGO League in Australia has three divisions: Explore for ages 6 to 10, Challenge for ages 9 to 16, and Future Edition for ages 8 to 16, new for 2026-2027. The 2026-2027 season is BIOGLOW, on biodiversity. Challenge robots run autonomous 2:30 matches and can be coded in Word Blocks, Icon Blocks or Python, according to FIRST Australia.
 
-# FIRST LEGO League Australia coding help
-
-FIRST LEGO League gives Australian students a real engineering season: a themed problem to research, a LEGO robot to design and program, and a robot game where every second of a two and a half minute run counts. Many teams build an impressive robot and then lose points because it stops a few centimetres short of a mission model. That is usually a programming problem, and it is fixable. This page explains the divisions and the 2026-2027 season as FIRST Australia publishes them, then shows the arithmetic behind accurate driving. We are independent of FIRST and help students program; the robot and the season's work stay the team's own.
-
-At a glance: Program: FIRST LEGO League; In Australia: FIRST Australia; 2026-2027 season: BIOGLOW, part of FIRST CANOPY; Divisions: Explore, Challenge, Future Edition; Robot match length: 2:30, autonomous; Coding options: Word Blocks, Icon Blocks or Python; We provide: Programming lessons for team members; We are not: FIRST, a judge or a robot builder. Rated 4.9 across 547 Google reviews.
+Where to start
 
 ## Three courses for FIRST LEGO League team members
 
 Blocks first, then text, with plenty of attention to movement and measurement.
 
-- [Coding for kids](/courses/kids-coding-blocks-masterclass): Loops, conditions and procedures in blocks, the same building blocks as a SPIKE word-block program.
-- [Python and AI for kids](/courses/python-ai-kids-masterclass): For team members ready to try the Python option FIRST Australia lists.
-- [Maths through coding](/courses/maths-through-coding): Circumference, ratios and angles used in code, which is exactly what accurate driving needs.
+[![Coding for Kids course thumbnail](/images/kids-coding.webp)  FLL / 01 Coding for kids Loops, conditions and procedures in blocks, the same building blocks as a SPIKE word-block program. Open the syllabus →](/courses/kids-coding-blocks-masterclass)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  FLL / 02 Python and AI for kids For team members ready to try the Python option FIRST Australia lists. Open the syllabus →](/courses/python-ai-kids-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)  FLL / 03 Maths through coding Circumference, ratios and angles used in code, which is exactly what accurate driving needs. Open the syllabus →](/courses/maths-through-coding)
+
+Divisions
 
 ## Explore, Challenge and the new Future Edition
 
 FIRST Australia's program comparison sets out who each division is for and how it runs. These are its figures, read on 7 October 2026.
 
-**FIRST LEGO League divisions in Australia, 2026-2027**
-
-|  | Explore | Challenge | Future Edition |
-|---|---|---|---|
+|   | Explore | Challenge | Future Edition |
+| --- | --- | --- | --- |
 | Students | Ages 6 to 10 (Years 1 to 4) | Ages 9 to 16 (Years 4 to 10) | Ages 8 to 16 (Years 3 to 10) |
 | Team size | Up to 6 students | Up to 10 students | Up to 20 students |
 | Coaches | At least 1 | At least 2 | At least 2 |
@@ -50,6 +44,8 @@ Older students can move on to FIRST Tech Challenge, for ages 12 to 18, and FIRST
 
 Sources: [FIRST Australia, compare programs](https://www.firstaustralia.org/compare-programs); [FIRST Australia, FIRST LEGO League](https://www.firstaustralia.org/first-lego-league). Read 7 October 2026. Registration costs, kit costs and budgets printed there are not repeated here.
 
+The season
+
 ## BIOGLOW, and what a season asks of a team
 
 Each FIRST LEGO League season has a theme. For 2026-2027 it is BIOGLOW, part of the global FIRST CANOPY season, on biodiversity.
@@ -62,15 +58,15 @@ For Challenge teams, the season has two strands that both need programming think
 
 FIRST Australia offers free training modules for coaches, educators and volunteers, covering team management, robot building and programming, and competition preparation.
 
-**Where programming shows up across a Challenge season**
-
 | Stage of the season | Programming task | What good looks like |
-|---|---|---|
+| --- | --- | --- |
 | Early weeks | Drive straight and turn accurately | The robot lands within a few millimetres, run after run |
 | Middle weeks | One mission at a time | Each mission is its own short, named program |
 | Later weeks | Chain missions into one run | Missions start from known positions, not from where the last one ended |
 | Before events | Reliability testing | Every program is tested many times and failures are logged |
 | Judging | Explaining the code | Every team member can describe how the robot decides what to do |
+
+Worked lesson
 
 ## Motor degrees into millimetres, and why small errors grow
 
@@ -88,10 +84,8 @@ Motors are usually told how many degrees to turn. For 500 mm: 500 divided by 175
 
 Tyres squash a little, so the wheel may act like 55 mm, not 56. Then 1,023 degrees moves only about 491.1 mm, almost 9 mm short of the mission.
 
-**Programmed for a 56 mm wheel, driven on one that behaves like 55 mm (our calculation)**
-
 | Planned distance | Degrees programmed | Actual distance | Short by |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 250 mm | 512 | 245.5 mm | 4.5 mm |
 | 500 mm | 1,023 | 491.1 mm | 8.9 mm |
 | 1,000 mm | 2,046 | 982.1 mm | 17.9 mm |
@@ -111,6 +105,8 @@ Being able to explain how a program achieves accuracy is part of describing a ro
 
 The same measuring habit carries into secondary maths and science, where calibrating an instrument before trusting it is standard practice.
 
+How we help
+
 ## Making team members stronger programmers
 
 FIRST LEGO League is a team's own season. Our role is to teach programming and debugging so the team's robot does what the team intends.
@@ -123,24 +119,22 @@ We do not write a team's robot game programs, design its robot or prepare its in
 
 We do not promise an award, a place at a national championship or any result. We teach the habits that make a robot reliable, which is what a season rewards.
 
-**A term of programming support for a Challenge team member**
-
 | Weeks | Focus | Sign of progress |
-|---|---|---|
+| --- | --- | --- |
 | 1 and 2 | Measuring distance per turn | Drives 500 mm within a few millimetres, three times running |
 | 3 and 4 | Accurate turns with a gyro | Turns 90 degrees and recovers if nudged |
 | 5 and 6 | Missions as named programs | Can run any mission on its own from a known start |
 | 7 and 8 | Lining up on the table | Uses a wall or line to reset position between missions |
 | 9 and 10 | Testing and explaining | Keeps a run log and explains each design choice |
 
+Growing as a robot programmer
+
 ## Four rungs from Explore to Challenge and beyond
 
 Divisions follow age, but skill grows in its own order.
 
-**From first moving model to a reliable robot run**
-
 | Around | Rung | The sign it is secure |
-|---|---|---|
+| --- | --- | --- |
 | Years 1 to 4 | 1. Makes a model move | Builds and codes a moving model in Explore |
 | Years 4 to 6 | 2. Moves accurately | Drives and turns by measured amounts |
 | Years 6 to 8 | 3. Plans a run | Splits a run into missions with known start points |
@@ -149,63 +143,293 @@ Divisions follow age, but skill grows in its own order.
 ### When the robot misses
 
 Measure before changing code. Was it short, long, or turned? Each points to a different fix.
+
 Run the same program five times. One miss is noise; five misses the same way is a pattern you can fix.
 
 ### Related reading
 
 For another robotics competition, see [RoboCup Junior Australia coding help](/robocup-junior-australia-coding-help).
+
 The [competitions calendar](/australian-coding-maths-and-ai-competitions-calendar) lists coding and maths contests through the year.
+
+The catalogue
 
 ## Nine courses for FIRST LEGO League students
 
 Grouped from first blocks to text code and reasoning. Each card opens its syllabus.
 
+I
+
 ### First coding
 
 Explore and early Challenge
 
-- [Coding for kids](/courses/kids-coding-blocks-masterclass): Blocks, loops and procedures.
-- [Scratch for kids](/courses/scratch-programming-complete-course): Programs you can watch run.
-- [Computational thinking](/courses/problem-solving-and-computational-thinking-for-kids): Breaking a mission into steps.
+FLL / FC / 01
+
+#### Coding for kids
+
+Blocks, loops and procedures.
+
+[Open the syllabus](/courses/kids-coding-blocks-masterclass)
+
+FLL / FC / 02
+
+#### Scratch for kids
+
+Programs you can watch run.
+
+[Open the syllabus](/courses/scratch-programming-complete-course)
+
+FLL / FC / 03
+
+#### Computational thinking
+
+Breaking a mission into steps.
+
+[Open the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)II
 
 ### Measurement and maths
 
 Accurate robots
 
-- [Maths through coding](/courses/maths-through-coding): Circumference, ratio and angle in code.
-- [Mental maths for kids](/courses/mental-maths-mastery-kids): Quick estimates before testing.
-- [Middle years maths](/courses/comprehensive-middle-school-mathematics-mastery): Geometry behind turning and driving.
+FLL / MM / 01
+
+#### Maths through coding
+
+Circumference, ratio and angle in code.
+
+[Open the syllabus](/courses/maths-through-coding)
+
+FLL / MM / 02
+
+#### Mental maths for kids
+
+Quick estimates before testing.
+
+[Open the syllabus](/courses/mental-maths-mastery-kids)
+
+FLL / MM / 03
+
+#### Middle years maths
+
+Geometry behind turning and driving.
+
+[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)III
 
 ### Text code
 
 Python and beyond
 
-- [Python and AI for kids](/courses/python-ai-kids-masterclass): A first text language.
-- [Python for teens](/courses/python-complete-masterclass-teens): Structure for longer programs.
-- [Problem solving for teens](/courses/problem-solving-dsa-masterclass-teens): Logic for harder challenges.
+FLL / TX / 01
+
+#### Python and AI for kids
+
+A first text language.
+
+[Open the syllabus](/courses/python-ai-kids-masterclass)
+
+FLL / TX / 02
+
+#### Python for teens
+
+Structure for longer programs.
+
+[Open the syllabus](/courses/python-complete-masterclass-teens)
+
+FLL / TX / 03
+
+#### Problem solving for teens
+
+Logic for harder challenges.
+
+[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
+
+How lessons run
 
 ## Live online lessons that fit around team meetings
 
 Teachers work from India, behind Australian clocks: Melbourne is four and a half hours ahead of India time in winter and five and a half in summer, and Perth two and a half all year. An Australian after-school lesson therefore runs in the Indian afternoon, so it can sit alongside a team's weekly meeting.
 
-- **Weekday afternoon** A programming idea learned and practised.
-- **Weekend session** Applying the idea to the student's own robot.
-- **Before a tournament** Reliability testing and explaining the code.
+Weekday afternoon
 
-- **Measure, then code** Students use real measurements instead of guessed numbers.
-- **The team's robot** We teach and question; the team builds and programs.
-- **Blocks or Python** Whichever the team uses, with a path to the other.
-- **Groups of fifteen to twenty** Students at a similar level sharing methods.
-- **One-to-one option** For the team member leading the programming.
-- **No result promised** Referees and judges decide; we build the skills.
+A programming idea learned and practised.
+
+Weekend session
+
+Applying the idea to the student's own robot.
+
+Before a tournament
+
+Reliability testing and explaining the code.
+
+### Measure, then code
+
+Students use real measurements instead of guessed numbers.
+
+### The team's robot
+
+We teach and question; the team builds and programs.
+
+### Blocks or Python
+
+Whichever the team uses, with a path to the other.
+
+### Groups of fifteen to twenty
+
+Students at a similar level sharing methods.
+
+### One-to-one option
+
+For the team member leading the programming.
+
+### No result promised
+
+Referees and judges decide; we build the skills.
+
+Student work
+
+## Projects our students made themselves
+
+Built for the joy of it, outside any season. More in the [student labs](/student-labs).
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees
 
 Lessons are billed each month in US dollars at our international rate, with no joining fee and no contract. Team registration and kits are bought separately from FIRST Australia and its suppliers, not through us.
 
-- Free first class: USD 0. A first lesson that costs nothing. A look at how the student programs now. No card details.
-- Group batch: USD 100 a month. Fifteen to twenty students at one level. One teacher for the whole term. Movement and sensor exercises done together. A certificate on finishing.
-- One to one: USD 150 a month. A teacher for a single student. Time on that student's own team programs. Times arranged around team meetings.
+Free first class
+
+USD 0
+
+no card required
+
+- A first lesson that costs nothing
+- A look at how the student programs now
+- No card details
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Fifteen to twenty students at one level
+- One teacher for the whole term
+- Movement and sensor exercises done together
+- A certificate on finishing
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher for a single student
+- Time on that student's own team programs
+- Times arranged around team meetings
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Reviews taken word for word from our Google listing.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions about FIRST LEGO League
 
 ## What families and coaches ask
 
@@ -249,15 +473,54 @@ FIRST Australia lists Challenge national championships in December in Sydney, Pe
 
 Yes. Many students join once a robot exists and the team discovers its runs are not repeatable, which is exactly what the lessons address.
 
+Related pages
+
 ## More for Australian students
 
-- [RoboCup Junior Australia](/robocup-junior-australia-coding-help): Dance, rescue and soccer robots.
-- [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar): Every contest by month.
-- [After Scratch, Python](/after-scratch-next-step-python-australia): Moving from blocks to text.
-- [Coding for Year 7](/coding-for-year-7-australia): The first year of secondary coding.
-- [Coding classes in Australia](/coding-classes-in-australia): Every state and every age.
-- [Coding classes for kids](/online-coding-classes-for-kids-australia): What an online class looks like.
+Robotics, competitions and next steps in coding.
 
-## Contact
+### [RoboCup Junior Australia](/robocup-junior-australia-coding-help)
 
-Book the free first class at [https://learn.modernagecoders.com/first-lego-league-australia-coding-help](https://learn.modernagecoders.com/first-lego-league-australia-coding-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
+Dance, rescue and soccer robots.
+
+### [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar)
+
+Every contest by month.
+
+### [After Scratch, Python](/after-scratch-next-step-python-australia)
+
+Moving from blocks to text.
+
+### [Coding for Year 7](/coding-for-year-7-australia)
+
+The first year of secondary coding.
+
+### [Coding classes in Australia](/coding-classes-in-australia)
+
+Every state and every age.
+
+### [Coding classes for kids](/online-coding-classes-for-kids-australia)
+
+What an online class looks like.
+
+Start here
+
+## Book a free robot programming class
+
+Tell us the division, the year level and how the team codes now. The free class works through accurate driving with a teacher and ends with a clear next step.
+
+Would you rather read first? All course outlines sit on the [course atlas](/course-atlas), and [how we teach](/how-we-teach) explains our lessons.
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20class%20about%20programming%20for%20a%20FIRST%20LEGO%20League%20team%20in%20Australia.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
+
+WhatsApp tends to be the fastest way to reach us. The number is Indian because we work from India; we have no Australian office.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/first-lego-league-australia-coding-help*

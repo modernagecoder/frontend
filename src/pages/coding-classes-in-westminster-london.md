@@ -4,46 +4,32 @@ description: "Live online coding, Python, AI and maths classes for Westminster: 
 canonical: https://learn.modernagecoders.com/coding-classes-in-westminster-london
 source: src/pages/coding-classes-in-westminster-london.html
 ---
-> Westminster is the central London borough of Marylebone, Pimlico, Paddington, Maida Vale, Soho, Mayfair, St John's Wood and Victoria, with 204,236 residents at the 2021 Census and more listed buildings than any page in this series has yet counted, the Palace of Westminster and Westminster Abbey among them. Good coding classes connect a formula to something real enough to hear ticking, and this page does that with the Great Clock's pendulum: Parliament's own figures, a physics formula, and the question of how a single old penny speeds the clock by two-fifths of a second a day. A teacher in India works with each learner live on video: one to one, or in a class of fifteen to twenty at the same stage, for anyone aged 6 to 67. The first lesson is free. After that it costs USD 100 a month in a group, or USD 150 a month privately.
+> Live online coding, Python, AI and maths classes for Westminster: Marylebone, Pimlico, Paddington, Maida Vale, Soho, Mayfair and St John's Wood. Ages 6 to 67.
 
-[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [London](/best-coding-class-in-london) / Westminster
-
-City of Westminster / Live online
-
-# Coding classes in Westminster
-
-**What are the best coding classes in Westminster?** Westminster is the central London borough of Marylebone, Pimlico, Paddington, Maida Vale, Soho, Mayfair, St John's Wood and Victoria, with 204,236 residents at the 2021 Census and more listed buildings than any page in this series has yet counted, the Palace of Westminster and Westminster Abbey among them. Good coding classes connect a formula to something real enough to hear ticking, and this page does that with the Great Clock's pendulum: Parliament's own figures, a physics formula, and the question of how a single old penny speeds the clock by two-fifths of a second a day. A teacher in India works with each learner live on video: one to one, or in a class of fifteen to twenty at the same stage, for anyone aged 6 to 67. The first lesson is free. After that it costs USD 100 a month in a group, or USD 150 a month privately.
-
-UK Parliament publishes the vital statistics of the Great Clock in the Elizabeth Tower. Its pendulum is 4.4 metres long and weighs 310 kilograms. Each swing, or beat, takes exactly two seconds. And it is fine-tuned with pre-decimal pennies: adding one penny makes the clock gain two-fifths of a second over a day. Our learners take those numbers and a formula from school physics, the period of a pendulum, and ask what they imply. A perfect textbook pendulum that beats every two seconds would be just under four metres long, not 4.4, which tells us something about real pendulums. And a gain of two-fifths of a second a day turns out to mean shortening the pendulum's effective length by about 37 thousandths of a millimetre. A penny, it turns out, is a very precise tool.
-
-Facts last verified 25 September 2026. Teaching is online; no Westminster branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
+Skip to contentCourse picks for Westminster
 
 ## Courses Westminster learners start with
 
 Picture a Year 2 child in Pimlico who swings on every swing in the park and counts, a Year 10 pupil in Marylebone preparing for GCSE physics, a Year 13 student in Maida Vale applying for engineering, and a Westminster office worker who has walked past the clock for years without asking how it works. Each can start with a free lesson.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): A Scratch pendulum that swings, with a slider for length and a counter for swings per minute.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 9 to 12): First Python with a formula: work out how long a pendulum must be to beat once a second.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Python for Key Stages 3 to 5, including the Great Clock penny calculation on this page.
-- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): For adults curious about the maths inside everyday engineering, explained step by step with code.
+[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsA Scratch pendulum that swings, with a slider for length and a counter for swings per minute.See the syllabus](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 9 to 12Python and AI for KidsFirst Python with a formula: work out how long a pendulum must be to beat once a second.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensPython for Key Stages 3 to 5, including the Great Clock penny calculation on this page.See the syllabus](/courses/python-complete-masterclass-teens)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)For adults curious about the maths inside everyday engineering, explained step by step with code.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-The four we are known for, on every market page:
+Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
 
-- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
-- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
-- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
-- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+The four we are known for
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+### Python, AI, vibe coding and agentic coding
+
+These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+
+[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Westminster by the numbers
 
 ## 204,236 residents and 4,003 listed entries
 
 Figures come from the organisation named beside them, or from our count of its open data.
 
-**Westminster in four figures**
-
 | What | Number | Source |
-|---|---|---|
+| --- | --- | --- |
 | People counted in the 2021 Census | 204,236 | ONS table TS001 |
 | Heritage List entries we counted inside the borough | 4,003, including 206 at Grade I | Historic England data, 25 September 2026 |
 | Length of the Great Clock's pendulum | 4.4 m, weighing 310 kg | UK Parliament, facts and figures |
@@ -61,14 +47,14 @@ Westminster Abbey, the Collegiate Church of St Peter, is also Grade I, one of 20
 
 The council lists libraries at Charing Cross, Church Street, Maida Vale, Marylebone, Mayfair, Paddington, Pimlico and Victoria, and a Westminster Music Library.
 
+The data
+
 ## What Parliament says about the Great Clock
 
 Every number in this table comes from UK Parliament's facts and figures page about Big Ben and the Elizabeth Tower.
 
-**Great Clock facts from UK Parliament**
-
 | Part | Figure |
-|---|---|
+| --- | --- |
 | Pendulum length | 4.4 metres |
 | Pendulum weight | 310 kilograms, with a 203 kilogram bob of steel and zinc tubes |
 | Length of one beat | 2 seconds |
@@ -77,6 +63,8 @@ Every number in this table comes from UK Parliament's facts and figures page abo
 | Height of the Elizabeth Tower | 96 metres |
 
 A beat is one swing, from one side to the other, so a full there-and-back cycle takes four seconds. The bob is made of two metals, steel and zinc, in nested tubes; learners are invited to find out, as an extension, why a clockmaker would combine two metals that expand by different amounts when warm.
+
+Signature project
 
 ## From a school formula to a penny's worth of physics
 
@@ -94,10 +82,8 @@ For a four-second swing the formula gives a length of 3.98 metres. The real pend
 
 Gaining 0.4 seconds a day is 4.6 parts in a million. Because the period depends on the square root of length, that needs the effective length to shrink by twice as much: about 37 micrometres.
 
-**What the numbers imply, computed 25 September 2026**
-
 | Question | Answer |
-|---|---|
+| --- | --- |
 | Length of a perfect simple pendulum with a 4-second swing | 3.98 m |
 | Swing of a perfect simple pendulum 4.4 m long | 4.21 s |
 | Change in rate from one penny | 4.6 parts per million faster |
@@ -109,6 +95,8 @@ The last row is a small puzzle. Parliament gives 190 kilometres a year for the m
 ### Why this is worth more than an AI summary
 
 An AI assistant will happily repeat that pennies adjust Big Ben. A learner who has turned "two-fifths of a second a day" into 37 micrometres, found that the real pendulum is not the textbook one, and spotted a mismatch in the minute-hand figure, has practised the three things that matter most with numbers: use the right formula, question the model, and check published claims. No summary can do that for them.
+
+The key idea
 
 ## Why square roots make pendulums forgiving
 
@@ -128,6 +116,8 @@ The simple formula assumes all the mass is at one point. The gap between 3.98 m 
 
 GCSE physics students meet pendulums and can follow every step; A-level students can go further with the physics of real, compound pendulums and derive the square-root sensitivity. The clock figures are UK Parliament's own; the calculations are ours, using g of 9.81 metres per second squared, dated 25 September 2026. UK Parliament, Westminster City Council, Historic England, TfL and the ONS have no connection with Modern Age Coders.
 
+Getting around
+
 ## Westminster station, and a desk at home
 
 Parliament, the Abbey and three Tube lines sit within a few hundred metres. Our classes need none of them.
@@ -144,16 +134,41 @@ Maida Vale in the north and Pimlico by the river in the south are far apart, yet
 
 Classes keep a steady beat of their own: two evenings a week, fifteen to twenty learners at one stage.
 
-**Westminster in London** The City of Westminster is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) covers all of them and the City of London, linking each page as it goes live, including [Camden](/coding-classes-in-camden-london) to the north and [Kensington and Chelsea](/coding-classes-in-kensington-and-chelsea-london) to the west.
+Westminster in London
+
+The City of Westminster is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) covers all of them and the City of London, linking each page as it goes live, including [Camden](/coding-classes-in-camden-london) to the north and [Kensington and Chelsea](/coding-classes-in-kensington-and-chelsea-london) to the west.
+
+Learning ladder
 
 ## From swinging to square roots
 
 The free lesson shows us where a learner really is, and that decides where they start.
 
-- **Ages 6 to 10: Swings and timing** Children animate a pendulum in Scratch, change its length and count the swings. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
-- **Ages 10 to 13: Formulas in code** Python that turns a physics formula into a calculator and tests it against real measurements. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
-- **Ages 13 to 18: Sensitivity and models** Square roots, parts per million and simple versus real models, strong ground for GCSE and A-level physics. [Python for Teens](/courses/python-complete-masterclass-teens), [Full Stack Web Development for Teens](/courses/full-stack-web-development-teens-masterclass)
-- **Ages 18 to 67: Everyday engineering** Adults explore the maths behind machines they see daily, from clocks to cranes. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
+Ages 6 to 10
+
+### Swings and timing
+
+Children animate a pendulum in Scratch, change its length and count the swings.
+
+[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 10 to 13
+
+### Formulas in code
+
+Python that turns a physics formula into a calculator and tests it against real measurements.
+
+[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 18
+
+### Sensitivity and models
+
+Square roots, parts per million and simple versus real models, strong ground for GCSE and A-level physics.
+
+[Python for Teens](/courses/python-complete-masterclass-teens)[Full Stack Web Development for Teens](/courses/full-stack-web-development-teens-masterclass)Ages 18 to 67
+
+### Everyday engineering
+
+Adults explore the maths behind machines they see daily, from clocks to cranes.
+
+[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)[Python Automation Course](/courses/python-ai-automation-masterclass-college)Coding and AI
 
 ## AI can quote the pendulum formula. Why should a Westminster teenager use it on a real clock?
 
@@ -165,30 +180,139 @@ Those habits matter far beyond clocks, in any job where a calculation meets the 
 
 Westminster keeps the country's most famous clock running with a pile of old pennies. A learner here who can explain why that works has turned a curiosity into real physics. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
+Delivery
+
 ## Paddington to Victoria, live online
 
 Anywhere in Westminster, class begins as soon as the call connects.
 
-- **At home** Learners need their own screen, a set of headphones and a broadband line good enough for an hour of video, nothing more.
-- **School stages in England** We describe progress in English Key Stages, from Key Stage 1 to sixth form, and name GCSE and A level where relevant. Every lesson is taught in English.
-- **Free to try** The first lesson is real teaching and ends with a suggested level and course; no card is requested.
-- **Stage-based classes** Fifteen to twenty learners at one stage make up each class, from across the UK and abroad, so there is usually a sensible time.
-- **Two evenings weekly** Most classes run two evenings a week, pausing for holidays and exams by arrangement.
-- **Always UK time** Teachers work from India, and the times we send are always UK times.
+### At home
 
-**A central borough, a wide class** About 204,000 people live in Westminster, and a strong class still needs five learners at the same stage free together, so our groups draw from far beyond it.
+Learners need their own screen, a set of headphones and a broadband line good enough for an hour of video, nothing more.
+
+### School stages in England
+
+We describe progress in English Key Stages, from Key Stage 1 to sixth form, and name GCSE and A level where relevant. Every lesson is taught in English.
+
+### Free to try
+
+The first lesson is real teaching and ends with a suggested level and course; no card is requested.
+
+### Stage-based classes
+
+Fifteen to twenty learners at one stage make up each class, from across the UK and abroad, so there is usually a sensible time.
+
+### Two evenings weekly
+
+Most classes run two evenings a week, pausing for holidays and exams by arrangement.
+
+### Always UK time
+
+Teachers work from India, and the times we send are always UK times.
+
+A central borough, a wide class
+
+About 204,000 people live in Westminster, and a strong class still needs five learners at the same stage free together, so our groups draw from far beyond it.
+
+Fees
 
 ## Fees for Westminster families
 
 A free first lesson, then one monthly fee, the same in Mayfair as in Church Street.
 
-- First class: USD 0. A full lesson with a teacher, free, ending with a recommended level, course and weekly time.
-- Group tuition: USD 100 a month. About eight live lessons a month in a class of fifteen to twenty at one stage.
-- Private tuition: USD 150 a month. About eight live lessons a month, one to one.
+First class**USD 0**
+
+A full lesson with a teacher, free, ending with a recommended level, course and weekly time.
+
+Group tuition**USD 100**
+
+About eight live lessons a month in a class of fifteen to twenty at one stage.
+
+Private tuition**USD 150**
+
+About eight live lessons a month, one to one.
 
 Fees are charged in US dollars for every family outside India, Westminster included, so you will find no sterling figures on the site. The first payment falls due only after the free lesson, once a course and a weekly evening have been chosen. The pricing page covers pauses, missed lessons and moving between class and private teaching.
 
+Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Westminster.)Reviews
+
+## Six families on Google, unedited
+
+Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Free placement class
+
+## Book your free lesson
+
+An age or school year and one interest is enough for us to plan. We might start with a Scratch pendulum, a Python formula calculator, or the Great Clock project on this page.
+
+### Want a class sooner? Book a priority demo
+
+A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
+
+[Book a priority demo](/book-demo)
+
+### Contact the team directly
+
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented Westminster one.
+
+[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Westminster.)
+
+Submitted details are used for placement and follow-up.
+
+FAQ
+
 ## Questions from Westminster
+
+About the borough, the Great Clock project and our lessons.
 
 ### How many people live in Westminster?
 
@@ -230,10 +354,14 @@ The first lesson is free. After that, a group place costs USD 100 a month for tw
 
 By level, pace and goals rather than by age or neighbourhood, with fifteen to twenty learners at one stage. Where no group fits the learner's week, one-to-one lessons are offered.
 
+Explore London
+
 ## Across the capital
 
 The [London page](/best-coding-class-in-london) gathers every borough and the City of London, linked as pages are published, including [Greenwich](/coding-classes-in-greenwich-london), whose page measures the Earth's own clock, and [Richmond upon Thames](/coding-classes-in-richmond-upon-thames-london). Physics models like this one are a gentle way into the [machine learning we teach London learners](/ai-and-machine-learning-classes-in-london), and parents moving between England and Scotland, Wales or Northern Ireland can check school years on the [UK coding page](/coding-classes-in-united-kingdom).
 
-## Contact
+Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Westminster.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-westminster-london](https://learn.modernagecoders.com/coding-classes-in-westminster-london#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+---
+
+*Canonical: https://learn.modernagecoders.com/coding-classes-in-westminster-london*
